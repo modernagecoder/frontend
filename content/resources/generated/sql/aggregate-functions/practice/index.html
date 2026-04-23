@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Aggregate Functions (COUNT, SUM, AVG, MIN, MAX) | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Aggregate Functions (COUNT, SUM, AVG, MIN, MAX) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="aggregate functions (count, sum, avg, min, max) practice, sql questions, sql practice problems, aggregate functions (count, sum, avg, min, max) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/aggregate-functions/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/aggregate-functions/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/aggregate-functions/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/aggregate-functions/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/aggregate-functions/practice">
+    <meta property="og:title" content="Practice Questions - Aggregate Functions (COUNT, SUM, AVG, MIN, MAX) | SQL | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Aggregate Functions (COUNT, SUM, AVG, MIN, MAX) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/aggregate-functions/practice">
+    <meta name="twitter:title" content="Practice Questions - Aggregate Functions (COUNT, SUM, AVG, MIN, MAX) | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Aggregate Functions (COUNT, SUM, AVG, MIN, MAX) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)",
+    "description": "58+ practice questions on Aggregate Functions (COUNT, SUM, AVG, MIN, MAX) in SQL.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/aggregate-functions/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)",
+        "item": "https://learn.modernagecoders.com/resources/sql/aggregate-functions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/aggregate-functions/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/aggregate-functions">Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 9</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</h1>
+            <a href="/resources/sql/aggregate-functions" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">16</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">18</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Count the total number of orders.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">COUNT(*).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><pre><code>SELECT COUNT(*) FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the total revenue (sum of all amounts)?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">SUM(amount).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><pre><code>SELECT SUM(amount) AS total_revenue FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find the smallest and largest order amounts.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">MIN and MAX.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><pre><code>SELECT MIN(amount) AS smallest, MAX(amount) AS largest FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Calculate the average order amount.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">AVG(amount).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><pre><code>SELECT AVG(amount) AS avg_order FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Count the number of unique cities with orders.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">COUNT(DISTINCT city).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><pre><code>SELECT COUNT(DISTINCT city) AS unique_cities FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does COUNT(discount) return on our orders table?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Excludes NULLs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>8</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Total revenue from Delivered orders only.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">SUM with WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><pre><code>SELECT SUM(amount) FROM orders WHERE status = 'Delivered';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many orders were Cancelled?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">COUNT(*) with WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><pre><code>SELECT COUNT(*) FROM orders WHERE status = 'Cancelled';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT AVG(discount) FROM orders;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">NULLs excluded from both parts.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>356.25</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT AVG(COALESCE(discount, 0)) FROM orders;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">NULLs as 0 over all 12 rows.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>237.50</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find the earliest and latest order dates.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">MIN and MAX on dates.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><pre><code>SELECT MIN(order_date) AS earliest, MAX(order_date) AS latest FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain the difference between COUNT(*) and COUNT(column).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">NULL handling.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>COUNT(*)</code> counts all rows, regardless of content. <code>COUNT(column)</code> counts only rows where <em>column</em> is NOT NULL. For a column with 10 values where 3 are NULL: COUNT(*) = 10, COUNT(column) = 7.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does SUM of an all-NULL column return NULL instead of 0?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">SQL standard behavior.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">Because there are no values to sum, SQL returns NULL — the logical 'unknown.' Returning 0 would be an assumption. If you want 0, use <code>COALESCE(SUM(col), 0)</code>. This convention also applies to MIN, MAX, and AVG: all-NULL input yields NULL output.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many unique customers placed orders in March 2026?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">COUNT(DISTINCT) with date range.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>SELECT COUNT(DISTINCT customer_name) AS march_customers
+FROM orders
+WHERE order_date BETWEEN '2026-03-01' AND '2026-03-31';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the average amount of Delivered orders?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">AVG with WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><pre><code>SELECT AVG(amount) FROM orders WHERE status = 'Delivered';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Count how many orders each status type has (preview of GROUP BY — use conditional aggregation).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">SUM(CASE WHEN ...).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>SELECT
+  SUM(CASE WHEN status = 'Delivered' THEN 1 ELSE 0 END) AS delivered,
+  SUM(CASE WHEN status = 'Cancelled' THEN 1 ELSE 0 END) AS cancelled,
+  SUM(CASE WHEN status = 'Pending' THEN 1 ELSE 0 END) AS pending
+FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT MIN(customer_name), MAX(customer_name) FROM orders;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Strings sort alphabetically.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>Aarav Sharma, Vikram Reddy</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Combine all Mumbai customer names into a single comma-separated string.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">GROUP_CONCAT with WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>SELECT GROUP_CONCAT(customer_name) AS mumbai_customers
+FROM orders
+WHERE city = 'Mumbai';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find orders with amount greater than the overall average. Return customer_name and amount.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Subquery for AVG.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>SELECT customer_name, amount FROM orders
+WHERE amount > (SELECT AVG(amount) FROM orders);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why can't you use WHERE amount > AVG(amount) directly?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Order of operations.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">Because WHERE runs BEFORE aggregation. When WHERE evaluates each row, AVG has not been computed yet — the aggregate needs all rows to finish first. SQL enforces a strict order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates belong in SELECT or HAVING, not WHERE. To compare a row to an aggregate, use a subquery that computes the aggregate separately.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT COUNT(*), COUNT(discount), COUNT(DISTINCT city)
+FROM orders
+WHERE status = 'Delivered';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Filter first, then aggregate.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><code>8, 6, 6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What was the average order amount in February 2026?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">WHERE + AVG.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><pre><code>SELECT AVG(amount) FROM orders
+WHERE order_date BETWEEN '2026-02-01' AND '2026-02-28';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">For each Mumbai customer, show the names sorted by amount DESC combined into one string with ' > ' separator.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">GROUP_CONCAT with ORDER BY and SEPARATOR.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><pre><code>SELECT GROUP_CONCAT(customer_name ORDER BY amount DESC SEPARATOR ' > ') AS mumbai_by_amount
+FROM orders
+WHERE city = 'Mumbai';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Return the total revenue, total discount given, and net revenue (revenue minus discount), treating NULL discounts as 0.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">SUM with COALESCE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24"><pre><code>SELECT
+  SUM(amount) AS gross_revenue,
+  SUM(COALESCE(discount, 0)) AS total_discount,
+  SUM(amount) - SUM(COALESCE(discount, 0)) AS net_revenue
+FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">In what order are WHERE, SELECT, ORDER BY, and aggregate functions evaluated?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">Logical execution order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25">Logical order: FROM → WHERE → GROUP BY → HAVING → SELECT (including aggregates) → ORDER BY → LIMIT. Aggregates are computed during the SELECT phase after WHERE has already filtered rows. This is why WHERE cannot reference aggregates — they do not exist yet. ORDER BY runs after aggregates, so it CAN reference aliases and aggregate results.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Get the total number of orders.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">COUNT(*).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>SELECT COUNT(*) FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the total amount across all orders?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">SUM(amount).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>SELECT SUM(amount) FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the largest order amount?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">MAX.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><pre><code>SELECT MAX(amount) FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Average amount?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">AVG.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>SELECT AVG(amount) FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is COUNT(DISTINCT status)?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Unique statuses.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Count Mumbai orders.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">COUNT + WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>SELECT COUNT(*) FROM orders WHERE city = 'Mumbai';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does SUM(NULL) return?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">NULL-only sum.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Total discount given across all orders (treating NULL as 0).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">SUM of COALESCE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>SELECT SUM(COALESCE(discount, 0)) FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Count orders from each city using conditional aggregation (show Mumbai_count, Delhi_count).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">SUM(CASE WHEN city = 'Mumbai' ...).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>SELECT
+  SUM(CASE WHEN city = 'Mumbai' THEN 1 ELSE 0 END) AS mumbai_count,
+  SUM(CASE WHEN city = 'Delhi' THEN 1 ELSE 0 END) AS delhi_count
+FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find the largest amount in Bengaluru.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">MAX + WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>SELECT MAX(amount) FROM orders WHERE city = 'Bengaluru';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Average amount of Pending orders.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">AVG + WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>SELECT AVG(amount) FROM orders WHERE status = 'Pending';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT COUNT(discount), SUM(discount), AVG(discount) FROM orders WHERE discount IS NULL;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">All rows filtered out have NULL discount, so the aggregates work on... nothing?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>0, NULL, NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Get the total revenue from Bengaluru and Mumbai combined.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">SUM + IN.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><pre><code>SELECT SUM(amount) FROM orders
+WHERE city IN ('Bengaluru', 'Mumbai');</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find the range of order amounts (MAX - MIN).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">MAX and MIN in same query.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><pre><code>SELECT MAX(amount) - MIN(amount) AS amount_range FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Count how many orders have a discount given.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">COUNT(discount) excludes NULLs.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15"><pre><code>SELECT COUNT(discount) FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does AVG(amount) return in a WHERE that filters 0 rows?<br><pre><code>SELECT AVG(amount) FROM orders WHERE city = 'Kolkata';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-16">No Kolkata orders.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-16"><code>NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the total amount of orders placed by customers whose name starts with 'A'?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-17">SUM + LIKE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-17"><pre><code>SELECT SUM(amount) FROM orders
+WHERE customer_name LIKE 'A%';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find how many orders were above the overall average amount.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-18">COUNT with subquery.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-18"><pre><code>SELECT COUNT(*) FROM orders
+WHERE amount > (SELECT AVG(amount) FROM orders);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">For Delivered orders, show the total revenue, total discount (NULL as 0), and net revenue.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-19">Combine SUM with WHERE and COALESCE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-19"><pre><code>SELECT
+  SUM(amount) AS gross,
+  SUM(COALESCE(discount, 0)) AS total_discount,
+  SUM(amount) - SUM(COALESCE(discount, 0)) AS net
+FROM orders
+WHERE status = 'Delivered';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find the customer name with the largest order amount. (Hint: use a subquery to find MAX, then match.)</div><button type="button" class="collapsible-toggle" data-target="hint-mx-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-20">Subquery in WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-20"><pre><code>SELECT customer_name, amount FROM orders
+WHERE amount = (SELECT MAX(amount) FROM orders);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT COUNT(*) - COUNT(discount) FROM orders;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-21">Total rows minus non-NULL discount rows.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-21"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Create a string with all Delhi customer names separated by ' & ', ordered by order_date ASC.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-22">GROUP_CONCAT with ORDER BY and SEPARATOR.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-22"><pre><code>SELECT GROUP_CONCAT(customer_name ORDER BY order_date ASC SEPARATOR ' & ') AS delhi_customers
+FROM orders
+WHERE city = 'Delhi';</code></pre></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which function counts the total number of rows in a table?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SUM(*)</li><li><span class="mcq-option-label">B.</span> COUNT(*)</li><li><span class="mcq-option-label">C.</span> TOTAL()</li><li><span class="mcq-option-label">D.</span> ROWS()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> COUNT(*) counts all rows, including those with NULLs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does SUM(salary) return if all salary values are NULL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> NULL</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> Empty string</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> SUM of all NULLs (or no rows) returns NULL. Wrap with COALESCE(SUM(col), 0) if you want 0.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which function gives the largest value in a column?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> MAX()</li><li><span class="mcq-option-label">B.</span> MAXIMUM()</li><li><span class="mcq-option-label">C.</span> TOP()</li><li><span class="mcq-option-label">D.</span> LARGEST()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: A</strong><br><strong>A is correct.</strong> MAX(column) returns the largest value. Works on numbers, dates, and strings (alphabetically).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">For a column with values [10, 20, NULL, 30], what does AVG return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 15 (60 / 4)</li><li><span class="mcq-option-label">B.</span> 20 (60 / 3)</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> 30</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> AVG skips NULLs in both numerator and denominator. Sum: 60. Count of non-NULL: 3. AVG: 60/3 = 20.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Can aggregate functions be used in the WHERE clause?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> No, WHERE runs before aggregation</li><li><span class="mcq-option-label">C.</span> Only COUNT can be in WHERE</li><li><span class="mcq-option-label">D.</span> Only if GROUP BY is used</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> WHERE filters rows before aggregation, so aggregates don't exist yet when WHERE runs. Use HAVING (after GROUP BY) or a subquery instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which counts unique values in a column?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> COUNT(column)</li><li><span class="mcq-option-label">B.</span> COUNT(DISTINCT column)</li><li><span class="mcq-option-label">C.</span> UNIQUE COUNT(column)</li><li><span class="mcq-option-label">D.</span> COUNT UNIQUE column</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> COUNT(DISTINCT col) returns the count of unique non-NULL values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">MIN works on which types?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Numbers only</li><li><span class="mcq-option-label">B.</span> Dates only</li><li><span class="mcq-option-label">C.</span> Numbers, dates, and strings</li><li><span class="mcq-option-label">D.</span> Only numeric and Boolean</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> MIN/MAX work on any orderable type. For strings, alphabetical order; for dates, chronological; for numbers, numeric.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the difference between COUNT(*) and COUNT(1)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> COUNT(*) is faster</li><li><span class="mcq-option-label">B.</span> COUNT(1) is faster</li><li><span class="mcq-option-label">C.</span> They are functionally identical in modern MySQL</li><li><span class="mcq-option-label">D.</span> COUNT(1) returns 1, COUNT(*) returns the row count</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Both count all rows. Modern optimizers treat them the same. Old myth says COUNT(1) is faster — it is not. Use COUNT(*) — it's idiomatic SQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">For [10, 20, NULL], what does AVG(COALESCE(col, 0)) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 15 (30/2)</li><li><span class="mcq-option-label">B.</span> 10 (30/3)</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> 20</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> COALESCE turns NULL into 0. Values: [10, 20, 0]. Sum: 30. Count: 3. AVG: 30/3 = 10.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does MIN(customer_name) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Shortest customer name</li><li><span class="mcq-option-label">B.</span> Alphabetically first customer name</li><li><span class="mcq-option-label">C.</span> NULL always for string columns</li><li><span class="mcq-option-label">D.</span> Error — MIN doesn&#39;t work on strings</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> For strings, MIN returns the alphabetically first value. In our data, 'Aarav Sharma' is first.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which query finds the largest order amount?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT TOP(amount) FROM orders;</li><li><span class="mcq-option-label">B.</span> SELECT MAX(amount) FROM orders;</li><li><span class="mcq-option-label">C.</span> SELECT amount FROM orders LIMIT 1 DESC;</li><li><span class="mcq-option-label">D.</span> SELECT GREATEST(amount) FROM orders;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> MAX is the SQL standard. GREATEST exists but takes multiple arguments (for comparing across columns), not an aggregate.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does SUM(CASE WHEN status='Delivered' THEN 1 ELSE 0 END) compute?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Total amount of delivered orders</li><li><span class="mcq-option-label">B.</span> Number of delivered orders</li><li><span class="mcq-option-label">C.</span> Percentage of delivered orders</li><li><span class="mcq-option-label">D.</span> Nothing useful</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each matching row contributes 1, others contribute 0. SUM gives the count. This is 'conditional aggregation' and is common in pre-GROUP BY SQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Why can't this query work? SELECT name FROM employees WHERE salary = MAX(salary);</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Syntax error in MAX</li><li><span class="mcq-option-label">B.</span> WHERE runs before aggregation, so MAX is not yet computed</li><li><span class="mcq-option-label">C.</span> You can&#39;t compare salary to itself</li><li><span class="mcq-option-label">D.</span> MAX is reserved in WHERE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> WHERE executes before aggregates. Fix: WHERE salary = (SELECT MAX(salary) FROM employees).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">GROUP_CONCAT is available in which database?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> MySQL</li><li><span class="mcq-option-label">B.</span> PostgreSQL</li><li><span class="mcq-option-label">C.</span> SQL Server</li><li><span class="mcq-option-label">D.</span> All of the above</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: A</strong><br><strong>A is correct.</strong> GROUP_CONCAT is MySQL-specific. PostgreSQL and SQL Server use STRING_AGG(col, separator). Oracle uses LISTAGG.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">For column with [100, 200, NULL, 200, 300], what are COUNT(*), COUNT(col), COUNT(DISTINCT col)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5, 4, 4</li><li><span class="mcq-option-label">B.</span> 5, 4, 3</li><li><span class="mcq-option-label">C.</span> 4, 4, 3</li><li><span class="mcq-option-label">D.</span> 5, 5, 3</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> COUNT(*) = 5 all rows. COUNT(col) = 4 non-NULL. COUNT(DISTINCT col) = 3 unique non-NULL (100, 200, 300 — 200 is duplicate).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">A table has 1000 rows; half have NULL in the 'email' column. What does AVG(LENGTH(email)) compute?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Total email length across all 1000 rows divided by 1000</li><li><span class="mcq-option-label">B.</span> Total length of non-NULL emails divided by 500</li><li><span class="mcq-option-label">C.</span> Always NULL</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> LENGTH(NULL) = NULL. AVG ignores NULLs. So it averages the lengths of the 500 non-NULL emails.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does SUM(NULL) + 5 return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5</li><li><span class="mcq-option-label">B.</span> NULL</li><li><span class="mcq-option-label">C.</span> 0</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> SUM of no rows or all NULLs = NULL. NULL + 5 = NULL (arithmetic propagates NULL). Use COALESCE to guard.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">In SQL's logical execution order, when do aggregates get computed?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Before WHERE</li><li><span class="mcq-option-label">B.</span> After WHERE, during SELECT</li><li><span class="mcq-option-label">C.</span> After ORDER BY</li><li><span class="mcq-option-label">D.</span> Before FROM</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> Order: FROM → WHERE → GROUP BY → HAVING → SELECT (aggregates here) → ORDER BY → LIMIT. That is why HAVING can see aggregates but WHERE cannot.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">COUNT(*) - COUNT(col) gives what?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Total rows</li><li><span class="mcq-option-label">B.</span> Non-NULL count</li><li><span class="mcq-option-label">C.</span> Number of NULLs in that column</li><li><span class="mcq-option-label">D.</span> Duplicate count</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: C</strong><br><strong>C is correct.</strong> COUNT(*) counts all rows, COUNT(col) counts non-NULL rows, so their difference is the NULL count. Useful trick.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What does this return? SELECT AVG(amount) FROM orders WHERE city = 'NoSuchCity';</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> NULL</li><li><span class="mcq-option-label">C.</span> Empty set (no row)</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> Aggregates always return exactly one row (without GROUP BY). With no matching rows, AVG returns NULL. COUNT(*) would be 0 — different behavior.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Business KPI Summary</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Return one row showing: total orders, total revenue, average order value, smallest order, largest order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">12, 44500.00, 3708.33, 1200.00, 8900.00</div>
+                </div><div class="challenge-constraints">Single query.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">SELECT
+  COUNT(*) AS total_orders,
+  SUM(amount) AS total_revenue,
+  AVG(amount) AS avg_order_value,
+  MIN(amount) AS smallest_order,
+  MAX(amount) AS largest_order
+FROM orders;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Delivered Orders Summary</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Return total count, total revenue, and average amount but only for orders where status = 'Delivered'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">8, 27600.00, 3450.00</div>
+                </div><div class="challenge-constraints">WHERE + aggregates.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">SELECT
+  COUNT(*) AS delivered_count,
+  SUM(amount) AS delivered_revenue,
+  AVG(amount) AS avg_delivered
+FROM orders
+WHERE status = &#39;Delivered&#39;;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: NULL-Safe Averages</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">For the discount column (which has 4 NULLs), compute two averages: (a) AVG ignoring NULLs, (b) AVG treating NULLs as 0. Show both.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">excluding_nulls: 356.25, treating_null_as_zero: 237.50</div>
+                </div><div class="challenge-constraints">Use COALESCE for the second.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">SELECT
+  AVG(discount) AS excluding_nulls,
+  AVG(COALESCE(discount, 0)) AS treating_null_as_zero
+FROM orders;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Order Status Counts</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Count how many orders are in each status using conditional aggregation — return columns 'delivered', 'cancelled', 'pending' in a single row.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">8, 2, 2</div>
+                </div><div class="challenge-constraints">SUM(CASE WHEN ...). Do not use GROUP BY.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">SELECT
+  SUM(CASE WHEN status = &#39;Delivered&#39; THEN 1 ELSE 0 END) AS delivered,
+  SUM(CASE WHEN status = &#39;Cancelled&#39; THEN 1 ELSE 0 END) AS cancelled,
+  SUM(CASE WHEN status = &#39;Pending&#39; THEN 1 ELSE 0 END) AS pending
+FROM orders;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Find Customers Above Average Spend</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">List all customers who placed an order larger than the overall average amount.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders table. Overall average = 3708.33.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Rohan Gupta, Vikram Reddy, Karan Mehta, Aditya Rao, Diya Nair (5 rows)</div>
+                </div><div class="challenge-constraints">Use a subquery.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">SELECT customer_name, amount FROM orders
+WHERE amount &gt; (SELECT AVG(amount) FROM orders)
+ORDER BY amount DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Monthly Revenue</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Compute the total revenue for each month (January, February, March, April 2026) using conditional aggregation.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">jan: 4300 (2500+1800), feb: 13300 (5600+3200+4500), mar: 22700 (1200+6700+2100+3800+8900), apr: 4200 (2700+1500)</div>
+                </div><div class="challenge-constraints">SUM(CASE WHEN MONTH(order_date) = 1...).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">SELECT
+  SUM(CASE WHEN MONTH(order_date) = 1 THEN amount ELSE 0 END) AS jan,
+  SUM(CASE WHEN MONTH(order_date) = 2 THEN amount ELSE 0 END) AS feb,
+  SUM(CASE WHEN MONTH(order_date) = 3 THEN amount ELSE 0 END) AS mar,
+  SUM(CASE WHEN MONTH(order_date) = 4 THEN amount ELSE 0 END) AS apr
+FROM orders;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Concatenate Top Mumbai Customers</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Return a single string with Mumbai customer names sorted by order amount DESC, joined with ' -> '.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">&#39;Karan Mehta -&gt; Ananya Singh -&gt; Arjun Desai -&gt; Aarav Sharma&#39;</div>
+                </div><div class="challenge-constraints">GROUP_CONCAT with ORDER BY and SEPARATOR.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">SELECT GROUP_CONCAT(customer_name ORDER BY amount DESC SEPARATOR &#39; -&gt; &#39;) AS mumbai_ranking
+FROM orders
+WHERE city = &#39;Mumbai&#39;;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Revenue Summary With Net Amount</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Return a single row showing: gross revenue (SUM amount), total discount (NULLs as 0), net revenue (gross minus discount), average net per order, number of orders with discount given.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">gross 44500, total_discount 2850, net 41650, avg_net 3470.83, discount_given_count 8</div>
+                </div><div class="challenge-constraints">Combine SUM, AVG, COUNT, COALESCE.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">SELECT
+  SUM(amount) AS gross,
+  SUM(COALESCE(discount, 0)) AS total_discount,
+  SUM(amount) - SUM(COALESCE(discount, 0)) AS net,
+  (SUM(amount) - SUM(COALESCE(discount, 0))) / COUNT(*) AS avg_net,
+  COUNT(discount) AS discount_given_count
+FROM orders;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/pattern-matching-and-null/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">LIKE Pattern Matching and NULL Handling</span>
+        </a>
+            <a href="/resources/sql/group-by-and-having/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">GROUP BY and HAVING</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/aggregate-functions" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting Up MySQL and Your First Query - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Install MySQL, use MySQL Workbench or CLI, create your first database and table, and run your first SELECT.">
+    <meta name="keywords" content="setting up mysql and your first query, sql tutorial, sql setting up mysql and your first query, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query">
+    <meta property="og:title" content="Setting Up MySQL and Your First Query - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Install MySQL, use MySQL Workbench or CLI, create your first database and table, and run your first SELECT.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query">
+    <meta name="twitter:title" content="Setting Up MySQL and Your First Query - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Install MySQL, use MySQL Workbench or CLI, create your first database and table, and run your first SELECT.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Setting Up MySQL and Your First Query",
+    "description": "Install MySQL, use MySQL Workbench or CLI, create your first database and table, and run your first SELECT.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Setting Up MySQL and Your First Query",
+        "item": "https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the Semicolon in the CLI",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The CLI considers a statement complete only when it sees a semicolon. Beginners often think the server is frozen when they see <code>-&gt;</code>. It is simply waiting. Type a <code>;</code> on the next line and press Enter. In Workbench this is less of an issue because you can highlight-and-run."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Running Queries Without USE dbname",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MySQL needs to know which database the table belongs to. Either run <code>USE school;</code> once to set the context, or prefix the table with the database name every time (<code>school.students</code>). The <code>USE</code> approach is more ergonomic during interactive work."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Double Quotes Instead of Single Quotes for Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In standard SQL, <strong>single quotes are for string literals</strong> and double quotes are for identifiers (table/column names with special characters). MySQL is lenient and allows both, but portable code always uses single quotes for strings. Save yourself future pain by starting with the correct habit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mismatched Column Count in INSERT",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When you use <code>INSERT INTO students VALUES (...)</code> without listing columns, MySQL expects values in the exact order and count of the columns defined. If you want to skip a column, explicitly list the columns you are inserting into. The skipped column becomes NULL (or takes its DEFAULT)."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Setting Up MySQL and Your First Query</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 2</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Setting Up MySQL and Your First Query</h1>
+            <a href="/resources/sql/setting-up-mysql-and-first-query/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>Getting MySQL Running on Your Machine</h2><p>In Chapter 1 we said a lot of things <em>about</em> SQL. In this chapter we actually run our first query. By the end you will have MySQL installed, a database created, a table built from scratch, five students inserted, and a working <code>SELECT</code> statement returning real results.</p><p>There are two main ways to talk to a MySQL server:</p><ul><li><strong>MySQL Workbench</strong> — a graphical tool (GUI) with a query editor, table browser, and visual schema designer. Best for beginners and for exploring data.</li><li><strong>MySQL Command Line Client (CLI)</strong> — a plain terminal where you type queries. Faster for professionals, essential on servers where no GUI is available.</li></ul><p>You should get comfortable with BOTH. Most college labs and company servers only have the CLI available, but the GUI makes learning much more pleasant.</p><h3>What We Will Build</h3><p>A tiny <code>school</code> database with a <code>students</code> table. We will store these five students:</p><table><tr><th>id</th><th>name</th><th>class</th><th>marks</th></tr><tr><td>1</td><td>Aarav Sharma</td><td>10</td><td>87</td></tr><tr><td>2</td><td>Priya Iyer</td><td>10</td><td>92</td></tr><tr><td>3</td><td>Rohan Verma</td><td>11</td><td>78</td></tr><tr><td>4</td><td>Ananya Reddy</td><td>11</td><td>95</td></tr><tr><td>5</td><td>Vikram Singh</td><td>12</td><td>65</td></tr></table><p>You will then query it in several ways and end with a clear mental model of the flow: <em>install → connect → create database → create table → insert data → select</em>.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why This Chapter Is Non-Negotiable</h2><p>You cannot learn SQL by reading. You have to run queries, break them, fix them, and watch the output change. Tutorials that only talk theory produce students who freeze the moment an interviewer says "open a terminal and write a query".</p><h3>1. Real Queries Beat Memorization</h3><p>When you type <code>SELECT * FROM students;</code> and five rows come back, the concept of a SELECT statement clicks in a way no diagram can match. The muscle memory of typing the semicolon, hitting Enter, and reading the output table teaches patterns you will use for the next 40 years of your career.</p><h3>2. Every Interviewer Expects Basic CLI Fluency</h3><p>Even if your dream job is as a data analyst using Tableau, interviewers routinely ask things like "connect to a MySQL server, show me the databases, describe the orders table, and count the rows". Knowing <code>mysql -u root -p</code>, <code>SHOW DATABASES;</code>, <code>USE dbname;</code>, and <code>DESCRIBE tablename;</code> is base-level fluency.</p><h3>3. This Is Your Playground for the Next 20 Chapters</h3><p>From Chapter 3 onwards, every example assumes you have a working MySQL. Installing it once is a few minutes of effort that unlocks months of practice. Do not skip it and think "I'll run queries in an online sandbox". Online sandboxes reset every few hours, block certain commands, and do not teach you the real connect-disconnect-backup workflow.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Installing MySQL</h3><h4>Windows</h4><p>Download the <strong>MySQL Installer for Windows</strong> from <code>dev.mysql.com/downloads/installer</code>. Choose the full (not web) installer. During setup:</p><ol><li>Choose "Developer Default" setup type (installs Server, Workbench, Shell, and sample data).</li><li>Set the root password when prompted. <strong>Write it down</strong> — losing it means reinstalling.</li><li>Keep the default port <code>3306</code>.</li><li>Start MySQL as a Windows service so it runs automatically on boot.</li></ol><h4>macOS (Homebrew)</h4><pre><code>brew install mysql
+brew services start mysql
+mysql_secure_installation   # set root password</code></pre><h4>Ubuntu / Debian Linux</h4><pre><code>sudo apt update
+sudo apt install mysql-server
+sudo systemctl start mysql
+sudo mysql_secure_installation</code></pre><p>After installation, verify with <code>mysql --version</code>. You should see something like <code>mysql  Ver 8.0.35</code>.</p><h3>2. Connecting to MySQL</h3><h4>From the Command Line</h4><pre><code>mysql -u root -p</code></pre><p>The <code>-u root</code> says "connect as the root user", and <code>-p</code> says "prompt me for the password". You will then see a prompt that looks like:</p><pre><code>mysql&gt;</code></pre><p>That is your SQL command prompt. Every query you type from now goes after that <code>mysql&gt;</code>.</p><h4>From MySQL Workbench</h4><p>Open Workbench → click the <strong>Local instance 3306</strong> connection tile → enter the root password. You land on a window with a query editor at the top and a results panel at the bottom.</p><h3>3. Your First Commands: SHOW and USE</h3><p><code>SHOW DATABASES;</code> lists all databases on the server.</p><p><code>USE dbname;</code> selects a database to work with. After <code>USE</code>, every <code>SELECT</code>, <code>INSERT</code>, etc. applies to that database.</p><p><code>SHOW TABLES;</code> lists the tables inside the currently selected database.</p><p><code>DESCRIBE tablename;</code> (or <code>DESC tablename;</code>) shows the structure of a table — its columns, data types, and constraints.</p><h3>4. Creating Your First Database</h3><pre><code>CREATE DATABASE school;
+USE school;</code></pre><p>Line 1 creates a new database called <code>school</code>. Line 2 tells MySQL "now every command I run is inside this school database". Without <code>USE</code>, you would have to prefix every table name with <code>school.</code> (e.g., <code>school.students</code>).</p><h3>5. Creating Your First Table</h3><pre><code>CREATE TABLE students (
+    id INT,
+    name VARCHAR(50),
+    class INT,
+    marks INT
+);</code></pre><p>This creates the <code>students</code> table with four columns:</p><ul><li><code>id INT</code> — a whole number, used as a unique identifier.</li><li><code>name VARCHAR(50)</code> — a variable-length string up to 50 characters.</li><li><code>class INT</code> — a whole number (10, 11, 12).</li><li><code>marks INT</code> — a whole number for marks out of 100.</li></ul><p>The parentheses group the column definitions. The commas separate them. The semicolon ends the statement. We will expand this (primary keys, NOT NULL, AUTO_INCREMENT) in Chapter 3.</p><h3>6. Inserting Sample Data</h3><pre><code>INSERT INTO students VALUES (1, 'Aarav Sharma', 10, 87);
+INSERT INTO students VALUES (2, 'Priya Iyer', 10, 92);
+INSERT INTO students VALUES (3, 'Rohan Verma', 11, 78);
+INSERT INTO students VALUES (4, 'Ananya Reddy', 11, 95);
+INSERT INTO students VALUES (5, 'Vikram Singh', 12, 65);</code></pre><p>Each <code>INSERT INTO table VALUES (...)</code> statement adds one row. The values inside parentheses must be in the same order as the columns were declared. Strings go in single quotes. Numbers do not.</p><p>You can also do a multi-row insert in one statement:</p><pre><code>INSERT INTO students VALUES
+    (1, 'Aarav Sharma', 10, 87),
+    (2, 'Priya Iyer', 10, 92),
+    (3, 'Rohan Verma', 11, 78),
+    (4, 'Ananya Reddy', 11, 95),
+    (5, 'Vikram Singh', 12, 65);</code></pre><p>Multi-row inserts are faster (one round-trip to the server) and produce cleaner code.</p><h3>7. Your First SELECT</h3><pre><code>SELECT * FROM students;</code></pre><p>The star means "all columns". This returns every row and every column. You should see a nicely formatted table with five students.</p><h3>8. The Almighty Semicolon</h3><p>Every SQL statement ends with a semicolon <code>;</code>. In the CLI, if you forget the semicolon and press Enter, MySQL will wait for you to finish — it shows <code>-&gt;</code> as a continuation prompt:</p><pre><code>mysql&gt; SELECT * FROM students
+    -&gt; ;
+</code></pre><p>Just type the semicolon on the next line and press Enter. In Workbench, you can select a statement and press <strong>Ctrl+Enter</strong> to run just that one.</p><h3>9. Comments in SQL</h3><p>Comments are notes that the database ignores but humans can read.</p><pre><code>-- This is a single-line comment (two dashes and a space)
+# Also a single-line comment (MySQL-specific, less portable)
+/*
+   This is a multi-line comment.
+   Useful for headers or
+   explaining a block of code.
+*/</code></pre><p>Use <code>--</code> for one-liners (works in every database) and <code>/* ... */</code> for blocks. Good code has comments that explain WHY, not what the code literally does.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Checking What Databases Already Exist</div><pre><code class="language-python">-- Run this right after connecting to MySQL.
+-- It lists every database on the server.
+SHOW DATABASES;</code></pre><div class="code-example-explanation">Four default databases come with every MySQL install: <code>information_schema</code> (metadata about all tables), <code>mysql</code> (user accounts and privileges), <code>performance_schema</code> (runtime stats), and <code>sys</code> (DBA helpers). You should never delete these. The database you create will appear alongside them.</div><div class="code-example-output">+--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.01 sec)</div></div>
+<div class="code-example"><div class="code-example-title">Creating a Database and Switching to It</div><pre><code class="language-python">-- Create a brand new database for our school example.
+CREATE DATABASE school;
+
+-- Switch context so every command below runs inside school.
+USE school;
+
+-- Confirm we are inside school.
+SELECT DATABASE();</code></pre><div class="code-example-explanation"><code>CREATE DATABASE</code> makes an empty database. <code>USE school;</code> sets the active database so we don't have to prefix table names. <code>SELECT DATABASE();</code> is a handy function that returns the currently selected database — useful when switching between several databases during a session.</div><div class="code-example-output">Query OK, 1 row affected (0.02 sec)
+Database changed
++------------+
+| DATABASE() |
++------------+
+| school     |
++------------+
+1 row in set (0.00 sec)</div></div>
+<div class="code-example"><div class="code-example-title">Creating the students Table</div><pre><code class="language-python">CREATE TABLE students (
+    id INT,
+    name VARCHAR(50),
+    class INT,
+    marks INT
+);
+
+-- Verify the table exists.
+SHOW TABLES;
+
+-- Inspect its structure.
+DESCRIBE students;</code></pre><div class="code-example-explanation"><code>CREATE TABLE</code> defines the columns. <code>SHOW TABLES;</code> lists all tables in the current database. <code>DESCRIBE students;</code> (or <code>DESC students;</code>) prints the schema: column name, type, whether nulls are allowed, key info, default value, and extra flags.</div><div class="code-example-output">Query OK, 0 rows affected (0.04 sec)
+
++------------------+
+| Tables_in_school |
++------------------+
+| students         |
++------------------+
+1 row in set (0.00 sec)
+
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int         | YES  |     | NULL    |       |
+| name  | varchar(50) | YES  |     | NULL    |       |
+| class | int         | YES  |     | NULL    |       |
+| marks | int         | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+4 rows in set (0.01 sec)</div></div>
+<div class="code-example"><div class="code-example-title">Inserting Five Students (Multi-Row INSERT)</div><pre><code class="language-python">-- Efficient single-statement insert of five rows.
+INSERT INTO students VALUES
+    (1, &#39;Aarav Sharma&#39;, 10, 87),
+    (2, &#39;Priya Iyer&#39;, 10, 92),
+    (3, &#39;Rohan Verma&#39;, 11, 78),
+    (4, &#39;Ananya Reddy&#39;, 11, 95),
+    (5, &#39;Vikram Singh&#39;, 12, 65);
+
+SELECT * FROM students;</code></pre><div class="code-example-explanation">One <code>INSERT</code> with multiple <code>VALUES</code> rows is faster than five separate INSERTs because there is only one round-trip to the server. Notice the comma separators between rows and the semicolon at the end. Strings are wrapped in single quotes; numbers are not.</div><div class="code-example-output">Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
++----+----------------+-------+-------+
+| id | name           | class | marks |
++----+----------------+-------+-------+
+|  1 | Aarav Sharma   |    10 |    87 |
+|  2 | Priya Iyer     |    10 |    92 |
+|  3 | Rohan Verma    |    11 |    78 |
+|  4 | Ananya Reddy   |    11 |    95 |
+|  5 | Vikram Singh   |    12 |    65 |
++----+----------------+-------+-------+
+5 rows in set (0.00 sec)</div></div>
+<div class="code-example"><div class="code-example-title">SELECT with Specific Columns</div><pre><code class="language-python">-- Instead of SELECT *, pick only the columns you need.
+SELECT name, marks FROM students;</code></pre><div class="code-example-explanation">In production code, <code>SELECT *</code> is considered lazy and sometimes slow. By naming only the columns you need (<code>name, marks</code>), you reduce network traffic and make your queries more robust — if someone adds a new column later, your query result shape doesn't silently change.</div><div class="code-example-output">+----------------+-------+
+| name           | marks |
++----------------+-------+
+| Aarav Sharma   |    87 |
+| Priya Iyer     |    92 |
+| Rohan Verma    |    78 |
+| Ananya Reddy   |    95 |
+| Vikram Singh   |    65 |
++----------------+-------+
+5 rows in set (0.00 sec)</div></div>
+<div class="code-example"><div class="code-example-title">Using Comments to Document a Script</div><pre><code class="language-python">/*
+   School database setup script.
+   Author: Modern Age Coders
+   Date:   2026-04-11
+*/
+
+-- Step 1: create the database if it doesn&#39;t exist.
+CREATE DATABASE IF NOT EXISTS school;
+USE school;
+
+-- Step 2: drop any previous students table for a fresh start.
+DROP TABLE IF EXISTS students;
+
+-- Step 3: create the table.
+CREATE TABLE students (
+    id INT,
+    name VARCHAR(50),
+    class INT,
+    marks INT
+);
+
+-- Step 4: insert seed data.
+INSERT INTO students VALUES
+    (1, &#39;Aarav Sharma&#39;, 10, 87),
+    (2, &#39;Priya Iyer&#39;,   10, 92),
+    (3, &#39;Rohan Verma&#39;,  11, 78),
+    (4, &#39;Ananya Reddy&#39;, 11, 95),
+    (5, &#39;Vikram Singh&#39;, 12, 65);
+
+-- Step 5: confirm.
+SELECT COUNT(*) AS total_students FROM students;</code></pre><div class="code-example-explanation">This is what a well-organized SQL script looks like in the real world. The multi-line comment at the top is the file header. Single-line comments explain each step. <code>IF NOT EXISTS</code> and <code>IF EXISTS</code> make the script safely re-runnable — you can execute it multiple times without errors. <code>SELECT COUNT(*)</code> at the end is a quick sanity check. This pattern is how real database migrations are written.</div><div class="code-example-output">Query OK, 1 row affected, 1 warning (0.00 sec)
+Database changed
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+Query OK, 0 rows affected (0.03 sec)
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
++----------------+
+| total_students |
++----------------+
+|              5 |
++----------------+
+1 row in set (0.00 sec)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the Semicolon in the CLI</h3>
+                <div class="wrong-code"><pre><code class="language-python">mysql&gt; SELECT * FROM students
+(press Enter — nothing happens, you see -&gt; instead)</code></pre></div><div class="error-message">MySQL shows the continuation prompt -&gt; because it is waiting for the statement to finish.</div><div class="correct-code"><pre><code class="language-python">mysql&gt; SELECT * FROM students;
+-- or on the next line:
+mysql&gt; SELECT * FROM students
+    -&gt; ;</code></pre></div><div class="mistake-explanation">The CLI considers a statement complete only when it sees a semicolon. Beginners often think the server is frozen when they see <code>-&gt;</code>. It is simply waiting. Type a <code>;</code> on the next line and press Enter. In Workbench this is less of an issue because you can highlight-and-run.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Running Queries Without USE dbname</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Right after logging in:
+SELECT * FROM students;</code></pre></div><div class="error-message">ERROR 1046 (3D000): No database selected</div><div class="correct-code"><pre><code class="language-python">USE school;
+SELECT * FROM students;
+
+-- OR, fully qualify the table name:
+SELECT * FROM school.students;</code></pre></div><div class="mistake-explanation">MySQL needs to know which database the table belongs to. Either run <code>USE school;</code> once to set the context, or prefix the table with the database name every time (<code>school.students</code>). The <code>USE</code> approach is more ergonomic during interactive work.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Double Quotes Instead of Single Quotes for Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">INSERT INTO students VALUES (6, &quot;Diya Kapoor&quot;, 10, 88);</code></pre></div><div class="error-message">This may work in MySQL but fails on PostgreSQL, SQLite, and standard SQL.</div><div class="correct-code"><pre><code class="language-python">INSERT INTO students VALUES (6, &#39;Diya Kapoor&#39;, 10, 88);</code></pre></div><div class="mistake-explanation">In standard SQL, <strong>single quotes are for string literals</strong> and double quotes are for identifiers (table/column names with special characters). MySQL is lenient and allows both, but portable code always uses single quotes for strings. Save yourself future pain by starting with the correct habit.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Mismatched Column Count in INSERT</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- students table has 4 columns, but we pass only 3:
+INSERT INTO students VALUES (6, &#39;Diya Kapoor&#39;, 88);</code></pre></div><div class="error-message">ERROR 1136 (21S01): Column count doesn&#39;t match value count at row 1</div><div class="correct-code"><pre><code class="language-python">-- Option 1: provide all 4 values
+INSERT INTO students VALUES (6, &#39;Diya Kapoor&#39;, 10, 88);
+
+-- Option 2: specify which columns you are inserting into
+INSERT INTO students (id, name, marks) VALUES (6, &#39;Diya Kapoor&#39;, 88);</code></pre></div><div class="mistake-explanation">When you use <code>INSERT INTO students VALUES (...)</code> without listing columns, MySQL expects values in the exact order and count of the columns defined. If you want to skip a column, explicitly list the columns you are inserting into. The skipped column becomes NULL (or takes its DEFAULT).</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Install MySQL via the MySQL Installer on Windows, Homebrew on Mac (brew install mysql), or apt on Ubuntu (sudo apt install mysql-server).</li>
+<li>Connect to the server using the CLI with mysql -u root -p or by clicking the local instance tile in MySQL Workbench.</li>
+<li>SHOW DATABASES; lists all databases. USE dbname; switches to one. SHOW TABLES; lists tables. DESCRIBE tablename; shows a table&#39;s schema.</li>
+<li>CREATE DATABASE school; creates a new database. CREATE TABLE table (col TYPE, ...); creates a table with the given columns.</li>
+<li>INSERT INTO table VALUES (v1, v2, v3); adds one row. Multi-row inserts are faster: INSERT INTO table VALUES (...), (...), (...);</li>
+<li>SELECT * FROM table; retrieves all rows and columns. SELECT col1, col2 FROM table; picks specific columns and is considered better practice.</li>
+<li>Every SQL statement ends with a semicolon. In the CLI, a missing semicolon leaves you stuck at the -&gt; continuation prompt.</li>
+<li>Comments: -- for one-line (portable), # for one-line (MySQL-specific), /* ... */ for multi-line blocks.</li>
+<li>Use single quotes for string literals: &#39;Aarav Sharma&#39;. Double quotes are for identifiers in standard SQL.</li>
+<li>IF EXISTS and IF NOT EXISTS (on DROP and CREATE) make scripts safely re-runnable without throwing errors on the second run.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/introduction-to-sql-and-databases" class="related-topic-link">Introduction to SQL and Databases</a>
+<a href="/resources/sql/data-types-and-constraints" class="related-topic-link">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/introduction-to-sql-and-databases" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to SQL and Databases</span>
+        </a>
+            <a href="/resources/sql/data-types-and-constraints" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/setting-up-mysql-and-first-query/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

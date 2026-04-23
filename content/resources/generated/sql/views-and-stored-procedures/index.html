@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Views, Stored Procedures, and Functions - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create reusable views, write stored procedures with parameters, loops, and user-defined functions.">
+    <meta name="keywords" content="views, stored procedures, and functions, sql tutorial, sql views, stored procedures, and functions, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures">
+    <meta property="og:title" content="Views, Stored Procedures, and Functions - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Create reusable views, write stored procedures with parameters, loops, and user-defined functions.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures">
+    <meta name="twitter:title" content="Views, Stored Procedures, and Functions - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Create reusable views, write stored procedures with parameters, loops, and user-defined functions.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Views, Stored Procedures, and Functions",
+    "description": "Create reusable views, write stored procedures with parameters, loops, and user-defined functions.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-04-16",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Views, Stored Procedures, and Functions",
+        "item": "https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting DELIMITER $ for Multi-Statement Bodies",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The MySQL client ends every statement on a semicolon. A procedure body has internal semicolons, so you must change the delimiter to something like <code>$</code> for the duration of the CREATE statement and change it back afterwards. This is purely a client concern — the server does not care — but forgetting it is the single most common mistake."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Trying to UPDATE a Non-Updatable View",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MySQL cannot map an aggregated row back to a specific row in a base table, so it refuses the UPDATE rather than guess. The lesson: views are for simplifying reads. If you also need to write, keep the view definition simple (single table, no aggregation, no DISTINCT)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Declaring Variables After Executable Statements",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MySQL requires every <code>DECLARE</code> to appear at the top of its BEGIN...END block, before any executable statement. Nest a new BEGIN...END if you need to declare a variable later. Also note: user variables like <code>@x</code> do not need DECLARE — they are session-scoped. Only local variables (no <code>@</code>) require DECLARE."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cursor Without a NOT FOUND Handler (Infinite Loop or Error)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When a cursor is exhausted, <code>FETCH</code> raises the NOT FOUND condition. Without a handler the procedure throws error 1329 and aborts. The CONTINUE HANDLER lets you flip a sentinel variable and LEAVE the loop cleanly. This is boilerplate you copy verbatim into every cursor procedure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting DETERMINISTIC on a Pure Function (Replication Error)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When binary logging is on (which it is on nearly every production server because of replication and point-in-time recovery), MySQL refuses to create a function unless you declare its data characteristic: <code>DETERMINISTIC</code>, <code>NO SQL</code>, <code>READS SQL DATA</code>, or <code>MODIFIES SQL DATA</code>. Claiming DETERMINISTIC when the function actually uses <code>NOW()</code> or <code>RAND()</code> corrupts replicas, so be honest about it."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Views, Stored Procedures, and Functions</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 21</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">55 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-16</span>
+            </div>
+            <h1 class="resource-title">Views, Stored Procedures, and Functions</h1>
+            <a href="/resources/sql/views-and-stored-procedures/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>Views, Stored Procedures, and Functions: The Database's Abstractions</h2><p>Once a schema grows past a dozen tables, your application starts repeating the same joins and filters in dozens of places. Three database objects let you stop repeating yourself: <strong>views</strong> turn a query into a reusable virtual table, <strong>stored procedures</strong> bundle multi-step logic into a named routine you can CALL, and <strong>functions</strong> behave like ordinary SQL functions (<code>UPPER</code>, <code>ABS</code>) that you wrote yourself.</p><pre><code>-- A view is a saved SELECT that looks like a table
+CREATE VIEW active_customers AS
+SELECT id, name, email, city
+FROM customers
+WHERE status = 'ACTIVE' AND deleted_at IS NULL;
+
+SELECT * FROM active_customers WHERE city = 'Pune';
+
+-- A stored procedure is a named block of SQL you call
+DELIMITER $
+CREATE PROCEDURE transfer_money(
+    IN from_id INT, IN to_id INT, IN amount DECIMAL(10,2)
+)
+BEGIN
+    START TRANSACTION;
+    UPDATE accounts SET balance = balance - amount WHERE id = from_id;
+    UPDATE accounts SET balance = balance + amount WHERE id = to_id;
+    COMMIT;
+END$
+DELIMITER ;
+
+CALL transfer_money(101, 102, 500.00);</code></pre><p>A view does not store rows; it stores a query. Every time you read from the view, MySQL re-runs the underlying SELECT. A stored procedure, on the other hand, is compiled code that lives inside the database and can contain variables, loops, IF/ELSE, transactions, and even cursors. Functions are a third flavour: they take parameters, return a single value, and can be called from inside any SELECT.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why These Three Objects Matter</h2><h3>1. Hiding Schema Complexity from the Application</h3><p>A frontend engineer writing a dashboard for Aarav does not care that <code>active_customers</code> actually requires joining <code>customers</code>, <code>subscriptions</code>, and <code>user_flags</code> while filtering on three status columns. A view hides all that. The application writes <code>SELECT * FROM active_customers</code> and the schema behind the view is free to change.</p><h3>2. Security via Column and Row Filtering</h3><p>You can grant a read-only analyst access to a view that exposes only five columns out of a 30-column <code>employees</code> table — no salary, no Aadhaar, no manager notes. The underlying table remains inaccessible. This is how production systems keep PII away from BI tools.</p><h3>3. Atomic, Reusable Business Logic</h3><p>A money transfer is not one UPDATE; it is debit + credit + audit log + balance check, all inside a transaction. If this logic lives in the application, every service that transfers money must re-implement it (and eventually one of them will do it wrong). A stored procedure enforces the sequence in one place.</p><h3>4. Performance and Round Trips</h3><p>A procedure that runs ten queries incurs one network round trip. The same ten queries from an application server means ten TCP round trips. For bulk jobs (monthly billing, nightly reconciliation) this difference is measured in hours.</p><h3>5. Computed Columns Across the Database</h3><p>If Priya defines a function <code>gst_amount(price, state)</code>, every query in the warehouse can use it: <code>SELECT order_id, gst_amount(total, ship_state) FROM orders</code>. Tax logic lives in one place. When the rates change, one ALTER FUNCTION and every report is correct.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Creating and Using Views</h3><p>A view is defined by a SELECT statement. When you query the view, MySQL substitutes the underlying SELECT at query-planning time (this is called <em>view merging</em>).</p><pre><code>CREATE VIEW top_cities AS
+SELECT city, COUNT(*) AS customer_count
+FROM customers
+GROUP BY city
+HAVING COUNT(*) > 100;
+
+-- Use it like any table
+SELECT * FROM top_cities ORDER BY customer_count DESC;
+
+-- Replace an existing view (safer than DROP + CREATE)
+CREATE OR REPLACE VIEW top_cities AS
+SELECT city, state, COUNT(*) AS customer_count
+FROM customers
+GROUP BY city, state
+HAVING COUNT(*) > 100;
+
+-- Drop
+DROP VIEW IF EXISTS top_cities;</code></pre><h3>2. Updatable vs Non-Updatable Views</h3><p>A view is <strong>updatable</strong> (supports INSERT/UPDATE/DELETE) only when MySQL can map every row back to exactly one row in one base table. These rules make a view non-updatable: aggregation (<code>SUM</code>, <code>GROUP BY</code>), <code>DISTINCT</code>, set operations (<code>UNION</code>), subqueries in the SELECT list, joins (in most cases), and window functions.</p><pre><code>-- Updatable: simple filter on one table
+CREATE VIEW pune_customers AS
+SELECT id, name, email FROM customers WHERE city = 'Pune';
+
+UPDATE pune_customers SET email = 'aarav@new.com' WHERE id = 5;
+-- This actually updates the customers table
+
+-- NOT updatable: has GROUP BY
+CREATE VIEW city_stats AS
+SELECT city, COUNT(*) AS n FROM customers GROUP BY city;
+
+UPDATE city_stats SET n = 0 WHERE city = 'Pune';
+-- ERROR 1288: The target table city_stats of the UPDATE is not updatable</code></pre><h3>3. WITH CHECK OPTION</h3><p>By default, you can INSERT rows through an updatable view even if the new row would not appear in the view. <code>WITH CHECK OPTION</code> forbids this.</p><pre><code>CREATE VIEW pune_customers AS
+SELECT id, name, city FROM customers WHERE city = 'Pune'
+WITH CHECK OPTION;
+
+INSERT INTO pune_customers VALUES (99, 'Rohan', 'Mumbai');
+-- ERROR 1369: CHECK OPTION failed 'pune_customers'
+
+INSERT INTO pune_customers VALUES (99, 'Rohan', 'Pune');
+-- OK</code></pre><h3>4. Materialized Views: The MySQL Workaround</h3><p>A <em>materialized view</em> stores the query result on disk and refreshes it on schedule. PostgreSQL and Oracle support them natively. MySQL does not. The standard workaround is a real table plus an event that refreshes it.</p><pre><code>-- The "materialized view" is actually a plain table
+CREATE TABLE mv_daily_sales (
+    sale_date DATE PRIMARY KEY,
+    total_sales DECIMAL(12,2),
+    order_count INT
+);
+
+-- A procedure that rebuilds it
+DELIMITER $
+CREATE PROCEDURE refresh_daily_sales()
+BEGIN
+    TRUNCATE TABLE mv_daily_sales;
+    INSERT INTO mv_daily_sales
+    SELECT DATE(created_at), SUM(total), COUNT(*)
+    FROM orders
+    GROUP BY DATE(created_at);
+END$
+DELIMITER ;
+
+-- A scheduled event to refresh hourly
+CREATE EVENT refresh_daily_sales_event
+ON SCHEDULE EVERY 1 HOUR
+DO CALL refresh_daily_sales();</code></pre><p>You trade freshness for query speed. If reads run a thousand times per minute and the underlying data changes every few hours, this pattern pays for itself.</p><h3>5. Stored Procedures: The Basics</h3><p>A procedure is a named block of SQL that supports variables, flow control, and transactions. Because MySQL statements end with <code>;</code>, you must temporarily change the statement delimiter while defining one.</p><pre><code>DELIMITER $
+
+CREATE PROCEDURE get_customer_count()
+BEGIN
+    SELECT COUNT(*) AS total FROM customers;
+END$
+
+DELIMITER ;
+
+CALL get_customer_count();
+-- Output: total = 1247</code></pre><h3>6. Parameters: IN, OUT, INOUT</h3><ul><li><strong>IN</strong> (default): caller passes a value in; the procedure reads it.</li><li><strong>OUT</strong>: the procedure writes a value out; the caller reads it after.</li><li><strong>INOUT</strong>: both directions.</li></ul><pre><code>DELIMITER $
+CREATE PROCEDURE get_balance(
+    IN  acct_id INT,
+    OUT bal DECIMAL(10,2)
+)
+BEGIN
+    SELECT balance INTO bal FROM accounts WHERE id = acct_id;
+END$
+DELIMITER ;
+
+CALL get_balance(101, @b);
+SELECT @b;  -- 5000.00
+
+-- INOUT example: apply 10% interest
+DELIMITER $
+CREATE PROCEDURE add_interest(INOUT bal DECIMAL(10,2), IN rate DECIMAL(5,2))
+BEGIN
+    SET bal = bal * (1 + rate/100);
+END$
+DELIMITER ;
+
+SET @x = 1000.00;
+CALL add_interest(@x, 10);
+SELECT @x;  -- 1100.00</code></pre><h3>7. DECLARE: Local Variables</h3><pre><code>DELIMITER $
+CREATE PROCEDURE apply_bonus(IN emp_id INT)
+BEGIN
+    DECLARE current_salary DECIMAL(10,2);
+    DECLARE bonus DECIMAL(10,2);
+
+    SELECT salary INTO current_salary FROM employees WHERE id = emp_id;
+    SET bonus = current_salary * 0.10;
+
+    UPDATE employees SET salary = salary + bonus WHERE id = emp_id;
+END$
+DELIMITER ;</code></pre><p>Local variables must be declared at the start of a BEGIN...END block, before any executable statement.</p><h3>8. Control Flow: IF, CASE, WHILE, REPEAT, LOOP</h3><pre><code>-- IF / ELSEIF / ELSE
+IF current_salary < 30000 THEN
+    SET hike = 0.20;
+ELSEIF current_salary < 60000 THEN
+    SET hike = 0.15;
+ELSE
+    SET hike = 0.10;
+END IF;
+
+-- CASE
+CASE level
+    WHEN 'JUNIOR' THEN SET bonus = 5000;
+    WHEN 'SENIOR' THEN SET bonus = 15000;
+    ELSE SET bonus = 0;
+END CASE;
+
+-- WHILE
+DECLARE i INT DEFAULT 1;
+WHILE i <= 10 DO
+    INSERT INTO numbers VALUES (i);
+    SET i = i + 1;
+END WHILE;
+
+-- REPEAT (exit-condition loop)
+SET i = 1;
+REPEAT
+    INSERT INTO numbers VALUES (i);
+    SET i = i + 1;
+UNTIL i > 10
+END REPEAT;
+
+-- LOOP with LEAVE (break)
+my_loop: LOOP
+    SET i = i + 1;
+    IF i > 10 THEN LEAVE my_loop; END IF;
+END LOOP my_loop;</code></pre><h3>9. Cursors: Row-by-Row Processing</h3><p>A cursor lets you iterate over a result set one row at a time. Use them sparingly — a set-based UPDATE is usually 100x faster than a cursor loop. Cursors make sense when each row requires a distinct side effect (sending an email, calling another procedure).</p><pre><code>DELIMITER $
+CREATE PROCEDURE give_raise_to_top_performers()
+BEGIN
+    DECLARE done INT DEFAULT 0;
+    DECLARE emp_id INT;
+    DECLARE emp_rating INT;
+
+    DECLARE cur CURSOR FOR
+        SELECT id, rating FROM employees WHERE rating >= 4;
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+
+    OPEN cur;
+    read_loop: LOOP
+        FETCH cur INTO emp_id, emp_rating;
+        IF done = 1 THEN LEAVE read_loop; END IF;
+
+        IF emp_rating = 5 THEN
+            UPDATE employees SET salary = salary * 1.20 WHERE id = emp_id;
+        ELSE
+            UPDATE employees SET salary = salary * 1.10 WHERE id = emp_id;
+        END IF;
+    END LOOP;
+    CLOSE cur;
+END$
+DELIMITER ;</code></pre><p>The <code>CONTINUE HANDLER FOR NOT FOUND</code> sets the <code>done</code> flag when the cursor runs out of rows — this is the standard idiom.</p><h3>10. User-Defined Functions</h3><p>A function is like a procedure but returns exactly one value and can be called from a SELECT. Functions cannot modify data (in MySQL, they can, but it is strongly discouraged and requires <code>DETERMINISTIC</code> or <code>READS SQL DATA</code> qualifiers).</p><pre><code>DELIMITER $
+CREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    RETURN ROUND(price * rate / 100, 2);
+END$
+DELIMITER ;
+
+SELECT product, price, gst(price, 18) AS tax FROM products;</code></pre><p>Keywords you must know:</p><ul><li><code>DETERMINISTIC</code>: same inputs always produce the same output (needed for replication safety).</li><li><code>READS SQL DATA</code>: the function runs SELECTs.</li><li><code>MODIFIES SQL DATA</code>: the function runs INSERT/UPDATE/DELETE (rarely appropriate).</li><li><code>NO SQL</code>: pure computation, no table access.</li></ul><h3>11. Procedures vs Functions: The Real Differences</h3><table border='1' cellpadding='6'><tr><th></th><th>Procedure</th><th>Function</th></tr><tr><td>Returns</td><td>Zero or more result sets (via OUT params or SELECT inside)</td><td>Exactly one scalar value</td></tr><tr><td>Called from SELECT?</td><td>No</td><td>Yes: <code>SELECT gst(price, 18)</code></td></tr><tr><td>Invocation</td><td><code>CALL proc_name(args)</code></td><td><code>func_name(args)</code> anywhere an expression is valid</td></tr><tr><td>Transactions</td><td>Can START TRANSACTION, COMMIT, ROLLBACK</td><td>Cannot (in MySQL functions)</td></tr><tr><td>Typical use</td><td>Business workflows, batch jobs</td><td>Scalar computations, derived columns</td></tr></table><h3>12. DROP, ALTER, SHOW</h3><pre><code>-- List everything
+SHOW PROCEDURE STATUS WHERE Db = 'shop';
+SHOW FUNCTION STATUS WHERE Db = 'shop';
+SHOW CREATE PROCEDURE transfer_money;
+SHOW CREATE VIEW active_customers;
+
+-- Drop
+DROP PROCEDURE IF EXISTS transfer_money;
+DROP FUNCTION  IF EXISTS gst;
+DROP VIEW      IF EXISTS active_customers;
+
+-- You cannot ALTER a procedure's body; drop and recreate.
+-- ALTER PROCEDURE only changes characteristics like SQL SECURITY.</code></pre><h3>13. SQL SECURITY: DEFINER vs INVOKER</h3><p>By default a procedure runs with the privileges of the user who defined it (<code>SQL SECURITY DEFINER</code>). This lets you grant CALL permission to users who do not have direct access to the underlying tables — a common security pattern. Use <code>SQL SECURITY INVOKER</code> to run with the caller's privileges instead.</p><pre><code>CREATE PROCEDURE view_salary(IN emp_id INT)
+SQL SECURITY INVOKER
+BEGIN
+    SELECT salary FROM employees WHERE id = emp_id;
+END;</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Active Customers View with Hidden Columns</div><pre><code class="language-python">-- Base table
+CREATE TABLE customers (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100),
+    phone VARCHAR(15),
+    aadhaar VARCHAR(12),
+    status VARCHAR(10),
+    deleted_at DATETIME NULL
+);
+
+INSERT INTO customers VALUES
+(1, &#39;Aarav Sharma&#39;,  &#39;aarav@mail.com&#39;,  &#39;9876500001&#39;, &#39;111122223333&#39;, &#39;ACTIVE&#39;,  NULL),
+(2, &#39;Priya Nair&#39;,    &#39;priya@mail.com&#39;,  &#39;9876500002&#39;, &#39;222233334444&#39;, &#39;ACTIVE&#39;,  NULL),
+(3, &#39;Rohan Kapoor&#39;,  &#39;rohan@mail.com&#39;,  &#39;9876500003&#39;, &#39;333344445555&#39;, &#39;INACTIVE&#39;,NULL),
+(4, &#39;Anika Desai&#39;,   &#39;anika@mail.com&#39;,  &#39;9876500004&#39;, &#39;444455556666&#39;, &#39;ACTIVE&#39;,  &#39;2026-03-01 10:00:00&#39;);
+
+-- View exposes only non-PII columns and only live, active rows
+CREATE VIEW active_customers AS
+SELECT id, name, email
+FROM customers
+WHERE status = &#39;ACTIVE&#39; AND deleted_at IS NULL;
+
+SELECT * FROM active_customers;</code></pre><div class="code-example-explanation">The view hides <code>phone</code> and <code>aadhaar</code> completely. A read-only reporting user granted access to <code>active_customers</code> cannot see PII even if they know the column names. The WHERE clause also enforces the business rule of active + not-deleted in one place.</div><div class="code-example-output">+----+--------------+-----------------+
+| id | name         | email           |
++----+--------------+-----------------+
+|  1 | Aarav Sharma | aarav@mail.com  |
+|  2 | Priya Nair   | priya@mail.com  |
++----+--------------+-----------------+</div></div>
+<div class="code-example"><div class="code-example-title">WITH CHECK OPTION Preventing Out-of-View Inserts</div><pre><code class="language-python">CREATE TABLE orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id INT,
+    total DECIMAL(10,2),
+    region VARCHAR(20)
+);
+
+INSERT INTO orders (customer_id, total, region) VALUES
+(1, 1500.00, &#39;WEST&#39;),
+(2,  800.00, &#39;WEST&#39;),
+(3, 2100.00, &#39;NORTH&#39;);
+
+CREATE VIEW west_orders AS
+SELECT id, customer_id, total, region
+FROM orders
+WHERE region = &#39;WEST&#39;
+WITH CHECK OPTION;
+
+-- This would silently succeed without CHECK OPTION
+-- With it, MySQL blocks the insert
+INSERT INTO west_orders (customer_id, total, region)
+VALUES (4, 500.00, &#39;EAST&#39;);
+-- ERROR 1369 (HY000): CHECK OPTION failed &#39;shop.west_orders&#39;
+
+INSERT INTO west_orders (customer_id, total, region)
+VALUES (4, 500.00, &#39;WEST&#39;);
+-- OK
+
+SELECT * FROM west_orders;</code></pre><div class="code-example-explanation"><code>WITH CHECK OPTION</code> tells MySQL that every INSERT/UPDATE through the view must produce a row that still passes the view's WHERE clause. Without it, you could insert an EAST row through <code>west_orders</code> — the row would land in the base table but disappear from the view, which almost always indicates a bug.</div><div class="code-example-output">ERROR 1369 (HY000): CHECK OPTION failed &#39;shop.west_orders&#39;
+
++----+-------------+---------+--------+
+| id | customer_id | total   | region |
++----+-------------+---------+--------+
+|  1 |           1 | 1500.00 | WEST   |
+|  2 |           2 |  800.00 | WEST   |
+|  4 |           4 |  500.00 | WEST   |
++----+-------------+---------+--------+</div></div>
+<div class="code-example"><div class="code-example-title">Stored Procedure: Transfer Money Between Accounts</div><pre><code class="language-python">CREATE TABLE accounts (
+    id INT PRIMARY KEY,
+    holder VARCHAR(50),
+    balance DECIMAL(10,2) NOT NULL CHECK (balance &gt;= 0)
+);
+
+INSERT INTO accounts VALUES
+(101, &#39;Aarav&#39;, 5000.00),
+(102, &#39;Priya&#39;, 2000.00);
+
+DELIMITER $
+CREATE PROCEDURE transfer_money(
+    IN  from_id INT,
+    IN  to_id   INT,
+    IN  amount  DECIMAL(10,2)
+)
+BEGIN
+    DECLARE from_balance DECIMAL(10,2);
+
+    START TRANSACTION;
+
+    SELECT balance INTO from_balance
+    FROM accounts WHERE id = from_id FOR UPDATE;
+
+    IF from_balance &lt; amount THEN
+        ROLLBACK;
+        SIGNAL SQLSTATE &#39;45000&#39;
+            SET MESSAGE_TEXT = &#39;Insufficient funds&#39;;
+    END IF;
+
+    UPDATE accounts SET balance = balance - amount WHERE id = from_id;
+    UPDATE accounts SET balance = balance + amount WHERE id = to_id;
+
+    COMMIT;
+END$
+DELIMITER ;
+
+CALL transfer_money(101, 102, 1500.00);
+SELECT * FROM accounts;</code></pre><div class="code-example-explanation">The procedure wraps debit + credit in a transaction. <code>SELECT ... FOR UPDATE</code> locks the source account so no concurrent transfer can cause an overdraft. If the balance is insufficient, <code>SIGNAL</code> raises a user-defined error — the exact mechanism applications catch. This is the textbook "atomic transfer" — it either fully succeeds or fully rolls back.</div><div class="code-example-output">+-----+--------+---------+
+| id  | holder | balance |
++-----+--------+---------+
+| 101 | Aarav  | 3500.00 |
+| 102 | Priya  | 3500.00 |
++-----+--------+---------+</div></div>
+<div class="code-example"><div class="code-example-title">OUT Parameter: Fetch a Scalar Result</div><pre><code class="language-python">CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    dept VARCHAR(20),
+    salary DECIMAL(10,2)
+);
+
+INSERT INTO employees VALUES
+(1, &#39;Aarav&#39;,  &#39;ENG&#39;, 90000),
+(2, &#39;Priya&#39;,  &#39;ENG&#39;, 75000),
+(3, &#39;Rohan&#39;,  &#39;SAL&#39;, 60000),
+(4, &#39;Anika&#39;,  &#39;ENG&#39;, 110000);
+
+DELIMITER $
+CREATE PROCEDURE avg_salary_by_dept(
+    IN  dept_name VARCHAR(20),
+    OUT avg_sal   DECIMAL(10,2)
+)
+BEGIN
+    SELECT AVG(salary) INTO avg_sal
+    FROM employees WHERE dept = dept_name;
+END$
+DELIMITER ;
+
+CALL avg_salary_by_dept(&#39;ENG&#39;, @avg);
+SELECT @avg AS engineering_avg;</code></pre><div class="code-example-explanation">The procedure takes a department name as IN and returns the average salary through an OUT parameter. The caller uses a user variable (<code>@avg</code>) to receive the value. <code>SELECT INTO</code> is the canonical way to assign a single-row result into local or OUT variables.</div><div class="code-example-output">+-----------------+
+| engineering_avg |
++-----------------+
+|     91666.67    |
++-----------------+</div></div>
+<div class="code-example"><div class="code-example-title">WHILE Loop: Populate a Numbers Table</div><pre><code class="language-python">CREATE TABLE numbers (n INT PRIMARY KEY);
+
+DELIMITER $
+CREATE PROCEDURE fill_numbers(IN up_to INT)
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    WHILE i &lt;= up_to DO
+        INSERT INTO numbers VALUES (i);
+        SET i = i + 1;
+    END WHILE;
+END$
+DELIMITER ;
+
+CALL fill_numbers(5);
+SELECT * FROM numbers ORDER BY n;</code></pre><div class="code-example-explanation">A classic WHILE loop. The variable <code>i</code> is declared at the start of the block. Numbers tables are invaluable for generating calendar rows, filling gaps, and simulating row-generating functions that MySQL lacks. In production you would usually wrap the inserts in a single multi-row INSERT for speed; this illustrates the loop mechanics.</div><div class="code-example-output">+---+
+| n |
++---+
+| 1 |
+| 2 |
+| 3 |
+| 4 |
+| 5 |
++---+</div></div>
+<div class="code-example"><div class="code-example-title">User-Defined Function: GST Computation</div><pre><code class="language-python">CREATE TABLE products (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    price DECIMAL(10,2),
+    gst_rate DECIMAL(5,2)
+);
+
+INSERT INTO products VALUES
+(1, &#39;Notebook&#39;,    120.00,  5.00),
+(2, &#39;Headphones&#39;, 1999.00, 18.00),
+(3, &#39;T-shirt&#39;,     499.00, 12.00);
+
+DELIMITER $
+CREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    RETURN ROUND(price * rate / 100, 2);
+END$
+DELIMITER ;
+
+SELECT name, price, gst_rate,
+       gst(price, gst_rate) AS tax,
+       price + gst(price, gst_rate) AS total
+FROM products;</code></pre><div class="code-example-explanation">Because <code>gst</code> is a function, it can appear anywhere an expression can — SELECT list, WHERE, ORDER BY, HAVING. <code>DETERMINISTIC</code> tells MySQL that the function is a pure computation, which is required for binary-log-based replication and lets the optimiser cache calls.</div><div class="code-example-output">+------------+---------+----------+--------+---------+
+| name       | price   | gst_rate | tax    | total   |
++------------+---------+----------+--------+---------+
+| Notebook   |  120.00 |  5.00    |   6.00 |  126.00 |
+| Headphones | 1999.00 | 18.00    | 359.82 | 2358.82 |
+| T-shirt    |  499.00 | 12.00    |  59.88 |  558.88 |
++------------+---------+----------+--------+---------+</div></div>
+<div class="code-example"><div class="code-example-title">Cursor Loop: Row-by-Row Side Effects</div><pre><code class="language-python">CREATE TABLE employees_bonus (
+    id INT PRIMARY KEY,
+    emp_id INT,
+    bonus DECIMAL(10,2)
+);
+
+DELIMITER $
+CREATE PROCEDURE compute_yearly_bonus()
+BEGIN
+    DECLARE done INT DEFAULT 0;
+    DECLARE cur_id INT;
+    DECLARE cur_salary DECIMAL(10,2);
+    DECLARE cur_dept VARCHAR(20);
+    DECLARE bonus_amt DECIMAL(10,2);
+
+    DECLARE emp_cur CURSOR FOR
+        SELECT id, salary, dept FROM employees;
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+
+    OPEN emp_cur;
+    emp_loop: LOOP
+        FETCH emp_cur INTO cur_id, cur_salary, cur_dept;
+        IF done = 1 THEN LEAVE emp_loop; END IF;
+
+        IF cur_dept = &#39;ENG&#39; THEN
+            SET bonus_amt = cur_salary * 0.15;
+        ELSE
+            SET bonus_amt = cur_salary * 0.10;
+        END IF;
+
+        INSERT INTO employees_bonus (emp_id, bonus)
+        VALUES (cur_id, bonus_amt);
+    END LOOP;
+    CLOSE emp_cur;
+END$
+DELIMITER ;
+
+CALL compute_yearly_bonus();
+SELECT * FROM employees_bonus;</code></pre><div class="code-example-explanation">The cursor iterates over every employee. For each row, the procedure decides the bonus percentage based on department and inserts a record. The <code>CONTINUE HANDLER FOR NOT FOUND</code> is the standard way to detect end-of-cursor: when <code>FETCH</code> runs out of rows, it raises a NOT FOUND condition and the handler flips <code>done</code> to 1, which the IF inside the loop uses to LEAVE.</div><div class="code-example-output">+----+--------+----------+
+| id | emp_id | bonus    |
++----+--------+----------+
+|  1 |      1 | 13500.00 |
+|  2 |      2 | 11250.00 |
+|  3 |      3 |  6000.00 |
+|  4 |      4 | 16500.00 |
++----+--------+----------+</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting DELIMITER $ for Multi-Statement Bodies</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE PROCEDURE greet()
+BEGIN
+    SELECT &#39;Hello&#39;;
+    SELECT &#39;World&#39;;
+END;
+-- MySQL client thinks the first ; ends the whole CREATE statement.
+-- Result: syntax error, or a half-built procedure.</code></pre></div><div class="error-message">ERROR 1064 (42000): You have an error in your SQL syntax; check the manual ... near &#39;END&#39; at line 4</div><div class="correct-code"><pre><code class="language-python">DELIMITER $
+
+CREATE PROCEDURE greet()
+BEGIN
+    SELECT &#39;Hello&#39;;
+    SELECT &#39;World&#39;;
+END$
+
+DELIMITER ;
+
+CALL greet();</code></pre></div><div class="mistake-explanation">The MySQL client ends every statement on a semicolon. A procedure body has internal semicolons, so you must change the delimiter to something like <code>$</code> for the duration of the CREATE statement and change it back afterwards. This is purely a client concern — the server does not care — but forgetting it is the single most common mistake.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Trying to UPDATE a Non-Updatable View</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE VIEW dept_totals AS
+SELECT dept, SUM(salary) AS total
+FROM employees
+GROUP BY dept;
+
+UPDATE dept_totals SET total = 0 WHERE dept = &#39;ENG&#39;;
+-- ERROR 1288 (HY000): The target table dept_totals of the UPDATE is not updatable</code></pre></div><div class="error-message">ERROR 1288: The target table is not updatable</div><div class="correct-code"><pre><code class="language-python">-- If you want to update the underlying salaries, target the base table
+UPDATE employees SET salary = 0 WHERE dept = &#39;ENG&#39;;
+
+-- A view with aggregation is read-only by definition. Any view that
+-- uses GROUP BY, DISTINCT, UNION, a subquery in SELECT, or most JOINs
+-- becomes non-updatable.</code></pre></div><div class="mistake-explanation">MySQL cannot map an aggregated row back to a specific row in a base table, so it refuses the UPDATE rather than guess. The lesson: views are for simplifying reads. If you also need to write, keep the view definition simple (single table, no aggregation, no DISTINCT).</div>
+            </div>
+<div class="mistake-card">
+                <h3>Declaring Variables After Executable Statements</h3>
+                <div class="wrong-code"><pre><code class="language-python">DELIMITER $
+CREATE PROCEDURE bad_order()
+BEGIN
+    SET @x = 5;                        -- user variable, fine
+    SELECT COUNT(*) FROM employees;    -- executable statement
+    DECLARE i INT DEFAULT 0;           -- too late!
+END$
+DELIMITER ;
+-- ERROR 1064: syntax error near &#39;DECLARE i INT DEFAULT 0&#39;</code></pre></div><div class="error-message">ERROR 1064 (42000): You have an error in your SQL syntax</div><div class="correct-code"><pre><code class="language-python">DELIMITER $
+CREATE PROCEDURE good_order()
+BEGIN
+    DECLARE i INT DEFAULT 0;           -- all DECLAREs first
+    SELECT COUNT(*) INTO i FROM employees;
+    SET @x = i;
+END$
+DELIMITER ;</code></pre></div><div class="mistake-explanation">MySQL requires every <code>DECLARE</code> to appear at the top of its BEGIN...END block, before any executable statement. Nest a new BEGIN...END if you need to declare a variable later. Also note: user variables like <code>@x</code> do not need DECLARE — they are session-scoped. Only local variables (no <code>@</code>) require DECLARE.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Cursor Without a NOT FOUND Handler (Infinite Loop or Error)</h3>
+                <div class="wrong-code"><pre><code class="language-python">DELIMITER $
+CREATE PROCEDURE broken_cursor()
+BEGIN
+    DECLARE cur CURSOR FOR SELECT id FROM employees;
+    DECLARE emp_id INT;
+    OPEN cur;
+    my_loop: LOOP
+        FETCH cur INTO emp_id;   -- raises NOT FOUND when empty
+        -- No handler! The procedure errors out at the end.
+    END LOOP my_loop;
+    CLOSE cur;
+END$
+DELIMITER ;</code></pre></div><div class="error-message">ERROR 1329 (02000): No data - zero rows fetched, selected, or processed</div><div class="correct-code"><pre><code class="language-python">DELIMITER $
+CREATE PROCEDURE working_cursor()
+BEGIN
+    DECLARE done INT DEFAULT 0;
+    DECLARE emp_id INT;
+    DECLARE cur CURSOR FOR SELECT id FROM employees;
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+
+    OPEN cur;
+    my_loop: LOOP
+        FETCH cur INTO emp_id;
+        IF done = 1 THEN LEAVE my_loop; END IF;
+        -- do something with emp_id
+    END LOOP my_loop;
+    CLOSE cur;
+END$
+DELIMITER ;</code></pre></div><div class="mistake-explanation">When a cursor is exhausted, <code>FETCH</code> raises the NOT FOUND condition. Without a handler the procedure throws error 1329 and aborts. The CONTINUE HANDLER lets you flip a sentinel variable and LEAVE the loop cleanly. This is boilerplate you copy verbatim into every cursor procedure.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting DETERMINISTIC on a Pure Function (Replication Error)</h3>
+                <div class="wrong-code"><pre><code class="language-python">DELIMITER $
+CREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))
+RETURNS DECIMAL(10,2)
+BEGIN
+    RETURN ROUND(price * rate / 100, 2);
+END$
+DELIMITER ;
+-- ERROR 1418 (HY000): This function has none of DETERMINISTIC, NO SQL,
+-- or READS SQL DATA in its declaration and binary logging is enabled</code></pre></div><div class="error-message">ERROR 1418: This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA</div><div class="correct-code"><pre><code class="language-python">DELIMITER $
+CREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    RETURN ROUND(price * rate / 100, 2);
+END$
+DELIMITER ;</code></pre></div><div class="mistake-explanation">When binary logging is on (which it is on nearly every production server because of replication and point-in-time recovery), MySQL refuses to create a function unless you declare its data characteristic: <code>DETERMINISTIC</code>, <code>NO SQL</code>, <code>READS SQL DATA</code>, or <code>MODIFIES SQL DATA</code>. Claiming DETERMINISTIC when the function actually uses <code>NOW()</code> or <code>RAND()</code> corrupts replicas, so be honest about it.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A view is a named SELECT that behaves like a virtual table. It stores no rows — every query re-runs the underlying SELECT through view merging. Views hide complexity, expose only safe columns, and give BI tools a stable interface while the schema evolves.</li>
+<li>Views are updatable (INSERT/UPDATE/DELETE pass through to the base table) only when MySQL can map each view row to one base-table row. Aggregation, DISTINCT, UNION, subqueries in SELECT, joins, and window functions all make a view read-only.</li>
+<li>WITH CHECK OPTION forces every INSERT/UPDATE through the view to produce a row that still matches the view&#39;s WHERE clause. Without it, you can insert rows that immediately disappear from the view — almost always a bug.</li>
+<li>MySQL has no native materialized views. The standard workaround is a real table plus a stored procedure that rebuilds it, scheduled via an event (hourly, nightly). Trade freshness for read speed.</li>
+<li>Stored procedures are named blocks of SQL with parameters (IN, OUT, INOUT), local variables (DECLARE), and control flow (IF, CASE, WHILE, REPEAT, LOOP). Call them with CALL proc_name(args). Define with DELIMITER $ ... END$ to survive internal semicolons.</li>
+<li>IN passes values in, OUT returns a value to the caller (use @var to receive), INOUT does both. Use SELECT ... INTO to assign scalar query results into procedure variables.</li>
+<li>Cursors iterate a result set row by row. Always pair a cursor with a CONTINUE HANDLER FOR NOT FOUND that sets a done flag, and LEAVE the loop when done = 1. Prefer set-based SQL whenever possible — cursors are 10-100x slower.</li>
+<li>Functions return exactly one value and are callable from any SELECT, WHERE, or ORDER BY. Procedures can return multiple result sets via OUT or inline SELECTs but must be invoked with CALL.</li>
+<li>Binary logging (on by default in production) requires every function to declare DETERMINISTIC, NO SQL, READS SQL DATA, or MODIFIES SQL DATA. Label accurately — lying about determinism breaks replication.</li>
+<li>SQL SECURITY DEFINER (the default) runs procedures with the defining user&#39;s privileges, which is how you grant CALL access to users who cannot read the underlying tables directly. Use INVOKER when you want caller-based checks.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/triggers-and-events" class="related-topic-link">Triggers and Scheduled Events</a>
+<a href="/resources/sql/transactions-and-acid" class="related-topic-link">Transactions and ACID Properties</a>
+<a href="/resources/sql/indexes-and-performance" class="related-topic-link">Indexes and Query Performance</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/indexes-and-performance" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Indexes and Query Performance</span>
+        </a>
+            <a href="/resources/sql/triggers-and-events" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Triggers and Scheduled Events</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/views-and-stored-procedures/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

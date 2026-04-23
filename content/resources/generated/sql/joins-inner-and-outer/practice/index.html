@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="55+ practice questions on JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="joins - inner, left, right, full outer, cross practice, sql questions, sql practice problems, joins - inner, left, right, full outer, cross exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer/practice">
+    <meta property="og:title" content="Practice Questions - JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS | SQL | Modern Age Coders">
+    <meta property="og:description" content="55+ practice questions on JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer/practice">
+    <meta name="twitter:title" content="Practice Questions - JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="55+ practice questions on JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS",
+    "description": "55+ practice questions on JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS in SQL.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS",
+        "item": "https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/joins-inner-and-outer">JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">55 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS</h1>
+            <a href="/resources/sql/joins-inner-and-outer" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">14</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">14</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">4</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Given the sample tables (5 customers, 5 orders), how many rows does this query return?<br><pre><code>SELECT c.name, o.amount
+FROM customers c
+INNER JOIN orders o ON c.id = o.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">INNER JOIN only returns rows where both sides match. Order 105 has no matching customer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>4 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows does this query return?<br><pre><code>SELECT c.name, o.amount
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">LEFT JOIN keeps every customer. Unmatched customers appear once with NULLs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>6 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows does this return?<br><pre><code>SELECT *
+FROM customers c
+RIGHT JOIN orders o ON c.id = o.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">RIGHT JOIN keeps every order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>5 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the result count of this CROSS JOIN? customers has 5 rows, products has 2 rows.<br><pre><code>SELECT * FROM customers CROSS JOIN products;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">CROSS JOIN multiplies row counts.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>10 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which customers appear in the result?<br><pre><code>SELECT c.name
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+WHERE o.id IS NULL;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">This is the 'customers with no orders' pattern.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Meera Iyer</code><br><code>Vikram Singh</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">True or False: <code>JOIN</code> and <code>INNER JOIN</code> mean the same thing in MySQL.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Think about default JOIN type in MySQL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this query compute?<br><pre><code>SELECT c.name, COUNT(o.id) AS num_orders
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+GROUP BY c.id, c.name;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">LEFT JOIN + COUNT on the right key.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Number of orders for each customer, including 0 for customers without orders</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of this query given our sample data?<br><pre><code>SELECT COUNT(*) 
+FROM customers c
+JOIN orders o ON c.id = o.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">INNER JOIN rows.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the keyword to join two tables and return only matching rows?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">The default JOIN.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>INNER JOIN</code> (or just <code>JOIN</code>)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this query return given our sample data?<br><pre><code>SELECT c.name, SUM(o.amount) AS total
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+GROUP BY c.id, c.name
+HAVING total IS NULL;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">SUM of NULL values is NULL, not 0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Meera Iyer (total NULL)</code><br><code>Vikram Singh (total NULL)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does this give no error but wrong results?<br><pre><code>SELECT c.name, o.amount
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+WHERE o.amount > 500;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">WHERE on right-table column after LEFT JOIN.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>The WHERE filter drops rows where amount is NULL, converting LEFT JOIN into INNER JOIN. Customers with no orders disappear.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this query find? (assume standard customers/orders tables)<br><pre><code>SELECT DISTINCT c.name
+FROM customers c
+JOIN orders o ON c.id = o.customer_id
+WHERE o.amount > 2000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Distinct customers with at least one high-value order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Aarav Kumar (order 102, 2300) and Rohan Mehta (order 104, 5400)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT c.city, COUNT(DISTINCT c.id) AS customer_count,
+       COUNT(o.id) AS order_count
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+GROUP BY c.city;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Group by city, count distinct customers and total orders.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Each city with its customer count and total order count. Cities with no orders show order_count=0.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Which JOIN should you use for 'show every department and its employees, including empty departments'?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Every department must appear, even empty ones.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>LEFT JOIN from departments to employees</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is wrong with this query?<br><pre><code>SELECT name, amount
+FROM customers
+JOIN orders ON customers.id = orders.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Two tables have a column named 'name' or similar? What about id?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>No error here because only customers has 'name' and only orders has 'amount'. But the query breaks readability; always qualify columns in JOIN queries.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many rows does this produce given our sample tables?<br><pre><code>SELECT c.id
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+UNION
+SELECT c.id
+FROM customers c
+RIGHT JOIN orders o ON c.id = o.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">UNION removes duplicates. Think about the distinct customer IDs produced.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>6 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does <code>COUNT(*)</code> vs <code>COUNT(o.id)</code> differ on a LEFT JOIN?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">NULL handling in COUNT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>COUNT(*) counts all rows including unmatched ones (where o.id is NULL). COUNT(o.id) ignores NULLs, giving only matched rows.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Predict the output count for this query given 3 customers with 2, 3, and 0 orders respectively, using INNER JOIN.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Only matching rows.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>5 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output of this query given our sample data?<br><pre><code>SELECT c.name, o.amount
+FROM customers c
+LEFT JOIN orders o 
+  ON c.id = o.customer_id AND o.amount > 1000
+ORDER BY c.id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">The amount filter is in ON, not WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>Aarav 1500, Aarav 2300, Priya NULL, Rohan 5400, Meera NULL, Vikram NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this query find?<br><pre><code>SELECT c.name
+FROM customers c
+WHERE NOT EXISTS (
+    SELECT 1 FROM orders o WHERE o.customer_id = c.id
+);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">NOT EXISTS equivalent of LEFT JOIN + IS NULL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>Meera Iyer, Vikram Singh</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which JOIN returns rows only when both tables have matching values?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">The default JOIN.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>INNER JOIN</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which JOIN keeps all rows from the left table even if there is no match on the right?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">All-left-rows join.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>LEFT JOIN</code> (or LEFT OUTER JOIN)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Does MySQL support FULL OUTER JOIN directly?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">MySQL specifically.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>No. MySQL does not support FULL OUTER JOIN. Simulate with LEFT JOIN UNION RIGHT JOIN.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the result size of CROSS JOIN between a table with 100 rows and a table with 50 rows?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Cartesian product.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>5000 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this query do?<br><pre><code>SELECT c.name, o.id
+FROM customers c, orders o
+WHERE c.id = o.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">This is the old implicit join syntax.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>Same as INNER JOIN — returns matching customer/order pairs.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output given customers(1,2,3,4,5) and orders with customer_ids (1,1,2,3,7)?<br><pre><code>SELECT COUNT(*) FROM customers c
+RIGHT JOIN orders o ON c.id = o.customer_id;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">RIGHT JOIN keeps every order.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find customers in Bengaluru who have at least one order. Write the query.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">JOIN + WHERE on city + DISTINCT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>SELECT DISTINCT c.name
+FROM customers c
+JOIN orders o ON c.id = o.customer_id
+WHERE c.city = 'Bengaluru';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a query to find each customer's most recent order date. Customers without orders should still appear.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">LEFT JOIN + MAX + GROUP BY.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>SELECT c.name, MAX(o.order_date) AS last_order
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+GROUP BY c.id, c.name;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between ON and WHERE in a LEFT JOIN?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about when filtering happens.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>ON filters during the join — unmatched rows from the left table are still kept (as NULL). WHERE filters after the join — it can drop those NULL rows, effectively turning LEFT JOIN into INNER JOIN.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is RIGHT JOIN rarely used in production code?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Readability and team conventions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Any RIGHT JOIN can be rewritten as LEFT JOIN by swapping the table order. LEFT JOIN reads more naturally because the 'main' table is on the left.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a query to find the most valuable customer (highest total spend).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">GROUP BY customer, ORDER BY total DESC, LIMIT 1.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>SELECT c.name, SUM(o.amount) AS total
+FROM customers c
+JOIN orders o ON c.id = o.customer_id
+GROUP BY c.id, c.name
+ORDER BY total DESC
+LIMIT 1;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given customers (5 rows) and orders (5 rows, one with invalid customer_id=7), what is the result count of a MySQL FULL OUTER JOIN simulation?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">LEFT JOIN UNION RIGHT JOIN; UNION deduplicates.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>7 distinct rows</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which JOIN returns only rows with matching values in both tables?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LEFT JOIN</li><li><span class="mcq-option-label">B.</span> RIGHT JOIN</li><li><span class="mcq-option-label">C.</span> INNER JOIN</li><li><span class="mcq-option-label">D.</span> FULL OUTER JOIN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> INNER JOIN returns only rows where the ON condition matches on both sides. A, B, D all keep non-matching rows by design.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which JOIN keeps every row from the left table even if there is no match?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> INNER JOIN</li><li><span class="mcq-option-label">B.</span> LEFT JOIN</li><li><span class="mcq-option-label">C.</span> RIGHT JOIN</li><li><span class="mcq-option-label">D.</span> CROSS JOIN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> LEFT JOIN preserves every row from the left table. Right-side columns are NULL when no match exists.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does <code>SELECT * FROM a CROSS JOIN b</code> return when a has 10 rows and b has 4 rows?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10 rows</li><li><span class="mcq-option-label">B.</span> 14 rows</li><li><span class="mcq-option-label">C.</span> 40 rows</li><li><span class="mcq-option-label">D.</span> 4 rows</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> CROSS JOIN produces the cartesian product: every row of a combined with every row of b = 10 * 4 = 40 rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which statement is TRUE about MySQL and FULL OUTER JOIN?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> MySQL supports FULL OUTER JOIN with the keyword FULL</li><li><span class="mcq-option-label">B.</span> MySQL does not support FULL OUTER JOIN directly; use UNION of LEFT and RIGHT JOINs</li><li><span class="mcq-option-label">C.</span> FULL OUTER JOIN returns only matching rows</li><li><span class="mcq-option-label">D.</span> FULL OUTER JOIN is the same as CROSS JOIN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL has no native FULL OUTER JOIN. Simulate it with <code>LEFT JOIN ... UNION RIGHT JOIN ...</code>. PostgreSQL and SQL Server support it natively.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which keyword is used to specify the join condition?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE</li><li><span class="mcq-option-label">B.</span> HAVING</li><li><span class="mcq-option-label">C.</span> ON</li><li><span class="mcq-option-label">D.</span> WITH</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> The ON clause specifies how tables are matched. WHERE filters rows after the join; HAVING filters groups; WITH defines CTEs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">If INNER JOIN and JOIN are written, what is the difference in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> INNER JOIN is slower</li><li><span class="mcq-option-label">B.</span> They are identical — INNER is optional</li><li><span class="mcq-option-label">C.</span> JOIN means CROSS JOIN</li><li><span class="mcq-option-label">D.</span> JOIN only works on 2 tables; INNER JOIN allows more</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> In MySQL, JOIN and INNER JOIN are synonyms. INNER is optional. Use whichever feels clearer.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">After a LEFT JOIN, what do unmatched right-table columns contain?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> Empty string</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Unmatched right rows in a LEFT JOIN produce NULL for every right-table column. Use COALESCE or IFNULL to replace with a default value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which query finds customers with no orders?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM customers JOIN orders ON customers.id = orders.customer_id WHERE orders.id IS NULL</li><li><span class="mcq-option-label">B.</span> SELECT * FROM customers LEFT JOIN orders ON customers.id = orders.customer_id WHERE orders.id IS NULL</li><li><span class="mcq-option-label">C.</span> SELECT * FROM customers RIGHT JOIN orders ON customers.id = orders.customer_id WHERE orders.id IS NULL</li><li><span class="mcq-option-label">D.</span> SELECT * FROM customers CROSS JOIN orders WHERE orders.id IS NULL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> LEFT JOIN keeps every customer. WHERE orders.id IS NULL keeps only those without a matching order. A would produce no rows (INNER JOIN drops NULLs). C is wrong direction. D is cartesian.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Given 10 customers and 5 orders (all with valid customer_ids), how many rows does INNER JOIN return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 5</li><li><span class="mcq-option-label">C.</span> 50</li><li><span class="mcq-option-label">D.</span> 15</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> INNER JOIN returns one row per matching pair. If each of the 5 orders matches exactly one customer, the result is 5 rows (not 10 — unmatched customers are dropped).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What happens when you filter a LEFT JOIN's right table in WHERE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The filter applies only to matched rows</li><li><span class="mcq-option-label">B.</span> NULLs from unmatched rows fail the filter, turning LEFT JOIN into INNER JOIN</li><li><span class="mcq-option-label">C.</span> The query fails</li><li><span class="mcq-option-label">D.</span> The filter is ignored</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Any comparison with NULL is not true. So unmatched rows (with NULL in right columns) get dropped by WHERE, effectively making the LEFT JOIN act like INNER JOIN. Move filters to ON or add IS NULL checks in WHERE.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which query correctly counts the number of orders per customer including customers with zero orders?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT c.name, COUNT(*) FROM customers c JOIN orders o ON c.id = o.customer_id GROUP BY c.id</li><li><span class="mcq-option-label">B.</span> SELECT c.name, COUNT(o.id) FROM customers c LEFT JOIN orders o ON c.id = o.customer_id GROUP BY c.id, c.name</li><li><span class="mcq-option-label">C.</span> SELECT c.name, COUNT(*) FROM customers c LEFT JOIN orders o ON c.id = o.customer_id GROUP BY c.id</li><li><span class="mcq-option-label">D.</span> SELECT c.name, COUNT(o.id) FROM customers c INNER JOIN orders o ON c.id = o.customer_id GROUP BY c.id</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> LEFT JOIN keeps every customer. COUNT(o.id) returns 0 for unmatched rows (COUNT ignores NULLs). C is almost right but COUNT(*) would return 1 for customers with no orders (counting the NULL row). D uses INNER JOIN and drops zero-order customers.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the result of <code>USING (customer_id)</code> vs <code>ON a.customer_id = b.customer_id</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> USING requires columns to have the same name; ON is general</li><li><span class="mcq-option-label">B.</span> USING is faster; ON is slower</li><li><span class="mcq-option-label">C.</span> ON only works with primary keys</li><li><span class="mcq-option-label">D.</span> They produce different result sets</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: A</strong><br><strong>A is correct.</strong> USING is shorthand when both tables have a column with the exact same name (the joined column appears only once in the result). ON accepts any boolean expression and does not require matching column names.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does this query return? <pre><code>SELECT COUNT(*) FROM customers c LEFT JOIN orders o ON c.id = o.customer_id;</code></pre> Given 5 customers and 4 orders (each matching a distinct customer).</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 4</li><li><span class="mcq-option-label">B.</span> 5</li><li><span class="mcq-option-label">C.</span> 9</li><li><span class="mcq-option-label">D.</span> 20</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> 4 matched rows + 1 unmatched customer = 5 rows total. Every customer appears at least once.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which pattern correctly simulates FULL OUTER JOIN in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM a FULL OUTER JOIN b ON a.id = b.id</li><li><span class="mcq-option-label">B.</span> SELECT * FROM a LEFT JOIN b ON a.id = b.id UNION SELECT * FROM a RIGHT JOIN b ON a.id = b.id</li><li><span class="mcq-option-label">C.</span> SELECT * FROM a CROSS JOIN b</li><li><span class="mcq-option-label">D.</span> SELECT * FROM a INNER JOIN b ON a.id = b.id OR a.id IS NULL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL does not support FULL OUTER JOIN natively. UNION of LEFT JOIN and RIGHT JOIN (UNION deduplicates automatically) gives the correct result. A would fail; C is cartesian; D is nonsense.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">A table of 10,000 rows is CROSS JOINed with a table of 1,000 rows. What is the result size and is this safe?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 11,000 rows; safe</li><li><span class="mcq-option-label">B.</span> 10,000 rows; safe</li><li><span class="mcq-option-label">C.</span> 10,000,000 rows; dangerous</li><li><span class="mcq-option-label">D.</span> 1,000 rows; safe</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> 10,000 * 1,000 = 10 million rows. This will likely hang your session and stress disk/memory. CROSS JOIN without a filter on large tables is an anti-pattern.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: List Customers With Their Orders</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given the sample customers and orders tables, write a query that lists each order along with the customer's name and city. Use INNER JOIN.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">SELECT c.name, c.city, o.id AS order_id, o.amount, o.order_date
+FROM customers c
+INNER JOIN orders o ON c.id = o.customer_id
+ORDER BY c.name, o.order_date;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Find Customers With No Orders</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a query that lists all customers who have never placed an order.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">SELECT c.id, c.name, c.city
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+WHERE o.id IS NULL;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Total Revenue Per City</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Calculate the total revenue from each city. Cities with no orders should still appear with 0.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">SELECT c.city, COALESCE(SUM(o.amount), 0) AS total_revenue
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+GROUP BY c.city
+ORDER BY total_revenue DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Most Valuable Customer</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Find the customer who has spent the most in total.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">SELECT c.name, SUM(o.amount) AS total_spent
+FROM customers c
+JOIN orders o ON c.id = o.customer_id
+GROUP BY c.id, c.name
+ORDER BY total_spent DESC
+LIMIT 1;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Customers Who Placed Orders Over 2000</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Find the distinct names of customers who have placed at least one order of amount greater than 2000.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">SELECT DISTINCT c.name
+FROM customers c
+JOIN orders o ON c.id = o.customer_id
+WHERE o.amount &gt; 2000;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Orphan Orders Detection</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Find all orders whose customer_id does NOT exist in the customers table. Return order_id, customer_id, and amount.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">SELECT o.id AS order_id, o.customer_id, o.amount
+FROM orders o
+LEFT JOIN customers c ON c.id = o.customer_id
+WHERE c.id IS NULL;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Simulate FULL OUTER JOIN</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Return every customer and every order, matching where possible. Include unmatched customers (NULL order info) and orphan orders (NULL customer info).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">SELECT c.id AS cust_id, c.name, o.id AS order_id, o.amount
+FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+UNION
+SELECT c.id, c.name, o.id, o.amount
+FROM customers c
+RIGHT JOIN orders o ON c.id = o.customer_id;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Common Customers Across Two Periods</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Using the orders table, find customers who placed orders in BOTH January 2026 and February 2026.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">SELECT DISTINCT c.name
+FROM customers c
+JOIN orders o1 ON c.id = o1.customer_id
+     AND o1.order_date BETWEEN &#39;2026-01-01&#39; AND &#39;2026-01-31&#39;
+JOIN orders o2 ON c.id = o2.customer_id
+     AND o2.order_date BETWEEN &#39;2026-02-01&#39; AND &#39;2026-02-28&#39;;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/group-by-and-having/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">GROUP BY and HAVING</span>
+        </a>
+            <a href="/resources/sql/self-joins-and-multi-table/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Self Joins and Multi-Table Queries</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/joins-inner-and-outer" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

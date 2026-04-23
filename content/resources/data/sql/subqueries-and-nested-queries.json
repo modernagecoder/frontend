@@ -1,0 +1,675 @@
+{
+  "title": "Subqueries (Nested Queries) and EXISTS",
+  "slug": "subqueries-and-nested-queries",
+  "language": "sql",
+  "chapter": 13,
+  "difficulty": "Intermediate",
+  "readingTime": "42 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 51,
+  "seo": {
+    "title": "SQL Subqueries Tutorial - Nested Queries, EXISTS, IN, ANY, ALL | Modern Age Coders",
+    "description": "Master SQL subqueries with real MySQL examples. Learn scalar, row, and table subqueries, correlated subqueries, EXISTS vs IN, NOT EXISTS vs NOT IN NULL trap, and 63+ interview questions including Nth highest salary.",
+    "keywords": "sql subquery, mysql subquery, correlated subquery, sql exists, sql in vs exists, not in null, nested query sql, scalar subquery, nth highest salary, subquery interview questions, sql any all"
+  },
+  "content": {
+    "what": "<h2>What Are Subqueries?</h2><p>A <strong>subquery</strong> is a query inside another query. Wherever SQL expects a value (or a list, or a table), you can often put a SELECT statement in parentheses. The subquery runs first (conceptually), its result is plugged in, and then the outer query runs.</p><p>Subqueries let you answer two-step questions in a single SQL statement. 'Find employees earning more than the average' is two steps — compute the average, then compare — but one SELECT with a subquery expresses it elegantly.</p><h3>Sample Tables Used in This Chapter</h3><pre><code>CREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    salary DECIMAL(10,2),\n    department VARCHAR(30),\n    manager_id INT\n);\n\nINSERT INTO employees VALUES\n(1, 'Ananya Reddy',   250000, 'Engineering', NULL),\n(2, 'Rahul Verma',    180000, 'Engineering', 1),\n(3, 'Divya Nair',     190000, 'Engineering', 1),\n(4, 'Arjun Pillai',   120000, 'Engineering', 1),\n(5, 'Sneha Kapoor',   170000, 'Marketing',   NULL),\n(6, 'Karthik Raja',   110000, 'Marketing',   5),\n(7, 'Pooja Menon',     95000, 'Marketing',   5),\n(8, 'Vikram Singh',   130000, 'Sales',       NULL);\n\nCREATE TABLE customers (id INT PRIMARY KEY, name VARCHAR(50), city VARCHAR(30));\nINSERT INTO customers VALUES\n(1, 'Aarav Kumar',   'Bengaluru'),\n(2, 'Priya Sharma',  'Mumbai'),\n(3, 'Rohan Mehta',   'Delhi'),\n(4, 'Meera Iyer',    'Chennai');\n\nCREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, amount DECIMAL(10,2));\nINSERT INTO orders VALUES\n(101, 1, 1500),\n(102, 1, 2300),\n(103, 2,  800),\n(104, 3, 5400);\n-- Meera (id=4) has no orders; this is important for NOT IN / NOT EXISTS examples</code></pre>",
+    "why": "<h2>Why Subqueries Matter</h2><h3>1. Two-Step Logic in One Query</h3><p>Every analytical question has the shape 'compute X, then use X to find Y.' Subqueries let you express both steps in one statement, which the database can optimize as a unit rather than requiring two round trips from your application.</p><h3>2. Subquery Patterns Are Interview Staples</h3><p>'Nth highest salary,' 'employees earning more than department average,' 'customers with no orders,' 'find duplicate rows' — every one of these has a canonical subquery solution. Expect multiple subquery problems in any data interview.</p><h3>3. Correlated Subqueries Enable Per-Row Logic</h3><p>Sometimes the subquery needs to reference the current outer row, e.g., 'for each employee, check if there is someone else in the same department earning more.' This is a <strong>correlated subquery</strong>, and it runs once per outer row. Without it, some queries simply cannot be written.</p><h3>4. Subqueries Make Business Rules Declarative</h3><p>Rules like 'active customers,' 'high-value orders,' 'repeat buyers' can be expressed as subqueries that filter rows based on other tables. They become reusable building blocks; often you can extract them into views or CTEs.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Types of Subqueries by Shape</h3><p><strong>Scalar subquery</strong>: returns a single value (1 row, 1 column). Can be used anywhere SQL expects a value.</p><pre><code>SELECT name, salary,\n       (SELECT AVG(salary) FROM employees) AS company_avg\nFROM employees;</code></pre><p><strong>Row subquery</strong>: returns one row with multiple columns. Used with = or IN and a matching tuple.</p><pre><code>SELECT * FROM employees\nWHERE (department, salary) = \n      (SELECT department, MAX(salary) FROM employees WHERE department = 'Engineering' GROUP BY department);</code></pre><p><strong>Table (multi-row) subquery</strong>: returns multiple rows. Used with IN, ANY, ALL, EXISTS, or in the FROM clause as a derived table.</p><pre><code>SELECT * FROM employees\nWHERE department IN (SELECT department FROM employees WHERE salary > 200000);</code></pre><h3>2. Subquery in WHERE</h3><p>The most common placement. Use with IN, NOT IN, =, >, <, EXISTS, ANY, ALL.</p><pre><code>-- Employees earning more than the average\nSELECT name, salary\nFROM employees\nWHERE salary > (SELECT AVG(salary) FROM employees);</code></pre><p>Expected output (company avg ~ 155,625):</p><pre><code>+---------------+-----------+\n| name          | salary    |\n+---------------+-----------+\n| Ananya Reddy  | 250000.00 |\n| Rahul Verma   | 180000.00 |\n| Divya Nair    | 190000.00 |\n| Sneha Kapoor  | 170000.00 |\n+---------------+-----------+</code></pre><h3>3. Subquery in SELECT</h3><p>Useful for adding a computed value to every row.</p><pre><code>SELECT name, salary,\n       salary - (SELECT AVG(salary) FROM employees) AS diff_from_avg\nFROM employees;</code></pre><p>Caution: a scalar subquery in SELECT runs once per row (logically). For a simple constant like the global average, MySQL usually evaluates it once and caches. For correlated subqueries, it runs per row.</p><h3>4. Subquery in FROM (Derived Table)</h3><p>A subquery in FROM acts as a temporary table. Must have an alias in MySQL.</p><pre><code>SELECT dept_stats.department, dept_stats.avg_sal\nFROM (\n    SELECT department, AVG(salary) AS avg_sal\n    FROM employees\n    GROUP BY department\n) AS dept_stats\nWHERE dept_stats.avg_sal > 150000;</code></pre><p>Output:</p><pre><code>+-------------+----------------+\n| department  | avg_sal        |\n+-------------+----------------+\n| Engineering | 185000.000000  |\n| Marketing   | 125000.000000  |\n+-------------+----------------+\n-- Only Engineering qualifies (> 150k)</code></pre><p>Wait — that output is wrong. Let me recompute. Engineering avg = (250000+180000+190000+120000)/4 = 185000. Marketing = (170000+110000+95000)/3 = 125000. Sales = 130000. Only Engineering is > 150000.</p><pre><code>+-------------+----------+\n| department  | avg_sal  |\n+-------------+----------+\n| Engineering | 185000.00|\n+-------------+----------+</code></pre><h3>5. Subquery in HAVING</h3><p>Filter groups based on a scalar subquery.</p><pre><code>SELECT department, AVG(salary) AS avg_sal\nFROM employees\nGROUP BY department\nHAVING AVG(salary) > (SELECT AVG(salary) FROM employees);</code></pre><h3>6. IN vs ANY vs ALL vs EXISTS</h3><p>These handle comparisons against a set.</p><p><strong>IN</strong>: matches if any value in the list equals the left side.</p><pre><code>WHERE dept IN ('Engineering', 'Marketing')\nWHERE id IN (SELECT customer_id FROM orders)</code></pre><p><strong>= ANY</strong>: equivalent to IN. <strong>&lt; ANY</strong>: less than at least one value.</p><p><strong>ALL</strong>: must satisfy relative to every value. <code>salary > ALL (SELECT salary FROM marketing_team)</code> means greater than every marketing salary.</p><p><strong>EXISTS</strong>: returns true if the subquery returns at least one row. The subquery result content does not matter — only whether rows exist. Often used with a correlated subquery.</p><pre><code>-- Customers who have at least one order\nSELECT name FROM customers c\nWHERE EXISTS (SELECT 1 FROM orders o WHERE o.customer_id = c.id);</code></pre><h3>7. Correlated Subqueries</h3><p>A correlated subquery references columns from the outer query. It cannot be evaluated once — it runs (logically) for each outer row.</p><pre><code>-- Employees earning more than their department average\nSELECT e.name, e.department, e.salary\nFROM employees e\nWHERE e.salary > (\n    SELECT AVG(e2.salary)\n    FROM employees e2\n    WHERE e2.department = e.department   -- references outer e!\n);</code></pre><p>For each employee (outer), the subquery computes their own department's average. The <code>e.department</code> reference makes it correlated.</p><p>Output for sample data: Ananya (250k vs Eng avg 185k), Divya (190k vs 185k), Sneha (170k vs Mkt avg 125k), Rahul would be 180 < 185, does not qualify.</p><p>Wait: Rahul 180k vs Eng avg 185k — 180 < 185, Rahul drops. Correct list: Ananya, Divya, Sneha.</p><h3>8. EXISTS vs IN Performance</h3><p>Old wisdom: EXISTS is often faster on large tables because it can short-circuit (stops at the first matching row). IN may materialize the entire list. Modern optimizers are smart; on small sets they are equivalent. But EXISTS has a semantic advantage: it handles NULLs correctly, which is a bigger deal than raw speed.</p><h3>9. NOT EXISTS vs NOT IN — The NULL Trap</h3><p>This is one of the most dangerous interview gotchas in SQL.</p><pre><code>-- Customers with no orders (safe)\nSELECT name FROM customers c\nWHERE NOT EXISTS (SELECT 1 FROM orders o WHERE o.customer_id = c.id);\n\n-- Looks identical but BEHAVES DIFFERENTLY if orders has any NULL customer_id\nSELECT name FROM customers\nWHERE id NOT IN (SELECT customer_id FROM orders);</code></pre><p>If any order has <code>customer_id IS NULL</code>, the NOT IN query returns NO rows — even correctly unmatched customers are dropped. Why? Because <code>x NOT IN (a, b, NULL)</code> is never TRUE. It is <code>x != a AND x != b AND x != NULL</code>, and <code>x != NULL</code> is UNKNOWN, which combined with AND is UNKNOWN, treated as FALSE.</p><p><strong>Rule: always prefer NOT EXISTS over NOT IN when the subquery might return NULL.</strong></p><h3>10. Converting Subquery to JOIN</h3><p>Many subqueries can be rewritten as JOINs, and vice versa. The optimizer often does this transformation automatically. Examples:</p><pre><code>-- IN subquery\nSELECT name FROM customers\nWHERE id IN (SELECT customer_id FROM orders);\n\n-- Equivalent JOIN (with DISTINCT)\nSELECT DISTINCT c.name FROM customers c\nJOIN orders o ON c.id = o.customer_id;\n\n-- NOT IN / NOT EXISTS\nSELECT name FROM customers c\nWHERE NOT EXISTS (SELECT 1 FROM orders o WHERE o.customer_id = c.id);\n\n-- Equivalent LEFT JOIN\nSELECT c.name FROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nWHERE o.id IS NULL;</code></pre><p>Choose whichever reads best for your use case. JOINs can be slightly faster due to set-based optimization; correlated subqueries may be more intuitive to write.</p><h3>11. Finding Nth Highest Salary — Classic Interview</h3><p>Method 1: DISTINCT + ORDER BY + LIMIT (MySQL-specific).</p><pre><code>-- 3rd highest salary\nSELECT DISTINCT salary\nFROM employees\nORDER BY salary DESC\nLIMIT 1 OFFSET 2;  -- skip 2, take 1</code></pre><p>Method 2: Subquery counting distinct higher salaries.</p><pre><code>-- Generic N=3\nSELECT salary FROM employees e1\nWHERE 3 = (\n    SELECT COUNT(DISTINCT salary)\n    FROM employees e2\n    WHERE e2.salary >= e1.salary\n);</code></pre><p>Method 3: Window functions with DENSE_RANK (covered later).</p>",
+    "codeExamples": [
+      {
+        "title": "Scalar Subquery - Compare to Average Salary",
+        "code": "-- Employees earning more than the company average\nSELECT name, department, salary\nFROM employees\nWHERE salary > (SELECT AVG(salary) FROM employees);",
+        "language": "sql",
+        "explanation": "The subquery returns a single number (the average salary across all employees). The outer WHERE compares each employee's salary to that single value. MySQL evaluates the scalar subquery once.",
+        "output": "+---------------+-------------+-----------+\n| name          | department  | salary    |\n+---------------+-------------+-----------+\n| Ananya Reddy  | Engineering | 250000.00 |\n| Rahul Verma   | Engineering | 180000.00 |\n| Divya Nair    | Engineering | 190000.00 |\n| Sneha Kapoor  | Marketing   | 170000.00 |\n+---------------+-------------+-----------+\n4 rows in set\n-- Company avg = 155,625; these 4 are above"
+      },
+      {
+        "title": "Subquery in FROM (Derived Table)",
+        "code": "-- Average salary per department, filtered to above-company-average departments\nSELECT dept_stats.department, dept_stats.avg_sal\nFROM (\n    SELECT department, AVG(salary) AS avg_sal\n    FROM employees\n    GROUP BY department\n) AS dept_stats\nWHERE dept_stats.avg_sal > 150000;",
+        "language": "sql",
+        "explanation": "The inner SELECT computes per-department averages. The outer query treats that result as a temporary table called <code>dept_stats</code>. MySQL requires every derived table to have an alias.",
+        "output": "+-------------+----------------+\n| department  | avg_sal        |\n+-------------+----------------+\n| Engineering | 185000.000000  |\n+-------------+----------------+\n1 row in set"
+      },
+      {
+        "title": "Correlated Subquery - Above Department Average",
+        "code": "SELECT e.name, e.department, e.salary\nFROM employees e\nWHERE e.salary > (\n    SELECT AVG(e2.salary)\n    FROM employees e2\n    WHERE e2.department = e.department\n);",
+        "language": "sql",
+        "explanation": "Correlated because the inner query references <code>e.department</code> from the outer. For each employee, the inner query computes that person's own department average. Rahul (180k) does NOT qualify because Engineering average is 185k.",
+        "output": "+---------------+-------------+-----------+\n| name          | department  | salary    |\n+---------------+-------------+-----------+\n| Ananya Reddy  | Engineering | 250000.00 |\n| Divya Nair    | Engineering | 190000.00 |\n| Sneha Kapoor  | Marketing   | 170000.00 |\n+---------------+-------------+-----------+\n3 rows in set"
+      },
+      {
+        "title": "EXISTS - Customers With at Least One Order",
+        "code": "SELECT c.id, c.name\nFROM customers c\nWHERE EXISTS (\n    SELECT 1 FROM orders o\n    WHERE o.customer_id = c.id\n);",
+        "language": "sql",
+        "explanation": "EXISTS returns TRUE if the subquery has at least one row. We use <code>SELECT 1</code> as a placeholder — the actual values do not matter. This is a correlated subquery because of <code>o.customer_id = c.id</code>.",
+        "output": "+----+--------------+\n| id | name         |\n+----+--------------+\n|  1 | Aarav Kumar  |\n|  2 | Priya Sharma |\n|  3 | Rohan Mehta  |\n+----+--------------+\n3 rows in set\n-- Meera (no orders) is excluded"
+      },
+      {
+        "title": "NOT EXISTS - Customers Without Orders (Safe Pattern)",
+        "code": "SELECT c.id, c.name\nFROM customers c\nWHERE NOT EXISTS (\n    SELECT 1 FROM orders o\n    WHERE o.customer_id = c.id\n);",
+        "language": "sql",
+        "explanation": "NOT EXISTS is the correct way to find customers with no matching orders. Unlike NOT IN, it handles NULL in the subquery gracefully. This is the preferred production pattern.",
+        "output": "+----+------------+\n| id | name       |\n+----+------------+\n|  4 | Meera Iyer |\n+----+------------+\n1 row in set"
+      },
+      {
+        "title": "NOT IN Trap With NULLs",
+        "code": "-- Insert an order with NULL customer_id to reproduce the bug\nINSERT INTO orders VALUES (105, NULL, 999);\n\n-- This returns ZERO rows because of NULL\nSELECT c.name\nFROM customers c\nWHERE c.id NOT IN (SELECT customer_id FROM orders);\n\n-- Correct version that handles NULL\nSELECT c.name\nFROM customers c\nWHERE c.id NOT IN (\n    SELECT customer_id FROM orders WHERE customer_id IS NOT NULL\n);\n\n-- Better: always use NOT EXISTS\nSELECT c.name\nFROM customers c\nWHERE NOT EXISTS (\n    SELECT 1 FROM orders o WHERE o.customer_id = c.id\n);",
+        "language": "sql",
+        "explanation": "NOT IN becomes unreliable when the subquery contains NULL. Any comparison <code>x != NULL</code> is UNKNOWN, so the entire NOT IN evaluates to UNKNOWN (falsey) for every row. Either filter NULLs out in the subquery or use NOT EXISTS. Memorize this — it is a classic interview trick.",
+        "output": "-- First query: Empty set (bug!)\n-- Second query: Meera Iyer\n-- Third query: Meera Iyer (correct and clean)"
+      },
+      {
+        "title": "Nth Highest Salary - Three Methods",
+        "code": "-- Method 1: DISTINCT + OFFSET (MySQL, PostgreSQL)\nSELECT DISTINCT salary\nFROM employees\nORDER BY salary DESC\nLIMIT 1 OFFSET 2;   -- 3rd highest: skip 2 then take 1\n\n-- Method 2: Correlated subquery (counts DISTINCT higher salaries)\nSELECT salary FROM employees e1\nWHERE 3 = (\n    SELECT COUNT(DISTINCT salary)\n    FROM employees e2\n    WHERE e2.salary >= e1.salary\n);\n\n-- Method 3: Window function DENSE_RANK (cleanest)\nSELECT DISTINCT salary FROM (\n    SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n    FROM employees\n) t WHERE rnk = 3;",
+        "language": "sql",
+        "explanation": "Nth highest salary is the single most-asked SQL interview question. Method 1 is simplest but MySQL-specific. Method 2 is portable and uses a correlated subquery — good to know for interviews. Method 3 uses window functions (covered in Chapter 18), the cleanest modern approach.",
+        "output": "+-----------+\n| salary    |\n+-----------+\n| 180000.00 |\n+-----------+\n-- 3rd highest: Ananya 250k, Divya 190k, Rahul 180k"
+      },
+      {
+        "title": "Subquery in SELECT - Add Computed Column",
+        "code": "SELECT name, salary,\n       (SELECT AVG(salary) FROM employees) AS company_avg,\n       salary - (SELECT AVG(salary) FROM employees) AS diff_from_avg\nFROM employees\nORDER BY diff_from_avg DESC;",
+        "language": "sql",
+        "explanation": "Scalar subqueries in SELECT add computed columns that depend on aggregates. MySQL evaluates non-correlated subqueries once and caches the result, so this is efficient. For per-row correlated aggregates, performance can degrade.",
+        "output": "+---------------+-----------+----------------+---------------+\n| name          | salary    | company_avg    | diff_from_avg |\n+---------------+-----------+----------------+---------------+\n| Ananya Reddy  | 250000.00 | 155625.000000  | 94375.00      |\n| Divya Nair    | 190000.00 | 155625.000000  | 34375.00      |\n| Rahul Verma   | 180000.00 | 155625.000000  | 24375.00      |\n| Sneha Kapoor  | 170000.00 | 155625.000000  | 14375.00      |\n| Vikram Singh  | 130000.00 | 155625.000000  | -25625.00     |\n| Arjun Pillai  | 120000.00 | 155625.000000  | -35625.00     |\n| Karthik Raja  | 110000.00 | 155625.000000  | -45625.00     |\n| Pooja Menon   |  95000.00 | 155625.000000  | -60625.00     |\n+---------------+-----------+----------------+---------------+"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using NOT IN When Subquery Contains NULLs",
+        "wrongCode": "-- orders may have rows with customer_id IS NULL\nSELECT name FROM customers\nWHERE id NOT IN (SELECT customer_id FROM orders);",
+        "error": "No SQL error, but the query returns zero rows if ANY order has NULL customer_id. The entire filter silently evaluates to UNKNOWN.",
+        "correctCode": "SELECT name FROM customers c\nWHERE NOT EXISTS (\n    SELECT 1 FROM orders o WHERE o.customer_id = c.id\n);",
+        "explanation": "NOT IN with NULL in the list always produces no TRUE result because <code>x != NULL</code> is UNKNOWN. NOT EXISTS does not have this issue. Always prefer NOT EXISTS unless you explicitly filter NULLs in the subquery."
+      },
+      {
+        "title": "Scalar Subquery Returning Multiple Rows",
+        "wrongCode": "SELECT name FROM employees\nWHERE salary = (SELECT salary FROM employees WHERE department = 'Engineering');",
+        "error": "ERROR 1242 (21000): Subquery returns more than 1 row",
+        "correctCode": "-- Use IN for multiple values\nSELECT name FROM employees\nWHERE salary IN (SELECT salary FROM employees WHERE department = 'Engineering');\n\n-- Or pick a specific row (MAX/MIN/LIMIT)\nSELECT name FROM employees\nWHERE salary = (SELECT MAX(salary) FROM employees WHERE department = 'Engineering');",
+        "explanation": "When you use <code>=</code> with a subquery, the subquery MUST return exactly one value. If it returns multiple, you get error 1242. Either aggregate (MAX/MIN/AVG) to get one value, or change <code>=</code> to IN."
+      },
+      {
+        "title": "Derived Table Without Alias",
+        "wrongCode": "SELECT * FROM (SELECT department, COUNT(*) FROM employees GROUP BY department);",
+        "error": "ERROR 1248 (42000): Every derived table must have its own alias",
+        "correctCode": "SELECT * FROM (\n    SELECT department, COUNT(*) AS cnt\n    FROM employees\n    GROUP BY department\n) AS dept_counts;",
+        "explanation": "MySQL requires every subquery in FROM to have an alias. Pick something short and descriptive. Also alias computed columns (like COUNT(*) AS cnt) so the outer query can reference them by name."
+      },
+      {
+        "title": "Forgetting the Correlation Reference Makes the Query Wrong",
+        "wrongCode": "-- Intended: employees above their department's average\nSELECT name, salary FROM employees\nWHERE salary > (SELECT AVG(salary) FROM employees);",
+        "error": "No error, but the query compares every employee to the COMPANY average, not their department average.",
+        "correctCode": "SELECT e.name, e.salary, e.department\nFROM employees e\nWHERE e.salary > (\n    SELECT AVG(e2.salary) FROM employees e2\n    WHERE e2.department = e.department\n);",
+        "explanation": "Correlated subqueries reference the outer query via an alias and a WHERE condition. Without the <code>e2.department = e.department</code> link, the subquery is independent and computes the global average. Always double-check your correlation conditions."
+      }
+    ],
+    "summary": [
+      "A subquery is a SELECT inside another SQL statement. Types: scalar (1 value), row (1 row), table (multiple rows).",
+      "Subqueries can appear in SELECT, FROM, WHERE, and HAVING. In FROM they are called derived tables and require an alias in MySQL.",
+      "IN, ANY, ALL, and EXISTS operate on sets. EXISTS returns TRUE when the subquery has at least one row; the row contents do not matter.",
+      "A correlated subquery references columns from the outer query. It runs once per outer row (logically) and enables per-row logic.",
+      "EXISTS can short-circuit and often performs better than IN on large tables. Modern optimizers frequently convert between them automatically.",
+      "NOT EXISTS is always safer than NOT IN. NOT IN returns wrong results if the subquery contains NULL (the classic interview gotcha).",
+      "Many IN/EXISTS subqueries can be rewritten as JOINs. Pick whichever reads better. The optimizer often produces the same plan.",
+      "Scalar subqueries used with = must return exactly one row, or MySQL raises error 1242. Use MAX/MIN/LIMIT or switch to IN.",
+      "Common patterns: above-average salary (scalar subquery in WHERE), Nth highest salary (DISTINCT + LIMIT OFFSET or DENSE_RANK), customers with no orders (NOT EXISTS).",
+      "Nth highest salary is the most-asked SQL interview question. Know at least two methods: LIMIT/OFFSET and window functions (DENSE_RANK)."
+    ]
+  },
+  "relatedTopics": ["joins-inner-and-outer", "window-functions", "common-table-expressions"],
+  "practice": {
+    "totalQuestions": 51,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is a scalar subquery?",
+        "hint": "Think about the shape of the result.",
+        "answer": "<code>A subquery that returns a single value (1 row, 1 column). Can be used wherever SQL expects a single value.</code>",
+        "explanation": "Scalar subqueries are the most common type. Example: <code>SELECT AVG(salary) FROM employees</code> returns one number."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What error does MySQL throw if a <code>=</code> subquery returns more than one row?",
+        "hint": "Error 1242.",
+        "answer": "<code>ERROR 1242 (21000): Subquery returns more than 1 row</code>",
+        "explanation": "The <code>=</code> operator expects a scalar. To compare against multiple values, use IN."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does EXISTS return?",
+        "hint": "Based on whether the subquery has rows.",
+        "answer": "<code>TRUE if the subquery produces at least one row, FALSE otherwise. Row contents do not matter — it only checks existence.</code>",
+        "explanation": "Convention: write <code>SELECT 1 FROM ...</code> in EXISTS subqueries because the SELECT list is ignored."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this return given sample data (4 customers, 4 orders, Meera has no orders)?<br><pre><code>SELECT name FROM customers\nWHERE EXISTS (\n    SELECT 1 FROM orders WHERE orders.customer_id = customers.id\n);</code></pre>",
+        "hint": "Customers with at least one order.",
+        "answer": "<code>Aarav Kumar, Priya Sharma, Rohan Mehta</code>",
+        "explanation": "EXISTS is true for customers who have at least one matching order. Meera has none and is excluded."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this return given sample data?<br><pre><code>SELECT name FROM customers\nWHERE id IN (SELECT customer_id FROM orders);</code></pre>",
+        "hint": "Same as EXISTS for this case.",
+        "answer": "<code>Aarav Kumar, Priya Sharma, Rohan Mehta</code>",
+        "explanation": "IN filters to customers whose id appears in the orders.customer_id set. Same result as EXISTS when no NULLs are involved."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Given a table with salaries 100, 200, 300, 300, 400, what is the 3rd highest salary using DISTINCT?",
+        "hint": "Distinct values in descending order: 400, 300, 200.",
+        "answer": "<code>200</code>",
+        "explanation": "DISTINCT values descending: 400, 300, 200, 100. The third is 200. Without DISTINCT, the third would be 300 (duplicate)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Is this a correlated or non-correlated subquery?<br><pre><code>SELECT name FROM employees\nWHERE salary > (SELECT AVG(salary) FROM employees);</code></pre>",
+        "hint": "Does the inner query reference the outer query?",
+        "answer": "<code>Non-correlated</code>",
+        "explanation": "The subquery is self-contained and does not reference the outer employees alias. MySQL evaluates it once."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Is this correlated or non-correlated?<br><pre><code>SELECT e.name FROM employees e\nWHERE e.salary > (SELECT AVG(e2.salary) FROM employees e2 WHERE e2.department = e.department);</code></pre>",
+        "hint": "Look for outer reference.",
+        "answer": "<code>Correlated</code>",
+        "explanation": "The inner query references <code>e.department</code> from the outer query, so it runs once per outer row."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What error does this produce?<br><pre><code>SELECT * FROM (SELECT department, AVG(salary) FROM employees GROUP BY department);</code></pre>",
+        "hint": "Missing something.",
+        "answer": "<code>ERROR 1248 (42000): Every derived table must have its own alias</code>",
+        "explanation": "MySQL requires every FROM subquery to have an alias. Add <code>AS t</code> or similar."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given sample employees, how many rows does this return?<br><pre><code>SELECT name FROM employees\nWHERE salary > (SELECT AVG(salary) FROM employees);</code></pre>",
+        "hint": "Company avg is around 155,625.",
+        "answer": "<code>4 rows: Ananya (250k), Divya (190k), Rahul (180k), Sneha (170k)</code>",
+        "explanation": "Avg = (250+180+190+120+170+110+95+130)/8 = 1,245,000/8 = 155,625. Four employees exceed this."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return on the sample employees?<br><pre><code>SELECT e.name, e.salary, e.department\nFROM employees e\nWHERE e.salary > (\n    SELECT AVG(e2.salary) FROM employees e2\n    WHERE e2.department = e.department\n);</code></pre>",
+        "hint": "Per-department average. Engineering avg 185k, Marketing 125k, Sales 130k.",
+        "answer": "<code>Ananya (Eng 250k vs 185k), Divya (Eng 190k vs 185k), Sneha (Mkt 170k vs 125k). Note: Rahul 180k does NOT qualify (< 185k Eng avg).</code>",
+        "explanation": "Correlated subquery compares each employee to their own department average. Rahul is slightly below Engineering's 185k average. Vikram is alone in Sales (130k vs 130k, not >)."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Explain why this returns zero rows if any order has NULL customer_id:<br><pre><code>SELECT name FROM customers\nWHERE id NOT IN (SELECT customer_id FROM orders);</code></pre>",
+        "hint": "NULL comparisons are UNKNOWN.",
+        "answer": "<code>x NOT IN (list with NULL) expands to AND of x != each value. x != NULL is UNKNOWN, which combined with AND becomes UNKNOWN (treated as FALSE). So every row is filtered out.</code>",
+        "explanation": "This is the single most famous SQL trap. Use NOT EXISTS to avoid it, or filter NULLs: <code>WHERE customer_id IS NOT NULL</code> inside the subquery."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this derive?<br><pre><code>SELECT dept, avg_sal FROM (\n    SELECT department AS dept, AVG(salary) AS avg_sal\n    FROM employees GROUP BY department\n) t\nWHERE avg_sal > 150000;</code></pre>",
+        "hint": "Departments above 150k avg salary.",
+        "answer": "<code>Engineering (185k avg). Marketing 125k and Sales 130k do not qualify.</code>",
+        "explanation": "Derived table computes per-department averages. Outer query filters those above 150k. Only Engineering qualifies."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return?<br><pre><code>SELECT name FROM employees\nWHERE salary > ALL (\n    SELECT salary FROM employees WHERE department = 'Marketing'\n);</code></pre>",
+        "hint": "Greater than EVERY marketing salary. Marketing max is 170k.",
+        "answer": "<code>Ananya Reddy (250k), Divya Nair (190k), Rahul Verma (180k). Sneha at 170k is NOT strictly greater than 170k.</code>",
+        "explanation": "> ALL means greater than every value in the set. Marketing salaries: 170, 110, 95. The filter is salary > 170. Only three employees qualify."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the 3rd highest distinct salary in the sample table?",
+        "hint": "Sort distinct salaries descending: 250k, 190k, 180k, 170k, ...",
+        "answer": "<code>180000 (Rahul Verma)</code>",
+        "explanation": "Distinct descending: 250k, 190k, 180k. The third is 180000. Query: <code>SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 2</code>."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this return? <br><pre><code>SELECT name FROM employees e1\nWHERE 2 = (\n    SELECT COUNT(DISTINCT salary) FROM employees e2\n    WHERE e2.salary >= e1.salary\n);</code></pre>",
+        "hint": "Count of distinct salaries >= current employee's = 2 means current is 2nd highest.",
+        "answer": "<code>Divya Nair (salary 190000, the 2nd highest distinct salary)</code>",
+        "explanation": "The correlated count says 'exactly 2 distinct salaries are >= mine,' meaning I am the 2nd highest. Ananya has count 1 (only her), Divya has count 2 (Ananya and herself), etc."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Where can subqueries appear in an SQL statement?",
+        "hint": "Four clauses.",
+        "answer": "<code>SELECT, FROM, WHERE, HAVING. They can also appear in INSERT, UPDATE, and DELETE statements.</code>",
+        "explanation": "Subqueries are extremely flexible. Wherever SQL expects a value (scalar), a list (IN), or a table (FROM), you can usually put a subquery."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the difference between EXISTS and IN?",
+        "hint": "Content vs existence.",
+        "answer": "<code>IN checks if a value equals any item in a list/subquery. EXISTS checks whether the subquery produces any row (row contents ignored). EXISTS handles NULLs better and often short-circuits on first match.</code>",
+        "explanation": "Both can express 'has matching related records' but EXISTS is generally safer and often faster on large tables."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Convert this IN subquery to a JOIN: <pre><code>SELECT name FROM customers WHERE id IN (SELECT customer_id FROM orders);</code></pre>",
+        "hint": "INNER JOIN + DISTINCT.",
+        "answer": "<pre><code>SELECT DISTINCT c.name\nFROM customers c\nJOIN orders o ON c.id = o.customer_id;</code></pre>",
+        "explanation": "DISTINCT is needed because a customer with multiple orders would appear multiple times in the JOIN. IN automatically deduplicates."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Why is NOT EXISTS preferred over NOT IN?",
+        "hint": "NULL handling.",
+        "answer": "<code>NOT IN returns wrong (empty) results if the subquery contains NULL. NOT EXISTS is NULL-safe.</code>",
+        "explanation": "In any production code with optional foreign keys, always use NOT EXISTS unless you carefully filter NULLs in the subquery."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does ANY mean in SQL?",
+        "hint": "Compare to at least one.",
+        "answer": "<code>ANY returns TRUE if the comparison holds for AT LEAST ONE row in the subquery. = ANY is equivalent to IN.</code>",
+        "explanation": "<code>salary > ANY (SELECT salary FROM interns)</code> is true if salary exceeds at least one intern. SOME is a synonym for ANY."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write a query to find employees in the Engineering department whose salary is greater than the maximum salary in Marketing.",
+        "hint": "Scalar subquery with MAX.",
+        "answer": "<pre><code>SELECT name, salary FROM employees\nWHERE department = 'Engineering'\n  AND salary > (SELECT MAX(salary) FROM employees WHERE department = 'Marketing');</code></pre>",
+        "explanation": "Marketing max = 170k. Engineering employees above 170k: Ananya (250k), Divya (190k), Rahul (180k)."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write a query to find departments whose average salary is above the company average.",
+        "hint": "GROUP BY + HAVING + scalar subquery.",
+        "answer": "<pre><code>SELECT department, AVG(salary) AS avg_sal\nFROM employees\nGROUP BY department\nHAVING AVG(salary) > (SELECT AVG(salary) FROM employees);</code></pre>",
+        "explanation": "Company avg ~155k. Engineering 185k qualifies. Marketing 125k, Sales 130k do not. HAVING filters aggregated groups."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write a correlated subquery to find employees who are the highest paid in their own department.",
+        "hint": "Compare to max in same department.",
+        "answer": "<pre><code>SELECT name, department, salary\nFROM employees e\nWHERE salary = (\n    SELECT MAX(salary) FROM employees\n    WHERE department = e.department\n);</code></pre>",
+        "explanation": "For each employee, the subquery finds the max salary in their department. Keep rows where salary equals that max. Results: Ananya (Eng), Sneha (Mkt), Vikram (Sales)."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the NULL trap with NOT IN, and how do you avoid it?",
+        "hint": "x != NULL is UNKNOWN.",
+        "answer": "<code>If the subquery returns NULL, NOT IN is equivalent to an AND of x != each_value, including x != NULL which is UNKNOWN. AND with UNKNOWN is UNKNOWN (treated as FALSE), so no rows pass. Avoid by using NOT EXISTS, or filter NULLs out: ... WHERE col IS NOT NULL.</code>",
+        "explanation": "This is the single most important SQL trap. Memorize the fix: NOT EXISTS is always safe."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why might a correlated subquery be slower than a JOIN?",
+        "hint": "Per-row execution.",
+        "answer": "<code>A correlated subquery logically runs once per outer row. For N outer rows, the inner query may execute N times. A JOIN is a set operation processed once. Modern optimizers often rewrite correlated subqueries as semi-joins internally.</code>",
+        "explanation": "In older MySQL versions, correlated subqueries could be very slow. MySQL 8.0+ optimizes many cases. Still, prefer JOINs when expressible and equally readable."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Write a query using a subquery in SELECT to show each employee's salary and the difference from their department's average.",
+        "hint": "Correlated scalar subquery per row.",
+        "answer": "<pre><code>SELECT e.name, e.department, e.salary,\n       e.salary - (\n           SELECT AVG(e2.salary) FROM employees e2\n           WHERE e2.department = e.department\n       ) AS diff_from_dept_avg\nFROM employees e;</code></pre>",
+        "explanation": "For each employee, the correlated subquery computes their department average. Subtract to get the difference. Positive values: above-average earners."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Find the 2nd highest distinct salary per department.",
+        "hint": "Correlated subquery with COUNT DISTINCT.",
+        "answer": "<pre><code>SELECT name, department, salary\nFROM employees e1\nWHERE 2 = (\n    SELECT COUNT(DISTINCT e2.salary) FROM employees e2\n    WHERE e2.department = e1.department AND e2.salary >= e1.salary\n);</code></pre>",
+        "explanation": "For each employee, count the distinct salaries >= theirs in the same department. Exactly 2 means they are the 2nd highest. More idiomatic: use DENSE_RANK() OVER (PARTITION BY department ORDER BY salary DESC)."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which of the following is a scalar subquery?",
+        "options": {
+          "A": "A subquery returning multiple rows",
+          "B": "A subquery returning exactly one value (one row, one column)",
+          "C": "A subquery in the FROM clause",
+          "D": "A subquery that uses EXISTS"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A scalar subquery returns a single value and can be used anywhere a value is expected (in SELECT, WHERE, HAVING)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does EXISTS return?",
+        "options": {
+          "A": "The matching rows from the subquery",
+          "B": "TRUE if the subquery has at least one row; FALSE otherwise",
+          "C": "The count of rows",
+          "D": "NULL if no rows"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> EXISTS is a boolean test — it only checks whether the subquery produced any rows; the contents are ignored."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which operator is equivalent to <code>= ANY</code>?",
+        "options": {
+          "A": "ALL",
+          "B": "EXISTS",
+          "C": "IN",
+          "D": "BETWEEN"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>= ANY</code> matches if equal to any value in the set, which is exactly what IN does."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What MySQL error occurs if a scalar <code>=</code> subquery returns multiple rows?",
+        "options": {
+          "A": "ERROR 1064 (syntax)",
+          "B": "ERROR 1242 (Subquery returns more than 1 row)",
+          "C": "ERROR 1054 (Unknown column)",
+          "D": "No error; first row is used"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL strictly enforces single-row results for = comparisons against subqueries. Use IN, aggregates, or LIMIT."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which is the safe way to find customers with no orders?",
+        "options": {
+          "A": "WHERE id NOT IN (SELECT customer_id FROM orders)",
+          "B": "WHERE NOT EXISTS (SELECT 1 FROM orders WHERE orders.customer_id = customers.id)",
+          "C": "WHERE customer_id != ALL orders",
+          "D": "WHERE id <> (SELECT customer_id FROM orders)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> NOT EXISTS handles NULLs gracefully. A is the well-known NULL trap; C is syntactically invalid; D fails if subquery returns multiple rows."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What is a correlated subquery?",
+        "options": {
+          "A": "A subquery that uses JOIN",
+          "B": "A subquery that references columns from the outer query",
+          "C": "A subquery with a GROUP BY",
+          "D": "A subquery that uses EXISTS"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Correlation means the inner query depends on the outer query's current row, typically through a WHERE condition."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "What requirement does MySQL impose on derived tables (subqueries in FROM)?",
+        "options": {
+          "A": "They must be materialized",
+          "B": "They must have an alias",
+          "C": "They cannot contain GROUP BY",
+          "D": "They cannot be nested"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL requires every derived table to have an alias (e.g., <code>... ) AS t</code>). Without it: ERROR 1248."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does this query compute?<pre><code>SELECT name FROM employees WHERE salary > ALL (SELECT salary FROM employees WHERE department = 'Marketing');</code></pre>",
+        "options": {
+          "A": "Employees earning more than at least one marketing employee",
+          "B": "Employees earning more than every marketing employee",
+          "C": "Employees in the Marketing department",
+          "D": "The maximum salary in Marketing"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> > ALL means greater than every value in the set. Equivalent to > MAX(...)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Why is NOT IN unsafe when the subquery may return NULL?",
+        "options": {
+          "A": "Because NULL is treated as 0",
+          "B": "Because x != NULL is UNKNOWN, which makes NOT IN return no TRUE results",
+          "C": "Because NOT IN is slower",
+          "D": "Because NULL cannot be compared"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Any comparison with NULL yields UNKNOWN. AND-ed with UNKNOWN keeps it UNKNOWN, which SQL treats as not-true. Every row is filtered out."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which query finds the 2nd highest distinct salary?",
+        "options": {
+          "A": "SELECT MAX(salary) FROM employees WHERE salary < MAX(salary)",
+          "B": "SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1",
+          "C": "SELECT MAX(salary) FROM employees",
+          "D": "SELECT MIN(salary) FROM employees"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DISTINCT removes duplicate salaries, ORDER BY DESC puts highest first, OFFSET 1 skips the first, LIMIT 1 takes one — the 2nd highest distinct salary. A is invalid (aggregate with aggregate)."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What does a subquery in the SELECT list typically do?",
+        "options": {
+          "A": "Join tables",
+          "B": "Add a computed column that depends on a subquery value",
+          "C": "Group rows",
+          "D": "Filter rows"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A SELECT-list subquery returns one value per row and becomes an additional column. Often a correlated per-row computation or a global scalar."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "A correlated subquery logically runs:",
+        "options": {
+          "A": "Once total",
+          "B": "Once per outer row",
+          "C": "Once per table",
+          "D": "Never"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Correlated subqueries depend on the current outer row, so they conceptually re-execute for each. Optimizers may transform them into more efficient forms."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Which query correctly finds employees who earn more than their department average?",
+        "options": {
+          "A": "SELECT * FROM employees WHERE salary > AVG(salary)",
+          "B": "SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees)",
+          "C": "SELECT e.* FROM employees e WHERE e.salary > (SELECT AVG(e2.salary) FROM employees e2 WHERE e2.department = e.department)",
+          "D": "SELECT * FROM employees HAVING salary > AVG(salary)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Correlated subquery per department. A is invalid (aggregate in WHERE). B compares to the global average. D misuses HAVING."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Why might EXISTS be faster than IN on very large tables?",
+        "options": {
+          "A": "EXISTS materializes the full list first",
+          "B": "EXISTS can short-circuit on the first matching row; IN may evaluate the whole subquery",
+          "C": "IN is deprecated",
+          "D": "EXISTS uses an index automatically"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> EXISTS only needs one matching row to return TRUE, allowing early termination. Modern optimizers often produce similar plans for both."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the canonical query for the Nth highest salary?",
+        "options": {
+          "A": "SELECT salary FROM employees LIMIT N",
+          "B": "SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET N-1",
+          "C": "SELECT MAX(salary) FROM employees",
+          "D": "SELECT COUNT(salary) FROM employees"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DISTINCT + sorted descending + OFFSET N-1 + LIMIT 1 returns the Nth distinct salary. Alternative: DENSE_RANK window function."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "difficulty": "Easy",
+        "title": "Employees Above Company Average",
+        "description": "Write a query to find all employees whose salary is greater than the overall average salary.",
+        "starterCode": "-- Scalar subquery\n",
+        "solution": "SELECT name, department, salary\nFROM employees\nWHERE salary > (SELECT AVG(salary) FROM employees)\nORDER BY salary DESC;",
+        "explanation": "Simple scalar subquery returning the company average. The outer query filters rows above that value.",
+        "testCases": [
+          {"input": "Sample employees", "output": "Ananya, Divya, Rahul, Sneha"}
+        ]
+      },
+      {
+        "id": "cc-2",
+        "difficulty": "Easy",
+        "title": "Customers With at Least One Order",
+        "description": "Use EXISTS to find customers who have placed at least one order.",
+        "starterCode": "-- WHERE EXISTS (...)\n",
+        "solution": "SELECT c.id, c.name\nFROM customers c\nWHERE EXISTS (\n    SELECT 1 FROM orders o WHERE o.customer_id = c.id\n);",
+        "explanation": "EXISTS short-circuits on first match. Correlated via customer_id = c.id.",
+        "testCases": [
+          {"input": "Sample data", "output": "Aarav, Priya, Rohan (not Meera)"}
+        ]
+      },
+      {
+        "id": "cc-3",
+        "difficulty": "Medium",
+        "title": "3rd Highest Salary",
+        "description": "Find the 3rd highest distinct salary in the employees table.",
+        "starterCode": "-- DISTINCT + ORDER BY + LIMIT OFFSET\n",
+        "solution": "SELECT DISTINCT salary\nFROM employees\nORDER BY salary DESC\nLIMIT 1 OFFSET 2;",
+        "explanation": "OFFSET 2 skips the top two distinct salaries. LIMIT 1 takes the next. Result: 180000 (Rahul).",
+        "testCases": [
+          {"input": "Sample employees", "output": "180000.00"}
+        ]
+      },
+      {
+        "id": "cc-4",
+        "difficulty": "Medium",
+        "title": "Employees Above Department Average",
+        "description": "Using a correlated subquery, find employees whose salary is greater than the average salary of their own department.",
+        "starterCode": "-- Correlated subquery\n",
+        "solution": "SELECT e.name, e.department, e.salary\nFROM employees e\nWHERE e.salary > (\n    SELECT AVG(e2.salary)\n    FROM employees e2\n    WHERE e2.department = e.department\n);",
+        "explanation": "The inner query references e.department, making it correlated. For each row, compute that row's own department average.",
+        "testCases": [
+          {"input": "Sample employees", "output": "Ananya, Divya, Sneha"}
+        ]
+      },
+      {
+        "id": "cc-5",
+        "difficulty": "Medium",
+        "title": "Departments Above Company Average",
+        "description": "Find departments whose average salary exceeds the company average.",
+        "starterCode": "-- GROUP BY + HAVING + subquery\n",
+        "solution": "SELECT department, AVG(salary) AS avg_sal\nFROM employees\nGROUP BY department\nHAVING AVG(salary) > (SELECT AVG(salary) FROM employees);",
+        "explanation": "GROUP BY creates per-department aggregates. HAVING filters those groups by comparing to the global average.",
+        "testCases": [
+          {"input": "Sample employees", "output": "Engineering (185000)"}
+        ]
+      },
+      {
+        "id": "cc-6",
+        "difficulty": "Hard",
+        "title": "Customers With No Orders (NOT EXISTS)",
+        "description": "Find customers who have never placed an order. Use NOT EXISTS to avoid the NULL trap.",
+        "starterCode": "-- NOT EXISTS is the safe pattern\n",
+        "solution": "SELECT c.id, c.name\nFROM customers c\nWHERE NOT EXISTS (\n    SELECT 1 FROM orders o WHERE o.customer_id = c.id\n);",
+        "explanation": "NOT EXISTS handles NULL gracefully. NOT IN with NULL in subquery returns empty. Always prefer NOT EXISTS here.",
+        "testCases": [
+          {"input": "Sample data", "output": "Meera Iyer"}
+        ]
+      },
+      {
+        "id": "cc-7",
+        "difficulty": "Hard",
+        "title": "Nth Highest via Correlated Subquery",
+        "description": "Write a parametric query that returns the Nth highest distinct salary using a correlated subquery (no LIMIT).",
+        "starterCode": "-- Replace 3 with N to find Nth\n",
+        "solution": "SELECT DISTINCT salary FROM employees e1\nWHERE 3 = (\n    SELECT COUNT(DISTINCT salary) FROM employees e2\n    WHERE e2.salary >= e1.salary\n);",
+        "explanation": "For each distinct salary, count how many distinct salaries are >= it. If the count equals N, this salary is the Nth highest. Works on databases without OFFSET support.",
+        "testCases": [
+          {"input": "N=3, sample employees", "output": "180000 (Rahul)"}
+        ]
+      },
+      {
+        "id": "cc-8",
+        "difficulty": "Hard",
+        "title": "Highest Paid in Each Department",
+        "description": "List the highest-paid employee(s) in every department. Handle ties (multiple employees at the same max salary).",
+        "starterCode": "-- Correlated subquery with MAX\n",
+        "solution": "SELECT name, department, salary\nFROM employees e\nWHERE salary = (\n    SELECT MAX(salary) FROM employees e2\n    WHERE e2.department = e.department\n)\nORDER BY department;",
+        "explanation": "For each row, compare to the max salary of its department. Rows equal to the max are kept. Ties produce multiple rows per department.",
+        "testCases": [
+          {"input": "Sample employees", "output": "Ananya (Eng), Sneha (Mkt), Vikram (Sales)"}
+        ]
+      }
+    ]
+  }
+}

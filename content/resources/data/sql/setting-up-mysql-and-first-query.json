@@ -1,0 +1,726 @@
+{
+  "title": "Setting Up MySQL and Your First Query",
+  "slug": "setting-up-mysql-and-first-query",
+  "language": "sql",
+  "chapter": 2,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 54,
+  "seo": {
+    "title": "Install MySQL and Run Your First Query - Workbench, CLI, CREATE DATABASE, SELECT | Modern Age Coders",
+    "description": "Install MySQL on Windows, Mac, or Ubuntu, connect via MySQL Workbench or command line, create your first database, create tables, insert rows, and run your first SELECT query. Covers SHOW DATABASES, DESCRIBE, comments, and the all-important semicolon. 54 practice questions.",
+    "keywords": "install mysql windows, install mysql mac homebrew, install mysql ubuntu, mysql workbench tutorial, mysql command line tutorial, create database mysql, first sql query, mysql for beginners, show databases mysql, describe mysql table, sql semicolon, sql comments"
+  },
+  "content": {
+    "what": "<h2>Getting MySQL Running on Your Machine</h2><p>In Chapter 1 we said a lot of things <em>about</em> SQL. In this chapter we actually run our first query. By the end you will have MySQL installed, a database created, a table built from scratch, five students inserted, and a working <code>SELECT</code> statement returning real results.</p><p>There are two main ways to talk to a MySQL server:</p><ul><li><strong>MySQL Workbench</strong> — a graphical tool (GUI) with a query editor, table browser, and visual schema designer. Best for beginners and for exploring data.</li><li><strong>MySQL Command Line Client (CLI)</strong> — a plain terminal where you type queries. Faster for professionals, essential on servers where no GUI is available.</li></ul><p>You should get comfortable with BOTH. Most college labs and company servers only have the CLI available, but the GUI makes learning much more pleasant.</p><h3>What We Will Build</h3><p>A tiny <code>school</code> database with a <code>students</code> table. We will store these five students:</p><table><tr><th>id</th><th>name</th><th>class</th><th>marks</th></tr><tr><td>1</td><td>Aarav Sharma</td><td>10</td><td>87</td></tr><tr><td>2</td><td>Priya Iyer</td><td>10</td><td>92</td></tr><tr><td>3</td><td>Rohan Verma</td><td>11</td><td>78</td></tr><tr><td>4</td><td>Ananya Reddy</td><td>11</td><td>95</td></tr><tr><td>5</td><td>Vikram Singh</td><td>12</td><td>65</td></tr></table><p>You will then query it in several ways and end with a clear mental model of the flow: <em>install → connect → create database → create table → insert data → select</em>.</p>",
+    "why": "<h2>Why This Chapter Is Non-Negotiable</h2><p>You cannot learn SQL by reading. You have to run queries, break them, fix them, and watch the output change. Tutorials that only talk theory produce students who freeze the moment an interviewer says \"open a terminal and write a query\".</p><h3>1. Real Queries Beat Memorization</h3><p>When you type <code>SELECT * FROM students;</code> and five rows come back, the concept of a SELECT statement clicks in a way no diagram can match. The muscle memory of typing the semicolon, hitting Enter, and reading the output table teaches patterns you will use for the next 40 years of your career.</p><h3>2. Every Interviewer Expects Basic CLI Fluency</h3><p>Even if your dream job is as a data analyst using Tableau, interviewers routinely ask things like \"connect to a MySQL server, show me the databases, describe the orders table, and count the rows\". Knowing <code>mysql -u root -p</code>, <code>SHOW DATABASES;</code>, <code>USE dbname;</code>, and <code>DESCRIBE tablename;</code> is base-level fluency.</p><h3>3. This Is Your Playground for the Next 20 Chapters</h3><p>From Chapter 3 onwards, every example assumes you have a working MySQL. Installing it once is a few minutes of effort that unlocks months of practice. Do not skip it and think \"I'll run queries in an online sandbox\". Online sandboxes reset every few hours, block certain commands, and do not teach you the real connect-disconnect-backup workflow.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Installing MySQL</h3><h4>Windows</h4><p>Download the <strong>MySQL Installer for Windows</strong> from <code>dev.mysql.com/downloads/installer</code>. Choose the full (not web) installer. During setup:</p><ol><li>Choose \"Developer Default\" setup type (installs Server, Workbench, Shell, and sample data).</li><li>Set the root password when prompted. <strong>Write it down</strong> — losing it means reinstalling.</li><li>Keep the default port <code>3306</code>.</li><li>Start MySQL as a Windows service so it runs automatically on boot.</li></ol><h4>macOS (Homebrew)</h4><pre><code>brew install mysql\nbrew services start mysql\nmysql_secure_installation   # set root password</code></pre><h4>Ubuntu / Debian Linux</h4><pre><code>sudo apt update\nsudo apt install mysql-server\nsudo systemctl start mysql\nsudo mysql_secure_installation</code></pre><p>After installation, verify with <code>mysql --version</code>. You should see something like <code>mysql  Ver 8.0.35</code>.</p><h3>2. Connecting to MySQL</h3><h4>From the Command Line</h4><pre><code>mysql -u root -p</code></pre><p>The <code>-u root</code> says \"connect as the root user\", and <code>-p</code> says \"prompt me for the password\". You will then see a prompt that looks like:</p><pre><code>mysql&gt;</code></pre><p>That is your SQL command prompt. Every query you type from now goes after that <code>mysql&gt;</code>.</p><h4>From MySQL Workbench</h4><p>Open Workbench → click the <strong>Local instance 3306</strong> connection tile → enter the root password. You land on a window with a query editor at the top and a results panel at the bottom.</p><h3>3. Your First Commands: SHOW and USE</h3><p><code>SHOW DATABASES;</code> lists all databases on the server.</p><p><code>USE dbname;</code> selects a database to work with. After <code>USE</code>, every <code>SELECT</code>, <code>INSERT</code>, etc. applies to that database.</p><p><code>SHOW TABLES;</code> lists the tables inside the currently selected database.</p><p><code>DESCRIBE tablename;</code> (or <code>DESC tablename;</code>) shows the structure of a table — its columns, data types, and constraints.</p><h3>4. Creating Your First Database</h3><pre><code>CREATE DATABASE school;\nUSE school;</code></pre><p>Line 1 creates a new database called <code>school</code>. Line 2 tells MySQL \"now every command I run is inside this school database\". Without <code>USE</code>, you would have to prefix every table name with <code>school.</code> (e.g., <code>school.students</code>).</p><h3>5. Creating Your First Table</h3><pre><code>CREATE TABLE students (\n    id INT,\n    name VARCHAR(50),\n    class INT,\n    marks INT\n);</code></pre><p>This creates the <code>students</code> table with four columns:</p><ul><li><code>id INT</code> — a whole number, used as a unique identifier.</li><li><code>name VARCHAR(50)</code> — a variable-length string up to 50 characters.</li><li><code>class INT</code> — a whole number (10, 11, 12).</li><li><code>marks INT</code> — a whole number for marks out of 100.</li></ul><p>The parentheses group the column definitions. The commas separate them. The semicolon ends the statement. We will expand this (primary keys, NOT NULL, AUTO_INCREMENT) in Chapter 3.</p><h3>6. Inserting Sample Data</h3><pre><code>INSERT INTO students VALUES (1, 'Aarav Sharma', 10, 87);\nINSERT INTO students VALUES (2, 'Priya Iyer', 10, 92);\nINSERT INTO students VALUES (3, 'Rohan Verma', 11, 78);\nINSERT INTO students VALUES (4, 'Ananya Reddy', 11, 95);\nINSERT INTO students VALUES (5, 'Vikram Singh', 12, 65);</code></pre><p>Each <code>INSERT INTO table VALUES (...)</code> statement adds one row. The values inside parentheses must be in the same order as the columns were declared. Strings go in single quotes. Numbers do not.</p><p>You can also do a multi-row insert in one statement:</p><pre><code>INSERT INTO students VALUES\n    (1, 'Aarav Sharma', 10, 87),\n    (2, 'Priya Iyer', 10, 92),\n    (3, 'Rohan Verma', 11, 78),\n    (4, 'Ananya Reddy', 11, 95),\n    (5, 'Vikram Singh', 12, 65);</code></pre><p>Multi-row inserts are faster (one round-trip to the server) and produce cleaner code.</p><h3>7. Your First SELECT</h3><pre><code>SELECT * FROM students;</code></pre><p>The star means \"all columns\". This returns every row and every column. You should see a nicely formatted table with five students.</p><h3>8. The Almighty Semicolon</h3><p>Every SQL statement ends with a semicolon <code>;</code>. In the CLI, if you forget the semicolon and press Enter, MySQL will wait for you to finish — it shows <code>-&gt;</code> as a continuation prompt:</p><pre><code>mysql&gt; SELECT * FROM students\n    -&gt; ;\n</code></pre><p>Just type the semicolon on the next line and press Enter. In Workbench, you can select a statement and press <strong>Ctrl+Enter</strong> to run just that one.</p><h3>9. Comments in SQL</h3><p>Comments are notes that the database ignores but humans can read.</p><pre><code>-- This is a single-line comment (two dashes and a space)\n# Also a single-line comment (MySQL-specific, less portable)\n/*\n   This is a multi-line comment.\n   Useful for headers or\n   explaining a block of code.\n*/</code></pre><p>Use <code>--</code> for one-liners (works in every database) and <code>/* ... */</code> for blocks. Good code has comments that explain WHY, not what the code literally does.</p>",
+    "codeExamples": [
+      {
+        "title": "Checking What Databases Already Exist",
+        "code": "-- Run this right after connecting to MySQL.\n-- It lists every database on the server.\nSHOW DATABASES;",
+        "language": "sql",
+        "explanation": "Four default databases come with every MySQL install: <code>information_schema</code> (metadata about all tables), <code>mysql</code> (user accounts and privileges), <code>performance_schema</code> (runtime stats), and <code>sys</code> (DBA helpers). You should never delete these. The database you create will appear alongside them.",
+        "output": "+--------------------+\n| Database           |\n+--------------------+\n| information_schema |\n| mysql              |\n| performance_schema |\n| sys                |\n+--------------------+\n4 rows in set (0.01 sec)"
+      },
+      {
+        "title": "Creating a Database and Switching to It",
+        "code": "-- Create a brand new database for our school example.\nCREATE DATABASE school;\n\n-- Switch context so every command below runs inside school.\nUSE school;\n\n-- Confirm we are inside school.\nSELECT DATABASE();",
+        "language": "sql",
+        "explanation": "<code>CREATE DATABASE</code> makes an empty database. <code>USE school;</code> sets the active database so we don't have to prefix table names. <code>SELECT DATABASE();</code> is a handy function that returns the currently selected database — useful when switching between several databases during a session.",
+        "output": "Query OK, 1 row affected (0.02 sec)\nDatabase changed\n+------------+\n| DATABASE() |\n+------------+\n| school     |\n+------------+\n1 row in set (0.00 sec)"
+      },
+      {
+        "title": "Creating the students Table",
+        "code": "CREATE TABLE students (\n    id INT,\n    name VARCHAR(50),\n    class INT,\n    marks INT\n);\n\n-- Verify the table exists.\nSHOW TABLES;\n\n-- Inspect its structure.\nDESCRIBE students;",
+        "language": "sql",
+        "explanation": "<code>CREATE TABLE</code> defines the columns. <code>SHOW TABLES;</code> lists all tables in the current database. <code>DESCRIBE students;</code> (or <code>DESC students;</code>) prints the schema: column name, type, whether nulls are allowed, key info, default value, and extra flags.",
+        "output": "Query OK, 0 rows affected (0.04 sec)\n\n+------------------+\n| Tables_in_school |\n+------------------+\n| students         |\n+------------------+\n1 row in set (0.00 sec)\n\n+-------+-------------+------+-----+---------+-------+\n| Field | Type        | Null | Key | Default | Extra |\n+-------+-------------+------+-----+---------+-------+\n| id    | int         | YES  |     | NULL    |       |\n| name  | varchar(50) | YES  |     | NULL    |       |\n| class | int         | YES  |     | NULL    |       |\n| marks | int         | YES  |     | NULL    |       |\n+-------+-------------+------+-----+---------+-------+\n4 rows in set (0.01 sec)"
+      },
+      {
+        "title": "Inserting Five Students (Multi-Row INSERT)",
+        "code": "-- Efficient single-statement insert of five rows.\nINSERT INTO students VALUES\n    (1, 'Aarav Sharma', 10, 87),\n    (2, 'Priya Iyer', 10, 92),\n    (3, 'Rohan Verma', 11, 78),\n    (4, 'Ananya Reddy', 11, 95),\n    (5, 'Vikram Singh', 12, 65);\n\nSELECT * FROM students;",
+        "language": "sql",
+        "explanation": "One <code>INSERT</code> with multiple <code>VALUES</code> rows is faster than five separate INSERTs because there is only one round-trip to the server. Notice the comma separators between rows and the semicolon at the end. Strings are wrapped in single quotes; numbers are not.",
+        "output": "Query OK, 5 rows affected (0.01 sec)\nRecords: 5  Duplicates: 0  Warnings: 0\n\n+----+----------------+-------+-------+\n| id | name           | class | marks |\n+----+----------------+-------+-------+\n|  1 | Aarav Sharma   |    10 |    87 |\n|  2 | Priya Iyer     |    10 |    92 |\n|  3 | Rohan Verma    |    11 |    78 |\n|  4 | Ananya Reddy   |    11 |    95 |\n|  5 | Vikram Singh   |    12 |    65 |\n+----+----------------+-------+-------+\n5 rows in set (0.00 sec)"
+      },
+      {
+        "title": "SELECT with Specific Columns",
+        "code": "-- Instead of SELECT *, pick only the columns you need.\nSELECT name, marks FROM students;",
+        "language": "sql",
+        "explanation": "In production code, <code>SELECT *</code> is considered lazy and sometimes slow. By naming only the columns you need (<code>name, marks</code>), you reduce network traffic and make your queries more robust — if someone adds a new column later, your query result shape doesn't silently change.",
+        "output": "+----------------+-------+\n| name           | marks |\n+----------------+-------+\n| Aarav Sharma   |    87 |\n| Priya Iyer     |    92 |\n| Rohan Verma    |    78 |\n| Ananya Reddy   |    95 |\n| Vikram Singh   |    65 |\n+----------------+-------+\n5 rows in set (0.00 sec)"
+      },
+      {
+        "title": "Using Comments to Document a Script",
+        "code": "/*\n   School database setup script.\n   Author: Modern Age Coders\n   Date:   2026-04-11\n*/\n\n-- Step 1: create the database if it doesn't exist.\nCREATE DATABASE IF NOT EXISTS school;\nUSE school;\n\n-- Step 2: drop any previous students table for a fresh start.\nDROP TABLE IF EXISTS students;\n\n-- Step 3: create the table.\nCREATE TABLE students (\n    id INT,\n    name VARCHAR(50),\n    class INT,\n    marks INT\n);\n\n-- Step 4: insert seed data.\nINSERT INTO students VALUES\n    (1, 'Aarav Sharma', 10, 87),\n    (2, 'Priya Iyer',   10, 92),\n    (3, 'Rohan Verma',  11, 78),\n    (4, 'Ananya Reddy', 11, 95),\n    (5, 'Vikram Singh', 12, 65);\n\n-- Step 5: confirm.\nSELECT COUNT(*) AS total_students FROM students;",
+        "language": "sql",
+        "explanation": "This is what a well-organized SQL script looks like in the real world. The multi-line comment at the top is the file header. Single-line comments explain each step. <code>IF NOT EXISTS</code> and <code>IF EXISTS</code> make the script safely re-runnable — you can execute it multiple times without errors. <code>SELECT COUNT(*)</code> at the end is a quick sanity check. This pattern is how real database migrations are written.",
+        "output": "Query OK, 1 row affected, 1 warning (0.00 sec)\nDatabase changed\nQuery OK, 0 rows affected, 1 warning (0.00 sec)\nQuery OK, 0 rows affected (0.03 sec)\nQuery OK, 5 rows affected (0.01 sec)\nRecords: 5  Duplicates: 0  Warnings: 0\n+----------------+\n| total_students |\n+----------------+\n|              5 |\n+----------------+\n1 row in set (0.00 sec)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the Semicolon in the CLI",
+        "wrongCode": "mysql> SELECT * FROM students\n(press Enter — nothing happens, you see -> instead)",
+        "error": "MySQL shows the continuation prompt -> because it is waiting for the statement to finish.",
+        "correctCode": "mysql> SELECT * FROM students;\n-- or on the next line:\nmysql> SELECT * FROM students\n    -> ;",
+        "explanation": "The CLI considers a statement complete only when it sees a semicolon. Beginners often think the server is frozen when they see <code>-&gt;</code>. It is simply waiting. Type a <code>;</code> on the next line and press Enter. In Workbench this is less of an issue because you can highlight-and-run."
+      },
+      {
+        "title": "Running Queries Without USE dbname",
+        "wrongCode": "-- Right after logging in:\nSELECT * FROM students;",
+        "error": "ERROR 1046 (3D000): No database selected",
+        "correctCode": "USE school;\nSELECT * FROM students;\n\n-- OR, fully qualify the table name:\nSELECT * FROM school.students;",
+        "explanation": "MySQL needs to know which database the table belongs to. Either run <code>USE school;</code> once to set the context, or prefix the table with the database name every time (<code>school.students</code>). The <code>USE</code> approach is more ergonomic during interactive work."
+      },
+      {
+        "title": "Using Double Quotes Instead of Single Quotes for Strings",
+        "wrongCode": "INSERT INTO students VALUES (6, \"Diya Kapoor\", 10, 88);",
+        "error": "This may work in MySQL but fails on PostgreSQL, SQLite, and standard SQL.",
+        "correctCode": "INSERT INTO students VALUES (6, 'Diya Kapoor', 10, 88);",
+        "explanation": "In standard SQL, <strong>single quotes are for string literals</strong> and double quotes are for identifiers (table/column names with special characters). MySQL is lenient and allows both, but portable code always uses single quotes for strings. Save yourself future pain by starting with the correct habit."
+      },
+      {
+        "title": "Mismatched Column Count in INSERT",
+        "wrongCode": "-- students table has 4 columns, but we pass only 3:\nINSERT INTO students VALUES (6, 'Diya Kapoor', 88);",
+        "error": "ERROR 1136 (21S01): Column count doesn't match value count at row 1",
+        "correctCode": "-- Option 1: provide all 4 values\nINSERT INTO students VALUES (6, 'Diya Kapoor', 10, 88);\n\n-- Option 2: specify which columns you are inserting into\nINSERT INTO students (id, name, marks) VALUES (6, 'Diya Kapoor', 88);",
+        "explanation": "When you use <code>INSERT INTO students VALUES (...)</code> without listing columns, MySQL expects values in the exact order and count of the columns defined. If you want to skip a column, explicitly list the columns you are inserting into. The skipped column becomes NULL (or takes its DEFAULT)."
+      }
+    ],
+    "summary": [
+      "Install MySQL via the MySQL Installer on Windows, Homebrew on Mac (brew install mysql), or apt on Ubuntu (sudo apt install mysql-server).",
+      "Connect to the server using the CLI with mysql -u root -p or by clicking the local instance tile in MySQL Workbench.",
+      "SHOW DATABASES; lists all databases. USE dbname; switches to one. SHOW TABLES; lists tables. DESCRIBE tablename; shows a table's schema.",
+      "CREATE DATABASE school; creates a new database. CREATE TABLE table (col TYPE, ...); creates a table with the given columns.",
+      "INSERT INTO table VALUES (v1, v2, v3); adds one row. Multi-row inserts are faster: INSERT INTO table VALUES (...), (...), (...);",
+      "SELECT * FROM table; retrieves all rows and columns. SELECT col1, col2 FROM table; picks specific columns and is considered better practice.",
+      "Every SQL statement ends with a semicolon. In the CLI, a missing semicolon leaves you stuck at the -> continuation prompt.",
+      "Comments: -- for one-line (portable), # for one-line (MySQL-specific), /* ... */ for multi-line blocks.",
+      "Use single quotes for string literals: 'Aarav Sharma'. Double quotes are for identifiers in standard SQL.",
+      "IF EXISTS and IF NOT EXISTS (on DROP and CREATE) make scripts safely re-runnable without throwing errors on the second run."
+    ]
+  },
+  "relatedTopics": ["introduction-to-sql-and-databases", "data-types-and-constraints"],
+  "practice": {
+    "totalQuestions": 54,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the SQL to create a database named <code>library</code>.",
+        "hint": "One statement. Starts with CREATE.",
+        "answer": "<pre><code>CREATE DATABASE library;</code></pre>",
+        "explanation": "<code>CREATE DATABASE</code> followed by the database name and a semicolon. MySQL will create an empty database. To then use it, run <code>USE library;</code>."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "After creating the library database, how do you switch to it so your subsequent commands apply to it?",
+        "hint": "One keyword.",
+        "answer": "<pre><code>USE library;</code></pre>",
+        "explanation": "<code>USE dbname;</code> sets the \"current\" database. After this, <code>CREATE TABLE books (...)</code> creates the table inside library, not anywhere else."
+      },
+      {
+        "id": "ts-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the SQL to create a table called <code>books</code> with three columns: <code>book_id</code> (integer), <code>title</code> (string up to 100 characters), and <code>price</code> (integer).",
+        "hint": "CREATE TABLE with column-name and type pairs, separated by commas.",
+        "answer": "<pre><code>CREATE TABLE books (\n    book_id INT,\n    title VARCHAR(100),\n    price INT\n);</code></pre>",
+        "explanation": "Column definitions go inside parentheses, separated by commas. The whole statement ends with a semicolon. <code>VARCHAR(100)</code> means a variable-length string up to 100 characters."
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a single INSERT statement that adds this book: book_id=1, title='Let Us C', price=350.",
+        "hint": "INSERT INTO ... VALUES (...).",
+        "answer": "<pre><code>INSERT INTO books VALUES (1, 'Let Us C', 350);</code></pre>",
+        "explanation": "Values must match the column order defined at CREATE TABLE time: book_id, title, price. Strings go inside single quotes. Numbers do not."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the SQL to retrieve all rows and columns from the books table.",
+        "hint": "SELECT star FROM table.",
+        "answer": "<pre><code>SELECT * FROM books;</code></pre>",
+        "explanation": "The <code>*</code> wildcard means \"all columns\". This is fine for quick inspection of small tables but avoided in production code in favor of naming specific columns."
+      },
+      {
+        "id": "ts-6",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "How do you list all databases on a MySQL server?",
+        "hint": "SHOW.",
+        "answer": "<pre><code>SHOW DATABASES;</code></pre>",
+        "explanation": "Lists every database, including the built-in ones: <code>information_schema</code>, <code>mysql</code>, <code>performance_schema</code>, <code>sys</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "How do you list all tables inside the currently selected database?",
+        "hint": "SHOW, but different object.",
+        "answer": "<pre><code>SHOW TABLES;</code></pre>",
+        "explanation": "Works only after <code>USE dbname;</code>. If no database is selected, it errors with \"No database selected\"."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "How do you inspect the columns, data types, and nullability of the students table?",
+        "hint": "One word, starts with D.",
+        "answer": "<pre><code>DESCRIBE students;\n\n-- Short form:\nDESC students;</code></pre>",
+        "explanation": "<code>DESCRIBE</code> (or <code>DESC</code>) prints a neat table with Field, Type, Null, Key, Default, and Extra columns. Very useful when exploring unfamiliar tables."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the command-line syntax to connect to MySQL as the root user with password prompt?",
+        "hint": "mysql -u ... -p",
+        "answer": "<pre><code>mysql -u root -p</code></pre>",
+        "explanation": "<code>-u root</code> specifies the user. <code>-p</code> tells the client to prompt for the password securely (without showing it on screen). You could also type <code>-pMySecret</code> but that exposes the password in your shell history."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What port does MySQL listen on by default?",
+        "hint": "Four digits starting with 3.",
+        "answer": "<strong>3306</strong>.",
+        "explanation": "Default MySQL port is 3306. PostgreSQL uses 5432, SQL Server uses 1433. You can change it in the MySQL config file (<code>my.cnf</code> or <code>my.ini</code>), but 3306 is the near-universal convention."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What happens in the CLI if you press Enter without typing a semicolon?",
+        "hint": "Look at the prompt.",
+        "answer": "MySQL shows a continuation prompt <code>-&gt;</code> because it is waiting for the statement to end. Just type <code>;</code> and press Enter.",
+        "explanation": "This confuses beginners into thinking MySQL is frozen. It is not — it is waiting. You can span a single statement across many lines as long as you close it with a semicolon."
+      },
+      {
+        "id": "ts-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write the SQL to insert three books in a single statement: (1, 'Let Us C', 350), (2, 'DBMS Concepts', 600), (3, 'Head First Java', 500).",
+        "hint": "INSERT INTO ... VALUES (...), (...), (...);",
+        "answer": "<pre><code>INSERT INTO books VALUES\n    (1, 'Let Us C', 350),\n    (2, 'DBMS Concepts', 600),\n    (3, 'Head First Java', 500);</code></pre>",
+        "explanation": "A multi-row insert uses one VALUES clause with each row's tuple separated by commas. Faster than three individual INSERTs because of fewer network round-trips."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write the SQL to select only the <code>title</code> and <code>price</code> columns from books.",
+        "hint": "SELECT col1, col2 FROM table.",
+        "answer": "<pre><code>SELECT title, price FROM books;</code></pre>",
+        "explanation": "Listing explicit columns is better than <code>SELECT *</code> for two reasons: reduced network traffic and stable query shape if someone later adds a new column."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "You want to insert a book with only <code>book_id</code> and <code>title</code>, leaving <code>price</code> unset. Write the SQL.",
+        "hint": "Name the columns you are inserting into.",
+        "answer": "<pre><code>INSERT INTO books (book_id, title) VALUES (4, 'Clean Code');</code></pre>",
+        "explanation": "By specifying the column list, you tell MySQL which columns you are providing. Columns not mentioned get their DEFAULT value (NULL if no default is set)."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What are the TWO ways to write a single-line comment in MySQL?",
+        "hint": "One is portable, one is MySQL-specific.",
+        "answer": "<pre><code>-- This is portable (works on all databases)\n# This is MySQL-specific</code></pre>",
+        "explanation": "Always prefer <code>--</code> because it works across MySQL, PostgreSQL, SQL Server, Oracle, and SQLite. Remember the space after <code>--</code> is required by the SQL standard."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a multi-line comment (block comment) above a CREATE TABLE statement that documents when and why it was created.",
+        "hint": "/* ... */",
+        "answer": "<pre><code>/*\n   Created: 2026-04-11\n   Purpose: student records for the Modern Age Coders course.\n*/\nCREATE TABLE students (\n    id INT,\n    name VARCHAR(50)\n);</code></pre>",
+        "explanation": "Multi-line comments are delimited by <code>/*</code> and <code>*/</code>. Good for headers, explanatory blocks, or temporarily commenting out a big query."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "How do you check which database you are currently inside?",
+        "hint": "A built-in function.",
+        "answer": "<pre><code>SELECT DATABASE();</code></pre>",
+        "explanation": "<code>DATABASE()</code> is a MySQL built-in that returns the current default database, or NULL if none is selected. Very helpful when moving between several databases in a session."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write SQL that creates the database <code>school</code> only if it does not already exist.",
+        "hint": "IF NOT EXISTS.",
+        "answer": "<pre><code>CREATE DATABASE IF NOT EXISTS school;</code></pre>",
+        "explanation": "<code>IF NOT EXISTS</code> prevents the error <em>\"Can't create database 'school'; database exists\"</em>. This makes scripts re-runnable without manual cleanup between runs."
+      },
+      {
+        "id": "ts-19",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a complete script that: (1) creates the school database if missing, (2) uses it, (3) drops the students table if it exists, (4) creates students with id, name, class, marks, (5) inserts five students of your choice, (6) selects all.",
+        "hint": "Chain six statements, comment each one.",
+        "answer": "<pre><code>-- 1. Create DB\nCREATE DATABASE IF NOT EXISTS school;\n-- 2. Use it\nUSE school;\n-- 3. Clean slate\nDROP TABLE IF EXISTS students;\n-- 4. Schema\nCREATE TABLE students (\n    id INT,\n    name VARCHAR(50),\n    class INT,\n    marks INT\n);\n-- 5. Seed data\nINSERT INTO students VALUES\n    (1, 'Aarav Sharma', 10, 87),\n    (2, 'Priya Iyer', 10, 92),\n    (3, 'Rohan Verma', 11, 78),\n    (4, 'Ananya Reddy', 11, 95),\n    (5, 'Vikram Singh', 12, 65);\n-- 6. Verify\nSELECT * FROM students;</code></pre>",
+        "explanation": "This mirrors the real \"database seed script\" pattern used by most web frameworks (Django, Rails, Laravel). <code>IF NOT EXISTS</code> / <code>IF EXISTS</code> make the script safely re-runnable. The final SELECT is a sanity check that the data looks right."
+      },
+      {
+        "id": "ts-20",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between MySQL Workbench and the MySQL CLI, and when would you use each?",
+        "hint": "GUI vs terminal tradeoffs.",
+        "answer": "<strong>Workbench</strong> is a GUI with visual query editor, result grid, schema browser, and EER diagram tool — great for exploration and learning. <strong>CLI</strong> is a terminal client — faster for experienced users, the only option on servers without a desktop, and essential when writing shell scripts or SSH'ing into a remote server.",
+        "explanation": "Real work uses both. Workbench for ad-hoc exploration and visual table design; CLI for scripting, server administration, and quick queries during a debugging session on a production box."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "You just connected to MySQL. What does this return?<br><pre><code>SELECT DATABASE();</code></pre>",
+        "hint": "No USE has been run yet.",
+        "answer": "<pre><code>+------------+\n| DATABASE() |\n+------------+\n| NULL       |\n+------------+</code></pre>",
+        "explanation": "Right after connecting, no database is selected. <code>DATABASE()</code> returns NULL until you run <code>USE school;</code> or similar."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Convert this into a proper multi-row INSERT: three employees named Kavya Nair (id 101, HR, 60000), Arjun Mehta (id 102, IT, 85000), and Sneha Patel (id 103, Finance, 72000) into a table <code>employees(emp_id, name, department, salary)</code>.",
+        "hint": "INSERT ... VALUES (...), (...), (...);",
+        "answer": "<pre><code>INSERT INTO employees VALUES\n    (101, 'Kavya Nair',  'HR',      60000),\n    (102, 'Arjun Mehta', 'IT',      85000),\n    (103, 'Sneha Patel', 'Finance', 72000);</code></pre>",
+        "explanation": "Standard multi-row INSERT form. Aligned spacing is cosmetic — but it makes the script dramatically easier to read in code review."
+      },
+      {
+        "id": "mx-3",
+        "type": "debugging",
+        "difficulty": "Easy",
+        "question": "Find the error:<br><pre><code>CREATE TABLE orders (\n    order_id INT\n    customer VARCHAR(50)\n)</code></pre>",
+        "hint": "Commas and semicolons.",
+        "answer": "Missing commas between columns AND missing semicolon at the end.<br><pre><code>CREATE TABLE orders (\n    order_id INT,\n    customer VARCHAR(50)\n);</code></pre>",
+        "explanation": "Two errors: (1) no comma separating <code>order_id INT</code> from <code>customer VARCHAR(50)</code>; (2) no terminating semicolon. Both produce syntax errors. A helpful rule: every column in a CREATE TABLE needs a comma after it except the last one."
+      },
+      {
+        "id": "mx-4",
+        "type": "debugging",
+        "difficulty": "Medium",
+        "question": "Why does this INSERT fail, and how do you fix it?<br><pre><code>INSERT INTO students VALUES (6, \"Diya Kapoor\", 10, 88);</code></pre>",
+        "hint": "Look at the quotes.",
+        "answer": "In MySQL with ANSI_QUOTES mode, double quotes are treated as identifiers, not strings. It may fail or behave unexpectedly. Use single quotes.<br><pre><code>INSERT INTO students VALUES (6, 'Diya Kapoor', 10, 88);</code></pre>",
+        "explanation": "Single quotes for strings is the SQL standard. MySQL's default mode allows double quotes, but it is fragile — if the server has ANSI_QUOTES enabled (common in enterprise) the statement breaks. Always use single quotes."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given the students table with 5 rows from the chapter, what does <code>SELECT COUNT(*) FROM students;</code> return?",
+        "hint": "Count the rows.",
+        "answer": "<pre><code>+----------+\n| COUNT(*) |\n+----------+\n|        5 |\n+----------+</code></pre>",
+        "explanation": "<code>COUNT(*)</code> returns the number of rows. Since the table has Aarav, Priya, Rohan, Ananya, and Vikram — 5 students — the result is 5. We cover COUNT in depth in Chapter 9."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "You notice your MySQL CLI shows <code>mysql&gt;</code> as the prompt, but then suddenly it changes to <code>-&gt;</code>. What does this indicate?",
+        "hint": "Related to statement completion.",
+        "answer": "MySQL is waiting for you to finish the current statement. You probably pressed Enter before typing a <code>;</code>. Just type <code>;</code> and press Enter to complete it.",
+        "explanation": "This is the #1 confusion for beginners. The server is not hung — it is simply waiting for a terminator. You can span many lines; MySQL only runs when it sees the semicolon."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a script that creates a database <code>ecommerce</code>, switches to it, and creates a <code>products</code> table with columns <code>product_id</code> (INT), <code>product_name</code> (VARCHAR 80), and <code>mrp</code> (INT). Make it re-runnable.",
+        "hint": "IF NOT EXISTS and IF EXISTS.",
+        "answer": "<pre><code>CREATE DATABASE IF NOT EXISTS ecommerce;\nUSE ecommerce;\nDROP TABLE IF EXISTS products;\nCREATE TABLE products (\n    product_id INT,\n    product_name VARCHAR(80),\n    mrp INT\n);</code></pre>",
+        "explanation": "<code>IF NOT EXISTS</code> on CREATE avoids errors if the DB exists. <code>DROP TABLE IF EXISTS</code> resets the products table every run so there are no stale rows. This is the re-runnable pattern used in real seed scripts."
+      },
+      {
+        "id": "mx-8",
+        "type": "debugging",
+        "difficulty": "Hard",
+        "question": "You run:<br><pre><code>USE school;\nSELECT * FROM orders;</code></pre>It errors with \"Table 'school.orders' doesn't exist\". What are two possible causes?",
+        "hint": "Either the table is missing, or it lives in another database.",
+        "answer": "(1) The orders table has not been created in school. (2) It exists, but in a different database (e.g., ecommerce) — you can query it with <code>SELECT * FROM ecommerce.orders;</code>.",
+        "explanation": "SQL errors are usually quite literal — \"<code>school.orders</code> doesn't exist\" means MySQL looked for an <code>orders</code> table inside <code>school</code> and couldn't find it. Check <code>SHOW TABLES;</code> inside school, and <code>SHOW DATABASES;</code> to find where orders actually lives."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this return?<br><pre><code>DESCRIBE students;</code></pre>(students has columns id INT, name VARCHAR(50), class INT, marks INT — all nullable, no keys.)",
+        "hint": "A 4-row schema listing.",
+        "answer": "<pre><code>+-------+-------------+------+-----+---------+-------+\n| Field | Type        | Null | Key | Default | Extra |\n+-------+-------------+------+-----+---------+-------+\n| id    | int         | YES  |     | NULL    |       |\n| name  | varchar(50) | YES  |     | NULL    |       |\n| class | int         | YES  |     | NULL    |       |\n| marks | int         | YES  |     | NULL    |       |\n+-------+-------------+------+-----+---------+-------+</code></pre>",
+        "explanation": "<code>DESCRIBE</code> prints six metadata columns: Field, Type, Null (whether NULL is allowed), Key (PRI/UNI/MUL), Default, and Extra (e.g., auto_increment). Since we have no constraints yet, all columns are nullable with no keys and NULL defaults."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "A junior in your team wrote: <code>SELECT * FROM school.students;</code>. The senior says \"never use SELECT *\". Rewrite it to return only the name and marks columns, and explain why the senior prefers that.",
+        "hint": "List columns explicitly.",
+        "answer": "<pre><code>SELECT name, marks FROM school.students;</code></pre>Reasons: (1) less data over the network when tables have many columns; (2) query result shape is stable even when new columns are added later; (3) intent is explicit to the next reader.",
+        "explanation": "This is a well-known rule in code reviews at Amazon, Google, and most serious shops. <code>SELECT *</code> is fine in the CLI while exploring; it is considered lazy in production code."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Your script creates a database and a table, but the second time you run it, you get errors about \"database already exists\" and \"table already exists\". How do you fix the script without manually cleaning up?",
+        "hint": "Two keywords.",
+        "answer": "Add <code>IF NOT EXISTS</code> to CREATE DATABASE and CREATE TABLE, or alternatively <code>DROP IF EXISTS</code> before each CREATE.<br><pre><code>CREATE DATABASE IF NOT EXISTS school;\nUSE school;\nDROP TABLE IF EXISTS students;\nCREATE TABLE students (...);</code></pre>",
+        "explanation": "<code>IF NOT EXISTS</code> on CREATE silently skips creation if the object already exists (good if you want to keep old data). <code>DROP IF EXISTS</code> + <code>CREATE</code> gives you a fresh empty table every run (good for seed/test scripts). Choose based on whether you want to preserve data."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Rewrite this to use a single multi-row INSERT:<br><pre><code>INSERT INTO students VALUES (1, 'Aarav', 10, 87);\nINSERT INTO students VALUES (2, 'Priya', 10, 92);\nINSERT INTO students VALUES (3, 'Rohan', 11, 78);</code></pre>",
+        "hint": "One INSERT with comma-separated VALUES tuples.",
+        "answer": "<pre><code>INSERT INTO students VALUES\n    (1, 'Aarav', 10, 87),\n    (2, 'Priya', 10, 92),\n    (3, 'Rohan', 11, 78);</code></pre>",
+        "explanation": "Multi-row INSERT has three advantages: fewer network round-trips, atomic as a single statement (all three or none if wrapped in a transaction), and more readable for human reviewers."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the default port for MySQL?",
+        "options": {
+          "A": "1433",
+          "B": "3306",
+          "C": "5432",
+          "D": "8080"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL defaults to port 3306. SQL Server uses 1433, PostgreSQL uses 5432, and 8080 is a common HTTP port."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which command lists all databases on a MySQL server?",
+        "options": {
+          "A": "LIST DATABASES;",
+          "B": "SHOW DATABASES;",
+          "C": "SELECT DATABASES;",
+          "D": "DISPLAY DATABASES;"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>SHOW DATABASES;</code> is the MySQL command. The other options are not valid SQL."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which command sets the current active database to <code>school</code>?",
+        "options": {
+          "A": "SELECT school;",
+          "B": "OPEN school;",
+          "C": "USE school;",
+          "D": "CONNECT school;"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> <code>USE dbname;</code> selects a database for the session. The others are not valid MySQL commands."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which command shows the structure (columns, types) of a table?",
+        "options": {
+          "A": "STRUCT students;",
+          "B": "DESCRIBE students;",
+          "C": "LIST students;",
+          "D": "SHOW students;"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>DESCRIBE students;</code> (or its shortcut <code>DESC students;</code>) prints the schema. <code>SHOW students;</code> is not valid — you use <code>SHOW TABLES;</code> to list tables."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What character terminates an SQL statement in the MySQL CLI?",
+        "options": {
+          "A": "A period (.)",
+          "B": "A comma (,)",
+          "C": "A semicolon (;)",
+          "D": "A newline"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Every SQL statement ends with a semicolon. A newline alone doesn't terminate — MySQL waits for the <code>;</code> before executing."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which of the following is a valid single-line SQL comment?",
+        "options": {
+          "A": "// this is a comment",
+          "B": "-- this is a comment",
+          "C": "<!-- this is a comment -->",
+          "D": "** this is a comment **"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>-- </code> (two dashes and a space) starts a portable SQL comment. <code>//</code> is C/Java comment syntax. <code>&lt;!-- --&gt;</code> is HTML. <code>**</code> is not a valid comment."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "You connect to MySQL and type <code>mysql&gt; SELECT * FROM students</code> then press Enter without a semicolon. What happens?",
+        "options": {
+          "A": "Error is raised",
+          "B": "Query runs successfully",
+          "C": "Prompt changes to -> waiting for the statement to finish",
+          "D": "Client disconnects"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The CLI displays <code>-&gt;</code> and waits for you to finish with a semicolon. Type <code>;</code> on the next line to execute."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which INSERT statement is valid for a students table with columns (id INT, name VARCHAR(50), marks INT)?",
+        "options": {
+          "A": "INSERT INTO students VALUES (1, \"Aarav\", 87);",
+          "B": "INSERT INTO students VALUES (1, 'Aarav', 87);",
+          "C": "INSERT students VALUES (1, 'Aarav', 87);",
+          "D": "INSERT (1, 'Aarav', 87) INTO students;"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Standard SQL uses single quotes for strings. <code>INSERT INTO table VALUES (...)</code> is the correct keyword order. Option A uses double quotes (works on MySQL but not portable). Options C and D have wrong syntax."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "You run <code>SELECT DATABASE();</code> right after logging in (without any USE). What do you see?",
+        "options": {
+          "A": "mysql",
+          "B": "information_schema",
+          "C": "NULL",
+          "D": "Error"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Without a USE statement, no database is active, so <code>DATABASE()</code> returns NULL. It is not an error — you still get a result, just NULL."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which statement creates a table ONLY if it does not already exist?",
+        "options": {
+          "A": "CREATE TABLE students (...)",
+          "B": "CREATE OR REPLACE TABLE students (...)",
+          "C": "CREATE TABLE IF NOT EXISTS students (...)",
+          "D": "CREATE TABLE students IF NOT EXISTS (...)"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>IF NOT EXISTS</code> clause goes after TABLE and before the table name. Makes scripts re-runnable. <code>CREATE OR REPLACE TABLE</code> exists in some databases (like MariaDB) but not standard MySQL."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "A senior developer tells you \"avoid SELECT *\". Which is NOT a reason for this advice?",
+        "options": {
+          "A": "Reduces data sent over the network",
+          "B": "Makes the query slower even on small tables",
+          "C": "Result shape stays stable if a new column is added later",
+          "D": "Makes intent more explicit"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct (it is NOT a valid reason).</strong> On small tables <code>SELECT *</code> is not noticeably slower. The real reasons are A, C, and D. On large tables the network cost matters; on small ones, readability and stability matter more."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "In the CLI, which keyboard sequence ends the session and returns to your OS shell?",
+        "options": {
+          "A": "exit;",
+          "B": "quit;",
+          "C": "\\q",
+          "D": "All of the above"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> <code>exit;</code>, <code>quit;</code>, and the shortcut <code>\\q</code> all disconnect from the MySQL server and return you to your terminal prompt."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which statement about VARCHAR(50) is TRUE?",
+        "options": {
+          "A": "It always takes 50 bytes per row, even for shorter strings",
+          "B": "It stores up to 50 characters but only uses space for the actual length plus a small overhead",
+          "C": "It can only store exactly 50 characters",
+          "D": "It is limited to ASCII characters"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> VARCHAR is variable-length: \"Ram\" takes 3 bytes plus 1-2 bytes of length prefix, not 50. CHAR(50) would pad to exactly 50. VARCHAR can store any UTF-8 character if the column's charset supports it."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "A friend writes <code>INSERT INTO students VALUES (1, 'Aarav');</code> for a students table with 4 columns. What happens?",
+        "options": {
+          "A": "Inserts the row with NULL for missing columns",
+          "B": "Inserts successfully ignoring extras",
+          "C": "Error: Column count doesn't match value count",
+          "D": "Inserts 0 for missing columns"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Without naming columns, MySQL expects values for ALL columns in declared order. To insert just some columns, you must list them: <code>INSERT INTO students (id, name) VALUES (1, 'Aarav');</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Given a clean school database, what does this sequence produce?<br><pre><code>CREATE TABLE t (x INT);\nINSERT INTO t VALUES (10);\nDROP TABLE t;\nCREATE TABLE t (x INT);\nSELECT * FROM t;</code></pre>",
+        "options": {
+          "A": "One row with x=10",
+          "B": "Empty set (no rows)",
+          "C": "Error: table already exists",
+          "D": "Error: unknown table"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> The DROP deletes both the structure and the data. The second CREATE makes a fresh empty table. SELECT returns Empty set."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Which command would you use at a shared hosting server where only a CLI is available, to import a large .sql dump file?",
+        "options": {
+          "A": "SOURCE dump.sql; from inside the mysql client",
+          "B": "IMPORT dump.sql; from SQL",
+          "C": "Use MySQL Workbench GUI",
+          "D": "LOAD dump.sql INTO DATABASE;"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> <code>SOURCE /path/to/dump.sql;</code> (or its shortcut <code>\\. /path/to/dump.sql</code>) runs every statement in the file. Alternatively, from the OS shell: <code>mysql -u root -p dbname &lt; dump.sql</code>. There is no IMPORT or LOAD dump.sql command."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "You type <code>INSERT INTO students VALUES (1, \"Aarav\", 10, 87);</code> on a MySQL server with ANSI_QUOTES SQL mode enabled. What happens?",
+        "options": {
+          "A": "Inserts successfully",
+          "B": "Error: unknown column 'Aarav'",
+          "C": "Inserts NULL for name",
+          "D": "Silently ignores the row"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> With ANSI_QUOTES on, double quotes delimit IDENTIFIERS (column/table names), not strings. MySQL would treat \"Aarav\" as a column name and complain that such a column doesn't exist. Always use single quotes for string literals."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the main reason to prefer a multi-row INSERT over multiple single-row INSERTs?",
+        "options": {
+          "A": "Multi-row INSERT uses less disk space",
+          "B": "Multi-row INSERT is a single round-trip to the server and faster",
+          "C": "Multi-row INSERT automatically validates duplicates",
+          "D": "Single-row INSERT is not allowed for tables with more than 3 columns"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Each individual INSERT is a separate round-trip (client → server → ack). A multi-row INSERT combines them into one request, dramatically reducing network overhead. For 1000 rows this can be 10x-100x faster."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "Which install command works for MySQL on Ubuntu?",
+        "options": {
+          "A": "brew install mysql",
+          "B": "apt-get install mysql",
+          "C": "sudo apt install mysql-server",
+          "D": "choco install mysql"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> On Ubuntu/Debian the package is <code>mysql-server</code>, installed via apt with sudo. Option A is Homebrew (Mac). Option D is Chocolatey (Windows). Option B is close but misses sudo and the correct package name."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "You run <code>mysql -u root -p school &lt; seed.sql</code>. What happens?",
+        "options": {
+          "A": "Opens the mysql client interactively",
+          "B": "Exports the school database into seed.sql",
+          "C": "Imports and executes the SQL in seed.sql against the school database",
+          "D": "Deletes school.sql after running"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>&lt;</code> shell redirection pipes seed.sql as stdin to the mysql client, and the <code>school</code> argument sets the default database. Every statement in the file is executed. To export, you would use <code>mysqldump</code>, not <code>mysql</code>."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "First Complete Setup",
+        "difficulty": "Easy",
+        "description": "Write a complete SQL script that: 1) creates a database called <code>college</code>, 2) uses it, 3) creates a table <code>courses</code> with columns course_id (INT), course_name (VARCHAR 60), duration_months (INT), and 4) inserts three courses of your choice.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "Database created, table created, 3 rows inserted, SELECT * returns 3 courses.",
+        "constraints": "Use IF NOT EXISTS for safety. Use a single multi-row INSERT.",
+        "solution": "CREATE DATABASE IF NOT EXISTS college;\nUSE college;\n\nDROP TABLE IF EXISTS courses;\n\nCREATE TABLE courses (\n    course_id INT,\n    course_name VARCHAR(60),\n    duration_months INT\n);\n\nINSERT INTO courses VALUES\n    (1, 'Python Fundamentals',    4),\n    (2, 'MySQL Masterclass',      3),\n    (3, 'Full Stack Web Dev',     6);\n\nSELECT * FROM courses;\n-- Expected output:\n-- +-----------+---------------------+-----------------+\n-- | course_id | course_name         | duration_months |\n-- +-----------+---------------------+-----------------+\n-- |         1 | Python Fundamentals |               4 |\n-- |         2 | MySQL Masterclass   |               3 |\n-- |         3 | Full Stack Web Dev  |               6 |\n-- +-----------+---------------------+-----------------+"
+      },
+      {
+        "id": "cc-2",
+        "title": "Students Marksheet",
+        "difficulty": "Easy",
+        "description": "Create a database <code>school</code>, a table <code>students(id INT, name VARCHAR(50), class INT, marks INT)</code>, insert five students (Aarav, Priya, Rohan, Ananya, Vikram) with realistic data, and then print only their names and marks.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "Result set with 5 rows showing only name and marks.",
+        "constraints": "Use explicit column list in the final SELECT.",
+        "solution": "CREATE DATABASE IF NOT EXISTS school;\nUSE school;\nDROP TABLE IF EXISTS students;\n\nCREATE TABLE students (\n    id INT,\n    name VARCHAR(50),\n    class INT,\n    marks INT\n);\n\nINSERT INTO students VALUES\n    (1, 'Aarav Sharma', 10, 87),\n    (2, 'Priya Iyer',   10, 92),\n    (3, 'Rohan Verma',  11, 78),\n    (4, 'Ananya Reddy', 11, 95),\n    (5, 'Vikram Singh', 12, 65);\n\nSELECT name, marks FROM students;\n-- Output:\n-- +----------------+-------+\n-- | name           | marks |\n-- +----------------+-------+\n-- | Aarav Sharma   |    87 |\n-- | Priya Iyer     |    92 |\n-- | Rohan Verma    |    78 |\n-- | Ananya Reddy   |    95 |\n-- | Vikram Singh   |    65 |\n-- +----------------+-------+"
+      },
+      {
+        "id": "cc-3",
+        "title": "Fix the Broken Script",
+        "difficulty": "Medium",
+        "description": "Fix all the mistakes in this script so it runs cleanly:<br><pre>create database store\nUSE store\ncreate table products\n    id INT\n    name VARCHAR(50)\n    price INT\n)\ninsert into products values (1, \"Pen\", 10)\nselect * from products</pre>",
+        "sampleInput": "(No input — the script above is the input)",
+        "sampleOutput": "Clean script that creates store, creates products, inserts one row, and selects it.",
+        "constraints": "Add semicolons, add commas, fix quotes, add missing parenthesis.",
+        "solution": "CREATE DATABASE IF NOT EXISTS store;\nUSE store;\n\nDROP TABLE IF EXISTS products;\nCREATE TABLE products (\n    id INT,\n    name VARCHAR(50),\n    price INT\n);\n\nINSERT INTO products VALUES (1, 'Pen', 10);\n\nSELECT * FROM products;\n-- Fixes made:\n-- 1. Added semicolons at the end of each statement.\n-- 2. Added commas between column definitions.\n-- 3. Added the missing opening parenthesis after CREATE TABLE products.\n-- 4. Replaced double quotes with single quotes around 'Pen'.\n-- 5. (Good practice) Added IF NOT EXISTS / IF EXISTS for re-runnability.\n-- 6. Uppercased keywords for readability."
+      },
+      {
+        "id": "cc-4",
+        "title": "Employee Directory",
+        "difficulty": "Medium",
+        "description": "Create a <code>hr</code> database with an <code>employees</code> table (emp_id INT, name VARCHAR 50, department VARCHAR 30, salary INT). Insert six employees from different departments. Then write a SELECT that returns only name and salary.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "A result set with 6 rows of name and salary.",
+        "constraints": "Use a single multi-row INSERT.",
+        "solution": "CREATE DATABASE IF NOT EXISTS hr;\nUSE hr;\nDROP TABLE IF EXISTS employees;\n\nCREATE TABLE employees (\n    emp_id INT,\n    name VARCHAR(50),\n    department VARCHAR(30),\n    salary INT\n);\n\nINSERT INTO employees VALUES\n    (101, 'Kavya Nair',    'HR',        60000),\n    (102, 'Arjun Mehta',   'IT',        85000),\n    (103, 'Sneha Patel',   'Finance',   72000),\n    (104, 'Rahul Joshi',   'IT',        95000),\n    (105, 'Meera Gupta',   'Marketing', 65000),\n    (106, 'Ishaan Rao',    'Sales',     58000);\n\nSELECT name, salary FROM employees;\n-- Output:\n-- +--------------+--------+\n-- | name         | salary |\n-- +--------------+--------+\n-- | Kavya Nair   |  60000 |\n-- | Arjun Mehta  |  85000 |\n-- | Sneha Patel  |  72000 |\n-- | Rahul Joshi  |  95000 |\n-- | Meera Gupta  |  65000 |\n-- | Ishaan Rao   |  58000 |\n-- +--------------+--------+"
+      },
+      {
+        "id": "cc-5",
+        "title": "Inspect an Unfamiliar Database",
+        "difficulty": "Medium",
+        "description": "A senior hands you SSH access to a MySQL server and says \"there's a database called ecommerce with some tables. Tell me what's in it.\" Write the sequence of SQL commands you would run to discover: which databases exist, what tables are in ecommerce, what columns each table has, and how many rows are in one specific table called orders.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "A sequence of discovery commands with expected outputs.",
+        "constraints": "Use exploration commands, not guessing.",
+        "solution": "-- Step 1: Which databases exist?\nSHOW DATABASES;\n\n-- Step 2: Switch to the one we care about.\nUSE ecommerce;\n\n-- Step 3: What tables are inside?\nSHOW TABLES;\n\n-- Step 4: For each table, see the structure.\nDESCRIBE orders;\nDESCRIBE customers;\nDESCRIBE products;\n\n-- Step 5: Count rows in a specific table.\nSELECT COUNT(*) AS total_orders FROM orders;\n\n-- Step 6: Peek at the first few rows.\nSELECT * FROM orders LIMIT 5;\n\n-- This sequence — SHOW DATABASES, USE, SHOW TABLES, DESCRIBE,\n-- COUNT(*), LIMIT 5 — is the universal \"orient yourself in a new DB\" workflow."
+      },
+      {
+        "id": "cc-6",
+        "title": "Re-runnable Seed Script",
+        "difficulty": "Hard",
+        "description": "Design a script for a <code>bookstore</code> database that can be run repeatedly without ever throwing an \"already exists\" error. It should reset a <code>books</code> table every run and insert 5 books of your choice (different titles, authors, prices). End with a verification SELECT.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "Script runs cleanly on first execution AND on re-executions. Final SELECT returns 5 rows.",
+        "constraints": "Use IF NOT EXISTS / IF EXISTS properly. Annotate each step with comments.",
+        "solution": "/*\n   Bookstore seed script.\n   Purpose: reset the books table with a clean 5-row dataset.\n   Safe to run multiple times — uses IF NOT EXISTS / IF EXISTS.\n*/\n\n-- 1. Create the database if missing.\nCREATE DATABASE IF NOT EXISTS bookstore;\n\n-- 2. Switch to it.\nUSE bookstore;\n\n-- 3. Reset the books table for a clean slate.\nDROP TABLE IF EXISTS books;\n\n-- 4. Define the schema.\nCREATE TABLE books (\n    book_id INT,\n    title VARCHAR(100),\n    author VARCHAR(60),\n    price INT\n);\n\n-- 5. Seed data.\nINSERT INTO books VALUES\n    (1, 'Let Us C',                   'Yashwant Kanetkar', 350),\n    (2, 'DBMS Concepts',               'Henry F. Korth',    600),\n    (3, 'Head First Java',             'Kathy Sierra',      500),\n    (4, 'Clean Code',                  'Robert C. Martin',  450),\n    (5, 'Python Crash Course',         'Eric Matthes',      550);\n\n-- 6. Verify.\nSELECT COUNT(*) AS total_books FROM books;\nSELECT * FROM books;\n\n-- Expected:\n-- total_books = 5\n-- 5 rows returned from SELECT *."
+      }
+    ]
+  }
+}

@@ -1,0 +1,733 @@
+{
+  "title": "SQL Interview Masterclass - Top 30 Questions Solved",
+  "slug": "sql-interview-masterclass",
+  "language": "sql",
+  "chapter": 25,
+  "difficulty": "Advanced",
+  "readingTime": "90 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "SQL Interview Masterclass - 30 Solved Questions: Nth Highest Salary, Duplicates, Running Total, LAG, Pivot | Modern Age Coders",
+    "description": "30 classic SQL interview questions with full solutions, alternative approaches, and explanations. Covers Nth highest salary (LIMIT OFFSET, DENSE_RANK, correlated subquery), duplicates, employees earning more than manager, second highest per department, top-N per group, running totals, month-over-month growth, consecutive logins, pivots, median, LAG/LEAD, retention, reconciliation. Plus 55+ fresh practice questions. Tested queries on MySQL.",
+    "keywords": "sql interview questions, sql interview masterclass, nth highest salary, sql duplicates, running total sql, month over month sql, consecutive days sql, median sql, pivot sql, sql window function interview, dense_rank interview, lag lead sql, top n per group"
+  },
+  "content": {
+    "what": "<h2>SQL Interview Masterclass: 30 Questions Every SQL Engineer Must Solve</h2><p>Every data analyst, backend engineer, and data scientist interview features a small, well-known set of SQL puzzles. This chapter collects the 30 most common ones and solves every single one of them — with sample data, a working query, an explanation of the approach, and alternative solutions where they are illuminating. The queries are written for MySQL 8+ (window functions, CTEs) with fallbacks for older versions where it matters.</p><p>If you can solve these 30 cleanly, you will pass almost any SQL round. If you cannot, you will freeze on the whiteboard. There is no substitute for working through each one — <em>typing</em> the query, running it, checking the output. Read this chapter once. Then solve it again from scratch. Then come back in a month and solve it again.</p><p>Every solution below assumes a small sample schema. All sample data uses Indian names (Aarav, Priya, Rohan, Anika, Kavya, Vikram, Arjun, Neha, Sanya, Ishan). Every query runs as-is in MySQL 8.0+.</p>"
+    ,
+    "why": "<h2>Why These 30?</h2><p>Companies ask these questions because together they cover every essential SQL pattern: filtering with WHERE, joining multiple tables, aggregating with GROUP BY, ranking with window functions, set operations, self-joins, recursive CTEs, and conditional aggregation. If you know all 30, you know SQL.</p><p>More importantly, these patterns repeat in real work. 'Find the second highest salary' becomes 'find the second most recent order per user'. 'Running total' becomes 'cumulative revenue by region'. 'Consecutive login days' becomes 'customers with 30-day retention'. The 30 questions are the building blocks of production SQL.</p><p>The structure of this chapter is different from previous chapters. Instead of narrative explanation, the <code>explanation</code> section below presents 30 self-contained solved problems, each with: a problem statement, a sample table, a working query, and commentary. After that, 55+ practice questions (all fresh — no repeats of the 30) give you more chances to build fluency.</p>"
+    ,
+    "explanation": "<h2>The 30 Solved Interview Questions</h2><h3>Q1. Find the Nth Highest Salary (Three Ways)</h3><p><strong>Sample:</strong> <code>employees(id, name, salary)</code> with salaries 50000, 70000, 60000, 90000, 80000.</p><pre><code>-- Method 1: LIMIT + OFFSET (MySQL only, no ties)\nSELECT DISTINCT salary FROM employees\nORDER BY salary DESC\nLIMIT 1 OFFSET 2;          -- 3rd highest = 70000\n\n-- Method 2: DENSE_RANK (handles ties correctly)\nSELECT salary FROM (\n    SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n    FROM employees\n) t WHERE rnk = 3;\n\n-- Method 3: Correlated subquery (portable, no window functions)\nSELECT salary FROM employees e1\nWHERE N-1 = (\n    SELECT COUNT(DISTINCT e2.salary)\n    FROM employees e2\n    WHERE e2.salary > e1.salary\n);</code></pre><p>DENSE_RANK is the canonical answer: it handles ties naturally (two people on rank 1 both count as rank 1). LIMIT/OFFSET is the quickest write but does not handle ties. The correlated subquery is O(N^2) — fine for small tables, catastrophic for large ones.</p><h3>Q2. Find Duplicate Values in a Column</h3><p><strong>Sample:</strong> <code>emails(id, email)</code> with some repeating addresses.</p><pre><code>SELECT email, COUNT(*) AS cnt\nFROM emails\nGROUP BY email\nHAVING COUNT(*) > 1;</code></pre><p>GROUP BY + HAVING is the textbook duplicate-finder. HAVING filters on aggregates; it is what WHERE would do if WHERE could see aggregates.</p><h3>Q3. Delete Duplicate Rows Keeping One</h3><p><strong>Sample:</strong> <code>users(id PK, email)</code> with rows (1, 'a@x'), (2, 'a@x'), (3, 'b@x').</p><pre><code>-- Keep the MIN id for each email, delete the rest\nDELETE u FROM users u\nJOIN (\n    SELECT email, MIN(id) AS keep_id\n    FROM users\n    GROUP BY email\n) dupes ON u.email = dupes.email\nWHERE u.id > dupes.keep_id;\n\n-- Alternative using ROW_NUMBER (MySQL 8+)\nWITH ranked AS (\n    SELECT id, ROW_NUMBER() OVER (PARTITION BY email ORDER BY id) AS rn\n    FROM users\n)\nDELETE FROM users WHERE id IN (SELECT id FROM ranked WHERE rn > 1);</code></pre><p>Always decide which copy to keep before writing the query (smallest id, most recent update, etc.). Never run the DELETE without first running the matching SELECT and inspecting the rows.</p><h3>Q4. Find Employees Earning More Than Their Manager</h3><p><strong>Sample:</strong> <code>employees(id, name, salary, manager_id)</code>.</p><pre><code>SELECT e.name AS employee, e.salary AS emp_salary,\n       m.name AS manager,  m.salary AS mgr_salary\nFROM employees e\nJOIN employees m ON m.id = e.manager_id\nWHERE e.salary > m.salary;</code></pre><p>Self-join with aliases <code>e</code> (employee) and <code>m</code> (manager). The FK <code>manager_id</code> points to <code>id</code> in the same table.</p><h3>Q5. Second Highest Salary Per Department</h3><pre><code>SELECT dept, salary FROM (\n    SELECT dept, salary, DENSE_RANK() OVER (\n        PARTITION BY dept ORDER BY salary DESC\n    ) AS rnk\n    FROM employees\n) t WHERE rnk = 2;</code></pre><p>PARTITION BY restarts the ranking for each dept — the key to every 'per-group' window problem.</p><h3>Q6. Top 3 Products Per Category</h3><pre><code>SELECT category, product, revenue FROM (\n    SELECT category, product, revenue,\n           ROW_NUMBER() OVER (\n               PARTITION BY category ORDER BY revenue DESC\n           ) AS rn\n    FROM sales\n) t WHERE rn <= 3;</code></pre><p>Use ROW_NUMBER when you want exactly N rows per group (break ties arbitrarily). Use DENSE_RANK if ties should all make it in.</p><h3>Q7. Running Total of Daily Sales</h3><pre><code>SELECT sale_date, daily_total,\n       SUM(daily_total) OVER (ORDER BY sale_date\n           ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\n       ) AS running_total\nFROM daily_sales\nORDER BY sale_date;</code></pre><p>The windowed SUM with a frame from unbounded preceding to current row is the canonical cumulative-sum pattern.</p><h3>Q8. Month-over-Month Growth Percentage</h3><pre><code>WITH monthly AS (\n    SELECT DATE_FORMAT(sale_date, '%Y-%m') AS month, SUM(amount) AS total\n    FROM orders GROUP BY DATE_FORMAT(sale_date, '%Y-%m')\n)\nSELECT month, total,\n       LAG(total) OVER (ORDER BY month) AS prev_total,\n       ROUND((total - LAG(total) OVER (ORDER BY month))\n             * 100.0 / LAG(total) OVER (ORDER BY month), 2) AS growth_pct\nFROM monthly;</code></pre><p>LAG returns the previous row's value. Dividing by it gives growth. Guard against NULL on the first month.</p><h3>Q9. Customers Who Ordered in Every Month of 2024</h3><pre><code>SELECT customer_id\nFROM orders\nWHERE YEAR(order_date) = 2024\nGROUP BY customer_id\nHAVING COUNT(DISTINCT MONTH(order_date)) = 12;</code></pre><p>COUNT DISTINCT month = 12 means they ordered in every month. No need for a calendar table here — the constant 12 captures the requirement.</p><h3>Q10. Consecutive Login Days (Max Streak Per User)</h3><pre><code>WITH numbered AS (\n    SELECT user_id, login_date,\n           ROW_NUMBER() OVER (\n               PARTITION BY user_id ORDER BY login_date\n           ) AS rn\n    FROM logins\n),\ngroups AS (\n    SELECT user_id, login_date,\n           DATE_SUB(login_date, INTERVAL rn DAY) AS grp\n    FROM numbered\n)\nSELECT user_id, MAX(streak_len) AS max_streak\nFROM (\n    SELECT user_id, grp, COUNT(*) AS streak_len\n    FROM groups\n    GROUP BY user_id, grp\n) s\nGROUP BY user_id;</code></pre><p>The trick: subtract the row number (by date) from the date. Consecutive dates share the same offset, so they form a group. Count rows per group to get streak length.</p><h3>Q11. Pivot Table: Sales by Year across Quarters</h3><pre><code>SELECT YEAR(sale_date) AS year,\n       SUM(CASE WHEN QUARTER(sale_date) = 1 THEN amount ELSE 0 END) AS q1,\n       SUM(CASE WHEN QUARTER(sale_date) = 2 THEN amount ELSE 0 END) AS q2,\n       SUM(CASE WHEN QUARTER(sale_date) = 3 THEN amount ELSE 0 END) AS q3,\n       SUM(CASE WHEN QUARTER(sale_date) = 4 THEN amount ELSE 0 END) AS q4\nFROM sales\nGROUP BY YEAR(sale_date)\nORDER BY year;</code></pre><p>MySQL has no PIVOT keyword. Conditional aggregation (<code>SUM(CASE WHEN ...)</code>) is the universal pivot pattern.</p><h3>Q12. Reverse a String Without REVERSE()</h3><pre><code>-- Using a recursive CTE (MySQL 8+)\nWITH RECURSIVE reversed AS (\n    SELECT 'SQL Rocks' AS original,\n           SUBSTRING('SQL Rocks', LENGTH('SQL Rocks'), 1) AS rev,\n           LENGTH('SQL Rocks') - 1 AS pos\n    UNION ALL\n    SELECT original,\n           CONCAT(rev, SUBSTRING(original, pos, 1)),\n           pos - 1\n    FROM reversed\n    WHERE pos > 0\n)\nSELECT rev FROM reversed WHERE pos = 0;</code></pre><p>A classic 'can you think recursively' check. Each step appends one more character starting from the end.</p><h3>Q13. Department with Highest Average Salary</h3><pre><code>SELECT dept, AVG(salary) AS avg_sal\nFROM employees\nGROUP BY dept\nORDER BY avg_sal DESC\nLIMIT 1;</code></pre><p>GROUP BY + ORDER BY + LIMIT 1. If ties matter, use DENSE_RANK and filter rnk = 1.</p><h3>Q14. Employees Hired in the Last Quarter</h3><pre><code>SELECT id, name, hire_date\nFROM employees\nWHERE hire_date >= DATE_SUB(CURDATE(), INTERVAL 3 MONTH);\n\n-- Or: strictly the previous calendar quarter\nSELECT id, name, hire_date\nFROM employees\nWHERE QUARTER(hire_date) = QUARTER(DATE_SUB(CURDATE(), INTERVAL 3 MONTH))\n  AND YEAR(hire_date)    = YEAR(DATE_SUB(CURDATE(), INTERVAL 3 MONTH));</code></pre><p>Clarify 'last quarter' in the interview: rolling 3 months vs previous calendar quarter. Interviewers like candidates who ask.</p><h3>Q15. Find Gaps in Invoice Numbers</h3><pre><code>SELECT (t1.id + 1) AS gap_start, (MIN(t2.id) - 1) AS gap_end\nFROM invoices t1\nJOIN invoices t2 ON t2.id > t1.id\nGROUP BY t1.id\nHAVING gap_start < MIN(t2.id);\n\n-- Alternative using LEAD\nSELECT id + 1 AS missing_start, next_id - 1 AS missing_end\nFROM (\n    SELECT id, LEAD(id) OVER (ORDER BY id) AS next_id\n    FROM invoices\n) t\nWHERE next_id > id + 1;</code></pre><p>LEAD version is cleaner. Find adjacent rows where the next id is more than one above the current — the gap between them is missing.</p><h3>Q16. Cumulative Percentage of Sales</h3><pre><code>SELECT product, sales,\n       SUM(sales) OVER (ORDER BY sales DESC) AS cumulative,\n       ROUND(100.0 * SUM(sales) OVER (ORDER BY sales DESC) /\n             SUM(sales) OVER (), 2) AS cum_pct\nFROM products;</code></pre><p>Two windows: one ordered (cumulative), one unordered (grand total). Perfect for Pareto / 80-20 analyses.</p><h3>Q17. Median Salary</h3><pre><code>-- Works without a MEDIAN function\nSELECT AVG(salary) AS median\nFROM (\n    SELECT salary,\n           ROW_NUMBER() OVER (ORDER BY salary) AS rn,\n           COUNT(*) OVER () AS total\n    FROM employees\n) t\nWHERE rn IN (FLOOR((total + 1) / 2), CEIL((total + 1) / 2));</code></pre><p>For odd count: FLOOR and CEIL point to the same row (the middle). For even count: they point to the two middle rows; AVG gives the median.</p><h3>Q18. Self Join: Pairs of Employees in the Same Department</h3><pre><code>SELECT e1.name AS emp1, e2.name AS emp2, e1.dept\nFROM employees e1\nJOIN employees e2 ON e1.dept = e2.dept\nWHERE e1.id < e2.id;</code></pre><p>The <code>&lt;</code> in the WHERE prevents self-pairs and duplicate mirror pairs (A,B) and (B,A).</p><h3>Q19. Difference Between Consecutive Rows (LAG/LEAD)</h3><pre><code>SELECT reading_time, temperature,\n       LAG(temperature) OVER (ORDER BY reading_time) AS prev_temp,\n       temperature - LAG(temperature) OVER (ORDER BY reading_time) AS diff\nFROM sensor_readings\nORDER BY reading_time;</code></pre><p>LAG(x) OVER (ORDER BY t) gives the value of x on the previous row (by t order). Great for deltas, rate-of-change, 'from the last event'.</p><h3>Q20. Rank Products by Sales Within Region</h3><pre><code>SELECT region, product, sales,\n       RANK() OVER (PARTITION BY region ORDER BY sales DESC) AS rnk\nFROM product_sales\nORDER BY region, rnk;</code></pre><p>RANK leaves gaps after ties (1, 1, 3). DENSE_RANK does not (1, 1, 2). ROW_NUMBER breaks ties arbitrarily (1, 2, 3). Pick based on what you want.</p><h3>Q21. First and Last Order Date Per Customer</h3><pre><code>SELECT customer_id,\n       MIN(order_date) AS first_order,\n       MAX(order_date) AS last_order,\n       DATEDIFF(MAX(order_date), MIN(order_date)) AS days_active\nFROM orders\nGROUP BY customer_id;</code></pre><p>Simple GROUP BY — no window functions needed. DATEDIFF computes the spread.</p><h3>Q22. Customers Who Never Placed an Order</h3><pre><code>-- Method 1: LEFT JOIN + IS NULL\nSELECT c.id, c.name\nFROM customers c\nLEFT JOIN orders o ON o.customer_id = c.id\nWHERE o.id IS NULL;\n\n-- Method 2: NOT EXISTS\nSELECT c.id, c.name\nFROM customers c\nWHERE NOT EXISTS (\n    SELECT 1 FROM orders o WHERE o.customer_id = c.id\n);\n\n-- Method 3: NOT IN (watch NULLs)\nSELECT id, name FROM customers\nWHERE id NOT IN (SELECT customer_id FROM orders WHERE customer_id IS NOT NULL);</code></pre><p>NOT EXISTS is usually fastest on MySQL. NOT IN can be wrong if the inner result contains NULL — always wrap with IS NOT NULL when using NOT IN on a nullable column.</p><h3>Q23. Most Frequent Value Per Group</h3><pre><code>WITH counted AS (\n    SELECT category, product, COUNT(*) AS cnt\n    FROM purchases\n    GROUP BY category, product\n),\nranked AS (\n    SELECT *, RANK() OVER (\n        PARTITION BY category ORDER BY cnt DESC\n    ) AS rnk\n    FROM counted\n)\nSELECT category, product, cnt FROM ranked WHERE rnk = 1;</code></pre><p>Classic 'mode per group' pattern: count, rank within group, filter to rank 1.</p><h3>Q24. Reconciliation: Data in A but Not in B</h3><pre><code>-- Rows in source that are not in target, by matching key\nSELECT s.*\nFROM source s\nLEFT JOIN target t ON t.key_col = s.key_col\nWHERE t.key_col IS NULL;\n\n-- Or with a set difference pattern\nSELECT key_col FROM source\nWHERE key_col NOT IN (SELECT key_col FROM target WHERE key_col IS NOT NULL);</code></pre><p>The LEFT JOIN ... IS NULL pattern is the workhorse of reconciliation. It handles NULLs on the key correctly when wrapped properly and plays well with indexes.</p><h3>Q25. Retention: Users Active in Consecutive Months</h3><pre><code>WITH active_months AS (\n    SELECT DISTINCT user_id, DATE_FORMAT(activity_date, '%Y-%m-01') AS month\n    FROM activity\n),\npaired AS (\n    SELECT a.user_id, a.month AS month_n, b.month AS month_n_plus_1\n    FROM active_months a\n    JOIN active_months b\n      ON b.user_id = a.user_id\n     AND b.month = DATE_ADD(a.month, INTERVAL 1 MONTH)\n)\nSELECT month_n AS cohort_month, COUNT(DISTINCT user_id) AS retained\nFROM paired\nGROUP BY month_n;</code></pre><p>Self-join <code>active_months</code> to itself, offset by one month. Each matching pair is a user who was active in month N <em>and</em> month N+1 — the definition of month-over-month retention.</p><h3>Q26. Build a Calendar Table of All Dates in the Last Year</h3><pre><code>WITH RECURSIVE calendar AS (\n    SELECT DATE_SUB(CURDATE(), INTERVAL 365 DAY) AS d\n    UNION ALL\n    SELECT DATE_ADD(d, INTERVAL 1 DAY) FROM calendar\n    WHERE d < CURDATE()\n)\nSELECT d FROM calendar;</code></pre><p>A recursive CTE generates the full date range. Use it to LEFT JOIN with actual data to fill in rows for days with zero events.</p><h3>Q27. Find Odd/Even ID Rows</h3><pre><code>SELECT * FROM t WHERE id % 2 = 1;   -- odd\nSELECT * FROM t WHERE id % 2 = 0;   -- even\n\n-- With MOD for portability\nSELECT * FROM t WHERE MOD(id, 2) = 1;</code></pre><p>Trivial but common. The useful variant: every Nth row, <code>id % N = 0</code>, to sample large tables.</p><h3>Q28. Total, Rank, and Percentage in One Query</h3><pre><code>SELECT product, sales,\n       RANK() OVER (ORDER BY sales DESC) AS rnk,\n       ROUND(100.0 * sales / SUM(sales) OVER (), 2) AS pct_of_total\nFROM product_sales;</code></pre><p>Two window functions side by side: RANK for position, SUM OVER () for the grand total (unpartitioned window).</p><h3>Q29. Convert Rows to Comma-Separated String (GROUP_CONCAT)</h3><pre><code>SELECT customer_id,\n       GROUP_CONCAT(product_name ORDER BY product_name SEPARATOR ', ') AS products\nFROM orders\nGROUP BY customer_id;</code></pre><p>GROUP_CONCAT is MySQL's answer to PostgreSQL's string_agg. Supports ORDER BY and DISTINCT inside. Watch the <code>group_concat_max_len</code> limit for large groups.</p><h3>Q30. Running Average of the Last 7 Days</h3><pre><code>SELECT sale_date, daily_total,\n       AVG(daily_total) OVER (\n           ORDER BY sale_date\n           ROWS BETWEEN 6 PRECEDING AND CURRENT ROW\n       ) AS moving_avg_7d\nFROM daily_sales\nORDER BY sale_date;</code></pre><p>Frame clause <code>ROWS BETWEEN 6 PRECEDING AND CURRENT ROW</code> defines a sliding 7-row window. Use <code>RANGE BETWEEN INTERVAL 6 DAY PRECEDING AND CURRENT ROW</code> (MySQL 8) if your dates have gaps and you want calendar-based windows.</p><h2>How to Use This Chapter</h2><ol><li>Read a question. Do not look at the solution.</li><li>Write your own query against a mental model of the sample data.</li><li>Run it against sample data you invent.</li><li>Compare with the solution. Understand every clause.</li><li>The next day, redo the question without notes.</li><li>After 30 days, redo all 30 in a single session. Target: under 90 minutes.</li></ol><p>There is no other way. SQL fluency is muscle memory.</p>"
+    ,
+    "codeExamples": [
+      {
+        "title": "Sample Schema Used in This Chapter",
+        "code": "-- The rest of the examples in this chapter use this schema\nCREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    dept VARCHAR(20),\n    salary DECIMAL(10,2),\n    manager_id INT,\n    hire_date DATE,\n    FOREIGN KEY (manager_id) REFERENCES employees(id)\n);\n\nINSERT INTO employees VALUES\n(1, 'Aarav',  'ENG',  95000, NULL,  '2021-03-15'),\n(2, 'Priya',  'ENG',  70000, 1,     '2022-06-10'),\n(3, 'Rohan',  'SAL',  55000, NULL,  '2020-01-20'),\n(4, 'Anika',  'ENG', 110000, 1,     '2019-04-02'),\n(5, 'Kavya',  'SAL',  60000, 3,     '2023-08-12'),\n(6, 'Vikram', 'HR',   50000, NULL,  '2024-02-01'),\n(7, 'Arjun',  'ENG',  70000, 1,     '2025-11-28'),\n(8, 'Neha',   'SAL',  80000, 3,     '2025-12-15');\n\n-- Quick check\nSELECT * FROM employees ORDER BY salary DESC;",
+        "language": "sql",
+        "explanation": "This is the canonical employees table used by most of the 30 questions. Names are Indian, salaries are in rupee-ish amounts, and the manager_id self-reference lets us practice self-joins (Q4).",
+        "output": "+----+--------+------+----------+------------+------------+\n| id | name   | dept | salary   | manager_id | hire_date  |\n+----+--------+------+----------+------------+------------+\n|  4 | Anika  | ENG  | 110000.00|          1 | 2019-04-02 |\n|  1 | Aarav  | ENG  |  95000.00|       NULL | 2021-03-15 |\n|  8 | Neha   | SAL  |  80000.00|          3 | 2025-12-15 |\n|  2 | Priya  | ENG  |  70000.00|          1 | 2022-06-10 |\n|  7 | Arjun  | ENG  |  70000.00|          1 | 2025-11-28 |\n|  5 | Kavya  | SAL  |  60000.00|          3 | 2023-08-12 |\n|  3 | Rohan  | SAL  |  55000.00|       NULL | 2020-01-20 |\n|  6 | Vikram | HR   |  50000.00|       NULL | 2024-02-01 |\n+----+--------+------+----------+------------+------------+"
+      },
+      {
+        "title": "Nth Highest Salary: DENSE_RANK Solution",
+        "code": "-- 3rd highest distinct salary using DENSE_RANK\nSELECT salary FROM (\n    SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n    FROM employees\n) t\nWHERE rnk = 3\nLIMIT 1;",
+        "language": "sql",
+        "explanation": "DENSE_RANK gives the same rank to ties (two people tied for #2 both get rank 2, next is rank 3). If Priya and Arjun are tied at 70000 they share rank 4; the 3rd highest distinct salary is still 80000 (Neha).",
+        "output": "+----------+\n| salary   |\n+----------+\n| 80000.00 |\n+----------+"
+      },
+      {
+        "title": "Running Total of Daily Sales",
+        "code": "CREATE TABLE daily_sales (\n    sale_date DATE PRIMARY KEY,\n    daily_total DECIMAL(10,2)\n);\n\nINSERT INTO daily_sales VALUES\n('2026-04-01',  5000),\n('2026-04-02',  8000),\n('2026-04-03',  6500),\n('2026-04-04',  9200),\n('2026-04-05',  7100);\n\nSELECT sale_date, daily_total,\n       SUM(daily_total) OVER (ORDER BY sale_date\n           ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\n       ) AS running_total\nFROM daily_sales\nORDER BY sale_date;",
+        "language": "sql",
+        "explanation": "The window SUM(...) OVER (ORDER BY sale_date ...) accumulates day-by-day. The ROWS BETWEEN clause makes it explicit that the frame starts at the very first row and extends to the current row.",
+        "output": "+------------+-------------+---------------+\n| sale_date  | daily_total | running_total |\n+------------+-------------+---------------+\n| 2026-04-01 |     5000.00 |       5000.00 |\n| 2026-04-02 |     8000.00 |      13000.00 |\n| 2026-04-03 |     6500.00 |      19500.00 |\n| 2026-04-04 |     9200.00 |      28700.00 |\n| 2026-04-05 |     7100.00 |      35800.00 |\n+------------+-------------+---------------+"
+      },
+      {
+        "title": "Month-over-Month Growth",
+        "code": "CREATE TABLE orders (order_date DATE, amount DECIMAL(10,2));\nINSERT INTO orders VALUES\n('2026-01-05', 10000), ('2026-01-20', 12000),\n('2026-02-10', 18000), ('2026-02-22',  6000),\n('2026-03-03', 25000), ('2026-03-28', 10000),\n('2026-04-11', 18000);\n\nWITH monthly AS (\n    SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,\n           SUM(amount) AS total\n    FROM orders\n    GROUP BY DATE_FORMAT(order_date, '%Y-%m')\n)\nSELECT month, total,\n       LAG(total) OVER (ORDER BY month) AS prev_total,\n       ROUND((total - LAG(total) OVER (ORDER BY month)) * 100.0\n             / LAG(total) OVER (ORDER BY month), 2) AS growth_pct\nFROM monthly\nORDER BY month;",
+        "language": "sql",
+        "explanation": "The CTE aggregates per month, then the outer query uses LAG to look back one row. First row has NULL prev_total, so growth_pct is NULL there — good behaviour that shouts 'no baseline'.",
+        "output": "+---------+----------+------------+------------+\n| month   | total    | prev_total | growth_pct |\n+---------+----------+------------+------------+\n| 2026-01 | 22000.00 | NULL       | NULL       |\n| 2026-02 | 24000.00 |   22000.00 |      9.09  |\n| 2026-03 | 35000.00 |   24000.00 |     45.83  |\n| 2026-04 | 18000.00 |   35000.00 |    -48.57  |\n+---------+----------+------------+------------+"
+      },
+      {
+        "title": "Consecutive Login Days (Max Streak)",
+        "code": "CREATE TABLE logins (\n    user_id INT,\n    login_date DATE,\n    PRIMARY KEY (user_id, login_date)\n);\n\nINSERT INTO logins VALUES\n(1, '2026-04-01'),(1,'2026-04-02'),(1,'2026-04-03'),(1,'2026-04-06'),(1,'2026-04-07'),\n(2, '2026-04-01'),(2,'2026-04-02'),\n(3, '2026-04-01'),(3,'2026-04-03'),(3,'2026-04-04'),(3,'2026-04-05'),(3,'2026-04-06');\n\nWITH numbered AS (\n    SELECT user_id, login_date,\n           ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY login_date) AS rn\n    FROM logins\n),\ngroups AS (\n    SELECT user_id, login_date,\n           DATE_SUB(login_date, INTERVAL rn DAY) AS grp\n    FROM numbered\n)\nSELECT user_id, MAX(streak) AS max_streak\nFROM (\n    SELECT user_id, grp, COUNT(*) AS streak\n    FROM groups\n    GROUP BY user_id, grp\n) s\nGROUP BY user_id\nORDER BY user_id;",
+        "language": "sql",
+        "explanation": "Classic trick: for a user logged in on dates D1 &lt; D2 &lt; D3, if they are consecutive, D_i - i is constant. So GROUP BY that value gives you islands of consecutive days. The max count per user is the max streak.",
+        "output": "+---------+------------+\n| user_id | max_streak |\n+---------+------------+\n|       1 |          3 |\n|       2 |          2 |\n|       3 |          4 |\n+---------+------------+"
+      },
+      {
+        "title": "Pivot: Quarterly Sales by Year",
+        "code": "CREATE TABLE sales (sale_date DATE, amount DECIMAL(10,2));\nINSERT INTO sales VALUES\n('2024-02-10', 5000),('2024-05-20', 7000),('2024-08-12', 9000),('2024-11-05', 12000),\n('2025-02-14', 6000),('2025-06-30', 8500),('2025-09-22', 9500),('2025-12-18', 11000),\n('2026-01-15', 7500),('2026-03-03', 8200);\n\nSELECT YEAR(sale_date) AS year,\n       SUM(CASE WHEN QUARTER(sale_date)=1 THEN amount ELSE 0 END) AS q1,\n       SUM(CASE WHEN QUARTER(sale_date)=2 THEN amount ELSE 0 END) AS q2,\n       SUM(CASE WHEN QUARTER(sale_date)=3 THEN amount ELSE 0 END) AS q3,\n       SUM(CASE WHEN QUARTER(sale_date)=4 THEN amount ELSE 0 END) AS q4\nFROM sales\nGROUP BY YEAR(sale_date)\nORDER BY year;",
+        "language": "sql",
+        "explanation": "Conditional aggregation. Each CASE expression evaluates to the amount only if the row is in that quarter, zero otherwise; SUM then totals per year. This is MySQL's universal PIVOT — works for any shape of cross-tab.",
+        "output": "+------+----------+----------+----------+----------+\n| year | q1       | q2       | q3       | q4       |\n+------+----------+----------+----------+----------+\n| 2024 |  5000.00 |  7000.00 |  9000.00 | 12000.00 |\n| 2025 |  6000.00 |  8500.00 |  9500.00 | 11000.00 |\n| 2026 | 15700.00 |     0.00 |     0.00 |     0.00 |\n+------+----------+----------+----------+----------+"
+      },
+      {
+        "title": "Median Salary (No Built-in Function)",
+        "code": "-- Using the employees sample from earlier in this chapter\nSELECT AVG(salary) AS median\nFROM (\n    SELECT salary,\n           ROW_NUMBER() OVER (ORDER BY salary) AS rn,\n           COUNT(*)     OVER ()                AS total\n    FROM employees\n) t\nWHERE rn IN (FLOOR((total + 1) / 2), CEIL((total + 1) / 2));",
+        "language": "sql",
+        "explanation": "With 8 salaries, the median is the average of the 4th and 5th values when sorted ascending — positions FLOOR(9/2)=4 and CEIL(9/2)=5. With an odd count, FLOOR and CEIL give the same index, so AVG returns that single value. The formula works for both cases.",
+        "output": "+----------+\n| median   |\n+----------+\n| 70000.00 |\n+----------+"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using LIMIT/OFFSET for Nth Highest When Ties Matter",
+        "wrongCode": "-- Two employees tied at 70000: Priya and Arjun\nSELECT salary FROM employees\nORDER BY salary DESC\nLIMIT 1 OFFSET 2;\n-- Returns whichever one the sort happens to place 3rd. Interviewer docks you points.",
+        "error": "No error, but the result depends on tie-break order, which is non-deterministic.",
+        "correctCode": "-- DENSE_RANK is tie-aware\nSELECT DISTINCT salary FROM (\n    SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n    FROM employees\n) t WHERE rnk = 3;",
+        "explanation": "LIMIT/OFFSET counts rows; DENSE_RANK counts distinct values. If the interviewer says 'third highest salary' they usually mean the third distinct value — use DENSE_RANK."
+      },
+      {
+        "title": "NOT IN With a NULL in the Subquery",
+        "wrongCode": "SELECT * FROM customers\nWHERE id NOT IN (SELECT customer_id FROM orders);\n-- If orders has a row with customer_id = NULL, this returns ZERO rows.",
+        "error": "No SQL error. Silently returns an empty result.",
+        "correctCode": "SELECT * FROM customers\nWHERE id NOT IN (SELECT customer_id FROM orders WHERE customer_id IS NOT NULL);\n\n-- Or use NOT EXISTS, which is not affected by NULLs\nSELECT * FROM customers c\nWHERE NOT EXISTS (\n    SELECT 1 FROM orders o WHERE o.customer_id = c.id\n);",
+        "explanation": "NOT IN treats NULL as 'unknown', so every comparison against it is unknown, and the outer row is excluded. Always filter NULLs out of the subquery or use NOT EXISTS."
+      },
+      {
+        "title": "Forgetting PARTITION BY for Per-Group Ranking",
+        "wrongCode": "-- Looking for second highest salary per dept\nSELECT dept, salary FROM (\n    SELECT dept, salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n    FROM employees\n) t\nWHERE rnk = 2;\n-- Bug: ranking is global. rnk=2 gives the single second-highest salary across ALL departments.",
+        "error": "No error — just the wrong answer.",
+        "correctCode": "SELECT dept, salary FROM (\n    SELECT dept, salary, DENSE_RANK() OVER (\n        PARTITION BY dept ORDER BY salary DESC\n    ) AS rnk\n    FROM employees\n) t\nWHERE rnk = 2;",
+        "explanation": "PARTITION BY restarts the ranking for each group. Without it, the window is the whole table. 'Per department' always means PARTITION BY dept."
+      },
+      {
+        "title": "Aggregating Inside a WHERE Clause",
+        "wrongCode": "SELECT dept FROM employees\nWHERE COUNT(*) > 5;\n-- ERROR 1111 (HY000): Invalid use of group function",
+        "error": "ERROR 1111 (HY000): Invalid use of group function",
+        "correctCode": "SELECT dept FROM employees\nGROUP BY dept\nHAVING COUNT(*) > 5;",
+        "explanation": "Aggregates belong in HAVING, not WHERE. Mental model: WHERE filters rows before grouping; HAVING filters after grouping. 'More than 5 rows in the group' is a post-grouping condition."
+      },
+      {
+        "title": "Missing DISTINCT in COUNT for Unique Values",
+        "wrongCode": "-- Find customers who ordered in every month of 2024\nSELECT customer_id\nFROM orders\nWHERE YEAR(order_date) = 2024\nGROUP BY customer_id\nHAVING COUNT(MONTH(order_date)) = 12;\n-- Bug: a customer with 12 orders in January alone passes the test.",
+        "error": "No error — wrong answer.",
+        "correctCode": "SELECT customer_id\nFROM orders\nWHERE YEAR(order_date) = 2024\nGROUP BY customer_id\nHAVING COUNT(DISTINCT MONTH(order_date)) = 12;",
+        "explanation": "COUNT counts rows; COUNT(DISTINCT x) counts unique values of x. 'Every month' means 12 distinct months, not 12 orders."
+      }
+    ],
+    "summary": [
+      "DENSE_RANK is the safe default for 'Nth highest' — it handles ties correctly. Use LIMIT/OFFSET only when you explicitly do not care about ties.",
+      "GROUP BY + HAVING COUNT(*) > 1 finds duplicates. To delete duplicates keeping one, JOIN to a subquery that picks the surviving id (MIN or via ROW_NUMBER) and delete the rest.",
+      "Self-joins handle 'employees vs manager', 'user vs follower', 'pair of items in same group'. Alias the same table twice and JOIN on the relationship column.",
+      "PARTITION BY is what turns global window functions into per-group window functions. 'Top N per group', 'second highest per dept', 'rank within region' all use PARTITION BY.",
+      "Running totals, moving averages, and month-over-month growth are all window functions with appropriate frame clauses. ROWS BETWEEN ... tells MySQL how wide the window is.",
+      "Consecutive-days problems reduce to the 'group by date minus row number' trick: consecutive dates share the same offset, so you can COUNT per island.",
+      "MySQL has no PIVOT keyword. Conditional aggregation with SUM(CASE WHEN x THEN y ELSE 0 END) is the universal replacement. Works for any cross-tab shape.",
+      "Median without a median function: ROW_NUMBER the sorted values, pick the middle (odd count) or two middle (even count) rows, AVG the result. The formula FLOOR((n+1)/2) and CEIL((n+1)/2) handles both.",
+      "NOT IN misbehaves in the presence of NULLs in the subquery. Prefer NOT EXISTS for 'missing in the other table' questions — it is both correct and usually faster.",
+      "Practise each of these 30 questions until you can produce the query without looking. Interviewers can distinguish rehearsed solutions from scrambled ones in the first 30 seconds."
+    ]
+  },
+  "relatedTopics": ["window-functions", "common-table-expressions", "joins-inner-and-outer"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find the 4th highest distinct salary from employees. Use DENSE_RANK.",
+        "hint": "DENSE_RANK handles ties.",
+        "answer": "<pre><code>SELECT DISTINCT salary FROM (\n    SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n    FROM employees\n) t WHERE rnk = 4;</code></pre>",
+        "explanation": "The inner query ranks distinct salaries descending; the outer picks rank 4."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find all products whose price is above the overall average.",
+        "hint": "Subquery in WHERE.",
+        "answer": "<pre><code>SELECT id, name, price FROM products\nWHERE price > (SELECT AVG(price) FROM products);</code></pre>",
+        "explanation": "Scalar subquery computes the average once. The outer SELECT filters rows above that threshold."
+      },
+      {
+        "id": "ts-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "List employees hired in March 2025.",
+        "hint": "BETWEEN or YEAR/MONTH extract.",
+        "answer": "<pre><code>SELECT id, name, hire_date FROM employees\nWHERE hire_date BETWEEN '2025-03-01' AND '2025-03-31';</code></pre>",
+        "explanation": "BETWEEN is inclusive on both ends. Avoid YEAR(hire_date)=2025 AND MONTH(hire_date)=3 on large tables — it prevents index use on hire_date."
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find duplicate emails in the users table along with their count.",
+        "hint": "GROUP BY + HAVING.",
+        "answer": "<pre><code>SELECT email, COUNT(*) AS cnt\nFROM users\nGROUP BY email\nHAVING COUNT(*) > 1;</code></pre>",
+        "explanation": "Textbook duplicate-finder. HAVING filters groups; WHERE filters rows."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Return the count of employees per department, ordered by count descending.",
+        "hint": "GROUP BY + ORDER BY.",
+        "answer": "<pre><code>SELECT dept, COUNT(*) AS n\nFROM employees\nGROUP BY dept\nORDER BY n DESC;</code></pre>",
+        "explanation": "The alias n can be used in ORDER BY because it is computed in SELECT before ORDER BY runs."
+      },
+      {
+        "id": "ts-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "List employees whose name starts with 'A' or 'P' and whose salary is in the top 3 of their department.",
+        "hint": "Combine WHERE with a per-group window.",
+        "answer": "<pre><code>SELECT dept, name, salary FROM (\n    SELECT dept, name, salary,\n           ROW_NUMBER() OVER (PARTITION BY dept ORDER BY salary DESC) AS rn\n    FROM employees\n    WHERE name LIKE 'A%' OR name LIKE 'P%'\n) t\nWHERE rn <= 3;</code></pre>",
+        "explanation": "Filter first in the inner query (WHERE), then apply the per-group ranking. Order matters: WHERE prunes rows before the window function runs."
+      },
+      {
+        "id": "ts-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "For each department, return the average salary and the number of employees whose salary is above that average.",
+        "hint": "Join a grouped summary back to the base table.",
+        "answer": "<pre><code>WITH avgs AS (\n    SELECT dept, AVG(salary) AS avg_sal FROM employees GROUP BY dept\n)\nSELECT e.dept, a.avg_sal, COUNT(*) AS above_avg_count\nFROM employees e\nJOIN avgs a ON a.dept = e.dept\nWHERE e.salary > a.avg_sal\nGROUP BY e.dept, a.avg_sal;</code></pre>",
+        "explanation": "CTE computes per-dept averages. Self-join the employees back to that and count rows above the average."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find the employee(s) with the longest tenure (earliest hire_date).",
+        "hint": "Subquery for MIN, then filter.",
+        "answer": "<pre><code>SELECT id, name, hire_date\nFROM employees\nWHERE hire_date = (SELECT MIN(hire_date) FROM employees);</code></pre>",
+        "explanation": "Scalar subquery returns the oldest hire_date; outer query returns everyone hired on that exact date (handles ties)."
+      },
+      {
+        "id": "ts-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Return the top 2 highest-paid employees per department (break ties arbitrarily).",
+        "hint": "ROW_NUMBER with PARTITION BY dept.",
+        "answer": "<pre><code>SELECT dept, name, salary FROM (\n    SELECT dept, name, salary,\n           ROW_NUMBER() OVER (PARTITION BY dept ORDER BY salary DESC) AS rn\n    FROM employees\n) t\nWHERE rn <= 2\nORDER BY dept, rn;</code></pre>",
+        "explanation": "ROW_NUMBER breaks ties arbitrarily — exactly 2 rows per dept. Use DENSE_RANK if ties should all be included."
+      },
+      {
+        "id": "ts-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "For each order, show the total and the percentage it contributes to the grand total.",
+        "hint": "Window SUM without PARTITION.",
+        "answer": "<pre><code>SELECT id, total,\n       ROUND(100.0 * total / SUM(total) OVER (), 2) AS pct\nFROM orders;</code></pre>",
+        "explanation": "SUM(total) OVER () with an empty window frame = grand total on every row. Divide to get each order's share."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "List customers who ordered products from more than 3 distinct categories.",
+        "hint": "JOIN + GROUP BY customer + COUNT DISTINCT category_id.",
+        "answer": "<pre><code>SELECT o.customer_id\nFROM orders o\nJOIN order_items oi ON oi.order_id = o.id\nJOIN products p ON p.id = oi.product_id\nGROUP BY o.customer_id\nHAVING COUNT(DISTINCT p.category_id) > 3;</code></pre>",
+        "explanation": "COUNT(DISTINCT category_id) counts unique categories. HAVING applies the threshold. DISTINCT is essential — without it, a customer with many orders in the same category would pass."
+      },
+      {
+        "id": "ts-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "For each user, find the longest gap (in days) between consecutive login_dates.",
+        "hint": "LEAD or LAG to get next/previous login, then DATEDIFF.",
+        "answer": "<pre><code>WITH gaps AS (\n    SELECT user_id, login_date,\n           DATEDIFF(LEAD(login_date) OVER (PARTITION BY user_id ORDER BY login_date),\n                    login_date) AS gap_days\n    FROM logins\n)\nSELECT user_id, MAX(gap_days) AS longest_gap\nFROM gaps\nWHERE gap_days IS NOT NULL\nGROUP BY user_id;</code></pre>",
+        "explanation": "LEAD gives the next login. DATEDIFF computes the gap. MAX per user gives the longest gap. IS NOT NULL drops the last row per user (no next login)."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Calculate the 14-day rolling sum of daily_sales.",
+        "hint": "ROWS BETWEEN 13 PRECEDING AND CURRENT ROW.",
+        "answer": "<pre><code>SELECT sale_date, daily_total,\n       SUM(daily_total) OVER (\n           ORDER BY sale_date\n           ROWS BETWEEN 13 PRECEDING AND CURRENT ROW\n       ) AS rolling_14d\nFROM daily_sales\nORDER BY sale_date;</code></pre>",
+        "explanation": "A 14-day window is 13 preceding + current row. Use RANGE BETWEEN INTERVAL 13 DAY PRECEDING ... if dates have gaps and you want calendar windows."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find 'active' customers: placed at least one order in each of the last 3 months.",
+        "hint": "Cross-join a calendar of the last 3 months with customers, then verify every month is covered.",
+        "answer": "<pre><code>WITH last3 AS (\n    SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 0 MONTH), '%Y-%m') AS m UNION ALL\n    SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 1 MONTH), '%Y-%m') UNION ALL\n    SELECT DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 2 MONTH), '%Y-%m')\n)\nSELECT customer_id\nFROM orders\nWHERE DATE_FORMAT(order_date, '%Y-%m') IN (SELECT m FROM last3)\nGROUP BY customer_id\nHAVING COUNT(DISTINCT DATE_FORMAT(order_date, '%Y-%m')) = 3;</code></pre>",
+        "explanation": "Filter orders to the last 3 months; count distinct months per customer; keep those with 3. Same pattern as Q9 in the notes, but parameterised."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find products that were ordered in both 2024 AND 2025 but not in 2026.",
+        "hint": "INTERSECT-like pattern using GROUP BY + HAVING.",
+        "answer": "<pre><code>SELECT product_id\nFROM order_items oi JOIN orders o ON o.id = oi.order_id\nGROUP BY product_id\nHAVING SUM(CASE WHEN YEAR(o.order_date) = 2024 THEN 1 ELSE 0 END) > 0\n   AND SUM(CASE WHEN YEAR(o.order_date) = 2025 THEN 1 ELSE 0 END) > 0\n   AND SUM(CASE WHEN YEAR(o.order_date) = 2026 THEN 1 ELSE 0 END) = 0;</code></pre>",
+        "explanation": "Three conditional SUMs, one per year. HAVING asserts >0 for 2024 and 2025 and =0 for 2026. A single pass over the table."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "For a products table with (id, name, price, category_id), return the second most expensive product per category. If only one product exists in a category, return NULL for that row.",
+        "hint": "DENSE_RANK with PARTITION BY category_id.",
+        "answer": "<pre><code>WITH ranked AS (\n    SELECT category_id, name, price,\n           DENSE_RANK() OVER (PARTITION BY category_id ORDER BY price DESC) AS rnk\n    FROM products\n)\nSELECT c.id AS category_id, r.name AS second_most_expensive\nFROM (SELECT DISTINCT category_id AS id FROM products) c\nLEFT JOIN ranked r ON r.category_id = c.id AND r.rnk = 2;</code></pre>",
+        "explanation": "LEFT JOIN ensures categories with no second product still appear, with NULL for second_most_expensive."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "A user is a 'churned' user if their last order was more than 180 days ago. Return one row per churned user with last_order_date.",
+        "hint": "MAX(order_date) per user in HAVING.",
+        "answer": "<pre><code>SELECT customer_id, MAX(order_date) AS last_order_date\nFROM orders\nGROUP BY customer_id\nHAVING MAX(order_date) < DATE_SUB(CURDATE(), INTERVAL 180 DAY);</code></pre>",
+        "explanation": "Directly use the aggregate in HAVING. A cleaner alternative uses a CTE, but this one-liner is perfectly readable."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Count the number of employees in each department.",
+        "hint": "GROUP BY dept.",
+        "answer": "<pre><code>SELECT dept, COUNT(*) AS n FROM employees GROUP BY dept;</code></pre>",
+        "explanation": "Simplest GROUP BY. Use COUNT(DISTINCT col) if you want unique values of a column instead of rows."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Return employees whose salary is within 10% of the dept average.",
+        "hint": "Dept average via window function.",
+        "answer": "<pre><code>SELECT * FROM (\n    SELECT e.*, AVG(salary) OVER (PARTITION BY dept) AS dept_avg\n    FROM employees e\n) t\nWHERE salary BETWEEN dept_avg * 0.9 AND dept_avg * 1.1;</code></pre>",
+        "explanation": "Windowed AVG gives the dept average on each row without collapsing the rows. Then filter the outer SELECT."
+      },
+      {
+        "id": "mx-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Return the earliest login per user.",
+        "hint": "MIN(login_date) per user.",
+        "answer": "<pre><code>SELECT user_id, MIN(login_date) AS first_login\nFROM logins GROUP BY user_id;</code></pre>",
+        "explanation": "Simple aggregate. If you also need the row's other columns, use ROW_NUMBER() = 1 instead."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "For each post, return the number of comments and the number of likes.",
+        "hint": "Left join both, count each separately with DISTINCT.",
+        "answer": "<pre><code>SELECT p.id,\n       COUNT(DISTINCT c.id) AS comment_count,\n       COUNT(DISTINCT l.user_id) AS like_count\nFROM posts p\nLEFT JOIN comments c ON c.post_id = p.id\nLEFT JOIN likes    l ON l.post_id = p.id\nGROUP BY p.id;</code></pre>",
+        "explanation": "LEFT JOIN so posts with no comments/likes still appear. DISTINCT prevents double-counting due to the join's cross-product."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find products priced within the top 20% of their category.",
+        "hint": "NTILE partitions into buckets.",
+        "answer": "<pre><code>SELECT category_id, name, price FROM (\n    SELECT category_id, name, price,\n           NTILE(5) OVER (PARTITION BY category_id ORDER BY price DESC) AS bucket\n    FROM products\n) t\nWHERE bucket = 1;</code></pre>",
+        "explanation": "NTILE(5) splits rows into 5 equal buckets. Bucket 1 (with ORDER BY price DESC) is the top 20%."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "For every order, return the difference (in rupees) from the average total of the previous 5 orders (by order_date).",
+        "hint": "AVG with a ROWS frame.",
+        "answer": "<pre><code>SELECT id, order_date, total,\n       AVG(total) OVER (\n           ORDER BY order_date\n           ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING\n       ) AS avg_prev_5,\n       total - AVG(total) OVER (\n           ORDER BY order_date\n           ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING\n       ) AS diff\nFROM orders;</code></pre>",
+        "explanation": "ROWS BETWEEN 5 PRECEDING AND 1 PRECEDING = the five rows before this one, excluding the current row. The first few rows have NULL avg (fewer than 5 predecessors)."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "List all employees whose manager is in a different department.",
+        "hint": "Self-join + inequality.",
+        "answer": "<pre><code>SELECT e.name AS emp, e.dept AS emp_dept,\n       m.name AS manager, m.dept AS mgr_dept\nFROM employees e\nJOIN employees m ON m.id = e.manager_id\nWHERE e.dept <> m.dept;</code></pre>",
+        "explanation": "Self-join again. The WHERE filters to cross-department manager relationships."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Return the median order total.",
+        "hint": "ROW_NUMBER + COUNT OVER () + FLOOR/CEIL.",
+        "answer": "<pre><code>SELECT AVG(total) AS median\nFROM (\n    SELECT total,\n           ROW_NUMBER() OVER (ORDER BY total) AS rn,\n           COUNT(*)     OVER ()                AS n\n    FROM orders\n) t\nWHERE rn IN (FLOOR((n + 1) / 2), CEIL((n + 1) / 2));</code></pre>",
+        "explanation": "Same trick as Q17: AVG of the middle position(s)."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "A post is 'trending' if it received more than 100 likes in the last 24 hours. Return all trending post ids.",
+        "hint": "Filter likes by timestamp, group by post.",
+        "answer": "<pre><code>SELECT post_id\nFROM likes\nWHERE liked_at >= NOW() - INTERVAL 24 HOUR\nGROUP BY post_id\nHAVING COUNT(*) > 100;</code></pre>",
+        "explanation": "WHERE prunes likes to the window. GROUP BY + HAVING applies the threshold."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Count, for each customer, the number of orders they placed on weekends.",
+        "hint": "DAYOFWEEK: 1=Sunday, 7=Saturday.",
+        "answer": "<pre><code>SELECT customer_id,\n       SUM(CASE WHEN DAYOFWEEK(order_date) IN (1, 7) THEN 1 ELSE 0 END) AS weekend_orders\nFROM orders\nGROUP BY customer_id;</code></pre>",
+        "explanation": "Conditional SUM — a common pattern when counting under a condition. Works for any predicate expressible in CASE."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "For each user, find the time (in minutes) between their first and second login.",
+        "hint": "Window function to number logins, self-join or pivot.",
+        "answer": "<pre><code>WITH ranked AS (\n    SELECT user_id, login_ts,\n           ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY login_ts) AS rn\n    FROM logins\n)\nSELECT r1.user_id,\n       TIMESTAMPDIFF(MINUTE, r1.login_ts, r2.login_ts) AS minutes_between\nFROM ranked r1\nJOIN ranked r2 ON r1.user_id = r2.user_id AND r1.rn = 1 AND r2.rn = 2;</code></pre>",
+        "explanation": "Number each user's logins, self-join on rn=1 and rn=2 for the same user, compute the time diff."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "For each employee, list the names of their direct reports, comma-separated.",
+        "hint": "GROUP_CONCAT with self-join.",
+        "answer": "<pre><code>SELECT m.name AS manager,\n       GROUP_CONCAT(e.name ORDER BY e.name SEPARATOR ', ') AS reports\nFROM employees e\nJOIN employees m ON m.id = e.manager_id\nGROUP BY m.id, m.name;</code></pre>",
+        "explanation": "Self-join; for each manager, GROUP_CONCAT the names of their reports."
+      },
+      {
+        "id": "mx-13",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Pivot: for each customer, show the total they spent in each of the last 3 calendar months.",
+        "hint": "Conditional aggregation with DATE_FORMAT.",
+        "answer": "<pre><code>SELECT customer_id,\n       SUM(CASE WHEN DATE_FORMAT(order_date,'%Y-%m') = DATE_FORMAT(CURDATE(),'%Y-%m')                           THEN total ELSE 0 END) AS this_month,\n       SUM(CASE WHEN DATE_FORMAT(order_date,'%Y-%m') = DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 1 MONTH),'%Y-%m') THEN total ELSE 0 END) AS last_month,\n       SUM(CASE WHEN DATE_FORMAT(order_date,'%Y-%m') = DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 2 MONTH),'%Y-%m') THEN total ELSE 0 END) AS two_months_ago\nFROM orders\nWHERE order_date >= DATE_SUB(CURDATE(), INTERVAL 3 MONTH)\nGROUP BY customer_id;</code></pre>",
+        "explanation": "Three CASE-when branches, one per month. WHERE prunes to the last 3 months so the aggregation is cheap."
+      },
+      {
+        "id": "mx-14",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Return the percentage of orders that have at least one item costing more than Rs. 1000.",
+        "hint": "CASE with aggregation over a subquery/EXISTS.",
+        "answer": "<pre><code>SELECT 100.0 * SUM(\n    CASE WHEN EXISTS (\n        SELECT 1 FROM order_items oi\n        WHERE oi.order_id = o.id AND oi.unit_price > 1000\n    ) THEN 1 ELSE 0 END\n) / COUNT(*) AS pct\nFROM orders o;</code></pre>",
+        "explanation": "Correlated EXISTS inside the CASE tests each order for a qualifying item. The outer aggregate computes the percentage."
+      },
+      {
+        "id": "mx-15",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "For each employee, show their salary, the average salary of the whole company, and the difference.",
+        "hint": "Window function with empty frame.",
+        "answer": "<pre><code>SELECT name, salary,\n       AVG(salary) OVER () AS company_avg,\n       salary - AVG(salary) OVER () AS diff\nFROM employees;</code></pre>",
+        "explanation": "AVG(salary) OVER () is the company average on every row — no collapsing. Perfect for 'me vs average' comparisons."
+      },
+      {
+        "id": "mx-16",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Identify employees whose salary is higher than the average salary of every other department.",
+        "hint": "ALL subquery.",
+        "answer": "<pre><code>SELECT name, dept, salary FROM employees e\nWHERE salary > ALL (\n    SELECT AVG(salary) FROM employees e2\n    WHERE e2.dept <> e.dept\n    GROUP BY e2.dept\n);</code></pre>",
+        "explanation": "> ALL means 'greater than every value in the subquery'. The correlated subquery lists the avg of every OTHER department; the outer row qualifies only if it tops all of them."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which function handles ties naturally when finding the Nth highest salary?",
+        "options": {
+          "A": "ROW_NUMBER",
+          "B": "DENSE_RANK",
+          "C": "LIMIT/OFFSET",
+          "D": "LAG"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DENSE_RANK assigns the same rank to tied salaries and does not skip — ideal for 'Nth distinct'."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which clause filters groups in a GROUP BY query?",
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "FILTER",
+          "D": "GROUP FILTER"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> HAVING filters after aggregation. WHERE filters rows before aggregation."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does LAG(x) OVER (ORDER BY t) return on the first row?",
+        "options": {
+          "A": "0",
+          "B": "An error",
+          "C": "NULL",
+          "D": "The same value as x"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> There is no previous row for row 1, so LAG returns NULL. Use LAG(x, 1, 0) to default to 0."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which is the correct way to find customers who never placed an order?",
+        "options": {
+          "A": "SELECT FROM customers WHERE id NOT IN (SELECT customer_id FROM orders)",
+          "B": "LEFT JOIN orders and filter WHERE orders.id IS NULL",
+          "C": "NOT EXISTS (SELECT 1 FROM orders WHERE ...)",
+          "D": "Both B and C (A is dangerous if customer_id can be NULL)"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> NOT IN with NULL in the subquery silently returns zero rows. Prefer NOT EXISTS or LEFT JOIN ... IS NULL."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does SUM(total) OVER () compute?",
+        "options": {
+          "A": "An error",
+          "B": "The grand total repeated on every row",
+          "C": "The running total",
+          "D": "The per-row total"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An empty window is the whole result set — SUM over the whole set, placed on every row."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which window function breaks ties arbitrarily (no two rows share a rank)?",
+        "options": {
+          "A": "RANK",
+          "B": "DENSE_RANK",
+          "C": "ROW_NUMBER",
+          "D": "NTILE"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> ROW_NUMBER assigns distinct sequential numbers; ties are broken by the query optimiser."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which function pivots rows into columns in MySQL?",
+        "options": {
+          "A": "PIVOT keyword",
+          "B": "Conditional aggregation using SUM(CASE WHEN ...)",
+          "C": "Stored procedure only",
+          "D": "CROSS JOIN"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL has no PIVOT keyword. SUM(CASE WHEN condition THEN value ELSE 0 END) is the universal pivot."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "How do you find the median of a column without a MEDIAN function?",
+        "options": {
+          "A": "AVG(column)",
+          "B": "ROW_NUMBER() + COUNT() OVER () + pick the middle position(s)",
+          "C": "PERCENTILE_CONT(0.5)",
+          "D": "You can't"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Number the sorted rows, pick position FLOOR((n+1)/2) and CEIL((n+1)/2), AVG the result."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which is TRUE about ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW?",
+        "options": {
+          "A": "Includes only the current row",
+          "B": "Includes all rows from the start of the partition to the current row (cumulative)",
+          "C": "Includes only preceding rows, not current",
+          "D": "Throws an error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> This is the canonical cumulative / running total frame."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "A correlated subquery is one that:",
+        "options": {
+          "A": "Always returns a single row",
+          "B": "References columns from the outer query; is re-evaluated for each outer row",
+          "C": "Must use EXISTS",
+          "D": "Cannot be used in WHERE"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Correlation = row-by-row dependency. Powerful but potentially slow — measure before using on large tables."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which is TRUE about GROUP_CONCAT?",
+        "options": {
+          "A": "Joins rows from different tables",
+          "B": "Aggregates a column into a comma-separated string per group; can have ORDER BY and DISTINCT inside",
+          "C": "Returns the first value in each group",
+          "D": "Splits a CSV column"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL's answer to string_agg. Watch <code>group_concat_max_len</code> for large groups."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "To find employees earning more than their manager, you use:",
+        "options": {
+          "A": "A CTE",
+          "B": "A self-join on employees aliased twice (e, m)",
+          "C": "UNION",
+          "D": "CROSS JOIN"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Self-join with aliases is the classic pattern."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why is the 'date minus row_number' trick used for consecutive-day problems?",
+        "options": {
+          "A": "It's faster to type",
+          "B": "Consecutive dates produce the same difference, so GROUP BY that difference creates 'islands' of consecutive days",
+          "C": "It avoids using window functions",
+          "D": "It works only in PostgreSQL"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The difference is constant for consecutive runs; GROUP BY that constant gives you each run."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which is the correct way to get top 3 per group (ties broken arbitrarily)?",
+        "options": {
+          "A": "LIMIT 3 per GROUP BY",
+          "B": "RANK() OVER PARTITION BY g ORDER BY v DESC, then WHERE rnk <= 3",
+          "C": "ROW_NUMBER() OVER PARTITION BY g ORDER BY v DESC, then WHERE rn <= 3",
+          "D": "Three separate queries"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> ROW_NUMBER always yields exactly 3 rows per group. RANK / DENSE_RANK can give more than 3 if there are ties."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Why should you use NOT EXISTS over NOT IN when the subquery column can contain NULL?",
+        "options": {
+          "A": "NOT EXISTS is always faster",
+          "B": "NOT IN silently returns zero rows if the subquery contains a NULL value",
+          "C": "NOT IN is deprecated",
+          "D": "The two are equivalent"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> NOT IN ... NULL yields UNKNOWN for every comparison, excluding all outer rows."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Which is NOT a valid way to compute a 7-day moving average?",
+        "options": {
+          "A": "AVG(x) OVER (ORDER BY d ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)",
+          "B": "AVG(x) OVER (ORDER BY d RANGE BETWEEN INTERVAL 6 DAY PRECEDING AND CURRENT ROW)",
+          "C": "Correlated subquery that AVGs the last 7 rows",
+          "D": "GROUP BY d HAVING x = AVG(x)"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> The others compute a moving average; D is a nonsense construct."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "When is a cumulative-percentage query useful?",
+        "options": {
+          "A": "Transactional writes",
+          "B": "Pareto/80-20 analysis: 'which products account for 80% of revenue?'",
+          "C": "Index maintenance",
+          "D": "Replication lag monitoring"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Cumulative percentages are the fastest way to spot which N items drive most of the total."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Top Customer Per City",
+        "difficulty": "Easy",
+        "description": "Given <code>customers(id, name, city)</code> and <code>orders(customer_id, total)</code>, return the highest-spending customer in each city along with their total spend.",
+        "sampleInput": "customers: (1,'Aarav','Pune'),(2,'Priya','Pune'),(3,'Rohan','Mumbai')\norders: (1,5000),(1,2000),(2,4000),(3,9000)",
+        "sampleOutput": "Pune: Aarav 7000; Mumbai: Rohan 9000",
+        "constraints": "Use window function partitioned by city.",
+        "solution": "WITH totals AS (\n    SELECT c.city, c.name, SUM(o.total) AS spend\n    FROM customers c JOIN orders o ON o.customer_id = c.id\n    GROUP BY c.id, c.city, c.name\n),\nranked AS (\n    SELECT city, name, spend,\n           ROW_NUMBER() OVER (PARTITION BY city ORDER BY spend DESC) AS rn\n    FROM totals\n)\nSELECT city, name, spend FROM ranked WHERE rn = 1;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Department Salary Band",
+        "difficulty": "Easy",
+        "description": "For each department, return min, avg, and max salary.",
+        "sampleInput": "employees with dept and salary.",
+        "sampleOutput": "ENG  50000 75000 110000 etc.",
+        "constraints": "Single GROUP BY.",
+        "solution": "SELECT dept,\n       MIN(salary) AS min_sal,\n       ROUND(AVG(salary), 2) AS avg_sal,\n       MAX(salary) AS max_sal\nFROM employees\nGROUP BY dept;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Email Domain Popularity",
+        "difficulty": "Easy",
+        "description": "Given <code>users(id, email)</code>, return the top 3 email domains by user count.",
+        "sampleInput": "emails like 'aarav@gmail.com', 'priya@yahoo.com', 'rohan@gmail.com'...",
+        "sampleOutput": "gmail.com 2, yahoo.com 1",
+        "constraints": "Use SUBSTRING_INDEX on '@'.",
+        "solution": "SELECT SUBSTRING_INDEX(email, '@', -1) AS domain, COUNT(*) AS n\nFROM users\nGROUP BY domain\nORDER BY n DESC\nLIMIT 3;"
+      },
+      {
+        "id": "cc-4",
+        "title": "Active Users Last 30 Days",
+        "difficulty": "Medium",
+        "description": "Return distinct users who logged in in the last 30 days, along with their login count.",
+        "sampleInput": "logins table with user_id and login_date.",
+        "sampleOutput": "user_id, login_count",
+        "constraints": "Use DATE_SUB.",
+        "solution": "SELECT user_id, COUNT(*) AS login_count\nFROM logins\nWHERE login_date >= DATE_SUB(CURDATE(), INTERVAL 30 DAY)\nGROUP BY user_id\nORDER BY login_count DESC;"
+      },
+      {
+        "id": "cc-5",
+        "title": "Manager With Most Direct Reports",
+        "difficulty": "Medium",
+        "description": "Find the manager who directly manages the largest number of employees.",
+        "sampleInput": "employees(id, name, manager_id).",
+        "sampleOutput": "Aarav manages 3 reports.",
+        "constraints": "Self-join; GROUP BY manager; ORDER BY COUNT DESC; LIMIT 1.",
+        "solution": "SELECT m.id AS manager_id, m.name AS manager_name, COUNT(*) AS n_reports\nFROM employees e\nJOIN employees m ON m.id = e.manager_id\nGROUP BY m.id, m.name\nORDER BY n_reports DESC\nLIMIT 1;"
+      },
+      {
+        "id": "cc-6",
+        "title": "New vs Returning Customers Per Month",
+        "difficulty": "Medium",
+        "description": "For each month in 2025, count how many orders came from first-time customers vs returning customers. A customer is 'new' in the month of their very first order.",
+        "sampleInput": "orders(customer_id, order_date).",
+        "sampleOutput": "month | new_orders | returning_orders",
+        "constraints": "Compute each customer's first-order month, then classify.",
+        "solution": "WITH first_orders AS (\n    SELECT customer_id, DATE_FORMAT(MIN(order_date), '%Y-%m') AS first_month\n    FROM orders\n    GROUP BY customer_id\n)\nSELECT DATE_FORMAT(o.order_date, '%Y-%m') AS month,\n       SUM(CASE WHEN DATE_FORMAT(o.order_date,'%Y-%m') = f.first_month THEN 1 ELSE 0 END) AS new_orders,\n       SUM(CASE WHEN DATE_FORMAT(o.order_date,'%Y-%m') > f.first_month THEN 1 ELSE 0 END) AS returning_orders\nFROM orders o\nJOIN first_orders f ON f.customer_id = o.customer_id\nWHERE YEAR(o.order_date) = 2025\nGROUP BY DATE_FORMAT(o.order_date, '%Y-%m')\nORDER BY month;"
+      },
+      {
+        "id": "cc-7",
+        "title": "Products Whose Revenue Grew Month-over-Month",
+        "difficulty": "Hard",
+        "description": "For each product, return the months where its revenue grew vs the previous month (strictly). Output product, month, growth_pct.",
+        "sampleInput": "order_items + orders joined on order_id, grouped by product and month.",
+        "sampleOutput": "product | month | growth_pct",
+        "constraints": "Use LAG with PARTITION BY product.",
+        "solution": "WITH monthly AS (\n    SELECT oi.product_id,\n           DATE_FORMAT(o.order_date, '%Y-%m') AS month,\n           SUM(oi.qty * oi.unit_price) AS rev\n    FROM order_items oi JOIN orders o ON o.id = oi.order_id\n    GROUP BY oi.product_id, DATE_FORMAT(o.order_date, '%Y-%m')\n),\nlagged AS (\n    SELECT product_id, month, rev,\n           LAG(rev) OVER (PARTITION BY product_id ORDER BY month) AS prev_rev\n    FROM monthly\n)\nSELECT product_id, month,\n       ROUND((rev - prev_rev) * 100.0 / prev_rev, 2) AS growth_pct\nFROM lagged\nWHERE prev_rev IS NOT NULL AND rev > prev_rev\nORDER BY product_id, month;"
+      },
+      {
+        "id": "cc-8",
+        "title": "Session Detection: 30-Minute Gap Rule",
+        "difficulty": "Hard",
+        "description": "Given <code>events(user_id, event_ts)</code>, assign each event a session number such that a gap of more than 30 minutes between consecutive events starts a new session.",
+        "sampleInput": "events for a user at 10:00, 10:05, 11:00, 11:10, 12:00",
+        "sampleOutput": "10:00 -> session 1; 10:05 -> session 1; 11:00 -> session 2; 11:10 -> session 2; 12:00 -> session 3.",
+        "constraints": "Use LAG + cumulative SUM of a 'new-session' flag.",
+        "solution": "WITH flagged AS (\n    SELECT user_id, event_ts,\n           CASE WHEN TIMESTAMPDIFF(MINUTE,\n                        LAG(event_ts) OVER (PARTITION BY user_id ORDER BY event_ts),\n                        event_ts) > 30\n                THEN 1 ELSE 0 END AS new_session\n    FROM events\n)\nSELECT user_id, event_ts,\n       1 + SUM(new_session) OVER (\n           PARTITION BY user_id ORDER BY event_ts\n           ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\n       ) AS session_id\nFROM flagged\nORDER BY user_id, event_ts;"
+      }
+    ]
+  }
+}

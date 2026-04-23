@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - GROUP BY and HAVING | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on GROUP BY and HAVING in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="group by and having practice, sql questions, sql practice problems, group by and having exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/group-by-and-having/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/group-by-and-having/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/group-by-and-having/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/group-by-and-having/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/group-by-and-having/practice">
+    <meta property="og:title" content="Practice Questions - GROUP BY and HAVING | SQL | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on GROUP BY and HAVING in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/group-by-and-having/practice">
+    <meta name="twitter:title" content="Practice Questions - GROUP BY and HAVING | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on GROUP BY and HAVING in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - GROUP BY and HAVING",
+    "description": "60+ practice questions on GROUP BY and HAVING in SQL.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "GROUP BY and HAVING"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/group-by-and-having/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "GROUP BY and HAVING",
+        "item": "https://learn.modernagecoders.com/resources/sql/group-by-and-having"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/group-by-and-having/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/group-by-and-having">GROUP BY and HAVING</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 10</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; GROUP BY and HAVING</h1>
+            <a href="/resources/sql/group-by-and-having" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">18</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">17</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Total sales per region.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">GROUP BY region.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><pre><code>SELECT region, SUM(amount) FROM sales GROUP BY region;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Count the number of sales per salesperson.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">GROUP BY salesperson.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><pre><code>SELECT salesperson, COUNT(*) FROM sales GROUP BY salesperson;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Average sale amount per product.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">GROUP BY product.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><pre><code>SELECT product, AVG(amount) FROM sales GROUP BY product;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Number of sales per region.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">COUNT(*) per region.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><pre><code>SELECT region, COUNT(*) FROM sales GROUP BY region;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find regions with total sales above 150000.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">HAVING with SUM.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><pre><code>SELECT region, SUM(amount) FROM sales
+GROUP BY region
+HAVING SUM(amount) > 150000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Top 3 regions by total sales.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">GROUP BY + ORDER BY + LIMIT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><pre><code>SELECT region, SUM(amount) AS total FROM sales
+GROUP BY region
+ORDER BY total DESC
+LIMIT 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Salespeople with more than 2 sales.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">HAVING COUNT(*).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><pre><code>SELECT salesperson, COUNT(*) FROM sales
+GROUP BY salesperson
+HAVING COUNT(*) > 2;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many groups does GROUP BY region, product produce?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Unique (region, product) pairs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>11 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between WHERE and HAVING?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">When each runs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>WHERE</code> filters <strong>rows</strong> BEFORE aggregation. <code>HAVING</code> filters <strong>groups</strong> AFTER aggregation. WHERE cannot use aggregate functions (SUM, COUNT, etc.) because the aggregates don't exist yet. HAVING can use aggregates because grouping is already done.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why must non-aggregated columns in SELECT appear in GROUP BY?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Ambiguity without it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">If a column is not aggregated and not in GROUP BY, the database does not know which value to return for each group. A group of 5 rows may have 5 different values — which one should be picked? Standard SQL requires every SELECT column to be aggregated or grouped. MySQL's default strict mode enforces this with ONLY_FULL_GROUP_BY. Older lenient mode silently returned an arbitrary value — a dangerous bug.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Total revenue per salesperson, only for sales above 30000 (filter rows first).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">WHERE + GROUP BY.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><pre><code>SELECT salesperson, SUM(amount) FROM sales
+WHERE amount > 30000
+GROUP BY salesperson;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Total sales per region, but only include regions where the number of sales is 4 or more.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">HAVING COUNT(*) >= 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><pre><code>SELECT region, SUM(amount) AS total, COUNT(*) AS n FROM sales
+GROUP BY region
+HAVING COUNT(*) >= 4;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Average sale amount per region for Laptops only.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">WHERE product = 'Laptop' first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><pre><code>SELECT region, AVG(amount) AS avg_laptop_price FROM sales
+WHERE product = 'Laptop'
+GROUP BY region;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Show region and product combinations with total revenue above 100000.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">GROUP BY 2 cols + HAVING SUM.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>SELECT region, product, SUM(amount) AS total FROM sales
+GROUP BY region, product
+HAVING SUM(amount) > 100000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many rows does this return?<br><pre><code>SELECT region FROM sales GROUP BY region HAVING COUNT(*) > 10;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Any region with > 10 sales?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>0 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the logical execution order of a SQL query with WHERE, GROUP BY, HAVING, SELECT, ORDER BY, LIMIT?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Seven phases.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Logical order: (1) <strong>FROM</strong> — identify source tables. (2) <strong>WHERE</strong> — filter individual rows. (3) <strong>GROUP BY</strong> — form groups. (4) <strong>HAVING</strong> — filter groups. (5) <strong>SELECT</strong> — compute output columns and aggregates. (6) <strong>ORDER BY</strong> — sort the result. (7) <strong>LIMIT</strong> — take first n rows.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Monthly revenue for 2026 (group by MONTH of sale_date).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">GROUP BY MONTH(sale_date).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><pre><code>SELECT MONTH(sale_date) AS month, SUM(amount) AS revenue FROM sales
+WHERE YEAR(sale_date) = 2026
+GROUP BY MONTH(sale_date)
+ORDER BY month;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Show salesperson and total revenue; include only those with total above 90000.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">HAVING SUM.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>SELECT salesperson, SUM(amount) AS total FROM sales
+GROUP BY salesperson
+HAVING SUM(amount) > 90000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">For each region, count unique products sold.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">COUNT(DISTINCT product) per region.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>SELECT region, COUNT(DISTINCT product) AS unique_products FROM sales
+GROUP BY region;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT COUNT(*) FROM sales GROUP BY region;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">One row per region.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>4 rows: 5, 4, 3, 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find regions where the average sale is above 40000 AND total sales count is at least 3.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">HAVING with two conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><pre><code>SELECT region, AVG(amount) AS avg_sale, COUNT(*) AS n FROM sales
+GROUP BY region
+HAVING AVG(amount) > 40000 AND COUNT(*) >= 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find the salesperson with the highest total sales.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">GROUP BY + ORDER BY DESC + LIMIT 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><pre><code>SELECT salesperson, SUM(amount) AS total FROM sales
+GROUP BY salesperson
+ORDER BY total DESC
+LIMIT 1;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">For products that have more than 3 sales, show the product and its average price.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">GROUP BY product, HAVING COUNT(*) > 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><pre><code>SELECT product, AVG(amount) AS avg_price, COUNT(*) AS n FROM sales
+GROUP BY product
+HAVING COUNT(*) > 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT region, SUM(amount)
+FROM sales
+WHERE product = 'Laptop'
+GROUP BY region
+HAVING SUM(amount) > 100000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">Laptop sales per region, filtered by sum.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24"><code>North 115000, South 115000, West 127000 — 3 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Can you get 'top 2 salespeople per region' using just GROUP BY? Why or why not?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">GROUP BY collapses groups.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25"><strong>No.</strong> GROUP BY gives you one row per group, so you can get the top salesperson per region (by using MAX or by combining ORDER BY with LIMIT on the grouped result) but not the top N per group. LIMIT applies to the final result, not within groups. For top N per group, you need window functions — <code>ROW_NUMBER() OVER (PARTITION BY region ORDER BY total_sales DESC)</code> with a filter <code>WHERE rn &lt;= 2</code>. This is covered in chapter 18 and is a very common interview question.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 26</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Total sales per region, adding a grand total row. Use WITH ROLLUP.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-26" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-26">GROUP BY region WITH ROLLUP.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-26" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-26"><pre><code>SELECT region, SUM(amount) FROM sales
+GROUP BY region WITH ROLLUP;</code></pre></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Number of sales per product.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">GROUP BY product.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>SELECT product, COUNT(*) FROM sales GROUP BY product;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Average sale per region.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">AVG + GROUP BY.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>SELECT region, AVG(amount) FROM sales GROUP BY region;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Largest sale per region.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">MAX + GROUP BY.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><pre><code>SELECT region, MAX(amount) FROM sales GROUP BY region;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Revenue per salesperson, sorted by revenue DESC.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">GROUP BY salesperson + ORDER BY.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>SELECT salesperson, SUM(amount) AS total FROM sales
+GROUP BY salesperson
+ORDER BY total DESC;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find the salesperson with just 1 sale.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">HAVING COUNT(*) = 1.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>SELECT salesperson FROM sales
+GROUP BY salesperson
+HAVING COUNT(*) = 1;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT product FROM sales GROUP BY product;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Distinct products.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>3 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Total revenue per product.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">GROUP BY product with SUM.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>SELECT product, SUM(amount) FROM sales GROUP BY product;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Is this valid?<br><pre><code>SELECT region, MAX(amount), COUNT(*) FROM sales GROUP BY region;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Multiple aggregates allowed?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Yes — valid. Returns 4 rows.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find products with total revenue above 100000.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">GROUP BY product, HAVING SUM > 100000.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>SELECT product, SUM(amount) FROM sales
+GROUP BY product
+HAVING SUM(amount) > 100000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Revenue per (salesperson, product) combination.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">GROUP BY two columns.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>SELECT salesperson, product, SUM(amount) FROM sales
+GROUP BY salesperson, product;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Count sales per salesperson, but only where the sale amount is above 50000 (filter rows first).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">WHERE + GROUP BY + COUNT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>SELECT salesperson, COUNT(*) AS big_sales FROM sales
+WHERE amount > 50000
+GROUP BY salesperson;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">For each region, average sale amount but only show regions where that average is between 30000 and 50000.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">HAVING with range.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><pre><code>SELECT region, AVG(amount) AS avg_sale FROM sales
+GROUP BY region
+HAVING AVG(amount) BETWEEN 30000 AND 50000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output row count?<br><pre><code>SELECT region, product, SUM(amount) FROM sales GROUP BY region, product;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Unique (region, product) pairs.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>11 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Show each region with its highest single sale and the product that made it.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">MAX alone does NOT give you the corresponding product. Use a subquery.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><pre><code>SELECT region, product, amount FROM sales
+WHERE (region, amount) IN (
+  SELECT region, MAX(amount) FROM sales GROUP BY region
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">List products with at least 2 unique salespeople selling them.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">HAVING COUNT(DISTINCT salesperson).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15"><pre><code>SELECT product, COUNT(DISTINCT salesperson) AS unique_sellers FROM sales
+GROUP BY product
+HAVING COUNT(DISTINCT salesperson) >= 2;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find regions with more than 1 product type sold AND total revenue > 150000.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-16">HAVING with AND of two aggregates.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-16"><pre><code>SELECT region, COUNT(DISTINCT product) AS products, SUM(amount) AS total FROM sales
+GROUP BY region
+HAVING COUNT(DISTINCT product) > 1 AND SUM(amount) > 150000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Monthly revenue for Laptops only.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-17">WHERE product = 'Laptop' + GROUP BY month.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-17"><pre><code>SELECT MONTH(sale_date) AS month, SUM(amount) FROM sales
+WHERE product = 'Laptop'
+GROUP BY MONTH(sale_date)
+ORDER BY month;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Show top salesperson per region (tricky — might need subquery).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-18">Join with subquery that finds region-max totals.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-18"><pre><code>-- One approach: correlated subquery
+SELECT region, salesperson, total FROM (
+  SELECT region, salesperson, SUM(amount) AS total FROM sales
+  GROUP BY region, salesperson
+) t
+WHERE (region, total) IN (
+  SELECT region, MAX(total) FROM (
+    SELECT region, salesperson, SUM(amount) AS total FROM sales
+    GROUP BY region, salesperson
+  ) t2
+  GROUP BY region
+);
+
+-- Cleaner: use window functions (chapter 18)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does GROUP BY region WITH ROLLUP add to the output?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-19">Extra row.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-19"><code>An extra row with region=NULL representing the grand total</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Show each region's share of total revenue as a percentage.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-20">Use a subquery for total.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-20"><pre><code>SELECT
+  region,
+  SUM(amount) AS region_total,
+  ROUND(SUM(amount) * 100.0 / (SELECT SUM(amount) FROM sales), 2) AS pct_of_total
+FROM sales
+GROUP BY region;</code></pre></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which clause groups rows sharing a column value?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE</li><li><span class="mcq-option-label">B.</span> GROUP BY</li><li><span class="mcq-option-label">C.</span> ORDER BY</li><li><span class="mcq-option-label">D.</span> HAVING</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> GROUP BY groups rows. HAVING filters groups. WHERE filters rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which filters groups after aggregation?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE</li><li><span class="mcq-option-label">B.</span> GROUP BY</li><li><span class="mcq-option-label">C.</span> HAVING</li><li><span class="mcq-option-label">D.</span> LIMIT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> HAVING runs after GROUP BY and can use aggregates. WHERE runs before GROUP BY and cannot.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Where do non-aggregated SELECT columns go?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE</li><li><span class="mcq-option-label">B.</span> GROUP BY</li><li><span class="mcq-option-label">C.</span> ORDER BY</li><li><span class="mcq-option-label">D.</span> HAVING</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Every non-aggregated column in SELECT must be in GROUP BY. Otherwise SQL doesn't know which value to show per group.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Can WHERE reference an aggregate like SUM()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> No — WHERE runs before aggregation</li><li><span class="mcq-option-label">C.</span> Only with special keyword</li><li><span class="mcq-option-label">D.</span> Only on MySQL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> WHERE is evaluated before GROUP BY and aggregation. Use HAVING for aggregate filters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is the correct syntactic clause order?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT, FROM, GROUP BY, WHERE, HAVING</li><li><span class="mcq-option-label">B.</span> SELECT, FROM, WHERE, GROUP BY, HAVING</li><li><span class="mcq-option-label">C.</span> FROM, SELECT, WHERE, HAVING, GROUP BY</li><li><span class="mcq-option-label">D.</span> GROUP BY, FROM, WHERE, SELECT, HAVING</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Syntax order: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. Cannot rearrange.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does SELECT region, SUM(amount) FROM sales GROUP BY region HAVING COUNT(*) > 3 return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All regions regardless</li><li><span class="mcq-option-label">B.</span> Regions with more than 3 rows</li><li><span class="mcq-option-label">C.</span> Regions with SUM(amount) &gt; 3</li><li><span class="mcq-option-label">D.</span> Regions with more than 3 unique products</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> HAVING COUNT(*) > 3 keeps regions with more than 3 sales rows. Our data: North 5, South 4 pass; East 3, West 3 fail.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which query is valid?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT region, salesperson FROM sales GROUP BY region;</li><li><span class="mcq-option-label">B.</span> SELECT region FROM sales GROUP BY region;</li><li><span class="mcq-option-label">C.</span> SELECT region, SUM(amount) FROM sales WHERE SUM(amount)&gt;100 GROUP BY region;</li><li><span class="mcq-option-label">D.</span> SELECT region FROM sales HAVING region=&#39;North&#39;;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Option A: salesperson is not aggregated or grouped — error in strict mode. Option C: WHERE cannot use aggregate. Option D: HAVING without GROUP BY (valid but misused — should be WHERE).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">In the logical execution order, when does SELECT run?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Before WHERE</li><li><span class="mcq-option-label">B.</span> Before GROUP BY</li><li><span class="mcq-option-label">C.</span> After HAVING, before ORDER BY</li><li><span class="mcq-option-label">D.</span> Last, after LIMIT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">You want total sales per region, showing only regions with total > 100000. Which is correct?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT region, SUM(amount) FROM sales WHERE SUM(amount)&gt;100000 GROUP BY region;</li><li><span class="mcq-option-label">B.</span> SELECT region, SUM(amount) FROM sales GROUP BY region WHERE SUM(amount)&gt;100000;</li><li><span class="mcq-option-label">C.</span> SELECT region, SUM(amount) FROM sales GROUP BY region HAVING SUM(amount)&gt;100000;</li><li><span class="mcq-option-label">D.</span> SELECT region, SUM(amount) FROM sales HAVING SUM(amount)&gt;100000 GROUP BY region;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> HAVING filters groups after aggregation. Other options have wrong clause order or use WHERE with aggregate.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">GROUP BY region, product creates how many groups?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Number of regions</li><li><span class="mcq-option-label">B.</span> Number of products</li><li><span class="mcq-option-label">C.</span> Number of unique (region, product) combinations</li><li><span class="mcq-option-label">D.</span> Product of both counts</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> Multi-column GROUP BY uses unique combinations. In our data: 11 such combinations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Can you use a column alias in HAVING in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, never</li><li><span class="mcq-option-label">B.</span> Yes, MySQL allows it</li><li><span class="mcq-option-label">C.</span> Only with DISTINCT</li><li><span class="mcq-option-label">D.</span> Only in PostgreSQL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL permits aliases in HAVING (because SELECT runs before HAVING in MySQL's evaluation). PostgreSQL requires the full expression. Either way, the expression form works in both.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does WITH ROLLUP add?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Cumulative running total</li><li><span class="mcq-option-label">B.</span> Extra row(s) with NULL in grouping column(s) for subtotals/grand total</li><li><span class="mcq-option-label">C.</span> Pagination</li><li><span class="mcq-option-label">D.</span> Sorting</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> ROLLUP adds subtotal rows. For a single GROUP BY column, you get one extra row: NULL in that column with the grand total value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the output of SELECT COUNT(*) FROM sales GROUP BY region?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Single number = 15</li><li><span class="mcq-option-label">B.</span> One number per region (4 rows)</li><li><span class="mcq-option-label">C.</span> Number of unique regions</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> GROUP BY returns one row per group. COUNT(*) in each group counts rows in that group. 4 regions = 4 rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Why can't plain GROUP BY solve 'top 3 salespeople per region'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> GROUP BY doesn&#39;t work with multiple columns</li><li><span class="mcq-option-label">B.</span> GROUP BY collapses each group to one row; LIMIT applies globally not per group</li><li><span class="mcq-option-label">C.</span> HAVING can&#39;t handle ranking</li><li><span class="mcq-option-label">D.</span> It&#39;s a MySQL limitation only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> GROUP BY gives one row per group. LIMIT trims the whole result, not per group. Top N per group requires window functions (ROW_NUMBER, RANK with PARTITION BY).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Can WHERE reference a SELECT alias?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> No, WHERE runs before SELECT computes aliases</li><li><span class="mcq-option-label">C.</span> Only in MySQL</li><li><span class="mcq-option-label">D.</span> Only with an index</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Aliases are defined in SELECT, which runs after WHERE. ORDER BY and HAVING (in MySQL) can reference them because they run after SELECT.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does HAVING region = 'North' do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Syntax error — HAVING needs aggregate</li><li><span class="mcq-option-label">B.</span> Works (filters groups where region = &#39;North&#39;), but WHERE is better</li><li><span class="mcq-option-label">C.</span> Only valid with GROUP BY</li><li><span class="mcq-option-label">D.</span> Returns all rows</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> HAVING can reference grouped columns, not just aggregates. It works but is semantically wrong — use WHERE for row filtering. HAVING is slower because it runs after grouping.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">SELECT region, COUNT(*) FROM sales GROUP BY region HAVING COUNT(*)>100; what happens if no group matches?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NULL row</li><li><span class="mcq-option-label">B.</span> Zero rows returned</li><li><span class="mcq-option-label">C.</span> All rows returned</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> If HAVING filters out all groups, the result is empty. No special row is returned. This is different from a plain aggregate without GROUP BY which always returns exactly one row.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Is SELECT SUM(amount) FROM sales GROUP BY region WITH ROLLUP ORDER BY region valid?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes</li><li><span class="mcq-option-label">B.</span> Invalid syntax</li><li><span class="mcq-option-label">C.</span> WITH ROLLUP cannot be used with ORDER BY</li><li><span class="mcq-option-label">D.</span> Need WHERE first</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: A</strong><br><strong>A is correct.</strong> WITH ROLLUP is valid with ORDER BY. The NULL (grand total) row will appear at the start or end depending on sort and NULL handling.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 60000 ORDER BY AVG(salary) DESC; what does this return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All employees earning &gt; 60000</li><li><span class="mcq-option-label">B.</span> Departments where average salary exceeds 60000, sorted by that average descending</li><li><span class="mcq-option-label">C.</span> Error — can&#39;t use aggregate in ORDER BY</li><li><span class="mcq-option-label">D.</span> The single highest-paid department</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> A fully valid GROUP BY query. Departments with avg > 60000 survive HAVING, then ORDER BY sorts by the same aggregate. ORDER BY can reference aggregates.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">How do you get unique count per group?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> COUNT(*) per group</li><li><span class="mcq-option-label">B.</span> COUNT(DISTINCT column) per group</li><li><span class="mcq-option-label">C.</span> SUM(DISTINCT column)</li><li><span class="mcq-option-label">D.</span> GROUP BY DISTINCT column</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> COUNT(DISTINCT product) per region tells you how many unique products each region sells. COUNT(*) would just count rows in each group.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Sales By Region</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Return total sales, count of sales, and average sale amount per region.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">sales table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">North: 184000, 5, 36800 | South: 160000, 4, 40000 | East: 96000, 3, 32000 | West: 153000, 3, 51000</div>
+                </div><div class="challenge-constraints">GROUP BY region.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">SELECT region, SUM(amount) AS total, COUNT(*) AS sales_count, AVG(amount) AS avg_sale
+FROM sales
+GROUP BY region;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Big Customers</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">List salespeople whose total revenue exceeds 80000.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">sales table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Aarav Sharma 96000, Priya Patel 102000, Karan Mehta 91000, Rohan Gupta 88000</div>
+                </div><div class="challenge-constraints">HAVING SUM(amount) &gt; 80000.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">SELECT salesperson, SUM(amount) AS total FROM sales
+GROUP BY salesperson
+HAVING SUM(amount) &gt; 80000
+ORDER BY total DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Product Mix Per Region</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">For each region, count the number of unique products sold and the total revenue.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">sales table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">North 3 products 184000 | South 3 products 160000 | East 3 products 96000 | West 2 products 153000</div>
+                </div><div class="challenge-constraints">COUNT(DISTINCT product) and SUM.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">SELECT region, COUNT(DISTINCT product) AS unique_products, SUM(amount) AS total
+FROM sales
+GROUP BY region
+ORDER BY total DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Laptop Hotspots</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Find regions where total Laptop revenue exceeds 100000. Show region and Laptop revenue.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">sales table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">North 115000, South 115000, West 127000</div>
+                </div><div class="challenge-constraints">WHERE + GROUP BY + HAVING.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">SELECT region, SUM(amount) AS laptop_revenue
+FROM sales
+WHERE product = &#39;Laptop&#39;
+GROUP BY region
+HAVING SUM(amount) &gt; 100000
+ORDER BY laptop_revenue DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Monthly Performance</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Show monthly total revenue and number of sales for 2026, ordered by month.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">sales table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Jan: 3, 140000 | Feb: 4, 118000 | Mar: 4, 136000 | Apr: 4, 199000</div>
+                </div><div class="challenge-constraints">GROUP BY MONTH(sale_date).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">SELECT MONTH(sale_date) AS month, COUNT(*) AS num_sales, SUM(amount) AS revenue
+FROM sales
+WHERE YEAR(sale_date) = 2026
+GROUP BY MONTH(sale_date)
+ORDER BY month;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Multi-Salesperson Products</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">List products sold by at least 3 different salespeople.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">sales table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Laptop (7 sellers), Phone (5 sellers), Tablet (3 sellers)</div>
+                </div><div class="challenge-constraints">HAVING COUNT(DISTINCT salesperson) &gt;= 3.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">SELECT product, COUNT(DISTINCT salesperson) AS num_sellers
+FROM sales
+GROUP BY product
+HAVING COUNT(DISTINCT salesperson) &gt;= 3;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Regional Share</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Show each region, its total revenue, and its percentage share of grand total revenue (rounded to 2 decimals).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">sales table. Grand total = 593000.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">North 184000 31.03% | South 160000 26.98% | East 96000 16.19% | West 153000 25.80%</div>
+                </div><div class="challenge-constraints">Use subquery for total.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">SELECT
+  region,
+  SUM(amount) AS regional_total,
+  ROUND(SUM(amount) * 100.0 / (SELECT SUM(amount) FROM sales), 2) AS pct_share
+FROM sales
+GROUP BY region
+ORDER BY regional_total DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Most Popular Product Per Region</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Find the best-selling product (by revenue) for each region. Return region, product, total revenue.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">sales table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">North Laptop 115000, South Laptop 115000, East Laptop 54000, West Laptop 127000</div>
+                </div><div class="challenge-constraints">Cannot use simple GROUP BY alone — need subquery or window functions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">-- Subquery approach (GROUP BY + subquery for max)
+SELECT region, product, total FROM (
+  SELECT region, product, SUM(amount) AS total
+  FROM sales
+  GROUP BY region, product
+) t
+WHERE (region, total) IN (
+  SELECT region, MAX(total) FROM (
+    SELECT region, product, SUM(amount) AS total
+    FROM sales
+    GROUP BY region, product
+  ) t2
+  GROUP BY region
+);
+
+-- Window function approach (cleaner; chapter 18)
+SELECT region, product, total FROM (
+  SELECT region, product,
+         SUM(amount) AS total,
+         ROW_NUMBER() OVER (PARTITION BY region ORDER BY SUM(amount) DESC) AS rn
+  FROM sales
+  GROUP BY region, product
+) t
+WHERE rn = 1;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/aggregate-functions/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</span>
+        </a>
+            <a href="/resources/sql/joins-inner-and-outer/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/group-by-and-having" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

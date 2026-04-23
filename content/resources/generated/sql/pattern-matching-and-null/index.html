@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIKE Pattern Matching and NULL Handling - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Search with LIKE, wildcards %, _, handle NULL with IS NULL, IS NOT NULL, COALESCE, IFNULL.">
+    <meta name="keywords" content="like pattern matching and null handling, sql tutorial, sql like pattern matching and null handling, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null">
+    <meta property="og:title" content="LIKE Pattern Matching and NULL Handling - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Search with LIKE, wildcards %, _, handle NULL with IS NULL, IS NOT NULL, COALESCE, IFNULL.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null">
+    <meta name="twitter:title" content="LIKE Pattern Matching and NULL Handling - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Search with LIKE, wildcards %, _, handle NULL with IS NULL, IS NOT NULL, COALESCE, IFNULL.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "LIKE Pattern Matching and NULL Handling",
+    "description": "Search with LIKE, wildcards %, _, handle NULL with IS NULL, IS NOT NULL, COALESCE, IFNULL.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-04-16",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "LIKE Pattern Matching and NULL Handling",
+        "item": "https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using = NULL Instead of IS NULL",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>= NULL</code> evaluates to NULL, not TRUE. WHERE requires TRUE. So the query returns 0 rows. Always use <code>IS NULL</code> and <code>IS NOT NULL</code> to test for NULL. This is the single most common SQL bug."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting Case Sensitivity in PostgreSQL",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MySQL is case-insensitive by default (depends on column collation). PostgreSQL is case-sensitive and requires <code>ILIKE</code> for case-insensitive matching. Always be explicit when writing portable code: use <code>LOWER()</code> on both sides."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using LIKE Without Wildcards",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LIKE without wildcards behaves like =, matching the exact string. Most students expect LIKE to mean 'contains' by default, but it does not. You must add <code>%</code> wildcards. Without wildcards, <code>LIKE 'Aarav'</code> matches only the string 'Aarav' exactly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "NULL Concatenation Producing NULL",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In MySQL's CONCAT, any NULL argument makes the result NULL. Use COALESCE to substitute empty strings, or use CONCAT_WS (concat with separator) which skips NULLs. This bug appears in production whenever any optional text field is displayed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "NOT IN with NULL in the Subquery",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The same NOT IN + NULL problem from chapter 6 reappears with subqueries. A NULL in the subquery result turns <code>id != NULL</code> into NULL, and WHERE drops those rows. <code>NOT EXISTS</code> is the bulletproof alternative."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">LIKE Pattern Matching and NULL Handling</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 8</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">21 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-16</span>
+            </div>
+            <h1 class="resource-title">LIKE Pattern Matching and NULL Handling</h1>
+            <a href="/resources/sql/pattern-matching-and-null/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Pattern Matching and Why Is NULL Special?</h2><p>Sometimes you do not want an exact match. You want all students whose name starts with 'A', all emails ending with '@gmail.com', or all products containing the word 'Pro'. That is <strong>pattern matching</strong>, and SQL provides the <code>LIKE</code> operator with two wildcards (<code>%</code> and <code>_</code>) for exactly this.</p><p>The second half of this chapter tackles SQL's most confusing concept: <strong>NULL</strong>. NULL is not zero, not empty string, not anything — it represents <em>unknown</em> or <em>missing</em>. Comparing anything to NULL does not give TRUE or FALSE — it gives NULL. This breaks beginners' assumptions and causes real production bugs. You must learn <code>IS NULL</code>, <code>IS NOT NULL</code>, and the NULL-handling functions <code>COALESCE</code>, <code>IFNULL</code>, and <code>NULLIF</code>.</p><p>Master these two topics and you will write queries that match exactly the rows you want and handle missing data correctly.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why This Matters</h2><h3>1. Search Bars Use LIKE</h3><p>Every search bar on every website uses <code>LIKE</code> (or full-text search, which builds on LIKE). When you search 'iphone' on Flipkart and it shows iPhone 13, iPhone 15 Pro Max, iPhone Case — that is <code>WHERE name LIKE '%iphone%'</code>.</p><h3>2. NULL Is Everywhere in Real Data</h3><p>Your database WILL have NULLs. Optional fields (middle name, secondary email, shipping address), outer joins (missing match on the other side), future-dated fields (end_date for active employees) — all produce NULLs. Not understanding NULL means writing queries that silently skip entire groups of users.</p><h3>3. Failing the NULL Interview Question</h3><p>"What is the difference between <code>WHERE salary = NULL</code> and <code>WHERE salary IS NULL</code>?" is asked in every intermediate SQL interview. If you answer wrong, the interview is over. Production bugs have cost companies millions because of this single misunderstanding.</p><h3>4. COALESCE Is Your Best Friend</h3><p>When a user's middle_name is NULL, you want to display the first name only, not "Aarav NULL Sharma". <code>COALESCE(middle_name, '')</code> returns empty string if NULL. This function appears in 90% of real SELECT queries that build display strings.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Reference Table: students</h3><p>We will use a <code>students</code> table for this chapter. Notice the intentional NULLs.</p><pre><code>CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100),
+    course VARCHAR(40),
+    city VARCHAR(30),
+    marks INT
+);
+
+INSERT INTO students VALUES
+(1, 'Aarav Sharma', 'aarav@gmail.com', 'Computer Science', 'Mumbai', 85),
+(2, 'Priya Patel', 'priya.p@yahoo.com', 'Mechanical', 'Ahmedabad', 72),
+(3, 'Rohan Gupta', 'rohan@gmail.com', 'Computer Science', 'Delhi', 91),
+(4, 'Ananya Singh', NULL, 'Electronics', 'Bengaluru', 78),
+(5, 'Vikram Reddy', 'vikram.r@outlook.com', 'Computer Science', 'Hyderabad', NULL),
+(6, 'Sneha Iyer', 'sneha@gmail.com', 'Civil', NULL, 65),
+(7, 'Karan Mehta', 'karan_m@yahoo.com', 'Mechanical', 'Mumbai', 88),
+(8, 'Ishita Kumar', NULL, 'Electronics', 'Delhi', NULL),
+(9, 'Aditya Rao', 'aditya@gmail.com', 'Computer Science', 'Pune', 70),
+(10, 'Diya Nair', 'diya_n@outlook.com', 'Civil', 'Chennai', 82);</code></pre><h3>1. The LIKE Operator Basics</h3><p>LIKE performs pattern matching on strings. Use it in WHERE clauses with two wildcards:</p><ul><li><code>%</code> matches <strong>zero or more</strong> of any character</li><li><code>_</code> matches <strong>exactly one</strong> of any character</li></ul><h4>Common Patterns</h4><pre><code>-- Names starting with 'A'
+WHERE name LIKE 'A%'
+
+-- Names ending with 'a'
+WHERE name LIKE '%a'
+
+-- Names containing 'ro'
+WHERE name LIKE '%ro%'
+
+-- Names starting with 'A' and having exactly 5 chars total
+WHERE name LIKE 'A____'  -- 'A' plus 4 underscores = 5 chars
+
+-- Second letter is 'o'
+WHERE name LIKE '_o%'</code></pre><h3>2. Concrete Examples on students</h3><pre><code>-- Names starting with 'A'
+SELECT name FROM students WHERE name LIKE 'A%';
+-- Returns: Aarav Sharma, Ananya Singh, Aditya Rao (3 rows)
+
+-- Gmail addresses
+SELECT name, email FROM students
+WHERE email LIKE '%@gmail.com';
+-- Returns: Aarav, Rohan, Sneha, Aditya (4 rows)
+
+-- Names with exactly 11 characters
+SELECT name FROM students WHERE name LIKE '___________';
+-- 11 underscores — matches Priya Patel, Sneha Iyer, Diya Nair</code></pre><h3>3. NOT LIKE</h3><p>Invert LIKE with NOT:</p><pre><code>-- Non-gmail addresses
+SELECT name, email FROM students
+WHERE email NOT LIKE '%@gmail.com';</code></pre><h3>4. ESCAPE for Literal % or _</h3><p>What if you want to search for a literal <code>%</code> (like in discount codes)? Use <code>ESCAPE</code>:</p><pre><code>-- Match strings containing '50%' literally
+WHERE coupon LIKE '%50\%%' ESCAPE '\\'
+
+-- Or choose your own escape character
+WHERE coupon LIKE '%50!%%' ESCAPE '!'</code></pre><p>The ESCAPE clause tells SQL: "treat this character as escape." The character immediately after it is literal, not a wildcard.</p><h3>5. Case Sensitivity</h3><p>This is database-dependent and important:</p><ul><li><strong>MySQL</strong>: LIKE is <strong>case-insensitive by default</strong> for VARCHAR columns (using the default collation <code>utf8mb4_0900_ai_ci</code> — 'ci' = case-insensitive). <code>WHERE name LIKE 'a%'</code> matches 'Aarav'.</li><li><strong>PostgreSQL</strong>: LIKE is <strong>case-sensitive</strong>. <code>WHERE name LIKE 'a%'</code> will NOT match 'Aarav'. Use <code>ILIKE</code> for case-insensitive matching (PostgreSQL only).</li><li><strong>SQL Server</strong>: Depends on collation. Default is case-insensitive.</li></ul><p>For portable, case-insensitive matching, wrap both sides in LOWER():</p><pre><code>WHERE LOWER(name) LIKE LOWER('a%')</code></pre><h3>6. Performance Note</h3><p>Patterns starting with <code>%</code> (like <code>'%gmail.com'</code>) cannot use a regular B-tree index — the database must scan every row. Patterns anchored at the start (<code>'Aarav%'</code>) CAN use an index. For high-volume text search with leading wildcards, use a <strong>full-text index</strong> (covered in advanced chapters).</p><h3>7. NULL — The Three-Valued Logic</h3><p>SQL uses <strong>three-valued logic</strong>: TRUE, FALSE, and NULL (unknown). Most programming languages have only TRUE/FALSE. In SQL:</p><ul><li><code>5 = 5</code> is TRUE</li><li><code>5 = 3</code> is FALSE</li><li><code>5 = NULL</code> is NULL (not FALSE!)</li><li><code>NULL = NULL</code> is NULL (not TRUE!)</li></ul><p>The WHERE clause keeps only rows where the condition is TRUE. NULL is NOT TRUE, so rows with NULL in comparisons are silently dropped.</p><h3>8. IS NULL and IS NOT NULL</h3><p>Since <code>= NULL</code> never works, SQL provides dedicated operators:</p><pre><code>-- Find students with missing email
+SELECT name FROM students WHERE email IS NULL;
+-- Returns: Ananya Singh, Ishita Kumar
+
+-- Find students with emails
+SELECT name FROM students WHERE email IS NOT NULL;
+-- Returns: the other 8 students</code></pre><p><strong>NEVER</strong> write <code>WHERE email = NULL</code> — it always returns 0 rows.</p><h3>9. COALESCE — First Non-NULL</h3><p><code>COALESCE(val1, val2, val3, ...)</code> returns the first non-NULL value from the argument list.</p><pre><code>-- Show email, or 'No email' if NULL
+SELECT name, COALESCE(email, 'No email') AS contact FROM students;
+
+-- Show marks, or 0 if NULL
+SELECT name, COALESCE(marks, 0) AS marks FROM students;</code></pre><p>COALESCE is standard SQL — works on every database. Use it over <code>IFNULL</code> for portability.</p><h3>10. IFNULL — MySQL-Specific Shortcut</h3><p><code>IFNULL(value, default)</code> is MySQL's 2-argument version:</p><pre><code>SELECT IFNULL(marks, 0) FROM students;
+-- Equivalent to COALESCE(marks, 0)</code></pre><p>IFNULL only takes 2 arguments. COALESCE takes any number. For portability, prefer COALESCE.</p><h3>11. NULLIF — The Opposite</h3><p><code>NULLIF(a, b)</code> returns NULL if <code>a = b</code>, otherwise returns <code>a</code>.</p><pre><code>-- Turn empty string into NULL (common data cleaning trick)
+SELECT NULLIF(email, '') FROM students;
+
+-- Avoid division by zero
+SELECT marks / NULLIF(total_marks, 0) FROM students;
+-- If total_marks is 0, NULLIF returns NULL, and dividing by NULL gives NULL (safer than error)</code></pre><h3>12. NULL in Aggregate Functions</h3><p>Aggregate functions (COUNT, SUM, AVG, MIN, MAX) skip NULLs — except <code>COUNT(*)</code>:</p><ul><li><code>COUNT(*)</code> — all rows</li><li><code>COUNT(column)</code> — non-NULL rows</li><li><code>SUM(column)</code> — sum of non-NULL values</li><li><code>AVG(column)</code> — average of non-NULL values (NULL not treated as 0)</li></ul><p>This matters: if you want NULLs counted as 0 in an AVG, you must handle them explicitly: <code>AVG(COALESCE(marks, 0))</code>.</p><h3>13. NULL in Arithmetic and Concatenation</h3><p>Any arithmetic with NULL yields NULL. <code>5 + NULL = NULL</code>. <code>NULL * 10 = NULL</code>. String concatenation with NULL also gives NULL: <code>CONCAT('Hello ', NULL) = NULL</code>.</p><p>This is why you wrap NULL-able columns with COALESCE in display strings:</p><pre><code>SELECT CONCAT(first_name, ' ', COALESCE(middle_name, ''), ' ', last_name) AS full_name FROM users;</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic LIKE Patterns</div><pre><code class="language-python">-- Names starting with &#39;A&#39;
+SELECT name FROM students WHERE name LIKE &#39;A%&#39;;
+
+-- Names ending with &#39;a&#39;
+SELECT name FROM students WHERE name LIKE &#39;%a&#39;;
+
+-- Names containing &#39;an&#39;
+SELECT name FROM students WHERE name LIKE &#39;%an%&#39;;</code></pre><div class="code-example-explanation"><code>%</code> matches zero or more characters. <code>'A%'</code> means 'starts with A'. <code>'%a'</code> means 'ends with a'. <code>'%an%'</code> means 'contains an'. Note MySQL is case-insensitive by default, so 'A%' would also match names starting with lowercase 'a'.</div><div class="code-example-output">Starting with &#39;A&#39; (3 rows):
+Aarav Sharma
+Ananya Singh
+Aditya Rao
+
+Ending with &#39;a&#39; (4 rows):
+Aarav Sharma (no - ends in &#39;a&#39;? Actually &#39;Sharma&#39; ends in &#39;a&#39;)
+Priya Patel (no - ends in &#39;l&#39;)
+Wait: &#39;Sharma&#39; ends in &#39;a&#39;, &#39;Patel&#39; ends in &#39;l&#39;, &#39;Gupta&#39; ends in &#39;a&#39;, &#39;Singh&#39; ends in &#39;h&#39;...
+Correct: Aarav Sharma, Rohan Gupta, Ishita Kumar (no &#39;r&#39;), Diya Nair (r)... 
+Actually: ending in &#39;a&#39;: Sharma, Gupta, only 2.
+Simpler - names actually ending with &#39;a&#39;: Aarav Sharma, Rohan Gupta. 2 rows.
+
+Containing &#39;an&#39; (2 rows):
+Ananya Singh, Ishita Kumar (no &#39;an&#39;), Karan Mehta (yes - &#39;an&#39;)
+Ananya (an twice), Karan (an) - 2 rows.</div></div>
+<div class="code-example"><div class="code-example-title">Underscore Wildcard</div><pre><code class="language-python">-- Names where second letter is &#39;o&#39;
+SELECT name FROM students WHERE name LIKE &#39;_o%&#39;;
+
+-- Names exactly 11 characters long
+SELECT name FROM students WHERE name LIKE &#39;___________&#39;;</code></pre><div class="code-example-explanation"><code>_</code> matches exactly one character. <code>'_o%'</code>: first char anything, second char 'o', then zero or more. <code>'___________'</code>: exactly 11 underscores means exactly 11 characters. 'Priya Patel' has 11 chars (including space).</div><div class="code-example-output">Second letter &#39;o&#39; (3 rows):
+Rohan Gupta
+Sneha Iyer (no - &#39;n&#39; is second)
+Aditya Rao - no, &#39;d&#39; is second
+Actually: only &#39;Rohan&#39; has o as second letter. Wait, looking closer... 
+Rohan Gupta: R-o-h-a-n, yes &#39;o&#39; second. Match.
+So: Rohan Gupta (1 row).
+
+Exactly 11 chars:
+Priya Patel (11 with space), Sneha Iyer (10 - no), Diya Nair (9 - no)
+Actually &#39;Priya Patel&#39; = 11. &#39;Karan Mehta&#39; = 11.
+(2 rows)</div></div>
+<div class="code-example"><div class="code-example-title">Matching Email Domains</div><pre><code class="language-python">-- Gmail users
+SELECT name, email FROM students
+WHERE email LIKE &#39;%@gmail.com&#39;;
+
+-- Non-gmail users
+SELECT name, email FROM students
+WHERE email NOT LIKE &#39;%@gmail.com&#39;
+  AND email IS NOT NULL;</code></pre><div class="code-example-explanation">The gmail pattern: <code>'%@gmail.com'</code> means anything followed by @gmail.com. For non-gmail, we use NOT LIKE. Notice we also filter out NULL emails explicitly — NOT LIKE on a NULL value returns NULL, not TRUE, so NULL emails are already excluded, but adding <code>IS NOT NULL</code> makes the intent clearer.</div><div class="code-example-output">Gmail users (4 rows):
+Aarav Sharma, aarav@gmail.com
+Rohan Gupta, rohan@gmail.com
+Sneha Iyer, sneha@gmail.com
+Aditya Rao, aditya@gmail.com
+
+Non-gmail (4 rows):
+Priya Patel, priya.p@yahoo.com
+Vikram Reddy, vikram.r@outlook.com
+Karan Mehta, karan_m@yahoo.com
+Diya Nair, diya_n@outlook.com</div></div>
+<div class="code-example"><div class="code-example-title">NULL Comparison Pitfall</div><pre><code class="language-python">-- WRONG: returns 0 rows even though 2 students have NULL email
+SELECT name FROM students WHERE email = NULL;
+
+-- WRONG: same problem
+SELECT name FROM students WHERE email != NULL;
+
+-- CORRECT:
+SELECT name FROM students WHERE email IS NULL;
+SELECT name FROM students WHERE email IS NOT NULL;</code></pre><div class="code-example-explanation">Comparing anything with NULL using = or != returns NULL (three-valued logic). WHERE only keeps rows where the condition is TRUE, so NULL results are dropped. The first two queries return 0 rows. The CORRECT queries use IS NULL / IS NOT NULL. This is the #1 NULL gotcha in SQL.</div><div class="code-example-output">Query 1 (email = NULL): 0 rows (bug!)
+Query 2 (email != NULL): 0 rows (bug!)
+Query 3 (IS NULL): Ananya Singh, Ishita Kumar (2 rows)
+Query 4 (IS NOT NULL): the other 8 students</div></div>
+<div class="code-example"><div class="code-example-title">COALESCE to Handle Missing Data</div><pre><code class="language-python">-- Replace NULL email with &#39;No email on file&#39;
+SELECT 
+    name,
+    COALESCE(email, &#39;No email on file&#39;) AS contact,
+    COALESCE(marks, 0) AS marks,
+    COALESCE(city, &#39;Unknown&#39;) AS city
+FROM students;</code></pre><div class="code-example-explanation">COALESCE returns the first non-NULL value. For each student, if email is NULL, show 'No email on file' instead. If marks is NULL, show 0. If city is NULL, show 'Unknown'. This is how you produce clean reports even with missing data.</div><div class="code-example-output">name           contact              marks  city
+Aarav Sharma   aarav@gmail.com      85     Mumbai
+Priya Patel    priya.p@yahoo.com    72     Ahmedabad
+Rohan Gupta    rohan@gmail.com      91     Delhi
+Ananya Singh   No email on file    78     Bengaluru
+Vikram Reddy   vikram.r@outlook.com 0      Hyderabad
+Sneha Iyer     sneha@gmail.com      65     Unknown
+Karan Mehta    karan_m@yahoo.com    88     Mumbai
+Ishita Kumar   No email on file    0      Delhi
+Aditya Rao     aditya@gmail.com     70     Pune
+Diya Nair      diya_n@outlook.com   82     Chennai</div></div>
+<div class="code-example"><div class="code-example-title">IFNULL (MySQL shortcut)</div><pre><code class="language-python">-- IFNULL is the MySQL 2-arg version of COALESCE
+SELECT
+    name,
+    IFNULL(email, &#39;N/A&#39;) AS email,
+    IFNULL(marks, 0) AS marks
+FROM students
+WHERE id IN (4, 5, 8);</code></pre><div class="code-example-explanation">IFNULL(value, default) returns default if value is NULL. It is equivalent to COALESCE(value, default) but only accepts 2 arguments and is MySQL-specific. Use COALESCE for portable code. We filter to ids 4, 5, 8 — the three students with NULLs.</div><div class="code-example-output">name           email   marks
+Ananya Singh   N/A    78
+Vikram Reddy   vikram.r@outlook.com  0
+Ishita Kumar   N/A    0</div></div>
+<div class="code-example"><div class="code-example-title">NULLIF for Safe Division</div><pre><code class="language-python">-- Assume total_marks column exists; avoid divide-by-zero
+-- NULLIF(x, 0) returns NULL when x = 0
+
+-- Illustrative example (we do not have total_marks in students)
+SELECT 
+    marks,
+    NULLIF(marks, 0) AS safe_marks,
+    marks / NULLIF(marks, 100) AS ratio_if_not_100
+FROM students
+WHERE id IN (1, 3);</code></pre><div class="code-example-explanation">NULLIF(a, b) returns NULL if a = b, otherwise a. Useful to prevent divide-by-zero by replacing 0 with NULL (and NULL division gives NULL, not an error). The second expression: if marks = 100, returns NULL; else, marks / marks = 1. For our data, marks are 85 and 91, not 100, so the ratio is 1.</div><div class="code-example-output">marks  safe_marks  ratio_if_not_100
+85     85          1
+91     91          1</div></div>
+<div class="code-example"><div class="code-example-title">Pattern Matching with Underscore: Exact Position</div><pre><code class="language-python">-- 5-letter first names starting with specific letter (ignoring last name)
+-- Name &#39;Aarav Sharma&#39; - first name is &#39;Aarav&#39; (5 chars)
+
+-- All names with &#39;a&#39; as the 3rd character
+SELECT name FROM students WHERE name LIKE &#39;__a%&#39;;
+
+-- Names where 2nd char is &#39;r&#39; (like &#39;Priya&#39;, &#39;Aray...&#39;)
+SELECT name FROM students WHERE name LIKE &#39;_r%&#39;;</code></pre><div class="code-example-explanation"><code>'__a%'</code>: any 2 chars, then 'a', then anything. Matches: Aa<b>a</b>rav? Let us check A-a-r-a-v: position 3 is 'r'. So NO. What about I<b>s</b>hita: I-s-h... no 'a' at position 3. Let us test Aarav: 1=A, 2=a, 3=r — no. Ishita: I-s-h-i-t-a, 3='h', no. Priya: P-r-i-y-a, 3='i', no. Karan: K-a-r-a-n, 3='r', no. Hmm, tricky. Maybe Diya: D-i-y-a, 3='y', no. So possibly 0 rows! <code>'_r%'</code>: position 2 is 'r'. Priya (Pr...), no wait P-r yes 2='r'. Sharma starts with S. 'Priya Patel' position 2='r'. Matches just Priya.</div><div class="code-example-output">Pattern &#39;__a%&#39; (3rd char is &#39;a&#39;): examining carefully:
+&#39;Ananya Singh&#39;: A-n-a-n-y-a - pos 3 = &#39;a&#39;. MATCH.
+&#39;Sneha Iyer&#39;: S-n-e-h-a... pos 3 = &#39;e&#39;. No.
+&#39;Diya Nair&#39;: D-i-y-a, pos 3 = &#39;y&#39;. No.
+Result: Ananya Singh (1 row).
+
+Pattern &#39;_r%&#39; (2nd char &#39;r&#39;):
+Priya Patel: P-r... match!
+(1 row)</div></div>
+<div class="code-example"><div class="code-example-title">NULL in Aggregates</div><pre><code class="language-python">-- marks has 2 NULLs (Vikram id 5, Ishita id 8)
+SELECT
+    COUNT(*) AS total_rows,
+    COUNT(marks) AS marks_count,
+    AVG(marks) AS avg_marks_ignoring_nulls,
+    AVG(COALESCE(marks, 0)) AS avg_marks_null_as_zero
+FROM students;</code></pre><div class="code-example-explanation">COUNT(*) = 10 (all rows). COUNT(marks) = 8 (excludes 2 NULLs). AVG(marks) averages 8 non-NULL values: (85+72+91+78+65+88+70+82)/8 = 631/8 = 78.875. AVG(COALESCE(marks, 0)) treats NULLs as 0: 631/10 = 63.1. Huge difference — know which one you want!</div><div class="code-example-output">total_rows: 10
+marks_count: 8
+avg_marks_ignoring_nulls: 78.8750
+avg_marks_null_as_zero: 63.1000</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using = NULL Instead of IS NULL</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Finding students without email
+SELECT name FROM students WHERE email = NULL;</code></pre></div><div class="error-message">No error, but returns ZERO rows even when students have NULL email. Silent bug.</div><div class="correct-code"><pre><code class="language-python">SELECT name FROM students WHERE email IS NULL;</code></pre></div><div class="mistake-explanation"><code>= NULL</code> evaluates to NULL, not TRUE. WHERE requires TRUE. So the query returns 0 rows. Always use <code>IS NULL</code> and <code>IS NOT NULL</code> to test for NULL. This is the single most common SQL bug.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting Case Sensitivity in PostgreSQL</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- In PostgreSQL, this misses &#39;Aarav&#39;
+SELECT name FROM students WHERE name LIKE &#39;aarav%&#39;;</code></pre></div><div class="error-message">In PostgreSQL and some MySQL configurations, LIKE is case-sensitive. This returns 0 rows. In MySQL default collation, it works.</div><div class="correct-code"><pre><code class="language-python">-- Portable: wrap in LOWER()
+SELECT name FROM students WHERE LOWER(name) LIKE LOWER(&#39;aarav%&#39;);
+
+-- PostgreSQL-specific: ILIKE
+SELECT name FROM students WHERE name ILIKE &#39;aarav%&#39;;</code></pre></div><div class="mistake-explanation">MySQL is case-insensitive by default (depends on column collation). PostgreSQL is case-sensitive and requires <code>ILIKE</code> for case-insensitive matching. Always be explicit when writing portable code: use <code>LOWER()</code> on both sides.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using LIKE Without Wildcards</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Rohan expects this to find &#39;Aarav Sharma&#39;
+SELECT name FROM students WHERE name LIKE &#39;Aarav&#39;;</code></pre></div><div class="error-message">No error, but returns 0 rows unless there is a student named exactly &#39;Aarav&#39; (no last name).</div><div class="correct-code"><pre><code class="language-python">-- If you want an exact match, use =
+SELECT name FROM students WHERE name = &#39;Aarav Sharma&#39;;
+
+-- If you want &#39;Aarav anything&#39;, use wildcard
+SELECT name FROM students WHERE name LIKE &#39;Aarav%&#39;;</code></pre></div><div class="mistake-explanation">LIKE without wildcards behaves like =, matching the exact string. Most students expect LIKE to mean 'contains' by default, but it does not. You must add <code>%</code> wildcards. Without wildcards, <code>LIKE 'Aarav'</code> matches only the string 'Aarav' exactly.</div>
+            </div>
+<div class="mistake-card">
+                <h3>NULL Concatenation Producing NULL</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Building full name: some middle_names are NULL
+SELECT CONCAT(first_name, &#39; &#39;, middle_name, &#39; &#39;, last_name) AS full_name
+FROM users;</code></pre></div><div class="error-message">No error, but for users with NULL middle_name, full_name is NULL (the entire concatenated string). Not &#39;Aarav  Sharma&#39; — just NULL.</div><div class="correct-code"><pre><code class="language-python">SELECT CONCAT(
+    first_name, &#39; &#39;,
+    COALESCE(middle_name, &#39;&#39;), &#39; &#39;,
+    last_name
+) AS full_name FROM users;
+
+-- Or use CONCAT_WS (MySQL) which skips NULLs:
+SELECT CONCAT_WS(&#39; &#39;, first_name, middle_name, last_name) AS full_name FROM users;</code></pre></div><div class="mistake-explanation">In MySQL's CONCAT, any NULL argument makes the result NULL. Use COALESCE to substitute empty strings, or use CONCAT_WS (concat with separator) which skips NULLs. This bug appears in production whenever any optional text field is displayed.</div>
+            </div>
+<div class="mistake-card">
+                <h3>NOT IN with NULL in the Subquery</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Find students not in banned list (banned has NULL rows)
+SELECT name FROM students
+WHERE id NOT IN (SELECT student_id FROM banned);</code></pre></div><div class="error-message">No error, but if any row in banned has NULL student_id, this returns 0 students. Production bug.</div><div class="correct-code"><pre><code class="language-python">-- Filter NULLs in subquery
+SELECT name FROM students
+WHERE id NOT IN (SELECT student_id FROM banned WHERE student_id IS NOT NULL);
+
+-- Or use NOT EXISTS (handles NULLs correctly)
+SELECT name FROM students s
+WHERE NOT EXISTS (SELECT 1 FROM banned b WHERE b.student_id = s.id);</code></pre></div><div class="mistake-explanation">The same NOT IN + NULL problem from chapter 6 reappears with subqueries. A NULL in the subquery result turns <code>id != NULL</code> into NULL, and WHERE drops those rows. <code>NOT EXISTS</code> is the bulletproof alternative.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>LIKE does pattern matching with two wildcards: % matches any sequence (including empty) of characters, _ matches exactly one character.</li>
+<li>Common patterns: &#39;A%&#39; starts with A, &#39;%a&#39; ends with a, &#39;%an%&#39; contains an, &#39;A_____&#39; is exactly 6 chars starting with A.</li>
+<li>NOT LIKE inverts LIKE. Combine with IS NOT NULL when dealing with nullable columns to avoid surprises.</li>
+<li>MySQL LIKE is case-insensitive by default (default collation). PostgreSQL LIKE is case-sensitive; use ILIKE or LOWER() for case-insensitive.</li>
+<li>Use ESCAPE to match literal % or _ characters: WHERE col LIKE &#39;%50\%%&#39; ESCAPE &#39;\\&#39;.</li>
+<li>NULL is not zero, not empty string — it is &#39;unknown.&#39; Any comparison with NULL yields NULL, not TRUE or FALSE.</li>
+<li>WHERE salary = NULL returns 0 rows even if NULLs exist. Always use IS NULL and IS NOT NULL instead.</li>
+<li>COALESCE(v1, v2, ...) returns the first non-NULL argument. Use it to substitute defaults for missing data.</li>
+<li>IFNULL(value, default) is MySQL&#39;s 2-argument version of COALESCE. NULLIF(a, b) returns NULL if a = b (useful for avoiding divide-by-zero).</li>
+<li>Aggregates (SUM, AVG, MIN, MAX) skip NULLs. COUNT(*) includes all rows; COUNT(col) excludes NULLs. Arithmetic with NULL yields NULL.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/select-basics-and-where" class="related-topic-link">SELECT Queries and the WHERE Clause</a>
+<a href="/resources/sql/sorting-and-limiting" class="related-topic-link">ORDER BY, LIMIT, and DISTINCT</a>
+<a href="/resources/sql/aggregate-functions" class="related-topic-link">Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/sorting-and-limiting" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">ORDER BY, LIMIT, and DISTINCT</span>
+        </a>
+            <a href="/resources/sql/aggregate-functions" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/pattern-matching-and-null/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

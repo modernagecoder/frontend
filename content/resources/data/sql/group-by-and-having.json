@@ -1,0 +1,900 @@
+{
+  "title": "GROUP BY and HAVING",
+  "slug": "group-by-and-having",
+  "language": "sql",
+  "chapter": 10,
+  "difficulty": "Intermediate",
+  "readingTime": "24 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "SQL GROUP BY and HAVING - Aggregate by Groups, Filter Groups | Modern Age Coders",
+    "description": "Master SQL GROUP BY for grouping rows and HAVING for filtering groups. Learn clause order (WHERE vs HAVING), multi-column grouping, ROLLUP, and classic interview queries. 60 MySQL practice questions.",
+    "keywords": "sql group by, sql having, sql group by vs having, group by multiple columns, sql clause order, sql rollup, mysql group by, sql aggregate interview questions, top n per group"
+  },
+  "content": {
+    "what": "<h2>What Is GROUP BY?</h2><p>In the last chapter you computed aggregates over the whole table or over rows filtered by WHERE. But what if you want one aggregate <strong>per department</strong>, or per city, or per month? That is what <code>GROUP BY</code> does.</p><p><code>GROUP BY</code> splits the rows into groups based on the values of one or more columns, then applies aggregate functions <strong>within each group</strong>. The result has one row per group.</p><p>Example: <code>SELECT department, AVG(salary) FROM employees GROUP BY department</code> returns one row for each department with that department's average salary.</p><h3>What Is HAVING?</h3><p>Once you have grouped rows, you often want to filter the groups themselves. \"Show only departments with more than 5 employees.\" \"Show only cities where total sales exceed 100000.\" That is <code>HAVING</code>.</p><p><strong>WHERE filters rows before grouping. HAVING filters groups after.</strong> This is the single most important distinction in this chapter and a favorite interview question.</p>",
+    "why": "<h2>Why GROUP BY Is Essential</h2><h3>1. Every Summary Report Uses GROUP BY</h3><p>\"Revenue per country,\" \"Orders per month,\" \"Active users per day,\" \"Enrollments per course\" — all GROUP BY queries. Business intelligence is 80% GROUP BY.</p><h3>2. It's Where SQL Gets Powerful</h3><p>Simple SELECT and WHERE queries are useful but limited. GROUP BY unlocks real analytics: top-selling products, busiest hours, best-performing regions. Many data analyst roles exist specifically to write complex GROUP BY queries.</p><h3>3. HAVING Answers the \"Which Group\" Questions</h3><p>\"Which courses have more than 100 students?\" \"Which products have never been returned?\" \"Which days had zero signups?\" All need HAVING because you are filtering GROUPS based on their aggregate properties.</p><h3>4. Clause Order Misunderstandings Kill Careers</h3><p>Using an alias in WHERE, putting HAVING before GROUP BY, referencing an aggregate in WHERE — these are career-limiting mistakes in interviews. This chapter nails down the exact order.</p><h3>5. Every Interview Tests This</h3><p>\"Find departments where the average salary is above 70000\" and variants are asked in 100% of SQL interviews. After this chapter, you will write these in your sleep.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Reference Table: sales</h3><p>We use a <code>sales</code> table for this chapter:</p><pre><code>CREATE TABLE sales (\n    id INT PRIMARY KEY,\n    salesperson VARCHAR(50),\n    region VARCHAR(30),\n    product VARCHAR(40),\n    amount DECIMAL(10,2),\n    sale_date DATE\n);\n\nINSERT INTO sales VALUES\n(1, 'Aarav Sharma', 'North', 'Laptop', 55000, '2026-01-10'),\n(2, 'Priya Patel', 'South', 'Phone', 25000, '2026-01-15'),\n(3, 'Rohan Gupta', 'North', 'Laptop', 60000, '2026-01-20'),\n(4, 'Ananya Singh', 'East', 'Tablet', 18000, '2026-02-05'),\n(5, 'Aarav Sharma', 'North', 'Phone', 22000, '2026-02-12'),\n(6, 'Vikram Reddy', 'South', 'Laptop', 58000, '2026-02-18'),\n(7, 'Priya Patel', 'South', 'Tablet', 20000, '2026-02-25'),\n(8, 'Rohan Gupta', 'North', 'Phone', 28000, '2026-03-03'),\n(9, 'Karan Mehta', 'West', 'Laptop', 65000, '2026-03-10'),\n(10, 'Sneha Iyer', 'East', 'Phone', 24000, '2026-03-15'),\n(11, 'Aarav Sharma', 'North', 'Tablet', 19000, '2026-03-22'),\n(12, 'Ananya Singh', 'East', 'Laptop', 54000, '2026-04-02'),\n(13, 'Karan Mehta', 'West', 'Phone', 26000, '2026-04-08'),\n(14, 'Diya Nair', 'West', 'Laptop', 62000, '2026-04-15'),\n(15, 'Priya Patel', 'South', 'Laptop', 57000, '2026-04-20');</code></pre><h3>1. Basic GROUP BY</h3><p>Syntax: <code>SELECT group_columns, aggregate(col) FROM table GROUP BY group_columns</code>.</p><pre><code>-- Total sales per region\nSELECT region, SUM(amount) AS total_sales\nFROM sales\nGROUP BY region;</code></pre><p>Rows with the same <code>region</code> are collapsed into one group. <code>SUM(amount)</code> sums the amounts within each group. Result has 4 rows — one per region.</p><h3>2. The Rule: Non-Aggregated Columns MUST Be in GROUP BY</h3><p>Standard SQL requires every column in SELECT to be either (a) inside an aggregate function, or (b) listed in GROUP BY. This is strict:</p><pre><code>-- CORRECT\nSELECT region, SUM(amount) FROM sales GROUP BY region;\n\n-- BAD SQL (but MySQL may allow in lenient mode)\nSELECT region, salesperson, SUM(amount) FROM sales GROUP BY region;\n-- salesperson isn't aggregated and isn't in GROUP BY — what should MySQL return?</code></pre><p>MySQL's default strict mode (ONLY_FULL_GROUP_BY, since 5.7) throws an error. Old lenient mode silently picked an arbitrary value — a dangerous bug. <strong>Always follow the rule.</strong></p><h3>3. GROUP BY Multiple Columns</h3><p>You can group by combinations:</p><pre><code>-- Sales per (region, product)\nSELECT region, product, SUM(amount) AS total\nFROM sales\nGROUP BY region, product;</code></pre><p>Groups are unique <code>(region, product)</code> pairs. North-Laptop, North-Phone, South-Laptop, etc.</p><h3>4. HAVING — Filtering Groups</h3><p><code>HAVING</code> applies AFTER grouping. You can use aggregates in HAVING:</p><pre><code>-- Regions with total sales > 100000\nSELECT region, SUM(amount) AS total\nFROM sales\nGROUP BY region\nHAVING SUM(amount) > 100000;</code></pre><p>First, GROUP BY creates region groups with their sums. Then HAVING keeps only groups where the sum exceeds 100000.</p><h3>5. WHERE vs HAVING — The Critical Distinction</h3><p><strong>WHERE filters rows BEFORE aggregation. HAVING filters groups AFTER.</strong></p><pre><code>-- Only Laptop sales, per region, where that region has > 100000 in laptops\nSELECT region, SUM(amount) AS laptop_revenue\nFROM sales\nWHERE product = 'Laptop'   -- filter rows first: keep only Laptop sales\nGROUP BY region\nHAVING SUM(amount) > 100000;  -- filter groups: keep only big laptop regions</code></pre><p>WHERE trims the input. HAVING trims the groups. Different jobs, different clauses.</p><h3>6. Order of Clauses — Syntax vs Logic</h3><p><strong>Syntactic order</strong> (how you write it):</p><pre><code>SELECT columns\nFROM table\nWHERE row_conditions\nGROUP BY group_columns\nHAVING group_conditions\nORDER BY columns\nLIMIT n;</code></pre><p><strong>Logical execution order</strong> (how SQL actually runs it):</p><ol><li><strong>FROM</strong> — identify the table</li><li><strong>WHERE</strong> — filter rows</li><li><strong>GROUP BY</strong> — form groups</li><li><strong>HAVING</strong> — filter groups</li><li><strong>SELECT</strong> — compute selected columns and aggregates</li><li><strong>ORDER BY</strong> — sort</li><li><strong>LIMIT</strong> — trim to N</li></ol><p>Two consequences:</p><ul><li>WHERE cannot reference aggregates or column aliases (they don't exist yet).</li><li>ORDER BY CAN reference aggregates and aliases (SELECT ran already).</li></ul><h3>7. GROUP BY with ORDER BY and LIMIT</h3><p>The full power:</p><pre><code>-- Top 3 regions by total sales\nSELECT region, SUM(amount) AS total\nFROM sales\nGROUP BY region\nORDER BY total DESC\nLIMIT 3;</code></pre><p>GROUP BY creates groups, ORDER BY sorts them by the aggregate, LIMIT keeps top 3.</p><h3>8. Counting Per Group</h3><pre><code>-- Number of sales per salesperson\nSELECT salesperson, COUNT(*) AS num_sales, SUM(amount) AS total\nFROM sales\nGROUP BY salesperson\nORDER BY num_sales DESC;</code></pre><p>This answers \"who made the most sales?\" Aarav has 3 sales, Priya has 3, Rohan has 2, etc.</p><h3>9. Multiple Aggregates Per Group</h3><pre><code>SELECT \n    region,\n    COUNT(*) AS num_sales,\n    SUM(amount) AS total,\n    AVG(amount) AS avg_sale,\n    MIN(amount) AS smallest,\n    MAX(amount) AS largest\nFROM sales\nGROUP BY region;</code></pre><p>Gives a complete per-region summary in one query.</p><h3>10. WITH ROLLUP — Adding Subtotals</h3><p>MySQL's <code>WITH ROLLUP</code> adds grand total (and subtotals for multi-column GROUP BY):</p><pre><code>SELECT region, SUM(amount) AS total\nFROM sales\nGROUP BY region WITH ROLLUP;</code></pre><p>Returns per-region sums PLUS a final row with region=NULL and total across all regions. Useful for reports.</p><h3>11. Classic Interview Patterns</h3><p><strong>Top N per group (requires window functions, chapter 18):</strong> \"Top 3 salespeople per region.\" Cannot be done cleanly with GROUP BY alone. We will tackle this with ROW_NUMBER() later.</p><p><strong>Filtering groups by count:</strong></p><pre><code>-- Regions with 4 or more sales\nSELECT region, COUNT(*) AS n FROM sales\nGROUP BY region HAVING COUNT(*) >= 4;</code></pre><p><strong>Filtering groups by sum:</strong></p><pre><code>-- Salespeople with total sales above 100000\nSELECT salesperson, SUM(amount) AS total FROM sales\nGROUP BY salesperson HAVING SUM(amount) > 100000;</code></pre><p><strong>Combining WHERE and HAVING:</strong></p><pre><code>-- For Laptops only, regions with more than 2 laptop sales\nSELECT region, COUNT(*) AS laptop_sales FROM sales\nWHERE product = 'Laptop'\nGROUP BY region\nHAVING COUNT(*) > 2;</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Basic GROUP BY — Sales Per Region",
+        "code": "SELECT region, SUM(amount) AS total_sales\nFROM sales\nGROUP BY region;",
+        "language": "sql",
+        "explanation": "Groups all 15 rows by region. Four regions: North, South, East, West. Within each group, sum the amount. North has 5 sales (ids 1,3,5,8,11). South has 4 (2,6,7,15). East has 3 (4,10,12). West has 3 (9,13,14). The result has 4 rows.",
+        "output": "region  total_sales\nNorth   184000.00  (55000+60000+22000+28000+19000)\nSouth   160000.00  (25000+58000+20000+57000)\nEast    96000.00   (18000+24000+54000)\nWest    153000.00  (65000+26000+62000)"
+      },
+      {
+        "title": "GROUP BY Multiple Columns",
+        "code": "SELECT region, product, COUNT(*) AS sales_count, SUM(amount) AS revenue\nFROM sales\nGROUP BY region, product\nORDER BY region, product;",
+        "language": "sql",
+        "explanation": "Groups by unique (region, product) pairs. For each pair, count rows and sum amount. Each region has multiple products, giving many groups. This is a classic cross-tabulation query.",
+        "output": "region  product  sales_count  revenue\nEast    Laptop   1            54000\nEast    Phone    1            24000\nEast    Tablet   1            18000\nNorth   Laptop   2            115000\nNorth   Phone    2            50000\nNorth   Tablet   1            19000\nSouth   Laptop   2            115000\nSouth   Phone    1            25000\nSouth   Tablet   1            20000\nWest    Laptop   2            127000\nWest    Phone    1            26000"
+      },
+      {
+        "title": "HAVING — Filter Groups by Aggregate",
+        "code": "-- Regions with total sales above 150000\nSELECT region, SUM(amount) AS total\nFROM sales\nGROUP BY region\nHAVING SUM(amount) > 150000;",
+        "language": "sql",
+        "explanation": "After grouping by region, filter with HAVING. Only regions where sum > 150000 survive. North (184000), South (160000), West (153000) pass. East (96000) is excluded. HAVING can use any aggregate in its condition.",
+        "output": "region  total\nNorth   184000.00\nSouth   160000.00\nWest    153000.00"
+      },
+      {
+        "title": "WHERE vs HAVING — Both in One Query",
+        "code": "-- For Laptop sales only, regions with total laptop revenue > 100000\nSELECT region, SUM(amount) AS laptop_revenue\nFROM sales\nWHERE product = 'Laptop'    -- filter rows: keep only Laptop\nGROUP BY region\nHAVING SUM(amount) > 100000; -- filter groups",
+        "language": "sql",
+        "explanation": "WHERE trims rows first (only Laptop sales — 7 rows). Then GROUP BY creates region groups. Then HAVING keeps groups with laptop revenue > 100000. North (55000+60000 = 115000), South (58000+57000 = 115000), West (65000+62000 = 127000) pass. East has only 1 laptop sale of 54000 and is excluded.",
+        "output": "region  laptop_revenue\nNorth   115000.00\nSouth   115000.00\nWest    127000.00"
+      },
+      {
+        "title": "Top N Groups by Aggregate",
+        "code": "-- Top 3 salespeople by total revenue\nSELECT salesperson, SUM(amount) AS total_revenue, COUNT(*) AS num_sales\nFROM sales\nGROUP BY salesperson\nORDER BY total_revenue DESC\nLIMIT 3;",
+        "language": "sql",
+        "explanation": "Group by salesperson, compute sum and count, sort by total DESC, limit to 3. Aarav: 55000+22000+19000 = 96000 (3 sales). Priya: 25000+20000+57000 = 102000 (3). Rohan: 60000+28000 = 88000 (2). Karan: 65000+26000 = 91000 (2). Diya: 62000 (1). Vikram: 58000 (1). Ananya: 18000+54000 = 72000 (2). Sneha: 24000 (1). Top 3: Priya, Aarav, Karan.",
+        "output": "salesperson     total_revenue  num_sales\nPriya Patel     102000.00      3\nAarav Sharma    96000.00       3\nKaran Mehta     91000.00       2"
+      },
+      {
+        "title": "Salespeople With More Than N Sales",
+        "code": "-- Salespeople who made more than 2 sales\nSELECT salesperson, COUNT(*) AS num_sales, SUM(amount) AS total\nFROM sales\nGROUP BY salesperson\nHAVING COUNT(*) > 2;",
+        "language": "sql",
+        "explanation": "Group by salesperson, count sales. HAVING keeps only those with count > 2. Aarav has 3 sales, Priya has 3 sales. Nobody else has more than 2. 2 rows returned.",
+        "output": "salesperson     num_sales  total\nAarav Sharma    3          96000.00\nPriya Patel     3          102000.00"
+      },
+      {
+        "title": "WHERE Can't Use Aggregates",
+        "code": "-- WRONG\nSELECT region, SUM(amount)\nFROM sales\nWHERE SUM(amount) > 100000  -- ERROR\nGROUP BY region;\n\n-- CORRECT: use HAVING\nSELECT region, SUM(amount)\nFROM sales\nGROUP BY region\nHAVING SUM(amount) > 100000;",
+        "language": "sql",
+        "explanation": "WHERE runs before aggregation, so SUM(amount) doesn't exist yet. Use HAVING for aggregate filters after GROUP BY. This is the #1 GROUP BY mistake.",
+        "output": "Wrong query: ERROR 1111 (HY000): Invalid use of group function\n\nCorrect query:\nregion  SUM(amount)\nNorth   184000.00\nSouth   160000.00\nWest    153000.00"
+      },
+      {
+        "title": "Monthly Revenue Report",
+        "code": "-- Total sales per month of 2026\nSELECT \n    MONTH(sale_date) AS month,\n    COUNT(*) AS num_sales,\n    SUM(amount) AS total_revenue\nFROM sales\nWHERE YEAR(sale_date) = 2026\nGROUP BY MONTH(sale_date)\nORDER BY month;",
+        "language": "sql",
+        "explanation": "Group by MONTH() of the date. WHERE filters to 2026 first (before grouping). Jan has ids 1,2,3 (3 sales, 55000+25000+60000=140000). Feb has 4-7 (18000+22000+58000+20000 = 118000). March has 8-11 (28000+65000+24000+19000 = 136000). April has 12-15 (54000+26000+62000+57000 = 199000).",
+        "output": "month  num_sales  total_revenue\n1      3          140000.00\n2      4          118000.00\n3      4          136000.00\n4      4          199000.00"
+      },
+      {
+        "title": "GROUP BY With ROLLUP",
+        "code": "-- Subtotals per region plus a grand total\nSELECT region, SUM(amount) AS total\nFROM sales\nGROUP BY region WITH ROLLUP;",
+        "language": "sql",
+        "explanation": "ROLLUP adds a row with region=NULL representing the grand total. Useful in reports. The NULL row shows the sum across all regions: 184000+160000+96000+153000 = 593000.",
+        "output": "region  total\nEast    96000.00\nNorth   184000.00\nSouth   160000.00\nWest    153000.00\nNULL    593000.00  (grand total)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using WHERE to Filter Aggregates",
+        "wrongCode": "SELECT region, SUM(amount)\nFROM sales\nWHERE SUM(amount) > 100000\nGROUP BY region;",
+        "error": "ERROR 1111 (HY000): Invalid use of group function",
+        "correctCode": "SELECT region, SUM(amount)\nFROM sales\nGROUP BY region\nHAVING SUM(amount) > 100000;",
+        "explanation": "WHERE filters rows before aggregation. Aggregates like SUM don't exist during WHERE. Use HAVING (after GROUP BY) for aggregate filters. This is the most common GROUP BY mistake."
+      },
+      {
+        "title": "Non-Aggregated Columns Missing From GROUP BY",
+        "wrongCode": "SELECT region, salesperson, SUM(amount)\nFROM sales\nGROUP BY region;",
+        "error": "In strict mode: ERROR 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause... In lenient mode: arbitrary salesperson value returned per region — silently wrong.",
+        "correctCode": "-- If you want per-region, drop salesperson:\nSELECT region, SUM(amount) FROM sales GROUP BY region;\n\n-- If you want per-(region, salesperson), include both:\nSELECT region, salesperson, SUM(amount) FROM sales GROUP BY region, salesperson;",
+        "explanation": "Every column in SELECT must either be in GROUP BY or inside an aggregate. MySQL's default strict mode enforces this. Picking an arbitrary value is a silent bug — you get 'some salesperson' for each region with no indication which."
+      },
+      {
+        "title": "Confusing Clause Order",
+        "wrongCode": "-- Trying to write HAVING before GROUP BY\nSELECT region, SUM(amount)\nFROM sales\nHAVING SUM(amount) > 100000\nGROUP BY region;",
+        "error": "Syntax error. HAVING must come after GROUP BY.",
+        "correctCode": "SELECT region, SUM(amount)\nFROM sales\nGROUP BY region\nHAVING SUM(amount) > 100000;",
+        "explanation": "The syntactic order is fixed: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. You cannot reorder. Memorize this — the logical execution order differs, but the syntax order is rigid."
+      },
+      {
+        "title": "Using WHERE Alias",
+        "wrongCode": "SELECT region, SUM(amount) AS total\nFROM sales\nWHERE total > 50000   -- alias not available in WHERE\nGROUP BY region;",
+        "error": "ERROR 1054 (42S22): Unknown column 'total' in 'where clause'",
+        "correctCode": "-- Cannot use alias in WHERE. Options:\n-- 1) Repeat the expression (but aggregates don't work in WHERE):\n-- 2) Use HAVING with the alias (MySQL) or expression:\nSELECT region, SUM(amount) AS total\nFROM sales\nGROUP BY region\nHAVING total > 50000;  -- MySQL lets you use the alias here",
+        "explanation": "Column aliases are assigned in SELECT, which runs AFTER WHERE. WHERE cannot see them. HAVING (and ORDER BY) run after SELECT in MySQL, so they can use aliases. PostgreSQL requires the full expression in HAVING."
+      },
+      {
+        "title": "Expecting GROUP BY To Return Top N Per Group",
+        "wrongCode": "-- Goal: top 2 salespeople per region. This does NOT do that.\nSELECT region, salesperson, SUM(amount)\nFROM sales\nGROUP BY region, salesperson\nORDER BY region, SUM(amount) DESC\nLIMIT 2;",
+        "error": "No error, but returns just 2 rows total, not 2 per region.",
+        "correctCode": "-- Top 2 per group requires window functions (chapter 18):\nSELECT region, salesperson, total FROM (\n  SELECT region, salesperson, SUM(amount) AS total,\n         ROW_NUMBER() OVER (PARTITION BY region ORDER BY SUM(amount) DESC) AS rn\n  FROM sales\n  GROUP BY region, salesperson\n) t\nWHERE rn <= 2;",
+        "explanation": "Plain GROUP BY cannot return 'top N per group.' LIMIT applies to the whole result, not per group. The correct solution uses window functions (ROW_NUMBER with PARTITION BY). This is a classic interview trap."
+      }
+    ],
+    "summary": [
+      "GROUP BY groups rows that share column values, then applies aggregates within each group. Result has one row per group.",
+      "Every column in SELECT must be either aggregated or listed in GROUP BY. MySQL's strict mode (ONLY_FULL_GROUP_BY) enforces this; always code as if enforced.",
+      "GROUP BY multiple columns creates groups for each unique combination: GROUP BY region, product groups by (region, product) pairs.",
+      "HAVING filters groups based on aggregate conditions. WHERE filters rows BEFORE grouping; HAVING filters GROUPS after.",
+      "Use WHERE for row-level conditions (status = 'Delivered'). Use HAVING for aggregate-level conditions (SUM(amount) > 100000).",
+      "Syntactic order (how you write): SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. Cannot rearrange.",
+      "Logical execution order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates and aliases are created in SELECT.",
+      "WHERE cannot reference aggregates or SELECT aliases (they don't exist yet). HAVING and ORDER BY can (MySQL/PostgreSQL differ slightly).",
+      "WITH ROLLUP (MySQL) adds subtotals and a grand total row where grouped columns are NULL. Useful for executive reports.",
+      "GROUP BY alone cannot return 'top N per group.' That pattern needs window functions (ROW_NUMBER, RANK) — covered in chapter 18."
+    ]
+  },
+  "relatedTopics": ["aggregate-functions", "joins-inner-and-outer", "window-functions"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Total sales per region.",
+        "hint": "GROUP BY region.",
+        "answer": "<pre><code>SELECT region, SUM(amount) FROM sales GROUP BY region;</code></pre>",
+        "explanation": "4 rows: North 184000, South 160000, East 96000, West 153000."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Count the number of sales per salesperson.",
+        "hint": "GROUP BY salesperson.",
+        "answer": "<pre><code>SELECT salesperson, COUNT(*) FROM sales GROUP BY salesperson;</code></pre>",
+        "explanation": "Aarav 3, Priya 3, Rohan 2, Ananya 2, Vikram 1, Sneha 1, Karan 2, Diya 1. 8 rows."
+      },
+      {
+        "id": "ts-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Average sale amount per product.",
+        "hint": "GROUP BY product.",
+        "answer": "<pre><code>SELECT product, AVG(amount) FROM sales GROUP BY product;</code></pre>",
+        "explanation": "Laptop: avg of 7 sales (55000+60000+58000+65000+54000+62000+57000)/7 = 58714.29. Phone: avg of 5 sales. Tablet: avg of 3 sales. 3 rows."
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Number of sales per region.",
+        "hint": "COUNT(*) per region.",
+        "answer": "<pre><code>SELECT region, COUNT(*) FROM sales GROUP BY region;</code></pre>",
+        "explanation": "North 5, South 4, East 3, West 3. 4 rows. Total checks out: 5+4+3+3 = 15."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find regions with total sales above 150000.",
+        "hint": "HAVING with SUM.",
+        "answer": "<pre><code>SELECT region, SUM(amount) FROM sales\nGROUP BY region\nHAVING SUM(amount) > 150000;</code></pre>",
+        "explanation": "North 184000, South 160000, West 153000. East (96000) excluded. 3 rows."
+      },
+      {
+        "id": "ts-6",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Top 3 regions by total sales.",
+        "hint": "GROUP BY + ORDER BY + LIMIT.",
+        "answer": "<pre><code>SELECT region, SUM(amount) AS total FROM sales\nGROUP BY region\nORDER BY total DESC\nLIMIT 3;</code></pre>",
+        "explanation": "North 184000, South 160000, West 153000. East is 4th."
+      },
+      {
+        "id": "ts-7",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Salespeople with more than 2 sales.",
+        "hint": "HAVING COUNT(*).",
+        "answer": "<pre><code>SELECT salesperson, COUNT(*) FROM sales\nGROUP BY salesperson\nHAVING COUNT(*) > 2;</code></pre>",
+        "explanation": "Aarav (3) and Priya (3). 2 rows."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many groups does GROUP BY region, product produce?",
+        "hint": "Unique (region, product) pairs.",
+        "answer": "<code>11 rows</code>",
+        "explanation": "Let us count. Each region has certain products: North has Laptop, Phone, Tablet (3). South has Phone, Laptop, Tablet (3). East has Tablet, Phone, Laptop (3). West has Laptop, Phone (2). Total: 3+3+3+2 = 11 unique (region, product) pairs."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between WHERE and HAVING?",
+        "hint": "When each runs.",
+        "answer": "<code>WHERE</code> filters <strong>rows</strong> BEFORE aggregation. <code>HAVING</code> filters <strong>groups</strong> AFTER aggregation. WHERE cannot use aggregate functions (SUM, COUNT, etc.) because the aggregates don't exist yet. HAVING can use aggregates because grouping is already done.",
+        "explanation": "Classic interview question. Mnemonic: WHERE filters rows, HAVING filters groups. Use them together when you need to both pre-filter data (e.g., only delivered orders) and filter the aggregate results (e.g., only regions with total > threshold)."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why must non-aggregated columns in SELECT appear in GROUP BY?",
+        "hint": "Ambiguity without it.",
+        "answer": "If a column is not aggregated and not in GROUP BY, the database does not know which value to return for each group. A group of 5 rows may have 5 different values — which one should be picked? Standard SQL requires every SELECT column to be aggregated or grouped. MySQL's default strict mode enforces this with ONLY_FULL_GROUP_BY. Older lenient mode silently returned an arbitrary value — a dangerous bug.",
+        "explanation": "This rule is fundamental to GROUP BY semantics. Always make sure SELECT columns are either in GROUP BY or inside an aggregate."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Total revenue per salesperson, only for sales above 30000 (filter rows first).",
+        "hint": "WHERE + GROUP BY.",
+        "answer": "<pre><code>SELECT salesperson, SUM(amount) FROM sales\nWHERE amount > 30000\nGROUP BY salesperson;</code></pre>",
+        "explanation": "WHERE keeps sales above 30000 first: ids 1,3,6,9,12,14,15. Then group by salesperson. Aarav (55000), Rohan (60000), Vikram (58000), Karan (65000), Ananya (54000), Diya (62000), Priya (57000). 7 rows."
+      },
+      {
+        "id": "ts-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Total sales per region, but only include regions where the number of sales is 4 or more.",
+        "hint": "HAVING COUNT(*) >= 4.",
+        "answer": "<pre><code>SELECT region, SUM(amount) AS total, COUNT(*) AS n FROM sales\nGROUP BY region\nHAVING COUNT(*) >= 4;</code></pre>",
+        "explanation": "North has 5 sales (pass), South has 4 (pass), East has 3 (fail), West has 3 (fail). 2 rows returned."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Average sale amount per region for Laptops only.",
+        "hint": "WHERE product = 'Laptop' first.",
+        "answer": "<pre><code>SELECT region, AVG(amount) AS avg_laptop_price FROM sales\nWHERE product = 'Laptop'\nGROUP BY region;</code></pre>",
+        "explanation": "WHERE keeps 7 Laptop rows. North avg: (55000+60000)/2 = 57500. South: (58000+57000)/2 = 57500. East: 54000. West: (65000+62000)/2 = 63500."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Show region and product combinations with total revenue above 100000.",
+        "hint": "GROUP BY 2 cols + HAVING SUM.",
+        "answer": "<pre><code>SELECT region, product, SUM(amount) AS total FROM sales\nGROUP BY region, product\nHAVING SUM(amount) > 100000;</code></pre>",
+        "explanation": "North-Laptop (115000), South-Laptop (115000), West-Laptop (127000). 3 rows."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows does this return?<br><pre><code>SELECT region FROM sales GROUP BY region HAVING COUNT(*) > 10;</code></pre>",
+        "hint": "Any region with > 10 sales?",
+        "answer": "<code>0 rows</code>",
+        "explanation": "No region has more than 10 sales (North has 5 — the most). HAVING filters out all groups. Empty result."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the logical execution order of a SQL query with WHERE, GROUP BY, HAVING, SELECT, ORDER BY, LIMIT?",
+        "hint": "Seven phases.",
+        "answer": "Logical order: (1) <strong>FROM</strong> — identify source tables. (2) <strong>WHERE</strong> — filter individual rows. (3) <strong>GROUP BY</strong> — form groups. (4) <strong>HAVING</strong> — filter groups. (5) <strong>SELECT</strong> — compute output columns and aggregates. (6) <strong>ORDER BY</strong> — sort the result. (7) <strong>LIMIT</strong> — take first n rows.",
+        "explanation": "Memorize this. Explains why WHERE cannot use aggregates (SELECT has not run yet), why HAVING can (runs after GROUP BY), and why ORDER BY can reference SELECT aliases."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Monthly revenue for 2026 (group by MONTH of sale_date).",
+        "hint": "GROUP BY MONTH(sale_date).",
+        "answer": "<pre><code>SELECT MONTH(sale_date) AS month, SUM(amount) AS revenue FROM sales\nWHERE YEAR(sale_date) = 2026\nGROUP BY MONTH(sale_date)\nORDER BY month;</code></pre>",
+        "explanation": "Jan: 140000. Feb: 118000. Mar: 136000. Apr: 199000. 4 rows."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Show salesperson and total revenue; include only those with total above 90000.",
+        "hint": "HAVING SUM.",
+        "answer": "<pre><code>SELECT salesperson, SUM(amount) AS total FROM sales\nGROUP BY salesperson\nHAVING SUM(amount) > 90000;</code></pre>",
+        "explanation": "Aarav 96000, Priya 102000, Karan 91000. Rohan 88000 fails. Ananya 72000 fails. 3 rows."
+      },
+      {
+        "id": "ts-19",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "For each region, count unique products sold.",
+        "hint": "COUNT(DISTINCT product) per region.",
+        "answer": "<pre><code>SELECT region, COUNT(DISTINCT product) AS unique_products FROM sales\nGROUP BY region;</code></pre>",
+        "explanation": "North sells Laptop, Phone, Tablet = 3. South sells Phone, Laptop, Tablet = 3. East: 3. West: 2 (Laptop, Phone)."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return?<br><pre><code>SELECT COUNT(*) FROM sales GROUP BY region;</code></pre>",
+        "hint": "One row per region.",
+        "answer": "<code>4 rows: 5, 4, 3, 3</code>",
+        "explanation": "4 regions, so 4 rows. Values are the row counts: North 5, South 4, East 3, West 3. (Order depends on implementation since no ORDER BY.)"
+      },
+      {
+        "id": "ts-21",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find regions where the average sale is above 40000 AND total sales count is at least 3.",
+        "hint": "HAVING with two conditions.",
+        "answer": "<pre><code>SELECT region, AVG(amount) AS avg_sale, COUNT(*) AS n FROM sales\nGROUP BY region\nHAVING AVG(amount) > 40000 AND COUNT(*) >= 3;</code></pre>",
+        "explanation": "North: avg 36800 (fail). South: avg 40000 (fail — not strictly above). East: avg 32000 (fail). West: avg 51000 (pass), count 3 (pass). Only West. Wait, recompute: South sum 160000 / 4 = 40000 — not strictly above. East: 96000/3 = 32000. West: 153000/3 = 51000 (pass). North: 184000/5 = 36800 (fail). Only West passes."
+      },
+      {
+        "id": "ts-22",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find the salesperson with the highest total sales.",
+        "hint": "GROUP BY + ORDER BY DESC + LIMIT 1.",
+        "answer": "<pre><code>SELECT salesperson, SUM(amount) AS total FROM sales\nGROUP BY salesperson\nORDER BY total DESC\nLIMIT 1;</code></pre>",
+        "explanation": "Priya Patel 102000 is the top. Returns 1 row."
+      },
+      {
+        "id": "ts-23",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "For products that have more than 3 sales, show the product and its average price.",
+        "hint": "GROUP BY product, HAVING COUNT(*) > 3.",
+        "answer": "<pre><code>SELECT product, AVG(amount) AS avg_price, COUNT(*) AS n FROM sales\nGROUP BY product\nHAVING COUNT(*) > 3;</code></pre>",
+        "explanation": "Laptop has 7 sales (pass). Phone has 5 (pass). Tablet has 3 (fail). Laptop avg: (55000+60000+58000+65000+54000+62000+57000)/7 = 58714.29. Phone avg: (25000+22000+28000+24000+26000)/5 = 25000."
+      },
+      {
+        "id": "ts-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this return?<br><pre><code>SELECT region, SUM(amount)\nFROM sales\nWHERE product = 'Laptop'\nGROUP BY region\nHAVING SUM(amount) > 100000;</code></pre>",
+        "hint": "Laptop sales per region, filtered by sum.",
+        "answer": "<code>North 115000, South 115000, West 127000 — 3 rows</code>",
+        "explanation": "WHERE keeps only Laptop rows (7 rows). GROUP BY region. Sums: North 55000+60000=115000, South 58000+57000=115000, East 54000, West 65000+62000=127000. HAVING > 100000 excludes East."
+      },
+      {
+        "id": "ts-25",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Can you get 'top 2 salespeople per region' using just GROUP BY? Why or why not?",
+        "hint": "GROUP BY collapses groups.",
+        "answer": "<strong>No.</strong> GROUP BY gives you one row per group, so you can get the top salesperson per region (by using MAX or by combining ORDER BY with LIMIT on the grouped result) but not the top N per group. LIMIT applies to the final result, not within groups. For top N per group, you need window functions — <code>ROW_NUMBER() OVER (PARTITION BY region ORDER BY total_sales DESC)</code> with a filter <code>WHERE rn &lt;= 2</code>. This is covered in chapter 18 and is a very common interview question.",
+        "explanation": "The top-N-per-group problem is the single most-asked SQL interview question for data analyst roles. Window functions are specifically designed for this."
+      },
+      {
+        "id": "ts-26",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Total sales per region, adding a grand total row. Use WITH ROLLUP.",
+        "hint": "GROUP BY region WITH ROLLUP.",
+        "answer": "<pre><code>SELECT region, SUM(amount) FROM sales\nGROUP BY region WITH ROLLUP;</code></pre>",
+        "explanation": "5 rows: the 4 regions (NULL region is the grand total row). Grand total = 593000."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Number of sales per product.",
+        "hint": "GROUP BY product.",
+        "answer": "<pre><code>SELECT product, COUNT(*) FROM sales GROUP BY product;</code></pre>",
+        "explanation": "Laptop 7, Phone 5, Tablet 3. 3 rows."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Average sale per region.",
+        "hint": "AVG + GROUP BY.",
+        "answer": "<pre><code>SELECT region, AVG(amount) FROM sales GROUP BY region;</code></pre>",
+        "explanation": "North 36800, South 40000, East 32000, West 51000."
+      },
+      {
+        "id": "mx-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Largest sale per region.",
+        "hint": "MAX + GROUP BY.",
+        "answer": "<pre><code>SELECT region, MAX(amount) FROM sales GROUP BY region;</code></pre>",
+        "explanation": "North 60000 (Rohan-Laptop), South 58000 (Vikram-Laptop), East 54000 (Ananya-Laptop), West 65000 (Karan-Laptop)."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Revenue per salesperson, sorted by revenue DESC.",
+        "hint": "GROUP BY salesperson + ORDER BY.",
+        "answer": "<pre><code>SELECT salesperson, SUM(amount) AS total FROM sales\nGROUP BY salesperson\nORDER BY total DESC;</code></pre>",
+        "explanation": "Priya 102000, Aarav 96000, Karan 91000, Rohan 88000, Ananya 72000, Diya 62000, Vikram 58000, Sneha 24000."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find the salesperson with just 1 sale.",
+        "hint": "HAVING COUNT(*) = 1.",
+        "answer": "<pre><code>SELECT salesperson FROM sales\nGROUP BY salesperson\nHAVING COUNT(*) = 1;</code></pre>",
+        "explanation": "Vikram, Sneha, Diya — each with 1 sale."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows?<br><pre><code>SELECT product FROM sales GROUP BY product;</code></pre>",
+        "hint": "Distinct products.",
+        "answer": "<code>3 rows</code>",
+        "explanation": "Laptop, Phone, Tablet."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Total revenue per product.",
+        "hint": "GROUP BY product with SUM.",
+        "answer": "<pre><code>SELECT product, SUM(amount) FROM sales GROUP BY product;</code></pre>",
+        "explanation": "Laptop 411000, Phone 125000, Tablet 57000."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Is this valid?<br><pre><code>SELECT region, MAX(amount), COUNT(*) FROM sales GROUP BY region;</code></pre>",
+        "hint": "Multiple aggregates allowed?",
+        "answer": "<code>Yes — valid. Returns 4 rows.</code>",
+        "explanation": "Multiple aggregates per group are fine. Each row shows region, max amount in that region, and count of sales in that region."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find products with total revenue above 100000.",
+        "hint": "GROUP BY product, HAVING SUM > 100000.",
+        "answer": "<pre><code>SELECT product, SUM(amount) FROM sales\nGROUP BY product\nHAVING SUM(amount) > 100000;</code></pre>",
+        "explanation": "Laptop 411000 (pass), Phone 125000 (pass), Tablet 57000 (fail). 2 rows."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Revenue per (salesperson, product) combination.",
+        "hint": "GROUP BY two columns.",
+        "answer": "<pre><code>SELECT salesperson, product, SUM(amount) FROM sales\nGROUP BY salesperson, product;</code></pre>",
+        "explanation": "Each unique salesperson-product pair. For example, Aarav-Laptop 55000, Aarav-Phone 22000, Aarav-Tablet 19000. Multiple rows per salesperson who sold multiple products."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Count sales per salesperson, but only where the sale amount is above 50000 (filter rows first).",
+        "hint": "WHERE + GROUP BY + COUNT.",
+        "answer": "<pre><code>SELECT salesperson, COUNT(*) AS big_sales FROM sales\nWHERE amount > 50000\nGROUP BY salesperson;</code></pre>",
+        "explanation": "Sales above 50000: Aarav (1), Rohan (1), Vikram (1), Karan (1), Ananya (1), Diya (1), Priya (1). Each person who had at least one big sale appears with count. 7 rows."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "For each region, average sale amount but only show regions where that average is between 30000 and 50000.",
+        "hint": "HAVING with range.",
+        "answer": "<pre><code>SELECT region, AVG(amount) AS avg_sale FROM sales\nGROUP BY region\nHAVING AVG(amount) BETWEEN 30000 AND 50000;</code></pre>",
+        "explanation": "North 36800 (pass), South 40000 (pass), East 32000 (pass), West 51000 (fail). 3 rows."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output row count?<br><pre><code>SELECT region, product, SUM(amount) FROM sales GROUP BY region, product;</code></pre>",
+        "hint": "Unique (region, product) pairs.",
+        "answer": "<code>11 rows</code>",
+        "explanation": "As counted earlier: North has 3 products, South 3, East 3, West 2. Total 11."
+      },
+      {
+        "id": "mx-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Show each region with its highest single sale and the product that made it.",
+        "hint": "MAX alone does NOT give you the corresponding product. Use a subquery.",
+        "answer": "<pre><code>SELECT region, product, amount FROM sales\nWHERE (region, amount) IN (\n  SELECT region, MAX(amount) FROM sales GROUP BY region\n);</code></pre>",
+        "explanation": "Tricky! MAX alone cannot tell you 'which row had the max.' The subquery finds (region, max_amount) pairs, and the outer query matches rows with that combination. North-Laptop 60000 (Rohan), South-Laptop 58000 (Vikram), East-Laptop 54000 (Ananya), West-Laptop 65000 (Karan)."
+      },
+      {
+        "id": "mx-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "List products with at least 2 unique salespeople selling them.",
+        "hint": "HAVING COUNT(DISTINCT salesperson).",
+        "answer": "<pre><code>SELECT product, COUNT(DISTINCT salesperson) AS unique_sellers FROM sales\nGROUP BY product\nHAVING COUNT(DISTINCT salesperson) >= 2;</code></pre>",
+        "explanation": "Laptop sold by Aarav, Rohan, Vikram, Karan, Ananya, Diya, Priya — 7 unique. Phone by 5 unique. Tablet by Ananya, Priya, Aarav — 3 unique. All 3 products pass. 3 rows."
+      },
+      {
+        "id": "mx-16",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find regions with more than 1 product type sold AND total revenue > 150000.",
+        "hint": "HAVING with AND of two aggregates.",
+        "answer": "<pre><code>SELECT region, COUNT(DISTINCT product) AS products, SUM(amount) AS total FROM sales\nGROUP BY region\nHAVING COUNT(DISTINCT product) > 1 AND SUM(amount) > 150000;</code></pre>",
+        "explanation": "North 3 products 184000 (pass), South 3 products 160000 (pass), East 3 products 96000 (fail total), West 2 products 153000 (pass). 3 rows."
+      },
+      {
+        "id": "mx-17",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Monthly revenue for Laptops only.",
+        "hint": "WHERE product = 'Laptop' + GROUP BY month.",
+        "answer": "<pre><code>SELECT MONTH(sale_date) AS month, SUM(amount) FROM sales\nWHERE product = 'Laptop'\nGROUP BY MONTH(sale_date)\nORDER BY month;</code></pre>",
+        "explanation": "Laptop sales: id 1 Jan (55000), 3 Jan (60000), 6 Feb (58000), 9 Mar (65000), 12 Apr (54000), 14 Apr (62000), 15 Apr (57000). Jan 115000, Feb 58000, Mar 65000, Apr 173000. 4 rows."
+      },
+      {
+        "id": "mx-18",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Show top salesperson per region (tricky — might need subquery).",
+        "hint": "Join with subquery that finds region-max totals.",
+        "answer": "<pre><code>-- One approach: correlated subquery\nSELECT region, salesperson, total FROM (\n  SELECT region, salesperson, SUM(amount) AS total FROM sales\n  GROUP BY region, salesperson\n) t\nWHERE (region, total) IN (\n  SELECT region, MAX(total) FROM (\n    SELECT region, salesperson, SUM(amount) AS total FROM sales\n    GROUP BY region, salesperson\n  ) t2\n  GROUP BY region\n);\n\n-- Cleaner: use window functions (chapter 18)</code></pre>",
+        "explanation": "GROUP BY alone struggles with 'top per group' — need window functions for clean solution. The subquery approach works but is verbose. Illustrates why window functions are important."
+      },
+      {
+        "id": "mx-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does GROUP BY region WITH ROLLUP add to the output?",
+        "hint": "Extra row.",
+        "answer": "<code>An extra row with region=NULL representing the grand total</code>",
+        "explanation": "ROLLUP adds subtotals. For single-column GROUP BY, that is one extra row with NULL in the grouped column and the grand total sum."
+      },
+      {
+        "id": "mx-20",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Show each region's share of total revenue as a percentage.",
+        "hint": "Use a subquery for total.",
+        "answer": "<pre><code>SELECT\n  region,\n  SUM(amount) AS region_total,\n  ROUND(SUM(amount) * 100.0 / (SELECT SUM(amount) FROM sales), 2) AS pct_of_total\nFROM sales\nGROUP BY region;</code></pre>",
+        "explanation": "Total 593000. North 184000 → 31.03%. South 160000 → 26.98%. East 96000 → 16.19%. West 153000 → 25.80%. Sum: 100.00%."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which clause groups rows sharing a column value?",
+        "options": [
+          { "text": "WHERE", "correct": false },
+          { "text": "GROUP BY", "correct": true },
+          { "text": "ORDER BY", "correct": false },
+          { "text": "HAVING", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> GROUP BY groups rows. HAVING filters groups. WHERE filters rows."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which filters groups after aggregation?",
+        "options": [
+          { "text": "WHERE", "correct": false },
+          { "text": "GROUP BY", "correct": false },
+          { "text": "HAVING", "correct": true },
+          { "text": "LIMIT", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> HAVING runs after GROUP BY and can use aggregates. WHERE runs before GROUP BY and cannot."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Where do non-aggregated SELECT columns go?",
+        "options": [
+          { "text": "WHERE", "correct": false },
+          { "text": "GROUP BY", "correct": true },
+          { "text": "ORDER BY", "correct": false },
+          { "text": "HAVING", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Every non-aggregated column in SELECT must be in GROUP BY. Otherwise SQL doesn't know which value to show per group."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Can WHERE reference an aggregate like SUM()?",
+        "options": [
+          { "text": "Yes, always", "correct": false },
+          { "text": "No — WHERE runs before aggregation", "correct": true },
+          { "text": "Only with special keyword", "correct": false },
+          { "text": "Only on MySQL", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> WHERE is evaluated before GROUP BY and aggregation. Use HAVING for aggregate filters."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the correct syntactic clause order?",
+        "options": [
+          { "text": "SELECT, FROM, GROUP BY, WHERE, HAVING", "correct": false },
+          { "text": "SELECT, FROM, WHERE, GROUP BY, HAVING", "correct": true },
+          { "text": "FROM, SELECT, WHERE, HAVING, GROUP BY", "correct": false },
+          { "text": "GROUP BY, FROM, WHERE, SELECT, HAVING", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Syntax order: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. Cannot rearrange."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does SELECT region, SUM(amount) FROM sales GROUP BY region HAVING COUNT(*) > 3 return?",
+        "options": [
+          { "text": "All regions regardless", "correct": false },
+          { "text": "Regions with more than 3 rows", "correct": true },
+          { "text": "Regions with SUM(amount) > 3", "correct": false },
+          { "text": "Regions with more than 3 unique products", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> HAVING COUNT(*) > 3 keeps regions with more than 3 sales rows. Our data: North 5, South 4 pass; East 3, West 3 fail."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which query is valid?",
+        "options": [
+          { "text": "SELECT region, salesperson FROM sales GROUP BY region;", "correct": false },
+          { "text": "SELECT region FROM sales GROUP BY region;", "correct": true },
+          { "text": "SELECT region, SUM(amount) FROM sales WHERE SUM(amount)>100 GROUP BY region;", "correct": false },
+          { "text": "SELECT region FROM sales HAVING region='North';", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Option A: salesperson is not aggregated or grouped — error in strict mode. Option C: WHERE cannot use aggregate. Option D: HAVING without GROUP BY (valid but misused — should be WHERE)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "In the logical execution order, when does SELECT run?",
+        "options": [
+          { "text": "Before WHERE", "correct": false },
+          { "text": "Before GROUP BY", "correct": false },
+          { "text": "After HAVING, before ORDER BY", "correct": true },
+          { "text": "Last, after LIMIT", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "You want total sales per region, showing only regions with total > 100000. Which is correct?",
+        "options": [
+          { "text": "SELECT region, SUM(amount) FROM sales WHERE SUM(amount)>100000 GROUP BY region;", "correct": false },
+          { "text": "SELECT region, SUM(amount) FROM sales GROUP BY region WHERE SUM(amount)>100000;", "correct": false },
+          { "text": "SELECT region, SUM(amount) FROM sales GROUP BY region HAVING SUM(amount)>100000;", "correct": true },
+          { "text": "SELECT region, SUM(amount) FROM sales HAVING SUM(amount)>100000 GROUP BY region;", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> HAVING filters groups after aggregation. Other options have wrong clause order or use WHERE with aggregate."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "GROUP BY region, product creates how many groups?",
+        "options": [
+          { "text": "Number of regions", "correct": false },
+          { "text": "Number of products", "correct": false },
+          { "text": "Number of unique (region, product) combinations", "correct": true },
+          { "text": "Product of both counts", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Multi-column GROUP BY uses unique combinations. In our data: 11 such combinations."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Can you use a column alias in HAVING in MySQL?",
+        "options": [
+          { "text": "No, never", "correct": false },
+          { "text": "Yes, MySQL allows it", "correct": true },
+          { "text": "Only with DISTINCT", "correct": false },
+          { "text": "Only in PostgreSQL", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL permits aliases in HAVING (because SELECT runs before HAVING in MySQL's evaluation). PostgreSQL requires the full expression. Either way, the expression form works in both."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What does WITH ROLLUP add?",
+        "options": [
+          { "text": "Cumulative running total", "correct": false },
+          { "text": "Extra row(s) with NULL in grouping column(s) for subtotals/grand total", "correct": true },
+          { "text": "Pagination", "correct": false },
+          { "text": "Sorting", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> ROLLUP adds subtotal rows. For a single GROUP BY column, you get one extra row: NULL in that column with the grand total value."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What is the output of SELECT COUNT(*) FROM sales GROUP BY region?",
+        "options": [
+          { "text": "Single number = 15", "correct": false },
+          { "text": "One number per region (4 rows)", "correct": true },
+          { "text": "Number of unique regions", "correct": false },
+          { "text": "Error", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> GROUP BY returns one row per group. COUNT(*) in each group counts rows in that group. 4 regions = 4 rows."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Why can't plain GROUP BY solve 'top 3 salespeople per region'?",
+        "options": [
+          { "text": "GROUP BY doesn't work with multiple columns", "correct": false },
+          { "text": "GROUP BY collapses each group to one row; LIMIT applies globally not per group", "correct": true },
+          { "text": "HAVING can't handle ranking", "correct": false },
+          { "text": "It's a MySQL limitation only", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> GROUP BY gives one row per group. LIMIT trims the whole result, not per group. Top N per group requires window functions (ROW_NUMBER, RANK with PARTITION BY)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Can WHERE reference a SELECT alias?",
+        "options": [
+          { "text": "Yes, always", "correct": false },
+          { "text": "No, WHERE runs before SELECT computes aliases", "correct": true },
+          { "text": "Only in MySQL", "correct": false },
+          { "text": "Only with an index", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Aliases are defined in SELECT, which runs after WHERE. ORDER BY and HAVING (in MySQL) can reference them because they run after SELECT."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What does HAVING region = 'North' do?",
+        "options": [
+          { "text": "Syntax error — HAVING needs aggregate", "correct": false },
+          { "text": "Works (filters groups where region = 'North'), but WHERE is better", "correct": true },
+          { "text": "Only valid with GROUP BY", "correct": false },
+          { "text": "Returns all rows", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> HAVING can reference grouped columns, not just aggregates. It works but is semantically wrong — use WHERE for row filtering. HAVING is slower because it runs after grouping."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "SELECT region, COUNT(*) FROM sales GROUP BY region HAVING COUNT(*)>100; what happens if no group matches?",
+        "options": [
+          { "text": "NULL row", "correct": false },
+          { "text": "Zero rows returned", "correct": true },
+          { "text": "All rows returned", "correct": false },
+          { "text": "Error", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If HAVING filters out all groups, the result is empty. No special row is returned. This is different from a plain aggregate without GROUP BY which always returns exactly one row."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Is SELECT SUM(amount) FROM sales GROUP BY region WITH ROLLUP ORDER BY region valid?",
+        "options": [
+          { "text": "Yes", "correct": true },
+          { "text": "Invalid syntax", "correct": false },
+          { "text": "WITH ROLLUP cannot be used with ORDER BY", "correct": false },
+          { "text": "Need WHERE first", "correct": false }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> WITH ROLLUP is valid with ORDER BY. The NULL (grand total) row will appear at the start or end depending on sort and NULL handling."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 60000 ORDER BY AVG(salary) DESC; what does this return?",
+        "options": [
+          { "text": "All employees earning > 60000", "correct": false },
+          { "text": "Departments where average salary exceeds 60000, sorted by that average descending", "correct": true },
+          { "text": "Error — can't use aggregate in ORDER BY", "correct": false },
+          { "text": "The single highest-paid department", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A fully valid GROUP BY query. Departments with avg > 60000 survive HAVING, then ORDER BY sorts by the same aggregate. ORDER BY can reference aggregates."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "How do you get unique count per group?",
+        "options": [
+          { "text": "COUNT(*) per group", "correct": false },
+          { "text": "COUNT(DISTINCT column) per group", "correct": true },
+          { "text": "SUM(DISTINCT column)", "correct": false },
+          { "text": "GROUP BY DISTINCT column", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> COUNT(DISTINCT product) per region tells you how many unique products each region sells. COUNT(*) would just count rows in each group."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Sales By Region",
+        "difficulty": "Easy",
+        "description": "Return total sales, count of sales, and average sale amount per region.",
+        "sampleInput": "sales table.",
+        "sampleOutput": "North: 184000, 5, 36800 | South: 160000, 4, 40000 | East: 96000, 3, 32000 | West: 153000, 3, 51000",
+        "constraints": "GROUP BY region.",
+        "solution": "SELECT region, SUM(amount) AS total, COUNT(*) AS sales_count, AVG(amount) AS avg_sale\nFROM sales\nGROUP BY region;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Big Customers",
+        "difficulty": "Easy",
+        "description": "List salespeople whose total revenue exceeds 80000.",
+        "sampleInput": "sales table.",
+        "sampleOutput": "Aarav Sharma 96000, Priya Patel 102000, Karan Mehta 91000, Rohan Gupta 88000",
+        "constraints": "HAVING SUM(amount) > 80000.",
+        "solution": "SELECT salesperson, SUM(amount) AS total FROM sales\nGROUP BY salesperson\nHAVING SUM(amount) > 80000\nORDER BY total DESC;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Product Mix Per Region",
+        "difficulty": "Medium",
+        "description": "For each region, count the number of unique products sold and the total revenue.",
+        "sampleInput": "sales table.",
+        "sampleOutput": "North 3 products 184000 | South 3 products 160000 | East 3 products 96000 | West 2 products 153000",
+        "constraints": "COUNT(DISTINCT product) and SUM.",
+        "solution": "SELECT region, COUNT(DISTINCT product) AS unique_products, SUM(amount) AS total\nFROM sales\nGROUP BY region\nORDER BY total DESC;"
+      },
+      {
+        "id": "cc-4",
+        "title": "Laptop Hotspots",
+        "difficulty": "Medium",
+        "description": "Find regions where total Laptop revenue exceeds 100000. Show region and Laptop revenue.",
+        "sampleInput": "sales table.",
+        "sampleOutput": "North 115000, South 115000, West 127000",
+        "constraints": "WHERE + GROUP BY + HAVING.",
+        "solution": "SELECT region, SUM(amount) AS laptop_revenue\nFROM sales\nWHERE product = 'Laptop'\nGROUP BY region\nHAVING SUM(amount) > 100000\nORDER BY laptop_revenue DESC;"
+      },
+      {
+        "id": "cc-5",
+        "title": "Monthly Performance",
+        "difficulty": "Medium",
+        "description": "Show monthly total revenue and number of sales for 2026, ordered by month.",
+        "sampleInput": "sales table.",
+        "sampleOutput": "Jan: 3, 140000 | Feb: 4, 118000 | Mar: 4, 136000 | Apr: 4, 199000",
+        "constraints": "GROUP BY MONTH(sale_date).",
+        "solution": "SELECT MONTH(sale_date) AS month, COUNT(*) AS num_sales, SUM(amount) AS revenue\nFROM sales\nWHERE YEAR(sale_date) = 2026\nGROUP BY MONTH(sale_date)\nORDER BY month;"
+      },
+      {
+        "id": "cc-6",
+        "title": "Multi-Salesperson Products",
+        "difficulty": "Medium",
+        "description": "List products sold by at least 3 different salespeople.",
+        "sampleInput": "sales table.",
+        "sampleOutput": "Laptop (7 sellers), Phone (5 sellers), Tablet (3 sellers)",
+        "constraints": "HAVING COUNT(DISTINCT salesperson) >= 3.",
+        "solution": "SELECT product, COUNT(DISTINCT salesperson) AS num_sellers\nFROM sales\nGROUP BY product\nHAVING COUNT(DISTINCT salesperson) >= 3;"
+      },
+      {
+        "id": "cc-7",
+        "title": "Regional Share",
+        "difficulty": "Hard",
+        "description": "Show each region, its total revenue, and its percentage share of grand total revenue (rounded to 2 decimals).",
+        "sampleInput": "sales table. Grand total = 593000.",
+        "sampleOutput": "North 184000 31.03% | South 160000 26.98% | East 96000 16.19% | West 153000 25.80%",
+        "constraints": "Use subquery for total.",
+        "solution": "SELECT\n  region,\n  SUM(amount) AS regional_total,\n  ROUND(SUM(amount) * 100.0 / (SELECT SUM(amount) FROM sales), 2) AS pct_share\nFROM sales\nGROUP BY region\nORDER BY regional_total DESC;"
+      },
+      {
+        "id": "cc-8",
+        "title": "Most Popular Product Per Region",
+        "difficulty": "Hard",
+        "description": "Find the best-selling product (by revenue) for each region. Return region, product, total revenue.",
+        "sampleInput": "sales table.",
+        "sampleOutput": "North Laptop 115000, South Laptop 115000, East Laptop 54000, West Laptop 127000",
+        "constraints": "Cannot use simple GROUP BY alone — need subquery or window functions.",
+        "solution": "-- Subquery approach (GROUP BY + subquery for max)\nSELECT region, product, total FROM (\n  SELECT region, product, SUM(amount) AS total\n  FROM sales\n  GROUP BY region, product\n) t\nWHERE (region, total) IN (\n  SELECT region, MAX(total) FROM (\n    SELECT region, product, SUM(amount) AS total\n    FROM sales\n    GROUP BY region, product\n  ) t2\n  GROUP BY region\n);\n\n-- Window function approach (cleaner; chapter 18)\nSELECT region, product, total FROM (\n  SELECT region, product,\n         SUM(amount) AS total,\n         ROW_NUMBER() OVER (PARTITION BY region ORDER BY SUM(amount) DESC) AS rn\n  FROM sales\n  GROUP BY region, product\n) t\nWHERE rn = 1;"
+      }
+    ]
+  }
+}

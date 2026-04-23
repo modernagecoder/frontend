@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE, ALTER, DROP Tables - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Create tables, add/remove columns with ALTER, drop tables, truncate, and rename — the DDL commands.">
+    <meta name="keywords" content="create, alter, drop tables, sql tutorial, sql create, alter, drop tables, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables">
+    <meta property="og:title" content="CREATE, ALTER, DROP Tables - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Create tables, add/remove columns with ALTER, drop tables, truncate, and rename — the DDL commands.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables">
+    <meta name="twitter:title" content="CREATE, ALTER, DROP Tables - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Create tables, add/remove columns with ALTER, drop tables, truncate, and rename — the DDL commands.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "CREATE, ALTER, DROP Tables",
+    "description": "Create tables, add/remove columns with ALTER, drop tables, truncate, and rename — the DDL commands.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CREATE, ALTER, DROP Tables",
+        "item": "https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using DROP When You Meant TRUNCATE or DELETE",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "DROP removes the entire table — structure, indexes, constraints, everything. Truly destructive. TRUNCATE keeps the table and just empties it. DELETE with WHERE is precise. Confusing DROP with TRUNCATE is a classic late-night production incident. Always double-check which one you're typing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting the COLUMN Keyword in ALTER",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Standard SQL requires the word <code>COLUMN</code>. MySQL allows omitting it but it's a bad habit — your queries won't port to PostgreSQL, and reviewers may flag it. Be explicit: <code>ADD COLUMN</code>, <code>DROP COLUMN</code>, <code>MODIFY COLUMN</code>, <code>RENAME COLUMN</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting CREATE TABLE AS SELECT to Copy Constraints",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>CREATE TABLE AS SELECT</code> is quick but lossy — only columns and data come across. Use <code>CREATE TABLE new_name LIKE old_name</code> to clone the schema with all constraints and indexes, then <code>INSERT ... SELECT</code> to copy rows."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Dropping a Table Referenced by a FOREIGN KEY",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Foreign keys protect you from deleting parent data that children depend on. If the error appears, either drop the children first or remove the FK constraint. The <code>SET FOREIGN_KEY_CHECKS = 0</code> trick is common in dev but dangerous in production — it can leave orphan rows once you re-enable checks."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">CREATE, ALTER, DROP Tables</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 4</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">CREATE, ALTER, DROP Tables</h1>
+            <a href="/resources/sql/creating-and-modifying-tables/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>Creating and Changing Table Structure</h2><p>Real-world databases evolve. A table you designed last sprint will need a new column next sprint, an index the sprint after that, and a rename six months later when the product team decides "users" should be called "members". This chapter is the toolbox for all of those schema changes.</p><p>The commands covered here are collectively called <strong>DDL</strong> (Data Definition Language) — they define and change structure:</p><ul><li><code>CREATE TABLE</code> — make a new table</li><li><code>ALTER TABLE</code> — add/drop/rename columns, add constraints, rename the table</li><li><code>DROP TABLE</code> — permanently delete a table and all its data</li><li><code>TRUNCATE TABLE</code> — delete every row (keep the table)</li><li><code>CREATE TABLE AS SELECT</code> — copy another table's rows into a new one</li><li><code>CREATE TEMPORARY TABLE</code> — a table that disappears when your session ends</li></ul><h3>The Sample Schema for This Chapter</h3><table><tr><th>employees</th></tr><tr><td>emp_id INT PK</td></tr><tr><td>name VARCHAR(50)</td></tr><tr><td>department VARCHAR(30)</td></tr><tr><td>salary DECIMAL(10,2)</td></tr></table><table><tr><th>emp_id</th><th>name</th><th>department</th><th>salary</th></tr><tr><td>101</td><td>Kavya Nair</td><td>HR</td><td>60000.00</td></tr><tr><td>102</td><td>Arjun Mehta</td><td>IT</td><td>85000.00</td></tr><tr><td>103</td><td>Sneha Patel</td><td>Finance</td><td>72000.00</td></tr><tr><td>104</td><td>Rahul Joshi</td><td>IT</td><td>95000.00</td></tr></table>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Mastering DDL Matters</h2><h3>1. Every Project Has Migrations</h3><p>A <strong>migration</strong> is a SQL script that evolves your schema from one version to another. Frameworks like Django, Laravel, Rails, and Flyway generate migrations automatically, but you still have to read and write ALTER TABLE statements. Knowing DDL fluently lets you review migrations before they hit production — and stops junior teammates from committing scripts that would drop a column used by reporting.</p><h3>2. DROP vs TRUNCATE vs DELETE Is a Classic Interview Question</h3><p>Asked in ~70% of SQL interviews. Many candidates know one or two of the three; knowing all three plus their trade-offs (speed, rollback behavior, AUTO_INCREMENT reset, FOREIGN KEY constraints) separates you from the crowd.</p><h3>3. Bad ALTER Can Kill Production</h3><p>An <code>ALTER TABLE orders DROP COLUMN amount</code> on a 500GB table can lock the table for 20 minutes, making your site unusable. Modern MySQL (8.0) has online DDL for many operations, but you still need to know which ALTER is safe and which needs a maintenance window. Professional teams use tools like pt-online-schema-change or gh-ost for big tables; this chapter teaches the core commands those tools wrap.</p><h3>4. Making Scripts Re-Runnable (IF EXISTS / IF NOT EXISTS)</h3><p>A script that errors on second run is a bug. Using <code>IF NOT EXISTS</code> on CREATE and <code>IF EXISTS</code> on DROP makes scripts idempotent — safe to run any number of times. This is basic hygiene every backend engineer is expected to know.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. CREATE TABLE — Full Syntax</h3><p>A CREATE TABLE statement has three parts:</p><ol><li>Column definitions (name + type + per-column constraints)</li><li>Table-level constraints (composite PRIMARY KEY, FOREIGN KEY, multi-column UNIQUE)</li><li>Table options (ENGINE, CHARSET, COMMENT)</li></ol><pre><code>CREATE TABLE employees (
+    emp_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    department VARCHAR(30) NOT NULL,
+    salary DECIMAL(10,2) NOT NULL CHECK (salary &gt; 0),
+    manager_id INT,
+    hire_date DATE NOT NULL DEFAULT (CURRENT_DATE),
+    FOREIGN KEY (manager_id) REFERENCES employees(emp_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</code></pre><p><strong>IF NOT EXISTS</strong> makes the statement idempotent:</p><pre><code>CREATE TABLE IF NOT EXISTS employees (...);</code></pre><p>If the table already exists, CREATE becomes a no-op (with a warning) instead of an error. Always use this in seed scripts.</p><h3>2. ALTER TABLE — The Swiss Army Knife</h3><h4>Add a Column</h4><pre><code>ALTER TABLE employees ADD COLUMN phone VARCHAR(15);
+-- Or specify where
+ALTER TABLE employees ADD COLUMN phone VARCHAR(15) AFTER name;
+ALTER TABLE employees ADD COLUMN phone VARCHAR(15) FIRST;</code></pre><h4>Drop a Column</h4><pre><code>ALTER TABLE employees DROP COLUMN phone;</code></pre><p><strong>Warning:</strong> the column and all its data are gone. No undo without backup.</p><h4>Modify a Column (Type or Default, Keep Name)</h4><pre><code>ALTER TABLE employees MODIFY COLUMN salary DECIMAL(12, 2);
+ALTER TABLE employees MODIFY COLUMN name VARCHAR(100) NOT NULL;</code></pre><p><code>MODIFY</code> is a MySQL-ism. The portable alternative is <code>ALTER COLUMN ... TYPE ...</code> in standard SQL.</p><h4>Rename a Column (MySQL 8.0+)</h4><pre><code>ALTER TABLE employees RENAME COLUMN department TO dept;
+
+-- Older MySQL (5.7) requires CHANGE with the new type repeated:
+ALTER TABLE employees CHANGE COLUMN department dept VARCHAR(30) NOT NULL;</code></pre><h4>Rename the Table</h4><pre><code>ALTER TABLE employees RENAME TO staff;
+
+-- Or the dedicated command:
+RENAME TABLE employees TO staff;</code></pre><h4>Add a Constraint</h4><pre><code>ALTER TABLE employees
+    ADD CONSTRAINT uq_email UNIQUE (email);
+
+ALTER TABLE employees
+    ADD CONSTRAINT fk_manager FOREIGN KEY (manager_id) REFERENCES employees(emp_id);
+
+ALTER TABLE employees
+    ADD CONSTRAINT chk_salary CHECK (salary &gt; 0);</code></pre><h4>Drop a Constraint</h4><pre><code>ALTER TABLE employees DROP FOREIGN KEY fk_manager;
+ALTER TABLE employees DROP INDEX uq_email;         -- UNIQUE is an index
+ALTER TABLE employees DROP CHECK chk_salary;
+ALTER TABLE employees DROP PRIMARY KEY;</code></pre><h4>Multiple Changes in One Statement</h4><pre><code>ALTER TABLE employees
+    ADD COLUMN joining_bonus DECIMAL(10,2) DEFAULT 0,
+    DROP COLUMN phone,
+    MODIFY COLUMN name VARCHAR(80) NOT NULL;</code></pre><p>Running multiple changes together is faster than running them one at a time (fewer table rebuilds).</p><h3>3. DROP TABLE vs TRUNCATE TABLE vs DELETE FROM</h3><p>This comparison is the single most-asked DDL interview question.</p><table><tr><th></th><th>DROP TABLE</th><th>TRUNCATE TABLE</th><th>DELETE FROM</th></tr><tr><td>Category</td><td>DDL</td><td>DDL</td><td>DML</td></tr><tr><td>What it removes</td><td>Table + data + structure</td><td>All rows, keeps structure</td><td>Matching rows (WHERE) or all</td></tr><tr><td>WHERE clause</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Speed</td><td>Fast (metadata op)</td><td>Fast (recreates table)</td><td>Slow (row by row)</td></tr><tr><td>Auto-commit</td><td>Yes (implicit commit)</td><td>Yes (implicit commit)</td><td>No (transactional)</td></tr><tr><td>Rollback possible?</td><td>No</td><td>No (in most DBs)</td><td>Yes</td></tr><tr><td>Resets AUTO_INCREMENT?</td><td>N/A (table gone)</td><td>Yes</td><td>No</td></tr><tr><td>Triggers fire?</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>FK blocks?</td><td>Yes if referenced</td><td>Yes in InnoDB</td><td>Yes if ON DELETE RESTRICT</td></tr></table><p>Mental model:</p><ul><li><strong>DELETE</strong> is a surgeon — precise, transactional, slow. Use when you want to remove specific rows.</li><li><strong>TRUNCATE</strong> is a bulldozer — wipes everything fast, resets counters. Use when you want to empty a whole table quickly.</li><li><strong>DROP</strong> is dynamite — removes the entire table. Use when the table should not exist anymore.</li></ul><h3>4. CREATE TABLE AS SELECT (CTAS)</h3><pre><code>-- Copy both structure AND data
+CREATE TABLE employees_backup AS SELECT * FROM employees;
+
+-- Copy only matching rows
+CREATE TABLE high_earners AS
+SELECT * FROM employees WHERE salary &gt; 80000;</code></pre><p>CTAS is handy for quick backups or subset copies. <strong>Caveat:</strong> indexes, constraints, and AUTO_INCREMENT are NOT copied by default — only columns and data. To duplicate the full schema including indexes, use <code>CREATE TABLE new_tbl LIKE old_tbl;</code> followed by an INSERT.</p><h3>5. TEMPORARY TABLE</h3><pre><code>CREATE TEMPORARY TABLE session_stats (
+    user_id INT,
+    clicks INT
+);</code></pre><p>A temporary table is visible only to the session that created it and is automatically dropped when the session disconnects. Perfect for intermediate results in long multi-step calculations or reports.</p><h3>6. Defensive DDL: IF EXISTS / IF NOT EXISTS</h3><pre><code>DROP TABLE IF EXISTS employees;
+CREATE TABLE IF NOT EXISTS employees (...);
+DROP DATABASE IF EXISTS test_db;
+CREATE DATABASE IF NOT EXISTS test_db;</code></pre><p>Use these in every seed script. They turn "Table already exists" errors into harmless no-ops. This is standard practice in production migration systems.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">A Complete CREATE TABLE with Constraints and Options</div><pre><code class="language-python">CREATE TABLE IF NOT EXISTS employees (
+    emp_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    department VARCHAR(30) NOT NULL,
+    salary DECIMAL(10,2) NOT NULL CHECK (salary &gt; 0),
+    hire_date DATE NOT NULL DEFAULT (CURRENT_DATE)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO employees (name, email, department, salary) VALUES
+    (&#39;Kavya Nair&#39;,  &#39;kavya@corp.in&#39;,  &#39;HR&#39;,      60000.00),
+    (&#39;Arjun Mehta&#39;, &#39;arjun@corp.in&#39;,  &#39;IT&#39;,      85000.00),
+    (&#39;Sneha Patel&#39;, &#39;sneha@corp.in&#39;,  &#39;Finance&#39;, 72000.00),
+    (&#39;Rahul Joshi&#39;, &#39;rahul@corp.in&#39;,  &#39;IT&#39;,      95000.00);
+
+SELECT * FROM employees;</code></pre><div class="code-example-explanation">A realistic CREATE TABLE combining AUTO_INCREMENT PK, NOT NULL, UNIQUE, CHECK, DEFAULT (CURRENT_DATE), the InnoDB engine, and utf8mb4 charset (for full emoji/Unicode support). <code>IF NOT EXISTS</code> makes it safe to re-run.</div><div class="code-example-output">Query OK, 0 rows affected (0.04 sec)
+Query OK, 4 rows affected (0.01 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
++--------+-------------+----------------+------------+----------+------------+
+| emp_id | name        | email          | department | salary   | hire_date  |
++--------+-------------+----------------+------------+----------+------------+
+|      1 | Kavya Nair  | kavya@corp.in  | HR         | 60000.00 | 2026-04-11 |
+|      2 | Arjun Mehta | arjun@corp.in  | IT         | 85000.00 | 2026-04-11 |
+|      3 | Sneha Patel | sneha@corp.in  | Finance    | 72000.00 | 2026-04-11 |
+|      4 | Rahul Joshi | rahul@corp.in  | IT         | 95000.00 | 2026-04-11 |
++--------+-------------+----------------+------------+----------+------------+</div></div>
+<div class="code-example"><div class="code-example-title">ALTER TABLE — Adding, Dropping, Modifying, Renaming Columns</div><pre><code class="language-python">-- Add a phone column after name
+ALTER TABLE employees ADD COLUMN phone VARCHAR(15) AFTER name;
+
+-- Later, widen the name column and make it required
+ALTER TABLE employees MODIFY COLUMN name VARCHAR(80) NOT NULL;
+
+-- Rename &#39;department&#39; to &#39;dept&#39; (MySQL 8.0+)
+ALTER TABLE employees RENAME COLUMN department TO dept;
+
+-- Drop the phone column we added earlier
+ALTER TABLE employees DROP COLUMN phone;
+
+DESCRIBE employees;</code></pre><div class="code-example-explanation">Four common alterations. ADD COLUMN ... AFTER places the new column at a specific position. MODIFY changes the type or constraints of an existing column. RENAME COLUMN (MySQL 8.0+) changes the name without touching the type. DROP COLUMN permanently removes a column — irreversible without a backup.</div><div class="code-example-output">Query OK, 4 rows affected (0.07 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+Query OK, 0 rows affected (0.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+---------------+------+-----+---------+----------------+
+| Field     | Type          | Null | Key | Default | Extra          |
++-----------+---------------+------+-----+---------+----------------+
+| emp_id    | int           | NO   | PRI | NULL    | auto_increment |
+| name      | varchar(80)   | NO   |     | NULL    |                |
+| email     | varchar(100)  | NO   | UNI | NULL    |                |
+| dept      | varchar(30)   | NO   |     | NULL    |                |
+| salary    | decimal(10,2) | NO   |     | NULL    |                |
+| hire_date | date          | NO   |     | NULL    |                |
++-----------+---------------+------+-----+---------+----------------+</div></div>
+<div class="code-example"><div class="code-example-title">DELETE vs TRUNCATE vs DROP — Side-by-Side Demo</div><pre><code class="language-python">-- Setup: fresh employees with 4 rows (see earlier INSERT)
+SELECT COUNT(*) FROM employees;  -- 4
+
+-- DELETE: remove specific rows with WHERE
+DELETE FROM employees WHERE dept = &#39;IT&#39;;
+SELECT COUNT(*) FROM employees;  -- 2 (Arjun and Rahul gone)
+
+-- TRUNCATE: wipe everything, reset AUTO_INCREMENT
+TRUNCATE TABLE employees;
+SELECT COUNT(*) FROM employees;  -- 0
+
+-- Reinsert one row to see AUTO_INCREMENT reset
+INSERT INTO employees (name, email, dept, salary)
+VALUES (&#39;Test&#39;, &#39;test@corp.in&#39;, &#39;HR&#39;, 50000);
+SELECT emp_id FROM employees;  -- 1 (reset to 1, not 5)
+
+-- DROP: remove the table entirely
+DROP TABLE employees;
+SELECT * FROM employees;  -- ERROR: Table doesn&#39;t exist</code></pre><div class="code-example-explanation">Three demolition tools ordered from precise to nuclear. DELETE removes matching rows and is transactional. TRUNCATE wipes everything and resets AUTO_INCREMENT to 1. DROP removes the table itself so any subsequent query errors with "table doesn't exist". Interviewers love this exact example.</div><div class="code-example-output">+----------+
+| COUNT(*) |
++----------+
+|        4 |
++----------+
+
+Query OK, 2 rows affected (0.01 sec)
++----------+
+| COUNT(*) |
++----------+
+|        2 |
++----------+
+
+Query OK, 0 rows affected (0.03 sec)
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+
+Query OK, 1 row affected (0.01 sec)
++--------+
+| emp_id |
++--------+
+|      1 |
++--------+
+
+Query OK, 0 rows affected (0.02 sec)
+ERROR 1146 (42S02): Table &#39;hr.employees&#39; doesn&#39;t exist</div></div>
+<div class="code-example"><div class="code-example-title">CREATE TABLE AS SELECT (Backup)</div><pre><code class="language-python">-- Assume employees has been re-created with the original 4 rows.
+DROP TABLE IF EXISTS employees_backup;
+
+-- Quick full backup
+CREATE TABLE employees_backup AS
+SELECT * FROM employees;
+
+-- Partial backup — just IT employees
+DROP TABLE IF EXISTS employees_it;
+CREATE TABLE employees_it AS
+SELECT emp_id, name, salary
+FROM employees
+WHERE dept = &#39;IT&#39;;
+
+SELECT * FROM employees_it;</code></pre><div class="code-example-explanation">CTAS (Create Table As Select) is a quick way to make a backup or a filtered subset. The new table inherits the column names and types from the SELECT's result, but NOT the indexes, primary keys, or AUTO_INCREMENT attributes — those must be added separately if needed.</div><div class="code-example-output">Query OK, 4 rows affected (0.03 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+Query OK, 2 rows affected (0.02 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
++--------+-------------+----------+
+| emp_id | name        | salary   |
++--------+-------------+----------+
+|      2 | Arjun Mehta | 85000.00 |
+|      4 | Rahul Joshi | 95000.00 |
++--------+-------------+----------+</div></div>
+<div class="code-example"><div class="code-example-title">Adding and Dropping Constraints via ALTER</div><pre><code class="language-python">-- Start with a bare table (no constraints yet).
+CREATE TABLE IF NOT EXISTS departments (
+    dept_id INT,
+    dept_name VARCHAR(50),
+    budget DECIMAL(12,2)
+);
+
+-- Add a PRIMARY KEY
+ALTER TABLE departments
+    ADD CONSTRAINT pk_dept PRIMARY KEY (dept_id);
+
+-- Add a UNIQUE
+ALTER TABLE departments
+    ADD CONSTRAINT uq_dept_name UNIQUE (dept_name);
+
+-- Add a CHECK
+ALTER TABLE departments
+    ADD CONSTRAINT chk_budget CHECK (budget &gt; 0);
+
+DESCRIBE departments;
+
+-- Later, drop the CHECK we added
+ALTER TABLE departments DROP CHECK chk_budget;</code></pre><div class="code-example-explanation">You can add constraints to an existing table at any time via ALTER. Naming constraints (<code>pk_dept</code>, <code>uq_dept_name</code>, <code>chk_budget</code>) is a good habit — it makes them referenceable for DROP later. Unnamed constraints get auto-generated names like <code>departments_chk_1</code>.</div><div class="code-example-output">Query OK, 0 rows affected (0.04 sec)
+Query OK, 0 rows affected (0.05 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+---------------+------+-----+---------+-------+
+| Field     | Type          | Null | Key | Default | Extra |
++-----------+---------------+------+-----+---------+-------+
+| dept_id   | int           | NO   | PRI | NULL    |       |
+| dept_name | varchar(50)   | YES  | UNI | NULL    |       |
+| budget    | decimal(12,2) | YES  |     | NULL    |       |
++-----------+---------------+------+-----+---------+-------+
+
+Query OK, 0 rows affected (0.01 sec)</div></div>
+<div class="code-example"><div class="code-example-title">TEMPORARY TABLE — Session-Scoped Scratchpad</div><pre><code class="language-python">-- Create a temp table visible only to this session
+CREATE TEMPORARY TABLE top_performers AS
+SELECT emp_id, name, salary
+FROM employees
+WHERE salary &gt; 80000;
+
+-- Use it like any other table
+SELECT * FROM top_performers;
+
+SELECT COUNT(*) AS n FROM top_performers;
+
+-- It disappears automatically when we DISCONNECT — no DROP needed.
+-- If you log out and log back in: Table &#39;top_performers&#39; doesn&#39;t exist.</code></pre><div class="code-example-explanation">Temporary tables are invaluable for breaking a complex report into smaller stages without polluting the main schema. They are invisible to other sessions and auto-drop on disconnect. You can also <code>DROP TEMPORARY TABLE</code> explicitly if you want to free the memory earlier.</div><div class="code-example-output">Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
++--------+-------------+----------+
+| emp_id | name        | salary   |
++--------+-------------+----------+
+|      2 | Arjun Mehta | 85000.00 |
+|      4 | Rahul Joshi | 95000.00 |
++--------+-------------+----------+
+
++---+
+| n |
++---+
+| 2 |
++---+</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using DROP When You Meant TRUNCATE or DELETE</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Goal: wipe all rows for a fresh load
+DROP TABLE employees;</code></pre></div><div class="error-message">Table is GONE. Next SELECT errors with &#39;Table doesn&#39;t exist&#39;. All downstream views and FKs break.</div><div class="correct-code"><pre><code class="language-python">-- If you want to keep the schema and wipe rows:
+TRUNCATE TABLE employees;
+
+-- If you want to wipe specific rows:
+DELETE FROM employees WHERE dept = &#39;IT&#39;;</code></pre></div><div class="mistake-explanation">DROP removes the entire table — structure, indexes, constraints, everything. Truly destructive. TRUNCATE keeps the table and just empties it. DELETE with WHERE is precise. Confusing DROP with TRUNCATE is a classic late-night production incident. Always double-check which one you're typing.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting the COLUMN Keyword in ALTER</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- MySQL is forgiving and often accepts this, but it&#39;s ambiguous:
+ALTER TABLE employees ADD phone VARCHAR(15);</code></pre></div><div class="error-message">Works on MySQL, but may fail on other databases. Less explicit.</div><div class="correct-code"><pre><code class="language-python">ALTER TABLE employees ADD COLUMN phone VARCHAR(15);
+ALTER TABLE employees DROP COLUMN phone;
+ALTER TABLE employees MODIFY COLUMN name VARCHAR(80);</code></pre></div><div class="mistake-explanation">Standard SQL requires the word <code>COLUMN</code>. MySQL allows omitting it but it's a bad habit — your queries won't port to PostgreSQL, and reviewers may flag it. Be explicit: <code>ADD COLUMN</code>, <code>DROP COLUMN</code>, <code>MODIFY COLUMN</code>, <code>RENAME COLUMN</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting CREATE TABLE AS SELECT to Copy Constraints</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE TABLE backup AS SELECT * FROM employees;
+-- Assuming backup has the same PRIMARY KEY and AUTO_INCREMENT as employees</code></pre></div><div class="error-message">backup has NO primary key, no AUTO_INCREMENT, no indexes, no FKs — just columns and data.</div><div class="correct-code"><pre><code class="language-python">-- If you need structure too:
+CREATE TABLE backup LIKE employees;   -- copies schema (constraints, indexes)
+INSERT INTO backup SELECT * FROM employees;  -- then copy data</code></pre></div><div class="mistake-explanation"><code>CREATE TABLE AS SELECT</code> is quick but lossy — only columns and data come across. Use <code>CREATE TABLE new_name LIKE old_name</code> to clone the schema with all constraints and indexes, then <code>INSERT ... SELECT</code> to copy rows.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Dropping a Table Referenced by a FOREIGN KEY</h3>
+                <div class="wrong-code"><pre><code class="language-python">DROP TABLE employees;
+-- But orders has FK to employees.</code></pre></div><div class="error-message">ERROR 3730 (HY000): Cannot drop table &#39;employees&#39; referenced by a foreign key constraint &#39;fk_emp&#39; on table &#39;orders&#39;.</div><div class="correct-code"><pre><code class="language-python">-- Option 1: drop dependent tables first
+DROP TABLE orders;
+DROP TABLE employees;
+
+-- Option 2: remove the FK first
+ALTER TABLE orders DROP FOREIGN KEY fk_emp;
+DROP TABLE employees;
+
+-- Option 3 (nuclear): temporarily disable FK checks
+SET FOREIGN_KEY_CHECKS = 0;
+DROP TABLE employees;
+SET FOREIGN_KEY_CHECKS = 1;</code></pre></div><div class="mistake-explanation">Foreign keys protect you from deleting parent data that children depend on. If the error appears, either drop the children first or remove the FK constraint. The <code>SET FOREIGN_KEY_CHECKS = 0</code> trick is common in dev but dangerous in production — it can leave orphan rows once you re-enable checks.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>CREATE TABLE defines a new table with columns, data types, constraints, engine, and charset. Use IF NOT EXISTS for idempotent scripts.</li>
+<li>ALTER TABLE modifies structure: ADD COLUMN, DROP COLUMN, MODIFY COLUMN (change type/constraints), RENAME COLUMN, RENAME TABLE.</li>
+<li>Add multiple changes in one ALTER TABLE for speed: ALTER TABLE t ADD COLUMN a INT, DROP COLUMN b, MODIFY COLUMN c VARCHAR(80);</li>
+<li>Add constraints later with ALTER TABLE ADD CONSTRAINT name .... Drop them with DROP FOREIGN KEY / DROP INDEX / DROP CHECK / DROP PRIMARY KEY.</li>
+<li>DROP TABLE removes the table entirely. TRUNCATE TABLE removes all rows but keeps the table. DELETE FROM removes matching rows (uses WHERE).</li>
+<li>DROP and TRUNCATE are DDL (auto-commit, hard to roll back). DELETE is DML (transactional, can ROLLBACK).</li>
+<li>TRUNCATE resets AUTO_INCREMENT to 1; DELETE does not.</li>
+<li>CREATE TABLE AS SELECT copies columns and data but not indexes, PKs, or AUTO_INCREMENT. Use CREATE TABLE LIKE for a full schema clone.</li>
+<li>CREATE TEMPORARY TABLE makes a session-scoped table that auto-drops on disconnect. Perfect for intermediate staging in reports.</li>
+<li>Use IF EXISTS on DROP and IF NOT EXISTS on CREATE to make scripts safely re-runnable without manual cleanup.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/data-types-and-constraints" class="related-topic-link">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</a>
+<a href="/resources/sql/insert-update-delete" class="related-topic-link">INSERT, UPDATE, DELETE - Manipulating Data</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/data-types-and-constraints" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</span>
+        </a>
+            <a href="/resources/sql/insert-update-delete" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">INSERT, UPDATE, DELETE - Manipulating Data</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/creating-and-modifying-tables/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

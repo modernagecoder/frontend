@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triggers and Scheduled Events - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Automate database actions with BEFORE/AFTER INSERT/UPDATE/DELETE triggers and scheduled events.">
+    <meta name="keywords" content="triggers and scheduled events, sql tutorial, sql triggers and scheduled events, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/triggers-and-events">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/triggers-and-events">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/triggers-and-events">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/triggers-and-events">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/triggers-and-events">
+    <meta property="og:title" content="Triggers and Scheduled Events - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Automate database actions with BEFORE/AFTER INSERT/UPDATE/DELETE triggers and scheduled events.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/triggers-and-events">
+    <meta name="twitter:title" content="Triggers and Scheduled Events - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Automate database actions with BEFORE/AFTER INSERT/UPDATE/DELETE triggers and scheduled events.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Triggers and Scheduled Events",
+    "description": "Automate database actions with BEFORE/AFTER INSERT/UPDATE/DELETE triggers and scheduled events.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-04-16",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/triggers-and-events"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/triggers-and-events"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Triggers and Scheduled Events",
+        "item": "https://learn.modernagecoders.com/resources/sql/triggers-and-events"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using AFTER Trigger When You Need to Modify NEW",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AFTER triggers see the row after it has been written. You can read NEW but not modify it — the row is already on disk. To normalise or default values, use BEFORE. This is the most common confusion for people new to triggers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Referring to OLD in an INSERT Trigger",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "INSERT triggers have NEW only. DELETE triggers have OLD only. UPDATE triggers have both. Memorise the table: N for new = INSERT, O for old = DELETE, both = UPDATE."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Enable event_scheduler",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>event_scheduler</code> is OFF by default on some MySQL distributions. Without the scheduler thread running, events exist but never fire. Always check <code>SHOW VARIABLES LIKE 'event_scheduler'</code> during setup and add the setting to my.cnf for persistence."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Infinite Trigger Recursion Attempt",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A trigger cannot modify the same table that caused it to fire — MySQL blocks this to prevent infinite loops. If you need to enrich the row being inserted, do it in a BEFORE trigger by modifying NEW. Side effects on related tables are fine."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Trigger That Assumes Statement-Level Fire",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MySQL only supports row-level triggers (FOR EACH ROW). Oracle-style statement-level triggers do not exist. Always design triggers expecting one invocation per affected row. Bulk inserts and UPDATEs can unexpectedly amplify trigger side effects."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Triggers and Scheduled Events</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-16</span>
+            </div>
+            <h1 class="resource-title">Triggers and Scheduled Events</h1>
+            <a href="/resources/sql/triggers-and-events/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>Triggers and Events: Database Automation</h2><p>Two features let the database take action on its own. A <strong>trigger</strong> is code that runs automatically in response to a table change (INSERT, UPDATE, or DELETE). A <strong>scheduled event</strong> is code that runs on a time schedule (once at 2 a.m. tomorrow, or every hour forever), independent of any row change.</p><pre><code>-- A trigger: every salary change writes an audit row
+CREATE TRIGGER log_salary_change
+AFTER UPDATE ON employees
+FOR EACH ROW
+INSERT INTO salary_audit(emp_id, old_sal, new_sal, changed_at)
+VALUES (OLD.id, OLD.salary, NEW.salary, NOW());
+
+-- A scheduled event: clean up soft-deleted rows every night at 2 a.m.
+CREATE EVENT nightly_cleanup
+ON SCHEDULE EVERY 1 DAY STARTS '2026-04-17 02:00:00'
+DO
+    DELETE FROM customers
+    WHERE deleted_at IS NOT NULL
+      AND deleted_at < NOW() - INTERVAL 30 DAY;</code></pre><p>Triggers fire in the middle of the transaction that changed the data, so they are synchronous and atomic with the change. Events fire on the MySQL event scheduler thread, asynchronously, and are mostly used for housekeeping.</p><p>Both are powerful and both are controversial. Put too much logic in triggers and the behaviour of your database becomes invisible to anyone reading application code. Used carefully, they are the right tool for auditing, timestamping, denormalised counts, validation, and scheduled cleanup.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Triggers and Events Matter</h2><h3>1. Auditing That Cannot Be Bypassed</h3><p>If your app writes to the <code>employees</code> table from six different services, auditing salary changes in application code means six code paths that all must remember to write an audit row. An AFTER UPDATE trigger writes the audit row no matter which service (or DBA at a console) changed the row. The database enforces the audit, not the programmer's discipline.</p><h3>2. Automatic Timestamps and Denormalised Counts</h3><p>A <code>posts</code> table needs <code>updated_at</code> set on every UPDATE. A <code>categories</code> table stores a <code>post_count</code> so your homepage query is O(1). Both are textbook trigger use cases — the database maintains invariants as the data changes.</p><h3>3. Validation Beyond CHECK Constraints</h3><p>CHECK constraints handle simple per-column rules. Cross-row, cross-table, or conditional logic ("reject an update that changes a locked invoice") requires a BEFORE trigger that calls SIGNAL to abort the operation.</p><h3>4. Scheduled Housekeeping Without cron</h3><p>Events run inside the database, so they survive application deploys, do not need a separate cron host, and write to the same connection pool. For database-internal chores — archiving, cache refresh, stats recomputation — an event is simpler than an external scheduler.</p><h3>5. Periodic Aggregation for Dashboards</h3><p>Rebuilding a <code>daily_revenue</code> summary every hour with an event gives your dashboards a cheap, indexed source of truth. The query planner loves indexed tables of 365 rows far more than raw tables of 30 million.</p><h3>6. The Risks: Hidden Logic and Performance</h3><p>Every row inserted into <code>orders</code> might fire a trigger that writes to <code>inventory</code>, which fires a trigger that writes to <code>audit_log</code>, which fires a trigger that... this cascade is invisible from the application. Know when to stop: complex business workflows belong in procedures the application calls explicitly, not in triggers that fire silently.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Trigger Timing: BEFORE vs AFTER</h3><p>Every trigger fires either <strong>BEFORE</strong> or <strong>AFTER</strong> the change reaches the table. The distinction matters:</p><ul><li><strong>BEFORE</strong>: run before the row is written. You can inspect and <em>modify</em> NEW (for INSERT/UPDATE) before it hits the table. Use for validation, normalisation, and default computation.</li><li><strong>AFTER</strong>: run after the row is written. You cannot change NEW any more. Use for logging, cache invalidation, and denormalised count maintenance.</li></ul><pre><code>-- BEFORE INSERT: normalise the email to lowercase
+CREATE TRIGGER normalise_email
+BEFORE INSERT ON users
+FOR EACH ROW
+SET NEW.email = LOWER(TRIM(NEW.email));
+
+-- AFTER INSERT: increment a counter in another table
+CREATE TRIGGER bump_user_count
+AFTER INSERT ON users
+FOR EACH ROW
+UPDATE stats SET total_users = total_users + 1;</code></pre><h3>2. Trigger Events: INSERT, UPDATE, DELETE</h3><p>MySQL triggers fire on one of three events, and you pick BEFORE or AFTER for each. So there are six combinations per table:</p><pre><code>BEFORE INSERT   AFTER INSERT
+BEFORE UPDATE   AFTER UPDATE
+BEFORE DELETE   AFTER DELETE</code></pre><p>Each row affected by the triggering statement fires the trigger once (<code>FOR EACH ROW</code>). MySQL does not support statement-level triggers.</p><h3>3. NEW and OLD: the Row References</h3><p>Inside a trigger body, two pseudo-records let you see the row that caused the trigger:</p><ul><li><strong>NEW</strong>: the new row (available in INSERT and UPDATE triggers).</li><li><strong>OLD</strong>: the previous row (available in UPDATE and DELETE triggers).</li></ul><table border='1' cellpadding='6'><tr><th>Event</th><th>OLD available?</th><th>NEW available?</th><th>NEW writable?</th></tr><tr><td>BEFORE INSERT</td><td>No</td><td>Yes</td><td>Yes</td></tr><tr><td>AFTER INSERT</td><td>No</td><td>Yes (read-only)</td><td>No</td></tr><tr><td>BEFORE UPDATE</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>AFTER UPDATE</td><td>Yes</td><td>Yes (read-only)</td><td>No</td></tr><tr><td>BEFORE DELETE</td><td>Yes</td><td>No</td><td>-</td></tr><tr><td>AFTER DELETE</td><td>Yes</td><td>No</td><td>-</td></tr></table><pre><code>-- Capture the old value before the UPDATE
+CREATE TRIGGER log_price_change
+BEFORE UPDATE ON products
+FOR EACH ROW
+BEGIN
+    IF NEW.price <> OLD.price THEN
+        INSERT INTO price_history(product_id, old_price, new_price, changed_at)
+        VALUES (OLD.id, OLD.price, NEW.price, NOW());
+    END IF;
+END;</code></pre><h3>4. Classic Use Case: Audit Log for Salary Updates</h3><pre><code>CREATE TABLE salary_audit (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    emp_id INT,
+    old_salary DECIMAL(10,2),
+    new_salary DECIMAL(10,2),
+    changed_by VARCHAR(50),
+    changed_at DATETIME
+);
+
+DELIMITER $
+CREATE TRIGGER audit_salary
+AFTER UPDATE ON employees
+FOR EACH ROW
+BEGIN
+    IF NEW.salary <> OLD.salary THEN
+        INSERT INTO salary_audit(emp_id, old_salary, new_salary, changed_by, changed_at)
+        VALUES (OLD.id, OLD.salary, NEW.salary, CURRENT_USER(), NOW());
+    END IF;
+END$
+DELIMITER ;</code></pre><p>Now <em>every</em> salary change — from any service, any DBA, any migration — produces an audit row. The application cannot forget to log it, because the log is a consequence of the UPDATE, not a separate action.</p><h3>5. Validation Using SIGNAL</h3><p>Inside a BEFORE trigger, raising an error aborts the whole triggering statement. Use <code>SIGNAL SQLSTATE '45000'</code> for user-defined errors.</p><pre><code>DELIMITER $
+CREATE TRIGGER no_negative_salary
+BEFORE INSERT ON employees
+FOR EACH ROW
+BEGIN
+    IF NEW.salary < 0 THEN
+        SIGNAL SQLSTATE '45000'
+            SET MESSAGE_TEXT = 'Salary cannot be negative';
+    END IF;
+END$
+DELIMITER ;
+
+INSERT INTO employees(name, salary) VALUES ('Aarav', -100);
+-- ERROR 1644 (45000): Salary cannot be negative</code></pre><h3>6. Auto-Timestamp Triggers</h3><p>MySQL supports <code>DEFAULT CURRENT_TIMESTAMP</code> and <code>ON UPDATE CURRENT_TIMESTAMP</code> on TIMESTAMP/DATETIME columns, which covers most cases without a trigger. Use a trigger when you need conditional timestamping — for example, only stamp <code>last_edited_at</code> when specific columns change.</p><pre><code>DELIMITER $
+CREATE TRIGGER stamp_on_content_change
+BEFORE UPDATE ON posts
+FOR EACH ROW
+BEGIN
+    IF NEW.body <> OLD.body OR NEW.title <> OLD.title THEN
+        SET NEW.last_edited_at = NOW();
+    END IF;
+END$
+DELIMITER ;</code></pre><h3>7. Maintaining Denormalised Counts</h3><pre><code>-- categories.post_count must reflect the number of posts per category
+DELIMITER $
+CREATE TRIGGER inc_post_count
+AFTER INSERT ON posts
+FOR EACH ROW
+UPDATE categories
+SET post_count = post_count + 1
+WHERE id = NEW.category_id$
+
+CREATE TRIGGER dec_post_count
+AFTER DELETE ON posts
+FOR EACH ROW
+UPDATE categories
+SET post_count = post_count - 1
+WHERE id = OLD.category_id$
+
+CREATE TRIGGER move_post_count
+AFTER UPDATE ON posts
+FOR EACH ROW
+BEGIN
+    IF NEW.category_id <> OLD.category_id THEN
+        UPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id;
+        UPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id;
+    END IF;
+END$
+DELIMITER ;</code></pre><p>The three triggers keep the count correct through inserts, deletes, and re-categorisations. Yes, it is more code than computing <code>COUNT(*)</code> on demand — but it turns a homepage query from scanning millions of posts into reading a single column.</p><h3>8. SHOW TRIGGERS and DROP TRIGGER</h3><pre><code>SHOW TRIGGERS FROM shop;
+SHOW TRIGGERS LIKE 'employees';
+
+SHOW CREATE TRIGGER audit_salary;
+
+DROP TRIGGER IF EXISTS audit_salary;</code></pre><p>MySQL stores triggers in <code>information_schema.TRIGGERS</code>. Always write migrations with <code>DROP TRIGGER IF EXISTS ... ; CREATE TRIGGER ...;</code> so the migration is re-runnable.</p><h3>9. Trigger Pitfalls</h3><ul><li><strong>Hidden logic</strong>: a developer reading application code has no idea that INSERT into <code>orders</code> fires five triggers. Document triggers. Use naming conventions (<code>trg_&lt;table&gt;_&lt;event&gt;_&lt;purpose&gt;</code>).</li><li><strong>Performance</strong>: triggers run per row, inside the transaction. A bulk INSERT of a million rows runs the trigger a million times.</li><li><strong>Ordering</strong>: when multiple triggers fire on the same event, MySQL runs them in definition order. Use <code>FOLLOWS</code> / <code>PRECEDES</code> clauses to control ordering explicitly.</li><li><strong>Recursion</strong>: a trigger that modifies its own table fires again. MySQL disallows this by default; the trigger sees only the original statement.</li><li><strong>Binary log compatibility</strong>: row-based replication replicates the row changes from triggers transparently; statement-based replication can misbehave with non-deterministic triggers.</li></ul><h3>10. Scheduled Events: Syntax</h3><pre><code>-- Enable the scheduler (off by default in some configs)
+SET GLOBAL event_scheduler = ON;
+
+-- Run once, at a specific time
+CREATE EVENT drop_old_sessions
+ON SCHEDULE AT '2026-06-01 03:00:00'
+DO
+    DELETE FROM sessions WHERE last_active < '2026-05-01';
+
+-- Recurring
+CREATE EVENT hourly_cache_refresh
+ON SCHEDULE EVERY 1 HOUR
+STARTS '2026-04-17 00:00:00'
+DO
+    CALL refresh_daily_sales();
+
+-- With a start and end
+CREATE EVENT monthly_close
+ON SCHEDULE EVERY 1 MONTH
+STARTS '2026-05-01 23:00:00'
+ENDS '2027-05-01 23:00:00'
+DO
+    CALL close_month();</code></pre><h3>11. Event Management</h3><pre><code>SHOW EVENTS FROM shop;
+SHOW CREATE EVENT hourly_cache_refresh;
+
+-- Disable temporarily
+ALTER EVENT hourly_cache_refresh DISABLE;
+ALTER EVENT hourly_cache_refresh ENABLE;
+
+-- Drop
+DROP EVENT IF EXISTS hourly_cache_refresh;
+
+-- Check if the scheduler is running
+SHOW PROCESSLIST;  -- Look for 'event_scheduler' user
+-- or
+SELECT @@event_scheduler;</code></pre><h3>12. Use Cases for Events</h3><ul><li><strong>Daily cleanup</strong>: delete soft-deleted rows older than N days.</li><li><strong>Archiving</strong>: move rows older than one year from <code>orders</code> to <code>orders_archive</code>.</li><li><strong>Summary tables</strong>: refresh materialised-view surrogates (see Chapter 21).</li><li><strong>Reports</strong>: compute monthly closing balances, insert a row per account.</li><li><strong>TTL for tokens</strong>: delete expired password-reset tokens every minute.</li></ul><h3>13. Events vs External cron</h3><table border='1' cellpadding='6'><tr><th>Aspect</th><th>MySQL Event</th><th>External cron</th></tr><tr><td>Location</td><td>Inside the database</td><td>On a separate host</td></tr><tr><td>Replication</td><td>Replicates to replicas (or SKIP on replicas if duplicate)</td><td>Runs wherever cron runs</td></tr><tr><td>Monitoring</td><td>Limited — check last_executed in information_schema</td><td>Full logging, alerting</td></tr><tr><td>Failure handling</td><td>Silent — errors go to MySQL error log</td><td>Email, Slack, PagerDuty</td></tr><tr><td>Version control</td><td>Schema migrations</td><td>Crontab file in git</td></tr></table><p>The pragmatic rule: use events for simple database-internal chores. For anything that needs robust monitoring, alerting, or coordination across multiple databases, use a real scheduler.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Audit Log Trigger on Salary Changes</div><pre><code class="language-python">CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    salary DECIMAL(10,2)
+);
+
+CREATE TABLE salary_audit (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    emp_id INT,
+    old_salary DECIMAL(10,2),
+    new_salary DECIMAL(10,2),
+    changed_at DATETIME
+);
+
+INSERT INTO employees VALUES
+(1, &#39;Aarav&#39;, 50000),
+(2, &#39;Priya&#39;, 60000);
+
+DELIMITER $
+CREATE TRIGGER audit_salary
+AFTER UPDATE ON employees
+FOR EACH ROW
+BEGIN
+    IF NEW.salary &lt;&gt; OLD.salary THEN
+        INSERT INTO salary_audit(emp_id, old_salary, new_salary, changed_at)
+        VALUES (OLD.id, OLD.salary, NEW.salary, NOW());
+    END IF;
+END$
+DELIMITER ;
+
+UPDATE employees SET salary = 55000 WHERE id = 1;
+UPDATE employees SET salary = 60000 WHERE id = 2;  -- same salary, no audit
+
+SELECT * FROM salary_audit;</code></pre><div class="code-example-explanation">The AFTER UPDATE trigger fires for every row touched by an UPDATE. We compare NEW.salary to OLD.salary so the trigger only writes audit rows when the salary actually changed — a common optimisation (UPDATE statements that set a column to the same value are a real source of noise).</div><div class="code-example-output">+----+--------+------------+------------+---------------------+
+| id | emp_id | old_salary | new_salary | changed_at          |
++----+--------+------------+------------+---------------------+
+|  1 |      1 |   50000.00 |   55000.00 | 2026-04-16 14:22:05 |
++----+--------+------------+------------+---------------------+
+-- Only one row because Priya&#39;s salary did not actually change.</div></div>
+<div class="code-example"><div class="code-example-title">BEFORE INSERT Trigger to Normalise and Validate</div><pre><code class="language-python">CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(100) UNIQUE,
+    created_at DATETIME
+);
+
+DELIMITER $
+CREATE TRIGGER before_user_insert
+BEFORE INSERT ON users
+FOR EACH ROW
+BEGIN
+    -- Normalise email
+    SET NEW.email = LOWER(TRIM(NEW.email));
+
+    -- Validate email format (very basic)
+    IF NEW.email NOT LIKE &#39;%_@_%._%&#39; THEN
+        SIGNAL SQLSTATE &#39;45000&#39;
+            SET MESSAGE_TEXT = &#39;Invalid email format&#39;;
+    END IF;
+
+    -- Default timestamp if not provided
+    IF NEW.created_at IS NULL THEN
+        SET NEW.created_at = NOW();
+    END IF;
+END$
+DELIMITER ;
+
+INSERT INTO users(email) VALUES (&#39;  Aarav@Example.COM &#39;);
+INSERT INTO users(email) VALUES (&#39;priya@mail.in&#39;);
+SELECT id, email, created_at FROM users;
+
+-- Bad email is rejected before it hits the table
+INSERT INTO users(email) VALUES (&#39;not-an-email&#39;);</code></pre><div class="code-example-explanation">A BEFORE trigger can modify NEW to normalise input and raise errors with SIGNAL to reject bad rows. Because the trigger runs before the row is written, rejected rows never touch the table, never increment the AUTO_INCREMENT counter, and never appear in any UNIQUE index.</div><div class="code-example-output">+----+--------------------+---------------------+
+| id | email              | created_at          |
++----+--------------------+---------------------+
+|  1 | aarav@example.com  | 2026-04-16 14:25:11 |
+|  2 | priya@mail.in      | 2026-04-16 14:25:11 |
++----+--------------------+---------------------+
+
+ERROR 1644 (45000): Invalid email format</div></div>
+<div class="code-example"><div class="code-example-title">Denormalised Counter Maintenance</div><pre><code class="language-python">CREATE TABLE categories (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    post_count INT DEFAULT 0
+);
+
+CREATE TABLE posts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100),
+    category_id INT
+);
+
+INSERT INTO categories(id, name) VALUES (1, &#39;Tech&#39;), (2, &#39;Food&#39;);
+
+DELIMITER $
+
+CREATE TRIGGER posts_inc_count
+AFTER INSERT ON posts
+FOR EACH ROW
+UPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id$
+
+CREATE TRIGGER posts_dec_count
+AFTER DELETE ON posts
+FOR EACH ROW
+UPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id$
+
+CREATE TRIGGER posts_move_count
+AFTER UPDATE ON posts
+FOR EACH ROW
+BEGIN
+    IF NEW.category_id &lt;&gt; OLD.category_id THEN
+        UPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id;
+        UPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id;
+    END IF;
+END$
+
+DELIMITER ;
+
+INSERT INTO posts(title, category_id) VALUES (&#39;Aarav on CPUs&#39;, 1), (&#39;Priya on pasta&#39;, 2), (&#39;Rohan on GPUs&#39;, 1);
+UPDATE posts SET category_id = 2 WHERE title = &#39;Rohan on GPUs&#39;;
+DELETE FROM posts WHERE title = &#39;Priya on pasta&#39;;
+
+SELECT * FROM categories;</code></pre><div class="code-example-explanation">Three triggers keep <code>categories.post_count</code> consistent. Inserting a Tech post increments Tech. Moving Rohan's post from Tech to Food decrements Tech and increments Food. Deleting Priya's post decrements Food. Without these, every page-load would have to <code>SELECT COUNT(*) FROM posts GROUP BY category_id</code> — expensive at scale.</div><div class="code-example-output">+----+------+------------+
+| id | name | post_count |
++----+------+------------+
+|  1 | Tech |          1 |
+|  2 | Food |          1 |
++----+------+------------+
+-- Tech has &#39;Aarav on CPUs&#39;. Food has &#39;Rohan on GPUs&#39; (moved in).</div></div>
+<div class="code-example"><div class="code-example-title">BEFORE UPDATE Trigger That Rejects Changes to Locked Rows</div><pre><code class="language-python">CREATE TABLE invoices (
+    id INT PRIMARY KEY,
+    amount DECIMAL(10,2),
+    status VARCHAR(20)
+);
+
+INSERT INTO invoices VALUES
+(1001, 5000, &#39;DRAFT&#39;),
+(1002, 7500, &#39;LOCKED&#39;);
+
+DELIMITER $
+CREATE TRIGGER protect_locked_invoice
+BEFORE UPDATE ON invoices
+FOR EACH ROW
+BEGIN
+    IF OLD.status = &#39;LOCKED&#39; AND NEW.amount &lt;&gt; OLD.amount THEN
+        SIGNAL SQLSTATE &#39;45000&#39;
+            SET MESSAGE_TEXT = &#39;Cannot change amount on a LOCKED invoice&#39;;
+    END IF;
+END$
+DELIMITER ;
+
+-- Allowed
+UPDATE invoices SET amount = 5500 WHERE id = 1001;
+
+-- Blocked
+UPDATE invoices SET amount = 8000 WHERE id = 1002;</code></pre><div class="code-example-explanation">Business rule: once an invoice is LOCKED, its amount cannot change (status changes are still permitted — e.g. LOCKED -> PAID). The BEFORE UPDATE trigger compares OLD.status and the amount field. If both conditions hit, SIGNAL aborts the UPDATE and the row stays untouched.</div><div class="code-example-output">Query OK, 1 row affected (0.01 sec)
+-- First update succeeded.
+
+ERROR 1644 (45000): Cannot change amount on a LOCKED invoice
+-- Second update aborted. invoice 1002 still has amount 7500.</div></div>
+<div class="code-example"><div class="code-example-title">Soft-Delete Event</div><pre><code class="language-python">CREATE TABLE customers (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    deleted_at DATETIME NULL
+);
+
+INSERT INTO customers VALUES
+(1, &#39;Aarav&#39;, NULL),
+(2, &#39;Priya&#39;, &#39;2026-03-01 10:00:00&#39;),   -- 46 days ago on 2026-04-16
+(3, &#39;Rohan&#39;, &#39;2026-04-10 09:00:00&#39;),   -- 6 days ago
+(4, &#39;Anika&#39;, &#39;2026-03-15 14:30:00&#39;);   -- 32 days ago
+
+-- Enable the scheduler
+SET GLOBAL event_scheduler = ON;
+
+CREATE EVENT cleanup_old_soft_deletes
+ON SCHEDULE EVERY 1 DAY
+STARTS &#39;2026-04-17 02:00:00&#39;
+DO
+    DELETE FROM customers
+    WHERE deleted_at IS NOT NULL
+      AND deleted_at &lt; NOW() - INTERVAL 30 DAY;
+
+-- Run it manually (for testing) by calling the same DELETE
+DELETE FROM customers
+WHERE deleted_at IS NOT NULL
+  AND deleted_at &lt; NOW() - INTERVAL 30 DAY;
+
+SELECT * FROM customers;</code></pre><div class="code-example-explanation">The event physically removes customers that were soft-deleted more than 30 days ago. Priya (46 days) and Anika (32 days) are hard-deleted. Rohan (6 days) stays because he is within the retention window. The scheduler runs this every day at 2 a.m. without any application involvement.</div><div class="code-example-output">+----+-------+------------+
+| id | name  | deleted_at |
++----+-------+------------+
+|  1 | Aarav | NULL       |
+|  3 | Rohan | 2026-04-10 09:00:00 |
++----+-------+------------+</div></div>
+<div class="code-example"><div class="code-example-title">Hourly Event Calling a Refresh Procedure</div><pre><code class="language-python">CREATE TABLE orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    created_at DATETIME,
+    total DECIMAL(10,2)
+);
+
+CREATE TABLE mv_daily_sales (
+    d DATE PRIMARY KEY,
+    revenue DECIMAL(12,2),
+    n_orders INT
+);
+
+DELIMITER $
+CREATE PROCEDURE refresh_mv_daily_sales()
+BEGIN
+    TRUNCATE TABLE mv_daily_sales;
+    INSERT INTO mv_daily_sales(d, revenue, n_orders)
+    SELECT DATE(created_at), SUM(total), COUNT(*)
+    FROM orders
+    GROUP BY DATE(created_at);
+END$
+DELIMITER ;
+
+SET GLOBAL event_scheduler = ON;
+
+CREATE EVENT refresh_mv_hourly
+ON SCHEDULE EVERY 1 HOUR
+STARTS CURRENT_TIMESTAMP
+COMMENT &#39;Rebuild daily sales summary every hour&#39;
+DO CALL refresh_mv_daily_sales();
+
+-- Check the schedule
+SHOW EVENTS WHERE Name = &#39;refresh_mv_hourly&#39;;</code></pre><div class="code-example-explanation">The event calls a procedure rather than embedding the SQL directly. This is a clean separation: the procedure describes <em>what</em> to do, the event describes <em>when</em>. If you ever need to run the refresh on demand, you call the procedure. If the schedule changes, you ALTER EVENT without touching the SQL.</div><div class="code-example-output">+---------+-------------------+---------+-----------+-----------+--------+...
+| Db      | Name              | Definer | Time zone | Type      | Status |
++---------+-------------------+---------+-----------+-----------+--------+
+| shop    | refresh_mv_hourly | root@lh | SYSTEM    | RECURRING | ENABLED|
++---------+-------------------+---------+-----------+-----------+--------+</div></div>
+<div class="code-example"><div class="code-example-title">AFTER DELETE Trigger: Archive to History Table</div><pre><code class="language-python">CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    salary DECIMAL(10,2)
+);
+
+CREATE TABLE employees_history (
+    id INT,
+    name VARCHAR(50),
+    salary DECIMAL(10,2),
+    deleted_at DATETIME
+);
+
+INSERT INTO employees VALUES (1, &#39;Aarav&#39;, 50000), (2, &#39;Priya&#39;, 60000);
+
+DELIMITER $
+CREATE TRIGGER archive_on_delete
+AFTER DELETE ON employees
+FOR EACH ROW
+INSERT INTO employees_history(id, name, salary, deleted_at)
+VALUES (OLD.id, OLD.name, OLD.salary, NOW())$
+DELIMITER ;
+
+DELETE FROM employees WHERE id = 1;
+
+SELECT &#39;employees&#39; AS tbl, id, name FROM employees
+UNION ALL
+SELECT &#39;history&#39;,        id, name FROM employees_history;</code></pre><div class="code-example-explanation">The AFTER DELETE trigger copies the old row into a history table the moment it is deleted from the live table. This is the "soft delete without bloat" pattern — the live table stays lean, but you retain a full audit trail in a separate archive table that can be moved to cheaper storage.</div><div class="code-example-output">+-----------+----+-------+
+| tbl       | id | name  |
++-----------+----+-------+
+| employees |  2 | Priya |
+| history   |  1 | Aarav |
++-----------+----+-------+</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using AFTER Trigger When You Need to Modify NEW</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE TRIGGER normalise_email
+AFTER INSERT ON users
+FOR EACH ROW
+SET NEW.email = LOWER(NEW.email);
+-- ERROR 1362: Updating of NEW row is not allowed in after trigger</code></pre></div><div class="error-message">ERROR 1362 (HY000): Updating of NEW row is not allowed in after trigger</div><div class="correct-code"><pre><code class="language-python">CREATE TRIGGER normalise_email
+BEFORE INSERT ON users
+FOR EACH ROW
+SET NEW.email = LOWER(NEW.email);</code></pre></div><div class="mistake-explanation">AFTER triggers see the row after it has been written. You can read NEW but not modify it — the row is already on disk. To normalise or default values, use BEFORE. This is the most common confusion for people new to triggers.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Referring to OLD in an INSERT Trigger</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE TRIGGER log_insert
+AFTER INSERT ON orders
+FOR EACH ROW
+INSERT INTO log VALUES (OLD.id, &#39;created&#39;);
+-- ERROR 1363: There is no OLD row in on INSERT trigger</code></pre></div><div class="error-message">ERROR 1363 (HY000): There is no OLD row in on INSERT trigger</div><div class="correct-code"><pre><code class="language-python">CREATE TRIGGER log_insert
+AFTER INSERT ON orders
+FOR EACH ROW
+INSERT INTO log VALUES (NEW.id, &#39;created&#39;);</code></pre></div><div class="mistake-explanation">INSERT triggers have NEW only. DELETE triggers have OLD only. UPDATE triggers have both. Memorise the table: N for new = INSERT, O for old = DELETE, both = UPDATE.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Enable event_scheduler</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE EVENT nightly_cleanup
+ON SCHEDULE EVERY 1 DAY
+DO DELETE FROM sessions WHERE last_active &lt; NOW() - INTERVAL 30 DAY;
+-- Event is created, but never runs.
+-- SHOW PROCESSLIST has no &#39;event_scheduler&#39; user.</code></pre></div><div class="error-message">No error — the event is created but silently never executes.</div><div class="correct-code"><pre><code class="language-python">-- Check the scheduler status
+SELECT @@event_scheduler;      -- &#39;OFF&#39; or &#39;ON&#39; or &#39;DISABLED&#39;
+
+-- Turn it on (session or permanent)
+SET GLOBAL event_scheduler = ON;
+
+-- Make it persistent across restarts: in my.cnf
+-- [mysqld]
+-- event_scheduler=ON</code></pre></div><div class="mistake-explanation"><code>event_scheduler</code> is OFF by default on some MySQL distributions. Without the scheduler thread running, events exist but never fire. Always check <code>SHOW VARIABLES LIKE 'event_scheduler'</code> during setup and add the setting to my.cnf for persistence.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Infinite Trigger Recursion Attempt</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE TRIGGER copy_comment
+AFTER INSERT ON comments
+FOR EACH ROW
+INSERT INTO comments(post_id, body) VALUES (NEW.post_id, CONCAT(&#39;copy: &#39;, NEW.body));
+-- Inserting into comments fires the trigger again, which inserts again, ...
+-- MySQL prevents recursive trigger invocation on the same table by default.</code></pre></div><div class="error-message">In some cases, ERROR 1442 (HY000): Can&#39;t update table &#39;...&#39; in stored function/trigger because it is already used by statement which invoked this stored function/trigger.</div><div class="correct-code"><pre><code class="language-python">-- Either:
+-- (a) Insert into a DIFFERENT table
+CREATE TRIGGER log_comment
+AFTER INSERT ON comments
+FOR EACH ROW
+INSERT INTO comment_audit(comment_id, body, logged_at)
+VALUES (NEW.id, NEW.body, NOW());
+
+-- (b) Modify NEW in a BEFORE trigger, no recursion
+CREATE TRIGGER tag_comment
+BEFORE INSERT ON comments
+FOR EACH ROW
+SET NEW.body = CONCAT(&#39;verified: &#39;, NEW.body);</code></pre></div><div class="mistake-explanation">A trigger cannot modify the same table that caused it to fire — MySQL blocks this to prevent infinite loops. If you need to enrich the row being inserted, do it in a BEFORE trigger by modifying NEW. Side effects on related tables are fine.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Trigger That Assumes Statement-Level Fire</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Expecting this to run once per INSERT statement
+CREATE TRIGGER notify_ops
+AFTER INSERT ON alerts
+FOR EACH ROW
+INSERT INTO ops_queue(msg) VALUES (&#39;new alerts arrived&#39;);
+
+-- INSERT INTO alerts VALUES (...), (...), (...);
+-- ops_queue gets THREE rows, not one.</code></pre></div><div class="error-message">No error — but ops_queue fills up faster than expected.</div><div class="correct-code"><pre><code class="language-python">-- Accept per-row behaviour and deduplicate downstream,
+-- or do the notification in the application after the statement.
+
+-- If you really want one message per statement, track the last statement
+-- via a session variable and skip duplicate rows:
+CREATE TRIGGER notify_ops_once
+AFTER INSERT ON alerts
+FOR EACH ROW
+BEGIN
+    IF @last_notified_stmt IS NULL
+       OR @last_notified_stmt &lt;&gt; CONNECTION_ID() THEN
+        SET @last_notified_stmt = CONNECTION_ID();
+        INSERT INTO ops_queue(msg) VALUES (&#39;new alerts arrived&#39;);
+    END IF;
+END;</code></pre></div><div class="mistake-explanation">MySQL only supports row-level triggers (FOR EACH ROW). Oracle-style statement-level triggers do not exist. Always design triggers expecting one invocation per affected row. Bulk inserts and UPDATEs can unexpectedly amplify trigger side effects.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A trigger is automatic SQL that runs in response to an INSERT, UPDATE, or DELETE on a specific table. It can fire BEFORE or AFTER the change. Triggers are row-level in MySQL — they fire once per affected row.</li>
+<li>Use BEFORE triggers to validate input and modify NEW (normalise, default, reject via SIGNAL). Use AFTER triggers to log, maintain counters, or cascade non-critical updates to other tables.</li>
+<li>NEW refers to the incoming row (available in INSERT and UPDATE). OLD refers to the previous row (available in UPDATE and DELETE). AFTER triggers see NEW as read-only; BEFORE triggers can assign to NEW.</li>
+<li>SIGNAL SQLSTATE &#39;45000&#39; SET MESSAGE_TEXT = &#39;...&#39; in a BEFORE trigger aborts the triggering statement and returns the error to the caller. This is how you enforce cross-row business rules that CHECK constraints cannot express.</li>
+<li>Canonical trigger use cases: audit logs (AFTER UPDATE/DELETE), validation (BEFORE INSERT/UPDATE), conditional timestamps (BEFORE UPDATE), denormalised counts (AFTER INSERT/DELETE/UPDATE), and archive-on-delete (AFTER DELETE).</li>
+<li>Trigger pitfalls: hidden logic (document thoroughly), per-row performance (triggers run N times for N-row statements), ordering (MySQL runs them in definition order; use FOLLOWS / PRECEDES to control), and inability to recurse on the same table.</li>
+<li>A scheduled event is code that runs on a time schedule. Use CREATE EVENT ... ON SCHEDULE AT &lt;time&gt; for one-off tasks or ON SCHEDULE EVERY &lt;interval&gt; for recurring tasks. The body is one or more SQL statements, usually CALL to a procedure.</li>
+<li>event_scheduler must be ON for events to fire. Set SET GLOBAL event_scheduler = ON and add event_scheduler=ON to my.cnf to survive restarts. Without the scheduler, events exist but never execute.</li>
+<li>Classic event use cases: daily cleanup of soft-deleted rows, nightly archival to a history table, hourly refresh of materialised-view tables, monthly report generation, and expiry of tokens / sessions.</li>
+<li>Events vs cron: use events for simple database-internal chores. For anything needing robust monitoring, retries, or coordination across systems, use a real external scheduler (cron, Airflow, k8s CronJob) because MySQL&#39;s event monitoring is limited to the error log.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/views-and-stored-procedures" class="related-topic-link">Views, Stored Procedures, and Functions</a>
+<a href="/resources/sql/transactions-and-acid" class="related-topic-link">Transactions and ACID Properties</a>
+<a href="/resources/sql/database-design-and-normalization" class="related-topic-link">Database Design and Normalization (1NF, 2NF, 3NF, BCNF)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/views-and-stored-procedures" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Views, Stored Procedures, and Functions</span>
+        </a>
+            <a href="/resources/sql/transactions-and-acid" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Transactions and ACID Properties</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/triggers-and-events/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

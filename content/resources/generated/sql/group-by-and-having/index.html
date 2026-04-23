@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUP BY and HAVING - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Group rows for aggregation, filter groups with HAVING, and understand the order of SQL clauses.">
+    <meta name="keywords" content="group by and having, sql tutorial, sql group by and having, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/group-by-and-having">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/group-by-and-having">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/group-by-and-having">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/group-by-and-having">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/group-by-and-having">
+    <meta property="og:title" content="GROUP BY and HAVING - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Group rows for aggregation, filter groups with HAVING, and understand the order of SQL clauses.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/group-by-and-having">
+    <meta name="twitter:title" content="GROUP BY and HAVING - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Group rows for aggregation, filter groups with HAVING, and understand the order of SQL clauses.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "GROUP BY and HAVING",
+    "description": "Group rows for aggregation, filter groups with HAVING, and understand the order of SQL clauses.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-04-16",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/group-by-and-having"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/group-by-and-having"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "GROUP BY and HAVING",
+        "item": "https://learn.modernagecoders.com/resources/sql/group-by-and-having"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using WHERE to Filter Aggregates",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "WHERE filters rows before aggregation. Aggregates like SUM don't exist during WHERE. Use HAVING (after GROUP BY) for aggregate filters. This is the most common GROUP BY mistake."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Non-Aggregated Columns Missing From GROUP BY",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every column in SELECT must either be in GROUP BY or inside an aggregate. MySQL's default strict mode enforces this. Picking an arbitrary value is a silent bug — you get 'some salesperson' for each region with no indication which."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Clause Order",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The syntactic order is fixed: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. You cannot reorder. Memorize this — the logical execution order differs, but the syntax order is rigid."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using WHERE Alias",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Column aliases are assigned in SELECT, which runs AFTER WHERE. WHERE cannot see them. HAVING (and ORDER BY) run after SELECT in MySQL, so they can use aliases. PostgreSQL requires the full expression in HAVING."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting GROUP BY To Return Top N Per Group",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Plain GROUP BY cannot return 'top N per group.' LIMIT applies to the whole result, not per group. The correct solution uses window functions (ROW_NUMBER with PARTITION BY). This is a classic interview trap."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">GROUP BY and HAVING</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 10</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">24 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-16</span>
+            </div>
+            <h1 class="resource-title">GROUP BY and HAVING</h1>
+            <a href="/resources/sql/group-by-and-having/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is GROUP BY?</h2><p>In the last chapter you computed aggregates over the whole table or over rows filtered by WHERE. But what if you want one aggregate <strong>per department</strong>, or per city, or per month? That is what <code>GROUP BY</code> does.</p><p><code>GROUP BY</code> splits the rows into groups based on the values of one or more columns, then applies aggregate functions <strong>within each group</strong>. The result has one row per group.</p><p>Example: <code>SELECT department, AVG(salary) FROM employees GROUP BY department</code> returns one row for each department with that department's average salary.</p><h3>What Is HAVING?</h3><p>Once you have grouped rows, you often want to filter the groups themselves. "Show only departments with more than 5 employees." "Show only cities where total sales exceed 100000." That is <code>HAVING</code>.</p><p><strong>WHERE filters rows before grouping. HAVING filters groups after.</strong> This is the single most important distinction in this chapter and a favorite interview question.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why GROUP BY Is Essential</h2><h3>1. Every Summary Report Uses GROUP BY</h3><p>"Revenue per country," "Orders per month," "Active users per day," "Enrollments per course" — all GROUP BY queries. Business intelligence is 80% GROUP BY.</p><h3>2. It's Where SQL Gets Powerful</h3><p>Simple SELECT and WHERE queries are useful but limited. GROUP BY unlocks real analytics: top-selling products, busiest hours, best-performing regions. Many data analyst roles exist specifically to write complex GROUP BY queries.</p><h3>3. HAVING Answers the "Which Group" Questions</h3><p>"Which courses have more than 100 students?" "Which products have never been returned?" "Which days had zero signups?" All need HAVING because you are filtering GROUPS based on their aggregate properties.</p><h3>4. Clause Order Misunderstandings Kill Careers</h3><p>Using an alias in WHERE, putting HAVING before GROUP BY, referencing an aggregate in WHERE — these are career-limiting mistakes in interviews. This chapter nails down the exact order.</p><h3>5. Every Interview Tests This</h3><p>"Find departments where the average salary is above 70000" and variants are asked in 100% of SQL interviews. After this chapter, you will write these in your sleep.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Reference Table: sales</h3><p>We use a <code>sales</code> table for this chapter:</p><pre><code>CREATE TABLE sales (
+    id INT PRIMARY KEY,
+    salesperson VARCHAR(50),
+    region VARCHAR(30),
+    product VARCHAR(40),
+    amount DECIMAL(10,2),
+    sale_date DATE
+);
+
+INSERT INTO sales VALUES
+(1, 'Aarav Sharma', 'North', 'Laptop', 55000, '2026-01-10'),
+(2, 'Priya Patel', 'South', 'Phone', 25000, '2026-01-15'),
+(3, 'Rohan Gupta', 'North', 'Laptop', 60000, '2026-01-20'),
+(4, 'Ananya Singh', 'East', 'Tablet', 18000, '2026-02-05'),
+(5, 'Aarav Sharma', 'North', 'Phone', 22000, '2026-02-12'),
+(6, 'Vikram Reddy', 'South', 'Laptop', 58000, '2026-02-18'),
+(7, 'Priya Patel', 'South', 'Tablet', 20000, '2026-02-25'),
+(8, 'Rohan Gupta', 'North', 'Phone', 28000, '2026-03-03'),
+(9, 'Karan Mehta', 'West', 'Laptop', 65000, '2026-03-10'),
+(10, 'Sneha Iyer', 'East', 'Phone', 24000, '2026-03-15'),
+(11, 'Aarav Sharma', 'North', 'Tablet', 19000, '2026-03-22'),
+(12, 'Ananya Singh', 'East', 'Laptop', 54000, '2026-04-02'),
+(13, 'Karan Mehta', 'West', 'Phone', 26000, '2026-04-08'),
+(14, 'Diya Nair', 'West', 'Laptop', 62000, '2026-04-15'),
+(15, 'Priya Patel', 'South', 'Laptop', 57000, '2026-04-20');</code></pre><h3>1. Basic GROUP BY</h3><p>Syntax: <code>SELECT group_columns, aggregate(col) FROM table GROUP BY group_columns</code>.</p><pre><code>-- Total sales per region
+SELECT region, SUM(amount) AS total_sales
+FROM sales
+GROUP BY region;</code></pre><p>Rows with the same <code>region</code> are collapsed into one group. <code>SUM(amount)</code> sums the amounts within each group. Result has 4 rows — one per region.</p><h3>2. The Rule: Non-Aggregated Columns MUST Be in GROUP BY</h3><p>Standard SQL requires every column in SELECT to be either (a) inside an aggregate function, or (b) listed in GROUP BY. This is strict:</p><pre><code>-- CORRECT
+SELECT region, SUM(amount) FROM sales GROUP BY region;
+
+-- BAD SQL (but MySQL may allow in lenient mode)
+SELECT region, salesperson, SUM(amount) FROM sales GROUP BY region;
+-- salesperson isn't aggregated and isn't in GROUP BY — what should MySQL return?</code></pre><p>MySQL's default strict mode (ONLY_FULL_GROUP_BY, since 5.7) throws an error. Old lenient mode silently picked an arbitrary value — a dangerous bug. <strong>Always follow the rule.</strong></p><h3>3. GROUP BY Multiple Columns</h3><p>You can group by combinations:</p><pre><code>-- Sales per (region, product)
+SELECT region, product, SUM(amount) AS total
+FROM sales
+GROUP BY region, product;</code></pre><p>Groups are unique <code>(region, product)</code> pairs. North-Laptop, North-Phone, South-Laptop, etc.</p><h3>4. HAVING — Filtering Groups</h3><p><code>HAVING</code> applies AFTER grouping. You can use aggregates in HAVING:</p><pre><code>-- Regions with total sales > 100000
+SELECT region, SUM(amount) AS total
+FROM sales
+GROUP BY region
+HAVING SUM(amount) > 100000;</code></pre><p>First, GROUP BY creates region groups with their sums. Then HAVING keeps only groups where the sum exceeds 100000.</p><h3>5. WHERE vs HAVING — The Critical Distinction</h3><p><strong>WHERE filters rows BEFORE aggregation. HAVING filters groups AFTER.</strong></p><pre><code>-- Only Laptop sales, per region, where that region has > 100000 in laptops
+SELECT region, SUM(amount) AS laptop_revenue
+FROM sales
+WHERE product = 'Laptop'   -- filter rows first: keep only Laptop sales
+GROUP BY region
+HAVING SUM(amount) > 100000;  -- filter groups: keep only big laptop regions</code></pre><p>WHERE trims the input. HAVING trims the groups. Different jobs, different clauses.</p><h3>6. Order of Clauses — Syntax vs Logic</h3><p><strong>Syntactic order</strong> (how you write it):</p><pre><code>SELECT columns
+FROM table
+WHERE row_conditions
+GROUP BY group_columns
+HAVING group_conditions
+ORDER BY columns
+LIMIT n;</code></pre><p><strong>Logical execution order</strong> (how SQL actually runs it):</p><ol><li><strong>FROM</strong> — identify the table</li><li><strong>WHERE</strong> — filter rows</li><li><strong>GROUP BY</strong> — form groups</li><li><strong>HAVING</strong> — filter groups</li><li><strong>SELECT</strong> — compute selected columns and aggregates</li><li><strong>ORDER BY</strong> — sort</li><li><strong>LIMIT</strong> — trim to N</li></ol><p>Two consequences:</p><ul><li>WHERE cannot reference aggregates or column aliases (they don't exist yet).</li><li>ORDER BY CAN reference aggregates and aliases (SELECT ran already).</li></ul><h3>7. GROUP BY with ORDER BY and LIMIT</h3><p>The full power:</p><pre><code>-- Top 3 regions by total sales
+SELECT region, SUM(amount) AS total
+FROM sales
+GROUP BY region
+ORDER BY total DESC
+LIMIT 3;</code></pre><p>GROUP BY creates groups, ORDER BY sorts them by the aggregate, LIMIT keeps top 3.</p><h3>8. Counting Per Group</h3><pre><code>-- Number of sales per salesperson
+SELECT salesperson, COUNT(*) AS num_sales, SUM(amount) AS total
+FROM sales
+GROUP BY salesperson
+ORDER BY num_sales DESC;</code></pre><p>This answers "who made the most sales?" Aarav has 3 sales, Priya has 3, Rohan has 2, etc.</p><h3>9. Multiple Aggregates Per Group</h3><pre><code>SELECT 
+    region,
+    COUNT(*) AS num_sales,
+    SUM(amount) AS total,
+    AVG(amount) AS avg_sale,
+    MIN(amount) AS smallest,
+    MAX(amount) AS largest
+FROM sales
+GROUP BY region;</code></pre><p>Gives a complete per-region summary in one query.</p><h3>10. WITH ROLLUP — Adding Subtotals</h3><p>MySQL's <code>WITH ROLLUP</code> adds grand total (and subtotals for multi-column GROUP BY):</p><pre><code>SELECT region, SUM(amount) AS total
+FROM sales
+GROUP BY region WITH ROLLUP;</code></pre><p>Returns per-region sums PLUS a final row with region=NULL and total across all regions. Useful for reports.</p><h3>11. Classic Interview Patterns</h3><p><strong>Top N per group (requires window functions, chapter 18):</strong> "Top 3 salespeople per region." Cannot be done cleanly with GROUP BY alone. We will tackle this with ROW_NUMBER() later.</p><p><strong>Filtering groups by count:</strong></p><pre><code>-- Regions with 4 or more sales
+SELECT region, COUNT(*) AS n FROM sales
+GROUP BY region HAVING COUNT(*) >= 4;</code></pre><p><strong>Filtering groups by sum:</strong></p><pre><code>-- Salespeople with total sales above 100000
+SELECT salesperson, SUM(amount) AS total FROM sales
+GROUP BY salesperson HAVING SUM(amount) > 100000;</code></pre><p><strong>Combining WHERE and HAVING:</strong></p><pre><code>-- For Laptops only, regions with more than 2 laptop sales
+SELECT region, COUNT(*) AS laptop_sales FROM sales
+WHERE product = 'Laptop'
+GROUP BY region
+HAVING COUNT(*) > 2;</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic GROUP BY — Sales Per Region</div><pre><code class="language-python">SELECT region, SUM(amount) AS total_sales
+FROM sales
+GROUP BY region;</code></pre><div class="code-example-explanation">Groups all 15 rows by region. Four regions: North, South, East, West. Within each group, sum the amount. North has 5 sales (ids 1,3,5,8,11). South has 4 (2,6,7,15). East has 3 (4,10,12). West has 3 (9,13,14). The result has 4 rows.</div><div class="code-example-output">region  total_sales
+North   184000.00  (55000+60000+22000+28000+19000)
+South   160000.00  (25000+58000+20000+57000)
+East    96000.00   (18000+24000+54000)
+West    153000.00  (65000+26000+62000)</div></div>
+<div class="code-example"><div class="code-example-title">GROUP BY Multiple Columns</div><pre><code class="language-python">SELECT region, product, COUNT(*) AS sales_count, SUM(amount) AS revenue
+FROM sales
+GROUP BY region, product
+ORDER BY region, product;</code></pre><div class="code-example-explanation">Groups by unique (region, product) pairs. For each pair, count rows and sum amount. Each region has multiple products, giving many groups. This is a classic cross-tabulation query.</div><div class="code-example-output">region  product  sales_count  revenue
+East    Laptop   1            54000
+East    Phone    1            24000
+East    Tablet   1            18000
+North   Laptop   2            115000
+North   Phone    2            50000
+North   Tablet   1            19000
+South   Laptop   2            115000
+South   Phone    1            25000
+South   Tablet   1            20000
+West    Laptop   2            127000
+West    Phone    1            26000</div></div>
+<div class="code-example"><div class="code-example-title">HAVING — Filter Groups by Aggregate</div><pre><code class="language-python">-- Regions with total sales above 150000
+SELECT region, SUM(amount) AS total
+FROM sales
+GROUP BY region
+HAVING SUM(amount) &gt; 150000;</code></pre><div class="code-example-explanation">After grouping by region, filter with HAVING. Only regions where sum > 150000 survive. North (184000), South (160000), West (153000) pass. East (96000) is excluded. HAVING can use any aggregate in its condition.</div><div class="code-example-output">region  total
+North   184000.00
+South   160000.00
+West    153000.00</div></div>
+<div class="code-example"><div class="code-example-title">WHERE vs HAVING — Both in One Query</div><pre><code class="language-python">-- For Laptop sales only, regions with total laptop revenue &gt; 100000
+SELECT region, SUM(amount) AS laptop_revenue
+FROM sales
+WHERE product = &#39;Laptop&#39;    -- filter rows: keep only Laptop
+GROUP BY region
+HAVING SUM(amount) &gt; 100000; -- filter groups</code></pre><div class="code-example-explanation">WHERE trims rows first (only Laptop sales — 7 rows). Then GROUP BY creates region groups. Then HAVING keeps groups with laptop revenue > 100000. North (55000+60000 = 115000), South (58000+57000 = 115000), West (65000+62000 = 127000) pass. East has only 1 laptop sale of 54000 and is excluded.</div><div class="code-example-output">region  laptop_revenue
+North   115000.00
+South   115000.00
+West    127000.00</div></div>
+<div class="code-example"><div class="code-example-title">Top N Groups by Aggregate</div><pre><code class="language-python">-- Top 3 salespeople by total revenue
+SELECT salesperson, SUM(amount) AS total_revenue, COUNT(*) AS num_sales
+FROM sales
+GROUP BY salesperson
+ORDER BY total_revenue DESC
+LIMIT 3;</code></pre><div class="code-example-explanation">Group by salesperson, compute sum and count, sort by total DESC, limit to 3. Aarav: 55000+22000+19000 = 96000 (3 sales). Priya: 25000+20000+57000 = 102000 (3). Rohan: 60000+28000 = 88000 (2). Karan: 65000+26000 = 91000 (2). Diya: 62000 (1). Vikram: 58000 (1). Ananya: 18000+54000 = 72000 (2). Sneha: 24000 (1). Top 3: Priya, Aarav, Karan.</div><div class="code-example-output">salesperson     total_revenue  num_sales
+Priya Patel     102000.00      3
+Aarav Sharma    96000.00       3
+Karan Mehta     91000.00       2</div></div>
+<div class="code-example"><div class="code-example-title">Salespeople With More Than N Sales</div><pre><code class="language-python">-- Salespeople who made more than 2 sales
+SELECT salesperson, COUNT(*) AS num_sales, SUM(amount) AS total
+FROM sales
+GROUP BY salesperson
+HAVING COUNT(*) &gt; 2;</code></pre><div class="code-example-explanation">Group by salesperson, count sales. HAVING keeps only those with count > 2. Aarav has 3 sales, Priya has 3 sales. Nobody else has more than 2. 2 rows returned.</div><div class="code-example-output">salesperson     num_sales  total
+Aarav Sharma    3          96000.00
+Priya Patel     3          102000.00</div></div>
+<div class="code-example"><div class="code-example-title">WHERE Can&#39;t Use Aggregates</div><pre><code class="language-python">-- WRONG
+SELECT region, SUM(amount)
+FROM sales
+WHERE SUM(amount) &gt; 100000  -- ERROR
+GROUP BY region;
+
+-- CORRECT: use HAVING
+SELECT region, SUM(amount)
+FROM sales
+GROUP BY region
+HAVING SUM(amount) &gt; 100000;</code></pre><div class="code-example-explanation">WHERE runs before aggregation, so SUM(amount) doesn't exist yet. Use HAVING for aggregate filters after GROUP BY. This is the #1 GROUP BY mistake.</div><div class="code-example-output">Wrong query: ERROR 1111 (HY000): Invalid use of group function
+
+Correct query:
+region  SUM(amount)
+North   184000.00
+South   160000.00
+West    153000.00</div></div>
+<div class="code-example"><div class="code-example-title">Monthly Revenue Report</div><pre><code class="language-python">-- Total sales per month of 2026
+SELECT 
+    MONTH(sale_date) AS month,
+    COUNT(*) AS num_sales,
+    SUM(amount) AS total_revenue
+FROM sales
+WHERE YEAR(sale_date) = 2026
+GROUP BY MONTH(sale_date)
+ORDER BY month;</code></pre><div class="code-example-explanation">Group by MONTH() of the date. WHERE filters to 2026 first (before grouping). Jan has ids 1,2,3 (3 sales, 55000+25000+60000=140000). Feb has 4-7 (18000+22000+58000+20000 = 118000). March has 8-11 (28000+65000+24000+19000 = 136000). April has 12-15 (54000+26000+62000+57000 = 199000).</div><div class="code-example-output">month  num_sales  total_revenue
+1      3          140000.00
+2      4          118000.00
+3      4          136000.00
+4      4          199000.00</div></div>
+<div class="code-example"><div class="code-example-title">GROUP BY With ROLLUP</div><pre><code class="language-python">-- Subtotals per region plus a grand total
+SELECT region, SUM(amount) AS total
+FROM sales
+GROUP BY region WITH ROLLUP;</code></pre><div class="code-example-explanation">ROLLUP adds a row with region=NULL representing the grand total. Useful in reports. The NULL row shows the sum across all regions: 184000+160000+96000+153000 = 593000.</div><div class="code-example-output">region  total
+East    96000.00
+North   184000.00
+South   160000.00
+West    153000.00
+NULL    593000.00  (grand total)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using WHERE to Filter Aggregates</h3>
+                <div class="wrong-code"><pre><code class="language-python">SELECT region, SUM(amount)
+FROM sales
+WHERE SUM(amount) &gt; 100000
+GROUP BY region;</code></pre></div><div class="error-message">ERROR 1111 (HY000): Invalid use of group function</div><div class="correct-code"><pre><code class="language-python">SELECT region, SUM(amount)
+FROM sales
+GROUP BY region
+HAVING SUM(amount) &gt; 100000;</code></pre></div><div class="mistake-explanation">WHERE filters rows before aggregation. Aggregates like SUM don't exist during WHERE. Use HAVING (after GROUP BY) for aggregate filters. This is the most common GROUP BY mistake.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Non-Aggregated Columns Missing From GROUP BY</h3>
+                <div class="wrong-code"><pre><code class="language-python">SELECT region, salesperson, SUM(amount)
+FROM sales
+GROUP BY region;</code></pre></div><div class="error-message">In strict mode: ERROR 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause... In lenient mode: arbitrary salesperson value returned per region — silently wrong.</div><div class="correct-code"><pre><code class="language-python">-- If you want per-region, drop salesperson:
+SELECT region, SUM(amount) FROM sales GROUP BY region;
+
+-- If you want per-(region, salesperson), include both:
+SELECT region, salesperson, SUM(amount) FROM sales GROUP BY region, salesperson;</code></pre></div><div class="mistake-explanation">Every column in SELECT must either be in GROUP BY or inside an aggregate. MySQL's default strict mode enforces this. Picking an arbitrary value is a silent bug — you get 'some salesperson' for each region with no indication which.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Clause Order</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Trying to write HAVING before GROUP BY
+SELECT region, SUM(amount)
+FROM sales
+HAVING SUM(amount) &gt; 100000
+GROUP BY region;</code></pre></div><div class="error-message">Syntax error. HAVING must come after GROUP BY.</div><div class="correct-code"><pre><code class="language-python">SELECT region, SUM(amount)
+FROM sales
+GROUP BY region
+HAVING SUM(amount) &gt; 100000;</code></pre></div><div class="mistake-explanation">The syntactic order is fixed: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. You cannot reorder. Memorize this — the logical execution order differs, but the syntax order is rigid.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using WHERE Alias</h3>
+                <div class="wrong-code"><pre><code class="language-python">SELECT region, SUM(amount) AS total
+FROM sales
+WHERE total &gt; 50000   -- alias not available in WHERE
+GROUP BY region;</code></pre></div><div class="error-message">ERROR 1054 (42S22): Unknown column &#39;total&#39; in &#39;where clause&#39;</div><div class="correct-code"><pre><code class="language-python">-- Cannot use alias in WHERE. Options:
+-- 1) Repeat the expression (but aggregates don&#39;t work in WHERE):
+-- 2) Use HAVING with the alias (MySQL) or expression:
+SELECT region, SUM(amount) AS total
+FROM sales
+GROUP BY region
+HAVING total &gt; 50000;  -- MySQL lets you use the alias here</code></pre></div><div class="mistake-explanation">Column aliases are assigned in SELECT, which runs AFTER WHERE. WHERE cannot see them. HAVING (and ORDER BY) run after SELECT in MySQL, so they can use aliases. PostgreSQL requires the full expression in HAVING.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting GROUP BY To Return Top N Per Group</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Goal: top 2 salespeople per region. This does NOT do that.
+SELECT region, salesperson, SUM(amount)
+FROM sales
+GROUP BY region, salesperson
+ORDER BY region, SUM(amount) DESC
+LIMIT 2;</code></pre></div><div class="error-message">No error, but returns just 2 rows total, not 2 per region.</div><div class="correct-code"><pre><code class="language-python">-- Top 2 per group requires window functions (chapter 18):
+SELECT region, salesperson, total FROM (
+  SELECT region, salesperson, SUM(amount) AS total,
+         ROW_NUMBER() OVER (PARTITION BY region ORDER BY SUM(amount) DESC) AS rn
+  FROM sales
+  GROUP BY region, salesperson
+) t
+WHERE rn &lt;= 2;</code></pre></div><div class="mistake-explanation">Plain GROUP BY cannot return 'top N per group.' LIMIT applies to the whole result, not per group. The correct solution uses window functions (ROW_NUMBER with PARTITION BY). This is a classic interview trap.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>GROUP BY groups rows that share column values, then applies aggregates within each group. Result has one row per group.</li>
+<li>Every column in SELECT must be either aggregated or listed in GROUP BY. MySQL&#39;s strict mode (ONLY_FULL_GROUP_BY) enforces this; always code as if enforced.</li>
+<li>GROUP BY multiple columns creates groups for each unique combination: GROUP BY region, product groups by (region, product) pairs.</li>
+<li>HAVING filters groups based on aggregate conditions. WHERE filters rows BEFORE grouping; HAVING filters GROUPS after.</li>
+<li>Use WHERE for row-level conditions (status = &#39;Delivered&#39;). Use HAVING for aggregate-level conditions (SUM(amount) &gt; 100000).</li>
+<li>Syntactic order (how you write): SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. Cannot rearrange.</li>
+<li>Logical execution order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT. Aggregates and aliases are created in SELECT.</li>
+<li>WHERE cannot reference aggregates or SELECT aliases (they don&#39;t exist yet). HAVING and ORDER BY can (MySQL/PostgreSQL differ slightly).</li>
+<li>WITH ROLLUP (MySQL) adds subtotals and a grand total row where grouped columns are NULL. Useful for executive reports.</li>
+<li>GROUP BY alone cannot return &#39;top N per group.&#39; That pattern needs window functions (ROW_NUMBER, RANK) — covered in chapter 18.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/aggregate-functions" class="related-topic-link">Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</a>
+<a href="/resources/sql/joins-inner-and-outer" class="related-topic-link">JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS</a>
+<a href="/resources/sql/window-functions" class="related-topic-link">Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/aggregate-functions" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</span>
+        </a>
+            <a href="/resources/sql/joins-inner-and-outer" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/group-by-and-having/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

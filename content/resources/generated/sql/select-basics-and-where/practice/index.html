@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - SELECT Queries and the WHERE Clause | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on SELECT Queries and the WHERE Clause in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="select queries and the where clause practice, sql questions, sql practice problems, select queries and the where clause exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/select-basics-and-where/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/select-basics-and-where/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/select-basics-and-where/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/select-basics-and-where/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/select-basics-and-where/practice">
+    <meta property="og:title" content="Practice Questions - SELECT Queries and the WHERE Clause | SQL | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on SELECT Queries and the WHERE Clause in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/select-basics-and-where/practice">
+    <meta name="twitter:title" content="Practice Questions - SELECT Queries and the WHERE Clause | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on SELECT Queries and the WHERE Clause in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - SELECT Queries and the WHERE Clause",
+    "description": "60+ practice questions on SELECT Queries and the WHERE Clause in SQL.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "SELECT Queries and the WHERE Clause"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/select-basics-and-where/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "SELECT Queries and the WHERE Clause",
+        "item": "https://learn.modernagecoders.com/resources/sql/select-basics-and-where"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/select-basics-and-where/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/select-basics-and-where">SELECT Queries and the WHERE Clause</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 6</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; SELECT Queries and the WHERE Clause</h1>
+            <a href="/resources/sql/select-basics-and-where" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">18</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">27</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Given the employees table, what does this return?<br><pre><code>SELECT name FROM employees WHERE id = 3;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Look up the row with id = 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Rohan Gupta</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows does this return?<br><pre><code>SELECT * FROM employees WHERE department = 'IT';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Count IT department employees in the sample table.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>4 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows does this return?<br><pre><code>SELECT * FROM employees WHERE salary > 100000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Who earns strictly more than 100000?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>1 row</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows does this return?<br><pre><code>SELECT name FROM employees WHERE department != 'IT';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Total minus IT employees.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>6 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a query to find all employees in the IT department earning more than 50000. Return name and salary.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Use WHERE with AND combining two conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><pre><code>SELECT name, salary FROM employees
+WHERE department = 'IT' AND salary > 50000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find all employees with salary between 60000 and 90000. Return all columns. Use BETWEEN.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Remember BETWEEN is inclusive on both ends.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><pre><code>SELECT * FROM employees
+WHERE salary BETWEEN 60000 AND 90000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find employees in HR or Marketing departments. Use the IN operator.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">IN takes a comma-separated list in parentheses.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><pre><code>SELECT name, department FROM employees
+WHERE department IN ('HR', 'Marketing');</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT name AS emp FROM employees WHERE id = 7;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Find id 7 and note the aliased column.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Column header: emp<br>Value: Karan Mehta</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many rows does this return?<br><pre><code>SELECT * FROM employees
+WHERE department = 'IT' OR salary > 80000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Union of IT employees and high earners.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>6 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT * FROM employees
+WHERE department = 'IT' AND salary > 80000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Intersection of IT and high earners.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>2 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is returned?<br><pre><code>SELECT name FROM employees
+WHERE department = 'IT' OR department = 'HR' AND salary > 60000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Trace the precedence: AND binds tighter than OR.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>All 4 IT employees (Aarav, Rohan, Vikram, Diya) and zero HR employees (neither Priya nor Ishita earns above 60000). Total: 4 rows.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT * FROM employees
+WHERE (department = 'IT' OR department = 'HR') AND salary > 60000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Parentheses force OR first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>3 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees who joined before January 1, 2021. Return name and join_date.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Compare join_date against a date literal in single quotes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><pre><code>SELECT name, join_date FROM employees
+WHERE join_date < '2021-01-01';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find IT employees NOT earning more than 70000. Return name and salary.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Use NOT or the opposite operator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>SELECT name, salary FROM employees
+WHERE department = 'IT' AND NOT (salary > 70000);
+
+-- Equivalent:
+SELECT name, salary FROM employees
+WHERE department = 'IT' AND salary <= 70000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT name FROM employees
+WHERE department NOT IN ('IT', 'Finance', 'HR');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Which departments are left?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Sneha Iyer<br>Aditya Rao</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees whose salary is NOT between 50000 and 80000 (i.e., outside this range). Return name and salary.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Use NOT BETWEEN or OR with < and >.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>SELECT name, salary FROM employees
+WHERE salary NOT BETWEEN 50000 AND 80000;
+
+-- Equivalent:
+SELECT name, salary FROM employees
+WHERE salary < 50000 OR salary > 80000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees who joined in 2021, showing name with alias 'emp' and join_date with alias 'joined'.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Use BETWEEN on dates and AS for aliases.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><pre><code>SELECT name AS emp, join_date AS joined FROM employees
+WHERE join_date BETWEEN '2021-01-01' AND '2021-12-31';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between SELECT * and SELECT column1, column2?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Think about columns returned and production concerns.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>SELECT *</code> returns all columns of the table. <code>SELECT column1, column2</code> returns only the listed columns. The star is convenient during exploration but should be avoided in production code because (a) it fetches unnecessary data, (b) the result shape changes if the schema changes, and (c) indexes cannot be used as effectively.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why does SQL use single = for equality comparison instead of ==?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">SQL predates most modern languages.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19">SQL was designed in the 1970s before languages like C, Java, and Python adopted <code>==</code>. In SQL, there is no assignment operator inside queries (column values are set with <code>=</code> in UPDATE statements), so reusing <code>=</code> for equality comparison caused no ambiguity. Writing <code>==</code> in SQL is a syntax error.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain why NOT IN with a NULL value returns zero rows. Give a way to fix it.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">SQL's three-valued logic: TRUE, FALSE, NULL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">In SQL, comparisons with NULL return NULL (not TRUE, not FALSE). The WHERE clause keeps only rows where the condition is TRUE. <code>x NOT IN (1, 2, NULL)</code> is equivalent to <code>x != 1 AND x != 2 AND x != NULL</code>. The last part is always NULL, so the AND is NULL, so no row passes. Fix: filter out NULLs explicitly using <code>AND col IS NOT NULL</code>, or use <code>NOT EXISTS</code> with a subquery instead of NOT IN.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT name FROM employees
+WHERE salary IN (45000, 52000, 110000);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Three exact salary matches.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><code>Vikram Reddy (45000)<br>Priya Patel (52000)<br>Diya Nair (110000)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find HR employees earning less than 50000. Return name and salary.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">AND with two conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><pre><code>SELECT name, salary FROM employees
+WHERE department = 'HR' AND salary < 50000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees in Finance or Marketing earning at least 65000. Return name, department, and salary.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">IN combined with a salary filter.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><pre><code>SELECT name, department, salary FROM employees
+WHERE department IN ('Finance', 'Marketing')
+  AND salary >= 65000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is it recommended to always use parentheses when combining AND and OR?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">Precedence and readability.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24">Because AND is evaluated before OR in SQL, the meaning of a query can change in non-obvious ways. A query like <code>a = 1 OR b = 2 AND c = 3</code> is actually <code>a = 1 OR (b = 2 AND c = 3)</code>. Parentheses make the intent explicit and prevent bugs. Reviewers can verify logic at a glance instead of tracing precedence rules in their heads.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT name FROM employees
+WHERE id BETWEEN 3 AND 7;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">BETWEEN on integer ids, inclusive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25"><code>Rohan Gupta (3)<br>Ananya Singh (4)<br>Vikram Reddy (5)<br>Sneha Iyer (6)<br>Karan Mehta (7)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 26</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find employees who are (in IT AND earning above 80000) OR (in Finance AND joined before 2021). Return name, department, salary, join_date.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-26" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-26">Two grouped conditions joined by OR.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-26" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-26"><pre><code>SELECT name, department, salary, join_date FROM employees
+WHERE (department = 'IT' AND salary > 80000)
+   OR (department = 'Finance' AND join_date < '2021-01-01');</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 27</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find all employees NOT in IT whose salary is between 50000 and 70000 inclusive. Use NOT and BETWEEN.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-27" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-27">NOT with department, BETWEEN with salary.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-27" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-27"><pre><code>SELECT name, department, salary FROM employees
+WHERE NOT (department = 'IT')
+  AND salary BETWEEN 50000 AND 70000;
+
+-- Equivalent cleaner version:
+SELECT name, department, salary FROM employees
+WHERE department != 'IT'
+  AND salary BETWEEN 50000 AND 70000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 28</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT name FROM employees
+WHERE department = 'IT' AND NOT salary > 50000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-28" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-28">NOT applies to the comparison.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-28" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-28"><code>Vikram Reddy</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 29</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Using aliases, find name (as 'emp'), salary (as 'pay_inr') for employees in ('IT','HR') who joined between 2020 and 2022 inclusive, and earn more than 50000.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-29" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-29">Combine IN, BETWEEN, comparison, and AS.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-29" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-29"><pre><code>SELECT name AS emp, salary AS pay_inr FROM employees
+WHERE department IN ('IT', 'HR')
+  AND join_date BETWEEN '2020-01-01' AND '2022-12-31'
+  AND salary > 50000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 30</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between != and <> in SQL? Which should you use?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-30" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-30">Both mean the same thing but have different origins.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-30" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-30">Both <code>!=</code> and <code>&lt;&gt;</code> mean "not equal to" and work identically in MySQL, PostgreSQL, and SQL Server. <code>&lt;&gt;</code> is the SQL standard (ANSI SQL). <code>!=</code> is more familiar to programmers. Use <code>!=</code> for readability unless your team's style guide mandates the ANSI standard. Both are correct.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a query that returns just the names of all employees.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Single column, no WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>SELECT name FROM employees;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find the employee with id 5. Return all columns.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">WHERE id = 5.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>SELECT * FROM employees WHERE id = 5;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT * FROM employees WHERE salary = 45000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Exact match on salary.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>1 row</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find all Marketing employees.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">WHERE department = 'Marketing'.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>SELECT * FROM employees WHERE department = 'Marketing';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT * FROM employees WHERE salary >= 50000 AND salary <= 70000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Range 50000-70000 inclusive.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>5 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Return employee names with alias 'worker_name'.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Use AS.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>SELECT name AS worker_name FROM employees;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find employees in IT. Use a straightforward WHERE clause.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Department equals IT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>SELECT * FROM employees WHERE department = 'IT';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT * FROM employees WHERE salary < 50000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Two low earners.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>2 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees whose name is either 'Priya Patel' or 'Karan Mehta'. Use IN.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">IN with string values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>SELECT * FROM employees
+WHERE name IN ('Priya Patel', 'Karan Mehta');</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find all employees except those in IT. Return name and department.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Use NOT or !=.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>SELECT name, department FROM employees
+WHERE department != 'IT';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees who joined in 2022. Use BETWEEN with dates.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Full year range.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>SELECT name, join_date FROM employees
+WHERE join_date BETWEEN '2022-01-01' AND '2022-12-31';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees in HR earning more than 50000 OR in Finance earning more than 70000.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Two grouped conditions joined by OR.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><pre><code>SELECT name, department, salary FROM employees
+WHERE (department = 'HR' AND salary > 50000)
+   OR (department = 'Finance' AND salary > 70000);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT * FROM employees
+WHERE department = 'IT' OR department = 'IT';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Redundant OR.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>4 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees whose salary is exactly 75000, 52000, or 92000.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">IN with three numeric values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><pre><code>SELECT name, salary FROM employees
+WHERE salary IN (75000, 52000, 92000);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees who joined on or after 2022-01-01 and work in IT.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">AND with date and department.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15"><pre><code>SELECT name, join_date FROM employees
+WHERE join_date >= '2022-01-01'
+  AND department = 'IT';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT name, salary * 12 AS annual_salary
+FROM employees WHERE id = 1;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-16">Expression with alias.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-16"><code>Aarav Sharma, 900000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees in IT earning between 50000 and 100000 (inclusive). Return name and salary.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-17">Combine department check and BETWEEN.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-17"><pre><code>SELECT name, salary FROM employees
+WHERE department = 'IT'
+  AND salary BETWEEN 50000 AND 100000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT * FROM employees
+WHERE department != 'IT' AND department != 'HR' AND department != 'Finance';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-18">Equivalent to NOT IN.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-18"><code>2 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find employees with the name 'Aarav Sharma'. Return all columns.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-19">Exact string match with single quotes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-19"><pre><code>SELECT * FROM employees WHERE name = 'Aarav Sharma';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find employees who either (a) are in Marketing or (b) joined after 2022-06-01 and earn below 60000. Return everything.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-20">OR between two grouped conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-20"><pre><code>SELECT * FROM employees
+WHERE department = 'Marketing'
+   OR (join_date > '2022-06-01' AND salary < 60000);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT * FROM employees
+WHERE salary > 60000 AND salary < 80000
+   OR department = 'HR';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-21">AND binds tighter than OR.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-21"><code>5 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find employees whose id is NOT between 3 and 7 (exclusive). Use NOT BETWEEN and return name.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-22">NOT BETWEEN is inclusive of endpoints too.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-22"><pre><code>SELECT name FROM employees WHERE id NOT BETWEEN 3 AND 7;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find all employees whose salary multiplied by 12 exceeds 1000000 (i.e., annual > 10 lakh). Use an expression in WHERE.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-23">You can compute expressions in WHERE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-23"><pre><code>SELECT name, salary FROM employees
+WHERE salary * 12 > 1000000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT name FROM employees
+WHERE NOT (department = 'IT' OR salary > 80000);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-24">De Morgan's law: NOT (A OR B) = NOT A AND NOT B.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-24"><code>Priya Patel<br>Ananya Singh<br>Sneha Iyer<br>Ishita Kumar<br>Aditya Rao</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find all employees except those in the HR department who earn less than 50000. (Keep HR folks who earn >= 50000, keep all non-HR.)</div><button type="button" class="collapsible-toggle" data-target="hint-mx-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-25">Exclude specific subgroup. Use NOT with parentheses.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-25"><pre><code>SELECT * FROM employees
+WHERE NOT (department = 'HR' AND salary < 50000);</code></pre></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which keyword is used to retrieve data from a table in SQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> GET</li><li><span class="mcq-option-label">B.</span> FETCH</li><li><span class="mcq-option-label">C.</span> SELECT</li><li><span class="mcq-option-label">D.</span> RETRIEVE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>SELECT</code> is the SQL keyword for retrieving data. FETCH exists in some SQL dialects but only inside cursors, not for top-level queries. GET and RETRIEVE are not SQL keywords.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does SELECT * FROM employees do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns only the first row of the employees table</li><li><span class="mcq-option-label">B.</span> Returns all rows and all columns from the employees table</li><li><span class="mcq-option-label">C.</span> Returns only the column named &#39;star&#39;</li><li><span class="mcq-option-label">D.</span> Deletes all rows in the employees table</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> The asterisk <code>*</code> means all columns. Without a WHERE clause, all rows are returned. So <code>SELECT * FROM employees</code> returns the entire table.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which operator is used for equality comparison in SQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ==</li><li><span class="mcq-option-label">B.</span> =</li><li><span class="mcq-option-label">C.</span> equals</li><li><span class="mcq-option-label">D.</span> :=</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> SQL uses a single <code>=</code> for equality. Writing <code>==</code> causes a syntax error. This differs from Python, Java, JavaScript, and many other languages.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which keyword renames a column in the output?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> RENAME</li><li><span class="mcq-option-label">B.</span> ALIAS</li><li><span class="mcq-option-label">C.</span> AS</li><li><span class="mcq-option-label">D.</span> LIKE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>SELECT name AS employee_name</code> renames the output column. RENAME is used for renaming tables/columns permanently (with ALTER TABLE), not for query-time aliasing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">How do you write a string literal in SQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Double quotes: &quot;IT&quot;</li><li><span class="mcq-option-label">B.</span> Single quotes: &#39;IT&#39;</li><li><span class="mcq-option-label">C.</span> Backticks: `IT`</li><li><span class="mcq-option-label">D.</span> No quotes needed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Single quotes are the SQL standard for string literals. Double quotes are for identifiers in ANSI SQL. Backticks are for identifiers in MySQL. Strings without quotes are column references or keywords.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which operator checks if a value equals any in a list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> IS</li><li><span class="mcq-option-label">B.</span> LIKE</li><li><span class="mcq-option-label">C.</span> IN</li><li><span class="mcq-option-label">D.</span> HAS</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>column IN (v1, v2, v3)</code> is shorthand for multiple ORs. LIKE does pattern matching. IS is used with NULL (IS NULL, IS NOT NULL). HAS is not SQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Is BETWEEN inclusive or exclusive?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Exclusive on both ends</li><li><span class="mcq-option-label">B.</span> Inclusive on both ends</li><li><span class="mcq-option-label">C.</span> Inclusive on start, exclusive on end</li><li><span class="mcq-option-label">D.</span> Exclusive on start, inclusive on end</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>BETWEEN x AND y</code> is equivalent to <code>&gt;= x AND &lt;= y</code>. Both endpoints are included. This is a classic interview question and catches many beginners.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which is NOT a valid comparison operator in SQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> !=</li><li><span class="mcq-option-label">B.</span> &lt;&gt;</li><li><span class="mcq-option-label">C.</span> ==</li><li><span class="mcq-option-label">D.</span> &gt;=</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct (the invalid one).</strong> SQL does not have <code>==</code>. Both <code>!=</code> and <code>&lt;&gt;</code> mean 'not equal.' <code>&gt;=</code> is 'greater than or equal.' Using <code>==</code> produces a syntax error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which query finds IT employees earning more than 50000?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM employees WHERE department = IT AND salary &gt; 50000;</li><li><span class="mcq-option-label">B.</span> SELECT * FROM employees WHERE department = &#39;IT&#39; AND salary &gt; 50000;</li><li><span class="mcq-option-label">C.</span> SELECT * FROM employees WHERE department == &#39;IT&#39; AND salary &gt; 50000;</li><li><span class="mcq-option-label">D.</span> SELECT * FROM employees WHERE department = &#39;IT&#39; OR salary &gt; 50000;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> IT is a string (single quotes), equality uses a single =, and AND requires both conditions true. Option A misses quotes around IT (parsed as a column name). Option C uses invalid ==. Option D uses OR which would return a totally different set.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">In SQL, which has higher precedence: AND or OR?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> OR is higher</li><li><span class="mcq-option-label">B.</span> AND is higher</li><li><span class="mcq-option-label">C.</span> They are equal</li><li><span class="mcq-option-label">D.</span> Depends on the database</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> AND has higher precedence than OR, just like multiplication vs addition. <code>a OR b AND c</code> is <code>a OR (b AND c)</code>. Always use parentheses when mixing them to avoid confusion.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does WHERE salary NOT IN (50000, 70000, NULL) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All rows where salary is not 50000 and not 70000</li><li><span class="mcq-option-label">B.</span> Zero rows, regardless of data</li><li><span class="mcq-option-label">C.</span> Only rows with NULL salary</li><li><span class="mcq-option-label">D.</span> Syntax error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> When NOT IN has NULL, SQL's three-valued logic makes the comparison to NULL yield NULL. WHERE requires TRUE, so no rows pass. This is a famous gotcha and interview question.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which is equivalent to: WHERE salary BETWEEN 50000 AND 80000?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE salary &gt; 50000 AND salary &lt; 80000</li><li><span class="mcq-option-label">B.</span> WHERE salary &gt;= 50000 AND salary &lt;= 80000</li><li><span class="mcq-option-label">C.</span> WHERE salary IN (50000, 80000)</li><li><span class="mcq-option-label">D.</span> WHERE salary = 50000 OR salary = 80000</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> BETWEEN is inclusive, so it matches <code>&gt;= x AND &lt;= y</code>. Option A would be exclusive. Option C only matches the two exact values, not the range.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which clause filters rows before they are returned?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT</li><li><span class="mcq-option-label">B.</span> WHERE</li><li><span class="mcq-option-label">C.</span> FROM</li><li><span class="mcq-option-label">D.</span> AS</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> WHERE filters rows. SELECT picks columns. FROM identifies the table. AS creates aliases. Without WHERE, all rows are returned.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does this return? SELECT * FROM employees WHERE department = 'IT' OR department = 'HR' AND salary > 60000;</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All IT employees plus all HR employees earning &gt; 60000</li><li><span class="mcq-option-label">B.</span> Only IT and HR employees with salary &gt; 60000</li><li><span class="mcq-option-label">C.</span> Syntax error</li><li><span class="mcq-option-label">D.</span> Only HR employees earning &gt; 60000</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: A</strong><br><strong>A is correct.</strong> AND binds tighter than OR, so the query is: IT employees (any salary) OR (HR AND salary > 60000). All IT employees qualify. HR employees must also earn > 60000. To restrict both departments to high salary, you need parentheses.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the output of SELECT name AS n FROM employees WHERE id = 1?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Column header &#39;name&#39;, value &#39;Aarav Sharma&#39;</li><li><span class="mcq-option-label">B.</span> Column header &#39;n&#39;, value &#39;Aarav Sharma&#39;</li><li><span class="mcq-option-label">C.</span> Column header &#39;n&#39;, value &#39;n&#39;</li><li><span class="mcq-option-label">D.</span> Syntax error because AS is not allowed with WHERE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> AS renames the output column only. The underlying table column is still 'name'. The value retrieved (Aarav Sharma) is unchanged. AS works fine alongside WHERE.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which is the BEST replacement for: WHERE dept = 'IT' OR dept = 'HR' OR dept = 'Finance'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE dept IN (&#39;IT&#39;, &#39;HR&#39;, &#39;Finance&#39;)</li><li><span class="mcq-option-label">B.</span> WHERE dept BETWEEN &#39;IT&#39; AND &#39;Finance&#39;</li><li><span class="mcq-option-label">C.</span> WHERE dept = (&#39;IT&#39;, &#39;HR&#39;, &#39;Finance&#39;)</li><li><span class="mcq-option-label">D.</span> WHERE dept LIKE &#39;IT%HR%Finance&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: A</strong><br><strong>A is correct.</strong> IN is exactly designed for this. Option B treats strings alphabetically and returns unexpected results. Option C is a tuple mismatch error. Option D doesn't do anything close.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does SELECT * FROM employees WHERE salary > 60000 AND (department = 'IT' OR department = 'Finance') return for our 10-row sample?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 3 rows: Aarav, Rohan, Diya</li><li><span class="mcq-option-label">B.</span> 4 rows: Aarav, Rohan, Karan, Diya</li><li><span class="mcq-option-label">C.</span> 5 rows: Aarav, Rohan, Ananya, Karan, Diya</li><li><span class="mcq-option-label">D.</span> 2 rows: Rohan, Diya</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> IT or Finance: Aarav (75000), Rohan (92000), Ananya (68000), Vikram (45000), Karan (81000), Diya (110000). Of those, salary > 60000 removes only Vikram. 5 rows: Aarav, Rohan, Ananya, Karan, Diya.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Which statement is TRUE about the SQL = operator?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It works the same as == in Python</li><li><span class="mcq-option-label">B.</span> It is used for both assignment (in UPDATE) and equality comparison (in WHERE)</li><li><span class="mcq-option-label">C.</span> It cannot be used with string values</li><li><span class="mcq-option-label">D.</span> It is case-sensitive for strings in all databases</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> SQL's = means assignment in UPDATE statements (<code>SET salary = 60000</code>) and equality in WHERE (<code>WHERE salary = 60000</code>). Context distinguishes the two. String case-sensitivity depends on column collation — MySQL is case-insensitive by default.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What does NOT (A AND B) equal according to De Morgan's law?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NOT A AND NOT B</li><li><span class="mcq-option-label">B.</span> NOT A OR NOT B</li><li><span class="mcq-option-label">C.</span> A OR B</li><li><span class="mcq-option-label">D.</span> A AND NOT B</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> De Morgan's law: <code>NOT (A AND B) = NOT A OR NOT B</code>. And <code>NOT (A OR B) = NOT A AND NOT B</code>. Useful for rewriting complex negations in WHERE clauses.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">Why is SELECT * considered bad practice in production code?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It returns wrong data</li><li><span class="mcq-option-label">B.</span> It always runs slower than listing columns explicitly</li><li><span class="mcq-option-label">C.</span> Schema changes silently alter query results and it blocks index-only scans</li><li><span class="mcq-option-label">D.</span> It is a syntax error in MySQL 8+</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> If someone adds a column, your code silently starts fetching extra data. Also, the database optimizer cannot use covering indexes with <code>*</code>. In production, always list columns explicitly.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Top IT Earners</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Return all IT employees earning more than 70000. Include name, salary, and join_date.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Uses the employees table defined in the chapter.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">name, salary, join_date:
+Aarav Sharma 75000 2021-03-15
+Rohan Gupta 92000 2019-01-10
+Diya Nair 110000 2018-08-12</div>
+                </div><div class="challenge-constraints">Use WHERE with AND. Do not use subqueries.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">SELECT name, salary, join_date
+FROM employees
+WHERE department = &#39;IT&#39; AND salary &gt; 70000;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Mid-Band Salaries</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Find employees with salary between 55000 and 85000 (inclusive). Show name and salary, alias salary as 'pay'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Aarav Sharma 75000
+Ananya Singh 68000
+Sneha Iyer 58000
+Karan Mehta 81000
+Aditya Rao 63000</div>
+                </div><div class="challenge-constraints">Use BETWEEN.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">SELECT name, salary AS pay
+FROM employees
+WHERE salary BETWEEN 55000 AND 85000;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Multi-Department Filter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Find all employees in IT, Finance, or Marketing who earn more than 60000 and joined after 2020-01-01. Return name, department, salary, join_date.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Aarav Sharma IT 75000 2021-03-15
+Ananya Singh Finance 68000 2022-11-05
+Sneha Iyer Marketing 58000 ... (actually Sneha fails, 58000 &lt; 60000)
+Aditya Rao Marketing 63000 2022-03-08</div>
+                </div><div class="challenge-constraints">Combine IN, comparison, and date filter. Correct output should be 3 rows: Aarav, Ananya, Aditya.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">SELECT name, department, salary, join_date
+FROM employees
+WHERE department IN (&#39;IT&#39;, &#39;Finance&#39;, &#39;Marketing&#39;)
+  AND salary &gt; 60000
+  AND join_date &gt; &#39;2020-01-01&#39;;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Exclude Low HR Earners</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Return every employee except HR staff earning below 50000. Keep all non-HR employees and HR employees earning 50000 or more.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">9 rows — everyone except Ishita Kumar (HR, 47000).</div>
+                </div><div class="challenge-constraints">Use NOT with parentheses. The condition should exclude (department = &#39;HR&#39; AND salary &lt; 50000).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">SELECT *
+FROM employees
+WHERE NOT (department = &#39;HR&#39; AND salary &lt; 50000);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Annual Salary Report</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">For each employee, return name and their annual salary (salary * 12) with alias 'annual_pay', but only for employees whose annual pay exceeds 800000.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Rohan Gupta 1104000
+Karan Mehta 972000
+Diya Nair 1320000
+Aarav Sharma 900000</div>
+                </div><div class="challenge-constraints">Use an expression in SELECT and WHERE.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">SELECT name, salary * 12 AS annual_pay
+FROM employees
+WHERE salary * 12 &gt; 800000;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Complex Recruitment Filter</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">The recruitment team wants to review: (a) all Marketing employees regardless of salary, OR (b) any employee who joined in the last 3 years (after 2023-04-16) AND earns less than 50000. Return name, department, salary, join_date.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees table. Today&#39;s date treated as 2026-04-16.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Sneha Iyer Marketing 58000 2021-09-30
+Aditya Rao Marketing 63000 2022-03-08
+Ishita Kumar HR 47000 2023-06-25</div>
+                </div><div class="challenge-constraints">Use OR with two grouped conditions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">SELECT name, department, salary, join_date
+FROM employees
+WHERE department = &#39;Marketing&#39;
+   OR (join_date &gt; &#39;2023-04-16&#39; AND salary &lt; 50000);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Find Specific Employees by Name</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">The manager wants details of three specific employees: Aarav Sharma, Ananya Singh, and Diya Nair. Return all their columns in a single query.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">3 rows — Aarav (id 1), Ananya (id 4), Diya (id 10).</div>
+                </div><div class="challenge-constraints">Use IN on the name column.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">SELECT *
+FROM employees
+WHERE name IN (&#39;Aarav Sharma&#39;, &#39;Ananya Singh&#39;, &#39;Diya Nair&#39;);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Salary Bonus Eligibility</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">An employee is eligible for a bonus if they (earn at least 70000 AND joined before 2022-01-01) OR (are in Marketing AND earn less than 65000). Return name, department, and a computed column 'bonus_eligible' showing the word 'YES' using alias.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Aarav Sharma IT YES
+Rohan Gupta IT YES
+Karan Mehta Finance YES
+Sneha Iyer Marketing YES
+Aditya Rao Marketing YES
+Diya Nair IT YES</div>
+                </div><div class="challenge-constraints">Use a string literal in SELECT with AS. Include parentheses in the WHERE clause.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">SELECT name, department, &#39;YES&#39; AS bonus_eligible
+FROM employees
+WHERE (salary &gt;= 70000 AND join_date &lt; &#39;2022-01-01&#39;)
+   OR (department = &#39;Marketing&#39; AND salary &lt; 65000);</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/insert-update-delete/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">INSERT, UPDATE, DELETE - Manipulating Data</span>
+        </a>
+            <a href="/resources/sql/sorting-and-limiting/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">ORDER BY, LIMIT, and DISTINCT</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/select-basics-and-where" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

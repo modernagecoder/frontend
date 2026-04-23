@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Database Design and Normalization (1NF, 2NF, 3NF, BCNF) | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Database Design and Normalization (1NF, 2NF, 3NF, BCNF) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="database design and normalization (1nf, 2nf, 3nf, bcnf) practice, sql questions, sql practice problems, database design and normalization (1nf, 2nf, 3nf, bcnf) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/database-design-and-normalization/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/database-design-and-normalization/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/database-design-and-normalization/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/database-design-and-normalization/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/database-design-and-normalization/practice">
+    <meta property="og:title" content="Practice Questions - Database Design and Normalization (1NF, 2NF, 3NF, BCNF) | SQL | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Database Design and Normalization (1NF, 2NF, 3NF, BCNF) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/database-design-and-normalization/practice">
+    <meta name="twitter:title" content="Practice Questions - Database Design and Normalization (1NF, 2NF, 3NF, BCNF) | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Database Design and Normalization (1NF, 2NF, 3NF, BCNF) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Database Design and Normalization (1NF, 2NF, 3NF, BCNF)",
+    "description": "58+ practice questions on Database Design and Normalization (1NF, 2NF, 3NF, BCNF) in SQL.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Database Design and Normalization (1NF, 2NF, 3NF, BCNF)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/database-design-and-normalization/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Database Design and Normalization (1NF, 2NF, 3NF, BCNF)",
+        "item": "https://learn.modernagecoders.com/resources/sql/database-design-and-normalization"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/database-design-and-normalization/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/database-design-and-normalization">Database Design and Normalization (1NF, 2NF, 3NF, BCNF)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 24</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Database Design and Normalization (1NF, 2NF, 3NF, BCNF)</h1>
+            <a href="/resources/sql/database-design-and-normalization" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why do we normalize databases?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Three keywords: redundancy, anomalies, integrity.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">To eliminate data redundancy (each fact stored once), to avoid update/insertion/deletion anomalies, and to enable referential integrity via foreign keys. A normalized schema survives schema evolution and concurrent modification far better than a denormalized one.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What makes a table violate 1NF?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Think about a single cell.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">Any column that stores multiple values in a single cell — CSV strings, JSON arrays of scalars used as lookup keys, comma-separated foreign-key lists. In a 1NF table, every cell holds a single atomic value.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is a functional dependency?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">X determines Y.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">A rule X -> Y saying: for every X value, there is exactly one Y value. Example: roll_no -> student_name means every roll number identifies exactly one student. Functional dependencies are the foundation of normalization theory.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is an update anomaly?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Think about updating redundant data.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">A situation where the same fact is stored in many places, and updating it requires changing every copy atomically. If even one copy is missed, the database contradicts itself. Eliminated by normalization — each fact lives in one row.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Is this table in 1NF?<pre><code>CREATE TABLE t (
+    id INT PRIMARY KEY,
+    tags VARCHAR(200)   -- 'sports,news,cricket'
+);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Multiple values in one column?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">No. The <code>tags</code> column stores multiple values, violating 1NF.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is a composite primary key?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">More than one column.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">A primary key that consists of two or more columns whose combined values uniquely identify a row. Typical in junction tables for N-M relationships: <code>enrollments(student_id, course_id)</code> where each pair is unique.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between 2NF and 3NF?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Partial vs transitive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7">2NF forbids <em>partial</em> dependencies: when the PK is composite, no non-key column may depend on only part of it. 3NF forbids <em>transitive</em> dependencies: no non-key column may depend on another non-key column. 2NF is only ever violated with composite PKs; 3NF can be violated with any PK.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given <code>(emp_id PK, emp_name, dept_id, dept_name)</code>, which normal form is violated?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">dept_name depends on dept_id, not emp_id.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">3NF. dept_name is transitively dependent on emp_id (emp_id -> dept_id -> dept_name). The table is in 1NF and 2NF but not 3NF. Fix: move dept_name into a departments table keyed by dept_id.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is a transitive dependency?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">A -> B -> C, but C does not directly need A.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">A dependency where a non-key column A determines another non-key column B (A -> B), and the PK determines A. So the PK determines B only through A — indirectly. 3NF requires you to break this chain by moving B into a table keyed by A.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When would you denormalize?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Trade-off.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">When a specific read path is hot enough that the JOIN cost dominates performance, and the write cost of keeping copies in sync is acceptable. Typical cases: dashboards, feeds, full-text search indexes, reporting summaries.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between a primary key and a surrogate key?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Natural vs invented.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">A primary key is the column(s) that uniquely identify rows. A surrogate key is an <em>invented</em> PK (usually INT AUTO_INCREMENT or UUID) that has no business meaning. A natural key is a real-world identifier used as PK (email, ISBN). Modern practice: surrogate keys as PKs; natural keys as UNIQUE constraints.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is cardinality in an ER diagram?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">1-1, 1-N, N-M.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">The number of rows on each side of a relationship. 1-1: each row relates to at most one row on the other side (user <-> profile). 1-N: one row relates to many on the other (customer -> orders). N-M: many on each side (students <-> courses). Cardinality dictates how you model: FK column for 1-1 and 1-N, junction table for N-M.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is BCNF and how does it differ from 3NF in practice?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Every determinant must be a superkey.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">BCNF requires that for every non-trivial FD X -> Y, X must be a superkey. 3NF allows a non-superkey X to determine a prime attribute (part of a candidate key). BCNF is strictly stronger but in practice coincides with 3NF for almost all schemas. It matters only when the table has multiple overlapping candidate keys.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Design the minimum schema for an Instagram-like 'follows' feature. Include self-reference and the check that prevents self-following.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Junction on users.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>CREATE TABLE follows(follower_id INT, followee_id INT, followed_at DATETIME, PRIMARY KEY (follower_id, followee_id), FOREIGN KEY (follower_id) REFERENCES users(id), FOREIGN KEY (followee_id) REFERENCES users(id), CHECK (follower_id &lt;&gt; followee_id));</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is ON DELETE CASCADE dangerous for invoices but appropriate for comments?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Audit requirements vs ownership.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">Invoices are business-critical records. Deleting a customer should not automatically delete their invoices — regulatory, tax, and audit rules demand retention. Use ON DELETE RESTRICT so deletes fail until the operator handles the invoices. Comments, on the other hand, only exist to decorate their post; deleting the post cascade-deletes comments because a comment without its post is noise.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is storing unit_price on order_items not a 3NF violation even though products already has a price?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Because order_items.unit_price is a <em>snapshot of the price at the moment of sale</em>. Products.price can (and will) change. If you always JOIN to products, historical orders show today's price, not the price they were sold at — bad for accounting. The duplication is not redundant: it captures a fact that would otherwise be lost.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Can a table be in 3NF but not in BCNF? Give a sketch.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Non-superkey determinants.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Yes, when the table has multiple overlapping candidate keys. Example: <code>(course_id, instructor) -> room</code> AND <code>(room, time_slot) -> instructor</code>. There are two candidate keys. A non-superkey column determines another, but because the determined column is prime (part of another CK), 3NF's exception allows it. BCNF does not — it forbids any non-superkey determinant.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What normal form removes repeating groups?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">First.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>1NF</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Give an example of a 1-1 relationship.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">User and profile.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">A user has one profile; a profile belongs to one user. Model: a FK <code>user_id UNIQUE</code> on the profiles table (the UNIQUE constraint enforces the 1-1 cardinality).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which cascade option causes child rows to be deleted along with the parent?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Keyword is in the name.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>ON DELETE CASCADE</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Is <code>(student_id, course_id) PK, grade</code> in 2NF if student_name is added as a column?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">student_name depends on student_id alone.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">No. student_name depends only on part of the PK (student_id), a partial dependency. Table violates 2NF. Fix: move student_name into students(id, name).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is a junction table necessary for many-to-many relationships?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Neither side can hold the relationship alone.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">Because you cannot store a many-to-many relationship as a foreign key on either side: a single column cannot hold multiple foreign keys without violating 1NF. The junction table represents the relationship itself, with a row for each pair, and can carry relationship-specific attributes (grade, role, enrolled_at).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Give a real case where ON DELETE SET NULL is the right choice.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Child can survive parent's absence.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Employee.manager_id -> Employee.id with ON DELETE SET NULL. When a manager leaves, their reports remain employed — they just lose a manager until reassigned. SET NULL preserves the rows and leaves them in a recoverable state.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">The table has PK = order_id and columns (customer_id, customer_name, shipping_city). Which normal form is violated?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">customer_name depends on customer_id.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">3NF. customer_name and shipping_city depend on customer_id, which is a non-key column. This is a transitive dependency: order_id -> customer_id -> customer_name.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Describe when you would use a UUID PK instead of INT AUTO_INCREMENT.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Distributed systems.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">When IDs must be generated by multiple servers without coordination (distributed systems, offline-first clients, merging data from several databases) or when you want IDs that are unguessable (public URLs). Trade-offs: UUIDs are 16 bytes (vs 4 for INT), slower for index scans, and not contiguous — which hurts insert performance on clustered indexes.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Normalize this to 3NF: (invoice_id, customer_id, customer_name, item_id, item_name, item_price, qty).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Three tables minimum.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Four tables: customers(id, name); items(id, name, price); invoices(id, customer_id, FK to customers); invoice_items(invoice_id, item_id, qty, unit_price, PK=(invoice_id,item_id), FKs to invoices and items). Note unit_price snapshot on invoice_items — captures price at sale time.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why are denormalized counts (e.g. post_count on categories) risky in distributed or replicated setups?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Consistency under concurrency.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Updates to the count race against concurrent inserts/deletes on the children. Without careful locking (or atomic counters), the count drifts. In replicated systems, the count may be computed differently on master and replica if the replica's trigger logic differs or if statement-based replication mis-orders events. Either use transactions + FOR UPDATE on the parent row, or accept eventual consistency and reconcile the count via a scheduled job.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Design a minimal WhatsApp-style chat schema: users, one-to-one chats, group chats, messages.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Conversations table as the unifying entity.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">users(id, phone UNIQUE); conversations(id, type ENUM('DM','GROUP')); conversation_members(conv_id, user_id, PK=(conv_id,user_id)); messages(id, conv_id, sender_id, body, sent_at). DMs and groups are both conversations, distinguished by <code>type</code> and the count of members. Messages always belong to a conversation, not to a user pair — that keeps 1-1 and group chats symmetric.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the smallest number of tables needed for an e-commerce system with users, products, categories, carts, and orders?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Count entities and junctions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Seven: users, categories, products (FK to category), carts (FK to user), cart_items (junction: PK=(cart_id,product_id), with qty), orders (FK to user), order_items (junction: PK=(order_id,product_id), with qty and unit_price).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain why 'email' should usually be a UNIQUE column, not a primary key.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Stability.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">Emails change. If email is the PK, every FK that references it must be updated in sync (either manually or via ON UPDATE CASCADE), and every index that contains it must be rebuilt. The overhead is large. A surrogate PK (id) stays fixed forever; email moves to a UNIQUE constraint for uniqueness enforcement without being the anchor that other rows point to.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Does 4NF matter in practice?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">Multi-valued dependencies are rare.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14">Rarely. 4NF eliminates multi-valued dependencies — situations where a table encodes two independent multi-valued facts about one entity (e.g. a student's courses AND their phone numbers in one table). The violations usually scream at you as '1NF with two repeating groups' and you split them into two child tables without needing the 4NF theory. In 15 years of practice, 3NF plus common sense catches almost everything.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Draft a brief migration plan to move from a 2NF-violating order_items (with product_name copied) to a 3NF-compliant schema with a products table.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">Safe rollout.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15">(1) Create products(id, name, price). (2) Backfill products from DISTINCT (product_id, product_name, product_price) in order_items_bad. (3) Add product_id FK (already present, just verify). (4) Dual-write for a week: writes hit both the old and new structure. (5) Stop using product_name/product_price columns from order_items_bad in queries; read from the JOIN. (6) Drop the columns. Do it in small reversible steps, verifying each with row-count checks and query correctness.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is a junction table's primary key usually the pair (fk_a, fk_b) and not a separate surrogate id?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-16">Think uniqueness and duplicate prevention.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-16">The composite PK enforces the business rule that each (fk_a, fk_b) pair can appear at most once — you cannot enroll Aarav in DBMS twice. A surrogate id would permit duplicates unless you also added a UNIQUE constraint on the pair, which makes the surrogate redundant. The one exception is when you need a stable small integer to reference the junction row from yet another table — then add a surrogate id alongside the composite UNIQUE.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does 1NF require?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Single-column primary keys</li><li><span class="mcq-option-label">B.</span> Atomic values in every column; no repeating groups</li><li><span class="mcq-option-label">C.</span> All columns to be NOT NULL</li><li><span class="mcq-option-label">D.</span> No foreign keys</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> 1NF forbids lists, CSVs, or multi-valued columns. Each cell must hold one value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which form eliminates partial dependencies on composite keys?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1NF</li><li><span class="mcq-option-label">B.</span> 2NF</li><li><span class="mcq-option-label">C.</span> 3NF</li><li><span class="mcq-option-label">D.</span> BCNF</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> 2NF is defined specifically to eliminate partial dependencies — a concern only when the PK is composite.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which form eliminates transitive dependencies?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1NF</li><li><span class="mcq-option-label">B.</span> 2NF</li><li><span class="mcq-option-label">C.</span> 3NF</li><li><span class="mcq-option-label">D.</span> 4NF</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> 3NF forbids non-key columns from determining other non-key columns.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">How do you model a many-to-many relationship?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A foreign key on each side</li><li><span class="mcq-option-label">B.</span> A junction/associative table with a composite PK of the two FKs</li><li><span class="mcq-option-label">C.</span> A VARCHAR column with CSV-encoded IDs</li><li><span class="mcq-option-label">D.</span> You can&#39;t</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> The junction table represents the relationship itself and can hold relationship-specific attributes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does ON DELETE CASCADE do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Blocks the delete</li><li><span class="mcq-option-label">B.</span> Sets the FK to NULL</li><li><span class="mcq-option-label">C.</span> Deletes referencing child rows automatically</li><li><span class="mcq-option-label">D.</span> Raises a warning</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Child rows are deleted when their parent is deleted. Use only for ownership hierarchies.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which is TRUE about surrogate keys?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They must be natural identifiers</li><li><span class="mcq-option-label">B.</span> They are invented IDs with no business meaning, stable across entity changes</li><li><span class="mcq-option-label">C.</span> They must be UUIDs</li><li><span class="mcq-option-label">D.</span> They cannot be primary keys</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Surrogate keys (INT AUTO_INCREMENT, UUID) are stable and decoupled from business data — ideal for PKs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which NF is violated by (order_id, product_id) PK + product_name?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1NF</li><li><span class="mcq-option-label">B.</span> 2NF (partial dependency on product_id)</li><li><span class="mcq-option-label">C.</span> 3NF</li><li><span class="mcq-option-label">D.</span> 4NF</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> product_name depends on only part of the composite PK, a partial dependency.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which NF is violated by (emp_id PK, dept_id, dept_name)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1NF</li><li><span class="mcq-option-label">B.</span> 2NF</li><li><span class="mcq-option-label">C.</span> 3NF (transitive dependency through dept_id)</li><li><span class="mcq-option-label">D.</span> BCNF only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> dept_name depends on dept_id, a non-key column — a transitive dependency via emp_id -> dept_id -> dept_name.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which is NOT a legitimate reason to denormalize?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Hot read path dominated by expensive JOINs</li><li><span class="mcq-option-label">B.</span> Dashboard that queries thousands of times per minute</li><li><span class="mcq-option-label">C.</span> Developer preference — &#39;it looks cleaner&#39;</li><li><span class="mcq-option-label">D.</span> Analytics/reporting tables that must be pre-aggregated</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Denormalization must be driven by measured performance, not aesthetics.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which cardinality does enrollments(student_id, course_id) represent?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1-1</li><li><span class="mcq-option-label">B.</span> 1-N</li><li><span class="mcq-option-label">C.</span> N-M</li><li><span class="mcq-option-label">D.</span> No relationship</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> A student enrolls in many courses; a course has many students. Junction table is the N-M pattern.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Why store unit_price on order_items despite products.price existing?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 3NF violation for no reason</li><li><span class="mcq-option-label">B.</span> To capture price at the moment of sale, since products.price changes over time</li><li><span class="mcq-option-label">C.</span> To speed up writes</li><li><span class="mcq-option-label">D.</span> Because MySQL requires it</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> unit_price is a historical fact, not redundant — products.price may change, but the sale's price is fixed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">BCNF is strictly stronger than 3NF because:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It allows more columns per table</li><li><span class="mcq-option-label">B.</span> It requires every determinant to be a superkey (no exceptions for prime attributes)</li><li><span class="mcq-option-label">C.</span> It forbids composite keys</li><li><span class="mcq-option-label">D.</span> It requires SERIALIZABLE isolation</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> 3NF allows a non-superkey to determine a prime attribute; BCNF does not.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Best choice for an 'invoices' FK to customers, where legal retention is required?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ON DELETE CASCADE</li><li><span class="mcq-option-label">B.</span> ON DELETE SET NULL</li><li><span class="mcq-option-label">C.</span> ON DELETE RESTRICT</li><li><span class="mcq-option-label">D.</span> ON DELETE NO ACTION (deferred)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> RESTRICT blocks accidental deletes; operator must clear invoices first. Loss of invoices due to CASCADE can be a legal nightmare.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Why do we keep normalized design as the source of truth even when denormalized copies exist?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Normalized tables are always faster</li><li><span class="mcq-option-label">B.</span> So that copies can be regenerated and reconciled when they drift; normalized is the canonical version of facts</li><li><span class="mcq-option-label">C.</span> Because ORMs require it</li><li><span class="mcq-option-label">D.</span> To comply with ACID</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Denormalization is a cache. When it drifts, the normalized tables are the ground truth you rebuild from.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which is NOT a valid reason to prefer UUID PKs over AUTO_INCREMENT?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Multi-master distributed ID generation</li><li><span class="mcq-option-label">B.</span> Unguessable public URLs</li><li><span class="mcq-option-label">C.</span> Faster clustered-index inserts</li><li><span class="mcq-option-label">D.</span> Offline-first clients that create rows before reaching the server</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> UUIDs are worse for clustered-index insert locality. All the others are valid UUID use cases.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">In an ER diagram, what does a 'weak entity' mean?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A table that cannot exist without a parent; its PK includes the parent&#39;s PK</li><li><span class="mcq-option-label">B.</span> A table with no indexes</li><li><span class="mcq-option-label">C.</span> A view</li><li><span class="mcq-option-label">D.</span> A denormalized copy</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: A</strong><br><strong>A is correct.</strong> Example: order_items (weak) depends on orders (strong) — the order_id is part of the PK.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the correct first step when asked to 'design the schema for X'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Write CREATE TABLE immediately</li><li><span class="mcq-option-label">B.</span> Draw the ER diagram: list entities, relationships, and cardinalities</li><li><span class="mcq-option-label">C.</span> Add indexes</li><li><span class="mcq-option-label">D.</span> Choose the isolation level</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Getting entities and cardinality right on paper saves weeks of painful migrations later. DDL comes after the ER.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Normalize a Flat Orders Table to 3NF</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given <code>orders_flat(order_id, customer_name, customer_city, product_name, product_price, qty)</code>, write the CREATE TABLEs for a 3NF schema. Include FKs.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input.)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Four tables: customers, products, orders, order_items (with unit_price snapshot).</div>
+                </div><div class="challenge-constraints">Use AUTO_INCREMENT PKs. Use FOREIGN KEY with appropriate cascade.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">CREATE TABLE customers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    city VARCHAR(50)
+);
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    price DECIMAL(10,2)
+);
+
+CREATE TABLE orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id INT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (customer_id) REFERENCES customers(id)
+);
+
+CREATE TABLE order_items (
+    order_id INT,
+    product_id INT,
+    qty INT NOT NULL,
+    unit_price DECIMAL(10,2) NOT NULL,
+    PRIMARY KEY (order_id, product_id),
+    FOREIGN KEY (order_id)   REFERENCES orders(id)   ON DELETE CASCADE,
+    FOREIGN KEY (product_id) REFERENCES products(id)
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Split a CSV Column (1NF Fix)</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description"><code>students(id, name, phones VARCHAR(200))</code> stores CSV phones. Create a <code>student_phones</code> child table and write the INSERT ... SELECT that migrates existing data.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">students: (1,&#39;Aarav&#39;,&#39;9876500001,9876500002&#39;), (2,&#39;Priya&#39;,&#39;9876500003&#39;)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">student_phones: (1,&#39;9876500001&#39;),(1,&#39;9876500002&#39;),(2,&#39;9876500003&#39;)</div>
+                </div><div class="challenge-constraints">Use a numbers table or a recursive CTE to split the CSV.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">CREATE TABLE student_phones (
+    student_id INT,
+    phone VARCHAR(15),
+    PRIMARY KEY (student_id, phone),
+    FOREIGN KEY (student_id) REFERENCES students(id)
+);
+
+-- Using a recursive CTE to split on commas
+INSERT INTO student_phones (student_id, phone)
+WITH RECURSIVE split AS (
+    SELECT id AS student_id,
+           TRIM(SUBSTRING_INDEX(phones, &#39;,&#39;, 1)) AS phone,
+           IF(LOCATE(&#39;,&#39;, phones) = 0, &#39;&#39;, SUBSTRING(phones, LOCATE(&#39;,&#39;, phones) + 1)) AS rest
+    FROM students
+    UNION ALL
+    SELECT student_id,
+           TRIM(SUBSTRING_INDEX(rest, &#39;,&#39;, 1)),
+           IF(LOCATE(&#39;,&#39;, rest) = 0, &#39;&#39;, SUBSTRING(rest, LOCATE(&#39;,&#39;, rest) + 1))
+    FROM split
+    WHERE rest &lt;&gt; &#39;&#39;
+)
+SELECT student_id, phone FROM split WHERE phone &lt;&gt; &#39;&#39;;
+
+-- Finally, drop the CSV column
+ALTER TABLE students DROP COLUMN phones;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Design an Instagram Schema</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Design DDL for users, posts, comments, likes, and follows. Include correct cardinalities, FKs with appropriate cascades, and a CHECK preventing self-follows.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input.)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Five tables with correct relationships.</div>
+                </div><div class="challenge-constraints">Self-reference on follows. Likes as a junction. Comments under posts.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(30) UNIQUE NOT NULL,
+    bio VARCHAR(200),
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE posts (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    caption TEXT,
+    image_url VARCHAR(200),
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE comments (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    post_id BIGINT NOT NULL,
+    user_id INT NOT NULL,
+    body VARCHAR(500),
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+CREATE TABLE likes (
+    post_id BIGINT,
+    user_id INT,
+    liked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (post_id, user_id),
+    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE follows (
+    follower_id INT,
+    followee_id INT,
+    followed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (follower_id, followee_id),
+    FOREIGN KEY (follower_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (followee_id) REFERENCES users(id) ON DELETE CASCADE,
+    CHECK (follower_id &lt;&gt; followee_id)
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: N-M with Relationship Attributes</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Design a junction <code>enrollments</code> between students and courses that records grade and enrolment date. Prevent duplicate enrolments.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">students, courses already exist.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">enrollments with composite PK and FKs.</div>
+                </div><div class="challenge-constraints">PK = (student_id, course_id).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">CREATE TABLE enrollments (
+    student_id INT,
+    course_id INT,
+    grade CHAR(2),
+    enrolled_at DATE,
+    PRIMARY KEY (student_id, course_id),
+    FOREIGN KEY (student_id) REFERENCES students(id) ON DELETE CASCADE,
+    FOREIGN KEY (course_id)  REFERENCES courses(id)  ON DELETE CASCADE
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Employee Hierarchy with SET NULL</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Design an employees table with self-referencing manager_id. When a manager is deleted, reports should have manager_id cleared.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Managers and reports exist.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">DDL with correct FK and cascade.</div>
+                </div><div class="challenge-constraints">Self-referencing FK; manager_id must be NULL-able.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    manager_id INT NULL,
+    FOREIGN KEY (manager_id) REFERENCES employees(id) ON DELETE SET NULL
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Protect Business-Critical Data with RESTRICT</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Design invoices FK to customers with RESTRICT so accidental customer deletes fail while invoices exist.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">customers and invoices tables needed.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">DELETE on customer with invoices fails with FK error.</div>
+                </div><div class="challenge-constraints">Use ON DELETE RESTRICT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">CREATE TABLE customers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100) UNIQUE
+);
+
+CREATE TABLE invoices (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id INT NOT NULL,
+    amount DECIMAL(12,2),
+    issued_at DATE,
+    FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE RESTRICT
+);
+
+-- Any accidental DELETE FROM customers WHERE id = X
+-- will fail if invoices reference that customer.</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: E-commerce Schema with Carts and Orders</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Design a minimum e-commerce schema: users, products, categories, carts, cart_items, orders, order_items. Include unit_price snapshot on order_items and proper cascades.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input.)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Seven tables with correct relationships.</div>
+                </div><div class="challenge-constraints">Use surrogate PKs. Use composite PKs on junction tables. Snapshot unit_price on order_items.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    password_hash CHAR(60) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) UNIQUE
+);
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    category_id INT,
+    price DECIMAL(10,2) NOT NULL,
+    stock INT NOT NULL DEFAULT 0,
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+);
+
+CREATE TABLE carts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL UNIQUE,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE cart_items (
+    cart_id INT,
+    product_id INT,
+    qty INT NOT NULL,
+    PRIMARY KEY (cart_id, product_id),
+    FOREIGN KEY (cart_id)    REFERENCES carts(id)    ON DELETE CASCADE,
+    FOREIGN KEY (product_id) REFERENCES products(id)
+);
+
+CREATE TABLE orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    total DECIMAL(10,2) NOT NULL,
+    status VARCHAR(20) NOT NULL DEFAULT &#39;PENDING&#39;,
+    placed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+CREATE TABLE order_items (
+    order_id INT,
+    product_id INT,
+    qty INT NOT NULL,
+    unit_price DECIMAL(10,2) NOT NULL,
+    PRIMARY KEY (order_id, product_id),
+    FOREIGN KEY (order_id)   REFERENCES orders(id)   ON DELETE CASCADE,
+    FOREIGN KEY (product_id) REFERENCES products(id)
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Migration: Normalize an Existing Table</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given <code>employees_bad(emp_id, emp_name, dept_id, dept_name)</code>, write the SQL to migrate to a 3NF schema with a <code>departments</code> table, without losing data. Include the backfill and the final DROP COLUMN.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees_bad has 100 rows with repeating dept_name.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Two tables: departments and employees (with FK). employees_bad&#39;s dept_name dropped.</div>
+                </div><div class="challenge-constraints">Backfill departments from DISTINCT. Verify no orphans. Drop the redundant column last.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">-- Step 1: create the new table
+CREATE TABLE departments (
+    id INT PRIMARY KEY,
+    name VARCHAR(50)
+);
+
+-- Step 2: backfill from existing rows
+INSERT INTO departments (id, name)
+SELECT DISTINCT dept_id, dept_name
+FROM employees_bad
+WHERE dept_id IS NOT NULL;
+
+-- Step 3: rename the old table (backup) and create the new clean one
+RENAME TABLE employees_bad TO employees_old;
+
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50),
+    dept_id INT,
+    FOREIGN KEY (dept_id) REFERENCES departments(id)
+);
+
+-- Step 4: copy the clean data
+INSERT INTO employees (emp_id, emp_name, dept_id)
+SELECT emp_id, emp_name, dept_id FROM employees_old;
+
+-- Step 5: verify counts match
+SELECT COUNT(*) FROM employees_old;
+SELECT COUNT(*) FROM employees;
+
+-- Step 6: once verified in production, drop the old table
+DROP TABLE employees_old;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/transactions-and-acid/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Transactions and ACID Properties</span>
+        </a>
+            <a href="/resources/sql/sql-interview-masterclass/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">SQL Interview Masterclass - Top 30 Questions Solved</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/database-design-and-normalization" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,653 @@
+{
+  "title": "Self Joins and Multi-Table Queries",
+  "slug": "self-joins-and-multi-table",
+  "language": "sql",
+  "chapter": 12,
+  "difficulty": "Intermediate",
+  "readingTime": "38 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 49,
+  "seo": {
+    "title": "SQL Self Join and Multi-Table Query Tutorial with Examples | Modern Age Coders",
+    "description": "Learn SQL self joins and multi-table queries with real MySQL examples. Employee-manager hierarchy, 3-table joins (customers-orders-products), implicit vs explicit joins, and 58+ interview questions including 'employees earning more than their manager'.",
+    "keywords": "sql self join, mysql self join, employee manager sql, multi-table join, 3 table join sql, natural join, implicit join sql, sql hierarchy query, self join interview questions, employee manager hierarchy sql"
+  },
+  "content": {
+    "what": "<h2>What Are Self Joins and Multi-Table Joins?</h2><p>A <strong>self join</strong> is a JOIN where a table is joined with itself. This sounds strange — why join a table with itself? Because many real-world relationships live inside a single table. An employee's manager is also an employee. A reply on a forum references the parent post, which is also a post. A folder has a parent folder. To fetch both ends of the relationship in one query, we alias the same table twice.</p><p>A <strong>multi-table join</strong> chains three or more tables together in a single query. Real applications rarely answer a question using only two tables. A sales report needs customers, orders, and order_items. A student transcript needs students, enrollments, courses, and grades. JOIN is associative: you stack them left-to-right.</p><h3>Sample Tables Used Throughout This Chapter</h3><pre><code>-- Employees with a self-referencing manager_id\nCREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    manager_id INT,\n    salary DECIMAL(10,2),\n    department VARCHAR(30)\n);\n\nINSERT INTO employees VALUES\n(1, 'Ananya Reddy',  NULL, 250000, 'CEO'),\n(2, 'Rahul Verma',      1, 180000, 'Engineering'),\n(3, 'Sneha Kapoor',     1, 170000, 'Marketing'),\n(4, 'Arjun Pillai',     2, 120000, 'Engineering'),\n(5, 'Divya Nair',       2, 190000, 'Engineering'),  -- earns more than her manager!\n(6, 'Karthik Raja',     3, 110000, 'Marketing'),\n(7, 'Pooja Menon',      3,  95000, 'Marketing');\n\n-- For 3-table join examples\nCREATE TABLE customers (id INT PRIMARY KEY, name VARCHAR(50), city VARCHAR(30));\nCREATE TABLE orders    (id INT PRIMARY KEY, customer_id INT, order_date DATE);\nCREATE TABLE order_items (id INT PRIMARY KEY, order_id INT, product_id INT, qty INT, price DECIMAL(8,2));\nCREATE TABLE products  (id INT PRIMARY KEY, name VARCHAR(50), category VARCHAR(30));\n\nINSERT INTO customers VALUES\n(1, 'Aarav Kumar', 'Bengaluru'),\n(2, 'Priya Sharma', 'Mumbai');\n\nINSERT INTO orders VALUES\n(101, 1, '2026-03-10'),\n(102, 2, '2026-03-11');\n\nINSERT INTO products VALUES\n(1, 'Laptop',  'Electronics'),\n(2, 'Mouse',   'Electronics'),\n(3, 'Notebook','Stationery');\n\nINSERT INTO order_items VALUES\n(1001, 101, 1, 1, 55000),\n(1002, 101, 2, 2,   500),\n(1003, 102, 3, 5,   200);</code></pre>",
+    "why": "<h2>Why Self Joins and Multi-Table Joins Matter</h2><h3>1. Hierarchical Data Is Everywhere</h3><p>Org charts, category trees, threaded comments, file systems, geographical regions. Every real system contains hierarchies. The cleanest way to store them in a relational database is a self-referencing foreign key (manager_id points to id in the same table). Self joins are how you query this structure at one level. Recursive CTEs (covered later) handle unlimited depth.</p><h3>2. Real Queries Always Touch Multiple Tables</h3><p>A well-normalized database has many narrow tables. A 'show me top 10 products sold in Bengaluru in March' query easily touches 4 tables: customers, orders, order_items, products. You cannot avoid multi-table JOINs by writing simpler queries — you must master them.</p><h3>3. Self Join Is a Famous Interview Topic</h3><p>The 'find employees earning more than their manager' question appears in SQL interviews at least as often as 'Nth highest salary.' Recruiters use it to test whether you understand that a single table can represent a graph.</p><h3>4. Join Order Affects Performance, Not Results</h3><p>Logically, (a JOIN b) JOIN c equals a JOIN (b JOIN c). But the optimizer picks an execution order based on statistics. Understanding how joins compose lets you write clean queries and trust the optimizer, while knowing when to force a different order with hints for pathological cases.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Self Join Basics — Alias the Same Table Twice</h3><p>You cannot join a table with itself unless each reference has a distinct alias, because otherwise column names would be ambiguous.</p><pre><code>-- List each employee with their manager's name\nSELECT e.name AS employee, m.name AS manager\nFROM employees e\nLEFT JOIN employees m ON e.manager_id = m.id;</code></pre><p>Here <code>e</code> is the 'employee' role of the table and <code>m</code> is the 'manager' role. LEFT JOIN is used so that the CEO (who has no manager) still appears, with NULL for manager name.</p><p>Output on the sample data:</p><pre><code>+---------------+--------------+\n| employee      | manager      |\n+---------------+--------------+\n| Ananya Reddy  | NULL         |\n| Rahul Verma   | Ananya Reddy |\n| Sneha Kapoor  | Ananya Reddy |\n| Arjun Pillai  | Rahul Verma  |\n| Divya Nair    | Rahul Verma  |\n| Karthik Raja  | Sneha Kapoor |\n| Pooja Menon   | Sneha Kapoor |\n+---------------+--------------+</code></pre><h3>2. Employees Earning More Than Their Manager</h3><p>A classic interview problem:</p><pre><code>SELECT e.name AS employee, e.salary AS emp_salary,\n       m.name AS manager, m.salary AS mgr_salary\nFROM employees e\nJOIN employees m ON e.manager_id = m.id\nWHERE e.salary > m.salary;</code></pre><p>Result:</p><pre><code>+------------+------------+-------------+------------+\n| employee   | emp_salary | manager     | mgr_salary |\n+------------+------------+-------------+------------+\n| Divya Nair |  190000.00 | Rahul Verma |  180000.00 |\n+------------+------------+-------------+------------+</code></pre><p>The logic: join each employee to the row of their manager. Compare salaries. The CEO (no manager_id) is excluded by the INNER JOIN, which is correct because the CEO has no manager to compare to.</p><h3>3. Going Beyond Two Levels — Preview of Recursive CTEs</h3><p>Self join gives one level of hierarchy. To list all ancestors (manager's manager's manager) without knowing the depth, you need a <strong>recursive CTE</strong> (covered in the CTE chapter):</p><pre><code>WITH RECURSIVE chain AS (\n    SELECT id, name, manager_id, 0 AS level FROM employees WHERE name = 'Pooja Menon'\n    UNION ALL\n    SELECT e.id, e.name, e.manager_id, c.level + 1\n    FROM employees e JOIN chain c ON e.id = c.manager_id\n)\nSELECT * FROM chain;</code></pre><p>A plain self join can only look up one level at a time.</p><h3>4. Joining Three Tables</h3><p>Chain JOINs left to right. Each JOIN adds a new table referring to something already in scope.</p><pre><code>-- Total revenue per customer\nSELECT c.name, SUM(oi.qty * oi.price) AS total\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nGROUP BY c.id, c.name;</code></pre><p>Output:</p><pre><code>+--------------+----------+\n| name         | total    |\n+--------------+----------+\n| Aarav Kumar  | 56000.00 |\n| Priya Sharma |  1000.00 |\n+--------------+----------+</code></pre><p>Aarav's total: 1*55000 + 2*500 = 56000. Priya's: 5*200 = 1000.</p><h3>5. Joining Four Tables</h3><pre><code>-- Top-selling products overall\nSELECT p.name AS product, SUM(oi.qty) AS units_sold, SUM(oi.qty * oi.price) AS revenue\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nJOIN products p     ON oi.product_id = p.id\nGROUP BY p.id, p.name\nORDER BY revenue DESC;</code></pre><h3>6. Does Join Order Matter?</h3><p><strong>Results</strong>: no. INNER JOIN is associative and commutative (ignoring LEFT/RIGHT nuances). <code>a JOIN b JOIN c</code> produces the same rows regardless of how you group them.</p><p><strong>Performance</strong>: yes, it can matter. The optimizer picks an execution plan based on row counts and indexes. Usually it gets this right. For complex queries with 5+ tables, you might inspect <code>EXPLAIN</code> output and consider hints. Beginners should trust the optimizer and write the most readable order.</p><h3>7. Implicit (Old-Style) Joins — Avoid</h3><p>Before SQL-92 formalized JOIN syntax, people wrote:</p><pre><code>-- OLD STYLE (avoid)\nSELECT c.name, o.id\nFROM customers c, orders o\nWHERE c.id = o.customer_id;</code></pre><p>Why avoid? Three reasons:</p><ol><li>Forget the WHERE and you get a cartesian product — millions of rows on a production DB.</li><li>LEFT/RIGHT/FULL OUTER JOIN cannot be expressed in this syntax.</li><li>Join condition and filter condition get mixed in WHERE, making intent unclear.</li></ol><p>Always use explicit <code>JOIN ... ON ...</code>. Some style guides even fail builds that use comma-joins.</p><h3>8. NATURAL JOIN — Risky, Avoid</h3><p>NATURAL JOIN automatically joins on all columns with the same name in both tables:</p><pre><code>SELECT * FROM customers NATURAL JOIN orders;</code></pre><p>Why risky? If someone adds a column to one table that happens to match an unrelated column in the other (say, both tables get a <code>created_at</code>), the NATURAL JOIN silently adds an extra condition and changes the result set. You get no warning. Explicit JOIN ... ON is always safer.</p><h3>9. Self Join with Multiple Conditions</h3><p>Combine conditions for richer queries.</p><pre><code>-- Pairs of employees in the same department\nSELECT e1.name AS emp1, e2.name AS emp2, e1.department\nFROM employees e1\nJOIN employees e2\n  ON e1.department = e2.department\n  AND e1.id < e2.id;\n-- The id < id trick avoids duplicates (A,B) and (B,A) and self-pairs (A,A)</code></pre><h3>10. Multi-Table Join Pitfalls — Cartesian Blowup</h3><p>A missing JOIN condition in a multi-table query silently blows up the row count. 1000 customers x 1000 orders x 1000 items = 1 billion rows. Always verify row counts after writing multi-table queries during development. Add <code>SELECT COUNT(*)</code> as a sanity check. Use <code>LIMIT 10</code> while testing.</p><h3>11. Filtering Early vs Late</h3><p>Logically, you can put a filter in ON or WHERE (for INNER JOIN they are equivalent; for OUTER JOIN they differ). The optimizer usually pushes filters down to the earliest possible point. For readability, put JOIN conditions in ON and value filters in WHERE.</p><pre><code>-- Preferred style\nSELECT c.name, SUM(oi.qty * oi.price) AS total\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nWHERE c.city = 'Bengaluru'\n  AND o.order_date >= '2026-03-01'\nGROUP BY c.id, c.name;</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Self Join - Employee with Manager Name",
+        "code": "SELECT e.name AS employee, e.salary, m.name AS manager\nFROM employees e\nLEFT JOIN employees m ON e.manager_id = m.id\nORDER BY e.id;",
+        "language": "sql",
+        "explanation": "Alias the same table twice: <code>e</code> for employee role, <code>m</code> for manager role. LEFT JOIN keeps the CEO (who has manager_id = NULL) in the result with NULL for manager name.",
+        "output": "+---------------+-----------+--------------+\n| employee      | salary    | manager      |\n+---------------+-----------+--------------+\n| Ananya Reddy  | 250000.00 | NULL         |\n| Rahul Verma   | 180000.00 | Ananya Reddy |\n| Sneha Kapoor  | 170000.00 | Ananya Reddy |\n| Arjun Pillai  | 120000.00 | Rahul Verma  |\n| Divya Nair    | 190000.00 | Rahul Verma  |\n| Karthik Raja  | 110000.00 | Sneha Kapoor |\n| Pooja Menon   |  95000.00 | Sneha Kapoor |\n+---------------+-----------+--------------+\n7 rows in set"
+      },
+      {
+        "title": "Employees Earning More Than Their Manager",
+        "code": "SELECT e.name AS employee, e.salary AS emp_salary,\n       m.name AS manager, m.salary AS mgr_salary\nFROM employees e\nJOIN employees m ON e.manager_id = m.id\nWHERE e.salary > m.salary;",
+        "language": "sql",
+        "explanation": "Classic interview problem. INNER JOIN connects each employee to their manager's row. WHERE compares salaries. CEO is automatically excluded because INNER JOIN drops rows where manager_id is NULL.",
+        "output": "+------------+------------+-------------+------------+\n| employee   | emp_salary | manager     | mgr_salary |\n+------------+------------+-------------+------------+\n| Divya Nair |  190000.00 | Rahul Verma |  180000.00 |\n+------------+------------+-------------+------------+\n1 row in set"
+      },
+      {
+        "title": "Count Direct Reports for Each Manager",
+        "code": "SELECT m.id, m.name AS manager, COUNT(e.id) AS reports\nFROM employees m\nLEFT JOIN employees e ON e.manager_id = m.id\nGROUP BY m.id, m.name\nORDER BY reports DESC;",
+        "language": "sql",
+        "explanation": "Drive from employees as manager (m). LEFT JOIN to employees as their direct reports (e). COUNT(e.id) gives 0 for managers with no reports (individual contributors). This counts only direct reports; for 'all descendants' you need a recursive CTE.",
+        "output": "+----+---------------+---------+\n| id | manager       | reports |\n+----+---------------+---------+\n|  1 | Ananya Reddy  |       2 |\n|  2 | Rahul Verma   |       2 |\n|  3 | Sneha Kapoor  |       2 |\n|  4 | Arjun Pillai  |       0 |\n|  5 | Divya Nair    |       0 |\n|  6 | Karthik Raja  |       0 |\n|  7 | Pooja Menon   |       0 |\n+----+---------------+---------+\n7 rows in set"
+      },
+      {
+        "title": "Three-Table Join - Customer, Order, Items",
+        "code": "SELECT c.name AS customer, o.id AS order_id, oi.qty, oi.price,\n       (oi.qty * oi.price) AS line_total\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nORDER BY c.id, o.id;",
+        "language": "sql",
+        "explanation": "Chain JOINs left-to-right. Each JOIN introduces one new table. The alias lets us reference that table's columns in the SELECT or later ON clauses. This is the most common shape of a business query.",
+        "output": "+--------------+----------+-----+----------+------------+\n| customer     | order_id | qty | price    | line_total |\n+--------------+----------+-----+----------+------------+\n| Aarav Kumar  |      101 |   1 | 55000.00 |   55000.00 |\n| Aarav Kumar  |      101 |   2 |   500.00 |    1000.00 |\n| Priya Sharma |      102 |   5 |   200.00 |    1000.00 |\n+--------------+----------+-----+----------+------------+\n3 rows in set"
+      },
+      {
+        "title": "Four-Table Join - Product Sales Report",
+        "code": "SELECT p.name AS product, p.category,\n       SUM(oi.qty) AS units_sold,\n       SUM(oi.qty * oi.price) AS revenue\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nJOIN products p     ON oi.product_id = p.id\nGROUP BY p.id, p.name, p.category\nORDER BY revenue DESC;",
+        "language": "sql",
+        "explanation": "Four-table join: customers -> orders -> order_items -> products. Aggregate by product, sort by revenue. This is the skeleton of every e-commerce product sales report.",
+        "output": "+----------+-------------+------------+----------+\n| product  | category    | units_sold | revenue  |\n+----------+-------------+------------+----------+\n| Laptop   | Electronics |          1 | 55000.00 |\n| Mouse    | Electronics |          2 |  1000.00 |\n| Notebook | Stationery  |          5 |  1000.00 |\n+----------+-------------+------------+----------+\n3 rows in set"
+      },
+      {
+        "title": "Self Join with id < id Trick - Unique Pairs",
+        "code": "-- Every pair of employees in the same department, without duplicates\nSELECT e1.name AS emp1, e2.name AS emp2, e1.department\nFROM employees e1\nJOIN employees e2\n  ON e1.department = e2.department\n AND e1.id < e2.id\nORDER BY e1.department, e1.id;",
+        "language": "sql",
+        "explanation": "The <code>e1.id &lt; e2.id</code> condition guarantees: (a) no self-pairs like (Arjun, Arjun), (b) each pair appears only once, e.g., (Arjun, Divya) but not (Divya, Arjun). Without this, you would get n^2 rows per department.",
+        "output": "+---------------+---------------+-------------+\n| emp1          | emp2          | department  |\n+---------------+---------------+-------------+\n| Rahul Verma   | Arjun Pillai  | Engineering |\n| Rahul Verma   | Divya Nair    | Engineering |\n| Arjun Pillai  | Divya Nair    | Engineering |\n| Sneha Kapoor  | Karthik Raja  | Marketing   |\n| Sneha Kapoor  | Pooja Menon   | Marketing   |\n| Karthik Raja  | Pooja Menon   | Marketing   |\n+---------------+---------------+-------------+\n6 rows in set"
+      },
+      {
+        "title": "Three-Level Self Join - Grandmanager",
+        "code": "SELECT e.name AS employee, m.name AS manager, gm.name AS grandmanager\nFROM employees e\nLEFT JOIN employees m  ON e.manager_id = m.id\nLEFT JOIN employees gm ON m.manager_id = gm.id;",
+        "language": "sql",
+        "explanation": "Three aliases for three levels: employee (e), manager (m), grandmanager (gm). Arjun's manager is Rahul, whose manager is Ananya. For unknown depths, use a recursive CTE instead.",
+        "output": "+---------------+--------------+--------------+\n| employee      | manager      | grandmanager |\n+---------------+--------------+--------------+\n| Ananya Reddy  | NULL         | NULL         |\n| Rahul Verma   | Ananya Reddy | NULL         |\n| Sneha Kapoor  | Ananya Reddy | NULL         |\n| Arjun Pillai  | Rahul Verma  | Ananya Reddy |\n| Divya Nair    | Rahul Verma  | Ananya Reddy |\n| Karthik Raja  | Sneha Kapoor | Ananya Reddy |\n| Pooja Menon   | Sneha Kapoor | Ananya Reddy |\n+---------------+--------------+--------------+\n7 rows in set"
+      },
+      {
+        "title": "Multi-Table Filter - Bengaluru Customers Who Bought Electronics",
+        "code": "SELECT DISTINCT c.name\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nJOIN products p     ON oi.product_id = p.id\nWHERE c.city = 'Bengaluru'\n  AND p.category = 'Electronics';",
+        "language": "sql",
+        "explanation": "Filter across the 4-table chain. WHERE applies after the JOINs, but the optimizer typically pushes the filters down to the relevant tables. DISTINCT prevents a customer from appearing twice if they bought multiple electronics.",
+        "output": "+-------------+\n| name        |\n+-------------+\n| Aarav Kumar |\n+-------------+\n1 row in set"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Self Join Without Distinct Aliases",
+        "wrongCode": "SELECT name, name AS manager\nFROM employees\nJOIN employees ON employees.manager_id = employees.id;",
+        "error": "ERROR 1066 (42000): Not unique table/alias: 'employees'",
+        "correctCode": "SELECT e.name, m.name AS manager\nFROM employees e\nJOIN employees m ON e.manager_id = m.id;",
+        "explanation": "When joining a table with itself, each reference must have a distinct alias. Otherwise, MySQL cannot tell which instance of the table a column belongs to. Pick short, meaningful aliases like <code>e</code> and <code>m</code>."
+      },
+      {
+        "title": "Using INNER JOIN for Self Join When You Need LEFT JOIN",
+        "wrongCode": "-- 'List all employees with their manager'\nSELECT e.name, m.name AS manager\nFROM employees e\nJOIN employees m ON e.manager_id = m.id;",
+        "error": "No error but the CEO (manager_id IS NULL) is silently dropped from the result.",
+        "correctCode": "SELECT e.name, m.name AS manager\nFROM employees e\nLEFT JOIN employees m ON e.manager_id = m.id;",
+        "explanation": "INNER JOIN excludes rows where the join column is NULL. The CEO has no manager, so their row is dropped. Use LEFT JOIN to keep every employee, with NULL manager for top-level roles."
+      },
+      {
+        "title": "Forgetting a JOIN Condition in Multi-Table Query (Cartesian Blowup)",
+        "wrongCode": "SELECT c.name, p.name\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi\nJOIN products p     ON oi.product_id = p.id;",
+        "error": "MySQL may complain about syntax near the second JOIN. In lenient modes, this produces a cartesian product because order_items is joined without a condition.",
+        "correctCode": "SELECT c.name, p.name\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nJOIN products p     ON oi.product_id = p.id;",
+        "explanation": "Every JOIN needs its own ON clause. Missing one either causes a syntax error or (in older MySQL modes) produces a massive cartesian product. Always double-check that the number of ON clauses equals the number of JOINs."
+      },
+      {
+        "title": "Using NATURAL JOIN on Tables with Accidental Matching Columns",
+        "wrongCode": "SELECT * FROM customers NATURAL JOIN orders;\n-- If both tables have a 'created_at' column, they become part of the join!",
+        "error": "No error but the result is wrong. NATURAL JOIN requires created_at to match, filtering out rows that should have matched.",
+        "correctCode": "SELECT * FROM customers c\nJOIN orders o ON c.id = o.customer_id;",
+        "explanation": "NATURAL JOIN joins on every column with the same name. When schemas evolve and a new column accidentally shares a name across tables, the join silently changes meaning. Always use explicit ON for safety."
+      }
+    ],
+    "summary": [
+      "A self join is a JOIN where a table is joined with itself, using two distinct aliases. Used for hierarchical or intra-table relationships like employee-manager.",
+      "Use LEFT JOIN for self joins when the 'parent' might be NULL (e.g., the CEO has no manager). INNER JOIN would silently drop those rows.",
+      "'Employees earning more than their manager' is the classic self-join interview question: JOIN employees e with employees m ON e.manager_id = m.id WHERE e.salary > m.salary.",
+      "A single self join walks one level of hierarchy. For arbitrary depth, use recursive CTEs.",
+      "Multi-table joins chain tables left-to-right. Each JOIN needs its own ON clause. The result is associative: order does not change rows, only performance.",
+      "Implicit joins (FROM a, b WHERE a.id = b.id) are deprecated style. Explicit JOIN ... ON is safer, clearer, and supports OUTER joins.",
+      "NATURAL JOIN is dangerous because it silently joins on every same-named column. New columns accidentally break queries. Always use explicit ON.",
+      "The <code>e1.id &lt; e2.id</code> trick in a self join produces unique unordered pairs, avoiding both duplicates and self-pairs.",
+      "Four-table joins (customers -> orders -> order_items -> products) are the skeleton of most business reports. Aggregate at the top of the chain.",
+      "Always sanity-check multi-table queries with <code>SELECT COUNT(*)</code> during development — a missing ON clause quickly produces millions of spurious rows."
+    ]
+  },
+  "relatedTopics": ["joins-inner-and-outer", "subqueries-and-nested-queries", "common-table-expressions"],
+  "practice": {
+    "totalQuestions": 49,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Given the employees table with 7 rows, how many rows does this return?<br><pre><code>SELECT e.name, m.name\nFROM employees e\nLEFT JOIN employees m ON e.manager_id = m.id;</code></pre>",
+        "hint": "LEFT JOIN keeps every employee. CEO has NULL manager.",
+        "answer": "<code>7 rows</code>",
+        "explanation": "Every employee appears once. The CEO (Ananya) has NULL for manager. All 6 other employees have their manager resolved."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows does this return given the same employees table?<br><pre><code>SELECT e.name, m.name\nFROM employees e\nJOIN employees m ON e.manager_id = m.id;</code></pre>",
+        "hint": "INNER JOIN drops rows with NULL manager_id.",
+        "answer": "<code>6 rows</code>",
+        "explanation": "INNER JOIN requires a matching manager. The CEO (manager_id = NULL) has no match and is dropped. 7 - 1 = 6."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which employee earns more than their manager?",
+        "hint": "Sample data: Divya (190k) reports to Rahul (180k).",
+        "answer": "<code>Divya Nair (190000) - Rahul Verma (180000)</code>",
+        "explanation": "Only Divya's salary (190000) exceeds her manager Rahul's salary (180000). This shows up as the single row from the classic <code>e.salary > m.salary</code> self-join query."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many direct reports does Ananya (CEO) have?",
+        "hint": "Count employees where manager_id = 1.",
+        "answer": "<code>2 (Rahul Verma, Sneha Kapoor)</code>",
+        "explanation": "Only Rahul (id=2) and Sneha (id=3) have manager_id = 1. Arjun and Divya report to Rahul, not to Ananya directly."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many tables are joined in this query?<br><pre><code>SELECT c.name, p.name\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nJOIN products p     ON oi.product_id = p.id;</code></pre>",
+        "hint": "Count the tables in FROM and JOIN.",
+        "answer": "<code>4 tables (customers, orders, order_items, products)</code>",
+        "explanation": "FROM introduces one table. Each JOIN adds one more. 1 + 3 = 4 tables in total. This is a standard 4-table e-commerce report."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "True or False: A self join requires at least two different aliases for the same table.",
+        "hint": "Otherwise columns are ambiguous.",
+        "answer": "<code>True</code>",
+        "explanation": "Without distinct aliases, MySQL raises: 'Not unique table/alias: employees'. You need e and m (or any two different names)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the problem with this old-style join?<br><pre><code>SELECT c.name, o.id\nFROM customers c, orders o\nWHERE c.id = o.customer_id;</code></pre>",
+        "hint": "Modern style vs implicit style.",
+        "answer": "<code>It works but is discouraged. Forgetting the WHERE creates a cartesian product. Modern style: FROM customers c JOIN orders o ON c.id = o.customer_id.</code>",
+        "explanation": "Comma-join requires the filter in WHERE. Any typo or omission silently produces a cartesian product. Explicit JOIN ... ON is safer and allows OUTER JOINs."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this query return on the sample customers/orders/order_items data?<br><pre><code>SELECT c.name, SUM(oi.qty * oi.price) AS total\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nGROUP BY c.id, c.name;</code></pre>",
+        "hint": "Sum line totals per customer.",
+        "answer": "<code>Aarav Kumar: 56000.00, Priya Sharma: 1000.00</code>",
+        "explanation": "Aarav: 1*55000 + 2*500 = 56000. Priya: 5*200 = 1000. GROUP BY customer, SUM of line totals."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this self-join query produce?<br><pre><code>SELECT e.name\nFROM employees e\nJOIN employees m ON e.manager_id = m.id\nWHERE m.name = 'Sneha Kapoor';</code></pre>",
+        "hint": "Employees whose manager is Sneha.",
+        "answer": "<code>Karthik Raja, Pooja Menon</code>",
+        "explanation": "Sneha's direct reports are the Marketing staff whose manager_id = 3 (Sneha's id). That's Karthik and Pooja."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this query count?<br><pre><code>SELECT m.name, COUNT(e.id) AS reports\nFROM employees m\nLEFT JOIN employees e ON e.manager_id = m.id\nGROUP BY m.id, m.name;</code></pre>",
+        "hint": "LEFT JOIN on the 'manager side'.",
+        "answer": "<code>Number of direct reports per employee (0 if none).</code>",
+        "explanation": "Every employee appears as a potential manager. LEFT JOIN + COUNT(e.id) gives 0 for individual contributors and the direct-report count otherwise."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why does this return 0 rows instead of the CEO?<br><pre><code>SELECT e.name\nFROM employees e\nJOIN employees m ON e.manager_id = m.id\nWHERE e.name = 'Ananya Reddy';</code></pre>",
+        "hint": "CEO has NULL manager_id.",
+        "answer": "<code>Ananya's manager_id is NULL, so the INNER JOIN finds no match and drops her row.</code>",
+        "explanation": "To include the CEO, use LEFT JOIN (manager name will be NULL) or filter with WHERE e.manager_id IS NULL."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this query do?<br><pre><code>SELECT e1.name, e2.name\nFROM employees e1\nJOIN employees e2\n  ON e1.department = e2.department\n AND e1.id <> e2.id;</code></pre>",
+        "hint": "Same department, different people.",
+        "answer": "<code>Every ordered pair of co-workers in the same department. Includes both (A,B) and (B,A).</code>",
+        "explanation": "Without the <code>id &lt; id</code> restriction, each pair appears twice. Use <code>e1.id &lt; e2.id</code> for unique unordered pairs."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows does this return for the sample employees table?<br><pre><code>SELECT e1.name, e2.name\nFROM employees e1\nJOIN employees e2\n  ON e1.department = e2.department\n AND e1.id < e2.id;</code></pre>",
+        "hint": "3 Engineering + 3 Marketing + 1 CEO (alone). Pairs = C(3,2) + C(3,2) + 0.",
+        "answer": "<code>6 rows</code>",
+        "explanation": "Engineering has 3 people (Rahul, Arjun, Divya): C(3,2) = 3 pairs. Marketing has 3 (Sneha, Karthik, Pooja): 3 pairs. CEO is alone in her 'department': 0 pairs. Total: 6."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this three-level self join return?<br><pre><code>SELECT e.name, gm.name AS grandmanager\nFROM employees e\nJOIN employees m  ON e.manager_id = m.id\nJOIN employees gm ON m.manager_id = gm.id;</code></pre>",
+        "hint": "Employee -> manager -> grandmanager. INNER JOIN requires all three.",
+        "answer": "<code>Only employees at depth >= 2 with their grandmanager. Arjun -> Rahul -> Ananya, Divya -> Rahul -> Ananya, Karthik -> Sneha -> Ananya, Pooja -> Sneha -> Ananya.</code>",
+        "explanation": "INNER JOINs require each level to exist. Rahul and Sneha (reports to CEO directly) have no grandmanager, so they are dropped. CEO is also excluded. Result: 4 rows."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is returned by this query given our sample tables?<br><pre><code>SELECT c.name, p.category, SUM(oi.qty * oi.price) AS cat_total\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nJOIN products p     ON oi.product_id = p.id\nGROUP BY c.id, c.name, p.category;</code></pre>",
+        "hint": "Group by customer and category.",
+        "answer": "<code>Aarav / Electronics: 56000, Priya / Stationery: 1000</code>",
+        "explanation": "Aarav bought Laptop (55000) and Mouse (1000), both Electronics = 56000. Priya bought 5 Notebooks at 200 each = 1000, Stationery category."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is a self join?",
+        "hint": "A table joined with...",
+        "answer": "<code>A JOIN where a table is joined with itself using two different aliases. Used for hierarchical or same-table relationships like employee-manager.</code>",
+        "explanation": "Self join handles cases where a row refers to another row in the same table, like a foreign key from employees.manager_id to employees.id."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Why should you prefer LEFT JOIN over INNER JOIN for 'list all employees with their manager'?",
+        "hint": "Top of hierarchy.",
+        "answer": "<code>To include employees whose manager_id is NULL (like the CEO). INNER JOIN would drop them.</code>",
+        "explanation": "Any row whose foreign key is NULL fails INNER JOIN. LEFT JOIN preserves it with NULLs on the right side."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the problem with NATURAL JOIN?",
+        "hint": "Silent behavior when schema changes.",
+        "answer": "<code>It silently joins on every same-named column. Adding a new column (like created_at) in both tables changes the join conditions unexpectedly.</code>",
+        "explanation": "Explicit ON is always safer because it declares your intent and resists schema evolution surprises."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does join order affect the final result for INNER JOINs?",
+        "hint": "Associative property.",
+        "answer": "<code>No. INNER JOINs are associative — (A JOIN B) JOIN C equals A JOIN (B JOIN C). Only performance may differ.</code>",
+        "explanation": "The optimizer picks execution order. For readability, write JOINs in the order you think about the relationships."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Rewrite this as an explicit join: <pre><code>SELECT * FROM a, b WHERE a.id = b.a_id;</code></pre>",
+        "hint": "Use JOIN ... ON.",
+        "answer": "<pre><code>SELECT * FROM a JOIN b ON a.id = b.a_id;</code></pre>",
+        "explanation": "Explicit join is clearer, safer (cartesian products are harder to produce accidentally), and required for OUTER JOINs."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write a query to find all employees managed by Sneha (directly or indirectly, up to 1 level deep).",
+        "hint": "Sneha has direct reports only.",
+        "answer": "<pre><code>SELECT e.name\nFROM employees e\nJOIN employees m ON e.manager_id = m.id\nWHERE m.name = 'Sneha Kapoor';</code></pre>",
+        "explanation": "This gets direct reports (1 level deep). Karthik and Pooja. For arbitrary depth, use a recursive CTE."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given customers, orders, and order_items, write a query to find total orders and total revenue per customer.",
+        "hint": "DISTINCT count of orders + SUM of line totals.",
+        "answer": "<pre><code>SELECT c.name, COUNT(DISTINCT o.id) AS orders,\n       SUM(oi.qty * oi.price) AS revenue\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nGROUP BY c.id, c.name;</code></pre>",
+        "explanation": "COUNT(DISTINCT o.id) because the JOIN duplicates orders once per line item. Without DISTINCT, you'd count line items, not orders."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given the sample data, what is Aarav's total revenue?",
+        "hint": "Order 101: 1 laptop @ 55000 + 2 mice @ 500.",
+        "answer": "<code>56000</code>",
+        "explanation": "1 * 55000 + 2 * 500 = 55000 + 1000 = 56000."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does a multi-table JOIN sometimes count rows incorrectly?",
+        "hint": "Row duplication from joining one-to-many relationships.",
+        "answer": "<code>Because joining parents to children duplicates parent rows (one per child). Aggregations must use DISTINCT or GROUP BY correctly. COUNT(c.id) over a customer-orders-items join counts items, not customers.</code>",
+        "explanation": "Always identify which level you want to count at. Use COUNT(DISTINCT c.id) for customers, COUNT(DISTINCT o.id) for orders, COUNT(oi.id) for items."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When does a self join become insufficient and you need a recursive CTE?",
+        "hint": "Think about hierarchy depth.",
+        "answer": "<code>When the depth of the hierarchy is unknown or variable. A self join handles exactly N levels by writing N-1 joins. A recursive CTE handles arbitrary depth in a single expression.</code>",
+        "explanation": "For 'list all ancestors of X' or 'find all descendants of X', you need a recursive CTE because depth varies per row."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Write a query to find pairs of employees in the same department where one earns significantly more than the other (at least 50k difference).",
+        "hint": "Self join on department + salary difference condition.",
+        "answer": "<pre><code>SELECT e1.name AS high_earner, e2.name AS low_earner,\n       e1.department, e1.salary - e2.salary AS diff\nFROM employees e1\nJOIN employees e2\n  ON e1.department = e2.department\n AND e1.salary >= e2.salary + 50000;</code></pre>",
+        "explanation": "Self join on department. Compare salaries with a threshold. Condition <code>e1.salary >= e2.salary + 50000</code> picks pairs where the first earns at least 50k more."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Write a query that lists each product along with total units sold and which customers bought it.",
+        "hint": "Four-table join + GROUP_CONCAT (MySQL) or aggregation.",
+        "answer": "<pre><code>SELECT p.name,\n       SUM(oi.qty) AS units,\n       GROUP_CONCAT(DISTINCT c.name ORDER BY c.name) AS buyers\nFROM products p\nLEFT JOIN order_items oi ON p.id = oi.product_id\nLEFT JOIN orders o       ON oi.order_id = o.id\nLEFT JOIN customers c    ON o.customer_id = c.id\nGROUP BY p.id, p.name;</code></pre>",
+        "explanation": "LEFT JOIN from products so products with no sales still appear. GROUP_CONCAT aggregates buyer names into a single string per product. DISTINCT handles customers who bought the same product multiple times."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is a self join?",
+        "options": {
+          "A": "Joining two different tables",
+          "B": "Joining a table with itself using two aliases",
+          "C": "Joining with a view instead of a table",
+          "D": "A CROSS JOIN with a single table"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Self join uses two aliases of the same table to represent two roles of the same entity (like employee and manager)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Why must you alias the table in a self join?",
+        "options": {
+          "A": "For performance",
+          "B": "To avoid ambiguous column references",
+          "C": "MySQL does not require it",
+          "D": "To reduce memory"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without distinct aliases, MySQL cannot tell which instance of the table a column refers to, producing the error 'Not unique table/alias'."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which JOIN type should you use to list all employees with their manager, INCLUDING the CEO?",
+        "options": {
+          "A": "INNER JOIN",
+          "B": "LEFT JOIN",
+          "C": "RIGHT JOIN",
+          "D": "CROSS JOIN"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The CEO has manager_id = NULL. LEFT JOIN keeps every employee and shows NULL for the CEO's manager. INNER JOIN would drop the CEO."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "How do JOINs compose with 3 tables?",
+        "options": {
+          "A": "Only INNER JOIN can combine 3 tables",
+          "B": "Each JOIN needs its own ON clause; tables are chained left-to-right",
+          "C": "You need a subquery for the third table",
+          "D": "You can only JOIN 2 tables in MySQL"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> JOINs are naturally chainable. Each additional JOIN brings in one more table with its own ON condition, all in the same query."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Is implicit join (FROM a, b WHERE ...) equivalent to INNER JOIN?",
+        "options": {
+          "A": "Yes, logically equivalent; prefer explicit JOIN syntax",
+          "B": "No, implicit join is CROSS JOIN only",
+          "C": "No, implicit join is LEFT JOIN",
+          "D": "Implicit join is illegal in modern MySQL"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> When the WHERE supplies the matching condition, the result equals INNER JOIN. But explicit JOIN ... ON is preferred for clarity and safety."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Why is NATURAL JOIN risky?",
+        "options": {
+          "A": "It always produces cartesian products",
+          "B": "It joins on every same-named column, breaking silently when schemas change",
+          "C": "It cannot be used with aliases",
+          "D": "It does not exist in MySQL"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Adding a column with a common name (like created_at) to both tables silently adds a new join condition. The query may return different results without any obvious change."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does this query find?<pre><code>SELECT e.name FROM employees e JOIN employees m ON e.manager_id = m.id WHERE e.salary > m.salary;</code></pre>",
+        "options": {
+          "A": "Managers who earn more than their employees",
+          "B": "Employees who earn more than their manager",
+          "C": "Employees with no manager",
+          "D": "Managers with many direct reports"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>e</code> is the employee, <code>m</code> is the manager. The WHERE filters for employees whose salary exceeds their manager's."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "How do you get unique unordered pairs in a self join without duplicates?",
+        "options": {
+          "A": "Use DISTINCT",
+          "B": "Use ON e1.id <> e2.id",
+          "C": "Use ON e1.id < e2.id",
+          "D": "Use NATURAL JOIN"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>e1.id &lt; e2.id</code> eliminates both self-pairs and the reverse duplicate (A,B) vs (B,A)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "In a customers -> orders -> order_items join, what would COUNT(*) return?",
+        "options": {
+          "A": "Number of customers",
+          "B": "Number of orders",
+          "C": "Number of order items (line items)",
+          "D": "Number of products"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The finest-grain table drives the row count after JOINs. COUNT(*) counts order items. Use COUNT(DISTINCT c.id) for customers, COUNT(DISTINCT o.id) for orders."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which statement about JOIN order is TRUE?",
+        "options": {
+          "A": "The order affects the result rows for INNER JOIN",
+          "B": "The order can affect performance but not result rows",
+          "C": "JOINs must always be written in PK-FK order",
+          "D": "LEFT JOIN and INNER JOIN cannot be mixed"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> INNER JOINs are associative and commutative. The optimizer may choose a different execution plan, affecting speed. For readability, write JOINs in the order you naturally think about the relationships."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What does this produce?<pre><code>SELECT m.name, COUNT(e.id) AS n FROM employees m LEFT JOIN employees e ON e.manager_id = m.id GROUP BY m.id, m.name;</code></pre>",
+        "options": {
+          "A": "Count of all employees",
+          "B": "Count of direct reports per person (0 for individual contributors)",
+          "C": "Count of managers only",
+          "D": "Error"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LEFT JOIN + COUNT on the 'reports side' gives zero for individual contributors. Every employee is treated as a potential manager."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "A query joins 4 tables with 100 rows each. One JOIN condition is missing. How many rows could the result have?",
+        "options": {
+          "A": "400",
+          "B": "10,000",
+          "C": "100,000,000",
+          "D": "100"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A missing JOIN condition on one table produces a partial cartesian: 100 * 100 * 100 * 100 = 100 million rows. This is why multi-table queries must be sanity-checked during development."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "When would you choose a recursive CTE over a self join?",
+        "options": {
+          "A": "Always — CTEs are always better",
+          "B": "When the hierarchy depth is unknown or variable",
+          "C": "When you want exactly 2 levels",
+          "D": "Only for outer joins"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Self join handles a known, fixed depth with N-1 joins. Recursive CTEs handle arbitrary depth. For 'find all ancestors' or 'all descendants', use recursive CTEs."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is wrong with NATURAL JOIN in production code?",
+        "options": {
+          "A": "It is slower than ON joins",
+          "B": "Schema changes can silently alter its semantics",
+          "C": "It cannot be combined with WHERE",
+          "D": "It only works with integer columns"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Adding a column with a common name (e.g., created_at, updated_at) to both tables changes what NATURAL JOIN matches on — silently. Queries that worked yesterday return different results today. Always use explicit ON."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "difficulty": "Easy",
+        "title": "Employees with Their Manager Name",
+        "description": "Write a query that lists every employee with their manager's name. Include the CEO with NULL manager.",
+        "starterCode": "-- Self join with LEFT JOIN\n",
+        "solution": "SELECT e.name AS employee, m.name AS manager\nFROM employees e\nLEFT JOIN employees m ON e.manager_id = m.id\nORDER BY e.id;",
+        "explanation": "LEFT JOIN preserves the CEO. Use aliases e (employee) and m (manager).",
+        "testCases": [
+          {"input": "Sample employees table", "output": "7 rows, CEO has NULL manager"}
+        ]
+      },
+      {
+        "id": "cc-2",
+        "difficulty": "Easy",
+        "title": "Employees Earning More Than Their Manager",
+        "description": "Find all employees whose salary exceeds their manager's salary.",
+        "starterCode": "-- Classic self join interview problem\n",
+        "solution": "SELECT e.name AS employee, e.salary, m.name AS manager, m.salary AS mgr_salary\nFROM employees e\nJOIN employees m ON e.manager_id = m.id\nWHERE e.salary > m.salary;",
+        "explanation": "INNER JOIN automatically excludes the CEO (NULL manager_id). Compare salaries.",
+        "testCases": [
+          {"input": "Sample data", "output": "Divya Nair (190000) > Rahul Verma (180000)"}
+        ]
+      },
+      {
+        "id": "cc-3",
+        "difficulty": "Medium",
+        "title": "Count Direct Reports Per Manager",
+        "description": "For each employee, show the number of direct reports (0 for individual contributors).",
+        "starterCode": "-- LEFT JOIN + COUNT + GROUP BY\n",
+        "solution": "SELECT m.name AS manager, COUNT(e.id) AS reports\nFROM employees m\nLEFT JOIN employees e ON e.manager_id = m.id\nGROUP BY m.id, m.name\nORDER BY reports DESC;",
+        "explanation": "Every person is a potential manager. LEFT JOIN to reports. COUNT(e.id) is 0 for those with no reports.",
+        "testCases": [
+          {"input": "Sample data", "output": "Ananya 2, Rahul 2, Sneha 2, others 0"}
+        ]
+      },
+      {
+        "id": "cc-4",
+        "difficulty": "Medium",
+        "title": "Total Revenue Per Customer (3-Table Join)",
+        "description": "Calculate total revenue per customer using customers, orders, and order_items.",
+        "starterCode": "-- 3-table join + GROUP BY\n",
+        "solution": "SELECT c.name, SUM(oi.qty * oi.price) AS revenue\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nGROUP BY c.id, c.name\nORDER BY revenue DESC;",
+        "explanation": "Chain three tables. Aggregate by customer. Multiply qty by price for line total, sum over all customer lines.",
+        "testCases": [
+          {"input": "Sample data", "output": "Aarav 56000, Priya 1000"}
+        ]
+      },
+      {
+        "id": "cc-5",
+        "difficulty": "Medium",
+        "title": "Pairs of Employees in Same Department",
+        "description": "List all unique pairs of employees who work in the same department. No self-pairs, no duplicates.",
+        "starterCode": "-- Self join with id < id\n",
+        "solution": "SELECT e1.name AS emp1, e2.name AS emp2, e1.department\nFROM employees e1\nJOIN employees e2\n  ON e1.department = e2.department\n AND e1.id < e2.id\nORDER BY e1.department, e1.id;",
+        "explanation": "The id < id condition ensures uniqueness and no self-pairing. C(3,2) + C(3,2) = 6 pairs for our sample data.",
+        "testCases": [
+          {"input": "Sample employees", "output": "6 pairs across Engineering and Marketing"}
+        ]
+      },
+      {
+        "id": "cc-6",
+        "difficulty": "Hard",
+        "title": "Top-Selling Product Category",
+        "description": "Using all 4 tables (customers, orders, order_items, products), find the product category with the highest total revenue.",
+        "starterCode": "-- 4-table join + GROUP BY + ORDER BY + LIMIT 1\n",
+        "solution": "SELECT p.category, SUM(oi.qty * oi.price) AS revenue\nFROM customers c\nJOIN orders o       ON c.id = o.customer_id\nJOIN order_items oi ON o.id = oi.order_id\nJOIN products p     ON oi.product_id = p.id\nGROUP BY p.category\nORDER BY revenue DESC\nLIMIT 1;",
+        "explanation": "Join all four tables. Aggregate by product category. Sort descending by revenue and take the top one.",
+        "testCases": [
+          {"input": "Sample data", "output": "Electronics, 56000"}
+        ]
+      },
+      {
+        "id": "cc-7",
+        "difficulty": "Hard",
+        "title": "Employee, Manager, Grandmanager Chain",
+        "description": "For each employee, show their manager and their manager's manager (grandmanager). Include all employees, even those at the top.",
+        "starterCode": "-- Three-level self join with LEFT JOINs\n",
+        "solution": "SELECT e.name AS employee,\n       m.name AS manager,\n       gm.name AS grandmanager\nFROM employees e\nLEFT JOIN employees m  ON e.manager_id = m.id\nLEFT JOIN employees gm ON m.manager_id = gm.id\nORDER BY e.id;",
+        "explanation": "LEFT JOINs preserve employees at every level. CEO: both NULL. Rahul/Sneha: grandmanager NULL. Arjun/Divya/Karthik/Pooja: both filled.",
+        "testCases": [
+          {"input": "Sample data", "output": "7 rows with varying NULL patterns"}
+        ]
+      },
+      {
+        "id": "cc-8",
+        "difficulty": "Hard",
+        "title": "Customers Who Have Never Ordered Electronics",
+        "description": "Find customers who have placed orders but never bought anything in the 'Electronics' category.",
+        "starterCode": "-- Tricky: NOT EXISTS or LEFT JOIN with IS NULL\n",
+        "solution": "SELECT DISTINCT c.name\nFROM customers c\nJOIN orders o ON c.id = o.customer_id\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM order_items oi\n    JOIN products p ON oi.product_id = p.id\n    WHERE oi.order_id = o.id AND p.category = 'Electronics'\n);",
+        "explanation": "Outer query: customers who have placed at least one order. NOT EXISTS checks that no order_item in any of their orders is Electronics. An equivalent LEFT JOIN approach is also valid.",
+        "testCases": [
+          {"input": "Sample data", "output": "Priya Sharma (only bought Stationery)"}
+        ]
+      }
+    ]
+  }
+}

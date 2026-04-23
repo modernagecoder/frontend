@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Subqueries (Nested Queries) and EXISTS | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="51+ practice questions on Subqueries (Nested Queries) and EXISTS in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="subqueries (nested queries) and exists practice, sql questions, sql practice problems, subqueries (nested queries) and exists exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries/practice">
+    <meta property="og:title" content="Practice Questions - Subqueries (Nested Queries) and EXISTS | SQL | Modern Age Coders">
+    <meta property="og:description" content="51+ practice questions on Subqueries (Nested Queries) and EXISTS in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries/practice">
+    <meta name="twitter:title" content="Practice Questions - Subqueries (Nested Queries) and EXISTS | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="51+ practice questions on Subqueries (Nested Queries) and EXISTS in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Subqueries (Nested Queries) and EXISTS",
+    "description": "51+ practice questions on Subqueries (Nested Queries) and EXISTS in SQL.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Subqueries (Nested Queries) and EXISTS"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Subqueries (Nested Queries) and EXISTS",
+        "item": "https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/subqueries-and-nested-queries">Subqueries (Nested Queries) and EXISTS</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 13</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">51 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Subqueries (Nested Queries) and EXISTS</h1>
+            <a href="/resources/sql/subqueries-and-nested-queries" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">14</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">4</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is a scalar subquery?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Think about the shape of the result.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>A subquery that returns a single value (1 row, 1 column). Can be used wherever SQL expects a single value.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What error does MySQL throw if a <code>=</code> subquery returns more than one row?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Error 1242.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>ERROR 1242 (21000): Subquery returns more than 1 row</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does EXISTS return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Based on whether the subquery has rows.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>TRUE if the subquery produces at least one row, FALSE otherwise. Row contents do not matter — it only checks existence.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this return given sample data (4 customers, 4 orders, Meera has no orders)?<br><pre><code>SELECT name FROM customers
+WHERE EXISTS (
+    SELECT 1 FROM orders WHERE orders.customer_id = customers.id
+);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Customers with at least one order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Aarav Kumar, Priya Sharma, Rohan Mehta</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this return given sample data?<br><pre><code>SELECT name FROM customers
+WHERE id IN (SELECT customer_id FROM orders);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Same as EXISTS for this case.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Aarav Kumar, Priya Sharma, Rohan Mehta</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Given a table with salaries 100, 200, 300, 300, 400, what is the 3rd highest salary using DISTINCT?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Distinct values in descending order: 400, 300, 200.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>200</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Is this a correlated or non-correlated subquery?<br><pre><code>SELECT name FROM employees
+WHERE salary > (SELECT AVG(salary) FROM employees);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Does the inner query reference the outer query?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Non-correlated</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Is this correlated or non-correlated?<br><pre><code>SELECT e.name FROM employees e
+WHERE e.salary > (SELECT AVG(e2.salary) FROM employees e2 WHERE e2.department = e.department);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Look for outer reference.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Correlated</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What error does this produce?<br><pre><code>SELECT * FROM (SELECT department, AVG(salary) FROM employees GROUP BY department);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Missing something.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>ERROR 1248 (42000): Every derived table must have its own alias</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given sample employees, how many rows does this return?<br><pre><code>SELECT name FROM employees
+WHERE salary > (SELECT AVG(salary) FROM employees);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Company avg is around 155,625.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>4 rows: Ananya (250k), Divya (190k), Rahul (180k), Sneha (170k)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return on the sample employees?<br><pre><code>SELECT e.name, e.salary, e.department
+FROM employees e
+WHERE e.salary > (
+    SELECT AVG(e2.salary) FROM employees e2
+    WHERE e2.department = e.department
+);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Per-department average. Engineering avg 185k, Marketing 125k, Sales 130k.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>Ananya (Eng 250k vs 185k), Divya (Eng 190k vs 185k), Sneha (Mkt 170k vs 125k). Note: Rahul 180k does NOT qualify (< 185k Eng avg).</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain why this returns zero rows if any order has NULL customer_id:<br><pre><code>SELECT name FROM customers
+WHERE id NOT IN (SELECT customer_id FROM orders);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">NULL comparisons are UNKNOWN.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>x NOT IN (list with NULL) expands to AND of x != each value. x != NULL is UNKNOWN, which combined with AND becomes UNKNOWN (treated as FALSE). So every row is filtered out.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this derive?<br><pre><code>SELECT dept, avg_sal FROM (
+    SELECT department AS dept, AVG(salary) AS avg_sal
+    FROM employees GROUP BY department
+) t
+WHERE avg_sal > 150000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Departments above 150k avg salary.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Engineering (185k avg). Marketing 125k and Sales 130k do not qualify.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT name FROM employees
+WHERE salary > ALL (
+    SELECT salary FROM employees WHERE department = 'Marketing'
+);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Greater than EVERY marketing salary. Marketing max is 170k.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Ananya Reddy (250k), Divya Nair (190k), Rahul Verma (180k). Sneha at 170k is NOT strictly greater than 170k.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the 3rd highest distinct salary in the sample table?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Sort distinct salaries descending: 250k, 190k, 180k, 170k, ...</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>180000 (Rahul Verma)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this return? <br><pre><code>SELECT name FROM employees e1
+WHERE 2 = (
+    SELECT COUNT(DISTINCT salary) FROM employees e2
+    WHERE e2.salary >= e1.salary
+);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Count of distinct salaries >= current employee's = 2 means current is 2nd highest.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>Divya Nair (salary 190000, the 2nd highest distinct salary)</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Where can subqueries appear in an SQL statement?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Four clauses.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>SELECT, FROM, WHERE, HAVING. They can also appear in INSERT, UPDATE, and DELETE statements.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between EXISTS and IN?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Content vs existence.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>IN checks if a value equals any item in a list/subquery. EXISTS checks whether the subquery produces any row (row contents ignored). EXISTS handles NULLs better and often short-circuits on first match.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Convert this IN subquery to a JOIN: <pre><code>SELECT name FROM customers WHERE id IN (SELECT customer_id FROM orders);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">INNER JOIN + DISTINCT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><pre><code>SELECT DISTINCT c.name
+FROM customers c
+JOIN orders o ON c.id = o.customer_id;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why is NOT EXISTS preferred over NOT IN?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">NULL handling.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>NOT IN returns wrong (empty) results if the subquery contains NULL. NOT EXISTS is NULL-safe.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does ANY mean in SQL?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Compare to at least one.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>ANY returns TRUE if the comparison holds for AT LEAST ONE row in the subquery. = ANY is equivalent to IN.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a query to find employees in the Engineering department whose salary is greater than the maximum salary in Marketing.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Scalar subquery with MAX.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>SELECT name, salary FROM employees
+WHERE department = 'Engineering'
+  AND salary > (SELECT MAX(salary) FROM employees WHERE department = 'Marketing');</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a query to find departments whose average salary is above the company average.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">GROUP BY + HAVING + scalar subquery.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>SELECT department, AVG(salary) AS avg_sal
+FROM employees
+GROUP BY department
+HAVING AVG(salary) > (SELECT AVG(salary) FROM employees);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a correlated subquery to find employees who are the highest paid in their own department.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Compare to max in same department.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>SELECT name, department, salary
+FROM employees e
+WHERE salary = (
+    SELECT MAX(salary) FROM employees
+    WHERE department = e.department
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the NULL trap with NOT IN, and how do you avoid it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">x != NULL is UNKNOWN.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>If the subquery returns NULL, NOT IN is equivalent to an AND of x != each_value, including x != NULL which is UNKNOWN. AND with UNKNOWN is UNKNOWN (treated as FALSE), so no rows pass. Avoid by using NOT EXISTS, or filter NULLs out: ... WHERE col IS NOT NULL.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why might a correlated subquery be slower than a JOIN?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Per-row execution.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>A correlated subquery logically runs once per outer row. For N outer rows, the inner query may execute N times. A JOIN is a set operation processed once. Modern optimizers often rewrite correlated subqueries as semi-joins internally.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a query using a subquery in SELECT to show each employee's salary and the difference from their department's average.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Correlated scalar subquery per row.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>SELECT e.name, e.department, e.salary,
+       e.salary - (
+           SELECT AVG(e2.salary) FROM employees e2
+           WHERE e2.department = e.department
+       ) AS diff_from_dept_avg
+FROM employees e;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find the 2nd highest distinct salary per department.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Correlated subquery with COUNT DISTINCT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><pre><code>SELECT name, department, salary
+FROM employees e1
+WHERE 2 = (
+    SELECT COUNT(DISTINCT e2.salary) FROM employees e2
+    WHERE e2.department = e1.department AND e2.salary >= e1.salary
+);</code></pre></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which of the following is a scalar subquery?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A subquery returning multiple rows</li><li><span class="mcq-option-label">B.</span> A subquery returning exactly one value (one row, one column)</li><li><span class="mcq-option-label">C.</span> A subquery in the FROM clause</li><li><span class="mcq-option-label">D.</span> A subquery that uses EXISTS</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> A scalar subquery returns a single value and can be used anywhere a value is expected (in SELECT, WHERE, HAVING).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does EXISTS return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The matching rows from the subquery</li><li><span class="mcq-option-label">B.</span> TRUE if the subquery has at least one row; FALSE otherwise</li><li><span class="mcq-option-label">C.</span> The count of rows</li><li><span class="mcq-option-label">D.</span> NULL if no rows</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> EXISTS is a boolean test — it only checks whether the subquery produced any rows; the contents are ignored.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which operator is equivalent to <code>= ANY</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ALL</li><li><span class="mcq-option-label">B.</span> EXISTS</li><li><span class="mcq-option-label">C.</span> IN</li><li><span class="mcq-option-label">D.</span> BETWEEN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>= ANY</code> matches if equal to any value in the set, which is exactly what IN does.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What MySQL error occurs if a scalar <code>=</code> subquery returns multiple rows?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ERROR 1064 (syntax)</li><li><span class="mcq-option-label">B.</span> ERROR 1242 (Subquery returns more than 1 row)</li><li><span class="mcq-option-label">C.</span> ERROR 1054 (Unknown column)</li><li><span class="mcq-option-label">D.</span> No error; first row is used</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL strictly enforces single-row results for = comparisons against subqueries. Use IN, aggregates, or LIMIT.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which is the safe way to find customers with no orders?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE id NOT IN (SELECT customer_id FROM orders)</li><li><span class="mcq-option-label">B.</span> WHERE NOT EXISTS (SELECT 1 FROM orders WHERE orders.customer_id = customers.id)</li><li><span class="mcq-option-label">C.</span> WHERE customer_id != ALL orders</li><li><span class="mcq-option-label">D.</span> WHERE id &lt;&gt; (SELECT customer_id FROM orders)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> NOT EXISTS handles NULLs gracefully. A is the well-known NULL trap; C is syntactically invalid; D fails if subquery returns multiple rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is a correlated subquery?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A subquery that uses JOIN</li><li><span class="mcq-option-label">B.</span> A subquery that references columns from the outer query</li><li><span class="mcq-option-label">C.</span> A subquery with a GROUP BY</li><li><span class="mcq-option-label">D.</span> A subquery that uses EXISTS</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Correlation means the inner query depends on the outer query's current row, typically through a WHERE condition.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What requirement does MySQL impose on derived tables (subqueries in FROM)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They must be materialized</li><li><span class="mcq-option-label">B.</span> They must have an alias</li><li><span class="mcq-option-label">C.</span> They cannot contain GROUP BY</li><li><span class="mcq-option-label">D.</span> They cannot be nested</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL requires every derived table to have an alias (e.g., <code>... ) AS t</code>). Without it: ERROR 1248.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does this query compute?<pre><code>SELECT name FROM employees WHERE salary > ALL (SELECT salary FROM employees WHERE department = 'Marketing');</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Employees earning more than at least one marketing employee</li><li><span class="mcq-option-label">B.</span> Employees earning more than every marketing employee</li><li><span class="mcq-option-label">C.</span> Employees in the Marketing department</li><li><span class="mcq-option-label">D.</span> The maximum salary in Marketing</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> > ALL means greater than every value in the set. Equivalent to > MAX(...).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Why is NOT IN unsafe when the subquery may return NULL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Because NULL is treated as 0</li><li><span class="mcq-option-label">B.</span> Because x != NULL is UNKNOWN, which makes NOT IN return no TRUE results</li><li><span class="mcq-option-label">C.</span> Because NOT IN is slower</li><li><span class="mcq-option-label">D.</span> Because NULL cannot be compared</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Any comparison with NULL yields UNKNOWN. AND-ed with UNKNOWN keeps it UNKNOWN, which SQL treats as not-true. Every row is filtered out.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which query finds the 2nd highest distinct salary?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT MAX(salary) FROM employees WHERE salary &lt; MAX(salary)</li><li><span class="mcq-option-label">B.</span> SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1</li><li><span class="mcq-option-label">C.</span> SELECT MAX(salary) FROM employees</li><li><span class="mcq-option-label">D.</span> SELECT MIN(salary) FROM employees</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> DISTINCT removes duplicate salaries, ORDER BY DESC puts highest first, OFFSET 1 skips the first, LIMIT 1 takes one — the 2nd highest distinct salary. A is invalid (aggregate with aggregate).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does a subquery in the SELECT list typically do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Join tables</li><li><span class="mcq-option-label">B.</span> Add a computed column that depends on a subquery value</li><li><span class="mcq-option-label">C.</span> Group rows</li><li><span class="mcq-option-label">D.</span> Filter rows</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> A SELECT-list subquery returns one value per row and becomes an additional column. Often a correlated per-row computation or a global scalar.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">A correlated subquery logically runs:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Once total</li><li><span class="mcq-option-label">B.</span> Once per outer row</li><li><span class="mcq-option-label">C.</span> Once per table</li><li><span class="mcq-option-label">D.</span> Never</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Correlated subqueries depend on the current outer row, so they conceptually re-execute for each. Optimizers may transform them into more efficient forms.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which query correctly finds employees who earn more than their department average?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM employees WHERE salary &gt; AVG(salary)</li><li><span class="mcq-option-label">B.</span> SELECT * FROM employees WHERE salary &gt; (SELECT AVG(salary) FROM employees)</li><li><span class="mcq-option-label">C.</span> SELECT e.* FROM employees e WHERE e.salary &gt; (SELECT AVG(e2.salary) FROM employees e2 WHERE e2.department = e.department)</li><li><span class="mcq-option-label">D.</span> SELECT * FROM employees HAVING salary &gt; AVG(salary)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> Correlated subquery per department. A is invalid (aggregate in WHERE). B compares to the global average. D misuses HAVING.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Why might EXISTS be faster than IN on very large tables?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> EXISTS materializes the full list first</li><li><span class="mcq-option-label">B.</span> EXISTS can short-circuit on the first matching row; IN may evaluate the whole subquery</li><li><span class="mcq-option-label">C.</span> IN is deprecated</li><li><span class="mcq-option-label">D.</span> EXISTS uses an index automatically</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> EXISTS only needs one matching row to return TRUE, allowing early termination. Modern optimizers often produce similar plans for both.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the canonical query for the Nth highest salary?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT salary FROM employees LIMIT N</li><li><span class="mcq-option-label">B.</span> SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET N-1</li><li><span class="mcq-option-label">C.</span> SELECT MAX(salary) FROM employees</li><li><span class="mcq-option-label">D.</span> SELECT COUNT(salary) FROM employees</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> DISTINCT + sorted descending + OFFSET N-1 + LIMIT 1 returns the Nth distinct salary. Alternative: DENSE_RANK window function.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Employees Above Company Average</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a query to find all employees whose salary is greater than the overall average salary.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">SELECT name, department, salary
+FROM employees
+WHERE salary &gt; (SELECT AVG(salary) FROM employees)
+ORDER BY salary DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Customers With at Least One Order</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Use EXISTS to find customers who have placed at least one order.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">SELECT c.id, c.name
+FROM customers c
+WHERE EXISTS (
+    SELECT 1 FROM orders o WHERE o.customer_id = c.id
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: 3rd Highest Salary</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Find the 3rd highest distinct salary in the employees table.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">SELECT DISTINCT salary
+FROM employees
+ORDER BY salary DESC
+LIMIT 1 OFFSET 2;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Employees Above Department Average</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Using a correlated subquery, find employees whose salary is greater than the average salary of their own department.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">SELECT e.name, e.department, e.salary
+FROM employees e
+WHERE e.salary &gt; (
+    SELECT AVG(e2.salary)
+    FROM employees e2
+    WHERE e2.department = e.department
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Departments Above Company Average</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Find departments whose average salary exceeds the company average.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">SELECT department, AVG(salary) AS avg_sal
+FROM employees
+GROUP BY department
+HAVING AVG(salary) &gt; (SELECT AVG(salary) FROM employees);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Customers With No Orders (NOT EXISTS)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Find customers who have never placed an order. Use NOT EXISTS to avoid the NULL trap.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">SELECT c.id, c.name
+FROM customers c
+WHERE NOT EXISTS (
+    SELECT 1 FROM orders o WHERE o.customer_id = c.id
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Nth Highest via Correlated Subquery</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a parametric query that returns the Nth highest distinct salary using a correlated subquery (no LIMIT).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">SELECT DISTINCT salary FROM employees e1
+WHERE 3 = (
+    SELECT COUNT(DISTINCT salary) FROM employees e2
+    WHERE e2.salary &gt;= e1.salary
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Highest Paid in Each Department</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">List the highest-paid employee(s) in every department. Handle ties (multiple employees at the same max salary).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">SELECT name, department, salary
+FROM employees e
+WHERE salary = (
+    SELECT MAX(salary) FROM employees e2
+    WHERE e2.department = e.department
+)
+ORDER BY department;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/self-joins-and-multi-table/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Self Joins and Multi-Table Queries</span>
+        </a>
+            <a href="/resources/sql/set-operations/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">UNION, UNION ALL, INTERSECT, EXCEPT</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/subqueries-and-nested-queries" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

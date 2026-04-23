@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Common Table Expressions (CTEs) and Recursive Queries | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on Common Table Expressions (CTEs) and Recursive Queries in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="common table expressions (ctes) and recursive queries practice, sql questions, sql practice problems, common table expressions (ctes) and recursive queries exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice">
+    <meta property="og:title" content="Practice Questions - Common Table Expressions (CTEs) and Recursive Queries | SQL | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on Common Table Expressions (CTEs) and Recursive Queries in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice">
+    <meta name="twitter:title" content="Practice Questions - Common Table Expressions (CTEs) and Recursive Queries | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on Common Table Expressions (CTEs) and Recursive Queries in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Common Table Expressions (CTEs) and Recursive Queries",
+    "description": "60+ practice questions on Common Table Expressions (CTEs) and Recursive Queries in SQL.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Common Table Expressions (CTEs) and Recursive Queries"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Common Table Expressions (CTEs) and Recursive Queries",
+        "item": "https://learn.modernagecoders.com/resources/sql/common-table-expressions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/common-table-expressions/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/common-table-expressions">Common Table Expressions (CTEs) and Recursive Queries</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Common Table Expressions (CTEs) and Recursive Queries</h1>
+            <a href="/resources/sql/common-table-expressions" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which keyword introduces a CTE?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">It's a single word that comes before the name.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>WITH</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What extra keyword is needed for a CTE that references itself?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Comes after WITH.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>RECURSIVE</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this query return?<br><pre><code>WITH RECURSIVE n AS (
+  SELECT 1 AS x UNION ALL
+  SELECT x + 1 FROM n WHERE x < 5
+)
+SELECT * FROM n;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Trace iterations.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>1, 2, 3, 4, 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What minimum MySQL version supports CTEs?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Major version release that brought modern SQL features.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>8.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens if you omit the termination condition in a recursive CTE?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">MySQL has a safety net.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">MySQL aborts after <code>cte_max_recursion_depth</code> iterations (default 1000) with an error.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Is this legal?<br><pre><code>WITH a AS (SELECT 1 AS x),
+     b AS (SELECT x + 1 FROM a)
+SELECT * FROM b;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Later CTEs can see earlier CTEs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">Yes — b references a, returns <code>2</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">In a recursive CTE, the two parts are separated by which operator?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Union, but which kind?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>UNION ALL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given an orders table, what does this query return?<br><pre><code>WITH paid AS (
+  SELECT customer_id, SUM(amount) AS t FROM orders
+  WHERE status='paid' GROUP BY customer_id
+)
+SELECT COUNT(*) FROM paid WHERE t > 1000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Count customers whose paid total exceeds 1000.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">The count of customers whose paid total exceeds 1000.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does the recursive member of a CTE reference?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Not the original table.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">The CTE itself (the accumulated results so far).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why CAST(0 AS SIGNED) in the anchor of a recursive CTE?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Column type consistency.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">To ensure the column type and size match the recursive member, preventing silent truncation or type errors.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What's the main advantage of a CTE over a derived table in FROM?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Think about what you can do with a named thing vs an anonymous one.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">A CTE is named and can be referenced multiple times in the same query. A derived table is anonymous and can only be referenced where it is declared. CTEs also support recursion, which derived tables do not.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Can you reference a CTE after the statement that declares it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Scope.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">No — a CTE exists only for the duration of the statement that declares it. For cross-statement reuse, create a VIEW (persistent) or a TEMPORARY TABLE (session-scoped).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">When should you use a recursive CTE vs an application-side loop?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Consider network roundtrips and locking.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">Use a recursive CTE when: (1) the logic is fundamentally hierarchical/graph-like, (2) the recursion depth is bounded, (3) avoiding multiple database roundtrips matters. Use an application loop when: (1) the depth is unbounded or user-dependent, (2) you need to run complex business logic between iterations, (3) memory pressure in the database is a concern.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Use a CTE to return customers with total paid amount > 5000 from orders(customer_id, amount, status).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Aggregate inside a CTE, filter in the outer query.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>WITH totals AS (
+  SELECT customer_id, SUM(amount) AS total
+  FROM orders
+  WHERE status = 'paid'
+  GROUP BY customer_id
+)
+SELECT customer_id, total
+FROM totals
+WHERE total > 5000
+ORDER BY total DESC;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a recursive CTE that generates integers from 1 to 20.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Anchor returns 1, recursive adds 1 until 20.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><pre><code>WITH RECURSIVE nums AS (
+  SELECT 1 AS n
+  UNION ALL
+  SELECT n + 1 FROM nums WHERE n < 20
+)
+SELECT n FROM nums;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a recursive CTE that returns the 30 most recent dates ending today.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Start at today, decrement by 1 day.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>WITH RECURSIVE dates AS (
+  SELECT CURDATE() AS d
+  UNION ALL
+  SELECT d - INTERVAL 1 DAY
+  FROM dates
+  WHERE d > CURDATE() - INTERVAL 29 DAY
+)
+SELECT d FROM dates ORDER BY d;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given employees(id, name, manager_id), write a CTE that returns every employee's direct and indirect manager chain as a single concatenated string.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Recursive CTE starting from root, concat path.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><pre><code>WITH RECURSIVE org AS (
+  SELECT id, name, manager_id, CAST(name AS CHAR(1000)) AS chain
+  FROM employees
+  WHERE manager_id IS NULL
+  UNION ALL
+  SELECT e.id, e.name, e.manager_id, CONCAT(o.chain, ' > ', e.name)
+  FROM employees e
+  JOIN org o ON e.manager_id = o.id
+)
+SELECT id, name, chain FROM org ORDER BY chain;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Rewrite this nested subquery using CTEs:<br><pre><code>SELECT customer_id, total
+FROM (SELECT customer_id, SUM(amount) AS total
+      FROM orders GROUP BY customer_id) t
+WHERE total > (SELECT AVG(total) FROM
+      (SELECT customer_id, SUM(amount) AS total
+       FROM orders GROUP BY customer_id) t2);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Define the aggregation once as a CTE, reference it twice.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>WITH customer_totals AS (
+  SELECT customer_id, SUM(amount) AS total
+  FROM orders
+  GROUP BY customer_id
+)
+SELECT customer_id, total
+FROM customer_totals
+WHERE total > (SELECT AVG(total) FROM customer_totals);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Use a CTE combined with a window function to return each customer's name, order count, and rank by count.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">First CTE: counts per customer. Then window RANK.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>WITH customer_orders AS (
+  SELECT customer_id, COUNT(*) AS order_count
+  FROM orders
+  GROUP BY customer_id
+)
+SELECT customer_id, order_count,
+       RANK() OVER (ORDER BY order_count DESC) AS rnk
+FROM customer_orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Use a recursive CTE to compute the factorial of 10.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Anchor: 1! = 1. Recursive: n! = n * (n-1)!.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><pre><code>WITH RECURSIVE f AS (
+  SELECT 1 AS n, 1 AS fact
+  UNION ALL
+  SELECT n + 1, (n + 1) * fact
+  FROM f
+  WHERE n < 10
+)
+SELECT n, fact FROM f;</code></pre></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Is this legal?<br><pre><code>WITH a AS (SELECT 1) SELECT * FROM a;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Is SELECT 1 a valid SELECT?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">Yes. Returns a single row with column value 1.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this return?<br><pre><code>WITH RECURSIVE r AS (
+  SELECT 0 AS n UNION ALL
+  SELECT n + 2 FROM r WHERE n < 10
+)
+SELECT COUNT(*) FROM r;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Count the even numbers from 0 to 10.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Can a CTE be referenced outside the statement that declares it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Scope.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">No. A CTE is scoped to the single statement.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given a CTE returning 5 rows, and you reference it 3 times in the outer query, how many times does MySQL evaluate it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The optimizer decides — may be once or multiple times.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">It depends — MySQL may inline the CTE (evaluating once per reference) or materialize it (evaluate once, reuse). MySQL 8.0 generally inlines non-recursive CTEs.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Use a CTE to find customers who placed more than 3 orders AND have total spend > 5000 from orders(customer_id, amount).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">CTE returns per-customer count and sum; outer query filters both.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>WITH summary AS (
+  SELECT customer_id, COUNT(*) AS cnt, SUM(amount) AS total
+  FROM orders
+  GROUP BY customer_id
+)
+SELECT customer_id, cnt, total
+FROM summary
+WHERE cnt > 3 AND total > 5000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Use a recursive CTE to print the hierarchy of categories from categories(id, name, parent_id).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Root categories have parent_id IS NULL.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>WITH RECURSIVE cat_tree AS (
+  SELECT id, name, parent_id, 0 AS depth,
+         CAST(name AS CHAR(500)) AS path
+  FROM categories
+  WHERE parent_id IS NULL
+  UNION ALL
+  SELECT c.id, c.name, c.parent_id, t.depth + 1,
+         CONCAT(t.path, ' / ', c.name)
+  FROM categories c
+  JOIN cat_tree t ON c.parent_id = t.id
+)
+SELECT CONCAT(REPEAT('  ', depth), name) AS tree, path
+FROM cat_tree
+ORDER BY path;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">If a recursive CTE's anchor has column <code>name VARCHAR(20)</code> but CONCAT in the recursive step produces longer strings, what happens?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Anchor fixes the type.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">Strings are silently truncated to 20 characters.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Use CTEs to find the top 3 customers by paid revenue, including each customer's percentage of the grand total.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Two CTEs: per-customer totals, plus the grand total.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>WITH totals AS (
+  SELECT customer_id, SUM(amount) AS t
+  FROM orders WHERE status='paid' GROUP BY customer_id
+),
+grand AS (
+  SELECT SUM(t) AS all_total FROM totals
+)
+SELECT t1.customer_id, t1.t,
+       ROUND(100.0 * t1.t / g.all_total, 2) AS pct_of_total
+FROM totals t1 CROSS JOIN grand g
+ORDER BY t1.t DESC
+LIMIT 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is UNION ALL required (not UNION) in recursive CTEs?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Performance and correctness.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">UNION removes duplicates, which would require checking every new row against the entire accumulated set — very expensive. UNION ALL blindly appends, which is O(1) per row. Also, correctness: deduplication could prematurely drop rows if duplicates are meaningful (e.g., counting paths).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">When would you prefer a TEMPORARY TABLE over a CTE?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about multi-statement reuse and complex logic.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Use a TEMPORARY TABLE when: (1) you need the result across multiple statements in the same session, (2) the CTE is expensive and you need guaranteed materialization (avoid re-evaluation), (3) you want to add indexes to the intermediate result. Use CTEs when: (1) logic is statement-local, (2) recursion is needed, (3) readability is the goal.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which keyword starts a Common Table Expression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WITH</li><li><span class="mcq-option-label">B.</span> CTE</li><li><span class="mcq-option-label">C.</span> USING</li><li><span class="mcq-option-label">D.</span> CREATE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>WITH cte_name AS (...)</code> is the syntax in MySQL and standard SQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What extra keyword is needed when a CTE references itself?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELF</li><li><span class="mcq-option-label">B.</span> REPEAT</li><li><span class="mcq-option-label">C.</span> RECURSIVE</li><li><span class="mcq-option-label">D.</span> LOOP</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>WITH RECURSIVE cte AS (...)</code>. Without RECURSIVE, MySQL treats the self-reference as an unknown table.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the scope of a CTE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Just the outer SELECT</li><li><span class="mcq-option-label">B.</span> The entire statement that declares it</li><li><span class="mcq-option-label">C.</span> The whole session</li><li><span class="mcq-option-label">D.</span> Persistent until DROP</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> A CTE lives for the duration of one statement. Use a VIEW or TEMPORARY TABLE for broader scope.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which operator separates anchor and recursive members?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> UNION</li><li><span class="mcq-option-label">B.</span> UNION ALL</li><li><span class="mcq-option-label">C.</span> INTERSECT</li><li><span class="mcq-option-label">D.</span> JOIN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Recursive CTEs require UNION ALL, not UNION. UNION would deduplicate and is much slower/unsafe.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which MySQL version introduced CTEs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5.6</li><li><span class="mcq-option-label">B.</span> 5.7</li><li><span class="mcq-option-label">C.</span> 8.0</li><li><span class="mcq-option-label">D.</span> 5.5</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> MySQL 8.0 brought CTEs and window functions together.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">How do you declare multiple CTEs in one query?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Separate them with semicolons</li><li><span class="mcq-option-label">B.</span> Use WITH keyword for each</li><li><span class="mcq-option-label">C.</span> Separate them with commas</li><li><span class="mcq-option-label">D.</span> Use AND</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>WITH a AS (...), b AS (...) SELECT ...</code>. One WITH, comma-separated CTEs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the default value of cte_max_recursion_depth in MySQL 8.0?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 100</li><li><span class="mcq-option-label">B.</span> 1000</li><li><span class="mcq-option-label">C.</span> 10000</li><li><span class="mcq-option-label">D.</span> Unlimited</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Default is 1000 iterations. Raise with <code>SET @@cte_max_recursion_depth = 10000;</code> when truly needed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Can a CTE reference a later CTE in the same WITH clause?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes</li><li><span class="mcq-option-label">B.</span> No, only forward references are allowed</li><li><span class="mcq-option-label">C.</span> Only for recursive CTEs</li><li><span class="mcq-option-label">D.</span> Only with WITH FORWARD</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> Later CTEs can reference earlier ones (forward only). This is like forward declarations in programming languages.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which is the canonical pattern for a recursive CTE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Anchor UNION recursive</li><li><span class="mcq-option-label">B.</span> Anchor UNION ALL recursive, with termination in recursive WHERE</li><li><span class="mcq-option-label">C.</span> Two anchors</li><li><span class="mcq-option-label">D.</span> Start with just the recursive member</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Anchor first, UNION ALL, then recursive member with WHERE termination.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is silently truncated when column types mismatch between anchor and recursive member?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Integer values</li><li><span class="mcq-option-label">B.</span> Strings (sized by the anchor)</li><li><span class="mcq-option-label">C.</span> Dates</li><li><span class="mcq-option-label">D.</span> Nothing — MySQL errors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The anchor determines string lengths. If the recursive member generates longer strings, they are truncated without warning. CAST in the anchor to a generous size.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which of these is NOT a valid use case for a recursive CTE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Employee manager hierarchy</li><li><span class="mcq-option-label">B.</span> Generating a date range</li><li><span class="mcq-option-label">C.</span> Filling missing months in a report</li><li><span class="mcq-option-label">D.</span> Indexing a frequently queried column</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: D</strong><br><strong>D is correct.</strong> Indexing is done with CREATE INDEX, unrelated to CTEs. The other three are classic recursive-CTE patterns.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What's the practical difference between a CTE and a derived table (subquery in FROM)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> None — they are identical</li><li><span class="mcq-option-label">B.</span> CTE can be referenced multiple times and supports recursion</li><li><span class="mcq-option-label">C.</span> CTE is persisted</li><li><span class="mcq-option-label">D.</span> CTE uses a different syntax only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Derived tables can only be used once where declared. CTEs can be referenced any number of times in the same statement and enable recursion.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">How does MySQL 8.0 typically execute a non-recursive CTE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It materializes it once and caches the result</li><li><span class="mcq-option-label">B.</span> It often inlines it (evaluating per reference), similar to a derived table</li><li><span class="mcq-option-label">C.</span> It creates a temporary table always</li><li><span class="mcq-option-label">D.</span> It caches in a session-level view</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL 8.0 often inlines non-recursive CTEs. If you need guaranteed single evaluation of an expensive CTE, use a TEMPORARY TABLE or set the optimizer hint.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does WITH RECURSIVE numbers AS (SELECT 1 UNION ALL SELECT n+1 FROM numbers WHERE n < 0) SELECT * FROM numbers; return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1 through infinity</li><li><span class="mcq-option-label">B.</span> Just 1 (recursive member&#39;s WHERE is immediately false)</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> Empty set</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> The anchor produces n=1. The recursive member's WHERE (n<0) is false on the very first iteration, so recursion ends. Result: just the anchor's row.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the correct way to traverse a 5-level deep tree if cte_max_recursion_depth is set to 3?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Rewrite the query</li><li><span class="mcq-option-label">B.</span> Increase cte_max_recursion_depth to at least 5</li><li><span class="mcq-option-label">C.</span> Use UNION instead of UNION ALL</li><li><span class="mcq-option-label">D.</span> It&#39;s impossible</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Raise the limit: <code>SET @@cte_max_recursion_depth = 100;</code>. Verify termination logic is correct first — raising the limit on a runaway query just delays the error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which statement types can use a CTE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only SELECT</li><li><span class="mcq-option-label">B.</span> SELECT, INSERT, UPDATE, DELETE</li><li><span class="mcq-option-label">C.</span> Only SELECT and INSERT</li><li><span class="mcq-option-label">D.</span> Only DDL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL 8.0 supports CTEs in all four DML statements.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">To make a CTE reusable across multiple separate queries, you should:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Add WITH GLOBAL</li><li><span class="mcq-option-label">B.</span> Convert it into a VIEW</li><li><span class="mcq-option-label">C.</span> Put it in a stored procedure</li><li><span class="mcq-option-label">D.</span> Copy-paste it</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Views are the persistent way to reuse SELECT logic across queries. CTEs are statement-scoped. Stored procedures can also work but are overkill for simple reuse.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Why can a WITH block NOT be used on its own (without a following SELECT/INSERT/UPDATE/DELETE)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CTEs must be consumed — they define a result only within a larger statement</li><li><span class="mcq-option-label">B.</span> It&#39;s a syntax quirk of MySQL</li><li><span class="mcq-option-label">C.</span> They can be, but it&#39;s uncommon</li><li><span class="mcq-option-label">D.</span> Because of backward compatibility</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: A</strong><br><strong>A is correct.</strong> A CTE is a named subquery. Without an outer statement to use the CTE, it has no purpose. MySQL raises a syntax error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">In <code>WITH t AS (SELECT 1 AS x) SELECT x FROM t</code>, what is returned?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> x</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: A</strong><br><strong>A is correct.</strong> The CTE has one row with column x = 1. The outer SELECT returns that value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">If your recursive CTE might produce cycles (graph with loops), how should you protect against infinite recursion beyond just the depth limit?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Use UNION instead of UNION ALL</li><li><span class="mcq-option-label">B.</span> Track the visited path in the CTE and filter out revisits in the WHERE</li><li><span class="mcq-option-label">C.</span> Use a named cursor</li><li><span class="mcq-option-label">D.</span> Rewrite as non-recursive</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> Carry a 'visited' string (or set) forward and add a WHERE clause that excludes already-visited nodes. Using UNION would deduplicate but at a much higher cost per iteration.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Filter Customers via CTE</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given orders(customer_id, amount, status), use a CTE to return all customers whose paid total exceeds 3000. Include customer_id and total_paid, sorted descending.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">8 orders across 3 customers.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Customers with paid_total &gt; 3000.</div>
+                </div><div class="challenge-constraints">Use a non-recursive CTE.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, amount DECIMAL(10,2), status VARCHAR(20));
+INSERT INTO orders VALUES
+  (1,101,1200,&#39;paid&#39;),(2,101,800,&#39;paid&#39;),(3,101,500,&#39;pending&#39;),
+  (4,102,2500,&#39;paid&#39;),(5,102,1000,&#39;failed&#39;),
+  (6,103,700,&#39;pending&#39;),(7,103,1500,&#39;paid&#39;),(8,103,8900,&#39;paid&#39;);
+
+WITH paid_totals AS (
+  SELECT customer_id, SUM(amount) AS total_paid
+  FROM orders WHERE status=&#39;paid&#39;
+  GROUP BY customer_id
+)
+SELECT customer_id, total_paid
+FROM paid_totals
+WHERE total_paid &gt; 3000
+ORDER BY total_paid DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Numbers 1 to 100</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Use a recursive CTE to generate the integers from 1 to 100.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">No input.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">100 rows.</div>
+                </div><div class="challenge-constraints">Must use WITH RECURSIVE. Include termination condition.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">WITH RECURSIVE nums AS (
+  SELECT 1 AS n
+  UNION ALL
+  SELECT n + 1 FROM nums WHERE n &lt; 100
+)
+SELECT n FROM nums;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Date Range for Current Month</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Use a recursive CTE to generate all dates from the first day of the current month to today.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">No input.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Row per date.</div>
+                </div><div class="challenge-constraints">Use DATE_FORMAT, LAST_DAY, or first-of-month tricks. Must terminate at today.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">WITH RECURSIVE dates AS (
+  SELECT DATE_FORMAT(CURDATE(), &#39;%Y-%m-01&#39;) AS d
+  UNION ALL
+  SELECT d + INTERVAL 1 DAY
+  FROM dates
+  WHERE d &lt; CURDATE()
+)
+SELECT d, DAYNAME(d) AS day_name
+FROM dates
+ORDER BY d;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Employee Hierarchy</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given employees(id, name, manager_id), write a recursive CTE to return each employee with their level (CEO = 0) and a pretty indented org chart.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">7 employees including CEO.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Indented tree view.</div>
+                </div><div class="challenge-constraints">CAST anchor name to CHAR(1000) to avoid truncation.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">CREATE TABLE employees (id INT PRIMARY KEY, name VARCHAR(50), manager_id INT);
+INSERT INTO employees VALUES
+  (1,&#39;Aarav Sharma (CEO)&#39;,NULL),(2,&#39;Priya Nair&#39;,1),(3,&#39;Rohan Mehta&#39;,1),
+  (4,&#39;Ananya Iyer&#39;,2),(5,&#39;Vikram Singh&#39;,2),(6,&#39;Meera Krishnan&#39;,3),(7,&#39;Diya Bhatt&#39;,4);
+
+WITH RECURSIVE org AS (
+  SELECT id, name, manager_id, 0 AS level,
+         CAST(name AS CHAR(1000)) AS path
+  FROM employees WHERE manager_id IS NULL
+  UNION ALL
+  SELECT e.id, e.name, e.manager_id, o.level + 1,
+         CONCAT(o.path, &#39; &gt; &#39;, e.name)
+  FROM employees e
+  JOIN org o ON e.manager_id = o.id
+)
+SELECT CONCAT(REPEAT(&#39;  &#39;, level), name) AS chart, level, path
+FROM org
+ORDER BY path;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Month-over-Month Growth via CTE</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given orders(order_date, amount), use a CTE plus window function to return month, revenue, prev month revenue, and MoM growth %.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Orders across 4+ months.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">One row per month.</div>
+                </div><div class="challenge-constraints">Use CTE for monthly aggregate, LAG for previous month.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">CREATE TABLE orders2 (id INT PRIMARY KEY, order_date DATE, amount DECIMAL(10,2));
+INSERT INTO orders2 VALUES
+  (1,&#39;2026-01-10&#39;,1200),(2,&#39;2026-01-25&#39;,800),
+  (3,&#39;2026-02-03&#39;,2200),(4,&#39;2026-02-28&#39;,1500),
+  (5,&#39;2026-03-12&#39;,3100),(6,&#39;2026-03-29&#39;,950),
+  (7,&#39;2026-04-05&#39;,1800),(8,&#39;2026-04-15&#39;,2650);
+
+WITH monthly AS (
+  SELECT DATE_FORMAT(order_date, &#39;%Y-%m&#39;) AS month, SUM(amount) AS revenue
+  FROM orders2 GROUP BY month
+)
+SELECT month, revenue,
+  LAG(revenue) OVER (ORDER BY month) AS prev,
+  ROUND(
+    (revenue - LAG(revenue) OVER (ORDER BY month))
+    / LAG(revenue) OVER (ORDER BY month) * 100, 2
+  ) AS mom_pct
+FROM monthly
+ORDER BY month;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Fibonacci Sequence to 20 Terms</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Use a recursive CTE to produce the first 20 Fibonacci numbers (0, 1, 1, 2, 3, 5, 8, ...).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">No input.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">20 rows.</div>
+                </div><div class="challenge-constraints">Carry (n, a, b) state and shift per iteration.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">WITH RECURSIVE fib AS (
+  SELECT 1 AS n, 0 AS a, 1 AS b
+  UNION ALL
+  SELECT n + 1, b, a + b
+  FROM fib
+  WHERE n &lt; 20
+)
+SELECT n, a AS fibonacci FROM fib;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Fill Missing Days in Sales Dashboard</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given sales(sale_date, amount) possibly missing some days, use a recursive CTE to generate all days from the minimum date to today, LEFT JOIN the sales, and return 0 for missing days.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Sparse sales data.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Every day present, zeros where no data.</div>
+                </div><div class="challenge-constraints">Recursive CTE for dates, LEFT JOIN + COALESCE.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">CREATE TABLE sales (sale_date DATE PRIMARY KEY, amount DECIMAL(10,2));
+INSERT INTO sales VALUES
+  (&#39;2026-04-10&#39;,1200),(&#39;2026-04-12&#39;,2400),
+  (&#39;2026-04-14&#39;,1500),(&#39;2026-04-16&#39;,1100);
+
+WITH RECURSIVE dates AS (
+  SELECT (SELECT MIN(sale_date) FROM sales) AS d
+  UNION ALL
+  SELECT d + INTERVAL 1 DAY
+  FROM dates
+  WHERE d &lt; (SELECT MAX(sale_date) FROM sales)
+)
+SELECT d.d AS sale_date,
+       COALESCE(s.amount, 0) AS amount
+FROM dates d
+LEFT JOIN sales s ON s.sale_date = d.d
+ORDER BY d.d;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Rewrite Nested Subquery with CTEs</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given this 3-level nested subquery, rewrite it using CTEs for readability:<br><pre><code>SELECT name, total
+FROM (SELECT customer_id, SUM(amount) AS total FROM orders
+      WHERE status='paid' GROUP BY customer_id) t
+JOIN customers c ON c.id = t.customer_id
+WHERE total > (SELECT AVG(total) FROM
+    (SELECT customer_id, SUM(amount) AS total FROM orders
+     WHERE status='paid' GROUP BY customer_id) t2);</code></pre></div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders and customers tables.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Customers above average paid total.</div>
+                </div><div class="challenge-constraints">Define paid totals once as a CTE.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">WITH paid_totals AS (
+  SELECT customer_id, SUM(amount) AS total
+  FROM orders WHERE status = &#39;paid&#39;
+  GROUP BY customer_id
+),
+threshold AS (
+  SELECT AVG(total) AS avg_total FROM paid_totals
+)
+SELECT c.name, p.total
+FROM paid_totals p
+JOIN customers c ON c.id = p.customer_id
+CROSS JOIN threshold t
+WHERE p.total &gt; t.avg_total
+ORDER BY p.total DESC;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/window-functions/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD</span>
+        </a>
+            <a href="/resources/sql/indexes-and-performance/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Indexes and Query Performance</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/common-table-expressions" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

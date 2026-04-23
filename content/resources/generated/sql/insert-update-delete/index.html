@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSERT, UPDATE, DELETE - Manipulating Data - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Add new rows with INSERT, change data with UPDATE, remove rows with DELETE, and the WHERE clause.">
+    <meta name="keywords" content="insert, update, delete - manipulating data, sql tutorial, sql insert, update, delete - manipulating data, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/insert-update-delete">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/insert-update-delete">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/insert-update-delete">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/insert-update-delete">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/insert-update-delete">
+    <meta property="og:title" content="INSERT, UPDATE, DELETE - Manipulating Data - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Add new rows with INSERT, change data with UPDATE, remove rows with DELETE, and the WHERE clause.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/insert-update-delete">
+    <meta name="twitter:title" content="INSERT, UPDATE, DELETE - Manipulating Data - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Add new rows with INSERT, change data with UPDATE, remove rows with DELETE, and the WHERE clause.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "INSERT, UPDATE, DELETE - Manipulating Data",
+    "description": "Add new rows with INSERT, change data with UPDATE, remove rows with DELETE, and the WHERE clause.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/insert-update-delete"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/insert-update-delete"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "INSERT, UPDATE, DELETE - Manipulating Data",
+        "item": "https://learn.modernagecoders.com/resources/sql/insert-update-delete"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "UPDATE Without WHERE",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The missing WHERE is the single most destructive beginner mistake. Always write WHERE first, test your intent with SELECT ... WHERE first, and enable SQL_SAFE_UPDATES in dev. If you must update every row (rare), make it explicit: <code>UPDATE students SET marks = 95 WHERE 1=1;</code> — at least the 1=1 shows that you thought about it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "DELETE Without WHERE",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Same class of mistake as the UPDATE. Treat DELETE and UPDATE as radioactive. Always SELECT first with the same WHERE: <code>SELECT * FROM students WHERE id = 5;</code> to confirm which rows will vanish. Wrap destructive statements in a transaction so ROLLBACK can save you: <code>START TRANSACTION; DELETE ...; -- check results --- COMMIT;</code>"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Inserting With Wrong Column Order (Form 1)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Form 1 (no column list) relies on the order of the table definition. If someone later reorders columns or you misremember, the values go into the wrong fields — and worse, MySQL doesn't complain as long as the types are compatible. <strong>Always use Form 2 with explicit column names</strong> in production code."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "REPLACE INTO Wiping Columns You Forgot to Mention",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "REPLACE is not UPDATE. It internally deletes the old row completely and inserts a new one. Columns you don't specify get their DEFAULT (or NULL). This is why UPDATE is almost always what you actually want for a targeted change. Reserve REPLACE (and prefer ON DUPLICATE KEY UPDATE over it) for bulk \"re-seed\" operations where you provide every column."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">INSERT, UPDATE, DELETE - Manipulating Data</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">24 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">INSERT, UPDATE, DELETE - Manipulating Data</h1>
+            <a href="/resources/sql/insert-update-delete/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>The Three Core DML Commands</h2><p>So far you have built tables and seeded a few rows. Real applications constantly write new rows, update existing ones, and occasionally delete them. This chapter covers the three DML commands you will write hundreds of times a week as a backend developer:</p><ul><li><code>INSERT INTO</code> — add new rows</li><li><code>UPDATE</code> — change existing rows</li><li><code>DELETE FROM</code> — remove rows</li></ul><p>All three are DML (Data Manipulation Language) — transactional, rollback-able, and triggered by your application whenever data changes. The most important rule of this chapter: <strong>UPDATE and DELETE without a WHERE clause touch every row in the table.</strong> This is the single most common way juniors destroy production data. Please internalize it.</p><h3>Sample Data for This Chapter</h3><p>We will use a <code>students</code> table with this initial data:</p><table><tr><th>id</th><th>name</th><th>city</th><th>marks</th><th>active</th></tr><tr><td>1</td><td>Aarav Sharma</td><td>Mumbai</td><td>87</td><td>1</td></tr><tr><td>2</td><td>Priya Iyer</td><td>Bengaluru</td><td>92</td><td>1</td></tr><tr><td>3</td><td>Rohan Verma</td><td>Delhi</td><td>78</td><td>1</td></tr><tr><td>4</td><td>Ananya Reddy</td><td>Hyderabad</td><td>95</td><td>1</td></tr><tr><td>5</td><td>Vikram Singh</td><td>Pune</td><td>65</td><td>0</td></tr></table>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why INSERT, UPDATE, DELETE Deserve Respect</h2><h3>1. Every Write in Your App Eventually Becomes DML</h3><p>User signs up → an INSERT. User changes their password → an UPDATE. Admin deletes a spam account → a DELETE. The ORM (Django, Hibernate, Sequelize) you'll use at work is just a fancy wrapper that generates DML under the hood. When things go wrong, you drop into raw SQL and need to read/write these commands fluently.</p><h3>2. A Missing WHERE Is the #1 Production Disaster</h3><p>The horror stories are real:</p><ul><li>A developer ran <code>UPDATE users SET password = '...';</code> without WHERE — every user had the same password.</li><li>Another ran <code>DELETE FROM orders;</code> forgetting the WHERE — the company lost 3 days of orders.</li><li>GitLab in 2017 accidentally dropped production data with a misplaced command.</li></ul><p>The fix is cultural: always write WHERE first, always test on a single row, always wrap destructive statements in a transaction so you can ROLLBACK.</p><h3>3. INSERT/UPDATE Performance at Scale</h3><p>Writing 10 rows: anything works. Writing 10 million rows: multi-row INSERT is 100x faster than 10 million single INSERTs. Updating 1 million rows: batching in chunks of 10,000 prevents table locks and replication lag. These patterns separate hobbyists from engineers who can handle scale.</p><h3>4. Upserts Are Asked in Every Backend Interview</h3><p>"How do you insert a new row if it doesn't exist, and update it if it does?" The MySQL answer is <code>INSERT ... ON DUPLICATE KEY UPDATE</code>. Knowing the three ways (INSERT IGNORE, ON DUPLICATE KEY UPDATE, REPLACE INTO) and when to use each is a classic interview differentiator.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. INSERT — Four Ways to Add Rows</h3><h4>Form 1: All Columns in Order</h4><pre><code>INSERT INTO students VALUES (6, 'Diya Kapoor', 'Chennai', 88, 1);</code></pre><p>Values must match the column order of the table definition. Fragile: if a new column is added later, this breaks.</p><h4>Form 2: Specify Columns Explicitly (RECOMMENDED)</h4><pre><code>INSERT INTO students (id, name, city, marks, active)
+VALUES (6, 'Diya Kapoor', 'Chennai', 88, 1);</code></pre><p>Safer and self-documenting. Rearranging or adding columns later doesn't break the statement.</p><h4>Form 3: Multi-Row INSERT</h4><pre><code>INSERT INTO students (id, name, city, marks) VALUES
+    (6, 'Diya Kapoor',  'Chennai',   88),
+    (7, 'Arjun Mehta',  'Ahmedabad', 81),
+    (8, 'Sneha Patel',  'Jaipur',    90);</code></pre><p>One round-trip to the server, often 10-100x faster than three separate INSERTs. The <code>active</code> column isn't specified and will use its DEFAULT (or NULL).</p><h4>Form 4: INSERT ... SELECT (Copy Data From Another Table)</h4><pre><code>-- Copy high-scoring students into a separate table.
+INSERT INTO top_students (id, name, marks)
+SELECT id, name, marks FROM students WHERE marks &gt;= 90;</code></pre><p>Powerful for data migrations, archival, and populating reporting tables. No VALUES keyword — the SELECT provides all rows.</p><h3>2. UPDATE — Changing Existing Rows</h3><h4>Basic UPDATE</h4><pre><code>UPDATE students
+SET marks = 90
+WHERE id = 3;</code></pre><p>Rohan's marks change from 78 to 90. One row affected.</p><h4>Update Multiple Columns in One Statement</h4><pre><code>UPDATE students
+SET marks = 95, active = 1
+WHERE id = 5;</code></pre><p>Both columns change for Vikram in a single statement. Comma-separated assignments.</p><h4>Update Using an Expression</h4><pre><code>-- Give every active student a 5-mark bonus.
+UPDATE students
+SET marks = marks + 5
+WHERE active = 1;</code></pre><p>You can reference the current column value in the SET clause. Each row gets its own current marks + 5.</p><h4>The CRITICAL Warning</h4><pre><code>-- WITHOUT WHERE: updates EVERY row in the table!
+UPDATE students SET marks = 0;</code></pre><p>This is catastrophic on any non-trivial table. MySQL has a <strong>safe-update mode</strong> (enable via <code>SET SQL_SAFE_UPDATES = 1;</code>) that rejects UPDATE/DELETE without a WHERE on a key column. Turn this on in dev environments as training wheels.</p><h3>3. DELETE — Removing Rows</h3><h4>Basic DELETE</h4><pre><code>DELETE FROM students WHERE id = 5;</code></pre><p>Removes Vikram. One row affected.</p><h4>DELETE With Range</h4><pre><code>DELETE FROM students WHERE marks &lt; 70;</code></pre><p>Removes every student scoring under 70.</p><h4>The Same CRITICAL Warning</h4><pre><code>-- WITHOUT WHERE: deletes EVERY row!
+DELETE FROM students;</code></pre><p>The table still exists (unlike DROP), but every row is gone. On a big table this can take minutes and fills the transaction log. If you truly want to empty a table, use <code>TRUNCATE TABLE students;</code> — faster and resets AUTO_INCREMENT.</p><h3>4. DELETE vs TRUNCATE vs DROP Recap</h3><ul><li><strong>DELETE</strong>: transactional, supports WHERE, slow on big tables, doesn't reset AUTO_INCREMENT.</li><li><strong>TRUNCATE</strong>: fast, no WHERE, resets AUTO_INCREMENT, implicit commit (cannot rollback).</li><li><strong>DROP</strong>: removes the table itself.</li></ul><p>Full comparison is in Chapter 4.</p><h3>5. INSERT IGNORE — Silently Skip Duplicates</h3><pre><code>INSERT IGNORE INTO students (id, name, city, marks)
+VALUES (1, 'Someone Else', 'Kolkata', 77);</code></pre><p>If id=1 already exists (duplicate PK), MySQL ignores the insert and emits a warning instead of an error. Useful for bulk imports where you don't care about duplicates. Warning: IGNORE silences other errors too (type mismatches, CHECK violations may become warnings). Use with care.</p><h3>6. ON DUPLICATE KEY UPDATE — The True Upsert</h3><pre><code>INSERT INTO students (id, name, city, marks)
+VALUES (1, 'Aarav Sharma', 'Mumbai', 90)
+ON DUPLICATE KEY UPDATE marks = VALUES(marks);</code></pre><p>If id=1 does not exist, it inserts a new row. If id=1 exists, it updates <code>marks = 90</code>. The <code>VALUES(col)</code> function refers to the value from the VALUES clause. This is the recommended "upsert" pattern in MySQL.</p><p>MySQL 8.0.19+ replaces <code>VALUES()</code> with a row alias:</p><pre><code>INSERT INTO students (id, name, city, marks)
+VALUES (1, 'Aarav Sharma', 'Mumbai', 90) AS new
+ON DUPLICATE KEY UPDATE marks = new.marks;</code></pre><h3>7. REPLACE INTO — Delete-Then-Insert</h3><pre><code>REPLACE INTO students (id, name, city, marks)
+VALUES (1, 'Aarav Sharma', 'Mumbai', 95);</code></pre><p>If id=1 exists, REPLACE deletes the old row and inserts the new one. If it doesn't exist, it just inserts. Simpler syntax than ON DUPLICATE KEY UPDATE, but has two big gotchas:</p><ol><li>Any columns you don't specify are reset to their DEFAULT (or NULL). So REPLACE can silently wipe data you forgot to list.</li><li>Delete-then-insert means the AUTO_INCREMENT id jumps, triggers fire twice (DELETE and INSERT), and any FKs with ON DELETE CASCADE cascade.</li></ol><p>Prefer ON DUPLICATE KEY UPDATE in 90% of cases.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">All Four INSERT Forms</div><pre><code class="language-python">-- Setup
+CREATE DATABASE IF NOT EXISTS school;
+USE school;
+DROP TABLE IF EXISTS students;
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    city VARCHAR(30),
+    marks INT DEFAULT 0,
+    active TINYINT DEFAULT 1
+);
+
+-- Form 1: all columns in order (fragile)
+INSERT INTO students VALUES (1, &#39;Aarav Sharma&#39;, &#39;Mumbai&#39;, 87, 1);
+
+-- Form 2: explicit columns (recommended)
+INSERT INTO students (id, name, city, marks, active)
+VALUES (2, &#39;Priya Iyer&#39;, &#39;Bengaluru&#39;, 92, 1);
+
+-- Form 3: multi-row insert (fastest for bulk)
+INSERT INTO students (id, name, city, marks) VALUES
+    (3, &#39;Rohan Verma&#39;,  &#39;Delhi&#39;,     78),
+    (4, &#39;Ananya Reddy&#39;, &#39;Hyderabad&#39;, 95),
+    (5, &#39;Vikram Singh&#39;, &#39;Pune&#39;,      65);
+
+SELECT * FROM students;</code></pre><div class="code-example-explanation">Row 3-5 don't specify 'active' so they get its DEFAULT (1). Form 2 is the safest style for production code because it's self-documenting and stable even when columns are added later.</div><div class="code-example-output">Query OK, 1 row affected (0.01 sec)
+Query OK, 1 row affected (0.01 sec)
+Query OK, 3 rows affected (0.01 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
++----+---------------+-----------+-------+--------+
+| id | name          | city      | marks | active |
++----+---------------+-----------+-------+--------+
+|  1 | Aarav Sharma  | Mumbai    |    87 |      1 |
+|  2 | Priya Iyer    | Bengaluru |    92 |      1 |
+|  3 | Rohan Verma   | Delhi     |    78 |      1 |
+|  4 | Ananya Reddy  | Hyderabad |    95 |      1 |
+|  5 | Vikram Singh  | Pune      |    65 |      1 |
++----+---------------+-----------+-------+--------+</div></div>
+<div class="code-example"><div class="code-example-title">UPDATE One Row, Multiple Columns</div><pre><code class="language-python">-- Vikram made it active and scored higher in the retest.
+UPDATE students
+SET marks = 88, active = 1
+WHERE id = 5;
+
+SELECT id, name, marks, active FROM students WHERE id = 5;</code></pre><div class="code-example-explanation">Two columns updated in a single UPDATE. The WHERE clause limits the change to exactly one row (id=5). Always run a matching SELECT first to verify which rows you're about to change.</div><div class="code-example-output">Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
++----+--------------+-------+--------+
+| id | name         | marks | active |
++----+--------------+-------+--------+
+|  5 | Vikram Singh |    88 |      1 |
++----+--------------+-------+--------+</div></div>
+<div class="code-example"><div class="code-example-title">UPDATE With an Expression</div><pre><code class="language-python">-- Give every Mumbai student a 5-mark bonus.
+UPDATE students
+SET marks = marks + 5
+WHERE city = &#39;Mumbai&#39;;
+
+SELECT id, name, city, marks FROM students WHERE city = &#39;Mumbai&#39;;</code></pre><div class="code-example-explanation"><code>marks = marks + 5</code> references the existing value of marks in each row. Each matching row is updated with its own individual current value plus 5. If we had two Mumbai students with different marks, each would get the bonus applied to their own score.</div><div class="code-example-output">Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
++----+--------------+--------+-------+
+| id | name         | city   | marks |
++----+--------------+--------+-------+
+|  1 | Aarav Sharma | Mumbai |    92 |
++----+--------------+--------+-------+</div></div>
+<div class="code-example"><div class="code-example-title">The WHERE-Less UPDATE Disaster — How to Prevent It</div><pre><code class="language-python">-- Enable safe update mode (workbench default). Rejects UPDATE without
+-- a WHERE on a key column.
+SET SQL_SAFE_UPDATES = 1;
+
+-- Attempt: forgot WHERE — would zero out every student.
+UPDATE students SET marks = 0;
+
+-- Disable it back (do this only when you REALLY mean to touch every row).
+SET SQL_SAFE_UPDATES = 0;</code></pre><div class="code-example-explanation">MySQL Workbench enables SQL_SAFE_UPDATES by default. It blocks any UPDATE or DELETE that doesn't include a WHERE on a key column. This saves many careers. Enable it explicitly on any dev or staging environment. When you truly want to update every row (rare), turn it off for that one statement.</div><div class="code-example-output">Query OK, 0 rows affected (0.00 sec)
+
+ERROR 1175 (HY000): You are using safe update mode and you tried to update a table without a WHERE that uses a KEY column.  To disable safe mode, toggle the option in Preferences.
+
+Query OK, 0 rows affected (0.00 sec)</div></div>
+<div class="code-example"><div class="code-example-title">DELETE — Specific and Range</div><pre><code class="language-python">-- Delete one specific student
+DELETE FROM students WHERE id = 5;
+
+-- Delete everyone with marks below 80
+DELETE FROM students WHERE marks &lt; 80;
+
+SELECT * FROM students;</code></pre><div class="code-example-explanation">First DELETE removes Vikram by id. Second DELETE removes any students still below 80 (after Aarav's +5 bonus, he is at 92, so he survives). The SELECT shows who remains.</div><div class="code-example-output">Query OK, 1 row affected (0.01 sec)
+Query OK, 1 row affected (0.01 sec)
+
++----+---------------+-----------+-------+--------+
+| id | name          | city      | marks | active |
++----+---------------+-----------+-------+--------+
+|  1 | Aarav Sharma  | Mumbai    |    92 |      1 |
+|  2 | Priya Iyer    | Bengaluru |    92 |      1 |
+|  4 | Ananya Reddy  | Hyderabad |    95 |      1 |
++----+---------------+-----------+-------+--------+</div></div>
+<div class="code-example"><div class="code-example-title">INSERT ... SELECT for Archival</div><pre><code class="language-python">-- Create an archive table that holds inactive or low-scoring students.
+DROP TABLE IF EXISTS students_archive;
+CREATE TABLE students_archive LIKE students;
+
+-- Copy all inactive students into the archive.
+INSERT INTO students_archive
+SELECT * FROM students WHERE active = 0;
+
+-- After archival, remove them from the live table.
+DELETE FROM students WHERE active = 0;
+
+SELECT COUNT(*) AS archived FROM students_archive;
+SELECT COUNT(*) AS live     FROM students;</code></pre><div class="code-example-explanation">Two-step archival pattern used by virtually every production system: (1) INSERT the rows into an archive table; (2) DELETE them from the live table. Wrap both in a transaction for atomicity. This is the canonical way to implement "soft delete" or "move to archive" logic in SQL.</div><div class="code-example-output">Query OK, 0 rows affected (0.03 sec)
+Query OK, 0 rows affected (0.01 sec)
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+Query OK, 0 rows affected (0.00 sec)
+
++----------+
+| archived |
++----------+
+|        0 |
++----------+
++------+
+| live |
++------+
+|    3 |
++------+</div></div>
+<div class="code-example"><div class="code-example-title">ON DUPLICATE KEY UPDATE — True Upsert</div><pre><code class="language-python">-- Counting page views per student: increment if row exists, insert if new.
+DROP TABLE IF EXISTS page_views;
+CREATE TABLE page_views (
+    student_id INT PRIMARY KEY,
+    view_count INT NOT NULL DEFAULT 0
+);
+
+-- First visit for student 1: insert
+INSERT INTO page_views (student_id, view_count)
+VALUES (1, 1)
+ON DUPLICATE KEY UPDATE view_count = view_count + 1;
+
+-- Second visit for student 1: update
+INSERT INTO page_views (student_id, view_count)
+VALUES (1, 1)
+ON DUPLICATE KEY UPDATE view_count = view_count + 1;
+
+-- First visit for student 2: insert
+INSERT INTO page_views (student_id, view_count)
+VALUES (2, 1)
+ON DUPLICATE KEY UPDATE view_count = view_count + 1;
+
+SELECT * FROM page_views;</code></pre><div class="code-example-explanation">The first INSERT creates (1, 1). The second INSERT hits the PK conflict on student_id=1, so the ON DUPLICATE KEY UPDATE clause fires — incrementing view_count to 2 instead of erroring. The third INSERT creates a fresh row for student 2. This atomic "insert or increment" is one of the most useful patterns in web backends for counters, visit logs, and upvotes.</div><div class="code-example-output">Query OK, 0 rows affected (0.03 sec)
+Query OK, 1 row affected (0.01 sec)
+Query OK, 2 rows affected (0.01 sec)
+Query OK, 1 row affected (0.01 sec)
+
++------------+------------+
+| student_id | view_count |
++------------+------------+
+|          1 |          2 |
+|          2 |          1 |
++------------+------------+</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>UPDATE Without WHERE</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Meant to raise Priya&#39;s marks, forgot WHERE:
+UPDATE students SET marks = 95;</code></pre></div><div class="error-message">No error from MySQL — but EVERY student now has marks = 95. Your data is ruined.</div><div class="correct-code"><pre><code class="language-python">UPDATE students SET marks = 95 WHERE id = 2;</code></pre></div><div class="mistake-explanation">The missing WHERE is the single most destructive beginner mistake. Always write WHERE first, test your intent with SELECT ... WHERE first, and enable SQL_SAFE_UPDATES in dev. If you must update every row (rare), make it explicit: <code>UPDATE students SET marks = 95 WHERE 1=1;</code> — at least the 1=1 shows that you thought about it.</div>
+            </div>
+<div class="mistake-card">
+                <h3>DELETE Without WHERE</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Meant to remove one inactive student:
+DELETE FROM students;</code></pre></div><div class="error-message">No error — every row in students is deleted. The table is empty.</div><div class="correct-code"><pre><code class="language-python">DELETE FROM students WHERE id = 5;
+-- OR if you truly want to empty the table, use TRUNCATE:
+TRUNCATE TABLE students;</code></pre></div><div class="mistake-explanation">Same class of mistake as the UPDATE. Treat DELETE and UPDATE as radioactive. Always SELECT first with the same WHERE: <code>SELECT * FROM students WHERE id = 5;</code> to confirm which rows will vanish. Wrap destructive statements in a transaction so ROLLBACK can save you: <code>START TRANSACTION; DELETE ...; -- check results --- COMMIT;</code></div>
+            </div>
+<div class="mistake-card">
+                <h3>Inserting With Wrong Column Order (Form 1)</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- students table order: (id, name, city, marks, active)
+INSERT INTO students VALUES (6, &#39;Chennai&#39;, &#39;Diya Kapoor&#39;, 88, 1);</code></pre></div><div class="error-message">Inserted name=&#39;Chennai&#39; and city=&#39;Diya Kapoor&#39; — name and city got swapped.</div><div class="correct-code"><pre><code class="language-python">INSERT INTO students (id, name, city, marks, active)
+VALUES (6, &#39;Diya Kapoor&#39;, &#39;Chennai&#39;, 88, 1);</code></pre></div><div class="mistake-explanation">Form 1 (no column list) relies on the order of the table definition. If someone later reorders columns or you misremember, the values go into the wrong fields — and worse, MySQL doesn't complain as long as the types are compatible. <strong>Always use Form 2 with explicit column names</strong> in production code.</div>
+            </div>
+<div class="mistake-card">
+                <h3>REPLACE INTO Wiping Columns You Forgot to Mention</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- students table has (id, name, city, marks, active)
+-- You only want to update Aarav&#39;s marks:
+REPLACE INTO students (id, marks) VALUES (1, 90);</code></pre></div><div class="error-message">Aarav&#39;s name, city, and active columns are wiped (set to NULL or DEFAULT) because REPLACE does a full DELETE-then-INSERT.</div><div class="correct-code"><pre><code class="language-python">-- Use UPDATE for targeted changes:
+UPDATE students SET marks = 90 WHERE id = 1;
+
+-- Or specify ALL columns in REPLACE:
+REPLACE INTO students (id, name, city, marks, active)
+VALUES (1, &#39;Aarav Sharma&#39;, &#39;Mumbai&#39;, 90, 1);</code></pre></div><div class="mistake-explanation">REPLACE is not UPDATE. It internally deletes the old row completely and inserts a new one. Columns you don't specify get their DEFAULT (or NULL). This is why UPDATE is almost always what you actually want for a targeted change. Reserve REPLACE (and prefer ON DUPLICATE KEY UPDATE over it) for bulk "re-seed" operations where you provide every column.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>INSERT INTO table (col1, col2) VALUES (v1, v2); adds a new row. Always list columns explicitly — don&#39;t rely on column order.</li>
+<li>Multi-row INSERT INTO t VALUES (...), (...), (...); is far faster than multiple single INSERTs (fewer network round-trips).</li>
+<li>INSERT INTO t SELECT ... lets you copy rows from one table into another — used for backups, archives, and migrations.</li>
+<li>UPDATE table SET col = value WHERE condition; changes existing rows. Without WHERE, EVERY row is updated — a classic production disaster.</li>
+<li>UPDATE can change multiple columns at once: SET a = 1, b = 2. It can also reference current values: SET marks = marks + 5.</li>
+<li>DELETE FROM table WHERE condition; removes rows. Without WHERE, every row is deleted (but the table itself stays — use TRUNCATE for speed).</li>
+<li>Enable SQL_SAFE_UPDATES = 1 in dev to reject UPDATE/DELETE without a key-based WHERE clause — saves careers.</li>
+<li>INSERT IGNORE silently skips rows that would violate a unique constraint. Useful for bulk imports where duplicates are acceptable.</li>
+<li>INSERT ... ON DUPLICATE KEY UPDATE is MySQL&#39;s true upsert: insert if new, update if key conflict. Preferred over REPLACE INTO.</li>
+<li>REPLACE INTO does DELETE-then-INSERT. It wipes unspecified columns to DEFAULT/NULL. Use ON DUPLICATE KEY UPDATE instead in 90% of cases.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/creating-and-modifying-tables" class="related-topic-link">CREATE, ALTER, DROP Tables</a>
+<a href="/resources/sql/select-basics-and-where" class="related-topic-link">SELECT Queries and the WHERE Clause</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/creating-and-modifying-tables" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">CREATE, ALTER, DROP Tables</span>
+        </a>
+            <a href="/resources/sql/select-basics-and-where" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">SELECT Queries and the WHERE Clause</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/insert-update-delete/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

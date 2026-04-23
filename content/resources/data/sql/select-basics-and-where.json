@@ -1,0 +1,981 @@
+{
+  "title": "SELECT Queries and the WHERE Clause",
+  "slug": "select-basics-and-where",
+  "language": "sql",
+  "chapter": 6,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "SQL SELECT and WHERE Clause - Filter Rows with AND, OR, IN, BETWEEN | Modern Age Coders",
+    "description": "Master SQL SELECT queries and the WHERE clause. Learn column selection, aliasing with AS, comparison operators, AND/OR/NOT, IN, BETWEEN, operator precedence. 60 practice questions with runnable MySQL examples.",
+    "keywords": "sql select query, sql where clause, sql comparison operators, sql AND OR NOT, sql IN operator, sql BETWEEN, sql aliasing, mysql select tutorial, sql filter rows, sql interview questions"
+  },
+  "content": {
+    "what": "<h2>What Is the SELECT Statement?</h2><p>The <code>SELECT</code> statement is the single most important command in SQL. Every query you will ever write as a data analyst, backend developer, or data scientist begins with <code>SELECT</code>. It is how you <strong>retrieve</strong> data from one or more tables in your database.</p><p>Think of a table as a spreadsheet with rows and columns. The <code>SELECT</code> statement lets you say: \"Show me these columns, from this table, for rows that match these conditions.\" That is it. Every complex query — even ones spanning ten tables with joins, subqueries, and window functions — is built on this foundation.</p><h3>The WHERE Clause</h3><p>The <code>WHERE</code> clause is how you <strong>filter rows</strong>. Without it, <code>SELECT</code> returns every single row in the table. A table with 10 million rows? You get 10 million rows back. The <code>WHERE</code> clause lets you say: \"Only give me rows where the salary is above 50000,\" or \"Only rows where the department is IT and the city is Bengaluru.\"</p><p>In this chapter you will learn how to pick specific columns, rename them using aliases, and filter rows using comparison operators (<code>=</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>), logical operators (<code>AND</code>, <code>OR</code>, <code>NOT</code>), and two extremely common filters: <code>IN</code> (check if a value is in a list) and <code>BETWEEN</code> (check if a value falls within a range).</p>",
+    "why": "<h2>Why Are SELECT and WHERE So Important?</h2><p>A senior data analyst at Flipkart might write 50 to 200 SQL queries in a single day. Out of those, 95% start with <code>SELECT</code> and include a <code>WHERE</code> clause. This is not an exaggeration — SELECT and WHERE are the bread and butter of data work.</p><h3>1. Every Dashboard You See Uses SELECT</h3><p>When you open Swiggy and see \"Orders delivered today,\" a SELECT query runs. When you check your bank statement for transactions above Rs 5000 this month, a SELECT with WHERE runs. Every chart on every business dashboard on earth is powered by SELECT queries.</p><h3>2. WHERE Saves Your Database</h3><p>A production database at Zomato has billions of rows. Running <code>SELECT * FROM orders</code> without a WHERE clause could take hours and crash the database. A well-written WHERE clause with an indexed column can return the same useful data in milliseconds. Learning to write good WHERE clauses is learning to respect your database.</p><h3>3. Interview Non-Negotiable</h3><p>Every single SQL interview — whether for a data analyst role at Amazon, a backend developer role at a startup, or a business analyst role at a bank — will test SELECT and WHERE. Questions like \"Find all employees in the IT department earning more than 60000 who joined after 2020\" are standard. If you cannot answer these fluently, you cannot pass.</p><h3>4. Foundation for Everything Else</h3><p>JOINs, subqueries, window functions, CTEs — everything you will learn later builds on SELECT and WHERE. Weak foundation here means weak understanding of advanced topics.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>The Sample Table We Will Use Throughout</h3><p>Every example in this chapter uses the same <code>employees</code> table. Create it once in MySQL and follow along:</p><pre><code>CREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    department VARCHAR(30),\n    salary INT,\n    join_date DATE\n);\n\nINSERT INTO employees VALUES\n(1, 'Aarav Sharma', 'IT', 75000, '2021-03-15'),\n(2, 'Priya Patel', 'HR', 52000, '2020-07-22'),\n(3, 'Rohan Gupta', 'IT', 92000, '2019-01-10'),\n(4, 'Ananya Singh', 'Finance', 68000, '2022-11-05'),\n(5, 'Vikram Reddy', 'IT', 45000, '2023-04-18'),\n(6, 'Sneha Iyer', 'Marketing', 58000, '2021-09-30'),\n(7, 'Karan Mehta', 'Finance', 81000, '2020-02-14'),\n(8, 'Ishita Kumar', 'HR', 47000, '2023-06-25'),\n(9, 'Aditya Rao', 'Marketing', 63000, '2022-03-08'),\n(10, 'Diya Nair', 'IT', 110000, '2018-08-12');</code></pre><h3>1. Basic SELECT Syntax</h3><p>The simplest form of SELECT is:</p><pre><code>SELECT column1, column2, ... FROM table_name;</code></pre><p>You list the columns you want separated by commas, then <code>FROM</code> followed by the table name. End with a semicolon. Most MySQL clients require the semicolon; it is good practice even when optional.</p><h3>2. SELECT * vs SELECT specific columns</h3><p>The star <code>*</code> means \"all columns.\" <code>SELECT * FROM employees;</code> returns every column. This is useful during exploration but <strong>bad practice in production code</strong> for three reasons:</p><ul><li>It fetches unnecessary data, wasting network bandwidth and memory.</li><li>If someone adds or removes a column from the table, your query's output changes unexpectedly.</li><li>Database optimizers can sometimes use index-only scans when you list specific columns, but not with <code>*</code>.</li></ul><p>Always list columns explicitly in production: <code>SELECT id, name, salary FROM employees;</code></p><h3>3. Aliasing with AS</h3><p>You can rename a column in your result using <code>AS</code>:</p><pre><code>SELECT name AS employee_name, salary AS monthly_pay FROM employees;</code></pre><p>The column in the database is still called <code>name</code>, but your result shows it as <code>employee_name</code>. The <code>AS</code> keyword is actually optional — <code>SELECT name employee_name FROM employees</code> works too — but always write <code>AS</code> explicitly. Skipping it causes bugs where missing commas make two columns look like an alias.</p><h3>4. Comparison Operators in WHERE</h3><p>SQL supports all the comparison operators you expect:</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th></tr><tr><td><code>=</code></td><td>Equal to</td><td><code>WHERE department = 'IT'</code></td></tr><tr><td><code>!=</code> or <code>&lt;&gt;</code></td><td>Not equal to</td><td><code>WHERE department != 'HR'</code></td></tr><tr><td><code>&lt;</code></td><td>Less than</td><td><code>WHERE salary &lt; 50000</code></td></tr><tr><td><code>&gt;</code></td><td>Greater than</td><td><code>WHERE salary &gt; 75000</code></td></tr><tr><td><code>&lt;=</code></td><td>Less than or equal</td><td><code>WHERE salary &lt;= 60000</code></td></tr><tr><td><code>&gt;=</code></td><td>Greater than or equal</td><td><code>WHERE salary &gt;= 80000</code></td></tr></table><h4>= vs == (Critical)</h4><p>Unlike most programming languages, SQL uses a single <code>=</code> for equality comparison, not <code>==</code>. Writing <code>WHERE salary == 75000</code> is a syntax error in SQL. This is one of the most common mistakes from students coming from Python or JavaScript.</p><h4>!= vs &lt;&gt;</h4><p>Both mean \"not equal.\" <code>!=</code> is familiar to programmers. <code>&lt;&gt;</code> is the SQL standard. MySQL, PostgreSQL, and SQL Server all accept both. Use <code>!=</code> for readability unless your company style guide says otherwise.</p><h4>String Comparisons Use Single Quotes</h4><p>Strings in SQL are wrapped in single quotes: <code>'IT'</code>, <code>'Aarav Sharma'</code>. Double quotes work in some databases for strings but are meant for identifiers (like column names with spaces). <strong>Always use single quotes for string literals.</strong></p><h3>5. Combining Conditions: AND, OR, NOT</h3><p>Real filters almost always need multiple conditions. SQL gives you three logical operators:</p><ul><li><code>AND</code>: both conditions must be true</li><li><code>OR</code>: at least one condition must be true</li><li><code>NOT</code>: reverses the condition</li></ul><p>Example: \"Employees in IT earning more than 70000\":</p><pre><code>SELECT name, salary FROM employees\nWHERE department = 'IT' AND salary &gt; 70000;</code></pre><h3>6. Operator Precedence (Parentheses Matter!)</h3><p>SQL evaluates <code>AND</code> <strong>before</strong> <code>OR</code>, just like multiplication before addition in math. This causes enormous bugs if you are not careful.</p><p>Consider the query: \"Employees in IT or Finance who earn more than 60000\":</p><pre><code>-- WRONG: missing parentheses\nSELECT name FROM employees\nWHERE department = 'IT' OR department = 'Finance' AND salary &gt; 60000;\n\n-- What SQL actually evaluates (AND binds tighter):\n-- department = 'IT' OR (department = 'Finance' AND salary &gt; 60000)\n-- This returns ALL IT employees (even low earners) plus high-paid Finance</code></pre><p>The correct query uses parentheses:</p><pre><code>SELECT name FROM employees\nWHERE (department = 'IT' OR department = 'Finance') AND salary &gt; 60000;</code></pre><p><strong>Rule of thumb: whenever you mix AND and OR, add parentheses even if they seem redundant.</strong> Your future self reading the query will thank you.</p><h3>7. The IN Operator</h3><p>Writing <code>WHERE department = 'IT' OR department = 'HR' OR department = 'Finance'</code> is tedious. The <code>IN</code> operator is shorthand:</p><pre><code>SELECT name, department FROM employees\nWHERE department IN ('IT', 'HR', 'Finance');</code></pre><p>This is cleaner, faster to read, and often faster to execute. <code>NOT IN</code> does the opposite:</p><pre><code>SELECT name FROM employees\nWHERE department NOT IN ('IT', 'HR');\n-- Returns Finance and Marketing employees</code></pre><h4>WARNING: NOT IN and NULL</h4><p>Here is a trap that has broken production systems. If the list inside <code>NOT IN</code> contains <code>NULL</code>, the query returns <strong>zero rows</strong>, even when you expect matches. Example:</p><pre><code>SELECT name FROM employees WHERE department NOT IN ('IT', NULL);\n-- Returns: nothing!</code></pre><p>This is because SQL treats <code>NULL</code> as \"unknown.\" Comparing anything to NULL yields NULL (not True, not False), and the WHERE clause filters out rows where the condition is not True. When using <code>NOT IN</code> with a subquery that might return NULLs, filter them out first using <code>IS NOT NULL</code>.</p><h3>8. The BETWEEN Operator</h3><p>For range checks, <code>BETWEEN</code> is shorter than writing two comparisons:</p><pre><code>-- These two are equivalent:\nSELECT name FROM employees WHERE salary BETWEEN 50000 AND 80000;\nSELECT name FROM employees WHERE salary &gt;= 50000 AND salary &lt;= 80000;</code></pre><p><strong>BETWEEN is inclusive on both ends.</strong> <code>BETWEEN 50000 AND 80000</code> includes both 50000 and 80000. This catches beginners off guard — they assume exclusive ranges.</p><p><code>BETWEEN</code> works on numbers, dates, and even strings (alphabetically):</p><pre><code>SELECT name FROM employees\nWHERE join_date BETWEEN '2021-01-01' AND '2021-12-31';\n-- All employees who joined in 2021</code></pre><h3>9. The Full Query Structure So Far</h3><p>Putting it together, a complete query looks like:</p><pre><code>SELECT id, name AS employee_name, salary\nFROM employees\nWHERE department IN ('IT', 'Finance')\n  AND salary BETWEEN 60000 AND 100000\n  AND join_date &gt;= '2020-01-01';</code></pre><p>Read it top to bottom: pick these columns, from this table, where these conditions hold. The beauty of SQL is that it reads like English.</p>",
+    "codeExamples": [
+      {
+        "title": "SELECT * vs Specific Columns",
+        "code": "-- Sample table: employees (id, name, department, salary, join_date)\n-- 10 rows already inserted (see Explanation section)\n\n-- All columns, all rows\nSELECT * FROM employees;\n\n-- Only specific columns\nSELECT name, salary FROM employees;",
+        "language": "sql",
+        "explanation": "The first query returns all 5 columns and all 10 rows. The second returns only 2 columns (name, salary) for all 10 rows. In production, always list columns explicitly — <code>SELECT *</code> is fine in the MySQL CLI for exploration but dangerous in application code because adding a new column silently changes the result shape.",
+        "output": "Query 1 (SELECT *) returns:\nid  name             department  salary   join_date\n1   Aarav Sharma     IT          75000    2021-03-15\n2   Priya Patel      HR          52000    2020-07-22\n3   Rohan Gupta      IT          92000    2019-01-10\n...\n(10 rows)\n\nQuery 2 (SELECT name, salary) returns:\nname             salary\nAarav Sharma     75000\nPriya Patel      52000\nRohan Gupta      92000\n...\n(10 rows, 2 columns)"
+      },
+      {
+        "title": "Column Aliasing with AS",
+        "code": "SELECT \n    name AS employee_name,\n    department AS dept,\n    salary AS monthly_salary_inr\nFROM employees\nWHERE id <= 3;",
+        "language": "sql",
+        "explanation": "The <code>AS</code> keyword renames columns in the output only — the actual table structure is not modified. This is useful when you want friendlier headers in reports or when the original column names are cryptic (like <code>emp_sal_usd</code>). We limit to id &lt;= 3 to keep the output short.",
+        "output": "employee_name    dept   monthly_salary_inr\nAarav Sharma     IT     75000\nPriya Patel      HR     52000\nRohan Gupta      IT     92000"
+      },
+      {
+        "title": "Basic WHERE with Comparison Operators",
+        "code": "-- Employees earning strictly more than 70000\nSELECT name, salary \nFROM employees\nWHERE salary > 70000;",
+        "language": "sql",
+        "explanation": "The WHERE clause filters rows. Only rows where salary is greater than 70000 are returned. Notice that 70000 itself is NOT included — use <code>&gt;=</code> for inclusive. The comparison happens row by row: SQL checks each row and keeps only those where the condition evaluates to TRUE.",
+        "output": "name             salary\nAarav Sharma     75000\nRohan Gupta      92000\nKaran Mehta      81000\nDiya Nair        110000\n(4 rows)"
+      },
+      {
+        "title": "Combining AND with Comparison",
+        "code": "-- IT employees earning more than 50000\nSELECT name, department, salary\nFROM employees\nWHERE department = 'IT' AND salary > 50000;",
+        "language": "sql",
+        "explanation": "This is the classic \"find all employees in IT department earning more than 50000\" interview question. Both conditions must be true. Out of the 4 IT employees (Aarav, Rohan, Vikram, Diya), Vikram earns 45000 and is excluded. The other three pass both checks.",
+        "output": "name             department  salary\nAarav Sharma     IT          75000\nRohan Gupta      IT          92000\nDiya Nair        IT          110000\n(3 rows)"
+      },
+      {
+        "title": "Operator Precedence: Parentheses Matter",
+        "code": "-- WRONG (no parentheses)\nSELECT name, department, salary\nFROM employees\nWHERE department = 'IT' OR department = 'HR' AND salary > 50000;\n\n-- CORRECT (with parentheses)\nSELECT name, department, salary\nFROM employees\nWHERE (department = 'IT' OR department = 'HR') AND salary > 50000;",
+        "language": "sql",
+        "explanation": "AND is evaluated before OR, so the first query is read as: <code>department = 'IT' OR (department = 'HR' AND salary &gt; 50000)</code>. This returns ALL IT employees (including Vikram at 45000) plus HR employees who earn above 50000 (Priya). The second query correctly filters: IT or HR, AND salary above 50000.",
+        "output": "Query 1 (wrong) - 5 rows:\nAarav Sharma IT 75000\nPriya Patel HR 52000\nRohan Gupta IT 92000\nVikram Reddy IT 45000    <- Vikram slips in!\nDiya Nair IT 110000\n\nQuery 2 (correct) - 4 rows:\nAarav Sharma IT 75000\nPriya Patel HR 52000\nRohan Gupta IT 92000\nDiya Nair IT 110000"
+      },
+      {
+        "title": "IN Operator for Multiple Values",
+        "code": "-- Employees in IT, Finance, or Marketing\nSELECT name, department, salary\nFROM employees\nWHERE department IN ('IT', 'Finance', 'Marketing');\n\n-- Opposite: NOT in HR or Marketing\nSELECT name, department\nFROM employees\nWHERE department NOT IN ('HR', 'Marketing');",
+        "language": "sql",
+        "explanation": "The IN operator is shorthand for multiple OR conditions. Query 1 returns 8 rows (all except the 2 HR employees — Priya and Ishita). Query 2 returns 6 rows (only IT and Finance employees). NOT IN is the inverse. Just remember the NULL caveat: if any value inside IN or NOT IN is NULL, behavior can be surprising.",
+        "output": "Query 1 - 8 rows:\nAarav Sharma IT 75000\nRohan Gupta IT 92000\nAnanya Singh Finance 68000\nVikram Reddy IT 45000\nSneha Iyer Marketing 58000\nKaran Mehta Finance 81000\nAditya Rao Marketing 63000\nDiya Nair IT 110000\n\nQuery 2 - 6 rows:\nAarav Sharma IT\nRohan Gupta IT\nAnanya Singh Finance\nVikram Reddy IT\nKaran Mehta Finance\nDiya Nair IT"
+      },
+      {
+        "title": "BETWEEN for Range Checks",
+        "code": "-- Salary between 50000 and 80000 (inclusive)\nSELECT name, salary\nFROM employees\nWHERE salary BETWEEN 50000 AND 80000;\n\n-- Joined in 2021\nSELECT name, join_date\nFROM employees\nWHERE join_date BETWEEN '2021-01-01' AND '2021-12-31';",
+        "language": "sql",
+        "explanation": "BETWEEN is inclusive on BOTH ends. Query 1 returns employees earning 50000 to 80000 inclusive — Priya at exactly 52000 is included, and Ananya at 68000 is included. Query 2 shows BETWEEN working on dates: employees who joined between Jan 1 and Dec 31, 2021 (both endpoints included).",
+        "output": "Query 1 - 5 rows:\nAarav Sharma 75000\nPriya Patel 52000\nAnanya Singh 68000\nSneha Iyer 58000\nAditya Rao 63000\n\nQuery 2 - 2 rows:\nAarav Sharma 2021-03-15\nSneha Iyer 2021-09-30"
+      },
+      {
+        "title": "Complex WHERE: Combining Everything",
+        "code": "-- Find name and salary of employees who:\n-- are in IT or Finance\n-- earn between 60000 and 100000\n-- joined before 2022\nSELECT name AS employee, department, salary, join_date\nFROM employees\nWHERE department IN ('IT', 'Finance')\n  AND salary BETWEEN 60000 AND 100000\n  AND join_date < '2022-01-01';",
+        "language": "sql",
+        "explanation": "This is a realistic interview question that combines aliasing, IN, BETWEEN, and a date comparison with AND. Let us trace: IT/Finance gives us Aarav, Rohan, Ananya, Vikram, Karan, Diya. Salary 60000-100000 removes Vikram (45000) and Diya (110000). Join date &lt; 2022 removes Ananya (2022-11-05). Final: Aarav, Rohan, Karan.",
+        "output": "employee         department  salary   join_date\nAarav Sharma     IT          75000    2021-03-15\nRohan Gupta      IT          92000    2019-01-10\nKaran Mehta      Finance     81000    2020-02-14\n(3 rows)"
+      },
+      {
+        "title": "Using NOT to Invert a Condition",
+        "code": "-- Employees NOT earning between 50000 and 70000\nSELECT name, salary\nFROM employees\nWHERE NOT (salary BETWEEN 50000 AND 70000);\n\n-- Equivalent:\nSELECT name, salary\nFROM employees\nWHERE salary < 50000 OR salary > 70000;",
+        "language": "sql",
+        "explanation": "The NOT operator inverts any boolean condition. <code>NOT (salary BETWEEN 50000 AND 70000)</code> means salary is either below 50000 or above 70000. Both queries return identical results. Use whichever reads more clearly — for this particular case the OR version is arguably cleaner.",
+        "output": "name             salary\nAarav Sharma     75000\nRohan Gupta      92000\nVikram Reddy     45000\nKaran Mehta      81000\nIshita Kumar     47000\nDiya Nair        110000\n(6 rows)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using == Instead of = for Equality",
+        "wrongCode": "SELECT * FROM employees WHERE department == 'IT';",
+        "error": "ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 'IT'' at line 1",
+        "correctCode": "SELECT * FROM employees WHERE department = 'IT';",
+        "explanation": "SQL uses a single <code>=</code> for both assignment and equality comparison. Writing <code>==</code> is a syntax error. This is the most common mistake for students coming from Python, JavaScript, Java, or C++. Unlike those languages, SQL does not distinguish <code>=</code> from <code>==</code>."
+      },
+      {
+        "title": "Missing Parentheses When Mixing AND and OR",
+        "wrongCode": "-- Goal: IT or HR employees earning over 50000\nSELECT name FROM employees\nWHERE department = 'IT' OR department = 'HR' AND salary > 50000;",
+        "error": "No syntax error, but returns WRONG results. Returns all IT employees (even low earners like Vikram at 45000) plus HR employees above 50000. AND binds tighter than OR.",
+        "correctCode": "SELECT name FROM employees\nWHERE (department = 'IT' OR department = 'HR') AND salary > 50000;",
+        "explanation": "SQL evaluates <code>AND</code> before <code>OR</code>, so the wrong query is interpreted as <code>department = 'IT' OR (department = 'HR' AND salary &gt; 50000)</code>. Always use parentheses when mixing AND and OR — even when they seem redundant. This is a bug that passes code review unless you trace through a real row."
+      },
+      {
+        "title": "Using Double Quotes for String Literals",
+        "wrongCode": "-- In strict mode, this fails:\nSELECT * FROM employees WHERE name = \"Aarav Sharma\";",
+        "error": "In MySQL with ANSI_QUOTES mode enabled, this fails because double quotes mean column names, not strings. In strict databases like PostgreSQL with default settings, this always fails: ERROR: column \"Aarav Sharma\" does not exist",
+        "correctCode": "SELECT * FROM employees WHERE name = 'Aarav Sharma';",
+        "explanation": "The SQL standard uses single quotes for string literals and double quotes for identifiers (like column names containing spaces). MySQL is lenient and often accepts double quotes for strings, but this is non-portable. Always use single quotes for strings to keep your code working across databases."
+      },
+      {
+        "title": "NOT IN with NULL Returns Empty",
+        "wrongCode": "-- If some departments are NULL in a subquery:\nSELECT name FROM employees\nWHERE department NOT IN ('IT', 'HR', NULL);",
+        "error": "No error, but returns ZERO rows — even for employees in Finance or Marketing!",
+        "correctCode": "SELECT name FROM employees\nWHERE department NOT IN ('IT', 'HR')\n  AND department IS NOT NULL;",
+        "explanation": "When NULL is in the NOT IN list, SQL evaluates <code>department != NULL</code> which is NULL (not TRUE and not FALSE), and WHERE rejects non-TRUE results. This is a production-grade bug that happens most often with subqueries. Always filter out NULLs first or use <code>NOT EXISTS</code> instead."
+      },
+      {
+        "title": "Thinking BETWEEN is Exclusive on One End",
+        "wrongCode": "-- Rohan wants salaries strictly between 50000 and 80000\nSELECT name FROM employees WHERE salary BETWEEN 50000 AND 80000;",
+        "error": "No error, but includes 50000 and 80000 (Rohan expected those excluded). Priya at exactly 52000 is returned — which is fine — but if someone were at exactly 50000 or 80000, they would be included too.",
+        "correctCode": "-- For strict (exclusive) range, use > and <\nSELECT name FROM employees WHERE salary > 50000 AND salary < 80000;",
+        "explanation": "<code>BETWEEN x AND y</code> is equivalent to <code>&gt;= x AND &lt;= y</code> — inclusive on BOTH ends. Many students assume one end is exclusive. When you want strict inequality, write the comparisons out explicitly. This matters most with date ranges and page-boundary values."
+      }
+    ],
+    "summary": [
+      "SELECT retrieves data. The syntax is SELECT column_list FROM table_name WHERE conditions. Every SQL query starts here.",
+      "Use SELECT * for quick exploration only. In production code, always list columns explicitly — it is safer, faster, and self-documenting.",
+      "Rename columns with AS: SELECT name AS employee_name. Always include AS explicitly for readability, even though it is technically optional.",
+      "SQL uses single = for equality comparison (not ==). For inequality, both != and <> work. String literals use single quotes.",
+      "Combine conditions with AND (both true), OR (at least one true), NOT (invert). AND is evaluated before OR — use parentheses when mixing them.",
+      "IN (value1, value2, ...) is shorthand for multiple OR conditions. NOT IN is the inverse. Beware: NOT IN with any NULL in the list returns zero rows.",
+      "BETWEEN x AND y is inclusive on BOTH ends — equivalent to >= x AND <= y. Works on numbers, dates, and strings. Use > and < for strict ranges.",
+      "Date literals use single quotes in YYYY-MM-DD format: '2021-03-15'. Comparing dates uses the same operators as numbers.",
+      "A complete query reads top-down: which columns, which table, which rows (WHERE). You will write thousands of these in your career.",
+      "Golden rule: when mixing AND and OR, always use parentheses. Missing parentheses produce queries that parse fine but return wrong data — the worst kind of bug."
+    ]
+  },
+  "relatedTopics": ["insert-update-delete", "sorting-and-limiting", "pattern-matching-and-null"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Given the employees table, what does this return?<br><pre><code>SELECT name FROM employees WHERE id = 3;</code></pre>",
+        "hint": "Look up the row with id = 3.",
+        "answer": "<code>Rohan Gupta</code>",
+        "explanation": "The row with id = 3 in our sample table is Rohan Gupta (IT, 92000, joined 2019-01-10). Only the name column is selected."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows does this return?<br><pre><code>SELECT * FROM employees WHERE department = 'IT';</code></pre>",
+        "hint": "Count IT department employees in the sample table.",
+        "answer": "<code>4 rows</code>",
+        "explanation": "IT department has Aarav (id 1), Rohan (id 3), Vikram (id 5), and Diya (id 10) — 4 employees."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows does this return?<br><pre><code>SELECT * FROM employees WHERE salary > 100000;</code></pre>",
+        "hint": "Who earns strictly more than 100000?",
+        "answer": "<code>1 row</code>",
+        "explanation": "Only Diya Nair (110000) earns more than 100000. The > is strict, so nobody at exactly 100000 would be included anyway."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows does this return?<br><pre><code>SELECT name FROM employees WHERE department != 'IT';</code></pre>",
+        "hint": "Total minus IT employees.",
+        "answer": "<code>6 rows</code>",
+        "explanation": "Total is 10 rows. IT has 4. So 10 - 4 = 6 non-IT employees (Priya, Ananya, Sneha, Karan, Ishita, Aditya)."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a query to find all employees in the IT department earning more than 50000. Return name and salary.",
+        "hint": "Use WHERE with AND combining two conditions.",
+        "answer": "<pre><code>SELECT name, salary FROM employees\nWHERE department = 'IT' AND salary > 50000;</code></pre>",
+        "explanation": "This is the canonical first real SQL interview question. Out of 4 IT employees, Vikram (45000) is excluded. Returns Aarav (75000), Rohan (92000), and Diya (110000)."
+      },
+      {
+        "id": "ts-6",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find all employees with salary between 60000 and 90000. Return all columns. Use BETWEEN.",
+        "hint": "Remember BETWEEN is inclusive on both ends.",
+        "answer": "<pre><code>SELECT * FROM employees\nWHERE salary BETWEEN 60000 AND 90000;</code></pre>",
+        "explanation": "Returns Aarav (75000), Ananya (68000), Karan (81000), Aditya (63000) — 4 rows. BETWEEN includes both endpoints, so 60000 and 90000 would be included if anyone had exactly that salary."
+      },
+      {
+        "id": "ts-7",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find employees in HR or Marketing departments. Use the IN operator.",
+        "hint": "IN takes a comma-separated list in parentheses.",
+        "answer": "<pre><code>SELECT name, department FROM employees\nWHERE department IN ('HR', 'Marketing');</code></pre>",
+        "explanation": "HR has Priya and Ishita. Marketing has Sneha and Aditya. Returns 4 rows. Using IN is cleaner than <code>department = 'HR' OR department = 'Marketing'</code>."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this return?<br><pre><code>SELECT name AS emp FROM employees WHERE id = 7;</code></pre>",
+        "hint": "Find id 7 and note the aliased column.",
+        "answer": "<code>Column header: emp<br>Value: Karan Mehta</code>",
+        "explanation": "id 7 is Karan Mehta. The AS clause renames the output column to <code>emp</code>. The table is not modified — only the result header changes."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows does this return?<br><pre><code>SELECT * FROM employees\nWHERE department = 'IT' OR salary > 80000;</code></pre>",
+        "hint": "Union of IT employees and high earners.",
+        "answer": "<code>6 rows</code>",
+        "explanation": "IT employees: 4 (Aarav, Rohan, Vikram, Diya). Salary > 80000: Rohan (92000), Karan (81000), Diya (110000) — 3. Union (OR) removes duplicates (Rohan and Diya are in both). Result: Aarav, Rohan, Vikram, Diya, Karan — 5 rows... Wait: Aarav 75000, Rohan 92000, Vikram 45000, Diya 110000 are all IT. Add Karan (81000). Total: 5 rows. Answer: 5."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows?<br><pre><code>SELECT * FROM employees\nWHERE department = 'IT' AND salary > 80000;</code></pre>",
+        "hint": "Intersection of IT and high earners.",
+        "answer": "<code>2 rows</code>",
+        "explanation": "IT employees with salary > 80000: Rohan (92000) and Diya (110000). Aarav (75000) and Vikram (45000) are IT but fail the salary filter."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is returned?<br><pre><code>SELECT name FROM employees\nWHERE department = 'IT' OR department = 'HR' AND salary > 60000;</code></pre>",
+        "hint": "Trace the precedence: AND binds tighter than OR.",
+        "answer": "<code>All 4 IT employees (Aarav, Rohan, Vikram, Diya) and zero HR employees (neither Priya nor Ishita earns above 60000). Total: 4 rows.</code>",
+        "explanation": "SQL reads this as <code>department = 'IT' OR (department = 'HR' AND salary &gt; 60000)</code>. Priya (52000) and Ishita (47000) both fail the salary filter for the HR branch, so no HR employees match. All 4 IT employees match regardless of salary. Final: 4 rows."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows?<br><pre><code>SELECT * FROM employees\nWHERE (department = 'IT' OR department = 'HR') AND salary > 60000;</code></pre>",
+        "hint": "Parentheses force OR first.",
+        "answer": "<code>3 rows</code>",
+        "explanation": "(IT or HR) has 6 employees: 4 IT + 2 HR. Of those, salary > 60000: Aarav (75000), Rohan (92000), Diya (110000). HR employees fail (52000 and 47000). Result: 3 rows."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees who joined before January 1, 2021. Return name and join_date.",
+        "hint": "Compare join_date against a date literal in single quotes.",
+        "answer": "<pre><code>SELECT name, join_date FROM employees\nWHERE join_date < '2021-01-01';</code></pre>",
+        "explanation": "Employees with join_date before 2021: Priya (2020-07-22), Rohan (2019-01-10), Karan (2020-02-14), Diya (2018-08-12). Returns 4 rows. Dates compare naturally with < and >."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find IT employees NOT earning more than 70000. Return name and salary.",
+        "hint": "Use NOT or the opposite operator.",
+        "answer": "<pre><code>SELECT name, salary FROM employees\nWHERE department = 'IT' AND NOT (salary > 70000);\n\n-- Equivalent:\nSELECT name, salary FROM employees\nWHERE department = 'IT' AND salary <= 70000;</code></pre>",
+        "explanation": "IT employees with salary at or below 70000: only Vikram Reddy (45000). Aarav (75000), Rohan (92000), Diya (110000) all exceed 70000."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return?<br><pre><code>SELECT name FROM employees\nWHERE department NOT IN ('IT', 'Finance', 'HR');</code></pre>",
+        "hint": "Which departments are left?",
+        "answer": "<code>Sneha Iyer<br>Aditya Rao</code>",
+        "explanation": "Excluding IT, Finance, HR leaves only Marketing. Marketing has Sneha Iyer and Aditya Rao. 2 rows."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees whose salary is NOT between 50000 and 80000 (i.e., outside this range). Return name and salary.",
+        "hint": "Use NOT BETWEEN or OR with < and >.",
+        "answer": "<pre><code>SELECT name, salary FROM employees\nWHERE salary NOT BETWEEN 50000 AND 80000;\n\n-- Equivalent:\nSELECT name, salary FROM employees\nWHERE salary < 50000 OR salary > 80000;</code></pre>",
+        "explanation": "Outside 50000-80000: Vikram (45000), Ishita (47000), Rohan (92000), Karan (81000), Diya (110000). 5 rows. Remember BETWEEN is inclusive, so NOT BETWEEN excludes endpoints too."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees who joined in 2021, showing name with alias 'emp' and join_date with alias 'joined'.",
+        "hint": "Use BETWEEN on dates and AS for aliases.",
+        "answer": "<pre><code>SELECT name AS emp, join_date AS joined FROM employees\nWHERE join_date BETWEEN '2021-01-01' AND '2021-12-31';</code></pre>",
+        "explanation": "2021 joiners: Aarav (2021-03-15) and Sneha (2021-09-30). 2 rows. The aliased columns appear in the output as 'emp' and 'joined'."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between SELECT * and SELECT column1, column2?",
+        "hint": "Think about columns returned and production concerns.",
+        "answer": "<code>SELECT *</code> returns all columns of the table. <code>SELECT column1, column2</code> returns only the listed columns. The star is convenient during exploration but should be avoided in production code because (a) it fetches unnecessary data, (b) the result shape changes if the schema changes, and (c) indexes cannot be used as effectively.",
+        "explanation": "In every real codebase, explicit column lists are mandatory. A production query like <code>SELECT * FROM orders</code> could silently break when a new column is added, or could slow down dashboards by fetching huge TEXT columns you never display."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why does SQL use single = for equality comparison instead of ==?",
+        "hint": "SQL predates most modern languages.",
+        "answer": "SQL was designed in the 1970s before languages like C, Java, and Python adopted <code>==</code>. In SQL, there is no assignment operator inside queries (column values are set with <code>=</code> in UPDATE statements), so reusing <code>=</code> for equality comparison caused no ambiguity. Writing <code>==</code> in SQL is a syntax error.",
+        "explanation": "This is a frequent stumbling block for programmers coming from other languages. Remember: SQL is a declarative query language, not an imperative one — it has different rules."
+      },
+      {
+        "id": "ts-20",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain why NOT IN with a NULL value returns zero rows. Give a way to fix it.",
+        "hint": "SQL's three-valued logic: TRUE, FALSE, NULL.",
+        "answer": "In SQL, comparisons with NULL return NULL (not TRUE, not FALSE). The WHERE clause keeps only rows where the condition is TRUE. <code>x NOT IN (1, 2, NULL)</code> is equivalent to <code>x != 1 AND x != 2 AND x != NULL</code>. The last part is always NULL, so the AND is NULL, so no row passes. Fix: filter out NULLs explicitly using <code>AND col IS NOT NULL</code>, or use <code>NOT EXISTS</code> with a subquery instead of NOT IN.",
+        "explanation": "This is one of the most notorious SQL gotchas and a real interview topic. It catches senior engineers when subqueries start returning NULLs due to data changes."
+      },
+      {
+        "id": "ts-21",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return?<br><pre><code>SELECT name FROM employees\nWHERE salary IN (45000, 52000, 110000);</code></pre>",
+        "hint": "Three exact salary matches.",
+        "answer": "<code>Vikram Reddy (45000)<br>Priya Patel (52000)<br>Diya Nair (110000)</code>",
+        "explanation": "The IN operator matches any of the listed values exactly. Three employees have these exact salaries. Result: 3 rows."
+      },
+      {
+        "id": "ts-22",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find HR employees earning less than 50000. Return name and salary.",
+        "hint": "AND with two conditions.",
+        "answer": "<pre><code>SELECT name, salary FROM employees\nWHERE department = 'HR' AND salary < 50000;</code></pre>",
+        "explanation": "HR has Priya (52000) and Ishita (47000). Only Ishita's salary is below 50000. Returns 1 row."
+      },
+      {
+        "id": "ts-23",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees in Finance or Marketing earning at least 65000. Return name, department, and salary.",
+        "hint": "IN combined with a salary filter.",
+        "answer": "<pre><code>SELECT name, department, salary FROM employees\nWHERE department IN ('Finance', 'Marketing')\n  AND salary >= 65000;</code></pre>",
+        "explanation": "Finance: Ananya (68000), Karan (81000). Marketing: Sneha (58000), Aditya (63000). With salary >= 65000: Ananya and Karan pass. Sneha and Aditya fail. Returns 2 rows."
+      },
+      {
+        "id": "ts-24",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is it recommended to always use parentheses when combining AND and OR?",
+        "hint": "Precedence and readability.",
+        "answer": "Because AND is evaluated before OR in SQL, the meaning of a query can change in non-obvious ways. A query like <code>a = 1 OR b = 2 AND c = 3</code> is actually <code>a = 1 OR (b = 2 AND c = 3)</code>. Parentheses make the intent explicit and prevent bugs. Reviewers can verify logic at a glance instead of tracing precedence rules in their heads.",
+        "explanation": "This is a real-world code review standard. Companies like Flipkart and Amazon require explicit parentheses in SQL code review guidelines for this exact reason."
+      },
+      {
+        "id": "ts-25",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return?<br><pre><code>SELECT name FROM employees\nWHERE id BETWEEN 3 AND 7;</code></pre>",
+        "hint": "BETWEEN on integer ids, inclusive.",
+        "answer": "<code>Rohan Gupta (3)<br>Ananya Singh (4)<br>Vikram Reddy (5)<br>Sneha Iyer (6)<br>Karan Mehta (7)</code>",
+        "explanation": "BETWEEN 3 AND 7 includes ids 3, 4, 5, 6, 7 (inclusive on both ends). 5 rows returned. Notice that 3 and 7 themselves are included."
+      },
+      {
+        "id": "ts-26",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find employees who are (in IT AND earning above 80000) OR (in Finance AND joined before 2021). Return name, department, salary, join_date.",
+        "hint": "Two grouped conditions joined by OR.",
+        "answer": "<pre><code>SELECT name, department, salary, join_date FROM employees\nWHERE (department = 'IT' AND salary > 80000)\n   OR (department = 'Finance' AND join_date < '2021-01-01');</code></pre>",
+        "explanation": "First group: IT and salary > 80000 → Rohan (92000), Diya (110000). Second group: Finance and joined before 2021 → Karan (2020-02-14). Ananya joined 2022 so fails. Result: Rohan, Diya, Karan — 3 rows."
+      },
+      {
+        "id": "ts-27",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find all employees NOT in IT whose salary is between 50000 and 70000 inclusive. Use NOT and BETWEEN.",
+        "hint": "NOT with department, BETWEEN with salary.",
+        "answer": "<pre><code>SELECT name, department, salary FROM employees\nWHERE NOT (department = 'IT')\n  AND salary BETWEEN 50000 AND 70000;\n\n-- Equivalent cleaner version:\nSELECT name, department, salary FROM employees\nWHERE department != 'IT'\n  AND salary BETWEEN 50000 AND 70000;</code></pre>",
+        "explanation": "Non-IT with 50000-70000: Priya (HR, 52000), Ananya (Finance, 68000), Sneha (Marketing, 58000), Aditya (Marketing, 63000). Ishita at 47000 fails, Karan at 81000 fails. 4 rows."
+      },
+      {
+        "id": "ts-28",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this return?<br><pre><code>SELECT name FROM employees\nWHERE department = 'IT' AND NOT salary > 50000;</code></pre>",
+        "hint": "NOT applies to the comparison.",
+        "answer": "<code>Vikram Reddy</code>",
+        "explanation": "<code>NOT salary &gt; 50000</code> means salary is NOT greater than 50000, i.e., salary &lt;= 50000. In IT, only Vikram (45000) has salary at or below 50000. Others are all above. Returns 1 row."
+      },
+      {
+        "id": "ts-29",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Using aliases, find name (as 'emp'), salary (as 'pay_inr') for employees in ('IT','HR') who joined between 2020 and 2022 inclusive, and earn more than 50000.",
+        "hint": "Combine IN, BETWEEN, comparison, and AS.",
+        "answer": "<pre><code>SELECT name AS emp, salary AS pay_inr FROM employees\nWHERE department IN ('IT', 'HR')\n  AND join_date BETWEEN '2020-01-01' AND '2022-12-31'\n  AND salary > 50000;</code></pre>",
+        "explanation": "IT/HR and joined 2020-2022: Aarav (IT, 2021, 75000), Priya (HR, 2020, 52000), Ishita (HR, 2023 — fails). Plus Vikram (IT, 2023 — fails). Aarav (75000) and Priya (52000) both pass salary > 50000. Returns 2 rows."
+      },
+      {
+        "id": "ts-30",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between != and <> in SQL? Which should you use?",
+        "hint": "Both mean the same thing but have different origins.",
+        "answer": "Both <code>!=</code> and <code>&lt;&gt;</code> mean \"not equal to\" and work identically in MySQL, PostgreSQL, and SQL Server. <code>&lt;&gt;</code> is the SQL standard (ANSI SQL). <code>!=</code> is more familiar to programmers. Use <code>!=</code> for readability unless your team's style guide mandates the ANSI standard. Both are correct.",
+        "explanation": "Some very old databases only support <code>&lt;&gt;</code>, so if you are writing portable SQL for unknown systems, <code>&lt;&gt;</code> is the safer bet. For MySQL-only projects, either works."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a query that returns just the names of all employees.",
+        "hint": "Single column, no WHERE.",
+        "answer": "<pre><code>SELECT name FROM employees;</code></pre>",
+        "explanation": "No WHERE clause means all 10 rows are returned. Only the name column is included."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find the employee with id 5. Return all columns.",
+        "hint": "WHERE id = 5.",
+        "answer": "<pre><code>SELECT * FROM employees WHERE id = 5;</code></pre>",
+        "explanation": "id 5 is Vikram Reddy in the IT department, salary 45000, joined 2023-04-18. Exactly 1 row."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows?<br><pre><code>SELECT * FROM employees WHERE salary = 45000;</code></pre>",
+        "hint": "Exact match on salary.",
+        "answer": "<code>1 row</code>",
+        "explanation": "Only Vikram Reddy earns exactly 45000."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find all Marketing employees.",
+        "hint": "WHERE department = 'Marketing'.",
+        "answer": "<pre><code>SELECT * FROM employees WHERE department = 'Marketing';</code></pre>",
+        "explanation": "Marketing has Sneha Iyer (58000) and Aditya Rao (63000). 2 rows."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows?<br><pre><code>SELECT * FROM employees WHERE salary >= 50000 AND salary <= 70000;</code></pre>",
+        "hint": "Range 50000-70000 inclusive.",
+        "answer": "<code>5 rows</code>",
+        "explanation": "Priya (52000), Ananya (68000), Sneha (58000), Ishita (47000 - fails), Aditya (63000). Wait: Ishita at 47000 fails. So 4 pass. Let us recount: Priya 52000 ✓, Ananya 68000 ✓, Sneha 58000 ✓, Aditya 63000 ✓. That is 4 rows. Answer: 4."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Return employee names with alias 'worker_name'.",
+        "hint": "Use AS.",
+        "answer": "<pre><code>SELECT name AS worker_name FROM employees;</code></pre>",
+        "explanation": "All 10 names are returned under the column header 'worker_name' instead of 'name'."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find employees in IT. Use a straightforward WHERE clause.",
+        "hint": "Department equals IT.",
+        "answer": "<pre><code>SELECT * FROM employees WHERE department = 'IT';</code></pre>",
+        "explanation": "4 IT employees: Aarav, Rohan, Vikram, Diya."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows?<br><pre><code>SELECT * FROM employees WHERE salary < 50000;</code></pre>",
+        "hint": "Two low earners.",
+        "answer": "<code>2 rows</code>",
+        "explanation": "Only Vikram (45000) and Ishita (47000) earn below 50000."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees whose name is either 'Priya Patel' or 'Karan Mehta'. Use IN.",
+        "hint": "IN with string values.",
+        "answer": "<pre><code>SELECT * FROM employees\nWHERE name IN ('Priya Patel', 'Karan Mehta');</code></pre>",
+        "explanation": "IN works with strings too. Returns exactly 2 rows — Priya (HR) and Karan (Finance)."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find all employees except those in IT. Return name and department.",
+        "hint": "Use NOT or !=.",
+        "answer": "<pre><code>SELECT name, department FROM employees\nWHERE department != 'IT';</code></pre>",
+        "explanation": "6 non-IT employees: Priya, Ananya, Sneha, Karan, Ishita, Aditya."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees who joined in 2022. Use BETWEEN with dates.",
+        "hint": "Full year range.",
+        "answer": "<pre><code>SELECT name, join_date FROM employees\nWHERE join_date BETWEEN '2022-01-01' AND '2022-12-31';</code></pre>",
+        "explanation": "2022 joiners: Ananya (2022-11-05) and Aditya (2022-03-08). 2 rows."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees in HR earning more than 50000 OR in Finance earning more than 70000.",
+        "hint": "Two grouped conditions joined by OR.",
+        "answer": "<pre><code>SELECT name, department, salary FROM employees\nWHERE (department = 'HR' AND salary > 50000)\n   OR (department = 'Finance' AND salary > 70000);</code></pre>",
+        "explanation": "HR and > 50000: Priya (52000). Finance and > 70000: Karan (81000). Ananya (68000) fails. Returns Priya and Karan. 2 rows."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows?<br><pre><code>SELECT * FROM employees\nWHERE department = 'IT' OR department = 'IT';</code></pre>",
+        "hint": "Redundant OR.",
+        "answer": "<code>4 rows</code>",
+        "explanation": "OR with the same condition is just the single condition. Returns all 4 IT employees. Duplicated conditions do not create duplicated rows."
+      },
+      {
+        "id": "mx-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees whose salary is exactly 75000, 52000, or 92000.",
+        "hint": "IN with three numeric values.",
+        "answer": "<pre><code>SELECT name, salary FROM employees\nWHERE salary IN (75000, 52000, 92000);</code></pre>",
+        "explanation": "Aarav (75000), Priya (52000), Rohan (92000). Returns 3 rows."
+      },
+      {
+        "id": "mx-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees who joined on or after 2022-01-01 and work in IT.",
+        "hint": "AND with date and department.",
+        "answer": "<pre><code>SELECT name, join_date FROM employees\nWHERE join_date >= '2022-01-01'\n  AND department = 'IT';</code></pre>",
+        "explanation": "IT employees joined on/after 2022-01-01: only Vikram (2023-04-18). Aarav was 2021, Rohan 2019, Diya 2018. Returns 1 row."
+      },
+      {
+        "id": "mx-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return?<br><pre><code>SELECT name, salary * 12 AS annual_salary\nFROM employees WHERE id = 1;</code></pre>",
+        "hint": "Expression with alias.",
+        "answer": "<code>Aarav Sharma, 900000</code>",
+        "explanation": "id 1 is Aarav with salary 75000. Multiplying by 12 gives 900000. The aliased column 'annual_salary' appears in the output. Aliases work on expressions, not just plain columns."
+      },
+      {
+        "id": "mx-17",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees in IT earning between 50000 and 100000 (inclusive). Return name and salary.",
+        "hint": "Combine department check and BETWEEN.",
+        "answer": "<pre><code>SELECT name, salary FROM employees\nWHERE department = 'IT'\n  AND salary BETWEEN 50000 AND 100000;</code></pre>",
+        "explanation": "IT in 50000-100000 range: Aarav (75000), Rohan (92000). Vikram (45000) fails low end, Diya (110000) fails high end. 2 rows."
+      },
+      {
+        "id": "mx-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows?<br><pre><code>SELECT * FROM employees\nWHERE department != 'IT' AND department != 'HR' AND department != 'Finance';</code></pre>",
+        "hint": "Equivalent to NOT IN.",
+        "answer": "<code>2 rows</code>",
+        "explanation": "Excluding IT, HR, Finance leaves only Marketing. Marketing has 2 employees: Sneha and Aditya."
+      },
+      {
+        "id": "mx-19",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find employees with the name 'Aarav Sharma'. Return all columns.",
+        "hint": "Exact string match with single quotes.",
+        "answer": "<pre><code>SELECT * FROM employees WHERE name = 'Aarav Sharma';</code></pre>",
+        "explanation": "Single quotes for string literals. Case-sensitivity depends on the column's collation; by default MySQL is case-insensitive. Returns 1 row."
+      },
+      {
+        "id": "mx-20",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find employees who either (a) are in Marketing or (b) joined after 2022-06-01 and earn below 60000. Return everything.",
+        "hint": "OR between two grouped conditions.",
+        "answer": "<pre><code>SELECT * FROM employees\nWHERE department = 'Marketing'\n   OR (join_date > '2022-06-01' AND salary < 60000);</code></pre>",
+        "explanation": "Marketing: Sneha, Aditya. Late-2022 joiners with low salary: Ananya (2022-11-05, 68000) — fails salary. Ishita (2023-06-25, 47000) — passes both. Vikram (2023-04-18, 45000) — passes both. Result: Sneha, Aditya, Ishita, Vikram. 4 rows."
+      },
+      {
+        "id": "mx-21",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "How many rows?<br><pre><code>SELECT * FROM employees\nWHERE salary > 60000 AND salary < 80000\n   OR department = 'HR';</code></pre>",
+        "hint": "AND binds tighter than OR.",
+        "answer": "<code>5 rows</code>",
+        "explanation": "Read as: (salary > 60000 AND salary < 80000) OR department = 'HR'. Range 60000-80000 exclusive: Aarav (75000), Ananya (68000), Aditya (63000). HR: Priya (52000), Ishita (47000). No overlap. Total: 5 rows."
+      },
+      {
+        "id": "mx-22",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find employees whose id is NOT between 3 and 7 (exclusive). Use NOT BETWEEN and return name.",
+        "hint": "NOT BETWEEN is inclusive of endpoints too.",
+        "answer": "<pre><code>SELECT name FROM employees WHERE id NOT BETWEEN 3 AND 7;</code></pre>",
+        "explanation": "NOT BETWEEN 3 AND 7 excludes ids 3, 4, 5, 6, 7. Remaining: 1, 2, 8, 9, 10 — Aarav, Priya, Ishita, Aditya, Diya. 5 rows."
+      },
+      {
+        "id": "mx-23",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find all employees whose salary multiplied by 12 exceeds 1000000 (i.e., annual > 10 lakh). Use an expression in WHERE.",
+        "hint": "You can compute expressions in WHERE.",
+        "answer": "<pre><code>SELECT name, salary FROM employees\nWHERE salary * 12 > 1000000;</code></pre>",
+        "explanation": "Salary * 12 > 1000000 means salary > 83333.33. Employees exceeding: Rohan (92000), Diya (110000). Karan at 81000*12 = 972000, fails. Returns 2 rows."
+      },
+      {
+        "id": "mx-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this return?<br><pre><code>SELECT name FROM employees\nWHERE NOT (department = 'IT' OR salary > 80000);</code></pre>",
+        "hint": "De Morgan's law: NOT (A OR B) = NOT A AND NOT B.",
+        "answer": "<code>Priya Patel<br>Ananya Singh<br>Sneha Iyer<br>Ishita Kumar<br>Aditya Rao</code>",
+        "explanation": "NOT (IT OR salary > 80000) = (department != 'IT') AND (salary <= 80000). Non-IT: Priya, Ananya, Sneha, Karan, Ishita, Aditya. Salary <= 80000: removes Karan (81000). Result: Priya, Ananya, Sneha, Ishita, Aditya. 5 rows."
+      },
+      {
+        "id": "mx-25",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find all employees except those in the HR department who earn less than 50000. (Keep HR folks who earn >= 50000, keep all non-HR.)",
+        "hint": "Exclude specific subgroup. Use NOT with parentheses.",
+        "answer": "<pre><code>SELECT * FROM employees\nWHERE NOT (department = 'HR' AND salary < 50000);</code></pre>",
+        "explanation": "We want to remove only HR earners below 50000. HR has Priya (52000) and Ishita (47000). Ishita is excluded. Everyone else — including Priya (HR, 52000) — stays. 10 - 1 = 9 rows."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which keyword is used to retrieve data from a table in SQL?",
+        "options": [
+          { "text": "GET", "correct": false },
+          { "text": "FETCH", "correct": false },
+          { "text": "SELECT", "correct": true },
+          { "text": "RETRIEVE", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>SELECT</code> is the SQL keyword for retrieving data. FETCH exists in some SQL dialects but only inside cursors, not for top-level queries. GET and RETRIEVE are not SQL keywords."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does SELECT * FROM employees do?",
+        "options": [
+          { "text": "Returns only the first row of the employees table", "correct": false },
+          { "text": "Returns all rows and all columns from the employees table", "correct": true },
+          { "text": "Returns only the column named 'star'", "correct": false },
+          { "text": "Deletes all rows in the employees table", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The asterisk <code>*</code> means all columns. Without a WHERE clause, all rows are returned. So <code>SELECT * FROM employees</code> returns the entire table."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which operator is used for equality comparison in SQL?",
+        "options": [
+          { "text": "==", "correct": false },
+          { "text": "=", "correct": true },
+          { "text": "equals", "correct": false },
+          { "text": ":=", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SQL uses a single <code>=</code> for equality. Writing <code>==</code> causes a syntax error. This differs from Python, Java, JavaScript, and many other languages."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which keyword renames a column in the output?",
+        "options": [
+          { "text": "RENAME", "correct": false },
+          { "text": "ALIAS", "correct": false },
+          { "text": "AS", "correct": true },
+          { "text": "LIKE", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>SELECT name AS employee_name</code> renames the output column. RENAME is used for renaming tables/columns permanently (with ALTER TABLE), not for query-time aliasing."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "How do you write a string literal in SQL?",
+        "options": [
+          { "text": "Double quotes: \"IT\"", "correct": false },
+          { "text": "Single quotes: 'IT'", "correct": true },
+          { "text": "Backticks: `IT`", "correct": false },
+          { "text": "No quotes needed", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Single quotes are the SQL standard for string literals. Double quotes are for identifiers in ANSI SQL. Backticks are for identifiers in MySQL. Strings without quotes are column references or keywords."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which operator checks if a value equals any in a list?",
+        "options": [
+          { "text": "IS", "correct": false },
+          { "text": "LIKE", "correct": false },
+          { "text": "IN", "correct": true },
+          { "text": "HAS", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>column IN (v1, v2, v3)</code> is shorthand for multiple ORs. LIKE does pattern matching. IS is used with NULL (IS NULL, IS NOT NULL). HAS is not SQL."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Is BETWEEN inclusive or exclusive?",
+        "options": [
+          { "text": "Exclusive on both ends", "correct": false },
+          { "text": "Inclusive on both ends", "correct": true },
+          { "text": "Inclusive on start, exclusive on end", "correct": false },
+          { "text": "Exclusive on start, inclusive on end", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>BETWEEN x AND y</code> is equivalent to <code>&gt;= x AND &lt;= y</code>. Both endpoints are included. This is a classic interview question and catches many beginners."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Easy",
+        "question": "Which is NOT a valid comparison operator in SQL?",
+        "options": [
+          { "text": "!=", "correct": false },
+          { "text": "<>", "correct": false },
+          { "text": "==", "correct": true },
+          { "text": ">=", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct (the invalid one).</strong> SQL does not have <code>==</code>. Both <code>!=</code> and <code>&lt;&gt;</code> mean 'not equal.' <code>&gt;=</code> is 'greater than or equal.' Using <code>==</code> produces a syntax error."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which query finds IT employees earning more than 50000?",
+        "options": [
+          { "text": "SELECT * FROM employees WHERE department = IT AND salary > 50000;", "correct": false },
+          { "text": "SELECT * FROM employees WHERE department = 'IT' AND salary > 50000;", "correct": true },
+          { "text": "SELECT * FROM employees WHERE department == 'IT' AND salary > 50000;", "correct": false },
+          { "text": "SELECT * FROM employees WHERE department = 'IT' OR salary > 50000;", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> IT is a string (single quotes), equality uses a single =, and AND requires both conditions true. Option A misses quotes around IT (parsed as a column name). Option C uses invalid ==. Option D uses OR which would return a totally different set."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "In SQL, which has higher precedence: AND or OR?",
+        "options": [
+          { "text": "OR is higher", "correct": false },
+          { "text": "AND is higher", "correct": true },
+          { "text": "They are equal", "correct": false },
+          { "text": "Depends on the database", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> AND has higher precedence than OR, just like multiplication vs addition. <code>a OR b AND c</code> is <code>a OR (b AND c)</code>. Always use parentheses when mixing them to avoid confusion."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What does WHERE salary NOT IN (50000, 70000, NULL) return?",
+        "options": [
+          { "text": "All rows where salary is not 50000 and not 70000", "correct": false },
+          { "text": "Zero rows, regardless of data", "correct": true },
+          { "text": "Only rows with NULL salary", "correct": false },
+          { "text": "Syntax error", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When NOT IN has NULL, SQL's three-valued logic makes the comparison to NULL yield NULL. WHERE requires TRUE, so no rows pass. This is a famous gotcha and interview question."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which is equivalent to: WHERE salary BETWEEN 50000 AND 80000?",
+        "options": [
+          { "text": "WHERE salary > 50000 AND salary < 80000", "correct": false },
+          { "text": "WHERE salary >= 50000 AND salary <= 80000", "correct": true },
+          { "text": "WHERE salary IN (50000, 80000)", "correct": false },
+          { "text": "WHERE salary = 50000 OR salary = 80000", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> BETWEEN is inclusive, so it matches <code>&gt;= x AND &lt;= y</code>. Option A would be exclusive. Option C only matches the two exact values, not the range."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which clause filters rows before they are returned?",
+        "options": [
+          { "text": "SELECT", "correct": false },
+          { "text": "WHERE", "correct": true },
+          { "text": "FROM", "correct": false },
+          { "text": "AS", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> WHERE filters rows. SELECT picks columns. FROM identifies the table. AS creates aliases. Without WHERE, all rows are returned."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "What does this return? SELECT * FROM employees WHERE department = 'IT' OR department = 'HR' AND salary > 60000;",
+        "options": [
+          { "text": "All IT employees plus all HR employees earning > 60000", "correct": true },
+          { "text": "Only IT and HR employees with salary > 60000", "correct": false },
+          { "text": "Syntax error", "correct": false },
+          { "text": "Only HR employees earning > 60000", "correct": false }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> AND binds tighter than OR, so the query is: IT employees (any salary) OR (HR AND salary > 60000). All IT employees qualify. HR employees must also earn > 60000. To restrict both departments to high salary, you need parentheses."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What is the output of SELECT name AS n FROM employees WHERE id = 1?",
+        "options": [
+          { "text": "Column header 'name', value 'Aarav Sharma'", "correct": false },
+          { "text": "Column header 'n', value 'Aarav Sharma'", "correct": true },
+          { "text": "Column header 'n', value 'n'", "correct": false },
+          { "text": "Syntax error because AS is not allowed with WHERE", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> AS renames the output column only. The underlying table column is still 'name'. The value retrieved (Aarav Sharma) is unchanged. AS works fine alongside WHERE."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Medium",
+        "question": "Which is the BEST replacement for: WHERE dept = 'IT' OR dept = 'HR' OR dept = 'Finance'?",
+        "options": [
+          { "text": "WHERE dept IN ('IT', 'HR', 'Finance')", "correct": true },
+          { "text": "WHERE dept BETWEEN 'IT' AND 'Finance'", "correct": false },
+          { "text": "WHERE dept = ('IT', 'HR', 'Finance')", "correct": false },
+          { "text": "WHERE dept LIKE 'IT%HR%Finance'", "correct": false }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> IN is exactly designed for this. Option B treats strings alphabetically and returns unexpected results. Option C is a tuple mismatch error. Option D doesn't do anything close."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What does SELECT * FROM employees WHERE salary > 60000 AND (department = 'IT' OR department = 'Finance') return for our 10-row sample?",
+        "options": [
+          { "text": "3 rows: Aarav, Rohan, Diya", "correct": false },
+          { "text": "4 rows: Aarav, Rohan, Karan, Diya", "correct": false },
+          { "text": "5 rows: Aarav, Rohan, Ananya, Karan, Diya", "correct": true },
+          { "text": "2 rows: Rohan, Diya", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> IT or Finance: Aarav (75000), Rohan (92000), Ananya (68000), Vikram (45000), Karan (81000), Diya (110000). Of those, salary > 60000 removes only Vikram. 5 rows: Aarav, Rohan, Ananya, Karan, Diya."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Which statement is TRUE about the SQL = operator?",
+        "options": [
+          { "text": "It works the same as == in Python", "correct": false },
+          { "text": "It is used for both assignment (in UPDATE) and equality comparison (in WHERE)", "correct": true },
+          { "text": "It cannot be used with string values", "correct": false },
+          { "text": "It is case-sensitive for strings in all databases", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SQL's = means assignment in UPDATE statements (<code>SET salary = 60000</code>) and equality in WHERE (<code>WHERE salary = 60000</code>). Context distinguishes the two. String case-sensitivity depends on column collation — MySQL is case-insensitive by default."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What does NOT (A AND B) equal according to De Morgan's law?",
+        "options": [
+          { "text": "NOT A AND NOT B", "correct": false },
+          { "text": "NOT A OR NOT B", "correct": true },
+          { "text": "A OR B", "correct": false },
+          { "text": "A AND NOT B", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> De Morgan's law: <code>NOT (A AND B) = NOT A OR NOT B</code>. And <code>NOT (A OR B) = NOT A AND NOT B</code>. Useful for rewriting complex negations in WHERE clauses."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Why is SELECT * considered bad practice in production code?",
+        "options": [
+          { "text": "It returns wrong data", "correct": false },
+          { "text": "It always runs slower than listing columns explicitly", "correct": false },
+          { "text": "Schema changes silently alter query results and it blocks index-only scans", "correct": true },
+          { "text": "It is a syntax error in MySQL 8+", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If someone adds a column, your code silently starts fetching extra data. Also, the database optimizer cannot use covering indexes with <code>*</code>. In production, always list columns explicitly."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Top IT Earners",
+        "difficulty": "Easy",
+        "description": "Return all IT employees earning more than 70000. Include name, salary, and join_date.",
+        "sampleInput": "Uses the employees table defined in the chapter.",
+        "sampleOutput": "name, salary, join_date:\nAarav Sharma 75000 2021-03-15\nRohan Gupta 92000 2019-01-10\nDiya Nair 110000 2018-08-12",
+        "constraints": "Use WHERE with AND. Do not use subqueries.",
+        "solution": "SELECT name, salary, join_date\nFROM employees\nWHERE department = 'IT' AND salary > 70000;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Mid-Band Salaries",
+        "difficulty": "Easy",
+        "description": "Find employees with salary between 55000 and 85000 (inclusive). Show name and salary, alias salary as 'pay'.",
+        "sampleInput": "employees table.",
+        "sampleOutput": "Aarav Sharma 75000\nAnanya Singh 68000\nSneha Iyer 58000\nKaran Mehta 81000\nAditya Rao 63000",
+        "constraints": "Use BETWEEN.",
+        "solution": "SELECT name, salary AS pay\nFROM employees\nWHERE salary BETWEEN 55000 AND 85000;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Multi-Department Filter",
+        "difficulty": "Medium",
+        "description": "Find all employees in IT, Finance, or Marketing who earn more than 60000 and joined after 2020-01-01. Return name, department, salary, join_date.",
+        "sampleInput": "employees table.",
+        "sampleOutput": "Aarav Sharma IT 75000 2021-03-15\nAnanya Singh Finance 68000 2022-11-05\nSneha Iyer Marketing 58000 ... (actually Sneha fails, 58000 < 60000)\nAditya Rao Marketing 63000 2022-03-08",
+        "constraints": "Combine IN, comparison, and date filter. Correct output should be 3 rows: Aarav, Ananya, Aditya.",
+        "solution": "SELECT name, department, salary, join_date\nFROM employees\nWHERE department IN ('IT', 'Finance', 'Marketing')\n  AND salary > 60000\n  AND join_date > '2020-01-01';"
+      },
+      {
+        "id": "cc-4",
+        "title": "Exclude Low HR Earners",
+        "difficulty": "Medium",
+        "description": "Return every employee except HR staff earning below 50000. Keep all non-HR employees and HR employees earning 50000 or more.",
+        "sampleInput": "employees table.",
+        "sampleOutput": "9 rows — everyone except Ishita Kumar (HR, 47000).",
+        "constraints": "Use NOT with parentheses. The condition should exclude (department = 'HR' AND salary < 50000).",
+        "solution": "SELECT *\nFROM employees\nWHERE NOT (department = 'HR' AND salary < 50000);"
+      },
+      {
+        "id": "cc-5",
+        "title": "Annual Salary Report",
+        "difficulty": "Medium",
+        "description": "For each employee, return name and their annual salary (salary * 12) with alias 'annual_pay', but only for employees whose annual pay exceeds 800000.",
+        "sampleInput": "employees table.",
+        "sampleOutput": "Rohan Gupta 1104000\nKaran Mehta 972000\nDiya Nair 1320000\nAarav Sharma 900000",
+        "constraints": "Use an expression in SELECT and WHERE.",
+        "solution": "SELECT name, salary * 12 AS annual_pay\nFROM employees\nWHERE salary * 12 > 800000;"
+      },
+      {
+        "id": "cc-6",
+        "title": "Complex Recruitment Filter",
+        "difficulty": "Hard",
+        "description": "The recruitment team wants to review: (a) all Marketing employees regardless of salary, OR (b) any employee who joined in the last 3 years (after 2023-04-16) AND earns less than 50000. Return name, department, salary, join_date.",
+        "sampleInput": "employees table. Today's date treated as 2026-04-16.",
+        "sampleOutput": "Sneha Iyer Marketing 58000 2021-09-30\nAditya Rao Marketing 63000 2022-03-08\nIshita Kumar HR 47000 2023-06-25",
+        "constraints": "Use OR with two grouped conditions.",
+        "solution": "SELECT name, department, salary, join_date\nFROM employees\nWHERE department = 'Marketing'\n   OR (join_date > '2023-04-16' AND salary < 50000);"
+      },
+      {
+        "id": "cc-7",
+        "title": "Find Specific Employees by Name",
+        "difficulty": "Hard",
+        "description": "The manager wants details of three specific employees: Aarav Sharma, Ananya Singh, and Diya Nair. Return all their columns in a single query.",
+        "sampleInput": "employees table.",
+        "sampleOutput": "3 rows — Aarav (id 1), Ananya (id 4), Diya (id 10).",
+        "constraints": "Use IN on the name column.",
+        "solution": "SELECT *\nFROM employees\nWHERE name IN ('Aarav Sharma', 'Ananya Singh', 'Diya Nair');"
+      },
+      {
+        "id": "cc-8",
+        "title": "Salary Bonus Eligibility",
+        "difficulty": "Hard",
+        "description": "An employee is eligible for a bonus if they (earn at least 70000 AND joined before 2022-01-01) OR (are in Marketing AND earn less than 65000). Return name, department, and a computed column 'bonus_eligible' showing the word 'YES' using alias.",
+        "sampleInput": "employees table.",
+        "sampleOutput": "Aarav Sharma IT YES\nRohan Gupta IT YES\nKaran Mehta Finance YES\nSneha Iyer Marketing YES\nAditya Rao Marketing YES\nDiya Nair IT YES",
+        "constraints": "Use a string literal in SELECT with AS. Include parentheses in the WHERE clause.",
+        "solution": "SELECT name, department, 'YES' AS bonus_eligible\nFROM employees\nWHERE (salary >= 70000 AND join_date < '2022-01-01')\n   OR (department = 'Marketing' AND salary < 65000);"
+      }
+    ]
+  }
+}

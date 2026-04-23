@@ -511,11 +511,22 @@ class ResourceGenerator {
             const opts = mcq.options || [];
             if (Array.isArray(opts)) {
                 opts.forEach((opt, j) => {
-                    optionsHTML += `<li><span class="mcq-option-label">${labels[j] || String.fromCharCode(65 + j)}.</span> ${this.escapeHtml(String(opt))}</li>`;
+                    const defaultLabel = labels[j] || String.fromCharCode(65 + j);
+                    if (opt && typeof opt === 'object') {
+                        const label = opt.label || defaultLabel;
+                        const text = opt.text !== undefined ? opt.text : JSON.stringify(opt);
+                        optionsHTML += `<li><span class="mcq-option-label">${label}.</span> ${this.escapeHtml(String(text))}</li>`;
+                    } else {
+                        optionsHTML += `<li><span class="mcq-option-label">${defaultLabel}.</span> ${this.escapeHtml(String(opt))}</li>`;
+                    }
                 });
             } else if (typeof opts === 'object') {
                 Object.entries(opts).forEach(([key, val]) => {
-                    optionsHTML += `<li><span class="mcq-option-label">${key}.</span> ${this.escapeHtml(String(val))}</li>`;
+                    if (val && typeof val === 'object' && val.text !== undefined) {
+                        optionsHTML += `<li><span class="mcq-option-label">${val.label || key}.</span> ${this.escapeHtml(String(val.text))}</li>`;
+                    } else {
+                        optionsHTML += `<li><span class="mcq-option-label">${key}.</span> ${this.escapeHtml(String(val))}</li>`;
+                    }
                 });
             }
             optionsHTML += '</ul>';

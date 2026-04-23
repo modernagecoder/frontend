@@ -1,0 +1,711 @@
+{
+  "title": "String Functions in SQL",
+  "slug": "string-functions",
+  "language": "sql",
+  "chapter": 15,
+  "difficulty": "Intermediate",
+  "readingTime": "38 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "SQL String Functions Tutorial - CONCAT, SUBSTRING, UPPER, TRIM, REPLACE | Modern Age Coders",
+    "description": "Master MySQL string functions with real examples. Learn CONCAT, CONCAT_WS, SUBSTRING, LEFT, RIGHT, UPPER, LOWER, TRIM, REPLACE, LOCATE, LENGTH vs CHAR_LENGTH, LPAD, RPAD. Includes 60+ practice questions on cleaning and formatting text data.",
+    "keywords": "sql string functions, mysql string functions, concat sql, substring sql, upper lower sql, sql trim, sql replace, sql locate, char_length vs length, mysql string manipulation, sql text functions"
+  },
+  "content": {
+    "what": "<h2>What Are SQL String Functions?</h2><p>String functions transform and extract information from text (VARCHAR, TEXT, CHAR) values. Real-world data is messy: names with extra spaces, inconsistent capitalization, phone numbers with random separators, emails in mixed case. Before you can report on it, you have to clean it — and clean SQL string functions are the way.</p><p>MySQL ships dozens of string functions. This chapter covers the 20 or so that you will actually use every week as a data analyst or backend developer.</p><h3>Sample Table Used Throughout This Chapter</h3><pre><code>CREATE TABLE customers (\n    id INT PRIMARY KEY,\n    full_name VARCHAR(100),\n    email VARCHAR(100),\n    phone VARCHAR(20),\n    city VARCHAR(50)\n);\n\nINSERT INTO customers VALUES\n(1, '  Aarav Kumar  ',    'Aarav.Kumar@Gmail.COM', '+91-98765-43210',  'Bengaluru'),\n(2, 'priya SHARMA',       'priya@MAIL.com',        '+91 9876 543 211', 'mumbai'),\n(3, 'Rohan  Mehta',       'ROHAN@mail.com',        '9876543212',       'Delhi'),\n(4, 'meera-iyer',         'meera@MAIL.com',        '091-9876-543213',  'chennai'),\n(5, 'Vikram Singh Rajput','v.singh@MAIL.CO.IN',    '+91.9876.543.214', 'Pune');</code></pre><p>This is the kind of real data you will see in actual databases: leading/trailing spaces, inconsistent casing, irregular phone formatting, mixed-case emails. Let's clean it.</p>",
+    "why": "<h2>Why String Functions Matter</h2><h3>1. Every Real Database Has Dirty Text</h3><p>User-entered data is always messy. Even 'clean' data from APIs has quirks. Before you can match, group, or report, you need normalization: trim spaces, lowercase emails, format phone numbers consistently. String functions let you do this at the database level, often faster than in application code.</p><h3>2. Searching and Matching Depends on It</h3><p>Equality comparisons on VARCHAR are case-sensitive in many collations. Email validation, name matching, deduplication — all need LOWER() or TRIM() or both. If you do not normalize, 'Aarav Kumar' and 'aarav kumar' are different customers to SQL, which is wrong.</p><h3>3. Reporting Requires Formatting</h3><p>Concatenate first and last names for display. Mask credit card numbers showing only the last 4 digits. Format phone numbers for printing. Truncate long descriptions. All of this is string function work.</p><h3>4. Interview Questions Use String Functions</h3><p>'Extract the domain from an email,' 'Get the first name,' 'Format names in proper case,' 'Find all customers with a specific prefix,' 'Count occurrences of a character.' These appear in real SQL interviews regularly.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. CONCAT and CONCAT_WS - Joining Strings</h3><pre><code>SELECT CONCAT('Hello', ' ', 'World');           -- 'Hello World'\nSELECT CONCAT('User: ', id, ', Name: ', full_name) FROM customers;\n\n-- CONCAT_WS: CONCAT With Separator\nSELECT CONCAT_WS(', ', 'Aarav', 'Bengaluru', 'India');  -- 'Aarav, Bengaluru, India'\nSELECT CONCAT_WS(' - ', first_name, middle_name, last_name) FROM people;</code></pre><p><strong>Gotcha:</strong> <code>CONCAT</code> returns NULL if ANY argument is NULL. <code>CONCAT_WS</code> skips NULL arguments gracefully (but returns NULL only if the separator itself is NULL).</p><h3>2. LENGTH vs CHAR_LENGTH</h3><p>This matters for non-ASCII text:</p><ul><li><strong>LENGTH(str)</strong>: returns the number of <em>bytes</em>.</li><li><strong>CHAR_LENGTH(str)</strong> (or CHARACTER_LENGTH): returns the number of <em>characters</em>.</li></ul><pre><code>SELECT LENGTH('hello');            -- 5 bytes\nSELECT CHAR_LENGTH('hello');       -- 5 chars\n\nSELECT LENGTH('नमस्ते');           -- 18 bytes (UTF-8)\nSELECT CHAR_LENGTH('नमस्ते');       -- 6 chars</code></pre><p>For anything user-facing (validating max length, counting), use CHAR_LENGTH. LENGTH is for storage calculations.</p><h3>3. UPPER, LOWER, INITCAP</h3><pre><code>SELECT UPPER('hello');             -- 'HELLO'\nSELECT LOWER('HELLO');             -- 'hello'\n-- INITCAP capitalizes the first letter of each word\n-- Available in PostgreSQL and Oracle; NOT in MySQL\n-- MySQL workaround using functions and string manipulation shown later</code></pre><p>Use LOWER() for case-insensitive comparisons (on case-sensitive collations):</p><pre><code>-- Find all variants of an email\nSELECT * FROM customers WHERE LOWER(email) = 'priya@mail.com';</code></pre><h3>4. SUBSTRING (SUBSTR) - Extract a Portion</h3><p>Syntax: <code>SUBSTRING(str, start, length)</code> or <code>SUBSTRING(str FROM start FOR length)</code>. Position is 1-based in MySQL.</p><pre><code>SELECT SUBSTRING('Bengaluru', 1, 4);       -- 'Beng'\nSELECT SUBSTRING('Bengaluru', 4);          -- 'galuru' (from position 4 to end)\nSELECT SUBSTR('Bengaluru', -4);            -- 'luru' (last 4 chars, negative = from end)</code></pre><h3>5. LEFT and RIGHT</h3><pre><code>SELECT LEFT('Bengaluru', 4);    -- 'Beng'\nSELECT RIGHT('Bengaluru', 4);   -- 'luru'\n\n-- Get last 4 digits of a phone number\nSELECT RIGHT(phone, 4) FROM customers;</code></pre><p>LEFT/RIGHT are more readable than SUBSTRING when you want a prefix or suffix.</p><h3>6. TRIM, LTRIM, RTRIM</h3><pre><code>-- Remove whitespace from both ends\nSELECT TRIM('  Aarav Kumar  ');         -- 'Aarav Kumar'\n-- Left only\nSELECT LTRIM('  Aarav');                -- 'Aarav'\n-- Right only\nSELECT RTRIM('Aarav  ');                -- 'Aarav'\n-- Remove specific characters\nSELECT TRIM(LEADING '0' FROM '00012345');  -- '12345'\nSELECT TRIM(TRAILING '.' FROM 'hello...');  -- 'hello'\nSELECT TRIM(BOTH '-' FROM '---abc---');     -- 'abc'</code></pre><p>For cleaning messy input: <code>TRIM()</code> before comparison and before storage.</p><h3>7. REPLACE - Substitute Substrings</h3><pre><code>SELECT REPLACE('+91-98765-43210', '-', '');   -- '+919876543210'\nSELECT REPLACE(email, '@gmail.com', '@GMAIL.COM') FROM customers;\nSELECT REPLACE('Hello World', 'World', 'SQL'); -- 'Hello SQL'</code></pre><p>REPLACE is case-sensitive. To replace case-insensitively in MySQL, you need REGEXP_REPLACE (MySQL 8.0+).</p><h3>8. LOCATE, INSTR, POSITION - Find a Substring</h3><p>All three do the same thing with slightly different argument orders. Return the 1-based position of a substring, or 0 if not found.</p><pre><code>SELECT LOCATE('@', 'aarav@mail.com');   -- 6\nSELECT INSTR('aarav@mail.com', '@');   -- 6\nSELECT POSITION('@' IN 'aarav@mail.com'); -- 6\n\n-- LOCATE with start position\nSELECT LOCATE('a', 'banana', 3);   -- finds 'a' starting from position 3</code></pre><p>Combined with SUBSTRING to extract parts:</p><pre><code>-- Extract the domain from an email\nSELECT SUBSTRING(email, LOCATE('@', email) + 1)\nFROM customers;</code></pre><h3>9. LPAD, RPAD - Padding</h3><pre><code>SELECT LPAD('42', 5, '0');     -- '00042'\nSELECT RPAD('abc', 6, '.');    -- 'abc...'\n\n-- Format IDs as 6-digit codes\nSELECT LPAD(id, 6, '0') FROM products;\n-- 1 -> '000001', 42 -> '000042'</code></pre><h3>10. REVERSE, REPEAT</h3><pre><code>SELECT REVERSE('hello');     -- 'olleh'\nSELECT REPEAT('ab', 4);      -- 'abababab'</code></pre><p>REVERSE is occasionally useful (palindrome checks, finding the last delimiter). REPEAT is common in generating test data or visual separators.</p><h3>11. FORMAT - Numeric to Thousands-Separated String</h3><pre><code>SELECT FORMAT(1234567.891, 2);     -- '1,234,567.89'\nSELECT FORMAT(1234567.891, 0);     -- '1,234,568'</code></pre><p>Handy for report output. Note: the result is a string.</p><h3>12. Cleaning the Sample Customer Data</h3><pre><code>-- Clean the messy customer data into a presentable form\nSELECT\n    id,\n    TRIM(REPLACE(REPLACE(full_name, '  ', ' '), '-', ' ')) AS clean_name,\n    LOWER(email) AS clean_email,\n    REPLACE(REPLACE(REPLACE(REPLACE(phone, '-', ''), ' ', ''), '.', ''), '+', '') AS clean_phone,\n    CONCAT(UPPER(LEFT(city, 1)), LOWER(SUBSTRING(city, 2))) AS proper_city\nFROM customers;</code></pre><p>Expected output:</p><pre><code>+----+--------------------+-----------------------+------------------+-----------+\n| id | clean_name         | clean_email           | clean_phone      | proper_city|\n+----+--------------------+-----------------------+------------------+-----------+\n|  1 | Aarav Kumar        | aarav.kumar@gmail.com | 919876543210     | Bengaluru |\n|  2 | priya SHARMA       | priya@mail.com        | 919876543211     | Mumbai    |\n|  3 | Rohan Mehta        | rohan@mail.com        | 9876543212       | Delhi     |\n|  4 | meera iyer         | meera@mail.com        | 0919876543213    | Chennai   |\n|  5 | Vikram Singh Rajput| v.singh@mail.co.in    | 919876543214     | Pune      |\n+----+--------------------+-----------------------+------------------+-----------+</code></pre><p>Note: we did not fix capitalization of names here. MySQL lacks INITCAP, so proper-case names require substring manipulation or user-defined functions.</p><h3>13. Extract First Name - A Real Pattern</h3><pre><code>-- Everything before the first space\nSELECT\n    full_name,\n    TRIM(SUBSTRING(TRIM(full_name), 1, LOCATE(' ', TRIM(full_name)) - 1)) AS first_name\nFROM customers;\n\n-- Handle the case where there is no space (single-word name)\nSELECT\n    CASE\n        WHEN LOCATE(' ', TRIM(full_name)) > 0\n        THEN SUBSTRING(TRIM(full_name), 1, LOCATE(' ', TRIM(full_name)) - 1)\n        ELSE TRIM(full_name)\n    END AS first_name\nFROM customers;</code></pre><h3>14. Mask Sensitive Data</h3><pre><code>-- Show only last 4 digits of phone\nSELECT CONCAT(REPEAT('X', CHAR_LENGTH(phone) - 4), RIGHT(phone, 4)) AS masked\nFROM customers;\n\n-- Show first 2 letters of email + xxxxx + domain\nSELECT CONCAT(\n    LEFT(email, 2),\n    REPEAT('x', 5),\n    SUBSTRING(email, LOCATE('@', email))\n) AS masked_email\nFROM customers;</code></pre>",
+    "codeExamples": [
+      {
+        "title": "CONCAT vs CONCAT_WS - Joining Values",
+        "code": "SELECT\n    id,\n    CONCAT(full_name, ' <', email, '>') AS contact_card,\n    CONCAT_WS(' | ', full_name, email, phone, city) AS summary\nFROM customers\nLIMIT 3;",
+        "language": "sql",
+        "explanation": "CONCAT joins arguments with no separator. CONCAT_WS (With Separator) takes a separator as the first argument and inserts it between the rest. CONCAT_WS also skips NULL values; CONCAT returns NULL if any argument is NULL.",
+        "output": "+----+-------------------------------------+----------------------------------------------------------------+\n| id | contact_card                        | summary                                                        |\n+----+-------------------------------------+----------------------------------------------------------------+\n|  1 |   Aarav Kumar   <Aarav.Kumar@Gmail.COM> |   Aarav Kumar   | Aarav.Kumar@Gmail.COM | +91-98765-43210 | Bengaluru |\n|  2 | priya SHARMA <priya@MAIL.com>       | priya SHARMA | priya@MAIL.com | +91 9876 543 211 | mumbai        |\n|  3 | Rohan  Mehta <ROHAN@mail.com>       | Rohan  Mehta | ROHAN@mail.com | 9876543212 | Delhi                |\n+----+-------------------------------------+----------------------------------------------------------------+\n3 rows in set"
+      },
+      {
+        "title": "Clean Messy Names with TRIM and REPLACE",
+        "code": "SELECT\n    id,\n    full_name AS original,\n    -- Collapse multiple spaces, trim, replace dashes\n    TRIM(REPLACE(REPLACE(full_name, '  ', ' '), '-', ' ')) AS cleaned,\n    CHAR_LENGTH(TRIM(full_name)) AS clean_length\nFROM customers;",
+        "language": "sql",
+        "explanation": "<code>REPLACE(..., '  ', ' ')</code> collapses double spaces (note: does not handle 3+ spaces in one pass). <code>REPLACE(..., '-', ' ')</code> turns dashes into spaces. <code>TRIM</code> removes leading/trailing whitespace. CHAR_LENGTH shows the character count after cleaning.",
+        "output": "+----+----------------------+--------------------+--------------+\n| id | original             | cleaned            | clean_length |\n+----+----------------------+--------------------+--------------+\n|  1 |   Aarav Kumar        | Aarav Kumar        |           11 |\n|  2 | priya SHARMA         | priya SHARMA       |           12 |\n|  3 | Rohan  Mehta         | Rohan Mehta        |           11 |\n|  4 | meera-iyer           | meera iyer         |           10 |\n|  5 | Vikram Singh Rajput  | Vikram Singh Rajput|           19 |\n+----+----------------------+--------------------+--------------+\n5 rows in set"
+      },
+      {
+        "title": "Extract Email Domain Using LOCATE and SUBSTRING",
+        "code": "SELECT\n    email,\n    SUBSTRING(email, 1, LOCATE('@', email) - 1) AS username,\n    SUBSTRING(email, LOCATE('@', email) + 1)   AS domain\nFROM customers;",
+        "language": "sql",
+        "explanation": "LOCATE('@', email) returns the position of '@' (1-based). SUBSTRING with start and length extracts the username before '@'. Starting from LOCATE('@', email) + 1 without a length gives everything after '@' — the domain. LOWER(domain) would normalize it.",
+        "output": "+----------------------+--------------+------------+\n| email                | username     | domain     |\n+----------------------+--------------+------------+\n| Aarav.Kumar@Gmail.COM| Aarav.Kumar  | Gmail.COM  |\n| priya@MAIL.com       | priya        | MAIL.com   |\n| ROHAN@mail.com       | ROHAN        | mail.com   |\n| meera@MAIL.com       | meera        | MAIL.com   |\n| v.singh@MAIL.CO.IN   | v.singh      | MAIL.CO.IN |\n+----------------------+--------------+------------+\n5 rows in set"
+      },
+      {
+        "title": "Extract First Name Before First Space",
+        "code": "SELECT\n    full_name,\n    TRIM(SUBSTRING(\n        TRIM(full_name),\n        1,\n        CASE\n            WHEN LOCATE(' ', TRIM(full_name)) = 0 THEN CHAR_LENGTH(TRIM(full_name))\n            ELSE LOCATE(' ', TRIM(full_name)) - 1\n        END\n    )) AS first_name\nFROM customers;",
+        "language": "sql",
+        "explanation": "Trim first to remove leading spaces. Use LOCATE to find the first space. If there is no space (single-word name), take the whole string. The CASE handles both cases safely. SUBSTRING extracts chars 1 through space-position-1.",
+        "output": "+----------------------+------------+\n| full_name            | first_name |\n+----------------------+------------+\n|   Aarav Kumar        | Aarav      |\n| priya SHARMA         | priya      |\n| Rohan  Mehta         | Rohan      |\n| meera-iyer           | meera-iyer |\n| Vikram Singh Rajput  | Vikram     |\n+----------------------+------------+\n5 rows in set\n-- 'meera-iyer' has no space, so entire string returned"
+      },
+      {
+        "title": "Format Phone Numbers - Remove All Separators",
+        "code": "SELECT\n    phone AS original,\n    REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(phone, '-', ''), ' ', ''), '.', ''), '(', ''), ')', '') AS digits_only,\n    RIGHT(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(phone, '-', ''), ' ', ''), '.', ''), '+', ''), '0', ''), 10) AS normalized_10_digit\nFROM customers;",
+        "language": "sql",
+        "explanation": "Chain REPLACE calls to strip every non-digit separator. The normalized version removes '+' and leading zeros, then takes the last 10 digits. For production, MySQL 8.0+ has REGEXP_REPLACE which is cleaner: <code>REGEXP_REPLACE(phone, '[^0-9]', '')</code>.",
+        "output": "+------------------+---------------+---------------------+\n| original         | digits_only   | normalized_10_digit |\n+------------------+---------------+---------------------+\n| +91-98765-43210  | +919876543210 | 9876543210          |\n| +91 9876 543 211 | +919876543211 | 9876543211          |\n| 9876543212       | 9876543212    | 9876543212          |\n| 091-9876-543213  | 0919876543213 | 9876543213          |\n| +91.9876.543.214 | +919876543214 | 9876543214          |\n+------------------+---------------+---------------------+\n5 rows in set"
+      },
+      {
+        "title": "LENGTH vs CHAR_LENGTH - Unicode Matters",
+        "code": "SELECT\n    'Hello' AS str,\n    LENGTH('Hello')      AS byte_length,\n    CHAR_LENGTH('Hello') AS char_length\nUNION ALL\nSELECT\n    'नमस्ते',\n    LENGTH('नमस्ते'),\n    CHAR_LENGTH('नमस्ते')\nUNION ALL\nSELECT\n    '  Aarav  ',\n    LENGTH('  Aarav  '),\n    CHAR_LENGTH('  Aarav  ');",
+        "language": "sql",
+        "explanation": "For ASCII text, LENGTH and CHAR_LENGTH are equal. For UTF-8 text containing multi-byte characters (Hindi, Chinese, emoji), LENGTH counts bytes (often 3-4 per character) while CHAR_LENGTH counts characters. Always use CHAR_LENGTH for user-facing length limits.",
+        "output": "+----------+-------------+-------------+\n| str      | byte_length | char_length |\n+----------+-------------+-------------+\n| Hello    |           5 |           5 |\n| नमस्ते   |          18 |           6 |\n|   Aarav  |           9 |           9 |\n+----------+-------------+-------------+\n3 rows in set"
+      },
+      {
+        "title": "LPAD for ID Formatting",
+        "code": "CREATE TABLE products (id INT, name VARCHAR(30));\nINSERT INTO products VALUES (1,'Pen'),(42,'Notebook'),(375,'Laptop'),(9999,'Desk');\n\nSELECT\n    id,\n    LPAD(id, 6, '0')               AS product_code,\n    CONCAT('PRD-', LPAD(id, 6, '0')) AS sku\nFROM products;",
+        "language": "sql",
+        "explanation": "LPAD(value, target_length, pad_char) pads on the left. Useful for fixed-width product codes, invoice numbers, order IDs. CONCAT adds a prefix like 'PRD-' for a branded SKU format.",
+        "output": "+------+--------------+-------------+\n| id   | product_code | sku         |\n+------+--------------+-------------+\n|    1 | 000001       | PRD-000001  |\n|   42 | 000042       | PRD-000042  |\n|  375 | 000375       | PRD-000375  |\n| 9999 | 009999       | PRD-009999  |\n+------+--------------+-------------+\n4 rows in set"
+      },
+      {
+        "title": "Case-Insensitive Email Deduplication",
+        "code": "-- Find emails where the lowercase form appears more than once\nSELECT\n    LOWER(email) AS normalized_email,\n    COUNT(*)     AS occurrences,\n    GROUP_CONCAT(email) AS original_forms\nFROM customers\nGROUP BY LOWER(email)\nHAVING COUNT(*) > 1;",
+        "language": "sql",
+        "explanation": "Real-world duplicates often differ only in case: Aarav@GMAIL.com vs aarav@gmail.com. Normalize with LOWER(), then GROUP BY and HAVING COUNT > 1 to find duplicates. GROUP_CONCAT shows the original variants.",
+        "output": "+------------------+-------------+----------------+\n| normalized_email | occurrences | original_forms |\n+------------------+-------------+----------------+\n-- On sample data: no duplicates after normalization.\n-- If you had aarav@gmail.com inserted twice with different cases, it would show up here.\n+------------------+-------------+----------------+\n0 rows in set"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using LENGTH When You Mean CHAR_LENGTH",
+        "wrongCode": "-- Validate that a username is 5-15 characters\nSELECT * FROM users WHERE LENGTH(username) BETWEEN 5 AND 15;",
+        "error": "No error, but the check is wrong for non-ASCII names. A 5-character Hindi username might be 15 bytes (stored as UTF-8), so it incorrectly appears within the range when it should be caught as too short — or vice versa.",
+        "correctCode": "SELECT * FROM users WHERE CHAR_LENGTH(username) BETWEEN 5 AND 15;",
+        "explanation": "CHAR_LENGTH counts characters (what users see). LENGTH counts bytes (what storage uses). For user-facing validation, always use CHAR_LENGTH."
+      },
+      {
+        "title": "CONCAT With NULL Returns NULL",
+        "wrongCode": "-- middle_name is NULL for most people\nSELECT CONCAT(first_name, ' ', middle_name, ' ', last_name) FROM people;\n-- Returns NULL whenever middle_name IS NULL — full name is lost",
+        "error": "No error, but the result is NULL for every person with a NULL middle name.",
+        "correctCode": "-- Use CONCAT_WS (skips NULLs automatically)\nSELECT CONCAT_WS(' ', first_name, middle_name, last_name) FROM people;\n\n-- Or use COALESCE to replace NULL with empty string\nSELECT CONCAT(first_name, ' ', COALESCE(middle_name, ''), ' ', last_name) FROM people;",
+        "explanation": "CONCAT returns NULL if ANY argument is NULL. CONCAT_WS safely skips NULL arguments (unless the separator itself is NULL). COALESCE is another way to provide a default."
+      },
+      {
+        "title": "SUBSTRING With Off-by-One Error",
+        "wrongCode": "-- Intent: get the first 5 characters\nSELECT SUBSTRING('Bengaluru', 0, 5);  -- returns '' in MySQL!",
+        "error": "No error but returns an empty string or unexpected content. MySQL treats position 0 as special.",
+        "correctCode": "SELECT SUBSTRING('Bengaluru', 1, 5);  -- 'Benga'\n-- Or use LEFT for prefixes\nSELECT LEFT('Bengaluru', 5);",
+        "explanation": "MySQL's SUBSTRING is 1-indexed. Position 1 is the first character. Position 0 is undefined or treated as 'before the start'. Use LEFT(str, n) when you want a prefix — it is more readable."
+      },
+      {
+        "title": "Forgetting REPLACE Is Case-Sensitive",
+        "wrongCode": "-- Intent: mask 'Gmail' regardless of case\nSELECT REPLACE(email, 'gmail', 'GMAIL') FROM customers;\n-- 'Aarav.Kumar@Gmail.COM' unchanged!",
+        "error": "No error, but case mismatches are not replaced.",
+        "correctCode": "-- MySQL 8.0+: REGEXP_REPLACE with case-insensitive flag\nSELECT REGEXP_REPLACE(email, 'gmail', 'GMAIL', 1, 0, 'i') FROM customers;\n\n-- Older MySQL: uppercase first, then replace, or use LOWER to compare\nSELECT REPLACE(LOWER(email), 'gmail', 'GMAIL') FROM customers;",
+        "explanation": "REPLACE does exact (case-sensitive) substring matching. For case-insensitive replacement, either normalize the case first or use REGEXP_REPLACE with the 'i' flag in MySQL 8.0+."
+      }
+    ],
+    "summary": [
+      "CONCAT joins strings with no separator. CONCAT_WS takes a separator and safely skips NULL arguments. CONCAT returns NULL if any argument is NULL.",
+      "LENGTH returns bytes; CHAR_LENGTH returns characters. For user-facing validation and Unicode text, use CHAR_LENGTH.",
+      "UPPER and LOWER change case. MySQL has no INITCAP — proper case requires manual substring manipulation or a UDF.",
+      "SUBSTRING(str, start, length) is 1-indexed. LEFT(str, n) and RIGHT(str, n) are more readable for prefixes and suffixes.",
+      "TRIM removes whitespace; LTRIM and RTRIM remove from one side. TRIM with LEADING/TRAILING/BOTH and a specific character cleans other padding.",
+      "REPLACE is case-sensitive. For case-insensitive replacement in MySQL 8.0+, use REGEXP_REPLACE with the 'i' flag.",
+      "LOCATE, INSTR, POSITION all find a substring and return 1-based position (0 if not found). Combine with SUBSTRING to extract parts like email domains.",
+      "LPAD and RPAD add padding to make strings a fixed length. Common use: formatting IDs like '000042' or SKUs like 'PRD-000042'.",
+      "REVERSE and REPEAT are niche. FORMAT(n, d) formats a number with thousands separators and d decimals — returns a string.",
+      "For cleaning data: TRIM then REPLACE to remove bad characters, LOWER for normalized comparison, CONCAT_WS for NULL-safe joining."
+    ]
+  },
+  "relatedTopics": ["pattern-matching-and-null", "date-and-time-functions", "conditional-logic-case-when"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT CONCAT('Hello', ' ', 'World');</code></pre>",
+        "hint": "CONCAT joins arguments.",
+        "answer": "<code>Hello World</code>",
+        "explanation": "CONCAT concatenates all arguments in order with no separator."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT CONCAT_WS('-', '2026', '04', '16');</code></pre>",
+        "hint": "CONCAT With Separator.",
+        "answer": "<code>2026-04-16</code>",
+        "explanation": "CONCAT_WS inserts the separator (first arg) between each of the following arguments."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT CONCAT('Hello', NULL, 'World');</code></pre>",
+        "hint": "NULL in CONCAT.",
+        "answer": "<code>NULL</code>",
+        "explanation": "CONCAT returns NULL if any argument is NULL. Use CONCAT_WS which skips NULLs, or COALESCE to provide defaults."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT CONCAT_WS('-', '2026', NULL, '16');</code></pre>",
+        "hint": "CONCAT_WS and NULL.",
+        "answer": "<code>2026-16</code>",
+        "explanation": "CONCAT_WS skips NULL arguments. Result is '2026' + '-' + '16'."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT UPPER('Bengaluru'), LOWER('MUMBAI');</code></pre>",
+        "hint": "Case conversion.",
+        "answer": "<code>BENGALURU, mumbai</code>",
+        "explanation": "UPPER uppercases all letters. LOWER lowercases them."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT LENGTH('Hello'), CHAR_LENGTH('Hello');</code></pre>",
+        "hint": "ASCII: bytes == chars.",
+        "answer": "<code>5, 5</code>",
+        "explanation": "ASCII characters are single-byte in UTF-8, so LENGTH and CHAR_LENGTH match."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT LEFT('Bengaluru', 4), RIGHT('Bengaluru', 4);</code></pre>",
+        "hint": "LEFT prefix, RIGHT suffix.",
+        "answer": "<code>Beng, luru</code>",
+        "explanation": "LEFT(str, n) returns the first n characters. RIGHT(str, n) returns the last n characters."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT TRIM('  Aarav Kumar  '), CHAR_LENGTH(TRIM('  Aarav Kumar  '));</code></pre>",
+        "hint": "TRIM removes whitespace from both ends.",
+        "answer": "<code>Aarav Kumar, 11</code>",
+        "explanation": "TRIM removes leading/trailing spaces. The trimmed string has 11 characters including the internal space."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT REPLACE('+91-98765-43210', '-', '');</code></pre>",
+        "hint": "REPLACE every dash with empty.",
+        "answer": "<code>+919876543210</code>",
+        "explanation": "REPLACE substitutes every occurrence of the second argument with the third. Here, all dashes are removed."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT LOCATE('@', 'aarav@mail.com');</code></pre>",
+        "hint": "Position is 1-based.",
+        "answer": "<code>6</code>",
+        "explanation": "'@' is the 6th character. Positions: a=1, a=2, r=3, a=4, v=5, @=6."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT SUBSTRING('Bengaluru', 4, 3);</code></pre>",
+        "hint": "Start 4, length 3.",
+        "answer": "<code>gal</code>",
+        "explanation": "From position 4, take 3 characters: g, a, l. Positions: B=1, e=2, n=3, g=4, a=5, l=6."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT LPAD('42', 5, '0'), RPAD('abc', 6, '.');</code></pre>",
+        "hint": "Padding to fixed length.",
+        "answer": "<code>00042, abc...</code>",
+        "explanation": "LPAD pads on the left to length 5: three zeros + '42'. RPAD pads on the right: 'abc' + three dots."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT SUBSTRING('aarav@mail.com', LOCATE('@', 'aarav@mail.com') + 1);</code></pre>",
+        "hint": "Extract domain.",
+        "answer": "<code>mail.com</code>",
+        "explanation": "LOCATE finds '@' at position 6. +1 gives 7. SUBSTRING from position 7 with no length returns everything from there to the end."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT TRIM(LEADING '0' FROM '00012345');</code></pre>",
+        "hint": "LEADING removes from the left only.",
+        "answer": "<code>12345</code>",
+        "explanation": "TRIM with LEADING removes the specified character only from the beginning. All leading zeros are stripped; internal zeros (if any) are preserved."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT REVERSE('hello');</code></pre>",
+        "hint": "Reverse the string.",
+        "answer": "<code>olleh</code>",
+        "explanation": "REVERSE reverses the character order. Works on multi-byte characters correctly in recent MySQL versions."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT REPEAT('ab', 3);</code></pre>",
+        "hint": "Multiply the string.",
+        "answer": "<code>ababab</code>",
+        "explanation": "REPEAT(str, n) concatenates the string n times. Useful for generating separators or padding."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT FORMAT(1234567.89, 2);</code></pre>",
+        "hint": "Thousands-separated formatting.",
+        "answer": "<code>1,234,567.89</code>",
+        "explanation": "FORMAT adds thousands separators (commas by default) and formats to the given number of decimal places. Returns a string."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT SUBSTR('Bengaluru', -4);</code></pre>",
+        "hint": "Negative start = from end.",
+        "answer": "<code>luru</code>",
+        "explanation": "Negative start counts from the end. -4 means start at the 4th character from the end. Equivalent to RIGHT('Bengaluru', 4)."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>SELECT LENGTH('नमस्ते'), CHAR_LENGTH('नमस्ते');</code></pre>",
+        "hint": "Hindi uses multi-byte UTF-8.",
+        "answer": "<code>18, 6</code>",
+        "explanation": "'नमस्ते' has 6 visible characters. Each Devanagari character is 3 bytes in UTF-8, so 6 * 3 = 18 bytes. LENGTH shows bytes, CHAR_LENGTH shows characters."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output of this clean query on <code>'  Aarav  Kumar  '</code>?<br><pre><code>SELECT TRIM(REPLACE('  Aarav  Kumar  ', '  ', ' '));</code></pre>",
+        "hint": "REPLACE processes once, then TRIM.",
+        "answer": "<code>Aarav Kumar</code>",
+        "explanation": "REPLACE turns '  ' into ' ' in one pass: '  Aarav  Kumar  ' becomes ' Aarav Kumar '. TRIM strips the remaining leading/trailing single space. For strings with 3+ consecutive spaces, multiple REPLACE passes may be needed."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which function joins strings safely when any argument might be NULL?",
+        "hint": "CONCAT vs CONCAT_WS.",
+        "answer": "<code>CONCAT_WS (skips NULL arguments). CONCAT returns NULL if any argument is NULL.</code>",
+        "explanation": "CONCAT_WS stands for 'With Separator.' Takes separator first, then values. NULLs in the values are skipped."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Is MySQL's REPLACE case-sensitive?",
+        "hint": "Exact matching.",
+        "answer": "<code>Yes. REPLACE does case-sensitive substring replacement. For case-insensitive, use REGEXP_REPLACE with the 'i' flag in MySQL 8.0+, or normalize case first.</code>",
+        "explanation": "This is a common bug source. 'Gmail' and 'gmail' are different to REPLACE."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does <code>LENGTH('हi')</code> return in MySQL with UTF-8 encoding?",
+        "hint": "One multi-byte + one ASCII.",
+        "answer": "<code>4 (3 bytes for ह + 1 byte for i)</code>",
+        "explanation": "LENGTH counts bytes. 'ह' is 3 bytes in UTF-8. 'i' is 1 byte. Total 4. CHAR_LENGTH would return 2."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the difference between SUBSTRING(str, 1, 5) and LEFT(str, 5)?",
+        "hint": "They are equivalent.",
+        "answer": "<code>They are equivalent. LEFT is more readable for prefixes.</code>",
+        "explanation": "Both return the first 5 characters. LEFT is preferred when you specifically want a prefix because it's clearer at a glance."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Write a query to return the last 4 characters of a phone number stored in phone column.",
+        "hint": "RIGHT function.",
+        "answer": "<pre><code>SELECT RIGHT(phone, 4) FROM customers;</code></pre>",
+        "explanation": "RIGHT(str, n) returns the last n characters. Commonly used for masking credit cards, showing truncated tokens, etc."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write a query to extract the email domain (part after @) from every customer.",
+        "hint": "SUBSTRING + LOCATE.",
+        "answer": "<pre><code>SELECT email, SUBSTRING(email, LOCATE('@', email) + 1) AS domain\nFROM customers;</code></pre>",
+        "explanation": "LOCATE finds '@'. Add 1 to skip past it. SUBSTRING without a length argument returns everything from there to the end."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Normalize city names so they have proper case: first letter uppercase, rest lowercase.",
+        "hint": "UPPER + LOWER + SUBSTRING.",
+        "answer": "<pre><code>SELECT city, CONCAT(UPPER(LEFT(city, 1)), LOWER(SUBSTRING(city, 2))) AS proper_city\nFROM customers;</code></pre>",
+        "explanation": "MySQL lacks INITCAP. Workaround: uppercase first letter with LEFT+UPPER, lowercase the rest with SUBSTRING+LOWER, concatenate. Only handles single-word strings; multi-word requires further work."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write a query to remove all non-digit characters from a phone column using REPLACE.",
+        "hint": "Chain REPLACE for each separator.",
+        "answer": "<pre><code>SELECT REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(phone, '-',''), ' ',''), '.',''), '+',''), '(','') AS digits\nFROM customers;</code></pre>",
+        "explanation": "REPLACE cleans one character at a time. Chain multiple REPLACE calls for each separator. In MySQL 8.0+ use <code>REGEXP_REPLACE(phone, '[^0-9]', '')</code> for a single-call solution."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When should you use CHAR_LENGTH over LENGTH?",
+        "hint": "Multi-byte characters.",
+        "answer": "<code>Always use CHAR_LENGTH for user-facing length operations (validation, truncation). Use LENGTH only when you care about byte storage (e.g., checking maximum byte size for a column).</code>",
+        "explanation": "LENGTH counts bytes. For Unicode languages (Hindi, Chinese, Japanese, emoji), one character can be 2-4 bytes. CHAR_LENGTH always reports what users see."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is CONCAT_WS often preferred over CONCAT?",
+        "hint": "NULL safety + cleaner syntax.",
+        "answer": "<code>CONCAT_WS inserts a separator automatically and skips NULL arguments. CONCAT returns NULL if any argument is NULL and requires manually adding separators between arguments.</code>",
+        "explanation": "CONCAT_WS is especially useful for addresses and names where some parts may be NULL (middle_name, address_line_2)."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Write a query that masks email so only the first 2 characters and the domain show, e.g., 'aa***@mail.com'.",
+        "hint": "LEFT + REPEAT + SUBSTRING + LOCATE.",
+        "answer": "<pre><code>SELECT\n    email,\n    CONCAT(\n        LEFT(email, 2),\n        REPEAT('*', 3),\n        SUBSTRING(email, LOCATE('@', email))\n    ) AS masked\nFROM customers;</code></pre>",
+        "explanation": "LEFT grabs first 2 chars. REPEAT makes 3 stars. SUBSTRING from LOCATE('@',...) keeps '@' and everything after. Adjust star count for different masking widths."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Write a query to count the number of spaces in each full_name.",
+        "hint": "LENGTH difference after REPLACE.",
+        "answer": "<pre><code>SELECT\n    full_name,\n    CHAR_LENGTH(full_name) - CHAR_LENGTH(REPLACE(full_name, ' ', '')) AS space_count\nFROM customers;</code></pre>",
+        "explanation": "Classic trick: subtract the length after removing all spaces from the original length. The difference equals the number of removed spaces. Works for counting any character."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does CONCAT return if one argument is NULL?",
+        "options": {
+          "A": "Empty string",
+          "B": "The non-NULL arguments joined",
+          "C": "NULL",
+          "D": "Error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> CONCAT returns NULL if any argument is NULL. Use CONCAT_WS or COALESCE to handle NULLs safely."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which returns the number of characters (not bytes)?",
+        "options": {
+          "A": "LENGTH",
+          "B": "CHAR_LENGTH",
+          "C": "SIZEOF",
+          "D": "BYTE_LENGTH"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CHAR_LENGTH (aka CHARACTER_LENGTH) counts characters. LENGTH counts bytes."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "<code>SELECT SUBSTRING('Bengaluru', 4, 3);</code> returns:",
+        "options": {
+          "A": "'Ben'",
+          "B": "'gal'",
+          "C": "'galu'",
+          "D": "'luru'"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Starting at position 4 ('g'), take 3 characters: 'gal'. MySQL SUBSTRING is 1-indexed."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which function removes whitespace from both ends?",
+        "options": {
+          "A": "LTRIM",
+          "B": "RTRIM",
+          "C": "TRIM",
+          "D": "STRIP"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> TRIM removes from both sides by default. LTRIM is left only, RTRIM is right only. STRIP is not a MySQL function."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "<code>SELECT LPAD('5', 4, '0');</code> returns:",
+        "options": {
+          "A": "'5000'",
+          "B": "'0005'",
+          "C": "'5   '",
+          "D": "'   5'"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LPAD pads on the left to length 4 with '0', giving '0005'. Useful for ID formatting."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which returns the 1-based position of a substring (or 0 if not found)?",
+        "options": {
+          "A": "INDEX",
+          "B": "FIND",
+          "C": "LOCATE",
+          "D": "SEARCH"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> LOCATE(substr, str) returns the 1-based position. INSTR and POSITION do the same thing with different argument orders."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Is MySQL's REPLACE case-sensitive?",
+        "options": {
+          "A": "Yes",
+          "B": "No",
+          "C": "Depends on collation",
+          "D": "Only in MySQL 5.x"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> REPLACE does exact case-sensitive matching. For case-insensitive, use REGEXP_REPLACE with the 'i' flag (MySQL 8.0+)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "<code>SELECT CONCAT_WS('-', 'a', NULL, 'c');</code> returns:",
+        "options": {
+          "A": "'a-NULL-c'",
+          "B": "'a--c'",
+          "C": "'a-c'",
+          "D": "NULL"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> CONCAT_WS skips NULL arguments. The separator is placed only between actual values, yielding 'a-c'."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the output of <code>SELECT LENGTH('नमस्ते'), CHAR_LENGTH('नमस्ते');</code> in UTF-8?",
+        "options": {
+          "A": "6, 6",
+          "B": "18, 6",
+          "C": "6, 18",
+          "D": "18, 18"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each Devanagari character is 3 bytes in UTF-8. LENGTH = 6 * 3 = 18 bytes. CHAR_LENGTH = 6 characters."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which query gets the email domain (part after '@')?",
+        "options": {
+          "A": "SELECT SUBSTRING(email, 1, LOCATE('@', email));",
+          "B": "SELECT SUBSTRING(email, LOCATE('@', email));",
+          "C": "SELECT SUBSTRING(email, LOCATE('@', email) + 1);",
+          "D": "SELECT RIGHT(email, LOCATE('@', email));"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Start one position after '@', no length = to end. A returns the username part + '@'. B returns '@domain'. D is wrong."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "<code>SELECT TRIM(LEADING '0' FROM '000042');</code> returns:",
+        "options": {
+          "A": "'42'",
+          "B": "'000042'",
+          "C": "'042'",
+          "D": "'42000'"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> TRIM LEADING removes the specified character only from the left. All leading zeros stripped."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Count the occurrences of 'a' in 'banana' using only string functions.",
+        "options": {
+          "A": "LOCATE('a', 'banana')",
+          "B": "CHAR_LENGTH('banana') - CHAR_LENGTH(REPLACE('banana', 'a', ''))",
+          "C": "LENGTH('banana') / 3",
+          "D": "SUBSTRING('banana', 'a')"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Subtract the length after removing the target character from the original length. Works for counting any character."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Which is the safest way to join first, middle, and last names where middle can be NULL?",
+        "options": {
+          "A": "CONCAT(first, ' ', middle, ' ', last)",
+          "B": "first + middle + last",
+          "C": "CONCAT_WS(' ', first, middle, last)",
+          "D": "first | middle | last"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> CONCAT_WS skips NULL middle name. A returns NULL if middle is NULL. B and D are invalid syntax for string concatenation in MySQL."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "How do you format an integer id as a 6-digit zero-padded code?",
+        "options": {
+          "A": "CONCAT('0', id)",
+          "B": "LPAD(id, 6, '0')",
+          "C": "RPAD(id, 6, '0')",
+          "D": "FORMAT(id, 6)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LPAD pads on the left to reach 6 characters with '0'. RPAD would pad on the right. FORMAT adds thousands separators and decimals, not zero padding."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which approach correctly finds duplicate emails ignoring case?",
+        "options": {
+          "A": "SELECT email FROM users GROUP BY email HAVING COUNT(*) > 1",
+          "B": "SELECT LOWER(email) FROM users GROUP BY LOWER(email) HAVING COUNT(*) > 1",
+          "C": "SELECT email FROM users WHERE UPPER(email) = LOWER(email)",
+          "D": "SELECT DISTINCT email FROM users"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Normalize by LOWER before grouping. A would miss duplicates differing in case. C is a nonsense condition. D just returns unique cases."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "difficulty": "Easy",
+        "title": "Clean Up Name Column",
+        "description": "Given the customers table, return id and full_name trimmed of leading/trailing spaces.",
+        "starterCode": "-- TRIM\n",
+        "solution": "SELECT id, TRIM(full_name) AS clean_name\nFROM customers;",
+        "explanation": "TRIM removes whitespace from both ends. Use it for cleaning user input before comparing or displaying.",
+        "testCases": [
+          {"input": "Sample customers", "output": "5 rows with trimmed names"}
+        ]
+      },
+      {
+        "id": "cc-2",
+        "difficulty": "Easy",
+        "title": "Normalize Email to Lowercase",
+        "description": "Return id and email converted to lowercase for all customers.",
+        "starterCode": "-- LOWER\n",
+        "solution": "SELECT id, LOWER(email) AS normalized_email\nFROM customers;",
+        "explanation": "LOWER normalizes email case. This is essential before comparing or deduplicating user emails.",
+        "testCases": [
+          {"input": "Sample customers", "output": "5 rows with lowercase emails"}
+        ]
+      },
+      {
+        "id": "cc-3",
+        "difficulty": "Medium",
+        "title": "Extract Email Username and Domain",
+        "description": "For each customer, return the email, the username (before '@'), and the domain (after '@').",
+        "starterCode": "-- SUBSTRING + LOCATE\n",
+        "solution": "SELECT\n    email,\n    SUBSTRING(email, 1, LOCATE('@', email) - 1) AS username,\n    SUBSTRING(email, LOCATE('@', email) + 1)   AS domain\nFROM customers;",
+        "explanation": "LOCATE finds '@'. SUBSTRING extracts username (1 to @-1) and domain (@+1 to end).",
+        "testCases": [
+          {"input": "Sample customers", "output": "email split into username and domain"}
+        ]
+      },
+      {
+        "id": "cc-4",
+        "difficulty": "Medium",
+        "title": "Digits-Only Phone Numbers",
+        "description": "Strip all separators (-, space, ., +) from phone numbers and return just the digits.",
+        "starterCode": "-- Nested REPLACE calls\n",
+        "solution": "SELECT\n    phone AS original,\n    REPLACE(REPLACE(REPLACE(REPLACE(phone, '-', ''), ' ', ''), '.', ''), '+', '') AS digits_only\nFROM customers;",
+        "explanation": "Chain REPLACE to remove each separator. In MySQL 8.0+ use <code>REGEXP_REPLACE(phone, '[^0-9]', '')</code> for a single-call solution.",
+        "testCases": [
+          {"input": "Sample phone numbers with mixed separators", "output": "Digits-only versions"}
+        ]
+      },
+      {
+        "id": "cc-5",
+        "difficulty": "Medium",
+        "title": "Proper Case City Names",
+        "description": "Capitalize the first letter of each city name, rest lowercase, e.g., 'bengaluru' -> 'Bengaluru'.",
+        "starterCode": "-- LEFT + UPPER + SUBSTRING + LOWER\n",
+        "solution": "SELECT\n    city AS original,\n    CONCAT(UPPER(LEFT(city, 1)), LOWER(SUBSTRING(city, 2))) AS proper_city\nFROM customers;",
+        "explanation": "MySQL lacks INITCAP. Take first char with LEFT and uppercase it; take rest with SUBSTRING from position 2 and lowercase it; concatenate.",
+        "testCases": [
+          {"input": "Mixed case cities", "output": "Proper-case city names"}
+        ]
+      },
+      {
+        "id": "cc-6",
+        "difficulty": "Hard",
+        "title": "Count Spaces in Name",
+        "description": "Return the number of space characters in each full_name.",
+        "starterCode": "-- length difference trick\n",
+        "solution": "SELECT\n    full_name,\n    CHAR_LENGTH(full_name) - CHAR_LENGTH(REPLACE(full_name, ' ', '')) AS space_count\nFROM customers;",
+        "explanation": "Classic trick: length minus length-without-spaces equals the number of spaces. Generalizes to counting any character.",
+        "testCases": [
+          {"input": "Sample full_names", "output": "Space count per row"}
+        ]
+      },
+      {
+        "id": "cc-7",
+        "difficulty": "Hard",
+        "title": "Mask Phone Number (Last 4 Digits Only)",
+        "description": "Mask all but the last 4 digits of a phone number with 'X'. Input format may vary.",
+        "starterCode": "-- CHAR_LENGTH + REPEAT + RIGHT\n",
+        "solution": "SELECT\n    phone,\n    CONCAT(\n        REPEAT('X', CHAR_LENGTH(phone) - 4),\n        RIGHT(phone, 4)\n    ) AS masked\nFROM customers;",
+        "explanation": "REPEAT('X', n) creates n masking characters, where n is the length minus 4. RIGHT takes the last 4 characters. CONCAT joins them.",
+        "testCases": [
+          {"input": "Phone numbers of varying lengths", "output": "Masked versions"}
+        ]
+      },
+      {
+        "id": "cc-8",
+        "difficulty": "Hard",
+        "title": "Extract First Name (Before First Space)",
+        "description": "Given full_name, return just the first name (portion before first space). Handle names without spaces by returning the whole name.",
+        "starterCode": "-- LOCATE + CASE + SUBSTRING + TRIM\n",
+        "solution": "SELECT\n    full_name,\n    TRIM(\n        CASE\n            WHEN LOCATE(' ', TRIM(full_name)) = 0\n                THEN TRIM(full_name)\n            ELSE SUBSTRING(TRIM(full_name), 1, LOCATE(' ', TRIM(full_name)) - 1)\n        END\n    ) AS first_name\nFROM customers;",
+        "explanation": "Trim first to handle leading spaces. Use LOCATE to find first space. If no space (LOCATE returns 0), return the whole name. Otherwise take characters 1 through space-position-1.",
+        "testCases": [
+          {"input": "Various name formats", "output": "First name only"}
+        ]
+      }
+    ]
+  }
+}

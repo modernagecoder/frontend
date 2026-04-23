@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Table Expressions (CTEs) and Recursive Queries - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Write cleaner queries with WITH clause. Use recursive CTEs for hierarchies and sequences.">
+    <meta name="keywords" content="common table expressions (ctes) and recursive queries, sql tutorial, sql common table expressions (ctes) and recursive queries, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/common-table-expressions">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/common-table-expressions">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/common-table-expressions">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/common-table-expressions">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/common-table-expressions">
+    <meta property="og:title" content="Common Table Expressions (CTEs) and Recursive Queries - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Write cleaner queries with WITH clause. Use recursive CTEs for hierarchies and sequences.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/common-table-expressions">
+    <meta name="twitter:title" content="Common Table Expressions (CTEs) and Recursive Queries - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Write cleaner queries with WITH clause. Use recursive CTEs for hierarchies and sequences.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Common Table Expressions (CTEs) and Recursive Queries",
+    "description": "Write cleaner queries with WITH clause. Use recursive CTEs for hierarchies and sequences.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-04-16",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/common-table-expressions"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/common-table-expressions"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Common Table Expressions (CTEs) and Recursive Queries",
+        "item": "https://learn.modernagecoders.com/resources/sql/common-table-expressions"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the RECURSIVE Keyword",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When a CTE references itself, MySQL requires the <code>RECURSIVE</code> keyword after <code>WITH</code>. Without it, the recursive reference is an undeclared table. PostgreSQL has the same requirement; SQL Server does not."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Missing Termination Condition (Fork Bomb)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always include an explicit termination condition. MySQL saves you with the recursion limit (default 1000) — but the query errors out instead of producing a result. For large ranges, you may need to raise <code>cte_max_recursion_depth</code>, but first verify your termination is correct with a small limit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mismatched Column Types Between Anchor and Recursive Member",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Column types and lengths must match between anchor and recursive member. For string columns, the anchor determines the max length — if the recursive concatenation grows the string beyond that, MySQL silently truncates. Always CAST explicitly in the anchor to set the column size."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "String Truncation in Recursive CTEs",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always CAST the anchor's string columns to a comfortably large CHAR/VARCHAR. The recursive member inherits the column definition from the anchor — if the anchor declares CHAR(20), all subsequent values are truncated to 20 characters even after CONCAT."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using a CTE Outside Its Scope",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A CTE lives only for the duration of the statement that declares it. It is NOT a temporary table or view. If you want to reuse the logic across multiple statements, create a VIEW (covered in Chapter 21) or a TEMPORARY TABLE."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Common Table Expressions (CTEs) and Recursive Queries</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">45 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-16</span>
+            </div>
+            <h1 class="resource-title">Common Table Expressions (CTEs) and Recursive Queries</h1>
+            <a href="/resources/sql/common-table-expressions/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is a Common Table Expression?</h2><p>A Common Table Expression (CTE) is a temporary, named result set you define at the start of a query using the <code>WITH</code> keyword. You can then reference it by name in the main query just like a table. CTEs are the cleaner, modern replacement for derived tables (subqueries in FROM) and for repeated subquery logic.</p><pre><code>WITH high_value_orders AS (
+  SELECT customer_id, SUM(amount) AS total
+  FROM orders
+  WHERE status = 'paid'
+  GROUP BY customer_id
+  HAVING SUM(amount) &gt; 10000
+)
+SELECT c.name, h.total
+FROM customers c
+JOIN high_value_orders h ON c.id = h.customer_id
+ORDER BY h.total DESC;</code></pre><p>You get three concrete benefits:</p><ul><li><strong>Readability</strong> — name each intermediate step. Complex reports read top-to-bottom like paragraphs instead of nested subquery soup.</li><li><strong>Reusability</strong> — reference the same CTE multiple times in the same query. A derived table in FROM can only be used once without duplicating it.</li><li><strong>Recursion</strong> — CTEs are the only way to express recursive logic in SQL. Employee hierarchies, bill-of-materials trees, number sequences, graph traversals — all need <code>WITH RECURSIVE</code>.</li></ul><p><strong>MySQL requirement:</strong> CTEs are supported in MySQL 8.0+ and MariaDB 10.2+. Older versions need derived tables and correlated subqueries instead.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why CTEs Matter</h2><h3>1. Subqueries Don't Scale With Complexity</h3><p>For a 3-step calculation — aggregate, filter, rank — the subquery version has three levels of nesting, each indented further right. By step 4 you need a second monitor. CTEs flatten that: each step is one block at the top of the query.</p><h3>2. You Can Name Your Thinking</h3><p>Variables have names for a reason — so readers (including you in 6 months) know what they mean. CTEs give intermediate steps in a query proper names: <code>monthly_totals</code>, <code>top_customers</code>, <code>ranked_employees</code>. This alone pays for itself.</p><h3>3. Referencing the Same Logic Twice</h3><p>Derived tables in FROM only exist for the length of their single reference. If you need the same computation in the JOIN and in the WHERE, you write it twice. A CTE is defined once and referenced any number of times. The optimizer may still compute it twice under the hood, but your code is DRY.</p><h3>4. Recursion — The Superpower</h3><p>Without <code>WITH RECURSIVE</code> there is no clean way to walk a tree in SQL. Employee reports-to graphs, comment threads, category trees, dependency chains — all map to recursive CTEs. Writing these by hand with UNION ALL and manual depth tracking is error-prone and unbounded.</p><h3>5. Interview Favorites</h3><p>"Rewrite this nested query using CTEs." "Print the manager chain for employee X." "Generate all dates in the last 30 days." "Find the longest path in a DAG." All are recursive-CTE questions and they show up in data-engineering and full-stack interviews.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Non-Recursive CTE Syntax</h3><pre><code>WITH cte_name AS (
+  -- any SELECT statement
+  SELECT col1, col2
+  FROM some_table
+  WHERE condition
+)
+SELECT *
+FROM cte_name
+WHERE col1 &gt; 100;</code></pre><p>Rules:</p><ul><li>The CTE block must come immediately before the main query. It cannot stand alone; it must be followed by a statement that uses it (SELECT, INSERT, UPDATE, DELETE).</li><li>Inside the parentheses you write a full SELECT.</li><li>The CTE exists only for the duration of the outer statement.</li></ul><h3>2. Multiple CTEs in One Query</h3><pre><code>WITH
+  monthly_totals AS (
+    SELECT DATE_FORMAT(order_date, '%Y-%m') AS month, SUM(amount) AS total
+    FROM orders
+    GROUP BY month
+  ),
+  growth AS (
+    SELECT month, total,
+           LAG(total) OVER (ORDER BY month) AS prev_total
+    FROM monthly_totals
+  )
+SELECT month, total, prev_total,
+       ROUND((total - prev_total) / prev_total * 100, 2) AS growth_pct
+FROM growth
+ORDER BY month;</code></pre><p>Separate multiple CTEs with commas. Later CTEs can reference earlier ones (as shown — <code>growth</code> reads from <code>monthly_totals</code>), but not the other way around.</p><h3>3. CTE vs Derived Table vs View</h3><table><thead><tr><th>Feature</th><th>CTE</th><th>Derived Table</th><th>View</th></tr></thead><tbody><tr><td>Scope</td><td>One query</td><td>One query level</td><td>Persistent</td></tr><tr><td>Reusable in same query</td><td>Yes, any number of times</td><td>Only where declared</td><td>Yes</td></tr><tr><td>Recursive</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Needs schema privilege</td><td>No</td><td>No</td><td>Yes (CREATE VIEW)</td></tr><tr><td>Named</td><td>Yes</td><td>Alias only</td><td>Yes</td></tr></tbody></table><p>Use a CTE when logic is one-query-local and complex. Use a view when the same logic is shared across many queries (Chapter 21).</p><h3>4. Referencing a CTE Multiple Times</h3><pre><code>WITH customer_stats AS (
+  SELECT customer_id, SUM(amount) AS total, COUNT(*) AS orders
+  FROM orders GROUP BY customer_id
+)
+SELECT
+  (SELECT AVG(total) FROM customer_stats)          AS global_avg,
+  (SELECT MAX(total) FROM customer_stats)          AS global_max,
+  (SELECT COUNT(*)   FROM customer_stats WHERE orders &gt; 5) AS active_customers;</code></pre><p>Without a CTE this would be three separate subqueries, each re-running the aggregation. With a CTE the logic is named once.</p><h3>5. Recursive CTEs — The Structure</h3><pre><code>WITH RECURSIVE cte_name AS (
+  -- Anchor member: the starting rows
+  SELECT ...
+  FROM ...
+  WHERE ...
+
+  UNION ALL
+
+  -- Recursive member: references cte_name itself
+  SELECT ...
+  FROM some_table
+  JOIN cte_name ON ...
+  WHERE termination_condition   -- CRITICAL
+)
+SELECT * FROM cte_name;</code></pre><p>A recursive CTE has two parts separated by <code>UNION ALL</code>:</p><ol><li><strong>Anchor</strong> — the seed. Runs once. Returns the starting row(s).</li><li><strong>Recursive member</strong> — runs repeatedly. Each iteration joins against the results of the previous iteration. Must have a termination condition that eventually returns zero rows, or MySQL aborts with a recursion limit error.</li></ol><p>MySQL's default recursion limit is 1000. Raise it with <code>SET @@cte_max_recursion_depth = 10000;</code> if you truly need more.</p><h3>6. Recursive CTE: Generate a Number Sequence</h3><pre><code>WITH RECURSIVE numbers AS (
+  SELECT 1 AS n
+  UNION ALL
+  SELECT n + 1 FROM numbers WHERE n &lt; 10
+)
+SELECT * FROM numbers;
+-- 1,2,3,...,10</code></pre><p>The anchor returns the row <code>n=1</code>. The recursive member adds 1 each iteration. The termination condition <code>n &lt; 10</code> stops generation at 10. Without the condition, MySQL would blow through the recursion limit.</p><h3>7. Recursive CTE: Generate a Date Range</h3><pre><code>WITH RECURSIVE date_series AS (
+  SELECT DATE '2026-04-01' AS d
+  UNION ALL
+  SELECT d + INTERVAL 1 DAY
+  FROM date_series
+  WHERE d &lt; '2026-04-30'
+)
+SELECT d FROM date_series;
+-- 30 rows: 2026-04-01 through 2026-04-30</code></pre><p>Extremely useful for filling in missing days in dashboards — LEFT JOIN the date series against your actual data to show zero for days with no activity.</p><h3>8. Recursive CTE: Employee Hierarchy</h3><pre><code>CREATE TABLE employees (
+  id        INT PRIMARY KEY,
+  name      VARCHAR(50),
+  manager_id INT                 -- NULL for CEO
+);
+
+INSERT INTO employees VALUES
+  (1, 'Aarav Sharma (CEO)',   NULL),
+  (2, 'Priya Nair',           1),
+  (3, 'Rohan Mehta',          1),
+  (4, 'Ananya Iyer',          2),
+  (5, 'Vikram Singh',         2),
+  (6, 'Meera Krishnan',       3),
+  (7, 'Diya Bhatt',           4);
+
+WITH RECURSIVE org AS (
+  -- Anchor: top of the tree (CEO)
+  SELECT id, name, manager_id, 0 AS level,
+         CAST(name AS CHAR(500)) AS path
+  FROM employees
+  WHERE manager_id IS NULL
+
+  UNION ALL
+
+  -- Recursive: each employee reporting to someone already in 'org'
+  SELECT e.id, e.name, e.manager_id, o.level + 1,
+         CONCAT(o.path, ' -&gt; ', e.name)
+  FROM employees e
+  JOIN org o ON e.manager_id = o.id
+)
+SELECT id, REPEAT('  ', level), name AS indented_name, level, path
+FROM org
+ORDER BY path;</code></pre><p>The anchor selects the root (CEO, where manager_id IS NULL). The recursive member joins employees whose manager is in the current <code>org</code> result, and increments the level. Each recursion is one level deeper. Termination happens automatically when no employee reports to anyone in <code>org</code>.</p><h3>9. Recursive CTE: Fibonacci</h3><pre><code>WITH RECURSIVE fib AS (
+  SELECT 1 AS n, 0 AS a, 1 AS b
+  UNION ALL
+  SELECT n + 1, b, a + b
+  FROM fib
+  WHERE n &lt; 15
+)
+SELECT n, a AS fib_number FROM fib;</code></pre><p>Each row carries enough state (a, b) to compute the next. The recursive member shifts (a, b) -&gt; (b, a+b) each iteration. n acts as a termination counter.</p><h3>10. The Fork Bomb Warning</h3><p>The #1 recursive-CTE mistake: no termination condition.</p><pre><code>-- DO NOT RUN — infinite loop
+WITH RECURSIVE bomb AS (
+  SELECT 1 AS n
+  UNION ALL
+  SELECT n + 1 FROM bomb   -- no WHERE clause
+)
+SELECT * FROM bomb;</code></pre><p>This tries to generate infinite rows. MySQL saves you with the <code>cte_max_recursion_depth</code> limit (default 1000) and aborts. But always include an explicit termination clause — and test with a small bound first.</p><h3>11. CTEs and Window Functions Together</h3><p>The most powerful combination in modern SQL. Use CTEs to stage intermediate aggregations, then apply window functions in the next layer.</p><pre><code>WITH monthly AS (
+  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,
+         SUM(amount) AS revenue
+  FROM orders
+  GROUP BY month
+),
+with_growth AS (
+  SELECT month, revenue,
+         LAG(revenue) OVER (ORDER BY month) AS prev,
+         SUM(revenue) OVER (ORDER BY month ROWS UNBOUNDED PRECEDING) AS running
+  FROM monthly
+)
+SELECT month, revenue, prev,
+       ROUND((revenue - prev) / prev * 100, 2) AS mom_pct,
+       running AS ytd_revenue
+FROM with_growth
+ORDER BY month;</code></pre><h3>12. CTE vs Subquery — When to Choose Which</h3><ul><li>Use a subquery for a tiny one-off filter: <code>WHERE id IN (SELECT ...)</code></li><li>Use a CTE when the logic has 2+ steps or is used twice.</li><li>Use a CTE always when recursion is needed.</li><li>Use a view when the same logic is shared across many distinct queries.</li></ul>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Simple Non-Recursive CTE</div><pre><code class="language-python">CREATE TABLE orders (
+  id INT PRIMARY KEY,
+  customer_id INT,
+  amount DECIMAL(10,2),
+  status VARCHAR(20)
+);
+
+INSERT INTO orders VALUES
+  (1,101,1200,&#39;paid&#39;),(2,101, 800,&#39;paid&#39;),(3,101, 500,&#39;pending&#39;),
+  (4,102,2500,&#39;paid&#39;),(5,102,1000,&#39;failed&#39;),
+  (6,103, 700,&#39;pending&#39;),(7,103,1500,&#39;paid&#39;),(8,103,8900,&#39;paid&#39;);
+
+WITH paid_totals AS (
+  SELECT customer_id, SUM(amount) AS total_paid
+  FROM orders
+  WHERE status = &#39;paid&#39;
+  GROUP BY customer_id
+)
+SELECT customer_id, total_paid
+FROM paid_totals
+WHERE total_paid &gt; 2000
+ORDER BY total_paid DESC;</code></pre><div class="code-example-explanation">The CTE <code>paid_totals</code> names the intermediate aggregate. The main query then filters and sorts it. Without a CTE this would be a derived table in FROM — workable but less readable. Note how you can apply additional WHERE on the CTE just like on a table.</div><div class="code-example-output">+-------------+------------+
+| customer_id | total_paid |
++-------------+------------+
+|         103 |   10400.00 |
+|         102 |    2500.00 |
+|         101 |    2000.00 |
++-------------+------------+</div></div>
+<div class="code-example"><div class="code-example-title">Multiple CTEs Chained Together</div><pre><code class="language-python">-- Uses the orders table from above
+
+WITH
+  customer_totals AS (
+    SELECT customer_id,
+           SUM(CASE WHEN status=&#39;paid&#39; THEN amount ELSE 0 END) AS paid_total,
+           COUNT(*) AS orders_count
+    FROM orders
+    GROUP BY customer_id
+  ),
+  ranked AS (
+    SELECT customer_id, paid_total, orders_count,
+           RANK() OVER (ORDER BY paid_total DESC) AS rnk
+    FROM customer_totals
+  )
+SELECT customer_id, paid_total, orders_count, rnk
+FROM ranked
+WHERE rnk &lt;= 3
+ORDER BY rnk;</code></pre><div class="code-example-explanation">Three logical steps: aggregate, rank, filter. Each step gets its own CTE. This is far more readable than one query with three levels of nested subqueries. Later CTEs reference earlier ones.</div><div class="code-example-output">+-------------+------------+--------------+-----+
+| customer_id | paid_total | orders_count | rnk |
++-------------+------------+--------------+-----+
+|         103 |   10400.00 |            3 |   1 |
+|         102 |    2500.00 |            2 |   2 |
+|         101 |    2000.00 |            3 |   3 |
++-------------+------------+--------------+-----+</div></div>
+<div class="code-example"><div class="code-example-title">Recursive CTE - Generate Numbers 1 to 10</div><pre><code class="language-python">WITH RECURSIVE numbers AS (
+  -- Anchor: starting value
+  SELECT 1 AS n
+  UNION ALL
+  -- Recursive: increment until termination
+  SELECT n + 1
+  FROM numbers
+  WHERE n &lt; 10
+)
+SELECT n FROM numbers;</code></pre><div class="code-example-explanation">Anchor returns n=1. Recursive member adds 1 each iteration, continuing while n<10. When n=10, the WHERE clause becomes false on the next iteration (would produce n=11 from n=10, but n<10 is false), stopping recursion. Results: 1 through 10.</div><div class="code-example-output">+----+
+| n  |
++----+
+|  1 |
+|  2 |
+|  3 |
+|  4 |
+|  5 |
+|  6 |
+|  7 |
+|  8 |
+|  9 |
+| 10 |
++----+</div></div>
+<div class="code-example"><div class="code-example-title">Recursive CTE - Date Range for the Last 30 Days</div><pre><code class="language-python">WITH RECURSIVE date_series AS (
+  SELECT CURDATE() - INTERVAL 29 DAY AS d
+  UNION ALL
+  SELECT d + INTERVAL 1 DAY
+  FROM date_series
+  WHERE d &lt; CURDATE()
+)
+SELECT d,
+       DAYNAME(d)                  AS day_name,
+       CASE WHEN DAYOFWEEK(d) IN (1, 7) THEN &#39;Weekend&#39; ELSE &#39;Weekday&#39; END AS type
+FROM date_series
+ORDER BY d;</code></pre><div class="code-example-explanation">Generates 30 consecutive dates from 29 days ago through today. Use this as the left side of a LEFT JOIN to ensure every date appears in a dashboard, even those with zero events. Filling zero-rows is one of the most valuable data-engineering patterns.</div><div class="code-example-output">30 rows: today back to 29 days ago, each with day name and weekend/weekday label.</div></div>
+<div class="code-example"><div class="code-example-title">Recursive CTE - Employee Hierarchy Tree</div><pre><code class="language-python">CREATE TABLE employees (
+  id         INT PRIMARY KEY,
+  name       VARCHAR(50),
+  manager_id INT
+);
+
+INSERT INTO employees VALUES
+  (1, &#39;Aarav Sharma (CEO)&#39;,   NULL),
+  (2, &#39;Priya Nair&#39;,           1),
+  (3, &#39;Rohan Mehta&#39;,          1),
+  (4, &#39;Ananya Iyer&#39;,          2),
+  (5, &#39;Vikram Singh&#39;,         2),
+  (6, &#39;Meera Krishnan&#39;,       3),
+  (7, &#39;Diya Bhatt&#39;,           4);
+
+WITH RECURSIVE org AS (
+  SELECT id, name, manager_id, 0 AS level,
+         CAST(name AS CHAR(500)) AS path
+  FROM employees
+  WHERE manager_id IS NULL
+  UNION ALL
+  SELECT e.id, e.name, e.manager_id, o.level + 1,
+         CONCAT(o.path, &#39; &gt; &#39;, e.name)
+  FROM employees e
+  JOIN org o ON e.manager_id = o.id
+)
+SELECT CONCAT(REPEAT(&#39;  &#39;, level), name) AS org_chart,
+       level,
+       path
+FROM org
+ORDER BY path;</code></pre><div class="code-example-explanation">Anchor selects the CEO (manager_id IS NULL). Recursive member joins each employee whose manager is already in the CTE result. The <code>level</code> increments each hop. The <code>path</code> string concatenates names for visualization. ORDER BY path produces a depth-first tree view.</div><div class="code-example-output">+-----------------------------------+-------+
+| org_chart                         | level |
++-----------------------------------+-------+
+| Aarav Sharma (CEO)                |     0 |
+|   Priya Nair                      |     1 |
+|     Ananya Iyer                   |     2 |
+|       Diya Bhatt                  |     3 |
+|     Vikram Singh                  |     2 |
+|   Rohan Mehta                     |     1 |
+|     Meera Krishnan                |     2 |
++-----------------------------------+-------+</div></div>
+<div class="code-example"><div class="code-example-title">Recursive CTE - Fibonacci Sequence</div><pre><code class="language-python">WITH RECURSIVE fib AS (
+  SELECT 1 AS n, 0 AS a, 1 AS b
+  UNION ALL
+  SELECT n + 1, b, a + b
+  FROM fib
+  WHERE n &lt; 12
+)
+SELECT n, a AS fibonacci
+FROM fib;</code></pre><div class="code-example-explanation">Each row carries two state columns <code>a</code> and <code>b</code>. The recursive step shifts (a, b) to (b, a+b), producing the Fibonacci sequence in column <code>a</code>. Terminates at n=12. A classic interview problem solved in 5 lines.</div><div class="code-example-output">+----+-----------+
+| n  | fibonacci |
++----+-----------+
+|  1 |         0 |
+|  2 |         1 |
+|  3 |         1 |
+|  4 |         2 |
+|  5 |         3 |
+|  6 |         5 |
+|  7 |         8 |
+|  8 |        13 |
+|  9 |        21 |
+| 10 |        34 |
+| 11 |        55 |
+| 12 |        89 |
++----+-----------+</div></div>
+<div class="code-example"><div class="code-example-title">CTE + Window Function - Monthly Report</div><pre><code class="language-python">CREATE TABLE orders2 (id INT, order_date DATE, amount DECIMAL(10,2));
+INSERT INTO orders2 VALUES
+  (1,&#39;2026-01-10&#39;,1200),(2,&#39;2026-01-25&#39;, 800),
+  (3,&#39;2026-02-03&#39;,2200),(4,&#39;2026-02-28&#39;,1500),
+  (5,&#39;2026-03-12&#39;,3100),(6,&#39;2026-03-29&#39;, 950),
+  (7,&#39;2026-04-05&#39;,1800),(8,&#39;2026-04-15&#39;,2650);
+
+WITH monthly AS (
+  SELECT DATE_FORMAT(order_date, &#39;%Y-%m&#39;) AS month,
+         SUM(amount)                      AS revenue
+  FROM orders2
+  GROUP BY month
+)
+SELECT month, revenue,
+  LAG(revenue) OVER (ORDER BY month) AS prev_month,
+  SUM(revenue) OVER (ORDER BY month ROWS UNBOUNDED PRECEDING) AS ytd,
+  ROUND(
+    (revenue - LAG(revenue) OVER (ORDER BY month))
+    / LAG(revenue) OVER (ORDER BY month) * 100, 2
+  ) AS mom_pct
+FROM monthly
+ORDER BY month;</code></pre><div class="code-example-explanation">Two-step query: (1) aggregate to monthly grain in a CTE, (2) apply multiple window functions. Without a CTE you'd need a derived table and repeat the aggregation three times (once per window function).</div><div class="code-example-output">+---------+---------+------------+---------+---------+
+| month   | revenue | prev_month | ytd     | mom_pct |
++---------+---------+------------+---------+---------+
+| 2026-01 | 2000.00 | NULL       | 2000.00 |    NULL |
+| 2026-02 | 3700.00 | 2000.00    | 5700.00 |   85.00 |
+| 2026-03 | 4050.00 | 3700.00    | 9750.00 |    9.46 |
+| 2026-04 | 4450.00 | 4050.00    |14200.00 |    9.88 |
++---------+---------+------------+---------+---------+</div></div>
+<div class="code-example"><div class="code-example-title">CTE Referenced Multiple Times</div><pre><code class="language-python">-- Using orders2 from above
+
+WITH monthly AS (
+  SELECT DATE_FORMAT(order_date, &#39;%Y-%m&#39;) AS month,
+         SUM(amount)                      AS revenue
+  FROM orders2
+  GROUP BY month
+)
+SELECT
+  (SELECT MAX(revenue)  FROM monthly) AS best_month_revenue,
+  (SELECT MIN(revenue)  FROM monthly) AS worst_month_revenue,
+  (SELECT AVG(revenue)  FROM monthly) AS avg_month_revenue,
+  (SELECT COUNT(*)       FROM monthly) AS months_of_data;</code></pre><div class="code-example-explanation">The same CTE is referenced 4 times in scalar subqueries. Without the CTE you'd repeat the monthly aggregation 4 times. The CTE is defined once and each scalar subquery selects a different summary statistic.</div><div class="code-example-output">+--------------------+---------------------+-------------------+----------------+
+| best_month_revenue | worst_month_revenue | avg_month_revenue | months_of_data |
++--------------------+---------------------+-------------------+----------------+
+|            4450.00 |             2000.00 |        3550.00000 |              4 |
++--------------------+---------------------+-------------------+----------------+</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the RECURSIVE Keyword</h3>
+                <div class="wrong-code"><pre><code class="language-python">WITH numbers AS (
+  SELECT 1 AS n
+  UNION ALL
+  SELECT n + 1 FROM numbers WHERE n &lt; 10
+)
+SELECT * FROM numbers;</code></pre></div><div class="error-message">ERROR 1146: Table &#39;numbers&#39; doesn&#39;t exist -- because MySQL tries to resolve &#39;numbers&#39; as a real table in the recursive member.</div><div class="correct-code"><pre><code class="language-python">WITH RECURSIVE numbers AS (
+  SELECT 1 AS n
+  UNION ALL
+  SELECT n + 1 FROM numbers WHERE n &lt; 10
+)
+SELECT * FROM numbers;</code></pre></div><div class="mistake-explanation">When a CTE references itself, MySQL requires the <code>RECURSIVE</code> keyword after <code>WITH</code>. Without it, the recursive reference is an undeclared table. PostgreSQL has the same requirement; SQL Server does not.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Missing Termination Condition (Fork Bomb)</h3>
+                <div class="wrong-code"><pre><code class="language-python">WITH RECURSIVE bomb AS (
+  SELECT 1 AS n
+  UNION ALL
+  SELECT n + 1 FROM bomb   -- no WHERE clause!
+)
+SELECT * FROM bomb;</code></pre></div><div class="error-message">ERROR 3636: Recursive query aborted after 1001 iterations (cte_max_recursion_depth).</div><div class="correct-code"><pre><code class="language-python">WITH RECURSIVE safe AS (
+  SELECT 1 AS n
+  UNION ALL
+  SELECT n + 1 FROM safe WHERE n &lt; 100
+)
+SELECT * FROM safe;</code></pre></div><div class="mistake-explanation">Always include an explicit termination condition. MySQL saves you with the recursion limit (default 1000) — but the query errors out instead of producing a result. For large ranges, you may need to raise <code>cte_max_recursion_depth</code>, but first verify your termination is correct with a small limit.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Mismatched Column Types Between Anchor and Recursive Member</h3>
+                <div class="wrong-code"><pre><code class="language-python">WITH RECURSIVE org AS (
+  SELECT id, name, 0 AS level
+  FROM employees WHERE manager_id IS NULL
+  UNION ALL
+  SELECT e.id, e.name, o.level + 1.0    -- numeric mismatch
+  FROM employees e JOIN org o ON e.manager_id = o.id
+)
+SELECT * FROM org;</code></pre></div><div class="error-message">In some MySQL versions: ERROR 3821 because anchor has INT level but recursive has DECIMAL. Even where it &#39;works&#39;, the CTE column type gets promoted unexpectedly.</div><div class="correct-code"><pre><code class="language-python">WITH RECURSIVE org AS (
+  SELECT id, name, CAST(0 AS SIGNED) AS level
+  FROM employees WHERE manager_id IS NULL
+  UNION ALL
+  SELECT e.id, e.name, o.level + 1
+  FROM employees e JOIN org o ON e.manager_id = o.id
+)
+SELECT * FROM org;</code></pre></div><div class="mistake-explanation">Column types and lengths must match between anchor and recursive member. For string columns, the anchor determines the max length — if the recursive concatenation grows the string beyond that, MySQL silently truncates. Always CAST explicitly in the anchor to set the column size.</div>
+            </div>
+<div class="mistake-card">
+                <h3>String Truncation in Recursive CTEs</h3>
+                <div class="wrong-code"><pre><code class="language-python">WITH RECURSIVE org AS (
+  SELECT id, name, name AS path    -- path sized by the anchor&#39;s name
+  FROM employees WHERE manager_id IS NULL
+  UNION ALL
+  SELECT e.id, e.name, CONCAT(o.path, &#39; &gt; &#39;, e.name)
+  FROM employees e JOIN org o ON e.manager_id = o.id
+)
+SELECT * FROM org;</code></pre></div><div class="error-message">No error, but paths get silently truncated to the length of the anchor&#39;s name column. Deep hierarchies lose levels.</div><div class="correct-code"><pre><code class="language-python">WITH RECURSIVE org AS (
+  SELECT id, name, CAST(name AS CHAR(1000)) AS path
+  FROM employees WHERE manager_id IS NULL
+  UNION ALL
+  SELECT e.id, e.name, CONCAT(o.path, &#39; &gt; &#39;, e.name)
+  FROM employees e JOIN org o ON e.manager_id = o.id
+)
+SELECT * FROM org;</code></pre></div><div class="mistake-explanation">Always CAST the anchor's string columns to a comfortably large CHAR/VARCHAR. The recursive member inherits the column definition from the anchor — if the anchor declares CHAR(20), all subsequent values are truncated to 20 characters even after CONCAT.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using a CTE Outside Its Scope</h3>
+                <div class="wrong-code"><pre><code class="language-python">WITH active_users AS (
+  SELECT id FROM users WHERE last_login &gt; CURDATE() - INTERVAL 30 DAY
+)
+SELECT * FROM active_users;
+
+-- Later...
+SELECT COUNT(*) FROM active_users;   -- ERROR</code></pre></div><div class="error-message">ERROR 1146: Table &#39;active_users&#39; doesn&#39;t exist.</div><div class="correct-code"><pre><code class="language-python">-- Option 1: repeat the CTE in each statement
+WITH active_users AS (
+  SELECT id FROM users WHERE last_login &gt; CURDATE() - INTERVAL 30 DAY
+)
+SELECT COUNT(*) FROM active_users;
+
+-- Option 2: turn it into a VIEW (Chapter 21) for persistence
+CREATE VIEW active_users AS
+SELECT id FROM users WHERE last_login &gt; CURDATE() - INTERVAL 30 DAY;</code></pre></div><div class="mistake-explanation">A CTE lives only for the duration of the statement that declares it. It is NOT a temporary table or view. If you want to reuse the logic across multiple statements, create a VIEW (covered in Chapter 21) or a TEMPORARY TABLE.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A CTE is a temporary, named result set defined with WITH cte_name AS (...) that you reference like a table in the main query. Available only for the statement that declares it.</li>
+<li>CTEs improve readability by naming each step, reusability by allowing multiple references, and enable recursion (the only way to express recursive logic in SQL).</li>
+<li>Declare multiple CTEs separated by commas: WITH a AS (...), b AS (...). Later CTEs can reference earlier ones but not the other way around.</li>
+<li>Recursive CTEs use WITH RECURSIVE and have two parts separated by UNION ALL: the anchor (seed rows) and the recursive member (references the CTE itself). Required for hierarchies, sequences, and graph traversals.</li>
+<li>Every recursive CTE MUST have a termination condition in the recursive member. Without one, MySQL aborts after cte_max_recursion_depth iterations (default 1000).</li>
+<li>For recursive CTEs, ensure column types and string lengths match between anchor and recursive member. CAST the anchor to set the right type and size — otherwise strings silently truncate.</li>
+<li>Classic recursive-CTE patterns: number sequences (1 to N), date ranges (fill missing days), employee hierarchies (manager chain), Fibonacci, dependency trees, graph traversal.</li>
+<li>CTEs combine beautifully with window functions: aggregate in one CTE, apply window functions in the next layer. This is the modern way to write analytics queries.</li>
+<li>CTE vs view: CTEs are per-query; views are persistent database objects. Use a view when the same logic is shared across many queries. Use a CTE for one-query-local complexity.</li>
+<li>MySQL 8.0+ is required for CTEs (MariaDB 10.2+). Earlier versions require derived tables, correlated subqueries, or stored procedures for the same logic.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/window-functions" class="related-topic-link">Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD</a>
+<a href="/resources/sql/subqueries-and-nested-queries" class="related-topic-link">Subqueries (Nested Queries) and EXISTS</a>
+<a href="/resources/sql/views-and-stored-procedures" class="related-topic-link">Views, Stored Procedures, and Functions</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/window-functions" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD</span>
+        </a>
+            <a href="/resources/sql/indexes-and-performance" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Indexes and Query Performance</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/common-table-expressions/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

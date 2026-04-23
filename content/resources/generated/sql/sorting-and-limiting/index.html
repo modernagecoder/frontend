@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER BY, LIMIT, and DISTINCT - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Sort results, limit rows returned, remove duplicates, and use OFFSET for pagination.">
+    <meta name="keywords" content="order by, limit, and distinct, sql tutorial, sql order by, limit, and distinct, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting">
+    <meta property="og:title" content="ORDER BY, LIMIT, and DISTINCT - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Sort results, limit rows returned, remove duplicates, and use OFFSET for pagination.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting">
+    <meta name="twitter:title" content="ORDER BY, LIMIT, and DISTINCT - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Sort results, limit rows returned, remove duplicates, and use OFFSET for pagination.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "ORDER BY, LIMIT, and DISTINCT",
+    "description": "Sort results, limit rows returned, remove duplicates, and use OFFSET for pagination.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-04-16",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/sorting-and-limiting"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/sorting-and-limiting"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "ORDER BY, LIMIT, and DISTINCT",
+        "item": "https://learn.modernagecoders.com/resources/sql/sorting-and-limiting"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using LIMIT Without ORDER BY",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "LIMIT without ORDER BY is non-deterministic. The order depends on physical storage, indexes used, and query optimizer decisions — it may even change between runs. Whenever you use LIMIT, pair it with ORDER BY to guarantee which rows you get."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mixing Up MySQL's LIMIT a, b Syntax",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MySQL's two-argument LIMIT is <code>LIMIT offset, count</code> (offset first, count second). This confuses everyone. Always use the <code>LIMIT count OFFSET offset</code> syntax — it is unambiguous and matches PostgreSQL."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "DISTINCT Only On Some Columns",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "DISTINCT is row-level, not column-level. <code>SELECT DISTINCT name, price</code> returns unique (name, price) pairs. To get unique names with one price each, you need GROUP BY with an aggregate — covered in chapter 10."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Deep OFFSET Getting Slow",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "OFFSET is O(n) — it scans all skipped rows. For deep pagination in production (Instagram-style infinite scroll), use keyset pagination: <code>WHERE id &gt; last_seen_id ORDER BY id LIMIT n</code>. This is O(log n) with an index."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "ORDER BY in WHERE or DISTINCT in WHERE",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Clauses have a strict order: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. DISTINCT goes inside SELECT. Never mix them up."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">ORDER BY, LIMIT, and DISTINCT</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 7</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">20 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-16</span>
+            </div>
+            <h1 class="resource-title">ORDER BY, LIMIT, and DISTINCT</h1>
+            <a href="/resources/sql/sorting-and-limiting/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are ORDER BY, LIMIT, and DISTINCT?</h2><p>In the previous chapter you learned to retrieve rows with <code>SELECT</code> and filter them with <code>WHERE</code>. But the rows came back in an unpredictable order, and you had no way to say "give me only the top 5" or "remove duplicates." This chapter fixes all three problems.</p><h3>ORDER BY — Sorting</h3><p><code>ORDER BY</code> sorts your result rows. You can sort ascending (<code>ASC</code>, the default) or descending (<code>DESC</code>), and by multiple columns (e.g., department first, then salary within each department).</p><h3>LIMIT and OFFSET — Restricting Rows</h3><p><code>LIMIT n</code> returns only the first <code>n</code> rows. Combined with <code>ORDER BY</code>, this gives you queries like "top 5 highest-paid employees." <code>OFFSET</code> skips rows — essential for pagination (page 1 shows rows 1-10, page 2 shows rows 11-20, etc.).</p><h3>DISTINCT — Removing Duplicates</h3><p><code>SELECT DISTINCT</code> removes duplicate rows from the result. Useful when you want unique values — e.g., "which departments exist?" or "which cities have orders?". Combined with <code>COUNT()</code>, it tells you how many unique values exist.</p><p>Together, these three features turn raw data into the kind of sorted, paginated, deduplicated results you actually use in dashboards, reports, and paginated lists.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do These Matter?</h2><h3>1. Every Dashboard Uses ORDER BY</h3><p>Look at any dashboard — top products by revenue, most recent orders, highest-rated restaurants. Every single one uses <code>ORDER BY</code> to present data in a meaningful order. Without sorting, data is just a random pile.</p><h3>2. LIMIT Makes Queries Fast</h3><p>If you want the top 5 employees, you do NOT want the database to send you 10 million rows and then throw away 9,999,995 of them. <code>LIMIT 5</code> lets the database stop early. Combined with an index, this can turn a 10-second query into a 1-millisecond query.</p><h3>3. Pagination Is Everywhere</h3><p>Instagram feed, Amazon product listings, Gmail inbox — all paginated. Every pagination system on the internet uses SQL's <code>LIMIT</code> and <code>OFFSET</code> (or similar patterns). If you cannot write a pagination query, you cannot build a real web app.</p><h3>4. DISTINCT Answers "What Categories Exist?"</h3><p>Product managers constantly ask: "How many unique customers bought from us this month?" "Which countries have active users?" These are all <code>COUNT(DISTINCT col)</code> or <code>SELECT DISTINCT col</code> queries.</p><h3>5. Interview Staples</h3><p>"Find the 2nd highest salary" is possibly the most-asked SQL interview question in the world. It uses <code>ORDER BY</code>, <code>LIMIT</code>, and sometimes <code>OFFSET</code>. You will be asked this in literally every SQL interview.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Reference Table: products</h3><p>For this chapter we use a <code>products</code> table. Create it once:</p><pre><code>CREATE TABLE products (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    category VARCHAR(30),
+    price DECIMAL(10,2),
+    stock INT,
+    city VARCHAR(30)
+);
+
+INSERT INTO products VALUES
+(1, 'iPhone 15', 'Electronics', 79999.00, 25, 'Mumbai'),
+(2, 'Samsung TV', 'Electronics', 45999.00, 15, 'Delhi'),
+(3, 'Running Shoes', 'Sports', 4999.00, 120, 'Bengaluru'),
+(4, 'Cricket Bat', 'Sports', 2499.00, 80, 'Mumbai'),
+(5, 'Milk 1L', 'Grocery', 68.00, 500, 'Delhi'),
+(6, 'Bread', 'Grocery', 45.00, 300, 'Bengaluru'),
+(7, 'Headphones', 'Electronics', 3499.00, 60, 'Mumbai'),
+(8, 'Yoga Mat', 'Sports', 1299.00, 45, 'Pune'),
+(9, 'Rice 5kg', 'Grocery', 420.00, 200, 'Delhi'),
+(10, 'Laptop', 'Electronics', 65000.00, 10, 'Bengaluru'),
+(11, 'Football', 'Sports', 899.00, 150, 'Mumbai'),
+(12, 'Soap', 'Grocery', 60.00, 800, 'Pune');</code></pre><h3>1. ORDER BY Basics</h3><p>Syntax: <code>ORDER BY column [ASC|DESC]</code>. ASC (ascending, low to high) is the default — you can omit it.</p><pre><code>-- Sort products by price ascending
+SELECT name, price FROM products ORDER BY price;
+
+-- Sort descending (highest price first)
+SELECT name, price FROM products ORDER BY price DESC;</code></pre><h3>2. Multi-Column Sort</h3><p>Provide multiple columns separated by commas. SQL sorts by the first column, then breaks ties using the second, then the third, etc.</p><pre><code>-- Sort by category ascending, then by price descending within category
+SELECT name, category, price FROM products
+ORDER BY category ASC, price DESC;</code></pre><p>Result: Electronics group comes first (alphabetically), with highest-priced electronics at top. Then Grocery group. Then Sports group.</p><h3>3. ORDER BY with Aliases and Expressions</h3><p><code>ORDER BY</code> is one of the few clauses where column aliases from SELECT ARE allowed (unlike WHERE). You can also sort by computed expressions:</p><pre><code>-- Sort by total inventory value (price * stock)
+SELECT name, price, stock, price * stock AS inventory_value
+FROM products
+ORDER BY inventory_value DESC;
+
+-- Or use the expression directly
+SELECT name, price, stock FROM products
+ORDER BY price * stock DESC;</code></pre><p>You can even sort by column position (1-indexed): <code>ORDER BY 2 DESC</code> sorts by the second column in SELECT. This is discouraged — it breaks when you reorder columns.</p><h3>4. NULL Handling in ORDER BY</h3><p>In MySQL, <code>NULL</code> is treated as the <strong>smallest value</strong>. So <code>ORDER BY col ASC</code> puts NULLs first, and <code>ORDER BY col DESC</code> puts NULLs last. PostgreSQL does the opposite by default. For portability, use <code>ORDER BY col IS NULL, col</code> to force NULLs to the end.</p><h3>5. LIMIT — Getting the First N Rows</h3><p><code>LIMIT n</code> returns the first n rows of the result. Usually paired with ORDER BY:</p><pre><code>-- Top 3 most expensive products
+SELECT name, price FROM products
+ORDER BY price DESC
+LIMIT 3;</code></pre><p>Without <code>ORDER BY</code>, the "first 3" is whatever rows the database returns first — unpredictable. Always pair LIMIT with ORDER BY for deterministic results.</p><h3>6. LIMIT with OFFSET — Pagination</h3><p>MySQL supports two equivalent syntaxes:</p><pre><code>-- Syntax 1: LIMIT offset, count
+SELECT * FROM products ORDER BY id LIMIT 10, 5;
+-- Skip 10, take 5 (rows 11-15)
+
+-- Syntax 2: LIMIT count OFFSET offset
+SELECT * FROM products ORDER BY id LIMIT 5 OFFSET 10;
+-- Same thing: skip 10, take 5</code></pre><p>The second form is clearer — use it. MySQL-only code often uses the first form; PostgreSQL only supports the second.</p><h3>7. Pagination Pattern</h3><p>To show N items per page, on page P:</p><pre><code>-- Page 1: LIMIT 10 OFFSET 0
+-- Page 2: LIMIT 10 OFFSET 10
+-- Page 3: LIMIT 10 OFFSET 20
+-- Page P: LIMIT 10 OFFSET (P-1)*10</code></pre><p>Formula: <code>OFFSET = (page_number - 1) * page_size</code>.</p><h4>Performance Warning: Deep OFFSET Is Slow</h4><p>At page 10000 with page size 10, MySQL has to scan 100,000 rows and throw away the first 99,990. This gets slower and slower. For deep pagination, use <strong>keyset pagination</strong>: <code>WHERE id &gt; last_seen_id ORDER BY id LIMIT 10</code>. This is O(log n) with an index instead of O(n).</p><h3>8. DISTINCT — Unique Values</h3><p><code>DISTINCT</code> removes duplicate rows from the result:</p><pre><code>-- What categories do we sell?
+SELECT DISTINCT category FROM products;
+-- Returns: Electronics, Grocery, Sports (3 rows, not 12)
+
+-- What cities?
+SELECT DISTINCT city FROM products;
+-- Returns: Mumbai, Delhi, Bengaluru, Pune</code></pre><p>DISTINCT applies to the whole row, not a single column. <code>SELECT DISTINCT category, city FROM products</code> returns unique <em>combinations</em> of category and city.</p><pre><code>SELECT DISTINCT category, city FROM products ORDER BY category, city;
+-- Returns all unique (category, city) pairs
+-- Electronics-Bengaluru, Electronics-Delhi, Electronics-Mumbai,
+-- Grocery-Bengaluru, Grocery-Delhi, Grocery-Pune,
+-- Sports-Bengaluru, Sports-Mumbai, Sports-Pune</code></pre><h3>9. COUNT(DISTINCT col) — How Many Unique Values</h3><p>To count distinct values, wrap the column in COUNT:</p><pre><code>-- How many unique categories?
+SELECT COUNT(DISTINCT category) FROM products;
+-- Returns: 3
+
+-- How many unique cities?
+SELECT COUNT(DISTINCT city) FROM products;
+-- Returns: 4</code></pre><p>Note: <code>COUNT(*)</code> counts all rows including duplicates. <code>COUNT(column)</code> counts non-NULL values. <code>COUNT(DISTINCT column)</code> counts unique non-NULL values. NULL is always excluded from DISTINCT counts.</p><h3>10. Order of Clauses</h3><p>When combining everything, the order matters:</p><pre><code>SELECT [DISTINCT] columns
+FROM table
+WHERE conditions
+ORDER BY columns
+LIMIT n OFFSET m;</code></pre><p>This is the syntactic order. The logical execution order is different (FROM → WHERE → SELECT → ORDER BY → LIMIT), which matters when you use aliases — more on this in the GROUP BY chapter.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic ORDER BY ASC and DESC</div><pre><code class="language-python">-- Ascending (default): cheapest first
+SELECT name, price FROM products
+ORDER BY price
+LIMIT 5;
+
+-- Descending: most expensive first
+SELECT name, price FROM products
+ORDER BY price DESC
+LIMIT 5;</code></pre><div class="code-example-explanation">ASC is default. DESC reverses. We use LIMIT 5 to keep outputs short. Notice the first query starts with the cheapest (Bread at 45) and the second starts with the most expensive (iPhone at 79999).</div><div class="code-example-output">Query 1 (ascending):
+Bread           45.00
+Soap            60.00
+Milk 1L         68.00
+Rice 5kg        420.00
+Football        899.00
+
+Query 2 (descending):
+iPhone 15       79999.00
+Laptop          65000.00
+Samsung TV      45999.00
+Running Shoes   4999.00
+Headphones      3499.00</div></div>
+<div class="code-example"><div class="code-example-title">Multi-Column Sort</div><pre><code class="language-python">-- Sort by category ascending, then price descending within category
+SELECT name, category, price FROM products
+ORDER BY category ASC, price DESC;</code></pre><div class="code-example-explanation">First sort key: category alphabetically (Electronics, Grocery, Sports). Within each category, second sort key: price descending. Inside Electronics: iPhone (79999), Laptop (65000), Samsung TV (45999), Headphones (3499). Inside Grocery: Rice (420), Milk (68), Soap (60), Bread (45).</div><div class="code-example-output">name            category     price
+iPhone 15       Electronics  79999.00
+Laptop          Electronics  65000.00
+Samsung TV      Electronics  45999.00
+Headphones      Electronics  3499.00
+Rice 5kg        Grocery      420.00
+Milk 1L         Grocery      68.00
+Soap            Grocery      60.00
+Bread           Grocery      45.00
+Running Shoes   Sports       4999.00
+Cricket Bat     Sports       2499.00
+Yoga Mat        Sports       1299.00
+Football        Sports       899.00</div></div>
+<div class="code-example"><div class="code-example-title">ORDER BY an Expression</div><pre><code class="language-python">-- Sort by inventory value (price * stock) descending
+SELECT name, price, stock, price * stock AS inventory_value
+FROM products
+ORDER BY inventory_value DESC
+LIMIT 5;</code></pre><div class="code-example-explanation">We compute <code>price * stock</code>, alias it as <code>inventory_value</code>, and sort by it. ORDER BY accepts expressions and aliases from SELECT — WHERE does not. iPhone has the highest value: 79999 * 25 = 1,999,975.</div><div class="code-example-output">name            price       stock   inventory_value
+iPhone 15       79999.00    25      1999975.00
+Laptop          65000.00    10      650000.00
+Samsung TV      45999.00    15      689985.00
+Running Shoes   4999.00     120     599880.00
+Headphones      3499.00     60      209940.00
+
+(Actually, sorted: iPhone 1999975, Samsung TV 689985, Laptop 650000, Running Shoes 599880, Headphones 209940)</div></div>
+<div class="code-example"><div class="code-example-title">LIMIT for Top N</div><pre><code class="language-python">-- Top 3 most expensive products
+SELECT name, price FROM products
+ORDER BY price DESC
+LIMIT 3;
+
+-- Cheapest 2 products
+SELECT name, price FROM products
+ORDER BY price ASC
+LIMIT 2;</code></pre><div class="code-example-explanation">LIMIT with ORDER BY is the top-N pattern. Without ORDER BY, the "top 3" would be whatever rows the database returns first, which is unpredictable. Always sort before limiting.</div><div class="code-example-output">Top 3 most expensive:
+iPhone 15       79999.00
+Laptop          65000.00
+Samsung TV      45999.00
+
+Cheapest 2:
+Bread           45.00
+Soap            60.00</div></div>
+<div class="code-example"><div class="code-example-title">Pagination with LIMIT and OFFSET</div><pre><code class="language-python">-- 5 items per page, ordered by id
+
+-- Page 1: rows 1-5
+SELECT * FROM products ORDER BY id LIMIT 5 OFFSET 0;
+
+-- Page 2: rows 6-10
+SELECT * FROM products ORDER BY id LIMIT 5 OFFSET 5;
+
+-- Page 3: rows 11-12 (only 2 left)
+SELECT * FROM products ORDER BY id LIMIT 5 OFFSET 10;</code></pre><div class="code-example-explanation">OFFSET skips rows, LIMIT takes rows. Formula: OFFSET = (page_number - 1) * page_size. Page 1: skip 0, take 5. Page 2: skip 5, take 5. Page 3: skip 10, take 5 but only 2 remain. MySQL alternate syntax <code>LIMIT 10, 5</code> means offset 10, limit 5 — watch the order.</div><div class="code-example-output">Page 1: ids 1-5 (iPhone, Samsung TV, Running Shoes, Cricket Bat, Milk 1L)
+Page 2: ids 6-10 (Bread, Headphones, Yoga Mat, Rice 5kg, Laptop)
+Page 3: ids 11-12 (Football, Soap)</div></div>
+<div class="code-example"><div class="code-example-title">DISTINCT for Unique Values</div><pre><code class="language-python">-- Unique categories
+SELECT DISTINCT category FROM products;
+
+-- Unique cities, sorted
+SELECT DISTINCT city FROM products ORDER BY city;
+
+-- Unique (category, city) combinations
+SELECT DISTINCT category, city FROM products
+ORDER BY category, city;</code></pre><div class="code-example-explanation">First query: 3 unique categories (Electronics, Grocery, Sports). Second: 4 unique cities alphabetically (Bengaluru, Delhi, Mumbai, Pune). Third: DISTINCT on multiple columns returns unique combinations, not the cross product. We have 9 unique (category, city) pairs.</div><div class="code-example-output">Unique categories (3 rows):
+Electronics
+Grocery
+Sports
+
+Unique cities (4 rows):
+Bengaluru
+Delhi
+Mumbai
+Pune
+
+Unique (category, city) - 9 rows:
+Electronics Bengaluru
+Electronics Delhi
+Electronics Mumbai
+Grocery Bengaluru
+Grocery Delhi
+Grocery Pune
+Sports Bengaluru
+Sports Mumbai
+Sports Pune</div></div>
+<div class="code-example"><div class="code-example-title">COUNT(DISTINCT column)</div><pre><code class="language-python">-- How many unique categories?
+SELECT COUNT(DISTINCT category) AS num_categories FROM products;
+
+-- How many unique cities?
+SELECT COUNT(DISTINCT city) AS num_cities FROM products;
+
+-- Compare: COUNT(*), COUNT(category), COUNT(DISTINCT category)
+SELECT
+    COUNT(*) AS all_rows,
+    COUNT(category) AS non_null_cats,
+    COUNT(DISTINCT category) AS unique_cats
+FROM products;</code></pre><div class="code-example-explanation">COUNT(DISTINCT col) counts unique non-NULL values. Comparison: COUNT(*) = 12 (all rows). COUNT(category) = 12 (none are NULL). COUNT(DISTINCT category) = 3 (Electronics, Grocery, Sports). This three-way distinction is a common interview topic.</div><div class="code-example-output">num_categories: 3
+num_cities: 4
+
+Comparison row:
+all_rows=12, non_null_cats=12, unique_cats=3</div></div>
+<div class="code-example"><div class="code-example-title">Combined: Top Electronics by Price</div><pre><code class="language-python">-- Top 3 most expensive Electronics products, with city info
+SELECT name, price, city
+FROM products
+WHERE category = &#39;Electronics&#39;
+ORDER BY price DESC
+LIMIT 3;</code></pre><div class="code-example-explanation">Combining WHERE, ORDER BY, and LIMIT. Filter to Electronics (4 rows), sort by price descending, take top 3. The order of clauses in syntax is WHERE → ORDER BY → LIMIT. Headphones (3499) is the 4th electronic, so it gets cut.</div><div class="code-example-output">name         price     city
+iPhone 15    79999.00  Mumbai
+Laptop       65000.00  Bengaluru
+Samsung TV   45999.00  Delhi</div></div>
+<div class="code-example"><div class="code-example-title">2nd Highest Salary Pattern (Interview Classic)</div><pre><code class="language-python">-- Using employees table from chapter 6
+-- Get the 2nd highest salary using LIMIT with OFFSET
+SELECT DISTINCT salary
+FROM employees
+ORDER BY salary DESC
+LIMIT 1 OFFSET 1;
+
+-- General: Nth highest = LIMIT 1 OFFSET N-1</code></pre><div class="code-example-explanation">The most-asked SQL interview question ever. Sort salaries descending, use DISTINCT to handle ties, skip the first (highest), take the next one. For 2nd highest: OFFSET 1, LIMIT 1. For 3rd highest: OFFSET 2. Using our employees table (from chapter 6): Diya 110000 is 1st, Rohan 92000 is 2nd. Answer: 92000.</div><div class="code-example-output">salary
+92000
+(1 row — Rohan Gupta&#39;s salary)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using LIMIT Without ORDER BY</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Intent: get the top 5 most expensive products
+SELECT * FROM products LIMIT 5;</code></pre></div><div class="error-message">No error, but returns 5 arbitrary rows — not necessarily the most expensive. The database can return rows in any order when there is no ORDER BY.</div><div class="correct-code"><pre><code class="language-python">SELECT * FROM products
+ORDER BY price DESC
+LIMIT 5;</code></pre></div><div class="mistake-explanation">LIMIT without ORDER BY is non-deterministic. The order depends on physical storage, indexes used, and query optimizer decisions — it may even change between runs. Whenever you use LIMIT, pair it with ORDER BY to guarantee which rows you get.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Mixing Up MySQL&#39;s LIMIT a, b Syntax</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Trying to get 10 rows starting at row 20
+SELECT * FROM products LIMIT 10, 20;</code></pre></div><div class="error-message">No error, but returns WRONG rows. LIMIT 10, 20 means offset 10, limit 20 — skip 10 rows, take 20. Not 10 rows starting at 20.</div><div class="correct-code"><pre><code class="language-python">-- To get 10 rows starting at offset 20:
+SELECT * FROM products LIMIT 20, 10;
+-- Or clearer:
+SELECT * FROM products LIMIT 10 OFFSET 20;</code></pre></div><div class="mistake-explanation">MySQL's two-argument LIMIT is <code>LIMIT offset, count</code> (offset first, count second). This confuses everyone. Always use the <code>LIMIT count OFFSET offset</code> syntax — it is unambiguous and matches PostgreSQL.</div>
+            </div>
+<div class="mistake-card">
+                <h3>DISTINCT Only On Some Columns</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Intent: unique names, but also show price
+SELECT DISTINCT name, price FROM products;</code></pre></div><div class="error-message">No error, but DISTINCT applies to the WHOLE ROW (name + price), not just name. If two rows have the same name but different prices, both appear.</div><div class="correct-code"><pre><code class="language-python">-- If you just want unique names:
+SELECT DISTINCT name FROM products;
+
+-- If you want one price per name (e.g., highest), use GROUP BY:
+SELECT name, MAX(price) FROM products GROUP BY name;</code></pre></div><div class="mistake-explanation">DISTINCT is row-level, not column-level. <code>SELECT DISTINCT name, price</code> returns unique (name, price) pairs. To get unique names with one price each, you need GROUP BY with an aggregate — covered in chapter 10.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Deep OFFSET Getting Slow</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Page 10,000 of a large table:
+SELECT * FROM products ORDER BY id LIMIT 10 OFFSET 99990;</code></pre></div><div class="error-message">No error, but performance degrades badly. MySQL must scan 100,000 rows and throw away 99,990 before returning 10. A query that is fast on page 1 can take seconds on page 10,000.</div><div class="correct-code"><pre><code class="language-python">-- Keyset pagination (remember the last seen id):
+SELECT * FROM products
+WHERE id &gt; 99990  -- last seen id from previous page
+ORDER BY id
+LIMIT 10;</code></pre></div><div class="mistake-explanation">OFFSET is O(n) — it scans all skipped rows. For deep pagination in production (Instagram-style infinite scroll), use keyset pagination: <code>WHERE id &gt; last_seen_id ORDER BY id LIMIT n</code>. This is O(log n) with an index.</div>
+            </div>
+<div class="mistake-card">
+                <h3>ORDER BY in WHERE or DISTINCT in WHERE</h3>
+                <div class="wrong-code"><pre><code class="language-python">SELECT * FROM products WHERE ORDER BY price DESC;
+SELECT * FROM products WHERE DISTINCT category = &#39;Sports&#39;;</code></pre></div><div class="error-message">Both are syntax errors. ORDER BY is a top-level clause, not a WHERE modifier. DISTINCT goes right after SELECT, not inside WHERE.</div><div class="correct-code"><pre><code class="language-python">-- Correct syntax:
+SELECT * FROM products
+WHERE category = &#39;Sports&#39;
+ORDER BY price DESC;
+
+SELECT DISTINCT category FROM products
+WHERE category = &#39;Sports&#39;;</code></pre></div><div class="mistake-explanation">Clauses have a strict order: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. DISTINCT goes inside SELECT. Never mix them up.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>ORDER BY sorts the result. ASC is ascending (default), DESC is descending. Without ORDER BY, row order is unpredictable.</li>
+<li>Multi-column sort: ORDER BY col1, col2 sorts by col1, ties broken by col2. Each column can have its own ASC/DESC.</li>
+<li>ORDER BY accepts column aliases from SELECT and computed expressions. WHERE does not — that is a key difference.</li>
+<li>LIMIT n returns the first n rows. ALWAYS pair with ORDER BY to make the result deterministic.</li>
+<li>MySQL two-syntaxes: LIMIT 10, 5 (offset 10, count 5) and LIMIT 5 OFFSET 10 (count 5, offset 10). Prefer the second — it&#39;s clear and portable.</li>
+<li>Pagination formula: OFFSET = (page_number - 1) * page_size. Page 1 starts at offset 0.</li>
+<li>Deep OFFSET is slow because MySQL scans and discards skipped rows. For production pagination, use keyset pagination with WHERE id &gt; last_seen_id.</li>
+<li>DISTINCT removes duplicate rows from the result. SELECT DISTINCT col1, col2 returns unique combinations of col1 and col2 — it applies row-wise, not column-wise.</li>
+<li>COUNT(DISTINCT column) counts unique non-NULL values. Compare with COUNT(*) (all rows) and COUNT(column) (non-NULL rows).</li>
+<li>Classic interview pattern — Nth highest salary: SELECT DISTINCT salary FROM table ORDER BY salary DESC LIMIT 1 OFFSET N-1.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/select-basics-and-where" class="related-topic-link">SELECT Queries and the WHERE Clause</a>
+<a href="/resources/sql/pattern-matching-and-null" class="related-topic-link">LIKE Pattern Matching and NULL Handling</a>
+<a href="/resources/sql/aggregate-functions" class="related-topic-link">Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/select-basics-and-where" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">SELECT Queries and the WHERE Clause</span>
+        </a>
+            <a href="/resources/sql/pattern-matching-and-null" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">LIKE Pattern Matching and NULL Handling</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/sorting-and-limiting/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

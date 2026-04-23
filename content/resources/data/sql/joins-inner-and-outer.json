@@ -1,0 +1,711 @@
+{
+  "title": "JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS",
+  "slug": "joins-inner-and-outer",
+  "language": "sql",
+  "chapter": 11,
+  "difficulty": "Intermediate",
+  "readingTime": "40 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "SQL JOINS Tutorial - INNER, LEFT, RIGHT, FULL OUTER, CROSS JOIN | Modern Age Coders",
+    "description": "Master SQL JOINs with real MySQL examples. Learn INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, CROSS JOIN with sample tables, Venn diagrams, and 62+ interview questions including 'customers with no orders' and 'most valuable customer'.",
+    "keywords": "sql joins, inner join, left join, right join, full outer join mysql, cross join, sql join examples, mysql join tutorial, sql joins interview questions, left outer join, join syntax sql"
+  },
+  "content": {
+    "what": "<h2>What Are SQL JOINs?</h2><p>A <strong>JOIN</strong> combines rows from two or more tables based on a related column between them. In a normalized database, data is deliberately split across tables to avoid repetition. JOINs stitch that data back together when you query it.</p><p>Imagine an e-commerce system. If we stored every customer's name inside every order row, we would repeat the name thousands of times and updating the name would mean updating thousands of rows. Instead we keep customers in one table, orders in another, and link them with a customer_id column. JOINs bring them together.</p><h3>Sample Tables Used Throughout This Chapter</h3><pre><code>CREATE TABLE customers (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    city VARCHAR(50)\n);\n\nINSERT INTO customers VALUES\n(1, 'Aarav Kumar',   'Bengaluru'),\n(2, 'Priya Sharma',  'Mumbai'),\n(3, 'Rohan Mehta',   'Delhi'),\n(4, 'Meera Iyer',    'Chennai'),\n(5, 'Vikram Singh',  'Pune');\n\nCREATE TABLE orders (\n    id INT PRIMARY KEY,\n    customer_id INT,\n    amount DECIMAL(10,2),\n    order_date DATE\n);\n\nINSERT INTO orders VALUES\n(101, 1, 1500.00, '2026-01-10'),\n(102, 1, 2300.00, '2026-02-05'),\n(103, 2,  800.00, '2026-02-18'),\n(104, 3, 5400.00, '2026-03-01'),\n(105, 7,  999.00, '2026-03-12');   -- customer_id 7 does not exist in customers!</code></pre><p>Notice that customer 4 (Meera) and customer 5 (Vikram) have no orders, and order 105 references customer_id 7 which is not in the customers table. This setup lets us see exactly how each JOIN type behaves.</p>",
+    "why": "<h2>Why JOINs Matter</h2><h3>1. Normalization Forces You to Split Data</h3><p>Good database design means every piece of information is stored once. Customer addresses go in a customers table. Orders go in an orders table. Products in products. This prevents update anomalies and saves storage. But to answer a business question like \"show me each order with the customer's name and city,\" you need JOINs to reassemble the data.</p><h3>2. JOINs Are the Single Most Asked Interview Topic</h3><p>Every SQL interview at Amazon, Flipkart, Zomato, Paytm, or any product company will include JOIN questions. \"Customers with no orders,\" \"most valuable customer,\" \"employees earning more than their manager\" — all JOIN questions. If you cannot write a LEFT JOIN WHERE NULL pattern without thinking, you are not interview-ready.</p><h3>3. The Wrong JOIN Silently Gives the Wrong Answer</h3><p>Unlike a syntax error which shouts at you, using an INNER JOIN when you needed a LEFT JOIN gives you a perfectly valid result that happens to be wrong. A report that says \"you have 3 customers\" when you actually have 5 (because 2 had no orders) is the kind of bug that gets shipped to production.</p><h3>4. JOINs Power Real Reporting</h3><p>Every dashboard you have ever seen — sales by region, active users by plan, top products by revenue — is built from JOINs. Data analysts live inside JOIN queries. Backend engineers write them into every API endpoint that returns more than one entity.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. INNER JOIN - Only Matching Rows from Both Tables</h3><p>INNER JOIN returns rows where the join condition is satisfied in BOTH tables. Rows on either side without a match are dropped.</p><pre><code>SELECT c.name, o.amount\nFROM customers c\nINNER JOIN orders o ON c.id = o.customer_id;</code></pre><p>Expected output from our sample data:</p><pre><code>+--------------+---------+\n| name         | amount  |\n+--------------+---------+\n| Aarav Kumar  | 1500.00 |\n| Aarav Kumar  | 2300.00 |\n| Priya Sharma |  800.00 |\n| Rohan Mehta  | 5400.00 |\n+--------------+---------+</code></pre><p>Meera and Vikram are excluded (no orders). Order 105 is excluded (no matching customer). The keyword INNER is optional in MySQL; <code>JOIN</code> alone means INNER JOIN.</p><h3>2. LEFT JOIN (LEFT OUTER JOIN) - All Left Rows + Matching Right</h3><p>LEFT JOIN keeps every row from the LEFT table. If the right table has no match, right columns come back as NULL.</p><pre><code>SELECT c.name, o.amount\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id;</code></pre><p>Output:</p><pre><code>+--------------+---------+\n| name         | amount  |\n+--------------+---------+\n| Aarav Kumar  | 1500.00 |\n| Aarav Kumar  | 2300.00 |\n| Priya Sharma |  800.00 |\n| Rohan Mehta  | 5400.00 |\n| Meera Iyer   | NULL    |\n| Vikram Singh | NULL    |\n+--------------+---------+</code></pre><p>This is the single most important JOIN pattern in business analytics. Want \"all customers with their order count, including zero\"? LEFT JOIN customers to orders and COUNT the right-side key.</p><h3>3. RIGHT JOIN (RIGHT OUTER JOIN) - All Right Rows + Matching Left</h3><p>Mirror image of LEFT JOIN. Every row from the RIGHT table is kept. Most teams avoid RIGHT JOIN and rewrite it by flipping the table order and using LEFT JOIN instead, because it reads more naturally.</p><pre><code>SELECT c.name, o.amount, o.id AS order_id\nFROM customers c\nRIGHT JOIN orders o ON c.id = o.customer_id;</code></pre><p>Output includes order 105 (customer_id 7, no match):</p><pre><code>+--------------+---------+----------+\n| name         | amount  | order_id |\n+--------------+---------+----------+\n| Aarav Kumar  | 1500.00 | 101      |\n| Aarav Kumar  | 2300.00 | 102      |\n| Priya Sharma |  800.00 | 103      |\n| Rohan Mehta  | 5400.00 | 104      |\n| NULL         |  999.00 | 105      |\n+--------------+---------+----------+</code></pre><h3>4. FULL OUTER JOIN - Everything From Both Sides</h3><p>FULL OUTER JOIN returns every row from both tables. If a row has no match on the other side, the missing columns are NULL.</p><p><strong>MySQL does not support FULL OUTER JOIN directly.</strong> PostgreSQL, SQL Server, and Oracle do. In MySQL, simulate it with UNION of a LEFT JOIN and a RIGHT JOIN:</p><pre><code>SELECT c.name, o.amount\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nUNION\nSELECT c.name, o.amount\nFROM customers c\nRIGHT JOIN orders o ON c.id = o.customer_id;</code></pre><p>UNION automatically removes duplicates. Use UNION ALL and a WHERE clause only if you need a specific deduplication strategy.</p><h3>5. CROSS JOIN - Cartesian Product</h3><p>CROSS JOIN returns every combination of rows from both tables. With 5 customers and 5 orders, you get 25 rows. With 10,000 customers and 10,000 products, you get 100 million rows. Use with extreme caution.</p><pre><code>SELECT c.name, p.name AS product\nFROM customers c\nCROSS JOIN products p;</code></pre><p>Legitimate uses: generating every (customer, product) combination for a recommendation matrix, pairing every day of a calendar with every store for reporting, testing. In application code, CROSS JOIN without a filter is almost always a bug.</p><h3>6. JOIN Syntax: ON vs USING</h3><p><strong>ON</strong> is the general syntax and works for any condition:</p><pre><code>SELECT * FROM customers c JOIN orders o ON c.id = o.customer_id;</code></pre><p><strong>USING</strong> is shorthand when both tables have a column with the exact same name. The joined column appears only once in the result:</p><pre><code>-- Works only if both tables have a column named 'customer_id'\nSELECT * FROM orders o JOIN order_items oi USING (order_id);</code></pre><p>Most production code uses ON because foreign key columns are rarely named identically on both sides (<code>id</code> vs <code>customer_id</code>). Prefer ON for clarity.</p><h3>7. Table Aliases</h3><p>Single-letter or short aliases make JOIN queries readable:</p><pre><code>SELECT c.name, o.amount, o.order_date\nFROM customers AS c\nJOIN orders AS o ON c.id = o.customer_id;</code></pre><p>The AS keyword is optional. Standard convention: first letter of table name (c, o, p), or an abbreviation (cust, ord). Once a table has an alias, you must use the alias (not the full name) in the rest of the query.</p><h3>8. JOIN Conditions Beyond Equality</h3><p>Most JOINs use equality (<code>a.id = b.a_id</code>). But ON accepts any boolean expression:</p><pre><code>-- Orders above a certain threshold\nSELECT c.name, o.amount\nFROM customers c\nJOIN orders o\n  ON c.id = o.customer_id AND o.amount > 1000;\n\n-- Range join: find events that overlap\nSELECT a.title, b.title\nFROM events a\nJOIN events b\n  ON a.start_time < b.end_time AND a.end_time > b.start_time\n  AND a.id <> b.id;</code></pre><h3>9. Visualizing JOINs (Venn Diagrams)</h3><div style=\"background: #0b0b14; padding: 20px; border-radius: 12px; margin: 16px 0;\"><p style=\"color:#f59e0b;\"><strong>INNER JOIN</strong>: intersection only.</p><pre style=\"color:#a855f7;\">    A          B\n  [###] overlap [###]\n       only the overlap is returned</pre><p style=\"color:#f59e0b;\"><strong>LEFT JOIN</strong>: all of A, plus overlap with B.</p><pre style=\"color:#06b6d4;\">   [AAAAA overlap ]\n   left kept, right NULL where no match</pre><p style=\"color:#f59e0b;\"><strong>RIGHT JOIN</strong>: mirror of LEFT.</p><pre style=\"color:#06b6d4;\">          [ overlap BBBBB]\n   right kept, left NULL where no match</pre><p style=\"color:#f59e0b;\"><strong>FULL OUTER JOIN</strong>: all of A, all of B.</p><pre style=\"color:#06b6d4;\">   [AAAAA overlap BBBBB]\n   everything from both, NULLs where no match</pre><p style=\"color:#f59e0b;\"><strong>CROSS JOIN</strong>: every A with every B. No overlap concept.</p></div><h3>10. The 'Find Missing Records' Pattern (Interview Favorite)</h3><p>To find rows in the left table with NO match in the right table, use LEFT JOIN + WHERE right_key IS NULL:</p><pre><code>-- Customers who have never placed an order\nSELECT c.name\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nWHERE o.id IS NULL;</code></pre><p>Output:</p><pre><code>+--------------+\n| name         |\n+--------------+\n| Meera Iyer   |\n| Vikram Singh |\n+--------------+</code></pre><p>Memorize this pattern. It appears in at least 40% of real SQL interviews.</p>",
+    "codeExamples": [
+      {
+        "title": "INNER JOIN - Customers with their Orders",
+        "code": "-- Sample tables: customers and orders\n-- (See 'What Are SQL JOINs?' section for full data)\n\nSELECT c.id, c.name, c.city, o.id AS order_id, o.amount\nFROM customers c\nINNER JOIN orders o ON c.id = o.customer_id\nORDER BY c.id, o.id;",
+        "language": "sql",
+        "explanation": "INNER JOIN returns only rows where a customer has at least one order AND the order's customer_id matches an existing customer. Aarav (2 orders), Priya (1), Rohan (1) appear. Meera and Vikram are excluded because they have no orders. Order 105 is excluded because its customer_id (7) does not exist in customers.",
+        "output": "+----+--------------+-----------+----------+---------+\n| id | name         | city      | order_id | amount  |\n+----+--------------+-----------+----------+---------+\n|  1 | Aarav Kumar  | Bengaluru |      101 | 1500.00 |\n|  1 | Aarav Kumar  | Bengaluru |      102 | 2300.00 |\n|  2 | Priya Sharma | Mumbai    |      103 |  800.00 |\n|  3 | Rohan Mehta  | Delhi     |      104 | 5400.00 |\n+----+--------------+-----------+----------+---------+\n4 rows in set"
+      },
+      {
+        "title": "LEFT JOIN - All Customers, Even Those with No Orders",
+        "code": "SELECT c.id, c.name, o.id AS order_id, o.amount\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nORDER BY c.id;",
+        "language": "sql",
+        "explanation": "LEFT JOIN keeps every row from customers (the left table). Meera and Vikram appear with NULL in order columns because they have no orders. This is the standard pattern for reports that must include entities with zero activity. Note: order 105 (orphan with customer_id=7) is NOT included because we are driving from customers.",
+        "output": "+----+--------------+----------+---------+\n| id | name         | order_id | amount  |\n+----+--------------+----------+---------+\n|  1 | Aarav Kumar  |      101 | 1500.00 |\n|  1 | Aarav Kumar  |      102 | 2300.00 |\n|  2 | Priya Sharma |      103 |  800.00 |\n|  3 | Rohan Mehta  |      104 | 5400.00 |\n|  4 | Meera Iyer   |     NULL |    NULL |\n|  5 | Vikram Singh |     NULL |    NULL |\n+----+--------------+----------+---------+\n6 rows in set"
+      },
+      {
+        "title": "Customers With No Orders (LEFT JOIN + IS NULL)",
+        "code": "-- The most asked JOIN interview question\nSELECT c.id, c.name, c.city\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nWHERE o.id IS NULL;",
+        "language": "sql",
+        "explanation": "The LEFT JOIN gives every customer. The WHERE o.id IS NULL filter keeps only customers where the orders side produced NULL, meaning no matching order existed. Always filter on a NOT NULL column of the right table (like its primary key) because ordinary columns could be NULL for other reasons.",
+        "output": "+----+--------------+----------+\n| id | name         | city     |\n+----+--------------+----------+\n|  4 | Meera Iyer   | Chennai  |\n|  5 | Vikram Singh | Pune     |\n+----+--------------+----------+\n2 rows in set"
+      },
+      {
+        "title": "RIGHT JOIN - Including Orphan Orders",
+        "code": "SELECT o.id AS order_id, o.amount, c.name\nFROM customers c\nRIGHT JOIN orders o ON c.id = o.customer_id\nORDER BY o.id;",
+        "language": "sql",
+        "explanation": "RIGHT JOIN keeps every row from orders. Order 105 has customer_id=7 which does not exist, so the customer name comes back as NULL. This pattern helps find orphan child rows (bad referential integrity). You could rewrite this as LEFT JOIN by swapping the table order, which is the preferred style.",
+        "output": "+----------+---------+--------------+\n| order_id | amount  | name         |\n+----------+---------+--------------+\n|      101 | 1500.00 | Aarav Kumar  |\n|      102 | 2300.00 | Aarav Kumar  |\n|      103 |  800.00 | Priya Sharma |\n|      104 | 5400.00 | Rohan Mehta  |\n|      105 |  999.00 | NULL         |\n+----------+---------+--------------+\n5 rows in set"
+      },
+      {
+        "title": "FULL OUTER JOIN Simulation (MySQL has no native FULL OUTER)",
+        "code": "-- Everything from both sides: all customers AND all orders\nSELECT c.id AS customer_id, c.name, o.id AS order_id, o.amount\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nUNION\nSELECT c.id, c.name, o.id, o.amount\nFROM customers c\nRIGHT JOIN orders o ON c.id = o.customer_id;",
+        "language": "sql",
+        "explanation": "MySQL lacks FULL OUTER JOIN. Union a LEFT JOIN (keeps unmatched customers) with a RIGHT JOIN (keeps unmatched orders). UNION removes exact duplicates automatically. PostgreSQL and SQL Server users can write <code>FULL OUTER JOIN</code> directly.",
+        "output": "+-------------+--------------+----------+---------+\n| customer_id | name         | order_id | amount  |\n+-------------+--------------+----------+---------+\n|           1 | Aarav Kumar  |      101 | 1500.00 |\n|           1 | Aarav Kumar  |      102 | 2300.00 |\n|           2 | Priya Sharma |      103 |  800.00 |\n|           3 | Rohan Mehta  |      104 | 5400.00 |\n|           4 | Meera Iyer   |     NULL |    NULL |\n|           5 | Vikram Singh |     NULL |    NULL |\n|        NULL | NULL         |      105 |  999.00 |\n+-------------+--------------+----------+---------+\n7 rows in set"
+      },
+      {
+        "title": "Most Valuable Customer - Total Spend Per Customer",
+        "code": "SELECT c.id, c.name, c.city,\n       COALESCE(SUM(o.amount), 0) AS total_spent,\n       COUNT(o.id) AS num_orders\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nGROUP BY c.id, c.name, c.city\nORDER BY total_spent DESC;",
+        "language": "sql",
+        "explanation": "Classic business query: LEFT JOIN so every customer appears (even zero spenders), GROUP BY customer, SUM the amount. COALESCE turns the NULL sum (from customers with no orders) into 0. COUNT(o.id) correctly returns 0 for unmatched rows because COUNT ignores NULLs.",
+        "output": "+----+--------------+-----------+-------------+------------+\n| id | name         | city      | total_spent | num_orders |\n+----+--------------+-----------+-------------+------------+\n|  3 | Rohan Mehta  | Delhi     |     5400.00 |          1 |\n|  1 | Aarav Kumar  | Bengaluru |     3800.00 |          2 |\n|  2 | Priya Sharma | Mumbai    |      800.00 |          1 |\n|  4 | Meera Iyer   | Chennai   |        0.00 |          0 |\n|  5 | Vikram Singh | Pune      |        0.00 |          0 |\n+----+--------------+-----------+-------------+------------+\n5 rows in set"
+      },
+      {
+        "title": "CROSS JOIN - Generate All Customer x Product Combinations",
+        "code": "CREATE TABLE products (id INT, name VARCHAR(30), price DECIMAL(8,2));\nINSERT INTO products VALUES\n(1, 'Notebook', 250.00),\n(2, 'Pen',       50.00);\n\n-- Every customer paired with every product\nSELECT c.name AS customer, p.name AS product, p.price\nFROM customers c\nCROSS JOIN products p\nORDER BY c.id, p.id;",
+        "language": "sql",
+        "explanation": "CROSS JOIN returns the cartesian product: 5 customers x 2 products = 10 rows. With larger tables this explodes quickly (1000 x 1000 = 1 million rows). Real-world use: generating a 'recommendation candidates' matrix, a calendar x store combination, or a test-data grid.",
+        "output": "+--------------+----------+--------+\n| customer     | product  | price  |\n+--------------+----------+--------+\n| Aarav Kumar  | Notebook | 250.00 |\n| Aarav Kumar  | Pen      |  50.00 |\n| Priya Sharma | Notebook | 250.00 |\n| Priya Sharma | Pen      |  50.00 |\n| Rohan Mehta  | Notebook | 250.00 |\n| Rohan Mehta  | Pen      |  50.00 |\n| Meera Iyer   | Notebook | 250.00 |\n| Meera Iyer   | Pen      |  50.00 |\n| Vikram Singh | Notebook | 250.00 |\n| Vikram Singh | Pen      |  50.00 |\n+--------------+----------+--------+\n10 rows in set"
+      },
+      {
+        "title": "USING Clause Shortcut",
+        "code": "-- Assume both tables have a column named customer_id (unusual here)\n-- Recreate orders with matching column name\nSELECT name, amount\nFROM customers\nJOIN orders ON customers.id = orders.customer_id;\n\n-- If the join column had the same name on both sides:\n-- SELECT name, amount FROM customers JOIN orders USING (customer_id);",
+        "language": "sql",
+        "explanation": "USING (col) requires the column name to be identical in both tables, and the column appears only once in the result. Because most FK columns are named differently (id vs customer_id), ON is more common. Prefer ON for readability and explicit table references.",
+        "output": "+--------------+---------+\n| name         | amount  |\n+--------------+---------+\n| Aarav Kumar  | 1500.00 |\n| Aarav Kumar  | 2300.00 |\n| Priya Sharma |  800.00 |\n| Rohan Mehta  | 5400.00 |\n+--------------+---------+\n4 rows in set"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using INNER JOIN When You Need LEFT JOIN",
+        "wrongCode": "-- 'Show every customer and their order count'\nSELECT c.name, COUNT(o.id) AS orders\nFROM customers c\nJOIN orders o ON c.id = o.customer_id\nGROUP BY c.name;",
+        "error": "No SQL error, but the result excludes customers with zero orders. Meera and Vikram are silently missing from the report.",
+        "correctCode": "SELECT c.name, COUNT(o.id) AS orders\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nGROUP BY c.name;",
+        "explanation": "INNER JOIN drops customers without matching orders. LEFT JOIN keeps every customer and COUNT(o.id) correctly returns 0 for unmatched rows (COUNT ignores NULLs). Whenever the business requirement says 'every X, even those with no Y,' use LEFT JOIN."
+      },
+      {
+        "title": "Filtering Right-Side Columns in WHERE After LEFT JOIN",
+        "wrongCode": "-- Intention: customers with no orders OR orders under 1000\nSELECT c.name\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nWHERE o.amount < 1000;",
+        "error": "No error, but Meera and Vikram (no orders, amount is NULL) are dropped because NULL < 1000 is not true. The LEFT JOIN silently becomes an INNER JOIN.",
+        "correctCode": "SELECT c.name\nFROM customers c\nLEFT JOIN orders o \n  ON c.id = o.customer_id AND o.amount < 1000\nWHERE o.id IS NULL OR o.amount < 1000;\n-- Or move the condition to the ON clause if that matches intent",
+        "explanation": "Putting a condition on a right-table column in WHERE filters out NULL rows, effectively turning LEFT JOIN into INNER JOIN. Either move the filter into the ON clause, or add <code>OR right_col IS NULL</code> in WHERE, depending on the intent."
+      },
+      {
+        "title": "Forgetting the ON Clause (Accidental CROSS JOIN)",
+        "wrongCode": "-- MySQL in older modes permits this\nSELECT c.name, o.amount\nFROM customers c, orders o;",
+        "error": "No syntax error but the result has 5 * 5 = 25 rows — a cartesian product. With real data of millions of rows, this query would never finish.",
+        "correctCode": "SELECT c.name, o.amount\nFROM customers c\nJOIN orders o ON c.id = o.customer_id;",
+        "explanation": "Comma-separated tables without a WHERE join condition produce a cartesian product. Always use explicit <code>JOIN ... ON</code> syntax. It is clearer, harder to break, and required by modern SQL style guides."
+      },
+      {
+        "title": "Ambiguous Column Names Without Aliases",
+        "wrongCode": "SELECT id, name, amount\nFROM customers\nJOIN orders ON customers.id = orders.customer_id;",
+        "error": "ERROR 1052 (23000): Column 'id' in field list is ambiguous",
+        "correctCode": "SELECT c.id AS customer_id, c.name, o.id AS order_id, o.amount\nFROM customers c\nJOIN orders o ON c.id = o.customer_id;",
+        "explanation": "Both customers and orders have a column named <code>id</code>. Without qualifying (c.id or o.id), SQL does not know which one you mean. Always use aliases and qualify every column in a JOIN query. This also makes queries easier to read and refactor."
+      }
+    ],
+    "summary": [
+      "INNER JOIN returns only rows with a match in both tables. The keyword INNER is optional in MySQL; JOIN alone means INNER JOIN.",
+      "LEFT JOIN keeps all rows from the left table. Unmatched right rows become NULL. Use this for 'all X, even without Y' reports.",
+      "RIGHT JOIN keeps all rows from the right table. Most teams rewrite as LEFT JOIN by flipping the table order because it reads more naturally.",
+      "FULL OUTER JOIN keeps all rows from both tables. MySQL does not support it natively — simulate with UNION of LEFT JOIN and RIGHT JOIN.",
+      "CROSS JOIN returns the cartesian product: every row from A paired with every row from B. Dangerous at scale; use only with deliberate intent.",
+      "ON accepts any boolean condition. USING (col) is shorthand when both tables have an identically named column — prefer ON for clarity.",
+      "To find rows with no match, use LEFT JOIN + WHERE right_primary_key IS NULL. This is the most asked JOIN interview pattern.",
+      "Putting a right-table filter in WHERE after LEFT JOIN silently turns it into INNER JOIN. Put the filter in ON or check for IS NULL explicitly.",
+      "Always alias tables (c, o) and qualify columns in JOIN queries. Unqualified ambiguous columns cause errors and hurt readability.",
+      "COUNT(right_key) on a LEFT JOIN correctly returns 0 for unmatched rows because COUNT ignores NULLs — perfect for 'orders per customer' reports."
+    ]
+  },
+  "relatedTopics": ["self-joins-and-multi-table", "subqueries-and-nested-queries", "group-by-and-having"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Given the sample tables (5 customers, 5 orders), how many rows does this query return?<br><pre><code>SELECT c.name, o.amount\nFROM customers c\nINNER JOIN orders o ON c.id = o.customer_id;</code></pre>",
+        "hint": "INNER JOIN only returns rows where both sides match. Order 105 has no matching customer.",
+        "answer": "<code>4 rows</code>",
+        "explanation": "Aarav has 2 orders, Priya has 1, Rohan has 1 — total 4. Meera and Vikram (no orders) are excluded. Order 105 (customer_id=7) has no matching customer and is excluded."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows does this query return?<br><pre><code>SELECT c.name, o.amount\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id;</code></pre>",
+        "hint": "LEFT JOIN keeps every customer. Unmatched customers appear once with NULLs.",
+        "answer": "<code>6 rows</code>",
+        "explanation": "4 matched rows (Aarav x2, Priya, Rohan) + 2 unmatched (Meera, Vikram with NULL order columns) = 6. Order 105 is excluded because we are driving from customers."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows does this return?<br><pre><code>SELECT *\nFROM customers c\nRIGHT JOIN orders o ON c.id = o.customer_id;</code></pre>",
+        "hint": "RIGHT JOIN keeps every order.",
+        "answer": "<code>5 rows</code>",
+        "explanation": "All 5 orders are kept. Orders 101-104 have matching customers. Order 105 has customer_id=7 (no match) so customer columns are NULL. Total: 5 rows."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the result count of this CROSS JOIN? customers has 5 rows, products has 2 rows.<br><pre><code>SELECT * FROM customers CROSS JOIN products;</code></pre>",
+        "hint": "CROSS JOIN multiplies row counts.",
+        "answer": "<code>10 rows</code>",
+        "explanation": "CROSS JOIN produces the cartesian product: 5 x 2 = 10 rows, every customer paired with every product."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which customers appear in the result?<br><pre><code>SELECT c.name\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nWHERE o.id IS NULL;</code></pre>",
+        "hint": "This is the 'customers with no orders' pattern.",
+        "answer": "<code>Meera Iyer</code><br><code>Vikram Singh</code>",
+        "explanation": "LEFT JOIN keeps all customers. WHERE o.id IS NULL keeps only those without a matching order. Meera (id=4) and Vikram (id=5) have no orders."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "True or False: <code>JOIN</code> and <code>INNER JOIN</code> mean the same thing in MySQL.",
+        "hint": "Think about default JOIN type in MySQL.",
+        "answer": "<code>True</code>",
+        "explanation": "In MySQL, <code>JOIN</code> is shorthand for <code>INNER JOIN</code>. Writing <code>INNER</code> is optional but many teams prefer it for clarity."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this query compute?<br><pre><code>SELECT c.name, COUNT(o.id) AS num_orders\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nGROUP BY c.id, c.name;</code></pre>",
+        "hint": "LEFT JOIN + COUNT on the right key.",
+        "answer": "<code>Number of orders for each customer, including 0 for customers without orders</code>",
+        "explanation": "LEFT JOIN keeps every customer. COUNT(o.id) ignores NULLs, so customers with no orders get 0. Meera and Vikram would show num_orders = 0."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of this query given our sample data?<br><pre><code>SELECT COUNT(*) \nFROM customers c\nJOIN orders o ON c.id = o.customer_id;</code></pre>",
+        "hint": "INNER JOIN rows.",
+        "answer": "<code>4</code>",
+        "explanation": "4 matching rows (Aarav x2, Priya, Rohan). Orders 105 and customers Meera/Vikram are excluded."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the keyword to join two tables and return only matching rows?",
+        "hint": "The default JOIN.",
+        "answer": "<code>INNER JOIN</code> (or just <code>JOIN</code>)",
+        "explanation": "INNER JOIN returns only rows that satisfy the ON condition on both sides. JOIN without a qualifier means INNER JOIN."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this query return given our sample data?<br><pre><code>SELECT c.name, SUM(o.amount) AS total\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nGROUP BY c.id, c.name\nHAVING total IS NULL;</code></pre>",
+        "hint": "SUM of NULL values is NULL, not 0.",
+        "answer": "<code>Meera Iyer (total NULL)</code><br><code>Vikram Singh (total NULL)</code>",
+        "explanation": "SUM over an empty set (no matching orders) returns NULL, not 0. HAVING total IS NULL keeps exactly the customers with no orders. Equivalent to the LEFT JOIN + IS NULL pattern but using aggregates."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why does this give no error but wrong results?<br><pre><code>SELECT c.name, o.amount\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nWHERE o.amount > 500;</code></pre>",
+        "hint": "WHERE on right-table column after LEFT JOIN.",
+        "answer": "<code>The WHERE filter drops rows where amount is NULL, converting LEFT JOIN into INNER JOIN. Customers with no orders disappear.</code>",
+        "explanation": "NULL > 500 is not true, so Meera and Vikram (with NULL amount from LEFT JOIN) are filtered out. To preserve LEFT JOIN behavior, move the amount condition into the ON clause: <code>ON c.id = o.customer_id AND o.amount > 500</code>."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this query find? (assume standard customers/orders tables)<br><pre><code>SELECT DISTINCT c.name\nFROM customers c\nJOIN orders o ON c.id = o.customer_id\nWHERE o.amount > 2000;</code></pre>",
+        "hint": "Distinct customers with at least one high-value order.",
+        "answer": "<code>Aarav Kumar (order 102, 2300) and Rohan Mehta (order 104, 5400)</code>",
+        "explanation": "INNER JOIN pairs each order with its customer. The WHERE keeps only orders over 2000. DISTINCT prevents Aarav from appearing twice if he had multiple qualifying orders."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return?<br><pre><code>SELECT c.city, COUNT(DISTINCT c.id) AS customer_count,\n       COUNT(o.id) AS order_count\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nGROUP BY c.city;</code></pre>",
+        "hint": "Group by city, count distinct customers and total orders.",
+        "answer": "<code>Each city with its customer count and total order count. Cities with no orders show order_count=0.</code>",
+        "explanation": "GROUP BY city produces one row per city. COUNT(DISTINCT c.id) counts unique customers even if duplicated by JOIN. COUNT(o.id) naturally skips NULL order IDs."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Which JOIN should you use for 'show every department and its employees, including empty departments'?",
+        "hint": "Every department must appear, even empty ones.",
+        "answer": "<code>LEFT JOIN from departments to employees</code>",
+        "explanation": "Driving from departments with LEFT JOIN ensures every department is listed. Empty departments get NULL employee columns. INNER JOIN would drop empty departments."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is wrong with this query?<br><pre><code>SELECT name, amount\nFROM customers\nJOIN orders ON customers.id = orders.customer_id;</code></pre>",
+        "hint": "Two tables have a column named 'name' or similar? What about id?",
+        "answer": "<code>No error here because only customers has 'name' and only orders has 'amount'. But the query breaks readability; always qualify columns in JOIN queries.</code>",
+        "explanation": "The query works because 'name' and 'amount' are unique across both tables. The moment you add a shared column like 'id', it fails with 'Column is ambiguous'. Best practice: always write c.name, o.amount with table aliases."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows does this produce given our sample tables?<br><pre><code>SELECT c.id\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nUNION\nSELECT c.id\nFROM customers c\nRIGHT JOIN orders o ON c.id = o.customer_id;</code></pre>",
+        "hint": "UNION removes duplicates. Think about the distinct customer IDs produced.",
+        "answer": "<code>6 rows</code>",
+        "explanation": "LEFT JOIN side produces customer IDs 1,2,3,4,5. RIGHT JOIN side produces 1,2,3 and NULL (for order 105). UNION dedupes: {1,2,3,4,5,NULL} = 6 rows."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why does <code>COUNT(*)</code> vs <code>COUNT(o.id)</code> differ on a LEFT JOIN?",
+        "hint": "NULL handling in COUNT.",
+        "answer": "<code>COUNT(*) counts all rows including unmatched ones (where o.id is NULL). COUNT(o.id) ignores NULLs, giving only matched rows.</code>",
+        "explanation": "For a customer with no orders in a LEFT JOIN, the row still appears (once) with NULLs. COUNT(*) counts it; COUNT(o.id) skips it. This is why reports use COUNT(o.id) to get 'actual order count per customer'."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Predict the output count for this query given 3 customers with 2, 3, and 0 orders respectively, using INNER JOIN.",
+        "hint": "Only matching rows.",
+        "answer": "<code>5 rows</code>",
+        "explanation": "INNER JOIN produces one row per matching (customer, order) pair: 2 + 3 + 0 = 5 rows. The third customer (0 orders) contributes nothing."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output of this query given our sample data?<br><pre><code>SELECT c.name, o.amount\nFROM customers c\nLEFT JOIN orders o \n  ON c.id = o.customer_id AND o.amount > 1000\nORDER BY c.id;</code></pre>",
+        "hint": "The amount filter is in ON, not WHERE.",
+        "answer": "<code>Aarav 1500, Aarav 2300, Priya NULL, Rohan 5400, Meera NULL, Vikram NULL</code>",
+        "explanation": "With the filter in ON, customers without qualifying orders still appear (just with NULL). Priya's only order (800) fails the >1000 test, so she matches nothing and appears once with NULL. If the filter were in WHERE, Priya, Meera, and Vikram would all be dropped."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this query find?<br><pre><code>SELECT c.name\nFROM customers c\nWHERE NOT EXISTS (\n    SELECT 1 FROM orders o WHERE o.customer_id = c.id\n);</code></pre>",
+        "hint": "NOT EXISTS equivalent of LEFT JOIN + IS NULL.",
+        "answer": "<code>Meera Iyer, Vikram Singh</code>",
+        "explanation": "NOT EXISTS finds customers who have no matching order. Same result as <code>LEFT JOIN ... WHERE o.id IS NULL</code>. Both patterns are valid; NOT EXISTS can be faster on large tables and handles NULLs better than NOT IN."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which JOIN returns rows only when both tables have matching values?",
+        "hint": "The default JOIN.",
+        "answer": "<code>INNER JOIN</code>",
+        "explanation": "INNER JOIN (or plain JOIN) returns only the intersection — rows where the ON condition is true on both sides."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which JOIN keeps all rows from the left table even if there is no match on the right?",
+        "hint": "All-left-rows join.",
+        "answer": "<code>LEFT JOIN</code> (or LEFT OUTER JOIN)",
+        "explanation": "LEFT JOIN retains every row from the left table. Right-side columns become NULL when there is no match."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does MySQL support FULL OUTER JOIN directly?",
+        "hint": "MySQL specifically.",
+        "answer": "<code>No. MySQL does not support FULL OUTER JOIN. Simulate with LEFT JOIN UNION RIGHT JOIN.</code>",
+        "explanation": "PostgreSQL, SQL Server, and Oracle support FULL OUTER JOIN natively. MySQL users must write the UNION workaround."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the result size of CROSS JOIN between a table with 100 rows and a table with 50 rows?",
+        "hint": "Cartesian product.",
+        "answer": "<code>5000 rows</code>",
+        "explanation": "CROSS JOIN produces every combination: 100 * 50 = 5000."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this query do?<br><pre><code>SELECT c.name, o.id\nFROM customers c, orders o\nWHERE c.id = o.customer_id;</code></pre>",
+        "hint": "This is the old implicit join syntax.",
+        "answer": "<code>Same as INNER JOIN — returns matching customer/order pairs.</code>",
+        "explanation": "Implicit join (comma in FROM + WHERE condition) is equivalent to INNER JOIN. Avoid it in new code because forgetting the WHERE gives a cartesian product. Modern style: explicit JOIN ... ON."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output given customers(1,2,3,4,5) and orders with customer_ids (1,1,2,3,7)?<br><pre><code>SELECT COUNT(*) FROM customers c\nRIGHT JOIN orders o ON c.id = o.customer_id;</code></pre>",
+        "hint": "RIGHT JOIN keeps every order.",
+        "answer": "<code>5</code>",
+        "explanation": "Every order appears once (5 orders total), including order with customer_id=7 which has NULL customer info."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Find customers in Bengaluru who have at least one order. Write the query.",
+        "hint": "JOIN + WHERE on city + DISTINCT.",
+        "answer": "<pre><code>SELECT DISTINCT c.name\nFROM customers c\nJOIN orders o ON c.id = o.customer_id\nWHERE c.city = 'Bengaluru';</code></pre>",
+        "explanation": "INNER JOIN ensures the customer has at least one order. WHERE filters to Bengaluru. DISTINCT removes duplicates if a customer has multiple orders."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write a query to find each customer's most recent order date. Customers without orders should still appear.",
+        "hint": "LEFT JOIN + MAX + GROUP BY.",
+        "answer": "<pre><code>SELECT c.name, MAX(o.order_date) AS last_order\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nGROUP BY c.id, c.name;</code></pre>",
+        "explanation": "LEFT JOIN keeps every customer. MAX returns the latest date, or NULL if no orders exist. Customers without orders show last_order = NULL."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between ON and WHERE in a LEFT JOIN?",
+        "hint": "Think about when filtering happens.",
+        "answer": "<code>ON filters during the join — unmatched rows from the left table are still kept (as NULL). WHERE filters after the join — it can drop those NULL rows, effectively turning LEFT JOIN into INNER JOIN.</code>",
+        "explanation": "ON is part of the JOIN mechanism itself. WHERE is a post-join filter. When filtering the right table in a LEFT JOIN, use ON to preserve LEFT JOIN semantics. INNER JOIN treats ON and WHERE identically."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is RIGHT JOIN rarely used in production code?",
+        "hint": "Readability and team conventions.",
+        "answer": "<code>Any RIGHT JOIN can be rewritten as LEFT JOIN by swapping the table order. LEFT JOIN reads more naturally because the 'main' table is on the left.</code>",
+        "explanation": "Query readers parse tables left-to-right. LEFT JOIN clearly says 'starting from this table, add matches from another.' RIGHT JOIN forces mental flipping. Coding style guides at most companies mandate LEFT JOIN over RIGHT JOIN."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Write a query to find the most valuable customer (highest total spend).",
+        "hint": "GROUP BY customer, ORDER BY total DESC, LIMIT 1.",
+        "answer": "<pre><code>SELECT c.name, SUM(o.amount) AS total\nFROM customers c\nJOIN orders o ON c.id = o.customer_id\nGROUP BY c.id, c.name\nORDER BY total DESC\nLIMIT 1;</code></pre>",
+        "explanation": "INNER JOIN because we want customers with orders. GROUP BY customer. SUM amounts. ORDER BY DESC and LIMIT 1 gives the top spender. Result on sample data: Rohan Mehta, 5400.00."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Given customers (5 rows) and orders (5 rows, one with invalid customer_id=7), what is the result count of a MySQL FULL OUTER JOIN simulation?",
+        "hint": "LEFT JOIN UNION RIGHT JOIN; UNION deduplicates.",
+        "answer": "<code>7 distinct rows</code>",
+        "explanation": "LEFT side: 4 matched + 2 unmatched customers = 6 rows. RIGHT side: 4 matched + 1 orphan order = 5 rows. UNION removes duplicates for the 4 common matched rows, giving 4 + 2 + 1 = 7 distinct rows."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which JOIN returns only rows with matching values in both tables?",
+        "options": {
+          "A": "LEFT JOIN",
+          "B": "RIGHT JOIN",
+          "C": "INNER JOIN",
+          "D": "FULL OUTER JOIN"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> INNER JOIN returns only rows where the ON condition matches on both sides. A, B, D all keep non-matching rows by design."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which JOIN keeps every row from the left table even if there is no match?",
+        "options": {
+          "A": "INNER JOIN",
+          "B": "LEFT JOIN",
+          "C": "RIGHT JOIN",
+          "D": "CROSS JOIN"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LEFT JOIN preserves every row from the left table. Right-side columns are NULL when no match exists."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does <code>SELECT * FROM a CROSS JOIN b</code> return when a has 10 rows and b has 4 rows?",
+        "options": {
+          "A": "10 rows",
+          "B": "14 rows",
+          "C": "40 rows",
+          "D": "4 rows"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> CROSS JOIN produces the cartesian product: every row of a combined with every row of b = 10 * 4 = 40 rows."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which statement is TRUE about MySQL and FULL OUTER JOIN?",
+        "options": {
+          "A": "MySQL supports FULL OUTER JOIN with the keyword FULL",
+          "B": "MySQL does not support FULL OUTER JOIN directly; use UNION of LEFT and RIGHT JOINs",
+          "C": "FULL OUTER JOIN returns only matching rows",
+          "D": "FULL OUTER JOIN is the same as CROSS JOIN"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL has no native FULL OUTER JOIN. Simulate it with <code>LEFT JOIN ... UNION RIGHT JOIN ...</code>. PostgreSQL and SQL Server support it natively."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which keyword is used to specify the join condition?",
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "ON",
+          "D": "WITH"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The ON clause specifies how tables are matched. WHERE filters rows after the join; HAVING filters groups; WITH defines CTEs."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "If INNER JOIN and JOIN are written, what is the difference in MySQL?",
+        "options": {
+          "A": "INNER JOIN is slower",
+          "B": "They are identical — INNER is optional",
+          "C": "JOIN means CROSS JOIN",
+          "D": "JOIN only works on 2 tables; INNER JOIN allows more"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In MySQL, JOIN and INNER JOIN are synonyms. INNER is optional. Use whichever feels clearer."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "After a LEFT JOIN, what do unmatched right-table columns contain?",
+        "options": {
+          "A": "0",
+          "B": "Empty string",
+          "C": "NULL",
+          "D": "Error"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Unmatched right rows in a LEFT JOIN produce NULL for every right-table column. Use COALESCE or IFNULL to replace with a default value."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which query finds customers with no orders?",
+        "options": {
+          "A": "SELECT * FROM customers JOIN orders ON customers.id = orders.customer_id WHERE orders.id IS NULL",
+          "B": "SELECT * FROM customers LEFT JOIN orders ON customers.id = orders.customer_id WHERE orders.id IS NULL",
+          "C": "SELECT * FROM customers RIGHT JOIN orders ON customers.id = orders.customer_id WHERE orders.id IS NULL",
+          "D": "SELECT * FROM customers CROSS JOIN orders WHERE orders.id IS NULL"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LEFT JOIN keeps every customer. WHERE orders.id IS NULL keeps only those without a matching order. A would produce no rows (INNER JOIN drops NULLs). C is wrong direction. D is cartesian."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Given 10 customers and 5 orders (all with valid customer_ids), how many rows does INNER JOIN return?",
+        "options": {
+          "A": "10",
+          "B": "5",
+          "C": "50",
+          "D": "15"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> INNER JOIN returns one row per matching pair. If each of the 5 orders matches exactly one customer, the result is 5 rows (not 10 — unmatched customers are dropped)."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What happens when you filter a LEFT JOIN's right table in WHERE?",
+        "options": {
+          "A": "The filter applies only to matched rows",
+          "B": "NULLs from unmatched rows fail the filter, turning LEFT JOIN into INNER JOIN",
+          "C": "The query fails",
+          "D": "The filter is ignored"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Any comparison with NULL is not true. So unmatched rows (with NULL in right columns) get dropped by WHERE, effectively making the LEFT JOIN act like INNER JOIN. Move filters to ON or add IS NULL checks in WHERE."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which query correctly counts the number of orders per customer including customers with zero orders?",
+        "options": {
+          "A": "SELECT c.name, COUNT(*) FROM customers c JOIN orders o ON c.id = o.customer_id GROUP BY c.id",
+          "B": "SELECT c.name, COUNT(o.id) FROM customers c LEFT JOIN orders o ON c.id = o.customer_id GROUP BY c.id, c.name",
+          "C": "SELECT c.name, COUNT(*) FROM customers c LEFT JOIN orders o ON c.id = o.customer_id GROUP BY c.id",
+          "D": "SELECT c.name, COUNT(o.id) FROM customers c INNER JOIN orders o ON c.id = o.customer_id GROUP BY c.id"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LEFT JOIN keeps every customer. COUNT(o.id) returns 0 for unmatched rows (COUNT ignores NULLs). C is almost right but COUNT(*) would return 1 for customers with no orders (counting the NULL row). D uses INNER JOIN and drops zero-order customers."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What is the result of <code>USING (customer_id)</code> vs <code>ON a.customer_id = b.customer_id</code>?",
+        "options": {
+          "A": "USING requires columns to have the same name; ON is general",
+          "B": "USING is faster; ON is slower",
+          "C": "ON only works with primary keys",
+          "D": "They produce different result sets"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> USING is shorthand when both tables have a column with the exact same name (the joined column appears only once in the result). ON accepts any boolean expression and does not require matching column names."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What does this query return? <pre><code>SELECT COUNT(*) FROM customers c LEFT JOIN orders o ON c.id = o.customer_id;</code></pre> Given 5 customers and 4 orders (each matching a distinct customer).",
+        "options": {
+          "A": "4",
+          "B": "5",
+          "C": "9",
+          "D": "20"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 4 matched rows + 1 unmatched customer = 5 rows total. Every customer appears at least once."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which pattern correctly simulates FULL OUTER JOIN in MySQL?",
+        "options": {
+          "A": "SELECT * FROM a FULL OUTER JOIN b ON a.id = b.id",
+          "B": "SELECT * FROM a LEFT JOIN b ON a.id = b.id UNION SELECT * FROM a RIGHT JOIN b ON a.id = b.id",
+          "C": "SELECT * FROM a CROSS JOIN b",
+          "D": "SELECT * FROM a INNER JOIN b ON a.id = b.id OR a.id IS NULL"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL does not support FULL OUTER JOIN natively. UNION of LEFT JOIN and RIGHT JOIN (UNION deduplicates automatically) gives the correct result. A would fail; C is cartesian; D is nonsense."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "A table of 10,000 rows is CROSS JOINed with a table of 1,000 rows. What is the result size and is this safe?",
+        "options": {
+          "A": "11,000 rows; safe",
+          "B": "10,000 rows; safe",
+          "C": "10,000,000 rows; dangerous",
+          "D": "1,000 rows; safe"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> 10,000 * 1,000 = 10 million rows. This will likely hang your session and stress disk/memory. CROSS JOIN without a filter on large tables is an anti-pattern."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "difficulty": "Easy",
+        "title": "List Customers With Their Orders",
+        "description": "Given the sample customers and orders tables, write a query that lists each order along with the customer's name and city. Use INNER JOIN.",
+        "starterCode": "-- Your query here\n",
+        "solution": "SELECT c.name, c.city, o.id AS order_id, o.amount, o.order_date\nFROM customers c\nINNER JOIN orders o ON c.id = o.customer_id\nORDER BY c.name, o.order_date;",
+        "explanation": "INNER JOIN matches each order to its customer. Alias tables for readability. Order by name and date for a clean report.",
+        "testCases": [
+          {"input": "Sample data (5 customers, 5 orders; order 105 has invalid customer_id)", "output": "4 rows: Aarav x2, Priya x1, Rohan x1"}
+        ]
+      },
+      {
+        "id": "cc-2",
+        "difficulty": "Easy",
+        "title": "Find Customers With No Orders",
+        "description": "Write a query that lists all customers who have never placed an order.",
+        "starterCode": "-- LEFT JOIN + IS NULL\n",
+        "solution": "SELECT c.id, c.name, c.city\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nWHERE o.id IS NULL;",
+        "explanation": "LEFT JOIN keeps every customer. WHERE on the right-table primary key (o.id) being NULL finds unmatched rows — i.e., customers without orders.",
+        "testCases": [
+          {"input": "Sample data", "output": "Meera Iyer (Chennai), Vikram Singh (Pune)"}
+        ]
+      },
+      {
+        "id": "cc-3",
+        "difficulty": "Medium",
+        "title": "Total Revenue Per City",
+        "description": "Calculate the total revenue from each city. Cities with no orders should still appear with 0.",
+        "starterCode": "-- Hint: LEFT JOIN + COALESCE + GROUP BY\n",
+        "solution": "SELECT c.city, COALESCE(SUM(o.amount), 0) AS total_revenue\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nGROUP BY c.city\nORDER BY total_revenue DESC;",
+        "explanation": "LEFT JOIN so every city appears. GROUP BY city. SUM with COALESCE converts NULL (from customers with no orders) into 0.",
+        "testCases": [
+          {"input": "Sample data", "output": "Delhi 5400, Bengaluru 3800, Mumbai 800, Chennai 0, Pune 0"}
+        ]
+      },
+      {
+        "id": "cc-4",
+        "difficulty": "Medium",
+        "title": "Most Valuable Customer",
+        "description": "Find the customer who has spent the most in total.",
+        "starterCode": "-- GROUP BY + ORDER BY DESC + LIMIT 1\n",
+        "solution": "SELECT c.name, SUM(o.amount) AS total_spent\nFROM customers c\nJOIN orders o ON c.id = o.customer_id\nGROUP BY c.id, c.name\nORDER BY total_spent DESC\nLIMIT 1;",
+        "explanation": "INNER JOIN because a customer with no orders cannot be the top spender. Group by customer, sum amounts, sort descending, take the first.",
+        "testCases": [
+          {"input": "Sample data", "output": "Rohan Mehta, 5400.00"}
+        ]
+      },
+      {
+        "id": "cc-5",
+        "difficulty": "Medium",
+        "title": "Customers Who Placed Orders Over 2000",
+        "description": "Find the distinct names of customers who have placed at least one order of amount greater than 2000.",
+        "starterCode": "-- INNER JOIN + WHERE + DISTINCT\n",
+        "solution": "SELECT DISTINCT c.name\nFROM customers c\nJOIN orders o ON c.id = o.customer_id\nWHERE o.amount > 2000;",
+        "explanation": "INNER JOIN pairs customers with orders. WHERE filters to high-value orders. DISTINCT prevents a customer with multiple qualifying orders from appearing multiple times.",
+        "testCases": [
+          {"input": "Sample data", "output": "Aarav Kumar (order 102), Rohan Mehta (order 104)"}
+        ]
+      },
+      {
+        "id": "cc-6",
+        "difficulty": "Hard",
+        "title": "Orphan Orders Detection",
+        "description": "Find all orders whose customer_id does NOT exist in the customers table. Return order_id, customer_id, and amount.",
+        "starterCode": "-- LEFT JOIN or NOT EXISTS\n",
+        "solution": "SELECT o.id AS order_id, o.customer_id, o.amount\nFROM orders o\nLEFT JOIN customers c ON c.id = o.customer_id\nWHERE c.id IS NULL;",
+        "explanation": "Drive from orders with LEFT JOIN to customers. If customers.id is NULL after the join, the order is an orphan (bad referential integrity). This query helps find data quality issues.",
+        "testCases": [
+          {"input": "Sample data", "output": "order 105, customer_id 7, amount 999.00"}
+        ]
+      },
+      {
+        "id": "cc-7",
+        "difficulty": "Hard",
+        "title": "Simulate FULL OUTER JOIN",
+        "description": "Return every customer and every order, matching where possible. Include unmatched customers (NULL order info) and orphan orders (NULL customer info).",
+        "starterCode": "-- MySQL: use UNION of LEFT and RIGHT JOIN\n",
+        "solution": "SELECT c.id AS cust_id, c.name, o.id AS order_id, o.amount\nFROM customers c\nLEFT JOIN orders o ON c.id = o.customer_id\nUNION\nSELECT c.id, c.name, o.id, o.amount\nFROM customers c\nRIGHT JOIN orders o ON c.id = o.customer_id;",
+        "explanation": "UNION of LEFT JOIN (keeps unmatched customers) and RIGHT JOIN (keeps unmatched orders). UNION removes the duplicate matched rows automatically.",
+        "testCases": [
+          {"input": "Sample data", "output": "7 rows: 4 matched + 2 unmatched customers + 1 orphan order"}
+        ]
+      },
+      {
+        "id": "cc-8",
+        "difficulty": "Hard",
+        "title": "Common Customers Across Two Periods",
+        "description": "Using the orders table, find customers who placed orders in BOTH January 2026 and February 2026.",
+        "starterCode": "-- Self-join orders or use IN + subquery\n",
+        "solution": "SELECT DISTINCT c.name\nFROM customers c\nJOIN orders o1 ON c.id = o1.customer_id\n     AND o1.order_date BETWEEN '2026-01-01' AND '2026-01-31'\nJOIN orders o2 ON c.id = o2.customer_id\n     AND o2.order_date BETWEEN '2026-02-01' AND '2026-02-28';",
+        "explanation": "Double JOIN: one join for January orders, another for February. A customer appearing in both means the join succeeds on both sides. On sample data only Aarav qualifies (orders 101 Jan, 102 Feb).",
+        "testCases": [
+          {"input": "Sample data", "output": "Aarav Kumar"}
+        ]
+      }
+    ]
+  }
+}

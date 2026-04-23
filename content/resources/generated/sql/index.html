@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Tutorial - Complete Database Guide from Basics to Advanced Queries | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn SQL from scratch with our detailed chapter-by-chapter guide. Covers SELECT, JOINS, subqueries, window functions, indexes, transactions, and database design. Each topic has clear notes, real query examples, and 50+ practice questions including interview favorites.">
+    <meta name="keywords" content="sql tutorial, learn sql, sql for beginners, mysql tutorial, sql queries, sql joins, sql window functions, sql interview questions, database tutorial, sql practice questions, sql for data analyst">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql">
+    <meta property="og:title" content="SQL Tutorial - Complete Database Guide from Basics to Advanced Queries | Modern Age Coders">
+    <meta property="og:description" content="Learn SQL from scratch with our detailed chapter-by-chapter guide. Covers SELECT, JOINS, subqueries, window functions, indexes, transactions, and database design. Each topic has clear notes, real query examples, and 50+ practice questions including interview favorites.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql">
+    <meta name="twitter:title" content="SQL Tutorial - Complete Database Guide from Basics to Advanced Queries | Modern Age Coders">
+    <meta name="twitter:description" content="Learn SQL from scratch with our detailed chapter-by-chapter guide. Covers SELECT, JOINS, subqueries, window functions, indexes, transactions, and database design. Each topic has clear notes, real query examples, and 50+ practice questions including interview favorites.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "SQL Tutorial - Complete Database Guide from Basics to Advanced Queries",
+    "description": "Learn SQL from scratch with our detailed chapter-by-chapter guide. Covers SELECT, JOINS, subqueries, window functions, indexes, transactions, and database design. Each topic has clear notes, real query examples, and 50+ practice questions including interview favorites.",
+    "numberOfItems": 25,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Introduction to SQL and Databases",
+        "url": "https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Setting Up MySQL and Your First Query",
+        "url": "https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)",
+        "url": "https://learn.modernagecoders.com/resources/sql/data-types-and-constraints"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CREATE, ALTER, DROP Tables",
+        "url": "https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "INSERT, UPDATE, DELETE - Manipulating Data",
+        "url": "https://learn.modernagecoders.com/resources/sql/insert-update-delete"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "SELECT Queries and the WHERE Clause",
+        "url": "https://learn.modernagecoders.com/resources/sql/select-basics-and-where"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "ORDER BY, LIMIT, and DISTINCT",
+        "url": "https://learn.modernagecoders.com/resources/sql/sorting-and-limiting"
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "LIKE Pattern Matching and NULL Handling",
+        "url": "https://learn.modernagecoders.com/resources/sql/pattern-matching-and-null"
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)",
+        "url": "https://learn.modernagecoders.com/resources/sql/aggregate-functions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "GROUP BY and HAVING",
+        "url": "https://learn.modernagecoders.com/resources/sql/group-by-and-having"
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS",
+        "url": "https://learn.modernagecoders.com/resources/sql/joins-inner-and-outer"
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "Self Joins and Multi-Table Queries",
+        "url": "https://learn.modernagecoders.com/resources/sql/self-joins-and-multi-table"
+      },
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "Subqueries (Nested Queries) and EXISTS",
+        "url": "https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries"
+      },
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "UNION, UNION ALL, INTERSECT, EXCEPT",
+        "url": "https://learn.modernagecoders.com/resources/sql/set-operations"
+      },
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "String Functions in SQL",
+        "url": "https://learn.modernagecoders.com/resources/sql/string-functions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "name": "Date and Time Functions",
+        "url": "https://learn.modernagecoders.com/resources/sql/date-and-time-functions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "name": "Conditional Logic - CASE WHEN, IF, IFNULL",
+        "url": "https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when"
+      },
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "name": "Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD",
+        "url": "https://learn.modernagecoders.com/resources/sql/window-functions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "name": "Common Table Expressions (CTEs) and Recursive Queries",
+        "url": "https://learn.modernagecoders.com/resources/sql/common-table-expressions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 20,
+        "name": "Indexes and Query Performance",
+        "url": "https://learn.modernagecoders.com/resources/sql/indexes-and-performance"
+      },
+      {
+        "@type": "ListItem",
+        "position": 21,
+        "name": "Views, Stored Procedures, and Functions",
+        "url": "https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures"
+      },
+      {
+        "@type": "ListItem",
+        "position": 22,
+        "name": "Triggers and Scheduled Events",
+        "url": "https://learn.modernagecoders.com/resources/sql/triggers-and-events"
+      },
+      {
+        "@type": "ListItem",
+        "position": 23,
+        "name": "Transactions and ACID Properties",
+        "url": "https://learn.modernagecoders.com/resources/sql/transactions-and-acid"
+      },
+      {
+        "@type": "ListItem",
+        "position": 24,
+        "name": "Database Design and Normalization (1NF, 2NF, 3NF, BCNF)",
+        "url": "https://learn.modernagecoders.com/resources/sql/database-design-and-normalization"
+      },
+      {
+        "@type": "ListItem",
+        "position": 25,
+        "name": "SQL Interview Masterclass - Top 30 Questions Solved",
+        "url": "https://learn.modernagecoders.com/resources/sql/sql-interview-masterclass"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+</head>
+
+<body class="resource-index-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">SQL</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <h1 class="resource-title">SQL Tutorial - Complete Database Guide from Basics to Advanced Queries</h1>
+            <div class="index-intro"><p>Every app you use stores its data somewhere. Your Instagram posts, YouTube watch history, bank transactions, school marks — all of it lives in databases. SQL (Structured Query Language) is how we talk to these databases. If you want to become a data analyst, backend developer, data scientist, or just work with data at any company, SQL is non-negotiable.</p><p>This guide takes you from writing your first SELECT query to mastering advanced concepts like window functions, CTEs, indexing strategies, and query optimization. We use MySQL syntax primarily, but cover portable SQL that works on PostgreSQL, SQL Server, and SQLite too.</p><p>Each chapter has 50+ practice questions including real interview queries asked at companies like Amazon, Google, Flipkart, and Zomato. Every concept is explained with actual sample tables and expected results so you can copy, paste, and run them. This is not theory. This is SQL you will use every day in your career.</p></div>
+            <div class="index-stats">
+                <span class="badge badge-chapter">25 Chapters</span>
+                <span class="badge badge-questions">1425+ Questions</span>
+                <span class="badge badge-free">Free</span>
+            </div>
+        </div><!-- /resource-header -->
+
+        <!-- Chapter Listing -->
+        <section class="chapter-listing">
+            <h2>Chapters</h2>
+            
+            <a href="/resources/sql/introduction-to-sql-and-databases" class="chapter-card">
+                <div class="chapter-card-number">1</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Introduction to SQL and Databases</div>
+                    <div class="chapter-card-desc">Understand what databases are, why they matter, and how SQL lets us store, retrieve, and manage data.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/setting-up-mysql-and-first-query" class="chapter-card">
+                <div class="chapter-card-number">2</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Setting Up MySQL and Your First Query</div>
+                    <div class="chapter-card-desc">Install MySQL, use MySQL Workbench or CLI, create your first database and table, and run your first SELECT.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/data-types-and-constraints" class="chapter-card">
+                <div class="chapter-card-number">3</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</div>
+                    <div class="chapter-card-desc">Learn INT, VARCHAR, TEXT, DATE, DATETIME, BOOLEAN, and constraints that keep your data clean.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/creating-and-modifying-tables" class="chapter-card">
+                <div class="chapter-card-number">4</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">CREATE, ALTER, DROP Tables</div>
+                    <div class="chapter-card-desc">Create tables, add/remove columns with ALTER, drop tables, truncate, and rename — the DDL commands.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/insert-update-delete" class="chapter-card">
+                <div class="chapter-card-number">5</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">INSERT, UPDATE, DELETE - Manipulating Data</div>
+                    <div class="chapter-card-desc">Add new rows with INSERT, change data with UPDATE, remove rows with DELETE, and the WHERE clause.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/select-basics-and-where" class="chapter-card">
+                <div class="chapter-card-number">6</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">SELECT Queries and the WHERE Clause</div>
+                    <div class="chapter-card-desc">Retrieve data with SELECT, filter rows with WHERE, use comparison operators, AND, OR, NOT, IN, BETWEEN.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/sorting-and-limiting" class="chapter-card">
+                <div class="chapter-card-number">7</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">ORDER BY, LIMIT, and DISTINCT</div>
+                    <div class="chapter-card-desc">Sort results, limit rows returned, remove duplicates, and use OFFSET for pagination.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/pattern-matching-and-null" class="chapter-card">
+                <div class="chapter-card-number">8</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">LIKE Pattern Matching and NULL Handling</div>
+                    <div class="chapter-card-desc">Search with LIKE, wildcards %, _, handle NULL with IS NULL, IS NOT NULL, COALESCE, IFNULL.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-beginner">Beginner</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/aggregate-functions" class="chapter-card">
+                <div class="chapter-card-number">9</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</div>
+                    <div class="chapter-card-desc">Summarize data with COUNT, SUM, AVG, MIN, MAX. Understand when NULL is counted and when it isn&#39;t.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/group-by-and-having" class="chapter-card">
+                <div class="chapter-card-number">10</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">GROUP BY and HAVING</div>
+                    <div class="chapter-card-desc">Group rows for aggregation, filter groups with HAVING, and understand the order of SQL clauses.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/joins-inner-and-outer" class="chapter-card">
+                <div class="chapter-card-number">11</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS</div>
+                    <div class="chapter-card-desc">Combine data from multiple tables with all join types. Understand when to use each with clear Venn diagrams.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/self-joins-and-multi-table" class="chapter-card">
+                <div class="chapter-card-number">12</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Self Joins and Multi-Table Queries</div>
+                    <div class="chapter-card-desc">Join a table with itself for hierarchical data. Combine 3+ tables and avoid common join pitfalls.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/subqueries-and-nested-queries" class="chapter-card">
+                <div class="chapter-card-number">13</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Subqueries (Nested Queries) and EXISTS</div>
+                    <div class="chapter-card-desc">Write queries inside queries. Master scalar, row, and correlated subqueries. Use EXISTS vs IN.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/set-operations" class="chapter-card">
+                <div class="chapter-card-number">14</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">UNION, UNION ALL, INTERSECT, EXCEPT</div>
+                    <div class="chapter-card-desc">Combine results from multiple queries with set operations. Understand performance implications.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/string-functions" class="chapter-card">
+                <div class="chapter-card-number">15</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">String Functions in SQL</div>
+                    <div class="chapter-card-desc">Manipulate text with CONCAT, SUBSTRING, UPPER, LOWER, TRIM, REPLACE, LENGTH, LOCATE, LEFT, RIGHT.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/date-and-time-functions" class="chapter-card">
+                <div class="chapter-card-number">16</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Date and Time Functions</div>
+                    <div class="chapter-card-desc">Work with dates using NOW, CURDATE, DATEDIFF, DATE_ADD, DATE_FORMAT, YEAR, MONTH, DAY, and time zones.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/conditional-logic-case-when" class="chapter-card">
+                <div class="chapter-card-number">17</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Conditional Logic - CASE WHEN, IF, IFNULL</div>
+                    <div class="chapter-card-desc">Add if-else logic to queries with CASE expressions, IF function, and conditional aggregation patterns.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-intermediate">Intermediate</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/window-functions" class="chapter-card">
+                <div class="chapter-card-number">18</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD</div>
+                    <div class="chapter-card-desc">Master window functions with OVER(), PARTITION BY, and ORDER BY. Essential for data analyst interviews.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/common-table-expressions" class="chapter-card">
+                <div class="chapter-card-number">19</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Common Table Expressions (CTEs) and Recursive Queries</div>
+                    <div class="chapter-card-desc">Write cleaner queries with WITH clause. Use recursive CTEs for hierarchies and sequences.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/indexes-and-performance" class="chapter-card">
+                <div class="chapter-card-number">20</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Indexes and Query Performance</div>
+                    <div class="chapter-card-desc">Understand B-Tree indexes, when to add indexes, composite indexes, EXPLAIN plans, and query optimization.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/views-and-stored-procedures" class="chapter-card">
+                <div class="chapter-card-number">21</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Views, Stored Procedures, and Functions</div>
+                    <div class="chapter-card-desc">Create reusable views, write stored procedures with parameters, loops, and user-defined functions.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/triggers-and-events" class="chapter-card">
+                <div class="chapter-card-number">22</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Triggers and Scheduled Events</div>
+                    <div class="chapter-card-desc">Automate database actions with BEFORE/AFTER INSERT/UPDATE/DELETE triggers and scheduled events.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/transactions-and-acid" class="chapter-card">
+                <div class="chapter-card-number">23</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Transactions and ACID Properties</div>
+                    <div class="chapter-card-desc">Use BEGIN, COMMIT, ROLLBACK, SAVEPOINT. Understand ACID, isolation levels, and deadlocks.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/database-design-and-normalization" class="chapter-card">
+                <div class="chapter-card-number">24</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">Database Design and Normalization (1NF, 2NF, 3NF, BCNF)</div>
+                    <div class="chapter-card-desc">Design clean schemas. Master the normal forms with real examples, ER diagrams, and denormalization trade-offs.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+            <a href="/resources/sql/sql-interview-masterclass" class="chapter-card">
+                <div class="chapter-card-number">25</div>
+                <div class="chapter-card-body">
+                    <div class="chapter-card-title">SQL Interview Masterclass - Top 30 Questions Solved</div>
+                    <div class="chapter-card-desc">Solve the most-asked SQL interview questions: Nth highest salary, duplicates, consecutive rows, running totals, pivoting.</div>
+                    <div class="chapter-card-badges">
+                        <span class="badge badge-advanced">Advanced</span>
+                        
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+
+</body>
+
+</html>

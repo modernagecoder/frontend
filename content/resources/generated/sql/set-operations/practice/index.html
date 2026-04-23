@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - UNION, UNION ALL, INTERSECT, EXCEPT | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="49+ practice questions on UNION, UNION ALL, INTERSECT, EXCEPT in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="union, union all, intersect, except practice, sql questions, sql practice problems, union, union all, intersect, except exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/set-operations/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/set-operations/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/set-operations/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/set-operations/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/set-operations/practice">
+    <meta property="og:title" content="Practice Questions - UNION, UNION ALL, INTERSECT, EXCEPT | SQL | Modern Age Coders">
+    <meta property="og:description" content="49+ practice questions on UNION, UNION ALL, INTERSECT, EXCEPT in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/set-operations/practice">
+    <meta name="twitter:title" content="Practice Questions - UNION, UNION ALL, INTERSECT, EXCEPT | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="49+ practice questions on UNION, UNION ALL, INTERSECT, EXCEPT in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - UNION, UNION ALL, INTERSECT, EXCEPT",
+    "description": "49+ practice questions on UNION, UNION ALL, INTERSECT, EXCEPT in SQL.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "UNION, UNION ALL, INTERSECT, EXCEPT"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/set-operations/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "UNION, UNION ALL, INTERSECT, EXCEPT",
+        "item": "https://learn.modernagecoders.com/resources/sql/set-operations"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/set-operations/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/set-operations">UNION, UNION ALL, INTERSECT, EXCEPT</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 14</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">49 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; UNION, UNION ALL, INTERSECT, EXCEPT</h1>
+            <a href="/resources/sql/set-operations" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">4</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the key difference between UNION and UNION ALL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Duplicates.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>UNION removes duplicate rows (costs a sort/hash). UNION ALL keeps all rows and is faster.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Given customers_in (4 rows) and customers_uk (3 rows, 1 duplicate with _in), how many rows does UNION return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Deduplicated.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>6 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Same data, UNION ALL instead. How many rows?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">No dedup.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>7 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Does MySQL always support INTERSECT?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Version matters.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Only MySQL 8.0.31 and later. Older versions (and MariaDB) require workarounds like INNER JOIN or IN.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Where can you place ORDER BY in a UNION?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Once, at the end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Only at the very end of the entire UNION statement. It sorts the combined result.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What error do you get if column counts differ?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">MySQL error 1222.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>ERROR 1222: The used SELECT statements have a different number of columns</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What column names does this produce?<br><pre><code>SELECT a AS x, b FROM t1
+UNION
+SELECT c, d FROM t2;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">First query wins.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>x, b (from the first SELECT). The second query's column names are ignored.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given active users (1,2,3) and purchased users (2,3,4), what does INTERSECT return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Common users.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>2 and 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Same data — what does active EXCEPT purchased return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">In active, not in purchased.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>User 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write the MySQL workaround (INNER JOIN) for INTERSECT of active and purchased users by email.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">JOIN on email + DISTINCT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><pre><code>SELECT DISTINCT a.email FROM users_active a
+JOIN users_purchased p ON a.email = p.email;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write the MySQL workaround (NOT EXISTS) for 'active EXCEPT purchased'.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">NOT EXISTS with correlation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><pre><code>SELECT a.email FROM users_active a
+WHERE NOT EXISTS (
+    SELECT 1 FROM users_purchased p WHERE p.email = a.email
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is UNION slower than UNION ALL on large datasets?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Deduplication cost.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>UNION must sort or hash the combined result to identify duplicates. UNION ALL just streams both sets through without additional work.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this produce if t1 has rows {1,2} and t2 has {2,3,4}?<br><pre><code>SELECT x FROM t1 UNION SELECT x FROM t2;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Distinct union.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>{1, 2, 3, 4}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What happens with this query?<br><pre><code>(SELECT name FROM a ORDER BY name LIMIT 5)
+UNION ALL
+(SELECT name FROM b ORDER BY name LIMIT 5);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Parentheses + LIMIT trick.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Takes top 5 sorted names from a, top 5 from b, and concatenates them. Per-branch ORDER BY + LIMIT is allowed inside parentheses.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Tag the source of each row in a UNION. Why and how?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Constant column.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><pre><code>SELECT name, email, 'India' AS source FROM customers_in
+UNION ALL
+SELECT name, email, 'UK'    AS source FROM customers_uk;</code></pre></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which rule does UNION NOT enforce?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Three rules: column count, types, and first query naming.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>UNION does NOT require column names to match between branches. Only column count and compatible types matter.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is Oracle's name for EXCEPT?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Arithmetic sign.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>MINUS</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Give a real-world use case for UNION ALL.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Partitioned tables.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>Combining yearly partitioned sales tables (sales_2024, sales_2025, sales_2026) into a unified report. No duplicates by construction, so UNION ALL is faster.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Is the following valid?<br><pre><code>SELECT id, name FROM t1 UNION SELECT id FROM t2;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Column count.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>No. Column counts differ (2 vs 1). MySQL returns ERROR 1222.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which is preferred for 'active users who have not yet purchased' in MySQL 5.7?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">NOT EXISTS or LEFT JOIN.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>NOT EXISTS or LEFT JOIN + IS NULL — MySQL 5.7 lacks EXCEPT.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a UNION query returning all unique cities from two tables customers_in and customers_uk (assume both have a 'city' column).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">UNION.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>SELECT city FROM customers_in
+UNION
+SELECT city FROM customers_uk
+ORDER BY city;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a UNION ALL query tagging each customer with their origin country.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Constant column.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>SELECT name, email, 'India' AS country FROM customers_in
+UNION ALL
+SELECT name, email, 'UK' FROM customers_uk;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given 3 yearly sales tables, write a query that returns total amount per year.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">UNION ALL with constant year, then GROUP BY.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>SELECT year, SUM(amount) AS total FROM (
+    SELECT amount, 2024 AS year FROM sales_2024
+    UNION ALL
+    SELECT amount, 2025 FROM sales_2025
+    UNION ALL
+    SELECT amount, 2026 FROM sales_2026
+) t
+GROUP BY year;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When would UNION produce the same result as UNION ALL?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">When duplicates cannot occur.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>When the two SELECTs cannot produce overlapping rows. For example, disjoint WHERE filters on the same table, or unrelated tables with unique IDs.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why can't you put a separate ORDER BY inside each UNION branch?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Set semantics.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Because UNION treats the combined result as one set. Per-branch ordering would be meaningless — the final order is determined at the end. To order within a branch, wrap it in parentheses with LIMIT: (SELECT ... ORDER BY ... LIMIT N) UNION (SELECT ...).</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Emulate FULL OUTER JOIN between customers_in and customers_uk on email using UNION.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">LEFT JOIN UNION RIGHT JOIN.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>SELECT i.name AS in_name, u.name AS uk_name
+FROM customers_in i
+LEFT JOIN customers_uk u ON i.email = u.email
+UNION
+SELECT i.name, u.name
+FROM customers_in i
+RIGHT JOIN customers_uk u ON i.email = u.email;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find emails in BOTH customers_in and customers_uk, portable across older MySQL.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">INTERSECT workaround.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><pre><code>SELECT DISTINCT i.email FROM customers_in i
+JOIN customers_uk u ON i.email = u.email;</code></pre></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does UNION do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Combines and keeps all rows including duplicates</li><li><span class="mcq-option-label">B.</span> Combines and removes duplicate rows</li><li><span class="mcq-option-label">C.</span> Joins tables side by side</li><li><span class="mcq-option-label">D.</span> Returns only common rows</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> UNION deduplicates; UNION ALL keeps duplicates; INTERSECT returns common rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which is faster on large datasets?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> UNION</li><li><span class="mcq-option-label">B.</span> UNION ALL</li><li><span class="mcq-option-label">C.</span> Both are equally fast</li><li><span class="mcq-option-label">D.</span> It depends on the database</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> UNION ALL avoids the sort/hash dedup step, so it is significantly faster. Use UNION only when you actually need deduplication.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What must be true of queries combined with UNION?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They must be from the same table</li><li><span class="mcq-option-label">B.</span> They must have the same number of columns with compatible types</li><li><span class="mcq-option-label">C.</span> They must have identical column names</li><li><span class="mcq-option-label">D.</span> They cannot use WHERE clauses</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> UNION requires matching column count and compatible types. Column names come from the first SELECT; they do not need to match.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Where do final column names come from in a UNION?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The second SELECT</li><li><span class="mcq-option-label">B.</span> The first SELECT</li><li><span class="mcq-option-label">C.</span> Automatically generated</li><li><span class="mcq-option-label">D.</span> Must be specified after UNION</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Column names (including aliases) come from the first SELECT. Put your desired aliases there.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which statement lists rows present in the first query but NOT in the second?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> INTERSECT</li><li><span class="mcq-option-label">B.</span> UNION</li><li><span class="mcq-option-label">C.</span> EXCEPT / MINUS</li><li><span class="mcq-option-label">D.</span> JOIN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> EXCEPT (or MINUS in Oracle) returns rows in the first result set that are not in the second.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Does MySQL 5.7 support INTERSECT and EXCEPT natively?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> No. Only MySQL 8.0.31+ supports them. Older versions need workarounds.</li><li><span class="mcq-option-label">C.</span> Only INTERSECT is supported</li><li><span class="mcq-option-label">D.</span> Only EXCEPT is supported</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL added INTERSECT and EXCEPT in 8.0.31 (late 2022). MariaDB also requires recent versions. Use INNER JOIN or NOT EXISTS as workarounds.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Where should ORDER BY appear in a UNION?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> After each SELECT</li><li><span class="mcq-option-label">B.</span> Only in the first SELECT</li><li><span class="mcq-option-label">C.</span> At the very end, applying to the combined result</li><li><span class="mcq-option-label">D.</span> ORDER BY is not allowed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> ORDER BY at the end sorts the combined rows. Per-branch ordering requires parentheses with a LIMIT.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">The MySQL equivalent of INTERSECT (for older versions) is:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LEFT JOIN + IS NULL</li><li><span class="mcq-option-label">B.</span> INNER JOIN + DISTINCT</li><li><span class="mcq-option-label">C.</span> NOT EXISTS</li><li><span class="mcq-option-label">D.</span> UNION ALL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> INNER JOIN with DISTINCT keeps only rows present on both sides. A corresponds to EXCEPT; C also corresponds to EXCEPT.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Given sets A={1,2,3} and B={2,3,4}, what does A EXCEPT B return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> {1,2,3,4}</li><li><span class="mcq-option-label">B.</span> {2,3}</li><li><span class="mcq-option-label">C.</span> {1}</li><li><span class="mcq-option-label">D.</span> {4}</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> EXCEPT returns elements in A not in B. Only 1 qualifies.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is a common pitfall when emulating EXCEPT with NOT IN?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NOT IN is slower</li><li><span class="mcq-option-label">B.</span> If the subquery returns NULL, NOT IN fails silently and returns no rows</li><li><span class="mcq-option-label">C.</span> NOT IN does not work with VARCHAR</li><li><span class="mcq-option-label">D.</span> NOT IN is deprecated</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The NULL trap from the subqueries chapter strikes again. Use NOT EXISTS or filter NULLs out of the subquery.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the result of this query if t1 has 5 rows and t2 has 5 rows with 2 exact duplicates?<br><code>SELECT * FROM t1 UNION ALL SELECT * FROM t2;</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5 rows</li><li><span class="mcq-option-label">B.</span> 8 rows</li><li><span class="mcq-option-label">C.</span> 10 rows</li><li><span class="mcq-option-label">D.</span> 2 rows</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> UNION ALL concatenates: 5 + 5 = 10 rows. Duplicates are kept. UNION (without ALL) would return 8.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">You want the top 3 cheapest products from each of two warehouses combined. What is the correct pattern?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM warehouse1 UNION SELECT * FROM warehouse2 ORDER BY price LIMIT 3</li><li><span class="mcq-option-label">B.</span> (SELECT * FROM warehouse1 ORDER BY price LIMIT 3) UNION ALL (SELECT * FROM warehouse2 ORDER BY price LIMIT 3)</li><li><span class="mcq-option-label">C.</span> SELECT TOP 3 * FROM warehouse1 UNION SELECT TOP 3 * FROM warehouse2</li><li><span class="mcq-option-label">D.</span> Not possible in MySQL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Wrap each branch in parentheses with ORDER BY and LIMIT. A would sort and limit the combined result, not each branch.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which scenario justifies using UNION instead of UNION ALL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Combining disjoint date ranges</li><li><span class="mcq-option-label">B.</span> Combining two tables where a row could appear in both and you need only one copy</li><li><span class="mcq-option-label">C.</span> Concatenating log entries</li><li><span class="mcq-option-label">D.</span> Any multi-table query</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> UNION is appropriate when duplicates are possible AND you want them removed. Otherwise, UNION ALL is faster.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which pattern correctly emulates EXCEPT in MySQL 5.7?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM a EXCEPT SELECT * FROM b (works in 5.7)</li><li><span class="mcq-option-label">B.</span> SELECT * FROM a WHERE NOT EXISTS (SELECT 1 FROM b WHERE b.key = a.key)</li><li><span class="mcq-option-label">C.</span> SELECT * FROM a NOT IN SELECT * FROM b</li><li><span class="mcq-option-label">D.</span> SELECT * FROM a CROSS JOIN b</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL 5.7 does not support EXCEPT (A fails). C is not valid syntax. D is cartesian. NOT EXISTS is the portable, NULL-safe pattern.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Distinct Customers Across Two Regions</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Combine customers_in and customers_uk into a single deduplicated list of (name, email).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">SELECT name, email FROM customers_in
+UNION
+SELECT name, email FROM customers_uk
+ORDER BY name;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Tagged Combined List</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Combine both customer tables with a 'country' tag. Keep duplicates (dual accounts are interesting data).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">SELECT name, email, &#39;India&#39; AS country FROM customers_in
+UNION ALL
+SELECT name, email, &#39;UK&#39; AS country FROM customers_uk
+ORDER BY name;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Common Emails (INTERSECT Workaround)</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Find emails that exist in BOTH customers_in and customers_uk. Use a workaround that works in all MySQL versions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">SELECT DISTINCT i.email
+FROM customers_in i
+JOIN customers_uk u ON i.email = u.email;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Active Users Who Have Not Purchased (EXCEPT Workaround)</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">From users_active, return users who are NOT in users_purchased. Use NOT EXISTS.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">SELECT a.user_id, a.email
+FROM users_active a
+WHERE NOT EXISTS (
+    SELECT 1 FROM users_purchased p WHERE p.email = a.email
+);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Yearly Sales Consolidation</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Combine sales_2024, sales_2025, sales_2026 into one result with a year tag, sorted by year then id.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">SELECT id, amount, 2024 AS year FROM sales_2024
+UNION ALL
+SELECT id, amount, 2025 FROM sales_2025
+UNION ALL
+SELECT id, amount, 2026 FROM sales_2026
+ORDER BY year, id;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Totals Per Year From Combined Sales</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Using UNION ALL and GROUP BY, return total sales per year across the three yearly tables.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">SELECT year, SUM(amount) AS total
+FROM (
+    SELECT amount, 2024 AS year FROM sales_2024
+    UNION ALL
+    SELECT amount, 2025 FROM sales_2025
+    UNION ALL
+    SELECT amount, 2026 FROM sales_2026
+) t
+GROUP BY year
+ORDER BY year;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Emulate FULL OUTER JOIN Between Two Customer Tables</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Return every customer from India and UK, matched by email where possible, NULL on the side where there is no match.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">SELECT i.email AS in_email, i.name AS in_name, u.email AS uk_email, u.name AS uk_name
+FROM customers_in i
+LEFT JOIN customers_uk u ON i.email = u.email
+UNION
+SELECT i.email, i.name, u.email, u.name
+FROM customers_in i
+RIGHT JOIN customers_uk u ON i.email = u.email;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Top 2 From Each Country</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Return the first 2 customers (by id) from each country as a combined list, tagged by country.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">(SELECT id, name, &#39;India&#39; AS country FROM customers_in ORDER BY id LIMIT 2)
+UNION ALL
+(SELECT id, name, &#39;UK&#39; FROM customers_uk ORDER BY id LIMIT 2);</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/subqueries-and-nested-queries/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Subqueries (Nested Queries) and EXISTS</span>
+        </a>
+            <a href="/resources/sql/string-functions/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">String Functions in SQL</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/set-operations" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

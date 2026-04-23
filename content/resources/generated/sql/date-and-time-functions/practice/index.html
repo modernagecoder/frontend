@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Date and Time Functions | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on Date and Time Functions in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="date and time functions practice, sql questions, sql practice problems, date and time functions exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/date-and-time-functions/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/date-and-time-functions/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/date-and-time-functions/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/date-and-time-functions/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/date-and-time-functions/practice">
+    <meta property="og:title" content="Practice Questions - Date and Time Functions | SQL | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on Date and Time Functions in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/date-and-time-functions/practice">
+    <meta name="twitter:title" content="Practice Questions - Date and Time Functions | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on Date and Time Functions in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Date and Time Functions",
+    "description": "60+ practice questions on Date and Time Functions in SQL.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Date and Time Functions"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/date-and-time-functions/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Date and Time Functions",
+        "item": "https://learn.modernagecoders.com/resources/sql/date-and-time-functions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/date-and-time-functions/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/date-and-time-functions">Date and Time Functions</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Date and Time Functions</h1>
+            <a href="/resources/sql/date-and-time-functions" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">18</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this query return (assume today is 2026-04-16)?<br><pre><code>SELECT CURDATE();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">CURDATE() returns only the date portion.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>2026-04-16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATEDIFF('2026-04-16', '2026-04-10');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">DATEDIFF(a, b) = a - b in days.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATEDIFF('2026-04-10', '2026-04-16');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">DATEDIFF can return negative values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>-6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATE_ADD('2026-04-16', INTERVAL 7 DAY);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Add 7 days to April 16.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>2026-04-23</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATE_SUB('2026-04-16', INTERVAL 1 MONTH);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Subtract one month from April 16.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>2026-03-16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT YEAR('2026-04-16'), MONTH('2026-04-16'), DAY('2026-04-16');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Each function extracts a single part.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>2026  4  16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATE_FORMAT('2026-04-16', '%d-%m-%Y');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">%d = day, %m = month, %Y = 4-digit year.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>16-04-2026</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DAYNAME('2026-04-16');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">April 16, 2026 falls on which day?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Thursday</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT LAST_DAY('2026-02-10');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">2026 is not a leap year.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>2026-02-28</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT LAST_DAY('2028-02-10');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Is 2028 a leap year?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>2028-02-29</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT TIMESTAMPDIFF(MONTH, '2024-01-15', '2026-04-16');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Count whole months between the two dates.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>27</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT TIMESTAMPDIFF(YEAR, '2010-04-17', '2026-04-16');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">The second date is ONE DAY before the birthday.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATE_ADD('2026-01-31', INTERVAL 1 MONTH);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">January 31 + 1 month. What is February's last day?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>2026-02-28</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT QUARTER('2026-04-16'), QUARTER('2026-11-05');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Quarters are Jan-Mar=1, Apr-Jun=2, Jul-Sep=3, Oct-Dec=4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>2  4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DAYOFWEEK('2026-04-16'), WEEKDAY('2026-04-16');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">DAYOFWEEK: Sunday=1. WEEKDAY: Monday=0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>5  3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT STR_TO_DATE('16/04/2026', '%d/%m/%Y');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Parse the string using the given format.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>2026-04-16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT STR_TO_DATE('2026-13-01', '%Y-%m-%d');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Is month 13 valid?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATE_FORMAT('2026-04-16 14:23:07', '%W, %d %b %Y %h:%i %p');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">%W full day, %b short month, %h 12-hour, %p AM/PM.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>Thursday, 16 Apr 2026 02:23 PM</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATE_ADD(LAST_DAY('2026-02-05'), INTERVAL 1 DAY);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">LAST_DAY of Feb 2026, then add 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>2026-03-01</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When should you use DATE vs DATETIME vs TIMESTAMP?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Think about time zones and what the column represents.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">Use <code>DATE</code> when only the calendar day matters (date of birth, invoice date, holiday). Use <code>DATETIME</code> for wall-clock moments that should not shift with time zones (a scheduled event's display time). Use <code>TIMESTAMP</code> for audit fields (created_at, updated_at) where the column represents a real universal moment — MySQL stores it as UTC and auto-converts to the session's time zone on read.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does <code>WHERE YEAR(order_date) = 2026</code> often perform worse than <code>WHERE order_date &gt;= '2026-01-01' AND order_date &lt; '2027-01-01'</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">What happens to the index on order_date?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21">Wrapping an indexed column in a function (YEAR, MONTH, DATE_FORMAT, etc.) disables index usage — the optimizer would have to apply the function to every row to evaluate the WHERE. The range version keeps the column 'naked' on the left side, so MySQL can use the B-Tree index to seek directly to the 2026 rows. This is the single most common performance trap with date columns.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a query that returns today's date and yesterday's date.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">Use CURDATE() and INTERVAL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><pre><code>SELECT CURDATE() AS today,
+       CURDATE() - INTERVAL 1 DAY AS yesterday;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given an <code>orders(id, order_date, amount)</code> table, write a query that returns the total revenue for each month of 2026, sorted chronologically.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">GROUP BY DATE_FORMAT with ISO pattern.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><pre><code>SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,
+       SUM(amount) AS revenue
+FROM orders
+WHERE order_date >= '2026-01-01'
+  AND order_date <  '2027-01-01'
+GROUP BY month
+ORDER BY month;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a query to list students whose age is between 18 and 22 given a <code>students(name, dob)</code> table.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">TIMESTAMPDIFF with YEAR.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24"><pre><code>SELECT name, dob,
+       TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age
+FROM students
+WHERE TIMESTAMPDIFF(YEAR, dob, CURDATE()) BETWEEN 18 AND 22;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given <code>sessions(user_id, login_at DATETIME)</code>, find users whose most recent login was more than 90 days ago.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">Aggregate with MAX then HAVING with DATEDIFF.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25"><pre><code>SELECT user_id,
+       MAX(login_at) AS last_seen,
+       DATEDIFF(CURDATE(), MAX(login_at)) AS days_since
+FROM sessions
+GROUP BY user_id
+HAVING days_since > 90;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 26</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT TIMEDIFF('14:30:00', '09:15:30');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-26" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-26">TIMEDIFF returns a TIME value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-26" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-26"><code>05:14:30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 27</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT WEEK('2026-01-01');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-27" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-27">January 1 is in which week of the year?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-27" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-27"><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 28</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT CONVERT_TZ('2026-04-16 00:30:00', '+05:30', '+00:00');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-28" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-28">Subtract 5:30 from the given datetime.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-28" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-28"><code>2026-04-15 19:00:00</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 29</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between NOW() and SYSDATE()?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-29" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-29">Think about a query that runs for several seconds.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-29" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-29"><code>NOW()</code> returns the time the current statement started executing — every call within one statement returns the same value. <code>SYSDATE()</code> returns the actual system clock at the moment the function is called — it can return different values within the same statement. <code>NOW()</code> is deterministic (safe for replication). <code>SYSDATE()</code> is not.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this return (today = 2026-04-16)?<br><pre><code>SELECT CURDATE() - INTERVAL 30 DAY;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Subtract 30 days from April 16.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>2026-03-17</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT MONTHNAME('2026-07-20');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">MONTHNAME returns the full English month name.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>July</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given <code>employees(name, hire_date)</code>, what does this return?<br><pre><code>SELECT name,
+       TIMESTAMPDIFF(YEAR, hire_date, CURDATE()) AS tenure_yrs
+FROM employees
+WHERE hire_date = '2020-04-16';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Hired exactly 6 years ago today.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATE_FORMAT('2026-04-16', '%Y/%m/%d'),
+       DATE_FORMAT('2026-04-16', '%d %M, %Y');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Two different format patterns.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>2026/04/16  16 April, 2026</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a query that returns the number of orders placed each day for the last 7 days from <code>orders(id, order_date)</code>.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">GROUP BY order_date with a 7-day filter.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>SELECT order_date, COUNT(*) AS order_count
+FROM orders
+WHERE order_date >= CURDATE() - INTERVAL 7 DAY
+GROUP BY order_date
+ORDER BY order_date;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given <code>users(id, name, created_at)</code>, write a query that counts new signups per day-of-week (Monday-Sunday).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Use DAYNAME and GROUP BY.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>SELECT DAYNAME(created_at) AS day_of_week,
+       COUNT(*) AS signups
+FROM users
+GROUP BY day_of_week
+ORDER BY FIELD(day_of_week,
+               'Monday','Tuesday','Wednesday','Thursday',
+               'Friday','Saturday','Sunday');</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT DATE_FORMAT(NOW(), '%Y-Q%q');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Is %q a valid format code?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>2026-Q</code> (followed by a literal 'q' — MySQL treats unknown % codes literally)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT TIMESTAMPDIFF(DAY, '2026-02-15 23:00:00', '2026-02-16 01:00:00');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">How many whole days between these datetimes?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given <code>orders(id, customer_id, order_date, amount)</code>, write a query that returns the month-over-month revenue growth percentage for 2026.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Use a self-join on month or LAG (covered in Chapter 18). For now try the self-join pattern.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>SELECT curr.month,
+       curr.revenue,
+       prev.revenue AS prev_revenue,
+       ROUND((curr.revenue - prev.revenue) / prev.revenue * 100, 2) AS growth_pct
+FROM (
+  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,
+         SUM(amount) AS revenue
+  FROM orders
+  WHERE YEAR(order_date) = 2026
+  GROUP BY month
+) curr
+LEFT JOIN (
+  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,
+         SUM(amount) AS revenue
+  FROM orders
+  WHERE YEAR(order_date) = 2026
+  GROUP BY month
+) prev
+  ON curr.month = DATE_FORMAT(DATE_ADD(STR_TO_DATE(CONCAT(prev.month,'-01'),'%Y-%m-%d'), INTERVAL 1 MONTH), '%Y-%m')
+ORDER BY curr.month;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT EXTRACT(HOUR FROM '2026-04-16 14:23:07');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Extract only the hour component.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is TIMESTAMP limited to years 1970-2038 while DATETIME supports 1000-9999?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about how TIMESTAMP is stored internally.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">TIMESTAMP is stored as a 4-byte signed integer representing seconds since the Unix epoch (1970-01-01 UTC). A 32-bit signed integer can hold values up to 2^31 - 1 = 2,147,483,647, which translates to 2038-01-19 03:14:07 UTC — this is the famous 'Y2038 problem'. DATETIME is stored as 8 bytes of packed date/time components, giving it a much wider range but no time-zone awareness.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which function returns the current date only, without the time?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NOW()</li><li><span class="mcq-option-label">B.</span> CURDATE()</li><li><span class="mcq-option-label">C.</span> TODAY()</li><li><span class="mcq-option-label">D.</span> CURTIME()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> CURDATE() returns a DATE with no time. NOW() returns DATETIME. CURTIME() returns only the time. TODAY() is not a MySQL function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does DATEDIFF('2026-04-16', '2026-04-10') return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 6 days</li><li><span class="mcq-option-label">B.</span> 6</li><li><span class="mcq-option-label">C.</span> -6</li><li><span class="mcq-option-label">D.</span> A TIME value 00:00:06</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> DATEDIFF(a, b) returns a - b as an INTEGER number of days. No unit is appended. It can be negative if b > a.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which is the correct way to add 7 days to a date?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> date + 7</li><li><span class="mcq-option-label">B.</span> date + INTERVAL 7 DAY</li><li><span class="mcq-option-label">C.</span> ADD_DAYS(date, 7)</li><li><span class="mcq-option-label">D.</span> date.addDays(7)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Use the INTERVAL syntax or DATE_ADD(date, INTERVAL 7 DAY). Plain arithmetic (date + 7) sometimes appears to work but is unreliable and non-portable.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which DATE_FORMAT specifier produces a 4-digit year?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> %y</li><li><span class="mcq-option-label">B.</span> %Y</li><li><span class="mcq-option-label">C.</span> %YYYY</li><li><span class="mcq-option-label">D.</span> %year</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Capital %Y is 4-digit, lowercase %y is 2-digit. The specifiers are single-letter.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which function returns the last day of the month for a given date?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> END_OF_MONTH(date)</li><li><span class="mcq-option-label">B.</span> MONTH_END(date)</li><li><span class="mcq-option-label">C.</span> LAST_DAY(date)</li><li><span class="mcq-option-label">D.</span> EOM(date)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> LAST_DAY is the MySQL function. It correctly handles leap years.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which TIMESTAMPDIFF unit correctly computes age in years?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DAY</li><li><span class="mcq-option-label">B.</span> MONTH</li><li><span class="mcq-option-label">C.</span> YEAR</li><li><span class="mcq-option-label">D.</span> DECADE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> TIMESTAMPDIFF(YEAR, dob, CURDATE()) returns the exact completed years, respecting whether the birthday has passed in the current year.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Why is WHERE YEAR(created_at) = 2026 considered an anti-pattern?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is syntactically wrong</li><li><span class="mcq-option-label">B.</span> It prevents the optimizer from using an index on created_at</li><li><span class="mcq-option-label">C.</span> It returns duplicate rows</li><li><span class="mcq-option-label">D.</span> YEAR() is deprecated in MySQL 8</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Wrapping the indexed column in a function forces a full table scan. Rewrite as a range: <code>created_at >= '2026-01-01' AND created_at < '2027-01-01'</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which MySQL column type stores values as UTC internally and auto-converts on read?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DATE</li><li><span class="mcq-option-label">B.</span> DATETIME</li><li><span class="mcq-option-label">C.</span> TIMESTAMP</li><li><span class="mcq-option-label">D.</span> TIME</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> TIMESTAMP is time-zone aware: stored as UTC, converted to the session time zone on read. DATETIME is a literal wall-clock value with no TZ awareness.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does STR_TO_DATE('2026-13-01', '%Y-%m-%d') return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 2027-01-01</li><li><span class="mcq-option-label">B.</span> An error</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> 2026-12-01</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Month 13 is invalid, so STR_TO_DATE returns NULL. It does not error, and it does not silently roll over to the next year.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which of these returns the quarter number (1-4) for a date?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> QUARTER(date)</li><li><span class="mcq-option-label">B.</span> EXTRACT(QTR FROM date)</li><li><span class="mcq-option-label">C.</span> DATE_FORMAT(date, &#39;%q&#39;)</li><li><span class="mcq-option-label">D.</span> Q(date)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: A</strong><br><strong>A is correct.</strong> QUARTER(date) returns 1-4. MySQL's DATE_FORMAT has no %q specifier. EXTRACT(QUARTER FROM date) also works (full word), but not QTR.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">DAYOFWEEK in MySQL returns what for a Monday?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> 1</li><li><span class="mcq-option-label">C.</span> 2</li><li><span class="mcq-option-label">D.</span> 7</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> DAYOFWEEK numbers Sunday=1, Monday=2, ..., Saturday=7. For Monday=0 style (ISO), use WEEKDAY() instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the result of DATE_ADD('2026-01-31', INTERVAL 1 MONTH)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 2026-02-31 (stored as-is)</li><li><span class="mcq-option-label">B.</span> 2026-03-03 (rolled over)</li><li><span class="mcq-option-label">C.</span> 2026-02-28 (clamped)</li><li><span class="mcq-option-label">D.</span> NULL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> MySQL clamps to the last valid day of the target month. Feb 31 does not exist, so it becomes Feb 28 (2026 is not a leap year). No rollover, no NULL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Why might CONVERT_TZ return NULL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The input datetime is NULL</li><li><span class="mcq-option-label">B.</span> You used a named time zone like &#39;Asia/Kolkata&#39; without loading the tz tables</li><li><span class="mcq-option-label">C.</span> The offset is out of range</li><li><span class="mcq-option-label">D.</span> All of the above</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: D</strong><br><strong>D is correct.</strong> CONVERT_TZ returns NULL for NULL input, for unknown named zones (fix by running <code>mysql_tzinfo_to_sql</code>), and for invalid offsets. Named zones require the tz tables to be populated.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which query correctly finds orders placed in Q2 2026 using a sargable predicate?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE QUARTER(order_date) = 2 AND YEAR(order_date) = 2026</li><li><span class="mcq-option-label">B.</span> WHERE order_date BETWEEN &#39;2026-04-01&#39; AND &#39;2026-06-30&#39;</li><li><span class="mcq-option-label">C.</span> WHERE order_date &gt;= &#39;2026-04-01&#39; AND order_date &lt; &#39;2026-07-01&#39;</li><li><span class="mcq-option-label">D.</span> WHERE DATE_FORMAT(order_date, &#39;%Y-Q&#39;) = &#39;2026-Q2&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> It's sargable (the indexed column is not wrapped in a function) and uses a half-open range, which correctly includes the last day regardless of time component. B is close but fails for rows with times on June 30. A and D wrap the column in functions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which function combo gives you the first day of the NEXT month?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LAST_DAY(d)</li><li><span class="mcq-option-label">B.</span> LAST_DAY(d) + INTERVAL 1 DAY</li><li><span class="mcq-option-label">C.</span> DATE_ADD(d, INTERVAL 1 MONTH)</li><li><span class="mcq-option-label">D.</span> DAY(d) + 1</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> LAST_DAY gives the last day of the current month. Adding 1 day jumps to the 1st of the next month. This is the standard trick for monthly boundaries.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which function converts a Unix epoch integer to a DATETIME?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> UNIX_TIMESTAMP()</li><li><span class="mcq-option-label">B.</span> FROM_UNIXTIME()</li><li><span class="mcq-option-label">C.</span> EPOCH_TO_DATE()</li><li><span class="mcq-option-label">D.</span> TO_TIMESTAMP()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> FROM_UNIXTIME(seconds) converts epoch to DATETIME. UNIX_TIMESTAMP() goes the opposite direction.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does TIMEDIFF return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An INTEGER number of seconds</li><li><span class="mcq-option-label">B.</span> A TIME value</li><li><span class="mcq-option-label">C.</span> A DATETIME</li><li><span class="mcq-option-label">D.</span> A DECIMAL hours</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> TIMEDIFF returns a TIME value like '05:14:30'. For seconds-as-integer, use TIMESTAMPDIFF(SECOND, a, b).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Why does NOW() return the same value for every row within a single UPDATE statement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is cached globally</li><li><span class="mcq-option-label">B.</span> NOW() is evaluated once per statement to ensure deterministic, replication-safe behavior</li><li><span class="mcq-option-label">C.</span> It&#39;s a bug</li><li><span class="mcq-option-label">D.</span> Because UPDATE is fast</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> NOW() is deterministic per statement — essential for replication and for keeping audit timestamps consistent across rows in a bulk update. Use SYSDATE() if you want the real clock per call.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">To GROUP BY month with correct chronological sorting, which format pattern should you use?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &#39;%M %Y&#39; (April 2026)</li><li><span class="mcq-option-label">B.</span> &#39;%m-%Y&#39; (04-2026)</li><li><span class="mcq-option-label">C.</span> &#39;%Y-%m&#39; (2026-04)</li><li><span class="mcq-option-label">D.</span> &#39;%b-%y&#39; (Apr-26)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: C</strong><br><strong>C is correct.</strong> '%Y-%m' sorts alphabetically the same as chronologically. The others sort wrong — April comes before January alphabetically, and '04-2026' comes before '04-2025' only because of the month.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">Why does TIMESTAMP have a Y2038 problem?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> MySQL was designed in the 1970s</li><li><span class="mcq-option-label">B.</span> It is stored as a 32-bit signed integer of seconds since 1970-01-01 UTC, which overflows at 2038-01-19</li><li><span class="mcq-option-label">C.</span> Because leap years confuse it</li><li><span class="mcq-option-label">D.</span> It cannot handle dates before 2000</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> A 32-bit signed integer holds 2^31 - 1 = 2147483647 seconds, which maps to 2038-01-19 03:14:07 UTC. Many systems (including MySQL) are migrating to 64-bit timestamps to solve this.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Orders From the Last 30 Days</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given orders(id, customer, order_date, amount), write a query that returns all orders placed in the last 30 days (inclusive of today), sorted by order_date descending.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders rows: 6 sample rows across the last 2 months</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">All rows with order_date &gt;= CURDATE() - INTERVAL 30 DAY.</div>
+                </div><div class="challenge-constraints">Use a sargable range predicate. Do not wrap order_date in a function.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">CREATE TABLE orders (
+  id INT PRIMARY KEY,
+  customer VARCHAR(50),
+  order_date DATE,
+  amount DECIMAL(10,2)
+);
+INSERT INTO orders VALUES
+  (1, &#39;Aarav Sharma&#39;,  &#39;2026-04-15&#39;, 1200),
+  (2, &#39;Priya Nair&#39;,    &#39;2026-04-02&#39;,  850),
+  (3, &#39;Rohan Mehta&#39;,   &#39;2026-03-25&#39;, 2400),
+  (4, &#39;Meera Krishnan&#39;,&#39;2026-03-10&#39;,  450),
+  (5, &#39;Vikram Singh&#39;,  &#39;2026-02-28&#39;, 3100);
+
+SELECT *
+FROM orders
+WHERE order_date &gt;= CURDATE() - INTERVAL 30 DAY
+ORDER BY order_date DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Age From Date of Birth</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given students(id, name, dob), return each student's name, dob, and exact age in completed years as of today. Sort by age descending.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">5 students with varied DOBs including one whose birthday is tomorrow.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Each row shows the student and their age in whole years.</div>
+                </div><div class="challenge-constraints">Use TIMESTAMPDIFF, not DATEDIFF/365.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">CREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(50), dob DATE);
+INSERT INTO students VALUES
+  (1, &#39;Ishaan Gupta&#39;,  &#39;2008-11-12&#39;),
+  (2, &#39;Kavya Reddy&#39;,   &#39;2006-02-29&#39;),
+  (3, &#39;Arjun Pillai&#39;,  &#39;2010-04-17&#39;),
+  (4, &#39;Neha Choudhary&#39;,&#39;2004-07-22&#39;),
+  (5, &#39;Diya Bhatt&#39;,    &#39;2000-01-05&#39;);
+
+SELECT name, dob,
+       TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age
+FROM students
+ORDER BY age DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Revenue by Month of 2026</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">From sales(id, sold_at DATETIME, amount), return order count and total revenue for each month of 2026, sorted chronologically.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">8 sales across Jan-April 2026.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">One row per month with count and SUM(amount).</div>
+                </div><div class="challenge-constraints">Use sortable format for GROUP BY. Filter sargably.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">CREATE TABLE sales (id INT PRIMARY KEY, sold_at DATETIME, amount DECIMAL(10,2));
+INSERT INTO sales VALUES
+  (1, &#39;2026-01-10 10:22:00&#39;, 1200),
+  (2, &#39;2026-01-25 15:40:00&#39;,  800),
+  (3, &#39;2026-02-03 09:10:00&#39;, 2200),
+  (4, &#39;2026-02-28 18:05:00&#39;, 1500),
+  (5, &#39;2026-03-12 11:30:00&#39;, 3100),
+  (6, &#39;2026-03-29 20:00:00&#39;,  950),
+  (7, &#39;2026-04-05 13:15:00&#39;, 1800),
+  (8, &#39;2026-04-15 16:45:00&#39;, 2650);
+
+SELECT DATE_FORMAT(sold_at, &#39;%Y-%m&#39;) AS month,
+       COUNT(*) AS orders,
+       SUM(amount) AS revenue
+FROM sales
+WHERE sold_at &gt;= &#39;2026-01-01&#39; AND sold_at &lt; &#39;2027-01-01&#39;
+GROUP BY month
+ORDER BY month;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Inactive Users Report</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given sessions(user_id, last_login DATETIME), return user_id, last_login date, and days_inactive for users whose most recent login is more than 30 days ago. Sort by days_inactive DESC.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">5 users with varied last_login values.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Only users with 30+ days of inactivity, most inactive first.</div>
+                </div><div class="challenge-constraints">Use GROUP BY + HAVING. Do not include active users.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">CREATE TABLE sessions (user_id INT, last_login DATETIME);
+INSERT INTO sessions VALUES
+  (101, &#39;2026-04-15 09:12:00&#39;),
+  (102, &#39;2026-03-05 14:20:00&#39;),
+  (103, &#39;2026-04-10 11:00:00&#39;),
+  (104, &#39;2026-01-20 08:30:00&#39;),
+  (105, &#39;2026-03-14 22:15:00&#39;);
+
+SELECT user_id,
+       MAX(last_login)                           AS last_seen,
+       DATEDIFF(CURDATE(), MAX(last_login))      AS days_inactive
+FROM sessions
+GROUP BY user_id
+HAVING days_inactive &gt; 30
+ORDER BY days_inactive DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Sign-Ups by Day of Week</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given users(id, name, created_at DATETIME), return each weekday (Monday to Sunday) and the number of users who signed up on that weekday. Output in Mon-Sun order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">7 users spread across different weekdays.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">7 rows, one per weekday, sorted Mon-&gt;Sun.</div>
+                </div><div class="challenge-constraints">Use DAYNAME and custom ordering with FIELD.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(50), created_at DATETIME);
+INSERT INTO users VALUES
+  (1,&#39;Aarav Sharma&#39;,  &#39;2026-04-13 10:00:00&#39;),  -- Monday
+  (2,&#39;Priya Nair&#39;,    &#39;2026-04-14 09:30:00&#39;),  -- Tuesday
+  (3,&#39;Rohan Mehta&#39;,   &#39;2026-04-15 18:10:00&#39;),  -- Wednesday
+  (4,&#39;Ananya Iyer&#39;,   &#39;2026-04-16 07:22:00&#39;),  -- Thursday
+  (5,&#39;Vikram Singh&#39;,  &#39;2026-04-10 23:00:00&#39;),  -- Friday
+  (6,&#39;Meera Krishnan&#39;,&#39;2026-04-11 12:00:00&#39;),  -- Saturday
+  (7,&#39;Diya Bhatt&#39;,    &#39;2026-04-12 19:30:00&#39;);  -- Sunday
+
+SELECT DAYNAME(created_at) AS day_of_week,
+       COUNT(*)             AS signups
+FROM users
+GROUP BY day_of_week
+ORDER BY FIELD(day_of_week,
+               &#39;Monday&#39;,&#39;Tuesday&#39;,&#39;Wednesday&#39;,&#39;Thursday&#39;,
+               &#39;Friday&#39;,&#39;Saturday&#39;,&#39;Sunday&#39;);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Monthly Retention Window</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given orders(id, customer_id, order_date), for each customer return the first and last order dates and the number of months between them (as a tenure measure).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Multiple orders per customer across several months.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">customer_id, first_order, last_order, tenure_months.</div>
+                </div><div class="challenge-constraints">Use MIN, MAX, and TIMESTAMPDIFF with MONTH unit.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, order_date DATE);
+INSERT INTO orders VALUES
+  (1, 101, &#39;2025-01-10&#39;),
+  (2, 101, &#39;2025-07-22&#39;),
+  (3, 101, &#39;2026-03-05&#39;),
+  (4, 102, &#39;2025-11-02&#39;),
+  (5, 102, &#39;2026-02-14&#39;),
+  (6, 103, &#39;2026-04-01&#39;);
+
+SELECT customer_id,
+       MIN(order_date)                                       AS first_order,
+       MAX(order_date)                                       AS last_order,
+       TIMESTAMPDIFF(MONTH, MIN(order_date), MAX(order_date)) AS tenure_months
+FROM orders
+GROUP BY customer_id
+ORDER BY tenure_months DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Parse Mixed Date Strings</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given raw_upload(id, raw_date VARCHAR(30)) with dates in three formats ('16-04-2026', '05/04/2026', 'April 12, 2026'), return id, raw_date, and parsed_date (a proper DATE). Rows that cannot be parsed should show NULL for parsed_date.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">4+ rows mixing the three formats plus one garbage string.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">All rows with parsed_date populated where possible.</div>
+                </div><div class="challenge-constraints">Use CASE with LIKE, STR_TO_DATE for each format. Handle invalid input gracefully.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">CREATE TABLE raw_upload (id INT PRIMARY KEY, raw_date VARCHAR(30));
+INSERT INTO raw_upload VALUES
+  (1, &#39;16-04-2026&#39;),
+  (2, &#39;05/04/2026&#39;),
+  (3, &#39;April 12, 2026&#39;),
+  (4, &#39;2026.04.09&#39;),
+  (5, &#39;not a date&#39;);
+
+SELECT id, raw_date,
+       CASE
+         WHEN raw_date REGEXP &#39;^[0-9]{2}-[0-9]{2}-[0-9]{4}{{CODING_CHALLENGES_HTML}}#39;    THEN STR_TO_DATE(raw_date, &#39;%d-%m-%Y&#39;)
+         WHEN raw_date REGEXP &#39;^[0-9]{2}/[0-9]{2}/[0-9]{4}{{CODING_CHALLENGES_HTML}}#39;    THEN STR_TO_DATE(raw_date, &#39;%d/%m/%Y&#39;)
+         WHEN raw_date REGEXP &#39;^[A-Za-z]+ [0-9]+, [0-9]{4}{{CODING_CHALLENGES_HTML}}#39;    THEN STR_TO_DATE(raw_date, &#39;%M %d, %Y&#39;)
+         WHEN raw_date REGEXP &#39;^[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}{{CODING_CHALLENGES_HTML}}#39; THEN STR_TO_DATE(raw_date, &#39;%Y.%m.%d&#39;)
+         ELSE NULL
+       END AS parsed_date
+FROM raw_upload;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Global Webinar Display</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given webinars(id, topic, starts_utc DATETIME), show the start time for three time zones: IST (+05:30), Singapore (+08:00), and New York (-04:00). Also include a pretty IST display string like 'Thursday, 16 Apr 07:30 PM'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">3 webinars with UTC start times.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">topic, utc, ist, sg, ny, pretty_ist.</div>
+                </div><div class="challenge-constraints">Use CONVERT_TZ and DATE_FORMAT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">CREATE TABLE webinars (id INT PRIMARY KEY, topic VARCHAR(60), starts_utc DATETIME);
+INSERT INTO webinars VALUES
+  (1,&#39;Python Masterclass&#39;,&#39;2026-04-20 13:30:00&#39;),
+  (2,&#39;SQL Interview Prep&#39;,&#39;2026-04-22 14:00:00&#39;),
+  (3,&#39;Web Dev Bootcamp&#39;,  &#39;2026-04-25 03:00:00&#39;);
+
+SELECT topic,
+       starts_utc                                          AS utc,
+       CONVERT_TZ(starts_utc,&#39;+00:00&#39;,&#39;+05:30&#39;)            AS ist,
+       CONVERT_TZ(starts_utc,&#39;+00:00&#39;,&#39;+08:00&#39;)            AS sg,
+       CONVERT_TZ(starts_utc,&#39;+00:00&#39;,&#39;-04:00&#39;)            AS ny,
+       DATE_FORMAT(CONVERT_TZ(starts_utc,&#39;+00:00&#39;,&#39;+05:30&#39;),
+                   &#39;%W, %d %b %h:%i %p&#39;)                   AS pretty_ist
+FROM webinars
+ORDER BY starts_utc;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/string-functions/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">String Functions in SQL</span>
+        </a>
+            <a href="/resources/sql/conditional-logic-case-when/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Conditional Logic - CASE WHEN, IF, IFNULL</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/date-and-time-functions" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

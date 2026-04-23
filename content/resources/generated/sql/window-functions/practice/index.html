@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="64+ practice questions on Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="window functions - row_number, rank, dense_rank, lag, lead practice, sql questions, sql practice problems, window functions - row_number, rank, dense_rank, lag, lead exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/window-functions/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/window-functions/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/window-functions/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/window-functions/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/window-functions/practice">
+    <meta property="og:title" content="Practice Questions - Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD | SQL | Modern Age Coders">
+    <meta property="og:description" content="64+ practice questions on Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/window-functions/practice">
+    <meta name="twitter:title" content="Practice Questions - Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="64+ practice questions on Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD",
+    "description": "64+ practice questions on Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD in SQL.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/window-functions/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD",
+        "item": "https://learn.modernagecoders.com/resources/sql/window-functions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/window-functions/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/window-functions">Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 18</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">64 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD</h1>
+            <a href="/resources/sql/window-functions" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">18</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">For salaries [90, 85, 85, 70], what does ROW_NUMBER() OVER (ORDER BY salary DESC) return for each row?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">ROW_NUMBER is always unique and sequential.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>1, 2, 3, 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">For salaries [90, 85, 85, 70], what does RANK() OVER (ORDER BY salary DESC) return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">RANK skips after ties.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>1, 2, 2, 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">For salaries [90, 85, 85, 70], what does DENSE_RANK() OVER (ORDER BY salary DESC) return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">DENSE_RANK does not skip.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>1, 2, 2, 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does PARTITION BY do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">It divides rows into groups before the window function computes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">PARTITION BY splits the result set into groups. The window function restarts its computation at each group boundary — so ranking, running totals, and LAG/LEAD all reset per partition.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does LAG(amount) OVER (ORDER BY order_date) return for the FIRST row of the result set?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">There is no row before the first one.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given amounts [100, 200, 300, 400, 500] ordered by date, what does SUM(amount) OVER (ORDER BY date ROWS UNBOUNDED PRECEDING) return for each row?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Running total from the start of the partition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>100, 300, 600, 1000, 1500</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given amounts [10, 20, 30, 40, 50], what does AVG(amount) OVER (ORDER BY date ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) return for each row?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">3-row moving average (includes current row).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>10, 15, 20, 30, 40</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the default frame for OVER(ORDER BY date) with no explicit frame clause?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">RANGE-based and ends at the current row.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">In NTILE(4) with 10 rows, how many rows does each bucket receive?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">10 / 4 = 2 remainder 2. Extras go to the first buckets.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Buckets 1 and 2: 3 rows each. Buckets 3 and 4: 2 rows each.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Can a window function appear in the WHERE clause?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Order of evaluation matters.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>No</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">For values [10, 20, 30, 40], what does LEAD(x, 1, -1) OVER (ORDER BY id) return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">LEAD looks forward. Default is -1 if no next row.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>20, 30, 40, -1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">PERCENT_RANK() OVER (ORDER BY salary) for 5 rows returns what for the first and last row?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Formula: (rank - 1) / (total_rows - 1).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>First: 0.00, Last: 1.00</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given customer_id partitions [A, A, B, B, B] in that order, what does ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY date) return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Row numbers restart at each partition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>1, 2, 1, 2, 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What will LAST_VALUE(x) OVER (ORDER BY date) return without an explicit frame?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Default frame ends at CURRENT ROW.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>The current row's x value (not the last partition value)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">For the sequence [100, 120, 95, 130], what does 120 - LAG(120) OVER (ORDER BY id) compute? And what if 120's LAG is NULL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Arithmetic with NULL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>difference with previous row; returns NULL when LAG is NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When would you use RANK vs DENSE_RANK?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Think about how gaps in the ranking affect downstream logic.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Use <strong>RANK</strong> when you want 'position in the ordering', including the effect of ties — 'the 4th runner on the leaderboard' even though positions 1-3 tied. Use <strong>DENSE_RANK</strong> when you want to count DISTINCT values — 'the 3rd highest distinct salary' or to fetch 'top N distinct categories'. For top-N per group queries, DENSE_RANK typically returns more rows when ties occur at the threshold.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is ROWS BETWEEN almost always preferred over RANGE BETWEEN?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about how each counts.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">ROWS counts physical rows (mechanical, predictable). RANGE counts by value — it includes all rows whose ORDER BY value equals the current row's value plus the offset. With RANGE, ties cause surprising inclusions; a 2-row moving average could include 5 rows if they all tie. ROWS gives exactly what you ask for. Use RANGE only when you explicitly want time-value-based windows like 'all orders in the last 7 days regardless of how many rows that is'.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given employees(name, dept, salary), return only the highest-paid employee per dept. Ties count (include all tied top earners).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">DENSE_RANK with partition, then filter rnk = 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>SELECT name, dept, salary
+FROM (
+  SELECT name, dept, salary,
+         DENSE_RANK() OVER (PARTITION BY dept ORDER BY salary DESC) AS rnk
+  FROM employees
+) t
+WHERE rnk = 1;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given sales(sale_date, amount), return each day's sale and the running total.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">SUM OVER with an ordered frame.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>SELECT sale_date, amount,
+  SUM(amount) OVER (
+    ORDER BY sale_date
+    ROWS UNBOUNDED PRECEDING
+  ) AS running_total
+FROM sales
+ORDER BY sale_date;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given orders(customer_id, order_date, amount), return each order along with the previous order date for the same customer.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">LAG with PARTITION BY customer_id.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><pre><code>SELECT customer_id, order_date, amount,
+  LAG(order_date) OVER (
+    PARTITION BY customer_id ORDER BY order_date
+  ) AS prev_order_date
+FROM orders
+ORDER BY customer_id, order_date;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given orders(order_date, amount), return month, revenue, and month-over-month growth percentage.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Aggregate to monthly totals first, then apply LAG.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><pre><code>WITH monthly AS (
+  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,
+         SUM(amount)                      AS revenue
+  FROM orders
+  GROUP BY month
+)
+SELECT month, revenue,
+  LAG(revenue) OVER (ORDER BY month) AS prev_revenue,
+  ROUND(
+    (revenue - LAG(revenue) OVER (ORDER BY month))
+    / LAG(revenue) OVER (ORDER BY month) * 100, 2
+  ) AS mom_pct
+FROM monthly
+ORDER BY month;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a query to find the 3rd highest distinct salary from employees(salary).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">DENSE_RANK = 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><pre><code>SELECT DISTINCT salary
+FROM (
+  SELECT salary,
+         DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk
+  FROM employees
+) t
+WHERE rnk = 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given logins(user_id, login_date), identify consecutive login streaks per user using the 'gaps and islands' trick.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">Subtract ROW_NUMBER * 1 day from login_date; consecutive dates share the same grouping key.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><pre><code>SELECT user_id,
+       MIN(login_date) AS streak_start,
+       MAX(login_date) AS streak_end,
+       COUNT(*)        AS streak_length
+FROM (
+  SELECT user_id, login_date,
+         DATE_SUB(login_date,
+                  INTERVAL ROW_NUMBER() OVER
+                    (PARTITION BY user_id ORDER BY login_date) DAY) AS grp
+  FROM logins
+) t
+GROUP BY user_id, grp
+ORDER BY user_id, streak_start;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given sales(sale_date, amount), compute a 7-day trailing moving average.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">ROWS BETWEEN 6 PRECEDING AND CURRENT ROW.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24"><pre><code>SELECT sale_date, amount,
+  ROUND(AVG(amount) OVER (
+    ORDER BY sale_date
+    ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
+  ), 2) AS ma_7d
+FROM sales
+ORDER BY sale_date;</code></pre></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is returned by AVG(salary) OVER () — with empty OVER parentheses?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">No partition, no order — one single window.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>The global average salary, repeated on every row.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">For 5 rows with scores [80, 90, 70, 85, 95], what does ROW_NUMBER() OVER (ORDER BY score DESC) return for the row with score 85?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Count ranks down from 95.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Predict the running total of 500, 300, 200, 400 in that order using SUM OVER (ORDER BY id ROWS UNBOUNDED PRECEDING):</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Sum each row with all earlier rows.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>500, 800, 1000, 1400</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">For customer_id [1,1,2,2,2] ordered by date, what does ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY date) return?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Each partition restarts.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>1, 2, 1, 2, 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output of SUM(CASE WHEN status='paid' THEN amount END) OVER (PARTITION BY customer_id) in a mix of paid/failed orders?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">CASE inside a window aggregate.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>The per-customer total of only 'paid' amounts, on every row for that customer.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given employees(name, dept, salary), add a column showing the difference between each employee's salary and the department average.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">AVG OVER with PARTITION BY dept.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>SELECT name, dept, salary,
+  ROUND(AVG(salary) OVER (PARTITION BY dept), 2) AS dept_avg,
+  ROUND(salary - AVG(salary) OVER (PARTITION BY dept), 2) AS diff_from_avg
+FROM employees;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given orders(customer_id, order_date, amount), show each order with the customer's cumulative spend up to that order.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">PARTITION BY customer_id with running total frame.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>SELECT customer_id, order_date, amount,
+  SUM(amount) OVER (
+    PARTITION BY customer_id
+    ORDER BY order_date
+    ROWS UNBOUNDED PRECEDING
+  ) AS cumulative_spend
+FROM orders
+ORDER BY customer_id, order_date;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given exam(student, score), return student, score, and their percentile (0-100).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">PERCENT_RANK returns 0..1; multiply by 100.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>SELECT student, score,
+  ROUND(PERCENT_RANK() OVER (ORDER BY score) * 100, 2) AS percentile
+FROM exam
+ORDER BY score DESC;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given logins(user_id, login_date), find the longest login streak per user.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Gaps-and-islands trick, then GROUP BY + MAX.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>WITH streaks AS (
+  SELECT user_id, login_date,
+    DATE_SUB(login_date,
+             INTERVAL ROW_NUMBER() OVER
+               (PARTITION BY user_id ORDER BY login_date) DAY) AS grp
+  FROM logins
+),
+streak_lengths AS (
+  SELECT user_id, grp, COUNT(*) AS streak_length
+  FROM streaks
+  GROUP BY user_id, grp
+)
+SELECT user_id, MAX(streak_length) AS longest_streak
+FROM streak_lengths
+GROUP BY user_id;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does SUM(amount) OVER () appear on every row with the grand total?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Empty OVER() = one window = whole result set.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">OVER() with no PARTITION BY, ORDER BY, or frame treats the entire result set as a single window. The aggregate computes once over all rows, and the result is projected onto every row. This is the standard way to compute 'grand total' or 'overall average' alongside row-level data without a second scan of the table.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">In MySQL, when would you prefer a window function over a correlated subquery?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about performance and readability.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Window functions are almost always better than correlated subqueries when both can express the same logic. Reasons: (1) Window functions scan the table once and compute all ranking/running values in a single pass. Correlated subqueries often rerun for each row, making them O(n^2). (2) Window functions are more readable — the intent is obvious. (3) The optimizer has better statistics and plan options for window functions. Use correlated subqueries only when window functions cannot express the logic (rare).</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which keyword introduces the window specification?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WINDOW</li><li><span class="mcq-option-label">B.</span> OVER</li><li><span class="mcq-option-label">C.</span> WITHIN</li><li><span class="mcq-option-label">D.</span> PARTITION</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The OVER clause defines the window. PARTITION BY and ORDER BY live inside OVER(). There is a WINDOW clause for named windows but it is rarely used.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which function gives a unique sequence (no ties)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> RANK</li><li><span class="mcq-option-label">B.</span> DENSE_RANK</li><li><span class="mcq-option-label">C.</span> ROW_NUMBER</li><li><span class="mcq-option-label">D.</span> NTILE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> ROW_NUMBER always returns 1, 2, 3, ... with no ties. RANK and DENSE_RANK share numbers on ties.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">For salaries [90, 90, 80], DENSE_RANK() DESC returns:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1, 2, 3</li><li><span class="mcq-option-label">B.</span> 1, 1, 2</li><li><span class="mcq-option-label">C.</span> 1, 1, 3</li><li><span class="mcq-option-label">D.</span> 2, 2, 3</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> DENSE_RANK gives both 90s rank 1 (tied), then the next distinct value (80) gets rank 2 — no gap.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">PARTITION BY in OVER() does what?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Divides rows into groups so the function restarts per group</li><li><span class="mcq-option-label">B.</span> Filters rows</li><li><span class="mcq-option-label">C.</span> Sorts the output</li><li><span class="mcq-option-label">D.</span> Creates a named window</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: A</strong><br><strong>A is correct.</strong> PARTITION BY is like GROUP BY for windows — each group is an independent window, and the function restarts at each boundary.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">LAG(col, 2, 0) returns:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The value 2 rows before the current row, or 0 if no such row</li><li><span class="mcq-option-label">B.</span> The value 2 rows after</li><li><span class="mcq-option-label">C.</span> 0 always</li><li><span class="mcq-option-label">D.</span> An error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: A</strong><br><strong>A is correct.</strong> Arguments: (column, offset, default). Offset 2 means 2 rows back. Default 0 is returned when the offset would fall before the partition start.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which clauses can contain a window function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE and HAVING only</li><li><span class="mcq-option-label">B.</span> SELECT and ORDER BY only</li><li><span class="mcq-option-label">C.</span> SELECT, WHERE, and GROUP BY</li><li><span class="mcq-option-label">D.</span> Everywhere</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> Window functions are computed AFTER WHERE/GROUP BY/HAVING. They can only appear in SELECT and ORDER BY. To filter on a window result, wrap the query in a subquery or CTE.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which frame gives a 7-row trailing moving average (current row + 6 before)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ROWS BETWEEN 7 PRECEDING AND CURRENT ROW</li><li><span class="mcq-option-label">B.</span> ROWS BETWEEN 6 PRECEDING AND CURRENT ROW</li><li><span class="mcq-option-label">C.</span> ROWS BETWEEN UNBOUNDED PRECEDING AND 7 PRECEDING</li><li><span class="mcq-option-label">D.</span> RANGE BETWEEN 7 DAY PRECEDING AND CURRENT ROW</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> 6 preceding + current row = 7 rows total. Option A would give 8 rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Why does LAST_VALUE() commonly return the wrong answer without an explicit frame?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A MySQL bug</li><li><span class="mcq-option-label">B.</span> The default frame ends at CURRENT ROW</li><li><span class="mcq-option-label">C.</span> It can only be used with PARTITION BY</li><li><span class="mcq-option-label">D.</span> It requires DISTINCT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> The default frame (with ORDER BY) is RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW. Fix with ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">NTILE(4) with 9 rows distributes rows how?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All buckets get 2 rows, last gets 3</li><li><span class="mcq-option-label">B.</span> Buckets 1 gets 3, buckets 2-4 each get 2</li><li><span class="mcq-option-label">C.</span> Each gets 2 except one with 1</li><li><span class="mcq-option-label">D.</span> Rows are randomly distributed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> 9 / 4 = 2 remainder 1. The first 1 bucket gets an extra row. So bucket 1 has 3, buckets 2, 3, 4 each have 2.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">To find 'top 3 per department' including ties, which is best?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ROW_NUMBER() OVER (PARTITION BY dept ORDER BY salary DESC) and filter rn &lt;= 3</li><li><span class="mcq-option-label">B.</span> DENSE_RANK() OVER (PARTITION BY dept ORDER BY salary DESC) and filter rnk &lt;= 3</li><li><span class="mcq-option-label">C.</span> NTILE(3)</li><li><span class="mcq-option-label">D.</span> LIMIT 3 OFFSET 0</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> DENSE_RANK <= 3 gives the top 3 distinct salary levels per dept, including all ties. ROW_NUMBER would cut off ties arbitrarily. NTILE does bucketing, not top-N. LIMIT applies to the whole query, not per group.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which version introduced window functions in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5.7</li><li><span class="mcq-option-label">B.</span> 8.0</li><li><span class="mcq-option-label">C.</span> 5.6</li><li><span class="mcq-option-label">D.</span> They were always there</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL added window functions in 8.0. Earlier versions required user-defined variable hacks or correlated subqueries. MariaDB 10.2+ also supports them.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">SUM(amount) OVER () without any PARTITION BY or ORDER BY returns:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A running total</li><li><span class="mcq-option-label">B.</span> The grand total, repeated on every row</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> An error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Empty OVER() treats the whole result as one window. SUM over that = grand total on every row — useful for 'percent of total' calculations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Why is ROWS usually preferred over RANGE in frame clauses?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ROWS counts physical rows deterministically; RANGE can include unexpected ties</li><li><span class="mcq-option-label">B.</span> RANGE is deprecated</li><li><span class="mcq-option-label">C.</span> ROWS is faster always</li><li><span class="mcq-option-label">D.</span> RANGE only works with DATE columns</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: A</strong><br><strong>A is correct.</strong> RANGE uses value-based frames, so ties can pull in more rows than you expect. ROWS is mechanical and predictable. Use RANGE only when you specifically want time-value windows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What's the classic 'gaps and islands' trick for consecutive dates?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Subtract ROW_NUMBER from the date; same result = same streak</li><li><span class="mcq-option-label">B.</span> Use LAG and check if diff = 1</li><li><span class="mcq-option-label">C.</span> Group by date</li><li><span class="mcq-option-label">D.</span> GROUP BY ROLLUP</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>date - row_number</code> is constant for consecutive rows. Grouping by that key gives you each streak. B (LAG + diff) also works but requires more steps; A is the elegant one-shot key.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">To filter on a window function result, you must:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Use the window function in WHERE</li><li><span class="mcq-option-label">B.</span> Wrap the query in a subquery or CTE and filter the outer query</li><li><span class="mcq-option-label">C.</span> Use HAVING</li><li><span class="mcq-option-label">D.</span> Use GROUP BY</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Window functions are evaluated after WHERE/GROUP BY/HAVING, so you cannot filter on their results in the same level. Subquery or CTE is the fix.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">LAG(col) OVER (ORDER BY id) for the first row returns:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> NULL</li><li><span class="mcq-option-label">C.</span> The same value as the first row</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> No previous row exists, so LAG defaults to NULL unless you pass a 3rd argument as the default.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which query gives each row's amount as a percentage of the grand total?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> amount / SUM(amount) * 100</li><li><span class="mcq-option-label">B.</span> amount / SUM(amount) OVER () * 100</li><li><span class="mcq-option-label">C.</span> amount / SUM(amount) OVER (PARTITION BY id) * 100</li><li><span class="mcq-option-label">D.</span> PERCENT_RANK()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Empty OVER() gives the grand total on every row. Option A is invalid (plain SUM without GROUP BY). Option C partitions per-id, giving 100% per row.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the key difference between LAG and subquery '(SELECT col FROM t WHERE id = outer.id - 1)'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LAG is faster and more readable; subquery is O(n^2) correlated</li><li><span class="mcq-option-label">B.</span> They are equivalent in all cases</li><li><span class="mcq-option-label">C.</span> Subquery is faster</li><li><span class="mcq-option-label">D.</span> LAG doesn&#39;t exist in MySQL 8</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: A</strong><br><strong>A is correct.</strong> LAG computes in a single window-function pass. A correlated subquery reruns for each row. On large tables, LAG can be 100x faster.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">To include ties when finding 'top 3 employees per dept', use:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ROW_NUMBER &lt;= 3</li><li><span class="mcq-option-label">B.</span> RANK &lt;= 3</li><li><span class="mcq-option-label">C.</span> DENSE_RANK &lt;= 3</li><li><span class="mcq-option-label">D.</span> Both B and C work, but they return slightly different sets when ties straddle the boundary</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: D</strong><br><strong>D is correct.</strong> RANK <= 3 gives top 3 positions including ties at any rank. DENSE_RANK <= 3 gives top 3 distinct salary levels. Both include ties; which is correct depends on wording. ROW_NUMBER arbitrarily cuts ties.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">For a running total per customer, the correct OVER clause is:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> OVER (ORDER BY order_date ROWS UNBOUNDED PRECEDING)</li><li><span class="mcq-option-label">B.</span> OVER (PARTITION BY customer_id ORDER BY order_date ROWS UNBOUNDED PRECEDING)</li><li><span class="mcq-option-label">C.</span> OVER (PARTITION BY customer_id)</li><li><span class="mcq-option-label">D.</span> OVER ()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> PARTITION BY resets per customer. ORDER BY + ROWS UNBOUNDED PRECEDING gives the cumulative sum from the partition start.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Rank Employees by Salary</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given employees(id, name, salary), return each employee with their rank (1 = highest). Handle ties by sharing the rank (use RANK).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">7 employees with two ties.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Each row has name, salary, rnk.</div>
+                </div><div class="challenge-constraints">Use RANK window function.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">CREATE TABLE employees (id INT PRIMARY KEY, name VARCHAR(50), salary DECIMAL(10,2));
+INSERT INTO employees VALUES
+  (1,&#39;Aarav Sharma&#39;,95000),(2,&#39;Priya Nair&#39;,95000),
+  (3,&#39;Rohan Mehta&#39;,82000),(4,&#39;Ananya Iyer&#39;,72000),
+  (5,&#39;Vikram Singh&#39;,68000),(6,&#39;Meera Krishnan&#39;,68000),
+  (7,&#39;Diya Bhatt&#39;,55000);
+
+SELECT name, salary,
+  RANK() OVER (ORDER BY salary DESC) AS rnk
+FROM employees
+ORDER BY rnk, name;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Top 3 Per Department</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given employees(name, dept, salary), return the top 3 highest-paid employees per dept. Include ties (use DENSE_RANK).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Employees across multiple departments with ties.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Up to 3+ rows per dept (more if ties).</div>
+                </div><div class="challenge-constraints">Use DENSE_RANK with PARTITION BY and filter in outer query.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">CREATE TABLE employees (id INT PRIMARY KEY, name VARCHAR(50), dept VARCHAR(30), salary DECIMAL(10,2));
+INSERT INTO employees VALUES
+  (1,&#39;Aarav Sharma&#39;,&#39;Engineering&#39;,95000),
+  (2,&#39;Priya Nair&#39;,&#39;Engineering&#39;,95000),
+  (3,&#39;Rohan Mehta&#39;,&#39;Engineering&#39;,82000),
+  (4,&#39;Ananya Iyer&#39;,&#39;Engineering&#39;,72000),
+  (5,&#39;Vikram Singh&#39;,&#39;Sales&#39;,68000),
+  (6,&#39;Meera Krishnan&#39;,&#39;Sales&#39;,68000),
+  (7,&#39;Diya Bhatt&#39;,&#39;Sales&#39;,55000),
+  (8,&#39;Ishaan Gupta&#39;,&#39;Sales&#39;,50000);
+
+SELECT name, dept, salary
+FROM (
+  SELECT name, dept, salary,
+         DENSE_RANK() OVER (PARTITION BY dept ORDER BY salary DESC) AS rnk
+  FROM employees
+) t
+WHERE rnk &lt;= 3
+ORDER BY dept, rnk, name;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Running Total of Sales</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given sales(sale_date, amount), return each day's amount and the running total up to that day.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">7 days of sales.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Each row has sale_date, amount, running_total.</div>
+                </div><div class="challenge-constraints">Use SUM OVER with UNBOUNDED PRECEDING frame.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">CREATE TABLE sales (sale_date DATE PRIMARY KEY, amount DECIMAL(10,2));
+INSERT INTO sales VALUES
+  (&#39;2026-04-10&#39;,1200),(&#39;2026-04-11&#39;,800),
+  (&#39;2026-04-12&#39;,2400),(&#39;2026-04-13&#39;,950),
+  (&#39;2026-04-14&#39;,1500),(&#39;2026-04-15&#39;,700),
+  (&#39;2026-04-16&#39;,1100);
+
+SELECT sale_date, amount,
+  SUM(amount) OVER (
+    ORDER BY sale_date
+    ROWS UNBOUNDED PRECEDING
+  ) AS running_total
+FROM sales;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Days Since Previous Order Per Customer</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given orders(id, customer_id, order_date), for each order return the previous order date for the same customer and days since the previous order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Orders across 3 customers, some with multiple orders.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Each row has customer_id, order_date, prev_date, days_since.</div>
+                </div><div class="challenge-constraints">Use LAG with PARTITION BY customer_id.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, order_date DATE, amount DECIMAL(10,2));
+INSERT INTO orders VALUES
+  (1,101,&#39;2026-01-10&#39;,1200),(2,101,&#39;2026-02-15&#39;,800),
+  (3,101,&#39;2026-03-20&#39;,1600),(4,102,&#39;2026-02-01&#39;,2500),
+  (5,102,&#39;2026-03-28&#39;,900),(6,103,&#39;2026-04-10&#39;,3100);
+
+SELECT customer_id, order_date, amount,
+  LAG(order_date) OVER (PARTITION BY customer_id ORDER BY order_date) AS prev_date,
+  DATEDIFF(
+    order_date,
+    LAG(order_date) OVER (PARTITION BY customer_id ORDER BY order_date)
+  ) AS days_since
+FROM orders
+ORDER BY customer_id, order_date;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Month-Over-Month Growth</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given orders(order_date, amount), return month, revenue, prev_month_revenue, and percentage growth.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Orders across 4+ months.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">One row per month with MoM% column.</div>
+                </div><div class="challenge-constraints">Use CTE for monthly aggregation, then LAG on the aggregate.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, order_date DATE, amount DECIMAL(10,2));
+INSERT INTO orders VALUES
+  (1,101,&#39;2026-01-10&#39;,1200),(2,101,&#39;2026-02-15&#39;,800),
+  (3,101,&#39;2026-03-20&#39;,1600),(4,102,&#39;2026-02-01&#39;,2500),
+  (5,102,&#39;2026-03-28&#39;,900),(6,103,&#39;2026-04-10&#39;,3100);
+
+WITH monthly AS (
+  SELECT DATE_FORMAT(order_date, &#39;%Y-%m&#39;) AS month,
+         SUM(amount)                      AS revenue
+  FROM orders
+  GROUP BY month
+)
+SELECT month, revenue,
+  LAG(revenue) OVER (ORDER BY month) AS prev_revenue,
+  ROUND(
+    (revenue - LAG(revenue) OVER (ORDER BY month))
+    / LAG(revenue) OVER (ORDER BY month) * 100, 2
+  ) AS mom_pct
+FROM monthly
+ORDER BY month;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: 7-Day Moving Average</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given sales(sale_date, amount), return each day's sale along with its 7-day trailing moving average.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">14 daily sales.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Each row has sale_date, amount, ma_7d.</div>
+                </div><div class="challenge-constraints">ROWS BETWEEN 6 PRECEDING AND CURRENT ROW.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">CREATE TABLE sales (sale_date DATE PRIMARY KEY, amount DECIMAL(10,2));
+INSERT INTO sales VALUES
+  (&#39;2026-04-03&#39;,1200),(&#39;2026-04-04&#39;, 800),(&#39;2026-04-05&#39;,2400),
+  (&#39;2026-04-06&#39;, 950),(&#39;2026-04-07&#39;,1500),(&#39;2026-04-08&#39;, 700),
+  (&#39;2026-04-09&#39;,1100),(&#39;2026-04-10&#39;,1900),(&#39;2026-04-11&#39;, 650),
+  (&#39;2026-04-12&#39;,2200),(&#39;2026-04-13&#39;,1000),(&#39;2026-04-14&#39;,1800),
+  (&#39;2026-04-15&#39;,1400),(&#39;2026-04-16&#39;, 900);
+
+SELECT sale_date, amount,
+  ROUND(AVG(amount) OVER (
+    ORDER BY sale_date
+    ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
+  ), 2) AS ma_7d
+FROM sales
+ORDER BY sale_date;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Nth Highest Distinct Salary</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a query that returns the 3rd highest distinct salary from employees. If there are fewer than 3 distinct salaries, return NULL.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Employees with some salary ties.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Exactly 1 value (or NULL).</div>
+                </div><div class="challenge-constraints">Use DENSE_RANK for correctness under ties.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">-- Using the employees table from cc-2
+
+SELECT MAX(salary) AS third_highest
+FROM (
+  SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk
+  FROM employees
+) t
+WHERE rnk = 3;
+-- Returns NULL automatically if rnk=3 doesn&#39;t exist (MAX of empty set).</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Consecutive Login Streaks</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given logins(user_id, login_date), identify each streak of consecutive daily logins per user. Return user_id, streak_start, streak_end, and streak_length.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Users with some consecutive and some gapped login days.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">One row per streak per user.</div>
+                </div><div class="challenge-constraints">Use gaps-and-islands: subtract ROW_NUMBER days from login_date to get a streak key.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">CREATE TABLE logins (user_id INT, login_date DATE);
+INSERT INTO logins VALUES
+  (1,&#39;2026-04-10&#39;),(1,&#39;2026-04-11&#39;),(1,&#39;2026-04-12&#39;),
+  (1,&#39;2026-04-15&#39;),(1,&#39;2026-04-16&#39;),
+  (2,&#39;2026-04-10&#39;),(2,&#39;2026-04-12&#39;),(2,&#39;2026-04-13&#39;),(2,&#39;2026-04-14&#39;);
+
+WITH marked AS (
+  SELECT user_id, login_date,
+    DATE_SUB(login_date,
+             INTERVAL ROW_NUMBER() OVER
+               (PARTITION BY user_id ORDER BY login_date) DAY) AS grp
+  FROM logins
+)
+SELECT user_id,
+       MIN(login_date) AS streak_start,
+       MAX(login_date) AS streak_end,
+       COUNT(*)        AS streak_length
+FROM marked
+GROUP BY user_id, grp
+ORDER BY user_id, streak_start;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/conditional-logic-case-when/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Conditional Logic - CASE WHEN, IF, IFNULL</span>
+        </a>
+            <a href="/resources/sql/common-table-expressions/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Common Table Expressions (CTEs) and Recursive Queries</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/window-functions" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

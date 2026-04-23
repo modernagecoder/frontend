@@ -1,0 +1,839 @@
+{
+  "title": "Date and Time Functions in SQL",
+  "slug": "date-and-time-functions",
+  "language": "sql",
+  "chapter": 16,
+  "difficulty": "Intermediate",
+  "readingTime": "42 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "SQL Date and Time Functions - NOW, DATEDIFF, DATE_ADD, DATE_FORMAT | Modern Age Coders",
+    "description": "Master MySQL date and time functions: NOW, CURDATE, DATEDIFF, TIMESTAMPDIFF, DATE_ADD, DATE_SUB, DATE_FORMAT, EXTRACT, STR_TO_DATE, LAST_DAY, and time zone conversion. Includes 60+ interview-style practice questions with runnable queries and outputs.",
+    "keywords": "sql date functions, mysql date_format, sql datediff, timestampdiff, mysql now curdate, sql date arithmetic, str_to_date, sql group by month, mysql timestamp vs datetime, sql extract year month"
+  },
+  "content": {
+    "what": "<h2>What Are Date and Time Functions?</h2><p>Dates in SQL are not just strings. MySQL stores them as structured values that understand the calendar — leap years, daylight saving time, the last day of February, the number of days between two dates. Date and time functions are the set of built-in functions MySQL ships to read the current moment, extract parts from a date, shift dates forward or backward, and format them for display.</p><p>Once orders, signups, payments, and attendance records land in a database, almost every business question is a date question. <em>\"How many orders did we get last week?\" \"Which customers haven't logged in for 30 days?\" \"Give me revenue grouped by month for the last year.\"</em> Each of these needs a date function.</p><pre><code>-- Today's date and the exact moment right now\nSELECT CURDATE(), NOW();\n-- 2026-04-16 | 2026-04-16 14:23:07\n\n-- Orders placed in the last 7 days\nSELECT * FROM orders\nWHERE order_date >= CURDATE() - INTERVAL 7 DAY;</code></pre><p>Every date function in MySQL falls into one of four buckets: <strong>getting</strong> the current time (NOW, CURDATE, CURTIME), <strong>extracting</strong> parts (YEAR, MONTH, DAY, HOUR), <strong>arithmetic</strong> (DATE_ADD, DATE_SUB, DATEDIFF, TIMESTAMPDIFF), and <strong>formatting / parsing</strong> (DATE_FORMAT, STR_TO_DATE).</p><h3>The Three Storage Types</h3><p>Before writing a single function, know where your data lives. MySQL has three main date-related column types, and picking the wrong one will hurt you later:</p><pre><code>-- DATE: just a calendar date, 3 bytes, no time, no timezone\norder_date DATE               -- '2026-04-16'\n\n-- DATETIME: date + time, 8 bytes, NO timezone awareness\nlogged_in_at DATETIME         -- '2026-04-16 14:23:07'\n\n-- TIMESTAMP: date + time, 4 bytes, stored as UTC internally,\n-- auto-converts to the session's time zone on read\ncreated_at   TIMESTAMP        -- shown as IST, stored as UTC</code></pre>",
+    "why": "<h2>Why Date Functions Matter</h2><h3>1. Every Business Report Is a Date Query</h3><p>Open any analytics dashboard — Flipkart seller panel, Zomato restaurant dashboard, a school's fee dashboard — and more than half the numbers are grouped by day, week, or month. <em>Sales today vs yesterday. Week-over-week growth. Active users in the last 30 days.</em> Without fluent date functions, you cannot even start writing these queries.</p><h3>2. Filtering Is the #1 Use Case</h3><p>\"Give me everything from the last 7 days\" is the most common WHERE clause in the database. You cannot write it without <code>CURDATE()</code> and <code>INTERVAL</code>. A data analyst who cannot filter by a rolling window is stuck.</p><h3>3. Dates as Strings Are a Bug Waiting to Happen</h3><p>Beginners often store dates as <code>VARCHAR</code> like <code>'16-04-2026'</code>. Sorting breaks, date arithmetic is impossible, and <code>'31-01-2026' &gt; '01-02-2026'</code> evaluates to true (wrong). Using real DATE columns plus date functions prevents this entire class of bug.</p><h3>4. Time Zones Bite in Production</h3><p>When Modern Age Coders launches a course at 7 PM IST, the database server might be in UTC, the user's laptop in EST. If you don't understand <code>TIMESTAMP</code> versus <code>DATETIME</code>, users will see the wrong start time. This chapter covers <code>CONVERT_TZ()</code> so you don't ship that bug.</p><h3>5. Interview Favorites Are Date-Heavy</h3><p>\"Find customers whose orders are at least 30 days apart\", \"Get month-over-month growth\", \"List employees with more than 2 years tenure\" — these questions depend entirely on DATEDIFF, TIMESTAMPDIFF, and DATE_ADD. They appear in almost every data analyst interview.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Getting the Current Moment</h3><p>MySQL gives three functions to read \"now\", each with a different precision:</p><pre><code>SELECT\n  NOW()      AS now_datetime,     -- 2026-04-16 14:23:07\n  CURDATE()  AS today,             -- 2026-04-16\n  CURTIME()  AS time_only,         -- 14:23:07\n  CURRENT_TIMESTAMP AS also_now;   -- same as NOW()</code></pre><p><code>NOW()</code> returns a DATETIME (date + time). <code>CURDATE()</code> returns only the DATE. <code>CURTIME()</code> returns only the TIME. All three read from the MySQL server clock, not the client. <code>NOW()</code> within a single query always returns the same value even if the query runs for minutes — use <code>SYSDATE()</code> if you actually want the clock to re-read.</p><h3>2. DATEDIFF vs TIMESTAMPDIFF</h3><p>These are the two functions people mix up most often. Both measure the distance between two dates, but they count different things.</p><pre><code>-- DATEDIFF always returns an INTEGER number of DAYS\nSELECT DATEDIFF('2026-04-16', '2026-04-10');  -- 6\nSELECT DATEDIFF('2026-04-16', '2026-05-16');  -- -30 (can be negative)\n\n-- TIMESTAMPDIFF takes a unit and is far more flexible\nSELECT TIMESTAMPDIFF(DAY,   '2026-01-01', '2026-04-16');  -- 105\nSELECT TIMESTAMPDIFF(MONTH, '2026-01-01', '2026-04-16');  -- 3\nSELECT TIMESTAMPDIFF(YEAR,  '2008-04-16', '2026-04-16');  -- 18\nSELECT TIMESTAMPDIFF(HOUR,  '2026-04-16 09:00', '2026-04-16 14:30');  -- 5</code></pre><p><strong>Rule of thumb</strong>: use DATEDIFF only for days and only when sign does not matter. Use TIMESTAMPDIFF for everything else, especially age calculation (YEAR between DOB and today) and tenure (MONTH between hire_date and today).</p><h3>3. Adding and Subtracting Intervals</h3><p>Never manually add days by doing <code>date + 7</code>. MySQL does not do what you want on DATE types. Use <code>DATE_ADD</code>, <code>DATE_SUB</code>, or the <code>+ INTERVAL</code> shortcut:</p><pre><code>SELECT DATE_ADD('2026-04-16', INTERVAL 7 DAY);    -- 2026-04-23\nSELECT DATE_SUB('2026-04-16', INTERVAL 1 MONTH);  -- 2026-03-16\nSELECT DATE_ADD(NOW(), INTERVAL 2 HOUR);          -- 2026-04-16 16:23:07\nSELECT CURDATE() + INTERVAL 30 DAY;               -- 2026-05-16\nSELECT CURDATE() - INTERVAL 90 DAY;               -- 2026-01-16</code></pre><p>Supported intervals: <code>SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, YEAR</code>. Month math respects calendar length — adding 1 month to Jan 31 gives Feb 28 (or 29 in a leap year), not Mar 3.</p><h3>4. DATE_FORMAT — Display Dates the Way You Want</h3><p>Databases store dates in ISO format (<code>2026-04-16</code>). When you need to show a date as <em>\"16th April, 2026\"</em> or <em>\"Thu 16 Apr 2:23 PM\"</em>, use <code>DATE_FORMAT</code> with these codes:</p><table><thead><tr><th>Code</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><code>%Y</code></td><td>4-digit year</td><td>2026</td></tr><tr><td><code>%y</code></td><td>2-digit year</td><td>26</td></tr><tr><td><code>%M</code></td><td>Full month name</td><td>April</td></tr><tr><td><code>%b</code></td><td>Short month name</td><td>Apr</td></tr><tr><td><code>%m</code></td><td>Month number, 2-digit</td><td>04</td></tr><tr><td><code>%d</code></td><td>Day of month, 2-digit</td><td>16</td></tr><tr><td><code>%e</code></td><td>Day of month, no padding</td><td>6</td></tr><tr><td><code>%W</code></td><td>Full weekday name</td><td>Thursday</td></tr><tr><td><code>%a</code></td><td>Short weekday name</td><td>Thu</td></tr><tr><td><code>%H</code></td><td>Hour 00-23</td><td>14</td></tr><tr><td><code>%h</code> / <code>%I</code></td><td>Hour 01-12</td><td>02</td></tr><tr><td><code>%i</code></td><td>Minutes 00-59</td><td>23</td></tr><tr><td><code>%s</code></td><td>Seconds 00-59</td><td>07</td></tr><tr><td><code>%p</code></td><td>AM / PM</td><td>PM</td></tr></tbody></table><pre><code>SELECT DATE_FORMAT(NOW(), '%W, %d %M %Y');\n-- 'Thursday, 16 April 2026'\n\nSELECT DATE_FORMAT(NOW(), '%d-%m-%Y %h:%i %p');\n-- '16-04-2026 02:23 PM'\n\nSELECT DATE_FORMAT(NOW(), '%Y-%m');\n-- '2026-04' (useful for GROUP BY month)</code></pre><h3>5. EXTRACT and the Shortcuts</h3><p>To pull a single part out of a date, EXTRACT is the portable way, and YEAR(), MONTH(), DAY() are the MySQL shortcuts:</p><pre><code>SELECT EXTRACT(YEAR   FROM '2026-04-16');    -- 2026\nSELECT EXTRACT(MONTH  FROM '2026-04-16');    -- 4\nSELECT EXTRACT(DAY    FROM '2026-04-16');    -- 16\nSELECT EXTRACT(HOUR   FROM '2026-04-16 14:23:07');  -- 14\n\n-- Shortcuts\nSELECT YEAR(NOW()), MONTH(NOW()), DAY(NOW());\nSELECT HOUR(NOW()), MINUTE(NOW()), SECOND(NOW());\n\n-- Calendar helpers\nSELECT DAYOFWEEK('2026-04-16');   -- 5 (Sunday=1, Thursday=5)\nSELECT DAYNAME('2026-04-16');     -- 'Thursday'\nSELECT MONTHNAME('2026-04-16');   -- 'April'\nSELECT WEEK('2026-04-16');        -- 15 (ISO week number)\nSELECT QUARTER('2026-04-16');     -- 2\nSELECT DAYOFYEAR('2026-04-16');   -- 106</code></pre><p><strong>Warning on DAYOFWEEK</strong>: MySQL numbers Sunday as 1, Saturday as 7. Most of the world considers Monday the start of the week. Use <code>WEEKDAY()</code> instead, which numbers Monday=0, Sunday=6.</p><h3>6. STR_TO_DATE — Parsing Strings Into Dates</h3><p>When data arrives as a string (CSV uploads, API responses), you have to convert it. STR_TO_DATE is the inverse of DATE_FORMAT — same format codes, different direction:</p><pre><code>SELECT STR_TO_DATE('16-04-2026', '%d-%m-%Y');\n-- 2026-04-16 (as a proper DATE value)\n\nSELECT STR_TO_DATE('April 16, 2026', '%M %d, %Y');\n-- 2026-04-16\n\nSELECT STR_TO_DATE('16/04/2026 02:23 PM', '%d/%m/%Y %h:%i %p');\n-- 2026-04-16 14:23:00</code></pre><p>If the string does not match the format, MySQL returns NULL. Always validate your import with a COUNT of NULLs before bulk-loading data.</p><h3>7. LAST_DAY, TIMEDIFF, and Utility Functions</h3><pre><code>SELECT LAST_DAY('2026-04-16');   -- 2026-04-30 (last day of April)\nSELECT LAST_DAY('2028-02-05');   -- 2028-02-29 (leap year)\n\n-- TIMEDIFF returns a TIME value, good for same-day intervals\nSELECT TIMEDIFF('14:30:00', '09:15:00');   -- 05:15:00\n\n-- DATE() strips time off a DATETIME\nSELECT DATE('2026-04-16 14:23:07');   -- 2026-04-16\n\n-- TIME() strips date off a DATETIME\nSELECT TIME('2026-04-16 14:23:07');   -- 14:23:07\n\n-- UNIX_TIMESTAMP and FROM_UNIXTIME for epoch conversion\nSELECT UNIX_TIMESTAMP('2026-04-16 14:23:07');  -- 1776695987\nSELECT FROM_UNIXTIME(1776695987);               -- 2026-04-16 14:23:07</code></pre><h3>8. Time Zones and CONVERT_TZ</h3><p>This is where junior devs lose hours of their life. MySQL has three relevant time zones: the <strong>system</strong> time zone (server OS), the <strong>global</strong> time zone (MySQL setting), and the <strong>session</strong> time zone (current connection).</p><pre><code>-- Check what your session thinks\nSELECT @@global.time_zone, @@session.time_zone;\n\n-- Change for the current session\nSET time_zone = '+05:30';   -- IST\nSET time_zone = 'Asia/Kolkata';  -- named (requires tz tables loaded)\n\n-- Convert a DATETIME from one zone to another\nSELECT CONVERT_TZ('2026-04-16 14:23:07', '+00:00', '+05:30');\n-- 2026-04-16 19:53:07  (UTC to IST)\n\nSELECT CONVERT_TZ(NOW(), @@session.time_zone, '+00:00');\n-- NOW in UTC</code></pre><h3>9. DATE vs DATETIME vs TIMESTAMP — The Decision</h3><p>This is a common interview question. Pick based on what the column represents:</p><ul><li><strong>DATE</strong> — only the calendar day matters. Date of birth, holiday date, invoice date.</li><li><strong>DATETIME</strong> — a specific moment that should never change with time zones. Scheduled webinar at 7 PM IST <em>as displayed to the user</em>.</li><li><strong>TIMESTAMP</strong> — audit-style fields like <code>created_at</code> and <code>updated_at</code> that represent a point in universal time. Stored as UTC internally, converted to the session TZ on read. Range limit: 1970 to 2038 (TIMESTAMP is 4 bytes).</li></ul><pre><code>CREATE TABLE orders (\n  id           INT PRIMARY KEY,\n  order_date   DATE NOT NULL,                -- customer-facing date\n  placed_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,  -- audit\n  delivery_at  DATETIME                      -- scheduled moment\n);</code></pre><h3>10. Common Patterns You Will Write 100 Times</h3><pre><code>-- 1. Orders in the last 7 days\nSELECT * FROM orders\nWHERE order_date &gt;= CURDATE() - INTERVAL 7 DAY;\n\n-- 2. Age from date of birth\nSELECT name, TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age\nFROM students;\n\n-- 3. Revenue grouped by month\nSELECT DATE_FORMAT(order_date, '%Y-%m') AS month,\n       SUM(amount) AS revenue\nFROM orders\nGROUP BY month\nORDER BY month;\n\n-- 4. Sign-ups per weekday\nSELECT DAYNAME(created_at) AS day_of_week, COUNT(*) AS signups\nFROM users\nGROUP BY day_of_week\nORDER BY FIELD(day_of_week,'Monday','Tuesday','Wednesday',\n               'Thursday','Friday','Saturday','Sunday');\n\n-- 5. Yesterday's orders (avoid off-by-one)\nSELECT * FROM orders\nWHERE order_date = CURDATE() - INTERVAL 1 DAY;\n\n-- 6. Customers inactive for 30+ days\nSELECT user_id, MAX(last_login) AS last_seen\nFROM sessions\nGROUP BY user_id\nHAVING DATEDIFF(CURDATE(), MAX(last_login)) &gt;= 30;</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Getting 'Now' with NOW, CURDATE, and CURTIME",
+        "code": "-- Sample: no table needed\nSELECT\n  NOW()              AS current_moment,\n  CURDATE()          AS today,\n  CURTIME()          AS time_only,\n  UNIX_TIMESTAMP()   AS epoch_seconds,\n  DAYNAME(CURDATE()) AS today_weekday;",
+        "language": "sql",
+        "explanation": "<code>NOW()</code> returns a full DATETIME, <code>CURDATE()</code> only the date, <code>CURTIME()</code> only the time. <code>UNIX_TIMESTAMP()</code> gives you seconds since 1970-01-01 UTC — useful for APIs. <code>DAYNAME(CURDATE())</code> converts today's date into the weekday name.",
+        "output": "+---------------------+------------+-----------+----------------+---------------+\n| current_moment      | today      | time_only | epoch_seconds  | today_weekday |\n+---------------------+------------+-----------+----------------+---------------+\n| 2026-04-16 14:23:07 | 2026-04-16 | 14:23:07  |     1776695987 | Thursday      |\n+---------------------+------------+-----------+----------------+---------------+"
+      },
+      {
+        "title": "Orders in the Last 7 Days with INTERVAL",
+        "code": "CREATE TABLE orders (\n  id           INT PRIMARY KEY,\n  customer     VARCHAR(50),\n  order_date   DATE,\n  amount       DECIMAL(10,2)\n);\n\nINSERT INTO orders VALUES\n  (1, 'Aarav Sharma',   '2026-04-16',  1200.00),\n  (2, 'Priya Nair',     '2026-04-15',   850.50),\n  (3, 'Rohan Mehta',    '2026-04-13',  2400.00),\n  (4, 'Ananya Iyer',    '2026-04-10',   999.00),\n  (5, 'Vikram Singh',   '2026-04-05',  3100.00),\n  (6, 'Meera Krishnan', '2026-03-20',   450.00);\n\n-- Orders from the last 7 days (today is 2026-04-16)\nSELECT id, customer, order_date, amount\nFROM orders\nWHERE order_date >= CURDATE() - INTERVAL 7 DAY\nORDER BY order_date DESC;",
+        "language": "sql",
+        "explanation": "<code>CURDATE() - INTERVAL 7 DAY</code> gives 2026-04-09. The WHERE clause keeps rows where <code>order_date</code> is on or after that. Because we compared directly on the indexed column (no function wrapping it), MySQL can use an index on <code>order_date</code> efficiently.",
+        "output": "+----+---------------+------------+---------+\n| id | customer      | order_date | amount  |\n+----+---------------+------------+---------+\n|  1 | Aarav Sharma  | 2026-04-16 | 1200.00 |\n|  2 | Priya Nair    | 2026-04-15 |  850.50 |\n|  3 | Rohan Mehta   | 2026-04-13 | 2400.00 |\n|  4 | Ananya Iyer   | 2026-04-10 |  999.00 |\n+----+---------------+------------+---------+"
+      },
+      {
+        "title": "Age from Date of Birth using TIMESTAMPDIFF",
+        "code": "CREATE TABLE students (\n  id     INT PRIMARY KEY,\n  name   VARCHAR(50),\n  dob    DATE\n);\n\nINSERT INTO students VALUES\n  (1, 'Ishaan Gupta',   '2008-11-12'),\n  (2, 'Kavya Reddy',    '2006-02-29'),   -- leap-day baby\n  (3, 'Arjun Pillai',   '2010-04-17'),   -- birthday tomorrow\n  (4, 'Neha Choudhary', '2010-04-15');   -- birthday yesterday\n\n-- Exact age today (2026-04-16)\nSELECT name,\n       dob,\n       TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age\nFROM students;",
+        "language": "sql",
+        "explanation": "<code>TIMESTAMPDIFF(YEAR, dob, CURDATE())</code> is the correct way to compute age. It returns whole years and correctly handles the day-of-year boundary — Arjun is still 15 because his birthday is tomorrow. Using <code>DATEDIFF/365</code> would give wrong results because of leap years.",
+        "output": "+----------------+------------+-----+\n| name           | dob        | age |\n+----------------+------------+-----+\n| Ishaan Gupta   | 2008-11-12 |  17 |\n| Kavya Reddy    | 2006-02-29 |  20 |\n| Arjun Pillai   | 2010-04-17 |  15 |\n| Neha Choudhary | 2010-04-15 |  16 |\n+----------------+------------+-----+"
+      },
+      {
+        "title": "Monthly Revenue with DATE_FORMAT and GROUP BY",
+        "code": "CREATE TABLE sales (\n  id         INT PRIMARY KEY,\n  sold_at    DATETIME,\n  amount     DECIMAL(10,2)\n);\n\nINSERT INTO sales VALUES\n  (1, '2026-01-10 10:22:00',  1200),\n  (2, '2026-01-25 15:40:00',   800),\n  (3, '2026-02-03 09:10:00',  2200),\n  (4, '2026-02-28 18:05:00',  1500),\n  (5, '2026-03-12 11:30:00',  3100),\n  (6, '2026-03-29 20:00:00',   950),\n  (7, '2026-04-05 13:15:00',  1800),\n  (8, '2026-04-15 16:45:00',  2650);\n\nSELECT DATE_FORMAT(sold_at, '%Y-%m') AS month,\n       COUNT(*)                       AS orders,\n       SUM(amount)                    AS revenue\nFROM sales\nGROUP BY month\nORDER BY month;",
+        "language": "sql",
+        "explanation": "<code>DATE_FORMAT(sold_at, '%Y-%m')</code> flattens every sale into its month bucket (like '2026-03'). GROUP BY then aggregates per month. Sorting alphabetically works here because the ISO format sorts chronologically — never use '%d/%m/%Y' for GROUP BY, it will sort wrong.",
+        "output": "+---------+--------+---------+\n| month   | orders | revenue |\n+---------+--------+---------+\n| 2026-01 |      2 |    2000 |\n| 2026-02 |      2 |    3700 |\n| 2026-03 |      2 |    4050 |\n| 2026-04 |      2 |    4450 |\n+---------+--------+---------+"
+      },
+      {
+        "title": "Parsing Messy Date Strings with STR_TO_DATE",
+        "code": "CREATE TABLE raw_upload (\n  id          INT PRIMARY KEY,\n  raw_date    VARCHAR(30)\n);\n\nINSERT INTO raw_upload VALUES\n  (1, '16-04-2026'),\n  (2, '05/04/2026'),\n  (3, 'April 12, 2026'),\n  (4, '2026.04.09');\n\nSELECT id,\n       raw_date,\n       CASE\n         WHEN raw_date LIKE '%-%'      THEN STR_TO_DATE(raw_date, '%d-%m-%Y')\n         WHEN raw_date LIKE '%/%'      THEN STR_TO_DATE(raw_date, '%d/%m/%Y')\n         WHEN raw_date LIKE '%.%'      THEN STR_TO_DATE(raw_date, '%Y.%m.%d')\n         ELSE STR_TO_DATE(raw_date, '%M %d, %Y')\n       END AS parsed_date\nFROM raw_upload;",
+        "language": "sql",
+        "explanation": "<code>STR_TO_DATE</code> takes a string and a format pattern (same codes as DATE_FORMAT) and returns a proper DATE. Use CASE to pick the right format per row. If the format does not match, STR_TO_DATE returns NULL — always check for NULLs after bulk conversion.",
+        "output": "+----+-----------------+-------------+\n| id | raw_date        | parsed_date |\n+----+-----------------+-------------+\n|  1 | 16-04-2026      | 2026-04-16  |\n|  2 | 05/04/2026      | 2026-04-05  |\n|  3 | April 12, 2026  | 2026-04-12  |\n|  4 | 2026.04.09      | 2026-04-09  |\n+----+-----------------+-------------+"
+      },
+      {
+        "title": "Customers Inactive for 30+ Days",
+        "code": "CREATE TABLE sessions (\n  user_id      INT,\n  last_login   DATETIME\n);\n\nINSERT INTO sessions VALUES\n  (101, '2026-04-15 09:12:00'),\n  (102, '2026-03-05 14:20:00'),   -- 42 days ago\n  (103, '2026-04-10 11:00:00'),\n  (104, '2026-01-20 08:30:00'),   -- 86 days ago\n  (105, '2026-03-14 22:15:00');   -- 33 days ago\n\nSELECT user_id,\n       MAX(last_login)                          AS last_seen,\n       DATEDIFF(CURDATE(), MAX(last_login))     AS days_inactive\nFROM sessions\nGROUP BY user_id\nHAVING days_inactive >= 30\nORDER BY days_inactive DESC;",
+        "language": "sql",
+        "explanation": "<code>DATEDIFF(a, b)</code> gives <code>a - b</code> in whole days. We compute it against <code>CURDATE()</code> for each user's most recent login, then filter with HAVING (not WHERE, because we're filtering on an aggregate).",
+        "output": "+---------+---------------------+---------------+\n| user_id | last_seen           | days_inactive |\n+---------+---------------------+---------------+\n|     104 | 2026-01-20 08:30:00 |            86 |\n|     102 | 2026-03-05 14:20:00 |            42 |\n|     105 | 2026-03-14 22:15:00 |            33 |\n+---------+---------------------+---------------+"
+      },
+      {
+        "title": "Time Zone Conversion for Global Users",
+        "code": "CREATE TABLE webinars (\n  id          INT PRIMARY KEY,\n  topic       VARCHAR(60),\n  starts_utc  DATETIME   -- stored in UTC\n);\n\nINSERT INTO webinars VALUES\n  (1, 'Python Masterclass', '2026-04-20 13:30:00'),\n  (2, 'SQL Interview Prep', '2026-04-22 14:00:00'),\n  (3, 'Web Dev Bootcamp',   '2026-04-25 03:00:00');\n\n-- Show times to users in India (IST, +05:30) and New York (-04:00, DST)\nSELECT topic,\n       starts_utc                                          AS utc,\n       CONVERT_TZ(starts_utc, '+00:00', '+05:30')          AS ist,\n       CONVERT_TZ(starts_utc, '+00:00', '-04:00')          AS new_york,\n       DATE_FORMAT(CONVERT_TZ(starts_utc,'+00:00','+05:30'),\n                   '%W, %d %b %h:%i %p')                   AS display_ist\nFROM webinars;",
+        "language": "sql",
+        "explanation": "Store all timestamps in UTC, convert at display time. <code>CONVERT_TZ(value, from_tz, to_tz)</code> shifts the datetime to the target offset. Wrap the result in DATE_FORMAT to produce a user-friendly string. This is the standard architecture for any global application.",
+        "output": "+--------------------+---------------------+---------------------+---------------------+---------------------------+\n| topic              | utc                 | ist                 | new_york            | display_ist               |\n+--------------------+---------------------+---------------------+---------------------+---------------------------+\n| Python Masterclass | 2026-04-20 13:30:00 | 2026-04-20 19:00:00 | 2026-04-20 09:30:00 | Monday, 20 Apr 07:00 PM   |\n| SQL Interview Prep | 2026-04-22 14:00:00 | 2026-04-22 19:30:00 | 2026-04-22 10:00:00 | Wednesday, 22 Apr 07:30 PM|\n| Web Dev Bootcamp   | 2026-04-25 03:00:00 | 2026-04-25 08:30:00 | 2026-04-24 23:00:00 | Saturday, 25 Apr 08:30 AM |\n+--------------------+---------------------+---------------------+---------------------+---------------------------+"
+      },
+      {
+        "title": "LAST_DAY, Quarter, and Week Utilities",
+        "code": "SELECT\n  '2026-04-16'                                  AS d,\n  LAST_DAY('2026-04-16')                        AS end_of_month,\n  DAYOFYEAR('2026-04-16')                       AS day_of_year,\n  QUARTER('2026-04-16')                         AS quarter,\n  WEEKOFYEAR('2026-04-16')                      AS iso_week,\n  DAYOFWEEK('2026-04-16')                       AS mysql_dow,     -- 1=Sun\n  WEEKDAY('2026-04-16')                         AS iso_dow,       -- 0=Mon\n  DATE_ADD(LAST_DAY('2026-04-16'), INTERVAL 1 DAY) AS first_of_next_month;",
+        "language": "sql",
+        "explanation": "<code>LAST_DAY</code> is handy for month-end reports. Adding 1 day to LAST_DAY gives the first day of the next month — use that trick for monthly cron windows. Note the two day-of-week functions: <code>DAYOFWEEK</code> starts at Sunday, <code>WEEKDAY</code> starts at Monday. Prefer WEEKDAY for ISO-style reporting.",
+        "output": "+------------+--------------+-------------+---------+----------+-----------+---------+---------------------+\n| d          | end_of_month | day_of_year | quarter | iso_week | mysql_dow | iso_dow | first_of_next_month |\n+------------+--------------+-------------+---------+----------+-----------+---------+---------------------+\n| 2026-04-16 | 2026-04-30   |         106 |       2 |       16 |         5 |       3 | 2026-05-01          |\n+------------+--------------+-------------+---------+----------+-----------+---------+---------------------+"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Wrapping an Indexed Date Column in a Function",
+        "wrongCode": "-- Kills any index on order_date\nSELECT * FROM orders\nWHERE YEAR(order_date) = 2026\n  AND MONTH(order_date) = 4;",
+        "error": "No syntax error, but the query does a FULL TABLE SCAN even if order_date is indexed. Any function wrapping the column disables index usage.",
+        "correctCode": "-- Use a range predicate instead\nSELECT * FROM orders\nWHERE order_date >= '2026-04-01'\n  AND order_date <  '2026-05-01';",
+        "explanation": "Functions applied to indexed columns prevent the optimizer from using the index, because it would have to apply the function to every row first. Always keep the column bare on one side of the comparison and compute the range on the other side."
+      },
+      {
+        "title": "Confusing DATEDIFF Argument Order",
+        "wrongCode": "-- Intends to check 'was order more than 7 days ago?'\nSELECT * FROM orders\nWHERE DATEDIFF(order_date, CURDATE()) > 7;",
+        "error": "No syntax error, but this is backwards. DATEDIFF('2026-04-10', '2026-04-16') returns -6, never >7. The WHERE clause will return zero rows.",
+        "correctCode": "-- DATEDIFF(later, earlier) or just use INTERVAL\nSELECT * FROM orders\nWHERE DATEDIFF(CURDATE(), order_date) > 7;\n-- Or the cleaner version:\nSELECT * FROM orders\nWHERE order_date < CURDATE() - INTERVAL 7 DAY;",
+        "explanation": "<code>DATEDIFF(a, b)</code> returns <code>a - b</code>. If you want a positive number of days, put the later date first. For readability and performance, prefer the <code>column &lt;= CURDATE() - INTERVAL n DAY</code> pattern."
+      },
+      {
+        "title": "Using DATE_FORMAT in GROUP BY with a Localized Pattern",
+        "wrongCode": "-- Months sorted alphabetically, not chronologically\nSELECT DATE_FORMAT(sold_at, '%M %Y') AS month, SUM(amount)\nFROM sales\nGROUP BY month\nORDER BY month;",
+        "error": "No error, but output is sorted 'April 2026, February 2026, January 2026...' because it sorts strings alphabetically.",
+        "correctCode": "-- Group by sortable ISO format, then format for display\nSELECT DATE_FORMAT(sold_at, '%Y-%m') AS month_key,\n       DATE_FORMAT(MIN(sold_at), '%M %Y') AS month_label,\n       SUM(amount) AS revenue\nFROM sales\nGROUP BY month_key\nORDER BY month_key;",
+        "explanation": "ISO format <code>%Y-%m</code> sorts chronologically as a string. Group by that, and format for display separately using <code>MIN(sold_at)</code> or a second DATE_FORMAT call."
+      },
+      {
+        "title": "Storing Dates as VARCHAR",
+        "wrongCode": "CREATE TABLE bad_orders (\n  id   INT PRIMARY KEY,\n  date VARCHAR(20)   -- '16-04-2026' as a string\n);\n\n-- Sorting breaks completely\nSELECT * FROM bad_orders ORDER BY date;\n-- '01-02-2026' comes before '16-04-2026' alphabetically,\n-- but also before '05-01-2026', which is wrong chronologically.",
+        "error": "No SQL error, but every date operation gives wrong results — sorts, ranges, DATEDIFF, DATE_ADD all fail because there is no date semantics.",
+        "correctCode": "CREATE TABLE orders (\n  id         INT PRIMARY KEY,\n  order_date DATE   -- proper type\n);\n-- Sorting, ranges, and all date functions now work correctly.",
+        "explanation": "Always store dates in DATE, DATETIME, or TIMESTAMP columns. Use VARCHAR only for display-only fields that you never query or sort. If data arrives as a string, parse it with STR_TO_DATE on INSERT."
+      },
+      {
+        "title": "Mixing DATETIME Across Time Zones Without TIMESTAMP",
+        "wrongCode": "-- Table has DATETIME, server moved from IST to UTC\nCREATE TABLE logs (event_at DATETIME);\nINSERT INTO logs VALUES (NOW());\n-- Months later, server is moved to UTC.\n-- Old values look 5h30 off, but they are just stored as raw strings.",
+        "error": "No error, but data is silently wrong after any server time zone change. DATETIME is 'just a clock reading' — MySQL does not know which time zone it was recorded in.",
+        "correctCode": "-- Use TIMESTAMP for audit timestamps\nCREATE TABLE logs (\n  event_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);\n-- TIMESTAMP is stored as UTC internally and always\n-- re-interpreted in the session's current time zone.",
+        "explanation": "For timestamps that represent 'a real moment in time' (created_at, updated_at, login_at), use TIMESTAMP so the server converts to/from UTC automatically. Reserve DATETIME for 'wall clock' values like scheduled event times where the display value is what matters."
+      }
+    ],
+    "summary": [
+      "Use NOW() for current datetime, CURDATE() for today's date, CURTIME() for current time. NOW() stays constant within a single statement; SYSDATE() re-reads the clock.",
+      "DATEDIFF returns the difference in whole days only. TIMESTAMPDIFF(unit, a, b) is flexible — use it for age (YEAR), tenure (MONTH), and hour-level gaps.",
+      "Never add days with plain arithmetic. Use DATE_ADD(date, INTERVAL 7 DAY) or the shorthand date + INTERVAL 7 DAY. Supported units: SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, YEAR.",
+      "DATE_FORMAT(date, pattern) converts a date to a display string using format codes (%Y, %m, %d, %H, %i, %M, %W, etc.). For GROUP BY, always use sortable patterns like '%Y-%m'.",
+      "STR_TO_DATE is the inverse: it parses a string into a DATE using the same format codes. Returns NULL on mismatch, so always check after bulk imports.",
+      "EXTRACT(unit FROM date) is the portable way to get a date part. YEAR(), MONTH(), DAY(), HOUR() are the MySQL shortcuts. DAYOFWEEK starts at Sunday=1; WEEKDAY starts at Monday=0.",
+      "LAST_DAY(date) returns the last day of the month. DATE_ADD(LAST_DAY(d), INTERVAL 1 DAY) gives the first day of the next month — handy for monthly windows.",
+      "Wrapping an indexed date column in a function (YEAR(col)) prevents index usage. Rewrite as a range: col >= '2026-01-01' AND col < '2027-01-01'.",
+      "Store dates in DATE/DATETIME/TIMESTAMP, never VARCHAR. VARCHAR breaks sorting, arithmetic, and indexing.",
+      "DATE is just a calendar day (DOB, invoice date). DATETIME is a wall-clock moment with no time zone awareness. TIMESTAMP is UTC internally with session-TZ conversion on read — use it for created_at, updated_at, and any audit field."
+    ]
+  },
+  "relatedTopics": ["string-functions", "conditional-logic-case-when", "aggregate-functions"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this query return (assume today is 2026-04-16)?<br><pre><code>SELECT CURDATE();</code></pre>",
+        "hint": "CURDATE() returns only the date portion.",
+        "answer": "<code>2026-04-16</code>",
+        "explanation": "CURDATE() returns the server's current date as a DATE value, without any time component."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT DATEDIFF('2026-04-16', '2026-04-10');</code></pre>",
+        "hint": "DATEDIFF(a, b) = a - b in days.",
+        "answer": "<code>6</code>",
+        "explanation": "DATEDIFF subtracts the second date from the first and returns the number of whole days. April 16 minus April 10 = 6."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT DATEDIFF('2026-04-10', '2026-04-16');</code></pre>",
+        "hint": "DATEDIFF can return negative values.",
+        "answer": "<code>-6</code>",
+        "explanation": "DATEDIFF(a, b) returns a - b. When the first date is earlier, the result is negative."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT DATE_ADD('2026-04-16', INTERVAL 7 DAY);</code></pre>",
+        "hint": "Add 7 days to April 16.",
+        "answer": "<code>2026-04-23</code>",
+        "explanation": "DATE_ADD adds the specified interval. 16 + 7 = 23, same month."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT DATE_SUB('2026-04-16', INTERVAL 1 MONTH);</code></pre>",
+        "hint": "Subtract one month from April 16.",
+        "answer": "<code>2026-03-16</code>",
+        "explanation": "DATE_SUB subtracts the interval. April 16 minus 1 month = March 16."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT YEAR('2026-04-16'), MONTH('2026-04-16'), DAY('2026-04-16');</code></pre>",
+        "hint": "Each function extracts a single part.",
+        "answer": "<code>2026  4  16</code>",
+        "explanation": "YEAR returns 2026, MONTH returns 4 (not 04 — it's a number), DAY returns 16."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT DATE_FORMAT('2026-04-16', '%d-%m-%Y');</code></pre>",
+        "hint": "%d = day, %m = month, %Y = 4-digit year.",
+        "answer": "<code>16-04-2026</code>",
+        "explanation": "DATE_FORMAT reformats the date into the requested pattern. %d gives 2-digit day, %m gives 2-digit month, %Y gives 4-digit year."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT DAYNAME('2026-04-16');</code></pre>",
+        "hint": "April 16, 2026 falls on which day?",
+        "answer": "<code>Thursday</code>",
+        "explanation": "DAYNAME returns the full English name of the weekday. April 16, 2026 is a Thursday."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT LAST_DAY('2026-02-10');</code></pre>",
+        "hint": "2026 is not a leap year.",
+        "answer": "<code>2026-02-28</code>",
+        "explanation": "LAST_DAY returns the last day of the month. February 2026 has 28 days because 2026 is not divisible by 4."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT LAST_DAY('2028-02-10');</code></pre>",
+        "hint": "Is 2028 a leap year?",
+        "answer": "<code>2028-02-29</code>",
+        "explanation": "2028 is divisible by 4 and not a century year, so it is a leap year. February has 29 days."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT TIMESTAMPDIFF(MONTH, '2024-01-15', '2026-04-16');</code></pre>",
+        "hint": "Count whole months between the two dates.",
+        "answer": "<code>27</code>",
+        "explanation": "From Jan 15, 2024 to Apr 16, 2026 is 2 years 3 months 1 day = 27 complete months. TIMESTAMPDIFF returns the whole-month count."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT TIMESTAMPDIFF(YEAR, '2010-04-17', '2026-04-16');</code></pre>",
+        "hint": "The second date is ONE DAY before the birthday.",
+        "answer": "<code>15</code>",
+        "explanation": "The 16th birthday would be on 2026-04-17. On 2026-04-16 we have not yet reached it, so TIMESTAMPDIFF returns 15 complete years, not 16."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT DATE_ADD('2026-01-31', INTERVAL 1 MONTH);</code></pre>",
+        "hint": "January 31 + 1 month. What is February's last day?",
+        "answer": "<code>2026-02-28</code>",
+        "explanation": "Adding 1 month to Jan 31 would give Feb 31, which does not exist. MySQL clamps to the last valid day of the target month — Feb 28 in 2026 (not a leap year)."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT QUARTER('2026-04-16'), QUARTER('2026-11-05');</code></pre>",
+        "hint": "Quarters are Jan-Mar=1, Apr-Jun=2, Jul-Sep=3, Oct-Dec=4.",
+        "answer": "<code>2  4</code>",
+        "explanation": "April falls in Q2 (Apr-Jun). November falls in Q4 (Oct-Dec)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT DAYOFWEEK('2026-04-16'), WEEKDAY('2026-04-16');</code></pre>",
+        "hint": "DAYOFWEEK: Sunday=1. WEEKDAY: Monday=0.",
+        "answer": "<code>5  3</code>",
+        "explanation": "April 16, 2026 is a Thursday. In DAYOFWEEK (Sun=1), Thursday is 5. In WEEKDAY (Mon=0), Thursday is 3."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT STR_TO_DATE('16/04/2026', '%d/%m/%Y');</code></pre>",
+        "hint": "Parse the string using the given format.",
+        "answer": "<code>2026-04-16</code>",
+        "explanation": "STR_TO_DATE reads '16/04/2026' using the pattern '%d/%m/%Y' and returns a proper DATE value in ISO format."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT STR_TO_DATE('2026-13-01', '%Y-%m-%d');</code></pre>",
+        "hint": "Is month 13 valid?",
+        "answer": "<code>NULL</code>",
+        "explanation": "Month 13 is invalid, so STR_TO_DATE cannot produce a valid date and returns NULL. Always validate NULLs after parsing user input."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>SELECT DATE_FORMAT('2026-04-16 14:23:07', '%W, %d %b %Y %h:%i %p');</code></pre>",
+        "hint": "%W full day, %b short month, %h 12-hour, %p AM/PM.",
+        "answer": "<code>Thursday, 16 Apr 2026 02:23 PM</code>",
+        "explanation": "%W = Thursday (full weekday), %b = Apr (short month), %h = 02 (12-hour), %i = 23 (minutes), %p = PM. Put together: 'Thursday, 16 Apr 2026 02:23 PM'."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>SELECT DATE_ADD(LAST_DAY('2026-02-05'), INTERVAL 1 DAY);</code></pre>",
+        "hint": "LAST_DAY of Feb 2026, then add 1.",
+        "answer": "<code>2026-03-01</code>",
+        "explanation": "LAST_DAY('2026-02-05') = 2026-02-28 (2026 is not a leap year). Adding 1 day gives March 1. This is the standard trick to jump to the first day of the next month."
+      },
+      {
+        "id": "ts-20",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When should you use DATE vs DATETIME vs TIMESTAMP?",
+        "hint": "Think about time zones and what the column represents.",
+        "answer": "Use <code>DATE</code> when only the calendar day matters (date of birth, invoice date, holiday). Use <code>DATETIME</code> for wall-clock moments that should not shift with time zones (a scheduled event's display time). Use <code>TIMESTAMP</code> for audit fields (created_at, updated_at) where the column represents a real universal moment — MySQL stores it as UTC and auto-converts to the session's time zone on read.",
+        "explanation": "The key difference: DATETIME is 'dumb', TIMESTAMP is time-zone aware. TIMESTAMP is also limited to the range 1970 to 2038 because it is stored as a 4-byte Unix epoch."
+      },
+      {
+        "id": "ts-21",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does <code>WHERE YEAR(order_date) = 2026</code> often perform worse than <code>WHERE order_date &gt;= '2026-01-01' AND order_date &lt; '2027-01-01'</code>?",
+        "hint": "What happens to the index on order_date?",
+        "answer": "Wrapping an indexed column in a function (YEAR, MONTH, DATE_FORMAT, etc.) disables index usage — the optimizer would have to apply the function to every row to evaluate the WHERE. The range version keeps the column 'naked' on the left side, so MySQL can use the B-Tree index to seek directly to the 2026 rows. This is the single most common performance trap with date columns.",
+        "explanation": "This is called a 'sargable' predicate. Sargable = Search ARGument ABLE = can use an index. Always prefer range predicates over function-wrapped ones on indexed columns."
+      },
+      {
+        "id": "ts-22",
+        "type": "code-writing",
+        "difficulty": "Easy",
+        "question": "Write a query that returns today's date and yesterday's date.",
+        "hint": "Use CURDATE() and INTERVAL.",
+        "answer": "<pre><code>SELECT CURDATE() AS today,\n       CURDATE() - INTERVAL 1 DAY AS yesterday;</code></pre>",
+        "explanation": "CURDATE() gives today. Subtract 1 day using INTERVAL syntax."
+      },
+      {
+        "id": "ts-23",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given an <code>orders(id, order_date, amount)</code> table, write a query that returns the total revenue for each month of 2026, sorted chronologically.",
+        "hint": "GROUP BY DATE_FORMAT with ISO pattern.",
+        "answer": "<pre><code>SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,\n       SUM(amount) AS revenue\nFROM orders\nWHERE order_date >= '2026-01-01'\n  AND order_date <  '2027-01-01'\nGROUP BY month\nORDER BY month;</code></pre>",
+        "explanation": "The ISO format '%Y-%m' groups correctly and sorts chronologically. The range filter is sargable — it uses the index on order_date."
+      },
+      {
+        "id": "ts-24",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Write a query to list students whose age is between 18 and 22 given a <code>students(name, dob)</code> table.",
+        "hint": "TIMESTAMPDIFF with YEAR.",
+        "answer": "<pre><code>SELECT name, dob,\n       TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age\nFROM students\nWHERE TIMESTAMPDIFF(YEAR, dob, CURDATE()) BETWEEN 18 AND 22;</code></pre>",
+        "explanation": "TIMESTAMPDIFF(YEAR, dob, CURDATE()) gives the exact age in completed years. BETWEEN is inclusive on both ends."
+      },
+      {
+        "id": "ts-25",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Given <code>sessions(user_id, login_at DATETIME)</code>, find users whose most recent login was more than 90 days ago.",
+        "hint": "Aggregate with MAX then HAVING with DATEDIFF.",
+        "answer": "<pre><code>SELECT user_id,\n       MAX(login_at) AS last_seen,\n       DATEDIFF(CURDATE(), MAX(login_at)) AS days_since\nFROM sessions\nGROUP BY user_id\nHAVING days_since > 90;</code></pre>",
+        "explanation": "GROUP BY user_id, then use HAVING to filter on the aggregate. DATEDIFF gives days between CURDATE and the latest login."
+      },
+      {
+        "id": "ts-26",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT TIMEDIFF('14:30:00', '09:15:30');</code></pre>",
+        "hint": "TIMEDIFF returns a TIME value.",
+        "answer": "<code>05:14:30</code>",
+        "explanation": "14:30:00 minus 09:15:30 = 5 hours, 14 minutes, 30 seconds. TIMEDIFF returns a TIME value, not an integer."
+      },
+      {
+        "id": "ts-27",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT WEEK('2026-01-01');</code></pre>",
+        "hint": "January 1 is in which week of the year?",
+        "answer": "<code>0</code>",
+        "explanation": "With the default mode (mode 0), MySQL's WEEK() returns 0 for the partial week at the start of the year when it does not contain a full week starting Sunday. Use WEEK(date, 3) for ISO-8601 style."
+      },
+      {
+        "id": "ts-28",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>SELECT CONVERT_TZ('2026-04-16 00:30:00', '+05:30', '+00:00');</code></pre>",
+        "hint": "Subtract 5:30 from the given datetime.",
+        "answer": "<code>2026-04-15 19:00:00</code>",
+        "explanation": "Converting from IST (+05:30) to UTC (+00:00) subtracts 5 hours 30 minutes. 00:30 becomes 19:00 of the previous day."
+      },
+      {
+        "id": "ts-29",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between NOW() and SYSDATE()?",
+        "hint": "Think about a query that runs for several seconds.",
+        "answer": "<code>NOW()</code> returns the time the current statement started executing — every call within one statement returns the same value. <code>SYSDATE()</code> returns the actual system clock at the moment the function is called — it can return different values within the same statement. <code>NOW()</code> is deterministic (safe for replication). <code>SYSDATE()</code> is not.",
+        "explanation": "In almost all application code, use NOW(). Use SYSDATE() only for profiling/benchmarking where you want the real wall-clock time per row."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this return (today = 2026-04-16)?<br><pre><code>SELECT CURDATE() - INTERVAL 30 DAY;</code></pre>",
+        "hint": "Subtract 30 days from April 16.",
+        "answer": "<code>2026-03-17</code>",
+        "explanation": "April 16 minus 30 days goes back to March 17."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>SELECT MONTHNAME('2026-07-20');</code></pre>",
+        "hint": "MONTHNAME returns the full English month name.",
+        "answer": "<code>July</code>",
+        "explanation": "Month 07 is July. MONTHNAME returns the full English name."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given <code>employees(name, hire_date)</code>, what does this return?<br><pre><code>SELECT name,\n       TIMESTAMPDIFF(YEAR, hire_date, CURDATE()) AS tenure_yrs\nFROM employees\nWHERE hire_date = '2020-04-16';</code></pre>",
+        "hint": "Hired exactly 6 years ago today.",
+        "answer": "<code>6</code>",
+        "explanation": "From 2020-04-16 to 2026-04-16 is exactly 6 years. TIMESTAMPDIFF returns 6."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT DATE_FORMAT('2026-04-16', '%Y/%m/%d'),\n       DATE_FORMAT('2026-04-16', '%d %M, %Y');</code></pre>",
+        "hint": "Two different format patterns.",
+        "answer": "<code>2026/04/16  16 April, 2026</code>",
+        "explanation": "First pattern produces slash-separated ISO. Second produces '16 April, 2026' using full month name."
+      },
+      {
+        "id": "mx-5",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Write a query that returns the number of orders placed each day for the last 7 days from <code>orders(id, order_date)</code>.",
+        "hint": "GROUP BY order_date with a 7-day filter.",
+        "answer": "<pre><code>SELECT order_date, COUNT(*) AS order_count\nFROM orders\nWHERE order_date >= CURDATE() - INTERVAL 7 DAY\nGROUP BY order_date\nORDER BY order_date;</code></pre>",
+        "explanation": "The WHERE clause keeps only the last 7 days. GROUP BY gives one row per date with the count."
+      },
+      {
+        "id": "mx-6",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given <code>users(id, name, created_at)</code>, write a query that counts new signups per day-of-week (Monday-Sunday).",
+        "hint": "Use DAYNAME and GROUP BY.",
+        "answer": "<pre><code>SELECT DAYNAME(created_at) AS day_of_week,\n       COUNT(*) AS signups\nFROM users\nGROUP BY day_of_week\nORDER BY FIELD(day_of_week,\n               'Monday','Tuesday','Wednesday','Thursday',\n               'Friday','Saturday','Sunday');</code></pre>",
+        "explanation": "FIELD gives a custom sort order. Without it, days would sort alphabetically."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>SELECT DATE_FORMAT(NOW(), '%Y-Q%q');</code></pre>",
+        "hint": "Is %q a valid format code?",
+        "answer": "<code>2026-Q</code> (followed by a literal 'q' — MySQL treats unknown % codes literally)",
+        "explanation": "MySQL's DATE_FORMAT does not have a %q specifier for quarter. Unknown codes are passed through as the letter. For quarter, use QUARTER(NOW()) concatenated separately."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>SELECT TIMESTAMPDIFF(DAY, '2026-02-15 23:00:00', '2026-02-16 01:00:00');</code></pre>",
+        "hint": "How many whole days between these datetimes?",
+        "answer": "<code>0</code>",
+        "explanation": "Only 2 hours separate the two values. TIMESTAMPDIFF with DAY counts whole days, so it returns 0 even though the calendar date changed."
+      },
+      {
+        "id": "mx-9",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Given <code>orders(id, customer_id, order_date, amount)</code>, write a query that returns the month-over-month revenue growth percentage for 2026.",
+        "hint": "Use a self-join on month or LAG (covered in Chapter 18). For now try the self-join pattern.",
+        "answer": "<pre><code>SELECT curr.month,\n       curr.revenue,\n       prev.revenue AS prev_revenue,\n       ROUND((curr.revenue - prev.revenue) / prev.revenue * 100, 2) AS growth_pct\nFROM (\n  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,\n         SUM(amount) AS revenue\n  FROM orders\n  WHERE YEAR(order_date) = 2026\n  GROUP BY month\n) curr\nLEFT JOIN (\n  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,\n         SUM(amount) AS revenue\n  FROM orders\n  WHERE YEAR(order_date) = 2026\n  GROUP BY month\n) prev\n  ON curr.month = DATE_FORMAT(DATE_ADD(STR_TO_DATE(CONCAT(prev.month,'-01'),'%Y-%m-%d'), INTERVAL 1 MONTH), '%Y-%m')\nORDER BY curr.month;</code></pre>",
+        "explanation": "Self-join a monthly aggregate with itself, shifted by one month. Window functions in Chapter 18 will make this a 2-line query with LAG()."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>SELECT EXTRACT(HOUR FROM '2026-04-16 14:23:07');</code></pre>",
+        "hint": "Extract only the hour component.",
+        "answer": "<code>14</code>",
+        "explanation": "EXTRACT(HOUR FROM ...) returns the hour in 24-hour format."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is TIMESTAMP limited to years 1970-2038 while DATETIME supports 1000-9999?",
+        "hint": "Think about how TIMESTAMP is stored internally.",
+        "answer": "TIMESTAMP is stored as a 4-byte signed integer representing seconds since the Unix epoch (1970-01-01 UTC). A 32-bit signed integer can hold values up to 2^31 - 1 = 2,147,483,647, which translates to 2038-01-19 03:14:07 UTC — this is the famous 'Y2038 problem'. DATETIME is stored as 8 bytes of packed date/time components, giving it a much wider range but no time-zone awareness.",
+        "explanation": "For historical dates (pre-1970) or dates far in the future, use DATETIME. For modern audit timestamps where TZ-awareness matters, use TIMESTAMP — but plan for the Y2038 migration to 64-bit timestamps."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which function returns the current date only, without the time?",
+        "options": [
+          { "label": "A", "text": "NOW()" },
+          { "label": "B", "text": "CURDATE()" },
+          { "label": "C", "text": "TODAY()" },
+          { "label": "D", "text": "CURTIME()" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CURDATE() returns a DATE with no time. NOW() returns DATETIME. CURTIME() returns only the time. TODAY() is not a MySQL function."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does DATEDIFF('2026-04-16', '2026-04-10') return?",
+        "options": [
+          { "label": "A", "text": "6 days" },
+          { "label": "B", "text": "6" },
+          { "label": "C", "text": "-6" },
+          { "label": "D", "text": "A TIME value 00:00:06" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DATEDIFF(a, b) returns a - b as an INTEGER number of days. No unit is appended. It can be negative if b > a."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which is the correct way to add 7 days to a date?",
+        "options": [
+          { "label": "A", "text": "date + 7" },
+          { "label": "B", "text": "date + INTERVAL 7 DAY" },
+          { "label": "C", "text": "ADD_DAYS(date, 7)" },
+          { "label": "D", "text": "date.addDays(7)" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Use the INTERVAL syntax or DATE_ADD(date, INTERVAL 7 DAY). Plain arithmetic (date + 7) sometimes appears to work but is unreliable and non-portable."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which DATE_FORMAT specifier produces a 4-digit year?",
+        "options": [
+          { "label": "A", "text": "%y" },
+          { "label": "B", "text": "%Y" },
+          { "label": "C", "text": "%YYYY" },
+          { "label": "D", "text": "%year" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Capital %Y is 4-digit, lowercase %y is 2-digit. The specifiers are single-letter."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which function returns the last day of the month for a given date?",
+        "options": [
+          { "label": "A", "text": "END_OF_MONTH(date)" },
+          { "label": "B", "text": "MONTH_END(date)" },
+          { "label": "C", "text": "LAST_DAY(date)" },
+          { "label": "D", "text": "EOM(date)" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> LAST_DAY is the MySQL function. It correctly handles leap years."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which TIMESTAMPDIFF unit correctly computes age in years?",
+        "options": [
+          { "label": "A", "text": "DAY" },
+          { "label": "B", "text": "MONTH" },
+          { "label": "C", "text": "YEAR" },
+          { "label": "D", "text": "DECADE" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> TIMESTAMPDIFF(YEAR, dob, CURDATE()) returns the exact completed years, respecting whether the birthday has passed in the current year."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Why is WHERE YEAR(created_at) = 2026 considered an anti-pattern?",
+        "options": [
+          { "label": "A", "text": "It is syntactically wrong" },
+          { "label": "B", "text": "It prevents the optimizer from using an index on created_at" },
+          { "label": "C", "text": "It returns duplicate rows" },
+          { "label": "D", "text": "YEAR() is deprecated in MySQL 8" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Wrapping the indexed column in a function forces a full table scan. Rewrite as a range: <code>created_at >= '2026-01-01' AND created_at < '2027-01-01'</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which MySQL column type stores values as UTC internally and auto-converts on read?",
+        "options": [
+          { "label": "A", "text": "DATE" },
+          { "label": "B", "text": "DATETIME" },
+          { "label": "C", "text": "TIMESTAMP" },
+          { "label": "D", "text": "TIME" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> TIMESTAMP is time-zone aware: stored as UTC, converted to the session time zone on read. DATETIME is a literal wall-clock value with no TZ awareness."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does STR_TO_DATE('2026-13-01', '%Y-%m-%d') return?",
+        "options": [
+          { "label": "A", "text": "2027-01-01" },
+          { "label": "B", "text": "An error" },
+          { "label": "C", "text": "NULL" },
+          { "label": "D", "text": "2026-12-01" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Month 13 is invalid, so STR_TO_DATE returns NULL. It does not error, and it does not silently roll over to the next year."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which of these returns the quarter number (1-4) for a date?",
+        "options": [
+          { "label": "A", "text": "QUARTER(date)" },
+          { "label": "B", "text": "EXTRACT(QTR FROM date)" },
+          { "label": "C", "text": "DATE_FORMAT(date, '%q')" },
+          { "label": "D", "text": "Q(date)" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> QUARTER(date) returns 1-4. MySQL's DATE_FORMAT has no %q specifier. EXTRACT(QUARTER FROM date) also works (full word), but not QTR."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "DAYOFWEEK in MySQL returns what for a Monday?",
+        "options": [
+          { "label": "A", "text": "0" },
+          { "label": "B", "text": "1" },
+          { "label": "C", "text": "2" },
+          { "label": "D", "text": "7" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> DAYOFWEEK numbers Sunday=1, Monday=2, ..., Saturday=7. For Monday=0 style (ISO), use WEEKDAY() instead."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the result of DATE_ADD('2026-01-31', INTERVAL 1 MONTH)?",
+        "options": [
+          { "label": "A", "text": "2026-02-31 (stored as-is)" },
+          { "label": "B", "text": "2026-03-03 (rolled over)" },
+          { "label": "C", "text": "2026-02-28 (clamped)" },
+          { "label": "D", "text": "NULL" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> MySQL clamps to the last valid day of the target month. Feb 31 does not exist, so it becomes Feb 28 (2026 is not a leap year). No rollover, no NULL."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why might CONVERT_TZ return NULL?",
+        "options": [
+          { "label": "A", "text": "The input datetime is NULL" },
+          { "label": "B", "text": "You used a named time zone like 'Asia/Kolkata' without loading the tz tables" },
+          { "label": "C", "text": "The offset is out of range" },
+          { "label": "D", "text": "All of the above" }
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> CONVERT_TZ returns NULL for NULL input, for unknown named zones (fix by running <code>mysql_tzinfo_to_sql</code>), and for invalid offsets. Named zones require the tz tables to be populated."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which query correctly finds orders placed in Q2 2026 using a sargable predicate?",
+        "options": [
+          { "label": "A", "text": "WHERE QUARTER(order_date) = 2 AND YEAR(order_date) = 2026" },
+          { "label": "B", "text": "WHERE order_date BETWEEN '2026-04-01' AND '2026-06-30'" },
+          { "label": "C", "text": "WHERE order_date >= '2026-04-01' AND order_date < '2026-07-01'" },
+          { "label": "D", "text": "WHERE DATE_FORMAT(order_date, '%Y-Q') = '2026-Q2'" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> It's sargable (the indexed column is not wrapped in a function) and uses a half-open range, which correctly includes the last day regardless of time component. B is close but fails for rows with times on June 30. A and D wrap the column in functions."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which function combo gives you the first day of the NEXT month?",
+        "options": [
+          { "label": "A", "text": "LAST_DAY(d)" },
+          { "label": "B", "text": "LAST_DAY(d) + INTERVAL 1 DAY" },
+          { "label": "C", "text": "DATE_ADD(d, INTERVAL 1 MONTH)" },
+          { "label": "D", "text": "DAY(d) + 1" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LAST_DAY gives the last day of the current month. Adding 1 day jumps to the 1st of the next month. This is the standard trick for monthly boundaries."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Which function converts a Unix epoch integer to a DATETIME?",
+        "options": [
+          { "label": "A", "text": "UNIX_TIMESTAMP()" },
+          { "label": "B", "text": "FROM_UNIXTIME()" },
+          { "label": "C", "text": "EPOCH_TO_DATE()" },
+          { "label": "D", "text": "TO_TIMESTAMP()" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> FROM_UNIXTIME(seconds) converts epoch to DATETIME. UNIX_TIMESTAMP() goes the opposite direction."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What does TIMEDIFF return?",
+        "options": [
+          { "label": "A", "text": "An INTEGER number of seconds" },
+          { "label": "B", "text": "A TIME value" },
+          { "label": "C", "text": "A DATETIME" },
+          { "label": "D", "text": "A DECIMAL hours" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> TIMEDIFF returns a TIME value like '05:14:30'. For seconds-as-integer, use TIMESTAMPDIFF(SECOND, a, b)."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Why does NOW() return the same value for every row within a single UPDATE statement?",
+        "options": [
+          { "label": "A", "text": "It is cached globally" },
+          { "label": "B", "text": "NOW() is evaluated once per statement to ensure deterministic, replication-safe behavior" },
+          { "label": "C", "text": "It's a bug" },
+          { "label": "D", "text": "Because UPDATE is fast" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> NOW() is deterministic per statement — essential for replication and for keeping audit timestamps consistent across rows in a bulk update. Use SYSDATE() if you want the real clock per call."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "To GROUP BY month with correct chronological sorting, which format pattern should you use?",
+        "options": [
+          { "label": "A", "text": "'%M %Y' (April 2026)" },
+          { "label": "B", "text": "'%m-%Y' (04-2026)" },
+          { "label": "C", "text": "'%Y-%m' (2026-04)" },
+          { "label": "D", "text": "'%b-%y' (Apr-26)" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> '%Y-%m' sorts alphabetically the same as chronologically. The others sort wrong — April comes before January alphabetically, and '04-2026' comes before '04-2025' only because of the month."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Why does TIMESTAMP have a Y2038 problem?",
+        "options": [
+          { "label": "A", "text": "MySQL was designed in the 1970s" },
+          { "label": "B", "text": "It is stored as a 32-bit signed integer of seconds since 1970-01-01 UTC, which overflows at 2038-01-19" },
+          { "label": "C", "text": "Because leap years confuse it" },
+          { "label": "D", "text": "It cannot handle dates before 2000" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A 32-bit signed integer holds 2^31 - 1 = 2147483647 seconds, which maps to 2038-01-19 03:14:07 UTC. Many systems (including MySQL) are migrating to 64-bit timestamps to solve this."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Orders From the Last 30 Days",
+        "difficulty": "Easy",
+        "description": "Given orders(id, customer, order_date, amount), write a query that returns all orders placed in the last 30 days (inclusive of today), sorted by order_date descending.",
+        "sampleInput": "orders rows: 6 sample rows across the last 2 months",
+        "sampleOutput": "All rows with order_date >= CURDATE() - INTERVAL 30 DAY.",
+        "constraints": "Use a sargable range predicate. Do not wrap order_date in a function.",
+        "solution": "CREATE TABLE orders (\n  id INT PRIMARY KEY,\n  customer VARCHAR(50),\n  order_date DATE,\n  amount DECIMAL(10,2)\n);\nINSERT INTO orders VALUES\n  (1, 'Aarav Sharma',  '2026-04-15', 1200),\n  (2, 'Priya Nair',    '2026-04-02',  850),\n  (3, 'Rohan Mehta',   '2026-03-25', 2400),\n  (4, 'Meera Krishnan','2026-03-10',  450),\n  (5, 'Vikram Singh',  '2026-02-28', 3100);\n\nSELECT *\nFROM orders\nWHERE order_date >= CURDATE() - INTERVAL 30 DAY\nORDER BY order_date DESC;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Age From Date of Birth",
+        "difficulty": "Easy",
+        "description": "Given students(id, name, dob), return each student's name, dob, and exact age in completed years as of today. Sort by age descending.",
+        "sampleInput": "5 students with varied DOBs including one whose birthday is tomorrow.",
+        "sampleOutput": "Each row shows the student and their age in whole years.",
+        "constraints": "Use TIMESTAMPDIFF, not DATEDIFF/365.",
+        "solution": "CREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(50), dob DATE);\nINSERT INTO students VALUES\n  (1, 'Ishaan Gupta',  '2008-11-12'),\n  (2, 'Kavya Reddy',   '2006-02-29'),\n  (3, 'Arjun Pillai',  '2010-04-17'),\n  (4, 'Neha Choudhary','2004-07-22'),\n  (5, 'Diya Bhatt',    '2000-01-05');\n\nSELECT name, dob,\n       TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age\nFROM students\nORDER BY age DESC;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Revenue by Month of 2026",
+        "difficulty": "Easy",
+        "description": "From sales(id, sold_at DATETIME, amount), return order count and total revenue for each month of 2026, sorted chronologically.",
+        "sampleInput": "8 sales across Jan-April 2026.",
+        "sampleOutput": "One row per month with count and SUM(amount).",
+        "constraints": "Use sortable format for GROUP BY. Filter sargably.",
+        "solution": "CREATE TABLE sales (id INT PRIMARY KEY, sold_at DATETIME, amount DECIMAL(10,2));\nINSERT INTO sales VALUES\n  (1, '2026-01-10 10:22:00', 1200),\n  (2, '2026-01-25 15:40:00',  800),\n  (3, '2026-02-03 09:10:00', 2200),\n  (4, '2026-02-28 18:05:00', 1500),\n  (5, '2026-03-12 11:30:00', 3100),\n  (6, '2026-03-29 20:00:00',  950),\n  (7, '2026-04-05 13:15:00', 1800),\n  (8, '2026-04-15 16:45:00', 2650);\n\nSELECT DATE_FORMAT(sold_at, '%Y-%m') AS month,\n       COUNT(*) AS orders,\n       SUM(amount) AS revenue\nFROM sales\nWHERE sold_at >= '2026-01-01' AND sold_at < '2027-01-01'\nGROUP BY month\nORDER BY month;"
+      },
+      {
+        "id": "cc-4",
+        "title": "Inactive Users Report",
+        "difficulty": "Medium",
+        "description": "Given sessions(user_id, last_login DATETIME), return user_id, last_login date, and days_inactive for users whose most recent login is more than 30 days ago. Sort by days_inactive DESC.",
+        "sampleInput": "5 users with varied last_login values.",
+        "sampleOutput": "Only users with 30+ days of inactivity, most inactive first.",
+        "constraints": "Use GROUP BY + HAVING. Do not include active users.",
+        "solution": "CREATE TABLE sessions (user_id INT, last_login DATETIME);\nINSERT INTO sessions VALUES\n  (101, '2026-04-15 09:12:00'),\n  (102, '2026-03-05 14:20:00'),\n  (103, '2026-04-10 11:00:00'),\n  (104, '2026-01-20 08:30:00'),\n  (105, '2026-03-14 22:15:00');\n\nSELECT user_id,\n       MAX(last_login)                           AS last_seen,\n       DATEDIFF(CURDATE(), MAX(last_login))      AS days_inactive\nFROM sessions\nGROUP BY user_id\nHAVING days_inactive > 30\nORDER BY days_inactive DESC;"
+      },
+      {
+        "id": "cc-5",
+        "title": "Sign-Ups by Day of Week",
+        "difficulty": "Medium",
+        "description": "Given users(id, name, created_at DATETIME), return each weekday (Monday to Sunday) and the number of users who signed up on that weekday. Output in Mon-Sun order.",
+        "sampleInput": "7 users spread across different weekdays.",
+        "sampleOutput": "7 rows, one per weekday, sorted Mon->Sun.",
+        "constraints": "Use DAYNAME and custom ordering with FIELD.",
+        "solution": "CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(50), created_at DATETIME);\nINSERT INTO users VALUES\n  (1,'Aarav Sharma',  '2026-04-13 10:00:00'),  -- Monday\n  (2,'Priya Nair',    '2026-04-14 09:30:00'),  -- Tuesday\n  (3,'Rohan Mehta',   '2026-04-15 18:10:00'),  -- Wednesday\n  (4,'Ananya Iyer',   '2026-04-16 07:22:00'),  -- Thursday\n  (5,'Vikram Singh',  '2026-04-10 23:00:00'),  -- Friday\n  (6,'Meera Krishnan','2026-04-11 12:00:00'),  -- Saturday\n  (7,'Diya Bhatt',    '2026-04-12 19:30:00');  -- Sunday\n\nSELECT DAYNAME(created_at) AS day_of_week,\n       COUNT(*)             AS signups\nFROM users\nGROUP BY day_of_week\nORDER BY FIELD(day_of_week,\n               'Monday','Tuesday','Wednesday','Thursday',\n               'Friday','Saturday','Sunday');"
+      },
+      {
+        "id": "cc-6",
+        "title": "Monthly Retention Window",
+        "difficulty": "Medium",
+        "description": "Given orders(id, customer_id, order_date), for each customer return the first and last order dates and the number of months between them (as a tenure measure).",
+        "sampleInput": "Multiple orders per customer across several months.",
+        "sampleOutput": "customer_id, first_order, last_order, tenure_months.",
+        "constraints": "Use MIN, MAX, and TIMESTAMPDIFF with MONTH unit.",
+        "solution": "CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, order_date DATE);\nINSERT INTO orders VALUES\n  (1, 101, '2025-01-10'),\n  (2, 101, '2025-07-22'),\n  (3, 101, '2026-03-05'),\n  (4, 102, '2025-11-02'),\n  (5, 102, '2026-02-14'),\n  (6, 103, '2026-04-01');\n\nSELECT customer_id,\n       MIN(order_date)                                       AS first_order,\n       MAX(order_date)                                       AS last_order,\n       TIMESTAMPDIFF(MONTH, MIN(order_date), MAX(order_date)) AS tenure_months\nFROM orders\nGROUP BY customer_id\nORDER BY tenure_months DESC;"
+      },
+      {
+        "id": "cc-7",
+        "title": "Parse Mixed Date Strings",
+        "difficulty": "Hard",
+        "description": "Given raw_upload(id, raw_date VARCHAR(30)) with dates in three formats ('16-04-2026', '05/04/2026', 'April 12, 2026'), return id, raw_date, and parsed_date (a proper DATE). Rows that cannot be parsed should show NULL for parsed_date.",
+        "sampleInput": "4+ rows mixing the three formats plus one garbage string.",
+        "sampleOutput": "All rows with parsed_date populated where possible.",
+        "constraints": "Use CASE with LIKE, STR_TO_DATE for each format. Handle invalid input gracefully.",
+        "solution": "CREATE TABLE raw_upload (id INT PRIMARY KEY, raw_date VARCHAR(30));\nINSERT INTO raw_upload VALUES\n  (1, '16-04-2026'),\n  (2, '05/04/2026'),\n  (3, 'April 12, 2026'),\n  (4, '2026.04.09'),\n  (5, 'not a date');\n\nSELECT id, raw_date,\n       CASE\n         WHEN raw_date REGEXP '^[0-9]{2}-[0-9]{2}-[0-9]{4}$'    THEN STR_TO_DATE(raw_date, '%d-%m-%Y')\n         WHEN raw_date REGEXP '^[0-9]{2}/[0-9]{2}/[0-9]{4}$'    THEN STR_TO_DATE(raw_date, '%d/%m/%Y')\n         WHEN raw_date REGEXP '^[A-Za-z]+ [0-9]+, [0-9]{4}$'    THEN STR_TO_DATE(raw_date, '%M %d, %Y')\n         WHEN raw_date REGEXP '^[0-9]{4}\\\\.[0-9]{2}\\\\.[0-9]{2}$' THEN STR_TO_DATE(raw_date, '%Y.%m.%d')\n         ELSE NULL\n       END AS parsed_date\nFROM raw_upload;"
+      },
+      {
+        "id": "cc-8",
+        "title": "Global Webinar Display",
+        "difficulty": "Hard",
+        "description": "Given webinars(id, topic, starts_utc DATETIME), show the start time for three time zones: IST (+05:30), Singapore (+08:00), and New York (-04:00). Also include a pretty IST display string like 'Thursday, 16 Apr 07:30 PM'.",
+        "sampleInput": "3 webinars with UTC start times.",
+        "sampleOutput": "topic, utc, ist, sg, ny, pretty_ist.",
+        "constraints": "Use CONVERT_TZ and DATE_FORMAT.",
+        "solution": "CREATE TABLE webinars (id INT PRIMARY KEY, topic VARCHAR(60), starts_utc DATETIME);\nINSERT INTO webinars VALUES\n  (1,'Python Masterclass','2026-04-20 13:30:00'),\n  (2,'SQL Interview Prep','2026-04-22 14:00:00'),\n  (3,'Web Dev Bootcamp',  '2026-04-25 03:00:00');\n\nSELECT topic,\n       starts_utc                                          AS utc,\n       CONVERT_TZ(starts_utc,'+00:00','+05:30')            AS ist,\n       CONVERT_TZ(starts_utc,'+00:00','+08:00')            AS sg,\n       CONVERT_TZ(starts_utc,'+00:00','-04:00')            AS ny,\n       DATE_FORMAT(CONVERT_TZ(starts_utc,'+00:00','+05:30'),\n                   '%W, %d %b %h:%i %p')                   AS pretty_ist\nFROM webinars\nORDER BY starts_utc;"
+      }
+    ]
+  }
+}

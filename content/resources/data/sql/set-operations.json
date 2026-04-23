@@ -1,0 +1,653 @@
+{
+  "title": "UNION, UNION ALL, INTERSECT, EXCEPT",
+  "slug": "set-operations",
+  "language": "sql",
+  "chapter": 14,
+  "difficulty": "Intermediate",
+  "readingTime": "32 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 49,
+  "seo": {
+    "title": "SQL Set Operations Tutorial - UNION, UNION ALL, INTERSECT, EXCEPT | Modern Age Coders",
+    "description": "Master SQL set operations with MySQL examples. Learn UNION vs UNION ALL, INTERSECT and EXCEPT workarounds in MySQL, rules for column matching, ORDER BY placement, performance tips, and 57+ practice questions.",
+    "keywords": "sql union, union all vs union, sql intersect, sql except, sql minus, mysql union, set operations sql, combine queries sql, sql union tutorial, sql union duplicates"
+  },
+  "content": {
+    "what": "<h2>What Are Set Operations?</h2><p>Set operations combine the results of two or more SELECT queries into a single result set. Instead of joining tables side-by-side (like JOINs do), they stack results on top of each other. The mathematical analogy is the set operations from school: union (all members), intersection (common members), difference (members of A not in B).</p><p>SQL defines four set operations: <strong>UNION</strong>, <strong>UNION ALL</strong>, <strong>INTERSECT</strong>, and <strong>EXCEPT</strong> (called MINUS in Oracle). MySQL supports UNION and UNION ALL natively. As of MySQL 8.0.31 it supports INTERSECT and EXCEPT too, but many production MySQL versions (and MariaDB) do not, so we cover the workarounds carefully.</p><h3>Sample Tables Used Throughout This Chapter</h3><pre><code>-- Customers who signed up in India\nCREATE TABLE customers_in (id INT, name VARCHAR(50), email VARCHAR(100));\nINSERT INTO customers_in VALUES\n(1, 'Aarav Kumar',   'aarav@mail.com'),\n(2, 'Priya Sharma',  'priya@mail.com'),\n(3, 'Rohan Mehta',   'rohan@mail.com'),\n(4, 'Meera Iyer',    'meera@mail.com');\n\n-- Customers who signed up in UK\nCREATE TABLE customers_uk (id INT, name VARCHAR(50), email VARCHAR(100));\nINSERT INTO customers_uk VALUES\n(101, 'Priya Sharma', 'priya@mail.com'),   -- same person, dual account!\n(102, 'Ishaan Gupta', 'ishaan@mail.co.uk'),\n(103, 'Ananya Reddy', 'ananya@mail.co.uk');\n\n-- For reconciliation examples\nCREATE TABLE users_active   (user_id INT, email VARCHAR(100));\nINSERT INTO users_active VALUES (1,'a@x.com'),(2,'b@x.com'),(3,'c@x.com');\n\nCREATE TABLE users_purchased (user_id INT, email VARCHAR(100));\nINSERT INTO users_purchased VALUES (2,'b@x.com'),(3,'c@x.com'),(4,'d@x.com');</code></pre>",
+    "why": "<h2>Why Set Operations Matter</h2><h3>1. Combining Similar Data From Multiple Sources</h3><p>Many real systems keep partitioned tables: orders_2024, orders_2025, orders_2026 or sales_emea, sales_apac, sales_amer. When you need a unified view across all of them, UNION ALL stacks the rows into one result — no changes to underlying schema required.</p><h3>2. Data Reconciliation and Diffing</h3><p>'Which users signed up but have not yet purchased?' 'Which products exist in the warehouse but not in the current catalog?' These are set-difference problems. EXCEPT (or LEFT JOIN + IS NULL) answers them.</p><h3>3. UNION vs UNION ALL Is a Performance Decision</h3><p>UNION removes duplicates by performing an implicit sort or hash. UNION ALL just concatenates. On large datasets, UNION can be dramatically slower. Knowing when you can get away with UNION ALL is a real interview question and a real engineering decision.</p><h3>4. Emulating Missing Operators Is Basic MySQL Survival</h3><p>Older MySQL versions (pre-8.0.31) and most MariaDB installations lack INTERSECT and EXCEPT. Every working MySQL developer must know the JOIN/EXISTS equivalents. This chapter covers both.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. UNION - Combine and Deduplicate</h3><p>UNION stacks the results of two SELECTs and removes duplicate rows from the combined output.</p><pre><code>-- All distinct customers across India and UK\nSELECT name, email FROM customers_in\nUNION\nSELECT name, email FROM customers_uk;</code></pre><p>Output:</p><pre><code>+---------------+-------------------+\n| name          | email             |\n+---------------+-------------------+\n| Aarav Kumar   | aarav@mail.com    |\n| Priya Sharma  | priya@mail.com    |\n| Rohan Mehta   | rohan@mail.com    |\n| Meera Iyer    | meera@mail.com    |\n| Ishaan Gupta  | ishaan@mail.co.uk |\n| Ananya Reddy  | ananya@mail.co.uk |\n+---------------+-------------------+</code></pre><p>Priya appears only once even though she is in both tables, because (name, email) matches exactly. UNION's implicit deduplication requires sorting or hashing, which costs time and memory.</p><h3>2. UNION ALL - Combine Without Deduplication (Faster)</h3><pre><code>SELECT name, email FROM customers_in\nUNION ALL\nSELECT name, email FROM customers_uk;</code></pre><p>Output now has Priya twice:</p><pre><code>-- 4 rows from customers_in + 3 rows from customers_uk = 7 rows</code></pre><p>Use UNION ALL when:</p><ul><li>You know duplicates cannot occur (different primary keys, disjoint data).</li><li>You actually want duplicates (e.g., auditing, concatenating logs).</li><li>Performance matters. UNION ALL is almost always faster than UNION.</li></ul><h3>3. Rules for UNION / UNION ALL</h3><p>Both sides of the operation must satisfy:</p><ol><li><strong>Same number of columns.</strong></li><li><strong>Compatible data types</strong> in corresponding positions. SQL will implicitly convert where reasonable, but mixing INT and VARCHAR usually fails.</li><li><strong>Column names come from the first SELECT.</strong> The second query's column names are ignored. Aliases on the first query propagate.</li></ol><pre><code>-- Column name 'customer_name' comes from the first query only\nSELECT name AS customer_name, email FROM customers_in\nUNION\nSELECT name, email FROM customers_uk;</code></pre><h3>4. ORDER BY in UNIONs</h3><p>ORDER BY applies to the combined result, and must be placed at the end:</p><pre><code>SELECT name, email FROM customers_in\nUNION\nSELECT name, email FROM customers_uk\nORDER BY name;   -- Sorts the merged list</code></pre><p>Putting ORDER BY inside one branch is invalid unless it is inside a subquery with LIMIT. You cannot order each branch independently within a UNION.</p><h3>5. INTERSECT - Common Rows</h3><p>INTERSECT returns rows present in BOTH queries. PostgreSQL, SQL Server, Oracle, and MySQL 8.0.31+ support it natively:</p><pre><code>-- Users who are both active AND purchased\nSELECT email FROM users_active\nINTERSECT\nSELECT email FROM users_purchased;</code></pre><p><strong>MySQL workaround for older versions:</strong> use INNER JOIN or IN:</p><pre><code>-- Equivalent using INNER JOIN\nSELECT DISTINCT a.email\nFROM users_active a\nJOIN users_purchased p ON a.email = p.email;\n\n-- Equivalent using IN\nSELECT DISTINCT email FROM users_active\nWHERE email IN (SELECT email FROM users_purchased);</code></pre><h3>6. EXCEPT (MINUS) - Difference</h3><p>EXCEPT returns rows in the first query but NOT in the second. Oracle calls it MINUS.</p><pre><code>-- Active users who have NOT yet purchased\nSELECT email FROM users_active\nEXCEPT\nSELECT email FROM users_purchased;</code></pre><p><strong>MySQL workaround:</strong> LEFT JOIN + IS NULL, or NOT EXISTS:</p><pre><code>-- LEFT JOIN version\nSELECT a.email FROM users_active a\nLEFT JOIN users_purchased p ON a.email = p.email\nWHERE p.email IS NULL;\n\n-- NOT EXISTS version (prefer this — NULL-safe)\nSELECT a.email FROM users_active a\nWHERE NOT EXISTS (\n    SELECT 1 FROM users_purchased p WHERE p.email = a.email\n);</code></pre><p>Output for sample data: user 1 (a@x.com) is active but has not purchased.</p><h3>7. Chaining Multiple UNIONs</h3><p>You can chain set operations. Precedence: INTERSECT binds tighter than UNION/EXCEPT. Use parentheses when unsure:</p><pre><code>SELECT name FROM customers_in\nUNION\nSELECT name FROM customers_uk\nUNION\nSELECT name FROM customers_usa;</code></pre><h3>8. Performance: When to Use UNION ALL Instead of UNION</h3><p>UNION performs deduplication which requires sorting or a hash table, both memory-hungry. On a 10-million-row combined result, this can take minutes and consume gigabytes of RAM. UNION ALL is a simple concatenation.</p><p><strong>Rule</strong>: use UNION ALL unless you specifically need deduplication. If duplicates would be produced by the data but you want them removed, consider adding a condition that prevents overlap rather than relying on UNION:</p><pre><code>-- Instead of this (UNION dedupe is expensive)\nSELECT * FROM orders WHERE status = 'shipped'\nUNION\nSELECT * FROM orders WHERE priority = 'high';\n\n-- Write this (no duplicates by construction)\nSELECT * FROM orders\nWHERE status = 'shipped' OR priority = 'high';</code></pre><h3>9. Use Cases</h3><ul><li><strong>Active users from multiple tables</strong>: Paid users + trial users + preview users as one active-user stream (UNION ALL).</li><li><strong>Data reconciliation</strong>: What is in table A but missing from table B? (EXCEPT)</li><li><strong>Cross-system matching</strong>: Emails that exist in both CRM and billing. (INTERSECT)</li><li><strong>Partitioned tables</strong>: Yearly tables unified into one view (UNION ALL).</li></ul>",
+    "codeExamples": [
+      {
+        "title": "UNION - Distinct Customers Across India and UK",
+        "code": "SELECT name, email FROM customers_in\nUNION\nSELECT name, email FROM customers_uk\nORDER BY name;",
+        "language": "sql",
+        "explanation": "UNION combines both queries and removes exact-duplicate rows. Priya Sharma appears in both tables with the same name+email, so she appears only once. ORDER BY applies to the combined result.",
+        "output": "+---------------+-------------------+\n| name          | email             |\n+---------------+-------------------+\n| Aarav Kumar   | aarav@mail.com    |\n| Ananya Reddy  | ananya@mail.co.uk |\n| Ishaan Gupta  | ishaan@mail.co.uk |\n| Meera Iyer    | meera@mail.com    |\n| Priya Sharma  | priya@mail.com    |\n| Rohan Mehta   | rohan@mail.com    |\n+---------------+-------------------+\n6 rows in set"
+      },
+      {
+        "title": "UNION ALL - Keep Duplicates (Faster)",
+        "code": "SELECT name, email FROM customers_in\nUNION ALL\nSELECT name, email FROM customers_uk\nORDER BY name;",
+        "language": "sql",
+        "explanation": "UNION ALL does not remove duplicates. Priya appears twice because she is in both tables. Significantly faster than UNION on large datasets since no sort or hash is required.",
+        "output": "+---------------+-------------------+\n| name          | email             |\n+---------------+-------------------+\n| Aarav Kumar   | aarav@mail.com    |\n| Ananya Reddy  | ananya@mail.co.uk |\n| Ishaan Gupta  | ishaan@mail.co.uk |\n| Meera Iyer    | meera@mail.com    |\n| Priya Sharma  | priya@mail.com    |\n| Priya Sharma  | priya@mail.com    |\n| Rohan Mehta   | rohan@mail.com    |\n+---------------+-------------------+\n7 rows in set"
+      },
+      {
+        "title": "UNION with Labels to Tag the Source",
+        "code": "SELECT name, email, 'India' AS source FROM customers_in\nUNION ALL\nSELECT name, email, 'UK'    AS source FROM customers_uk\nORDER BY name;",
+        "language": "sql",
+        "explanation": "Add a constant string column in each SELECT to tag where each row came from. Very useful for debugging and reporting when you need to know the source table after the union.",
+        "output": "+---------------+-------------------+--------+\n| name          | email             | source |\n+---------------+-------------------+--------+\n| Aarav Kumar   | aarav@mail.com    | India  |\n| Ananya Reddy  | ananya@mail.co.uk | UK     |\n| Ishaan Gupta  | ishaan@mail.co.uk | UK     |\n| Meera Iyer    | meera@mail.com    | India  |\n| Priya Sharma  | priya@mail.com    | India  |\n| Priya Sharma  | priya@mail.com    | UK     |\n| Rohan Mehta   | rohan@mail.com    | India  |\n+---------------+-------------------+--------+\n7 rows in set"
+      },
+      {
+        "title": "INTERSECT - Users Both Active AND Purchased (MySQL 8.0.31+)",
+        "code": "-- Native INTERSECT (MySQL 8.0.31+, PostgreSQL, SQL Server)\nSELECT email FROM users_active\nINTERSECT\nSELECT email FROM users_purchased;",
+        "language": "sql",
+        "explanation": "INTERSECT keeps only rows present in both queries. Users 2 (b@x.com) and 3 (c@x.com) are both active and have purchased. If your MySQL version is older, use the INNER JOIN workaround below.",
+        "output": "+---------+\n| email   |\n+---------+\n| b@x.com |\n| c@x.com |\n+---------+\n2 rows in set"
+      },
+      {
+        "title": "INTERSECT Workaround - INNER JOIN for Older MySQL",
+        "code": "-- Works in any MySQL version\nSELECT DISTINCT a.email\nFROM users_active a\nJOIN users_purchased p ON a.email = p.email;\n\n-- Alternative: IN\nSELECT DISTINCT email FROM users_active\nWHERE email IN (SELECT email FROM users_purchased);",
+        "language": "sql",
+        "explanation": "Both forms return the same rows as INTERSECT. INNER JOIN is often the fastest path because the optimizer can use hash joins or indexes. Use DISTINCT to match INTERSECT's deduplication semantics.",
+        "output": "+---------+\n| email   |\n+---------+\n| b@x.com |\n| c@x.com |\n+---------+\n2 rows in set"
+      },
+      {
+        "title": "EXCEPT - Active Users Who Have Not Purchased (MySQL 8.0.31+)",
+        "code": "SELECT email FROM users_active\nEXCEPT\nSELECT email FROM users_purchased;",
+        "language": "sql",
+        "explanation": "EXCEPT returns rows from the first query that are not in the second. User 1 (a@x.com) is active but has not purchased. Available natively in modern MySQL, PostgreSQL, SQL Server. Oracle uses MINUS.",
+        "output": "+---------+\n| email   |\n+---------+\n| a@x.com |\n+---------+\n1 row in set"
+      },
+      {
+        "title": "EXCEPT Workaround - LEFT JOIN + IS NULL or NOT EXISTS",
+        "code": "-- Method 1: LEFT JOIN + IS NULL\nSELECT a.email FROM users_active a\nLEFT JOIN users_purchased p ON a.email = p.email\nWHERE p.email IS NULL;\n\n-- Method 2: NOT EXISTS (preferred — NULL-safe)\nSELECT a.email FROM users_active a\nWHERE NOT EXISTS (\n    SELECT 1 FROM users_purchased p WHERE p.email = a.email\n);",
+        "language": "sql",
+        "explanation": "LEFT JOIN + IS NULL is the classic 'rows in A not in B' pattern — already covered in the JOINs chapter. NOT EXISTS is safer if the compared columns can be NULL. Both are portable across all SQL dialects.",
+        "output": "+---------+\n| email   |\n+---------+\n| a@x.com |\n+---------+\n1 row in set"
+      },
+      {
+        "title": "Chaining Three UNIONs - Yearly Sales Tables",
+        "code": "-- Simulate yearly partitioned tables\nCREATE TABLE sales_2024 (id INT, amount DECIMAL(10,2));\nCREATE TABLE sales_2025 (id INT, amount DECIMAL(10,2));\nCREATE TABLE sales_2026 (id INT, amount DECIMAL(10,2));\nINSERT INTO sales_2024 VALUES (1, 1000), (2, 2000);\nINSERT INTO sales_2025 VALUES (1, 3000), (2, 4500);\nINSERT INTO sales_2026 VALUES (1, 5200);\n\n-- Combined view across all three years (no duplicates by id collision — different years)\nSELECT id, amount, 2024 AS year FROM sales_2024\nUNION ALL\nSELECT id, amount, 2025 FROM sales_2025\nUNION ALL\nSELECT id, amount, 2026 FROM sales_2026\nORDER BY year, id;",
+        "language": "sql",
+        "explanation": "UNION ALL chains naturally. Add a constant year column so you can identify each row's origin. This is the standard pattern for combining partitioned time-series tables into a unified report.",
+        "output": "+----+---------+------+\n| id | amount  | year |\n+----+---------+------+\n|  1 | 1000.00 | 2024 |\n|  2 | 2000.00 | 2024 |\n|  1 | 3000.00 | 2025 |\n|  2 | 4500.00 | 2025 |\n|  1 | 5200.00 | 2026 |\n+----+---------+------+\n5 rows in set"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using UNION When UNION ALL Is Enough (Performance Trap)",
+        "wrongCode": "-- Combining disjoint date ranges; duplicates are impossible\nSELECT * FROM orders WHERE order_date >= '2025-01-01'\nUNION\nSELECT * FROM orders WHERE order_date <  '2025-01-01';",
+        "error": "No SQL error, but UNION forces a sort/hash to dedupe, dramatically slowing a query that cannot produce duplicates.",
+        "correctCode": "SELECT * FROM orders WHERE order_date >= '2025-01-01'\nUNION ALL\nSELECT * FROM orders WHERE order_date <  '2025-01-01';",
+        "explanation": "When the two branches cannot produce overlapping rows (disjoint filters, different primary keys), use UNION ALL. UNION's deduplication is expensive and pointless here. Know your data."
+      },
+      {
+        "title": "Mismatched Column Counts",
+        "wrongCode": "SELECT name, email FROM customers_in\nUNION\nSELECT name FROM customers_uk;",
+        "error": "ERROR 1222 (21000): The used SELECT statements have a different number of columns",
+        "correctCode": "SELECT name, email FROM customers_in\nUNION\nSELECT name, email FROM customers_uk;",
+        "explanation": "UNION requires both branches to have the same number of columns. If one side genuinely lacks a column, supply NULL or a constant: <code>SELECT name, NULL AS email FROM ...</code>."
+      },
+      {
+        "title": "Placing ORDER BY Inside a UNION Branch",
+        "wrongCode": "SELECT name FROM customers_in ORDER BY name\nUNION\nSELECT name FROM customers_uk;",
+        "error": "ERROR 1221 (HY000): Incorrect usage of UNION and ORDER BY",
+        "correctCode": "SELECT name FROM customers_in\nUNION\nSELECT name FROM customers_uk\nORDER BY name;",
+        "explanation": "ORDER BY applies to the combined result and must be at the end of the whole UNION. If you need per-branch ordering (rare), wrap each branch in a subquery with LIMIT: <code>(SELECT ... ORDER BY ... LIMIT N) UNION (SELECT ...)</code>."
+      },
+      {
+        "title": "Using NOT IN for EXCEPT When Subquery Has NULL",
+        "wrongCode": "-- Get emails in active but not in purchased\nSELECT email FROM users_active\nWHERE email NOT IN (SELECT email FROM users_purchased);",
+        "error": "No SQL error, but if any row in users_purchased has a NULL email, the query returns zero rows.",
+        "correctCode": "SELECT email FROM users_active a\nWHERE NOT EXISTS (\n    SELECT 1 FROM users_purchased p WHERE p.email = a.email\n);",
+        "explanation": "NOT IN with NULL in the subquery always returns empty (UNKNOWN combined with AND). NOT EXISTS is NULL-safe. This is the same trap we discussed in the subqueries chapter — set-difference patterns hit it constantly."
+      }
+    ],
+    "summary": [
+      "UNION combines two SELECT results and removes duplicates. UNION ALL combines them without deduplication and is significantly faster.",
+      "Both branches must have the same number of columns and compatible data types. Column names come from the first SELECT.",
+      "ORDER BY applies to the combined result and must appear at the very end of the entire UNION statement.",
+      "Use UNION ALL whenever duplicates are impossible or acceptable — it skips the expensive sort/hash deduplication step.",
+      "INTERSECT returns rows present in both queries. MySQL 8.0.31+ supports it natively; older versions use INNER JOIN or IN.",
+      "EXCEPT (MINUS in Oracle) returns rows in the first query but not in the second. Workaround: LEFT JOIN + IS NULL, or NOT EXISTS.",
+      "NOT EXISTS is always safer than NOT IN when emulating EXCEPT — NOT IN fails silently if the subquery contains NULL.",
+      "Add a constant column (like 'India' or 2024) to tag rows with their source when combining similar tables with UNION ALL.",
+      "Chained UNIONs are associative. Parentheses rarely change the result but help readability when mixing UNION with INTERSECT or EXCEPT.",
+      "Classic use cases: unifying partitioned tables (orders_2024/2025/2026), data reconciliation (what is in A not in B), cross-system matching."
+    ]
+  },
+  "relatedTopics": ["joins-inner-and-outer", "subqueries-and-nested-queries", "common-table-expressions"],
+  "practice": {
+    "totalQuestions": 49,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the key difference between UNION and UNION ALL?",
+        "hint": "Duplicates.",
+        "answer": "<code>UNION removes duplicate rows (costs a sort/hash). UNION ALL keeps all rows and is faster.</code>",
+        "explanation": "Use UNION ALL unless you need deduplication. UNION must scan or hash the combined set to remove duplicates."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Given customers_in (4 rows) and customers_uk (3 rows, 1 duplicate with _in), how many rows does UNION return?",
+        "hint": "Deduplicated.",
+        "answer": "<code>6 rows</code>",
+        "explanation": "4 + 3 = 7, minus 1 duplicate (Priya appears in both) = 6 distinct rows."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Same data, UNION ALL instead. How many rows?",
+        "hint": "No dedup.",
+        "answer": "<code>7 rows</code>",
+        "explanation": "UNION ALL concatenates: 4 + 3 = 7. Priya is kept twice."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Does MySQL always support INTERSECT?",
+        "hint": "Version matters.",
+        "answer": "<code>Only MySQL 8.0.31 and later. Older versions (and MariaDB) require workarounds like INNER JOIN or IN.</code>",
+        "explanation": "Check your server version. PostgreSQL and SQL Server have supported INTERSECT for decades."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Where can you place ORDER BY in a UNION?",
+        "hint": "Once, at the end.",
+        "answer": "<code>Only at the very end of the entire UNION statement. It sorts the combined result.</code>",
+        "explanation": "Putting ORDER BY inside a branch raises error 1221 unless you wrap that branch in parentheses with a LIMIT."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What error do you get if column counts differ?",
+        "hint": "MySQL error 1222.",
+        "answer": "<code>ERROR 1222: The used SELECT statements have a different number of columns</code>",
+        "explanation": "UNION requires matching column counts. Use NULL or a constant to pad if needed."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What column names does this produce?<br><pre><code>SELECT a AS x, b FROM t1\nUNION\nSELECT c, d FROM t2;</code></pre>",
+        "hint": "First query wins.",
+        "answer": "<code>x, b (from the first SELECT). The second query's column names are ignored.</code>",
+        "explanation": "Column names in a UNION come from the first query. Use aliases there to control final names."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given active users (1,2,3) and purchased users (2,3,4), what does INTERSECT return?",
+        "hint": "Common users.",
+        "answer": "<code>2 and 3</code>",
+        "explanation": "INTERSECT returns rows present in both sets. Users 2 and 3 are in both lists."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Same data — what does active EXCEPT purchased return?",
+        "hint": "In active, not in purchased.",
+        "answer": "<code>User 1</code>",
+        "explanation": "User 1 is active but has not purchased. Users 2 and 3 are in both, so filtered out."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write the MySQL workaround (INNER JOIN) for INTERSECT of active and purchased users by email.",
+        "hint": "JOIN on email + DISTINCT.",
+        "answer": "<pre><code>SELECT DISTINCT a.email FROM users_active a\nJOIN users_purchased p ON a.email = p.email;</code></pre>",
+        "explanation": "INNER JOIN keeps only matching rows. DISTINCT handles duplicates if either side has them."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write the MySQL workaround (NOT EXISTS) for 'active EXCEPT purchased'.",
+        "hint": "NOT EXISTS with correlation.",
+        "answer": "<pre><code>SELECT a.email FROM users_active a\nWHERE NOT EXISTS (\n    SELECT 1 FROM users_purchased p WHERE p.email = a.email\n);</code></pre>",
+        "explanation": "NOT EXISTS is the NULL-safe way. Also valid: LEFT JOIN users_purchased ... WHERE p.email IS NULL."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Why is UNION slower than UNION ALL on large datasets?",
+        "hint": "Deduplication cost.",
+        "answer": "<code>UNION must sort or hash the combined result to identify duplicates. UNION ALL just streams both sets through without additional work.</code>",
+        "explanation": "On billions of rows, the difference can be minutes vs seconds and gigabytes of RAM. Always consider whether duplicates are even possible before choosing UNION."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this produce if t1 has rows {1,2} and t2 has {2,3,4}?<br><pre><code>SELECT x FROM t1 UNION SELECT x FROM t2;</code></pre>",
+        "hint": "Distinct union.",
+        "answer": "<code>{1, 2, 3, 4}</code>",
+        "explanation": "Deduplicated union: 1, 2 (once), 3, 4."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens with this query?<br><pre><code>(SELECT name FROM a ORDER BY name LIMIT 5)\nUNION ALL\n(SELECT name FROM b ORDER BY name LIMIT 5);</code></pre>",
+        "hint": "Parentheses + LIMIT trick.",
+        "answer": "<code>Takes top 5 sorted names from a, top 5 from b, and concatenates them. Per-branch ORDER BY + LIMIT is allowed inside parentheses.</code>",
+        "explanation": "This is the only legal way to apply ORDER BY within a UNION branch: wrap it in parens and pair it with LIMIT. Useful for 'top N from each category' merges."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Tag the source of each row in a UNION. Why and how?",
+        "hint": "Constant column.",
+        "answer": "<pre><code>SELECT name, email, 'India' AS source FROM customers_in\nUNION ALL\nSELECT name, email, 'UK'    AS source FROM customers_uk;</code></pre>",
+        "explanation": "Adding a constant column labels each row's origin so downstream queries can filter or group by source. Essential for debugging multi-source unions."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which rule does UNION NOT enforce?",
+        "hint": "Three rules: column count, types, and first query naming.",
+        "answer": "<code>UNION does NOT require column names to match between branches. Only column count and compatible types matter.</code>",
+        "explanation": "Final column names come from the first query. Second query's column names are ignored."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is Oracle's name for EXCEPT?",
+        "hint": "Arithmetic sign.",
+        "answer": "<code>MINUS</code>",
+        "explanation": "Oracle calls the difference operator MINUS. All other major databases (MySQL 8.0.31+, PostgreSQL, SQL Server) use EXCEPT."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Give a real-world use case for UNION ALL.",
+        "hint": "Partitioned tables.",
+        "answer": "<code>Combining yearly partitioned sales tables (sales_2024, sales_2025, sales_2026) into a unified report. No duplicates by construction, so UNION ALL is faster.</code>",
+        "explanation": "Many OLAP systems partition tables by time. UNION ALL unifies them for cross-year analysis."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Is the following valid?<br><pre><code>SELECT id, name FROM t1 UNION SELECT id FROM t2;</code></pre>",
+        "hint": "Column count.",
+        "answer": "<code>No. Column counts differ (2 vs 1). MySQL returns ERROR 1222.</code>",
+        "explanation": "Fix by adding a NULL placeholder: <code>SELECT id, NULL FROM t2</code>."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Which is preferred for 'active users who have not yet purchased' in MySQL 5.7?",
+        "hint": "NOT EXISTS or LEFT JOIN.",
+        "answer": "<code>NOT EXISTS or LEFT JOIN + IS NULL — MySQL 5.7 lacks EXCEPT.</code>",
+        "explanation": "EXCEPT is only available in MySQL 8.0.31+. Until then, use the equivalent JOIN or NOT EXISTS patterns."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write a UNION query returning all unique cities from two tables customers_in and customers_uk (assume both have a 'city' column).",
+        "hint": "UNION.",
+        "answer": "<pre><code>SELECT city FROM customers_in\nUNION\nSELECT city FROM customers_uk\nORDER BY city;</code></pre>",
+        "explanation": "UNION automatically deduplicates. Cities appearing in both tables are listed once."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Write a UNION ALL query tagging each customer with their origin country.",
+        "hint": "Constant column.",
+        "answer": "<pre><code>SELECT name, email, 'India' AS country FROM customers_in\nUNION ALL\nSELECT name, email, 'UK' FROM customers_uk;</code></pre>",
+        "explanation": "Constant string columns label each branch. Use UNION ALL to keep duplicates if a person is registered in both countries — that is useful information."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given 3 yearly sales tables, write a query that returns total amount per year.",
+        "hint": "UNION ALL with constant year, then GROUP BY.",
+        "answer": "<pre><code>SELECT year, SUM(amount) AS total FROM (\n    SELECT amount, 2024 AS year FROM sales_2024\n    UNION ALL\n    SELECT amount, 2025 FROM sales_2025\n    UNION ALL\n    SELECT amount, 2026 FROM sales_2026\n) t\nGROUP BY year;</code></pre>",
+        "explanation": "Combine all three tables with UNION ALL into a derived table, then aggregate by year. Add a constant year column so you can GROUP BY it."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When would UNION produce the same result as UNION ALL?",
+        "hint": "When duplicates cannot occur.",
+        "answer": "<code>When the two SELECTs cannot produce overlapping rows. For example, disjoint WHERE filters on the same table, or unrelated tables with unique IDs.</code>",
+        "explanation": "In those cases, prefer UNION ALL for performance. UNION's deduplication is wasted work."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why can't you put a separate ORDER BY inside each UNION branch?",
+        "hint": "Set semantics.",
+        "answer": "<code>Because UNION treats the combined result as one set. Per-branch ordering would be meaningless — the final order is determined at the end. To order within a branch, wrap it in parentheses with LIMIT: (SELECT ... ORDER BY ... LIMIT N) UNION (SELECT ...).</code>",
+        "explanation": "SQL enforces this because ORDER BY alone without LIMIT is not meaningful within a set operation."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Emulate FULL OUTER JOIN between customers_in and customers_uk on email using UNION.",
+        "hint": "LEFT JOIN UNION RIGHT JOIN.",
+        "answer": "<pre><code>SELECT i.name AS in_name, u.name AS uk_name\nFROM customers_in i\nLEFT JOIN customers_uk u ON i.email = u.email\nUNION\nSELECT i.name, u.name\nFROM customers_in i\nRIGHT JOIN customers_uk u ON i.email = u.email;</code></pre>",
+        "explanation": "LEFT JOIN keeps all India customers; RIGHT JOIN keeps all UK customers. UNION deduplicates the common matched rows. This is the standard MySQL workaround for FULL OUTER JOIN."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Find emails in BOTH customers_in and customers_uk, portable across older MySQL.",
+        "hint": "INTERSECT workaround.",
+        "answer": "<pre><code>SELECT DISTINCT i.email FROM customers_in i\nJOIN customers_uk u ON i.email = u.email;</code></pre>",
+        "explanation": "INNER JOIN + DISTINCT simulates INTERSECT. Result on sample data: priya@mail.com (the only overlapping email)."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does UNION do?",
+        "options": {
+          "A": "Combines and keeps all rows including duplicates",
+          "B": "Combines and removes duplicate rows",
+          "C": "Joins tables side by side",
+          "D": "Returns only common rows"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> UNION deduplicates; UNION ALL keeps duplicates; INTERSECT returns common rows."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which is faster on large datasets?",
+        "options": {
+          "A": "UNION",
+          "B": "UNION ALL",
+          "C": "Both are equally fast",
+          "D": "It depends on the database"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> UNION ALL avoids the sort/hash dedup step, so it is significantly faster. Use UNION only when you actually need deduplication."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What must be true of queries combined with UNION?",
+        "options": {
+          "A": "They must be from the same table",
+          "B": "They must have the same number of columns with compatible types",
+          "C": "They must have identical column names",
+          "D": "They cannot use WHERE clauses"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> UNION requires matching column count and compatible types. Column names come from the first SELECT; they do not need to match."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Where do final column names come from in a UNION?",
+        "options": {
+          "A": "The second SELECT",
+          "B": "The first SELECT",
+          "C": "Automatically generated",
+          "D": "Must be specified after UNION"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Column names (including aliases) come from the first SELECT. Put your desired aliases there."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which statement lists rows present in the first query but NOT in the second?",
+        "options": {
+          "A": "INTERSECT",
+          "B": "UNION",
+          "C": "EXCEPT / MINUS",
+          "D": "JOIN"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> EXCEPT (or MINUS in Oracle) returns rows in the first result set that are not in the second."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Does MySQL 5.7 support INTERSECT and EXCEPT natively?",
+        "options": {
+          "A": "Yes, always",
+          "B": "No. Only MySQL 8.0.31+ supports them. Older versions need workarounds.",
+          "C": "Only INTERSECT is supported",
+          "D": "Only EXCEPT is supported"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL added INTERSECT and EXCEPT in 8.0.31 (late 2022). MariaDB also requires recent versions. Use INNER JOIN or NOT EXISTS as workarounds."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Where should ORDER BY appear in a UNION?",
+        "options": {
+          "A": "After each SELECT",
+          "B": "Only in the first SELECT",
+          "C": "At the very end, applying to the combined result",
+          "D": "ORDER BY is not allowed"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> ORDER BY at the end sorts the combined rows. Per-branch ordering requires parentheses with a LIMIT."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "The MySQL equivalent of INTERSECT (for older versions) is:",
+        "options": {
+          "A": "LEFT JOIN + IS NULL",
+          "B": "INNER JOIN + DISTINCT",
+          "C": "NOT EXISTS",
+          "D": "UNION ALL"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> INNER JOIN with DISTINCT keeps only rows present on both sides. A corresponds to EXCEPT; C also corresponds to EXCEPT."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Given sets A={1,2,3} and B={2,3,4}, what does A EXCEPT B return?",
+        "options": {
+          "A": "{1,2,3,4}",
+          "B": "{2,3}",
+          "C": "{1}",
+          "D": "{4}"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> EXCEPT returns elements in A not in B. Only 1 qualifies."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is a common pitfall when emulating EXCEPT with NOT IN?",
+        "options": {
+          "A": "NOT IN is slower",
+          "B": "If the subquery returns NULL, NOT IN fails silently and returns no rows",
+          "C": "NOT IN does not work with VARCHAR",
+          "D": "NOT IN is deprecated"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The NULL trap from the subqueries chapter strikes again. Use NOT EXISTS or filter NULLs out of the subquery."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is the result of this query if t1 has 5 rows and t2 has 5 rows with 2 exact duplicates?<br><code>SELECT * FROM t1 UNION ALL SELECT * FROM t2;</code>",
+        "options": {
+          "A": "5 rows",
+          "B": "8 rows",
+          "C": "10 rows",
+          "D": "2 rows"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> UNION ALL concatenates: 5 + 5 = 10 rows. Duplicates are kept. UNION (without ALL) would return 8."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "You want the top 3 cheapest products from each of two warehouses combined. What is the correct pattern?",
+        "options": {
+          "A": "SELECT * FROM warehouse1 UNION SELECT * FROM warehouse2 ORDER BY price LIMIT 3",
+          "B": "(SELECT * FROM warehouse1 ORDER BY price LIMIT 3) UNION ALL (SELECT * FROM warehouse2 ORDER BY price LIMIT 3)",
+          "C": "SELECT TOP 3 * FROM warehouse1 UNION SELECT TOP 3 * FROM warehouse2",
+          "D": "Not possible in MySQL"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Wrap each branch in parentheses with ORDER BY and LIMIT. A would sort and limit the combined result, not each branch."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Which scenario justifies using UNION instead of UNION ALL?",
+        "options": {
+          "A": "Combining disjoint date ranges",
+          "B": "Combining two tables where a row could appear in both and you need only one copy",
+          "C": "Concatenating log entries",
+          "D": "Any multi-table query"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> UNION is appropriate when duplicates are possible AND you want them removed. Otherwise, UNION ALL is faster."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which pattern correctly emulates EXCEPT in MySQL 5.7?",
+        "options": {
+          "A": "SELECT * FROM a EXCEPT SELECT * FROM b (works in 5.7)",
+          "B": "SELECT * FROM a WHERE NOT EXISTS (SELECT 1 FROM b WHERE b.key = a.key)",
+          "C": "SELECT * FROM a NOT IN SELECT * FROM b",
+          "D": "SELECT * FROM a CROSS JOIN b"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL 5.7 does not support EXCEPT (A fails). C is not valid syntax. D is cartesian. NOT EXISTS is the portable, NULL-safe pattern."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "difficulty": "Easy",
+        "title": "Distinct Customers Across Two Regions",
+        "description": "Combine customers_in and customers_uk into a single deduplicated list of (name, email).",
+        "starterCode": "-- UNION\n",
+        "solution": "SELECT name, email FROM customers_in\nUNION\nSELECT name, email FROM customers_uk\nORDER BY name;",
+        "explanation": "UNION deduplicates. Priya appears once even though she exists in both tables with matching name and email.",
+        "testCases": [
+          {"input": "Sample data", "output": "6 rows including Priya once"}
+        ]
+      },
+      {
+        "id": "cc-2",
+        "difficulty": "Easy",
+        "title": "Tagged Combined List",
+        "description": "Combine both customer tables with a 'country' tag. Keep duplicates (dual accounts are interesting data).",
+        "starterCode": "-- UNION ALL + constant column\n",
+        "solution": "SELECT name, email, 'India' AS country FROM customers_in\nUNION ALL\nSELECT name, email, 'UK' AS country FROM customers_uk\nORDER BY name;",
+        "explanation": "UNION ALL keeps Priya twice (once per country). The constant 'country' column labels each row's source.",
+        "testCases": [
+          {"input": "Sample data", "output": "7 rows with country column"}
+        ]
+      },
+      {
+        "id": "cc-3",
+        "difficulty": "Medium",
+        "title": "Common Emails (INTERSECT Workaround)",
+        "description": "Find emails that exist in BOTH customers_in and customers_uk. Use a workaround that works in all MySQL versions.",
+        "starterCode": "-- INNER JOIN + DISTINCT\n",
+        "solution": "SELECT DISTINCT i.email\nFROM customers_in i\nJOIN customers_uk u ON i.email = u.email;",
+        "explanation": "INNER JOIN keeps matches on both sides. DISTINCT handles any duplicates within a table.",
+        "testCases": [
+          {"input": "Sample data", "output": "priya@mail.com"}
+        ]
+      },
+      {
+        "id": "cc-4",
+        "difficulty": "Medium",
+        "title": "Active Users Who Have Not Purchased (EXCEPT Workaround)",
+        "description": "From users_active, return users who are NOT in users_purchased. Use NOT EXISTS.",
+        "starterCode": "-- NOT EXISTS is NULL-safe\n",
+        "solution": "SELECT a.user_id, a.email\nFROM users_active a\nWHERE NOT EXISTS (\n    SELECT 1 FROM users_purchased p WHERE p.email = a.email\n);",
+        "explanation": "NOT EXISTS avoids the NOT IN NULL trap. Returns user 1 (a@x.com).",
+        "testCases": [
+          {"input": "Sample data", "output": "user_id 1, a@x.com"}
+        ]
+      },
+      {
+        "id": "cc-5",
+        "difficulty": "Medium",
+        "title": "Yearly Sales Consolidation",
+        "description": "Combine sales_2024, sales_2025, sales_2026 into one result with a year tag, sorted by year then id.",
+        "starterCode": "-- UNION ALL + constant year\n",
+        "solution": "SELECT id, amount, 2024 AS year FROM sales_2024\nUNION ALL\nSELECT id, amount, 2025 FROM sales_2025\nUNION ALL\nSELECT id, amount, 2026 FROM sales_2026\nORDER BY year, id;",
+        "explanation": "UNION ALL because the partitioned tables cannot share rows. Constant year column preserves source info.",
+        "testCases": [
+          {"input": "Sample sales tables", "output": "5 rows sorted by year and id"}
+        ]
+      },
+      {
+        "id": "cc-6",
+        "difficulty": "Hard",
+        "title": "Totals Per Year From Combined Sales",
+        "description": "Using UNION ALL and GROUP BY, return total sales per year across the three yearly tables.",
+        "starterCode": "-- UNION ALL inside a derived table, then GROUP BY\n",
+        "solution": "SELECT year, SUM(amount) AS total\nFROM (\n    SELECT amount, 2024 AS year FROM sales_2024\n    UNION ALL\n    SELECT amount, 2025 FROM sales_2025\n    UNION ALL\n    SELECT amount, 2026 FROM sales_2026\n) t\nGROUP BY year\nORDER BY year;",
+        "explanation": "Derived table unifies the three sources. Outer query aggregates by year.",
+        "testCases": [
+          {"input": "Sample sales tables", "output": "2024: 3000, 2025: 7500, 2026: 5200"}
+        ]
+      },
+      {
+        "id": "cc-7",
+        "difficulty": "Hard",
+        "title": "Emulate FULL OUTER JOIN Between Two Customer Tables",
+        "description": "Return every customer from India and UK, matched by email where possible, NULL on the side where there is no match.",
+        "starterCode": "-- LEFT JOIN UNION RIGHT JOIN\n",
+        "solution": "SELECT i.email AS in_email, i.name AS in_name, u.email AS uk_email, u.name AS uk_name\nFROM customers_in i\nLEFT JOIN customers_uk u ON i.email = u.email\nUNION\nSELECT i.email, i.name, u.email, u.name\nFROM customers_in i\nRIGHT JOIN customers_uk u ON i.email = u.email;",
+        "explanation": "LEFT JOIN captures all India rows; RIGHT JOIN captures all UK rows. UNION deduplicates the intersection.",
+        "testCases": [
+          {"input": "Sample data", "output": "6 rows: 4 India-only/matched + 2 UK-only"}
+        ]
+      },
+      {
+        "id": "cc-8",
+        "difficulty": "Hard",
+        "title": "Top 2 From Each Country",
+        "description": "Return the first 2 customers (by id) from each country as a combined list, tagged by country.",
+        "starterCode": "-- Per-branch LIMIT with parentheses\n",
+        "solution": "(SELECT id, name, 'India' AS country FROM customers_in ORDER BY id LIMIT 2)\nUNION ALL\n(SELECT id, name, 'UK' FROM customers_uk ORDER BY id LIMIT 2);",
+        "explanation": "Parentheses allow each branch to have its own ORDER BY and LIMIT. UNION ALL keeps both branches' top 2.",
+        "testCases": [
+          {"input": "Sample data", "output": "4 rows: top 2 of India + top 2 of UK"}
+        ]
+      }
+    ]
+  }
+}

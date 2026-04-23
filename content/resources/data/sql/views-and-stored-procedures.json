@@ -1,0 +1,736 @@
+{
+  "title": "Views, Stored Procedures, and Functions",
+  "slug": "views-and-stored-procedures",
+  "language": "sql",
+  "chapter": 21,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "SQL Views and Stored Procedures in MySQL - CREATE VIEW, CREATE PROCEDURE, Functions | Modern Age Coders",
+    "description": "Master SQL views, stored procedures, and user-defined functions in MySQL. Learn CREATE VIEW, updatable vs non-updatable views, WITH CHECK OPTION, the materialized-view workaround, CREATE PROCEDURE with IN/OUT/INOUT parameters, DELIMITER, control flow (IF, WHILE, REPEAT, LOOP), cursors, and CREATE FUNCTION. 58+ practice questions with real sample tables and MySQL-runnable queries.",
+    "keywords": "sql views, mysql create view, stored procedures mysql, sql functions, mysql procedure parameters, delimiter mysql, with check option, updatable views, materialized view mysql, cursors mysql, user defined functions sql"
+  },
+  "content": {
+    "what": "<h2>Views, Stored Procedures, and Functions: The Database's Abstractions</h2><p>Once a schema grows past a dozen tables, your application starts repeating the same joins and filters in dozens of places. Three database objects let you stop repeating yourself: <strong>views</strong> turn a query into a reusable virtual table, <strong>stored procedures</strong> bundle multi-step logic into a named routine you can CALL, and <strong>functions</strong> behave like ordinary SQL functions (<code>UPPER</code>, <code>ABS</code>) that you wrote yourself.</p><pre><code>-- A view is a saved SELECT that looks like a table\nCREATE VIEW active_customers AS\nSELECT id, name, email, city\nFROM customers\nWHERE status = 'ACTIVE' AND deleted_at IS NULL;\n\nSELECT * FROM active_customers WHERE city = 'Pune';\n\n-- A stored procedure is a named block of SQL you call\nDELIMITER $$\nCREATE PROCEDURE transfer_money(\n    IN from_id INT, IN to_id INT, IN amount DECIMAL(10,2)\n)\nBEGIN\n    START TRANSACTION;\n    UPDATE accounts SET balance = balance - amount WHERE id = from_id;\n    UPDATE accounts SET balance = balance + amount WHERE id = to_id;\n    COMMIT;\nEND$$\nDELIMITER ;\n\nCALL transfer_money(101, 102, 500.00);</code></pre><p>A view does not store rows; it stores a query. Every time you read from the view, MySQL re-runs the underlying SELECT. A stored procedure, on the other hand, is compiled code that lives inside the database and can contain variables, loops, IF/ELSE, transactions, and even cursors. Functions are a third flavour: they take parameters, return a single value, and can be called from inside any SELECT.</p>"
+    ,
+    "why": "<h2>Why These Three Objects Matter</h2><h3>1. Hiding Schema Complexity from the Application</h3><p>A frontend engineer writing a dashboard for Aarav does not care that <code>active_customers</code> actually requires joining <code>customers</code>, <code>subscriptions</code>, and <code>user_flags</code> while filtering on three status columns. A view hides all that. The application writes <code>SELECT * FROM active_customers</code> and the schema behind the view is free to change.</p><h3>2. Security via Column and Row Filtering</h3><p>You can grant a read-only analyst access to a view that exposes only five columns out of a 30-column <code>employees</code> table — no salary, no Aadhaar, no manager notes. The underlying table remains inaccessible. This is how production systems keep PII away from BI tools.</p><h3>3. Atomic, Reusable Business Logic</h3><p>A money transfer is not one UPDATE; it is debit + credit + audit log + balance check, all inside a transaction. If this logic lives in the application, every service that transfers money must re-implement it (and eventually one of them will do it wrong). A stored procedure enforces the sequence in one place.</p><h3>4. Performance and Round Trips</h3><p>A procedure that runs ten queries incurs one network round trip. The same ten queries from an application server means ten TCP round trips. For bulk jobs (monthly billing, nightly reconciliation) this difference is measured in hours.</p><h3>5. Computed Columns Across the Database</h3><p>If Priya defines a function <code>gst_amount(price, state)</code>, every query in the warehouse can use it: <code>SELECT order_id, gst_amount(total, ship_state) FROM orders</code>. Tax logic lives in one place. When the rates change, one ALTER FUNCTION and every report is correct.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Creating and Using Views</h3><p>A view is defined by a SELECT statement. When you query the view, MySQL substitutes the underlying SELECT at query-planning time (this is called <em>view merging</em>).</p><pre><code>CREATE VIEW top_cities AS\nSELECT city, COUNT(*) AS customer_count\nFROM customers\nGROUP BY city\nHAVING COUNT(*) > 100;\n\n-- Use it like any table\nSELECT * FROM top_cities ORDER BY customer_count DESC;\n\n-- Replace an existing view (safer than DROP + CREATE)\nCREATE OR REPLACE VIEW top_cities AS\nSELECT city, state, COUNT(*) AS customer_count\nFROM customers\nGROUP BY city, state\nHAVING COUNT(*) > 100;\n\n-- Drop\nDROP VIEW IF EXISTS top_cities;</code></pre><h3>2. Updatable vs Non-Updatable Views</h3><p>A view is <strong>updatable</strong> (supports INSERT/UPDATE/DELETE) only when MySQL can map every row back to exactly one row in one base table. These rules make a view non-updatable: aggregation (<code>SUM</code>, <code>GROUP BY</code>), <code>DISTINCT</code>, set operations (<code>UNION</code>), subqueries in the SELECT list, joins (in most cases), and window functions.</p><pre><code>-- Updatable: simple filter on one table\nCREATE VIEW pune_customers AS\nSELECT id, name, email FROM customers WHERE city = 'Pune';\n\nUPDATE pune_customers SET email = 'aarav@new.com' WHERE id = 5;\n-- This actually updates the customers table\n\n-- NOT updatable: has GROUP BY\nCREATE VIEW city_stats AS\nSELECT city, COUNT(*) AS n FROM customers GROUP BY city;\n\nUPDATE city_stats SET n = 0 WHERE city = 'Pune';\n-- ERROR 1288: The target table city_stats of the UPDATE is not updatable</code></pre><h3>3. WITH CHECK OPTION</h3><p>By default, you can INSERT rows through an updatable view even if the new row would not appear in the view. <code>WITH CHECK OPTION</code> forbids this.</p><pre><code>CREATE VIEW pune_customers AS\nSELECT id, name, city FROM customers WHERE city = 'Pune'\nWITH CHECK OPTION;\n\nINSERT INTO pune_customers VALUES (99, 'Rohan', 'Mumbai');\n-- ERROR 1369: CHECK OPTION failed 'pune_customers'\n\nINSERT INTO pune_customers VALUES (99, 'Rohan', 'Pune');\n-- OK</code></pre><h3>4. Materialized Views: The MySQL Workaround</h3><p>A <em>materialized view</em> stores the query result on disk and refreshes it on schedule. PostgreSQL and Oracle support them natively. MySQL does not. The standard workaround is a real table plus an event that refreshes it.</p><pre><code>-- The \"materialized view\" is actually a plain table\nCREATE TABLE mv_daily_sales (\n    sale_date DATE PRIMARY KEY,\n    total_sales DECIMAL(12,2),\n    order_count INT\n);\n\n-- A procedure that rebuilds it\nDELIMITER $$\nCREATE PROCEDURE refresh_daily_sales()\nBEGIN\n    TRUNCATE TABLE mv_daily_sales;\n    INSERT INTO mv_daily_sales\n    SELECT DATE(created_at), SUM(total), COUNT(*)\n    FROM orders\n    GROUP BY DATE(created_at);\nEND$$\nDELIMITER ;\n\n-- A scheduled event to refresh hourly\nCREATE EVENT refresh_daily_sales_event\nON SCHEDULE EVERY 1 HOUR\nDO CALL refresh_daily_sales();</code></pre><p>You trade freshness for query speed. If reads run a thousand times per minute and the underlying data changes every few hours, this pattern pays for itself.</p><h3>5. Stored Procedures: The Basics</h3><p>A procedure is a named block of SQL that supports variables, flow control, and transactions. Because MySQL statements end with <code>;</code>, you must temporarily change the statement delimiter while defining one.</p><pre><code>DELIMITER $$\n\nCREATE PROCEDURE get_customer_count()\nBEGIN\n    SELECT COUNT(*) AS total FROM customers;\nEND$$\n\nDELIMITER ;\n\nCALL get_customer_count();\n-- Output: total = 1247</code></pre><h3>6. Parameters: IN, OUT, INOUT</h3><ul><li><strong>IN</strong> (default): caller passes a value in; the procedure reads it.</li><li><strong>OUT</strong>: the procedure writes a value out; the caller reads it after.</li><li><strong>INOUT</strong>: both directions.</li></ul><pre><code>DELIMITER $$\nCREATE PROCEDURE get_balance(\n    IN  acct_id INT,\n    OUT bal DECIMAL(10,2)\n)\nBEGIN\n    SELECT balance INTO bal FROM accounts WHERE id = acct_id;\nEND$$\nDELIMITER ;\n\nCALL get_balance(101, @b);\nSELECT @b;  -- 5000.00\n\n-- INOUT example: apply 10% interest\nDELIMITER $$\nCREATE PROCEDURE add_interest(INOUT bal DECIMAL(10,2), IN rate DECIMAL(5,2))\nBEGIN\n    SET bal = bal * (1 + rate/100);\nEND$$\nDELIMITER ;\n\nSET @x = 1000.00;\nCALL add_interest(@x, 10);\nSELECT @x;  -- 1100.00</code></pre><h3>7. DECLARE: Local Variables</h3><pre><code>DELIMITER $$\nCREATE PROCEDURE apply_bonus(IN emp_id INT)\nBEGIN\n    DECLARE current_salary DECIMAL(10,2);\n    DECLARE bonus DECIMAL(10,2);\n\n    SELECT salary INTO current_salary FROM employees WHERE id = emp_id;\n    SET bonus = current_salary * 0.10;\n\n    UPDATE employees SET salary = salary + bonus WHERE id = emp_id;\nEND$$\nDELIMITER ;</code></pre><p>Local variables must be declared at the start of a BEGIN...END block, before any executable statement.</p><h3>8. Control Flow: IF, CASE, WHILE, REPEAT, LOOP</h3><pre><code>-- IF / ELSEIF / ELSE\nIF current_salary < 30000 THEN\n    SET hike = 0.20;\nELSEIF current_salary < 60000 THEN\n    SET hike = 0.15;\nELSE\n    SET hike = 0.10;\nEND IF;\n\n-- CASE\nCASE level\n    WHEN 'JUNIOR' THEN SET bonus = 5000;\n    WHEN 'SENIOR' THEN SET bonus = 15000;\n    ELSE SET bonus = 0;\nEND CASE;\n\n-- WHILE\nDECLARE i INT DEFAULT 1;\nWHILE i <= 10 DO\n    INSERT INTO numbers VALUES (i);\n    SET i = i + 1;\nEND WHILE;\n\n-- REPEAT (exit-condition loop)\nSET i = 1;\nREPEAT\n    INSERT INTO numbers VALUES (i);\n    SET i = i + 1;\nUNTIL i > 10\nEND REPEAT;\n\n-- LOOP with LEAVE (break)\nmy_loop: LOOP\n    SET i = i + 1;\n    IF i > 10 THEN LEAVE my_loop; END IF;\nEND LOOP my_loop;</code></pre><h3>9. Cursors: Row-by-Row Processing</h3><p>A cursor lets you iterate over a result set one row at a time. Use them sparingly — a set-based UPDATE is usually 100x faster than a cursor loop. Cursors make sense when each row requires a distinct side effect (sending an email, calling another procedure).</p><pre><code>DELIMITER $$\nCREATE PROCEDURE give_raise_to_top_performers()\nBEGIN\n    DECLARE done INT DEFAULT 0;\n    DECLARE emp_id INT;\n    DECLARE emp_rating INT;\n\n    DECLARE cur CURSOR FOR\n        SELECT id, rating FROM employees WHERE rating >= 4;\n    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;\n\n    OPEN cur;\n    read_loop: LOOP\n        FETCH cur INTO emp_id, emp_rating;\n        IF done = 1 THEN LEAVE read_loop; END IF;\n\n        IF emp_rating = 5 THEN\n            UPDATE employees SET salary = salary * 1.20 WHERE id = emp_id;\n        ELSE\n            UPDATE employees SET salary = salary * 1.10 WHERE id = emp_id;\n        END IF;\n    END LOOP;\n    CLOSE cur;\nEND$$\nDELIMITER ;</code></pre><p>The <code>CONTINUE HANDLER FOR NOT FOUND</code> sets the <code>done</code> flag when the cursor runs out of rows — this is the standard idiom.</p><h3>10. User-Defined Functions</h3><p>A function is like a procedure but returns exactly one value and can be called from a SELECT. Functions cannot modify data (in MySQL, they can, but it is strongly discouraged and requires <code>DETERMINISTIC</code> or <code>READS SQL DATA</code> qualifiers).</p><pre><code>DELIMITER $$\nCREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))\nRETURNS DECIMAL(10,2)\nDETERMINISTIC\nBEGIN\n    RETURN ROUND(price * rate / 100, 2);\nEND$$\nDELIMITER ;\n\nSELECT product, price, gst(price, 18) AS tax FROM products;</code></pre><p>Keywords you must know:</p><ul><li><code>DETERMINISTIC</code>: same inputs always produce the same output (needed for replication safety).</li><li><code>READS SQL DATA</code>: the function runs SELECTs.</li><li><code>MODIFIES SQL DATA</code>: the function runs INSERT/UPDATE/DELETE (rarely appropriate).</li><li><code>NO SQL</code>: pure computation, no table access.</li></ul><h3>11. Procedures vs Functions: The Real Differences</h3><table border='1' cellpadding='6'><tr><th></th><th>Procedure</th><th>Function</th></tr><tr><td>Returns</td><td>Zero or more result sets (via OUT params or SELECT inside)</td><td>Exactly one scalar value</td></tr><tr><td>Called from SELECT?</td><td>No</td><td>Yes: <code>SELECT gst(price, 18)</code></td></tr><tr><td>Invocation</td><td><code>CALL proc_name(args)</code></td><td><code>func_name(args)</code> anywhere an expression is valid</td></tr><tr><td>Transactions</td><td>Can START TRANSACTION, COMMIT, ROLLBACK</td><td>Cannot (in MySQL functions)</td></tr><tr><td>Typical use</td><td>Business workflows, batch jobs</td><td>Scalar computations, derived columns</td></tr></table><h3>12. DROP, ALTER, SHOW</h3><pre><code>-- List everything\nSHOW PROCEDURE STATUS WHERE Db = 'shop';\nSHOW FUNCTION STATUS WHERE Db = 'shop';\nSHOW CREATE PROCEDURE transfer_money;\nSHOW CREATE VIEW active_customers;\n\n-- Drop\nDROP PROCEDURE IF EXISTS transfer_money;\nDROP FUNCTION  IF EXISTS gst;\nDROP VIEW      IF EXISTS active_customers;\n\n-- You cannot ALTER a procedure's body; drop and recreate.\n-- ALTER PROCEDURE only changes characteristics like SQL SECURITY.</code></pre><h3>13. SQL SECURITY: DEFINER vs INVOKER</h3><p>By default a procedure runs with the privileges of the user who defined it (<code>SQL SECURITY DEFINER</code>). This lets you grant CALL permission to users who do not have direct access to the underlying tables — a common security pattern. Use <code>SQL SECURITY INVOKER</code> to run with the caller's privileges instead.</p><pre><code>CREATE PROCEDURE view_salary(IN emp_id INT)\nSQL SECURITY INVOKER\nBEGIN\n    SELECT salary FROM employees WHERE id = emp_id;\nEND;</code></pre>"
+    ,
+    "codeExamples": [
+      {
+        "title": "Active Customers View with Hidden Columns",
+        "code": "-- Base table\nCREATE TABLE customers (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    email VARCHAR(100),\n    phone VARCHAR(15),\n    aadhaar VARCHAR(12),\n    status VARCHAR(10),\n    deleted_at DATETIME NULL\n);\n\nINSERT INTO customers VALUES\n(1, 'Aarav Sharma',  'aarav@mail.com',  '9876500001', '111122223333', 'ACTIVE',  NULL),\n(2, 'Priya Nair',    'priya@mail.com',  '9876500002', '222233334444', 'ACTIVE',  NULL),\n(3, 'Rohan Kapoor',  'rohan@mail.com',  '9876500003', '333344445555', 'INACTIVE',NULL),\n(4, 'Anika Desai',   'anika@mail.com',  '9876500004', '444455556666', 'ACTIVE',  '2026-03-01 10:00:00');\n\n-- View exposes only non-PII columns and only live, active rows\nCREATE VIEW active_customers AS\nSELECT id, name, email\nFROM customers\nWHERE status = 'ACTIVE' AND deleted_at IS NULL;\n\nSELECT * FROM active_customers;",
+        "language": "sql",
+        "explanation": "The view hides <code>phone</code> and <code>aadhaar</code> completely. A read-only reporting user granted access to <code>active_customers</code> cannot see PII even if they know the column names. The WHERE clause also enforces the business rule of active + not-deleted in one place.",
+        "output": "+----+--------------+-----------------+\n| id | name         | email           |\n+----+--------------+-----------------+\n|  1 | Aarav Sharma | aarav@mail.com  |\n|  2 | Priya Nair   | priya@mail.com  |\n+----+--------------+-----------------+"
+      },
+      {
+        "title": "WITH CHECK OPTION Preventing Out-of-View Inserts",
+        "code": "CREATE TABLE orders (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    customer_id INT,\n    total DECIMAL(10,2),\n    region VARCHAR(20)\n);\n\nINSERT INTO orders (customer_id, total, region) VALUES\n(1, 1500.00, 'WEST'),\n(2,  800.00, 'WEST'),\n(3, 2100.00, 'NORTH');\n\nCREATE VIEW west_orders AS\nSELECT id, customer_id, total, region\nFROM orders\nWHERE region = 'WEST'\nWITH CHECK OPTION;\n\n-- This would silently succeed without CHECK OPTION\n-- With it, MySQL blocks the insert\nINSERT INTO west_orders (customer_id, total, region)\nVALUES (4, 500.00, 'EAST');\n-- ERROR 1369 (HY000): CHECK OPTION failed 'shop.west_orders'\n\nINSERT INTO west_orders (customer_id, total, region)\nVALUES (4, 500.00, 'WEST');\n-- OK\n\nSELECT * FROM west_orders;",
+        "language": "sql",
+        "explanation": "<code>WITH CHECK OPTION</code> tells MySQL that every INSERT/UPDATE through the view must produce a row that still passes the view's WHERE clause. Without it, you could insert an EAST row through <code>west_orders</code> — the row would land in the base table but disappear from the view, which almost always indicates a bug.",
+        "output": "ERROR 1369 (HY000): CHECK OPTION failed 'shop.west_orders'\n\n+----+-------------+---------+--------+\n| id | customer_id | total   | region |\n+----+-------------+---------+--------+\n|  1 |           1 | 1500.00 | WEST   |\n|  2 |           2 |  800.00 | WEST   |\n|  4 |           4 |  500.00 | WEST   |\n+----+-------------+---------+--------+"
+      },
+      {
+        "title": "Stored Procedure: Transfer Money Between Accounts",
+        "code": "CREATE TABLE accounts (\n    id INT PRIMARY KEY,\n    holder VARCHAR(50),\n    balance DECIMAL(10,2) NOT NULL CHECK (balance >= 0)\n);\n\nINSERT INTO accounts VALUES\n(101, 'Aarav', 5000.00),\n(102, 'Priya', 2000.00);\n\nDELIMITER $$\nCREATE PROCEDURE transfer_money(\n    IN  from_id INT,\n    IN  to_id   INT,\n    IN  amount  DECIMAL(10,2)\n)\nBEGIN\n    DECLARE from_balance DECIMAL(10,2);\n\n    START TRANSACTION;\n\n    SELECT balance INTO from_balance\n    FROM accounts WHERE id = from_id FOR UPDATE;\n\n    IF from_balance < amount THEN\n        ROLLBACK;\n        SIGNAL SQLSTATE '45000'\n            SET MESSAGE_TEXT = 'Insufficient funds';\n    END IF;\n\n    UPDATE accounts SET balance = balance - amount WHERE id = from_id;\n    UPDATE accounts SET balance = balance + amount WHERE id = to_id;\n\n    COMMIT;\nEND$$\nDELIMITER ;\n\nCALL transfer_money(101, 102, 1500.00);\nSELECT * FROM accounts;",
+        "language": "sql",
+        "explanation": "The procedure wraps debit + credit in a transaction. <code>SELECT ... FOR UPDATE</code> locks the source account so no concurrent transfer can cause an overdraft. If the balance is insufficient, <code>SIGNAL</code> raises a user-defined error — the exact mechanism applications catch. This is the textbook \"atomic transfer\" — it either fully succeeds or fully rolls back.",
+        "output": "+-----+--------+---------+\n| id  | holder | balance |\n+-----+--------+---------+\n| 101 | Aarav  | 3500.00 |\n| 102 | Priya  | 3500.00 |\n+-----+--------+---------+"
+      },
+      {
+        "title": "OUT Parameter: Fetch a Scalar Result",
+        "code": "CREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    dept VARCHAR(20),\n    salary DECIMAL(10,2)\n);\n\nINSERT INTO employees VALUES\n(1, 'Aarav',  'ENG', 90000),\n(2, 'Priya',  'ENG', 75000),\n(3, 'Rohan',  'SAL', 60000),\n(4, 'Anika',  'ENG', 110000);\n\nDELIMITER $$\nCREATE PROCEDURE avg_salary_by_dept(\n    IN  dept_name VARCHAR(20),\n    OUT avg_sal   DECIMAL(10,2)\n)\nBEGIN\n    SELECT AVG(salary) INTO avg_sal\n    FROM employees WHERE dept = dept_name;\nEND$$\nDELIMITER ;\n\nCALL avg_salary_by_dept('ENG', @avg);\nSELECT @avg AS engineering_avg;",
+        "language": "sql",
+        "explanation": "The procedure takes a department name as IN and returns the average salary through an OUT parameter. The caller uses a user variable (<code>@avg</code>) to receive the value. <code>SELECT INTO</code> is the canonical way to assign a single-row result into local or OUT variables.",
+        "output": "+-----------------+\n| engineering_avg |\n+-----------------+\n|     91666.67    |\n+-----------------+"
+      },
+      {
+        "title": "WHILE Loop: Populate a Numbers Table",
+        "code": "CREATE TABLE numbers (n INT PRIMARY KEY);\n\nDELIMITER $$\nCREATE PROCEDURE fill_numbers(IN up_to INT)\nBEGIN\n    DECLARE i INT DEFAULT 1;\n    WHILE i <= up_to DO\n        INSERT INTO numbers VALUES (i);\n        SET i = i + 1;\n    END WHILE;\nEND$$\nDELIMITER ;\n\nCALL fill_numbers(5);\nSELECT * FROM numbers ORDER BY n;",
+        "language": "sql",
+        "explanation": "A classic WHILE loop. The variable <code>i</code> is declared at the start of the block. Numbers tables are invaluable for generating calendar rows, filling gaps, and simulating row-generating functions that MySQL lacks. In production you would usually wrap the inserts in a single multi-row INSERT for speed; this illustrates the loop mechanics.",
+        "output": "+---+\n| n |\n+---+\n| 1 |\n| 2 |\n| 3 |\n| 4 |\n| 5 |\n+---+"
+      },
+      {
+        "title": "User-Defined Function: GST Computation",
+        "code": "CREATE TABLE products (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    price DECIMAL(10,2),\n    gst_rate DECIMAL(5,2)\n);\n\nINSERT INTO products VALUES\n(1, 'Notebook',    120.00,  5.00),\n(2, 'Headphones', 1999.00, 18.00),\n(3, 'T-shirt',     499.00, 12.00);\n\nDELIMITER $$\nCREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))\nRETURNS DECIMAL(10,2)\nDETERMINISTIC\nBEGIN\n    RETURN ROUND(price * rate / 100, 2);\nEND$$\nDELIMITER ;\n\nSELECT name, price, gst_rate,\n       gst(price, gst_rate) AS tax,\n       price + gst(price, gst_rate) AS total\nFROM products;",
+        "language": "sql",
+        "explanation": "Because <code>gst</code> is a function, it can appear anywhere an expression can — SELECT list, WHERE, ORDER BY, HAVING. <code>DETERMINISTIC</code> tells MySQL that the function is a pure computation, which is required for binary-log-based replication and lets the optimiser cache calls.",
+        "output": "+------------+---------+----------+--------+---------+\n| name       | price   | gst_rate | tax    | total   |\n+------------+---------+----------+--------+---------+\n| Notebook   |  120.00 |  5.00    |   6.00 |  126.00 |\n| Headphones | 1999.00 | 18.00    | 359.82 | 2358.82 |\n| T-shirt    |  499.00 | 12.00    |  59.88 |  558.88 |\n+------------+---------+----------+--------+---------+"
+      },
+      {
+        "title": "Cursor Loop: Row-by-Row Side Effects",
+        "code": "CREATE TABLE employees_bonus (\n    id INT PRIMARY KEY,\n    emp_id INT,\n    bonus DECIMAL(10,2)\n);\n\nDELIMITER $$\nCREATE PROCEDURE compute_yearly_bonus()\nBEGIN\n    DECLARE done INT DEFAULT 0;\n    DECLARE cur_id INT;\n    DECLARE cur_salary DECIMAL(10,2);\n    DECLARE cur_dept VARCHAR(20);\n    DECLARE bonus_amt DECIMAL(10,2);\n\n    DECLARE emp_cur CURSOR FOR\n        SELECT id, salary, dept FROM employees;\n    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;\n\n    OPEN emp_cur;\n    emp_loop: LOOP\n        FETCH emp_cur INTO cur_id, cur_salary, cur_dept;\n        IF done = 1 THEN LEAVE emp_loop; END IF;\n\n        IF cur_dept = 'ENG' THEN\n            SET bonus_amt = cur_salary * 0.15;\n        ELSE\n            SET bonus_amt = cur_salary * 0.10;\n        END IF;\n\n        INSERT INTO employees_bonus (emp_id, bonus)\n        VALUES (cur_id, bonus_amt);\n    END LOOP;\n    CLOSE emp_cur;\nEND$$\nDELIMITER ;\n\nCALL compute_yearly_bonus();\nSELECT * FROM employees_bonus;",
+        "language": "sql",
+        "explanation": "The cursor iterates over every employee. For each row, the procedure decides the bonus percentage based on department and inserts a record. The <code>CONTINUE HANDLER FOR NOT FOUND</code> is the standard way to detect end-of-cursor: when <code>FETCH</code> runs out of rows, it raises a NOT FOUND condition and the handler flips <code>done</code> to 1, which the IF inside the loop uses to LEAVE.",
+        "output": "+----+--------+----------+\n| id | emp_id | bonus    |\n+----+--------+----------+\n|  1 |      1 | 13500.00 |\n|  2 |      2 | 11250.00 |\n|  3 |      3 |  6000.00 |\n|  4 |      4 | 16500.00 |\n+----+--------+----------+"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting DELIMITER $$ for Multi-Statement Bodies",
+        "wrongCode": "CREATE PROCEDURE greet()\nBEGIN\n    SELECT 'Hello';\n    SELECT 'World';\nEND;\n-- MySQL client thinks the first ; ends the whole CREATE statement.\n-- Result: syntax error, or a half-built procedure.",
+        "error": "ERROR 1064 (42000): You have an error in your SQL syntax; check the manual ... near 'END' at line 4",
+        "correctCode": "DELIMITER $$\n\nCREATE PROCEDURE greet()\nBEGIN\n    SELECT 'Hello';\n    SELECT 'World';\nEND$$\n\nDELIMITER ;\n\nCALL greet();",
+        "explanation": "The MySQL client ends every statement on a semicolon. A procedure body has internal semicolons, so you must change the delimiter to something like <code>$$</code> for the duration of the CREATE statement and change it back afterwards. This is purely a client concern — the server does not care — but forgetting it is the single most common mistake."
+      },
+      {
+        "title": "Trying to UPDATE a Non-Updatable View",
+        "wrongCode": "CREATE VIEW dept_totals AS\nSELECT dept, SUM(salary) AS total\nFROM employees\nGROUP BY dept;\n\nUPDATE dept_totals SET total = 0 WHERE dept = 'ENG';\n-- ERROR 1288 (HY000): The target table dept_totals of the UPDATE is not updatable",
+        "error": "ERROR 1288: The target table is not updatable",
+        "correctCode": "-- If you want to update the underlying salaries, target the base table\nUPDATE employees SET salary = 0 WHERE dept = 'ENG';\n\n-- A view with aggregation is read-only by definition. Any view that\n-- uses GROUP BY, DISTINCT, UNION, a subquery in SELECT, or most JOINs\n-- becomes non-updatable.",
+        "explanation": "MySQL cannot map an aggregated row back to a specific row in a base table, so it refuses the UPDATE rather than guess. The lesson: views are for simplifying reads. If you also need to write, keep the view definition simple (single table, no aggregation, no DISTINCT)."
+      },
+      {
+        "title": "Declaring Variables After Executable Statements",
+        "wrongCode": "DELIMITER $$\nCREATE PROCEDURE bad_order()\nBEGIN\n    SET @x = 5;                        -- user variable, fine\n    SELECT COUNT(*) FROM employees;    -- executable statement\n    DECLARE i INT DEFAULT 0;           -- too late!\nEND$$\nDELIMITER ;\n-- ERROR 1064: syntax error near 'DECLARE i INT DEFAULT 0'",
+        "error": "ERROR 1064 (42000): You have an error in your SQL syntax",
+        "correctCode": "DELIMITER $$\nCREATE PROCEDURE good_order()\nBEGIN\n    DECLARE i INT DEFAULT 0;           -- all DECLAREs first\n    SELECT COUNT(*) INTO i FROM employees;\n    SET @x = i;\nEND$$\nDELIMITER ;",
+        "explanation": "MySQL requires every <code>DECLARE</code> to appear at the top of its BEGIN...END block, before any executable statement. Nest a new BEGIN...END if you need to declare a variable later. Also note: user variables like <code>@x</code> do not need DECLARE — they are session-scoped. Only local variables (no <code>@</code>) require DECLARE."
+      },
+      {
+        "title": "Cursor Without a NOT FOUND Handler (Infinite Loop or Error)",
+        "wrongCode": "DELIMITER $$\nCREATE PROCEDURE broken_cursor()\nBEGIN\n    DECLARE cur CURSOR FOR SELECT id FROM employees;\n    DECLARE emp_id INT;\n    OPEN cur;\n    my_loop: LOOP\n        FETCH cur INTO emp_id;   -- raises NOT FOUND when empty\n        -- No handler! The procedure errors out at the end.\n    END LOOP my_loop;\n    CLOSE cur;\nEND$$\nDELIMITER ;",
+        "error": "ERROR 1329 (02000): No data - zero rows fetched, selected, or processed",
+        "correctCode": "DELIMITER $$\nCREATE PROCEDURE working_cursor()\nBEGIN\n    DECLARE done INT DEFAULT 0;\n    DECLARE emp_id INT;\n    DECLARE cur CURSOR FOR SELECT id FROM employees;\n    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;\n\n    OPEN cur;\n    my_loop: LOOP\n        FETCH cur INTO emp_id;\n        IF done = 1 THEN LEAVE my_loop; END IF;\n        -- do something with emp_id\n    END LOOP my_loop;\n    CLOSE cur;\nEND$$\nDELIMITER ;",
+        "explanation": "When a cursor is exhausted, <code>FETCH</code> raises the NOT FOUND condition. Without a handler the procedure throws error 1329 and aborts. The CONTINUE HANDLER lets you flip a sentinel variable and LEAVE the loop cleanly. This is boilerplate you copy verbatim into every cursor procedure."
+      },
+      {
+        "title": "Forgetting DETERMINISTIC on a Pure Function (Replication Error)",
+        "wrongCode": "DELIMITER $$\nCREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))\nRETURNS DECIMAL(10,2)\nBEGIN\n    RETURN ROUND(price * rate / 100, 2);\nEND$$\nDELIMITER ;\n-- ERROR 1418 (HY000): This function has none of DETERMINISTIC, NO SQL,\n-- or READS SQL DATA in its declaration and binary logging is enabled",
+        "error": "ERROR 1418: This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA",
+        "correctCode": "DELIMITER $$\nCREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))\nRETURNS DECIMAL(10,2)\nDETERMINISTIC\nBEGIN\n    RETURN ROUND(price * rate / 100, 2);\nEND$$\nDELIMITER ;",
+        "explanation": "When binary logging is on (which it is on nearly every production server because of replication and point-in-time recovery), MySQL refuses to create a function unless you declare its data characteristic: <code>DETERMINISTIC</code>, <code>NO SQL</code>, <code>READS SQL DATA</code>, or <code>MODIFIES SQL DATA</code>. Claiming DETERMINISTIC when the function actually uses <code>NOW()</code> or <code>RAND()</code> corrupts replicas, so be honest about it."
+      }
+    ],
+    "summary": [
+      "A view is a named SELECT that behaves like a virtual table. It stores no rows — every query re-runs the underlying SELECT through view merging. Views hide complexity, expose only safe columns, and give BI tools a stable interface while the schema evolves.",
+      "Views are updatable (INSERT/UPDATE/DELETE pass through to the base table) only when MySQL can map each view row to one base-table row. Aggregation, DISTINCT, UNION, subqueries in SELECT, joins, and window functions all make a view read-only.",
+      "WITH CHECK OPTION forces every INSERT/UPDATE through the view to produce a row that still matches the view's WHERE clause. Without it, you can insert rows that immediately disappear from the view — almost always a bug.",
+      "MySQL has no native materialized views. The standard workaround is a real table plus a stored procedure that rebuilds it, scheduled via an event (hourly, nightly). Trade freshness for read speed.",
+      "Stored procedures are named blocks of SQL with parameters (IN, OUT, INOUT), local variables (DECLARE), and control flow (IF, CASE, WHILE, REPEAT, LOOP). Call them with CALL proc_name(args). Define with DELIMITER $$ ... END$$ to survive internal semicolons.",
+      "IN passes values in, OUT returns a value to the caller (use @var to receive), INOUT does both. Use SELECT ... INTO to assign scalar query results into procedure variables.",
+      "Cursors iterate a result set row by row. Always pair a cursor with a CONTINUE HANDLER FOR NOT FOUND that sets a done flag, and LEAVE the loop when done = 1. Prefer set-based SQL whenever possible — cursors are 10-100x slower.",
+      "Functions return exactly one value and are callable from any SELECT, WHERE, or ORDER BY. Procedures can return multiple result sets via OUT or inline SELECTs but must be invoked with CALL.",
+      "Binary logging (on by default in production) requires every function to declare DETERMINISTIC, NO SQL, READS SQL DATA, or MODIFIES SQL DATA. Label accurately — lying about determinism breaks replication.",
+      "SQL SECURITY DEFINER (the default) runs procedures with the defining user's privileges, which is how you grant CALL access to users who cannot read the underlying tables directly. Use INVOKER when you want caller-based checks."
+    ]
+  },
+  "relatedTopics": ["triggers-and-events", "transactions-and-acid", "indexes-and-performance"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Given a view <code>CREATE VIEW v AS SELECT id, name FROM users WHERE active = 1;</code> and rows (1,'Aarav',1), (2,'Priya',0), (3,'Rohan',1), what does <code>SELECT COUNT(*) FROM v;</code> return?",
+        "hint": "The view filters on active = 1.",
+        "answer": "<code>2</code>",
+        "explanation": "Only Aarav and Rohan have active = 1, so the view contains two rows."
+      },
+      {
+        "id": "ts-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Does a view store data on disk?",
+        "hint": "Think about what CREATE VIEW actually saves.",
+        "answer": "No. A view stores only the SELECT statement. Every query against the view re-runs that SELECT against the underlying base tables.",
+        "explanation": "This is why a view is called a <em>virtual</em> table. It has no storage cost (a few KB for the definition) but every query pays the cost of re-running the underlying SELECT."
+      },
+      {
+        "id": "ts-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why do we write DELIMITER $$ before CREATE PROCEDURE?",
+        "hint": "Think about how the MySQL client parses statements.",
+        "answer": "The MySQL client splits input on <code>;</code>. A procedure body contains internal semicolons, so we temporarily change the delimiter to <code>$$</code> so the client sends the whole CREATE PROCEDURE as one statement.",
+        "explanation": "It is a purely client-side concern — the server parses the statement as a whole. Without it, the client would send only the first inner statement and CREATE PROCEDURE would fail."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this procedure set <code>@r</code> to?<pre><code>CREATE PROCEDURE sq(IN x INT, OUT r INT)\nBEGIN SET r = x * x; END;\n\nCALL sq(6, @r);\nSELECT @r;</code></pre>",
+        "hint": "OUT parameters are assigned with SET.",
+        "answer": "<code>36</code>",
+        "explanation": "The procedure multiplies x by itself and writes it to the OUT parameter. The caller reads <code>@r</code> after CALL."
+      },
+      {
+        "id": "ts-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between a procedure and a function in MySQL?",
+        "hint": "Think about how you invoke each and what it returns.",
+        "answer": "A <strong>procedure</strong> is invoked with <code>CALL name(args)</code> and can return zero, one, or many result sets via OUT parameters or inner SELECTs. A <strong>function</strong> returns exactly one scalar value and is called from inside any expression: <code>SELECT my_func(col)</code>.",
+        "explanation": "Functions are for computations (derived columns, scalar calculations). Procedures are for workflows (multi-step business logic, transactions)."
+      },
+      {
+        "id": "ts-6",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Name three conditions that make a view non-updatable.",
+        "hint": "Think about what stops MySQL from mapping a view row back to a base-table row.",
+        "answer": "Any of: (1) aggregate functions / GROUP BY, (2) DISTINCT, (3) UNION / UNION ALL, (4) subqueries in the SELECT list, (5) most JOINs, (6) window functions. Any of these makes the view read-only.",
+        "explanation": "MySQL needs to map each view row to exactly one row in one base table. Aggregation, deduplication, and set operations destroy that mapping."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given employees with salaries 40000, 60000, 80000, 100000, what does this procedure set <code>@out</code> to?<pre><code>CREATE PROCEDURE sum_above(IN threshold INT, OUT s INT)\nBEGIN\n    SELECT SUM(salary) INTO s FROM employees WHERE salary > threshold;\nEND;\n\nCALL sum_above(60000, @out);\nSELECT @out;</code></pre>",
+        "hint": "Sum only salaries strictly greater than 60000.",
+        "answer": "<code>180000</code>",
+        "explanation": "80000 + 100000 = 180000. The 60000 row is excluded because the condition is strict >."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does WITH CHECK OPTION protect against?",
+        "hint": "Think about INSERTs through a filtered view.",
+        "answer": "It prevents INSERTs or UPDATEs through the view that would produce rows which do not match the view's WHERE clause. Without it, an insert through <code>pune_customers</code> could write a row with city = 'Mumbai' — the row lands in the base table but never appears in the view.",
+        "explanation": "This silent disappearance is almost always a bug. WITH CHECK OPTION turns it into a clean error."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this WHILE loop write to the numbers table?<pre><code>DECLARE i INT DEFAULT 1;\nWHILE i < 4 DO\n    INSERT INTO numbers VALUES (i * 10);\n    SET i = i + 1;\nEND WHILE;</code></pre>",
+        "hint": "The condition is i &lt; 4.",
+        "answer": "Rows: 10, 20, 30. The loop stops when i becomes 4 because the condition i &lt; 4 is false.",
+        "explanation": "i starts at 1, inserts 10, 20, 30 for i = 1, 2, 3, then i becomes 4 and the loop exits."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the purpose of <code>DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;</code> inside a cursor block?",
+        "hint": "Think about what happens when FETCH runs out of rows.",
+        "answer": "When FETCH has no more rows, MySQL raises the NOT FOUND condition (SQLSTATE '02000'). The CONTINUE HANDLER catches it and sets the <code>done</code> variable to 1, which the loop body checks to LEAVE. Without the handler, the procedure would abort with error 1329.",
+        "explanation": "This is the idiomatic way to detect end-of-cursor in MySQL. CONTINUE means execution resumes at the next statement; EXIT would jump out of the block."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does MySQL reject a function declaration that has no DETERMINISTIC, NO SQL, or READS SQL DATA qualifier when binary logging is on?",
+        "hint": "Think about replication.",
+        "answer": "With statement-based binary logging, the master replicates function calls as text, and the replica re-executes them. If the function is non-deterministic (uses NOW(), RAND()), the replica will produce a different result — the slave drifts. MySQL forces you to declare the function's behaviour so it (and the DBA) can reason about replication safety.",
+        "explanation": "DETERMINISTIC means same input always yields same output. NO SQL and READS SQL DATA promise not to mutate data. MODIFIES SQL DATA is a red flag — think hard before using it inside a function."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "When would you materialise a view (fake materialisation in MySQL) instead of using a regular view?",
+        "hint": "Think about read frequency vs write frequency vs freshness tolerance.",
+        "answer": "When the underlying query is expensive (complex joins, aggregation over millions of rows), the view is queried far more often than the data changes, and users can tolerate some staleness. For example, a dashboard that shows daily totals can run off a table refreshed hourly — 60 minutes of lag is acceptable but 10 seconds of query time per page-load is not.",
+        "explanation": "Regular views pay the SELECT cost on every query. Materialised views shift the cost to a scheduled refresh, so the read path becomes an indexed table lookup."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What does SQL SECURITY DEFINER let you do that SQL SECURITY INVOKER does not?",
+        "hint": "Think about privilege delegation.",
+        "answer": "DEFINER runs the procedure with the privileges of the user who created it, not the caller. You can grant CALL permission on the procedure to a user who has no direct SELECT or UPDATE on the underlying tables. This is how production systems let application accounts execute business logic without granting them base-table access.",
+        "explanation": "It is the database equivalent of a typed API: callers get one named operation, not raw table access."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is wrong with this function, and what error will MySQL produce at creation time?<pre><code>DELIMITER $$\nCREATE FUNCTION next_id() RETURNS INT\nBEGIN\n    RETURN (SELECT MAX(id) + 1 FROM users);\nEND$$\nDELIMITER ;</code></pre>",
+        "hint": "Think about data characteristic clauses.",
+        "answer": "The function reads from a table but has no data-characteristic clause. MySQL rejects it with ERROR 1418 when binary logging is on. Fix: add <code>READS SQL DATA</code> or <code>NOT DETERMINISTIC</code> (or both) between <code>RETURNS INT</code> and <code>BEGIN</code>.",
+        "explanation": "Also note the design is racy — concurrent calls can return the same id. In real code use AUTO_INCREMENT or a sequence table with proper locking."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is it usually faster to write a set-based UPDATE than a cursor loop that updates one row at a time?",
+        "hint": "Think about round trips, parsing, and the optimiser.",
+        "answer": "A single UPDATE is planned once, executed once, and the storage engine can batch redo-log writes. A cursor loop executes N separate statements, each with its own locking, optimiser parsing, and log flush. For 100k rows, the cursor version can be 50-100x slower, especially when combined with an index update per row.",
+        "explanation": "Cursors are the right tool only when each row requires a logically distinct side effect that cannot be expressed in SQL — sending an email, calling an external API from a trigger, etc."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the difference between a user variable (<code>@x</code>) and a local variable declared with <code>DECLARE</code>.",
+        "hint": "Think scope and lifetime.",
+        "answer": "A user variable (<code>@x</code>) is session-scoped: it lives as long as the connection, is visible across procedures, and does not need DECLARE. A local variable (<code>DECLARE x INT</code>) is block-scoped: it exists only within the BEGIN...END where it was declared, cannot collide with other procedures, and does need DECLARE.",
+        "explanation": "Prefer local variables inside procedures — they prevent accidental bleeding of state between CALLs. Use <code>@x</code> to receive OUT parameters or to pass values between CALLs at the client level."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Can a trigger call a stored procedure? Can a function call a procedure?",
+        "hint": "Think about what each context is allowed to do.",
+        "answer": "A trigger can CALL a procedure, provided the procedure does not perform forbidden operations (COMMIT, ROLLBACK inside a trigger). A function can also CALL a procedure in MySQL, but the procedure must not produce result sets (functions cannot return tabular data to the caller).",
+        "explanation": "The practical rule: keep triggers and functions narrow. If the logic is complex enough to need a procedure, you usually want the caller to invoke the procedure directly, not via a trigger."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this return?<pre><code>CREATE VIEW adult_users AS\nSELECT name FROM users WHERE age >= 18;\n\n-- users: Aarav(20), Priya(16), Rohan(25), Anika(17)\nSELECT COUNT(*) FROM adult_users;</code></pre>",
+        "hint": "Count only rows where age >= 18.",
+        "answer": "<code>2</code>",
+        "explanation": "Aarav (20) and Rohan (25) are adults. Priya and Anika are below 18."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Which keyword replaces an existing view in one statement?",
+        "hint": "Think alter-like keyword for views.",
+        "answer": "<code>CREATE OR REPLACE VIEW view_name AS ...</code>",
+        "explanation": "CREATE OR REPLACE is safer than DROP + CREATE because other sessions never see a moment when the view does not exist."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>@out</code> become?<pre><code>CREATE PROCEDURE pick(IN arr_len INT, OUT r INT)\nBEGIN\n    DECLARE i INT DEFAULT 1;\n    DECLARE total INT DEFAULT 0;\n    WHILE i <= arr_len DO\n        SET total = total + i;\n        SET i = i + 1;\n    END WHILE;\n    SET r = total;\nEND;\n\nCALL pick(5, @out);</code></pre>",
+        "hint": "Sum of 1..5.",
+        "answer": "<code>15</code>",
+        "explanation": "1+2+3+4+5 = 15. The WHILE loop accumulates into total, then assigns to the OUT parameter."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "You want an analyst to see employee name and department but not salary. How do you use a view to enforce this?",
+        "hint": "Think column-level exposure.",
+        "answer": "<code>CREATE VIEW employee_safe AS SELECT id, name, dept FROM employees;</code> Then grant SELECT on <code>employee_safe</code> and REVOKE SELECT on <code>employees</code>. The analyst can query the view but cannot see salary.",
+        "explanation": "This is called column projection security. It is cleaner than application-level filtering because it is enforced by the database, regardless of what tool the analyst uses."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What error does this produce?<pre><code>CREATE VIEW dept_counts AS\nSELECT dept, COUNT(*) AS n FROM employees GROUP BY dept;\n\nUPDATE dept_counts SET n = 0 WHERE dept = 'HR';</code></pre>",
+        "hint": "Aggregated views are not updatable.",
+        "answer": "<code>ERROR 1288: The target table dept_counts of the UPDATE is not updatable</code>",
+        "explanation": "Because the view uses GROUP BY + COUNT(), a view row corresponds to many base-table rows, so MySQL cannot determine which row to update."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Write a one-line CREATE statement for a deterministic function <code>square(x)</code> returning INT.",
+        "hint": "Do not forget DETERMINISTIC.",
+        "answer": "<code>CREATE FUNCTION square(x INT) RETURNS INT DETERMINISTIC RETURN x * x;</code>",
+        "explanation": "For a single-expression function body you can use <code>RETURN expr;</code> directly, no BEGIN...END needed. You still need the DETERMINISTIC qualifier for binary-log safety."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given accounts (1, 1000), (2, 500), and this procedure, what do the balances become after CALL transfer(1, 2, 300)?<pre><code>CREATE PROCEDURE transfer(IN f INT, IN t INT, IN amt INT)\nBEGIN\n    START TRANSACTION;\n    UPDATE accounts SET balance = balance - amt WHERE id = f;\n    UPDATE accounts SET balance = balance + amt WHERE id = t;\n    COMMIT;\nEND;</code></pre>",
+        "hint": "Debit source, credit destination.",
+        "answer": "Account 1: 700, Account 2: 800.",
+        "explanation": "1000 - 300 = 700; 500 + 300 = 800. Both UPDATEs happen inside the same transaction, so either both commit or both roll back."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why might you prefer a stored procedure for batch billing over application-side logic?",
+        "hint": "Think about round trips, transactions, and consistency.",
+        "answer": "(1) One network round trip instead of N, which matters when N is millions of rows. (2) The whole job runs in one transaction (or in explicit batches) inside the database, so partial failures are cleanly rolled back. (3) The business rule lives in one place; no two services can drift out of sync. (4) DBAs can tune and schedule it without touching the app.",
+        "explanation": "The trade-off is testing — stored procedures are harder to unit-test than application code. The rule of thumb: use procedures for data-heavy pipelines and keep user-facing business logic in the app."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does <code>SELECT my_tax(1000, 18)</code> return given the function below?<pre><code>CREATE FUNCTION my_tax(p DECIMAL(10,2), r DECIMAL(5,2))\nRETURNS DECIMAL(10,2) DETERMINISTIC\nBEGIN\n    IF p > 500 THEN\n        RETURN p * r / 100;\n    ELSE\n        RETURN 0;\n    END IF;\nEND;</code></pre>",
+        "hint": "p = 1000 passes the IF check.",
+        "answer": "<code>180.00</code>",
+        "explanation": "1000 * 18 / 100 = 180. Because p > 500, the first branch runs."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain what happens if you DROP a base table that a view depends on. What about a procedure that references it?",
+        "hint": "Think about when MySQL checks view/procedure bodies.",
+        "answer": "Both the view and the procedure keep their definitions, but calling them fails at runtime. SELECT from the view returns an error like \"View references invalid table\". The procedure runs until it hits a statement that uses the missing table, then errors. Neither is dropped automatically — you must recreate the base table or drop the view/procedure.",
+        "explanation": "MySQL validates view and procedure bodies lazily, at call time. This is different from compiled languages where the reference would break at creation time."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Is it possible for a view to be both fast and always fresh? Justify.",
+        "hint": "Think indexes and view merging.",
+        "answer": "Yes, if the underlying SELECT is cheap — e.g. a single-table filter on an indexed column. MySQL inlines (merges) the view into the calling query, and the planner uses the base-table index. Speed and freshness are at odds only when the underlying SELECT is expensive; that is when materialisation becomes tempting.",
+        "explanation": "Do not assume views are slow. A simple view on a well-indexed table adds zero overhead. The rule is: profile the underlying SELECT, not the view."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What final value does <code>@total</code> hold?<pre><code>CREATE PROCEDURE count_by_prefix(IN p VARCHAR(5), OUT total INT)\nBEGIN\n    SELECT COUNT(*) INTO total\n    FROM products WHERE name LIKE CONCAT(p, '%');\nEND;\n\n-- products.name in: 'Apple Juice','Apple Pie','Banana Shake','Apricot'\nCALL count_by_prefix('App', @total);</code></pre>",
+        "hint": "Count names starting with 'App'.",
+        "answer": "<code>3</code>",
+        "explanation": "'Apple Juice', 'Apple Pie', and 'Apricot' all start with 'App'. 'Banana Shake' does not."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Your procedure must roll back on any error. How do you set that up without wrapping every statement in IF...THEN...ROLLBACK?",
+        "hint": "Use an EXIT handler.",
+        "answer": "Declare an EXIT handler at the top of the block:<pre><code>DECLARE EXIT HANDLER FOR SQLEXCEPTION\nBEGIN\n    ROLLBACK;\n    RESIGNAL;\nEND;\nSTART TRANSACTION;\n... statements ...\nCOMMIT;</code></pre>Any SQLEXCEPTION in the body triggers the handler, which rolls back and re-raises the error.",
+        "explanation": "This is the standard idiom for \"transactional procedure\". Use <code>RESIGNAL</code> (without arguments) to propagate the original error to the caller so the application can react."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is it a smell for a function to contain UPDATE or INSERT?",
+        "hint": "Functions run inside SELECTs.",
+        "answer": "Functions are evaluated inside SELECT statements, often once per row. An INSERT or UPDATE hidden in a function means a simple-looking <code>SELECT my_func(col) FROM t</code> is actually a bulk write — catastrophic for read replicas, caching, and reasoning. Most mature codebases forbid it.",
+        "explanation": "The right pattern is to make side-effecting code a procedure (called intentionally) and keep functions pure."
+      },
+      {
+        "id": "mx-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How is a stored procedure's SQL plan cached? Is it the same as a prepared statement?",
+        "hint": "Think about per-connection vs global.",
+        "answer": "In MySQL, stored procedure execution plans are cached per connection (statement cache), not globally. Parameterisation means the optimiser produces one plan per parameter shape. Prepared statements cache similarly, per connection. MySQL does not have Oracle-style global plan sharing, so the first call after a connection establishes the plan.",
+        "explanation": "The upshot: short-lived connections (e.g. serverless apps) do not benefit much from plan caching. Use a connection pool."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which SQL command creates a view?",
+        "options": {
+          "A": "MAKE VIEW",
+          "B": "CREATE VIEW",
+          "C": "DEFINE VIEW",
+          "D": "NEW VIEW"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The syntax is <code>CREATE VIEW name AS SELECT ...;</code>. Use <code>CREATE OR REPLACE VIEW</code> to redefine one in place."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does CALL do in MySQL?",
+        "options": {
+          "A": "Invokes a function",
+          "B": "Invokes a stored procedure",
+          "C": "Runs a view",
+          "D": "Triggers an event"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Procedures are invoked with <code>CALL proc_name(args)</code>. Functions are invoked inline in any expression."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which parameter direction lets a procedure return a scalar value to the caller?",
+        "options": {
+          "A": "IN",
+          "B": "OUT",
+          "C": "BACK",
+          "D": "RETURN"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> OUT parameters are set by the procedure and read by the caller (typically via a user variable like <code>@result</code>)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Why do we use DELIMITER $$ before defining a procedure?",
+        "options": {
+          "A": "The server requires it",
+          "B": "To change the client-side statement terminator so internal semicolons do not end the CREATE",
+          "C": "It speeds up procedure execution",
+          "D": "It is required for transactions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The server parses the procedure as a whole. The MySQL client uses <code>;</code> as a statement terminator by default, so we temporarily change it to send the CREATE PROCEDURE as a single statement."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "A view is best described as:",
+        "options": {
+          "A": "A physical copy of a table",
+          "B": "A saved SELECT statement that behaves like a virtual table",
+          "C": "An index on a view",
+          "D": "A trigger that fires on SELECT"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A view stores no rows. It stores a query that runs on demand."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which view is NOT updatable?",
+        "options": {
+          "A": "SELECT id, name FROM users WHERE active = 1",
+          "B": "SELECT id, name, salary * 2 AS doubled FROM employees",
+          "C": "SELECT dept, COUNT(*) FROM employees GROUP BY dept",
+          "D": "SELECT id, UPPER(name) FROM users"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> GROUP BY + COUNT aggregates rows, so MySQL cannot map a view row back to one base-table row. Simple projections (A, B, D) remain updatable."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does WITH CHECK OPTION enforce?",
+        "options": {
+          "A": "View rows cannot be deleted",
+          "B": "INSERT/UPDATE through the view must produce rows matching the view's WHERE",
+          "C": "View columns must be indexed",
+          "D": "The view is materialised"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without it, you could insert a row that would never appear in the view — usually a subtle bug."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Inside a procedure, where must DECLARE statements appear?",
+        "options": {
+          "A": "Anywhere in the body",
+          "B": "Only at the end",
+          "C": "At the top of a BEGIN...END block, before any executable statement",
+          "D": "Only inside LOOP blocks"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Declare variables, conditions, handlers, and cursors (in that order) before any executable statement in the block."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1 do?",
+        "options": {
+          "A": "Raises an error when no rows are found",
+          "B": "Sets done = 1 when a FETCH has no more rows, then continues",
+          "C": "Prevents cursors from being used",
+          "D": "Rolls back the transaction"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> It is the idiomatic end-of-cursor detector. The loop body then tests <code>done</code> and LEAVEs when set."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which is NOT a valid MySQL loop keyword?",
+        "options": {
+          "A": "WHILE",
+          "B": "REPEAT",
+          "C": "FOR",
+          "D": "LOOP"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> MySQL has WHILE, REPEAT...UNTIL, and LOOP (with LEAVE). There is no FOR loop. Simulate FOR with WHILE."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which is the correct way to call a function from a SELECT?",
+        "options": {
+          "A": "CALL my_func(5)",
+          "B": "SELECT my_func(5)",
+          "C": "EXEC my_func(5)",
+          "D": "RUN my_func(5)"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Functions are invoked inline anywhere an expression is valid. CALL is for procedures only."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which qualifier is needed for a function that does not read or modify data and always returns the same output for the same input?",
+        "options": {
+          "A": "READS SQL DATA",
+          "B": "MODIFIES SQL DATA",
+          "C": "DETERMINISTIC with NO SQL",
+          "D": "NONDETERMINISTIC"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> DETERMINISTIC promises same-input-same-output (replication safety). NO SQL says the function does not access any tables. Together they describe a pure computation."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "You want a procedure to roll back on any SQL error. Which handler do you declare?",
+        "options": {
+          "A": "DECLARE CONTINUE HANDLER FOR NOT FOUND",
+          "B": "DECLARE EXIT HANDLER FOR SQLEXCEPTION BEGIN ROLLBACK; RESIGNAL; END",
+          "C": "DECLARE EXIT HANDLER FOR SQLWARNING",
+          "D": "DECLARE HANDLER FOR ANY"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SQLEXCEPTION catches all errors. EXIT leaves the block. ROLLBACK undoes the transaction; RESIGNAL propagates the error to the caller."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which best describes MySQL's native support for materialised views?",
+        "options": {
+          "A": "Full native support with CREATE MATERIALIZED VIEW",
+          "B": "Supported only on InnoDB tables",
+          "C": "No native support; simulate with a table + refresh procedure + scheduled event",
+          "D": "Supported only through the query cache"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Unlike PostgreSQL and Oracle, MySQL has no CREATE MATERIALIZED VIEW. The idiom is a real table plus a refresh procedure scheduled via an event."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which statement about SQL SECURITY DEFINER vs INVOKER is correct?",
+        "options": {
+          "A": "DEFINER runs with caller privileges; INVOKER runs with definer privileges",
+          "B": "DEFINER runs with the creator's privileges; INVOKER runs with the caller's",
+          "C": "Both run with root privileges",
+          "D": "INVOKER is only valid for functions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DEFINER (the default) delegates privileges via the procedure, which is how you let users CALL operations on tables they cannot read directly."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is wrong with SELECT my_func(x) FROM t if my_func contains UPDATE?",
+        "options": {
+          "A": "Nothing — it is perfectly fine",
+          "B": "The SELECT becomes a hidden bulk write, executed once per row",
+          "C": "MySQL blocks it at parse time",
+          "D": "It returns NULL for every row"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Functions run once per row inside a SELECT. An UPDATE inside the function means a seemingly read-only query silently writes N rows — a classic foot-gun."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "When is a cursor the right choice over a set-based SQL statement?",
+        "options": {
+          "A": "Whenever the query is complex",
+          "B": "When each row requires a genuinely distinct side effect (different procedure call, external API)",
+          "C": "For all aggregations",
+          "D": "To speed up UPDATEs"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Set-based SQL is faster for homogeneous updates. Cursors pay off only when per-row logic diverges — sending row-specific emails, calling different sub-procedures, etc."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Why does MySQL require a data-characteristic clause on functions when binary logging is on?",
+        "options": {
+          "A": "For query-cache invalidation",
+          "B": "For replication safety — the replica must reproduce the same result",
+          "C": "For index maintenance",
+          "D": "For backup compression"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without it, a non-deterministic function (NOW, RAND) would drift the replica off the master. MySQL forces DETERMINISTIC, NO SQL, READS SQL DATA, or MODIFIES SQL DATA so the DBA can reason about replication."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Active Customers View",
+        "difficulty": "Easy",
+        "description": "Given a customers table with columns (id, name, email, status, deleted_at), create a view <code>active_customers</code> that shows only rows where status = 'ACTIVE' and deleted_at IS NULL. Then write a query on the view that counts active customers grouped by status (to prove the view works).",
+        "sampleInput": "customers:\n(1,'Aarav','a@x',  'ACTIVE',  NULL)\n(2,'Priya','p@x',  'INACTIVE',NULL)\n(3,'Rohan','r@x',  'ACTIVE',  '2026-03-01')\n(4,'Anika','n@x',  'ACTIVE',  NULL)",
+        "sampleOutput": "| status | cnt |\n| ACTIVE |  2  |",
+        "constraints": "Use CREATE OR REPLACE VIEW. The view must exclude soft-deleted rows.",
+        "solution": "CREATE OR REPLACE VIEW active_customers AS\nSELECT id, name, email, status\nFROM customers\nWHERE status = 'ACTIVE' AND deleted_at IS NULL;\n\nSELECT status, COUNT(*) AS cnt\nFROM active_customers\nGROUP BY status;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Transfer Money Procedure",
+        "difficulty": "Easy",
+        "description": "Write a stored procedure <code>transfer(IN from_id, IN to_id, IN amt)</code> that moves money between two accounts inside a transaction. If the source balance is insufficient, raise an error with SIGNAL and roll back.",
+        "sampleInput": "accounts: (101,'Aarav',5000), (102,'Priya',2000)\nCALL transfer(101, 102, 1500);",
+        "sampleOutput": "accounts: (101,'Aarav',3500), (102,'Priya',3500)",
+        "constraints": "Use START TRANSACTION / COMMIT / ROLLBACK. Lock the source row with FOR UPDATE. Use SIGNAL SQLSTATE '45000' for insufficient funds.",
+        "solution": "DELIMITER $$\nCREATE PROCEDURE transfer(\n    IN from_id INT,\n    IN to_id INT,\n    IN amt DECIMAL(10,2)\n)\nBEGIN\n    DECLARE bal DECIMAL(10,2);\n    DECLARE EXIT HANDLER FOR SQLEXCEPTION\n    BEGIN ROLLBACK; RESIGNAL; END;\n\n    START TRANSACTION;\n    SELECT balance INTO bal FROM accounts WHERE id = from_id FOR UPDATE;\n    IF bal < amt THEN\n        ROLLBACK;\n        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Insufficient funds';\n    END IF;\n    UPDATE accounts SET balance = balance - amt WHERE id = from_id;\n    UPDATE accounts SET balance = balance + amt WHERE id = to_id;\n    COMMIT;\nEND$$\nDELIMITER ;"
+      },
+      {
+        "id": "cc-3",
+        "title": "GST Function",
+        "difficulty": "Easy",
+        "description": "Create a deterministic function <code>gst(price, rate)</code> that returns the tax amount rounded to 2 decimals. Use it in a SELECT that shows the product name, price, tax, and total.",
+        "sampleInput": "products: ('Notebook',120,5), ('Headphones',1999,18)",
+        "sampleOutput": "| name       | price   | tax    | total   |\n| Notebook   |  120.00 |  6.00  |  126.00 |\n| Headphones | 1999.00 | 359.82 | 2358.82 |",
+        "constraints": "Use RETURNS DECIMAL(10,2). Declare DETERMINISTIC.",
+        "solution": "DELIMITER $$\nCREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))\nRETURNS DECIMAL(10,2)\nDETERMINISTIC\nBEGIN\n    RETURN ROUND(price * rate / 100, 2);\nEND$$\nDELIMITER ;\n\nSELECT name, price,\n       gst(price, gst_rate) AS tax,\n       price + gst(price, gst_rate) AS total\nFROM products;"
+      },
+      {
+        "id": "cc-4",
+        "title": "Fill Calendar Table with a Loop",
+        "difficulty": "Medium",
+        "description": "Write a procedure <code>fill_calendar(IN start_date DATE, IN num_days INT)</code> that inserts <code>num_days</code> consecutive dates into a table <code>calendar(d DATE PRIMARY KEY)</code> starting from <code>start_date</code>. Use DATE_ADD.",
+        "sampleInput": "CALL fill_calendar('2026-01-01', 5);",
+        "sampleOutput": "calendar: 2026-01-01, 2026-01-02, 2026-01-03, 2026-01-04, 2026-01-05",
+        "constraints": "Use a WHILE loop. Use DATE_ADD for date arithmetic.",
+        "solution": "DELIMITER $$\nCREATE PROCEDURE fill_calendar(IN start_date DATE, IN num_days INT)\nBEGIN\n    DECLARE i INT DEFAULT 0;\n    WHILE i < num_days DO\n        INSERT IGNORE INTO calendar(d)\n        VALUES (DATE_ADD(start_date, INTERVAL i DAY));\n        SET i = i + 1;\n    END WHILE;\nEND$$\nDELIMITER ;"
+      },
+      {
+        "id": "cc-5",
+        "title": "Materialised View Workaround",
+        "difficulty": "Medium",
+        "description": "The query <code>SELECT DATE(created_at) AS d, SUM(total) AS rev FROM orders GROUP BY DATE(created_at)</code> is expensive. Create a table <code>mv_daily_sales(d, rev)</code> and a procedure <code>refresh_daily_sales()</code> that TRUNCATEs and repopulates it. Then schedule an event to run it every hour.",
+        "sampleInput": "orders has 1M rows across many days.",
+        "sampleOutput": "After CALL refresh_daily_sales(); SELECT * FROM mv_daily_sales; returns one row per day with the total revenue.",
+        "constraints": "Use TRUNCATE inside the procedure. Use CREATE EVENT with ON SCHEDULE EVERY 1 HOUR.",
+        "solution": "CREATE TABLE mv_daily_sales (\n    d DATE PRIMARY KEY,\n    rev DECIMAL(12,2)\n);\n\nDELIMITER $$\nCREATE PROCEDURE refresh_daily_sales()\nBEGIN\n    TRUNCATE TABLE mv_daily_sales;\n    INSERT INTO mv_daily_sales(d, rev)\n    SELECT DATE(created_at), SUM(total)\n    FROM orders\n    GROUP BY DATE(created_at);\nEND$$\nDELIMITER ;\n\nSET GLOBAL event_scheduler = ON;\nCREATE EVENT refresh_daily_sales_event\nON SCHEDULE EVERY 1 HOUR\nDO CALL refresh_daily_sales();"
+      },
+      {
+        "id": "cc-6",
+        "title": "Conditional Bonus Procedure",
+        "difficulty": "Medium",
+        "description": "Write a procedure <code>give_bonus(IN emp_id INT, OUT new_sal DECIMAL(10,2))</code> that looks up the employee's rating and applies: rating 5 -> +20%, rating 4 -> +10%, rating 3 -> +5%, otherwise no change. It should UPDATE the salary and return the new salary via OUT.",
+        "sampleInput": "employees: (1,'Aarav',50000,5)\nCALL give_bonus(1, @s);",
+        "sampleOutput": "@s = 60000.00",
+        "constraints": "Use IF/ELSEIF/ELSE or CASE. Write the new salary to the OUT param.",
+        "solution": "DELIMITER $$\nCREATE PROCEDURE give_bonus(IN emp_id INT, OUT new_sal DECIMAL(10,2))\nBEGIN\n    DECLARE r INT;\n    DECLARE mult DECIMAL(5,2);\n    SELECT rating INTO r FROM employees WHERE id = emp_id;\n    CASE r\n        WHEN 5 THEN SET mult = 1.20;\n        WHEN 4 THEN SET mult = 1.10;\n        WHEN 3 THEN SET mult = 1.05;\n        ELSE SET mult = 1.00;\n    END CASE;\n    UPDATE employees SET salary = salary * mult WHERE id = emp_id;\n    SELECT salary INTO new_sal FROM employees WHERE id = emp_id;\nEND$$\nDELIMITER ;"
+      },
+      {
+        "id": "cc-7",
+        "title": "Cursor Audit Trail",
+        "difficulty": "Hard",
+        "description": "Write a procedure <code>audit_zero_balance()</code> that iterates over <code>accounts</code> with a cursor. For every account whose balance is 0, insert a row into <code>audit_log(account_id, message, logged_at)</code> with message 'Account has zero balance' and the current timestamp.",
+        "sampleInput": "accounts: (101,'Aarav',0), (102,'Priya',500), (103,'Rohan',0)",
+        "sampleOutput": "audit_log: (101,'Account has zero balance',NOW()), (103,'Account has zero balance',NOW())",
+        "constraints": "Use a cursor. Use a CONTINUE HANDLER FOR NOT FOUND. Process only balance = 0 rows.",
+        "solution": "DELIMITER $$\nCREATE PROCEDURE audit_zero_balance()\nBEGIN\n    DECLARE done INT DEFAULT 0;\n    DECLARE a_id INT;\n    DECLARE a_bal DECIMAL(10,2);\n    DECLARE cur CURSOR FOR SELECT id, balance FROM accounts;\n    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;\n\n    OPEN cur;\n    read_loop: LOOP\n        FETCH cur INTO a_id, a_bal;\n        IF done = 1 THEN LEAVE read_loop; END IF;\n        IF a_bal = 0 THEN\n            INSERT INTO audit_log(account_id, message, logged_at)\n            VALUES (a_id, 'Account has zero balance', NOW());\n        END IF;\n    END LOOP;\n    CLOSE cur;\nEND$$\nDELIMITER ;"
+      },
+      {
+        "id": "cc-8",
+        "title": "Secure Wrapper Procedure",
+        "difficulty": "Hard",
+        "description": "A reporting user has no SELECT on <code>employees</code> but must get total salary by department. Create a SQL SECURITY DEFINER procedure <code>dept_total(IN dept VARCHAR(20), OUT total DECIMAL(12,2))</code> that returns the sum. Then illustrate how GRANT EXECUTE would let the user CALL it without direct table access.",
+        "sampleInput": "employees: (1,'Aarav','ENG',50000), (2,'Priya','ENG',70000)\nCALL dept_total('ENG', @t);",
+        "sampleOutput": "@t = 120000.00",
+        "constraints": "Use SQL SECURITY DEFINER. Explain the GRANT statement as a comment.",
+        "solution": "DELIMITER $$\nCREATE DEFINER = 'admin'@'localhost'\nPROCEDURE dept_total(IN dept_name VARCHAR(20), OUT total DECIMAL(12,2))\nSQL SECURITY DEFINER\nBEGIN\n    SELECT SUM(salary) INTO total\n    FROM employees WHERE dept = dept_name;\nEND$$\nDELIMITER ;\n\n-- Grant execute to the reporting user.\n-- The user has NO direct SELECT on employees:\n-- GRANT EXECUTE ON PROCEDURE shop.dept_total TO 'reporter'@'%';\n-- Now the reporter can only call the procedure, not read the table directly."
+      }
+    ]
+  }
+}

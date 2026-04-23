@@ -1,0 +1,803 @@
+{
+  "title": "Conditional Logic in SQL - CASE WHEN, IF, IFNULL",
+  "slug": "conditional-logic-case-when",
+  "language": "sql",
+  "chapter": 17,
+  "difficulty": "Intermediate",
+  "readingTime": "40 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 62,
+  "seo": {
+    "title": "SQL CASE WHEN - Conditional Logic, IF, IFNULL, Pivot Tables | Modern Age Coders",
+    "description": "Master SQL conditional logic with CASE WHEN, simple vs searched CASE, IF, IFNULL, NULLIF, and conditional aggregation. Build pivot tables, grade calculators, and business dashboards with 62+ practice queries and MySQL runnable examples.",
+    "keywords": "sql case when, sql if else, sql conditional aggregation, sql pivot table, mysql ifnull, nullif, sql case in order by, sql case in where, sql searched case, sql simple case"
+  },
+  "content": {
+    "what": "<h2>What Is Conditional Logic in SQL?</h2><p>SQL is a declarative language — you describe <em>what</em> you want, not <em>how</em> to get it. But real reports rarely just 'return all rows'. You need to bucket numbers into grades, label statuses as green/yellow/red, show 'N/A' instead of NULL, or add an 'if revenue &gt; target then 1 else 0' column for KPI dashboards. That is conditional logic in SQL.</p><p>MySQL gives you three tools:</p><ul><li><code>CASE WHEN</code> — the SQL-standard, portable, multi-branch conditional. Works in SELECT, WHERE, ORDER BY, GROUP BY, HAVING.</li><li><code>IF(condition, true_value, false_value)</code> — MySQL-specific shortcut for two branches.</li><li><code>IFNULL(value, default)</code> and <code>NULLIF(a, b)</code> — tiny helpers for null handling.</li></ul><pre><code>-- Give each student a grade based on marks\nSELECT name, marks,\n  CASE\n    WHEN marks &gt;= 90 THEN 'A'\n    WHEN marks &gt;= 75 THEN 'B'\n    WHEN marks &gt;= 60 THEN 'C'\n    WHEN marks &gt;= 40 THEN 'D'\n    ELSE 'F'\n  END AS grade\nFROM students;</code></pre><p>This is the single most common analytical pattern in business reporting. Every dashboard you will ever build has one.</p>",
+    "why": "<h2>Why Conditional Logic Matters</h2><h3>1. Computed Columns Are Half of Every Report</h3><p>Raw tables store facts: a student's marks, an order's amount, an employee's salary. Dashboards do not show raw facts — they show <em>categories</em>. 'High / Mid / Low value customer', 'Pass / Fail', 'On-time / Delayed'. Every one of those is a CASE expression.</p><h3>2. Conditional Aggregation Builds Pivot Tables</h3><p>Want to count paid, pending, and failed orders in a single row? Or revenue split by category across columns? SQL does not have a native PIVOT in MySQL, but <code>SUM(CASE WHEN status='paid' THEN amount ELSE 0 END)</code> solves it in two lines. This pattern is worth memorizing — it appears in 40% of SQL interviews.</p><h3>3. Custom Sort Orders</h3><p>You cannot sort by business logic alone (\"show paid first, then pending, then failed\"). CASE in ORDER BY lets you invent any order you want without touching the schema.</p><h3>4. Null Handling Without IF Chains</h3><p><code>IFNULL</code> and <code>COALESCE</code> replace NULL with a default in one token. <code>NULLIF(a, b)</code> is a niche gem that prevents division-by-zero errors. Together they shorten many queries by 50%.</p><h3>5. Business Rules Move From App to DB</h3><p>When multiple teams use the same data, baking rules like 'priority = CASE WHEN amount &gt; 100000 THEN 1 WHEN customer_tier = \"gold\" THEN 2 ELSE 3 END' into a VIEW (Chapter 21) keeps everyone consistent. CASE is the syntax that lets you encode those rules.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Searched CASE (The Most Common Form)</h3><p>Each WHEN has its own boolean expression. MySQL evaluates them in order and returns the THEN value of the first match. If nothing matches, ELSE kicks in. If there is no ELSE, the result is NULL.</p><pre><code>CASE\n  WHEN condition_1 THEN value_1\n  WHEN condition_2 THEN value_2\n  ...\n  ELSE default_value\nEND</code></pre><pre><code>SELECT name, salary,\n  CASE\n    WHEN salary &gt;= 100000 THEN 'Senior'\n    WHEN salary &gt;= 60000  THEN 'Mid'\n    WHEN salary &gt;= 30000  THEN 'Junior'\n    ELSE 'Intern'\n  END AS level\nFROM employees;</code></pre><p>Rules for searched CASE:</p><ul><li>Conditions are tested top to bottom. The <strong>first match wins</strong> — order your WHEN clauses from most specific to most general.</li><li>All THEN/ELSE values should return the same (or compatible) type. Mixing a string and a number works but returns a string.</li><li>The ELSE is optional. Omitting it and having no match returns NULL. Always include ELSE unless NULL is exactly what you want.</li></ul><h3>2. Simple CASE</h3><p>When you compare one expression against multiple equal-to values, the simple form is shorter:</p><pre><code>CASE expression\n  WHEN value_1 THEN result_1\n  WHEN value_2 THEN result_2\n  ELSE default\nEND</code></pre><pre><code>SELECT name, country,\n  CASE country\n    WHEN 'IN' THEN 'India'\n    WHEN 'US' THEN 'United States'\n    WHEN 'UK' THEN 'United Kingdom'\n    ELSE 'Other'\n  END AS country_full\nFROM customers;</code></pre><p>Simple CASE only supports equality. If you need &gt;, &lt;, BETWEEN, LIKE, IS NULL, use searched CASE. For NULL comparison the simple form fails silently — <code>CASE x WHEN NULL THEN ...</code> is always false.</p><h3>3. CASE in SELECT — Computed Columns</h3><p>The bread-and-butter use case. A CASE in the SELECT list creates a new column per row:</p><pre><code>SELECT id, amount,\n  CASE\n    WHEN amount &gt; 5000 THEN 'Large'\n    WHEN amount &gt; 1000 THEN 'Medium'\n    ELSE 'Small'\n  END AS size_bucket,\n  CASE\n    WHEN status = 'paid' AND amount &gt; 5000 THEN 'VIP'\n    WHEN status = 'paid'                   THEN 'Customer'\n    WHEN status = 'pending'                THEN 'Prospect'\n    ELSE 'Lost'\n  END AS segment\nFROM orders;</code></pre><h3>4. CASE in ORDER BY — Custom Sort Order</h3><p>'Paid orders first, then pending, then failed' cannot be expressed with a single ORDER BY. A CASE assigning sort keys does the trick:</p><pre><code>SELECT id, status, amount\nFROM orders\nORDER BY\n  CASE status\n    WHEN 'paid'    THEN 1\n    WHEN 'pending' THEN 2\n    WHEN 'failed'  THEN 3\n    ELSE 4\n  END,\n  amount DESC;</code></pre><p>The FIELD() function does the same thing more compactly for string lists, but CASE is clearer and works for non-equality logic too.</p><h3>5. CASE in WHERE — Usually Avoidable</h3><p>You <em>can</em> use CASE in WHERE, but it is almost always a sign the query should be rewritten with AND/OR. The rare valid case is when the comparison column itself depends on another column's value:</p><pre><code>-- Legitimate: filter column depends on type\nSELECT * FROM rentals\nWHERE CASE type\n        WHEN 'daily'  THEN days_used\n        WHEN 'hourly' THEN hours_used\n      END &gt; 10;</code></pre><p>If you find yourself writing <code>WHERE CASE WHEN x THEN 1 ELSE 0 END = 1</code>, just write <code>WHERE x</code>.</p><h3>6. CASE in GROUP BY — Custom Bucketing</h3><p>Group by a CASE expression to bucket rows on the fly:</p><pre><code>SELECT\n  CASE\n    WHEN age &lt; 18 THEN 'Minor'\n    WHEN age &lt; 30 THEN '18-29'\n    WHEN age &lt; 50 THEN '30-49'\n    ELSE '50+'\n  END AS age_group,\n  COUNT(*) AS people\nFROM users\nGROUP BY age_group\nORDER BY MIN(age);</code></pre><h3>7. Conditional Aggregation — The Pivot Pattern</h3><p>This is the most valuable pattern in the chapter. Build column-by-column pivots by wrapping CASE inside SUM or COUNT:</p><pre><code>SELECT\n  customer_id,\n  SUM(CASE WHEN status = 'paid'    THEN amount ELSE 0 END) AS paid_total,\n  SUM(CASE WHEN status = 'pending' THEN amount ELSE 0 END) AS pending_total,\n  SUM(CASE WHEN status = 'failed'  THEN amount ELSE 0 END) AS failed_total,\n  COUNT(CASE WHEN status = 'paid' THEN 1 END)              AS paid_count\nFROM orders\nGROUP BY customer_id;</code></pre><p>Two tricks at play:</p><ul><li><strong>SUM(CASE ... ELSE 0 END)</strong> — 0 means \"don't contribute\", so only matching rows add up.</li><li><strong>COUNT(CASE WHEN cond THEN 1 END)</strong> — no ELSE, so non-matching rows produce NULL, and COUNT skips NULLs. This counts only the matching rows.</li></ul><h3>8. The IF Function (MySQL-specific)</h3><p>For two branches, IF is shorter:</p><pre><code>SELECT name, salary,\n       IF(salary &gt; 50000, 'High', 'Low') AS band,\n       IF(active = 1, 'Yes', 'No')        AS active_label\nFROM employees;</code></pre><p><code>IF(cond, t, f)</code> is equivalent to <code>CASE WHEN cond THEN t ELSE f END</code>. It is not SQL-standard — avoid it if portability matters (PostgreSQL does not have IF as an expression).</p><h3>9. IFNULL and COALESCE</h3><p>Both replace NULL with a default. IFNULL is 2-argument; COALESCE takes any number of arguments and returns the first non-NULL:</p><pre><code>SELECT name,\n       IFNULL(phone, 'not provided')                     AS phone,\n       COALESCE(mobile, landline, office_phone, 'none')  AS best_phone\nFROM contacts;</code></pre><p>COALESCE is SQL-standard; IFNULL is MySQL-only. Prefer COALESCE for portability.</p><h3>10. NULLIF — The Anti-Divide-By-Zero Trick</h3><p><code>NULLIF(a, b)</code> returns NULL if <code>a = b</code>, else returns <code>a</code>. Classic use:</p><pre><code>-- Avoid division-by-zero errors\nSELECT customer_id,\n       SUM(profit) / NULLIF(SUM(revenue), 0) AS margin\nFROM orders\nGROUP BY customer_id;</code></pre><p>If <code>SUM(revenue)</code> is 0, NULLIF turns it into NULL, and division by NULL yields NULL — a safe, clean result. Without NULLIF, you'd get a divide-by-zero error or a silently ugly <code>NULL</code>.</p><h3>11. Putting It All Together — Grade Calculator</h3><pre><code>CREATE TABLE students (\n  name   VARCHAR(50),\n  maths  INT,\n  eng    INT,\n  sci    INT\n);\nINSERT INTO students VALUES\n  ('Aarav Sharma',   92, 88, 95),\n  ('Priya Nair',     75, 82, 71),\n  ('Rohan Mehta',    60, 55, 68),\n  ('Ananya Iyer',    35, 42, 39),\n  ('Vikram Singh',   NULL, 80, 85);   -- missed maths paper\n\nSELECT name,\n  (IFNULL(maths,0) + IFNULL(eng,0) + IFNULL(sci,0)) AS total,\n  ROUND((IFNULL(maths,0) + IFNULL(eng,0) + IFNULL(sci,0)) / 3, 1) AS avg_marks,\n  CASE\n    WHEN maths IS NULL OR eng IS NULL OR sci IS NULL THEN 'Incomplete'\n    WHEN (maths + eng + sci) / 3 &gt;= 90 THEN 'A'\n    WHEN (maths + eng + sci) / 3 &gt;= 75 THEN 'B'\n    WHEN (maths + eng + sci) / 3 &gt;= 60 THEN 'C'\n    WHEN (maths + eng + sci) / 3 &gt;= 40 THEN 'D'\n    ELSE 'F'\n  END AS grade\nFROM students;</code></pre><p>Note the first WHEN — it guards against nulls before the numeric comparisons so we never compare NULL to a number.</p>",
+    "codeExamples": [
+      {
+        "title": "Grade from Marks using Searched CASE",
+        "code": "CREATE TABLE students (\n  id    INT PRIMARY KEY,\n  name  VARCHAR(50),\n  marks INT\n);\n\nINSERT INTO students VALUES\n  (1, 'Aarav Sharma',   92),\n  (2, 'Priya Nair',     78),\n  (3, 'Rohan Mehta',    64),\n  (4, 'Ananya Iyer',    45),\n  (5, 'Vikram Singh',   32),\n  (6, 'Meera Krishnan', 88);\n\nSELECT name, marks,\n  CASE\n    WHEN marks >= 90 THEN 'A'\n    WHEN marks >= 75 THEN 'B'\n    WHEN marks >= 60 THEN 'C'\n    WHEN marks >= 40 THEN 'D'\n    ELSE 'F'\n  END AS grade\nFROM students\nORDER BY marks DESC;",
+        "language": "sql",
+        "explanation": "The first matching WHEN wins. Because conditions are evaluated top-to-bottom, we put the highest threshold first. ELSE handles everything below 40 ('F'). Sorting by marks DESC shows the ranking clearly.",
+        "output": "+-----------------+-------+-------+\n| name            | marks | grade |\n+-----------------+-------+-------+\n| Aarav Sharma    |    92 | A     |\n| Meera Krishnan  |    88 | B     |\n| Priya Nair      |    78 | B     |\n| Rohan Mehta     |    64 | C     |\n| Ananya Iyer     |    45 | D     |\n| Vikram Singh    |    32 | F     |\n+-----------------+-------+-------+"
+      },
+      {
+        "title": "Customer Segments by Order Value",
+        "code": "CREATE TABLE orders (\n  id           INT PRIMARY KEY,\n  customer     VARCHAR(50),\n  amount       DECIMAL(10,2),\n  status       VARCHAR(20)\n);\n\nINSERT INTO orders VALUES\n  (1, 'Aarav Sharma',  12500, 'paid'),\n  (2, 'Priya Nair',     3200, 'paid'),\n  (3, 'Rohan Mehta',     850, 'pending'),\n  (4, 'Ananya Iyer',    6400, 'paid'),\n  (5, 'Vikram Singh',    250, 'failed'),\n  (6, 'Meera Krishnan',  950, 'paid');\n\nSELECT customer, amount, status,\n  CASE\n    WHEN status = 'paid' AND amount >= 10000 THEN 'VIP'\n    WHEN status = 'paid' AND amount >= 5000  THEN 'Gold'\n    WHEN status = 'paid'                     THEN 'Regular'\n    WHEN status = 'pending'                  THEN 'Prospect'\n    ELSE 'Lost'\n  END AS segment\nFROM orders\nORDER BY amount DESC;",
+        "language": "sql",
+        "explanation": "Combines two conditions per WHEN using AND. The key idea: the most restrictive rule goes first. 'paid AND amount >= 10000' must be checked before 'paid AND amount >= 5000', otherwise the VIP case would never match.",
+        "output": "+----------------+----------+---------+----------+\n| customer       | amount   | status  | segment  |\n+----------------+----------+---------+----------+\n| Aarav Sharma   | 12500.00 | paid    | VIP      |\n| Ananya Iyer    |  6400.00 | paid    | Gold     |\n| Priya Nair     |  3200.00 | paid    | Regular  |\n| Meera Krishnan |   950.00 | paid    | Regular  |\n| Rohan Mehta    |   850.00 | pending | Prospect |\n| Vikram Singh   |   250.00 | failed  | Lost     |\n+----------------+----------+---------+----------+"
+      },
+      {
+        "title": "Conditional Aggregation - Build a Status Pivot",
+        "code": "CREATE TABLE orders (\n  id INT PRIMARY KEY,\n  customer_id INT,\n  amount DECIMAL(10,2),\n  status VARCHAR(20)\n);\n\nINSERT INTO orders VALUES\n  (1, 101, 1200, 'paid'),\n  (2, 101,  800, 'paid'),\n  (3, 101,  500, 'pending'),\n  (4, 102, 2500, 'paid'),\n  (5, 102, 1000, 'failed'),\n  (6, 103,  700, 'pending'),\n  (7, 103,  300, 'pending'),\n  (8, 103, 1500, 'paid');\n\nSELECT customer_id,\n  COUNT(*)                                                      AS total_orders,\n  SUM(CASE WHEN status = 'paid'    THEN amount ELSE 0 END)      AS paid_amt,\n  SUM(CASE WHEN status = 'pending' THEN amount ELSE 0 END)      AS pending_amt,\n  SUM(CASE WHEN status = 'failed'  THEN amount ELSE 0 END)      AS failed_amt,\n  COUNT(CASE WHEN status = 'paid'    THEN 1 END)                AS paid_count,\n  COUNT(CASE WHEN status = 'pending' THEN 1 END)                AS pending_count\nFROM orders\nGROUP BY customer_id\nORDER BY customer_id;",
+        "language": "sql",
+        "explanation": "The canonical pivot pattern. SUM with ELSE 0 adds only matching rows. COUNT without ELSE takes advantage of the fact that COUNT ignores NULLs — non-matching rows produce NULL and are skipped. Three status columns and two count columns, all from a single scan of the table.",
+        "output": "+-------------+--------------+----------+-------------+------------+------------+---------------+\n| customer_id | total_orders | paid_amt | pending_amt | failed_amt | paid_count | pending_count |\n+-------------+--------------+----------+-------------+------------+------------+---------------+\n|         101 |            3 |  2000.00 |      500.00 |       0.00 |          2 |             1 |\n|         102 |            2 |  2500.00 |        0.00 |    1000.00 |          1 |             0 |\n|         103 |            3 |  1500.00 |     1000.00 |       0.00 |          1 |             2 |\n+-------------+--------------+----------+-------------+------------+------------+---------------+"
+      },
+      {
+        "title": "CASE in ORDER BY - Custom Sort",
+        "code": "-- Using the orders table from the previous example.\n-- Business wants: pending first (highest urgency), then paid, then failed.\nSELECT id, customer_id, amount, status\nFROM orders\nORDER BY\n  CASE status\n    WHEN 'pending' THEN 1\n    WHEN 'paid'    THEN 2\n    WHEN 'failed'  THEN 3\n    ELSE 4\n  END,\n  amount DESC;",
+        "language": "sql",
+        "explanation": "A natural ASC/DESC cannot produce this custom order. The CASE assigns an ordering integer per status. Rows with the same status fall back to amount DESC. You can mix CASE keys with regular columns freely.",
+        "output": "+----+-------------+---------+---------+\n| id | customer_id | amount  | status  |\n+----+-------------+---------+---------+\n|  7 |         103 |  300.00 | pending |  <- pending\n|  6 |         103 |  700.00 | pending |\n|  3 |         101 |  500.00 | pending |\n|  4 |         102 | 2500.00 | paid    |  <- paid\n|  8 |         103 | 1500.00 | paid    |\n|  1 |         101 | 1200.00 | paid    |\n|  2 |         101 |  800.00 | paid    |\n|  5 |         102 | 1000.00 | failed  |  <- failed\n+----+-------------+---------+---------+"
+      },
+      {
+        "title": "IFNULL, COALESCE, and NULLIF Together",
+        "code": "CREATE TABLE contacts (\n  id        INT PRIMARY KEY,\n  name      VARCHAR(50),\n  mobile    VARCHAR(15),\n  landline  VARCHAR(15),\n  email     VARCHAR(80)\n);\n\nINSERT INTO contacts VALUES\n  (1,'Aarav Sharma',  '9810012345', NULL,         'aarav@example.com'),\n  (2,'Priya Nair',     NULL,        '04442245678','priya@example.com'),\n  (3,'Rohan Mehta',    NULL,         NULL,         NULL),\n  (4,'Ananya Iyer',   '9812345678',  NULL,        '');   -- empty email\n\nSELECT name,\n  IFNULL(mobile, 'no mobile')                            AS mobile_safe,\n  COALESCE(mobile, landline, 'no phone')                 AS best_phone,\n  COALESCE(NULLIF(TRIM(email), ''), 'no email')          AS clean_email\nFROM contacts;",
+        "language": "sql",
+        "explanation": "IFNULL handles one column. COALESCE handles a waterfall of fallbacks — returns the first non-NULL. The clean_email pattern is a gem: NULLIF turns empty strings into NULL, then COALESCE replaces with 'no email'. This is how you handle both missing and empty data in one expression.",
+        "output": "+----------------+-------------+-------------+-------------------+\n| name           | mobile_safe | best_phone  | clean_email       |\n+----------------+-------------+-------------+-------------------+\n| Aarav Sharma   | 9810012345  | 9810012345  | aarav@example.com |\n| Priya Nair     | no mobile   | 04442245678 | priya@example.com |\n| Rohan Mehta    | no mobile   | no phone    | no email          |\n| Ananya Iyer    | 9812345678  | 9812345678  | no email          |\n+----------------+-------------+-------------+-------------------+"
+      },
+      {
+        "title": "Age Bucket GROUP BY",
+        "code": "CREATE TABLE users (\n  id    INT PRIMARY KEY,\n  name  VARCHAR(50),\n  age   INT\n);\n\nINSERT INTO users VALUES\n  (1,'Ishaan Gupta',   14),\n  (2,'Kavya Reddy',    17),\n  (3,'Arjun Pillai',   24),\n  (4,'Neha Choudhary', 28),\n  (5,'Diya Bhatt',     35),\n  (6,'Dev Kapoor',     41),\n  (7,'Riya Joshi',     52),\n  (8,'Kabir Shah',     67);\n\nSELECT\n  CASE\n    WHEN age < 18 THEN '1. Under 18'\n    WHEN age < 30 THEN '2. 18-29'\n    WHEN age < 50 THEN '3. 30-49'\n    ELSE           '4. 50+'\n  END AS age_group,\n  COUNT(*) AS users\nFROM users\nGROUP BY age_group\nORDER BY age_group;",
+        "language": "sql",
+        "explanation": "Numbering the labels ('1. Under 18', '2. 18-29'...) is a trick to make alphabetical ORDER BY return the buckets in the natural order. Alternative: ORDER BY MIN(age).",
+        "output": "+--------------+-------+\n| age_group    | users |\n+--------------+-------+\n| 1. Under 18  |     2 |\n| 2. 18-29     |     2 |\n| 3. 30-49     |     2 |\n| 4. 50+       |     2 |\n+--------------+-------+"
+      },
+      {
+        "title": "Safe Division with NULLIF",
+        "code": "CREATE TABLE campaigns (\n  id       INT PRIMARY KEY,\n  name     VARCHAR(40),\n  spend    DECIMAL(10,2),\n  revenue  DECIMAL(10,2)\n);\n\nINSERT INTO campaigns VALUES\n  (1,'Google Search', 5000, 25000),\n  (2,'Meta Ads',      3200,  8000),\n  (3,'LinkedIn',      1500,     0),  -- zero revenue\n  (4,'YouTube',          0,  4200); -- zero spend (free traffic)\n\nSELECT name,\n  spend, revenue,\n  -- Wrong: would error on campaign 4\n  -- revenue / spend AS raw_roas,\n  ROUND(revenue / NULLIF(spend, 0), 2)  AS roas,\n  ROUND(spend   / NULLIF(revenue, 0), 2) AS cost_ratio\nFROM campaigns;",
+        "language": "sql",
+        "explanation": "Division by zero in MySQL (with default settings) returns NULL, but on stricter SQL modes it errors. NULLIF(x, 0) converts any zero denominator into NULL, and anything divided by NULL is NULL. This is safe in every SQL mode and in every database.",
+        "output": "+---------------+--------+----------+------+------------+\n| name          | spend  | revenue  | roas | cost_ratio |\n+---------------+--------+----------+------+------------+\n| Google Search |5000.00 | 25000.00 | 5.00 |       0.20 |\n| Meta Ads      |3200.00 |  8000.00 | 2.50 |       0.40 |\n| LinkedIn      |1500.00 |     0.00 | 0.00 |       NULL |\n| YouTube       |   0.00 |  4200.00 | NULL |       0.00 |\n+---------------+--------+----------+------+------------+"
+      },
+      {
+        "title": "Exam Results with Multiple CASE Checks",
+        "code": "CREATE TABLE results (\n  student  VARCHAR(50),\n  maths    INT,\n  english  INT,\n  science  INT\n);\n\nINSERT INTO results VALUES\n  ('Aarav Sharma',   92, 88, 95),\n  ('Priya Nair',     75, 82, 71),\n  ('Rohan Mehta',    60, 33, 68),   -- failed english\n  ('Ananya Iyer',    35, 42, 39),   -- failed all\n  ('Vikram Singh',   NULL, 80, 85); -- absent in maths\n\nSELECT student, maths, english, science,\n  -- Total, treating absent as 0\n  (IFNULL(maths,0) + IFNULL(english,0) + IFNULL(science,0)) AS total,\n  CASE\n    WHEN maths IS NULL OR english IS NULL OR science IS NULL  THEN 'Incomplete'\n    WHEN maths < 40 OR english < 40 OR science < 40           THEN 'Fail (any subject < 40)'\n    WHEN (maths + english + science)/3 >= 90                  THEN 'Distinction'\n    WHEN (maths + english + science)/3 >= 75                  THEN 'First Class'\n    WHEN (maths + english + science)/3 >= 60                  THEN 'Second Class'\n    ELSE                                                          'Pass'\n  END AS verdict\nFROM results;",
+        "language": "sql",
+        "explanation": "Order matters: check nulls first (so later comparisons are safe), then check the 'fail any subject' gate, then the positive distinctions. Without the first WHEN, Vikram's NULL arithmetic would propagate NULL everywhere.",
+        "output": "+----------------+-------+---------+---------+-------+-------------------------+\n| student        | maths | english | science | total | verdict                 |\n+----------------+-------+---------+---------+-------+-------------------------+\n| Aarav Sharma   |    92 |      88 |      95 |   275 | Distinction             |\n| Priya Nair     |    75 |      82 |      71 |   228 | First Class             |\n| Rohan Mehta    |    60 |      33 |      68 |   161 | Fail (any subject < 40) |\n| Ananya Iyer    |    35 |      42 |      39 |   116 | Fail (any subject < 40) |\n| Vikram Singh   |  NULL |      80 |      85 |   165 | Incomplete              |\n+----------------+-------+---------+---------+-------+-------------------------+"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting ELSE — Getting Surprise NULLs",
+        "wrongCode": "SELECT name,\n  CASE\n    WHEN marks >= 75 THEN 'Pass'\n    WHEN marks >= 60 THEN 'Average'\n  END AS band\nFROM students;\n-- Students with marks < 60 get NULL in 'band'.",
+        "error": "No SQL error, but rows below 60 marks show NULL in the band column, which later breaks GROUP BY counts and string concatenation.",
+        "correctCode": "SELECT name,\n  CASE\n    WHEN marks >= 75 THEN 'Pass'\n    WHEN marks >= 60 THEN 'Average'\n    ELSE 'Fail'\n  END AS band\nFROM students;",
+        "explanation": "CASE without a matching WHEN and no ELSE returns NULL. Always provide an ELSE unless NULL is explicitly what you want. This bug is especially sneaky inside SUM(CASE ...) pivots where a missing ELSE 0 silently drops rows."
+      },
+      {
+        "title": "Simple CASE with NULL — Comparison Never Matches",
+        "wrongCode": "SELECT *,\n  CASE status\n    WHEN NULL THEN 'unknown'\n    WHEN 'paid' THEN 'complete'\n    ELSE 'pending'\n  END AS label\nFROM orders;",
+        "error": "No error, but the first WHEN NULL branch NEVER matches, even for rows where status is actually NULL.",
+        "correctCode": "SELECT *,\n  CASE\n    WHEN status IS NULL   THEN 'unknown'\n    WHEN status = 'paid'  THEN 'complete'\n    ELSE 'pending'\n  END AS label\nFROM orders;",
+        "explanation": "Simple CASE uses equality (=), and NULL = NULL is NULL (not TRUE). For NULL checks you must use searched CASE with IS NULL. This is a classic trap."
+      },
+      {
+        "title": "Wrong WHEN Order — Later Conditions Never Match",
+        "wrongCode": "-- Buckets are overlapping; first match wins.\nSELECT name,\n  CASE\n    WHEN marks >= 40 THEN 'Pass'\n    WHEN marks >= 75 THEN 'Distinction'   -- unreachable!\n  END AS grade\nFROM students;",
+        "error": "No SQL error, but nobody ever gets 'Distinction' because marks >= 40 catches everyone first.",
+        "correctCode": "SELECT name,\n  CASE\n    WHEN marks >= 75 THEN 'Distinction'\n    WHEN marks >= 40 THEN 'Pass'\n    ELSE 'Fail'\n  END AS grade\nFROM students;",
+        "explanation": "Searched CASE stops at the first match. Always order conditions from most specific / most restrictive to most general. If two WHEN clauses overlap, the second is dead code."
+      },
+      {
+        "title": "Using CASE in WHERE When a Simple Boolean Works",
+        "wrongCode": "SELECT * FROM orders\nWHERE CASE\n        WHEN status = 'paid' THEN 1\n        ELSE 0\n      END = 1;",
+        "error": "No error, but unnecessarily complex and often loses sargability, preventing index usage on status.",
+        "correctCode": "SELECT * FROM orders\nWHERE status = 'paid';",
+        "explanation": "If you find yourself writing <code>WHERE CASE ... END = 1</code>, you probably just wanted a boolean expression. Drop the CASE and write the condition directly. CASE in WHERE is only justified when the comparison column itself changes per row."
+      },
+      {
+        "title": "Missing SUM(...ELSE 0) in Pivot — Losing Rows",
+        "wrongCode": "-- Intended: paid total per customer.\nSELECT customer_id,\n  SUM(CASE WHEN status = 'paid' THEN amount END) AS paid_total\nFROM orders\nGROUP BY customer_id;\n-- Customers with zero paid orders show NULL, not 0.",
+        "error": "No error, but downstream code that expects a number will fail or show ugly NULLs in dashboards.",
+        "correctCode": "SELECT customer_id,\n  SUM(CASE WHEN status = 'paid' THEN amount ELSE 0 END) AS paid_total,\n  -- Alternative: wrap with IFNULL\n  IFNULL(SUM(CASE WHEN status = 'paid' THEN amount END), 0) AS paid_total_v2\nFROM orders\nGROUP BY customer_id;",
+        "explanation": "Without ELSE 0 the CASE returns NULL for non-matching rows. SUM skips NULLs, which is fine — but if a customer has zero matching rows at all, SUM returns NULL (there's nothing to sum). Either add ELSE 0 or wrap the SUM in IFNULL."
+      }
+    ],
+    "summary": [
+      "Searched CASE (WHEN condition THEN value) is the portable, multi-branch conditional. Conditions are evaluated top-to-bottom and the first match wins.",
+      "Simple CASE (CASE expr WHEN value THEN ...) is a shortcut for equality checks against one expression. It cannot test NULL or range conditions — use searched CASE for those.",
+      "Always include ELSE unless NULL is the correct default. A CASE with no matching WHEN and no ELSE returns NULL, which silently breaks downstream logic.",
+      "Put the most restrictive WHEN first. If conditions overlap, later WHEN branches become unreachable dead code.",
+      "CASE works everywhere: SELECT (computed columns), ORDER BY (custom sort), GROUP BY (bucketing), HAVING (post-aggregation filter). Rarely needed in WHERE — use AND/OR directly.",
+      "Conditional aggregation — SUM(CASE WHEN cond THEN amount ELSE 0 END) — is the pivot-table pattern. It is the single most important query form for business dashboards and appears in most SQL interviews.",
+      "COUNT(CASE WHEN cond THEN 1 END) counts only matching rows because COUNT skips NULLs. No ELSE needed.",
+      "IF(cond, t, f) is a 2-branch MySQL shortcut. It is NOT SQL-standard — avoid for portable code.",
+      "IFNULL(x, default) replaces NULL with a default (MySQL). COALESCE(a, b, c, ...) returns the first non-NULL and is SQL-standard — prefer it for portability.",
+      "NULLIF(a, b) returns NULL when a equals b. The classic use is NULLIF(denominator, 0) to make division safe in every SQL mode."
+    ]
+  },
+  "relatedTopics": ["aggregate-functions", "group-by-and-having", "pattern-matching-and-null"],
+  "practice": {
+    "totalQuestions": 62,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this return?<br><pre><code>SELECT CASE WHEN 5 > 3 THEN 'yes' ELSE 'no' END;</code></pre>",
+        "hint": "5 > 3 is TRUE.",
+        "answer": "<code>yes</code>",
+        "explanation": "The WHEN condition is true, so THEN 'yes' is returned."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is returned?<br><pre><code>SELECT CASE WHEN 1 = 2 THEN 'a' END;</code></pre>",
+        "hint": "No match, no ELSE.",
+        "answer": "<code>NULL</code>",
+        "explanation": "1 = 2 is false, and there is no ELSE clause. CASE returns NULL."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Output?<br><pre><code>SELECT IFNULL(NULL, 'default');</code></pre>",
+        "hint": "IFNULL replaces NULL with the second argument.",
+        "answer": "<code>default</code>",
+        "explanation": "When the first argument is NULL, IFNULL returns the second argument."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Output?<br><pre><code>SELECT IFNULL('hello', 'default');</code></pre>",
+        "hint": "IFNULL returns the first argument when it is not NULL.",
+        "answer": "<code>hello</code>",
+        "explanation": "Since 'hello' is not NULL, IFNULL returns it unchanged."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Output?<br><pre><code>SELECT COALESCE(NULL, NULL, 'third', 'fourth');</code></pre>",
+        "hint": "COALESCE returns the first non-NULL argument.",
+        "answer": "<code>third</code>",
+        "explanation": "COALESCE scans arguments left to right and returns the first one that is not NULL."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Output?<br><pre><code>SELECT NULLIF(5, 5), NULLIF(5, 3);</code></pre>",
+        "hint": "NULLIF(a, b) returns NULL when a = b.",
+        "answer": "<code>NULL  5</code>",
+        "explanation": "NULLIF(5, 5) — they are equal, returns NULL. NULLIF(5, 3) — different, returns 5."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Output?<br><pre><code>SELECT IF(10 > 5, 'big', 'small');</code></pre>",
+        "hint": "Classic IF with true condition.",
+        "answer": "<code>big</code>",
+        "explanation": "10 > 5 is TRUE, so IF returns the second argument 'big'."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given marks = 62, what does this return?<br><pre><code>SELECT CASE\n  WHEN marks >= 90 THEN 'A'\n  WHEN marks >= 75 THEN 'B'\n  WHEN marks >= 60 THEN 'C'\n  ELSE 'D'\nEND;</code></pre>",
+        "hint": "First match wins.",
+        "answer": "<code>C</code>",
+        "explanation": "62 is not >= 90, not >= 75, but is >= 60, so the third WHEN matches and returns 'C'."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Output of this simple CASE?<br><pre><code>SELECT CASE 'paid'\n  WHEN 'paid'    THEN 1\n  WHEN 'pending' THEN 2\n  ELSE 3\nEND;</code></pre>",
+        "hint": "Simple CASE with equality matching.",
+        "answer": "<code>1</code>",
+        "explanation": "The expression 'paid' equals the first WHEN value 'paid', so the result is 1."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return when status IS NULL?<br><pre><code>CASE status\n  WHEN NULL THEN 'unknown'\n  ELSE 'known'\nEND</code></pre>",
+        "hint": "Simple CASE uses = comparison.",
+        "answer": "<code>known</code>",
+        "explanation": "Simple CASE compares with =, and NULL = NULL returns NULL (not TRUE). So the WHEN NULL branch never matches — ELSE runs. To check NULL, use searched CASE: <code>WHEN status IS NULL</code>."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given these orders table rows: (101,'paid',1000), (101,'paid',500), (101,'pending',200), what does SUM(CASE WHEN status='paid' THEN amount ELSE 0 END) return?",
+        "hint": "Add only the 'paid' rows.",
+        "answer": "<code>1500</code>",
+        "explanation": "1000 + 500 = 1500. The pending row contributes 0."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given the same rows, what does COUNT(CASE WHEN status='paid' THEN 1 END) return?",
+        "hint": "COUNT ignores NULL.",
+        "answer": "<code>2</code>",
+        "explanation": "Non-matching rows produce NULL (no ELSE), and COUNT skips NULL. Only the 2 paid rows are counted."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Output?<br><pre><code>SELECT COALESCE(NULLIF('', ''), 'missing');</code></pre>",
+        "hint": "'' = '' is true.",
+        "answer": "<code>missing</code>",
+        "explanation": "NULLIF('', '') returns NULL. COALESCE then returns 'missing' as the fallback. This is the standard way to treat empty strings as missing data."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Output?<br><pre><code>SELECT 10 / NULLIF(0, 0);</code></pre>",
+        "hint": "NULLIF(0, 0) returns NULL.",
+        "answer": "<code>NULL</code>",
+        "explanation": "NULLIF(0, 0) returns NULL. Division by NULL is NULL. This is the classic safe-division pattern."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Output?<br><pre><code>SELECT CASE\n  WHEN 1 THEN 'a'\n  WHEN 1 THEN 'b'\n  ELSE 'c'\nEND;</code></pre>",
+        "hint": "Two WHENs both match. Which wins?",
+        "answer": "<code>a</code>",
+        "explanation": "CASE returns the first matching WHEN and stops. Even though the second WHEN would also match, it never gets evaluated."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Given amount = NULL, what does this return?<br><pre><code>CASE\n  WHEN amount > 1000 THEN 'big'\n  WHEN amount <= 1000 THEN 'small'\n  ELSE 'unknown'\nEND</code></pre>",
+        "hint": "Any comparison with NULL is NULL (not TRUE).",
+        "answer": "<code>unknown</code>",
+        "explanation": "NULL > 1000 is NULL. NULL <= 1000 is NULL. Neither WHEN matches, so ELSE runs, returning 'unknown'. This is why you guard NULLs explicitly in the first WHEN when nulls are possible."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between IFNULL and COALESCE?",
+        "hint": "Argument count and portability.",
+        "answer": "IFNULL takes exactly 2 arguments and is MySQL-specific. COALESCE takes 2 or more arguments, returns the first non-NULL, and is part of the SQL standard (works on every database). For portable code use COALESCE. IFNULL is slightly faster in MySQL but the difference is negligible.",
+        "explanation": "Functionally, IFNULL(a, b) is identical to COALESCE(a, b). But COALESCE(a, b, c, d) is much more useful when you have a fallback chain."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does the conditional aggregation pattern SUM(CASE WHEN cond THEN val ELSE 0 END) work?",
+        "hint": "Think about what SUM adds and what 0 contributes.",
+        "answer": "SUM adds all non-NULL values. By writing ELSE 0, every non-matching row contributes 0 to the total — which is a no-op. Every matching row contributes its <code>val</code>. The end result is the sum of <code>val</code> only for rows where the condition is true. This lets you compute multiple filtered sums in a single pass of the table, which is the basis of SQL pivoting.",
+        "explanation": "Alternative: omit ELSE (so non-matches become NULL) and SUM skips NULLs anyway. That works but has a corner case — if the GROUP has zero matching rows, SUM returns NULL instead of 0. ELSE 0 is safer."
+      },
+      {
+        "id": "ts-19",
+        "type": "code-writing",
+        "difficulty": "Easy",
+        "question": "Given employees(name, salary), write a query returning name, salary, and a 'band' column: 'Low' if < 40000, 'Mid' if < 80000, else 'High'.",
+        "hint": "Searched CASE with two WHENs and ELSE.",
+        "answer": "<pre><code>SELECT name, salary,\n  CASE\n    WHEN salary < 40000 THEN 'Low'\n    WHEN salary < 80000 THEN 'Mid'\n    ELSE 'High'\n  END AS band\nFROM employees;</code></pre>",
+        "explanation": "Ordered smallest first. ELSE catches everything 80000 and above."
+      },
+      {
+        "id": "ts-20",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given orders(customer_id, status, amount), write a pivot returning per customer: total paid, total pending, and total failed.",
+        "hint": "Conditional aggregation with SUM + CASE.",
+        "answer": "<pre><code>SELECT customer_id,\n  SUM(CASE WHEN status = 'paid'    THEN amount ELSE 0 END) AS paid_total,\n  SUM(CASE WHEN status = 'pending' THEN amount ELSE 0 END) AS pending_total,\n  SUM(CASE WHEN status = 'failed'  THEN amount ELSE 0 END) AS failed_total\nFROM orders\nGROUP BY customer_id;</code></pre>",
+        "explanation": "One pass of the table builds three conditional columns. Works on any SQL database without a native PIVOT function."
+      },
+      {
+        "id": "ts-21",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Write a query that sorts orders by priority: 'urgent' first, then 'normal', then 'low'.",
+        "hint": "CASE in ORDER BY.",
+        "answer": "<pre><code>SELECT *\nFROM orders\nORDER BY\n  CASE priority\n    WHEN 'urgent' THEN 1\n    WHEN 'normal' THEN 2\n    WHEN 'low'    THEN 3\n    ELSE 4\n  END;</code></pre>",
+        "explanation": "Assign integer sort keys via CASE. Alternative: <code>ORDER BY FIELD(priority, 'urgent', 'normal', 'low')</code>."
+      },
+      {
+        "id": "ts-22",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given orders(id, amount, discount_pct), write a query returning the final price, treating NULL discount_pct as 0.",
+        "hint": "IFNULL + arithmetic.",
+        "answer": "<pre><code>SELECT id, amount, discount_pct,\n  amount * (1 - IFNULL(discount_pct, 0) / 100.0) AS final_price\nFROM orders;</code></pre>",
+        "explanation": "IFNULL guards against NULL propagation which would otherwise make final_price NULL for rows without a discount."
+      },
+      {
+        "id": "ts-23",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Given orders(customer_id, amount), compute the margin per customer where margin = SUM(profit)/SUM(revenue), treating customers with zero revenue as NULL margin instead of an error. Assume columns profit and revenue.",
+        "hint": "NULLIF for safe division.",
+        "answer": "<pre><code>SELECT customer_id,\n  SUM(profit)  AS total_profit,\n  SUM(revenue) AS total_revenue,\n  ROUND(SUM(profit) / NULLIF(SUM(revenue), 0), 4) AS margin\nFROM orders\nGROUP BY customer_id;</code></pre>",
+        "explanation": "NULLIF converts zero revenue into NULL, making the division safely return NULL instead of raising a divide-by-zero in strict SQL mode."
+      },
+      {
+        "id": "ts-24",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Given users(id, age), bucket users into age groups: 'Teen' (13-17), 'Adult' (18-59), 'Senior' (60+), 'Other' (everyone else). Return counts per bucket.",
+        "hint": "CASE in both SELECT and GROUP BY.",
+        "answer": "<pre><code>SELECT\n  CASE\n    WHEN age BETWEEN 13 AND 17 THEN 'Teen'\n    WHEN age BETWEEN 18 AND 59 THEN 'Adult'\n    WHEN age >= 60             THEN 'Senior'\n    ELSE                           'Other'\n  END AS age_group,\n  COUNT(*) AS total\nFROM users\nGROUP BY age_group;</code></pre>",
+        "explanation": "GROUP BY can reference the same CASE by its alias (MySQL-permissive). For maximum portability, repeat the CASE inside GROUP BY."
+      },
+      {
+        "id": "ts-25",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you almost never write <code>WHERE CASE WHEN x THEN 1 ELSE 0 END = 1</code>?",
+        "hint": "Readability and indexes.",
+        "answer": "It is equivalent to <code>WHERE x</code>, just more verbose. It also prevents the optimizer from using an index on the underlying column because the CASE wraps the expression. The only time CASE in WHERE is justified is when the column being filtered actually changes per row (e.g., <code>CASE type WHEN 'daily' THEN days ELSE hours END &gt; 10</code>). Otherwise, rewrite using AND/OR directly.",
+        "explanation": "Boolean expressions are already usable in WHERE clauses — you don't need to translate them into 0/1 and compare."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Output?<br><pre><code>SELECT IF(NULL, 'yes', 'no');</code></pre>",
+        "hint": "NULL is neither true nor false.",
+        "answer": "<code>no</code>",
+        "explanation": "IF treats NULL as false (non-true) and returns the false branch. This is different from strict boolean logic."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Output?<br><pre><code>SELECT CASE WHEN 0 THEN 'a' ELSE 'b' END;</code></pre>",
+        "hint": "0 is falsy in MySQL.",
+        "answer": "<code>b</code>",
+        "explanation": "MySQL treats 0 as false. Non-zero values are true. The ELSE branch executes."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given a row with marks=NULL, output of:<br><pre><code>CASE\n  WHEN marks IS NULL THEN 'absent'\n  WHEN marks >= 40   THEN 'pass'\n  ELSE 'fail'\nEND</code></pre>",
+        "hint": "First WHEN wins.",
+        "answer": "<code>absent</code>",
+        "explanation": "The IS NULL check is the first WHEN and matches, so 'absent' is returned before any numeric comparison."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given orders: (1,'paid',500), (2,'paid',200), (3,'failed',300), what does<br><pre><code>SELECT SUM(IF(status='paid', amount, 0)) FROM orders;</code></pre>return?",
+        "hint": "IF is a 2-branch shortcut for CASE.",
+        "answer": "<code>700</code>",
+        "explanation": "500 + 200 = 700 from the two paid rows. The failed row contributes 0."
+      },
+      {
+        "id": "mx-5",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given products(name, price, category), mark each product as 'Premium' if price > 10000, 'Standard' between 2000 and 10000, 'Budget' below 2000.",
+        "hint": "Searched CASE with three WHENs.",
+        "answer": "<pre><code>SELECT name, price, category,\n  CASE\n    WHEN price > 10000 THEN 'Premium'\n    WHEN price >= 2000 THEN 'Standard'\n    ELSE 'Budget'\n  END AS tier\nFROM products;</code></pre>",
+        "explanation": "Watch the boundary conditions. Price of exactly 2000 goes to Standard because of >=, and 10000 goes to Standard because the first WHEN uses >."
+      },
+      {
+        "id": "mx-6",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given orders(customer_id, status, amount), return customers along with a flag 'HighValue' (sum paid > 10000) or 'LowValue'.",
+        "hint": "Conditional SUM inside a CASE in SELECT, after GROUP BY.",
+        "answer": "<pre><code>SELECT customer_id,\n  SUM(CASE WHEN status='paid' THEN amount ELSE 0 END) AS paid_total,\n  CASE\n    WHEN SUM(CASE WHEN status='paid' THEN amount ELSE 0 END) > 10000\n      THEN 'HighValue'\n    ELSE 'LowValue'\n  END AS tier\nFROM orders\nGROUP BY customer_id;</code></pre>",
+        "explanation": "You can nest CASE inside aggregates and aggregates inside CASE. Use the same CASE expression twice or wrap it in a subquery/CTE for cleaner code (Chapter 19)."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "For a row (name='Aarav', bonus=NULL, salary=50000), what does this return?<br><pre><code>SELECT salary + IFNULL(bonus, 0) AS total\nFROM employees;</code></pre>",
+        "hint": "NULL replaced by 0 before adding.",
+        "answer": "<code>50000</code>",
+        "explanation": "IFNULL(bonus, 0) converts NULL to 0. 50000 + 0 = 50000. Without IFNULL the whole expression would be NULL."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Given a row (dept='sales', salary=80000), what does this return?<br><pre><code>SELECT\n  CASE dept\n    WHEN 'sales'      THEN salary * 1.1\n    WHEN 'engineering' THEN salary * 1.2\n    ELSE salary\n  END AS adjusted\nFROM employees;</code></pre>",
+        "hint": "Simple CASE matches 'sales'.",
+        "answer": "<code>88000</code>",
+        "explanation": "The dept equals 'sales', so salary * 1.1 = 80000 * 1.1 = 88000."
+      },
+      {
+        "id": "mx-9",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Given a feedback(rating) table where rating is 1-5, build a 'pivot' returning counts per rating value in a single row: rating_1, rating_2, rating_3, rating_4, rating_5.",
+        "hint": "Conditional COUNT for each value.",
+        "answer": "<pre><code>SELECT\n  COUNT(CASE WHEN rating = 1 THEN 1 END) AS rating_1,\n  COUNT(CASE WHEN rating = 2 THEN 1 END) AS rating_2,\n  COUNT(CASE WHEN rating = 3 THEN 1 END) AS rating_3,\n  COUNT(CASE WHEN rating = 4 THEN 1 END) AS rating_4,\n  COUNT(CASE WHEN rating = 5 THEN 1 END) AS rating_5\nFROM feedback;</code></pre>",
+        "explanation": "Without ELSE, non-matching rows give NULL and COUNT skips them. This is the simplest pivot possible in portable SQL."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Output?<br><pre><code>SELECT COALESCE(NULL, '', 'third');</code></pre>",
+        "hint": "COALESCE returns the first non-NULL. Is empty string NULL?",
+        "answer": "<code></code> (empty string)",
+        "explanation": "Empty string is NOT NULL. COALESCE returns the first non-NULL argument, which is the empty string ''. Many developers confuse these — use <code>NULLIF(x, '')</code> first to treat empty strings as missing."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does COUNT(CASE WHEN cond THEN 1 END) count matches, but SUM(CASE WHEN cond THEN 1 END) also works — what is the difference?",
+        "hint": "COUNT counts rows; SUM adds values. They happen to give the same answer for this pattern.",
+        "answer": "Both produce the same integer when each matching row contributes 1. COUNT ignores NULLs (non-matching rows with no ELSE become NULL and get skipped). SUM adds NULLs as nothing, same result. COUNT is stylistically preferred because its name is self-documenting ('I am counting matches'), and it works without ELSE. SUM would be required if you want to add a variable amount per match (e.g., SUM(CASE WHEN cond THEN amount ELSE 0 END)).",
+        "explanation": "Rule of thumb: use COUNT(CASE WHEN cond THEN 1 END) for counts, SUM(CASE WHEN cond THEN val ELSE 0 END) for totals."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which keyword marks the default branch in a CASE expression?",
+        "options": [
+          { "label": "A", "text": "DEFAULT" },
+          { "label": "B", "text": "OTHERWISE" },
+          { "label": "C", "text": "ELSE" },
+          { "label": "D", "text": "FALLBACK" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> ELSE is used as the default branch in SQL's CASE. DEFAULT appears in column definitions, not CASE."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does a CASE expression return when no WHEN matches and there is no ELSE?",
+        "options": [
+          { "label": "A", "text": "0" },
+          { "label": "B", "text": "An error" },
+          { "label": "C", "text": "NULL" },
+          { "label": "D", "text": "Empty string" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> With no matching WHEN and no ELSE, CASE evaluates to NULL."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which function is MySQL-specific and not part of the SQL standard?",
+        "options": [
+          { "label": "A", "text": "COALESCE" },
+          { "label": "B", "text": "IFNULL" },
+          { "label": "C", "text": "NULLIF" },
+          { "label": "D", "text": "CASE WHEN" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> IFNULL is MySQL (also SQLite)-specific. COALESCE, NULLIF, and CASE are SQL-standard."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "NULLIF(a, b) returns NULL when:",
+        "options": [
+          { "label": "A", "text": "a is NULL" },
+          { "label": "B", "text": "b is NULL" },
+          { "label": "C", "text": "a = b" },
+          { "label": "D", "text": "a > b" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> NULLIF returns NULL when a equals b, otherwise it returns a."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which expression is equivalent to IF(x > 5, 'big', 'small')?",
+        "options": [
+          { "label": "A", "text": "CASE WHEN x > 5 THEN 'big' ELSE 'small' END" },
+          { "label": "B", "text": "x > 5 ? 'big' : 'small'" },
+          { "label": "C", "text": "IF x > 5 THEN 'big' ELSE 'small'" },
+          { "label": "D", "text": "SWITCH x > 5 CASE 'big' DEFAULT 'small'" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> IF(cond, t, f) is equivalent to CASE WHEN cond THEN t ELSE f END. The ternary (?:) is not SQL."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "In a simple CASE <code>CASE x WHEN NULL THEN ... END</code>, when does the NULL branch match?",
+        "options": [
+          { "label": "A", "text": "When x is NULL" },
+          { "label": "B", "text": "When x is 0" },
+          { "label": "C", "text": "Never" },
+          { "label": "D", "text": "Always" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Simple CASE compares with =, and NULL = NULL evaluates to NULL, never TRUE. The branch is unreachable. Use searched CASE: <code>WHEN x IS NULL</code>."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which is the canonical SQL pivot pattern for per-category totals?",
+        "options": [
+          { "label": "A", "text": "PIVOT(amount FOR category)" },
+          { "label": "B", "text": "SUM(CASE WHEN category = 'X' THEN amount ELSE 0 END)" },
+          { "label": "C", "text": "GROUP BY ROLLUP(category)" },
+          { "label": "D", "text": "TRANSPOSE(category)" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL has no PIVOT operator, so conditional aggregation with SUM + CASE is the standard pattern."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "If the condition <code>salary >= 40</code> is placed before <code>salary >= 75</code> in a CASE, what happens to the second branch?",
+        "options": [
+          { "label": "A", "text": "It runs for all salaries 40-74" },
+          { "label": "B", "text": "It runs when salary is exactly 75" },
+          { "label": "C", "text": "It never runs (unreachable code)" },
+          { "label": "D", "text": "SQL raises an error" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The first match wins. Any salary >= 75 also satisfies salary >= 40, so the first WHEN catches them and the second branch is dead code."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does COALESCE(NULL, '', 'X') return?",
+        "options": [
+          { "label": "A", "text": "NULL" },
+          { "label": "B", "text": "Empty string ''" },
+          { "label": "C", "text": "'X'" },
+          { "label": "D", "text": "Error" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> COALESCE returns the first non-NULL argument. Empty string '' is non-NULL. If you want empty strings treated as missing, use <code>COALESCE(NULLIF(x, ''), 'default')</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which pattern prevents divide-by-zero errors in strict SQL mode?",
+        "options": [
+          { "label": "A", "text": "SUM(a) / SUM(b)" },
+          { "label": "B", "text": "SUM(a) / IF(SUM(b)=0, NULL, SUM(b))" },
+          { "label": "C", "text": "SUM(a) / NULLIF(SUM(b), 0)" },
+          { "label": "D", "text": "Both B and C" }
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Both IF and NULLIF convert zero into NULL, making division safe. NULLIF is shorter and preferred."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Where CAN you NOT use a CASE expression?",
+        "options": [
+          { "label": "A", "text": "SELECT list" },
+          { "label": "B", "text": "ORDER BY" },
+          { "label": "C", "text": "Column definition DEFAULT clause (cannot use)" },
+          { "label": "D", "text": "GROUP BY" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> CASE works in SELECT, WHERE, GROUP BY, HAVING, and ORDER BY. It cannot be used in column DEFAULT clauses — defaults must be literal values."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "Why does <code>COUNT(CASE WHEN status='paid' THEN 1 END)</code> correctly count paid rows without ELSE?",
+        "options": [
+          { "label": "A", "text": "COUNT ignores NULL values" },
+          { "label": "B", "text": "COUNT treats all values as 1" },
+          { "label": "C", "text": "Non-matching rows are automatically dropped" },
+          { "label": "D", "text": "MySQL auto-adds ELSE 0" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Without ELSE, non-matching rows return NULL. COUNT skips NULLs, so only matching rows are counted."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "If you SUM(CASE WHEN cond THEN amount END) with NO ELSE, and a GROUP has zero matching rows, SUM returns:",
+        "options": [
+          { "label": "A", "text": "0" },
+          { "label": "B", "text": "NULL" },
+          { "label": "C", "text": "Empty" },
+          { "label": "D", "text": "An error" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SUM of nothing (all NULLs) is NULL, not 0. This is a common dashboard bug. Fix: add ELSE 0 or wrap in IFNULL."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which CASE form allows checking 'IS NULL'?",
+        "options": [
+          { "label": "A", "text": "Simple CASE only" },
+          { "label": "B", "text": "Searched CASE only" },
+          { "label": "C", "text": "Both" },
+          { "label": "D", "text": "Neither" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Simple CASE uses = which never matches NULL. Only searched CASE can do <code>WHEN x IS NULL</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "In MySQL, which of these is TRUE about using an alias defined in the SELECT list inside GROUP BY?",
+        "options": [
+          { "label": "A", "text": "MySQL allows it; strict SQL standards do not" },
+          { "label": "B", "text": "It is forbidden in MySQL" },
+          { "label": "C", "text": "It only works in WHERE, not GROUP BY" },
+          { "label": "D", "text": "It requires the alias to be quoted" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> MySQL allows <code>GROUP BY alias</code> from the SELECT list. For portability (PostgreSQL, SQL Server), repeat the full expression in GROUP BY."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Which of these is equivalent to IFNULL(x, 0)?",
+        "options": [
+          { "label": "A", "text": "IF(x, 0, x)" },
+          { "label": "B", "text": "COALESCE(x, 0)" },
+          { "label": "C", "text": "NULLIF(x, 0)" },
+          { "label": "D", "text": "CASE WHEN x = 0 THEN NULL ELSE x END" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> COALESCE(x, 0) returns x if not NULL, else 0 — identical to IFNULL(x, 0). NULLIF does the opposite."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "A CASE that returns mixed types (string and number) in different branches will:",
+        "options": [
+          { "label": "A", "text": "Raise a SyntaxError" },
+          { "label": "B", "text": "Coerce all results to a compatible type (often string)" },
+          { "label": "C", "text": "Return only the number branches" },
+          { "label": "D", "text": "Crash at runtime" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL picks a common type. Mixing INT and VARCHAR usually returns VARCHAR — the column's declared type is determined by type promotion rules, not by the last branch."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the correct interpretation of <code>CASE WHEN a=1 THEN x WHEN a=2 THEN y END</code> when a=3?",
+        "options": [
+          { "label": "A", "text": "Returns 0" },
+          { "label": "B", "text": "Returns NULL" },
+          { "label": "C", "text": "Raises an error" },
+          { "label": "D", "text": "Returns x (the first THEN)" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> No WHEN matches and there is no ELSE, so the expression is NULL."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Which one is the BEST replacement for <code>WHERE CASE WHEN status='paid' THEN 1 ELSE 0 END = 1</code>?",
+        "options": [
+          { "label": "A", "text": "WHERE status = 'paid'" },
+          { "label": "B", "text": "WHERE status IS 'paid'" },
+          { "label": "C", "text": "WHERE IF(status='paid', 1, 0)" },
+          { "label": "D", "text": "WHERE status MATCHES 'paid'" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> A direct boolean expression is cleaner, faster (sargable), and more readable."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "If you use a CASE expression in GROUP BY that references a computed alias, which rule MUST hold for SQL-standard portability?",
+        "options": [
+          { "label": "A", "text": "The alias must be quoted" },
+          { "label": "B", "text": "The full CASE expression must be repeated in GROUP BY" },
+          { "label": "C", "text": "The alias must be lowercase" },
+          { "label": "D", "text": "The alias must be prefixed with the table name" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SQL-92 standard does not allow SELECT aliases in GROUP BY. MySQL permits it, PostgreSQL partially, SQL Server does not. For portability, repeat the CASE."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Grade Calculator",
+        "difficulty": "Easy",
+        "description": "Given students(id, name, marks), return each student with their grade: A (>=90), B (>=75), C (>=60), D (>=40), else F. Sort by marks DESC.",
+        "sampleInput": "6 students with marks 32..92.",
+        "sampleOutput": "One row per student with grade.",
+        "constraints": "Use searched CASE with ELSE.",
+        "solution": "CREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(50), marks INT);\nINSERT INTO students VALUES\n  (1,'Aarav Sharma',92),(2,'Priya Nair',78),(3,'Rohan Mehta',64),\n  (4,'Ananya Iyer',45),(5,'Vikram Singh',32),(6,'Meera Krishnan',88);\n\nSELECT name, marks,\n  CASE\n    WHEN marks >= 90 THEN 'A'\n    WHEN marks >= 75 THEN 'B'\n    WHEN marks >= 60 THEN 'C'\n    WHEN marks >= 40 THEN 'D'\n    ELSE 'F'\n  END AS grade\nFROM students\nORDER BY marks DESC;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Pay Band with IF",
+        "difficulty": "Easy",
+        "description": "Given employees(name, salary), use IF to tag each row as 'High' (>= 50000) or 'Low' (< 50000).",
+        "sampleInput": "5 employees with varied salaries.",
+        "sampleOutput": "Each row has name, salary, and band.",
+        "constraints": "Use IF for two branches.",
+        "solution": "CREATE TABLE employees (id INT PRIMARY KEY, name VARCHAR(50), salary DECIMAL(10,2));\nINSERT INTO employees VALUES\n  (1,'Aarav Sharma',72000),(2,'Priya Nair',45000),\n  (3,'Rohan Mehta',51000),(4,'Ananya Iyer',38000),\n  (5,'Vikram Singh',95000);\n\nSELECT name, salary,\n  IF(salary >= 50000, 'High', 'Low') AS band\nFROM employees;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Order Status Pivot",
+        "difficulty": "Medium",
+        "description": "Given orders(id, customer_id, amount, status) where status is 'paid', 'pending', or 'failed', return per customer: paid_total, pending_total, failed_total (0 if none).",
+        "sampleInput": "8 orders across 3 customers and 3 statuses.",
+        "sampleOutput": "One row per customer, three amount columns.",
+        "constraints": "Use SUM(CASE ... ELSE 0 END) to avoid NULLs.",
+        "solution": "CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, amount DECIMAL(10,2), status VARCHAR(20));\nINSERT INTO orders VALUES\n  (1,101,1200,'paid'),(2,101, 800,'paid'),(3,101, 500,'pending'),\n  (4,102,2500,'paid'),(5,102,1000,'failed'),\n  (6,103, 700,'pending'),(7,103, 300,'pending'),(8,103,1500,'paid');\n\nSELECT customer_id,\n  SUM(CASE WHEN status='paid'    THEN amount ELSE 0 END) AS paid_total,\n  SUM(CASE WHEN status='pending' THEN amount ELSE 0 END) AS pending_total,\n  SUM(CASE WHEN status='failed'  THEN amount ELSE 0 END) AS failed_total\nFROM orders\nGROUP BY customer_id\nORDER BY customer_id;"
+      },
+      {
+        "id": "cc-4",
+        "title": "Custom Priority Sort",
+        "difficulty": "Medium",
+        "description": "Given tickets(id, subject, priority) where priority is 'urgent', 'high', 'normal', 'low', sort in exactly that business order (not alphabetical).",
+        "sampleInput": "6 tickets with mixed priorities.",
+        "sampleOutput": "Rows in the order: urgent, high, normal, low.",
+        "constraints": "Use CASE in ORDER BY.",
+        "solution": "CREATE TABLE tickets (id INT PRIMARY KEY, subject VARCHAR(60), priority VARCHAR(10));\nINSERT INTO tickets VALUES\n  (1,'Server down','urgent'),\n  (2,'Typo on page','low'),\n  (3,'Deploy pipeline','high'),\n  (4,'Slow login','normal'),\n  (5,'Billing bug','urgent'),\n  (6,'Missing tooltip','low');\n\nSELECT *\nFROM tickets\nORDER BY\n  CASE priority\n    WHEN 'urgent' THEN 1\n    WHEN 'high'   THEN 2\n    WHEN 'normal' THEN 3\n    WHEN 'low'    THEN 4\n    ELSE 5\n  END,\n  id;"
+      },
+      {
+        "id": "cc-5",
+        "title": "Safe Margin Calculation",
+        "difficulty": "Medium",
+        "description": "Given campaigns(id, name, spend, revenue), return roas (revenue / spend) and margin ((revenue-spend)/revenue). Handle zeros safely — return NULL instead of dividing by zero.",
+        "sampleInput": "4 campaigns including one with spend=0 and one with revenue=0.",
+        "sampleOutput": "Four rows, zero rows error out, NULLs where appropriate.",
+        "constraints": "Use NULLIF for safe division.",
+        "solution": "CREATE TABLE campaigns (id INT PRIMARY KEY, name VARCHAR(40), spend DECIMAL(10,2), revenue DECIMAL(10,2));\nINSERT INTO campaigns VALUES\n  (1,'Google Search',5000,25000),\n  (2,'Meta Ads',3200,8000),\n  (3,'LinkedIn',1500,0),\n  (4,'YouTube',0,4200);\n\nSELECT name, spend, revenue,\n  ROUND(revenue / NULLIF(spend, 0), 2)                                         AS roas,\n  ROUND((revenue - spend) / NULLIF(revenue, 0), 4)                             AS margin\nFROM campaigns;"
+      },
+      {
+        "id": "cc-6",
+        "title": "Age-Group Census",
+        "difficulty": "Medium",
+        "description": "Given users(id, name, age), return a count of users per age group: 'Under 18', '18-29', '30-49', '50+'. Sort so the buckets appear in natural order.",
+        "sampleInput": "8 users across all four buckets.",
+        "sampleOutput": "Four rows, one per bucket.",
+        "constraints": "CASE in both SELECT and GROUP BY. Sort using MIN(age).",
+        "solution": "CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(50), age INT);\nINSERT INTO users VALUES\n  (1,'Ishaan Gupta',14),(2,'Kavya Reddy',17),(3,'Arjun Pillai',24),\n  (4,'Neha Choudhary',28),(5,'Diya Bhatt',35),(6,'Dev Kapoor',41),\n  (7,'Riya Joshi',52),(8,'Kabir Shah',67);\n\nSELECT\n  CASE\n    WHEN age < 18 THEN 'Under 18'\n    WHEN age < 30 THEN '18-29'\n    WHEN age < 50 THEN '30-49'\n    ELSE            '50+'\n  END AS age_group,\n  COUNT(*) AS users\nFROM users\nGROUP BY age_group\nORDER BY MIN(age);"
+      },
+      {
+        "id": "cc-7",
+        "title": "Rating Pivot",
+        "difficulty": "Hard",
+        "description": "Given feedback(id, product_id, rating) where rating is 1-5, return per product: count of each star rating as columns (stars_1 through stars_5) plus total_ratings and average_rating (rounded to 2 decimals).",
+        "sampleInput": "10 feedback rows across 3 products, varied ratings.",
+        "sampleOutput": "One row per product with 7 columns.",
+        "constraints": "Use COUNT(CASE WHEN rating=N THEN 1 END) for each column.",
+        "solution": "CREATE TABLE feedback (id INT PRIMARY KEY, product_id INT, rating INT);\nINSERT INTO feedback VALUES\n  (1,1,5),(2,1,4),(3,1,5),(4,1,3),\n  (5,2,2),(6,2,1),(7,2,3),\n  (8,3,5),(9,3,5),(10,3,4);\n\nSELECT product_id,\n  COUNT(CASE WHEN rating=1 THEN 1 END) AS stars_1,\n  COUNT(CASE WHEN rating=2 THEN 1 END) AS stars_2,\n  COUNT(CASE WHEN rating=3 THEN 1 END) AS stars_3,\n  COUNT(CASE WHEN rating=4 THEN 1 END) AS stars_4,\n  COUNT(CASE WHEN rating=5 THEN 1 END) AS stars_5,\n  COUNT(*)                              AS total_ratings,\n  ROUND(AVG(rating), 2)                 AS avg_rating\nFROM feedback\nGROUP BY product_id\nORDER BY product_id;"
+      },
+      {
+        "id": "cc-8",
+        "title": "Exam Verdict With Nulls",
+        "difficulty": "Hard",
+        "description": "Given results(student, maths, english, science) where any subject can be NULL (absent), return student, total (treating NULL as 0), avg_marks, and verdict: 'Incomplete' if any NULL, 'Fail' if any subject < 40, 'Distinction' if avg >= 90, 'First Class' >= 75, 'Second Class' >= 60, else 'Pass'.",
+        "sampleInput": "5 students, one with NULL in maths, one below 40 in english.",
+        "sampleOutput": "5 rows with verdict column.",
+        "constraints": "Guard NULLs in the FIRST WHEN. Use IFNULL for total.",
+        "solution": "CREATE TABLE results (student VARCHAR(50), maths INT, english INT, science INT);\nINSERT INTO results VALUES\n  ('Aarav Sharma',92,88,95),\n  ('Priya Nair',75,82,71),\n  ('Rohan Mehta',60,33,68),\n  ('Ananya Iyer',35,42,39),\n  ('Vikram Singh',NULL,80,85);\n\nSELECT student, maths, english, science,\n  (IFNULL(maths,0)+IFNULL(english,0)+IFNULL(science,0)) AS total,\n  ROUND((IFNULL(maths,0)+IFNULL(english,0)+IFNULL(science,0))/3.0, 1) AS avg_marks,\n  CASE\n    WHEN maths IS NULL OR english IS NULL OR science IS NULL  THEN 'Incomplete'\n    WHEN maths < 40 OR english < 40 OR science < 40           THEN 'Fail'\n    WHEN (maths+english+science)/3.0 >= 90                     THEN 'Distinction'\n    WHEN (maths+english+science)/3.0 >= 75                     THEN 'First Class'\n    WHEN (maths+english+science)/3.0 >= 60                     THEN 'Second Class'\n    ELSE                                                           'Pass'\n  END AS verdict\nFROM results;"
+      }
+    ]
+  }
+}

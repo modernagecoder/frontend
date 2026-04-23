@@ -1,0 +1,794 @@
+{
+  "title": "Window Functions in SQL - ROW_NUMBER, RANK, LAG, LEAD",
+  "slug": "window-functions",
+  "language": "sql",
+  "chapter": 18,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 64,
+  "seo": {
+    "title": "SQL Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD, Running Totals | Modern Age Coders",
+    "description": "Master SQL window functions for data analyst interviews: ROW_NUMBER, RANK, DENSE_RANK, NTILE, LAG, LEAD, FIRST_VALUE, running totals, moving averages, PARTITION BY, frame clauses. 64+ interview-grade practice queries with MySQL solutions.",
+    "keywords": "sql window functions, row_number, rank vs dense_rank, partition by, lag lead sql, running total sql, moving average sql, sql over clause, top n per group, month over month sql"
+  },
+  "content": {
+    "what": "<h2>What Are Window Functions?</h2><p>Window functions are the single most powerful feature of modern SQL. They compute a value for each row using a <em>window</em> of other rows — without collapsing the result set the way GROUP BY does. That difference is everything.</p><pre><code>-- GROUP BY: one row per department, details lost\nSELECT dept, AVG(salary) FROM employees GROUP BY dept;\n\n-- Window function: every row preserved, with dept avg alongside\nSELECT name, dept, salary,\n       AVG(salary) OVER (PARTITION BY dept) AS dept_avg\nFROM employees;</code></pre><p>Notice the <code>OVER (PARTITION BY dept)</code> clause — that's the window. It tells MySQL: \"for each row, compute AVG(salary) over the window of rows sharing its dept value.\" You keep the row-level detail <em>and</em> get aggregate context on the same row.</p><p>Once you know window functions, you will reach for them for:</p><ul><li>Ranking rows (top 3 per category, Nth highest salary)</li><li>Running totals and moving averages</li><li>Comparing each row to the previous / next row (LAG / LEAD)</li><li>Month-over-month growth, retention curves, percentile buckets</li></ul><p>Every FAANG / product company data analyst interview has a window function question. Most have several.</p>",
+    "why": "<h2>Why Window Functions Matter</h2><h3>1. They Replace Ugly Self-Joins</h3><p>Pre-window-functions SQL had to compute \"current salary minus previous salary per employee\" with a self-join on sequence numbers. Now it's one line with LAG. Queries that used to be 30 lines become 4.</p><h3>2. Interview Favorites Live Here</h3><p>Nth highest salary, top 3 products per category, first and last order per customer, running totals, month-over-month growth, cumulative percentages, median — these are the classic SQL interview questions. All of them have elegant window-function solutions.</p><h3>3. Analytics Dashboards Need Row + Aggregate Together</h3><p>A sales dashboard shows each salesperson's revenue <em>and</em> what % of the team total that is. That requires aggregate context on every row. GROUP BY can't do it without a self-join. Window functions can.</p><h3>4. They Express Sequential Logic Naturally</h3><p>Questions like \"how many days since the previous order per customer?\" are naturally sequential. Window functions with PARTITION BY + ORDER BY let you walk down the timeline per partition.</p><h3>5. Modern SQL Is Window-Function-Heavy</h3><p>Data engineering code you will write at any job — ETL for analytics, cohort analysis, attribution windows, session sequencing — is full of window functions. If you can't write them fluently, your SQL ceiling is low.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Anatomy of a Window Function Call</h3><pre><code>function_name() OVER (\n  [PARTITION BY col1, col2, ...]\n  [ORDER BY col3 [ASC|DESC], ...]\n  [frame_clause]\n)</code></pre><p>Three optional parts inside OVER():</p><ul><li><strong>PARTITION BY</strong> — split rows into groups. The function restarts at each partition boundary. No PARTITION BY means one single partition = the whole result set.</li><li><strong>ORDER BY</strong> — order rows within each partition. Required for ranking functions and for cumulative computations.</li><li><strong>Frame clause</strong> — a sub-window within the partition. Controls running totals, moving averages, etc.</li></ul><h3>2. Ranking Functions: ROW_NUMBER, RANK, DENSE_RANK</h3><p>All three assign a number to each row. They differ in how they handle ties.</p><pre><code>-- Sample data: salaries [100, 100, 90, 80, 80]\n-- ROW_NUMBER  1 2 3 4 5    (arbitrary tiebreak, unique sequence)\n-- RANK        1 1 3 4 4    (ties share rank, then JUMP the skipped numbers)\n-- DENSE_RANK  1 1 2 3 3    (ties share rank, NO jump)</code></pre><pre><code>SELECT name, salary,\n  ROW_NUMBER() OVER (ORDER BY salary DESC) AS rn,\n  RANK()       OVER (ORDER BY salary DESC) AS rnk,\n  DENSE_RANK() OVER (ORDER BY salary DESC) AS drnk\nFROM employees;</code></pre><p><strong>When to use which:</strong></p><ul><li><code>ROW_NUMBER</code> — pick exactly N rows (pagination, top-3 with tiebreak). Always returns unique 1, 2, 3, ...</li><li><code>RANK</code> — competition ranking. 1st, 1st, 3rd (Olympic medals: two gold, no silver).</li><li><code>DENSE_RANK</code> — nth-distinct ranking. \"Find the 3rd highest DISTINCT salary.\" No gaps.</li></ul><h3>3. PARTITION BY — The Game Changer</h3><pre><code>-- Top salary per department\nSELECT name, dept, salary,\n       ROW_NUMBER() OVER (PARTITION BY dept ORDER BY salary DESC) AS rn\nFROM employees;\n-- Each dept gets its own ranking starting from 1.\n\n-- Keep only #1 per dept\nSELECT * FROM (\n  SELECT name, dept, salary,\n         ROW_NUMBER() OVER (PARTITION BY dept ORDER BY salary DESC) AS rn\n  FROM employees\n) t\nWHERE rn = 1;</code></pre><p>\"Top N per group\" is the #1 window function interview question. The pattern is always: rank within partition, then filter on the rank in an outer query.</p><h3>4. LAG and LEAD — Previous and Next Row</h3><pre><code>LAG(column, offset, default)  OVER (PARTITION BY ... ORDER BY ...)\nLEAD(column, offset, default) OVER (PARTITION BY ... ORDER BY ...)</code></pre><pre><code>-- Previous order date per customer\nSELECT customer_id, order_date,\n       LAG(order_date)     OVER (PARTITION BY customer_id ORDER BY order_date) AS prev_order,\n       DATEDIFF(order_date,\n                LAG(order_date) OVER (PARTITION BY customer_id ORDER BY order_date)\n       ) AS days_since_prev\nFROM orders;</code></pre><p>Arguments: <code>LAG(col)</code> defaults to offset 1 and default NULL. The first row of each partition has no \"previous\" row, so LAG returns NULL unless you pass a default.</p><h3>5. FIRST_VALUE, LAST_VALUE, NTH_VALUE</h3><pre><code>-- First and last order amount per customer\nSELECT customer_id, order_date, amount,\n       FIRST_VALUE(amount) OVER (PARTITION BY customer_id ORDER BY order_date) AS first_amt,\n       LAST_VALUE(amount)  OVER (PARTITION BY customer_id ORDER BY order_date\n                                 ROWS BETWEEN UNBOUNDED PRECEDING\n                                          AND UNBOUNDED FOLLOWING) AS last_amt\nFROM orders;</code></pre><p><strong>Trap:</strong> LAST_VALUE without an explicit frame returns the CURRENT row, not the last row of the partition. The default frame for ORDER BY is \"RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\", which stops at the current row. Always explicitly override the frame for LAST_VALUE.</p><h3>6. Running Totals with Aggregates + OVER</h3><pre><code>-- Running total of daily sales\nSELECT sale_date, amount,\n       SUM(amount) OVER (ORDER BY sale_date\n                         ROWS BETWEEN UNBOUNDED PRECEDING\n                                  AND CURRENT ROW) AS running_total\nFROM sales;</code></pre><p>Any aggregate (SUM, AVG, COUNT, MIN, MAX) becomes a window function by adding OVER(). Combined with a frame clause, it computes cumulatively.</p><h3>7. The Frame Clause — ROWS vs RANGE</h3><pre><code>-- Generic frame syntax\nROWS  BETWEEN <start> AND <end>\nRANGE BETWEEN <start> AND <end>\n\n-- start/end can be:\nUNBOUNDED PRECEDING         -- beginning of partition\nN PRECEDING                 -- N rows before current\nCURRENT ROW                 -- current row\nN FOLLOWING                 -- N rows after\nUNBOUNDED FOLLOWING         -- end of partition</code></pre><p><strong>ROWS</strong> counts physical rows: \"3 rows before me.\" <strong>RANGE</strong> counts by value: \"rows whose ORDER BY column is within 3 of mine.\" 95% of the time you want ROWS.</p><pre><code>-- 7-day moving average of daily sales\nSELECT sale_date, amount,\n       AVG(amount) OVER (ORDER BY sale_date\n                         ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) AS ma_7d\nFROM sales;\n\n-- Centered 3-row moving average\nSELECT sale_date, amount,\n       AVG(amount) OVER (ORDER BY sale_date\n                         ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING) AS ma_3_centered\nFROM sales;</code></pre><h3>8. NTILE for Bucketing</h3><pre><code>-- Divide employees into 4 salary quartiles\nSELECT name, salary,\n       NTILE(4) OVER (ORDER BY salary DESC) AS quartile\nFROM employees;</code></pre><p>NTILE(n) spreads rows as evenly as possible across n buckets. Useful for percentile analysis, AB-testing cohort splitting, and revenue deciles.</p><h3>9. PERCENT_RANK and CUME_DIST</h3><pre><code>-- Both return a fraction between 0 and 1\nSELECT name, salary,\n       ROUND(PERCENT_RANK() OVER (ORDER BY salary), 2) AS pct_rank,\n       ROUND(CUME_DIST()    OVER (ORDER BY salary), 2) AS cume_dist\nFROM employees;</code></pre><p>PERCENT_RANK: (RANK - 1) / (total_rows - 1). First row = 0, last row = 1. CUME_DIST: fraction of rows with value <= current. Always > 0.</p><h3>10. Classic Interview Patterns</h3><h4>Top N Per Group</h4><pre><code>-- Top 3 employees per dept by salary\nSELECT * FROM (\n  SELECT name, dept, salary,\n         DENSE_RANK() OVER (PARTITION BY dept ORDER BY salary DESC) AS rnk\n  FROM employees\n) t\nWHERE rnk &lt;= 3;</code></pre><h4>Nth Highest Salary</h4><pre><code>-- 3rd highest distinct salary\nSELECT DISTINCT salary\nFROM (\n  SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n  FROM employees\n) t\nWHERE rnk = 3;</code></pre><h4>Month-Over-Month Growth</h4><pre><code>WITH monthly AS (\n  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,\n         SUM(amount) AS revenue\n  FROM orders\n  GROUP BY month\n)\nSELECT month, revenue,\n       LAG(revenue) OVER (ORDER BY month) AS prev_month,\n       ROUND((revenue - LAG(revenue) OVER (ORDER BY month))\n             / LAG(revenue) OVER (ORDER BY month) * 100, 2) AS mom_pct\nFROM monthly;</code></pre><h4>Running Total and Cumulative Share</h4><pre><code>SELECT sale_date, amount,\n  SUM(amount) OVER (ORDER BY sale_date ROWS UNBOUNDED PRECEDING) AS running_total,\n  ROUND(100.0 * SUM(amount) OVER (ORDER BY sale_date ROWS UNBOUNDED PRECEDING)\n        / SUM(amount) OVER (), 2) AS pct_of_total\nFROM sales;</code></pre><h4>Consecutive Rows / Gaps and Islands</h4><pre><code>-- Find streaks of consecutive login dates per user\nSELECT user_id, login_date,\n       login_date - INTERVAL ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY login_date) DAY AS grp\nFROM logins;\n-- Rows with the same grp form a consecutive streak.</code></pre><h3>11. Where Window Functions Can and Can't Appear</h3><ul><li>Allowed: SELECT list and ORDER BY of the outer query.</li><li>Not allowed: WHERE, GROUP BY, HAVING. You cannot filter on a window result directly. Wrap in a subquery/CTE and filter on the outer query.</li><li>MySQL supports window functions from 8.0+. MariaDB from 10.2+.</li></ul>",
+    "codeExamples": [
+      {
+        "title": "ROW_NUMBER, RANK, DENSE_RANK Side-by-Side",
+        "code": "CREATE TABLE employees (\n  id     INT PRIMARY KEY,\n  name   VARCHAR(50),\n  dept   VARCHAR(30),\n  salary DECIMAL(10,2)\n);\n\nINSERT INTO employees VALUES\n  (1, 'Aarav Sharma',    'Engineering',  95000),\n  (2, 'Priya Nair',      'Engineering',  95000),  -- tie with Aarav\n  (3, 'Rohan Mehta',     'Engineering',  82000),\n  (4, 'Ananya Iyer',     'Engineering',  72000),\n  (5, 'Vikram Singh',    'Sales',        68000),\n  (6, 'Meera Krishnan',  'Sales',        68000),  -- tie with Vikram\n  (7, 'Diya Bhatt',      'Sales',        55000);\n\nSELECT name, dept, salary,\n  ROW_NUMBER() OVER (ORDER BY salary DESC) AS rn,\n  RANK()       OVER (ORDER BY salary DESC) AS rnk,\n  DENSE_RANK() OVER (ORDER BY salary DESC) AS drnk\nFROM employees;",
+        "language": "sql",
+        "explanation": "Watch the tied pairs. Aarav and Priya both earn 95000. ROW_NUMBER gives them 1 and 2 (arbitrary tiebreak). RANK gives them both 1, then jumps to 3 for the next row. DENSE_RANK gives them both 1, then 2 (no jump). Vikram and Meera show the same pattern at 68000.",
+        "output": "+----------------+-------------+---------+----+-----+------+\n| name           | dept        | salary  | rn | rnk | drnk |\n+----------------+-------------+---------+----+-----+------+\n| Aarav Sharma   | Engineering | 95000.00|  1 |   1 |    1 |\n| Priya Nair     | Engineering | 95000.00|  2 |   1 |    1 |\n| Rohan Mehta    | Engineering | 82000.00|  3 |   3 |    2 |\n| Ananya Iyer    | Engineering | 72000.00|  4 |   4 |    3 |\n| Vikram Singh   | Sales       | 68000.00|  5 |   5 |    4 |\n| Meera Krishnan | Sales       | 68000.00|  6 |   5 |    4 |\n| Diya Bhatt     | Sales       | 55000.00|  7 |   7 |    5 |\n+----------------+-------------+---------+----+-----+------+"
+      },
+      {
+        "title": "Top 2 Employees Per Department (Classic Interview Question)",
+        "code": "-- Using employees table from above\n\nSELECT name, dept, salary\nFROM (\n  SELECT name, dept, salary,\n         DENSE_RANK() OVER (\n           PARTITION BY dept\n           ORDER BY salary DESC\n         ) AS rnk\n  FROM employees\n) t\nWHERE rnk <= 2\nORDER BY dept, salary DESC;",
+        "language": "sql",
+        "explanation": "PARTITION BY dept restarts the ranking at each department. DENSE_RANK is used so ties both qualify. Filtering happens in an OUTER query because WHERE cannot reference a window function directly. This is THE canonical top-N-per-group template.",
+        "output": "+----------------+-------------+---------+\n| name           | dept        | salary  |\n+----------------+-------------+---------+\n| Aarav Sharma   | Engineering | 95000.00|\n| Priya Nair     | Engineering | 95000.00|\n| Rohan Mehta    | Engineering | 82000.00|\n| Vikram Singh   | Sales       | 68000.00|\n| Meera Krishnan | Sales       | 68000.00|\n| Diya Bhatt     | Sales       | 55000.00|\n+----------------+-------------+---------+"
+      },
+      {
+        "title": "Running Total of Daily Sales",
+        "code": "CREATE TABLE sales (\n  sale_date DATE,\n  amount    DECIMAL(10,2)\n);\n\nINSERT INTO sales VALUES\n  ('2026-04-10', 1200),\n  ('2026-04-11',  800),\n  ('2026-04-12', 2400),\n  ('2026-04-13',  950),\n  ('2026-04-14', 1500),\n  ('2026-04-15',  700),\n  ('2026-04-16', 1100);\n\nSELECT sale_date, amount,\n  SUM(amount) OVER (\n    ORDER BY sale_date\n    ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\n  ) AS running_total,\n  ROUND(100.0 * amount / SUM(amount) OVER (), 2) AS pct_of_grand_total\nFROM sales\nORDER BY sale_date;",
+        "language": "sql",
+        "explanation": "The first SUM OVER uses a frame from partition start to the current row — that's the running total. The second SUM OVER with NO clauses means 'sum over the entire result set' — the grand total. Dividing row amount by grand total gives per-day share of total. Two windows on the same query, no self-join.",
+        "output": "+------------+--------+---------------+--------------------+\n| sale_date  | amount | running_total | pct_of_grand_total |\n+------------+--------+---------------+--------------------+\n| 2026-04-10 | 1200.00|       1200.00 |              14.29 |\n| 2026-04-11 |  800.00|       2000.00 |               9.52 |\n| 2026-04-12 | 2400.00|       4400.00 |              28.57 |\n| 2026-04-13 |  950.00|       5350.00 |              11.31 |\n| 2026-04-14 | 1500.00|       6850.00 |              17.86 |\n| 2026-04-15 |  700.00|       7550.00 |               8.33 |\n| 2026-04-16 | 1100.00|       8650.00 |              13.10 |\n+------------+--------+---------------+--------------------+"
+      },
+      {
+        "title": "LAG — Days Since Customer's Previous Order",
+        "code": "CREATE TABLE orders (\n  id           INT PRIMARY KEY,\n  customer_id  INT,\n  order_date   DATE,\n  amount       DECIMAL(10,2)\n);\n\nINSERT INTO orders VALUES\n  (1, 101, '2026-01-10', 1200),\n  (2, 101, '2026-02-15',  800),\n  (3, 101, '2026-03-20', 1600),\n  (4, 102, '2026-02-01', 2500),\n  (5, 102, '2026-03-28',  900),\n  (6, 103, '2026-04-10', 3100);\n\nSELECT customer_id, order_date, amount,\n  LAG(order_date) OVER (\n    PARTITION BY customer_id ORDER BY order_date\n  ) AS prev_order_date,\n  DATEDIFF(\n    order_date,\n    LAG(order_date) OVER (PARTITION BY customer_id ORDER BY order_date)\n  ) AS days_since_prev\nFROM orders\nORDER BY customer_id, order_date;",
+        "language": "sql",
+        "explanation": "LAG looks back one row within the partition. For the first order of each customer, there is no previous row, so LAG returns NULL — which makes DATEDIFF also NULL. This is the canonical pattern for 'inter-event time' analysis.",
+        "output": "+-------------+------------+--------+-----------------+-----------------+\n| customer_id | order_date | amount | prev_order_date | days_since_prev |\n+-------------+------------+--------+-----------------+-----------------+\n|         101 | 2026-01-10 |1200.00 | NULL            |            NULL |\n|         101 | 2026-02-15 | 800.00 | 2026-01-10      |              36 |\n|         101 | 2026-03-20 |1600.00 | 2026-02-15      |              33 |\n|         102 | 2026-02-01 |2500.00 | NULL            |            NULL |\n|         102 | 2026-03-28 | 900.00 | 2026-02-01      |              55 |\n|         103 | 2026-04-10 |3100.00 | NULL            |            NULL |\n+-------------+------------+--------+-----------------+-----------------+"
+      },
+      {
+        "title": "7-Day Moving Average with Frame Clause",
+        "code": "-- Using the sales table from the running total example\n\nSELECT sale_date, amount,\n  ROUND(AVG(amount) OVER (\n    ORDER BY sale_date\n    ROWS BETWEEN 6 PRECEDING AND CURRENT ROW\n  ), 2) AS ma_7d,\n  -- 3-day centered moving average\n  ROUND(AVG(amount) OVER (\n    ORDER BY sale_date\n    ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING\n  ), 2) AS ma_3_centered\nFROM sales\nORDER BY sale_date;",
+        "language": "sql",
+        "explanation": "ROWS BETWEEN 6 PRECEDING AND CURRENT ROW gives a trailing 7-day window (current row + 6 before). Rows at the start have fewer than 7 rows and MySQL averages whatever it has (not NULL). The centered variant uses 1 before and 1 after the current row.",
+        "output": "+------------+--------+---------+---------------+\n| sale_date  | amount | ma_7d   | ma_3_centered |\n+------------+--------+---------+---------------+\n| 2026-04-10 | 1200.00| 1200.00 |       1000.00 |\n| 2026-04-11 |  800.00| 1000.00 |       1466.67 |\n| 2026-04-12 | 2400.00| 1466.67 |       1383.33 |\n| 2026-04-13 |  950.00| 1337.50 |       1616.67 |\n| 2026-04-14 | 1500.00| 1370.00 |       1050.00 |\n| 2026-04-15 |  700.00| 1258.33 |       1100.00 |\n| 2026-04-16 | 1100.00| 1235.71 |        900.00 |\n+------------+--------+---------+---------------+"
+      },
+      {
+        "title": "Month-Over-Month Revenue Growth",
+        "code": "-- Reusing the orders table from the LAG example\n\nWITH monthly AS (\n  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,\n         SUM(amount)                      AS revenue\n  FROM orders\n  GROUP BY month\n)\nSELECT month, revenue,\n  LAG(revenue) OVER (ORDER BY month) AS prev_revenue,\n  ROUND(\n    (revenue - LAG(revenue) OVER (ORDER BY month))\n    / LAG(revenue) OVER (ORDER BY month) * 100,\n    2\n  ) AS mom_growth_pct\nFROM monthly\nORDER BY month;",
+        "language": "sql",
+        "explanation": "Aggregate to monthly totals in a CTE (Chapter 19), then apply LAG on top. This is maybe the most-asked SQL interview question at analytics companies. The first month has no previous, so both prev_revenue and mom_growth_pct are NULL.",
+        "output": "+---------+---------+--------------+----------------+\n| month   | revenue | prev_revenue | mom_growth_pct |\n+---------+---------+--------------+----------------+\n| 2026-01 | 1200.00 | NULL         |           NULL |\n| 2026-02 | 3300.00 | 1200.00      |         175.00 |\n| 2026-03 | 2500.00 | 3300.00      |         -24.24 |\n| 2026-04 | 3100.00 | 2500.00      |          24.00 |\n+---------+---------+--------------+----------------+"
+      },
+      {
+        "title": "NTILE for Salary Quartiles",
+        "code": "-- Using employees table from the first example\n\nSELECT name, dept, salary,\n  NTILE(4) OVER (ORDER BY salary DESC) AS quartile,\n  ROUND(PERCENT_RANK() OVER (ORDER BY salary DESC), 2) AS pct_rank\nFROM employees\nORDER BY salary DESC;",
+        "language": "sql",
+        "explanation": "NTILE(4) splits the 7 employees into 4 approximately-equal buckets. With 7 rows / 4 buckets, 3 buckets get 2 rows and 1 gets 1 (NTILE fills earlier buckets first). Quartile 1 is top earners. PERCENT_RANK gives a normalized rank in [0, 1].",
+        "output": "+----------------+-------------+---------+----------+----------+\n| name           | dept        | salary  | quartile | pct_rank |\n+----------------+-------------+---------+----------+----------+\n| Aarav Sharma   | Engineering | 95000.00|        1 |     0.00 |\n| Priya Nair     | Engineering | 95000.00|        1 |     0.00 |\n| Rohan Mehta    | Engineering | 82000.00|        2 |     0.33 |\n| Ananya Iyer    | Engineering | 72000.00|        2 |     0.50 |\n| Vikram Singh   | Sales       | 68000.00|        3 |     0.67 |\n| Meera Krishnan | Sales       | 68000.00|        3 |     0.67 |\n| Diya Bhatt     | Sales       | 55000.00|        4 |     1.00 |\n+----------------+-------------+---------+----------+----------+"
+      },
+      {
+        "title": "FIRST_VALUE and LAST_VALUE with Correct Frame",
+        "code": "-- orders table from LAG example\n\nSELECT customer_id, order_date, amount,\n  FIRST_VALUE(amount) OVER (\n    PARTITION BY customer_id ORDER BY order_date\n  ) AS first_order_amount,\n  LAST_VALUE(amount) OVER (\n    PARTITION BY customer_id ORDER BY order_date\n    ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING\n  ) AS last_order_amount\nFROM orders\nORDER BY customer_id, order_date;",
+        "language": "sql",
+        "explanation": "FIRST_VALUE works correctly with the default frame because the default frame starts at UNBOUNDED PRECEDING. But LAST_VALUE needs the explicit frame extending to UNBOUNDED FOLLOWING — without it, LAST_VALUE would return the current row's value, not the partition's last value. This is the most common window-function bug.",
+        "output": "+-------------+------------+--------+--------------------+-------------------+\n| customer_id | order_date | amount | first_order_amount | last_order_amount |\n+-------------+------------+--------+--------------------+-------------------+\n|         101 | 2026-01-10 |1200.00 |            1200.00 |           1600.00 |\n|         101 | 2026-02-15 | 800.00 |            1200.00 |           1600.00 |\n|         101 | 2026-03-20 |1600.00 |            1200.00 |           1600.00 |\n|         102 | 2026-02-01 |2500.00 |            2500.00 |            900.00 |\n|         102 | 2026-03-28 | 900.00 |            2500.00 |            900.00 |\n|         103 | 2026-04-10 |3100.00 |            3100.00 |           3100.00 |\n+-------------+------------+--------+--------------------+-------------------+"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "LAST_VALUE Without an Explicit Frame",
+        "wrongCode": "-- Expected: each row shows last order amount for that customer.\nSELECT customer_id, order_date, amount,\n  LAST_VALUE(amount) OVER (\n    PARTITION BY customer_id ORDER BY order_date\n  ) AS last_amt\nFROM orders;",
+        "error": "No SQL error, but last_amt equals the current row's amount in every row. The default frame ends at CURRENT ROW, so 'last value in the window so far' is the current row.",
+        "correctCode": "SELECT customer_id, order_date, amount,\n  LAST_VALUE(amount) OVER (\n    PARTITION BY customer_id ORDER BY order_date\n    ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING\n  ) AS last_amt\nFROM orders;",
+        "explanation": "When you use ORDER BY in OVER() without an explicit frame, MySQL applies the default: <code>RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW</code>. FIRST_VALUE is fine because it still sees the partition start. LAST_VALUE is broken because the frame ends at the current row. Always specify UNBOUNDED FOLLOWING for LAST_VALUE."
+      },
+      {
+        "title": "Using a Window Function in WHERE",
+        "wrongCode": "-- Intent: keep only top 3 per dept\nSELECT name, dept, salary\nFROM employees\nWHERE RANK() OVER (PARTITION BY dept ORDER BY salary DESC) <= 3;",
+        "error": "SQL Error: window functions cannot appear in WHERE.",
+        "correctCode": "SELECT name, dept, salary\nFROM (\n  SELECT name, dept, salary,\n         RANK() OVER (PARTITION BY dept ORDER BY salary DESC) AS rnk\n  FROM employees\n) t\nWHERE rnk <= 3;",
+        "explanation": "Window functions are computed AFTER WHERE. To filter on a window result, compute it in a subquery or CTE and apply WHERE in the outer query. This pattern is so common it's worth memorizing."
+      },
+      {
+        "title": "Forgetting PARTITION BY — Global Ranking When Per-Group Was Meant",
+        "wrongCode": "-- Intent: rank employees within each dept.\nSELECT name, dept, salary,\n  RANK() OVER (ORDER BY salary DESC) AS rnk\nFROM employees;\n-- This ranks across ALL employees, ignoring dept.",
+        "error": "No error, but results are wrong. Every employee is compared to every other employee across all departments.",
+        "correctCode": "SELECT name, dept, salary,\n  RANK() OVER (PARTITION BY dept ORDER BY salary DESC) AS rnk\nFROM employees;",
+        "explanation": "Without PARTITION BY, the window is the entire result set. Add PARTITION BY whenever you want per-group computation. This is the most common window function logic error in interview answers."
+      },
+      {
+        "title": "Confusing RANK and DENSE_RANK for 'Nth Highest'",
+        "wrongCode": "-- Intent: 3rd highest DISTINCT salary.\nSELECT salary FROM (\n  SELECT salary, RANK() OVER (ORDER BY salary DESC) AS rnk\n  FROM employees\n) t WHERE rnk = 3;\n-- If top 2 salaries tie, RANK goes 1,1,3,... and this 'works'.\n-- But if 3 salaries tie at top, RANK goes 1,1,1,4 — rnk=3 returns nothing.",
+        "error": "No SQL error, but the query returns wrong or empty results depending on how ties break.",
+        "correctCode": "-- Use DENSE_RANK for Nth DISTINCT value\nSELECT DISTINCT salary FROM (\n  SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n  FROM employees\n) t WHERE rnk = 3;",
+        "explanation": "RANK skips numbers after ties, so rnk=3 might not exist. DENSE_RANK does not skip — rnk=3 always means 'the 3rd distinct value'. For 'Nth highest distinct salary', DENSE_RANK is correct. For 'top N rows including ties', RANK is correct."
+      },
+      {
+        "title": "Mixing PARTITION BY Columns Incorrectly",
+        "wrongCode": "-- Intent: running total of amount per customer.\nSELECT customer_id, order_date, amount,\n  SUM(amount) OVER (ORDER BY order_date) AS running_total\nFROM orders;\n-- Every customer's rows are mixed together.",
+        "error": "No error, but running_total adds across ALL customers interleaved by date.",
+        "correctCode": "SELECT customer_id, order_date, amount,\n  SUM(amount) OVER (\n    PARTITION BY customer_id\n    ORDER BY order_date\n    ROWS UNBOUNDED PRECEDING\n  ) AS running_total\nFROM orders;",
+        "explanation": "Without PARTITION BY customer_id, the running total accumulates across all customers. Adding PARTITION BY gives each customer their own running total, reset at each customer boundary."
+      }
+    ],
+    "summary": [
+      "Window functions compute a value using a window of rows without collapsing the result set. Each row keeps its detail and gets aggregate context alongside.",
+      "The OVER() clause has three optional parts: PARTITION BY (split rows into groups), ORDER BY (order within partition), and a frame clause (sub-window for running calculations).",
+      "ROW_NUMBER gives unique 1..N. RANK gives ties same number then skips. DENSE_RANK gives ties same number and does NOT skip. Use DENSE_RANK for 'Nth distinct value'.",
+      "PARTITION BY restarts the computation at each group boundary. Without it, the window is the entire result set.",
+      "LAG(col, offset, default) returns the previous row's value within the partition. LEAD does the same for the next row. Both are essential for time-series and sequential analysis.",
+      "Running totals use SUM/AVG with OVER(ORDER BY ... ROWS UNBOUNDED PRECEDING). Moving averages use ROWS BETWEEN N PRECEDING AND CURRENT ROW.",
+      "ROWS counts physical rows; RANGE counts by value. Prefer ROWS unless you specifically need value-based windows.",
+      "LAST_VALUE needs an explicit frame (ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING) — the default frame ends at CURRENT ROW, which makes LAST_VALUE return the current row's value.",
+      "Window functions cannot appear in WHERE, GROUP BY, or HAVING. To filter on a window result, compute it in a subquery/CTE and filter in the outer query.",
+      "Classic interview patterns: top N per group (ROW_NUMBER or DENSE_RANK with PARTITION BY), Nth highest salary (DENSE_RANK), month-over-month growth (LAG on monthly aggregate), running totals, moving averages, gaps and islands analysis."
+    ]
+  },
+  "relatedTopics": ["common-table-expressions", "group-by-and-having", "subqueries-and-nested-queries"],
+  "practice": {
+    "totalQuestions": 64,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "For salaries [90, 85, 85, 70], what does ROW_NUMBER() OVER (ORDER BY salary DESC) return for each row?",
+        "hint": "ROW_NUMBER is always unique and sequential.",
+        "answer": "<code>1, 2, 3, 4</code>",
+        "explanation": "ROW_NUMBER assigns a unique sequence even when values tie. The tie between 85 and 85 is broken arbitrarily."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "For salaries [90, 85, 85, 70], what does RANK() OVER (ORDER BY salary DESC) return?",
+        "hint": "RANK skips after ties.",
+        "answer": "<code>1, 2, 2, 4</code>",
+        "explanation": "Both 85s share rank 2. The next row (70) gets rank 4 because RANK skips the tied positions."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "For salaries [90, 85, 85, 70], what does DENSE_RANK() OVER (ORDER BY salary DESC) return?",
+        "hint": "DENSE_RANK does not skip.",
+        "answer": "<code>1, 2, 2, 3</code>",
+        "explanation": "Both 85s share rank 2. The next row gets rank 3 — no gap is left for the tie."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does PARTITION BY do?",
+        "hint": "It divides rows into groups before the window function computes.",
+        "answer": "PARTITION BY splits the result set into groups. The window function restarts its computation at each group boundary — so ranking, running totals, and LAG/LEAD all reset per partition.",
+        "explanation": "Without PARTITION BY, the window is the entire result set. Adding PARTITION BY customer_id turns a global running total into a per-customer running total."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does LAG(amount) OVER (ORDER BY order_date) return for the FIRST row of the result set?",
+        "hint": "There is no row before the first one.",
+        "answer": "<code>NULL</code>",
+        "explanation": "LAG looks back one row. The first row has no previous row, so the result is NULL (unless you pass a default as the 3rd argument)."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given amounts [100, 200, 300, 400, 500] ordered by date, what does SUM(amount) OVER (ORDER BY date ROWS UNBOUNDED PRECEDING) return for each row?",
+        "hint": "Running total from the start of the partition.",
+        "answer": "<code>100, 300, 600, 1000, 1500</code>",
+        "explanation": "Each row's running total is its own amount plus all earlier amounts."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given amounts [10, 20, 30, 40, 50], what does AVG(amount) OVER (ORDER BY date ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) return for each row?",
+        "hint": "3-row moving average (includes current row).",
+        "answer": "<code>10, 15, 20, 30, 40</code>",
+        "explanation": "Row 1: avg(10) = 10. Row 2: avg(10,20) = 15. Row 3: avg(10,20,30) = 20. Row 4: avg(20,30,40) = 30. Row 5: avg(30,40,50) = 40."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the default frame for OVER(ORDER BY date) with no explicit frame clause?",
+        "hint": "RANGE-based and ends at the current row.",
+        "answer": "<code>RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW</code>",
+        "explanation": "This default makes FIRST_VALUE work naturally but breaks LAST_VALUE. Always override the frame explicitly for LAST_VALUE and any moving window."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "In NTILE(4) with 10 rows, how many rows does each bucket receive?",
+        "hint": "10 / 4 = 2 remainder 2. Extras go to the first buckets.",
+        "answer": "<code>Buckets 1 and 2: 3 rows each. Buckets 3 and 4: 2 rows each.</code>",
+        "explanation": "NTILE distributes rows as evenly as possible. When there's a remainder r, the first r buckets each get one extra row."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Can a window function appear in the WHERE clause?",
+        "hint": "Order of evaluation matters.",
+        "answer": "<code>No</code>",
+        "explanation": "Window functions are evaluated AFTER WHERE. To filter on a window result, wrap the query in a subquery or CTE and filter in the outer query."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "For values [10, 20, 30, 40], what does LEAD(x, 1, -1) OVER (ORDER BY id) return?",
+        "hint": "LEAD looks forward. Default is -1 if no next row.",
+        "answer": "<code>20, 30, 40, -1</code>",
+        "explanation": "Each row sees the next value. The last row has no next row, so the default -1 is returned."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "PERCENT_RANK() OVER (ORDER BY salary) for 5 rows returns what for the first and last row?",
+        "hint": "Formula: (rank - 1) / (total_rows - 1).",
+        "answer": "<code>First: 0.00, Last: 1.00</code>",
+        "explanation": "PERCENT_RANK always puts the first row at 0 and the last at 1 (assuming no ties at the boundary)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Given customer_id partitions [A, A, B, B, B] in that order, what does ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY date) return?",
+        "hint": "Row numbers restart at each partition.",
+        "answer": "<code>1, 2, 1, 2, 3</code>",
+        "explanation": "Customer A has 2 rows numbered 1-2. Customer B has 3 rows numbered 1-3. The numbering resets at each new partition."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What will LAST_VALUE(x) OVER (ORDER BY date) return without an explicit frame?",
+        "hint": "Default frame ends at CURRENT ROW.",
+        "answer": "<code>The current row's x value (not the last partition value)</code>",
+        "explanation": "The default frame is RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW, so the 'last value seen so far' is always the current row. Fix: specify ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "For the sequence [100, 120, 95, 130], what does 120 - LAG(120) OVER (ORDER BY id) compute? And what if 120's LAG is NULL?",
+        "hint": "Arithmetic with NULL.",
+        "answer": "<code>difference with previous row; returns NULL when LAG is NULL</code>",
+        "explanation": "Subtraction with NULL yields NULL, so the first row's 'delta' column is NULL. Wrap in IFNULL if you need 0 instead."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When would you use RANK vs DENSE_RANK?",
+        "hint": "Think about how gaps in the ranking affect downstream logic.",
+        "answer": "Use <strong>RANK</strong> when you want 'position in the ordering', including the effect of ties — 'the 4th runner on the leaderboard' even though positions 1-3 tied. Use <strong>DENSE_RANK</strong> when you want to count DISTINCT values — 'the 3rd highest distinct salary' or to fetch 'top N distinct categories'. For top-N per group queries, DENSE_RANK typically returns more rows when ties occur at the threshold.",
+        "explanation": "A quick test: if the question asks 'Nth highest' with 'distinct' implied, DENSE_RANK. If it asks 'top N rows including ties', RANK. If it asks 'exactly N rows, pick any tiebreak', ROW_NUMBER."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is ROWS BETWEEN almost always preferred over RANGE BETWEEN?",
+        "hint": "Think about how each counts.",
+        "answer": "ROWS counts physical rows (mechanical, predictable). RANGE counts by value — it includes all rows whose ORDER BY value equals the current row's value plus the offset. With RANGE, ties cause surprising inclusions; a 2-row moving average could include 5 rows if they all tie. ROWS gives exactly what you ask for. Use RANGE only when you explicitly want time-value-based windows like 'all orders in the last 7 days regardless of how many rows that is'.",
+        "explanation": "A good rule: pick ROWS by default. Reach for RANGE only when time-window semantics (not row-count) are the actual requirement."
+      },
+      {
+        "id": "ts-18",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given employees(name, dept, salary), return only the highest-paid employee per dept. Ties count (include all tied top earners).",
+        "hint": "DENSE_RANK with partition, then filter rnk = 1.",
+        "answer": "<pre><code>SELECT name, dept, salary\nFROM (\n  SELECT name, dept, salary,\n         DENSE_RANK() OVER (PARTITION BY dept ORDER BY salary DESC) AS rnk\n  FROM employees\n) t\nWHERE rnk = 1;</code></pre>",
+        "explanation": "DENSE_RANK = 1 includes everyone tied at the top of each dept. If you wanted exactly one row per dept, use ROW_NUMBER."
+      },
+      {
+        "id": "ts-19",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given sales(sale_date, amount), return each day's sale and the running total.",
+        "hint": "SUM OVER with an ordered frame.",
+        "answer": "<pre><code>SELECT sale_date, amount,\n  SUM(amount) OVER (\n    ORDER BY sale_date\n    ROWS UNBOUNDED PRECEDING\n  ) AS running_total\nFROM sales\nORDER BY sale_date;</code></pre>",
+        "explanation": "UNBOUNDED PRECEDING means 'from the start of the partition to the current row'. Since there's no PARTITION BY, the partition is the whole table."
+      },
+      {
+        "id": "ts-20",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given orders(customer_id, order_date, amount), return each order along with the previous order date for the same customer.",
+        "hint": "LAG with PARTITION BY customer_id.",
+        "answer": "<pre><code>SELECT customer_id, order_date, amount,\n  LAG(order_date) OVER (\n    PARTITION BY customer_id ORDER BY order_date\n  ) AS prev_order_date\nFROM orders\nORDER BY customer_id, order_date;</code></pre>",
+        "explanation": "PARTITION BY customer_id keeps each customer's sequence independent. The first order of each customer has NULL as prev_order_date."
+      },
+      {
+        "id": "ts-21",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Given orders(order_date, amount), return month, revenue, and month-over-month growth percentage.",
+        "hint": "Aggregate to monthly totals first, then apply LAG.",
+        "answer": "<pre><code>WITH monthly AS (\n  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,\n         SUM(amount)                      AS revenue\n  FROM orders\n  GROUP BY month\n)\nSELECT month, revenue,\n  LAG(revenue) OVER (ORDER BY month) AS prev_revenue,\n  ROUND(\n    (revenue - LAG(revenue) OVER (ORDER BY month))\n    / LAG(revenue) OVER (ORDER BY month) * 100, 2\n  ) AS mom_pct\nFROM monthly\nORDER BY month;</code></pre>",
+        "explanation": "Classic interview answer. First aggregate to the month grain, then apply LAG on the aggregate result. Using a CTE keeps the query readable."
+      },
+      {
+        "id": "ts-22",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Write a query to find the 3rd highest distinct salary from employees(salary).",
+        "hint": "DENSE_RANK = 3.",
+        "answer": "<pre><code>SELECT DISTINCT salary\nFROM (\n  SELECT salary,\n         DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n  FROM employees\n) t\nWHERE rnk = 3;</code></pre>",
+        "explanation": "DENSE_RANK handles ties without skipping, so rnk=3 always means the 3rd distinct value. Using RANK could cause rnk=3 to be empty if the top 2 salaries are tied."
+      },
+      {
+        "id": "ts-23",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Given logins(user_id, login_date), identify consecutive login streaks per user using the 'gaps and islands' trick.",
+        "hint": "Subtract ROW_NUMBER * 1 day from login_date; consecutive dates share the same grouping key.",
+        "answer": "<pre><code>SELECT user_id,\n       MIN(login_date) AS streak_start,\n       MAX(login_date) AS streak_end,\n       COUNT(*)        AS streak_length\nFROM (\n  SELECT user_id, login_date,\n         DATE_SUB(login_date,\n                  INTERVAL ROW_NUMBER() OVER\n                    (PARTITION BY user_id ORDER BY login_date) DAY) AS grp\n  FROM logins\n) t\nGROUP BY user_id, grp\nORDER BY user_id, streak_start;</code></pre>",
+        "explanation": "Consecutive dates produce the same grp value because both date and row_number increment by 1. Group by that and you get each streak's boundaries. This is the canonical gaps-and-islands pattern."
+      },
+      {
+        "id": "ts-24",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given sales(sale_date, amount), compute a 7-day trailing moving average.",
+        "hint": "ROWS BETWEEN 6 PRECEDING AND CURRENT ROW.",
+        "answer": "<pre><code>SELECT sale_date, amount,\n  ROUND(AVG(amount) OVER (\n    ORDER BY sale_date\n    ROWS BETWEEN 6 PRECEDING AND CURRENT ROW\n  ), 2) AS ma_7d\nFROM sales\nORDER BY sale_date;</code></pre>",
+        "explanation": "6 preceding + current row = 7 rows total. Early rows naturally have fewer data points."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is returned by AVG(salary) OVER () — with empty OVER parentheses?",
+        "hint": "No partition, no order — one single window.",
+        "answer": "<code>The global average salary, repeated on every row.</code>",
+        "explanation": "An empty OVER() treats the entire result set as one window. Useful for adding 'overall average' as context on row-level queries."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "For 5 rows with scores [80, 90, 70, 85, 95], what does ROW_NUMBER() OVER (ORDER BY score DESC) return for the row with score 85?",
+        "hint": "Count ranks down from 95.",
+        "answer": "<code>3</code>",
+        "explanation": "Order DESC: 95, 90, 85, 80, 70 -> 85 is at position 3."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Predict the running total of 500, 300, 200, 400 in that order using SUM OVER (ORDER BY id ROWS UNBOUNDED PRECEDING):",
+        "hint": "Sum each row with all earlier rows.",
+        "answer": "<code>500, 800, 1000, 1400</code>",
+        "explanation": "Cumulative sum in row order."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "For customer_id [1,1,2,2,2] ordered by date, what does ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY date) return?",
+        "hint": "Each partition restarts.",
+        "answer": "<code>1, 2, 1, 2, 3</code>",
+        "explanation": "Customer 1 has 2 rows. Customer 2 has 3 rows. Numbering restarts at each customer boundary."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output of SUM(CASE WHEN status='paid' THEN amount END) OVER (PARTITION BY customer_id) in a mix of paid/failed orders?",
+        "hint": "CASE inside a window aggregate.",
+        "answer": "<code>The per-customer total of only 'paid' amounts, on every row for that customer.</code>",
+        "explanation": "Conditional aggregation combined with a window gives you per-group filtered totals without collapsing rows."
+      },
+      {
+        "id": "mx-6",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given employees(name, dept, salary), add a column showing the difference between each employee's salary and the department average.",
+        "hint": "AVG OVER with PARTITION BY dept.",
+        "answer": "<pre><code>SELECT name, dept, salary,\n  ROUND(AVG(salary) OVER (PARTITION BY dept), 2) AS dept_avg,\n  ROUND(salary - AVG(salary) OVER (PARTITION BY dept), 2) AS diff_from_avg\nFROM employees;</code></pre>",
+        "explanation": "PARTITION BY dept gives each department its own window. Each row gets the dept average and can compare its own salary to it."
+      },
+      {
+        "id": "mx-7",
+        "type": "code-writing",
+        "difficulty": "Medium",
+        "question": "Given orders(customer_id, order_date, amount), show each order with the customer's cumulative spend up to that order.",
+        "hint": "PARTITION BY customer_id with running total frame.",
+        "answer": "<pre><code>SELECT customer_id, order_date, amount,\n  SUM(amount) OVER (\n    PARTITION BY customer_id\n    ORDER BY order_date\n    ROWS UNBOUNDED PRECEDING\n  ) AS cumulative_spend\nFROM orders\nORDER BY customer_id, order_date;</code></pre>",
+        "explanation": "Each customer gets their own running total, reset at each customer boundary."
+      },
+      {
+        "id": "mx-8",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Given exam(student, score), return student, score, and their percentile (0-100).",
+        "hint": "PERCENT_RANK returns 0..1; multiply by 100.",
+        "answer": "<pre><code>SELECT student, score,\n  ROUND(PERCENT_RANK() OVER (ORDER BY score) * 100, 2) AS percentile\nFROM exam\nORDER BY score DESC;</code></pre>",
+        "explanation": "PERCENT_RANK gives (rank-1)/(n-1). Multiply by 100 for a human-readable percentile."
+      },
+      {
+        "id": "mx-9",
+        "type": "code-writing",
+        "difficulty": "Hard",
+        "question": "Given logins(user_id, login_date), find the longest login streak per user.",
+        "hint": "Gaps-and-islands trick, then GROUP BY + MAX.",
+        "answer": "<pre><code>WITH streaks AS (\n  SELECT user_id, login_date,\n    DATE_SUB(login_date,\n             INTERVAL ROW_NUMBER() OVER\n               (PARTITION BY user_id ORDER BY login_date) DAY) AS grp\n  FROM logins\n),\nstreak_lengths AS (\n  SELECT user_id, grp, COUNT(*) AS streak_length\n  FROM streaks\n  GROUP BY user_id, grp\n)\nSELECT user_id, MAX(streak_length) AS longest_streak\nFROM streak_lengths\nGROUP BY user_id;</code></pre>",
+        "explanation": "Two CTEs: first assigns the grouping key, second counts streak lengths, final step gets the max per user."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does SUM(amount) OVER () appear on every row with the grand total?",
+        "hint": "Empty OVER() = one window = whole result set.",
+        "answer": "OVER() with no PARTITION BY, ORDER BY, or frame treats the entire result set as a single window. The aggregate computes once over all rows, and the result is projected onto every row. This is the standard way to compute 'grand total' or 'overall average' alongside row-level data without a second scan of the table.",
+        "explanation": "It's functionally equivalent to joining the query with a subquery <code>SELECT SUM(amount) FROM sales</code>, but more efficient and readable."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "In MySQL, when would you prefer a window function over a correlated subquery?",
+        "hint": "Think about performance and readability.",
+        "answer": "Window functions are almost always better than correlated subqueries when both can express the same logic. Reasons: (1) Window functions scan the table once and compute all ranking/running values in a single pass. Correlated subqueries often rerun for each row, making them O(n^2). (2) Window functions are more readable — the intent is obvious. (3) The optimizer has better statistics and plan options for window functions. Use correlated subqueries only when window functions cannot express the logic (rare).",
+        "explanation": "The main exception: for MySQL versions below 8.0, window functions are not available, so correlated subqueries or join-and-group hacks are the only option."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which keyword introduces the window specification?",
+        "options": [
+          { "label": "A", "text": "WINDOW" },
+          { "label": "B", "text": "OVER" },
+          { "label": "C", "text": "WITHIN" },
+          { "label": "D", "text": "PARTITION" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The OVER clause defines the window. PARTITION BY and ORDER BY live inside OVER(). There is a WINDOW clause for named windows but it is rarely used."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which function gives a unique sequence (no ties)?",
+        "options": [
+          { "label": "A", "text": "RANK" },
+          { "label": "B", "text": "DENSE_RANK" },
+          { "label": "C", "text": "ROW_NUMBER" },
+          { "label": "D", "text": "NTILE" }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> ROW_NUMBER always returns 1, 2, 3, ... with no ties. RANK and DENSE_RANK share numbers on ties."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "For salaries [90, 90, 80], DENSE_RANK() DESC returns:",
+        "options": [
+          { "label": "A", "text": "1, 2, 3" },
+          { "label": "B", "text": "1, 1, 2" },
+          { "label": "C", "text": "1, 1, 3" },
+          { "label": "D", "text": "2, 2, 3" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DENSE_RANK gives both 90s rank 1 (tied), then the next distinct value (80) gets rank 2 — no gap."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "PARTITION BY in OVER() does what?",
+        "options": [
+          { "label": "A", "text": "Divides rows into groups so the function restarts per group" },
+          { "label": "B", "text": "Filters rows" },
+          { "label": "C", "text": "Sorts the output" },
+          { "label": "D", "text": "Creates a named window" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> PARTITION BY is like GROUP BY for windows — each group is an independent window, and the function restarts at each boundary."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "LAG(col, 2, 0) returns:",
+        "options": [
+          { "label": "A", "text": "The value 2 rows before the current row, or 0 if no such row" },
+          { "label": "B", "text": "The value 2 rows after" },
+          { "label": "C", "text": "0 always" },
+          { "label": "D", "text": "An error" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Arguments: (column, offset, default). Offset 2 means 2 rows back. Default 0 is returned when the offset would fall before the partition start."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which clauses can contain a window function?",
+        "options": [
+          { "label": "A", "text": "WHERE and HAVING only" },
+          { "label": "B", "text": "SELECT and ORDER BY only" },
+          { "label": "C", "text": "SELECT, WHERE, and GROUP BY" },
+          { "label": "D", "text": "Everywhere" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Window functions are computed AFTER WHERE/GROUP BY/HAVING. They can only appear in SELECT and ORDER BY. To filter on a window result, wrap the query in a subquery or CTE."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which frame gives a 7-row trailing moving average (current row + 6 before)?",
+        "options": [
+          { "label": "A", "text": "ROWS BETWEEN 7 PRECEDING AND CURRENT ROW" },
+          { "label": "B", "text": "ROWS BETWEEN 6 PRECEDING AND CURRENT ROW" },
+          { "label": "C", "text": "ROWS BETWEEN UNBOUNDED PRECEDING AND 7 PRECEDING" },
+          { "label": "D", "text": "RANGE BETWEEN 7 DAY PRECEDING AND CURRENT ROW" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 6 preceding + current row = 7 rows total. Option A would give 8 rows."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Why does LAST_VALUE() commonly return the wrong answer without an explicit frame?",
+        "options": [
+          { "label": "A", "text": "A MySQL bug" },
+          { "label": "B", "text": "The default frame ends at CURRENT ROW" },
+          { "label": "C", "text": "It can only be used with PARTITION BY" },
+          { "label": "D", "text": "It requires DISTINCT" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The default frame (with ORDER BY) is RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW. Fix with ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "NTILE(4) with 9 rows distributes rows how?",
+        "options": [
+          { "label": "A", "text": "All buckets get 2 rows, last gets 3" },
+          { "label": "B", "text": "Buckets 1 gets 3, buckets 2-4 each get 2" },
+          { "label": "C", "text": "Each gets 2 except one with 1" },
+          { "label": "D", "text": "Rows are randomly distributed" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 9 / 4 = 2 remainder 1. The first 1 bucket gets an extra row. So bucket 1 has 3, buckets 2, 3, 4 each have 2."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "To find 'top 3 per department' including ties, which is best?",
+        "options": [
+          { "label": "A", "text": "ROW_NUMBER() OVER (PARTITION BY dept ORDER BY salary DESC) and filter rn <= 3" },
+          { "label": "B", "text": "DENSE_RANK() OVER (PARTITION BY dept ORDER BY salary DESC) and filter rnk <= 3" },
+          { "label": "C", "text": "NTILE(3)" },
+          { "label": "D", "text": "LIMIT 3 OFFSET 0" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DENSE_RANK <= 3 gives the top 3 distinct salary levels per dept, including all ties. ROW_NUMBER would cut off ties arbitrarily. NTILE does bucketing, not top-N. LIMIT applies to the whole query, not per group."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which version introduced window functions in MySQL?",
+        "options": [
+          { "label": "A", "text": "5.7" },
+          { "label": "B", "text": "8.0" },
+          { "label": "C", "text": "5.6" },
+          { "label": "D", "text": "They were always there" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL added window functions in 8.0. Earlier versions required user-defined variable hacks or correlated subqueries. MariaDB 10.2+ also supports them."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "SUM(amount) OVER () without any PARTITION BY or ORDER BY returns:",
+        "options": [
+          { "label": "A", "text": "A running total" },
+          { "label": "B", "text": "The grand total, repeated on every row" },
+          { "label": "C", "text": "NULL" },
+          { "label": "D", "text": "An error" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Empty OVER() treats the whole result as one window. SUM over that = grand total on every row — useful for 'percent of total' calculations."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why is ROWS usually preferred over RANGE in frame clauses?",
+        "options": [
+          { "label": "A", "text": "ROWS counts physical rows deterministically; RANGE can include unexpected ties" },
+          { "label": "B", "text": "RANGE is deprecated" },
+          { "label": "C", "text": "ROWS is faster always" },
+          { "label": "D", "text": "RANGE only works with DATE columns" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> RANGE uses value-based frames, so ties can pull in more rows than you expect. ROWS is mechanical and predictable. Use RANGE only when you specifically want time-value windows."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What's the classic 'gaps and islands' trick for consecutive dates?",
+        "options": [
+          { "label": "A", "text": "Subtract ROW_NUMBER from the date; same result = same streak" },
+          { "label": "B", "text": "Use LAG and check if diff = 1" },
+          { "label": "C", "text": "Group by date" },
+          { "label": "D", "text": "GROUP BY ROLLUP" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>date - row_number</code> is constant for consecutive rows. Grouping by that key gives you each streak. B (LAG + diff) also works but requires more steps; A is the elegant one-shot key."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "To filter on a window function result, you must:",
+        "options": [
+          { "label": "A", "text": "Use the window function in WHERE" },
+          { "label": "B", "text": "Wrap the query in a subquery or CTE and filter the outer query" },
+          { "label": "C", "text": "Use HAVING" },
+          { "label": "D", "text": "Use GROUP BY" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Window functions are evaluated after WHERE/GROUP BY/HAVING, so you cannot filter on their results in the same level. Subquery or CTE is the fix."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "LAG(col) OVER (ORDER BY id) for the first row returns:",
+        "options": [
+          { "label": "A", "text": "0" },
+          { "label": "B", "text": "NULL" },
+          { "label": "C", "text": "The same value as the first row" },
+          { "label": "D", "text": "Error" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> No previous row exists, so LAG defaults to NULL unless you pass a 3rd argument as the default."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Which query gives each row's amount as a percentage of the grand total?",
+        "options": [
+          { "label": "A", "text": "amount / SUM(amount) * 100" },
+          { "label": "B", "text": "amount / SUM(amount) OVER () * 100" },
+          { "label": "C", "text": "amount / SUM(amount) OVER (PARTITION BY id) * 100" },
+          { "label": "D", "text": "PERCENT_RANK()" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Empty OVER() gives the grand total on every row. Option A is invalid (plain SUM without GROUP BY). Option C partitions per-id, giving 100% per row."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the key difference between LAG and subquery '(SELECT col FROM t WHERE id = outer.id - 1)'?",
+        "options": [
+          { "label": "A", "text": "LAG is faster and more readable; subquery is O(n^2) correlated" },
+          { "label": "B", "text": "They are equivalent in all cases" },
+          { "label": "C", "text": "Subquery is faster" },
+          { "label": "D", "text": "LAG doesn't exist in MySQL 8" }
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> LAG computes in a single window-function pass. A correlated subquery reruns for each row. On large tables, LAG can be 100x faster."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "To include ties when finding 'top 3 employees per dept', use:",
+        "options": [
+          { "label": "A", "text": "ROW_NUMBER <= 3" },
+          { "label": "B", "text": "RANK <= 3" },
+          { "label": "C", "text": "DENSE_RANK <= 3" },
+          { "label": "D", "text": "Both B and C work, but they return slightly different sets when ties straddle the boundary" }
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> RANK <= 3 gives top 3 positions including ties at any rank. DENSE_RANK <= 3 gives top 3 distinct salary levels. Both include ties; which is correct depends on wording. ROW_NUMBER arbitrarily cuts ties."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "For a running total per customer, the correct OVER clause is:",
+        "options": [
+          { "label": "A", "text": "OVER (ORDER BY order_date ROWS UNBOUNDED PRECEDING)" },
+          { "label": "B", "text": "OVER (PARTITION BY customer_id ORDER BY order_date ROWS UNBOUNDED PRECEDING)" },
+          { "label": "C", "text": "OVER (PARTITION BY customer_id)" },
+          { "label": "D", "text": "OVER ()" }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> PARTITION BY resets per customer. ORDER BY + ROWS UNBOUNDED PRECEDING gives the cumulative sum from the partition start."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Rank Employees by Salary",
+        "difficulty": "Easy",
+        "description": "Given employees(id, name, salary), return each employee with their rank (1 = highest). Handle ties by sharing the rank (use RANK).",
+        "sampleInput": "7 employees with two ties.",
+        "sampleOutput": "Each row has name, salary, rnk.",
+        "constraints": "Use RANK window function.",
+        "solution": "CREATE TABLE employees (id INT PRIMARY KEY, name VARCHAR(50), salary DECIMAL(10,2));\nINSERT INTO employees VALUES\n  (1,'Aarav Sharma',95000),(2,'Priya Nair',95000),\n  (3,'Rohan Mehta',82000),(4,'Ananya Iyer',72000),\n  (5,'Vikram Singh',68000),(6,'Meera Krishnan',68000),\n  (7,'Diya Bhatt',55000);\n\nSELECT name, salary,\n  RANK() OVER (ORDER BY salary DESC) AS rnk\nFROM employees\nORDER BY rnk, name;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Top 3 Per Department",
+        "difficulty": "Medium",
+        "description": "Given employees(name, dept, salary), return the top 3 highest-paid employees per dept. Include ties (use DENSE_RANK).",
+        "sampleInput": "Employees across multiple departments with ties.",
+        "sampleOutput": "Up to 3+ rows per dept (more if ties).",
+        "constraints": "Use DENSE_RANK with PARTITION BY and filter in outer query.",
+        "solution": "CREATE TABLE employees (id INT PRIMARY KEY, name VARCHAR(50), dept VARCHAR(30), salary DECIMAL(10,2));\nINSERT INTO employees VALUES\n  (1,'Aarav Sharma','Engineering',95000),\n  (2,'Priya Nair','Engineering',95000),\n  (3,'Rohan Mehta','Engineering',82000),\n  (4,'Ananya Iyer','Engineering',72000),\n  (5,'Vikram Singh','Sales',68000),\n  (6,'Meera Krishnan','Sales',68000),\n  (7,'Diya Bhatt','Sales',55000),\n  (8,'Ishaan Gupta','Sales',50000);\n\nSELECT name, dept, salary\nFROM (\n  SELECT name, dept, salary,\n         DENSE_RANK() OVER (PARTITION BY dept ORDER BY salary DESC) AS rnk\n  FROM employees\n) t\nWHERE rnk <= 3\nORDER BY dept, rnk, name;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Running Total of Sales",
+        "difficulty": "Easy",
+        "description": "Given sales(sale_date, amount), return each day's amount and the running total up to that day.",
+        "sampleInput": "7 days of sales.",
+        "sampleOutput": "Each row has sale_date, amount, running_total.",
+        "constraints": "Use SUM OVER with UNBOUNDED PRECEDING frame.",
+        "solution": "CREATE TABLE sales (sale_date DATE PRIMARY KEY, amount DECIMAL(10,2));\nINSERT INTO sales VALUES\n  ('2026-04-10',1200),('2026-04-11',800),\n  ('2026-04-12',2400),('2026-04-13',950),\n  ('2026-04-14',1500),('2026-04-15',700),\n  ('2026-04-16',1100);\n\nSELECT sale_date, amount,\n  SUM(amount) OVER (\n    ORDER BY sale_date\n    ROWS UNBOUNDED PRECEDING\n  ) AS running_total\nFROM sales;"
+      },
+      {
+        "id": "cc-4",
+        "title": "Days Since Previous Order Per Customer",
+        "difficulty": "Medium",
+        "description": "Given orders(id, customer_id, order_date), for each order return the previous order date for the same customer and days since the previous order.",
+        "sampleInput": "Orders across 3 customers, some with multiple orders.",
+        "sampleOutput": "Each row has customer_id, order_date, prev_date, days_since.",
+        "constraints": "Use LAG with PARTITION BY customer_id.",
+        "solution": "CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, order_date DATE, amount DECIMAL(10,2));\nINSERT INTO orders VALUES\n  (1,101,'2026-01-10',1200),(2,101,'2026-02-15',800),\n  (3,101,'2026-03-20',1600),(4,102,'2026-02-01',2500),\n  (5,102,'2026-03-28',900),(6,103,'2026-04-10',3100);\n\nSELECT customer_id, order_date, amount,\n  LAG(order_date) OVER (PARTITION BY customer_id ORDER BY order_date) AS prev_date,\n  DATEDIFF(\n    order_date,\n    LAG(order_date) OVER (PARTITION BY customer_id ORDER BY order_date)\n  ) AS days_since\nFROM orders\nORDER BY customer_id, order_date;"
+      },
+      {
+        "id": "cc-5",
+        "title": "Month-Over-Month Growth",
+        "difficulty": "Hard",
+        "description": "Given orders(order_date, amount), return month, revenue, prev_month_revenue, and percentage growth.",
+        "sampleInput": "Orders across 4+ months.",
+        "sampleOutput": "One row per month with MoM% column.",
+        "constraints": "Use CTE for monthly aggregation, then LAG on the aggregate.",
+        "solution": "CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, order_date DATE, amount DECIMAL(10,2));\nINSERT INTO orders VALUES\n  (1,101,'2026-01-10',1200),(2,101,'2026-02-15',800),\n  (3,101,'2026-03-20',1600),(4,102,'2026-02-01',2500),\n  (5,102,'2026-03-28',900),(6,103,'2026-04-10',3100);\n\nWITH monthly AS (\n  SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,\n         SUM(amount)                      AS revenue\n  FROM orders\n  GROUP BY month\n)\nSELECT month, revenue,\n  LAG(revenue) OVER (ORDER BY month) AS prev_revenue,\n  ROUND(\n    (revenue - LAG(revenue) OVER (ORDER BY month))\n    / LAG(revenue) OVER (ORDER BY month) * 100, 2\n  ) AS mom_pct\nFROM monthly\nORDER BY month;"
+      },
+      {
+        "id": "cc-6",
+        "title": "7-Day Moving Average",
+        "difficulty": "Medium",
+        "description": "Given sales(sale_date, amount), return each day's sale along with its 7-day trailing moving average.",
+        "sampleInput": "14 daily sales.",
+        "sampleOutput": "Each row has sale_date, amount, ma_7d.",
+        "constraints": "ROWS BETWEEN 6 PRECEDING AND CURRENT ROW.",
+        "solution": "CREATE TABLE sales (sale_date DATE PRIMARY KEY, amount DECIMAL(10,2));\nINSERT INTO sales VALUES\n  ('2026-04-03',1200),('2026-04-04', 800),('2026-04-05',2400),\n  ('2026-04-06', 950),('2026-04-07',1500),('2026-04-08', 700),\n  ('2026-04-09',1100),('2026-04-10',1900),('2026-04-11', 650),\n  ('2026-04-12',2200),('2026-04-13',1000),('2026-04-14',1800),\n  ('2026-04-15',1400),('2026-04-16', 900);\n\nSELECT sale_date, amount,\n  ROUND(AVG(amount) OVER (\n    ORDER BY sale_date\n    ROWS BETWEEN 6 PRECEDING AND CURRENT ROW\n  ), 2) AS ma_7d\nFROM sales\nORDER BY sale_date;"
+      },
+      {
+        "id": "cc-7",
+        "title": "Nth Highest Distinct Salary",
+        "difficulty": "Hard",
+        "description": "Write a query that returns the 3rd highest distinct salary from employees. If there are fewer than 3 distinct salaries, return NULL.",
+        "sampleInput": "Employees with some salary ties.",
+        "sampleOutput": "Exactly 1 value (or NULL).",
+        "constraints": "Use DENSE_RANK for correctness under ties.",
+        "solution": "-- Using the employees table from cc-2\n\nSELECT MAX(salary) AS third_highest\nFROM (\n  SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk\n  FROM employees\n) t\nWHERE rnk = 3;\n-- Returns NULL automatically if rnk=3 doesn't exist (MAX of empty set)."
+      },
+      {
+        "id": "cc-8",
+        "title": "Consecutive Login Streaks",
+        "difficulty": "Hard",
+        "description": "Given logins(user_id, login_date), identify each streak of consecutive daily logins per user. Return user_id, streak_start, streak_end, and streak_length.",
+        "sampleInput": "Users with some consecutive and some gapped login days.",
+        "sampleOutput": "One row per streak per user.",
+        "constraints": "Use gaps-and-islands: subtract ROW_NUMBER days from login_date to get a streak key.",
+        "solution": "CREATE TABLE logins (user_id INT, login_date DATE);\nINSERT INTO logins VALUES\n  (1,'2026-04-10'),(1,'2026-04-11'),(1,'2026-04-12'),\n  (1,'2026-04-15'),(1,'2026-04-16'),\n  (2,'2026-04-10'),(2,'2026-04-12'),(2,'2026-04-13'),(2,'2026-04-14');\n\nWITH marked AS (\n  SELECT user_id, login_date,\n    DATE_SUB(login_date,\n             INTERVAL ROW_NUMBER() OVER\n               (PARTITION BY user_id ORDER BY login_date) DAY) AS grp\n  FROM logins\n)\nSELECT user_id,\n       MIN(login_date) AS streak_start,\n       MAX(login_date) AS streak_end,\n       COUNT(*)        AS streak_length\nFROM marked\nGROUP BY user_id, grp\nORDER BY user_id, streak_start;"
+      }
+    ]
+  }
+}

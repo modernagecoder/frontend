@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time Functions - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Work with dates using NOW, CURDATE, DATEDIFF, DATE_ADD, DATE_FORMAT, YEAR, MONTH, DAY, and time zones.">
+    <meta name="keywords" content="date and time functions, sql tutorial, sql date and time functions, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/date-and-time-functions">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/date-and-time-functions">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/date-and-time-functions">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/date-and-time-functions">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/date-and-time-functions">
+    <meta property="og:title" content="Date and Time Functions - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Work with dates using NOW, CURDATE, DATEDIFF, DATE_ADD, DATE_FORMAT, YEAR, MONTH, DAY, and time zones.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/date-and-time-functions">
+    <meta name="twitter:title" content="Date and Time Functions - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Work with dates using NOW, CURDATE, DATEDIFF, DATE_ADD, DATE_FORMAT, YEAR, MONTH, DAY, and time zones.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Date and Time Functions",
+    "description": "Work with dates using NOW, CURDATE, DATEDIFF, DATE_ADD, DATE_FORMAT, YEAR, MONTH, DAY, and time zones.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-04-16",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/date-and-time-functions"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/date-and-time-functions"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Date and Time Functions",
+        "item": "https://learn.modernagecoders.com/resources/sql/date-and-time-functions"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Wrapping an Indexed Date Column in a Function",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Functions applied to indexed columns prevent the optimizer from using the index, because it would have to apply the function to every row first. Always keep the column bare on one side of the comparison and compute the range on the other side."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing DATEDIFF Argument Order",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>DATEDIFF(a, b)</code> returns <code>a - b</code>. If you want a positive number of days, put the later date first. For readability and performance, prefer the <code>column &lt;= CURDATE() - INTERVAL n DAY</code> pattern."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using DATE_FORMAT in GROUP BY with a Localized Pattern",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ISO format <code>%Y-%m</code> sorts chronologically as a string. Group by that, and format for display separately using <code>MIN(sold_at)</code> or a second DATE_FORMAT call."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Storing Dates as VARCHAR",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always store dates in DATE, DATETIME, or TIMESTAMP columns. Use VARCHAR only for display-only fields that you never query or sort. If data arrives as a string, parse it with STR_TO_DATE on INSERT."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mixing DATETIME Across Time Zones Without TIMESTAMP",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For timestamps that represent 'a real moment in time' (created_at, updated_at, login_at), use TIMESTAMP so the server converts to/from UTC automatically. Reserve DATETIME for 'wall clock' values like scheduled event times where the display value is what matters."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Date and Time Functions</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">42 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-16</span>
+            </div>
+            <h1 class="resource-title">Date and Time Functions</h1>
+            <a href="/resources/sql/date-and-time-functions/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Date and Time Functions?</h2><p>Dates in SQL are not just strings. MySQL stores them as structured values that understand the calendar — leap years, daylight saving time, the last day of February, the number of days between two dates. Date and time functions are the set of built-in functions MySQL ships to read the current moment, extract parts from a date, shift dates forward or backward, and format them for display.</p><p>Once orders, signups, payments, and attendance records land in a database, almost every business question is a date question. <em>"How many orders did we get last week?" "Which customers haven't logged in for 30 days?" "Give me revenue grouped by month for the last year."</em> Each of these needs a date function.</p><pre><code>-- Today's date and the exact moment right now
+SELECT CURDATE(), NOW();
+-- 2026-04-16 | 2026-04-16 14:23:07
+
+-- Orders placed in the last 7 days
+SELECT * FROM orders
+WHERE order_date >= CURDATE() - INTERVAL 7 DAY;</code></pre><p>Every date function in MySQL falls into one of four buckets: <strong>getting</strong> the current time (NOW, CURDATE, CURTIME), <strong>extracting</strong> parts (YEAR, MONTH, DAY, HOUR), <strong>arithmetic</strong> (DATE_ADD, DATE_SUB, DATEDIFF, TIMESTAMPDIFF), and <strong>formatting / parsing</strong> (DATE_FORMAT, STR_TO_DATE).</p><h3>The Three Storage Types</h3><p>Before writing a single function, know where your data lives. MySQL has three main date-related column types, and picking the wrong one will hurt you later:</p><pre><code>-- DATE: just a calendar date, 3 bytes, no time, no timezone
+order_date DATE               -- '2026-04-16'
+
+-- DATETIME: date + time, 8 bytes, NO timezone awareness
+logged_in_at DATETIME         -- '2026-04-16 14:23:07'
+
+-- TIMESTAMP: date + time, 4 bytes, stored as UTC internally,
+-- auto-converts to the session's time zone on read
+created_at   TIMESTAMP        -- shown as IST, stored as UTC</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Date Functions Matter</h2><h3>1. Every Business Report Is a Date Query</h3><p>Open any analytics dashboard — Flipkart seller panel, Zomato restaurant dashboard, a school's fee dashboard — and more than half the numbers are grouped by day, week, or month. <em>Sales today vs yesterday. Week-over-week growth. Active users in the last 30 days.</em> Without fluent date functions, you cannot even start writing these queries.</p><h3>2. Filtering Is the #1 Use Case</h3><p>"Give me everything from the last 7 days" is the most common WHERE clause in the database. You cannot write it without <code>CURDATE()</code> and <code>INTERVAL</code>. A data analyst who cannot filter by a rolling window is stuck.</p><h3>3. Dates as Strings Are a Bug Waiting to Happen</h3><p>Beginners often store dates as <code>VARCHAR</code> like <code>'16-04-2026'</code>. Sorting breaks, date arithmetic is impossible, and <code>'31-01-2026' &gt; '01-02-2026'</code> evaluates to true (wrong). Using real DATE columns plus date functions prevents this entire class of bug.</p><h3>4. Time Zones Bite in Production</h3><p>When Modern Age Coders launches a course at 7 PM IST, the database server might be in UTC, the user's laptop in EST. If you don't understand <code>TIMESTAMP</code> versus <code>DATETIME</code>, users will see the wrong start time. This chapter covers <code>CONVERT_TZ()</code> so you don't ship that bug.</p><h3>5. Interview Favorites Are Date-Heavy</h3><p>"Find customers whose orders are at least 30 days apart", "Get month-over-month growth", "List employees with more than 2 years tenure" — these questions depend entirely on DATEDIFF, TIMESTAMPDIFF, and DATE_ADD. They appear in almost every data analyst interview.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Getting the Current Moment</h3><p>MySQL gives three functions to read "now", each with a different precision:</p><pre><code>SELECT
+  NOW()      AS now_datetime,     -- 2026-04-16 14:23:07
+  CURDATE()  AS today,             -- 2026-04-16
+  CURTIME()  AS time_only,         -- 14:23:07
+  CURRENT_TIMESTAMP AS also_now;   -- same as NOW()</code></pre><p><code>NOW()</code> returns a DATETIME (date + time). <code>CURDATE()</code> returns only the DATE. <code>CURTIME()</code> returns only the TIME. All three read from the MySQL server clock, not the client. <code>NOW()</code> within a single query always returns the same value even if the query runs for minutes — use <code>SYSDATE()</code> if you actually want the clock to re-read.</p><h3>2. DATEDIFF vs TIMESTAMPDIFF</h3><p>These are the two functions people mix up most often. Both measure the distance between two dates, but they count different things.</p><pre><code>-- DATEDIFF always returns an INTEGER number of DAYS
+SELECT DATEDIFF('2026-04-16', '2026-04-10');  -- 6
+SELECT DATEDIFF('2026-04-16', '2026-05-16');  -- -30 (can be negative)
+
+-- TIMESTAMPDIFF takes a unit and is far more flexible
+SELECT TIMESTAMPDIFF(DAY,   '2026-01-01', '2026-04-16');  -- 105
+SELECT TIMESTAMPDIFF(MONTH, '2026-01-01', '2026-04-16');  -- 3
+SELECT TIMESTAMPDIFF(YEAR,  '2008-04-16', '2026-04-16');  -- 18
+SELECT TIMESTAMPDIFF(HOUR,  '2026-04-16 09:00', '2026-04-16 14:30');  -- 5</code></pre><p><strong>Rule of thumb</strong>: use DATEDIFF only for days and only when sign does not matter. Use TIMESTAMPDIFF for everything else, especially age calculation (YEAR between DOB and today) and tenure (MONTH between hire_date and today).</p><h3>3. Adding and Subtracting Intervals</h3><p>Never manually add days by doing <code>date + 7</code>. MySQL does not do what you want on DATE types. Use <code>DATE_ADD</code>, <code>DATE_SUB</code>, or the <code>+ INTERVAL</code> shortcut:</p><pre><code>SELECT DATE_ADD('2026-04-16', INTERVAL 7 DAY);    -- 2026-04-23
+SELECT DATE_SUB('2026-04-16', INTERVAL 1 MONTH);  -- 2026-03-16
+SELECT DATE_ADD(NOW(), INTERVAL 2 HOUR);          -- 2026-04-16 16:23:07
+SELECT CURDATE() + INTERVAL 30 DAY;               -- 2026-05-16
+SELECT CURDATE() - INTERVAL 90 DAY;               -- 2026-01-16</code></pre><p>Supported intervals: <code>SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, YEAR</code>. Month math respects calendar length — adding 1 month to Jan 31 gives Feb 28 (or 29 in a leap year), not Mar 3.</p><h3>4. DATE_FORMAT — Display Dates the Way You Want</h3><p>Databases store dates in ISO format (<code>2026-04-16</code>). When you need to show a date as <em>"16th April, 2026"</em> or <em>"Thu 16 Apr 2:23 PM"</em>, use <code>DATE_FORMAT</code> with these codes:</p><table><thead><tr><th>Code</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td><code>%Y</code></td><td>4-digit year</td><td>2026</td></tr><tr><td><code>%y</code></td><td>2-digit year</td><td>26</td></tr><tr><td><code>%M</code></td><td>Full month name</td><td>April</td></tr><tr><td><code>%b</code></td><td>Short month name</td><td>Apr</td></tr><tr><td><code>%m</code></td><td>Month number, 2-digit</td><td>04</td></tr><tr><td><code>%d</code></td><td>Day of month, 2-digit</td><td>16</td></tr><tr><td><code>%e</code></td><td>Day of month, no padding</td><td>6</td></tr><tr><td><code>%W</code></td><td>Full weekday name</td><td>Thursday</td></tr><tr><td><code>%a</code></td><td>Short weekday name</td><td>Thu</td></tr><tr><td><code>%H</code></td><td>Hour 00-23</td><td>14</td></tr><tr><td><code>%h</code> / <code>%I</code></td><td>Hour 01-12</td><td>02</td></tr><tr><td><code>%i</code></td><td>Minutes 00-59</td><td>23</td></tr><tr><td><code>%s</code></td><td>Seconds 00-59</td><td>07</td></tr><tr><td><code>%p</code></td><td>AM / PM</td><td>PM</td></tr></tbody></table><pre><code>SELECT DATE_FORMAT(NOW(), '%W, %d %M %Y');
+-- 'Thursday, 16 April 2026'
+
+SELECT DATE_FORMAT(NOW(), '%d-%m-%Y %h:%i %p');
+-- '16-04-2026 02:23 PM'
+
+SELECT DATE_FORMAT(NOW(), '%Y-%m');
+-- '2026-04' (useful for GROUP BY month)</code></pre><h3>5. EXTRACT and the Shortcuts</h3><p>To pull a single part out of a date, EXTRACT is the portable way, and YEAR(), MONTH(), DAY() are the MySQL shortcuts:</p><pre><code>SELECT EXTRACT(YEAR   FROM '2026-04-16');    -- 2026
+SELECT EXTRACT(MONTH  FROM '2026-04-16');    -- 4
+SELECT EXTRACT(DAY    FROM '2026-04-16');    -- 16
+SELECT EXTRACT(HOUR   FROM '2026-04-16 14:23:07');  -- 14
+
+-- Shortcuts
+SELECT YEAR(NOW()), MONTH(NOW()), DAY(NOW());
+SELECT HOUR(NOW()), MINUTE(NOW()), SECOND(NOW());
+
+-- Calendar helpers
+SELECT DAYOFWEEK('2026-04-16');   -- 5 (Sunday=1, Thursday=5)
+SELECT DAYNAME('2026-04-16');     -- 'Thursday'
+SELECT MONTHNAME('2026-04-16');   -- 'April'
+SELECT WEEK('2026-04-16');        -- 15 (ISO week number)
+SELECT QUARTER('2026-04-16');     -- 2
+SELECT DAYOFYEAR('2026-04-16');   -- 106</code></pre><p><strong>Warning on DAYOFWEEK</strong>: MySQL numbers Sunday as 1, Saturday as 7. Most of the world considers Monday the start of the week. Use <code>WEEKDAY()</code> instead, which numbers Monday=0, Sunday=6.</p><h3>6. STR_TO_DATE — Parsing Strings Into Dates</h3><p>When data arrives as a string (CSV uploads, API responses), you have to convert it. STR_TO_DATE is the inverse of DATE_FORMAT — same format codes, different direction:</p><pre><code>SELECT STR_TO_DATE('16-04-2026', '%d-%m-%Y');
+-- 2026-04-16 (as a proper DATE value)
+
+SELECT STR_TO_DATE('April 16, 2026', '%M %d, %Y');
+-- 2026-04-16
+
+SELECT STR_TO_DATE('16/04/2026 02:23 PM', '%d/%m/%Y %h:%i %p');
+-- 2026-04-16 14:23:00</code></pre><p>If the string does not match the format, MySQL returns NULL. Always validate your import with a COUNT of NULLs before bulk-loading data.</p><h3>7. LAST_DAY, TIMEDIFF, and Utility Functions</h3><pre><code>SELECT LAST_DAY('2026-04-16');   -- 2026-04-30 (last day of April)
+SELECT LAST_DAY('2028-02-05');   -- 2028-02-29 (leap year)
+
+-- TIMEDIFF returns a TIME value, good for same-day intervals
+SELECT TIMEDIFF('14:30:00', '09:15:00');   -- 05:15:00
+
+-- DATE() strips time off a DATETIME
+SELECT DATE('2026-04-16 14:23:07');   -- 2026-04-16
+
+-- TIME() strips date off a DATETIME
+SELECT TIME('2026-04-16 14:23:07');   -- 14:23:07
+
+-- UNIX_TIMESTAMP and FROM_UNIXTIME for epoch conversion
+SELECT UNIX_TIMESTAMP('2026-04-16 14:23:07');  -- 1776695987
+SELECT FROM_UNIXTIME(1776695987);               -- 2026-04-16 14:23:07</code></pre><h3>8. Time Zones and CONVERT_TZ</h3><p>This is where junior devs lose hours of their life. MySQL has three relevant time zones: the <strong>system</strong> time zone (server OS), the <strong>global</strong> time zone (MySQL setting), and the <strong>session</strong> time zone (current connection).</p><pre><code>-- Check what your session thinks
+SELECT @@global.time_zone, @@session.time_zone;
+
+-- Change for the current session
+SET time_zone = '+05:30';   -- IST
+SET time_zone = 'Asia/Kolkata';  -- named (requires tz tables loaded)
+
+-- Convert a DATETIME from one zone to another
+SELECT CONVERT_TZ('2026-04-16 14:23:07', '+00:00', '+05:30');
+-- 2026-04-16 19:53:07  (UTC to IST)
+
+SELECT CONVERT_TZ(NOW(), @@session.time_zone, '+00:00');
+-- NOW in UTC</code></pre><h3>9. DATE vs DATETIME vs TIMESTAMP — The Decision</h3><p>This is a common interview question. Pick based on what the column represents:</p><ul><li><strong>DATE</strong> — only the calendar day matters. Date of birth, holiday date, invoice date.</li><li><strong>DATETIME</strong> — a specific moment that should never change with time zones. Scheduled webinar at 7 PM IST <em>as displayed to the user</em>.</li><li><strong>TIMESTAMP</strong> — audit-style fields like <code>created_at</code> and <code>updated_at</code> that represent a point in universal time. Stored as UTC internally, converted to the session TZ on read. Range limit: 1970 to 2038 (TIMESTAMP is 4 bytes).</li></ul><pre><code>CREATE TABLE orders (
+  id           INT PRIMARY KEY,
+  order_date   DATE NOT NULL,                -- customer-facing date
+  placed_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,  -- audit
+  delivery_at  DATETIME                      -- scheduled moment
+);</code></pre><h3>10. Common Patterns You Will Write 100 Times</h3><pre><code>-- 1. Orders in the last 7 days
+SELECT * FROM orders
+WHERE order_date &gt;= CURDATE() - INTERVAL 7 DAY;
+
+-- 2. Age from date of birth
+SELECT name, TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age
+FROM students;
+
+-- 3. Revenue grouped by month
+SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,
+       SUM(amount) AS revenue
+FROM orders
+GROUP BY month
+ORDER BY month;
+
+-- 4. Sign-ups per weekday
+SELECT DAYNAME(created_at) AS day_of_week, COUNT(*) AS signups
+FROM users
+GROUP BY day_of_week
+ORDER BY FIELD(day_of_week,'Monday','Tuesday','Wednesday',
+               'Thursday','Friday','Saturday','Sunday');
+
+-- 5. Yesterday's orders (avoid off-by-one)
+SELECT * FROM orders
+WHERE order_date = CURDATE() - INTERVAL 1 DAY;
+
+-- 6. Customers inactive for 30+ days
+SELECT user_id, MAX(last_login) AS last_seen
+FROM sessions
+GROUP BY user_id
+HAVING DATEDIFF(CURDATE(), MAX(last_login)) &gt;= 30;</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Getting &#39;Now&#39; with NOW, CURDATE, and CURTIME</div><pre><code class="language-python">-- Sample: no table needed
+SELECT
+  NOW()              AS current_moment,
+  CURDATE()          AS today,
+  CURTIME()          AS time_only,
+  UNIX_TIMESTAMP()   AS epoch_seconds,
+  DAYNAME(CURDATE()) AS today_weekday;</code></pre><div class="code-example-explanation"><code>NOW()</code> returns a full DATETIME, <code>CURDATE()</code> only the date, <code>CURTIME()</code> only the time. <code>UNIX_TIMESTAMP()</code> gives you seconds since 1970-01-01 UTC — useful for APIs. <code>DAYNAME(CURDATE())</code> converts today's date into the weekday name.</div><div class="code-example-output">+---------------------+------------+-----------+----------------+---------------+
+| current_moment      | today      | time_only | epoch_seconds  | today_weekday |
++---------------------+------------+-----------+----------------+---------------+
+| 2026-04-16 14:23:07 | 2026-04-16 | 14:23:07  |     1776695987 | Thursday      |
++---------------------+------------+-----------+----------------+---------------+</div></div>
+<div class="code-example"><div class="code-example-title">Orders in the Last 7 Days with INTERVAL</div><pre><code class="language-python">CREATE TABLE orders (
+  id           INT PRIMARY KEY,
+  customer     VARCHAR(50),
+  order_date   DATE,
+  amount       DECIMAL(10,2)
+);
+
+INSERT INTO orders VALUES
+  (1, &#39;Aarav Sharma&#39;,   &#39;2026-04-16&#39;,  1200.00),
+  (2, &#39;Priya Nair&#39;,     &#39;2026-04-15&#39;,   850.50),
+  (3, &#39;Rohan Mehta&#39;,    &#39;2026-04-13&#39;,  2400.00),
+  (4, &#39;Ananya Iyer&#39;,    &#39;2026-04-10&#39;,   999.00),
+  (5, &#39;Vikram Singh&#39;,   &#39;2026-04-05&#39;,  3100.00),
+  (6, &#39;Meera Krishnan&#39;, &#39;2026-03-20&#39;,   450.00);
+
+-- Orders from the last 7 days (today is 2026-04-16)
+SELECT id, customer, order_date, amount
+FROM orders
+WHERE order_date &gt;= CURDATE() - INTERVAL 7 DAY
+ORDER BY order_date DESC;</code></pre><div class="code-example-explanation"><code>CURDATE() - INTERVAL 7 DAY</code> gives 2026-04-09. The WHERE clause keeps rows where <code>order_date</code> is on or after that. Because we compared directly on the indexed column (no function wrapping it), MySQL can use an index on <code>order_date</code> efficiently.</div><div class="code-example-output">+----+---------------+------------+---------+
+| id | customer      | order_date | amount  |
++----+---------------+------------+---------+
+|  1 | Aarav Sharma  | 2026-04-16 | 1200.00 |
+|  2 | Priya Nair    | 2026-04-15 |  850.50 |
+|  3 | Rohan Mehta   | 2026-04-13 | 2400.00 |
+|  4 | Ananya Iyer   | 2026-04-10 |  999.00 |
++----+---------------+------------+---------+</div></div>
+<div class="code-example"><div class="code-example-title">Age from Date of Birth using TIMESTAMPDIFF</div><pre><code class="language-python">CREATE TABLE students (
+  id     INT PRIMARY KEY,
+  name   VARCHAR(50),
+  dob    DATE
+);
+
+INSERT INTO students VALUES
+  (1, &#39;Ishaan Gupta&#39;,   &#39;2008-11-12&#39;),
+  (2, &#39;Kavya Reddy&#39;,    &#39;2006-02-29&#39;),   -- leap-day baby
+  (3, &#39;Arjun Pillai&#39;,   &#39;2010-04-17&#39;),   -- birthday tomorrow
+  (4, &#39;Neha Choudhary&#39;, &#39;2010-04-15&#39;);   -- birthday yesterday
+
+-- Exact age today (2026-04-16)
+SELECT name,
+       dob,
+       TIMESTAMPDIFF(YEAR, dob, CURDATE()) AS age
+FROM students;</code></pre><div class="code-example-explanation"><code>TIMESTAMPDIFF(YEAR, dob, CURDATE())</code> is the correct way to compute age. It returns whole years and correctly handles the day-of-year boundary — Arjun is still 15 because his birthday is tomorrow. Using <code>DATEDIFF/365</code> would give wrong results because of leap years.</div><div class="code-example-output">+----------------+------------+-----+
+| name           | dob        | age |
++----------------+------------+-----+
+| Ishaan Gupta   | 2008-11-12 |  17 |
+| Kavya Reddy    | 2006-02-29 |  20 |
+| Arjun Pillai   | 2010-04-17 |  15 |
+| Neha Choudhary | 2010-04-15 |  16 |
++----------------+------------+-----+</div></div>
+<div class="code-example"><div class="code-example-title">Monthly Revenue with DATE_FORMAT and GROUP BY</div><pre><code class="language-python">CREATE TABLE sales (
+  id         INT PRIMARY KEY,
+  sold_at    DATETIME,
+  amount     DECIMAL(10,2)
+);
+
+INSERT INTO sales VALUES
+  (1, &#39;2026-01-10 10:22:00&#39;,  1200),
+  (2, &#39;2026-01-25 15:40:00&#39;,   800),
+  (3, &#39;2026-02-03 09:10:00&#39;,  2200),
+  (4, &#39;2026-02-28 18:05:00&#39;,  1500),
+  (5, &#39;2026-03-12 11:30:00&#39;,  3100),
+  (6, &#39;2026-03-29 20:00:00&#39;,   950),
+  (7, &#39;2026-04-05 13:15:00&#39;,  1800),
+  (8, &#39;2026-04-15 16:45:00&#39;,  2650);
+
+SELECT DATE_FORMAT(sold_at, &#39;%Y-%m&#39;) AS month,
+       COUNT(*)                       AS orders,
+       SUM(amount)                    AS revenue
+FROM sales
+GROUP BY month
+ORDER BY month;</code></pre><div class="code-example-explanation"><code>DATE_FORMAT(sold_at, '%Y-%m')</code> flattens every sale into its month bucket (like '2026-03'). GROUP BY then aggregates per month. Sorting alphabetically works here because the ISO format sorts chronologically — never use '%d/%m/%Y' for GROUP BY, it will sort wrong.</div><div class="code-example-output">+---------+--------+---------+
+| month   | orders | revenue |
++---------+--------+---------+
+| 2026-01 |      2 |    2000 |
+| 2026-02 |      2 |    3700 |
+| 2026-03 |      2 |    4050 |
+| 2026-04 |      2 |    4450 |
++---------+--------+---------+</div></div>
+<div class="code-example"><div class="code-example-title">Parsing Messy Date Strings with STR_TO_DATE</div><pre><code class="language-python">CREATE TABLE raw_upload (
+  id          INT PRIMARY KEY,
+  raw_date    VARCHAR(30)
+);
+
+INSERT INTO raw_upload VALUES
+  (1, &#39;16-04-2026&#39;),
+  (2, &#39;05/04/2026&#39;),
+  (3, &#39;April 12, 2026&#39;),
+  (4, &#39;2026.04.09&#39;);
+
+SELECT id,
+       raw_date,
+       CASE
+         WHEN raw_date LIKE &#39;%-%&#39;      THEN STR_TO_DATE(raw_date, &#39;%d-%m-%Y&#39;)
+         WHEN raw_date LIKE &#39;%/%&#39;      THEN STR_TO_DATE(raw_date, &#39;%d/%m/%Y&#39;)
+         WHEN raw_date LIKE &#39;%.%&#39;      THEN STR_TO_DATE(raw_date, &#39;%Y.%m.%d&#39;)
+         ELSE STR_TO_DATE(raw_date, &#39;%M %d, %Y&#39;)
+       END AS parsed_date
+FROM raw_upload;</code></pre><div class="code-example-explanation"><code>STR_TO_DATE</code> takes a string and a format pattern (same codes as DATE_FORMAT) and returns a proper DATE. Use CASE to pick the right format per row. If the format does not match, STR_TO_DATE returns NULL — always check for NULLs after bulk conversion.</div><div class="code-example-output">+----+-----------------+-------------+
+| id | raw_date        | parsed_date |
++----+-----------------+-------------+
+|  1 | 16-04-2026      | 2026-04-16  |
+|  2 | 05/04/2026      | 2026-04-05  |
+|  3 | April 12, 2026  | 2026-04-12  |
+|  4 | 2026.04.09      | 2026-04-09  |
++----+-----------------+-------------+</div></div>
+<div class="code-example"><div class="code-example-title">Customers Inactive for 30+ Days</div><pre><code class="language-python">CREATE TABLE sessions (
+  user_id      INT,
+  last_login   DATETIME
+);
+
+INSERT INTO sessions VALUES
+  (101, &#39;2026-04-15 09:12:00&#39;),
+  (102, &#39;2026-03-05 14:20:00&#39;),   -- 42 days ago
+  (103, &#39;2026-04-10 11:00:00&#39;),
+  (104, &#39;2026-01-20 08:30:00&#39;),   -- 86 days ago
+  (105, &#39;2026-03-14 22:15:00&#39;);   -- 33 days ago
+
+SELECT user_id,
+       MAX(last_login)                          AS last_seen,
+       DATEDIFF(CURDATE(), MAX(last_login))     AS days_inactive
+FROM sessions
+GROUP BY user_id
+HAVING days_inactive &gt;= 30
+ORDER BY days_inactive DESC;</code></pre><div class="code-example-explanation"><code>DATEDIFF(a, b)</code> gives <code>a - b</code> in whole days. We compute it against <code>CURDATE()</code> for each user's most recent login, then filter with HAVING (not WHERE, because we're filtering on an aggregate).</div><div class="code-example-output">+---------+---------------------+---------------+
+| user_id | last_seen           | days_inactive |
++---------+---------------------+---------------+
+|     104 | 2026-01-20 08:30:00 |            86 |
+|     102 | 2026-03-05 14:20:00 |            42 |
+|     105 | 2026-03-14 22:15:00 |            33 |
++---------+---------------------+---------------+</div></div>
+<div class="code-example"><div class="code-example-title">Time Zone Conversion for Global Users</div><pre><code class="language-python">CREATE TABLE webinars (
+  id          INT PRIMARY KEY,
+  topic       VARCHAR(60),
+  starts_utc  DATETIME   -- stored in UTC
+);
+
+INSERT INTO webinars VALUES
+  (1, &#39;Python Masterclass&#39;, &#39;2026-04-20 13:30:00&#39;),
+  (2, &#39;SQL Interview Prep&#39;, &#39;2026-04-22 14:00:00&#39;),
+  (3, &#39;Web Dev Bootcamp&#39;,   &#39;2026-04-25 03:00:00&#39;);
+
+-- Show times to users in India (IST, +05:30) and New York (-04:00, DST)
+SELECT topic,
+       starts_utc                                          AS utc,
+       CONVERT_TZ(starts_utc, &#39;+00:00&#39;, &#39;+05:30&#39;)          AS ist,
+       CONVERT_TZ(starts_utc, &#39;+00:00&#39;, &#39;-04:00&#39;)          AS new_york,
+       DATE_FORMAT(CONVERT_TZ(starts_utc,&#39;+00:00&#39;,&#39;+05:30&#39;),
+                   &#39;%W, %d %b %h:%i %p&#39;)                   AS display_ist
+FROM webinars;</code></pre><div class="code-example-explanation">Store all timestamps in UTC, convert at display time. <code>CONVERT_TZ(value, from_tz, to_tz)</code> shifts the datetime to the target offset. Wrap the result in DATE_FORMAT to produce a user-friendly string. This is the standard architecture for any global application.</div><div class="code-example-output">+--------------------+---------------------+---------------------+---------------------+---------------------------+
+| topic              | utc                 | ist                 | new_york            | display_ist               |
++--------------------+---------------------+---------------------+---------------------+---------------------------+
+| Python Masterclass | 2026-04-20 13:30:00 | 2026-04-20 19:00:00 | 2026-04-20 09:30:00 | Monday, 20 Apr 07:00 PM   |
+| SQL Interview Prep | 2026-04-22 14:00:00 | 2026-04-22 19:30:00 | 2026-04-22 10:00:00 | Wednesday, 22 Apr 07:30 PM|
+| Web Dev Bootcamp   | 2026-04-25 03:00:00 | 2026-04-25 08:30:00 | 2026-04-24 23:00:00 | Saturday, 25 Apr 08:30 AM |
++--------------------+---------------------+---------------------+---------------------+---------------------------+</div></div>
+<div class="code-example"><div class="code-example-title">LAST_DAY, Quarter, and Week Utilities</div><pre><code class="language-python">SELECT
+  &#39;2026-04-16&#39;                                  AS d,
+  LAST_DAY(&#39;2026-04-16&#39;)                        AS end_of_month,
+  DAYOFYEAR(&#39;2026-04-16&#39;)                       AS day_of_year,
+  QUARTER(&#39;2026-04-16&#39;)                         AS quarter,
+  WEEKOFYEAR(&#39;2026-04-16&#39;)                      AS iso_week,
+  DAYOFWEEK(&#39;2026-04-16&#39;)                       AS mysql_dow,     -- 1=Sun
+  WEEKDAY(&#39;2026-04-16&#39;)                         AS iso_dow,       -- 0=Mon
+  DATE_ADD(LAST_DAY(&#39;2026-04-16&#39;), INTERVAL 1 DAY) AS first_of_next_month;</code></pre><div class="code-example-explanation"><code>LAST_DAY</code> is handy for month-end reports. Adding 1 day to LAST_DAY gives the first day of the next month — use that trick for monthly cron windows. Note the two day-of-week functions: <code>DAYOFWEEK</code> starts at Sunday, <code>WEEKDAY</code> starts at Monday. Prefer WEEKDAY for ISO-style reporting.</div><div class="code-example-output">+------------+--------------+-------------+---------+----------+-----------+---------+---------------------+
+| d          | end_of_month | day_of_year | quarter | iso_week | mysql_dow | iso_dow | first_of_next_month |
++------------+--------------+-------------+---------+----------+-----------+---------+---------------------+
+| 2026-04-16 | 2026-04-30   |         106 |       2 |       16 |         5 |       3 | 2026-05-01          |
++------------+--------------+-------------+---------+----------+-----------+---------+---------------------+</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Wrapping an Indexed Date Column in a Function</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Kills any index on order_date
+SELECT * FROM orders
+WHERE YEAR(order_date) = 2026
+  AND MONTH(order_date) = 4;</code></pre></div><div class="error-message">No syntax error, but the query does a FULL TABLE SCAN even if order_date is indexed. Any function wrapping the column disables index usage.</div><div class="correct-code"><pre><code class="language-python">-- Use a range predicate instead
+SELECT * FROM orders
+WHERE order_date &gt;= &#39;2026-04-01&#39;
+  AND order_date &lt;  &#39;2026-05-01&#39;;</code></pre></div><div class="mistake-explanation">Functions applied to indexed columns prevent the optimizer from using the index, because it would have to apply the function to every row first. Always keep the column bare on one side of the comparison and compute the range on the other side.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing DATEDIFF Argument Order</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Intends to check &#39;was order more than 7 days ago?&#39;
+SELECT * FROM orders
+WHERE DATEDIFF(order_date, CURDATE()) &gt; 7;</code></pre></div><div class="error-message">No syntax error, but this is backwards. DATEDIFF(&#39;2026-04-10&#39;, &#39;2026-04-16&#39;) returns -6, never &gt;7. The WHERE clause will return zero rows.</div><div class="correct-code"><pre><code class="language-python">-- DATEDIFF(later, earlier) or just use INTERVAL
+SELECT * FROM orders
+WHERE DATEDIFF(CURDATE(), order_date) &gt; 7;
+-- Or the cleaner version:
+SELECT * FROM orders
+WHERE order_date &lt; CURDATE() - INTERVAL 7 DAY;</code></pre></div><div class="mistake-explanation"><code>DATEDIFF(a, b)</code> returns <code>a - b</code>. If you want a positive number of days, put the later date first. For readability and performance, prefer the <code>column &lt;= CURDATE() - INTERVAL n DAY</code> pattern.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using DATE_FORMAT in GROUP BY with a Localized Pattern</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Months sorted alphabetically, not chronologically
+SELECT DATE_FORMAT(sold_at, &#39;%M %Y&#39;) AS month, SUM(amount)
+FROM sales
+GROUP BY month
+ORDER BY month;</code></pre></div><div class="error-message">No error, but output is sorted &#39;April 2026, February 2026, January 2026...&#39; because it sorts strings alphabetically.</div><div class="correct-code"><pre><code class="language-python">-- Group by sortable ISO format, then format for display
+SELECT DATE_FORMAT(sold_at, &#39;%Y-%m&#39;) AS month_key,
+       DATE_FORMAT(MIN(sold_at), &#39;%M %Y&#39;) AS month_label,
+       SUM(amount) AS revenue
+FROM sales
+GROUP BY month_key
+ORDER BY month_key;</code></pre></div><div class="mistake-explanation">ISO format <code>%Y-%m</code> sorts chronologically as a string. Group by that, and format for display separately using <code>MIN(sold_at)</code> or a second DATE_FORMAT call.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Storing Dates as VARCHAR</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE TABLE bad_orders (
+  id   INT PRIMARY KEY,
+  date VARCHAR(20)   -- &#39;16-04-2026&#39; as a string
+);
+
+-- Sorting breaks completely
+SELECT * FROM bad_orders ORDER BY date;
+-- &#39;01-02-2026&#39; comes before &#39;16-04-2026&#39; alphabetically,
+-- but also before &#39;05-01-2026&#39;, which is wrong chronologically.</code></pre></div><div class="error-message">No SQL error, but every date operation gives wrong results — sorts, ranges, DATEDIFF, DATE_ADD all fail because there is no date semantics.</div><div class="correct-code"><pre><code class="language-python">CREATE TABLE orders (
+  id         INT PRIMARY KEY,
+  order_date DATE   -- proper type
+);
+-- Sorting, ranges, and all date functions now work correctly.</code></pre></div><div class="mistake-explanation">Always store dates in DATE, DATETIME, or TIMESTAMP columns. Use VARCHAR only for display-only fields that you never query or sort. If data arrives as a string, parse it with STR_TO_DATE on INSERT.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Mixing DATETIME Across Time Zones Without TIMESTAMP</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Table has DATETIME, server moved from IST to UTC
+CREATE TABLE logs (event_at DATETIME);
+INSERT INTO logs VALUES (NOW());
+-- Months later, server is moved to UTC.
+-- Old values look 5h30 off, but they are just stored as raw strings.</code></pre></div><div class="error-message">No error, but data is silently wrong after any server time zone change. DATETIME is &#39;just a clock reading&#39; — MySQL does not know which time zone it was recorded in.</div><div class="correct-code"><pre><code class="language-python">-- Use TIMESTAMP for audit timestamps
+CREATE TABLE logs (
+  event_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+-- TIMESTAMP is stored as UTC internally and always
+-- re-interpreted in the session&#39;s current time zone.</code></pre></div><div class="mistake-explanation">For timestamps that represent 'a real moment in time' (created_at, updated_at, login_at), use TIMESTAMP so the server converts to/from UTC automatically. Reserve DATETIME for 'wall clock' values like scheduled event times where the display value is what matters.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Use NOW() for current datetime, CURDATE() for today&#39;s date, CURTIME() for current time. NOW() stays constant within a single statement; SYSDATE() re-reads the clock.</li>
+<li>DATEDIFF returns the difference in whole days only. TIMESTAMPDIFF(unit, a, b) is flexible — use it for age (YEAR), tenure (MONTH), and hour-level gaps.</li>
+<li>Never add days with plain arithmetic. Use DATE_ADD(date, INTERVAL 7 DAY) or the shorthand date + INTERVAL 7 DAY. Supported units: SECOND, MINUTE, HOUR, DAY, WEEK, MONTH, QUARTER, YEAR.</li>
+<li>DATE_FORMAT(date, pattern) converts a date to a display string using format codes (%Y, %m, %d, %H, %i, %M, %W, etc.). For GROUP BY, always use sortable patterns like &#39;%Y-%m&#39;.</li>
+<li>STR_TO_DATE is the inverse: it parses a string into a DATE using the same format codes. Returns NULL on mismatch, so always check after bulk imports.</li>
+<li>EXTRACT(unit FROM date) is the portable way to get a date part. YEAR(), MONTH(), DAY(), HOUR() are the MySQL shortcuts. DAYOFWEEK starts at Sunday=1; WEEKDAY starts at Monday=0.</li>
+<li>LAST_DAY(date) returns the last day of the month. DATE_ADD(LAST_DAY(d), INTERVAL 1 DAY) gives the first day of the next month — handy for monthly windows.</li>
+<li>Wrapping an indexed date column in a function (YEAR(col)) prevents index usage. Rewrite as a range: col &gt;= &#39;2026-01-01&#39; AND col &lt; &#39;2027-01-01&#39;.</li>
+<li>Store dates in DATE/DATETIME/TIMESTAMP, never VARCHAR. VARCHAR breaks sorting, arithmetic, and indexing.</li>
+<li>DATE is just a calendar day (DOB, invoice date). DATETIME is a wall-clock moment with no time zone awareness. TIMESTAMP is UTC internally with session-TZ conversion on read — use it for created_at, updated_at, and any audit field.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/string-functions" class="related-topic-link">String Functions in SQL</a>
+<a href="/resources/sql/conditional-logic-case-when" class="related-topic-link">Conditional Logic - CASE WHEN, IF, IFNULL</a>
+<a href="/resources/sql/aggregate-functions" class="related-topic-link">Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/string-functions" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">String Functions in SQL</span>
+        </a>
+            <a href="/resources/sql/conditional-logic-case-when" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Conditional Logic - CASE WHEN, IF, IFNULL</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/date-and-time-functions/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

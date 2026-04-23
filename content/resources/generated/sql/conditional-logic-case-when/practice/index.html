@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Conditional Logic - CASE WHEN, IF, IFNULL | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="62+ practice questions on Conditional Logic - CASE WHEN, IF, IFNULL in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="conditional logic - case when, if, ifnull practice, sql questions, sql practice problems, conditional logic - case when, if, ifnull exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when/practice">
+    <meta property="og:title" content="Practice Questions - Conditional Logic - CASE WHEN, IF, IFNULL | SQL | Modern Age Coders">
+    <meta property="og:description" content="62+ practice questions on Conditional Logic - CASE WHEN, IF, IFNULL in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when/practice">
+    <meta name="twitter:title" content="Practice Questions - Conditional Logic - CASE WHEN, IF, IFNULL | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="62+ practice questions on Conditional Logic - CASE WHEN, IF, IFNULL in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Conditional Logic - CASE WHEN, IF, IFNULL",
+    "description": "62+ practice questions on Conditional Logic - CASE WHEN, IF, IFNULL in SQL.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Conditional Logic - CASE WHEN, IF, IFNULL"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Conditional Logic - CASE WHEN, IF, IFNULL",
+        "item": "https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/conditional-logic-case-when/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/conditional-logic-case-when">Conditional Logic - CASE WHEN, IF, IFNULL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 17</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">62 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Conditional Logic - CASE WHEN, IF, IFNULL</h1>
+            <a href="/resources/sql/conditional-logic-case-when" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">16</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT CASE WHEN 5 > 3 THEN 'yes' ELSE 'no' END;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">5 > 3 is TRUE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>yes</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is returned?<br><pre><code>SELECT CASE WHEN 1 = 2 THEN 'a' END;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">No match, no ELSE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Output?<br><pre><code>SELECT IFNULL(NULL, 'default');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">IFNULL replaces NULL with the second argument.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>default</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Output?<br><pre><code>SELECT IFNULL('hello', 'default');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">IFNULL returns the first argument when it is not NULL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Output?<br><pre><code>SELECT COALESCE(NULL, NULL, 'third', 'fourth');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">COALESCE returns the first non-NULL argument.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>third</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Output?<br><pre><code>SELECT NULLIF(5, 5), NULLIF(5, 3);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">NULLIF(a, b) returns NULL when a = b.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>NULL  5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Output?<br><pre><code>SELECT IF(10 > 5, 'big', 'small');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Classic IF with true condition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>big</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given marks = 62, what does this return?<br><pre><code>SELECT CASE
+  WHEN marks >= 90 THEN 'A'
+  WHEN marks >= 75 THEN 'B'
+  WHEN marks >= 60 THEN 'C'
+  ELSE 'D'
+END;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">First match wins.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Output of this simple CASE?<br><pre><code>SELECT CASE 'paid'
+  WHEN 'paid'    THEN 1
+  WHEN 'pending' THEN 2
+  ELSE 3
+END;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Simple CASE with equality matching.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return when status IS NULL?<br><pre><code>CASE status
+  WHEN NULL THEN 'unknown'
+  ELSE 'known'
+END</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Simple CASE uses = comparison.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>known</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given these orders table rows: (101,'paid',1000), (101,'paid',500), (101,'pending',200), what does SUM(CASE WHEN status='paid' THEN amount ELSE 0 END) return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Add only the 'paid' rows.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>1500</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given the same rows, what does COUNT(CASE WHEN status='paid' THEN 1 END) return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">COUNT ignores NULL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Output?<br><pre><code>SELECT COALESCE(NULLIF('', ''), 'missing');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">'' = '' is true.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>missing</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Output?<br><pre><code>SELECT 10 / NULLIF(0, 0);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">NULLIF(0, 0) returns NULL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Output?<br><pre><code>SELECT CASE
+  WHEN 1 THEN 'a'
+  WHEN 1 THEN 'b'
+  ELSE 'c'
+END;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Two WHENs both match. Which wins?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>a</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given amount = NULL, what does this return?<br><pre><code>CASE
+  WHEN amount > 1000 THEN 'big'
+  WHEN amount <= 1000 THEN 'small'
+  ELSE 'unknown'
+END</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Any comparison with NULL is NULL (not TRUE).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>unknown</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between IFNULL and COALESCE?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Argument count and portability.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">IFNULL takes exactly 2 arguments and is MySQL-specific. COALESCE takes 2 or more arguments, returns the first non-NULL, and is part of the SQL standard (works on every database). For portable code use COALESCE. IFNULL is slightly faster in MySQL but the difference is negligible.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does the conditional aggregation pattern SUM(CASE WHEN cond THEN val ELSE 0 END) work?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Think about what SUM adds and what 0 contributes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">SUM adds all non-NULL values. By writing ELSE 0, every non-matching row contributes 0 to the total — which is a no-op. Every matching row contributes its <code>val</code>. The end result is the sum of <code>val</code> only for rows where the condition is true. This lets you compute multiple filtered sums in a single pass of the table, which is the basis of SQL pivoting.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Given employees(name, salary), write a query returning name, salary, and a 'band' column: 'Low' if < 40000, 'Mid' if < 80000, else 'High'.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Searched CASE with two WHENs and ELSE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>SELECT name, salary,
+  CASE
+    WHEN salary < 40000 THEN 'Low'
+    WHEN salary < 80000 THEN 'Mid'
+    ELSE 'High'
+  END AS band
+FROM employees;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given orders(customer_id, status, amount), write a pivot returning per customer: total paid, total pending, and total failed.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Conditional aggregation with SUM + CASE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><pre><code>SELECT customer_id,
+  SUM(CASE WHEN status = 'paid'    THEN amount ELSE 0 END) AS paid_total,
+  SUM(CASE WHEN status = 'pending' THEN amount ELSE 0 END) AS pending_total,
+  SUM(CASE WHEN status = 'failed'  THEN amount ELSE 0 END) AS failed_total
+FROM orders
+GROUP BY customer_id;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a query that sorts orders by priority: 'urgent' first, then 'normal', then 'low'.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">CASE in ORDER BY.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21"><pre><code>SELECT *
+FROM orders
+ORDER BY
+  CASE priority
+    WHEN 'urgent' THEN 1
+    WHEN 'normal' THEN 2
+    WHEN 'low'    THEN 3
+    ELSE 4
+  END;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given orders(id, amount, discount_pct), write a query returning the final price, treating NULL discount_pct as 0.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">IFNULL + arithmetic.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><pre><code>SELECT id, amount, discount_pct,
+  amount * (1 - IFNULL(discount_pct, 0) / 100.0) AS final_price
+FROM orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given orders(customer_id, amount), compute the margin per customer where margin = SUM(profit)/SUM(revenue), treating customers with zero revenue as NULL margin instead of an error. Assume columns profit and revenue.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">NULLIF for safe division.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><pre><code>SELECT customer_id,
+  SUM(profit)  AS total_profit,
+  SUM(revenue) AS total_revenue,
+  ROUND(SUM(profit) / NULLIF(SUM(revenue), 0), 4) AS margin
+FROM orders
+GROUP BY customer_id;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given users(id, age), bucket users into age groups: 'Teen' (13-17), 'Adult' (18-59), 'Senior' (60+), 'Other' (everyone else). Return counts per bucket.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">CASE in both SELECT and GROUP BY.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24"><pre><code>SELECT
+  CASE
+    WHEN age BETWEEN 13 AND 17 THEN 'Teen'
+    WHEN age BETWEEN 18 AND 59 THEN 'Adult'
+    WHEN age >= 60             THEN 'Senior'
+    ELSE                           'Other'
+  END AS age_group,
+  COUNT(*) AS total
+FROM users
+GROUP BY age_group;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why should you almost never write <code>WHERE CASE WHEN x THEN 1 ELSE 0 END = 1</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">Readability and indexes.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25">It is equivalent to <code>WHERE x</code>, just more verbose. It also prevents the optimizer from using an index on the underlying column because the CASE wraps the expression. The only time CASE in WHERE is justified is when the column being filtered actually changes per row (e.g., <code>CASE type WHEN 'daily' THEN days ELSE hours END &gt; 10</code>). Otherwise, rewrite using AND/OR directly.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Output?<br><pre><code>SELECT IF(NULL, 'yes', 'no');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">NULL is neither true nor false.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>no</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Output?<br><pre><code>SELECT CASE WHEN 0 THEN 'a' ELSE 'b' END;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">0 is falsy in MySQL.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>b</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given a row with marks=NULL, output of:<br><pre><code>CASE
+  WHEN marks IS NULL THEN 'absent'
+  WHEN marks >= 40   THEN 'pass'
+  ELSE 'fail'
+END</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">First WHEN wins.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>absent</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given orders: (1,'paid',500), (2,'paid',200), (3,'failed',300), what does<br><pre><code>SELECT SUM(IF(status='paid', amount, 0)) FROM orders;</code></pre>return?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">IF is a 2-branch shortcut for CASE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>700</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given products(name, price, category), mark each product as 'Premium' if price > 10000, 'Standard' between 2000 and 10000, 'Budget' below 2000.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Searched CASE with three WHENs.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>SELECT name, price, category,
+  CASE
+    WHEN price > 10000 THEN 'Premium'
+    WHEN price >= 2000 THEN 'Standard'
+    ELSE 'Budget'
+  END AS tier
+FROM products;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given orders(customer_id, status, amount), return customers along with a flag 'HighValue' (sum paid > 10000) or 'LowValue'.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Conditional SUM inside a CASE in SELECT, after GROUP BY.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>SELECT customer_id,
+  SUM(CASE WHEN status='paid' THEN amount ELSE 0 END) AS paid_total,
+  CASE
+    WHEN SUM(CASE WHEN status='paid' THEN amount ELSE 0 END) > 10000
+      THEN 'HighValue'
+    ELSE 'LowValue'
+  END AS tier
+FROM orders
+GROUP BY customer_id;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">For a row (name='Aarav', bonus=NULL, salary=50000), what does this return?<br><pre><code>SELECT salary + IFNULL(bonus, 0) AS total
+FROM employees;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">NULL replaced by 0 before adding.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>50000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given a row (dept='sales', salary=80000), what does this return?<br><pre><code>SELECT
+  CASE dept
+    WHEN 'sales'      THEN salary * 1.1
+    WHEN 'engineering' THEN salary * 1.2
+    ELSE salary
+  END AS adjusted
+FROM employees;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Simple CASE matches 'sales'.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>88000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Given a feedback(rating) table where rating is 1-5, build a 'pivot' returning counts per rating value in a single row: rating_1, rating_2, rating_3, rating_4, rating_5.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Conditional COUNT for each value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>SELECT
+  COUNT(CASE WHEN rating = 1 THEN 1 END) AS rating_1,
+  COUNT(CASE WHEN rating = 2 THEN 1 END) AS rating_2,
+  COUNT(CASE WHEN rating = 3 THEN 1 END) AS rating_3,
+  COUNT(CASE WHEN rating = 4 THEN 1 END) AS rating_4,
+  COUNT(CASE WHEN rating = 5 THEN 1 END) AS rating_5
+FROM feedback;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Output?<br><pre><code>SELECT COALESCE(NULL, '', 'third');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">COALESCE returns the first non-NULL. Is empty string NULL?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code></code> (empty string)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does COUNT(CASE WHEN cond THEN 1 END) count matches, but SUM(CASE WHEN cond THEN 1 END) also works — what is the difference?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">COUNT counts rows; SUM adds values. They happen to give the same answer for this pattern.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Both produce the same integer when each matching row contributes 1. COUNT ignores NULLs (non-matching rows with no ELSE become NULL and get skipped). SUM adds NULLs as nothing, same result. COUNT is stylistically preferred because its name is self-documenting ('I am counting matches'), and it works without ELSE. SUM would be required if you want to add a variable amount per match (e.g., SUM(CASE WHEN cond THEN amount ELSE 0 END)).</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which keyword marks the default branch in a CASE expression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DEFAULT</li><li><span class="mcq-option-label">B.</span> OTHERWISE</li><li><span class="mcq-option-label">C.</span> ELSE</li><li><span class="mcq-option-label">D.</span> FALLBACK</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> ELSE is used as the default branch in SQL's CASE. DEFAULT appears in column definitions, not CASE.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does a CASE expression return when no WHEN matches and there is no ELSE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> An error</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> Empty string</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> With no matching WHEN and no ELSE, CASE evaluates to NULL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which function is MySQL-specific and not part of the SQL standard?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> COALESCE</li><li><span class="mcq-option-label">B.</span> IFNULL</li><li><span class="mcq-option-label">C.</span> NULLIF</li><li><span class="mcq-option-label">D.</span> CASE WHEN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> IFNULL is MySQL (also SQLite)-specific. COALESCE, NULLIF, and CASE are SQL-standard.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">NULLIF(a, b) returns NULL when:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> a is NULL</li><li><span class="mcq-option-label">B.</span> b is NULL</li><li><span class="mcq-option-label">C.</span> a = b</li><li><span class="mcq-option-label">D.</span> a &gt; b</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> NULLIF returns NULL when a equals b, otherwise it returns a.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which expression is equivalent to IF(x > 5, 'big', 'small')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CASE WHEN x &gt; 5 THEN &#39;big&#39; ELSE &#39;small&#39; END</li><li><span class="mcq-option-label">B.</span> x &gt; 5 ? &#39;big&#39; : &#39;small&#39;</li><li><span class="mcq-option-label">C.</span> IF x &gt; 5 THEN &#39;big&#39; ELSE &#39;small&#39;</li><li><span class="mcq-option-label">D.</span> SWITCH x &gt; 5 CASE &#39;big&#39; DEFAULT &#39;small&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: A</strong><br><strong>A is correct.</strong> IF(cond, t, f) is equivalent to CASE WHEN cond THEN t ELSE f END. The ternary (?:) is not SQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">In a simple CASE <code>CASE x WHEN NULL THEN ... END</code>, when does the NULL branch match?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When x is NULL</li><li><span class="mcq-option-label">B.</span> When x is 0</li><li><span class="mcq-option-label">C.</span> Never</li><li><span class="mcq-option-label">D.</span> Always</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Simple CASE compares with =, and NULL = NULL evaluates to NULL, never TRUE. The branch is unreachable. Use searched CASE: <code>WHEN x IS NULL</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which is the canonical SQL pivot pattern for per-category totals?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> PIVOT(amount FOR category)</li><li><span class="mcq-option-label">B.</span> SUM(CASE WHEN category = &#39;X&#39; THEN amount ELSE 0 END)</li><li><span class="mcq-option-label">C.</span> GROUP BY ROLLUP(category)</li><li><span class="mcq-option-label">D.</span> TRANSPOSE(category)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL has no PIVOT operator, so conditional aggregation with SUM + CASE is the standard pattern.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">If the condition <code>salary >= 40</code> is placed before <code>salary >= 75</code> in a CASE, what happens to the second branch?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It runs for all salaries 40-74</li><li><span class="mcq-option-label">B.</span> It runs when salary is exactly 75</li><li><span class="mcq-option-label">C.</span> It never runs (unreachable code)</li><li><span class="mcq-option-label">D.</span> SQL raises an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> The first match wins. Any salary >= 75 also satisfies salary >= 40, so the first WHEN catches them and the second branch is dead code.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does COALESCE(NULL, '', 'X') return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NULL</li><li><span class="mcq-option-label">B.</span> Empty string &#39;&#39;</li><li><span class="mcq-option-label">C.</span> &#39;X&#39;</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> COALESCE returns the first non-NULL argument. Empty string '' is non-NULL. If you want empty strings treated as missing, use <code>COALESCE(NULLIF(x, ''), 'default')</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which pattern prevents divide-by-zero errors in strict SQL mode?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SUM(a) / SUM(b)</li><li><span class="mcq-option-label">B.</span> SUM(a) / IF(SUM(b)=0, NULL, SUM(b))</li><li><span class="mcq-option-label">C.</span> SUM(a) / NULLIF(SUM(b), 0)</li><li><span class="mcq-option-label">D.</span> Both B and C</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: D</strong><br><strong>D is correct.</strong> Both IF and NULLIF convert zero into NULL, making division safe. NULLIF is shorter and preferred.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Where CAN you NOT use a CASE expression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT list</li><li><span class="mcq-option-label">B.</span> ORDER BY</li><li><span class="mcq-option-label">C.</span> Column definition DEFAULT clause (cannot use)</li><li><span class="mcq-option-label">D.</span> GROUP BY</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> CASE works in SELECT, WHERE, GROUP BY, HAVING, and ORDER BY. It cannot be used in column DEFAULT clauses — defaults must be literal values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Why does <code>COUNT(CASE WHEN status='paid' THEN 1 END)</code> correctly count paid rows without ELSE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> COUNT ignores NULL values</li><li><span class="mcq-option-label">B.</span> COUNT treats all values as 1</li><li><span class="mcq-option-label">C.</span> Non-matching rows are automatically dropped</li><li><span class="mcq-option-label">D.</span> MySQL auto-adds ELSE 0</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: A</strong><br><strong>A is correct.</strong> Without ELSE, non-matching rows return NULL. COUNT skips NULLs, so only matching rows are counted.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">If you SUM(CASE WHEN cond THEN amount END) with NO ELSE, and a GROUP has zero matching rows, SUM returns:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> NULL</li><li><span class="mcq-option-label">C.</span> Empty</li><li><span class="mcq-option-label">D.</span> An error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> SUM of nothing (all NULLs) is NULL, not 0. This is a common dashboard bug. Fix: add ELSE 0 or wrap in IFNULL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which CASE form allows checking 'IS NULL'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Simple CASE only</li><li><span class="mcq-option-label">B.</span> Searched CASE only</li><li><span class="mcq-option-label">C.</span> Both</li><li><span class="mcq-option-label">D.</span> Neither</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Simple CASE uses = which never matches NULL. Only searched CASE can do <code>WHEN x IS NULL</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">In MySQL, which of these is TRUE about using an alias defined in the SELECT list inside GROUP BY?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> MySQL allows it; strict SQL standards do not</li><li><span class="mcq-option-label">B.</span> It is forbidden in MySQL</li><li><span class="mcq-option-label">C.</span> It only works in WHERE, not GROUP BY</li><li><span class="mcq-option-label">D.</span> It requires the alias to be quoted</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: A</strong><br><strong>A is correct.</strong> MySQL allows <code>GROUP BY alias</code> from the SELECT list. For portability (PostgreSQL, SQL Server), repeat the full expression in GROUP BY.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which of these is equivalent to IFNULL(x, 0)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> IF(x, 0, x)</li><li><span class="mcq-option-label">B.</span> COALESCE(x, 0)</li><li><span class="mcq-option-label">C.</span> NULLIF(x, 0)</li><li><span class="mcq-option-label">D.</span> CASE WHEN x = 0 THEN NULL ELSE x END</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> COALESCE(x, 0) returns x if not NULL, else 0 — identical to IFNULL(x, 0). NULLIF does the opposite.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">A CASE that returns mixed types (string and number) in different branches will:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Raise a SyntaxError</li><li><span class="mcq-option-label">B.</span> Coerce all results to a compatible type (often string)</li><li><span class="mcq-option-label">C.</span> Return only the number branches</li><li><span class="mcq-option-label">D.</span> Crash at runtime</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL picks a common type. Mixing INT and VARCHAR usually returns VARCHAR — the column's declared type is determined by type promotion rules, not by the last branch.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the correct interpretation of <code>CASE WHEN a=1 THEN x WHEN a=2 THEN y END</code> when a=3?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns 0</li><li><span class="mcq-option-label">B.</span> Returns NULL</li><li><span class="mcq-option-label">C.</span> Raises an error</li><li><span class="mcq-option-label">D.</span> Returns x (the first THEN)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> No WHEN matches and there is no ELSE, so the expression is NULL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">Which one is the BEST replacement for <code>WHERE CASE WHEN status='paid' THEN 1 ELSE 0 END = 1</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHERE status = &#39;paid&#39;</li><li><span class="mcq-option-label">B.</span> WHERE status IS &#39;paid&#39;</li><li><span class="mcq-option-label">C.</span> WHERE IF(status=&#39;paid&#39;, 1, 0)</li><li><span class="mcq-option-label">D.</span> WHERE status MATCHES &#39;paid&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: A</strong><br><strong>A is correct.</strong> A direct boolean expression is cleaner, faster (sargable), and more readable.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">If you use a CASE expression in GROUP BY that references a computed alias, which rule MUST hold for SQL-standard portability?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The alias must be quoted</li><li><span class="mcq-option-label">B.</span> The full CASE expression must be repeated in GROUP BY</li><li><span class="mcq-option-label">C.</span> The alias must be lowercase</li><li><span class="mcq-option-label">D.</span> The alias must be prefixed with the table name</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> SQL-92 standard does not allow SELECT aliases in GROUP BY. MySQL permits it, PostgreSQL partially, SQL Server does not. For portability, repeat the CASE.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Grade Calculator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given students(id, name, marks), return each student with their grade: A (>=90), B (>=75), C (>=60), D (>=40), else F. Sort by marks DESC.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">6 students with marks 32..92.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">One row per student with grade.</div>
+                </div><div class="challenge-constraints">Use searched CASE with ELSE.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">CREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(50), marks INT);
+INSERT INTO students VALUES
+  (1,&#39;Aarav Sharma&#39;,92),(2,&#39;Priya Nair&#39;,78),(3,&#39;Rohan Mehta&#39;,64),
+  (4,&#39;Ananya Iyer&#39;,45),(5,&#39;Vikram Singh&#39;,32),(6,&#39;Meera Krishnan&#39;,88);
+
+SELECT name, marks,
+  CASE
+    WHEN marks &gt;= 90 THEN &#39;A&#39;
+    WHEN marks &gt;= 75 THEN &#39;B&#39;
+    WHEN marks &gt;= 60 THEN &#39;C&#39;
+    WHEN marks &gt;= 40 THEN &#39;D&#39;
+    ELSE &#39;F&#39;
+  END AS grade
+FROM students
+ORDER BY marks DESC;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Pay Band with IF</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given employees(name, salary), use IF to tag each row as 'High' (>= 50000) or 'Low' (< 50000).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">5 employees with varied salaries.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Each row has name, salary, and band.</div>
+                </div><div class="challenge-constraints">Use IF for two branches.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">CREATE TABLE employees (id INT PRIMARY KEY, name VARCHAR(50), salary DECIMAL(10,2));
+INSERT INTO employees VALUES
+  (1,&#39;Aarav Sharma&#39;,72000),(2,&#39;Priya Nair&#39;,45000),
+  (3,&#39;Rohan Mehta&#39;,51000),(4,&#39;Ananya Iyer&#39;,38000),
+  (5,&#39;Vikram Singh&#39;,95000);
+
+SELECT name, salary,
+  IF(salary &gt;= 50000, &#39;High&#39;, &#39;Low&#39;) AS band
+FROM employees;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Order Status Pivot</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given orders(id, customer_id, amount, status) where status is 'paid', 'pending', or 'failed', return per customer: paid_total, pending_total, failed_total (0 if none).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">8 orders across 3 customers and 3 statuses.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">One row per customer, three amount columns.</div>
+                </div><div class="challenge-constraints">Use SUM(CASE ... ELSE 0 END) to avoid NULLs.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, amount DECIMAL(10,2), status VARCHAR(20));
+INSERT INTO orders VALUES
+  (1,101,1200,&#39;paid&#39;),(2,101, 800,&#39;paid&#39;),(3,101, 500,&#39;pending&#39;),
+  (4,102,2500,&#39;paid&#39;),(5,102,1000,&#39;failed&#39;),
+  (6,103, 700,&#39;pending&#39;),(7,103, 300,&#39;pending&#39;),(8,103,1500,&#39;paid&#39;);
+
+SELECT customer_id,
+  SUM(CASE WHEN status=&#39;paid&#39;    THEN amount ELSE 0 END) AS paid_total,
+  SUM(CASE WHEN status=&#39;pending&#39; THEN amount ELSE 0 END) AS pending_total,
+  SUM(CASE WHEN status=&#39;failed&#39;  THEN amount ELSE 0 END) AS failed_total
+FROM orders
+GROUP BY customer_id
+ORDER BY customer_id;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Custom Priority Sort</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given tickets(id, subject, priority) where priority is 'urgent', 'high', 'normal', 'low', sort in exactly that business order (not alphabetical).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">6 tickets with mixed priorities.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Rows in the order: urgent, high, normal, low.</div>
+                </div><div class="challenge-constraints">Use CASE in ORDER BY.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">CREATE TABLE tickets (id INT PRIMARY KEY, subject VARCHAR(60), priority VARCHAR(10));
+INSERT INTO tickets VALUES
+  (1,&#39;Server down&#39;,&#39;urgent&#39;),
+  (2,&#39;Typo on page&#39;,&#39;low&#39;),
+  (3,&#39;Deploy pipeline&#39;,&#39;high&#39;),
+  (4,&#39;Slow login&#39;,&#39;normal&#39;),
+  (5,&#39;Billing bug&#39;,&#39;urgent&#39;),
+  (6,&#39;Missing tooltip&#39;,&#39;low&#39;);
+
+SELECT *
+FROM tickets
+ORDER BY
+  CASE priority
+    WHEN &#39;urgent&#39; THEN 1
+    WHEN &#39;high&#39;   THEN 2
+    WHEN &#39;normal&#39; THEN 3
+    WHEN &#39;low&#39;    THEN 4
+    ELSE 5
+  END,
+  id;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Safe Margin Calculation</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given campaigns(id, name, spend, revenue), return roas (revenue / spend) and margin ((revenue-spend)/revenue). Handle zeros safely — return NULL instead of dividing by zero.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">4 campaigns including one with spend=0 and one with revenue=0.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Four rows, zero rows error out, NULLs where appropriate.</div>
+                </div><div class="challenge-constraints">Use NULLIF for safe division.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">CREATE TABLE campaigns (id INT PRIMARY KEY, name VARCHAR(40), spend DECIMAL(10,2), revenue DECIMAL(10,2));
+INSERT INTO campaigns VALUES
+  (1,&#39;Google Search&#39;,5000,25000),
+  (2,&#39;Meta Ads&#39;,3200,8000),
+  (3,&#39;LinkedIn&#39;,1500,0),
+  (4,&#39;YouTube&#39;,0,4200);
+
+SELECT name, spend, revenue,
+  ROUND(revenue / NULLIF(spend, 0), 2)                                         AS roas,
+  ROUND((revenue - spend) / NULLIF(revenue, 0), 4)                             AS margin
+FROM campaigns;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Age-Group Census</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given users(id, name, age), return a count of users per age group: 'Under 18', '18-29', '30-49', '50+'. Sort so the buckets appear in natural order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">8 users across all four buckets.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Four rows, one per bucket.</div>
+                </div><div class="challenge-constraints">CASE in both SELECT and GROUP BY. Sort using MIN(age).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(50), age INT);
+INSERT INTO users VALUES
+  (1,&#39;Ishaan Gupta&#39;,14),(2,&#39;Kavya Reddy&#39;,17),(3,&#39;Arjun Pillai&#39;,24),
+  (4,&#39;Neha Choudhary&#39;,28),(5,&#39;Diya Bhatt&#39;,35),(6,&#39;Dev Kapoor&#39;,41),
+  (7,&#39;Riya Joshi&#39;,52),(8,&#39;Kabir Shah&#39;,67);
+
+SELECT
+  CASE
+    WHEN age &lt; 18 THEN &#39;Under 18&#39;
+    WHEN age &lt; 30 THEN &#39;18-29&#39;
+    WHEN age &lt; 50 THEN &#39;30-49&#39;
+    ELSE            &#39;50+&#39;
+  END AS age_group,
+  COUNT(*) AS users
+FROM users
+GROUP BY age_group
+ORDER BY MIN(age);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Rating Pivot</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given feedback(id, product_id, rating) where rating is 1-5, return per product: count of each star rating as columns (stars_1 through stars_5) plus total_ratings and average_rating (rounded to 2 decimals).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">10 feedback rows across 3 products, varied ratings.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">One row per product with 7 columns.</div>
+                </div><div class="challenge-constraints">Use COUNT(CASE WHEN rating=N THEN 1 END) for each column.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">CREATE TABLE feedback (id INT PRIMARY KEY, product_id INT, rating INT);
+INSERT INTO feedback VALUES
+  (1,1,5),(2,1,4),(3,1,5),(4,1,3),
+  (5,2,2),(6,2,1),(7,2,3),
+  (8,3,5),(9,3,5),(10,3,4);
+
+SELECT product_id,
+  COUNT(CASE WHEN rating=1 THEN 1 END) AS stars_1,
+  COUNT(CASE WHEN rating=2 THEN 1 END) AS stars_2,
+  COUNT(CASE WHEN rating=3 THEN 1 END) AS stars_3,
+  COUNT(CASE WHEN rating=4 THEN 1 END) AS stars_4,
+  COUNT(CASE WHEN rating=5 THEN 1 END) AS stars_5,
+  COUNT(*)                              AS total_ratings,
+  ROUND(AVG(rating), 2)                 AS avg_rating
+FROM feedback
+GROUP BY product_id
+ORDER BY product_id;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Exam Verdict With Nulls</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given results(student, maths, english, science) where any subject can be NULL (absent), return student, total (treating NULL as 0), avg_marks, and verdict: 'Incomplete' if any NULL, 'Fail' if any subject < 40, 'Distinction' if avg >= 90, 'First Class' >= 75, 'Second Class' >= 60, else 'Pass'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">5 students, one with NULL in maths, one below 40 in english.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">5 rows with verdict column.</div>
+                </div><div class="challenge-constraints">Guard NULLs in the FIRST WHEN. Use IFNULL for total.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">CREATE TABLE results (student VARCHAR(50), maths INT, english INT, science INT);
+INSERT INTO results VALUES
+  (&#39;Aarav Sharma&#39;,92,88,95),
+  (&#39;Priya Nair&#39;,75,82,71),
+  (&#39;Rohan Mehta&#39;,60,33,68),
+  (&#39;Ananya Iyer&#39;,35,42,39),
+  (&#39;Vikram Singh&#39;,NULL,80,85);
+
+SELECT student, maths, english, science,
+  (IFNULL(maths,0)+IFNULL(english,0)+IFNULL(science,0)) AS total,
+  ROUND((IFNULL(maths,0)+IFNULL(english,0)+IFNULL(science,0))/3.0, 1) AS avg_marks,
+  CASE
+    WHEN maths IS NULL OR english IS NULL OR science IS NULL  THEN &#39;Incomplete&#39;
+    WHEN maths &lt; 40 OR english &lt; 40 OR science &lt; 40           THEN &#39;Fail&#39;
+    WHEN (maths+english+science)/3.0 &gt;= 90                     THEN &#39;Distinction&#39;
+    WHEN (maths+english+science)/3.0 &gt;= 75                     THEN &#39;First Class&#39;
+    WHEN (maths+english+science)/3.0 &gt;= 60                     THEN &#39;Second Class&#39;
+    ELSE                                                           &#39;Pass&#39;
+  END AS verdict
+FROM results;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/date-and-time-functions/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Date and Time Functions</span>
+        </a>
+            <a href="/resources/sql/window-functions/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/conditional-logic-case-when" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

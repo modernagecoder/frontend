@@ -1,0 +1,927 @@
+{
+  "title": "ORDER BY, LIMIT, and DISTINCT",
+  "slug": "sorting-and-limiting",
+  "language": "sql",
+  "chapter": 7,
+  "difficulty": "Beginner",
+  "readingTime": "20 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 56,
+  "seo": {
+    "title": "SQL ORDER BY, LIMIT, OFFSET, and DISTINCT - Sort, Paginate, Deduplicate | Modern Age Coders",
+    "description": "Learn SQL sorting with ORDER BY (ASC/DESC), multi-column sort, LIMIT with OFFSET for pagination, DISTINCT for unique values, and COUNT(DISTINCT). 56 practice questions with runnable MySQL examples.",
+    "keywords": "sql order by, sql limit offset, sql pagination, sql distinct, sql count distinct, mysql sort rows, sql top n, sql multi-column sort, sql interview questions"
+  },
+  "content": {
+    "what": "<h2>What Are ORDER BY, LIMIT, and DISTINCT?</h2><p>In the previous chapter you learned to retrieve rows with <code>SELECT</code> and filter them with <code>WHERE</code>. But the rows came back in an unpredictable order, and you had no way to say \"give me only the top 5\" or \"remove duplicates.\" This chapter fixes all three problems.</p><h3>ORDER BY — Sorting</h3><p><code>ORDER BY</code> sorts your result rows. You can sort ascending (<code>ASC</code>, the default) or descending (<code>DESC</code>), and by multiple columns (e.g., department first, then salary within each department).</p><h3>LIMIT and OFFSET — Restricting Rows</h3><p><code>LIMIT n</code> returns only the first <code>n</code> rows. Combined with <code>ORDER BY</code>, this gives you queries like \"top 5 highest-paid employees.\" <code>OFFSET</code> skips rows — essential for pagination (page 1 shows rows 1-10, page 2 shows rows 11-20, etc.).</p><h3>DISTINCT — Removing Duplicates</h3><p><code>SELECT DISTINCT</code> removes duplicate rows from the result. Useful when you want unique values — e.g., \"which departments exist?\" or \"which cities have orders?\". Combined with <code>COUNT()</code>, it tells you how many unique values exist.</p><p>Together, these three features turn raw data into the kind of sorted, paginated, deduplicated results you actually use in dashboards, reports, and paginated lists.</p>",
+    "why": "<h2>Why Do These Matter?</h2><h3>1. Every Dashboard Uses ORDER BY</h3><p>Look at any dashboard — top products by revenue, most recent orders, highest-rated restaurants. Every single one uses <code>ORDER BY</code> to present data in a meaningful order. Without sorting, data is just a random pile.</p><h3>2. LIMIT Makes Queries Fast</h3><p>If you want the top 5 employees, you do NOT want the database to send you 10 million rows and then throw away 9,999,995 of them. <code>LIMIT 5</code> lets the database stop early. Combined with an index, this can turn a 10-second query into a 1-millisecond query.</p><h3>3. Pagination Is Everywhere</h3><p>Instagram feed, Amazon product listings, Gmail inbox — all paginated. Every pagination system on the internet uses SQL's <code>LIMIT</code> and <code>OFFSET</code> (or similar patterns). If you cannot write a pagination query, you cannot build a real web app.</p><h3>4. DISTINCT Answers \"What Categories Exist?\"</h3><p>Product managers constantly ask: \"How many unique customers bought from us this month?\" \"Which countries have active users?\" These are all <code>COUNT(DISTINCT col)</code> or <code>SELECT DISTINCT col</code> queries.</p><h3>5. Interview Staples</h3><p>\"Find the 2nd highest salary\" is possibly the most-asked SQL interview question in the world. It uses <code>ORDER BY</code>, <code>LIMIT</code>, and sometimes <code>OFFSET</code>. You will be asked this in literally every SQL interview.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Reference Table: products</h3><p>For this chapter we use a <code>products</code> table. Create it once:</p><pre><code>CREATE TABLE products (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    category VARCHAR(30),\n    price DECIMAL(10,2),\n    stock INT,\n    city VARCHAR(30)\n);\n\nINSERT INTO products VALUES\n(1, 'iPhone 15', 'Electronics', 79999.00, 25, 'Mumbai'),\n(2, 'Samsung TV', 'Electronics', 45999.00, 15, 'Delhi'),\n(3, 'Running Shoes', 'Sports', 4999.00, 120, 'Bengaluru'),\n(4, 'Cricket Bat', 'Sports', 2499.00, 80, 'Mumbai'),\n(5, 'Milk 1L', 'Grocery', 68.00, 500, 'Delhi'),\n(6, 'Bread', 'Grocery', 45.00, 300, 'Bengaluru'),\n(7, 'Headphones', 'Electronics', 3499.00, 60, 'Mumbai'),\n(8, 'Yoga Mat', 'Sports', 1299.00, 45, 'Pune'),\n(9, 'Rice 5kg', 'Grocery', 420.00, 200, 'Delhi'),\n(10, 'Laptop', 'Electronics', 65000.00, 10, 'Bengaluru'),\n(11, 'Football', 'Sports', 899.00, 150, 'Mumbai'),\n(12, 'Soap', 'Grocery', 60.00, 800, 'Pune');</code></pre><h3>1. ORDER BY Basics</h3><p>Syntax: <code>ORDER BY column [ASC|DESC]</code>. ASC (ascending, low to high) is the default — you can omit it.</p><pre><code>-- Sort products by price ascending\nSELECT name, price FROM products ORDER BY price;\n\n-- Sort descending (highest price first)\nSELECT name, price FROM products ORDER BY price DESC;</code></pre><h3>2. Multi-Column Sort</h3><p>Provide multiple columns separated by commas. SQL sorts by the first column, then breaks ties using the second, then the third, etc.</p><pre><code>-- Sort by category ascending, then by price descending within category\nSELECT name, category, price FROM products\nORDER BY category ASC, price DESC;</code></pre><p>Result: Electronics group comes first (alphabetically), with highest-priced electronics at top. Then Grocery group. Then Sports group.</p><h3>3. ORDER BY with Aliases and Expressions</h3><p><code>ORDER BY</code> is one of the few clauses where column aliases from SELECT ARE allowed (unlike WHERE). You can also sort by computed expressions:</p><pre><code>-- Sort by total inventory value (price * stock)\nSELECT name, price, stock, price * stock AS inventory_value\nFROM products\nORDER BY inventory_value DESC;\n\n-- Or use the expression directly\nSELECT name, price, stock FROM products\nORDER BY price * stock DESC;</code></pre><p>You can even sort by column position (1-indexed): <code>ORDER BY 2 DESC</code> sorts by the second column in SELECT. This is discouraged — it breaks when you reorder columns.</p><h3>4. NULL Handling in ORDER BY</h3><p>In MySQL, <code>NULL</code> is treated as the <strong>smallest value</strong>. So <code>ORDER BY col ASC</code> puts NULLs first, and <code>ORDER BY col DESC</code> puts NULLs last. PostgreSQL does the opposite by default. For portability, use <code>ORDER BY col IS NULL, col</code> to force NULLs to the end.</p><h3>5. LIMIT — Getting the First N Rows</h3><p><code>LIMIT n</code> returns the first n rows of the result. Usually paired with ORDER BY:</p><pre><code>-- Top 3 most expensive products\nSELECT name, price FROM products\nORDER BY price DESC\nLIMIT 3;</code></pre><p>Without <code>ORDER BY</code>, the \"first 3\" is whatever rows the database returns first — unpredictable. Always pair LIMIT with ORDER BY for deterministic results.</p><h3>6. LIMIT with OFFSET — Pagination</h3><p>MySQL supports two equivalent syntaxes:</p><pre><code>-- Syntax 1: LIMIT offset, count\nSELECT * FROM products ORDER BY id LIMIT 10, 5;\n-- Skip 10, take 5 (rows 11-15)\n\n-- Syntax 2: LIMIT count OFFSET offset\nSELECT * FROM products ORDER BY id LIMIT 5 OFFSET 10;\n-- Same thing: skip 10, take 5</code></pre><p>The second form is clearer — use it. MySQL-only code often uses the first form; PostgreSQL only supports the second.</p><h3>7. Pagination Pattern</h3><p>To show N items per page, on page P:</p><pre><code>-- Page 1: LIMIT 10 OFFSET 0\n-- Page 2: LIMIT 10 OFFSET 10\n-- Page 3: LIMIT 10 OFFSET 20\n-- Page P: LIMIT 10 OFFSET (P-1)*10</code></pre><p>Formula: <code>OFFSET = (page_number - 1) * page_size</code>.</p><h4>Performance Warning: Deep OFFSET Is Slow</h4><p>At page 10000 with page size 10, MySQL has to scan 100,000 rows and throw away the first 99,990. This gets slower and slower. For deep pagination, use <strong>keyset pagination</strong>: <code>WHERE id &gt; last_seen_id ORDER BY id LIMIT 10</code>. This is O(log n) with an index instead of O(n).</p><h3>8. DISTINCT — Unique Values</h3><p><code>DISTINCT</code> removes duplicate rows from the result:</p><pre><code>-- What categories do we sell?\nSELECT DISTINCT category FROM products;\n-- Returns: Electronics, Grocery, Sports (3 rows, not 12)\n\n-- What cities?\nSELECT DISTINCT city FROM products;\n-- Returns: Mumbai, Delhi, Bengaluru, Pune</code></pre><p>DISTINCT applies to the whole row, not a single column. <code>SELECT DISTINCT category, city FROM products</code> returns unique <em>combinations</em> of category and city.</p><pre><code>SELECT DISTINCT category, city FROM products ORDER BY category, city;\n-- Returns all unique (category, city) pairs\n-- Electronics-Bengaluru, Electronics-Delhi, Electronics-Mumbai,\n-- Grocery-Bengaluru, Grocery-Delhi, Grocery-Pune,\n-- Sports-Bengaluru, Sports-Mumbai, Sports-Pune</code></pre><h3>9. COUNT(DISTINCT col) — How Many Unique Values</h3><p>To count distinct values, wrap the column in COUNT:</p><pre><code>-- How many unique categories?\nSELECT COUNT(DISTINCT category) FROM products;\n-- Returns: 3\n\n-- How many unique cities?\nSELECT COUNT(DISTINCT city) FROM products;\n-- Returns: 4</code></pre><p>Note: <code>COUNT(*)</code> counts all rows including duplicates. <code>COUNT(column)</code> counts non-NULL values. <code>COUNT(DISTINCT column)</code> counts unique non-NULL values. NULL is always excluded from DISTINCT counts.</p><h3>10. Order of Clauses</h3><p>When combining everything, the order matters:</p><pre><code>SELECT [DISTINCT] columns\nFROM table\nWHERE conditions\nORDER BY columns\nLIMIT n OFFSET m;</code></pre><p>This is the syntactic order. The logical execution order is different (FROM → WHERE → SELECT → ORDER BY → LIMIT), which matters when you use aliases — more on this in the GROUP BY chapter.</p>",
+    "codeExamples": [
+      {
+        "title": "Basic ORDER BY ASC and DESC",
+        "code": "-- Ascending (default): cheapest first\nSELECT name, price FROM products\nORDER BY price\nLIMIT 5;\n\n-- Descending: most expensive first\nSELECT name, price FROM products\nORDER BY price DESC\nLIMIT 5;",
+        "language": "sql",
+        "explanation": "ASC is default. DESC reverses. We use LIMIT 5 to keep outputs short. Notice the first query starts with the cheapest (Bread at 45) and the second starts with the most expensive (iPhone at 79999).",
+        "output": "Query 1 (ascending):\nBread           45.00\nSoap            60.00\nMilk 1L         68.00\nRice 5kg        420.00\nFootball        899.00\n\nQuery 2 (descending):\niPhone 15       79999.00\nLaptop          65000.00\nSamsung TV      45999.00\nRunning Shoes   4999.00\nHeadphones      3499.00"
+      },
+      {
+        "title": "Multi-Column Sort",
+        "code": "-- Sort by category ascending, then price descending within category\nSELECT name, category, price FROM products\nORDER BY category ASC, price DESC;",
+        "language": "sql",
+        "explanation": "First sort key: category alphabetically (Electronics, Grocery, Sports). Within each category, second sort key: price descending. Inside Electronics: iPhone (79999), Laptop (65000), Samsung TV (45999), Headphones (3499). Inside Grocery: Rice (420), Milk (68), Soap (60), Bread (45).",
+        "output": "name            category     price\niPhone 15       Electronics  79999.00\nLaptop          Electronics  65000.00\nSamsung TV      Electronics  45999.00\nHeadphones      Electronics  3499.00\nRice 5kg        Grocery      420.00\nMilk 1L         Grocery      68.00\nSoap            Grocery      60.00\nBread           Grocery      45.00\nRunning Shoes   Sports       4999.00\nCricket Bat     Sports       2499.00\nYoga Mat        Sports       1299.00\nFootball        Sports       899.00"
+      },
+      {
+        "title": "ORDER BY an Expression",
+        "code": "-- Sort by inventory value (price * stock) descending\nSELECT name, price, stock, price * stock AS inventory_value\nFROM products\nORDER BY inventory_value DESC\nLIMIT 5;",
+        "language": "sql",
+        "explanation": "We compute <code>price * stock</code>, alias it as <code>inventory_value</code>, and sort by it. ORDER BY accepts expressions and aliases from SELECT — WHERE does not. iPhone has the highest value: 79999 * 25 = 1,999,975.",
+        "output": "name            price       stock   inventory_value\niPhone 15       79999.00    25      1999975.00\nLaptop          65000.00    10      650000.00\nSamsung TV      45999.00    15      689985.00\nRunning Shoes   4999.00     120     599880.00\nHeadphones      3499.00     60      209940.00\n\n(Actually, sorted: iPhone 1999975, Samsung TV 689985, Laptop 650000, Running Shoes 599880, Headphones 209940)"
+      },
+      {
+        "title": "LIMIT for Top N",
+        "code": "-- Top 3 most expensive products\nSELECT name, price FROM products\nORDER BY price DESC\nLIMIT 3;\n\n-- Cheapest 2 products\nSELECT name, price FROM products\nORDER BY price ASC\nLIMIT 2;",
+        "language": "sql",
+        "explanation": "LIMIT with ORDER BY is the top-N pattern. Without ORDER BY, the \"top 3\" would be whatever rows the database returns first, which is unpredictable. Always sort before limiting.",
+        "output": "Top 3 most expensive:\niPhone 15       79999.00\nLaptop          65000.00\nSamsung TV      45999.00\n\nCheapest 2:\nBread           45.00\nSoap            60.00"
+      },
+      {
+        "title": "Pagination with LIMIT and OFFSET",
+        "code": "-- 5 items per page, ordered by id\n\n-- Page 1: rows 1-5\nSELECT * FROM products ORDER BY id LIMIT 5 OFFSET 0;\n\n-- Page 2: rows 6-10\nSELECT * FROM products ORDER BY id LIMIT 5 OFFSET 5;\n\n-- Page 3: rows 11-12 (only 2 left)\nSELECT * FROM products ORDER BY id LIMIT 5 OFFSET 10;",
+        "language": "sql",
+        "explanation": "OFFSET skips rows, LIMIT takes rows. Formula: OFFSET = (page_number - 1) * page_size. Page 1: skip 0, take 5. Page 2: skip 5, take 5. Page 3: skip 10, take 5 but only 2 remain. MySQL alternate syntax <code>LIMIT 10, 5</code> means offset 10, limit 5 — watch the order.",
+        "output": "Page 1: ids 1-5 (iPhone, Samsung TV, Running Shoes, Cricket Bat, Milk 1L)\nPage 2: ids 6-10 (Bread, Headphones, Yoga Mat, Rice 5kg, Laptop)\nPage 3: ids 11-12 (Football, Soap)"
+      },
+      {
+        "title": "DISTINCT for Unique Values",
+        "code": "-- Unique categories\nSELECT DISTINCT category FROM products;\n\n-- Unique cities, sorted\nSELECT DISTINCT city FROM products ORDER BY city;\n\n-- Unique (category, city) combinations\nSELECT DISTINCT category, city FROM products\nORDER BY category, city;",
+        "language": "sql",
+        "explanation": "First query: 3 unique categories (Electronics, Grocery, Sports). Second: 4 unique cities alphabetically (Bengaluru, Delhi, Mumbai, Pune). Third: DISTINCT on multiple columns returns unique combinations, not the cross product. We have 9 unique (category, city) pairs.",
+        "output": "Unique categories (3 rows):\nElectronics\nGrocery\nSports\n\nUnique cities (4 rows):\nBengaluru\nDelhi\nMumbai\nPune\n\nUnique (category, city) - 9 rows:\nElectronics Bengaluru\nElectronics Delhi\nElectronics Mumbai\nGrocery Bengaluru\nGrocery Delhi\nGrocery Pune\nSports Bengaluru\nSports Mumbai\nSports Pune"
+      },
+      {
+        "title": "COUNT(DISTINCT column)",
+        "code": "-- How many unique categories?\nSELECT COUNT(DISTINCT category) AS num_categories FROM products;\n\n-- How many unique cities?\nSELECT COUNT(DISTINCT city) AS num_cities FROM products;\n\n-- Compare: COUNT(*), COUNT(category), COUNT(DISTINCT category)\nSELECT\n    COUNT(*) AS all_rows,\n    COUNT(category) AS non_null_cats,\n    COUNT(DISTINCT category) AS unique_cats\nFROM products;",
+        "language": "sql",
+        "explanation": "COUNT(DISTINCT col) counts unique non-NULL values. Comparison: COUNT(*) = 12 (all rows). COUNT(category) = 12 (none are NULL). COUNT(DISTINCT category) = 3 (Electronics, Grocery, Sports). This three-way distinction is a common interview topic.",
+        "output": "num_categories: 3\nnum_cities: 4\n\nComparison row:\nall_rows=12, non_null_cats=12, unique_cats=3"
+      },
+      {
+        "title": "Combined: Top Electronics by Price",
+        "code": "-- Top 3 most expensive Electronics products, with city info\nSELECT name, price, city\nFROM products\nWHERE category = 'Electronics'\nORDER BY price DESC\nLIMIT 3;",
+        "language": "sql",
+        "explanation": "Combining WHERE, ORDER BY, and LIMIT. Filter to Electronics (4 rows), sort by price descending, take top 3. The order of clauses in syntax is WHERE → ORDER BY → LIMIT. Headphones (3499) is the 4th electronic, so it gets cut.",
+        "output": "name         price     city\niPhone 15    79999.00  Mumbai\nLaptop       65000.00  Bengaluru\nSamsung TV   45999.00  Delhi"
+      },
+      {
+        "title": "2nd Highest Salary Pattern (Interview Classic)",
+        "code": "-- Using employees table from chapter 6\n-- Get the 2nd highest salary using LIMIT with OFFSET\nSELECT DISTINCT salary\nFROM employees\nORDER BY salary DESC\nLIMIT 1 OFFSET 1;\n\n-- General: Nth highest = LIMIT 1 OFFSET N-1",
+        "language": "sql",
+        "explanation": "The most-asked SQL interview question ever. Sort salaries descending, use DISTINCT to handle ties, skip the first (highest), take the next one. For 2nd highest: OFFSET 1, LIMIT 1. For 3rd highest: OFFSET 2. Using our employees table (from chapter 6): Diya 110000 is 1st, Rohan 92000 is 2nd. Answer: 92000.",
+        "output": "salary\n92000\n(1 row — Rohan Gupta's salary)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using LIMIT Without ORDER BY",
+        "wrongCode": "-- Intent: get the top 5 most expensive products\nSELECT * FROM products LIMIT 5;",
+        "error": "No error, but returns 5 arbitrary rows — not necessarily the most expensive. The database can return rows in any order when there is no ORDER BY.",
+        "correctCode": "SELECT * FROM products\nORDER BY price DESC\nLIMIT 5;",
+        "explanation": "LIMIT without ORDER BY is non-deterministic. The order depends on physical storage, indexes used, and query optimizer decisions — it may even change between runs. Whenever you use LIMIT, pair it with ORDER BY to guarantee which rows you get."
+      },
+      {
+        "title": "Mixing Up MySQL's LIMIT a, b Syntax",
+        "wrongCode": "-- Trying to get 10 rows starting at row 20\nSELECT * FROM products LIMIT 10, 20;",
+        "error": "No error, but returns WRONG rows. LIMIT 10, 20 means offset 10, limit 20 — skip 10 rows, take 20. Not 10 rows starting at 20.",
+        "correctCode": "-- To get 10 rows starting at offset 20:\nSELECT * FROM products LIMIT 20, 10;\n-- Or clearer:\nSELECT * FROM products LIMIT 10 OFFSET 20;",
+        "explanation": "MySQL's two-argument LIMIT is <code>LIMIT offset, count</code> (offset first, count second). This confuses everyone. Always use the <code>LIMIT count OFFSET offset</code> syntax — it is unambiguous and matches PostgreSQL."
+      },
+      {
+        "title": "DISTINCT Only On Some Columns",
+        "wrongCode": "-- Intent: unique names, but also show price\nSELECT DISTINCT name, price FROM products;",
+        "error": "No error, but DISTINCT applies to the WHOLE ROW (name + price), not just name. If two rows have the same name but different prices, both appear.",
+        "correctCode": "-- If you just want unique names:\nSELECT DISTINCT name FROM products;\n\n-- If you want one price per name (e.g., highest), use GROUP BY:\nSELECT name, MAX(price) FROM products GROUP BY name;",
+        "explanation": "DISTINCT is row-level, not column-level. <code>SELECT DISTINCT name, price</code> returns unique (name, price) pairs. To get unique names with one price each, you need GROUP BY with an aggregate — covered in chapter 10."
+      },
+      {
+        "title": "Deep OFFSET Getting Slow",
+        "wrongCode": "-- Page 10,000 of a large table:\nSELECT * FROM products ORDER BY id LIMIT 10 OFFSET 99990;",
+        "error": "No error, but performance degrades badly. MySQL must scan 100,000 rows and throw away 99,990 before returning 10. A query that is fast on page 1 can take seconds on page 10,000.",
+        "correctCode": "-- Keyset pagination (remember the last seen id):\nSELECT * FROM products\nWHERE id > 99990  -- last seen id from previous page\nORDER BY id\nLIMIT 10;",
+        "explanation": "OFFSET is O(n) — it scans all skipped rows. For deep pagination in production (Instagram-style infinite scroll), use keyset pagination: <code>WHERE id &gt; last_seen_id ORDER BY id LIMIT n</code>. This is O(log n) with an index."
+      },
+      {
+        "title": "ORDER BY in WHERE or DISTINCT in WHERE",
+        "wrongCode": "SELECT * FROM products WHERE ORDER BY price DESC;\nSELECT * FROM products WHERE DISTINCT category = 'Sports';",
+        "error": "Both are syntax errors. ORDER BY is a top-level clause, not a WHERE modifier. DISTINCT goes right after SELECT, not inside WHERE.",
+        "correctCode": "-- Correct syntax:\nSELECT * FROM products\nWHERE category = 'Sports'\nORDER BY price DESC;\n\nSELECT DISTINCT category FROM products\nWHERE category = 'Sports';",
+        "explanation": "Clauses have a strict order: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. DISTINCT goes inside SELECT. Never mix them up."
+      }
+    ],
+    "summary": [
+      "ORDER BY sorts the result. ASC is ascending (default), DESC is descending. Without ORDER BY, row order is unpredictable.",
+      "Multi-column sort: ORDER BY col1, col2 sorts by col1, ties broken by col2. Each column can have its own ASC/DESC.",
+      "ORDER BY accepts column aliases from SELECT and computed expressions. WHERE does not — that is a key difference.",
+      "LIMIT n returns the first n rows. ALWAYS pair with ORDER BY to make the result deterministic.",
+      "MySQL two-syntaxes: LIMIT 10, 5 (offset 10, count 5) and LIMIT 5 OFFSET 10 (count 5, offset 10). Prefer the second — it's clear and portable.",
+      "Pagination formula: OFFSET = (page_number - 1) * page_size. Page 1 starts at offset 0.",
+      "Deep OFFSET is slow because MySQL scans and discards skipped rows. For production pagination, use keyset pagination with WHERE id > last_seen_id.",
+      "DISTINCT removes duplicate rows from the result. SELECT DISTINCT col1, col2 returns unique combinations of col1 and col2 — it applies row-wise, not column-wise.",
+      "COUNT(DISTINCT column) counts unique non-NULL values. Compare with COUNT(*) (all rows) and COUNT(column) (non-NULL rows).",
+      "Classic interview pattern — Nth highest salary: SELECT DISTINCT salary FROM table ORDER BY salary DESC LIMIT 1 OFFSET N-1."
+    ]
+  },
+  "relatedTopics": ["select-basics-and-where", "pattern-matching-and-null", "aggregate-functions"],
+  "practice": {
+    "totalQuestions": 56,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Sort all products by price ascending. Return name and price.",
+        "hint": "ORDER BY price (ASC is default).",
+        "answer": "<pre><code>SELECT name, price FROM products ORDER BY price;</code></pre>",
+        "explanation": "ASC is default and can be omitted. Returns all 12 products with Bread (45) first and iPhone (79999) last."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Get the top 5 most expensive products.",
+        "hint": "ORDER BY DESC + LIMIT.",
+        "answer": "<pre><code>SELECT name, price FROM products\nORDER BY price DESC\nLIMIT 5;</code></pre>",
+        "explanation": "Top 5 by price: iPhone 15 (79999), Laptop (65000), Samsung TV (45999), Running Shoes (4999), Headphones (3499)."
+      },
+      {
+        "id": "ts-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "List unique categories in the products table.",
+        "hint": "SELECT DISTINCT.",
+        "answer": "<pre><code>SELECT DISTINCT category FROM products;</code></pre>",
+        "explanation": "Returns 3 rows: Electronics, Grocery, Sports. The order depends on MySQL — add ORDER BY for deterministic order."
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Count how many unique cities the products are from.",
+        "hint": "COUNT(DISTINCT ...).",
+        "answer": "<pre><code>SELECT COUNT(DISTINCT city) FROM products;</code></pre>",
+        "explanation": "Returns 4 (Mumbai, Delhi, Bengaluru, Pune)."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Sort all products by stock ascending, but only show the lowest 3 stock items.",
+        "hint": "LIMIT + ASC sort.",
+        "answer": "<pre><code>SELECT name, stock FROM products\nORDER BY stock ASC\nLIMIT 3;</code></pre>",
+        "explanation": "Lowest stock: Laptop (10), Samsung TV (15), iPhone 15 (25)."
+      },
+      {
+        "id": "ts-6",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Get page 2 of products (5 per page), sorted by id.",
+        "hint": "OFFSET = (2-1) * 5 = 5.",
+        "answer": "<pre><code>SELECT * FROM products\nORDER BY id\nLIMIT 5 OFFSET 5;</code></pre>",
+        "explanation": "Page 2 shows rows 6-10: Bread, Headphones, Yoga Mat, Rice 5kg, Laptop."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows?<br><pre><code>SELECT DISTINCT category FROM products;</code></pre>",
+        "hint": "Count distinct categories.",
+        "answer": "<code>3 rows</code>",
+        "explanation": "Three unique categories: Electronics, Grocery, Sports."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the first row?<br><pre><code>SELECT name FROM products ORDER BY price DESC LIMIT 1;</code></pre>",
+        "hint": "Highest priced product.",
+        "answer": "<code>iPhone 15</code>",
+        "explanation": "iPhone 15 at 79999 is the most expensive. LIMIT 1 returns just that."
+      },
+      {
+        "id": "ts-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Sort products by category ascending, then by price descending within each category.",
+        "hint": "Multi-column ORDER BY.",
+        "answer": "<pre><code>SELECT name, category, price FROM products\nORDER BY category ASC, price DESC;</code></pre>",
+        "explanation": "Electronics group first alphabetically, sorted by price DESC within. Then Grocery. Then Sports."
+      },
+      {
+        "id": "ts-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find the 2nd cheapest product (lowest price is 1st). Return name and price.",
+        "hint": "ORDER BY ASC, OFFSET 1, LIMIT 1.",
+        "answer": "<pre><code>SELECT name, price FROM products\nORDER BY price ASC\nLIMIT 1 OFFSET 1;</code></pre>",
+        "explanation": "Cheapest: Bread (45). 2nd cheapest: Soap (60). Offset 1 skips Bread, Limit 1 returns Soap."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Return the product with the highest inventory value (price * stock).",
+        "hint": "Sort by price * stock DESC, LIMIT 1.",
+        "answer": "<pre><code>SELECT name, price, stock, price * stock AS inventory_value\nFROM products\nORDER BY price * stock DESC\nLIMIT 1;</code></pre>",
+        "explanation": "iPhone: 79999 * 25 = 1,999,975. This is the highest. You can sort by the expression directly or by the alias."
+      },
+      {
+        "id": "ts-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "List unique (category, city) combinations sorted by category then city.",
+        "hint": "DISTINCT on multiple columns.",
+        "answer": "<pre><code>SELECT DISTINCT category, city FROM products\nORDER BY category, city;</code></pre>",
+        "explanation": "DISTINCT applies row-wise, so this returns unique (category, city) pairs. 9 rows total based on our data."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Get page 3 of products, 4 items per page, ordered by name.",
+        "hint": "OFFSET = (3-1) * 4 = 8.",
+        "answer": "<pre><code>SELECT * FROM products\nORDER BY name\nLIMIT 4 OFFSET 8;</code></pre>",
+        "explanation": "After sorting by name, page 3 shows positions 9-12. Depending on names that might be last 4 alphabetically (Running Shoes, Samsung TV, Soap, Yoga Mat)."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is returned?<br><pre><code>SELECT DISTINCT category, city FROM products\nWHERE category = 'Sports';</code></pre>",
+        "hint": "Sports is in which cities?",
+        "answer": "<code>Sports Bengaluru<br>Sports Mumbai<br>Sports Pune<br>(3 rows)</code>",
+        "explanation": "Sports products: Running Shoes (Bengaluru), Cricket Bat (Mumbai), Yoga Mat (Pune), Football (Mumbai). Unique (category, city): Sports-Bengaluru, Sports-Mumbai, Sports-Pune. 3 rows."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between ASC and DESC in ORDER BY?",
+        "hint": "Direction of sorting.",
+        "answer": "<code>ASC</code> means <strong>ascending</strong> — smallest first, largest last. This is the default. <code>DESC</code> means <strong>descending</strong> — largest first, smallest last. For strings, ASC is alphabetical (A to Z), DESC is reverse (Z to A). For dates, ASC is oldest first, DESC is newest first.",
+        "explanation": "You can mix both in multi-column sort: <code>ORDER BY category ASC, price DESC</code>. Default is ASC, so omitting gives ascending order."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you always use ORDER BY with LIMIT?",
+        "hint": "Determinism.",
+        "answer": "Without ORDER BY, SQL does not guarantee any particular order of rows. LIMIT just takes the first n rows of whatever order the database chose, which can change between queries. Using ORDER BY makes the result deterministic and predictable. Always pair LIMIT with ORDER BY in production code.",
+        "explanation": "In MySQL, without ORDER BY, results are usually returned in insertion or index order, but this is implementation-defined and not guaranteed. A query that worked yesterday may return different rows today after a database upgrade."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain the difference between COUNT(*), COUNT(column), and COUNT(DISTINCT column).",
+        "hint": "What each counts.",
+        "answer": "<code>COUNT(*)</code> counts all rows in the result, including NULLs. <code>COUNT(column)</code> counts rows where <em>column</em> is NOT NULL — NULLs are skipped. <code>COUNT(DISTINCT column)</code> counts unique non-NULL values — duplicates and NULLs are excluded.",
+        "explanation": "Example: if column has values [1, 2, 2, NULL, NULL], COUNT(*) = 5, COUNT(column) = 3, COUNT(DISTINCT column) = 2. This distinction is critical in interviews."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find the 3rd highest priced product using LIMIT and OFFSET.",
+        "hint": "OFFSET 2, LIMIT 1 after ORDER BY DESC.",
+        "answer": "<pre><code>SELECT name, price FROM products\nORDER BY price DESC\nLIMIT 1 OFFSET 2;</code></pre>",
+        "explanation": "1st: iPhone (79999). 2nd: Laptop (65000). 3rd: Samsung TV (45999). OFFSET 2 skips the first two, LIMIT 1 returns the next one."
+      },
+      {
+        "id": "ts-19",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Return 3 products with the highest stock, but only among Grocery items.",
+        "hint": "WHERE filter + ORDER BY + LIMIT.",
+        "answer": "<pre><code>SELECT name, stock FROM products\nWHERE category = 'Grocery'\nORDER BY stock DESC\nLIMIT 3;</code></pre>",
+        "explanation": "Grocery items by stock DESC: Soap (800), Milk 1L (500), Bread (300), Rice 5kg (200). Top 3: Soap, Milk 1L, Bread."
+      },
+      {
+        "id": "ts-20",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Count how many unique categories exist for products priced above 1000.",
+        "hint": "WHERE + COUNT(DISTINCT).",
+        "answer": "<pre><code>SELECT COUNT(DISTINCT category) FROM products\nWHERE price > 1000;</code></pre>",
+        "explanation": "Products with price > 1000: iPhone, Samsung TV, Running Shoes, Cricket Bat, Headphones, Yoga Mat, Laptop. Categories: Electronics, Sports. Count: 2."
+      },
+      {
+        "id": "ts-21",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does LIMIT 10000 OFFSET 99990 become slow? How would you fix it for production?",
+        "hint": "Think about what MySQL has to do for OFFSET.",
+        "answer": "OFFSET requires MySQL to scan and discard every row up to the offset position. So OFFSET 99990 scans 99,990 rows just to throw them away. This is O(n). Fix: use <strong>keyset pagination</strong> — remember the last id/value from the previous page and use <code>WHERE id &gt; last_seen_id ORDER BY id LIMIT n</code>. This is O(log n) with an index and stays fast regardless of page depth.",
+        "explanation": "This is why Twitter/Instagram use infinite-scroll IDs (the 'since_id' pattern) instead of page numbers — keyset pagination scales to billions of rows."
+      },
+      {
+        "id": "ts-22",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this return (from employees table)?<br><pre><code>SELECT DISTINCT salary FROM employees\nORDER BY salary DESC\nLIMIT 1 OFFSET 2;</code></pre>",
+        "hint": "3rd highest distinct salary.",
+        "answer": "<code>81000 (Karan Mehta's salary)</code>",
+        "explanation": "Employee salaries DESC: 110000, 92000, 81000, 75000, 68000, 63000, 58000, 52000, 47000, 45000. No duplicates. 3rd highest (offset 2 + limit 1) = 81000."
+      },
+      {
+        "id": "ts-23",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Return all products sorted by category ASC, but within each category sort by stock DESC and then price ASC.",
+        "hint": "Three sort keys.",
+        "answer": "<pre><code>SELECT name, category, stock, price FROM products\nORDER BY category ASC, stock DESC, price ASC;</code></pre>",
+        "explanation": "First sort: category alphabetically. Within each category, highest stock first. If stock ties, cheapest first. SQL applies sort keys in the order listed."
+      },
+      {
+        "id": "ts-24",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Paginate Electronics products, 2 per page. Write the query for page 2.",
+        "hint": "WHERE first, then ORDER BY, then LIMIT/OFFSET.",
+        "answer": "<pre><code>SELECT * FROM products\nWHERE category = 'Electronics'\nORDER BY id\nLIMIT 2 OFFSET 2;</code></pre>",
+        "explanation": "Electronics sorted by id: iPhone (1), Samsung TV (2), Headphones (7), Laptop (10). Page 2 (offset 2, limit 2) returns rows 3-4: Headphones and Laptop."
+      },
+      {
+        "id": "ts-25",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "In MySQL, how are NULLs sorted by default in ORDER BY?",
+        "hint": "NULLs treated as smallest or largest?",
+        "answer": "MySQL treats NULL as the <strong>smallest value</strong>. So <code>ORDER BY col ASC</code> puts NULLs first (at the top), and <code>ORDER BY col DESC</code> puts NULLs last. This differs from PostgreSQL which does the opposite by default. For portable code, use <code>ORDER BY col IS NULL, col</code> to force NULLs to the bottom regardless of database.",
+        "explanation": "This is a subtle portability issue. PostgreSQL supports <code>ORDER BY col NULLS FIRST/LAST</code> directly, which MySQL does not. The <code>IS NULL</code> trick works everywhere."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Sort products by name alphabetically.",
+        "hint": "ORDER BY name.",
+        "answer": "<pre><code>SELECT * FROM products ORDER BY name;</code></pre>",
+        "explanation": "Alphabetical sort: Bread, Cricket Bat, Football, Headphones, iPhone 15, Laptop, ... (12 rows)."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Get the cheapest product.",
+        "hint": "ORDER BY ASC, LIMIT 1.",
+        "answer": "<pre><code>SELECT name, price FROM products\nORDER BY price ASC\nLIMIT 1;</code></pre>",
+        "explanation": "Bread at 45.00 is the cheapest."
+      },
+      {
+        "id": "mx-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Show how many products we have in total.",
+        "hint": "COUNT(*).",
+        "answer": "<pre><code>SELECT COUNT(*) FROM products;</code></pre>",
+        "explanation": "Returns 12 — our total number of products."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Find all distinct prices (in case of duplicates).",
+        "hint": "DISTINCT price.",
+        "answer": "<pre><code>SELECT DISTINCT price FROM products ORDER BY price;</code></pre>",
+        "explanation": "All 12 products have unique prices in our data, so 12 rows returned. If any were duplicated, DISTINCT would remove them."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "How many rows?<br><pre><code>SELECT * FROM products LIMIT 0;</code></pre>",
+        "hint": "Limit zero.",
+        "answer": "<code>0 rows</code>",
+        "explanation": "LIMIT 0 returns no rows. Useful when you only want to inspect the column structure without data."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "List distinct cities in alphabetical order.",
+        "hint": "DISTINCT + ORDER BY.",
+        "answer": "<pre><code>SELECT DISTINCT city FROM products ORDER BY city;</code></pre>",
+        "explanation": "Bengaluru, Delhi, Mumbai, Pune — alphabetically. 4 rows."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the first product returned?<br><pre><code>SELECT name FROM products ORDER BY stock DESC LIMIT 1;</code></pre>",
+        "hint": "Highest stock.",
+        "answer": "<code>Soap</code>",
+        "explanation": "Soap has stock 800 — the highest. Milk has 500, Bread 300, Rice 200, Football 150, Running Shoes 120, etc."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Get the 3 most expensive Electronics.",
+        "hint": "WHERE + ORDER BY DESC + LIMIT.",
+        "answer": "<pre><code>SELECT name, price FROM products\nWHERE category = 'Electronics'\nORDER BY price DESC\nLIMIT 3;</code></pre>",
+        "explanation": "iPhone (79999), Laptop (65000), Samsung TV (45999)."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Get 2 products from the middle of the alphabetically sorted list (positions 6-7).",
+        "hint": "OFFSET 5, LIMIT 2.",
+        "answer": "<pre><code>SELECT name FROM products\nORDER BY name\nLIMIT 2 OFFSET 5;</code></pre>",
+        "explanation": "Alphabetical order positions 1-12, offset 5 skips first 5, limit 2 returns positions 6 and 7."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Count distinct categories for products in Mumbai.",
+        "hint": "WHERE + COUNT(DISTINCT).",
+        "answer": "<pre><code>SELECT COUNT(DISTINCT category) FROM products\nWHERE city = 'Mumbai';</code></pre>",
+        "explanation": "Mumbai products: iPhone (Electronics), Cricket Bat (Sports), Headphones (Electronics), Football (Sports). Categories: Electronics, Sports. Count: 2."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Sort products descending by price, but return only the 4th and 5th in the list.",
+        "hint": "OFFSET 3, LIMIT 2.",
+        "answer": "<pre><code>SELECT name, price FROM products\nORDER BY price DESC\nLIMIT 2 OFFSET 3;</code></pre>",
+        "explanation": "Descending: iPhone, Laptop, Samsung TV, Running Shoes, Headphones, ... Position 4-5 = Running Shoes (4999) and Headphones (3499)."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows?<br><pre><code>SELECT DISTINCT category, city FROM products\nWHERE city = 'Mumbai';</code></pre>",
+        "hint": "Unique (category, city) for Mumbai.",
+        "answer": "<code>2 rows</code>",
+        "explanation": "Mumbai has Electronics (iPhone, Headphones) and Sports (Cricket Bat, Football). Unique pairs: (Electronics, Mumbai), (Sports, Mumbai). 2 rows."
+      },
+      {
+        "id": "mx-13",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Return the product with highest stock. Use ORDER BY DESC LIMIT 1.",
+        "hint": "Direct sort and limit.",
+        "answer": "<pre><code>SELECT name, stock FROM products\nORDER BY stock DESC\nLIMIT 1;</code></pre>",
+        "explanation": "Soap with stock 800."
+      },
+      {
+        "id": "mx-14",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Paginate all products with 3 per page. Write query for page 4.",
+        "hint": "OFFSET = (4-1)*3 = 9.",
+        "answer": "<pre><code>SELECT * FROM products\nORDER BY id\nLIMIT 3 OFFSET 9;</code></pre>",
+        "explanation": "Page 4 has rows 10-12: Laptop, Football, Soap. (12 rows total, 3 per page = 4 pages.)"
+      },
+      {
+        "id": "mx-15",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a query for employees (from chapter 6) that returns their names in descending salary order.",
+        "hint": "Single-column sort.",
+        "answer": "<pre><code>SELECT name, salary FROM employees\nORDER BY salary DESC;</code></pre>",
+        "explanation": "Diya (110000), Rohan (92000), Karan (81000), Aarav (75000), Ananya (68000), Aditya (63000), Sneha (58000), Priya (52000), Ishita (47000), Vikram (45000)."
+      },
+      {
+        "id": "mx-16",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Find the 2nd highest salary in the employees table.",
+        "hint": "Classic interview. LIMIT 1 OFFSET 1 after DESC sort.",
+        "answer": "<pre><code>SELECT DISTINCT salary FROM employees\nORDER BY salary DESC\nLIMIT 1 OFFSET 1;</code></pre>",
+        "explanation": "Highest is 110000 (Diya). 2nd is 92000 (Rohan). Using DISTINCT handles ties (two people with the same salary count as one rank)."
+      },
+      {
+        "id": "mx-17",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "How many rows?<br><pre><code>SELECT DISTINCT category FROM products\nWHERE price > 50000;</code></pre>",
+        "hint": "Products above 50000 are all in which category?",
+        "answer": "<code>1 row</code>",
+        "explanation": "Products > 50000: iPhone (79999, Electronics), Laptop (65000, Electronics). Only one distinct category: Electronics."
+      },
+      {
+        "id": "mx-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Get top 5 Grocery items by stock. Return name, stock.",
+        "hint": "WHERE + ORDER BY + LIMIT.",
+        "answer": "<pre><code>SELECT name, stock FROM products\nWHERE category = 'Grocery'\nORDER BY stock DESC\nLIMIT 5;</code></pre>",
+        "explanation": "Grocery has 4 items: Soap (800), Milk (500), Bread (300), Rice (200). All 4 returned (LIMIT 5 but only 4 exist)."
+      },
+      {
+        "id": "mx-19",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Return a list showing unique (city, category) pairs sorted by city ascending, then category descending.",
+        "hint": "DISTINCT + multi-column ORDER BY.",
+        "answer": "<pre><code>SELECT DISTINCT city, category FROM products\nORDER BY city ASC, category DESC;</code></pre>",
+        "explanation": "Lists unique pairs. Bengaluru (Sports, Grocery, Electronics), Delhi (Grocery, Electronics), Mumbai (Sports, Electronics), Pune (Sports, Grocery). Note DESC puts Sports before Grocery before Electronics within each city."
+      },
+      {
+        "id": "mx-20",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Find the 3 cheapest products in each category using LIMIT (hint: you cannot do it with a single LIMIT — but write a query for just Grocery).",
+        "hint": "For a single category, use WHERE + ORDER BY + LIMIT.",
+        "answer": "<pre><code>-- For Grocery only:\nSELECT name, price FROM products\nWHERE category = 'Grocery'\nORDER BY price ASC\nLIMIT 3;</code></pre>",
+        "explanation": "3 cheapest Grocery: Bread (45), Soap (60), Milk 1L (68). To do it across all categories, you need window functions (ROW_NUMBER with PARTITION BY) — covered in chapter 18."
+      },
+      {
+        "id": "mx-21",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What does this return?<br><pre><code>SELECT COUNT(*), COUNT(DISTINCT category), COUNT(DISTINCT city)\nFROM products;</code></pre>",
+        "hint": "Three counts: rows, unique categories, unique cities.",
+        "answer": "<code>12, 3, 4</code>",
+        "explanation": "COUNT(*) = 12 total products. COUNT(DISTINCT category) = 3 (Electronics, Grocery, Sports). COUNT(DISTINCT city) = 4 (Mumbai, Delhi, Bengaluru, Pune)."
+      },
+      {
+        "id": "mx-22",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Return the top 3 cities by the number of products they have. (Hint: you'll need GROUP BY — preview of chapter 10.)",
+        "hint": "GROUP BY city, COUNT(*), ORDER BY count DESC.",
+        "answer": "<pre><code>SELECT city, COUNT(*) AS num_products FROM products\nGROUP BY city\nORDER BY num_products DESC\nLIMIT 3;</code></pre>",
+        "explanation": "This previews GROUP BY (chapter 10). Mumbai has 4 (iPhone, Cricket Bat, Headphones, Football), Delhi 3, Bengaluru 3, Pune 2. Top 3: Mumbai, Delhi, Bengaluru (or Bengaluru, Delhi — tie)."
+      },
+      {
+        "id": "mx-23",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Return the 5th to 8th most expensive products (like items on page 2 with 4 per page).",
+        "hint": "LIMIT 4 OFFSET 4.",
+        "answer": "<pre><code>SELECT name, price FROM products\nORDER BY price DESC\nLIMIT 4 OFFSET 4;</code></pre>",
+        "explanation": "Descending order. Positions 1-4: iPhone, Laptop, Samsung TV, Running Shoes. Positions 5-8 (page 2): Headphones, Cricket Bat, Yoga Mat, Football."
+      },
+      {
+        "id": "mx-24",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the 2nd row?<br><pre><code>SELECT name FROM products\nORDER BY category, price DESC;</code></pre>",
+        "hint": "Categories alphabetically, then price DESC.",
+        "answer": "<code>Laptop (2nd row)</code>",
+        "explanation": "Categories alphabetically: Electronics first. Within Electronics sorted by price DESC: iPhone (79999), Laptop (65000), Samsung TV (45999), Headphones (3499). 2nd row = Laptop."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the default sort order of ORDER BY?",
+        "options": [
+          { "text": "DESC (descending)", "correct": false },
+          { "text": "ASC (ascending)", "correct": true },
+          { "text": "Random", "correct": false },
+          { "text": "No default — must be specified", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> ASC (ascending) is the default. <code>ORDER BY price</code> and <code>ORDER BY price ASC</code> are identical."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which clause limits the number of returned rows?",
+        "options": [
+          { "text": "TOP", "correct": false },
+          { "text": "LIMIT", "correct": true },
+          { "text": "MAX", "correct": false },
+          { "text": "ONLY", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LIMIT is MySQL's syntax. SQL Server uses TOP, Oracle uses ROWNUM. The SQL standard is actually <code>FETCH FIRST n ROWS ONLY</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does DISTINCT do?",
+        "options": [
+          { "text": "Sorts rows", "correct": false },
+          { "text": "Removes duplicate rows", "correct": true },
+          { "text": "Returns rows in reverse order", "correct": false },
+          { "text": "Limits to the first row", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DISTINCT removes duplicates from the result set. Applies to the whole row of selected columns."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which query returns the 5 most expensive products?",
+        "options": [
+          { "text": "SELECT * FROM products LIMIT 5 ORDER BY price;", "correct": false },
+          { "text": "SELECT * FROM products ORDER BY price LIMIT 5;", "correct": false },
+          { "text": "SELECT * FROM products ORDER BY price DESC LIMIT 5;", "correct": true },
+          { "text": "SELECT TOP 5 * FROM products ORDER BY price DESC;", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> ORDER BY price DESC sorts most expensive first, then LIMIT 5 takes top 5. Option A has wrong clause order. Option B gives cheapest, not most expensive. Option D is SQL Server syntax, not MySQL."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does LIMIT 10 OFFSET 20 return?",
+        "options": [
+          { "text": "Rows 1 through 10", "correct": false },
+          { "text": "Rows 20 through 30", "correct": false },
+          { "text": "Rows 21 through 30 (skip 20, take 10)", "correct": true },
+          { "text": "Rows 10 through 20", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> OFFSET 20 skips the first 20 rows. LIMIT 10 takes the next 10. So rows 21-30."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "For pagination with 10 items per page, what is the OFFSET for page 4?",
+        "options": [
+          { "text": "10", "correct": false },
+          { "text": "20", "correct": false },
+          { "text": "30", "correct": true },
+          { "text": "40", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Formula: OFFSET = (page - 1) * page_size = (4 - 1) * 10 = 30. Page 4 shows rows 31-40."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Which query counts unique values in a column?",
+        "options": [
+          { "text": "COUNT(col)", "correct": false },
+          { "text": "COUNT(DISTINCT col)", "correct": true },
+          { "text": "DISTINCT COUNT(col)", "correct": false },
+          { "text": "UNIQUE(col)", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> COUNT(DISTINCT col) counts unique non-NULL values. COUNT(col) counts non-NULL rows (with duplicates). The others are not valid SQL syntax."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the correct order of clauses?",
+        "options": [
+          { "text": "SELECT, ORDER BY, FROM, WHERE, LIMIT", "correct": false },
+          { "text": "SELECT, FROM, WHERE, ORDER BY, LIMIT", "correct": true },
+          { "text": "FROM, SELECT, WHERE, LIMIT, ORDER BY", "correct": false },
+          { "text": "Any order is fine", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The syntactic order is: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. Putting them in any other order is a syntax error."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does SELECT DISTINCT category, city return?",
+        "options": [
+          { "text": "Distinct categories and distinct cities separately", "correct": false },
+          { "text": "Unique (category, city) combinations", "correct": true },
+          { "text": "Distinct category from the first column only", "correct": false },
+          { "text": "An error — DISTINCT only works on one column", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DISTINCT applies to the entire row of selected columns. So this returns unique (category, city) pairs."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Why should LIMIT always be paired with ORDER BY?",
+        "options": [
+          { "text": "LIMIT does not work without ORDER BY", "correct": false },
+          { "text": "Without ORDER BY, the 'first n' rows are unpredictable", "correct": true },
+          { "text": "ORDER BY makes LIMIT faster", "correct": false },
+          { "text": "It is just a style preference", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Without ORDER BY, the database can return rows in any order (depends on storage, indexes, optimizer). LIMIT just grabs the first n of whatever that order is — unpredictable and risky."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which is equivalent to LIMIT 10 OFFSET 5 in MySQL?",
+        "options": [
+          { "text": "LIMIT 10, 5", "correct": false },
+          { "text": "LIMIT 5, 10", "correct": true },
+          { "text": "LIMIT 15", "correct": false },
+          { "text": "OFFSET 5 LIMIT 10", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL's two-argument form is <code>LIMIT offset, count</code>. So <code>LIMIT 5, 10</code> means offset 5, limit 10 — same as <code>LIMIT 10 OFFSET 5</code>. This confuses everyone — prefer the OFFSET keyword."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "To get the 3rd highest distinct salary, which works?",
+        "options": [
+          { "text": "ORDER BY salary DESC LIMIT 3", "correct": false },
+          { "text": "ORDER BY salary DESC LIMIT 1 OFFSET 2", "correct": true },
+          { "text": "ORDER BY salary ASC LIMIT 3", "correct": false },
+          { "text": "ORDER BY salary DESC LIMIT 2 OFFSET 1", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DESC sort puts highest first. OFFSET 2 skips positions 1 and 2 (highest and 2nd highest). LIMIT 1 returns the 3rd highest. Remember to add DISTINCT if you want to skip ties."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "In MySQL, ORDER BY col ASC places NULLs where?",
+        "options": [
+          { "text": "Always at the end", "correct": false },
+          { "text": "At the beginning (NULLs treated as smallest)", "correct": true },
+          { "text": "In random positions", "correct": false },
+          { "text": "NULLs cause an error in ORDER BY", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL treats NULL as the smallest value, so ASC puts NULLs at the top. DESC puts them at the bottom. PostgreSQL does the opposite. For portable code, use <code>ORDER BY col IS NULL, col</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "You want all Grocery products sorted from cheapest to most expensive. Correct query?",
+        "options": [
+          { "text": "SELECT * FROM products WHERE category = 'Grocery' ORDER BY price DESC;", "correct": false },
+          { "text": "SELECT * FROM products ORDER BY price WHERE category = 'Grocery';", "correct": false },
+          { "text": "SELECT * FROM products WHERE category = 'Grocery' ORDER BY price;", "correct": true },
+          { "text": "SELECT * FROM products WHERE ORDER BY price category = 'Grocery';", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> WHERE before ORDER BY (correct clause order), ASC is default. Option A sorts descending (reverse direction). Options B and D have invalid clause order."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What does COUNT(DISTINCT salary) return for a column with values [100, 200, 200, 300, NULL]?",
+        "options": [
+          { "text": "5", "correct": false },
+          { "text": "4", "correct": false },
+          { "text": "3", "correct": true },
+          { "text": "2", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> COUNT(DISTINCT) excludes NULL and counts unique values. Unique non-NULL values: 100, 200, 300 — that's 3."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "For a products table sorted by price DESC with LIMIT 5 OFFSET 3, which rows are returned?",
+        "options": [
+          { "text": "Rows 1-5 sorted by price descending", "correct": false },
+          { "text": "Rows 3-7 sorted by price descending", "correct": false },
+          { "text": "Rows 4-8 sorted by price descending", "correct": true },
+          { "text": "Rows 5-10 sorted by price descending", "correct": false }
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> OFFSET 3 skips positions 1-3. LIMIT 5 takes positions 4-8 (5 rows: positions 4, 5, 6, 7, 8)."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Why is deep OFFSET (like OFFSET 100000) slow?",
+        "options": [
+          { "text": "MySQL does not support high OFFSET values", "correct": false },
+          { "text": "MySQL must scan and discard all rows up to the offset", "correct": true },
+          { "text": "Network bandwidth slows it down", "correct": false },
+          { "text": "LIMIT caches results which fills memory", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> OFFSET makes MySQL read and throw away rows until it reaches the offset position. For OFFSET 100000, that's 100,000 discarded rows. Fix: keyset pagination with <code>WHERE id &gt; last_seen_id</code>."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What does SELECT DISTINCT * FROM products do?",
+        "options": [
+          { "text": "Returns one of each unique category", "correct": false },
+          { "text": "Returns all rows since full rows are rarely duplicates", "correct": true },
+          { "text": "Removes duplicates based on id only", "correct": false },
+          { "text": "Syntax error — DISTINCT cannot work with *", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DISTINCT * removes rows where ALL columns are identical. With a primary key like id, no two rows are identical, so DISTINCT * returns everything. It's valid syntax but rarely useful."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "In a multi-column ORDER BY col1 ASC, col2 DESC, how are ties in col1 broken?",
+        "options": [
+          { "text": "By col2 ascending", "correct": false },
+          { "text": "By col2 descending", "correct": true },
+          { "text": "Randomly", "correct": false },
+          { "text": "By insertion order", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Each column has its own direction. When col1 ties, col2 DESC orders the tied rows with highest col2 first."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Which query would let you find the employee with the 5th highest salary, handling ties correctly?",
+        "options": [
+          { "text": "SELECT * FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 4", "correct": false },
+          { "text": "SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 4", "correct": true },
+          { "text": "SELECT * FROM employees LIMIT 5", "correct": false },
+          { "text": "SELECT MAX(salary) FROM employees", "correct": false }
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DISTINCT handles ties — if two people have the same salary, they count as one rank. Without DISTINCT, the result depends on which duplicate is returned. Option A would fail for a table with duplicate salaries in the top 5."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Top 3 Highest Priced Products",
+        "difficulty": "Easy",
+        "description": "Return the 3 most expensive products, showing name and price.",
+        "sampleInput": "products table.",
+        "sampleOutput": "iPhone 15 79999.00\nLaptop 65000.00\nSamsung TV 45999.00",
+        "constraints": "Use ORDER BY + LIMIT.",
+        "solution": "SELECT name, price FROM products\nORDER BY price DESC\nLIMIT 3;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Unique Cities",
+        "difficulty": "Easy",
+        "description": "List all distinct cities where products are stored, sorted alphabetically.",
+        "sampleInput": "products table.",
+        "sampleOutput": "Bengaluru\nDelhi\nMumbai\nPune",
+        "constraints": "Use DISTINCT + ORDER BY.",
+        "solution": "SELECT DISTINCT city FROM products ORDER BY city;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Pagination Page 2",
+        "difficulty": "Medium",
+        "description": "Get products 6 through 10 when sorted by id. This is page 2 with 5 items per page.",
+        "sampleInput": "products table.",
+        "sampleOutput": "Bread, Headphones, Yoga Mat, Rice 5kg, Laptop (ids 6-10)",
+        "constraints": "OFFSET = (page-1)*size.",
+        "solution": "SELECT * FROM products\nORDER BY id\nLIMIT 5 OFFSET 5;"
+      },
+      {
+        "id": "cc-4",
+        "title": "2nd Highest Salary",
+        "difficulty": "Medium",
+        "description": "Given the employees table from chapter 6, find the 2nd highest distinct salary.",
+        "sampleInput": "employees table.",
+        "sampleOutput": "92000",
+        "constraints": "Use DISTINCT, ORDER BY DESC, LIMIT 1 OFFSET 1.",
+        "solution": "SELECT DISTINCT salary\nFROM employees\nORDER BY salary DESC\nLIMIT 1 OFFSET 1;"
+      },
+      {
+        "id": "cc-5",
+        "title": "Most Expensive Per Alphabetical Order",
+        "difficulty": "Medium",
+        "description": "Sort products alphabetically by name. For each, show position in the sorted list (using row number via variables or window functions). Simpler version: just return name and price sorted by name.",
+        "sampleInput": "products table.",
+        "sampleOutput": "All 12 products in alphabetical order.",
+        "constraints": "ORDER BY name.",
+        "solution": "SELECT name, price FROM products ORDER BY name;"
+      },
+      {
+        "id": "cc-6",
+        "title": "Count Distinct Per Filter",
+        "difficulty": "Medium",
+        "description": "Count the number of distinct categories for products priced below 5000.",
+        "sampleInput": "products table.",
+        "sampleOutput": "3",
+        "constraints": "WHERE + COUNT(DISTINCT).",
+        "solution": "SELECT COUNT(DISTINCT category) FROM products\nWHERE price < 5000;"
+      },
+      {
+        "id": "cc-7",
+        "title": "Top 2 From Each City Category (Tricky)",
+        "difficulty": "Hard",
+        "description": "Return the single most expensive product in Mumbai, then the single most expensive product in Delhi. Combine using UNION (preview of chapter 14) or write separate queries.",
+        "sampleInput": "products table.",
+        "sampleOutput": "Mumbai: iPhone 15 (79999)\nDelhi: Samsung TV (45999)",
+        "constraints": "Two queries or UNION.",
+        "solution": "-- Two separate queries:\nSELECT name, price FROM products WHERE city = 'Mumbai' ORDER BY price DESC LIMIT 1;\nSELECT name, price FROM products WHERE city = 'Delhi' ORDER BY price DESC LIMIT 1;\n\n-- Or using UNION (covered later):\n(SELECT name, price, city FROM products WHERE city = 'Mumbai' ORDER BY price DESC LIMIT 1)\nUNION\n(SELECT name, price, city FROM products WHERE city = 'Delhi' ORDER BY price DESC LIMIT 1);"
+      },
+      {
+        "id": "cc-8",
+        "title": "Nth Highest — Parameterized Pattern",
+        "difficulty": "Hard",
+        "description": "Write the query pattern to find the Nth highest distinct price from products. Test with N=4 (4th highest).",
+        "sampleInput": "products table.",
+        "sampleOutput": "For N=4, the 4th highest distinct price. Prices DESC: 79999, 65000, 45999, 4999, 3499, ... So 4th = 4999 (Running Shoes).",
+        "constraints": "LIMIT 1 OFFSET N-1 with DISTINCT.",
+        "solution": "-- Template: replace N with the desired rank\nSELECT DISTINCT price FROM products\nORDER BY price DESC\nLIMIT 1 OFFSET 3;  -- for N=4, offset = N-1 = 3\n\n-- Returns: 4999 (Running Shoes)"
+      }
+    ]
+  }
+}

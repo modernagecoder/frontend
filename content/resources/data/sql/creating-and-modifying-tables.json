@@ -1,0 +1,726 @@
+{
+  "title": "CREATE, ALTER, DROP Tables",
+  "slug": "creating-and-modifying-tables",
+  "language": "sql",
+  "chapter": 4,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 56,
+  "seo": {
+    "title": "SQL CREATE, ALTER, DROP Table - Add/Rename Columns, TRUNCATE vs DROP vs DELETE | Modern Age Coders",
+    "description": "Master MySQL DDL - CREATE TABLE with constraints, ALTER TABLE to add/drop/modify/rename columns, DROP TABLE, TRUNCATE TABLE, CREATE TABLE AS SELECT, TEMPORARY tables, IF EXISTS / IF NOT EXISTS. Crystal-clear difference between DELETE, TRUNCATE, and DROP. 56 practice questions and coding challenges.",
+    "keywords": "create table mysql, alter table add column, alter table drop column, alter table modify, alter table rename, drop table vs truncate vs delete, create table as select, temporary table mysql, if exists mysql, rename table mysql, add constraint alter table"
+  },
+  "content": {
+    "what": "<h2>Creating and Changing Table Structure</h2><p>Real-world databases evolve. A table you designed last sprint will need a new column next sprint, an index the sprint after that, and a rename six months later when the product team decides \"users\" should be called \"members\". This chapter is the toolbox for all of those schema changes.</p><p>The commands covered here are collectively called <strong>DDL</strong> (Data Definition Language) — they define and change structure:</p><ul><li><code>CREATE TABLE</code> — make a new table</li><li><code>ALTER TABLE</code> — add/drop/rename columns, add constraints, rename the table</li><li><code>DROP TABLE</code> — permanently delete a table and all its data</li><li><code>TRUNCATE TABLE</code> — delete every row (keep the table)</li><li><code>CREATE TABLE AS SELECT</code> — copy another table's rows into a new one</li><li><code>CREATE TEMPORARY TABLE</code> — a table that disappears when your session ends</li></ul><h3>The Sample Schema for This Chapter</h3><table><tr><th>employees</th></tr><tr><td>emp_id INT PK</td></tr><tr><td>name VARCHAR(50)</td></tr><tr><td>department VARCHAR(30)</td></tr><tr><td>salary DECIMAL(10,2)</td></tr></table><table><tr><th>emp_id</th><th>name</th><th>department</th><th>salary</th></tr><tr><td>101</td><td>Kavya Nair</td><td>HR</td><td>60000.00</td></tr><tr><td>102</td><td>Arjun Mehta</td><td>IT</td><td>85000.00</td></tr><tr><td>103</td><td>Sneha Patel</td><td>Finance</td><td>72000.00</td></tr><tr><td>104</td><td>Rahul Joshi</td><td>IT</td><td>95000.00</td></tr></table>",
+    "why": "<h2>Why Mastering DDL Matters</h2><h3>1. Every Project Has Migrations</h3><p>A <strong>migration</strong> is a SQL script that evolves your schema from one version to another. Frameworks like Django, Laravel, Rails, and Flyway generate migrations automatically, but you still have to read and write ALTER TABLE statements. Knowing DDL fluently lets you review migrations before they hit production — and stops junior teammates from committing scripts that would drop a column used by reporting.</p><h3>2. DROP vs TRUNCATE vs DELETE Is a Classic Interview Question</h3><p>Asked in ~70% of SQL interviews. Many candidates know one or two of the three; knowing all three plus their trade-offs (speed, rollback behavior, AUTO_INCREMENT reset, FOREIGN KEY constraints) separates you from the crowd.</p><h3>3. Bad ALTER Can Kill Production</h3><p>An <code>ALTER TABLE orders DROP COLUMN amount</code> on a 500GB table can lock the table for 20 minutes, making your site unusable. Modern MySQL (8.0) has online DDL for many operations, but you still need to know which ALTER is safe and which needs a maintenance window. Professional teams use tools like pt-online-schema-change or gh-ost for big tables; this chapter teaches the core commands those tools wrap.</p><h3>4. Making Scripts Re-Runnable (IF EXISTS / IF NOT EXISTS)</h3><p>A script that errors on second run is a bug. Using <code>IF NOT EXISTS</code> on CREATE and <code>IF EXISTS</code> on DROP makes scripts idempotent — safe to run any number of times. This is basic hygiene every backend engineer is expected to know.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. CREATE TABLE — Full Syntax</h3><p>A CREATE TABLE statement has three parts:</p><ol><li>Column definitions (name + type + per-column constraints)</li><li>Table-level constraints (composite PRIMARY KEY, FOREIGN KEY, multi-column UNIQUE)</li><li>Table options (ENGINE, CHARSET, COMMENT)</li></ol><pre><code>CREATE TABLE employees (\n    emp_id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(50) NOT NULL,\n    email VARCHAR(100) NOT NULL UNIQUE,\n    department VARCHAR(30) NOT NULL,\n    salary DECIMAL(10,2) NOT NULL CHECK (salary &gt; 0),\n    manager_id INT,\n    hire_date DATE NOT NULL DEFAULT (CURRENT_DATE),\n    FOREIGN KEY (manager_id) REFERENCES employees(emp_id)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;</code></pre><p><strong>IF NOT EXISTS</strong> makes the statement idempotent:</p><pre><code>CREATE TABLE IF NOT EXISTS employees (...);</code></pre><p>If the table already exists, CREATE becomes a no-op (with a warning) instead of an error. Always use this in seed scripts.</p><h3>2. ALTER TABLE — The Swiss Army Knife</h3><h4>Add a Column</h4><pre><code>ALTER TABLE employees ADD COLUMN phone VARCHAR(15);\n-- Or specify where\nALTER TABLE employees ADD COLUMN phone VARCHAR(15) AFTER name;\nALTER TABLE employees ADD COLUMN phone VARCHAR(15) FIRST;</code></pre><h4>Drop a Column</h4><pre><code>ALTER TABLE employees DROP COLUMN phone;</code></pre><p><strong>Warning:</strong> the column and all its data are gone. No undo without backup.</p><h4>Modify a Column (Type or Default, Keep Name)</h4><pre><code>ALTER TABLE employees MODIFY COLUMN salary DECIMAL(12, 2);\nALTER TABLE employees MODIFY COLUMN name VARCHAR(100) NOT NULL;</code></pre><p><code>MODIFY</code> is a MySQL-ism. The portable alternative is <code>ALTER COLUMN ... TYPE ...</code> in standard SQL.</p><h4>Rename a Column (MySQL 8.0+)</h4><pre><code>ALTER TABLE employees RENAME COLUMN department TO dept;\n\n-- Older MySQL (5.7) requires CHANGE with the new type repeated:\nALTER TABLE employees CHANGE COLUMN department dept VARCHAR(30) NOT NULL;</code></pre><h4>Rename the Table</h4><pre><code>ALTER TABLE employees RENAME TO staff;\n\n-- Or the dedicated command:\nRENAME TABLE employees TO staff;</code></pre><h4>Add a Constraint</h4><pre><code>ALTER TABLE employees\n    ADD CONSTRAINT uq_email UNIQUE (email);\n\nALTER TABLE employees\n    ADD CONSTRAINT fk_manager FOREIGN KEY (manager_id) REFERENCES employees(emp_id);\n\nALTER TABLE employees\n    ADD CONSTRAINT chk_salary CHECK (salary &gt; 0);</code></pre><h4>Drop a Constraint</h4><pre><code>ALTER TABLE employees DROP FOREIGN KEY fk_manager;\nALTER TABLE employees DROP INDEX uq_email;         -- UNIQUE is an index\nALTER TABLE employees DROP CHECK chk_salary;\nALTER TABLE employees DROP PRIMARY KEY;</code></pre><h4>Multiple Changes in One Statement</h4><pre><code>ALTER TABLE employees\n    ADD COLUMN joining_bonus DECIMAL(10,2) DEFAULT 0,\n    DROP COLUMN phone,\n    MODIFY COLUMN name VARCHAR(80) NOT NULL;</code></pre><p>Running multiple changes together is faster than running them one at a time (fewer table rebuilds).</p><h3>3. DROP TABLE vs TRUNCATE TABLE vs DELETE FROM</h3><p>This comparison is the single most-asked DDL interview question.</p><table><tr><th></th><th>DROP TABLE</th><th>TRUNCATE TABLE</th><th>DELETE FROM</th></tr><tr><td>Category</td><td>DDL</td><td>DDL</td><td>DML</td></tr><tr><td>What it removes</td><td>Table + data + structure</td><td>All rows, keeps structure</td><td>Matching rows (WHERE) or all</td></tr><tr><td>WHERE clause</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>Speed</td><td>Fast (metadata op)</td><td>Fast (recreates table)</td><td>Slow (row by row)</td></tr><tr><td>Auto-commit</td><td>Yes (implicit commit)</td><td>Yes (implicit commit)</td><td>No (transactional)</td></tr><tr><td>Rollback possible?</td><td>No</td><td>No (in most DBs)</td><td>Yes</td></tr><tr><td>Resets AUTO_INCREMENT?</td><td>N/A (table gone)</td><td>Yes</td><td>No</td></tr><tr><td>Triggers fire?</td><td>No</td><td>No</td><td>Yes</td></tr><tr><td>FK blocks?</td><td>Yes if referenced</td><td>Yes in InnoDB</td><td>Yes if ON DELETE RESTRICT</td></tr></table><p>Mental model:</p><ul><li><strong>DELETE</strong> is a surgeon — precise, transactional, slow. Use when you want to remove specific rows.</li><li><strong>TRUNCATE</strong> is a bulldozer — wipes everything fast, resets counters. Use when you want to empty a whole table quickly.</li><li><strong>DROP</strong> is dynamite — removes the entire table. Use when the table should not exist anymore.</li></ul><h3>4. CREATE TABLE AS SELECT (CTAS)</h3><pre><code>-- Copy both structure AND data\nCREATE TABLE employees_backup AS SELECT * FROM employees;\n\n-- Copy only matching rows\nCREATE TABLE high_earners AS\nSELECT * FROM employees WHERE salary &gt; 80000;</code></pre><p>CTAS is handy for quick backups or subset copies. <strong>Caveat:</strong> indexes, constraints, and AUTO_INCREMENT are NOT copied by default — only columns and data. To duplicate the full schema including indexes, use <code>CREATE TABLE new_tbl LIKE old_tbl;</code> followed by an INSERT.</p><h3>5. TEMPORARY TABLE</h3><pre><code>CREATE TEMPORARY TABLE session_stats (\n    user_id INT,\n    clicks INT\n);</code></pre><p>A temporary table is visible only to the session that created it and is automatically dropped when the session disconnects. Perfect for intermediate results in long multi-step calculations or reports.</p><h3>6. Defensive DDL: IF EXISTS / IF NOT EXISTS</h3><pre><code>DROP TABLE IF EXISTS employees;\nCREATE TABLE IF NOT EXISTS employees (...);\nDROP DATABASE IF EXISTS test_db;\nCREATE DATABASE IF NOT EXISTS test_db;</code></pre><p>Use these in every seed script. They turn \"Table already exists\" errors into harmless no-ops. This is standard practice in production migration systems.</p>",
+    "codeExamples": [
+      {
+        "title": "A Complete CREATE TABLE with Constraints and Options",
+        "code": "CREATE TABLE IF NOT EXISTS employees (\n    emp_id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(50) NOT NULL,\n    email VARCHAR(100) NOT NULL UNIQUE,\n    department VARCHAR(30) NOT NULL,\n    salary DECIMAL(10,2) NOT NULL CHECK (salary > 0),\n    hire_date DATE NOT NULL DEFAULT (CURRENT_DATE)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;\n\nINSERT INTO employees (name, email, department, salary) VALUES\n    ('Kavya Nair',  'kavya@corp.in',  'HR',      60000.00),\n    ('Arjun Mehta', 'arjun@corp.in',  'IT',      85000.00),\n    ('Sneha Patel', 'sneha@corp.in',  'Finance', 72000.00),\n    ('Rahul Joshi', 'rahul@corp.in',  'IT',      95000.00);\n\nSELECT * FROM employees;",
+        "language": "sql",
+        "explanation": "A realistic CREATE TABLE combining AUTO_INCREMENT PK, NOT NULL, UNIQUE, CHECK, DEFAULT (CURRENT_DATE), the InnoDB engine, and utf8mb4 charset (for full emoji/Unicode support). <code>IF NOT EXISTS</code> makes it safe to re-run.",
+        "output": "Query OK, 0 rows affected (0.04 sec)\nQuery OK, 4 rows affected (0.01 sec)\nRecords: 4  Duplicates: 0  Warnings: 0\n\n+--------+-------------+----------------+------------+----------+------------+\n| emp_id | name        | email          | department | salary   | hire_date  |\n+--------+-------------+----------------+------------+----------+------------+\n|      1 | Kavya Nair  | kavya@corp.in  | HR         | 60000.00 | 2026-04-11 |\n|      2 | Arjun Mehta | arjun@corp.in  | IT         | 85000.00 | 2026-04-11 |\n|      3 | Sneha Patel | sneha@corp.in  | Finance    | 72000.00 | 2026-04-11 |\n|      4 | Rahul Joshi | rahul@corp.in  | IT         | 95000.00 | 2026-04-11 |\n+--------+-------------+----------------+------------+----------+------------+"
+      },
+      {
+        "title": "ALTER TABLE — Adding, Dropping, Modifying, Renaming Columns",
+        "code": "-- Add a phone column after name\nALTER TABLE employees ADD COLUMN phone VARCHAR(15) AFTER name;\n\n-- Later, widen the name column and make it required\nALTER TABLE employees MODIFY COLUMN name VARCHAR(80) NOT NULL;\n\n-- Rename 'department' to 'dept' (MySQL 8.0+)\nALTER TABLE employees RENAME COLUMN department TO dept;\n\n-- Drop the phone column we added earlier\nALTER TABLE employees DROP COLUMN phone;\n\nDESCRIBE employees;",
+        "language": "sql",
+        "explanation": "Four common alterations. ADD COLUMN ... AFTER places the new column at a specific position. MODIFY changes the type or constraints of an existing column. RENAME COLUMN (MySQL 8.0+) changes the name without touching the type. DROP COLUMN permanently removes a column — irreversible without a backup.",
+        "output": "Query OK, 4 rows affected (0.07 sec)\nRecords: 4  Duplicates: 0  Warnings: 0\nQuery OK, 0 rows affected (0.05 sec)\nRecords: 0  Duplicates: 0  Warnings: 0\nQuery OK, 0 rows affected (0.02 sec)\nRecords: 0  Duplicates: 0  Warnings: 0\nQuery OK, 0 rows affected (0.04 sec)\nRecords: 0  Duplicates: 0  Warnings: 0\n\n+-----------+---------------+------+-----+---------+----------------+\n| Field     | Type          | Null | Key | Default | Extra          |\n+-----------+---------------+------+-----+---------+----------------+\n| emp_id    | int           | NO   | PRI | NULL    | auto_increment |\n| name      | varchar(80)   | NO   |     | NULL    |                |\n| email     | varchar(100)  | NO   | UNI | NULL    |                |\n| dept      | varchar(30)   | NO   |     | NULL    |                |\n| salary    | decimal(10,2) | NO   |     | NULL    |                |\n| hire_date | date          | NO   |     | NULL    |                |\n+-----------+---------------+------+-----+---------+----------------+"
+      },
+      {
+        "title": "DELETE vs TRUNCATE vs DROP — Side-by-Side Demo",
+        "code": "-- Setup: fresh employees with 4 rows (see earlier INSERT)\nSELECT COUNT(*) FROM employees;  -- 4\n\n-- DELETE: remove specific rows with WHERE\nDELETE FROM employees WHERE dept = 'IT';\nSELECT COUNT(*) FROM employees;  -- 2 (Arjun and Rahul gone)\n\n-- TRUNCATE: wipe everything, reset AUTO_INCREMENT\nTRUNCATE TABLE employees;\nSELECT COUNT(*) FROM employees;  -- 0\n\n-- Reinsert one row to see AUTO_INCREMENT reset\nINSERT INTO employees (name, email, dept, salary)\nVALUES ('Test', 'test@corp.in', 'HR', 50000);\nSELECT emp_id FROM employees;  -- 1 (reset to 1, not 5)\n\n-- DROP: remove the table entirely\nDROP TABLE employees;\nSELECT * FROM employees;  -- ERROR: Table doesn't exist",
+        "language": "sql",
+        "explanation": "Three demolition tools ordered from precise to nuclear. DELETE removes matching rows and is transactional. TRUNCATE wipes everything and resets AUTO_INCREMENT to 1. DROP removes the table itself so any subsequent query errors with \"table doesn't exist\". Interviewers love this exact example.",
+        "output": "+----------+\n| COUNT(*) |\n+----------+\n|        4 |\n+----------+\n\nQuery OK, 2 rows affected (0.01 sec)\n+----------+\n| COUNT(*) |\n+----------+\n|        2 |\n+----------+\n\nQuery OK, 0 rows affected (0.03 sec)\n+----------+\n| COUNT(*) |\n+----------+\n|        0 |\n+----------+\n\nQuery OK, 1 row affected (0.01 sec)\n+--------+\n| emp_id |\n+--------+\n|      1 |\n+--------+\n\nQuery OK, 0 rows affected (0.02 sec)\nERROR 1146 (42S02): Table 'hr.employees' doesn't exist"
+      },
+      {
+        "title": "CREATE TABLE AS SELECT (Backup)",
+        "code": "-- Assume employees has been re-created with the original 4 rows.\nDROP TABLE IF EXISTS employees_backup;\n\n-- Quick full backup\nCREATE TABLE employees_backup AS\nSELECT * FROM employees;\n\n-- Partial backup — just IT employees\nDROP TABLE IF EXISTS employees_it;\nCREATE TABLE employees_it AS\nSELECT emp_id, name, salary\nFROM employees\nWHERE dept = 'IT';\n\nSELECT * FROM employees_it;",
+        "language": "sql",
+        "explanation": "CTAS (Create Table As Select) is a quick way to make a backup or a filtered subset. The new table inherits the column names and types from the SELECT's result, but NOT the indexes, primary keys, or AUTO_INCREMENT attributes — those must be added separately if needed.",
+        "output": "Query OK, 4 rows affected (0.03 sec)\nRecords: 4  Duplicates: 0  Warnings: 0\n\nQuery OK, 2 rows affected (0.02 sec)\nRecords: 2  Duplicates: 0  Warnings: 0\n\n+--------+-------------+----------+\n| emp_id | name        | salary   |\n+--------+-------------+----------+\n|      2 | Arjun Mehta | 85000.00 |\n|      4 | Rahul Joshi | 95000.00 |\n+--------+-------------+----------+"
+      },
+      {
+        "title": "Adding and Dropping Constraints via ALTER",
+        "code": "-- Start with a bare table (no constraints yet).\nCREATE TABLE IF NOT EXISTS departments (\n    dept_id INT,\n    dept_name VARCHAR(50),\n    budget DECIMAL(12,2)\n);\n\n-- Add a PRIMARY KEY\nALTER TABLE departments\n    ADD CONSTRAINT pk_dept PRIMARY KEY (dept_id);\n\n-- Add a UNIQUE\nALTER TABLE departments\n    ADD CONSTRAINT uq_dept_name UNIQUE (dept_name);\n\n-- Add a CHECK\nALTER TABLE departments\n    ADD CONSTRAINT chk_budget CHECK (budget > 0);\n\nDESCRIBE departments;\n\n-- Later, drop the CHECK we added\nALTER TABLE departments DROP CHECK chk_budget;",
+        "language": "sql",
+        "explanation": "You can add constraints to an existing table at any time via ALTER. Naming constraints (<code>pk_dept</code>, <code>uq_dept_name</code>, <code>chk_budget</code>) is a good habit — it makes them referenceable for DROP later. Unnamed constraints get auto-generated names like <code>departments_chk_1</code>.",
+        "output": "Query OK, 0 rows affected (0.04 sec)\nQuery OK, 0 rows affected (0.05 sec)\nRecords: 0  Duplicates: 0  Warnings: 0\nQuery OK, 0 rows affected (0.02 sec)\nRecords: 0  Duplicates: 0  Warnings: 0\nQuery OK, 0 rows affected (0.02 sec)\nRecords: 0  Duplicates: 0  Warnings: 0\n\n+-----------+---------------+------+-----+---------+-------+\n| Field     | Type          | Null | Key | Default | Extra |\n+-----------+---------------+------+-----+---------+-------+\n| dept_id   | int           | NO   | PRI | NULL    |       |\n| dept_name | varchar(50)   | YES  | UNI | NULL    |       |\n| budget    | decimal(12,2) | YES  |     | NULL    |       |\n+-----------+---------------+------+-----+---------+-------+\n\nQuery OK, 0 rows affected (0.01 sec)"
+      },
+      {
+        "title": "TEMPORARY TABLE — Session-Scoped Scratchpad",
+        "code": "-- Create a temp table visible only to this session\nCREATE TEMPORARY TABLE top_performers AS\nSELECT emp_id, name, salary\nFROM employees\nWHERE salary > 80000;\n\n-- Use it like any other table\nSELECT * FROM top_performers;\n\nSELECT COUNT(*) AS n FROM top_performers;\n\n-- It disappears automatically when we DISCONNECT — no DROP needed.\n-- If you log out and log back in: Table 'top_performers' doesn't exist.",
+        "language": "sql",
+        "explanation": "Temporary tables are invaluable for breaking a complex report into smaller stages without polluting the main schema. They are invisible to other sessions and auto-drop on disconnect. You can also <code>DROP TEMPORARY TABLE</code> explicitly if you want to free the memory earlier.",
+        "output": "Query OK, 2 rows affected (0.01 sec)\nRecords: 2  Duplicates: 0  Warnings: 0\n\n+--------+-------------+----------+\n| emp_id | name        | salary   |\n+--------+-------------+----------+\n|      2 | Arjun Mehta | 85000.00 |\n|      4 | Rahul Joshi | 95000.00 |\n+--------+-------------+----------+\n\n+---+\n| n |\n+---+\n| 2 |\n+---+"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using DROP When You Meant TRUNCATE or DELETE",
+        "wrongCode": "-- Goal: wipe all rows for a fresh load\nDROP TABLE employees;",
+        "error": "Table is GONE. Next SELECT errors with 'Table doesn't exist'. All downstream views and FKs break.",
+        "correctCode": "-- If you want to keep the schema and wipe rows:\nTRUNCATE TABLE employees;\n\n-- If you want to wipe specific rows:\nDELETE FROM employees WHERE dept = 'IT';",
+        "explanation": "DROP removes the entire table — structure, indexes, constraints, everything. Truly destructive. TRUNCATE keeps the table and just empties it. DELETE with WHERE is precise. Confusing DROP with TRUNCATE is a classic late-night production incident. Always double-check which one you're typing."
+      },
+      {
+        "title": "Forgetting the COLUMN Keyword in ALTER",
+        "wrongCode": "-- MySQL is forgiving and often accepts this, but it's ambiguous:\nALTER TABLE employees ADD phone VARCHAR(15);",
+        "error": "Works on MySQL, but may fail on other databases. Less explicit.",
+        "correctCode": "ALTER TABLE employees ADD COLUMN phone VARCHAR(15);\nALTER TABLE employees DROP COLUMN phone;\nALTER TABLE employees MODIFY COLUMN name VARCHAR(80);",
+        "explanation": "Standard SQL requires the word <code>COLUMN</code>. MySQL allows omitting it but it's a bad habit — your queries won't port to PostgreSQL, and reviewers may flag it. Be explicit: <code>ADD COLUMN</code>, <code>DROP COLUMN</code>, <code>MODIFY COLUMN</code>, <code>RENAME COLUMN</code>."
+      },
+      {
+        "title": "Expecting CREATE TABLE AS SELECT to Copy Constraints",
+        "wrongCode": "CREATE TABLE backup AS SELECT * FROM employees;\n-- Assuming backup has the same PRIMARY KEY and AUTO_INCREMENT as employees",
+        "error": "backup has NO primary key, no AUTO_INCREMENT, no indexes, no FKs — just columns and data.",
+        "correctCode": "-- If you need structure too:\nCREATE TABLE backup LIKE employees;   -- copies schema (constraints, indexes)\nINSERT INTO backup SELECT * FROM employees;  -- then copy data",
+        "explanation": "<code>CREATE TABLE AS SELECT</code> is quick but lossy — only columns and data come across. Use <code>CREATE TABLE new_name LIKE old_name</code> to clone the schema with all constraints and indexes, then <code>INSERT ... SELECT</code> to copy rows."
+      },
+      {
+        "title": "Dropping a Table Referenced by a FOREIGN KEY",
+        "wrongCode": "DROP TABLE employees;\n-- But orders has FK to employees.",
+        "error": "ERROR 3730 (HY000): Cannot drop table 'employees' referenced by a foreign key constraint 'fk_emp' on table 'orders'.",
+        "correctCode": "-- Option 1: drop dependent tables first\nDROP TABLE orders;\nDROP TABLE employees;\n\n-- Option 2: remove the FK first\nALTER TABLE orders DROP FOREIGN KEY fk_emp;\nDROP TABLE employees;\n\n-- Option 3 (nuclear): temporarily disable FK checks\nSET FOREIGN_KEY_CHECKS = 0;\nDROP TABLE employees;\nSET FOREIGN_KEY_CHECKS = 1;",
+        "explanation": "Foreign keys protect you from deleting parent data that children depend on. If the error appears, either drop the children first or remove the FK constraint. The <code>SET FOREIGN_KEY_CHECKS = 0</code> trick is common in dev but dangerous in production — it can leave orphan rows once you re-enable checks."
+      }
+    ],
+    "summary": [
+      "CREATE TABLE defines a new table with columns, data types, constraints, engine, and charset. Use IF NOT EXISTS for idempotent scripts.",
+      "ALTER TABLE modifies structure: ADD COLUMN, DROP COLUMN, MODIFY COLUMN (change type/constraints), RENAME COLUMN, RENAME TABLE.",
+      "Add multiple changes in one ALTER TABLE for speed: ALTER TABLE t ADD COLUMN a INT, DROP COLUMN b, MODIFY COLUMN c VARCHAR(80);",
+      "Add constraints later with ALTER TABLE ADD CONSTRAINT name .... Drop them with DROP FOREIGN KEY / DROP INDEX / DROP CHECK / DROP PRIMARY KEY.",
+      "DROP TABLE removes the table entirely. TRUNCATE TABLE removes all rows but keeps the table. DELETE FROM removes matching rows (uses WHERE).",
+      "DROP and TRUNCATE are DDL (auto-commit, hard to roll back). DELETE is DML (transactional, can ROLLBACK).",
+      "TRUNCATE resets AUTO_INCREMENT to 1; DELETE does not.",
+      "CREATE TABLE AS SELECT copies columns and data but not indexes, PKs, or AUTO_INCREMENT. Use CREATE TABLE LIKE for a full schema clone.",
+      "CREATE TEMPORARY TABLE makes a session-scoped table that auto-drops on disconnect. Perfect for intermediate staging in reports.",
+      "Use IF EXISTS on DROP and IF NOT EXISTS on CREATE to make scripts safely re-runnable without manual cleanup."
+    ]
+  },
+  "relatedTopics": ["data-types-and-constraints", "insert-update-delete"],
+  "practice": {
+    "totalQuestions": 56,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the ALTER statement to add a column <code>phone VARCHAR(15)</code> to the employees table.",
+        "hint": "ALTER TABLE ... ADD COLUMN ...",
+        "answer": "<pre><code>ALTER TABLE employees ADD COLUMN phone VARCHAR(15);</code></pre>",
+        "explanation": "The new column is added at the end of the table by default. Existing rows get NULL in this new column (unless you add DEFAULT or NOT NULL with a default)."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the ALTER statement to drop the <code>phone</code> column from employees.",
+        "hint": "DROP COLUMN.",
+        "answer": "<pre><code>ALTER TABLE employees DROP COLUMN phone;</code></pre>",
+        "explanation": "Irreversible without a backup. The data in the column is permanently lost. Always double-check you meant this column, especially on production tables."
+      },
+      {
+        "id": "ts-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the ALTER statement to change the <code>salary</code> column type to DECIMAL(12, 2).",
+        "hint": "MODIFY COLUMN.",
+        "answer": "<pre><code>ALTER TABLE employees MODIFY COLUMN salary DECIMAL(12, 2);</code></pre>",
+        "explanation": "MODIFY changes the type (or constraints) without changing the column name. Existing values are converted to the new type if possible; they are rejected if the new type can't represent the old value."
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the ALTER statement to rename the column <code>department</code> to <code>dept</code> in employees (MySQL 8.0+).",
+        "hint": "RENAME COLUMN ... TO ...",
+        "answer": "<pre><code>ALTER TABLE employees RENAME COLUMN department TO dept;</code></pre>",
+        "explanation": "MySQL 8.0 introduced this cleaner syntax. In MySQL 5.7, you had to use <code>CHANGE COLUMN old_name new_name SAMETYPE ...</code> and repeat the full type."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the SQL to rename the <code>employees</code> table to <code>staff</code>.",
+        "hint": "Two ways to do this.",
+        "answer": "<pre><code>-- Way 1:\nALTER TABLE employees RENAME TO staff;\n\n-- Way 2:\nRENAME TABLE employees TO staff;</code></pre>",
+        "explanation": "Both are valid MySQL syntax. <code>RENAME TABLE</code> is preferred for its clarity and because you can rename multiple tables in one atomic statement: <code>RENAME TABLE a TO b, c TO d;</code>."
+      },
+      {
+        "id": "ts-6",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between DELETE, TRUNCATE, and DROP in one sentence each?",
+        "hint": "Rows, table, WHERE clause.",
+        "answer": "<strong>DELETE</strong> removes specific rows matching a WHERE clause (transactional). <strong>TRUNCATE</strong> removes ALL rows quickly and resets AUTO_INCREMENT, but keeps the table. <strong>DROP</strong> removes the entire table — structure and data — permanently.",
+        "explanation": "DELETE = surgeon, TRUNCATE = bulldozer, DROP = dynamite. This one-liner answer is the safe interview response."
+      },
+      {
+        "id": "ts-7",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Which of DELETE, TRUNCATE, and DROP can be used with a WHERE clause?",
+        "hint": "Only one.",
+        "answer": "Only <strong>DELETE</strong> supports a WHERE clause. TRUNCATE always empties the whole table; DROP removes the whole table.",
+        "explanation": "This is one of the fastest interview gotchas. If you ever need to remove rows selectively, DELETE is the only option."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write SQL to create a table <code>employees_archive</code> that is a full copy (with data) of the employees table. You don't need to copy indexes.",
+        "hint": "CREATE TABLE AS SELECT.",
+        "answer": "<pre><code>CREATE TABLE employees_archive AS\nSELECT * FROM employees;</code></pre>",
+        "explanation": "CTAS copies columns and data. For a 4-row table, this is instant. For a 10M-row table, it can take minutes. Remember: indexes, PKs, and AUTO_INCREMENT attributes are NOT copied."
+      },
+      {
+        "id": "ts-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write SQL to clone the <code>employees</code> schema (structure, indexes, constraints) into a new empty table called <code>employees_template</code>.",
+        "hint": "LIKE.",
+        "answer": "<pre><code>CREATE TABLE employees_template LIKE employees;</code></pre>",
+        "explanation": "<code>CREATE TABLE new LIKE old</code> is the full schema clone — indexes, PKs, and defaults all come across. The new table starts empty. If you also want the data, follow up with <code>INSERT INTO employees_template SELECT * FROM employees;</code>."
+      },
+      {
+        "id": "ts-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write ALTER to add a named UNIQUE constraint <code>uq_email</code> on the <code>email</code> column of employees.",
+        "hint": "ADD CONSTRAINT.",
+        "answer": "<pre><code>ALTER TABLE employees\n    ADD CONSTRAINT uq_email UNIQUE (email);</code></pre>",
+        "explanation": "Named constraints are easier to drop later: <code>ALTER TABLE employees DROP INDEX uq_email;</code>. If you don't name it, MySQL auto-generates a name like <code>employees_email_key</code>."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write ALTER to add a foreign key named <code>fk_manager</code> on column <code>manager_id</code> referencing <code>employees(emp_id)</code>.",
+        "hint": "ADD CONSTRAINT ... FOREIGN KEY ... REFERENCES ...",
+        "answer": "<pre><code>ALTER TABLE employees\n    ADD CONSTRAINT fk_manager\n    FOREIGN KEY (manager_id) REFERENCES employees(emp_id);</code></pre>",
+        "explanation": "This is an example of a self-referencing foreign key — the table refers to itself. Used when an employee's manager is also an employee in the same table. Chapter 12 covers self joins."
+      },
+      {
+        "id": "ts-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a single ALTER statement that adds a <code>bonus DECIMAL(10,2) DEFAULT 0</code> column AND drops the <code>hire_date</code> column in one shot.",
+        "hint": "Comma-separate multiple actions.",
+        "answer": "<pre><code>ALTER TABLE employees\n    ADD COLUMN bonus DECIMAL(10,2) DEFAULT 0,\n    DROP COLUMN hire_date;</code></pre>",
+        "explanation": "Combining changes into one ALTER is faster than two separate statements because MySQL can rebuild the table once instead of twice (on engines that rebuild on each DDL)."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "After you TRUNCATE a table and insert a new row, what emp_id does it get if the previous max was 10?",
+        "hint": "TRUNCATE resets AUTO_INCREMENT.",
+        "answer": "<strong>1</strong>. TRUNCATE resets the AUTO_INCREMENT counter to its initial value (default 1).",
+        "explanation": "Contrast with DELETE, which keeps the counter. After DELETE + INSERT, the new id would be 11. This is a frequent interview gotcha — know both behaviors."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Is DELETE transactional (rollback-able) in MySQL? What about TRUNCATE?",
+        "hint": "Think DDL vs DML.",
+        "answer": "<strong>DELETE</strong> is DML and fully transactional — wrap it in START TRANSACTION ... ROLLBACK to undo. <strong>TRUNCATE</strong> is DDL with an implicit COMMIT — it cannot be rolled back in most databases including MySQL.",
+        "explanation": "If you absolutely need to remove all rows but keep the option to undo, use DELETE inside a transaction. If you want speed and don't need rollback, use TRUNCATE."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a single DDL script that: 1) creates a <code>school</code> database (if missing), 2) uses it, 3) creates a <code>students</code> table with id (auto PK), name NOT NULL, email UNIQUE NOT NULL, 4) then adds a new <code>dob</code> DATE column, 5) renames <code>email</code> to <code>email_id</code>, 6) drops the table cleanly.",
+        "hint": "CREATE, ALTER several times, DROP.",
+        "answer": "<pre><code>CREATE DATABASE IF NOT EXISTS school;\nUSE school;\n\nDROP TABLE IF EXISTS students;\nCREATE TABLE students (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(50) NOT NULL,\n    email VARCHAR(100) NOT NULL UNIQUE\n);\n\nALTER TABLE students ADD COLUMN dob DATE;\nALTER TABLE students RENAME COLUMN email TO email_id;\n\nDROP TABLE students;</code></pre>",
+        "explanation": "This is exactly the kind of mini-migration you write daily as a backend engineer. IF NOT EXISTS / IF EXISTS make it safe to rerun. ALTER handles the add and rename. DROP at the end removes the table entirely."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Create a <code>TEMPORARY</code> table called <code>top_earners</code> containing only employees earning more than 80000. Then count how many there are.",
+        "hint": "CREATE TEMPORARY TABLE ... AS SELECT ...",
+        "answer": "<pre><code>CREATE TEMPORARY TABLE top_earners AS\nSELECT * FROM employees WHERE salary &gt; 80000;\n\nSELECT COUNT(*) AS total_top FROM top_earners;</code></pre>",
+        "explanation": "Temporary tables are scoped to your session — no other user can see them. They drop automatically on disconnect. Useful for staging intermediate results without polluting the main schema."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why might an ALTER TABLE on a 100M-row table be dangerous in production?",
+        "hint": "Locks and rebuilds.",
+        "answer": "Many ALTERs require a full table rebuild, which locks the table (or at least blocks writes) for minutes to hours. On a busy production DB, this means your app hangs or errors for the duration. Modern MySQL 8.0 supports online DDL for many cases (ADD INDEX, ADD COLUMN) but not all.",
+        "explanation": "Professional teams use tools like <code>pt-online-schema-change</code> (Percona) or <code>gh-ost</code> (GitHub) to perform schema changes without locking — they build a shadow table, sync changes, and atomically swap. Critical for zero-downtime deploys."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a robust \"reset\" script for a <code>test_orders</code> table. It should: drop the table if it exists, create it fresh with an AUTO_INCREMENT PK, customer VARCHAR(50) required, amount DECIMAL(10,2) positive, and insert three sample rows.",
+        "hint": "IF EXISTS, IF NOT EXISTS, CHECK.",
+        "answer": "<pre><code>DROP TABLE IF EXISTS test_orders;\n\nCREATE TABLE test_orders (\n    order_id INT AUTO_INCREMENT PRIMARY KEY,\n    customer VARCHAR(50) NOT NULL,\n    amount DECIMAL(10,2) NOT NULL CHECK (amount &gt; 0),\n    order_date DATETIME DEFAULT CURRENT_TIMESTAMP\n);\n\nINSERT INTO test_orders (customer, amount) VALUES\n    ('Aarav Sharma', 1200.50),\n    ('Priya Iyer',    850.00),\n    ('Rohan Verma',  2499.99);\n\nSELECT * FROM test_orders;</code></pre>",
+        "explanation": "This is the canonical \"seed script\" pattern. Safe to run any number of times. DROP IF EXISTS ensures a clean start. CHECK prevents negative amounts. DEFAULT CURRENT_TIMESTAMP stamps order_date automatically."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "You want to remove the PRIMARY KEY from the employees table entirely (rare, but sometimes needed for schema redesign). How?",
+        "hint": "ALTER TABLE ... DROP PRIMARY KEY.",
+        "answer": "<pre><code>ALTER TABLE employees DROP PRIMARY KEY;</code></pre>",
+        "explanation": "This removes the PK. The column(s) that had it remain in the table. If the PK column was AUTO_INCREMENT, you must first remove AUTO_INCREMENT via MODIFY, because AUTO_INCREMENT requires a key: <code>ALTER TABLE employees MODIFY emp_id INT NOT NULL;</code> then drop the PK."
+      },
+      {
+        "id": "ts-20",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Your colleague runs <code>TRUNCATE TABLE orders</code> but it fails with a foreign key error. Why, and how do you fix it?",
+        "hint": "orders is referenced by another table.",
+        "answer": "TRUNCATE cannot run if another table has a FOREIGN KEY referencing orders. Fix options: (1) TRUNCATE the child tables first, (2) temporarily disable FK checks with <code>SET FOREIGN_KEY_CHECKS = 0;</code>, then TRUNCATE, then re-enable, or (3) use <code>DELETE FROM orders;</code> which respects FK cascading behavior.",
+        "explanation": "In InnoDB, TRUNCATE internally drops and recreates the table, which breaks FK references. MySQL blocks it to protect you. Temporarily turning off FK checks is common in dev but risky in prod (can leave orphan rows). The safer alternative is DELETE inside a transaction."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Complete the table: for each of DELETE, TRUNCATE, DROP, say which one (a) keeps the table, (b) resets AUTO_INCREMENT, (c) supports WHERE.",
+        "hint": "Three statements.",
+        "answer": "(a) Keeps the table: <strong>DELETE</strong> and <strong>TRUNCATE</strong> (DROP removes it). (b) Resets AUTO_INCREMENT: <strong>TRUNCATE</strong> only. (c) Supports WHERE: <strong>DELETE</strong> only.",
+        "explanation": "This three-way comparison is the single most-asked DDL interview question. Keeping this table in your head is worth hundreds of thousands of career rupees."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write SQL to add a column <code>joining_bonus DECIMAL(8,2) DEFAULT 0</code> to an existing <code>employees</code> table.",
+        "hint": "ADD COLUMN with DEFAULT.",
+        "answer": "<pre><code>ALTER TABLE employees\n    ADD COLUMN joining_bonus DECIMAL(8,2) DEFAULT 0;</code></pre>",
+        "explanation": "Existing rows get 0 in joining_bonus (because of the DEFAULT). New rows also get 0 unless explicitly specified. If you omit DEFAULT, existing rows get NULL."
+      },
+      {
+        "id": "mx-3",
+        "type": "debugging",
+        "difficulty": "Medium",
+        "question": "Find the bug:<br><pre><code>CREATE TABLE users (\n    id INT AUTO_INCREMENT,\n    email VARCHAR(100) UNIQUE\n);</code></pre>",
+        "hint": "AUTO_INCREMENT needs what?",
+        "answer": "AUTO_INCREMENT column must be a key (usually PRIMARY KEY). As written, MySQL errors: \"Incorrect table definition; there can be only one auto column and it must be defined as a key\".<br><pre><code>CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    email VARCHAR(100) UNIQUE\n);</code></pre>",
+        "explanation": "AUTO_INCREMENT is only valid when the column is a key (PK or UK). This ensures values stay unique. The fix is to add PRIMARY KEY to id."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write ALTER to change the <code>dept</code> column so it can no longer be NULL. Assume all current rows already have a value.",
+        "hint": "MODIFY COLUMN ... NOT NULL.",
+        "answer": "<pre><code>ALTER TABLE employees\n    MODIFY COLUMN dept VARCHAR(30) NOT NULL;</code></pre>",
+        "explanation": "Note: you must repeat the original type (VARCHAR(30)) when using MODIFY, even if only the nullability is changing. If any existing row has NULL in dept, the ALTER fails — you must first UPDATE those rows to a valid value."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "After running these statements, how many rows are in the table?<br><pre><code>-- employees has 4 rows (emp_ids 1-4)\nDELETE FROM employees WHERE emp_id = 2;\nINSERT INTO employees (name, email, dept, salary) VALUES\n  ('Diya', 'diya@corp.in', 'HR', 50000);\nTRUNCATE TABLE employees;\nINSERT INTO employees (name, email, dept, salary) VALUES\n  ('Meera', 'meera@corp.in', 'IT', 70000);</code></pre>",
+        "hint": "TRUNCATE wipes everything.",
+        "answer": "<strong>1</strong> row (just Meera). The DELETE and the first INSERT are undone by TRUNCATE. Only the final INSERT after TRUNCATE survives.",
+        "explanation": "After the delete, rows = 3. After the insert, rows = 4. TRUNCATE resets to 0. Final insert makes it 1. Also note Meera's emp_id will be 1, not 5, because TRUNCATE reset AUTO_INCREMENT."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When would you use CREATE TEMPORARY TABLE instead of a regular CREATE TABLE?",
+        "hint": "Session-scoped, auto-cleanup.",
+        "answer": "Use TEMPORARY when (1) you need intermediate staging for a multi-step query or report and don't want the table to linger; (2) different concurrent sessions need their own private version of the same-named table (temporary tables are session-local); (3) you want the table to auto-drop when you disconnect.",
+        "explanation": "Common example: breaking a complex ETL process into three stages, each writing to a temporary table. After the final insert into the permanent table, the temps vanish automatically when the job ends."
+      },
+      {
+        "id": "mx-7",
+        "type": "debugging",
+        "difficulty": "Hard",
+        "question": "Fix the script so it can run multiple times without errors:<br><pre><code>CREATE DATABASE shop;\nUSE shop;\nCREATE TABLE products (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n);</code></pre>",
+        "hint": "IF NOT EXISTS and IF EXISTS.",
+        "answer": "<pre><code>CREATE DATABASE IF NOT EXISTS shop;\nUSE shop;\nDROP TABLE IF EXISTS products;\nCREATE TABLE products (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n);</code></pre>",
+        "explanation": "First run works. Second run fails because \"Database exists\" and \"Table already exists\". IF NOT EXISTS and DROP IF EXISTS make the script idempotent — runnable any number of times."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is TRUNCATE categorized as DDL even though conceptually it only removes data?",
+        "hint": "Internal implementation.",
+        "answer": "TRUNCATE works by dropping and recreating the table internally — a structural operation. That is DDL behavior. Side effects: it resets AUTO_INCREMENT, implicitly commits, cannot be rolled back in most databases, and doesn't fire row-level triggers.",
+        "explanation": "If TRUNCATE were pure DML, it would use the transaction log and support rollback like DELETE. Instead, it trades rollback-ability for speed by taking a DDL shortcut. Know both behaviors; interviewers love this question."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a script that: 1) creates an <code>audit_log</code> table, 2) adds a column <code>severity ENUM('low','medium','high') NOT NULL DEFAULT 'low'</code>, 3) creates a UNIQUE index on (user_id, event_time).",
+        "hint": "CREATE + ALTER + CREATE INDEX.",
+        "answer": "<pre><code>CREATE TABLE audit_log (\n    log_id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    event_time DATETIME NOT NULL,\n    action VARCHAR(100) NOT NULL\n);\n\nALTER TABLE audit_log\n    ADD COLUMN severity ENUM('low','medium','high') NOT NULL DEFAULT 'low';\n\nCREATE UNIQUE INDEX uq_user_event\n    ON audit_log (user_id, event_time);</code></pre>",
+        "explanation": "Indexes can be added via CREATE INDEX (shown) or ALTER TABLE ADD INDEX. A UNIQUE index acts like a UNIQUE constraint. Composite indexes make queries on (user_id, event_time) much faster."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "After <code>DROP TABLE employees;</code>, can you recover the data without a backup?",
+        "hint": "Depends on the storage engine and setup.",
+        "answer": "Usually <strong>no</strong>. DROP TABLE is immediate and irreversible in standard MySQL. Recovery requires a backup (mysqldump, binary backup) taken before the drop. Some enterprise tools can read the raw InnoDB tablespace, but success is never guaranteed.",
+        "explanation": "Good backup practice: daily full dumps + binary logs for point-in-time recovery. On production, never run DROP without double-checking. Some companies require 4-eyes approval for DROP/TRUNCATE in prod via review tools."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Clone the employees table's structure AND data into a new table <code>employees_2026_q1</code>.",
+        "hint": "Two steps: LIKE + INSERT SELECT.",
+        "answer": "<pre><code>CREATE TABLE employees_2026_q1 LIKE employees;\nINSERT INTO employees_2026_q1 SELECT * FROM employees;</code></pre>",
+        "explanation": "<code>CREATE TABLE LIKE</code> clones the full schema (columns, indexes, PKs, AUTO_INCREMENT). Then INSERT ... SELECT copies all rows. This is the proper way to make a true schema + data clone — unlike CTAS which skips indexes."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does MySQL usually lock a table during ALTER TABLE, and how is this handled in modern versions?",
+        "hint": "Online DDL.",
+        "answer": "Historically, ALTER forced a full table copy: MySQL created a shadow copy, applied changes, then swapped. This blocked writes (sometimes reads). MySQL 5.6+ introduced <strong>Online DDL</strong>: many operations (ADD INDEX, ADD COLUMN, DROP COLUMN on newer versions) now run concurrently with reads and writes. Still, certain ALTERs (changing PK, some MODIFY COLUMN cases) fall back to the blocking copy.",
+        "explanation": "Check <code>ALGORITHM=INPLACE, LOCK=NONE</code> clauses in ALTER statements for explicit control over online DDL behavior in MySQL 8.0. On very large tables, tools like pt-online-schema-change or gh-ost are still used for zero-downtime migrations."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which command removes the entire table including its structure?",
+        "options": {
+          "A": "DELETE FROM table;",
+          "B": "TRUNCATE TABLE table;",
+          "C": "DROP TABLE table;",
+          "D": "REMOVE TABLE table;"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> DROP TABLE permanently removes the table and its data. DELETE and TRUNCATE keep the table's structure. REMOVE TABLE is not a valid command."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which ALTER command adds a new column?",
+        "options": {
+          "A": "ALTER TABLE t ADD COLUMN c INT;",
+          "B": "ALTER TABLE t INSERT COLUMN c INT;",
+          "C": "ALTER TABLE t NEW COLUMN c INT;",
+          "D": "ALTER TABLE t CREATE c INT;"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> <code>ADD COLUMN</code> is the standard syntax. The word COLUMN is optional in MySQL but considered good practice for portability."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which command empties a table quickly and resets AUTO_INCREMENT?",
+        "options": {
+          "A": "DELETE",
+          "B": "TRUNCATE",
+          "C": "DROP",
+          "D": "RESET"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> TRUNCATE empties the table and resets AUTO_INCREMENT to 1. DELETE keeps the counter. DROP removes the table entirely."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which command deletes only rows where department = 'HR'?",
+        "options": {
+          "A": "TRUNCATE TABLE employees WHERE department = 'HR';",
+          "B": "DROP TABLE employees WHERE department = 'HR';",
+          "C": "DELETE FROM employees WHERE department = 'HR';",
+          "D": "REMOVE FROM employees WHERE department = 'HR';"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Only DELETE supports a WHERE clause. TRUNCATE always wipes all rows. DROP removes the table. REMOVE FROM is not valid SQL."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which modifier makes CREATE TABLE safely re-runnable?",
+        "options": {
+          "A": "OR REPLACE",
+          "B": "IF NOT EXISTS",
+          "C": "SAFE",
+          "D": "CHECK EXISTS"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>CREATE TABLE IF NOT EXISTS t (...)</code> is a no-op if the table already exists. OR REPLACE works in MariaDB and some other databases but not standard MySQL."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which ALTER renames a table from <code>employees</code> to <code>staff</code>?",
+        "options": {
+          "A": "ALTER TABLE employees RENAME TO staff;",
+          "B": "RENAME TABLE employees TO staff;",
+          "C": "Both A and B",
+          "D": "Neither"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Both ALTER TABLE ... RENAME TO and RENAME TABLE are valid MySQL syntax. RENAME TABLE is atomic and can rename multiple tables in one statement."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Which ALTER removes a column called phone?",
+        "options": {
+          "A": "ALTER TABLE t REMOVE phone;",
+          "B": "ALTER TABLE t DROP COLUMN phone;",
+          "C": "ALTER TABLE t DELETE COLUMN phone;",
+          "D": "ALTER TABLE t EXIT phone;"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>DROP COLUMN</code> is the standard syntax. REMOVE and DELETE COLUMN are not valid."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "After <code>TRUNCATE TABLE employees;</code>, the next INSERT for a table with AUTO_INCREMENT starting at 1 gets which id?",
+        "options": {
+          "A": "The last used id + 1",
+          "B": "1",
+          "C": "0",
+          "D": "NULL"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> TRUNCATE resets AUTO_INCREMENT to the initial value (default 1), so the next insert gets id = 1. This differs from DELETE, which keeps the counter."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which is TRUE about DROP TABLE?",
+        "options": {
+          "A": "Can be rolled back with ROLLBACK",
+          "B": "Supports a WHERE clause",
+          "C": "Permanently removes table and data",
+          "D": "Keeps the table structure intact"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> DROP removes the table entirely. It cannot be rolled back (auto-commit), doesn't support WHERE, and doesn't keep the structure."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which statement about CREATE TABLE AS SELECT is TRUE?",
+        "options": {
+          "A": "It copies the primary key and indexes",
+          "B": "It copies only the columns and data, not indexes/PKs",
+          "C": "It creates a temporary table",
+          "D": "It is the same as CREATE TABLE ... LIKE ..."
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> CTAS copies columns and data but NOT indexes, PKs, FKs, or AUTO_INCREMENT. To clone full schema use <code>CREATE TABLE new_t LIKE old_t;</code>."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which command disables FOREIGN KEY enforcement for the current session in MySQL?",
+        "options": {
+          "A": "SET FOREIGN_KEY_CHECKS = 0;",
+          "B": "DISABLE FOREIGN KEYS;",
+          "C": "ALTER DATABASE DROP FOREIGN KEYS;",
+          "D": "FLUSH FOREIGN KEYS;"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> <code>SET FOREIGN_KEY_CHECKS = 0;</code> temporarily turns off FK validation. Set it back to 1 to re-enable. Use sparingly; can create orphan rows."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which ALTER makes the <code>name</code> column NOT NULL (it was previously nullable)?",
+        "options": {
+          "A": "ALTER TABLE t SET NOT NULL name;",
+          "B": "ALTER TABLE t MODIFY COLUMN name VARCHAR(50) NOT NULL;",
+          "C": "ALTER TABLE t ADD NOT NULL ON name;",
+          "D": "ALTER TABLE t DROP NULL FROM name;"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> MODIFY COLUMN takes the full new definition of the column. You must repeat the type even if only the nullability changes. Fails if existing rows have NULL — update them first."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "What does <code>CREATE TEMPORARY TABLE</code> do?",
+        "options": {
+          "A": "Creates a read-only table",
+          "B": "Creates a table visible only to the current session, auto-dropped on disconnect",
+          "C": "Creates a table with no indexes",
+          "D": "Creates a table with a random name"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> TEMPORARY tables are session-local and auto-drop when the connection ends. Two different sessions can have TEMPORARY tables with the same name without conflict."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "Which is NOT a valid reason to prefer TRUNCATE over DELETE?",
+        "options": {
+          "A": "TRUNCATE is much faster for emptying large tables",
+          "B": "TRUNCATE resets AUTO_INCREMENT",
+          "C": "TRUNCATE can be rolled back with ROLLBACK",
+          "D": "TRUNCATE requires less logging"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct (it is NOT a valid reason).</strong> TRUNCATE cannot be rolled back in most databases including MySQL — this is a reason AGAINST TRUNCATE, not for it. A, B, and D are all genuine reasons to pick TRUNCATE."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "You run: <code>CREATE TABLE t2 LIKE t1;</code> followed by <code>INSERT INTO t2 SELECT * FROM t1;</code>. What does t2 have that CTAS would have missed?",
+        "options": {
+          "A": "The column types",
+          "B": "The PRIMARY KEY, indexes, and AUTO_INCREMENT",
+          "C": "Row data",
+          "D": "The table name"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> <code>CREATE TABLE LIKE</code> copies the full schema including PKs, indexes, and AUTO_INCREMENT. CTAS copies only columns and data. That's why LIKE + INSERT is the preferred clone."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Why might <code>ALTER TABLE employees DROP COLUMN salary;</code> fail?",
+        "options": {
+          "A": "The column doesn't exist",
+          "B": "The column is referenced by an index or constraint",
+          "C": "The column is part of a FOREIGN KEY in another table",
+          "D": "All of the above"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> All three can cause failure: column doesn't exist, it's part of an index/constraint that must be dropped first, or another table's FK points to it (rare for non-PK columns but possible with composite FKs)."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which statement about DELETE in MySQL is TRUE?",
+        "options": {
+          "A": "DELETE implicitly commits",
+          "B": "DELETE does not fire row-level triggers",
+          "C": "DELETE can be wrapped in a transaction and rolled back",
+          "D": "DELETE resets AUTO_INCREMENT"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> DELETE is DML and fully transactional. Wrap it in START TRANSACTION ... ROLLBACK to undo. A is false (DELETE doesn't implicitly commit). B is false (DELETE fires triggers). D is false (only TRUNCATE resets AUTO_INCREMENT)."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Which syntax correctly adds a composite UNIQUE constraint on (first_name, last_name)?",
+        "options": {
+          "A": "ALTER TABLE t ADD UNIQUE (first_name, last_name);",
+          "B": "ALTER TABLE t ADD CONSTRAINT uq_name UNIQUE (first_name, last_name);",
+          "C": "Both A and B",
+          "D": "Neither"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Both forms work. Option B with an explicit constraint name is preferred because you can later DROP the constraint by name: <code>ALTER TABLE t DROP INDEX uq_name;</code>."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "Which of these single ALTER statements is valid?",
+        "options": {
+          "A": "ALTER TABLE t ADD COLUMN a INT, DROP COLUMN b, MODIFY COLUMN c VARCHAR(80);",
+          "B": "ALTER TABLE t ADD a INT AND DROP b AND MODIFY c VARCHAR(80);",
+          "C": "ALTER TABLE t (ADD a INT, DROP b);",
+          "D": "ALTERS TABLE t ...;"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> Multiple changes in one ALTER are comma-separated and faster than running separate ALTERs. The others are invalid syntax."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "You need to change <code>emp_id</code> from INT to BIGINT on a 50M-row table. What should you be aware of?",
+        "options": {
+          "A": "It will be instant",
+          "B": "It may lock the table for a long time unless MySQL supports online DDL for this change",
+          "C": "It's not possible in MySQL",
+          "D": "It can be undone with ROLLBACK"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Changing a column type typically rebuilds the table, which can lock writes for minutes or hours on big tables. MySQL 8.0 supports online DDL for many operations, but not all type changes. Tools like pt-online-schema-change handle this without downtime."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Safe Reset Script",
+        "difficulty": "Easy",
+        "description": "Write a re-runnable script that: drops the <code>products</code> table if it exists; creates it with id (AUTO_INCREMENT PK), name NOT NULL (up to 80 chars), price DECIMAL(10,2) > 0; inserts three products; ends with a COUNT.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "Creates fresh table, inserts 3 rows, COUNT = 3. Safe to re-run.",
+        "constraints": "Use IF EXISTS on the DROP.",
+        "solution": "DROP TABLE IF EXISTS products;\n\nCREATE TABLE products (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(80) NOT NULL,\n    price DECIMAL(10,2) NOT NULL CHECK (price > 0)\n);\n\nINSERT INTO products (name, price) VALUES\n    ('Wireless Mouse',    799.00),\n    ('Mechanical Keyboard', 4999.00),\n    ('USB-C Charger',      1299.50);\n\nSELECT COUNT(*) AS total FROM products;\n-- Output:\n-- +-------+\n-- | total |\n-- +-------+\n-- |     3 |\n-- +-------+"
+      },
+      {
+        "id": "cc-2",
+        "title": "ALTER Multiple Things in One Shot",
+        "difficulty": "Easy",
+        "description": "Given an employees table with columns (emp_id, name, department, salary), write ONE ALTER TABLE that does all three: add a <code>bonus DECIMAL(8,2) DEFAULT 0</code> column, rename <code>department</code> to <code>dept</code>, and modify <code>name</code> to VARCHAR(80) NOT NULL.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "A single ALTER statement that applies all three changes.",
+        "constraints": "One statement only.",
+        "solution": "ALTER TABLE employees\n    ADD COLUMN bonus DECIMAL(8,2) DEFAULT 0,\n    RENAME COLUMN department TO dept,\n    MODIFY COLUMN name VARCHAR(80) NOT NULL;\n\nDESCRIBE employees;\n-- Expected structure:\n-- emp_id (PK), name VARCHAR(80) NOT NULL, dept VARCHAR(30),\n-- salary DECIMAL(10,2), bonus DECIMAL(8,2) DEFAULT 0."
+      },
+      {
+        "id": "cc-3",
+        "title": "DELETE vs TRUNCATE vs DROP Demo",
+        "difficulty": "Medium",
+        "description": "Build a small demo: create a products table with 5 rows; use DELETE to remove two rows; use TRUNCATE to wipe the rest; finally, DROP the table. Show the row count after each step using SELECT COUNT(*).",
+        "sampleInput": "(No input)",
+        "sampleOutput": "5 -> 3 -> 0 -> error (table dropped).",
+        "constraints": "Use all three commands.",
+        "solution": "DROP TABLE IF EXISTS products;\n\nCREATE TABLE products (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    price DECIMAL(10,2)\n);\n\nINSERT INTO products VALUES\n    (1, 'Pen',    10.00),\n    (2, 'Notebook', 55.00),\n    (3, 'Bag',    499.00),\n    (4, 'Bottle', 199.00),\n    (5, 'Mug',     149.00);\n\nSELECT COUNT(*) AS step1 FROM products;   -- 5\n\nDELETE FROM products WHERE price < 100;    -- removes Pen and Notebook\nSELECT COUNT(*) AS step2 FROM products;   -- 3\n\nTRUNCATE TABLE products;\nSELECT COUNT(*) AS step3 FROM products;   -- 0\n\nDROP TABLE products;\n-- SELECT COUNT(*) FROM products;  -- would ERROR: Table doesn't exist"
+      },
+      {
+        "id": "cc-4",
+        "title": "Backup Before Risky Change",
+        "difficulty": "Medium",
+        "description": "Your manager asks you to drop the column <code>legacy_code</code> from <code>customers</code>, but warns \"back it up first\". Write SQL that: 1) creates a FULL schema+data backup of customers named <code>customers_backup_20260411</code>, 2) drops the legacy_code column from customers.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "backup exists with same rows; original customers has legacy_code removed.",
+        "constraints": "Use the 2-step schema clone method (LIKE + INSERT SELECT).",
+        "solution": "-- 1) Full backup (schema + data)\nDROP TABLE IF EXISTS customers_backup_20260411;\nCREATE TABLE customers_backup_20260411 LIKE customers;\nINSERT INTO customers_backup_20260411 SELECT * FROM customers;\n\n-- 2) Proceed with risky change on the live table\nALTER TABLE customers DROP COLUMN legacy_code;\n\n-- Verify\nSELECT COUNT(*) AS backup_rows FROM customers_backup_20260411;\nDESCRIBE customers;\n-- If anything goes wrong, we can restore from customers_backup_20260411."
+      },
+      {
+        "id": "cc-5",
+        "title": "Constraint Rescue",
+        "difficulty": "Hard",
+        "description": "An existing <code>orders</code> table has no constraints. Add a PRIMARY KEY on order_id, a FOREIGN KEY emp_id referencing employees(emp_id), a CHECK that amount > 0, and a UNIQUE index on (emp_id, order_date). Assume the table exists with order_id, emp_id, amount, order_date columns.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "Four constraints added. DESCRIBE shows PRI/UNI/MUL keys.",
+        "constraints": "Use named constraints for easier rollback.",
+        "solution": "ALTER TABLE orders\n    ADD CONSTRAINT pk_orders PRIMARY KEY (order_id),\n    ADD CONSTRAINT fk_emp FOREIGN KEY (emp_id) REFERENCES employees(emp_id),\n    ADD CONSTRAINT chk_amount CHECK (amount > 0),\n    ADD CONSTRAINT uq_emp_date UNIQUE (emp_id, order_date);\n\nDESCRIBE orders;\n-- Expected keys: order_id (PRI), emp_id (MUL), (emp_id, order_date) UNIQUE composite\n\n-- If something fails (e.g., existing rows violate the CHECK),\n-- you can drop a specific constraint by name:\n-- ALTER TABLE orders DROP CHECK chk_amount;\n-- ALTER TABLE orders DROP FOREIGN KEY fk_emp;"
+      },
+      {
+        "id": "cc-6",
+        "title": "Zero-Downtime Rename Simulation",
+        "difficulty": "Hard",
+        "description": "Simulate a zero-downtime rename of the employees table to staff, using a view as a backward-compatibility shim. Write: 1) a script that renames employees to staff, 2) creates a VIEW called employees that SELECTs from staff (so old code still works), 3) shows that SELECT * FROM employees still returns data.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "The table is now named staff, but queries against employees still work through the view.",
+        "constraints": "Use RENAME TABLE and CREATE VIEW.",
+        "solution": "-- Step 1: rename the physical table\nRENAME TABLE employees TO staff;\n\n-- Step 2: create a view with the old name for backward compatibility\nCREATE OR REPLACE VIEW employees AS\nSELECT * FROM staff;\n\n-- Step 3: verify both names still work\nSELECT COUNT(*) AS via_new_name   FROM staff;\nSELECT COUNT(*) AS via_old_name   FROM employees;\n\n-- Both counts should match.\n--\n-- This is the pattern big companies use during rename migrations:\n-- rename the table, keep a view with the old name so existing app code keeps working,\n-- then gradually update call sites over several releases, and finally drop the view.\n--\n-- Once all call sites are updated:\n-- DROP VIEW employees;"
+      }
+    ]
+  }
+}

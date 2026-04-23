@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - ORDER BY, LIMIT, and DISTINCT | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="56+ practice questions on ORDER BY, LIMIT, and DISTINCT in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="order by, limit, and distinct practice, sql questions, sql practice problems, order by, limit, and distinct exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting/practice">
+    <meta property="og:title" content="Practice Questions - ORDER BY, LIMIT, and DISTINCT | SQL | Modern Age Coders">
+    <meta property="og:description" content="56+ practice questions on ORDER BY, LIMIT, and DISTINCT in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/sorting-and-limiting/practice">
+    <meta name="twitter:title" content="Practice Questions - ORDER BY, LIMIT, and DISTINCT | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="56+ practice questions on ORDER BY, LIMIT, and DISTINCT in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - ORDER BY, LIMIT, and DISTINCT",
+    "description": "56+ practice questions on ORDER BY, LIMIT, and DISTINCT in SQL.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "ORDER BY, LIMIT, and DISTINCT"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/sorting-and-limiting/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "ORDER BY, LIMIT, and DISTINCT",
+        "item": "https://learn.modernagecoders.com/resources/sql/sorting-and-limiting"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/sorting-and-limiting/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/sorting-and-limiting">ORDER BY, LIMIT, and DISTINCT</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 7</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">56 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; ORDER BY, LIMIT, and DISTINCT</h1>
+            <a href="/resources/sql/sorting-and-limiting" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">16</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">20</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Sort all products by price ascending. Return name and price.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">ORDER BY price (ASC is default).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><pre><code>SELECT name, price FROM products ORDER BY price;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Get the top 5 most expensive products.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">ORDER BY DESC + LIMIT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><pre><code>SELECT name, price FROM products
+ORDER BY price DESC
+LIMIT 5;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">List unique categories in the products table.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">SELECT DISTINCT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><pre><code>SELECT DISTINCT category FROM products;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Count how many unique cities the products are from.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">COUNT(DISTINCT ...).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><pre><code>SELECT COUNT(DISTINCT city) FROM products;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Sort all products by stock ascending, but only show the lowest 3 stock items.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">LIMIT + ASC sort.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><pre><code>SELECT name, stock FROM products
+ORDER BY stock ASC
+LIMIT 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Get page 2 of products (5 per page), sorted by id.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">OFFSET = (2-1) * 5 = 5.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><pre><code>SELECT * FROM products
+ORDER BY id
+LIMIT 5 OFFSET 5;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT DISTINCT category FROM products;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Count distinct categories.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>3 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the first row?<br><pre><code>SELECT name FROM products ORDER BY price DESC LIMIT 1;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Highest priced product.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>iPhone 15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Sort products by category ascending, then by price descending within each category.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Multi-column ORDER BY.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><pre><code>SELECT name, category, price FROM products
+ORDER BY category ASC, price DESC;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find the 2nd cheapest product (lowest price is 1st). Return name and price.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">ORDER BY ASC, OFFSET 1, LIMIT 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><pre><code>SELECT name, price FROM products
+ORDER BY price ASC
+LIMIT 1 OFFSET 1;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Return the product with the highest inventory value (price * stock).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Sort by price * stock DESC, LIMIT 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><pre><code>SELECT name, price, stock, price * stock AS inventory_value
+FROM products
+ORDER BY price * stock DESC
+LIMIT 1;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">List unique (category, city) combinations sorted by category then city.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">DISTINCT on multiple columns.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><pre><code>SELECT DISTINCT category, city FROM products
+ORDER BY category, city;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Get page 3 of products, 4 items per page, ordered by name.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">OFFSET = (3-1) * 4 = 8.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><pre><code>SELECT * FROM products
+ORDER BY name
+LIMIT 4 OFFSET 8;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is returned?<br><pre><code>SELECT DISTINCT category, city FROM products
+WHERE category = 'Sports';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Sports is in which cities?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>Sports Bengaluru<br>Sports Mumbai<br>Sports Pune<br>(3 rows)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between ASC and DESC in ORDER BY?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Direction of sorting.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>ASC</code> means <strong>ascending</strong> — smallest first, largest last. This is the default. <code>DESC</code> means <strong>descending</strong> — largest first, smallest last. For strings, ASC is alphabetical (A to Z), DESC is reverse (Z to A). For dates, ASC is oldest first, DESC is newest first.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why should you always use ORDER BY with LIMIT?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Determinism.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Without ORDER BY, SQL does not guarantee any particular order of rows. LIMIT just takes the first n rows of whatever order the database chose, which can change between queries. Using ORDER BY makes the result deterministic and predictable. Always pair LIMIT with ORDER BY in production code.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain the difference between COUNT(*), COUNT(column), and COUNT(DISTINCT column).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">What each counts.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>COUNT(*)</code> counts all rows in the result, including NULLs. <code>COUNT(column)</code> counts rows where <em>column</em> is NOT NULL — NULLs are skipped. <code>COUNT(DISTINCT column)</code> counts unique non-NULL values — duplicates and NULLs are excluded.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find the 3rd highest priced product using LIMIT and OFFSET.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">OFFSET 2, LIMIT 1 after ORDER BY DESC.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>SELECT name, price FROM products
+ORDER BY price DESC
+LIMIT 1 OFFSET 2;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Return 3 products with the highest stock, but only among Grocery items.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">WHERE filter + ORDER BY + LIMIT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>SELECT name, stock FROM products
+WHERE category = 'Grocery'
+ORDER BY stock DESC
+LIMIT 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Count how many unique categories exist for products priced above 1000.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">WHERE + COUNT(DISTINCT).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><pre><code>SELECT COUNT(DISTINCT category) FROM products
+WHERE price > 1000;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does LIMIT 10000 OFFSET 99990 become slow? How would you fix it for production?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-21">Think about what MySQL has to do for OFFSET.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-21">OFFSET requires MySQL to scan and discard every row up to the offset position. So OFFSET 99990 scans 99,990 rows just to throw them away. This is O(n). Fix: use <strong>keyset pagination</strong> — remember the last id/value from the previous page and use <code>WHERE id &gt; last_seen_id ORDER BY id LIMIT n</code>. This is O(log n) with an index and stays fast regardless of page depth.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this return (from employees table)?<br><pre><code>SELECT DISTINCT salary FROM employees
+ORDER BY salary DESC
+LIMIT 1 OFFSET 2;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-22">3rd highest distinct salary.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-22"><code>81000 (Karan Mehta's salary)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Return all products sorted by category ASC, but within each category sort by stock DESC and then price ASC.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-23">Three sort keys.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-23"><pre><code>SELECT name, category, stock, price FROM products
+ORDER BY category ASC, stock DESC, price ASC;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Paginate Electronics products, 2 per page. Write the query for page 2.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-24">WHERE first, then ORDER BY, then LIMIT/OFFSET.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-24"><pre><code>SELECT * FROM products
+WHERE category = 'Electronics'
+ORDER BY id
+LIMIT 2 OFFSET 2;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 25</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">In MySQL, how are NULLs sorted by default in ORDER BY?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-25" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-25">NULLs treated as smallest or largest?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-25" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-25">MySQL treats NULL as the <strong>smallest value</strong>. So <code>ORDER BY col ASC</code> puts NULLs first (at the top), and <code>ORDER BY col DESC</code> puts NULLs last. This differs from PostgreSQL which does the opposite by default. For portable code, use <code>ORDER BY col IS NULL, col</code> to force NULLs to the bottom regardless of database.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Sort products by name alphabetically.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">ORDER BY name.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>SELECT * FROM products ORDER BY name;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Get the cheapest product.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">ORDER BY ASC, LIMIT 1.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>SELECT name, price FROM products
+ORDER BY price ASC
+LIMIT 1;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Show how many products we have in total.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">COUNT(*).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><pre><code>SELECT COUNT(*) FROM products;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find all distinct prices (in case of duplicates).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">DISTINCT price.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>SELECT DISTINCT price FROM products ORDER BY price;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT * FROM products LIMIT 0;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Limit zero.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>0 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">List distinct cities in alphabetical order.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">DISTINCT + ORDER BY.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>SELECT DISTINCT city FROM products ORDER BY city;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the first product returned?<br><pre><code>SELECT name FROM products ORDER BY stock DESC LIMIT 1;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Highest stock.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>Soap</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Get the 3 most expensive Electronics.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">WHERE + ORDER BY DESC + LIMIT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>SELECT name, price FROM products
+WHERE category = 'Electronics'
+ORDER BY price DESC
+LIMIT 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Get 2 products from the middle of the alphabetically sorted list (positions 6-7).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">OFFSET 5, LIMIT 2.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>SELECT name FROM products
+ORDER BY name
+LIMIT 2 OFFSET 5;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Count distinct categories for products in Mumbai.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">WHERE + COUNT(DISTINCT).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>SELECT COUNT(DISTINCT category) FROM products
+WHERE city = 'Mumbai';</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Sort products descending by price, but return only the 4th and 5th in the list.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">OFFSET 3, LIMIT 2.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>SELECT name, price FROM products
+ORDER BY price DESC
+LIMIT 2 OFFSET 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT DISTINCT category, city FROM products
+WHERE city = 'Mumbai';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Unique (category, city) for Mumbai.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>2 rows</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Return the product with highest stock. Use ORDER BY DESC LIMIT 1.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Direct sort and limit.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><pre><code>SELECT name, stock FROM products
+ORDER BY stock DESC
+LIMIT 1;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Paginate all products with 3 per page. Write query for page 4.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">OFFSET = (4-1)*3 = 9.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14"><pre><code>SELECT * FROM products
+ORDER BY id
+LIMIT 3 OFFSET 9;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a query for employees (from chapter 6) that returns their names in descending salary order.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">Single-column sort.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15"><pre><code>SELECT name, salary FROM employees
+ORDER BY salary DESC;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find the 2nd highest salary in the employees table.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-16">Classic interview. LIMIT 1 OFFSET 1 after DESC sort.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-16"><pre><code>SELECT DISTINCT salary FROM employees
+ORDER BY salary DESC
+LIMIT 1 OFFSET 1;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How many rows?<br><pre><code>SELECT DISTINCT category FROM products
+WHERE price > 50000;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-17">Products above 50000 are all in which category?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-17"><code>1 row</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Get top 5 Grocery items by stock. Return name, stock.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-18">WHERE + ORDER BY + LIMIT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-18"><pre><code>SELECT name, stock FROM products
+WHERE category = 'Grocery'
+ORDER BY stock DESC
+LIMIT 5;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Return a list showing unique (city, category) pairs sorted by city ascending, then category descending.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-19">DISTINCT + multi-column ORDER BY.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-19"><pre><code>SELECT DISTINCT city, category FROM products
+ORDER BY city ASC, category DESC;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Find the 3 cheapest products in each category using LIMIT (hint: you cannot do it with a single LIMIT — but write a query for just Grocery).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-20">For a single category, use WHERE + ORDER BY + LIMIT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-20"><pre><code>-- For Grocery only:
+SELECT name, price FROM products
+WHERE category = 'Grocery'
+ORDER BY price ASC
+LIMIT 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 21</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this return?<br><pre><code>SELECT COUNT(*), COUNT(DISTINCT category), COUNT(DISTINCT city)
+FROM products;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-21" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-21">Three counts: rows, unique categories, unique cities.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-21" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-21"><code>12, 3, 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 22</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Return the top 3 cities by the number of products they have. (Hint: you'll need GROUP BY — preview of chapter 10.)</div><button type="button" class="collapsible-toggle" data-target="hint-mx-22" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-22">GROUP BY city, COUNT(*), ORDER BY count DESC.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-22" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-22"><pre><code>SELECT city, COUNT(*) AS num_products FROM products
+GROUP BY city
+ORDER BY num_products DESC
+LIMIT 3;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 23</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Return the 5th to 8th most expensive products (like items on page 2 with 4 per page).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-23" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-23">LIMIT 4 OFFSET 4.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-23" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-23"><pre><code>SELECT name, price FROM products
+ORDER BY price DESC
+LIMIT 4 OFFSET 4;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 24</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the 2nd row?<br><pre><code>SELECT name FROM products
+ORDER BY category, price DESC;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-24" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-24">Categories alphabetically, then price DESC.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-24" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-24"><code>Laptop (2nd row)</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the default sort order of ORDER BY?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DESC (descending)</li><li><span class="mcq-option-label">B.</span> ASC (ascending)</li><li><span class="mcq-option-label">C.</span> Random</li><li><span class="mcq-option-label">D.</span> No default — must be specified</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> ASC (ascending) is the default. <code>ORDER BY price</code> and <code>ORDER BY price ASC</code> are identical.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which clause limits the number of returned rows?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> TOP</li><li><span class="mcq-option-label">B.</span> LIMIT</li><li><span class="mcq-option-label">C.</span> MAX</li><li><span class="mcq-option-label">D.</span> ONLY</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> LIMIT is MySQL's syntax. SQL Server uses TOP, Oracle uses ROWNUM. The SQL standard is actually <code>FETCH FIRST n ROWS ONLY</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does DISTINCT do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sorts rows</li><li><span class="mcq-option-label">B.</span> Removes duplicate rows</li><li><span class="mcq-option-label">C.</span> Returns rows in reverse order</li><li><span class="mcq-option-label">D.</span> Limits to the first row</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> DISTINCT removes duplicates from the result set. Applies to the whole row of selected columns.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which query returns the 5 most expensive products?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM products LIMIT 5 ORDER BY price;</li><li><span class="mcq-option-label">B.</span> SELECT * FROM products ORDER BY price LIMIT 5;</li><li><span class="mcq-option-label">C.</span> SELECT * FROM products ORDER BY price DESC LIMIT 5;</li><li><span class="mcq-option-label">D.</span> SELECT TOP 5 * FROM products ORDER BY price DESC;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> ORDER BY price DESC sorts most expensive first, then LIMIT 5 takes top 5. Option A has wrong clause order. Option B gives cheapest, not most expensive. Option D is SQL Server syntax, not MySQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does LIMIT 10 OFFSET 20 return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Rows 1 through 10</li><li><span class="mcq-option-label">B.</span> Rows 20 through 30</li><li><span class="mcq-option-label">C.</span> Rows 21 through 30 (skip 20, take 10)</li><li><span class="mcq-option-label">D.</span> Rows 10 through 20</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> OFFSET 20 skips the first 20 rows. LIMIT 10 takes the next 10. So rows 21-30.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">For pagination with 10 items per page, what is the OFFSET for page 4?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 20</li><li><span class="mcq-option-label">C.</span> 30</li><li><span class="mcq-option-label">D.</span> 40</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Formula: OFFSET = (page - 1) * page_size = (4 - 1) * 10 = 30. Page 4 shows rows 31-40.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which query counts unique values in a column?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> COUNT(col)</li><li><span class="mcq-option-label">B.</span> COUNT(DISTINCT col)</li><li><span class="mcq-option-label">C.</span> DISTINCT COUNT(col)</li><li><span class="mcq-option-label">D.</span> UNIQUE(col)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> COUNT(DISTINCT col) counts unique non-NULL values. COUNT(col) counts non-NULL rows (with duplicates). The others are not valid SQL syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the correct order of clauses?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT, ORDER BY, FROM, WHERE, LIMIT</li><li><span class="mcq-option-label">B.</span> SELECT, FROM, WHERE, ORDER BY, LIMIT</li><li><span class="mcq-option-label">C.</span> FROM, SELECT, WHERE, LIMIT, ORDER BY</li><li><span class="mcq-option-label">D.</span> Any order is fine</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> The syntactic order is: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT. Putting them in any other order is a syntax error.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does SELECT DISTINCT category, city return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Distinct categories and distinct cities separately</li><li><span class="mcq-option-label">B.</span> Unique (category, city) combinations</li><li><span class="mcq-option-label">C.</span> Distinct category from the first column only</li><li><span class="mcq-option-label">D.</span> An error — DISTINCT only works on one column</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> DISTINCT applies to the entire row of selected columns. So this returns unique (category, city) pairs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Why should LIMIT always be paired with ORDER BY?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LIMIT does not work without ORDER BY</li><li><span class="mcq-option-label">B.</span> Without ORDER BY, the &#39;first n&#39; rows are unpredictable</li><li><span class="mcq-option-label">C.</span> ORDER BY makes LIMIT faster</li><li><span class="mcq-option-label">D.</span> It is just a style preference</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without ORDER BY, the database can return rows in any order (depends on storage, indexes, optimizer). LIMIT just grabs the first n of whatever that order is — unpredictable and risky.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which is equivalent to LIMIT 10 OFFSET 5 in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LIMIT 10, 5</li><li><span class="mcq-option-label">B.</span> LIMIT 5, 10</li><li><span class="mcq-option-label">C.</span> LIMIT 15</li><li><span class="mcq-option-label">D.</span> OFFSET 5 LIMIT 10</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL's two-argument form is <code>LIMIT offset, count</code>. So <code>LIMIT 5, 10</code> means offset 5, limit 10 — same as <code>LIMIT 10 OFFSET 5</code>. This confuses everyone — prefer the OFFSET keyword.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">To get the 3rd highest distinct salary, which works?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ORDER BY salary DESC LIMIT 3</li><li><span class="mcq-option-label">B.</span> ORDER BY salary DESC LIMIT 1 OFFSET 2</li><li><span class="mcq-option-label">C.</span> ORDER BY salary ASC LIMIT 3</li><li><span class="mcq-option-label">D.</span> ORDER BY salary DESC LIMIT 2 OFFSET 1</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> DESC sort puts highest first. OFFSET 2 skips positions 1 and 2 (highest and 2nd highest). LIMIT 1 returns the 3rd highest. Remember to add DISTINCT if you want to skip ties.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">In MySQL, ORDER BY col ASC places NULLs where?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Always at the end</li><li><span class="mcq-option-label">B.</span> At the beginning (NULLs treated as smallest)</li><li><span class="mcq-option-label">C.</span> In random positions</li><li><span class="mcq-option-label">D.</span> NULLs cause an error in ORDER BY</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL treats NULL as the smallest value, so ASC puts NULLs at the top. DESC puts them at the bottom. PostgreSQL does the opposite. For portable code, use <code>ORDER BY col IS NULL, col</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">You want all Grocery products sorted from cheapest to most expensive. Correct query?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM products WHERE category = &#39;Grocery&#39; ORDER BY price DESC;</li><li><span class="mcq-option-label">B.</span> SELECT * FROM products ORDER BY price WHERE category = &#39;Grocery&#39;;</li><li><span class="mcq-option-label">C.</span> SELECT * FROM products WHERE category = &#39;Grocery&#39; ORDER BY price;</li><li><span class="mcq-option-label">D.</span> SELECT * FROM products WHERE ORDER BY price category = &#39;Grocery&#39;;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> WHERE before ORDER BY (correct clause order), ASC is default. Option A sorts descending (reverse direction). Options B and D have invalid clause order.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does COUNT(DISTINCT salary) return for a column with values [100, 200, 200, 300, NULL]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5</li><li><span class="mcq-option-label">B.</span> 4</li><li><span class="mcq-option-label">C.</span> 3</li><li><span class="mcq-option-label">D.</span> 2</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> COUNT(DISTINCT) excludes NULL and counts unique values. Unique non-NULL values: 100, 200, 300 — that's 3.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">For a products table sorted by price DESC with LIMIT 5 OFFSET 3, which rows are returned?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Rows 1-5 sorted by price descending</li><li><span class="mcq-option-label">B.</span> Rows 3-7 sorted by price descending</li><li><span class="mcq-option-label">C.</span> Rows 4-8 sorted by price descending</li><li><span class="mcq-option-label">D.</span> Rows 5-10 sorted by price descending</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> OFFSET 3 skips positions 1-3. LIMIT 5 takes positions 4-8 (5 rows: positions 4, 5, 6, 7, 8).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Why is deep OFFSET (like OFFSET 100000) slow?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> MySQL does not support high OFFSET values</li><li><span class="mcq-option-label">B.</span> MySQL must scan and discard all rows up to the offset</li><li><span class="mcq-option-label">C.</span> Network bandwidth slows it down</li><li><span class="mcq-option-label">D.</span> LIMIT caches results which fills memory</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> OFFSET makes MySQL read and throw away rows until it reaches the offset position. For OFFSET 100000, that's 100,000 discarded rows. Fix: keyset pagination with <code>WHERE id &gt; last_seen_id</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does SELECT DISTINCT * FROM products do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns one of each unique category</li><li><span class="mcq-option-label">B.</span> Returns all rows since full rows are rarely duplicates</li><li><span class="mcq-option-label">C.</span> Removes duplicates based on id only</li><li><span class="mcq-option-label">D.</span> Syntax error — DISTINCT cannot work with *</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> DISTINCT * removes rows where ALL columns are identical. With a primary key like id, no two rows are identical, so DISTINCT * returns everything. It's valid syntax but rarely useful.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">In a multi-column ORDER BY col1 ASC, col2 DESC, how are ties in col1 broken?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> By col2 ascending</li><li><span class="mcq-option-label">B.</span> By col2 descending</li><li><span class="mcq-option-label">C.</span> Randomly</li><li><span class="mcq-option-label">D.</span> By insertion order</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each column has its own direction. When col1 ties, col2 DESC orders the tied rows with highest col2 first.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">Which query would let you find the employee with the 5th highest salary, handling ties correctly?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 4</li><li><span class="mcq-option-label">B.</span> SELECT DISTINCT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 4</li><li><span class="mcq-option-label">C.</span> SELECT * FROM employees LIMIT 5</li><li><span class="mcq-option-label">D.</span> SELECT MAX(salary) FROM employees</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> DISTINCT handles ties — if two people have the same salary, they count as one rank. Without DISTINCT, the result depends on which duplicate is returned. Option A would fail for a table with duplicate salaries in the top 5.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Top 3 Highest Priced Products</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Return the 3 most expensive products, showing name and price.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">products table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">iPhone 15 79999.00
+Laptop 65000.00
+Samsung TV 45999.00</div>
+                </div><div class="challenge-constraints">Use ORDER BY + LIMIT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">SELECT name, price FROM products
+ORDER BY price DESC
+LIMIT 3;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Unique Cities</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">List all distinct cities where products are stored, sorted alphabetically.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">products table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Bengaluru
+Delhi
+Mumbai
+Pune</div>
+                </div><div class="challenge-constraints">Use DISTINCT + ORDER BY.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">SELECT DISTINCT city FROM products ORDER BY city;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Pagination Page 2</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Get products 6 through 10 when sorted by id. This is page 2 with 5 items per page.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">products table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Bread, Headphones, Yoga Mat, Rice 5kg, Laptop (ids 6-10)</div>
+                </div><div class="challenge-constraints">OFFSET = (page-1)*size.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">SELECT * FROM products
+ORDER BY id
+LIMIT 5 OFFSET 5;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: 2nd Highest Salary</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given the employees table from chapter 6, find the 2nd highest distinct salary.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">92000</div>
+                </div><div class="challenge-constraints">Use DISTINCT, ORDER BY DESC, LIMIT 1 OFFSET 1.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">SELECT DISTINCT salary
+FROM employees
+ORDER BY salary DESC
+LIMIT 1 OFFSET 1;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Most Expensive Per Alphabetical Order</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Sort products alphabetically by name. For each, show position in the sorted list (using row number via variables or window functions). Simpler version: just return name and price sorted by name.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">products table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">All 12 products in alphabetical order.</div>
+                </div><div class="challenge-constraints">ORDER BY name.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">SELECT name, price FROM products ORDER BY name;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Count Distinct Per Filter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Count the number of distinct categories for products priced below 5000.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">products table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">3</div>
+                </div><div class="challenge-constraints">WHERE + COUNT(DISTINCT).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">SELECT COUNT(DISTINCT category) FROM products
+WHERE price &lt; 5000;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Top 2 From Each City Category (Tricky)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Return the single most expensive product in Mumbai, then the single most expensive product in Delhi. Combine using UNION (preview of chapter 14) or write separate queries.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">products table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Mumbai: iPhone 15 (79999)
+Delhi: Samsung TV (45999)</div>
+                </div><div class="challenge-constraints">Two queries or UNION.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">-- Two separate queries:
+SELECT name, price FROM products WHERE city = &#39;Mumbai&#39; ORDER BY price DESC LIMIT 1;
+SELECT name, price FROM products WHERE city = &#39;Delhi&#39; ORDER BY price DESC LIMIT 1;
+
+-- Or using UNION (covered later):
+(SELECT name, price, city FROM products WHERE city = &#39;Mumbai&#39; ORDER BY price DESC LIMIT 1)
+UNION
+(SELECT name, price, city FROM products WHERE city = &#39;Delhi&#39; ORDER BY price DESC LIMIT 1);</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Nth Highest — Parameterized Pattern</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write the query pattern to find the Nth highest distinct price from products. Test with N=4 (4th highest).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">products table.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">For N=4, the 4th highest distinct price. Prices DESC: 79999, 65000, 45999, 4999, 3499, ... So 4th = 4999 (Running Shoes).</div>
+                </div><div class="challenge-constraints">LIMIT 1 OFFSET N-1 with DISTINCT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">-- Template: replace N with the desired rank
+SELECT DISTINCT price FROM products
+ORDER BY price DESC
+LIMIT 1 OFFSET 3;  -- for N=4, offset = N-1 = 3
+
+-- Returns: 4999 (Running Shoes)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/select-basics-and-where/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">SELECT Queries and the WHERE Clause</span>
+        </a>
+            <a href="/resources/sql/pattern-matching-and-null/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">LIKE Pattern Matching and NULL Handling</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/sorting-and-limiting" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn INT, VARCHAR, TEXT, DATE, DATETIME, BOOLEAN, and constraints that keep your data clean.">
+    <meta name="keywords" content="data types and constraints (not null, unique, primary key), sql tutorial, sql data types and constraints (not null, unique, primary key), learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints">
+    <meta property="og:title" content="Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn INT, VARCHAR, TEXT, DATE, DATETIME, BOOLEAN, and constraints that keep your data clean.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints">
+    <meta name="twitter:title" content="Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn INT, VARCHAR, TEXT, DATE, DATETIME, BOOLEAN, and constraints that keep your data clean.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)",
+    "description": "Learn INT, VARCHAR, TEXT, DATE, DATETIME, BOOLEAN, and constraints that keep your data clean.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/data-types-and-constraints"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/data-types-and-constraints"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)",
+        "item": "https://learn.modernagecoders.com/resources/sql/data-types-and-constraints"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Storing Phone Numbers as INT",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Phone numbers are not numbers in the arithmetic sense — you never add two phone numbers. They can have leading zeros, country codes, plus signs, spaces, hyphens. Store them as VARCHAR(15) or VARCHAR(20). The same rule applies to Aadhaar numbers, PIN codes with leading zeros, and credit card numbers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using FLOAT for Money",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "DECIMAL stores the exact digits you give it. FLOAT and DOUBLE store an approximation in binary, which loses precision on values like 0.1, 0.2, 0.3. For anything touching money (prices, taxes, invoices, salaries), always use DECIMAL with enough precision."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting NOT NULL on Required Fields",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If a field is conceptually required, declare it NOT NULL. This catches bugs at insert time (a controlled failure) rather than at report time weeks later (a confused stakeholder). Combine NOT NULL with UNIQUE for fields like email, username, or pan_number that must always exist AND be unique."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Thinking Two UNIQUE Constraints Are Equivalent to a Composite PRIMARY KEY",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A UNIQUE on a single column means that column is unique by itself. UNIQUE on student_id AND UNIQUE on course_id means each student can appear only once AND each course can appear only once — not what we want. A <strong>composite primary key on (student_id, course_id)</strong> means the <em>pair</em> is unique, which is exactly the real-world rule."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 3</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">24 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</h1>
+            <a href="/resources/sql/data-types-and-constraints/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Data Types and Constraints?</h2><p>When you create a table, every column has two things attached to it: a <strong>data type</strong> and optionally one or more <strong>constraints</strong>.</p><ul><li>A <strong>data type</strong> says what kind of values the column can hold — integers, strings, dates, etc. It controls storage size and valid operations.</li><li>A <strong>constraint</strong> is a rule that limits which values are allowed — no NULLs, no duplicates, values between 0 and 100, etc. Constraints protect your data from garbage getting in.</li></ul><p>Picking the right data type and constraints is half of good database design. A column declared as <code>VARCHAR(500)</code> when 20 characters is the true max wastes memory and lets bad data slip in. A phone number stored as <code>INT</code> loses leading zeros and breaks for international numbers. A salary column without <code>NOT NULL</code> lets someone insert a rogue row with an empty salary that crashes your reports.</p><h3>Sample Tables for This Chapter</h3><p>We will refer to two tables throughout this chapter.</p><p><strong>students</strong></p><table><tr><th>student_id</th><th>name</th><th>email</th><th>dob</th><th>cgpa</th></tr><tr><td>1</td><td>Aarav Sharma</td><td>aarav@college.edu</td><td>2005-03-15</td><td>8.50</td></tr><tr><td>2</td><td>Priya Iyer</td><td>priya@college.edu</td><td>2004-11-22</td><td>9.20</td></tr><tr><td>3</td><td>Rohan Verma</td><td>rohan@college.edu</td><td>2005-07-08</td><td>7.80</td></tr></table><p><strong>orders</strong></p><table><tr><th>order_id</th><th>student_id</th><th>amount</th><th>order_date</th></tr><tr><td>5001</td><td>1</td><td>1200.50</td><td>2026-04-01 14:30:00</td></tr><tr><td>5002</td><td>2</td><td>850.00</td><td>2026-04-02 09:15:00</td></tr></table>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Types and Constraints Matter</h2><h3>1. Data Integrity — Your Database Fights Bugs For You</h3><p>Without constraints, any bad row can sneak in: a student with no name, a duplicate email, a negative salary, a date of birth in the year 3000. Once the bad data is in, downstream reports break and customer support has to clean it up. With constraints, the database rejects the bad row at INSERT time. You fix the bug once (in the schema) instead of a hundred times (in every query).</p><h3>2. Storage Efficiency</h3><p>A <code>TINYINT</code> uses 1 byte. A <code>BIGINT</code> uses 8 bytes. On a 50-million-row table, using BIGINT instead of TINYINT for a "gender" or "status" column wastes 350MB for no benefit. Multiply that across dozens of columns and multiple tables, and you pay for it in RAM, disk, and backup size.</p><h3>3. Performance Hinges on Primary Keys and Indexes</h3><p>Every row lookup, JOIN, and filter uses indexes. Indexes are built on primary keys and constraints. Choosing the right primary key determines whether your query runs in 10ms or 10 seconds on a million rows.</p><h3>4. Interview-Favorite Topic</h3><p>"What is the difference between CHAR and VARCHAR?", "When would you use DECIMAL instead of FLOAT?", "What is the difference between a PRIMARY KEY and a UNIQUE constraint?", "Can a table have multiple UNIQUE constraints but only one PRIMARY KEY?" — these are asked in almost every SQL interview at Flipkart, Amazon, Zomato, and countless startups.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Numeric Types</h3><table><tr><th>Type</th><th>Bytes</th><th>Range (signed)</th><th>Typical Use</th></tr><tr><td><code>TINYINT</code></td><td>1</td><td>-128 to 127</td><td>Flags, small status codes</td></tr><tr><td><code>SMALLINT</code></td><td>2</td><td>-32,768 to 32,767</td><td>Counts in small range</td></tr><tr><td><code>MEDIUMINT</code></td><td>3</td><td>-8M to 8M</td><td>Rarely used</td></tr><tr><td><code>INT</code></td><td>4</td><td>-2.1B to 2.1B</td><td>IDs, counts (most common)</td></tr><tr><td><code>BIGINT</code></td><td>8</td><td>-9.2 quintillion to 9.2 quintillion</td><td>Huge counts, file sizes</td></tr><tr><td><code>DECIMAL(p, s)</code></td><td>variable</td><td>exact</td><td>Money, precision math</td></tr><tr><td><code>FLOAT</code></td><td>4</td><td>~7-digit precision</td><td>Scientific, approx</td></tr><tr><td><code>DOUBLE</code></td><td>8</td><td>~15-digit precision</td><td>Scientific, approx</td></tr></table><h4>DECIMAL vs FLOAT — Critical for Money</h4><p><code>DECIMAL(10, 2)</code> means "up to 10 total digits, 2 after the decimal point" — so values from -99,999,999.99 to 99,999,999.99 stored EXACTLY. Use for money, accounting, tax calculations.</p><p><code>FLOAT</code> and <code>DOUBLE</code> store values in binary floating-point, which cannot exactly represent 0.1 or 0.2. So <code>0.1 + 0.2 = 0.30000000000000004</code> in floats. Fine for physics simulations, fatal for a bank ledger where pennies must add up exactly.</p><p><strong>Rule: if it's money or currency, always use DECIMAL.</strong></p><h3>2. String Types</h3><table><tr><th>Type</th><th>Storage</th><th>Max</th><th>When to Use</th></tr><tr><td><code>CHAR(n)</code></td><td>fixed n chars, padded</td><td>255</td><td>Fixed-length codes (country='IN', pincode, gender='M')</td></tr><tr><td><code>VARCHAR(n)</code></td><td>actual length + 1-2 bytes</td><td>65,535</td><td>Names, emails, anything variable</td></tr><tr><td><code>TEXT</code></td><td>up to 64KB</td><td>65,535</td><td>Blog posts, long notes</td></tr><tr><td><code>MEDIUMTEXT</code></td><td>up to 16MB</td><td>~16M</td><td>Articles, product descriptions</td></tr><tr><td><code>LONGTEXT</code></td><td>up to 4GB</td><td>~4B</td><td>Books, huge logs</td></tr></table><h4>CHAR vs VARCHAR — When to Use Which</h4><p>Use <code>CHAR(n)</code> for columns where the value is always exactly n characters long: country codes (2 chars), UPI codes, MD5 hashes (32 chars), pin codes (6 chars in India). CHAR is slightly faster because the row has a fixed size.</p><p>Use <code>VARCHAR(n)</code> for everything else: names, addresses, emails, product descriptions. VARCHAR only uses the space it needs.</p><p>Use <code>TEXT</code> when you need more than 65,535 characters or when you don't care about indexing the column fully.</p><h4>Phone Numbers: VARCHAR, not INT</h4><p>New students often store phone numbers as <code>BIGINT</code>. This is wrong. Phone numbers can have leading zeros ("080-xxxxxxx"), plus signs ("+91-98xxxxxxxx"), hyphens, and spaces. Storing them as numbers loses all this. Also, nobody does math on phone numbers. <strong>Always store phone numbers as VARCHAR.</strong></p><h3>3. Date and Time Types</h3><table><tr><th>Type</th><th>Format</th><th>Range</th><th>Use</th></tr><tr><td><code>DATE</code></td><td>YYYY-MM-DD</td><td>1000-01-01 to 9999-12-31</td><td>DOB, joining date</td></tr><tr><td><code>TIME</code></td><td>HH:MM:SS</td><td>-838:59:59 to 838:59:59</td><td>Durations, time of day</td></tr><tr><td><code>DATETIME</code></td><td>YYYY-MM-DD HH:MM:SS</td><td>1000-01-01 to 9999-12-31</td><td>Event timestamps</td></tr><tr><td><code>TIMESTAMP</code></td><td>YYYY-MM-DD HH:MM:SS</td><td>1970-01-01 UTC to 2038-01-19 UTC</td><td>Row creation, updates</td></tr><tr><td><code>YEAR</code></td><td>YYYY</td><td>1901 to 2155</td><td>Year-only columns</td></tr></table><h4>DATETIME vs TIMESTAMP — The Difference</h4><p>Both look identical and store "date + time". The critical differences:</p><ul><li><code>DATETIME</code> stores the exact literal you give it. No time zone logic. Range is huge (1000 to 9999).</li><li><code>TIMESTAMP</code> is stored internally in UTC and converted to the server's time zone on read. Range is limited: 1970 to 2038 (the Y2K38 problem).</li></ul><p>Use <code>TIMESTAMP</code> for <code>created_at</code> / <code>updated_at</code> columns because it automatically adjusts for server time zones. Use <code>DATETIME</code> for dates that must not shift with time zones — like a scheduled meeting time.</p><h3>4. Boolean</h3><p>MySQL has no true BOOLEAN type. Internally, <code>BOOLEAN</code> is an alias for <code>TINYINT(1)</code> — stored as 0 or 1. <code>TRUE</code> is 1, <code>FALSE</code> is 0. You can write <code>BOOLEAN</code> in your CREATE TABLE for clarity, but MySQL stores it as TINYINT.</p><h3>5. ENUM — Fixed Set of Allowed Values</h3><pre><code>gender ENUM('Male', 'Female', 'Other')
+status ENUM('pending', 'approved', 'rejected')</code></pre><p>ENUM restricts the column to one of the listed values. Stored internally as a small integer (1 byte for up to 256 values), so it is also space-efficient. Use it when the set of values is small and rarely changes.</p><h3>6. Constraints</h3><h4>NOT NULL</h4><p>The column cannot be empty. Any INSERT without a value for this column (and no DEFAULT set) fails.</p><pre><code>name VARCHAR(50) NOT NULL</code></pre><h4>UNIQUE</h4><p>All values in the column must be different. Two rows cannot have the same value. NULLs are allowed and multiple NULLs don't count as duplicates in most databases.</p><pre><code>email VARCHAR(100) UNIQUE</code></pre><h4>PRIMARY KEY</h4><p>The column that uniquely identifies each row. Combines UNIQUE + NOT NULL. Only ONE primary key per table. Creates an index automatically.</p><pre><code>student_id INT PRIMARY KEY</code></pre><h4>FOREIGN KEY / REFERENCES</h4><p>Ensures that a column's value exists in another table's primary key. Prevents orphan records.</p><pre><code>student_id INT,
+FOREIGN KEY (student_id) REFERENCES students(student_id)</code></pre><h4>CHECK</h4><p>A boolean condition that every row must satisfy. Supported properly in MySQL 8.0+.</p><pre><code>cgpa DECIMAL(3,2) CHECK (cgpa >= 0 AND cgpa <= 10)</code></pre><h4>DEFAULT</h4><p>Provides a value when no value is specified in INSERT.</p><pre><code>created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</code></pre><h4>AUTO_INCREMENT</h4><p>Automatically assigns the next integer value to a column. Usually applied to primary key columns.</p><pre><code>id INT AUTO_INCREMENT PRIMARY KEY</code></pre><h3>7. Composite Primary Key</h3><p>Sometimes a single column doesn't uniquely identify a row, but a combination does. Example: a <code>course_enrollments</code> table where one student can enroll in many courses, and one course has many students. Neither <code>student_id</code> alone nor <code>course_id</code> alone is unique, but the pair is.</p><pre><code>CREATE TABLE enrollments (
+    student_id INT,
+    course_id INT,
+    enrolled_on DATE,
+    PRIMARY KEY (student_id, course_id)
+);</code></pre><h3>8. Choosing Data Types — Real Scenarios</h3><table><tr><th>Field</th><th>Good Choice</th><th>Why</th></tr><tr><td>Student age</td><td><code>TINYINT UNSIGNED</code></td><td>Range 0-255 is plenty, 1 byte</td></tr><tr><td>Aadhaar number</td><td><code>CHAR(12)</code></td><td>Exactly 12 digits, keep leading zeros</td></tr><tr><td>Indian phone</td><td><code>VARCHAR(15)</code></td><td>Allows +, spaces, country code</td></tr><tr><td>Profile bio</td><td><code>TEXT</code></td><td>Can be long</td></tr><tr><td>Product price</td><td><code>DECIMAL(10,2)</code></td><td>Exact money</td></tr><tr><td>Date of birth</td><td><code>DATE</code></td><td>No time needed</td></tr><tr><td>Row created timestamp</td><td><code>TIMESTAMP</code></td><td>Auto-converts time zones</td></tr><tr><td>Is active?</td><td><code>BOOLEAN</code></td><td>TINYINT(1) under the hood</td></tr><tr><td>User role (admin/user/guest)</td><td><code>ENUM(...)</code></td><td>Fixed, tiny set</td></tr></table>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">A Well-Designed students Table</div><pre><code class="language-python">CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    phone VARCHAR(15),
+    dob DATE NOT NULL,
+    cgpa DECIMAL(3,2) DEFAULT 0.00 CHECK (cgpa &gt;= 0 AND cgpa &lt;= 10),
+    is_active BOOLEAN DEFAULT TRUE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DESCRIBE students;</code></pre><div class="code-example-explanation">This schema uses eight common patterns: <code>AUTO_INCREMENT PRIMARY KEY</code> for a surrogate id; <code>NOT NULL</code> on mandatory fields; <code>UNIQUE</code> on email so no two students share one; phone as <code>VARCHAR(15)</code> to handle +country codes; <code>DECIMAL(3,2)</code> for exact CGPA (range 0.00 to 9.99); <code>CHECK</code> to enforce valid CGPA; <code>BOOLEAN DEFAULT TRUE</code> for active flag; <code>TIMESTAMP DEFAULT CURRENT_TIMESTAMP</code> for automatic creation time.</div><div class="code-example-output">Query OK, 0 rows affected (0.05 sec)
+
++------------+---------------+------+-----+-------------------+-------------------+
+| Field      | Type          | Null | Key | Default           | Extra             |
++------------+---------------+------+-----+-------------------+-------------------+
+| student_id | int           | NO   | PRI | NULL              | auto_increment    |
+| name       | varchar(50)   | NO   |     | NULL              |                   |
+| email      | varchar(100)  | NO   | UNI | NULL              |                   |
+| phone      | varchar(15)   | YES  |     | NULL              |                   |
+| dob        | date          | NO   |     | NULL              |                   |
+| cgpa       | decimal(3,2)  | YES  |     | 0.00              |                   |
+| is_active  | tinyint(1)    | YES  |     | 1                 |                   |
+| created_at | timestamp     | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++------------+---------------+------+-----+-------------------+-------------------+
+8 rows in set (0.01 sec)</div></div>
+<div class="code-example"><div class="code-example-title">AUTO_INCREMENT and DEFAULT in Action</div><pre><code class="language-python">-- student_id is AUTO_INCREMENT so we omit it.
+-- is_active and created_at have DEFAULTs so we can omit them too.
+INSERT INTO students (name, email, phone, dob, cgpa) VALUES
+    (&#39;Aarav Sharma&#39;, &#39;aarav@college.edu&#39;, &#39;+91-9876543210&#39;, &#39;2005-03-15&#39;, 8.50),
+    (&#39;Priya Iyer&#39;,   &#39;priya@college.edu&#39;, &#39;+91-9123456780&#39;, &#39;2004-11-22&#39;, 9.20),
+    (&#39;Rohan Verma&#39;,  &#39;rohan@college.edu&#39;, NULL,              &#39;2005-07-08&#39;, 7.80);
+
+SELECT student_id, name, email, phone, is_active, created_at FROM students;</code></pre><div class="code-example-explanation">We name only the columns we want to supply values for. <code>student_id</code> auto-generates 1, 2, 3. <code>is_active</code> defaults to TRUE (1). <code>created_at</code> gets the current timestamp. Rohan's phone is explicitly NULL because phone is nullable (no NOT NULL constraint).</div><div class="code-example-output">+------------+--------------+-------------------+------------------+-----------+---------------------+
+| student_id | name         | email             | phone            | is_active | created_at          |
++------------+--------------+-------------------+------------------+-----------+---------------------+
+|          1 | Aarav Sharma | aarav@college.edu | +91-9876543210   |         1 | 2026-04-11 10:15:22 |
+|          2 | Priya Iyer   | priya@college.edu | +91-9123456780   |         1 | 2026-04-11 10:15:22 |
+|          3 | Rohan Verma  | rohan@college.edu | NULL             |         1 | 2026-04-11 10:15:22 |
++------------+--------------+-------------------+------------------+-----------+---------------------+
+3 rows in set (0.00 sec)</div></div>
+<div class="code-example"><div class="code-example-title">UNIQUE and NOT NULL Rejecting Bad Data</div><pre><code class="language-python">-- Attempt 1: duplicate email — should fail.
+INSERT INTO students (name, email, dob)
+VALUES (&#39;Ananya Reddy&#39;, &#39;aarav@college.edu&#39;, &#39;2005-01-10&#39;);
+
+-- Attempt 2: NULL name — should fail.
+INSERT INTO students (name, email, dob)
+VALUES (NULL, &#39;ananya@college.edu&#39;, &#39;2005-01-10&#39;);
+
+-- Attempt 3: valid row — should succeed.
+INSERT INTO students (name, email, dob)
+VALUES (&#39;Ananya Reddy&#39;, &#39;ananya@college.edu&#39;, &#39;2005-01-10&#39;);</code></pre><div class="code-example-explanation">Attempt 1 violates the UNIQUE constraint on email. Attempt 2 violates NOT NULL on name. Attempt 3 obeys both rules and succeeds. This is exactly why constraints exist — the database catches bad data at write time so your reads are always clean.</div><div class="code-example-output">ERROR 1062 (23000): Duplicate entry &#39;aarav@college.edu&#39; for key &#39;students.email&#39;
+
+ERROR 1048 (23000): Column &#39;name&#39; cannot be null
+
+Query OK, 1 row affected (0.01 sec)</div></div>
+<div class="code-example"><div class="code-example-title">FOREIGN KEY Preventing Orphan Orders</div><pre><code class="language-python">-- orders table references students.
+CREATE TABLE orders (
+    order_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT NOT NULL,
+    amount DECIMAL(10,2) NOT NULL CHECK (amount &gt; 0),
+    order_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (student_id) REFERENCES students(student_id)
+);
+
+-- Valid order (student_id=1 exists).
+INSERT INTO orders (student_id, amount) VALUES (1, 1200.50);
+
+-- Invalid order — student_id=999 does not exist.
+INSERT INTO orders (student_id, amount) VALUES (999, 500.00);</code></pre><div class="code-example-explanation">The FOREIGN KEY clause says "every student_id in orders must match an existing student_id in students". Attempt to insert student_id=999 fails because there is no student with id 999. This prevents <strong>orphan records</strong> — orders referencing students who don't exist. The CHECK constraint further ensures amount is positive.</div><div class="code-example-output">Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`school`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`student_id`) REFERENCES `students` (`student_id`))</div></div>
+<div class="code-example"><div class="code-example-title">Composite Primary Key — Enrollments</div><pre><code class="language-python">CREATE TABLE enrollments (
+    student_id INT,
+    course_id INT,
+    enrolled_on DATE DEFAULT (CURRENT_DATE),
+    grade CHAR(2),
+    PRIMARY KEY (student_id, course_id),
+    FOREIGN KEY (student_id) REFERENCES students(student_id)
+);
+
+INSERT INTO enrollments (student_id, course_id, grade) VALUES
+    (1, 101, &#39;A&#39;),
+    (1, 102, &#39;B&#39;),
+    (2, 101, &#39;A&#39;),
+    (2, 102, &#39;A&#39;);
+
+-- Attempt to insert duplicate (1, 101) — fails.
+INSERT INTO enrollments (student_id, course_id, grade) VALUES (1, 101, &#39;C&#39;);</code></pre><div class="code-example-explanation">A <strong>composite primary key</strong> is made of two or more columns. Here <code>(student_id, course_id)</code> together uniquely identify a row. Student 1 can enroll in multiple courses (101 and 102), and course 101 can have multiple students (1 and 2), but each (student, course) pair can appear at most once. The last INSERT fails because (1, 101) already exists.</div><div class="code-example-output">Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 4 rows affected (0.01 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+ERROR 1062 (23000): Duplicate entry &#39;1-101&#39; for key &#39;enrollments.PRIMARY&#39;</div></div>
+<div class="code-example"><div class="code-example-title">DECIMAL vs FLOAT — Why Money Needs DECIMAL</div><pre><code class="language-python">CREATE TABLE payments_decimal (amount DECIMAL(10,2));
+CREATE TABLE payments_float (amount FLOAT);
+
+-- Insert 0.1 three times into each.
+INSERT INTO payments_decimal VALUES (0.10), (0.10), (0.10);
+INSERT INTO payments_float VALUES (0.10), (0.10), (0.10);
+
+-- Sum them.
+SELECT SUM(amount) AS total_decimal FROM payments_decimal;
+SELECT SUM(amount) AS total_float FROM payments_float;</code></pre><div class="code-example-explanation">With DECIMAL the sum is exactly 0.30 — what any accountant expects. With FLOAT the sum is 0.30000000447... due to binary floating-point rounding errors. On a real ledger with millions of transactions, these tiny errors add up and cause balance mismatches. <strong>Always use DECIMAL for money.</strong></div><div class="code-example-output">+---------------+
+| total_decimal |
++---------------+
+|          0.30 |
++---------------+
+1 row in set (0.00 sec)
+
++----------------------+
+| total_float          |
++----------------------+
+| 0.30000001192092896  |
++----------------------+
+1 row in set (0.00 sec)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Storing Phone Numbers as INT</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE TABLE users (
+    id INT,
+    phone INT   -- WRONG
+);
+INSERT INTO users VALUES (1, 09876543210);</code></pre></div><div class="error-message">Leading zero is lost. &#39;09876543210&#39; becomes 9876543210. International numbers with &#39;+&#39; or &#39;-&#39; cannot be stored at all.</div><div class="correct-code"><pre><code class="language-python">CREATE TABLE users (
+    id INT PRIMARY KEY,
+    phone VARCHAR(15)
+);
+INSERT INTO users VALUES (1, &#39;+91-9876543210&#39;);</code></pre></div><div class="mistake-explanation">Phone numbers are not numbers in the arithmetic sense — you never add two phone numbers. They can have leading zeros, country codes, plus signs, spaces, hyphens. Store them as VARCHAR(15) or VARCHAR(20). The same rule applies to Aadhaar numbers, PIN codes with leading zeros, and credit card numbers.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using FLOAT for Money</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE TABLE orders (
+    order_id INT,
+    amount FLOAT  -- WRONG
+);
+INSERT INTO orders VALUES (1, 19.99), (2, 10.01);
+SELECT SUM(amount) FROM orders;  -- returns 30.000000190734863</code></pre></div><div class="error-message">Floating-point cannot exactly represent 19.99, so sums drift over many rows.</div><div class="correct-code"><pre><code class="language-python">CREATE TABLE orders (
+    order_id INT,
+    amount DECIMAL(10,2)
+);
+INSERT INTO orders VALUES (1, 19.99), (2, 10.01);
+SELECT SUM(amount) FROM orders;  -- returns 30.00</code></pre></div><div class="mistake-explanation">DECIMAL stores the exact digits you give it. FLOAT and DOUBLE store an approximation in binary, which loses precision on values like 0.1, 0.2, 0.3. For anything touching money (prices, taxes, invoices, salaries), always use DECIMAL with enough precision.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting NOT NULL on Required Fields</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100)
+);
+INSERT INTO students (id) VALUES (1);  -- succeeds but creates a student with no name or email</code></pre></div><div class="error-message">Bad data silently gets in. Reports later show students with NULL names.</div><div class="correct-code"><pre><code class="language-python">CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE
+);
+INSERT INTO students (id) VALUES (1);  -- now fails at INSERT time</code></pre></div><div class="mistake-explanation">If a field is conceptually required, declare it NOT NULL. This catches bugs at insert time (a controlled failure) rather than at report time weeks later (a confused stakeholder). Combine NOT NULL with UNIQUE for fields like email, username, or pan_number that must always exist AND be unique.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Thinking Two UNIQUE Constraints Are Equivalent to a Composite PRIMARY KEY</h3>
+                <div class="wrong-code"><pre><code class="language-python">CREATE TABLE enrollments (
+    student_id INT UNIQUE,
+    course_id INT UNIQUE,
+    enrolled_on DATE
+);</code></pre></div><div class="error-message">UNIQUE on student_id alone means each student can appear only once — breaks the use case (a student takes many courses).</div><div class="correct-code"><pre><code class="language-python">CREATE TABLE enrollments (
+    student_id INT,
+    course_id INT,
+    enrolled_on DATE,
+    PRIMARY KEY (student_id, course_id)
+);</code></pre></div><div class="mistake-explanation">A UNIQUE on a single column means that column is unique by itself. UNIQUE on student_id AND UNIQUE on course_id means each student can appear only once AND each course can appear only once — not what we want. A <strong>composite primary key on (student_id, course_id)</strong> means the <em>pair</em> is unique, which is exactly the real-world rule.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Data types control what kind of values a column can hold. Constraints add business rules on top of the types.</li>
+<li>Numeric types: TINYINT (1 byte), INT (4 bytes, most common), BIGINT (8 bytes). Use DECIMAL(p, s) for money, never FLOAT or DOUBLE.</li>
+<li>String types: CHAR(n) for fixed-length (codes, hashes); VARCHAR(n) for variable-length (names, emails); TEXT for long free-form text.</li>
+<li>Phone numbers, Aadhaar, and PINs should be VARCHAR (not INT) because leading zeros, plus signs, and punctuation matter.</li>
+<li>Date/time types: DATE (YYYY-MM-DD), DATETIME (up to year 9999), TIMESTAMP (stored as UTC, Y2K38 limit in 2038).</li>
+<li>Use TIMESTAMP for created_at/updated_at (auto time-zone). Use DATETIME for fixed wall-clock times that must never shift.</li>
+<li>MySQL BOOLEAN is internally TINYINT(1): TRUE=1, FALSE=0. ENUM restricts a column to a fixed set of allowed values.</li>
+<li>Constraints: NOT NULL (required), UNIQUE (no duplicates), PRIMARY KEY (= NOT NULL + UNIQUE, one per table), FOREIGN KEY (references another table), CHECK (boolean rule), DEFAULT (fallback value), AUTO_INCREMENT (auto-assigned ids).</li>
+<li>A composite primary key is made of multiple columns; the combination must be unique. Used for junction tables like enrollments.</li>
+<li>Good schema = right types + right constraints. Both together turn your database into a fortress that rejects bad data at the source, saving you from painful data cleanups later.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/setting-up-mysql-and-first-query" class="related-topic-link">Setting Up MySQL and Your First Query</a>
+<a href="/resources/sql/creating-and-modifying-tables" class="related-topic-link">CREATE, ALTER, DROP Tables</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/setting-up-mysql-and-first-query" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Setting Up MySQL and Your First Query</span>
+        </a>
+            <a href="/resources/sql/creating-and-modifying-tables" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">CREATE, ALTER, DROP Tables</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/data-types-and-constraints/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

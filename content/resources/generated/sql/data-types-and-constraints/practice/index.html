@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="56+ practice questions on Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="data types and constraints (not null, unique, primary key) practice, sql questions, sql practice problems, data types and constraints (not null, unique, primary key) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints/practice">
+    <meta property="og:title" content="Practice Questions - Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) | SQL | Modern Age Coders">
+    <meta property="og:description" content="56+ practice questions on Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/data-types-and-constraints/practice">
+    <meta name="twitter:title" content="Practice Questions - Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="56+ practice questions on Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)",
+    "description": "56+ practice questions on Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY) in SQL.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/data-types-and-constraints/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)",
+        "item": "https://learn.modernagecoders.com/resources/sql/data-types-and-constraints"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/data-types-and-constraints/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/data-types-and-constraints">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 3</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">56 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</h1>
+            <a href="/resources/sql/data-types-and-constraints" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What data type should you use for a student's age?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Range is 0-150 at most.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>TINYINT UNSIGNED</code> (range 0-255, 1 byte) is ideal. <code>INT</code> works but wastes 3 bytes per row.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What data type for a 12-digit Aadhaar number, and why not BIGINT?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Aadhaar can start with 0, and you never do math on it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>CHAR(12)</code>. Not BIGINT because (a) Aadhaar numbers can start with 0 which BIGINT would strip, and (b) we never perform arithmetic on an Aadhaar.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What data type for a user's profile bio that can be up to 2000 characters?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Varchar limit vs TEXT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>VARCHAR(2000)</code> or <code>TEXT</code>. VARCHAR is preferred here since 2000 chars is well below the VARCHAR limit and VARCHAR can be indexed fully.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What data type for a date of birth?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Do you need the time of day?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>DATE</code>. Only year-month-day is needed — not hours or minutes.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What data type for a product price like 1499.50?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Never FLOAT for money.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>DECIMAL(10, 2)</code> — up to 10 total digits with 2 after the decimal. Supports up to 99,999,999.99.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Name three constraints that can be applied to a column in SQL.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Any three of six common ones.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">Any three of: <code>NOT NULL</code>, <code>UNIQUE</code>, <code>PRIMARY KEY</code>, <code>FOREIGN KEY</code>, <code>CHECK</code>, <code>DEFAULT</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between PRIMARY KEY and UNIQUE?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Nullability and count per table.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><strong>PRIMARY KEY</strong>: uniquely identifies a row, cannot be NULL, only ONE per table. <strong>UNIQUE</strong>: values must be different, CAN be NULL (and multiple NULLs are usually allowed), MANY UNIQUE constraints allowed per table.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does AUTO_INCREMENT do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Relates to ID generation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>AUTO_INCREMENT</code> automatically assigns the next integer value to a column on each INSERT, so you don't have to provide the id yourself.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between CHAR(10) and VARCHAR(10)?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Storage and padding.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>CHAR(10)</code> always takes exactly 10 characters of storage (padded with spaces if shorter). <code>VARCHAR(10)</code> takes only the actual length plus 1-2 bytes overhead. VARCHAR is better for variable-length data; CHAR is marginally faster for strictly fixed-length data.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When would you use DATETIME vs TIMESTAMP?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Time zones and range.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><strong>DATETIME</strong>: stores literal wall-clock time, range 1000-9999, no time zone logic. Use for fixed events like scheduled meeting times. <strong>TIMESTAMP</strong>: stored as UTC, converted to server time zone on read, range 1970-2038. Use for created_at/updated_at where automatic time zone handling is helpful.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is a composite primary key? Give an example.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">More than one column.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">A composite primary key is made of two or more columns. The COMBINATION must be unique, though each individual column may have duplicates. Example: an enrollments(student_id, course_id) table where a student can take many courses and a course has many students, but each (student, course) pair is unique.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why should you never store money as FLOAT?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Binary representation of decimal fractions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">FLOAT stores values in binary floating-point, which cannot exactly represent decimal fractions like 0.1 or 19.99. Summing 0.1 ten times gives 0.9999999 instead of 1.0. Over millions of transactions, balances silently drift. <strong>Always use DECIMAL for money.</strong></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a CREATE TABLE for <code>employees</code> with: emp_id (auto-increment primary key), name (required up to 50 chars), email (unique, required), salary (decimal for money, required, must be positive), hire_date (date, required, default today).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Combine all the constraints you learned.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><pre><code>CREATE TABLE employees (
+    emp_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    salary DECIMAL(10,2) NOT NULL CHECK (salary &gt; 0),
+    hire_date DATE NOT NULL DEFAULT (CURRENT_DATE)
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a CREATE TABLE for an <code>orders</code> table that links to employees via a FOREIGN KEY.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">FOREIGN KEY ... REFERENCES.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>CREATE TABLE orders (
+    order_id INT AUTO_INCREMENT PRIMARY KEY,
+    emp_id INT NOT NULL,
+    amount DECIMAL(10,2) NOT NULL CHECK (amount &gt; 0),
+    order_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (emp_id) REFERENCES employees(emp_id)
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a CREATE TABLE for a junction table <code>enrollments</code> that captures which student is enrolled in which course, with enrollment date. Use a composite primary key.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">PRIMARY KEY (student_id, course_id).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><pre><code>CREATE TABLE enrollments (
+    student_id INT,
+    course_id INT,
+    enrolled_on DATE DEFAULT (CURRENT_DATE),
+    PRIMARY KEY (student_id, course_id)
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Can a PRIMARY KEY column be NULL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Think about what a primary key represents.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">No. A PRIMARY KEY is implicitly NOT NULL. It must uniquely identify each row, and NULL means "unknown", which cannot uniquely identify anything.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Can a UNIQUE column be NULL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Yes, usually, and multiple NULLs are allowed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Yes. In MySQL, a UNIQUE column allows NULL values and treats multiple NULLs as NOT duplicates of each other — so multiple rows can have NULL in a UNIQUE column.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Your team wants to add a CHECK constraint to ensure an age column is between 18 and 100. Write the constraint.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">CHECK (condition).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>age INT NOT NULL CHECK (age BETWEEN 18 AND 100)</code></pre>Or equivalently: <code>CHECK (age &gt;= 18 AND age &lt;= 100)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why might you use ENUM('Male', 'Female', 'Other') instead of VARCHAR(10) for a gender column?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Space and validation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19">Two reasons: (1) ENUM is stored internally as a 1-byte integer regardless of string length — far more efficient; (2) ENUM restricts values to the listed options, so no one can insert 'male ' (trailing space), 'MALE', or 'foo' — the database validates for you.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Your DBA proposes using DOUBLE for storing student CGPAs. Is that acceptable or would you push back?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Precision matters for grades.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">Push back. CGPA is shown to students to 2 decimal places and can cause disputes if rounding drifts (9.24 vs 9.25 affects scholarships). Use <code>DECIMAL(3, 2)</code> for exact 0.00-9.99 representation.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Match each data type with its best use case: INT, VARCHAR(50), DATE, DECIMAL(10,2), BOOLEAN.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">One per column.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">INT → row IDs, counts. VARCHAR(50) → names, emails. DATE → date of birth, joining date. DECIMAL(10,2) → money, product price. BOOLEAN → yes/no flags like is_active.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Spot the bad choice and fix it:<br><pre><code>CREATE TABLE users (
+    id INT,
+    phone INT,
+    bio VARCHAR(5000),
+    balance FLOAT
+);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Phone, bio, balance all wrong.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>CREATE TABLE users (
+    id INT PRIMARY KEY,
+    phone VARCHAR(15),       -- was INT, lost leading zeros
+    bio TEXT,                 -- was VARCHAR(5000), too big for VARCHAR
+    balance DECIMAL(12,2)     -- was FLOAT, loses precision on money
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Can a table have zero constraints? Is that a good design?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">MySQL allows it, but...</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">Yes, MySQL allows it. But it is a poor design. Without constraints, bad data silently flows in and you end up cleaning the mess later in queries.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Create a <code>products</code> table: id auto-increment PK, name required up to 80 chars, sku unique required 20 chars, price decimal for money must be positive, category an ENUM of 'Electronics', 'Books', 'Clothing', and is_active boolean defaulting TRUE.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Combine everything.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(80) NOT NULL,
+    sku VARCHAR(20) NOT NULL UNIQUE,
+    price DECIMAL(10,2) NOT NULL CHECK (price &gt; 0),
+    category ENUM('Electronics', 'Books', 'Clothing') NOT NULL,
+    is_active BOOLEAN DEFAULT TRUE
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens if you try to insert a CGPA of 11.5 into a column declared as DECIMAL(3,2) CHECK (cgpa &lt;= 10)?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Two things could fail.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">Two possible issues. First, DECIMAL(3,2) means 3 total digits with 2 after the decimal — max allowed is 9.99, so 11.5 exceeds the type's max. Second, even if the type allowed it, the CHECK (cgpa &lt;= 10) would reject it. In MySQL you'll get an "Out of range" error first.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why do FOREIGN KEY constraints sometimes prevent deletes you think should work?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Orphan child rows.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">If another table references a row via FOREIGN KEY, deleting the parent leaves orphan children. MySQL blocks the delete by default. You must either delete the children first or configure ON DELETE CASCADE / SET NULL on the FK.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">A colleague declares a column as <code>VARCHAR(50)</code> but always inserts values exactly 50 characters long. Is VARCHAR fine here or should they switch to CHAR?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Fixed length implies fixed storage.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">Switch to <code>CHAR(50)</code>. Since every value is exactly 50 characters, CHAR is slightly faster (fixed-width rows) and saves the 1-2 byte length prefix that VARCHAR adds to every value.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">You need to store the exact moment (to the microsecond) a user clicked a button. Which type: DATETIME(6), TIMESTAMP(6), or BIGINT storing epoch microseconds?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Time zone and range matter.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">Depends. <strong>TIMESTAMP(6)</strong> gives microsecond precision and automatic UTC handling — best if you are before 2038. <strong>DATETIME(6)</strong> gives microseconds but no time zone logic — best if you might store events beyond 2038 or want the literal wall-clock time. <strong>BIGINT</strong> is the most portable and survives the 2038 bug but requires application-level conversion to a readable date.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Your friend says: "Since UNIQUE constraints prevent duplicates, we can just slap UNIQUE on many columns and skip the PRIMARY KEY." Counter this.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Primary keys do more than uniqueness.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Three reasons to still have a PRIMARY KEY: (1) PK implies NOT NULL (UNIQUE alone allows NULL). (2) PK creates the main clustered index in InnoDB — hugely impacts storage layout and query speed. (3) Foreign keys from other tables need a primary key (or unique key) to reference.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Fix the design error:<br><pre><code>CREATE TABLE bookings (
+    user_id INT UNIQUE,
+    room_id INT UNIQUE,
+    booking_date DATE
+);</code></pre>The business rule is: a user can book many rooms; a room can be booked by many users; but no (user, room, date) triple should repeat.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Neither column alone is unique.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>CREATE TABLE bookings (
+    user_id INT,
+    room_id INT,
+    booking_date DATE,
+    PRIMARY KEY (user_id, room_id, booking_date)
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">A table has <code>created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP</code> and <code>updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP</code>. Explain what happens on INSERT and on UPDATE.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">ON UPDATE changes the behavior.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">On INSERT: both columns get the current timestamp. On UPDATE of any other column in the row: <code>updated_at</code> is automatically refreshed to the current timestamp, but <code>created_at</code> stays unchanged.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Design a <code>course_enrollments</code> table for a college. Rules: a student takes many courses; a course has many students; each enrollment has a date and optional final grade (A, B, C, D, F); you should not be able to re-enroll the same student in the same course (unless they're repeating, in which case a separate attempt_no distinguishes them).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Composite PK with attempt_no.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><pre><code>CREATE TABLE course_enrollments (
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    attempt_no TINYINT NOT NULL DEFAULT 1,
+    enrolled_on DATE NOT NULL DEFAULT (CURRENT_DATE),
+    grade CHAR(1) CHECK (grade IN ('A','B','C','D','F')),
+    PRIMARY KEY (student_id, course_id, attempt_no),
+    FOREIGN KEY (student_id) REFERENCES students(student_id),
+    FOREIGN KEY (course_id) REFERENCES courses(course_id)
+);</code></pre></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which data type is best for storing exact monetary amounts?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> FLOAT</li><li><span class="mcq-option-label">B.</span> DOUBLE</li><li><span class="mcq-option-label">C.</span> DECIMAL</li><li><span class="mcq-option-label">D.</span> INT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> DECIMAL stores values exactly, which is essential for money. FLOAT and DOUBLE introduce binary floating-point rounding errors. INT can't store paise/cents as a decimal.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which data type should a 10-digit Indian mobile number be stored as?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> INT</li><li><span class="mcq-option-label">B.</span> BIGINT</li><li><span class="mcq-option-label">C.</span> DECIMAL(10,0)</li><li><span class="mcq-option-label">D.</span> VARCHAR(15)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: D</strong><br><strong>D is correct.</strong> Phone numbers may have leading zeros, country codes, hyphens, or spaces. VARCHAR preserves all of that. Numeric types would strip leading zeros and block international formats.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">How many primary keys can a table have?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> One</li><li><span class="mcq-option-label">B.</span> Two</li><li><span class="mcq-option-label">C.</span> As many as you want</li><li><span class="mcq-option-label">D.</span> Zero</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: A</strong><br><strong>A is correct.</strong> A table can have only ONE primary key (though it can be composed of multiple columns — a composite key). You can have many UNIQUE constraints, but only one PRIMARY KEY.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which keyword enforces that a column cannot have duplicate values?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NOT NULL</li><li><span class="mcq-option-label">B.</span> UNIQUE</li><li><span class="mcq-option-label">C.</span> CHECK</li><li><span class="mcq-option-label">D.</span> DEFAULT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> UNIQUE prevents duplicate values. NOT NULL prevents empty values. CHECK enforces a general condition. DEFAULT provides a fallback.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which data type stores only date (no time) in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DATETIME</li><li><span class="mcq-option-label">B.</span> TIMESTAMP</li><li><span class="mcq-option-label">C.</span> DATE</li><li><span class="mcq-option-label">D.</span> TIME</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> DATE stores YYYY-MM-DD only. DATETIME and TIMESTAMP include time. TIME stores only HH:MM:SS.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does AUTO_INCREMENT do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Automatically updates the column on every change</li><li><span class="mcq-option-label">B.</span> Automatically generates a new integer value for each inserted row</li><li><span class="mcq-option-label">C.</span> Automatically deletes old rows</li><li><span class="mcq-option-label">D.</span> Automatically checks constraints</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> AUTO_INCREMENT generates a new (usually sequential) integer for each INSERT. You can omit the column in INSERT and MySQL fills it in.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which type is appropriate for an Aadhaar number (12 digits, fixed length)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> INT</li><li><span class="mcq-option-label">B.</span> BIGINT</li><li><span class="mcq-option-label">C.</span> CHAR(12)</li><li><span class="mcq-option-label">D.</span> VARCHAR(12)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Aadhaar is exactly 12 digits, never changes length, and can have leading zeros. CHAR(12) is slightly better than VARCHAR(12) for fixed-length strings. Numeric types lose leading zeros.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which combination of constraints does PRIMARY KEY imply?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> UNIQUE only</li><li><span class="mcq-option-label">B.</span> NOT NULL only</li><li><span class="mcq-option-label">C.</span> UNIQUE and NOT NULL</li><li><span class="mcq-option-label">D.</span> CHECK and DEFAULT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> A PRIMARY KEY is implicitly both UNIQUE (no duplicate values) and NOT NULL (must have a value). That's why it can uniquely identify every row.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the difference between DATETIME and TIMESTAMP in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> TIMESTAMP is time-zone-aware and has a smaller range (1970-2038); DATETIME is literal and has a huge range (1000-9999)</li><li><span class="mcq-option-label">B.</span> They are the same thing</li><li><span class="mcq-option-label">C.</span> TIMESTAMP stores only the time, DATETIME stores only the date</li><li><span class="mcq-option-label">D.</span> DATETIME is faster than TIMESTAMP</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: A</strong><br><strong>A is correct.</strong> TIMESTAMP is stored in UTC and auto-converted to session time zone on read, but its range is limited due to the Y2K38 problem. DATETIME is stored as the literal wall-clock time with a 1000-9999 range, no TZ logic.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which is a correct CREATE TABLE statement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CREATE TABLE t (a INT UNIQUE, b INT UNIQUE, PRIMARY KEY (a, b));</li><li><span class="mcq-option-label">B.</span> CREATE TABLE t (a INT PRIMARY KEY PRIMARY KEY);</li><li><span class="mcq-option-label">C.</span> CREATE TABLE t (a INT, b INT, PRIMARY KEY a);</li><li><span class="mcq-option-label">D.</span> CREATE TABLE t (a INT, b INT, PRIMARY KEY (a), PRIMARY KEY (b));</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: A</strong><br><strong>A is correct.</strong> You can have multiple UNIQUE columns plus a composite PRIMARY KEY. B has duplicate keywords. C has syntax error (no parentheses around column name). D has two PRIMARY KEYs which isn't allowed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which of the following is NOT a valid MySQL numeric type?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> TINYINT</li><li><span class="mcq-option-label">B.</span> SMALLINT</li><li><span class="mcq-option-label">C.</span> LARGEINT</li><li><span class="mcq-option-label">D.</span> BIGINT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> LARGEINT is not a MySQL type. The valid integer types are TINYINT (1 byte), SMALLINT (2), MEDIUMINT (3), INT (4), and BIGINT (8).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">In MySQL, BOOLEAN is internally stored as which type?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CHAR(1)</li><li><span class="mcq-option-label">B.</span> TINYINT(1)</li><li><span class="mcq-option-label">C.</span> BIT</li><li><span class="mcq-option-label">D.</span> ENUM</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL's BOOLEAN is a synonym for TINYINT(1), with TRUE = 1 and FALSE = 0. You can write either BOOLEAN or TINYINT(1); they are equivalent.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">DECIMAL(7, 2) can store values up to:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 9999.99</li><li><span class="mcq-option-label">B.</span> 99999.99</li><li><span class="mcq-option-label">C.</span> 999999.99</li><li><span class="mcq-option-label">D.</span> 9999999.99</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> DECIMAL(7,2) means 7 total digits with 2 after the decimal, leaving 5 before: max is 99999.99. For larger money amounts, use DECIMAL(10,2) or DECIMAL(15,2).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which is TRUE about FOREIGN KEY constraints?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They reference any column in any table</li><li><span class="mcq-option-label">B.</span> They prevent orphan rows by requiring the referenced value to exist in the parent table</li><li><span class="mcq-option-label">C.</span> They replace PRIMARY KEY</li><li><span class="mcq-option-label">D.</span> They are the same as UNIQUE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Foreign keys ensure referential integrity: every child value must correspond to an existing parent row. They typically reference a PRIMARY KEY or UNIQUE column in the parent table.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Your table has a UNIQUE constraint on email. How many rows can have email = NULL in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> At most one</li><li><span class="mcq-option-label">B.</span> Zero (NOT NULL implied)</li><li><span class="mcq-option-label">C.</span> Any number</li><li><span class="mcq-option-label">D.</span> Depends on SQL mode</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> In MySQL, UNIQUE treats multiple NULLs as not duplicates of each other, so any number of rows can have email = NULL. This differs from SQL Server's classic behavior (at most one NULL) but matches PostgreSQL and the SQL standard.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">An INSERT gives "ERROR 1452: Cannot add or update a child row: a foreign key constraint fails". What is the cause?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A UNIQUE constraint violation</li><li><span class="mcq-option-label">B.</span> A primary key violation</li><li><span class="mcq-option-label">C.</span> The value in the FK column doesn&#39;t exist in the parent table</li><li><span class="mcq-option-label">D.</span> The AUTO_INCREMENT ran out of IDs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> Error 1452 means the foreign key refers to a non-existent parent row. Example: inserting an order with student_id=999 when no student 999 exists. Fix: either create the parent first, or fix the FK value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which statement about CHECK constraints in MySQL is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CHECK has always been enforced in every MySQL version</li><li><span class="mcq-option-label">B.</span> CHECK is only enforced in MySQL 8.0.16 and later; earlier versions parsed but ignored them</li><li><span class="mcq-option-label">C.</span> CHECK only works with numeric columns</li><li><span class="mcq-option-label">D.</span> CHECK cannot be used with NOT NULL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Historically MySQL parsed CHECK constraints for syntax compatibility but ignored them at runtime. Starting with MySQL 8.0.16 (April 2019), CHECK is properly enforced. Older MySQL installs silently accept invalid rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">You create: <code>id INT AUTO_INCREMENT PRIMARY KEY</code> and insert 10 rows (IDs 1-10), then DELETE all rows. You then insert one row. What id does it get?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 10</li><li><span class="mcq-option-label">C.</span> 11</li><li><span class="mcq-option-label">D.</span> Depends</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> DELETE does not reset AUTO_INCREMENT. The counter continues from where it left off, so the new row gets id=11. If you had used TRUNCATE instead of DELETE, the counter would reset to 1.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">You need to store a very long article (say, 200KB of text). Best type?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> VARCHAR(65535)</li><li><span class="mcq-option-label">B.</span> TEXT</li><li><span class="mcq-option-label">C.</span> MEDIUMTEXT</li><li><span class="mcq-option-label">D.</span> LONGTEXT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: C</strong><br><strong>C is correct.</strong> TEXT holds up to ~64KB — 200KB won't fit. MEDIUMTEXT holds up to 16MB. LONGTEXT is overkill for 200KB but would also work. VARCHAR is capped at 65,535 bytes across the whole row, so 200KB is impossible in VARCHAR.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">Which design prevents re-enrolling the same student in the same course twice?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Two separate UNIQUE constraints on student_id and course_id</li><li><span class="mcq-option-label">B.</span> A composite PRIMARY KEY on (student_id, course_id)</li><li><span class="mcq-option-label">C.</span> CHECK (student_id != course_id)</li><li><span class="mcq-option-label">D.</span> AUTO_INCREMENT on both columns</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> A composite PRIMARY KEY on (student_id, course_id) enforces uniqueness of the PAIR, which is exactly the rule. Option A would wrongly force each student to appear only once across all enrollments and each course to appear only once — far too restrictive.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Design a Realistic students Table</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Design a students table with: id (auto-increment PK), name (required, up to 60 chars), email (required, unique, up to 100 chars), phone (optional, up to 15 chars), dob (date, required), cgpa (decimal with 2 decimal places, 0 to 10, default 0), is_active (boolean defaulting TRUE), created_at (timestamp auto-set on insert).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A clean CREATE TABLE with the correct types and constraints.</div>
+                </div><div class="challenge-constraints">Use all six common constraints where appropriate.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(60) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    phone VARCHAR(15),
+    dob DATE NOT NULL,
+    cgpa DECIMAL(4,2) DEFAULT 0.00 CHECK (cgpa &gt;= 0 AND cgpa &lt;= 10),
+    is_active BOOLEAN DEFAULT TRUE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Quick sanity check
+DESCRIBE students;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Pick the Right Type</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">For each real-world field, suggest the best MySQL data type and briefly justify: (a) User's age, (b) Aadhaar number, (c) Email, (d) Blog post body, (e) Product price in INR, (f) Order timestamp, (g) Employee joining date.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Annotated list with type + 1-line reason.</div>
+                </div><div class="challenge-constraints">Write as SQL comments.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">-- (a) age           -&gt; TINYINT UNSIGNED   (range 0-255, 1 byte)
+-- (b) aadhaar       -&gt; CHAR(12)            (fixed 12 digits, leading zeros)
+-- (c) email         -&gt; VARCHAR(100)        (variable, index-friendly)
+-- (d) blog body     -&gt; MEDIUMTEXT          (can exceed 64KB)
+-- (e) price INR     -&gt; DECIMAL(10,2)       (exact money, no float errors)
+-- (f) order time    -&gt; TIMESTAMP           (auto time-zone, for audit)
+-- (g) joining_date  -&gt; DATE                (year-month-day only)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Employees With Constraints</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create an employees table: emp_id auto-increment PK; name required up to 50 chars; email required and unique up to 100 chars; salary DECIMAL(10,2) required and strictly positive; department ENUM of 'HR','IT','Finance','Sales','Marketing' required; hire_date DATE defaulting to current date. Then insert three valid employees and attempt one invalid insert (negative salary) to show the CHECK working.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Three valid rows. Fourth insert raises a CHECK error.</div>
+                </div><div class="challenge-constraints">Use CHECK and ENUM and DEFAULT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">CREATE DATABASE IF NOT EXISTS hr;
+USE hr;
+DROP TABLE IF EXISTS employees;
+
+CREATE TABLE employees (
+    emp_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    salary DECIMAL(10,2) NOT NULL CHECK (salary &gt; 0),
+    department ENUM(&#39;HR&#39;,&#39;IT&#39;,&#39;Finance&#39;,&#39;Sales&#39;,&#39;Marketing&#39;) NOT NULL,
+    hire_date DATE NOT NULL DEFAULT (CURRENT_DATE)
+);
+
+-- 3 valid inserts
+INSERT INTO employees (name, email, salary, department) VALUES
+    (&#39;Kavya Nair&#39;,    &#39;kavya@corp.com&#39;,  60000.00, &#39;HR&#39;),
+    (&#39;Arjun Mehta&#39;,   &#39;arjun@corp.com&#39;,  85000.00, &#39;IT&#39;),
+    (&#39;Sneha Patel&#39;,   &#39;sneha@corp.com&#39;,  72000.50, &#39;Finance&#39;);
+
+-- 1 invalid insert (negative salary)
+INSERT INTO employees (name, email, salary, department)
+VALUES (&#39;Rahul Joshi&#39;, &#39;rahul@corp.com&#39;, -50000.00, &#39;Sales&#39;);
+-- Expected error:
+-- ERROR 3819 (HY000): Check constraint &#39;employees_chk_1&#39; is violated.</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Orders with Foreign Key</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Assuming employees from the previous challenge, create an orders table that links each order to an employee. Columns: order_id auto PK; emp_id INT required, FK to employees; amount decimal money positive; order_date datetime default CURRENT_TIMESTAMP. Insert 2 valid orders, then attempt an invalid one referencing a non-existent emp_id to show FK protection.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Two valid rows. Third insert raises FK error.</div>
+                </div><div class="challenge-constraints">Use FOREIGN KEY REFERENCES.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">CREATE TABLE orders (
+    order_id INT AUTO_INCREMENT PRIMARY KEY,
+    emp_id INT NOT NULL,
+    amount DECIMAL(10,2) NOT NULL CHECK (amount &gt; 0),
+    order_date DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (emp_id) REFERENCES employees(emp_id)
+);
+
+-- Valid
+INSERT INTO orders (emp_id, amount) VALUES (1, 1500.00);
+INSERT INTO orders (emp_id, amount) VALUES (2, 2499.99);
+
+-- Invalid: emp_id 999 does not exist
+INSERT INTO orders (emp_id, amount) VALUES (999, 500.00);
+-- Expected:
+-- ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails
+
+SELECT * FROM orders;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: DECIMAL vs FLOAT Demo</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create two tables payments_decimal and payments_float that each have one column amount of type DECIMAL(10,2) and FLOAT respectively. Insert 1000 rows of 0.01 into each (you can use a stored procedure or a large VALUES list of 10 rows and run it multiple times). Sum the amounts. Observe the difference and write a final comment explaining why DECIMAL is mandatory for money.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">total_decimal = 10.00 exact. total_float = 9.99999... or 10.000000.. imprecise.</div>
+                </div><div class="challenge-constraints">Demonstrate with at least 100 rows to make the error visible.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">DROP TABLE IF EXISTS payments_decimal;
+DROP TABLE IF EXISTS payments_float;
+
+CREATE TABLE payments_decimal (amount DECIMAL(10,2));
+CREATE TABLE payments_float   (amount FLOAT);
+
+-- Insert 10 rows of 0.01 at a time, 10 times =&gt; 100 rows
+INSERT INTO payments_decimal VALUES
+ (0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01);
+INSERT INTO payments_decimal SELECT * FROM payments_decimal;
+INSERT INTO payments_decimal SELECT * FROM payments_decimal;  -- now 40 rows
+INSERT INTO payments_decimal SELECT * FROM payments_decimal;  -- now 80 rows
+INSERT INTO payments_decimal VALUES
+ (0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),
+ (0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01);
+-- now 100 rows
+
+INSERT INTO payments_float VALUES
+ (0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01);
+INSERT INTO payments_float SELECT * FROM payments_float;
+INSERT INTO payments_float SELECT * FROM payments_float;
+INSERT INTO payments_float SELECT * FROM payments_float;
+INSERT INTO payments_float VALUES
+ (0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),
+ (0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01),(0.01);
+
+SELECT SUM(amount) AS total_decimal FROM payments_decimal;
+-- +---------------+
+-- | total_decimal |
+-- +---------------+
+-- |          1.00 |   (100 * 0.01 = exact 1.00)
+
+SELECT SUM(amount) AS total_float FROM payments_float;
+-- +----------------------+
+-- | total_float          |
+-- +----------------------+
+-- | 0.9999999776482582   |   (binary float drift!)
+
+-- CONCLUSION:
+-- Over just 100 tiny transactions the FLOAT sum is already off by ~0.0001.
+-- On 10 million real transactions, this becomes a visible mismatch.
+-- Always use DECIMAL for money.</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Course Enrollment System</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Design three tables — students, courses, enrollments — for a realistic college. Include correct PRIMARY KEYs, composite PK on enrollments(student_id, course_id), FOREIGN KEYs, CHECK on marks (0-100), DEFAULT for enrollment_date, and appropriate types. Insert 3 students, 3 courses, and 5 enrollments.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Three tables created, populated, and a SELECT joining them at the end.</div>
+                </div><div class="challenge-constraints">Use every constraint type you&#39;ve learned.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">-- Reset
+DROP TABLE IF EXISTS enrollments;
+DROP TABLE IF EXISTS students;
+DROP TABLE IF EXISTS courses;
+
+-- students
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(60) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    dob DATE NOT NULL
+);
+
+-- courses
+CREATE TABLE courses (
+    course_id INT AUTO_INCREMENT PRIMARY KEY,
+    course_name VARCHAR(80) NOT NULL UNIQUE,
+    credits TINYINT NOT NULL CHECK (credits BETWEEN 1 AND 6)
+);
+
+-- enrollments (junction)
+CREATE TABLE enrollments (
+    student_id INT NOT NULL,
+    course_id INT NOT NULL,
+    enrolled_on DATE NOT NULL DEFAULT (CURRENT_DATE),
+    marks TINYINT CHECK (marks BETWEEN 0 AND 100),
+    PRIMARY KEY (student_id, course_id),
+    FOREIGN KEY (student_id) REFERENCES students(student_id),
+    FOREIGN KEY (course_id)  REFERENCES courses(course_id)
+);
+
+INSERT INTO students (name, email, dob) VALUES
+    (&#39;Aarav Sharma&#39;, &#39;aarav@college.edu&#39;, &#39;2005-03-15&#39;),
+    (&#39;Priya Iyer&#39;,   &#39;priya@college.edu&#39;, &#39;2004-11-22&#39;),
+    (&#39;Rohan Verma&#39;,  &#39;rohan@college.edu&#39;, &#39;2005-07-08&#39;);
+
+INSERT INTO courses (course_name, credits) VALUES
+    (&#39;Database Systems&#39;, 4),
+    (&#39;Data Structures&#39;,  4),
+    (&#39;Operating Systems&#39;, 3);
+
+INSERT INTO enrollments (student_id, course_id, marks) VALUES
+    (1, 1, 87),
+    (1, 2, 92),
+    (2, 1, 78),
+    (2, 3, 85),
+    (3, 2, 91);
+
+-- Verify with a simple JOIN (covered in Chapter 11)
+SELECT s.name, c.course_name, e.marks
+FROM enrollments e
+JOIN students s ON s.student_id = e.student_id
+JOIN courses  c ON c.course_id  = e.course_id;
+
+-- Expected: 5 rows with student name, course name, and marks.</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/setting-up-mysql-and-first-query/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Setting Up MySQL and Your First Query</span>
+        </a>
+            <a href="/resources/sql/creating-and-modifying-tables/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">CREATE, ALTER, DROP Tables</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/data-types-and-constraints" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

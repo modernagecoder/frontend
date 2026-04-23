@@ -1,0 +1,723 @@
+{
+  "title": "Triggers and Scheduled Events",
+  "slug": "triggers-and-events",
+  "language": "sql",
+  "chapter": 22,
+  "difficulty": "Advanced",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "MySQL Triggers and Events - BEFORE/AFTER INSERT UPDATE DELETE, NEW and OLD, Scheduled Events | Modern Age Coders",
+    "description": "Master MySQL triggers and scheduled events. Learn BEFORE vs AFTER triggers, INSERT/UPDATE/DELETE triggers, NEW and OLD row references, audit logging, data validation, auto-timestamps, denormalized counts, SHOW TRIGGERS, DROP TRIGGER, and CREATE EVENT for scheduled tasks (cleanup, reporting, archival). 55+ practice questions with runnable MySQL code.",
+    "keywords": "mysql triggers, before after trigger, new old mysql trigger, audit log trigger, mysql events, create event mysql, scheduled events mysql, event_scheduler, sql trigger examples, trigger vs event"
+  },
+  "content": {
+    "what": "<h2>Triggers and Events: Database Automation</h2><p>Two features let the database take action on its own. A <strong>trigger</strong> is code that runs automatically in response to a table change (INSERT, UPDATE, or DELETE). A <strong>scheduled event</strong> is code that runs on a time schedule (once at 2 a.m. tomorrow, or every hour forever), independent of any row change.</p><pre><code>-- A trigger: every salary change writes an audit row\nCREATE TRIGGER log_salary_change\nAFTER UPDATE ON employees\nFOR EACH ROW\nINSERT INTO salary_audit(emp_id, old_sal, new_sal, changed_at)\nVALUES (OLD.id, OLD.salary, NEW.salary, NOW());\n\n-- A scheduled event: clean up soft-deleted rows every night at 2 a.m.\nCREATE EVENT nightly_cleanup\nON SCHEDULE EVERY 1 DAY STARTS '2026-04-17 02:00:00'\nDO\n    DELETE FROM customers\n    WHERE deleted_at IS NOT NULL\n      AND deleted_at < NOW() - INTERVAL 30 DAY;</code></pre><p>Triggers fire in the middle of the transaction that changed the data, so they are synchronous and atomic with the change. Events fire on the MySQL event scheduler thread, asynchronously, and are mostly used for housekeeping.</p><p>Both are powerful and both are controversial. Put too much logic in triggers and the behaviour of your database becomes invisible to anyone reading application code. Used carefully, they are the right tool for auditing, timestamping, denormalised counts, validation, and scheduled cleanup.</p>"
+    ,
+    "why": "<h2>Why Triggers and Events Matter</h2><h3>1. Auditing That Cannot Be Bypassed</h3><p>If your app writes to the <code>employees</code> table from six different services, auditing salary changes in application code means six code paths that all must remember to write an audit row. An AFTER UPDATE trigger writes the audit row no matter which service (or DBA at a console) changed the row. The database enforces the audit, not the programmer's discipline.</p><h3>2. Automatic Timestamps and Denormalised Counts</h3><p>A <code>posts</code> table needs <code>updated_at</code> set on every UPDATE. A <code>categories</code> table stores a <code>post_count</code> so your homepage query is O(1). Both are textbook trigger use cases — the database maintains invariants as the data changes.</p><h3>3. Validation Beyond CHECK Constraints</h3><p>CHECK constraints handle simple per-column rules. Cross-row, cross-table, or conditional logic (\"reject an update that changes a locked invoice\") requires a BEFORE trigger that calls SIGNAL to abort the operation.</p><h3>4. Scheduled Housekeeping Without cron</h3><p>Events run inside the database, so they survive application deploys, do not need a separate cron host, and write to the same connection pool. For database-internal chores — archiving, cache refresh, stats recomputation — an event is simpler than an external scheduler.</p><h3>5. Periodic Aggregation for Dashboards</h3><p>Rebuilding a <code>daily_revenue</code> summary every hour with an event gives your dashboards a cheap, indexed source of truth. The query planner loves indexed tables of 365 rows far more than raw tables of 30 million.</p><h3>6. The Risks: Hidden Logic and Performance</h3><p>Every row inserted into <code>orders</code> might fire a trigger that writes to <code>inventory</code>, which fires a trigger that writes to <code>audit_log</code>, which fires a trigger that... this cascade is invisible from the application. Know when to stop: complex business workflows belong in procedures the application calls explicitly, not in triggers that fire silently.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Trigger Timing: BEFORE vs AFTER</h3><p>Every trigger fires either <strong>BEFORE</strong> or <strong>AFTER</strong> the change reaches the table. The distinction matters:</p><ul><li><strong>BEFORE</strong>: run before the row is written. You can inspect and <em>modify</em> NEW (for INSERT/UPDATE) before it hits the table. Use for validation, normalisation, and default computation.</li><li><strong>AFTER</strong>: run after the row is written. You cannot change NEW any more. Use for logging, cache invalidation, and denormalised count maintenance.</li></ul><pre><code>-- BEFORE INSERT: normalise the email to lowercase\nCREATE TRIGGER normalise_email\nBEFORE INSERT ON users\nFOR EACH ROW\nSET NEW.email = LOWER(TRIM(NEW.email));\n\n-- AFTER INSERT: increment a counter in another table\nCREATE TRIGGER bump_user_count\nAFTER INSERT ON users\nFOR EACH ROW\nUPDATE stats SET total_users = total_users + 1;</code></pre><h3>2. Trigger Events: INSERT, UPDATE, DELETE</h3><p>MySQL triggers fire on one of three events, and you pick BEFORE or AFTER for each. So there are six combinations per table:</p><pre><code>BEFORE INSERT   AFTER INSERT\nBEFORE UPDATE   AFTER UPDATE\nBEFORE DELETE   AFTER DELETE</code></pre><p>Each row affected by the triggering statement fires the trigger once (<code>FOR EACH ROW</code>). MySQL does not support statement-level triggers.</p><h3>3. NEW and OLD: the Row References</h3><p>Inside a trigger body, two pseudo-records let you see the row that caused the trigger:</p><ul><li><strong>NEW</strong>: the new row (available in INSERT and UPDATE triggers).</li><li><strong>OLD</strong>: the previous row (available in UPDATE and DELETE triggers).</li></ul><table border='1' cellpadding='6'><tr><th>Event</th><th>OLD available?</th><th>NEW available?</th><th>NEW writable?</th></tr><tr><td>BEFORE INSERT</td><td>No</td><td>Yes</td><td>Yes</td></tr><tr><td>AFTER INSERT</td><td>No</td><td>Yes (read-only)</td><td>No</td></tr><tr><td>BEFORE UPDATE</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>AFTER UPDATE</td><td>Yes</td><td>Yes (read-only)</td><td>No</td></tr><tr><td>BEFORE DELETE</td><td>Yes</td><td>No</td><td>-</td></tr><tr><td>AFTER DELETE</td><td>Yes</td><td>No</td><td>-</td></tr></table><pre><code>-- Capture the old value before the UPDATE\nCREATE TRIGGER log_price_change\nBEFORE UPDATE ON products\nFOR EACH ROW\nBEGIN\n    IF NEW.price <> OLD.price THEN\n        INSERT INTO price_history(product_id, old_price, new_price, changed_at)\n        VALUES (OLD.id, OLD.price, NEW.price, NOW());\n    END IF;\nEND;</code></pre><h3>4. Classic Use Case: Audit Log for Salary Updates</h3><pre><code>CREATE TABLE salary_audit (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    emp_id INT,\n    old_salary DECIMAL(10,2),\n    new_salary DECIMAL(10,2),\n    changed_by VARCHAR(50),\n    changed_at DATETIME\n);\n\nDELIMITER $$\nCREATE TRIGGER audit_salary\nAFTER UPDATE ON employees\nFOR EACH ROW\nBEGIN\n    IF NEW.salary <> OLD.salary THEN\n        INSERT INTO salary_audit(emp_id, old_salary, new_salary, changed_by, changed_at)\n        VALUES (OLD.id, OLD.salary, NEW.salary, CURRENT_USER(), NOW());\n    END IF;\nEND$$\nDELIMITER ;</code></pre><p>Now <em>every</em> salary change — from any service, any DBA, any migration — produces an audit row. The application cannot forget to log it, because the log is a consequence of the UPDATE, not a separate action.</p><h3>5. Validation Using SIGNAL</h3><p>Inside a BEFORE trigger, raising an error aborts the whole triggering statement. Use <code>SIGNAL SQLSTATE '45000'</code> for user-defined errors.</p><pre><code>DELIMITER $$\nCREATE TRIGGER no_negative_salary\nBEFORE INSERT ON employees\nFOR EACH ROW\nBEGIN\n    IF NEW.salary < 0 THEN\n        SIGNAL SQLSTATE '45000'\n            SET MESSAGE_TEXT = 'Salary cannot be negative';\n    END IF;\nEND$$\nDELIMITER ;\n\nINSERT INTO employees(name, salary) VALUES ('Aarav', -100);\n-- ERROR 1644 (45000): Salary cannot be negative</code></pre><h3>6. Auto-Timestamp Triggers</h3><p>MySQL supports <code>DEFAULT CURRENT_TIMESTAMP</code> and <code>ON UPDATE CURRENT_TIMESTAMP</code> on TIMESTAMP/DATETIME columns, which covers most cases without a trigger. Use a trigger when you need conditional timestamping — for example, only stamp <code>last_edited_at</code> when specific columns change.</p><pre><code>DELIMITER $$\nCREATE TRIGGER stamp_on_content_change\nBEFORE UPDATE ON posts\nFOR EACH ROW\nBEGIN\n    IF NEW.body <> OLD.body OR NEW.title <> OLD.title THEN\n        SET NEW.last_edited_at = NOW();\n    END IF;\nEND$$\nDELIMITER ;</code></pre><h3>7. Maintaining Denormalised Counts</h3><pre><code>-- categories.post_count must reflect the number of posts per category\nDELIMITER $$\nCREATE TRIGGER inc_post_count\nAFTER INSERT ON posts\nFOR EACH ROW\nUPDATE categories\nSET post_count = post_count + 1\nWHERE id = NEW.category_id$$\n\nCREATE TRIGGER dec_post_count\nAFTER DELETE ON posts\nFOR EACH ROW\nUPDATE categories\nSET post_count = post_count - 1\nWHERE id = OLD.category_id$$\n\nCREATE TRIGGER move_post_count\nAFTER UPDATE ON posts\nFOR EACH ROW\nBEGIN\n    IF NEW.category_id <> OLD.category_id THEN\n        UPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id;\n        UPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id;\n    END IF;\nEND$$\nDELIMITER ;</code></pre><p>The three triggers keep the count correct through inserts, deletes, and re-categorisations. Yes, it is more code than computing <code>COUNT(*)</code> on demand — but it turns a homepage query from scanning millions of posts into reading a single column.</p><h3>8. SHOW TRIGGERS and DROP TRIGGER</h3><pre><code>SHOW TRIGGERS FROM shop;\nSHOW TRIGGERS LIKE 'employees';\n\nSHOW CREATE TRIGGER audit_salary;\n\nDROP TRIGGER IF EXISTS audit_salary;</code></pre><p>MySQL stores triggers in <code>information_schema.TRIGGERS</code>. Always write migrations with <code>DROP TRIGGER IF EXISTS ... ; CREATE TRIGGER ...;</code> so the migration is re-runnable.</p><h3>9. Trigger Pitfalls</h3><ul><li><strong>Hidden logic</strong>: a developer reading application code has no idea that INSERT into <code>orders</code> fires five triggers. Document triggers. Use naming conventions (<code>trg_&lt;table&gt;_&lt;event&gt;_&lt;purpose&gt;</code>).</li><li><strong>Performance</strong>: triggers run per row, inside the transaction. A bulk INSERT of a million rows runs the trigger a million times.</li><li><strong>Ordering</strong>: when multiple triggers fire on the same event, MySQL runs them in definition order. Use <code>FOLLOWS</code> / <code>PRECEDES</code> clauses to control ordering explicitly.</li><li><strong>Recursion</strong>: a trigger that modifies its own table fires again. MySQL disallows this by default; the trigger sees only the original statement.</li><li><strong>Binary log compatibility</strong>: row-based replication replicates the row changes from triggers transparently; statement-based replication can misbehave with non-deterministic triggers.</li></ul><h3>10. Scheduled Events: Syntax</h3><pre><code>-- Enable the scheduler (off by default in some configs)\nSET GLOBAL event_scheduler = ON;\n\n-- Run once, at a specific time\nCREATE EVENT drop_old_sessions\nON SCHEDULE AT '2026-06-01 03:00:00'\nDO\n    DELETE FROM sessions WHERE last_active < '2026-05-01';\n\n-- Recurring\nCREATE EVENT hourly_cache_refresh\nON SCHEDULE EVERY 1 HOUR\nSTARTS '2026-04-17 00:00:00'\nDO\n    CALL refresh_daily_sales();\n\n-- With a start and end\nCREATE EVENT monthly_close\nON SCHEDULE EVERY 1 MONTH\nSTARTS '2026-05-01 23:00:00'\nENDS '2027-05-01 23:00:00'\nDO\n    CALL close_month();</code></pre><h3>11. Event Management</h3><pre><code>SHOW EVENTS FROM shop;\nSHOW CREATE EVENT hourly_cache_refresh;\n\n-- Disable temporarily\nALTER EVENT hourly_cache_refresh DISABLE;\nALTER EVENT hourly_cache_refresh ENABLE;\n\n-- Drop\nDROP EVENT IF EXISTS hourly_cache_refresh;\n\n-- Check if the scheduler is running\nSHOW PROCESSLIST;  -- Look for 'event_scheduler' user\n-- or\nSELECT @@event_scheduler;</code></pre><h3>12. Use Cases for Events</h3><ul><li><strong>Daily cleanup</strong>: delete soft-deleted rows older than N days.</li><li><strong>Archiving</strong>: move rows older than one year from <code>orders</code> to <code>orders_archive</code>.</li><li><strong>Summary tables</strong>: refresh materialised-view surrogates (see Chapter 21).</li><li><strong>Reports</strong>: compute monthly closing balances, insert a row per account.</li><li><strong>TTL for tokens</strong>: delete expired password-reset tokens every minute.</li></ul><h3>13. Events vs External cron</h3><table border='1' cellpadding='6'><tr><th>Aspect</th><th>MySQL Event</th><th>External cron</th></tr><tr><td>Location</td><td>Inside the database</td><td>On a separate host</td></tr><tr><td>Replication</td><td>Replicates to replicas (or SKIP on replicas if duplicate)</td><td>Runs wherever cron runs</td></tr><tr><td>Monitoring</td><td>Limited — check last_executed in information_schema</td><td>Full logging, alerting</td></tr><tr><td>Failure handling</td><td>Silent — errors go to MySQL error log</td><td>Email, Slack, PagerDuty</td></tr><tr><td>Version control</td><td>Schema migrations</td><td>Crontab file in git</td></tr></table><p>The pragmatic rule: use events for simple database-internal chores. For anything that needs robust monitoring, alerting, or coordination across multiple databases, use a real scheduler.</p>"
+    ,
+    "codeExamples": [
+      {
+        "title": "Audit Log Trigger on Salary Changes",
+        "code": "CREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    salary DECIMAL(10,2)\n);\n\nCREATE TABLE salary_audit (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    emp_id INT,\n    old_salary DECIMAL(10,2),\n    new_salary DECIMAL(10,2),\n    changed_at DATETIME\n);\n\nINSERT INTO employees VALUES\n(1, 'Aarav', 50000),\n(2, 'Priya', 60000);\n\nDELIMITER $$\nCREATE TRIGGER audit_salary\nAFTER UPDATE ON employees\nFOR EACH ROW\nBEGIN\n    IF NEW.salary <> OLD.salary THEN\n        INSERT INTO salary_audit(emp_id, old_salary, new_salary, changed_at)\n        VALUES (OLD.id, OLD.salary, NEW.salary, NOW());\n    END IF;\nEND$$\nDELIMITER ;\n\nUPDATE employees SET salary = 55000 WHERE id = 1;\nUPDATE employees SET salary = 60000 WHERE id = 2;  -- same salary, no audit\n\nSELECT * FROM salary_audit;",
+        "language": "sql",
+        "explanation": "The AFTER UPDATE trigger fires for every row touched by an UPDATE. We compare NEW.salary to OLD.salary so the trigger only writes audit rows when the salary actually changed — a common optimisation (UPDATE statements that set a column to the same value are a real source of noise).",
+        "output": "+----+--------+------------+------------+---------------------+\n| id | emp_id | old_salary | new_salary | changed_at          |\n+----+--------+------------+------------+---------------------+\n|  1 |      1 |   50000.00 |   55000.00 | 2026-04-16 14:22:05 |\n+----+--------+------------+------------+---------------------+\n-- Only one row because Priya's salary did not actually change."
+      },
+      {
+        "title": "BEFORE INSERT Trigger to Normalise and Validate",
+        "code": "CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    email VARCHAR(100) UNIQUE,\n    created_at DATETIME\n);\n\nDELIMITER $$\nCREATE TRIGGER before_user_insert\nBEFORE INSERT ON users\nFOR EACH ROW\nBEGIN\n    -- Normalise email\n    SET NEW.email = LOWER(TRIM(NEW.email));\n\n    -- Validate email format (very basic)\n    IF NEW.email NOT LIKE '%_@_%._%' THEN\n        SIGNAL SQLSTATE '45000'\n            SET MESSAGE_TEXT = 'Invalid email format';\n    END IF;\n\n    -- Default timestamp if not provided\n    IF NEW.created_at IS NULL THEN\n        SET NEW.created_at = NOW();\n    END IF;\nEND$$\nDELIMITER ;\n\nINSERT INTO users(email) VALUES ('  Aarav@Example.COM ');\nINSERT INTO users(email) VALUES ('priya@mail.in');\nSELECT id, email, created_at FROM users;\n\n-- Bad email is rejected before it hits the table\nINSERT INTO users(email) VALUES ('not-an-email');",
+        "language": "sql",
+        "explanation": "A BEFORE trigger can modify NEW to normalise input and raise errors with SIGNAL to reject bad rows. Because the trigger runs before the row is written, rejected rows never touch the table, never increment the AUTO_INCREMENT counter, and never appear in any UNIQUE index.",
+        "output": "+----+--------------------+---------------------+\n| id | email              | created_at          |\n+----+--------------------+---------------------+\n|  1 | aarav@example.com  | 2026-04-16 14:25:11 |\n|  2 | priya@mail.in      | 2026-04-16 14:25:11 |\n+----+--------------------+---------------------+\n\nERROR 1644 (45000): Invalid email format"
+      },
+      {
+        "title": "Denormalised Counter Maintenance",
+        "code": "CREATE TABLE categories (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    post_count INT DEFAULT 0\n);\n\nCREATE TABLE posts (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    title VARCHAR(100),\n    category_id INT\n);\n\nINSERT INTO categories(id, name) VALUES (1, 'Tech'), (2, 'Food');\n\nDELIMITER $$\n\nCREATE TRIGGER posts_inc_count\nAFTER INSERT ON posts\nFOR EACH ROW\nUPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id$$\n\nCREATE TRIGGER posts_dec_count\nAFTER DELETE ON posts\nFOR EACH ROW\nUPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id$$\n\nCREATE TRIGGER posts_move_count\nAFTER UPDATE ON posts\nFOR EACH ROW\nBEGIN\n    IF NEW.category_id <> OLD.category_id THEN\n        UPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id;\n        UPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id;\n    END IF;\nEND$$\n\nDELIMITER ;\n\nINSERT INTO posts(title, category_id) VALUES ('Aarav on CPUs', 1), ('Priya on pasta', 2), ('Rohan on GPUs', 1);\nUPDATE posts SET category_id = 2 WHERE title = 'Rohan on GPUs';\nDELETE FROM posts WHERE title = 'Priya on pasta';\n\nSELECT * FROM categories;",
+        "language": "sql",
+        "explanation": "Three triggers keep <code>categories.post_count</code> consistent. Inserting a Tech post increments Tech. Moving Rohan's post from Tech to Food decrements Tech and increments Food. Deleting Priya's post decrements Food. Without these, every page-load would have to <code>SELECT COUNT(*) FROM posts GROUP BY category_id</code> — expensive at scale.",
+        "output": "+----+------+------------+\n| id | name | post_count |\n+----+------+------------+\n|  1 | Tech |          1 |\n|  2 | Food |          1 |\n+----+------+------------+\n-- Tech has 'Aarav on CPUs'. Food has 'Rohan on GPUs' (moved in)."
+      },
+      {
+        "title": "BEFORE UPDATE Trigger That Rejects Changes to Locked Rows",
+        "code": "CREATE TABLE invoices (\n    id INT PRIMARY KEY,\n    amount DECIMAL(10,2),\n    status VARCHAR(20)\n);\n\nINSERT INTO invoices VALUES\n(1001, 5000, 'DRAFT'),\n(1002, 7500, 'LOCKED');\n\nDELIMITER $$\nCREATE TRIGGER protect_locked_invoice\nBEFORE UPDATE ON invoices\nFOR EACH ROW\nBEGIN\n    IF OLD.status = 'LOCKED' AND NEW.amount <> OLD.amount THEN\n        SIGNAL SQLSTATE '45000'\n            SET MESSAGE_TEXT = 'Cannot change amount on a LOCKED invoice';\n    END IF;\nEND$$\nDELIMITER ;\n\n-- Allowed\nUPDATE invoices SET amount = 5500 WHERE id = 1001;\n\n-- Blocked\nUPDATE invoices SET amount = 8000 WHERE id = 1002;",
+        "language": "sql",
+        "explanation": "Business rule: once an invoice is LOCKED, its amount cannot change (status changes are still permitted — e.g. LOCKED -> PAID). The BEFORE UPDATE trigger compares OLD.status and the amount field. If both conditions hit, SIGNAL aborts the UPDATE and the row stays untouched.",
+        "output": "Query OK, 1 row affected (0.01 sec)\n-- First update succeeded.\n\nERROR 1644 (45000): Cannot change amount on a LOCKED invoice\n-- Second update aborted. invoice 1002 still has amount 7500."
+      },
+      {
+        "title": "Soft-Delete Event",
+        "code": "CREATE TABLE customers (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    deleted_at DATETIME NULL\n);\n\nINSERT INTO customers VALUES\n(1, 'Aarav', NULL),\n(2, 'Priya', '2026-03-01 10:00:00'),   -- 46 days ago on 2026-04-16\n(3, 'Rohan', '2026-04-10 09:00:00'),   -- 6 days ago\n(4, 'Anika', '2026-03-15 14:30:00');   -- 32 days ago\n\n-- Enable the scheduler\nSET GLOBAL event_scheduler = ON;\n\nCREATE EVENT cleanup_old_soft_deletes\nON SCHEDULE EVERY 1 DAY\nSTARTS '2026-04-17 02:00:00'\nDO\n    DELETE FROM customers\n    WHERE deleted_at IS NOT NULL\n      AND deleted_at < NOW() - INTERVAL 30 DAY;\n\n-- Run it manually (for testing) by calling the same DELETE\nDELETE FROM customers\nWHERE deleted_at IS NOT NULL\n  AND deleted_at < NOW() - INTERVAL 30 DAY;\n\nSELECT * FROM customers;",
+        "language": "sql",
+        "explanation": "The event physically removes customers that were soft-deleted more than 30 days ago. Priya (46 days) and Anika (32 days) are hard-deleted. Rohan (6 days) stays because he is within the retention window. The scheduler runs this every day at 2 a.m. without any application involvement.",
+        "output": "+----+-------+------------+\n| id | name  | deleted_at |\n+----+-------+------------+\n|  1 | Aarav | NULL       |\n|  3 | Rohan | 2026-04-10 09:00:00 |\n+----+-------+------------+"
+      },
+      {
+        "title": "Hourly Event Calling a Refresh Procedure",
+        "code": "CREATE TABLE orders (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    created_at DATETIME,\n    total DECIMAL(10,2)\n);\n\nCREATE TABLE mv_daily_sales (\n    d DATE PRIMARY KEY,\n    revenue DECIMAL(12,2),\n    n_orders INT\n);\n\nDELIMITER $$\nCREATE PROCEDURE refresh_mv_daily_sales()\nBEGIN\n    TRUNCATE TABLE mv_daily_sales;\n    INSERT INTO mv_daily_sales(d, revenue, n_orders)\n    SELECT DATE(created_at), SUM(total), COUNT(*)\n    FROM orders\n    GROUP BY DATE(created_at);\nEND$$\nDELIMITER ;\n\nSET GLOBAL event_scheduler = ON;\n\nCREATE EVENT refresh_mv_hourly\nON SCHEDULE EVERY 1 HOUR\nSTARTS CURRENT_TIMESTAMP\nCOMMENT 'Rebuild daily sales summary every hour'\nDO CALL refresh_mv_daily_sales();\n\n-- Check the schedule\nSHOW EVENTS WHERE Name = 'refresh_mv_hourly';",
+        "language": "sql",
+        "explanation": "The event calls a procedure rather than embedding the SQL directly. This is a clean separation: the procedure describes <em>what</em> to do, the event describes <em>when</em>. If you ever need to run the refresh on demand, you call the procedure. If the schedule changes, you ALTER EVENT without touching the SQL.",
+        "output": "+---------+-------------------+---------+-----------+-----------+--------+...\n| Db      | Name              | Definer | Time zone | Type      | Status |\n+---------+-------------------+---------+-----------+-----------+--------+\n| shop    | refresh_mv_hourly | root@lh | SYSTEM    | RECURRING | ENABLED|\n+---------+-------------------+---------+-----------+-----------+--------+"
+      },
+      {
+        "title": "AFTER DELETE Trigger: Archive to History Table",
+        "code": "CREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    salary DECIMAL(10,2)\n);\n\nCREATE TABLE employees_history (\n    id INT,\n    name VARCHAR(50),\n    salary DECIMAL(10,2),\n    deleted_at DATETIME\n);\n\nINSERT INTO employees VALUES (1, 'Aarav', 50000), (2, 'Priya', 60000);\n\nDELIMITER $$\nCREATE TRIGGER archive_on_delete\nAFTER DELETE ON employees\nFOR EACH ROW\nINSERT INTO employees_history(id, name, salary, deleted_at)\nVALUES (OLD.id, OLD.name, OLD.salary, NOW())$$\nDELIMITER ;\n\nDELETE FROM employees WHERE id = 1;\n\nSELECT 'employees' AS tbl, id, name FROM employees\nUNION ALL\nSELECT 'history',        id, name FROM employees_history;",
+        "language": "sql",
+        "explanation": "The AFTER DELETE trigger copies the old row into a history table the moment it is deleted from the live table. This is the \"soft delete without bloat\" pattern — the live table stays lean, but you retain a full audit trail in a separate archive table that can be moved to cheaper storage.",
+        "output": "+-----------+----+-------+\n| tbl       | id | name  |\n+-----------+----+-------+\n| employees |  2 | Priya |\n| history   |  1 | Aarav |\n+-----------+----+-------+"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using AFTER Trigger When You Need to Modify NEW",
+        "wrongCode": "CREATE TRIGGER normalise_email\nAFTER INSERT ON users\nFOR EACH ROW\nSET NEW.email = LOWER(NEW.email);\n-- ERROR 1362: Updating of NEW row is not allowed in after trigger",
+        "error": "ERROR 1362 (HY000): Updating of NEW row is not allowed in after trigger",
+        "correctCode": "CREATE TRIGGER normalise_email\nBEFORE INSERT ON users\nFOR EACH ROW\nSET NEW.email = LOWER(NEW.email);",
+        "explanation": "AFTER triggers see the row after it has been written. You can read NEW but not modify it — the row is already on disk. To normalise or default values, use BEFORE. This is the most common confusion for people new to triggers."
+      },
+      {
+        "title": "Referring to OLD in an INSERT Trigger",
+        "wrongCode": "CREATE TRIGGER log_insert\nAFTER INSERT ON orders\nFOR EACH ROW\nINSERT INTO log VALUES (OLD.id, 'created');\n-- ERROR 1363: There is no OLD row in on INSERT trigger",
+        "error": "ERROR 1363 (HY000): There is no OLD row in on INSERT trigger",
+        "correctCode": "CREATE TRIGGER log_insert\nAFTER INSERT ON orders\nFOR EACH ROW\nINSERT INTO log VALUES (NEW.id, 'created');",
+        "explanation": "INSERT triggers have NEW only. DELETE triggers have OLD only. UPDATE triggers have both. Memorise the table: N for new = INSERT, O for old = DELETE, both = UPDATE."
+      },
+      {
+        "title": "Forgetting to Enable event_scheduler",
+        "wrongCode": "CREATE EVENT nightly_cleanup\nON SCHEDULE EVERY 1 DAY\nDO DELETE FROM sessions WHERE last_active < NOW() - INTERVAL 30 DAY;\n-- Event is created, but never runs.\n-- SHOW PROCESSLIST has no 'event_scheduler' user.",
+        "error": "No error — the event is created but silently never executes.",
+        "correctCode": "-- Check the scheduler status\nSELECT @@event_scheduler;      -- 'OFF' or 'ON' or 'DISABLED'\n\n-- Turn it on (session or permanent)\nSET GLOBAL event_scheduler = ON;\n\n-- Make it persistent across restarts: in my.cnf\n-- [mysqld]\n-- event_scheduler=ON",
+        "explanation": "<code>event_scheduler</code> is OFF by default on some MySQL distributions. Without the scheduler thread running, events exist but never fire. Always check <code>SHOW VARIABLES LIKE 'event_scheduler'</code> during setup and add the setting to my.cnf for persistence."
+      },
+      {
+        "title": "Infinite Trigger Recursion Attempt",
+        "wrongCode": "CREATE TRIGGER copy_comment\nAFTER INSERT ON comments\nFOR EACH ROW\nINSERT INTO comments(post_id, body) VALUES (NEW.post_id, CONCAT('copy: ', NEW.body));\n-- Inserting into comments fires the trigger again, which inserts again, ...\n-- MySQL prevents recursive trigger invocation on the same table by default.",
+        "error": "In some cases, ERROR 1442 (HY000): Can't update table '...' in stored function/trigger because it is already used by statement which invoked this stored function/trigger.",
+        "correctCode": "-- Either:\n-- (a) Insert into a DIFFERENT table\nCREATE TRIGGER log_comment\nAFTER INSERT ON comments\nFOR EACH ROW\nINSERT INTO comment_audit(comment_id, body, logged_at)\nVALUES (NEW.id, NEW.body, NOW());\n\n-- (b) Modify NEW in a BEFORE trigger, no recursion\nCREATE TRIGGER tag_comment\nBEFORE INSERT ON comments\nFOR EACH ROW\nSET NEW.body = CONCAT('verified: ', NEW.body);",
+        "explanation": "A trigger cannot modify the same table that caused it to fire — MySQL blocks this to prevent infinite loops. If you need to enrich the row being inserted, do it in a BEFORE trigger by modifying NEW. Side effects on related tables are fine."
+      },
+      {
+        "title": "Trigger That Assumes Statement-Level Fire",
+        "wrongCode": "-- Expecting this to run once per INSERT statement\nCREATE TRIGGER notify_ops\nAFTER INSERT ON alerts\nFOR EACH ROW\nINSERT INTO ops_queue(msg) VALUES ('new alerts arrived');\n\n-- INSERT INTO alerts VALUES (...), (...), (...);\n-- ops_queue gets THREE rows, not one.",
+        "error": "No error — but ops_queue fills up faster than expected.",
+        "correctCode": "-- Accept per-row behaviour and deduplicate downstream,\n-- or do the notification in the application after the statement.\n\n-- If you really want one message per statement, track the last statement\n-- via a session variable and skip duplicate rows:\nCREATE TRIGGER notify_ops_once\nAFTER INSERT ON alerts\nFOR EACH ROW\nBEGIN\n    IF @last_notified_stmt IS NULL\n       OR @last_notified_stmt <> CONNECTION_ID() THEN\n        SET @last_notified_stmt = CONNECTION_ID();\n        INSERT INTO ops_queue(msg) VALUES ('new alerts arrived');\n    END IF;\nEND;",
+        "explanation": "MySQL only supports row-level triggers (FOR EACH ROW). Oracle-style statement-level triggers do not exist. Always design triggers expecting one invocation per affected row. Bulk inserts and UPDATEs can unexpectedly amplify trigger side effects."
+      }
+    ],
+    "summary": [
+      "A trigger is automatic SQL that runs in response to an INSERT, UPDATE, or DELETE on a specific table. It can fire BEFORE or AFTER the change. Triggers are row-level in MySQL — they fire once per affected row.",
+      "Use BEFORE triggers to validate input and modify NEW (normalise, default, reject via SIGNAL). Use AFTER triggers to log, maintain counters, or cascade non-critical updates to other tables.",
+      "NEW refers to the incoming row (available in INSERT and UPDATE). OLD refers to the previous row (available in UPDATE and DELETE). AFTER triggers see NEW as read-only; BEFORE triggers can assign to NEW.",
+      "SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = '...' in a BEFORE trigger aborts the triggering statement and returns the error to the caller. This is how you enforce cross-row business rules that CHECK constraints cannot express.",
+      "Canonical trigger use cases: audit logs (AFTER UPDATE/DELETE), validation (BEFORE INSERT/UPDATE), conditional timestamps (BEFORE UPDATE), denormalised counts (AFTER INSERT/DELETE/UPDATE), and archive-on-delete (AFTER DELETE).",
+      "Trigger pitfalls: hidden logic (document thoroughly), per-row performance (triggers run N times for N-row statements), ordering (MySQL runs them in definition order; use FOLLOWS / PRECEDES to control), and inability to recurse on the same table.",
+      "A scheduled event is code that runs on a time schedule. Use CREATE EVENT ... ON SCHEDULE AT <time> for one-off tasks or ON SCHEDULE EVERY <interval> for recurring tasks. The body is one or more SQL statements, usually CALL to a procedure.",
+      "event_scheduler must be ON for events to fire. Set SET GLOBAL event_scheduler = ON and add event_scheduler=ON to my.cnf to survive restarts. Without the scheduler, events exist but never execute.",
+      "Classic event use cases: daily cleanup of soft-deleted rows, nightly archival to a history table, hourly refresh of materialised-view tables, monthly report generation, and expiry of tokens / sessions.",
+      "Events vs cron: use events for simple database-internal chores. For anything needing robust monitoring, retries, or coordination across systems, use a real external scheduler (cron, Airflow, k8s CronJob) because MySQL's event monitoring is limited to the error log."
+    ]
+  },
+  "relatedTopics": ["views-and-stored-procedures", "transactions-and-acid", "database-design-and-normalization"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between BEFORE and AFTER triggers?",
+        "hint": "Think about when the row is written.",
+        "answer": "BEFORE fires before the row is written to disk, allowing you to inspect and modify NEW. AFTER fires once the row has been written — NEW is read-only. Use BEFORE for validation and defaulting; AFTER for logging and cascading changes to other tables.",
+        "explanation": "You cannot change NEW in an AFTER trigger because the row is already persisted. Trying to do so gives ERROR 1362."
+      },
+      {
+        "id": "ts-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Which pseudo-records are available in a BEFORE UPDATE trigger?",
+        "hint": "Think previous row vs new row.",
+        "answer": "Both <code>OLD</code> (the current row about to be changed) and <code>NEW</code> (the row after the UPDATE is applied). In a BEFORE trigger, NEW is writable, so you can alter the outgoing row.",
+        "explanation": "This is what makes BEFORE UPDATE triggers useful for computing things like last_modified_at based on whether the row actually changed."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Given this trigger, what does <code>SELECT email FROM users;</code> return after <code>INSERT INTO users(email) VALUES ('  Aarav@Mail.COM ');</code>?<pre><code>CREATE TRIGGER clean BEFORE INSERT ON users\nFOR EACH ROW SET NEW.email = LOWER(TRIM(NEW.email));</code></pre>",
+        "hint": "The trigger normalises the email.",
+        "answer": "<code>aarav@mail.com</code>",
+        "explanation": "TRIM removes surrounding spaces and LOWER converts to lowercase. The BEFORE trigger modifies NEW.email before the row is written."
+      },
+      {
+        "id": "ts-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Can a DELETE trigger access NEW?",
+        "hint": "Think about whether a deleted row has a new version.",
+        "answer": "No. DELETE triggers only have OLD. There is no NEW row because the row is being removed, not replaced. Trying to read NEW in a DELETE trigger is a syntax error.",
+        "explanation": "Symmetric rule: INSERT triggers have NEW only; DELETE triggers have OLD only; UPDATE triggers have both."
+      },
+      {
+        "id": "ts-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is a scheduled event in MySQL?",
+        "hint": "Compare with triggers.",
+        "answer": "A named, time-based task stored inside the database. It runs on the event-scheduler thread, not in response to any row change. Used for daily cleanup, archival, hourly cache refresh, and similar chores.",
+        "explanation": "Events are the database equivalent of cron — they fire on a schedule, not on a data change."
+      },
+      {
+        "id": "ts-6",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What enables the event scheduler?",
+        "hint": "One setting.",
+        "answer": "<code>SET GLOBAL event_scheduler = ON;</code> or permanently via <code>event_scheduler=ON</code> in my.cnf.",
+        "explanation": "Without the scheduler running, every event is dormant. Always check <code>SELECT @@event_scheduler</code> after creating events."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "A trigger counts how many times it has fired:<pre><code>CREATE TRIGGER bump\nAFTER INSERT ON orders\nFOR EACH ROW\nUPDATE stats SET n = n + 1 WHERE id = 1;\n\n-- stats.n starts at 0\nINSERT INTO orders(total) VALUES (10),(20),(30);\nSELECT n FROM stats WHERE id = 1;</code></pre>",
+        "hint": "How many rows does a 3-row INSERT create?",
+        "answer": "<code>3</code>",
+        "explanation": "A multi-row INSERT fires the trigger once per row. The counter increments three times from 0 to 3."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why can MySQL refuse to let a trigger update its own table?",
+        "hint": "Think infinite recursion.",
+        "answer": "Because allowing it would invite infinite recursion: the trigger fires on UPDATE, modifies a row, which fires the trigger again. MySQL's default is to block any trigger that would re-trigger itself, raising ERROR 1442.",
+        "explanation": "If you need to mutate the triggering row itself, do it in a BEFORE trigger by assigning to NEW — that does not re-fire."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When would you prefer a column default (DEFAULT CURRENT_TIMESTAMP) over a BEFORE INSERT trigger?",
+        "hint": "Think simplicity.",
+        "answer": "Always, when a simple default is enough. Column defaults are simpler, well-documented, and faster. Reach for a trigger only when the default depends on other columns or requires conditional logic.",
+        "explanation": "Triggers have maintenance cost and hidden behaviour. Built-in features should win when they suffice."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this event do, assuming orders contains rows from 2024 and 2025, and today is 2026-04-16?<pre><code>CREATE EVENT archive_old\nON SCHEDULE EVERY 1 MONTH\nSTARTS '2026-05-01'\nDO\nBEGIN\n    INSERT INTO orders_archive SELECT * FROM orders\n    WHERE created_at < NOW() - INTERVAL 1 YEAR;\n    DELETE FROM orders\n    WHERE created_at < NOW() - INTERVAL 1 YEAR;\nEND;</code></pre>",
+        "hint": "Rows older than 1 year move to archive.",
+        "answer": "Each month it copies rows older than one year from <code>orders</code> into <code>orders_archive</code> and deletes them from <code>orders</code>. On 2026-05-01 it archives anything from before 2025-05-01.",
+        "explanation": "This is the standard archival pattern. Note: the two statements should ideally be in a transaction so a failure mid-way doesn't lose data."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does SIGNAL SQLSTATE '45000' do?",
+        "hint": "Think user-defined errors.",
+        "answer": "Raises a user-defined SQL exception with SQLSTATE 45000 (the reserved class for unhandled user errors). Inside a BEFORE trigger this aborts the triggering INSERT/UPDATE/DELETE and the caller receives error 1644 with the MESSAGE_TEXT you set.",
+        "explanation": "It is the MySQL mechanism for 'reject this operation with a business-rule error'. Applications catch the error by SQLSTATE or errno."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is <code>FOR EACH ROW</code> the only option in MySQL?",
+        "hint": "Compare to Oracle/PostgreSQL statement triggers.",
+        "answer": "MySQL does not support statement-level triggers — those fire once per statement regardless of rows affected. Every MySQL trigger fires once per affected row. If you need statement-level behaviour, you must emulate it using session variables or call logic from application code.",
+        "explanation": "This matters for performance: a bulk UPDATE that touches a million rows fires the trigger a million times."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Two AFTER INSERT triggers exist on the same table. In what order do they fire, and how do you change that order?",
+        "hint": "Think about creation order and the FOLLOWS/PRECEDES clauses.",
+        "answer": "By default, MySQL fires them in the order they were created. To control the order explicitly, add <code>FOLLOWS other_trigger</code> or <code>PRECEDES other_trigger</code> when creating the second trigger. This writes an explicit ordering into information_schema.",
+        "explanation": "Without FOLLOWS/PRECEDES, dropping and recreating one trigger can silently change the firing order. Be explicit in production."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How do triggers behave under row-based vs statement-based replication?",
+        "hint": "Row-based replicates row changes; statement-based replays the SQL.",
+        "answer": "Under row-based replication (the recommended setting), trigger side effects on the master are captured as row changes in the binary log and applied on the replica <em>without</em> re-running the trigger. Under statement-based replication, the replica re-executes the original statement, and its triggers fire independently — dangerous if any trigger is non-deterministic.",
+        "explanation": "This is why MySQL forces you to declare DETERMINISTIC on functions and why row-based replication is the modern default."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Your event runs a 2-hour job every hour. What happens?",
+        "hint": "Think overlap.",
+        "answer": "By default MySQL will not queue overlapping invocations — if the previous run is still executing when the next fire time comes, the new invocation is skipped silently. You can confirm by inspecting <code>information_schema.EVENTS.LAST_EXECUTED</code>. In practice, either make the job idempotent, run it less often, or use <code>ON COMPLETION PRESERVE</code> and redesign.",
+        "explanation": "The event scheduler uses a single worker per event. Long-running events can fall behind schedule. Monitor LAST_EXECUTED and alert when it lags."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "A junior dev wants to put 'send welcome email' logic in an AFTER INSERT trigger on users. What do you tell them?",
+        "hint": "Think about transactionality and external side effects.",
+        "answer": "Don't. Triggers run inside the INSERT transaction. Email is an external side effect — if the trigger succeeds but the transaction later rolls back, you've emailed someone who was never created. The right pattern is to INSERT a row into a <code>notifications_outbox</code> table from the trigger; a separate worker reads the outbox and sends emails. The outbox insert is rolled back if the transaction fails.",
+        "explanation": "The 'transactional outbox' pattern. External services must never be called from inside a DB transaction — only after commit."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How can you inspect the last execution time of an event?",
+        "hint": "Information schema.",
+        "answer": "<code>SELECT EVENT_NAME, LAST_EXECUTED, STATUS FROM information_schema.EVENTS WHERE EVENT_SCHEMA = 'shop';</code>. The column LAST_EXECUTED gives the last fire time (NULL if never executed).",
+        "explanation": "Combined with a monitoring query that alerts when LAST_EXECUTED is older than expected, this is the minimal viable event monitoring setup inside MySQL."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "If <code>stats.n</code> starts at 0 and<pre><code>CREATE TRIGGER bump AFTER INSERT ON t\nFOR EACH ROW UPDATE stats SET n = n + 1;</code></pre>and we run <code>INSERT INTO t VALUES (1);</code> then <code>INSERT INTO t VALUES (2),(3),(4);</code>, what is n?",
+        "hint": "One row + three rows.",
+        "answer": "<code>4</code>",
+        "explanation": "The first INSERT fires the trigger once. The second INSERT inserts three rows, firing the trigger three times. 0 + 1 + 3 = 4."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "List three INSERT/UPDATE/DELETE trigger events that can have a BEFORE variant.",
+        "hint": "All of them can.",
+        "answer": "BEFORE INSERT, BEFORE UPDATE, BEFORE DELETE. (Similarly for AFTER.) Six combinations total per table.",
+        "explanation": "MySQL supports all six: each of INSERT, UPDATE, DELETE can have a BEFORE and an AFTER trigger."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does this return?<pre><code>CREATE TRIGGER t_trg BEFORE INSERT ON t\nFOR EACH ROW SET NEW.x = NEW.x * 2;\n\nINSERT INTO t(x) VALUES (5);\nSELECT x FROM t;</code></pre>",
+        "hint": "The trigger doubles x.",
+        "answer": "<code>10</code>",
+        "explanation": "The BEFORE trigger multiplies NEW.x by 2 before the row is written, so the stored value is 10."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is the transactional outbox pattern better than sending emails directly from an AFTER INSERT trigger?",
+        "hint": "Think about rollback.",
+        "answer": "Triggers run inside the transaction. If the surrounding transaction rolls back after the trigger fired, a direct email has already been sent — you cannot un-email someone. The outbox row, however, is rolled back with the rest of the transaction, keeping data and side effects in lockstep. A separate worker reads committed outbox rows and sends mail.",
+        "explanation": "This pattern is the dominant production approach for reliable event emission from transactional systems."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What does <code>SHOW TRIGGERS FROM shop LIKE 'emp%'</code> return?",
+        "hint": "Filter by table name.",
+        "answer": "All triggers in database <code>shop</code> whose table name matches the LIKE pattern 'emp%' — e.g. triggers on <code>employees</code> and <code>employee_salaries</code>. Each row shows Trigger, Event, Table, Statement, Timing (BEFORE/AFTER), Created, and more.",
+        "explanation": "LIKE filters by table name, not by trigger name. To filter by trigger name, query information_schema.TRIGGERS directly."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Give one reason to prefer an event over cron and one reason to prefer cron.",
+        "hint": "Think location and monitoring.",
+        "answer": "Prefer events when the task is entirely database-internal and simple (nightly DELETE of old rows) — no extra infrastructure. Prefer cron (or Airflow) when you need robust retries, alerting on failure, orchestration across multiple databases, or logs outside the MySQL error log.",
+        "explanation": "Events are low-ops. External schedulers are high-ops but give you real observability."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "After this DELETE, how many rows in history?<pre><code>CREATE TRIGGER t AFTER DELETE ON orders\nFOR EACH ROW INSERT INTO orders_history VALUES (OLD.id, OLD.total);\n\n-- orders has 5 rows: ids 1..5\nDELETE FROM orders WHERE id > 2;</code></pre>",
+        "hint": "Rows 3, 4, 5 are deleted.",
+        "answer": "<code>3</code>",
+        "explanation": "DELETE removes 3 rows (ids 3, 4, 5). The trigger fires once per deleted row, copying each into orders_history."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How do you make an event run exactly once and then disappear?",
+        "hint": "AT + ON COMPLETION.",
+        "answer": "<code>CREATE EVENT one_off ON SCHEDULE AT '2026-05-01 02:00:00' ON COMPLETION NOT PRESERVE DO ...;</code> AT fires once at the specific time. ON COMPLETION NOT PRESERVE (the default) drops the event after completion. Use ON COMPLETION PRESERVE if you want it to remain in a COMPLETED state for audit.",
+        "explanation": "Useful for migrations scheduled to run during a maintenance window."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "You have triggers log_ins (inserted date) and verify_ins (validation). Which should fire first, and how do you enforce it?",
+        "hint": "Validate before logging.",
+        "answer": "<code>verify_ins</code> must fire first — you do not want to log rows that will be rejected. Make verify_ins a BEFORE INSERT trigger (it raises SIGNAL on invalid rows) and log_ins an AFTER INSERT trigger. If both must be AFTER INSERT, use the FOLLOWS clause: <code>CREATE TRIGGER log_ins AFTER INSERT ON t FOR EACH ROW FOLLOWS verify_ins ...</code>.",
+        "explanation": "BEFORE always runs before AFTER. Within the same timing, use FOLLOWS/PRECEDES for explicit ordering."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens here?<pre><code>CREATE TRIGGER strict_balance BEFORE UPDATE ON accounts\nFOR EACH ROW\nBEGIN\n    IF NEW.balance < 0 THEN\n        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Negative balance';\n    END IF;\nEND;\n\n-- accounts: (101, 500)\nUPDATE accounts SET balance = balance - 600 WHERE id = 101;</code></pre>",
+        "hint": "NEW.balance would be -100.",
+        "answer": "The UPDATE is rejected with <code>ERROR 1644 (45000): Negative balance</code>. The row remains at 500.",
+        "explanation": "SIGNAL in a BEFORE trigger aborts the statement. The proposed NEW row never hits the table."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is the default event behaviour NOT to queue missed runs?",
+        "hint": "Think about storms.",
+        "answer": "If the server was down for 6 hours and the event runs every minute, queuing would fire 360 invocations the moment the server came back — a stampede. MySQL's policy of \"skip missed runs and continue from the next scheduled time\" is safer: the job runs at the next natural tick.",
+        "explanation": "If you need catch-up behaviour, store the last-processed timestamp in a table and process up to NOW() on each fire."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "A trigger on <code>orders</code> UPDATEs <code>inventory</code>, which has its own trigger that UPDATEs <code>stock_alerts</code>. Is this cascade safe?",
+        "hint": "Think depth and hidden behaviour.",
+        "answer": "It is technically safe (no recursion on the same table) but a maintainability smell. The first developer to read the codebase will see an INSERT into orders and have no idea three tables change as a consequence. Document trigger chains explicitly, or — better — move the cascade into a stored procedure the application calls deliberately.",
+        "explanation": "Triggers are powerful but invisible. The more you chain them, the harder the system is to debug."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "ALTER EVENT rebuild_daily DISABLE; — what happens next Monday at the scheduled time?",
+        "hint": "Disabled events do not fire.",
+        "answer": "Nothing. The event remains in the database (visible in SHOW EVENTS with Status = DISABLED) but the scheduler skips it. Re-enable with <code>ALTER EVENT rebuild_daily ENABLE</code>.",
+        "explanation": "DISABLE is the right knob for 'pause this for a while' during maintenance — safer than DROP + recreate."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Your audit trigger is slow under bulk loads. Name two optimisations.",
+        "hint": "Batching and narrow scope.",
+        "answer": "(1) Only log rows that actually changed: <code>IF NEW.col &lt;&gt; OLD.col THEN ... END IF;</code> — no-op UPDATEs produce no audit rows. (2) Push trigger-generated rows into a simple staging table (no indexes), and batch-move them to the main audit table from a nightly event. This trades immediate-visibility for lower write amplification.",
+        "explanation": "The write-amplification problem is real: one USER UPDATE becomes one audit INSERT. Indexed audit tables can double total write cost."
+      },
+      {
+        "id": "mx-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Can you have two BEFORE INSERT triggers on the same table?",
+        "hint": "Yes, since MySQL 5.7.",
+        "answer": "Yes. Since MySQL 5.7 you can define multiple triggers with the same timing and event. Use <code>FOLLOWS</code> or <code>PRECEDES</code> to control the order in which they fire. Pre-5.7 only one trigger per timing+event was allowed.",
+        "explanation": "Multiple triggers are useful when different concerns (normalisation, validation, auditing) come from different modules and you want to keep them separate."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the correct syntax prefix to begin a trigger definition?",
+        "options": {
+          "A": "MAKE TRIGGER ...",
+          "B": "CREATE TRIGGER trigger_name BEFORE/AFTER event ON table",
+          "C": "DEFINE TRIGGER trigger_name",
+          "D": "ADD TRIGGER ..."
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The full syntax is <code>CREATE TRIGGER name { BEFORE | AFTER } { INSERT | UPDATE | DELETE } ON table FOR EACH ROW body</code>."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which references are available in a BEFORE UPDATE trigger?",
+        "options": {
+          "A": "Only NEW",
+          "B": "Only OLD",
+          "C": "Both OLD and NEW",
+          "D": "Neither"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> UPDATE triggers see both: OLD is the pre-update row, NEW is the post-update row (writable only in BEFORE)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which reference exists in a DELETE trigger?",
+        "options": {
+          "A": "NEW",
+          "B": "OLD",
+          "C": "Both",
+          "D": "Neither"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> DELETE has only OLD; there is no new version of a deleted row."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is event_scheduler?",
+        "options": {
+          "A": "A MySQL thread that runs scheduled events",
+          "B": "A stored procedure",
+          "C": "A table",
+          "D": "An index type"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> It is the background thread that wakes up and executes events at their scheduled times. Must be ON (SET GLOBAL event_scheduler = ON)."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which command lists triggers in the current database?",
+        "options": {
+          "A": "LIST TRIGGERS",
+          "B": "SHOW TRIGGERS",
+          "C": "DESCRIBE TRIGGERS",
+          "D": "INFO TRIGGERS"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>SHOW TRIGGERS</code> returns name, event, table, timing, and body for each trigger. Optional LIKE filters by table name."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "You want a trigger that rejects negative salaries. Which timing and event?",
+        "options": {
+          "A": "AFTER INSERT",
+          "B": "BEFORE INSERT and BEFORE UPDATE (both) with SIGNAL",
+          "C": "AFTER DELETE",
+          "D": "INSTEAD OF INSERT"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> You must block both INSERTs and UPDATEs that would violate the rule. BEFORE lets SIGNAL abort the statement cleanly. MySQL has no INSTEAD OF triggers."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "How many times does a trigger fire for <code>UPDATE employees SET salary = salary * 1.1</code> on a 1000-row table?",
+        "options": {
+          "A": "Once",
+          "B": "Twice",
+          "C": "1000 times — FOR EACH ROW",
+          "D": "Depends on the index"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> MySQL triggers are row-level. 1000 rows updated = 1000 trigger invocations."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does SIGNAL SQLSTATE '45000' do in a BEFORE trigger?",
+        "options": {
+          "A": "Logs a warning only",
+          "B": "Commits the transaction",
+          "C": "Raises a user-defined error and aborts the triggering statement",
+          "D": "Replicates the error to all servers"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> SQLSTATE 45000 is the reserved class for user-defined unhandled exceptions. The UPDATE/INSERT/DELETE is aborted and the caller receives error 1644."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which statement about AFTER triggers is TRUE?",
+        "options": {
+          "A": "They can modify NEW",
+          "B": "They see NEW as read-only; the row is already written",
+          "C": "They fire before any constraint check",
+          "D": "They can roll back their own changes"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> After the row is written, NEW is immutable. Constraints are checked before AFTER triggers fire."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which command drops a trigger safely?",
+        "options": {
+          "A": "DROP TRIGGER name",
+          "B": "DROP TRIGGER IF EXISTS name",
+          "C": "DELETE TRIGGER name",
+          "D": "ALTER TRIGGER name DROP"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> IF EXISTS makes migrations idempotent — no error if the trigger was already dropped."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which schedule clause makes an event fire every day at 2 a.m. starting next Monday?",
+        "options": {
+          "A": "ON SCHEDULE AT '2026-04-20 02:00:00'",
+          "B": "ON SCHEDULE EVERY 1 DAY STARTS '2026-04-20 02:00:00'",
+          "C": "ON SCHEDULE DAILY 02:00",
+          "D": "ON SCHEDULE EVERY HOUR"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>EVERY 1 DAY</code> is the interval; <code>STARTS</code> sets the first fire time."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which clause lets an event remain after it finishes a one-off run?",
+        "options": {
+          "A": "ON COMPLETION PRESERVE",
+          "B": "ON COMPLETION DROP",
+          "C": "ON COMPLETION FREEZE",
+          "D": "ON COMPLETION KEEP"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The default is NOT PRESERVE — the event is dropped once done. PRESERVE keeps it with Status = DISABLED for audit."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "You have two AFTER INSERT triggers on the same table. What determines their firing order?",
+        "options": {
+          "A": "Alphabetical order of trigger names",
+          "B": "Definition order, or FOLLOWS/PRECEDES clauses",
+          "C": "Random",
+          "D": "Smallest trigger id first"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL 5.7+ uses definition order by default; FOLLOWS/PRECEDES override it for explicit control."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which pattern keeps emails from being sent for rolled-back transactions?",
+        "options": {
+          "A": "Sending directly from an AFTER INSERT trigger",
+          "B": "The transactional outbox pattern (insert into a queue table, send later)",
+          "C": "Using autocommit",
+          "D": "Stored functions with MODIFIES SQL DATA"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The outbox row is part of the transaction; rollback un-queues it. A separate worker emails only committed rows."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What happens when the event scheduler's run overlaps a previous run?",
+        "options": {
+          "A": "The new invocation is queued",
+          "B": "The new invocation is skipped; LAST_EXECUTED is not updated",
+          "C": "The server crashes",
+          "D": "MySQL spawns a second worker per event"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> MySQL does not run overlapping instances of the same event. Long-running events can fall behind — monitor LAST_EXECUTED."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Which is TRUE about triggers under row-based replication?",
+        "options": {
+          "A": "Triggers re-execute on the replica",
+          "B": "Row changes (including those made by the trigger) are shipped directly to the replica — triggers do NOT re-execute there",
+          "C": "Triggers are disabled on replicas",
+          "D": "Triggers fire twice"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Row-based replication ships the result of the trigger, not the statement. This makes non-deterministic triggers safe on replicas."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the biggest risk of putting heavy business logic in triggers?",
+        "options": {
+          "A": "Triggers cannot access NEW.* columns",
+          "B": "Logic becomes invisible to application developers and hard to debug",
+          "C": "Triggers use more memory than stored procedures",
+          "D": "Triggers cannot use transactions"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A reader of the application sees INSERT but has no idea the database also fires five triggers and updates four other tables. Name triggers clearly, document them, and push complex flows into named procedures the application calls explicitly."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Audit Every Salary Update",
+        "difficulty": "Easy",
+        "description": "Create an AFTER UPDATE trigger on <code>employees</code> that writes a row to <code>salary_audit(emp_id, old_salary, new_salary, changed_at)</code> only when salary actually changes.",
+        "sampleInput": "employees: (1,'Aarav',50000)\nUPDATE employees SET salary=55000 WHERE id=1;\nUPDATE employees SET name='Aarav S' WHERE id=1;",
+        "sampleOutput": "salary_audit has ONE row (from the first update). The second UPDATE did not change salary, so the trigger did not log it.",
+        "constraints": "Use IF NEW.salary <> OLD.salary. Use NOW() for changed_at.",
+        "solution": "DELIMITER $$\nCREATE TRIGGER audit_salary\nAFTER UPDATE ON employees\nFOR EACH ROW\nBEGIN\n    IF NEW.salary <> OLD.salary THEN\n        INSERT INTO salary_audit(emp_id, old_salary, new_salary, changed_at)\n        VALUES (OLD.id, OLD.salary, NEW.salary, NOW());\n    END IF;\nEND$$\nDELIMITER ;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Normalise Email on Insert",
+        "difficulty": "Easy",
+        "description": "Create a BEFORE INSERT trigger on <code>users</code> that lowercases and trims the email before storing it.",
+        "sampleInput": "INSERT INTO users(email) VALUES ('  Priya@Mail.COM ');",
+        "sampleOutput": "users row has email = 'priya@mail.com'.",
+        "constraints": "Use SET NEW.email = LOWER(TRIM(NEW.email)).",
+        "solution": "DELIMITER $$\nCREATE TRIGGER normalise_email\nBEFORE INSERT ON users\nFOR EACH ROW\nSET NEW.email = LOWER(TRIM(NEW.email))$$\nDELIMITER ;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Reject Negative Prices",
+        "difficulty": "Easy",
+        "description": "Create a BEFORE INSERT and BEFORE UPDATE trigger on <code>products</code> that rejects any row with price < 0 using SIGNAL.",
+        "sampleInput": "INSERT INTO products(name, price) VALUES ('Pen', -5);",
+        "sampleOutput": "ERROR 1644 (45000): Price cannot be negative",
+        "constraints": "Use two separate triggers (INSERT and UPDATE) with the same check, or use SIGNAL SQLSTATE '45000'.",
+        "solution": "DELIMITER $$\nCREATE TRIGGER no_neg_price_ins\nBEFORE INSERT ON products\nFOR EACH ROW\nBEGIN\n    IF NEW.price < 0 THEN\n        SIGNAL SQLSTATE '45000'\n            SET MESSAGE_TEXT = 'Price cannot be negative';\n    END IF;\nEND$$\n\nCREATE TRIGGER no_neg_price_upd\nBEFORE UPDATE ON products\nFOR EACH ROW\nBEGIN\n    IF NEW.price < 0 THEN\n        SIGNAL SQLSTATE '45000'\n            SET MESSAGE_TEXT = 'Price cannot be negative';\n    END IF;\nEND$$\nDELIMITER ;"
+      },
+      {
+        "id": "cc-4",
+        "title": "Denormalised Post Count",
+        "difficulty": "Medium",
+        "description": "Write three triggers on <code>posts</code> that keep <code>categories.post_count</code> accurate: AFTER INSERT (increment), AFTER DELETE (decrement), AFTER UPDATE (handle category moves).",
+        "sampleInput": "categories: (1,'Tech',0), (2,'Food',0)\nINSERT INTO posts(title, category_id) VALUES ('x',1),('y',1),('z',2);\nUPDATE posts SET category_id=2 WHERE title='y';\nDELETE FROM posts WHERE title='z';",
+        "sampleOutput": "categories: (1,'Tech',1), (2,'Food',1)",
+        "constraints": "All three triggers. On UPDATE, only act when category_id actually changed.",
+        "solution": "DELIMITER $$\nCREATE TRIGGER posts_inc AFTER INSERT ON posts\nFOR EACH ROW\nUPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id$$\n\nCREATE TRIGGER posts_dec AFTER DELETE ON posts\nFOR EACH ROW\nUPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id$$\n\nCREATE TRIGGER posts_move AFTER UPDATE ON posts\nFOR EACH ROW\nBEGIN\n    IF NEW.category_id <> OLD.category_id THEN\n        UPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id;\n        UPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id;\n    END IF;\nEND$$\nDELIMITER ;"
+      },
+      {
+        "id": "cc-5",
+        "title": "Archive-on-Delete Trigger",
+        "difficulty": "Medium",
+        "description": "Write an AFTER DELETE trigger on <code>customers</code> that copies every deleted row into <code>customers_archive</code> with a <code>deleted_at</code> timestamp.",
+        "sampleInput": "customers: (1,'Aarav','a@x'), (2,'Priya','p@x')\nDELETE FROM customers WHERE id=1;",
+        "sampleOutput": "customers_archive: (1,'Aarav','a@x', NOW())",
+        "constraints": "Use OLD.* in the INSERT. Store NOW() for deleted_at.",
+        "solution": "DELIMITER $$\nCREATE TRIGGER archive_customer\nAFTER DELETE ON customers\nFOR EACH ROW\nINSERT INTO customers_archive(id, name, email, deleted_at)\nVALUES (OLD.id, OLD.name, OLD.email, NOW())$$\nDELIMITER ;"
+      },
+      {
+        "id": "cc-6",
+        "title": "Daily Soft-Delete Cleanup Event",
+        "difficulty": "Medium",
+        "description": "Create an event that runs every day at 03:00 and deletes rows from <code>customers</code> where <code>deleted_at IS NOT NULL</code> and <code>deleted_at &lt; NOW() - INTERVAL 30 DAY</code>.",
+        "sampleInput": "(No input — event runs on schedule.)",
+        "sampleOutput": "After many days, customers soft-deleted more than 30 days ago are physically removed.",
+        "constraints": "Use ON SCHEDULE EVERY 1 DAY STARTS '...'. Remember SET GLOBAL event_scheduler = ON.",
+        "solution": "SET GLOBAL event_scheduler = ON;\n\nCREATE EVENT cleanup_soft_deleted\nON SCHEDULE EVERY 1 DAY\nSTARTS '2026-04-17 03:00:00'\nCOMMENT 'Remove soft-deleted customers older than 30 days'\nDO\n    DELETE FROM customers\n    WHERE deleted_at IS NOT NULL\n      AND deleted_at < NOW() - INTERVAL 30 DAY;"
+      },
+      {
+        "id": "cc-7",
+        "title": "Monthly Archival Event",
+        "difficulty": "Hard",
+        "description": "Create an event that runs on the 1st of every month at 01:00 to move rows from <code>orders</code> older than 12 months into <code>orders_archive</code>, then delete them from <code>orders</code>. Wrap both statements in a transaction so either both succeed or both roll back.",
+        "sampleInput": "orders has entries from 2024-01-01 to now.",
+        "sampleOutput": "Each month, 12-month-old rows move to orders_archive.",
+        "constraints": "Use EVERY 1 MONTH. Use START TRANSACTION / COMMIT inside a procedure called by the event.",
+        "solution": "DELIMITER $$\nCREATE PROCEDURE archive_old_orders()\nBEGIN\n    DECLARE EXIT HANDLER FOR SQLEXCEPTION BEGIN ROLLBACK; RESIGNAL; END;\n\n    START TRANSACTION;\n    INSERT INTO orders_archive\n    SELECT * FROM orders\n    WHERE created_at < NOW() - INTERVAL 12 MONTH;\n\n    DELETE FROM orders\n    WHERE created_at < NOW() - INTERVAL 12 MONTH;\n    COMMIT;\nEND$$\nDELIMITER ;\n\nSET GLOBAL event_scheduler = ON;\n\nCREATE EVENT monthly_archive\nON SCHEDULE EVERY 1 MONTH\nSTARTS '2026-05-01 01:00:00'\nDO CALL archive_old_orders();"
+      },
+      {
+        "id": "cc-8",
+        "title": "Guard a Locked Invoice",
+        "difficulty": "Hard",
+        "description": "Write a BEFORE UPDATE trigger on <code>invoices</code> that forbids any change to <code>amount</code> once <code>status = 'LOCKED'</code>. Allow status transitions (LOCKED -> PAID) but reject amount edits with a clear error.",
+        "sampleInput": "invoices: (1001, 5000, 'LOCKED')\nUPDATE invoices SET amount=6000 WHERE id=1001;     -- should fail\nUPDATE invoices SET status='PAID' WHERE id=1001;   -- should pass",
+        "sampleOutput": "First UPDATE: ERROR 1644 (45000): Cannot change amount on a LOCKED invoice.\nSecond UPDATE: Query OK, 1 row affected.",
+        "constraints": "Compare OLD.status and OLD.amount vs NEW.amount.",
+        "solution": "DELIMITER $$\nCREATE TRIGGER protect_locked_invoice\nBEFORE UPDATE ON invoices\nFOR EACH ROW\nBEGIN\n    IF OLD.status = 'LOCKED' AND NEW.amount <> OLD.amount THEN\n        SIGNAL SQLSTATE '45000'\n            SET MESSAGE_TEXT = 'Cannot change amount on a LOCKED invoice';\n    END IF;\nEND$$\nDELIMITER ;"
+      }
+    ]
+  }
+}

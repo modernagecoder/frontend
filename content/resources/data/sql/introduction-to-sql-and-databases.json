@@ -1,0 +1,726 @@
+{
+  "title": "Introduction to SQL and Databases",
+  "slug": "introduction-to-sql-and-databases",
+  "language": "sql",
+  "chapter": 1,
+  "difficulty": "Beginner",
+  "readingTime": "20 min",
+  "lastUpdated": "2026-04-11",
+  "totalQuestions": 56,
+  "seo": {
+    "title": "Introduction to SQL and Databases - DBMS, SQL vs NoSQL, DDL DML DCL TCL | Modern Age Coders",
+    "description": "Learn what databases are, how DBMS works, the difference between SQL and NoSQL, history of SQL (Codd 1970), popular databases like MySQL/PostgreSQL/Oracle, and the four categories of SQL commands (DDL, DML, DCL, TCL). Includes 56 practice questions and MCQs.",
+    "keywords": "introduction to sql, what is database, what is dbms, sql vs nosql, ddl dml dcl tcl, history of sql, edgar codd, mysql postgresql oracle, sql commands, sql for beginners college, sql interview basics"
+  },
+  "content": {
+    "what": "<h2>What Is a Database?</h2><p>A <strong>database</strong> is an organized collection of data, stored so that it can be quickly searched, updated, and analyzed. The keyword is <em>organized</em>. A WhatsApp chat backup as a giant text file is just data. The same chats stored in a structured format with columns for <code>sender</code>, <code>receiver</code>, <code>message</code>, and <code>timestamp</code> — that is a database.</p><p>Every app on your phone uses a database behind the scenes. When you open Instagram and see your feed, an SQL query is fetching posts from a database. When Paytm shows your last 10 transactions, that is a database query. When BookMyShow tells you Seat A12 is already booked, again a database query.</p><h3>What Is a DBMS?</h3><p>A <strong>DBMS (Database Management System)</strong> is the software that manages a database. You don't talk to the database file directly — you talk to the DBMS, and the DBMS handles storage, indexing, concurrency, security, and crash recovery for you. Think of it like this: if a database is the books in a library, the DBMS is the librarian.</p><p>Popular DBMS software includes <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>Oracle</strong>, <strong>Microsoft SQL Server</strong>, and <strong>SQLite</strong>. Each is a separate piece of software, and most of them speak SQL with small variations.</p><h3>What Is SQL?</h3><p><strong>SQL</strong> stands for <strong>Structured Query Language</strong>. It is the standard language used to interact with relational databases. With SQL you can create tables, insert data, search through millions of rows, update records, delete them, and join multiple tables together. SQL is pronounced either as \"S-Q-L\" (each letter spoken) or as \"sequel\" — both are acceptable in industry.</p><p>SQL was invented in the early 1970s and is still the dominant query language more than 50 years later. Very few technologies survive that long. SQL did because the relational model it is built on (tables with rows and columns, related to each other by keys) turned out to be one of the most useful ideas in computing.</p>",
+    "why": "<h2>Why SQL Still Dominates After 50+ Years</h2><p>Most technologies become obsolete in 5 to 10 years. JavaScript frameworks come and go every two years. Yet SQL, a language designed in 1974, is on the most-asked-skill list for almost every developer, data analyst, and data scientist job in 2026. Here is why.</p><h3>1. Almost Every Application Uses a Relational Database</h3><p>Banking apps, e-commerce sites, hospital management systems, government portals like Aadhaar and IRCTC, college ERPs, hotel booking systems, food delivery apps — they all use relational databases for the parts of their data where consistency matters. If you are building anything that stores user accounts, orders, payments, or transactions, you will use SQL.</p><h3>2. SQL Is the Common Language of Data</h3><p>Whether the database is MySQL at a startup, PostgreSQL at a fintech, Oracle at a bank, or BigQuery at Google, the core SELECT/JOIN/GROUP BY syntax is almost identical. Learn SQL once, use it everywhere — including modern cloud data warehouses (Snowflake, Redshift, BigQuery) which all expose SQL interfaces.</p><h3>3. Data Roles Demand SQL</h3><p>Data analyst, data engineer, data scientist, business intelligence developer, backend developer — every one of these roles lists SQL in the first line of the job description. Companies like Flipkart, Amazon, Razorpay, Zomato, and Swiggy ask SQL questions in their first technical round, often before any other coding question.</p><h3>4. SQL Survived Because the Relational Model Is Sound</h3><p>SQL was built on the <strong>relational model</strong> proposed by Edgar F. Codd at IBM in 1970. The idea — represent data as tables with rows and columns, with relationships defined by shared keys — is mathematically elegant and matches how humans naturally think about structured information. NoSQL databases tried to replace SQL in the 2010s, but most teams ended up using both: SQL for the structured core, NoSQL for specific use cases.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Data, Tables, Rows, and Columns</h3><p>In a relational database, data is stored in <strong>tables</strong>. A table has <strong>columns</strong> (also called fields or attributes) that define what kind of information is stored, and <strong>rows</strong> (also called records or tuples) that hold the actual data.</p><p>Here is a sample <code>students</code> table:</p><table><tr><th>id</th><th>name</th><th>city</th><th>marks</th></tr><tr><td>1</td><td>Aarav Sharma</td><td>Mumbai</td><td>87</td></tr><tr><td>2</td><td>Priya Iyer</td><td>Bengaluru</td><td>92</td></tr><tr><td>3</td><td>Rohan Verma</td><td>Delhi</td><td>78</td></tr><tr><td>4</td><td>Ananya Reddy</td><td>Hyderabad</td><td>95</td></tr><tr><td>5</td><td>Vikram Singh</td><td>Pune</td><td>65</td></tr></table><p>This table has 4 columns (<code>id</code>, <code>name</code>, <code>city</code>, <code>marks</code>) and 5 rows. Each row is one student. Each column holds one type of information about every student. This rectangular shape — same set of columns for every row — is what makes it a <em>relational</em> table.</p><h3>2. Primary Key (Quick Intro)</h3><p>Notice the <code>id</code> column. Each student has a unique <code>id</code>. This unique identifier is called a <strong>primary key</strong>. Primary keys are how the database (and you) tell two rows apart, even if other fields look identical. Two different students could both be named \"Aarav Sharma\" living in Mumbai, but their <code>id</code> values will differ. We will go deep into primary keys in Chapter 3.</p><h3>3. SQL vs NoSQL — When to Use What</h3><p><strong>SQL databases</strong> (also called relational databases) store data in tables with a fixed schema. Examples: MySQL, PostgreSQL, Oracle, SQL Server, SQLite. They are best when:</p><ul><li>Data has a clear structure that doesn't change often (users, orders, payments, inventory).</li><li>You need ACID guarantees — transactions that either fully complete or fully roll back. Critical for banking and any money-related system.</li><li>You need to JOIN data from multiple tables (e.g., \"give me all orders by users in Mumbai\").</li></ul><p><strong>NoSQL databases</strong> are a different family. They store data as documents (MongoDB), key-value pairs (Redis), wide columns (Cassandra), or graphs (Neo4j). They are best when:</p><ul><li>Data is unstructured or semi-structured (JSON documents, social media posts).</li><li>You need horizontal scaling across many servers (massive Twitter-scale workloads).</li><li>The schema changes often or differs per record.</li></ul><p>In practice, most companies use BOTH. A typical e-commerce stack might use PostgreSQL for orders and payments, MongoDB for product catalogs, and Redis for caching session data.</p><h3>4. Popular Databases (and Where They Are Used)</h3><table><tr><th>Database</th><th>Type</th><th>Cost</th><th>Common Use</th></tr><tr><td>MySQL</td><td>Open source</td><td>Free</td><td>Web apps, WordPress, mid-size SaaS</td></tr><tr><td>PostgreSQL</td><td>Open source</td><td>Free</td><td>Modern startups, GIS, complex queries</td></tr><tr><td>SQLite</td><td>Open source</td><td>Free</td><td>Mobile apps (Android/iOS), embedded</td></tr><tr><td>SQL Server</td><td>Microsoft</td><td>Paid (free dev edition)</td><td>Enterprise .NET shops, Windows ecosystems</td></tr><tr><td>Oracle</td><td>Oracle</td><td>Paid (expensive)</td><td>Large banks, government, telecom</td></tr></table><p>For learning, we recommend MySQL — it is free, widely used in industry, has good Windows/Mac/Linux installers, and what you learn transfers easily to PostgreSQL, SQLite, and SQL Server.</p><h3>5. A Brief History of SQL</h3><p>In <strong>1970</strong>, Edgar F. Codd, a researcher at IBM, published a paper titled <em>\"A Relational Model of Data for Large Shared Data Banks\"</em>. This paper proposed organizing data as relations (tables) instead of the navigational hierarchies common at the time.</p><p>By <strong>1974</strong>, IBM researchers Donald Chamberlin and Raymond Boyce designed a query language called <strong>SEQUEL</strong> (Structured English Query Language) to work with the relational model. The name was later shortened to <strong>SQL</strong> due to a trademark conflict.</p><p>In <strong>1979</strong>, a small company called Relational Software (later renamed Oracle) released the first commercial SQL database, beating IBM to market by two years. Oracle still exists today as one of the largest database companies in the world.</p><p>SQL was standardized by <strong>ANSI in 1986</strong> and by <strong>ISO in 1987</strong>. Major revisions: SQL-92 (joins, subqueries), SQL:1999 (recursion, triggers), SQL:2003 (window functions, XML), SQL:2016 (JSON support). Most databases support a subset plus their own extensions.</p><h3>6. The Four Categories of SQL Commands</h3><p>SQL commands are grouped into four categories based on what they do. Memorizing this is interview gold.</p><h4>DDL — Data Definition Language</h4><p>Defines the <em>structure</em> of the database. Affects schema, not data values.</p><table><tr><th>Command</th><th>Purpose</th></tr><tr><td><code>CREATE</code></td><td>Create a database, table, view, index, etc.</td></tr><tr><td><code>ALTER</code></td><td>Change structure (add/drop columns, rename)</td></tr><tr><td><code>DROP</code></td><td>Permanently delete a database or table</td></tr><tr><td><code>TRUNCATE</code></td><td>Delete all rows from a table (keeps structure)</td></tr><tr><td><code>RENAME</code></td><td>Rename a table or column</td></tr></table><h4>DML — Data Manipulation Language</h4><p>Works with the <em>data</em> inside tables.</p><table><tr><th>Command</th><th>Purpose</th></tr><tr><td><code>SELECT</code></td><td>Retrieve rows (technically called DQL by some books)</td></tr><tr><td><code>INSERT</code></td><td>Add new rows</td></tr><tr><td><code>UPDATE</code></td><td>Change existing rows</td></tr><tr><td><code>DELETE</code></td><td>Remove rows</td></tr></table><h4>DCL — Data Control Language</h4><p>Controls who can do what — permissions and access rights.</p><table><tr><th>Command</th><th>Purpose</th></tr><tr><td><code>GRANT</code></td><td>Give a user permission</td></tr><tr><td><code>REVOKE</code></td><td>Remove a permission</td></tr></table><h4>TCL — Transaction Control Language</h4><p>Manages transactions — groups of statements that should succeed or fail together.</p><table><tr><th>Command</th><th>Purpose</th></tr><tr><td><code>COMMIT</code></td><td>Save changes permanently</td></tr><tr><td><code>ROLLBACK</code></td><td>Undo changes since last COMMIT</td></tr><tr><td><code>SAVEPOINT</code></td><td>Set a marker to roll back to</td></tr></table><p>Memory tip: <strong>DDL = structure, DML = data, DCL = permissions, TCL = transactions.</strong></p><h3>7. Case Sensitivity</h3><p>SQL <strong>keywords</strong> (SELECT, FROM, WHERE) are not case-sensitive. <code>select</code>, <code>SELECT</code>, and <code>SeLeCt</code> all work. Convention is to write keywords in UPPERCASE so they stand out against table and column names.</p><p>Whether <strong>table and column names</strong> are case-sensitive depends on the database and the operating system. On MySQL on Linux, table names are case-sensitive (<code>Students</code> and <code>students</code> are different). On MySQL on Windows, they are not. Safe rule: pick lowercase_with_underscores naming and stick to it.</p>",
+    "codeExamples": [
+      {
+        "title": "Looking at a Sample Table — students",
+        "code": "-- This is the students table that we will use throughout this chapter.\n-- The actual SQL to create and populate it comes in Chapter 2.\n\nSELECT * FROM students;",
+        "language": "sql",
+        "explanation": "This is the simplest possible SQL query. <code>SELECT *</code> means \"give me every column\", and <code>FROM students</code> means \"from the students table\". The semicolon at the end terminates the statement. We will write our first real CREATE TABLE and INSERT statements in Chapter 2 — for now, focus on understanding what the output looks like.",
+        "output": "+----+----------------+-----------+-------+\n| id | name           | city      | marks |\n+----+----------------+-----------+-------+\n|  1 | Aarav Sharma   | Mumbai    |    87 |\n|  2 | Priya Iyer     | Bengaluru |    92 |\n|  3 | Rohan Verma    | Delhi     |    78 |\n|  4 | Ananya Reddy   | Hyderabad |    95 |\n|  5 | Vikram Singh   | Pune      |    65 |\n+----+----------------+-----------+-------+\n5 rows in set (0.00 sec)"
+      },
+      {
+        "title": "DDL Example — Defining a Table Structure",
+        "code": "-- DDL: CREATE defines the structure of a new table.\n-- This says: I want a table called employees with three columns.\n\nCREATE TABLE employees (\n    emp_id INT PRIMARY KEY,\n    name VARCHAR(50),\n    salary DECIMAL(10,2)\n);\n\n-- Notice: no data is inserted yet. This only creates an empty shell.\nSELECT * FROM employees;",
+        "language": "sql",
+        "explanation": "<code>CREATE TABLE</code> is a DDL command — it defines structure, not data. After this runs, the table exists but has zero rows. The <code>VARCHAR(50)</code> means a string up to 50 characters long; <code>DECIMAL(10,2)</code> means a number up to 10 digits with 2 after the decimal point (perfect for money). We cover all data types in detail in Chapter 3.",
+        "output": "Query OK, 0 rows affected (0.04 sec)\n\nEmpty set (0.00 sec)"
+      },
+      {
+        "title": "DML Example — Adding and Reading Rows",
+        "code": "-- DML: INSERT adds new rows into the employees table.\nINSERT INTO employees VALUES (101, 'Kavya Nair', 75000.00);\nINSERT INTO employees VALUES (102, 'Arjun Mehta', 92000.50);\nINSERT INTO employees VALUES (103, 'Sneha Patel', 68000.00);\n\n-- DML: SELECT reads the rows back.\nSELECT * FROM employees;",
+        "language": "sql",
+        "explanation": "<code>INSERT</code> and <code>SELECT</code> are DML commands — they manipulate data, not structure. We add three employees and then read them back. Notice the salaries keep their decimal precision because we declared the column as <code>DECIMAL(10,2)</code>.",
+        "output": "+--------+-------------+----------+\n| emp_id | name        | salary   |\n+--------+-------------+----------+\n|    101 | Kavya Nair  | 75000.00 |\n|    102 | Arjun Mehta | 92000.50 |\n|    103 | Sneha Patel | 68000.00 |\n+--------+-------------+----------+\n3 rows in set (0.00 sec)"
+      },
+      {
+        "title": "TCL Example — COMMIT and ROLLBACK",
+        "code": "-- TCL: Transactions group multiple statements together.\nSTART TRANSACTION;\n\nUPDATE employees SET salary = salary + 5000 WHERE emp_id = 101;\nUPDATE employees SET salary = salary + 5000 WHERE emp_id = 102;\n\n-- Oops, we changed our mind. Undo everything since START TRANSACTION.\nROLLBACK;\n\nSELECT * FROM employees;",
+        "language": "sql",
+        "explanation": "Transactions let us group several statements into one all-or-nothing unit. Here, we tried giving Kavya and Arjun a 5000 raise, then changed our mind and rolled back. Their salaries are unchanged. If we had used <code>COMMIT</code> instead of <code>ROLLBACK</code>, the changes would have been saved permanently. We will explore this deeply in Chapter 23.",
+        "output": "Query OK, 0 rows affected (0.00 sec)\nQuery OK, 1 row affected (0.01 sec)\nQuery OK, 1 row affected (0.00 sec)\nQuery OK, 0 rows affected (0.01 sec)\n\n+--------+-------------+----------+\n| emp_id | name        | salary   |\n+--------+-------------+----------+\n|    101 | Kavya Nair  | 75000.00 |\n|    102 | Arjun Mehta | 92000.50 |\n|    103 | Sneha Patel | 68000.00 |\n+--------+-------------+----------+\n3 rows in set (0.00 sec)"
+      },
+      {
+        "title": "DCL Example — Granting Permissions",
+        "code": "-- DCL: GRANT gives a user permission to do something.\n-- This says: user 'analyst_kavya' can SELECT from the employees table.\n\nGRANT SELECT ON company.employees TO 'analyst_kavya'@'localhost';\n\n-- Later, take that permission away.\nREVOKE SELECT ON company.employees FROM 'analyst_kavya'@'localhost';",
+        "language": "sql",
+        "explanation": "DCL commands control access. <code>GRANT SELECT</code> means the user can read but not modify the table. We could also grant <code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>, or <code>ALL PRIVILEGES</code>. In real companies, DBAs (Database Administrators) decide who gets which permissions. As a beginner you mostly use the <code>root</code> user that has all permissions.",
+        "output": "Query OK, 0 rows affected (0.02 sec)\nQuery OK, 0 rows affected (0.01 sec)"
+      },
+      {
+        "title": "Comparing Categories Side by Side",
+        "code": "-- DDL: structure\nCREATE TABLE products (id INT, name VARCHAR(50), price INT);\nALTER TABLE products ADD COLUMN stock INT;\nDROP TABLE products;\n\n-- DML: data\nINSERT INTO students VALUES (6, 'Diya Kapoor', 'Chennai', 88);\nUPDATE students SET marks = 90 WHERE id = 6;\nDELETE FROM students WHERE id = 6;\nSELECT name, marks FROM students;\n\n-- DCL: permissions\nGRANT INSERT ON school.students TO 'teacher_meera'@'%';\nREVOKE INSERT ON school.students FROM 'teacher_meera'@'%';\n\n-- TCL: transactions\nSTART TRANSACTION;\nUPDATE students SET marks = marks + 5 WHERE city = 'Mumbai';\nCOMMIT;",
+        "language": "sql",
+        "explanation": "This shows one or two commands from each of the four categories so you can see the contrast. DDL shapes the database; DML shapes the data; DCL controls who can do these things; TCL controls when changes become permanent. Memorize this grouping — it is one of the most common SQL interview questions.",
+        "output": "(Output varies — one OK line per statement.)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Confusing Database with DBMS",
+        "wrongCode": "Statement: \"MySQL is a database.\"",
+        "error": "Technically incorrect, and interviewers will catch this.",
+        "correctCode": "Statement: \"MySQL is a Database Management System (DBMS). The database is the actual collection of data managed by MySQL.\"",
+        "explanation": "MySQL, PostgreSQL, Oracle — these are <strong>DBMS software</strong>. The <em>database</em> is the actual data file (or set of files) that the DBMS manages. You can run one MySQL server that hosts 50 separate databases. In casual conversation people use the words interchangeably, but in interviews and exams the distinction matters."
+      },
+      {
+        "title": "Thinking SQL and MySQL Are the Same Thing",
+        "wrongCode": "Statement: \"I know SQL because I learned MySQL.\"",
+        "error": "Misleading. MySQL is one database; SQL is the language.",
+        "correctCode": "Statement: \"I know SQL, and I have practiced it on MySQL. The same SELECT/JOIN/GROUP BY queries also work on PostgreSQL, SQL Server, and SQLite with minor syntax differences.\"",
+        "explanation": "<strong>SQL</strong> is the standardized query language. <strong>MySQL</strong> is one specific DBMS that speaks SQL (with some MySQL-only extras). Other databases (PostgreSQL, Oracle, SQL Server) also speak SQL. The core 80% of SQL is portable across all of them. Don't tie your skill to one product."
+      },
+      {
+        "title": "Categorizing TRUNCATE as DML",
+        "wrongCode": "Statement: \"TRUNCATE is a DML command because it removes data.\"",
+        "error": "Wrong category. TRUNCATE is DDL.",
+        "correctCode": "Statement: \"TRUNCATE is a DDL command. It drops and recreates the table internally, which is faster than DELETE but cannot be rolled back in most databases.\"",
+        "explanation": "Even though TRUNCATE removes data, it works by dropping and recreating the table structure under the hood. That is a structural operation, so it is classified as DDL. DELETE, on the other hand, removes rows one at a time and is DML. This is a frequent interview trick question."
+      },
+      {
+        "title": "Believing NoSQL Has Replaced SQL",
+        "wrongCode": "Statement: \"SQL is old. Modern apps use NoSQL like MongoDB.\"",
+        "error": "Outdated industry assumption from around 2014.",
+        "correctCode": "Statement: \"SQL and NoSQL solve different problems. Most modern stacks use both — SQL for transactional, structured data; NoSQL for flexible documents, caching, or massive scale-out. SQL is still on virtually every backend job description.\"",
+        "explanation": "Around 2012-2014 many companies tried to switch fully to NoSQL and many regretted it (data inconsistency, painful joins done in application code, no transactions). Today the consensus is \"polyglot persistence\" — pick the right tool for each piece of data. Companies like Amazon, Uber, and Airbnb run massive PostgreSQL and MySQL clusters in production."
+      }
+    ],
+    "summary": [
+      "A database is an organized collection of data. A DBMS is the software (like MySQL or PostgreSQL) that manages a database.",
+      "SQL stands for Structured Query Language. It is the standard language for talking to relational databases and has dominated for over 50 years.",
+      "Data in a relational database is stored in tables made of rows (records) and columns (fields). Each row should have a unique primary key.",
+      "Popular databases: MySQL (free, web), PostgreSQL (free, modern), SQLite (mobile/embedded), SQL Server (Microsoft enterprise), Oracle (banks/large enterprise).",
+      "SQL was born from Edgar F. Codd's 1970 relational model paper at IBM, formalized as SEQUEL in 1974, and standardized by ANSI in 1986.",
+      "SQL vs NoSQL: SQL for structured data with transactions and joins; NoSQL for flexible documents, key-value caches, or massive horizontal scale.",
+      "The four SQL categories: DDL (CREATE, ALTER, DROP, TRUNCATE) for structure; DML (SELECT, INSERT, UPDATE, DELETE) for data; DCL (GRANT, REVOKE) for permissions; TCL (COMMIT, ROLLBACK, SAVEPOINT) for transactions.",
+      "TRUNCATE is DDL (not DML) because it drops and recreates the table internally, which is faster than DELETE but harder to undo.",
+      "SQL keywords are case-insensitive (SELECT = select), but it is convention to write them in UPPERCASE for readability.",
+      "Every backend, data analyst, and data science job description in 2026 lists SQL as a core skill — it is the most return-on-investment language a college student can learn."
+    ]
+  },
+  "relatedTopics": ["setting-up-mysql-and-first-query", "data-types-and-constraints"],
+  "practice": {
+    "totalQuestions": 56,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "In the following students table, what is a row?<br><pre>id | name         | city      | marks\n1  | Aarav Sharma | Mumbai    | 87\n2  | Priya Iyer   | Bengaluru | 92</pre>",
+        "hint": "A row is a horizontal entry — one complete record.",
+        "answer": "A row is one complete record. For example, <code>(1, 'Aarav Sharma', 'Mumbai', 87)</code> is a single row representing one student.",
+        "explanation": "In a table, each <strong>row</strong> (also called a record or tuple) holds the data for one entity — here, one student. Each <strong>column</strong> holds one type of attribute about all entities. The table above has 2 rows and 4 columns."
+      },
+      {
+        "id": "ts-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does SQL stand for?",
+        "hint": "Three words. The middle one starts with Q.",
+        "answer": "<code>Structured Query Language</code>",
+        "explanation": "SQL stands for <strong>Structured Query Language</strong>. It was originally called SEQUEL (Structured English Query Language) when invented at IBM in 1974, and the name was shortened to SQL due to a trademark conflict."
+      },
+      {
+        "id": "ts-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Who proposed the relational model that SQL is built on, and in what year?",
+        "hint": "An IBM researcher in the early 1970s.",
+        "answer": "<strong>Edgar F. Codd</strong> proposed the relational model in <strong>1970</strong> through his paper <em>\"A Relational Model of Data for Large Shared Data Banks\"</em> at IBM.",
+        "explanation": "Codd's paper is the foundation of every modern relational database. He later won the Turing Award in 1981 for this work. SEQUEL/SQL was designed at IBM by Chamberlin and Boyce in 1974 to implement Codd's ideas."
+      },
+      {
+        "id": "ts-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Name any four popular relational database management systems.",
+        "hint": "Two are free, two are commercial.",
+        "answer": "Common answers: <code>MySQL</code>, <code>PostgreSQL</code>, <code>SQLite</code>, <code>Microsoft SQL Server</code>, <code>Oracle Database</code>.",
+        "explanation": "MySQL and PostgreSQL are free and open source. SQLite is free and embedded inside apps (every Android phone has SQLite). SQL Server is Microsoft's enterprise database. Oracle is widely used by banks and large corporations."
+      },
+      {
+        "id": "ts-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Which DBMS would you typically use inside a small mobile app, and why?",
+        "hint": "It needs to be embedded, file-based, and zero-configuration.",
+        "answer": "<code>SQLite</code>. It is a tiny, file-based, zero-configuration database that ships embedded in the app itself — no separate server needed.",
+        "explanation": "SQLite stores the entire database in a single file on the device. It powers WhatsApp's chat history, Android contacts, iOS notes, and most mobile apps. It is the most-installed database in the world (every smartphone has it)."
+      },
+      {
+        "id": "ts-6",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Classify each command into DDL, DML, DCL, or TCL: <code>CREATE</code>, <code>INSERT</code>, <code>GRANT</code>, <code>COMMIT</code>.",
+        "hint": "Structure, data, permissions, transactions.",
+        "answer": "<code>CREATE</code> = <strong>DDL</strong>, <code>INSERT</code> = <strong>DML</strong>, <code>GRANT</code> = <strong>DCL</strong>, <code>COMMIT</code> = <strong>TCL</strong>.",
+        "explanation": "Memory aid: DDL changes structure (CREATE/ALTER/DROP), DML changes data (SELECT/INSERT/UPDATE/DELETE), DCL changes permissions (GRANT/REVOKE), TCL changes transaction state (COMMIT/ROLLBACK/SAVEPOINT)."
+      },
+      {
+        "id": "ts-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Is <code>TRUNCATE</code> a DDL or DML command? Justify your answer.",
+        "hint": "Think about how it works under the hood, not just what it does to data.",
+        "answer": "<code>TRUNCATE</code> is a <strong>DDL</strong> command. Even though it removes data, internally it drops and recreates the table — a structural operation. This is also why it is faster than DELETE and (in most databases) cannot be rolled back.",
+        "explanation": "DELETE works row by row through the transaction log, which is why it can be rolled back. TRUNCATE bypasses the row-by-row logging by dropping the table and recreating an empty one with the same schema. Faster, but harder to undo. This is a classic interview trick question."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does DBMS stand for, and how is it different from a database?",
+        "hint": "One is software, the other is the data.",
+        "answer": "<strong>DBMS</strong> stands for <strong>Database Management System</strong>. The DBMS is the software (e.g., MySQL); the database is the actual organized collection of data that the DBMS manages.",
+        "explanation": "Analogy: a library building with shelves is the DBMS. The actual books inside are the database. One MySQL server can host many separate databases (school, hospital, ecommerce) just like one library building holds many sections."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "In the students table, the <code>id</code> column uniquely identifies each student. What is this column called?",
+        "hint": "Two words. Comes up in literally every database.",
+        "answer": "<code>Primary Key</code>",
+        "explanation": "A <strong>primary key</strong> is a column (or combination of columns) whose values uniquely identify each row in the table. Two rows can never have the same primary key value, and the value cannot be NULL. We will define primary keys formally in Chapter 3."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Give one real-world scenario where you would prefer SQL over NoSQL, and one where NoSQL would be better.",
+        "hint": "Think transactions vs flexibility.",
+        "answer": "<strong>SQL preferred:</strong> a banking app — you need ACID transactions so a money transfer is atomic. <strong>NoSQL preferred:</strong> storing user-generated content like Instagram posts where each post can have wildly different fields (text, photo, reel, story), or a real-time leaderboard that needs millisecond reads (Redis).",
+        "explanation": "Choose SQL when consistency and structured relationships matter (banking, orders, billing). Choose NoSQL when schema flexibility, horizontal scale, or specialized data shapes (graphs, time series, key-value cache) matter more than joins and transactions."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between a row and a record? Between a column and a field?",
+        "hint": "These are essentially synonyms.",
+        "answer": "There is no functional difference. <strong>Row = record = tuple</strong> (one entry in a table). <strong>Column = field = attribute</strong> (one type of information). Different textbooks and database vendors prefer different terms.",
+        "explanation": "Academic textbooks usually use \"tuple\" and \"attribute\" (from relational algebra). DBA documentation usually uses \"row\" and \"column\". Application developers often say \"record\" and \"field\". They all refer to the same things. Use whichever your team uses."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why did SQL become an ANSI standard, and why does that matter?",
+        "hint": "Think portability and interoperability.",
+        "answer": "SQL was standardized by ANSI in 1986 (and ISO in 1987) so that queries written for one database would be largely portable to others. This means your knowledge of SQL transfers between MySQL, PostgreSQL, SQL Server, Oracle, and even cloud warehouses like BigQuery and Snowflake.",
+        "explanation": "Without standardization, each vendor would speak its own language and switching databases would require rewriting every query. Today, the ANSI core is universally supported, while each vendor adds its own extensions (e.g., MySQL's <code>LIMIT</code> vs SQL Server's <code>TOP</code>)."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Are SQL keywords like SELECT case-sensitive in MySQL?",
+        "hint": "Try writing select vs SELECT — both work.",
+        "answer": "No. <strong>SQL keywords are case-insensitive.</strong> <code>SELECT</code>, <code>select</code>, and <code>SeLeCt</code> all work the same way. Convention is UPPERCASE for keywords for readability.",
+        "explanation": "However, table and column names CAN be case-sensitive depending on the OS and database. On MySQL on Linux, <code>students</code> and <code>Students</code> may be different tables. Best practice: always use lowercase_with_underscores."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Which SQL category does <code>ROLLBACK</code> belong to?",
+        "hint": "It undoes changes inside a transaction.",
+        "answer": "<strong>TCL</strong> (Transaction Control Language).",
+        "explanation": "<code>ROLLBACK</code> reverts all uncommitted changes since the last <code>COMMIT</code> or <code>SAVEPOINT</code>. The TCL family also includes <code>COMMIT</code> and <code>SAVEPOINT</code>."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Given the employees table:<br><pre>emp_id | name        | salary\n101    | Kavya Nair  | 75000\n102    | Arjun Mehta | 92000</pre>What category does this command belong to: <code>UPDATE employees SET salary = 80000 WHERE emp_id = 101;</code>?",
+        "hint": "It changes data, not structure.",
+        "answer": "<strong>DML</strong> (Data Manipulation Language).",
+        "explanation": "<code>UPDATE</code> modifies existing data in rows. The structure of the employees table is unchanged — only the data inside it changes. DML commands are SELECT, INSERT, UPDATE, DELETE."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "List two real-world scenarios where ACID transactions are critical.",
+        "hint": "Money and inventory.",
+        "answer": "1. <strong>Bank transfer</strong> — debit from sender and credit to receiver must both succeed or both fail. 2. <strong>E-commerce checkout</strong> — reducing stock count and creating an order record must happen together.",
+        "explanation": "ACID stands for Atomicity, Consistency, Isolation, Durability. SQL databases provide strong ACID guarantees. NoSQL databases often weaken these for performance, which is why money-related systems almost always use SQL (or a NoSQL DB with strict ACID mode like MongoDB transactions)."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "If TRUNCATE is faster than DELETE, why would you ever use DELETE?",
+        "hint": "Think filtering and rollback.",
+        "answer": "Use <code>DELETE</code> when (1) you only want to remove specific rows that match a WHERE condition, or (2) you want the operation to be transactional and reversible with ROLLBACK. <code>TRUNCATE</code> always wipes the entire table.",
+        "explanation": "TRUNCATE is faster but a sledgehammer — it cannot be filtered, it resets AUTO_INCREMENT, and cannot easily be rolled back. DELETE is slower but precise (you can target individual rows) and fully transactional."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "If a friend says \"NoSQL is faster than SQL, so we should use NoSQL for our banking startup\", how would you respond?",
+        "hint": "Speed alone is not the only criterion.",
+        "answer": "Pure speed is irrelevant if you lose money. Banking needs strict ACID guarantees so transfers are atomic and balances are always consistent — historically a SQL strength. NoSQL is faster for some workloads (key-value reads) but typically sacrifices consistency. Use PostgreSQL or MySQL for the core ledger; you can use Redis (NoSQL) on top for caching read-only data like user profiles.",
+        "explanation": "This is a real architectural conversation. Most fintechs (Razorpay, PhonePe, Stripe) run their core ledger on PostgreSQL precisely because SQL's ACID guarantees prevent the kinds of bugs that lose customer money. NoSQL is added later for scale-out caches, search, and analytics."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is the relational model called \"relational\" — what is being related to what?",
+        "hint": "It is not just about relationships between tables.",
+        "answer": "The word <em>relation</em> in mathematics means a set of tuples with the same set of attributes — which is exactly what a table is. So a single table IS a \"relation\". The name \"relational\" refers to this mathematical structure, not (only) to relationships between tables.",
+        "explanation": "Common misconception: students think \"relational\" means \"tables related via foreign keys\". The mathematical truth is that each table itself is a relation (a relation between values across columns). Relationships between tables are an additional feature built on top of that foundation."
+      },
+      {
+        "id": "ts-20",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does SEQUEL stand for, and why was it renamed to SQL?",
+        "hint": "The full form has the word English in it.",
+        "answer": "<strong>SEQUEL</strong> = <strong>Structured English Query Language</strong>. It was renamed to SQL because the name SEQUEL was already trademarked by a UK aircraft company (Hawker Siddeley).",
+        "explanation": "Many developers still pronounce SQL as \"sequel\" because of this history. Both pronunciations (\"S-Q-L\" and \"sequel\") are accepted in industry. In the U.S., \"sequel\" is more common; in the U.K., \"S-Q-L\" is more common."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Match each command to its category: <code>SELECT</code>, <code>ALTER</code>, <code>REVOKE</code>, <code>SAVEPOINT</code>.",
+        "hint": "DDL, DML, DCL, TCL.",
+        "answer": "<code>SELECT</code> = <strong>DML</strong>, <code>ALTER</code> = <strong>DDL</strong>, <code>REVOKE</code> = <strong>DCL</strong>, <code>SAVEPOINT</code> = <strong>TCL</strong>.",
+        "explanation": "SELECT reads data (DML, sometimes called DQL). ALTER changes structure (DDL). REVOKE removes permissions (DCL). SAVEPOINT marks a position to roll back to within a transaction (TCL)."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Given this table, how many rows and how many columns does it have?<br><pre>order_id | customer  | amount\n5001     | Diya      | 1200\n5002     | Vikram    | 850\n5003     | Sneha     | 2400</pre>",
+        "hint": "Rows = records, columns = field types.",
+        "answer": "3 rows and 3 columns.",
+        "explanation": "The header row is not counted as a data row — it just labels the columns. So we have 3 data rows (order 5001, 5002, 5003) and 3 columns (order_id, customer, amount)."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Your team needs a database for a small WordPress blog. Which DBMS would you pick and why?",
+        "hint": "WordPress has a default supported database.",
+        "answer": "<strong>MySQL</strong> (or its drop-in fork MariaDB). It is the officially supported database for WordPress, free, well-documented, easy to host on shared hosting, and the WordPress installer expects it by default.",
+        "explanation": "PostgreSQL is technically more powerful but WordPress's plugins and themes assume MySQL. Sticking with the recommended stack avoids unnecessary friction."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "True or False: A NoSQL database cannot have rows and columns.",
+        "hint": "Cassandra is a wide-column NoSQL database.",
+        "answer": "<strong>False.</strong> Some NoSQL databases (Cassandra, HBase) do use a row-and-column model, just with a more flexible schema. NoSQL only means \"not exclusively SQL\" — it is a broad category that includes documents (MongoDB), key-value (Redis), wide columns (Cassandra), and graphs (Neo4j).",
+        "explanation": "The term NoSQL is misleading. It really means \"non-relational\" or \"not only SQL\". Cassandra has tables, rows, and columns but adds flexibility per row. Calling all NoSQL databases \"document databases\" is a common student mistake."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Looking at the four SQL categories, which one would you rarely write as an application developer (vs as a DBA)?",
+        "hint": "Think about who controls user accounts.",
+        "answer": "<strong>DCL</strong> (GRANT/REVOKE). Application developers write SELECT/INSERT/UPDATE/DELETE constantly, occasionally write CREATE/ALTER, and use COMMIT/ROLLBACK in code. But GRANT/REVOKE is mostly handled by DBAs or DevOps during initial database setup.",
+        "explanation": "In modern DevOps, permissions are often managed declaratively through tools like Terraform or Liquibase rather than written by hand. As an app developer you focus on DML (your daily bread and butter), occasionally DDL when adding migrations, and TCL when dealing with multi-step transactions."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is SQL still relevant for data scientists in 2026 even though they mostly use Python and pandas?",
+        "hint": "Where does the data come from before it reaches Python?",
+        "answer": "Almost all enterprise data lives in SQL databases or SQL-compatible warehouses (Snowflake, BigQuery, Redshift). Data scientists use SQL to extract, filter, and aggregate the data <em>before</em> bringing a smaller subset into Python for modeling. SQL aggregation on the database is far faster than pulling millions of rows into pandas.",
+        "explanation": "Typical workflow: write a SQL query that joins, filters, and aggregates 100M rows down to 50K, then load that into a pandas DataFrame and apply scikit-learn. Trying to do step one in pandas would be slow or impossible because of memory limits."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Imagine your manager says \"let's use Excel as our customer database — we have only 50,000 customers\". Give three reasons against this.",
+        "hint": "Concurrency, integrity, scale.",
+        "answer": "1. <strong>Concurrency:</strong> only one person can edit at a time without conflicts. 2. <strong>Data integrity:</strong> nothing prevents typos like \"Mumbi\" vs \"Mumbai\" or duplicate customer entries — no constraints. 3. <strong>Scale and performance:</strong> Excel slows dramatically beyond ~100K rows; SQL handles tens of millions easily. Plus, Excel has no transactions — if your laptop crashes mid-edit, you may lose data.",
+        "explanation": "Excel is fine for small, single-user, throwaway analysis. The moment you have multiple users, growing data, or a need for queries like \"give me all customers in Mumbai who ordered more than 5000 in the last month\", you need a real database."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "True or False: Every SELECT statement is a DML command, but not every DML command is a SELECT.",
+        "hint": "DML = Data Manipulation Language.",
+        "answer": "<strong>True.</strong> SELECT, INSERT, UPDATE, and DELETE are all DML. Some textbooks separate SELECT into a fifth category called DQL (Data Query Language), but in most college syllabi and interviews SELECT is grouped under DML.",
+        "explanation": "Whether SELECT is DML or DQL is a textbook-by-textbook debate. The pragmatic rule: if the question asks for four categories, put SELECT in DML. If the question asks for five, separate it as DQL."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "If both MySQL and PostgreSQL are free and open source, why might a startup choose PostgreSQL over MySQL?",
+        "hint": "Think advanced features and SQL standards compliance.",
+        "answer": "PostgreSQL is more SQL-standard compliant, supports richer data types (JSON, arrays, full-text search built in), has more powerful window functions, better support for advanced indexing (GIN, GIST, BRIN), and stronger ACID guarantees by default. Many modern startups (Stripe, Instagram in early days, Heroku) chose PostgreSQL for these reasons.",
+        "explanation": "MySQL is simpler, has wider hosting support, and is faster for read-heavy web workloads. PostgreSQL has deeper features for analytics, complex queries, and modern data types. Both are excellent — the choice often comes down to team familiarity."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What are the three things a DBMS does that you would otherwise have to handle yourself?",
+        "hint": "Storage, multi-user, recovery.",
+        "answer": "1. <strong>Persistent storage</strong> — efficiently organizing data on disk so it survives restarts. 2. <strong>Concurrency control</strong> — letting many users read/write simultaneously without corruption. 3. <strong>Crash recovery</strong> — restoring the database to a consistent state after a power failure or crash. Bonus: indexing, query optimization, security, and backups.",
+        "explanation": "If you stored data in a plain text file, you would have to write all this logic yourself. The DBMS gives you decades of engineering for free. That is why we pay (or use free DBMSes) instead of writing data layers from scratch."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "If a database table has 1 million rows, can you think of why a SELECT * FROM table; might be a bad idea?",
+        "hint": "Network, memory, and human readability.",
+        "answer": "Three reasons: (1) it transfers all 1M rows over the network, which is slow; (2) it loads them into the client (Workbench, app) which may run out of memory; (3) you almost never <em>need</em> all the data — better to filter with WHERE and pick only the columns you need.",
+        "explanation": "<code>SELECT *</code> is fine for a 5-row test table but is considered bad practice in production code. Always specify the exact columns and use WHERE/LIMIT to reduce data movement. Junior developers losing performance reviews over this is a recurring story."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does TRUNCATE reset the AUTO_INCREMENT counter but DELETE does not?",
+        "hint": "Recall how TRUNCATE works internally.",
+        "answer": "Because TRUNCATE drops the table and recreates it as an empty new table — and a new table starts AUTO_INCREMENT from 1. DELETE just removes rows without touching the table metadata, so the next inserted row continues from the previous AUTO_INCREMENT value.",
+        "explanation": "Practical implication: if you have inserted 50 rows and then DELETE all of them, the next insert will get id = 51. If you TRUNCATE instead, the next insert will get id = 1. This matters when the IDs are exposed to users (you don't want gaps or sudden resets)."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does SQL stand for?",
+        "options": {
+          "A": "Structured Question Language",
+          "B": "Structured Query Language",
+          "C": "Simple Query Language",
+          "D": "System Query Language"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> SQL stands for Structured Query Language. It evolved from SEQUEL (Structured English Query Language), invented at IBM in 1974."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Who is credited with proposing the relational database model?",
+        "options": {
+          "A": "Tim Berners-Lee",
+          "B": "Edgar F. Codd",
+          "C": "Linus Torvalds",
+          "D": "James Gosling"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Edgar F. Codd, an IBM researcher, proposed the relational model in his 1970 paper. He won the Turing Award in 1981 for this work."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which of the following is a DDL command?",
+        "options": {
+          "A": "SELECT",
+          "B": "INSERT",
+          "C": "CREATE",
+          "D": "GRANT"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> CREATE defines structure (table, view, index), so it is DDL. SELECT and INSERT are DML. GRANT is DCL."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which of the following is NOT a relational database?",
+        "options": {
+          "A": "MySQL",
+          "B": "PostgreSQL",
+          "C": "MongoDB",
+          "D": "Oracle"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> MongoDB is a NoSQL document database. The other three (MySQL, PostgreSQL, Oracle) are relational/SQL databases."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which command is used to permanently save a transaction?",
+        "options": {
+          "A": "SAVE",
+          "B": "COMMIT",
+          "C": "ROLLBACK",
+          "D": "STORE"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> COMMIT permanently saves all changes made in the current transaction. ROLLBACK does the opposite — undoes changes since the last COMMIT."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "Which database typically powers mobile apps as an embedded database?",
+        "options": {
+          "A": "Oracle",
+          "B": "PostgreSQL",
+          "C": "SQLite",
+          "D": "MariaDB"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> SQLite is a single-file embedded database that ships inside the app. It powers Android contacts, iOS notes, WhatsApp chat history, and most mobile applications."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Easy",
+        "question": "Which row in this table represents Priya?<br><pre>id | name         | city\n1  | Aarav        | Mumbai\n2  | Priya        | Bengaluru\n3  | Rohan        | Delhi</pre>",
+        "options": {
+          "A": "Row 1",
+          "B": "Row 2",
+          "C": "Row 3",
+          "D": "All rows"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Priya appears in the second data row, with id = 2 and city = Bengaluru."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which command is used to remove all rows from a table without removing the table itself, in the fastest way?",
+        "options": {
+          "A": "DROP TABLE",
+          "B": "DELETE FROM",
+          "C": "TRUNCATE TABLE",
+          "D": "REMOVE TABLE"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> TRUNCATE TABLE removes all rows and is faster than DELETE because it drops and recreates the table internally. DROP TABLE removes the table itself. There is no REMOVE TABLE in SQL."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "TRUNCATE is classified as which category of SQL command?",
+        "options": {
+          "A": "DML",
+          "B": "DDL",
+          "C": "DCL",
+          "D": "TCL"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Despite removing data, TRUNCATE is DDL because it works by dropping and recreating the table internally — a structural change. This is a popular interview trick question."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which of the following commands is used to remove a permission from a user?",
+        "options": {
+          "A": "DROP",
+          "B": "REVOKE",
+          "C": "DELETE",
+          "D": "REMOVE"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> REVOKE is the DCL command that removes a previously granted permission. GRANT does the opposite."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which year was Codd's paper on the relational model published?",
+        "options": {
+          "A": "1965",
+          "B": "1970",
+          "C": "1979",
+          "D": "1986"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> Codd's paper \"A Relational Model of Data for Large Shared Data Banks\" was published in 1970. The first commercial SQL database (Oracle) shipped in 1979, and ANSI standardized SQL in 1986."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What does ACID stand for in database transactions?",
+        "options": {
+          "A": "Atomicity, Consistency, Isolation, Durability",
+          "B": "Access, Control, Integrity, Data",
+          "C": "Atomicity, Concurrency, Integrity, Durability",
+          "D": "Authentication, Concurrency, Indexing, Data"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> ACID = Atomicity (all or nothing), Consistency (valid state to valid state), Isolation (concurrent transactions don't see each other's intermediate state), Durability (committed data survives crashes)."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which of the following is the BEST description of a primary key?",
+        "options": {
+          "A": "The first column in a table",
+          "B": "A column whose values uniquely identify each row and cannot be NULL",
+          "C": "Any column with the keyword KEY",
+          "D": "A column that links two tables"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> A primary key is a column (or combination of columns) whose values uniquely identify each row. It cannot be NULL and cannot have duplicates. Option D describes a foreign key."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Medium",
+        "question": "Which is FALSE about SQL?",
+        "options": {
+          "A": "SQL keywords are case-insensitive",
+          "B": "SQL is the standard language for relational databases",
+          "C": "SQL was first standardized by ANSI in 1986",
+          "D": "SQL only works with MySQL"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is FALSE and therefore the correct answer.</strong> SQL works with virtually every relational database — MySQL, PostgreSQL, SQL Server, Oracle, SQLite, and even cloud warehouses like BigQuery and Snowflake."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "You execute these statements:<br><pre>START TRANSACTION;\nINSERT INTO orders VALUES (1, 'Aarav', 500);\nINSERT INTO orders VALUES (2, 'Priya', 800);\nROLLBACK;</pre>How many rows will be in orders after this?",
+        "options": {
+          "A": "0",
+          "B": "1",
+          "C": "2",
+          "D": "Depends on AUTO_INCREMENT"
+        },
+        "correct": "A",
+        "explanation": "<strong>A is correct.</strong> ROLLBACK undoes all changes since START TRANSACTION. Both INSERTs are reverted, leaving 0 rows added. (If the table was empty before, it stays empty.)"
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Which of the following would be the WORST choice of database for a banking ledger that requires strict consistency?",
+        "options": {
+          "A": "PostgreSQL",
+          "B": "MySQL with InnoDB engine",
+          "C": "Redis",
+          "D": "Oracle Database"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> Redis is an in-memory key-value store designed for caching and ephemeral data, not for ACID transactions. PostgreSQL, MySQL (InnoDB), and Oracle are all strong choices for a banking ledger."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which SQL category does the SAVEPOINT command belong to?",
+        "options": {
+          "A": "DDL",
+          "B": "DML",
+          "C": "DCL",
+          "D": "TCL"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> SAVEPOINT belongs to TCL (Transaction Control Language). It marks a point inside a transaction that you can roll back to without rolling back the entire transaction."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "Which statement about DELETE vs TRUNCATE is TRUE?",
+        "options": {
+          "A": "Both can have a WHERE clause",
+          "B": "TRUNCATE resets AUTO_INCREMENT, DELETE does not",
+          "C": "DELETE is faster than TRUNCATE",
+          "D": "TRUNCATE is DML, DELETE is DDL"
+        },
+        "correct": "B",
+        "explanation": "<strong>B is correct.</strong> TRUNCATE drops and recreates the table, which resets AUTO_INCREMENT to 1. DELETE only removes rows; the AUTO_INCREMENT counter keeps its current value. Option A is wrong (TRUNCATE has no WHERE), C is reversed, D is reversed."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "A startup needs a free database with strong support for JSON, arrays, and advanced indexing. Best choice?",
+        "options": {
+          "A": "MySQL",
+          "B": "Oracle",
+          "C": "PostgreSQL",
+          "D": "SQLite"
+        },
+        "correct": "C",
+        "explanation": "<strong>C is correct.</strong> PostgreSQL has best-in-class support for JSON/JSONB, native arrays, GIN/GIST indexing, and is free. MySQL has JSON support but PostgreSQL is generally considered stronger for these features. Oracle is paid. SQLite is too lightweight for serious production use."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "Match the correct pairs: 1) DDL — CREATE, 2) DML — UPDATE, 3) DCL — REVOKE, 4) TCL — ROLLBACK. Which option correctly describes them all?",
+        "options": {
+          "A": "Only 1 and 2 are correct",
+          "B": "Only 3 and 4 are correct",
+          "C": "1, 2, 3 are correct, 4 is wrong",
+          "D": "All four pairs are correct"
+        },
+        "correct": "D",
+        "explanation": "<strong>D is correct.</strong> CREATE = DDL (structure), UPDATE = DML (data), REVOKE = DCL (permissions), ROLLBACK = TCL (transactions). All four pairs are correctly matched."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Identify the Category",
+        "difficulty": "Easy",
+        "description": "For each of these commands, write a one-line comment above stating its category (DDL, DML, DCL, or TCL): CREATE, SELECT, GRANT, COMMIT, DROP, UPDATE, REVOKE, ROLLBACK, ALTER, DELETE.",
+        "sampleInput": "(No input — write annotated SQL)",
+        "sampleOutput": "Each command labeled with its category in a comment.",
+        "constraints": "Use single-line SQL comments (-- ).",
+        "solution": "-- DDL\nCREATE TABLE t (id INT);\n-- DML\nSELECT * FROM t;\n-- DCL\nGRANT SELECT ON t TO 'user'@'localhost';\n-- TCL\nCOMMIT;\n-- DDL\nDROP TABLE t;\n-- DML\nUPDATE t SET id = 1;\n-- DCL\nREVOKE SELECT ON t FROM 'user'@'localhost';\n-- TCL\nROLLBACK;\n-- DDL\nALTER TABLE t ADD COLUMN name VARCHAR(50);\n-- DML\nDELETE FROM t;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Describe a Sample Table",
+        "difficulty": "Easy",
+        "description": "Imagine a table called employees with these columns: emp_id, name, department, salary, joining_date. List how many columns it has, suggest which column should be the primary key, and explain why.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "5 columns. Primary key: emp_id. Reason: ...",
+        "constraints": "Write your answer as inline comments inside an SQL block.",
+        "solution": "-- The employees table has 5 columns:\n-- emp_id, name, department, salary, joining_date.\n--\n-- Suggested primary key: emp_id\n-- Reason: emp_id is unique for each employee, never NULL,\n-- and never changes. Names can repeat (two Aaravs),\n-- joining_date can repeat (many people joined on Jan 1),\n-- so they are not safe primary keys.\n\nCREATE TABLE employees (\n    emp_id INT PRIMARY KEY,\n    name VARCHAR(50),\n    department VARCHAR(30),\n    salary DECIMAL(10,2),\n    joining_date DATE\n);"
+      },
+      {
+        "id": "cc-3",
+        "title": "Predict the Output of a Mini Transaction",
+        "difficulty": "Medium",
+        "description": "Given an empty employees table, predict the final number of rows after this sequence: START TRANSACTION; INSERT 3 rows; SAVEPOINT sp1; INSERT 2 more rows; ROLLBACK TO sp1; COMMIT;",
+        "sampleInput": "(No input)",
+        "sampleOutput": "Final row count: 3",
+        "constraints": "Explain step by step.",
+        "solution": "-- Step 1: START TRANSACTION (table is empty)\n-- Step 2: INSERT 3 rows -> 3 rows in transaction buffer\n-- Step 3: SAVEPOINT sp1 -> marker at 3 rows\n-- Step 4: INSERT 2 rows -> 5 rows in buffer\n-- Step 5: ROLLBACK TO sp1 -> back to 3 rows (the 2 are undone)\n-- Step 6: COMMIT -> the 3 rows are saved permanently.\n--\n-- Final row count: 3\n\nSTART TRANSACTION;\nINSERT INTO employees VALUES (1, 'Aarav', 'IT', 60000, '2024-01-15');\nINSERT INTO employees VALUES (2, 'Priya', 'HR', 55000, '2024-02-10');\nINSERT INTO employees VALUES (3, 'Rohan', 'Sales', 48000, '2024-03-01');\nSAVEPOINT sp1;\nINSERT INTO employees VALUES (4, 'Ananya', 'IT', 72000, '2024-04-12');\nINSERT INTO employees VALUES (5, 'Vikram', 'Marketing', 51000, '2024-05-20');\nROLLBACK TO sp1;\nCOMMIT;\n\nSELECT COUNT(*) FROM employees;\n-- Output: 3"
+      },
+      {
+        "id": "cc-4",
+        "title": "Pick the Right Database",
+        "difficulty": "Medium",
+        "description": "For each scenario, recommend a database (MySQL, PostgreSQL, SQLite, Redis, or MongoDB) and justify in one sentence: (a) Android Notes app, (b) Bank ledger, (c) Real-time chat session cache, (d) JSON-heavy product catalog with nested attributes, (e) WordPress blog.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "Each scenario gets one recommended DB plus a short reason.",
+        "constraints": "Write each as an SQL comment.",
+        "solution": "-- (a) Android Notes app -> SQLite\n--     Embedded, single file per device, zero configuration.\n--\n-- (b) Bank ledger -> PostgreSQL (or Oracle / MySQL InnoDB)\n--     Strong ACID guarantees needed for money transfers.\n--\n-- (c) Real-time chat session cache -> Redis\n--     In-memory key-value, microsecond reads, perfect for ephemeral sessions.\n--\n-- (d) JSON-heavy product catalog -> MongoDB (or PostgreSQL with JSONB)\n--     Flexible schema for nested product attributes that vary per category.\n--\n-- (e) WordPress blog -> MySQL\n--     Officially supported, free, every shared host runs it."
+      },
+      {
+        "id": "cc-5",
+        "title": "Build a Mental Model: Library System",
+        "difficulty": "Hard",
+        "description": "Design the names of three tables and 3-4 columns each for a college library system. Identify the primary key in each. Explain in 1-2 lines how the tables relate.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "Three tables defined with columns and primary keys, plus relationship description.",
+        "constraints": "Use SQL comments to explain. Do not write actual queries — just the design.",
+        "solution": "-- Three tables for a college library system:\n--\n-- 1) books\n--    book_id (PK)  | title          | author        | total_copies\n--    101           | Let Us C       | Yashwant K.   | 5\n--    102           | DBMS Concepts  | Korth         | 3\n--\n-- 2) students\n--    student_id (PK) | name          | course | year\n--    2401            | Aarav Sharma  | BTech  | 2\n--    2402            | Priya Iyer    | BTech  | 3\n--\n-- 3) borrowings\n--    borrow_id (PK) | student_id (FK) | book_id (FK) | borrow_date | return_date\n--    1              | 2401            | 101          | 2026-04-01  | NULL\n--    2              | 2402            | 102          | 2026-04-05  | 2026-04-15\n--\n-- Relationship: borrowings is a junction table linking students and books.\n-- A student can borrow many books over time, and a book can be borrowed\n-- by many students -> many-to-many, resolved through borrowings."
+      },
+      {
+        "id": "cc-6",
+        "title": "Spot the Wrong Statements",
+        "difficulty": "Hard",
+        "description": "Identify which of these statements about SQL/databases are FALSE and correct each one: (1) SQL keywords are case-sensitive. (2) MongoDB uses SQL. (3) TRUNCATE is DDL. (4) Oracle was the first commercial SQL database. (5) Primary key values can be NULL.",
+        "sampleInput": "(No input)",
+        "sampleOutput": "List of corrected statements with explanations.",
+        "constraints": "Write the answer as SQL comments.",
+        "solution": "-- (1) FALSE. SQL keywords are NOT case-sensitive.\n--     SELECT, select, and SeLeCt all work the same.\n--\n-- (2) FALSE. MongoDB is a NoSQL document database.\n--     It uses its own query language (BSON-based), not SQL.\n--\n-- (3) TRUE. TRUNCATE is DDL because it drops and recreates the table\n--     internally — a structural change.\n--\n-- (4) TRUE. Oracle (1979) was the first commercial SQL database,\n--     beating IBM's own System R to market.\n--\n-- (5) FALSE. Primary key values can NEVER be NULL.\n--     They must be unique and non-null for every row.\n--\n-- Final score: statements 3 and 4 are TRUE, the rest are FALSE."
+      }
+    ]
+  }
+}

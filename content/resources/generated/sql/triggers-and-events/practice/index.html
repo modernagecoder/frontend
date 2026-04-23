@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Triggers and Scheduled Events | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="57+ practice questions on Triggers and Scheduled Events in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="triggers and scheduled events practice, sql questions, sql practice problems, triggers and scheduled events exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/triggers-and-events/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/triggers-and-events/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/triggers-and-events/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/triggers-and-events/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/triggers-and-events/practice">
+    <meta property="og:title" content="Practice Questions - Triggers and Scheduled Events | SQL | Modern Age Coders">
+    <meta property="og:description" content="57+ practice questions on Triggers and Scheduled Events in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/triggers-and-events/practice">
+    <meta name="twitter:title" content="Practice Questions - Triggers and Scheduled Events | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="57+ practice questions on Triggers and Scheduled Events in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Triggers and Scheduled Events",
+    "description": "57+ practice questions on Triggers and Scheduled Events in SQL.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Triggers and Scheduled Events"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/triggers-and-events/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Triggers and Scheduled Events",
+        "item": "https://learn.modernagecoders.com/resources/sql/triggers-and-events"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/triggers-and-events/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/triggers-and-events">Triggers and Scheduled Events</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">57 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Triggers and Scheduled Events</h1>
+            <a href="/resources/sql/triggers-and-events" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between BEFORE and AFTER triggers?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Think about when the row is written.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">BEFORE fires before the row is written to disk, allowing you to inspect and modify NEW. AFTER fires once the row has been written — NEW is read-only. Use BEFORE for validation and defaulting; AFTER for logging and cascading changes to other tables.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which pseudo-records are available in a BEFORE UPDATE trigger?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Think previous row vs new row.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">Both <code>OLD</code> (the current row about to be changed) and <code>NEW</code> (the row after the UPDATE is applied). In a BEFORE trigger, NEW is writable, so you can alter the outgoing row.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Given this trigger, what does <code>SELECT email FROM users;</code> return after <code>INSERT INTO users(email) VALUES ('  Aarav@Mail.COM ');</code>?<pre><code>CREATE TRIGGER clean BEFORE INSERT ON users
+FOR EACH ROW SET NEW.email = LOWER(TRIM(NEW.email));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">The trigger normalises the email.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>aarav@mail.com</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Can a DELETE trigger access NEW?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Think about whether a deleted row has a new version.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">No. DELETE triggers only have OLD. There is no NEW row because the row is being removed, not replaced. Trying to read NEW in a DELETE trigger is a syntax error.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is a scheduled event in MySQL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Compare with triggers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">A named, time-based task stored inside the database. It runs on the event-scheduler thread, not in response to any row change. Used for daily cleanup, archival, hourly cache refresh, and similar chores.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What enables the event scheduler?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">One setting.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>SET GLOBAL event_scheduler = ON;</code> or permanently via <code>event_scheduler=ON</code> in my.cnf.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">A trigger counts how many times it has fired:<pre><code>CREATE TRIGGER bump
+AFTER INSERT ON orders
+FOR EACH ROW
+UPDATE stats SET n = n + 1 WHERE id = 1;
+
+-- stats.n starts at 0
+INSERT INTO orders(total) VALUES (10),(20),(30);
+SELECT n FROM stats WHERE id = 1;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">How many rows does a 3-row INSERT create?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why can MySQL refuse to let a trigger update its own table?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Think infinite recursion.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">Because allowing it would invite infinite recursion: the trigger fires on UPDATE, modifies a row, which fires the trigger again. MySQL's default is to block any trigger that would re-trigger itself, raising ERROR 1442.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When would you prefer a column default (DEFAULT CURRENT_TIMESTAMP) over a BEFORE INSERT trigger?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Think simplicity.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">Always, when a simple default is enough. Column defaults are simpler, well-documented, and faster. Reach for a trigger only when the default depends on other columns or requires conditional logic.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this event do, assuming orders contains rows from 2024 and 2025, and today is 2026-04-16?<pre><code>CREATE EVENT archive_old
+ON SCHEDULE EVERY 1 MONTH
+STARTS '2026-05-01'
+DO
+BEGIN
+    INSERT INTO orders_archive SELECT * FROM orders
+    WHERE created_at < NOW() - INTERVAL 1 YEAR;
+    DELETE FROM orders
+    WHERE created_at < NOW() - INTERVAL 1 YEAR;
+END;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Rows older than 1 year move to archive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">Each month it copies rows older than one year from <code>orders</code> into <code>orders_archive</code> and deletes them from <code>orders</code>. On 2026-05-01 it archives anything from before 2025-05-01.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does SIGNAL SQLSTATE '45000' do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Think user-defined errors.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">Raises a user-defined SQL exception with SQLSTATE 45000 (the reserved class for unhandled user errors). Inside a BEFORE trigger this aborts the triggering INSERT/UPDATE/DELETE and the caller receives error 1644 with the MESSAGE_TEXT you set.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is <code>FOR EACH ROW</code> the only option in MySQL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Compare to Oracle/PostgreSQL statement triggers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">MySQL does not support statement-level triggers — those fire once per statement regardless of rows affected. Every MySQL trigger fires once per affected row. If you need statement-level behaviour, you must emulate it using session variables or call logic from application code.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Two AFTER INSERT triggers exist on the same table. In what order do they fire, and how do you change that order?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about creation order and the FOLLOWS/PRECEDES clauses.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">By default, MySQL fires them in the order they were created. To control the order explicitly, add <code>FOLLOWS other_trigger</code> or <code>PRECEDES other_trigger</code> when creating the second trigger. This writes an explicit ordering into information_schema.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How do triggers behave under row-based vs statement-based replication?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Row-based replicates row changes; statement-based replays the SQL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">Under row-based replication (the recommended setting), trigger side effects on the master are captured as row changes in the binary log and applied on the replica <em>without</em> re-running the trigger. Under statement-based replication, the replica re-executes the original statement, and its triggers fire independently — dangerous if any trigger is non-deterministic.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Your event runs a 2-hour job every hour. What happens?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Think overlap.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">By default MySQL will not queue overlapping invocations — if the previous run is still executing when the next fire time comes, the new invocation is skipped silently. You can confirm by inspecting <code>information_schema.EVENTS.LAST_EXECUTED</code>. In practice, either make the job idempotent, run it less often, or use <code>ON COMPLETION PRESERVE</code> and redesign.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">A junior dev wants to put 'send welcome email' logic in an AFTER INSERT trigger on users. What do you tell them?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Think about transactionality and external side effects.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Don't. Triggers run inside the INSERT transaction. Email is an external side effect — if the trigger succeeds but the transaction later rolls back, you've emailed someone who was never created. The right pattern is to INSERT a row into a <code>notifications_outbox</code> table from the trigger; a separate worker reads the outbox and sends emails. The outbox insert is rolled back if the transaction fails.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How can you inspect the last execution time of an event?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Information schema.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>SELECT EVENT_NAME, LAST_EXECUTED, STATUS FROM information_schema.EVENTS WHERE EVENT_SCHEMA = 'shop';</code>. The column LAST_EXECUTED gives the last fire time (NULL if never executed).</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">If <code>stats.n</code> starts at 0 and<pre><code>CREATE TRIGGER bump AFTER INSERT ON t
+FOR EACH ROW UPDATE stats SET n = n + 1;</code></pre>and we run <code>INSERT INTO t VALUES (1);</code> then <code>INSERT INTO t VALUES (2),(3),(4);</code>, what is n?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">One row + three rows.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">List three INSERT/UPDATE/DELETE trigger events that can have a BEFORE variant.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">All of them can.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">BEFORE INSERT, BEFORE UPDATE, BEFORE DELETE. (Similarly for AFTER.) Six combinations total per table.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this return?<pre><code>CREATE TRIGGER t_trg BEFORE INSERT ON t
+FOR EACH ROW SET NEW.x = NEW.x * 2;
+
+INSERT INTO t(x) VALUES (5);
+SELECT x FROM t;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">The trigger doubles x.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is the transactional outbox pattern better than sending emails directly from an AFTER INSERT trigger?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Think about rollback.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">Triggers run inside the transaction. If the surrounding transaction rolls back after the trigger fired, a direct email has already been sent — you cannot un-email someone. The outbox row, however, is rolled back with the rest of the transaction, keeping data and side effects in lockstep. A separate worker reads committed outbox rows and sends mail.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>SHOW TRIGGERS FROM shop LIKE 'emp%'</code> return?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Filter by table name.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">All triggers in database <code>shop</code> whose table name matches the LIKE pattern 'emp%' — e.g. triggers on <code>employees</code> and <code>employee_salaries</code>. Each row shows Trigger, Event, Table, Statement, Timing (BEFORE/AFTER), Created, and more.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Give one reason to prefer an event over cron and one reason to prefer cron.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Think location and monitoring.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Prefer events when the task is entirely database-internal and simple (nightly DELETE of old rows) — no extra infrastructure. Prefer cron (or Airflow) when you need robust retries, alerting on failure, orchestration across multiple databases, or logs outside the MySQL error log.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">After this DELETE, how many rows in history?<pre><code>CREATE TRIGGER t AFTER DELETE ON orders
+FOR EACH ROW INSERT INTO orders_history VALUES (OLD.id, OLD.total);
+
+-- orders has 5 rows: ids 1..5
+DELETE FROM orders WHERE id > 2;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Rows 3, 4, 5 are deleted.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How do you make an event run exactly once and then disappear?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">AT + ON COMPLETION.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>CREATE EVENT one_off ON SCHEDULE AT '2026-05-01 02:00:00' ON COMPLETION NOT PRESERVE DO ...;</code> AT fires once at the specific time. ON COMPLETION NOT PRESERVE (the default) drops the event after completion. Use ON COMPLETION PRESERVE if you want it to remain in a COMPLETED state for audit.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">You have triggers log_ins (inserted date) and verify_ins (validation). Which should fire first, and how do you enforce it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Validate before logging.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>verify_ins</code> must fire first — you do not want to log rows that will be rejected. Make verify_ins a BEFORE INSERT trigger (it raises SIGNAL on invalid rows) and log_ins an AFTER INSERT trigger. If both must be AFTER INSERT, use the FOLLOWS clause: <code>CREATE TRIGGER log_ins AFTER INSERT ON t FOR EACH ROW FOLLOWS verify_ins ...</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What happens here?<pre><code>CREATE TRIGGER strict_balance BEFORE UPDATE ON accounts
+FOR EACH ROW
+BEGIN
+    IF NEW.balance < 0 THEN
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Negative balance';
+    END IF;
+END;
+
+-- accounts: (101, 500)
+UPDATE accounts SET balance = balance - 600 WHERE id = 101;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">NEW.balance would be -100.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">The UPDATE is rejected with <code>ERROR 1644 (45000): Negative balance</code>. The row remains at 500.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is the default event behaviour NOT to queue missed runs?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about storms.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">If the server was down for 6 hours and the event runs every minute, queuing would fire 360 invocations the moment the server came back — a stampede. MySQL's policy of "skip missed runs and continue from the next scheduled time" is safer: the job runs at the next natural tick.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">A trigger on <code>orders</code> UPDATEs <code>inventory</code>, which has its own trigger that UPDATEs <code>stock_alerts</code>. Is this cascade safe?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Think depth and hidden behaviour.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">It is technically safe (no recursion on the same table) but a maintainability smell. The first developer to read the codebase will see an INSERT into orders and have no idea three tables change as a consequence. Document trigger chains explicitly, or — better — move the cascade into a stored procedure the application calls deliberately.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">ALTER EVENT rebuild_daily DISABLE; — what happens next Monday at the scheduled time?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Disabled events do not fire.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">Nothing. The event remains in the database (visible in SHOW EVENTS with Status = DISABLED) but the scheduler skips it. Re-enable with <code>ALTER EVENT rebuild_daily ENABLE</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Your audit trigger is slow under bulk loads. Name two optimisations.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">Batching and narrow scope.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14">(1) Only log rows that actually changed: <code>IF NEW.col &lt;&gt; OLD.col THEN ... END IF;</code> — no-op UPDATEs produce no audit rows. (2) Push trigger-generated rows into a simple staging table (no indexes), and batch-move them to the main audit table from a nightly event. This trades immediate-visibility for lower write amplification.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Can you have two BEFORE INSERT triggers on the same table?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">Yes, since MySQL 5.7.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15">Yes. Since MySQL 5.7 you can define multiple triggers with the same timing and event. Use <code>FOLLOWS</code> or <code>PRECEDES</code> to control the order in which they fire. Pre-5.7 only one trigger per timing+event was allowed.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the correct syntax prefix to begin a trigger definition?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> MAKE TRIGGER ...</li><li><span class="mcq-option-label">B.</span> CREATE TRIGGER trigger_name BEFORE/AFTER event ON table</li><li><span class="mcq-option-label">C.</span> DEFINE TRIGGER trigger_name</li><li><span class="mcq-option-label">D.</span> ADD TRIGGER ...</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The full syntax is <code>CREATE TRIGGER name { BEFORE | AFTER } { INSERT | UPDATE | DELETE } ON table FOR EACH ROW body</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which references are available in a BEFORE UPDATE trigger?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only NEW</li><li><span class="mcq-option-label">B.</span> Only OLD</li><li><span class="mcq-option-label">C.</span> Both OLD and NEW</li><li><span class="mcq-option-label">D.</span> Neither</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> UPDATE triggers see both: OLD is the pre-update row, NEW is the post-update row (writable only in BEFORE).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which reference exists in a DELETE trigger?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NEW</li><li><span class="mcq-option-label">B.</span> OLD</li><li><span class="mcq-option-label">C.</span> Both</li><li><span class="mcq-option-label">D.</span> Neither</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> DELETE has only OLD; there is no new version of a deleted row.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is event_scheduler?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A MySQL thread that runs scheduled events</li><li><span class="mcq-option-label">B.</span> A stored procedure</li><li><span class="mcq-option-label">C.</span> A table</li><li><span class="mcq-option-label">D.</span> An index type</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: A</strong><br><strong>A is correct.</strong> It is the background thread that wakes up and executes events at their scheduled times. Must be ON (SET GLOBAL event_scheduler = ON).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which command lists triggers in the current database?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LIST TRIGGERS</li><li><span class="mcq-option-label">B.</span> SHOW TRIGGERS</li><li><span class="mcq-option-label">C.</span> DESCRIBE TRIGGERS</li><li><span class="mcq-option-label">D.</span> INFO TRIGGERS</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>SHOW TRIGGERS</code> returns name, event, table, timing, and body for each trigger. Optional LIKE filters by table name.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">You want a trigger that rejects negative salaries. Which timing and event?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> AFTER INSERT</li><li><span class="mcq-option-label">B.</span> BEFORE INSERT and BEFORE UPDATE (both) with SIGNAL</li><li><span class="mcq-option-label">C.</span> AFTER DELETE</li><li><span class="mcq-option-label">D.</span> INSTEAD OF INSERT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> You must block both INSERTs and UPDATEs that would violate the rule. BEFORE lets SIGNAL abort the statement cleanly. MySQL has no INSTEAD OF triggers.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">How many times does a trigger fire for <code>UPDATE employees SET salary = salary * 1.1</code> on a 1000-row table?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Once</li><li><span class="mcq-option-label">B.</span> Twice</li><li><span class="mcq-option-label">C.</span> 1000 times — FOR EACH ROW</li><li><span class="mcq-option-label">D.</span> Depends on the index</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> MySQL triggers are row-level. 1000 rows updated = 1000 trigger invocations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does SIGNAL SQLSTATE '45000' do in a BEFORE trigger?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Logs a warning only</li><li><span class="mcq-option-label">B.</span> Commits the transaction</li><li><span class="mcq-option-label">C.</span> Raises a user-defined error and aborts the triggering statement</li><li><span class="mcq-option-label">D.</span> Replicates the error to all servers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> SQLSTATE 45000 is the reserved class for user-defined unhandled exceptions. The UPDATE/INSERT/DELETE is aborted and the caller receives error 1644.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which statement about AFTER triggers is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They can modify NEW</li><li><span class="mcq-option-label">B.</span> They see NEW as read-only; the row is already written</li><li><span class="mcq-option-label">C.</span> They fire before any constraint check</li><li><span class="mcq-option-label">D.</span> They can roll back their own changes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> After the row is written, NEW is immutable. Constraints are checked before AFTER triggers fire.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which command drops a trigger safely?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DROP TRIGGER name</li><li><span class="mcq-option-label">B.</span> DROP TRIGGER IF EXISTS name</li><li><span class="mcq-option-label">C.</span> DELETE TRIGGER name</li><li><span class="mcq-option-label">D.</span> ALTER TRIGGER name DROP</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> IF EXISTS makes migrations idempotent — no error if the trigger was already dropped.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which schedule clause makes an event fire every day at 2 a.m. starting next Monday?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ON SCHEDULE AT &#39;2026-04-20 02:00:00&#39;</li><li><span class="mcq-option-label">B.</span> ON SCHEDULE EVERY 1 DAY STARTS &#39;2026-04-20 02:00:00&#39;</li><li><span class="mcq-option-label">C.</span> ON SCHEDULE DAILY 02:00</li><li><span class="mcq-option-label">D.</span> ON SCHEDULE EVERY HOUR</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>EVERY 1 DAY</code> is the interval; <code>STARTS</code> sets the first fire time.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which clause lets an event remain after it finishes a one-off run?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ON COMPLETION PRESERVE</li><li><span class="mcq-option-label">B.</span> ON COMPLETION DROP</li><li><span class="mcq-option-label">C.</span> ON COMPLETION FREEZE</li><li><span class="mcq-option-label">D.</span> ON COMPLETION KEEP</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: A</strong><br><strong>A is correct.</strong> The default is NOT PRESERVE — the event is dropped once done. PRESERVE keeps it with Status = DISABLED for audit.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">You have two AFTER INSERT triggers on the same table. What determines their firing order?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Alphabetical order of trigger names</li><li><span class="mcq-option-label">B.</span> Definition order, or FOLLOWS/PRECEDES clauses</li><li><span class="mcq-option-label">C.</span> Random</li><li><span class="mcq-option-label">D.</span> Smallest trigger id first</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL 5.7+ uses definition order by default; FOLLOWS/PRECEDES override it for explicit control.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which pattern keeps emails from being sent for rolled-back transactions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sending directly from an AFTER INSERT trigger</li><li><span class="mcq-option-label">B.</span> The transactional outbox pattern (insert into a queue table, send later)</li><li><span class="mcq-option-label">C.</span> Using autocommit</li><li><span class="mcq-option-label">D.</span> Stored functions with MODIFIES SQL DATA</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> The outbox row is part of the transaction; rollback un-queues it. A separate worker emails only committed rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What happens when the event scheduler's run overlaps a previous run?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The new invocation is queued</li><li><span class="mcq-option-label">B.</span> The new invocation is skipped; LAST_EXECUTED is not updated</li><li><span class="mcq-option-label">C.</span> The server crashes</li><li><span class="mcq-option-label">D.</span> MySQL spawns a second worker per event</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL does not run overlapping instances of the same event. Long-running events can fall behind — monitor LAST_EXECUTED.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which is TRUE about triggers under row-based replication?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Triggers re-execute on the replica</li><li><span class="mcq-option-label">B.</span> Row changes (including those made by the trigger) are shipped directly to the replica — triggers do NOT re-execute there</li><li><span class="mcq-option-label">C.</span> Triggers are disabled on replicas</li><li><span class="mcq-option-label">D.</span> Triggers fire twice</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Row-based replication ships the result of the trigger, not the statement. This makes non-deterministic triggers safe on replicas.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the biggest risk of putting heavy business logic in triggers?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Triggers cannot access NEW.* columns</li><li><span class="mcq-option-label">B.</span> Logic becomes invisible to application developers and hard to debug</li><li><span class="mcq-option-label">C.</span> Triggers use more memory than stored procedures</li><li><span class="mcq-option-label">D.</span> Triggers cannot use transactions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> A reader of the application sees INSERT but has no idea the database also fires five triggers and updates four other tables. Name triggers clearly, document them, and push complex flows into named procedures the application calls explicitly.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Audit Every Salary Update</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create an AFTER UPDATE trigger on <code>employees</code> that writes a row to <code>salary_audit(emp_id, old_salary, new_salary, changed_at)</code> only when salary actually changes.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees: (1,&#39;Aarav&#39;,50000)
+UPDATE employees SET salary=55000 WHERE id=1;
+UPDATE employees SET name=&#39;Aarav S&#39; WHERE id=1;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">salary_audit has ONE row (from the first update). The second UPDATE did not change salary, so the trigger did not log it.</div>
+                </div><div class="challenge-constraints">Use IF NEW.salary &lt;&gt; OLD.salary. Use NOW() for changed_at.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">DELIMITER $
+CREATE TRIGGER audit_salary
+AFTER UPDATE ON employees
+FOR EACH ROW
+BEGIN
+    IF NEW.salary &lt;&gt; OLD.salary THEN
+        INSERT INTO salary_audit(emp_id, old_salary, new_salary, changed_at)
+        VALUES (OLD.id, OLD.salary, NEW.salary, NOW());
+    END IF;
+END$
+DELIMITER ;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Normalise Email on Insert</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a BEFORE INSERT trigger on <code>users</code> that lowercases and trims the email before storing it.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">INSERT INTO users(email) VALUES (&#39;  Priya@Mail.COM &#39;);</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">users row has email = &#39;priya@mail.com&#39;.</div>
+                </div><div class="challenge-constraints">Use SET NEW.email = LOWER(TRIM(NEW.email)).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">DELIMITER $
+CREATE TRIGGER normalise_email
+BEFORE INSERT ON users
+FOR EACH ROW
+SET NEW.email = LOWER(TRIM(NEW.email))$
+DELIMITER ;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Reject Negative Prices</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a BEFORE INSERT and BEFORE UPDATE trigger on <code>products</code> that rejects any row with price < 0 using SIGNAL.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">INSERT INTO products(name, price) VALUES (&#39;Pen&#39;, -5);</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">ERROR 1644 (45000): Price cannot be negative</div>
+                </div><div class="challenge-constraints">Use two separate triggers (INSERT and UPDATE) with the same check, or use SIGNAL SQLSTATE &#39;45000&#39;.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">DELIMITER $
+CREATE TRIGGER no_neg_price_ins
+BEFORE INSERT ON products
+FOR EACH ROW
+BEGIN
+    IF NEW.price &lt; 0 THEN
+        SIGNAL SQLSTATE &#39;45000&#39;
+            SET MESSAGE_TEXT = &#39;Price cannot be negative&#39;;
+    END IF;
+END$
+
+CREATE TRIGGER no_neg_price_upd
+BEFORE UPDATE ON products
+FOR EACH ROW
+BEGIN
+    IF NEW.price &lt; 0 THEN
+        SIGNAL SQLSTATE &#39;45000&#39;
+            SET MESSAGE_TEXT = &#39;Price cannot be negative&#39;;
+    END IF;
+END$
+DELIMITER ;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Denormalised Post Count</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write three triggers on <code>posts</code> that keep <code>categories.post_count</code> accurate: AFTER INSERT (increment), AFTER DELETE (decrement), AFTER UPDATE (handle category moves).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">categories: (1,&#39;Tech&#39;,0), (2,&#39;Food&#39;,0)
+INSERT INTO posts(title, category_id) VALUES (&#39;x&#39;,1),(&#39;y&#39;,1),(&#39;z&#39;,2);
+UPDATE posts SET category_id=2 WHERE title=&#39;y&#39;;
+DELETE FROM posts WHERE title=&#39;z&#39;;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">categories: (1,&#39;Tech&#39;,1), (2,&#39;Food&#39;,1)</div>
+                </div><div class="challenge-constraints">All three triggers. On UPDATE, only act when category_id actually changed.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">DELIMITER $
+CREATE TRIGGER posts_inc AFTER INSERT ON posts
+FOR EACH ROW
+UPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id$
+
+CREATE TRIGGER posts_dec AFTER DELETE ON posts
+FOR EACH ROW
+UPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id$
+
+CREATE TRIGGER posts_move AFTER UPDATE ON posts
+FOR EACH ROW
+BEGIN
+    IF NEW.category_id &lt;&gt; OLD.category_id THEN
+        UPDATE categories SET post_count = post_count - 1 WHERE id = OLD.category_id;
+        UPDATE categories SET post_count = post_count + 1 WHERE id = NEW.category_id;
+    END IF;
+END$
+DELIMITER ;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Archive-on-Delete Trigger</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write an AFTER DELETE trigger on <code>customers</code> that copies every deleted row into <code>customers_archive</code> with a <code>deleted_at</code> timestamp.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">customers: (1,&#39;Aarav&#39;,&#39;a@x&#39;), (2,&#39;Priya&#39;,&#39;p@x&#39;)
+DELETE FROM customers WHERE id=1;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">customers_archive: (1,&#39;Aarav&#39;,&#39;a@x&#39;, NOW())</div>
+                </div><div class="challenge-constraints">Use OLD.* in the INSERT. Store NOW() for deleted_at.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">DELIMITER $
+CREATE TRIGGER archive_customer
+AFTER DELETE ON customers
+FOR EACH ROW
+INSERT INTO customers_archive(id, name, email, deleted_at)
+VALUES (OLD.id, OLD.name, OLD.email, NOW())$
+DELIMITER ;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Daily Soft-Delete Cleanup Event</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create an event that runs every day at 03:00 and deletes rows from <code>customers</code> where <code>deleted_at IS NOT NULL</code> and <code>deleted_at &lt; NOW() - INTERVAL 30 DAY</code>.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input — event runs on schedule.)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">After many days, customers soft-deleted more than 30 days ago are physically removed.</div>
+                </div><div class="challenge-constraints">Use ON SCHEDULE EVERY 1 DAY STARTS &#39;...&#39;. Remember SET GLOBAL event_scheduler = ON.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">SET GLOBAL event_scheduler = ON;
+
+CREATE EVENT cleanup_soft_deleted
+ON SCHEDULE EVERY 1 DAY
+STARTS &#39;2026-04-17 03:00:00&#39;
+COMMENT &#39;Remove soft-deleted customers older than 30 days&#39;
+DO
+    DELETE FROM customers
+    WHERE deleted_at IS NOT NULL
+      AND deleted_at &lt; NOW() - INTERVAL 30 DAY;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Monthly Archival Event</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create an event that runs on the 1st of every month at 01:00 to move rows from <code>orders</code> older than 12 months into <code>orders_archive</code>, then delete them from <code>orders</code>. Wrap both statements in a transaction so either both succeed or both roll back.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders has entries from 2024-01-01 to now.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Each month, 12-month-old rows move to orders_archive.</div>
+                </div><div class="challenge-constraints">Use EVERY 1 MONTH. Use START TRANSACTION / COMMIT inside a procedure called by the event.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">DELIMITER $
+CREATE PROCEDURE archive_old_orders()
+BEGIN
+    DECLARE EXIT HANDLER FOR SQLEXCEPTION BEGIN ROLLBACK; RESIGNAL; END;
+
+    START TRANSACTION;
+    INSERT INTO orders_archive
+    SELECT * FROM orders
+    WHERE created_at &lt; NOW() - INTERVAL 12 MONTH;
+
+    DELETE FROM orders
+    WHERE created_at &lt; NOW() - INTERVAL 12 MONTH;
+    COMMIT;
+END$
+DELIMITER ;
+
+SET GLOBAL event_scheduler = ON;
+
+CREATE EVENT monthly_archive
+ON SCHEDULE EVERY 1 MONTH
+STARTS &#39;2026-05-01 01:00:00&#39;
+DO CALL archive_old_orders();</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Guard a Locked Invoice</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a BEFORE UPDATE trigger on <code>invoices</code> that forbids any change to <code>amount</code> once <code>status = 'LOCKED'</code>. Allow status transitions (LOCKED -> PAID) but reject amount edits with a clear error.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">invoices: (1001, 5000, &#39;LOCKED&#39;)
+UPDATE invoices SET amount=6000 WHERE id=1001;     -- should fail
+UPDATE invoices SET status=&#39;PAID&#39; WHERE id=1001;   -- should pass</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">First UPDATE: ERROR 1644 (45000): Cannot change amount on a LOCKED invoice.
+Second UPDATE: Query OK, 1 row affected.</div>
+                </div><div class="challenge-constraints">Compare OLD.status and OLD.amount vs NEW.amount.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">DELIMITER $
+CREATE TRIGGER protect_locked_invoice
+BEFORE UPDATE ON invoices
+FOR EACH ROW
+BEGIN
+    IF OLD.status = &#39;LOCKED&#39; AND NEW.amount &lt;&gt; OLD.amount THEN
+        SIGNAL SQLSTATE &#39;45000&#39;
+            SET MESSAGE_TEXT = &#39;Cannot change amount on a LOCKED invoice&#39;;
+    END IF;
+END$
+DELIMITER ;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/views-and-stored-procedures/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Views, Stored Procedures, and Functions</span>
+        </a>
+            <a href="/resources/sql/transactions-and-acid/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Transactions and ACID Properties</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/triggers-and-events" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

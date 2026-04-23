@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - String Functions in SQL | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="55+ practice questions on String Functions in SQL in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="string functions in sql practice, sql questions, sql practice problems, string functions in sql exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/string-functions/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/string-functions/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/string-functions/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/string-functions/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/string-functions/practice">
+    <meta property="og:title" content="Practice Questions - String Functions in SQL | SQL | Modern Age Coders">
+    <meta property="og:description" content="55+ practice questions on String Functions in SQL in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/string-functions/practice">
+    <meta name="twitter:title" content="Practice Questions - String Functions in SQL | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="55+ practice questions on String Functions in SQL in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - String Functions in SQL",
+    "description": "55+ practice questions on String Functions in SQL in SQL.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "String Functions in SQL"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/string-functions/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "String Functions in SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql/string-functions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/string-functions/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/string-functions">String Functions in SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 15</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">55 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; String Functions in SQL</h1>
+            <a href="/resources/sql/string-functions" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">17</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">4</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT CONCAT('Hello', ' ', 'World');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">CONCAT joins arguments.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Hello World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT CONCAT_WS('-', '2026', '04', '16');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">CONCAT With Separator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>2026-04-16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT CONCAT('Hello', NULL, 'World');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">NULL in CONCAT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>NULL</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT CONCAT_WS('-', '2026', NULL, '16');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">CONCAT_WS and NULL.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>2026-16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT UPPER('Bengaluru'), LOWER('MUMBAI');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Case conversion.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>BENGALURU, mumbai</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT LENGTH('Hello'), CHAR_LENGTH('Hello');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">ASCII: bytes == chars.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>5, 5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT LEFT('Bengaluru', 4), RIGHT('Bengaluru', 4);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">LEFT prefix, RIGHT suffix.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Beng, luru</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT TRIM('  Aarav Kumar  '), CHAR_LENGTH(TRIM('  Aarav Kumar  '));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">TRIM removes whitespace from both ends.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Aarav Kumar, 11</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT REPLACE('+91-98765-43210', '-', '');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">REPLACE every dash with empty.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>+919876543210</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT LOCATE('@', 'aarav@mail.com');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Position is 1-based.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT SUBSTRING('Bengaluru', 4, 3);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Start 4, length 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>gal</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT LPAD('42', 5, '0'), RPAD('abc', 6, '.');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Padding to fixed length.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>00042, abc...</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT SUBSTRING('aarav@mail.com', LOCATE('@', 'aarav@mail.com') + 1);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Extract domain.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>mail.com</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT TRIM(LEADING '0' FROM '00012345');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">LEADING removes from the left only.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>12345</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT REVERSE('hello');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Reverse the string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>olleh</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT REPEAT('ab', 3);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Multiply the string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>ababab</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT FORMAT(1234567.89, 2);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Thousands-separated formatting.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>1,234,567.89</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT SUBSTR('Bengaluru', -4);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Negative start = from end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>luru</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>SELECT LENGTH('नमस्ते'), CHAR_LENGTH('नमस्ते');</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Hindi uses multi-byte UTF-8.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>18, 6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output of this clean query on <code>'  Aarav  Kumar  '</code>?<br><pre><code>SELECT TRIM(REPLACE('  Aarav  Kumar  ', '  ', ' '));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">REPLACE processes once, then TRIM.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>Aarav Kumar</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which function joins strings safely when any argument might be NULL?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">CONCAT vs CONCAT_WS.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>CONCAT_WS (skips NULL arguments). CONCAT returns NULL if any argument is NULL.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Is MySQL's REPLACE case-sensitive?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Exact matching.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Yes. REPLACE does case-sensitive substring replacement. For case-insensitive, use REGEXP_REPLACE with the 'i' flag in MySQL 8.0+, or normalize case first.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does <code>LENGTH('हi')</code> return in MySQL with UTF-8 encoding?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">One multi-byte + one ASCII.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>4 (3 bytes for ह + 1 byte for i)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between SUBSTRING(str, 1, 5) and LEFT(str, 5)?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">They are equivalent.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>They are equivalent. LEFT is more readable for prefixes.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a query to return the last 4 characters of a phone number stored in phone column.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">RIGHT function.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>SELECT RIGHT(phone, 4) FROM customers;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a query to extract the email domain (part after @) from every customer.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">SUBSTRING + LOCATE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><pre><code>SELECT email, SUBSTRING(email, LOCATE('@', email) + 1) AS domain
+FROM customers;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Normalize city names so they have proper case: first letter uppercase, rest lowercase.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">UPPER + LOWER + SUBSTRING.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>SELECT city, CONCAT(UPPER(LEFT(city, 1)), LOWER(SUBSTRING(city, 2))) AS proper_city
+FROM customers;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a query to remove all non-digit characters from a phone column using REPLACE.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Chain REPLACE for each separator.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><pre><code>SELECT REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(phone, '-',''), ' ',''), '.',''), '+',''), '(','') AS digits
+FROM customers;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When should you use CHAR_LENGTH over LENGTH?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Multi-byte characters.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Always use CHAR_LENGTH for user-facing length operations (validation, truncation). Use LENGTH only when you care about byte storage (e.g., checking maximum byte size for a column).</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why is CONCAT_WS often preferred over CONCAT?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">NULL safety + cleaner syntax.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>CONCAT_WS inserts a separator automatically and skips NULL arguments. CONCAT returns NULL if any argument is NULL and requires manually adding separators between arguments.</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a query that masks email so only the first 2 characters and the domain show, e.g., 'aa***@mail.com'.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">LEFT + REPEAT + SUBSTRING + LOCATE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>SELECT
+    email,
+    CONCAT(
+        LEFT(email, 2),
+        REPEAT('*', 3),
+        SUBSTRING(email, LOCATE('@', email))
+    ) AS masked
+FROM customers;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a query to count the number of spaces in each full_name.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">LENGTH difference after REPLACE.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><pre><code>SELECT
+    full_name,
+    CHAR_LENGTH(full_name) - CHAR_LENGTH(REPLACE(full_name, ' ', '')) AS space_count
+FROM customers;</code></pre></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does CONCAT return if one argument is NULL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Empty string</li><li><span class="mcq-option-label">B.</span> The non-NULL arguments joined</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> CONCAT returns NULL if any argument is NULL. Use CONCAT_WS or COALESCE to handle NULLs safely.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which returns the number of characters (not bytes)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LENGTH</li><li><span class="mcq-option-label">B.</span> CHAR_LENGTH</li><li><span class="mcq-option-label">C.</span> SIZEOF</li><li><span class="mcq-option-label">D.</span> BYTE_LENGTH</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> CHAR_LENGTH (aka CHARACTER_LENGTH) counts characters. LENGTH counts bytes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text"><code>SELECT SUBSTRING('Bengaluru', 4, 3);</code> returns:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &#39;Ben&#39;</li><li><span class="mcq-option-label">B.</span> &#39;gal&#39;</li><li><span class="mcq-option-label">C.</span> &#39;galu&#39;</li><li><span class="mcq-option-label">D.</span> &#39;luru&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Starting at position 4 ('g'), take 3 characters: 'gal'. MySQL SUBSTRING is 1-indexed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which function removes whitespace from both ends?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LTRIM</li><li><span class="mcq-option-label">B.</span> RTRIM</li><li><span class="mcq-option-label">C.</span> TRIM</li><li><span class="mcq-option-label">D.</span> STRIP</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> TRIM removes from both sides by default. LTRIM is left only, RTRIM is right only. STRIP is not a MySQL function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text"><code>SELECT LPAD('5', 4, '0');</code> returns:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &#39;5000&#39;</li><li><span class="mcq-option-label">B.</span> &#39;0005&#39;</li><li><span class="mcq-option-label">C.</span> &#39;5   &#39;</li><li><span class="mcq-option-label">D.</span> &#39;   5&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> LPAD pads on the left to length 4 with '0', giving '0005'. Useful for ID formatting.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which returns the 1-based position of a substring (or 0 if not found)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> INDEX</li><li><span class="mcq-option-label">B.</span> FIND</li><li><span class="mcq-option-label">C.</span> LOCATE</li><li><span class="mcq-option-label">D.</span> SEARCH</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> LOCATE(substr, str) returns the 1-based position. INSTR and POSITION do the same thing with different argument orders.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Is MySQL's REPLACE case-sensitive?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes</li><li><span class="mcq-option-label">B.</span> No</li><li><span class="mcq-option-label">C.</span> Depends on collation</li><li><span class="mcq-option-label">D.</span> Only in MySQL 5.x</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: A</strong><br><strong>A is correct.</strong> REPLACE does exact case-sensitive matching. For case-insensitive, use REGEXP_REPLACE with the 'i' flag (MySQL 8.0+).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text"><code>SELECT CONCAT_WS('-', 'a', NULL, 'c');</code> returns:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &#39;a-NULL-c&#39;</li><li><span class="mcq-option-label">B.</span> &#39;a--c&#39;</li><li><span class="mcq-option-label">C.</span> &#39;a-c&#39;</li><li><span class="mcq-option-label">D.</span> NULL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> CONCAT_WS skips NULL arguments. The separator is placed only between actual values, yielding 'a-c'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the output of <code>SELECT LENGTH('नमस्ते'), CHAR_LENGTH('नमस्ते');</code> in UTF-8?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 6, 6</li><li><span class="mcq-option-label">B.</span> 18, 6</li><li><span class="mcq-option-label">C.</span> 6, 18</li><li><span class="mcq-option-label">D.</span> 18, 18</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each Devanagari character is 3 bytes in UTF-8. LENGTH = 6 * 3 = 18 bytes. CHAR_LENGTH = 6 characters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which query gets the email domain (part after '@')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT SUBSTRING(email, 1, LOCATE(&#39;@&#39;, email));</li><li><span class="mcq-option-label">B.</span> SELECT SUBSTRING(email, LOCATE(&#39;@&#39;, email));</li><li><span class="mcq-option-label">C.</span> SELECT SUBSTRING(email, LOCATE(&#39;@&#39;, email) + 1);</li><li><span class="mcq-option-label">D.</span> SELECT RIGHT(email, LOCATE(&#39;@&#39;, email));</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> Start one position after '@', no length = to end. A returns the username part + '@'. B returns '@domain'. D is wrong.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text"><code>SELECT TRIM(LEADING '0' FROM '000042');</code> returns:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &#39;42&#39;</li><li><span class="mcq-option-label">B.</span> &#39;000042&#39;</li><li><span class="mcq-option-label">C.</span> &#39;042&#39;</li><li><span class="mcq-option-label">D.</span> &#39;42000&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: A</strong><br><strong>A is correct.</strong> TRIM LEADING removes the specified character only from the left. All leading zeros stripped.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Count the occurrences of 'a' in 'banana' using only string functions.</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LOCATE(&#39;a&#39;, &#39;banana&#39;)</li><li><span class="mcq-option-label">B.</span> CHAR_LENGTH(&#39;banana&#39;) - CHAR_LENGTH(REPLACE(&#39;banana&#39;, &#39;a&#39;, &#39;&#39;))</li><li><span class="mcq-option-label">C.</span> LENGTH(&#39;banana&#39;) / 3</li><li><span class="mcq-option-label">D.</span> SUBSTRING(&#39;banana&#39;, &#39;a&#39;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Subtract the length after removing the target character from the original length. Works for counting any character.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which is the safest way to join first, middle, and last names where middle can be NULL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CONCAT(first, &#39; &#39;, middle, &#39; &#39;, last)</li><li><span class="mcq-option-label">B.</span> first + middle + last</li><li><span class="mcq-option-label">C.</span> CONCAT_WS(&#39; &#39;, first, middle, last)</li><li><span class="mcq-option-label">D.</span> first | middle | last</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> CONCAT_WS skips NULL middle name. A returns NULL if middle is NULL. B and D are invalid syntax for string concatenation in MySQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">How do you format an integer id as a 6-digit zero-padded code?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CONCAT(&#39;0&#39;, id)</li><li><span class="mcq-option-label">B.</span> LPAD(id, 6, &#39;0&#39;)</li><li><span class="mcq-option-label">C.</span> RPAD(id, 6, &#39;0&#39;)</li><li><span class="mcq-option-label">D.</span> FORMAT(id, 6)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> LPAD pads on the left to reach 6 characters with '0'. RPAD would pad on the right. FORMAT adds thousands separators and decimals, not zero padding.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which approach correctly finds duplicate emails ignoring case?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT email FROM users GROUP BY email HAVING COUNT(*) &gt; 1</li><li><span class="mcq-option-label">B.</span> SELECT LOWER(email) FROM users GROUP BY LOWER(email) HAVING COUNT(*) &gt; 1</li><li><span class="mcq-option-label">C.</span> SELECT email FROM users WHERE UPPER(email) = LOWER(email)</li><li><span class="mcq-option-label">D.</span> SELECT DISTINCT email FROM users</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Normalize by LOWER before grouping. A would miss duplicates differing in case. C is a nonsense condition. D just returns unique cases.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Clean Up Name Column</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given the customers table, return id and full_name trimmed of leading/trailing spaces.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">SELECT id, TRIM(full_name) AS clean_name
+FROM customers;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Normalize Email to Lowercase</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Return id and email converted to lowercase for all customers.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">SELECT id, LOWER(email) AS normalized_email
+FROM customers;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Extract Email Username and Domain</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">For each customer, return the email, the username (before '@'), and the domain (after '@').</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">SELECT
+    email,
+    SUBSTRING(email, 1, LOCATE(&#39;@&#39;, email) - 1) AS username,
+    SUBSTRING(email, LOCATE(&#39;@&#39;, email) + 1)   AS domain
+FROM customers;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Digits-Only Phone Numbers</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Strip all separators (-, space, ., +) from phone numbers and return just the digits.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">SELECT
+    phone AS original,
+    REPLACE(REPLACE(REPLACE(REPLACE(phone, &#39;-&#39;, &#39;&#39;), &#39; &#39;, &#39;&#39;), &#39;.&#39;, &#39;&#39;), &#39;+&#39;, &#39;&#39;) AS digits_only
+FROM customers;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Proper Case City Names</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Capitalize the first letter of each city name, rest lowercase, e.g., 'bengaluru' -> 'Bengaluru'.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">SELECT
+    city AS original,
+    CONCAT(UPPER(LEFT(city, 1)), LOWER(SUBSTRING(city, 2))) AS proper_city
+FROM customers;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Count Spaces in Name</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Return the number of space characters in each full_name.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">SELECT
+    full_name,
+    CHAR_LENGTH(full_name) - CHAR_LENGTH(REPLACE(full_name, &#39; &#39;, &#39;&#39;)) AS space_count
+FROM customers;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Mask Phone Number (Last 4 Digits Only)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Mask all but the last 4 digits of a phone number with 'X'. Input format may vary.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">SELECT
+    phone,
+    CONCAT(
+        REPEAT(&#39;X&#39;, CHAR_LENGTH(phone) - 4),
+        RIGHT(phone, 4)
+    ) AS masked
+FROM customers;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Extract First Name (Before First Space)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given full_name, return just the first name (portion before first space). Handle names without spaces by returning the whole name.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">SELECT
+    full_name,
+    TRIM(
+        CASE
+            WHEN LOCATE(&#39; &#39;, TRIM(full_name)) = 0
+                THEN TRIM(full_name)
+            ELSE SUBSTRING(TRIM(full_name), 1, LOCATE(&#39; &#39;, TRIM(full_name)) - 1)
+        END
+    ) AS first_name
+FROM customers;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/set-operations/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">UNION, UNION ALL, INTERSECT, EXCEPT</span>
+        </a>
+            <a href="/resources/sql/date-and-time-functions/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Date and Time Functions</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/string-functions" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

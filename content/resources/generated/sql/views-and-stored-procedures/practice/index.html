@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Views, Stored Procedures, and Functions | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Views, Stored Procedures, and Functions in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="views, stored procedures, and functions practice, sql questions, sql practice problems, views, stored procedures, and functions exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures/practice">
+    <meta property="og:title" content="Practice Questions - Views, Stored Procedures, and Functions | SQL | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Views, Stored Procedures, and Functions in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures/practice">
+    <meta name="twitter:title" content="Practice Questions - Views, Stored Procedures, and Functions | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Views, Stored Procedures, and Functions in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Views, Stored Procedures, and Functions",
+    "description": "58+ practice questions on Views, Stored Procedures, and Functions in SQL.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Views, Stored Procedures, and Functions"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Views, Stored Procedures, and Functions",
+        "item": "https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/views-and-stored-procedures/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/views-and-stored-procedures">Views, Stored Procedures, and Functions</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 21</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Views, Stored Procedures, and Functions</h1>
+            <a href="/resources/sql/views-and-stored-procedures" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">14</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Given a view <code>CREATE VIEW v AS SELECT id, name FROM users WHERE active = 1;</code> and rows (1,'Aarav',1), (2,'Priya',0), (3,'Rohan',1), what does <code>SELECT COUNT(*) FROM v;</code> return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The view filters on active = 1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Does a view store data on disk?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Think about what CREATE VIEW actually saves.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">No. A view stores only the SELECT statement. Every query against the view re-runs that SELECT against the underlying base tables.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why do we write DELIMITER $ before CREATE PROCEDURE?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Think about how the MySQL client parses statements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">The MySQL client splits input on <code>;</code>. A procedure body contains internal semicolons, so we temporarily change the delimiter to <code>$</code> so the client sends the whole CREATE PROCEDURE as one statement.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this procedure set <code>@r</code> to?<pre><code>CREATE PROCEDURE sq(IN x INT, OUT r INT)
+BEGIN SET r = x * x; END;
+
+CALL sq(6, @r);
+SELECT @r;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">OUT parameters are assigned with SET.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>36</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between a procedure and a function in MySQL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Think about how you invoke each and what it returns.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">A <strong>procedure</strong> is invoked with <code>CALL name(args)</code> and can return zero, one, or many result sets via OUT parameters or inner SELECTs. A <strong>function</strong> returns exactly one scalar value and is called from inside any expression: <code>SELECT my_func(col)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Name three conditions that make a view non-updatable.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Think about what stops MySQL from mapping a view row back to a base-table row.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">Any of: (1) aggregate functions / GROUP BY, (2) DISTINCT, (3) UNION / UNION ALL, (4) subqueries in the SELECT list, (5) most JOINs, (6) window functions. Any of these makes the view read-only.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given employees with salaries 40000, 60000, 80000, 100000, what does this procedure set <code>@out</code> to?<pre><code>CREATE PROCEDURE sum_above(IN threshold INT, OUT s INT)
+BEGIN
+    SELECT SUM(salary) INTO s FROM employees WHERE salary > threshold;
+END;
+
+CALL sum_above(60000, @out);
+SELECT @out;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Sum only salaries strictly greater than 60000.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>180000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does WITH CHECK OPTION protect against?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Think about INSERTs through a filtered view.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">It prevents INSERTs or UPDATEs through the view that would produce rows which do not match the view's WHERE clause. Without it, an insert through <code>pune_customers</code> could write a row with city = 'Mumbai' — the row lands in the base table but never appears in the view.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does this WHILE loop write to the numbers table?<pre><code>DECLARE i INT DEFAULT 1;
+WHILE i < 4 DO
+    INSERT INTO numbers VALUES (i * 10);
+    SET i = i + 1;
+END WHILE;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">The condition is i &lt; 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">Rows: 10, 20, 30. The loop stops when i becomes 4 because the condition i &lt; 4 is false.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the purpose of <code>DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;</code> inside a cursor block?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Think about what happens when FETCH runs out of rows.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">When FETCH has no more rows, MySQL raises the NOT FOUND condition (SQLSTATE '02000'). The CONTINUE HANDLER catches it and sets the <code>done</code> variable to 1, which the loop body checks to LEAVE. Without the handler, the procedure would abort with error 1329.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does MySQL reject a function declaration that has no DETERMINISTIC, NO SQL, or READS SQL DATA qualifier when binary logging is on?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Think about replication.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">With statement-based binary logging, the master replicates function calls as text, and the replica re-executes them. If the function is non-deterministic (uses NOW(), RAND()), the replica will produce a different result — the slave drifts. MySQL forces you to declare the function's behaviour so it (and the DBA) can reason about replication safety.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">When would you materialise a view (fake materialisation in MySQL) instead of using a regular view?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Think about read frequency vs write frequency vs freshness tolerance.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">When the underlying query is expensive (complex joins, aggregation over millions of rows), the view is queried far more often than the data changes, and users can tolerate some staleness. For example, a dashboard that shows daily totals can run off a table refreshed hourly — 60 minutes of lag is acceptable but 10 seconds of query time per page-load is not.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does SQL SECURITY DEFINER let you do that SQL SECURITY INVOKER does not?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think about privilege delegation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">DEFINER runs the procedure with the privileges of the user who created it, not the caller. You can grant CALL permission on the procedure to a user who has no direct SELECT or UPDATE on the underlying tables. This is how production systems let application accounts execute business logic without granting them base-table access.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is wrong with this function, and what error will MySQL produce at creation time?<pre><code>DELIMITER $
+CREATE FUNCTION next_id() RETURNS INT
+BEGIN
+    RETURN (SELECT MAX(id) + 1 FROM users);
+END$
+DELIMITER ;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Think about data characteristic clauses.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">The function reads from a table but has no data-characteristic clause. MySQL rejects it with ERROR 1418 when binary logging is on. Fix: add <code>READS SQL DATA</code> or <code>NOT DETERMINISTIC</code> (or both) between <code>RETURNS INT</code> and <code>BEGIN</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is it usually faster to write a set-based UPDATE than a cursor loop that updates one row at a time?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Think about round trips, parsing, and the optimiser.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">A single UPDATE is planned once, executed once, and the storage engine can batch redo-log writes. A cursor loop executes N separate statements, each with its own locking, optimiser parsing, and log flush. For 100k rows, the cursor version can be 50-100x slower, especially when combined with an index update per row.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain the difference between a user variable (<code>@x</code>) and a local variable declared with <code>DECLARE</code>.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Think scope and lifetime.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">A user variable (<code>@x</code>) is session-scoped: it lives as long as the connection, is visible across procedures, and does not need DECLARE. A local variable (<code>DECLARE x INT</code>) is block-scoped: it exists only within the BEGIN...END where it was declared, cannot collide with other procedures, and does need DECLARE.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Can a trigger call a stored procedure? Can a function call a procedure?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about what each context is allowed to do.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">A trigger can CALL a procedure, provided the procedure does not perform forbidden operations (COMMIT, ROLLBACK inside a trigger). A function can also CALL a procedure in MySQL, but the procedure must not produce result sets (functions cannot return tabular data to the caller).</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this return?<pre><code>CREATE VIEW adult_users AS
+SELECT name FROM users WHERE age >= 18;
+
+-- users: Aarav(20), Priya(16), Rohan(25), Anika(17)
+SELECT COUNT(*) FROM adult_users;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Count only rows where age >= 18.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which keyword replaces an existing view in one statement?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Think alter-like keyword for views.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>CREATE OR REPLACE VIEW view_name AS ...</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does <code>@out</code> become?<pre><code>CREATE PROCEDURE pick(IN arr_len INT, OUT r INT)
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    DECLARE total INT DEFAULT 0;
+    WHILE i <= arr_len DO
+        SET total = total + i;
+        SET i = i + 1;
+    END WHILE;
+    SET r = total;
+END;
+
+CALL pick(5, @out);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Sum of 1..5.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">You want an analyst to see employee name and department but not salary. How do you use a view to enforce this?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Think column-level exposure.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>CREATE VIEW employee_safe AS SELECT id, name, dept FROM employees;</code> Then grant SELECT on <code>employee_safe</code> and REVOKE SELECT on <code>employees</code>. The analyst can query the view but cannot see salary.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What error does this produce?<pre><code>CREATE VIEW dept_counts AS
+SELECT dept, COUNT(*) AS n FROM employees GROUP BY dept;
+
+UPDATE dept_counts SET n = 0 WHERE dept = 'HR';</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Aggregated views are not updatable.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>ERROR 1288: The target table dept_counts of the UPDATE is not updatable</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a one-line CREATE statement for a deterministic function <code>square(x)</code> returning INT.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Do not forget DETERMINISTIC.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>CREATE FUNCTION square(x INT) RETURNS INT DETERMINISTIC RETURN x * x;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given accounts (1, 1000), (2, 500), and this procedure, what do the balances become after CALL transfer(1, 2, 300)?<pre><code>CREATE PROCEDURE transfer(IN f INT, IN t INT, IN amt INT)
+BEGIN
+    START TRANSACTION;
+    UPDATE accounts SET balance = balance - amt WHERE id = f;
+    UPDATE accounts SET balance = balance + amt WHERE id = t;
+    COMMIT;
+END;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Debit source, credit destination.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">Account 1: 700, Account 2: 800.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why might you prefer a stored procedure for batch billing over application-side logic?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about round trips, transactions, and consistency.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">(1) One network round trip instead of N, which matters when N is millions of rows. (2) The whole job runs in one transaction (or in explicit batches) inside the database, so partial failures are cleanly rolled back. (3) The business rule lives in one place; no two services can drift out of sync. (4) DBAs can tune and schedule it without touching the app.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does <code>SELECT my_tax(1000, 18)</code> return given the function below?<pre><code>CREATE FUNCTION my_tax(p DECIMAL(10,2), r DECIMAL(5,2))
+RETURNS DECIMAL(10,2) DETERMINISTIC
+BEGIN
+    IF p > 500 THEN
+        RETURN p * r / 100;
+    ELSE
+        RETURN 0;
+    END IF;
+END;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">p = 1000 passes the IF check.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>180.00</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain what happens if you DROP a base table that a view depends on. What about a procedure that references it?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about when MySQL checks view/procedure bodies.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Both the view and the procedure keep their definitions, but calling them fails at runtime. SELECT from the view returns an error like "View references invalid table". The procedure runs until it hits a statement that uses the missing table, then errors. Neither is dropped automatically — you must recreate the base table or drop the view/procedure.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Is it possible for a view to be both fast and always fresh? Justify.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think indexes and view merging.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Yes, if the underlying SELECT is cheap — e.g. a single-table filter on an indexed column. MySQL inlines (merges) the view into the calling query, and the planner uses the base-table index. Speed and freshness are at odds only when the underlying SELECT is expensive; that is when materialisation becomes tempting.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What final value does <code>@total</code> hold?<pre><code>CREATE PROCEDURE count_by_prefix(IN p VARCHAR(5), OUT total INT)
+BEGIN
+    SELECT COUNT(*) INTO total
+    FROM products WHERE name LIKE CONCAT(p, '%');
+END;
+
+-- products.name in: 'Apple Juice','Apple Pie','Banana Shake','Apricot'
+CALL count_by_prefix('App', @total);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Count names starting with 'App'.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Your procedure must roll back on any error. How do you set that up without wrapping every statement in IF...THEN...ROLLBACK?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Use an EXIT handler.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">Declare an EXIT handler at the top of the block:<pre><code>DECLARE EXIT HANDLER FOR SQLEXCEPTION
+BEGIN
+    ROLLBACK;
+    RESIGNAL;
+END;
+START TRANSACTION;
+... statements ...
+COMMIT;</code></pre>Any SQLEXCEPTION in the body triggers the handler, which rolls back and re-raises the error.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is it a smell for a function to contain UPDATE or INSERT?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">Functions run inside SELECTs.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14">Functions are evaluated inside SELECT statements, often once per row. An INSERT or UPDATE hidden in a function means a simple-looking <code>SELECT my_func(col) FROM t</code> is actually a bulk write — catastrophic for read replicas, caching, and reasoning. Most mature codebases forbid it.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How is a stored procedure's SQL plan cached? Is it the same as a prepared statement?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">Think about per-connection vs global.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15">In MySQL, stored procedure execution plans are cached per connection (statement cache), not globally. Parameterisation means the optimiser produces one plan per parameter shape. Prepared statements cache similarly, per connection. MySQL does not have Oracle-style global plan sharing, so the first call after a connection establishes the plan.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which SQL command creates a view?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> MAKE VIEW</li><li><span class="mcq-option-label">B.</span> CREATE VIEW</li><li><span class="mcq-option-label">C.</span> DEFINE VIEW</li><li><span class="mcq-option-label">D.</span> NEW VIEW</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The syntax is <code>CREATE VIEW name AS SELECT ...;</code>. Use <code>CREATE OR REPLACE VIEW</code> to redefine one in place.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does CALL do in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Invokes a function</li><li><span class="mcq-option-label">B.</span> Invokes a stored procedure</li><li><span class="mcq-option-label">C.</span> Runs a view</li><li><span class="mcq-option-label">D.</span> Triggers an event</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Procedures are invoked with <code>CALL proc_name(args)</code>. Functions are invoked inline in any expression.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which parameter direction lets a procedure return a scalar value to the caller?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> IN</li><li><span class="mcq-option-label">B.</span> OUT</li><li><span class="mcq-option-label">C.</span> BACK</li><li><span class="mcq-option-label">D.</span> RETURN</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> OUT parameters are set by the procedure and read by the caller (typically via a user variable like <code>@result</code>).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Why do we use DELIMITER $ before defining a procedure?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The server requires it</li><li><span class="mcq-option-label">B.</span> To change the client-side statement terminator so internal semicolons do not end the CREATE</li><li><span class="mcq-option-label">C.</span> It speeds up procedure execution</li><li><span class="mcq-option-label">D.</span> It is required for transactions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> The server parses the procedure as a whole. The MySQL client uses <code>;</code> as a statement terminator by default, so we temporarily change it to send the CREATE PROCEDURE as a single statement.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">A view is best described as:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A physical copy of a table</li><li><span class="mcq-option-label">B.</span> A saved SELECT statement that behaves like a virtual table</li><li><span class="mcq-option-label">C.</span> An index on a view</li><li><span class="mcq-option-label">D.</span> A trigger that fires on SELECT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> A view stores no rows. It stores a query that runs on demand.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which view is NOT updatable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT id, name FROM users WHERE active = 1</li><li><span class="mcq-option-label">B.</span> SELECT id, name, salary * 2 AS doubled FROM employees</li><li><span class="mcq-option-label">C.</span> SELECT dept, COUNT(*) FROM employees GROUP BY dept</li><li><span class="mcq-option-label">D.</span> SELECT id, UPPER(name) FROM users</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> GROUP BY + COUNT aggregates rows, so MySQL cannot map a view row back to one base-table row. Simple projections (A, B, D) remain updatable.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does WITH CHECK OPTION enforce?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> View rows cannot be deleted</li><li><span class="mcq-option-label">B.</span> INSERT/UPDATE through the view must produce rows matching the view&#39;s WHERE</li><li><span class="mcq-option-label">C.</span> View columns must be indexed</li><li><span class="mcq-option-label">D.</span> The view is materialised</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without it, you could insert a row that would never appear in the view — usually a subtle bug.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Inside a procedure, where must DECLARE statements appear?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Anywhere in the body</li><li><span class="mcq-option-label">B.</span> Only at the end</li><li><span class="mcq-option-label">C.</span> At the top of a BEGIN...END block, before any executable statement</li><li><span class="mcq-option-label">D.</span> Only inside LOOP blocks</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Declare variables, conditions, handlers, and cursors (in that order) before any executable statement in the block.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1 do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Raises an error when no rows are found</li><li><span class="mcq-option-label">B.</span> Sets done = 1 when a FETCH has no more rows, then continues</li><li><span class="mcq-option-label">C.</span> Prevents cursors from being used</li><li><span class="mcq-option-label">D.</span> Rolls back the transaction</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> It is the idiomatic end-of-cursor detector. The loop body then tests <code>done</code> and LEAVEs when set.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which is NOT a valid MySQL loop keyword?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> WHILE</li><li><span class="mcq-option-label">B.</span> REPEAT</li><li><span class="mcq-option-label">C.</span> FOR</li><li><span class="mcq-option-label">D.</span> LOOP</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> MySQL has WHILE, REPEAT...UNTIL, and LOOP (with LEAVE). There is no FOR loop. Simulate FOR with WHILE.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which is the correct way to call a function from a SELECT?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CALL my_func(5)</li><li><span class="mcq-option-label">B.</span> SELECT my_func(5)</li><li><span class="mcq-option-label">C.</span> EXEC my_func(5)</li><li><span class="mcq-option-label">D.</span> RUN my_func(5)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Functions are invoked inline anywhere an expression is valid. CALL is for procedures only.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which qualifier is needed for a function that does not read or modify data and always returns the same output for the same input?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> READS SQL DATA</li><li><span class="mcq-option-label">B.</span> MODIFIES SQL DATA</li><li><span class="mcq-option-label">C.</span> DETERMINISTIC with NO SQL</li><li><span class="mcq-option-label">D.</span> NONDETERMINISTIC</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> DETERMINISTIC promises same-input-same-output (replication safety). NO SQL says the function does not access any tables. Together they describe a pure computation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">You want a procedure to roll back on any SQL error. Which handler do you declare?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DECLARE CONTINUE HANDLER FOR NOT FOUND</li><li><span class="mcq-option-label">B.</span> DECLARE EXIT HANDLER FOR SQLEXCEPTION BEGIN ROLLBACK; RESIGNAL; END</li><li><span class="mcq-option-label">C.</span> DECLARE EXIT HANDLER FOR SQLWARNING</li><li><span class="mcq-option-label">D.</span> DECLARE HANDLER FOR ANY</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> SQLEXCEPTION catches all errors. EXIT leaves the block. ROLLBACK undoes the transaction; RESIGNAL propagates the error to the caller.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which best describes MySQL's native support for materialised views?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Full native support with CREATE MATERIALIZED VIEW</li><li><span class="mcq-option-label">B.</span> Supported only on InnoDB tables</li><li><span class="mcq-option-label">C.</span> No native support; simulate with a table + refresh procedure + scheduled event</li><li><span class="mcq-option-label">D.</span> Supported only through the query cache</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> Unlike PostgreSQL and Oracle, MySQL has no CREATE MATERIALIZED VIEW. The idiom is a real table plus a refresh procedure scheduled via an event.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which statement about SQL SECURITY DEFINER vs INVOKER is correct?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DEFINER runs with caller privileges; INVOKER runs with definer privileges</li><li><span class="mcq-option-label">B.</span> DEFINER runs with the creator&#39;s privileges; INVOKER runs with the caller&#39;s</li><li><span class="mcq-option-label">C.</span> Both run with root privileges</li><li><span class="mcq-option-label">D.</span> INVOKER is only valid for functions</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> DEFINER (the default) delegates privileges via the procedure, which is how you let users CALL operations on tables they cannot read directly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is wrong with SELECT my_func(x) FROM t if my_func contains UPDATE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Nothing — it is perfectly fine</li><li><span class="mcq-option-label">B.</span> The SELECT becomes a hidden bulk write, executed once per row</li><li><span class="mcq-option-label">C.</span> MySQL blocks it at parse time</li><li><span class="mcq-option-label">D.</span> It returns NULL for every row</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Functions run once per row inside a SELECT. An UPDATE inside the function means a seemingly read-only query silently writes N rows — a classic foot-gun.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">When is a cursor the right choice over a set-based SQL statement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Whenever the query is complex</li><li><span class="mcq-option-label">B.</span> When each row requires a genuinely distinct side effect (different procedure call, external API)</li><li><span class="mcq-option-label">C.</span> For all aggregations</li><li><span class="mcq-option-label">D.</span> To speed up UPDATEs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Set-based SQL is faster for homogeneous updates. Cursors pay off only when per-row logic diverges — sending row-specific emails, calling different sub-procedures, etc.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Why does MySQL require a data-characteristic clause on functions when binary logging is on?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> For query-cache invalidation</li><li><span class="mcq-option-label">B.</span> For replication safety — the replica must reproduce the same result</li><li><span class="mcq-option-label">C.</span> For index maintenance</li><li><span class="mcq-option-label">D.</span> For backup compression</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> Without it, a non-deterministic function (NOW, RAND) would drift the replica off the master. MySQL forces DETERMINISTIC, NO SQL, READS SQL DATA, or MODIFIES SQL DATA so the DBA can reason about replication.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Active Customers View</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given a customers table with columns (id, name, email, status, deleted_at), create a view <code>active_customers</code> that shows only rows where status = 'ACTIVE' and deleted_at IS NULL. Then write a query on the view that counts active customers grouped by status (to prove the view works).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">customers:
+(1,&#39;Aarav&#39;,&#39;a@x&#39;,  &#39;ACTIVE&#39;,  NULL)
+(2,&#39;Priya&#39;,&#39;p@x&#39;,  &#39;INACTIVE&#39;,NULL)
+(3,&#39;Rohan&#39;,&#39;r@x&#39;,  &#39;ACTIVE&#39;,  &#39;2026-03-01&#39;)
+(4,&#39;Anika&#39;,&#39;n@x&#39;,  &#39;ACTIVE&#39;,  NULL)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">| status | cnt |
+| ACTIVE |  2  |</div>
+                </div><div class="challenge-constraints">Use CREATE OR REPLACE VIEW. The view must exclude soft-deleted rows.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">CREATE OR REPLACE VIEW active_customers AS
+SELECT id, name, email, status
+FROM customers
+WHERE status = &#39;ACTIVE&#39; AND deleted_at IS NULL;
+
+SELECT status, COUNT(*) AS cnt
+FROM active_customers
+GROUP BY status;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Transfer Money Procedure</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a stored procedure <code>transfer(IN from_id, IN to_id, IN amt)</code> that moves money between two accounts inside a transaction. If the source balance is insufficient, raise an error with SIGNAL and roll back.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">accounts: (101,&#39;Aarav&#39;,5000), (102,&#39;Priya&#39;,2000)
+CALL transfer(101, 102, 1500);</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">accounts: (101,&#39;Aarav&#39;,3500), (102,&#39;Priya&#39;,3500)</div>
+                </div><div class="challenge-constraints">Use START TRANSACTION / COMMIT / ROLLBACK. Lock the source row with FOR UPDATE. Use SIGNAL SQLSTATE &#39;45000&#39; for insufficient funds.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">DELIMITER $
+CREATE PROCEDURE transfer(
+    IN from_id INT,
+    IN to_id INT,
+    IN amt DECIMAL(10,2)
+)
+BEGIN
+    DECLARE bal DECIMAL(10,2);
+    DECLARE EXIT HANDLER FOR SQLEXCEPTION
+    BEGIN ROLLBACK; RESIGNAL; END;
+
+    START TRANSACTION;
+    SELECT balance INTO bal FROM accounts WHERE id = from_id FOR UPDATE;
+    IF bal &lt; amt THEN
+        ROLLBACK;
+        SIGNAL SQLSTATE &#39;45000&#39; SET MESSAGE_TEXT = &#39;Insufficient funds&#39;;
+    END IF;
+    UPDATE accounts SET balance = balance - amt WHERE id = from_id;
+    UPDATE accounts SET balance = balance + amt WHERE id = to_id;
+    COMMIT;
+END$
+DELIMITER ;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: GST Function</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a deterministic function <code>gst(price, rate)</code> that returns the tax amount rounded to 2 decimals. Use it in a SELECT that shows the product name, price, tax, and total.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">products: (&#39;Notebook&#39;,120,5), (&#39;Headphones&#39;,1999,18)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">| name       | price   | tax    | total   |
+| Notebook   |  120.00 |  6.00  |  126.00 |
+| Headphones | 1999.00 | 359.82 | 2358.82 |</div>
+                </div><div class="challenge-constraints">Use RETURNS DECIMAL(10,2). Declare DETERMINISTIC.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">DELIMITER $
+CREATE FUNCTION gst(price DECIMAL(10,2), rate DECIMAL(5,2))
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    RETURN ROUND(price * rate / 100, 2);
+END$
+DELIMITER ;
+
+SELECT name, price,
+       gst(price, gst_rate) AS tax,
+       price + gst(price, gst_rate) AS total
+FROM products;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Fill Calendar Table with a Loop</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a procedure <code>fill_calendar(IN start_date DATE, IN num_days INT)</code> that inserts <code>num_days</code> consecutive dates into a table <code>calendar(d DATE PRIMARY KEY)</code> starting from <code>start_date</code>. Use DATE_ADD.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">CALL fill_calendar(&#39;2026-01-01&#39;, 5);</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">calendar: 2026-01-01, 2026-01-02, 2026-01-03, 2026-01-04, 2026-01-05</div>
+                </div><div class="challenge-constraints">Use a WHILE loop. Use DATE_ADD for date arithmetic.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">DELIMITER $
+CREATE PROCEDURE fill_calendar(IN start_date DATE, IN num_days INT)
+BEGIN
+    DECLARE i INT DEFAULT 0;
+    WHILE i &lt; num_days DO
+        INSERT IGNORE INTO calendar(d)
+        VALUES (DATE_ADD(start_date, INTERVAL i DAY));
+        SET i = i + 1;
+    END WHILE;
+END$
+DELIMITER ;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Materialised View Workaround</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">The query <code>SELECT DATE(created_at) AS d, SUM(total) AS rev FROM orders GROUP BY DATE(created_at)</code> is expensive. Create a table <code>mv_daily_sales(d, rev)</code> and a procedure <code>refresh_daily_sales()</code> that TRUNCATEs and repopulates it. Then schedule an event to run it every hour.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">orders has 1M rows across many days.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">After CALL refresh_daily_sales(); SELECT * FROM mv_daily_sales; returns one row per day with the total revenue.</div>
+                </div><div class="challenge-constraints">Use TRUNCATE inside the procedure. Use CREATE EVENT with ON SCHEDULE EVERY 1 HOUR.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">CREATE TABLE mv_daily_sales (
+    d DATE PRIMARY KEY,
+    rev DECIMAL(12,2)
+);
+
+DELIMITER $
+CREATE PROCEDURE refresh_daily_sales()
+BEGIN
+    TRUNCATE TABLE mv_daily_sales;
+    INSERT INTO mv_daily_sales(d, rev)
+    SELECT DATE(created_at), SUM(total)
+    FROM orders
+    GROUP BY DATE(created_at);
+END$
+DELIMITER ;
+
+SET GLOBAL event_scheduler = ON;
+CREATE EVENT refresh_daily_sales_event
+ON SCHEDULE EVERY 1 HOUR
+DO CALL refresh_daily_sales();</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Conditional Bonus Procedure</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a procedure <code>give_bonus(IN emp_id INT, OUT new_sal DECIMAL(10,2))</code> that looks up the employee's rating and applies: rating 5 -> +20%, rating 4 -> +10%, rating 3 -> +5%, otherwise no change. It should UPDATE the salary and return the new salary via OUT.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees: (1,&#39;Aarav&#39;,50000,5)
+CALL give_bonus(1, @s);</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">@s = 60000.00</div>
+                </div><div class="challenge-constraints">Use IF/ELSEIF/ELSE or CASE. Write the new salary to the OUT param.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">DELIMITER $
+CREATE PROCEDURE give_bonus(IN emp_id INT, OUT new_sal DECIMAL(10,2))
+BEGIN
+    DECLARE r INT;
+    DECLARE mult DECIMAL(5,2);
+    SELECT rating INTO r FROM employees WHERE id = emp_id;
+    CASE r
+        WHEN 5 THEN SET mult = 1.20;
+        WHEN 4 THEN SET mult = 1.10;
+        WHEN 3 THEN SET mult = 1.05;
+        ELSE SET mult = 1.00;
+    END CASE;
+    UPDATE employees SET salary = salary * mult WHERE id = emp_id;
+    SELECT salary INTO new_sal FROM employees WHERE id = emp_id;
+END$
+DELIMITER ;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Cursor Audit Trail</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a procedure <code>audit_zero_balance()</code> that iterates over <code>accounts</code> with a cursor. For every account whose balance is 0, insert a row into <code>audit_log(account_id, message, logged_at)</code> with message 'Account has zero balance' and the current timestamp.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">accounts: (101,&#39;Aarav&#39;,0), (102,&#39;Priya&#39;,500), (103,&#39;Rohan&#39;,0)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">audit_log: (101,&#39;Account has zero balance&#39;,NOW()), (103,&#39;Account has zero balance&#39;,NOW())</div>
+                </div><div class="challenge-constraints">Use a cursor. Use a CONTINUE HANDLER FOR NOT FOUND. Process only balance = 0 rows.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">DELIMITER $
+CREATE PROCEDURE audit_zero_balance()
+BEGIN
+    DECLARE done INT DEFAULT 0;
+    DECLARE a_id INT;
+    DECLARE a_bal DECIMAL(10,2);
+    DECLARE cur CURSOR FOR SELECT id, balance FROM accounts;
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = 1;
+
+    OPEN cur;
+    read_loop: LOOP
+        FETCH cur INTO a_id, a_bal;
+        IF done = 1 THEN LEAVE read_loop; END IF;
+        IF a_bal = 0 THEN
+            INSERT INTO audit_log(account_id, message, logged_at)
+            VALUES (a_id, &#39;Account has zero balance&#39;, NOW());
+        END IF;
+    END LOOP;
+    CLOSE cur;
+END$
+DELIMITER ;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Secure Wrapper Procedure</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">A reporting user has no SELECT on <code>employees</code> but must get total salary by department. Create a SQL SECURITY DEFINER procedure <code>dept_total(IN dept VARCHAR(20), OUT total DECIMAL(12,2))</code> that returns the sum. Then illustrate how GRANT EXECUTE would let the user CALL it without direct table access.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">employees: (1,&#39;Aarav&#39;,&#39;ENG&#39;,50000), (2,&#39;Priya&#39;,&#39;ENG&#39;,70000)
+CALL dept_total(&#39;ENG&#39;, @t);</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">@t = 120000.00</div>
+                </div><div class="challenge-constraints">Use SQL SECURITY DEFINER. Explain the GRANT statement as a comment.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">DELIMITER $
+CREATE DEFINER = &#39;admin&#39;@&#39;localhost&#39;
+PROCEDURE dept_total(IN dept_name VARCHAR(20), OUT total DECIMAL(12,2))
+SQL SECURITY DEFINER
+BEGIN
+    SELECT SUM(salary) INTO total
+    FROM employees WHERE dept = dept_name;
+END$
+DELIMITER ;
+
+-- Grant execute to the reporting user.
+-- The user has NO direct SELECT on employees:
+-- GRANT EXECUTE ON PROCEDURE shop.dept_total TO &#39;reporter&#39;@&#39;%&#39;;
+-- Now the reporter can only call the procedure, not read the table directly.</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/indexes-and-performance/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Indexes and Query Performance</span>
+        </a>
+            <a href="/resources/sql/triggers-and-events/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Triggers and Scheduled Events</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/views-and-stored-procedures" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

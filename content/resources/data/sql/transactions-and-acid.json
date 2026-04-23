@@ -1,0 +1,723 @@
+{
+  "title": "Transactions and ACID Properties",
+  "slug": "transactions-and-acid",
+  "language": "sql",
+  "chapter": 23,
+  "difficulty": "Advanced",
+  "readingTime": "55 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "Transactions and ACID in MySQL - START TRANSACTION, COMMIT, ROLLBACK, Isolation Levels, Deadlocks | Modern Age Coders",
+    "description": "Master database transactions and ACID properties in MySQL. Learn START TRANSACTION, COMMIT, ROLLBACK, SAVEPOINT, the bank-transfer example, ACID (Atomicity, Consistency, Isolation, Durability), isolation levels (READ UNCOMMITTED, READ COMMITTED, REPEATABLE READ, SERIALIZABLE), dirty reads, non-repeatable reads, phantom reads, shared and exclusive locks, deadlocks, SELECT ... FOR UPDATE, and LOCK IN SHARE MODE. 58+ interview-style practice questions.",
+    "keywords": "sql transactions, mysql acid, isolation levels mysql, dirty read non-repeatable phantom, deadlock mysql, select for update, lock in share mode, repeatable read, serializable, savepoint, rollback mysql"
+  },
+  "content": {
+    "what": "<h2>What Is a Transaction?</h2><p>A <strong>transaction</strong> is a group of SQL statements that the database treats as one indivisible unit. Either every statement in the group succeeds and the changes become permanent, or none of them do and the database is rolled back to the state it was in before the transaction started. There is no middle ground — no \"half-transferred\" money, no \"partial\" order with missing line items.</p><pre><code>START TRANSACTION;\n    UPDATE accounts SET balance = balance - 1500 WHERE id = 101;  -- debit Aarav\n    UPDATE accounts SET balance = balance + 1500 WHERE id = 102;  -- credit Priya\nCOMMIT;</code></pre><p>If the server crashes between the two UPDATEs, or if the second UPDATE fails because the account is locked, <code>ROLLBACK</code> undoes everything. Aarav's money does not disappear. This guarantee is what makes databases safe for money, inventory, appointments — anything where intermediate states would be a disaster.</p><p>Transactions are governed by four properties remembered by the acronym <strong>ACID</strong>: <em>Atomicity</em>, <em>Consistency</em>, <em>Isolation</em>, <em>Durability</em>. The rest of this chapter unpacks each property, shows the problems that arise when isolation is weakened, and explains how MySQL uses locks and versioning to give you a consistent view of the data even when thousands of transactions run at the same time.</p>"
+    ,
+    "why": "<h2>Why Transactions Matter</h2><h3>1. The Bank Transfer Problem</h3><p>Aarav transfers Rs. 1500 to Priya. In the database this is two statements: debit Aarav, credit Priya. If the power fails after the debit but before the credit, Rs. 1500 has vanished. Transactions guarantee this cannot happen — both UPDATEs commit together or neither does.</p><h3>2. Multiple Users, One Database</h3><p>An e-commerce site has 10,000 users browsing at once. Two of them try to book the last seat on a flight. Without transactions and proper locking, both bookings could succeed and the airline would have to bump someone at the gate. Transactions (together with locking and isolation) ensure that \"check availability + reserve\" is one step, not two.</p><h3>3. Recovering From Partial Failure</h3><p>An ETL job inserts 10,000 rows from a CSV. Row 5,432 has a NULL where NOT NULL is required. Without a transaction, rows 1..5,431 are in the database and rows 5,432..10,000 are not. Restarting the job double-inserts rows. Wrap the job in a transaction and an error on row 5,432 rolls all 10,000 rows back — you fix the bad row and retry cleanly.</p><h3>4. Cross-Table Consistency</h3><p>An order has a row in <code>orders</code> and five rows in <code>order_items</code>. If the <code>orders</code> row commits and the <code>order_items</code> rows don't, the order appears empty. A transaction around the multi-table INSERT keeps the two tables consistent — either the complete order is visible or none of it is.</p><h3>5. Concurrency Correctness at Scale</h3><p>At any given moment thousands of transactions are reading and writing the same rows. ACID gives you a mental model: inside a transaction, you reason as if you are the only user. Outside the transaction, once committed, your changes are durably visible to everyone. Without this, reasoning about concurrent code becomes impossible.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Basic Transaction Statements</h3><ul><li><code>START TRANSACTION;</code> (or <code>BEGIN;</code>) begins a transaction.</li><li><code>COMMIT;</code> makes all changes permanent and visible to other connections.</li><li><code>ROLLBACK;</code> undoes every change since START TRANSACTION.</li><li><code>SAVEPOINT name;</code> marks a point you can roll back to without losing the whole transaction.</li><li><code>ROLLBACK TO SAVEPOINT name;</code> undoes changes made after the savepoint.</li><li><code>RELEASE SAVEPOINT name;</code> drops the savepoint.</li></ul><pre><code>START TRANSACTION;\n    INSERT INTO orders(customer_id, total) VALUES (1, 500);\n    SAVEPOINT before_items;\n    INSERT INTO order_items(order_id, product_id, qty) VALUES (LAST_INSERT_ID(), 42, 2);\n    -- Oh no, the product doesn't exist; roll back just the items\n    ROLLBACK TO SAVEPOINT before_items;\n    -- orders row still exists, order_items does not.\nCOMMIT;</code></pre><h3>2. Autocommit Mode</h3><p>By default, MySQL runs in <code>autocommit = 1</code> mode. Every standalone statement is its own mini-transaction — it commits as soon as it finishes. To run multiple statements as one transaction you must either explicitly <code>START TRANSACTION</code> or turn autocommit off:</p><pre><code>SELECT @@autocommit;      -- 1 by default\nSET autocommit = 0;       -- now every statement is inside an implicit transaction\n                          -- you must COMMIT or ROLLBACK to end it\nSET autocommit = 1;       -- back to default</code></pre><h3>3. The Classic Bank Transfer</h3><pre><code>-- Before\n-- accounts: (101,'Aarav',5000), (102,'Priya',2000)\n\nSTART TRANSACTION;\n    UPDATE accounts SET balance = balance - 1500 WHERE id = 101;\n    -- if we crash here, rollback restores Aarav's 5000\n    UPDATE accounts SET balance = balance + 1500 WHERE id = 102;\nCOMMIT;\n\n-- After: (101,'Aarav',3500), (102,'Priya',3500)</code></pre><p>Atomicity is non-negotiable here. Consistency is also at stake: the sum of all balances should be unchanged. A balance-check constraint plus the transaction enforces both.</p><h3>4. ACID in Detail</h3><h4>Atomicity — \"all or nothing\"</h4><p>Every statement inside the transaction either commits together or rolls back together. Implementation: the storage engine writes changes to a private <em>undo log</em>. On ROLLBACK it applies the undo log to return the tables to the previous state. On COMMIT it discards the undo log.</p><h4>Consistency — \"valid state to valid state\"</h4><p>A transaction moves the database from one consistent state to another. Constraints (NOT NULL, UNIQUE, FOREIGN KEY, CHECK) are verified at commit (or sooner). A transaction that would violate a constraint is rolled back. Consistency is partly the database's job and partly the developer's — the database enforces declared constraints; the developer is responsible for the higher-level invariants the constraints capture.</p><h4>Isolation — \"concurrent transactions don't interfere\"</h4><p>Two transactions running at the same time should produce the same result as if they had run one after the other. Pure isolation is expensive, so databases offer <em>isolation levels</em> — a knob to trade isolation for concurrency. More on this below.</p><h4>Durability — \"committed data survives crashes\"</h4><p>Once COMMIT returns, the changes are on disk (or in a way that can be recovered from disk). If the server loses power the next second, the committed data is still there after reboot. Implementation: the <em>redo log</em> (InnoDB's <code>ib_logfile</code>) is flushed to disk before COMMIT returns.</p><h3>5. Isolation Levels</h3><p>SQL defines four isolation levels, weakest to strongest:</p><table border='1' cellpadding='6'><tr><th>Level</th><th>Dirty Read</th><th>Non-Repeatable Read</th><th>Phantom Read</th></tr><tr><td>READ UNCOMMITTED</td><td>Possible</td><td>Possible</td><td>Possible</td></tr><tr><td>READ COMMITTED</td><td>Prevented</td><td>Possible</td><td>Possible</td></tr><tr><td>REPEATABLE READ <em>(MySQL default)</em></td><td>Prevented</td><td>Prevented</td><td>Possible in SQL standard; prevented in InnoDB</td></tr><tr><td>SERIALIZABLE</td><td>Prevented</td><td>Prevented</td><td>Prevented</td></tr></table><p>Each level prevents a different class of anomaly. To set the isolation level for the next transaction:</p><pre><code>SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;\nSTART TRANSACTION;\n    -- ...\nCOMMIT;\n\n-- Check the current level\nSELECT @@transaction_isolation;</code></pre><h3>6. The Three Read Anomalies</h3><h4>Dirty Read</h4><p>You read a row that another transaction has modified but not yet committed. If the other transaction rolls back, you read data that never officially existed.</p><pre><code>-- T1 (READ UNCOMMITTED)         T2\nSTART TRANSACTION;               START TRANSACTION;\nSELECT balance FROM accounts     UPDATE accounts\n  WHERE id = 101;                  SET balance = balance + 10000\n                                   WHERE id = 101;\n-- T1 sees the +10000, but T2 ROLLBACKs.\n                                 ROLLBACK;\n-- T1 acted on phantom data.</code></pre><h4>Non-Repeatable Read</h4><p>You read the same row twice inside one transaction and get different values because another committed transaction updated it in between.</p><pre><code>-- T1 (READ COMMITTED)            T2\nSTART TRANSACTION;                START TRANSACTION;\nSELECT balance FROM accounts      UPDATE accounts\n  WHERE id = 101;  -- returns 5000  SET balance = 6000\n                                    WHERE id = 101;\n                                  COMMIT;\nSELECT balance FROM accounts\n  WHERE id = 101;  -- returns 6000 now, same query, different result!</code></pre><h4>Phantom Read</h4><p>You run the same <em>range</em> query twice and the second run returns different rows because another transaction inserted or deleted matching rows in between.</p><pre><code>-- T1 (REPEATABLE READ under SQL standard)\nSTART TRANSACTION;\nSELECT * FROM orders WHERE total > 10000;  -- 3 rows\n                                           -- T2 inserts a new order(total=15000), commits\nSELECT * FROM orders WHERE total > 10000;  -- 4 rows — a phantom appeared</code></pre><p>InnoDB's REPEATABLE READ prevents phantoms via next-key locks (a mix of row and gap locks), so in practice you rarely see them on MySQL.</p><h3>7. The MySQL Default: REPEATABLE READ</h3><p>InnoDB's REPEATABLE READ uses <em>multi-version concurrency control</em> (MVCC). When a transaction starts, it snapshots the database. All its SELECTs see that snapshot, so non-repeatable reads are impossible. Other transactions' writes are invisible until this one commits and a new snapshot is taken.</p><p>InnoDB also uses next-key locks for writes, which prevents phantoms — stricter than the SQL standard requires. This is why MySQL can use REPEATABLE READ by default without sacrificing much performance.</p><h3>8. Locks: Shared vs Exclusive</h3><table border='1' cellpadding='6'><tr><th>Lock</th><th>Notation</th><th>Allows</th><th>Blocks</th></tr><tr><td>Shared (S)</td><td>LOCK IN SHARE MODE</td><td>Other S locks</td><td>X locks</td></tr><tr><td>Exclusive (X)</td><td>FOR UPDATE</td><td>Nothing</td><td>S and X locks</td></tr></table><pre><code>-- Take a shared lock: other readers OK, no one can UPDATE until we commit\nSTART TRANSACTION;\nSELECT balance FROM accounts WHERE id = 101 LOCK IN SHARE MODE;\n-- ...\nCOMMIT;\n\n-- Take an exclusive lock: nobody else can read or write this row until we commit\nSTART TRANSACTION;\nSELECT balance FROM accounts WHERE id = 101 FOR UPDATE;\nUPDATE accounts SET balance = balance - 500 WHERE id = 101;\nCOMMIT;</code></pre><p>Plain <code>UPDATE</code> and <code>DELETE</code> take exclusive locks automatically. Plain <code>SELECT</code> takes no lock (under REPEATABLE READ it reads the snapshot instead).</p><h3>9. SELECT ... FOR UPDATE: The Idiom</h3><p>The standard concurrent-update pattern:</p><pre><code>START TRANSACTION;\n    SELECT balance INTO @bal FROM accounts WHERE id = 101 FOR UPDATE;\n    IF @bal >= 500 THEN\n        UPDATE accounts SET balance = balance - 500 WHERE id = 101;\n    END IF;\nCOMMIT;</code></pre><p>Without FOR UPDATE, two concurrent withdrawals can both read balance = 500, both decide they can withdraw 500, and the account ends at -500. FOR UPDATE serialises the critical section: the second transaction blocks on the lock until the first commits, then reads the new balance of 0 and the IF check prevents the overdraft.</p><h3>10. Deadlocks</h3><p>A <strong>deadlock</strong> occurs when two transactions hold locks the other wants:</p><pre><code>-- T1                        T2\nSTART TRANSACTION;             START TRANSACTION;\nUPDATE accounts                UPDATE accounts\n   SET balance = balance - 100    SET balance = balance - 100\n   WHERE id = 101;                WHERE id = 102;\n-- T1 has X lock on 101         -- T2 has X lock on 102\n\nUPDATE accounts                UPDATE accounts\n   SET balance = balance + 100    SET balance = balance + 100\n   WHERE id = 102;                WHERE id = 101;\n-- waits for T2                 -- waits for T1  -- DEADLOCK</code></pre><p>InnoDB detects deadlocks and aborts one transaction automatically (the one that did less work). The aborted transaction gets error 1213 and must retry.</p><h3>11. Deadlock Avoidance Strategies</h3><ul><li><strong>Access rows in a consistent order.</strong> If every transaction locks account 101 before 102, there is no cycle.</li><li><strong>Keep transactions short.</strong> A long transaction holds locks longer, increasing deadlock probability.</li><li><strong>Use lower isolation (READ COMMITTED)</strong> where business rules allow — it takes fewer locks.</li><li><strong>Catch error 1213 in the application and retry.</strong> Exponential backoff helps avoid thundering herd.</li><li><strong>Add indexes.</strong> Locks attach to index rows; without an index, InnoDB locks more rows than necessary.</li></ul><h3>12. Autocommit Gotchas</h3><pre><code>-- Autocommit ON (default). Each statement is a transaction.\nUPDATE accounts SET balance = balance - 1500 WHERE id = 101;\n-- If the server crashes now, Aarav is out Rs. 1500.\nUPDATE accounts SET balance = balance + 1500 WHERE id = 102;\n\n-- Proper way: explicit transaction\nSTART TRANSACTION;\nUPDATE accounts SET balance = balance - 1500 WHERE id = 101;\nUPDATE accounts SET balance = balance + 1500 WHERE id = 102;\nCOMMIT;</code></pre><p>START TRANSACTION implicitly turns off autocommit for the duration of the transaction. You do not need to SET autocommit = 0 first.</p><h3>13. When a Transaction Is Implicitly Committed</h3><p>Many DDL statements (CREATE TABLE, ALTER TABLE, DROP TABLE, CREATE INDEX) cause an implicit COMMIT of the current transaction. This catches beginners off guard: wrapping DDL in a transaction does not give you rollback. Use DDL carefully in production — there is no \"undo\" for a DROP TABLE via ROLLBACK.</p>"
+    ,
+    "codeExamples": [
+      {
+        "title": "Bank Transfer with Explicit Transaction",
+        "code": "CREATE TABLE accounts (\n    id INT PRIMARY KEY,\n    holder VARCHAR(50),\n    balance DECIMAL(10,2) NOT NULL CHECK (balance >= 0)\n);\n\nINSERT INTO accounts VALUES\n(101, 'Aarav', 5000.00),\n(102, 'Priya', 2000.00);\n\nSTART TRANSACTION;\n    UPDATE accounts SET balance = balance - 1500 WHERE id = 101;\n    UPDATE accounts SET balance = balance + 1500 WHERE id = 102;\nCOMMIT;\n\nSELECT * FROM accounts;",
+        "language": "sql",
+        "explanation": "The two UPDATEs run inside one transaction. A crash, an error, or a ROLLBACK between them leaves both balances unchanged. A successful COMMIT makes both changes durably visible. The CHECK constraint (balance >= 0) adds a consistency guarantee: even the transaction cannot end with a negative balance.",
+        "output": "+-----+--------+---------+\n| id  | holder | balance |\n+-----+--------+---------+\n| 101 | Aarav  | 3500.00 |\n| 102 | Priya  | 3500.00 |\n+-----+--------+---------+"
+      },
+      {
+        "title": "Rollback on Error",
+        "code": "CREATE TABLE inventory (\n    product_id INT PRIMARY KEY,\n    name VARCHAR(50),\n    stock INT NOT NULL CHECK (stock >= 0)\n);\n\nINSERT INTO inventory VALUES (1, 'Laptop', 5), (2, 'Mouse', 10);\n\nSTART TRANSACTION;\n    UPDATE inventory SET stock = stock - 3 WHERE product_id = 1;\n    -- Second update violates the CHECK; error 3819\n    UPDATE inventory SET stock = stock - 20 WHERE product_id = 2;\n-- The second UPDATE fails. We must ROLLBACK.\nROLLBACK;\n\nSELECT * FROM inventory;",
+        "language": "sql",
+        "explanation": "Note that MySQL does not automatically roll back on a statement error — the transaction is still open. It is the application's job to detect the error and call ROLLBACK. Good client libraries do this in their exception handling. After ROLLBACK, both UPDATEs are undone; Laptop goes back to 5 and Mouse stays at 10.",
+        "output": "+------------+--------+-------+\n| product_id | name   | stock |\n+------------+--------+-------+\n|          1 | Laptop |     5 |\n|          2 | Mouse  |    10 |\n+------------+--------+-------+\n-- After ROLLBACK: everything reverts."
+      },
+      {
+        "title": "SAVEPOINT for Partial Rollback",
+        "code": "CREATE TABLE orders (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    customer_id INT,\n    total DECIMAL(10,2)\n);\n\nCREATE TABLE order_items (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    order_id INT,\n    product_id INT,\n    qty INT\n);\n\nSTART TRANSACTION;\n    INSERT INTO orders(customer_id, total) VALUES (7, 1500.00);\n    SET @oid = LAST_INSERT_ID();\n\n    SAVEPOINT before_items;\n\n    INSERT INTO order_items(order_id, product_id, qty) VALUES (@oid, 42, 2);\n    -- Suppose this was a wrong product. Roll back just the items.\n    ROLLBACK TO SAVEPOINT before_items;\n\n    -- Now insert the correct items\n    INSERT INTO order_items(order_id, product_id, qty) VALUES (@oid, 99, 1);\nCOMMIT;\n\nSELECT o.id AS order_id, o.total, i.product_id, i.qty\nFROM orders o LEFT JOIN order_items i ON i.order_id = o.id;",
+        "language": "sql",
+        "explanation": "SAVEPOINT lets you undo part of a transaction without losing the whole thing. Here the initial order row is kept, but the wrong item is rolled back and replaced with the correct one. ROLLBACK TO SAVEPOINT does not end the transaction; the outer transaction continues until COMMIT or ROLLBACK.",
+        "output": "+----------+---------+------------+-----+\n| order_id | total   | product_id | qty |\n+----------+---------+------------+-----+\n|        1 | 1500.00 |         99 |   1 |\n+----------+---------+------------+-----+"
+      },
+      {
+        "title": "Demonstrating Dirty Read (READ UNCOMMITTED)",
+        "code": "-- Session 1\nSET SESSION TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;\nSTART TRANSACTION;\nSELECT balance FROM accounts WHERE id = 101;  -- 5000\n\n-- Session 2 (in another connection)\n-- START TRANSACTION;\n-- UPDATE accounts SET balance = 9999 WHERE id = 101;\n-- (don't commit yet)\n\n-- Back in Session 1\nSELECT balance FROM accounts WHERE id = 101;  -- 9999 (DIRTY READ!)\n-- We see uncommitted data.\n\n-- Session 2\n-- ROLLBACK;\n\n-- Session 1 acted on a value that never officially existed.\nCOMMIT;",
+        "language": "sql",
+        "explanation": "READ UNCOMMITTED allows a transaction to read uncommitted changes made by other transactions. If those other transactions roll back, the reader has used phantom data. This level is almost never appropriate in production — use READ COMMITTED or REPEATABLE READ instead.",
+        "output": "-- Session 1 output:\n-- First SELECT: 5000\n-- Second SELECT: 9999 (dirty read from Session 2's uncommitted transaction)\n-- Session 2 then rolls back; balance reverts to 5000.\n-- Session 1 was momentarily reading non-existent data."
+      },
+      {
+        "title": "SELECT ... FOR UPDATE Prevents a Race Condition",
+        "code": "CREATE TABLE seats (\n    id INT PRIMARY KEY,\n    flight VARCHAR(10),\n    booked_by INT NULL\n);\n\nINSERT INTO seats VALUES (1, 'AI-101', NULL);\n\n-- Session 1 (Aarav is trying to book)\nSTART TRANSACTION;\nSELECT booked_by FROM seats WHERE id = 1 FOR UPDATE;\n-- booked_by = NULL. Aarav books:\nUPDATE seats SET booked_by = 1001 WHERE id = 1;\nCOMMIT;\n\n-- Session 2 (Priya, started at the same moment)\nSTART TRANSACTION;\nSELECT booked_by FROM seats WHERE id = 1 FOR UPDATE;\n-- Blocks until Session 1 commits.\n-- Once unblocked, sees booked_by = 1001.\n-- Her application code checks NULL, fails, aborts:\nROLLBACK;\n\nSELECT * FROM seats;",
+        "language": "sql",
+        "explanation": "<code>FOR UPDATE</code> takes an exclusive lock on the row. Session 2's SELECT blocks until Session 1 commits, so Session 2 sees the post-commit state (booked_by = 1001) and decides not to overwrite. Without FOR UPDATE, both sessions would read NULL simultaneously and both would book the seat. This is the canonical pattern for 'read-check-update' critical sections.",
+        "output": "+----+--------+-----------+\n| id | flight | booked_by |\n+----+--------+-----------+\n|  1 | AI-101 |      1001 |\n+----+--------+-----------+\n-- Only Aarav booked. Priya's second attempt saw it was already booked."
+      },
+      {
+        "title": "Deadlock and Recovery",
+        "code": "-- Session 1\nSTART TRANSACTION;\nUPDATE accounts SET balance = balance - 100 WHERE id = 101;\n-- Holds X lock on 101\n\n-- Session 2\nSTART TRANSACTION;\nUPDATE accounts SET balance = balance - 100 WHERE id = 102;\n-- Holds X lock on 102\n\n-- Session 1 tries to lock 102\nUPDATE accounts SET balance = balance + 100 WHERE id = 102;  -- waits for Session 2\n\n-- Session 2 tries to lock 101\nUPDATE accounts SET balance = balance + 100 WHERE id = 101;  -- waits for Session 1\n-- DEADLOCK! InnoDB picks one to kill.\n-- ERROR 1213 (40001): Deadlock found when trying to get lock;\n--                      try restarting transaction\n\n-- Recovery: the losing transaction must retry\nROLLBACK;\nSTART TRANSACTION;\nUPDATE accounts SET balance = balance - 100 WHERE id = 102;\nUPDATE accounts SET balance = balance + 100 WHERE id = 101;\nCOMMIT;",
+        "language": "sql",
+        "explanation": "Two transactions each hold a lock the other wants — a cycle. InnoDB detects this and kills one transaction (typically the one that has done less work) with error 1213. The application must catch 1213 and retry. The fix for recurring deadlocks is to always lock accounts in a consistent order (e.g. lowest id first).",
+        "output": "ERROR 1213 (40001): Deadlock found when trying to get lock;\ntry restarting transaction\n-- After rollback and retry in a consistent order, the transaction succeeds."
+      },
+      {
+        "title": "Setting and Inspecting the Isolation Level",
+        "code": "-- Check current level\nSELECT @@transaction_isolation;\n-- 'REPEATABLE-READ'\n\n-- Change for the current session\nSET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;\n\n-- Or only for the next transaction\nSET TRANSACTION ISOLATION LEVEL SERIALIZABLE;\nSTART TRANSACTION;\n    -- queries run under SERIALIZABLE here\nCOMMIT;\n\n-- Back to default REPEATABLE READ\nSET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ;\n\n-- Global default (requires SUPER privilege, affects new connections)\nSET GLOBAL TRANSACTION ISOLATION LEVEL READ COMMITTED;",
+        "language": "sql",
+        "explanation": "Isolation level is a per-connection setting. <code>SET SESSION</code> affects every transaction in this connection. <code>SET TRANSACTION</code> (without SESSION) affects only the next transaction. <code>SET GLOBAL</code> changes the server-wide default for new connections.",
+        "output": "+-------------------------+\n| @@transaction_isolation |\n+-------------------------+\n| REPEATABLE-READ         |\n+-------------------------+"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Assuming Errors Auto-Rollback",
+        "wrongCode": "START TRANSACTION;\nUPDATE accounts SET balance = balance - 500 WHERE id = 101;\nUPDATE accounts SET balance = balance + 500 WHERE id = 999;  -- id does not exist\n-- Assumes MySQL rolled back. It did not.\nCOMMIT;  -- The first UPDATE is committed!",
+        "error": "No SQL error, but the money has disappeared. Aarav was debited 500; no one was credited.",
+        "correctCode": "-- Check rows-affected after each statement, or use a stored procedure with a handler\nDELIMITER $$\nCREATE PROCEDURE safe_transfer(IN f INT, IN t INT, IN amt DECIMAL(10,2))\nBEGIN\n    DECLARE EXIT HANDLER FOR SQLEXCEPTION\n    BEGIN ROLLBACK; RESIGNAL; END;\n\n    START TRANSACTION;\n        UPDATE accounts SET balance = balance - amt WHERE id = f;\n        IF ROW_COUNT() = 0 THEN\n            SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Source not found';\n        END IF;\n        UPDATE accounts SET balance = balance + amt WHERE id = t;\n        IF ROW_COUNT() = 0 THEN\n            SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Destination not found';\n        END IF;\n    COMMIT;\nEND$$\nDELIMITER ;",
+        "explanation": "A statement-level error (constraint violation, syntax error) does <em>not</em> auto-rollback the transaction in MySQL. Your application must notice the error and explicitly ROLLBACK. The corrected version uses an EXIT handler and ROW_COUNT() checks to catch both errors and \"no rows affected\" anomalies."
+      },
+      {
+        "title": "Forgetting FOR UPDATE in a Read-Modify-Write",
+        "wrongCode": "-- Two withdrawals run concurrently\n-- Session 1\nSTART TRANSACTION;\nSELECT balance FROM accounts WHERE id = 101;  -- 500\n-- decide: 500 >= 300, OK to withdraw\nUPDATE accounts SET balance = balance - 300 WHERE id = 101;\nCOMMIT;\n\n-- Session 2 (runs simultaneously)\nSTART TRANSACTION;\nSELECT balance FROM accounts WHERE id = 101;  -- still 500 (MVCC snapshot or timing)\nUPDATE accounts SET balance = balance - 300 WHERE id = 101;\n-- Final balance: -100! Overdraft.\nCOMMIT;",
+        "error": "No error — but the business rule (no overdraft) is violated.",
+        "correctCode": "-- Session 1 and Session 2 both:\nSTART TRANSACTION;\nSELECT balance FROM accounts WHERE id = 101 FOR UPDATE;\n-- exclusive lock: the second session blocks here until the first commits\nIF balance >= 300 THEN\n    UPDATE accounts SET balance = balance - 300 WHERE id = 101;\nEND IF;\nCOMMIT;",
+        "explanation": "Plain SELECT under MVCC reads a consistent snapshot but takes no lock. Two sessions see the same balance, both decide to withdraw, and the write amplifies into an overdraft. <code>FOR UPDATE</code> forces serialised access to that row for the duration of the transaction."
+      },
+      {
+        "title": "Long-Running Transactions Starving Others",
+        "wrongCode": "START TRANSACTION;\n-- app fetches user data (200ms)\n-- app calls external API (5s)  <-- DO NOT DO THIS\n-- app finally runs UPDATEs\nCOMMIT;",
+        "error": "No error, but every row touched by this transaction is locked for 5+ seconds, blocking every other transaction that needs those rows. Throughput collapses.",
+        "correctCode": "-- Call external APIs OUTSIDE the transaction\n-- app calls external API (5s)\n-- START TRANSACTION only once we have the data\nSTART TRANSACTION;\n-- short, local SQL operations\nCOMMIT;",
+        "explanation": "A transaction holds locks from its first modifying statement until COMMIT or ROLLBACK. Anything done inside a transaction should be cheap SQL. Never make network calls to external systems inside a transaction — you are turning every external latency spike into a database outage."
+      },
+      {
+        "title": "Wrapping DDL in a Transaction Expecting Rollback",
+        "wrongCode": "START TRANSACTION;\nCREATE TABLE tmp (id INT);\nINSERT INTO tmp VALUES (1), (2), (3);\nROLLBACK;\n-- Expecting tmp to disappear. It doesn't. The INSERTs are rolled back,\n-- but CREATE TABLE caused an implicit COMMIT, so the table remains\n-- (and so would the INSERTs if they ran after the CREATE).",
+        "error": "No error — but the DDL is not rolled back. In MySQL, DDL statements cause implicit commits.",
+        "correctCode": "-- Option 1: don't expect rollback from DDL; drop manually\nDROP TABLE IF EXISTS tmp;\nCREATE TABLE tmp (id INT);\n\n-- Option 2: use a schema-only dev database and blow it away on failure\n-- Option 3: MySQL 8.0 atomic DDL only covers table-creation rollback for\n--           some storage engines; still, don't rely on it for migration safety",
+        "explanation": "CREATE, ALTER, DROP, RENAME, TRUNCATE all cause implicit COMMITs in MySQL. ROLLBACK after DDL undoes nothing about the DDL. Treat DDL as permanent — plan migrations with reversible steps rather than trusting rollback."
+      },
+      {
+        "title": "Not Retrying on Deadlock",
+        "wrongCode": "try:\n    cursor.execute('START TRANSACTION')\n    cursor.execute('UPDATE ...')\n    cursor.execute('UPDATE ...')\n    cursor.execute('COMMIT')\nexcept Exception as e:\n    logger.error(f'Failed: {e}')   # deadlock errors are logged but not retried\n    raise",
+        "error": "ERROR 1213 (40001): Deadlock found when trying to get lock; try restarting transaction. Under contention, you will see these fairly often in correctly-written systems.",
+        "correctCode": "for attempt in range(3):\n    try:\n        cursor.execute('START TRANSACTION')\n        cursor.execute('UPDATE ...')\n        cursor.execute('UPDATE ...')\n        cursor.execute('COMMIT')\n        break\n    except DeadlockError:\n        cursor.execute('ROLLBACK')\n        time.sleep(0.01 * (2 ** attempt))  # exponential backoff\nelse:\n    raise RuntimeError('Gave up after 3 deadlock retries')",
+        "explanation": "Deadlocks are not bugs in the application — they are a fact of concurrent database life. The correct response is to catch error 1213 (40001), ROLLBACK, back off briefly, and retry. Your ORM may handle this; if it does not, wrap write transactions in a retry loop."
+      }
+    ],
+    "summary": [
+      "A transaction is a group of SQL statements treated as one atomic unit: all commit together or none do. START TRANSACTION begins one, COMMIT makes changes permanent, ROLLBACK undoes them.",
+      "ACID: Atomicity (all or nothing), Consistency (constraints preserved), Isolation (concurrent transactions don't see each other's partial work), Durability (committed data survives crashes because it is in the redo log on disk).",
+      "MySQL runs with autocommit = 1 by default — every standalone statement is its own transaction. Call START TRANSACTION to group statements. SET autocommit = 0 makes autocommit off for the connection.",
+      "SAVEPOINT name; marks a rollback target inside a transaction. ROLLBACK TO SAVEPOINT name; undoes everything since that savepoint without ending the transaction. Useful for long workflows that branch and unwind.",
+      "Four isolation levels, from weakest to strongest: READ UNCOMMITTED (allows dirty reads), READ COMMITTED (prevents dirty but allows non-repeatable reads), REPEATABLE READ (MySQL default; prevents non-repeatable reads, InnoDB also prevents phantoms), SERIALIZABLE (treats reads like LOCK IN SHARE MODE, prevents all anomalies).",
+      "Dirty read: reading uncommitted data from another transaction. Non-repeatable read: same row returns different values inside one transaction. Phantom read: same range returns different rows inside one transaction.",
+      "InnoDB's REPEATABLE READ uses MVCC snapshots — every SELECT inside a transaction sees the database as of transaction start. Other transactions' writes are invisible until this one commits. That is why REPEATABLE READ is cheap in MySQL.",
+      "SELECT ... FOR UPDATE takes an exclusive (X) lock on the row until COMMIT. Use it for any read-modify-write pattern to prevent lost updates. SELECT ... LOCK IN SHARE MODE takes a shared (S) lock — other readers OK, no writers.",
+      "A deadlock is a cycle of lock waits. InnoDB detects deadlocks and aborts one transaction with error 1213 (SQLSTATE 40001). Always catch this error in application code and retry the transaction.",
+      "Avoid deadlocks by: accessing rows in a consistent order, keeping transactions short, not making network calls inside transactions, adding indexes (locks attach to index rows, so better indexes = fewer rows locked), and using READ COMMITTED where your business rules permit."
+    ]
+  },
+  "relatedTopics": ["views-and-stored-procedures", "triggers-and-events", "indexes-and-performance"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does the A in ACID stand for, and what does it guarantee?",
+        "hint": "Think all-or-nothing.",
+        "answer": "Atomicity. Every statement inside a transaction succeeds together or none of them do. A partial completion is impossible — on ROLLBACK or crash, the entire transaction is undone.",
+        "explanation": "Atomicity is implemented via the undo log: changes are kept in a rollback buffer until COMMIT, which discards the undo; ROLLBACK applies it in reverse."
+      },
+      {
+        "id": "ts-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Which statement begins a transaction in MySQL?",
+        "hint": "Two equivalent keywords.",
+        "answer": "<code>START TRANSACTION;</code> (preferred) or <code>BEGIN;</code>. Both are equivalent in MySQL. They implicitly turn off autocommit for the duration of the transaction.",
+        "explanation": "BEGIN is older SQL-89 syntax; START TRANSACTION is the modern standard."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the final balance?<pre><code>-- starts: 1000\nSTART TRANSACTION;\nUPDATE accounts SET balance = balance + 200 WHERE id = 1;\nUPDATE accounts SET balance = balance - 50 WHERE id = 1;\nROLLBACK;\nSELECT balance FROM accounts WHERE id = 1;</code></pre>",
+        "hint": "ROLLBACK undoes both UPDATEs.",
+        "answer": "<code>1000</code>",
+        "explanation": "ROLLBACK undoes every change since START TRANSACTION. The balance returns to its pre-transaction value of 1000."
+      },
+      {
+        "id": "ts-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is MySQL's default isolation level?",
+        "hint": "Four words.",
+        "answer": "<code>REPEATABLE READ</code>. Unlike some databases (PostgreSQL defaults to READ COMMITTED), MySQL/InnoDB chose REPEATABLE READ as its default because MVCC makes it cheap and it prevents most common anomalies.",
+        "explanation": "InnoDB's REPEATABLE READ also uses next-key locking, which in practice prevents phantom reads — stricter than the SQL standard requires."
+      },
+      {
+        "id": "ts-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is a dirty read?",
+        "hint": "Think 'data that doesn't officially exist yet'.",
+        "answer": "Reading a row that has been modified by another transaction that has not yet committed. If the writer then ROLLBACKs, the reader has seen data that never officially existed. Only READ UNCOMMITTED permits dirty reads.",
+        "explanation": "Almost no production system uses READ UNCOMMITTED. It exists mainly as an academic example of the weakest level."
+      },
+      {
+        "id": "ts-6",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does COMMIT do?",
+        "hint": "Two guarantees: visibility and durability.",
+        "answer": "Makes all changes inside the transaction (a) visible to other transactions and (b) durably written to the redo log on disk, so they survive a crash. After COMMIT, ROLLBACK cannot undo them.",
+        "explanation": "InnoDB uses a write-ahead log: the redo log is flushed to disk before COMMIT returns. Data pages may be updated lazily in the background, but the log is authoritative."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Final balance?<pre><code>START TRANSACTION;\nUPDATE accounts SET balance = balance + 100 WHERE id = 1;  -- 1000 -> 1100\nSAVEPOINT p1;\nUPDATE accounts SET balance = balance + 200 WHERE id = 1;  -- 1100 -> 1300\nROLLBACK TO SAVEPOINT p1;\nCOMMIT;</code></pre>",
+        "hint": "Roll back to the savepoint, then commit.",
+        "answer": "<code>1100</code>",
+        "explanation": "ROLLBACK TO SAVEPOINT p1 undoes the second UPDATE but keeps the first one. COMMIT then persists the state as of the savepoint."
+      },
+      {
+        "id": "ts-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Which isolation level prevents dirty reads but still allows non-repeatable reads?",
+        "hint": "Read only committed data, but another transaction can commit mid-way through yours.",
+        "answer": "<code>READ COMMITTED</code>.",
+        "explanation": "READ COMMITTED reads the latest committed snapshot on each statement. So if another transaction commits between two SELECTs in yours, the second SELECT sees different data — that is a non-repeatable read."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does SELECT ... FOR UPDATE do?",
+        "hint": "Acquires an exclusive lock.",
+        "answer": "Acquires an exclusive (X) lock on the matching rows for the duration of the transaction. Other transactions that try to SELECT FOR UPDATE, LOCK IN SHARE MODE, or modify those rows block until this transaction commits or rolls back. Plain SELECTs still work (they read the MVCC snapshot).",
+        "explanation": "It is the standard way to implement 'read, decide, write' critical sections safely under concurrency."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is a deadlock, and how does InnoDB handle it?",
+        "hint": "Cycle of lock waits + detection.",
+        "answer": "A deadlock is a cycle in the wait-for graph: T1 waits for a lock T2 holds, T2 waits for a lock T1 holds. InnoDB's deadlock detector notices the cycle and aborts one of the transactions (the one that has done less work) with ERROR 1213 / SQLSTATE 40001. The aborted transaction must retry.",
+        "explanation": "MySQL's detector runs on every lock request, so deadlocks are resolved in milliseconds. Applications must handle error 1213 gracefully with a retry loop."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does InnoDB use MVCC for REPEATABLE READ rather than taking read locks?",
+        "hint": "Concurrency.",
+        "answer": "MVCC lets readers and writers run concurrently without blocking each other. SELECT sees a snapshot of the database as of transaction start, regardless of concurrent writes. Taking read locks instead would force readers to queue behind writers and vice versa, crushing throughput.",
+        "explanation": "This is why MySQL's default REPEATABLE READ is fast — reads are lock-free. Writes still need locks."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Is SERIALIZABLE always the right choice for safety?",
+        "hint": "Think cost.",
+        "answer": "No. SERIALIZABLE effectively upgrades every SELECT to LOCK IN SHARE MODE and blocks writers until readers commit. Under high concurrency, throughput plummets. Use SERIALIZABLE only for short, critical sections where the anomalies prevented are genuine problems.",
+        "explanation": "The engineering trade-off: stronger isolation reduces throughput. Pick the weakest level that still prevents anomalies your business cares about."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain why two concurrent withdrawals without FOR UPDATE can cause an overdraft even under REPEATABLE READ.",
+        "hint": "Think MVCC snapshots vs write locks.",
+        "answer": "Each transaction's SELECT reads the MVCC snapshot taken at transaction start — both see balance = 500. Each transaction's IF check decides 500 >= 300 is OK and issues an UPDATE. UPDATE takes a write lock, so the second one waits, but once it acquires it, it just executes <code>balance = balance - 300</code> on the current (already-debited) value. Final balance: -100. REPEATABLE READ prevents the read from changing, not the arithmetic from overshooting. FOR UPDATE forces the SELECT itself to lock, serialising the whole critical section.",
+        "explanation": "This is the 'lost update / write skew' class of anomaly. It is not prevented by REPEATABLE READ — only by explicit row locks (FOR UPDATE) or SERIALIZABLE."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why must DDL statements be treated as permanent in MySQL transactions?",
+        "hint": "Implicit commits.",
+        "answer": "Statements like CREATE TABLE, ALTER TABLE, DROP TABLE, TRUNCATE, and RENAME cause an implicit COMMIT of the current transaction. A subsequent ROLLBACK cannot undo the DDL (the table is still created/dropped/altered). This is a MySQL-specific behaviour — some databases (PostgreSQL) have transactional DDL. Plan migrations accordingly.",
+        "explanation": "MySQL 8.0 introduced 'atomic DDL' for some storage engines and some statements, but you should still not rely on it for production migrations."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "How does adding an index reduce lock contention?",
+        "hint": "Locks attach to what the engine scans.",
+        "answer": "InnoDB locks the index rows it reads to enforce isolation. Without an index on the WHERE column, a statement scans (and thus locks) far more rows than it needs — potentially the whole table. With an index, only the matching index entries are locked. Better indexes mean less locking, fewer deadlocks, and higher concurrency.",
+        "explanation": "This is why advice to 'add the right indexes' is not just about query speed — it is also about concurrency safety."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Describe the 'transactional outbox' pattern and when to use it.",
+        "hint": "Reliable event emission from transactional systems.",
+        "answer": "Instead of calling an external system (email, message queue, webhook) from inside a DB transaction, INSERT a row into an <code>outbox</code> table as part of the transaction. A separate background worker reads committed outbox rows and dispatches them, marking them sent. If the transaction rolls back, the outbox row is rolled back too, so no message is emitted for a cancelled transaction. If the worker crashes, unprocessed rows remain and are retried.",
+        "explanation": "It avoids the two-phase commit problem between DB and message broker. Used by Kafka-based microservices, Stripe-style payment systems, etc."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "A long-running SELECT inside a transaction holds a snapshot for 10 minutes. What is the downside on a busy server?",
+        "hint": "Undo log growth.",
+        "answer": "InnoDB must keep old versions of every row modified during those 10 minutes, in case the long-running transaction reads them. The undo log (rollback segment) grows proportionally, filling disk and slowing every other transaction. This is the 'history list length' problem. Kill long-running read transactions with <code>KILL</code> or split them into smaller chunks.",
+        "explanation": "Monitor with <code>SHOW ENGINE INNODB STATUS</code> and look for 'History list length'. Anything over a few hundred thousand is a red flag."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What does this return?<pre><code>-- balance starts at 100\nSTART TRANSACTION;\nUPDATE t SET balance = 500 WHERE id = 1;\nROLLBACK;\nSELECT balance FROM t WHERE id = 1;</code></pre>",
+        "hint": "Rollback undoes the update.",
+        "answer": "<code>100</code>",
+        "explanation": "ROLLBACK restores pre-transaction state."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Is SELECT * FROM t inside a transaction blocking under MySQL REPEATABLE READ?",
+        "hint": "MVCC.",
+        "answer": "No. Plain SELECT reads the MVCC snapshot without taking any row lock, so it does not block and is not blocked by other writers.",
+        "explanation": "You only block on SELECT ... FOR UPDATE, SELECT ... LOCK IN SHARE MODE, or under SERIALIZABLE."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the final value?<pre><code>-- x starts at 10\nSTART TRANSACTION;\nUPDATE t SET x = x + 1 WHERE id = 1;  -- 11\nSAVEPOINT a;\nUPDATE t SET x = x + 1 WHERE id = 1;  -- 12\nSAVEPOINT b;\nUPDATE t SET x = x + 1 WHERE id = 1;  -- 13\nROLLBACK TO SAVEPOINT a;\nCOMMIT;\nSELECT x FROM t;</code></pre>",
+        "hint": "Roll back to savepoint 'a' removes changes after it.",
+        "answer": "<code>11</code>",
+        "explanation": "ROLLBACK TO SAVEPOINT a undoes the changes made after SAVEPOINT a (the two +1 UPDATEs). The x = x + 1 before the savepoint persists. Final x = 11."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Name three ways to cause a deadlock.",
+        "hint": "Cycle creation.",
+        "answer": "(1) Two transactions update the same rows in opposite orders (T1 locks 101 then 102; T2 locks 102 then 101). (2) Transactions taking locks from left to right on different indexes that overlap. (3) A transaction locking a gap (next-key lock) that another transaction tries to insert into. All three create cycles.",
+        "explanation": "The common fix for all three: access rows/indexes in a deterministic, consistent order."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Under REPEATABLE READ in InnoDB, can a phantom read occur on a plain SELECT?",
+        "hint": "InnoDB uses snapshots for reads.",
+        "answer": "No. MVCC snapshots make every SELECT inside the transaction see the same set of rows regardless of concurrent INSERTs that are committed after the transaction started. For plain reads, InnoDB REPEATABLE READ is effectively serializable.",
+        "explanation": "The phantom anomaly can still appear with locking reads (FOR UPDATE) if you do not also take gap locks, but InnoDB's next-key locking covers that too."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Two sessions run:<pre><code>-- Session 1\nSTART TRANSACTION;\nUPDATE t SET x = 100 WHERE id = 1;\n-- no commit yet\n\n-- Session 2 (READ COMMITTED)\nSTART TRANSACTION;\nSELECT x FROM t WHERE id = 1;</code></pre>What does Session 2's SELECT return (assuming original x = 5)?",
+        "hint": "READ COMMITTED reads the latest COMMITTED value.",
+        "answer": "<code>5</code>",
+        "explanation": "Session 1's UPDATE is not yet committed. Session 2 under READ COMMITTED reads the latest committed value, which is the original 5. Session 2 waits at nothing — it reads without blocking because plain SELECT does not block on write locks under MVCC."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does LOCK IN SHARE MODE guarantee?",
+        "hint": "Shared lock semantics.",
+        "answer": "Takes a shared (S) lock on the read rows for the duration of the transaction. Other transactions can also take S locks, so concurrent readers coexist. But no one can take an X lock (no UPDATE, no DELETE, no FOR UPDATE) on those rows until this transaction commits. Use it for 'read now, I will need the value to stay consistent for the rest of my transaction' scenarios.",
+        "explanation": "Less common than FOR UPDATE in production code because REPEATABLE READ's snapshot usually gives you what you need without any locking."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "A payment service sees 20 deadlocks per minute. What are the first three things to check?",
+        "hint": "Ordering, indexes, transaction length.",
+        "answer": "(1) Are transactions locking rows in a consistent order? Sort by id before updating multiple rows. (2) Are the WHERE clauses indexed? A missing index locks far more rows than necessary, amplifying contention. (3) How long are the transactions? External API calls, large scans, or slow queries inside transactions expand the lock window; shorten them.",
+        "explanation": "Beyond 20 deadlocks per minute you should also enable <code>innodb_print_all_deadlocks</code> to log each deadlock's SQL and inspect the patterns in the error log."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What happens?<pre><code>-- Session 1 (autocommit OFF)\nUPDATE accounts SET balance = balance - 100 WHERE id = 1;\n-- forgets to COMMIT and moves on\n\n-- Session 2\nSELECT balance FROM accounts WHERE id = 1;  -- under REPEATABLE READ</code></pre>",
+        "hint": "Think about what Session 2 sees and whether Session 2 blocks.",
+        "answer": "Session 2's plain SELECT returns the old, pre-deduction balance and does not block. Session 1's uncommitted UPDATE is invisible under MVCC. But Session 1's lock is still held indefinitely, so any <em>write</em> to row id = 1 by another session will block until Session 1 commits, rolls back, or is killed.",
+        "explanation": "Forgotten transactions are a classic cause of 'the database hangs' — they hold locks forever. Connection pools, idle timeouts, and <code>innodb_rollback_on_timeout</code> help but are not a substitute for careful app code."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you never call an external API inside a transaction?",
+        "hint": "Locks and latency.",
+        "answer": "Locks are held from the first write statement until COMMIT/ROLLBACK. An external call can take seconds and has unpredictable latency. Every row your transaction has touched is locked for the duration. Under load, a 3-second API call turns into a 3-second outage for anyone else touching those rows. Perform external calls before START TRANSACTION (to get inputs) or after COMMIT (to emit events via the outbox pattern).",
+        "explanation": "'Chatty' transactions that mix local DB work with remote calls are among the top-3 causes of production database outages at scale."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "Final balances after:<pre><code>-- accounts: 101:1000, 102:1000\nSET autocommit = 0;\n\nUPDATE accounts SET balance = balance - 300 WHERE id = 101;\n-- connection drops here without COMMIT or ROLLBACK</code></pre>",
+        "hint": "What happens to uncommitted work when the connection closes?",
+        "answer": "101:1000, 102:1000. When the client disconnects without COMMIT, MySQL rolls back any uncommitted work automatically. Aarav's balance is restored.",
+        "explanation": "This is a durability/atomicity interaction: uncommitted changes never become durable, and they disappear at disconnection."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain write skew and whether REPEATABLE READ prevents it.",
+        "hint": "Two transactions each read a consistent snapshot and write different rows.",
+        "answer": "Write skew: two transactions each read a consistent view of the data, then each writes to a different row. Individually, each write is valid — but the combined effect breaks an invariant. Example: two on-call engineers. Rule: at least one must be on call. Each transaction checks 'I am the only one off-call, but there is still one other' and then both go off-call simultaneously. REPEATABLE READ does not prevent this because neither transaction modified a row the other read. Only SERIALIZABLE or explicit FOR UPDATE on the invariant rows prevents it.",
+        "explanation": "Write skew is the classic reason SERIALIZABLE sometimes matters. It is rare but real — identify it by invariants that span multiple rows and involve a read-then-write pattern."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is innodb_lock_wait_timeout and when does it matter?",
+        "hint": "Default 50 seconds.",
+        "answer": "The number of seconds a transaction will wait for a row lock before giving up with error 1205 (Lock wait timeout exceeded). Default is 50 seconds. For OLTP workloads, 50 seconds is far too long — it amounts to an outage from the user's perspective. Setting it to 3-5 seconds surfaces contention problems quickly and keeps p99 latency in check.",
+        "explanation": "Note this is different from the deadlock detector (which triggers immediately on a cycle). Lock wait timeout triggers on long one-way waits, where no cycle exists but a lock is held for a very long time."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Would setting isolation level to READ COMMITTED fix a deadlock caused by next-key locks on a range UPDATE?",
+        "hint": "READ COMMITTED uses only row locks, no gap locks.",
+        "answer": "Often yes. Under READ COMMITTED, InnoDB takes only row locks (not next-key / gap locks), so range UPDATEs lock fewer slots and deadlocks caused by concurrent inserts into the gap disappear. The trade-off: you give up phantom-read prevention, which can matter for some reports. Measure before flipping the switch.",
+        "explanation": "Many high-throughput shops run on READ COMMITTED for this reason. Design your reports to tolerate the weaker isolation."
+      },
+      {
+        "id": "mx-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Two ways to recover from a stuck long-running transaction.",
+        "hint": "Kill or wait.",
+        "answer": "(1) <code>SHOW PROCESSLIST</code> to find the offending thread, then <code>KILL &lt;id&gt;;</code> to terminate it and roll it back. (2) Ride out the storm and alert on lock wait timeouts; the transaction eventually commits, rolls back, or the client disconnects. Option 1 is usually the right call in production.",
+        "explanation": "Also worth knowing: <code>SELECT * FROM information_schema.INNODB_TRX ORDER BY trx_started</code> shows the oldest running transactions — a goldmine for diagnosing lock contention."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does ROLLBACK do?",
+        "options": {
+          "A": "Commits the transaction",
+          "B": "Undoes all changes since START TRANSACTION",
+          "C": "Restarts the server",
+          "D": "Disables autocommit"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> ROLLBACK returns the database to the state it was in when the transaction started."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which letter in ACID stands for 'committed data survives crashes'?",
+        "options": {
+          "A": "A",
+          "B": "C",
+          "C": "I",
+          "D": "D"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> D = Durability. Backed by the write-ahead redo log being flushed to disk at COMMIT time."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which is MySQL's default isolation level?",
+        "options": {
+          "A": "READ UNCOMMITTED",
+          "B": "READ COMMITTED",
+          "C": "REPEATABLE READ",
+          "D": "SERIALIZABLE"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> MySQL/InnoDB defaults to REPEATABLE READ, unlike PostgreSQL which defaults to READ COMMITTED."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which statement takes an exclusive lock on the matched rows?",
+        "options": {
+          "A": "SELECT * FROM t WHERE id = 1",
+          "B": "SELECT * FROM t WHERE id = 1 LOCK IN SHARE MODE",
+          "C": "SELECT * FROM t WHERE id = 1 FOR UPDATE",
+          "D": "SELECT * FROM t WHERE id = 1 NO LOCK"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> FOR UPDATE takes an X lock, blocking any other write or locking read until the transaction ends."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is autocommit = 1?",
+        "options": {
+          "A": "Every statement runs in its own transaction that commits immediately",
+          "B": "Transactions never commit until the server restarts",
+          "C": "The server rejects all writes",
+          "D": "COMMIT is replaced by ROLLBACK"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> autocommit = 1 is MySQL's default. Each standalone statement is its own mini-transaction. START TRANSACTION suspends autocommit until COMMIT or ROLLBACK."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which anomaly can still occur under READ COMMITTED?",
+        "options": {
+          "A": "Dirty read",
+          "B": "Non-repeatable read",
+          "C": "Both dirty and non-repeatable",
+          "D": "None"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> READ COMMITTED blocks dirty reads but still allows non-repeatable reads (a committed UPDATE from another transaction is visible on your next SELECT)."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does SAVEPOINT enable?",
+        "options": {
+          "A": "Bypassing the redo log",
+          "B": "Rolling back only part of a transaction",
+          "C": "Committing part of a transaction",
+          "D": "Pausing replication"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> ROLLBACK TO SAVEPOINT name undoes changes since that savepoint without ending the transaction."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What happens when InnoDB detects a deadlock?",
+        "options": {
+          "A": "The server restarts",
+          "B": "One transaction is aborted with error 1213; the other proceeds",
+          "C": "Both transactions are aborted",
+          "D": "Deadlocks cannot occur in InnoDB"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The deadlock detector kills the transaction that has done less work. The winner finishes, the loser must retry."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which is NOT a way to reduce deadlocks?",
+        "options": {
+          "A": "Access rows in a consistent order",
+          "B": "Keep transactions short",
+          "C": "Add indexes to the WHERE columns",
+          "D": "Remove all PRIMARY KEYs"
+        },
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Removing primary keys hurts both performance and correctness. The other three are standard deadlock mitigations."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Under MySQL/InnoDB REPEATABLE READ, can phantom reads occur on plain SELECTs?",
+        "options": {
+          "A": "Yes, always",
+          "B": "No — MVCC snapshots prevent them",
+          "C": "Only on temporary tables",
+          "D": "Only if autocommit is off"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Plain SELECTs read the transaction-start snapshot, so a concurrent committed INSERT does not appear."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What does DDL do to an open transaction in MySQL?",
+        "options": {
+          "A": "Nothing",
+          "B": "Causes an implicit COMMIT — the transaction cannot roll back prior DDL",
+          "C": "Pauses the transaction",
+          "D": "Converts it to SERIALIZABLE"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> CREATE, ALTER, DROP, TRUNCATE, and RENAME all cause implicit COMMIT. ROLLBACK after DDL cannot undo the DDL."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which lock does a plain UPDATE take on the rows it modifies?",
+        "options": {
+          "A": "Shared (S)",
+          "B": "Exclusive (X)",
+          "C": "No lock",
+          "D": "Intention only"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> UPDATE and DELETE always take X locks on the affected index rows."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Under REPEATABLE READ, two concurrent withdrawals without FOR UPDATE can both see balance = 500 and both succeed. Why?",
+        "options": {
+          "A": "REPEATABLE READ is broken",
+          "B": "MVCC makes reads lock-free, so both see the snapshot; UPDATE applies arithmetic on the current value, causing a lost update / overdraft",
+          "C": "InnoDB automatically serialises UPDATEs to the same row",
+          "D": "The balance column is cached in memory"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The classic 'lost update' pattern. FOR UPDATE is required to serialise the critical section."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Error 1213 (40001) means:",
+        "options": {
+          "A": "Syntax error",
+          "B": "Deadlock — transaction was chosen as the victim; retry",
+          "C": "Connection lost",
+          "D": "Disk full"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Applications must catch 1213 and retry. Exponential backoff reduces thundering-herd retry storms."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which isolation level is effectively achieved for plain reads by InnoDB REPEATABLE READ + MVCC?",
+        "options": {
+          "A": "READ UNCOMMITTED",
+          "B": "READ COMMITTED",
+          "C": "SERIALIZABLE-like (stable snapshot for the whole transaction)",
+          "D": "None"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Plain reads under REPEATABLE READ see a consistent snapshot for the transaction, like SERIALIZABLE, but without the locking cost."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Which is TRUE about innodb_lock_wait_timeout?",
+        "options": {
+          "A": "It triggers the deadlock detector",
+          "B": "It controls how long a transaction waits for a single lock before giving up with error 1205",
+          "C": "It forces COMMIT at the timeout",
+          "D": "It is a read-only system variable"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Default 50 seconds; most OLTP shops reduce it to 3-5 seconds so contention surfaces quickly."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Why call external APIs outside transactions?",
+        "options": {
+          "A": "MySQL forbids it",
+          "B": "External calls inside transactions hold locks for the network round-trip duration, collapsing concurrency",
+          "C": "It improves CPU cache performance",
+          "D": "It is required for foreign keys"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Call external services before START TRANSACTION or after COMMIT (using an outbox if you need reliability)."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Atomic Transfer",
+        "difficulty": "Easy",
+        "description": "Write a transaction that moves Rs. 1500 from account 101 to account 102. Ensure both UPDATEs succeed or neither does.",
+        "sampleInput": "accounts: (101,'Aarav',5000), (102,'Priya',2000)",
+        "sampleOutput": "(101,3500), (102,3500)",
+        "constraints": "Use START TRANSACTION and COMMIT.",
+        "solution": "START TRANSACTION;\n    UPDATE accounts SET balance = balance - 1500 WHERE id = 101;\n    UPDATE accounts SET balance = balance + 1500 WHERE id = 102;\nCOMMIT;"
+      },
+      {
+        "id": "cc-2",
+        "title": "Rollback on Insufficient Funds",
+        "difficulty": "Easy",
+        "description": "Transfer Rs. X from account A to account B only if A has enough balance. Use FOR UPDATE and ROLLBACK if balance is insufficient.",
+        "sampleInput": "accounts: (101,500), (102,1000). Transfer 700 from 101 to 102.",
+        "sampleOutput": "Transaction rolled back. Balances unchanged.",
+        "constraints": "Use FOR UPDATE. Check balance. Use IF / ROLLBACK.",
+        "solution": "START TRANSACTION;\n    SELECT balance INTO @bal FROM accounts WHERE id = 101 FOR UPDATE;\n    IF @bal < 700 THEN\n        ROLLBACK;\n    ELSE\n        UPDATE accounts SET balance = balance - 700 WHERE id = 101;\n        UPDATE accounts SET balance = balance + 700 WHERE id = 102;\n        COMMIT;\n    END IF;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Savepoint Retry",
+        "difficulty": "Easy",
+        "description": "Insert an order, then insert items. If any item insert fails, roll back to the savepoint after the order insert and try a different item. Finally COMMIT.",
+        "sampleInput": "Order total 1500, first try item_id=42 (fails), then item_id=99 (works).",
+        "sampleOutput": "orders has 1 row. order_items has 1 row with product_id=99.",
+        "constraints": "Use SAVEPOINT / ROLLBACK TO SAVEPOINT.",
+        "solution": "START TRANSACTION;\n    INSERT INTO orders(customer_id, total) VALUES (7, 1500);\n    SET @oid = LAST_INSERT_ID();\n    SAVEPOINT after_order;\n    -- pretend the next insert fails; handle in app, then:\n    ROLLBACK TO SAVEPOINT after_order;\n    INSERT INTO order_items(order_id, product_id, qty) VALUES (@oid, 99, 1);\nCOMMIT;"
+      },
+      {
+        "id": "cc-4",
+        "title": "Prevent Double-Booking of a Seat",
+        "difficulty": "Medium",
+        "description": "Two users try to book the same seat concurrently. Write the SQL (for one session) that correctly books the seat only if it is currently NULL.",
+        "sampleInput": "seats: (1, 'AI-101', NULL). User 1001 tries to book.",
+        "sampleOutput": "(1, 'AI-101', 1001) after the transaction; a concurrent session sees the seat already booked and does not overwrite.",
+        "constraints": "Use SELECT ... FOR UPDATE. Check NULL. UPDATE only if NULL.",
+        "solution": "START TRANSACTION;\n    SELECT booked_by INTO @who FROM seats WHERE id = 1 FOR UPDATE;\n    IF @who IS NULL THEN\n        UPDATE seats SET booked_by = 1001 WHERE id = 1;\n    END IF;\nCOMMIT;"
+      },
+      {
+        "id": "cc-5",
+        "title": "Simulate a Dirty Read",
+        "difficulty": "Medium",
+        "description": "Using two MySQL sessions, demonstrate that READ UNCOMMITTED allows a dirty read. Provide the exact SQL for both sessions as comments.",
+        "sampleInput": "accounts: (101, 5000). Session 2 UPDATEs without committing; Session 1 SELECTs.",
+        "sampleOutput": "Session 1 sees the uncommitted value; Session 2 rolls back; Session 1 acted on phantom data.",
+        "constraints": "Set SESSION ISOLATION LEVEL READ UNCOMMITTED in Session 1.",
+        "solution": "-- Session 1\nSET SESSION TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;\nSTART TRANSACTION;\nSELECT balance FROM accounts WHERE id = 101;  -- 5000\n-- <wait>\nSELECT balance FROM accounts WHERE id = 101;  -- 9999 (dirty)\nCOMMIT;\n\n-- Session 2\nSTART TRANSACTION;\nUPDATE accounts SET balance = 9999 WHERE id = 101;\n-- do NOT commit\nROLLBACK;\n-- Session 1's second SELECT had seen 9999, a value that never officially existed."
+      },
+      {
+        "id": "cc-6",
+        "title": "Isolation Level Proof",
+        "difficulty": "Medium",
+        "description": "Show two sessions where Session 1 under REPEATABLE READ does NOT see Session 2's committed UPDATE. Provide the SQL.",
+        "sampleInput": "accounts: (101, 5000).",
+        "sampleOutput": "Session 1's second SELECT still returns 5000 even though Session 2 committed an UPDATE to 6000.",
+        "constraints": "Session 1 must START TRANSACTION under REPEATABLE READ before Session 2 updates.",
+        "solution": "-- Session 1\nSET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ;\nSTART TRANSACTION;\nSELECT balance FROM accounts WHERE id = 101;  -- 5000 (snapshot taken)\n-- <wait for Session 2 to commit>\nSELECT balance FROM accounts WHERE id = 101;  -- still 5000\nCOMMIT;\n\n-- Session 2\nSTART TRANSACTION;\nUPDATE accounts SET balance = 6000 WHERE id = 101;\nCOMMIT;\n-- Session 2's new value is invisible to Session 1 until Session 1 commits and starts a fresh transaction."
+      },
+      {
+        "id": "cc-7",
+        "title": "Retry on Deadlock",
+        "difficulty": "Hard",
+        "description": "Write pseudocode (or Python) that runs a transaction with up to 3 retries on error 1213. Use exponential backoff: 10ms, 20ms, 40ms.",
+        "sampleInput": "Under contention, occasionally the transaction errors with 1213.",
+        "sampleOutput": "Transaction succeeds on a later attempt; on 3 failures, a RuntimeError is raised.",
+        "constraints": "Must ROLLBACK on deadlock. Must sleep between retries.",
+        "solution": "import time\nfrom pymysql.err import OperationalError  # or the equivalent in your driver\n\ndef run_with_retry(conn, body_fn, max_attempts=3):\n    for attempt in range(max_attempts):\n        try:\n            conn.begin()\n            body_fn(conn)\n            conn.commit()\n            return\n        except OperationalError as e:\n            if e.args and e.args[0] == 1213:\n                conn.rollback()\n                time.sleep(0.01 * (2 ** attempt))\n                continue\n            raise\n    raise RuntimeError('Gave up after %d deadlock retries' % max_attempts)"
+      },
+      {
+        "id": "cc-8",
+        "title": "Consistent Lock Ordering",
+        "difficulty": "Hard",
+        "description": "Rewrite this two-account transfer so that both transactions always lock the rows in the same order (lowest id first), preventing deadlocks.",
+        "sampleInput": "-- Current naive version\nSTART TRANSACTION;\nUPDATE accounts SET balance = balance - amt WHERE id = from_id;\nUPDATE accounts SET balance = balance + amt WHERE id = to_id;\nCOMMIT;",
+        "sampleOutput": "Both transactions always lock the smaller id first, preventing a deadlock cycle.",
+        "constraints": "Use LEAST / GREATEST or an IF. Still debit/credit correctly.",
+        "solution": "-- Always SELECT ... FOR UPDATE both rows in (smaller id, larger id) order,\n-- then apply the debit/credit based on which id is the source.\nSTART TRANSACTION;\n    SELECT id INTO @lo FROM accounts WHERE id = LEAST(:from_id, :to_id) FOR UPDATE;\n    SELECT id INTO @hi FROM accounts WHERE id = GREATEST(:from_id, :to_id) FOR UPDATE;\n\n    UPDATE accounts SET balance = balance - :amt WHERE id = :from_id;\n    UPDATE accounts SET balance = balance + :amt WHERE id = :to_id;\nCOMMIT;"
+      }
+    ]
+  }
+}

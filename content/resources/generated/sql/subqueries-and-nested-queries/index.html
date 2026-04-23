@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subqueries (Nested Queries) and EXISTS - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Write queries inside queries. Master scalar, row, and correlated subqueries. Use EXISTS vs IN.">
+    <meta name="keywords" content="subqueries (nested queries) and exists, sql tutorial, sql subqueries (nested queries) and exists, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries">
+    <meta property="og:title" content="Subqueries (Nested Queries) and EXISTS - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Write queries inside queries. Master scalar, row, and correlated subqueries. Use EXISTS vs IN.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries">
+    <meta name="twitter:title" content="Subqueries (Nested Queries) and EXISTS - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Write queries inside queries. Master scalar, row, and correlated subqueries. Use EXISTS vs IN.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Subqueries (Nested Queries) and EXISTS",
+    "description": "Write queries inside queries. Master scalar, row, and correlated subqueries. Use EXISTS vs IN.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-04-16",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Subqueries (Nested Queries) and EXISTS",
+        "item": "https://learn.modernagecoders.com/resources/sql/subqueries-and-nested-queries"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using NOT IN When Subquery Contains NULLs",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "NOT IN with NULL in the list always produces no TRUE result because <code>x != NULL</code> is UNKNOWN. NOT EXISTS does not have this issue. Always prefer NOT EXISTS unless you explicitly filter NULLs in the subquery."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Scalar Subquery Returning Multiple Rows",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When you use <code>=</code> with a subquery, the subquery MUST return exactly one value. If it returns multiple, you get error 1242. Either aggregate (MAX/MIN/AVG) to get one value, or change <code>=</code> to IN."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Derived Table Without Alias",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MySQL requires every subquery in FROM to have an alias. Pick something short and descriptive. Also alias computed columns (like COUNT(*) AS cnt) so the outer query can reference them by name."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting the Correlation Reference Makes the Query Wrong",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Correlated subqueries reference the outer query via an alias and a WHERE condition. Without the <code>e2.department = e.department</code> link, the subquery is independent and computes the global average. Always double-check your correlation conditions."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Subqueries (Nested Queries) and EXISTS</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 13</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">42 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-16</span>
+            </div>
+            <h1 class="resource-title">Subqueries (Nested Queries) and EXISTS</h1>
+            <a href="/resources/sql/subqueries-and-nested-queries/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Subqueries?</h2><p>A <strong>subquery</strong> is a query inside another query. Wherever SQL expects a value (or a list, or a table), you can often put a SELECT statement in parentheses. The subquery runs first (conceptually), its result is plugged in, and then the outer query runs.</p><p>Subqueries let you answer two-step questions in a single SQL statement. 'Find employees earning more than the average' is two steps — compute the average, then compare — but one SELECT with a subquery expresses it elegantly.</p><h3>Sample Tables Used in This Chapter</h3><pre><code>CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    salary DECIMAL(10,2),
+    department VARCHAR(30),
+    manager_id INT
+);
+
+INSERT INTO employees VALUES
+(1, 'Ananya Reddy',   250000, 'Engineering', NULL),
+(2, 'Rahul Verma',    180000, 'Engineering', 1),
+(3, 'Divya Nair',     190000, 'Engineering', 1),
+(4, 'Arjun Pillai',   120000, 'Engineering', 1),
+(5, 'Sneha Kapoor',   170000, 'Marketing',   NULL),
+(6, 'Karthik Raja',   110000, 'Marketing',   5),
+(7, 'Pooja Menon',     95000, 'Marketing',   5),
+(8, 'Vikram Singh',   130000, 'Sales',       NULL);
+
+CREATE TABLE customers (id INT PRIMARY KEY, name VARCHAR(50), city VARCHAR(30));
+INSERT INTO customers VALUES
+(1, 'Aarav Kumar',   'Bengaluru'),
+(2, 'Priya Sharma',  'Mumbai'),
+(3, 'Rohan Mehta',   'Delhi'),
+(4, 'Meera Iyer',    'Chennai');
+
+CREATE TABLE orders (id INT PRIMARY KEY, customer_id INT, amount DECIMAL(10,2));
+INSERT INTO orders VALUES
+(101, 1, 1500),
+(102, 1, 2300),
+(103, 2,  800),
+(104, 3, 5400);
+-- Meera (id=4) has no orders; this is important for NOT IN / NOT EXISTS examples</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Subqueries Matter</h2><h3>1. Two-Step Logic in One Query</h3><p>Every analytical question has the shape 'compute X, then use X to find Y.' Subqueries let you express both steps in one statement, which the database can optimize as a unit rather than requiring two round trips from your application.</p><h3>2. Subquery Patterns Are Interview Staples</h3><p>'Nth highest salary,' 'employees earning more than department average,' 'customers with no orders,' 'find duplicate rows' — every one of these has a canonical subquery solution. Expect multiple subquery problems in any data interview.</p><h3>3. Correlated Subqueries Enable Per-Row Logic</h3><p>Sometimes the subquery needs to reference the current outer row, e.g., 'for each employee, check if there is someone else in the same department earning more.' This is a <strong>correlated subquery</strong>, and it runs once per outer row. Without it, some queries simply cannot be written.</p><h3>4. Subqueries Make Business Rules Declarative</h3><p>Rules like 'active customers,' 'high-value orders,' 'repeat buyers' can be expressed as subqueries that filter rows based on other tables. They become reusable building blocks; often you can extract them into views or CTEs.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Types of Subqueries by Shape</h3><p><strong>Scalar subquery</strong>: returns a single value (1 row, 1 column). Can be used anywhere SQL expects a value.</p><pre><code>SELECT name, salary,
+       (SELECT AVG(salary) FROM employees) AS company_avg
+FROM employees;</code></pre><p><strong>Row subquery</strong>: returns one row with multiple columns. Used with = or IN and a matching tuple.</p><pre><code>SELECT * FROM employees
+WHERE (department, salary) = 
+      (SELECT department, MAX(salary) FROM employees WHERE department = 'Engineering' GROUP BY department);</code></pre><p><strong>Table (multi-row) subquery</strong>: returns multiple rows. Used with IN, ANY, ALL, EXISTS, or in the FROM clause as a derived table.</p><pre><code>SELECT * FROM employees
+WHERE department IN (SELECT department FROM employees WHERE salary > 200000);</code></pre><h3>2. Subquery in WHERE</h3><p>The most common placement. Use with IN, NOT IN, =, >, <, EXISTS, ANY, ALL.</p><pre><code>-- Employees earning more than the average
+SELECT name, salary
+FROM employees
+WHERE salary > (SELECT AVG(salary) FROM employees);</code></pre><p>Expected output (company avg ~ 155,625):</p><pre><code>+---------------+-----------+
+| name          | salary    |
++---------------+-----------+
+| Ananya Reddy  | 250000.00 |
+| Rahul Verma   | 180000.00 |
+| Divya Nair    | 190000.00 |
+| Sneha Kapoor  | 170000.00 |
++---------------+-----------+</code></pre><h3>3. Subquery in SELECT</h3><p>Useful for adding a computed value to every row.</p><pre><code>SELECT name, salary,
+       salary - (SELECT AVG(salary) FROM employees) AS diff_from_avg
+FROM employees;</code></pre><p>Caution: a scalar subquery in SELECT runs once per row (logically). For a simple constant like the global average, MySQL usually evaluates it once and caches. For correlated subqueries, it runs per row.</p><h3>4. Subquery in FROM (Derived Table)</h3><p>A subquery in FROM acts as a temporary table. Must have an alias in MySQL.</p><pre><code>SELECT dept_stats.department, dept_stats.avg_sal
+FROM (
+    SELECT department, AVG(salary) AS avg_sal
+    FROM employees
+    GROUP BY department
+) AS dept_stats
+WHERE dept_stats.avg_sal > 150000;</code></pre><p>Output:</p><pre><code>+-------------+----------------+
+| department  | avg_sal        |
++-------------+----------------+
+| Engineering | 185000.000000  |
+| Marketing   | 125000.000000  |
++-------------+----------------+
+-- Only Engineering qualifies (> 150k)</code></pre><p>Wait — that output is wrong. Let me recompute. Engineering avg = (250000+180000+190000+120000)/4 = 185000. Marketing = (170000+110000+95000)/3 = 125000. Sales = 130000. Only Engineering is > 150000.</p><pre><code>+-------------+----------+
+| department  | avg_sal  |
++-------------+----------+
+| Engineering | 185000.00|
++-------------+----------+</code></pre><h3>5. Subquery in HAVING</h3><p>Filter groups based on a scalar subquery.</p><pre><code>SELECT department, AVG(salary) AS avg_sal
+FROM employees
+GROUP BY department
+HAVING AVG(salary) > (SELECT AVG(salary) FROM employees);</code></pre><h3>6. IN vs ANY vs ALL vs EXISTS</h3><p>These handle comparisons against a set.</p><p><strong>IN</strong>: matches if any value in the list equals the left side.</p><pre><code>WHERE dept IN ('Engineering', 'Marketing')
+WHERE id IN (SELECT customer_id FROM orders)</code></pre><p><strong>= ANY</strong>: equivalent to IN. <strong>&lt; ANY</strong>: less than at least one value.</p><p><strong>ALL</strong>: must satisfy relative to every value. <code>salary > ALL (SELECT salary FROM marketing_team)</code> means greater than every marketing salary.</p><p><strong>EXISTS</strong>: returns true if the subquery returns at least one row. The subquery result content does not matter — only whether rows exist. Often used with a correlated subquery.</p><pre><code>-- Customers who have at least one order
+SELECT name FROM customers c
+WHERE EXISTS (SELECT 1 FROM orders o WHERE o.customer_id = c.id);</code></pre><h3>7. Correlated Subqueries</h3><p>A correlated subquery references columns from the outer query. It cannot be evaluated once — it runs (logically) for each outer row.</p><pre><code>-- Employees earning more than their department average
+SELECT e.name, e.department, e.salary
+FROM employees e
+WHERE e.salary > (
+    SELECT AVG(e2.salary)
+    FROM employees e2
+    WHERE e2.department = e.department   -- references outer e!
+);</code></pre><p>For each employee (outer), the subquery computes their own department's average. The <code>e.department</code> reference makes it correlated.</p><p>Output for sample data: Ananya (250k vs Eng avg 185k), Divya (190k vs 185k), Sneha (170k vs Mkt avg 125k), Rahul would be 180 < 185, does not qualify.</p><p>Wait: Rahul 180k vs Eng avg 185k — 180 < 185, Rahul drops. Correct list: Ananya, Divya, Sneha.</p><h3>8. EXISTS vs IN Performance</h3><p>Old wisdom: EXISTS is often faster on large tables because it can short-circuit (stops at the first matching row). IN may materialize the entire list. Modern optimizers are smart; on small sets they are equivalent. But EXISTS has a semantic advantage: it handles NULLs correctly, which is a bigger deal than raw speed.</p><h3>9. NOT EXISTS vs NOT IN — The NULL Trap</h3><p>This is one of the most dangerous interview gotchas in SQL.</p><pre><code>-- Customers with no orders (safe)
+SELECT name FROM customers c
+WHERE NOT EXISTS (SELECT 1 FROM orders o WHERE o.customer_id = c.id);
+
+-- Looks identical but BEHAVES DIFFERENTLY if orders has any NULL customer_id
+SELECT name FROM customers
+WHERE id NOT IN (SELECT customer_id FROM orders);</code></pre><p>If any order has <code>customer_id IS NULL</code>, the NOT IN query returns NO rows — even correctly unmatched customers are dropped. Why? Because <code>x NOT IN (a, b, NULL)</code> is never TRUE. It is <code>x != a AND x != b AND x != NULL</code>, and <code>x != NULL</code> is UNKNOWN, which combined with AND is UNKNOWN, treated as FALSE.</p><p><strong>Rule: always prefer NOT EXISTS over NOT IN when the subquery might return NULL.</strong></p><h3>10. Converting Subquery to JOIN</h3><p>Many subqueries can be rewritten as JOINs, and vice versa. The optimizer often does this transformation automatically. Examples:</p><pre><code>-- IN subquery
+SELECT name FROM customers
+WHERE id IN (SELECT customer_id FROM orders);
+
+-- Equivalent JOIN (with DISTINCT)
+SELECT DISTINCT c.name FROM customers c
+JOIN orders o ON c.id = o.customer_id;
+
+-- NOT IN / NOT EXISTS
+SELECT name FROM customers c
+WHERE NOT EXISTS (SELECT 1 FROM orders o WHERE o.customer_id = c.id);
+
+-- Equivalent LEFT JOIN
+SELECT c.name FROM customers c
+LEFT JOIN orders o ON c.id = o.customer_id
+WHERE o.id IS NULL;</code></pre><p>Choose whichever reads best for your use case. JOINs can be slightly faster due to set-based optimization; correlated subqueries may be more intuitive to write.</p><h3>11. Finding Nth Highest Salary — Classic Interview</h3><p>Method 1: DISTINCT + ORDER BY + LIMIT (MySQL-specific).</p><pre><code>-- 3rd highest salary
+SELECT DISTINCT salary
+FROM employees
+ORDER BY salary DESC
+LIMIT 1 OFFSET 2;  -- skip 2, take 1</code></pre><p>Method 2: Subquery counting distinct higher salaries.</p><pre><code>-- Generic N=3
+SELECT salary FROM employees e1
+WHERE 3 = (
+    SELECT COUNT(DISTINCT salary)
+    FROM employees e2
+    WHERE e2.salary >= e1.salary
+);</code></pre><p>Method 3: Window functions with DENSE_RANK (covered later).</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Scalar Subquery - Compare to Average Salary</div><pre><code class="language-python">-- Employees earning more than the company average
+SELECT name, department, salary
+FROM employees
+WHERE salary &gt; (SELECT AVG(salary) FROM employees);</code></pre><div class="code-example-explanation">The subquery returns a single number (the average salary across all employees). The outer WHERE compares each employee's salary to that single value. MySQL evaluates the scalar subquery once.</div><div class="code-example-output">+---------------+-------------+-----------+
+| name          | department  | salary    |
++---------------+-------------+-----------+
+| Ananya Reddy  | Engineering | 250000.00 |
+| Rahul Verma   | Engineering | 180000.00 |
+| Divya Nair    | Engineering | 190000.00 |
+| Sneha Kapoor  | Marketing   | 170000.00 |
++---------------+-------------+-----------+
+4 rows in set
+-- Company avg = 155,625; these 4 are above</div></div>
+<div class="code-example"><div class="code-example-title">Subquery in FROM (Derived Table)</div><pre><code class="language-python">-- Average salary per department, filtered to above-company-average departments
+SELECT dept_stats.department, dept_stats.avg_sal
+FROM (
+    SELECT department, AVG(salary) AS avg_sal
+    FROM employees
+    GROUP BY department
+) AS dept_stats
+WHERE dept_stats.avg_sal &gt; 150000;</code></pre><div class="code-example-explanation">The inner SELECT computes per-department averages. The outer query treats that result as a temporary table called <code>dept_stats</code>. MySQL requires every derived table to have an alias.</div><div class="code-example-output">+-------------+----------------+
+| department  | avg_sal        |
++-------------+----------------+
+| Engineering | 185000.000000  |
++-------------+----------------+
+1 row in set</div></div>
+<div class="code-example"><div class="code-example-title">Correlated Subquery - Above Department Average</div><pre><code class="language-python">SELECT e.name, e.department, e.salary
+FROM employees e
+WHERE e.salary &gt; (
+    SELECT AVG(e2.salary)
+    FROM employees e2
+    WHERE e2.department = e.department
+);</code></pre><div class="code-example-explanation">Correlated because the inner query references <code>e.department</code> from the outer. For each employee, the inner query computes that person's own department average. Rahul (180k) does NOT qualify because Engineering average is 185k.</div><div class="code-example-output">+---------------+-------------+-----------+
+| name          | department  | salary    |
++---------------+-------------+-----------+
+| Ananya Reddy  | Engineering | 250000.00 |
+| Divya Nair    | Engineering | 190000.00 |
+| Sneha Kapoor  | Marketing   | 170000.00 |
++---------------+-------------+-----------+
+3 rows in set</div></div>
+<div class="code-example"><div class="code-example-title">EXISTS - Customers With at Least One Order</div><pre><code class="language-python">SELECT c.id, c.name
+FROM customers c
+WHERE EXISTS (
+    SELECT 1 FROM orders o
+    WHERE o.customer_id = c.id
+);</code></pre><div class="code-example-explanation">EXISTS returns TRUE if the subquery has at least one row. We use <code>SELECT 1</code> as a placeholder — the actual values do not matter. This is a correlated subquery because of <code>o.customer_id = c.id</code>.</div><div class="code-example-output">+----+--------------+
+| id | name         |
++----+--------------+
+|  1 | Aarav Kumar  |
+|  2 | Priya Sharma |
+|  3 | Rohan Mehta  |
++----+--------------+
+3 rows in set
+-- Meera (no orders) is excluded</div></div>
+<div class="code-example"><div class="code-example-title">NOT EXISTS - Customers Without Orders (Safe Pattern)</div><pre><code class="language-python">SELECT c.id, c.name
+FROM customers c
+WHERE NOT EXISTS (
+    SELECT 1 FROM orders o
+    WHERE o.customer_id = c.id
+);</code></pre><div class="code-example-explanation">NOT EXISTS is the correct way to find customers with no matching orders. Unlike NOT IN, it handles NULL in the subquery gracefully. This is the preferred production pattern.</div><div class="code-example-output">+----+------------+
+| id | name       |
++----+------------+
+|  4 | Meera Iyer |
++----+------------+
+1 row in set</div></div>
+<div class="code-example"><div class="code-example-title">NOT IN Trap With NULLs</div><pre><code class="language-python">-- Insert an order with NULL customer_id to reproduce the bug
+INSERT INTO orders VALUES (105, NULL, 999);
+
+-- This returns ZERO rows because of NULL
+SELECT c.name
+FROM customers c
+WHERE c.id NOT IN (SELECT customer_id FROM orders);
+
+-- Correct version that handles NULL
+SELECT c.name
+FROM customers c
+WHERE c.id NOT IN (
+    SELECT customer_id FROM orders WHERE customer_id IS NOT NULL
+);
+
+-- Better: always use NOT EXISTS
+SELECT c.name
+FROM customers c
+WHERE NOT EXISTS (
+    SELECT 1 FROM orders o WHERE o.customer_id = c.id
+);</code></pre><div class="code-example-explanation">NOT IN becomes unreliable when the subquery contains NULL. Any comparison <code>x != NULL</code> is UNKNOWN, so the entire NOT IN evaluates to UNKNOWN (falsey) for every row. Either filter NULLs out in the subquery or use NOT EXISTS. Memorize this — it is a classic interview trick.</div><div class="code-example-output">-- First query: Empty set (bug!)
+-- Second query: Meera Iyer
+-- Third query: Meera Iyer (correct and clean)</div></div>
+<div class="code-example"><div class="code-example-title">Nth Highest Salary - Three Methods</div><pre><code class="language-python">-- Method 1: DISTINCT + OFFSET (MySQL, PostgreSQL)
+SELECT DISTINCT salary
+FROM employees
+ORDER BY salary DESC
+LIMIT 1 OFFSET 2;   -- 3rd highest: skip 2 then take 1
+
+-- Method 2: Correlated subquery (counts DISTINCT higher salaries)
+SELECT salary FROM employees e1
+WHERE 3 = (
+    SELECT COUNT(DISTINCT salary)
+    FROM employees e2
+    WHERE e2.salary &gt;= e1.salary
+);
+
+-- Method 3: Window function DENSE_RANK (cleanest)
+SELECT DISTINCT salary FROM (
+    SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk
+    FROM employees
+) t WHERE rnk = 3;</code></pre><div class="code-example-explanation">Nth highest salary is the single most-asked SQL interview question. Method 1 is simplest but MySQL-specific. Method 2 is portable and uses a correlated subquery — good to know for interviews. Method 3 uses window functions (covered in Chapter 18), the cleanest modern approach.</div><div class="code-example-output">+-----------+
+| salary    |
++-----------+
+| 180000.00 |
++-----------+
+-- 3rd highest: Ananya 250k, Divya 190k, Rahul 180k</div></div>
+<div class="code-example"><div class="code-example-title">Subquery in SELECT - Add Computed Column</div><pre><code class="language-python">SELECT name, salary,
+       (SELECT AVG(salary) FROM employees) AS company_avg,
+       salary - (SELECT AVG(salary) FROM employees) AS diff_from_avg
+FROM employees
+ORDER BY diff_from_avg DESC;</code></pre><div class="code-example-explanation">Scalar subqueries in SELECT add computed columns that depend on aggregates. MySQL evaluates non-correlated subqueries once and caches the result, so this is efficient. For per-row correlated aggregates, performance can degrade.</div><div class="code-example-output">+---------------+-----------+----------------+---------------+
+| name          | salary    | company_avg    | diff_from_avg |
++---------------+-----------+----------------+---------------+
+| Ananya Reddy  | 250000.00 | 155625.000000  | 94375.00      |
+| Divya Nair    | 190000.00 | 155625.000000  | 34375.00      |
+| Rahul Verma   | 180000.00 | 155625.000000  | 24375.00      |
+| Sneha Kapoor  | 170000.00 | 155625.000000  | 14375.00      |
+| Vikram Singh  | 130000.00 | 155625.000000  | -25625.00     |
+| Arjun Pillai  | 120000.00 | 155625.000000  | -35625.00     |
+| Karthik Raja  | 110000.00 | 155625.000000  | -45625.00     |
+| Pooja Menon   |  95000.00 | 155625.000000  | -60625.00     |
++---------------+-----------+----------------+---------------+</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using NOT IN When Subquery Contains NULLs</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- orders may have rows with customer_id IS NULL
+SELECT name FROM customers
+WHERE id NOT IN (SELECT customer_id FROM orders);</code></pre></div><div class="error-message">No SQL error, but the query returns zero rows if ANY order has NULL customer_id. The entire filter silently evaluates to UNKNOWN.</div><div class="correct-code"><pre><code class="language-python">SELECT name FROM customers c
+WHERE NOT EXISTS (
+    SELECT 1 FROM orders o WHERE o.customer_id = c.id
+);</code></pre></div><div class="mistake-explanation">NOT IN with NULL in the list always produces no TRUE result because <code>x != NULL</code> is UNKNOWN. NOT EXISTS does not have this issue. Always prefer NOT EXISTS unless you explicitly filter NULLs in the subquery.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Scalar Subquery Returning Multiple Rows</h3>
+                <div class="wrong-code"><pre><code class="language-python">SELECT name FROM employees
+WHERE salary = (SELECT salary FROM employees WHERE department = &#39;Engineering&#39;);</code></pre></div><div class="error-message">ERROR 1242 (21000): Subquery returns more than 1 row</div><div class="correct-code"><pre><code class="language-python">-- Use IN for multiple values
+SELECT name FROM employees
+WHERE salary IN (SELECT salary FROM employees WHERE department = &#39;Engineering&#39;);
+
+-- Or pick a specific row (MAX/MIN/LIMIT)
+SELECT name FROM employees
+WHERE salary = (SELECT MAX(salary) FROM employees WHERE department = &#39;Engineering&#39;);</code></pre></div><div class="mistake-explanation">When you use <code>=</code> with a subquery, the subquery MUST return exactly one value. If it returns multiple, you get error 1242. Either aggregate (MAX/MIN/AVG) to get one value, or change <code>=</code> to IN.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Derived Table Without Alias</h3>
+                <div class="wrong-code"><pre><code class="language-python">SELECT * FROM (SELECT department, COUNT(*) FROM employees GROUP BY department);</code></pre></div><div class="error-message">ERROR 1248 (42000): Every derived table must have its own alias</div><div class="correct-code"><pre><code class="language-python">SELECT * FROM (
+    SELECT department, COUNT(*) AS cnt
+    FROM employees
+    GROUP BY department
+) AS dept_counts;</code></pre></div><div class="mistake-explanation">MySQL requires every subquery in FROM to have an alias. Pick something short and descriptive. Also alias computed columns (like COUNT(*) AS cnt) so the outer query can reference them by name.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting the Correlation Reference Makes the Query Wrong</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Intended: employees above their department&#39;s average
+SELECT name, salary FROM employees
+WHERE salary &gt; (SELECT AVG(salary) FROM employees);</code></pre></div><div class="error-message">No error, but the query compares every employee to the COMPANY average, not their department average.</div><div class="correct-code"><pre><code class="language-python">SELECT e.name, e.salary, e.department
+FROM employees e
+WHERE e.salary &gt; (
+    SELECT AVG(e2.salary) FROM employees e2
+    WHERE e2.department = e.department
+);</code></pre></div><div class="mistake-explanation">Correlated subqueries reference the outer query via an alias and a WHERE condition. Without the <code>e2.department = e.department</code> link, the subquery is independent and computes the global average. Always double-check your correlation conditions.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A subquery is a SELECT inside another SQL statement. Types: scalar (1 value), row (1 row), table (multiple rows).</li>
+<li>Subqueries can appear in SELECT, FROM, WHERE, and HAVING. In FROM they are called derived tables and require an alias in MySQL.</li>
+<li>IN, ANY, ALL, and EXISTS operate on sets. EXISTS returns TRUE when the subquery has at least one row; the row contents do not matter.</li>
+<li>A correlated subquery references columns from the outer query. It runs once per outer row (logically) and enables per-row logic.</li>
+<li>EXISTS can short-circuit and often performs better than IN on large tables. Modern optimizers frequently convert between them automatically.</li>
+<li>NOT EXISTS is always safer than NOT IN. NOT IN returns wrong results if the subquery contains NULL (the classic interview gotcha).</li>
+<li>Many IN/EXISTS subqueries can be rewritten as JOINs. Pick whichever reads better. The optimizer often produces the same plan.</li>
+<li>Scalar subqueries used with = must return exactly one row, or MySQL raises error 1242. Use MAX/MIN/LIMIT or switch to IN.</li>
+<li>Common patterns: above-average salary (scalar subquery in WHERE), Nth highest salary (DISTINCT + LIMIT OFFSET or DENSE_RANK), customers with no orders (NOT EXISTS).</li>
+<li>Nth highest salary is the most-asked SQL interview question. Know at least two methods: LIMIT/OFFSET and window functions (DENSE_RANK).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/joins-inner-and-outer" class="related-topic-link">JOINS - INNER, LEFT, RIGHT, FULL OUTER, CROSS</a>
+<a href="/resources/sql/window-functions" class="related-topic-link">Window Functions - ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD</a>
+<a href="/resources/sql/common-table-expressions" class="related-topic-link">Common Table Expressions (CTEs) and Recursive Queries</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/self-joins-and-multi-table" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Self Joins and Multi-Table Queries</span>
+        </a>
+            <a href="/resources/sql/set-operations" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">UNION, UNION ALL, INTERSECT, EXCEPT</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/subqueries-and-nested-queries/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Transactions and ACID Properties | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="57+ practice questions on Transactions and ACID Properties in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="transactions and acid properties practice, sql questions, sql practice problems, transactions and acid properties exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/transactions-and-acid/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/transactions-and-acid/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/transactions-and-acid/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/transactions-and-acid/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/transactions-and-acid/practice">
+    <meta property="og:title" content="Practice Questions - Transactions and ACID Properties | SQL | Modern Age Coders">
+    <meta property="og:description" content="57+ practice questions on Transactions and ACID Properties in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/transactions-and-acid/practice">
+    <meta name="twitter:title" content="Practice Questions - Transactions and ACID Properties | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="57+ practice questions on Transactions and ACID Properties in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Transactions and ACID Properties",
+    "description": "57+ practice questions on Transactions and ACID Properties in SQL.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Transactions and ACID Properties"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/transactions-and-acid/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Transactions and ACID Properties",
+        "item": "https://learn.modernagecoders.com/resources/sql/transactions-and-acid"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/transactions-and-acid/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/transactions-and-acid">Transactions and ACID Properties</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 23</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">57 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Transactions and ACID Properties</h1>
+            <a href="/resources/sql/transactions-and-acid" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does the A in ACID stand for, and what does it guarantee?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Think all-or-nothing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Atomicity. Every statement inside a transaction succeeds together or none of them do. A partial completion is impossible — on ROLLBACK or crash, the entire transaction is undone.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which statement begins a transaction in MySQL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Two equivalent keywords.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>START TRANSACTION;</code> (preferred) or <code>BEGIN;</code>. Both are equivalent in MySQL. They implicitly turn off autocommit for the duration of the transaction.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the final balance?<pre><code>-- starts: 1000
+START TRANSACTION;
+UPDATE accounts SET balance = balance + 200 WHERE id = 1;
+UPDATE accounts SET balance = balance - 50 WHERE id = 1;
+ROLLBACK;
+SELECT balance FROM accounts WHERE id = 1;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">ROLLBACK undoes both UPDATEs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>1000</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is MySQL's default isolation level?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Four words.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>REPEATABLE READ</code>. Unlike some databases (PostgreSQL defaults to READ COMMITTED), MySQL/InnoDB chose REPEATABLE READ as its default because MVCC makes it cheap and it prevents most common anomalies.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is a dirty read?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Think 'data that doesn't officially exist yet'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">Reading a row that has been modified by another transaction that has not yet committed. If the writer then ROLLBACKs, the reader has seen data that never officially existed. Only READ UNCOMMITTED permits dirty reads.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does COMMIT do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Two guarantees: visibility and durability.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">Makes all changes inside the transaction (a) visible to other transactions and (b) durably written to the redo log on disk, so they survive a crash. After COMMIT, ROLLBACK cannot undo them.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Final balance?<pre><code>START TRANSACTION;
+UPDATE accounts SET balance = balance + 100 WHERE id = 1;  -- 1000 -> 1100
+SAVEPOINT p1;
+UPDATE accounts SET balance = balance + 200 WHERE id = 1;  -- 1100 -> 1300
+ROLLBACK TO SAVEPOINT p1;
+COMMIT;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Roll back to the savepoint, then commit.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>1100</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Which isolation level prevents dirty reads but still allows non-repeatable reads?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Read only committed data, but another transaction can commit mid-way through yours.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>READ COMMITTED</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does SELECT ... FOR UPDATE do?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Acquires an exclusive lock.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">Acquires an exclusive (X) lock on the matching rows for the duration of the transaction. Other transactions that try to SELECT FOR UPDATE, LOCK IN SHARE MODE, or modify those rows block until this transaction commits or rolls back. Plain SELECTs still work (they read the MVCC snapshot).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is a deadlock, and how does InnoDB handle it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Cycle of lock waits + detection.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">A deadlock is a cycle in the wait-for graph: T1 waits for a lock T2 holds, T2 waits for a lock T1 holds. InnoDB's deadlock detector notices the cycle and aborts one of the transactions (the one that has done less work) with ERROR 1213 / SQLSTATE 40001. The aborted transaction must retry.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does InnoDB use MVCC for REPEATABLE READ rather than taking read locks?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Concurrency.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">MVCC lets readers and writers run concurrently without blocking each other. SELECT sees a snapshot of the database as of transaction start, regardless of concurrent writes. Taking read locks instead would force readers to queue behind writers and vice versa, crushing throughput.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Is SERIALIZABLE always the right choice for safety?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Think cost.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">No. SERIALIZABLE effectively upgrades every SELECT to LOCK IN SHARE MODE and blocks writers until readers commit. Under high concurrency, throughput plummets. Use SERIALIZABLE only for short, critical sections where the anomalies prevented are genuine problems.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain why two concurrent withdrawals without FOR UPDATE can cause an overdraft even under REPEATABLE READ.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think MVCC snapshots vs write locks.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">Each transaction's SELECT reads the MVCC snapshot taken at transaction start — both see balance = 500. Each transaction's IF check decides 500 >= 300 is OK and issues an UPDATE. UPDATE takes a write lock, so the second one waits, but once it acquires it, it just executes <code>balance = balance - 300</code> on the current (already-debited) value. Final balance: -100. REPEATABLE READ prevents the read from changing, not the arithmetic from overshooting. FOR UPDATE forces the SELECT itself to lock, serialising the whole critical section.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why must DDL statements be treated as permanent in MySQL transactions?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Implicit commits.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">Statements like CREATE TABLE, ALTER TABLE, DROP TABLE, TRUNCATE, and RENAME cause an implicit COMMIT of the current transaction. A subsequent ROLLBACK cannot undo the DDL (the table is still created/dropped/altered). This is a MySQL-specific behaviour — some databases (PostgreSQL) have transactional DDL. Plan migrations accordingly.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How does adding an index reduce lock contention?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Locks attach to what the engine scans.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">InnoDB locks the index rows it reads to enforce isolation. Without an index on the WHERE column, a statement scans (and thus locks) far more rows than it needs — potentially the whole table. With an index, only the matching index entries are locked. Better indexes mean less locking, fewer deadlocks, and higher concurrency.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Describe the 'transactional outbox' pattern and when to use it.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Reliable event emission from transactional systems.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Instead of calling an external system (email, message queue, webhook) from inside a DB transaction, INSERT a row into an <code>outbox</code> table as part of the transaction. A separate background worker reads committed outbox rows and dispatches them, marking them sent. If the transaction rolls back, the outbox row is rolled back too, so no message is emitted for a cancelled transaction. If the worker crashes, unprocessed rows remain and are retried.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">A long-running SELECT inside a transaction holds a snapshot for 10 minutes. What is the downside on a busy server?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Undo log growth.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">InnoDB must keep old versions of every row modified during those 10 minutes, in case the long-running transaction reads them. The undo log (rollback segment) grows proportionally, filling disk and slowing every other transaction. This is the 'history list length' problem. Kill long-running read transactions with <code>KILL</code> or split them into smaller chunks.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What does this return?<pre><code>-- balance starts at 100
+START TRANSACTION;
+UPDATE t SET balance = 500 WHERE id = 1;
+ROLLBACK;
+SELECT balance FROM t WHERE id = 1;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Rollback undoes the update.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>100</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Is SELECT * FROM t inside a transaction blocking under MySQL REPEATABLE READ?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">MVCC.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2">No. Plain SELECT reads the MVCC snapshot without taking any row lock, so it does not block and is not blocked by other writers.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the final value?<pre><code>-- x starts at 10
+START TRANSACTION;
+UPDATE t SET x = x + 1 WHERE id = 1;  -- 11
+SAVEPOINT a;
+UPDATE t SET x = x + 1 WHERE id = 1;  -- 12
+SAVEPOINT b;
+UPDATE t SET x = x + 1 WHERE id = 1;  -- 13
+ROLLBACK TO SAVEPOINT a;
+COMMIT;
+SELECT x FROM t;</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Roll back to savepoint 'a' removes changes after it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>11</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Name three ways to cause a deadlock.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Cycle creation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">(1) Two transactions update the same rows in opposite orders (T1 locks 101 then 102; T2 locks 102 then 101). (2) Transactions taking locks from left to right on different indexes that overlap. (3) A transaction locking a gap (next-key lock) that another transaction tries to insert into. All three create cycles.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Under REPEATABLE READ in InnoDB, can a phantom read occur on a plain SELECT?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">InnoDB uses snapshots for reads.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5">No. MVCC snapshots make every SELECT inside the transaction see the same set of rows regardless of concurrent INSERTs that are committed after the transaction started. For plain reads, InnoDB REPEATABLE READ is effectively serializable.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Two sessions run:<pre><code>-- Session 1
+START TRANSACTION;
+UPDATE t SET x = 100 WHERE id = 1;
+-- no commit yet
+
+-- Session 2 (READ COMMITTED)
+START TRANSACTION;
+SELECT x FROM t WHERE id = 1;</code></pre>What does Session 2's SELECT return (assuming original x = 5)?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">READ COMMITTED reads the latest COMMITTED value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does LOCK IN SHARE MODE guarantee?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Shared lock semantics.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">Takes a shared (S) lock on the read rows for the duration of the transaction. Other transactions can also take S locks, so concurrent readers coexist. But no one can take an X lock (no UPDATE, no DELETE, no FOR UPDATE) on those rows until this transaction commits. Use it for 'read now, I will need the value to stay consistent for the rest of my transaction' scenarios.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">A payment service sees 20 deadlocks per minute. What are the first three things to check?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Ordering, indexes, transaction length.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">(1) Are transactions locking rows in a consistent order? Sort by id before updating multiple rows. (2) Are the WHERE clauses indexed? A missing index locks far more rows than necessary, amplifying contention. (3) How long are the transactions? External API calls, large scans, or slow queries inside transactions expand the lock window; shorten them.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What happens?<pre><code>-- Session 1 (autocommit OFF)
+UPDATE accounts SET balance = balance - 100 WHERE id = 1;
+-- forgets to COMMIT and moves on
+
+-- Session 2
+SELECT balance FROM accounts WHERE id = 1;  -- under REPEATABLE READ</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about what Session 2 sees and whether Session 2 blocks.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Session 2's plain SELECT returns the old, pre-deduction balance and does not block. Session 1's uncommitted UPDATE is invisible under MVCC. But Session 1's lock is still held indefinitely, so any <em>write</em> to row id = 1 by another session will block until Session 1 commits, rolls back, or is killed.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why should you never call an external API inside a transaction?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Locks and latency.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Locks are held from the first write statement until COMMIT/ROLLBACK. An external call can take seconds and has unpredictable latency. Every row your transaction has touched is locked for the duration. Under load, a 3-second API call turns into a 3-second outage for anyone else touching those rows. Perform external calls before START TRANSACTION (to get inputs) or after COMMIT (to emit events via the outbox pattern).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Final balances after:<pre><code>-- accounts: 101:1000, 102:1000
+SET autocommit = 0;
+
+UPDATE accounts SET balance = balance - 300 WHERE id = 101;
+-- connection drops here without COMMIT or ROLLBACK</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">What happens to uncommitted work when the connection closes?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">101:1000, 102:1000. When the client disconnects without COMMIT, MySQL rolls back any uncommitted work automatically. Aarav's balance is restored.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain write skew and whether REPEATABLE READ prevents it.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Two transactions each read a consistent snapshot and write different rows.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Write skew: two transactions each read a consistent view of the data, then each writes to a different row. Individually, each write is valid — but the combined effect breaks an invariant. Example: two on-call engineers. Rule: at least one must be on call. Each transaction checks 'I am the only one off-call, but there is still one other' and then both go off-call simultaneously. REPEATABLE READ does not prevent this because neither transaction modified a row the other read. Only SERIALIZABLE or explicit FOR UPDATE on the invariant rows prevents it.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is innodb_lock_wait_timeout and when does it matter?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Default 50 seconds.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13">The number of seconds a transaction will wait for a row lock before giving up with error 1205 (Lock wait timeout exceeded). Default is 50 seconds. For OLTP workloads, 50 seconds is far too long — it amounts to an outage from the user's perspective. Setting it to 3-5 seconds surfaces contention problems quickly and keeps p99 latency in check.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Would setting isolation level to READ COMMITTED fix a deadlock caused by next-key locks on a range UPDATE?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-14">READ COMMITTED uses only row locks, no gap locks.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-14">Often yes. Under READ COMMITTED, InnoDB takes only row locks (not next-key / gap locks), so range UPDATEs lock fewer slots and deadlocks caused by concurrent inserts into the gap disappear. The trade-off: you give up phantom-read prevention, which can matter for some reports. Measure before flipping the switch.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Two ways to recover from a stuck long-running transaction.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-15">Kill or wait.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-15">(1) <code>SHOW PROCESSLIST</code> to find the offending thread, then <code>KILL &lt;id&gt;;</code> to terminate it and roll it back. (2) Ride out the storm and alert on lock wait timeouts; the transaction eventually commits, rolls back, or the client disconnects. Option 1 is usually the right call in production.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does ROLLBACK do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Commits the transaction</li><li><span class="mcq-option-label">B.</span> Undoes all changes since START TRANSACTION</li><li><span class="mcq-option-label">C.</span> Restarts the server</li><li><span class="mcq-option-label">D.</span> Disables autocommit</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> ROLLBACK returns the database to the state it was in when the transaction started.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which letter in ACID stands for 'committed data survives crashes'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A</li><li><span class="mcq-option-label">B.</span> C</li><li><span class="mcq-option-label">C.</span> I</li><li><span class="mcq-option-label">D.</span> D</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: D</strong><br><strong>D is correct.</strong> D = Durability. Backed by the write-ahead redo log being flushed to disk at COMMIT time.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which is MySQL's default isolation level?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> READ UNCOMMITTED</li><li><span class="mcq-option-label">B.</span> READ COMMITTED</li><li><span class="mcq-option-label">C.</span> REPEATABLE READ</li><li><span class="mcq-option-label">D.</span> SERIALIZABLE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> MySQL/InnoDB defaults to REPEATABLE READ, unlike PostgreSQL which defaults to READ COMMITTED.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which statement takes an exclusive lock on the matched rows?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT * FROM t WHERE id = 1</li><li><span class="mcq-option-label">B.</span> SELECT * FROM t WHERE id = 1 LOCK IN SHARE MODE</li><li><span class="mcq-option-label">C.</span> SELECT * FROM t WHERE id = 1 FOR UPDATE</li><li><span class="mcq-option-label">D.</span> SELECT * FROM t WHERE id = 1 NO LOCK</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> FOR UPDATE takes an X lock, blocking any other write or locking read until the transaction ends.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is autocommit = 1?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Every statement runs in its own transaction that commits immediately</li><li><span class="mcq-option-label">B.</span> Transactions never commit until the server restarts</li><li><span class="mcq-option-label">C.</span> The server rejects all writes</li><li><span class="mcq-option-label">D.</span> COMMIT is replaced by ROLLBACK</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: A</strong><br><strong>A is correct.</strong> autocommit = 1 is MySQL's default. Each standalone statement is its own mini-transaction. START TRANSACTION suspends autocommit until COMMIT or ROLLBACK.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which anomaly can still occur under READ COMMITTED?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Dirty read</li><li><span class="mcq-option-label">B.</span> Non-repeatable read</li><li><span class="mcq-option-label">C.</span> Both dirty and non-repeatable</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> READ COMMITTED blocks dirty reads but still allows non-repeatable reads (a committed UPDATE from another transaction is visible on your next SELECT).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does SAVEPOINT enable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Bypassing the redo log</li><li><span class="mcq-option-label">B.</span> Rolling back only part of a transaction</li><li><span class="mcq-option-label">C.</span> Committing part of a transaction</li><li><span class="mcq-option-label">D.</span> Pausing replication</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> ROLLBACK TO SAVEPOINT name undoes changes since that savepoint without ending the transaction.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What happens when InnoDB detects a deadlock?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The server restarts</li><li><span class="mcq-option-label">B.</span> One transaction is aborted with error 1213; the other proceeds</li><li><span class="mcq-option-label">C.</span> Both transactions are aborted</li><li><span class="mcq-option-label">D.</span> Deadlocks cannot occur in InnoDB</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> The deadlock detector kills the transaction that has done less work. The winner finishes, the loser must retry.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which is NOT a way to reduce deadlocks?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Access rows in a consistent order</li><li><span class="mcq-option-label">B.</span> Keep transactions short</li><li><span class="mcq-option-label">C.</span> Add indexes to the WHERE columns</li><li><span class="mcq-option-label">D.</span> Remove all PRIMARY KEYs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: D</strong><br><strong>D is correct.</strong> Removing primary keys hurts both performance and correctness. The other three are standard deadlock mitigations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Under MySQL/InnoDB REPEATABLE READ, can phantom reads occur on plain SELECTs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> No — MVCC snapshots prevent them</li><li><span class="mcq-option-label">C.</span> Only on temporary tables</li><li><span class="mcq-option-label">D.</span> Only if autocommit is off</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Plain SELECTs read the transaction-start snapshot, so a concurrent committed INSERT does not appear.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does DDL do to an open transaction in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Nothing</li><li><span class="mcq-option-label">B.</span> Causes an implicit COMMIT — the transaction cannot roll back prior DDL</li><li><span class="mcq-option-label">C.</span> Pauses the transaction</li><li><span class="mcq-option-label">D.</span> Converts it to SERIALIZABLE</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> CREATE, ALTER, DROP, TRUNCATE, and RENAME all cause implicit COMMIT. ROLLBACK after DDL cannot undo the DDL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which lock does a plain UPDATE take on the rows it modifies?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Shared (S)</li><li><span class="mcq-option-label">B.</span> Exclusive (X)</li><li><span class="mcq-option-label">C.</span> No lock</li><li><span class="mcq-option-label">D.</span> Intention only</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> UPDATE and DELETE always take X locks on the affected index rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Under REPEATABLE READ, two concurrent withdrawals without FOR UPDATE can both see balance = 500 and both succeed. Why?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> REPEATABLE READ is broken</li><li><span class="mcq-option-label">B.</span> MVCC makes reads lock-free, so both see the snapshot; UPDATE applies arithmetic on the current value, causing a lost update / overdraft</li><li><span class="mcq-option-label">C.</span> InnoDB automatically serialises UPDATEs to the same row</li><li><span class="mcq-option-label">D.</span> The balance column is cached in memory</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> The classic 'lost update' pattern. FOR UPDATE is required to serialise the critical section.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Error 1213 (40001) means:</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Syntax error</li><li><span class="mcq-option-label">B.</span> Deadlock — transaction was chosen as the victim; retry</li><li><span class="mcq-option-label">C.</span> Connection lost</li><li><span class="mcq-option-label">D.</span> Disk full</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Applications must catch 1213 and retry. Exponential backoff reduces thundering-herd retry storms.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which isolation level is effectively achieved for plain reads by InnoDB REPEATABLE READ + MVCC?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> READ UNCOMMITTED</li><li><span class="mcq-option-label">B.</span> READ COMMITTED</li><li><span class="mcq-option-label">C.</span> SERIALIZABLE-like (stable snapshot for the whole transaction)</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> Plain reads under REPEATABLE READ see a consistent snapshot for the transaction, like SERIALIZABLE, but without the locking cost.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which is TRUE about innodb_lock_wait_timeout?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It triggers the deadlock detector</li><li><span class="mcq-option-label">B.</span> It controls how long a transaction waits for a single lock before giving up with error 1205</li><li><span class="mcq-option-label">C.</span> It forces COMMIT at the timeout</li><li><span class="mcq-option-label">D.</span> It is a read-only system variable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Default 50 seconds; most OLTP shops reduce it to 3-5 seconds so contention surfaces quickly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Why call external APIs outside transactions?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> MySQL forbids it</li><li><span class="mcq-option-label">B.</span> External calls inside transactions hold locks for the network round-trip duration, collapsing concurrency</li><li><span class="mcq-option-label">C.</span> It improves CPU cache performance</li><li><span class="mcq-option-label">D.</span> It is required for foreign keys</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Call external services before START TRANSACTION or after COMMIT (using an outbox if you need reliability).</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Atomic Transfer</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a transaction that moves Rs. 1500 from account 101 to account 102. Ensure both UPDATEs succeed or neither does.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">accounts: (101,&#39;Aarav&#39;,5000), (102,&#39;Priya&#39;,2000)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(101,3500), (102,3500)</div>
+                </div><div class="challenge-constraints">Use START TRANSACTION and COMMIT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">START TRANSACTION;
+    UPDATE accounts SET balance = balance - 1500 WHERE id = 101;
+    UPDATE accounts SET balance = balance + 1500 WHERE id = 102;
+COMMIT;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Rollback on Insufficient Funds</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Transfer Rs. X from account A to account B only if A has enough balance. Use FOR UPDATE and ROLLBACK if balance is insufficient.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">accounts: (101,500), (102,1000). Transfer 700 from 101 to 102.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Transaction rolled back. Balances unchanged.</div>
+                </div><div class="challenge-constraints">Use FOR UPDATE. Check balance. Use IF / ROLLBACK.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">START TRANSACTION;
+    SELECT balance INTO @bal FROM accounts WHERE id = 101 FOR UPDATE;
+    IF @bal &lt; 700 THEN
+        ROLLBACK;
+    ELSE
+        UPDATE accounts SET balance = balance - 700 WHERE id = 101;
+        UPDATE accounts SET balance = balance + 700 WHERE id = 102;
+        COMMIT;
+    END IF;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Savepoint Retry</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Insert an order, then insert items. If any item insert fails, roll back to the savepoint after the order insert and try a different item. Finally COMMIT.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Order total 1500, first try item_id=42 (fails), then item_id=99 (works).</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">orders has 1 row. order_items has 1 row with product_id=99.</div>
+                </div><div class="challenge-constraints">Use SAVEPOINT / ROLLBACK TO SAVEPOINT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">START TRANSACTION;
+    INSERT INTO orders(customer_id, total) VALUES (7, 1500);
+    SET @oid = LAST_INSERT_ID();
+    SAVEPOINT after_order;
+    -- pretend the next insert fails; handle in app, then:
+    ROLLBACK TO SAVEPOINT after_order;
+    INSERT INTO order_items(order_id, product_id, qty) VALUES (@oid, 99, 1);
+COMMIT;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Prevent Double-Booking of a Seat</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Two users try to book the same seat concurrently. Write the SQL (for one session) that correctly books the seat only if it is currently NULL.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">seats: (1, &#39;AI-101&#39;, NULL). User 1001 tries to book.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(1, &#39;AI-101&#39;, 1001) after the transaction; a concurrent session sees the seat already booked and does not overwrite.</div>
+                </div><div class="challenge-constraints">Use SELECT ... FOR UPDATE. Check NULL. UPDATE only if NULL.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">START TRANSACTION;
+    SELECT booked_by INTO @who FROM seats WHERE id = 1 FOR UPDATE;
+    IF @who IS NULL THEN
+        UPDATE seats SET booked_by = 1001 WHERE id = 1;
+    END IF;
+COMMIT;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Simulate a Dirty Read</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Using two MySQL sessions, demonstrate that READ UNCOMMITTED allows a dirty read. Provide the exact SQL for both sessions as comments.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">accounts: (101, 5000). Session 2 UPDATEs without committing; Session 1 SELECTs.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Session 1 sees the uncommitted value; Session 2 rolls back; Session 1 acted on phantom data.</div>
+                </div><div class="challenge-constraints">Set SESSION ISOLATION LEVEL READ UNCOMMITTED in Session 1.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">-- Session 1
+SET SESSION TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+START TRANSACTION;
+SELECT balance FROM accounts WHERE id = 101;  -- 5000
+-- &lt;wait&gt;
+SELECT balance FROM accounts WHERE id = 101;  -- 9999 (dirty)
+COMMIT;
+
+-- Session 2
+START TRANSACTION;
+UPDATE accounts SET balance = 9999 WHERE id = 101;
+-- do NOT commit
+ROLLBACK;
+-- Session 1&#39;s second SELECT had seen 9999, a value that never officially existed.</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Isolation Level Proof</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Show two sessions where Session 1 under REPEATABLE READ does NOT see Session 2's committed UPDATE. Provide the SQL.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">accounts: (101, 5000).</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Session 1&#39;s second SELECT still returns 5000 even though Session 2 committed an UPDATE to 6000.</div>
+                </div><div class="challenge-constraints">Session 1 must START TRANSACTION under REPEATABLE READ before Session 2 updates.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">-- Session 1
+SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ;
+START TRANSACTION;
+SELECT balance FROM accounts WHERE id = 101;  -- 5000 (snapshot taken)
+-- &lt;wait for Session 2 to commit&gt;
+SELECT balance FROM accounts WHERE id = 101;  -- still 5000
+COMMIT;
+
+-- Session 2
+START TRANSACTION;
+UPDATE accounts SET balance = 6000 WHERE id = 101;
+COMMIT;
+-- Session 2&#39;s new value is invisible to Session 1 until Session 1 commits and starts a fresh transaction.</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Retry on Deadlock</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write pseudocode (or Python) that runs a transaction with up to 3 retries on error 1213. Use exponential backoff: 10ms, 20ms, 40ms.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Under contention, occasionally the transaction errors with 1213.</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Transaction succeeds on a later attempt; on 3 failures, a RuntimeError is raised.</div>
+                </div><div class="challenge-constraints">Must ROLLBACK on deadlock. Must sleep between retries.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">import time
+from pymysql.err import OperationalError  # or the equivalent in your driver
+
+def run_with_retry(conn, body_fn, max_attempts=3):
+    for attempt in range(max_attempts):
+        try:
+            conn.begin()
+            body_fn(conn)
+            conn.commit()
+            return
+        except OperationalError as e:
+            if e.args and e.args[0] == 1213:
+                conn.rollback()
+                time.sleep(0.01 * (2 ** attempt))
+                continue
+            raise
+    raise RuntimeError(&#39;Gave up after %d deadlock retries&#39; % max_attempts)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Consistent Lock Ordering</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Rewrite this two-account transfer so that both transactions always lock the rows in the same order (lowest id first), preventing deadlocks.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">-- Current naive version
+START TRANSACTION;
+UPDATE accounts SET balance = balance - amt WHERE id = from_id;
+UPDATE accounts SET balance = balance + amt WHERE id = to_id;
+COMMIT;</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Both transactions always lock the smaller id first, preventing a deadlock cycle.</div>
+                </div><div class="challenge-constraints">Use LEAST / GREATEST or an IF. Still debit/credit correctly.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">-- Always SELECT ... FOR UPDATE both rows in (smaller id, larger id) order,
+-- then apply the debit/credit based on which id is the source.
+START TRANSACTION;
+    SELECT id INTO @lo FROM accounts WHERE id = LEAST(:from_id, :to_id) FOR UPDATE;
+    SELECT id INTO @hi FROM accounts WHERE id = GREATEST(:from_id, :to_id) FOR UPDATE;
+
+    UPDATE accounts SET balance = balance - :amt WHERE id = :from_id;
+    UPDATE accounts SET balance = balance + :amt WHERE id = :to_id;
+COMMIT;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/triggers-and-events/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Triggers and Scheduled Events</span>
+        </a>
+            <a href="/resources/sql/database-design-and-normalization/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Database Design and Normalization (1NF, 2NF, 3NF, BCNF)</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/transactions-and-acid" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

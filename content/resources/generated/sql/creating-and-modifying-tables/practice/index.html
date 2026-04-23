@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - CREATE, ALTER, DROP Tables | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="56+ practice questions on CREATE, ALTER, DROP Tables in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="create, alter, drop tables practice, sql questions, sql practice problems, create, alter, drop tables exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables/practice">
+    <meta property="og:title" content="Practice Questions - CREATE, ALTER, DROP Tables | SQL | Modern Age Coders">
+    <meta property="og:description" content="56+ practice questions on CREATE, ALTER, DROP Tables in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables/practice">
+    <meta name="twitter:title" content="Practice Questions - CREATE, ALTER, DROP Tables | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="56+ practice questions on CREATE, ALTER, DROP Tables in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - CREATE, ALTER, DROP Tables",
+    "description": "56+ practice questions on CREATE, ALTER, DROP Tables in SQL.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "CREATE, ALTER, DROP Tables"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "CREATE, ALTER, DROP Tables",
+        "item": "https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/creating-and-modifying-tables/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/creating-and-modifying-tables">CREATE, ALTER, DROP Tables</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 4</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">56 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; CREATE, ALTER, DROP Tables</h1>
+            <a href="/resources/sql/creating-and-modifying-tables" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write the ALTER statement to add a column <code>phone VARCHAR(15)</code> to the employees table.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">ALTER TABLE ... ADD COLUMN ...</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><pre><code>ALTER TABLE employees ADD COLUMN phone VARCHAR(15);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write the ALTER statement to drop the <code>phone</code> column from employees.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">DROP COLUMN.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><pre><code>ALTER TABLE employees DROP COLUMN phone;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write the ALTER statement to change the <code>salary</code> column type to DECIMAL(12, 2).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">MODIFY COLUMN.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><pre><code>ALTER TABLE employees MODIFY COLUMN salary DECIMAL(12, 2);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write the ALTER statement to rename the column <code>department</code> to <code>dept</code> in employees (MySQL 8.0+).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">RENAME COLUMN ... TO ...</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><pre><code>ALTER TABLE employees RENAME COLUMN department TO dept;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write the SQL to rename the <code>employees</code> table to <code>staff</code>.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Two ways to do this.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><pre><code>-- Way 1:
+ALTER TABLE employees RENAME TO staff;
+
+-- Way 2:
+RENAME TABLE employees TO staff;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the difference between DELETE, TRUNCATE, and DROP in one sentence each?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Rows, table, WHERE clause.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><strong>DELETE</strong> removes specific rows matching a WHERE clause (transactional). <strong>TRUNCATE</strong> removes ALL rows quickly and resets AUTO_INCREMENT, but keeps the table. <strong>DROP</strong> removes the entire table — structure and data — permanently.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Which of DELETE, TRUNCATE, and DROP can be used with a WHERE clause?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Only one.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7">Only <strong>DELETE</strong> supports a WHERE clause. TRUNCATE always empties the whole table; DROP removes the whole table.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write SQL to create a table <code>employees_archive</code> that is a full copy (with data) of the employees table. You don't need to copy indexes.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">CREATE TABLE AS SELECT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><pre><code>CREATE TABLE employees_archive AS
+SELECT * FROM employees;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write SQL to clone the <code>employees</code> schema (structure, indexes, constraints) into a new empty table called <code>employees_template</code>.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">LIKE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><pre><code>CREATE TABLE employees_template LIKE employees;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write ALTER to add a named UNIQUE constraint <code>uq_email</code> on the <code>email</code> column of employees.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">ADD CONSTRAINT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><pre><code>ALTER TABLE employees
+    ADD CONSTRAINT uq_email UNIQUE (email);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write ALTER to add a foreign key named <code>fk_manager</code> on column <code>manager_id</code> referencing <code>employees(emp_id)</code>.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">ADD CONSTRAINT ... FOREIGN KEY ... REFERENCES ...</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><pre><code>ALTER TABLE employees
+    ADD CONSTRAINT fk_manager
+    FOREIGN KEY (manager_id) REFERENCES employees(emp_id);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a single ALTER statement that adds a <code>bonus DECIMAL(10,2) DEFAULT 0</code> column AND drops the <code>hire_date</code> column in one shot.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Comma-separate multiple actions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><pre><code>ALTER TABLE employees
+    ADD COLUMN bonus DECIMAL(10,2) DEFAULT 0,
+    DROP COLUMN hire_date;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">After you TRUNCATE a table and insert a new row, what emp_id does it get if the previous max was 10?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">TRUNCATE resets AUTO_INCREMENT.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><strong>1</strong>. TRUNCATE resets the AUTO_INCREMENT counter to its initial value (default 1).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Is DELETE transactional (rollback-able) in MySQL? What about TRUNCATE?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Think DDL vs DML.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><strong>DELETE</strong> is DML and fully transactional — wrap it in START TRANSACTION ... ROLLBACK to undo. <strong>TRUNCATE</strong> is DDL with an implicit COMMIT — it cannot be rolled back in most databases including MySQL.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a single DDL script that: 1) creates a <code>school</code> database (if missing), 2) uses it, 3) creates a <code>students</code> table with id (auto PK), name NOT NULL, email UNIQUE NOT NULL, 4) then adds a new <code>dob</code> DATE column, 5) renames <code>email</code> to <code>email_id</code>, 6) drops the table cleanly.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">CREATE, ALTER several times, DROP.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><pre><code>CREATE DATABASE IF NOT EXISTS school;
+USE school;
+
+DROP TABLE IF EXISTS students;
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE
+);
+
+ALTER TABLE students ADD COLUMN dob DATE;
+ALTER TABLE students RENAME COLUMN email TO email_id;
+
+DROP TABLE students;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Create a <code>TEMPORARY</code> table called <code>top_earners</code> containing only employees earning more than 80000. Then count how many there are.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">CREATE TEMPORARY TABLE ... AS SELECT ...</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>CREATE TEMPORARY TABLE top_earners AS
+SELECT * FROM employees WHERE salary &gt; 80000;
+
+SELECT COUNT(*) AS total_top FROM top_earners;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why might an ALTER TABLE on a 100M-row table be dangerous in production?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Locks and rebuilds.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Many ALTERs require a full table rebuild, which locks the table (or at least blocks writes) for minutes to hours. On a busy production DB, this means your app hangs or errors for the duration. Modern MySQL 8.0 supports online DDL for many cases (ADD INDEX, ADD COLUMN) but not all.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a robust "reset" script for a <code>test_orders</code> table. It should: drop the table if it exists, create it fresh with an AUTO_INCREMENT PK, customer VARCHAR(50) required, amount DECIMAL(10,2) positive, and insert three sample rows.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">IF EXISTS, IF NOT EXISTS, CHECK.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>DROP TABLE IF EXISTS test_orders;
+
+CREATE TABLE test_orders (
+    order_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer VARCHAR(50) NOT NULL,
+    amount DECIMAL(10,2) NOT NULL CHECK (amount &gt; 0),
+    order_date DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO test_orders (customer, amount) VALUES
+    ('Aarav Sharma', 1200.50),
+    ('Priya Iyer',    850.00),
+    ('Rohan Verma',  2499.99);
+
+SELECT * FROM test_orders;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">You want to remove the PRIMARY KEY from the employees table entirely (rare, but sometimes needed for schema redesign). How?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">ALTER TABLE ... DROP PRIMARY KEY.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>ALTER TABLE employees DROP PRIMARY KEY;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Your colleague runs <code>TRUNCATE TABLE orders</code> but it fails with a foreign key error. Why, and how do you fix it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">orders is referenced by another table.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">TRUNCATE cannot run if another table has a FOREIGN KEY referencing orders. Fix options: (1) TRUNCATE the child tables first, (2) temporarily disable FK checks with <code>SET FOREIGN_KEY_CHECKS = 0;</code>, then TRUNCATE, then re-enable, or (3) use <code>DELETE FROM orders;</code> which respects FK cascading behavior.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Complete the table: for each of DELETE, TRUNCATE, DROP, say which one (a) keeps the table, (b) resets AUTO_INCREMENT, (c) supports WHERE.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Three statements.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1">(a) Keeps the table: <strong>DELETE</strong> and <strong>TRUNCATE</strong> (DROP removes it). (b) Resets AUTO_INCREMENT: <strong>TRUNCATE</strong> only. (c) Supports WHERE: <strong>DELETE</strong> only.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write SQL to add a column <code>joining_bonus DECIMAL(8,2) DEFAULT 0</code> to an existing <code>employees</code> table.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">ADD COLUMN with DEFAULT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>ALTER TABLE employees
+    ADD COLUMN joining_bonus DECIMAL(8,2) DEFAULT 0;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Find the bug:<br><pre><code>CREATE TABLE users (
+    id INT AUTO_INCREMENT,
+    email VARCHAR(100) UNIQUE
+);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">AUTO_INCREMENT needs what?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">AUTO_INCREMENT column must be a key (usually PRIMARY KEY). As written, MySQL errors: "Incorrect table definition; there can be only one auto column and it must be defined as a key".<br><pre><code>CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(100) UNIQUE
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write ALTER to change the <code>dept</code> column so it can no longer be NULL. Assume all current rows already have a value.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">MODIFY COLUMN ... NOT NULL.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>ALTER TABLE employees
+    MODIFY COLUMN dept VARCHAR(30) NOT NULL;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">After running these statements, how many rows are in the table?<br><pre><code>-- employees has 4 rows (emp_ids 1-4)
+DELETE FROM employees WHERE emp_id = 2;
+INSERT INTO employees (name, email, dept, salary) VALUES
+  ('Diya', 'diya@corp.in', 'HR', 50000);
+TRUNCATE TABLE employees;
+INSERT INTO employees (name, email, dept, salary) VALUES
+  ('Meera', 'meera@corp.in', 'IT', 70000);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">TRUNCATE wipes everything.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><strong>1</strong> row (just Meera). The DELETE and the first INSERT are undone by TRUNCATE. Only the final INSERT after TRUNCATE survives.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When would you use CREATE TEMPORARY TABLE instead of a regular CREATE TABLE?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Session-scoped, auto-cleanup.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">Use TEMPORARY when (1) you need intermediate staging for a multi-step query or report and don't want the table to linger; (2) different concurrent sessions need their own private version of the same-named table (temporary tables are session-local); (3) you want the table to auto-drop when you disconnect.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Fix the script so it can run multiple times without errors:<br><pre><code>CREATE DATABASE shop;
+USE shop;
+CREATE TABLE products (
+    id INT PRIMARY KEY,
+    name VARCHAR(50)
+);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">IF NOT EXISTS and IF EXISTS.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>CREATE DATABASE IF NOT EXISTS shop;
+USE shop;
+DROP TABLE IF EXISTS products;
+CREATE TABLE products (
+    id INT PRIMARY KEY,
+    name VARCHAR(50)
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why is TRUNCATE categorized as DDL even though conceptually it only removes data?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Internal implementation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">TRUNCATE works by dropping and recreating the table internally — a structural operation. That is DDL behavior. Side effects: it resets AUTO_INCREMENT, implicitly commits, cannot be rolled back in most databases, and doesn't fire row-level triggers.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a script that: 1) creates an <code>audit_log</code> table, 2) adds a column <code>severity ENUM('low','medium','high') NOT NULL DEFAULT 'low'</code>, 3) creates a UNIQUE index on (user_id, event_time).</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">CREATE + ALTER + CREATE INDEX.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>CREATE TABLE audit_log (
+    log_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    event_time DATETIME NOT NULL,
+    action VARCHAR(100) NOT NULL
+);
+
+ALTER TABLE audit_log
+    ADD COLUMN severity ENUM('low','medium','high') NOT NULL DEFAULT 'low';
+
+CREATE UNIQUE INDEX uq_user_event
+    ON audit_log (user_id, event_time);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">After <code>DROP TABLE employees;</code>, can you recover the data without a backup?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Depends on the storage engine and setup.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Usually <strong>no</strong>. DROP TABLE is immediate and irreversible in standard MySQL. Recovery requires a backup (mysqldump, binary backup) taken before the drop. Some enterprise tools can read the raw InnoDB tablespace, but success is never guaranteed.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Clone the employees table's structure AND data into a new table <code>employees_2026_q1</code>.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Two steps: LIKE + INSERT SELECT.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>CREATE TABLE employees_2026_q1 LIKE employees;
+INSERT INTO employees_2026_q1 SELECT * FROM employees;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does MySQL usually lock a table during ALTER TABLE, and how is this handled in modern versions?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Online DDL.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Historically, ALTER forced a full table copy: MySQL created a shadow copy, applied changes, then swapped. This blocked writes (sometimes reads). MySQL 5.6+ introduced <strong>Online DDL</strong>: many operations (ADD INDEX, ADD COLUMN, DROP COLUMN on newer versions) now run concurrently with reads and writes. Still, certain ALTERs (changing PK, some MODIFY COLUMN cases) fall back to the blocking copy.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which command removes the entire table including its structure?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DELETE FROM table;</li><li><span class="mcq-option-label">B.</span> TRUNCATE TABLE table;</li><li><span class="mcq-option-label">C.</span> DROP TABLE table;</li><li><span class="mcq-option-label">D.</span> REMOVE TABLE table;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> DROP TABLE permanently removes the table and its data. DELETE and TRUNCATE keep the table's structure. REMOVE TABLE is not a valid command.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which ALTER command adds a new column?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ALTER TABLE t ADD COLUMN c INT;</li><li><span class="mcq-option-label">B.</span> ALTER TABLE t INSERT COLUMN c INT;</li><li><span class="mcq-option-label">C.</span> ALTER TABLE t NEW COLUMN c INT;</li><li><span class="mcq-option-label">D.</span> ALTER TABLE t CREATE c INT;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>ADD COLUMN</code> is the standard syntax. The word COLUMN is optional in MySQL but considered good practice for portability.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which command empties a table quickly and resets AUTO_INCREMENT?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DELETE</li><li><span class="mcq-option-label">B.</span> TRUNCATE</li><li><span class="mcq-option-label">C.</span> DROP</li><li><span class="mcq-option-label">D.</span> RESET</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> TRUNCATE empties the table and resets AUTO_INCREMENT to 1. DELETE keeps the counter. DROP removes the table entirely.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which command deletes only rows where department = 'HR'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> TRUNCATE TABLE employees WHERE department = &#39;HR&#39;;</li><li><span class="mcq-option-label">B.</span> DROP TABLE employees WHERE department = &#39;HR&#39;;</li><li><span class="mcq-option-label">C.</span> DELETE FROM employees WHERE department = &#39;HR&#39;;</li><li><span class="mcq-option-label">D.</span> REMOVE FROM employees WHERE department = &#39;HR&#39;;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> Only DELETE supports a WHERE clause. TRUNCATE always wipes all rows. DROP removes the table. REMOVE FROM is not valid SQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which modifier makes CREATE TABLE safely re-runnable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> OR REPLACE</li><li><span class="mcq-option-label">B.</span> IF NOT EXISTS</li><li><span class="mcq-option-label">C.</span> SAFE</li><li><span class="mcq-option-label">D.</span> CHECK EXISTS</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>CREATE TABLE IF NOT EXISTS t (...)</code> is a no-op if the table already exists. OR REPLACE works in MariaDB and some other databases but not standard MySQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which ALTER renames a table from <code>employees</code> to <code>staff</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ALTER TABLE employees RENAME TO staff;</li><li><span class="mcq-option-label">B.</span> RENAME TABLE employees TO staff;</li><li><span class="mcq-option-label">C.</span> Both A and B</li><li><span class="mcq-option-label">D.</span> Neither</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Both ALTER TABLE ... RENAME TO and RENAME TABLE are valid MySQL syntax. RENAME TABLE is atomic and can rename multiple tables in one statement.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">Which ALTER removes a column called phone?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ALTER TABLE t REMOVE phone;</li><li><span class="mcq-option-label">B.</span> ALTER TABLE t DROP COLUMN phone;</li><li><span class="mcq-option-label">C.</span> ALTER TABLE t DELETE COLUMN phone;</li><li><span class="mcq-option-label">D.</span> ALTER TABLE t EXIT phone;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>DROP COLUMN</code> is the standard syntax. REMOVE and DELETE COLUMN are not valid.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">After <code>TRUNCATE TABLE employees;</code>, the next INSERT for a table with AUTO_INCREMENT starting at 1 gets which id?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The last used id + 1</li><li><span class="mcq-option-label">B.</span> 1</li><li><span class="mcq-option-label">C.</span> 0</li><li><span class="mcq-option-label">D.</span> NULL</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> TRUNCATE resets AUTO_INCREMENT to the initial value (default 1), so the next insert gets id = 1. This differs from DELETE, which keeps the counter.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which is TRUE about DROP TABLE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Can be rolled back with ROLLBACK</li><li><span class="mcq-option-label">B.</span> Supports a WHERE clause</li><li><span class="mcq-option-label">C.</span> Permanently removes table and data</li><li><span class="mcq-option-label">D.</span> Keeps the table structure intact</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> DROP removes the table entirely. It cannot be rolled back (auto-commit), doesn't support WHERE, and doesn't keep the structure.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which statement about CREATE TABLE AS SELECT is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It copies the primary key and indexes</li><li><span class="mcq-option-label">B.</span> It copies only the columns and data, not indexes/PKs</li><li><span class="mcq-option-label">C.</span> It creates a temporary table</li><li><span class="mcq-option-label">D.</span> It is the same as CREATE TABLE ... LIKE ...</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> CTAS copies columns and data but NOT indexes, PKs, FKs, or AUTO_INCREMENT. To clone full schema use <code>CREATE TABLE new_t LIKE old_t;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Which command disables FOREIGN KEY enforcement for the current session in MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SET FOREIGN_KEY_CHECKS = 0;</li><li><span class="mcq-option-label">B.</span> DISABLE FOREIGN KEYS;</li><li><span class="mcq-option-label">C.</span> ALTER DATABASE DROP FOREIGN KEYS;</li><li><span class="mcq-option-label">D.</span> FLUSH FOREIGN KEYS;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>SET FOREIGN_KEY_CHECKS = 0;</code> temporarily turns off FK validation. Set it back to 1 to re-enable. Use sparingly; can create orphan rows.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">Which ALTER makes the <code>name</code> column NOT NULL (it was previously nullable)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ALTER TABLE t SET NOT NULL name;</li><li><span class="mcq-option-label">B.</span> ALTER TABLE t MODIFY COLUMN name VARCHAR(50) NOT NULL;</li><li><span class="mcq-option-label">C.</span> ALTER TABLE t ADD NOT NULL ON name;</li><li><span class="mcq-option-label">D.</span> ALTER TABLE t DROP NULL FROM name;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> MODIFY COLUMN takes the full new definition of the column. You must repeat the type even if only the nullability changes. Fails if existing rows have NULL — update them first.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does <code>CREATE TEMPORARY TABLE</code> do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates a read-only table</li><li><span class="mcq-option-label">B.</span> Creates a table visible only to the current session, auto-dropped on disconnect</li><li><span class="mcq-option-label">C.</span> Creates a table with no indexes</li><li><span class="mcq-option-label">D.</span> Creates a table with a random name</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> TEMPORARY tables are session-local and auto-drop when the connection ends. Two different sessions can have TEMPORARY tables with the same name without conflict.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Which is NOT a valid reason to prefer TRUNCATE over DELETE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> TRUNCATE is much faster for emptying large tables</li><li><span class="mcq-option-label">B.</span> TRUNCATE resets AUTO_INCREMENT</li><li><span class="mcq-option-label">C.</span> TRUNCATE can be rolled back with ROLLBACK</li><li><span class="mcq-option-label">D.</span> TRUNCATE requires less logging</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct (it is NOT a valid reason).</strong> TRUNCATE cannot be rolled back in most databases including MySQL — this is a reason AGAINST TRUNCATE, not for it. A, B, and D are all genuine reasons to pick TRUNCATE.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">You run: <code>CREATE TABLE t2 LIKE t1;</code> followed by <code>INSERT INTO t2 SELECT * FROM t1;</code>. What does t2 have that CTAS would have missed?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The column types</li><li><span class="mcq-option-label">B.</span> The PRIMARY KEY, indexes, and AUTO_INCREMENT</li><li><span class="mcq-option-label">C.</span> Row data</li><li><span class="mcq-option-label">D.</span> The table name</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>CREATE TABLE LIKE</code> copies the full schema including PKs, indexes, and AUTO_INCREMENT. CTAS copies only columns and data. That's why LIKE + INSERT is the preferred clone.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Why might <code>ALTER TABLE employees DROP COLUMN salary;</code> fail?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The column doesn&#39;t exist</li><li><span class="mcq-option-label">B.</span> The column is referenced by an index or constraint</li><li><span class="mcq-option-label">C.</span> The column is part of a FOREIGN KEY in another table</li><li><span class="mcq-option-label">D.</span> All of the above</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: D</strong><br><strong>D is correct.</strong> All three can cause failure: column doesn't exist, it's part of an index/constraint that must be dropped first, or another table's FK points to it (rare for non-PK columns but possible with composite FKs).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which statement about DELETE in MySQL is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> DELETE implicitly commits</li><li><span class="mcq-option-label">B.</span> DELETE does not fire row-level triggers</li><li><span class="mcq-option-label">C.</span> DELETE can be wrapped in a transaction and rolled back</li><li><span class="mcq-option-label">D.</span> DELETE resets AUTO_INCREMENT</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> DELETE is DML and fully transactional. Wrap it in START TRANSACTION ... ROLLBACK to undo. A is false (DELETE doesn't implicitly commit). B is false (DELETE fires triggers). D is false (only TRUNCATE resets AUTO_INCREMENT).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Which syntax correctly adds a composite UNIQUE constraint on (first_name, last_name)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ALTER TABLE t ADD UNIQUE (first_name, last_name);</li><li><span class="mcq-option-label">B.</span> ALTER TABLE t ADD CONSTRAINT uq_name UNIQUE (first_name, last_name);</li><li><span class="mcq-option-label">C.</span> Both A and B</li><li><span class="mcq-option-label">D.</span> Neither</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> Both forms work. Option B with an explicit constraint name is preferred because you can later DROP the constraint by name: <code>ALTER TABLE t DROP INDEX uq_name;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">Which of these single ALTER statements is valid?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ALTER TABLE t ADD COLUMN a INT, DROP COLUMN b, MODIFY COLUMN c VARCHAR(80);</li><li><span class="mcq-option-label">B.</span> ALTER TABLE t ADD a INT AND DROP b AND MODIFY c VARCHAR(80);</li><li><span class="mcq-option-label">C.</span> ALTER TABLE t (ADD a INT, DROP b);</li><li><span class="mcq-option-label">D.</span> ALTERS TABLE t ...;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: A</strong><br><strong>A is correct.</strong> Multiple changes in one ALTER are comma-separated and faster than running separate ALTERs. The others are invalid syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">You need to change <code>emp_id</code> from INT to BIGINT on a 50M-row table. What should you be aware of?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It will be instant</li><li><span class="mcq-option-label">B.</span> It may lock the table for a long time unless MySQL supports online DDL for this change</li><li><span class="mcq-option-label">C.</span> It&#39;s not possible in MySQL</li><li><span class="mcq-option-label">D.</span> It can be undone with ROLLBACK</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> Changing a column type typically rebuilds the table, which can lock writes for minutes or hours on big tables. MySQL 8.0 supports online DDL for many operations, but not all type changes. Tools like pt-online-schema-change handle this without downtime.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Safe Reset Script</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a re-runnable script that: drops the <code>products</code> table if it exists; creates it with id (AUTO_INCREMENT PK), name NOT NULL (up to 80 chars), price DECIMAL(10,2) > 0; inserts three products; ends with a COUNT.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Creates fresh table, inserts 3 rows, COUNT = 3. Safe to re-run.</div>
+                </div><div class="challenge-constraints">Use IF EXISTS on the DROP.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">DROP TABLE IF EXISTS products;
+
+CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(80) NOT NULL,
+    price DECIMAL(10,2) NOT NULL CHECK (price &gt; 0)
+);
+
+INSERT INTO products (name, price) VALUES
+    (&#39;Wireless Mouse&#39;,    799.00),
+    (&#39;Mechanical Keyboard&#39;, 4999.00),
+    (&#39;USB-C Charger&#39;,      1299.50);
+
+SELECT COUNT(*) AS total FROM products;
+-- Output:
+-- +-------+
+-- | total |
+-- +-------+
+-- |     3 |
+-- +-------+</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: ALTER Multiple Things in One Shot</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given an employees table with columns (emp_id, name, department, salary), write ONE ALTER TABLE that does all three: add a <code>bonus DECIMAL(8,2) DEFAULT 0</code> column, rename <code>department</code> to <code>dept</code>, and modify <code>name</code> to VARCHAR(80) NOT NULL.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A single ALTER statement that applies all three changes.</div>
+                </div><div class="challenge-constraints">One statement only.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">ALTER TABLE employees
+    ADD COLUMN bonus DECIMAL(8,2) DEFAULT 0,
+    RENAME COLUMN department TO dept,
+    MODIFY COLUMN name VARCHAR(80) NOT NULL;
+
+DESCRIBE employees;
+-- Expected structure:
+-- emp_id (PK), name VARCHAR(80) NOT NULL, dept VARCHAR(30),
+-- salary DECIMAL(10,2), bonus DECIMAL(8,2) DEFAULT 0.</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: DELETE vs TRUNCATE vs DROP Demo</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a small demo: create a products table with 5 rows; use DELETE to remove two rows; use TRUNCATE to wipe the rest; finally, DROP the table. Show the row count after each step using SELECT COUNT(*).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">5 -&gt; 3 -&gt; 0 -&gt; error (table dropped).</div>
+                </div><div class="challenge-constraints">Use all three commands.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">DROP TABLE IF EXISTS products;
+
+CREATE TABLE products (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    price DECIMAL(10,2)
+);
+
+INSERT INTO products VALUES
+    (1, &#39;Pen&#39;,    10.00),
+    (2, &#39;Notebook&#39;, 55.00),
+    (3, &#39;Bag&#39;,    499.00),
+    (4, &#39;Bottle&#39;, 199.00),
+    (5, &#39;Mug&#39;,     149.00);
+
+SELECT COUNT(*) AS step1 FROM products;   -- 5
+
+DELETE FROM products WHERE price &lt; 100;    -- removes Pen and Notebook
+SELECT COUNT(*) AS step2 FROM products;   -- 3
+
+TRUNCATE TABLE products;
+SELECT COUNT(*) AS step3 FROM products;   -- 0
+
+DROP TABLE products;
+-- SELECT COUNT(*) FROM products;  -- would ERROR: Table doesn&#39;t exist</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Backup Before Risky Change</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Your manager asks you to drop the column <code>legacy_code</code> from <code>customers</code>, but warns "back it up first". Write SQL that: 1) creates a FULL schema+data backup of customers named <code>customers_backup_20260411</code>, 2) drops the legacy_code column from customers.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">backup exists with same rows; original customers has legacy_code removed.</div>
+                </div><div class="challenge-constraints">Use the 2-step schema clone method (LIKE + INSERT SELECT).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">-- 1) Full backup (schema + data)
+DROP TABLE IF EXISTS customers_backup_20260411;
+CREATE TABLE customers_backup_20260411 LIKE customers;
+INSERT INTO customers_backup_20260411 SELECT * FROM customers;
+
+-- 2) Proceed with risky change on the live table
+ALTER TABLE customers DROP COLUMN legacy_code;
+
+-- Verify
+SELECT COUNT(*) AS backup_rows FROM customers_backup_20260411;
+DESCRIBE customers;
+-- If anything goes wrong, we can restore from customers_backup_20260411.</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Constraint Rescue</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">An existing <code>orders</code> table has no constraints. Add a PRIMARY KEY on order_id, a FOREIGN KEY emp_id referencing employees(emp_id), a CHECK that amount > 0, and a UNIQUE index on (emp_id, order_date). Assume the table exists with order_id, emp_id, amount, order_date columns.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Four constraints added. DESCRIBE shows PRI/UNI/MUL keys.</div>
+                </div><div class="challenge-constraints">Use named constraints for easier rollback.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">ALTER TABLE orders
+    ADD CONSTRAINT pk_orders PRIMARY KEY (order_id),
+    ADD CONSTRAINT fk_emp FOREIGN KEY (emp_id) REFERENCES employees(emp_id),
+    ADD CONSTRAINT chk_amount CHECK (amount &gt; 0),
+    ADD CONSTRAINT uq_emp_date UNIQUE (emp_id, order_date);
+
+DESCRIBE orders;
+-- Expected keys: order_id (PRI), emp_id (MUL), (emp_id, order_date) UNIQUE composite
+
+-- If something fails (e.g., existing rows violate the CHECK),
+-- you can drop a specific constraint by name:
+-- ALTER TABLE orders DROP CHECK chk_amount;
+-- ALTER TABLE orders DROP FOREIGN KEY fk_emp;</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Zero-Downtime Rename Simulation</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Simulate a zero-downtime rename of the employees table to staff, using a view as a backward-compatibility shim. Write: 1) a script that renames employees to staff, 2) creates a VIEW called employees that SELECTs from staff (so old code still works), 3) shows that SELECT * FROM employees still returns data.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">The table is now named staff, but queries against employees still work through the view.</div>
+                </div><div class="challenge-constraints">Use RENAME TABLE and CREATE VIEW.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">-- Step 1: rename the physical table
+RENAME TABLE employees TO staff;
+
+-- Step 2: create a view with the old name for backward compatibility
+CREATE OR REPLACE VIEW employees AS
+SELECT * FROM staff;
+
+-- Step 3: verify both names still work
+SELECT COUNT(*) AS via_new_name   FROM staff;
+SELECT COUNT(*) AS via_old_name   FROM employees;
+
+-- Both counts should match.
+--
+-- This is the pattern big companies use during rename migrations:
+-- rename the table, keep a view with the old name so existing app code keeps working,
+-- then gradually update call sites over several releases, and finally drop the view.
+--
+-- Once all call sites are updated:
+-- DROP VIEW employees;</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/data-types-and-constraints/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</span>
+        </a>
+            <a href="/resources/sql/insert-update-delete/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">INSERT, UPDATE, DELETE - Manipulating Data</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/creating-and-modifying-tables" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

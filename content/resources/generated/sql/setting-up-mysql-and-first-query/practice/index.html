@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Setting Up MySQL and Your First Query | SQL | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="54+ practice questions on Setting Up MySQL and Your First Query in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="setting up mysql and your first query practice, sql questions, sql practice problems, setting up mysql and your first query exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query/practice">
+    <meta property="og:title" content="Practice Questions - Setting Up MySQL and Your First Query | SQL | Modern Age Coders">
+    <meta property="og:description" content="54+ practice questions on Setting Up MySQL and Your First Query in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query/practice">
+    <meta name="twitter:title" content="Practice Questions - Setting Up MySQL and Your First Query | SQL | Modern Age Coders">
+    <meta name="twitter:description" content="54+ practice questions on Setting Up MySQL and Your First Query in SQL. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Setting Up MySQL and Your First Query",
+    "description": "54+ practice questions on Setting Up MySQL and Your First Query in SQL.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Setting Up MySQL and Your First Query"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Setting Up MySQL and Your First Query",
+        "item": "https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/sql/setting-up-mysql-and-first-query/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql/setting-up-mysql-and-first-query">Setting Up MySQL and Your First Query</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 2</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">54 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Setting Up MySQL and Your First Query</h1>
+            <a href="/resources/sql/setting-up-mysql-and-first-query" class="notes-link">&larr; Back to Notes</a>
+        </div><!-- /resource-header -->
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">14</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write the SQL to create a database named <code>library</code>.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">One statement. Starts with CREATE.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><pre><code>CREATE DATABASE library;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">After creating the library database, how do you switch to it so your subsequent commands apply to it?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">One keyword.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><pre><code>USE library;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write the SQL to create a table called <code>books</code> with three columns: <code>book_id</code> (integer), <code>title</code> (string up to 100 characters), and <code>price</code> (integer).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">CREATE TABLE with column-name and type pairs, separated by commas.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><pre><code>CREATE TABLE books (
+    book_id INT,
+    title VARCHAR(100),
+    price INT
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a single INSERT statement that adds this book: book_id=1, title='Let Us C', price=350.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">INSERT INTO ... VALUES (...).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><pre><code>INSERT INTO books VALUES (1, 'Let Us C', 350);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write the SQL to retrieve all rows and columns from the books table.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">SELECT star FROM table.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><pre><code>SELECT * FROM books;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How do you list all databases on a MySQL server?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">SHOW.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><pre><code>SHOW DATABASES;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How do you list all tables inside the currently selected database?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">SHOW, but different object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><pre><code>SHOW TABLES;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">How do you inspect the columns, data types, and nullability of the students table?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">One word, starts with D.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><pre><code>DESCRIBE students;
+
+-- Short form:
+DESC students;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the command-line syntax to connect to MySQL as the root user with password prompt?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">mysql -u ... -p</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><pre><code>mysql -u root -p</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What port does MySQL listen on by default?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Four digits starting with 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><strong>3306</strong>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What happens in the CLI if you press Enter without typing a semicolon?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Look at the prompt.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">MySQL shows a continuation prompt <code>-&gt;</code> because it is waiting for the statement to end. Just type <code>;</code> and press Enter.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write the SQL to insert three books in a single statement: (1, 'Let Us C', 350), (2, 'DBMS Concepts', 600), (3, 'Head First Java', 500).</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">INSERT INTO ... VALUES (...), (...), (...);</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><pre><code>INSERT INTO books VALUES
+    (1, 'Let Us C', 350),
+    (2, 'DBMS Concepts', 600),
+    (3, 'Head First Java', 500);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write the SQL to select only the <code>title</code> and <code>price</code> columns from books.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">SELECT col1, col2 FROM table.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><pre><code>SELECT title, price FROM books;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">You want to insert a book with only <code>book_id</code> and <code>title</code>, leaving <code>price</code> unset. Write the SQL.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Name the columns you are inserting into.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><pre><code>INSERT INTO books (book_id, title) VALUES (4, 'Clean Code');</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What are the TWO ways to write a single-line comment in MySQL?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">One is portable, one is MySQL-specific.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><pre><code>-- This is portable (works on all databases)
+# This is MySQL-specific</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a multi-line comment (block comment) above a CREATE TABLE statement that documents when and why it was created.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">/* ... */</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><pre><code>/*
+   Created: 2026-04-11
+   Purpose: student records for the Modern Age Coders course.
+*/
+CREATE TABLE students (
+    id INT,
+    name VARCHAR(50)
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">How do you check which database you are currently inside?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">A built-in function.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><pre><code>SELECT DATABASE();</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write SQL that creates the database <code>school</code> only if it does not already exist.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">IF NOT EXISTS.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><pre><code>CREATE DATABASE IF NOT EXISTS school;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Write a complete script that: (1) creates the school database if missing, (2) uses it, (3) drops the students table if it exists, (4) creates students with id, name, class, marks, (5) inserts five students of your choice, (6) selects all.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">Chain six statements, comment each one.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><pre><code>-- 1. Create DB
+CREATE DATABASE IF NOT EXISTS school;
+-- 2. Use it
+USE school;
+-- 3. Clean slate
+DROP TABLE IF EXISTS students;
+-- 4. Schema
+CREATE TABLE students (
+    id INT,
+    name VARCHAR(50),
+    class INT,
+    marks INT
+);
+-- 5. Seed data
+INSERT INTO students VALUES
+    (1, 'Aarav Sharma', 10, 87),
+    (2, 'Priya Iyer', 10, 92),
+    (3, 'Rohan Verma', 11, 78),
+    (4, 'Ananya Reddy', 11, 95),
+    (5, 'Vikram Singh', 12, 65);
+-- 6. Verify
+SELECT * FROM students;</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between MySQL Workbench and the MySQL CLI, and when would you use each?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">GUI vs terminal tradeoffs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><strong>Workbench</strong> is a GUI with visual query editor, result grid, schema browser, and EER diagram tool — great for exploration and learning. <strong>CLI</strong> is a terminal client — faster for experienced users, the only option on servers without a desktop, and essential when writing shell scripts or SSH'ing into a remote server.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">You just connected to MySQL. What does this return?<br><pre><code>SELECT DATABASE();</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">No USE has been run yet.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>+------------+
+| DATABASE() |
++------------+
+| NULL       |
++------------+</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Convert this into a proper multi-row INSERT: three employees named Kavya Nair (id 101, HR, 60000), Arjun Mehta (id 102, IT, 85000), and Sneha Patel (id 103, Finance, 72000) into a table <code>employees(emp_id, name, department, salary)</code>.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">INSERT ... VALUES (...), (...), (...);</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>INSERT INTO employees VALUES
+    (101, 'Kavya Nair',  'HR',      60000),
+    (102, 'Arjun Mehta', 'IT',      85000),
+    (103, 'Sneha Patel', 'Finance', 72000);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Find the error:<br><pre><code>CREATE TABLE orders (
+    order_id INT
+    customer VARCHAR(50)
+)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Commas and semicolons.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3">Missing commas between columns AND missing semicolon at the end.<br><pre><code>CREATE TABLE orders (
+    order_id INT,
+    customer VARCHAR(50)
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why does this INSERT fail, and how do you fix it?<br><pre><code>INSERT INTO students VALUES (6, "Diya Kapoor", 10, 88);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Look at the quotes.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4">In MySQL with ANSI_QUOTES mode, double quotes are treated as identifiers, not strings. It may fail or behave unexpectedly. Use single quotes.<br><pre><code>INSERT INTO students VALUES (6, 'Diya Kapoor', 10, 88);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Given the students table with 5 rows from the chapter, what does <code>SELECT COUNT(*) FROM students;</code> return?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Count the rows.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><pre><code>+----------+
+| COUNT(*) |
++----------+
+|        5 |
++----------+</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">You notice your MySQL CLI shows <code>mysql&gt;</code> as the prompt, but then suddenly it changes to <code>-&gt;</code>. What does this indicate?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Related to statement completion.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6">MySQL is waiting for you to finish the current statement. You probably pressed Enter before typing a <code>;</code>. Just type <code>;</code> and press Enter to complete it.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a script that creates a database <code>ecommerce</code>, switches to it, and creates a <code>products</code> table with columns <code>product_id</code> (INT), <code>product_name</code> (VARCHAR 80), and <code>mrp</code> (INT). Make it re-runnable.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">IF NOT EXISTS and IF EXISTS.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><pre><code>CREATE DATABASE IF NOT EXISTS ecommerce;
+USE ecommerce;
+DROP TABLE IF EXISTS products;
+CREATE TABLE products (
+    product_id INT,
+    product_name VARCHAR(80),
+    mrp INT
+);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">You run:<br><pre><code>USE school;
+SELECT * FROM orders;</code></pre>It errors with "Table 'school.orders' doesn't exist". What are two possible causes?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Either the table is missing, or it lives in another database.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">(1) The orders table has not been created in school. (2) It exists, but in a different database (e.g., ecommerce) — you can query it with <code>SELECT * FROM ecommerce.orders;</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What does this return?<br><pre><code>DESCRIBE students;</code></pre>(students has columns id INT, name VARCHAR(50), class INT, marks INT — all nullable, no keys.)</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">A 4-row schema listing.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><pre><code>+-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int         | YES  |     | NULL    |       |
+| name  | varchar(50) | YES  |     | NULL    |       |
+| class | int         | YES  |     | NULL    |       |
+| marks | int         | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">A junior in your team wrote: <code>SELECT * FROM school.students;</code>. The senior says "never use SELECT *". Rewrite it to return only the name and marks columns, and explain why the senior prefers that.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">List columns explicitly.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>SELECT name, marks FROM school.students;</code></pre>Reasons: (1) less data over the network when tables have many columns; (2) query result shape is stable even when new columns are added later; (3) intent is explicit to the next reader.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Your script creates a database and a table, but the second time you run it, you get errors about "database already exists" and "table already exists". How do you fix the script without manually cleaning up?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Two keywords.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Add <code>IF NOT EXISTS</code> to CREATE DATABASE and CREATE TABLE, or alternatively <code>DROP IF EXISTS</code> before each CREATE.<br><pre><code>CREATE DATABASE IF NOT EXISTS school;
+USE school;
+DROP TABLE IF EXISTS students;
+CREATE TABLE students (...);</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Rewrite this to use a single multi-row INSERT:<br><pre><code>INSERT INTO students VALUES (1, 'Aarav', 10, 87);
+INSERT INTO students VALUES (2, 'Priya', 10, 92);
+INSERT INTO students VALUES (3, 'Rohan', 11, 78);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">One INSERT with comma-separated VALUES tuples.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><pre><code>INSERT INTO students VALUES
+    (1, 'Aarav', 10, 87),
+    (2, 'Priya', 10, 92),
+    (3, 'Rohan', 11, 78);</code></pre></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the default port for MySQL?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1433</li><li><span class="mcq-option-label">B.</span> 3306</li><li><span class="mcq-option-label">C.</span> 5432</li><li><span class="mcq-option-label">D.</span> 8080</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> MySQL defaults to port 3306. SQL Server uses 1433, PostgreSQL uses 5432, and 8080 is a common HTTP port.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which command lists all databases on a MySQL server?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> LIST DATABASES;</li><li><span class="mcq-option-label">B.</span> SHOW DATABASES;</li><li><span class="mcq-option-label">C.</span> SELECT DATABASES;</li><li><span class="mcq-option-label">D.</span> DISPLAY DATABASES;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>SHOW DATABASES;</code> is the MySQL command. The other options are not valid SQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which command sets the current active database to <code>school</code>?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SELECT school;</li><li><span class="mcq-option-label">B.</span> OPEN school;</li><li><span class="mcq-option-label">C.</span> USE school;</li><li><span class="mcq-option-label">D.</span> CONNECT school;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>USE dbname;</code> selects a database for the session. The others are not valid MySQL commands.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which command shows the structure (columns, types) of a table?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> STRUCT students;</li><li><span class="mcq-option-label">B.</span> DESCRIBE students;</li><li><span class="mcq-option-label">C.</span> LIST students;</li><li><span class="mcq-option-label">D.</span> SHOW students;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>DESCRIBE students;</code> (or its shortcut <code>DESC students;</code>) prints the schema. <code>SHOW students;</code> is not valid — you use <code>SHOW TABLES;</code> to list tables.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What character terminates an SQL statement in the MySQL CLI?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A period (.)</li><li><span class="mcq-option-label">B.</span> A comma (,)</li><li><span class="mcq-option-label">C.</span> A semicolon (;)</li><li><span class="mcq-option-label">D.</span> A newline</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Every SQL statement ends with a semicolon. A newline alone doesn't terminate — MySQL waits for the <code>;</code> before executing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which of the following is a valid single-line SQL comment?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> // this is a comment</li><li><span class="mcq-option-label">B.</span> -- this is a comment</li><li><span class="mcq-option-label">C.</span> &lt;!-- this is a comment --&gt;</li><li><span class="mcq-option-label">D.</span> ** this is a comment **</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>-- </code> (two dashes and a space) starts a portable SQL comment. <code>//</code> is C/Java comment syntax. <code>&lt;!-- --&gt;</code> is HTML. <code>**</code> is not a valid comment.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">You connect to MySQL and type <code>mysql&gt; SELECT * FROM students</code> then press Enter without a semicolon. What happens?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Error is raised</li><li><span class="mcq-option-label">B.</span> Query runs successfully</li><li><span class="mcq-option-label">C.</span> Prompt changes to -&gt; waiting for the statement to finish</li><li><span class="mcq-option-label">D.</span> Client disconnects</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> The CLI displays <code>-&gt;</code> and waits for you to finish with a semicolon. Type <code>;</code> on the next line to execute.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which INSERT statement is valid for a students table with columns (id INT, name VARCHAR(50), marks INT)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> INSERT INTO students VALUES (1, &quot;Aarav&quot;, 87);</li><li><span class="mcq-option-label">B.</span> INSERT INTO students VALUES (1, &#39;Aarav&#39;, 87);</li><li><span class="mcq-option-label">C.</span> INSERT students VALUES (1, &#39;Aarav&#39;, 87);</li><li><span class="mcq-option-label">D.</span> INSERT (1, &#39;Aarav&#39;, 87) INTO students;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> Standard SQL uses single quotes for strings. <code>INSERT INTO table VALUES (...)</code> is the correct keyword order. Option A uses double quotes (works on MySQL but not portable). Options C and D have wrong syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">You run <code>SELECT DATABASE();</code> right after logging in (without any USE). What do you see?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> mysql</li><li><span class="mcq-option-label">B.</span> information_schema</li><li><span class="mcq-option-label">C.</span> NULL</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> Without a USE statement, no database is active, so <code>DATABASE()</code> returns NULL. It is not an error — you still get a result, just NULL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which statement creates a table ONLY if it does not already exist?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> CREATE TABLE students (...)</li><li><span class="mcq-option-label">B.</span> CREATE OR REPLACE TABLE students (...)</li><li><span class="mcq-option-label">C.</span> CREATE TABLE IF NOT EXISTS students (...)</li><li><span class="mcq-option-label">D.</span> CREATE TABLE students IF NOT EXISTS (...)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>IF NOT EXISTS</code> clause goes after TABLE and before the table name. Makes scripts re-runnable. <code>CREATE OR REPLACE TABLE</code> exists in some databases (like MariaDB) but not standard MySQL.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">A senior developer tells you "avoid SELECT *". Which is NOT a reason for this advice?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Reduces data sent over the network</li><li><span class="mcq-option-label">B.</span> Makes the query slower even on small tables</li><li><span class="mcq-option-label">C.</span> Result shape stays stable if a new column is added later</li><li><span class="mcq-option-label">D.</span> Makes intent more explicit</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct (it is NOT a valid reason).</strong> On small tables <code>SELECT *</code> is not noticeably slower. The real reasons are A, C, and D. On large tables the network cost matters; on small ones, readability and stability matter more.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">In the CLI, which keyboard sequence ends the session and returns to your OS shell?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> exit;</li><li><span class="mcq-option-label">B.</span> quit;</li><li><span class="mcq-option-label">C.</span> \q</li><li><span class="mcq-option-label">D.</span> All of the above</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: D</strong><br><strong>D is correct.</strong> <code>exit;</code>, <code>quit;</code>, and the shortcut <code>\q</code> all disconnect from the MySQL server and return you to your terminal prompt.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which statement about VARCHAR(50) is TRUE?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It always takes 50 bytes per row, even for shorter strings</li><li><span class="mcq-option-label">B.</span> It stores up to 50 characters but only uses space for the actual length plus a small overhead</li><li><span class="mcq-option-label">C.</span> It can only store exactly 50 characters</li><li><span class="mcq-option-label">D.</span> It is limited to ASCII characters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> VARCHAR is variable-length: "Ram" takes 3 bytes plus 1-2 bytes of length prefix, not 50. CHAR(50) would pad to exactly 50. VARCHAR can store any UTF-8 character if the column's charset supports it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">A friend writes <code>INSERT INTO students VALUES (1, 'Aarav');</code> for a students table with 4 columns. What happens?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Inserts the row with NULL for missing columns</li><li><span class="mcq-option-label">B.</span> Inserts successfully ignoring extras</li><li><span class="mcq-option-label">C.</span> Error: Column count doesn&#39;t match value count</li><li><span class="mcq-option-label">D.</span> Inserts 0 for missing columns</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> Without naming columns, MySQL expects values for ALL columns in declared order. To insert just some columns, you must list them: <code>INSERT INTO students (id, name) VALUES (1, 'Aarav');</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Given a clean school database, what does this sequence produce?<br><pre><code>CREATE TABLE t (x INT);
+INSERT INTO t VALUES (10);
+DROP TABLE t;
+CREATE TABLE t (x INT);
+SELECT * FROM t;</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> One row with x=10</li><li><span class="mcq-option-label">B.</span> Empty set (no rows)</li><li><span class="mcq-option-label">C.</span> Error: table already exists</li><li><span class="mcq-option-label">D.</span> Error: unknown table</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> The DROP deletes both the structure and the data. The second CREATE makes a fresh empty table. SELECT returns Empty set.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which command would you use at a shared hosting server where only a CLI is available, to import a large .sql dump file?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SOURCE dump.sql; from inside the mysql client</li><li><span class="mcq-option-label">B.</span> IMPORT dump.sql; from SQL</li><li><span class="mcq-option-label">C.</span> Use MySQL Workbench GUI</li><li><span class="mcq-option-label">D.</span> LOAD dump.sql INTO DATABASE;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>SOURCE /path/to/dump.sql;</code> (or its shortcut <code>\. /path/to/dump.sql</code>) runs every statement in the file. Alternatively, from the OS shell: <code>mysql -u root -p dbname &lt; dump.sql</code>. There is no IMPORT or LOAD dump.sql command.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">You type <code>INSERT INTO students VALUES (1, "Aarav", 10, 87);</code> on a MySQL server with ANSI_QUOTES SQL mode enabled. What happens?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Inserts successfully</li><li><span class="mcq-option-label">B.</span> Error: unknown column &#39;Aarav&#39;</li><li><span class="mcq-option-label">C.</span> Inserts NULL for name</li><li><span class="mcq-option-label">D.</span> Silently ignores the row</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> With ANSI_QUOTES on, double quotes delimit IDENTIFIERS (column/table names), not strings. MySQL would treat "Aarav" as a column name and complain that such a column doesn't exist. Always use single quotes for string literals.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the main reason to prefer a multi-row INSERT over multiple single-row INSERTs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Multi-row INSERT uses less disk space</li><li><span class="mcq-option-label">B.</span> Multi-row INSERT is a single round-trip to the server and faster</li><li><span class="mcq-option-label">C.</span> Multi-row INSERT automatically validates duplicates</li><li><span class="mcq-option-label">D.</span> Single-row INSERT is not allowed for tables with more than 3 columns</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> Each individual INSERT is a separate round-trip (client → server → ack). A multi-row INSERT combines them into one request, dramatically reducing network overhead. For 1000 rows this can be 10x-100x faster.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">Which install command works for MySQL on Ubuntu?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> brew install mysql</li><li><span class="mcq-option-label">B.</span> apt-get install mysql</li><li><span class="mcq-option-label">C.</span> sudo apt install mysql-server</li><li><span class="mcq-option-label">D.</span> choco install mysql</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: C</strong><br><strong>C is correct.</strong> On Ubuntu/Debian the package is <code>mysql-server</code>, installed via apt with sudo. Option A is Homebrew (Mac). Option D is Chocolatey (Windows). Option B is close but misses sudo and the correct package name.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">You run <code>mysql -u root -p school &lt; seed.sql</code>. What happens?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Opens the mysql client interactively</li><li><span class="mcq-option-label">B.</span> Exports the school database into seed.sql</li><li><span class="mcq-option-label">C.</span> Imports and executes the SQL in seed.sql against the school database</li><li><span class="mcq-option-label">D.</span> Deletes school.sql after running</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>&lt;</code> shell redirection pipes seed.sql as stdin to the mysql client, and the <code>school</code> argument sets the default database. Every statement in the file is executed. To export, you would use <code>mysqldump</code>, not <code>mysql</code>.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: First Complete Setup</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a complete SQL script that: 1) creates a database called <code>college</code>, 2) uses it, 3) creates a table <code>courses</code> with columns course_id (INT), course_name (VARCHAR 60), duration_months (INT), and 4) inserts three courses of your choice.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Database created, table created, 3 rows inserted, SELECT * returns 3 courses.</div>
+                </div><div class="challenge-constraints">Use IF NOT EXISTS for safety. Use a single multi-row INSERT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">CREATE DATABASE IF NOT EXISTS college;
+USE college;
+
+DROP TABLE IF EXISTS courses;
+
+CREATE TABLE courses (
+    course_id INT,
+    course_name VARCHAR(60),
+    duration_months INT
+);
+
+INSERT INTO courses VALUES
+    (1, &#39;Python Fundamentals&#39;,    4),
+    (2, &#39;MySQL Masterclass&#39;,      3),
+    (3, &#39;Full Stack Web Dev&#39;,     6);
+
+SELECT * FROM courses;
+-- Expected output:
+-- +-----------+---------------------+-----------------+
+-- | course_id | course_name         | duration_months |
+-- +-----------+---------------------+-----------------+
+-- |         1 | Python Fundamentals |               4 |
+-- |         2 | MySQL Masterclass   |               3 |
+-- |         3 | Full Stack Web Dev  |               6 |
+-- +-----------+---------------------+-----------------+</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Students Marksheet</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a database <code>school</code>, a table <code>students(id INT, name VARCHAR(50), class INT, marks INT)</code>, insert five students (Aarav, Priya, Rohan, Ananya, Vikram) with realistic data, and then print only their names and marks.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Result set with 5 rows showing only name and marks.</div>
+                </div><div class="challenge-constraints">Use explicit column list in the final SELECT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">CREATE DATABASE IF NOT EXISTS school;
+USE school;
+DROP TABLE IF EXISTS students;
+
+CREATE TABLE students (
+    id INT,
+    name VARCHAR(50),
+    class INT,
+    marks INT
+);
+
+INSERT INTO students VALUES
+    (1, &#39;Aarav Sharma&#39;, 10, 87),
+    (2, &#39;Priya Iyer&#39;,   10, 92),
+    (3, &#39;Rohan Verma&#39;,  11, 78),
+    (4, &#39;Ananya Reddy&#39;, 11, 95),
+    (5, &#39;Vikram Singh&#39;, 12, 65);
+
+SELECT name, marks FROM students;
+-- Output:
+-- +----------------+-------+
+-- | name           | marks |
+-- +----------------+-------+
+-- | Aarav Sharma   |    87 |
+-- | Priya Iyer     |    92 |
+-- | Rohan Verma    |    78 |
+-- | Ananya Reddy   |    95 |
+-- | Vikram Singh   |    65 |
+-- +----------------+-------+</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Fix the Broken Script</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Fix all the mistakes in this script so it runs cleanly:<br><pre>create database store
+USE store
+create table products
+    id INT
+    name VARCHAR(50)
+    price INT
+)
+insert into products values (1, "Pen", 10)
+select * from products</pre></div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input — the script above is the input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Clean script that creates store, creates products, inserts one row, and selects it.</div>
+                </div><div class="challenge-constraints">Add semicolons, add commas, fix quotes, add missing parenthesis.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">CREATE DATABASE IF NOT EXISTS store;
+USE store;
+
+DROP TABLE IF EXISTS products;
+CREATE TABLE products (
+    id INT,
+    name VARCHAR(50),
+    price INT
+);
+
+INSERT INTO products VALUES (1, &#39;Pen&#39;, 10);
+
+SELECT * FROM products;
+-- Fixes made:
+-- 1. Added semicolons at the end of each statement.
+-- 2. Added commas between column definitions.
+-- 3. Added the missing opening parenthesis after CREATE TABLE products.
+-- 4. Replaced double quotes with single quotes around &#39;Pen&#39;.
+-- 5. (Good practice) Added IF NOT EXISTS / IF EXISTS for re-runnability.
+-- 6. Uppercased keywords for readability.</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Employee Directory</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a <code>hr</code> database with an <code>employees</code> table (emp_id INT, name VARCHAR 50, department VARCHAR 30, salary INT). Insert six employees from different departments. Then write a SELECT that returns only name and salary.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A result set with 6 rows of name and salary.</div>
+                </div><div class="challenge-constraints">Use a single multi-row INSERT.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">CREATE DATABASE IF NOT EXISTS hr;
+USE hr;
+DROP TABLE IF EXISTS employees;
+
+CREATE TABLE employees (
+    emp_id INT,
+    name VARCHAR(50),
+    department VARCHAR(30),
+    salary INT
+);
+
+INSERT INTO employees VALUES
+    (101, &#39;Kavya Nair&#39;,    &#39;HR&#39;,        60000),
+    (102, &#39;Arjun Mehta&#39;,   &#39;IT&#39;,        85000),
+    (103, &#39;Sneha Patel&#39;,   &#39;Finance&#39;,   72000),
+    (104, &#39;Rahul Joshi&#39;,   &#39;IT&#39;,        95000),
+    (105, &#39;Meera Gupta&#39;,   &#39;Marketing&#39;, 65000),
+    (106, &#39;Ishaan Rao&#39;,    &#39;Sales&#39;,     58000);
+
+SELECT name, salary FROM employees;
+-- Output:
+-- +--------------+--------+
+-- | name         | salary |
+-- +--------------+--------+
+-- | Kavya Nair   |  60000 |
+-- | Arjun Mehta  |  85000 |
+-- | Sneha Patel  |  72000 |
+-- | Rahul Joshi  |  95000 |
+-- | Meera Gupta  |  65000 |
+-- | Ishaan Rao   |  58000 |
+-- +--------------+--------+</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Inspect an Unfamiliar Database</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">A senior hands you SSH access to a MySQL server and says "there's a database called ecommerce with some tables. Tell me what's in it." Write the sequence of SQL commands you would run to discover: which databases exist, what tables are in ecommerce, what columns each table has, and how many rows are in one specific table called orders.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">A sequence of discovery commands with expected outputs.</div>
+                </div><div class="challenge-constraints">Use exploration commands, not guessing.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">-- Step 1: Which databases exist?
+SHOW DATABASES;
+
+-- Step 2: Switch to the one we care about.
+USE ecommerce;
+
+-- Step 3: What tables are inside?
+SHOW TABLES;
+
+-- Step 4: For each table, see the structure.
+DESCRIBE orders;
+DESCRIBE customers;
+DESCRIBE products;
+
+-- Step 5: Count rows in a specific table.
+SELECT COUNT(*) AS total_orders FROM orders;
+
+-- Step 6: Peek at the first few rows.
+SELECT * FROM orders LIMIT 5;
+
+-- This sequence — SHOW DATABASES, USE, SHOW TABLES, DESCRIBE,
+-- COUNT(*), LIMIT 5 — is the universal &quot;orient yourself in a new DB&quot; workflow.</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Re-runnable Seed Script</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Design a script for a <code>bookstore</code> database that can be run repeatedly without ever throwing an "already exists" error. It should reset a <code>books</code> table every run and insert 5 books of your choice (different titles, authors, prices). End with a verification SELECT.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Script runs cleanly on first execution AND on re-executions. Final SELECT returns 5 rows.</div>
+                </div><div class="challenge-constraints">Use IF NOT EXISTS / IF EXISTS properly. Annotate each step with comments.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">/*
+   Bookstore seed script.
+   Purpose: reset the books table with a clean 5-row dataset.
+   Safe to run multiple times — uses IF NOT EXISTS / IF EXISTS.
+*/
+
+-- 1. Create the database if missing.
+CREATE DATABASE IF NOT EXISTS bookstore;
+
+-- 2. Switch to it.
+USE bookstore;
+
+-- 3. Reset the books table for a clean slate.
+DROP TABLE IF EXISTS books;
+
+-- 4. Define the schema.
+CREATE TABLE books (
+    book_id INT,
+    title VARCHAR(100),
+    author VARCHAR(60),
+    price INT
+);
+
+-- 5. Seed data.
+INSERT INTO books VALUES
+    (1, &#39;Let Us C&#39;,                   &#39;Yashwant Kanetkar&#39;, 350),
+    (2, &#39;DBMS Concepts&#39;,               &#39;Henry F. Korth&#39;,    600),
+    (3, &#39;Head First Java&#39;,             &#39;Kathy Sierra&#39;,      500),
+    (4, &#39;Clean Code&#39;,                  &#39;Robert C. Martin&#39;,  450),
+    (5, &#39;Python Crash Course&#39;,         &#39;Eric Matthes&#39;,      550);
+
+-- 6. Verify.
+SELECT COUNT(*) AS total_books FROM books;
+SELECT * FROM books;
+
+-- Expected:
+-- total_books = 5
+-- 5 rows returned from SELECT *.</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/sql/introduction-to-sql-and-databases/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to SQL and Databases</span>
+        </a>
+            <a href="/resources/sql/data-types-and-constraints/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/sql/setting-up-mysql-and-first-query" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

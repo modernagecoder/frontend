@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECT Queries and the WHERE Clause - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Retrieve data with SELECT, filter rows with WHERE, use comparison operators, AND, OR, NOT, IN, BETWEEN.">
+    <meta name="keywords" content="select queries and the where clause, sql tutorial, sql select queries and the where clause, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/select-basics-and-where">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/select-basics-and-where">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/select-basics-and-where">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/select-basics-and-where">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/select-basics-and-where">
+    <meta property="og:title" content="SELECT Queries and the WHERE Clause - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Retrieve data with SELECT, filter rows with WHERE, use comparison operators, AND, OR, NOT, IN, BETWEEN.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/select-basics-and-where">
+    <meta name="twitter:title" content="SELECT Queries and the WHERE Clause - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Retrieve data with SELECT, filter rows with WHERE, use comparison operators, AND, OR, NOT, IN, BETWEEN.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "SELECT Queries and the WHERE Clause",
+    "description": "Retrieve data with SELECT, filter rows with WHERE, use comparison operators, AND, OR, NOT, IN, BETWEEN.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-04-16",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/select-basics-and-where"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/select-basics-and-where"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "SELECT Queries and the WHERE Clause",
+        "item": "https://learn.modernagecoders.com/resources/sql/select-basics-and-where"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using == Instead of = for Equality",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SQL uses a single <code>=</code> for both assignment and equality comparison. Writing <code>==</code> is a syntax error. This is the most common mistake for students coming from Python, JavaScript, Java, or C++. Unlike those languages, SQL does not distinguish <code>=</code> from <code>==</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Missing Parentheses When Mixing AND and OR",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SQL evaluates <code>AND</code> before <code>OR</code>, so the wrong query is interpreted as <code>department = 'IT' OR (department = 'HR' AND salary &gt; 50000)</code>. Always use parentheses when mixing AND and OR — even when they seem redundant. This is a bug that passes code review unless you trace through a real row."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Double Quotes for String Literals",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The SQL standard uses single quotes for string literals and double quotes for identifiers (like column names containing spaces). MySQL is lenient and often accepts double quotes for strings, but this is non-portable. Always use single quotes for strings to keep your code working across databases."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "NOT IN with NULL Returns Empty",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When NULL is in the NOT IN list, SQL evaluates <code>department != NULL</code> which is NULL (not TRUE and not FALSE), and WHERE rejects non-TRUE results. This is a production-grade bug that happens most often with subqueries. Always filter out NULLs first or use <code>NOT EXISTS</code> instead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Thinking BETWEEN is Exclusive on One End",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>BETWEEN x AND y</code> is equivalent to <code>&gt;= x AND &lt;= y</code> — inclusive on BOTH ends. Many students assume one end is exclusive. When you want strict inequality, write the comparisons out explicitly. This matters most with date ranges and page-boundary values."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">SELECT Queries and the WHERE Clause</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 6</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-16</span>
+            </div>
+            <h1 class="resource-title">SELECT Queries and the WHERE Clause</h1>
+            <a href="/resources/sql/select-basics-and-where/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is the SELECT Statement?</h2><p>The <code>SELECT</code> statement is the single most important command in SQL. Every query you will ever write as a data analyst, backend developer, or data scientist begins with <code>SELECT</code>. It is how you <strong>retrieve</strong> data from one or more tables in your database.</p><p>Think of a table as a spreadsheet with rows and columns. The <code>SELECT</code> statement lets you say: "Show me these columns, from this table, for rows that match these conditions." That is it. Every complex query — even ones spanning ten tables with joins, subqueries, and window functions — is built on this foundation.</p><h3>The WHERE Clause</h3><p>The <code>WHERE</code> clause is how you <strong>filter rows</strong>. Without it, <code>SELECT</code> returns every single row in the table. A table with 10 million rows? You get 10 million rows back. The <code>WHERE</code> clause lets you say: "Only give me rows where the salary is above 50000," or "Only rows where the department is IT and the city is Bengaluru."</p><p>In this chapter you will learn how to pick specific columns, rename them using aliases, and filter rows using comparison operators (<code>=</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>), logical operators (<code>AND</code>, <code>OR</code>, <code>NOT</code>), and two extremely common filters: <code>IN</code> (check if a value is in a list) and <code>BETWEEN</code> (check if a value falls within a range).</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are SELECT and WHERE So Important?</h2><p>A senior data analyst at Flipkart might write 50 to 200 SQL queries in a single day. Out of those, 95% start with <code>SELECT</code> and include a <code>WHERE</code> clause. This is not an exaggeration — SELECT and WHERE are the bread and butter of data work.</p><h3>1. Every Dashboard You See Uses SELECT</h3><p>When you open Swiggy and see "Orders delivered today," a SELECT query runs. When you check your bank statement for transactions above Rs 5000 this month, a SELECT with WHERE runs. Every chart on every business dashboard on earth is powered by SELECT queries.</p><h3>2. WHERE Saves Your Database</h3><p>A production database at Zomato has billions of rows. Running <code>SELECT * FROM orders</code> without a WHERE clause could take hours and crash the database. A well-written WHERE clause with an indexed column can return the same useful data in milliseconds. Learning to write good WHERE clauses is learning to respect your database.</p><h3>3. Interview Non-Negotiable</h3><p>Every single SQL interview — whether for a data analyst role at Amazon, a backend developer role at a startup, or a business analyst role at a bank — will test SELECT and WHERE. Questions like "Find all employees in the IT department earning more than 60000 who joined after 2020" are standard. If you cannot answer these fluently, you cannot pass.</p><h3>4. Foundation for Everything Else</h3><p>JOINs, subqueries, window functions, CTEs — everything you will learn later builds on SELECT and WHERE. Weak foundation here means weak understanding of advanced topics.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>The Sample Table We Will Use Throughout</h3><p>Every example in this chapter uses the same <code>employees</code> table. Create it once in MySQL and follow along:</p><pre><code>CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(30),
+    salary INT,
+    join_date DATE
+);
+
+INSERT INTO employees VALUES
+(1, 'Aarav Sharma', 'IT', 75000, '2021-03-15'),
+(2, 'Priya Patel', 'HR', 52000, '2020-07-22'),
+(3, 'Rohan Gupta', 'IT', 92000, '2019-01-10'),
+(4, 'Ananya Singh', 'Finance', 68000, '2022-11-05'),
+(5, 'Vikram Reddy', 'IT', 45000, '2023-04-18'),
+(6, 'Sneha Iyer', 'Marketing', 58000, '2021-09-30'),
+(7, 'Karan Mehta', 'Finance', 81000, '2020-02-14'),
+(8, 'Ishita Kumar', 'HR', 47000, '2023-06-25'),
+(9, 'Aditya Rao', 'Marketing', 63000, '2022-03-08'),
+(10, 'Diya Nair', 'IT', 110000, '2018-08-12');</code></pre><h3>1. Basic SELECT Syntax</h3><p>The simplest form of SELECT is:</p><pre><code>SELECT column1, column2, ... FROM table_name;</code></pre><p>You list the columns you want separated by commas, then <code>FROM</code> followed by the table name. End with a semicolon. Most MySQL clients require the semicolon; it is good practice even when optional.</p><h3>2. SELECT * vs SELECT specific columns</h3><p>The star <code>*</code> means "all columns." <code>SELECT * FROM employees;</code> returns every column. This is useful during exploration but <strong>bad practice in production code</strong> for three reasons:</p><ul><li>It fetches unnecessary data, wasting network bandwidth and memory.</li><li>If someone adds or removes a column from the table, your query's output changes unexpectedly.</li><li>Database optimizers can sometimes use index-only scans when you list specific columns, but not with <code>*</code>.</li></ul><p>Always list columns explicitly in production: <code>SELECT id, name, salary FROM employees;</code></p><h3>3. Aliasing with AS</h3><p>You can rename a column in your result using <code>AS</code>:</p><pre><code>SELECT name AS employee_name, salary AS monthly_pay FROM employees;</code></pre><p>The column in the database is still called <code>name</code>, but your result shows it as <code>employee_name</code>. The <code>AS</code> keyword is actually optional — <code>SELECT name employee_name FROM employees</code> works too — but always write <code>AS</code> explicitly. Skipping it causes bugs where missing commas make two columns look like an alias.</p><h3>4. Comparison Operators in WHERE</h3><p>SQL supports all the comparison operators you expect:</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th></tr><tr><td><code>=</code></td><td>Equal to</td><td><code>WHERE department = 'IT'</code></td></tr><tr><td><code>!=</code> or <code>&lt;&gt;</code></td><td>Not equal to</td><td><code>WHERE department != 'HR'</code></td></tr><tr><td><code>&lt;</code></td><td>Less than</td><td><code>WHERE salary &lt; 50000</code></td></tr><tr><td><code>&gt;</code></td><td>Greater than</td><td><code>WHERE salary &gt; 75000</code></td></tr><tr><td><code>&lt;=</code></td><td>Less than or equal</td><td><code>WHERE salary &lt;= 60000</code></td></tr><tr><td><code>&gt;=</code></td><td>Greater than or equal</td><td><code>WHERE salary &gt;= 80000</code></td></tr></table><h4>= vs == (Critical)</h4><p>Unlike most programming languages, SQL uses a single <code>=</code> for equality comparison, not <code>==</code>. Writing <code>WHERE salary == 75000</code> is a syntax error in SQL. This is one of the most common mistakes from students coming from Python or JavaScript.</p><h4>!= vs &lt;&gt;</h4><p>Both mean "not equal." <code>!=</code> is familiar to programmers. <code>&lt;&gt;</code> is the SQL standard. MySQL, PostgreSQL, and SQL Server all accept both. Use <code>!=</code> for readability unless your company style guide says otherwise.</p><h4>String Comparisons Use Single Quotes</h4><p>Strings in SQL are wrapped in single quotes: <code>'IT'</code>, <code>'Aarav Sharma'</code>. Double quotes work in some databases for strings but are meant for identifiers (like column names with spaces). <strong>Always use single quotes for string literals.</strong></p><h3>5. Combining Conditions: AND, OR, NOT</h3><p>Real filters almost always need multiple conditions. SQL gives you three logical operators:</p><ul><li><code>AND</code>: both conditions must be true</li><li><code>OR</code>: at least one condition must be true</li><li><code>NOT</code>: reverses the condition</li></ul><p>Example: "Employees in IT earning more than 70000":</p><pre><code>SELECT name, salary FROM employees
+WHERE department = 'IT' AND salary &gt; 70000;</code></pre><h3>6. Operator Precedence (Parentheses Matter!)</h3><p>SQL evaluates <code>AND</code> <strong>before</strong> <code>OR</code>, just like multiplication before addition in math. This causes enormous bugs if you are not careful.</p><p>Consider the query: "Employees in IT or Finance who earn more than 60000":</p><pre><code>-- WRONG: missing parentheses
+SELECT name FROM employees
+WHERE department = 'IT' OR department = 'Finance' AND salary &gt; 60000;
+
+-- What SQL actually evaluates (AND binds tighter):
+-- department = 'IT' OR (department = 'Finance' AND salary &gt; 60000)
+-- This returns ALL IT employees (even low earners) plus high-paid Finance</code></pre><p>The correct query uses parentheses:</p><pre><code>SELECT name FROM employees
+WHERE (department = 'IT' OR department = 'Finance') AND salary &gt; 60000;</code></pre><p><strong>Rule of thumb: whenever you mix AND and OR, add parentheses even if they seem redundant.</strong> Your future self reading the query will thank you.</p><h3>7. The IN Operator</h3><p>Writing <code>WHERE department = 'IT' OR department = 'HR' OR department = 'Finance'</code> is tedious. The <code>IN</code> operator is shorthand:</p><pre><code>SELECT name, department FROM employees
+WHERE department IN ('IT', 'HR', 'Finance');</code></pre><p>This is cleaner, faster to read, and often faster to execute. <code>NOT IN</code> does the opposite:</p><pre><code>SELECT name FROM employees
+WHERE department NOT IN ('IT', 'HR');
+-- Returns Finance and Marketing employees</code></pre><h4>WARNING: NOT IN and NULL</h4><p>Here is a trap that has broken production systems. If the list inside <code>NOT IN</code> contains <code>NULL</code>, the query returns <strong>zero rows</strong>, even when you expect matches. Example:</p><pre><code>SELECT name FROM employees WHERE department NOT IN ('IT', NULL);
+-- Returns: nothing!</code></pre><p>This is because SQL treats <code>NULL</code> as "unknown." Comparing anything to NULL yields NULL (not True, not False), and the WHERE clause filters out rows where the condition is not True. When using <code>NOT IN</code> with a subquery that might return NULLs, filter them out first using <code>IS NOT NULL</code>.</p><h3>8. The BETWEEN Operator</h3><p>For range checks, <code>BETWEEN</code> is shorter than writing two comparisons:</p><pre><code>-- These two are equivalent:
+SELECT name FROM employees WHERE salary BETWEEN 50000 AND 80000;
+SELECT name FROM employees WHERE salary &gt;= 50000 AND salary &lt;= 80000;</code></pre><p><strong>BETWEEN is inclusive on both ends.</strong> <code>BETWEEN 50000 AND 80000</code> includes both 50000 and 80000. This catches beginners off guard — they assume exclusive ranges.</p><p><code>BETWEEN</code> works on numbers, dates, and even strings (alphabetically):</p><pre><code>SELECT name FROM employees
+WHERE join_date BETWEEN '2021-01-01' AND '2021-12-31';
+-- All employees who joined in 2021</code></pre><h3>9. The Full Query Structure So Far</h3><p>Putting it together, a complete query looks like:</p><pre><code>SELECT id, name AS employee_name, salary
+FROM employees
+WHERE department IN ('IT', 'Finance')
+  AND salary BETWEEN 60000 AND 100000
+  AND join_date &gt;= '2020-01-01';</code></pre><p>Read it top to bottom: pick these columns, from this table, where these conditions hold. The beauty of SQL is that it reads like English.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">SELECT * vs Specific Columns</div><pre><code class="language-python">-- Sample table: employees (id, name, department, salary, join_date)
+-- 10 rows already inserted (see Explanation section)
+
+-- All columns, all rows
+SELECT * FROM employees;
+
+-- Only specific columns
+SELECT name, salary FROM employees;</code></pre><div class="code-example-explanation">The first query returns all 5 columns and all 10 rows. The second returns only 2 columns (name, salary) for all 10 rows. In production, always list columns explicitly — <code>SELECT *</code> is fine in the MySQL CLI for exploration but dangerous in application code because adding a new column silently changes the result shape.</div><div class="code-example-output">Query 1 (SELECT *) returns:
+id  name             department  salary   join_date
+1   Aarav Sharma     IT          75000    2021-03-15
+2   Priya Patel      HR          52000    2020-07-22
+3   Rohan Gupta      IT          92000    2019-01-10
+...
+(10 rows)
+
+Query 2 (SELECT name, salary) returns:
+name             salary
+Aarav Sharma     75000
+Priya Patel      52000
+Rohan Gupta      92000
+...
+(10 rows, 2 columns)</div></div>
+<div class="code-example"><div class="code-example-title">Column Aliasing with AS</div><pre><code class="language-python">SELECT 
+    name AS employee_name,
+    department AS dept,
+    salary AS monthly_salary_inr
+FROM employees
+WHERE id &lt;= 3;</code></pre><div class="code-example-explanation">The <code>AS</code> keyword renames columns in the output only — the actual table structure is not modified. This is useful when you want friendlier headers in reports or when the original column names are cryptic (like <code>emp_sal_usd</code>). We limit to id &lt;= 3 to keep the output short.</div><div class="code-example-output">employee_name    dept   monthly_salary_inr
+Aarav Sharma     IT     75000
+Priya Patel      HR     52000
+Rohan Gupta      IT     92000</div></div>
+<div class="code-example"><div class="code-example-title">Basic WHERE with Comparison Operators</div><pre><code class="language-python">-- Employees earning strictly more than 70000
+SELECT name, salary 
+FROM employees
+WHERE salary &gt; 70000;</code></pre><div class="code-example-explanation">The WHERE clause filters rows. Only rows where salary is greater than 70000 are returned. Notice that 70000 itself is NOT included — use <code>&gt;=</code> for inclusive. The comparison happens row by row: SQL checks each row and keeps only those where the condition evaluates to TRUE.</div><div class="code-example-output">name             salary
+Aarav Sharma     75000
+Rohan Gupta      92000
+Karan Mehta      81000
+Diya Nair        110000
+(4 rows)</div></div>
+<div class="code-example"><div class="code-example-title">Combining AND with Comparison</div><pre><code class="language-python">-- IT employees earning more than 50000
+SELECT name, department, salary
+FROM employees
+WHERE department = &#39;IT&#39; AND salary &gt; 50000;</code></pre><div class="code-example-explanation">This is the classic "find all employees in IT department earning more than 50000" interview question. Both conditions must be true. Out of the 4 IT employees (Aarav, Rohan, Vikram, Diya), Vikram earns 45000 and is excluded. The other three pass both checks.</div><div class="code-example-output">name             department  salary
+Aarav Sharma     IT          75000
+Rohan Gupta      IT          92000
+Diya Nair        IT          110000
+(3 rows)</div></div>
+<div class="code-example"><div class="code-example-title">Operator Precedence: Parentheses Matter</div><pre><code class="language-python">-- WRONG (no parentheses)
+SELECT name, department, salary
+FROM employees
+WHERE department = &#39;IT&#39; OR department = &#39;HR&#39; AND salary &gt; 50000;
+
+-- CORRECT (with parentheses)
+SELECT name, department, salary
+FROM employees
+WHERE (department = &#39;IT&#39; OR department = &#39;HR&#39;) AND salary &gt; 50000;</code></pre><div class="code-example-explanation">AND is evaluated before OR, so the first query is read as: <code>department = 'IT' OR (department = 'HR' AND salary &gt; 50000)</code>. This returns ALL IT employees (including Vikram at 45000) plus HR employees who earn above 50000 (Priya). The second query correctly filters: IT or HR, AND salary above 50000.</div><div class="code-example-output">Query 1 (wrong) - 5 rows:
+Aarav Sharma IT 75000
+Priya Patel HR 52000
+Rohan Gupta IT 92000
+Vikram Reddy IT 45000    &lt;- Vikram slips in!
+Diya Nair IT 110000
+
+Query 2 (correct) - 4 rows:
+Aarav Sharma IT 75000
+Priya Patel HR 52000
+Rohan Gupta IT 92000
+Diya Nair IT 110000</div></div>
+<div class="code-example"><div class="code-example-title">IN Operator for Multiple Values</div><pre><code class="language-python">-- Employees in IT, Finance, or Marketing
+SELECT name, department, salary
+FROM employees
+WHERE department IN (&#39;IT&#39;, &#39;Finance&#39;, &#39;Marketing&#39;);
+
+-- Opposite: NOT in HR or Marketing
+SELECT name, department
+FROM employees
+WHERE department NOT IN (&#39;HR&#39;, &#39;Marketing&#39;);</code></pre><div class="code-example-explanation">The IN operator is shorthand for multiple OR conditions. Query 1 returns 8 rows (all except the 2 HR employees — Priya and Ishita). Query 2 returns 6 rows (only IT and Finance employees). NOT IN is the inverse. Just remember the NULL caveat: if any value inside IN or NOT IN is NULL, behavior can be surprising.</div><div class="code-example-output">Query 1 - 8 rows:
+Aarav Sharma IT 75000
+Rohan Gupta IT 92000
+Ananya Singh Finance 68000
+Vikram Reddy IT 45000
+Sneha Iyer Marketing 58000
+Karan Mehta Finance 81000
+Aditya Rao Marketing 63000
+Diya Nair IT 110000
+
+Query 2 - 6 rows:
+Aarav Sharma IT
+Rohan Gupta IT
+Ananya Singh Finance
+Vikram Reddy IT
+Karan Mehta Finance
+Diya Nair IT</div></div>
+<div class="code-example"><div class="code-example-title">BETWEEN for Range Checks</div><pre><code class="language-python">-- Salary between 50000 and 80000 (inclusive)
+SELECT name, salary
+FROM employees
+WHERE salary BETWEEN 50000 AND 80000;
+
+-- Joined in 2021
+SELECT name, join_date
+FROM employees
+WHERE join_date BETWEEN &#39;2021-01-01&#39; AND &#39;2021-12-31&#39;;</code></pre><div class="code-example-explanation">BETWEEN is inclusive on BOTH ends. Query 1 returns employees earning 50000 to 80000 inclusive — Priya at exactly 52000 is included, and Ananya at 68000 is included. Query 2 shows BETWEEN working on dates: employees who joined between Jan 1 and Dec 31, 2021 (both endpoints included).</div><div class="code-example-output">Query 1 - 5 rows:
+Aarav Sharma 75000
+Priya Patel 52000
+Ananya Singh 68000
+Sneha Iyer 58000
+Aditya Rao 63000
+
+Query 2 - 2 rows:
+Aarav Sharma 2021-03-15
+Sneha Iyer 2021-09-30</div></div>
+<div class="code-example"><div class="code-example-title">Complex WHERE: Combining Everything</div><pre><code class="language-python">-- Find name and salary of employees who:
+-- are in IT or Finance
+-- earn between 60000 and 100000
+-- joined before 2022
+SELECT name AS employee, department, salary, join_date
+FROM employees
+WHERE department IN (&#39;IT&#39;, &#39;Finance&#39;)
+  AND salary BETWEEN 60000 AND 100000
+  AND join_date &lt; &#39;2022-01-01&#39;;</code></pre><div class="code-example-explanation">This is a realistic interview question that combines aliasing, IN, BETWEEN, and a date comparison with AND. Let us trace: IT/Finance gives us Aarav, Rohan, Ananya, Vikram, Karan, Diya. Salary 60000-100000 removes Vikram (45000) and Diya (110000). Join date &lt; 2022 removes Ananya (2022-11-05). Final: Aarav, Rohan, Karan.</div><div class="code-example-output">employee         department  salary   join_date
+Aarav Sharma     IT          75000    2021-03-15
+Rohan Gupta      IT          92000    2019-01-10
+Karan Mehta      Finance     81000    2020-02-14
+(3 rows)</div></div>
+<div class="code-example"><div class="code-example-title">Using NOT to Invert a Condition</div><pre><code class="language-python">-- Employees NOT earning between 50000 and 70000
+SELECT name, salary
+FROM employees
+WHERE NOT (salary BETWEEN 50000 AND 70000);
+
+-- Equivalent:
+SELECT name, salary
+FROM employees
+WHERE salary &lt; 50000 OR salary &gt; 70000;</code></pre><div class="code-example-explanation">The NOT operator inverts any boolean condition. <code>NOT (salary BETWEEN 50000 AND 70000)</code> means salary is either below 50000 or above 70000. Both queries return identical results. Use whichever reads more clearly — for this particular case the OR version is arguably cleaner.</div><div class="code-example-output">name             salary
+Aarav Sharma     75000
+Rohan Gupta      92000
+Vikram Reddy     45000
+Karan Mehta      81000
+Ishita Kumar     47000
+Diya Nair        110000
+(6 rows)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using == Instead of = for Equality</h3>
+                <div class="wrong-code"><pre><code class="language-python">SELECT * FROM employees WHERE department == &#39;IT&#39;;</code></pre></div><div class="error-message">ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near &#39;== &#39;IT&#39;&#39; at line 1</div><div class="correct-code"><pre><code class="language-python">SELECT * FROM employees WHERE department = &#39;IT&#39;;</code></pre></div><div class="mistake-explanation">SQL uses a single <code>=</code> for both assignment and equality comparison. Writing <code>==</code> is a syntax error. This is the most common mistake for students coming from Python, JavaScript, Java, or C++. Unlike those languages, SQL does not distinguish <code>=</code> from <code>==</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Missing Parentheses When Mixing AND and OR</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Goal: IT or HR employees earning over 50000
+SELECT name FROM employees
+WHERE department = &#39;IT&#39; OR department = &#39;HR&#39; AND salary &gt; 50000;</code></pre></div><div class="error-message">No syntax error, but returns WRONG results. Returns all IT employees (even low earners like Vikram at 45000) plus HR employees above 50000. AND binds tighter than OR.</div><div class="correct-code"><pre><code class="language-python">SELECT name FROM employees
+WHERE (department = &#39;IT&#39; OR department = &#39;HR&#39;) AND salary &gt; 50000;</code></pre></div><div class="mistake-explanation">SQL evaluates <code>AND</code> before <code>OR</code>, so the wrong query is interpreted as <code>department = 'IT' OR (department = 'HR' AND salary &gt; 50000)</code>. Always use parentheses when mixing AND and OR — even when they seem redundant. This is a bug that passes code review unless you trace through a real row.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Double Quotes for String Literals</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- In strict mode, this fails:
+SELECT * FROM employees WHERE name = &quot;Aarav Sharma&quot;;</code></pre></div><div class="error-message">In MySQL with ANSI_QUOTES mode enabled, this fails because double quotes mean column names, not strings. In strict databases like PostgreSQL with default settings, this always fails: ERROR: column &quot;Aarav Sharma&quot; does not exist</div><div class="correct-code"><pre><code class="language-python">SELECT * FROM employees WHERE name = &#39;Aarav Sharma&#39;;</code></pre></div><div class="mistake-explanation">The SQL standard uses single quotes for string literals and double quotes for identifiers (like column names containing spaces). MySQL is lenient and often accepts double quotes for strings, but this is non-portable. Always use single quotes for strings to keep your code working across databases.</div>
+            </div>
+<div class="mistake-card">
+                <h3>NOT IN with NULL Returns Empty</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- If some departments are NULL in a subquery:
+SELECT name FROM employees
+WHERE department NOT IN (&#39;IT&#39;, &#39;HR&#39;, NULL);</code></pre></div><div class="error-message">No error, but returns ZERO rows — even for employees in Finance or Marketing!</div><div class="correct-code"><pre><code class="language-python">SELECT name FROM employees
+WHERE department NOT IN (&#39;IT&#39;, &#39;HR&#39;)
+  AND department IS NOT NULL;</code></pre></div><div class="mistake-explanation">When NULL is in the NOT IN list, SQL evaluates <code>department != NULL</code> which is NULL (not TRUE and not FALSE), and WHERE rejects non-TRUE results. This is a production-grade bug that happens most often with subqueries. Always filter out NULLs first or use <code>NOT EXISTS</code> instead.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Thinking BETWEEN is Exclusive on One End</h3>
+                <div class="wrong-code"><pre><code class="language-python">-- Rohan wants salaries strictly between 50000 and 80000
+SELECT name FROM employees WHERE salary BETWEEN 50000 AND 80000;</code></pre></div><div class="error-message">No error, but includes 50000 and 80000 (Rohan expected those excluded). Priya at exactly 52000 is returned — which is fine — but if someone were at exactly 50000 or 80000, they would be included too.</div><div class="correct-code"><pre><code class="language-python">-- For strict (exclusive) range, use &gt; and &lt;
+SELECT name FROM employees WHERE salary &gt; 50000 AND salary &lt; 80000;</code></pre></div><div class="mistake-explanation"><code>BETWEEN x AND y</code> is equivalent to <code>&gt;= x AND &lt;= y</code> — inclusive on BOTH ends. Many students assume one end is exclusive. When you want strict inequality, write the comparisons out explicitly. This matters most with date ranges and page-boundary values.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>SELECT retrieves data. The syntax is SELECT column_list FROM table_name WHERE conditions. Every SQL query starts here.</li>
+<li>Use SELECT * for quick exploration only. In production code, always list columns explicitly — it is safer, faster, and self-documenting.</li>
+<li>Rename columns with AS: SELECT name AS employee_name. Always include AS explicitly for readability, even though it is technically optional.</li>
+<li>SQL uses single = for equality comparison (not ==). For inequality, both != and &lt;&gt; work. String literals use single quotes.</li>
+<li>Combine conditions with AND (both true), OR (at least one true), NOT (invert). AND is evaluated before OR — use parentheses when mixing them.</li>
+<li>IN (value1, value2, ...) is shorthand for multiple OR conditions. NOT IN is the inverse. Beware: NOT IN with any NULL in the list returns zero rows.</li>
+<li>BETWEEN x AND y is inclusive on BOTH ends — equivalent to &gt;= x AND &lt;= y. Works on numbers, dates, and strings. Use &gt; and &lt; for strict ranges.</li>
+<li>Date literals use single quotes in YYYY-MM-DD format: &#39;2021-03-15&#39;. Comparing dates uses the same operators as numbers.</li>
+<li>A complete query reads top-down: which columns, which table, which rows (WHERE). You will write thousands of these in your career.</li>
+<li>Golden rule: when mixing AND and OR, always use parentheses. Missing parentheses produce queries that parse fine but return wrong data — the worst kind of bug.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/insert-update-delete" class="related-topic-link">INSERT, UPDATE, DELETE - Manipulating Data</a>
+<a href="/resources/sql/sorting-and-limiting" class="related-topic-link">ORDER BY, LIMIT, and DISTINCT</a>
+<a href="/resources/sql/pattern-matching-and-null" class="related-topic-link">LIKE Pattern Matching and NULL Handling</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/sql/insert-update-delete" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">INSERT, UPDATE, DELETE - Manipulating Data</span>
+        </a>
+            <a href="/resources/sql/sorting-and-limiting" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">ORDER BY, LIMIT, and DISTINCT</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/select-basics-and-where/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

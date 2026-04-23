@@ -1,0 +1,733 @@
+{
+  "title": "Database Design and Normalization (1NF, 2NF, 3NF, BCNF)",
+  "slug": "database-design-and-normalization",
+  "language": "sql",
+  "chapter": 24,
+  "difficulty": "Advanced",
+  "readingTime": "60 min",
+  "lastUpdated": "2026-04-16",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Database Design and Normalization - 1NF, 2NF, 3NF, BCNF, ER Diagrams, Schema Design | Modern Age Coders",
+    "description": "Master database design, normalization, and ER modelling. Learn why we normalize (redundancy, update anomalies), functional dependencies, 1NF (atomic values), 2NF (no partial dependency), 3NF (no transitive dependency), BCNF, 4NF/5NF, denormalization trade-offs, ER diagrams, cardinality (1-1, 1-N, N-M), designing for e-commerce and social media, primary keys vs surrogate keys vs composite keys, and foreign key cascading (ON DELETE CASCADE/SET NULL/RESTRICT). 60+ practice questions.",
+    "keywords": "database normalization, 1NF 2NF 3NF BCNF, functional dependency, ER diagram, database design, denormalization, primary key vs surrogate key, composite key, on delete cascade, foreign key mysql, schema design, e-commerce schema, social media schema"
+  },
+  "content": {
+    "what": "<h2>Database Design and Normalization: Building Schemas That Do Not Rot</h2><p><strong>Database design</strong> is the art of deciding what tables your application needs, what columns each table has, and how they relate. <strong>Normalization</strong> is the set of rules that guide this design so that the same fact is stored exactly once, update anomalies cannot occur, and the schema can evolve gracefully. The rules were formalised by Edgar Codd and Ray Boyce in the 1970s as a sequence of 'normal forms' — 1NF, 2NF, 3NF, BCNF, 4NF, 5NF — each progressively stricter.</p><pre><code>-- Bad: one table, lots of repetition and hidden problems\nCREATE TABLE orders_bad (\n    order_id INT,\n    customer_name VARCHAR(50),\n    customer_city VARCHAR(50),\n    product_name VARCHAR(50),\n    product_price DECIMAL(10,2),\n    qty INT\n);\n-- Aarav's city is stored once per order row.\n-- The product price is repeated on every line of every order.\n-- Fixing Aarav's city requires updating every one of his orders.\n\n-- Good: normalized to 3NF\nCREATE TABLE customers (id INT PK, name VARCHAR(50), city VARCHAR(50));\nCREATE TABLE products  (id INT PK, name VARCHAR(50), price DECIMAL(10,2));\nCREATE TABLE orders    (id INT PK, customer_id INT FK, created_at DATETIME);\nCREATE TABLE order_items(\n    order_id INT FK, product_id INT FK, qty INT,\n    PRIMARY KEY (order_id, product_id)\n);</code></pre><p>The second design stores Aarav's city exactly once. A product's price lives in one row. The cost is more tables and more JOINs in queries — but no redundancy, no update anomalies, and a schema that survives five years of product changes.</p><p>Normalization is not an end in itself. Once a schema is clean, you may deliberately <em>denormalize</em> parts of it for performance — copy a customer's city onto <code>orders</code> to avoid a JOIN on the hot path. Doing denormalization first produces unmaintainable rubbish. Doing normalization first and denormalizing with purpose produces a system that scales.</p>"
+    ,
+    "why": "<h2>Why Normalize?</h2><h3>1. Eliminate Redundancy</h3><p>In the bad <code>orders_bad</code> table, Aarav's name and city are stored in every order he has ever placed. If he has 200 orders, there are 200 copies of 'Aarav' and 'Pune'. Every byte of those 200 rows is wasted storage, and every time someone reads an order, the engine has to read it again.</p><h3>2. Avoid Update Anomalies</h3><p>Update anomalies are what happen when the same fact lives in many places and some copies are updated but others are not:</p><ul><li><strong>Update anomaly</strong>: Aarav moves from Pune to Bengaluru. You must update his city on every one of his 200 order rows. Miss one and the database now disagrees with itself.</li><li><strong>Insertion anomaly</strong>: You want to add a new product to your catalog, but the only place products live is inside orders. You cannot add a product without pretending someone ordered it.</li><li><strong>Deletion anomaly</strong>: Priya has exactly one order. When you delete that order row, you also lose the fact that Priya was ever a customer.</li></ul><p>All three disappear once you normalize — each fact lives in exactly one place.</p><h3>3. Referential Integrity</h3><p>Normalization pairs naturally with foreign keys. If <code>order_items.product_id</code> references <code>products.id</code>, the database refuses to create order items for products that do not exist. Consistency becomes the database's job, not the developer's.</p><h3>4. Schema Evolution</h3><p>Two years from now, the product team wants to add 'product category'. In the normalized schema, you add a column to <code>products</code> and you are done. In the denormalized mess, you add it to <code>orders_bad</code> and now every row (past and future) carries a copy of the category that has to be kept in sync.</p><h3>5. Query Simplicity (Eventually)</h3><p>Normalized schemas require more JOINs, but each JOIN is on a well-defined key. Queries are longer but deterministic. Denormalized schemas look simpler at first but are riddled with special cases (\"which copy of the price do we trust?\").</p><h3>6. Knowing When to Break the Rules</h3><p>Normalization is the starting point, not the destination. Read-heavy dashboards, search indexes, analytics tables — all of these are legitimately denormalized. The rule is: normalize, prove the performance problem, then denormalize with eyes open and documentation.</p>"
+    ,
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Functional Dependencies: The Foundation</h3><p>A <strong>functional dependency</strong> X -> Y says: for every X value, there is exactly one Y value. <code>roll_no -> student_name</code> means every roll number identifies exactly one student. <code>(course_id, student_id) -> grade</code> means every (course, student) pair has exactly one grade.</p><p>The normal forms are rules about which functional dependencies are allowed in a well-designed table.</p><h3>2. First Normal Form (1NF): Atomic Values</h3><p>Every column holds a single, atomic value. No repeating groups, no lists stuffed into one column, no multi-valued fields.</p><pre><code>-- NOT 1NF: phones is a CSV\nCREATE TABLE students_bad (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    phones VARCHAR(200)  -- '9876500001,9876500002'\n);\n\n-- 1NF: each phone is its own row\nCREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(50));\nCREATE TABLE student_phones (\n    student_id INT,\n    phone VARCHAR(15),\n    PRIMARY KEY (student_id, phone),\n    FOREIGN KEY (student_id) REFERENCES students(id)\n);</code></pre><p>Why: searching for students with a specific phone in the CSV requires LIKE or a stored function — neither can use an index. The 1NF version is O(log N) per lookup with a proper index.</p><h3>3. Second Normal Form (2NF): No Partial Dependencies</h3><p>A table in 1NF is in 2NF if every non-key column depends on the <em>whole</em> primary key, not just part of it. This only applies when the primary key is composite (multiple columns). Single-column primary keys are trivially in 2NF.</p><pre><code>-- NOT 2NF: PK is (order_id, product_id), but product_name depends on product_id alone\nCREATE TABLE order_items_bad (\n    order_id INT,\n    product_id INT,\n    product_name VARCHAR(50),   -- partial dependency on product_id only\n    product_price DECIMAL(10,2), -- partial dependency on product_id only\n    qty INT,\n    PRIMARY KEY (order_id, product_id)\n);\n-- Problems: product name/price repeated on every order line.\n-- Change a product's name once -> update 10,000 rows.\n\n-- 2NF: split products into their own table\nCREATE TABLE products (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    price DECIMAL(10,2)\n);\nCREATE TABLE order_items (\n    order_id INT,\n    product_id INT,\n    qty INT,\n    PRIMARY KEY (order_id, product_id),\n    FOREIGN KEY (product_id) REFERENCES products(id)\n);</code></pre><h3>4. Third Normal Form (3NF): No Transitive Dependencies</h3><p>A table in 2NF is in 3NF if every non-key column depends <em>directly</em> on the primary key — not through another non-key column. Formally: no non-key column depends on another non-key column.</p><pre><code>-- NOT 3NF: department_name depends on department_id, not on employee_id\nCREATE TABLE employees_bad (\n    emp_id INT PRIMARY KEY,\n    emp_name VARCHAR(50),\n    department_id INT,\n    department_name VARCHAR(50)  -- transitive: emp_id -> dept_id -> dept_name\n);\n-- Problem: repeating the dept name on every employee row.\n-- Renaming a department touches thousands of rows.\n\n-- 3NF: dept_name lives only in departments\nCREATE TABLE departments (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n);\nCREATE TABLE employees (\n    emp_id INT PRIMARY KEY,\n    emp_name VARCHAR(50),\n    department_id INT,\n    FOREIGN KEY (department_id) REFERENCES departments(id)\n);</code></pre><p>3NF is the pragmatic target for most OLTP schemas. If a table is in 3NF, you rarely have anomalies, and the schema is a sensible starting point for any application.</p><h3>5. Boyce-Codd Normal Form (BCNF): Stricter Than 3NF</h3><p>A table is in BCNF if, for every non-trivial dependency X -> Y, X is a <em>superkey</em> (contains a candidate key). BCNF catches a subtle class of anomalies that 3NF misses when there are multiple overlapping candidate keys.</p><pre><code>-- Classic BCNF-violation example:\n-- A course is taught by exactly one instructor for a given room.\n-- (room, time) -> instructor.  (instructor, time) -> room.\nCREATE TABLE classes (\n    room VARCHAR(20),\n    time TIME,\n    instructor VARCHAR(50),\n    PRIMARY KEY (room, time)\n);\n-- (room, time) is the primary key.\n-- But instructor also partly determines room: (instructor, time) -> room.\n-- Anomaly: to say 'Priya teaches in room 101 at 10am' we need a class entry.\n-- If we delete all Priya's 10am classes, we lose the fact that she is associated with room 101 at 10am.\n\n-- BCNF version: split into two tables\nCREATE TABLE instructor_rooms (\n    instructor VARCHAR(50),\n    time TIME,\n    room VARCHAR(20),\n    PRIMARY KEY (instructor, time)\n);\nCREATE TABLE class_schedule (\n    instructor VARCHAR(50),\n    time TIME,\n    PRIMARY KEY (instructor, time)\n);</code></pre><p>In practice, BCNF rarely differs from 3NF for most real schemas. When it does, the anomaly is usually a sign that the business rules are more complex than first thought — worth pausing to re-examine.</p><h3>6. 4NF and 5NF: Briefly</h3><p><strong>4NF</strong> eliminates multi-valued dependencies. If a table records that a student is enrolled in a set of courses AND has a set of phone numbers, storing them in one table creates a combinatorial explosion. Split into two tables.</p><p><strong>5NF</strong> eliminates join dependencies — situations where a table can be reconstructed from smaller joins but not from any two of them. 5NF cases are rare in practice; 3NF / BCNF is the usual end point.</p><h3>7. Denormalization: Deliberate Rule-Breaking</h3><p>Once the schema is normalized, measure performance. If a read-heavy query repeatedly JOINs five tables, you may decide to copy a column into another table:</p><pre><code>-- Normalized: to show a customer's orders with their city,\n-- you JOIN customers on every query.\n\n-- Denormalized: copy city onto orders\nALTER TABLE orders ADD COLUMN customer_city VARCHAR(50);\n-- Now you pay the cost at write time (and must keep it in sync)\n-- to save the JOIN at read time.</code></pre><p>Accept the cost: you now have two copies of city that can drift. Mitigate with triggers, with ETL jobs that reconcile, or by treating the denormalized copy as a cache (rebuild on demand). Document why you denormalized so the next engineer does not try to 'fix' it.</p><h3>8. ER Diagrams: Entities, Relationships, Cardinality</h3><p>Before you write DDL, sketch an <strong>ER (Entity-Relationship) diagram</strong>. Each <strong>entity</strong> becomes a table. <strong>Relationships</strong> become foreign keys (or, for many-to-many, a junction table). <strong>Cardinality</strong> describes how many of each:</p><ul><li><strong>1-1</strong>: a user has one profile. Add the FK to either table (usually the optional side).</li><li><strong>1-N</strong>: a customer has many orders. FK on the many side (<code>orders.customer_id</code>).</li><li><strong>N-M</strong>: a student enrolls in many courses, a course has many students. Create a junction table: <code>enrollments(student_id, course_id)</code>.</li></ul><pre><code>-- 1-N: customer -> orders\nCREATE TABLE customers (id INT PRIMARY KEY, name VARCHAR(50));\nCREATE TABLE orders    (id INT PRIMARY KEY, customer_id INT,\n                        FOREIGN KEY (customer_id) REFERENCES customers(id));\n\n-- N-M: students <-> courses\nCREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(50));\nCREATE TABLE courses  (id INT PRIMARY KEY, name VARCHAR(50));\nCREATE TABLE enrollments (\n    student_id INT, course_id INT,\n    grade CHAR(2),\n    PRIMARY KEY (student_id, course_id),\n    FOREIGN KEY (student_id) REFERENCES students(id),\n    FOREIGN KEY (course_id)  REFERENCES courses(id)\n);</code></pre><h3>9. Designing an E-commerce Schema</h3><pre><code>CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    email VARCHAR(100) UNIQUE NOT NULL,\n    password_hash CHAR(60) NOT NULL,\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP\n);\n\nCREATE TABLE addresses (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    line1 VARCHAR(200),\n    city VARCHAR(50),\n    pincode VARCHAR(10),\n    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n);\n\nCREATE TABLE categories (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(50) UNIQUE\n);\n\nCREATE TABLE products (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    category_id INT,\n    price DECIMAL(10,2) NOT NULL,\n    stock INT NOT NULL DEFAULT 0,\n    FOREIGN KEY (category_id) REFERENCES categories(id)\n);\n\nCREATE TABLE orders (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    total DECIMAL(10,2) NOT NULL,\n    status VARCHAR(20) NOT NULL DEFAULT 'PENDING',\n    placed_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);\n\nCREATE TABLE order_items (\n    order_id INT,\n    product_id INT,\n    qty INT NOT NULL,\n    unit_price DECIMAL(10,2) NOT NULL,\n    PRIMARY KEY (order_id, product_id),\n    FOREIGN KEY (order_id)   REFERENCES orders(id)   ON DELETE CASCADE,\n    FOREIGN KEY (product_id) REFERENCES products(id)\n);</code></pre><p>Note the <code>unit_price</code> copied onto <code>order_items</code>. This is deliberate denormalization: products[price] will change over time; order_items must capture the price <em>at the moment of sale</em>. The 'redundancy' is the point.</p><h3>10. Designing an Instagram-like Social Schema</h3><pre><code>CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(30) UNIQUE NOT NULL,\n    bio VARCHAR(200),\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP\n);\n\nCREATE TABLE posts (\n    id BIGINT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    caption TEXT,\n    image_url VARCHAR(200),\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n);\n\nCREATE TABLE comments (\n    id BIGINT AUTO_INCREMENT PRIMARY KEY,\n    post_id BIGINT NOT NULL,\n    user_id INT NOT NULL,\n    body VARCHAR(500),\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);\n\nCREATE TABLE likes (\n    post_id BIGINT,\n    user_id INT,\n    liked_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    PRIMARY KEY (post_id, user_id),\n    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);\n\n-- Follows: a user follows another user (self-join on users)\nCREATE TABLE follows (\n    follower_id INT,\n    followee_id INT,\n    followed_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    PRIMARY KEY (follower_id, followee_id),\n    FOREIGN KEY (follower_id) REFERENCES users(id),\n    FOREIGN KEY (followee_id) REFERENCES users(id),\n    CHECK (follower_id <> followee_id)\n);</code></pre><p>The <code>follows</code> table is a self-referential N-M. The CHECK prevents users from following themselves. At scale this table gets billions of rows, and denormalization (cached follower counts on <code>users</code>, Redis fan-out of timelines) is unavoidable — but the normalized design remains the source of truth.</p><h3>11. Keys: Primary, Surrogate, Composite</h3><ul><li><strong>Natural primary key</strong>: a real-world unique identifier (email, ISBN). Stable if the real world is stable; often not — people change emails.</li><li><strong>Surrogate primary key</strong>: an invented identifier (INT AUTO_INCREMENT, UUID). Stable by definition; decoupled from business meaning.</li><li><strong>Composite primary key</strong>: multiple columns together uniquely identify a row. Standard for junction tables (<code>enrollments(student_id, course_id)</code>).</li></ul><p>Modern practice: use surrogate keys for most tables (unchanging, compact, indexable); use composite keys for junction tables; add UNIQUE constraints on the natural keys (email, username) for enforcement without tying the PK to them.</p><h3>12. Foreign Key Cascading</h3><p>When you declare a foreign key, you choose what happens if the referenced row is deleted or updated:</p><ul><li><strong>ON DELETE CASCADE</strong>: delete child rows automatically. Use when children cannot exist without the parent (address without user, comments without post).</li><li><strong>ON DELETE SET NULL</strong>: set the FK to NULL. Use when the child can survive the parent (employee can exist without a manager — set manager_id = NULL).</li><li><strong>ON DELETE RESTRICT</strong> (default in most engines): block the delete if children exist. Safe default for business-critical data.</li><li><strong>ON DELETE NO ACTION</strong>: same as RESTRICT in MySQL, but in some DBs the check is deferred.</li></ul><pre><code>CREATE TABLE posts (\n    id BIGINT PRIMARY KEY,\n    user_id INT,\n    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n);\n-- Delete a user, all their posts vanish automatically.\n\nCREATE TABLE employees (\n    id INT PRIMARY KEY,\n    manager_id INT,\n    FOREIGN KEY (manager_id) REFERENCES employees(id) ON DELETE SET NULL\n);\n-- Delete a manager, reports have manager_id = NULL (not themselves deleted).\n\nCREATE TABLE invoices (\n    id INT PRIMARY KEY,\n    customer_id INT,\n    FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE RESTRICT\n);\n-- Cannot delete a customer who has invoices. Force the operator to deal with them first.</code></pre>"
+    ,
+    "codeExamples": [
+      {
+        "title": "1NF Violation and Fix",
+        "code": "-- Bad: phones stuffed into a single CSV column\nCREATE TABLE students_bad (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    phones VARCHAR(200)\n);\n\nINSERT INTO students_bad VALUES\n(1, 'Aarav', '9876500001,9876500002'),\n(2, 'Priya', '9876500003');\n\n-- Finding students with a specific phone requires LIKE -- no index usage\nSELECT name FROM students_bad WHERE phones LIKE '%9876500002%';\n\n-- 1NF version: each phone on its own row\nCREATE TABLE students (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n);\n\nCREATE TABLE student_phones (\n    student_id INT,\n    phone VARCHAR(15),\n    PRIMARY KEY (student_id, phone),\n    FOREIGN KEY (student_id) REFERENCES students(id)\n);\n\nINSERT INTO students VALUES (1,'Aarav'), (2,'Priya');\nINSERT INTO student_phones VALUES\n(1,'9876500001'), (1,'9876500002'), (2,'9876500003');\n\n-- Now the lookup is O(log N) with an index\nSELECT s.name FROM students s\nJOIN student_phones p ON p.student_id = s.id\nWHERE p.phone = '9876500002';",
+        "language": "sql",
+        "explanation": "CSV columns defeat indexing and force substring searches. Splitting into a child table (with an index on phone) turns a full scan into an indexed lookup, and lets you add new phones without touching other data. This is the most common 1NF fix.",
+        "output": "+-------+\n| name  |\n+-------+\n| Aarav |\n+-------+"
+      },
+      {
+        "title": "2NF Violation and Fix",
+        "code": "-- Bad: primary key is (order_id, product_id),\n-- but product_name and price depend on product_id alone\nCREATE TABLE order_items_bad (\n    order_id INT,\n    product_id INT,\n    product_name VARCHAR(50),\n    product_price DECIMAL(10,2),\n    qty INT,\n    PRIMARY KEY (order_id, product_id)\n);\n\nINSERT INTO order_items_bad VALUES\n(1001, 42, 'Headphones', 1999.00, 1),\n(1002, 42, 'Headphones', 1999.00, 2),\n(1003, 42, 'Headphones', 1999.00, 1);\n-- 'Headphones' and 1999.00 are repeated on every row.\n\n-- Update anomaly: renaming the product touches many rows\nUPDATE order_items_bad\nSET product_name = 'Wireless Headphones'\nWHERE product_id = 42;\n\n-- 2NF fix: split products out\nCREATE TABLE products (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    price DECIMAL(10,2)\n);\n\nCREATE TABLE order_items (\n    order_id INT,\n    product_id INT,\n    qty INT,\n    PRIMARY KEY (order_id, product_id),\n    FOREIGN KEY (product_id) REFERENCES products(id)\n);\n\nINSERT INTO products VALUES (42, 'Wireless Headphones', 1999.00);\nINSERT INTO order_items VALUES (1001,42,1), (1002,42,2), (1003,42,1);\n\n-- Now renaming the product is O(1)\nUPDATE products SET name = 'Bluetooth Headphones' WHERE id = 42;",
+        "language": "sql",
+        "explanation": "In the bad table, product_name and product_price depend only on product_id (part of the composite PK) — a partial dependency. Splitting products into its own table removes the partial dependency and turns repeated updates into single-row updates.",
+        "output": "-- After the 2NF fix, products table has 1 row.\n-- order_items has 3 rows referencing it.\n-- Product name changes update 1 row, not 3 (or 3 million)."
+      },
+      {
+        "title": "3NF Violation and Fix",
+        "code": "-- Bad: dept_name transitively depends on emp_id through dept_id\nCREATE TABLE employees_bad (\n    emp_id INT PRIMARY KEY,\n    emp_name VARCHAR(50),\n    dept_id INT,\n    dept_name VARCHAR(50)\n);\n\nINSERT INTO employees_bad VALUES\n(1, 'Aarav', 10, 'Engineering'),\n(2, 'Priya', 10, 'Engineering'),\n(3, 'Rohan', 20, 'Sales');\n\n-- Anomaly: renaming 'Engineering' to 'Product Engineering'\n-- requires updating every employee in that dept.\nUPDATE employees_bad SET dept_name = 'Product Engineering' WHERE dept_id = 10;\n\n-- 3NF fix: separate departments\nCREATE TABLE departments (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n);\n\nCREATE TABLE employees (\n    emp_id INT PRIMARY KEY,\n    emp_name VARCHAR(50),\n    dept_id INT,\n    FOREIGN KEY (dept_id) REFERENCES departments(id)\n);\n\nINSERT INTO departments VALUES (10,'Product Engineering'), (20,'Sales');\nINSERT INTO employees VALUES (1,'Aarav',10), (2,'Priya',10), (3,'Rohan',20);\n\n-- Rename is a single-row update, no matter how many employees\nUPDATE departments SET name = 'Platform Engineering' WHERE id = 10;\n\nSELECT e.emp_name, d.name AS dept\nFROM employees e JOIN departments d ON d.id = e.dept_id;",
+        "language": "sql",
+        "explanation": "dept_name depends on dept_id, which depends on emp_id: a transitive dependency. The fix is to make dept_name live in a table keyed by dept_id alone. Employees reference a department by FK; renaming a department is one UPDATE regardless of headcount.",
+        "output": "+----------+-----------------------+\n| emp_name | dept                  |\n+----------+-----------------------+\n| Aarav    | Platform Engineering  |\n| Priya    | Platform Engineering  |\n| Rohan    | Sales                 |\n+----------+-----------------------+"
+      },
+      {
+        "title": "N-M Junction Table: Students and Courses",
+        "code": "CREATE TABLE students (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n);\n\nCREATE TABLE courses (\n    id INT PRIMARY KEY,\n    title VARCHAR(50)\n);\n\n-- Junction table with attributes of the relationship itself\nCREATE TABLE enrollments (\n    student_id INT,\n    course_id INT,\n    grade CHAR(2),\n    enrolled_at DATE,\n    PRIMARY KEY (student_id, course_id),\n    FOREIGN KEY (student_id) REFERENCES students(id),\n    FOREIGN KEY (course_id)  REFERENCES courses(id)\n);\n\nINSERT INTO students VALUES (1,'Aarav'), (2,'Priya'), (3,'Rohan');\nINSERT INTO courses  VALUES (101,'DBMS'), (102,'OS');\nINSERT INTO enrollments VALUES\n(1, 101, 'A', '2026-01-10'),\n(1, 102, 'B', '2026-01-10'),\n(2, 101, 'A', '2026-01-11'),\n(3, 102, 'B', '2026-01-12');\n\n-- Which courses is Aarav in?\nSELECT c.title, e.grade\nFROM enrollments e\nJOIN courses c ON c.id = e.course_id\nJOIN students s ON s.id = e.student_id\nWHERE s.name = 'Aarav';",
+        "language": "sql",
+        "explanation": "The junction table (enrollments) is how you model N-M relationships. Its PK is the pair (student_id, course_id); relationship-specific attributes like grade and enrolled_at live on the junction because they belong to the relationship, not to either side individually.",
+        "output": "+-------+-------+\n| title | grade |\n+-------+-------+\n| DBMS  | A     |\n| OS    | B     |\n+-------+-------+"
+      },
+      {
+        "title": "ON DELETE CASCADE in Action",
+        "code": "CREATE TABLE users (\n    id INT PRIMARY KEY,\n    email VARCHAR(100)\n);\n\nCREATE TABLE posts (\n    id INT PRIMARY KEY,\n    user_id INT,\n    title VARCHAR(100),\n    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n);\n\nCREATE TABLE comments (\n    id INT PRIMARY KEY,\n    post_id INT,\n    body VARCHAR(200),\n    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE\n);\n\nINSERT INTO users VALUES (1,'aarav@x'), (2,'priya@x');\nINSERT INTO posts VALUES\n(101, 1, 'Hello world'),\n(102, 1, 'Second post'),\n(103, 2, 'Priya here');\nINSERT INTO comments VALUES\n(1001, 101, 'Nice!'),\n(1002, 102, 'Agreed'),\n(1003, 103, 'Welcome');\n\n-- Deleting Aarav cascades through posts and comments\nDELETE FROM users WHERE id = 1;\n\nSELECT 'users' tbl, id, NULL extra FROM users\nUNION ALL SELECT 'posts', id, user_id FROM posts\nUNION ALL SELECT 'comments', id, post_id FROM comments;",
+        "language": "sql",
+        "explanation": "ON DELETE CASCADE chains through all three tables: delete Aarav, his posts vanish, and the comments on those posts vanish. This is ideal for ownership hierarchies (a comment cannot exist without its post; a post cannot exist without its user). Only Priya's data remains.",
+        "output": "+----------+------+-------+\n| tbl      | id   | extra |\n+----------+------+-------+\n| users    |    2 | NULL  |\n| posts    |  103 |     2 |\n| comments | 1003 |   103 |\n+----------+------+-------+"
+      },
+      {
+        "title": "ON DELETE SET NULL for Optional Parent",
+        "code": "CREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    manager_id INT NULL,\n    FOREIGN KEY (manager_id) REFERENCES employees(id) ON DELETE SET NULL\n);\n\nINSERT INTO employees VALUES\n(1, 'Aarav', NULL),   -- CEO\n(2, 'Priya', 1),\n(3, 'Rohan', 1),\n(4, 'Anika', 2);\n\n-- Priya leaves; her reports lose a manager but stay employed\nDELETE FROM employees WHERE id = 2;\n\nSELECT id, name, manager_id FROM employees;",
+        "language": "sql",
+        "explanation": "Reports should not be deleted just because their manager left. ON DELETE SET NULL keeps the employees, clearing manager_id so they can be reassigned. Works because manager_id is NULL-able — you cannot use SET NULL on a NOT NULL column.",
+        "output": "+----+-------+------------+\n| id | name  | manager_id |\n+----+-------+------------+\n|  1 | Aarav | NULL       |\n|  3 | Rohan | 1          |\n|  4 | Anika | NULL       |\n+----+-------+------------+"
+      },
+      {
+        "title": "Deliberate Denormalization for Read Speed",
+        "code": "-- Normalized: posts has user_id, and to show username we JOIN users.\n-- At scale, this JOIN is the hot path on every feed page-load.\n\nCREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(30) UNIQUE\n);\n\nCREATE TABLE posts (\n    id BIGINT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT,\n    username_cached VARCHAR(30),   -- denormalized copy\n    body VARCHAR(500),\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);\n\n-- Keep the cached column in sync with a trigger\nDELIMITER $$\nCREATE TRIGGER posts_set_username\nBEFORE INSERT ON posts\nFOR EACH ROW\nBEGIN\n    SELECT username INTO NEW.username_cached\n    FROM users WHERE id = NEW.user_id;\nEND$$\n\nCREATE TRIGGER users_update_username\nAFTER UPDATE ON users\nFOR EACH ROW\nBEGIN\n    IF NEW.username <> OLD.username THEN\n        UPDATE posts SET username_cached = NEW.username WHERE user_id = NEW.id;\n    END IF;\nEND$$\nDELIMITER ;\n\n-- Feed query no longer needs to JOIN users\nSELECT id, username_cached, body FROM posts ORDER BY id DESC LIMIT 20;",
+        "language": "sql",
+        "explanation": "Denormalization earns its keep only when the read pattern is hot and the write overhead is manageable. Triggers keep the cached column consistent automatically. Document why the column exists and who owns the sync — otherwise a future engineer will delete it thinking it is a mistake.",
+        "output": "-- Feed query plan (conceptually):\n-- Before: SELECT + JOIN users (two index seeks per row)\n-- After:  SELECT alone (one index seek per row) -- measurably faster under load"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Designing for Denormalization First",
+        "wrongCode": "-- 'Make it easy to query' — one flat table\nCREATE TABLE orders_everything (\n    order_id INT,\n    order_date DATE,\n    customer_name VARCHAR(50),\n    customer_email VARCHAR(100),\n    customer_city VARCHAR(50),\n    product_name VARCHAR(100),\n    product_price DECIMAL(10,2),\n    product_category VARCHAR(50),\n    qty INT\n);\n-- Every fact is repeated. Every update touches many rows.\n-- Every new column you want to add requires a painful decision.",
+        "error": "No SQL error — but within weeks you see update anomalies, drifting data, and queries that cannot trust any column.",
+        "correctCode": "-- Start with a normalized schema (3NF or BCNF)\n-- Then, only after measurement, denormalize SPECIFIC hot paths\nCREATE TABLE customers   (id, name, email, city);\nCREATE TABLE products    (id, name, price, category_id);\nCREATE TABLE categories  (id, name);\nCREATE TABLE orders      (id, customer_id, created_at);\nCREATE TABLE order_items (order_id, product_id, qty, unit_price);\n-- Denormalize unit_price onto order_items ON PURPOSE to freeze the price at sale time.",
+        "explanation": "Jumping to denormalization because 'queries are easier' produces a schema that cannot tell you what is true. Normalize first; denormalize with intent, with triggers or ETL to keep copies consistent, and with documentation explaining why."
+      },
+      {
+        "title": "Using a Natural Primary Key That Changes",
+        "wrongCode": "CREATE TABLE users (\n    email VARCHAR(100) PRIMARY KEY,\n    name VARCHAR(50)\n);\n\nCREATE TABLE posts (\n    id INT PRIMARY KEY,\n    user_email VARCHAR(100),  -- FK to users.email\n    body TEXT\n);\n\n-- User changes email. Now:\nUPDATE users SET email = 'new@x.com' WHERE email = 'old@x.com';\n-- Every post's user_email must also be updated, or FK is violated.\n-- Worse, the email is indexed everywhere, so updates are slow.",
+        "error": "Logically fragile: every table that references email must be updated in lockstep, via CASCADE or manual updates, for every email change.",
+        "correctCode": "CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    email VARCHAR(100) UNIQUE NOT NULL,\n    name VARCHAR(50)\n);\n\nCREATE TABLE posts (\n    id INT PRIMARY KEY,\n    user_id INT,\n    body TEXT,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);\n\n-- Email change is one UPDATE on users. Posts reference the invariant id.\nUPDATE users SET email = 'new@x.com' WHERE id = 42;",
+        "explanation": "Use a surrogate key (INT AUTO_INCREMENT or UUID) as the primary key for most entities. Natural identifiers (email, username) should be UNIQUE columns, not PKs. Real-world identifiers change; surrogate keys do not."
+      },
+      {
+        "title": "Forgetting the Junction Table for N-M",
+        "wrongCode": "-- Trying to model students <-> courses with an array\nCREATE TABLE students (\n    id INT PRIMARY KEY,\n    name VARCHAR(50),\n    course_ids VARCHAR(200)   -- '101,102,103'\n);",
+        "error": "Not in 1NF. Impossible to ask 'how many students are in DBMS' efficiently. Impossible to record a per-pair grade.",
+        "correctCode": "CREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(50));\nCREATE TABLE courses  (id INT PRIMARY KEY, title VARCHAR(50));\nCREATE TABLE enrollments (\n    student_id INT,\n    course_id INT,\n    grade CHAR(2),\n    PRIMARY KEY (student_id, course_id),\n    FOREIGN KEY (student_id) REFERENCES students(id),\n    FOREIGN KEY (course_id)  REFERENCES courses(id)\n);",
+        "explanation": "N-M relationships require a junction table. The junction has a composite PK of both foreign keys and usually hosts relationship-specific attributes (grade, enrolled_at, role). This is a hard rule — there are no exceptions for 'small N' or 'small M'."
+      },
+      {
+        "title": "Wrong Cascade Choice: CASCADE Where RESTRICT Is Safer",
+        "wrongCode": "CREATE TABLE invoices (\n    id INT PRIMARY KEY,\n    customer_id INT,\n    FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE CASCADE\n);\n\n-- A sales rep accidentally deletes a customer.\n-- Every one of that customer's invoices disappears.\n-- Audit, tax records, refunds -- all gone.",
+        "error": "No SQL error — but the finance team has lost months of invoices that they legally must keep.",
+        "correctCode": "CREATE TABLE invoices (\n    id INT PRIMARY KEY,\n    customer_id INT,\n    FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE RESTRICT\n);\n\n-- The accidental delete now fails with a FK error.\n-- The operator must deal with the invoices first, which is the correct behaviour.",
+        "explanation": "Only use ON DELETE CASCADE for ownership hierarchies where a child truly cannot exist without the parent (a comment without its post). For business-critical relationships with auditing or legal implications (invoices, payments, transactions), use RESTRICT and make the operator make a conscious choice."
+      },
+      {
+        "title": "Over-Normalization: Splitting Addresses Into Atoms",
+        "wrongCode": "-- 'Atomic' to the extreme\nCREATE TABLE addresses (\n    id INT PRIMARY KEY,\n    user_id INT,\n    house_no VARCHAR(20),\n    street_id INT,\n    locality_id INT,\n    city_id INT,\n    state_id INT,\n    pincode_id INT\n);\nCREATE TABLE streets   (id INT PRIMARY KEY, name VARCHAR(100));\nCREATE TABLE localities(id INT PRIMARY KEY, name VARCHAR(100));\nCREATE TABLE cities    (id INT PRIMARY KEY, name VARCHAR(50));\nCREATE TABLE states    (id INT PRIMARY KEY, name VARCHAR(50));\nCREATE TABLE pincodes  (id INT PRIMARY KEY, code VARCHAR(10));\n-- Every address lookup is a 6-way JOIN.",
+        "error": "No SQL error — but every query that displays an address needs six JOINs. Developers burn hours writing and tuning them. Users experience slow page loads.",
+        "correctCode": "-- Pragmatic: store address as a few text fields, unless you need\n-- strict hierarchies (delivery optimisation, GST by state, etc.)\nCREATE TABLE addresses (\n    id INT PRIMARY KEY,\n    user_id INT,\n    line1 VARCHAR(200),\n    line2 VARCHAR(200),\n    city VARCHAR(50),\n    state VARCHAR(50),\n    pincode VARCHAR(10)\n);",
+        "explanation": "Normalization is a tool, not a religion. If 'street' never needs to be reused across users, it is a column, not a table. Split when there is real reuse or real querying benefit; not because textbook 3NF says so for every last attribute."
+      }
+    ],
+    "summary": [
+      "Database design starts with ER modelling: identify entities (become tables), relationships (become FKs or junction tables), and cardinality (1-1, 1-N, N-M).",
+      "Normalization is the process of removing redundancy and update anomalies. Each normal form (1NF, 2NF, 3NF, BCNF, 4NF, 5NF) is stricter than the previous one. 3NF is the practical target for most OLTP schemas.",
+      "1NF: every column has a single atomic value. No CSVs, no repeating groups, no multi-valued columns. Fix: split into a child table where each value is its own row.",
+      "2NF: in 1NF, AND no partial dependencies. Every non-key column depends on the whole composite PK, not part of it. Applies only when the PK is composite. Fix: split the partially-dependent columns into their own table keyed by that part.",
+      "3NF: in 2NF, AND no transitive dependencies. Non-key columns depend directly on the PK, not through another non-key column. Fix: move the transitively-dependent columns into their own table.",
+      "BCNF: stricter 3NF. Every non-trivial dependency X -> Y must have X as a superkey. Catches a narrow set of anomalies that 3NF misses when there are overlapping candidate keys. Rare in practice.",
+      "Denormalization is deliberate rule-breaking for performance. Normalize first, measure, then copy columns (or build summary tables) to speed up hot read paths. Document every denormalization.",
+      "Cardinality: 1-1 (optional FK on one side), 1-N (FK on the many side), N-M (junction table with composite PK of both FKs). Every N-M needs a junction — no exceptions.",
+      "Keys: use surrogate keys (INT AUTO_INCREMENT or UUID) as PKs; use UNIQUE constraints for natural identifiers (email, username). Junction tables naturally use composite PKs.",
+      "Foreign key cascading: ON DELETE CASCADE for ownership chains (comments under posts), ON DELETE SET NULL for optional parents (manager), ON DELETE RESTRICT for business-critical references (invoices, payments)."
+    ]
+  },
+  "relatedTopics": ["views-and-stored-procedures", "indexes-and-performance", "joins-inner-and-outer"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why do we normalize databases?",
+        "hint": "Three keywords: redundancy, anomalies, integrity.",
+        "answer": "To eliminate data redundancy (each fact stored once), to avoid update/insertion/deletion anomalies, and to enable referential integrity via foreign keys. A normalized schema survives schema evolution and concurrent modification far better than a denormalized one.",
+        "explanation": "Normalized tables make the same fact live in exactly one place, so updates touch one row and drifting copies become impossible."
+      },
+      {
+        "id": "ts-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What makes a table violate 1NF?",
+        "hint": "Think about a single cell.",
+        "answer": "Any column that stores multiple values in a single cell — CSV strings, JSON arrays of scalars used as lookup keys, comma-separated foreign-key lists. In a 1NF table, every cell holds a single atomic value.",
+        "explanation": "The usual fix is a child table: one row per value, with an FK back to the parent."
+      },
+      {
+        "id": "ts-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is a functional dependency?",
+        "hint": "X determines Y.",
+        "answer": "A rule X -> Y saying: for every X value, there is exactly one Y value. Example: roll_no -> student_name means every roll number identifies exactly one student. Functional dependencies are the foundation of normalization theory.",
+        "explanation": "The normal forms are expressed as rules about which functional dependencies can exist in a well-designed table."
+      },
+      {
+        "id": "ts-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is an update anomaly?",
+        "hint": "Think about updating redundant data.",
+        "answer": "A situation where the same fact is stored in many places, and updating it requires changing every copy atomically. If even one copy is missed, the database contradicts itself. Eliminated by normalization — each fact lives in one row.",
+        "explanation": "Insertion and deletion anomalies are the other two. Normalization eliminates all three."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "Is this table in 1NF?<pre><code>CREATE TABLE t (\n    id INT PRIMARY KEY,\n    tags VARCHAR(200)   -- 'sports,news,cricket'\n);</code></pre>",
+        "hint": "Multiple values in one column?",
+        "answer": "No. The <code>tags</code> column stores multiple values, violating 1NF.",
+        "explanation": "Fix: a child table tag_rows(id_fk, tag) with a composite PK."
+      },
+      {
+        "id": "ts-6",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is a composite primary key?",
+        "hint": "More than one column.",
+        "answer": "A primary key that consists of two or more columns whose combined values uniquely identify a row. Typical in junction tables for N-M relationships: <code>enrollments(student_id, course_id)</code> where each pair is unique.",
+        "explanation": "All of the key columns are NOT NULL. Alternative: make a surrogate id the PK and add a UNIQUE constraint on the composite."
+      },
+      {
+        "id": "ts-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between 2NF and 3NF?",
+        "hint": "Partial vs transitive.",
+        "answer": "2NF forbids <em>partial</em> dependencies: when the PK is composite, no non-key column may depend on only part of it. 3NF forbids <em>transitive</em> dependencies: no non-key column may depend on another non-key column. 2NF is only ever violated with composite PKs; 3NF can be violated with any PK.",
+        "explanation": "Once PKs are surrogate (single-column), 2NF is automatic and 3NF is the real lifting."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Given <code>(emp_id PK, emp_name, dept_id, dept_name)</code>, which normal form is violated?",
+        "hint": "dept_name depends on dept_id, not emp_id.",
+        "answer": "3NF. dept_name is transitively dependent on emp_id (emp_id -> dept_id -> dept_name). The table is in 1NF and 2NF but not 3NF. Fix: move dept_name into a departments table keyed by dept_id.",
+        "explanation": "This is the most common 3NF violation: 'category' or 'group' attributes repeated on the parent entity."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is a transitive dependency?",
+        "hint": "A -> B -> C, but C does not directly need A.",
+        "answer": "A dependency where a non-key column A determines another non-key column B (A -> B), and the PK determines A. So the PK determines B only through A — indirectly. 3NF requires you to break this chain by moving B into a table keyed by A.",
+        "explanation": "Example: emp_id -> dept_id -> dept_name. Move dept_name into departments(id, name) so it is keyed by dept_id directly."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When would you denormalize?",
+        "hint": "Trade-off.",
+        "answer": "When a specific read path is hot enough that the JOIN cost dominates performance, and the write cost of keeping copies in sync is acceptable. Typical cases: dashboards, feeds, full-text search indexes, reporting summaries.",
+        "explanation": "The rule of thumb: normalize first, measure, then denormalize with triggers / ETL to keep the copies consistent. Document the denormalization in a comment on the column."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between a primary key and a surrogate key?",
+        "hint": "Natural vs invented.",
+        "answer": "A primary key is the column(s) that uniquely identify rows. A surrogate key is an <em>invented</em> PK (usually INT AUTO_INCREMENT or UUID) that has no business meaning. A natural key is a real-world identifier used as PK (email, ISBN). Modern practice: surrogate keys as PKs; natural keys as UNIQUE constraints.",
+        "explanation": "Surrogate keys are stable (never changed by business logic) and compact (4 or 8 bytes); natural keys drift (emails change) and are often bulky."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is cardinality in an ER diagram?",
+        "hint": "1-1, 1-N, N-M.",
+        "answer": "The number of rows on each side of a relationship. 1-1: each row relates to at most one row on the other side (user <-> profile). 1-N: one row relates to many on the other (customer -> orders). N-M: many on each side (students <-> courses). Cardinality dictates how you model: FK column for 1-1 and 1-N, junction table for N-M.",
+        "explanation": "Correct cardinality in the ER diagram determines correct table structure. Getting it wrong forces painful migrations later."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is BCNF and how does it differ from 3NF in practice?",
+        "hint": "Every determinant must be a superkey.",
+        "answer": "BCNF requires that for every non-trivial FD X -> Y, X must be a superkey. 3NF allows a non-superkey X to determine a prime attribute (part of a candidate key). BCNF is strictly stronger but in practice coincides with 3NF for almost all schemas. It matters only when the table has multiple overlapping candidate keys.",
+        "explanation": "Most real designs pass BCNF once they pass 3NF. Interview questions about BCNF usually hinge on contrived examples with overlapping candidate keys."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Design the minimum schema for an Instagram-like 'follows' feature. Include self-reference and the check that prevents self-following.",
+        "hint": "Junction on users.",
+        "answer": "<code>CREATE TABLE follows(follower_id INT, followee_id INT, followed_at DATETIME, PRIMARY KEY (follower_id, followee_id), FOREIGN KEY (follower_id) REFERENCES users(id), FOREIGN KEY (followee_id) REFERENCES users(id), CHECK (follower_id &lt;&gt; followee_id));</code>",
+        "explanation": "Self-referential N-M with a composite PK. The CHECK stops users from following themselves — a classic invariant worth enforcing at the schema level."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is ON DELETE CASCADE dangerous for invoices but appropriate for comments?",
+        "hint": "Audit requirements vs ownership.",
+        "answer": "Invoices are business-critical records. Deleting a customer should not automatically delete their invoices — regulatory, tax, and audit rules demand retention. Use ON DELETE RESTRICT so deletes fail until the operator handles the invoices. Comments, on the other hand, only exist to decorate their post; deleting the post cascade-deletes comments because a comment without its post is noise.",
+        "explanation": "Cascade choice is a business decision, not a technical default. Get it wrong and you lose legally required records or leave orphans forever."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why is storing unit_price on order_items not a 3NF violation even though products already has a price?",
+        "hint": "Time.",
+        "answer": "Because order_items.unit_price is a <em>snapshot of the price at the moment of sale</em>. Products.price can (and will) change. If you always JOIN to products, historical orders show today's price, not the price they were sold at — bad for accounting. The duplication is not redundant: it captures a fact that would otherwise be lost.",
+        "explanation": "This is the key insight: 'copy' columns that record a moment in time are first-class data, not denormalization."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Can a table be in 3NF but not in BCNF? Give a sketch.",
+        "hint": "Non-superkey determinants.",
+        "answer": "Yes, when the table has multiple overlapping candidate keys. Example: <code>(course_id, instructor) -> room</code> AND <code>(room, time_slot) -> instructor</code>. There are two candidate keys. A non-superkey column determines another, but because the determined column is prime (part of another CK), 3NF's exception allows it. BCNF does not — it forbids any non-superkey determinant.",
+        "explanation": "Hard to construct in the wild. BCNF is mostly an exam topic; in production, 3NF is usually enough."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What normal form removes repeating groups?",
+        "hint": "First.",
+        "answer": "<code>1NF</code>",
+        "explanation": "Atomic values, no repeating groups."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Give an example of a 1-1 relationship.",
+        "hint": "User and profile.",
+        "answer": "A user has one profile; a profile belongs to one user. Model: a FK <code>user_id UNIQUE</code> on the profiles table (the UNIQUE constraint enforces the 1-1 cardinality).",
+        "explanation": "Other examples: an employee and their access card, a country and its capital city."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Which cascade option causes child rows to be deleted along with the parent?",
+        "hint": "Keyword is in the name.",
+        "answer": "<code>ON DELETE CASCADE</code>",
+        "explanation": "Use for ownership hierarchies where a child cannot exist without its parent (comment without post)."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "Is <code>(student_id, course_id) PK, grade</code> in 2NF if student_name is added as a column?",
+        "hint": "student_name depends on student_id alone.",
+        "answer": "No. student_name depends only on part of the PK (student_id), a partial dependency. Table violates 2NF. Fix: move student_name into students(id, name).",
+        "explanation": "Textbook 2NF violation. Classical composite-PK scenario."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is a junction table necessary for many-to-many relationships?",
+        "hint": "Neither side can hold the relationship alone.",
+        "answer": "Because you cannot store a many-to-many relationship as a foreign key on either side: a single column cannot hold multiple foreign keys without violating 1NF. The junction table represents the relationship itself, with a row for each pair, and can carry relationship-specific attributes (grade, role, enrolled_at).",
+        "explanation": "This is why students.course_id + courses.student_id does not work: you would need a collection on each side."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Give a real case where ON DELETE SET NULL is the right choice.",
+        "hint": "Child can survive parent's absence.",
+        "answer": "Employee.manager_id -> Employee.id with ON DELETE SET NULL. When a manager leaves, their reports remain employed — they just lose a manager until reassigned. SET NULL preserves the rows and leaves them in a recoverable state.",
+        "explanation": "Requires the FK column to be NULL-able. Works well for optional parent relationships."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "The table has PK = order_id and columns (customer_id, customer_name, shipping_city). Which normal form is violated?",
+        "hint": "customer_name depends on customer_id.",
+        "answer": "3NF. customer_name and shipping_city depend on customer_id, which is a non-key column. This is a transitive dependency: order_id -> customer_id -> customer_name.",
+        "explanation": "Fix: move customer_name and shipping_city into customers(id, name, city) and reference it via customer_id."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Describe when you would use a UUID PK instead of INT AUTO_INCREMENT.",
+        "hint": "Distributed systems.",
+        "answer": "When IDs must be generated by multiple servers without coordination (distributed systems, offline-first clients, merging data from several databases) or when you want IDs that are unguessable (public URLs). Trade-offs: UUIDs are 16 bytes (vs 4 for INT), slower for index scans, and not contiguous — which hurts insert performance on clustered indexes.",
+        "explanation": "A good compromise is ULID or UUIDv7, which are UUID-format but time-ordered, mitigating the insert-locality problem."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Normalize this to 3NF: (invoice_id, customer_id, customer_name, item_id, item_name, item_price, qty).",
+        "hint": "Three tables minimum.",
+        "answer": "Four tables: customers(id, name); items(id, name, price); invoices(id, customer_id, FK to customers); invoice_items(invoice_id, item_id, qty, unit_price, PK=(invoice_id,item_id), FKs to invoices and items). Note unit_price snapshot on invoice_items — captures price at sale time.",
+        "explanation": "This is a canonical exam normalization. Always keep unit_price on the line item — it is not duplication, it is historical truth."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why are denormalized counts (e.g. post_count on categories) risky in distributed or replicated setups?",
+        "hint": "Consistency under concurrency.",
+        "answer": "Updates to the count race against concurrent inserts/deletes on the children. Without careful locking (or atomic counters), the count drifts. In replicated systems, the count may be computed differently on master and replica if the replica's trigger logic differs or if statement-based replication mis-orders events. Either use transactions + FOR UPDATE on the parent row, or accept eventual consistency and reconcile the count via a scheduled job.",
+        "explanation": "A common pattern: keep a precise count in Redis (atomic INCR/DECR) and reconcile to the DB hourly from a ground-truth query."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Design a minimal WhatsApp-style chat schema: users, one-to-one chats, group chats, messages.",
+        "hint": "Conversations table as the unifying entity.",
+        "answer": "users(id, phone UNIQUE); conversations(id, type ENUM('DM','GROUP')); conversation_members(conv_id, user_id, PK=(conv_id,user_id)); messages(id, conv_id, sender_id, body, sent_at). DMs and groups are both conversations, distinguished by <code>type</code> and the count of members. Messages always belong to a conversation, not to a user pair — that keeps 1-1 and group chats symmetric.",
+        "explanation": "Unifying DM and group under one conversation entity is the key insight. It avoids duplicating the message table for each chat type."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the smallest number of tables needed for an e-commerce system with users, products, categories, carts, and orders?",
+        "hint": "Count entities and junctions.",
+        "answer": "Seven: users, categories, products (FK to category), carts (FK to user), cart_items (junction: PK=(cart_id,product_id), with qty), orders (FK to user), order_items (junction: PK=(order_id,product_id), with qty and unit_price).",
+        "explanation": "Carts and orders are distinct entities (cart is mutable, order is immutable). Each has its own line-item junction table."
+      },
+      {
+        "id": "mx-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain why 'email' should usually be a UNIQUE column, not a primary key.",
+        "hint": "Stability.",
+        "answer": "Emails change. If email is the PK, every FK that references it must be updated in sync (either manually or via ON UPDATE CASCADE), and every index that contains it must be rebuilt. The overhead is large. A surrogate PK (id) stays fixed forever; email moves to a UNIQUE constraint for uniqueness enforcement without being the anchor that other rows point to.",
+        "explanation": "Apply the same reasoning to username, phone, and any other mutable identifier. PKs should be invariant; natural identifiers should be UNIQUE."
+      },
+      {
+        "id": "mx-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Does 4NF matter in practice?",
+        "hint": "Multi-valued dependencies are rare.",
+        "answer": "Rarely. 4NF eliminates multi-valued dependencies — situations where a table encodes two independent multi-valued facts about one entity (e.g. a student's courses AND their phone numbers in one table). The violations usually scream at you as '1NF with two repeating groups' and you split them into two child tables without needing the 4NF theory. In 15 years of practice, 3NF plus common sense catches almost everything.",
+        "explanation": "Know 4NF for interviews; design for 3NF in production."
+      },
+      {
+        "id": "mx-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Draft a brief migration plan to move from a 2NF-violating order_items (with product_name copied) to a 3NF-compliant schema with a products table.",
+        "hint": "Safe rollout.",
+        "answer": "(1) Create products(id, name, price). (2) Backfill products from DISTINCT (product_id, product_name, product_price) in order_items_bad. (3) Add product_id FK (already present, just verify). (4) Dual-write for a week: writes hit both the old and new structure. (5) Stop using product_name/product_price columns from order_items_bad in queries; read from the JOIN. (6) Drop the columns. Do it in small reversible steps, verifying each with row-count checks and query correctness.",
+        "explanation": "Real migrations are the harder part of normalization. The design changes are straightforward; coordinating with live traffic is the challenge."
+      },
+      {
+        "id": "mx-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is a junction table's primary key usually the pair (fk_a, fk_b) and not a separate surrogate id?",
+        "hint": "Think uniqueness and duplicate prevention.",
+        "answer": "The composite PK enforces the business rule that each (fk_a, fk_b) pair can appear at most once — you cannot enroll Aarav in DBMS twice. A surrogate id would permit duplicates unless you also added a UNIQUE constraint on the pair, which makes the surrogate redundant. The one exception is when you need a stable small integer to reference the junction row from yet another table — then add a surrogate id alongside the composite UNIQUE.",
+        "explanation": "Composite PKs are the right default on junction tables. Surrogate-first is the habit of ORMs, not of good DBAs."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does 1NF require?",
+        "options": {
+          "A": "Single-column primary keys",
+          "B": "Atomic values in every column; no repeating groups",
+          "C": "All columns to be NOT NULL",
+          "D": "No foreign keys"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 1NF forbids lists, CSVs, or multi-valued columns. Each cell must hold one value."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which form eliminates partial dependencies on composite keys?",
+        "options": {
+          "A": "1NF",
+          "B": "2NF",
+          "C": "3NF",
+          "D": "BCNF"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 2NF is defined specifically to eliminate partial dependencies — a concern only when the PK is composite."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which form eliminates transitive dependencies?",
+        "options": {
+          "A": "1NF",
+          "B": "2NF",
+          "C": "3NF",
+          "D": "4NF"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> 3NF forbids non-key columns from determining other non-key columns."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "How do you model a many-to-many relationship?",
+        "options": {
+          "A": "A foreign key on each side",
+          "B": "A junction/associative table with a composite PK of the two FKs",
+          "C": "A VARCHAR column with CSV-encoded IDs",
+          "D": "You can't"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The junction table represents the relationship itself and can hold relationship-specific attributes."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does ON DELETE CASCADE do?",
+        "options": {
+          "A": "Blocks the delete",
+          "B": "Sets the FK to NULL",
+          "C": "Deletes referencing child rows automatically",
+          "D": "Raises a warning"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Child rows are deleted when their parent is deleted. Use only for ownership hierarchies."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which is TRUE about surrogate keys?",
+        "options": {
+          "A": "They must be natural identifiers",
+          "B": "They are invented IDs with no business meaning, stable across entity changes",
+          "C": "They must be UUIDs",
+          "D": "They cannot be primary keys"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Surrogate keys (INT AUTO_INCREMENT, UUID) are stable and decoupled from business data — ideal for PKs."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which NF is violated by (order_id, product_id) PK + product_name?",
+        "options": {
+          "A": "1NF",
+          "B": "2NF (partial dependency on product_id)",
+          "C": "3NF",
+          "D": "4NF"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> product_name depends on only part of the composite PK, a partial dependency."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which NF is violated by (emp_id PK, dept_id, dept_name)?",
+        "options": {
+          "A": "1NF",
+          "B": "2NF",
+          "C": "3NF (transitive dependency through dept_id)",
+          "D": "BCNF only"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> dept_name depends on dept_id, a non-key column — a transitive dependency via emp_id -> dept_id -> dept_name."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which is NOT a legitimate reason to denormalize?",
+        "options": {
+          "A": "Hot read path dominated by expensive JOINs",
+          "B": "Dashboard that queries thousands of times per minute",
+          "C": "Developer preference — 'it looks cleaner'",
+          "D": "Analytics/reporting tables that must be pre-aggregated"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Denormalization must be driven by measured performance, not aesthetics."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which cardinality does enrollments(student_id, course_id) represent?",
+        "options": {
+          "A": "1-1",
+          "B": "1-N",
+          "C": "N-M",
+          "D": "No relationship"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A student enrolls in many courses; a course has many students. Junction table is the N-M pattern."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Why store unit_price on order_items despite products.price existing?",
+        "options": {
+          "A": "3NF violation for no reason",
+          "B": "To capture price at the moment of sale, since products.price changes over time",
+          "C": "To speed up writes",
+          "D": "Because MySQL requires it"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> unit_price is a historical fact, not redundant — products.price may change, but the sale's price is fixed."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "BCNF is strictly stronger than 3NF because:",
+        "options": {
+          "A": "It allows more columns per table",
+          "B": "It requires every determinant to be a superkey (no exceptions for prime attributes)",
+          "C": "It forbids composite keys",
+          "D": "It requires SERIALIZABLE isolation"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 3NF allows a non-superkey to determine a prime attribute; BCNF does not."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Best choice for an 'invoices' FK to customers, where legal retention is required?",
+        "options": {
+          "A": "ON DELETE CASCADE",
+          "B": "ON DELETE SET NULL",
+          "C": "ON DELETE RESTRICT",
+          "D": "ON DELETE NO ACTION (deferred)"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> RESTRICT blocks accidental deletes; operator must clear invoices first. Loss of invoices due to CASCADE can be a legal nightmare."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Why do we keep normalized design as the source of truth even when denormalized copies exist?",
+        "options": {
+          "A": "Normalized tables are always faster",
+          "B": "So that copies can be regenerated and reconciled when they drift; normalized is the canonical version of facts",
+          "C": "Because ORMs require it",
+          "D": "To comply with ACID"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Denormalization is a cache. When it drifts, the normalized tables are the ground truth you rebuild from."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which is NOT a valid reason to prefer UUID PKs over AUTO_INCREMENT?",
+        "options": {
+          "A": "Multi-master distributed ID generation",
+          "B": "Unguessable public URLs",
+          "C": "Faster clustered-index inserts",
+          "D": "Offline-first clients that create rows before reaching the server"
+        },
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> UUIDs are worse for clustered-index insert locality. All the others are valid UUID use cases."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "In an ER diagram, what does a 'weak entity' mean?",
+        "options": {
+          "A": "A table that cannot exist without a parent; its PK includes the parent's PK",
+          "B": "A table with no indexes",
+          "C": "A view",
+          "D": "A denormalized copy"
+        },
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Example: order_items (weak) depends on orders (strong) — the order_id is part of the PK."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the correct first step when asked to 'design the schema for X'?",
+        "options": {
+          "A": "Write CREATE TABLE immediately",
+          "B": "Draw the ER diagram: list entities, relationships, and cardinalities",
+          "C": "Add indexes",
+          "D": "Choose the isolation level"
+        },
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Getting entities and cardinality right on paper saves weeks of painful migrations later. DDL comes after the ER."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Normalize a Flat Orders Table to 3NF",
+        "difficulty": "Easy",
+        "description": "Given <code>orders_flat(order_id, customer_name, customer_city, product_name, product_price, qty)</code>, write the CREATE TABLEs for a 3NF schema. Include FKs.",
+        "sampleInput": "(No input.)",
+        "sampleOutput": "Four tables: customers, products, orders, order_items (with unit_price snapshot).",
+        "constraints": "Use AUTO_INCREMENT PKs. Use FOREIGN KEY with appropriate cascade.",
+        "solution": "CREATE TABLE customers (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(50),\n    city VARCHAR(50)\n);\n\nCREATE TABLE products (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(100),\n    price DECIMAL(10,2)\n);\n\nCREATE TABLE orders (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    customer_id INT NOT NULL,\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (customer_id) REFERENCES customers(id)\n);\n\nCREATE TABLE order_items (\n    order_id INT,\n    product_id INT,\n    qty INT NOT NULL,\n    unit_price DECIMAL(10,2) NOT NULL,\n    PRIMARY KEY (order_id, product_id),\n    FOREIGN KEY (order_id)   REFERENCES orders(id)   ON DELETE CASCADE,\n    FOREIGN KEY (product_id) REFERENCES products(id)\n);"
+      },
+      {
+        "id": "cc-2",
+        "title": "Split a CSV Column (1NF Fix)",
+        "difficulty": "Easy",
+        "description": "<code>students(id, name, phones VARCHAR(200))</code> stores CSV phones. Create a <code>student_phones</code> child table and write the INSERT ... SELECT that migrates existing data.",
+        "sampleInput": "students: (1,'Aarav','9876500001,9876500002'), (2,'Priya','9876500003')",
+        "sampleOutput": "student_phones: (1,'9876500001'),(1,'9876500002'),(2,'9876500003')",
+        "constraints": "Use a numbers table or a recursive CTE to split the CSV.",
+        "solution": "CREATE TABLE student_phones (\n    student_id INT,\n    phone VARCHAR(15),\n    PRIMARY KEY (student_id, phone),\n    FOREIGN KEY (student_id) REFERENCES students(id)\n);\n\n-- Using a recursive CTE to split on commas\nINSERT INTO student_phones (student_id, phone)\nWITH RECURSIVE split AS (\n    SELECT id AS student_id,\n           TRIM(SUBSTRING_INDEX(phones, ',', 1)) AS phone,\n           IF(LOCATE(',', phones) = 0, '', SUBSTRING(phones, LOCATE(',', phones) + 1)) AS rest\n    FROM students\n    UNION ALL\n    SELECT student_id,\n           TRIM(SUBSTRING_INDEX(rest, ',', 1)),\n           IF(LOCATE(',', rest) = 0, '', SUBSTRING(rest, LOCATE(',', rest) + 1))\n    FROM split\n    WHERE rest <> ''\n)\nSELECT student_id, phone FROM split WHERE phone <> '';\n\n-- Finally, drop the CSV column\nALTER TABLE students DROP COLUMN phones;"
+      },
+      {
+        "id": "cc-3",
+        "title": "Design an Instagram Schema",
+        "difficulty": "Medium",
+        "description": "Design DDL for users, posts, comments, likes, and follows. Include correct cardinalities, FKs with appropriate cascades, and a CHECK preventing self-follows.",
+        "sampleInput": "(No input.)",
+        "sampleOutput": "Five tables with correct relationships.",
+        "constraints": "Self-reference on follows. Likes as a junction. Comments under posts.",
+        "solution": "CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(30) UNIQUE NOT NULL,\n    bio VARCHAR(200),\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP\n);\n\nCREATE TABLE posts (\n    id BIGINT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    caption TEXT,\n    image_url VARCHAR(200),\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n);\n\nCREATE TABLE comments (\n    id BIGINT AUTO_INCREMENT PRIMARY KEY,\n    post_id BIGINT NOT NULL,\n    user_id INT NOT NULL,\n    body VARCHAR(500),\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);\n\nCREATE TABLE likes (\n    post_id BIGINT,\n    user_id INT,\n    liked_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    PRIMARY KEY (post_id, user_id),\n    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,\n    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n);\n\nCREATE TABLE follows (\n    follower_id INT,\n    followee_id INT,\n    followed_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    PRIMARY KEY (follower_id, followee_id),\n    FOREIGN KEY (follower_id) REFERENCES users(id) ON DELETE CASCADE,\n    FOREIGN KEY (followee_id) REFERENCES users(id) ON DELETE CASCADE,\n    CHECK (follower_id <> followee_id)\n);"
+      },
+      {
+        "id": "cc-4",
+        "title": "N-M with Relationship Attributes",
+        "difficulty": "Medium",
+        "description": "Design a junction <code>enrollments</code> between students and courses that records grade and enrolment date. Prevent duplicate enrolments.",
+        "sampleInput": "students, courses already exist.",
+        "sampleOutput": "enrollments with composite PK and FKs.",
+        "constraints": "PK = (student_id, course_id).",
+        "solution": "CREATE TABLE enrollments (\n    student_id INT,\n    course_id INT,\n    grade CHAR(2),\n    enrolled_at DATE,\n    PRIMARY KEY (student_id, course_id),\n    FOREIGN KEY (student_id) REFERENCES students(id) ON DELETE CASCADE,\n    FOREIGN KEY (course_id)  REFERENCES courses(id)  ON DELETE CASCADE\n);"
+      },
+      {
+        "id": "cc-5",
+        "title": "Employee Hierarchy with SET NULL",
+        "difficulty": "Medium",
+        "description": "Design an employees table with self-referencing manager_id. When a manager is deleted, reports should have manager_id cleared.",
+        "sampleInput": "Managers and reports exist.",
+        "sampleOutput": "DDL with correct FK and cascade.",
+        "constraints": "Self-referencing FK; manager_id must be NULL-able.",
+        "solution": "CREATE TABLE employees (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(50),\n    manager_id INT NULL,\n    FOREIGN KEY (manager_id) REFERENCES employees(id) ON DELETE SET NULL\n);"
+      },
+      {
+        "id": "cc-6",
+        "title": "Protect Business-Critical Data with RESTRICT",
+        "difficulty": "Medium",
+        "description": "Design invoices FK to customers with RESTRICT so accidental customer deletes fail while invoices exist.",
+        "sampleInput": "customers and invoices tables needed.",
+        "sampleOutput": "DELETE on customer with invoices fails with FK error.",
+        "constraints": "Use ON DELETE RESTRICT.",
+        "solution": "CREATE TABLE customers (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(50),\n    email VARCHAR(100) UNIQUE\n);\n\nCREATE TABLE invoices (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    customer_id INT NOT NULL,\n    amount DECIMAL(12,2),\n    issued_at DATE,\n    FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE RESTRICT\n);\n\n-- Any accidental DELETE FROM customers WHERE id = X\n-- will fail if invoices reference that customer."
+      },
+      {
+        "id": "cc-7",
+        "title": "E-commerce Schema with Carts and Orders",
+        "difficulty": "Hard",
+        "description": "Design a minimum e-commerce schema: users, products, categories, carts, cart_items, orders, order_items. Include unit_price snapshot on order_items and proper cascades.",
+        "sampleInput": "(No input.)",
+        "sampleOutput": "Seven tables with correct relationships.",
+        "constraints": "Use surrogate PKs. Use composite PKs on junction tables. Snapshot unit_price on order_items.",
+        "solution": "CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    email VARCHAR(100) UNIQUE NOT NULL,\n    password_hash CHAR(60) NOT NULL,\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP\n);\n\nCREATE TABLE categories (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(50) UNIQUE\n);\n\nCREATE TABLE products (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    category_id INT,\n    price DECIMAL(10,2) NOT NULL,\n    stock INT NOT NULL DEFAULT 0,\n    FOREIGN KEY (category_id) REFERENCES categories(id)\n);\n\nCREATE TABLE carts (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL UNIQUE,\n    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE\n);\n\nCREATE TABLE cart_items (\n    cart_id INT,\n    product_id INT,\n    qty INT NOT NULL,\n    PRIMARY KEY (cart_id, product_id),\n    FOREIGN KEY (cart_id)    REFERENCES carts(id)    ON DELETE CASCADE,\n    FOREIGN KEY (product_id) REFERENCES products(id)\n);\n\nCREATE TABLE orders (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    total DECIMAL(10,2) NOT NULL,\n    status VARCHAR(20) NOT NULL DEFAULT 'PENDING',\n    placed_at DATETIME DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);\n\nCREATE TABLE order_items (\n    order_id INT,\n    product_id INT,\n    qty INT NOT NULL,\n    unit_price DECIMAL(10,2) NOT NULL,\n    PRIMARY KEY (order_id, product_id),\n    FOREIGN KEY (order_id)   REFERENCES orders(id)   ON DELETE CASCADE,\n    FOREIGN KEY (product_id) REFERENCES products(id)\n);"
+      },
+      {
+        "id": "cc-8",
+        "title": "Migration: Normalize an Existing Table",
+        "difficulty": "Hard",
+        "description": "Given <code>employees_bad(emp_id, emp_name, dept_id, dept_name)</code>, write the SQL to migrate to a 3NF schema with a <code>departments</code> table, without losing data. Include the backfill and the final DROP COLUMN.",
+        "sampleInput": "employees_bad has 100 rows with repeating dept_name.",
+        "sampleOutput": "Two tables: departments and employees (with FK). employees_bad's dept_name dropped.",
+        "constraints": "Backfill departments from DISTINCT. Verify no orphans. Drop the redundant column last.",
+        "solution": "-- Step 1: create the new table\nCREATE TABLE departments (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n);\n\n-- Step 2: backfill from existing rows\nINSERT INTO departments (id, name)\nSELECT DISTINCT dept_id, dept_name\nFROM employees_bad\nWHERE dept_id IS NOT NULL;\n\n-- Step 3: rename the old table (backup) and create the new clean one\nRENAME TABLE employees_bad TO employees_old;\n\nCREATE TABLE employees (\n    emp_id INT PRIMARY KEY,\n    emp_name VARCHAR(50),\n    dept_id INT,\n    FOREIGN KEY (dept_id) REFERENCES departments(id)\n);\n\n-- Step 4: copy the clean data\nINSERT INTO employees (emp_id, emp_name, dept_id)\nSELECT emp_id, emp_name, dept_id FROM employees_old;\n\n-- Step 5: verify counts match\nSELECT COUNT(*) FROM employees_old;\nSELECT COUNT(*) FROM employees;\n\n-- Step 6: once verified in production, drop the old table\nDROP TABLE employees_old;"
+      }
+    ]
+  }
+}

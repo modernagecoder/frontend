@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to SQL and Databases - SQL Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand what databases are, why they matter, and how SQL lets us store, retrieve, and manage data.">
+    <meta name="keywords" content="introduction to sql and databases, sql tutorial, sql introduction to sql and databases, learn sql">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases">
+    <meta property="og:title" content="Introduction to SQL and Databases - SQL Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand what databases are, why they matter, and how SQL lets us store, retrieve, and manage data.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases">
+    <meta name="twitter:title" content="Introduction to SQL and Databases - SQL Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand what databases are, why they matter, and how SQL lets us store, retrieve, and manage data.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Introduction to SQL and Databases",
+    "description": "Understand what databases are, why they matter, and how SQL lets us store, retrieve, and manage data.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-11",
+    "dateModified": "2026-04-11",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "SQL",
+        "item": "https://learn.modernagecoders.com/resources/sql"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Introduction to SQL and Databases",
+        "item": "https://learn.modernagecoders.com/resources/sql/introduction-to-sql-and-databases"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Confusing Database with DBMS",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "MySQL, PostgreSQL, Oracle — these are <strong>DBMS software</strong>. The <em>database</em> is the actual data file (or set of files) that the DBMS manages. You can run one MySQL server that hosts 50 separate databases. In casual conversation people use the words interchangeably, but in interviews and exams the distinction matters."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Thinking SQL and MySQL Are the Same Thing",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<strong>SQL</strong> is the standardized query language. <strong>MySQL</strong> is one specific DBMS that speaks SQL (with some MySQL-only extras). Other databases (PostgreSQL, Oracle, SQL Server) also speak SQL. The core 80% of SQL is portable across all of them. Don't tie your skill to one product."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Categorizing TRUNCATE as DML",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Even though TRUNCATE removes data, it works by dropping and recreating the table structure under the hood. That is a structural operation, so it is classified as DDL. DELETE, on the other hand, removes rows one at a time and is DML. This is a frequent interview trick question."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Believing NoSQL Has Replaced SQL",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Around 2012-2014 many companies tried to switch fully to NoSQL and many regretted it (data inconsistency, painful joins done in application code, no transactions). Today the consensus is \"polyglot persistence\" — pick the right tool for each piece of data. Companies like Amazon, Uber, and Airbnb run massive PostgreSQL and MySQL clusters in production."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/resource-standalone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/sql">SQL</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Introduction to SQL and Databases</span>
+        </nav>
+
+        <!-- Page Header -->
+        <div class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 1</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">20 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-11</span>
+            </div>
+            <h1 class="resource-title">Introduction to SQL and Databases</h1>
+            <a href="/resources/sql/introduction-to-sql-and-databases/practice" class="practice-link">Practice Questions &rarr;</a>
+        </div><!-- /resource-header -->
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is a Database?</h2><p>A <strong>database</strong> is an organized collection of data, stored so that it can be quickly searched, updated, and analyzed. The keyword is <em>organized</em>. A WhatsApp chat backup as a giant text file is just data. The same chats stored in a structured format with columns for <code>sender</code>, <code>receiver</code>, <code>message</code>, and <code>timestamp</code> — that is a database.</p><p>Every app on your phone uses a database behind the scenes. When you open Instagram and see your feed, an SQL query is fetching posts from a database. When Paytm shows your last 10 transactions, that is a database query. When BookMyShow tells you Seat A12 is already booked, again a database query.</p><h3>What Is a DBMS?</h3><p>A <strong>DBMS (Database Management System)</strong> is the software that manages a database. You don't talk to the database file directly — you talk to the DBMS, and the DBMS handles storage, indexing, concurrency, security, and crash recovery for you. Think of it like this: if a database is the books in a library, the DBMS is the librarian.</p><p>Popular DBMS software includes <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>Oracle</strong>, <strong>Microsoft SQL Server</strong>, and <strong>SQLite</strong>. Each is a separate piece of software, and most of them speak SQL with small variations.</p><h3>What Is SQL?</h3><p><strong>SQL</strong> stands for <strong>Structured Query Language</strong>. It is the standard language used to interact with relational databases. With SQL you can create tables, insert data, search through millions of rows, update records, delete them, and join multiple tables together. SQL is pronounced either as "S-Q-L" (each letter spoken) or as "sequel" — both are acceptable in industry.</p><p>SQL was invented in the early 1970s and is still the dominant query language more than 50 years later. Very few technologies survive that long. SQL did because the relational model it is built on (tables with rows and columns, related to each other by keys) turned out to be one of the most useful ideas in computing.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why SQL Still Dominates After 50+ Years</h2><p>Most technologies become obsolete in 5 to 10 years. JavaScript frameworks come and go every two years. Yet SQL, a language designed in 1974, is on the most-asked-skill list for almost every developer, data analyst, and data scientist job in 2026. Here is why.</p><h3>1. Almost Every Application Uses a Relational Database</h3><p>Banking apps, e-commerce sites, hospital management systems, government portals like Aadhaar and IRCTC, college ERPs, hotel booking systems, food delivery apps — they all use relational databases for the parts of their data where consistency matters. If you are building anything that stores user accounts, orders, payments, or transactions, you will use SQL.</p><h3>2. SQL Is the Common Language of Data</h3><p>Whether the database is MySQL at a startup, PostgreSQL at a fintech, Oracle at a bank, or BigQuery at Google, the core SELECT/JOIN/GROUP BY syntax is almost identical. Learn SQL once, use it everywhere — including modern cloud data warehouses (Snowflake, Redshift, BigQuery) which all expose SQL interfaces.</p><h3>3. Data Roles Demand SQL</h3><p>Data analyst, data engineer, data scientist, business intelligence developer, backend developer — every one of these roles lists SQL in the first line of the job description. Companies like Flipkart, Amazon, Razorpay, Zomato, and Swiggy ask SQL questions in their first technical round, often before any other coding question.</p><h3>4. SQL Survived Because the Relational Model Is Sound</h3><p>SQL was built on the <strong>relational model</strong> proposed by Edgar F. Codd at IBM in 1970. The idea — represent data as tables with rows and columns, with relationships defined by shared keys — is mathematically elegant and matches how humans naturally think about structured information. NoSQL databases tried to replace SQL in the 2010s, but most teams ended up using both: SQL for the structured core, NoSQL for specific use cases.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Data, Tables, Rows, and Columns</h3><p>In a relational database, data is stored in <strong>tables</strong>. A table has <strong>columns</strong> (also called fields or attributes) that define what kind of information is stored, and <strong>rows</strong> (also called records or tuples) that hold the actual data.</p><p>Here is a sample <code>students</code> table:</p><table><tr><th>id</th><th>name</th><th>city</th><th>marks</th></tr><tr><td>1</td><td>Aarav Sharma</td><td>Mumbai</td><td>87</td></tr><tr><td>2</td><td>Priya Iyer</td><td>Bengaluru</td><td>92</td></tr><tr><td>3</td><td>Rohan Verma</td><td>Delhi</td><td>78</td></tr><tr><td>4</td><td>Ananya Reddy</td><td>Hyderabad</td><td>95</td></tr><tr><td>5</td><td>Vikram Singh</td><td>Pune</td><td>65</td></tr></table><p>This table has 4 columns (<code>id</code>, <code>name</code>, <code>city</code>, <code>marks</code>) and 5 rows. Each row is one student. Each column holds one type of information about every student. This rectangular shape — same set of columns for every row — is what makes it a <em>relational</em> table.</p><h3>2. Primary Key (Quick Intro)</h3><p>Notice the <code>id</code> column. Each student has a unique <code>id</code>. This unique identifier is called a <strong>primary key</strong>. Primary keys are how the database (and you) tell two rows apart, even if other fields look identical. Two different students could both be named "Aarav Sharma" living in Mumbai, but their <code>id</code> values will differ. We will go deep into primary keys in Chapter 3.</p><h3>3. SQL vs NoSQL — When to Use What</h3><p><strong>SQL databases</strong> (also called relational databases) store data in tables with a fixed schema. Examples: MySQL, PostgreSQL, Oracle, SQL Server, SQLite. They are best when:</p><ul><li>Data has a clear structure that doesn't change often (users, orders, payments, inventory).</li><li>You need ACID guarantees — transactions that either fully complete or fully roll back. Critical for banking and any money-related system.</li><li>You need to JOIN data from multiple tables (e.g., "give me all orders by users in Mumbai").</li></ul><p><strong>NoSQL databases</strong> are a different family. They store data as documents (MongoDB), key-value pairs (Redis), wide columns (Cassandra), or graphs (Neo4j). They are best when:</p><ul><li>Data is unstructured or semi-structured (JSON documents, social media posts).</li><li>You need horizontal scaling across many servers (massive Twitter-scale workloads).</li><li>The schema changes often or differs per record.</li></ul><p>In practice, most companies use BOTH. A typical e-commerce stack might use PostgreSQL for orders and payments, MongoDB for product catalogs, and Redis for caching session data.</p><h3>4. Popular Databases (and Where They Are Used)</h3><table><tr><th>Database</th><th>Type</th><th>Cost</th><th>Common Use</th></tr><tr><td>MySQL</td><td>Open source</td><td>Free</td><td>Web apps, WordPress, mid-size SaaS</td></tr><tr><td>PostgreSQL</td><td>Open source</td><td>Free</td><td>Modern startups, GIS, complex queries</td></tr><tr><td>SQLite</td><td>Open source</td><td>Free</td><td>Mobile apps (Android/iOS), embedded</td></tr><tr><td>SQL Server</td><td>Microsoft</td><td>Paid (free dev edition)</td><td>Enterprise .NET shops, Windows ecosystems</td></tr><tr><td>Oracle</td><td>Oracle</td><td>Paid (expensive)</td><td>Large banks, government, telecom</td></tr></table><p>For learning, we recommend MySQL — it is free, widely used in industry, has good Windows/Mac/Linux installers, and what you learn transfers easily to PostgreSQL, SQLite, and SQL Server.</p><h3>5. A Brief History of SQL</h3><p>In <strong>1970</strong>, Edgar F. Codd, a researcher at IBM, published a paper titled <em>"A Relational Model of Data for Large Shared Data Banks"</em>. This paper proposed organizing data as relations (tables) instead of the navigational hierarchies common at the time.</p><p>By <strong>1974</strong>, IBM researchers Donald Chamberlin and Raymond Boyce designed a query language called <strong>SEQUEL</strong> (Structured English Query Language) to work with the relational model. The name was later shortened to <strong>SQL</strong> due to a trademark conflict.</p><p>In <strong>1979</strong>, a small company called Relational Software (later renamed Oracle) released the first commercial SQL database, beating IBM to market by two years. Oracle still exists today as one of the largest database companies in the world.</p><p>SQL was standardized by <strong>ANSI in 1986</strong> and by <strong>ISO in 1987</strong>. Major revisions: SQL-92 (joins, subqueries), SQL:1999 (recursion, triggers), SQL:2003 (window functions, XML), SQL:2016 (JSON support). Most databases support a subset plus their own extensions.</p><h3>6. The Four Categories of SQL Commands</h3><p>SQL commands are grouped into four categories based on what they do. Memorizing this is interview gold.</p><h4>DDL — Data Definition Language</h4><p>Defines the <em>structure</em> of the database. Affects schema, not data values.</p><table><tr><th>Command</th><th>Purpose</th></tr><tr><td><code>CREATE</code></td><td>Create a database, table, view, index, etc.</td></tr><tr><td><code>ALTER</code></td><td>Change structure (add/drop columns, rename)</td></tr><tr><td><code>DROP</code></td><td>Permanently delete a database or table</td></tr><tr><td><code>TRUNCATE</code></td><td>Delete all rows from a table (keeps structure)</td></tr><tr><td><code>RENAME</code></td><td>Rename a table or column</td></tr></table><h4>DML — Data Manipulation Language</h4><p>Works with the <em>data</em> inside tables.</p><table><tr><th>Command</th><th>Purpose</th></tr><tr><td><code>SELECT</code></td><td>Retrieve rows (technically called DQL by some books)</td></tr><tr><td><code>INSERT</code></td><td>Add new rows</td></tr><tr><td><code>UPDATE</code></td><td>Change existing rows</td></tr><tr><td><code>DELETE</code></td><td>Remove rows</td></tr></table><h4>DCL — Data Control Language</h4><p>Controls who can do what — permissions and access rights.</p><table><tr><th>Command</th><th>Purpose</th></tr><tr><td><code>GRANT</code></td><td>Give a user permission</td></tr><tr><td><code>REVOKE</code></td><td>Remove a permission</td></tr></table><h4>TCL — Transaction Control Language</h4><p>Manages transactions — groups of statements that should succeed or fail together.</p><table><tr><th>Command</th><th>Purpose</th></tr><tr><td><code>COMMIT</code></td><td>Save changes permanently</td></tr><tr><td><code>ROLLBACK</code></td><td>Undo changes since last COMMIT</td></tr><tr><td><code>SAVEPOINT</code></td><td>Set a marker to roll back to</td></tr></table><p>Memory tip: <strong>DDL = structure, DML = data, DCL = permissions, TCL = transactions.</strong></p><h3>7. Case Sensitivity</h3><p>SQL <strong>keywords</strong> (SELECT, FROM, WHERE) are not case-sensitive. <code>select</code>, <code>SELECT</code>, and <code>SeLeCt</code> all work. Convention is to write keywords in UPPERCASE so they stand out against table and column names.</p><p>Whether <strong>table and column names</strong> are case-sensitive depends on the database and the operating system. On MySQL on Linux, table names are case-sensitive (<code>Students</code> and <code>students</code> are different). On MySQL on Windows, they are not. Safe rule: pick lowercase_with_underscores naming and stick to it.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Looking at a Sample Table — students</div><pre><code class="language-python">-- This is the students table that we will use throughout this chapter.
+-- The actual SQL to create and populate it comes in Chapter 2.
+
+SELECT * FROM students;</code></pre><div class="code-example-explanation">This is the simplest possible SQL query. <code>SELECT *</code> means "give me every column", and <code>FROM students</code> means "from the students table". The semicolon at the end terminates the statement. We will write our first real CREATE TABLE and INSERT statements in Chapter 2 — for now, focus on understanding what the output looks like.</div><div class="code-example-output">+----+----------------+-----------+-------+
+| id | name           | city      | marks |
++----+----------------+-----------+-------+
+|  1 | Aarav Sharma   | Mumbai    |    87 |
+|  2 | Priya Iyer     | Bengaluru |    92 |
+|  3 | Rohan Verma    | Delhi     |    78 |
+|  4 | Ananya Reddy   | Hyderabad |    95 |
+|  5 | Vikram Singh   | Pune      |    65 |
++----+----------------+-----------+-------+
+5 rows in set (0.00 sec)</div></div>
+<div class="code-example"><div class="code-example-title">DDL Example — Defining a Table Structure</div><pre><code class="language-python">-- DDL: CREATE defines the structure of a new table.
+-- This says: I want a table called employees with three columns.
+
+CREATE TABLE employees (
+    emp_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    salary DECIMAL(10,2)
+);
+
+-- Notice: no data is inserted yet. This only creates an empty shell.
+SELECT * FROM employees;</code></pre><div class="code-example-explanation"><code>CREATE TABLE</code> is a DDL command — it defines structure, not data. After this runs, the table exists but has zero rows. The <code>VARCHAR(50)</code> means a string up to 50 characters long; <code>DECIMAL(10,2)</code> means a number up to 10 digits with 2 after the decimal point (perfect for money). We cover all data types in detail in Chapter 3.</div><div class="code-example-output">Query OK, 0 rows affected (0.04 sec)
+
+Empty set (0.00 sec)</div></div>
+<div class="code-example"><div class="code-example-title">DML Example — Adding and Reading Rows</div><pre><code class="language-python">-- DML: INSERT adds new rows into the employees table.
+INSERT INTO employees VALUES (101, &#39;Kavya Nair&#39;, 75000.00);
+INSERT INTO employees VALUES (102, &#39;Arjun Mehta&#39;, 92000.50);
+INSERT INTO employees VALUES (103, &#39;Sneha Patel&#39;, 68000.00);
+
+-- DML: SELECT reads the rows back.
+SELECT * FROM employees;</code></pre><div class="code-example-explanation"><code>INSERT</code> and <code>SELECT</code> are DML commands — they manipulate data, not structure. We add three employees and then read them back. Notice the salaries keep their decimal precision because we declared the column as <code>DECIMAL(10,2)</code>.</div><div class="code-example-output">+--------+-------------+----------+
+| emp_id | name        | salary   |
++--------+-------------+----------+
+|    101 | Kavya Nair  | 75000.00 |
+|    102 | Arjun Mehta | 92000.50 |
+|    103 | Sneha Patel | 68000.00 |
++--------+-------------+----------+
+3 rows in set (0.00 sec)</div></div>
+<div class="code-example"><div class="code-example-title">TCL Example — COMMIT and ROLLBACK</div><pre><code class="language-python">-- TCL: Transactions group multiple statements together.
+START TRANSACTION;
+
+UPDATE employees SET salary = salary + 5000 WHERE emp_id = 101;
+UPDATE employees SET salary = salary + 5000 WHERE emp_id = 102;
+
+-- Oops, we changed our mind. Undo everything since START TRANSACTION.
+ROLLBACK;
+
+SELECT * FROM employees;</code></pre><div class="code-example-explanation">Transactions let us group several statements into one all-or-nothing unit. Here, we tried giving Kavya and Arjun a 5000 raise, then changed our mind and rolled back. Their salaries are unchanged. If we had used <code>COMMIT</code> instead of <code>ROLLBACK</code>, the changes would have been saved permanently. We will explore this deeply in Chapter 23.</div><div class="code-example-output">Query OK, 0 rows affected (0.00 sec)
+Query OK, 1 row affected (0.01 sec)
+Query OK, 1 row affected (0.00 sec)
+Query OK, 0 rows affected (0.01 sec)
+
++--------+-------------+----------+
+| emp_id | name        | salary   |
++--------+-------------+----------+
+|    101 | Kavya Nair  | 75000.00 |
+|    102 | Arjun Mehta | 92000.50 |
+|    103 | Sneha Patel | 68000.00 |
++--------+-------------+----------+
+3 rows in set (0.00 sec)</div></div>
+<div class="code-example"><div class="code-example-title">DCL Example — Granting Permissions</div><pre><code class="language-python">-- DCL: GRANT gives a user permission to do something.
+-- This says: user &#39;analyst_kavya&#39; can SELECT from the employees table.
+
+GRANT SELECT ON company.employees TO &#39;analyst_kavya&#39;@&#39;localhost&#39;;
+
+-- Later, take that permission away.
+REVOKE SELECT ON company.employees FROM &#39;analyst_kavya&#39;@&#39;localhost&#39;;</code></pre><div class="code-example-explanation">DCL commands control access. <code>GRANT SELECT</code> means the user can read but not modify the table. We could also grant <code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>, or <code>ALL PRIVILEGES</code>. In real companies, DBAs (Database Administrators) decide who gets which permissions. As a beginner you mostly use the <code>root</code> user that has all permissions.</div><div class="code-example-output">Query OK, 0 rows affected (0.02 sec)
+Query OK, 0 rows affected (0.01 sec)</div></div>
+<div class="code-example"><div class="code-example-title">Comparing Categories Side by Side</div><pre><code class="language-python">-- DDL: structure
+CREATE TABLE products (id INT, name VARCHAR(50), price INT);
+ALTER TABLE products ADD COLUMN stock INT;
+DROP TABLE products;
+
+-- DML: data
+INSERT INTO students VALUES (6, &#39;Diya Kapoor&#39;, &#39;Chennai&#39;, 88);
+UPDATE students SET marks = 90 WHERE id = 6;
+DELETE FROM students WHERE id = 6;
+SELECT name, marks FROM students;
+
+-- DCL: permissions
+GRANT INSERT ON school.students TO &#39;teacher_meera&#39;@&#39;%&#39;;
+REVOKE INSERT ON school.students FROM &#39;teacher_meera&#39;@&#39;%&#39;;
+
+-- TCL: transactions
+START TRANSACTION;
+UPDATE students SET marks = marks + 5 WHERE city = &#39;Mumbai&#39;;
+COMMIT;</code></pre><div class="code-example-explanation">This shows one or two commands from each of the four categories so you can see the contrast. DDL shapes the database; DML shapes the data; DCL controls who can do these things; TCL controls when changes become permanent. Memorize this grouping — it is one of the most common SQL interview questions.</div><div class="code-example-output">(Output varies — one OK line per statement.)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Confusing Database with DBMS</h3>
+                <div class="wrong-code"><pre><code class="language-python">Statement: &quot;MySQL is a database.&quot;</code></pre></div><div class="error-message">Technically incorrect, and interviewers will catch this.</div><div class="correct-code"><pre><code class="language-python">Statement: &quot;MySQL is a Database Management System (DBMS). The database is the actual collection of data managed by MySQL.&quot;</code></pre></div><div class="mistake-explanation">MySQL, PostgreSQL, Oracle — these are <strong>DBMS software</strong>. The <em>database</em> is the actual data file (or set of files) that the DBMS manages. You can run one MySQL server that hosts 50 separate databases. In casual conversation people use the words interchangeably, but in interviews and exams the distinction matters.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Thinking SQL and MySQL Are the Same Thing</h3>
+                <div class="wrong-code"><pre><code class="language-python">Statement: &quot;I know SQL because I learned MySQL.&quot;</code></pre></div><div class="error-message">Misleading. MySQL is one database; SQL is the language.</div><div class="correct-code"><pre><code class="language-python">Statement: &quot;I know SQL, and I have practiced it on MySQL. The same SELECT/JOIN/GROUP BY queries also work on PostgreSQL, SQL Server, and SQLite with minor syntax differences.&quot;</code></pre></div><div class="mistake-explanation"><strong>SQL</strong> is the standardized query language. <strong>MySQL</strong> is one specific DBMS that speaks SQL (with some MySQL-only extras). Other databases (PostgreSQL, Oracle, SQL Server) also speak SQL. The core 80% of SQL is portable across all of them. Don't tie your skill to one product.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Categorizing TRUNCATE as DML</h3>
+                <div class="wrong-code"><pre><code class="language-python">Statement: &quot;TRUNCATE is a DML command because it removes data.&quot;</code></pre></div><div class="error-message">Wrong category. TRUNCATE is DDL.</div><div class="correct-code"><pre><code class="language-python">Statement: &quot;TRUNCATE is a DDL command. It drops and recreates the table internally, which is faster than DELETE but cannot be rolled back in most databases.&quot;</code></pre></div><div class="mistake-explanation">Even though TRUNCATE removes data, it works by dropping and recreating the table structure under the hood. That is a structural operation, so it is classified as DDL. DELETE, on the other hand, removes rows one at a time and is DML. This is a frequent interview trick question.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Believing NoSQL Has Replaced SQL</h3>
+                <div class="wrong-code"><pre><code class="language-python">Statement: &quot;SQL is old. Modern apps use NoSQL like MongoDB.&quot;</code></pre></div><div class="error-message">Outdated industry assumption from around 2014.</div><div class="correct-code"><pre><code class="language-python">Statement: &quot;SQL and NoSQL solve different problems. Most modern stacks use both — SQL for transactional, structured data; NoSQL for flexible documents, caching, or massive scale-out. SQL is still on virtually every backend job description.&quot;</code></pre></div><div class="mistake-explanation">Around 2012-2014 many companies tried to switch fully to NoSQL and many regretted it (data inconsistency, painful joins done in application code, no transactions). Today the consensus is "polyglot persistence" — pick the right tool for each piece of data. Companies like Amazon, Uber, and Airbnb run massive PostgreSQL and MySQL clusters in production.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A database is an organized collection of data. A DBMS is the software (like MySQL or PostgreSQL) that manages a database.</li>
+<li>SQL stands for Structured Query Language. It is the standard language for talking to relational databases and has dominated for over 50 years.</li>
+<li>Data in a relational database is stored in tables made of rows (records) and columns (fields). Each row should have a unique primary key.</li>
+<li>Popular databases: MySQL (free, web), PostgreSQL (free, modern), SQLite (mobile/embedded), SQL Server (Microsoft enterprise), Oracle (banks/large enterprise).</li>
+<li>SQL was born from Edgar F. Codd&#39;s 1970 relational model paper at IBM, formalized as SEQUEL in 1974, and standardized by ANSI in 1986.</li>
+<li>SQL vs NoSQL: SQL for structured data with transactions and joins; NoSQL for flexible documents, key-value caches, or massive horizontal scale.</li>
+<li>The four SQL categories: DDL (CREATE, ALTER, DROP, TRUNCATE) for structure; DML (SELECT, INSERT, UPDATE, DELETE) for data; DCL (GRANT, REVOKE) for permissions; TCL (COMMIT, ROLLBACK, SAVEPOINT) for transactions.</li>
+<li>TRUNCATE is DDL (not DML) because it drops and recreates the table internally, which is faster than DELETE but harder to undo.</li>
+<li>SQL keywords are case-insensitive (SELECT = select), but it is convention to write them in UPPERCASE for readability.</li>
+<li>Every backend, data analyst, and data science job description in 2026 lists SQL as a core skill — it is the most return-on-investment language a college student can learn.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/sql/setting-up-mysql-and-first-query" class="related-topic-link">Setting Up MySQL and Your First Query</a>
+<a href="/resources/sql/data-types-and-constraints" class="related-topic-link">Data Types and Constraints (NOT NULL, UNIQUE, PRIMARY KEY)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            
+            <a href="/resources/sql/setting-up-mysql-and-first-query" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Setting Up MySQL and Your First Query</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/sql/introduction-to-sql-and-databases/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to master SQL and databases with a mentor?</p>
+            <a href="/courses/mysql-database-complete-masterclass-college" class="cta-button-outline">Explore our MySQL Masterclass</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>
