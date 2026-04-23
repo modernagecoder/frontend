@@ -6,6 +6,9 @@
  * Adds hero mesh, branded course cards, conversion-optimized polish.
  */
 
+/* Ensure Inter 400–800 is available for clean, professional heading overrides below. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
 body.best-coding-page .hero-section,
 body.best-coding-page main>section:first-of-type,
 body.landing-page .hero-section {
@@ -111,4 +114,94 @@ body.best-coding-page .cta-section::before {
 body.best-coding-page .cta-section>* {
     position: relative;
     z-index: 1;
+}
+
+/* ============================================================
+   LANDING PAGE TYPOGRAPHY OVERRIDE
+   identity.css applies Fraunces serif + WONK variable axis to
+   every h1/h2 globally, which reads as "flashy/editorial" on
+   conversion pages. Landing pages sell better with a clean,
+   professional sans-serif — override to Inter with normal
+   variation settings.
+   ============================================================ */
+body.best-coding-page h1,
+body.best-coding-page h2,
+body.best-coding-page h3,
+body.best-coding-page h4,
+body.best-coding-page h5,
+body.best-coding-page .section-title,
+body.best-coding-page .heading-syne,
+body.best-coding-page .section-heading,
+body.best-coding-page [class*="hero-title"],
+body.best-coding-page [class*="section-title"],
+body.best-coding-page [class*="page-title"],
+body.landing-page h1,
+body.landing-page h2,
+body.landing-page h3,
+body.landing-page h4,
+body.landing-page h5,
+body.landing-page .section-title {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important;
+    font-variation-settings: normal !important;
+    font-style: normal !important;
+    font-feature-settings: 'kern' 1, 'liga' 1 !important;
+}
+
+body.best-coding-page h1,
+body.landing-page h1 {
+    font-weight: 800 !important;
+    letter-spacing: -0.025em !important;
+    line-height: 1.15 !important;
+}
+
+body.best-coding-page h2,
+body.landing-page h2 {
+    font-weight: 700 !important;
+    letter-spacing: -0.02em !important;
+    line-height: 1.2 !important;
+}
+
+body.best-coding-page h3,
+body.landing-page h3 {
+    font-weight: 700 !important;
+    letter-spacing: -0.015em !important;
+}
+
+/* Keep gradient text rendering but swap the base font so letterforms are clean */
+body.best-coding-page .gradient-text,
+body.best-coding-page .glow-text-d,
+body.best-coding-page [class*="glow-text"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.03em !important;
+    font-variation-settings: normal !important;
+    font-style: normal !important;
+}
+
+/* ============================================================
+   LANDING PAGE HERO WIDTH FIX
+   On wide desktops (>=1024px) the hero's inner container often
+   clamps to 900–940px, leaving large dead space on both sides
+   that reads as "blank left" and makes the page feel unbalanced.
+   Widen to a comfortable reading width so the hero occupies
+   more of the viewport and the composition looks intentional.
+   Works on every page where max-width isn't marked !important
+   inline (most of the 100+ city/area pages).
+   ============================================================ */
+@media (min-width: 1024px) {
+    body.best-coding-page .hero-section > .inner,
+    body.best-coding-page main > section.hero-section > .inner,
+    body.best-coding-page main > section:first-of-type > .inner,
+    body.landing-page .hero-section > .inner {
+        max-width: 1200px !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    body.best-coding-page .hero-section > .inner,
+    body.best-coding-page main > section.hero-section > .inner,
+    body.best-coding-page main > section:first-of-type > .inner,
+    body.landing-page .hero-section > .inner {
+        max-width: 1240px !important;
+    }
 }
