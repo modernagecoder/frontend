@@ -711,54 +711,6 @@
       ]
     }
     </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Which coding course is best for college students for placements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "For placements, we highly recommend Data Structures & Algorithms (DSA), Full Stack Web Development, and AI & Machine Learning. DSA is essential for FAANG-level interviews, while Full Stack and AI skills are in high demand at product companies and startups."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I learn coding as a non-CS college student?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely! Many of our top-performing students are from non-CS backgrounds — ECE, Mechanical, Commerce, and Arts. Our courses start from basics and don't assume any prior coding knowledge. Tech skills are valuable in every field."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How long does it take to complete a Full Stack Development course?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our Full Stack Development course typically takes 4-6 months with 3 sessions per week. We offer flexible schedules including weekend batches so college students can learn alongside their academics without falling behind."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Will these courses help me crack FAANG or top tech company interviews?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes! Our Data Structures & Algorithms and Full Stack courses are specifically designed with placement preparation in mind. Students build real projects for their portfolios and receive guidance on technical interviews, resume building, and job applications."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide certificates recognized by employers?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes! Every student receives a verified certificate upon course completion. These certificates can be added to LinkedIn, resumes, and college portfolios. Combined with real project experience, they significantly boost your chances in placement drives and interviews."
-          }
-        }
-      ]
-    }
-    </script>
     <!-- Phase 6 UI/UX Polish -->
     <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
     <script src="/js/ux-enhancements.js" defer></script>
@@ -1985,11 +1937,14 @@
             <div class="footer-column">
                 <h3 class="footer-heading">Categories</h3>
                 <ul class="footer-links">
-                    <li><a href="/category/kids">For Kids</a></li>
-                    <li><a href="/category/teens">For Teens</a></li>
-                    <li><a href="/category/college">For College</a></li>
-                    <li><a href="/category/professionals">For Professionals</a></li>
-                    <li><a href="/category/corporate">For Corporate</a></li>
+                    <li><a href="/levels/coding-for-kids">For Kids</a></li>
+                    <li><a href="/levels/coding-for-teens">For Teens</a></li>
+                    <li><a href="/levels/coding-for-college-students">For College</a></li>
+                    <li><a href="/levels/coding-for-professionals">For Professionals</a></li>
+                    <li><a href="/levels/corporate-training">For Corporate</a></li>
+                    <li><a href="/coding-classes-in-india">Coding Classes in India</a></li>
+                    <li><a href="/learn-coding-by-class">Coding by Class (4&ndash;12)</a></li>
+                    <li><a href="/learn-coding-by-age">Coding by Age (8&ndash;17)</a></li>
                     <li><a href="/summer-coding-camp">Summer Coding Camp</a></li>
                     <li><a href="/summer-coding-camp-kids">Summer Coding Camp For Kids</a></li>
                     <li><a href="/summer-coding-camp-teens">Summer Coding Camp For Teens</a></li>
@@ -2302,6 +2257,17 @@
     <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/mobile-navigation.js"></script>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

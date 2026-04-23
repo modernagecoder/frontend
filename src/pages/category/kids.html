@@ -128,54 +128,6 @@
       ]
     }
     </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What age is best to start coding for kids?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Kids can start coding as early as 6 years old with visual block coding tools like Scratch. Our courses are designed specifically for ages 6-12, with age-appropriate content, fun projects, and expert kid-friendly instructors. The earlier they start, the stronger their logical thinking and problem-solving skills become."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much time should kids spend coding each week?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We recommend 30-60 minutes per session, 2-3 times per week. This keeps kids consistently engaged without overwhelming them, allowing ample time for school, play, and other activities. Our flexible scheduling lets parents choose weekend or weekday batches."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do kids need any prior coding experience?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No prior experience is needed at all! Our kids coding courses start from absolute basics. Children only need curiosity and a willingness to learn. Our instructors use games, puzzles, and interactive projects to make learning coding natural and fun."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What skills will my child develop from coding classes?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Beyond coding itself, kids develop logical thinking, problem-solving, creativity, patience, persistence, and confidence. These computational thinking skills benefit children in mathematics, science, and all areas of life. Studies show kids who code perform better academically overall."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you provide certificates after course completion?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes! Every child receives a verified certificate upon completing their course. These certificates can be added to school portfolios, competition applications, and scholarship forms. They are a great confidence booster and recognition of your child's achievement."
-          }
-        }
-      ]
-    }
-    </script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2081,11 +2033,14 @@
             <div class="footer-column">
                 <h3 class="footer-heading">Categories</h3>
                 <ul class="footer-links">
-                    <li><a href="/category/kids">For Kids</a></li>
-                    <li><a href="/category/teens">For Teens</a></li>
-                    <li><a href="/category/college">For College</a></li>
-                    <li><a href="/category/professionals">For Professionals</a></li>
-                    <li><a href="/category/corporate">For Corporate</a></li>
+                    <li><a href="/levels/coding-for-kids">For Kids</a></li>
+                    <li><a href="/levels/coding-for-teens">For Teens</a></li>
+                    <li><a href="/levels/coding-for-college-students">For College</a></li>
+                    <li><a href="/levels/coding-for-professionals">For Professionals</a></li>
+                    <li><a href="/levels/corporate-training">For Corporate</a></li>
+                    <li><a href="/coding-classes-in-india">Coding Classes in India</a></li>
+                    <li><a href="/learn-coding-by-class">Coding by Class (4&ndash;12)</a></li>
+                    <li><a href="/learn-coding-by-age">Coding by Age (8&ndash;17)</a></li>
                     <li><a href="/summer-coding-camp">Summer Coding Camp</a></li>
                     <li><a href="/summer-coding-camp-kids">Summer Coding Camp For Kids</a></li>
                     <li><a href="/summer-coding-camp-teens">Summer Coding Camp For Teens</a></li>
@@ -2398,6 +2353,17 @@
     <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/mobile-navigation.js"></script>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

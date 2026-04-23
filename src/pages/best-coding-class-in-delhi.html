@@ -2603,7 +2603,27 @@
     </main>
 
     <!-- Footer -->
-    <!-- BEGIN_INLINED_FOOTER -->
+<!-- BEGIN_RELATED_PAGES -->
+<section aria-label="Related pages" style="background:rgba(168,85,247,.04);border-top:1px solid rgba(168,85,247,.15);border-bottom:1px solid rgba(168,85,247,.15);padding:40px 20px;margin:40px 0 0">
+  <div style="max-width:1100px;margin:0 auto">
+    <nav aria-label="Breadcrumb" style="font-size:13px;color:#94a3b8;margin-bottom:18px">
+      <a href="/" style="color:#a5b4fc;text-decoration:none">Home</a>
+      <span style="color:#475569;margin:0 6px">/</span>
+      <a href="/coding-classes-in-india" style="color:#a5b4fc;text-decoration:none">Coding Classes in India</a>
+    </nav>
+    <h2 style="color:#fff;font-size:1.25rem;font-weight:800;margin:0 0 14px">Related pages</h2>
+    <ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px">
+      <li><a href="/coding-classes-near-gariahat-kolkata">Coding Classes near Gariahat, Kolkata</a></li>
+      <li><a href="/coding-classes-near-salt-lake-kolkata">Coding Classes near Salt Lake, Kolkata</a></li>
+      <li><a href="/best-coding-class-in-goa">Best Coding Class in Goa</a></li>
+      <li><a href="/best-coding-class-in-raipur">Best Coding Class in Raipur</a></li>
+    </ul>
+    <p style="margin:18px 0 0"><a href="/coding-classes-in-india" style="color:#a5b4fc;text-decoration:none;font-weight:600">&rarr; See all coding classes in india</a></p>
+  </div>
+</section>
+<!-- END_RELATED_PAGES -->
+
+<!-- BEGIN_INLINED_FOOTER -->
 <footer class="site-footer">
     <div class="footer-container">
         <div class="footer-grid">
@@ -2664,11 +2684,14 @@
             <div class="footer-column">
                 <h3 class="footer-heading">Categories</h3>
                 <ul class="footer-links">
-                    <li><a href="/category/kids">For Kids</a></li>
-                    <li><a href="/category/teens">For Teens</a></li>
-                    <li><a href="/category/college">For College</a></li>
-                    <li><a href="/category/professionals">For Professionals</a></li>
-                    <li><a href="/category/corporate">For Corporate</a></li>
+                    <li><a href="/levels/coding-for-kids">For Kids</a></li>
+                    <li><a href="/levels/coding-for-teens">For Teens</a></li>
+                    <li><a href="/levels/coding-for-college-students">For College</a></li>
+                    <li><a href="/levels/coding-for-professionals">For Professionals</a></li>
+                    <li><a href="/levels/corporate-training">For Corporate</a></li>
+                    <li><a href="/coding-classes-in-india">Coding Classes in India</a></li>
+                    <li><a href="/learn-coding-by-class">Coding by Class (4&ndash;12)</a></li>
+                    <li><a href="/learn-coding-by-age">Coding by Age (8&ndash;17)</a></li>
                     <li><a href="/summer-coding-camp">Summer Coding Camp</a></li>
                     <li><a href="/summer-coding-camp-kids">Summer Coding Camp For Kids</a></li>
                     <li><a href="/summer-coding-camp-teens">Summer Coding Camp For Teens</a></li>
@@ -3372,6 +3395,17 @@
     <script src="/js/callback-modal.js"></script>
 <script src="/js/navigation.js"></script>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

@@ -209,6 +209,11 @@
 /levels/coding-for-professionals /src/pages/category/professionals.html 200
 /levels/corporate-training /src/pages/category/corporate.html 200
 
+# SEO hub pages - clean URL rewrites (no trailing slash)
+/coding-classes-in-india /src/pages/coding-classes-in-india.html 200
+/learn-coding-by-class /src/pages/learn-coding-by-class.html 200
+/learn-coding-by-age /src/pages/learn-coding-by-age.html 200
+
 # Course category pages (must come before individual courses)
 /courses/coding/* /src/pages/course.html 200
 /courses/mathematics/* /src/pages/course.html 200

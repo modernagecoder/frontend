@@ -838,6 +838,22 @@
   to = "/src/pages/category/corporate.html"
   status = 200
 
+# SEO hub pages - clean URL rewrites (no trailing slash)
+[[redirects]]
+  from = "/coding-classes-in-india"
+  to = "/src/pages/coding-classes-in-india.html"
+  status = 200
+
+[[redirects]]
+  from = "/learn-coding-by-class"
+  to = "/src/pages/learn-coding-by-class.html"
+  status = 200
+
+[[redirects]]
+  from = "/learn-coding-by-age"
+  to = "/src/pages/learn-coding-by-age.html"
+  status = 200
+
 # Clean URL rewrites for new projects
 [[redirects]]
   from = "/student-projects-working"
