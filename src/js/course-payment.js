@@ -89,12 +89,21 @@ const CoursePayment = {
 
     // Detect international user
     const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
+
+    // Guard: Mini Batch is India-only. Foreign users should never see the card,
+    // but if somehow the flow is triggered (e.g., stale DOM, direct call), route
+    // them to Group or Personal instead of charging an INR price.
+    if (!isIndian && planType === 'miniBatch') {
+      alert('The Mini Batch plan is available only in India. Please choose Group Classes or Personalized 1-on-1.');
+      return;
+    }
+
     const intlPrices = {
       group:    { amount: 40,  display: '$40/month' },
       personal: { amount: 100, display: '$100/month' },
       lifetime: { amount: 599, display: '$599' }
     };
-    
+
     // Use international pricing if not Indian
     const displayPricing = isIndian ? pricing : (intlPrices[planType] || pricing);
     const currencySymbol = isIndian ? '₹' : '$';
@@ -166,8 +175,9 @@ const CoursePayment = {
   // Get plan display name
   getPlanName: function(planType) {
     const names = {
-      'group': 'Group Classes (2/week)',
-      'personal': 'Personal Mentorship (1-on-1)',
+      'group': 'Group Classes (up to 10 students)',
+      'miniBatch': 'Mini Batch (3-4 students)',
+      'personal': 'Personalized 1-on-1 Mentorship',
       'lifetime': 'Lifetime Access'
     };
     return names[planType] || 'Course Enrollment';
@@ -207,7 +217,8 @@ const CoursePayment = {
       submitBtn.disabled = true;
       submitBtn.textContent = 'Processing...';
       
-      // Determine currency and amount for international users
+      // Determine currency and amount for international users.
+      // Mini Batch has no USD price — it's India-only; foreign users are blocked earlier.
       const intlPrices = { group: 40, personal: 100, lifetime: 599 };
       const intlDisplayPrices = { group: '$40/month', personal: '$100/month', lifetime: '$599' };
       const finalAmount = isIndian ? amount : (intlPrices[planType] || amount);

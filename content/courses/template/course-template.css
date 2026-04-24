@@ -697,15 +697,15 @@ body.course-detail-page main {
     -webkit-backdrop-filter: blur(var(--glass-blur));
     border: 1px solid var(--glass-border);
     border-radius: var(--border-radius-xl);
-    padding: 2.5rem;
+    padding: 2.75rem 2rem;
     box-shadow: var(--glass-shadow);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     gap: 2rem;
     transition: all var(--transition-speed) ease;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .enrollment-cta-container:hover {
@@ -713,10 +713,16 @@ body.course-detail-page main {
     border-color: var(--glass-hover-border);
 }
 
+.enrollment-cta-text {
+    text-align: center;
+    max-width: 720px;
+}
+
 .enrollment-cta-text h2 {
-    font-size: clamp(1.8rem, 3vw, 2.2rem);
+    font-size: clamp(1.6rem, 2.6vw, 2.1rem);
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
     background: linear-gradient(135deg, #ffffff, #d1d8ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -726,12 +732,15 @@ body.course-detail-page main {
 .enrollment-cta-text p {
     color: var(--text-muted);
     font-size: 1rem;
-    max-width: 400px;
+    margin: 0 auto;
+    max-width: 560px;
 }
 
 .enrollment-options {
     display: flex;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
     flex-shrink: 0;
 }
 
@@ -739,10 +748,10 @@ body.course-detail-page main {
     background: rgba(0, 0, 0, 0.2);
     border: 1px solid var(--glass-border);
     border-radius: var(--border-radius-lg);
-    padding: 1.5rem;
+    padding: 2rem 1.5rem 1.5rem;
     text-align: center;
     transition: all var(--transition-speed) ease;
-    width: 280px;
+    width: 260px;
     position: relative;
 }
 
@@ -755,6 +764,18 @@ body.course-detail-page main {
 .enrollment-option.featured {
     border-color: rgba(168, 85, 247, 0.7);
     box-shadow: 0 0 30px rgba(168, 85, 247, 0.3);
+    padding-top: 2.5rem;
+}
+
+.enrollment-option .recommended-badge {
+    position: absolute !important;
+    top: -14px !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 2;
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.45);
 }
 
 .enrollment-option h4 {

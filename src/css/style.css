@@ -5010,10 +5010,21 @@ body.courses-page .course-content {
 
 .pricing-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    max-width: 900px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.75rem;
+    max-width: 1200px;
     margin: 3rem auto 0;
+}
+
+.plan-tagline {
+    color: #94a3b8;
+    font-size: 0.875rem;
+    margin: -0.5rem 0 1rem;
+    letter-spacing: 0.01em;
+}
+
+.pricing-card.popular .plan-tagline {
+    color: #cbd5e1;
 }
 
 .pricing-card.popular {

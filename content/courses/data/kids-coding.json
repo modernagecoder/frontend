@@ -23,7 +23,8 @@
     "category": "Kids & Youth Programming Education",
     "price": {
       "group": "₹1499/month",
-      "personal": "₹2499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month",
       "lifetime": "₹29,999 (one-time)"
     },
     "duration": "24 months (104 weeks)",

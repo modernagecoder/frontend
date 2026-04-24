@@ -190,6 +190,46 @@
 
 
 /* =============================================================
+   COURSE CARD PRICE CHIP (3-tier pricing rollout)
+   ============================================================= */
+
+.course-card-price {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.82rem;
+    color: #e2e8f0;
+    padding: 0.45rem 0.9rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.22), rgba(78, 205, 196, 0.18));
+    border: 1px solid rgba(168, 85, 247, 0.55);
+    border-radius: 999px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    width: fit-content;
+    box-shadow: 0 4px 14px rgba(168, 85, 247, 0.22);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.course-card-price::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #4ecdc4;
+    box-shadow: 0 0 10px #4ecdc4;
+    flex-shrink: 0;
+}
+
+.course-card-price strong {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+}
+
+/* =============================================================
    3. START LEARNING BUTTON
    ============================================================= */
 

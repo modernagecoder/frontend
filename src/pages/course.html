@@ -1784,6 +1784,10 @@
             // Course Card Generation
             function generateCourseCard(course) {
                 const imagePath = `/images/${course.imageUrl || 'default-course.png'}`;
+                const isIndian = window.__MAC_IS_INDIAN !== false;
+                const priceText = isIndian
+                    ? 'Plans from <strong>₹1,499/mo</strong>'
+                    : 'Plans from <strong>$40/mo</strong>';
                 return `
                     <div class="course-card-minimal" data-course-id="${course.id}" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
                         <div class="course-image-container">
@@ -1792,6 +1796,7 @@
                         <div class="course-content-minimal">
                             <h3 class="course-title-minimal">${course.title}</h3>
                             <p class="course-description-minimal">${course.description}</p>
+                            <div class="course-card-price">${priceText}</div>
                             <button class="start-learning-btn" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
                                 Start Learning
                                 <svg class="btn-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -2263,6 +2268,7 @@
     <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/keyboard-navigation.js"></script>
     <script src="/js/tab-accessibility.js"></script>
+    <script src="/js/international-pricing.js"></script>
 
 
     <!-- Components inlined at build time -->

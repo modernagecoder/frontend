@@ -549,53 +549,40 @@ class CourseGenerator {
             };
         }
 
-        // Add comprehensive pricing offers
-        if (meta.price) {
-            const offers = [];
-
-            if (meta.price.group) {
-                offers.push({
-                    "@type": "Offer",
-                    "name": "Group Classes",
-                    "description": "Interactive group learning with 2 classes per week",
-                    "price": meta.price.group.replace(/[^\d]/g, '') || "Contact for pricing",
-                    "priceCurrency": "INR",
-                    "availability": "https://schema.org/InStock",
-                    "validFrom": new Date().toISOString().split('T')[0],
-                    "category": "Group Classes"
-                });
+        // Pricing offers — enforce standard 3-tier structure across all courses.
+        const today = new Date().toISOString().split('T')[0];
+        courseSchema.offers = [
+            {
+                "@type": "Offer",
+                "name": "Group Classes",
+                "description": "Weekly two classes with up to 10 students",
+                "price": "1499",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock",
+                "validFrom": today,
+                "category": "Group Classes"
+            },
+            {
+                "@type": "Offer",
+                "name": "Mini Batch (3-4 students)",
+                "description": "Weekly two classes in a micro batch of 3-4 students with near 1-on-1 attention",
+                "price": "2499",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock",
+                "validFrom": today,
+                "category": "Mini Batch"
+            },
+            {
+                "@type": "Offer",
+                "name": "Personalized 1-on-1",
+                "description": "Weekly two private sessions with a dedicated mentor",
+                "price": "4999",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock",
+                "validFrom": today,
+                "category": "Personalized 1-on-1"
             }
-
-            if (meta.price.personal) {
-                offers.push({
-                    "@type": "Offer",
-                    "name": "Personal Mentorship",
-                    "description": "One-on-one personalized mentorship with 2 classes per week",
-                    "price": meta.price.personal.replace(/[^\d]/g, '') || "Contact for pricing",
-                    "priceCurrency": "INR",
-                    "availability": "https://schema.org/InStock",
-                    "validFrom": new Date().toISOString().split('T')[0],
-                    "category": "Personal Mentorship"
-                });
-            }
-
-            if (meta.price.lifetime) {
-                offers.push({
-                    "@type": "Offer",
-                    "name": "Lifetime Access",
-                    "description": "Lifetime access to course materials and updates",
-                    "price": meta.price.lifetime.replace(/[^\d]/g, '') || "Contact for pricing",
-                    "priceCurrency": "INR",
-                    "availability": "https://schema.org/InStock",
-                    "validFrom": new Date().toISOString().split('T')[0],
-                    "category": "Lifetime Access"
-                });
-            }
-
-            if (offers.length > 0) {
-                courseSchema.offers = offers;
-            }
-        }
+        ];
 
         // Add keywords
         if (meta.keywords && meta.keywords.length > 0) {
@@ -729,9 +716,11 @@ class CourseGenerator {
         html = html.replace(/{{HERO_TITLE}}/g, this.escapeHtml(overview.title || meta.title || ''));
         html = html.replace(/{{HERO_SUBTITLE}}/g, this.escapeHtml(overview.tagline || meta.description || ''));
 
-        // Pricing
-        html = html.replace(/{{PRICE_GROUP}}/g, this.escapeHtml(meta.price?.group || ''));
-        html = html.replace(/{{PRICE_PERSONAL}}/g, this.escapeHtml(meta.price?.personal || ''));
+        // Pricing — enforce consistent 3-tier pricing across every generated course page.
+        // (Per-course JSON prices are ignored in favor of site-wide standard tiers.)
+        html = html.replace(/{{PRICE_GROUP}}/g, '₹1,499/month');
+        html = html.replace(/{{PRICE_MINIBATCH}}/g, '₹2,499/month');
+        html = html.replace(/{{PRICE_PERSONAL}}/g, '₹4,999/month');
         html = html.replace(/{{PRICE_LIFETIME}}/g, this.escapeHtml(meta.price?.lifetime || ''));
 
         // New meta fields

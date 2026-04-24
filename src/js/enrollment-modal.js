@@ -8,6 +8,7 @@ const EnrollmentModal = {
   modal: null,
   courseName: '',
   courseSlug: '',
+  selectedPlan: 'group', // remembers which plan card the user clicked
 
   init() {
     this.courseName = this.getCourseName();
@@ -34,6 +35,20 @@ const EnrollmentModal = {
     enrollButtons.forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
+        // Capture the plan type from the clicked button (group / miniBatch / personal).
+        // Falls back to reading the card's heading, then defaults to 'group' for safety.
+        const explicit = btn.getAttribute('data-plan-type');
+        if (explicit) {
+          this.selectedPlan = explicit;
+        } else {
+          const card = btn.closest('.enrollment-option, .price-card');
+          const heading = card ? card.querySelector('h4, .price-label, .plan-title') : null;
+          const text = heading ? heading.textContent.toLowerCase() : '';
+          if (text.includes('mini batch')) this.selectedPlan = 'miniBatch';
+          else if (text.includes('1-on-1') || text.includes('personal') || text.includes('private') || text.includes('mentor')) this.selectedPlan = 'personal';
+          else if (text.includes('lifetime')) this.selectedPlan = 'lifetime';
+          else this.selectedPlan = 'group';
+        }
         this.open();
       });
     });
@@ -239,7 +254,8 @@ const EnrollmentModal = {
     // Use existing CoursePayment if available
     if (typeof CoursePayment !== 'undefined' && CoursePayment.showPaymentModal) {
       this.close();
-      CoursePayment.showPaymentModal('group');
+      // Route to the plan the user actually clicked (group / miniBatch / personal).
+      CoursePayment.showPaymentModal(this.selectedPlan || 'group');
     } else {
       alert('Payment system is loading. Please try again in a moment.');
     }

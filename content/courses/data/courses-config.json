@@ -16,17 +16,23 @@
     "group": {
       "amount": 1499,
       "display": "₹1,499/month",
-      "description": "2 Classes per Week"
+      "description": "Weekly two classes with up to 10 students"
     },
-    "personal": {
+    "miniBatch": {
       "amount": 2499,
       "display": "₹2,499/month",
-      "description": "1-on-1 Personalized Mentorship"
+      "description": "Weekly two classes in a micro batch of 3-4 students",
+      "indiaOnly": true
+    },
+    "personal": {
+      "amount": 4999,
+      "display": "₹4,999/month",
+      "description": "Weekly two private 1-on-1 sessions"
     },
     "lifetime": {
       "amount": 49999,
       "display": "₹49,999",
-      "description": "One-time payment, Lifetime Access"
+      "description": "One-time payment, lifetime access"
     }
   },
   "courses": {
@@ -34,6 +40,7 @@
       "name": "Vibe Coding for Kids",
       "pricing": {
         "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
         "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 34999, "display": "₹34,999" }
       }
@@ -42,6 +49,7 @@
       "name": "Vibe Coding for Teens",
       "pricing": {
         "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
         "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 44999, "display": "₹44,999" }
       }
@@ -50,6 +58,7 @@
       "name": "Vibe Coding for College",
       "pricing": {
         "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
         "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 59999, "display": "₹59,999" }
       }
@@ -58,47 +67,53 @@
       "name": "Python Programming Masterclass for Teens",
       "pricing": {
         "group": { "amount": 1499, "display": "₹1,499/month" },
-        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 49999, "display": "₹49,999" }
       }
     },
     "kids-coding-complete": {
       "name": "Kids Coding Complete Course",
       "pricing": {
-        "group": { "amount": 1299, "display": "₹1,299/month" },
-        "personal": { "amount": 1999, "display": "₹1,999/month" },
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 39999, "display": "₹39,999" }
       }
     },
     "scratch-programming-complete-course": {
       "name": "Scratch Programming Complete Course",
       "pricing": {
-        "group": { "amount": 999, "display": "₹999/month" },
-        "personal": { "amount": 1499, "display": "₹1,499/month" },
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 29999, "display": "₹29,999" }
       }
     },
     "full-stack-web-development-masterclass": {
       "name": "Full Stack Web Development Masterclass",
       "pricing": {
-        "group": { "amount": 1999, "display": "₹1,999/month" },
-        "personal": { "amount": 3499, "display": "₹3,499/month" },
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 59999, "display": "₹59,999" }
       }
     },
     "data-science-complete-masterclass": {
       "name": "Data Science Complete Masterclass",
       "pricing": {
-        "group": { "amount": 1999, "display": "₹1,999/month" },
-        "personal": { "amount": 3499, "display": "₹3,499/month" },
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 59999, "display": "₹59,999" }
       }
     },
     "ai-ml-masterclass-complete": {
       "name": "AI/ML Masterclass Complete",
       "pricing": {
-        "group": { "amount": 2499, "display": "₹2,499/month" },
-        "personal": { "amount": 3999, "display": "₹3,999/month" },
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 69999, "display": "₹69,999" }
       }
     },
@@ -106,23 +121,26 @@
       "name": "Game Development Complete Masterclass",
       "pricing": {
         "group": { "amount": 1499, "display": "₹1,499/month" },
-        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 49999, "display": "₹49,999" }
       }
     },
     "react-js-complete-masterclass": {
       "name": "React.js Complete Masterclass",
       "pricing": {
-        "group": { "amount": 1799, "display": "₹1,799/month" },
-        "personal": { "amount": 2999, "display": "₹2,999/month" },
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 54999, "display": "₹54,999" }
       }
     },
     "mern-stack-development-masterclass": {
       "name": "MERN Stack Development Masterclass",
       "pricing": {
-        "group": { "amount": 1999, "display": "₹1,999/month" },
-        "personal": { "amount": 3499, "display": "₹3,499/month" },
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 59999, "display": "₹59,999" }
       }
     },
@@ -130,7 +148,8 @@
       "name": "Computer Science Class 11 & 12 (CBSE & ICSE)",
       "pricing": {
         "group": { "amount": 1499, "display": "₹1,499/month" },
-        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 24999, "display": "₹24,999" }
       }
     },
@@ -138,7 +157,8 @@
       "name": "Informatics Practices (IP) Class 11 & 12 (CBSE)",
       "pricing": {
         "group": { "amount": 1499, "display": "₹1,499/month" },
-        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 24999, "display": "₹24,999" }
       }
     },
@@ -146,7 +166,8 @@
       "name": "CBSE Computational Thinking & AI for Kids (Classes 3-8)",
       "pricing": {
         "group": { "amount": 1499, "display": "₹1,499/month" },
-        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 19999, "display": "₹19,999" }
       }
     },
@@ -154,14 +175,16 @@
       "name": "CBSE Computational Thinking & AI for Teens (Class 9-12, Code 417 & 843)",
       "pricing": {
         "group": { "amount": 1499, "display": "₹1,499/month" },
-        "personal": { "amount": 2999, "display": "₹2,999/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 29999, "display": "₹29,999" }
       }
     }
   },
   "notes": {
-    "howToAddNewCourse": "Add a new entry in the 'courses' object with the course slug as key",
+    "howToAddNewCourse": "Add a new entry in the 'courses' object with the course slug as key. Each course should include group, miniBatch, personal, and (optional) lifetime pricing.",
     "pricingFormat": "amount is in rupees (INR), display is the formatted string shown to users",
-    "defaultPricing": "If a course is not listed, defaultPricing will be used"
+    "miniBatch": "indiaOnly=true means this plan is NOT available to international users. The Mini Batch card is hidden via data-india-only on foreign views.",
+    "defaultPricing": "If a course is not listed in 'courses', defaultPricing is used (Group ₹1,499 / Mini Batch ₹2,499 / 1-on-1 ₹4,999)."
   }
 }

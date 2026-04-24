@@ -10,12 +10,16 @@
 const InternationalPricing = {
 
   // ─── Price Maps ───
+  // NOTE: For Indian users, site shows 3 tiers: Group ₹1,499, Mini Batch ₹2,499, Personal 1-on-1 ₹4,999.
+  // For international users, only 2 tiers are shown ($40 Group, $100 Personal). The Mini Batch tier
+  // is hidden via [data-india-only="true"] — NOT re-priced. No USD price exists for Mini Batch.
   PRICES: {
     india: {
-      group:    { amount: 1499,  display: '₹1,499',  symbol: '₹', period: '/month' },
-      personal: { amount: 2499,  display: '₹2,499',  symbol: '₹', period: '/month' },
-      lifetime: { amount: 49999, display: '₹49,999', symbol: '₹', period: '' },
-      summer:   { amount: 4999,  display: '₹4,999',  symbol: '₹', period: '' }
+      group:     { amount: 1499,  display: '₹1,499',  symbol: '₹', period: '/month' },
+      miniBatch: { amount: 2499,  display: '₹2,499',  symbol: '₹', period: '/month' },
+      personal:  { amount: 4999,  display: '₹4,999',  symbol: '₹', period: '/month' },
+      lifetime:  { amount: 49999, display: '₹49,999', symbol: '₹', period: '' },
+      summer:    { amount: 4999,  display: '₹4,999',  symbol: '₹', period: '' }
     },
     international: {
       group:    { amount: 40,  display: '$40',  symbol: '$', period: '/month', currency: 'USD' },
@@ -27,26 +31,37 @@ const InternationalPricing = {
 
   isIndian: true, // default to India
 
-  // ─── Initialize ───
-  init() {
-    // TEST MODE: Add ?test=intl to URL to force international, ?test=india for Indian
+  // ─── Synchronous Detection (runs on script parse, before DOMContentLoaded) ───
+  // Sets window.__MAC_IS_INDIAN immediately so consumers like course.html's
+  // generateCourseCard() see the correct region flag when they build cards
+  // inside their own DOMContentLoaded listeners.
+  detectRegion() {
     var urlParams = new URLSearchParams(window.location.search);
     var testMode = urlParams.get('test');
     if (testMode === 'intl' || testMode === 'international') {
       this.isIndian = false;
-      console.log('🌍 [International Pricing] TEST MODE: Forced INTERNATIONAL (USD)');
     } else if (testMode === 'india') {
       this.isIndian = true;
-      console.log('🇮🇳 [International Pricing] TEST MODE: Forced INDIA (INR)');
     } else {
       this.isIndian = this.detectIndia();
     }
 
-    // Store globals for payment JS files to read
+    // Store globals for payment JS files and inline scripts to read
     window.__MAC_IS_INDIAN = this.isIndian;
     window.__MAC_CURRENCY = this.isIndian ? 'INR' : 'USD';
+  },
+
+  // ─── Initialize (DOM-dependent: runs on DOMContentLoaded) ───
+  init() {
+    // Detection may have already run via detectRegion(); redo it if not.
+    if (typeof window.__MAC_IS_INDIAN === 'undefined') {
+      this.detectRegion();
+    }
 
     console.log('[International Pricing] Detected:', this.isIndian ? 'INDIA (INR)' : 'INTERNATIONAL (USD)');
+
+    // Toggle catalog price chips (course.html) regardless of region
+    this.updateCatalogPriceChips();
 
     if (!this.isIndian) {
       this.updateAllPages();
@@ -76,11 +91,30 @@ const InternationalPricing = {
 
   // ─── Update ALL pages ───
   updateAllPages() {
+    this.hideIndiaOnlyCards();
     this.updatePricingPage();
     this.updateHomePage();
     this.updateCoursePages();
     this.updateSummerCampPages();
     this.hideInternationalSections();
+  },
+
+  // Hide cards/blocks that are India-only (e.g., Mini Batch tier has no USD price).
+  hideIndiaOnlyCards() {
+    document.querySelectorAll('[data-india-only="true"]').forEach(function(el) {
+      el.style.display = 'none';
+    });
+  },
+
+  // Swap course.html catalog chip: show INR chip for India, USD chip for international.
+  updateCatalogPriceChips() {
+    var isIndian = this.isIndian;
+    document.querySelectorAll('.price-chip-india').forEach(function(el) {
+      el.hidden = !isIndian;
+    });
+    document.querySelectorAll('.price-chip-intl').forEach(function(el) {
+      el.hidden = isIndian;
+    });
   },
 
   // ─── Pricing Page (pricing.html) ───
@@ -135,6 +169,7 @@ const InternationalPricing = {
   updateCoursePages() {
     var prices = this.PRICES.international;
 
+    // Template 1: .enrollment-option > h4 + .price
     document.querySelectorAll('.enrollment-option').forEach(function(option) {
       var priceEl = option.querySelector('.price');
       var heading = option.querySelector('h4');
@@ -145,6 +180,28 @@ const InternationalPricing = {
         priceEl.textContent = prices.group.display + prices.group.period;
       } else if (text.includes('personal') || text.includes('mentorship')) {
         priceEl.textContent = prices.personal.display + prices.personal.period;
+      }
+    });
+
+    // Template 2: .price-card > .price-label + .price-amt (used on ai-ml, java, girls, etc.)
+    document.querySelectorAll('.price-card').forEach(function(card) {
+      var label = card.querySelector('.price-label');
+      var amt = card.querySelector('.price-amt');
+      if (!label || !amt) return;
+
+      // Skip Custom/Corporate/Advanced cards (non-standard SKUs)
+      var amtText = amt.textContent.toLowerCase();
+      if (amtText.includes('custom')) return;
+      var labelText = label.textContent.toLowerCase();
+      if (labelText.includes('advanced') || labelText.includes('corporate') ||
+          labelText.includes('school')) return;
+
+      if (labelText.includes('1-on-1') || labelText.includes('personal') ||
+          labelText.includes('private') || labelText.includes('mentor')) {
+        amt.innerHTML = '<sup>' + prices.personal.symbol + '</sup>' + prices.personal.amount;
+      } else if (labelText.includes('group') || labelText.includes('kids track') ||
+                 labelText.includes('teens track') || labelText.includes('code queens')) {
+        amt.innerHTML = '<sup>' + prices.group.symbol + '</sup>' + prices.group.amount;
       }
     });
   },
@@ -250,7 +307,12 @@ const InternationalPricing = {
   document.head.appendChild(styles);
 })();
 
-// ─── Run on DOM ready ───
+// ─── Detect region synchronously on script parse (before DOMContentLoaded) ───
+// This guarantees window.__MAC_IS_INDIAN is set when any inline DOMContentLoaded
+// listener queries it — even if that listener was registered before this script parsed.
+InternationalPricing.detectRegion();
+
+// ─── Run DOM-touching work on DOM ready ───
 document.addEventListener('DOMContentLoaded', function() {
   InternationalPricing.init();
 });

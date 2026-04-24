@@ -226,17 +226,24 @@
                     <p>Choose your plan and start your journey into the future of technology today.</p>
                 </div>
                 <div class="enrollment-options">
-                    <div class="enrollment-option featured">
+                    <div class="enrollment-option">
                         <h4>Group Classes</h4>
                         <div class="price">{{PRICE_GROUP}}</div>
-                        <p class="class-info">2 Classes per Week</p>
-                        <a href="#" class="enroll-btn primary">Enroll Now</a>
+                        <p class="class-info">2 Classes per Week · Up to 10 students</p>
+                        <a href="#" class="enroll-btn outline" data-plan-type="group">Enroll Now</a>
+                    </div>
+                    <div class="enrollment-option featured" data-india-only="true">
+                        <span class="recommended-badge" style="position:absolute;top:14px;right:14px;background:linear-gradient(135deg,#a855f7,#8b5cf6);color:#fff;font-size:.65rem;font-weight:700;letter-spacing:1px;padding:4px 10px;border-radius:999px;text-transform:uppercase;">Most Popular</span>
+                        <h4>Mini Batch</h4>
+                        <div class="price">{{PRICE_MINIBATCH}}</div>
+                        <p class="class-info">2 Classes per Week · Just 3-4 students</p>
+                        <a href="#" class="enroll-btn primary" data-plan-type="miniBatch">Enroll Now</a>
                     </div>
                     <div class="enrollment-option">
-                        <h4>Personalized Mentorship</h4>
+                        <h4>Personalized 1-on-1</h4>
                         <div class="price">{{PRICE_PERSONAL}}</div>
-                        <p class="class-info">2 Classes per Week</p>
-                        <a href="#" class="enroll-btn outline">Enroll Now</a>
+                        <p class="class-info">2 Private Classes per Week</p>
+                        <a href="#" class="enroll-btn outline" data-plan-type="personal">Enroll Now</a>
                     </div>
                 </div>
             </div>

@@ -23,7 +23,8 @@
     "category": "Visual Programming & Game Development",
     "price": {
       "group": "₹1499/month",
-      "personal": "₹2499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month",
       "lifetime": "₹2,999 (one-time)"
     },
     "duration": "3 months (12 weeks)",

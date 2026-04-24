@@ -59,7 +59,8 @@
     "category": "CBSE School Curriculum - Computational Thinking & Artificial Intelligence",
     "price": {
       "group": "₹1,499/month (2 classes per week)",
-      "personal": "₹2,499/month (1-on-1 mentorship)",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month",
       "lifetime": "₹19,999 (one-time, lifetime access + certification)"
     },
     "duration": "9 months (40 weeks, expandable to 12-month mastery track)",
@@ -67,7 +68,12 @@
     "commitment": "5-7 hours/week (2 live classes + self-practice)",
     "certification": "Certified Young Computational Thinker & AI Innovator (CBSE-aligned)",
     "image_path": "ct-ai-kids.webp",
-    "boards_covered": ["CBSE Computational Thinking & AI Curriculum", "NCERT Aligned", "CBSE Skill Subject AI (Code 417) Foundation", "Atal Tinkering Lab Compatible"],
+    "boards_covered": [
+      "CBSE Computational Thinking & AI Curriculum",
+      "NCERT Aligned",
+      "CBSE Skill Subject AI (Code 417) Foundation",
+      "Atal Tinkering Lab Compatible"
+    ],
     "batch_info": "Separate age-appropriate batches: Primary (Class 3-5, Ages 8-10) and Middle School (Class 6-8, Ages 11-13). Curriculum, pace, and project difficulty are customized per age group.",
     "aligned_with": [
       "CBSE Circular on Artificial Intelligence curriculum",

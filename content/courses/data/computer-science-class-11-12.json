@@ -68,7 +68,8 @@
     "category": "School Board Exam Preparation - Computer Science",
     "price": {
       "group": "₹1499/month",
-      "personal": "₹2499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month",
       "lifetime": "₹24,999 (one-time for 2-year access)"
     },
     "duration": "24 months (Class 11 + Class 12 full syllabus)",
@@ -76,7 +77,10 @@
     "commitment": "8-10 hours/week (4 classes + self-practice)",
     "certification": "Course Completion Certificate + Board Exam Readiness Guarantee",
     "image_path": "ip-cs-class-11-12.webp",
-    "boards_covered": ["CBSE (Code 083)", "ICSE / ISC"],
+    "boards_covered": [
+      "CBSE (Code 083)",
+      "ICSE / ISC"
+    ],
     "batch_info": "Separate dedicated batches for CBSE and ICSE students — syllabus, programming language, exam pattern, and teaching approach are customized per board"
   },
   "program_overview": {
@@ -104,7 +108,11 @@
         "programming_language": "Python 3",
         "database": "MySQL",
         "exam_pattern": "70 marks Theory + 30 marks Practical",
-        "textbooks_followed": ["Sumita Arora — Computer Science with Python (Class 11 & 12)", "Preeti Arora — Computer Science with Python", "NCERT Computer Science Textbook (Class 11 & 12)"],
+        "textbooks_followed": [
+          "Sumita Arora — Computer Science with Python (Class 11 & 12)",
+          "Preeti Arora — Computer Science with Python",
+          "NCERT Computer Science Textbook (Class 11 & 12)"
+        ],
         "key_topics": "Python programming, file handling (text/binary/CSV), data structures (stack), SQL, computer networks, Python-MySQL connectivity, sorting & searching algorithms, society law & ethics"
       },
       "icse_batch": {
@@ -112,7 +120,11 @@
         "subject_code": "ISC Computer Science",
         "programming_language": "Java",
         "exam_pattern": "70 marks Theory (Paper 1) + 30 marks Practical (Paper 2)",
-        "textbooks_followed": ["Sumita Arora — ISC Computer Science with Java", "Vijay Kumar Pandey & Dilip Kumar Dey — Understanding Computer Science (ISC)", "APC Publications ISC Computer Science"],
+        "textbooks_followed": [
+          "Sumita Arora — ISC Computer Science with Java",
+          "Vijay Kumar Pandey & Dilip Kumar Dey — Understanding Computer Science (ISC)",
+          "APC Publications ISC Computer Science"
+        ],
         "key_topics": "Java OOP, inheritance, polymorphism, data structures (stack, queue, linked list, binary tree), Boolean algebra, Karnaugh maps, recursion, sorting & searching, file handling in Java"
       }
     },
@@ -1604,11 +1616,36 @@
       "total_marks": 70,
       "duration": "3 hours",
       "sections": {
-        "A": { "questions": 21, "marks_each": 1, "total": 21, "types": "MCQ, Fill-in-blanks, True/False, Assertion-Reason" },
-        "B": { "questions": 7, "marks_each": 2, "total": 14, "type": "Very Short Answer" },
-        "C": { "questions": 3, "marks_each": 3, "total": 9, "type": "Short Answer" },
-        "D": { "questions": 4, "marks_each": 4, "total": 16, "type": "Long Answer / Case Study" },
-        "E": { "questions": 2, "marks_each": 5, "total": 10, "type": "Very Long Answer / Programming" }
+        "A": {
+          "questions": 21,
+          "marks_each": 1,
+          "total": 21,
+          "types": "MCQ, Fill-in-blanks, True/False, Assertion-Reason"
+        },
+        "B": {
+          "questions": 7,
+          "marks_each": 2,
+          "total": 14,
+          "type": "Very Short Answer"
+        },
+        "C": {
+          "questions": 3,
+          "marks_each": 3,
+          "total": 9,
+          "type": "Short Answer"
+        },
+        "D": {
+          "questions": 4,
+          "marks_each": 4,
+          "total": 16,
+          "type": "Long Answer / Case Study"
+        },
+        "E": {
+          "questions": 2,
+          "marks_each": 5,
+          "total": 10,
+          "type": "Very Long Answer / Programming"
+        }
       },
       "internal_choices": "Yes — some questions have internal choice (either/or)",
       "programming_language": "Python only — all code must be in Python"
@@ -1617,7 +1654,10 @@
       "total_marks": 70,
       "duration": "3 hours + 15 minutes reading time",
       "structure": {
-        "part_1": { "marks": 20, "description": "Compulsory short answer questions covering entire syllabus" },
+        "part_1": {
+          "marks": 20,
+          "description": "Compulsory short answer questions covering entire syllabus"
+        },
         "part_2": {
           "marks": 50,
           "section_a": "Boolean Algebra & Hardware — answer 2 of 3 questions (10 marks each)",

@@ -66,7 +66,8 @@
     "category": "School Board Exam Preparation - Informatics Practices",
     "price": {
       "group": "₹1499/month",
-      "personal": "₹2499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month",
       "lifetime": "₹24,999 (one-time for 2-year access)"
     },
     "duration": "24 months (Class 11 + Class 12 full syllabus)",
@@ -74,7 +75,9 @@
     "commitment": "6-8 hours/week (3-4 classes + self-practice)",
     "certification": "Course Completion Certificate + Board Exam Readiness Guarantee",
     "image_path": "ip-cs-class-11-12.webp",
-    "boards_covered": ["CBSE (Code 065)"],
+    "boards_covered": [
+      "CBSE (Code 065)"
+    ],
     "batch_info": "Dedicated CBSE IP batch — completely separate from CS (083) batch and ICSE batch. IP has its own syllabus, exam pattern, and practical requirements. Students who opted for IP instead of CS get focused attention on Pandas, data visualization, and application-oriented Python."
   },
   "program_overview": {
@@ -109,7 +112,16 @@
       ],
       "ip_covers": "Python basics, Pandas (Series, DataFrame), Matplotlib (charts), SQL (DDL, DML, DQL, functions, joins), computer networks, societal impacts",
       "cs_covers": "Deep Python (functions, file handling, recursion), data structures (stack), sorting/searching algorithms, SQL + Python-MySQL connectivity, computer networks",
-      "career_paths_from_ip": ["Data Analyst", "Business Analyst", "SQL Developer", "Data Scientist", "BI Developer", "IT Manager", "Digital Marketing Analyst", "Financial Analyst"]
+      "career_paths_from_ip": [
+        "Data Analyst",
+        "Business Analyst",
+        "SQL Developer",
+        "Data Scientist",
+        "BI Developer",
+        "IT Manager",
+        "Digital Marketing Analyst",
+        "Financial Analyst"
+      ]
     },
     "learning_path": {
       "phase_1": "Class 11 — Semester 1 (Months 1-5): Computer fundamentals, Python basics (variables, operators, control flow, lists, dictionaries), SQL fundamentals",
@@ -1380,11 +1392,36 @@
       "total_marks": 70,
       "duration": "3 hours",
       "sections": {
-        "A": { "questions": 21, "marks_each": 1, "total": 21, "types": "MCQ, True/False, Fill-in-blanks, Assertion-Reason" },
-        "B": { "questions": 7, "marks_each": 2, "total": 14, "type": "Very Short Answer" },
-        "C": { "questions": 4, "marks_each": 3, "total": 12, "type": "Short Answer" },
-        "D": { "questions": 2, "marks_each": 4, "total": 8, "type": "Case Study Based" },
-        "E": { "questions": 3, "marks_each": 5, "total": 15, "type": "Long Answer" }
+        "A": {
+          "questions": 21,
+          "marks_each": 1,
+          "total": 21,
+          "types": "MCQ, True/False, Fill-in-blanks, Assertion-Reason"
+        },
+        "B": {
+          "questions": 7,
+          "marks_each": 2,
+          "total": 14,
+          "type": "Very Short Answer"
+        },
+        "C": {
+          "questions": 4,
+          "marks_each": 3,
+          "total": 12,
+          "type": "Short Answer"
+        },
+        "D": {
+          "questions": 2,
+          "marks_each": 4,
+          "total": 8,
+          "type": "Case Study Based"
+        },
+        "E": {
+          "questions": 3,
+          "marks_each": 5,
+          "total": 15,
+          "type": "Long Answer"
+        }
       },
       "internal_choices": "Yes — some questions have internal choice (either/or)",
       "programming_language": "Python only — Pandas, Matplotlib code"
