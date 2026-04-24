@@ -205,3 +205,47 @@ body.best-coding-page [class*="glow-text"] {
         max-width: 1240px !important;
     }
 }
+
+/* ============================================================
+   LANDING PAGE HERO HORIZONTAL CENTERING FIX
+   Root cause of "blank left side" bug on 100+ city/school pages:
+   1. src/css/style.css defines a global `.hero-section { display:flex }`
+      (intended for a different glass-card hero), which turns the
+      decorative `.orb` divs into flex children that consume horizontal
+      space and push `.inner` to the right edge.
+   2. The `body.best-coding-page .hero-section > *` rule above also
+      overrides `.orb { position:absolute }` back to `position:relative`,
+      reinforcing the flex-child behavior.
+   Fix: neutralize display:flex on landing heroes, keep orbs absolute
+   (decorative blobs only), and center .inner horizontally.
+   ============================================================ */
+body.best-coding-page .hero-section,
+body.best-coding-page main > section:first-of-type,
+body.landing-page .hero-section {
+    display: block !important;
+    text-align: center;
+    width: 100% !important;
+    max-width: 100% !important; /* override .section { max-width: 1200px } from style.css */
+    align-self: stretch;
+}
+
+/* Catch page-specific orb variants (e.g. Don Bosco uses .d-orb) so any
+   decorative blob inside a landing hero stays absolutely positioned and
+   out of the normal flow. */
+body.best-coding-page .hero-section > [class*="orb"],
+body.best-coding-page main > section:first-of-type > [class*="orb"],
+body.landing-page .hero-section > [class*="orb"] {
+    position: absolute !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+}
+
+body.best-coding-page .hero-section > .inner,
+body.best-coding-page main > section.hero-section > .inner,
+body.best-coding-page main > section:first-of-type > .inner,
+body.landing-page .hero-section > .inner {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative;
+    z-index: 1;
+}
