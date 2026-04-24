@@ -197,19 +197,147 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/course.css">
-    <!-- Phase 6 UI/UX Polish -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
-    <link rel="stylesheet" href="/css/pages/courses-listing.css?v=20260411-p6">
-    <script src="/js/ux-enhancements.js" defer></script>
-    <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
-    <!-- Phase 7 Distinctive Identity -->
+    <!-- Phase 7 Distinctive Identity (supersedes Phase 6) -->
     <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
     <link rel="stylesheet" href="/css/pages/courses-listing.css?v=20260411-p7">
     <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+    <script>
+      // Skip service-worker on localhost so dev changes show up without manual cache clears.
+      // Unregister any previously-registered SW and delete its caches on this hostname.
+      (function () {
+        var host = location.hostname;
+        var isLocal = host === 'localhost' || host === '127.0.0.1' || host.endsWith('.local');
+        if (!('serviceWorker' in navigator)) return;
+        if (isLocal) {
+          navigator.serviceWorker.getRegistrations().then(function (regs) {
+            regs.forEach(function (r) { r.unregister(); });
+          });
+          if (window.caches && caches.keys) {
+            caches.keys().then(function (names) {
+              names.forEach(function (n) { caches.delete(n); });
+            });
+          }
+          return;
+        }
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').catch(function () {});
+        });
+      })();
+    </script>
+
+    <style>
+        /* Eliminate right-side gap from the native scrollbar on dark pages */
+        html { scrollbar-width: thin; scrollbar-color: #a855f7 #0a0a14; }
+        html::-webkit-scrollbar { width: 10px; background: #0a0a14; }
+        html::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #a855f7, #4ecdc4);
+            border-radius: 10px;
+        }
+        html::-webkit-scrollbar-thumb:hover { background: #c084fc; }
+        body::-webkit-scrollbar { width: 10px; background: #0a0a14; }
+        body::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #a855f7, #4ecdc4);
+            border-radius: 10px;
+        }
+
+        /* Performance: GPU-composite the background canvas and fill viewport incl. scrollbar */
+        #background-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            pointer-events: none;
+            z-index: -1;
+            will-change: transform;
+            transform: translateZ(0);
+        }
+
+        /* Simple, clear pricing — just the price */
+        .course-card-price-simple {
+            display: inline-flex;
+            align-items: baseline;
+            gap: 6px;
+            margin: 0.25rem 0 1rem;
+            padding: 0.55rem 0.95rem;
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.22), rgba(78, 205, 196, 0.14));
+            border: 1.5px solid rgba(168, 85, 247, 0.55);
+            border-radius: 999px;
+            box-shadow: 0 4px 14px rgba(168, 85, 247, 0.2);
+        }
+        .course-card-price-simple .price-amount {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1;
+            letter-spacing: 0.01em;
+        }
+        .course-card-price-simple .price-starts {
+            font-size: 0.82rem;
+            color: #4ecdc4;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+        }
+
+        /* Attractive "Start Learning" button with animated gradient + hover */
+        .course-card-minimal .start-learning-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            padding: 0.85rem 1.4rem;
+            font-size: 0.98rem;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+            background: linear-gradient(135deg, #a855f7 0%, #8b5cf6 50%, #4ecdc4 100%);
+            background-size: 200% 200%;
+            background-position: 0% 50%;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 6px 18px rgba(168, 85, 247, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+            transition: transform 0.2s ease, box-shadow 0.25s ease, background-position 0.5s ease;
+        }
+        .course-card-minimal .start-learning-btn::before {
+            content: "";
+            position: absolute;
+            top: 0; left: -100%;
+            width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.22), transparent);
+            transition: left 0.6s ease;
+        }
+        .course-card-minimal .start-learning-btn:hover {
+            background-position: 100% 50%;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 28px rgba(168, 85, 247, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        }
+        .course-card-minimal .start-learning-btn:hover::before { left: 100%; }
+        .course-card-minimal .start-learning-btn:active { transform: translateY(0); }
+        .course-card-minimal .start-learning-btn .btn-arrow {
+            width: 18px;
+            height: 18px;
+            transition: transform 0.2s ease;
+        }
+        .course-card-minimal .start-learning-btn:hover .btn-arrow { transform: translateX(4px); }
+
+        @media (max-width: 480px) {
+            .course-card-price-simple { padding: 0.45rem 0.8rem; }
+            .course-card-price-simple .price-amount { font-size: 1.1rem; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            #background-canvas { display: none; }
+            .course-card-minimal .start-learning-btn { transition: none; }
+            .course-card-minimal .start-learning-btn::before { display: none; }
+        }
+    </style>
 </head>
 
 <body class="courses-page">
@@ -1725,69 +1853,13 @@
                 }
             }
 
-            // Background Animation
-            const canvas = document.getElementById('background-canvas');
-            const ctx = canvas.getContext('2d');
-            let particles = [];
-            const mathSymbols = ['?', '?', 'p', '8', 'v', '?', '?', '?', '?', 'f'];
-            const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', ';'];
-            const allSymbols = [...mathSymbols, ...codeSymbols];
-
-            function resizeCanvas() {
-                canvas.width = window.innerWidth;
-                canvas.height = window.innerHeight;
-            }
-
-            function createParticles() {
-                particles = [];
-                const count = Math.min(40, Math.floor((canvas.width * canvas.height) / 20000));
-                for (let i = 0; i < count; i++) {
-                    particles.push({
-                        x: Math.random() * canvas.width,
-                        y: Math.random() * canvas.height,
-                        char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
-                        speed: 0.2 + Math.random() * 0.5,
-                        size: 12 + Math.random() * 8,
-                        opacity: 0.08 + Math.random() * 0.15,
-                        rotation: Math.random() * Math.PI * 2,
-                        rotationSpeed: (Math.random() - 0.5) * 0.01,
-                        isMath: Math.random() > 0.5
-                    });
-                }
-            }
-
-            function animate() {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-                particles.forEach(p => {
-                    p.y -= p.speed;
-                    p.rotation += p.rotationSpeed;
-                    if (p.y < -30) {
-                        p.y = canvas.height + 30;
-                        p.x = Math.random() * canvas.width;
-                    }
-                    ctx.save();
-                    ctx.translate(p.x, p.y);
-                    ctx.rotate(p.rotation);
-                    ctx.font = `${p.size}px monospace`;
-                    ctx.fillStyle = p.isMath ? `rgba(255, 215, 0, ${p.opacity})` : `rgba(168, 85, 247, ${p.opacity})`;
-                    ctx.fillText(p.char, 0, 0);
-                    ctx.restore();
-                });
-                requestAnimationFrame(animate);
-            }
-
-            window.addEventListener('resize', () => { resizeCanvas(); createParticles(); });
-            resizeCanvas();
-            createParticles();
-            animate();
+            // Background canvas animation is initialized in a single optimized block below.
 
             // Course Card Generation
             function generateCourseCard(course) {
                 const imagePath = `/images/${course.imageUrl || 'default-course.png'}`;
                 const isIndian = window.__MAC_IS_INDIAN !== false;
-                const priceText = isIndian
-                    ? 'Plans from <strong>₹1,499/mo</strong>'
-                    : 'Plans from <strong>$40/mo</strong>';
+                const priceAmount = isIndian ? '₹1,499' : '$40';
                 return `
                     <div class="course-card-minimal" data-course-id="${course.id}" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
                         <div class="course-image-container">
@@ -1796,8 +1868,11 @@
                         <div class="course-content-minimal">
                             <h3 class="course-title-minimal">${course.title}</h3>
                             <p class="course-description-minimal">${course.description}</p>
-                            <div class="course-card-price">${priceText}</div>
-                            <button class="start-learning-btn" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
+                            <div class="course-card-price-simple" aria-label="Course pricing">
+                                <span class="price-amount">${priceAmount}</span>
+                                <span class="price-starts">starts</span>
+                            </div>
+                            <button class="start-learning-btn" type="button" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
                                 Start Learning
                                 <svg class="btn-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                             </button>
@@ -2172,28 +2247,46 @@
 
     <!-- ============================================ -->
     <!-- BACKGROUND CANVAS PARTICLE ANIMATION         -->
-    <!-- Optimized: pauses when scrolled off-screen   -->
+    <!-- Throttled to ~30fps, pauses off-screen       -->
+    <!-- and when tab is hidden. Skipped on reduced-  -->
+    <!-- motion or low-end (≤4 CPU cores) devices.    -->
     <!-- ============================================ -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const canvas = document.getElementById('background-canvas');
             if (!canvas) return;
-            const ctx = canvas.getContext('2d');
+
+            const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const lowEnd = (navigator.hardwareConcurrency || 8) <= 4;
+            if (reduceMotion || lowEnd) { canvas.style.display = 'none'; return; }
+
+            const ctx = canvas.getContext('2d', { alpha: true });
             let particles = [];
             let canvasVisible = true;
-            let animationRunning = false;
+            let tabVisible = !document.hidden;
+            let rafId = null;
+            let lastFrame = 0;
+            const FRAME_MS = 1000 / 30; // cap at 30fps
             const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
             const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', ';', '//'];
-            const allSymbols = [...mathSymbols, ...codeSymbols];
+            const allSymbols = mathSymbols.concat(codeSymbols);
+
+            function shouldRun() { return canvasVisible && tabVisible; }
+            function stop() { if (rafId) { cancelAnimationFrame(rafId); rafId = null; } }
+            function start() {
+                if (!rafId && shouldRun()) { lastFrame = 0; rafId = requestAnimationFrame(animate); }
+            }
 
             const canvasObserver = new IntersectionObserver((entries) => {
                 canvasVisible = entries[0].isIntersecting;
-                if (canvasVisible && !animationRunning) {
-                    animationRunning = true;
-                    animate();
-                }
+                if (shouldRun()) start(); else stop();
             }, { threshold: 0 });
             canvasObserver.observe(canvas);
+
+            document.addEventListener('visibilitychange', () => {
+                tabVisible = !document.hidden;
+                if (shouldRun()) start(); else stop();
+            });
 
             function resizeCanvas() {
                 canvas.width = window.innerWidth;
@@ -2202,26 +2295,35 @@
 
             function createParticles() {
                 particles = [];
-                const particleCount = Math.floor((canvas.width * canvas.height) / 5000);
+                // ~1 particle per 35,000 px², capped at 25 (was ~1/5000, uncapped → 300+ on a 1080p screen)
+                const particleCount = Math.min(25, Math.floor((canvas.width * canvas.height) / 35000));
                 for (let i = 0; i < particleCount; i++) {
                     particles.push({
                         x: Math.random() * canvas.width,
                         y: Math.random() * canvas.height,
                         char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
-                        speed: 0.3 + Math.random() * 0.7,
+                        speed: 0.25 + Math.random() * 0.5,
                         size: 12 + Math.random() * 10,
-                        opacity: 0.1 + Math.random() * 0.3,
+                        opacity: 0.1 + Math.random() * 0.25,
                         rotation: Math.random() * Math.PI * 2,
-                        rotationSpeed: (Math.random() - 0.5) * 0.02,
+                        rotationSpeed: (Math.random() - 0.5) * 0.015,
                         isMath: Math.random() > 0.5
                     });
                 }
             }
 
-            function animate() {
-                if (!canvasVisible) { animationRunning = false; return; }
+            function animate(ts) {
+                rafId = null;
+                if (!shouldRun()) return;
+                if (ts - lastFrame < FRAME_MS) {
+                    rafId = requestAnimationFrame(animate);
+                    return;
+                }
+                lastFrame = ts;
+
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
-                particles.forEach(p => {
+                for (let i = 0, len = particles.length; i < len; i++) {
+                    const p = particles[i];
                     p.y -= p.speed;
                     p.rotation += p.rotationSpeed;
                     if (p.y < -30) {
@@ -2232,21 +2334,26 @@
                     ctx.save();
                     ctx.translate(p.x, p.y);
                     ctx.rotate(p.rotation);
-                    ctx.font = `${p.size}px monospace`;
+                    ctx.font = p.size + 'px monospace';
                     ctx.fillStyle = p.isMath
-                        ? `rgba(255, 215, 0, ${p.opacity})`
-                        : `rgba(168, 85, 247, ${p.opacity})`;
+                        ? 'rgba(255, 215, 0, ' + p.opacity + ')'
+                        : 'rgba(168, 85, 247, ' + p.opacity + ')';
                     ctx.fillText(p.char, 0, 0);
                     ctx.restore();
-                });
-                requestAnimationFrame(animate);
+                }
+                rafId = requestAnimationFrame(animate);
             }
 
-            window.addEventListener('resize', () => { resizeCanvas(); createParticles(); });
+            // Debounced resize to avoid thrash during window drag
+            let resizeTimer = null;
+            window.addEventListener('resize', () => {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(() => { resizeCanvas(); createParticles(); }, 150);
+            });
+
             resizeCanvas();
             createParticles();
-            animationRunning = true;
-            animate();
+            start();
         });
     </script>
 
@@ -2284,49 +2391,6 @@
 
     <!-- PERF FIX: Removed duplicate componentsLoaded script -->
 
-    <!-- Components inlined at build time -->
-    <script>
-        (function() {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
-
-    <!-- Components inlined at build time -->
-    <script>
-        (function() {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
-
-    <!-- Components inlined at build time -->
-    <script>
-        (function() {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
-
-    <!-- Components inlined at build time -->
-    <script>
-        (function() {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
 </body>
 
 </html>
