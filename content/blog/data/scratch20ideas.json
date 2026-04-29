@@ -1553,6 +1553,22 @@
       {
         "type": "paragraph",
         "text": "<strong><a href='https://www.modernagecoders.com/blog/parents-guide-starting-coding-education-home' target='_blank' rel='noopener noreferrer'>Parents' Guide to Starting Coding Education at Home</a></strong> Practical strategies for supporting your child's coding journey from first projects through advanced programming skills."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Once Your Child Outgrows Scratch — Try These Programs",
+        "id": "related-programs"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong> — The natural next step after Scratch. Live online programs for ages 8 to 18, project-based.",
+          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong> — Princess &amp; Queen Coders inclusive batches with female mentors and a supportive learning environment.",
+          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong> — Master Java step by step from variables to OOP and real apps.",
+          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong> — Build chatbots, image recognition systems, and real AI projects."
+        ]
       }
     ]
   },

@@ -962,6 +962,22 @@
         "text": "Explore Our Courses for Future-Ready Kids",
         "url": "/courses",
         "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Want Your Child to Use AI Productively? Try These Programs",
+        "id": "related-programs"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong> — Teach your teen how AI actually works. Build chatbots, image recognition, and real AI projects.",
+          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong> — Foundation in Python plus introduction to safe, productive AI use for ages 8 to 18.",
+          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong> — Princess &amp; Queen Coders inclusive batches with female mentors.",
+          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong> — Strong foundation in OOP and real-world apps."
+        ]
       }
     ]
   },

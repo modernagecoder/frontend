@@ -996,6 +996,22 @@
         "text": "Get a Free Consultation",
         "url": "/contact",
         "style": "secondary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Continue Learning at Modern Age Coders",
+        "id": "related-programs"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong> — Princess &amp; Queen Coders inclusive batches with female mentors and a supportive learning environment.",
+          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong> — Live online Python and AI programs for ages 8 to 18, project-based.",
+          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong> — Build chatbots, image recognition systems, and real AI projects.",
+          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong> — Master Java step by step from variables to OOP and real apps."
+        ]
       }
     ]
   },
