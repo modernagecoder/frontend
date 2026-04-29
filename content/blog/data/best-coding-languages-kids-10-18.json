@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "best-coding-languages-kids-10-18-beginner-advanced",
-    "title": "Best Coding Languages for Kids Aged 10–18 (Beginner to Advanced)",
-    "description": "Complete guide to the best programming languages for children and teens. From Scratch for beginners to Python and JavaScript for advanced learners.",
+    "title": "Best Coding Languages for Kids Age 10-18 — 2026 Parent Guide",
+    "description": "Which coding language should your child learn in 2026? Parent's guide covering Scratch, Python, JavaScript, Java & C++ — with age recommendations, learning paths, and real career value. Updated for 2026.",
     "keywords": [
       "coding languages for kids",
       "best programming language for children",
@@ -17,7 +17,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-03-06",
-    "dateModified": "2025-03-06",
+    "dateModified": "2026-04-30",
     "category": "Education",
     "tags": [
       "Kids",
@@ -30,7 +30,7 @@
     "featured": true
   },
   "hero": {
-    "title": "Best Coding Languages for Kids Aged 10–18 (Beginner to Advanced)",
+    "title": "Best Coding Languages for Kids Age 10-18 — 2026 Parent Guide",
     "subtitle": "Not sure which programming language your child should learn? Here's the definitive guide based on age, skill level, and interests.",
     "featuredImage": {
       "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_2_hero.png",
@@ -996,6 +996,21 @@
         "text": "Get a Free Consultation",
         "url": "/contact",
         "style": "secondary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Continue Learning at Modern Age Coders",
+        "id": "related-programs"
+      },
+      {
+        "type": "list",
+        "items": [
+          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong> — Princess &amp; Queen Coders inclusive batches with female mentors and a supportive learning environment.",
+          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong> — Live online Python and AI programs for ages 8 to 18, project-based.",
+          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong> — Build chatbots, image recognition systems, and real AI projects.",
+          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong> — Master Java step by step from variables to OOP and real apps."
+        ]
       }
     ]
   },

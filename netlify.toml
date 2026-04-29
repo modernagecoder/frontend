@@ -12,6 +12,14 @@
   to = "/.netlify/functions/:splat"
   status = 200
 
+# Canonicalize URLs — strip trailing slashes (kills duplicate-URL indexing problem)
+# Routes /any-path/ → /any-path with 301 so Google consolidates link equity to one URL.
+[[redirects]]
+  from = "/*/"
+  to = "/:splat"
+  status = 301
+  force = true
+
 # Redirect rules for clean URLs
 [[redirects]]
   from = "/index.html"

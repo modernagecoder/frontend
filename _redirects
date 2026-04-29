@@ -1,4 +1,8 @@
 /blog/best-programming-languages-college-students-2025  /blog/best-programming-languages-college-students-2026  301
+
+# Canonicalize URLs — strip trailing slashes (kills duplicate-URL indexing problem)
+/*/  /:splat  301!
+
 # Favicon redirects (high priority)
 /favicon/* /public/favicon/:splat 200
 /favicon.ico /public/favicon/favicon.ico 200
