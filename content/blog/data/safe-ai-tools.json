@@ -1,7 +1,7 @@
 {
   "meta": {
     "slug": "safe-ai-tools-for-kids-homework-2025",
-    "title": "10 Safe AI Tools Your Child Should Be Using for Homework in 2026",
+    "title": "10 Safe AI Tools Your Child Should Be Using for Homework in 2025",
     "description": "Worried about your child using ChatGPT for homework? Discover 10 parent-approved AI tools that help kids learn safely without doing the work for them.",
     "keywords": [
       "AI tools for kids",
@@ -11,7 +11,7 @@
       "kid-friendly AI",
       "AI learning tools",
       "Canva Magic for students",
-      "educational AI 2026",
+      "educational AI 2025",
       "AI parental controls"
     ],
     "author": {
@@ -20,7 +20,7 @@
       "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
     },
     "date": "2025-01-25",
-    "dateModified": "2026-04-30",
+    "dateModified": "2025-01-25",
     "category": "Education",
     "tags": [
       "AI Tools",
@@ -34,7 +34,7 @@
     "featured": true
   },
   "hero": {
-    "title": "10 Safe AI Tools Your Child Should Be Using for Homework in 2026",
+    "title": "10 Safe AI Tools Your Child Should Be Using for Homework in 2025",
     "subtitle": "ChatGPT isn't the enemy—but it's not the only option either. Here are AI tools designed to help kids learn, not just give them answers.",
     "featuredImage": {
       "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_37_hero.png",
@@ -962,21 +962,6 @@
         "text": "Explore Our Courses for Future-Ready Kids",
         "url": "/courses",
         "style": "primary"
-      },
-      {
-        "type": "heading",
-        "level": 2,
-        "text": "Want Your Child to Use AI Productively? Try These Programs",
-        "id": "related-programs"
-      },
-      {
-        "type": "list",
-        "items": [
-          "<strong><a href=\"/ai-ml-course-for-teens\">AI &amp; Machine Learning Course for Teens</a></strong> — Teach your teen how AI actually works. Build chatbots, image recognition, and real AI projects.",
-          "<strong><a href=\"/python-and-ai-classes-for-kids-teens\">Python &amp; AI Classes for Kids and Teens</a></strong> — Foundation in Python plus introduction to safe, productive AI use for ages 8 to 18.",
-          "<strong><a href=\"/coding-classes-for-girls\">Coding Classes for Girls</a></strong> — Princess &amp; Queen Coders inclusive batches with female mentors.",
-          "<strong><a href=\"/java-programming-for-kids-teens\">Java Programming for Kids &amp; Teens</a></strong> — Strong foundation in OOP and real-world apps."
-        ]
       }
     ]
   },
