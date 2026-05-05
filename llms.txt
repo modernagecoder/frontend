@@ -41,6 +41,7 @@ EUR, GBP, and other currencies).
 - Book a Free Demo: https://learn.modernagecoders.com/book-demo
 - Student Success Stories: https://learn.modernagecoders.com/success-stories
 - Wall of Love (Testimonials): https://learn.modernagecoders.com/love
+- The Gazette (Newspaper-style brand showcase — toppers, certificates, parent letters): https://learn.modernagecoders.com/gazette
 - Contact: https://learn.modernagecoders.com/contact
 - FAQ: https://learn.modernagecoders.com/faq
 - Free Resources: https://learn.modernagecoders.com/free-resources
