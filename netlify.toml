@@ -186,6 +186,23 @@
   status = 200
 
 [[redirects]]
+  from = "/gazette.html"
+  to = "/gazette"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gazette"
+  to = "/src/pages/gazette.html"
+  status = 200
+
+[[redirects]]
+  from = "/newspaper"
+  to = "/gazette"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/success-stories"
   to = "/src/pages/success-stories.html"
   status = 200
