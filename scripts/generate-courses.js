@@ -7,7 +7,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const { courseToMarkdown } = require('./lib/markdown-emitter.js');
 
 class CourseGenerator {
     constructor() {
@@ -172,14 +171,6 @@ class CourseGenerator {
                     // Generate HTML
                     const html = this.populateTemplate(template, courseData, courseDir);
                     fs.writeFileSync(path.join(courseDir, 'index.html'), html);
-
-                    // Markdown twin for AI agents
-                    try {
-                        const md = courseToMarkdown(courseData);
-                        fs.writeFileSync(path.join(courseDir, 'index.md'), md);
-                    } catch (e) {
-                        console.warn(`  ⚠️  Markdown emission failed for ${slug}: ${e.message}`);
-                    }
 
                     successCount++;
                     console.log(`✅ Successfully generated: ${slug}`);
@@ -507,52 +498,6 @@ class CourseGenerator {
      * @param {Object} courseData - Course data object
      * @returns {Object} Structured data object
      */
-    /**
-     * Map course metadata to one or more EducationalAudience entries so AI
-     * agents can match demographic queries. The slug suffix is the primary
-     * signal because it's authoritative and machine-readable.
-     */
-    deriveAudience(meta) {
-        const slug = (meta.slug || '').toLowerCase();
-        const cat = (meta.category || '').toLowerCase();
-        const out = [];
-
-        const push = (audienceType, role = 'student') => {
-            out.push({
-                "@type": "EducationalAudience",
-                "educationalRole": role,
-                "audienceType": audienceType
-            });
-        };
-
-        if (slug.endsWith('-kids') || /\bkids\b/.test(slug) || /kids/.test(cat)) {
-            push("Children ages 6-12");
-            out.push({
-                "@type": "Audience",
-                "audienceType": "Parents of children ages 6-12"
-            });
-        } else if (slug.endsWith('-teens') || /\bteens?\b/.test(slug) || /teen/.test(cat)) {
-            push("Teenagers ages 13-17");
-        } else if (/girls|princess|queen|alpha-girls/.test(slug) || /women in tech/.test(cat)) {
-            push("Girls and young women in technology");
-        } else if (slug.endsWith('-college') || /\bcollege\b/.test(slug) || /college/.test(cat)) {
-            push("College students and adults ages 18+");
-        } else if (/professional/.test(slug) || /professional/.test(cat)) {
-            push("Working professionals and adult learners");
-            out.push({
-                "@type": "BusinessAudience",
-                "audienceType": "Companies seeking team training"
-            });
-        } else if (/corporate/.test(slug) || /corporate/.test(cat)) {
-            push("Corporate teams and enterprise learners", "trainee");
-        } else if (/elementary|middle-school|high-school|olympiad|maths|mathematics/.test(slug)) {
-            push("School and college students learning mathematics");
-        } else {
-            push("Learners ages 6-65 (kids, teens, college students, professionals)");
-        }
-        return out.length ? out : null;
-    }
-
     generateStructuredData(courseData) {
         const meta = courseData.meta || {};
         const overview = courseData.program_overview || {};
@@ -606,16 +551,6 @@ class CourseGenerator {
 
         // Pricing offers — enforce standard 3-tier structure across all courses.
         const today = new Date().toISOString().split('T')[0];
-        const validUntil = `${new Date().getUTCFullYear() + 1}-12-31`;
-        const seller = {
-            "@type": "Organization",
-            "name": "Modern Age Coders",
-            "url": "https://learn.modernagecoders.com"
-        };
-        const eligibleRegion = {
-            "@type": "Place",
-            "name": "Worldwide"
-        };
         courseSchema.offers = [
             {
                 "@type": "Offer",
@@ -625,11 +560,7 @@ class CourseGenerator {
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
-                "priceValidUntil": validUntil,
-                "category": "Group Classes",
-                "url": `https://learn.modernagecoders.com/courses/${meta.slug || ''}`,
-                "seller": seller,
-                "eligibleRegion": eligibleRegion
+                "category": "Group Classes"
             },
             {
                 "@type": "Offer",
@@ -639,11 +570,7 @@ class CourseGenerator {
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
-                "priceValidUntil": validUntil,
-                "category": "Mini Batch",
-                "url": `https://learn.modernagecoders.com/courses/${meta.slug || ''}`,
-                "seller": seller,
-                "eligibleRegion": eligibleRegion
+                "category": "Mini Batch"
             },
             {
                 "@type": "Offer",
@@ -653,11 +580,7 @@ class CourseGenerator {
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
-                "priceValidUntil": validUntil,
-                "category": "Personalized 1-on-1",
-                "url": `https://learn.modernagecoders.com/courses/${meta.slug || ''}`,
-                "seller": seller,
-                "eligibleRegion": eligibleRegion
+                "category": "Personalized 1-on-1"
             }
         ];
 
@@ -666,57 +589,9 @@ class CourseGenerator {
             courseSchema.keywords = meta.keywords.join(', ');
         }
 
-        // about — subjects covered, modeled as Thing entities so AI agents can
-        // match topical queries like "best python course for teens" without
-        // needing to parse the description.
-        if (Array.isArray(meta.keywords) && meta.keywords.length) {
-            courseSchema.about = meta.keywords.slice(0, 10).map(k => ({
-                "@type": "Thing",
-                "name": k
-            }));
-        }
-
-        // teaches — explicit skills/topics the course imparts. This is the
-        // single most-cited Course property for AI agent recommendations.
-        if (Array.isArray(meta.keywords) && meta.keywords.length) {
-            courseSchema.teaches = meta.keywords.slice(0, 15);
-        }
-
-        // audience — EducationalAudience derived from slug + category. Lets
-        // AI agents answer demographic queries ("course for kids ages 6-12").
-        const audience = this.deriveAudience(meta);
-        if (audience) {
-            courseSchema.audience = audience;
-        }
-
-        // educationalCredentialAwarded — structured object, not just text.
-        const certName = meta.certification || `Certificate of completion: ${meta.title || 'Course'}`;
-        courseSchema.educationalCredentialAwarded = {
-            "@type": "EducationalOccupationalCredential",
-            "credentialCategory": "Certificate",
-            "name": certName,
-            "recognizedBy": {
-                "@type": "Organization",
-                "name": "Modern Age Coders"
-            }
-        };
-
-        courseSchema.inLanguage = "en";
-        courseSchema.learningResourceType = "Online Course";
-        courseSchema.isAccessibleForFree = false;
-
-        // coursePrerequisites — derive from level. Was previously set to category
-        // (e.g. "Artificial Intelligence & Machine Learning"), which isn't a
-        // prerequisite. For "Complete Beginner" levels, it's "None".
-        const level = (meta.level || '').toLowerCase();
-        if (/beginner|absolute beginner|zero|no prior/.test(level)) {
-            courseSchema.coursePrerequisites = "None — designed for complete beginners";
-        } else if (/intermediate/.test(level)) {
-            courseSchema.coursePrerequisites = "Basic familiarity with the subject";
-        } else if (/advanced/.test(level)) {
-            courseSchema.coursePrerequisites = "Solid foundation in the subject";
-        } else {
-            courseSchema.coursePrerequisites = "None — beginner-friendly with optional advanced track";
+        // Add course category
+        if (meta.category) {
+            courseSchema.coursePrerequisites = meta.category;
         }
 
         // Add aggregated rating if available

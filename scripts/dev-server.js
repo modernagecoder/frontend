@@ -69,8 +69,7 @@ const mimeTypes = {
     '.webp': 'image/webp',
     '.ico': 'image/x-icon',
     '.txt': 'text/plain',
-    '.xml': 'text/xml',
-    '.md': 'text/markdown; charset=utf-8'
+    '.xml': 'text/xml'
 };
 
 // URL to file path mapping (mimics Netlify redirects)
@@ -149,29 +148,6 @@ function resolveFilePath(url) {
         return 'lovewall/dist' + urlPath;
     }
 
-    // ─── Markdown twins (must come BEFORE generic blog/course/resource catch-alls) ───
-    // Mirrors _redirects rules so local dev resolves the same URLs Netlify will.
-    if (urlPath === '/blog/index.md') return 'content/blog/generated/index.md';
-    let m;
-    if ((m = urlPath.match(/^\/blog\/([a-z0-9][a-z0-9-]*)\/index\.md$/i))) return `content/blog/generated/${m[1]}/index.md`;
-    if ((m = urlPath.match(/^\/blog\/([a-z0-9][a-z0-9-]*)\.md$/i))) return `content/blog/generated/${m[1]}/index.md`;
-    if ((m = urlPath.match(/^\/courses\/([a-z0-9][a-z0-9-]*)\/index\.md$/i))) return `content/courses/generated/${m[1]}/index.md`;
-    if ((m = urlPath.match(/^\/courses\/([a-z0-9][a-z0-9-]*)\.md$/i))) return `content/courses/generated/${m[1]}/index.md`;
-    if (urlPath === '/resources/index.md') return 'content/resources/generated/index.md';
-    if ((m = urlPath.match(/^\/resources\/([a-z0-9][a-z0-9-]*)\/index\.md$/i))) return `content/resources/generated/${m[1]}/index.md`;
-    if ((m = urlPath.match(/^\/resources\/([a-z0-9][a-z0-9-]*)\/([a-z0-9][a-z0-9-]*)\/index\.md$/i))) return `content/resources/generated/${m[1]}/${m[2]}/index.md`;
-    if ((m = urlPath.match(/^\/resources\/([a-z0-9][a-z0-9-]*)\/([a-z0-9][a-z0-9-]*)\/practice\/index\.md$/i))) return `content/resources/generated/${m[1]}/${m[2]}/practice/index.md`;
-    // Static page markdown twins
-    if (urlPath === '/index.md') return 'src/pages/index.md';
-    if ((m = urlPath.match(/^\/([a-z0-9][a-z0-9-]*)\.md$/i))) {
-        const candidate = `src/pages/${m[1]}.md`;
-        if (fs.existsSync(candidate)) return candidate;
-    }
-    if ((m = urlPath.match(/^\/([a-z0-9][a-z0-9-]*)\/index\.md$/i))) {
-        const candidate = `src/pages/${m[1]}.md`;
-        if (fs.existsSync(candidate)) return candidate;
-    }
-
     // Blog
     if (urlPath === '/blog') {
         return 'content/blog/generated/index.html';
@@ -193,12 +169,6 @@ function resolveFilePath(url) {
     // Individual course pages
     if (urlPath.startsWith('/courses/')) {
         return urlPath.replace('/courses/', 'content/courses/generated/') + '/index.html';
-    }
-
-    // Resources (parallel to blog/courses)
-    if (urlPath === '/resources') return 'content/resources/generated/index.html';
-    if (urlPath.startsWith('/resources/')) {
-        return urlPath.replace('/resources/', 'content/resources/generated/') + '/index.html';
     }
 
     // Default: try to serve the file directly

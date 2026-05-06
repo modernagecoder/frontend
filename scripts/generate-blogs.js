@@ -11,7 +11,6 @@ const path = require('path');
 // Import SEO configuration and utilities
 const SEO_CONFIG = require('./seo-config.js');
 const seoUtils = require('./seo-utils.js');
-const { blogToMarkdown } = require('./lib/markdown-emitter.js');
 
 class BlogGenerator {
     constructor() {
@@ -237,14 +236,6 @@ class BlogGenerator {
 
         // Write HTML file
         fs.writeFileSync(path.join(blogDir, 'index.html'), html);
-
-        // Write markdown twin for AI agents (Accept: text/markdown)
-        try {
-            const md = blogToMarkdown(blogData);
-            fs.writeFileSync(path.join(blogDir, 'index.md'), md);
-        } catch (e) {
-            console.warn(`  ⚠️  Markdown emission failed for ${slug}: ${e.message}`);
-        }
 
         // Copy CSS files
         const cssFiles = ['style.css', 'responsive.css', 'blog-styles.css', 'share-button.css'];
@@ -1020,37 +1011,6 @@ class BlogGenerator {
         // Write listing page
         const listingPath = path.join(this.generatedDir, 'index.html');
         fs.writeFileSync(listingPath, html);
-
-        // Markdown twin of blog index — sorted by date desc
-        try {
-            const sorted = [...allBlogData].sort((a, b) => {
-                const da = (a.meta && a.meta.date) || '';
-                const db = (b.meta && b.meta.date) || '';
-                return db.localeCompare(da);
-            });
-            const SITE = 'https://learn.modernagecoders.com';
-            let md = '---\n';
-            md += 'title: "Modern Age Coders Blog"\n';
-            md += 'description: "Coding, mathematics, and AI education articles for kids, teens, and adults."\n';
-            md += `canonical: ${SITE}/blog/\n`;
-            md += '---\n\n';
-            md += '# Modern Age Coders Blog\n\n';
-            md += `> ${sorted.length} articles on coding, mathematics, AI, and tech education.\n\n`;
-            for (const b of sorted) {
-                const m = b.meta || {};
-                md += `## [${m.title}](${SITE}/blog/${m.slug}/)\n\n`;
-                if (m.description) md += `${m.description}\n\n`;
-                const facts = [];
-                if (m.date) facts.push(m.date);
-                if (m.category) facts.push(m.category);
-                if (m.readTime) facts.push(m.readTime);
-                if (facts.length) md += `*${facts.join(' · ')}*\n\n`;
-                md += `Markdown: ${SITE}/blog/${m.slug}/index.md\n\n`;
-            }
-            fs.writeFileSync(path.join(this.generatedDir, 'index.md'), md);
-        } catch (e) {
-            console.warn(`  ⚠️  Blog index markdown emission failed: ${e.message}`);
-        }
 
         console.log('  ✅ Blog listing page generated');
     }
