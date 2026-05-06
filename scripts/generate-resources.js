@@ -11,6 +11,7 @@ const path = require('path');
 // Import SEO configuration and utilities
 const SEO_CONFIG = require('./seo-config.js');
 const seoUtils = require('./seo-utils.js');
+const { chapterNotesToMarkdown, chapterPracticeToMarkdown } = require('./lib/markdown-emitter.js');
 
 class ResourceGenerator {
     constructor() {
@@ -220,6 +221,14 @@ class ResourceGenerator {
             fs.mkdirSync(outDir, { recursive: true });
         }
         fs.writeFileSync(path.join(outDir, 'index.html'), html, 'utf8');
+
+        // Markdown twin for AI agents
+        try {
+            const md = chapterNotesToMarkdown(chapterData, meta);
+            fs.writeFileSync(path.join(outDir, 'index.md'), md, 'utf8');
+        } catch (e) {
+            console.warn(`   ⚠️  Markdown emission failed for ${meta.slug}/${chapter.slug}: ${e.message}`);
+        }
     }
 
     /**
@@ -276,6 +285,14 @@ class ResourceGenerator {
             fs.mkdirSync(outDir, { recursive: true });
         }
         fs.writeFileSync(path.join(outDir, 'index.html'), html, 'utf8');
+
+        // Markdown twin for AI agents
+        try {
+            const md = chapterPracticeToMarkdown(chapterData, meta);
+            fs.writeFileSync(path.join(outDir, 'index.md'), md, 'utf8');
+        } catch (e) {
+            console.warn(`   ⚠️  Practice markdown emission failed for ${meta.slug}/${chapter.slug}: ${e.message}`);
+        }
     }
 
     /**

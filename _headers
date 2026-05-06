@@ -5,6 +5,24 @@
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: strict-origin-when-cross-origin
   X-Robots-Tag: index, follow
+  Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# Markdown twins for AI agents — clean text/markdown, kept out of search index
+# to avoid duplicate-content signals against the canonical HTML page.
+/*.md
+  Content-Type: text/markdown; charset=utf-8
+  X-Robots-Tag: noindex, follow
+  Content-Signal: ai-train=yes, search=yes, ai-input=yes
+  Cache-Control: public, max-age=3600
+  Vary: Accept
+
+/llms.txt
+  Content-Type: text/markdown; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/llms-full.txt
+  Content-Type: text/markdown; charset=utf-8
+  Cache-Control: public, max-age=3600
 
 # Cache static assets
 /*.css

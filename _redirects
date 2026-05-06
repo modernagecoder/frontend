@@ -63,6 +63,12 @@
 /resources/:lang/:chapter/index.md /content/resources/generated/:lang/:chapter/index.md 200
 /resources/:lang/:chapter/practice/index.md /content/resources/generated/:lang/:chapter/practice/index.md 200
 
+# Markdown twins for static pages (homepage, pricing, about, FAQ, city pages, school pages, …)
+# Resolve to the generated `.md` next to each `.html` in `src/pages/`.
+/index.md /src/pages/index.md 200
+/:slug.md /src/pages/:slug.md 200
+/:slug/index.md /src/pages/:slug.md 200
+
 /blog /content/blog/generated/index.html 200
 /success-stories /src/pages/success-stories.html 200
 /free-resources /src/pages/free-resources.html 200
