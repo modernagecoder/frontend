@@ -11,6 +11,7 @@ const path = require('path');
 // Import SEO configuration and utilities
 const SEO_CONFIG = require('./seo-config.js');
 const seoUtils = require('./seo-utils.js');
+const { blogToMarkdown } = require('./lib/markdown-emitter.js');
 
 class BlogGenerator {
     constructor() {
@@ -236,6 +237,14 @@ class BlogGenerator {
 
         // Write HTML file
         fs.writeFileSync(path.join(blogDir, 'index.html'), html);
+
+        // Write markdown twin for AI agents (Accept: text/markdown crawlers + alt-link probes)
+        try {
+            const md = blogToMarkdown(blogData);
+            fs.writeFileSync(path.join(blogDir, 'index.md'), md);
+        } catch (e) {
+            console.warn(`  ⚠️  Markdown emission failed for ${slug}: ${e.message}`);
+        }
 
         // Copy CSS files
         const cssFiles = ['style.css', 'responsive.css', 'blog-styles.css', 'share-button.css'];

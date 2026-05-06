@@ -7,6 +7,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { courseToMarkdown } = require('./lib/markdown-emitter.js');
 
 class CourseGenerator {
     constructor() {
@@ -171,6 +172,14 @@ class CourseGenerator {
                     // Generate HTML
                     const html = this.populateTemplate(template, courseData, courseDir);
                     fs.writeFileSync(path.join(courseDir, 'index.html'), html);
+
+                    // Markdown twin for AI agents
+                    try {
+                        const md = courseToMarkdown(courseData);
+                        fs.writeFileSync(path.join(courseDir, 'index.md'), md);
+                    } catch (e) {
+                        console.warn(`  ⚠️  Markdown emission failed for ${slug}: ${e.message}`);
+                    }
 
                     successCount++;
                     console.log(`✅ Successfully generated: ${slug}`);
