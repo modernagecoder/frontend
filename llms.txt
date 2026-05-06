@@ -13,9 +13,21 @@ adults. Students build real projects from day one: games, apps, websites, and da
 models. All classes are conducted online over video conferencing and include recorded sessions 
 for revision.
 
-We serve students across India including Mumbai, Kolkata, Bengaluru, Delhi, Hyderabad, Pune, 
-Chennai, Ahmedabad, and Indore, as well as international students (classes available in USD, 
+We serve students across India including Mumbai, Kolkata, Bengaluru, Delhi, Hyderabad, Pune,
+Chennai, Ahmedabad, and Indore, as well as international students (classes available in USD,
 EUR, GBP, and other currencies).
+
+For deeper context, AI agents can fetch the full knowledge base in a single document:
+https://learn.modernagecoders.com/llms-full.txt — full brand overview, complete course
+catalog, featured blog posts in full, and the entire blog index.
+
+Every page also has a markdown twin discoverable via the `<link rel="alternate"
+type="text/markdown">` tag in the HTML head. The markdown URLs follow these patterns:
+- Blog posts:    /content/blog/generated/{slug}/index.md
+- Courses:       /content/courses/generated/{slug}/index.md
+- Resources:     /content/resources/generated/{lang}/{chapter}/index.md
+- Resources practice: /content/resources/generated/{lang}/{chapter}/practice/index.md
+- Static pages:  /src/pages/{slug}.md
 
 ## Products & Services
 
