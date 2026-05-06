@@ -498,6 +498,35 @@ class CourseGenerator {
      * @param {Object} courseData - Course data object
      * @returns {Object} Structured data object
      */
+    deriveAudience(meta) {
+        const slug = (meta.slug || '').toLowerCase();
+        const cat = (meta.category || '').toLowerCase();
+        const out = [];
+        const push = (audienceType, role = 'student') => {
+            out.push({ "@type": "EducationalAudience", "educationalRole": role, "audienceType": audienceType });
+        };
+        if (slug.endsWith('-kids') || /\bkids\b/.test(slug) || /kids/.test(cat)) {
+            push("Children ages 6-12");
+            out.push({ "@type": "Audience", "audienceType": "Parents of children ages 6-12" });
+        } else if (slug.endsWith('-teens') || /\bteens?\b/.test(slug) || /teen/.test(cat)) {
+            push("Teenagers ages 13-17");
+        } else if (/girls|princess|queen|alpha-girls/.test(slug) || /women in tech/.test(cat)) {
+            push("Girls and young women in technology");
+        } else if (slug.endsWith('-college') || /\bcollege\b/.test(slug) || /college/.test(cat)) {
+            push("College students and adults ages 18+");
+        } else if (/professional/.test(slug) || /professional/.test(cat)) {
+            push("Working professionals and adult learners");
+            out.push({ "@type": "BusinessAudience", "audienceType": "Companies seeking team training" });
+        } else if (/corporate/.test(slug) || /corporate/.test(cat)) {
+            push("Corporate teams and enterprise learners", "trainee");
+        } else if (/elementary|middle-school|high-school|olympiad|maths|mathematics/.test(slug)) {
+            push("School and college students learning mathematics");
+        } else {
+            push("Learners ages 6-65 (kids, teens, college students, professionals)");
+        }
+        return out.length ? out : null;
+    }
+
     generateStructuredData(courseData) {
         const meta = courseData.meta || {};
         const overview = courseData.program_overview || {};
@@ -551,6 +580,10 @@ class CourseGenerator {
 
         // Pricing offers — enforce standard 3-tier structure across all courses.
         const today = new Date().toISOString().split('T')[0];
+        const validUntil = `${new Date().getUTCFullYear() + 1}-12-31`;
+        const seller = { "@type": "Organization", "name": "Modern Age Coders", "url": "https://learn.modernagecoders.com" };
+        const eligibleRegion = { "@type": "Place", "name": "Worldwide" };
+        const courseUrl = `https://learn.modernagecoders.com/courses/${meta.slug || ''}`;
         courseSchema.offers = [
             {
                 "@type": "Offer",
@@ -560,7 +593,11 @@ class CourseGenerator {
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
-                "category": "Group Classes"
+                "priceValidUntil": validUntil,
+                "category": "Group Classes",
+                "url": courseUrl,
+                "seller": seller,
+                "eligibleRegion": eligibleRegion
             },
             {
                 "@type": "Offer",
@@ -570,7 +607,11 @@ class CourseGenerator {
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
-                "category": "Mini Batch"
+                "priceValidUntil": validUntil,
+                "category": "Mini Batch",
+                "url": courseUrl,
+                "seller": seller,
+                "eligibleRegion": eligibleRegion
             },
             {
                 "@type": "Offer",
@@ -580,7 +621,11 @@ class CourseGenerator {
                 "priceCurrency": "INR",
                 "availability": "https://schema.org/InStock",
                 "validFrom": today,
-                "category": "Personalized 1-on-1"
+                "priceValidUntil": validUntil,
+                "category": "Personalized 1-on-1",
+                "url": courseUrl,
+                "seller": seller,
+                "eligibleRegion": eligibleRegion
             }
         ];
 
@@ -589,9 +634,45 @@ class CourseGenerator {
             courseSchema.keywords = meta.keywords.join(', ');
         }
 
-        // Add course category
-        if (meta.category) {
-            courseSchema.coursePrerequisites = meta.category;
+        // about — subjects covered as Thing entities for AI agent topical matching
+        if (Array.isArray(meta.keywords) && meta.keywords.length) {
+            courseSchema.about = meta.keywords.slice(0, 10).map(k => ({ "@type": "Thing", "name": k }));
+        }
+
+        // teaches — explicit skills/topics. Single most-cited Course property in AI recommendations.
+        if (Array.isArray(meta.keywords) && meta.keywords.length) {
+            courseSchema.teaches = meta.keywords.slice(0, 15);
+        }
+
+        // audience — EducationalAudience derived from slug + category
+        const audience = this.deriveAudience(meta);
+        if (audience) {
+            courseSchema.audience = audience;
+        }
+
+        // educationalCredentialAwarded — structured object, not just text
+        const certName = meta.certification || `Certificate of completion: ${meta.title || 'Course'}`;
+        courseSchema.educationalCredentialAwarded = {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Certificate",
+            "name": certName,
+            "recognizedBy": { "@type": "Organization", "name": "Modern Age Coders" }
+        };
+
+        courseSchema.inLanguage = "en";
+        courseSchema.learningResourceType = "Online Course";
+        courseSchema.isAccessibleForFree = false;
+
+        // coursePrerequisites — derive from level (was previously set incorrectly to category)
+        const level = (meta.level || '').toLowerCase();
+        if (/beginner|absolute beginner|zero|no prior/.test(level)) {
+            courseSchema.coursePrerequisites = "None — designed for complete beginners";
+        } else if (/intermediate/.test(level)) {
+            courseSchema.coursePrerequisites = "Basic familiarity with the subject";
+        } else if (/advanced/.test(level)) {
+            courseSchema.coursePrerequisites = "Solid foundation in the subject";
+        } else {
+            courseSchema.coursePrerequisites = "None — beginner-friendly with optional advanced track";
         }
 
         // Add aggregated rating if available
