@@ -98,6 +98,14 @@
   to = "/src/admin/:splat"
   status = 200
 
+# Resources sitemap — exposed at clean URL so robots.txt can reference it.
+# Generator emits 358 chapter+practice URLs into the file below; this rewrite
+# makes them discoverable to Google without trailing-slash drift.
+[[redirects]]
+  from = "/sitemap-resources.xml"
+  to = "/content/resources/generated/sitemap-entries.xml"
+  status = 200
+
 # Lovewall assets (built files)
 [[redirects]]
   from = "/assets/*"
@@ -1515,6 +1523,30 @@
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Robots-Tag = "index, follow"
+    Content-Signal = "ai-train=yes, search=yes, ai-input=yes"
+
+# Markdown twins for AI agents — text/markdown content type. Kept out of
+# search index to avoid duplicate-content signals against the canonical HTML.
+[[headers]]
+  for = "/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    X-Robots-Tag = "noindex, follow"
+    Content-Signal = "ai-train=yes, search=yes, ai-input=yes"
+    Cache-Control = "public, max-age=3600"
+    Vary = "Accept"
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/llms-full.txt"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    Cache-Control = "public, max-age=3600"
 
 # Cache static assets
 [[headers]]

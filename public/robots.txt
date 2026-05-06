@@ -50,8 +50,9 @@ Allow: /best-coding-classes-online
 Allow: /ai-ml-course-for-teens
 Allow: /java-programming-for-kids-teens
 
-# Sitemap location
+# Sitemap locations
 Sitemap: https://learn.modernagecoders.com/sitemap.xml
+Sitemap: https://learn.modernagecoders.com/sitemap-resources.xml
 
 # Crawl delay (be nice to servers)
 Crawl-delay: 1
