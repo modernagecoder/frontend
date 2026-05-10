@@ -1986,7 +1986,11 @@
         }
 
         function validatePhone(phone) {
-            return /^[0-9]{10}$/.test(phone.replace(/\s/g, ''));
+            const cleaned = (phone || '').replace(/\D/g, '');
+            const phoneEl = document.getElementById('phone');
+            const iso = (phoneEl && phoneEl.dataset && phoneEl.dataset.countryIso) || 'IN';
+            const re = iso === 'IN' ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+            return re.test(cleaned);
         }
 
         function showError(fieldId, message) {
@@ -2563,6 +2567,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
+    <script src="/js/country-code-selector.js" defer></script>
 </body>
 
 </html>

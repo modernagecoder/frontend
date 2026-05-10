@@ -193,20 +193,25 @@ const CoursePayment = {
   processPayment: async function(planType, amount) {
     const name = document.getElementById('pay-name').value.trim();
     const email = document.getElementById('pay-email').value.trim();
-    const phone = document.getElementById('pay-phone').value.trim();
-    
+    const phoneEl = document.getElementById('pay-phone');
+    const phone = phoneEl.value.trim();
+
     // Validate
     if (!name || !email || !phone) {
       alert('Please fill all fields');
       return;
     }
-    
-    // Detect international user for phone validation
-    const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
-    const phoneRegex = isIndian ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
-    const phoneMsg = isIndian ? 'Please enter a valid 10-digit phone number' : 'Please enter a valid phone number (7-15 digits)';
-    
-    if (!phoneRegex.test(phone)) {
+
+    const ccInfo = (window.MACCountryCode && window.MACCountryCode.read)
+      ? window.MACCountryCode.read(phoneEl)
+      : { dial: '+91', iso: 'IN', name: 'India' };
+
+    // Validate phone against the chosen country.
+    const isIndia = ccInfo.iso === 'IN';
+    const phoneRegex = isIndia ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+    const phoneMsg = isIndia ? 'Please enter a valid 10-digit phone number' : 'Please enter a valid phone number (7-15 digits)';
+
+    if (!phoneRegex.test(phone.replace(/\D/g, ''))) {
       alert(phoneMsg);
       return;
     }
@@ -219,6 +224,7 @@ const CoursePayment = {
       
       // Determine currency and amount for international users.
       // Mini Batch has no USD price — it's India-only; foreign users are blocked earlier.
+      const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : (ccInfo.iso === 'IN');
       const intlPrices = { group: 40, personal: 100, lifetime: 599 };
       const intlDisplayPrices = { group: '$40/month', personal: '$100/month', lifetime: '$599' };
       const finalAmount = isIndian ? amount : (intlPrices[planType] || amount);
@@ -238,7 +244,10 @@ const CoursePayment = {
           productName: `${this.courseName} - ${this.getPlanName(planType)}`,
           customerName: name,
           customerEmail: email,
-          customerPhone: phone
+          customerPhone: phone,
+          customerCountryCode: ccInfo.dial,
+          customerCountryIso: ccInfo.iso,
+          customerCountryName: ccInfo.name
         })
       });
       

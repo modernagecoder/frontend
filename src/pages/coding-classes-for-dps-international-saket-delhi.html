@@ -2257,9 +2257,11 @@ A verified certificate from Modern Age Coders acts as a stellar cornerstone for 
         }
 
         function validatePhone(phone) {
-            const re = /^[0-9]{10}$/;
-            const cleaned = phone.replace(/\s/g, '');
-            return re.test(cleaned);
+            const cleaned = (phone || '').replace(/\D/g, '');
+            const _ccEl = document.getElementById('contactPhone') || document.getElementById('phone') || document.querySelector('input[type="tel"][data-country-iso]');
+            const _iso = (_ccEl && _ccEl.dataset && _ccEl.dataset.countryIso) || 'IN';
+            const _re = _iso === 'IN' ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+            return _re.test(cleaned);
         }
 
         function showError(fieldId, message) {
@@ -2554,6 +2556,7 @@ A verified certificate from Modern Age Coders acts as a stellar cornerstone for 
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
+    <script src="/js/country-code-selector.js" defer></script>
 </body>
 
 </html>

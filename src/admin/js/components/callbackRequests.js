@@ -45,6 +45,7 @@ const CallbackRequestsComponent = {
                 <table class="data-table" id="callbackTable">
                     <thead>
                         <tr>
+                            <th>Country</th>
                             <th>Phone Number</th>
                             <th>Status</th>
                             <th>Requested At</th>
@@ -55,7 +56,7 @@ const CallbackRequestsComponent = {
                     </thead>
                     <tbody id="callbackTableBody">
                         <tr>
-                            <td colspan="6" class="loading-cell">Loading...</td>
+                            <td colspan="7" class="loading-cell">Loading...</td>
                         </tr>
                     </tbody>
                 </table>
@@ -131,15 +132,20 @@ const CallbackRequestsComponent = {
         if (!tbody) return;
         
         if (!requests || requests.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="6" class="empty-cell">No callback requests found</td></tr>';
+            tbody.innerHTML = '<tr><td colspan="7" class="empty-cell">No callback requests found</td></tr>';
             return;
         }
-        
-        tbody.innerHTML = requests.map(req => `
+
+        tbody.innerHTML = requests.map(req => {
+            const dial = req.countryCode || '+91';
+            const iso = req.countryIso || 'IN';
+            const cName = req.countryName || 'India';
+            return `
             <tr data-id="${req._id}">
+                <td title="${cName} (${iso})">${cName} <small>(${iso})</small></td>
                 <td>
-                    <a href="tel:${req.phone}" class="phone-link">
-                        📱 ${this.formatPhone(req.phone)}
+                    <a href="tel:${dial}${req.phone}" class="phone-link">
+                        📱 ${dial} ${this.formatPhone(req.phone)}
                     </a>
                 </td>
                 <td>
@@ -168,7 +174,8 @@ const CallbackRequestsComponent = {
                     </div>
                 </td>
             </tr>
-        `).join('');
+        `;
+        }).join('');
     },
     
     // Render pagination

@@ -291,7 +291,8 @@ const SummerCampEnrollment = {
   async processPayment() {
     const name = document.getElementById('sc-name').value.trim();
     const email = document.getElementById('sc-email').value.trim();
-    const phone = document.getElementById('sc-phone').value.trim();
+    const phoneEl = document.getElementById('sc-phone');
+    const phone = phoneEl.value.trim();
 
     // Validate
     if (!name || !email || !phone) {
@@ -299,9 +300,14 @@ const SummerCampEnrollment = {
       return;
     }
 
-    const phoneRegex = this.isIndian() ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
-    const phoneMsg = this.isIndian() ? 'Please enter a valid 10-digit phone number' : 'Please enter a valid phone number (7-15 digits)';
-    if (!phoneRegex.test(phone)) {
+    const ccInfo = (window.MACCountryCode && window.MACCountryCode.read)
+      ? window.MACCountryCode.read(phoneEl)
+      : { dial: '+91', iso: 'IN', name: 'India' };
+    const isIndia = ccInfo.iso === 'IN';
+
+    const phoneRegex = isIndia ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+    const phoneMsg = isIndia ? 'Please enter a valid 10-digit phone number' : 'Please enter a valid phone number (7-15 digits)';
+    if (!phoneRegex.test(phone.replace(/\D/g, ''))) {
       alert(phoneMsg);
       return;
     }
@@ -324,7 +330,10 @@ const SummerCampEnrollment = {
           productName: this.courseName,
           customerName: name,
           customerEmail: email,
-          customerPhone: phone
+          customerPhone: phone,
+          customerCountryCode: ccInfo.dial,
+          customerCountryIso: ccInfo.iso,
+          customerCountryName: ccInfo.name
         })
       });
 

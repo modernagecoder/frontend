@@ -49,6 +49,7 @@ async function loadContacts() {
               <th>Name</th>
               <th>Email</th>
               <th>Phone</th>
+              <th>Country</th>
               <th>Status</th>
               <th>Date</th>
               <th>Actions</th>
@@ -60,7 +61,8 @@ async function loadContacts() {
                 <td><input type="checkbox" class="contact-checkbox" value="${contact._id}"></td>
                 <td>${contact.name}</td>
                 <td>${contact.email}</td>
-                <td>${contact.contact}</td>
+                <td>${(contact.countryCode || '+91')} ${contact.contact}</td>
+                <td>${contact.countryName || 'India'} ${contact.countryIso ? `(${contact.countryIso})` : ''}</td>
                 <td><span class="badge badge-${contact.status}">${capitalizeFirst(contact.status)}</span></td>
                 <td>${formatDateShort(contact.submittedAt)}</td>
                 <td>
@@ -207,10 +209,12 @@ async function deleteContact(id) {
 function exportContacts() {
   try {
     const csv = [
-      ['Name', 'Email', 'Phone', 'Message', 'Status', 'Submitted Date', 'Notes'].join(','),
+      ['Name', 'Email', 'Country', 'Country Code', 'Phone', 'Message', 'Status', 'Submitted Date', 'Notes'].join(','),
       ...contactsData.map(c => [
         c.name,
         c.email,
+        c.countryName || 'India',
+        c.countryCode || '+91',
         c.contact,
         `"${(c.message || '').replace(/"/g, '""')}"`,
         c.status,
@@ -246,7 +250,8 @@ async function viewContact(id) {
       <div class="modal-body">
         <p><strong>Name:</strong> ${contact.name}</p>
         <p><strong>Email:</strong> ${contact.email}</p>
-        <p><strong>Phone:</strong> ${contact.contact}</p>
+        <p><strong>Phone:</strong> ${contact.countryCode || '+91'} ${contact.contact}</p>
+        <p><strong>Country:</strong> ${contact.countryName || 'India'} ${contact.countryIso ? `(${contact.countryIso})` : ''}</p>
         <p><strong>Message:</strong> ${contact.message}</p>
         <p><strong>Status:</strong> <span class="badge badge-${contact.status}">${capitalizeFirst(contact.status)}</span></p>
         <p><strong>Submitted:</strong> ${formatDate(contact.submittedAt)}</p>

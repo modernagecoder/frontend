@@ -3643,10 +3643,13 @@
                 return re.test(email);
             }
 
-            // Validate phone number (10 digits)
+            // Validate phone number — India keeps the strict 10-digit rule;
+            // for any other country picked in the dropdown allow 7–15 digits.
             function validatePhone(phone) {
-                const re = /^[0-9]{10}$/;
-                const cleaned = phone.replace(/\s/g, '');
+                const cleaned = (phone || '').replace(/\D/g, '');
+                const phoneEl = document.getElementById('contactPhone');
+                const iso = (phoneEl && phoneEl.dataset && phoneEl.dataset.countryIso) || 'IN';
+                const re = iso === 'IN' ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
                 return re.test(cleaned);
             }
 
@@ -4516,6 +4519,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
+    <script src="/js/country-code-selector.js" defer></script>
 </body>
 
 </html>

@@ -806,7 +806,7 @@
             </div>
 
             <div class="input-group">
-                <input type="tel" id="answer-input" placeholder="?" autocomplete="off">
+                <input type="tel" id="answer-input" placeholder="?" autocomplete="off" data-no-country-code>
             </div>
 
             <button class="btn btn-ghost" onclick="skipQuestion()">Skip (-5 Pts & Reset Combo)</button>
@@ -1381,6 +1381,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
+    <script src="/js/country-code-selector.js" defer></script>
 </body>
 
 </html>

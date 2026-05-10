@@ -1475,6 +1475,8 @@
                         name: formData.get('name'),
                         email: formData.get('email'),
                         phone: formData.get('phone'),
+                        countryCode: formData.get('countryCode') || '+91',
+                        countryIso: formData.get('countryIso') || 'IN',
                         organization: formData.get('organization'),
                         service: formData.get('service'),
                         budget: formData.get('budget') || '',
@@ -1603,6 +1605,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
+    <script src="/js/country-code-selector.js" defer></script>
 </body>
 
 </html>

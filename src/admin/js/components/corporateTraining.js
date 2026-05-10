@@ -59,6 +59,7 @@ async function loadCorporateTraining() {
               <th>Name</th>
               <th>Email</th>
               <th>Phone</th>
+              <th>Country</th>
               <th>Type</th>
               <th>Training Area</th>
               <th>Status</th>
@@ -72,7 +73,8 @@ async function loadCorporateTraining() {
                 <td><input type="checkbox" class="corporate-checkbox" value="${training._id}"></td>
                 <td>${training.fullName}</td>
                 <td>${training.email}</td>
-                <td>${training.phone}</td>
+                <td>${(training.countryCode || '+91')} ${training.phone}</td>
+                <td>${training.countryName || 'India'} ${training.countryIso ? `(${training.countryIso})` : ''}</td>
                 <td><span class="badge badge-info">${formatTrainingType(training.trainingType)}</span></td>
                 <td>${formatTrainingArea(training.trainingArea)}</td>
                 <td><span class="badge badge-${training.status}">${capitalizeFirst(training.status)}</span></td>

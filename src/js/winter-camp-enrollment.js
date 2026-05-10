@@ -217,13 +217,19 @@ const WinterCampEnrollment = {
     async processPayment() {
         const name  = document.getElementById('wc-name').value.trim();
         const email = document.getElementById('wc-email').value.trim();
-        const phone = document.getElementById('wc-phone').value.trim();
+        const phoneEl = document.getElementById('wc-phone');
+        const phone = phoneEl.value.trim();
 
         if (!name || !email || !phone) { alert('Please fill all fields'); return; }
 
-        const phoneRegex = this.isIndian() ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
-        if (!phoneRegex.test(phone)) {
-            alert(this.isIndian() ? 'Please enter a valid 10-digit phone number' : 'Please enter a valid phone number');
+        const ccInfo = (window.MACCountryCode && window.MACCountryCode.read)
+            ? window.MACCountryCode.read(phoneEl)
+            : { dial: '+91', iso: 'IN', name: 'India' };
+        const isIndia = ccInfo.iso === 'IN';
+
+        const phoneRegex = isIndia ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+        if (!phoneRegex.test(phone.replace(/\D/g, ''))) {
+            alert(isIndia ? 'Please enter a valid 10-digit phone number' : 'Please enter a valid phone number');
             return;
         }
 
@@ -243,7 +249,10 @@ const WinterCampEnrollment = {
                     productName: this.courseName,
                     customerName: name,
                     customerEmail: email,
-                    customerPhone: phone
+                    customerPhone: phone,
+                    customerCountryCode: ccInfo.dial,
+                    customerCountryIso: ccInfo.iso,
+                    customerCountryName: ccInfo.name
                 })
             });
 

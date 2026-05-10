@@ -63,6 +63,7 @@ async function loadBusinessSolutions() {
               <th>Organization</th>
               <th>Email</th>
               <th>Phone</th>
+              <th>Country</th>
               <th>Service</th>
               <th>Budget</th>
               <th>Status</th>
@@ -77,7 +78,8 @@ async function loadBusinessSolutions() {
                 <td>${inquiry.name}</td>
                 <td>${inquiry.organization}</td>
                 <td>${inquiry.email}</td>
-                <td>${inquiry.phone}</td>
+                <td>${(inquiry.countryCode || '+91')} ${inquiry.phone}</td>
+                <td>${inquiry.countryName || 'India'} ${inquiry.countryIso ? `(${inquiry.countryIso})` : ''}</td>
                 <td><span class="badge badge-info">${formatServiceType(inquiry.service)}</span></td>
                 <td>${formatBudget(inquiry.budget)}</td>
                 <td><span class="badge badge-${inquiry.status}">${capitalizeFirst(inquiry.status)}</span></td>

@@ -1034,7 +1034,11 @@
         }
 
         function validatePhone(phone) {
-            return /^[0-9]{10}$/.test(phone.replace(/\s/g, ''));
+            const cleaned = (phone || '').replace(/\D/g, '');
+            const _ccEl = document.getElementById('contactPhone') || document.getElementById('phone') || document.querySelector('input[type="tel"][data-country-iso]');
+            const _iso = (_ccEl && _ccEl.dataset && _ccEl.dataset.countryIso) || 'IN';
+            const _re = _iso === 'IN' ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+            return _re.test(cleaned);
         }
 
         function showError(fieldId, message) {
@@ -1095,16 +1099,33 @@
             e.preventDefault();
             clearError('email'); clearError('phone'); clearError('message');
 
+            const phoneEl = document.getElementById('phone');
+            const ccInfo = (window.MACCountryCode && window.MACCountryCode.read)
+                ? window.MACCountryCode.read(phoneEl)
+                : { dial: '+91', iso: 'IN', name: 'India' };
             const formData = {
                 name: document.getElementById('name').value.trim(),
                 email: document.getElementById('email').value.trim(),
-                contact: document.getElementById('phone').value.trim(),
+                contact: phoneEl.value.trim(),
+                countryCode: ccInfo.dial,
+                countryIso: ccInfo.iso,
+                countryName: ccInfo.name,
                 message: document.getElementById('message').value.trim()
             };
 
             let hasErrors = false;
             if (!validateEmail(formData.email)) { showError('email', 'Please enter a valid email'); hasErrors = true; }
-            if (!validatePhone(formData.contact)) { showError('phone', 'Please enter a valid 10-digit number'); hasErrors = true; }
+            // For India keep the strict 10-digit rule; for other countries allow 7-15 digits.
+            const phoneDigits = (formData.contact || '').replace(/\D/g, '');
+            const indianRule = formData.countryIso === 'IN' ? phoneDigits.length === 10 : true;
+            const intlRule = phoneDigits.length >= 7 && phoneDigits.length <= 15;
+            if (!intlRule || !indianRule) {
+                const msg = formData.countryIso === 'IN'
+                    ? 'Please enter a valid 10-digit number'
+                    : 'Please enter a valid phone number';
+                showError('phone', msg);
+                hasErrors = true;
+            }
             if (formData.message.length < 10) { showError('message', 'Please enter at least 10 characters'); hasErrors = true; }
             if (hasErrors) return;
 
@@ -1580,6 +1601,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
+    <script src="/js/country-code-selector.js" defer></script>
 </body>
 
 </html>

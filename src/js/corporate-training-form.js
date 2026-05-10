@@ -158,12 +158,15 @@ document.addEventListener('DOMContentLoaded', function () {
         updateFormFields();
     }
 
-    // Phone number formatting (digits only, max 10)
+    // Phone number formatting (digits only). Cap length based on the
+    // country picked in the country-code dropdown — 10 for India, 15 elsewhere.
     var phoneInput = document.getElementById('phone');
     if (phoneInput) {
         phoneInput.addEventListener('input', function (e) {
+            var iso = e.target.dataset.countryIso || 'IN';
+            var max = iso === 'IN' ? 10 : 15;
             var value = e.target.value.replace(/\D/g, '');
-            if (value.length > 10) value = value.slice(0, 10);
+            if (value.length > max) value = value.slice(0, max);
             e.target.value = value;
         });
     }

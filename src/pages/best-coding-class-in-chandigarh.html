@@ -2377,7 +2377,13 @@
         const API_BASE_URL = API_CONFIG.getBaseURL();
 
         function validateEmail(email) { return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email); }
-        function validatePhone(phone) { return /^[0-9]{10}$/.test(phone.replace(/\s/g, '')); }
+        function validatePhone(phone) {
+            const cleaned = (phone || '').replace(/\D/g, '');
+            const _ccEl = document.getElementById('contactPhone') || document.getElementById('phone') || document.querySelector('input[type="tel"][data-country-iso]');
+            const _iso = (_ccEl && _ccEl.dataset && _ccEl.dataset.countryIso) || 'IN';
+            const _re = _iso === 'IN' ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+            return _re.test(cleaned);
+        }
         function showFeedback(type, message) { const el = document.getElementById('formFeedback'); el.style.display = 'block'; el.style.background = type === 'success' ? 'rgba(16, 185, 129, 0.15)' : 'rgba(239, 68, 68, 0.15)'; el.style.border = type === 'success' ? '1px solid #10b981' : '1px solid #ef4444'; el.style.color = type === 'success' ? '#10b981' : '#ef4444'; el.querySelector('.feedback-message').textContent = message; setTimeout(() => { el.style.display = 'none'; }, 8000); }
         function showLoading(isLoading) { const btn = document.querySelector('.submit-button'); if (!btn) return; btn.disabled = isLoading; btn.style.opacity = isLoading ? '0.7' : '1'; }
 
@@ -2452,6 +2458,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
+    <script src="/js/country-code-selector.js" defer></script>
 </body>
 
 </html>

@@ -915,7 +915,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(err)return;
     setLoad(true);
     const full=msg+(age?` | Age: ${age}`:'')+( track?` | Track: ${track}`:'')+' | [Source: AI ML Course for Teens Page]';
-    try{const r=await fetch(`${BASE}/api/contact/submit`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,email,contact:phone,message:full})});const d=await r.json();if(r.ok){showFB('ok','We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');frm.reset();}else throw new Error(d.message);}
+    const cc=(window.MACCountryCode&&window.MACCountryCode.read)?window.MACCountryCode.read(document.getElementById('cPhone')):{dial:'+91',iso:'IN',name:'India'};
+    try{const r=await fetch(`${BASE}/api/contact/submit`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,email,contact:phone,countryCode:cc.dial,countryIso:cc.iso,countryName:cc.name,message:full})});const d=await r.json();if(r.ok){showFB('ok','We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');frm.reset();}else throw new Error(d.message);}
     catch{showFB('err','Something went wrong. Please call 9123366161 or WhatsApp us directly.');}
     finally{setLoad(false);}
   });
@@ -928,5 +929,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 </main>
 </div>
+    <script src="/js/country-code-selector.js" defer></script>
 </body>
 </html>

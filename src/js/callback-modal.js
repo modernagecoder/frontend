@@ -40,9 +40,16 @@ window.submitCallback = function(e) {
     var btn = document.getElementById('callbackSubmitBtn');
     var form = document.getElementById('callbackForm');
     var success = document.getElementById('callbackSuccessMsg');
-    
-    if (phone.length !== 10) {
-        alert('Please enter a valid 10-digit phone number');
+
+    var ccInfo = (window.MACCountryCode && window.MACCountryCode.read)
+        ? window.MACCountryCode.read(phoneInput)
+        : { dial: '+91', iso: 'IN', name: 'India' };
+
+    var isIndia = ccInfo.iso === 'IN';
+    if ((isIndia && phone.length !== 10) || (!isIndia && (phone.length < 7 || phone.length > 15))) {
+        alert(isIndia
+            ? 'Please enter a valid 10-digit phone number'
+            : 'Please enter a valid phone number (7-15 digits)');
         return;
     }
     
@@ -57,7 +64,12 @@ window.submitCallback = function(e) {
     fetch(API_URL + '/api/callback/request', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ phone: phone })
+        body: JSON.stringify({
+            phone: phone,
+            countryCode: ccInfo.dial,
+            countryIso: ccInfo.iso,
+            countryName: ccInfo.name
+        })
     })
     .then(function(response) { return response.json(); })
     .then(function(data) {
@@ -102,7 +114,9 @@ document.addEventListener('keydown', function(e) {
 
 document.addEventListener('input', function(e) {
     if (e.target && e.target.id === 'callbackPhoneInput') {
-        e.target.value = e.target.value.replace(/[^0-9]/g, '').slice(0, 10);
+        var iso = e.target.dataset.countryIso || 'IN';
+        var max = iso === 'IN' ? 10 : 15;
+        e.target.value = e.target.value.replace(/[^0-9]/g, '').slice(0, max);
     }
 });
 
