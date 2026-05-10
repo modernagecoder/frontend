@@ -430,6 +430,70 @@
             letter-spacing: 0.06em;
         }
 
+        /* Two-line hackathon pricing — clear "FREE to join" + "PREP ₹1,499/mo" */
+        .hackathon-pricing {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin: 0.5rem 0 1rem;
+            padding: 0.75rem 0.9rem;
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.10), rgba(239, 68, 68, 0.08));
+            border: 1.5px solid rgba(245, 158, 11, 0.45);
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.16);
+        }
+        .hackathon-pricing-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.88rem;
+            color: #f1f5f9;
+            line-height: 1.35;
+        }
+        .hackathon-pricing-text { flex: 1; }
+        .hackathon-pricing-text strong {
+            color: #fbbf24;
+            font-weight: 800;
+            white-space: nowrap;
+        }
+        .hackathon-pricing-tag {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 54px;
+            padding: 4px 10px;
+            font-size: 0.68rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            color: #ffffff;
+            border-radius: 999px;
+            text-transform: uppercase;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .hackathon-pricing-free .hackathon-pricing-tag {
+            background: linear-gradient(135deg, #10b981 0%, #22c55e 100%);
+            box-shadow: 0 3px 10px rgba(34, 197, 94, 0.45);
+        }
+        .hackathon-pricing-tag-prep {
+            background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+            box-shadow: 0 3px 10px rgba(239, 68, 68, 0.4);
+        }
+        .hackathon-pricing-free {
+            font-weight: 600;
+            color: #ffffff;
+        }
+        .hackathon-pricing-prep {
+            color: #cbd5e1;
+            font-size: 0.82rem;
+        }
+
+        @media (max-width: 480px) {
+            .hackathon-pricing { padding: 0.65rem 0.75rem; gap: 6px; }
+            .hackathon-pricing-row { font-size: 0.82rem; }
+            .hackathon-pricing-tag { min-width: 48px; font-size: 0.62rem; padding: 3px 8px; }
+        }
+
         /* Override the CTA on hackathon cards */
         .hackathon-card .start-learning-btn {
             background: linear-gradient(135deg, #ef4444 0%, #f59e0b 50%, #ef4444 100%);
@@ -2004,12 +2068,32 @@
                 const imagePath = `/images/${course.imageUrl || 'default-course.png'}`;
                 const isIndian = window.__MAC_IS_INDIAN !== false;
                 const priceAmount = isIndian ? '₹1,499' : '$40';
+                const prepPrice = isIndian ? '₹1,499/month' : '$40/month';
                 const isHackathon = course.isHackathon === true;
                 const cardClass = isHackathon ? 'course-card-minimal hackathon-card' : 'course-card-minimal';
                 const ribbon = isHackathon
-                    ? `<div class="hackathon-ribbon"><span class="hackathon-ribbon-dot"></span>FREE HACKATHON · LIVE</div>`
+                    ? `<div class="hackathon-ribbon"><span class="hackathon-ribbon-dot"></span>FREE TO JOIN · LIVE</div>`
                     : '';
-                const buttonLabel = isHackathon ? 'Join Hackathon' : 'Start Learning';
+                const buttonLabel = isHackathon ? 'Register Free →' : 'Start Learning';
+                const pricingBlock = isHackathon
+                    ? `
+                        <div class="hackathon-pricing" aria-label="Hackathon pricing breakdown">
+                            <div class="hackathon-pricing-row hackathon-pricing-free">
+                                <span class="hackathon-pricing-tag">FREE</span>
+                                <span class="hackathon-pricing-text">Hackathon registration &amp; participation</span>
+                            </div>
+                            <div class="hackathon-pricing-row hackathon-pricing-prep">
+                                <span class="hackathon-pricing-tag hackathon-pricing-tag-prep">PREP</span>
+                                <span class="hackathon-pricing-text">Want to prepare? <strong>${prepPrice}</strong></span>
+                            </div>
+                        </div>
+                    `
+                    : `
+                        <div class="course-card-price-simple" aria-label="Course pricing">
+                            <span class="price-amount">${priceAmount}</span>
+                            <span class="price-starts">starts</span>
+                        </div>
+                    `;
                 return `
                     <div class="${cardClass}" data-course-id="${course.id}" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
                         ${ribbon}
@@ -2019,10 +2103,7 @@
                         <div class="course-content-minimal">
                             <h3 class="course-title-minimal">${course.title}</h3>
                             <p class="course-description-minimal">${course.description}</p>
-                            <div class="course-card-price-simple" aria-label="Course pricing">
-                                <span class="price-amount">${priceAmount}</span>
-                                <span class="price-starts">${isHackathon ? 'prep · hackathon free' : 'starts'}</span>
-                            </div>
+                            ${pricingBlock}
                             <button class="start-learning-btn" type="button" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
                                 ${buttonLabel}
                                 <svg class="btn-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
