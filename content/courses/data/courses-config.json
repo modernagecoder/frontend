@@ -179,6 +179,30 @@
         "personal": { "amount": 4999, "display": "₹4,999/month" },
         "lifetime": { "amount": 29999, "display": "₹29,999" }
       }
+    },
+    "hackathon-prep-for-kids-coding-innovation-ai-projects-course": {
+      "name": "Hackathon for Kids (Ages 8-12)",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" }
+      }
+    },
+    "hackathon-prep-for-teens-coding-ai-build-innovate-win-course": {
+      "name": "Hackathon for Teens (Ages 13-17)",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" }
+      }
+    },
+    "hackathon-prep-for-adults-professionals-coding-ai-innovation-course": {
+      "name": "Hackathon for Adults & Professionals (18+)",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" }
+      }
     }
   },
   "notes": {

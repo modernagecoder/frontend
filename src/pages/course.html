@@ -339,6 +339,130 @@
             .course-card-minimal .start-learning-btn { transition: none; }
             .course-card-minimal .start-learning-btn::before { display: none; }
         }
+
+        /* ============================================
+           HACKATHON CARDS — visually distinct treatment
+           Warm amber/red theme + animated border + LIVE ribbon
+           ============================================ */
+        .hackathon-card {
+            position: relative;
+            border: 2px solid transparent;
+            background:
+                linear-gradient(180deg, #1a0f0a 0%, #14080d 100%) padding-box,
+                linear-gradient(135deg, #f59e0b 0%, #ef4444 50%, #f59e0b 100%) border-box;
+            background-size: 100% 100%, 200% 200%;
+            box-shadow:
+                0 8px 32px rgba(245, 158, 11, 0.18),
+                0 2px 12px rgba(239, 68, 68, 0.18),
+                inset 0 1px 0 rgba(255, 255, 255, 0.04);
+            animation: hackathonBorderShift 6s ease-in-out infinite;
+        }
+        .hackathon-card::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            background:
+                radial-gradient(circle at 90% 10%, rgba(245, 158, 11, 0.18) 0%, transparent 45%),
+                radial-gradient(circle at 10% 90%, rgba(239, 68, 68, 0.14) 0%, transparent 45%);
+            pointer-events: none;
+            opacity: 0.85;
+            z-index: 0;
+        }
+        .hackathon-card > * { position: relative; z-index: 1; }
+        @keyframes hackathonBorderShift {
+            0%, 100% { background-position: 0% 50%, 0% 50%; }
+            50%      { background-position: 0% 50%, 100% 50%; }
+        }
+        .hackathon-card:hover {
+            transform: translateY(-4px);
+            box-shadow:
+                0 16px 44px rgba(245, 158, 11, 0.32),
+                0 4px 18px rgba(239, 68, 68, 0.26),
+                inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        }
+
+        /* LIVE ribbon — top-right tag, instantly readable */
+        .hackathon-ribbon {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 11px;
+            font-size: 0.68rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            color: #fff;
+            background: linear-gradient(135deg, #ef4444 0%, #f59e0b 100%);
+            border-radius: 999px;
+            box-shadow: 0 4px 14px rgba(239, 68, 68, 0.45);
+            text-transform: uppercase;
+            z-index: 3;
+            white-space: nowrap;
+            backdrop-filter: blur(6px);
+        }
+        .hackathon-ribbon-dot {
+            width: 7px;
+            height: 7px;
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8);
+            animation: hackathonPulse 1.6s ease-out infinite;
+        }
+        @keyframes hackathonPulse {
+            0%   { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8); }
+            70%  { box-shadow: 0 0 0 8px rgba(255, 255, 255, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+        }
+
+        /* Override the price pill colors on hackathon cards (warm theme) */
+        .hackathon-card .course-card-price-simple {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.22), rgba(239, 68, 68, 0.16));
+            border-color: rgba(245, 158, 11, 0.6);
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.22);
+        }
+        .hackathon-card .course-card-price-simple .price-starts {
+            color: #fbbf24;
+            text-transform: uppercase;
+            font-size: 0.7rem;
+            letter-spacing: 0.06em;
+        }
+
+        /* Override the CTA on hackathon cards */
+        .hackathon-card .start-learning-btn {
+            background: linear-gradient(135deg, #ef4444 0%, #f59e0b 50%, #ef4444 100%);
+            background-size: 200% 200%;
+            box-shadow: 0 6px 18px rgba(239, 68, 68, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+        }
+        .hackathon-card .start-learning-btn:hover {
+            background-position: 100% 50%;
+            box-shadow: 0 12px 32px rgba(239, 68, 68, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.24);
+        }
+
+        /* Heading accent on hackathon cards */
+        .hackathon-card .course-title-minimal {
+            background: linear-gradient(90deg, #fbbf24 0%, #f97316 50%, #fbbf24 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+        @media (max-width: 480px) {
+            .hackathon-ribbon {
+                top: 8px;
+                right: 8px;
+                padding: 5px 9px;
+                font-size: 0.62rem;
+                letter-spacing: 0.06em;
+            }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .hackathon-card { animation: none; }
+            .hackathon-ribbon-dot { animation: none; }
+        }
     </style>
 </head>
 
@@ -1287,6 +1411,12 @@
         const coursesData = [
             // KIDS COURSES (Ages 6-12)
             {
+                id: 130, category: 'programming', title: 'Hackathon for Kids', isHackathon: true,
+                description: 'Free hackathon + 12-week prep for ages 8-12. Learn coding, AI, algorithms and pitching - then compete in our live hackathon weekend. Anyone can join, no fees.',
+                skills: ['Hackathon Mindset', 'Scratch + AI Tools', 'Team Coding', 'Pitch & Demo'], difficulty: 'beginner', ageGroup: 'kids',
+                badges: ['new', 'hot'], templateUrl: '/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course', imageUrl: 'hackathon-kids.png'
+            },
+            {
                 id: 101, category: 'programming', title: 'Vibe Coding for Kids',
                 description: 'The easiest, most fun way to start coding! Visual drag-and-drop programming, AI creative tools, and game building for absolute beginners.',
                 skills: ['Block Coding', 'AI Tools for Kids', 'Game Design'], difficulty: 'beginner', ageGroup: 'kids',
@@ -1366,6 +1496,12 @@
             },
 
             // TEENS COURSES (Ages 13-17)
+            {
+                id: 131, category: 'programming', title: 'Hackathon for Teens', isHackathon: true,
+                description: 'Free hackathon + 12-week pro prep for ages 13-17. Master Python, React, AI APIs, algorithms, GitHub and pitching. Build a deployable capstone, win sponsor prizes, graduate hackathon-ready.',
+                skills: ['Python + JavaScript', 'React + Supabase', 'AI APIs', 'Algorithms + Pitch'], difficulty: 'intermediate', ageGroup: 'teens',
+                badges: ['new', 'hot', 'career'], templateUrl: '/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course', imageUrl: 'hackathon-teens.png'
+            },
             {
                 id: 102, category: 'programming', title: 'Vibe Coding for Teens',
                 description: 'Build real-world apps, websites, and AI projects. Perfect for teens who want to go beyond the basics and build a portfolio.',
@@ -1470,6 +1606,12 @@
             },
 
             // COLLEGE COURSES
+            {
+                id: 132, category: 'programming', title: 'Hackathon for Adults & Professionals', isHackathon: true,
+                description: 'Free hackathon + 12-week pro-grade prep for adults 18+. Master Next.js 16, AI agents, RAG, vector DBs, system design and founder-grade pitching. Career switchers, engineers, founders welcome. Compete with sponsor prizes.',
+                skills: ['Next.js 16 + AI SDK', 'Agents + RAG', 'System Design', 'Founder Pitch Lab'], difficulty: 'advanced', ageGroup: 'professional',
+                badges: ['new', 'hot', 'career'], templateUrl: '/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course', imageUrl: 'hackathon-adults.png'
+            },
             {
                 id: 103, category: 'web-dev', title: 'Vibe Coding for College',
                 description: 'The ultimate placement prep & full-stack bootcamp. Master MERN stack, Data Structures, Machine Learning and System Design to crack top tech jobs.',
@@ -1862,8 +2004,15 @@
                 const imagePath = `/images/${course.imageUrl || 'default-course.png'}`;
                 const isIndian = window.__MAC_IS_INDIAN !== false;
                 const priceAmount = isIndian ? '₹1,499' : '$40';
+                const isHackathon = course.isHackathon === true;
+                const cardClass = isHackathon ? 'course-card-minimal hackathon-card' : 'course-card-minimal';
+                const ribbon = isHackathon
+                    ? `<div class="hackathon-ribbon"><span class="hackathon-ribbon-dot"></span>FREE HACKATHON · LIVE</div>`
+                    : '';
+                const buttonLabel = isHackathon ? 'Join Hackathon' : 'Start Learning';
                 return `
-                    <div class="course-card-minimal" data-course-id="${course.id}" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
+                    <div class="${cardClass}" data-course-id="${course.id}" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
+                        ${ribbon}
                         <div class="course-image-container">
                             <img src="${imagePath}" alt="${course.title}" class="course-image" onerror="this.style.display='none'" loading="lazy">
                         </div>
@@ -1872,10 +2021,10 @@
                             <p class="course-description-minimal">${course.description}</p>
                             <div class="course-card-price-simple" aria-label="Course pricing">
                                 <span class="price-amount">${priceAmount}</span>
-                                <span class="price-starts">starts</span>
+                                <span class="price-starts">${isHackathon ? 'prep · hackathon free' : 'starts'}</span>
                             </div>
                             <button class="start-learning-btn" type="button" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
-                                Start Learning
+                                ${buttonLabel}
                                 <svg class="btn-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                             </button>
                         </div>

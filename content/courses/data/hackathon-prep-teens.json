@@ -1,0 +1,577 @@
+{
+  "meta": {
+    "slug": "hackathon-prep-for-teens-coding-ai-build-innovate-win-course",
+    "title": "Hackathon for Teens — Free Hackathon + 12-Week Prep Course (Ages 13–17) | Modern Age Coders",
+    "description": "India's largest free hackathon for teens 13–17 plus a 12-week Hackathon Prep Course. Master Python, JavaScript, AI APIs, algorithms, system design, GitHub and pitching. Build innovative apps, win judge prizes, and graduate hackathon-ready.",
+    "keywords": [
+      "hackathon for teens",
+      "teens hackathon India",
+      "free hackathon teenagers",
+      "online hackathon for teens 13 to 17",
+      "high school hackathon",
+      "AI hackathon for teens",
+      "coding hackathon teens",
+      "Python hackathon teens",
+      "JavaScript hackathon teens",
+      "MLH style teen hackathon India",
+      "build with AI teens",
+      "teen innovation challenge",
+      "hackathon prep course teens",
+      "how to prepare for a hackathon",
+      "hackathon project ideas teens",
+      "teens portfolio hackathon",
+      "teens innovation bootcamp",
+      "STEM hackathon teens",
+      "hackathon ideas for teens",
+      "teen coder hackathon program",
+      "Modern Age Coders teen hackathon",
+      "hackathon training teens",
+      "weekend hackathon teens",
+      "teens GitHub portfolio",
+      "system design teens",
+      "DSA hackathon teens"
+    ],
+    "category": "Hackathons & Innovation Programs",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "12 weeks prep + Live Hackathon Weekend",
+    "level": "Beginner-Friendly to Intermediate (Ages 13–17)",
+    "commitment": "6–8 hours/week",
+    "certification": "Teen Hackathon Builder — Modern Age Coders Certified",
+    "image_path": "hackathon-teens.png",
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Senior engineers, hackathon judges and ex-startup CTOs who have shipped at Microsoft, Google, Razorpay and YC-backed startups.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-05-10",
+    "dateModified": "2026-05-10",
+    "tags": [
+      "Hackathon",
+      "Teens",
+      "Python",
+      "JavaScript",
+      "AI APIs",
+      "Algorithms",
+      "GitHub",
+      "System Design Lite",
+      "Pitch & Demo",
+      "Innovation"
+    ],
+    "featured": true
+  },
+  "program_overview": {
+    "title": "Hackathon for Teens — Build, Innovate, Win",
+    "tagline": "Free hackathon for everyone. Serious prep for those who want to win.",
+    "description": "Hackathon for Teens is a free-to-enter hackathon and a 12-week structured prep course at Modern Age Coders for students aged 13 to 17. The hackathon participation is 100% free for everyone — no fees, no school filtering. The prep course is for teens who want to walk into a hackathon with real coding skills, AI fluency, and a proven pitch playbook.\n\nOur only motive is simple: build something great. Build something innovative. Use coding logic, efficient algorithms, AI APIs, and modern dev workflows to ship real software in 48 hours. We don't teach kids to copy templates. We teach them how engineers actually build.\n\nTeens go deep — Python and JavaScript fundamentals, REST API design, algorithm complexity (Big O), data structures (arrays, hash maps, trees, graphs), AI APIs (OpenAI, Gemini, Claude), GitHub-based collaboration, system design lite, and end-to-end deployment on Vercel. They build hackathon-ready apps using the same stack used by professional engineers in 2026 — React, Next.js, Tailwind, Supabase, Replit Agent, Bolt.new, Cursor and Vercel.\n\nBy Week 12, every teen has a polished GitHub portfolio of 6+ projects, a public capstone deployed live on the internet, a 2-minute pitch video, and a placement on the Modern Age Coders Hackathon Hall of Fame. They graduate hackathon-ready — for school events, MLH-style competitions, Smart India Hackathon, and global online hackathons.",
+    "what_makes_this_different": [
+      "Free hackathon participation — anyone aged 13–17 can register at zero cost",
+      "Prep priced same as our other teen courses (Group ₹1,499 / Mini Batch ₹2,499 / 1-on-1 ₹4,999 — all monthly)",
+      "Curriculum designed by hackathon winners and senior engineers",
+      "Real production stack: React, Next.js, Tailwind, Supabase, Vercel",
+      "AI-first dev workflow with Cursor, Replit Agent, Bolt.new",
+      "Algorithms taught for hackathons — practical, not academic",
+      "GitHub-native: every project committed, branched, deployed",
+      "Live deployments — every project gets a real URL judges can click",
+      "1-on-1 mentor matching for capstone phase",
+      "Pitch deck lab with senior pitch coaches",
+      "Mock hackathons every 4 weeks with judge feedback",
+      "Final hackathon weekend — live judges, prizes, Hall of Fame"
+    ],
+    "learning_path": {
+      "phase_1": "Foundations (Weeks 1–4): Python + JavaScript essentials, Git/GitHub, problem-solving",
+      "phase_2": "Build Stack (Weeks 5–8): React + Tailwind + Supabase, AI APIs, algorithms & data structures, system design lite",
+      "phase_3": "Hackathon Sprint (Weeks 9–12): Capstone build, mentor coaching, pitch lab, Live Hackathon Weekend"
+    },
+    "skills_gained": [
+      "Hackathon Mindset — scope, MVP, time-boxing, ruthless prioritization",
+      "Python and JavaScript fundamentals",
+      "Modern web stack: React, Next.js (App Router), Tailwind",
+      "Backend basics with Supabase / Firebase",
+      "REST API design and consumption",
+      "AI APIs: OpenAI, Google Gemini, Claude — chaining and tool calling",
+      "Vibe coding with Cursor, Replit Agent, Bolt.new",
+      "Algorithms & Data Structures (arrays, hash maps, trees, graphs, BFS/DFS)",
+      "Big O analysis at hackathon level",
+      "Git, GitHub, branches, pull requests, code reviews",
+      "System Design Lite — picking right DB, queues, caches",
+      "Deployment on Vercel and Netlify",
+      "Pitch deck design with Canva / Pitch.com",
+      "Demo recording, screen-capture, public speaking",
+      "Project documentation: README, demo link, architecture diagram"
+    ],
+    "career_outcomes": [
+      "School & Inter-school Hackathon Champion",
+      "Smart India Hackathon ready",
+      "MLH Global Hackathon ready",
+      "Open-Source Contributor",
+      "Strong Profile for College Admissions (Stanford, MIT, IIT, IIIT, BITS)",
+      "Foundation for Internships at startups",
+      "Ready for Vibe Coding for College / DSA programs"
+    ],
+    "tools_platforms": [
+      "Python 3.12",
+      "JavaScript / TypeScript",
+      "React + Next.js (App Router)",
+      "Tailwind CSS",
+      "Supabase (Database + Auth)",
+      "Vercel (Deployment)",
+      "GitHub",
+      "Cursor AI Editor",
+      "Replit Agent",
+      "Bolt.new",
+      "OpenAI API",
+      "Google Gemini API",
+      "Claude API (Anthropic)",
+      "Postman / Thunder Client",
+      "Canva / Pitch.com",
+      "Loom / OBS Studio",
+      "Figma"
+    ]
+  },
+  "phase_1_foundations": {
+    "title": "PHASE 1: Foundations — Python, JavaScript & Git for Hackers (Weeks 1–4)",
+    "description": "Teens build serious coding fluency. We cover Python (logic + scripting), JavaScript (the universal language of the web), and Git/GitHub workflow that every hackathon team uses. By Week 4, every student can ship a small web app to a real URL.",
+    "week_1": {
+      "title": "Week 1: Hackathon Culture, Python Basics & The Hacker Mindset",
+      "theme": "Hackathon Foundations",
+      "topics": [
+        "What is a hackathon really? MLH, SIH, NASA Space Apps, internal startup hacks",
+        "Famous teen hackathon winners (cases studies from India and globally)",
+        "The hackathon arc: idea → MVP → demo → pitch → judge",
+        "Python install + setup (with VS Code)",
+        "Variables, types, operators, strings, lists, dicts",
+        "Conditionals (if/elif/else), loops (for/while)",
+        "Functions, return values, default args",
+        "Reading inputs, printing outputs, basic file IO",
+        "Your first Python mini-tool: a CLI to-do list",
+        "Hacker etiquette: be kind, be curious, ship over perfect"
+      ],
+      "projects": [
+        "CLI To-Do List in Python",
+        "Number guessing game with hints + difficulty levels",
+        "Data formatter: read a CSV, print summary stats"
+      ],
+      "vibe_challenge": "Solve 5 problems on Replit's Python challenges in under 60 minutes.",
+      "parent_note": "Python is the most common language at hackathons after JavaScript. Strong Python = wide hackathon options."
+    },
+    "week_2": {
+      "title": "Week 2: JavaScript Essentials & DOM — The Universal Hackathon Language",
+      "theme": "Web Fundamentals",
+      "topics": [
+        "Why JavaScript runs the modern web (and most hackathons)",
+        "let / const, types, functions, arrow functions",
+        "Arrays, objects, destructuring, spread / rest",
+        "Async/await, promises, fetch — calling APIs",
+        "DOM manipulation, event listeners",
+        "ES Modules and modern JS structure",
+        "TypeScript intro — types make hackathon code safer",
+        "Building a client-side mini app",
+        "Browser DevTools for debugging",
+        "Common JS gotchas (== vs ===, hoisting, this)"
+      ],
+      "projects": [
+        "Weather App calling a public weather API",
+        "Markdown live preview editor",
+        "GitHub user profile fetcher"
+      ],
+      "vibe_challenge": "Build a SPA that displays Pokémon details using PokeAPI in under 90 minutes.",
+      "parent_note": "Hackathons reward shippable demos. JavaScript is the fastest path from idea to live URL."
+    },
+    "week_3": {
+      "title": "Week 3: Git, GitHub & Team Coding — Professional Workflow",
+      "theme": "Hackathon Team Workflow",
+      "topics": [
+        "Git fundamentals: init, add, commit, log, diff",
+        "Branches, merging, conflicts and how to resolve them",
+        "GitHub: repos, README, issues, pull requests",
+        "Forking and cloning open-source projects",
+        "Pull request reviews and team etiquette",
+        "GitHub Actions intro — automated CI",
+        "GitHub Pages deployment",
+        "Hackathon team workflow: feature branches, PR per feature",
+        "Daily standups: what I did, what I'm doing, blockers",
+        "Hackathon-grade README structure (problem, demo, screenshots, setup, team)"
+      ],
+      "projects": [
+        "Personal Portfolio site deployed via GitHub Pages",
+        "Open-source contribution: file 1 PR to a public repo",
+        "Team-built mini app with branches and PRs"
+      ],
+      "vibe_challenge": "Pair-program a project across 2 GitHub accounts and merge cleanly with no conflicts.",
+      "parent_note": "GitHub is your child's lifelong tech resume. Every hackathon, every internship, every job will check this."
+    },
+    "week_4": {
+      "title": "Week 4: First Mini Hackathon (Solo) — Ship to a Live URL in 8 Hours",
+      "theme": "First Real Hackathon Simulation",
+      "topics": [
+        "8-hour hackathon template: 1 hr ideate, 5 hr build, 1 hr polish, 1 hr pitch",
+        "Picking a problem statement that's small, clear, and demo-able",
+        "Building solo with Replit Agent + Cursor for speed",
+        "Deployment to Vercel — live URL judges can click",
+        "Recording a 90-second demo with Loom",
+        "Writing your README so judges understand in 60 seconds",
+        "First pitch attempt — to camera, then to mentors",
+        "Self-grading with the official rubric",
+        "Code reviews from senior mentors",
+        "Phase 1 retrospective and feedback letter"
+      ],
+      "projects": [
+        "PHASE 1 CAPSTONE — Solo Mini Hackathon: 8-hour build, deployed to Vercel, 90-second demo, judge-ready README"
+      ],
+      "vibe_challenge": "Ship 60 minutes early — beat the timer.",
+      "assessment": "Phase 1 Mini Hackathon Score Card — innovation, execution, design, pitch"
+    }
+  },
+  "phase_2_build_stack": {
+    "title": "PHASE 2: Build Stack — React, AI APIs, Algorithms & System Design (Weeks 5–8)",
+    "description": "Teens learn the full modern hackathon stack. By Week 8, they can build a deployable React + Tailwind + Supabase app with an AI feature in under 24 hours.",
+    "week_5": {
+      "title": "Week 5: React + Tailwind — The Hackathon UI Stack",
+      "theme": "Frontend at Hackathon Speed",
+      "topics": [
+        "React fundamentals: components, props, state, hooks",
+        "useState, useEffect, useRef in real projects",
+        "Tailwind CSS — design without writing CSS files",
+        "Building responsive layouts in minutes",
+        "shadcn/ui components — copy/paste production-grade UI",
+        "Forms, validation, controlled components",
+        "Routing with Next.js App Router",
+        "Server Components vs Client Components",
+        "Iconography, dark mode, accessibility basics",
+        "Building UI from a Figma mock in under 30 min"
+      ],
+      "projects": [
+        "Personal landing page with React + Tailwind",
+        "Recipe finder calling an external API",
+        "Interactive dashboard with charts (Recharts)"
+      ],
+      "vibe_challenge": "Build a Twitter clone UI (no backend) in 90 minutes using shadcn/ui."
+    },
+    "week_6": {
+      "title": "Week 6: Backend with Supabase + REST APIs — Build a Real Product",
+      "theme": "Full-Stack Hackathon Apps",
+      "topics": [
+        "Supabase setup — database, auth, storage in 5 minutes",
+        "Postgres tables, schema design for hackathons",
+        "Row-Level Security basics (auth that doesn't leak)",
+        "Building REST APIs with Next.js Route Handlers",
+        "CRUD apps end-to-end",
+        "Email + magic link authentication",
+        "File uploads to Supabase Storage",
+        "Webhooks and realtime subscriptions",
+        "Postman / Thunder Client for testing APIs",
+        "Connecting frontend ↔ backend smoothly"
+      ],
+      "projects": [
+        "Notes app with auth + Supabase database",
+        "Image gallery with uploads + storage",
+        "Realtime chat (single-room) with Supabase Realtime"
+      ],
+      "vibe_challenge": "Add Google login to your notes app in under 30 minutes."
+    },
+    "week_7": {
+      "title": "Week 7: AI APIs — Build AI-Powered Hackathon Projects",
+      "theme": "AI-Powered Building",
+      "topics": [
+        "OpenAI API: chat completions, function calling",
+        "Google Gemini API: multimodal inputs (text + image)",
+        "Anthropic Claude API: long-context, tool use, prompt caching",
+        "Streaming responses to your UI",
+        "RAG (Retrieval Augmented Generation) basics",
+        "Embeddings + vector search with Supabase pgvector",
+        "Image generation APIs (DALL·E, Imagen, Stable Diffusion)",
+        "Speech-to-text and text-to-speech",
+        "Cost-aware design — token counting and caching",
+        "AI ethics: hallucinations, bias, attribution"
+      ],
+      "projects": [
+        "AI study buddy that quizzes you on uploaded notes",
+        "AI image caption generator (Gemini multimodal)",
+        "Voice-to-text journal with summarization"
+      ],
+      "vibe_challenge": "Add streaming chat with citations to your notes app in under 90 minutes."
+    },
+    "week_8": {
+      "title": "Week 8: Algorithms, DSA & System Design Lite + Mock Hackathon (Teams)",
+      "theme": "Engineering Depth",
+      "topics": [
+        "Big O notation for hackathon thinking",
+        "Arrays, hash maps, sets, stacks, queues",
+        "Trees, graphs, BFS/DFS — pathfinding apps",
+        "Sorting (merge, quick) and searching (binary)",
+        "Top 10 hackathon-style algorithm problems",
+        "System Design Lite: when to use which database",
+        "Caching, rate limiting, queues at hackathon scale",
+        "Picking architecture in 5 minutes",
+        "Team mock hackathon (2 days, 12 hours total)",
+        "Live judging panel with feedback letter"
+      ],
+      "projects": [
+        "PHASE 2 CAPSTONE — Team Mock Hackathon: pick a problem, ship an MVP in 12 hours, deploy to Vercel, deliver pitch"
+      ],
+      "vibe_challenge": "Solve 5 LeetCode Easy problems in 60 minutes during the mock.",
+      "assessment": "Mock Hackathon Judges Panel scoring + written feedback"
+    }
+  },
+  "phase_3_hackathon_sprint": {
+    "title": "PHASE 3: Real Hackathon Sprint — Capstone, Pitch Lab & Live Hackathon (Weeks 9–12)",
+    "description": "The final 4 weeks are a real hackathon journey. Teens lock a capstone idea, get matched with a senior mentor, build, polish, get pitch coached and compete in the Live Modern Age Coders Hackathon Weekend.",
+    "week_9": {
+      "title": "Week 9: Capstone Lock — Mentor Matching, Spec & Architecture",
+      "theme": "Capstone Kickoff",
+      "topics": [
+        "Idea finalists — picking the right capstone (3 ideas → 1)",
+        "Writing a 1-page spec: problem, users, solution, MVP scope, stretch",
+        "Mentor matching with senior engineers",
+        "Architecture diagram (whiteboard or Excalidraw)",
+        "Tech stack lock: React/Next.js + Tailwind + Supabase + AI API",
+        "Risk register: top 3 risks and mitigations",
+        "Project board on GitHub Projects or Linear",
+        "Daily commit cadence rules",
+        "Stretch goals vs. MVP scope (MVP wins, always)",
+        "Repo setup, CI, and Vercel preview deployments"
+      ],
+      "projects": [
+        "Capstone Spec (1 page)",
+        "Architecture Diagram",
+        "Project Board with weekly milestones"
+      ]
+    },
+    "week_10": {
+      "title": "Week 10: Heavy Build Sprint — Code, Test, Iterate",
+      "theme": "Build Week",
+      "topics": [
+        "Daily commits with kind, clear messages",
+        "Pair programming with teammates",
+        "AI-assisted coding via Cursor + Replit Agent",
+        "Mid-sprint mentor reviews",
+        "Testing critical paths (smoke tests minimum)",
+        "Loading states, empty states, error states (judges notice these)",
+        "Mobile responsiveness — judges open on phones",
+        "Performance basics: bundle size, image optimization, caching",
+        "Accessibility minimums (alt text, focus rings, color contrast)",
+        "Daily standup logs to mentor"
+      ],
+      "projects": [
+        "Capstone build — 70% complete by end of Week 10",
+        "Daily standup logs",
+        "Mid-sprint mentor demo"
+      ]
+    },
+    "week_11": {
+      "title": "Week 11: Pitch Lab — Storytelling, Slides & Demo Polish",
+      "theme": "Pitch & Demo Mastery",
+      "topics": [
+        "Hackathon judging rubric in detail (Innovation 25 / Execution 25 / Design 25 / Pitch 25)",
+        "The 2-minute pitch formula: Hook → Problem → Solution → Demo → Tech → Team → Ask",
+        "Slide design — 7 slides max, big text, no walls of words",
+        "Practicing on camera with daily review",
+        "Recording a high-quality demo video",
+        "Voice and pacing tips from professional pitch coaches",
+        "Q&A handling — what to say when stumped",
+        "Final README polish — judges read this first",
+        "Final code freeze rules",
+        "Deployment health check: SSL, mobile, dark mode, edge cases"
+      ],
+      "projects": [
+        "Pitch Slides (7 slides, Pitch.com or Canva)",
+        "Pitch Video (2 minutes)",
+        "Final README with hero image, demo link, tech stack, team"
+      ]
+    },
+    "week_12": {
+      "title": "Week 12: LIVE HACKATHON WEEKEND — Compete with the World",
+      "theme": "The Real Hackathon",
+      "topics": [
+        "Friday: opening ceremony, theme reveal, team check-in",
+        "Saturday: 12-hour final sprint with senior mentor support",
+        "Saturday evening: pitch dress rehearsal",
+        "Sunday morning: 3-hour final polish + submission",
+        "Sunday afternoon: live judging, every team pitches",
+        "Categories: Most Innovative, Best Built, Best AI Use, Best Pitch, Best Design, Audience Favorite",
+        "Live judge Q&A — handled with calm and clarity",
+        "Awards ceremony — certificates, badges, Hall of Fame",
+        "Reflection circle and feedback letters from judges",
+        "Graduation: Teen Hackathon Builder Certification awarded"
+      ],
+      "projects": [
+        "GRAND CAPSTONE — Live Hackathon Submission: working product deployed to Vercel + GitHub repo + 2-minute demo + 7-slide pitch + judge-ready README + live presentation"
+      ],
+      "assessment": "Final Hackathon Score + Judge Feedback Letter",
+      "certification": "Teen Hackathon Builder — Modern Age Coders Certified"
+    }
+  },
+  "free_hackathon_event": {
+    "title": "The Live Hackathon — Free for Every Teen",
+    "description": "Modern Age Coders runs a free, public hackathon every quarter. Anyone aged 13–17 can register — no fee, no school filter, no entrance test. The prep course is for teens who want serious coaching; the hackathon itself charges nothing.",
+    "what_is_included_free": [
+      "Free hackathon registration (no fee at all)",
+      "48-hour event participation (online + select offline cities)",
+      "Free mentor support during event",
+      "Free senior judge panel access",
+      "Free certificate of participation",
+      "Free Hall of Fame listing for top 20 projects",
+      "Free post-hackathon code review for every submission",
+      "Eligibility for partner offers (cloud credits, internship interviews)"
+    ],
+    "what_the_paid_prep_includes": [
+      "Same monthly pricing as our other teen courses (Group ₹1,499/mo, Mini Batch ₹2,499/mo, 1-on-1 ₹4,999/mo)",
+      "12 weeks of structured curriculum",
+      "Live classes + recorded replays",
+      "1-on-1 mentor matching for capstone",
+      "Pitch lab with senior coaches",
+      "Teen Hackathon Builder certification",
+      "Priority placement on hackathon judging stage",
+      "Internship referrals for top performers"
+    ],
+    "frequency": "Quarterly — March, June, September, December",
+    "location": "Online (global) + Offline pods in 30+ Indian cities",
+    "languages": "English (primary), Hindi (secondary), regional subtitles available"
+  },
+  "faqs": [
+    {
+      "question": "Is the hackathon really free for teens?",
+      "answer": "Yes — 100% free. Any teen aged 13–17 can register and compete in the Modern Age Coders Live Hackathon at zero cost. No entry fee. No school endorsement required. Free certificate. Free judging."
+    },
+    {
+      "question": "Why is the prep course paid then?",
+      "answer": "The prep course is optional but highly recommended. It gives teens 12 weeks of structured training in coding, AI, algorithms, system design, and pitching. It's priced same as our other teen courses (Group ₹1,499/mo, Mini Batch ₹2,499/mo, 1-on-1 ₹4,999/mo). The hackathon itself stays free regardless."
+    },
+    {
+      "question": "Does my teen need prior coding experience?",
+      "answer": "No. The prep course starts from absolute basics in Python and JavaScript. Teens with some experience will move faster, but beginners catch up by Week 4. We have placement check-ins to ensure no one is left behind."
+    },
+    {
+      "question": "What is the time commitment per week?",
+      "answer": "6–8 hours weekly: 2 live classes (1.5–2 hours each), 3–4 hours of independent project work, plus 1 hour for the weekly hackathon-style challenge. All sessions are recorded."
+    },
+    {
+      "question": "What does my teen build by the end?",
+      "answer": "A GitHub portfolio of 6+ deployed projects, including a live capstone hosted on Vercel, a 2-minute pitch video, and submission to the live hackathon. Strong enough to impress college admissions and internship recruiters."
+    },
+    {
+      "question": "Will this help with college applications?",
+      "answer": "Significantly. A real GitHub portfolio with deployed projects, hackathon wins, and demo videos is one of the strongest signals for tech-leaning college applications (US, Singapore, India IITs/IIITs/BITS). We also write recommendation letters for top performers."
+    },
+    {
+      "question": "What stack do you teach?",
+      "answer": "The same stack used at YC startups in 2026: Python, JavaScript/TypeScript, React, Next.js (App Router), Tailwind CSS, shadcn/ui, Supabase, Vercel, GitHub, plus AI APIs from OpenAI, Google Gemini, and Anthropic Claude. We also use Cursor, Replit Agent, and Bolt.new as AI-assisted dev tools."
+    },
+    {
+      "question": "Can my teen compete in MLH or Smart India Hackathon after this?",
+      "answer": "Yes — and many do. Our curriculum directly maps to MLH (Major League Hacking), Smart India Hackathon, NASA Space Apps, and most college-level hackathons. The skills are universal."
+    },
+    {
+      "question": "Do you cover algorithms and DSA?",
+      "answer": "Yes — at hackathon depth. Big O, arrays, hash maps, trees, graphs, BFS/DFS, sorting, searching. We don't go to LeetCode Hard depth; that's our Vibe Coding for College program. But we go deep enough to write efficient hackathon code that doesn't crash with real data."
+    },
+    {
+      "question": "What's the refund policy?",
+      "answer": "Full refund within first 2 weeks if the prep course doesn't fit your teen. The free hackathon participation is, of course, always free."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Anika Verma (Age 15)",
+      "text": "I had never deployed anything before this course. Now I have a Vercel portfolio with 7 live apps and won 'Best AI Use' at the live hackathon. My capstone got me a Stanford interview question I aced.",
+      "rating": 5
+    },
+    {
+      "name": "Rishi Nair (Age 16)",
+      "text": "The pitch lab changed me. I used to mumble through demos. Now I command the room. I won Smart India Hackathon college edition in 2026 thanks to skills I learned here.",
+      "rating": 5
+    },
+    {
+      "name": "Saanvi Gupta (Parent of 14-year-old Yash)",
+      "text": "The mentor match was magic. Yash's mentor was a Razorpay engineer who pushed him to ship every single day. He went from zero React to deploying a full SaaS in 12 weeks.",
+      "rating": 5
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Weeks 1–4): 6+ Python/JS projects + Solo Mini Hackathon (deployed)",
+      "Phase 2 (Weeks 5–8): 6+ React/Supabase/AI projects + Team Mock Hackathon",
+      "Phase 3 (Weeks 9–12): Capstone + Pitch Deck + Demo + LIVE Hackathon submission"
+    ],
+    "total_projects_built": "12+ deployed projects + Live Hackathon Capstone",
+    "skills_mastered": [
+      "Python and JavaScript fluency",
+      "React + Next.js + Tailwind + shadcn/ui",
+      "Supabase backend + auth + storage + realtime",
+      "AI APIs: OpenAI, Gemini, Claude — chat, streaming, RAG",
+      "Algorithms & DSA at hackathon depth",
+      "Big O analysis",
+      "GitHub workflow with branches and PRs",
+      "System Design Lite for hackathons",
+      "Vercel deployment and CI",
+      "Pitch decks and demo videos",
+      "README and project documentation",
+      "Public speaking and Q&A handling"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 sessions (1.5–2 hours each)",
+      "independent_projects": "3–4 hours",
+      "weekly_hack": "1 themed hackathon-style challenge",
+      "total_per_week": "6–8 hours"
+    },
+    "certification": {
+      "final_certificate": "Teen Hackathon Builder — Modern Age Coders Certified",
+      "capstone_required": "Live hackathon submission (deployed app + pitch + demo)",
+      "portfolio": "12+ deployed projects + grand capstone"
+    },
+    "support_provided": {
+      "live_instruction": "Senior engineers and ex-startup CTOs",
+      "mentor_matching": "1-on-1 capstone mentor in Phase 3",
+      "pitch_lab": "Dedicated pitch coaches in Week 11",
+      "internship_referrals": "Top performers referred to our hiring partners",
+      "community": "Teen Hackathon Builders Hall of Fame + alumni network"
+    }
+  },
+  "prerequisites": {
+    "age": "13–17 years old",
+    "experience": "Zero coding experience welcome — strong fit for self-starters",
+    "equipment": "Laptop or desktop with stable internet (8GB RAM recommended)",
+    "software": "All free / open source (VS Code, Cursor free tier, Vercel hobby tier)",
+    "mindset": "Willingness to ship rough, ugly first versions"
+  },
+  "who_is_this_for": {
+    "ambitious_teens": "Teens aiming for top colleges and want a real portfolio",
+    "competitive_teens": "Teens who love coding contests, MLH, SIH, Olympiad",
+    "founder_curious": "Teens who want to learn how startups actually build",
+    "ai_native_teens": "Teens who want AI fluency at the API level (not just ChatGPT chat)",
+    "career_planners": "Teens planning a tech career with strong GitHub from day one"
+  },
+  "career_paths_after_completion": [
+    "School & Inter-school Hackathon Champion",
+    "Smart India Hackathon Finalist",
+    "MLH Global Hackathon Participant",
+    "Open-Source Contributor",
+    "Strong College Application Profile (IIT/IIIT/BITS/Stanford/MIT)",
+    "Internship-Ready (startups, mid-stage companies)",
+    "Ready for Vibe Coding for College / DSA Masterclass"
+  ],
+  "salary_expectations": {
+    "note": "Direct earning starts in college / internship years; this program builds the resume",
+    "internships": "₹15,000–₹40,000/month for school students with strong hackathon profiles",
+    "long_term": "₹6–25 LPA in entry-level tech roles after college graduation"
+  },
+  "course_guarantees": {
+    "free_hackathon": "Hackathon participation always free for teens 13–17",
+    "deployed_projects": "Every project deploys to a live URL",
+    "github_portfolio": "Public GitHub portfolio with 12+ projects",
+    "mentor_matching": "Senior engineer mentor in capstone phase",
+    "pitch_coaching": "Dedicated pitch lab in Week 11",
+    "certificate": "Teen Hackathon Builder certification on completion",
+    "satisfaction": "Full refund within first 2 weeks if not satisfied"
+  },
+  "relatedCourses": [
+    "vibe-coding-for-teens-python-web-ai-projects-course",
+    "python-complete-masterclass-teens",
+    "full-stack-web-development-teens-masterclass",
+    "ai-ml-masterclass-teens",
+    "problem-solving-dsa-masterclass-teens"
+  ]
+}

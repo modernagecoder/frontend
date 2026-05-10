@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "slug": "hackathon-prep-for-kids-coding-innovation-ai-projects-course",
+    "title": "Hackathon for Kids — Free Hackathon + Prep Course (Ages 8–12) | Modern Age Coders",
+    "description": "Join India's most exciting free hackathon for kids ages 8–12 at Modern Age Coders. Learn coding, problem-solving, AI, and innovation in our 12-week hackathon prep course. Build something great. Pitch like a founder. Win badges, certificates and judge prizes.",
+    "keywords": [
+      "hackathon for kids",
+      "kids hackathon India",
+      "free hackathon for children",
+      "online hackathon for kids 8 to 12",
+      "coding hackathon for kids",
+      "AI hackathon kids",
+      "scratch hackathon",
+      "hackathon prep course kids",
+      "how to prepare kids for hackathon",
+      "innovation challenge kids",
+      "first hackathon for child",
+      "junior hackathon program",
+      "kids coding competition",
+      "creative coding hackathon",
+      "build with AI kids",
+      "kids tech competition India",
+      "Modern Age Coders hackathon",
+      "online hackathon ages 8-12",
+      "hackathon training for children",
+      "kids innovation bootcamp",
+      "STEM hackathon for kids",
+      "hackathon ideas for kids",
+      "kids hackathon project ideas",
+      "weekend hackathon kids",
+      "team coding for kids"
+    ],
+    "category": "Hackathons & Innovation Programs",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month"
+    },
+    "duration": "12 weeks prep + Live Hackathon Weekend",
+    "level": "Complete Beginner (Ages 8–12)",
+    "commitment": "4–6 hours/week",
+    "certification": "Junior Hackathon Builder — Modern Age Coders Certified",
+    "image_path": "hackathon-kids.png",
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Hackathon mentors, coding educators and ex–startup builders who have judged and won 50+ international hackathons.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-05-10",
+    "dateModified": "2026-05-10",
+    "tags": [
+      "Hackathon",
+      "Kids",
+      "Innovation",
+      "Coding Competition",
+      "AI for Kids",
+      "Scratch",
+      "Replit",
+      "Bolt.new",
+      "Team Coding",
+      "Pitch & Demo"
+    ],
+    "featured": true
+  },
+  "program_overview": {
+    "title": "Hackathon for Kids — Build Something Great in 48 Hours",
+    "tagline": "Anyone can join. Free to participate. Built to spark India's youngest innovators.",
+    "description": "Hackathon for Kids is a free-to-enter hackathon and a 12-week structured prep course at Modern Age Coders, designed for children aged 8 to 12 who want to learn how real innovators build technology. The hackathon participation is 100% free — anyone, from any school or city, can register and compete. The optional 12-week prep course (priced the same as our other coding courses) is for kids who want serious training before they compete.\n\nOur only motive is simple: build something great. Build something innovative. Use coding logic, efficient algorithms and AI tools to turn raw ideas into real, working projects in just one weekend.\n\nKids learn how a real hackathon works — how teams form, how ideas get scoped, how problems are decomposed, how AI is used to accelerate building, how you debug under pressure, and how you pitch your project to judges. They use Scratch, Replit, Bolt.new, Google Gemini, Microbit and Canva to build games, AI apps, websites and inventions that solve real problems for kids their age.\n\nThis is not a normal class. This is a creator's training camp. By the end, every child has a portfolio of 4+ hackathon-ready projects, a 90-second pitch video, a working capstone submission, and the confidence to walk into any school, district or international hackathon and stand on stage.",
+    "what_makes_this_different": [
+      "100% free hackathon participation — anyone can join, no fees, no gatekeeping",
+      "Hackathon prep priced same as other Modern Age Coders courses — group, mini-batch and 1-on-1 monthly plans",
+      "Designed by mentors who have judged and won 50+ hackathons",
+      "Kids learn the full hackathon arc: ideate → plan → build → debug → pitch → demo",
+      "AI-assisted building with Replit Agent, Bolt.new and Google Gemini",
+      "Algorithm thinking made playful — sorting, searching, pathfinding through games",
+      "Live mock hackathons every 4 weeks with judge feedback",
+      "Team formation workshops — kids learn collaboration and roles (Builder, Designer, Pitcher)",
+      "Pitch coaching — every child practices a real 90-second demo to camera",
+      "Final hackathon weekend with prizes, judge panel, and Hall of Fame inclusion",
+      "Parent dashboard, recorded sessions, and weekly progress reports"
+    ],
+    "learning_path": {
+      "phase_1": "Hackathon Foundations (Weeks 1–4): How hackathons work, coding basics in Scratch, problem-solving, idea generation",
+      "phase_2": "Build Skills (Weeks 5–8): AI tools, Replit & Bolt.new, basic algorithms, team-building, design with Canva",
+      "phase_3": "Hackathon Sprint (Weeks 9–12): Mock hackathons, capstone build, pitch coaching, demo day, live hackathon weekend"
+    },
+    "skills_gained": [
+      "Hackathon Mindset — scoping, MVPs, time-boxing under 48 hours",
+      "Computational Thinking & Logic Puzzles",
+      "Block-Based Programming with Scratch 3.0",
+      "Vibe Coding with Replit Agent and Bolt.new",
+      "AI prompt design for kids (Google Gemini, Teachable Machine)",
+      "Efficient Algorithms — sorting, searching, simple pathfinding (taught visually)",
+      "Team Collaboration & Roles (Builder, Designer, Pitcher)",
+      "Storyboarding, wireframing and UI design with Canva",
+      "Public speaking and 90-second pitch delivery",
+      "Demo recording, screen-capture and presentation skills",
+      "Project documentation — README, problem statement, solution write-up",
+      "Hackathon judging criteria — innovation, execution, clarity, impact"
+    ],
+    "career_outcomes": [
+      "Junior Hackathon Builder",
+      "Future Coding Competition Participant",
+      "School Innovation Club Leader",
+      "Ready for Hackathon for Teens program",
+      "Foundation for science fairs, robotics leagues, and Olympiad-style events"
+    ],
+    "tools_platforms": [
+      "Scratch 3.0",
+      "Code.org",
+      "Replit (Browser-Based Coding)",
+      "Bolt.new (AI App Builder)",
+      "Google Gemini (AI Assistant)",
+      "Google Teachable Machine",
+      "Canva for Kids (Design & Pitch Decks)",
+      "Loom / OBS (Demo Recording)",
+      "GitHub Kids (Project Hosting Basics)",
+      "Microbit Simulator (Optional Hardware Hack)",
+      "Figma Jam (Idea Boards)",
+      "MakeCode Arcade"
+    ]
+  },
+  "phase_1_foundations": {
+    "title": "PHASE 1: Hackathon Foundations — How Hackathons Work (Weeks 1–4)",
+    "description": "Kids learn what a hackathon is, why it exists, how teams build software in 48 hours, and how to start thinking like an inventor. They build their first 'mini hack' projects in Scratch and learn the language of hackathons: idea, MVP, sprint, demo and pitch.",
+    "week_1": {
+      "title": "Week 1: What is a Hackathon? — Welcome to the Builder Mindset",
+      "theme": "Discovery & Hackathon Culture",
+      "topics": [
+        "What is a hackathon? Origin story from Silicon Valley to Indian schools",
+        "Famous kids who built real apps in hackathons (case studies)",
+        "The 4 stages of every hackathon: Idea → Build → Demo → Judge",
+        "What is an MVP (Minimum Viable Product)? — explained for kids",
+        "Why anyone can join: free hackathon access at Modern Age Coders",
+        "Setting up your hacker profile: name, team, project board",
+        "Tour of Scratch 3.0 — your first build platform",
+        "First mini-hack: build a 'Welcome' interactive card in 60 minutes",
+        "Hackathon vocabulary kids need: bug, ship, push, demo, judge, pitch",
+        "Online safety, kindness in teams, and being a good teammate"
+      ],
+      "projects": [
+        "60-Minute Mini Hack: Animated Welcome Card",
+        "Hacker ID Card (designed in Canva)",
+        "Idea Wall — write 10 things in the world you'd like to fix"
+      ],
+      "vibe_challenge": "Watch a 5-minute hackathon demo video and explain it to a parent in your own words.",
+      "parent_note": "Ask your child 'what problem would you fix if you could code anything?' — this is the seed of every hackathon idea."
+    },
+    "week_2": {
+      "title": "Week 2: Idea Generation — Where Hackathon Ideas Come From",
+      "theme": "Creativity & Problem Discovery",
+      "topics": [
+        "How to spot problems worth solving (kids edition)",
+        "The 'I wish this existed' game — how every great app started",
+        "Idea generation techniques: brainstorming, mind maps, sticky notes",
+        "Good ideas vs. great ideas — judging your own thoughts",
+        "User empathy for kids — designing for a friend, sibling, or grandparent",
+        "Competitor research made fun — what already exists?",
+        "Picking your problem statement and writing it in one sentence",
+        "Sketching your first wireframe by hand and on paper",
+        "Storyboarding your idea — 6 panels, like a comic strip",
+        "Sharing ideas in a group without fear — feedback rules"
+      ],
+      "projects": [
+        "My Idea Comic — 6-panel storyboard of your hackathon dream project",
+        "Problem Statement Card (one sentence)",
+        "Empathy Interview — interview a family member about their daily problems"
+      ],
+      "vibe_challenge": "Find 3 problems in your home or school that you think coding could solve.",
+      "parent_note": "Encourage your child to interview you about your daily annoyances — these are real product ideas in disguise."
+    },
+    "week_3": {
+      "title": "Week 3: Coding Logic — Loops, Conditions & Variables in Scratch",
+      "theme": "Programming Fundamentals",
+      "topics": [
+        "Loops: how computers repeat tasks — the foundation of efficient code",
+        "If-Then-Else: making computers make decisions",
+        "Variables: storing scores, names, and data",
+        "Why every hackathon project needs these 3 building blocks",
+        "Sequence, selection, repetition — the holy trinity of coding logic",
+        "Building a number guessing game — your first 'algorithm'",
+        "Debugging: finding bugs without crying — printing values to investigate",
+        "Comments and notes — making your code readable to teammates",
+        "Hackathon-style challenges: 30-minute build sprints",
+        "Code reviews with classmates — being kind and helpful"
+      ],
+      "projects": [
+        "Number Guessing Game with hints",
+        "Score-Tracking Quiz Game (5 questions)",
+        "Loop Art — generate a star pattern using only loops"
+      ],
+      "vibe_challenge": "Use only loops and conditionals to build a 'simon says' style memory game.",
+      "parent_note": "Loops, conditionals and variables are the same building blocks used in every app on your phone — your child is now learning the universal language of computing."
+    },
+    "week_4": {
+      "title": "Week 4: First Mini Hackathon (Solo) — Build & Pitch in 4 Hours",
+      "theme": "First Hackathon Simulation",
+      "topics": [
+        "Hackathon pacing: how to use 4 hours wisely",
+        "The 4-hour template: 30 min ideate, 2.5 hr build, 30 min polish, 30 min pitch",
+        "Choosing scope: what NOT to build is more important than what to build",
+        "Building your project from a problem statement",
+        "Time-boxing: setting timers and sticking to them",
+        "What to do when stuck (the '15-minute rule')",
+        "Recording a 60-second demo video with Loom or screen capture",
+        "Writing your project's README — title, problem, solution, how to use",
+        "Pitching to mentors: how to talk about your build with confidence",
+        "Phase 1 review and Phase 1 capstone presentation"
+      ],
+      "projects": [
+        "PHASE 1 CAPSTONE — Solo Mini Hackathon: 4-hour build + 60-second demo + 1-page README. Choose any problem from your Idea Wall."
+      ],
+      "vibe_challenge": "Beat the timer — finish your capstone in under 4 hours from scratch.",
+      "assessment": "Phase 1 Mini Hackathon Assessment — judged on innovation, execution, clarity"
+    }
+  },
+  "phase_2_build_skills": {
+    "title": "PHASE 2: Build Skills — AI, Algorithms & Team Hacking (Weeks 5–8)",
+    "description": "Kids level up to AI tools, learn the basics of algorithms (the secret sauce of efficient hackathon projects), discover Replit and Bolt.new, and start working in teams of 2–3. By Week 8, they will have built their first AI-powered hackathon project with a partner.",
+    "week_5": {
+      "title": "Week 5: Vibe Coding with AI — Build Apps by Talking to Computers",
+      "theme": "AI-Assisted Development",
+      "topics": [
+        "What is AI and how do hackers use it to ship faster?",
+        "Meet Replit Agent — describe an app, watch it appear",
+        "Meet Bolt.new — full apps from a single sentence",
+        "Prompt writing for hackathons: be specific, be visual, be small",
+        "Iterating with AI: 'change the color', 'add a button', 'fix this bug'",
+        "AI vs. human coding: when to use which",
+        "Reading AI-generated code without panicking",
+        "Asking Google Gemini to explain code line-by-line",
+        "Limits of AI — what it gets wrong, why you still need to think",
+        "Ethical AI use in hackathons — credit, originality, transparency"
+      ],
+      "projects": [
+        "AI-Built Calculator with custom theme (Replit Agent)",
+        "AI-Built Quiz App on a topic you love (Bolt.new)",
+        "AI-Explained Code Journal — print 3 AI snippets and write what each line does"
+      ],
+      "vibe_challenge": "Build an app entirely by voice — talk to AI, no typing.",
+      "parent_note": "Andrej Karpathy named this 'vibe coding' in 2025 and it became Word of the Year. Your child is using the same tools as professional engineers right now."
+    },
+    "week_6": {
+      "title": "Week 6: Algorithms for Kids — Sorting, Searching & Pathfinding",
+      "theme": "Efficient Logic & Algorithm Thinking",
+      "topics": [
+        "What is an algorithm? Simple recipe metaphor",
+        "Why algorithms matter in hackathons (slow apps lose, fast apps win)",
+        "Sorting: bubble sort visualized as kids in a line",
+        "Searching: linear vs. binary — finding the right book on the shelf",
+        "Pathfinding basics — the maze game",
+        "Big O for kids: 'fast', 'slow', 'really slow' (no math symbols yet)",
+        "Choosing the right algorithm for your hackathon idea",
+        "Using AI to suggest algorithms when stuck",
+        "Visualizing algorithms in Scratch with sprites",
+        "Mini-challenge: implement 2 sorts and race them"
+      ],
+      "projects": [
+        "Sorting Race — animate bubble sort vs. insertion sort with sprites",
+        "Maze Solver — a sprite that finds the exit using a simple algorithm",
+        "Word Search Game — implement linear search visually"
+      ],
+      "vibe_challenge": "Make your sorting animation explain itself with text bubbles as it runs.",
+      "parent_note": "Algorithm thinking is the single highest-leverage skill for every coder. Companies test for this in every interview, even at adult level."
+    },
+    "week_7": {
+      "title": "Week 7: Team Hacking — Roles, GitHub Basics & Collaboration",
+      "theme": "Working in Hackathon Teams",
+      "topics": [
+        "Why hackathons love teams of 2–3",
+        "The 3 hackathon roles: Builder (writes code), Designer (makes it pretty), Pitcher (tells the story)",
+        "Picking a teammate — strengths and personalities",
+        "Communication tools: Google Docs, Figma Jam, voice notes",
+        "Sharing code through Replit Multiplayer (kid-safe)",
+        "Introduction to GitHub — what is a repository?",
+        "Forking, committing and pushing — explained with playground analogies",
+        "Resolving 'who builds what' fights without drama",
+        "Daily 5-minute stand-ups: what I did, what I'm doing, what I need help with",
+        "Sharing credit — every teammate's name on the project"
+      ],
+      "projects": [
+        "Team Charter — 1 page on roles, rules, and project goals",
+        "Pair-Built Story App — two kids, one app, built collaboratively in Replit",
+        "Mini GitHub Profile — your first repo with your project README"
+      ],
+      "vibe_challenge": "Build with a teammate where you swap roles every 30 minutes.",
+      "parent_note": "The single biggest skill kids miss in school is collaborative coding. This week is gold."
+    },
+    "week_8": {
+      "title": "Week 8: Mock Hackathon (Teams) — 8-Hour Sprint Across Two Days",
+      "theme": "Realistic Hackathon Practice",
+      "topics": [
+        "Forming hackathon teams (2–3 kids, mentor-paired)",
+        "Selecting a problem statement from a curated list",
+        "Day 1: 4-hour build sprint with Replit + Bolt.new + Scratch",
+        "Day 2: 2-hour polish + 1-hour pitch prep + 1-hour live demos",
+        "Time-boxing: how mentors keep teams from over-engineering",
+        "Mid-sprint check-ins with mentors",
+        "Designing a 1-slide pitch deck in Canva",
+        "Recording a 90-second demo video together",
+        "Live presentation to peer judges",
+        "Receiving feedback gracefully — what worked, what to improve"
+      ],
+      "projects": [
+        "PHASE 2 CAPSTONE — Team Mock Hackathon: pick a problem, ship an MVP in 8 hours, deliver a 90-second demo with team intro and judge Q&A"
+      ],
+      "vibe_challenge": "Pick the smallest possible MVP — and finish it 60 minutes early.",
+      "assessment": "Mock Hackathon Judges Panel — innovation, technical execution, design, pitch clarity, teamwork"
+    }
+  },
+  "phase_3_hackathon_sprint": {
+    "title": "PHASE 3: Real Hackathon Sprint — Capstone, Pitch & Live Hackathon Weekend (Weeks 9–12)",
+    "description": "The final phase is a real hackathon journey. Kids pick their dream project, get paired with mentors, build their capstone over 4 weeks, get pitch coaching, record final demos, and compete in the official Modern Age Coders Live Hackathon Weekend at the end of Week 12 — the same hackathon that's free for the public.",
+    "week_9": {
+      "title": "Week 9: Capstone Idea Lock — Mentor Matching & Project Plan",
+      "theme": "Capstone Kickoff",
+      "topics": [
+        "Picking your capstone problem statement (3–5 idea finalists)",
+        "Mentor matching — every team gets a personal hackathon mentor",
+        "Writing the capstone proposal: problem, users, solution, tech stack",
+        "Hackathon judging rubric explained (innovation 25%, execution 25%, design 25%, pitch 25%)",
+        "Designing your project board — Trello-for-kids visual planning",
+        "Stretch goals vs. core MVP",
+        "Risk planning: what could go wrong and how we'll handle it",
+        "First architecture sketch (boxes-and-arrows)",
+        "Setting up your repo, your team channel, your Canva board",
+        "Locking the scope — saying NO to feature creep"
+      ],
+      "projects": [
+        "Capstone Proposal Document",
+        "MVP Definition (one paragraph)",
+        "Architecture Sketch (paper or Figma Jam)"
+      ],
+      "vibe_challenge": "Cut your idea in half — and then in half again. What's the smallest version that's still magical?",
+      "parent_note": "The skill of cutting scope is what separates winners from losers in every hackathon."
+    },
+    "week_10": {
+      "title": "Week 10: Build Sprint — Code, AI, Iterate, Repeat",
+      "theme": "Heavy Building Week",
+      "topics": [
+        "Day-by-day build plan (kids learn to plan their week)",
+        "Working with AI tools at high speed",
+        "Debugging strategies: rubber duck debugging, AI-assisted debugging",
+        "Component thinking — break big projects into small reusable parts",
+        "Asset creation in Canva — backgrounds, sprites, icons",
+        "Sound and music for projects (free libraries)",
+        "Mid-week mentor reviews: what's done, what's blocked",
+        "Pair programming with your teammate",
+        "Quality bar: what 'good enough' looks like for a kids hackathon",
+        "Daily commits — writing kind, clear messages"
+      ],
+      "projects": [
+        "Capstone build — 70% complete by end of Week 10",
+        "Daily standup logs (5 lines per day)",
+        "Mid-sprint demo to mentor"
+      ],
+      "vibe_challenge": "Ship something every single day — even if it's tiny.",
+      "parent_note": "Daily progress beats weekend heroics. Reinforce the habit of small daily wins."
+    },
+    "week_11": {
+      "title": "Week 11: Pitch Coaching & Demo Polish — Tell the Story",
+      "theme": "Pitch & Demo Mastery",
+      "topics": [
+        "What judges actually look for: clarity, impact, energy, originality",
+        "The 90-second pitch formula: Hook → Problem → Solution → Demo → Ask",
+        "Practicing in front of a mirror, then a parent, then your team",
+        "Recording your pitch on camera (5+ takes)",
+        "Slide design in Canva — title, problem, solution, tech, team, thank you",
+        "Demo recording with Loom — show, don't tell",
+        "Voice tips for kids: pace, pauses, smiles",
+        "Handling Q&A — what to say when you don't know the answer",
+        "Making your project README judge-ready (problem, demo link, screenshots, team)",
+        "Final polish on your build: bugs, edge cases, mobile view"
+      ],
+      "projects": [
+        "Pitch Slides (5 slides, Canva)",
+        "Pitch Video (90 seconds, recorded)",
+        "Final README (judge-ready)"
+      ],
+      "vibe_challenge": "Pitch your project to 3 different audiences: a younger sibling, a grandparent, and a teacher — and adapt for each.",
+      "parent_note": "Pitching is the most underrated skill in tech. Even adult engineers struggle with it. Your child is learning it at age 10."
+    },
+    "week_12": {
+      "title": "Week 12: LIVE HACKATHON WEEKEND — Compete, Demo & Get Crowned",
+      "theme": "The Real Hackathon",
+      "topics": [
+        "Friday evening: kickoff ceremony, theme announcement, team check-in",
+        "Saturday all-day: 8-hour final sprint with mentor support",
+        "Saturday evening: pitch dress rehearsal",
+        "Sunday morning: final 2-hour polish + submission upload",
+        "Sunday afternoon: live judging — every team presents",
+        "Categories: Most Innovative, Best Built, Best Designed, Best Pitch, Audience Favorite",
+        "Live judge Q&A — handled with grace and confidence",
+        "Awards ceremony — certificates, badges and Hall of Fame inclusion",
+        "Reflection circle: what I learned about myself",
+        "Graduation: Junior Hackathon Builder Certification awarded"
+      ],
+      "projects": [
+        "GRAND CAPSTONE — Live Hackathon Submission: working project + 90-second demo video + 5-slide pitch deck + judge-ready README + live presentation"
+      ],
+      "assessment": "Final Hackathon Scoring + Judge Feedback Letter",
+      "certification": "Junior Hackathon Builder — Modern Age Coders Certified"
+    }
+  },
+  "free_hackathon_event": {
+    "title": "The Live Hackathon — Free for Everyone",
+    "description": "Modern Age Coders runs a free, public-access hackathon every quarter. Anyone aged 8–12 can register — whether or not they took our prep course. The prep course is for kids who want focused training; the hackathon itself charges nothing.",
+    "what_is_included_free": [
+      "Free hackathon registration (no fee)",
+      "Free 48-hour event access (online + select offline cities)",
+      "Free mentors during the event (ratio 1 mentor per 5 teams)",
+      "Free judging panel access — top judges from EdTech and startups",
+      "Free certificate of participation for every team",
+      "Free Hall of Fame listing for top 10 projects",
+      "Free post-hackathon code review for all submissions"
+    ],
+    "what_the_paid_prep_includes": [
+      "Same monthly pricing as other Modern Age Coders courses (Group ₹1,499/mo, Mini Batch ₹2,499/mo, 1-on-1 ₹4,999/mo)",
+      "12 weeks of structured curriculum",
+      "Live classes + recorded replays",
+      "Personal mentor matching for capstone",
+      "1-on-1 pitch coaching",
+      "Junior Hackathon Builder certification",
+      "Priority spot on the live hackathon judging stage"
+    ],
+    "frequency": "Quarterly — March, June, September, December",
+    "location": "Online (global) + Offline community pods in 30+ Indian cities",
+    "languages": "English, Hindi, Bengali, Tamil, Telugu (subtitles)"
+  },
+  "faqs": [
+    {
+      "question": "Is the hackathon really free for kids?",
+      "answer": "Yes — 100% free. Any child aged 8–12 can register and compete in the Modern Age Coders Live Hackathon at zero cost. No fees, no hidden charges, no payment required to participate, get judged, or receive a certificate."
+    },
+    {
+      "question": "Then why is there a paid prep course?",
+      "answer": "The prep course is optional. It's for parents and kids who want serious, structured training before the hackathon — coding skills, AI tools, algorithm thinking, team practice and pitch coaching. It's priced the same as our other courses (Group ₹1,499/mo, Mini Batch ₹2,499/mo, 1-on-1 ₹4,999/mo). Many kids do the prep, many compete without it. Both are valid paths."
+    },
+    {
+      "question": "Does my child need any prior coding experience?",
+      "answer": "Absolutely not. The prep course starts from zero. Kids learn Scratch, basic logic, AI tools, and team-building from scratch. Even kids who have never touched a computer in coding mode are welcomed."
+    },
+    {
+      "question": "What is the age range?",
+      "answer": "Ages 8–12. The content, pace, projects and pitch coaching are all designed for this age group. We have separate Hackathon programs for Teens (13–17) and Adults (18+)."
+    },
+    {
+      "question": "How much time will the prep course take per week?",
+      "answer": "Plan for 4–6 hours weekly: 2 live classes (1.5 hours each) plus 1–3 hours of independent project work. All sessions are recorded so your child never falls behind if they miss one."
+    },
+    {
+      "question": "What does my child build in the prep course?",
+      "answer": "Over 12 weeks, your child will build at least 4 mini-hackathon projects, 1 team project, and 1 grand capstone — all judge-ready with demo videos, README documentation, and Canva pitch decks. Plus they compete in the live free hackathon at the end."
+    },
+    {
+      "question": "Do they really learn algorithms at age 8?",
+      "answer": "Yes — visually and playfully. We teach sorting, searching and pathfinding through Scratch animations, mazes and games. No math heavy notation. The goal is to build algorithm intuition, not memorize Big O. This intuition compounds for years."
+    },
+    {
+      "question": "What do they get at the end?",
+      "answer": "A Junior Hackathon Builder certificate (Modern Age Coders Certified), a public portfolio of 5+ projects, a 90-second pitch video, a Hall of Fame listing if they place top-10, and direct admission preference to our Hackathon for Teens program."
+    },
+    {
+      "question": "What tools will my child use?",
+      "answer": "Scratch 3.0, Code.org, Replit, Bolt.new, Google Gemini, Google Teachable Machine, Canva, Figma Jam, Loom, MakeCode Arcade, and basic GitHub. All free, browser-based, and kid-safe."
+    },
+    {
+      "question": "Are there refunds if my child doesn't enjoy it?",
+      "answer": "Yes. If you are not satisfied within the first 2 weeks of the prep course, we offer a full refund — no questions asked. The free hackathon participation is, of course, free."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Ananya Iyer (Parent of 9-year-old Vihaan)",
+      "text": "Vihaan walked into the hackathon weekend nervous and walked out a changed kid. He pitched his AI flashcard app to a panel of judges and got 'Best Pitch'. Modern Age Coders made it feel safe, fun and serious all at once.",
+      "rating": 5
+    },
+    {
+      "name": "Karan Bhatia (Parent of 11-year-old Sara)",
+      "text": "Sara learned more in 12 weeks than she did in 2 years of school computer class. She now talks about MVPs and pitch decks at the dinner table. The free hackathon is genius — every kid in our building registered.",
+      "rating": 5
+    },
+    {
+      "name": "Meera Reddy (Parent of 10-year-old Arjun)",
+      "text": "The mentors are world-class. The team-building was emotional — Arjun made his first 'work friends'. Watching him debug under pressure with his teammate was something I'll never forget.",
+      "rating": 5
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Weeks 1–4): 6+ Scratch mini-hacks + Solo Mini Hackathon",
+      "Phase 2 (Weeks 5–8): 6+ AI/algorithm projects + Team Mock Hackathon",
+      "Phase 3 (Weeks 9–12): Capstone build + Pitch deck + Demo video + LIVE Hackathon submission"
+    ],
+    "total_projects_built": "12+ projects + Grand Live Hackathon Capstone",
+    "skills_mastered": [
+      "Hackathon Mindset & MVP scoping",
+      "Scratch 3.0 programming logic",
+      "Vibe Coding with Replit Agent and Bolt.new",
+      "AI Tools: Google Gemini, Teachable Machine",
+      "Algorithm fundamentals: sorting, searching, pathfinding",
+      "Team collaboration with Builder/Designer/Pitcher roles",
+      "Canva pitch deck design",
+      "Loom demo video recording",
+      "Public speaking and 90-second pitches",
+      "Project documentation: README, problem, solution"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 sessions (1.5 hours each)",
+      "independent_projects": "1–3 hours",
+      "vibe_challenge": "1 themed weekly hack",
+      "total_per_week": "4–6 hours"
+    },
+    "certification": {
+      "final_certificate": "Junior Hackathon Builder — Modern Age Coders Certified",
+      "capstone_required": "Live hackathon submission with demo and pitch",
+      "portfolio": "12+ projects + grand capstone"
+    },
+    "support_provided": {
+      "live_instruction": "Expert hackathon mentors with judging experience",
+      "parent_dashboard": "Weekly progress tracking",
+      "age_appropriate": "Designed exclusively for ages 8–12",
+      "safe_environment": "Moderated, kind, bully-free classroom",
+      "community": "Junior Hackathon Builders Hall of Fame"
+    }
+  },
+  "prerequisites": {
+    "age": "8–12 years old",
+    "experience": "Absolutely none — beginners welcome",
+    "equipment": "A computer or laptop with internet connection",
+    "software": "All tools are free and browser-based — nothing to install",
+    "parental_support": "Encouraged to attend final demo day"
+  },
+  "who_is_this_for": {
+    "curious_kids": "Children aged 8–12 who love building things",
+    "competitive_kids": "Kids who enjoy challenges, time-limits and judges",
+    "shy_kids": "Quiet kids who want a safe place to find their voice (pitch coaching changes lives)",
+    "ai_curious_kids": "Kids who want to learn AI tools the right way",
+    "school_innovation_clubs": "School coding club members preparing for inter-school hackathons"
+  },
+  "career_paths_after_completion": [
+    "Junior Hackathon Builder",
+    "Future Coding Olympiad Participant",
+    "School Innovation Club Leader",
+    "Ready for Hackathon for Teens program",
+    "Foundation for science fairs, robotics leagues and pitch competitions"
+  ],
+  "salary_expectations": {
+    "note": "This is a foundational kids program — career outcomes apply at later stages",
+    "next_step": "Hackathon for Teens (Ages 13–17)",
+    "long_term": "Students who continue to College level can earn ₹6–25 LPA in tech/innovation roles"
+  },
+  "course_guarantees": {
+    "free_hackathon": "Hackathon participation always free for any child aged 8–12",
+    "project_portfolio": "12+ completed projects + capstone",
+    "recorded_classes": "Every session recorded — never miss a class",
+    "mentor_matching": "Personal hackathon mentor in Phase 3",
+    "pitch_coaching": "1-on-1 pitch coaching included",
+    "certificate": "Junior Hackathon Builder certification on completion",
+    "satisfaction": "Full refund within first 2 weeks if not satisfied"
+  },
+  "relatedCourses": [
+    "vibe-coding-for-kids-beginners-ai-scratch-game-dev",
+    "kids-coding-blocks-masterclass",
+    "scratch-programming-complete-course",
+    "kids-ai-mastery-course",
+    "problem-solving-and-computational-thinking-for-kids"
+  ]
+}
