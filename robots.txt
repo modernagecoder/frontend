@@ -50,6 +50,15 @@ Allow: /best-coding-classes-online
 Allow: /ai-ml-course-for-teens
 Allow: /java-programming-for-kids-teens
 
+# Country landing pages — high-value SEO hubs
+Allow: /coding-classes-in-india
+Allow: /coding-classes-in-switzerland
+Allow: /coding-classes-in-germany
+Allow: /coding-classes-in-united-kingdom
+Allow: /coding-classes-in-canada
+Allow: /coding-classes-in-sweden
+Allow: /coding-classes-in-united-states
+
 # Sitemap locations
 Sitemap: https://learn.modernagecoders.com/sitemap.xml
 Sitemap: https://learn.modernagecoders.com/sitemap-resources.xml

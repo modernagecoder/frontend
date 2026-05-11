@@ -217,6 +217,29 @@
 
 # SEO hub pages - clean URL rewrites (no trailing slash)
 /coding-classes-in-india /src/pages/coding-classes-in-india.html 200
+
+# Country landing pages — clean URL rewrites
+/coding-classes-in-switzerland /src/pages/coding-classes-in-switzerland.html 200
+/coding-classes-in-germany /src/pages/coding-classes-in-germany.html 200
+/coding-classes-in-united-kingdom /src/pages/coding-classes-in-united-kingdom.html 200
+/coding-classes-in-canada /src/pages/coding-classes-in-canada.html 200
+/coding-classes-in-sweden /src/pages/coding-classes-in-sweden.html 200
+/coding-classes-in-united-states /src/pages/coding-classes-in-united-states.html 200
+
+# Friendly aliases (short forms → canonical) — 301 permanent
+/coding-classes-in-uk /coding-classes-in-united-kingdom 301!
+/coding-classes-in-usa /coding-classes-in-united-states 301!
+/coding-classes-in-us /coding-classes-in-united-states 301!
+/coding-classes-in-britain /coding-classes-in-united-kingdom 301!
+/coding-classes-in-america /coding-classes-in-united-states 301!
+
+# .md companion files (for AI agents / LLM crawlers)
+/coding-classes-in-switzerland.md /src/pages/coding-classes-in-switzerland.md 200
+/coding-classes-in-germany.md /src/pages/coding-classes-in-germany.md 200
+/coding-classes-in-united-kingdom.md /src/pages/coding-classes-in-united-kingdom.md 200
+/coding-classes-in-canada.md /src/pages/coding-classes-in-canada.md 200
+/coding-classes-in-sweden.md /src/pages/coding-classes-in-sweden.md 200
+/coding-classes-in-united-states.md /src/pages/coding-classes-in-united-states.md 200
 /learn-coding-by-class /src/pages/learn-coding-by-class.html 200
 /learn-coding-by-age /src/pages/learn-coding-by-age.html 200
 

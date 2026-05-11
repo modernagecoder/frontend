@@ -869,6 +869,99 @@
   to = "/src/pages/coding-classes-in-india.html"
   status = 200
 
+# Country landing pages — clean URL rewrites
+[[redirects]]
+  from = "/coding-classes-in-switzerland"
+  to = "/src/pages/coding-classes-in-switzerland.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-germany"
+  to = "/src/pages/coding-classes-in-germany.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-united-kingdom"
+  to = "/src/pages/coding-classes-in-united-kingdom.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-canada"
+  to = "/src/pages/coding-classes-in-canada.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sweden"
+  to = "/src/pages/coding-classes-in-sweden.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-united-states"
+  to = "/src/pages/coding-classes-in-united-states.html"
+  status = 200
+
+# Friendly aliases for country pages (uk/us short forms)
+[[redirects]]
+  from = "/coding-classes-in-uk"
+  to = "/coding-classes-in-united-kingdom"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-usa"
+  to = "/coding-classes-in-united-states"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-us"
+  to = "/coding-classes-in-united-states"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-britain"
+  to = "/coding-classes-in-united-kingdom"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-america"
+  to = "/coding-classes-in-united-states"
+  status = 301
+  force = true
+
+# .md companion files for AI agents / LLM crawlers
+[[redirects]]
+  from = "/coding-classes-in-switzerland.md"
+  to = "/src/pages/coding-classes-in-switzerland.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-germany.md"
+  to = "/src/pages/coding-classes-in-germany.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-united-kingdom.md"
+  to = "/src/pages/coding-classes-in-united-kingdom.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-canada.md"
+  to = "/src/pages/coding-classes-in-canada.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sweden.md"
+  to = "/src/pages/coding-classes-in-sweden.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-united-states.md"
+  to = "/src/pages/coding-classes-in-united-states.md"
+  status = 200
+
 [[redirects]]
   from = "/learn-coding-by-class"
   to = "/src/pages/learn-coding-by-class.html"
