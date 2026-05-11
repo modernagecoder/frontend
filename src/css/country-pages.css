@@ -3481,4 +3481,1626 @@
 .cp-us-bigquote .by span { color: var(--cp-white); font-weight: 600; font-size: 0.94rem; }
 .cp-us-bigquote .by small { color: var(--cp-text-mute); font-size: 0.82rem; display: block; }
 
+/* =====================================================================
+   AUSTRALIA COMPONENTS
+   Outback-sunset palette — terracotta orange + red-earth, warm vibe.
+   ===================================================================== */
+
+.cp-root.cp-au {
+    --cp-accent: #e76f00;       /* sunset orange */
+    --cp-accent-2: #c5302a;     /* red earth */
+    --cp-accent-soft: rgba(231, 111, 0, 0.13);
+    --cp-accent-glow: rgba(231, 111, 0, 0.32);
+    --au-deep: #0d0904;
+}
+.cp-root.cp-au { background: linear-gradient(180deg, var(--au-deep), var(--cp-bg-0) 70%); }
+.cp-root.cp-au .cp-eyebrow {
+    color: #ff9a4d;
+    background: rgba(231, 111, 0, 0.08);
+    border-color: rgba(231, 111, 0, 0.30);
+}
+
+/* --- AU Hero — diagonal split with warm sunset wash --- */
+.cp-au-hero {
+    position: relative;
+    padding: clamp(120px, 14vw, 200px) 0 clamp(60px, 7vw, 100px);
+    overflow: hidden;
+    isolation: isolate;
+}
+.cp-au-hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background:
+        radial-gradient(900px 500px at 88% 28%, rgba(231, 111, 0, 0.30), transparent 60%),
+        radial-gradient(700px 400px at 18% 78%, rgba(197, 48, 42, 0.20), transparent 60%);
+    z-index: -2;
+}
+.cp-au-hero::after {
+    /* Subtle horizon sweep, like a sunset rule across the page */
+    content: '';
+    position: absolute; left: 0; right: 0; top: 62%; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(231,111,0,0.7) 20%, rgba(197,48,42,0.7) 60%, transparent);
+    opacity: 0.5; z-index: -1;
+}
+.cp-au-hero .meta {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-family: var(--cp-font-mono); font-size: 11px;
+    color: var(--cp-text-soft); letter-spacing: 0.22em; text-transform: uppercase;
+    padding: 8px 16px 8px 12px;
+    background: rgba(255,255,255,0.025);
+    border: 1px solid var(--cp-line-strong);
+    border-radius: 999px; margin-bottom: 28px;
+}
+.cp-au-hero .meta .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--cp-accent);
+    box-shadow: 0 0 14px var(--cp-accent-glow);
+}
+.cp-au-hero h1 {
+    font-family: var(--cp-font-display);
+    font-size: clamp(2.5rem, 6.4vw, 5.6rem);
+    color: var(--cp-white); font-weight: 500;
+    line-height: 1.04; letter-spacing: -0.025em;
+    margin: 0 0 28px; max-width: 22ch;
+}
+.cp-au-hero h1 .grad {
+    background: linear-gradient(135deg, var(--cp-accent), #ffb260 50%, var(--cp-accent-2));
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.cp-au-hero h1 em {
+    font-style: italic; font-weight: 400; color: #ffb260;
+}
+.cp-au-hero .lede {
+    color: var(--cp-text-soft);
+    font-size: clamp(1.05rem, 1.5vw, 1.22rem);
+    line-height: 1.65; max-width: 64ch; margin: 0 0 36px;
+}
+.cp-au-hero .lede strong { color: var(--cp-white); font-weight: 600; }
+.cp-au-hero .ctas { display: inline-flex; gap: 14px; flex-wrap: wrap; }
+.cp-au-hero .quickstats {
+    margin-top: 56px;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
+    border-top: 1px solid var(--cp-line); border-bottom: 1px solid var(--cp-line);
+}
+.cp-au-hero .quickstats .it {
+    padding: 24px 22px; border-right: 1px solid var(--cp-line);
+}
+.cp-au-hero .quickstats .it:last-child { border-right: 0; }
+.cp-au-hero .quickstats .v {
+    display: block; font-family: var(--cp-font-display); font-weight: 600;
+    color: var(--cp-white); font-size: 2rem; line-height: 1;
+    letter-spacing: -0.03em; margin-bottom: 10px;
+}
+.cp-au-hero .quickstats .v .u { color: var(--cp-accent); font-size: 0.62em; margin-left: 2px; }
+.cp-au-hero .quickstats .l { color: var(--cp-text-soft); font-size: 0.88rem; line-height: 1.4; }
+@media (max-width: 880px) { .cp-au-hero .quickstats { grid-template-columns: 1fr 1fr; } .cp-au-hero .quickstats .it { border-bottom: 1px solid var(--cp-line); } .cp-au-hero .quickstats .it:nth-child(2) { border-right: 0; } }
+
+/* --- AU 3-timezone strip --- */
+.cp-au-tz {
+    border: 1px solid var(--cp-line);
+    border-radius: var(--cp-radius);
+    background: var(--cp-bg-1);
+    overflow: hidden;
+}
+.cp-au-tz-head {
+    padding: 14px 22px; border-bottom: 1px solid var(--cp-line);
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+.cp-au-tz-head .l { font-family: var(--cp-font-mono); font-size: 11px; color: var(--cp-text-mute); letter-spacing: 0.18em; text-transform: uppercase; }
+.cp-au-tz-head .l strong { color: var(--cp-accent); }
+.cp-au-tz-head .r { font-family: var(--cp-font-mono); font-size: 11px; color: var(--cp-text-soft); display: inline-flex; align-items: center; gap: 8px; }
+.cp-au-tz-head .r .live { width: 6px; height: 6px; border-radius: 50%; background: #22c55e; box-shadow: 0 0 10px #22c55e; }
+.cp-au-tz-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+.cp-au-tz-cell { padding: 24px 22px; border-right: 1px solid var(--cp-line); }
+.cp-au-tz-cell:last-child { border-right: 0; }
+.cp-au-tz-cell .z { font-family: var(--cp-font-mono); font-size: 10.5px; color: var(--cp-text-mute); letter-spacing: 0.16em; text-transform: uppercase; margin-bottom: 8px; }
+.cp-au-tz-cell .z strong { color: var(--cp-accent); }
+.cp-au-tz-cell .city { color: var(--cp-white); font-family: var(--cp-font-display); font-weight: 500; font-size: 1.05rem; margin-bottom: 6px; letter-spacing: -0.01em; }
+.cp-au-tz-cell .hr { color: var(--cp-text-soft); font-size: 0.88rem; line-height: 1.5; }
+.cp-au-tz-cell .hr em { font-style: normal; color: var(--cp-white); }
+@media (max-width: 880px) {
+    .cp-au-tz-grid { grid-template-columns: 1fr; }
+    .cp-au-tz-cell { border-right: 0; border-bottom: 1px solid var(--cp-line); }
+    .cp-au-tz-cell:last-child { border-bottom: 0; }
+}
+
+/* --- AU State exam grid (8 states + territories) --- */
+.cp-au-states {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+.cp-au-state {
+    padding: 24px 24px;
+    background: linear-gradient(180deg, var(--cp-bg-1), var(--au-deep));
+    border: 1px solid var(--cp-line);
+    border-radius: var(--cp-radius);
+    position: relative;
+    transition: border-color 0.2s, transform 0.2s;
+}
+.cp-au-state::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--cp-accent), var(--cp-accent-2));
+    opacity: 0; transition: opacity 0.2s;
+}
+.cp-au-state:hover { border-color: var(--cp-accent); transform: translateY(-3px); }
+.cp-au-state:hover::before { opacity: 1; }
+.cp-au-state .ab {
+    font-family: var(--cp-font-mono); font-size: 10.5px;
+    color: var(--cp-accent); letter-spacing: 0.18em; text-transform: uppercase;
+    margin-bottom: 6px;
+}
+.cp-au-state h3 {
+    color: var(--cp-white); font-family: var(--cp-font-display);
+    font-weight: 500; font-size: 1.1rem; margin: 0 0 8px;
+    letter-spacing: -0.01em;
+}
+.cp-au-state .exam {
+    font-family: var(--cp-font-display); font-style: italic;
+    color: var(--cp-accent); font-size: 0.92rem; margin: 0 0 12px;
+}
+.cp-au-state p { color: var(--cp-text-soft); font-size: 0.86rem; margin: 0; line-height: 1.55; }
+@media (max-width: 1080px) { .cp-au-states { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px)  { .cp-au-states { grid-template-columns: 1fr; } }
+
+/* --- AU Group of Eight uni showcase --- */
+.cp-au-go8 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+.cp-au-go8-card {
+    padding: 26px 22px;
+    background: var(--cp-bg-1);
+    border: 1px solid var(--cp-line);
+    border-radius: var(--cp-radius);
+    position: relative;
+    transition: border-color 0.2s, transform 0.2s, background 0.2s;
+    overflow: hidden;
+}
+.cp-au-go8-card:hover { border-color: var(--cp-accent); transform: translateY(-3px); background: var(--cp-bg-2); }
+.cp-au-go8-card .crest {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 48px; height: 48px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--cp-accent), var(--cp-accent-2));
+    color: #fff; font-family: var(--cp-font-display); font-weight: 600; font-size: 1.05rem;
+    margin-bottom: 14px;
+    letter-spacing: -0.01em;
+}
+.cp-au-go8-card h3 {
+    color: var(--cp-white); font-family: var(--cp-font-display);
+    font-weight: 500; font-size: 1.05rem; margin: 0 0 6px;
+    letter-spacing: -0.01em; line-height: 1.2;
+}
+.cp-au-go8-card .city {
+    color: var(--cp-accent); font-family: var(--cp-font-mono);
+    font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.cp-au-go8-card p { color: var(--cp-text-soft); font-size: 0.85rem; margin: 0; line-height: 1.5; }
+@media (max-width: 1080px) { .cp-au-go8 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px)  { .cp-au-go8 { grid-template-columns: 1fr; } }
+
+/* --- AU ATAR Pathway diagram --- */
+.cp-au-pathway {
+    background: var(--cp-bg-1);
+    border: 1px solid var(--cp-line-strong);
+    border-radius: var(--cp-radius-lg);
+    padding: 40px clamp(28px, 4vw, 56px);
+    position: relative;
+    overflow: hidden;
+}
+.cp-au-pathway .steps {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    align-items: center;
+    gap: 20px;
+}
+.cp-au-pathway .step {
+    padding: 22px 24px;
+    background: var(--cp-bg-0);
+    border: 1px solid var(--cp-accent-soft);
+    border-radius: var(--cp-radius);
+    text-align: center;
+}
+.cp-au-pathway .step .lbl {
+    font-family: var(--cp-font-mono); font-size: 10.5px;
+    color: var(--cp-accent); letter-spacing: 0.18em; text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.cp-au-pathway .step h4 {
+    color: var(--cp-white); font-family: var(--cp-font-display);
+    font-weight: 500; font-size: 1.2rem; margin: 0 0 8px;
+    letter-spacing: -0.01em;
+}
+.cp-au-pathway .step p { color: var(--cp-text-soft); font-size: 0.86rem; margin: 0; line-height: 1.45; }
+.cp-au-pathway .arrow {
+    color: var(--cp-accent); font-family: var(--cp-font-display);
+    font-size: 1.6rem; line-height: 1;
+}
+@media (max-width: 880px) {
+    .cp-au-pathway .steps { grid-template-columns: 1fr; gap: 12px; }
+    .cp-au-pathway .arrow { transform: rotate(90deg); margin: 0 auto; }
+}
+
+/* --- AU City spotlight (warm sunset variant) --- */
+.cp-au-cities {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+}
+.cp-au-city {
+    padding: 30px 28px;
+    background:
+        radial-gradient(300px 200px at 100% 0%, var(--cp-accent-soft), transparent 60%),
+        linear-gradient(180deg, var(--cp-bg-1), var(--au-deep));
+    border: 1px solid var(--cp-line);
+    border-radius: var(--cp-radius);
+    transition: border-color 0.2s, transform 0.2s;
+    position: relative;
+}
+.cp-au-city:hover { border-color: var(--cp-accent); transform: translateY(-3px); }
+.cp-au-city .top {
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin-bottom: 12px;
+}
+.cp-au-city h3 {
+    color: var(--cp-white); font-family: var(--cp-font-display);
+    font-weight: 500; font-size: 1.45rem; margin: 0;
+    letter-spacing: -0.015em;
+}
+.cp-au-city .tag {
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-accent); letter-spacing: 0.16em;
+    padding: 4px 10px; border-radius: 4px;
+    background: var(--cp-accent-soft);
+}
+.cp-au-city p { color: var(--cp-text-soft); font-size: 0.93rem; margin: 0 0 16px; line-height: 1.6; }
+.cp-au-city .stamps {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    padding-top: 14px; border-top: 1px solid var(--cp-line);
+    font-family: var(--cp-font-mono); font-size: 10.5px; color: var(--cp-text-mute);
+}
+.cp-au-city .stamps b { color: var(--cp-white); font-weight: 600; }
+@media (max-width: 880px) { .cp-au-cities { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .cp-au-cities { grid-template-columns: 1fr; } }
+
+
+/* ============================================================== */
+/* UAE — accent + unique components (.cp-ae namespace)            */
+/* Design language: Gulf modern — deep gold, emerald, sand        */
+/* ============================================================== */
+.cp-root.cp-ae {
+    --cp-accent: #c9a431;
+    --cp-accent-2: #0c6e4d;
+    --cp-accent-3: #e76f00;
+    --cp-accent-soft: rgba(201, 164, 49, 0.10);
+    --cp-accent-line: rgba(201, 164, 49, 0.32);
+    --cp-emerald: #0c6e4d;
+    --cp-sand: #e8d5a8;
+    --cp-onyx: #1a1612;
+}
+
+/* -- AE hero — skyline silhouette + dune gradient ----------------- */
+.cp-ae-hero {
+    position: relative;
+    padding: 96px 0 120px;
+    background:
+        radial-gradient(1100px 600px at 80% 0%, rgba(201, 164, 49, 0.18), transparent 60%),
+        radial-gradient(900px 480px at 10% 100%, rgba(12, 110, 77, 0.12), transparent 70%),
+        linear-gradient(180deg, #1a1612 0%, #0f0d0a 55%, #050402 100%);
+    overflow: hidden;
+}
+.cp-ae-hero::before {
+    content: ""; position: absolute; inset: auto 0 0 0; height: 280px;
+    background:
+        linear-gradient(180deg, transparent 0%, rgba(232, 213, 168, 0.04) 30%, rgba(232, 213, 168, 0.10) 100%),
+        repeating-linear-gradient(90deg, transparent 0 38px, rgba(201, 164, 49, 0.025) 38px 39px);
+    pointer-events: none;
+}
+.cp-ae-hero::after {
+    /* Dubai skyline silhouette using SVG-as-data-uri */
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 140px;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 140' preserveAspectRatio='none'><path fill='%23000000' fill-opacity='0.55' d='M0,140 L0,90 L40,90 L40,70 L80,70 L80,55 L110,55 L110,40 L140,40 L140,80 L180,80 L180,30 L210,30 L210,10 L230,10 L230,30 L250,30 L250,70 L280,70 L280,50 L320,50 L320,80 L360,80 L360,40 L390,40 L390,20 L405,20 L405,5 L420,5 L420,20 L440,20 L440,40 L470,40 L470,75 L510,75 L510,55 L550,55 L550,85 L590,85 L590,45 L625,45 L625,25 L640,25 L640,55 L675,55 L675,80 L720,80 L720,60 L750,60 L750,90 L790,90 L790,40 L820,40 L820,15 L838,15 L838,40 L860,40 L860,70 L905,70 L905,50 L940,50 L940,30 L955,30 L955,50 L980,50 L980,80 L1020,80 L1020,55 L1050,55 L1050,75 L1090,75 L1090,40 L1120,40 L1120,20 L1135,20 L1135,40 L1160,40 L1160,70 L1200,70 L1200,50 L1240,50 L1240,80 L1280,80 L1280,55 L1310,55 L1310,90 L1350,90 L1350,30 L1380,30 L1380,10 L1395,10 L1395,30 L1420,30 L1420,60 L1460,60 L1460,80 L1510,80 L1510,55 L1545,55 L1545,90 L1600,90 L1600,140 Z'/></svg>") center bottom / cover no-repeat;
+    pointer-events: none;
+    opacity: 0.9;
+}
+.cp-ae-hero .cp-wrap { position: relative; z-index: 2; }
+
+.cp-ae-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px;
+    background: linear-gradient(90deg, rgba(201, 164, 49, 0.12), rgba(12, 110, 77, 0.08));
+    border: 1px solid var(--cp-accent-line);
+    border-radius: 999px;
+    font-family: var(--cp-font-mono); font-size: 11px; font-weight: 600;
+    color: var(--cp-accent); letter-spacing: 0.18em; text-transform: uppercase;
+}
+.cp-ae-eyebrow::before {
+    content: ""; width: 8px; height: 8px; border-radius: 50%;
+    background: var(--cp-accent); box-shadow: 0 0 12px var(--cp-accent);
+}
+
+.cp-ae-h1 {
+    font-family: var(--cp-font-display);
+    font-size: clamp(2.4rem, 5.6vw, 4.4rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--cp-white);
+    margin: 22px 0 18px;
+    max-width: 22ch;
+}
+.cp-ae-h1 .gold {
+    background: linear-gradient(120deg, #c9a431 0%, #ecc658 40%, #c9a431 80%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent; color: transparent;
+}
+.cp-ae-h1 .emerald { color: var(--cp-emerald); }
+
+.cp-ae-sub {
+    font-size: 1.18rem; line-height: 1.65;
+    color: var(--cp-text-soft); max-width: 60ch; margin: 0 0 32px;
+}
+
+/* -- AE Arabic-aware ribbon -------------------------------------- */
+.cp-ae-ar-ribbon {
+    margin-top: 28px; padding: 14px 18px;
+    background: rgba(12, 110, 77, 0.10);
+    border: 1px solid rgba(12, 110, 77, 0.32);
+    border-radius: 12px;
+    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+}
+.cp-ae-ar-ribbon .ar {
+    font-family: 'Tajawal', system-ui, sans-serif;
+    font-size: 1.05rem; color: var(--cp-emerald); font-weight: 600;
+    direction: rtl;
+}
+.cp-ae-ar-ribbon .en {
+    font-size: 0.92rem; color: var(--cp-text-soft);
+    border-left: 1px solid rgba(232, 213, 168, 0.2); padding-left: 14px;
+}
+
+/* -- AE single-zone timezone strip ------------------------------- */
+.cp-ae-tz {
+    display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 18px;
+    margin: 32px 0;
+    background: linear-gradient(135deg, rgba(201, 164, 49, 0.06), rgba(12, 110, 77, 0.04));
+    border: 1px solid var(--cp-line); border-radius: 16px;
+    padding: 22px;
+}
+.cp-ae-tz-cell {
+    padding: 12px 16px; border-radius: 12px;
+    background: rgba(0, 0, 0, 0.28);
+    border: 1px solid var(--cp-line);
+}
+.cp-ae-tz-cell.primary {
+    border-color: var(--cp-accent-line);
+    background: rgba(201, 164, 49, 0.08);
+}
+.cp-ae-tz-cell .zone {
+    font-family: var(--cp-font-mono); font-size: 11px;
+    color: var(--cp-accent); font-weight: 700; letter-spacing: 0.18em;
+}
+.cp-ae-tz-cell .when {
+    font-size: 1.55rem; font-weight: 800; color: var(--cp-white);
+    margin: 4px 0 2px; font-family: var(--cp-font-mono); letter-spacing: -0.01em;
+}
+.cp-ae-tz-cell .where {
+    font-size: 0.84rem; color: var(--cp-text-mute);
+}
+@media (max-width: 760px) { .cp-ae-tz { grid-template-columns: 1fr; } }
+
+/* -- AE curriculum tabs (6 boards) ------------------------------- */
+.cp-ae-curriculum {
+    display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px;
+    margin-top: 28px;
+}
+.cp-ae-cur-card {
+    padding: 24px 18px; border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.25));
+    border: 1px solid var(--cp-line);
+    transition: all 0.25s ease;
+    position: relative; overflow: hidden;
+}
+.cp-ae-cur-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--cp-accent-line);
+    background: rgba(201, 164, 49, 0.05);
+}
+.cp-ae-cur-card .badge {
+    display: inline-block;
+    padding: 3px 8px;
+    font-family: var(--cp-font-mono); font-size: 10px; font-weight: 700;
+    background: var(--cp-accent); color: #000;
+    border-radius: 4px; letter-spacing: 0.08em;
+}
+.cp-ae-cur-card h3 {
+    font-family: var(--cp-font-display);
+    font-size: 1.15rem; margin: 10px 0 8px; color: var(--cp-white);
+    font-weight: 700;
+}
+.cp-ae-cur-card p {
+    font-size: 0.82rem; color: var(--cp-text-soft);
+    line-height: 1.55; margin: 0 0 10px;
+}
+.cp-ae-cur-card .schools {
+    font-family: var(--cp-font-mono); font-size: 10.5px;
+    color: var(--cp-text-mute); line-height: 1.6;
+}
+.cp-ae-cur-card .schools b { color: var(--cp-accent); font-weight: 600; }
+@media (max-width: 1080px) { .cp-ae-curriculum { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 720px) { .cp-ae-curriculum { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 460px) { .cp-ae-curriculum { grid-template-columns: 1fr; } }
+
+/* -- AE seven-emirate grid --------------------------------------- */
+.cp-ae-emirates {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 14px;
+    margin-top: 24px;
+}
+.cp-ae-em {
+    padding: 22px;
+    border-radius: 14px;
+    border: 1px solid var(--cp-line);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.28));
+    transition: border-color 0.2s ease;
+}
+.cp-ae-em:hover { border-color: var(--cp-accent-line); }
+.cp-ae-em.dubai { grid-column: 1 / 3; grid-row: 1; }
+.cp-ae-em.abu-dhabi { grid-column: 3 / 5; grid-row: 1; }
+.cp-ae-em.sharjah { grid-column: 1 / 2; grid-row: 2; }
+.cp-ae-em.ajman { grid-column: 2 / 3; grid-row: 2; }
+.cp-ae-em.rak { grid-column: 3 / 4; grid-row: 2; }
+.cp-ae-em.fujairah-uaq { grid-column: 4 / 5; grid-row: 2; }
+.cp-ae-em .em-tag {
+    display: inline-block;
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-accent); letter-spacing: 0.16em;
+    padding: 3px 8px; border-radius: 4px;
+    background: var(--cp-accent-soft);
+}
+.cp-ae-em h3 {
+    font-family: var(--cp-font-display);
+    font-size: 1.4rem; margin: 8px 0 4px; color: var(--cp-white); font-weight: 700;
+}
+.cp-ae-em .ar-name {
+    font-family: 'Tajawal', system-ui, sans-serif;
+    color: var(--cp-emerald); font-size: 0.95rem;
+    margin: 0 0 12px; direction: rtl;
+}
+.cp-ae-em p { color: var(--cp-text-soft); font-size: 0.88rem; line-height: 1.6; margin: 0 0 10px; }
+.cp-ae-em .auth {
+    font-family: var(--cp-font-mono); font-size: 10.5px;
+    color: var(--cp-text-mute); border-top: 1px solid var(--cp-line);
+    padding-top: 10px;
+}
+.cp-ae-em .auth b { color: var(--cp-white); }
+@media (max-width: 880px) {
+    .cp-ae-emirates { grid-template-columns: 1fr 1fr; grid-template-rows: none; }
+    .cp-ae-em.dubai, .cp-ae-em.abu-dhabi { grid-column: span 2; grid-row: auto; }
+    .cp-ae-em.sharjah, .cp-ae-em.ajman, .cp-ae-em.rak, .cp-ae-em.fujairah-uaq { grid-column: auto; grid-row: auto; }
+}
+@media (max-width: 520px) {
+    .cp-ae-emirates { grid-template-columns: 1fr; }
+    .cp-ae-em.dubai, .cp-ae-em.abu-dhabi { grid-column: auto; }
+}
+
+/* -- AE KHDA inspection panel ----------------------------------- */
+.cp-ae-khda {
+    margin-top: 28px;
+    padding: 28px;
+    background:
+        linear-gradient(135deg, rgba(12, 110, 77, 0.08), rgba(201, 164, 49, 0.06));
+    border: 1px solid var(--cp-accent-line);
+    border-radius: 18px;
+    display: grid; grid-template-columns: 1fr 1.4fr; gap: 32px;
+    align-items: center;
+}
+.cp-ae-khda-left h3 {
+    font-family: var(--cp-font-display);
+    font-size: 1.5rem; color: var(--cp-white);
+    margin: 0 0 8px; font-weight: 700;
+}
+.cp-ae-khda-left p {
+    color: var(--cp-text-soft); font-size: 0.95rem;
+    line-height: 1.6; margin: 0;
+}
+.cp-ae-khda-grades {
+    display: flex; flex-direction: column; gap: 8px;
+}
+.cp-ae-khda-grade {
+    display: grid; grid-template-columns: 110px 1fr 80px;
+    gap: 12px; align-items: center;
+    padding: 10px 14px; border-radius: 8px;
+    background: rgba(0, 0, 0, 0.32);
+    font-family: var(--cp-font-mono); font-size: 12px;
+}
+.cp-ae-khda-grade .rating {
+    color: var(--cp-accent); font-weight: 700;
+    letter-spacing: 0.08em;
+}
+.cp-ae-khda-grade .label { color: var(--cp-text-soft); }
+.cp-ae-khda-grade .count {
+    color: var(--cp-emerald); font-weight: 700; text-align: right;
+}
+.cp-ae-khda-grade.outstanding { border-left: 3px solid #c9a431; }
+.cp-ae-khda-grade.very-good { border-left: 3px solid #0c6e4d; }
+@media (max-width: 720px) {
+    .cp-ae-khda { grid-template-columns: 1fr; }
+}
+
+/* -- AE university tiles ---------------------------------------- */
+.cp-ae-unis {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+    margin-top: 24px;
+}
+.cp-ae-uni {
+    padding: 20px; border-radius: 12px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.25));
+    border: 1px solid var(--cp-line);
+}
+.cp-ae-uni .country {
+    display: inline-block; padding: 3px 8px;
+    font-family: var(--cp-font-mono); font-size: 10px;
+    background: var(--cp-accent-soft); color: var(--cp-accent);
+    border-radius: 4px; letter-spacing: 0.1em;
+}
+.cp-ae-uni h4 {
+    font-family: var(--cp-font-display);
+    font-size: 1.05rem; color: var(--cp-white);
+    margin: 10px 0 4px; font-weight: 700;
+}
+.cp-ae-uni p { color: var(--cp-text-soft); font-size: 0.83rem; line-height: 1.55; margin: 0; }
+@media (max-width: 880px) { .cp-ae-unis { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .cp-ae-unis { grid-template-columns: 1fr; } }
+
+/* -- AE tech ecosystem towers ---------------------------------- */
+.cp-ae-towers {
+    display: grid; grid-template-columns: repeat(6, 1fr);
+    gap: 10px; align-items: end;
+    margin-top: 22px; padding: 24px 0;
+    border-top: 1px solid var(--cp-line);
+    border-bottom: 1px solid var(--cp-line);
+    min-height: 220px;
+}
+.cp-ae-tower {
+    background: linear-gradient(180deg, var(--cp-accent), rgba(201, 164, 49, 0.3));
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: default;
+    border: 1px solid rgba(201, 164, 49, 0.4);
+    border-bottom: none;
+}
+.cp-ae-tower:hover { transform: translateY(-4px); filter: brightness(1.15); }
+.cp-ae-tower .name {
+    position: absolute; top: -22px; left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-accent); white-space: nowrap;
+    letter-spacing: 0.06em;
+}
+.cp-ae-tower .role {
+    position: absolute; bottom: 10px; left: 8px; right: 8px;
+    font-family: var(--cp-font-mono); font-size: 9px;
+    color: rgba(0, 0, 0, 0.7); text-align: center;
+    line-height: 1.3;
+}
+.cp-ae-tower.t1 { height: 60%; }
+.cp-ae-tower.t2 { height: 85%; }
+.cp-ae-tower.t3 { height: 100%; background: linear-gradient(180deg, #ecc658, rgba(201, 164, 49, 0.35)); }
+.cp-ae-tower.t4 { height: 78%; }
+.cp-ae-tower.t5 { height: 92%; }
+.cp-ae-tower.t6 { height: 70%; }
+@media (max-width: 720px) {
+    .cp-ae-towers { grid-template-columns: repeat(3, 1fr); min-height: 280px; }
+    .cp-ae-tower.t4 { display: none; }
+    .cp-ae-tower.t5 { display: none; }
+    .cp-ae-tower.t6 { display: none; }
+}
+
+/* -- AE big quote -------------------------------------------- */
+.cp-ae-bigquote {
+    padding: 56px 48px;
+    border-radius: 24px;
+    background:
+        radial-gradient(600px 320px at 80% 0%, rgba(201, 164, 49, 0.16), transparent 60%),
+        linear-gradient(135deg, rgba(12, 110, 77, 0.08), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-accent-line);
+    position: relative;
+}
+.cp-ae-bigquote::before {
+    content: "\201C"; position: absolute;
+    top: -28px; left: 32px;
+    font-family: var(--cp-font-display); font-size: 8rem;
+    color: var(--cp-accent); opacity: 0.4;
+    line-height: 1;
+}
+.cp-ae-bigquote q {
+    quotes: none;
+    font-family: var(--cp-font-display);
+    font-size: clamp(1.4rem, 2.6vw, 1.85rem);
+    line-height: 1.45; color: var(--cp-white);
+    display: block; margin-bottom: 24px;
+    font-weight: 600;
+}
+.cp-ae-bigquote .by {
+    font-family: var(--cp-font-mono); font-size: 13px;
+    color: var(--cp-accent); letter-spacing: 0.1em;
+}
+.cp-ae-bigquote .by b { color: var(--cp-white); font-weight: 700; }
+@media (max-width: 720px) {
+    .cp-ae-bigquote { padding: 40px 24px; }
+}
+
+
+/* ============================================================== */
+/* SINGAPORE — accent + unique components (.cp-sg namespace)      */
+/* Design language: Marina Bay — orchid pink, teal, glass         */
+/* ============================================================== */
+.cp-root.cp-sg {
+    --cp-accent: #d63384;
+    --cp-accent-2: #008080;
+    --cp-accent-3: #ef4444;
+    --cp-accent-soft: rgba(214, 51, 132, 0.10);
+    --cp-accent-line: rgba(214, 51, 132, 0.32);
+    --cp-teal: #008080;
+    --cp-orchid: #d63384;
+    --cp-glass: rgba(255, 255, 255, 0.04);
+}
+
+/* -- SG hero — Marina Bay glass + lights ------------------------- */
+.cp-sg-hero {
+    position: relative;
+    padding: 96px 0 120px;
+    background:
+        radial-gradient(1000px 580px at 70% 10%, rgba(214, 51, 132, 0.16), transparent 60%),
+        radial-gradient(800px 420px at 20% 90%, rgba(0, 128, 128, 0.12), transparent 70%),
+        linear-gradient(180deg, #0a1419 0%, #050a0d 60%, #020405 100%);
+    overflow: hidden;
+}
+.cp-sg-hero::before {
+    /* Singapore skyline silhouette */
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 150px;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 150' preserveAspectRatio='none'><path fill='%23000000' fill-opacity='0.6' d='M0,150 L0,80 L50,80 L50,60 L90,60 L90,40 L110,40 L110,20 L130,20 L130,40 L160,40 L160,80 L200,80 L200,55 L240,55 L240,90 L280,90 L280,35 L295,35 L295,5 L310,5 L310,35 L335,35 L335,75 L380,75 L380,50 L420,50 L420,85 L460,85 L460,40 L500,40 L500,15 L515,15 L515,5 L530,5 L530,40 L555,40 L555,80 L600,80 L600,55 L640,55 L640,90 L680,90 L680,30 L700,30 L700,10 L720,10 L720,30 L745,30 L745,75 L790,75 L790,50 L830,50 L830,85 L870,85 L870,35 L890,35 L890,15 L910,15 L910,35 L935,35 L935,75 L980,75 L980,55 L1020,55 L1020,90 L1060,90 L1060,40 L1100,40 L1100,20 L1115,20 L1115,40 L1140,40 L1140,80 L1180,80 L1180,55 L1220,55 L1220,85 L1260,85 L1260,30 L1280,30 L1280,10 L1300,10 L1300,30 L1325,30 L1325,70 L1370,70 L1370,50 L1410,50 L1410,90 L1450,90 L1450,40 L1490,40 L1490,75 L1530,75 L1530,55 L1570,55 L1570,80 L1600,80 L1600,150 Z'/></svg>") center bottom / cover no-repeat;
+    pointer-events: none;
+}
+.cp-sg-hero::after {
+    content: ""; position: absolute; inset: 0;
+    background: repeating-linear-gradient(0deg, transparent 0 60px, rgba(214, 51, 132, 0.03) 60px 61px);
+    pointer-events: none;
+}
+.cp-sg-hero .cp-wrap { position: relative; z-index: 2; }
+
+.cp-sg-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px;
+    background: linear-gradient(90deg, rgba(214, 51, 132, 0.14), rgba(0, 128, 128, 0.10));
+    border: 1px solid var(--cp-accent-line);
+    border-radius: 999px;
+    font-family: var(--cp-font-mono); font-size: 11px; font-weight: 600;
+    color: var(--cp-accent); letter-spacing: 0.18em; text-transform: uppercase;
+}
+.cp-sg-eyebrow::before {
+    content: ""; width: 8px; height: 8px; border-radius: 50%;
+    background: var(--cp-accent); box-shadow: 0 0 12px var(--cp-accent);
+}
+
+.cp-sg-h1 {
+    font-family: var(--cp-font-display);
+    font-size: clamp(2.4rem, 5.6vw, 4.4rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--cp-white);
+    margin: 22px 0 18px;
+    max-width: 22ch;
+}
+.cp-sg-h1 .orchid {
+    background: linear-gradient(120deg, #d63384 0%, #f472b6 50%, #d63384 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent; color: transparent;
+}
+.cp-sg-h1 .teal { color: var(--cp-teal); }
+
+.cp-sg-sub {
+    font-size: 1.18rem; line-height: 1.65;
+    color: var(--cp-text-soft); max-width: 62ch; margin: 0 0 32px;
+}
+
+/* -- SG PSLE → A-Level pathway diagram (horizontal flow) -------- */
+.cp-sg-pathway {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    margin-top: 32px;
+    position: relative;
+}
+.cp-sg-pathway::before {
+    content: ""; position: absolute;
+    top: 28px; left: 8%; right: 8%; height: 2px;
+    background: linear-gradient(90deg, var(--cp-accent) 0%, var(--cp-teal) 100%);
+    z-index: 0;
+}
+.cp-sg-stage {
+    position: relative; z-index: 1;
+    padding: 18px 14px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(0, 0, 0, 0.28));
+    border: 1px solid var(--cp-line);
+    border-radius: 12px;
+}
+.cp-sg-stage .dot {
+    width: 24px; height: 24px; border-radius: 50%;
+    background: var(--cp-accent);
+    border: 4px solid #050a0d;
+    margin: -28px auto 12px;
+    box-shadow: 0 0 12px var(--cp-accent);
+}
+.cp-sg-stage .age {
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-accent); letter-spacing: 0.18em;
+    text-align: center;
+}
+.cp-sg-stage h4 {
+    font-family: var(--cp-font-display);
+    font-size: 0.98rem; color: var(--cp-white);
+    margin: 6px 0 6px; text-align: center; font-weight: 700;
+}
+.cp-sg-stage p {
+    font-size: 0.78rem; color: var(--cp-text-soft);
+    line-height: 1.5; margin: 0; text-align: center;
+}
+@media (max-width: 880px) {
+    .cp-sg-pathway { grid-template-columns: 1fr 1fr; }
+    .cp-sg-pathway::before { display: none; }
+}
+@media (max-width: 480px) {
+    .cp-sg-pathway { grid-template-columns: 1fr; }
+}
+
+/* -- SG IP-track callout (Integrated Programme schools) -------- */
+.cp-sg-ip {
+    margin-top: 30px;
+    padding: 32px;
+    border-radius: 18px;
+    background:
+        radial-gradient(500px 280px at 90% 10%, rgba(214, 51, 132, 0.14), transparent 70%),
+        linear-gradient(135deg, rgba(0, 128, 128, 0.08), rgba(0, 0, 0, 0.3));
+    border: 1px solid var(--cp-accent-line);
+    display: grid; grid-template-columns: 1.3fr 1fr; gap: 32px;
+    align-items: center;
+}
+.cp-sg-ip h3 {
+    font-family: var(--cp-font-display);
+    font-size: 1.6rem; color: var(--cp-white);
+    margin: 0 0 10px; font-weight: 700;
+}
+.cp-sg-ip p {
+    color: var(--cp-text-soft); font-size: 0.96rem;
+    line-height: 1.65; margin: 0 0 8px;
+}
+.cp-sg-ip-schools {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
+}
+.cp-sg-ip-school {
+    padding: 10px 12px;
+    background: rgba(0, 0, 0, 0.32);
+    border-left: 3px solid var(--cp-accent);
+    border-radius: 6px;
+    font-family: var(--cp-font-mono); font-size: 11px;
+    color: var(--cp-white);
+}
+.cp-sg-ip-school span {
+    display: block; color: var(--cp-text-mute);
+    font-size: 9.5px; margin-top: 2px;
+}
+@media (max-width: 760px) {
+    .cp-sg-ip { grid-template-columns: 1fr; }
+}
+
+/* -- SG university constellation (NUS / NTU / SMU / SUTD) ------ */
+.cp-sg-unis {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+    margin-top: 28px;
+}
+.cp-sg-uni {
+    position: relative;
+    padding: 26px 22px; border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-line);
+    transition: all 0.25s ease;
+    overflow: hidden;
+}
+.cp-sg-uni::before {
+    content: ""; position: absolute;
+    top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--cp-accent), var(--cp-teal));
+    opacity: 0.6;
+}
+.cp-sg-uni:hover {
+    transform: translateY(-3px);
+    border-color: var(--cp-accent-line);
+}
+.cp-sg-uni h4 {
+    font-family: var(--cp-font-display);
+    font-size: 1.1rem; color: var(--cp-white);
+    margin: 0 0 4px; font-weight: 700;
+}
+.cp-sg-uni .qs {
+    font-family: var(--cp-font-mono); font-size: 10.5px;
+    color: var(--cp-accent); letter-spacing: 0.12em;
+    margin-bottom: 12px;
+}
+.cp-sg-uni p { color: var(--cp-text-soft); font-size: 0.85rem; line-height: 1.55; margin: 0 0 10px; }
+.cp-sg-uni .programs {
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-text-mute); padding-top: 10px;
+    border-top: 1px solid var(--cp-line);
+}
+@media (max-width: 880px) { .cp-sg-unis { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .cp-sg-unis { grid-template-columns: 1fr; } }
+
+/* -- SG bilingual ribbon (Mandarin/Tamil/Malay) ---------------- */
+.cp-sg-bi {
+    margin-top: 24px; padding: 14px 18px;
+    background: rgba(0, 128, 128, 0.10);
+    border: 1px solid rgba(0, 128, 128, 0.32);
+    border-radius: 12px;
+    display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+}
+.cp-sg-bi .lang {
+    font-size: 0.95rem; color: var(--cp-teal); font-weight: 600;
+}
+.cp-sg-bi .lang.cn { font-family: 'Noto Sans SC', 'PingFang SC', system-ui, sans-serif; }
+.cp-sg-bi .en {
+    font-size: 0.88rem; color: var(--cp-text-soft);
+    border-left: 1px solid rgba(214, 51, 132, 0.2); padding-left: 14px;
+}
+
+/* -- SG tech ecosystem grid (Sea / Grab / GovTech / ...) ------- */
+.cp-sg-eco {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+    margin-top: 24px;
+}
+.cp-sg-eco-tile {
+    padding: 22px 18px; border-radius: 14px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.28));
+    border: 1px solid var(--cp-line);
+    transition: all 0.2s ease;
+}
+.cp-sg-eco-tile:hover {
+    border-color: var(--cp-accent-line);
+    background: rgba(214, 51, 132, 0.06);
+}
+.cp-sg-eco-tile .badge {
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-accent); letter-spacing: 0.14em;
+}
+.cp-sg-eco-tile h4 {
+    font-family: var(--cp-font-display);
+    font-size: 1.08rem; color: var(--cp-white);
+    margin: 8px 0 4px; font-weight: 700;
+}
+.cp-sg-eco-tile p { color: var(--cp-text-soft); font-size: 0.82rem; line-height: 1.55; margin: 0; }
+@media (max-width: 880px) { .cp-sg-eco { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 460px) { .cp-sg-eco { grid-template-columns: 1fr; } }
+
+/* -- SG PSLE-week countdown card -------------------------------- */
+.cp-sg-psle {
+    margin-top: 28px;
+    padding: 32px;
+    border-radius: 20px;
+    background:
+        radial-gradient(420px 220px at 10% 50%, rgba(239, 68, 68, 0.18), transparent 65%),
+        linear-gradient(135deg, rgba(214, 51, 132, 0.06), rgba(0, 0, 0, 0.4));
+    border: 1px solid var(--cp-accent-line);
+    display: grid; grid-template-columns: auto 1fr; gap: 28px;
+    align-items: center;
+}
+.cp-sg-psle-clock {
+    width: 130px; height: 130px;
+    border-radius: 50%;
+    background: conic-gradient(var(--cp-accent) 0% 70%, rgba(255,255,255,0.06) 70% 100%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative;
+}
+.cp-sg-psle-clock::after {
+    content: ""; position: absolute; inset: 8px;
+    border-radius: 50%; background: #050a0d;
+}
+.cp-sg-psle-clock span {
+    position: relative; z-index: 1;
+    font-family: var(--cp-font-display);
+    font-size: 1rem; color: var(--cp-white);
+    font-weight: 700; text-align: center; line-height: 1.2;
+}
+.cp-sg-psle-clock span b {
+    display: block; font-size: 1.5rem; color: var(--cp-accent);
+}
+.cp-sg-psle-content h3 {
+    font-family: var(--cp-font-display);
+    font-size: 1.4rem; color: var(--cp-white);
+    margin: 0 0 8px; font-weight: 700;
+}
+.cp-sg-psle-content p {
+    color: var(--cp-text-soft); font-size: 0.94rem;
+    line-height: 1.65; margin: 0;
+}
+@media (max-width: 640px) {
+    .cp-sg-psle { grid-template-columns: 1fr; text-align: center; }
+    .cp-sg-psle-clock { margin: 0 auto; }
+}
+
+/* -- SG bigquote -------------------------------------------- */
+.cp-sg-bigquote {
+    padding: 56px 48px;
+    border-radius: 24px;
+    background:
+        radial-gradient(700px 340px at 80% 0%, rgba(214, 51, 132, 0.16), transparent 60%),
+        linear-gradient(135deg, rgba(0, 128, 128, 0.08), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-accent-line);
+    position: relative;
+}
+.cp-sg-bigquote::before {
+    content: "\201C"; position: absolute;
+    top: -28px; left: 32px;
+    font-family: var(--cp-font-display); font-size: 8rem;
+    color: var(--cp-accent); opacity: 0.4; line-height: 1;
+}
+.cp-sg-bigquote q {
+    quotes: none;
+    font-family: var(--cp-font-display);
+    font-size: clamp(1.4rem, 2.6vw, 1.85rem);
+    line-height: 1.45; color: var(--cp-white);
+    display: block; margin-bottom: 24px;
+    font-weight: 600;
+}
+.cp-sg-bigquote .by {
+    font-family: var(--cp-font-mono); font-size: 13px;
+    color: var(--cp-accent); letter-spacing: 0.1em;
+}
+.cp-sg-bigquote .by b { color: var(--cp-white); font-weight: 700; }
+@media (max-width: 720px) {
+    .cp-sg-bigquote { padding: 40px 24px; }
+}
+
+
+/* ============================================================== */
+/* IRELAND — accent + unique components (.cp-ie namespace)        */
+/* Design language: Atlantic edge — emerald, copper, cliff-line  */
+/* ============================================================== */
+.cp-root.cp-ie {
+    --cp-accent: #0c8a4a;
+    --cp-accent-2: #c2410c;
+    --cp-accent-3: #fbbf24;
+    --cp-accent-soft: rgba(12, 138, 74, 0.10);
+    --cp-accent-line: rgba(12, 138, 74, 0.32);
+    --cp-emerald: #0c8a4a;
+    --cp-copper: #c2410c;
+    --cp-mist: #d4b896;
+}
+
+/* -- IE hero — Cliffs of Moher silhouette + mist ---------------- */
+.cp-ie-hero {
+    position: relative;
+    padding: 96px 0 130px;
+    background:
+        radial-gradient(900px 520px at 75% 15%, rgba(12, 138, 74, 0.18), transparent 60%),
+        radial-gradient(700px 420px at 15% 90%, rgba(194, 65, 12, 0.10), transparent 70%),
+        linear-gradient(180deg, #0a1a14 0%, #051008 60%, #020503 100%);
+    overflow: hidden;
+}
+.cp-ie-hero::before {
+    /* Cliffs of Moher / Atlantic horizon */
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 180px;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 180' preserveAspectRatio='none'><path fill='%23000000' fill-opacity='0.65' d='M0,180 L0,140 L80,135 L150,120 L220,128 L290,110 L360,105 L420,90 L470,72 L500,55 L540,40 L580,38 L620,50 L660,65 L700,55 L750,40 L800,30 L850,25 L900,18 L950,28 L1000,42 L1050,55 L1100,68 L1150,80 L1200,92 L1260,105 L1320,118 L1380,128 L1450,135 L1520,142 L1600,148 L1600,180 Z'/></svg>") center bottom / cover no-repeat;
+    pointer-events: none;
+}
+.cp-ie-hero::after {
+    content: ""; position: absolute; inset: 0;
+    background: repeating-linear-gradient(180deg, transparent 0 80px, rgba(12, 138, 74, 0.025) 80px 81px);
+    pointer-events: none;
+}
+.cp-ie-hero .cp-wrap { position: relative; z-index: 2; }
+
+.cp-ie-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px;
+    background: linear-gradient(90deg, rgba(12, 138, 74, 0.14), rgba(194, 65, 12, 0.10));
+    border: 1px solid var(--cp-accent-line);
+    border-radius: 999px;
+    font-family: var(--cp-font-mono); font-size: 11px; font-weight: 600;
+    color: var(--cp-accent); letter-spacing: 0.18em; text-transform: uppercase;
+}
+.cp-ie-eyebrow::before {
+    content: ""; width: 8px; height: 8px; border-radius: 50%;
+    background: var(--cp-accent); box-shadow: 0 0 12px var(--cp-accent);
+}
+
+.cp-ie-h1 {
+    font-family: var(--cp-font-display);
+    font-size: clamp(2.4rem, 5.6vw, 4.4rem);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--cp-white);
+    margin: 22px 0 18px;
+    max-width: 22ch;
+}
+.cp-ie-h1 .emerald {
+    background: linear-gradient(120deg, #0c8a4a 0%, #34d399 50%, #0c8a4a 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent; color: transparent;
+}
+.cp-ie-h1 .copper { color: var(--cp-copper); }
+
+.cp-ie-sub {
+    font-size: 1.18rem; line-height: 1.65;
+    color: var(--cp-text-soft); max-width: 62ch; margin: 0 0 32px;
+}
+
+/* -- IE Gaeilge ribbon ----------------------------------------- */
+.cp-ie-ga {
+    margin-top: 24px; padding: 14px 18px;
+    background: rgba(194, 65, 12, 0.10);
+    border: 1px solid rgba(194, 65, 12, 0.32);
+    border-radius: 12px;
+    display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+}
+.cp-ie-ga .ga {
+    font-size: 0.97rem; color: var(--cp-copper); font-weight: 600;
+    font-style: italic;
+}
+.cp-ie-ga .en {
+    font-size: 0.88rem; color: var(--cp-text-soft);
+    border-left: 1px solid rgba(12, 138, 74, 0.2); padding-left: 14px;
+}
+
+/* -- IE Junior Cycle → LC pathway diagram ---------------------- */
+.cp-ie-path {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    margin-top: 32px;
+    position: relative;
+}
+.cp-ie-path::before {
+    content: ""; position: absolute;
+    top: 28px; left: 9%; right: 9%; height: 2px;
+    background: linear-gradient(90deg, var(--cp-accent) 0%, var(--cp-copper) 100%);
+    z-index: 0;
+}
+.cp-ie-path-stage {
+    position: relative; z-index: 1;
+    padding: 18px 14px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(0, 0, 0, 0.28));
+    border: 1px solid var(--cp-line);
+    border-radius: 12px;
+}
+.cp-ie-path-stage .knot {
+    width: 28px; height: 28px;
+    background: var(--cp-accent);
+    border: 4px solid #051008;
+    margin: -28px auto 12px;
+    box-shadow: 0 0 12px var(--cp-accent);
+    transform: rotate(45deg);
+    border-radius: 4px;
+}
+.cp-ie-path-stage .age {
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-accent); letter-spacing: 0.18em;
+    text-align: center;
+}
+.cp-ie-path-stage h4 {
+    font-family: var(--cp-font-display);
+    font-size: 0.98rem; color: var(--cp-white);
+    margin: 6px 0 6px; text-align: center; font-weight: 700;
+}
+.cp-ie-path-stage p {
+    font-size: 0.78rem; color: var(--cp-text-soft);
+    line-height: 1.5; margin: 0; text-align: center;
+}
+@media (max-width: 880px) {
+    .cp-ie-path { grid-template-columns: 1fr 1fr; }
+    .cp-ie-path::before { display: none; }
+}
+@media (max-width: 480px) {
+    .cp-ie-path { grid-template-columns: 1fr; }
+}
+
+/* -- IE Transition Year highlight card ------------------------- */
+.cp-ie-ty {
+    margin-top: 30px;
+    padding: 36px;
+    border-radius: 20px;
+    background:
+        radial-gradient(600px 320px at 90% 10%, rgba(194, 65, 12, 0.16), transparent 65%),
+        linear-gradient(135deg, rgba(12, 138, 74, 0.08), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-accent-line);
+    display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px;
+    align-items: center;
+}
+.cp-ie-ty-tag {
+    display: inline-block;
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-copper); letter-spacing: 0.18em;
+    padding: 4px 10px; border-radius: 4px;
+    background: rgba(194, 65, 12, 0.12);
+    text-transform: uppercase;
+}
+.cp-ie-ty h3 {
+    font-family: var(--cp-font-display);
+    font-size: 1.65rem; color: var(--cp-white);
+    margin: 12px 0 12px; font-weight: 700; line-height: 1.2;
+}
+.cp-ie-ty p {
+    color: var(--cp-text-soft); font-size: 0.96rem;
+    line-height: 1.65; margin: 0 0 10px;
+}
+.cp-ie-ty-stats {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+}
+.cp-ie-ty-stat {
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.32);
+    border-left: 3px solid var(--cp-accent);
+    border-radius: 8px;
+}
+.cp-ie-ty-stat b {
+    display: block;
+    font-family: var(--cp-font-display); font-size: 1.6rem;
+    color: var(--cp-white); font-weight: 800;
+}
+.cp-ie-ty-stat span {
+    font-size: 0.78rem; color: var(--cp-text-soft);
+    line-height: 1.4;
+}
+@media (max-width: 760px) {
+    .cp-ie-ty { grid-template-columns: 1fr; }
+}
+
+/* -- IE CAO points panel --------------------------------------- */
+.cp-ie-cao {
+    margin-top: 28px;
+    padding: 32px;
+    background: linear-gradient(135deg, rgba(12, 138, 74, 0.06), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-line);
+    border-radius: 18px;
+}
+.cp-ie-cao h3 {
+    font-family: var(--cp-font-display);
+    font-size: 1.4rem; color: var(--cp-white);
+    margin: 0 0 8px; font-weight: 700;
+}
+.cp-ie-cao p {
+    color: var(--cp-text-soft); font-size: 0.94rem;
+    line-height: 1.6; margin: 0 0 18px; max-width: 70ch;
+}
+.cp-ie-cao-table {
+    display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 1px;
+    background: var(--cp-line);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--cp-line);
+}
+.cp-ie-cao-table > div {
+    padding: 12px 14px;
+    background: rgba(0, 0, 0, 0.32);
+    font-family: var(--cp-font-mono); font-size: 12px;
+}
+.cp-ie-cao-table > div.h {
+    background: rgba(12, 138, 74, 0.12);
+    color: var(--cp-accent);
+    font-weight: 700; letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.cp-ie-cao-table > div .uni {
+    color: var(--cp-white); font-weight: 600;
+    font-family: var(--cp-font-display); font-size: 13px;
+}
+.cp-ie-cao-table > div .course {
+    display: block; color: var(--cp-text-mute); font-size: 10.5px;
+    margin-top: 2px;
+}
+.cp-ie-cao-table > div .pts {
+    color: var(--cp-copper); font-weight: 700; font-size: 13px;
+}
+@media (max-width: 720px) {
+    .cp-ie-cao-table { grid-template-columns: 1fr; }
+}
+
+/* -- IE university tiles (Irish unis) -------------------------- */
+.cp-ie-unis {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+    margin-top: 28px;
+}
+.cp-ie-uni {
+    position: relative;
+    padding: 24px 22px; border-radius: 14px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-line);
+    transition: all 0.25s ease;
+    overflow: hidden;
+}
+.cp-ie-uni::before {
+    content: ""; position: absolute;
+    top: 0; left: 0; height: 100%; width: 3px;
+    background: linear-gradient(180deg, var(--cp-accent), var(--cp-copper));
+    opacity: 0.7;
+}
+.cp-ie-uni:hover {
+    transform: translateY(-2px);
+    border-color: var(--cp-accent-line);
+}
+.cp-ie-uni h4 {
+    font-family: var(--cp-font-display);
+    font-size: 1.05rem; color: var(--cp-white);
+    margin: 0 0 4px; font-weight: 700;
+}
+.cp-ie-uni .city {
+    font-family: var(--cp-font-mono); font-size: 10.5px;
+    color: var(--cp-accent); letter-spacing: 0.12em;
+    margin-bottom: 10px;
+}
+.cp-ie-uni p { color: var(--cp-text-soft); font-size: 0.85rem; line-height: 1.55; margin: 0; }
+@media (max-width: 880px) { .cp-ie-unis { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .cp-ie-unis { grid-template-columns: 1fr; } }
+
+/* -- IE Silicon Docks tech grid -------------------------------- */
+.cp-ie-docks {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+    margin-top: 24px;
+}
+.cp-ie-dock {
+    padding: 22px 18px; border-radius: 14px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.28));
+    border: 1px solid var(--cp-line);
+    transition: all 0.2s ease;
+}
+.cp-ie-dock:hover {
+    border-color: var(--cp-accent-line);
+    background: rgba(12, 138, 74, 0.05);
+}
+.cp-ie-dock .badge {
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-accent); letter-spacing: 0.14em;
+}
+.cp-ie-dock h4 {
+    font-family: var(--cp-font-display);
+    font-size: 1.08rem; color: var(--cp-white);
+    margin: 8px 0 4px; font-weight: 700;
+}
+.cp-ie-dock p { color: var(--cp-text-soft); font-size: 0.82rem; line-height: 1.55; margin: 0; }
+@media (max-width: 880px) { .cp-ie-docks { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 460px) { .cp-ie-docks { grid-template-columns: 1fr; } }
+
+/* -- IE big quote ------------------------------------------- */
+.cp-ie-bigquote {
+    padding: 56px 48px;
+    border-radius: 24px;
+    background:
+        radial-gradient(700px 340px at 80% 0%, rgba(12, 138, 74, 0.16), transparent 60%),
+        linear-gradient(135deg, rgba(194, 65, 12, 0.06), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-accent-line);
+    position: relative;
+}
+.cp-ie-bigquote::before {
+    content: "\201C"; position: absolute;
+    top: -28px; left: 32px;
+    font-family: var(--cp-font-display); font-size: 8rem;
+    color: var(--cp-accent); opacity: 0.4; line-height: 1;
+}
+.cp-ie-bigquote q {
+    quotes: none;
+    font-family: var(--cp-font-display);
+    font-size: clamp(1.4rem, 2.6vw, 1.85rem);
+    line-height: 1.45; color: var(--cp-white);
+    display: block; margin-bottom: 24px;
+    font-weight: 600;
+}
+.cp-ie-bigquote .by {
+    font-family: var(--cp-font-mono); font-size: 13px;
+    color: var(--cp-accent); letter-spacing: 0.1em;
+}
+.cp-ie-bigquote .by b { color: var(--cp-white); font-weight: 700; }
+@media (max-width: 720px) {
+    .cp-ie-bigquote { padding: 40px 24px; }
+}
+
+
+/* ============================================================== */
+/* NEW ZEALAND — accent + unique components (.cp-nz namespace)   */
+/* Design language: Southern Alps — deep teal, silver fern       */
+/* ============================================================== */
+.cp-root.cp-nz {
+    --cp-accent: #0d7377;
+    --cp-accent-2: #1a8f4c;
+    --cp-accent-3: #14b8a6;
+    --cp-accent-soft: rgba(13, 115, 119, 0.10);
+    --cp-accent-line: rgba(13, 115, 119, 0.32);
+    --cp-fern: #1a8f4c;
+    --cp-deepteal: #0d7377;
+    --cp-silver: #94a3b8;
+}
+
+/* -- NZ hero — Southern Alps + Pacific gradient ---------------- */
+.cp-nz-hero {
+    position: relative;
+    padding: 96px 0 130px;
+    background:
+        radial-gradient(900px 520px at 70% 10%, rgba(13, 115, 119, 0.20), transparent 60%),
+        radial-gradient(700px 420px at 20% 90%, rgba(26, 143, 76, 0.10), transparent 70%),
+        linear-gradient(180deg, #0a1419 0%, #050b0e 60%, #020405 100%);
+    overflow: hidden;
+}
+.cp-nz-hero::before {
+    /* Southern Alps silhouette — sharp triangular peaks */
+    content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 200px;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 200' preserveAspectRatio='none'><path fill='%23000000' fill-opacity='0.7' d='M0,200 L0,150 L80,140 L150,90 L210,135 L280,70 L340,145 L420,40 L500,130 L570,95 L640,30 L720,120 L800,55 L880,140 L950,85 L1020,25 L1100,115 L1180,75 L1260,135 L1340,60 L1420,125 L1500,105 L1600,145 L1600,200 Z'/></svg>") center bottom / cover no-repeat;
+    pointer-events: none;
+}
+.cp-nz-hero::after {
+    content: ""; position: absolute; inset: 0;
+    background: repeating-linear-gradient(180deg, transparent 0 70px, rgba(13, 115, 119, 0.03) 70px 71px);
+    pointer-events: none;
+}
+.cp-nz-hero .cp-wrap { position: relative; z-index: 2; }
+
+.cp-nz-eyebrow {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 7px 14px;
+    background: linear-gradient(90deg, rgba(13, 115, 119, 0.16), rgba(26, 143, 76, 0.10));
+    border: 1px solid var(--cp-accent-line);
+    border-radius: 999px;
+    font-family: var(--cp-font-mono); font-size: 11px; font-weight: 600;
+    color: var(--cp-accent-3); letter-spacing: 0.18em; text-transform: uppercase;
+}
+.cp-nz-eyebrow::before {
+    content: ""; width: 8px; height: 8px; border-radius: 50%;
+    background: var(--cp-accent-3); box-shadow: 0 0 12px var(--cp-accent-3);
+}
+
+.cp-nz-h1 {
+    font-family: var(--cp-font-display);
+    font-size: clamp(2.4rem, 5.6vw, 4.4rem);
+    font-weight: 800; line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--cp-white);
+    margin: 22px 0 18px;
+    max-width: 22ch;
+}
+.cp-nz-h1 .teal {
+    background: linear-gradient(120deg, #0d7377 0%, #14b8a6 50%, #0d7377 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent; color: transparent;
+}
+.cp-nz-h1 .fern { color: var(--cp-fern); }
+
+.cp-nz-sub {
+    font-size: 1.18rem; line-height: 1.65;
+    color: var(--cp-text-soft); max-width: 62ch; margin: 0 0 32px;
+}
+
+/* -- NZ Te Reo ribbon ----------------------------------------- */
+.cp-nz-tereo {
+    margin-top: 24px; padding: 14px 18px;
+    background: rgba(26, 143, 76, 0.10);
+    border: 1px solid rgba(26, 143, 76, 0.32);
+    border-radius: 12px;
+    display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+}
+.cp-nz-tereo .mi {
+    font-size: 0.97rem; color: var(--cp-fern); font-weight: 600;
+    font-style: italic;
+}
+.cp-nz-tereo .en {
+    font-size: 0.88rem; color: var(--cp-text-soft);
+    border-left: 1px solid rgba(13, 115, 119, 0.2); padding-left: 14px;
+}
+
+/* -- NZ NCEA grades panel (Excellence / Merit / Achieved) ----- */
+.cp-nz-ncea {
+    margin-top: 30px;
+    padding: 32px;
+    border-radius: 18px;
+    background:
+        radial-gradient(600px 320px at 95% 5%, rgba(13, 115, 119, 0.14), transparent 65%),
+        linear-gradient(135deg, rgba(26, 143, 76, 0.07), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-accent-line);
+}
+.cp-nz-ncea h3 {
+    font-family: var(--cp-font-display);
+    font-size: 1.4rem; color: var(--cp-white);
+    margin: 0 0 8px; font-weight: 700;
+}
+.cp-nz-ncea p {
+    color: var(--cp-text-soft); font-size: 0.94rem;
+    line-height: 1.6; margin: 0 0 18px; max-width: 72ch;
+}
+.cp-nz-grades {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.cp-nz-grade {
+    padding: 14px;
+    background: rgba(0, 0, 0, 0.32);
+    border-radius: 8px;
+    border-top: 3px solid var(--cp-line);
+}
+.cp-nz-grade.excellence { border-top-color: #fbbf24; }
+.cp-nz-grade.merit { border-top-color: #14b8a6; }
+.cp-nz-grade.achieved { border-top-color: var(--cp-accent); }
+.cp-nz-grade.nonachieve { border-top-color: #64748b; }
+.cp-nz-grade .label {
+    font-family: var(--cp-font-mono); font-size: 10.5px;
+    color: var(--cp-text-mute); letter-spacing: 0.12em;
+}
+.cp-nz-grade .name {
+    display: block;
+    font-family: var(--cp-font-display);
+    font-size: 1.1rem; color: var(--cp-white);
+    margin: 4px 0 6px; font-weight: 700;
+}
+.cp-nz-grade .desc {
+    font-size: 0.78rem; color: var(--cp-text-soft);
+    line-height: 1.45;
+}
+@media (max-width: 720px) {
+    .cp-nz-grades { grid-template-columns: 1fr 1fr; }
+}
+
+/* -- NZ Year-level pathway (NCEA L1 → L3 → UE) --------------- */
+.cp-nz-years {
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    gap: 14px; margin-top: 32px; position: relative;
+}
+.cp-nz-years::before {
+    content: ""; position: absolute;
+    top: 28px; left: 9%; right: 9%; height: 2px;
+    background: linear-gradient(90deg, var(--cp-accent) 0%, var(--cp-fern) 100%);
+    z-index: 0;
+}
+.cp-nz-year {
+    position: relative; z-index: 1;
+    padding: 18px 14px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(0, 0, 0, 0.28));
+    border: 1px solid var(--cp-line);
+    border-radius: 12px;
+}
+.cp-nz-year .fern-mark {
+    width: 26px; height: 26px;
+    background: var(--cp-accent);
+    border: 4px solid #050b0e;
+    margin: -28px auto 12px;
+    box-shadow: 0 0 12px var(--cp-accent);
+    border-radius: 50%;
+}
+.cp-nz-year .age {
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-accent-3); letter-spacing: 0.18em; text-align: center;
+}
+.cp-nz-year h4 {
+    font-family: var(--cp-font-display);
+    font-size: 0.98rem; color: var(--cp-white);
+    margin: 6px 0 6px; text-align: center; font-weight: 700;
+}
+.cp-nz-year p {
+    font-size: 0.78rem; color: var(--cp-text-soft);
+    line-height: 1.5; margin: 0; text-align: center;
+}
+@media (max-width: 880px) {
+    .cp-nz-years { grid-template-columns: 1fr 1fr; }
+    .cp-nz-years::before { display: none; }
+}
+@media (max-width: 480px) {
+    .cp-nz-years { grid-template-columns: 1fr; }
+}
+
+/* -- NZ Rocket-Lab style angled tech tiles ------------------- */
+.cp-nz-tech {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+    margin-top: 24px;
+}
+.cp-nz-techtile {
+    padding: 22px 18px; border-radius: 14px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.28));
+    border: 1px solid var(--cp-line);
+    position: relative; overflow: hidden;
+    transition: all 0.2s ease;
+}
+.cp-nz-techtile::before {
+    content: ""; position: absolute;
+    top: 0; right: 0;
+    width: 60px; height: 60px;
+    background: linear-gradient(225deg, rgba(13, 115, 119, 0.4), transparent);
+    border-radius: 0 14px 0 100%;
+}
+.cp-nz-techtile:hover {
+    border-color: var(--cp-accent-line);
+    background: rgba(13, 115, 119, 0.05);
+}
+.cp-nz-techtile .badge {
+    font-family: var(--cp-font-mono); font-size: 10px;
+    color: var(--cp-accent-3); letter-spacing: 0.14em;
+    position: relative; z-index: 1;
+}
+.cp-nz-techtile h4 {
+    font-family: var(--cp-font-display);
+    font-size: 1.08rem; color: var(--cp-white);
+    margin: 8px 0 4px; font-weight: 700;
+    position: relative; z-index: 1;
+}
+.cp-nz-techtile p {
+    color: var(--cp-text-soft); font-size: 0.82rem;
+    line-height: 1.55; margin: 0; position: relative; z-index: 1;
+}
+@media (max-width: 880px) { .cp-nz-tech { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 460px) { .cp-nz-tech { grid-template-columns: 1fr; } }
+
+/* -- NZ university tiles --------------------------------------- */
+.cp-nz-unis {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+    margin-top: 28px;
+}
+.cp-nz-uni {
+    padding: 24px 22px; border-radius: 14px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-line);
+    border-top: 3px solid var(--cp-accent-3);
+    transition: all 0.25s ease;
+}
+.cp-nz-uni:hover {
+    transform: translateY(-2px);
+    border-color: var(--cp-accent-line);
+}
+.cp-nz-uni h4 {
+    font-family: var(--cp-font-display);
+    font-size: 1.05rem; color: var(--cp-white);
+    margin: 0 0 4px; font-weight: 700;
+}
+.cp-nz-uni .city {
+    font-family: var(--cp-font-mono); font-size: 10.5px;
+    color: var(--cp-accent-3); letter-spacing: 0.12em;
+    margin-bottom: 10px;
+}
+.cp-nz-uni p { color: var(--cp-text-soft); font-size: 0.85rem; line-height: 1.55; margin: 0; }
+@media (max-width: 880px) { .cp-nz-unis { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .cp-nz-unis { grid-template-columns: 1fr; } }
+
+/* -- NZ big quote ----------------------------------------- */
+.cp-nz-bigquote {
+    padding: 56px 48px;
+    border-radius: 24px;
+    background:
+        radial-gradient(700px 340px at 80% 0%, rgba(13, 115, 119, 0.18), transparent 60%),
+        linear-gradient(135deg, rgba(26, 143, 76, 0.06), rgba(0, 0, 0, 0.32));
+    border: 1px solid var(--cp-accent-line);
+    position: relative;
+}
+.cp-nz-bigquote::before {
+    content: "\201C"; position: absolute;
+    top: -28px; left: 32px;
+    font-family: var(--cp-font-display); font-size: 8rem;
+    color: var(--cp-accent-3); opacity: 0.4; line-height: 1;
+}
+.cp-nz-bigquote q {
+    quotes: none;
+    font-family: var(--cp-font-display);
+    font-size: clamp(1.4rem, 2.6vw, 1.85rem);
+    line-height: 1.45; color: var(--cp-white);
+    display: block; margin-bottom: 24px;
+    font-weight: 600;
+}
+.cp-nz-bigquote .by {
+    font-family: var(--cp-font-mono); font-size: 13px;
+    color: var(--cp-accent-3); letter-spacing: 0.1em;
+}
+.cp-nz-bigquote .by b { color: var(--cp-white); font-weight: 700; }
+@media (max-width: 720px) {
+    .cp-nz-bigquote { padding: 40px 24px; }
+}
+
 

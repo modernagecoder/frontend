@@ -58,6 +58,11 @@ Allow: /coding-classes-in-united-kingdom
 Allow: /coding-classes-in-canada
 Allow: /coding-classes-in-sweden
 Allow: /coding-classes-in-united-states
+Allow: /coding-classes-in-australia
+Allow: /coding-classes-in-uae
+Allow: /coding-classes-in-singapore
+Allow: /coding-classes-in-ireland
+Allow: /coding-classes-in-new-zealand
 
 # Sitemap locations
 Sitemap: https://learn.modernagecoders.com/sitemap.xml

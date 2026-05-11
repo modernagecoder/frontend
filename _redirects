@@ -225,6 +225,11 @@
 /coding-classes-in-canada /src/pages/coding-classes-in-canada.html 200
 /coding-classes-in-sweden /src/pages/coding-classes-in-sweden.html 200
 /coding-classes-in-united-states /src/pages/coding-classes-in-united-states.html 200
+/coding-classes-in-australia /src/pages/coding-classes-in-australia.html 200
+/coding-classes-in-uae /src/pages/coding-classes-in-uae.html 200
+/coding-classes-in-singapore /src/pages/coding-classes-in-singapore.html 200
+/coding-classes-in-ireland /src/pages/coding-classes-in-ireland.html 200
+/coding-classes-in-new-zealand /src/pages/coding-classes-in-new-zealand.html 200
 
 # Friendly aliases (short forms → canonical) — 301 permanent
 /coding-classes-in-uk /coding-classes-in-united-kingdom 301!
@@ -232,6 +237,22 @@
 /coding-classes-in-us /coding-classes-in-united-states 301!
 /coding-classes-in-britain /coding-classes-in-united-kingdom 301!
 /coding-classes-in-america /coding-classes-in-united-states 301!
+/coding-classes-in-aus /coding-classes-in-australia 301!
+/coding-classes-in-oz /coding-classes-in-australia 301!
+/coding-classes-in-dubai /coding-classes-in-uae 301!
+/coding-classes-in-abu-dhabi /coding-classes-in-uae 301!
+/coding-classes-in-sharjah /coding-classes-in-uae 301!
+/coding-classes-in-united-arab-emirates /coding-classes-in-uae 301!
+/coding-classes-in-emirates /coding-classes-in-uae 301!
+/coding-classes-in-sg /coding-classes-in-singapore 301!
+/coding-classes-in-sgp /coding-classes-in-singapore 301!
+/coding-classes-in-dublin /coding-classes-in-ireland 301!
+/coding-classes-in-eire /coding-classes-in-ireland 301!
+/coding-classes-in-republic-of-ireland /coding-classes-in-ireland 301!
+/coding-classes-in-nz /coding-classes-in-new-zealand 301!
+/coding-classes-in-aotearoa /coding-classes-in-new-zealand 301!
+/coding-classes-in-auckland /coding-classes-in-new-zealand 301!
+/coding-classes-in-wellington /coding-classes-in-new-zealand 301!
 
 # .md companion files (for AI agents / LLM crawlers)
 /coding-classes-in-switzerland.md /src/pages/coding-classes-in-switzerland.md 200
@@ -240,6 +261,11 @@
 /coding-classes-in-canada.md /src/pages/coding-classes-in-canada.md 200
 /coding-classes-in-sweden.md /src/pages/coding-classes-in-sweden.md 200
 /coding-classes-in-united-states.md /src/pages/coding-classes-in-united-states.md 200
+/coding-classes-in-australia.md /src/pages/coding-classes-in-australia.md 200
+/coding-classes-in-uae.md /src/pages/coding-classes-in-uae.md 200
+/coding-classes-in-singapore.md /src/pages/coding-classes-in-singapore.md 200
+/coding-classes-in-ireland.md /src/pages/coding-classes-in-ireland.md 200
+/coding-classes-in-new-zealand.md /src/pages/coding-classes-in-new-zealand.md 200
 /learn-coding-by-class /src/pages/learn-coding-by-class.html 200
 /learn-coding-by-age /src/pages/learn-coding-by-age.html 200
 

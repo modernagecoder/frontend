@@ -900,6 +900,31 @@
   to = "/src/pages/coding-classes-in-united-states.html"
   status = 200
 
+[[redirects]]
+  from = "/coding-classes-in-australia"
+  to = "/src/pages/coding-classes-in-australia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-uae"
+  to = "/src/pages/coding-classes-in-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-singapore"
+  to = "/src/pages/coding-classes-in-singapore.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ireland"
+  to = "/src/pages/coding-classes-in-ireland.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-new-zealand"
+  to = "/src/pages/coding-classes-in-new-zealand.html"
+  status = 200
+
 # Friendly aliases for country pages (uk/us short forms)
 [[redirects]]
   from = "/coding-classes-in-uk"
@@ -928,6 +953,102 @@
 [[redirects]]
   from = "/coding-classes-in-america"
   to = "/coding-classes-in-united-states"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-aus"
+  to = "/coding-classes-in-australia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-oz"
+  to = "/coding-classes-in-australia"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-dubai"
+  to = "/coding-classes-in-uae"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-abu-dhabi"
+  to = "/coding-classes-in-uae"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-sharjah"
+  to = "/coding-classes-in-uae"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-united-arab-emirates"
+  to = "/coding-classes-in-uae"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-emirates"
+  to = "/coding-classes-in-uae"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-sg"
+  to = "/coding-classes-in-singapore"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-sgp"
+  to = "/coding-classes-in-singapore"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-dublin"
+  to = "/coding-classes-in-ireland"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-eire"
+  to = "/coding-classes-in-ireland"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-republic-of-ireland"
+  to = "/coding-classes-in-ireland"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-nz"
+  to = "/coding-classes-in-new-zealand"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-aotearoa"
+  to = "/coding-classes-in-new-zealand"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-auckland"
+  to = "/coding-classes-in-new-zealand"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-in-wellington"
+  to = "/coding-classes-in-new-zealand"
   status = 301
   force = true
 
@@ -960,6 +1081,31 @@
 [[redirects]]
   from = "/coding-classes-in-united-states.md"
   to = "/src/pages/coding-classes-in-united-states.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-australia.md"
+  to = "/src/pages/coding-classes-in-australia.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-uae.md"
+  to = "/src/pages/coding-classes-in-uae.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-singapore.md"
+  to = "/src/pages/coding-classes-in-singapore.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ireland.md"
+  to = "/src/pages/coding-classes-in-ireland.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-new-zealand.md"
+  to = "/src/pages/coding-classes-in-new-zealand.md"
   status = 200
 
 [[redirects]]
