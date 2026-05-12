@@ -20,9 +20,12 @@
       s.async = true;
       s.onload = function () {
         if (window.jspdf && window.jspdf.jsPDF) resolve(window.jspdf.jsPDF);
-        else reject(new Error('jsPDF loaded but global missing'));
+        else { jspdfPromise = null; reject(new Error('jsPDF loaded but global missing')); }
       };
-      s.onerror = function () { reject(new Error('Failed to load jsPDF')); };
+      s.onerror = function () {
+        jspdfPromise = null; // allow retry on next click
+        reject(new Error('Failed to load jsPDF'));
+      };
       document.head.appendChild(s);
     });
     return jspdfPromise;

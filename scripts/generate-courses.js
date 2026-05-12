@@ -956,9 +956,10 @@ class CourseGenerator {
         html = html.replace(/{{WHY_THIS_COURSE}}/g, whyThisCourseHTML);
 
         // Inline curriculum JSON for client-side Download Curriculum PDF feature.
-        // </script> sequences inside JSON strings are escaped to prevent script-tag breakout.
+        // Every '<' is escaped to < — prevents </script> breakout and is the
+        // industry-standard JSON-in-HTML safety pattern.
         const curriculumPayload = this.buildCurriculumPayload(courseData);
-        const curriculumJson = JSON.stringify(curriculumPayload).replace(/<\/script/gi, '<\\/script');
+        const curriculumJson = JSON.stringify(curriculumPayload).replace(/</g, '\\u003c');
         html = html.replace(/{{CURRICULUM_DATA_JSON}}/g, curriculumJson);
 
         // Generate Success Metrics section (only if success_metrics exists)
