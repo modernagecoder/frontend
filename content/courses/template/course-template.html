@@ -59,6 +59,7 @@
     <link rel="stylesheet" href="/content/courses/generated/{{COURSE_SLUG}}/style.css">
     <link rel="stylesheet" href="/content/courses/generated/{{COURSE_SLUG}}/mobile-responsive-fix.css">
     <link rel="stylesheet" href="/src/css/share-button.css">
+    <link rel="stylesheet" href="/src/css/download-curriculum.css">
 
     <!-- CRITICAL: Load navigation override LAST to force correct styles -->
     <link rel="stylesheet" href="/src/css/course-nav-override.css">
@@ -131,6 +132,18 @@
                         </svg>
                         {{CERTIFICATION}}
                     </span>
+                </div>
+
+                <!-- Download Curriculum CTA -->
+                <div class="hero-cta-row">
+                    <button type="button" id="downloadCurriculumBtn" class="download-curriculum-btn" aria-label="Download course curriculum as PDF">
+                        <svg class="dl-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <span class="dl-label">Download Curriculum (PDF)</span>
+                    </button>
                 </div>
             </div>
             <div class="course-hero-image">
@@ -512,7 +525,11 @@
 
     </main>
 
+    <!-- Curriculum data inlined for client-side PDF download. Stays in sync with JSON. -->
+    <script id="course-curriculum-data" type="application/json">{{CURRICULUM_DATA_JSON}}</script>
+
     <script src="/content/courses/generated/{{COURSE_SLUG}}/course-navigation.js"></script>
+    <script src="/src/js/download-curriculum.js" defer></script>
 
     <!-- Responsive styles for duration section -->
     <style>
