@@ -137,15 +137,26 @@ const CallbackRequestsComponent = {
         }
 
         tbody.innerHTML = requests.map(req => {
-            const dial = req.countryCode || '+91';
-            const iso = req.countryIso || 'IN';
-            const cName = req.countryName || 'India';
+            const iso = (req.countryIso || '').toUpperCase();
+            const dial = req.countryCode || '';
+            const cName = req.countryName || '';
+            const hasCountry = !!(iso || dial || cName);
+            const flag = iso && iso.length === 2
+                ? iso.replace(/./g, c => String.fromCodePoint(0x1F1A5 + c.charCodeAt(0)))
+                : '🌍';
+            const isIndia = iso === 'IN';
+            const badgeCls = !hasCountry
+                ? 'country-badge country-badge--unknown'
+                : (isIndia ? 'country-badge country-badge--india' : 'country-badge country-badge--foreign');
+            const badgeText = !hasCountry
+                ? '— Unknown'
+                : `<span class="country-flag">${flag}</span> ${cName || iso}${iso ? ` <small>(${iso})</small>` : ''}`;
             return `
             <tr data-id="${req._id}">
-                <td title="${cName} (${iso})">${cName} <small>(${iso})</small></td>
+                <td><span class="${badgeCls}" title="${cName || 'Unknown'} (${iso || 'n/a'})">${badgeText}</span></td>
                 <td>
                     <a href="tel:${dial}${req.phone}" class="phone-link">
-                        📱 ${dial} ${this.formatPhone(req.phone)}
+                        📱 <span class="phone-with-code"><span class="dial">${dial}</span>${this.formatPhone(req.phone)}</span>
                     </a>
                 </td>
                 <td>

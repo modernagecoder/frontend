@@ -5,10 +5,58 @@
 let contactsData = [];
 let contactsFilters = {
   status: 'all',
+  country: 'all',
   search: '',
   page: 1,
   limit: 20
 };
+
+// Render the country as a visually obvious badge so foreign-student inquiries
+// stand out at a glance. Records saved before the country-code feature shipped
+// have no country fields — show them as "Unknown" so the admin knows the data
+// is missing (rather than silently defaulting to India and hiding the gap).
+function renderCountryCell(record) {
+  const iso = record.countryIso || record.customerCountryIso || '';
+  const name = record.countryName || record.customerCountryName || '';
+  const dial = record.countryCode || record.customerCountryCode || '';
+
+  if (!iso && !name && !dial) {
+    return '<span class="country-badge country-badge--unknown" title="Submitted before the country picker was added">— Unknown</span>';
+  }
+
+  const flag = iso && iso.length === 2
+    ? iso.toUpperCase().replace(/./g, c => String.fromCodePoint(0x1F1A5 + c.charCodeAt(0)))
+    : '🌍';
+  const isIndia = (iso || '').toUpperCase() === 'IN';
+  const cls = isIndia ? 'country-badge country-badge--india' : 'country-badge country-badge--foreign';
+  const displayName = name || (iso ? iso.toUpperCase() : 'Unknown');
+
+  return `<span class="${cls}" title="${displayName} (${iso || 'unknown'})"><span class="country-flag">${flag}</span> ${displayName}${iso ? ` <small>(${iso})</small>` : ''}</span>`;
+}
+
+// Inject styles for the country badge once.
+(function injectCountryBadgeStyles() {
+  if (document.getElementById('mac-admin-country-badge-styles')) return;
+  const style = document.createElement('style');
+  style.id = 'mac-admin-country-badge-styles';
+  style.textContent = `
+    .country-badge{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-size:12.5px;font-weight:600;line-height:1.2;white-space:nowrap;}
+    .country-badge .country-flag{font-size:15px;line-height:1;}
+    .country-badge small{opacity:.7;font-weight:500;}
+    .country-badge--india{background:rgba(34,197,94,.12);color:#16a34a;border:1px solid rgba(34,197,94,.3);}
+    .country-badge--foreign{background:rgba(168,85,247,.14);color:#a855f7;border:1px solid rgba(168,85,247,.35);}
+    .country-badge--unknown{background:rgba(148,163,184,.14);color:#64748b;border:1px solid rgba(148,163,184,.3);font-style:italic;}
+    .phone-with-code{font-variant-numeric:tabular-nums;white-space:nowrap;}
+    .phone-with-code .dial{color:var(--text-secondary,#94a3b8);margin-right:4px;}
+  `;
+  document.head.appendChild(style);
+})();
+
+function renderPhoneCell(record) {
+  const dial = record.countryCode || record.customerCountryCode || '';
+  const phone = record.contact || record.phone || record.customerPhone || '';
+  return `<span class="phone-with-code"><span class="dial">${dial || ''}</span>${phone}</span>`;
+}
 
 async function loadContacts() {
   const mainContent = document.getElementById('mainContent');
@@ -38,6 +86,12 @@ async function loadContacts() {
               <option value="converted" ${contactsFilters.status === 'converted' ? 'selected' : ''}>Converted</option>
               <option value="archived" ${contactsFilters.status === 'archived' ? 'selected' : ''}>Archived</option>
             </select>
+            <select class="filter-select" id="countryFilter" title="Filter by country">
+              <option value="all" ${contactsFilters.country === 'all' ? 'selected' : ''}>🌍 All Countries</option>
+              <option value="IN" ${contactsFilters.country === 'IN' ? 'selected' : ''}>🇮🇳 India only</option>
+              <option value="foreign" ${contactsFilters.country === 'foreign' ? 'selected' : ''}>✈️ Foreign only</option>
+              <option value="unknown" ${contactsFilters.country === 'unknown' ? 'selected' : ''}>❓ Unknown / pre-2026</option>
+            </select>
             <button class="btn btn-primary btn-sm" onclick="exportContacts()">Export CSV</button>
           </div>
         </div>
@@ -56,13 +110,13 @@ async function loadContacts() {
             </tr>
           </thead>
           <tbody>
-            ${contactsData.map(contact => `
+            ${filteredContacts().map(contact => `
               <tr>
                 <td><input type="checkbox" class="contact-checkbox" value="${contact._id}"></td>
                 <td>${contact.name}</td>
                 <td>${contact.email}</td>
-                <td>${(contact.countryCode || '+91')} ${contact.contact}</td>
-                <td>${contact.countryName || 'India'} ${contact.countryIso ? `(${contact.countryIso})` : ''}</td>
+                <td>${renderPhoneCell(contact)}</td>
+                <td>${renderCountryCell(contact)}</td>
                 <td><span class="badge badge-${contact.status}">${capitalizeFirst(contact.status)}</span></td>
                 <td>${formatDateShort(contact.submittedAt)}</td>
                 <td>
@@ -93,6 +147,8 @@ async function loadContacts() {
     // Add event listeners
     document.getElementById('contactSearch').addEventListener('input', debounce(handleContactSearch, 500));
     document.getElementById('statusFilter').addEventListener('change', handleStatusFilter);
+    const cf = document.getElementById('countryFilter');
+    if (cf) cf.addEventListener('change', handleCountryFilter);
     
     // Bulk selection
     document.getElementById('selectAll').addEventListener('change', handleSelectAll);
@@ -189,6 +245,25 @@ function handleStatusFilter(e) {
   loadContacts();
 }
 
+function handleCountryFilter(e) {
+  contactsFilters.country = e.target.value;
+  // Client-side filtering — re-render without refetching since the API
+  // doesn't (yet) accept a country query param.
+  loadContacts();
+}
+
+// Return the page slice of contactsData filtered by the country selector.
+function filteredContacts() {
+  if (!contactsFilters.country || contactsFilters.country === 'all') return contactsData;
+  return contactsData.filter(c => {
+    const iso = (c.countryIso || '').toUpperCase();
+    if (contactsFilters.country === 'IN') return iso === 'IN';
+    if (contactsFilters.country === 'foreign') return iso && iso !== 'IN';
+    if (contactsFilters.country === 'unknown') return !iso;
+    return true;
+  });
+}
+
 function changeContactsPage(page) {
   contactsFilters.page = page;
   loadContacts();
@@ -250,8 +325,8 @@ async function viewContact(id) {
       <div class="modal-body">
         <p><strong>Name:</strong> ${contact.name}</p>
         <p><strong>Email:</strong> ${contact.email}</p>
-        <p><strong>Phone:</strong> ${contact.countryCode || '+91'} ${contact.contact}</p>
-        <p><strong>Country:</strong> ${contact.countryName || 'India'} ${contact.countryIso ? `(${contact.countryIso})` : ''}</p>
+        <p><strong>Phone:</strong> ${renderPhoneCell(contact)}</p>
+        <p><strong>Country:</strong> ${renderCountryCell(contact)}</p>
         <p><strong>Message:</strong> ${contact.message}</p>
         <p><strong>Status:</strong> <span class="badge badge-${contact.status}">${capitalizeFirst(contact.status)}</span></p>
         <p><strong>Submitted:</strong> ${formatDate(contact.submittedAt)}</p>
