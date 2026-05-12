@@ -2450,6 +2450,9 @@ Invest in a verifiable, portfolio-building skill set that will set your child ap
                                 name: name,
                                 email: email,
                                 contact: phone,
+                            countryCode: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).dial : '+91'),
+                            countryIso:  ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).iso  : 'IN'),
+                            countryName: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).name : 'India'),
                                 message: fullMessage
                             })
                         });
@@ -2556,7 +2559,7 @@ Invest in a verifiable, portfolio-building skill set that will set your child ap
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
-    <script src="/js/country-code-selector.js" defer></script>
+    <script src="/js/country-code-selector.js?v=20260513c" defer></script>
 </body>
 
 </html>

@@ -3773,11 +3773,24 @@
                     clearError('contactPhone');
                     clearError('contactMessage');
 
+                    // Pull the chosen country straight off the form's tel input
+                    // so the value is preserved regardless of script load order.
+                    const phoneEl = document.getElementById('contactPhone');
+                    const cc = (window.MACCountryCode && window.MACCountryCode.read)
+                        ? window.MACCountryCode.read(phoneEl)
+                        : {
+                            dial: (phoneEl && phoneEl.dataset && phoneEl.dataset.countryDial) || '+91',
+                            iso:  (phoneEl && phoneEl.dataset && phoneEl.dataset.countryIso)  || 'IN',
+                            name: (phoneEl && phoneEl.dataset && phoneEl.dataset.countryName) || 'India'
+                          };
                     // Get form data
                     const formData = {
                         name: document.getElementById('contactName').value.trim(),
                         email: document.getElementById('contactEmail').value.trim(),
-                        contact: document.getElementById('contactPhone').value.trim(),
+                        contact: phoneEl.value.trim(),
+                        countryCode: cc.dial,
+                        countryIso: cc.iso,
+                        countryName: cc.name,
                         message: document.getElementById('contactMessage').value.trim()
                     };
 
@@ -4519,7 +4532,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
-    <script src="/js/country-code-selector.js" defer></script>
+    <script src="/js/country-code-selector.js?v=20260513c" defer></script>
 </body>
 
 </html>

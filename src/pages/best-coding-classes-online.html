@@ -954,7 +954,10 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(err)return;
     setBtnLoad(true);
     const full=msg+(age?` | Age group: ${age}`:'')+( course?` | Course: ${course}`:'')+' | [Source: Best Coding Classes Online Landing Page]';
-    try{const r=await fetch(`${BASE}/api/contact/submit`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,email,contact:phone,message:full})});const d=await r.json();if(r.ok){showFb('success','We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');frm.reset();}else throw new Error(d.message);}
+    try{const r=await fetch(`${BASE}/api/contact/submit`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,email,contact: phone,
+                            countryCode: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).dial : '+91'),
+                            countryIso:  ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).iso  : 'IN'),
+                            countryName: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).name : 'India'),message:full})});const d=await r.json();if(r.ok){showFb('success','We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');frm.reset();}else throw new Error(d.message);}
     catch{showFb('error','Something went wrong. Please call us at 9123366161 or WhatsApp directly.');}
     finally{setBtnLoad(false);}
   });
@@ -1020,6 +1023,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 </main>
 </div>
-    <script src="/js/country-code-selector.js" defer></script>
+    <script src="/js/country-code-selector.js?v=20260513c" defer></script>
 </body>
 </html>

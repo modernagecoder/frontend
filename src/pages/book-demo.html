@@ -2051,10 +2051,24 @@
             e.preventDefault();
             clearError('email'); clearError('phone'); clearError('message');
 
+            // Read the country directly off the form's tel input so the choice
+            // can never be lost — don't rely on the global fetch hook for this
+            // specific page since the demo form is its primary CTA.
+            const phoneEl = document.getElementById('phone');
+            const cc = (window.MACCountryCode && window.MACCountryCode.read)
+                ? window.MACCountryCode.read(phoneEl)
+                : {
+                    dial: (phoneEl && phoneEl.dataset && phoneEl.dataset.countryDial) || '+91',
+                    iso:  (phoneEl && phoneEl.dataset && phoneEl.dataset.countryIso)  || 'IN',
+                    name: (phoneEl && phoneEl.dataset && phoneEl.dataset.countryName) || 'India'
+                  };
             const formData = {
                 name: document.getElementById('name').value.trim(),
                 email: document.getElementById('email').value.trim(),
-                contact: document.getElementById('phone').value.trim(),
+                contact: phoneEl.value.trim(),
+                countryCode: cc.dial,
+                countryIso: cc.iso,
+                countryName: cc.name,
                 message: '[Demo Request] ' + document.getElementById('message').value.trim()
             };
 
@@ -2567,7 +2581,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
-    <script src="/js/country-code-selector.js" defer></script>
+    <script src="/js/country-code-selector.js?v=20260513c" defer></script>
 </body>
 
 </html>

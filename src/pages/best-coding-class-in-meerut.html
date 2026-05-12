@@ -2211,7 +2211,10 @@
                     showLoading(true);
                     let fullMessage = message + (childAge ? ` | Age: ${childAge}` : '') + (area ? ` | Area: ${area}` : '') + ' | [Source: Meerut Page]';
                     try {
-                        const response = await fetch(`${API_BASE_URL}/api/contact/submit`, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ name, email, contact: phone, message: fullMessage }) });
+                        const response = await fetch(`${API_BASE_URL}/api/contact/submit`, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ name, email, contact: phone,
+                            countryCode: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).dial : '+91'),
+                            countryIso:  ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).iso  : 'IN'),
+                            countryName: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).name : 'India'), message: fullMessage }) });
                         const data = await response.json();
                         if (response.ok) { if (typeof fbq==="function") { fbq("track","Lead",{content_name:"Demo Booking",content_category:"Free Trial"}); } showFeedback('success', 'We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).'); form.reset(); } else { throw new Error(data.message || 'Something went wrong'); }
                     } catch (error) { showFeedback('error', 'Something went wrong. Please call us at 9123366161.'); } finally { showLoading(false); }
@@ -2263,7 +2266,7 @@
             if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
         })();
     </script>
-    <script src="/js/country-code-selector.js" defer></script>
+    <script src="/js/country-code-selector.js?v=20260513c" defer></script>
 </body>
 
 </html>

@@ -807,7 +807,10 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(err)return;
     setBtnLoad(true);
     let full=msg+(age?` | Age: ${age}`:'')+( course?` | Course: ${course}`:'')+' | [Source: Python & AI Classes Landing Page]';
-    try{const r=await fetch(`${BASE}/api/contact/submit`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,email,contact:phone,message:full})});const d=await r.json();if(r.ok){showFb('success','We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');frm.reset();}else throw new Error(d.message);}
+    try{const r=await fetch(`${BASE}/api/contact/submit`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,email,contact: phone,
+                            countryCode: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).dial : '+91'),
+                            countryIso:  ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).iso  : 'IN'),
+                            countryName: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).name : 'India'),message:full})});const d=await r.json();if(r.ok){showFb('success','We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');frm.reset();}else throw new Error(d.message);}
     catch{showFb('error','Something went wrong. Please call us directly at 9123366161 or WhatsApp us.');}
     finally{setBtnLoad(false);}
   });
@@ -818,6 +821,6 @@ document.addEventListener('DOMContentLoaded',()=>{const c=document.getElementByI
 <script src="/js/callback-modal.js"></script>
 <script src="/js/navigation.js"></script>
 <script>(function(){document.dispatchEvent(new CustomEvent('componentsLoaded'));var c=document.getElementById('copyright');if(c)c.innerHTML='&copy;'+new Date().getFullYear()+' Modern Age Coders. All Rights Reserved.';})();</script>
-    <script src="/js/country-code-selector.js" defer></script>
+    <script src="/js/country-code-selector.js?v=20260513c" defer></script>
 </body>
 </html>
