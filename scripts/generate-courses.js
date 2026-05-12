@@ -786,6 +786,25 @@ class CourseGenerator {
     }
 
     /**
+     * Build the curriculum-only slice of course data that gets inlined
+     * into each generated page for client-side PDF download.
+     * Includes: meta, program_overview, and every top-level phase_* key.
+     * Excludes: pricing/testimonials/career-tangent keys (out of scope per spec).
+     */
+    buildCurriculumPayload(courseData) {
+        const payload = {
+            meta: courseData.meta || {},
+            program_overview: courseData.program_overview || null
+        };
+        for (const key of Object.keys(courseData)) {
+            if (key.startsWith('phase_')) {
+                payload[key] = courseData[key];
+            }
+        }
+        return payload;
+    }
+
+    /**
      * Replace template placeholders with course data
      */
     populateTemplate(template, courseData, courseDir) {
@@ -935,6 +954,12 @@ class CourseGenerator {
         // Generate Why This Course section (only if why_this_course exists)
         const whyThisCourseHTML = this.generateWhyThisCourseHTML(courseData);
         html = html.replace(/{{WHY_THIS_COURSE}}/g, whyThisCourseHTML);
+
+        // Inline curriculum JSON for client-side Download Curriculum PDF feature.
+        // </script> sequences inside JSON strings are escaped to prevent script-tag breakout.
+        const curriculumPayload = this.buildCurriculumPayload(courseData);
+        const curriculumJson = JSON.stringify(curriculumPayload).replace(/<\/script/gi, '<\\/script');
+        html = html.replace(/{{CURRICULUM_DATA_JSON}}/g, curriculumJson);
 
         // Generate Success Metrics section (only if success_metrics exists)
         const successMetricsHTML = this.generateSuccessMetricsHTML(courseData);
