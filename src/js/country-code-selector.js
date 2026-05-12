@@ -936,13 +936,93 @@
   var PHONE_ENDPOINT_RE = /\/api\/(contact|callback|business[-_]?solution|corporate[-_]?training|payment|enrollment|book[-_]?demo|inquiry|leads?)\b/i;
   var PHONE_FIELD_KEYS = ['contact', 'phone', 'mobile', 'customerPhone', 'customer_phone', 'whatsapp'];
 
+  // The tel input the user most recently touched — either by typing in it,
+  // focusing it, or picking a country from its dropdown. We prefer this over
+  // "first tel on page" so pages with both a navbar callback widget and a
+  // contact form pick the RIGHT country at submit time.
+  var lastTouchedTel = null;
+
+  function markTouched(tel) {
+    if (tel && tel.dataset && tel.dataset.countryDial) {
+      lastTouchedTel = tel;
+      // Stamp every form on the page that contains this input so we can
+      // resolve back to the right input from a fetch happening seconds later.
+      var form = tel.closest && tel.closest('form');
+      if (form) form.dataset.macLastTel = tel.id;
+    }
+  }
+
+  // Track focus + input + country-change anywhere on the page.
+  document.addEventListener('focusin', function (e) {
+    var t = e.target;
+    if (t && t.tagName === 'INPUT' && t.type === 'tel') markTouched(t);
+  }, true);
+  document.addEventListener('input', function (e) {
+    var t = e.target;
+    if (t && t.tagName === 'INPUT' && t.type === 'tel') markTouched(t);
+  }, true);
+  document.addEventListener('countrycodechange', function (e) {
+    markTouched(e.target);
+  }, true);
+
   function findReferenceTel() {
+    // 1) If the submit just happened, prefer a tel input INSIDE that form.
+    //    The submit handler sets a flag on the form for ~5 seconds.
+    var recent = window.__macRecentSubmitForm;
+    if (recent && document.contains(recent)) {
+      var formTel = recent.querySelector('input[type="tel"][data-country-dial]');
+      if (formTel) return formTel;
+    }
+
+    // 2) Use the form containing the active element (e.g. submit button focus).
     var active = document.activeElement;
-    if (active && active.tagName === 'INPUT' && active.type === 'tel' && active.dataset.countryDial) return active;
+    if (active && active.closest) {
+      var f = active.closest('form');
+      if (f) {
+        var t = f.querySelector('input[type="tel"][data-country-dial]');
+        if (t) return t;
+      }
+    }
+
+    // 3) Active element is itself the tel input.
+    if (active && active.tagName === 'INPUT' && active.type === 'tel' && active.dataset.countryDial) {
+      return active;
+    }
+
+    // 4) The last input the user actually touched.
+    if (lastTouchedTel && document.contains(lastTouchedTel) && lastTouchedTel.dataset.countryDial) {
+      return lastTouchedTel;
+    }
+
+    // 5) Fall back to the first tel input on the page that's NOT in the
+    //    navbar callback widget — the nav widget defaults to India and would
+    //    drown out the actual form's choice.
     var tels = document.querySelectorAll('input[type="tel"]');
-    for (var i = 0; i < tels.length; i++) if (tels[i].dataset.countryDial) return tels[i];
+    for (var i = 0; i < tels.length; i++) {
+      var ti = tels[i];
+      if (!ti.dataset.countryDial) continue;
+      if (ti.id === 'callbackPhoneInput') continue;
+      return ti;
+    }
+    // Last resort: any tel input at all.
+    for (var j = 0; j < tels.length; j++) {
+      if (tels[j].dataset.countryDial) return tels[j];
+    }
     return null;
   }
+
+  // Watch every form on the page — when a form submits, stamp it as the
+  // "recent submitter" so the fetch hook can resolve back to its tel input.
+  document.addEventListener('submit', function (e) {
+    var form = e.target;
+    if (!form || form.tagName !== 'FORM') return;
+    window.__macRecentSubmitForm = form;
+    // Clear after a generous window so a slow XHR still finds it.
+    clearTimeout(window.__macRecentSubmitTimer);
+    window.__macRecentSubmitTimer = setTimeout(function () {
+      window.__macRecentSubmitForm = null;
+    }, 5000);
+  }, true);
 
   function augmentBody(body) {
     if (typeof body !== 'string') return body;
