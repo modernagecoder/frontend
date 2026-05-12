@@ -6,15 +6,23 @@ let contactsChart, usersChart, statusChart;
 
 async function loadAnalytics() {
   const mainContent = document.getElementById('mainContent');
-  
+
   try {
     const [summaryData, monthlyData] = await Promise.all([
-      api.getAnalyticsSummary(),
-      api.getMonthlyAnalytics()
+      api.getAnalyticsSummary().catch(() => null),
+      api.getMonthlyAnalytics().catch(() => null)
     ]);
-    
-    const summary = summaryData.summary;
-    const months = monthlyData.months;
+
+    // Defensive defaults — older backend deployments returned `monthly` instead
+    // of `months`, or returned the summary without trend numbers. Treat any
+    // missing field as zero so the page renders rather than blowing up.
+    const summary = (summaryData && summaryData.summary) || {};
+    summary.contacts = summary.contacts || { total: 0, new: 0, contacted: 0, converted: 0, archived: 0, conversionRate: 0 };
+    summary.users    = summary.users    || { total: 0, students: 0, teachers: 0, admins: 0 };
+    summary.trends   = summary.trends   || { recentContacts: 0, recentUsers: 0 };
+
+    // The new backend uses `months`; older builds sent `monthly`. Accept both.
+    const months = (monthlyData && (monthlyData.months || monthlyData.monthly)) || [];
     
     mainContent.innerHTML = `
       <div class="page-header">
