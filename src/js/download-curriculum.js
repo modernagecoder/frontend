@@ -222,6 +222,9 @@
   function renderWeek(w, weekData) {
     if (!weekData) return;
     if (weekData.title) w.heading(weekData.title, 4);
+    if (weekData.theme) {
+      w.textBlock(weekData.theme, { size: 9.5, style: 'italic', color: '#6b7280', after: 2 });
+    }
     if (Array.isArray(weekData.topics) && weekData.topics.length) {
       w.bullets(weekData.topics);
     }
@@ -233,11 +236,21 @@
       w.textBlock('Deliverables:', { size: 10, style: 'bold', color: '#374151', after: 1 });
       w.bullets(weekData.deliverables);
     }
+    if (Array.isArray(weekData.tools_used) && weekData.tools_used.length) {
+      w.textBlock('Tools Used:', { size: 10, style: 'bold', color: '#374151', after: 1 });
+      w.bullets(weekData.tools_used);
+    }
+    if (weekData.vibe_challenge) {
+      w.textBlock('Vibe Challenge: ' + weekData.vibe_challenge, { size: 10, color: '#374151', after: 2 });
+    }
     if (weekData.practice) {
       w.textBlock('Practice: ' + weekData.practice, { size: 10, color: '#374151', after: 2 });
     }
     if (weekData.assessment) {
       w.textBlock('Assessment: ' + weekData.assessment, { size: 10, color: '#374151', after: 2 });
+    }
+    if (weekData.parent_note) {
+      w.textBlock('Parent Note: ' + weekData.parent_note, { size: 9.5, style: 'italic', color: '#6b7280', after: 2 });
     }
   }
 
@@ -248,15 +261,23 @@
       w.textBlock(phaseData.description, { size: 10, after: 3 });
     }
     var monthKeys = Object.keys(phaseData).filter(function (k) { return /^month_/.test(k); });
-    for (var m = 0; m < monthKeys.length; m++) {
-      var monthData = phaseData[monthKeys[m]] || {};
-      w.heading(monthData.title || monthKeys[m].replace(/_/g, ' '), 2);
-      if (monthData.weeks) {
-        w.textBlock(monthData.weeks, { size: 9, color: '#6b7280', after: 2 });
+    if (monthKeys.length) {
+      for (var m = 0; m < monthKeys.length; m++) {
+        var monthData = phaseData[monthKeys[m]] || {};
+        w.heading(monthData.title || monthKeys[m].replace(/_/g, ' '), 2);
+        if (monthData.weeks) {
+          w.textBlock(monthData.weeks, { size: 9, color: '#6b7280', after: 2 });
+        }
+        var weekKeys = Object.keys(monthData).filter(function (k) { return /^week_/.test(k); });
+        for (var k = 0; k < weekKeys.length; k++) {
+          renderWeek(w, monthData[weekKeys[k]]);
+        }
       }
-      var weekKeys = Object.keys(monthData).filter(function (k) { return /^week_/.test(k); });
-      for (var k = 0; k < weekKeys.length; k++) {
-        renderWeek(w, monthData[weekKeys[k]]);
+    } else {
+      // Flat schema: weeks live directly under the phase (e.g. vibe-coding courses).
+      var directWeekKeys = Object.keys(phaseData).filter(function (k) { return /^week_/.test(k); });
+      for (var i = 0; i < directWeekKeys.length; i++) {
+        renderWeek(w, phaseData[directWeekKeys[i]]);
       }
     }
   }
