@@ -169,6 +169,16 @@
   status = 200
 
 [[redirects]]
+  from = "/ai-agents-and-automation"
+  to = "/src/pages/ai-agents-and-automation.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-agents-and-automation.html"
+  to = "/ai-agents-and-automation"
+  status = 301
+
+[[redirects]]
   from = "/student-labs"
   to = "/src/pages/student-labs.html"
   status = 200
