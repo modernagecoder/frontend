@@ -828,6 +828,7 @@
     var parent = input.parentNode;
     var dial = parent.querySelector('input[type="hidden"][data-cc-for="' + input.id + '"][name="countryCode"]');
     var iso  = parent.querySelector('input[type="hidden"][data-cc-for="' + input.id + '"][name="countryIso"]');
+    var name = parent.querySelector('input[type="hidden"][data-cc-for="' + input.id + '"][name="countryName"]');
 
     if (!dial) {
       dial = document.createElement('input');
@@ -843,7 +844,19 @@
       iso.dataset.ccFor = input.id;
       parent.appendChild(iso);
     }
-    return { dial: dial, iso: iso };
+    // countryName is what admin renders as the human-readable label. Without
+    // this hidden sibling, FormData-style forms (corporate-training-form.js,
+    // business-solutions.html) would post the dial+iso but not the name —
+    // admin would then fall back to the bare ISO code like "SG" instead of
+    // "Singapore".
+    if (!name) {
+      name = document.createElement('input');
+      name.type = 'hidden';
+      name.name = 'countryName';
+      name.dataset.ccFor = input.id;
+      parent.appendChild(name);
+    }
+    return { dial: dial, iso: iso, name: name };
   }
 
   function applyCountry(input, btn, country, hidden) {
@@ -853,6 +866,7 @@
     if (hidden) {
       hidden.dial.value = country.dial;
       hidden.iso.value = country.iso;
+      if (hidden.name) hidden.name.value = country.name;
     }
     setButtonState(btn, country);
 
@@ -980,8 +994,10 @@
           if (!t.dataset.countryDial) continue;
           var dh = form.querySelector('input[type="hidden"][data-cc-for="' + t.id + '"][name="countryCode"]');
           var ih = form.querySelector('input[type="hidden"][data-cc-for="' + t.id + '"][name="countryIso"]');
+          var nh = form.querySelector('input[type="hidden"][data-cc-for="' + t.id + '"][name="countryName"]');
           if (dh) dh.value = t.dataset.countryDial;
           if (ih) ih.value = t.dataset.countryIso;
+          if (nh) nh.value = t.dataset.countryName;
         }
       }, true);
     }

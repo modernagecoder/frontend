@@ -1417,24 +1417,39 @@ window.submitCallback = function(e) {
     var btn = document.getElementById('callbackSubmitBtn');
     var form = document.getElementById('callbackForm');
     var success = document.getElementById('callbackSuccessMsg');
-    
-    if (phone.length !== 10) {
-        alert('Please enter a valid 10-digit phone number');
+
+    // Read the picker's choice off the phone input. Without this the homepage
+    // callback widget silently sent India for every visitor (this file's
+    // submitCallback overrides the country-aware one in callback-modal.js).
+    var ccInfo = (window.MACCountryCode && window.MACCountryCode.read)
+        ? window.MACCountryCode.read(phoneInput)
+        : { dial: '+91', iso: 'IN', name: 'India' };
+
+    var isIndia = ccInfo.iso === 'IN';
+    if ((isIndia && phone.length !== 10) || (!isIndia && (phone.length < 7 || phone.length > 15))) {
+        alert(isIndia
+            ? 'Please enter a valid 10-digit phone number'
+            : 'Please enter a valid phone number (7-15 digits)');
         return;
     }
-    
+
     if (btn) {
         btn.disabled = true;
         btn.textContent = 'Sending...';
     }
-    
-    var API_URL = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') 
+
+    var API_URL = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
         ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
-    
+
     fetch(API_URL + '/api/callback/request', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ phone: phone })
+        body: JSON.stringify({
+            phone: phone,
+            countryCode: ccInfo.dial,
+            countryIso: ccInfo.iso,
+            countryName: ccInfo.name
+        })
     })
     .then(function(response) { return response.json(); })
     .then(function(data) {

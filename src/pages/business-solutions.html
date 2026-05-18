@@ -1471,12 +1471,18 @@
 
                 try {
                     const formData = new FormData(this);
+                    // Pull country fields straight from the picker's hidden
+                    // siblings. No '+91'/'IN' fallback — when the picker
+                    // didn't fire, we send undefined so the backend keeps
+                    // the record's country empty and admin shows "Unknown"
+                    // (instead of silently misattributing to India).
                     const data = {
                         name: formData.get('name'),
                         email: formData.get('email'),
                         phone: formData.get('phone'),
-                        countryCode: formData.get('countryCode') || '+91',
-                        countryIso: formData.get('countryIso') || 'IN',
+                        countryCode: formData.get('countryCode') || undefined,
+                        countryIso: formData.get('countryIso') || undefined,
+                        countryName: formData.get('countryName') || undefined,
                         organization: formData.get('organization'),
                         service: formData.get('service'),
                         budget: formData.get('budget') || '',
