@@ -280,6 +280,36 @@
     return null;
   }
 
+  // Multiple countries share dial codes (+1 = US/Canada/Caribbean, +7 = RU/KZ,
+  // +44 = GB/Guernsey/Jersey/Isle of Man, etc). When the user types a bare
+  // shared code we pick the largest market by default — they can still open
+  // the picker to override.
+  var DIAL_PREFERRED_ISO = { '1': 'US', '7': 'RU', '44': 'GB', '61': 'AU', '212': 'MA', '262': 'RE', '590': 'GP', '599': 'CW' };
+
+  // Detect a country from a freshly typed / pasted phone value beginning with
+  // "+". Tries the longest possible dial-code prefix first so "+1284" resolves
+  // to British Virgin Islands rather than USA. Returns null when no prefix
+  // matches or when the value is too short to disambiguate.
+  function detectCountryFromValue(value) {
+    if (!value || value.charAt(0) !== '+') return null;
+    var digits = value.replace(/\D/g, '');
+    if (digits.length < 2) return null;
+    for (var len = Math.min(4, digits.length); len >= 1; len--) {
+      var prefix = digits.substring(0, len);
+      // For ambiguous shared codes, return the preferred country directly so
+      // we don't pick e.g. Kazakhstan over Russia just because of array order.
+      var preferredIso = DIAL_PREFERRED_ISO[prefix];
+      if (preferredIso) {
+        var preferred = getCountryByIso(preferredIso);
+        if (preferred && preferred.dial === '+' + prefix) return preferred;
+      }
+      for (var i = 0; i < COUNTRIES.length; i++) {
+        if (COUNTRIES[i].dial === '+' + prefix) return COUNTRIES[i];
+      }
+    }
+    return null;
+  }
+
   function injectStyles() {
     if (document.getElementById(STYLE_ID)) return;
     var style = document.createElement('style');
@@ -906,6 +936,37 @@
           applyCountry(input, btn, picked, hidden);
         }
       });
+    });
+
+    // Auto-detect the country when the user types or pastes a value that
+    // begins with "+". Without this, users who paste "+923001234567" into the
+    // box (instead of clicking the flag dropdown) silently submit India + the
+    // typed digits, which is the original "admin always shows India" bug.
+    // After detection we strip the dial prefix from the input so the stored
+    // contact value contains only the local digits — the country code lives
+    // in its own field.
+    function autoDetectFromInput() {
+      var v = input.value || '';
+      if (v.charAt(0) !== '+') return;
+      var detected = detectCountryFromValue(v);
+      if (!detected) return;
+      // Strip the dial prefix so we don't double-store the country code.
+      var dialDigits = detected.dial.substring(1);
+      var allDigits = v.replace(/\D/g, '');
+      var localPart = allDigits.indexOf(dialDigits) === 0
+        ? allDigits.substring(dialDigits.length)
+        : allDigits;
+      if (input.dataset.countryIso !== detected.iso) {
+        applyCountry(input, btn, detected, hidden);
+      }
+      if (input.value !== localPart) {
+        input.value = localPart;
+      }
+    }
+    input.addEventListener('input', autoDetectFromInput);
+    // Paste fires before the value is updated, so defer one tick.
+    input.addEventListener('paste', function () {
+      setTimeout(autoDetectFromInput, 0);
     });
 
     // When the form submits, refresh hidden values just in case.

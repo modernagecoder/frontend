@@ -288,8 +288,11 @@ function exportContacts() {
       ...contactsData.map(c => [
         c.name,
         c.email,
-        c.countryName || 'India',
-        c.countryCode || '+91',
+        // Leave the cell blank rather than guessing India — matches the
+        // "Unknown" badge in the admin table for records that were saved
+        // before the country picker existed (or without it).
+        c.countryName || '',
+        c.countryCode || '',
         c.contact,
         `"${(c.message || '').replace(/"/g, '""')}"`,
         c.status,
