@@ -322,6 +322,152 @@
   to = "/src/pages/mistakes-students-make.html"
   status = 200
 
+# Lead-magnet & specialty tracks — May 2026
+[[redirects]]
+  from = "/screen-time-to-skill"
+  to = "/src/pages/screen-time-to-skill.html"
+  status = 200
+
+[[redirects]]
+  from = "/screen-time-to-skill.html"
+  to = "/screen-time-to-skill"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-olympiad-medal-track"
+  to = "/src/pages/coding-olympiad-medal-track.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-olympiad-medal-track.html"
+  to = "/coding-olympiad-medal-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/olympiad-medal-track"
+  to = "/coding-olympiad-medal-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-olympiad"
+  to = "/coding-olympiad-medal-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ioqi-preparation"
+  to = "/coding-olympiad-medal-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/inoi-preparation"
+  to = "/coding-olympiad-medal-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bebras-challenge-india"
+  to = "/coding-olympiad-medal-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/jee-aspirant-coding-track"
+  to = "/src/pages/jee-aspirant-coding-track.html"
+  status = 200
+
+[[redirects]]
+  from = "/jee-aspirant-coding-track.html"
+  to = "/jee-aspirant-coding-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-for-jee-aspirants"
+  to = "/jee-aspirant-coding-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/python-for-jee-aspirants"
+  to = "/jee-aspirant-coding-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-for-iit-aspirants"
+  to = "/jee-aspirant-coding-track"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-comeback-women"
+  to = "/src/pages/coding-comeback-women.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-comeback-women.html"
+  to = "/coding-comeback-women"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/women-back-to-tech"
+  to = "/coding-comeback-women"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-for-women-after-career-break"
+  to = "/coding-comeback-women"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/return-to-tech-women"
+  to = "/coding-comeback-women"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/returnship-coding"
+  to = "/coding-comeback-women"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-fee-calculator"
+  to = "/src/pages/coding-fee-calculator.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-fee-calculator.html"
+  to = "/coding-fee-calculator"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fee-calculator"
+  to = "/coding-fee-calculator"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pricing-calculator"
+  to = "/coding-fee-calculator"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-fees"
+  to = "/coding-fee-calculator"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/corporate-training"
   to = "/levels/corporate-training"

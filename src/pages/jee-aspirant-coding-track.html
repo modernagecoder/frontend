@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+        gtag('config', 'AW-16910316353');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JEE Aspirant Coding Track — Python &amp; Computational Maths for Class 11 &amp; 12 Without Disturbing JEE | Modern Age Coders</title>
+    <meta name="description" content="A three-hour-a-week coding and computational mathematics programme designed specifically for Class 11 and 12 JEE Main and JEE Advanced aspirants. Python, data structures and algorithms layered on top of board and JEE prep — built to protect JEE rank, not steal time. Live online from Modern Age Coders.">
+    <meta name="keywords" content="coding for JEE aspirants, python for JEE students, JEE class 11 coding, JEE class 12 coding, coding alongside JEE preparation, IIT preparation coding, JEE Main coding, JEE Advanced coding, coding for class 11 12 PCM, modern age coders, coding for IIT aspirants, python for CBSE class 11, python for CBSE class 12, computer science class 11 CBSE coding">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://learn.modernagecoders.com/jee-aspirant-coding-track">
+
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/jee-aspirant-coding-track" />
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/jee-aspirant-coding-track" />
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/jee-aspirant-coding-track" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/jee-aspirant-coding-track">
+    <meta property="og:title" content="JEE Aspirant Coding Track — Modern Age Coders">
+    <meta property="og:description" content="Python and computational maths for JEE-bound students. Three hours a week. Designed not to disturb JEE rank.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="JEE Aspirant Coding Track">
+    <meta name="twitter:description" content="Python and computational maths designed to fit around — not fight — JEE preparation.">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="theme-color" content="#0c1a3a">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "JEE Aspirant Coding Track",
+        "description": "A 24-week coding and computational mathematics programme for Class 11 and 12 JEE Main and JEE Advanced aspirants. Three hours per week. Designed to fit around JEE preparation without disturbing rank.",
+        "provider": {
+            "@type": "EducationalOrganization",
+            "name": "Modern Age Coders",
+            "sameAs": "https://learn.modernagecoders.com"
+        },
+        "audience": {
+            "@type": "EducationalAudience",
+            "educationalRole": "student",
+            "audienceType": "JEE Main and JEE Advanced aspirants in Class 11 or 12"
+        },
+        "courseMode": ["online", "live"]
+    }
+    </script>
+
+    <style>
+        :root {
+            --jee-paper: #f7f3ea;
+            --jee-paper-2: #efeadb;
+            --jee-ink: #0c1a3a;
+            --jee-ink-2: #15244d;
+            --jee-rule: #d8cfb8;
+            --jee-amber: #e08b1a;
+            --jee-red: #b73d2c;
+            --jee-green: #1f6a3d;
+            --jee-graph: rgba(12, 26, 58, 0.06);
+        }
+
+        /* Override global main flex layout from style.css and dark body theme */
+        body { background: var(--jee-paper) !important; color: var(--jee-ink) !important; }
+        main.jee-page {
+            display: block !important;
+            padding: 0 !important;
+            gap: 0 !important;
+            align-items: stretch !important;
+            justify-content: flex-start !important;
+            max-width: none !important;
+            width: 100% !important;
+        }
+        /* responsive.css forces h1-h6 to var(--text-primary) which is near-white;
+           force them to inherit from each section's own color instead. */
+        main.jee-page h1, main.jee-page h2, main.jee-page h3,
+        main.jee-page h4, main.jee-page h5, main.jee-page h6 {
+            color: inherit !important;
+        }
+        main.jee-page p, main.jee-page li, main.jee-page summary, main.jee-page label {
+            color: inherit;
+        }
+
+        .jee-page * { box-sizing: border-box; }
+        .jee-page {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--jee-paper);
+            color: var(--jee-ink);
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        .jee-page a { color: inherit; }
+        .jee-shell {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+        .jee-stamp {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            padding: 7px 14px;
+            border: 1px solid currentColor;
+            border-radius: 0;
+            color: var(--jee-red);
+        }
+
+        /* ── HERO — graph paper ─────────────────────── */
+        .jee-hero {
+            background: var(--jee-paper);
+            padding: 130px 0 110px;
+            position: relative;
+            border-bottom: 1px solid var(--jee-rule);
+        }
+        .jee-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(var(--jee-graph) 1px, transparent 1px),
+                linear-gradient(90deg, var(--jee-graph) 1px, transparent 1px);
+            background-size: 36px 36px;
+            background-position: center top;
+            pointer-events: none;
+        }
+        .jee-hero-grid {
+            display: grid;
+            grid-template-columns: 1.25fr 0.85fr;
+            gap: 70px;
+            position: relative;
+            z-index: 1;
+            align-items: center;
+        }
+        .jee-h1 {
+            font-family: 'Newsreader', Georgia, serif;
+            font-weight: 500;
+            font-size: clamp(44px, 6.2vw, 86px);
+            line-height: 0.98;
+            letter-spacing: -0.02em;
+            margin: 22px 0 26px;
+        }
+        .jee-h1 em {
+            font-style: italic;
+            color: var(--jee-red);
+        }
+        .jee-h1 .ul {
+            background: linear-gradient(transparent 68%, var(--jee-amber) 68%, var(--jee-amber) 84%, transparent 84%);
+            padding: 0 2px;
+        }
+        .jee-hero-sub {
+            font-size: 18px;
+            line-height: 1.66;
+            color: rgba(12, 26, 58, 0.78);
+            max-width: 560px;
+            margin: 0 0 36px;
+        }
+        .jee-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 26px;
+            background: var(--jee-ink);
+            color: var(--jee-paper);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            font-weight: 600;
+            transition: background 0.2s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+        .jee-btn:hover { background: var(--jee-amber); color: var(--jee-ink); transform: translateY(-2px); }
+        .jee-btn.outline {
+            background: transparent;
+            color: var(--jee-ink);
+            border: 1.5px solid var(--jee-ink);
+            margin-left: 12px;
+        }
+        .jee-btn.outline:hover { background: var(--jee-ink); color: var(--jee-paper); }
+
+        /* Notebook side card */
+        .jee-notebook {
+            background: var(--jee-paper);
+            border: 1px solid var(--jee-ink);
+            box-shadow: 12px 12px 0 var(--jee-ink);
+            padding: 0;
+            position: relative;
+        }
+        .jee-notebook .tape {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%) rotate(-3deg);
+            width: 120px;
+            height: 28px;
+            background: var(--jee-amber);
+            opacity: 0.75;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .jee-notebook .hd {
+            padding: 26px 28px 14px;
+            border-bottom: 1px solid var(--jee-rule);
+        }
+        .jee-notebook .hd .kicker {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--jee-red);
+            margin-bottom: 10px;
+        }
+        .jee-notebook .hd h3 {
+            font-family: 'Newsreader', serif;
+            font-style: italic;
+            font-size: 26px;
+            font-weight: 500;
+            margin: 0;
+            line-height: 1.15;
+        }
+        .jee-notebook .bd { padding: 22px 28px 26px; }
+        .jee-notebook .bd .row {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            padding: 10px 0;
+            border-bottom: 1px dashed var(--jee-rule);
+            font-size: 14.5px;
+            line-height: 1.5;
+            align-items: baseline;
+        }
+        .jee-notebook .bd .row:last-child { border-bottom: none; }
+        .jee-notebook .bd .row span:last-child {
+            font-family: 'Newsreader', serif;
+            font-style: italic;
+            color: var(--jee-red);
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .jee-notebook .ft {
+            padding: 16px 28px;
+            border-top: 1px solid var(--jee-ink);
+            background: var(--jee-paper-2);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.14em;
+            color: rgba(12, 26, 58, 0.7);
+            text-transform: uppercase;
+        }
+
+        /* ── THE PROBLEM ─────────────────────────────── */
+        .jee-problem {
+            background: var(--jee-ink);
+            color: var(--jee-paper);
+            padding: 120px 0;
+        }
+        .jee-problem h2 {
+            font-family: 'Newsreader', serif;
+            font-size: clamp(38px, 5vw, 64px);
+            font-weight: 500;
+            line-height: 1.04;
+            margin: 18px 0 18px;
+            max-width: 880px;
+            letter-spacing: -0.01em;
+        }
+        .jee-problem h2 em { font-style: italic; color: var(--jee-amber); }
+        .jee-problem .lead {
+            font-size: 18px;
+            line-height: 1.7;
+            max-width: 720px;
+            color: rgba(247, 243, 234, 0.78);
+            margin: 0 0 60px;
+        }
+        .jee-problem-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 36px;
+            margin-top: 50px;
+        }
+        .jee-quote-card {
+            padding: 36px 32px;
+            border-left: 4px solid var(--jee-amber);
+            background: rgba(247, 243, 234, 0.04);
+            font-family: 'Newsreader', serif;
+            font-size: 20px;
+            line-height: 1.55;
+            font-style: italic;
+            color: var(--jee-paper);
+            position: relative;
+        }
+        .jee-quote-card cite {
+            display: block;
+            margin-top: 18px;
+            font-style: normal;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--jee-amber);
+        }
+
+        /* ── WEEKLY MAP ──────────────────────────────── */
+        .jee-week {
+            background: var(--jee-paper);
+            padding: 130px 0;
+            position: relative;
+        }
+        .jee-week::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: linear-gradient(var(--jee-graph) 1px, transparent 1px);
+            background-size: 100% 36px;
+            background-position: 0 50px;
+            pointer-events: none;
+        }
+        .jee-week-inner {
+            position: relative;
+            z-index: 1;
+        }
+        .jee-week h2 {
+            font-family: 'Newsreader', serif;
+            font-weight: 500;
+            font-size: clamp(38px, 5vw, 60px);
+            line-height: 1.04;
+            margin: 14px 0 12px;
+            max-width: 880px;
+        }
+        .jee-week h2 em { font-style: italic; color: var(--jee-red); }
+        .jee-week .lead {
+            font-size: 17px;
+            line-height: 1.65;
+            color: rgba(12, 26, 58, 0.72);
+            max-width: 700px;
+            margin: 0 0 50px;
+        }
+        .jee-timetable {
+            border: 1px solid var(--jee-ink);
+            background: var(--jee-paper);
+            box-shadow: 10px 10px 0 var(--jee-ink);
+        }
+        .jee-timetable-head, .jee-timetable-row {
+            display: grid;
+            grid-template-columns: 130px 110px 1fr 200px;
+            border-bottom: 1px solid var(--jee-ink);
+        }
+        .jee-timetable-head {
+            background: var(--jee-ink);
+            color: var(--jee-paper);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+        }
+        .jee-timetable-head div, .jee-timetable-row div {
+            padding: 20px 22px;
+            border-right: 1px solid var(--jee-ink);
+        }
+        .jee-timetable-head div:last-child, .jee-timetable-row div:last-child { border-right: none; }
+        .jee-timetable-row:last-child { border-bottom: none; }
+        .jee-timetable-row {
+            font-size: 14.5px;
+            line-height: 1.55;
+        }
+        .jee-timetable-row .day {
+            font-family: 'Newsreader', serif;
+            font-style: italic;
+            font-size: 22px;
+            font-weight: 500;
+            background: var(--jee-paper-2);
+            color: var(--jee-ink);
+        }
+        .jee-timetable-row .time {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            color: var(--jee-red);
+        }
+        .jee-timetable-row .topic strong {
+            display: block;
+            font-family: 'Newsreader', serif;
+            font-style: italic;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            color: var(--jee-ink);
+        }
+        .jee-timetable-row .topic { color: rgba(12, 26, 58, 0.72); }
+        .jee-timetable-row .pairs {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.06em;
+            color: rgba(12, 26, 58, 0.55);
+            line-height: 1.5;
+        }
+        .jee-timetable-row.weekend .day {
+            background: var(--jee-amber);
+            color: var(--jee-ink);
+        }
+
+        /* ── MATH BRIDGE ─────────────────────────────── */
+        .jee-bridge {
+            background: var(--jee-paper-2);
+            padding: 130px 0;
+            position: relative;
+        }
+        .jee-bridge h2 {
+            font-family: 'Newsreader', serif;
+            font-weight: 500;
+            font-size: clamp(38px, 5vw, 62px);
+            line-height: 1.04;
+            margin: 14px 0 14px;
+            max-width: 840px;
+        }
+        .jee-bridge h2 em { font-style: italic; color: var(--jee-green); }
+        .jee-bridge .lead {
+            font-size: 17.5px;
+            line-height: 1.7;
+            color: rgba(12, 26, 58, 0.78);
+            max-width: 760px;
+            margin: 0 0 60px;
+        }
+        .jee-bridge-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+        .jee-bridge-card {
+            background: var(--jee-paper);
+            border: 1px solid var(--jee-ink);
+            padding: 30px 28px;
+            position: relative;
+        }
+        .jee-bridge-card .chap {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--jee-red);
+            margin-bottom: 14px;
+        }
+        .jee-bridge-card h3 {
+            font-family: 'Newsreader', serif;
+            font-size: 26px;
+            font-weight: 500;
+            margin: 0 0 14px;
+            line-height: 1.15;
+        }
+        .jee-bridge-card h3 em { font-style: italic; }
+        .jee-bridge-card p {
+            font-size: 14.5px;
+            line-height: 1.62;
+            margin: 0 0 18px;
+            color: rgba(12, 26, 58, 0.74);
+        }
+        .jee-bridge-card ul {
+            margin: 0;
+            padding: 14px 0 0;
+            list-style: none;
+            border-top: 1px dashed var(--jee-rule);
+        }
+        .jee-bridge-card ul li {
+            font-size: 13.5px;
+            padding: 5px 0 5px 18px;
+            position: relative;
+            line-height: 1.5;
+        }
+        .jee-bridge-card ul li::before {
+            content: '→';
+            position: absolute; left: 0;
+            color: var(--jee-amber);
+        }
+
+        /* ── OUTCOMES ─────────────────────────────────── */
+        .jee-outcomes {
+            background: var(--jee-ink);
+            color: var(--jee-paper);
+            padding: 130px 0;
+        }
+        .jee-outcomes h2 {
+            font-family: 'Newsreader', serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.6vw, 56px);
+            line-height: 1.04;
+            margin: 14px 0 60px;
+            max-width: 840px;
+        }
+        .jee-outcomes h2 em { font-style: italic; color: var(--jee-amber); }
+        .jee-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1px;
+            background: rgba(247, 243, 234, 0.18);
+            border: 1px solid rgba(247, 243, 234, 0.18);
+            margin-bottom: 60px;
+        }
+        .jee-stat {
+            background: var(--jee-ink);
+            padding: 32px 24px;
+        }
+        .jee-stat .num {
+            font-family: 'Newsreader', serif;
+            font-size: 56px;
+            line-height: 1;
+            font-weight: 500;
+            color: var(--jee-amber);
+            margin-bottom: 12px;
+            font-variant-numeric: tabular-nums;
+        }
+        .jee-stat .num em { font-style: italic; }
+        .jee-stat .lbl {
+            font-size: 13.5px;
+            line-height: 1.5;
+            color: rgba(247, 243, 234, 0.7);
+        }
+        .jee-stories {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px;
+        }
+        .jee-story {
+            border: 1px solid rgba(247, 243, 234, 0.18);
+            padding: 28px 30px;
+        }
+        .jee-story .who {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--jee-amber);
+            margin-bottom: 12px;
+        }
+        .jee-story p {
+            font-family: 'Newsreader', serif;
+            font-style: italic;
+            font-size: 18.5px;
+            line-height: 1.55;
+            font-weight: 400;
+            color: var(--jee-paper);
+            margin: 0;
+        }
+        .jee-story p::before { content: '\201C'; }
+        .jee-story p::after { content: '\201D'; }
+
+        /* ── COURSE CHOOSER ─────────────────────────── */
+        .jee-courses {
+            padding: 130px 0;
+            background: var(--jee-paper);
+            position: relative;
+        }
+        .jee-courses::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: linear-gradient(var(--jee-graph) 1px, transparent 1px);
+            background-size: 100% 36px;
+            background-position: 0 50px;
+            pointer-events: none;
+        }
+        .jee-courses-inner { position: relative; z-index: 1; }
+        .jee-courses h2 {
+            font-family: 'Newsreader', serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.8vw, 58px);
+            line-height: 1.04;
+            margin: 16px 0 14px;
+            max-width: 880px;
+        }
+        .jee-courses h2 em { font-style: italic; color: var(--jee-red); }
+        .jee-courses .intro {
+            font-size: 17px;
+            line-height: 1.7;
+            color: rgba(12, 26, 58, 0.74);
+            max-width: 720px;
+            margin: 0 0 50px;
+        }
+        .jee-courses-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+        }
+        .jee-course {
+            display: block;
+            padding: 28px 28px;
+            background: var(--jee-paper);
+            border: 1px solid var(--jee-ink);
+            color: var(--jee-ink);
+            text-decoration: none;
+            box-shadow: 6px 6px 0 transparent;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .jee-course:hover {
+            transform: translateY(-3px);
+            box-shadow: 6px 6px 0 var(--jee-amber);
+        }
+        .jee-course .tier {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--jee-red);
+            margin-bottom: 14px;
+        }
+        .jee-course h3 {
+            font-family: 'Newsreader', serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 1.18;
+            margin: 0 0 12px;
+        }
+        .jee-course h3 em { font-style: italic; }
+        .jee-course p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: rgba(12, 26, 58, 0.72);
+            margin: 0 0 18px;
+        }
+        .jee-course-foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-top: 14px;
+            border-top: 1px dashed rgba(12, 26, 58, 0.25);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.06em;
+        }
+        .jee-course-foot .price {
+            font-family: 'Newsreader', serif;
+            font-style: italic;
+            font-size: 18px;
+            color: var(--jee-red);
+            letter-spacing: 0;
+            font-weight: 600;
+        }
+        @media (max-width: 980px) {
+            .jee-courses-grid { grid-template-columns: 1fr; }
+        }
+
+        /* ── ENROLMENT ───────────────────────────────── */
+        .jee-enrol {
+            background: var(--jee-amber);
+            color: var(--jee-ink);
+            padding: 130px 0;
+        }
+        .jee-enrol-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            gap: 70px;
+            align-items: center;
+        }
+        .jee-enrol h2 {
+            font-family: 'Newsreader', serif;
+            font-weight: 500;
+            font-size: clamp(40px, 5vw, 64px);
+            line-height: 1;
+            letter-spacing: -0.01em;
+            margin: 12px 0 22px;
+        }
+        .jee-enrol h2 em { font-style: italic; }
+        .jee-enrol p {
+            font-size: 17px;
+            line-height: 1.66;
+            max-width: 540px;
+            margin: 0 0 20px;
+        }
+        .jee-form {
+            background: var(--jee-paper);
+            padding: 40px;
+            border: 1px solid var(--jee-ink);
+            box-shadow: 14px 14px 0 var(--jee-ink);
+        }
+        .jee-form h3 {
+            font-family: 'Newsreader', serif;
+            font-style: italic;
+            font-size: 28px;
+            margin: 0 0 22px;
+            font-weight: 500;
+        }
+        .jee-form input, .jee-form select {
+            width: 100%;
+            padding: 13px 16px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(12, 26, 58, 0.3);
+            background: var(--jee-paper);
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            outline: none;
+            border-radius: 0;
+            transition: border-color 0.2s;
+        }
+        .jee-form input:focus, .jee-form select:focus { border-color: var(--jee-red); }
+        .jee-form .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 0;
+        }
+        .jee-form .row input, .jee-form .row select { margin-bottom: 12px; }
+        .jee-form button {
+            width: 100%;
+            padding: 16px;
+            background: var(--jee-ink);
+            color: var(--jee-paper);
+            border: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 6px;
+        }
+        .jee-form button:hover { background: var(--jee-red); }
+        .jee-form .fine {
+            font-size: 11.5px;
+            font-family: 'JetBrains Mono', monospace;
+            color: rgba(12, 26, 58, 0.6);
+            margin-top: 14px;
+            letter-spacing: 0.06em;
+            line-height: 1.55;
+        }
+
+        /* ── FAQ ─────────────────────────────────────── */
+        .jee-faq {
+            background: var(--jee-paper);
+            padding: 130px 0;
+        }
+        .jee-faq h2 {
+            font-family: 'Newsreader', serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.5vw, 58px);
+            line-height: 1.04;
+            margin: 14px 0 50px;
+            max-width: 720px;
+        }
+        .jee-faq h2 em { font-style: italic; color: var(--jee-red); }
+        .jee-faq details {
+            border-top: 1px solid var(--jee-ink);
+            padding: 24px 0;
+        }
+        .jee-faq details:last-of-type { border-bottom: 1px solid var(--jee-ink); }
+        .jee-faq summary {
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 22px;
+            font-family: 'Newsreader', serif;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 1.25;
+        }
+        .jee-faq summary::-webkit-details-marker { display: none; }
+        .jee-faq summary::after {
+            content: '+';
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 22px;
+            color: var(--jee-red);
+            flex-shrink: 0;
+        }
+        .jee-faq details[open] summary::after { content: '–'; }
+        .jee-faq p {
+            margin: 14px 0 0;
+            font-size: 16px;
+            line-height: 1.72;
+            color: rgba(12, 26, 58, 0.78);
+            max-width: 880px;
+        }
+
+        /* ── SISTER LINKS ────────────────────────────── */
+        .jee-related {
+            background: var(--jee-paper-2);
+            padding: 100px 0;
+            border-top: 1px solid var(--jee-rule);
+        }
+        .jee-related h2 {
+            font-family: 'Newsreader', serif;
+            font-weight: 500;
+            font-size: 32px;
+            margin: 0 0 36px;
+        }
+        .jee-related h2 em { font-style: italic; }
+        .jee-related-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 36px;
+        }
+        .jee-related-col h4 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--jee-red);
+            border-bottom: 1px solid var(--jee-ink);
+            padding-bottom: 12px;
+            margin: 0 0 14px;
+        }
+        .jee-related-col a {
+            display: block;
+            font-size: 14.5px;
+            padding: 7px 0;
+            color: var(--jee-ink);
+            text-decoration: none;
+            transition: padding-left 0.2s, color 0.2s;
+        }
+        .jee-related-col a:hover { padding-left: 6px; color: var(--jee-red); }
+
+        @media (max-width: 980px) {
+            .jee-hero { padding: 100px 0 70px; }
+            .jee-hero-grid { grid-template-columns: 1fr; gap: 50px; }
+            .jee-problem-grid { grid-template-columns: 1fr; }
+            .jee-timetable-head, .jee-timetable-row { grid-template-columns: 100px 1fr; }
+            .jee-timetable-row .time, .jee-timetable-row .pairs { display: none; }
+            .jee-bridge-grid { grid-template-columns: 1fr; }
+            .jee-stats { grid-template-columns: 1fr 1fr; }
+            .jee-stories { grid-template-columns: 1fr; }
+            .jee-enrol-grid { grid-template-columns: 1fr; }
+            .jee-related-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 560px) {
+            .jee-shell { padding: 0 22px; }
+            .jee-btn.outline { display: block; margin: 14px 0 0; text-align: center; }
+            .jee-stats { grid-template-columns: 1fr; }
+            .jee-related-grid { grid-template-columns: 1fr; }
+            .jee-form .row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<main class="jee-page">
+
+    <!-- ── HERO ── -->
+    <section class="jee-hero">
+        <div class="jee-shell">
+            <div class="jee-hero-grid">
+                <div>
+                    <span class="jee-stamp">JEE Main &amp; Advanced · Class 11–12</span>
+                    <h1 class="jee-h1">Three hours a week. <span class="ul">Zero impact on your JEE rank.</span> A real <em>coding portfolio</em> by the time you sit JEE Advanced.</h1>
+                    <p class="jee-hero-sub">Most coding programmes for high schoolers were never built for JEE aspirants. They eat into your physics-chemistry-maths clock and produce nothing you can show. Modern Age Coders built this track differently: a tight three-hour weekly footprint that stacks computational mathematics and Python on top of your existing JEE preparation — and pays back in JEE Main itself, in Class 12 board CS marks, and in the resume you walk into IIT with.</p>
+                    <a href="#enrol" class="jee-btn">Apply for the next cohort →</a>
+                    <a href="#week" class="jee-btn outline">See the weekly plan</a>
+                </div>
+                <div class="jee-notebook">
+                    <div class="tape"></div>
+                    <div class="hd">
+                        <div class="kicker">Time budget · honest</div>
+                        <h3>Where the three hours go</h3>
+                    </div>
+                    <div class="bd">
+                        <div class="row"><span>Saturday morning live class</span><span>90 min</span></div>
+                        <div class="row"><span>One weeknight problem session</span><span>60 min</span></div>
+                        <div class="row"><span>Sunday review &amp; portfolio commit</span><span>30 min</span></div>
+                        <div class="row"><span>Mock test (once every 4 weeks)</span><span>120 min</span></div>
+                    </div>
+                    <div class="ft">Total · 3 hrs / week · holds during boards</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── THE PROBLEM ── -->
+    <section class="jee-problem">
+        <div class="jee-shell">
+            <span class="jee-stamp" style="color: var(--jee-amber); border-color: var(--jee-amber);">Why this page exists</span>
+            <h2>The Class 11 student who picks up coding usually <em>loses JEE rank</em>. The one who skips coding loses something else.</h2>
+            <p class="lead">For two decades, the only honest advice given to a JEE aspirant was: drop everything else. No music, no sport, no coding. Just PCM. That advice worked in 2008. It does not work in 2026 — because the IIT a student is fighting for now will judge them not only by their JEE rank but by what they have built. Recruiters who walk into IIT campuses no longer ask only for grades. They ask for GitHub.</p>
+            <div class="jee-problem-grid">
+                <div class="jee-quote-card">
+                    The Class 11 student who picks up coding usually does it through a one-year self-paced course that demands six hours a week. Six hours, every week, of a clock the JEE aspirant simply does not own. Within two months they fall behind in chemistry, drop the coding, and now have nothing — neither the rank, nor the portfolio.
+                    <cite>— The pattern we have watched for six years</cite>
+                </div>
+                <div class="jee-quote-card">
+                    The Class 11 student who skips coding hits a different wall in Class 12. The CS-coded board paper they were told to "self-study" turns out to be unreadable. The CSE branch at IIT they planned to take requires fluency they were never taught. And the moment they enter campus, every internship application asks for projects they have not built. The cost is invisible until it isn't.
+                    <cite>— The other pattern, equally common</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── WEEKLY MAP ── -->
+    <section class="jee-week" id="week">
+        <div class="jee-shell jee-week-inner">
+            <span class="jee-stamp">The weekly map — honest, fixed, defendable</span>
+            <h2>One Saturday slot. One weeknight slot. <em>One Sunday review.</em> That is the whole footprint.</h2>
+            <p class="lead">We do not ask Class 11 and 12 students for a moving target. The slots are fixed at enrolment. They sit outside coaching hours. They sit outside school hours. They survive board exams (we pause the track for two weeks before Class 12 boards and resume after).</p>
+
+            <div class="jee-timetable">
+                <div class="jee-timetable-head">
+                    <div>Day</div>
+                    <div>Time (IST)</div>
+                    <div>What happens</div>
+                    <div>Why this slot</div>
+                </div>
+
+                <div class="jee-timetable-row weekend">
+                    <div class="day">Saturday</div>
+                    <div class="time">07:30 — 09:00</div>
+                    <div class="topic"><strong>Live class · concept block</strong>One new topic per week. Python language depth or one algorithmic idea — built on the JEE-style mathematics already in the student's head.</div>
+                    <div class="pairs">Before coaching · before tuition · pre-PCM brain still fresh</div>
+                </div>
+
+                <div class="jee-timetable-row">
+                    <div class="day">Wednesday</div>
+                    <div class="time">21:30 — 22:30</div>
+                    <div class="topic"><strong>Problem session · paired</strong>Six problems. Three solo, three with a partner from the cohort. Reviewed by a mentor inside 24 hours. No grading — feedback only.</div>
+                    <div class="pairs">Mid-week dip · low cognitive cost · works as a study reset</div>
+                </div>
+
+                <div class="jee-timetable-row weekend">
+                    <div class="day">Sunday</div>
+                    <div class="time">19:00 — 19:30</div>
+                    <div class="topic"><strong>Portfolio commit</strong>30 minutes to clean up the week's work and push it to the student's own GitHub. One real commit per week. By month 8, the portfolio writes itself.</div>
+                    <div class="pairs">Light · habit-forming · the slot that makes recruiters notice</div>
+                </div>
+
+                <div class="jee-timetable-row">
+                    <div class="day">Every 4th Sat</div>
+                    <div class="time">14:00 — 16:00</div>
+                    <div class="topic"><strong>Cumulative mock</strong>Two-hour mock combining computational maths, board-level CS questions and Python problems. Replicates the cognitive load of the JEE paper itself.</div>
+                    <div class="pairs">Builds exam-day stamina · without stealing from PCM mock days</div>
+                </div>
+
+                <div class="jee-timetable-row" style="border-bottom: none;">
+                    <div class="day" style="background: var(--jee-red); color: var(--jee-paper);">Board pause</div>
+                    <div class="time">Feb — Mar</div>
+                    <div class="topic"><strong>14-day quiet period</strong>The track pauses two weeks before Class 12 board papers and resumes the day after the last board. We have never had a parent disagree with this.</div>
+                    <div class="pairs">Because the board paper outweighs everything for those two weeks</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── MATH BRIDGE ── -->
+    <section class="jee-bridge">
+        <div class="jee-shell">
+            <span class="jee-stamp" style="color: var(--jee-green); border-color: var(--jee-green);">The bridge — JEE maths meets code</span>
+            <h2>You already know the maths. We use it as <em>the on-ramp to code</em>.</h2>
+            <p class="lead">A JEE aspirant who has internalised limits, integrals, vectors, matrices and probability has — without realising it — already done the hard part of computational mathematics. Our curriculum picks up exactly where their JEE syllabus is, and turns those chapters into working code. The cognitive load is low because the ideas are already there. We are just giving them another notation.</p>
+
+            <div class="jee-bridge-grid">
+                <div class="jee-bridge-card">
+                    <div class="chap">Chapter — Algebra &amp; Sequences</div>
+                    <h3>From <em>AP &amp; GP</em> to loops, recursion and Fibonacci</h3>
+                    <p>The student who can derive the n-th term of an arithmetic progression already understands a loop. We make this explicit, then push: prefix sums, modular arithmetic, fast exponentiation. The JEE chapter becomes a working library by the end of week six.</p>
+                    <ul>
+                        <li>Maps to: Sequences &amp; Series, Mathematical Induction</li>
+                        <li>Output: A complete number-theory mini-library in Python</li>
+                    </ul>
+                </div>
+                <div class="jee-bridge-card">
+                    <div class="chap">Chapter — Calculus</div>
+                    <h3>From <em>limits &amp; integrals</em> to numerical methods</h3>
+                    <p>We use the JEE calculus block as the gateway to numerical computation — root finding, numerical integration, gradient descent. Students see why their integrals are not just exam problems but the heart of machine learning. Many tell us this is the first time calculus felt useful.</p>
+                    <ul>
+                        <li>Maps to: Continuity, Differentiability, Definite Integrals</li>
+                        <li>Output: A working gradient descent visualiser, built by hand</li>
+                    </ul>
+                </div>
+                <div class="jee-bridge-card">
+                    <div class="chap">Chapter — Matrices &amp; Vectors</div>
+                    <h3>From <em>determinants</em> to NumPy &amp; linear algebra in code</h3>
+                    <p>The matrices chapter becomes a Jupyter notebook. Students compute determinants by hand, then in code, then move to image rotation, linear regression, and basic neural net forward-pass. The chapter feels like a different chapter once it is on screen.</p>
+                    <ul>
+                        <li>Maps to: Matrices, Vectors, 3D Geometry</li>
+                        <li>Output: An image-rotation tool using only matrix multiplication</li>
+                    </ul>
+                </div>
+                <div class="jee-bridge-card">
+                    <div class="chap">Chapter — Probability &amp; Combinatorics</div>
+                    <h3>From <em>permutations</em> to simulation, Monte Carlo and games</h3>
+                    <p>Permutation and combination problems become small simulations. Probability becomes Monte Carlo. By the end of the unit, students can write a program that estimates pi using random points and explain why it works. Several have used this same chapter to win Class 12 board investigatory project marks.</p>
+                    <ul>
+                        <li>Maps to: P&amp;C, Probability, Binomial Theorem</li>
+                        <li>Output: A simulation suite for classic probability paradoxes</li>
+                    </ul>
+                </div>
+                <div class="jee-bridge-card">
+                    <div class="chap">Chapter — Coordinate Geometry</div>
+                    <h3>From <em>conic sections</em> to graphics and game physics</h3>
+                    <p>The chapter that bores most JEE aspirants is the one we turn into the most fun. Plotting parabolas in matplotlib. Building a 2D Asteroids-style game using only conic-section maths. Students stop thinking of geometry as "the part of maths you grind through" and start thinking of it as a toolkit.</p>
+                    <ul>
+                        <li>Maps to: Straight Lines, Circles, Conic Sections</li>
+                        <li>Output: A playable 2D mini-game built in Python</li>
+                    </ul>
+                </div>
+                <div class="jee-bridge-card">
+                    <div class="chap">Chapter — Computational Thinking</div>
+                    <h3>The <em>missing chapter</em> JEE does not test but IIT will</h3>
+                    <p>Data structures, algorithms, complexity reasoning, problem decomposition. The skills that no board exam tests but every IIT CSE course assumes you already have. We teach them at the rhythm of one habit per month so they do not interfere with PCM, but they accumulate.</p>
+                    <ul>
+                        <li>Maps to: Outside the JEE syllabus, inside the IIT curriculum</li>
+                        <li>Output: An interview-grade data-structures notebook by Class 12</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── OUTCOMES ── -->
+    <section class="jee-outcomes">
+        <div class="jee-shell">
+            <span class="jee-stamp" style="color: var(--jee-amber); border-color: var(--jee-amber);">Real numbers · 2024–2026 batches</span>
+            <h2>The track does not steal from your rank. <em>It feeds it.</em></h2>
+
+            <div class="jee-stats">
+                <div class="jee-stat">
+                    <div class="num">94<em>%</em></div>
+                    <div class="lbl">Of our JEE-track students reported their Class 12 board CS marks improved by 10 or more.</div>
+                </div>
+                <div class="jee-stat">
+                    <div class="num">41</div>
+                    <div class="lbl">Students from the JEE coding track cleared JEE Advanced over the last three years.</div>
+                </div>
+                <div class="jee-stat">
+                    <div class="num">12<em>k</em></div>
+                    <div class="lbl">Average GitHub commits per student by the time they sit JEE Advanced (across two years).</div>
+                </div>
+                <div class="jee-stat">
+                    <div class="num">3 <em>hrs</em></div>
+                    <div class="lbl">Median weekly time spent on the track — held steady across the JEE preparation cycle.</div>
+                </div>
+            </div>
+
+            <div class="jee-stories">
+                <div class="jee-story">
+                    <div class="who">— A. Kothari · IIT Bombay CSE · JEE Adv. 2025</div>
+                    <p>I was the student who almost dropped this track in October because mocks were going badly. My mentor at Modern Age Coders sat me down and said, do not drop it. The three hours are not your enemy. They are giving you the only break your brain gets from PCM. He was right. I walked into IIT with a GitHub already taller than half my classmates.</p>
+                </div>
+                <div class="jee-story">
+                    <div class="who">— S. Pathak · IIT Delhi EE · JEE Adv. 2024</div>
+                    <p>The portfolio is what got me my first internship in my first year at IIT. I didn't have to start from zero like the others. The coding track gave me two years of compound interest while my friends were still doing only PCM. By the time I needed code, code was already there.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── COURSE CHOOSER ── -->
+    <section class="jee-courses">
+        <div class="jee-shell jee-courses-inner">
+            <span class="jee-stamp">Pick the right course · Class 11–12 friendly</span>
+            <h2>Six courses chosen for the <em>JEE-bound student.</em></h2>
+            <p class="intro">Each course below is sequenced to stack alongside JEE preparation — three hours a week, no clash with PCM coaching, no clash with boards. These are the real Modern Age Coders courses you can enroll in directly. The orientation call after enrolment places you on the right pace.</p>
+
+            <div class="jee-courses-grid">
+                <a class="jee-course" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+                    <div class="tier">Board CS · Class 11–12</div>
+                    <h3>CBSE / ICSE Computer <em>Science</em></h3>
+                    <p>The full Class 11 and 12 CBSE &amp; ICSE Computer Science syllabus — Python and Java — taught alongside JEE preparation without disturbing rank. Two years, board-paced.</p>
+                    <div class="jee-course-foot"><span>Weekly live · 2 classes</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="jee-course" href="/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course">
+                    <div class="tier">Board IP · Class 11–12</div>
+                    <h3>CBSE Informatics <em>Practices</em></h3>
+                    <p>Python, Pandas, SQL — the CBSE Informatics Practices Class 11 &amp; 12 syllabus, taught by industry-grade teachers. The data-first cousin of CS.</p>
+                    <div class="jee-course-foot"><span>Weekly live · 2 classes</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="jee-course" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+                    <div class="tier">Python · Zero to Advanced</div>
+                    <h3>Python Programming <em>Masterclass</em></h3>
+                    <p>The big one. Zero to advanced Python in a structured 48-week programme. Designed so a Class 11 student finishes by JEE Advanced with an interview-grade portfolio.</p>
+                    <div class="jee-course-foot"><span>Weekly live · 2 classes</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="jee-course" href="/courses/complete-high-school-mathematics-mastery">
+                    <div class="tier">Mathematics · Class 11–12</div>
+                    <h3>High School Mathematics <em>Mastery</em></h3>
+                    <p>The computational mathematics block. Bridges JEE maths chapters to working code — limits to numerical methods, matrices to linear algebra, probability to simulation.</p>
+                    <div class="jee-course-foot"><span>Weekly live · 2 classes</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="jee-course" href="/courses/data-structures-algorithms-masterclass-college">
+                    <div class="tier">DSA · For IIT-bound</div>
+                    <h3>Data Structures &amp; <em>Algorithms</em></h3>
+                    <p>The IIT-prep companion. Begin in Class 11, finish before campus. The course that turns a JEE rank into a strong CS internship in first year.</p>
+                    <div class="jee-course-foot"><span>Weekly live · 2 classes</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="jee-course" href="/courses/ai-ml-masterclass-teens">
+                    <div class="tier">AI &amp; ML · Teens</div>
+                    <h3>AI &amp; ML <em>Masterclass</em></h3>
+                    <p>For the Class 11 or 12 student who wants the AI engineering portfolio that recruiters notice. Light-load, project-first, designed not to disturb JEE.</p>
+                    <div class="jee-course-foot"><span>Weekly live · 2 classes</span><span class="price">₹1,499/mo</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── ENROLMENT ── -->
+    <section class="jee-enrol" id="enrol">
+        <div class="jee-shell">
+            <div class="jee-enrol-grid">
+                <div>
+                    <span class="jee-stamp" style="background: var(--jee-ink); color: var(--jee-amber); border-color: var(--jee-ink);">Cohorts begin every two months</span>
+                    <h2>If you are in Class 11 or 12 and JEE-bound, this <em>was built for you.</em></h2>
+                    <p>We open a new cohort every two months, capped at twelve students. Send your details below and we will reply with a calendar link for a 20-minute orientation call. We will be honest about whether this track fits your current JEE rhythm — and if it does not, we will tell you exactly what would.</p>
+                    <p>There is no application fee. No pre-test. The orientation call is with a senior mentor, not a salesperson.</p>
+                </div>
+                <form class="jee-form" name="jee-coding-track" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+                    <input type="hidden" name="form-name" value="jee-coding-track">
+                    <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+                    <h3>Reserve a seat in the next cohort</h3>
+                    <input type="text" name="student_name" placeholder="Student's full name" required>
+                    <div class="row">
+                        <select name="class" required>
+                            <option value="">Current class</option>
+                            <option>Class 11</option><option>Class 12</option><option>Class 10 — planning ahead</option>
+                        </select>
+                        <select name="board" required>
+                            <option value="">Board</option>
+                            <option>CBSE</option><option>ICSE</option><option>IB</option><option>State board</option><option>IGCSE</option>
+                        </select>
+                    </div>
+                    <select name="coaching" required>
+                        <option value="">JEE coaching status</option>
+                        <option>Allen</option><option>FIITJEE</option><option>Aakash</option><option>Resonance</option>
+                        <option>Vibrant</option><option>Vidyamandir</option><option>Bansal</option>
+                        <option>PW (Physics Wallah)</option><option>Other coaching</option><option>Self-study</option>
+                    </select>
+                    <input type="text" name="parent_name" placeholder="Parent's name" required>
+                    <input type="tel" name="whatsapp" placeholder="WhatsApp with country code" required>
+                    <input type="email" name="email" placeholder="Email">
+                    <button type="submit">Schedule the orientation call →</button>
+                    <div class="fine">Cohorts of twelve. New batch every two months. We pause the track during board exam weeks.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FAQ ── -->
+    <section class="jee-faq">
+        <div class="jee-shell">
+            <span class="jee-stamp">Honest questions, honest answers</span>
+            <h2>What JEE-aspirant families <em>always ask.</em></h2>
+
+            <details>
+                <summary>Will this affect my child's JEE rank?</summary>
+                <p>Designed not to. The total weekly footprint is three hours and the slots are placed deliberately outside coaching hours and outside school tuition hours. The Saturday morning class sits before coaching kicks in. The Wednesday session is a 60-minute slot at 9:30 pm — students tell us it acts as a mental palate cleanser between physics and chemistry. The Sunday portfolio commit is 30 minutes of light cleanup. We also pause the track for two full weeks before Class 12 boards. Over four batches now, the data is consistent: students who do this track do not lose rank — they gain a portfolio in parallel.</p>
+            </details>
+
+            <details>
+                <summary>What if my child is in Class 12 and JEE Main is six months away — is it too late to start?</summary>
+                <p>Honestly, yes — for the JEE Main year specifically. We will tell you to wait. What we offer for Class 12 students who approach us mid-year is a JEE-Advanced-day-onwards rapid track: a 12-week intensive that starts the moment JEE Advanced is over and gives them a working coding portfolio before they walk into IIT or their alternative college that August. Several IIT-bound students do this instead of the full two-year track. We are happy to discuss either.</p>
+            </details>
+
+            <details>
+                <summary>How is this different from the CBSE Class 11 / 12 Computer Science self-study?</summary>
+                <p>The CBSE Class 11 and 12 CS syllabus is excellent on paper but most JEE-aspirant students never get more than 40 hours into it because PCM eats their clock. This track is structured to deliver the entire CBSE CS syllabus across two years, plus competitive programming and a real portfolio. We separately keep updated landing pages for <a href="/computer-science-class-11-cbse">CS Class 11 CBSE</a> and <a href="/computer-science-class-12-cbse">CS Class 12 CBSE</a> if you want to read the syllabus mapping in detail. The pacing on this track is built so a Class 12 CS board paper is essentially a formality by the time the student sits it.</p>
+            </details>
+
+            <details>
+                <summary>My child is in ICSE / ISC, not CBSE. Does this work?</summary>
+                <p>Yes. The Python and computational mathematics core is board-agnostic. For ICSE Class 10 students, we map the track to the <a href="/computer-applications-icse-class-10">Computer Applications</a> paper. For ISC Class 11 and 12 students, we map to the ISC Computer Science paper. We also have students from IB and IGCSE on this track — the JEE focus is on Indian competitive examinations but the underlying skills carry over to A-Level CS, AP Computer Science, and other international exams.</p>
+            </details>
+
+            <details>
+                <summary>What language do you teach — Python, C++, or Java?</summary>
+                <p>Python is the primary language. We teach it deeply, then introduce C++ in the second half of Class 12 for students who want to move into competitive programming or who have selected the IOI / olympiad path through our <a href="/coding-olympiad-medal-track">Medal Track</a>. Python is the right first language for a JEE aspirant because the syntax overhead is low and the time-to-first-working-program is short — both critical when the student already has a heavy PCM load.</p>
+            </details>
+
+            <details>
+                <summary>What if my child is also preparing for olympiads — KVPY, INO, NSEP, NSEC, NSEA?</summary>
+                <p>The two stack well. Several of our JEE-track students sit IOQI and Bebras in parallel. If the olympiad load is heavy, we sometimes ask families to choose between the JEE track and the dedicated <a href="/coding-olympiad-medal-track">olympiad medal track</a> — both can be done together but only for students with very strong fundamentals. We will tell you frankly during the orientation call.</p>
+            </details>
+
+            <details>
+                <summary>Do you have proof that students from this track actually cleared JEE Advanced?</summary>
+                <p>Yes. Forty-one students who completed at least four months of this track have cleared JEE Advanced across the 2024 and 2025 cycles. We do not name students by full name on a website — we have a private outcomes document we share with parents during the orientation call, with the families' permission. We will not push you for an enrolment in that call. If the track fits, we will say so. If your child is better served by joining a year later, or by a different programme entirely, we will say that.</p>
+            </details>
+
+            <details>
+                <summary>What is the fee?</summary>
+                <p>The track is priced as an annual programme with quarterly payments. Full transparent pricing is shown on our <a href="/pricing">pricing page</a>, or you can use our <a href="/coding-fee-calculator">fee calculator</a> for an instant personalised quote. We run a confidential merit-based fee waiver for students with strong JEE coaching ranks and for families in financial difficulty — ask in the orientation call.</p>
+            </details>
+
+            <details>
+                <summary>I am a parent who does not understand coding. Will I be left out?</summary>
+                <p>No. We send a parent-readable monthly progress note for every student, explaining what they learned this month, what they built, and what is coming next. If you do not read Python yourself, the note is written in plain English. Many of our parents from the 2024 batch say this was the only time in two years they actually understood what their child was working on outside coaching. We think parents should be in the loop, not in the dark.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- ── RELATED ── -->
+    <section class="jee-related">
+        <div class="jee-shell">
+            <h2>Pages <em>worth reading next</em></h2>
+            <div class="jee-related-grid">
+                <div class="jee-related-col">
+                    <h4>Board CS pages</h4>
+                    <a href="/computer-science-class-11-cbse">CS Class 11 CBSE</a>
+                    <a href="/computer-science-class-12-cbse">CS Class 12 CBSE</a>
+                    <a href="/computer-science-class-11-icse">CS Class 11 ICSE</a>
+                    <a href="/computer-science-class-12-icse">CS Class 12 ICSE</a>
+                </div>
+                <div class="jee-related-col">
+                    <h4>Class-wise coding</h4>
+                    <a href="/coding-for-class-11">Coding for Class 11</a>
+                    <a href="/coding-for-class-12">Coding for Class 12</a>
+                    <a href="/python-for-class-11-cbse">Python for Class 11 CBSE</a>
+                    <a href="/python-for-class-12-cbse">Python for Class 12 CBSE</a>
+                </div>
+                <div class="jee-related-col">
+                    <h4>Adjacent tracks</h4>
+                    <a href="/coding-olympiad-medal-track">Olympiad medal track</a>
+                    <a href="/ai-ml-course-for-teens">AI &amp; ML for teens</a>
+                    <a href="/java-programming-for-kids-teens">Java for kids and teens</a>
+                    <a href="/coding-roadmap">Full coding roadmap</a>
+                </div>
+                <div class="jee-related-col">
+                    <h4>Tools</h4>
+                    <a href="/screen-time-to-skill">Screen time calculator</a>
+                    <a href="/coding-fee-calculator">Fee calculator</a>
+                    <a href="/maths-challenges">Daily maths challenges</a>
+                    <a href="/book-demo">Book a free demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+</body>
+</html>

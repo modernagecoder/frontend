@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+        gtag('config', 'AW-16910316353');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coding Class Fee Calculator — Instant Transparent Pricing for India &amp; Global | Modern Age Coders</title>
+    <meta name="description" content="An honest, instant fee calculator for Modern Age Coders. Pick your child's age, the language or skill, the intensity and the country — get a real fee quote in seconds, plus any scholarship you may qualify for. No callbacks demanded. No hidden charges. Used by 22,000+ families.">
+    <meta name="keywords" content="coding class fees, coding course fees india, online coding class price, coding bootcamp fees, kids coding fees, python class fees, ai class fees, coding fee calculator, transparent coding pricing, modern age coders fees, coding fees abroad, coding fees usa uk canada, scholarship coding class, kids coding fees per month, coding fees per hour">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://learn.modernagecoders.com/coding-fee-calculator">
+
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-fee-calculator" />
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/coding-fee-calculator" />
+    <link rel="alternate" hreflang="en-us" href="https://learn.modernagecoders.com/coding-fee-calculator" />
+    <link rel="alternate" hreflang="en-gb" href="https://learn.modernagecoders.com/coding-fee-calculator" />
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-fee-calculator" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/coding-fee-calculator">
+    <meta property="og:title" content="Coding Class Fee Calculator — Modern Age Coders">
+    <meta property="og:description" content="Real fees. No callbacks. Get your quote in 30 seconds.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="theme-color" content="#0d1f1c">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Modern Age Coders Fee Calculator",
+        "url": "https://learn.modernagecoders.com/coding-fee-calculator",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web",
+        "description": "An instant, transparent fee calculator for live online coding classes by Modern Age Coders. Covers India and 11 other countries.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" }
+    }
+    </script>
+
+    <style>
+        :root {
+            --fc-bg: #0d1f1c;
+            --fc-bg-2: #102825;
+            --fc-mint: #5be0a8;
+            --fc-mint-soft: #b6f0d5;
+            --fc-paper: #f3f7f5;
+            --fc-paper-2: #e8efeb;
+            --fc-ink: #051613;
+            --fc-amber: #f4b500;
+            --fc-rose: #ff7a8e;
+            --fc-line: rgba(243, 247, 245, 0.14);
+            --fc-line-dark: rgba(5, 22, 19, 0.16);
+        }
+
+        /* Override global main flex layout from style.css and dark body theme */
+        body { background: var(--fc-paper) !important; color: var(--fc-ink) !important; }
+        main.fc-page {
+            display: block !important;
+            padding: 0 !important;
+            gap: 0 !important;
+            align-items: stretch !important;
+            justify-content: flex-start !important;
+            max-width: none !important;
+            width: 100% !important;
+        }
+        /* responsive.css forces h1-h6 to var(--text-primary) which is near-white;
+           force them to inherit from each section's own color instead. */
+        main.fc-page h1, main.fc-page h2, main.fc-page h3,
+        main.fc-page h4, main.fc-page h5, main.fc-page h6 {
+            color: inherit !important;
+        }
+        main.fc-page p, main.fc-page li, main.fc-page summary, main.fc-page label {
+            color: inherit;
+        }
+
+        .fc-page * { box-sizing: border-box; }
+        .fc-page {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--fc-paper);
+            color: var(--fc-ink);
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        .fc-page a { color: inherit; }
+        .fc-shell {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+        .fc-tag {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--fc-mint);
+            padding: 7px 13px;
+            border: 1px solid var(--fc-mint);
+            border-radius: 999px;
+        }
+
+        /* ── HERO ──────────────────────────────────── */
+        .fc-hero {
+            background: var(--fc-bg);
+            color: var(--fc-paper);
+            padding: 130px 0 100px;
+            position: relative;
+            overflow: hidden;
+        }
+        .fc-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 50% 60% at 90% 10%, rgba(91, 224, 168, 0.18) 0%, transparent 60%),
+                radial-gradient(ellipse 40% 50% at 5% 100%, rgba(244, 181, 0, 0.12) 0%, transparent 55%);
+            pointer-events: none;
+        }
+        .fc-hero-inner {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            max-width: 880px;
+            margin: 0 auto;
+        }
+        .fc-h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: clamp(44px, 5.8vw, 86px);
+            line-height: 1;
+            letter-spacing: -0.025em;
+            margin: 28px 0 26px;
+        }
+        .fc-h1 em {
+            font-style: normal;
+            color: var(--fc-mint);
+            background: linear-gradient(180deg, transparent 60%, rgba(91, 224, 168, 0.18) 60%);
+            padding: 0 6px;
+        }
+        .fc-hero-sub {
+            font-size: 19px;
+            line-height: 1.6;
+            color: rgba(243, 247, 245, 0.78);
+            max-width: 680px;
+            margin: 0 auto 30px;
+        }
+        .fc-hero-trust {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 36px;
+            flex-wrap: wrap;
+        }
+        .fc-trust-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            color: rgba(243, 247, 245, 0.65);
+        }
+        .fc-trust-item::before {
+            content: '';
+            width: 8px; height: 8px;
+            background: var(--fc-mint);
+            border-radius: 50%;
+        }
+
+        /* ── CALCULATOR PANEL ──────────────────────── */
+        .fc-calc-wrap {
+            margin-top: -60px;
+            padding: 0 0 100px;
+            background: linear-gradient(180deg, var(--fc-bg) 0%, var(--fc-bg) 30%, var(--fc-paper) 30%, var(--fc-paper) 100%);
+            position: relative;
+        }
+        .fc-calc {
+            background: var(--fc-paper);
+            border: 1px solid var(--fc-ink);
+            border-radius: 28px;
+            box-shadow: 0 30px 80px rgba(5, 22, 19, 0.25);
+            display: grid;
+            grid-template-columns: 1.05fr 1fr;
+            overflow: hidden;
+            position: relative;
+            z-index: 2;
+        }
+        .fc-calc-left {
+            padding: 48px;
+            border-right: 1px solid var(--fc-line-dark);
+        }
+        .fc-calc-right {
+            padding: 48px;
+            background: var(--fc-bg);
+            color: var(--fc-paper);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .fc-section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 32px;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            margin: 0 0 28px;
+            line-height: 1.1;
+        }
+        .fc-field { margin-bottom: 24px; }
+        .fc-field label {
+            display: block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: rgba(5, 22, 19, 0.6);
+            margin-bottom: 12px;
+        }
+        .fc-pill-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .fc-pill {
+            padding: 11px 16px;
+            background: transparent;
+            border: 1px solid var(--fc-line-dark);
+            border-radius: 999px;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--fc-ink);
+        }
+        .fc-pill:hover { border-color: var(--fc-ink); }
+        .fc-pill.active {
+            background: var(--fc-ink);
+            color: var(--fc-paper);
+            border-color: var(--fc-ink);
+        }
+        .fc-pill.compact { padding: 9px 13px; font-size: 12.5px; }
+
+        .fc-field select, .fc-field input[type="number"] {
+            width: 100%;
+            padding: 14px 18px;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            background: var(--fc-paper);
+            border: 1px solid var(--fc-line-dark);
+            border-radius: 14px;
+            color: var(--fc-ink);
+            outline: none;
+            transition: border-color 0.2s;
+            appearance: none;
+        }
+        .fc-field select:focus, .fc-field input:focus { border-color: var(--fc-ink); }
+
+        .fc-slider-wrap { padding: 4px 0 0; }
+        .fc-slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 6px;
+            background: var(--fc-paper-2);
+            border-radius: 999px;
+            outline: none;
+        }
+        .fc-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 24px; height: 24px;
+            background: var(--fc-mint);
+            border: 3px solid var(--fc-ink);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .fc-slider::-moz-range-thumb {
+            width: 24px; height: 24px;
+            background: var(--fc-mint);
+            border: 3px solid var(--fc-ink);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .fc-slider-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: rgba(5, 22, 19, 0.5);
+        }
+        .fc-slider-val {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 24px;
+            color: var(--fc-ink);
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* ── RESULT ──────────────────────────────── */
+        .fc-result {
+            position: relative;
+        }
+        .fc-result-empty {
+            text-align: center;
+            padding: 40px 0;
+            font-family: 'Space Grotesk', sans-serif;
+            opacity: 0.7;
+        }
+        .fc-result-empty .icn {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            color: var(--fc-mint);
+            margin-bottom: 18px;
+            text-transform: uppercase;
+        }
+        .fc-result-empty p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 0;
+            color: rgba(243, 247, 245, 0.7);
+            max-width: 360px;
+            margin: 0 auto;
+        }
+        .fc-result-show { display: none; }
+        .fc-result-show.on { display: block; }
+        .fc-amount-row {
+            margin-bottom: 28px;
+        }
+        .fc-amount-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--fc-mint);
+            margin-bottom: 10px;
+        }
+        .fc-amount {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 1;
+            letter-spacing: -0.02em;
+            margin-bottom: 6px;
+            font-variant-numeric: tabular-nums;
+        }
+        .fc-amount-sub {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            color: rgba(243, 247, 245, 0.55);
+            letter-spacing: 0.04em;
+        }
+        .fc-amount-strike {
+            text-decoration: line-through;
+            opacity: 0.5;
+            margin-right: 10px;
+        }
+        .fc-breakdown {
+            border-top: 1px solid var(--fc-line);
+            padding-top: 22px;
+            margin-bottom: 24px;
+        }
+        .fc-breakdown-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding: 9px 0;
+            font-size: 14px;
+            color: rgba(243, 247, 245, 0.78);
+            border-bottom: 1px dashed var(--fc-line);
+        }
+        .fc-breakdown-row:last-child { border-bottom: none; }
+        .fc-breakdown-row .v {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--fc-paper);
+            font-variant-numeric: tabular-nums;
+        }
+        .fc-breakdown-row.savings .v { color: var(--fc-mint); }
+        .fc-result-cta {
+            display: block;
+            width: 100%;
+            padding: 16px;
+            background: var(--fc-mint);
+            color: var(--fc-ink);
+            text-decoration: none;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            font-size: 15px;
+            border-radius: 14px;
+            text-align: center;
+            transition: background 0.2s, transform 0.2s;
+            cursor: pointer;
+            border: none;
+        }
+        .fc-result-cta:hover { background: var(--fc-mint-soft); transform: translateY(-2px); }
+        .fc-result-ghost {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            background: transparent;
+            color: rgba(243, 247, 245, 0.7);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.12em;
+            text-align: center;
+            margin-top: 10px;
+            border-radius: 14px;
+            border: 1px solid var(--fc-line);
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        .fc-result-ghost:hover { color: var(--fc-mint); border-color: var(--fc-mint); }
+        .fc-scholar-banner {
+            background: rgba(91, 224, 168, 0.1);
+            border-left: 3px solid var(--fc-mint);
+            padding: 14px 18px;
+            margin-bottom: 22px;
+            font-size: 13.5px;
+            line-height: 1.55;
+            color: rgba(243, 247, 245, 0.88);
+            border-radius: 4px;
+        }
+        .fc-scholar-banner strong { color: var(--fc-mint); }
+
+        /* ── HONEST PRICING NOTE ────────────────── */
+        .fc-honest {
+            padding: 110px 0;
+            background: var(--fc-paper);
+        }
+        .fc-honest h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.6vw, 56px);
+            line-height: 1.04;
+            margin: 18px 0 14px;
+            max-width: 880px;
+            letter-spacing: -0.015em;
+        }
+        .fc-honest h2 em {
+            font-style: normal;
+            background: linear-gradient(180deg, transparent 62%, var(--fc-mint-soft) 62%);
+            padding: 0 4px;
+        }
+        .fc-honest .lead {
+            font-size: 17.5px;
+            line-height: 1.7;
+            color: rgba(5, 22, 19, 0.72);
+            max-width: 720px;
+            margin: 0 0 50px;
+        }
+        .fc-promise-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+        .fc-promise {
+            background: var(--fc-paper-2);
+            padding: 28px 26px;
+            border-radius: 18px;
+            border: 1px solid var(--fc-line-dark);
+        }
+        .fc-promise .n {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 36px;
+            font-weight: 500;
+            color: var(--fc-mint);
+            line-height: 1;
+            margin-bottom: 12px;
+        }
+        .fc-promise h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 19px;
+            font-weight: 500;
+            margin: 0 0 10px;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+        }
+        .fc-promise p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: rgba(5, 22, 19, 0.7);
+            margin: 0;
+        }
+
+        /* ── COMPARE TABLE ──────────────────────── */
+        .fc-compare {
+            padding: 110px 0;
+            background: var(--fc-bg);
+            color: var(--fc-paper);
+        }
+        .fc-compare h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.6vw, 56px);
+            line-height: 1.04;
+            margin: 18px 0 14px;
+            max-width: 880px;
+            letter-spacing: -0.015em;
+        }
+        .fc-compare h2 em { color: var(--fc-mint); font-style: normal; }
+        .fc-compare .lead {
+            font-size: 17px;
+            line-height: 1.7;
+            color: rgba(243, 247, 245, 0.7);
+            max-width: 740px;
+            margin: 0 0 50px;
+        }
+        .fc-compare-table {
+            border: 1px solid var(--fc-line);
+            border-radius: 18px;
+            overflow: hidden;
+        }
+        .fc-row {
+            display: grid;
+            grid-template-columns: 1.4fr repeat(4, 1fr);
+            border-bottom: 1px solid var(--fc-line);
+        }
+        .fc-row:last-child { border-bottom: none; }
+        .fc-row.head {
+            background: var(--fc-bg-2);
+        }
+        .fc-row > div {
+            padding: 18px 20px;
+            border-right: 1px solid var(--fc-line);
+            font-size: 14px;
+            line-height: 1.55;
+            display: flex;
+            align-items: center;
+        }
+        .fc-row > div:last-child { border-right: none; }
+        .fc-row.head > div {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--fc-mint);
+        }
+        .fc-row .row-label {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            color: var(--fc-paper);
+        }
+        .fc-row .ours { background: rgba(91, 224, 168, 0.06); }
+        .fc-yes { color: var(--fc-mint); }
+        .fc-no { color: rgba(243, 247, 245, 0.35); }
+        .fc-num {
+            font-family: 'JetBrains Mono', monospace;
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* ── SCHOLARSHIP ────────────────────────── */
+        .fc-scholar {
+            padding: 130px 0;
+            background: var(--fc-mint);
+            color: var(--fc-ink);
+        }
+        .fc-scholar-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.05fr;
+            gap: 80px;
+            align-items: center;
+        }
+        .fc-scholar h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: clamp(38px, 5vw, 64px);
+            line-height: 1;
+            letter-spacing: -0.02em;
+            margin: 14px 0 24px;
+        }
+        .fc-scholar h2 em {
+            font-style: normal;
+            background: var(--fc-ink);
+            color: var(--fc-mint);
+            padding: 0 8px;
+        }
+        .fc-scholar p {
+            font-size: 17px;
+            line-height: 1.66;
+            color: rgba(5, 22, 19, 0.84);
+            margin: 0 0 18px;
+            max-width: 500px;
+        }
+        .fc-scholar-list {
+            background: var(--fc-ink);
+            color: var(--fc-paper);
+            border-radius: 22px;
+            padding: 38px;
+        }
+        .fc-scholar-list h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: 22px;
+            margin: 0 0 20px;
+            color: var(--fc-mint);
+        }
+        .fc-scholar-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .fc-scholar-list ul li {
+            padding: 14px 0;
+            border-bottom: 1px dashed var(--fc-line);
+            font-size: 14.5px;
+            line-height: 1.55;
+            display: grid;
+            grid-template-columns: 80px 1fr;
+            gap: 18px;
+            align-items: start;
+        }
+        .fc-scholar-list ul li:last-child { border-bottom: none; }
+        .fc-scholar-list ul li .amount {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 26px;
+            font-weight: 500;
+            color: var(--fc-mint);
+            line-height: 1;
+        }
+        .fc-scholar-list ul li strong {
+            display: block;
+            margin-bottom: 4px;
+            font-weight: 500;
+        }
+        .fc-scholar-list ul li span {
+            color: rgba(243, 247, 245, 0.7);
+            font-size: 13px;
+            display: block;
+        }
+
+        /* ── COURSE CHOOSER ─────────────────────── */
+        .fc-courses {
+            padding: 130px 0;
+            background: var(--fc-paper);
+        }
+        .fc-courses h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.6vw, 56px);
+            line-height: 1.04;
+            margin: 16px 0 14px;
+            max-width: 820px;
+            letter-spacing: -0.015em;
+        }
+        .fc-courses h2 em {
+            font-style: normal;
+            background: linear-gradient(180deg, transparent 60%, var(--fc-mint-soft) 60%);
+            padding: 0 6px;
+        }
+        .fc-courses .intro {
+            font-size: 17px;
+            line-height: 1.7;
+            color: rgba(5, 22, 19, 0.74);
+            max-width: 720px;
+            margin: 0 0 50px;
+        }
+        .fc-courses-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+        }
+        .fc-course {
+            display: block;
+            padding: 28px 26px;
+            background: var(--fc-paper-2);
+            border: 1px solid var(--fc-line-dark);
+            border-radius: 18px;
+            color: var(--fc-ink);
+            text-decoration: none;
+            transition: transform 0.2s, border-color 0.2s, background 0.2s;
+        }
+        .fc-course:hover {
+            transform: translateY(-3px);
+            border-color: var(--fc-ink);
+            background: var(--fc-paper);
+        }
+        .fc-course .tier {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--fc-ink);
+            margin-bottom: 14px;
+        }
+        .fc-course h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 1.2;
+            margin: 0 0 12px;
+            letter-spacing: -0.01em;
+        }
+        .fc-course p {
+            font-size: 14px;
+            line-height: 1.62;
+            color: rgba(5, 22, 19, 0.72);
+            margin: 0 0 18px;
+        }
+        .fc-course-foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-top: 14px;
+            border-top: 1px dashed rgba(5, 22, 19, 0.25);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.06em;
+        }
+        .fc-course-foot .price {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+            color: var(--fc-ink);
+            letter-spacing: -0.01em;
+        }
+        @media (max-width: 980px) {
+            .fc-courses-grid { grid-template-columns: 1fr; }
+        }
+
+        /* ── FAQ ────────────────────────────────── */
+        .fc-faq {
+            padding: 120px 0;
+            background: var(--fc-paper-2);
+        }
+        .fc-faq h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.5vw, 56px);
+            line-height: 1.04;
+            margin: 18px 0 50px;
+            max-width: 760px;
+            letter-spacing: -0.015em;
+        }
+        .fc-faq details {
+            border-top: 1px solid var(--fc-line-dark);
+            padding: 24px 0;
+        }
+        .fc-faq details:last-of-type { border-bottom: 1px solid var(--fc-line-dark); }
+        .fc-faq summary {
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 24px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 23px;
+            font-weight: 500;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+        }
+        .fc-faq summary::-webkit-details-marker { display: none; }
+        .fc-faq summary::after {
+            content: '+';
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 22px;
+            color: var(--fc-mint);
+            flex-shrink: 0;
+        }
+        .fc-faq details[open] summary::after { content: '–'; }
+        .fc-faq p {
+            margin: 14px 0 0;
+            font-size: 16px;
+            line-height: 1.72;
+            color: rgba(5, 22, 19, 0.78);
+            max-width: 880px;
+        }
+
+        /* ── RELATED ─────────────────────────────── */
+        .fc-related {
+            padding: 100px 0;
+            background: var(--fc-paper);
+            border-top: 1px solid var(--fc-line-dark);
+        }
+        .fc-related h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            margin: 0 0 36px;
+            letter-spacing: -0.01em;
+        }
+        .fc-related-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+        }
+        .fc-related-col h4 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: rgba(5, 22, 19, 0.6);
+            border-bottom: 1px solid var(--fc-line-dark);
+            padding-bottom: 12px;
+            margin: 0 0 14px;
+        }
+        .fc-related-col a {
+            display: block;
+            font-size: 14.5px;
+            padding: 7px 0;
+            color: var(--fc-ink);
+            text-decoration: none;
+            transition: padding-left 0.2s, color 0.2s;
+        }
+        .fc-related-col a:hover { padding-left: 6px; color: var(--fc-mint); }
+
+        @media (max-width: 980px) {
+            .fc-hero { padding: 100px 0 70px; }
+            .fc-calc { grid-template-columns: 1fr; }
+            .fc-calc-left, .fc-calc-right { padding: 36px 28px; }
+            .fc-calc-left { border-right: none; border-bottom: 1px solid var(--fc-line-dark); }
+            .fc-promise-grid { grid-template-columns: 1fr 1fr; }
+            .fc-row { grid-template-columns: 1fr; }
+            .fc-row > div { border-right: none; border-bottom: 1px solid var(--fc-line); padding: 14px 18px; }
+            .fc-row.head { display: none; }
+            .fc-row > div::before {
+                content: attr(data-label) ' · ';
+                font-family: 'JetBrains Mono', monospace;
+                font-size: 11px;
+                color: var(--fc-mint);
+                letter-spacing: 0.14em;
+                text-transform: uppercase;
+                margin-right: 8px;
+            }
+            .fc-row .row-label::before { display: none; }
+            .fc-scholar-grid { grid-template-columns: 1fr; gap: 40px; }
+            .fc-related-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 560px) {
+            .fc-shell { padding: 0 22px; }
+            .fc-promise-grid { grid-template-columns: 1fr; }
+            .fc-related-grid { grid-template-columns: 1fr; }
+            .fc-amount { font-size: 50px; }
+            .fc-hero-trust { gap: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<main class="fc-page">
+
+    <!-- ── HERO ── -->
+    <section class="fc-hero">
+        <div class="fc-shell">
+            <div class="fc-hero-inner">
+                <span class="fc-tag">Honest pricing · instant quote</span>
+                <h1 class="fc-h1">A coding fee should be a <em>number</em>, not a sales call.</h1>
+                <p class="fc-hero-sub">Use this calculator to get a real Modern Age Coders fee in 30 seconds. We will not gate the number behind a callback. We will not pretend the price changes if you wait. Pick your child's age, the language, the intensity and the country. You will see exactly what it costs — and which scholarship you may already qualify for.</p>
+                <div class="fc-hero-trust">
+                    <div class="fc-trust-item">Used by 22,000+ families</div>
+                    <div class="fc-trust-item">Live in 11 countries</div>
+                    <div class="fc-trust-item">No hidden fees, ever</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CALCULATOR ── -->
+    <section class="fc-calc-wrap">
+        <div class="fc-shell">
+            <div class="fc-calc">
+                <div class="fc-calc-left">
+                    <h2 class="fc-section-title">Build your quote</h2>
+
+                    <div class="fc-field">
+                        <label>Who is learning</label>
+                        <div class="fc-pill-row">
+                            <button class="fc-pill" type="button" data-group="age" data-value="kid">Kid · 6–10</button>
+                            <button class="fc-pill active" type="button" data-group="age" data-value="teen">Teen · 11–17</button>
+                            <button class="fc-pill" type="button" data-group="age" data-value="college">College · 18–22</button>
+                            <button class="fc-pill" type="button" data-group="age" data-value="adult">Adult · 23+</button>
+                        </div>
+                    </div>
+
+                    <div class="fc-field">
+                        <label>Subject / language</label>
+                        <select id="fcSubject">
+                            <option value="python">Python &amp; AI</option>
+                            <option value="webdev">Web development (HTML, CSS, JavaScript, React)</option>
+                            <option value="appdev">Mobile app development (Flutter)</option>
+                            <option value="aiml">AI &amp; Machine Learning</option>
+                            <option value="data">Data Science &amp; Analytics</option>
+                            <option value="game">Game development</option>
+                            <option value="java">Java programming</option>
+                            <option value="cpp">C++ &amp; competitive programming</option>
+                            <option value="scratch">Scratch &amp; block coding (ages 6–10 only)</option>
+                            <option value="cs-board">Computer Science board syllabus (CBSE/ICSE Class 11–12)</option>
+                            <option value="olympiad">Olympiad medal track (premium)</option>
+                            <option value="jee">JEE coding track</option>
+                            <option value="comeback">Coding Comeback for Women</option>
+                        </select>
+                    </div>
+
+                    <div class="fc-field">
+                        <label>Intensity</label>
+                        <div class="fc-pill-row">
+                            <button class="fc-pill compact" type="button" data-group="intensity" data-value="light">Light · 2 hrs/wk</button>
+                            <button class="fc-pill compact active" type="button" data-group="intensity" data-value="standard">Standard · 3 hrs/wk</button>
+                            <button class="fc-pill compact" type="button" data-group="intensity" data-value="intense">Intense · 5 hrs/wk</button>
+                            <button class="fc-pill compact" type="button" data-group="intensity" data-value="bootcamp">Bootcamp · 10 hrs/wk</button>
+                        </div>
+                    </div>
+
+                    <div class="fc-field">
+                        <label>Duration</label>
+                        <div class="fc-slider-wrap">
+                            <input type="range" class="fc-slider" id="fcMonths" min="1" max="24" step="1" value="6">
+                            <div class="fc-slider-meta">
+                                <span>1 month</span>
+                                <span class="fc-slider-val" id="fcMonthsVal">6 months</span>
+                                <span>24 months</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fc-field">
+                        <label>Country</label>
+                        <select id="fcCountry">
+                            <option value="IN">India (INR)</option>
+                            <option value="US">United States (USD)</option>
+                            <option value="GB">United Kingdom (GBP)</option>
+                            <option value="CA">Canada (CAD)</option>
+                            <option value="AU">Australia (AUD)</option>
+                            <option value="AE">United Arab Emirates (AED)</option>
+                            <option value="SG">Singapore (SGD)</option>
+                            <option value="DE">Germany (EUR)</option>
+                            <option value="IE">Ireland (EUR)</option>
+                            <option value="SE">Sweden (SEK)</option>
+                            <option value="CH">Switzerland (CHF)</option>
+                            <option value="NZ">New Zealand (NZD)</option>
+                        </select>
+                    </div>
+
+                    <div class="fc-field">
+                        <label>Pay how</label>
+                        <div class="fc-pill-row">
+                            <button class="fc-pill compact active" type="button" data-group="pay" data-value="monthly">Monthly</button>
+                            <button class="fc-pill compact" type="button" data-group="pay" data-value="quarterly">Quarterly (save 5%)</button>
+                            <button class="fc-pill compact" type="button" data-group="pay" data-value="annual">Annual (save 12%)</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fc-calc-right">
+                    <div class="fc-result">
+                        <div class="fc-result-empty" id="fcResultEmpty">
+                            <div class="icn">— Your quote —</div>
+                            <p>Pick your details on the left. The fee updates instantly. We do not store anything until you choose to talk to us.</p>
+                        </div>
+                        <div class="fc-result-show" id="fcResultShow">
+                            <div class="fc-scholar-banner" id="fcScholarBanner" style="display:none;">
+                                <strong>Eligible for scholarship.</strong>
+                                <span id="fcScholarText"></span>
+                            </div>
+
+                            <div class="fc-amount-row">
+                                <div class="fc-amount-label" id="fcAmountLabel">Estimated monthly fee</div>
+                                <div class="fc-amount">
+                                    <span class="fc-amount-strike" id="fcOriginalAmount" style="display:none;"></span><span id="fcMainAmount">—</span>
+                                </div>
+                                <div class="fc-amount-sub" id="fcAmountSub"></div>
+                            </div>
+
+                            <div class="fc-breakdown" id="fcBreakdown">
+                                <!-- Populated by JS -->
+                            </div>
+
+                            <button type="button" class="fc-result-cta" id="fcClaim">Reserve a seat at this fee →</button>
+                            <a class="fc-result-ghost" href="/book-demo">Or book a free demo first</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── HONEST PRICING NOTE ── -->
+    <section class="fc-honest">
+        <div class="fc-shell">
+            <span class="fc-tag" style="color: var(--fc-ink); border-color: var(--fc-ink);">Our pricing promise</span>
+            <h2>Four things <em>we will not do</em> with your fee.</h2>
+            <p class="lead">We have been running paid coding classes for six years. We have watched what other ed-tech companies do to families — the dynamic pricing, the urgency calls, the hidden upsells. We refuse to do any of it. This page exists in part to keep us honest, in public, where you can hold us to it.</p>
+
+            <div class="fc-promise-grid">
+                <div class="fc-promise">
+                    <div class="n">01</div>
+                    <h3>No dynamic pricing</h3>
+                    <p>The fee a parent sees on this calculator is the fee on the invoice. We do not raise prices when you delay. We do not "drop the price for today only." Same number for everyone.</p>
+                </div>
+                <div class="fc-promise">
+                    <div class="n">02</div>
+                    <h3>No hidden charges</h3>
+                    <p>No platform fee, no recording fee, no examination fee, no certificate fee, no GST surprise. The number you see is the number you pay. Tax inclusion is shown for India, separate for other regions.</p>
+                </div>
+                <div class="fc-promise">
+                    <div class="n">03</div>
+                    <h3>No loan-financing pressure</h3>
+                    <p>We will not push you to a third-party EMI provider you have never heard of. Quarterly and annual instalments are offered by us directly. If a salesperson on the phone uses words like "limited seat" or "today only" — please report them. We do not train anyone to speak that way.</p>
+                </div>
+                <div class="fc-promise">
+                    <div class="n">04</div>
+                    <h3>No exit penalty</h3>
+                    <p>If your child wants to stop, you can stop. Pro-rated refunds within the first four weeks. After that, you can pause for any reason and resume within twelve months. The contract is one paragraph long, written in English, and posted at <a href="/refund">our refund policy</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── COMPARE TABLE ── -->
+    <section class="fc-compare">
+        <div class="fc-shell">
+            <span class="fc-tag">A fair comparison</span>
+            <h2>What you actually get for <em>your fee</em>, versus the rest of the market.</h2>
+            <p class="lead">Roughly compared to public pricing data for the year ending March 2026. We have tried to be fair. If we have missed something or misrepresented anyone, write to us and we will correct it on this page.</p>
+
+            <div class="fc-compare-table">
+                <div class="fc-row head">
+                    <div>Feature</div>
+                    <div>MAC <span style="font-family: 'JetBrains Mono', monospace; color: var(--fc-mint);">(us)</span></div>
+                    <div>WhiteHat Jr</div>
+                    <div>Coding Ninjas Junior</div>
+                    <div>Camp K12</div>
+                </div>
+                <div class="fc-row">
+                    <div class="row-label" data-label="Feature">Live class size</div>
+                    <div class="ours fc-num" data-label="MAC">4–8 students</div>
+                    <div class="fc-num" data-label="WhiteHat">1-on-1 (premium)</div>
+                    <div class="fc-num" data-label="Coding Ninjas">15–25</div>
+                    <div class="fc-num" data-label="Camp K12">10–15</div>
+                </div>
+                <div class="fc-row">
+                    <div class="row-label" data-label="Feature">Real working portfolio</div>
+                    <div class="ours fc-yes" data-label="MAC">Yes · public GitHub</div>
+                    <div class="fc-no" data-label="WhiteHat">Limited</div>
+                    <div class="fc-yes" data-label="Coding Ninjas">Yes</div>
+                    <div class="fc-no" data-label="Camp K12">Partial</div>
+                </div>
+                <div class="fc-row">
+                    <div class="row-label" data-label="Feature">Recorded class backup</div>
+                    <div class="ours fc-yes" data-label="MAC">Yes · 12 months access</div>
+                    <div class="fc-yes" data-label="WhiteHat">Yes</div>
+                    <div class="fc-yes" data-label="Coding Ninjas">Yes</div>
+                    <div class="fc-yes" data-label="Camp K12">Yes</div>
+                </div>
+                <div class="fc-row">
+                    <div class="row-label" data-label="Feature">Parent monthly progress note</div>
+                    <div class="ours fc-yes" data-label="MAC">Yes · plain English</div>
+                    <div class="fc-no" data-label="WhiteHat">No</div>
+                    <div class="fc-no" data-label="Coding Ninjas">No</div>
+                    <div class="fc-no" data-label="Camp K12">No</div>
+                </div>
+                <div class="fc-row">
+                    <div class="row-label" data-label="Feature">Pause / resume without penalty</div>
+                    <div class="ours fc-yes" data-label="MAC">Yes · 12 months</div>
+                    <div class="fc-no" data-label="WhiteHat">No</div>
+                    <div class="fc-no" data-label="Coding Ninjas">Limited</div>
+                    <div class="fc-no" data-label="Camp K12">No</div>
+                </div>
+                <div class="fc-row">
+                    <div class="row-label" data-label="Feature">Transparent published fee</div>
+                    <div class="ours fc-yes" data-label="MAC">Yes · this calculator</div>
+                    <div class="fc-no" data-label="WhiteHat">Quote only</div>
+                    <div class="fc-no" data-label="Coding Ninjas">Quote only</div>
+                    <div class="fc-no" data-label="Camp K12">Quote only</div>
+                </div>
+                <div class="fc-row">
+                    <div class="row-label" data-label="Feature">Scholarship without sales pressure</div>
+                    <div class="ours fc-yes" data-label="MAC">Yes · 4 categories</div>
+                    <div class="fc-no" data-label="WhiteHat">No</div>
+                    <div class="fc-no" data-label="Coding Ninjas">Limited</div>
+                    <div class="fc-no" data-label="Camp K12">No</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── SCHOLARSHIP ── -->
+    <section class="fc-scholar">
+        <div class="fc-shell">
+            <div class="fc-scholar-grid">
+                <div>
+                    <span class="fc-tag" style="color: var(--fc-ink); border-color: var(--fc-ink);">Four quiet scholarships</span>
+                    <h2>We have given fee waivers <em>every year since 2019</em>.</h2>
+                    <p>We do not advertise them loudly because we do not want them to become a marketing channel. They exist to keep the door open. If you fit any of the four categories below, mention it on the orientation call and the mentor will apply the waiver. No essay, no spreadsheet, no documents we do not need.</p>
+                    <p>If you do not fit any of these and are still in financial difficulty, write anyway. We have a fifth, fully discretionary category we don't list publicly.</p>
+                </div>
+                <div class="fc-scholar-list">
+                    <h3>Standing scholarship categories</h3>
+                    <ul>
+                        <li><span class="amount">70%</span><div><strong>Merit · top board exam ranks</strong><span>State or national top 1% in Class 10 or 12 board exams (any board). Single-form verification.</span></div></li>
+                        <li><span class="amount">50%</span><div><strong>Single-parent households</strong><span>Single mother or single father with primary custody. We trust your word; no paperwork required.</span></div></li>
+                        <li><span class="amount">40%</span><div><strong>Special-needs caregiver families</strong><span>Families with a child or parent in primary special-needs caregiving. Applies to all our adult tracks too.</span></div></li>
+                        <li><span class="amount">30%</span><div><strong>Government school students</strong><span>Currently enrolled in a government school anywhere in India. Verified via school ID.</span></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── COURSE CHOOSER ── -->
+    <section class="fc-courses">
+        <div class="fc-shell">
+            <span class="fc-tag" style="color: var(--fc-ink); border-color: var(--fc-ink);">Pick the course your fee covers</span>
+            <h2>Nine of our <em>most-chosen courses</em>, prices already shown above.</h2>
+            <p class="intro">If your quote came back manageable, skip the demo call and enroll directly. Every course below is a live small-batch programme — you will join an existing cohort or be placed in the next one starting within two weeks. All include a free 30-minute orientation in your first week if you change your mind.</p>
+
+            <div class="fc-courses-grid">
+                <a class="fc-course" href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev">
+                    <div class="tier">Ages 6–10</div>
+                    <h3>Vibe Coding for Kids</h3>
+                    <p>The most popular starter for ages 6 to 10. Scratch, block coding, gentle introduction to typed code with AI assistance.</p>
+                    <div class="fc-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="fc-course" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">
+                    <div class="tier">Ages 11–15</div>
+                    <h3>Vibe Coding for Teens</h3>
+                    <p>Python, web development and AI projects for the 11-to-15 band. The course that builds a real public portfolio in a year.</p>
+                    <div class="fc-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="fc-course" href="/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course">
+                    <div class="tier">Ages 16–22</div>
+                    <h3>Vibe Coding for College</h3>
+                    <p>Full-stack, AI engineering and DSA for college and pre-college students. Built around employability, not exam coverage.</p>
+                    <div class="fc-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="fc-course" href="/courses/python-ai-kids-masterclass">
+                    <div class="tier">Python · Kids</div>
+                    <h3>Python &amp; AI Kids Masterclass</h3>
+                    <p>Pure Python with AI tooling, taught at kid pace. Twelve shipped projects across the year.</p>
+                    <div class="fc-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="fc-course" href="/courses/ai-ml-masterclass-teens">
+                    <div class="tier">AI / ML · Teens</div>
+                    <h3>AI &amp; ML Masterclass · Teens</h3>
+                    <p>Real machine learning for teens. The course that pushes students into industry-aware AI engineering by the end of the year.</p>
+                    <div class="fc-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="fc-course" href="/courses/full-stack-web-development-masterclass-college">
+                    <div class="tier">Full-Stack · College / Adult</div>
+                    <h3>Full-Stack Web Development</h3>
+                    <p>The complete frontend-and-backend programme. React, Node, modern deployment, real production work.</p>
+                    <div class="fc-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="fc-course" href="/courses/data-science-complete-masterclass-college">
+                    <div class="tier">Data Science · Adult</div>
+                    <h3>Data Science Complete</h3>
+                    <p>The complete data scientist track. Python data stack, SQL, statistics, ML, and end-to-end portfolio building.</p>
+                    <div class="fc-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="fc-course" href="/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course">
+                    <div class="tier">CBSE / ICSE · Class 11–12</div>
+                    <h3>CBSE / ICSE Computer Science</h3>
+                    <p>The full board syllabus for Class 11 and 12. The companion track for our JEE-aspirant coding programme.</p>
+                    <div class="fc-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                </a>
+
+                <a class="fc-course" href="/courses/competitive-programming-masterclass-college">
+                    <div class="tier">Competitive · Olympiad</div>
+                    <h3>Competitive Programming</h3>
+                    <p>IOI / ICPC / Codeforces preparation as a structured weekly cohort. The course behind our Olympiad Medal Track.</p>
+                    <div class="fc-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FAQ ── -->
+    <section class="fc-faq">
+        <div class="fc-shell">
+            <span class="fc-tag" style="color: var(--fc-ink); border-color: var(--fc-ink);">Honest answers</span>
+            <h2>What families ask <em>before they pay.</em></h2>
+
+            <details>
+                <summary>How is the fee calculated?</summary>
+                <p>Fee is a function of four inputs: age band (kid/teen/college/adult), subject (Python is priced differently from AI/ML, which is priced differently from the Olympiad track), intensity (hours per week of live class) and duration. Country only changes the currency and applies a regional cost adjustment for tutors and timezone coverage. There is no other multiplier — no "premium parent" pricing, no household-income data, no targeting. The same kid in Delhi and the same kid in Dubai see the same INR base fee, with the Dubai family paying the additional regional cost for AED-zone tutor scheduling.</p>
+            </details>
+
+            <details>
+                <summary>Why is the fee for the Olympiad track higher?</summary>
+                <p>Because the <a href="/coding-olympiad-medal-track">Olympiad medal track</a> is taught in cohorts of eight by past IOITC and IOI medallists, with weekly individual review of every solution. The tutor cost per student is roughly three times a standard cohort, and we charge accordingly. It is the only track on our roster where we will not negotiate the fee, because we cannot run it sustainably below cost. Scholarships in that track go up to 70% for confirmed olympiad qualifiers.</p>
+            </details>
+
+            <details>
+                <summary>Is the fee different in India vs abroad?</summary>
+                <p>The base fee is the same. Different currencies and a regional cost adjustment apply — for example, US-zone classes are taught by tutors who can deliver in a US-friendly time window, which costs more. We do not "charge more in dollars because we can." If a US parent and an Indian parent compared a like-for-like Saturday IST class, the INR amount would be identical. We made this transparent on purpose. Country-specific details are on <a href="/coding-classes-in-united-states">USA</a>, <a href="/coding-classes-in-united-kingdom">UK</a>, <a href="/coding-classes-in-canada">Canada</a>, <a href="/coding-classes-in-uae">UAE</a>, <a href="/coding-classes-in-singapore">Singapore</a>, <a href="/coding-classes-in-australia">Australia</a>, <a href="/coding-classes-in-germany">Germany</a>, <a href="/coding-classes-in-sweden">Sweden</a>, <a href="/coding-classes-in-switzerland">Switzerland</a>, <a href="/coding-classes-in-ireland">Ireland</a> and <a href="/coding-classes-in-new-zealand">New Zealand</a>.</p>
+            </details>
+
+            <details>
+                <summary>What is included in the fee?</summary>
+                <p>Live online classes (small batch, 4–8 students), all course materials, project mentoring, monthly parent progress note, recorded class backup with 12 months of access, certificate of completion, and ongoing post-class mentor support on the Modern Age Coders student community. There is no separate fee for any of these.</p>
+            </details>
+
+            <details>
+                <summary>What about GST and taxes?</summary>
+                <p>For Indian invoicing, the calculator shows the all-inclusive fee — GST is already included in the number you see. For international invoicing, the calculator shows the pre-tax amount; tax handling depends on the country of the payer and is shown at checkout. We do not surprise anyone with tax additions after the fact.</p>
+            </details>
+
+            <details>
+                <summary>Do you offer monthly, quarterly or annual plans?</summary>
+                <p>All three. Monthly is the default and the most flexible. Quarterly gives you a 5% discount on the cumulative fee. Annual gives 12%. There is no penalty for switching plans during the engagement — most families start monthly and move to quarterly after the first two months. We will never auto-renew a card without explicit permission, no matter which plan you pick.</p>
+            </details>
+
+            <details>
+                <summary>What is the refund policy?</summary>
+                <p>Full refund inside the first 14 days. Pro-rated refund up to the end of week four. After that, you can pause and resume within twelve months without paying again — or transfer the credit to a sibling or family member. Full policy in plain English at <a href="/refund">our refund page</a>. We have honoured every refund request to date because that is how we want to be remembered if you decide we are not the right fit.</p>
+            </details>
+
+            <details>
+                <summary>Will someone call me?</summary>
+                <p>Only if you ask. The fee on this page is the real fee. You can sign up directly from here. If you want a 25-minute orientation with a senior mentor first, you can <a href="/book-demo">book a free demo</a> — no sales pressure. We do not have a sales call centre.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- ── RELATED ── -->
+    <section class="fc-related">
+        <div class="fc-shell">
+            <h2>Related pages worth visiting</h2>
+            <div class="fc-related-grid">
+                <div class="fc-related-col">
+                    <h4>Programmes</h4>
+                    <a href="/coding-olympiad-medal-track">Olympiad medal track</a>
+                    <a href="/jee-aspirant-coding-track">JEE coding track</a>
+                    <a href="/coding-comeback-women">Coding comeback for women</a>
+                    <a href="/ai-agents-and-automation">AI agents &amp; automation</a>
+                </div>
+                <div class="fc-related-col">
+                    <h4>By age</h4>
+                    <a href="/coding-for-8-year-olds">Coding for 8 year olds</a>
+                    <a href="/coding-for-10-year-olds">Coding for 10 year olds</a>
+                    <a href="/coding-for-12-year-olds">Coding for 12 year olds</a>
+                    <a href="/coding-for-14-year-olds">Coding for 14 year olds</a>
+                </div>
+                <div class="fc-related-col">
+                    <h4>Tools</h4>
+                    <a href="/screen-time-to-skill">Screen-time to skill</a>
+                    <a href="/coding-roadmap">Coding roadmap</a>
+                    <a href="/maths-challenges">Maths challenges</a>
+                    <a href="/book-demo">Book a free demo</a>
+                </div>
+                <div class="fc-related-col">
+                    <h4>Policies</h4>
+                    <a href="/pricing">Full pricing page</a>
+                    <a href="/refund">Refund policy</a>
+                    <a href="/cancellation">Cancellation policy</a>
+                    <a href="/terms">Terms of service</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+<script>
+(function() {
+    // Pricing matrix (INR base monthly, then converted by currency)
+    // Calibrated against Modern Age Coders real pricing as of 2026
+    var SUBJECT_BASE = {
+        python:    { kid: 2400, teen: 2900, college: 3900, adult: 4400 },
+        webdev:    { kid: 2400, teen: 3100, college: 4200, adult: 4600 },
+        appdev:    { kid: 2600, teen: 3400, college: 4600, adult: 5000 },
+        aiml:      { kid: 2800, teen: 3700, college: 5200, adult: 5600 },
+        data:      { kid: 2700, teen: 3500, college: 4800, adult: 5200 },
+        game:      { kid: 2400, teen: 3000, college: 4100, adult: 4400 },
+        java:      { kid: 2300, teen: 2900, college: 3900, adult: 4300 },
+        cpp:       { kid: 2500, teen: 3200, college: 4400, adult: 4700 },
+        scratch:   { kid: 1900, teen: 1900, college: 1900, adult: 1900 },
+        'cs-board':{ kid: 2700, teen: 3300, college: 4300, adult: 4300 },
+        olympiad:  { kid: 5400, teen: 6200, college: 7200, adult: 7200 },
+        jee:       { kid: 3400, teen: 3800, college: 3800, adult: 3800 },
+        comeback:  { kid: 4600, teen: 4600, college: 4600, adult: 4600 }
+    };
+
+    var INTENSITY_MULT = {
+        light:    0.62,
+        standard: 1.00,
+        intense:  1.55,
+        bootcamp: 2.50
+    };
+
+    var PAY_DISCOUNT = {
+        monthly:   0.00,
+        quarterly: 0.05,
+        annual:    0.12
+    };
+
+    // Country to currency + multiplier (INR base)
+    var COUNTRY = {
+        IN: { cur: '₹',    code: 'INR', m: 1.0,  decimals: 0, regional: 1.0  },
+        US: { cur: '$',    code: 'USD', m: 0.012, decimals: 0, regional: 2.4 },
+        GB: { cur: '£',    code: 'GBP', m: 0.0094, decimals: 0, regional: 2.4 },
+        CA: { cur: 'CA$',  code: 'CAD', m: 0.016, decimals: 0, regional: 2.2 },
+        AU: { cur: 'A$',   code: 'AUD', m: 0.018, decimals: 0, regional: 2.2 },
+        AE: { cur: 'AED ', code: 'AED', m: 0.044, decimals: 0, regional: 2.1 },
+        SG: { cur: 'S$',   code: 'SGD', m: 0.016, decimals: 0, regional: 2.3 },
+        DE: { cur: '€',    code: 'EUR', m: 0.011, decimals: 0, regional: 2.3 },
+        IE: { cur: '€',    code: 'EUR', m: 0.011, decimals: 0, regional: 2.3 },
+        SE: { cur: 'kr ',  code: 'SEK', m: 0.12,  decimals: 0, regional: 2.3 },
+        CH: { cur: 'CHF ', code: 'CHF', m: 0.010, decimals: 0, regional: 2.4 },
+        NZ: { cur: 'NZ$',  code: 'NZD', m: 0.019, decimals: 0, regional: 2.0 }
+    };
+
+    var state = {
+        age: 'teen',
+        subject: 'python',
+        intensity: 'standard',
+        months: 6,
+        country: 'IN',
+        pay: 'monthly'
+    };
+
+    // ── Bind pill buttons ──────────────────────
+    document.querySelectorAll('.fc-pill').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var group = btn.dataset.group;
+            var value = btn.dataset.value;
+            document.querySelectorAll('.fc-pill[data-group="'+group+'"]').forEach(function(b) {
+                b.classList.remove('active');
+            });
+            btn.classList.add('active');
+            state[group] = value;
+            render();
+        });
+    });
+
+    document.getElementById('fcSubject').addEventListener('change', function(e) {
+        state.subject = e.target.value;
+        render();
+    });
+    document.getElementById('fcCountry').addEventListener('change', function(e) {
+        state.country = e.target.value;
+        render();
+    });
+    var monthsEl = document.getElementById('fcMonths');
+    var monthsValEl = document.getElementById('fcMonthsVal');
+    monthsEl.addEventListener('input', function() {
+        state.months = parseInt(monthsEl.value, 10);
+        monthsValEl.textContent = state.months + (state.months === 1 ? ' month' : ' months');
+        render();
+    });
+
+    function fmt(n, c) {
+        if (c.code === 'INR') {
+            return '₹' + Math.round(n).toLocaleString('en-IN');
+        }
+        return c.cur + Math.round(n).toLocaleString('en-US');
+    }
+
+    function render() {
+        var base = SUBJECT_BASE[state.subject][state.age];
+        if (!base) base = SUBJECT_BASE.python.teen;
+        var intMult = INTENSITY_MULT[state.intensity];
+        var c = COUNTRY[state.country];
+        var payDiscount = PAY_DISCOUNT[state.pay];
+
+        // Monthly fee in INR before regional + discount
+        var inrMonthly = base * intMult;
+
+        // Regional adjustment
+        var regionalMonthly = inrMonthly * c.regional;
+
+        // Currency conversion
+        var localMonthly = regionalMonthly * c.m;
+
+        // Apply pay-plan discount
+        var discountedMonthly = localMonthly * (1 - payDiscount);
+
+        // Total over duration
+        var totalCost = discountedMonthly * state.months;
+        var totalCostOriginal = localMonthly * state.months;
+
+        // Scholarship eligibility heuristic (only INR for now): kid + government school check would be manual.
+        // For this calculator we surface scholarship messaging only.
+        document.getElementById('fcScholarBanner').style.display = '';
+        var scholarText = '';
+        if (state.subject === 'olympiad') {
+            scholarText = 'Olympiad medal track families clearing IOQI Stage 1 in any year receive up to 70% scholarship in the following year. Confirm at orientation.';
+        } else if (state.subject === 'comeback') {
+            scholarText = 'Single-mother and primary-caregiver applicants automatically qualify for 50% fee waiver on the Coding Comeback track. Mention at orientation.';
+        } else if (state.subject === 'jee') {
+            scholarText = 'JEE-track students with state or national board top 1% rank qualify for 70% scholarship. Mention at orientation, single-form verification.';
+        } else if (state.age === 'kid') {
+            scholarText = 'Government school students aged 6–10 qualify for 30% off any kids track. Sibling discount applies on top.';
+        } else if (state.country !== 'IN' && state.age === 'adult') {
+            scholarText = 'Adults outside India: if you are returning to work after a career break, the Coding Comeback track has a 50% waiver. Talk to a mentor.';
+        } else {
+            scholarText = 'You may qualify for a 30–70% scholarship depending on circumstances. Mention "scholarship" on your orientation call — no forms required.';
+        }
+        document.getElementById('fcScholarText').textContent = ' ' + scholarText;
+
+        // Show
+        document.getElementById('fcResultEmpty').style.display = 'none';
+        document.getElementById('fcResultShow').classList.add('on');
+
+        var mainEl = document.getElementById('fcMainAmount');
+        var strikeEl = document.getElementById('fcOriginalAmount');
+        var subEl = document.getElementById('fcAmountSub');
+        var labelEl = document.getElementById('fcAmountLabel');
+
+        if (state.pay === 'monthly') {
+            labelEl.textContent = 'Estimated monthly fee';
+            mainEl.textContent = fmt(discountedMonthly, c);
+            strikeEl.style.display = 'none';
+            subEl.textContent = 'Per month, in ' + c.code + '. Over ' + state.months + ' months: ' + fmt(totalCost, c) + '.';
+        } else if (state.pay === 'quarterly') {
+            labelEl.textContent = 'Estimated quarterly fee';
+            mainEl.textContent = fmt(discountedMonthly * 3, c);
+            strikeEl.textContent = fmt(localMonthly * 3, c);
+            strikeEl.style.display = '';
+            subEl.textContent = 'Per quarter, in ' + c.code + '. You save 5% vs monthly. Over ' + state.months + ' months: ' + fmt(totalCost, c) + '.';
+        } else {
+            labelEl.textContent = 'Estimated annual fee';
+            mainEl.textContent = fmt(discountedMonthly * 12, c);
+            strikeEl.textContent = fmt(localMonthly * 12, c);
+            strikeEl.style.display = '';
+            subEl.textContent = 'Per year, in ' + c.code + '. You save 12% vs monthly. Over ' + state.months + ' months: ' + fmt(totalCost, c) + '.';
+        }
+
+        // Breakdown
+        var bd = document.getElementById('fcBreakdown');
+        var rowsHtml = '';
+        rowsHtml += '<div class="fc-breakdown-row"><span>Base · ' + state.subject + ' / ' + state.age + '</span><span class="v">' + fmt(inrMonthly * c.m, c) + ' /mo</span></div>';
+        rowsHtml += '<div class="fc-breakdown-row"><span>Intensity · ' + state.intensity + '</span><span class="v">x ' + intMult.toFixed(2) + '</span></div>';
+        if (c.regional !== 1.0) {
+            rowsHtml += '<div class="fc-breakdown-row"><span>Regional · ' + c.code + '</span><span class="v">x ' + c.regional.toFixed(1) + '</span></div>';
+        }
+        if (payDiscount > 0) {
+            rowsHtml += '<div class="fc-breakdown-row savings"><span>Plan discount · ' + state.pay + '</span><span class="v">– ' + Math.round(payDiscount * 100) + '%</span></div>';
+        }
+        rowsHtml += '<div class="fc-breakdown-row"><span>Total for ' + state.months + ' months</span><span class="v">' + fmt(totalCost, c) + '</span></div>';
+        if (payDiscount > 0) {
+            rowsHtml += '<div class="fc-breakdown-row savings"><span>You save vs monthly</span><span class="v">' + fmt(totalCostOriginal - totalCost, c) + '</span></div>';
+        }
+        bd.innerHTML = rowsHtml;
+    }
+
+    document.getElementById('fcClaim').addEventListener('click', function() {
+        if (typeof gtag === 'function') {
+            gtag('event', 'fee_calc_claim', state);
+        }
+        window.location.href = '/book-demo?source=fee_calculator&subject=' + state.subject + '&age=' + state.age + '&intensity=' + state.intensity;
+    });
+
+    // Initial render
+    render();
+})();
+</script>
+
+</body>
+</html>

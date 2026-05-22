@@ -2445,4 +2445,36 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Lead-magnet & specialty tracks — May 2026 -->
+  <url>
+    <loc>https://learn.modernagecoders.com/screen-time-to-skill</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-olympiad-medal-track</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/jee-aspirant-coding-track</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-comeback-women</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-fee-calculator</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
 </urlset>
