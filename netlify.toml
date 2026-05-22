@@ -468,6 +468,164 @@
   status = 301
   force = true
 
+# AI / ML pillar pages — May 2026
+[[redirects]]
+  from = "/how-ai-actually-works"
+  to = "/src/pages/how-ai-actually-works.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-ai-actually-works.html"
+  to = "/how-ai-actually-works"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-does-ai-work"
+  to = "/how-ai-actually-works"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-does-chatgpt-work"
+  to = "/how-ai-actually-works"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-llms-work"
+  to = "/how-ai-actually-works"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/transformer-explained"
+  to = "/how-ai-actually-works"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/build-your-own-gpt-python"
+  to = "/src/pages/build-your-own-gpt-python.html"
+  status = 200
+
+[[redirects]]
+  from = "/build-your-own-gpt-python.html"
+  to = "/build-your-own-gpt-python"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/build-your-own-gpt"
+  to = "/build-your-own-gpt-python"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/nano-gpt-tutorial"
+  to = "/build-your-own-gpt-python"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/build-llm-from-scratch"
+  to = "/build-your-own-gpt-python"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ai-engineer-roadmap-2026"
+  to = "/src/pages/ai-engineer-roadmap-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-engineer-roadmap-2026.html"
+  to = "/ai-engineer-roadmap-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ai-engineer-roadmap"
+  to = "/ai-engineer-roadmap-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ml-engineer-roadmap"
+  to = "/ai-engineer-roadmap-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-to-become-an-ai-engineer"
+  to = "/ai-engineer-roadmap-2026"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/inside-neural-networks"
+  to = "/src/pages/inside-neural-networks.html"
+  status = 200
+
+[[redirects]]
+  from = "/inside-neural-networks.html"
+  to = "/inside-neural-networks"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-neural-networks-work"
+  to = "/inside-neural-networks"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/deep-learning-explained"
+  to = "/inside-neural-networks"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/backpropagation-explained"
+  to = "/inside-neural-networks"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ai-agents-explained"
+  to = "/src/pages/ai-agents-explained.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-agents-explained.html"
+  to = "/ai-agents-explained"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-ai-agents-work"
+  to = "/ai-agents-explained"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/build-ai-agent-python"
+  to = "/ai-agents-explained"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/react-pattern-agent"
+  to = "/ai-agents-explained"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/agentic-ai-tutorial"
+  to = "/ai-agents-explained"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/corporate-training"
   to = "/levels/corporate-training"

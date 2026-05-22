@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+        gtag('config', 'AW-16910316353');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inside Neural Networks — How Deep Learning Really Works, From Perceptron to Transformer | Modern Age Coders</title>
+    <meta name="description" content="The honest, mechanical deep dive into how neural networks learn. Perceptrons, multilayer networks, backpropagation derived by hand, CNNs, RNNs and transformers — explained without hiding the maths. By Modern Age Coders.">
+    <meta name="keywords" content="how neural networks work, deep learning explained, backpropagation explained, neural network from scratch, perceptron explained, CNN explained, RNN explained, gradient descent, how does deep learning work, neural network maths, neural network learning, modern age coders">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://learn.modernagecoders.com/inside-neural-networks">
+
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/inside-neural-networks" />
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/inside-neural-networks" />
+    <link rel="alternate" hreflang="en-us" href="https://learn.modernagecoders.com/inside-neural-networks" />
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/inside-neural-networks" />
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/inside-neural-networks">
+    <meta property="og:title" content="Inside Neural Networks — Modern Age Coders">
+    <meta property="og:description" content="Perceptron to transformer, with the maths shown. The honest deep-learning deep dive.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="theme-color" content="#f4f1ea">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "headline": "Inside Neural Networks — How Deep Learning Really Works",
+        "description": "A long-form, mechanical explainer of neural networks from perceptron through transformer.",
+        "author": { "@type": "Organization", "name": "Modern Age Coders" },
+        "publisher": {
+            "@type": "Organization", "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com",
+            "logo": { "@type": "ImageObject", "url": "https://learn.modernagecoders.com/images/logo.svg" }
+        },
+        "datePublished": "2026-05-22",
+        "dateModified": "2026-05-23",
+        "mainEntityOfPage": "https://learn.modernagecoders.com/inside-neural-networks"
+    }
+    </script>
+
+    <style>
+        :root {
+            --nn-paper: #f4f1ea;
+            --nn-paper-2: #e8e2d2;
+            --nn-ink: #0c0f15;
+            --nn-ink-2: #2c3140;
+            --nn-blue: #2554c7;
+            --nn-blue-soft: #cad8ef;
+            --nn-magenta: #c7257a;
+            --nn-magenta-soft: #f3d2e2;
+            --nn-amber: #d99812;
+            --nn-line: rgba(12, 15, 21, 0.16);
+        }
+
+        body { background: var(--nn-paper) !important; color: var(--nn-ink) !important; }
+        main.nn-page {
+            display: block !important;
+            padding: 0 !important;
+            gap: 0 !important;
+            align-items: stretch !important;
+            justify-content: flex-start !important;
+            max-width: none !important;
+            width: 100% !important;
+        }
+        main.nn-page h1, main.nn-page h2, main.nn-page h3,
+        main.nn-page h4, main.nn-page h5, main.nn-page h6 {
+            color: inherit !important;
+        }
+        main.nn-page p, main.nn-page li, main.nn-page summary, main.nn-page label { color: inherit; }
+
+        .nn-page * { box-sizing: border-box; }
+        .nn-page {
+            font-family: 'Inter', -apple-system, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        .nn-page a { color: inherit; }
+        .nn-shell { max-width: 1180px; margin: 0 auto; padding: 0 32px; }
+        .nn-reading { max-width: 760px; margin: 0 auto; }
+        .nn-mark {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--nn-blue);
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .nn-mark::before {
+            content: '§';
+            color: var(--nn-magenta);
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 18px;
+        }
+
+        /* HERO */
+        .nn-hero {
+            padding: 130px 0 80px;
+            background: var(--nn-paper);
+            position: relative;
+            border-bottom: 1px solid var(--nn-line);
+        }
+        .nn-hero::before {
+            content: '';
+            position: absolute; inset: 0;
+            background-image:
+                radial-gradient(circle at 80% 30%, rgba(37, 84, 199, 0.05), transparent 50%),
+                radial-gradient(circle at 10% 90%, rgba(199, 37, 122, 0.04), transparent 50%);
+            pointer-events: none;
+        }
+        .nn-hero-inner { position: relative; z-index: 1; }
+        .nn-h1 {
+            font-family: 'EB Garamond', serif;
+            font-weight: 500;
+            font-size: clamp(48px, 7vw, 110px);
+            line-height: 0.96;
+            letter-spacing: -0.02em;
+            margin: 26px 0 28px;
+            max-width: 1020px;
+        }
+        .nn-h1 em { font-style: italic; color: var(--nn-magenta); font-weight: 500; }
+        .nn-h1 .formula {
+            background: var(--nn-paper-2);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7em;
+            padding: 0.05em 0.3em;
+            vertical-align: middle;
+            border: 1px solid var(--nn-line);
+        }
+        .nn-sub {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: clamp(20px, 2.2vw, 26px);
+            line-height: 1.5;
+            color: var(--nn-ink-2);
+            max-width: 720px;
+            margin: 0 0 36px;
+            font-weight: 400;
+        }
+        .nn-meta {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+            padding: 26px 0 0;
+            border-top: 1px solid var(--nn-ink);
+            margin-top: 32px;
+        }
+        .nn-meta div { padding: 0 18px 0 0; }
+        .nn-meta strong {
+            display: block;
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 22px;
+            color: var(--nn-ink);
+            margin-bottom: 4px;
+            font-weight: 500;
+        }
+        .nn-meta span {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: rgba(12, 15, 21, 0.65);
+            letter-spacing: 0.06em;
+        }
+
+        /* COURSES STRIP */
+        .nn-strip {
+            padding: 56px 0 60px;
+            background: var(--nn-ink);
+            color: var(--nn-paper);
+        }
+        .nn-strip-hd {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 18px;
+            margin-bottom: 28px;
+            padding-bottom: 22px;
+            border-bottom: 1px solid rgba(244, 241, 234, 0.18);
+            flex-wrap: wrap;
+        }
+        .nn-strip-hd .lead {
+            font-family: 'EB Garamond', serif;
+            font-weight: 500;
+            font-style: italic;
+            font-size: clamp(22px, 2.5vw, 30px);
+            line-height: 1.2;
+            margin: 0;
+            max-width: 720px;
+        }
+        .nn-strip-hd .lead em { font-style: italic; color: var(--nn-magenta-soft); }
+        .nn-strip-hd .all {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--nn-magenta-soft);
+            text-decoration: none;
+            border-bottom: 1px solid var(--nn-magenta-soft);
+            padding-bottom: 4px;
+            transition: gap 0.2s, color 0.2s;
+        }
+        .nn-strip-hd .all:hover { gap: 14px; color: var(--nn-paper); border-color: var(--nn-paper); }
+        .nn-strip-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+        }
+        .nn-strip-card {
+            display: block;
+            padding: 22px 22px 20px;
+            background: rgba(244, 241, 234, 0.04);
+            border: 1px solid rgba(244, 241, 234, 0.14);
+            color: var(--nn-paper);
+            text-decoration: none;
+            transition: border-color 0.2s, background 0.2s, transform 0.2s;
+        }
+        .nn-strip-card:hover {
+            border-color: var(--nn-magenta);
+            background: rgba(244, 241, 234, 0.07);
+            transform: translateY(-2px);
+        }
+        .nn-strip-card .age {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--nn-blue-soft);
+            margin-bottom: 10px;
+        }
+        .nn-strip-card h3 {
+            font-family: 'EB Garamond', serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            margin: 0 0 8px;
+        }
+        .nn-strip-card h3 em { font-style: italic; color: var(--nn-magenta-soft); }
+        .nn-strip-card p {
+            font-size: 12.5px;
+            line-height: 1.55;
+            color: rgba(244, 241, 234, 0.68);
+            margin: 0 0 14px;
+            min-height: 40px;
+        }
+        .nn-strip-card .meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            padding-top: 10px;
+            border-top: 1px dashed rgba(244, 241, 234, 0.18);
+            color: rgba(244, 241, 234, 0.55);
+        }
+        .nn-strip-card .meta .pr {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 17px;
+            color: var(--nn-magenta-soft);
+            font-weight: 500;
+        }
+        @media (max-width: 980px) {
+            .nn-strip-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 560px) {
+            .nn-strip-grid { grid-template-columns: 1fr; }
+            .nn-strip-card p { min-height: 0; }
+        }
+
+        /* CONTENTS */
+        .nn-toc {
+            padding: 50px 0;
+            background: var(--nn-paper-2);
+            border-bottom: 1px solid var(--nn-line);
+        }
+        .nn-toc h2 {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 22px;
+            margin: 0 0 22px;
+            font-weight: 500;
+        }
+        .nn-toc-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0;
+        }
+        .nn-toc-grid a {
+            display: block;
+            padding: 14px 14px 14px 0;
+            text-decoration: none;
+            border-bottom: 1px solid var(--nn-line);
+            font-family: 'EB Garamond', serif;
+            font-size: 17px;
+            font-weight: 500;
+            transition: color 0.2s, padding 0.2s;
+        }
+        .nn-toc-grid a .n {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--nn-magenta);
+            letter-spacing: 0.18em;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .nn-toc-grid a:hover { color: var(--nn-magenta); padding-left: 6px; }
+
+        /* ARTICLE */
+        .nn-article { padding: 90px 0; background: var(--nn-paper); }
+        .nn-chap { margin-bottom: 80px; }
+        .nn-chap-num {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.24em;
+            color: var(--nn-magenta);
+            margin-bottom: 14px;
+            text-transform: uppercase;
+        }
+        .nn-chap h2 {
+            font-family: 'EB Garamond', serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.8vw, 56px);
+            line-height: 1.05;
+            letter-spacing: -0.015em;
+            margin: 0 0 30px;
+        }
+        .nn-chap h2 em { font-style: italic; color: var(--nn-magenta); }
+        .nn-chap h3 {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 1.15;
+            margin: 40px 0 16px;
+            color: var(--nn-blue);
+        }
+        .nn-chap p {
+            font-family: 'EB Garamond', serif;
+            font-size: 21px;
+            line-height: 1.6;
+            margin: 0 0 22px;
+            color: var(--nn-ink-2);
+            font-weight: 400;
+        }
+        .nn-chap p strong {
+            font-weight: 600;
+            color: var(--nn-ink);
+        }
+        .nn-chap p em {
+            font-style: italic;
+            color: var(--nn-magenta);
+        }
+        .nn-equation {
+            margin: 28px auto;
+            padding: 24px 28px;
+            background: var(--nn-paper-2);
+            border: 1px solid var(--nn-line);
+            text-align: center;
+            font-family: 'EB Garamond', serif;
+            font-size: 22px;
+            font-style: italic;
+            color: var(--nn-ink);
+            position: relative;
+        }
+        .nn-equation .eq-no {
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-family: 'JetBrains Mono', monospace;
+            font-style: normal;
+            font-size: 11px;
+            color: var(--nn-magenta);
+            letter-spacing: 0.1em;
+        }
+        .nn-figure {
+            margin: 36px 0;
+            padding: 28px;
+            background: var(--nn-paper-2);
+            border: 1px solid var(--nn-line);
+        }
+        .nn-figure .cap {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--nn-magenta);
+            margin-bottom: 18px;
+        }
+        .nn-figure .cap em { font-style: italic; }
+        /* Neuron diagram */
+        .nn-neuron {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 30px;
+            align-items: center;
+            margin: 18px 0;
+        }
+        .nn-neuron .inputs {
+            display: grid;
+            gap: 8px;
+        }
+        .nn-neuron .inputs div {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            padding: 8px 14px;
+            background: var(--nn-paper);
+            border: 1px solid var(--nn-ink);
+            text-align: center;
+        }
+        .nn-neuron .body {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: var(--nn-magenta);
+            color: var(--nn-paper);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 20px;
+            text-align: center;
+            line-height: 1.2;
+            padding: 14px;
+        }
+        .nn-neuron .out div {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            padding: 8px 14px;
+            background: var(--nn-blue);
+            color: var(--nn-paper);
+            border: 1px solid var(--nn-blue);
+            text-align: center;
+        }
+        /* Layers diagram */
+        .nn-layers {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin: 18px 0;
+            text-align: center;
+        }
+        .nn-layers .layer {
+            background: var(--nn-paper);
+            border: 1px solid var(--nn-ink);
+            padding: 18px 10px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.08em;
+        }
+        .nn-layers .layer .lab {
+            color: var(--nn-magenta);
+            display: block;
+            margin-bottom: 10px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+        .nn-layers .layer .dots {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: center;
+        }
+        .nn-layers .layer .dots span {
+            width: 16px; height: 16px; border-radius: 50%;
+            background: var(--nn-ink);
+            display: block;
+        }
+        .nn-layers .layer.input .dots span { background: var(--nn-blue); }
+        .nn-layers .layer.output .dots span { background: var(--nn-magenta); }
+        .nn-callout {
+            margin: 28px 0;
+            padding: 22px 26px;
+            background: var(--nn-magenta-soft);
+            border-left: 3px solid var(--nn-magenta);
+            font-family: 'EB Garamond', serif;
+            font-size: 19px;
+            line-height: 1.55;
+            color: var(--nn-ink);
+            font-style: italic;
+        }
+        .nn-callout strong {
+            display: block;
+            font-family: 'JetBrains Mono', monospace;
+            font-style: normal;
+            font-size: 10.5px;
+            letter-spacing: 0.18em;
+            color: var(--nn-magenta);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        .nn-code {
+            background: var(--nn-ink);
+            color: var(--nn-paper);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13.5px;
+            line-height: 1.7;
+            padding: 22px 26px;
+            margin: 28px 0;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        .nn-code .com { color: rgba(244, 241, 234, 0.45); }
+        .nn-code .kw { color: var(--nn-magenta-soft); }
+        .nn-code .num { color: var(--nn-blue-soft); }
+
+        /* COURSES */
+        .nn-courses { padding: 130px 0; background: var(--nn-paper-2); }
+        .nn-courses h2 {
+            font-family: 'EB Garamond', serif;
+            font-weight: 500;
+            font-size: clamp(38px, 5vw, 60px);
+            line-height: 1.04;
+            margin: 16px 0 14px;
+            letter-spacing: -0.01em;
+            max-width: 880px;
+        }
+        .nn-courses h2 em { font-style: italic; color: var(--nn-magenta); }
+        .nn-courses .lead {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 19px;
+            line-height: 1.62;
+            color: var(--nn-ink-2);
+            max-width: 720px;
+            margin: 0 0 50px;
+        }
+        .nn-band { margin-bottom: 60px; }
+        .nn-band-hd {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-bottom: 18px;
+            border-bottom: 2px solid var(--nn-ink);
+            margin-bottom: 22px;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+        .nn-band-hd h3 {
+            font-family: 'EB Garamond', serif;
+            font-weight: 500;
+            font-size: 30px;
+            margin: 0;
+            line-height: 1.1;
+        }
+        .nn-band-hd h3 em { font-style: italic; color: var(--nn-magenta); }
+        .nn-band-hd .ages {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--nn-blue);
+        }
+        .nn-band-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .nn-course {
+            display: block;
+            padding: 28px 26px;
+            background: var(--nn-paper);
+            border: 1px solid var(--nn-line);
+            text-decoration: none;
+            color: var(--nn-ink);
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+        .nn-course:hover {
+            transform: translateY(-3px);
+            border-color: var(--nn-ink);
+            box-shadow: 6px 6px 0 var(--nn-magenta);
+        }
+        .nn-course .tier {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--nn-magenta);
+            margin-bottom: 14px;
+        }
+        .nn-course h4 {
+            font-family: 'EB Garamond', serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 1.18;
+            margin: 0 0 12px;
+        }
+        .nn-course h4 em { font-style: italic; color: var(--nn-blue); }
+        .nn-course p {
+            font-family: 'EB Garamond', serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: rgba(12, 15, 21, 0.72);
+            margin: 0 0 18px;
+        }
+        .nn-course-foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-top: 14px;
+            border-top: 1px dashed var(--nn-line);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+        }
+        .nn-course-foot .price {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 19px;
+            color: var(--nn-magenta);
+            font-weight: 500;
+        }
+
+        /* LEAD + FAQ + RELATED */
+        .nn-lead { padding: 130px 0; background: var(--nn-ink); color: var(--nn-paper); }
+        .nn-lead-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 70px; align-items: center; }
+        .nn-lead h2 {
+            font-family: 'EB Garamond', serif;
+            font-weight: 500;
+            font-size: clamp(38px, 5vw, 60px);
+            line-height: 1.02;
+            margin: 14px 0 22px;
+            letter-spacing: -0.01em;
+        }
+        .nn-lead h2 em {
+            font-style: italic;
+            color: var(--nn-magenta-soft);
+        }
+        .nn-lead p {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 19px;
+            line-height: 1.6;
+            color: rgba(244, 241, 234, 0.85);
+            max-width: 480px;
+            margin: 0 0 22px;
+        }
+        .nn-form {
+            background: var(--nn-paper);
+            color: var(--nn-ink);
+            padding: 40px;
+            border: 1px solid var(--nn-paper);
+            box-shadow: 14px 14px 0 var(--nn-magenta);
+        }
+        .nn-form h3 {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 28px;
+            margin: 0 0 22px;
+            font-weight: 500;
+        }
+        .nn-form input, .nn-form select {
+            width: 100%;
+            padding: 13px 16px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(12, 15, 21, 0.25);
+            background: var(--nn-paper);
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            outline: none;
+            border-radius: 0;
+        }
+        .nn-form input:focus, .nn-form select:focus { border-color: var(--nn-magenta); }
+        .nn-form button {
+            width: 100%;
+            padding: 17px;
+            background: var(--nn-ink);
+            color: var(--nn-paper);
+            border: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-top: 6px;
+        }
+        .nn-form button:hover { background: var(--nn-magenta); }
+        .nn-form .fine {
+            font-size: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            color: rgba(12, 15, 21, 0.6);
+            margin-top: 14px;
+            line-height: 1.55;
+        }
+
+        .nn-faq { padding: 130px 0; background: var(--nn-paper); }
+        .nn-faq h2 {
+            font-family: 'EB Garamond', serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.5vw, 56px);
+            line-height: 1.04;
+            margin: 16px 0 50px;
+            max-width: 760px;
+            letter-spacing: -0.01em;
+        }
+        .nn-faq h2 em { font-style: italic; color: var(--nn-magenta); }
+        .nn-faq details { border-top: 1px solid var(--nn-line); padding: 26px 0; }
+        .nn-faq details:last-of-type { border-bottom: 1px solid var(--nn-line); }
+        .nn-faq summary {
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 24px;
+            font-family: 'EB Garamond', serif;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 1.25;
+        }
+        .nn-faq summary::-webkit-details-marker { display: none; }
+        .nn-faq summary::after { content: '+'; font-family: 'JetBrains Mono', monospace; font-size: 22px; color: var(--nn-magenta); }
+        .nn-faq details[open] summary::after { content: '–'; }
+        .nn-faq p {
+            margin: 14px 0 0;
+            font-family: 'EB Garamond', serif;
+            font-size: 18px;
+            line-height: 1.65;
+            color: var(--nn-ink-2);
+            max-width: 880px;
+        }
+
+        .nn-related { padding: 100px 0; background: var(--nn-paper-2); border-top: 1px solid var(--nn-line); }
+        .nn-related h2 {
+            font-family: 'EB Garamond', serif;
+            font-weight: 500;
+            font-style: italic;
+            font-size: 30px;
+            margin: 0 0 36px;
+        }
+        .nn-related-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+        .nn-related-col h4 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--nn-magenta);
+            border-bottom: 1px solid var(--nn-line);
+            padding-bottom: 12px;
+            margin: 0 0 14px;
+        }
+        .nn-related-col a {
+            display: block;
+            font-size: 14.5px;
+            padding: 7px 0;
+            color: var(--nn-ink);
+            text-decoration: none;
+            transition: padding-left 0.2s, color 0.2s;
+        }
+        .nn-related-col a:hover { padding-left: 6px; color: var(--nn-magenta); }
+
+        @media (max-width: 980px) {
+            .nn-meta { grid-template-columns: 1fr 1fr; gap: 22px 0; }
+            .nn-toc-grid { grid-template-columns: 1fr 1fr; }
+            .nn-neuron { grid-template-columns: 1fr; gap: 16px; text-align: center; }
+            .nn-neuron .body { margin: 0 auto; }
+            .nn-layers { grid-template-columns: 1fr 1fr; }
+            .nn-band-grid { grid-template-columns: 1fr; }
+            .nn-lead-grid { grid-template-columns: 1fr; gap: 40px; }
+            .nn-related-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 560px) {
+            .nn-shell { padding: 0 22px; }
+            .nn-toc-grid { grid-template-columns: 1fr; }
+            .nn-related-grid { grid-template-columns: 1fr; }
+            .nn-chap p { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<main class="nn-page">
+
+    <section class="nn-hero">
+        <div class="nn-shell nn-hero-inner">
+            <span class="nn-mark">A long deep-learning deep dive · 28 min read</span>
+            <h1 class="nn-h1">Inside <em>neural networks</em>. The architecture, the maths, the moment of learning — without hiding the <span class="formula">∂L/∂w</span>.</h1>
+            <p class="nn-sub">Every popular AI explainer either skips the maths or buries the intuition under it. This page does neither. We walk from a single artificial neuron, through how networks learn by gradient descent, derive backpropagation by hand, build up to CNNs, RNNs and transformers — keeping the equations visible but explaining each one the moment it appears.</p>
+            <div class="nn-meta">
+                <div><strong>1957</strong><span>First perceptron (Rosenblatt)</span></div>
+                <div><strong>1986</strong><span>Backprop popularised</span></div>
+                <div><strong>2012</strong><span>AlexNet · the modern era begins</span></div>
+                <div><strong>2017</strong><span>Transformer · attention is all you need</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES STRIP -- upfront -->
+    <section class="nn-strip">
+        <div class="nn-shell">
+            <div class="nn-strip-hd">
+                <p class="lead">Or — <em>train one alongside other learners.</em> Live cohorts, every age. One click in.</p>
+                <a href="/courses" class="all">Browse all 60+ courses →</a>
+            </div>
+            <div class="nn-strip-grid">
+                <a class="nn-strip-card" href="/courses/python-ai-kids-masterclass">
+                    <div class="age">Ages 8–12 · Kids</div>
+                    <h3>Python &amp; AI <em>Kids</em></h3>
+                    <p>The kid-paced first chapter — solid Python, first-touch AI projects, real shipped work.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="nn-strip-card" href="/courses/ai-ml-masterclass-teens">
+                    <div class="age">Ages 14–18 · Teens</div>
+                    <h3>AI &amp; ML <em>Teens</em></h3>
+                    <p>This article taught at teen pace, in PyTorch, with peers — by week 12 you train a working CNN.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="nn-strip-card" href="/courses/ai-ml-masterclass-complete-college">
+                    <div class="age">College / Adult · Engineer</div>
+                    <h3>AI &amp; ML <em>Complete</em></h3>
+                    <p>Backprop by hand. Train CNNs. Build transformers. The serious engineering track.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="nn-strip-card" href="/courses/complete-generative-ai-masterclass-college">
+                    <div class="age">College / Adult · GenAI</div>
+                    <h3>Generative AI <em>Masterclass</em></h3>
+                    <p>Where the deep-learning maths in this article meets the systems being shipped in 2026.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="nn-toc">
+        <div class="nn-shell">
+            <h2>Nine chapters · in the order intuition builds</h2>
+            <div class="nn-toc-grid">
+                <a href="#c1"><span class="n">01</span>What is an artificial neuron?</a>
+                <a href="#c2"><span class="n">02</span>Multilayer networks</a>
+                <a href="#c3"><span class="n">03</span>Loss — how we measure wrongness</a>
+                <a href="#c4"><span class="n">04</span>Gradient descent, geometrically</a>
+                <a href="#c5"><span class="n">05</span>Backpropagation, derived</a>
+                <a href="#c6"><span class="n">06</span>Why depth matters</a>
+                <a href="#c7"><span class="n">07</span>Convolutional networks</a>
+                <a href="#c8"><span class="n">08</span>RNNs and the long-range problem</a>
+                <a href="#c9"><span class="n">09</span>The transformer, and what changed</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="nn-article">
+        <div class="nn-shell nn-reading">
+
+            <article class="nn-chap" id="c1">
+                <div class="nn-chap-num">Chapter 01 · The neuron</div>
+                <h2>One <em>artificial neuron</em>, the building unit.</h2>
+                <p>An artificial neuron is, mechanically, a function. It takes several numbers in, produces one number out. That is the whole object. The function is a weighted sum followed by a non-linearity. Three lines of arithmetic.</p>
+                <div class="nn-figure">
+                    <div class="cap">Figure 1.1 · A single neuron receiving three inputs</div>
+                    <div class="nn-neuron">
+                        <div class="inputs">
+                            <div>x₁ · 0.62</div>
+                            <div>x₂ · -0.30</div>
+                            <div>x₃ · 1.10</div>
+                        </div>
+                        <div class="body">f( Σ wᵢxᵢ + b )</div>
+                        <div class="out"><div>y · 0.84</div></div>
+                    </div>
+                </div>
+                <p>Each input <em>x<sub>i</sub></em> is multiplied by a learned weight <em>w<sub>i</sub></em>. The products are summed. A learned bias <em>b</em> is added. The result is passed through an activation function — typically the ReLU, which simply returns the input if positive and zero otherwise. The output is one number.</p>
+                <div class="nn-equation">
+                    y = f(w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> + w<sub>3</sub>x<sub>3</sub> + b)
+                    <span class="eq-no">(1.1)</span>
+                </div>
+                <p>The weights and the bias are what the network <strong>learns</strong>. The inputs come from outside. The activation function is fixed. Everything fancy about modern neural networks reduces, at the bottom, to billions of copies of this small function with different learned weights and biases.</p>
+                <div class="nn-callout">
+                    <strong>The honest part</strong>
+                    A "neuron" is a deeply misleading name. There is no biology in here. It is a weighted sum followed by a max function. Frank Rosenblatt called it a neuron in 1957 and the name stuck. Try not to be misled by it.
+                </div>
+            </article>
+
+            <article class="nn-chap" id="c2">
+                <div class="nn-chap-num">Chapter 02 · Networks</div>
+                <h2>Multilayer networks — <em>neurons in formation.</em></h2>
+                <p>A single neuron cannot do much. The leap is to arrange many neurons into <strong>layers</strong>, and stack the layers. Each layer's outputs become the next layer's inputs. Information flows from the input layer, through one or more hidden layers, to the output layer.</p>
+                <div class="nn-figure">
+                    <div class="cap">Figure 2.1 · A 4-layer feedforward network — input, two hidden, output</div>
+                    <div class="nn-layers">
+                        <div class="layer input">
+                            <span class="lab">Input</span>
+                            <div class="dots"><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="layer">
+                            <span class="lab">Hidden 1</span>
+                            <div class="dots"><span></span><span></span><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="layer">
+                            <span class="lab">Hidden 2</span>
+                            <div class="dots"><span></span><span></span><span></span><span></span></div>
+                        </div>
+                        <div class="layer output">
+                            <span class="lab">Output</span>
+                            <div class="dots"><span></span><span></span></div>
+                        </div>
+                    </div>
+                </div>
+                <p>Each neuron in a hidden layer takes inputs from <em>every</em> neuron in the previous layer. This is why these are called <strong>fully connected</strong> or <em>dense</em> layers. With three inputs and a five-neuron hidden layer, you have 3×5 + 5 = 20 weights and biases to learn just at that layer. With a thousand inputs and a thousand-neuron hidden layer, you have a million.</p>
+                <p>Stack enough layers and the network can represent arbitrarily complex functions. This is the <em>universal approximation theorem</em>: a sufficiently large feedforward network can approximate any continuous function to any precision. It does not tell us how to find the right weights. That is the rest of this article.</p>
+            </article>
+
+            <article class="nn-chap" id="c3">
+                <div class="nn-chap-num">Chapter 03 · Loss</div>
+                <h2>The <em>loss function</em> — how we measure wrong.</h2>
+                <p>Before the network can learn, we need a number that tells us how wrong it currently is. We call this the <strong>loss</strong>. The loss is small when the network's output matches the target and large when it does not. Learning is, mechanically, the process of <em>reducing the loss</em>.</p>
+                <p>For classification, the standard loss is <em>cross-entropy</em>. For regression, it is <em>mean squared error</em>. There are many others. They all share one property: they take the network's prediction and the true target and return a single non-negative number.</p>
+                <div class="nn-equation">
+                    L = (y<sub>pred</sub> − y<sub>true</sub>)²
+                    <span class="eq-no">(3.1)</span>
+                </div>
+                <p>The loss is, geometrically, a function in a very high-dimensional space — one dimension per parameter of the network. With ten million parameters, the loss is a function in a ten-million-dimensional space. We cannot visualise this. We can, however, find a direction that reduces the loss at any given point. That direction is the <strong>gradient</strong>.</p>
+            </article>
+
+            <article class="nn-chap" id="c4">
+                <div class="nn-chap-num">Chapter 04 · Gradient descent</div>
+                <h2>Gradient descent, <em>geometrically.</em></h2>
+                <p>Imagine the loss as a landscape — hills, valleys, ridges, in millions of dimensions. The network's current parameters place you somewhere on this landscape, at some altitude (the current loss). Learning is, mechanically, the process of <strong>walking downhill</strong>. At every step, look at the slope of the ground beneath you and take a small step in the steepest-downhill direction.</p>
+                <div class="nn-equation">
+                    w<sub>new</sub> = w<sub>old</sub> − η · ∂L/∂w
+                    <span class="eq-no">(4.1)</span>
+                </div>
+                <p>The slope of the loss with respect to a single weight is its <em>partial derivative</em>: <em>∂L/∂w</em>. We subtract a small multiple (<em>η</em>, the <strong>learning rate</strong>) of this slope from the weight. This nudges the weight slightly in the direction that reduces the loss. Apply this update across every weight in the network, and the network has, technically, learned a little.</p>
+                <p>Do this once for each training example. Or, for efficiency, do it for a small batch of examples at once — this is <strong>stochastic gradient descent</strong>. Repeat for billions of batches. After enough steps, the parameters settle into a configuration where the loss is low. That configuration is, by definition, the trained model.</p>
+                <div class="nn-callout">
+                    <strong>The single most surprising fact in this field</strong>
+                    Gradient descent works. Loss landscapes in millions of dimensions have, in principle, no reason to be navigable by simple downhill walking. They could be jagged and trap-filled. Empirically, they turn out to be remarkably smooth — full of broad valleys you can reach from many starting points. Why this is true is an open research question.
+                </div>
+            </article>
+
+            <article class="nn-chap" id="c5">
+                <div class="nn-chap-num">Chapter 05 · Backprop</div>
+                <h2>Backpropagation, <em>derived</em> from one rule.</h2>
+                <p>For gradient descent to work we need <em>∂L/∂w</em> for every single weight. With ten million weights, this would seem to require ten million separate calculations. The trick that makes deep learning tractable is that we can compute all of them in <strong>one backward pass</strong> through the network using a single rule from high school: the chain rule.</p>
+                <p>The chain rule says: if <em>L</em> depends on <em>y</em>, and <em>y</em> depends on <em>w</em>, then ∂L/∂w = (∂L/∂y) × (∂y/∂w). Apply this recursively from the output backward through every layer, and you can compute the gradient of every parameter in time roughly equal to one forward pass.</p>
+                <div class="nn-equation">
+                    ∂L/∂w<sub>j</sub> = ∂L/∂a<sub>L</sub> · ∂a<sub>L</sub>/∂a<sub>L−1</sub> · … · ∂a<sub>j+1</sub>/∂w<sub>j</sub>
+                    <span class="eq-no">(5.1)</span>
+                </div>
+                <p>The product of derivatives, traced backward through the network's layers, is what gives the algorithm its name. The forward pass computes the loss; the backward pass computes the gradient of every parameter. PyTorch and TensorFlow do this for you with one line — <code>loss.backward()</code> — but underneath, it is just the chain rule applied a few million times.</p>
+                <div class="nn-code"><span class="com"># In PyTorch — the entire training step</span>
+<span class="kw">for</span> x, y_true <span class="kw">in</span> dataloader:
+    y_pred = model(x)            <span class="com"># forward pass</span>
+    loss = criterion(y_pred, y_true)
+    loss.backward()              <span class="com"># gradient of every parameter</span>
+    optimizer.step()             <span class="com"># nudge parameters downhill</span>
+    optimizer.zero_grad()</div>
+                <p>Five lines. The same five lines train GPT-4 and your nano-GPT.</p>
+            </article>
+
+            <article class="nn-chap" id="c6">
+                <div class="nn-chap-num">Chapter 06 · Depth</div>
+                <h2>Why <em>depth</em> matters — the compositionality argument.</h2>
+                <p>A two-layer network can technically approximate any function. So why are modern networks dozens or hundreds of layers deep? The answer is <em>compositionality</em>. Real-world data has hierarchical structure. An image is composed of objects, which are composed of parts, which are composed of edges, which are composed of pixels. Each layer of a deep network learns to detect features one step further up this hierarchy.</p>
+                <p>You can see this directly in trained image networks. The first layer learns edges. The second learns simple textures. The third learns shapes. The fourth learns parts of objects. The fifth learns whole objects. The same pattern shows up in language models — early layers track syntax, middle layers track semantics, later layers track high-level meaning and reasoning.</p>
+                <p>Depth is not magic. It is the architecture's way of saying: <strong>learning compositional structure is easier than learning everything at once.</strong></p>
+            </article>
+
+            <article class="nn-chap" id="c7">
+                <div class="nn-chap-num">Chapter 07 · CNN</div>
+                <h2>Convolutional networks — <em>seeing.</em></h2>
+                <p>For images, a fully connected layer is hopelessly wasteful. A 224 × 224 image has 50,176 pixels; the first hidden layer alone would have hundreds of millions of weights. We need an architecture that respects the structure of images: spatial locality, translation invariance, repeated features.</p>
+                <p>The solution, due to Yann LeCun in the 1980s, is the <strong>convolutional layer</strong>. Instead of every neuron looking at every pixel, each neuron looks at a small local patch (say, 3 × 3 pixels). The same small set of weights — called a <em>kernel</em> — is slid across the entire image, producing a "feature map" of where that kernel's pattern appears.</p>
+                <p>A CNN typically stacks many such convolutional layers. The first layer's kernels learn to detect edges. The second layer's kernels learn to detect combinations of edges (corners, textures). The third learns combinations of textures (parts). And so on, until the deepest layers respond to entire objects. This is exactly the compositional argument of Chapter 6, made concrete.</p>
+                <p>CNNs dominated computer vision from AlexNet in 2012 through 2020, when transformers — adapted from language to vision via the Vision Transformer (ViT) — began to overtake them on the largest scales. Both architectures remain in active use depending on data size and compute budget.</p>
+            </article>
+
+            <article class="nn-chap" id="c8">
+                <div class="nn-chap-num">Chapter 08 · RNN</div>
+                <h2>RNNs and the <em>long-range problem.</em></h2>
+                <p>Sequences — text, speech, time series — pose a different challenge from images. They have order. They have variable length. A model needs to remember earlier parts of the sequence to make sense of later parts. The first solution was the <strong>recurrent neural network</strong>: a network whose hidden state at time <em>t</em> depends on its hidden state at time <em>t−1</em>.</p>
+                <p>This worked, modestly, for short sequences. For long ones it failed for two reasons. First, gradients <em>vanish</em>: when you backpropagate through many time steps, repeated multiplication by small numbers makes the gradient effectively zero by the time it reaches the early steps. Second, RNN computation is inherently <em>sequential</em>: you cannot compute step <em>t</em> before computing step <em>t−1</em>. This made training painfully slow on modern hardware.</p>
+                <p>The LSTM (long short-term memory) of Hochreiter and Schmidhuber, 1997, partially solved the vanishing-gradient problem with an explicit memory cell. LSTMs ruled natural language processing through about 2017. Then they were replaced.</p>
+            </article>
+
+            <article class="nn-chap" id="c9">
+                <div class="nn-chap-num">Chapter 09 · Transformer</div>
+                <h2>The transformer, and <em>what changed.</em></h2>
+                <p>The 2017 paper "Attention is All You Need" introduced an architecture with no recurrence and no convolutions. Just stacked layers of <strong>self-attention</strong>, in which every position in the sequence simultaneously looks at every other position and decides what to attend to. The attention mechanism is described in mechanical detail in our pillar page <a href="/how-ai-actually-works">How AI Actually Works</a> and implemented from scratch in <a href="/build-your-own-gpt-python">Build Your Own GPT</a>.</p>
+                <p>Two things changed for the transformer that did not change for any prior architecture. First — it parallelises perfectly across sequence positions, which means modern GPU hardware can be used at very high efficiency. Second — gradient flow is dramatically shorter, because every position can attend to every other in one step rather than propagating through many.</p>
+                <p>The result was the scaling era. Between 2017 and 2026, transformer models grew from millions of parameters to trillions. The same architecture. The same training objective. Wider, deeper, longer-context, more data. The capabilities at the other end stunned everyone, including the labs building them.</p>
+                <div class="nn-callout">
+                    <strong>The whole field, on one line</strong>
+                    Neural network = neuron → layer → network → trained by backpropagation → deepened to capture hierarchy → specialised by architecture (CNN for spatial, RNN/transformer for sequential). Every modern AI system you have heard of fits inside this sentence.
+                </div>
+                <p>If you have made it through this article, you now have the conceptual map of deep learning. The next two natural directions: <strong>code it</strong> — our <a href="/build-your-own-gpt-python">build your own GPT</a> walkthrough is exactly that. And <strong>place yourself on the path</strong> — our <a href="/ai-engineer-roadmap-2026">AI engineer roadmap</a> tells you what to do this month, this quarter, this year, until the engineer you want to be is the engineer in the mirror.</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- COURSE CHOOSER -->
+    <section class="nn-courses">
+        <div class="nn-shell">
+            <span class="nn-mark">Modern Age Coders cohorts · for every age</span>
+            <h2>The courses where you <em>build</em> these networks.</h2>
+            <p class="lead">A neural networks paper is not the same as training a neural network. Below are the live MAC cohorts — at every age — where students implement perceptrons, train classifiers, build CNNs and write tiny transformers under mentor supervision.</p>
+
+            <div class="nn-band">
+                <div class="nn-band-hd">
+                    <h3>For <em>kids</em>, age 8–12</h3>
+                    <span class="ages">Junior · weekly live</span>
+                </div>
+                <div class="nn-band-grid">
+                    <a class="nn-course" href="/courses/python-ai-kids-masterclass">
+                        <div class="tier">Ages 8–12 · Python + AI</div>
+                        <h4>Python &amp; AI Kids <em>Masterclass</em></h4>
+                        <p>The kid-paced foundation. Build first AI projects. The neuron and gradient descent introduced gently.</p>
+                        <div class="nn-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="nn-course" href="/courses/computational-thinking-ai-kids">
+                        <div class="tier">Ages 8–11 · Thinking</div>
+                        <h4>Computational <em>Thinking + AI</em></h4>
+                        <p>The skill that comes before the model. Pattern recognition, decomposition, the algorithmic mind.</p>
+                        <div class="nn-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="nn-course" href="/courses/kids-ai-mastery-course">
+                        <div class="tier">Ages 9–13 · AI Tools</div>
+                        <h4>Kids AI <em>Mastery</em></h4>
+                        <p>Use real AI tools, then look under the hood at what is actually happening. Curiosity-led.</p>
+                        <div class="nn-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nn-band">
+                <div class="nn-band-hd">
+                    <h3>For <em>teens</em>, age 13–18</h3>
+                    <span class="ages">Senior · weekly live</span>
+                </div>
+                <div class="nn-band-grid">
+                    <a class="nn-course" href="/courses/ai-ml-masterclass-teens">
+                        <div class="tier">Ages 14–18 · AI/ML deep</div>
+                        <h4>AI &amp; ML <em>Masterclass · Teens</em></h4>
+                        <p>This article taught at teen pace, in PyTorch, with peers. Build a working CNN by week 12.</p>
+                        <div class="nn-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="nn-course" href="/courses/python-complete-masterclass-teens">
+                        <div class="tier">Ages 13–17 · Python</div>
+                        <h4>Python Complete <em>Masterclass</em></h4>
+                        <p>The Stage 1 prerequisite for any deep learning. Get fluent here before chasing transformers.</p>
+                        <div class="nn-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="nn-course" href="/courses/computational-thinking-ai-teens">
+                        <div class="tier">Ages 13–17 · Foundations</div>
+                        <h4>Computational Thinking + <em>AI</em></h4>
+                        <p>The thinking layer. Builds the muscle that understanding neural networks actually requires.</p>
+                        <div class="nn-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="nn-band">
+                <div class="nn-band-hd">
+                    <h3>For <em>adults &amp; college</em>, age 17+</h3>
+                    <span class="ages">Pro · weekly live</span>
+                </div>
+                <div class="nn-band-grid">
+                    <a class="nn-course" href="/courses/ai-ml-masterclass-complete-college">
+                        <div class="tier">College / Adult · AI/ML</div>
+                        <h4>AI &amp; ML <em>Complete</em></h4>
+                        <p>The flagship engineering track. Implement backprop. Train CNNs. Build transformers. By hand. With mentors.</p>
+                        <div class="nn-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="nn-course" href="/courses/artificial-intelligence-complete-masterclass-college">
+                        <div class="tier">College / Adult · AI Broad</div>
+                        <h4>Artificial Intelligence <em>Complete</em></h4>
+                        <p>The wide-arc AI course. Classical, deep, generative, agentic. Foundation for the field.</p>
+                        <div class="nn-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="nn-course" href="/courses/complete-generative-ai-masterclass-college">
+                        <div class="tier">College / Adult · GenAI</div>
+                        <h4>Generative AI <em>Masterclass</em></h4>
+                        <p>The transformer-and-after course. Where the maths in this article meets the systems being built in 2026.</p>
+                        <div class="nn-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEAD -->
+    <section class="nn-lead" id="lead">
+        <div class="nn-shell">
+            <div class="nn-lead-grid">
+                <div>
+                    <span class="nn-mark" style="color: var(--nn-magenta-soft);">Talk to a mentor · free 25 min</span>
+                    <h2>If this article made <em>sense</em>, the right next step is a cohort.</h2>
+                    <p>The fastest way from "I understand backpropagation" to "I just trained one" is a small group of peers and a mentor. Tell us roughly where you are; a senior MAC instructor will write back inside 24 hours with the cohort that fits.</p>
+                </div>
+                <form class="nn-form" name="neural-networks-lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+                    <input type="hidden" name="form-name" value="neural-networks-lead">
+                    <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+                    <h3>Match me with a cohort</h3>
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <select name="age_band" required>
+                        <option value="">Age band</option>
+                        <option>Kid (8–12)</option>
+                        <option>Teen (13–17)</option>
+                        <option>College (18–22)</option>
+                        <option>Adult / professional</option>
+                    </select>
+                    <select name="background" required>
+                        <option value="">Background</option>
+                        <option>Complete beginner</option>
+                        <option>Some Python</option>
+                        <option>Python comfortable, no ML yet</option>
+                        <option>Some ML, no deep learning yet</option>
+                        <option>Some deep learning, want to go deeper</option>
+                    </select>
+                    <input type="tel" name="whatsapp" placeholder="WhatsApp with country code" required>
+                    <input type="email" name="email" placeholder="Email">
+                    <button type="submit">Send me the right cohort →</button>
+                    <div class="fine">A senior mentor reads each form. Reply within 24 hours.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="nn-faq">
+        <div class="nn-shell">
+            <span class="nn-mark">Honest follow-ups</span>
+            <h2>The questions readers <em>genuinely ask.</em></h2>
+
+            <details>
+                <summary>I am not strong at maths. Should I still try this?</summary>
+                <p>Yes. The maths you need for working deep learning is small — linear algebra basics, derivatives, the chain rule. Less than a single semester of high school calculus. Our <a href="/ai-engineer-roadmap-2026">roadmap's Stage 2</a> tells you exactly what to learn. Avoid the trap of "going back to maths" for six months — learn the precise subset alongside code.</p>
+            </details>
+
+            <details>
+                <summary>Do I need a GPU to learn this?</summary>
+                <p>No. Free Google Colab gives you a T4 GPU for several hours a day. That is enough to train every model in our coursework, including a small transformer. You will need your own GPU only if you start training models with millions of parameters for hours at a time — and that is well past the point where you should have already been hired.</p>
+            </details>
+
+            <details>
+                <summary>What is the right age to start neural networks?</summary>
+                <p>Conceptually, about age 12 — when a child can sit with an equation for ten minutes without losing patience. Practically — through code, with mentor supervision — age 14 is comfortable. We have had 13-year-olds train working MNIST classifiers in cohort. Younger than that, we focus on Python fluency and computational thinking; the neural networks come naturally a year or two later.</p>
+            </details>
+
+            <details>
+                <summary>How is this different from learning from YouTube?</summary>
+                <p>YouTube is excellent for first exposure. It is not how anyone learns to actually do this. Deep learning intuition lives in the fingertips — built by typing every line of code yourself, breaking it, fixing it, debugging the tensor shape errors. Watching someone else type does not build that muscle. A cohort gives you a fixed cadence, mentor feedback on your code, and peers at the same stage. We see the gap every month between learners who watched and learners who built.</p>
+            </details>
+
+            <details>
+                <summary>Will neural networks be replaced soon?</summary>
+                <p>Almost certainly not in the next decade. The architecture details will keep evolving — transformer variants, mixtures of experts, state-space models — but the broad family (differentiable function approximators trained by gradient descent) is the right primitive for the foreseeable future. Learning it now is not a bet on a fashion; it is a bet on the substrate.</p>
+            </details>
+
+            <details>
+                <summary>What is the difference between this page and "How AI Actually Works"?</summary>
+                <p>The two pillars pair. <a href="/how-ai-actually-works">How AI Actually Works</a> covers tokens, embeddings and the transformer at conceptual depth — what an LLM is. <strong>This page</strong> covers neural networks themselves at mechanical depth — how they learn. Read them together for the full picture. The <a href="/build-your-own-gpt-python">Build Your Own GPT</a> tutorial then turns both into running code.</p>
+            </details>
+
+            <details>
+                <summary>Do you have resources for an absolute beginner who hasn't done Python yet?</summary>
+                <p>Yes. Start with our <a href="/python-for-beginners-kids">Python for Beginners</a> page if a child, or the <a href="/courses/python-programming-masterclass-zero-to-advanced-college">Python Zero-to-Advanced</a> course if an adult. Three months in Python first, then come back to this article. Neural networks with weak Python is the most common painful skipped step.</p>
+            </details>
+        </div>
+    </section>
+
+    <section class="nn-related">
+        <div class="nn-shell">
+            <h2>Read next</h2>
+            <div class="nn-related-grid">
+                <div class="nn-related-col">
+                    <h4>Pillar siblings</h4>
+                    <a href="/how-ai-actually-works">How AI actually works</a>
+                    <a href="/build-your-own-gpt-python">Build your own GPT</a>
+                    <a href="/ai-engineer-roadmap-2026">AI engineer roadmap</a>
+                    <a href="/ai-agents-explained">AI agents explained</a>
+                </div>
+                <div class="nn-related-col">
+                    <h4>Course tracks</h4>
+                    <a href="/levels/coding-for-kids">For kids</a>
+                    <a href="/levels/coding-for-teens">For teens</a>
+                    <a href="/levels/coding-for-college-students">For college</a>
+                    <a href="/levels/coding-for-professionals">For professionals</a>
+                </div>
+                <div class="nn-related-col">
+                    <h4>Specialty</h4>
+                    <a href="/coding-olympiad-medal-track">Olympiad track</a>
+                    <a href="/jee-aspirant-coding-track">JEE coding track</a>
+                    <a href="/coding-comeback-women">Comeback · women</a>
+                    <a href="/ai-agents-and-automation">AI for business</a>
+                </div>
+                <div class="nn-related-col">
+                    <h4>Tools</h4>
+                    <a href="/screen-time-to-skill">Screen-time calculator</a>
+                    <a href="/coding-fee-calculator">Fee calculator</a>
+                    <a href="/coding-roadmap">Coding roadmap</a>
+                    <a href="/book-demo">Book a free demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+</body>
+</html>

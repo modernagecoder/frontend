@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+        gtag('config', 'AW-16910316353');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The AI Engineer Roadmap 2026 — From Python Day One to Shipping AI in Production | Modern Age Coders</title>
+    <meta name="description" content="The honest, opinionated, step-by-step roadmap to becoming a working AI engineer in 2026. Five stages, time budgets per stage, the milestone projects that prove each one, and the one trap that wastes most learners' year. By Modern Age Coders.">
+    <meta name="keywords" content="AI engineer roadmap, machine learning engineer roadmap, how to become an AI engineer, AI engineer career path 2026, roadmap to AI engineer, AI engineer skills, AI engineer learning path, ML engineer roadmap 2026, AI career, what to learn for AI, AI engineer salary, modern age coders">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://learn.modernagecoders.com/ai-engineer-roadmap-2026">
+
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/ai-engineer-roadmap-2026" />
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/ai-engineer-roadmap-2026" />
+    <link rel="alternate" hreflang="en-us" href="https://learn.modernagecoders.com/ai-engineer-roadmap-2026" />
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/ai-engineer-roadmap-2026" />
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/ai-engineer-roadmap-2026">
+    <meta property="og:title" content="The AI Engineer Roadmap 2026 — Modern Age Coders">
+    <meta property="og:description" content="The honest path. Five stages, real time budgets, and the trap at each stage that wastes a year.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="theme-color" content="#fafaf3">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "headline": "The AI Engineer Roadmap 2026",
+        "description": "Five-stage structured roadmap from Python beginner to shipping AI in production.",
+        "author": { "@type": "Organization", "name": "Modern Age Coders" },
+        "publisher": {
+            "@type": "Organization", "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com",
+            "logo": { "@type": "ImageObject", "url": "https://learn.modernagecoders.com/images/logo.svg" }
+        },
+        "datePublished": "2026-05-22",
+        "dateModified": "2026-05-23",
+        "mainEntityOfPage": "https://learn.modernagecoders.com/ai-engineer-roadmap-2026"
+    }
+    </script>
+
+    <style>
+        :root {
+            --rd-paper: #fafaf3;
+            --rd-paper-2: #f0eedf;
+            --rd-ink: #0e1115;
+            --rd-ink-2: #2a2e36;
+            --rd-route-a: #d8243c;
+            --rd-route-b: #2261d8;
+            --rd-route-c: #2e8b3a;
+            --rd-route-d: #d97a17;
+            --rd-route-e: #7a3fb9;
+            --rd-line: rgba(14, 17, 21, 0.18);
+        }
+
+        body { background: var(--rd-paper) !important; color: var(--rd-ink) !important; }
+        main.rd-page {
+            display: block !important;
+            padding: 0 !important;
+            gap: 0 !important;
+            align-items: stretch !important;
+            justify-content: flex-start !important;
+            max-width: none !important;
+            width: 100% !important;
+        }
+        main.rd-page h1, main.rd-page h2, main.rd-page h3,
+        main.rd-page h4, main.rd-page h5, main.rd-page h6 {
+            color: inherit !important;
+        }
+        main.rd-page p, main.rd-page li, main.rd-page summary, main.rd-page label { color: inherit; }
+
+        .rd-page * { box-sizing: border-box; }
+        .rd-page {
+            font-family: 'Inter', -apple-system, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        .rd-page a { color: inherit; }
+        .rd-shell { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+        .rd-tag {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            padding: 6px 12px;
+            border: 1px solid currentColor;
+            border-radius: 999px;
+        }
+
+        /* HERO */
+        .rd-hero { padding: 130px 0 80px; background: var(--rd-paper); border-bottom: 1px solid var(--rd-line); }
+        .rd-h1 {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: clamp(46px, 6.6vw, 96px);
+            line-height: 0.98;
+            letter-spacing: -0.025em;
+            margin: 26px 0 26px;
+            max-width: 1020px;
+        }
+        .rd-h1 em {
+            font-style: italic;
+            color: var(--rd-route-a);
+            font-weight: 400;
+        }
+        .rd-sub {
+            font-size: 20px;
+            line-height: 1.62;
+            color: var(--rd-ink-2);
+            max-width: 720px;
+            margin: 0 0 38px;
+        }
+        .rd-meta {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+            padding: 26px 0 0;
+            margin-top: 30px;
+            border-top: 2px solid var(--rd-ink);
+        }
+        .rd-meta div { padding: 0 22px 0 0; }
+        .rd-meta strong {
+            display: block;
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: 28px;
+            margin-bottom: 4px;
+            color: var(--rd-ink);
+        }
+        .rd-meta strong em { font-style: italic; color: var(--rd-route-a); font-weight: 400; }
+        .rd-meta span {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: rgba(14, 17, 21, 0.65);
+            letter-spacing: 0.06em;
+        }
+
+        /* COURSES STRIP */
+        .rd-strip {
+            padding: 56px 0 60px;
+            background: var(--rd-ink);
+            color: var(--rd-paper);
+        }
+        .rd-strip-hd {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 18px;
+            margin-bottom: 28px;
+            padding-bottom: 22px;
+            border-bottom: 1px solid rgba(250, 250, 243, 0.18);
+            flex-wrap: wrap;
+        }
+        .rd-strip-hd .lead {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: clamp(22px, 2.5vw, 30px);
+            line-height: 1.2;
+            margin: 0;
+            max-width: 720px;
+            color: var(--rd-paper);
+        }
+        .rd-strip-hd .lead em { font-style: italic; color: var(--rd-route-a); font-weight: 400; }
+        .rd-strip-hd .all {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--rd-route-a);
+            text-decoration: none;
+            border-bottom: 1px solid var(--rd-route-a);
+            padding-bottom: 4px;
+            transition: gap 0.2s, color 0.2s;
+        }
+        .rd-strip-hd .all:hover { gap: 14px; color: var(--rd-paper); border-color: var(--rd-paper); }
+        .rd-strip-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+        }
+        .rd-strip-card {
+            display: block;
+            padding: 22px 22px 20px;
+            background: rgba(250, 250, 243, 0.04);
+            border: 1px solid rgba(250, 250, 243, 0.14);
+            border-left: 3px solid var(--clr);
+            color: var(--rd-paper);
+            text-decoration: none;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .rd-strip-card:nth-child(1) { --clr: var(--rd-route-a); }
+        .rd-strip-card:nth-child(2) { --clr: var(--rd-route-b); }
+        .rd-strip-card:nth-child(3) { --clr: var(--rd-route-c); }
+        .rd-strip-card:nth-child(4) { --clr: var(--rd-route-d); }
+        .rd-strip-card:hover {
+            background: rgba(250, 250, 243, 0.08);
+            transform: translateY(-2px);
+        }
+        .rd-strip-card .age {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--clr);
+            margin-bottom: 10px;
+        }
+        .rd-strip-card h3 {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 1.2;
+            margin: 0 0 8px;
+        }
+        .rd-strip-card h3 em { font-style: italic; color: var(--clr); font-weight: 400; }
+        .rd-strip-card p {
+            font-size: 12.5px;
+            line-height: 1.55;
+            color: rgba(250, 250, 243, 0.7);
+            margin: 0 0 14px;
+            min-height: 40px;
+        }
+        .rd-strip-card .meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            padding-top: 10px;
+            border-top: 1px dashed rgba(250, 250, 243, 0.18);
+            color: rgba(250, 250, 243, 0.55);
+        }
+        .rd-strip-card .meta .pr {
+            font-family: 'PT Serif', serif;
+            font-style: italic;
+            font-size: 16px;
+            color: var(--clr);
+            font-weight: 700;
+        }
+        @media (max-width: 980px) {
+            .rd-strip-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 560px) {
+            .rd-strip-grid { grid-template-columns: 1fr; }
+            .rd-strip-card p { min-height: 0; }
+        }
+
+        /* PROMISE */
+        .rd-promise { padding: 90px 0; background: var(--rd-paper-2); }
+        .rd-promise-grid {
+            display: grid;
+            grid-template-columns: 0.85fr 1.2fr;
+            gap: 70px;
+        }
+        .rd-promise h2 {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: clamp(34px, 4.4vw, 52px);
+            line-height: 1.04;
+            margin: 14px 0 0;
+            letter-spacing: -0.015em;
+        }
+        .rd-promise h2 em { font-style: italic; color: var(--rd-route-b); font-weight: 400; }
+        .rd-promise p {
+            font-size: 17.5px;
+            line-height: 1.72;
+            color: var(--rd-ink-2);
+            margin: 0 0 18px;
+        }
+        .rd-promise p strong { font-weight: 700; color: var(--rd-ink); }
+
+        /* MAP / STAGES */
+        .rd-map { padding: 130px 0; background: var(--rd-paper); }
+        .rd-map h2 {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: clamp(38px, 5vw, 60px);
+            line-height: 1.04;
+            margin: 16px 0 14px;
+            letter-spacing: -0.015em;
+            max-width: 920px;
+        }
+        .rd-map h2 em { font-style: italic; color: var(--rd-route-a); font-weight: 400; }
+        .rd-map .intro {
+            font-size: 17.5px;
+            line-height: 1.7;
+            color: var(--rd-ink-2);
+            max-width: 720px;
+            margin: 0 0 60px;
+        }
+        .rd-stage {
+            display: grid;
+            grid-template-columns: 80px 1fr;
+            gap: 36px;
+            position: relative;
+            padding: 0 0 60px;
+        }
+        .rd-stage:last-child { padding-bottom: 0; }
+        .rd-stage::before {
+            content: '';
+            position: absolute;
+            left: 26px;
+            top: 80px;
+            bottom: 0;
+            width: 4px;
+            background: var(--col);
+            opacity: 0.45;
+        }
+        .rd-stage:last-child::before { display: none; }
+        .rd-stage:nth-child(1) { --col: var(--rd-route-a); }
+        .rd-stage:nth-child(2) { --col: var(--rd-route-b); }
+        .rd-stage:nth-child(3) { --col: var(--rd-route-c); }
+        .rd-stage:nth-child(4) { --col: var(--rd-route-d); }
+        .rd-stage:nth-child(5) { --col: var(--rd-route-e); }
+        .rd-node {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: var(--col);
+            color: var(--rd-paper);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'PT Serif', serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 26px;
+            margin-top: 4px;
+            box-shadow: 0 0 0 6px var(--rd-paper), 0 0 0 8px var(--col);
+            position: relative;
+            z-index: 1;
+        }
+        .rd-stage-body {
+            background: var(--rd-paper-2);
+            border: 1px solid var(--rd-line);
+            border-left: 4px solid var(--col);
+            padding: 32px 36px;
+        }
+        .rd-stage-body .label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            color: var(--col);
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .rd-stage-body h3 {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 1.15;
+            margin: 0 0 8px;
+            letter-spacing: -0.01em;
+        }
+        .rd-stage-body h3 em { font-style: italic; color: var(--col); font-weight: 400; }
+        .rd-stage-body .budget {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.1em;
+            color: rgba(14, 17, 21, 0.6);
+            margin-bottom: 20px;
+        }
+        .rd-stage-body p {
+            font-size: 16.5px;
+            line-height: 1.7;
+            color: var(--rd-ink-2);
+            margin: 0 0 18px;
+        }
+        .rd-stage-body p strong { color: var(--rd-ink); font-weight: 700; }
+        .rd-stage-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 26px;
+            margin-top: 22px;
+            padding-top: 22px;
+            border-top: 1px dashed var(--rd-line);
+        }
+        .rd-stage-list div h4 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            color: var(--col);
+            text-transform: uppercase;
+            margin: 0 0 10px;
+        }
+        .rd-stage-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .rd-stage-list ul li {
+            font-size: 14.5px;
+            line-height: 1.55;
+            padding: 4px 0 4px 18px;
+            position: relative;
+            color: var(--rd-ink-2);
+        }
+        .rd-stage-list ul li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--col);
+        }
+        .rd-trap {
+            margin-top: 22px;
+            padding: 16px 20px;
+            background: rgba(216, 36, 60, 0.06);
+            border-left: 3px solid var(--col);
+            font-size: 14.5px;
+            line-height: 1.6;
+            color: var(--rd-ink);
+        }
+        .rd-trap strong {
+            display: block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.18em;
+            color: var(--col);
+            margin-bottom: 6px;
+            text-transform: uppercase;
+        }
+
+        /* PULL QUOTE */
+        .rd-pull {
+            background: var(--rd-ink);
+            color: var(--rd-paper);
+            padding: 130px 0;
+            text-align: center;
+        }
+        .rd-pull blockquote {
+            font-family: 'PT Serif', serif;
+            font-style: italic;
+            font-size: clamp(28px, 3.6vw, 46px);
+            line-height: 1.28;
+            margin: 0 auto;
+            max-width: 980px;
+            padding: 0 20px;
+        }
+        .rd-pull blockquote em {
+            font-style: italic;
+            color: var(--rd-route-a);
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 6px;
+        }
+        .rd-pull .cite {
+            display: block;
+            margin-top: 26px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            color: rgba(250, 250, 243, 0.6);
+            text-transform: uppercase;
+        }
+
+        /* COURSES */
+        .rd-courses { padding: 130px 0; background: var(--rd-paper-2); }
+        .rd-courses h2 {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: clamp(38px, 4.8vw, 58px);
+            line-height: 1.04;
+            margin: 16px 0 14px;
+            letter-spacing: -0.015em;
+            max-width: 920px;
+        }
+        .rd-courses h2 em { font-style: italic; color: var(--rd-route-b); font-weight: 400; }
+        .rd-courses .lead {
+            font-size: 18px;
+            line-height: 1.68;
+            color: var(--rd-ink-2);
+            max-width: 760px;
+            margin: 0 0 50px;
+        }
+        .rd-band { margin-bottom: 60px; }
+        .rd-band:last-child { margin-bottom: 0; }
+        .rd-band-hd {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-bottom: 18px;
+            border-bottom: 2px solid var(--rd-ink);
+            margin-bottom: 22px;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+        .rd-band-hd h3 {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: 30px;
+            margin: 0;
+            line-height: 1.1;
+        }
+        .rd-band-hd h3 em { font-style: italic; color: var(--rd-route-b); font-weight: 400; }
+        .rd-band-hd .ages {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--rd-route-a);
+        }
+        .rd-band-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .rd-course {
+            display: block;
+            padding: 28px 26px;
+            background: var(--rd-paper);
+            border: 1px solid var(--rd-line);
+            text-decoration: none;
+            color: var(--rd-ink);
+            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+        .rd-course:hover {
+            transform: translateY(-3px);
+            border-color: var(--rd-ink);
+            box-shadow: 6px 6px 0 var(--rd-route-a);
+        }
+        .rd-course .tier {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--rd-route-a);
+            margin-bottom: 14px;
+        }
+        .rd-course h4 {
+            font-family: 'PT Serif', serif;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.18;
+            margin: 0 0 12px;
+            letter-spacing: -0.01em;
+        }
+        .rd-course h4 em { font-style: italic; color: var(--rd-route-b); font-weight: 400; }
+        .rd-course p {
+            font-size: 14px;
+            line-height: 1.62;
+            color: rgba(14, 17, 21, 0.7);
+            margin: 0 0 18px;
+        }
+        .rd-course-foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-top: 14px;
+            border-top: 1px dashed var(--rd-line);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+        }
+        .rd-course-foot .price {
+            font-family: 'PT Serif', serif;
+            font-style: italic;
+            font-size: 18px;
+            color: var(--rd-route-a);
+            font-weight: 700;
+        }
+
+        /* LEAD */
+        .rd-lead { padding: 130px 0; background: var(--rd-route-b); color: var(--rd-paper); }
+        .rd-lead-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 70px; align-items: center; }
+        .rd-lead h2 {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: clamp(38px, 5vw, 60px);
+            line-height: 1.04;
+            margin: 14px 0 22px;
+            letter-spacing: -0.01em;
+        }
+        .rd-lead h2 em {
+            font-style: italic;
+            background: var(--rd-paper);
+            color: var(--rd-route-b);
+            padding: 0 8px;
+            font-weight: 400;
+        }
+        .rd-lead p {
+            font-size: 17.5px;
+            line-height: 1.68;
+            color: rgba(250, 250, 243, 0.88);
+            max-width: 500px;
+            margin: 0 0 22px;
+        }
+        .rd-form {
+            background: var(--rd-paper);
+            color: var(--rd-ink);
+            padding: 40px;
+            border: 1px solid var(--rd-ink);
+            box-shadow: 14px 14px 0 var(--rd-ink);
+        }
+        .rd-form h3 {
+            font-family: 'PT Serif', serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 26px;
+            margin: 0 0 22px;
+        }
+        .rd-form input, .rd-form select {
+            width: 100%;
+            padding: 13px 16px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(14, 17, 21, 0.25);
+            background: var(--rd-paper);
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            outline: none;
+            border-radius: 0;
+        }
+        .rd-form input:focus, .rd-form select:focus { border-color: var(--rd-route-a); }
+        .rd-form button {
+            width: 100%;
+            padding: 17px;
+            background: var(--rd-ink);
+            color: var(--rd-paper);
+            border: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 6px;
+        }
+        .rd-form button:hover { background: var(--rd-route-a); }
+        .rd-form .fine {
+            font-size: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            color: rgba(14, 17, 21, 0.6);
+            margin-top: 14px;
+            line-height: 1.55;
+        }
+
+        /* FAQ */
+        .rd-faq { padding: 130px 0; background: var(--rd-paper); }
+        .rd-faq h2 {
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: clamp(36px, 4.5vw, 56px);
+            line-height: 1.04;
+            margin: 16px 0 50px;
+            max-width: 780px;
+            letter-spacing: -0.015em;
+        }
+        .rd-faq h2 em { font-style: italic; color: var(--rd-route-a); font-weight: 400; }
+        .rd-faq details { border-top: 1px solid var(--rd-line); padding: 26px 0; }
+        .rd-faq details:last-of-type { border-bottom: 1px solid var(--rd-line); }
+        .rd-faq summary {
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 24px;
+            font-family: 'PT Serif', serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1.25;
+        }
+        .rd-faq summary::-webkit-details-marker { display: none; }
+        .rd-faq summary::after {
+            content: '+';
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 22px;
+            color: var(--rd-route-a);
+        }
+        .rd-faq details[open] summary::after { content: '–'; }
+        .rd-faq p {
+            margin: 14px 0 0;
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--rd-ink-2);
+            max-width: 880px;
+        }
+
+        /* RELATED */
+        .rd-related { padding: 100px 0; background: var(--rd-paper-2); border-top: 1px solid var(--rd-line); }
+        .rd-related h2 {
+            font-family: 'PT Serif', serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 30px;
+            margin: 0 0 36px;
+        }
+        .rd-related-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+        .rd-related-col h4 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--rd-route-a);
+            border-bottom: 1px solid var(--rd-line);
+            padding-bottom: 12px;
+            margin: 0 0 14px;
+        }
+        .rd-related-col a {
+            display: block;
+            font-size: 14.5px;
+            padding: 7px 0;
+            color: var(--rd-ink);
+            text-decoration: none;
+            transition: padding-left 0.2s, color 0.2s;
+        }
+        .rd-related-col a:hover { padding-left: 6px; color: var(--rd-route-a); }
+
+        @media (max-width: 980px) {
+            .rd-meta { grid-template-columns: 1fr 1fr; gap: 24px 0; }
+            .rd-promise-grid { grid-template-columns: 1fr; gap: 30px; }
+            .rd-stage { grid-template-columns: 1fr; gap: 18px; }
+            .rd-stage::before { left: 26px; top: 60px; height: calc(100% - 30px); }
+            .rd-node { margin: 0; }
+            .rd-stage-list { grid-template-columns: 1fr; }
+            .rd-band-grid { grid-template-columns: 1fr; }
+            .rd-lead-grid { grid-template-columns: 1fr; gap: 40px; }
+            .rd-related-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 560px) {
+            .rd-shell { padding: 0 22px; }
+            .rd-related-grid { grid-template-columns: 1fr; }
+            .rd-meta { grid-template-columns: 1fr; gap: 22px 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<main class="rd-page">
+
+    <section class="rd-hero">
+        <div class="rd-shell">
+            <span class="rd-tag" style="color: var(--rd-route-a);">An opinionated roadmap · revised May 2026</span>
+            <h1 class="rd-h1">From <em>Python day one</em> to shipping AI in production. Five stages, in honest order.</h1>
+            <p class="rd-sub">Most "AI roadmaps" online are dumps of links. They tell you what exists, not what to do. This is the opposite. Five stages. Time budget per stage. The three projects that prove you cleared it. And the one trap at each stage that wastes most learners a year. Written by the people who have walked 11,000+ Modern Age Coders students through it.</p>
+            <div class="rd-meta">
+                <div><strong><em>5</em> stages</strong><span>From beginner to shipping</span></div>
+                <div><strong><em>14–24</em> months</strong><span>Honest end-to-end time</span></div>
+                <div><strong><em>3</em> projects</strong><span>Per stage, that prove fluency</span></div>
+                <div><strong><em>1</em> trap</strong><span>Per stage. Marked clearly.</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES STRIP -- upfront -->
+    <section class="rd-strip">
+        <div class="rd-shell">
+            <div class="rd-strip-hd">
+                <p class="lead">The map is below. <em>The cohorts that walk it with you are right here.</em></p>
+                <a href="/courses" class="all">View all 60+ courses →</a>
+            </div>
+            <div class="rd-strip-grid">
+                <a class="rd-strip-card" href="/courses/python-ai-kids-masterclass">
+                    <div class="age">Ages 8–12 · Stage 1 start</div>
+                    <h3>Python &amp; AI <em>Kids</em></h3>
+                    <p>The pre-roadmap on-ramp. Real Python at kid pace with first-touch AI tools.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="rd-strip-card" href="/courses/python-complete-masterclass-teens">
+                    <div class="age">Ages 13–17 · Stage 1</div>
+                    <h3>Python Complete <em>Teens</em></h3>
+                    <p>The teen Stage-1 course. Finish here before any ML library work.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="rd-strip-card" href="/courses/ai-ml-masterclass-complete-college">
+                    <div class="age">College / Adult · Stages 2–4</div>
+                    <h3>AI &amp; ML <em>Complete</em></h3>
+                    <p>The big middle of the roadmap. Maths, classical ML, deep learning, mentor-led.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="rd-strip-card" href="/courses/complete-generative-ai-masterclass-college">
+                    <div class="age">College / Adult · Stage 5</div>
+                    <h3>Generative AI <em>Masterclass</em></h3>
+                    <p>The Stage-5 capstone. LLMs, RAG, agents, evaluation — the engineer's job.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="rd-promise">
+        <div class="rd-shell">
+            <div class="rd-promise-grid">
+                <div>
+                    <span class="rd-tag" style="color: var(--rd-route-b);">What this roadmap is not</span>
+                    <h2>This is <em>not</em> a YouTube playlist disguised as a career plan.</h2>
+                </div>
+                <div>
+                    <p>We have watched students lose entire years to "AI roadmaps" that are sixty links to free courses. The links are not the problem. The problem is they are unranked, untimed, and unsequenced. A real path through this material is ruthless about ordering and ruthless about cutting.</p>
+                    <p>This page picks one path. <strong>You will not learn everything in AI by following it.</strong> You will learn the right things, in the right order, for the goal of becoming a working AI engineer in 14–24 months. Other goals (research, mathematics depth, MLOps specialisation) need other paths. We say so when it matters.</p>
+                    <p>Every stage has a clear "you are done with this when..." signal. No checkbox. A concrete behavioural milestone — the day you sit down and the work just flows. That is when you graduate to the next stage. Not earlier.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rd-map">
+        <div class="rd-shell">
+            <span class="rd-tag" style="color: var(--rd-route-a);">The five stages</span>
+            <h2>One stage at a time. <em>In order.</em> Don't skip.</h2>
+            <p class="intro">The single most common mistake we see — and we see it monthly — is students trying to do Stage 4 (deep learning) before they have actually finished Stage 1 (Python fluency). The result is six months of confused frustration. The order below is non-negotiable. Each stage compounds on the previous one.</p>
+
+            <!-- STAGE I -->
+            <div class="rd-stage">
+                <div class="rd-node">I</div>
+                <div class="rd-stage-body">
+                    <div class="label">Stage 01 · weeks 1 — 12</div>
+                    <h3>Python <em>fluency</em>, not Python literacy.</h3>
+                    <div class="budget">Time budget · 3 months · 8 hours/week · ~96 hours total</div>
+                    <p>The first stage is unglamorous and the most important. Almost everyone underestimates it. You are not done with Python when you can write a for-loop. You are done with Python when reading <strong>other people's code</strong> feels easy, when writing a 200-line script feels small, and when debugging is a five-minute habit rather than an hour-long ordeal.</p>
+                    <p>This stage uses no AI at all. No PyTorch. No LLM API. Just Python — language, ecosystem, command line, git. We are building the keyboard fluency that every later stage takes for granted.</p>
+                    <div class="rd-stage-list">
+                        <div>
+                            <h4>What you will learn</h4>
+                            <ul>
+                                <li>Core language — data types, control flow, functions, classes</li>
+                                <li>Standard library essentials — pathlib, json, datetime, collections</li>
+                                <li>Virtual environments, pip, requirements.txt</li>
+                                <li>Git, GitHub, basic command line</li>
+                                <li>Reading and debugging error tracebacks</li>
+                                <li>Writing tests with pytest</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Three milestone projects</h4>
+                            <ul>
+                                <li>A CLI tool that does something real — a budget tracker, a habit logger</li>
+                                <li>A small Flask or FastAPI web app with a real route</li>
+                                <li>Read and modify someone else's open-source Python repo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rd-trap">
+                        <strong>Trap to avoid</strong>
+                        Jumping into ML libraries before this stage is done. If you can not write a working Python function from scratch without Googling, you are not ready for Stage 2. Six months of "learning numpy" will not patch over weak Python. Finish Stage 1 first. The students who do this finish the full roadmap on time.
+                    </div>
+                </div>
+            </div>
+
+            <!-- STAGE II -->
+            <div class="rd-stage">
+                <div class="rd-node">II</div>
+                <div class="rd-stage-body">
+                    <div class="label">Stage 02 · weeks 13 — 28</div>
+                    <h3>Mathematics, the <em>working amount.</em></h3>
+                    <div class="budget">Time budget · 4 months · 6 hours/week · ~96 hours total</div>
+                    <p>You do not need a maths degree to be an AI engineer. You need a precise, small subset of mathematics, learned well, so the libraries and papers later in this roadmap stop being opaque. We will tell you the exact subset and let you skip the rest. <strong>Three subjects. No more.</strong></p>
+                    <p>Linear algebra (vectors, matrices, dot products, projections). Calculus (derivatives, the chain rule, gradient descent). Probability (distributions, expectation, Bayes' rule). That is it. Twenty hours per subject. Sixty hours total. Then a few weeks consolidating with code.</p>
+                    <div class="rd-stage-list">
+                        <div>
+                            <h4>What you will learn</h4>
+                            <ul>
+                                <li>Linear algebra — matrix multiplication, dot product, eigenvalues at intuition level</li>
+                                <li>Calculus — derivatives, chain rule, gradient descent</li>
+                                <li>Probability — distributions, expectation, variance, Bayes' rule</li>
+                                <li>How to translate maths notation into numpy code</li>
+                                <li>Just enough statistics to read a confusion matrix</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Three milestone projects</h4>
+                            <ul>
+                                <li>Implement matrix multiplication in pure numpy. Compare with numpy's own.</li>
+                                <li>Hand-code gradient descent on a one-parameter function. Plot the loss curve.</li>
+                                <li>Build a small Monte Carlo simulation of a real problem — Plinko, dice odds, an election poll.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rd-trap">
+                        <strong>Trap to avoid</strong>
+                        Buying a "machine learning maths" textbook and trying to read it cover-to-cover. You will lose three months and gain little. The right approach is to learn maths in tight loops alongside numpy code — every concept landed via implementation. Khan Academy and 3Blue1Brown are excellent first passes. The MAC Mathematics for AI block is built exactly around this loop.
+                    </div>
+                </div>
+            </div>
+
+            <!-- STAGE III -->
+            <div class="rd-stage">
+                <div class="rd-node">III</div>
+                <div class="rd-stage-body">
+                    <div class="label">Stage 03 · weeks 29 — 44</div>
+                    <h3>Classical machine learning, <em>not yet deep learning.</em></h3>
+                    <div class="budget">Time budget · 4 months · 8 hours/week · ~128 hours total</div>
+                    <p>Before neural networks. Yes, before. Linear regression. Logistic regression. Decision trees. Random forests. K-means clustering. The same arc Andrew Ng's old course took you through, but tighter and with modern tooling. <strong>scikit-learn is your home for this stage.</strong></p>
+                    <p>You are learning two things in parallel: classical ML techniques (which still solve 70% of real industry problems) and the surrounding workflow — data cleaning, splits, cross-validation, metrics, the bias-variance tradeoff. The workflow is more important than any individual algorithm.</p>
+                    <div class="rd-stage-list">
+                        <div>
+                            <h4>What you will learn</h4>
+                            <ul>
+                                <li>Pandas, numpy, matplotlib — the trio of working data scientists</li>
+                                <li>Regression, classification, clustering — the algorithm families</li>
+                                <li>Cross-validation, train/val/test splits, common pitfalls</li>
+                                <li>Metrics — accuracy, precision, recall, F1, ROC</li>
+                                <li>Feature engineering and feature selection</li>
+                                <li>Hyperparameter tuning and the curse of dimensionality</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Three milestone projects</h4>
+                            <ul>
+                                <li>Solve a Kaggle "Titanic" or "Housing Prices" problem from scratch, end-to-end, with honest cross-validation</li>
+                                <li>Build a recommendation system on a public dataset — books, movies, anything</li>
+                                <li>Deploy one of these as a small FastAPI service. The first time your model talks to the world.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rd-trap">
+                        <strong>Trap to avoid</strong>
+                        Skipping classical ML because "everyone is doing deep learning now." Classical ML is what you will actually use in your first job. It is also where you learn the discipline of honest evaluation. The students who skip Stage 3 are the ones who later cannot tell the difference between a working model and a leaking one.
+                    </div>
+                </div>
+            </div>
+
+            <!-- STAGE IV -->
+            <div class="rd-stage">
+                <div class="rd-node">IV</div>
+                <div class="rd-stage-body">
+                    <div class="label">Stage 04 · weeks 45 — 64</div>
+                    <h3>Deep learning, <em>built up from scratch.</em></h3>
+                    <div class="budget">Time budget · 5 months · 10 hours/week · ~200 hours total</div>
+                    <p>Now the neural networks. Now PyTorch. Now the architectures that power every modern AI system. The right way to learn this is from the bottom up — perceptron, multilayer perceptron, backpropagation by hand, then CNN, then RNN, then transformer. Our <a href="/inside-neural-networks">Inside Neural Networks</a> pillar page is the conceptual companion to this stage.</p>
+                    <p>The middle of this stage is where you will build your first real model from scratch — a small image classifier, a tiny language model. The end of this stage is where you can read a deep learning paper and roughly understand what it is saying. That is a non-trivial milestone.</p>
+                    <div class="rd-stage-list">
+                        <div>
+                            <h4>What you will learn</h4>
+                            <ul>
+                                <li>PyTorch — tensors, autograd, nn.Module, training loops</li>
+                                <li>Perceptron through multilayer perceptron through backpropagation</li>
+                                <li>Convolutional networks for images</li>
+                                <li>Recurrent networks (briefly) then transformers</li>
+                                <li>Loss functions, optimisers (SGD, Adam, AdamW)</li>
+                                <li>Regularisation, batch normalisation, dropout</li>
+                                <li>How to use a GPU. How to debug an OOM error.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Three milestone projects</h4>
+                            <ul>
+                                <li>Train an MNIST classifier from scratch — the deep learning equivalent of "Hello, World"</li>
+                                <li>Build a small image classifier on a non-trivial dataset (CIFAR, custom)</li>
+                                <li>Implement a tiny transformer language model — see our <a href="/build-your-own-gpt-python">build-your-own-GPT</a> walkthrough</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rd-trap">
+                        <strong>Trap to avoid</strong>
+                        Watching too many tutorial videos. Deep learning intuition does not transfer from watching someone else write code. Type every line yourself. Break it. Fix it. Read the error. The students who learn this stage by typing are six months ahead of the students who learn by watching, every time.
+                    </div>
+                </div>
+            </div>
+
+            <!-- STAGE V -->
+            <div class="rd-stage">
+                <div class="rd-node">V</div>
+                <div class="rd-stage-body">
+                    <div class="label">Stage 05 · weeks 65 — 96</div>
+                    <h3>LLMs, agents, and <em>shipping AI in production.</em></h3>
+                    <div class="budget">Time budget · 6–8 months · 10 hours/week · ~280 hours total</div>
+                    <p>The home stretch. You can now read papers, train small models, deploy services, and write production Python. Stage 5 brings these together into the actual job: building AI products. RAG systems. Fine-tuned models. Agents that do work. Evaluation pipelines. The full LLM application stack.</p>
+                    <p>This is also the longest stage and the most open-ended. The field is moving fast. <strong>The skill at this stage is not what you know — it is how quickly you can learn the next thing.</strong> The previous four stages were about building that learning muscle on a stable foundation. Now you use it.</p>
+                    <div class="rd-stage-list">
+                        <div>
+                            <h4>What you will learn</h4>
+                            <ul>
+                                <li>The full LLM application stack — APIs, prompts, RAG, fine-tuning</li>
+                                <li>Embeddings and vector databases</li>
+                                <li>Agent architectures — ReAct, planning, memory, tool use (see our <a href="/ai-agents-explained">agents pillar</a>)</li>
+                                <li>Evaluation — how to know your AI app is actually working</li>
+                                <li>Latency, cost, caching — production realities</li>
+                                <li>Reading and reproducing the latest papers</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Three milestone projects</h4>
+                            <ul>
+                                <li>Build a RAG application on a real corpus — your company's docs, a textbook, your own notes</li>
+                                <li>Fine-tune a small open-weight model on a domain-specific task</li>
+                                <li>Build and deploy a multi-step agent that genuinely saves you an hour a week</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rd-trap">
+                        <strong>Trap to avoid</strong>
+                        Treating LLM APIs as a substitute for the previous stages. Many "AI engineers" of 2025 know how to call OpenAI's API but cannot debug a tensor dimension mismatch. Their first hard problem ends them. The students who climb to this stage on top of Stages 1–4 are the ones who become senior in two years rather than six.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PULL QUOTE -->
+    <section class="rd-pull">
+        <div class="rd-shell">
+            <blockquote>
+                The students who finish this roadmap are not the ones who studied the hardest. They are the ones who refused to <em>skip a stage</em>.
+            </blockquote>
+            <span class="cite">— What we have learned from teaching this for six years</span>
+        </div>
+    </section>
+
+    <!-- COURSE CHOOSER -->
+    <section class="rd-courses">
+        <div class="rd-shell">
+            <span class="rd-tag" style="color: var(--rd-route-b);">Modern Age Coders cohorts · stage-mapped</span>
+            <h2>The MAC courses that walk you through this <em>stage by stage.</em></h2>
+            <p class="lead">Each course below maps to one or two stages of the roadmap. You can self-study every stage if you have the time and discipline; or you can join a live small-batch cohort that runs alongside other learners with a mentor checking your work weekly. Both work. The cohort path finishes 4–6 months faster on average.</p>
+
+            <!-- KIDS -->
+            <div class="rd-band">
+                <div class="rd-band-hd">
+                    <h3>For <em>kids</em>, age 8–12 — start Stage 1 early</h3>
+                    <span class="ages">Junior · weekly live</span>
+                </div>
+                <div class="rd-band-grid">
+                    <a class="rd-course" href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev">
+                        <div class="tier">Stage 1 prep · Ages 7-11</div>
+                        <h4>Vibe Coding for <em>Kids</em></h4>
+                        <p>The pre-Stage-1 on-ramp. Scratch through first Python with AI-assisted projects.</p>
+                        <div class="rd-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="rd-course" href="/courses/python-ai-kids-masterclass">
+                        <div class="tier">Stage 1 + 5 preview · Ages 8-12</div>
+                        <h4>Python &amp; AI Kids <em>Masterclass</em></h4>
+                        <p>Real Python with first-touch AI tools. The fastest Stage-1 path for a serious kid.</p>
+                        <div class="rd-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="rd-course" href="/courses/kids-ai-mastery-course">
+                        <div class="tier">Stage 5 lite · Ages 9-13</div>
+                        <h4>Kids AI <em>Mastery</em></h4>
+                        <p>The Stage-5 starter pack — using LLM tools to build real things, kid-paced.</p>
+                        <div class="rd-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- TEENS -->
+            <div class="rd-band">
+                <div class="rd-band-hd">
+                    <h3>For <em>teens</em>, age 13–18 — complete Stages 1–4 by college</h3>
+                    <span class="ages">Senior · weekly live</span>
+                </div>
+                <div class="rd-band-grid">
+                    <a class="rd-course" href="/courses/python-complete-masterclass-teens">
+                        <div class="tier">Stage 1 · Ages 13-17</div>
+                        <h4>Python Complete <em>Masterclass</em></h4>
+                        <p>The full Stage-1 course for teens. Finish here before any ML library work.</p>
+                        <div class="rd-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="rd-course" href="/courses/ai-ml-masterclass-teens">
+                        <div class="tier">Stages 3–4 · Ages 14-18</div>
+                        <h4>AI &amp; ML <em>Masterclass · Teens</em></h4>
+                        <p>The Stage 3 and 4 course taught at teen pace — from sklearn through small transformers.</p>
+                        <div class="rd-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="rd-course" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">
+                        <div class="tier">Mix · Ages 13-17</div>
+                        <h4>Vibe Coding for <em>Teens</em></h4>
+                        <p>Stages 1 and 5 stitched into a project-led year for teens who want to ship things now.</p>
+                        <div class="rd-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- ADULTS -->
+            <div class="rd-band">
+                <div class="rd-band-hd">
+                    <h3>For <em>adults &amp; college</em>, age 17+ — the engineer track</h3>
+                    <span class="ages">Pro · weekly live</span>
+                </div>
+                <div class="rd-band-grid">
+                    <a class="rd-course" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+                        <div class="tier">Stage 1 · College / Adult</div>
+                        <h4>Python <em>Zero to Advanced</em></h4>
+                        <p>The serious Stage-1 course. Finish in three months. Then move on.</p>
+                        <div class="rd-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="rd-course" href="/courses/ai-ml-masterclass-complete-college">
+                        <div class="tier">Stages 2–4 · College / Adult</div>
+                        <h4>AI &amp; ML <em>Complete</em></h4>
+                        <p>The big middle of the roadmap. Maths, classical ML, deep learning. Cohort-led, mentor-checked.</p>
+                        <div class="rd-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="rd-course" href="/courses/complete-generative-ai-masterclass-college">
+                        <div class="tier">Stage 5 · College / Adult</div>
+                        <h4>Generative AI <em>Masterclass</em></h4>
+                        <p>The Stage-5 capstone. LLMs, RAG, fine-tuning, agents, evaluation — the modern AI engineer's job.</p>
+                        <div class="rd-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEAD -->
+    <section class="rd-lead" id="lead">
+        <div class="rd-shell">
+            <div class="rd-lead-grid">
+                <div>
+                    <span class="rd-tag" style="color: var(--rd-paper); border-color: var(--rd-paper);">Place yourself on the roadmap · free 25-min call</span>
+                    <h2>Tell us where you are. We will tell you what to do <em>next.</em></h2>
+                    <p>The hardest part of any roadmap is honestly figuring out which stage you are actually on. Most learners overestimate by one stage. A senior MAC mentor will spend 25 minutes with you, sample your code, and tell you the truth — and the exact next three months of work. Free. No sales call.</p>
+                </div>
+                <form class="rd-form" name="ai-roadmap-lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+                    <input type="hidden" name="form-name" value="ai-roadmap-lead">
+                    <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+                    <h3>Place me on the roadmap</h3>
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <select name="age_band" required>
+                        <option value="">Age band</option>
+                        <option>Kid (8–12)</option>
+                        <option>Teen (13–17)</option>
+                        <option>College (18–22)</option>
+                        <option>Adult / professional</option>
+                    </select>
+                    <select name="current_stage" required>
+                        <option value="">Honest estimate of current stage</option>
+                        <option>Stage 0 — complete beginner</option>
+                        <option>Stage 1 — learning Python</option>
+                        <option>Stage 2 — maths block</option>
+                        <option>Stage 3 — classical ML</option>
+                        <option>Stage 4 — deep learning</option>
+                        <option>Stage 5 — LLMs and agents</option>
+                        <option>Not sure — please assess</option>
+                    </select>
+                    <input type="tel" name="whatsapp" placeholder="WhatsApp with country code" required>
+                    <input type="email" name="email" placeholder="Email">
+                    <button type="submit">Match me with a stage →</button>
+                    <div class="fine">A senior MAC mentor reads each form. Reply within 24 hours.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="rd-faq">
+        <div class="rd-shell">
+            <span class="rd-tag" style="color: var(--rd-route-a);">Honest follow-ups</span>
+            <h2>The questions a serious learner <em>asks next.</em></h2>
+
+            <details>
+                <summary>I am 14 — is this roadmap really for me?</summary>
+                <p>Yes. We have students who started Stage 1 at age 12 and were on Stage 4 by age 16. The roadmap was designed to be age-agnostic above 12; the only thing that changes with age is the weekly time budget and the maturity of the projects. The teen courses listed above are this roadmap, teen-paced.</p>
+            </details>
+
+            <details>
+                <summary>I am 45, mid-career, no coding background. Should I attempt this?</summary>
+                <p>Yes — with one adjustment. Extend each stage's time budget by 30%. The cognitive part is no harder; what changes is the hours-per-week you can sustain alongside a job. We have placed adults on Stage 5 within 18 months. The full path is 22–28 months for most career-changers. The <a href="/coding-comeback-women">Coding Comeback for Women</a> programme is built around this exact pacing.</p>
+            </details>
+
+            <details>
+                <summary>Do I really need to do Stage 3 (classical ML) before Stage 4?</summary>
+                <p>Yes — and this is the single most common skip. Classical ML is where you learn honest evaluation, the bias-variance tradeoff, and what overfitting actually feels like. Without that intuition, your deep learning models will silently leak and you won't know it. Two weeks of classical ML saves you six months of confused debugging in Stage 4. We will fight you on this in the orientation call. Listen to us.</p>
+            </details>
+
+            <details>
+                <summary>Can I parallelise stages?</summary>
+                <p>Sparingly. Stages 2 and 3 can run in parallel (maths-with-numpy, ML-with-sklearn) and that works well. Trying to run Stage 1 alongside Stage 4 is the disaster pattern — you spend three months looking up syntax instead of learning deep learning. The general rule: the next stage requires the previous one to feel automatic, not just possible.</p>
+            </details>
+
+            <details>
+                <summary>What if I want to do research, not engineering?</summary>
+                <p>This roadmap is built for engineering. For research, swap Stage 5 for a research path — read papers daily, do reproduction studies, pick a sub-field early, find a mentor in academia. Stages 1–4 are identical. The branch happens at Stage 5.</p>
+            </details>
+
+            <details>
+                <summary>How much can I expect to earn after Stage 5?</summary>
+                <p>Honestly variable. In India, a Stage-5 finisher with one shipped project commands ₹8L–₹18L for a first AI engineer role; the ceiling is much higher and rising. Globally — US, EU, UK — entry-level AI engineering ranges from $90k to $180k. We are quoting honest median ranges from MAC alumni 2023–2025. The frontier salaries you read about in the news are outliers, not the median.</p>
+            </details>
+
+            <details>
+                <summary>What about JEE / college simultaneously?</summary>
+                <p>If you are a Class 11-12 JEE aspirant, follow our <a href="/jee-aspirant-coding-track">JEE coding track</a> instead. It compresses Stages 1 and partial-2 into a JEE-friendly 3 hours/week and resumes the full roadmap after JEE Advanced. For college students, the full roadmap fits inside a four-year degree if you give it ten hours a week.</p>
+            </details>
+
+            <details>
+                <summary>Where do the MAC courses fit if I am self-studying?</summary>
+                <p>You can self-study every stage. The courses give you three things you cannot get alone: a fixed weekly cadence so you do not drift, a mentor who reads your code, and a cohort of peers at the same stage. Roughly 70% of MAC's AI students said in our 2025 survey they would have dropped off without the cohort. Self-study is harder; not impossible. Pick honestly.</p>
+            </details>
+
+            <details>
+                <summary>What should I read alongside this page?</summary>
+                <p>Three things. <a href="/how-ai-actually-works">How AI Actually Works</a> for the conceptual map. <a href="/build-your-own-gpt-python">Build Your Own GPT in Python</a> for the Stage 4 capstone. <a href="/inside-neural-networks">Inside Neural Networks</a> for the deep-learning depth that Stage 4 needs. And, in print, Andrej Karpathy's blog plus Sebastian Raschka's "Build a Large Language Model From Scratch" book.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- RELATED -->
+    <section class="rd-related">
+        <div class="rd-shell">
+            <h2>Read next</h2>
+            <div class="rd-related-grid">
+                <div class="rd-related-col">
+                    <h4>Pillar siblings</h4>
+                    <a href="/how-ai-actually-works">How AI actually works</a>
+                    <a href="/build-your-own-gpt-python">Build your own GPT</a>
+                    <a href="/inside-neural-networks">Inside neural networks</a>
+                    <a href="/ai-agents-explained">AI agents explained</a>
+                </div>
+                <div class="rd-related-col">
+                    <h4>Course tracks</h4>
+                    <a href="/levels/coding-for-kids">For kids</a>
+                    <a href="/levels/coding-for-teens">For teens</a>
+                    <a href="/levels/coding-for-college-students">For college</a>
+                    <a href="/levels/coding-for-professionals">For professionals</a>
+                </div>
+                <div class="rd-related-col">
+                    <h4>Specialty</h4>
+                    <a href="/coding-olympiad-medal-track">Olympiad track</a>
+                    <a href="/jee-aspirant-coding-track">JEE coding track</a>
+                    <a href="/coding-comeback-women">Comeback · women</a>
+                    <a href="/ai-agents-and-automation">AI for business</a>
+                </div>
+                <div class="rd-related-col">
+                    <h4>Tools</h4>
+                    <a href="/screen-time-to-skill">Screen-time calculator</a>
+                    <a href="/coding-fee-calculator">Fee calculator</a>
+                    <a href="/coding-roadmap">Coding roadmap</a>
+                    <a href="/book-demo">Book a free demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+</body>
+</html>

@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+        gtag('config', 'AW-16910316353');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How AI Actually Works — A First-Principles Guide to LLMs, Tokens, Embeddings and Transformers | Modern Age Coders</title>
+    <meta name="description" content="The honest, mechanical explanation of how large language models like ChatGPT, Claude and Gemini actually generate text. Tokens, embeddings, attention, transformers, training and RLHF — explained without analogies that fall apart, for parents, students and the genuinely curious. By Modern Age Coders.">
+    <meta name="keywords" content="how AI works, how does ChatGPT work, how do LLMs work, what is a transformer, attention mechanism explained, embeddings explained, how AI generates text, how GPT works, AI explained simply, transformer architecture, how does AI learn, RLHF explained, AI under the hood, tokenisation explained, deep learning explainer, modern age coders">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://learn.modernagecoders.com/how-ai-actually-works">
+
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/how-ai-actually-works" />
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/how-ai-actually-works" />
+    <link rel="alternate" hreflang="en-us" href="https://learn.modernagecoders.com/how-ai-actually-works" />
+    <link rel="alternate" hreflang="en-gb" href="https://learn.modernagecoders.com/how-ai-actually-works" />
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/how-ai-actually-works" />
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/how-ai-actually-works">
+    <meta property="og:title" content="How AI Actually Works — A First-Principles Guide">
+    <meta property="og:description" content="Tokens, embeddings, attention, transformers and training — explained the honest way. From Modern Age Coders.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="theme-color" content="#1a1610">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "headline": "How AI Actually Works — A First-Principles Guide to LLMs, Tokens, Embeddings and Transformers",
+        "description": "A long-form, honest, mechanical explanation of how modern large language models work, from tokens to transformers to RLHF.",
+        "author": { "@type": "Organization", "name": "Modern Age Coders" },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://learn.modernagecoders.com/images/logo.svg"
+            }
+        },
+        "datePublished": "2026-05-22",
+        "dateModified": "2026-05-23",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://learn.modernagecoders.com/how-ai-actually-works"
+        },
+        "image": "https://learn.modernagecoders.com/images/og-modern-age-coders.png",
+        "articleSection": "Artificial Intelligence",
+        "keywords": "how AI works, transformer, attention, embeddings, LLM, tokenisation, RLHF, deep learning"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is AI really intelligent?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Modern AI systems are pattern matchers of extraordinary scale, trained on the bulk of human writing. Whether that constitutes intelligence depends on how you define the word. They do not understand in the human sense. They predict — and prediction at this scale produces something close enough to understanding to be useful."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is a token in an LLM?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A token is the smallest unit a language model sees — usually a few characters or a small word fragment. The word 'understanding' might become three tokens: 'under', 'stand', 'ing'. Models do not see letters; they see token IDs."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does ChatGPT generate text?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ChatGPT reads your prompt as tokens, runs them through a transformer to produce a probability distribution over the next token, samples one token from that distribution, appends it to the input, and repeats. The full reply is generated one token at a time, each conditioned on every token before it."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can my child learn how AI works?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes — at every age. A nine-year-old can understand the idea of token prediction. A fourteen-year-old can implement a tiny model. A college student can train one from scratch. Modern Age Coders has live small-batch cohorts at every level."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        :root {
+            --hw-paper: #f7f2e6;
+            --hw-paper-2: #ede4cf;
+            --hw-ink: #1a1610;
+            --hw-ink-2: #2a2218;
+            --hw-mag: #d23478;
+            --hw-mag-soft: #f4c9da;
+            --hw-blue: #2a4877;
+            --hw-amber: #c79a30;
+            --hw-line: rgba(26, 22, 16, 0.16);
+        }
+
+        /* Override global main flex layout from style.css */
+        body { background: var(--hw-paper) !important; color: var(--hw-ink) !important; }
+        main.hw-page {
+            display: block !important;
+            padding: 0 !important;
+            gap: 0 !important;
+            align-items: stretch !important;
+            justify-content: flex-start !important;
+            max-width: none !important;
+            width: 100% !important;
+        }
+        main.hw-page h1, main.hw-page h2, main.hw-page h3,
+        main.hw-page h4, main.hw-page h5, main.hw-page h6 {
+            color: inherit !important;
+        }
+        main.hw-page p, main.hw-page li, main.hw-page summary, main.hw-page label {
+            color: inherit;
+        }
+
+        .hw-page * { box-sizing: border-box; }
+        .hw-page {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        .hw-page a { color: inherit; }
+        .hw-shell {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+        .hw-reading {
+            max-width: 740px;
+            margin: 0 auto;
+        }
+        .hw-mark {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--hw-mag);
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .hw-mark::before {
+            content: '';
+            width: 28px; height: 1px;
+            background: currentColor;
+            opacity: 0.5;
+        }
+
+        /* ── HERO ────────────────────────────────────── */
+        .hw-hero {
+            background: var(--hw-paper);
+            padding: 130px 0 70px;
+            position: relative;
+            border-bottom: 1px solid var(--hw-line);
+        }
+        .hw-hero-inner {
+            position: relative;
+            z-index: 1;
+        }
+        .hw-h1 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-variation-settings: "SOFT" 40;
+            font-size: clamp(44px, 6.5vw, 96px);
+            line-height: 0.96;
+            letter-spacing: -0.025em;
+            margin: 24px 0 28px;
+            max-width: 920px;
+        }
+        .hw-h1 em {
+            font-style: italic;
+            color: var(--hw-mag);
+            font-weight: 500;
+        }
+        .hw-h1 .hi {
+            background: var(--hw-mag-soft);
+            padding: 0 8px;
+        }
+        .hw-hero-sub {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: clamp(20px, 2.2vw, 26px);
+            line-height: 1.5;
+            color: var(--hw-ink-2);
+            max-width: 720px;
+            margin: 0 0 36px;
+            font-weight: 400;
+        }
+        .hw-meta {
+            display: flex;
+            gap: 36px;
+            padding: 26px 0 0;
+            border-top: 1px solid var(--hw-line);
+            margin-top: 36px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.06em;
+            color: rgba(26, 22, 16, 0.65);
+            flex-wrap: wrap;
+        }
+        .hw-meta strong {
+            display: block;
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 17px;
+            color: var(--hw-ink);
+            margin-bottom: 4px;
+            font-weight: 500;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+        /* ── COURSES STRIP (upfront, after hero) ────── */
+        .hw-strip {
+            background: var(--hw-ink);
+            color: var(--hw-paper);
+            padding: 56px 0 60px;
+            position: relative;
+        }
+        .hw-strip-hd {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 18px;
+            margin-bottom: 28px;
+            padding-bottom: 22px;
+            border-bottom: 1px solid rgba(247, 242, 230, 0.18);
+            flex-wrap: wrap;
+        }
+        .hw-strip-hd .lead {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-weight: 500;
+            font-size: clamp(22px, 2.4vw, 30px);
+            line-height: 1.2;
+            margin: 0;
+            max-width: 720px;
+            color: var(--hw-paper);
+        }
+        .hw-strip-hd .lead em { color: var(--hw-mag-soft); }
+        .hw-strip-hd .all {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--hw-amber);
+            text-decoration: none;
+            border-bottom: 1px solid var(--hw-amber);
+            padding-bottom: 4px;
+            transition: gap 0.2s, color 0.2s;
+        }
+        .hw-strip-hd .all:hover { gap: 14px; color: var(--hw-mag-soft); border-color: var(--hw-mag-soft); }
+        .hw-strip-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+        .hw-strip-card {
+            display: block;
+            padding: 22px 22px 20px;
+            background: rgba(247, 242, 230, 0.04);
+            border: 1px solid rgba(247, 242, 230, 0.14);
+            color: var(--hw-paper);
+            text-decoration: none;
+            transition: border-color 0.2s, background 0.2s, transform 0.2s;
+        }
+        .hw-strip-card:hover {
+            border-color: var(--hw-mag);
+            background: rgba(247, 242, 230, 0.07);
+            transform: translateY(-2px);
+        }
+        .hw-strip-card .age {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--hw-amber);
+            margin-bottom: 10px;
+        }
+        .hw-strip-card h3 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 1.2;
+            margin: 0 0 8px;
+        }
+        .hw-strip-card h3 em { font-style: italic; color: var(--hw-mag-soft); }
+        .hw-strip-card p {
+            font-size: 12.5px;
+            line-height: 1.5;
+            color: rgba(247, 242, 230, 0.65);
+            margin: 0 0 14px;
+            min-height: 38px;
+        }
+        .hw-strip-card .meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            padding-top: 10px;
+            border-top: 1px dashed rgba(247, 242, 230, 0.15);
+            color: rgba(247, 242, 230, 0.55);
+        }
+        .hw-strip-card .meta .pr {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 15px;
+            color: var(--hw-amber);
+            letter-spacing: 0;
+        }
+        @media (max-width: 980px) {
+            .hw-strip-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 560px) {
+            .hw-strip-grid { grid-template-columns: 1fr; }
+            .hw-strip-card p { min-height: 0; }
+        }
+
+        /* ── TOC ─────────────────────────────────────── */
+        .hw-toc {
+            background: var(--hw-paper-2);
+            padding: 60px 0;
+            border-bottom: 1px solid var(--hw-line);
+        }
+        .hw-toc h2 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-size: 22px;
+            margin: 0 0 24px;
+            font-style: italic;
+        }
+        .hw-toc-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+            border-top: 1px solid var(--hw-ink);
+        }
+        .hw-toc-grid a {
+            display: block;
+            padding: 18px 0;
+            border-bottom: 1px solid var(--hw-line);
+            text-decoration: none;
+            font-family: 'Fraunces', serif;
+            font-size: 17px;
+            font-weight: 500;
+            transition: color 0.2s, padding-left 0.2s;
+        }
+        .hw-toc-grid a:hover { color: var(--hw-mag); padding-left: 6px; }
+        .hw-toc-grid a .n {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--hw-mag);
+            letter-spacing: 0.18em;
+            display: block;
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+
+        /* ── ARTICLE BODY ────────────────────────────── */
+        .hw-article {
+            padding: 90px 0;
+            background: var(--hw-paper);
+        }
+        .hw-chap {
+            margin-bottom: 80px;
+        }
+        .hw-chap:last-child { margin-bottom: 0; }
+        .hw-chap-num {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.24em;
+            color: var(--hw-mag);
+            margin-bottom: 14px;
+            text-transform: uppercase;
+        }
+        .hw-chap h2 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-size: clamp(34px, 4.5vw, 52px);
+            line-height: 1.04;
+            letter-spacing: -0.015em;
+            margin: 0 0 28px;
+        }
+        .hw-chap h2 em { font-style: italic; }
+        .hw-chap h3 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-style: italic;
+            font-size: 28px;
+            line-height: 1.15;
+            margin: 38px 0 16px;
+        }
+        .hw-chap p {
+            font-family: 'Fraunces', serif;
+            font-size: 20px;
+            line-height: 1.65;
+            margin: 0 0 22px;
+            font-weight: 400;
+            color: var(--hw-ink-2);
+        }
+        .hw-chap p strong {
+            font-weight: 600;
+            color: var(--hw-ink);
+            font-style: normal;
+        }
+        .hw-chap p em {
+            font-style: italic;
+            color: var(--hw-mag);
+        }
+        .hw-chap blockquote {
+            margin: 30px 0;
+            padding: 22px 30px;
+            border-left: 3px solid var(--hw-mag);
+            background: var(--hw-paper-2);
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 19px;
+            line-height: 1.55;
+            color: var(--hw-ink);
+        }
+        .hw-chap blockquote cite {
+            display: block;
+            margin-top: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            font-style: normal;
+            font-size: 11px;
+            letter-spacing: 0.14em;
+            color: rgba(26, 22, 16, 0.6);
+            text-transform: uppercase;
+        }
+        .hw-code {
+            font-family: 'JetBrains Mono', monospace;
+            background: var(--hw-ink);
+            color: var(--hw-paper);
+            padding: 22px 26px;
+            margin: 26px 0;
+            font-size: 13.5px;
+            line-height: 1.7;
+            overflow-x: auto;
+            border-radius: 6px;
+            position: relative;
+        }
+        .hw-code .com { color: rgba(247, 242, 230, 0.45); }
+        .hw-code .kw { color: var(--hw-mag-soft); }
+        .hw-code .str { color: #c2e882; }
+        .hw-code .num { color: #f4c9da; }
+        .hw-code-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--hw-mag);
+            margin: 18px 0 -6px;
+        }
+        .hw-figure {
+            margin: 36px 0;
+            padding: 28px;
+            background: var(--hw-paper-2);
+            border: 1px solid var(--hw-line);
+        }
+        .hw-figure .cap {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--hw-mag);
+            margin-bottom: 16px;
+        }
+        .hw-figure .diagram {
+            display: grid;
+            gap: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        /* Token boxes diagram */
+        .hw-tokens {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 18px 0;
+        }
+        .hw-tokens .tok {
+            padding: 8px 12px;
+            border: 1px solid var(--hw-ink);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            background: var(--hw-paper);
+        }
+        .hw-tokens .tok.h { background: var(--hw-mag); color: var(--hw-paper); border-color: var(--hw-mag); }
+        .hw-tokens .tok.s { background: var(--hw-blue); color: var(--hw-paper); border-color: var(--hw-blue); }
+
+        /* Embeddings axis diagram */
+        .hw-axis {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin: 18px 0;
+        }
+        .hw-axis .col {
+            background: var(--hw-paper);
+            border: 1px solid var(--hw-ink);
+            padding: 18px;
+        }
+        .hw-axis .col .axis-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.2em;
+            color: var(--hw-mag);
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+        .hw-axis .col .axis-vals span {
+            display: inline-block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12.5px;
+            background: var(--hw-paper-2);
+            padding: 5px 9px;
+            margin: 0 4px 4px 0;
+        }
+
+        /* Attention diagram */
+        .hw-attn {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 6px;
+            margin: 18px 0;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            text-align: center;
+        }
+        .hw-attn .cell {
+            background: var(--hw-paper);
+            border: 1px solid var(--hw-line);
+            padding: 10px 0;
+            position: relative;
+        }
+        .hw-attn .cell.head {
+            background: var(--hw-ink);
+            color: var(--hw-paper);
+            font-weight: 600;
+            border-color: var(--hw-ink);
+        }
+        .hw-attn .cell .w {
+            display: block;
+            font-size: 10px;
+            color: var(--hw-mag);
+            margin-top: 3px;
+        }
+        .hw-attn .cell.hot { background: var(--hw-mag-soft); border-color: var(--hw-mag); }
+        .hw-attn .cell.warm { background: rgba(244, 201, 218, 0.5); }
+
+        /* ── PULL QUOTE SECTION ──────────────────────── */
+        .hw-pull {
+            background: var(--hw-ink);
+            color: var(--hw-paper);
+            padding: 130px 0;
+            text-align: center;
+        }
+        .hw-pull blockquote {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: clamp(28px, 3.6vw, 48px);
+            line-height: 1.3;
+            margin: 0 auto;
+            max-width: 980px;
+            padding: 0 20px;
+            font-weight: 400;
+        }
+        .hw-pull blockquote em {
+            font-style: italic;
+            color: var(--hw-mag-soft);
+        }
+        .hw-pull .cite {
+            display: block;
+            margin-top: 30px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.24em;
+            text-transform: uppercase;
+            color: var(--hw-mag-soft);
+        }
+
+        /* ── COURSE CHOOSER ──────────────────────────── */
+        .hw-courses {
+            padding: 130px 0;
+            background: var(--hw-paper-2);
+        }
+        .hw-courses h2 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.8vw, 60px);
+            line-height: 1.04;
+            margin: 16px 0 14px;
+            max-width: 880px;
+            letter-spacing: -0.01em;
+        }
+        .hw-courses h2 em { font-style: italic; color: var(--hw-mag); }
+        .hw-courses .lead {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 19px;
+            line-height: 1.6;
+            color: var(--hw-ink-2);
+            max-width: 720px;
+            margin: 0 0 50px;
+        }
+        .hw-band {
+            margin-bottom: 60px;
+        }
+        .hw-band:last-child { margin-bottom: 0; }
+        .hw-band-hd {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-bottom: 18px;
+            border-bottom: 2px solid var(--hw-ink);
+            margin-bottom: 22px;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+        .hw-band-hd h3 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-size: 30px;
+            margin: 0;
+            line-height: 1.1;
+        }
+        .hw-band-hd h3 em { font-style: italic; color: var(--hw-mag); }
+        .hw-band-hd .ages {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--hw-mag);
+        }
+        .hw-band-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .hw-course {
+            display: block;
+            padding: 28px 26px;
+            background: var(--hw-paper);
+            border: 1px solid var(--hw-line);
+            text-decoration: none;
+            color: var(--hw-ink);
+            transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+        }
+        .hw-course:hover {
+            transform: translateY(-3px);
+            border-color: var(--hw-ink);
+            box-shadow: 6px 6px 0 var(--hw-mag);
+        }
+        .hw-course .tier {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--hw-mag);
+            margin-bottom: 14px;
+        }
+        .hw-course h4 {
+            font-family: 'Fraunces', serif;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 1.2;
+            margin: 0 0 12px;
+        }
+        .hw-course h4 em { font-style: italic; }
+        .hw-course p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: rgba(26, 22, 16, 0.7);
+            margin: 0 0 18px;
+        }
+        .hw-course-foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-top: 14px;
+            border-top: 1px dashed var(--hw-line);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.06em;
+        }
+        .hw-course-foot .price {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 18px;
+            color: var(--hw-mag);
+            letter-spacing: 0;
+            font-weight: 500;
+        }
+
+        /* ── LEAD CAPTURE ────────────────────────────── */
+        .hw-lead {
+            padding: 130px 0;
+            background: var(--hw-mag);
+            color: var(--hw-paper);
+        }
+        .hw-lead-grid {
+            display: grid;
+            grid-template-columns: 1.05fr 1fr;
+            gap: 70px;
+            align-items: center;
+        }
+        .hw-lead h2 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-size: clamp(38px, 5vw, 60px);
+            line-height: 1.04;
+            margin: 14px 0 22px;
+            letter-spacing: -0.01em;
+        }
+        .hw-lead h2 em {
+            font-style: italic;
+            background: var(--hw-ink);
+            color: var(--hw-mag);
+            padding: 0 8px;
+        }
+        .hw-lead p {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 19px;
+            line-height: 1.6;
+            color: rgba(247, 242, 230, 0.9);
+            max-width: 480px;
+            margin: 0 0 22px;
+        }
+        .hw-form {
+            background: var(--hw-paper);
+            color: var(--hw-ink);
+            padding: 40px;
+            border: 1px solid var(--hw-ink);
+            box-shadow: 14px 14px 0 var(--hw-ink);
+        }
+        .hw-form h3 {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 28px;
+            margin: 0 0 22px;
+            font-weight: 500;
+        }
+        .hw-form input, .hw-form select {
+            width: 100%;
+            padding: 13px 16px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(26, 22, 16, 0.25);
+            background: var(--hw-paper);
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            outline: none;
+            border-radius: 0;
+            transition: border-color 0.2s;
+        }
+        .hw-form input:focus, .hw-form select:focus { border-color: var(--hw-mag); }
+        .hw-form button {
+            width: 100%;
+            padding: 17px;
+            background: var(--hw-ink);
+            color: var(--hw-paper);
+            border: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 6px;
+        }
+        .hw-form button:hover { background: var(--hw-mag); }
+        .hw-form .fine {
+            font-size: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            color: rgba(26, 22, 16, 0.6);
+            margin-top: 14px;
+            line-height: 1.55;
+            letter-spacing: 0.04em;
+        }
+
+        /* ── FAQ ─────────────────────────────────────── */
+        .hw-faq {
+            padding: 130px 0;
+            background: var(--hw-paper);
+        }
+        .hw-faq h2 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-size: clamp(36px, 4.5vw, 58px);
+            line-height: 1.04;
+            margin: 16px 0 50px;
+            max-width: 760px;
+            letter-spacing: -0.01em;
+        }
+        .hw-faq h2 em { font-style: italic; color: var(--hw-mag); }
+        .hw-faq details {
+            border-top: 1px solid var(--hw-line);
+            padding: 26px 0;
+        }
+        .hw-faq details:last-of-type { border-bottom: 1px solid var(--hw-line); }
+        .hw-faq summary {
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 24px;
+            font-family: 'Fraunces', serif;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 1.25;
+        }
+        .hw-faq summary::-webkit-details-marker { display: none; }
+        .hw-faq summary::after {
+            content: '+';
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 22px;
+            color: var(--hw-mag);
+            flex-shrink: 0;
+        }
+        .hw-faq details[open] summary::after { content: '–'; }
+        .hw-faq p {
+            margin: 14px 0 0;
+            font-family: 'Fraunces', serif;
+            font-size: 18px;
+            line-height: 1.65;
+            color: var(--hw-ink-2);
+            max-width: 880px;
+        }
+
+        /* ── RELATED ─────────────────────────────────── */
+        .hw-related {
+            padding: 100px 0;
+            background: var(--hw-paper-2);
+            border-top: 1px solid var(--hw-line);
+        }
+        .hw-related h2 {
+            font-family: 'Fraunces', serif;
+            font-weight: 500;
+            font-size: 30px;
+            margin: 0 0 36px;
+            font-style: italic;
+        }
+        .hw-related-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+        }
+        .hw-related-col h4 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--hw-mag);
+            border-bottom: 1px solid var(--hw-line);
+            padding-bottom: 12px;
+            margin: 0 0 14px;
+        }
+        .hw-related-col a {
+            display: block;
+            font-size: 14.5px;
+            padding: 7px 0;
+            color: var(--hw-ink);
+            text-decoration: none;
+            transition: padding-left 0.2s, color 0.2s;
+        }
+        .hw-related-col a:hover { padding-left: 6px; color: var(--hw-mag); }
+
+        @media (max-width: 980px) {
+            .hw-toc-grid { grid-template-columns: 1fr 1fr; }
+            .hw-axis { grid-template-columns: 1fr; }
+            .hw-attn { grid-template-columns: repeat(3, 1fr); }
+            .hw-band-grid { grid-template-columns: 1fr; }
+            .hw-lead-grid { grid-template-columns: 1fr; gap: 40px; }
+            .hw-related-grid { grid-template-columns: 1fr 1fr; }
+            .hw-meta { gap: 22px; }
+        }
+        @media (max-width: 560px) {
+            .hw-shell { padding: 0 22px; }
+            .hw-toc-grid { grid-template-columns: 1fr; }
+            .hw-related-grid { grid-template-columns: 1fr; }
+            .hw-chap p { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<main class="hw-page">
+
+    <!-- HERO -->
+    <section class="hw-hero">
+        <div class="hw-shell hw-hero-inner">
+            <span class="hw-mark">A long, honest explainer · 22 minute read · revised May 2026</span>
+            <h1 class="hw-h1">How AI <em>actually</em> works. <span class="hi">No analogies</span> that fall apart on the second question.</h1>
+            <p class="hw-hero-sub">Everyone tells you AI is "like a brain." It is not. AI is matrix multiplication at a scale your grandparents would have called witchcraft, trained by gradient descent on the bulk of human writing, and surprisingly easy to understand if someone walks you through it without the hype. This is Modern Age Coders trying to be that someone.</p>
+            <div class="hw-meta">
+                <div><strong>For</strong>Parents · students · curious adults</div>
+                <div><strong>You will leave with</strong>A working mental model of LLMs</div>
+                <div><strong>You do not need</strong>Maths beyond high school</div>
+                <div><strong>You will need</strong>Patience for one long read</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES STRIP -- upfront, just below hero -->
+    <section class="hw-strip">
+        <div class="hw-shell">
+            <div class="hw-strip-hd">
+                <p class="lead">Or skip the reading — <em>here are the cohorts we teach.</em> Live, small-batch, every age. Pick yours.</p>
+                <a href="/courses" class="all">View all 60+ courses →</a>
+            </div>
+            <div class="hw-strip-grid">
+                <a class="hw-strip-card" href="/courses/python-ai-kids-masterclass">
+                    <div class="age">Ages 8–12 · Kids</div>
+                    <h3>Python &amp; AI <em>Kids Masterclass</em></h3>
+                    <p>Real Python with first-touch AI tools. The on-ramp for ambitious young learners.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="hw-strip-card" href="/courses/ai-ml-masterclass-teens">
+                    <div class="age">Ages 14–18 · Teens</div>
+                    <h3>AI &amp; ML <em>Masterclass · Teens</em></h3>
+                    <p>Train real neural networks. The teen-paced version of this article.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="hw-strip-card" href="/courses/complete-generative-ai-masterclass-college">
+                    <div class="age">College / Adult</div>
+                    <h3>Generative AI <em>Masterclass</em></h3>
+                    <p>Build with LLMs professionally — RAG, fine-tuning, agents, evaluation.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="hw-strip-card" href="/courses/ai-ml-masterclass-complete-college">
+                    <div class="age">College / Adult</div>
+                    <h3>AI &amp; ML <em>Complete</em></h3>
+                    <p>The flagship engineering track. Numpy through transformers, mentor-led.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOC -->
+    <section class="hw-toc">
+        <div class="hw-shell">
+            <h2>Eight chapters · in the order that builds a real understanding</h2>
+            <div class="hw-toc-grid">
+                <a href="#ch1"><span class="n">CH 01</span>What "AI" actually means in 2026</a>
+                <a href="#ch2"><span class="n">CH 02</span>The token — the smallest thing an LLM sees</a>
+                <a href="#ch3"><span class="n">CH 03</span>The embedding — meaning as coordinates</a>
+                <a href="#ch4"><span class="n">CH 04</span>The attention mechanism, demystified</a>
+                <a href="#ch5"><span class="n">CH 05</span>The transformer block, in one diagram</a>
+                <a href="#ch6"><span class="n">CH 06</span>Training — how an empty network learns anything</a>
+                <a href="#ch7"><span class="n">CH 07</span>RLHF — why ChatGPT is polite</a>
+                <a href="#ch8"><span class="n">CH 08</span>What is still genuinely magical</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTICLE -->
+    <section class="hw-article">
+        <div class="hw-shell hw-reading">
+
+            <!-- CHAPTER 1 -->
+            <article class="hw-chap" id="ch1">
+                <div class="hw-chap-num">Chapter 01</div>
+                <h2>What "AI" actually <em>means</em> in 2026.</h2>
+                <p>When people say "AI" today, they almost always mean one specific kind of system: a <strong>large language model</strong>, or LLM. ChatGPT is an LLM. Claude is an LLM. Gemini, Llama, Mistral, DeepSeek — all LLMs. The same family of math underneath. A different brand on top.</p>
+                <p>An LLM is, mechanically, a function. You give it text. It gives you back text. That is it. Every dazzling output you have ever seen — the poem, the working Python code, the medical opinion you should not have asked for — is the same function being called with a different input.</p>
+                <p>What makes the function feel like magic is not what it does. It is the <strong>scale</strong> at which it does it. A modern LLM has somewhere between 50 billion and 2 trillion <em>parameters</em>: numbers that the model has learned, one at a time, from reading roughly the entire indexed internet. Each call to the function involves multiplying input through those parameters in a precise sequence. The output is, mathematically, the most likely next chunk of text given the input. Run that loop once and you get a word. Run it five hundred times and you get an essay.</p>
+                <blockquote>
+                    A useful way to hold this in your head: the AI is not thinking. It is predicting. But it has been trained on so much human thinking that prediction at this scale starts to look indistinguishable from thinking. Whether the difference matters depends on the question you are asking it.
+                    <cite>— The honest one-paragraph summary of the field</cite>
+                </blockquote>
+                <p>The chapters that follow open up that function. Token by token, layer by layer. By the end of this page, "How does ChatGPT work?" will not be a hand-wavy question for you any more.</p>
+            </article>
+
+            <!-- CHAPTER 2 -->
+            <article class="hw-chap" id="ch2">
+                <div class="hw-chap-num">Chapter 02</div>
+                <h2>The token — the <em>smallest thing</em> the model sees.</h2>
+                <p>An LLM does not read letters. It does not even read words, not really. It reads <strong>tokens</strong>. A token is a small chunk of text — usually three to six characters — produced by a separate program called a tokenizer that runs <em>before</em> the language model itself. The tokenizer's job is to split text into a small fixed vocabulary, often around 50,000 to 200,000 unique tokens.</p>
+                <p>Most common English words are a single token. Longer or rarer words split. Punctuation, spaces, even emojis become tokens.</p>
+                <div class="hw-figure">
+                    <div class="cap">Figure 2.1 — How "Modern Age Coders teaches AI" is tokenised by GPT-4-class tokenizers</div>
+                    <div class="hw-tokens">
+                        <span class="tok h">Modern</span>
+                        <span class="tok"> Age</span>
+                        <span class="tok"> Cod</span>
+                        <span class="tok">ers</span>
+                        <span class="tok"> teaches</span>
+                        <span class="tok s"> AI</span>
+                    </div>
+                    <p style="font-family: 'JetBrains Mono', monospace; font-size: 12.5px; line-height: 1.55; margin: 0; color: var(--hw-ink-2);">Six tokens. The space before each token is part of the token — that is why " Age" looks weird. The model sees them as a sequence of integer IDs: [42816, 14628, 18488, 388, 22779, 15592].</p>
+                </div>
+                <p>Once text is tokens, and tokens are integer IDs, the model can begin its actual work. Everything downstream — every embedding, every attention head, every output probability — operates on these IDs, not on the original characters.</p>
+                <p>This has consequences. It is why the model can be terrible at counting letters ("how many r's in strawberry?" tripped LLMs for years — they were counting tokens, not letters). It is why some languages cost more to talk to than others — Tamil and Bengali tokenise into more tokens per word than English, so the same conversation costs more. And it is why prompt engineering sometimes feels arbitrary: you are not talking to a reader, you are giving instructions to a sequence-of-integers processor.</p>
+            </article>
+
+            <!-- CHAPTER 3 -->
+            <article class="hw-chap" id="ch3">
+                <div class="hw-chap-num">Chapter 03</div>
+                <h2>The embedding — <em>meaning</em> as coordinates.</h2>
+                <p>An integer ID like 42816 has no meaning. The number itself is arbitrary. The model needs a way to turn each token into something that <strong>encodes meaning</strong>. The trick the field landed on is to map each token to a long vector of real numbers — typically 768, 1536, 4096 or more numbers — called an <strong>embedding</strong>.</p>
+                <p>Each number in the vector is a coordinate in a "meaning space" the model has learned. Tokens with similar meanings sit close together in that space. Tokens with different meanings sit far apart. This is one of the most important and least understood facts about how LLMs work — meaning lives in geometry.</p>
+                <div class="hw-figure">
+                    <div class="cap">Figure 3.1 — A toy embedding (4 dimensions) of three tokens</div>
+                    <div class="hw-axis">
+                        <div class="col">
+                            <div class="axis-label">Token · king</div>
+                            <div class="axis-vals">
+                                <span>0.62</span>
+                                <span>-0.18</span>
+                                <span>0.91</span>
+                                <span>0.07</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="axis-label">Token · queen</div>
+                            <div class="axis-vals">
+                                <span>0.59</span>
+                                <span>-0.15</span>
+                                <span>-0.85</span>
+                                <span>0.04</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-family: 'JetBrains Mono', monospace; font-size: 12.5px; line-height: 1.55; margin: 8px 0 0; color: var(--hw-ink-2);">The first two coordinates are almost identical (royalty-ness). The third coordinate flips sign (gender-ness). The fourth is similar (formality, perhaps). This is hand-waved — real embeddings have 768+ dimensions and the meanings of individual coordinates are not human-readable. But the principle is exactly this.</p>
+                </div>
+                <p>The famous king − man + woman ≈ queen result, discovered by Mikolov in 2013, is the first hint of this. It said: if you take the embedding of "king", subtract the embedding of "man", add the embedding of "woman", you arrive remarkably close to the embedding of "queen". Meaning had become arithmetic. The field has been built on that observation ever since.</p>
+                <p>In a modern LLM, every input token is converted to its embedding before anything else happens. The embedding is what enters the network. The token ID is left at the door.</p>
+            </article>
+
+            <!-- CHAPTER 4 -->
+            <article class="hw-chap" id="ch4">
+                <div class="hw-chap-num">Chapter 04</div>
+                <h2>The <em>attention mechanism</em>, demystified.</h2>
+                <p>If embeddings are the input, attention is the engine. Attention is what lets an LLM read a long passage and understand which earlier words matter most for predicting the next word. It is the single most important architectural idea in modern AI — and it is much simpler than it sounds.</p>
+                <h3>The idea, in one sentence</h3>
+                <p>For each word in the sequence, look at every other word in the sequence. Decide how relevant each one is. Take a weighted average of their embeddings using those relevance scores. That weighted average is what flows forward to the next layer.</p>
+                <p>That is it. The cleverness is in <em>how</em> the model decides relevance — which it does by giving each token three little projections of itself: a <strong>query</strong>, a <strong>key</strong>, and a <strong>value</strong>.</p>
+                <div class="hw-figure">
+                    <div class="cap">Figure 4.1 — Attention scores for the token "it" in: "the cat sat on the mat because it was warm"</div>
+                    <div class="hw-attn">
+                        <div class="cell head">the</div>
+                        <div class="cell head">cat</div>
+                        <div class="cell head">sat</div>
+                        <div class="cell head">mat</div>
+                        <div class="cell head">it</div>
+                        <div class="cell">0.04<span class="w">low</span></div>
+                        <div class="cell warm">0.18<span class="w">some</span></div>
+                        <div class="cell">0.06<span class="w">low</span></div>
+                        <div class="cell hot">0.61<span class="w">HIGH</span></div>
+                        <div class="cell">0.11<span class="w">self</span></div>
+                    </div>
+                    <p style="font-family: 'JetBrains Mono', monospace; font-size: 12.5px; line-height: 1.55; margin: 8px 0 0; color: var(--hw-ink-2);">The word "it" attends mostly to "mat" — because the mat is what was warm. The model figures this out without being told what a pronoun is. It learns the pattern from billions of examples.</p>
+                </div>
+                <p>Each attention layer typically has between 12 and 96 <em>heads</em> running in parallel. Each head learns to attend to a different kind of relationship. One head might track grammatical subjects. Another tracks subject–verb agreement. Another tracks paragraph-level themes. Nobody programmed these. The training process discovered them.</p>
+                <p>This is the moment in the explanation when most learners pause and say: "wait, the model figures out that 'it' refers to 'mat' on its own?" Yes. It does. From the gradient signal alone, given billions of training examples. It is the single most impressive emergent behaviour in the field.</p>
+            </article>
+
+            <!-- CHAPTER 5 -->
+            <article class="hw-chap" id="ch5">
+                <div class="hw-chap-num">Chapter 05</div>
+                <h2>The transformer block, in <em>one diagram</em>.</h2>
+                <p>A modern LLM is a stack of identical building blocks, called <strong>transformer blocks</strong>, stacked between 24 and 120 deep. Each block does two things in sequence. First, an attention layer mixes information across tokens. Second, a simple <em>feedforward</em> layer transforms each token individually. Both layers are wrapped in a small mathematical trick called a <em>residual connection</em> that lets information flow around the layer if needed.</p>
+                <div class="hw-code-label">Transformer block, in pseudocode</div>
+                <div class="hw-code"><span class="com"># x is a tensor of shape [batch, sequence_length, dim]</span>
+<span class="com"># It enters the block as embeddings and leaves as embeddings.</span>
+
+<span class="kw">def</span> transformer_block(x):
+    <span class="com"># Step 1 — token-mixing via attention</span>
+    attn_out = <span class="kw">multi_head_attention</span>(layer_norm(x))
+    x = x + attn_out          <span class="com"># residual connection</span>
+
+    <span class="com"># Step 2 — per-token transformation</span>
+    ffn_out = <span class="kw">feedforward</span>(layer_norm(x))
+    x = x + ffn_out           <span class="com"># residual connection</span>
+
+    <span class="kw">return</span> x</div>
+                <p>Six lines. Stack 96 of them on top of each other. Wrap the input in a token embedding lookup. Wrap the output in a layer that maps the final hidden states back into a probability distribution over the vocabulary. That is the architecture of GPT-4. That is also, more or less, the architecture of Claude and Gemini and Llama. The differences are in scale, training data, and dozens of small tricks. The skeleton is the same.</p>
+                <p>This is the bewildering thing for someone meeting the architecture for the first time. The model is conceptually so simple. You can fit the entire algorithm on a postcard. And yet — out the other end — it can write a sonnet, debug your TypeScript, and explain quantum tunnelling to a teenager. The intelligence is not in the architecture. The intelligence is in the <strong>billions of learned numbers</strong> the architecture moves around.</p>
+            </article>
+
+            <!-- CHAPTER 6 -->
+            <article class="hw-chap" id="ch6">
+                <div class="hw-chap-num">Chapter 06</div>
+                <h2>Training — <em>how</em> an empty network learns anything.</h2>
+                <p>At the start, every parameter in the network is a random number. The model is functionally nonsense. Feed it text and it will produce gibberish. Training is the process by which the random numbers become, slowly, the numbers that turn an empty network into GPT.</p>
+                <p>The training task is mechanically simple. You take a piece of real text — say, the first sentence of a Wikipedia article. You hide the last word. You ask the network to predict it. If the network's predicted word is right, you do nothing. If it is wrong, you compute exactly how wrong (this is the <em>loss</em>) and you nudge every parameter in the direction that would have produced a slightly less wrong answer.</p>
+                <p>You repeat this with another piece of text. And another. And another. <strong>Trillions of times.</strong> In modern training runs, the model sees somewhere between two and twenty trillion tokens. By the end, the nudges have accumulated into something extraordinary: the network has internalised the statistical structure of human writing.</p>
+                <h3>What the model is actually learning</h3>
+                <p>It is not memorising the training text. The text is far too big for the model's parameters to memorise. What the model is learning is the <em>function</em> behind the text. The patterns. The grammar. The logical structures. The factual associations. Slowly, statistically, painfully. By the millionth example, a small grammar starts to crystallise. By the billionth, a sense of subject-matter coherence. By the trillionth, what looks an awful lot like reasoning.</p>
+                <p>This is what people mean by "training" when they say GPT-4 cost a hundred million dollars to train. They mean: a few thousand specialised GPUs running this prediction-and-nudge loop continuously for several months, on the largest curated text dataset humanity has ever assembled. Every nudge is a tiny shift in some parameter. Add a trillion such nudges together and you get the modern LLM.</p>
+            </article>
+
+            <!-- CHAPTER 7 -->
+            <article class="hw-chap" id="ch7">
+                <div class="hw-chap-num">Chapter 07</div>
+                <h2>RLHF — why <em>ChatGPT is polite.</em></h2>
+                <p>The model that comes out of the training loop above can predict text. It cannot yet help you. It will happily complete your question with three more questions. It will produce unsafe answers. It will be inconsistent. It is, after the first training stage, a stunningly good autocomplete and not a useful assistant.</p>
+                <p>The second stage — the one that turns GPT into ChatGPT — is called <strong>reinforcement learning from human feedback</strong>, or RLHF. Human labellers are paid to rank the model's outputs. Better answer first. Worse answer second. Over hundreds of thousands of rankings, a small "reward model" learns to mimic human preference. Then the main LLM is fine-tuned to maximise that reward.</p>
+                <p>RLHF is what gives ChatGPT its voice — the politeness, the refusal to do dangerous things, the long structured answers with bullet points. Different labs make different RLHF choices and the result is that Claude sounds like Claude, ChatGPT sounds like ChatGPT, and Gemini sounds like Gemini, even though their base models are architecturally similar.</p>
+                <p>This is also the stage where most of the model's <em>safety</em> behaviour lives. The base model knows how to write malware. The RLHF-trained model has been heavily reinforced toward refusing. Whether this works is a research field of its own — and the fact that "jailbreaks" are still a category of attack tells you the RLHF layer is more like a polite suggestion than a hard wall.</p>
+            </article>
+
+            <!-- CHAPTER 8 -->
+            <article class="hw-chap" id="ch8">
+                <div class="hw-chap-num">Chapter 08</div>
+                <h2>What is still <em>genuinely magical</em>.</h2>
+                <p>You now know roughly how an LLM works. Tokens, embeddings, attention, transformer stacks, the prediction loss, RLHF. That is, with surprising honesty, the whole picture. There is no secret module we left out.</p>
+                <p>And yet — most people who work on these models full time will tell you the same thing: we know how to <em>build</em> them, but we still do not fully understand <em>why</em> they work as well as they do.</p>
+                <p>Why does an LLM with enough parameters suddenly become capable of multi-step arithmetic when a slightly smaller one cannot? Why do certain training data mixtures produce dramatically better reasoning? Why does attention learn to look up factual knowledge in some heads and grammar in others, without being told to? Why is the loss curve smooth even when the capabilities emerging from it are jagged?</p>
+                <p>This is the active research field of <em>mechanistic interpretability</em> — opening up trained networks neuron by neuron, trying to figure out what each one has learned. We are years away from a satisfying answer. The architecture is on a postcard. The reason it works is not.</p>
+                <p>If you have read this far, you now have a more honest mental model of how modern AI works than ninety-nine per cent of the people writing op-eds about it. The next question is: what do you do with that understanding?</p>
+                <p>The honest answer is the obvious one. You learn to build with it. The chapters above are the conceptual skeleton. The skill itself comes from writing the code, training the tiny models, breaking them, and watching them work. That is what every Modern Age Coders AI course is built around — at every age, from eight to fifty.</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- PULL QUOTE -->
+    <section class="hw-pull">
+        <div class="hw-shell">
+            <blockquote>
+                The architecture is on a postcard. The reason it works is <em>not</em>. That is why the engineers who can build this are about to be the most valuable people in the next decade.
+            </blockquote>
+            <span class="cite">— A line we wish we had not had to write</span>
+        </div>
+    </section>
+
+    <!-- COURSE CHOOSER — kids / teens / adults -->
+    <section class="hw-courses">
+        <div class="hw-shell">
+            <span class="hw-mark">Modern Age Coders · courses by age band</span>
+            <h2>Now <em>build</em> what you just understood.</h2>
+            <p class="lead">Reading this page gives you the map. Building gives you the territory. Below are the real Modern Age Coders cohorts — live, small batch, mentor-led, for every age from seven to fifty. Click any to see the full syllabus, schedule and fee.</p>
+
+            <!-- BAND 1 KIDS -->
+            <div class="hw-band">
+                <div class="hw-band-hd">
+                    <h3>For <em>kids</em>, age 7 to 12 — the on-ramp</h3>
+                    <span class="ages">Junior · weekly live</span>
+                </div>
+                <div class="hw-band-grid">
+                    <a class="hw-course" href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev">
+                        <div class="tier">Ages 7–11 · Beginner</div>
+                        <h4>Vibe Coding for <em>Kids</em></h4>
+                        <p>Scratch and block coding plus AI-assisted projects. The on-ramp that gets a child from "what is code" to "I built this."</p>
+                        <div class="hw-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="hw-course" href="/courses/python-ai-kids-masterclass">
+                        <div class="tier">Ages 8–12 · Python &amp; AI</div>
+                        <h4>Python &amp; AI Kids <em>Masterclass</em></h4>
+                        <p>Pure Python introduction with AI tooling baked in. The most-requested course in our kids catalog.</p>
+                        <div class="hw-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="hw-course" href="/courses/kids-ai-mastery-course">
+                        <div class="tier">Ages 9–13 · AI Tools</div>
+                        <h4>Kids AI <em>Mastery</em></h4>
+                        <p>AI tools that real children can use to build real things — chatbots, image generators, mini agents.</p>
+                        <div class="hw-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- BAND 2 TEENS -->
+            <div class="hw-band">
+                <div class="hw-band-hd">
+                    <h3>For <em>teens</em>, age 13 to 18 — the build years</h3>
+                    <span class="ages">Senior · weekly live</span>
+                </div>
+                <div class="hw-band-grid">
+                    <a class="hw-course" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">
+                        <div class="tier">Ages 13–17 · Core</div>
+                        <h4>Vibe Coding for <em>Teens</em></h4>
+                        <p>Python, web, AI tools, shipped projects. A teenager finishes the year with a real GitHub and a real portfolio.</p>
+                        <div class="hw-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="hw-course" href="/courses/ai-ml-masterclass-teens">
+                        <div class="tier">Ages 14–18 · AI / ML Deep</div>
+                        <h4>AI &amp; ML <em>Masterclass · Teens</em></h4>
+                        <p>Build real ML models. Train neural networks. Touch the same techniques the chapters above describe. The serious teen track.</p>
+                        <div class="hw-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="hw-course" href="/courses/python-complete-masterclass-teens">
+                        <div class="tier">Ages 13–17 · Python depth</div>
+                        <h4>Python Complete <em>Masterclass</em></h4>
+                        <p>The full language. Deep. From basics through advanced features, with projects that prove fluency.</p>
+                        <div class="hw-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- BAND 3 ADULTS -->
+            <div class="hw-band">
+                <div class="hw-band-hd">
+                    <h3>For <em>adults &amp; college</em>, age 17+ — the engineer track</h3>
+                    <span class="ages">Pro · weekly live</span>
+                </div>
+                <div class="hw-band-grid">
+                    <a class="hw-course" href="/courses/ai-ml-masterclass-complete-college">
+                        <div class="tier">College / Adult · AI / ML</div>
+                        <h4>AI &amp; ML <em>Complete</em></h4>
+                        <p>The flagship engineering track. From numpy through transformers. Build small models, train them, deploy them.</p>
+                        <div class="hw-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="hw-course" href="/courses/complete-generative-ai-masterclass-college">
+                        <div class="tier">College / Adult · Gen AI</div>
+                        <h4>Generative AI <em>Masterclass</em></h4>
+                        <p>Build with LLMs the right way. RAG, fine-tuning, custom GPTs, agentic workflows, evaluation. Career-grade.</p>
+                        <div class="hw-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="hw-course" href="/courses/python-ai-automation-masterclass-college">
+                        <div class="tier">College / Adult · Automation</div>
+                        <h4>Python AI <em>Automation</em></h4>
+                        <p>Python plus AI plus automation tooling — the highest-leverage skill stack for a non-engineer in 2026.</p>
+                        <div class="hw-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEAD -->
+    <section class="hw-lead" id="lead">
+        <div class="hw-shell">
+            <div class="hw-lead-grid">
+                <div>
+                    <span class="hw-mark" style="color: var(--hw-paper);">Talk to a real mentor · free 25-minute call</span>
+                    <h2>If you read this page and want a <em>human</em> to suggest the right course — we have one for you.</h2>
+                    <p>Modern Age Coders has been teaching live online since 2019. Twenty-two thousand families in eleven countries. Real teachers, small cohorts, no recorded-video nonsense. Tell us who is learning and we will write back within twenty-four hours with the cohort that fits.</p>
+                </div>
+                <form class="hw-form" name="how-ai-works-lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+                    <input type="hidden" name="form-name" value="how-ai-works-lead">
+                    <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+                    <h3>Who is learning?</h3>
+                    <input type="text" name="learner_name" placeholder="Learner's name" required>
+                    <select name="learner_age" required>
+                        <option value="">Age band</option>
+                        <option>Kid (7–12)</option>
+                        <option>Teen (13–17)</option>
+                        <option>College student (18–22)</option>
+                        <option>Adult / professional</option>
+                    </select>
+                    <select name="interest" required>
+                        <option value="">What pulled you here?</option>
+                        <option>How AI works · just curious</option>
+                        <option>I want to learn to build with AI</option>
+                        <option>I want a career in AI / ML</option>
+                        <option>Helping my child get into AI early</option>
+                        <option>Other</option>
+                    </select>
+                    <input type="tel" name="whatsapp" placeholder="WhatsApp with country code" required>
+                    <input type="email" name="email" placeholder="Email">
+                    <button type="submit">Match me with a cohort →</button>
+                    <div class="fine">A senior mentor reads every form. Reply within 24 hours.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="hw-faq">
+        <div class="hw-shell">
+            <span class="hw-mark">Questions readers ask after finishing this article</span>
+            <h2>The things you <em>actually</em> want to ask.</h2>
+
+            <details>
+                <summary>Is AI really intelligent?</summary>
+                <p>Modern AI systems are pattern matchers of extraordinary scale, trained on the bulk of human writing. Whether that constitutes intelligence depends on how you define the word. They do not understand in the human sense — they have no body, no model of the world, no ongoing inner life between conversations. They predict. But prediction at this scale produces something close enough to understanding to be useful for an enormous number of tasks. The honest position is somewhere in the middle: it is not a person, but it is also not a calculator. We do not yet have the right word for what it is.</p>
+            </details>
+
+            <details>
+                <summary>Will AI take my child's job?</summary>
+                <p>The honest answer is yes — and no. AI will take many existing roles, particularly those that consist primarily of routine analytical or written work. But the same wave is creating new roles faster than economists are tracking. The students of ours who started learning AI in 2022 are now, four years later, in some of the highest-paid roles in the industry. The risk is not that AI exists. The risk is for the child whose parents did not let them learn it.</p>
+            </details>
+
+            <details>
+                <summary>Can my child learn how AI works?</summary>
+                <p>Yes, at every age. A nine-year-old can understand the idea of token prediction by playing with one of our Scratch demos. A fourteen-year-old can build a small chatbot using the Anthropic or OpenAI API. A college student can train a tiny transformer from scratch. We have built a sequence of courses that matches the age, the curiosity level, and the realistic time commitment of each band. Pick one from the courses section above or talk to a mentor.</p>
+            </details>
+
+            <details>
+                <summary>How is this different from learning to use ChatGPT?</summary>
+                <p>Using ChatGPT is using a calculator. Knowing how an LLM works is knowing how a calculator does long division — and being able to build one yourself if the calculator on the shelf is broken or wrong. The first is a useful skill. The second is an unfair advantage. The students we are training are aiming for the second.</p>
+            </details>
+
+            <details>
+                <summary>Where should I go next on Modern Age Coders to learn more?</summary>
+                <p>Three places. First — our <a href="/build-your-own-gpt-python">build your own GPT in Python</a> walkthrough, which turns this conceptual page into actual code. Second — our <a href="/inside-neural-networks">inside neural networks</a> deep dive, which goes one layer below this page into how learning actually happens. Third — our <a href="/ai-engineer-roadmap-2026">AI engineer roadmap</a>, which lays out the full path from beginner to working AI engineer.</p>
+            </details>
+
+            <details>
+                <summary>Where can I read more about the mechanistic interpretability research mentioned in Chapter 8?</summary>
+                <p>The leading public lab in this area is Anthropic's interpretability team — their work is freely readable. Chris Olah, Neel Nanda, and the broader "circuits" community publish accessibly. Outside of academic papers, the best informal source is Andrej Karpathy's YouTube channel, which is where many of our older students go after our courses. We will be writing a Modern Age Coders companion piece on interpretability later this year.</p>
+            </details>
+
+            <details>
+                <summary>I am a complete adult beginner — am I too late?</summary>
+                <p>No. Roughly thirty per cent of our enrollments in 2026 have been adults — career changers, returnees, mid-career professionals, people in their 40s and 50s. The field is six years old at scale and most of the people working in it learned what they know in the last three. You are not late. You are early to a field that is still being built.</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- RELATED -->
+    <section class="hw-related">
+        <div class="hw-shell">
+            <h2>Read next</h2>
+            <div class="hw-related-grid">
+                <div class="hw-related-col">
+                    <h4>Sibling pillar pages</h4>
+                    <a href="/build-your-own-gpt-python">Build your own GPT in Python</a>
+                    <a href="/inside-neural-networks">Inside neural networks</a>
+                    <a href="/ai-engineer-roadmap-2026">AI engineer roadmap 2026</a>
+                    <a href="/ai-agents-explained">AI agents explained</a>
+                </div>
+                <div class="hw-related-col">
+                    <h4>Course tracks</h4>
+                    <a href="/levels/coding-for-kids">For kids</a>
+                    <a href="/levels/coding-for-teens">For teens</a>
+                    <a href="/levels/coding-for-college-students">For college</a>
+                    <a href="/levels/coding-for-professionals">For professionals</a>
+                </div>
+                <div class="hw-related-col">
+                    <h4>Specialty tracks</h4>
+                    <a href="/coding-olympiad-medal-track">Olympiad medal track</a>
+                    <a href="/jee-aspirant-coding-track">JEE coding track</a>
+                    <a href="/coding-comeback-women">Coding comeback · women</a>
+                    <a href="/ai-agents-and-automation">AI agents for business</a>
+                </div>
+                <div class="hw-related-col">
+                    <h4>Tools</h4>
+                    <a href="/screen-time-to-skill">Screen-time to skill</a>
+                    <a href="/coding-fee-calculator">Fee calculator</a>
+                    <a href="/coding-roadmap">Coding roadmap</a>
+                    <a href="/book-demo">Book a free demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+</body>
+</html>

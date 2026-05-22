@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+        gtag('config', 'AW-16910316353');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Agents Explained — How to Actually Build One That Doesn't Hallucinate Itself Into Pieces | Modern Age Coders</title>
+    <meta name="description" content="The honest, vendor-neutral, code-first guide to AI agents. ReAct loop, planning, memory, tool use, evaluation and the architectures that actually work in production. By Modern Age Coders.">
+    <meta name="keywords" content="AI agents explained, how AI agents work, build AI agent python, agentic AI tutorial, ReAct pattern, LLM agent architecture, what is an AI agent, AI agent tutorial, autonomous agents, build your own agent, langchain alternative, claude agent, openai agent, modern age coders">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://learn.modernagecoders.com/ai-agents-explained">
+
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/ai-agents-explained" />
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/ai-agents-explained" />
+    <link rel="alternate" hreflang="en-us" href="https://learn.modernagecoders.com/ai-agents-explained" />
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/ai-agents-explained" />
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/ai-agents-explained">
+    <meta property="og:title" content="AI Agents Explained — Modern Age Coders">
+    <meta property="og:description" content="How they actually work, vendor-neutral. ReAct, planning, memory, tool use, evaluation. By Modern Age Coders.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="theme-color" content="#080a12">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Fraunces:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "headline": "AI Agents Explained — How to Actually Build One That Doesn't Hallucinate Itself Into Pieces",
+        "description": "Vendor-neutral, code-first guide to AI agents: ReAct, planning, memory, tool use, evaluation.",
+        "author": { "@type": "Organization", "name": "Modern Age Coders" },
+        "publisher": {
+            "@type": "Organization", "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com",
+            "logo": { "@type": "ImageObject", "url": "https://learn.modernagecoders.com/images/logo.svg" }
+        },
+        "datePublished": "2026-05-22",
+        "dateModified": "2026-05-23",
+        "mainEntityOfPage": "https://learn.modernagecoders.com/ai-agents-explained"
+    }
+    </script>
+
+    <style>
+        :root {
+            --ag-bg: #080a12;
+            --ag-bg-2: #0e121e;
+            --ag-bg-3: #161c2d;
+            --ag-paper: #eef0f4;
+            --ag-fg: #d8dde8;
+            --ag-fg-2: #9aa1b2;
+            --ag-mute: #5c6478;
+            --ag-violet: #8a6dff;
+            --ag-violet-soft: #b9a4ff;
+            --ag-teal: #38e0c0;
+            --ag-amber: #ffb84d;
+            --ag-magenta: #ff7ba8;
+            --ag-line: rgba(216, 221, 232, 0.1);
+        }
+
+        body { background: var(--ag-bg) !important; color: var(--ag-fg) !important; }
+        main.ag-page {
+            display: block !important;
+            padding: 0 !important;
+            gap: 0 !important;
+            align-items: stretch !important;
+            justify-content: flex-start !important;
+            max-width: none !important;
+            width: 100% !important;
+        }
+        main.ag-page h1, main.ag-page h2, main.ag-page h3,
+        main.ag-page h4, main.ag-page h5, main.ag-page h6 {
+            color: inherit !important;
+        }
+        main.ag-page p, main.ag-page li, main.ag-page summary, main.ag-page label { color: inherit; }
+
+        .ag-page * { box-sizing: border-box; }
+        .ag-page {
+            font-family: 'Inter', -apple-system, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        .ag-page a { color: inherit; }
+        .ag-shell { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+        .ag-reading { max-width: 820px; margin: 0 auto; }
+        .ag-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            padding: 7px 14px;
+            border: 1px solid var(--ag-line);
+            border-radius: 999px;
+            color: var(--ag-teal);
+        }
+        .ag-tag::before {
+            content: '';
+            width: 8px; height: 8px;
+            background: var(--ag-teal);
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px rgba(56, 224, 192, 0.18);
+        }
+
+        /* HERO */
+        .ag-hero {
+            padding: 130px 0 90px;
+            position: relative;
+            background:
+                radial-gradient(ellipse 60% 70% at 80% 0%, rgba(138, 109, 255, 0.18), transparent 60%),
+                radial-gradient(ellipse 50% 60% at 0% 100%, rgba(56, 224, 192, 0.12), transparent 60%),
+                var(--ag-bg);
+        }
+        .ag-h1 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: clamp(46px, 6.4vw, 90px);
+            line-height: 0.98;
+            letter-spacing: -0.025em;
+            margin: 28px 0 28px;
+            max-width: 1020px;
+            color: var(--ag-paper);
+        }
+        .ag-h1 em {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-weight: 500;
+            color: var(--ag-violet-soft);
+        }
+        .ag-h1 .hi {
+            background: var(--ag-violet);
+            color: var(--ag-bg);
+            padding: 0 6px;
+        }
+        .ag-sub {
+            font-size: 19px;
+            line-height: 1.66;
+            color: var(--ag-fg-2);
+            max-width: 760px;
+            margin: 0 0 36px;
+        }
+        .ag-hero-meta {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+            padding: 26px 0 0;
+            border-top: 1px solid var(--ag-line);
+            margin-top: 30px;
+        }
+        .ag-hero-meta div { padding: 0 22px 0 0; }
+        .ag-hero-meta strong {
+            display: block;
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 26px;
+            font-weight: 500;
+            color: var(--ag-paper);
+            margin-bottom: 4px;
+        }
+        .ag-hero-meta strong em { font-style: italic; color: var(--ag-teal); }
+        .ag-hero-meta span {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--ag-mute);
+            letter-spacing: 0.06em;
+        }
+
+        /* COURSES STRIP */
+        .ag-strip {
+            padding: 56px 0 60px;
+            background: var(--ag-bg-2);
+            border-top: 1px solid var(--ag-line);
+            border-bottom: 1px solid var(--ag-line);
+        }
+        .ag-strip-hd {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 18px;
+            margin-bottom: 28px;
+            padding-bottom: 22px;
+            border-bottom: 1px solid var(--ag-line);
+            flex-wrap: wrap;
+        }
+        .ag-strip-hd .lead {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: clamp(20px, 2.4vw, 28px);
+            line-height: 1.25;
+            margin: 0;
+            max-width: 740px;
+            color: var(--ag-paper);
+            letter-spacing: -0.01em;
+        }
+        .ag-strip-hd .lead em { font-family: 'Fraunces', serif; font-style: italic; font-weight: 500; color: var(--ag-teal); }
+        .ag-strip-hd .all {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--ag-violet-soft);
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid var(--ag-violet);
+            border-radius: 999px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .ag-strip-hd .all:hover { background: var(--ag-violet); color: var(--ag-paper); }
+        .ag-strip-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+        }
+        .ag-strip-card {
+            display: block;
+            padding: 22px 22px 20px;
+            background: var(--ag-bg-3);
+            border: 1px solid var(--ag-line);
+            border-radius: 12px;
+            color: var(--ag-fg);
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        }
+        .ag-strip-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--ag-teal);
+            box-shadow: 0 8px 24px rgba(56, 224, 192, 0.18);
+        }
+        .ag-strip-card .age {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ag-teal);
+            margin-bottom: 10px;
+        }
+        .ag-strip-card h3 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 1.2;
+            margin: 0 0 8px;
+            color: var(--ag-paper);
+        }
+        .ag-strip-card h3 em { font-family: 'Fraunces', serif; font-style: italic; font-weight: 500; color: var(--ag-violet-soft); }
+        .ag-strip-card p {
+            font-size: 12.5px;
+            line-height: 1.55;
+            color: var(--ag-fg-2);
+            margin: 0 0 14px;
+            min-height: 40px;
+        }
+        .ag-strip-card .meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            padding-top: 10px;
+            border-top: 1px dashed rgba(216, 221, 232, 0.18);
+            color: var(--ag-mute);
+        }
+        .ag-strip-card .meta .pr {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 16px;
+            color: var(--ag-teal);
+            font-weight: 500;
+        }
+        @media (max-width: 980px) {
+            .ag-strip-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 560px) {
+            .ag-strip-grid { grid-template-columns: 1fr; }
+            .ag-strip-card p { min-height: 0; }
+        }
+
+        /* TOC */
+        .ag-toc {
+            padding: 60px 0;
+            background: var(--ag-bg-2);
+            border-top: 1px solid var(--ag-line);
+            border-bottom: 1px solid var(--ag-line);
+        }
+        .ag-toc h2 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            letter-spacing: 0.22em;
+            color: var(--ag-violet-soft);
+            text-transform: uppercase;
+            margin: 0 0 22px;
+        }
+        .ag-toc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-top: 1px solid var(--ag-line); }
+        .ag-toc-grid a {
+            display: block;
+            padding: 18px 14px 18px 0;
+            text-decoration: none;
+            border-bottom: 1px solid var(--ag-line);
+            font-family: 'Sora', sans-serif;
+            font-size: 16px;
+            color: var(--ag-fg);
+            transition: color 0.2s, padding 0.2s;
+        }
+        .ag-toc-grid a:hover { color: var(--ag-teal); padding-left: 6px; }
+        .ag-toc-grid a .n {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--ag-magenta);
+            margin-right: 12px;
+        }
+
+        /* ARTICLE */
+        .ag-article { padding: 90px 0; }
+        .ag-chap { margin-bottom: 70px; }
+        .ag-chap-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.22em;
+            color: var(--ag-violet-soft);
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+        .ag-chap h2 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: clamp(34px, 4.6vw, 54px);
+            line-height: 1.06;
+            letter-spacing: -0.02em;
+            margin: 0 0 26px;
+            color: var(--ag-paper);
+        }
+        .ag-chap h2 em {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-weight: 500;
+            color: var(--ag-teal);
+        }
+        .ag-chap h3 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            color: var(--ag-amber);
+            margin: 36px 0 14px;
+            letter-spacing: -0.005em;
+        }
+        .ag-chap p {
+            font-size: 17.5px;
+            line-height: 1.72;
+            margin: 0 0 22px;
+            color: var(--ag-fg);
+        }
+        .ag-chap p strong { color: var(--ag-teal); font-weight: 600; }
+        .ag-chap p em { font-style: italic; color: var(--ag-amber); }
+        .ag-chap p code, .ag-chap li code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14.5px;
+            padding: 2px 7px;
+            background: var(--ag-bg-3);
+            border-radius: 4px;
+            color: var(--ag-magenta);
+        }
+        .ag-chap ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 22px;
+        }
+        .ag-chap ul li {
+            padding-left: 22px;
+            margin-bottom: 10px;
+            position: relative;
+            font-size: 16.5px;
+            line-height: 1.65;
+        }
+        .ag-chap ul li::before {
+            content: '↳';
+            position: absolute;
+            left: 0;
+            color: var(--ag-teal);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Loop diagram */
+        .ag-loop {
+            margin: 30px 0;
+            padding: 28px;
+            background: var(--ag-bg-2);
+            border: 1px solid var(--ag-line);
+            border-radius: 12px;
+        }
+        .ag-loop .cap {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            color: var(--ag-violet-soft);
+            margin-bottom: 18px;
+            text-transform: uppercase;
+        }
+        .ag-loop-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 6px;
+            align-items: stretch;
+        }
+        .ag-loop-step {
+            padding: 16px 12px;
+            background: var(--ag-bg-3);
+            border: 1px solid var(--ag-line);
+            border-radius: 8px;
+            position: relative;
+            text-align: center;
+        }
+        .ag-loop-step:not(:last-child)::after {
+            content: '→';
+            position: absolute;
+            right: -16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--ag-teal);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 16px;
+            z-index: 2;
+        }
+        .ag-loop-step .ic {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.16em;
+            color: var(--ag-teal);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        .ag-loop-step .ttl {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: 15px;
+            color: var(--ag-paper);
+            margin-bottom: 6px;
+        }
+        .ag-loop-step .desc {
+            font-size: 11.5px;
+            color: var(--ag-fg-2);
+            line-height: 1.4;
+        }
+
+        /* Code */
+        .ag-code {
+            background: var(--ag-bg-2);
+            border: 1px solid var(--ag-line);
+            border-radius: 10px;
+            margin: 28px 0;
+            overflow: hidden;
+        }
+        .ag-code-bar {
+            padding: 12px 18px;
+            background: var(--ag-bg-3);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--ag-mute);
+            letter-spacing: 0.06em;
+            border-bottom: 1px solid var(--ag-line);
+            display: flex;
+            justify-content: space-between;
+        }
+        .ag-code pre {
+            margin: 0;
+            padding: 22px 26px;
+            overflow-x: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13.5px;
+            line-height: 1.7;
+            color: var(--ag-fg);
+        }
+        .ag-code pre .com { color: var(--ag-mute); font-style: italic; }
+        .ag-code pre .kw { color: var(--ag-violet-soft); }
+        .ag-code pre .fn { color: var(--ag-amber); }
+        .ag-code pre .str { color: var(--ag-teal); }
+        .ag-code pre .num { color: var(--ag-magenta); }
+        .ag-code pre .cls { color: var(--ag-amber); }
+
+        .ag-callout {
+            margin: 28px 0;
+            padding: 22px 26px;
+            background: linear-gradient(135deg, rgba(138, 109, 255, 0.12), rgba(56, 224, 192, 0.06));
+            border: 1px solid var(--ag-violet);
+            border-radius: 10px;
+        }
+        .ag-callout strong {
+            display: block;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.18em;
+            color: var(--ag-violet-soft);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        .ag-callout p {
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.65;
+            color: var(--ag-fg);
+        }
+
+        /* COURSES */
+        .ag-courses { padding: 130px 0; background: var(--ag-paper); color: var(--ag-bg); }
+        .ag-courses .ag-tag { color: var(--ag-violet); border-color: var(--ag-violet); }
+        .ag-courses .ag-tag::before { background: var(--ag-violet); box-shadow: 0 0 0 4px rgba(138, 109, 255, 0.18); }
+        .ag-courses h2 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: clamp(38px, 5vw, 60px);
+            line-height: 1.04;
+            margin: 16px 0 14px;
+            color: var(--ag-bg);
+            letter-spacing: -0.015em;
+            max-width: 920px;
+        }
+        .ag-courses h2 em {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-weight: 500;
+            color: var(--ag-violet);
+        }
+        .ag-courses .lead {
+            font-size: 18px;
+            line-height: 1.65;
+            color: rgba(8, 10, 18, 0.74);
+            max-width: 740px;
+            margin: 0 0 50px;
+        }
+        .ag-band { margin-bottom: 60px; }
+        .ag-band-hd {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-bottom: 18px;
+            border-bottom: 2px solid var(--ag-bg);
+            margin-bottom: 22px;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+        .ag-band-hd h3 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: 28px;
+            margin: 0;
+            color: var(--ag-bg);
+            line-height: 1.1;
+        }
+        .ag-band-hd h3 em {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-weight: 500;
+            color: var(--ag-violet);
+        }
+        .ag-band-hd .ages {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ag-violet);
+        }
+        .ag-band-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .ag-course {
+            display: block;
+            padding: 28px 26px;
+            background: var(--ag-bg);
+            color: var(--ag-fg);
+            text-decoration: none;
+            border-radius: 12px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .ag-course:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 16px 40px rgba(138, 109, 255, 0.3);
+        }
+        .ag-course .tier {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ag-teal);
+            margin-bottom: 14px;
+        }
+        .ag-course h4 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 1.18;
+            margin: 0 0 12px;
+            color: var(--ag-paper);
+        }
+        .ag-course h4 em {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-weight: 500;
+            color: var(--ag-violet-soft);
+        }
+        .ag-course p {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--ag-fg-2);
+            margin: 0 0 18px;
+        }
+        .ag-course-foot {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-top: 14px;
+            border-top: 1px dashed rgba(216, 221, 232, 0.15);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--ag-mute);
+        }
+        .ag-course-foot .price {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 18px;
+            color: var(--ag-teal);
+            font-weight: 500;
+        }
+
+        /* LEAD */
+        .ag-lead { padding: 130px 0; background: var(--ag-bg-2); }
+        .ag-lead-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 70px; align-items: center; }
+        .ag-lead h2 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: clamp(38px, 5vw, 60px);
+            line-height: 1.02;
+            margin: 14px 0 22px;
+            letter-spacing: -0.015em;
+            color: var(--ag-paper);
+        }
+        .ag-lead h2 em {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-weight: 500;
+            color: var(--ag-teal);
+        }
+        .ag-lead p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: var(--ag-fg-2);
+            max-width: 520px;
+            margin: 0 0 20px;
+        }
+        .ag-form {
+            background: var(--ag-bg-3);
+            border: 1px solid var(--ag-violet);
+            border-radius: 14px;
+            padding: 38px;
+        }
+        .ag-form h3 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            color: var(--ag-teal);
+            margin: 0 0 22px;
+        }
+        .ag-form input, .ag-form select {
+            width: 100%;
+            padding: 13px 16px;
+            margin-bottom: 12px;
+            border: 1px solid var(--ag-line);
+            background: var(--ag-bg);
+            color: var(--ag-fg);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14.5px;
+            outline: none;
+            border-radius: 8px;
+            transition: border-color 0.2s;
+        }
+        .ag-form input:focus, .ag-form select:focus { border-color: var(--ag-teal); }
+        .ag-form input::placeholder, .ag-form select::placeholder { color: var(--ag-mute); }
+        .ag-form button {
+            width: 100%;
+            padding: 16px;
+            background: var(--ag-violet);
+            color: var(--ag-paper);
+            border: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 6px;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+        .ag-form button:hover { background: var(--ag-teal); color: var(--ag-bg); }
+        .ag-form .fine {
+            font-size: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--ag-mute);
+            margin-top: 14px;
+            line-height: 1.55;
+        }
+
+        .ag-faq { padding: 130px 0; background: var(--ag-bg); }
+        .ag-faq h2 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: clamp(36px, 4.5vw, 56px);
+            line-height: 1.04;
+            margin: 16px 0 50px;
+            max-width: 800px;
+            letter-spacing: -0.015em;
+            color: var(--ag-paper);
+        }
+        .ag-faq h2 em {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-weight: 500;
+            color: var(--ag-teal);
+        }
+        .ag-faq details { border-top: 1px solid var(--ag-line); padding: 26px 0; }
+        .ag-faq details:last-of-type { border-bottom: 1px solid var(--ag-line); }
+        .ag-faq summary {
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 24px;
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 1.3;
+            color: var(--ag-paper);
+        }
+        .ag-faq summary::-webkit-details-marker { display: none; }
+        .ag-faq summary::after { content: '+'; color: var(--ag-teal); font-size: 22px; }
+        .ag-faq details[open] summary::after { content: '–'; }
+        .ag-faq p {
+            margin: 14px 0 0;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--ag-fg-2);
+            max-width: 880px;
+        }
+
+        .ag-related { padding: 90px 0; background: var(--ag-bg-2); border-top: 1px solid var(--ag-line); }
+        .ag-related h2 {
+            font-family: 'Sora', sans-serif;
+            font-weight: 600;
+            font-size: 30px;
+            margin: 0 0 36px;
+            color: var(--ag-paper);
+        }
+        .ag-related-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+        .ag-related-col h4 {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--ag-magenta);
+            border-bottom: 1px solid var(--ag-line);
+            padding-bottom: 12px;
+            margin: 0 0 14px;
+        }
+        .ag-related-col a {
+            display: block;
+            font-size: 14.5px;
+            padding: 7px 0;
+            color: var(--ag-fg);
+            text-decoration: none;
+            transition: padding-left 0.2s, color 0.2s;
+        }
+        .ag-related-col a:hover { padding-left: 6px; color: var(--ag-teal); }
+
+        @media (max-width: 980px) {
+            .ag-hero-meta { grid-template-columns: 1fr 1fr; gap: 22px 0; }
+            .ag-toc-grid { grid-template-columns: 1fr 1fr; }
+            .ag-loop-grid { grid-template-columns: 1fr; gap: 30px; }
+            .ag-loop-step:not(:last-child)::after { content: '↓'; right: 50%; top: auto; bottom: -22px; transform: translateX(50%); }
+            .ag-band-grid { grid-template-columns: 1fr; }
+            .ag-lead-grid { grid-template-columns: 1fr; gap: 40px; }
+            .ag-related-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 560px) {
+            .ag-shell { padding: 0 22px; }
+            .ag-toc-grid { grid-template-columns: 1fr; }
+            .ag-related-grid { grid-template-columns: 1fr; }
+            .ag-code pre { font-size: 12px; padding: 18px 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<main class="ag-page">
+
+    <section class="ag-hero">
+        <div class="ag-shell">
+            <span class="ag-tag">A vendor-neutral guide · 24 min read · revised May 2026</span>
+            <h1 class="ag-h1">AI agents <em>explained</em>. <span class="hi">Honestly.</span> Including the parts the framework demos don't show you.</h1>
+            <p class="ag-sub">Everyone is selling AI agents in 2026. Almost no one is telling you what they actually are, why most of them fail, or how to build one that survives contact with reality. This is the article we wished existed when we started building production agents at Modern Age Coders in 2024. Code-first. Vendor-neutral. Honest about what works and what doesn't.</p>
+            <div class="ag-hero-meta">
+                <div><strong><em>5</em> components</strong><span>Every real agent has</span></div>
+                <div><strong><em>1</em> loop</strong><span>The ReAct loop, demystified</span></div>
+                <div><strong><em>7</em> traps</strong><span>That kill 80% of demos</span></div>
+                <div><strong><em>200</em> lines</strong><span>For a working agent</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES STRIP -- upfront -->
+    <section class="ag-strip">
+        <div class="ag-shell">
+            <div class="ag-strip-hd">
+                <p class="lead">Or build one with a mentor — <em>here are the cohorts that walk you through it.</em></p>
+                <a href="/courses" class="all">all 60+ courses →</a>
+            </div>
+            <div class="ag-strip-grid">
+                <a class="ag-strip-card" href="/courses/kids-ai-mastery-course">
+                    <div class="age">Ages 9–13 · Kids</div>
+                    <h3>Kids AI <em>Mastery</em></h3>
+                    <p>Real AI tools used by real kids — the gentle on-ramp to agent building.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="ag-strip-card" href="/courses/ai-ml-masterclass-teens">
+                    <div class="age">Ages 14–18 · Teens</div>
+                    <h3>AI &amp; ML <em>Teens</em></h3>
+                    <p>The Python + ML foundation needed for agents. Build models. Then make them call tools.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="ag-strip-card" href="/courses/complete-generative-ai-masterclass-college">
+                    <div class="age">College / Adult · GenAI</div>
+                    <h3>Generative AI <em>Masterclass</em></h3>
+                    <p>This article is the trailer. Twelve weeks of building real production agents.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+                <a class="ag-strip-card" href="/courses/python-ai-automation-masterclass-college">
+                    <div class="age">College / Adult · Automation</div>
+                    <h3>Python AI <em>Automation</em></h3>
+                    <p>Agents in the context of automating real work — the high-leverage non-engineer path.</p>
+                    <div class="meta"><span>2 classes/week</span><span class="pr">₹1,499/mo</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ag-toc">
+        <div class="ag-shell">
+            <h2>// table of contents</h2>
+            <div class="ag-toc-grid">
+                <a href="#a1"><span class="n">01</span>What an AI agent actually is</a>
+                <a href="#a2"><span class="n">02</span>The ReAct loop</a>
+                <a href="#a3"><span class="n">03</span>The five components</a>
+                <a href="#a4"><span class="n">04</span>Tools — the most important part</a>
+                <a href="#a5"><span class="n">05</span>Memory — short and long</a>
+                <a href="#a6"><span class="n">06</span>Planning, when to use it</a>
+                <a href="#a7"><span class="n">07</span>Evaluation — without this, nothing</a>
+                <a href="#a8"><span class="n">08</span>Building one — 200 lines</a>
+                <a href="#a9"><span class="n">09</span>What multi-agent really means</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ag-article">
+        <div class="ag-shell ag-reading">
+
+            <article class="ag-chap" id="a1">
+                <div class="ag-chap-tag">Section 01 · Definition</div>
+                <h2>What an AI agent <em>actually is.</em></h2>
+                <p>Stripped of marketing, an AI agent is one thing: an LLM in a loop, with the ability to call external functions. That is the whole concept. Everything else — planning, memory, multi-agent orchestration — is a refinement of this single idea.</p>
+                <p>A regular chatbot does one round: you ask, it answers, the conversation moves on. An agent does many rounds <em>with itself</em> on a single task. It thinks. It calls a tool (search, calculator, database query, code execution). It reads the tool's output. It decides what to do next. It loops until it has solved the task or given up.</p>
+                <div class="ag-callout">
+                    <strong>The honest one-line definition</strong>
+                    <p>An AI agent is a language model with hands. It can think, but it can also press buttons. The hands are what make it different from ChatGPT.</p>
+                </div>
+                <p>This definition is small but it matters. The minute an LLM gains the ability to call functions, you have an agent. There is no architectural threshold. There is no "real" agent versus "fake" agent. There is only "how good are its tools" and "how well does it use them."</p>
+            </article>
+
+            <article class="ag-chap" id="a2">
+                <div class="ag-chap-tag">Section 02 · The loop</div>
+                <h2>The <em>ReAct loop.</em></h2>
+                <p>The dominant pattern for agent behaviour in 2025-2026 is called <strong>ReAct</strong> (reason + act). It came from a 2022 paper from Princeton and Google. The idea is so simple that, like attention before it, it took a while for the field to realise this was the right primitive.</p>
+                <div class="ag-loop">
+                    <div class="cap">Figure 2.1 · The ReAct loop · five steps · repeat until done</div>
+                    <div class="ag-loop-grid">
+                        <div class="ag-loop-step">
+                            <div class="ic">01</div>
+                            <div class="ttl">Thought</div>
+                            <div class="desc">The LLM reasons in natural language about what to do next.</div>
+                        </div>
+                        <div class="ag-loop-step">
+                            <div class="ic">02</div>
+                            <div class="ttl">Action</div>
+                            <div class="desc">The LLM picks one of the available tools and chooses inputs.</div>
+                        </div>
+                        <div class="ag-loop-step">
+                            <div class="ic">03</div>
+                            <div class="ttl">Execute</div>
+                            <div class="desc">Your code runs the tool with the LLM's chosen inputs.</div>
+                        </div>
+                        <div class="ag-loop-step">
+                            <div class="ic">04</div>
+                            <div class="ttl">Observe</div>
+                            <div class="desc">The tool's output is fed back to the LLM as new context.</div>
+                        </div>
+                        <div class="ag-loop-step">
+                            <div class="ic">05</div>
+                            <div class="ttl">Loop</div>
+                            <div class="desc">Repeat from Thought, with the new context, until task is done.</div>
+                        </div>
+                    </div>
+                </div>
+                <p>That is the entire loop. Every agent — Claude with tools, GPT with function calling, LangChain, AutoGPT, every commercial agent framework — is, at the core, a variant of this five-step cycle. The differences live in how tools are described, how memory is managed, and how the loop is terminated.</p>
+            </article>
+
+            <article class="ag-chap" id="a3">
+                <div class="ag-chap-tag">Section 03 · Components</div>
+                <h2>The five components <em>every</em> agent has.</h2>
+                <p>Strip an agent down and you find five components. Some are obvious. Some are easy to forget. Forgetting any of them is the most common reason agent demos look great and agent products fail.</p>
+                <ul>
+                    <li><strong>The model</strong> — the LLM doing the reasoning. Claude, GPT, Gemini, an open-weight model. The brain.</li>
+                    <li><strong>The tools</strong> — the functions the agent can call. Web search, code execution, database queries, your company's APIs.</li>
+                    <li><strong>The system prompt</strong> — the instructions that define what the agent is, what it can do, and how it should behave. The personality and the policy.</li>
+                    <li><strong>The memory</strong> — what the agent remembers within a conversation (short-term) and across conversations (long-term).</li>
+                    <li><strong>The evaluator</strong> — how you measure whether the agent is doing its job. Almost always missing from demos. Always the thing that makes a real product.</li>
+                </ul>
+                <p>If you are building an agent and you cannot point at each of these five in your codebase, you are not yet building an agent — you are building a chatbot with delusions of grandeur. The next sections walk through the four components beyond the model in detail.</p>
+            </article>
+
+            <article class="ag-chap" id="a4">
+                <div class="ag-chap-tag">Section 04 · Tools</div>
+                <h2>Tools — the <em>most important</em> part of your agent.</h2>
+                <p>The single largest contributor to whether your agent works is the quality of its tools — not the choice of LLM, not the prompt, not the framework. Tools are the agent's hands. Bad hands, no productive work.</p>
+                <p>A tool is a function with three things: a name, a description, and a JSON schema for its inputs. The description is what the LLM reads to decide whether to use the tool. The schema is what the LLM writes inputs into. The LLM never sees your code — only the description and the schema.</p>
+                <div class="ag-code">
+                    <div class="ag-code-bar"><span>tools/web_search.py</span><span>Python · Claude SDK</span></div>
+                    <pre>web_search_tool = {
+    <span class="str">"name"</span>: <span class="str">"web_search"</span>,
+    <span class="str">"description"</span>: (
+        <span class="str">"Search the web for a query and return the top 5 results "</span>
+        <span class="str">"as titles + URLs + snippets. Use this when you need "</span>
+        <span class="str">"information you do not already have."</span>
+    ),
+    <span class="str">"input_schema"</span>: {
+        <span class="str">"type"</span>: <span class="str">"object"</span>,
+        <span class="str">"properties"</span>: {
+            <span class="str">"query"</span>: {
+                <span class="str">"type"</span>: <span class="str">"string"</span>,
+                <span class="str">"description"</span>: <span class="str">"The search query, 3-10 words."</span>
+            }
+        },
+        <span class="str">"required"</span>: [<span class="str">"query"</span>]
+    }
+}</pre>
+                </div>
+                <p>The description does most of the work. A bad description ("searches things") and the LLM will use the tool inconsistently. A good description tells the LLM <em>when</em> to use the tool, <em>when not</em> to, and what to expect back. Spend ten times more effort on tool descriptions than the literature suggests. We are not joking.</p>
+                <div class="ag-callout">
+                    <strong>Trap #1 · too many tools</strong>
+                    <p>More than 8-10 tools and most models start confusing them or calling the wrong one. If you have more, group them into sub-agents (a single tool that itself is an agent with a focused tool set) rather than exposing all of them to the top-level agent at once.</p>
+                </div>
+            </article>
+
+            <article class="ag-chap" id="a5">
+                <div class="ag-chap-tag">Section 05 · Memory</div>
+                <h2>Memory — <em>short and long.</em></h2>
+                <p>Two kinds of memory, two different problems. <strong>Short-term memory</strong> is the conversation so far — every Thought, every Action, every Observation. It lives in the model's context window. As the loop runs, this gets long. Modern models handle 100k+ tokens, but at high cost and with degraded reasoning at the extremes.</p>
+                <p>The short-term problem is managing this growing context. Three honest strategies, in order of complexity:</p>
+                <ul>
+                    <li><strong>Append everything</strong>, until you hit the context limit. Works for short tasks. Fails for anything multi-hour.</li>
+                    <li><strong>Summarise older turns</strong> when the context grows too long. Have the model condense the first half of the conversation into 200 tokens, then continue.</li>
+                    <li><strong>Hierarchical memory</strong> — keep important facts in a separate "scratchpad" the agent can read and write to. This is what serious production agents do.</li>
+                </ul>
+                <p><strong>Long-term memory</strong> is what the agent remembers <em>across</em> conversations. This is almost always built using vector databases — every interaction is embedded and stored, and at the start of a new conversation, semantically relevant past interactions are retrieved and injected into the system prompt.</p>
+                <p>Long-term memory is the area with the most current research and the least settled best practices. If your agent's job does not strictly require remembering across sessions, do not build it. Premature long-term memory is the single biggest source of bug-creating complexity we see in student projects.</p>
+            </article>
+
+            <article class="ag-chap" id="a6">
+                <div class="ag-chap-tag">Section 06 · Planning</div>
+                <h2>Planning — <em>when to use it.</em></h2>
+                <p>Planning is having the agent break a complex task into sub-tasks before executing. A planning agent reads your request, decides on a step-by-step plan in natural language, then walks that plan executing tools at each step.</p>
+                <p>Planning helps for tasks that have many sequential dependencies — "research five companies, summarise each, compile into a report" benefits from planning. Tasks with one or two clear steps do not need it. Adding planning to a simple task makes the agent slower and more brittle without making it more correct.</p>
+                <div class="ag-callout">
+                    <strong>Trap #2 · planning everything</strong>
+                    <p>Most agent demos that involve a "planner" do so because frameworks default to one. They add latency and break in subtle ways. Add planning only when your tasks involve more than four sequential tool calls or genuine branching logic.</p>
+                </div>
+                <p>The simplest implementation of planning is to ask the LLM to produce a numbered list before any tool calls. Then in your code, iterate through that list — for each step, give the LLM the step and the previous step's output, and ask it to either call a tool or move on. No special framework. Twenty additional lines on top of a ReAct loop.</p>
+            </article>
+
+            <article class="ag-chap" id="a7">
+                <div class="ag-chap-tag">Section 07 · Evaluation</div>
+                <h2>Evaluation — <em>the part everyone skips.</em></h2>
+                <p>Without evaluation, you do not have an agent. You have a vibe.</p>
+                <p>The single largest gap between agent demos and agent products is the existence of a real evaluation set. A demo passes when the developer's eyes light up at the impressive output. A product passes when it correctly handles 200 representative tasks measured automatically. The gap between these two bars is enormous.</p>
+                <p>Build your evaluation set <em>first</em>. Before you build the agent. Twenty real tasks your agent should handle, each with a ground-truth answer. Run the agent against the set after every change. Watch the pass rate move. This is dull. It is also the only way to build something real. Frontier labs employ entire teams whose job is constructing evaluation sets. They do this for a reason.</p>
+                <p>What does an evaluation entry look like? Three fields. The user input. The expected behaviour (in human language). A scoring function (often another LLM call asking "did the agent satisfy the expected behaviour, yes or no"). Twenty entries gets you a useful signal. A hundred gets you a real signal. A thousand is research-grade.</p>
+            </article>
+
+            <article class="ag-chap" id="a8">
+                <div class="ag-chap-tag">Section 08 · Build</div>
+                <h2>Building an agent in <em>200 lines.</em></h2>
+                <p>Here is the complete skeleton. A working agent. ReAct loop. Tools. Short-term memory. Stripped down for clarity. We will use the Anthropic SDK; the OpenAI version is structurally identical. Replace the imports.</p>
+                <div class="ag-code">
+                    <div class="ag-code-bar"><span>agent.py · ~200 lines · runs</span><span>Python · Anthropic SDK</span></div>
+                    <pre><span class="kw">import</span> anthropic, json
+
+client = anthropic.<span class="cls">Anthropic</span>()
+
+<span class="com"># --- Step 1: Define tools (you would have several) ---</span>
+tools = [{
+    <span class="str">"name"</span>: <span class="str">"web_search"</span>,
+    <span class="str">"description"</span>: <span class="str">"Search the web. Returns top results."</span>,
+    <span class="str">"input_schema"</span>: {
+        <span class="str">"type"</span>: <span class="str">"object"</span>,
+        <span class="str">"properties"</span>: { <span class="str">"query"</span>: { <span class="str">"type"</span>: <span class="str">"string"</span> } },
+        <span class="str">"required"</span>: [<span class="str">"query"</span>]
+    }
+}, { ... <span class="com">other tools ...</span> }]
+
+<span class="com"># --- Step 2: Map tool names to actual Python functions ---</span>
+<span class="kw">def</span> <span class="fn">execute_tool</span>(name, args):
+    <span class="kw">if</span> name == <span class="str">"web_search"</span>:
+        <span class="kw">return</span> <span class="fn">search_api</span>(args[<span class="str">"query"</span>])
+    <span class="com"># ... handle other tools ...</span>
+
+<span class="com"># --- Step 3: The ReAct loop ---</span>
+<span class="kw">def</span> <span class="fn">run_agent</span>(user_message, max_iters=<span class="num">10</span>):
+    messages = [{<span class="str">"role"</span>: <span class="str">"user"</span>, <span class="str">"content"</span>: user_message}]
+
+    <span class="kw">for</span> i <span class="kw">in range</span>(max_iters):
+        response = client.messages.<span class="fn">create</span>(
+            model=<span class="str">"claude-opus-4-7"</span>,
+            max_tokens=<span class="num">2048</span>,
+            tools=tools,
+            messages=messages,
+        )
+
+        <span class="com"># If the LLM stopped without calling a tool, we are done</span>
+        <span class="kw">if</span> response.stop_reason == <span class="str">"end_turn"</span>:
+            <span class="kw">return</span> response.content[<span class="num">0</span>].text
+
+        <span class="com"># Otherwise, the LLM called one or more tools</span>
+        messages.<span class="fn">append</span>({<span class="str">"role"</span>: <span class="str">"assistant"</span>, <span class="str">"content"</span>: response.content})
+
+        tool_results = []
+        <span class="kw">for</span> block <span class="kw">in</span> response.content:
+            <span class="kw">if</span> block.type == <span class="str">"tool_use"</span>:
+                result = <span class="fn">execute_tool</span>(block.name, block.input)
+                tool_results.<span class="fn">append</span>({
+                    <span class="str">"type"</span>: <span class="str">"tool_result"</span>,
+                    <span class="str">"tool_use_id"</span>: block.id,
+                    <span class="str">"content"</span>: <span class="fn">str</span>(result),
+                })
+
+        messages.<span class="fn">append</span>({<span class="str">"role"</span>: <span class="str">"user"</span>, <span class="str">"content"</span>: tool_results})
+
+    <span class="kw">return</span> <span class="str">"max iterations reached without finishing"</span></pre>
+                </div>
+                <p>That is the loop. Add real tools, add a thoughtful system prompt, add the twenty-item evaluation set, and you have an honest agent. The implementation is small. The taste is in the tool design, the prompt, and the evaluation. Spend your time there.</p>
+                <div class="ag-callout">
+                    <strong>Trap #3 · framework lock-in</strong>
+                    <p>Frameworks like LangChain, CrewAI and AutoGen are good for prototypes and hard to debug in production. We recommend most students build the loop yourself first — twenty lines — to understand it. Reach for a framework only when you find yourself reimplementing the same thing twice.</p>
+                </div>
+            </article>
+
+            <article class="ag-chap" id="a9">
+                <div class="ag-chap-tag">Section 09 · Multi-agent</div>
+                <h2>What <em>multi-agent</em> really means.</h2>
+                <p>The term "multi-agent" is overloaded and oversold. In practice, in 2026, there are two genuine patterns:</p>
+                <p><strong>Pattern A — Sub-agents as tools.</strong> Your top-level agent has a tool called "research_agent" or "code_writer_agent". When called, the top-level agent passes a sub-task to a smaller, focused agent that has its own narrow tool set. The sub-agent runs its own ReAct loop, returns a final answer, and the top-level agent continues. This pattern works and is in use at every serious agent product in the wild.</p>
+                <p><strong>Pattern B — Multi-agent debate.</strong> Two or more agents take turns critiquing each other's outputs before producing a final answer. Used for tasks where the additional latency is worth the quality improvement. Less common, but valuable in research, planning, and writing.</p>
+                <p>Most "multi-agent" demos online are actually Pattern A poorly explained. They are not a different category of intelligence — they are a single agent with a richer tool set. The "agents talk to each other" framing is rhetorical; mechanically, it is one LLM calling tools that happen to be other LLMs.</p>
+                <div class="ag-callout">
+                    <strong>The honest summary</strong>
+                    <p>If you remember one paragraph from this article, remember this one. An agent is an LLM in a ReAct loop with well-described tools. Memory and planning are refinements. Multi-agent is sub-agents-as-tools. Evaluation is the difference between a demo and a product. Everything else is detail.</p>
+                </div>
+                <p>You now have the conceptual map of agents at the level real engineers think about them. The next step is doing — building a small one for a real task. The Modern Age Coders <a href="/courses/complete-generative-ai-masterclass-college">Generative AI Masterclass</a> walks small cohorts through building production agents in twelve weeks. The cohort path is faster than self-study by a factor of three, in our measurement. We have lots of receipts.</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- COURSES -->
+    <section class="ag-courses">
+        <div class="ag-shell">
+            <span class="ag-tag">MAC cohorts · build agents with peers</span>
+            <h2>Cohorts where students build real <em>agents.</em></h2>
+            <p class="lead">An agent is not built from a tutorial. It is built by writing, breaking, fixing, evaluating. Modern Age Coders runs small live cohorts at every age — kid, teen, college, adult — where students build real agents under mentor supervision. Click any course below to see the full syllabus and schedule.</p>
+
+            <div class="ag-band">
+                <div class="ag-band-hd">
+                    <h3>For <em>kids</em>, age 9–13</h3>
+                    <span class="ages">Junior · weekly live</span>
+                </div>
+                <div class="ag-band-grid">
+                    <a class="ag-course" href="/courses/kids-ai-mastery-course">
+                        <div class="tier">Ages 9–13 · AI Tools</div>
+                        <h4>Kids AI <em>Mastery</em></h4>
+                        <p>Use real AI tools — Claude, ChatGPT, image generators — and build small AI assistants. The on-ramp to agents.</p>
+                        <div class="ag-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="ag-course" href="/courses/python-ai-kids-masterclass">
+                        <div class="tier">Ages 8–12 · Python+AI</div>
+                        <h4>Python &amp; AI Kids <em>Masterclass</em></h4>
+                        <p>The Python foundation any future agent builder needs. Plus first-touch AI projects.</p>
+                        <div class="ag-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="ag-course" href="/courses/canva-ai-design-masterclass">
+                        <div class="tier">Ages 10–14 · Creative AI</div>
+                        <h4>Canva &amp; AI <em>Design</em></h4>
+                        <p>For the kid more drawn to creative AI than backend. Builds taste and tool-fluency.</p>
+                        <div class="ag-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="ag-band">
+                <div class="ag-band-hd">
+                    <h3>For <em>teens</em>, age 13–18</h3>
+                    <span class="ages">Senior · weekly live</span>
+                </div>
+                <div class="ag-band-grid">
+                    <a class="ag-course" href="/courses/ai-ml-masterclass-teens">
+                        <div class="tier">Ages 14–18 · AI/ML</div>
+                        <h4>AI &amp; ML <em>Masterclass · Teens</em></h4>
+                        <p>The foundation for serious teen agent builders. Build models. Then make them call tools.</p>
+                        <div class="ag-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="ag-course" href="/courses/vibe-coding-for-teens-python-web-ai-projects-course">
+                        <div class="tier">Ages 13–17 · Full Stack</div>
+                        <h4>Vibe Coding for <em>Teens</em></h4>
+                        <p>Python + web + AI projects. By month six, teens here are building small chatbot agents.</p>
+                        <div class="ag-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="ag-course" href="/courses/python-complete-masterclass-teens">
+                        <div class="tier">Ages 13–17 · Python depth</div>
+                        <h4>Python Complete <em>Masterclass</em></h4>
+                        <p>Prerequisite for agent work. Cannot build agents in Python without real Python.</p>
+                        <div class="ag-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="ag-band">
+                <div class="ag-band-hd">
+                    <h3>For <em>adults &amp; college</em>, age 17+</h3>
+                    <span class="ages">Pro · weekly live</span>
+                </div>
+                <div class="ag-band-grid">
+                    <a class="ag-course" href="/courses/complete-generative-ai-masterclass-college">
+                        <div class="tier">College / Adult · GenAI</div>
+                        <h4>Generative AI <em>Masterclass</em></h4>
+                        <p>The course this article is the trailer for. Twelve weeks, real production agents, mentor-led.</p>
+                        <div class="ag-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="ag-course" href="/courses/python-ai-automation-masterclass-college">
+                        <div class="tier">College / Adult · Automation</div>
+                        <h4>Python AI <em>Automation</em></h4>
+                        <p>Agents in the context of automating real work. Highest-leverage path for non-engineers.</p>
+                        <div class="ag-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                    <a class="ag-course" href="/courses/ai-ml-masterclass-complete-college">
+                        <div class="tier">College / Adult · AI/ML</div>
+                        <h4>AI &amp; ML <em>Complete</em></h4>
+                        <p>The deep technical foundation. From numpy to training transformers. The track agent engineers come out of.</p>
+                        <div class="ag-course-foot"><span>2 classes/week</span><span class="price">₹1,499/mo</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEAD -->
+    <section class="ag-lead" id="lead">
+        <div class="ag-shell">
+            <div class="ag-lead-grid">
+                <div>
+                    <span class="ag-tag">Talk to a mentor · free 25-min call</span>
+                    <h2>Ready to build a <em>real one?</em></h2>
+                    <p>If you have read this far you are probably ready to actually build an agent. The next cohort of our Generative AI Masterclass starts in two weeks. Tell us where you are; a senior MAC mentor will reply with a calendar link inside 24 hours.</p>
+                </div>
+                <form class="ag-form" name="ai-agents-lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+                    <input type="hidden" name="form-name" value="ai-agents-lead">
+                    <p style="display:none;"><label>Don't fill this out: <input name="bot-field" /></label></p>
+                    <h3>// build an agent with us</h3>
+                    <input type="text" name="name" placeholder="learner_name" required>
+                    <select name="age_band" required>
+                        <option value="">age_band</option>
+                        <option>kid · 9-13</option>
+                        <option>teen · 13-17</option>
+                        <option>college · 18-22</option>
+                        <option>adult · 23+</option>
+                    </select>
+                    <select name="goal" required>
+                        <option value="">what's the goal</option>
+                        <option>just curious about agents</option>
+                        <option>want to build an agent for my own work</option>
+                        <option>building an agent for my company</option>
+                        <option>career change into AI engineering</option>
+                        <option>helping my child build early</option>
+                    </select>
+                    <input type="tel" name="whatsapp" placeholder="whatsapp · +91 98XXX XXXXX" required>
+                    <input type="email" name="email" placeholder="email · optional">
+                    <button type="submit">send me the next cohort →</button>
+                    <div class="fine">// senior mentor reads each form. reply within 24 hours.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="ag-faq">
+        <div class="ag-shell">
+            <span class="ag-tag">honest follow-ups</span>
+            <h2>The questions builders <em>actually ask.</em></h2>
+
+            <details>
+                <summary>How is this different from LangChain / CrewAI / AutoGen?</summary>
+                <p>Those are frameworks built on top of exactly the loop described in this article. They add abstractions, prebuilt tools, and conveniences. They also add complexity, latency and debugging pain. We recommend students implement the bare loop themselves first (twenty lines) before adopting any framework. You will then be able to read what frameworks are doing under the hood and pick the right one for the right problem — instead of being locked into one because you do not know the alternatives.</p>
+            </details>
+
+            <details>
+                <summary>Should I use Claude, GPT, or an open model?</summary>
+                <p>In 2026: for production agents we recommend Claude (best tool use, large context, good reasoning) or GPT (cheaper, mature ecosystem). For learning and self-hosting, open models from the Llama and Mistral families work fine at the cost of slightly worse tool-use precision. Mix and match — there is no rule against using Claude for the planning step and a cheap open model for the bulk of the loop.</p>
+            </details>
+
+            <details>
+                <summary>What about LangGraph, Mastra, Crew.AI v2?</summary>
+                <p>All variants of the patterns in this article. LangGraph is the most disciplined of the bunch in 2026 — it forces you to draw the agent state machine explicitly, which is a good habit. We teach LangGraph in the second half of the Generative AI Masterclass cohort. Most students arrive thinking they need it and learn that for two-thirds of agent problems, plain Python is faster and clearer.</p>
+            </details>
+
+            <details>
+                <summary>How much does running an agent cost?</summary>
+                <p>Highly variable. A simple research agent answering one question is roughly $0.01 to $0.05 in API costs. A complex agent doing fifteen tool calls might cost $0.20 to $1. For a product serving 10,000 users per day, expect $300 to $3,000 per day in raw LLM costs. This is why evaluation matters so much — measuring cost-per-success is one of the core production metrics. The Generative AI Masterclass spends a full week on cost optimisation.</p>
+            </details>
+
+            <details>
+                <summary>Can a teenager build a useful agent?</summary>
+                <p>Yes. We have 15-year-olds in our cohorts shipping agents that do real work — homework helpers, study planners, small business assistants for their parents. The barrier is not age; it is Python fluency. A teenager with one year of Python and four hours a week of cohort time can build a useful agent in twelve weeks.</p>
+            </details>
+
+            <details>
+                <summary>What about safety, hallucinations, prompt injection?</summary>
+                <p>These are the three main risks of agent products. Hallucinations — the agent confidently asserting wrong facts — are addressed mainly through grounding (force the agent to cite tool outputs). Prompt injection — a malicious tool output that hijacks the agent — is mitigated by treating all tool outputs as untrusted user input and never letting tool outputs change the system prompt. Safety — the agent doing things it should not — is mitigated by limiting which tools are available and by sandboxing dangerous ones. We cover each of these in week eight of the Generative AI Masterclass.</p>
+            </details>
+
+            <details>
+                <summary>Will agents replace software engineers?</summary>
+                <p>No, but they will deeply change the job. The engineers who learn to build, deploy and evaluate agents become much more valuable. The engineers who do not, will see their roles slowly compressed. This is exactly why this pillar exists — to give you a real conceptual foundation, fast.</p>
+            </details>
+
+            <details>
+                <summary>What should I read after this?</summary>
+                <p>In order: our companion pillar <a href="/how-ai-actually-works">How AI Actually Works</a>, then <a href="/build-your-own-gpt-python">Build Your Own GPT</a> to ground out what the LLM in your agent is actually doing. Then the original ReAct paper (Yao et al., 2022, freely on arXiv). And the Anthropic and OpenAI tool-use guides — they are the cleanest reference docs in the field.</p>
+            </details>
+        </div>
+    </section>
+
+    <section class="ag-related">
+        <div class="ag-shell">
+            <h2>Read next</h2>
+            <div class="ag-related-grid">
+                <div class="ag-related-col">
+                    <h4>Pillar siblings</h4>
+                    <a href="/how-ai-actually-works">How AI actually works</a>
+                    <a href="/build-your-own-gpt-python">Build your own GPT</a>
+                    <a href="/inside-neural-networks">Inside neural networks</a>
+                    <a href="/ai-engineer-roadmap-2026">AI engineer roadmap</a>
+                </div>
+                <div class="ag-related-col">
+                    <h4>Course tracks</h4>
+                    <a href="/levels/coding-for-kids">For kids</a>
+                    <a href="/levels/coding-for-teens">For teens</a>
+                    <a href="/levels/coding-for-college-students">For college</a>
+                    <a href="/levels/coding-for-professionals">For professionals</a>
+                </div>
+                <div class="ag-related-col">
+                    <h4>Specialty</h4>
+                    <a href="/coding-olympiad-medal-track">Olympiad track</a>
+                    <a href="/jee-aspirant-coding-track">JEE coding track</a>
+                    <a href="/coding-comeback-women">Comeback · women</a>
+                    <a href="/ai-agents-and-automation">AI for business</a>
+                </div>
+                <div class="ag-related-col">
+                    <h4>Tools</h4>
+                    <a href="/screen-time-to-skill">Screen-time calculator</a>
+                    <a href="/coding-fee-calculator">Fee calculator</a>
+                    <a href="/coding-roadmap">Coding roadmap</a>
+                    <a href="/book-demo">Book a free demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+</body>
+</html>
