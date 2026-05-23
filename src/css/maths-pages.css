@@ -455,3 +455,17 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-gcse h1, .mp-gcse h2 { letter-spacing:-.022em; font-weight:700; }
 .mp-gcse .mp-eyebrow { color: var(--mp-accent-2); }
 .mp-gcse .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-alevel : deep teal + amber, advanced & assured --- */
+.mp-alevel {
+  --mp-accent: #0f766e; --mp-accent-2: #d97706; --mp-accent-soft: #d6f0ec;
+  --mp-hero-bg: #06302c; --mp-hero-ink: #ecfbf7; --mp-hero-muted: #8dbdb4;
+  --mp-bg-alt: #f3faf8; --mp-ink: #0f2421;
+  --mp-font-head: "Hanken Grotesk", "Inter", sans-serif;
+}
+.mp-alevel .mp-hero { background:
+  radial-gradient(820px 520px at 14% -12%, #0d5249 0%, transparent 56%), var(--mp-hero-bg); }
+.mp-alevel .mp-hero::after { content:"∫"; position:absolute; right:5%; top:6%; z-index:1; font-family:"Lora",Georgia,serif;
+  font-size:23rem; line-height:.7; color:rgba(217,119,6,.10); }
+.mp-alevel h1, .mp-alevel h2 { letter-spacing:-.02em; font-weight:700; }
+.mp-alevel .mp-worked { border-left-color: var(--mp-accent-2); }
