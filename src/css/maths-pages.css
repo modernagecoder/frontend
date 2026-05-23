@@ -336,3 +336,17 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-olympiad-us h2 { font-weight:600; }
 .mp-olympiad-us .mp-eyebrow { color: var(--mp-accent); }
 .mp-olympiad-us .mp-worked { border-left-color: var(--mp-accent); }
+
+/* --- mp-algebra : green + violet, balanced & structural --- */
+.mp-algebra {
+  --mp-accent: #16a34a; --mp-accent-2: #7c3aed; --mp-accent-soft: #dcf5e4;
+  --mp-hero-bg: #11142a; --mp-hero-ink: #eef2ff; --mp-hero-muted: #9aa3c9;
+  --mp-bg-alt: #f4f8f5; --mp-ink: #14182a;
+  --mp-font-head: "Manrope", "Inter", sans-serif;
+}
+.mp-algebra .mp-hero { background:
+  linear-gradient(120deg, #11142a 0%, #15243a 50%, #221945 115%); }
+.mp-algebra .mp-hero::after { content:"="; position:absolute; right:5%; top:14%; z-index:1; font-family:var(--mp-font-head);
+  font-weight:700; font-size:20rem; line-height:.6; color:rgba(124,58,237,.12); }
+.mp-algebra h1, .mp-algebra h2 { letter-spacing:-.022em; font-weight:800; }
+.mp-algebra .mp-worked { border-left-color: var(--mp-accent); }
