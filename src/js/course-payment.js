@@ -4,6 +4,173 @@
  * Works with courses-config.json for pricing
  */
 
+/* -----------------------------------------------------------------------
+ * EnrollmentStatus — localStorage-backed memory of which courses the
+ * current browser has already paid for. After a successful payment we
+ * call EnrollmentStatus.mark(); on every page load we call applyUI(),
+ * which hides "Enroll" buttons and shows a sticky banner reminding the
+ * student to contact +91 91233 66161 for class timings & schedule.
+ *
+ * Defined idempotently on window so other scripts (e.g. summer-camp
+ * enrollment) can reuse the same instance without re-declaring it.
+ * --------------------------------------------------------------------- */
+(function () {
+  if (window.EnrollmentStatus) return;
+
+  var KEY_PREFIX = 'mac_enrolled_v1::';
+  var TTL_DAYS = 365;
+
+  function normalizePath(p) {
+    p = (p || window.location.pathname || '/').toLowerCase();
+    if (p.length > 1 && p.charAt(p.length - 1) === '/') p = p.slice(0, -1);
+    return p;
+  }
+
+  function storageKey(path) {
+    return KEY_PREFIX + normalizePath(path);
+  }
+
+  var EnrollmentStatus = {
+    mark: function (record) {
+      try {
+        var path = normalizePath(record && record.coursePath);
+        var payload = {
+          coursePath: path,
+          courseName: (record && record.courseName) || '',
+          plan: (record && record.plan) || '',
+          orderId: (record && record.orderId) || '',
+          amount: (record && record.amount != null) ? String(record.amount) : '',
+          currency: (record && record.currency) || 'INR',
+          enrolledAt: Date.now()
+        };
+        localStorage.setItem(storageKey(path), JSON.stringify(payload));
+      } catch (e) { /* localStorage disabled / quota — silently ignore */ }
+    },
+
+    get: function (path) {
+      try {
+        var raw = localStorage.getItem(storageKey(path));
+        if (!raw) return null;
+        var parsed = JSON.parse(raw);
+        var ageMs = Date.now() - (parsed.enrolledAt || 0);
+        if (ageMs > TTL_DAYS * 24 * 60 * 60 * 1000) {
+          localStorage.removeItem(storageKey(path));
+          return null;
+        }
+        return parsed;
+      } catch (e) { return null; }
+    },
+
+    clear: function (path) {
+      try { localStorage.removeItem(storageKey(path)); } catch (e) {}
+    },
+
+    applyUI: function () {
+      var record = this.get();
+      if (!record) return false;
+      this._relabelEnrollButtons();
+      this._injectBanner(record);
+      this._installClickRedirect(record);
+      return true;
+    },
+
+    welcomeUrl: function (record) {
+      if (!record) return '/welcome';
+      return '/welcome?course=' + encodeURIComponent(record.courseName || '') +
+             '&orderId=' + encodeURIComponent(record.orderId || '') +
+             '&amount=' + encodeURIComponent(record.amount || '') +
+             '&currency=' + encodeURIComponent(record.currency || 'INR') +
+             (record.plan ? '&plan=' + encodeURIComponent(record.plan) : '');
+    },
+
+    _relabelEnrollButtons: function () {
+      // Mark enroll buttons as "Already Enrolled" but keep them clickable —
+      // a click takes the student to /welcome instead of opening payment.
+      var selectors = '.enroll-btn, [data-enroll-btn], [data-enroll-camp], .pricing-card .btn-premium-solid';
+      var nodes = document.querySelectorAll(selectors);
+      for (var i = 0; i < nodes.length; i++) {
+        var btn = nodes[i];
+        if (btn.dataset.macEnrolledApplied === 'true') continue;
+        btn.dataset.macEnrolledApplied = 'true';
+        btn.dataset.macOriginalText = (btn.textContent || '').trim();
+        btn.textContent = '✓ Already Enrolled — View Details';
+        btn.setAttribute('aria-label', 'You are already enrolled. View enrollment details.');
+        btn.style.cursor = 'pointer';
+        btn.style.background = 'linear-gradient(135deg, #22c55e, #15803d)';
+        btn.style.color = '#fff';
+        btn.style.border = 'none';
+      }
+    },
+
+    _installClickRedirect: function (record) {
+      var self = this;
+      // Capture-phase listener: runs BEFORE other scripts (e.g. EnrollmentModal)
+      // can react to the click. Redirects to /welcome with the saved enrollment.
+      document.addEventListener('click', function (e) {
+        var target = e.target && e.target.closest && e.target.closest('.enroll-btn, [data-enroll-btn], [data-enroll-camp], .pricing-card .btn-premium-solid');
+        if (!target) return;
+        if (target.dataset.macEnrolledApplied !== 'true') return;
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+        window.location.href = self.welcomeUrl(record);
+      }, true);
+    },
+
+    _injectBanner: function (record) {
+      if (document.getElementById('mac-enrolled-banner')) return;
+      var waText = encodeURIComponent('Hi! I have enrolled in ' +
+        (record.courseName || 'a course') +
+        (record.orderId ? ' (Order ID: ' + record.orderId + ')' : '') +
+        '. Please share my class timings and schedule.');
+      var waLink = 'https://wa.me/919123366161?text=' + waText;
+      var welcomeHref = this.welcomeUrl(record);
+
+      var banner = document.createElement('div');
+      banner.id = 'mac-enrolled-banner';
+      banner.setAttribute('role', 'status');
+      banner.setAttribute('aria-live', 'polite');
+      banner.innerHTML =
+        '<style>' +
+          '#mac-enrolled-banner{position:sticky;top:0;z-index:9999;' +
+            'background:linear-gradient(135deg,rgba(34,197,94,0.22),rgba(78,205,196,0.22));' +
+            'backdrop-filter:blur(10px);border-bottom:1px solid rgba(78,205,196,0.45);' +
+            'color:#f1f5f9;padding:0.75rem 1rem;font-size:0.95rem;' +
+            'display:flex;flex-wrap:wrap;align-items:center;justify-content:center;' +
+            'gap:0.6rem 0.9rem;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;}' +
+          '#mac-enrolled-banner .meb-tick{color:#4ade80;font-weight:700;}' +
+          '#mac-enrolled-banner strong{color:#fff;}' +
+          '#mac-enrolled-banner a.meb-btn{display:inline-flex;align-items:center;gap:0.35rem;' +
+            'padding:0.4rem 0.85rem;border-radius:0.5rem;text-decoration:none;' +
+            'font-weight:600;font-size:0.88rem;color:#fff;}' +
+          '#mac-enrolled-banner a.meb-wa{background:#25D366;}' +
+          '#mac-enrolled-banner a.meb-call{background:#34b7f1;}' +
+          '#mac-enrolled-banner a.meb-details{color:#cbd5e1;font-size:0.85rem;text-decoration:underline;}' +
+          '#mac-enrolled-banner .meb-close{background:transparent;border:none;color:#cbd5e1;' +
+            'cursor:pointer;font-size:1.2rem;padding:0 0.25rem;margin-left:0.5rem;}' +
+          '@media(max-width:600px){#mac-enrolled-banner{font-size:0.88rem;}}' +
+        '</style>' +
+        '<span class="meb-tick">✓ You\'re already enrolled.</span> ' +
+        '<span>Contact <strong>+91 91233 66161</strong> on WhatsApp or call for class timings &amp; schedule.</span> ' +
+        '<a class="meb-btn meb-wa" href="' + waLink + '" target="_blank" rel="noopener">WhatsApp</a> ' +
+        '<a class="meb-btn meb-call" href="tel:+919123366161">Call</a> ' +
+        '<a class="meb-details" href="' + welcomeHref + '">View details</a> ' +
+        '<button class="meb-close" aria-label="Dismiss" title="Dismiss">&times;</button>';
+      document.body.insertAdjacentElement('afterbegin', banner);
+      var closeBtn = banner.querySelector('.meb-close');
+      if (closeBtn) closeBtn.addEventListener('click', function () { banner.remove(); });
+    }
+  };
+
+  window.EnrollmentStatus = EnrollmentStatus;
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () { EnrollmentStatus.applyUI(); });
+  } else {
+    EnrollmentStatus.applyUI();
+  }
+})();
+
 const CoursePayment = {
   config: null,
   courseSlug: null,
@@ -312,16 +479,56 @@ const CoursePayment = {
       });
 
       const data = await response.json();
-      
+
       if (data.success) {
         this.closeModal();
-        this.showSuccessMessage(data.payment);
+        this.redirectToWelcome(data.payment);
       } else {
         throw new Error(data.error || 'Verification failed');
       }
     } catch (error) {
       console.error('Verification error:', error);
       alert('Payment verification failed. Please contact support with your payment ID.');
+    }
+  },
+
+  // Redirect to the dedicated welcome / confirmation page after a successful payment.
+  // The /welcome page asks the student to contact 9123366161 on WhatsApp or call
+  // to confirm class timings and schedule.
+  redirectToWelcome: function(payment) {
+    try {
+      var currency = (payment && payment.currency)
+        ? payment.currency
+        : ((window.__MAC_IS_INDIAN === false) ? 'USD' : 'INR');
+      var planType = (payment && payment.planType) || null;
+      var planName = planType ? this.getPlanName(planType) : '';
+
+      // Remember this enrollment in localStorage so the student doesn't see
+      // the "Enroll" buttons (and can't accidentally pay twice) when they
+      // revisit this course page on the same browser.
+      if (window.EnrollmentStatus) {
+        window.EnrollmentStatus.mark({
+          coursePath: window.location.pathname,
+          courseName: this.courseName,
+          plan: planName,
+          orderId: payment && payment.orderId,
+          amount: payment && payment.amount,
+          currency: currency
+        });
+      }
+
+      var params = new URLSearchParams();
+      if (this.courseName) params.set('course', this.courseName);
+      if (planName) params.set('plan', planName);
+      if (payment && payment.orderId) params.set('orderId', payment.orderId);
+      if (payment && payment.amount != null) params.set('amount', String(payment.amount));
+      params.set('currency', currency);
+      window.location.href = '/welcome?' + params.toString();
+    } catch (e) {
+      // Fallback: if the redirect fails for any reason, fall back to the modal so
+      // the student still sees confirmation + the support number.
+      console.error('Redirect to /welcome failed, falling back to modal:', e);
+      this.showSuccessMessage(payment);
     }
   },
 

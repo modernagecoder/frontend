@@ -322,6 +322,9 @@
 /cancellation /src/pages/cancellation.html 200
 /refund /src/pages/refund.html 200
 
+# Post-payment welcome / enrollment confirmation page
+/welcome /src/pages/welcome.html 200
+
 # Schools Hub Page
 /schools /src/pages/schools.html 200
 

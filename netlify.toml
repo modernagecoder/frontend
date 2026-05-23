@@ -899,6 +899,12 @@
   to = "/src/pages/refund.html"
   status = 200
 
+# Post-payment welcome / enrollment confirmation page
+[[redirects]]
+  from = "/welcome"
+  to = "/src/pages/welcome.html"
+  status = 200
+
 # Schools Hub Page
 [[redirects]]
   from = "/schools"
