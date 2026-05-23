@@ -395,3 +395,19 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-kids-uk h1, .mp-kids-uk h2, .mp-kids-uk h3 { font-weight:700; letter-spacing:-.01em; }
 .mp-kids-uk .mp-worked { border-left-color: var(--mp-accent-2); }
 .mp-kids-uk .mp-step::before { border-radius:50%; }
+
+/* --- mp-teens-uk : deep purple + teal, modern secondary --- */
+.mp-teens-uk {
+  --mp-accent: #6d28d9; --mp-accent-2: #0d9488; --mp-accent-soft: #ece4fd;
+  --mp-hero-bg: #19133b; --mp-hero-ink: #f1ecff; --mp-hero-muted: #ada3d4;
+  --mp-bg-alt: #f6f4fd; --mp-ink: #181430;
+  --mp-font-head: "Plus Jakarta Sans", "Inter", sans-serif;
+}
+.mp-teens-uk .mp-hero { background:
+  linear-gradient(135deg, #19133b 0%, #241a52 55%, #0c3b39 120%); }
+.mp-teens-uk .mp-hero::after { content:""; position:absolute; inset:0; z-index:1;
+  background: repeating-linear-gradient(135deg, transparent 0 30px, rgba(13,148,136,.07) 30px 31px),
+              repeating-linear-gradient(45deg, transparent 0 30px, rgba(109,40,217,.08) 30px 31px);
+  mask-image: linear-gradient(180deg, #000, transparent 72%); }
+.mp-teens-uk h1, .mp-teens-uk h2 { letter-spacing:-.022em; font-weight:700; }
+.mp-teens-uk .mp-worked { border-left-color: var(--mp-accent-2); }
