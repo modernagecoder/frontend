@@ -381,3 +381,17 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-homeschool h1, .mp-homeschool h2 { font-weight:600; letter-spacing:-.01em; }
 .mp-homeschool .mp-worked { border-left-color: var(--mp-accent-2); }
 .mp-homeschool .mp-step::before { border-radius:8px; }
+
+/* --- mp-kids-uk : blue + sunny yellow, bright & friendly (primary) --- */
+.mp-kids-uk {
+  --mp-accent: #2563eb; --mp-accent-2: #f59e0b; --mp-accent-soft: #e0eaff;
+  --mp-hero-bg: #122253; --mp-hero-ink: #eef3ff; --mp-hero-muted: #a3b3e0;
+  --mp-bg-alt: #f5f8ff; --mp-ink: #14213f;
+  --mp-font-head: "Baloo 2", "Inter", sans-serif;
+}
+.mp-kids-uk .mp-hero { background:
+  radial-gradient(720px 460px at 86% -6%, #f59e0b 0%, transparent 48%),
+  radial-gradient(620px 420px at 4% 112%, #2563eb 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-kids-uk h1, .mp-kids-uk h2, .mp-kids-uk h3 { font-weight:700; letter-spacing:-.01em; }
+.mp-kids-uk .mp-worked { border-left-color: var(--mp-accent-2); }
+.mp-kids-uk .mp-step::before { border-radius:50%; }
