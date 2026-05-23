@@ -484,3 +484,19 @@ ul, ol { color: var(--mp-ink-soft); }
   mask-image: radial-gradient(circle at 82% 26%, #000, transparent 46%); }
 .mp-furthermaths h1, .mp-furthermaths h2 { letter-spacing:-.02em; font-weight:700; }
 .mp-furthermaths .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-elevenplus : heritage navy + gold, traditional & trusted --- */
+.mp-elevenplus {
+  --mp-accent: #1e40af; --mp-accent-2: #b08200; --mp-accent-soft: #e3e9fb;
+  --mp-hero-bg: #0e1a38; --mp-hero-ink: #eef2fb; --mp-hero-muted: #9aa8cc;
+  --mp-bg-alt: #f6f5f0; --mp-ink: #131a2c;
+  --mp-font-head: "EB Garamond", Georgia, serif;
+}
+.mp-elevenplus .mp-hero { background:
+  linear-gradient(180deg, #0e1a38 0%, #152554 100%); }
+.mp-elevenplus .mp-hero::after { content:""; position:absolute; inset:0; z-index:1; opacity:.5;
+  background: radial-gradient(circle at 50% 6%, rgba(176,130,0,.18), transparent 42%); }
+.mp-elevenplus h1 { font-weight:600; font-size: clamp(2.3rem, 1.5rem + 3.6vw, 4rem); }
+.mp-elevenplus h2 { font-weight:600; }
+.mp-elevenplus .mp-eyebrow { color: var(--mp-accent-2); }
+.mp-elevenplus .mp-worked { border-left-color: var(--mp-accent-2); }
