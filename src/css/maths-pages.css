@@ -530,3 +530,19 @@ ul, ol { color: var(--mp-ink-soft); }
   mask-image: linear-gradient(200deg, #000, transparent 66%); }
 .mp-ks3 h1, .mp-ks3 h2 { letter-spacing:-.02em; font-weight:700; }
 .mp-ks3 .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-commonentrance : burgundy + cream, independent-school heritage --- */
+.mp-commonentrance {
+  --mp-accent: #9f1239; --mp-accent-2: #a16207; --mp-accent-soft: #f7e3e8;
+  --mp-hero-bg: #2a0f1a; --mp-hero-ink: #faf2ee; --mp-hero-muted: #c4a3ab;
+  --mp-bg-alt: #f8f4ee; --mp-ink: #281019;
+  --mp-font-head: "Source Serif 4", Georgia, serif;
+}
+.mp-commonentrance .mp-hero { background:
+  radial-gradient(760px 520px at 86% -10%, #5a1730 0%, transparent 58%), var(--mp-hero-bg); }
+.mp-commonentrance .mp-hero::after { content:""; position:absolute; inset:0; z-index:1; opacity:.5;
+  background: radial-gradient(circle at 50% 4%, rgba(161,98,7,.16), transparent 40%); }
+.mp-commonentrance h1 { font-weight:600; }
+.mp-commonentrance h2 { font-weight:600; }
+.mp-commonentrance .mp-eyebrow { color: var(--mp-accent-2); }
+.mp-commonentrance .mp-worked { border-left-color: var(--mp-accent-2); }
