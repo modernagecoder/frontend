@@ -194,3 +194,23 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-prose-2 { columns: 2; column-gap: 2.4rem; }
 @media (max-width: 760px) { .mp-prose-2 { columns: 1; } }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+
+/* ============================================================
+   PER-PAGE THEMES
+   Each page sets <body class="mp-root mp-xxx"> and gets its own
+   palette + one signature treatment so no two pages feel alike.
+   ============================================================ */
+
+/* --- mp-kids-us : warm coral + teal, soft & friendly (elementary) --- */
+.mp-kids-us {
+  --mp-accent: #ef5d4e; --mp-accent-2: #14b8a6; --mp-accent-soft: #fdeceb;
+  --mp-hero-bg: #0d2f33; --mp-hero-ink: #f3fbfa; --mp-hero-muted: #9fc6c4;
+  --mp-bg-alt: #fbf6f3; --mp-font-head: "Fraunces", Georgia, serif;
+}
+.mp-kids-us .mp-hero { background:
+  radial-gradient(900px 460px at 88% -8%, #14b8a6 0%, transparent 55%),
+  radial-gradient(700px 420px at 6% 110%, #ef5d4e 0%, transparent 50%),
+  var(--mp-hero-bg); }
+.mp-kids-us h1, .mp-kids-us h2 { letter-spacing: -.018em; }
+.mp-kids-us .mp-worked { border-left-color: var(--mp-accent-2); }
+.mp-kids-us .mp-bond { display:inline-grid; place-items:center; width:2.4rem; height:2.4rem; border-radius:50%; background:var(--mp-accent-soft); color:var(--mp-accent); font-family:var(--mp-font-mono); font-weight:600; }
