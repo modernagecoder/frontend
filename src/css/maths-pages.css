@@ -440,3 +440,18 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-adults-uk h1, .mp-adults-uk h2 { font-weight:800; letter-spacing:-.018em; }
 .mp-adults-uk .mp-worked { border-left-color: var(--mp-accent-2); }
 .mp-adults-uk .mp-step::before { border-radius:6px; }
+
+/* --- mp-gcse : exam blue + green, clear & confident --- */
+.mp-gcse {
+  --mp-accent: #1d4ed8; --mp-accent-2: #059669; --mp-accent-soft: #e2ebff;
+  --mp-hero-bg: #0c1d3c; --mp-hero-ink: #eef3ff; --mp-hero-muted: #97a8cd;
+  --mp-bg-alt: #f4f7fc; --mp-ink: #111a30;
+  --mp-font-head: "Onest", "Inter", sans-serif;
+}
+.mp-gcse .mp-hero { background:
+  linear-gradient(125deg, #0c1d3c 0%, #123056 55%, #0a3d34 120%); }
+.mp-gcse .mp-hero::after { content:""; position:absolute; right:-3%; top:-15%; width:460px; height:460px; z-index:1;
+  background: conic-gradient(from 160deg, rgba(5,150,105,.18), transparent 42%); border-radius:50%; filter:blur(6px); }
+.mp-gcse h1, .mp-gcse h2 { letter-spacing:-.022em; font-weight:700; }
+.mp-gcse .mp-eyebrow { color: var(--mp-accent-2); }
+.mp-gcse .mp-worked { border-left-color: var(--mp-accent-2); }
