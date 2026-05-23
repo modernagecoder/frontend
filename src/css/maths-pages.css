@@ -367,3 +367,17 @@ ul, ol { color: var(--mp-ink-soft); }
   background-size: 90px 156px; mask-image: radial-gradient(circle at 78% 30%, #000, transparent 62%); }
 .mp-geometry h1, .mp-geometry h2 { letter-spacing:-.02em; font-weight:700; }
 .mp-geometry .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-homeschool : sage + terracotta, warm & domestic --- */
+.mp-homeschool {
+  --mp-accent: #4f7a5f; --mp-accent-2: #c2683f; --mp-accent-soft: #e2efe5;
+  --mp-hero-bg: #1d2b22; --mp-hero-ink: #f3f8f2; --mp-hero-muted: #a7c0ac;
+  --mp-bg-alt: #f6f4ee; --mp-ink: #1c241d;
+  --mp-font-head: "Bitter", Georgia, serif;
+}
+.mp-homeschool .mp-hero { background:
+  radial-gradient(720px 520px at 88% 110%, #2f4a37 0%, transparent 58%),
+  radial-gradient(620px 400px at 4% -10%, #6a3a26 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-homeschool h1, .mp-homeschool h2 { font-weight:600; letter-spacing:-.01em; }
+.mp-homeschool .mp-worked { border-left-color: var(--mp-accent-2); }
+.mp-homeschool .mp-step::before { border-radius:8px; }
