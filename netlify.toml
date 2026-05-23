@@ -1240,6 +1240,258 @@
   to = "/src/pages/coding-classes-in-ireland.html"
   status = 200
 
+# ===== Maths SEO landing pages (USA + UK) =====
+
+[[redirects]]
+  from = "/online-maths-tutoring-for-kids-in-usa"
+  to = "/src/pages/online-maths-tutoring-for-kids-in-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-tutoring-for-kids-in-usa.html"
+  to = "/online-maths-tutoring-for-kids-in-usa"
+  status = 301
+
+[[redirects]]
+  from = "/online-maths-tutoring-for-teens-in-usa"
+  to = "/src/pages/online-maths-tutoring-for-teens-in-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-tutoring-for-teens-in-usa.html"
+  to = "/online-maths-tutoring-for-teens-in-usa"
+  status = 301
+
+[[redirects]]
+  from = "/online-maths-tutoring-for-college-students-in-usa"
+  to = "/src/pages/online-maths-tutoring-for-college-students-in-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-tutoring-for-college-students-in-usa.html"
+  to = "/online-maths-tutoring-for-college-students-in-usa"
+  status = 301
+
+[[redirects]]
+  from = "/online-maths-classes-for-adults-in-usa"
+  to = "/src/pages/online-maths-classes-for-adults-in-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-classes-for-adults-in-usa.html"
+  to = "/online-maths-classes-for-adults-in-usa"
+  status = 301
+
+[[redirects]]
+  from = "/sat-math-tutoring-online"
+  to = "/src/pages/sat-math-tutoring-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/sat-math-tutoring-online.html"
+  to = "/sat-math-tutoring-online"
+  status = 301
+
+[[redirects]]
+  from = "/act-math-tutoring-online"
+  to = "/src/pages/act-math-tutoring-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/act-math-tutoring-online.html"
+  to = "/act-math-tutoring-online"
+  status = 301
+
+[[redirects]]
+  from = "/ap-calculus-tutoring-online"
+  to = "/src/pages/ap-calculus-tutoring-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/ap-calculus-tutoring-online.html"
+  to = "/ap-calculus-tutoring-online"
+  status = 301
+
+[[redirects]]
+  from = "/ap-statistics-tutoring-online"
+  to = "/src/pages/ap-statistics-tutoring-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/ap-statistics-tutoring-online.html"
+  to = "/ap-statistics-tutoring-online"
+  status = 301
+
+[[redirects]]
+  from = "/math-olympiad-amc-tutoring"
+  to = "/src/pages/math-olympiad-amc-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/math-olympiad-amc-tutoring.html"
+  to = "/math-olympiad-amc-tutoring"
+  status = 301
+
+[[redirects]]
+  from = "/algebra-tutoring-online-usa"
+  to = "/src/pages/algebra-tutoring-online-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/algebra-tutoring-online-usa.html"
+  to = "/algebra-tutoring-online-usa"
+  status = 301
+
+[[redirects]]
+  from = "/geometry-tutoring-online-usa"
+  to = "/src/pages/geometry-tutoring-online-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/geometry-tutoring-online-usa.html"
+  to = "/geometry-tutoring-online-usa"
+  status = 301
+
+[[redirects]]
+  from = "/homeschool-math-curriculum-usa"
+  to = "/src/pages/homeschool-math-curriculum-usa.html"
+  status = 200
+
+[[redirects]]
+  from = "/homeschool-math-curriculum-usa.html"
+  to = "/homeschool-math-curriculum-usa"
+  status = 301
+
+[[redirects]]
+  from = "/online-maths-tuition-for-kids-in-uk"
+  to = "/src/pages/online-maths-tuition-for-kids-in-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-tuition-for-kids-in-uk.html"
+  to = "/online-maths-tuition-for-kids-in-uk"
+  status = 301
+
+[[redirects]]
+  from = "/online-maths-tuition-for-teens-in-uk"
+  to = "/src/pages/online-maths-tuition-for-teens-in-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-tuition-for-teens-in-uk.html"
+  to = "/online-maths-tuition-for-teens-in-uk"
+  status = 301
+
+[[redirects]]
+  from = "/online-maths-tuition-for-college-students-in-uk"
+  to = "/src/pages/online-maths-tuition-for-college-students-in-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-tuition-for-college-students-in-uk.html"
+  to = "/online-maths-tuition-for-college-students-in-uk"
+  status = 301
+
+[[redirects]]
+  from = "/online-maths-classes-for-adults-in-uk"
+  to = "/src/pages/online-maths-classes-for-adults-in-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-classes-for-adults-in-uk.html"
+  to = "/online-maths-classes-for-adults-in-uk"
+  status = 301
+
+[[redirects]]
+  from = "/gcse-maths-tuition-online"
+  to = "/src/pages/gcse-maths-tuition-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/gcse-maths-tuition-online.html"
+  to = "/gcse-maths-tuition-online"
+  status = 301
+
+[[redirects]]
+  from = "/a-level-maths-tuition-online"
+  to = "/src/pages/a-level-maths-tuition-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/a-level-maths-tuition-online.html"
+  to = "/a-level-maths-tuition-online"
+  status = 301
+
+[[redirects]]
+  from = "/further-maths-tuition-online"
+  to = "/src/pages/further-maths-tuition-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/further-maths-tuition-online.html"
+  to = "/further-maths-tuition-online"
+  status = 301
+
+[[redirects]]
+  from = "/11-plus-maths-tuition"
+  to = "/src/pages/11-plus-maths-tuition.html"
+  status = 200
+
+[[redirects]]
+  from = "/11-plus-maths-tuition.html"
+  to = "/11-plus-maths-tuition"
+  status = 301
+
+[[redirects]]
+  from = "/ks2-maths-tuition-online"
+  to = "/src/pages/ks2-maths-tuition-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/ks2-maths-tuition-online.html"
+  to = "/ks2-maths-tuition-online"
+  status = 301
+
+[[redirects]]
+  from = "/ks3-maths-tuition-online"
+  to = "/src/pages/ks3-maths-tuition-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/ks3-maths-tuition-online.html"
+  to = "/ks3-maths-tuition-online"
+  status = 301
+
+[[redirects]]
+  from = "/common-entrance-maths-tuition"
+  to = "/src/pages/common-entrance-maths-tuition.html"
+  status = 200
+
+[[redirects]]
+  from = "/common-entrance-maths-tuition.html"
+  to = "/common-entrance-maths-tuition"
+  status = 301
+
+[[redirects]]
+  from = "/functional-skills-maths-tuition-online"
+  to = "/src/pages/functional-skills-maths-tuition-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/functional-skills-maths-tuition-online.html"
+  to = "/functional-skills-maths-tuition-online"
+  status = 301
+
+[[redirects]]
+  from = "/ukmt-maths-challenge-tutoring"
+  to = "/src/pages/ukmt-maths-challenge-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/ukmt-maths-challenge-tutoring.html"
+  to = "/ukmt-maths-challenge-tutoring"
+  status = 301
+
 [[redirects]]
   from = "/coding-classes-in-new-zealand"
   to = "/src/pages/coding-classes-in-new-zealand.html"
