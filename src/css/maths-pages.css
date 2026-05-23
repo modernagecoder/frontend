@@ -289,3 +289,17 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-act h1, .mp-act h2 { letter-spacing:-.02em; font-weight:700; }
 .mp-act .mp-eyebrow { color: var(--mp-accent-2); }
 .mp-act .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-apcalc : royal blue + gold, academic prestige --- */
+.mp-apcalc {
+  --mp-accent: #1d4ed8; --mp-accent-2: #d97706; --mp-accent-soft: #e3ebff;
+  --mp-hero-bg: #0a1733; --mp-hero-ink: #eef3ff; --mp-hero-muted: #94a4cd;
+  --mp-bg-alt: #f6f7fb; --mp-ink: #111a2f;
+  --mp-font-head: "Spectral", Georgia, serif;
+}
+.mp-apcalc .mp-hero { background:
+  radial-gradient(800px 500px at 12% -10%, #18306e 0%, transparent 55%), var(--mp-hero-bg); }
+.mp-apcalc .mp-hero::after { content:"∫"; position:absolute; right:4%; top:8%; z-index:1; font-family:var(--mp-font-head);
+  font-size:24rem; line-height:.7; color:rgba(217,119,6,.10); pointer-events:none; }
+.mp-apcalc h1 { font-weight:600; }
+.mp-apcalc .mp-worked { border-left-color: var(--mp-accent-2); }
