@@ -514,3 +514,19 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-ks2 h1, .mp-ks2 h2, .mp-ks2 h3 { font-weight:700; letter-spacing:-.01em; }
 .mp-ks2 .mp-worked { border-left-color: var(--mp-accent-2); }
 .mp-ks2 .mp-step::before { border-radius:50%; }
+
+/* --- mp-ks3 : azure + magenta, the bridge to GCSE --- */
+.mp-ks3 {
+  --mp-accent: #0284c7; --mp-accent-2: #db2777; --mp-accent-soft: #d7eefb;
+  --mp-hero-bg: #0a1c33; --mp-hero-ink: #ecf5fc; --mp-hero-muted: #94aecb;
+  --mp-bg-alt: #f3f8fc; --mp-ink: #102234;
+  --mp-font-head: "Albert Sans", "Inter", sans-serif;
+}
+.mp-ks3 .mp-hero { background:
+  linear-gradient(125deg, #0a1c33 0%, #0e2f52 55%, #3a1330 120%); }
+.mp-ks3 .mp-hero::after { content:""; position:absolute; inset:0; z-index:1;
+  background: repeating-linear-gradient(60deg, transparent 0 26px, rgba(219,39,119,.07) 26px 27px),
+              repeating-linear-gradient(-60deg, transparent 0 26px, rgba(2,132,199,.09) 26px 27px);
+  mask-image: linear-gradient(200deg, #000, transparent 66%); }
+.mp-ks3 h1, .mp-ks3 h2 { letter-spacing:-.02em; font-weight:700; }
+.mp-ks3 .mp-worked { border-left-color: var(--mp-accent-2); }
