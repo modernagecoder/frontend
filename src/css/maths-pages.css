@@ -350,3 +350,20 @@ ul, ol { color: var(--mp-ink-soft); }
   font-weight:700; font-size:20rem; line-height:.6; color:rgba(124,58,237,.12); }
 .mp-algebra h1, .mp-algebra h2 { letter-spacing:-.022em; font-weight:800; }
 .mp-algebra .mp-worked { border-left-color: var(--mp-accent); }
+
+/* --- mp-geometry : cyan + coral, geometric motifs --- */
+.mp-geometry {
+  --mp-accent: #0891b2; --mp-accent-2: #fb7185; --mp-accent-soft: #d5f1f7;
+  --mp-hero-bg: #062630; --mp-hero-ink: #ecfbff; --mp-hero-muted: #8db9c4;
+  --mp-bg-alt: #f2fafb; --mp-ink: #0f2128;
+  --mp-font-head: "Lexend", "Inter", sans-serif;
+}
+.mp-geometry .mp-hero { background:
+  linear-gradient(130deg, #062630 0%, #0a3744 60%, #3a1822 120%); }
+.mp-geometry .mp-hero::after { content:""; position:absolute; inset:0; z-index:1; opacity:.55;
+  background:
+    linear-gradient(60deg, transparent 49.6%, rgba(8,145,178,.20) 49.6% 50.4%, transparent 50.4%),
+    linear-gradient(-60deg, transparent 49.6%, rgba(251,113,133,.16) 49.6% 50.4%, transparent 50.4%);
+  background-size: 90px 156px; mask-image: radial-gradient(circle at 78% 30%, #000, transparent 62%); }
+.mp-geometry h1, .mp-geometry h2 { letter-spacing:-.02em; font-weight:700; }
+.mp-geometry .mp-worked { border-left-color: var(--mp-accent-2); }
