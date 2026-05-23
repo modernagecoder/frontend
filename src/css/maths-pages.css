@@ -259,3 +259,18 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-adults-us h1, .mp-adults-us h2 { font-weight:600; letter-spacing:-.015em; }
 .mp-adults-us .mp-worked { border-left-color: var(--mp-accent-2); }
 .mp-adults-us .mp-step::before { border-radius:6px; }
+
+/* --- mp-sat : navy + red, sharp exam energy --- */
+.mp-sat {
+  --mp-accent: #1d4ed8; --mp-accent-2: #dc2626; --mp-accent-soft: #e4ecff;
+  --mp-hero-bg: #0e1c40; --mp-hero-ink: #eef3ff; --mp-hero-muted: #97a6cf;
+  --mp-bg-alt: #f4f6fb; --mp-ink: #131a2e;
+  --mp-font-head: "Bricolage Grotesque", "Inter", sans-serif;
+}
+.mp-sat .mp-hero { background:
+  linear-gradient(115deg, #0e1c40 0%, #14245a 55%, #2a1140 100%); }
+.mp-sat .mp-hero::after { content:""; position:absolute; inset:0; z-index:1; opacity:.5;
+  background: radial-gradient(circle at 80% 20%, rgba(220,38,38,.25), transparent 40%); }
+.mp-sat h1, .mp-sat h2 { letter-spacing:-.02em; font-weight:700; }
+.mp-sat .mp-eyebrow { color: var(--mp-accent-2); }
+.mp-sat .mp-worked { border-left-color: var(--mp-accent-2); }
