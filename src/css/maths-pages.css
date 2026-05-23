@@ -100,6 +100,7 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-hero .mp-wrap { padding-block: clamp(3.5rem, 8vw, 6.5rem); position: relative; z-index: 2; }
 .mp-hero h1 { color: var(--mp-hero-ink); max-width: 18ch; }
 .mp-hero .mp-lede { color: var(--mp-hero-muted); }
+.mp-hero strong, .mp-cta-band strong { color: var(--mp-hero-ink); font-weight: 650; }
 .mp-hero .grad { color: var(--mp-accent-2); }
 .mp-pill { display: inline-flex; align-items: center; gap: .5rem; padding: .4rem .9rem; border-radius: 999px; background: color-mix(in srgb, var(--mp-hero-ink) 12%, transparent); color: var(--mp-hero-ink); font-size: .82rem; font-weight: 500; margin-bottom: 1.4rem; }
 .mp-pill .dot { width: 8px; height: 8px; border-radius: 50%; background: #34d399; box-shadow: 0 0 0 4px rgba(52,211,153,.25); }
