@@ -426,3 +426,17 @@ ul, ol { color: var(--mp-ink-soft); }
   mask-image: radial-gradient(circle, #000 35%, transparent 70%); }
 .mp-college-uk h1 { font-weight:600; }
 .mp-college-uk .mp-worked { border-left-color: var(--mp-accent); }
+
+/* --- mp-adults-uk : bronze + deep teal, calm & grown-up --- */
+.mp-adults-uk {
+  --mp-accent: #a65a1e; --mp-accent-2: #0f766e; --mp-accent-soft: #f6e7d6;
+  --mp-hero-bg: #1e2826; --mp-hero-ink: #f1f6f4; --mp-hero-muted: #a3b6b1;
+  --mp-bg-alt: #f7f4f0; --mp-ink: #1d2522;
+  --mp-font-head: "Mulish", "Inter", sans-serif;
+}
+.mp-adults-uk .mp-hero { background:
+  radial-gradient(700px 520px at 90% 6%, #18524b 0%, transparent 58%),
+  radial-gradient(560px 380px at 6% 108%, #6a3a18 0%, transparent 54%), var(--mp-hero-bg); }
+.mp-adults-uk h1, .mp-adults-uk h2 { font-weight:800; letter-spacing:-.018em; }
+.mp-adults-uk .mp-worked { border-left-color: var(--mp-accent-2); }
+.mp-adults-uk .mp-step::before { border-radius:6px; }
