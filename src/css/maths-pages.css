@@ -469,3 +469,18 @@ ul, ol { color: var(--mp-ink-soft); }
   font-size:23rem; line-height:.7; color:rgba(217,119,6,.10); }
 .mp-alevel h1, .mp-alevel h2 { letter-spacing:-.02em; font-weight:700; }
 .mp-alevel .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-furthermaths : indigo + cyan, rigorous & high-level --- */
+.mp-furthermaths {
+  --mp-accent: #4338ca; --mp-accent-2: #0891b2; --mp-accent-soft: #e4e3fb;
+  --mp-hero-bg: #100f38; --mp-hero-ink: #eeeefb; --mp-hero-muted: #a3a2d4;
+  --mp-bg-alt: #f5f5fd; --mp-ink: #14132c;
+  --mp-font-head: "Familjen Grotesk", "Inter", sans-serif;
+}
+.mp-furthermaths .mp-hero { background:
+  linear-gradient(135deg, #100f38 0%, #1a1957 55%, #073746 120%); }
+.mp-furthermaths .mp-hero::after { content:""; position:absolute; inset:0; z-index:1;
+  background: repeating-conic-gradient(from 0deg at 82% 26%, rgba(8,145,178,.10) 0 8deg, transparent 8deg 30deg);
+  mask-image: radial-gradient(circle at 82% 26%, #000, transparent 46%); }
+.mp-furthermaths h1, .mp-furthermaths h2 { letter-spacing:-.02em; font-weight:700; }
+.mp-furthermaths .mp-worked { border-left-color: var(--mp-accent-2); }
