@@ -304,3 +304,19 @@ ul, ol { color: var(--mp-ink-soft); }
   font-size:24rem; line-height:.7; color:rgba(217,119,6,.10); pointer-events:none; }
 .mp-apcalc h1 { font-weight:600; }
 .mp-apcalc .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-apstats : plum + sky, data-driven --- */
+.mp-apstats {
+  --mp-accent: #7c3aed; --mp-accent-2: #0284c7; --mp-accent-soft: #efe7fe;
+  --mp-hero-bg: #1a1138; --mp-hero-ink: #f4f0ff; --mp-hero-muted: #b3a8d6;
+  --mp-bg-alt: #f7f5fc; --mp-ink: #1a142e;
+  --mp-font-head: "Outfit", "Inter", sans-serif;
+}
+.mp-apstats .mp-hero { background:
+  linear-gradient(150deg, #1a1138 0%, #271a55 55%, #0b3a55 120%); }
+.mp-apstats .mp-hero::after { content:""; position:absolute; inset:0; z-index:1; opacity:.5;
+  background: repeating-linear-gradient(90deg, transparent 0 38px, rgba(2,132,199,.10) 38px 40px),
+              repeating-linear-gradient(0deg, transparent 0 38px, rgba(124,58,237,.10) 38px 40px);
+  mask-image: linear-gradient(200deg, #000, transparent 65%); }
+.mp-apstats h1, .mp-apstats h2 { letter-spacing:-.018em; font-weight:700; }
+.mp-apstats .mp-worked { border-left-color: var(--mp-accent-2); }
