@@ -320,3 +320,19 @@ ul, ol { color: var(--mp-ink-soft); }
   mask-image: linear-gradient(200deg, #000, transparent 65%); }
 .mp-apstats h1, .mp-apstats h2 { letter-spacing:-.018em; font-weight:700; }
 .mp-apstats .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-olympiad-us : black + gold, competition prestige --- */
+.mp-olympiad-us {
+  --mp-accent: #b8860b; --mp-accent-2: #c0392b; --mp-accent-soft: #f6ecd0;
+  --mp-hero-bg: #0a0a0c; --mp-hero-ink: #faf6e9; --mp-hero-muted: #b9b09a;
+  --mp-bg-alt: #faf8f2; --mp-ink: #17150f;
+  --mp-font-head: "Cormorant Garamond", Georgia, serif;
+}
+.mp-olympiad-us .mp-hero { background:
+  radial-gradient(700px 480px at 50% -20%, #2a230d 0%, transparent 60%), var(--mp-hero-bg); }
+.mp-olympiad-us .mp-hero::after { content:""; position:absolute; inset:0; z-index:1; opacity:.6;
+  background: radial-gradient(circle at 50% 0%, rgba(184,134,11,.18), transparent 45%); }
+.mp-olympiad-us h1 { font-weight:600; font-size: clamp(2.4rem, 1.5rem + 4vw, 4.4rem); letter-spacing:0; }
+.mp-olympiad-us h2 { font-weight:600; }
+.mp-olympiad-us .mp-eyebrow { color: var(--mp-accent); }
+.mp-olympiad-us .mp-worked { border-left-color: var(--mp-accent); }
