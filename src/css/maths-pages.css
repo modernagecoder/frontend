@@ -560,3 +560,19 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-functionalskills h1, .mp-functionalskills h2 { font-weight:800; letter-spacing:-.018em; }
 .mp-functionalskills .mp-worked { border-left-color: var(--mp-accent-2); }
 .mp-functionalskills .mp-step::before { border-radius:6px; }
+
+/* --- mp-ukmt : royal navy + gold, challenge prestige --- */
+.mp-ukmt {
+  --mp-accent: #c89211; --mp-accent-2: #1e40af; --mp-accent-soft: #f6ecd0;
+  --mp-hero-bg: #0b1430; --mp-hero-ink: #f7f3e6; --mp-hero-muted: #b0b3c8;
+  --mp-bg-alt: #faf8f1; --mp-ink: #11152a;
+  --mp-font-head: "Playfair Display", Georgia, serif;
+}
+.mp-ukmt .mp-hero { background:
+  radial-gradient(720px 480px at 50% -18%, #1c2a5e 0%, transparent 58%), var(--mp-hero-bg); }
+.mp-ukmt .mp-hero::after { content:""; position:absolute; inset:0; z-index:1; opacity:.6;
+  background: radial-gradient(circle at 50% 2%, rgba(200,146,17,.18), transparent 44%); }
+.mp-ukmt h1 { font-weight:700; font-size: clamp(2.4rem, 1.5rem + 4vw, 4.3rem); }
+.mp-ukmt h2 { font-weight:700; }
+.mp-ukmt .mp-eyebrow { color: var(--mp-accent); }
+.mp-ukmt .mp-worked { border-left-color: var(--mp-accent); }
