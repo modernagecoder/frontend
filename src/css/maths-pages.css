@@ -411,3 +411,18 @@ ul, ol { color: var(--mp-ink-soft); }
   mask-image: linear-gradient(180deg, #000, transparent 72%); }
 .mp-teens-uk h1, .mp-teens-uk h2 { letter-spacing:-.022em; font-weight:700; }
 .mp-teens-uk .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-college-uk : charcoal + gold, sixth-form gravitas --- */
+.mp-college-uk {
+  --mp-accent: #b58a1b; --mp-accent-2: #475569; --mp-accent-soft: #f5edd6;
+  --mp-hero-bg: #1b212e; --mp-hero-ink: #f1f4f8; --mp-hero-muted: #9aa6b8;
+  --mp-bg-alt: #f6f6f3; --mp-ink: #1a1f29;
+  --mp-font-head: "Lora", Georgia, serif;
+}
+.mp-college-uk .mp-hero { background:
+  linear-gradient(180deg, #1b212e 0%, #232c3d 100%); }
+.mp-college-uk .mp-hero::after { content:""; position:absolute; left:-5%; bottom:-25%; width:480px; height:480px; z-index:1;
+  background: repeating-radial-gradient(circle, rgba(181,138,27,.10) 0 1px, transparent 1px 26px);
+  mask-image: radial-gradient(circle, #000 35%, transparent 70%); }
+.mp-college-uk h1 { font-weight:600; }
+.mp-college-uk .mp-worked { border-left-color: var(--mp-accent); }
