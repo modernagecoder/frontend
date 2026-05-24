@@ -1619,6 +1619,57 @@
   to = "/src/pages/coding-classes-in-new-zealand.html"
   status = 200
 
+# State landing pages (India) — clean URL rewrites
+[[redirects]]
+  from = "/coding-classes-in-karnataka"
+  to = "/src/pages/coding-classes-in-karnataka.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-maharashtra"
+  to = "/src/pages/coding-classes-in-maharashtra.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-tamil-nadu"
+  to = "/src/pages/coding-classes-in-tamil-nadu.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-uttar-pradesh"
+  to = "/src/pages/coding-classes-in-uttar-pradesh.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-kerala"
+  to = "/src/pages/coding-classes-in-kerala.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-gujarat"
+  to = "/src/pages/coding-classes-in-gujarat.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-rajasthan"
+  to = "/src/pages/coding-classes-in-rajasthan.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-telangana"
+  to = "/src/pages/coding-classes-in-telangana.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-west-bengal"
+  to = "/src/pages/coding-classes-in-west-bengal.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-madhya-pradesh"
+  to = "/src/pages/coding-classes-in-madhya-pradesh.html"
+  status = 200
+
 # Friendly aliases for country pages (uk/us short forms)
 [[redirects]]
   from = "/coding-classes-in-uk"
@@ -1800,6 +1851,56 @@
 [[redirects]]
   from = "/coding-classes-in-new-zealand.md"
   to = "/src/pages/coding-classes-in-new-zealand.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-karnataka.md"
+  to = "/src/pages/coding-classes-in-karnataka.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-maharashtra.md"
+  to = "/src/pages/coding-classes-in-maharashtra.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-tamil-nadu.md"
+  to = "/src/pages/coding-classes-in-tamil-nadu.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-uttar-pradesh.md"
+  to = "/src/pages/coding-classes-in-uttar-pradesh.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-kerala.md"
+  to = "/src/pages/coding-classes-in-kerala.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-gujarat.md"
+  to = "/src/pages/coding-classes-in-gujarat.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-rajasthan.md"
+  to = "/src/pages/coding-classes-in-rajasthan.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-telangana.md"
+  to = "/src/pages/coding-classes-in-telangana.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-west-bengal.md"
+  to = "/src/pages/coding-classes-in-west-bengal.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-madhya-pradesh.md"
+  to = "/src/pages/coding-classes-in-madhya-pradesh.md"
   status = 200
 
 [[redirects]]

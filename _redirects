@@ -232,6 +232,18 @@
 /coding-classes-in-ireland /src/pages/coding-classes-in-ireland.html 200
 /coding-classes-in-new-zealand /src/pages/coding-classes-in-new-zealand.html 200
 
+# State landing pages (India) — clean URL rewrites
+/coding-classes-in-karnataka /src/pages/coding-classes-in-karnataka.html 200
+/coding-classes-in-maharashtra /src/pages/coding-classes-in-maharashtra.html 200
+/coding-classes-in-tamil-nadu /src/pages/coding-classes-in-tamil-nadu.html 200
+/coding-classes-in-uttar-pradesh /src/pages/coding-classes-in-uttar-pradesh.html 200
+/coding-classes-in-kerala /src/pages/coding-classes-in-kerala.html 200
+/coding-classes-in-gujarat /src/pages/coding-classes-in-gujarat.html 200
+/coding-classes-in-rajasthan /src/pages/coding-classes-in-rajasthan.html 200
+/coding-classes-in-telangana /src/pages/coding-classes-in-telangana.html 200
+/coding-classes-in-west-bengal /src/pages/coding-classes-in-west-bengal.html 200
+/coding-classes-in-madhya-pradesh /src/pages/coding-classes-in-madhya-pradesh.html 200
+
 # Friendly aliases (short forms → canonical) — 301 permanent
 /coding-classes-in-uk /coding-classes-in-united-kingdom 301!
 /coding-classes-in-usa /coding-classes-in-united-states 301!
