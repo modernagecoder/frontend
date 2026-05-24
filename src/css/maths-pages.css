@@ -188,6 +188,12 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-footer .row { display: flex; flex-wrap: wrap; gap: 1.2rem; justify-content: space-between; align-items: center; }
 .mp-footer nav { display: flex; flex-wrap: wrap; gap: 1.1rem; }
 
+/* ---------- AEO/GEO quick-answer block ---------- */
+.mp-answer { border: 1px solid var(--mp-line); border-left: 4px solid var(--mp-accent); background: var(--mp-bg-alt); border-radius: var(--mp-radius); padding: clamp(1.3rem, 3vw, 2.1rem); }
+.mp-answer .q { display: block; font-family: var(--mp-font-mono); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--mp-accent); margin-bottom: .5rem; }
+.mp-answer p { font-size: clamp(1.08rem, 1rem + 0.35vw, 1.28rem); color: var(--mp-ink); margin: 0; line-height: 1.55; }
+.mp-answer p + p { margin-top: .8rem; }
+
 /* ---------- utilities ---------- */
 .mp-stack > * + * { margin-top: 1.1rem; }
 .mp-center { text-align: center; }
@@ -576,3 +582,157 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-ukmt h2 { font-weight:700; }
 .mp-ukmt .mp-eyebrow { color: var(--mp-accent); }
 .mp-ukmt .mp-worked { border-left-color: var(--mp-accent); }
+
+/* --- mp-uae-hub : emerald + desert gold, premium pan-UAE --- */
+.mp-uae-hub {
+  --mp-accent: #047857; --mp-accent-2: #c19a3e; --mp-accent-soft: #d8f1e8;
+  --mp-hero-bg: #06261f; --mp-hero-ink: #f0faf5; --mp-hero-muted: #93bdac;
+  --mp-bg-alt: #f6f6f0; --mp-ink: #0f231c;
+  --mp-font-head: "Sora", "Inter", sans-serif;
+}
+.mp-uae-hub .mp-hero { background:
+  radial-gradient(800px 520px at 88% -8%, #0a4a39 0%, transparent 56%),
+  radial-gradient(620px 420px at 4% 110%, #6b531b 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-uae-hub h1, .mp-uae-hub h2 { font-weight:700; letter-spacing:-.018em; }
+.mp-uae-hub .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-dubai : sapphire + gold, skyline glamour --- */
+.mp-dubai {
+  --mp-accent: #0e7490; --mp-accent-2: #caa53d; --mp-accent-soft: #d6eef4;
+  --mp-hero-bg: #07203a; --mp-hero-ink: #eef6fb; --mp-hero-muted: #93b2cb;
+  --mp-bg-alt: #f5f7fa; --mp-ink: #0f2032;
+  --mp-font-head: "Sora", "Inter", sans-serif;
+}
+.mp-dubai .mp-hero { background:
+  linear-gradient(160deg, #07203a 0%, #0c3354 55%, #5a4310 120%); }
+.mp-dubai .mp-hero::after { content:""; position:absolute; inset:0; z-index:1; opacity:.5;
+  background: radial-gradient(circle at 82% 14%, rgba(202,165,61,.22), transparent 42%); }
+.mp-dubai h1, .mp-dubai h2 { font-weight:700; letter-spacing:-.02em; }
+.mp-dubai .mp-eyebrow { color: var(--mp-accent-2); }
+.mp-dubai .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-abudhabi : royal teal + sand, calm capital --- */
+.mp-abudhabi {
+  --mp-accent: #0f766e; --mp-accent-2: #b08740; --mp-accent-soft: #d6efec;
+  --mp-hero-bg: #082a2b; --mp-hero-ink: #eefbf8; --mp-hero-muted: #8fbdb8;
+  --mp-bg-alt: #f5f7f5; --mp-ink: #0f2625;
+  --mp-font-head: "Hanken Grotesk", "Inter", sans-serif;
+}
+.mp-abudhabi .mp-hero { background:
+  radial-gradient(760px 520px at 14% -10%, #0e4a45 0%, transparent 56%), var(--mp-hero-bg); }
+.mp-abudhabi h1, .mp-abudhabi h2 { font-weight:700; letter-spacing:-.018em; }
+.mp-abudhabi .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-sharjah : maroon + gold, cultural heritage --- */
+.mp-sharjah {
+  --mp-accent: #9a1f3a; --mp-accent-2: #b08200; --mp-accent-soft: #f6e2e7;
+  --mp-hero-bg: #2a0f1c; --mp-hero-ink: #faf1ee; --mp-hero-muted: #c4a3ab;
+  --mp-bg-alt: #f8f4ee; --mp-ink: #28121a;
+  --mp-font-head: "Lora", Georgia, serif;
+}
+.mp-sharjah .mp-hero { background:
+  radial-gradient(740px 500px at 86% -10%, #5a1730 0%, transparent 56%), var(--mp-hero-bg); }
+.mp-sharjah h1 { font-weight:600; }
+.mp-sharjah h2 { font-weight:600; }
+.mp-sharjah .mp-eyebrow { color: var(--mp-accent-2); }
+.mp-sharjah .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-kids-uae : sunny amber + teal, warm & friendly --- */
+.mp-kids-uae {
+  --mp-accent: #0d9488; --mp-accent-2: #e0892a; --mp-accent-soft: #d6f3ef;
+  --mp-hero-bg: #0a2e2c; --mp-hero-ink: #ecfbf8; --mp-hero-muted: #8fc4bd;
+  --mp-bg-alt: #fbf6ef; --mp-ink: #0f2624;
+  --mp-font-head: "Baloo 2", "Inter", sans-serif;
+}
+.mp-kids-uae .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #e0892a 0%, transparent 46%),
+  radial-gradient(620px 420px at 4% 112%, #0d9488 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-kids-uae h1, .mp-kids-uae h2, .mp-kids-uae h3 { font-weight:700; letter-spacing:-.01em; }
+.mp-kids-uae .mp-worked { border-left-color: var(--mp-accent-2); }
+.mp-kids-uae .mp-step::before { border-radius:50%; }
+
+/* --- mp-teens-uae : indigo + lime, sharp & modern --- */
+.mp-teens-uae {
+  --mp-accent: #4f46e5; --mp-accent-2: #65a30d; --mp-accent-soft: #e6e5fc;
+  --mp-hero-bg: #11132e; --mp-hero-ink: #eef0ff; --mp-hero-muted: #a6abdb;
+  --mp-bg-alt: #f5f6ff; --mp-ink: #16182a;
+  --mp-font-head: "Space Grotesk", "Inter", sans-serif;
+}
+.mp-teens-uae .mp-hero { background: linear-gradient(135deg, #11132e 0%, #20204f 60%, #1f3a16 120%); }
+.mp-teens-uae h1, .mp-teens-uae h2 { letter-spacing:-.02em; font-weight:700; }
+.mp-teens-uae .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-adults-uae : slate teal + bronze, professional --- */
+.mp-adults-uae {
+  --mp-accent: #0e7490; --mp-accent-2: #a16207; --mp-accent-soft: #d9eef4;
+  --mp-hero-bg: #122430; --mp-hero-ink: #eef6fa; --mp-hero-muted: #97b3c2;
+  --mp-bg-alt: #f5f8fa; --mp-ink: #12242f;
+  --mp-font-head: "Mulish", "Inter", sans-serif;
+}
+.mp-adults-uae .mp-hero { background:
+  radial-gradient(720px 520px at 90% 6%, #14546b 0%, transparent 58%), var(--mp-hero-bg); }
+.mp-adults-uae h1, .mp-adults-uae h2 { font-weight:800; letter-spacing:-.018em; }
+.mp-adults-uae .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-ib : deep blue + gold, IB prestige --- */
+.mp-ib {
+  --mp-accent: #1d4ed8; --mp-accent-2: #c08a2e; --mp-accent-soft: #e3ebff;
+  --mp-hero-bg: #0a1633; --mp-hero-ink: #eef3ff; --mp-hero-muted: #94a4cd;
+  --mp-bg-alt: #f6f7fb; --mp-ink: #111a2f;
+  --mp-font-head: "Spectral", Georgia, serif;
+}
+.mp-ib .mp-hero { background: radial-gradient(800px 500px at 12% -10%, #16306c 0%, transparent 55%), var(--mp-hero-bg); }
+.mp-ib .mp-hero::after { content:"∮"; position:absolute; right:5%; top:8%; z-index:1; font-family:var(--mp-font-head); font-size:22rem; line-height:.7; color:rgba(192,138,46,.10); }
+.mp-ib h1 { font-weight:600; }
+.mp-ib .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-gcse-uae : exam blue + green --- */
+.mp-gcse-uae {
+  --mp-accent: #1d4ed8; --mp-accent-2: #047857; --mp-accent-soft: #e2ebff;
+  --mp-hero-bg: #0c1d3c; --mp-hero-ink: #eef3ff; --mp-hero-muted: #97a8cd;
+  --mp-bg-alt: #f4f7fc; --mp-ink: #111a30;
+  --mp-font-head: "Onest", "Inter", sans-serif;
+}
+.mp-gcse-uae .mp-hero { background: linear-gradient(125deg, #0c1d3c 0%, #123056 55%, #0a3d34 120%); }
+.mp-gcse-uae h1, .mp-gcse-uae h2 { letter-spacing:-.022em; font-weight:700; }
+.mp-gcse-uae .mp-eyebrow { color: var(--mp-accent-2); }
+.mp-gcse-uae .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-alevel-uae : teal + amber --- */
+.mp-alevel-uae {
+  --mp-accent: #0f766e; --mp-accent-2: #d97706; --mp-accent-soft: #d6f0ec;
+  --mp-hero-bg: #06302c; --mp-hero-ink: #ecfbf7; --mp-hero-muted: #8dbdb4;
+  --mp-bg-alt: #f3faf8; --mp-ink: #0f2421;
+  --mp-font-head: "Hanken Grotesk", "Inter", sans-serif;
+}
+.mp-alevel-uae .mp-hero { background: radial-gradient(820px 520px at 14% -12%, #0d5249 0%, transparent 56%), var(--mp-hero-bg); }
+.mp-alevel-uae h1, .mp-alevel-uae h2 { letter-spacing:-.02em; font-weight:700; }
+.mp-alevel-uae .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-cbse-uae : saffron + deep green (Indian curriculum) --- */
+.mp-cbse-uae {
+  --mp-accent: #c2410c; --mp-accent-2: #15803d; --mp-accent-soft: #fbe6da;
+  --mp-hero-bg: #2a1407; --mp-hero-ink: #fbf2ea; --mp-hero-muted: #c7ab97;
+  --mp-bg-alt: #f9f5ef; --mp-ink: #281708;
+  --mp-font-head: "Bitter", Georgia, serif;
+}
+.mp-cbse-uae .mp-hero { background:
+  radial-gradient(740px 500px at 86% -10%, #7a3410 0%, transparent 56%),
+  radial-gradient(560px 380px at 6% 112%, #14532d 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-cbse-uae h1, .mp-cbse-uae h2 { font-weight:600; }
+.mp-cbse-uae .mp-eyebrow { color: var(--mp-accent-2); }
+.mp-cbse-uae .mp-worked { border-left-color: var(--mp-accent-2); }
+
+/* --- mp-american-uae : navy + red, US curriculum --- */
+.mp-american-uae {
+  --mp-accent: #1d4ed8; --mp-accent-2: #dc2626; --mp-accent-soft: #e4ecff;
+  --mp-hero-bg: #0e1c40; --mp-hero-ink: #eef3ff; --mp-hero-muted: #97a6cf;
+  --mp-bg-alt: #f4f6fb; --mp-ink: #131a2e;
+  --mp-font-head: "Bricolage Grotesque", "Inter", sans-serif;
+}
+.mp-american-uae .mp-hero { background: linear-gradient(115deg, #0e1c40 0%, #14245a 55%, #2a1140 100%); }
+.mp-american-uae .mp-hero::after { content:""; position:absolute; inset:0; z-index:1; opacity:.5;
+  background: radial-gradient(circle at 80% 20%, rgba(220,38,38,.25), transparent 40%); }
+.mp-american-uae h1, .mp-american-uae h2 { letter-spacing:-.02em; font-weight:700; }
+.mp-american-uae .mp-eyebrow { color: var(--mp-accent-2); }
+.mp-american-uae .mp-worked { border-left-color: var(--mp-accent-2); }
