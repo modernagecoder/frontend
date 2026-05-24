@@ -1487,6 +1487,128 @@
   to = "/src/pages/ukmt-maths-challenge-tutoring.html"
   status = 200
 
+# ===== Maths SEO landing pages (UAE) =====
+
+[[redirects]]
+  from = "/online-maths-tuition-uae"
+  to = "/src/pages/online-maths-tuition-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-tuition-uae.html"
+  to = "/online-maths-tuition-uae"
+  status = 301
+
+[[redirects]]
+  from = "/maths-tutor-in-dubai"
+  to = "/src/pages/maths-tutor-in-dubai.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-in-dubai.html"
+  to = "/maths-tutor-in-dubai"
+  status = 301
+
+[[redirects]]
+  from = "/maths-tutor-in-abu-dhabi"
+  to = "/src/pages/maths-tutor-in-abu-dhabi.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-in-abu-dhabi.html"
+  to = "/maths-tutor-in-abu-dhabi"
+  status = 301
+
+[[redirects]]
+  from = "/maths-tutor-in-sharjah"
+  to = "/src/pages/maths-tutor-in-sharjah.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tutor-in-sharjah.html"
+  to = "/maths-tutor-in-sharjah"
+  status = 301
+
+[[redirects]]
+  from = "/maths-tuition-for-kids-uae"
+  to = "/src/pages/maths-tuition-for-kids-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tuition-for-kids-uae.html"
+  to = "/maths-tuition-for-kids-uae"
+  status = 301
+
+[[redirects]]
+  from = "/maths-tuition-for-teens-uae"
+  to = "/src/pages/maths-tuition-for-teens-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-tuition-for-teens-uae.html"
+  to = "/maths-tuition-for-teens-uae"
+  status = 301
+
+[[redirects]]
+  from = "/maths-classes-for-adults-uae"
+  to = "/src/pages/maths-classes-for-adults-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-classes-for-adults-uae.html"
+  to = "/maths-classes-for-adults-uae"
+  status = 301
+
+[[redirects]]
+  from = "/ib-maths-tutor-uae"
+  to = "/src/pages/ib-maths-tutor-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/ib-maths-tutor-uae.html"
+  to = "/ib-maths-tutor-uae"
+  status = 301
+
+[[redirects]]
+  from = "/gcse-maths-tutor-uae"
+  to = "/src/pages/gcse-maths-tutor-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/gcse-maths-tutor-uae.html"
+  to = "/gcse-maths-tutor-uae"
+  status = 301
+
+[[redirects]]
+  from = "/a-level-maths-tutor-uae"
+  to = "/src/pages/a-level-maths-tutor-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/a-level-maths-tutor-uae.html"
+  to = "/a-level-maths-tutor-uae"
+  status = 301
+
+[[redirects]]
+  from = "/cbse-maths-tutor-uae"
+  to = "/src/pages/cbse-maths-tutor-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/cbse-maths-tutor-uae.html"
+  to = "/cbse-maths-tutor-uae"
+  status = 301
+
+[[redirects]]
+  from = "/american-maths-tutor-uae"
+  to = "/src/pages/american-maths-tutor-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/american-maths-tutor-uae.html"
+  to = "/american-maths-tutor-uae"
+  status = 301
+
 [[redirects]]
   from = "/ukmt-maths-challenge-tutoring.html"
   to = "/ukmt-maths-challenge-tutoring"

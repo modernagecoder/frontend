@@ -482,6 +482,32 @@
 /ukmt-maths-challenge-tutoring        /src/pages/ukmt-maths-challenge-tutoring.html   200
 /ukmt-maths-challenge-tutoring.html   /ukmt-maths-challenge-tutoring   301!
 
+# ===== Maths SEO landing pages (UAE) =====
+/online-maths-tuition-uae        /src/pages/online-maths-tuition-uae.html   200
+/online-maths-tuition-uae.html   /online-maths-tuition-uae   301!
+/maths-tutor-in-dubai        /src/pages/maths-tutor-in-dubai.html   200
+/maths-tutor-in-dubai.html   /maths-tutor-in-dubai   301!
+/maths-tutor-in-abu-dhabi        /src/pages/maths-tutor-in-abu-dhabi.html   200
+/maths-tutor-in-abu-dhabi.html   /maths-tutor-in-abu-dhabi   301!
+/maths-tutor-in-sharjah        /src/pages/maths-tutor-in-sharjah.html   200
+/maths-tutor-in-sharjah.html   /maths-tutor-in-sharjah   301!
+/maths-tuition-for-kids-uae        /src/pages/maths-tuition-for-kids-uae.html   200
+/maths-tuition-for-kids-uae.html   /maths-tuition-for-kids-uae   301!
+/maths-tuition-for-teens-uae        /src/pages/maths-tuition-for-teens-uae.html   200
+/maths-tuition-for-teens-uae.html   /maths-tuition-for-teens-uae   301!
+/maths-classes-for-adults-uae        /src/pages/maths-classes-for-adults-uae.html   200
+/maths-classes-for-adults-uae.html   /maths-classes-for-adults-uae   301!
+/ib-maths-tutor-uae        /src/pages/ib-maths-tutor-uae.html   200
+/ib-maths-tutor-uae.html   /ib-maths-tutor-uae   301!
+/gcse-maths-tutor-uae        /src/pages/gcse-maths-tutor-uae.html   200
+/gcse-maths-tutor-uae.html   /gcse-maths-tutor-uae   301!
+/a-level-maths-tutor-uae        /src/pages/a-level-maths-tutor-uae.html   200
+/a-level-maths-tutor-uae.html   /a-level-maths-tutor-uae   301!
+/cbse-maths-tutor-uae        /src/pages/cbse-maths-tutor-uae.html   200
+/cbse-maths-tutor-uae.html   /cbse-maths-tutor-uae   301!
+/american-maths-tutor-uae        /src/pages/american-maths-tutor-uae.html   200
+/american-maths-tutor-uae.html   /american-maths-tutor-uae   301!
+
 # 404 fallback
 /* /src/pages/404.html 404
 
