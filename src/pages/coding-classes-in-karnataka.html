@@ -906,6 +906,16 @@
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+    <!-- Popular Courses promo grid (parity with Tier-2 pages) -->
+    <style>
+        .ka-promo { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+        .ka-promo a { display: block; text-decoration: none; background: var(--ka-card); border: 1px solid var(--ka-line); border-radius: 14px; padding: 18px 16px; transition: transform .2s ease, border-color .2s ease, background .2s ease; }
+        .ka-promo a:hover { transform: translateY(-4px); border-color: #10b981; background: rgba(16,185,129,0.06); }
+        .ka-promo .ka-pt { font-family: 'Syne', sans-serif; color: #fff; font-weight: 700; font-size: 1rem; margin: 0 0 4px; }
+        .ka-promo .ka-pd { color: var(--ka-muted); font-size: .82rem; line-height: 1.4; }
+        @media (max-width: 920px) { .ka-promo { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 560px) { .ka-promo { grid-template-columns: 1fr; } }
+    </style>
 </head>
 
 <body class="best-coding-page karnataka-page">
@@ -1308,6 +1318,25 @@
 
                 <div style="text-align:center;margin-top:34px;">
                     <a href="#book-demo" class="ka-btn ka-btn-primary">Book a Free Demo for Any Course</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- ===================== POPULAR COURSES PROMO ===================== -->
+        <section class="section ka-section">
+            <p class="ka-kicker">Most Requested in Karnataka</p>
+            <h2 class="ka-h2">Popular Coding Courses for Karnataka Students</h2>
+            <p class="ka-sub">Hand-picked programmes parents and students in Karnataka ask for most &mdash; explore any of them or book a free demo to find the right fit.</p>
+            <div class="ka-wrap">
+                <div class="ka-promo">
+                    <a href="/python-and-ai-classes-for-kids-teens"><div class="ka-pt">Python &amp; AI</div><div class="ka-pd">For kids &amp; teens — code + intelligence</div></a>
+                    <a href="/ai-ml-course-for-teens"><div class="ka-pt">AI &amp; ML for Teens</div><div class="ka-pd">Build real machine-learning projects</div></a>
+                    <a href="/java-programming-for-kids-teens"><div class="ka-pt">Java Programming</div><div class="ka-pd">Strong OOP foundations for teens</div></a>
+                    <a href="/courses/coding/teens"><div class="ka-pt">Web Development</div><div class="ka-pd">HTML, CSS, JavaScript &amp; live sites</div></a>
+                    <a href="/courses/coding/kids"><div class="ka-pt">Scratch for Kids</div><div class="ka-pd">Games &amp; animation, ages 6&ndash;10</div></a>
+                    <a href="/courses/coding/college"><div class="ka-pt">DSA &amp; Full-Stack</div><div class="ka-pd">Placement-ready for college students</div></a>
+                    <a href="/coding-classes-for-girls"><div class="ka-pt">Coding for Girls</div><div class="ka-pd">Supportive, confidence-building batches</div></a>
+                    <a href="/summer-coding-camp"><div class="ka-pt">Summer Coding Camp</div><div class="ka-pd">Fast, fun project sprints</div></a>
                 </div>
             </div>
         </section>

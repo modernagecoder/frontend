@@ -395,6 +395,16 @@
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+    <!-- Popular Courses promo grid (parity with Tier-2 pages) -->
+    <style>
+        .tg-promo { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+        .tg-promo a { display: block; text-decoration: none; background: var(--tg-card); border: 1px solid var(--tg-line); border-radius: 14px; padding: 18px 16px; transition: transform .2s ease, border-color .2s ease, background .2s ease; }
+        .tg-promo a:hover { transform: translateY(-4px); border-color: #fb7185; background: rgba(251,113,133,0.06); }
+        .tg-promo .tg-pt { font-family: 'Syne', sans-serif; color: #fff; font-weight: 700; font-size: 1rem; margin: 0 0 4px; }
+        .tg-promo .tg-pd { color: var(--tg-muted); font-size: .82rem; line-height: 1.4; }
+        @media (max-width: 920px) { .tg-promo { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 560px) { .tg-promo { grid-template-columns: 1fr; } }
+    </style>
 </head>
 
 <body class="best-coding-page telangana-page">
@@ -784,6 +794,25 @@
 
                 <div style="text-align:center;margin-top:34px;">
                     <a href="#book-demo" class="tg-btn tg-btn-primary">Book a Free Demo for Any Course</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- ===================== POPULAR COURSES PROMO ===================== -->
+        <section class="section tg-section">
+            <p class="tg-kicker">Most Requested in Telangana</p>
+            <h2 class="tg-h2">Popular Coding Courses for Telangana Students</h2>
+            <p class="tg-sub">Hand-picked programmes parents and students in Telangana ask for most &mdash; explore any of them or book a free demo to find the right fit.</p>
+            <div class="tg-wrap">
+                <div class="tg-promo">
+                    <a href="/python-and-ai-classes-for-kids-teens"><div class="tg-pt">Python &amp; AI</div><div class="tg-pd">For kids &amp; teens — code + intelligence</div></a>
+                    <a href="/ai-ml-course-for-teens"><div class="tg-pt">AI &amp; ML for Teens</div><div class="tg-pd">Build real machine-learning projects</div></a>
+                    <a href="/java-programming-for-kids-teens"><div class="tg-pt">Java Programming</div><div class="tg-pd">Strong OOP foundations for teens</div></a>
+                    <a href="/courses/coding/teens"><div class="tg-pt">Web Development</div><div class="tg-pd">HTML, CSS, JavaScript &amp; live sites</div></a>
+                    <a href="/courses/coding/kids"><div class="tg-pt">Scratch for Kids</div><div class="tg-pd">Games &amp; animation, ages 6&ndash;10</div></a>
+                    <a href="/courses/coding/college"><div class="tg-pt">DSA &amp; Full-Stack</div><div class="tg-pd">Placement-ready for college students</div></a>
+                    <a href="/coding-classes-for-girls"><div class="tg-pt">Coding for Girls</div><div class="tg-pd">Supportive, confidence-building batches</div></a>
+                    <a href="/summer-coding-camp"><div class="tg-pt">Summer Coding Camp</div><div class="tg-pd">Fast, fun project sprints</div></a>
                 </div>
             </div>
         </section>

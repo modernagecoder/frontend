@@ -397,6 +397,16 @@
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+    <!-- Popular Courses promo grid (parity with Tier-2 pages) -->
+    <style>
+        .gj-promo { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+        .gj-promo a { display: block; text-decoration: none; background: var(--gj-card); border: 1px solid var(--gj-line); border-radius: 14px; padding: 18px 16px; transition: transform .2s ease, border-color .2s ease, background .2s ease; }
+        .gj-promo a:hover { transform: translateY(-4px); border-color: #fb923c; background: rgba(251,146,60,0.06); }
+        .gj-promo .gj-pt { font-family: 'Syne', sans-serif; color: #fff; font-weight: 700; font-size: 1rem; margin: 0 0 4px; }
+        .gj-promo .gj-pd { color: var(--gj-muted); font-size: .82rem; line-height: 1.4; }
+        @media (max-width: 920px) { .gj-promo { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 560px) { .gj-promo { grid-template-columns: 1fr; } }
+    </style>
 </head>
 
 <body class="best-coding-page gujarat-page">
@@ -785,6 +795,25 @@
 
                 <div style="text-align:center;margin-top:34px;">
                     <a href="#book-demo" class="gj-btn gj-btn-primary">Book a Free Demo for Any Course</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- ===================== POPULAR COURSES PROMO ===================== -->
+        <section class="section gj-section">
+            <p class="gj-kicker">Most Requested in Gujarat</p>
+            <h2 class="gj-h2">Popular Coding Courses for Gujarat Students</h2>
+            <p class="gj-sub">Hand-picked programmes parents and students in Gujarat ask for most &mdash; explore any of them or book a free demo to find the right fit.</p>
+            <div class="gj-wrap">
+                <div class="gj-promo">
+                    <a href="/python-and-ai-classes-for-kids-teens"><div class="gj-pt">Python &amp; AI</div><div class="gj-pd">For kids &amp; teens — code + intelligence</div></a>
+                    <a href="/ai-ml-course-for-teens"><div class="gj-pt">AI &amp; ML for Teens</div><div class="gj-pd">Build real machine-learning projects</div></a>
+                    <a href="/java-programming-for-kids-teens"><div class="gj-pt">Java Programming</div><div class="gj-pd">Strong OOP foundations for teens</div></a>
+                    <a href="/courses/coding/teens"><div class="gj-pt">Web Development</div><div class="gj-pd">HTML, CSS, JavaScript &amp; live sites</div></a>
+                    <a href="/courses/coding/kids"><div class="gj-pt">Scratch for Kids</div><div class="gj-pd">Games &amp; animation, ages 6&ndash;10</div></a>
+                    <a href="/courses/coding/college"><div class="gj-pt">DSA &amp; Full-Stack</div><div class="gj-pd">Placement-ready for college students</div></a>
+                    <a href="/coding-classes-for-girls"><div class="gj-pt">Coding for Girls</div><div class="gj-pd">Supportive, confidence-building batches</div></a>
+                    <a href="/summer-coding-camp"><div class="gj-pt">Summer Coding Camp</div><div class="gj-pd">Fast, fun project sprints</div></a>
                 </div>
             </div>
         </section>

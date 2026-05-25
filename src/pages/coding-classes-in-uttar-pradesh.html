@@ -410,6 +410,16 @@
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+    <!-- Popular Courses promo grid (parity with Tier-2 pages) -->
+    <style>
+        .up-promo { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+        .up-promo a { display: block; text-decoration: none; background: var(--up-card); border: 1px solid var(--up-line); border-radius: 14px; padding: 18px 16px; transition: transform .2s ease, border-color .2s ease, background .2s ease; }
+        .up-promo a:hover { transform: translateY(-4px); border-color: #16a34a; background: rgba(22,163,74,0.06); }
+        .up-promo .up-pt { font-family: 'Syne', sans-serif; color: #fff; font-weight: 700; font-size: 1rem; margin: 0 0 4px; }
+        .up-promo .up-pd { color: var(--up-muted); font-size: .82rem; line-height: 1.4; }
+        @media (max-width: 920px) { .up-promo { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 560px) { .up-promo { grid-template-columns: 1fr; } }
+    </style>
 </head>
 
 <body class="best-coding-page uttarpradesh-page">
@@ -812,6 +822,25 @@
 
                 <div style="text-align:center;margin-top:34px;">
                     <a href="#book-demo" class="up-btn up-btn-primary">Book a Free Demo for Any Course</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- ===================== POPULAR COURSES PROMO ===================== -->
+        <section class="section up-section">
+            <p class="up-kicker">Most Requested in Uttar Pradesh</p>
+            <h2 class="up-h2">Popular Coding Courses for Uttar Pradesh Students</h2>
+            <p class="up-sub">Hand-picked programmes parents and students in Uttar Pradesh ask for most &mdash; explore any of them or book a free demo to find the right fit.</p>
+            <div class="up-wrap">
+                <div class="up-promo">
+                    <a href="/python-and-ai-classes-for-kids-teens"><div class="up-pt">Python &amp; AI</div><div class="up-pd">For kids &amp; teens — code + intelligence</div></a>
+                    <a href="/ai-ml-course-for-teens"><div class="up-pt">AI &amp; ML for Teens</div><div class="up-pd">Build real machine-learning projects</div></a>
+                    <a href="/java-programming-for-kids-teens"><div class="up-pt">Java Programming</div><div class="up-pd">Strong OOP foundations for teens</div></a>
+                    <a href="/courses/coding/teens"><div class="up-pt">Web Development</div><div class="up-pd">HTML, CSS, JavaScript &amp; live sites</div></a>
+                    <a href="/courses/coding/kids"><div class="up-pt">Scratch for Kids</div><div class="up-pd">Games &amp; animation, ages 6&ndash;10</div></a>
+                    <a href="/courses/coding/college"><div class="up-pt">DSA &amp; Full-Stack</div><div class="up-pd">Placement-ready for college students</div></a>
+                    <a href="/coding-classes-for-girls"><div class="up-pt">Coding for Girls</div><div class="up-pd">Supportive, confidence-building batches</div></a>
+                    <a href="/summer-coding-camp"><div class="up-pt">Summer Coding Camp</div><div class="up-pd">Fast, fun project sprints</div></a>
                 </div>
             </div>
         </section>

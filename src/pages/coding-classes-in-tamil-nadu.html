@@ -476,6 +476,16 @@
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+    <!-- Popular Courses promo grid (parity with Tier-2 pages) -->
+    <style>
+        .tn-promo { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+        .tn-promo a { display: block; text-decoration: none; background: var(--tn-card); border: 1px solid var(--tn-line); border-radius: 14px; padding: 18px 16px; transition: transform .2s ease, border-color .2s ease, background .2s ease; }
+        .tn-promo a:hover { transform: translateY(-4px); border-color: #f59e0b; background: rgba(245,158,11,0.06); }
+        .tn-promo .tn-pt { font-family: 'Syne', sans-serif; color: #fff; font-weight: 700; font-size: 1rem; margin: 0 0 4px; }
+        .tn-promo .tn-pd { color: var(--tn-muted); font-size: .82rem; line-height: 1.4; }
+        @media (max-width: 920px) { .tn-promo { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 560px) { .tn-promo { grid-template-columns: 1fr; } }
+    </style>
 </head>
 
 <body class="best-coding-page tamilnadu-page">
@@ -866,6 +876,25 @@
 
                 <div style="text-align:center;margin-top:34px;">
                     <a href="#book-demo" class="tn-btn tn-btn-primary">Book a Free Demo for Any Course</a>
+                </div>
+            </div>
+        </section>
+
+                <!-- ===================== POPULAR COURSES PROMO ===================== -->
+        <section class="section tn-section">
+            <p class="tn-kicker">Most Requested in Tamil Nadu</p>
+            <h2 class="tn-h2">Popular Coding Courses for Tamil Nadu Students</h2>
+            <p class="tn-sub">Hand-picked programmes parents and students in Tamil Nadu ask for most &mdash; explore any of them or book a free demo to find the right fit.</p>
+            <div class="tn-wrap">
+                <div class="tn-promo">
+                    <a href="/python-and-ai-classes-for-kids-teens"><div class="tn-pt">Python &amp; AI</div><div class="tn-pd">For kids &amp; teens — code + intelligence</div></a>
+                    <a href="/ai-ml-course-for-teens"><div class="tn-pt">AI &amp; ML for Teens</div><div class="tn-pd">Build real machine-learning projects</div></a>
+                    <a href="/java-programming-for-kids-teens"><div class="tn-pt">Java Programming</div><div class="tn-pd">Strong OOP foundations for teens</div></a>
+                    <a href="/courses/coding/teens"><div class="tn-pt">Web Development</div><div class="tn-pd">HTML, CSS, JavaScript &amp; live sites</div></a>
+                    <a href="/courses/coding/kids"><div class="tn-pt">Scratch for Kids</div><div class="tn-pd">Games &amp; animation, ages 6&ndash;10</div></a>
+                    <a href="/courses/coding/college"><div class="tn-pt">DSA &amp; Full-Stack</div><div class="tn-pd">Placement-ready for college students</div></a>
+                    <a href="/coding-classes-for-girls"><div class="tn-pt">Coding for Girls</div><div class="tn-pd">Supportive, confidence-building batches</div></a>
+                    <a href="/summer-coding-camp"><div class="tn-pt">Summer Coding Camp</div><div class="tn-pd">Fast, fun project sprints</div></a>
                 </div>
             </div>
         </section>
