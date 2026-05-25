@@ -1670,6 +1670,16 @@
   to = "/src/pages/coding-classes-in-madhya-pradesh.html"
   status = 200
 
+[[redirects]]
+  from = "/coding-classes-in-andhra-pradesh"
+  to = "/src/pages/coding-classes-in-andhra-pradesh.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-punjab"
+  to = "/src/pages/coding-classes-in-punjab.html"
+  status = 200
+
 # Friendly aliases for country pages (uk/us short forms)
 [[redirects]]
   from = "/coding-classes-in-uk"
@@ -1901,6 +1911,16 @@
 [[redirects]]
   from = "/coding-classes-in-madhya-pradesh.md"
   to = "/src/pages/coding-classes-in-madhya-pradesh.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-andhra-pradesh.md"
+  to = "/src/pages/coding-classes-in-andhra-pradesh.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-punjab.md"
+  to = "/src/pages/coding-classes-in-punjab.md"
   status = 200
 
 [[redirects]]
