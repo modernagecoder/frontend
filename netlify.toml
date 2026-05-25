@@ -1700,6 +1700,11 @@
   to = "/src/pages/coding-classes-in-assam.html"
   status = 200
 
+[[redirects]]
+  from = "/coding-classes-in-jharkhand"
+  to = "/src/pages/coding-classes-in-jharkhand.html"
+  status = 200
+
 # Friendly aliases for country pages (uk/us short forms)
 [[redirects]]
   from = "/coding-classes-in-uk"
@@ -1961,6 +1966,11 @@
 [[redirects]]
   from = "/coding-classes-in-assam.md"
   to = "/src/pages/coding-classes-in-assam.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-jharkhand.md"
+  to = "/src/pages/coding-classes-in-jharkhand.md"
   status = 200
 
 [[redirects]]
