@@ -328,11 +328,40 @@
 /courses/kids /levels/coding-for-kids 301!
 /courses/girls-coding /levels/coding-for-kids 301!
 
+# 301 Redirects for GSC 404s — wrong/old course slugs (May 2026)
+/courses/kids-complete-app-development-masterclass /courses/block-coding-app-development-masterclass 301!
+/courses/web-development-complete-course /courses/full-stack-web-development-masterclass-college 301!
+/courses/jee-advanced-mathematics-mastery /courses/complete-high-school-mathematics-mastery 301!
+/courses/backend-web-development-complete-masterclass-teens /courses/backend-coding-masterclass-for-teens 301!
+/courses/game-development-for-kids-teens /courses/game-development-masterclass-for-kids 301!
+/courses/full-stack-web-development /courses/full-stack-web-development-masterclass-college 301!
+/courses/coding-for-kids-beginners /courses/kids-coding-blocks-masterclass 301!
+/courses/java-programming-complete-course-teens /courses/java-programming-masterclass-for-teens 301!
+/courses/full-stack-development /courses/full-stack-web-development-masterclass-college 301!
+/courses/data-science /courses/data-science-complete-masterclass-college 301!
+/courses/react-teens /courses/react-for-teens-complete-masterclass 301!
+/courses/python-programming-masterclass /courses/python-programming-masterclass-zero-to-advanced-college 301!
+/courses/teens-ai-web-development-course /courses/ai-ml-masterclass-teens 301!
+/courses/data-science-analytics-masterclass-college /courses/data-science-complete-masterclass-college 301!
+/courses/kids-web-design-masterclass /courses/kids-ai-web-development-course 301!
+/courses/data-science-machine-learning-python-college /courses/data-science-complete-masterclass-college 301!
+/courses/web-development-masterclass-teens /courses/full-stack-web-development-teens-masterclass 301!
+/courses/kids-scratch-coding-masterclass /courses/scratch-programming-complete-course 301!
+/courses/web-development-for-teens-complete-guide /courses/full-stack-web-development-teens-masterclass 301!
+/courses/full-stack-web-development-college-students /courses/full-stack-web-development-masterclass-college 301!
+/courses/mern-stack-complete-masterclass-college /courses/mern-stack-development-masterclass-college 301!
+/courses/frontend-web-development-complete-masterclass-teens /courses/frontend-development-masterclass-for-teens 301!
+
+# Strip stray /index.html suffix on course URLs (duplicate-content 404s)
+/courses/algorithmic-trading-automation-masterclass/index.html /courses/algorithmic-trading-automation-masterclass 301!
+/courses/algorithmic-trading-masterclass-complete/index.html /courses/algorithmic-trading-masterclass-complete 301!
+
 # Individual course pages (catch-all — must come AFTER specific redirects above)
 /courses/* /content/courses/generated/:splat/index.html 200
 
 # Blog redirect for template page (must come BEFORE blog catch-all)
 /blog/example-all-features /blog 301!
+/blog/mathematics-programming-logical-problem-solving /blog/role-of-mathematics-programming-logical-problem-solving 301!
 
 # Blog posts (catch-all — must come AFTER specific redirects above)
 /blog/* /content/blog/generated/:splat/index.html 200
@@ -530,6 +559,35 @@
 /cbse-maths-tutor-uae.html   /cbse-maths-tutor-uae   301!
 /american-maths-tutor-uae        /src/pages/american-maths-tutor-uae.html   200
 /american-maths-tutor-uae.html   /american-maths-tutor-uae   301!
+
+# ===== GSC 404 fixes — landing pages that existed but had no clean URL =====
+/how-ai-actually-works        /src/pages/how-ai-actually-works.html   200
+/how-ai-actually-works.html   /how-ai-actually-works   301!
+/build-your-own-gpt-python        /src/pages/build-your-own-gpt-python.html   200
+/build-your-own-gpt-python.html   /build-your-own-gpt-python   301!
+/screen-time-to-skill        /src/pages/screen-time-to-skill.html   200
+/screen-time-to-skill.html   /screen-time-to-skill   301!
+/coding-olympiad-medal-track        /src/pages/coding-olympiad-medal-track.html   200
+/coding-olympiad-medal-track.html   /coding-olympiad-medal-track   301!
+/jee-aspirant-coding-track        /src/pages/jee-aspirant-coding-track.html   200
+/jee-aspirant-coding-track.html   /jee-aspirant-coding-track   301!
+/coding-fee-calculator        /src/pages/coding-fee-calculator.html   200
+/coding-fee-calculator.html   /coding-fee-calculator   301!
+/coding-comeback-women        /src/pages/coding-comeback-women.html   200
+/coding-comeback-women.html   /coding-comeback-women   301!
+
+# New grade page (Class 3)
+/coding-for-class-3        /src/pages/coding-for-class-3.html   200
+/coding-for-class-3.html   /coding-for-class-3   301!
+
+# ===== GSC 404 fixes — malformed city / school URLs (caps + spaces) =====
+/best-coding-class-in-Bengaluru /best-coding-class-in-bengaluru 301!
+/coding-classes-for-la-martiniere-girls-Bengaluru /best-coding-class-in-bengaluru 301!
+/best-coding-class-in-New* /best-coding-class-in-delhi 301!
+/coding-classes-for-la-martiniere-girls-New* /best-coding-class-in-delhi 301!
+
+# Old /pages/love.html → clean /love
+/pages/love.html /love 301!
 
 # 404 fallback
 /* /src/pages/404.html 404

@@ -2227,6 +2227,12 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/blog/mathematics-programming-logical-problem-solving"
+  to = "/blog/role-of-mathematics-programming-logical-problem-solving"
+  status = 301
+  force = true
+
 # Locality Landing Pages — Kolkata (South, Central, North, East)
 [[redirects]]
   from = "/coding-classes-near-ballygunge-kolkata"
@@ -2651,6 +2657,239 @@
   from = "/python-for-class-12-cbse"
   to = "/src/pages/python-for-class-12-cbse.html"
   status = 200
+
+# ============================================================
+# GSC 404 fixes (May 2026) — keep in sync with _redirects
+# ============================================================
+
+# --- Course slug 301s (wrong/old slugs found in GSC) ---
+[[redirects]]
+  from = "/courses/kids-complete-app-development-masterclass"
+  to = "/courses/block-coding-app-development-masterclass"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/web-development-complete-course"
+  to = "/courses/full-stack-web-development-masterclass-college"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/jee-advanced-mathematics-mastery"
+  to = "/courses/complete-high-school-mathematics-mastery"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/backend-web-development-complete-masterclass-teens"
+  to = "/courses/backend-coding-masterclass-for-teens"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/game-development-for-kids-teens"
+  to = "/courses/game-development-masterclass-for-kids"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/full-stack-web-development"
+  to = "/courses/full-stack-web-development-masterclass-college"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/coding-for-kids-beginners"
+  to = "/courses/kids-coding-blocks-masterclass"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/java-programming-complete-course-teens"
+  to = "/courses/java-programming-masterclass-for-teens"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/full-stack-development"
+  to = "/courses/full-stack-web-development-masterclass-college"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/data-science"
+  to = "/courses/data-science-complete-masterclass-college"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/react-teens"
+  to = "/courses/react-for-teens-complete-masterclass"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/python-programming-masterclass"
+  to = "/courses/python-programming-masterclass-zero-to-advanced-college"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/teens-ai-web-development-course"
+  to = "/courses/ai-ml-masterclass-teens"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/data-science-analytics-masterclass-college"
+  to = "/courses/data-science-complete-masterclass-college"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/kids-web-design-masterclass"
+  to = "/courses/kids-ai-web-development-course"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/data-science-machine-learning-python-college"
+  to = "/courses/data-science-complete-masterclass-college"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/web-development-masterclass-teens"
+  to = "/courses/full-stack-web-development-teens-masterclass"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/kids-scratch-coding-masterclass"
+  to = "/courses/scratch-programming-complete-course"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/web-development-for-teens-complete-guide"
+  to = "/courses/full-stack-web-development-teens-masterclass"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/full-stack-web-development-college-students"
+  to = "/courses/full-stack-web-development-masterclass-college"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/mern-stack-complete-masterclass-college"
+  to = "/courses/mern-stack-development-masterclass-college"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/frontend-web-development-complete-masterclass-teens"
+  to = "/courses/frontend-development-masterclass-for-teens"
+  status = 301
+  force = true
+
+# --- Strip stray /index.html suffix on course URLs ---
+[[redirects]]
+  from = "/courses/algorithmic-trading-automation-masterclass/index.html"
+  to = "/courses/algorithmic-trading-automation-masterclass"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/courses/algorithmic-trading-masterclass-complete/index.html"
+  to = "/courses/algorithmic-trading-masterclass-complete"
+  status = 301
+  force = true
+
+# --- Landing pages that existed but had no clean URL ---
+[[redirects]]
+  from = "/how-ai-actually-works"
+  to = "/src/pages/how-ai-actually-works.html"
+  status = 200
+[[redirects]]
+  from = "/how-ai-actually-works.html"
+  to = "/how-ai-actually-works"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/build-your-own-gpt-python"
+  to = "/src/pages/build-your-own-gpt-python.html"
+  status = 200
+[[redirects]]
+  from = "/build-your-own-gpt-python.html"
+  to = "/build-your-own-gpt-python"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/screen-time-to-skill"
+  to = "/src/pages/screen-time-to-skill.html"
+  status = 200
+[[redirects]]
+  from = "/screen-time-to-skill.html"
+  to = "/screen-time-to-skill"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/coding-olympiad-medal-track"
+  to = "/src/pages/coding-olympiad-medal-track.html"
+  status = 200
+[[redirects]]
+  from = "/coding-olympiad-medal-track.html"
+  to = "/coding-olympiad-medal-track"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/jee-aspirant-coding-track"
+  to = "/src/pages/jee-aspirant-coding-track.html"
+  status = 200
+[[redirects]]
+  from = "/jee-aspirant-coding-track.html"
+  to = "/jee-aspirant-coding-track"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/coding-fee-calculator"
+  to = "/src/pages/coding-fee-calculator.html"
+  status = 200
+[[redirects]]
+  from = "/coding-fee-calculator.html"
+  to = "/coding-fee-calculator"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/coding-comeback-women"
+  to = "/src/pages/coding-comeback-women.html"
+  status = 200
+[[redirects]]
+  from = "/coding-comeback-women.html"
+  to = "/coding-comeback-women"
+  status = 301
+  force = true
+
+# --- New grade page (Class 3) ---
+[[redirects]]
+  from = "/coding-for-class-3"
+  to = "/src/pages/coding-for-class-3.html"
+  status = 200
+[[redirects]]
+  from = "/coding-for-class-3.html"
+  to = "/coding-for-class-3"
+  status = 301
+  force = true
+
+# --- Malformed city / school URLs (caps + spaces) ---
+[[redirects]]
+  from = "/best-coding-class-in-Bengaluru"
+  to = "/best-coding-class-in-bengaluru"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/coding-classes-for-la-martiniere-girls-Bengaluru"
+  to = "/best-coding-class-in-bengaluru"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/best-coding-class-in-New*"
+  to = "/best-coding-class-in-delhi"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/coding-classes-for-la-martiniere-girls-New*"
+  to = "/best-coding-class-in-delhi"
+  status = 301
+  force = true
+
+# --- Old /pages/love.html → clean /love ---
+[[redirects]]
+  from = "/pages/love.html"
+  to = "/love"
+  status = 301
+  force = true
 
 # 404 fallback
 [[redirects]]

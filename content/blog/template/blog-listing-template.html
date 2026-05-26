@@ -232,7 +232,7 @@
                 }
 
                 searchDropdown.innerHTML = matches.map(item => `
-                    <a href="/blog/${item.url}" class="search-dropdown-item">
+                    <a href="${'/blog/' + item.url}" class="search-dropdown-item">
                         <span class="search-dropdown-title">${highlightMatch(escapeHtml(getOriginalTitle(item.el)), query)}</span>
                         <span class="search-dropdown-category">${item.category}</span>
                     </a>

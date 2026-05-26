@@ -4,6 +4,9 @@
 User-agent: *
 Allow: /
 
+# Disallow API endpoints (POST form handlers — not indexable pages)
+Disallow: /api/
+
 # Disallow admin and test pages
 Disallow: /admin/
 Disallow: /test-*.html
