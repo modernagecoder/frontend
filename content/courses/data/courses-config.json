@@ -54,6 +54,24 @@
         "lifetime": { "amount": 44999, "display": "₹44,999" }
       }
     },
+    "codex-and-claude-code-ai-coding-agents-course-for-teens": {
+      "name": "Codex + Claude Code for Teens",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "lifetime": { "amount": 44999, "display": "₹44,999" }
+      }
+    },
+    "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals": {
+      "name": "Codex + Claude Code Masterclass (Pro)",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "miniBatch": { "amount": 2499, "display": "₹2,499/month", "indiaOnly": true },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "lifetime": { "amount": 49999, "display": "₹49,999" }
+      }
+    },
     "vibe-coding-for-college-fullstack-ai-dsa-career-course": {
       "name": "Vibe Coding for College",
       "pricing": {
