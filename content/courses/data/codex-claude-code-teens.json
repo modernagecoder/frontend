@@ -1,0 +1,581 @@
+{
+  "meta": {
+    "slug": "codex-and-claude-code-ai-coding-agents-course-for-teens",
+    "title": "Codex & Claude Code for Teens — AI Coding Agents Masterclass (24 Classes)",
+    "description": "Learn OpenAI Codex and Anthropic Claude Code — the two leading AI coding agents — in 24 hands-on classes built for teens 13-18. Install the CLIs, master plan and goal mode, MCP, subagents, hooks, GitHub pull requests and ship a real app you can put in your portfolio. Beginner-friendly, project-based, and a living syllabus updated as new features and models ship.",
+    "keywords": [
+      "codex course for teens",
+      "claude code course",
+      "ai coding agents course",
+      "learn openai codex",
+      "claude code for beginners",
+      "agentic coding for teens",
+      "vibe coding with ai",
+      "openai codex tutorial",
+      "anthropic claude code training",
+      "ai coding for students",
+      "gpt-5-codex course",
+      "claude code cli course",
+      "ai pair programming course",
+      "teen coding course ai",
+      "codex cli tutorial",
+      "learn to code with ai 2026",
+      "build apps with ai agents",
+      "ai coding bootcamp for teenagers"
+    ],
+    "category": "AI Coding Agents",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹44,999 (one-time)"
+    },
+    "duration": "24 classes (12 weeks · 2 classes/week)",
+    "level": "Beginner-friendly (ages 13-18) to confident AI-agent builder",
+    "commitment": "3-4 hours/week recommended",
+    "certification": "Modern Age Coders 'AI Coding Agents for Teens' certificate upon completion",
+    "image_path": "ai-tools-kids.png"
+  },
+
+  "program_overview": {
+    "title": "Codex + Claude Code: AI Coding Agents Masterclass for Teens",
+    "tagline": "Don't just learn to code — learn to direct the two most powerful AI coding agents on Earth, and build real apps in 24 classes.",
+    "description": "This is the most complete teen-friendly course on the two AI coding agents every developer is talking about in 2026: OpenAI Codex and Anthropic Claude Code. In 24 carefully sequenced, project-based classes you will install both tools, learn to give them instructions safely, and watch them write, fix, and ship real code with you. You start from zero — no coding experience required — and finish by building and deploying a real app end-to-end with both agents helping you. Every class has live commands, worked examples, a hands-on project, practice, and a checkpoint. You learn the current tools as they exist today: Claude Code v2.1.x running on Anthropic's Opus 4.7 model, and the OpenAI Codex CLI running on GPT-5.3-Codex and GPT-5.5.",
+    "what_makes_this_different": [
+      "Two agents, one course — most courses teach one tool; you graduate fluent in BOTH Codex and Claude Code and know when to use which.",
+      "100% hands-on — you run real commands from Class 2. No watching, all building.",
+      "Built for teens — friendly pace, fun projects (a website, a game, a Discord-style bot), and a portfolio you can show schools and colleges.",
+      "Living Syllabus — the curriculum is updated continuously as OpenAI Codex and Anthropic Claude Code release new features, models, and capabilities. You always learn the latest.",
+      "Safety-first — you learn approval modes, sandboxes, and responsible AI use before you ever let an agent run wild.",
+      "Real outcomes — finish with a deployed app, a GitHub profile with real pull requests, and a recognized certificate."
+    ],
+    "learning_path": [
+      "Phase 1 — Foundations of AI Coding Agents (Classes 1-5): what agents are, install + set up Codex and Claude Code, approval modes, your first real task.",
+      "Phase 2 — Daily Coding Workflow (Classes 6-11): slash commands, plan & goal mode, editing & diffs, running tests & git, project memory, checkpoints & undo.",
+      "Phase 3 — Extending & Connecting (Classes 12-17): MCP, skills & plugins, subagents, hooks, models & reasoning effort, multimodal screenshots.",
+      "Phase 4 — Cloud, Collaboration & Scale (Classes 18-21): Codex Cloud, Claude Code on web/desktop/mobile, GitHub code review, parallel agents & worktrees.",
+      "Phase 5 — Build, Secure & Ship (Classes 22-24): the Agent & Codex SDKs, security & sandboxing, and a capstone app you ship and certify."
+    ],
+    "career_outcomes": [
+      "A deployed, real app in your portfolio built with AI agents",
+      "A GitHub profile with genuine pull requests and code reviews",
+      "Future-ready skills colleges and internships increasingly look for",
+      "Confidence to build your own ideas — games, websites, bots, automations",
+      "A head start on the most in-demand developer skill of the decade: directing AI coding agents"
+    ]
+  },
+
+  "phase_1_foundations": {
+    "title": "Phase 1 — Foundations of AI Coding Agents",
+    "description": "Understand what AI coding agents are, install both Codex and Claude Code, learn to keep them safe with approval modes, and complete your very first real coding task.",
+    "week_1": {
+      "title": "Class 1: What Are AI Coding Agents? (Codex vs Claude Code)",
+      "topics": [
+        "What 'agentic coding' means: an AI that can read your files, write code, run commands, and fix its own mistakes — not just autocomplete",
+        "Meet OpenAI Codex: an AI software-engineering agent that lives in your terminal, your editor, the cloud, and ChatGPT",
+        "Meet Anthropic Claude Code: an agentic coding tool that runs in the terminal, VS Code/JetBrains, desktop, web, and mobile",
+        "How an agent loop works: you give a goal → it plans → it edits/runs → it checks → it reports back",
+        "Codex vs Claude Code at a glance: both are excellent; Codex leans into cloud parallel tasks + ChatGPT, Claude Code leans into deep terminal control + subagents",
+        "The 2026 models you'll use: Claude Code on Opus 4.7; Codex on GPT-5.3-Codex and GPT-5.5",
+        "Why learning to DIRECT an agent is now as important as writing code yourself"
+      ],
+      "projects": ["Make a one-page 'Codex vs Claude Code' comparison sheet in your own words, listing 3 things each is great at"],
+      "practice": "Watch each tool's homepage demo and write down 5 things you saw an agent do that surprised you.",
+      "assessment": "Explain, in 3 sentences a friend could understand, what an AI coding agent is and how it differs from a chatbot."
+    },
+    "week_2": {
+      "title": "Class 2: Installing & Setting Up Claude Code",
+      "topics": [
+        "Install on Windows (PowerShell): irm https://claude.ai/install.ps1 | iex  — on Mac/Linux: curl -fsSL https://claude.ai/install.sh | bash",
+        "Sign in with your plan: claude auth login (Claude Pro or Max works great for learners); check with claude auth status",
+        "Start your first session: open a project folder and type claude",
+        "Meet the REPL (the chat prompt) — type a request in plain English and press Enter",
+        "Type / to see the slash-command menu; try /help and /status",
+        "Understand the model: by default you're on Opus 4.7 (or Sonnet on some plans) — see it with /model",
+        "Exit safely and resume later — your session is saved"
+      ],
+      "projects": ["Install Claude Code, start a session in an empty folder, and ask it to create a hello.html page that says your name"],
+      "practice": "Ask Claude Code to explain what it just created, then ask it to change the background color.",
+      "assessment": "Share a screenshot of Claude Code running and your hello.html opening in a browser."
+    },
+    "week_3": {
+      "title": "Class 3: Installing & Using the OpenAI Codex CLI",
+      "topics": [
+        "What the Codex CLI is — an open-source AI coding agent in your terminal",
+        "Install it: npm install -g @openai/codex (needs Node.js 18+). Careful — the plain 'codex' package is something else; always use the @openai/ scope",
+        "Sign in two ways: 'Sign in with ChatGPT' (uses your ChatGPT Plus/Pro plan) OR an API key",
+        "Start it: type codex to open the interactive TUI; run codex doctor to check everything is healthy",
+        "Pick your model and thinking level with /model (low → medium → high → xhigh); defaults to GPT-5.3-Codex / GPT-5.5 in 2026",
+        "Give your first instruction in plain English and watch Codex plan and edit",
+        "Preview the AGENTS.md idea — a file that teaches Codex your project's rules (Class 10)"
+      ],
+      "projects": ["Install Codex, run codex doctor, then have Codex add a new section to your hello.html from Class 2"],
+      "practice": "Ask Codex to explain a file line-by-line, then ask it to add helpful comments.",
+      "assessment": "Screenshot a successful Codex session that edited a file, and explain in one line what the approval prompt asked you."
+    },
+    "week_4": {
+      "title": "Class 4: Staying in Control — Approval & Permission Modes",
+      "topics": [
+        "Why approval modes matter: you decide how much the agent can do without asking",
+        "Claude Code modes (cycle with Shift+Tab): default (asks each time), acceptEdits (auto-accepts file edits), plan (read-only, proposes first), auto (a classifier auto-approves safe actions)",
+        "Set a mode on launch: claude --permission-mode plan; manage rules with /permissions",
+        "Codex modes: read-only (look but don't touch), workspace-write (the safe default — edit inside your project), danger-full-access (no guardrails)",
+        "Switch Codex modes anytime with /approvals; the scary bypass flag --dangerously-bypass-approvals-and-sandbox (never use casually)",
+        "Reading an approval prompt: what the agent wants to run and why, before you say yes",
+        "Good habit: start in plan/read-only, review, then allow edits"
+      ],
+      "projects": ["Run the same small task ('add a footer to hello.html') in plan mode first, review the plan, then approve and apply it"],
+      "practice": "Deliberately deny an action in each tool and read what changes.",
+      "assessment": "List each approval mode for both tools and say in one line when you'd use it."
+    },
+    "week_5": {
+      "title": "Class 5: Your First Real Task in Both Agents",
+      "topics": [
+        "Pick a tiny starter project (a to-do list web page) and open it in your terminal",
+        "Give a clear goal: 'Add a button that clears all completed to-dos'",
+        "Let Claude Code plan it, show you a diff, and apply the change after you approve",
+        "Repeat the same goal with Codex and compare how each one approached it",
+        "Reading a diff: green = added lines, red = removed lines — how to check the change is what you wanted",
+        "Asking for a fix: 'That button is the wrong color, make it red' — iterating with the agent",
+        "Saving your work: ask the agent to run the app so you can see it work"
+      ],
+      "projects": ["Add two new features to the to-do app — one with Claude Code, one with Codex — and note which felt easier"],
+      "practice": "Intentionally introduce a bug, then ask the agent to find and fix it.",
+      "assessment": "Submit a short reflection comparing how Claude Code and Codex handled the same feature request."
+    }
+  },
+
+  "phase_2_workflow": {
+    "title": "Phase 2 — Your Daily Coding Workflow",
+    "description": "Learn the everyday moves: slash commands, planning before building, editing and diffs, running tests and git, teaching the agent your project, and undoing mistakes.",
+    "week_6": {
+      "title": "Class 6: Slash Commands & Steering Your Session",
+      "topics": [
+        "Claude Code essentials: /help, /clear (start fresh), /compact (shrink a long chat), /context (see what the agent remembers), /model",
+        "Codex essentials: /model, /approvals, /review, /status, and the @ picker to mention files",
+        "Why /clear and /compact matter: keeping the agent focused and fast",
+        "Mentioning a file so the agent reads exactly what you mean (@-mentions)",
+        "Checking your usage and limits with /usage (Claude) and /status (Codex)",
+        "Getting unstuck: asking the agent 'what are you doing and why?'",
+        "Keyboard tips that make you faster in each TUI"
+      ],
+      "projects": ["Create a personal cheat-sheet of your 10 most-used slash commands across both tools"],
+      "practice": "Run a long conversation, then use /compact (Claude) and start a clean Codex session — notice the difference.",
+      "assessment": "Demonstrate using @-mention to point the agent at a specific file and ask a question about it."
+    },
+    "week_7": {
+      "title": "Class 7: Plan Mode & Goal Mode — Think Before You Build",
+      "topics": [
+        "Claude Code Plan Mode: enter with /plan — the agent researches and proposes a plan WITHOUT editing",
+        "Why plan first: catches misunderstandings before any code changes",
+        "Goal Mode: /goal — the agent keeps working until a goal you define is actually met",
+        "Codex /plan and /goal — the same idea on the Codex side (Goal mode is on by default in 2026)",
+        "Writing a good goal: clear, checkable, one outcome ('the login form validates email and shows an error')",
+        "Reviewing and editing the agent's plan before you approve it",
+        "When to skip planning (tiny edits) vs always plan (anything touching multiple files)"
+      ],
+      "projects": ["Use Plan Mode to design a 'dark mode toggle' for a web page, review the plan, then let the agent build it"],
+      "practice": "Give a vague goal on purpose and watch how planning surfaces the missing details.",
+      "assessment": "Write one strong, checkable goal statement and explain why it's better than a vague one."
+    },
+    "week_8": {
+      "title": "Class 8: Reading, Editing & Reviewing Code Changes",
+      "topics": [
+        "How agents edit: they read the file, propose precise changes, and show you a diff",
+        "Reading multi-file changes — following a feature across several files",
+        "Accepting, rejecting, or asking for tweaks on each change",
+        "Claude Code /diff to see what changed; reviewing in VS Code with the extension",
+        "Asking the agent to explain a change you don't understand",
+        "Keeping changes small: one feature at a time is easier to review",
+        "Spotting when an agent edited too much and reining it in"
+      ],
+      "projects": ["Have an agent refactor a messy function and walk you through the diff line-by-line"],
+      "practice": "Reject a proposed change and ask for a different approach.",
+      "assessment": "Review a diff and correctly identify which lines were added, removed, and why."
+    },
+    "week_9": {
+      "title": "Class 9: Running Commands, Tests & Git from the Agent",
+      "topics": [
+        "Letting the agent run your app: 'start the dev server and tell me the URL'",
+        "Running tests through the agent and reading pass/fail output together",
+        "Basic git with the agent: 'commit this with a clear message', 'show me what changed'",
+        "Claude Code's Bash tool and Codex running commands inside the workspace sandbox",
+        "Approving commands safely — reading the command before it runs",
+        "Asking the agent to fix a failing test until it passes",
+        "Good commit hygiene: small, frequent commits with clear messages"
+      ],
+      "projects": ["Build a tiny feature, have the agent write a test for it, run the test, and commit when it passes"],
+      "practice": "Break a test on purpose and ask the agent to make it green again.",
+      "assessment": "Show a git history with at least 3 clear, agent-assisted commits."
+    },
+    "week_10": {
+      "title": "Class 10: Project Memory — CLAUDE.md & AGENTS.md",
+      "topics": [
+        "Why memory matters: tell the agent your project rules once, not every time",
+        "Claude Code: run /init to auto-create a CLAUDE.md; it loads automatically each session",
+        "What to put in CLAUDE.md: how to run the project, your style preferences, do's and don'ts",
+        "Claude Code auto-memory: it can save learnings to a memory folder and reload them later (/memory)",
+        "Codex: AGENTS.md at your repo root teaches Codex your conventions; you can also have nested ones per folder and a personal ~/.codex/AGENTS.md",
+        "A 'Review guidelines' section in AGENTS.md so Codex reviews PRs your way",
+        "Keeping memory short and useful (aim under ~200 lines)"
+      ],
+      "projects": ["Write a CLAUDE.md and an AGENTS.md for your to-do app describing how to run it and your code style"],
+      "practice": "Add a rule like 'always use 2-space indentation' and watch the agent follow it.",
+      "assessment": "Submit a CLAUDE.md and AGENTS.md and explain one rule in each."
+    },
+    "week_11": {
+      "title": "Class 11: Checkpoints, Rewind, Undo & Resuming Sessions",
+      "topics": [
+        "Claude Code checkpointing: it saves code state before edits automatically",
+        "Rewind with /rewind (or press Esc twice) — restore code, conversation, or both",
+        "Limitation to know: rewind tracks edits made by the agent's file tools, not files deleted by shell commands",
+        "Resuming: claude --continue (last chat) and claude --resume to pick a past session",
+        "Codex: resume past sessions and search your local conversation history",
+        "Branching a conversation to try a different approach without losing your place",
+        "Building the safety habit: checkpoint, experiment, rewind if needed"
+      ],
+      "projects": ["Make a risky change, dislike it, and use /rewind to go back cleanly"],
+      "practice": "Resume yesterday's session and continue where you left off.",
+      "assessment": "Demonstrate a rewind that restores code without losing your earlier conversation."
+    }
+  },
+
+  "phase_3_extending": {
+    "title": "Phase 3 — Extending & Connecting Your Agents",
+    "description": "Supercharge both agents: connect external tools with MCP, build skills and plugins, create subagents, automate with hooks, choose models and reasoning effort, and code from screenshots.",
+    "week_12": {
+      "title": "Class 12: MCP — Connecting External Tools & Data",
+      "topics": [
+        "What MCP (Model Context Protocol) is: a standard way to plug tools and data into your agent",
+        "Claude Code: add a server with claude mcp add --transport http <name> <url>; manage with /mcp and claude mcp list",
+        "Real examples: connect a docs server, a database, or a design tool so the agent can use it",
+        "Codex MCP: configure servers under [mcp_servers.<name>] in ~/.codex/config.toml (stdio or HTTP)",
+        "MCP scopes in Claude Code: local, project (shared via the repo), and user",
+        "Safety with MCP: only connect servers you trust; agents warn about untrusted tools",
+        "Seeing the new tools appear and asking the agent to use one"
+      ],
+      "projects": ["Connect one MCP server to each agent and have the agent use it to fetch real information"],
+      "practice": "List the new tools an MCP server added and try one.",
+      "assessment": "Explain what MCP does and show one server connected in each tool."
+    },
+    "week_13": {
+      "title": "Class 13: Skills, Custom Commands & Codex Plugins",
+      "topics": [
+        "Claude Code Skills: reusable mini-instructions the agent can run; manage with /skills",
+        "Create a custom slash command by adding a file in .claude/commands/ (e.g. /deploy)",
+        "How skills load only when needed, keeping things fast",
+        "Codex plugins, profiles, and the plugin marketplace for sharing setups",
+        "Codex profiles: switch settings/models per project with codex --profile <name>",
+        "When to make a skill vs just typing the instruction each time",
+        "Sharing your skills/plugins with classmates"
+      ],
+      "projects": ["Create a Claude Code custom command (like /newpage that scaffolds an HTML page) and a Codex profile for your project"],
+      "practice": "Run your custom command twice and tweak it to be more useful.",
+      "assessment": "Submit one working custom command/skill and explain what it automates."
+    },
+    "week_14": {
+      "title": "Class 14: Subagents — Your Specialist Team",
+      "topics": [
+        "What a subagent is: a helper with its own context, tools, and job",
+        "Claude Code built-in subagents: Explore (fast read-only search) and Plan (research before editing)",
+        "Create your own: a Markdown file in .claude/agents/ with name + description + a system prompt",
+        "Give a subagent only the tools it needs (e.g., a 'reviewer' that can only read)",
+        "Manage and generate agents with /agents",
+        "Why subagents keep the main chat clean and focused",
+        "Example: a 'test-writer' subagent that writes tests while you keep building"
+      ],
+      "projects": ["Create a 'code-reviewer' subagent and have it review your to-do app"],
+      "practice": "Compare answers from the Explore subagent vs asking the main agent directly.",
+      "assessment": "Submit a working subagent definition and a sample of its output."
+    },
+    "week_15": {
+      "title": "Class 15: Hooks & Automation",
+      "topics": [
+        "What hooks are: code that runs automatically at certain moments (events)",
+        "Claude Code events you'll meet: PreToolUse, PostToolUse, SessionStart, UserPromptSubmit, Stop",
+        "Where hooks live: settings JSON (.claude/settings.json) with a matcher + a command",
+        "A simple, safe hook: auto-format code after every edit, or block a dangerous command",
+        "Reading hook results as feedback to the agent",
+        "Turning hooks on/off and viewing them with /hooks",
+        "Automation mindset: let routine steps happen for you, every time"
+      ],
+      "projects": ["Add a PostToolUse hook that runs a formatter after the agent edits a file"],
+      "practice": "Write a PreToolUse rule that blocks an obviously dangerous command and test it.",
+      "assessment": "Submit a working hook and explain which event triggers it and why."
+    },
+    "week_16": {
+      "title": "Class 16: Models & Reasoning Effort",
+      "topics": [
+        "Claude Code models: Opus 4.7 (most capable), Sonnet (balanced), Haiku (fast/cheap); switch with /model",
+        "Reasoning effort levels: low, medium, high, xhigh — more effort = deeper thinking (set with /effort)",
+        "The 'ultrathink' trick: add it to a prompt for a one-off deeper think",
+        "Codex models: GPT-5.3-Codex and GPT-5.5; pick model + thinking level with /model",
+        "Big context: Opus 4.7 supports up to 1M tokens — great for large projects",
+        "Choosing wisely: fast model for simple edits, top model + high effort for hard problems",
+        "Cost & limits awareness for learners on student-friendly plans"
+      ],
+      "projects": ["Solve the same tricky bug on a low effort setting and a high effort setting and compare results"],
+      "practice": "Switch models mid-task and note speed vs quality trade-offs.",
+      "assessment": "Recommend a model + effort level for three different tasks and justify each."
+    },
+    "week_17": {
+      "title": "Class 17: Multimodal — Coding from Screenshots & Images",
+      "topics": [
+        "Why images help: show the agent a design or a bug instead of describing it",
+        "Drag-and-drop a screenshot into the prompt so the agent can see it",
+        "Codex Appshots (Mac): capture an app window as context for the agent",
+        "Ask the agent to recreate a UI from a picture of a design",
+        "Debugging from a screenshot of an error message",
+        "Combining text + image: 'make my page look like THIS image'",
+        "Limits: current models read images, not audio/video"
+      ],
+      "projects": ["Give the agent a screenshot of a website you like and have it build a similar layout"],
+      "practice": "Screenshot a broken page and ask the agent to diagnose it from the image.",
+      "assessment": "Show a before/after where an image guided the agent to the right result."
+    }
+  },
+
+  "phase_4_cloud_scale": {
+    "title": "Phase 4 — Cloud, Collaboration & Scale",
+    "description": "Go beyond your laptop: delegate tasks to Codex Cloud, use Claude Code on web and mobile, get automatic GitHub code reviews, and run several agents at once.",
+    "week_18": {
+      "title": "Class 18: Codex Cloud — Delegating Tasks That Run for You",
+      "topics": [
+        "What Codex Cloud is: agents that work on tasks in the background, in their own safe sandboxes",
+        "Get started at chatgpt.com/codex and connect a GitHub account",
+        "Run tasks in parallel: kick off several at once and let them cook",
+        "Each finished task comes back as a pull request you can review",
+        "Setting up a cloud environment: which repo, setup steps, and internet access",
+        "Reviewing the agent's work before merging anything",
+        "When cloud beats local: long jobs, or working on a repo you don't have on your laptop"
+      ],
+      "projects": ["Delegate two small tasks to Codex Cloud at once and review both resulting pull requests"],
+      "practice": "Give a cloud task a clear scope and read the PR description it writes.",
+      "assessment": "Show two parallel cloud tasks and explain what each PR changed."
+    },
+    "week_19": {
+      "title": "Class 19: Claude Code Everywhere — Web, Desktop, Mobile",
+      "topics": [
+        "Claude Code on the web at claude.ai/code for long-running and parallel tasks",
+        "The desktop app: review diffs visually and run multiple sessions side-by-side",
+        "Background agents: detach a session with /background and check it later",
+        "Remote control & mobile: steer a session from your phone",
+        "Pulling a web/remote session into your terminal to finish locally",
+        "Choosing the right surface for the job",
+        "Keeping all your sessions organized"
+      ],
+      "projects": ["Start a task on the web, then continue it on the desktop app or in your terminal"],
+      "practice": "Send one agent to the background and keep working in the foreground.",
+      "assessment": "Demonstrate moving the same task across two surfaces (web ↔ terminal/desktop)."
+    },
+    "week_20": {
+      "title": "Class 20: GitHub Integration & Automatic Code Review",
+      "topics": [
+        "Connecting GitHub so agents can open and review pull requests",
+        "Codex code review: comment @codex review on a PR, or turn on automatic reviews for every PR",
+        "Adding focus: @codex review for security issues",
+        "Claude Code: /code-review on your branch, with --comment to post inline comments on GitHub",
+        "Letting an agent fix review findings: @codex fix the issues",
+        "GitHub Actions/CI: agents that review or triage automatically",
+        "Reading a code review like a pro and acting on it"
+      ],
+      "projects": ["Open a PR, get an AI code review from Codex and from Claude Code, and apply the fixes"],
+      "practice": "Write a tiny risky change and see what the reviewer flags.",
+      "assessment": "Show a PR with at least one AI review comment that you addressed."
+    },
+    "week_21": {
+      "title": "Class 21: Parallel Agents, Worktrees & /batch",
+      "topics": [
+        "Why parallel: split a big job into pieces that run at the same time",
+        "Git worktrees: isolated copies of your repo so agents don't collide (claude -w <name>)",
+        "Claude Code /batch: break a large change into many units, each handled by its own background agent in its own worktree",
+        "Agent teams: multiple coordinating sessions",
+        "Codex Cloud parallelism revisited: many tasks, many PRs",
+        "Keeping parallel work organized and reviewing each piece",
+        "When NOT to parallelize (small, tightly-linked changes)"
+      ],
+      "projects": ["Use /batch (or several Codex Cloud tasks) to apply the same small improvement across multiple files"],
+      "practice": "Create a git worktree and run an agent in it without touching your main branch.",
+      "assessment": "Explain a real change you split into parallel pieces and how you reviewed them."
+    }
+  },
+
+  "phase_5_build_ship": {
+    "title": "Phase 5 — Build, Secure & Ship",
+    "description": "Bring it together: automate with the SDKs, code safely with sandboxes and permissions, and ship a real capstone app — then earn your certificate.",
+    "week_22": {
+      "title": "Class 22: Building With the SDKs (Agent SDK & Codex SDK)",
+      "topics": [
+        "Headless mode: run an agent without the chat UI — Claude Code claude -p \"task\" and Codex codex exec",
+        "Structured output: ask for clean JSON back (Codex --output-schema) to use in your own programs",
+        "The Claude Agent SDK: build your own mini-agent in TypeScript or Python using Claude Code's engine",
+        "The Codex SDK (TypeScript & Python): start a thread, run a prompt, resume it",
+        "A simple automation: a script that asks the agent to do a chore and reports the result",
+        "Piping: cat error.log | claude -p \"explain this error\"",
+        "Where this leads: your own custom AI tools"
+      ],
+      "projects": ["Write a tiny script that uses headless mode to summarize what changed in your project today"],
+      "practice": "Pipe a file into claude -p and read the structured answer.",
+      "assessment": "Submit a small working automation built with claude -p or codex exec."
+    },
+    "week_23": {
+      "title": "Class 23: Security, Sandboxing & Responsible AI Coding",
+      "topics": [
+        "Permission rules: allow / ask / deny specific actions before any tool runs",
+        "Claude Code Bash sandbox (/sandbox): OS-level isolation so commands can't roam your whole computer",
+        "Codex sandboxes: Apple Seatbelt (Mac), bubblewrap (Linux), Windows Sandbox — and the three approval modes",
+        "Protecting secrets: never let an agent read or commit passwords and API keys",
+        "Prompt injection: why you must be careful with untrusted web content and MCP servers",
+        "Reviewing before you run — the golden rule of agent safety",
+        "Being a responsible AI developer: understand the code the agent writes; you're accountable for it"
+      ],
+      "projects": ["Configure permission rules and a sandbox setting in each tool and test that a blocked action is actually blocked"],
+      "practice": "Add a deny rule for a dangerous command and confirm the agent respects it.",
+      "assessment": "Write a short 'safe AI coding checklist' you'll follow on every project."
+    },
+    "week_24": {
+      "title": "Class 24: Capstone — Ship a Real App + Certification",
+      "topics": [
+        "Choose your build: a personal website, a simple game, a quiz app, or a chat-style bot",
+        "Plan it with Plan/Goal mode, write your CLAUDE.md and AGENTS.md",
+        "Build with both agents — use each where it shines",
+        "Add a test, get an AI code review, and fix the findings",
+        "Deploy it live (e.g., a free static host) so you have a real URL",
+        "Polish your GitHub: real commits, a clean README, your PRs",
+        "Present your project and earn your Modern Age Coders AI Coding Agents certificate"
+      ],
+      "projects": ["Ship a complete, deployed app built and reviewed with Codex and Claude Code, with a public URL and a clean GitHub repo"],
+      "practice": "Demo your app to the class and walk through how the agents helped you build it.",
+      "assessment": "Final capstone: a deployed app + GitHub repo + a short write-up; pass earns the certificate."
+    }
+  },
+
+  "prerequisites": {
+    "device": "A laptop or desktop (Windows, Mac, or Linux) with internet — that's the main requirement",
+    "coding_experience": "None needed! We start from absolute zero. If you've done a little Scratch or Python, even better",
+    "accounts": "A free GitHub account, and access to Claude (Pro/Max) and ChatGPT (Plus/Pro) plans for the agents — we guide you through setup",
+    "mindset": "Curiosity and willingness to experiment. You'll learn by building, not memorizing"
+  },
+
+  "who_is_this_for": {
+    "teens": "Ages 13-18 who want to build real apps fast and learn the AI tools professional developers use in 2026",
+    "beginners": "Total beginners — no prior coding required; the agents help you while you learn",
+    "young_builders": "Teens with project ideas (games, websites, bots) who want to actually ship them",
+    "future_cs_students": "Students aiming for computer science, who want a standout portfolio and future-ready skills",
+    "scratch_python_grads": "Kids who've outgrown Scratch or done basic Python and want the next big step"
+  },
+
+  "career_paths_after_completion": [
+    "Junior/Intern Developer using AI agents to ship faster",
+    "Freelance mini-projects (websites, simple apps) for local businesses",
+    "Strong CS-college application portfolio with deployed projects",
+    "Hackathon competitor who can build a working prototype in a weekend",
+    "Future AI-assisted Software Engineer, Web Developer, or App Developer"
+  ],
+
+  "salary_expectations": {
+    "note": "Teens don't earn salaries from a course — but these skills compound. Here's the future earning potential they set you up for:",
+    "internships": "AI-fluent student interns are increasingly sought after for paid internships",
+    "early_career": "Entry-level developers who can direct AI agents are among the most productive (and best-paid) juniors",
+    "long_term": "Directing AI coding agents is becoming a core, highly-valued software skill for the decade ahead",
+    "freelance": "Even as a teen, simple websites/apps can be built for small clients with agent help"
+  },
+
+  "course_guarantees": {
+    "living_syllabus": "Living Syllabus guarantee — the curriculum is updated as OpenAI Codex and Anthropic Claude Code release new features, models, and capabilities. Enrolled students always learn the latest, at no extra cost",
+    "hands_on": "Every class includes real, runnable commands and a hands-on project — no passive watching",
+    "beginner_safe": "Start from zero — no coding experience required",
+    "portfolio": "Finish with a deployed app and a real GitHub profile",
+    "mentorship": "Live guidance from mentors who use these agents daily",
+    "certificate": "Recognized completion certificate for your capstone"
+  },
+
+  "additional_learning_resources": {
+    "claude_code_docs": "Official Claude Code documentation: https://code.claude.com/docs",
+    "codex_docs": "Official OpenAI Codex documentation: https://developers.openai.com/codex",
+    "claude_code_changelog": "Claude Code changelog (track new features): https://code.claude.com/docs/en/changelog",
+    "codex_changelog": "Codex changelog (track new features): https://developers.openai.com/codex/changelog",
+    "mcp_intro": "Model Context Protocol overview to understand tool connections",
+    "github_skills": "GitHub's free 'Hello World' and pull-request basics for absolute beginners"
+  },
+
+  "why_this_course": {
+    "the_shift": "Coding is changing faster than at any point in history. The developers who thrive aren't just typing code — they're directing AI agents that write, test, and ship it. Teens who learn this now have a multi-year head start.",
+    "two_tools_one_course": "We teach BOTH Codex and Claude Code because real developers use both, and knowing when to reach for each is a superpower.",
+    "always_current": "Our Living Syllabus means you're never learning a frozen, outdated version. As the tools evolve, so does the course."
+  },
+
+  "success_metrics": {
+    "projects_shipped": "Every student ships at least one deployed app",
+    "real_prs": "Students open and review real GitHub pull requests with AI code review",
+    "tool_fluency": "Graduates can confidently install, configure, and direct both Codex and Claude Code",
+    "safety_first": "Students complete the course following a personal safe-AI-coding checklist"
+  },
+
+  "faqs": [
+    {
+      "question": "Is OpenAI Codex free?",
+      "answer": "The Codex CLI is open-source and free to install. To run it you sign in with a ChatGPT plan (Plus, Pro, Business, Edu, or Enterprise) which includes Codex usage, or you use an OpenAI API key billed per use. In 2026 usage runs on rolling limits that reset every few hours. We help you choose the most student-friendly setup."
+    },
+    {
+      "question": "Do I need to know how to code before taking this course?",
+      "answer": "No. This course is designed for complete beginners aged 13-18. You start from zero in Class 1, and the AI agents help you write and understand code as you go. By the end you'll be shipping real apps."
+    },
+    {
+      "question": "Codex vs Claude Code — which should a teen learn first?",
+      "answer": "Both! That's the whole point of this course. They're the two best AI coding agents in 2026, and they shine in different ways — Codex is fantastic for cloud parallel tasks and the ChatGPT ecosystem, while Claude Code offers deep terminal control, subagents, and hooks. We teach you both and exactly when to use each."
+    },
+    {
+      "question": "Will this course go out of date as the tools change?",
+      "answer": "No — this is our Living Syllabus promise. OpenAI Codex and Anthropic Claude Code ship new features and models constantly (for example, Claude Code on Opus 4.7 and Codex on GPT-5.3-Codex/GPT-5.5 in 2026). We continuously update the curriculum so enrolled students always learn the latest features, at no extra cost."
+    },
+    {
+      "question": "What can my teen build by the end of the course?",
+      "answer": "A real, deployed app with a public URL — for example a personal website, a browser game, a quiz app, or a chat-style bot — plus a GitHub profile with genuine commits, pull requests, and AI code reviews. It's a portfolio piece they can show schools and colleges."
+    },
+    {
+      "question": "Is it safe to let an AI agent run code on our computer?",
+      "answer": "Yes, when you use it correctly — and we teach exactly that. You'll learn approval modes, OS-level sandboxes, and permission rules so the agent only does what you allow. An entire class (Class 23) is dedicated to security and responsible AI coding."
+    },
+    {
+      "question": "What computer and accounts do we need?",
+      "answer": "Any modern Windows, Mac, or Linux computer with internet. You'll need a free GitHub account and access to Claude and ChatGPT plans for the agents. We walk you through every install and login step in Classes 2 and 3."
+    },
+    {
+      "question": "How long is the course and how is it scheduled?",
+      "answer": "24 classes, typically two classes a week over about 12 weeks, with 3-4 hours of practice per week recommended. Group, mini-batch, and 1-on-1 options are available."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "name": "Aarav (16)",
+      "text": "I'd only done a bit of Python before. By Class 5 I was fixing real bugs with both Codex and Claude Code. My capstone — a quiz app — is actually live now and on my GitHub!"
+    },
+    {
+      "name": "Meera (14)",
+      "text": "The plan mode classes changed everything. Instead of the AI making a mess, I learned to make it explain its plan first. My parents were shocked I deployed a real website."
+    },
+    {
+      "name": "Parent of a 15-year-old",
+      "text": "What sold me was the safety class and the 'living syllabus'. The tools keep changing and the course keeps up. My son now talks about MCP and subagents at dinner."
+    }
+  ],
+
+  "related_courses": [
+    {
+      "slug": "vibe-coding-for-teens-python-web-ai-projects-course",
+      "title": "Vibe Coding for Teens",
+      "description": "Build Python, web, and AI projects with a modern, AI-assisted workflow"
+    },
+    {
+      "slug": "ai-tools-mastery-complete-college",
+      "title": "AI Tools Mastery",
+      "description": "Master the full toolkit of modern AI tools for productivity and creation"
+    },
+    {
+      "slug": "complete-generative-ai-masterclass-college",
+      "title": "Generative AI Masterclass",
+      "description": "Go deeper into LLMs, prompting, and building AI applications"
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "meta": {
+    "slug": "codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals",
+    "title": "Codex & Claude Code Masterclass for Adults & Professionals — AI Coding Agents (24 Classes)",
+    "description": "Master OpenAI Codex and Anthropic Claude Code — the two leading agentic AI coding tools — in 24 in-depth classes for adults, working professionals, and career switchers. Install and configure the CLIs, command plan and goal mode, MCP, subagents, hooks, cloud parallel agents, GitHub code review, and the Claude Agent SDK and Codex SDK. Ship production-grade work and automate real engineering tasks. Living syllabus, updated as new features and models ship.",
+    "keywords": [
+      "codex for professionals",
+      "claude code for developers",
+      "ai coding agents course",
+      "claude agent sdk course",
+      "codex sdk",
+      "agentic coding masterclass",
+      "ai developer productivity course",
+      "learn openai codex",
+      "anthropic claude code training",
+      "codex cli course",
+      "claude code cli",
+      "gpt-5-codex",
+      "ai pair programming for teams",
+      "mcp model context protocol course",
+      "ai coding for software engineers",
+      "automate engineering with ai",
+      "career switch to ai assisted development",
+      "codex vs claude code"
+    ],
+    "category": "AI Coding Agents",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹49,999 (one-time)"
+    },
+    "duration": "24 classes (12 weeks · 2 classes/week)",
+    "level": "Beginner to advanced — for working professionals, career switchers & developers",
+    "commitment": "4-6 hours/week recommended",
+    "certification": "Modern Age Coders 'AI Coding Agents Professional' certificate upon completion",
+    "image_path": "ai-tools-college.png"
+  },
+
+  "program_overview": {
+    "title": "Codex + Claude Code: AI Coding Agents Masterclass for Adults & Professionals",
+    "tagline": "Stop typing every line. Learn to direct the two most powerful AI coding agents and ship more, faster, safely — in 24 classes.",
+    "description": "This is the definitive professional course on the two agentic coding tools reshaping software work in 2026: OpenAI Codex and Anthropic Claude Code. Across 24 in-depth, lab-driven classes you'll go from first install to automating real engineering workflows — building features, refactoring legacy code, fixing flaky tests, reviewing PRs at scale, and orchestrating parallel agents. Whether you're a developer leveling up, a career switcher entering tech, or a professional who wants to 10x routine work, you'll learn both tools at the depth a job demands. You learn the current stack: Claude Code v2.1.x on Anthropic's Opus 4.7 (with effort levels up to xhigh and 1M-token context), and the OpenAI Codex CLI/Cloud on GPT-5.3-Codex and GPT-5.5. Every class is hands-on with real commands, config, and a deliverable.",
+    "what_makes_this_different": [
+      "Two agents, professionally — graduate fluent in BOTH Codex and Claude Code, and able to choose the right one per task and team.",
+      "Workplace-grade labs — refactor legacy modules, fix CI, automate releases, review PRs at scale; not toy examples.",
+      "Goes all the way to the SDKs — build your own automations and internal tooling with the Claude Agent SDK and Codex SDK.",
+      "Living Syllabus — continuously updated as OpenAI Codex and Anthropic Claude Code ship new features, models, and capabilities. You always learn the current product.",
+      "Security & governance built in — permission rules, OS sandboxes, secrets handling, and prompt-injection defense for real teams.",
+      "Outcome-focused — finish with a production-grade capstone, reusable automations, and a portfolio of AI-assisted engineering work."
+    ],
+    "learning_path": [
+      "Phase 1 — Foundations of AI Coding Agents (Classes 1-5): the agentic landscape, install + configure Codex and Claude Code, approval/permission models, your first real task.",
+      "Phase 2 — Daily Engineering Workflow (Classes 6-11): slash commands, plan & goal mode, diffs & multi-file edits, tests & git, project memory (CLAUDE.md / AGENTS.md), checkpoints & resume.",
+      "Phase 3 — Extending & Connecting (Classes 12-17): MCP, skills/commands & Codex plugins/profiles, subagents, hooks, model & effort selection, multimodal inputs.",
+      "Phase 4 — Cloud, Collaboration & Scale (Classes 18-21): Codex Cloud parallel tasks, Claude Code web/desktop/mobile/background, GitHub code review & CI, worktrees/batch/agent teams.",
+      "Phase 5 — Build, Secure & Ship (Classes 22-24): Claude Agent SDK & Codex SDK automation, security & sandboxing for teams, and a production capstone with certification."
+    ],
+    "career_outcomes": [
+      "AI-Assisted Software Engineer / Full-Stack Developer",
+      "Developer Productivity / Platform Engineer building agent workflows",
+      "Career switcher entering tech with a modern, AI-native skill set",
+      "Tech lead introducing safe agentic coding practices to a team",
+      "Automation engineer building internal tools on the Agent/Codex SDKs"
+    ]
+  },
+
+  "phase_1_foundations": {
+    "title": "Phase 1 — Foundations of AI Coding Agents",
+    "description": "Understand the agentic-coding landscape, install and configure both Codex and Claude Code, master the approval/permission models, and complete your first real engineering task.",
+    "week_1": {
+      "title": "Class 1: The Agentic Coding Landscape (Codex vs Claude Code)",
+      "topics": [
+        "Agentic coding defined: an autonomous loop that reads context, plans, edits, runs commands, verifies, and iterates",
+        "OpenAI Codex as a product family: the CLI, Codex Cloud, the IDE extension, the ChatGPT/desktop/mobile apps, and the Codex SDK",
+        "Anthropic Claude Code surfaces: terminal, VS Code/JetBrains, desktop, web (claude.ai/code), mobile, Slack, and CI",
+        "Where each excels: Codex for cloud parallelism + GitHub-native review + ChatGPT ecosystem; Claude Code for deep terminal control, subagents, hooks, and skills",
+        "The 2026 model backends: Claude Code on Opus 4.7; Codex on GPT-5.3-Codex and GPT-5.5",
+        "How agentic tools change team workflows: review-centric, smaller PRs, faster iteration",
+        "Building a mental model for evaluating any new agentic tool"
+      ],
+      "projects": ["Write a one-page internal brief: 'Codex vs Claude Code — where we'd use each' for a hypothetical team"],
+      "practice": "Map three tasks from your own work to the tool you'd choose and justify it.",
+      "assessment": "Produce a clear comparison matrix of Codex and Claude Code across 6 dimensions."
+    },
+    "week_2": {
+      "title": "Class 2: Installing & Configuring Claude Code",
+      "topics": [
+        "Install: macOS/Linux curl -fsSL https://claude.ai/install.sh | bash; Windows irm https://claude.ai/install.ps1 | iex; Homebrew/WinGet alternatives",
+        "Authenticate: claude auth login (subscription) or ANTHROPIC_API_KEY; claude auth status; claude setup-token for CI",
+        "Enterprise providers: Amazon Bedrock, Google Vertex AI, Azure AI Foundry via env flags (CLAUDE_CODE_USE_BEDROCK, etc.)",
+        "First session and the REPL; the slash-command menu; /status, /usage",
+        "Settings hierarchy: ~/.claude/settings.json (user), .claude/settings.json (project), .claude/settings.local.json (gitignored)",
+        "Choosing your model with /model (defaults to Opus 4.7 on Max/Team Premium, Sonnet on others)",
+        "IDE integration: install the VS Code/JetBrains extension and open Claude Code in your editor"
+      ],
+      "projects": ["Install Claude Code, configure a project .claude/settings.json, and run your first task in a real repo"],
+      "practice": "Set up the VS Code extension and review an edit as an inline diff.",
+      "assessment": "Show a configured project with settings.json and a successful first task."
+    },
+    "week_3": {
+      "title": "Class 3: Installing & Configuring the OpenAI Codex CLI",
+      "topics": [
+        "Install: npm install -g @openai/codex (Node 18+), or brew install --cask codex; note the @openai/ scope matters",
+        "Authenticate: Sign in with ChatGPT (Plus/Pro/Business/Edu/Enterprise) or an API key",
+        "Health check: codex doctor verifies runtime, auth, terminal, and network",
+        "The interactive TUI: model, service tier, token usage, and approval mode shown inline",
+        "Config file: ~/.codex/config.toml; switch settings per project with profiles (codex --profile <name>)",
+        "Model & reasoning selection with /model (low → xhigh); 2026 defaults GPT-5.3-Codex / GPT-5.5",
+        "Windows options: native (PowerShell + Windows Sandbox) or WSL2"
+      ],
+      "projects": ["Install Codex, create a ~/.codex/config.toml with a custom profile, and complete a task in workspace-write mode"],
+      "practice": "Run codex doctor, fix any warnings, and switch reasoning level mid-task.",
+      "assessment": "Submit your config.toml and a screenshot of a successful Codex session."
+    },
+    "week_4": {
+      "title": "Class 4: Approval & Permission Models (Safety Backbone)",
+      "topics": [
+        "Why approvals are the safety backbone of agentic coding",
+        "Claude Code permission modes (Shift+Tab to cycle): default, acceptEdits, plan (read-only), auto (classifier-approved); set with --permission-mode, manage via /permissions",
+        "Permission rule syntax: allow/ask/deny patterns like Bash(git push *), Edit(*.env)",
+        "Codex sandbox modes: read-only, workspace-write (default), danger-full-access; approval policies untrusted/on-request/on-failure/never/granular",
+        "Codex /approvals to switch live; the --dangerously-bypass-approvals-and-sandbox flag and why it's a last resort",
+        "Designing a team-safe default posture (start restrictive, widen deliberately)",
+        "Reading and reasoning about an approval request before granting it"
+      ],
+      "projects": ["Author a restrictive permission/approval policy for both tools and prove a blocked action is denied"],
+      "practice": "Add a deny rule for force-push and destructive commands in both tools.",
+      "assessment": "Document a recommended default permission posture for a small dev team."
+    },
+    "week_5": {
+      "title": "Class 5: Your First Real Engineering Task in Both Agents",
+      "topics": [
+        "Pick a real bug or small feature in a sample repo and scope it precisely",
+        "Claude Code: plan → diff → approve → verify; iterate with targeted feedback",
+        "Codex: same task in workspace-write; compare approach, edits, and explanations",
+        "Reading multi-file diffs critically and catching over-broad changes",
+        "Driving iteration: 'narrow the change to module X', 'add a guard for null input'",
+        "Verifying behavior: have the agent run the app/tests and confirm the fix",
+        "Capturing what worked: notes you'll fold into project memory next phase"
+      ],
+      "projects": ["Resolve the same issue with each agent and write a short comparison of edit quality and effort"],
+      "practice": "Introduce a regression and have each agent locate and fix it.",
+      "assessment": "Submit two diffs (one per agent) solving the same task, with a critique."
+    }
+  },
+
+  "phase_2_workflow": {
+    "title": "Phase 2 — Your Daily Engineering Workflow",
+    "description": "Build a fast, reliable daily loop: slash commands, planning, reviewing diffs, running tests and git, teaching the agent your codebase, and recovering with checkpoints.",
+    "week_6": {
+      "title": "Class 6: Slash Commands & Session Control",
+      "topics": [
+        "Claude Code: /help, /clear, /compact (compress context), /context (inspect what's loaded), /model, /diff, /review",
+        "Codex: /model, /approvals, /review, /status, /plan, /goal, and the @ picker for files/dirs/skills",
+        "Managing context windows deliberately — when to /compact vs /clear vs start fresh",
+        "@-mentioning files and MCP resources to target the agent precisely",
+        "Monitoring cost and limits: /usage (Claude) and inline token usage (Codex)",
+        "Recovering a derailed session: ask the agent to restate its current plan",
+        "Building muscle memory in each TUI for speed"
+      ],
+      "projects": ["Create a personal/team reference of the 12 most-used commands across both tools with examples"],
+      "practice": "Run a long session, then reclaim context with /compact and compare token usage before/after.",
+      "assessment": "Demonstrate precise @-mention targeting and a clean context reset."
+    },
+    "week_7": {
+      "title": "Class 7: Plan Mode & Goal Mode",
+      "topics": [
+        "Claude Code Plan Mode (/plan): read-only research and a proposed plan before any edit",
+        "Goal Mode (/goal): the agent works until a defined completion condition is met",
+        "Codex /plan and /goal (Goal mode stable and on by default in 2026)",
+        "Writing checkable goals and acceptance criteria the agent can self-verify against",
+        "Editing the agent's plan to constrain scope and approach before approval",
+        "Plan-then-execute as a default for any multi-file or risky change",
+        "Combining plan mode with restrictive permissions for safe exploration"
+      ],
+      "projects": ["Use Plan Mode to design a non-trivial change (e.g., add pagination to an API) and execute the approved plan"],
+      "practice": "Convert a vague ticket into a precise, checkable goal statement.",
+      "assessment": "Submit a plan you edited before approval and the resulting implementation."
+    },
+    "week_8": {
+      "title": "Class 8: Diffs, Multi-File Edits & Review Discipline",
+      "topics": [
+        "How agents propose precise edits and render diffs across multiple files",
+        "Reviewing a feature that spans several files coherently",
+        "Accept / reject / request-changes on individual hunks",
+        "Claude Code /diff and the VS Code/JetBrains inline review experience",
+        "Keeping PRs small and reviewable; resisting scope creep from the agent",
+        "Asking for rationale: 'why this approach over X?'",
+        "Detecting and reverting unintended edits"
+      ],
+      "projects": ["Have an agent refactor a legacy function and review every hunk, rejecting anything out of scope"],
+      "practice": "Force the agent to split one large change into two smaller, reviewable steps.",
+      "assessment": "Critique a multi-file diff and identify any risky or unnecessary change."
+    },
+    "week_9": {
+      "title": "Class 9: Running Tests, Commands & Git from the Agent",
+      "topics": [
+        "Delegating command execution: build, run, lint, and test through the agent",
+        "Test-driven loops: have the agent write a failing test, implement, and make it pass",
+        "Git with the agent: staged diffs, clear commit messages, branch hygiene",
+        "Claude Code Bash tool (sandboxable) and Codex commands inside the workspace boundary",
+        "Approving commands with judgment — reading the exact command first",
+        "Fixing flaky/failing tests iteratively until green",
+        "Frequent, small commits as a safety net"
+      ],
+      "projects": ["Implement a feature TDD-style with the agent: failing test → implementation → green → commit"],
+      "practice": "Have the agent bisect and fix a failing CI step locally.",
+      "assessment": "Show a clean commit history of an agent-assisted TDD cycle."
+    },
+    "week_10": {
+      "title": "Class 10: Project Memory — CLAUDE.md & AGENTS.md",
+      "topics": [
+        "Claude Code: /init generates CLAUDE.md; it auto-loads each session",
+        "Memory hierarchy: managed/policy, user (~/.claude/CLAUDE.md), project (./CLAUDE.md), local (CLAUDE.local.md); imports with @path",
+        "Auto-memory (2026): Claude saves learnings to a project memory folder; manage with /memory",
+        "Codex AGENTS.md: repo root + nested per-package + personal ~/.codex/AGENTS.md (closest file wins)",
+        "A 'Review guidelines' section in AGENTS.md to standardize Codex code review",
+        "What belongs in memory: run/build/test commands, conventions, architectural rules, do/don't",
+        "Keeping memory lean (~200 lines) and version-controlled for the team"
+      ],
+      "projects": ["Write production-quality CLAUDE.md and AGENTS.md for a real repo, including review guidelines"],
+      "practice": "Add a convention and confirm both agents follow it without re-prompting.",
+      "assessment": "Submit team-ready memory files and explain three rules' impact."
+    },
+    "week_11": {
+      "title": "Class 11: Checkpoints, Rewind & Session Management",
+      "topics": [
+        "Claude Code automatic checkpointing before edits; /rewind (or Esc-Esc) to restore code, conversation, or both",
+        "Key limitation: checkpoints track file-tool edits, not shell rm/mv — your git commits remain the real safety net",
+        "Resuming: claude --continue and claude --resume (by id/name); --fork-session; --from-pr",
+        "Branching a conversation (/branch) to explore alternatives",
+        "Codex session resume and local conversation history search",
+        "Combining git + checkpoints for confident experimentation",
+        "Session organization across multiple concurrent tasks"
+      ],
+      "projects": ["Run a risky refactor, reject the outcome, and recover cleanly via /rewind plus git"],
+      "practice": "Resume a prior session by name and continue the task.",
+      "assessment": "Demonstrate a recovery workflow combining rewind and git."
+    }
+  },
+
+  "phase_3_extending": {
+    "title": "Phase 3 — Extending & Connecting Your Agents",
+    "description": "Make the agents fit your stack: connect tools via MCP, build skills/plugins, deploy subagents, automate with hooks, tune models and reasoning effort, and feed visual context.",
+    "week_12": {
+      "title": "Class 12: MCP — Connecting Tools, Data & Services",
+      "topics": [
+        "Model Context Protocol: a standard for exposing tools/data/resources to agents",
+        "Claude Code: claude mcp add --transport http <name> <url> (also sse/stdio); scopes local/project/user; manage with /mcp, claude mcp list",
+        "MCP resources (@server:protocol://path) and MCP prompts as slash commands",
+        "Codex: configure servers under [mcp_servers.<name>] in config.toml (stdio command/args/env or HTTP url), per-tool approval modes",
+        "Practical integrations: issue trackers, databases, docs, design tools, internal APIs",
+        "Tool Search / deferred tool loading to keep context lean with many servers",
+        "Security: trust boundaries, OAuth, and prompt-injection risk from MCP content"
+      ],
+      "projects": ["Connect a real MCP server (e.g., a database or docs server) to both agents and complete a task using it"],
+      "practice": "Add a project-scoped .mcp.json so teammates inherit the same server.",
+      "assessment": "Show one server connected per tool and a task that used its tools."
+    },
+    "week_13": {
+      "title": "Class 13: Skills, Custom Commands & Codex Plugins",
+      "topics": [
+        "Claude Code Skills (Agent Skills standard): reusable, auto-invokable instructions; .claude/commands/*.md and .claude/skills/*/SKILL.md both create /commands",
+        "Frontmatter control: who can invoke, allowed/disallowed tools, subagent execution; /skills to manage, /reload-skills",
+        "Designing a skill: a /deploy or /release command encapsulating your workflow",
+        "Codex profiles for per-project model/sandbox settings and the plugin marketplace for sharing setups",
+        "When to encode a workflow as a skill/plugin vs ad-hoc prompting",
+        "Distributing skills/plugins to a team for consistency",
+        "Versioning and reviewing shared automations"
+      ],
+      "projects": ["Build a Claude Code skill that automates a repeatable workflow and a Codex profile for a project"],
+      "practice": "Iterate a skill twice based on real usage feedback.",
+      "assessment": "Submit a working skill/command and document what it standardizes."
+    },
+    "week_14": {
+      "title": "Class 14: Subagents — Specialized, Isolated Helpers",
+      "topics": [
+        "Subagents run in their own context with their own tools and permissions",
+        "Built-ins: Explore (fast read-only search), Plan (read-only planning), General-purpose",
+        "Define your own: .claude/agents/*.md with name, description, tools, model, permissionMode",
+        "Least-privilege agents: a reviewer that can only read; a test-writer scoped to tests",
+        "Manage and generate with /agents; subagent memory for cross-session learning",
+        "Dispatching parallel subagents for independent subtasks",
+        "Why subagents protect the main context and improve reliability"
+      ],
+      "projects": ["Create code-reviewer and test-writer subagents and use them on a real change"],
+      "practice": "Compare Explore subagent results vs the main agent for a codebase question.",
+      "assessment": "Submit two subagent definitions and sample outputs."
+    },
+    "week_15": {
+      "title": "Class 15: Hooks & Workflow Automation",
+      "topics": [
+        "Hooks run deterministic code at lifecycle events — automation and guardrails",
+        "Key events: PreToolUse, PostToolUse, SessionStart, UserPromptSubmit, Stop, PreCompact and more",
+        "Config in settings JSON: matcher + handler (command/http/prompt/agent), exit-code 2 to block",
+        "Practical hooks: auto-format/lint on edit, run tests after changes, block dangerous commands, inject context",
+        "Placeholders like ${CLAUDE_PROJECT_DIR} and viewing hooks with /hooks",
+        "Treating hook output as feedback the agent must respond to",
+        "Governance: enforcing team standards automatically via hooks"
+      ],
+      "projects": ["Implement a PostToolUse format+lint hook and a PreToolUse guard that blocks force-push"],
+      "practice": "Add a SessionStart hook that prints project setup status.",
+      "assessment": "Submit two working hooks and explain their events and effects."
+    },
+    "week_16": {
+      "title": "Class 16: Models, Reasoning Effort & Context",
+      "topics": [
+        "Claude Code models: Opus 4.7 (flagship), Sonnet (balanced), Haiku (fast/cheap); /model, aliases, opusplan",
+        "Effort levels low/medium/high/xhigh (set via /effort, --effort) and the ultrathink keyword",
+        "1M-token context with Opus 4.7 for large codebases (opus[1m])",
+        "Codex models: GPT-5.3-Codex and GPT-5.5; reasoning levels low→xhigh; long-task compaction across context windows",
+        "Cost/performance trade-offs: cheap+fast for routine edits, top model+high effort for hard design",
+        "Subagent model overrides for cost control at scale",
+        "Measuring whether more effort actually improved the result"
+      ],
+      "projects": ["Benchmark a hard refactor at two effort levels and two models; document quality vs cost/latency"],
+      "practice": "Pin different models for main vs subagents and observe the effect.",
+      "assessment": "Produce a model+effort selection guide for five task types."
+    },
+    "week_17": {
+      "title": "Class 17: Multimodal Inputs — Visual Context",
+      "topics": [
+        "Why visuals help: convey designs, dashboards, and bugs faster than prose",
+        "Drag-and-drop screenshots/images into the prompt as context",
+        "Codex Appshots (macOS): capture frontmost app windows for context",
+        "UI-from-image: have the agent implement a layout from a design screenshot",
+        "Debugging from a screenshot of an error or broken render",
+        "Mixing text + image instructions for precise outcomes",
+        "Current limits: image input supported; no audio/video"
+      ],
+      "projects": ["Recreate a real UI from a design screenshot and reconcile it against the spec"],
+      "practice": "Diagnose a rendering bug from a screenshot alone.",
+      "assessment": "Show an image-driven task with a correct, verified result."
+    }
+  },
+
+  "phase_4_cloud_scale": {
+    "title": "Phase 4 — Cloud, Collaboration & Scale",
+    "description": "Operate beyond a single machine: delegate to Codex Cloud, use Claude Code across surfaces, integrate AI code review into GitHub/CI, and orchestrate parallel agents.",
+    "week_18": {
+      "title": "Class 18: Codex Cloud — Parallel Tasks & Auto-PRs",
+      "topics": [
+        "Codex Cloud: asynchronous agents working in isolated, sandboxed environments",
+        "Get started at chatgpt.com/codex and connect GitHub",
+        "Queue many tasks in parallel; each returns as its own pull request",
+        "Configure cloud environments: repo, setup steps, tools, and internet-access controls",
+        "Reviewing cloud-generated PRs before merge; iterating via comments",
+        "When cloud wins: long-running jobs, parallel chores, repos not on your laptop",
+        "Governance for cloud agents in a team setting"
+      ],
+      "projects": ["Delegate three parallel Codex Cloud tasks and review/merge the resulting PRs"],
+      "practice": "Configure a cloud environment's setup steps so the agent can build/test the repo.",
+      "assessment": "Show parallel cloud tasks and explain each PR's scope and quality."
+    },
+    "week_19": {
+      "title": "Class 19: Claude Code Across Surfaces (Web, Desktop, Mobile, Background)",
+      "topics": [
+        "claude.ai/code on the web for long-running and parallel tasks, even on repos you don't have locally",
+        "Desktop app: visual diff review and multiple side-by-side sessions",
+        "Background agents: detach with /background, manage with claude agents / attach / logs",
+        "Remote control & mobile: steer and approve from your phone",
+        "Teleporting a web/remote session into the terminal to finish locally",
+        "Choosing the right surface per task and handing off between them",
+        "Slack/GitHub triggers that start sessions"
+      ],
+      "projects": ["Start a task on the web, hand it to the desktop/terminal, and finish it; run one agent in the background"],
+      "practice": "Manage a background agent's lifecycle from the shell.",
+      "assessment": "Demonstrate a task moving across two surfaces and a managed background agent."
+    },
+    "week_20": {
+      "title": "Class 20: GitHub Integration & AI Code Review at Scale",
+      "topics": [
+        "Connect GitHub apps so both agents can open and review PRs",
+        "Codex review: @codex review (P0/P1 findings) or enable automatic reviews on every PR; scoped reviews like @codex review for security regressions",
+        "Codex task mentions: @codex fix the CI failures pushes fixes when authorized",
+        "Claude Code /code-review (effort levels), --comment for inline GitHub comments, --fix to apply findings",
+        "CI automation: openai/codex-action and Claude Code GitHub Actions / GitLab CI",
+        "Defining team review guidelines (AGENTS.md) honored during review",
+        "Acting on AI review feedback with rigor, not blind acceptance"
+      ],
+      "projects": ["Set up automatic AI code review on a repo and run a PR through both Codex and Claude Code review"],
+      "practice": "Tune review guidelines and observe how findings change.",
+      "assessment": "Show a reviewed PR with AI findings you triaged and resolved."
+    },
+    "week_21": {
+      "title": "Class 21: Parallel Agents, Worktrees, /batch & Teams",
+      "topics": [
+        "Parallelization strategy: decompose large work into independent units",
+        "Git worktrees for isolation: claude -w <name> creates an isolated workspace",
+        "Claude Code /batch: split a large change into 5-30 units, one background subagent per worktree, each tests + opens a PR",
+        "Agent teams: multiple coordinating sessions (--teammate-mode)",
+        "Codex Cloud parallelism for the same outcome via many PRs",
+        "Reviewing and integrating parallel outputs without conflicts",
+        "Knowing when serial is safer than parallel"
+      ],
+      "projects": ["Use /batch (or parallel Codex Cloud tasks) to roll a cross-cutting change across a codebase and review each PR"],
+      "practice": "Run two agents in separate worktrees on independent tasks simultaneously.",
+      "assessment": "Document a parallelized change: the split, the worktrees/PRs, and the review."
+    }
+  },
+
+  "phase_5_build_ship": {
+    "title": "Phase 5 — Build, Secure & Ship",
+    "description": "Operationalize agents: automate with the SDKs, harden security for teams, and deliver a production-grade capstone — then certify.",
+    "week_22": {
+      "title": "Class 22: Building With the SDKs (Claude Agent SDK & Codex SDK)",
+      "topics": [
+        "Headless automation: claude -p \"task\" (output-format text/json/stream-json) and codex exec (with --output-schema for structured JSON)",
+        "Claude Agent SDK: npm i @anthropic-ai/claude-agent-sdk / pip install claude-agent-sdk; query() with tools, hooks, agents, permissionMode",
+        "Codex SDK: @openai/codex-sdk (TS) and openai-codex (Python): startThread, run, resumeThread",
+        "Piping and composition: git diff main | claude -p \"review for security issues\"",
+        "Building an internal automation: triage, summarize, or auto-fix in CI",
+        "Budget/turn controls (--max-turns, --max-budget-usd) for safe unattended runs",
+        "Note: from June 15 2026 Agent SDK / claude -p usage draws on a separate credit on subscription plans"
+      ],
+      "projects": ["Build a CI automation (e.g., auto-summarize PR diffs or auto-label issues) using claude -p or codex exec with structured output"],
+      "practice": "Write a script that pipes logs into an agent and parses its JSON response.",
+      "assessment": "Submit a working SDK/headless automation with structured output."
+    },
+    "week_23": {
+      "title": "Class 23: Security, Sandboxing & Governance for Teams",
+      "topics": [
+        "Permission rules (allow/ask/deny) evaluated before any tool runs; pattern syntax for fine control",
+        "Claude Code Bash sandbox (/sandbox): Seatbelt (macOS) / bubblewrap (Linux/WSL2); filesystem & network isolation, allow/deny domains",
+        "Codex sandboxes: Seatbelt / bubblewrap / Windows Sandbox; read-only vs workspace-write vs danger-full-access",
+        "Secrets hygiene: denyRead for ~/.ssh, ~/.aws; never commit credentials; env scrubbing",
+        "Prompt injection & untrusted content: risks from web fetches and MCP servers, and mitigations",
+        "Managed/enterprise settings: forced login org, allowed models, disabling hooks, managed domain allowlists",
+        "Accountability: you own the code the agent writes — review and test it"
+      ],
+      "projects": ["Define and test a hardened security configuration (permissions + sandbox + secret denials) for a team repo"],
+      "practice": "Demonstrate a sandbox blocking network/file access outside the allowed scope.",
+      "assessment": "Deliver a team 'safe agentic coding' policy document with concrete settings."
+    },
+    "week_24": {
+      "title": "Class 24: Capstone — Ship a Production-Grade Build + Certification",
+      "topics": [
+        "Scope a real deliverable: a feature in an existing app, or a small full-stack app + an automation",
+        "Plan with Plan/Goal mode; author CLAUDE.md and AGENTS.md with review guidelines",
+        "Build with both agents, using subagents/hooks/MCP where they add value",
+        "Quality gate: tests, AI code review (with fixes), and a clean PR history",
+        "Ship it: deploy the app and/or land the automation in CI",
+        "Document your workflow: what each agent did, decisions, and safeguards",
+        "Present and earn the Modern Age Coders AI Coding Agents Professional certificate"
+      ],
+      "projects": ["Deliver a deployed, tested, AI-reviewed capstone (app and/or SDK automation) with a documented agentic workflow"],
+      "practice": "Present a 5-minute walkthrough of how you directed the agents end-to-end.",
+      "assessment": "Final capstone: deployed/merged work + repo + write-up; pass earns the professional certificate."
+    }
+  },
+
+  "prerequisites": {
+    "device": "A laptop/desktop (Windows, Mac, or Linux) with internet and admin rights to install CLIs",
+    "coding_experience": "Helpful but not required — beginners and career switchers are welcome; we start from install and ramp quickly",
+    "accounts": "A GitHub account, plus access to Claude (Pro/Max) and ChatGPT (Plus/Pro) plans, or API keys; we cover setup and provider options",
+    "tools": "Comfort with a terminal develops during the course; basic familiarity with git is a plus"
+  },
+
+  "who_is_this_for": {
+    "working_professionals": "Engineers and analysts who want to ship more with AI agents and automate routine work",
+    "career_switchers": "People entering tech who want a modern, AI-native skill set that employers increasingly expect",
+    "developers": "Developers leveling up from autocomplete to true agentic workflows (MCP, subagents, SDKs)",
+    "tech_leads": "Leads introducing safe, governed agentic coding practices to a team",
+    "founders_freelancers": "Founders and freelancers who need to build and ship quickly with a small team"
+  },
+
+  "career_paths_after_completion": [
+    "AI-Assisted Software Engineer / Full-Stack Developer",
+    "Developer Productivity / Platform Engineer (agent workflows, internal tooling)",
+    "Automation Engineer building on the Claude Agent SDK / Codex SDK",
+    "Tech Lead / Engineering Manager standardizing agentic practices",
+    "Freelance / Founder shipping AI-built products faster"
+  ],
+
+  "salary_expectations": {
+    "after_3_months": "₹6-12 LPA in India / $70k-110k globally (developer using agents to boost output)",
+    "after_6_months": "₹12-22 LPA / $110k-150k (AI-assisted engineer shipping features independently)",
+    "after_12_months": "₹22-40+ LPA / $150k-220k+ (senior/lead leveraging agents and SDK automation at scale)",
+    "note": "Ranges vary by region, role, and prior experience; directing AI coding agents is rapidly becoming a premium, in-demand skill."
+  },
+
+  "course_guarantees": {
+    "living_syllabus": "Living Syllabus guarantee — continuously updated as OpenAI Codex and Anthropic Claude Code release new features, models, and capabilities. Enrolled students always learn the current product, at no extra cost",
+    "hands_on": "Every class is lab-driven with real commands, config, and a deliverable",
+    "production_focus": "Workplace-grade labs and a production capstone, not toy demos",
+    "sdk_depth": "Goes all the way to the Claude Agent SDK and Codex SDK for real automation",
+    "mentorship": "Guidance from mentors who use these agents in production daily",
+    "certificate": "Recognized professional completion certificate"
+  },
+
+  "additional_learning_resources": {
+    "claude_code_docs": "Official Claude Code documentation: https://code.claude.com/docs",
+    "codex_docs": "Official OpenAI Codex documentation: https://developers.openai.com/codex",
+    "claude_agent_sdk": "Claude Agent SDK overview: https://code.claude.com/docs/en/agent-sdk/overview",
+    "codex_sdk": "Codex SDK documentation: https://developers.openai.com/codex/sdk",
+    "claude_code_changelog": "Claude Code changelog: https://code.claude.com/docs/en/changelog",
+    "codex_changelog": "Codex changelog: https://developers.openai.com/codex/changelog",
+    "mcp_spec": "Model Context Protocol documentation for building/connecting servers"
+  },
+
+  "why_this_course": {
+    "the_shift": "Software engineering is moving from typing code to directing agents that write, test, review, and ship it. The professionals who master this now are dramatically more productive — and more employable.",
+    "two_tools_one_course": "We teach BOTH Codex and Claude Code to professional depth, including the SDKs, because real teams use both and the meta-skill is choosing the right one per task.",
+    "always_current": "The Living Syllabus tracks a fast-moving space (new models and features ship monthly), so you learn what's actually shipping today."
+  },
+
+  "success_metrics": {
+    "production_shipped": "Every student ships a production-grade capstone (deployed app and/or merged automation)",
+    "review_at_scale": "Students integrate AI code review into a GitHub/CI workflow",
+    "automation_built": "Students build at least one SDK/headless automation",
+    "governance_ready": "Students produce a team-ready safe-agentic-coding policy"
+  },
+
+  "faqs": [
+    {
+      "question": "Is OpenAI Codex free, and what about Claude Code?",
+      "answer": "The Codex CLI and SDK are open-source/free to install; running them uses your ChatGPT plan (Plus/Pro/Business/Edu/Enterprise) or an OpenAI API key. Claude Code runs on a Claude subscription (Pro/Max/Team/Enterprise) or an Anthropic API key. Both moved to token/usage-based limits in 2026. We help you pick the most cost-effective setup for learning and for work."
+    },
+    {
+      "question": "Can I use what I learn at my job right away?",
+      "answer": "Yes — the labs are deliberately workplace-grade: fixing CI, refactoring legacy code, reviewing PRs at scale, and building SDK automations. You'll also produce a team-ready security/governance policy so you can introduce agents responsibly."
+    },
+    {
+      "question": "Codex vs Claude Code — which is better for teams?",
+      "answer": "They're complementary. Codex excels at cloud parallel tasks and GitHub-native review; Claude Code offers deep terminal control, subagents, hooks, skills, and the Agent SDK. This course teaches both to professional depth and, crucially, how to choose the right one per task and integrate them into a team workflow."
+    },
+    {
+      "question": "Does the course cover the Claude Agent SDK and the Codex SDK?",
+      "answer": "Yes — Class 22 is dedicated to headless automation and both SDKs (TypeScript and Python). You'll build a real CI automation with structured output, plus learn budget/turn controls for safe unattended runs."
+    },
+    {
+      "question": "Will the content stay current as the tools change so fast?",
+      "answer": "That's our Living Syllabus promise. Codex and Claude Code ship features and models constantly (e.g., Claude Code on Opus 4.7 with up to xhigh effort and 1M context; Codex on GPT-5.3-Codex/GPT-5.5 in 2026). We update the curriculum continuously so you always learn the current product, at no extra cost."
+    },
+    {
+      "question": "I'm a career switcher with limited coding experience — is this for me?",
+      "answer": "Yes. We start from install and ramp deliberately. The agents help you read and write code as you learn, while the course builds the judgment — planning, reviewing, security — that separates real engineers from prompt-clickers."
+    },
+    {
+      "question": "How do you handle security and 'letting AI run commands'?",
+      "answer": "An entire class (Class 23) covers permission rules, OS-level sandboxes (Seatbelt/bubblewrap/Windows Sandbox), secrets hygiene, prompt-injection defense, and enterprise/managed settings. You'll configure and test a hardened setup, and you always review before running."
+    },
+    {
+      "question": "What's the schedule and format?",
+      "answer": "24 classes, typically two per week over ~12 weeks, 4-6 hours/week recommended. Available as group, mini-batch, or 1-on-1, with live mentorship and a capstone review."
+    }
+  ],
+
+  "testimonials": [
+    {
+      "name": "Rohan, Backend Engineer",
+      "text": "I came in using Copilot autocomplete. I left orchestrating subagents and /batch across a repo, and shipping with Codex Cloud PRs. My throughput at work genuinely doubled."
+    },
+    {
+      "name": "Priya, Career Switcher",
+      "text": "I'm not from a CS background. The structured ramp plus the safety class gave me the confidence to use Claude Code at my new job in week one. The SDK automation I built is now part of our CI."
+    },
+    {
+      "name": "Daniel, Tech Lead",
+      "text": "The governance and review modules were exactly what my team needed. We standardized AGENTS.md review guidelines and permission policies straight out of the course."
+    }
+  ],
+
+  "related_courses": [
+    {
+      "slug": "vibe-coding-for-college-fullstack-ai-dsa-career-course",
+      "title": "Vibe Coding for College",
+      "description": "Full-stack + DSA + AI placement prep with a modern AI-assisted workflow"
+    },
+    {
+      "slug": "complete-generative-ai-masterclass-college",
+      "title": "Generative AI Masterclass",
+      "description": "LLMs, RAG, agents, and building production AI systems"
+    },
+    {
+      "slug": "full-stack-web-development-masterclass-college",
+      "title": "Full Stack Web Development",
+      "description": "React, Node.js, MongoDB — build production-ready applications"
+    }
+  ]
+}
