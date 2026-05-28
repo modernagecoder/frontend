@@ -226,6 +226,11 @@
   status = 200
 
 [[redirects]]
+  from = "/how-we-teach"
+  to = "/src/pages/how-we-teach.html"
+  status = 200
+
+[[redirects]]
   from = "/free-resources"
   to = "/src/pages/free-resources.html"
   status = 200

@@ -35,6 +35,7 @@ Allow: /maths-class-10
 Allow: /coding-challenges
 Allow: /maths-challenges
 Allow: /search
+Allow: /how-we-teach
 
 # Levels pages - Age group and audience landing pages
 Allow: /levels/coding-for-kids

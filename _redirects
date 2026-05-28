@@ -54,6 +54,7 @@
 /love /lovewall/dist/index.html 200
 /blog /content/blog/generated/index.html 200
 /success-stories /src/pages/success-stories.html 200
+/how-we-teach /src/pages/how-we-teach.html 200
 /free-resources /src/pages/free-resources.html 200
 /summer-coding-camp /src/pages/summer-coding-camp.html 200
 /summer-coding-camp-kids /src/pages/summer-coding-camp-kids.html 200
