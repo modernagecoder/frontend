@@ -7,41 +7,65 @@ source: src/pages/coding-and-maths-for-don-bosco-park-circus-kolkata.html
 ---
 > Premium coding & maths classes for Don Bosco School Park Circus students in Kolkata. ICSE/ISC-aligned Python, Java, AI & board maths — live online, small batches near Park Circus & Beniapukur. ISC CS Practical Bootcamp. JEE Maths, Coding Olympiad prep. From ₹1499/mo. Book free demo!
 
-🎯 Crafted for Students of Don Bosco School, Park Circus, Kolkata 🏫 ICSE · ISC · Boys-Only · Salesian Institution · Est. 1957
+Crafted for Students of Don Bosco School, Park Circus, Kolkata ICSE · ISC · Boys-Only · Salesian Institution · Est. 1957
 
 # Coding & Maths Classes for Don Bosco School, Park Circus
 
 Live online Python, Java, AI & ICSE/ISC Mathematics — built around Don Bosco Park Circus's curriculum. Java for ICSE Computer Applications, ISC CS Practical Bootcamp, ICSE & ISC Maths mastery, JEE Foundation, Coding Olympiad prep. Serving families across Park Circus, Beniapukur, Tangra & east-central Kolkata.
 
-☕ Java + Python Both Covered⭐ 4.9/5 Parent Rating🏅 ICSE & ISC Board Aligned📈 JEE & Coding Olympiad Prep🚀 Book Free Demo Class📚 Explore Courses
+Java + Python Both Covered4.9/5 Parent RatingICSE & ISC Board AlignedJEE & Coding Olympiad Prep[See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
-✔ Free demo • No commitment • Classes start within 24 hours
+✔ 100% live online classes • Watch real lessons free • No commitment
 
 Java+PYICSE & ISC Both Covered2,000+Live Classes Delivered6:1Student-Teacher Ratio97%Parent Satisfaction Rate
+
+## Coding & Maths for Don Bosco Park Circus Students — At a Glance
+
+Modern Age Coders runs **live online coding and mathematics classes built specifically for students of Don Bosco School, Park Circus (Kolkata 700017)** — precisely mapped to the [ICSE / ISC](/coding-for-icse-students) curriculum the school follows. Critically, ICSE Computer Applications uses **Java (BlueJ)** — not Python — so we teach a dedicated [ICSE Java track](/computer-applications-icse-class-10) most coaching centres can't, plus Python, AI/ML, web development and [ICSE board, JEE-foundation & Olympiad mathematics](/online-maths-tuition). Ultra-small batches of 4–6 (or 1-on-1), every class recorded. Fees start at ₹1,499/month and every family begins with a free demo class. [See exactly how we teach →](/how-we-teach)
+
+BoardICSE / ISC (Java + Python) + JEESubjectsJava (BlueJ), Python, AI/ML, Web Dev + MathsBatch Size4–6 students (or 1-on-1)TimingsWeekdays 4–8 PM · Weekends 9 AM–7 PMFeesFrom ₹1,499/month · Free demo classFormat100% live online · Every class recorded
+
+## How We Teach Don Bosco Park Circus Students
+
+No marketing fluff — watch a real class before you decide. Our open [teaching demo library](/how-we-teach) shows exactly how we explain every concept, topic by topic and age by age. No sign-up, no payment.
+
+### Live, Never Recorded-Only
+
+Real-time teaching in batches of just 4–6, so every Don Bosco student can ask questions freely and is never lost in a crowd. Mentors are IIT/NIT-trained.
+
+### ICSE Java (BlueJ), Done Right
+
+We teach the actual [ICSE Computer Applications](/computer-applications-icse-class-10) language — Java in BlueJ — synced to the school's exam calendar. Not generic Python that won't help on the board paper.
+
+### Project-First, Not Slides
+
+Students build real Java programs, Python apps, AI projects and websites from week one. Concepts stick because they're applied — and the projects become a portfolio for university applications.
+
+### Recorded + 1:1 Doubt Support
+
+Every class is recorded, so a school commitment never means lost learning. Dedicated doubt-clearing and 1:1 mentor time keep every student on track between sessions.
+
+### Don't take our word for it — watch a class
+
+See real recordings of how we teach Java, Python, AI, fractions, algebra and calculus — organised by topic and age, completely free.
+
+[Watch Free Class Recordings](/how-we-teach)
 
 ## Why Don Bosco Park Circus Students Need a Coding & Maths Edge
 
 Salesian tradition demands academic excellence and character. We make sure technical excellence matches both.
 
-⚰️
-
 ### The Salesian Legacy — Don Bosco's 200-Year Mission to Educate
 
 Founded by Saint John Bosco in Turin, Italy in 1859, the Salesians of Don Bosco now operate schools in **134 countries** — making it the world's largest Catholic educational network. Don Bosco School Park Circus has served Kolkata since 1957, and its alumni include some of the city's most distinguished professionals, entrepreneurs, and public figures. The school's motto — *"Da Mihi Animas, Caetera Tolle"* (Give me souls, take away the rest) — reflects a philosophy that education is not just academic preparation but character formation. Don Bosco's tradition of producing disciplined, values-driven achievers makes it a uniquely fertile ground for deep technical learning. Coding and maths aren't just skills here — they're part of building the complete person.
-
-💻
 
 ### ICSE Uses Java — And Most Coaching Centres Don't Know That
 
 This is the single most important difference between Don Bosco Park Circus (ICSE/ISC) and the CBSE schools most coaching centres are built for. **ICSE Computer Applications (Class 9–10) uses Java** — not Python. Students work in BlueJ IDE, writing object-oriented Java programs: class design, inheritance, arrays, strings, and the notoriously tricky pattern-based programs that populate ICSE board papers. Most Kolkata coaching centres only teach Python — they'll confidently say "we teach coding" but can't actually help a Don Bosco student pass their ICSE Computer Applications exam. Our ICSE Java track covers every topic: from basic I/O and control structures all the way through OOP, arrays, and ISC-level data structures. Don Bosco students who join us in Class 8 arrive at Class 9 already ahead of their classmates.
 
-🌏
-
 ### Park Circus — Kolkata's Most Diverse, Most Ambitious Crossroads
 
 The Park Circus 7-point crossing is one of Kolkata's most iconic intersections — where AJC Bose Road, Circus Avenue, and Rawdon Street converge at the heart of one of the city's most culturally and professionally diverse communities. Don Bosco Park Circus sits at this crossroads, drawing students from Beniapukur, Tangra, Topsia, Tiljala, Entally, Sealdah, Beckbagan, and beyond. The families here are entrepreneurial, globally-connected, and fiercely ambitious for their children's futures. They choose Don Bosco for discipline and academic rigour. They choose Modern Age Coders because they recognise that **Python, Java, AI, and data literacy** are the professional skills of the next decade — and that those skills need to be built now, not after Class 12. Park Circus Metro (Green Line) makes our occasional in-person workshops accessible from across central and east Kolkata.
-
-🕐
 
 ### Techno-Salesiana — Why Don Bosco Boys Are Built for Tech
 
@@ -101,7 +125,7 @@ The flagship course for Don Bosco Park Circus Class 9 and 10 students. ICSE Comp
 - ✓ Full ICSE board paper pattern coverage
 - ✓ BlueJ IDE — exam-accurate practice
 
-[View Course Details →](/courses/complete-java-programming-masterclass)![ISC Computer Science Practical Bootcamp Don Bosco Park Circus Class 12 Kolkata](/images/teens-coding.webp)🔥 Don Bosco Exclusive · Class 11–12
+[View Course Details →](/courses/complete-java-programming-masterclass)![ISC Computer Science Practical Bootcamp Don Bosco Park Circus Class 12 Kolkata](/images/teens-coding.webp)Don Bosco Exclusive · Class 11–12
 
 ### ISC CS Practical Bootcamp
 
@@ -141,13 +165,13 @@ ICSE Board · Classes 6–10∫
 
 ISC Class 12 Maths covers calculus (differentiation and integration), vectors, 3D geometry, probability, matrices, and linear programming — at a depth that rivals JEE Foundation preparation. Don Bosco Science stream boys aiming for IIT and NIT need ISC Maths mastery as their foundation. We deliver exactly that, with problem-solving depth and speed that competitive entrance exams demand.
 
-ISC Board · Classes 11–12📈
+ISC Board · Classes 11–12
 
 ### JEE Foundation & Advanced Maths
 
 Don Bosco boys targeting IIT need JEE Maths preparation that starts years before Class 11. From Class 8, our JEE Foundation track builds the multi-step analytical reasoning and speed that separates ICSE/ISC toppers from actual IIT qualifiers. We cover number theory, combinatorics, complex numbers, and calculus at the depth JEE Advanced demands — with Don Bosco's disciplined work ethic as the perfect partner.
 
-JEE Main & Advanced · From Class 8🏆
+JEE Main & Advanced · From Class 8
 
 ### Maths Olympiad — IOQM, RMO & IMO
 
@@ -196,11 +220,15 @@ No payment. No commitment. Just a live class — experience why Don Bosco Park C
 
 Everything you need to know before booking your first class.
 
-Do you offer classes specifically for Don Bosco Park Circus students?+Yes! While we are not affiliated with Don Bosco School Park Circus, our classes are very popular among Don Bosco students from Park Circus, Beniapukur, Tangra, Topsia, and east-central Kolkata. We align our curriculum with the ICSE board (Class 9–10) and ISC board (Class 11–12) that Don Bosco follows — including Java for Computer Applications, ISC CS practical prep, and ICSE/ISC Maths across all classes.Don Bosco follows ICSE/ISC — does that mean Java, not Python?+Yes — ICSE Computer Applications (Class 9–10) uses Java as the primary language, not Python. ISC Computer Science (Class 11–12) also centres on Java for both theory and practical. This is a critical difference from CBSE, and most coaching centres in Kolkata simply don't know the ICSE Java syllabus well enough to help. We cover the complete ICSE Java curriculum — BlueJ IDE, OOP, arrays, strings, recursion, and pattern programs — plus ISC CS data structures (linked lists, stacks, queues, trees) for Class 11–12 students.What batches are available near Don Bosco Park Circus?+All classes are live online — no commute from Park Circus, Beniapukur, Tangra, Topsia, Tiljala, Entally, Circus Avenue, or AJC Bose Road. Weekday evening batches run 4 PM – 8 PM. Weekend batches run Saturday & Sunday, 9 AM – 7 PM. Every session is recorded, so Don Bosco boys never miss content due to school activities, matches, or special events. Park Circus Metro Station (Green Line) makes any in-person workshop easily accessible from across central and east Kolkata.At what age should a Don Bosco student start coding?+The earlier the better — especially for Don Bosco students, because ICSE Java in Class 9 rewards students who have already built strong programming intuition. From Class 1: Scratch block-coding. Classes 4–5: HTML/CSS web design. From Class 6: Python fundamentals and Java foundations simultaneously. From Class 7: full OOP in Java. Class 9 students who join us fresh face a steep learning curve — students who join in Class 6 or 7 arrive in Class 9 already comfortable with every ICSE Java concept.How much do classes cost for Don Bosco students?+Group classes (4–6 students) start at ₹1499/month with 2 live sessions per week. Mini Batch (3-4 students) at ₹2499/month or 1:1 personalised classes at ₹4999/month. The ISC CS Practical Bootcamp (Java data structures + full ISC practical prep) is ₹1999/month. All plans include a free demo class with zero payment or commitment required.Does coding help Don Bosco students in ICSE Maths?+Consistently yes. ICSE Maths is harder than CBSE Maths — the questions require genuine conceptual understanding and multi-step reasoning. Java programming builds exactly this kind of structured, step-by-step analytical thinking. Don Bosco students who combine Java/coding with our ICSE Maths track consistently improve their board performance within two to three months of joining. The two subjects reinforce each other at a surprisingly deep level.Do you offer JEE Maths preparation for Don Bosco students?+Yes — JEE Foundation from Class 8 onwards and full JEE Main + Advanced Maths for Class 11–12 ISC students. Don Bosco Science stream boys targeting IITs and NITs benefit from starting early. ISC Maths already goes deeper than CBSE — our JEE Foundation track builds on that depth to reach the problem-solving speed and multi-step reasoning that JEE Advanced specifically tests.Do you offer summer coding camps for Don Bosco students?+Yes! Intensive summer camps in April–May and Puja holiday camps in October. Don Bosco boys complete a full course module in 3–4 accelerated weeks. Themes include Java & ICSE Board Prep, Python & AI, Competitive Programming, and Web App Development. Contact us for 2026 summer camp dates and early-bird pricing.
+Do you offer classes specifically for Don Bosco Park Circus students?+Yes! While we are not affiliated with Don Bosco School Park Circus, our classes are very popular among Don Bosco students from Park Circus, Beniapukur, Tangra, Topsia, and east-central Kolkata. We align our curriculum with the ICSE board (Class 9–10) and ISC board (Class 11–12) that Don Bosco follows — including Java for Computer Applications, ISC CS practical prep, and ICSE/ISC Maths across all classes.Don Bosco follows ICSE/ISC — does that mean Java, not Python?+Yes — ICSE Computer Applications (Class 9–10) uses Java as the primary language, not Python. ISC Computer Science (Class 11–12) also centres on Java for both theory and practical. This is a critical difference from CBSE, and most coaching centres in Kolkata simply don't know the ICSE Java syllabus well enough to help. We cover the complete ICSE Java curriculum — BlueJ IDE, OOP, arrays, strings, recursion, and pattern programs — plus ISC CS data structures (linked lists, stacks, queues, trees) for Class 11–12 students.What batches are available near Don Bosco Park Circus?+All classes are live online — no commute from Park Circus, Beniapukur, Tangra, Topsia, Tiljala, Entally, Circus Avenue, or AJC Bose Road. Weekday evening batches run 4 PM – 8 PM. Weekend batches run Saturday & Sunday, 9 AM – 7 PM. Every session is recorded, so Don Bosco boys never miss content due to school activities, matches, or special events. Park Circus Metro Station (Green Line) makes any in-person workshop easily accessible from across central and east Kolkata.At what age should a Don Bosco student start coding?+The earlier the better — especially for Don Bosco students, because ICSE Java in Class 9 rewards students who have already built strong programming intuition. From Class 1: Scratch block-coding. Classes 4–5: HTML/CSS web design. From Class 6: Python fundamentals and Java foundations simultaneously. From Class 7: full OOP in Java. Class 9 students who join us fresh face a steep learning curve — students who join in Class 6 or 7 arrive in Class 9 already comfortable with every ICSE Java concept.How much do classes cost for Don Bosco students?+Group classes (4–6 students) start at ₹1499/month with 2 live sessions per week. Mini Batch (3-4 students) at ₹2499/month or 1:1 personalised classes at ₹4999/month. The ISC CS Practical Bootcamp (Java data structures + full ISC practical prep) is ₹1999/month. All plans include a free demo class with zero payment or commitment required.Does coding help Don Bosco students in ICSE Maths?+Consistently yes. ICSE Maths is harder than CBSE Maths — the questions require genuine conceptual understanding and multi-step reasoning. Java programming builds exactly this kind of structured, step-by-step analytical thinking. Don Bosco students who combine Java/coding with our ICSE Maths track consistently improve their board performance within two to three months of joining. The two subjects reinforce each other at a surprisingly deep level.Do you offer JEE Maths preparation for Don Bosco students?+Yes — JEE Foundation from Class 8 onwards and full JEE Main + Advanced Maths for Class 11–12 ISC students. Don Bosco Science stream boys targeting IITs and NITs benefit from starting early. ISC Maths already goes deeper than CBSE — our JEE Foundation track builds on that depth to reach the problem-solving speed and multi-step reasoning that JEE Advanced specifically tests.Do you offer summer coding camps for Don Bosco students?+Yes! Intensive summer camps in April–May and Puja holiday camps in October. Don Bosco boys complete a full course module in 3–4 accelerated weeks. Themes include Java & ICSE Board Prep, Python & AI, Competitive Programming, and Web App Development. Contact us for 2026 summer camp dates and early-bird pricing.Can I see how you teach before paying for classes?+Yes — and we encourage it. Visit our free [How We Teach demo library](/how-we-teach) to watch real, full-length class recordings for both coding and maths, organised by topic and age. There is no sign-up and no payment, so you can see our exact teaching style before booking your child's free demo class.
 
 ### Explore More School-Specific Pages
 
 [BHS Elgin](/coding-and-maths-for-birla-high-school-kolkata)[BHS Mukundapur](/coding-and-maths-for-birla-high-school-mukundapur-kolkata)[The Heritage School](/coding-and-maths-for-heritage-school-kolkata)[Sushila Birla Girls' School](/coding-and-maths-for-sushila-birla-girls-school-kolkata)[Mahadevi Birla World Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata)[La Martiniere Boys](/coding-classes-for-la-martiniere-boys-kolkata)[Best Coding Class in Kolkata](/best-coding-class-in-kolkata)[Summer Coding Camp](/summer-coding-camp)
+
+### Helpful Guides & Resources
+
+[How We Teach (Free Demo Library)](/how-we-teach)[Coding for ICSE Students](/coding-for-icse-students)[ICSE Computer Applications (Java)](/computer-applications-icse-class-10)[Online Maths Tuition](/online-maths-tuition)[Learn Coding by Class](/learn-coding-by-class)[Student Success Stories](/success-stories)[All School Programmes](/schools)
 
 ---
 

@@ -7,15 +7,47 @@ source: src/pages/coding-classes-for-dps-ruby-park-kolkata.html
 ---
 > Best coding classes for DPS Ruby Park Students students in Kolkata. Python, Java, AI, Web Dev & CBSE-aligned maths tuition. After-school & weekend batches near Kasba. From Rs.1499/mo. Rated 4.9/5 by parents. Book a free demo class!
 
-🎯 Exclusive for DPS Ruby Park Students, Kolkata
+Exclusive for DPS Ruby Park Students, Kolkata
 
 # Coding & Maths Classes for DPS Ruby Park Students
 
 Live online classes in Python, Java, AI, Web Development & CBSE Mathematics — designed around your DPS Ruby Park Students schedule. Small batches. Expert instructors. Real projects.
 
- 💻 500+ Students Taught  ⭐ 4.9/5 Parent Rating  🏅 CBSE Aligned  🤖 AI-Powered Learning 🚀 Book Free Demo Class📚 Browse Courses
+ 500+ Students Taught  4.9/5 Parent Rating  CBSE Aligned  AI-Powered Learning [See How We Teach — Live Classes](/how-we-teach)Book a Free Live Class
 
-✔ Free demo • No commitment • Starts in 24 hours
+✔ 100% live online classes • Watch real lessons free • No commitment
+
+## Coding & Maths for DPS Ruby Park Students — At a Glance
+
+Modern Age Coders runs **live online coding and mathematics classes built specifically for students of Delhi Public School Ruby Park, Kolkata** — precisely mapped to the [CBSE](/coding-for-cbse-students) curriculum DPS Ruby Park follows. Students learn Python, AI/ML, Java and web development plus [CBSE board, JEE-foundation & Olympiad mathematics](/online-maths-tuition). Ultra-small batches of 4–6 (or 1-on-1), every class recorded. Fees start at ₹1,499/month and every family begins with a free demo class. [See exactly how we teach →](/how-we-teach)
+
+BoardCBSE + JEE FoundationSubjectsPython, AI/ML, Java, Web Dev, Scratch + MathsBatch Size4–6 students (or 1-on-1)TimingsWeekdays 4–8 PM · Weekends 9 AM–6 PMFeesFrom ₹1,499/month · Free demo classFormat100% live online · Every class recorded
+
+## How We Teach DPS Ruby Park Students
+
+No marketing fluff — watch a real class before you decide. Our open [teaching demo library](/how-we-teach) shows exactly how we explain every concept, topic by topic and age by age. No sign-up, no payment.
+
+### Live, Never Recorded-Only
+
+Real-time teaching in batches of just 4–6, so every DPS Ruby Park student can ask questions freely and is never lost in a crowd. Mentors are IIT/NIT-trained.
+
+### Mapped to the CBSE Board
+
+Every lesson is tied to a real [CBSE](/coding-for-cbse-students) outcome and synced to the school's exam calendar — so class time always converts into board marks.
+
+### Project-First, Not Slides
+
+Students build real Python apps, AI projects and websites from week one. Concepts stick because they're applied — and the projects become a portfolio for university applications.
+
+### Recorded + 1:1 Doubt Support
+
+Every class is recorded, so a school commitment never means lost learning. Dedicated doubt-clearing and 1:1 mentor time keep every student on track between sessions.
+
+### Don't take our word for it — watch a class
+
+See real recordings of how we teach Python, AI, fractions, algebra and calculus — organised by topic and age, completely free.
+
+[Watch Free Class Recordings](/how-we-teach)
 
 ## Why DPS Ruby Park Students Students Need Coding & Maths Support
 
@@ -148,43 +180,33 @@ Master algebra, geometry, trigonometry, pre-calculus, and calculus aligned with 
 
 Advanced problem-solving techniques for DPS Ruby Park Students targeting IMO, PRMO, RMO, and inter-school mathematics competitions. Sharpen analytical skills that set top students apart in competitive examinations.
 
-[View Course Details →](/courses/olympiad-competition-mathematics-mastery)⚡ Why Us
+[View Course Details →](/courses/olympiad-competition-mathematics-mastery)Why Us
 
 ## Why DPS Ruby Park Students Choose Us
 
 Join 500+ families from Kolkata's top schools who trust us for their children's tech education.
 
-🚀
-
 ### CBSE Aligned
 
 Curriculum mapped to CBSE Computer Science syllabus for direct academic advantage
-
-👥
 
 ### Tiny Batches
 
 Max 5-8 students per batch ensures personalized attention for every learner
 
-🏆
-
 ### Real Projects
 
 Build games, apps, websites & AI chatbots — not just theory, real deployable projects
-
-📅
 
 ### Flexi Schedule
 
 After-school & weekend slots designed around your DPS Ruby Park Students timetable
 
-📚 Curriculum
+Curriculum
 
 ## Epic Courses for Future Tech Leaders
 
 From beginner Scratch programming to advanced AI and competitive exam preparation — we have the perfect course for every DPS Ruby Park Students student.
-
-🐍
 
 ### Python Programming
 
@@ -192,7 +214,7 @@ CBSE Aligned & Future Ready
 
 Master Python for CBSE Computer Science, competitive exams, and real-world projects. Build games, automate tasks, and dive into data science.
 
-[Learn More →](/courses/python-complete-masterclass-teens)☕
+[Learn More →](/courses/python-complete-masterclass-teens)
 
 ### Java Programming
 
@@ -200,7 +222,7 @@ CBSE Board & JEE Prep
 
 Excel in Java for your CBSE Board exams and build a strong foundation for engineering entrance tests like JEE and WBJEE.
 
-[Learn More →](/courses/java-programming-masterclass-for-teens)🤖
+[Learn More →](/courses/java-programming-masterclass-for-teens)
 
 ### AI & Machine Learning
 
@@ -208,7 +230,7 @@ Future-Proof Your Skills
 
 Dive into the world of Artificial Intelligence. Learn to build intelligent systems, analyze data, and create predictive models.
 
-[Learn More →](/courses/ai-ml-masterclass-teens)🌐
+[Learn More →](/courses/ai-ml-masterclass-teens)
 
 ### Web Development
 
@@ -216,7 +238,7 @@ Build Real-World Websites
 
 Learn to build interactive websites and web applications using HTML, CSS, JavaScript, and modern frameworks like React.
 
-[Learn More →](/courses/web-development-masterclass-teens)🎮
+[Learn More →](/courses/web-development-masterclass-teens)
 
 ### Scratch for Kids
 
@@ -224,7 +246,7 @@ Fun Block-Based Coding
 
 Introduce younger DPS Ruby Park Students to coding with Scratch. Create interactive stories, games, and animations while developing logical thinking.
 
-[Learn More →](/courses/kids-coding-blocks-masterclass)📐
+[Learn More →](/courses/kids-coding-blocks-masterclass)
 
 ### Mathematics Mastery
 
@@ -242,49 +264,47 @@ Real feedback from families near Ruby Park who trust us with their children's co
 
 "My child studies at DPS Ruby Park Students and their schedule is incredibly packed with school, sports, and tuitions. Finding a coding class that could fit around their CBSE commitments seemed impossible until we discovered Modern Age Coders. The weekend batches are perfectly timed, and the recorded sessions mean they never miss anything even during exam season. their Computer Applications marks went from 78 to 94 in just one semester, and more importantly, they now genuinely enjoy programming. The instructors understand what CBSE students need and tailor the teaching accordingly. I cannot recommend them enough to other DPS Ruby Park Students parents."
 
- ★★★★★🤝 Trusted by DPS Schools Across Kolkata
+ ★★★★★Trusted by DPS Schools Across Kolkata
 
 ## We Also Teach Students from DPS New Town
 
 Families from both DPS Ruby Park Students and DPS New Town trust Modern Age Coders for their children's tech education. Our CBSE-aligned coding and maths curriculum is designed for all DPS Ruby Park Students students — with **girls-only batches** also available for DPS New Town families who prefer them. Over 500 students from Kolkata's top schools learn with us.
 
-[Explore DPS New Town Page →](/coding-classes-for-dps-new-town-kolkata)🎓 Courses by Category
+[Explore DPS New Town Page →](/coding-classes-for-dps-new-town-kolkata)Courses by Category
 
 ## Find the Perfect Course for Your Age & Level
 
 Whether your child is in Class 1 or Class 12, we have a structured learning path that grows with them.
 
-🎲
-
 ### For Kids (Classes 1-5)
 
 Ages 6-10 • Visual Block-Based Coding
 
-[🎨 Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[📱 App Development for Kids  Build real mobile apps using visual tools — perfect for young creators](/courses/kids-complete-app-development-masterclass)[🌐 Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)💻
+[Scratch Programming  Create games, animations & interactive stories with drag-and-drop blocks](/courses/kids-coding-blocks-masterclass)[App Development for Kids  Build real mobile apps using visual tools — perfect for young creators](/courses/kids-complete-app-development-masterclass)[Web Design for Kids  Create colourful websites with HTML & CSS from day one](/courses/kids-web-design-masterclass)
 
 ### For Teens (Classes 6-10)
 
 Ages 11-16 • Text-Based Programming • CBSE Aligned
 
-[🐍 Python Masterclass  Complete Python programming from basics to advanced, CBSE Board aligned](/courses/python-complete-masterclass-teens)[☕ Java Programming  Master Java OOP, data structures & CBSE Computer Science](/courses/java-programming-masterclass-for-teens)[🌐 Web Development  Build responsive websites with HTML, CSS, JS & React](/courses/web-development-masterclass-teens)[🤖 AI & Machine Learning  Build intelligent systems, chatbots & predictive models](/courses/ai-ml-masterclass-teens)🏅
+[Python Masterclass  Complete Python programming from basics to advanced, CBSE Board aligned](/courses/python-complete-masterclass-teens)[Java Programming  Master Java OOP, data structures & CBSE Computer Science](/courses/java-programming-masterclass-for-teens)[Web Development  Build responsive websites with HTML, CSS, JS & React](/courses/web-development-masterclass-teens)[AI & Machine Learning  Build intelligent systems, chatbots & predictive models](/courses/ai-ml-masterclass-teens)
 
 ### For Seniors & College-Bound (Classes 11-12)
 
 Ages 16+ • Career-Ready • Advanced Tech
 
-[🚀 Full Stack Development  End-to-end web apps with React, Node.js, databases & deployment](/courses/full-stack-web-development-masterclass-college)[🧠 Advanced AI/ML  Deep learning, NLP, computer vision & real research projects](/courses/ai-ml-masterclass-complete-college)[📊 Data Science  Python analytics, pandas, visualization & statistical modelling](/courses/data-science-analytics-masterclass-college)📐
+[Full Stack Development  End-to-end web apps with React, Node.js, databases & deployment](/courses/full-stack-web-development-masterclass-college)[Advanced AI/ML  Deep learning, NLP, computer vision & real research projects](/courses/ai-ml-masterclass-complete-college)[Data Science  Python analytics, pandas, visualization & statistical modelling](/courses/data-science-analytics-masterclass-college)
 
 ### Mathematics & Competitive Exams
 
 All Classes • CBSE • JEE • Olympiads
 
-[📐 CBSE maths Mastery  Complete CBSE-aligned mathematics from algebra to calculus](/courses/complete-high-school-mathematics-mastery)[🏆 Olympiad & Competition Maths  IMO, PRMO, RMO prep with advanced problem-solving techniques](/courses/olympiad-competition-mathematics-mastery)[📚 JEE & WBJEE Maths  Engineering entrance-level maths for Classes 11-12 students](/courses/jee-advanced-mathematics-mastery)[Browse All 30+ Courses →](/courses)⚖ Choose Your Style
+[CBSE maths Mastery  Complete CBSE-aligned mathematics from algebra to calculus](/courses/complete-high-school-mathematics-mastery)[Olympiad & Competition Maths  IMO, PRMO, RMO prep with advanced problem-solving techniques](/courses/olympiad-competition-mathematics-mastery)[JEE & WBJEE Maths  Engineering entrance-level maths for Classes 11-12 students](/courses/jee-advanced-mathematics-mastery)[Browse All 30+ Courses →](/courses)Choose Your Style
 
 ## Group Classes or 1-on-1 Personalized?
 
 Every DPS Ruby Park Students student learns differently. Choose the format that fits your child's learning style, schedule, and goals — both options come with the same expert instruction.
 
-Most Popular👥
+Most Popular
 
 ### Group Classes
 
@@ -299,7 +319,7 @@ Collaborative learning with peers
 - ✓ Completion Certificate
 - ✓ Doubt Clearing Support
 
-Start with Group ClassPremium👑
+Start with Group ClassPremium
 
 ### 1-on-1 Personalized
 
@@ -424,7 +444,7 @@ Yes, every student receives a completion certificate after finishing their codin
 
 ## Explore More
 
-[Coding for DPS New Town](/coding-classes-for-dps-new-town-kolkata)[Coding Classes in Kolkata](/best-coding-class-in-kolkata)[All Courses](/courses)[Pricing](/pricing)[Summer Coding Camp](/summer-coding-camp)
+[Coding for DPS New Town](/coding-classes-for-dps-new-town-kolkata)[Coding Classes in Kolkata](/best-coding-class-in-kolkata)[All Courses](/courses)[Pricing](/pricing)[Summer Coding Camp](/summer-coding-camp)[How We Teach (Free Demos)](/how-we-teach)[Coding for CBSE Students](/coding-for-cbse-students)[Online Maths Tuition](/online-maths-tuition)[DPS New Town](/coding-classes-for-dps-new-town-kolkata)[All School Programmes](/schools)
 
 ---
 
