@@ -17,6 +17,11 @@
     <lastmod>2026-05-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://learn.modernagecoders.com/images/og-modern-age-coders.png</image:loc>
+      <image:title>Modern Age Coders Hackathon 1.0 — ₹30,000 Prize Pool | Biggest Build-Anything Online Hackathon 2026</image:title>
+      <image:caption>Worldwide online hackathon. Solve a real-life problem, use any AI tool, compete across 3 rounds for a ₹30,000 prize pool. Register for ₹500.</image:caption>
+    </image:image>
   </url>
   
   <!-- Main Pages -->
@@ -434,6 +439,12 @@
   </url>
   <url>
     <loc>https://learn.modernagecoders.com/java-programming-for-icse-students</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/online-java-classes</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>

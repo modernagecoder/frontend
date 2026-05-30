@@ -415,6 +415,16 @@
   to = "/src/pages/java-programming-for-icse-students.md"
   status = 200
 
+[[redirects]]
+  from = "/online-java-classes"
+  to = "/src/pages/online-java-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-java-classes.md"
+  to = "/src/pages/online-java-classes.md"
+  status = 200
+
 # Daily Challenges & Practice Pages
 [[redirects]]
   from = "/coding-challenges"
