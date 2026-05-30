@@ -1051,7 +1051,7 @@
             <div id="hx-modal-body">
                 <h3 id="hx-modal-title">Join Hackathon 1.0</h3>
                 <p class="msub">Register individually. Team up later (up to 4) during the build round.</p>
-                <div class="hx-fee"><span class="l">Registration fee</span><span class="p">₹500</span></div>
+                <div class="hx-fee"><span class="l">Registration fee</span><span class="p" id="hx-fee-amt">₹500</span></div>
                 <form id="hx-reg-form" onsubmit="HackathonRegister.submit(event)">
                     <div class="hx-field"><label for="hx-name">Full name</label><input id="hx-name" type="text" required placeholder="Your full name" autocomplete="name"></div>
                     <div class="hx-field"><label for="hx-email">Email address</label><input id="hx-email" type="email" required placeholder="you@email.com" autocomplete="email"></div>
@@ -1200,15 +1200,43 @@
 
     /* ---------- Registration + Razorpay ---------- */
     var HackathonRegister = {
-        FEE: 500,
+        FEE_INR: 500,
+        FEE_USD: 10,
         getApiUrl: function () {
             var h = window.location.hostname;
             var local = (h === 'localhost' || h === '127.0.0.1' || h === '' || window.location.protocol === 'file:');
             return local ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
         },
+        // Currency follows the selected country: India pays ₹500, everyone else $10 USD.
+        priceFor: function (iso) {
+            return (iso === 'IN')
+                ? { amount: this.FEE_INR, currency: 'INR', label: '₹500' }
+                : { amount: this.FEE_USD, currency: 'USD', label: '$10' };
+        },
+        selectedIso: function () {
+            var sel = document.getElementById('hx-dial');
+            return sel.options[sel.selectedIndex].getAttribute('data-iso') || 'IN';
+        },
+        isIndianTimezone: function () {
+            try {
+                var tz = (Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+                if (tz === 'Asia/Kolkata' || tz === 'Asia/Calcutta') return true;
+                if (tz) return false;
+            } catch (e) {}
+            return true; // unknown → default to India (primary audience)
+        },
+        // Update the fee box + pay button to match the currently selected country.
+        refreshPrice: function () {
+            var p = this.priceFor(this.selectedIso());
+            var amtEl = document.getElementById('hx-fee-amt');
+            var btn = document.getElementById('hx-pay-btn');
+            if (amtEl) amtEl.textContent = p.label;
+            if (btn && !btn.disabled) btn.textContent = 'Pay ' + p.label + ' & Register';
+        },
         open: function () {
             document.getElementById('hx-modal-overlay').classList.add('open');
             document.body.style.overflow = 'hidden';
+            this.refreshPrice();
             try { gtag('event', 'hackathon_register_open'); } catch (e) {}
         },
         close: function () {
@@ -1231,16 +1259,18 @@
         },
         pay: function (name, email, phone, dial, iso) {
             var self = this;
+            var price = this.priceFor(iso);
+            var resetLabel = 'Pay ' + price.label + ' & Register';
             var btn = document.getElementById('hx-pay-btn');
             btn.disabled = true; btn.textContent = 'Processing…';
             if (typeof Razorpay === 'undefined') {
                 alert('Payment library is still loading. Please try again in a moment.');
-                btn.disabled = false; btn.textContent = 'Pay ₹500 & Register'; return;
+                btn.disabled = false; btn.textContent = resetLabel; return;
             }
             fetch(this.getApiUrl() + '/api/payment/create-order', {
                 method: 'POST', headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    amount: this.FEE, currency: 'INR',
+                    amount: price.amount, currency: price.currency,
                     productType: 'other',
                     productId: 'hackathon-1.0',
                     productName: 'Modern Age Coders Hackathon 1.0 — Registration',
@@ -1253,24 +1283,24 @@
                 if (!data.success) throw new Error(data.error || 'Could not create order');
                 var options = {
                     key: data.key, amount: data.order.amount, currency: data.order.currency,
-                    name: 'Modern Age Coders', description: 'Hackathon 1.0 Registration',
+                    name: 'Modern Age Coders', description: 'Hackathon 1.0 Registration (' + price.label + ')',
                     order_id: data.order.id,
                     prefill: { name: name, email: email, contact: phone },
                     theme: { color: '#a855f7' },
                     handler: function (resp) { self.verify(resp, data.order.orderId, name); },
-                    modal: { ondismiss: function () { btn.disabled = false; btn.textContent = 'Pay ₹500 & Register'; } }
+                    modal: { ondismiss: function () { btn.disabled = false; btn.textContent = resetLabel; } }
                 };
                 var rzp = new Razorpay(options);
                 rzp.on('payment.failed', function (resp) {
                     alert('Payment failed: ' + (resp.error && resp.error.description ? resp.error.description : 'please try again'));
-                    btn.disabled = false; btn.textContent = 'Pay ₹500 & Register';
+                    btn.disabled = false; btn.textContent = resetLabel;
                 });
                 rzp.open();
             })
             .catch(function (err) {
                 console.error('Hackathon payment error:', err);
                 alert('Something went wrong: ' + err.message + '\nPlease try again or WhatsApp +91 91233 66161.');
-                btn.disabled = false; btn.textContent = 'Pay ₹500 & Register';
+                btn.disabled = false; btn.textContent = resetLabel;
             });
         },
         verify: function (resp, orderId, name) {
@@ -1315,11 +1345,24 @@
     });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') HackathonRegister.close(); });
 
-    /* India-phone maxlength toggle */
+    /* Country selector → phone length + price (₹500 for India, $10 USD elsewhere) */
     document.getElementById('hx-dial').addEventListener('change', function () {
         var iso = this.options[this.selectedIndex].getAttribute('data-iso');
         document.getElementById('hx-phone').maxLength = (iso === 'IN') ? 10 : 15;
+        HackathonRegister.refreshPrice();
     });
+
+    /* Auto-detect: foreign visitors default to USD pricing (and a non-India dial code) */
+    (function () {
+        var sel = document.getElementById('hx-dial');
+        if (!HackathonRegister.isIndianTimezone()) {
+            for (var i = 0; i < sel.options.length; i++) {
+                if (sel.options[i].getAttribute('data-iso') === 'US') { sel.selectedIndex = i; break; }
+            }
+            document.getElementById('hx-phone').maxLength = 15;
+        }
+        HackathonRegister.refreshPrice();
+    })();
     </script>
 
     <!-- Custom nav behaviour: scroll state, mobile menu, active-section highlight -->
