@@ -30,9 +30,20 @@
 /terms.html /terms 301!
 /privacy.html /privacy 301!
 /login.html /login 301!
+/hackathon.html /hackathon 301!
 
 # Clean URL rewrites
 / /src/pages/index.html 200
+# Hackathon 1.0 event page (canonical /hackathon) + keyword SEO aliases
+/hackathon /src/pages/hackathon.html 200
+/hackathon-2026 /hackathon 301!
+/online-hackathon /hackathon 301!
+/online-hackathon-2026 /hackathon 301!
+/coding-hackathon /hackathon 301!
+/coding-hackathon-2026 /hackathon 301!
+/ai-hackathon /hackathon 301!
+/hackathon-india /hackathon 301!
+/register-hackathon /hackathon 301!
 /about /src/pages/about.html 200
 /courses /src/pages/course.html 200
 /business-solutions /src/pages/business-solutions.html 200
