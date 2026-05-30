@@ -735,214 +735,101 @@
     display: flex !important;
 }
 
-/* Base card */
+/* ===========================================================
+   INK & LIGHT — monochrome segmented selector. No colour tint.
+   Resting tabs are quiet dark cards; the ACTIVE tab inverts to a
+   clean light surface with dark text. The light/dark inversion is
+   itself the strongest possible "selected" cue — instantly clear,
+   premium, and free of any AI-cliché colour wash. Identical look
+   across both Coding and Maths tracks for a calm, cohesive feel. */
+
+/* Base card — deliberately quiet. Every resting tab looks the same
+   so the single active (light) tab is the only thing that "pops"
+   (Von Restorff effect → instant, low-effort orientation). */
 .sub-tab {
     display: inline-flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
-    gap: 0.2rem !important;
-    padding: 1.1rem 1.5rem !important;
-    min-width: 145px !important;
-    border-radius: 14px !important;
+    gap: 0.22rem !important;
+    padding: 0.85rem 1.4rem !important;
+    min-width: 132px !important;
+    border-radius: 12px !important;
     cursor: pointer !important;
-    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    border: 1.5px solid rgba(255, 255, 255, 0.1) !important;
-    background: rgba(255, 255, 255, 0.05) !important;
+    transition: transform 0.18s ease, background-color 0.18s ease,
+                border-color 0.18s ease, box-shadow 0.18s ease,
+                color 0.18s ease !important;
+    border: 1px solid rgba(255, 255, 255, 0.09) !important;
+    background: rgba(255, 255, 255, 0.035) !important;
     color: #94a3b8 !important;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: none !important;
     transform: none !important;
     text-align: center !important;
     white-space: normal !important;
     position: relative !important;
+    overflow: hidden !important;
 }
 
+/* No decorative markers — the light surface IS the selection cue. */
 .sub-tab::before,
 .sub-tab::after {
     display: none !important;
 }
 
-/* Inner text elements */
+/* Inner text — clear name / quiet supporting age line */
 .sub-tab .st-name {
     display: block !important;
-    font-size: 0.95rem !important;
-    font-weight: 700 !important;
-    color: #cbd5e1 !important;
+    font-size: 0.94rem !important;
+    font-weight: 650 !important;
+    color: #e2e8f0 !important;
     line-height: 1.2 !important;
-    letter-spacing: 0.01em !important;
+    letter-spacing: -0.01em !important;
     white-space: normal !important;
+    transition: color 0.18s ease !important;
 }
 
 .sub-tab .st-age {
     display: block !important;
-    font-size: 0.7rem !important;
-    font-weight: 500 !important;
-    color: #475569 !important;
-    letter-spacing: 0.03em !important;
-    margin-top: 0.2rem !important;
+    font-size: 0.66rem !important;
+    font-weight: 600 !important;
+    color: #64748b !important;
+    letter-spacing: 0.05em !important;
+    text-transform: uppercase !important;
+    margin-top: 0.12rem !important;
     white-space: normal !important;
+    transition: color 0.18s ease !important;
 }
 
-/* ---- Colored resting state: tinted bg + top accent inset shadow ---- */
-
-/* Kids — orange */
-.coding-subtabs .sub-tab[data-subtab="kids"] {
-    background: rgba(251, 146, 60, 0.1) !important;
-    border-color: rgba(251, 146, 60, 0.3) !important;
-    box-shadow: inset 0 3px 0 0 rgba(251, 146, 60, 0.55), 0 2px 10px rgba(0,0,0,0.3) !important;
+/* ---- HOVER (non-active): subtle light wash + a small lift ----
+   Neutral white, no colour — just enough to read as "clickable". */
+.sub-tab:hover:not(.active) {
+    background: rgba(255, 255, 255, 0.07) !important;
+    border-color: rgba(255, 255, 255, 0.22) !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.30) !important;
+    transform: translateY(-2px) !important;
 }
-.coding-subtabs .sub-tab[data-subtab="kids"] .st-name { color: #fdba74 !important; }
-.coding-subtabs .sub-tab[data-subtab="kids"] .st-age  { color: rgba(251, 146, 60, 0.55) !important; }
+.sub-tab:hover:not(.active) .st-name { color: #ffffff !important; }
+.sub-tab:hover:not(.active) .st-age  { color: #94a3b8 !important; }
 
-/* Teens — cyan */
-.coding-subtabs .sub-tab[data-subtab="teens"] {
-    background: rgba(6, 182, 212, 0.1) !important;
-    border-color: rgba(6, 182, 212, 0.3) !important;
-    box-shadow: inset 0 3px 0 0 rgba(6, 182, 212, 0.55), 0 2px 10px rgba(0,0,0,0.3) !important;
+/* ---- ACTIVE: clean light surface, dark text ----
+   Full luminance inversion — the crispest, most professional way
+   to say "this one is selected" without leaning on any colour. */
+.sub-tab.active {
+    background: linear-gradient(180deg, #ffffff 0%, #eef1f6 100%) !important;
+    border-color: rgba(255, 255, 255, 0.85) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45),
+                0 0 0 1px rgba(255, 255, 255, 0.55) inset !important;
+    transform: translateY(-1px) !important;
 }
-.coding-subtabs .sub-tab[data-subtab="teens"] .st-name { color: #67e8f9 !important; }
-.coding-subtabs .sub-tab[data-subtab="teens"] .st-age  { color: rgba(6, 182, 212, 0.55) !important; }
+.sub-tab.active .st-name { color: #0b1220 !important; font-weight: 700 !important; }
+.sub-tab.active .st-age  { color: #64748b !important; }
 
-/* College — purple */
-.coding-subtabs .sub-tab[data-subtab="college"] {
-    background: rgba(168, 85, 247, 0.1) !important;
-    border-color: rgba(168, 85, 247, 0.3) !important;
-    box-shadow: inset 0 3px 0 0 rgba(168, 85, 247, 0.55), 0 2px 10px rgba(0,0,0,0.3) !important;
+/* ---- Keyboard focus: visible neutral ring for accessibility ---- */
+.sub-tab:focus-visible {
+    outline: none !important;
+    border-color: rgba(255, 255, 255, 0.7) !important;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.30) !important;
 }
-.coding-subtabs .sub-tab[data-subtab="college"] .st-name { color: #d8b4fe !important; }
-.coding-subtabs .sub-tab[data-subtab="college"] .st-age  { color: rgba(168, 85, 247, 0.55) !important; }
-
-/* Girls in Tech — pink */
-.coding-subtabs .sub-tab[data-subtab="girls"] {
-    background: rgba(236, 72, 153, 0.1) !important;
-    border-color: rgba(236, 72, 153, 0.3) !important;
-    box-shadow: inset 0 3px 0 0 rgba(236, 72, 153, 0.55), 0 2px 10px rgba(0,0,0,0.3) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="girls"] .st-name { color: #f9a8d4 !important; }
-.coding-subtabs .sub-tab[data-subtab="girls"] .st-age  { color: rgba(236, 72, 153, 0.55) !important; }
-
-/* Corporate — indigo */
-.coding-subtabs .sub-tab[data-subtab="customized"] {
-    background: rgba(99, 102, 241, 0.1) !important;
-    border-color: rgba(99, 102, 241, 0.3) !important;
-    box-shadow: inset 0 3px 0 0 rgba(99, 102, 241, 0.55), 0 2px 10px rgba(0,0,0,0.3) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="customized"] .st-name { color: #a5b4fc !important; }
-.coding-subtabs .sub-tab[data-subtab="customized"] .st-age  { color: rgba(99, 102, 241, 0.55) !important; }
-
-/* Maths tabs — amber tint base */
-.maths-subtabs .sub-tab {
-    background: rgba(245, 158, 11, 0.08) !important;
-    border-color: rgba(245, 158, 11, 0.25) !important;
-    box-shadow: inset 0 3px 0 0 rgba(245, 158, 11, 0.45), 0 2px 10px rgba(0,0,0,0.3) !important;
-}
-.maths-subtabs .sub-tab .st-name { color: #fcd34d !important; }
-.maths-subtabs .sub-tab .st-age  { color: rgba(245, 158, 11, 0.5) !important; }
-
-/* Hover — brighter tint + lift */
-.coding-subtabs .sub-tab[data-subtab="kids"]:hover:not(.active) {
-    background: rgba(251, 146, 60, 0.2) !important;
-    border-color: rgba(251, 146, 60, 0.65) !important;
-    box-shadow: inset 0 3px 0 0 #fb923c, 0 10px 28px rgba(251, 146, 60, 0.3) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="kids"]:hover:not(.active) .st-name { color: #fb923c !important; }
-
-.coding-subtabs .sub-tab[data-subtab="teens"]:hover:not(.active) {
-    background: rgba(6, 182, 212, 0.2) !important;
-    border-color: rgba(6, 182, 212, 0.65) !important;
-    box-shadow: inset 0 3px 0 0 #06b6d4, 0 10px 28px rgba(6, 182, 212, 0.3) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="teens"]:hover:not(.active) .st-name { color: #06b6d4 !important; }
-
-.coding-subtabs .sub-tab[data-subtab="college"]:hover:not(.active) {
-    background: rgba(168, 85, 247, 0.2) !important;
-    border-color: rgba(168, 85, 247, 0.65) !important;
-    box-shadow: inset 0 3px 0 0 #a855f7, 0 10px 28px rgba(168, 85, 247, 0.3) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="college"]:hover:not(.active) .st-name { color: #a855f7 !important; }
-
-.coding-subtabs .sub-tab[data-subtab="girls"]:hover:not(.active) {
-    background: rgba(236, 72, 153, 0.2) !important;
-    border-color: rgba(236, 72, 153, 0.65) !important;
-    box-shadow: inset 0 3px 0 0 #ec4899, 0 10px 28px rgba(236, 72, 153, 0.3) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="girls"]:hover:not(.active) .st-name { color: #ec4899 !important; }
-
-.coding-subtabs .sub-tab[data-subtab="customized"]:hover:not(.active) {
-    background: rgba(99, 102, 241, 0.2) !important;
-    border-color: rgba(99, 102, 241, 0.65) !important;
-    box-shadow: inset 0 3px 0 0 #6366f1, 0 10px 28px rgba(99, 102, 241, 0.3) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="customized"]:hover:not(.active) .st-name { color: #818cf8 !important; }
-
-/* Active states — full glow + lifted */
-.coding-subtabs .sub-tab[data-subtab="kids"].active {
-    background: linear-gradient(160deg, rgba(251, 146, 60, 0.35), rgba(251, 146, 60, 0.15)) !important;
-    border-color: #fb923c !important;
-    box-shadow: inset 0 3px 0 0 #fb923c, 0 12px 32px rgba(251, 146, 60, 0.45) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="kids"].active .st-name { color: #fb923c !important; }
-.coding-subtabs .sub-tab[data-subtab="kids"].active .st-age  { color: rgba(251, 146, 60, 0.75) !important; }
-
-.coding-subtabs .sub-tab[data-subtab="teens"].active {
-    background: linear-gradient(160deg, rgba(6, 182, 212, 0.35), rgba(6, 182, 212, 0.15)) !important;
-    border-color: #06b6d4 !important;
-    box-shadow: inset 0 3px 0 0 #06b6d4, 0 12px 32px rgba(6, 182, 212, 0.45) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="teens"].active .st-name { color: #06b6d4 !important; }
-.coding-subtabs .sub-tab[data-subtab="teens"].active .st-age  { color: rgba(6, 182, 212, 0.75) !important; }
-
-.coding-subtabs .sub-tab[data-subtab="college"].active {
-    background: linear-gradient(160deg, rgba(168, 85, 247, 0.35), rgba(168, 85, 247, 0.15)) !important;
-    border-color: #a855f7 !important;
-    box-shadow: inset 0 3px 0 0 #a855f7, 0 12px 32px rgba(168, 85, 247, 0.45) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="college"].active .st-name { color: #a855f7 !important; }
-.coding-subtabs .sub-tab[data-subtab="college"].active .st-age  { color: rgba(168, 85, 247, 0.75) !important; }
-
-.coding-subtabs .sub-tab[data-subtab="girls"].active {
-    background: linear-gradient(160deg, rgba(236, 72, 153, 0.35), rgba(236, 72, 153, 0.15)) !important;
-    border-color: #ec4899 !important;
-    box-shadow: inset 0 3px 0 0 #ec4899, 0 12px 32px rgba(236, 72, 153, 0.45) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="girls"].active .st-name { color: #ec4899 !important; }
-.coding-subtabs .sub-tab[data-subtab="girls"].active .st-age  { color: rgba(236, 72, 153, 0.75) !important; }
-
-.coding-subtabs .sub-tab[data-subtab="customized"].active {
-    background: linear-gradient(160deg, rgba(99, 102, 241, 0.35), rgba(99, 102, 241, 0.15)) !important;
-    border-color: #6366f1 !important;
-    box-shadow: inset 0 3px 0 0 #6366f1, 0 12px 32px rgba(99, 102, 241, 0.45) !important;
-    transform: translateY(-4px) !important;
-}
-.coding-subtabs .sub-tab[data-subtab="customized"].active .st-name { color: #818cf8 !important; }
-.coding-subtabs .sub-tab[data-subtab="customized"].active .st-age  { color: rgba(99, 102, 241, 0.75) !important; }
-
-/* Maths — amber hover */
-.maths-subtabs .sub-tab:hover:not(.active) {
-    background: rgba(245, 158, 11, 0.2) !important;
-    border-color: rgba(245, 158, 11, 0.65) !important;
-    box-shadow: inset 0 3px 0 0 #f59e0b, 0 10px 28px rgba(245, 158, 11, 0.3) !important;
-    transform: translateY(-4px) !important;
-}
-.maths-subtabs .sub-tab:hover:not(.active) .st-name { color: #f59e0b !important; }
-
-.maths-subtabs .sub-tab.active {
-    background: linear-gradient(160deg, rgba(245, 158, 11, 0.35), rgba(245, 158, 11, 0.15)) !important;
-    border-color: #f59e0b !important;
-    box-shadow: inset 0 3px 0 0 #f59e0b, 0 12px 32px rgba(245, 158, 11, 0.45) !important;
-    transform: translateY(-4px) !important;
-}
-.maths-subtabs .sub-tab.active .st-name { color: #f59e0b !important; }
-.maths-subtabs .sub-tab.active .st-age  { color: rgba(245, 158, 11, 0.75) !important; }
 
 /* Mobile — 2-column grid */
 @media (max-width: 600px) {
