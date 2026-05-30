@@ -334,6 +334,16 @@
   to = "/src/pages/best-java-classes-in-india.md"
   status = 200
 
+[[redirects]]
+  from = "/java-classes-for-teens"
+  to = "/src/pages/java-classes-for-teens.html"
+  status = 200
+
+[[redirects]]
+  from = "/java-classes-for-teens.md"
+  to = "/src/pages/java-classes-for-teens.md"
+  status = 200
+
 # Daily Challenges & Practice Pages
 [[redirects]]
   from = "/coding-challenges"
