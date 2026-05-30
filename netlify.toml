@@ -465,6 +465,16 @@
   to = "/src/pages/java-oops-concepts-course.md"
   status = 200
 
+[[redirects]]
+  from = "/java-certification-course"
+  to = "/src/pages/java-certification-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/java-certification-course.md"
+  to = "/src/pages/java-certification-course.md"
+  status = 200
+
 # Daily Challenges & Practice Pages
 [[redirects]]
   from = "/coding-challenges"
