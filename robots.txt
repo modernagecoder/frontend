@@ -16,6 +16,7 @@ Disallow: /dummy.html
 Disallow: /form-example.html
 
 # Allow important pages
+Allow: /hackathon
 Allow: /courses/
 Allow: /blog/
 Allow: /about

@@ -329,6 +329,28 @@
         }
         .course-card-minimal .start-learning-btn:hover .btn-arrow { transform: translateX(4px); }
 
+        /* Hackathon card: two stacked actions */
+        .hackathon-btn-row { display: flex; flex-direction: column; gap: 0.55rem; }
+        .hackathon-card .start-learning-btn.hx-reg-btn {
+            background: linear-gradient(135deg, #f59e0b 0%, #f97316 50%, #ec4899 100%);
+            box-shadow: 0 6px 18px rgba(245, 158, 11, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        }
+        .hackathon-card .start-learning-btn.hx-reg-btn:hover {
+            box-shadow: 0 10px 28px rgba(245, 158, 11, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+        }
+        .hackathon-card .start-learning-btn.hx-prep-btn {
+            background: transparent;
+            color: #c4b5fd;
+            border: 1px solid rgba(168, 85, 247, 0.5);
+            box-shadow: none;
+        }
+        .hackathon-card .start-learning-btn.hx-prep-btn:hover {
+            background: rgba(168, 85, 247, 0.14);
+            color: #ffffff;
+            box-shadow: none;
+            transform: translateY(-2px);
+        }
+
         @media (max-width: 480px) {
             .course-card-price-simple { padding: 0.45rem 0.8rem; }
             .course-card-price-simple .price-amount { font-size: 1.1rem; }
@@ -1490,7 +1512,7 @@
             // KIDS COURSES (Ages 6-12)
             {
                 id: 130, category: 'programming', title: 'Hackathon for Kids', isHackathon: true,
-                description: 'Free hackathon + 12-week prep for ages 8-12. Learn coding, AI, algorithms and pitching - then compete in our live hackathon weekend. Anyone can join, no fees.',
+                description: 'Join Modern Age Coders Hackathon 1.0 (₹500 to register) + optional 12-week prep for ages 8-12. Learn coding, AI, algorithms and pitching - then compete in our live hackathon. Open to everyone, ₹30,000 prize pool.',
                 skills: ['Hackathon Mindset', 'Scratch + AI Tools', 'Team Coding', 'Pitch & Demo'], difficulty: 'beginner', ageGroup: 'kids',
                 badges: ['new', 'hot'], templateUrl: '/courses/hackathon-prep-for-kids-coding-innovation-ai-projects-course', imageUrl: 'hackathon-kids.png'
             },
@@ -1576,7 +1598,7 @@
             // TEENS COURSES (Ages 13-17)
             {
                 id: 131, category: 'programming', title: 'Hackathon for Teens', isHackathon: true,
-                description: 'Free hackathon + 12-week pro prep for ages 13-17. Master Python, React, AI APIs, algorithms, GitHub and pitching. Build a deployable capstone, win sponsor prizes, graduate hackathon-ready.',
+                description: 'Join Modern Age Coders Hackathon 1.0 (₹500 to register) + optional 12-week pro prep for ages 13-17. Master Python, React, AI APIs, algorithms, GitHub and pitching. Build a real solution and compete for a ₹30,000 prize pool.',
                 skills: ['Python + JavaScript', 'React + Supabase', 'AI APIs', 'Algorithms + Pitch'], difficulty: 'intermediate', ageGroup: 'teens',
                 badges: ['new', 'hot', 'career'], templateUrl: '/courses/hackathon-prep-for-teens-coding-ai-build-innovate-win-course', imageUrl: 'hackathon-teens.png'
             },
@@ -1686,7 +1708,7 @@
             // COLLEGE COURSES
             {
                 id: 132, category: 'programming', title: 'Hackathon for Adults & Professionals', isHackathon: true,
-                description: 'Free hackathon + 12-week pro-grade prep for adults 18+. Master Next.js 16, AI agents, RAG, vector DBs, system design and founder-grade pitching. Career switchers, engineers, founders welcome. Compete with sponsor prizes.',
+                description: 'Join Modern Age Coders Hackathon 1.0 (₹500 to register) + optional 12-week pro-grade prep for adults 18+. Master Next.js 16, AI agents, RAG, vector DBs, system design and pitching. Builders of all kinds welcome — compete for a ₹30,000 prize pool.',
                 skills: ['Next.js 16 + AI SDK', 'Agents + RAG', 'System Design', 'Founder Pitch Lab'], difficulty: 'advanced', ageGroup: 'professional',
                 badges: ['new', 'hot', 'career'], templateUrl: '/courses/hackathon-prep-for-adults-professionals-coding-ai-innovation-course', imageUrl: 'hackathon-adults.png'
             },
@@ -2086,14 +2108,24 @@
                 const isHackathon = course.isHackathon === true;
                 const cardClass = isHackathon ? 'course-card-minimal hackathon-card' : 'course-card-minimal';
                 const ribbon = isHackathon
-                    ? `<div class="hackathon-ribbon"><span class="hackathon-ribbon-dot"></span>FREE TO JOIN · LIVE</div>`
+                    ? `<div class="hackathon-ribbon"><span class="hackathon-ribbon-dot"></span>₹30,000 PRIZE POOL · LIVE</div>`
                     : '';
-                const buttonLabel = isHackathon ? 'Register Free →' : 'Start Learning';
+                const buttonLabel = 'Start Learning';
+                const btnArrow = `<svg class="btn-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+                // Hackathon cards show TWO actions: "Register Now" → the /hackathon event page
+                // (see full details & complete the ₹500 registration), and "Start Learning" →
+                // the hackathon prep course. Non-hackathon cards keep a single button.
+                const buttonsBlock = isHackathon
+                    ? `<div class="hackathon-btn-row">
+                            <button class="start-learning-btn hx-reg-btn" type="button" data-template-url="/hackathon" data-course-title="${course.title}">Register Now ${btnArrow}</button>
+                            <button class="start-learning-btn hx-prep-btn" type="button" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">Start Learning ${btnArrow}</button>
+                        </div>`
+                    : `<button class="start-learning-btn" type="button" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">${buttonLabel} ${btnArrow}</button>`;
                 const pricingBlock = isHackathon
                     ? `
                         <div class="hackathon-pricing" aria-label="Hackathon pricing breakdown">
                             <div class="hackathon-pricing-row hackathon-pricing-free">
-                                <span class="hackathon-pricing-tag">FREE</span>
+                                <span class="hackathon-pricing-tag">₹500</span>
                                 <span class="hackathon-pricing-text">Hackathon registration &amp; participation</span>
                             </div>
                             <div class="hackathon-pricing-row hackathon-pricing-prep">
@@ -2118,10 +2150,7 @@
                             <h3 class="course-title-minimal">${course.title}</h3>
                             <p class="course-description-minimal">${course.description}</p>
                             ${pricingBlock}
-                            <button class="start-learning-btn" type="button" data-template-url="${course.templateUrl || ''}" data-course-title="${course.title}">
-                                ${buttonLabel}
-                                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            </button>
+                            ${buttonsBlock}
                         </div>
                     </div>
                 `;
