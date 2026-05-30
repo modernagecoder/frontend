@@ -119,8 +119,59 @@
   status = 200
 
 # Hackathon 1.0 landing page
+# Canonical URL is /hackathon (short, brandable, keyword-rich, easy to share).
 [[redirects]]
   from = "/hackathon.html"
+  to = "/hackathon"
+  status = 301
+  force = true
+
+# Keyword-rich SEO aliases — all 301 to the canonical /hackathon so we capture
+# search + backlink + type-in traffic for these variations without duplicate content.
+[[redirects]]
+  from = "/hackathon-2026"
+  to = "/hackathon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/online-hackathon"
+  to = "/hackathon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/online-hackathon-2026"
+  to = "/hackathon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-hackathon"
+  to = "/hackathon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-hackathon-2026"
+  to = "/hackathon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ai-hackathon"
+  to = "/hackathon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hackathon-india"
+  to = "/hackathon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/register-hackathon"
   to = "/hackathon"
   status = 301
   force = true
@@ -352,6 +403,16 @@
 [[redirects]]
   from = "/java-classes-for-adults.md"
   to = "/src/pages/java-classes-for-adults.md"
+  status = 200
+
+[[redirects]]
+  from = "/java-programming-for-icse-students"
+  to = "/src/pages/java-programming-for-icse-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/java-programming-for-icse-students.md"
+  to = "/src/pages/java-programming-for-icse-students.md"
   status = 200
 
 # Daily Challenges & Practice Pages
