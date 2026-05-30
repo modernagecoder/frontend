@@ -435,6 +435,16 @@
   to = "/src/pages/java-for-beginners.md"
   status = 200
 
+[[redirects]]
+  from = "/java-projects-for-students"
+  to = "/src/pages/java-projects-for-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/java-projects-for-students.md"
+  to = "/src/pages/java-projects-for-students.md"
+  status = 200
+
 # Daily Challenges & Practice Pages
 [[redirects]]
   from = "/coding-challenges"
