@@ -10,6 +10,14 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Hackathon 1.0 (time-sensitive event) -->
+  <url>
+    <loc>https://learn.modernagecoders.com/hackathon</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
   
   <!-- Main Pages -->
   <url>
@@ -401,6 +409,14 @@
   <url>
     <loc>https://learn.modernagecoders.com/java-programming-for-kids-teens</loc>
     <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Java course cluster (pillar + spokes) -->
+  <url>
+    <loc>https://learn.modernagecoders.com/best-java-classes-in-india</loc>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

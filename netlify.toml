@@ -118,6 +118,18 @@
   to = "/src/pages/index.html"
   status = 200
 
+# Hackathon 1.0 landing page
+[[redirects]]
+  from = "/hackathon.html"
+  to = "/hackathon"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hackathon"
+  to = "/src/pages/hackathon.html"
+  status = 200
+
 [[redirects]]
   from = "/about"
   to = "/src/pages/about.html"
@@ -309,6 +321,17 @@
 [[redirects]]
   from = "/java-programming-for-kids-teens"
   to = "/src/pages/java-programming-for-kids-teens.html"
+  status = 200
+
+# Java course cluster (pillar + spokes)
+[[redirects]]
+  from = "/best-java-classes-in-india"
+  to = "/src/pages/best-java-classes-in-india.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-java-classes-in-india.md"
+  to = "/src/pages/best-java-classes-in-india.md"
   status = 200
 
 # Daily Challenges & Practice Pages
