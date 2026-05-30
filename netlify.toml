@@ -344,6 +344,16 @@
   to = "/src/pages/java-classes-for-teens.md"
   status = 200
 
+[[redirects]]
+  from = "/java-classes-for-adults"
+  to = "/src/pages/java-classes-for-adults.html"
+  status = 200
+
+[[redirects]]
+  from = "/java-classes-for-adults.md"
+  to = "/src/pages/java-classes-for-adults.md"
+  status = 200
+
 # Daily Challenges & Practice Pages
 [[redirects]]
   from = "/coding-challenges"
