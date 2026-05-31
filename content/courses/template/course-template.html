@@ -134,7 +134,21 @@
                     </span>
                 </div>
 
-                <!-- Download Curriculum CTA -->
+                <!-- Download Curriculum CTA + See-Us-In-Action buttons -->
+                <style>
+                    .hero-proof-btn { display: inline-flex; align-items: center; gap: 9px; padding: 14px 22px; border-radius: 12px; font-size: 0.98rem; font-weight: 700; text-decoration: none; color: #fff; transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease; }
+                    .hero-proof-btn svg { flex-shrink: 0; }
+                    .hero-proof-btn .hp-arrow { transition: transform 0.2s ease; }
+                    .hero-proof-btn:hover { transform: translateY(-2px); }
+                    .hero-proof-btn:hover .hp-arrow { transform: translateX(3px); }
+                    .hero-proof-btn--teach { background: linear-gradient(135deg, #10b981, #059669); box-shadow: 0 6px 20px rgba(16,185,129,0.42); }
+                    .hero-proof-btn--teach:hover { box-shadow: 0 10px 28px rgba(16,185,129,0.58); }
+                    .hero-proof-btn--love { background: linear-gradient(135deg, #ec4899, #db2777); box-shadow: 0 6px 20px rgba(236,72,153,0.42); }
+                    .hero-proof-btn--love:hover { box-shadow: 0 10px 28px rgba(236,72,153,0.58); }
+                    .hero-proof-btn--labs { background: linear-gradient(135deg, #06b6d4, #0891b2); box-shadow: 0 6px 20px rgba(6,182,212,0.42); }
+                    .hero-proof-btn--labs:hover { box-shadow: 0 10px 28px rgba(6,182,212,0.58); }
+                    @media (max-width: 600px) { .hero-cta-row .download-curriculum-btn, .hero-cta-row .hero-proof-btn { width: 100%; justify-content: center; } }
+                </style>
                 <div class="hero-cta-row">
                     <button type="button" id="downloadCurriculumBtn" class="download-curriculum-btn" aria-label="Download course curriculum as PDF">
                         <svg class="dl-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -144,6 +158,18 @@
                         </svg>
                         <span class="dl-label">Download Curriculum (PDF)</span>
                     </button>
+                    <a href="/how-we-teach" class="hero-proof-btn hero-proof-btn--teach" aria-label="Watch how we teach — live demo lessons">
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                        Watch How We Teach <svg class="hp-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="/love" class="hero-proof-btn hero-proof-btn--love" aria-label="Read parent and student testimonials">
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                        Wall of Love
+                    </a>
+                    <a href="/student-labs" class="hero-proof-btn hero-proof-btn--labs" aria-label="See projects students built">
+                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6"></path><path d="M10 3v6.5L5.2 18a2 2 0 0 0 1.7 3h10.2a2 2 0 0 0 1.7-3L14 9.5V3"></path></svg>
+                        Student Labs
+                    </a>
                 </div>
             </div>
             <div class="course-hero-image">
@@ -516,61 +542,6 @@
 
         <!-- Why This Course Section - Only displays if course has content -->
         {{WHY_THIS_COURSE}}
-
-        <!-- See Us In Action — How We Teach / Wall of Love / Student Labs -->
-        <style>
-            .mac-proof { padding: 56px 20px; border-top: 1px solid rgba(255,255,255,0.06); }
-            .mac-proof-inner { max-width: 1140px; margin: 0 auto; }
-            .mac-proof-head { text-align: center; max-width: 720px; margin: 0 auto 38px; }
-            .mac-proof-eyebrow { display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #34d399; background: rgba(16,185,129,0.1); border: 1px solid rgba(16,185,129,0.3); padding: 7px 16px; border-radius: 50px; margin-bottom: 18px; }
-            .mac-proof-title { font-size: clamp(1.5rem, 3.4vw, 2.1rem); font-weight: 800; color: #fff; margin: 0 0 12px; line-height: 1.18; }
-            .mac-proof-sub { color: #94a3b8; font-size: 1rem; line-height: 1.7; margin: 0; }
-            .mac-proof-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; }
-            .mac-proof-card { display: flex; flex-direction: column; align-items: flex-start; padding: 30px 26px; border-radius: 18px; text-decoration: none; background: linear-gradient(145deg, rgba(168,85,247,0.07), rgba(10,15,30,0.9)); border: 1px solid rgba(168,85,247,0.22); transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease; }
-            .mac-proof-card--love { background: linear-gradient(145deg, rgba(236,72,153,0.07), rgba(10,15,30,0.9)); border-color: rgba(236,72,153,0.22); }
-            .mac-proof-card--labs { background: linear-gradient(145deg, rgba(6,182,212,0.07), rgba(10,15,30,0.9)); border-color: rgba(6,182,212,0.22); }
-            .mac-proof-card:hover { transform: translateY(-6px); box-shadow: 0 16px 44px rgba(168,85,247,0.18); border-color: rgba(168,85,247,0.5); }
-            .mac-proof-card--love:hover { box-shadow: 0 16px 44px rgba(236,72,153,0.18); border-color: rgba(236,72,153,0.5); }
-            .mac-proof-card--labs:hover { box-shadow: 0 16px 44px rgba(6,182,212,0.18); border-color: rgba(6,182,212,0.5); }
-            .mac-proof-ico { width: 52px; height: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; margin-bottom: 18px; background: rgba(168,85,247,0.14); color: #c4b5fd; }
-            .mac-proof-card--love .mac-proof-ico { background: rgba(236,72,153,0.14); color: #f9a8d4; }
-            .mac-proof-card--labs .mac-proof-ico { background: rgba(6,182,212,0.14); color: #67e8f9; }
-            .mac-proof-card-title { font-size: 1.15rem; font-weight: 700; color: #f1f5f9; margin-bottom: 8px; }
-            .mac-proof-card-desc { font-size: 0.92rem; color: #94a3b8; line-height: 1.65; margin-bottom: 18px; }
-            .mac-proof-card-cta { font-size: 0.9rem; font-weight: 700; color: #c4b5fd; margin-top: auto; }
-            .mac-proof-card--love .mac-proof-card-cta { color: #f9a8d4; }
-            .mac-proof-card--labs .mac-proof-card-cta { color: #67e8f9; }
-            @media (max-width: 600px) { .mac-proof { padding: 44px 16px; } .mac-proof-card { padding: 26px 22px; } }
-        </style>
-        <section class="mac-proof" aria-label="See Modern Age Coders in action">
-            <div class="mac-proof-inner">
-                <div class="mac-proof-head">
-                    <span class="mac-proof-eyebrow">100% Live Classes &mdash; Nothing Pre-Recorded</span>
-                    <h2 class="mac-proof-title">See Us In Action Before You Enrol</h2>
-                    <p class="mac-proof-sub">Every class is taught live by expert mentors. Don't take our word for it &mdash; watch a real lesson, read what parents say, and explore what our students have actually built.</p>
-                </div>
-                <div class="mac-proof-grid">
-                    <a href="/how-we-teach" class="mac-proof-card mac-proof-card--teach">
-                        <span class="mac-proof-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></span>
-                        <span class="mac-proof-card-title">How We Teach</span>
-                        <span class="mac-proof-card-desc">Watch real, full-length live-class recordings &mdash; organised by topic and age. No sign-up.</span>
-                        <span class="mac-proof-card-cta">Watch demo lessons &rarr;</span>
-                    </a>
-                    <a href="/love" class="mac-proof-card mac-proof-card--love">
-                        <span class="mac-proof-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span>
-                        <span class="mac-proof-card-title">Wall of Love</span>
-                        <span class="mac-proof-card-desc">Real testimonials from parents and students across India and beyond.</span>
-                        <span class="mac-proof-card-cta">Read their stories &rarr;</span>
-                    </a>
-                    <a href="/student-labs" class="mac-proof-card mac-proof-card--labs">
-                        <span class="mac-proof-ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6"></path><path d="M10 3v6.5L5.2 18a2 2 0 0 0 1.7 3h10.2a2 2 0 0 0 1.7-3L14 9.5V3"></path></svg></span>
-                        <span class="mac-proof-card-title">Student Labs</span>
-                        <span class="mac-proof-card-desc">Explore real apps, games and projects our students have built in class.</span>
-                        <span class="mac-proof-card-cta">See student projects &rarr;</span>
-                    </a>
-                </div>
-            </div>
-        </section>
 
         <!-- Related Courses Section - Auto-generated with image cards -->
         {{RELATED_COURSES}}
