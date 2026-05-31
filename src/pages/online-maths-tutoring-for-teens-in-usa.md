@@ -1,113 +1,257 @@
-# Online Maths Tutoring for Teens in the USA — Modern Age Coders
+---
+title: "Online Maths Tutoring for Teens in the USA · 1:1 Middle & High School Math — Modern Age Coders"
+description: "Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. $100/month, 8 classes. Free trial."
+canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-teens-in-usa
+keywords: ["online math tutoring for teens USA", "high school math tutor online", "middle school math tutor", "algebra tutor online", "algebra 1 help", "algebra 2 tutor", "geometry tutor online", "pre-calculus tutor", "trigonometry help", "8th grade math tutor", "9th grade math", "10th grade math tutor"]
+source: src/pages/online-maths-tutoring-for-teens-in-usa.html
+---
+> Live 1:1 online math tutoring for American teens, grades 6–12. We teach why the math works — algebra, geometry, functions, pre-calc — so it holds up on tests and beyond. SAT/ACT ready, Common Core aligned, mentors in every US time zone. $100/month, 8 classes. Free trial.
 
-Live 1:1 online math tutoring for American teenagers in grades 6–12. We rebuild the
-reasoning underneath algebra, geometry, trigonometry and pre-calculus so it holds up — on
-the SAT/ACT, in the next class, and in college. Common Core and state-standard aligned.
-Mentors in every US time zone. Same mentor all year. **USD 100/month for eight live 1:1
-classes (two a week). Small-group option: USD 40/month.** First lesson free.
+Why teens fall behind in math
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** Middle and high school students, grades 6–12, ages 11–18, United States
-- **Format:** Live one-to-one online classes, 8 per month, 2 per week, your time zone
-- **Price:** USD 100/month (1:1) · USD 40/month (small group) · no contract
-- **Full course:** /courses/complete-high-school-mathematics-mastery
+## Math is the one subject where last year's gap quietly sinks this year's grade.
 
-## The problem we solve
+History or English forgive a shaky chapter — you can still follow the next one. Math doesn't. If fractions never really clicked in 6th grade, algebra feels impossible in 8th, and by 10th grade a capable teenager has decided they're "bad at math." They're not. They're standing on one missing brick.
 
-Math is the one subject where last year's gap sinks this year's grade. If fractions never
-clicked in 6th grade, algebra feels impossible in 8th, and by 10th a capable teen has
-decided they're "bad at math." They're not — they're standing on one missing brick.
-Cramming makes it worse: enough is memorized to survive Friday's test, no understanding
-forms, and the gap widens silently until the next exam exposes it. We diagnose the exact
-idea that broke, fix it, and the current work gets easier on its own.
+Cramming makes this worse. A student memorizes enough to survive the test, the understanding never forms, and the gap widens silently until the next exam exposes it.
 
-## How we teach
+A class of thirty can't pause for the one student who's lost on step two. A tutor who only checks homework answers can't see *why* the answer was wrong.
 
-1. **Diagnose the real gap** — find the earlier missing idea before touching the current chapter.
-2. **Derive, don't dictate** — show where formulas come from; a formula you can rebuild is one you can't forget.
-3. **Make them do the talking** — the student explains reasoning back and works problems live.
-4. **Then build speed and exam technique** — fluency drills and SAT/ACT pacing once the idea is solid.
+We work the other way around. One student, one mentor, and a diagnosis first: we find the exact idea that broke, fix it, and watch the current work get easier without us ever touching it directly.
 
-## A real worked example: where the quadratic formula comes from
+How we teach
 
-The quadratic formula x = (−b ± √(b² − 4ac)) / 2a is just the result of "completing the
-square" on ax² + bx + c = 0:
+## Reasoning first, so the test takes care of itself.
 
-- divide by a → x² + (b/a)x + c/a = 0
-- move c/a over → x² + (b/a)x = −c/a
-- complete the square → (x + b/2a)² = (b² − 4ac) / 4a²
-- square root and isolate x → x = (−b ± √(b² − 4ac)) / 2a
+Memorized steps fail under pressure. Understood ideas don't. Every lesson is built that way.
 
-Now the "± √" makes sense (a square root has two signs), and so does the discriminant
-b² − 4ac telling you how many real solutions exist. The formula stops being a magic spell
-and becomes a procedure the student can rebuild — understanding that survives the year.
+### Diagnose the real gap
 
-## Why a coding school teaches math
+Before we touch the current chapter, we find the earlier idea that's actually missing. That's almost always where the trouble started.
 
-The thinking behind good code is the thinking behind good math: **decomposition** (break a
-hard problem into smaller ones), **abstraction** (an algebra function and a code function
-are the same idea), and **debugging your reasoning** (trace your own logic to find the
-error). A teen who learns math as logic walks into computer science, physics and economics
-already fluent in how they think.
+### Derive, don't dictate
 
-## What we cover
+We show your teen where a formula comes from. A formula you can rebuild is a formula you can't forget — and one you can adapt when a problem looks unfamiliar.
 
-- Pre-algebra (grades 6–8): integers, ratios, percentages, the leap into variables
-- Algebra 1 & 2: linear systems, quadratics, polynomials, exponentials, logs, functions
-- Geometry: proof as logical argument, congruence, similarity, circles, coordinate geometry
-- Trigonometry & pre-calculus: the unit circle, identities, sequences and series
-- SAT & ACT math readiness: timing, format and each test's traps
-- Confidence under pressure: reading hard problems, showing working, staying calm
+### Make them do the talking
 
-## How classes work
+Your teen explains the reasoning back and works problems live while the mentor watches the thinking, not just the final answer.
 
-One teen, one mentor, live video with a shared whiteboard. Eight classes a month, two each
-week (50–60 minutes), worked from your teen's own syllabus and tests. All six US time
-zones. A note after each class and a plain-language progress summary every few weeks.
+### Then build speed and exam technique
 
-## FAQ
+Once the idea is solid, we drill for fluency and, when relevant, train SAT/ACT pacing and the specific traps each test sets.
 
-### What grades and ages do you teach?
-Grades 6 through 12 (ages 11–18) — pre-algebra to pre-calculus, placed by what the student can actually do.
+See it for yourself
 
-### My teen is failing math. Where do you start?
-By finding the exact topic where things stopped making sense — usually one or two missing ideas from an earlier year. Fix the foundation, and current work gets easier.
+## The quadratic formula — where it actually comes from.
 
-### Do you prepare students for the SAT and ACT?
-Yes. Both tests build on the algebra, geometry and data we teach anyway; near test day we add format, pacing and traps. See our SAT Math and ACT Math pages.
+Worked example · algebra 1–2
 
-### Is it aligned with my teen's school and Common Core?
-Yes — we follow Common Core and your state's standards and can work from your teen's syllabus, tests and homework.
+**What most teens get:** a formula to memorize — x = (−b ± √(b² − 4ac)) / 2a — with no idea why it's true. So when they forget a sign or a square root, there's nothing to fall back on.
 
-### How much does it cost?
-USD 100/month for 1:1 (eight live classes, two a week). Small-group option USD 40/month. No contract.
+**How we do it.** The formula is just what happens when you solve *any* equation of the form ax² + bx + c = 0 by "completing the square" — turning the left side into a perfect square you can undo. We do it once, in the open:
 
-### Is there a free trial?
-Yes — the first lesson is free, no card needed.
+ax² + bx + c = 0divide by a: x² + (b/a)x + c/a = 0move c/a over: x² + (b/a)x = −c/acomplete the square (add (b/2a)²): (x + b/2a)² = b²/4a² − c/a = (b² − 4ac) / 4a²take the square root, isolate x: x = (−b ± √(b² − 4ac)) / 2a
 
-### Will my teen keep the same tutor?
-Yes, one mentor all year.
+Now the formula isn't a magic spell — it's the recorded result of a procedure your teen can run themselves. The "± √" suddenly makes sense (a square root has two signs), and so does the discriminant b² − 4ac telling you how many real solutions exist. This is the difference between a grade that survives one test and understanding that survives the year.
 
-### What time zones do mentors cover?
-All six US time zones; two weekly slots in your zone.
+Why a coding school teaches math
 
-### Are classes live or pre-recorded?
-Live, one-to-one, with a shared whiteboard.
+## The thinking behind good code is the thinking behind good math.
 
-### Can tutoring help raise my teen's grade?
-Usually, over a term of steady work rather than a week. We won't promise a specific jump on a timeline.
+### Decomposition
 
-### Do you help with homework and test prep?
-Yes — using your teen's own work as material and teaching the reasoning, not just giving answers.
+A hard problem is solved by breaking it into smaller ones. A multi-step word problem and a software feature are attacked the exact same way.
 
-### Can we start mid-semester?
-Yes. We start exactly where the trouble began and catch up as needed.
+### Abstraction
 
-## Related pages
+A function in algebra — input goes in, output comes out — is the same idea as a function in code. Teens who get one get the other for free.
 
-- SAT Math Prep — /sat-math-tutoring-online
-- ACT Math Prep — /act-math-tutoring-online
-- Algebra Tutoring — /algebra-tutoring-online-usa
-- Geometry Tutoring — /geometry-tutoring-online-usa
-- Maths Tutoring for Kids in the USA — /online-maths-tutoring-for-kids-in-usa
-- High School Mathematics Masterclass — /courses/complete-high-school-mathematics-mastery
+### Debugging your reasoning
+
+"Where did this go wrong?" is a skill. We teach teens to trace their own logic and find the error themselves, instead of waiting for a red mark.
+
+We're Modern Age Coders — we've spent years teaching teenagers to think like builders. Math is where that thinking is sharpest. A teen who learns math as logic walks into computer science, physics and economics already fluent in the way those subjects actually think.
+
+What we cover
+
+## The full middle and high school sequence.
+
+From the pre-algebra that sets everything up to the pre-calc that opens the door to college math.
+
+### Pre-algebra (grades 6–8)
+
+Integers and negatives, ratios and proportion, percentages, expressions and the leap into variables — the bridge most students cross too quickly.
+
+### Algebra 1 & 2
+
+Linear equations and systems, quadratics, polynomials, exponentials and logarithms, functions and their graphs — taught from where they come from, not as rules to recite.
+
+### Geometry
+
+Proof as logical argument, congruence and similarity, circles, coordinate geometry, area and volume — the course where "show your reasoning" finally has teeth.
+
+### Trigonometry & pre-calculus
+
+The unit circle that ties it together, identities, sequences and series, and the function fluency that makes calculus possible.
+
+### SAT & ACT math readiness
+
+Because the tests reward the same understanding we build, plus the timing, format and traps unique to each — sharpened as test day nears.
+
+### Confidence under pressure
+
+How to read a hard problem without panicking, show working that earns method marks, and stay calm when the first approach doesn't work.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the teen who's falling behind and losing confidence, the one coasting on memory who's about to hit a wall, and the strong student aiming for top SAT/ACT math or the hardest classes their school offers. We teach the whole range.
+
+**What's realistic.** The first thing most parents notice is their teen stops dreading math and starts attempting problems instead of freezing. Grade improvements come over a term of steady twice-weekly work as the foundations rebuild. Anyone promising a letter-grade jump in two weeks is selling something we won't.
+
+### What we won't do
+
+- Hand out answers so homework looks done.
+- Teach test tricks with no understanding beneath them.
+- Push ahead while old gaps stay buried.
+- Promise a grade or score we can't honestly back.
+
+How classes work
+
+## Consistent, one-to-one, and built around school.
+
+### 1:1, live
+
+One teen, one mentor, real-time video with a shared whiteboard. No recordings, no autopilot.
+
+### 8 classes a month
+
+Two each week, usually 50–60 minutes. We work from your teen's own syllabus and tests.
+
+### Your time zone
+
+Mentors in all six US zones. Two weekly slots after school, evenings, or weekends.
+
+### You stay informed
+
+A note after each class and a progress summary every few weeks — in plain language.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Mentorship
+
+$100 / month
+
+- 8 live one-to-one classes a month (2 per week)
+- The same dedicated mentor throughout
+- Plan built from your teen's syllabus & goals
+- Notes after every class · cancel any time
+
+### Small-Group Cohort
+
+$40 / month
+
+- 8 live small-group classes a month (2 per week)
+- A few students working at the same level
+- Same teaching approach, lower price
+- A solid first step · cancel any time
+
+[See the full course](/courses/complete-high-school-mathematics-mastery)
+
+Want every unit, project and milestone laid out? [**Explore the High School Mathematics Masterclass →**](/courses/complete-high-school-mathematics-mastery)
+
+Who teaches your teen
+
+## Mentors who can explain the same idea five different ways.
+
+Teenagers can tell instantly when a teacher only knows one route through a problem. Our mentors are chosen because they know the material deeply enough to find the explanation that works for *this* student — and because they don't make a teen feel stupid for asking.
+
+The same mentor stays with your teen all year. That continuity is what makes a 15-year-old willing to say "I still don't get it" — the sentence that every real improvement starts with.
+
+"He went from a low C in Algebra 2 to genuinely enjoying it. The difference was he finally understood why the steps worked instead of just copying them."
+
+— Parent of a 10th grader, California
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Homework-help apps | A typical tutor |
+| --- | --- | --- | --- |
+| Fixes the root gap | Diagnoses & rebuilds it | No — answers only | Sometimes |
+| Teaches reasoning | Always | Rarely | Varies |
+| Same teacher each time | Yes, all year | N/A | Often |
+| SAT/ACT readiness | Built in | Add-on app | Varies |
+| Monthly price | $100 (1:1) / $40 (group) | $10–20 | $240–700+ |
+
+Apps are fine for a quick answer. A private local tutor is great if you can afford it. We give the live, one-to-one attention of a tutor at a price closer to an app.
+
+Questions parents ask
+
+## Everything you might be wondering.
+
+What grades and ages do you teach?
+
+Grades 6 through 12 — roughly ages 11 to 18. We cover pre-algebra, algebra 1, geometry, algebra 2, trigonometry and pre-calculus, and place each student by what they can actually do, not just their grade.
+
+My teen is failing math. Where do you start?
+
+By finding the exact topic where things stopped making sense — usually one or two missing ideas from an earlier year. We fix the foundation first, then the current work gets much easier on its own.
+
+Do you prepare students for the SAT and ACT?
+
+Yes. The math on both tests builds on the algebra, geometry and data skills we teach anyway. Close to test day we shift into format, pacing and each test's traps. We also have dedicated [SAT Math](/sat-math-tutoring-online) and [ACT Math](/act-math-tutoring-online) pages.
+
+Is it aligned with my teen's school and Common Core?
+
+Yes. We follow Common Core and your state's high-school standards, and can work directly from your teen's syllabus, tests and homework so tutoring supports school.
+
+How much does it cost?
+
+USD 100 per month for private 1:1 tutoring — eight live classes, two each week. Small-group option is USD 40 per month. No contract; cancel any time.
+
+Is there a free trial?
+
+Yes. The first lesson is free, with no card needed. Your teen meets the mentor and we diagnose the real gaps.
+
+Will my teen keep the same tutor?
+
+Yes — one mentor all year, which matters for older students who need to trust someone before admitting what they don't understand.
+
+What time zones do mentors cover?
+
+All six US time zones. Your teen picks two weekly slots in your own zone — after school, evenings or weekends.
+
+Are classes live or pre-recorded?
+
+Live, one-to-one, with a shared whiteboard. A recording can't catch a student nodding along without understanding — a live teacher can.
+
+Can tutoring help raise my teen's grade?
+
+Usually, over a term of steady work rather than a week. When the underlying ideas make sense, scores tend to follow. We won't promise a specific jump on a timeline.
+
+Do you help with homework and test prep?
+
+Yes — using your teen's own homework and tests as the material, teaching the reasoning so they can do the next one alone, not just handing over answers.
+
+Can we start mid-semester?
+
+Yes. Most families come mid-semester because a specific unit went wrong. We start exactly there and catch up the rest as needed.
+
+## Book a free trial lesson for your teen.
+
+Your teen meets the mentor, we find the gap that's actually holding the grade down, and you decide afterward. No card needed, no pressure.
+
+[See the full course](/courses/complete-high-school-mathematics-mastery)Keep exploring
+
+## More math tutoring from Modern Age Coders.
+
+[USA · examSAT Math Prep](/sat-math-tutoring-online)[USA · examACT Math Prep](/act-math-tutoring-online)[USA · topicAlgebra Tutoring](/algebra-tutoring-online-usa)[USA · topicGeometry Tutoring](/geometry-tutoring-online-usa)[USA · ages 6–11Maths Tutoring for Kids](/online-maths-tutoring-for-kids-in-usa)[CourseHigh School Mathematics Masterclass](/courses/complete-high-school-mathematics-mastery)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-teens-in-usa*

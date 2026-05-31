@@ -499,6 +499,378 @@
   to = "/src/pages/java-certification-course.md"
   status = 200
 
+# C++ course cluster (pillar + spokes)
+[[redirects]]
+  from = "/best-c-plus-plus-classes-in-india"
+  to = "/src/pages/best-c-plus-plus-classes-in-india.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-c-plus-plus-classes-in-india.md"
+  to = "/src/pages/best-c-plus-plus-classes-in-india.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-classes-for-teens"
+  to = "/src/pages/c-plus-plus-classes-for-teens.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-classes-for-teens.md"
+  to = "/src/pages/c-plus-plus-classes-for-teens.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-classes-for-college-students"
+  to = "/src/pages/c-plus-plus-classes-for-college-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-classes-for-college-students.md"
+  to = "/src/pages/c-plus-plus-classes-for-college-students.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-for-beginners"
+  to = "/src/pages/c-plus-plus-for-beginners.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-for-beginners.md"
+  to = "/src/pages/c-plus-plus-for-beginners.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-dsa-course"
+  to = "/src/pages/c-plus-plus-dsa-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-dsa-course.md"
+  to = "/src/pages/c-plus-plus-dsa-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-oops-concepts-course"
+  to = "/src/pages/c-plus-plus-oops-concepts-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-oops-concepts-course.md"
+  to = "/src/pages/c-plus-plus-oops-concepts-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-for-competitive-programming"
+  to = "/src/pages/c-plus-plus-for-competitive-programming.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-for-competitive-programming.md"
+  to = "/src/pages/c-plus-plus-for-competitive-programming.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-projects-for-students"
+  to = "/src/pages/c-plus-plus-projects-for-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-projects-for-students.md"
+  to = "/src/pages/c-plus-plus-projects-for-students.md"
+  status = 200
+
+[[redirects]]
+  from = "/online-c-plus-plus-classes"
+  to = "/src/pages/online-c-plus-plus-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-c-plus-plus-classes.md"
+  to = "/src/pages/online-c-plus-plus-classes.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-for-placement-preparation"
+  to = "/src/pages/c-plus-plus-for-placement-preparation.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-for-placement-preparation.md"
+  to = "/src/pages/c-plus-plus-for-placement-preparation.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-game-development"
+  to = "/src/pages/c-plus-plus-game-development.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-game-development.md"
+  to = "/src/pages/c-plus-plus-game-development.md"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-certification-course"
+  to = "/src/pages/c-plus-plus-certification-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/c-plus-plus-certification-course.md"
+  to = "/src/pages/c-plus-plus-certification-course.md"
+  status = 200
+
+# AI/ML course cluster (pillar + spokes)
+[[redirects]]
+  from = "/best-ai-and-machine-learning-course-in-india"
+  to = "/src/pages/best-ai-and-machine-learning-course-in-india.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-ai-and-machine-learning-course-in-india.md"
+  to = "/src/pages/best-ai-and-machine-learning-course-in-india.md"
+  status = 200
+
+[[redirects]]
+  from = "/machine-learning-course-for-beginners"
+  to = "/src/pages/machine-learning-course-for-beginners.html"
+  status = 200
+
+[[redirects]]
+  from = "/machine-learning-course-for-beginners.md"
+  to = "/src/pages/machine-learning-course-for-beginners.md"
+  status = 200
+
+[[redirects]]
+  from = "/deep-learning-course"
+  to = "/src/pages/deep-learning-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/deep-learning-course.md"
+  to = "/src/pages/deep-learning-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/data-science-course"
+  to = "/src/pages/data-science-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/data-science-course.md"
+  to = "/src/pages/data-science-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/artificial-intelligence-course"
+  to = "/src/pages/artificial-intelligence-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/artificial-intelligence-course.md"
+  to = "/src/pages/artificial-intelligence-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/generative-ai-course"
+  to = "/src/pages/generative-ai-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/generative-ai-course.md"
+  to = "/src/pages/generative-ai-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/python-for-data-science"
+  to = "/src/pages/python-for-data-science.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-for-data-science.md"
+  to = "/src/pages/python-for-data-science.md"
+  status = 200
+
+[[redirects]]
+  from = "/python-for-machine-learning"
+  to = "/src/pages/python-for-machine-learning.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-for-machine-learning.md"
+  to = "/src/pages/python-for-machine-learning.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-course-for-beginners"
+  to = "/src/pages/ai-course-for-beginners.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-course-for-beginners.md"
+  to = "/src/pages/ai-course-for-beginners.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-build-ai-models"
+  to = "/src/pages/how-to-build-ai-models.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-build-ai-models.md"
+  to = "/src/pages/how-to-build-ai-models.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-train-machine-learning-models"
+  to = "/src/pages/how-to-train-machine-learning-models.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-to-train-machine-learning-models.md"
+  to = "/src/pages/how-to-train-machine-learning-models.md"
+  status = 200
+
+[[redirects]]
+  from = "/build-machine-learning-models-in-python"
+  to = "/src/pages/build-machine-learning-models-in-python.html"
+  status = 200
+
+[[redirects]]
+  from = "/build-machine-learning-models-in-python.md"
+  to = "/src/pages/build-machine-learning-models-in-python.md"
+  status = 200
+
+[[redirects]]
+  from = "/neural-networks-course"
+  to = "/src/pages/neural-networks-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/neural-networks-course.md"
+  to = "/src/pages/neural-networks-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/natural-language-processing-course"
+  to = "/src/pages/natural-language-processing-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/natural-language-processing-course.md"
+  to = "/src/pages/natural-language-processing-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/computer-vision-course"
+  to = "/src/pages/computer-vision-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/computer-vision-course.md"
+  to = "/src/pages/computer-vision-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/large-language-models-course"
+  to = "/src/pages/large-language-models-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/large-language-models-course.md"
+  to = "/src/pages/large-language-models-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/prompt-engineering-course"
+  to = "/src/pages/prompt-engineering-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/prompt-engineering-course.md"
+  to = "/src/pages/prompt-engineering-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-agents-course"
+  to = "/src/pages/ai-agents-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-agents-course.md"
+  to = "/src/pages/ai-agents-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/deep-learning-with-tensorflow-and-pytorch"
+  to = "/src/pages/deep-learning-with-tensorflow-and-pytorch.html"
+  status = 200
+
+[[redirects]]
+  from = "/deep-learning-with-tensorflow-and-pytorch.md"
+  to = "/src/pages/deep-learning-with-tensorflow-and-pytorch.md"
+  status = 200
+
+[[redirects]]
+  from = "/data-analytics-course"
+  to = "/src/pages/data-analytics-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/data-analytics-course.md"
+  to = "/src/pages/data-analytics-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-ml-course-for-college-students"
+  to = "/src/pages/ai-ml-course-for-college-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-ml-course-for-college-students.md"
+  to = "/src/pages/ai-ml-course-for-college-students.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-for-working-professionals"
+  to = "/src/pages/ai-and-machine-learning-for-working-professionals.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-and-machine-learning-for-working-professionals.md"
+  to = "/src/pages/ai-and-machine-learning-for-working-professionals.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-ml-projects-for-students"
+  to = "/src/pages/ai-ml-projects-for-students.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-ml-projects-for-students.md"
+  to = "/src/pages/ai-ml-projects-for-students.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-ml-certification-course"
+  to = "/src/pages/ai-ml-certification-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-ml-certification-course.md"
+  to = "/src/pages/ai-ml-certification-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/online-ai-and-machine-learning-classes"
+  to = "/src/pages/online-ai-and-machine-learning-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-ai-and-machine-learning-classes.md"
+  to = "/src/pages/online-ai-and-machine-learning-classes.md"
+  status = 200
+
 # Daily Challenges & Practice Pages
 [[redirects]]
   from = "/coding-challenges"

@@ -1,96 +1,247 @@
-# Maths Tutor in Abu Dhabi — Modern Age Coders
+---
+title: "Maths Tutor in Abu Dhabi · 1:1 Online Maths Tuition, Every Curriculum — Modern Age Coders"
+description: "Looking for a maths tutor in Abu Dhabi? Live 1:1 online maths tuition for British, American, IB and CBSE schools across the capital — Reem Island, Khalifa City, Saadiyat, Yas and beyond. We teach reasoning, not rote. Gulf Standard Time. USD 100/month (about AED 370). Free trial."
+canonical: https://learn.modernagecoders.com/maths-tutor-in-abu-dhabi
+keywords: ["maths tutor Abu Dhabi", "maths tuition Abu Dhabi", "online maths tutor Abu Dhabi", "maths classes Abu Dhabi", "IB maths tutor Abu Dhabi", "GCSE maths tutor Abu Dhabi", "CBSE maths tutor Abu Dhabi", "A-level maths tutor Abu Dhabi", "private maths tutor Abu Dhabi", "maths tutor Reem Island", "maths tutor Khalifa City", "best maths tutor Abu Dhabi"]
+source: src/pages/maths-tutor-in-abu-dhabi.html
+---
+> Looking for a maths tutor in Abu Dhabi? Live 1:1 online maths tuition for British, American, IB and CBSE schools across the capital — Reem Island, Khalifa City, Saadiyat, Yas and beyond. We teach reasoning, not rote. Gulf Standard Time. USD 100/month (about AED 370). Free trial.
 
-**Quick answer:** Modern Age Coders is an online maths tutor serving all of Abu Dhabi — Al
-Reem Island, Khalifa City, Saadiyat, Yas Island, Al Raha, the Corniche, Mussafah and Al Ain —
-with live one-to-one lessons for British, American, IB and CBSE schools, all ages. Your child
-is matched to a tutor by curriculum and fit rather than postcode, keeps that tutor each week,
-and the price is **USD 100/month (about AED 370)** for eight 1:1 lessons. Lessons run in Gulf
-Standard Time; first lesson free.
+In short
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** Students in Abu Dhabi across British, American, IB and CBSE curricula, all ages
-- **Format:** Live one-to-one online, 8 lessons/month, 2 per week, Gulf Standard Time (UTC+4)
-- **Price:** USD 100/month (≈ AED 370, 1:1) · USD 40/month (≈ AED 147, small group) · no contract
-- **Areas:** Reem Island, Khalifa City, Saadiyat, Yas, Al Raha, Corniche, Mussafah, Al Ain — all online
+**Modern Age Coders is an online maths tutor serving all of Abu Dhabi** — Al Reem Island, Khalifa City, Saadiyat, Yas Island, Al Raha, the Corniche, Mussafah and Al Ain — with live one-to-one lessons for British, American, IB and CBSE schools, all ages.
 
-## The problem we solve
+Your child is matched to a tutor by curriculum and fit rather than postcode, keeps that tutor each week, and the price is **USD 100 per month (about AED 370)** for eight 1:1 lessons. Lessons run in Gulf Standard Time and the first lesson is free.
 
-Abu Dhabi's communities are spread across islands and districts, and its schools span
-British, American, IB and Indian curricula. The best-matched tutor is rarely the nearest one,
-so families either drive across the capital or settle for a closer but ill-matched tutor.
-Online tuition ends that trade-off: we match the best tutor for the curriculum and child
-wherever they are, and the lesson happens at home.
+Why the capital's families turn to online tuition
 
-## How we teach
+## Abu Dhabi is spread out — and the best tutor is rarely the nearest one.
 
-1. **Match curriculum & tutor** — to your child's school and syllabus.
-2. **Diagnose the real gap** — the earlier missing idea, not just this week's topic.
-3. **Teach the reasoning** — methods a child can rebuild and explain.
-4. **Build fluency & exam skill** — the technique their curriculum rewards.
+Abu Dhabi's communities are spread across islands and districts, and its schools span British, American, IB and Indian curricula. A family on Saadiyat with a child on the IB and a family in Khalifa City with a CBSE student need very different tutors — and the right one is rarely the one who happens to live a few streets away.
 
-## A real worked example: why doubling a length quadruples the area
+Driving across the capital twice a week to reach a good tutor, or settling for a closer but ill-matched one, is the usual trade-off.
 
-Area is length × width, so scaling both dimensions multiplies:
+Online tuition ends that trade-off. We match your child to the best tutor for their curriculum and personality wherever that tutor is, and the lesson takes place at home — no bridge traffic, no parking, no wasted evening.
 
-- 2 m × 2 m room = 4 m²; double each side → 4 m × 4 m = 16 m²
-- 16 ÷ 4 = **4 times the area** (scaling by 2 in two directions = 2 × 2)
-- in 3D, doubling every side multiplies volume by 2 × 2 × 2 = 8
+And the teaching itself loses nothing: a live tutor, a shared whiteboard, full one-to-one attention, and the same familiar face every week.
 
-Once a student sees scaling compounds across dimensions, areas, volumes, similar shapes and
-map scales all become obvious.
+How we teach
 
-## Why a coding school tutors maths in Abu Dhabi
+## Matched to your school, taught for understanding.
 
-The capital's knowledge-led future runs on mathematical reasoning: **break problems down**,
-**see the structure**, **check your reasoning**. Students who genuinely reason with numbers
-will lead it.
+Whether your child is at a British, American, IB or Indian-curriculum Abu Dhabi school.
 
-## What we cover
+### Match curriculum & tutor
 
-- British-curriculum schools: primary, KS3, GCSE, A-Level
-- IB schools: Maths AA and AI (SL & HL), MYP
-- American-curriculum schools: US maths, SAT, AP
-- Indian-curriculum schools: CBSE and ICSE
-- Every age: kids, teens, adults
-- Every area, online
+We pair your child with a tutor who knows their exact system and works from their school's syllabus.
 
-## How lessons work
+### Diagnose the real gap
 
-One student, one tutor, live video with a shared whiteboard — from home. Eight lessons a
-month, two each week, worked from your child's Abu Dhabi school. After-school, evening and
-weekend slots in Gulf Standard Time.
+We find the earlier missing idea, not just this week's topic, so progress is genuine.
 
-## FAQ
+### Teach the reasoning
 
-### Do you offer maths tutors for Abu Dhabi schools?
-Yes — British, American, IB and Indian (CBSE/ICSE) curriculum schools, online and one-to-one in GST.
+Every method becomes something your child can rebuild and explain — maths that survives an unfamiliar question.
 
-### Which areas of Abu Dhabi do you cover?
-Every area — Reem Island, Khalifa City, Saadiyat, Yas, Al Raha, the Corniche, Mussafah and Al Ain — online.
+### Build fluency & exam skill
 
-### Is online tutoring effective for Abu Dhabi students?
-Yes — focused one-to-one attention on a shared whiteboard, no travel, and the best-matched tutor.
+Then we add the speed and the curriculum-specific exam technique that turn understanding into grades.
 
-### How much does a maths tutor in Abu Dhabi cost?
+See it for yourself
+
+## Why doubling a length quadruples the area.
+
+Worked example · scaling & reasoning
+
+**What confuses students:** "if I double the size, everything doubles" feels obvious — so a student expects a room twice as wide to have twice the floor area, and is baffled when the answer is four times.
+
+**How we teach it.** Area is length × width, so when *both* dimensions scale, the effect multiplies. Picture a 2 m × 2 m room, then double each side to 4 m × 4 m:
+
+small room: 2 × 2 = 4 m²double each side: 4 × 4 = 16 m²16 ÷ 4 = **4 times the area**(not 2)because scaling by 2 in two directions = 2 × 2 = ×4
+
+And in three dimensions, doubling every side multiplies the *volume* by 2 × 2 × 2 = 8. Once a student sees that scaling compounds across dimensions, a whole family of problems — areas, volumes, similar shapes, even map scales — becomes obvious instead of surprising. That's understanding that transfers, which is exactly what we build.
+
+Why a coding school tutors maths in Abu Dhabi
+
+## The capital's future is knowledge-led — and it runs on mathematical reasoning.
+
+### Break problems down
+
+Decomposition powers both a maths solution and a piece of software. We teach it as one skill.
+
+### See the structure
+
+Spotting the pattern — like scaling compounding across dimensions — is what makes hard problems simple.
+
+### Check your reasoning
+
+Testing your own thinking is the habit behind both confident maths and reliable code.
+
+We're Modern Age Coders, built around real coding and AI. As Abu Dhabi invests in technology, research and a diversified economy, the students who can genuinely reason with numbers — not just recall procedures — are the ones who'll lead it.
+
+What we cover in Abu Dhabi
+
+## Every curriculum, every level, every district.
+
+Online, so the capital's distances never limit your choice of tutor.
+
+### British-curriculum schools
+
+Primary, KS3, [GCSE](/gcse-maths-tutor-uae) and [A-Level](/a-level-maths-tutor-uae) across Abu Dhabi.
+
+### IB schools
+
+[IB Maths AA and AI](/ib-maths-tutor-uae), SL and HL, plus MYP — strong in the capital.
+
+### American-curriculum schools
+
+[US-curriculum maths, the SAT and AP](/american-maths-tutor-uae).
+
+### Indian-curriculum schools
+
+[CBSE and ICSE maths](/cbse-maths-tutor-uae) for Abu Dhabi's Indian-school families.
+
+### Every age
+
+From [kids](/maths-tuition-for-kids-uae) and [teens](/maths-tuition-for-teens-uae) to [adults](/maths-classes-for-adults-uae).
+
+### Every area
+
+Reem Island, Khalifa City, Saadiyat, Yas, Al Raha, the Corniche, Mussafah, Al Ain — online.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** any Abu Dhabi family who wants curriculum-matched, one-to-one maths help without crossing the capital — a child slipping at school, one aiming high, or a family that's moved between systems.
+
+**What's realistic.** Most parents see their child stop dreading maths within a few weeks; grade gains follow over a term of steady work. We'll give you an honest read on your child's timeline.
+
+### What we won't do
+
+- Mismatch your child's curriculum.
+- Drill tricks with no understanding beneath them.
+- Promise a grade jump on an unrealistic timeline.
+- Lock you into a contract.
+
+How lessons work
+
+## Simple, consistent, and commute-free.
+
+### 1:1, live
+
+One student, one tutor, real-time video with a shared whiteboard — from home.
+
+### 8 lessons a month
+
+Two each week, worked from your child's Abu Dhabi school and curriculum.
+
+### Gulf Standard Time
+
+After-school, evening and weekend slots in GST. You pick two weekly times.
+
+### You stay informed
+
+A note after each lesson and a progress summary every few weeks.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Tuition
+
+$100 / month · ≈ AED 370
+
+- 8 live one-to-one lessons a month (2 per week)
+- The same dedicated, curriculum-matched tutor
+- No commute across the capital
+- Notes after every lesson · cancel any time
+
+### Small-Group Cohort
+
+$40 / month · ≈ AED 147
+
+- 8 live small-group lessons a month (2 per week)
+- A few students at the same level & curriculum
+- Same teaching approach, lower price
+- A friendly first step · cancel any time
+
+[All UAE maths tuition](/online-maths-tuition-uae)
+
+AED figures are approximate; billing is in USD.
+
+Who teaches your child
+
+## Tutors matched to your child, not your district.
+
+Because we're online, your child isn't limited to whichever tutor happens to be near you in Abu Dhabi. We match them with the best-fit mentor for their curriculum and personality — someone who knows the syllabus deeply and explains it patiently, as many ways as it takes.
+
+The same tutor stays week to week, so trust and momentum build instead of restarting.
+
+"We're on Saadiyat and the IB tutors we wanted were all the way across the city. Going online solved it instantly — and the match was better than anyone local we'd tried."
+
+— Parent, Saadiyat Island, Abu Dhabi
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Tutoring centre | Home-visit tutor |
+| --- | --- | --- | --- |
+| No travel across the capital | Fully online | You travel | Tutor travels (costs more) |
+| Best-matched tutor | Anywhere, any curriculum | Centre's staff | Who's nearby |
+| Teaches reasoning | Always | Varies | Varies |
+| Same tutor each time | Yes | Often rotates | Usually |
+| Monthly price | $100 / ≈AED 370 (1:1) | AED 1,000–2,500+ | AED 1,500–4,000+ |
+
+In-person options in Abu Dhabi are good but premium-priced and location-bound. We deliver matched, one-to-one teaching online for a fraction of the cost.
+
+Questions Abu Dhabi families ask
+
+## Everything you might be wondering.
+
+Do you offer maths tutors for Abu Dhabi schools?
+
+Yes — for the capital's British, American, IB and Indian (CBSE/ICSE) curriculum schools, online and one-to-one in Gulf Standard Time.
+
+Which areas of Abu Dhabi do you cover?
+
+Every area — Reem Island, Khalifa City, Saadiyat, Yas, Al Raha, the Corniche, Mussafah and Al Ain — because lessons are online.
+
+Is online tutoring effective for Abu Dhabi students?
+
+Yes — focused one-to-one attention on a shared whiteboard, no travel, and access to the best-matched tutor.
+
+How much does a maths tutor in Abu Dhabi cost?
+
 USD 100/month (about AED 370) for 1:1 — eight live lessons, two a week. Small-group option USD 40/month. No contract.
 
-### Is the first lesson free?
+Is the first lesson free?
+
 Yes — no card needed.
 
-### Will my child keep the same tutor?
+Will my child keep the same tutor?
+
 Yes — one matched tutor, kept week to week.
 
-### What times are lessons available in Abu Dhabi?
+What times are lessons available in Abu Dhabi?
+
 After-school, evening and weekend slots in Gulf Standard Time (UTC+4).
 
-### Do you cover all ages and levels?
+Do you cover all ages and levels?
+
 Yes — primary through GCSE, A-Level, IB, CBSE and SAT, to college and adults.
 
-## Related pages
+## Book a free maths trial lesson in Abu Dhabi.
 
-- Maths Tutor in Dubai — /maths-tutor-in-dubai
-- Maths Tutor in Sharjah — /maths-tutor-in-sharjah
-- IB Maths Tutor (AA & AI) in the UAE — /ib-maths-tutor-uae
-- American Curriculum & SAT Maths Tutor in the UAE — /american-maths-tutor-uae
-- Maths Tuition for Kids in the UAE — /maths-tuition-for-kids-uae
-- All UAE Maths Tuition — /online-maths-tuition-uae
+Tell us your child's school and curriculum. We'll match a tutor, show you how we teach, and you decide — all from home. No card needed.
+
+[All UAE maths tuition](/online-maths-tuition-uae)Keep exploring
+
+## More maths tuition from Modern Age Coders.
+
+[UAE · emirateMaths Tutor in Dubai](/maths-tutor-in-dubai)[UAE · emirateMaths Tutor in Sharjah](/maths-tutor-in-sharjah)[UAE · curriculumIB Maths Tutor (AA & AI)](/ib-maths-tutor-uae)[UAE · curriculumAmerican & SAT Maths Tutor](/american-maths-tutor-uae)[UAE · agesMaths Tuition for Kids](/maths-tuition-for-kids-uae)[UAE · hubAll UAE Maths Tuition](/online-maths-tuition-uae)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/maths-tutor-in-abu-dhabi*

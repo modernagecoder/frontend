@@ -1,111 +1,257 @@
-# Further Maths Tuition Online — Modern Age Coders
+---
+title: "Further Maths Tuition Online · 1:1 A-Level Further Mathematics — Modern Age Coders"
+description: "Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+canonical: https://learn.modernagecoders.com/further-maths-tuition-online
+keywords: ["further maths tuition online", "A-level further maths tutor", "further mathematics tutor", "complex numbers tutor", "matrices A-level", "proof by induction", "polar coordinates A-level", "further mechanics tutor", "further statistics", "decision maths tutor", "STEP MAT tutor", "further maths revision"]
+source: src/pages/further-maths-tuition-online.html
+---
+> Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
 
-Live 1:1 online A-Level Further Mathematics tuition for Edexcel, AQA and OCR. Core pure —
-complex numbers, matrices, proof by induction, polar coordinates, hyperbolic functions —
-plus further mechanics, statistics and decision maths, taught from the ideas up. Same tutor,
-UK time. **USD 100/month for eight live 1:1 lessons (two a week). Small-group option: USD
-40/month.** First lesson free.
+Why Further Maths trips up able students
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** UK sixth-form students taking A-Level Further Mathematics, Years 12–13
-- **Format:** Live one-to-one online, 8 lessons/month, 2 per week, UK time
-- **Price:** USD 100/month (1:1) · USD 40/month (small group) · no contract
-- **Full course:** /courses/college-mathematics-complete-masterclass
+## It's rarely the whole subject. It's usually one abstract idea that never became intuitive.
 
-## The problem we solve
+Further Maths is taken by strong, motivated students — and they still hit walls, which surprises everyone. The reason is that the subject is fast and deeply abstract: complex numbers, matrices and proof by induction arrive quickly and are often taught as procedures to apply, not ideas to picture.
 
-Further Maths is taken by strong students who still hit walls, because it's fast and deeply
-abstract — complex numbers, matrices and induction arrive quickly and are often taught as
-procedures, not ideas to picture. A capable student can manipulate complex numbers yet have
-no image of what they *are*, and stalls when a question needs that intuition. Sat alongside
-A-Level Maths, any wobble is amplified by volume. We make each abstract idea genuinely
-intuitive, so the algebra has meaning and the hard problems become approachable.
+So a capable student can manipulate complex numbers algebraically yet have no mental image of what they *are* — and the moment a question needs that intuition, they stall.
 
-## How we teach
+Because Further Maths is sat alongside A-Level Maths, any wobble gets amplified by the sheer volume and pace. Past-paper grinding can paper over it, but the gap resurfaces on the unfamiliar questions.
 
-1. **Find the idea that didn't land** — usually complex numbers, matrices or induction.
-2. **Give every concept a meaning** — a complex number as a rotation, a matrix as a transformation.
-3. **Build fluency for the volume** — drill the routine steps automatic, freeing thought for the hard part.
-4. **Train problem-solving & proof** — the top-mark and STEP-style questions.
+We fix the root. We make each abstract idea genuinely intuitive — what a complex number does geometrically, what a matrix transformation looks like — so the algebra finally has meaning behind it, and the harder problems become approachable.
 
-## A real worked example: why multiplying by i is a 90° rotation
+How we teach
 
-Plot numbers on a plane (real across, imaginary up) and watch multiplying by i:
+## Make the abstract picturable, then build fluency on top.
 
-- 1 → ×i → i (a quarter-turn anticlockwise)
-- i → ×i → i² = −1 (another quarter-turn)
-- so multiplying by i = rotating 90° about the origin
+Worked to your board and your chosen options.
 
-i² = −1 isn't a strange rule — two 90° turns make a 180° turn, flipping 1 to −1. From this
-one picture, modulus is a length, argument is an angle, multiplication adds angles, and De
-Moivre's theorem becomes obvious. The whole module unlocks from one idea: these are points
-you can rotate.
+### Find the idea that didn't land
 
-## Why a coding school teaches Further Maths
+Usually one or two — complex numbers, matrices, induction. We rebuild those from a picture, not a procedure.
 
-Further Maths powers modern computing: **matrices everywhere** (graphics, robotics, machine
-learning), **proof by induction** (the twin of a loop and recursion), and **abstraction as a
-tool** (the right abstraction makes hard problems easy — the core of good software too). Our
-students carry it into competitive STEM degrees.
+### Give every concept a meaning
 
-## What we cover (core pure + your options)
+A complex number as a rotation and scaling, a matrix as a transformation, induction as a chain of dominoes — intuition that the algebra then expresses.
 
-- Complex numbers: Argand diagrams, modulus-argument form, De Moivre, roots of unity, loci
-- Matrices & transformations: algebra, determinants, inverses, plane transformations, systems
-- Proof & series: induction, summation, method of differences, Maclaurin series
-- Further calculus & coordinate systems: hyperbolic functions, further integration, polar coordinates, volumes
-- Optional applied modules: further mechanics, further statistics, decision maths
-- STEP & admissions: STEP and MAT-style problem solving
+### Build fluency for the volume
 
-## How lessons work
+Further Maths has long working and many topics; we drill until the routine steps are automatic, freeing thought for the hard part.
 
-One student, one tutor, live video with a shared whiteboard. Eight lessons a month, two each
-week (about an hour), worked from your specification and options. Evening and weekend slots
-in UK time, ramping into exams.
+### Train problem-solving & proof
 
-## FAQ
+The top-mark and STEP-style questions reward genuine reasoning, which we coach directly.
 
-### What does A-Level Further Maths cover?
-Core pure plus optional further mechanics, statistics and decision maths.
+See it for yourself
 
-### Is Further Maths much harder than A-Level Maths?
-More abstract and faster, sat alongside A-Level Maths. Most who struggle are stuck on one topic, which we make intuitive.
+## Complex numbers — why multiplying by i is a 90° rotation.
 
-### Which exam boards do you cover?
-Edexcel, AQA and OCR (including OCR MEI), to your specification and options.
+Worked example · core pure
 
-### Do you also help with the main A-Level Maths alongside it?
-Yes — see our A-Level Maths page.
+**What gets memorised:** "i is the square root of −1, and i² = −1." Students compute with it correctly but have no picture of what a complex number is — so Argand diagrams, modulus-argument form and De Moivre's theorem feel like disconnected rules.
 
-### How much does it cost?
-USD 100/month for 1:1 (eight live lessons, two a week). Small-group option USD 40/month. No contract.
+**How we do it.** Plot numbers on a plane: real part across, imaginary part up. Now watch what multiplying by i does to the number 1, which sits at the point (1, 0):
 
-### Is there a free trial?
+1 → ×i → i (the point (0, 1) — a quarter-turn anticlockwise)i → ×i → i² = −1 (the point (−1, 0) — another quarter-turn)−1 → ×i → −i (then back to 1)so multiplying by i = rotating 90° about the origin
+
+Suddenly i² = −1 isn't a strange rule — two 90° turns make a 180° turn, which flips 1 to −1. From this single picture, the modulus is a length, the argument is an angle, multiplication adds angles, and De Moivre's theorem becomes obvious. The entire complex-numbers module unlocks from one idea: these are points you can rotate. That intuition is exactly what carries students through the hardest Further Maths questions and into university.
+
+Why a coding school teaches Further Maths
+
+## Further Maths is the maths that powers modern computing.
+
+### Matrices everywhere
+
+The matrix transformations in Further Maths are exactly what drives computer graphics, robotics and machine learning. We teach them as the real, visual things they are.
+
+### Proof by induction
+
+Induction is the mathematical twin of a loop and of recursive reasoning in code — the same "it works for the next case" logic.
+
+### Abstraction as a tool
+
+Complex numbers and abstract structures show that the right abstraction makes hard problems easy — the core lesson of good software design too.
+
+We're Modern Age Coders, and Further Maths is where school maths meets the foundations of computing — graphics, cryptography, signal processing, AI. The visual, structural thinking we teach for programming is exactly what makes this content click, and our students carry it straight into competitive STEM degrees.
+
+What we cover
+
+## Core pure plus your optional modules.
+
+Taught to your board and your exact combination of options.
+
+### Complex numbers
+
+Argand diagrams, modulus-argument form, De Moivre's theorem, roots of unity and loci — taught from the geometry up.
+
+### Matrices & transformations
+
+Matrix algebra, determinants and inverses, transformations of the plane, and solving systems — with the visual meaning.
+
+### Proof & series
+
+Proof by induction, summation of series, the method of differences, and Maclaurin series.
+
+### Further calculus & coordinate systems
+
+Hyperbolic functions, further integration, polar coordinates, and volumes of revolution.
+
+### Optional applied modules
+
+Further mechanics, further statistics and decision maths — whichever your school offers.
+
+### STEP & admissions
+
+STEP and MAT-style problem solving for students applying to the most competitive maths and STEM courses.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the Further Maths student stuck on one or two abstract topics, the strong student aiming for an A* in both maths A-Levels, and the applicant targeting a top maths, engineering, physics or computer science degree. AS Further Maths students are welcome too.
+
+**What's realistic.** When the abstract idea finally becomes intuitive, progress is often fast — but the volume of Further Maths means consistent work matters. We'll set an honest target around your options and timeline, and never promise a guaranteed grade.
+
+### What we won't do
+
+- Teach complex numbers or matrices as rules with no picture.
+- Promise an A* on a timeline.
+- Drill papers without fixing the conceptual gap.
+- Cover options your board doesn't set.
+
+How lessons work
+
+## Built for a fast, demanding subject.
+
+### 1:1, live
+
+One student, one tutor, real-time video and a shared whiteboard for long working and diagrams.
+
+### 8 lessons a month
+
+Two each week, around an hour, worked from your specification and options.
+
+### UK time
+
+Evening and weekend slots in GMT/BST that fit around college.
+
+### Exam ramp
+
+Targeted revision before mocks and the summer exams.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Tuition
+
+$100 / month
+
+- 8 live one-to-one lessons a month (2 per week)
+- An expert tutor who knows your options
+- Concepts made intuitive, then fluency built
+- STEP/MAT coaching available · cancel any time
+
+### Small-Group Cohort
+
+$40 / month
+
+- 8 live small-group lessons a month (2 per week)
+- A few students on the same options
+- Same teaching approach, lower price
+- Good for classmates · cancel any time
+
+[See the full course](/courses/college-mathematics-complete-masterclass)
+
+Need the main A-Level alongside? See our [**A-Level Maths Tuition →**](/a-level-maths-tuition-online) page.
+
+Who teaches you
+
+## Tutors who genuinely love this material.
+
+Further Maths needs a tutor with real mathematical depth — someone who can show you what a matrix transformation *does*, not just how to multiply one. Ours have that, plus precise knowledge of how each board's harder papers are marked, and the patience to rebuild an abstract idea from scratch.
+
+You keep the same tutor through the year, so they know your options, your weak topics and your target, and aim every lesson there.
+
+"Complex numbers had completely lost her. One lesson on the Argand diagram and rotation, and the whole module suddenly made sense. She got an A* and an offer from her first-choice university."
+
+— Parent of a Year 13 student, Cambridge
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Revision videos | A typical tutor |
+| --- | --- | --- | --- |
+| Makes abstract ideas intuitive | Yes, the core of it | Rarely | Varies |
+| Knows Further Maths deeply | Yes | Sometimes | Not all tutors |
+| Covers your exact options | Yes | Generic | Varies |
+| STEP/MAT coaching | Yes | Rarely | Rarely |
+| Monthly price | $100 (1:1) / $40 (group) | Free–£20 | £40–70/hr |
+
+Many general tutors don't teach Further Maths confidently. Ours specialise in it — and in making its hardest ideas feel obvious.
+
+Common questions
+
+## Everything you might be wondering.
+
+What does A-Level Further Maths cover?
+
+Core pure — complex numbers, matrices, proof by induction, polar coordinates, hyperbolic functions, further calculus — plus optional further mechanics, statistics and decision maths.
+
+Is Further Maths much harder than A-Level Maths?
+
+More abstract and faster, and sat alongside A-Level Maths. Most who struggle are stuck on one topic — often complex numbers or matrices — which we make intuitive.
+
+Which exam boards do you cover?
+
+Edexcel, AQA and OCR (including OCR MEI), to your specification and chosen options.
+
+Do you also help with the main A-Level Maths alongside it?
+
+Yes — the two reinforce each other. See our [A-Level Maths](/a-level-maths-tuition-online) page if that's your main need.
+
+How much does it cost?
+
+USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+
+Is there a free trial?
+
 Yes — the first lesson is free, no card needed.
 
-### Will I keep the same tutor?
+Will I keep the same tutor?
+
 Yes — one tutor who knows your options and target.
 
-### Can you prepare me for STEP, MAT or top university maths?
+Can you prepare me for STEP, MAT or top university maths?
+
 Yes — STEP and MAT-style problem solving alongside the A-Level content.
 
-### Are lessons live?
-Yes — live, one-to-one, with a shared whiteboard.
+Are lessons live?
 
-### I'm doing AS Further Maths only. Can you help?
-Yes — AS and full A-Level.
+Yes — live, one-to-one, with a shared whiteboard, which matters where the working is long.
 
-### When should I start?
-Early in Year 12 is ideal; we help at any stage.
+I'm doing AS Further Maths only. Can you help?
 
-### Do lessons fit around college and exam season?
+Yes — AS and full A-Level, built around your modules and timeline.
+
+When should I start?
+
+Early in Year 12 is ideal because content builds quickly, but we help at any stage.
+
+Do lessons fit around college and exam season?
+
 Yes — evening and weekend slots in UK time, ramping up around exams.
 
-## Related pages
+## Book a free Further Maths trial lesson.
 
-- A-Level Maths Tuition — /a-level-maths-tuition-online
-- College & Sixth Form Maths in the UK — /online-maths-tuition-for-college-students-in-uk
-- UKMT Maths Challenge — /ukmt-maths-challenge-tutoring
-- Math Olympiad & AMC — /math-olympiad-amc-tutoring
-- AP Calculus AB & BC — /ap-calculus-tutoring-online
-- College Mathematics Masterclass — /courses/college-mathematics-complete-masterclass
+Tell us your board, your options and the topic that's lost you. We'll show you how we'd make it intuitive — and you decide from there. No card needed.
+
+[See the full course](/courses/college-mathematics-complete-masterclass)Keep exploring
+
+## More maths tuition from Modern Age Coders.
+
+[UK · examA-Level Maths Tuition](/a-level-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[USA · competitionMath Olympiad & AMC](/math-olympiad-amc-tutoring)[USA · APAP Calculus AB & BC](/ap-calculus-tutoring-online)[CourseCollege Mathematics Masterclass](/courses/college-mathematics-complete-masterclass)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/further-maths-tuition-online*

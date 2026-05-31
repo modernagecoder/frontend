@@ -1,109 +1,257 @@
-# Functional Skills Maths Tuition Online — Modern Age Coders
+---
+title: "Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 — Modern Age Coders"
+description: "Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+canonical: https://learn.modernagecoders.com/functional-skills-maths-tuition-online
+keywords: ["functional skills maths tuition", "functional skills maths level 2", "functional skills maths level 1", "entry level 3 maths", "functional skills maths online", "functional skills maths exam", "functional skills maths for apprenticeship", "adult functional skills maths", "online functional skills tutor UK", "pass functional skills maths", "functional skills maths practice"]
+source: src/pages/functional-skills-maths-tuition-online.html
+---
+> Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
 
-Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We
-teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships,
-college and work. Patient, no judgment. Same tutor, UK time. **USD 100/month for eight live
-1:1 lessons (two a week). Small-group option: USD 40/month.** First lesson free.
+Why Functional Skills can feel like a barrier
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** UK adults and learners taking Functional Skills maths (Entry 3, Level 1, Level 2)
-- **Format:** Live one-to-one online, 8 lessons/month, 2 per week, UK time
-- **Price:** USD 100/month (1:1) · USD 40/month (small group) · no contract
-- **Full course:** /courses/complete-business-finance-mathematics-mastery
+## You need the qualification for a real goal — and the maths got in the way years ago.
 
-## The problem we solve
+Most people come to Functional Skills maths because something they want — an apprenticeship, a college place, a job, a career step — requires it, usually at Level 2. And for many, maths is the one thing standing between them and that goal, because it went wrong at school and was never fixed.
 
-Most people come to Functional Skills because something they want — an apprenticeship, a
-college place, a job — requires it, usually at Level 2, and maths is the one barrier, because
-it went wrong at school. That makes it feel high-stakes and stressful. But Functional Skills
-maths is *practical* — money, measures, timetables, not abstract algebra — and far more
-learnable for an adult when taught well and patiently. We teach it one to one, from wherever
-you are, on the everyday situations the exam uses.
+That makes it feel high-stakes and stressful, which is exactly the wrong frame of mind for learning maths.
 
-## How we teach
+The good news is that Functional Skills maths is *practical* — it's about using numbers in real situations like budgets, measurements and timetables, not abstract algebra. That's far more learnable for an adult than school maths ever felt, when it's taught well and patiently.
 
-1. **Check your level and goal** — confirm the level you need, build up through Entry 3 and Level 1 if required.
-2. **Teach maths through real life** — money, measures, time and data on everyday situations.
-3. **Fill the gaps patiently** — rebuild whatever's shaky from school, without judgment.
-4. **Practise real exam papers** — sample assessments so the format feels familiar.
+We teach it one to one, from wherever you are, in plain terms, on the everyday situations the exam actually uses. The qualification becomes reachable, and the dread fades fast.
 
-## A real worked example: a Level 2 budget
+How we teach
 
-"You earn £1,800 a month. Rent is 35%, bills £240, savings £150. How much is left?" Work each
-amount, add them, subtract from the total:
+## Real situations, plain explanations, the right level.
 
-- rent = 0.35 × 1800 = £630; bills £240; savings £150
-- total out = £1,020 → left over = 1800 − 1020 = **£780**
+Built around your goal and your deadline.
 
-No abstract algebra — "work out each amount, add up, take away from what you started with."
-The only real skill is the percentage (35% = 0.35), and once that clicks, every money
-question works the same way. We teach you to break a busy question into calm steps — exactly
-what Functional Skills rewards, and a skill for life.
+### Check your level and goal
 
-## Why a coding school teaches Functional Skills
+We confirm the level you need (often Level 2) and assess where you are, then build up through Entry 3 and Level 1 if required.
 
-The same clear thinking runs through everyday maths and modern work: **one step at a time**,
-**reason from the rule** (why 35% = ×0.35), and **check it makes sense**. Many learners
-discover they're more capable with numbers and technology than they believed.
+### Teach maths through real life
 
-## What we cover (Entry 3, Level 1, Level 2)
+Money, measures, time and data taught on the everyday situations the exam uses, so it makes immediate sense.
 
-- Number & calculation: four operations, fractions, decimals, percentages, ratio
-- Money & financial maths: budgets, wages, bills, discounts, best value
-- Measures, shape & space: length, weight, capacity, time, area, perimeter, scales, plans
-- Data handling: tables, charts, graphs, averages, simple statistics
-- Using a calculator: confident calculator use plus mental and written methods
-- Exam format & technique: your awarding body's papers, question style, showing working
+### Fill the gaps patiently
 
-## How lessons work
+We rebuild whatever's shaky from school — fractions, percentages, division — without judgment and at your pace.
 
-One adult, one tutor, live video with a shared whiteboard — private and relaxed. Eight
-lessons a month, two each week (about an hour). Early-morning, evening and weekend slots in
-UK time. We work through sample assessments so the exam feels familiar.
+### Practise real exam papers
 
-## FAQ
+We work through Functional Skills sample assessments so the format and question style feel familiar on the day.
 
-### What is Functional Skills maths?
-A practical maths qualification at Entry Level 3, Level 1 and Level 2; Level 2 is broadly equivalent to a GCSE grade 4 pass for many purposes.
+See it for yourself
 
-### Which level do I need?
-Often Level 2. We check your requirement and build up from Entry 3/Level 1 if needed.
+## A real Level 2 task — a budget worked out calmly.
 
-### Functional Skills or GCSE resit — which is better for me?
-Depends on what your employer or college accepts; Functional Skills is more practical and often quicker. We'll talk it through.
+Worked example · Level 2 everyday maths
 
-### I've been out of education a long time. Is that a problem?
-Not at all — most learners are returning adults. We start wherever you are.
+**The question:** "You earn £1,800 a month. Rent is 35% of it, bills are £240, and you want to save £150. How much is left for everything else?" It looks like a lot at once — which is where people panic.
 
-### How much does it cost?
-USD 100/month for 1:1 (eight live lessons, two a week). Small-group option USD 40/month. No contract.
+**How we teach it.** Functional Skills is about handling a real situation one clear step at a time. We list what comes out, work each bit, then subtract from the total:
 
-### Is there a free trial?
-Yes — the first lesson is free, no card needed.
+rent = 35% of 1800 = 0.35 × 1800 = £630bills = £240savings = £150total out = 630 + 240 + 150 = £1,020left over = 1800 − 1020 = **£780**
 
-### Do you provide the exam, or just the teaching?
-We provide teaching and preparation; the exam is booked through an approved awarding centre. We'll get you genuinely ready.
+There's no abstract algebra — just "work out each amount, add them up, take them away from what you started with." The only real skill is the percentage (35% = 0.35), and once that clicks, every money question on the exam works the same way. We teach you to break a busy question into calm steps like this, which is exactly what Functional Skills rewards — and a skill you'll use for the rest of your life, long after you've passed.
 
-### Will I have the same tutor?
-Yes — one tutor who learns your goal, level and deadline.
+Why a coding school teaches Functional Skills
 
-### I have maths anxiety. Will this be hard?
-The one-to-one setting helps — no class, no being put on the spot. Most people relax within a couple of lessons.
+## The same clear thinking runs through everyday maths and modern work.
 
-### Are lessons live?
-Yes — live, one-to-one, with a shared whiteboard.
+### One step at a time
 
-### When can I have lessons? I work full time.
+Breaking a busy problem into calm steps is the heart of both Functional Skills and programming. We make it a habit.
+
+### Reason from the rule
+
+Knowing why 35% means × 0.35 — not just memorising it — is the same logic that lets a coder trust their work.
+
+### Check it makes sense
+
+"Could £780 be left from £1,800 after those costs?" A quick sanity check catches mistakes at work and in the exam.
+
+We're Modern Age Coders, and we teach adults to code as well as to compute. The plain, step-by-step reasoning behind Functional Skills is the same reasoning behind data, spreadsheets and basic programming — which is why many of our Functional Skills learners discover they're more capable with numbers and technology than they ever believed.
+
+What we cover
+
+## Everything the Functional Skills maths exam tests.
+
+Across Entry Level 3, Level 1 and Level 2 — pitched to the level you need.
+
+### Number & calculation
+
+The four operations, fractions, decimals, percentages and ratio — the everyday number skills the exam is built on.
+
+### Money & financial maths
+
+Budgets, wages, bills, discounts and best-value comparisons — the questions that appear again and again.
+
+### Measures, shape & space
+
+Length, weight, capacity, time, area and perimeter, and reading scales and plans.
+
+### Data handling
+
+Reading and drawing tables, charts and graphs, and working with averages and simple statistics.
+
+### Using a calculator
+
+Confident, accurate calculator use for the calculator section, plus mental and written methods for the rest.
+
+### Exam format & technique
+
+The structure of your awarding body's papers, the question style, and how to show working and check answers.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the apprentice who needs Level 2 to complete their qualification, the adult returning to college, the career-changer who needs a maths certificate, and anyone for whom maths has been a barrier to a real opportunity. Entry 3 and Level 1 learners are just as welcome as Level 2.
+
+**What's realistic.** Confidence usually returns within a few lessons as the practical approach clicks. Being ready to pass tracks your starting level and the level you need — often a few months of steady work for Level 2. We'll give you an honest timeline, not a sales pitch.
+
+### What we won't do
+
+- Make you feel behind or talked down to.
+- Teach memory tricks with no understanding.
+- Promise a pass on a timeline we can't back.
+- Rush you toward an exam before you're genuinely ready.
+
+How lessons work
+
+## Designed to fit a working life.
+
+### 1:1, live
+
+One adult, one tutor, real-time video and a shared whiteboard. Private, relaxed, no audience.
+
+### 8 lessons a month
+
+Two each week, around an hour, focused entirely on your level and goal.
+
+### Times that work
+
 Early-morning, evening and weekend slots in UK time (GMT/BST).
 
-### How quickly can I be ready for the exam?
-Often a few months of steady work for Level 2, depending on your starting level.
+### Exam-ready
 
-## Related pages
+We work through sample assessments so the real exam feels familiar.
 
-- Maths Classes for Adults in the UK — /online-maths-classes-for-adults-in-uk
-- GCSE Maths Tuition — /gcse-maths-tuition-online
-- College & Sixth Form Maths in the UK — /online-maths-tuition-for-college-students-in-uk
-- Maths Classes for Adults in the USA — /online-maths-classes-for-adults-in-usa
-- Maths Tuition for Teens in the UK — /online-maths-tuition-for-teens-in-uk
-- Business & Finance Mathematics — /courses/complete-business-finance-mathematics-mastery
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Tuition
+
+$100 / month
+
+- 8 live one-to-one lessons a month (2 per week)
+- The same patient tutor throughout
+- Pitched to your level and your deadline
+- Sample-assessment practice · cancel any time
+
+### Small-Group Cohort
+
+$40 / month
+
+- 8 live small-group lessons a month (2 per week)
+- A few learners at the same level
+- Same teaching approach, lower price
+- A friendly option · cancel any time
+
+[See the full course](/courses/complete-business-finance-mathematics-mastery)
+
+Considering a GCSE resit instead? See our [**maths classes for adults →**](/online-maths-classes-for-adults-in-uk) to compare.
+
+Who teaches you
+
+## Tutors chosen for patience first.
+
+Teaching an adult who needs Functional Skills for a real goal — and who may carry years of maths anxiety — takes a particular kind of teacher: one who never rushes, never judges, and genuinely believes you can do this. We hire for exactly that and check it. A tutor who makes a learner feel small doesn't last here.
+
+You keep the same tutor, who learns your goal, your level and your deadline, and keeps the whole thing calm and on track.
+
+"I needed Level 2 to finish my apprenticeship and had failed it twice. My tutor taught it through real work situations — it finally made sense, and I passed."
+
+— Apprentice, age 24, Leeds
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Free online courses | College evening class |
+| --- | --- | --- | --- |
+| Teaches through real situations | Yes | Sometimes | Varies |
+| Patient with maths anxiety | Built for it | You're on your own | Class setting |
+| Fills your specific gaps 1:1 | Yes | No | Rarely |
+| Fits around your work | Fully flexible | Self-paced | Fixed times |
+| Monthly price | $100 (1:1) / $40 (group) | Free–£20 | Varies |
+
+Free courses are great if you already know your gaps and can self-motivate. We add a patient tutor who finds the gaps, keeps it calm, and fits around your job.
+
+Common questions
+
+## Everything you might be wondering.
+
+What is Functional Skills maths?
+
+A practical maths qualification at Entry Level 3, Level 1 and Level 2. Level 2 is broadly equivalent to a GCSE grade 4 'pass' for many purposes, and is often required for apprenticeships, college and jobs.
+
+Which level do I need?
+
+Often Level 2. We check your requirement, assess where you are, and build up through Entry 3 and Level 1 if needed.
+
+Functional Skills or GCSE resit — which is better for me?
+
+Depends on what your employer or college accepts. Functional Skills is more practical and often quicker; GCSE is broader. We'll talk it through honestly. See our [adult maths classes](/online-maths-classes-for-adults-in-uk).
+
+I've been out of education a long time. Is that a problem?
+
+Not at all — most of our Functional Skills learners are returning adults. We start wherever you are and never make you feel behind.
+
+How much does it cost?
+
+USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+
+Is there a free trial?
+
+Yes — the first lesson is free, no card needed.
+
+Do you provide the exam, or just the teaching?
+
+We provide the teaching and preparation; the exam is booked through an approved awarding centre. We'll make sure you're genuinely ready and can point you to how booking works.
+
+Will I have the same tutor?
+
+Yes — one tutor who learns your goal, level and deadline.
+
+I have maths anxiety. Will this be hard?
+
+The one-to-one setting helps — no class, no being put on the spot. Most people relax within a couple of lessons.
+
+Are lessons live?
+
+Yes — live, one-to-one, with a shared whiteboard.
+
+When can I have lessons? I work full time.
+
+Early-morning, evening and weekend slots in UK time (GMT/BST).
+
+How quickly can I be ready for the exam?
+
+Often a few months of steady work for Level 2, depending on your starting level. We'll give you an honest timeline.
+
+## Book a free Functional Skills maths trial lesson.
+
+Tell us the level you need and your deadline. We'll assess where you are calmly and map the path to your pass. No card needed, no pressure.
+
+[See the full course](/courses/complete-business-finance-mathematics-mastery)Keep exploring
+
+## More maths tuition from Modern Age Coders.
+
+[UK · adultsMaths Classes for Adults](/online-maths-classes-for-adults-in-uk)[UK · examGCSE Maths Tuition](/gcse-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[USA · adultsMaths Classes for Adults (USA)](/online-maths-classes-for-adults-in-usa)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[CourseBusiness & Finance Mathematics](/courses/complete-business-finance-mathematics-mastery)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/functional-skills-maths-tuition-online*

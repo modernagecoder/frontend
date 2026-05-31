@@ -1,98 +1,249 @@
-# GCSE Maths Tutor in the UAE (IGCSE & GCSE) — Modern Age Coders
+---
+title: "GCSE Maths Tutor in the UAE · 1:1 Online IGCSE & GCSE — AQA, Edexcel, OCR, CIE — Modern Age Coders"
+description: "Live 1:1 online GCSE & IGCSE maths tutoring for British-curriculum students in the UAE — AQA, Edexcel, OCR and Cambridge (CIE), foundation and higher. We teach reasoning, then drill past papers and method marks. Gulf Standard Time. USD 100/month (about AED 370). Free trial."
+canonical: https://learn.modernagecoders.com/gcse-maths-tutor-uae
+keywords: ["GCSE maths tutor UAE", "IGCSE maths tutor Dubai", "GCSE maths tuition UAE", "IGCSE maths tutor UAE", "Edexcel IGCSE maths UAE", "Cambridge IGCSE maths tutor", "GCSE maths tutor Abu Dhabi", "British curriculum maths tutor UAE", "online GCSE maths UAE", "higher tier GCSE maths UAE"]
+source: src/pages/gcse-maths-tutor-uae.html
+---
+> Live 1:1 online GCSE & IGCSE maths tutoring for British-curriculum students in the UAE — AQA, Edexcel, OCR and Cambridge (CIE), foundation and higher. We teach reasoning, then drill past papers and method marks. Gulf Standard Time. USD 100/month (about AED 370). Free trial.
 
-**Quick answer:** Modern Age Coders provides live one-to-one online GCSE and IGCSE maths
-tutoring for British-curriculum students across the UAE — Edexcel, Cambridge (CIE), AQA and
-OCR, foundation and higher tier. We rebuild the reasoning the harder questions reward, then
-drill past papers and method marks, with the same tutor to the exam. **USD 100/month (about
-AED 370)** for eight 1:1 sessions; Gulf Standard Time; first session free.
+In short
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** British-curriculum students in the UAE preparing for GCSE or IGCSE maths
-- **Format:** Live one-to-one online, 8 sessions/month, 2 per week, Gulf Standard Time (UTC+4)
-- **Price:** USD 100/month (≈ AED 370, 1:1) · USD 40/month (≈ AED 147, small group) · no contract
-- **Boards:** Edexcel/Pearson IGCSE, Cambridge IGCSE (CIE), AQA, OCR; UK GCSE
+**Modern Age Coders provides live one-to-one online GCSE and IGCSE maths tutoring for British-curriculum students across the UAE** — Edexcel, Cambridge (CIE), AQA and OCR, foundation and higher tier.
 
-## The problem we solve
+We rebuild the reasoning the harder questions reward, then drill past papers and method marks, with the same tutor to the exam. Pricing is **USD 100 per month (about AED 370)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
 
-UAE British-curriculum schools cover the whole IGCSE specification, but "covered" and
-"understood" differ. The marks that decide top grades come from problem-solving questions
-combining topics, and a student who learned each topic as a separate procedure has no way in.
-The other grade-killer is method marks. We diagnose where marks leak, repair the foundations,
-teach the problem-solving reasoning, and drill past-paper technique.
+Why GCSE/IGCSE grades stall
 
-## How we teach
+## Covering every topic isn't the same as using any of them under pressure.
 
-1. **Diagnose where marks leak** — gap, method slip or timing, from a real paper.
-2. **Rebuild the recurring foundations** — usually algebra, fractions or ratio.
-3. **Teach the problem-solving questions** — multi-topic and worded questions.
-4. **Drill past papers & method marks** — your board's papers, working and timing.
+UAE British-curriculum schools cover the whole IGCSE specification — they have to. But "covered" and "understood" are different things, and the exam knows it. The marks that decide the top grades come from problem-solving questions that combine topics and look nothing like the textbook example, and a student who learned each topic as a separate procedure has no way in.
 
-## A real worked example: why simultaneous-equation elimination works
+The other quiet grade-killer is method marks, lost by not showing working or by an old algebra or fractions gap surfacing inside a bigger question.
 
-Each equation is a true statement; adding equal things to equal things stays true, so add one
-equation to another to cancel a letter:
+We fix both. We diagnose where the marks actually leak, repair the foundations the exam keeps testing, teach the reasoning the problem-solving questions need, and drill past-paper technique so the marks get banked.
 
-- 3x + y = 11 and x − y = 1 → add (the +y and −y cancel): 4x = 12 → x = 3
-- substitute back: 9 + y = 11 → y = 2 → **x = 3, y = 2**
+And because we're online, your child gets a tutor who knows their exact board — Edexcel, CIE, AQA or OCR — wherever in the UAE you live.
 
-Adding the equations isn't a trick — it's adding equal things deliberately so a letter
-disappears. A student who sees this knows *why* to multiply an equation first when
-coefficients don't line up.
+How we teach
 
-## Why a coding school tutors GCSE maths
+## Understanding, then exam technique — in that order.
 
-Turning a worded problem into maths is what programming trains: **translate the problem**,
-**break it into steps**, and **check your answer**. In a UAE investing in technology, it's a
-head start that lasts beyond the exam.
+A grade plan built from your child's actual papers, not a generic revision list.
 
-## What we cover (every board, foundation & higher)
+### Diagnose where marks leak
 
-- Number: fractions, decimals, percentages, indices, standard form, surds, bounds
-- Algebra: expressions, equations, simultaneous equations, quadratics, sequences, graphs
-- Ratio & proportion: ratio, direct/inverse proportion, rates, compound measures
-- Geometry & measures: angles, Pythagoras, trigonometry, circle theorems, vectors, transformations
-- Probability & statistics: probability, tree and Venn diagrams, averages, data
-- Exam technique: tier strategy, method marks, problem-solving, timing
+We review a real paper and sort every lost mark into gap, method slip or timing — that map becomes the plan.
 
-(For full UK exam-board detail, see our GCSE Maths Tuition page.)
+### Rebuild the recurring foundations
 
-## How lessons work
+Most lost marks trace to a few weak areas — usually algebra, fractions or ratio. We make those automatic.
 
-One student, one tutor, live video with a shared whiteboard and live paper review. Eight
-sessions a month, two each week, built around your board's past papers. After-school, evening
-and weekend slots in Gulf Standard Time, ramping up before exams.
+### Teach the problem-solving questions
 
-## FAQ
+We coach how to break down the multi-topic "show that" and worded questions that decide the higher grades.
 
-### Do you tutor IGCSE as well as GCSE maths?
-Yes — most UAE British schools sit the IGCSE, across Edexcel, Cambridge (CIE), AQA and OCR, plus UK GCSE.
+### Drill past papers & method marks
 
-### Which boards do you cover?
-Edexcel/Pearson, Cambridge (CIE), AQA and OCR, foundation and higher.
+We rehearse with your board's papers, training the working and timing that bank every available mark.
 
-### Foundation or higher tier — which is right?
-Depends on level and target grade; we advise after a diagnostic.
+See it for yourself
 
-### How much does it cost?
+## Simultaneous equations — why "elimination" actually works.
+
+Worked example · higher-tier algebra
+
+**What gets memorised:** "to solve simultaneous equations, add or subtract them to cancel a letter." Students follow the steps and panic when the coefficients don't match, because they don't understand what the move actually does.
+
+**How we do it.** Each equation is a true statement. If two things are equal, you can add equal amounts to both sides and stay true — so you can add one whole equation to another. Choose what to add so that one letter cancels:
+
+3x + y = 11x − y = 1add the two equations (the +y and −y cancel): 4x + 0 = 12 → x = 3put x = 3 back in: 3 + y... → 9 + y = 11 → y = 2solution: **x = 3, y = 2**
+
+Adding the equations isn't a trick — it's adding equal things to equal things, deliberately chosen so a letter disappears. A student who sees this knows *why* to multiply an equation first when the coefficients don't line up, instead of guessing. That understanding is exactly what separates a grade 6 from a grade 8 on the higher paper.
+
+Why a coding school tutors GCSE maths
+
+## Turning a worded problem into maths is exactly what programming trains.
+
+### Translate the problem
+
+A coder turns a vague requirement into precise logic; a GCSE candidate turns words into an equation. Same skill — and it wins the harder marks.
+
+### Break it into steps
+
+Multi-mark questions yield to decomposition, the same move that turns a big program into small functions.
+
+### Check your answer
+
+Substituting x = 3, y = 2 back to verify is a debugging habit. We make checking automatic.
+
+We're Modern Age Coders. The reasoning that makes a strong programmer is the reasoning the toughest GCSE questions reward — and in a UAE investing heavily in technology, it's a head start that lasts well beyond the exam.
+
+What we cover
+
+## The whole IGCSE/GCSE specification, every board.
+
+Foundation and higher, with the foundations rebuilt under each strand.
+
+### Number
+
+Fractions, decimals, percentages, indices, standard form, surds and bounds.
+
+### Algebra
+
+Expressions, equations, simultaneous equations, quadratics, inequalities, sequences, graphs and functions.
+
+### Ratio & proportion
+
+Ratio, direct and inverse proportion, rates and compound measures — a top source of dropped marks.
+
+### Geometry & measures
+
+Angles, Pythagoras, trigonometry, circle theorems, vectors, transformations, area and volume.
+
+### Probability & statistics
+
+Probability, tree and Venn diagrams, averages, and interpreting data and graphs.
+
+### Exam technique
+
+Foundation and higher strategy, method marks, problem-solving questions, calculator and non-calculator papers, and timing.
+
+Need the full UK exam-board detail? See our in-depth [**GCSE Maths Tuition page →**](/gcse-maths-tuition-online)
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the UAE British-curriculum student aiming for a secure grade 4 pass, the one stuck at a 5 who can't see why, and the strong student chasing a grade 8 or 9 for a competitive sixth form or university.
+
+**What's realistic.** Real gains come from fixing the right gaps and practising between sessions over a term or two — not from a fortnight of cramming. We set an honest target and never quote a guaranteed grade.
+
+### What we won't do
+
+- Promise a specific grade on a timeline.
+- Drill past papers without fixing the gaps underneath.
+- Teach methods with no understanding behind them.
+- Pretend a last-minute cram replaces real preparation.
+
+How lessons work
+
+## A focused, trackable run to the exam.
+
+### 1:1, live
+
+One student, one tutor, real-time video with a shared whiteboard and live paper review.
+
+### 8 sessions a month
+
+Two each week, around 50–60 minutes, built around your board's past papers.
+
+### Gulf Standard Time
+
+After-school, evening and weekend slots in GST, ramping up around mock and summer exams.
+
+### Progress tracking
+
+Your tutor tracks scores and recurring errors so the plan keeps tightening.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Tuition
+
+$100 / month · ≈ AED 370
+
+- 8 live one-to-one sessions a month (2 per week)
+- The same tutor tracking progress to the exam
+- Taught to your board & tier, with past papers
+- A diagnostic-led plan · cancel any time
+
+### Small-Group Cohort
+
+$40 / month · ≈ AED 147
+
+- 8 live small-group sessions a month (2 per week)
+- A few students at a similar grade and board
+- Same teaching approach, lower price
+- Good for classmates · cancel any time
+
+[See the full course](/courses/complete-high-school-mathematics-mastery)
+
+AED figures are approximate; billing is in USD. Heading to sixth form? See our [**A-Level Maths Tutor (UAE) →**](/a-level-maths-tutor-uae) page.
+
+Who teaches your child
+
+## Tutors who know the boards and the maths beneath them.
+
+Good GCSE/IGCSE coaching needs both a deep command of the maths and a precise knowledge of how each board marks. Our tutors have both — they can fix the algebra gap *and* tell your child the exact working a marker needs to award the method mark.
+
+The same tutor stays to the exam, watching grades and recurring mistakes, so the plan is always aimed at the marks still on the table.
+
+"My daughter was predicted a 5 in her IGCSE and finished with a 7. The tutor found it was all the worded and ratio questions — fix those, and the grade jumped."
+
+— Parent, British-curriculum school, Dubai
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Tutoring centre | Revision apps |
+| --- | --- | --- | --- |
+| Diagnoses why marks are lost | Yes, every paper | Sometimes | No |
+| Knows your exact board | Yes | Varies | Generic |
+| One-to-one attention | Always | Often group | N/A |
+| Same tutor to the exam | Yes | Often rotates | N/A |
+| Monthly price | $100 / ≈AED 370 (1:1) | AED 1,000–2,500+ | AED 20–50 |
+
+Apps help with practice once gaps are known; centres give attention at a premium and often in groups. We add live diagnosis and the maths fix that move a grade.
+
+Common questions
+
+## Everything you might be wondering.
+
+Do you tutor IGCSE as well as GCSE maths?
+
+Yes — most UAE British-curriculum schools sit the IGCSE, and we tutor it across Edexcel (Pearson), Cambridge (CIE), AQA and OCR, plus UK GCSE.
+
+Which boards do you cover?
+
+Edexcel/Pearson, Cambridge (CIE), AQA and OCR, foundation and higher, from your child's specification and mocks.
+
+Foundation or higher tier — which is right?
+
+Depends on level and target grade; we advise honestly after a diagnostic.
+
+How much does it cost?
+
 USD 100/month (about AED 370) for 1:1 — eight live sessions, two a week. Small-group option USD 40/month. No contract.
 
-### Is the first session free?
-Yes — no card needed.
+Is the first session free?
 
-### Will my child keep the same tutor?
-Yes — one tutor to the exam.
+Yes — no card needed. We diagnose where marks are being lost.
 
-### Do you use past papers?
-Yes — your board's papers and mark schemes.
+Will my child keep the same tutor?
 
-### What times are lessons available?
-After-school, evening and weekend slots in Gulf Standard Time (UTC+4).
+Yes — one tutor tracking the board, weak topics and mistakes to the exam.
 
-## Related pages
+Do you use past papers?
 
-- A-Level Maths Tutor in the UAE — /a-level-maths-tutor-uae
-- IB Maths Tutor (AA & AI) in the UAE — /ib-maths-tutor-uae
-- Maths Tuition for Teens in the UAE — /maths-tuition-for-teens-uae
-- GCSE Maths Tuition (full UK detail) — /gcse-maths-tuition-online
-- Maths Tutor in Dubai — /maths-tutor-in-dubai
-- All UAE Maths Tuition — /online-maths-tuition-uae
+Yes — your board's papers and mark schemes, every lost mark reviewed as gap, method slip or timing.
+
+What times are lessons available?
+
+After-school, evening and weekend slots in Gulf Standard Time (UTC+4), ramping up before exams.
+
+## Book a free GCSE maths trial session.
+
+Bring a recent paper or mock and tell us your board. We'll show you where the marks are leaking and how we'd close the gap before the exam. No card needed.
+
+[See the full course](/courses/complete-high-school-mathematics-mastery)Keep exploring
+
+## More maths tuition from Modern Age Coders.
+
+[UAE · curriculumA-Level Maths Tutor](/a-level-maths-tutor-uae)[UAE · curriculumIB Maths Tutor (AA & AI)](/ib-maths-tutor-uae)[UAE · teensMaths Tuition for Teens](/maths-tuition-for-teens-uae)[UK · detailGCSE Maths Tuition (full)](/gcse-maths-tuition-online)[UAE · emirateMaths Tutor in Dubai](/maths-tutor-in-dubai)[UAE · hubAll UAE Maths Tuition](/online-maths-tuition-uae)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/gcse-maths-tutor-uae*

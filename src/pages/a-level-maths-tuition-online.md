@@ -1,111 +1,257 @@
-# A-Level Maths Tuition Online — Modern Age Coders
+---
+title: "A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics — Modern Age Coders"
+description: "Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+canonical: https://learn.modernagecoders.com/a-level-maths-tuition-online
+keywords: ["A-level maths tuition online", "A-level maths tutor", "A-level maths revision", "Edexcel A-level maths", "AQA A-level maths", "OCR A-level maths", "A-level pure maths", "A-level mechanics", "A-level statistics", "A-level maths help", "year 12 maths tutor", "year 13 maths tutor"]
+source: src/pages/a-level-maths-tuition-online.html
+---
+> Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
 
-Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and
-statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is
-built around. Same tutor to the exam, UK time. **USD 100/month for eight live 1:1 lessons
-(two a week). Small-group option: USD 40/month.** First lesson free.
+Why A-Level maths catches students out
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** UK sixth-form students taking A-Level maths, Years 12–13
-- **Format:** Live one-to-one online, 8 lessons/month, 2 per week, UK time
-- **Price:** USD 100/month (1:1) · USD 40/month (small group) · no contract
-- **Full course:** /courses/college-mathematics-complete-masterclass
+## The step up from GCSE is brutal — and it's not about working harder.
 
-## The problem we solve
+Every year, students who breezed through GCSE maths hit a wall in the first term of A-Level. It's bewildering and demoralising, and it has a clear cause: A-Level stops rewarding the memorise-and-repeat approach that worked at GCSE. It demands algebraic fluency so automatic it costs no thought, and the confidence to attack a question with no obvious method.
 
-The step up from GCSE is brutal, and it's not about working harder. A-Level stops rewarding
-memorise-and-repeat; it demands algebraic fluency so automatic it costs no thought, and the
-confidence to attack a question with no obvious method. The questions that decide A and A*
-grades are deliberately unfamiliar — combining topics, hiding the method — so past-paper
-drilling alone can't prepare you. We rebuild the assumed fluency, teach each concept from
-first principles, and train the problem-solving and technique that turn understanding into
-the grade.
+Working harder at the old approach doesn't fix it — it just produces more frustration.
 
-## How we teach
+The questions that decide A and A* grades are deliberately unfamiliar: they combine topics, hide the method, and reward genuine reasoning. Past-paper drilling alone can't prepare you, because the next paper will look different again.
 
-1. **Rebuild GCSE-to-A-Level fluency** — the algebra A-Level assumes is automatic.
-2. **Derive, don't memorise** — show where each result comes from so you can rebuild and adapt it.
-3. **Train unseen problem-solving** — how to start a question with no obvious method.
-4. **Drill papers & technique** — working, notation and timing that bank every mark.
+We bridge the gap directly. We rebuild the fluency A-Level assumes, teach each concept from where it comes from, and train the problem-solving and exam technique that turn understanding into the grade you're aiming for.
 
-## A real worked example: why integration reverses differentiation
+How we teach
 
-Differentiation finds the rate of change; integration adds up tiny changes to find the total:
+## Fluency, understanding, then exam technique.
 
-- if F′(x) = f(x) (f is the rate of change of F)
-- then ∫ f(x) dx = F(x) + c (integrating undoes differentiating)
-- and ∫ₐᵇ f(x) dx = F(b) − F(a) (the total change in F)
+Worked from your specification, toward the unseen questions that decide your grade.
 
-"Add one to the power" is simply the reverse of the differentiation rule, and it works
-*because* the two operations are inverse processes. Seen this way, areas, volumes,
-differential equations and kinematics stop being separate recipes and become one idea — the
-coherence that carries a student to the top grades and into university maths.
+### Rebuild GCSE-to-A-Level fluency
 
-## Why a coding school teaches A-Level maths
+The algebra A-Level assumes is automatic. We make yours automatic too, so it never eats your time on harder work.
 
-A-Level maths and CS are the same thinking: **build from primitives**, **reason don't
-recall** (work a problem out from understanding), and **precision & proof** (every step
-justified). Our students carry it straight into computer science, engineering and physics
-degrees.
+### Derive, don't memorise
 
-## What we cover (all three strands)
+We show where each result comes from — why integration reverses differentiation, why a vector equation describes a line — so you can rebuild and adapt it.
 
-- Pure — algebra & functions: indices, surds, partial fractions, binomial, functions, modelling
-- Pure — calculus: differentiation and integration from first principles, parametric/implicit, differential equations
-- Pure — trigonometry & vectors: radians, identities, addition/double-angle formulae, 2D/3D vectors
-- Statistics: data, probability, binomial and normal distributions, hypothesis testing, the large data set
-- Mechanics: kinematics, forces, Newton's laws, moments, projectiles
-- Exam technique: "show that" and proof questions, unseen problem-solving, calculator skills, timing
+### Train unseen problem-solving
 
-## How lessons work
+We coach how to start a question with no obvious method, the exact skill the top-mark questions test.
 
-One student, one tutor, live video with a shared whiteboard. Eight lessons a month, two each
-week (about an hour), worked from your specification and past papers. Evening and weekend
-slots in UK time, ramping into mocks and summer exams.
+### Drill papers & technique
 
-## FAQ
+Using your board's papers, we build the working, notation and timing that bank every available mark.
 
-### Which exam boards and modules do you cover?
-Edexcel, AQA and OCR (including OCR MEI), across pure, mechanics and statistics.
+See it for yourself
 
-### The jump from GCSE to A-Level maths floored me. Is that normal?
-Completely — the steepest step in school maths. We rebuild the fluency and teach the new abstraction.
+## Why integration reverses differentiation.
 
-### Can you help me get an A or A*?
-The top grades come from understanding plus fluency on unseen questions. We build both; result depends on effort.
+Worked example · A-Level pure
 
-### I'm doing AS or resitting. Can you help?
-Yes — AS, full A-Level and resit candidates.
+**What gets memorised:** "to integrate, add one to the power and divide by the new power — the opposite of differentiating." Students apply it correctly and never see *why* the two operations are linked, so problems mixing the two feel like a trick.
 
-### How much does it cost?
-USD 100/month for 1:1 (eight live lessons, two a week). Small-group option USD 40/month. No contract.
+**How we do it.** Differentiation finds the rate of change; integration adds up tiny changes to find the total. If F is a function whose rate of change is f, then summing up all those tiny changes of F across an interval just rebuilds the overall change in F — that's the Fundamental Theorem of Calculus:
 
-### Is there a free trial?
+if F′(x) = f(x) (f is the rate of change of F)then ∫ f(x) dx = F(x) + c (integrating undoes differentiating)and ∫ ₐᵇ f(x) dx = F(b) − F(a) (the total change in F)
+
+The "add one to the power" rule is simply the reverse of the differentiation rule, and it works *because* integration and differentiation are inverse processes — not by coincidence. Once a student sees this, the whole of A-Level calculus connects: areas, volumes, differential equations and kinematics stop being separate recipes and become one idea. That coherence is what carries a student to the top grades and straight into university maths.
+
+Why a coding school teaches A-Level maths
+
+## A-Level maths and computer science are the same kind of thinking.
+
+### Build from primitives
+
+A-Level constructs complex results from a few definitions, exactly as a program builds features from primitives. We teach that constructive habit.
+
+### Reason, don't recall
+
+The unseen questions reward working a problem out from what you understand — the same instinct that lets a programmer solve a problem they've never met.
+
+### Precision & proof
+
+A clear mathematical argument and correct code share one discipline: every step justified, nothing assumed.
+
+We're Modern Age Coders. A-Level maths underpins computer science, engineering, physics and economics, and the precise, constructive reasoning we teach for programming is exactly what makes it click — which is why our students carry it straight into their degrees.
+
+What we cover
+
+## The full A-Level, all three strands.
+
+Taught to your board, with the foundations rebuilt under each topic.
+
+### Pure: algebra & functions
+
+Indices, surds, partial fractions, the binomial expansion, functions, transformations and modelling.
+
+### Pure: calculus
+
+Differentiation and integration from first principles, chain/product/quotient rules, parametric and implicit methods, and differential equations.
+
+### Pure: trigonometry & vectors
+
+Radians, identities, the addition and double-angle formulae, and vectors in two and three dimensions.
+
+### Statistics
+
+Data, probability, the binomial and normal distributions, hypothesis testing and the large data set.
+
+### Mechanics
+
+Kinematics, forces and Newton's laws, moments, and projectiles — the applied topics where many lose marks.
+
+### Exam technique
+
+"Show that" and proof questions, unseen problem-solving, calculator skills, and the timing the papers demand.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the year-12 student floored by the GCSE-to-A-Level jump, the year-13 student chasing an A or A*, the AS or resit candidate, and the student targeting a competitive maths or STEM degree. We meet your level and aim at the next realistic grade.
+
+**What's realistic.** Most students feel the difference within a few weeks as fluency returns and questions stop feeling impossible. A grade turnaround tracks the year and the work you do between lessons. We'll be honest about what's achievable and never quote a guaranteed grade.
+
+### What we won't do
+
+- Complete coursework or assessed work for you.
+- Teach methods with no concept beneath them.
+- Drill past papers without fixing the fluency gap.
+- Promise a grade we can't honestly support.
+
+How lessons work
+
+## Built around college and exam season.
+
+### 1:1, live
+
+One student, one tutor, real-time video and a shared whiteboard for working pure, mechanics and stats together.
+
+### 8 lessons a month
+
+Two each week, around an hour, worked from your specification and past papers.
+
+### UK time
+
+Evening and weekend slots in GMT/BST that fit around college.
+
+### Exam ramp
+
+Targeted revision before mocks and the summer exams.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Tuition
+
+$100 / month
+
+- 8 live one-to-one lessons a month (2 per week)
+- The same tutor through to the exam
+- Taught to your board across pure, mechanics & stats
+- Past papers & technique · cancel any time
+
+### Small-Group Cohort
+
+$40 / month
+
+- 8 live small-group lessons a month (2 per week)
+- A few students on the same board
+- Same teaching approach, lower price
+- Good for classmates · cancel any time
+
+[See the full course](/courses/college-mathematics-complete-masterclass)
+
+Taking Further Maths too? See our [**Further Maths Tuition →**](/further-maths-tuition-online) page.
+
+Who teaches you
+
+## Tutors who know A-Level maths cold — and how it's marked.
+
+Our A-Level tutors have strong mathematical backgrounds and a precise knowledge of each board's papers. They can explain why a result is true *and* show you the exact working a marker needs — and they remember how punishing the GCSE-to-A-Level jump feels.
+
+You keep the same tutor through the year, so they know your modules, your weak spots and how you think, and aim every lesson at the marks still on the table.
+
+"He nearly dropped maths after a disastrous AS year. His tutor rebuilt the algebra he'd been bluffing and taught calculus properly — he finished with an A and a place to study engineering."
+
+— Parent of a Year 13 student, Nottingham
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Revision videos | A typical tutor |
+| --- | --- | --- | --- |
+| Rebuilds the fluency gap | Yes | No | Sometimes |
+| Teaches unseen problem-solving | Yes | Rarely | Varies |
+| Covers pure, mechanics & stats | All three | Usually pure | Varies |
+| Same tutor to the exam | Yes | N/A | Often |
+| Monthly price | $100 (1:1) / $40 (group) | Free–£20 | £35–60/hr |
+
+Revision videos are a useful supplement. They can't watch you attempt an unseen question and coach the reasoning in real time — which is what moves an A-Level grade.
+
+Common questions
+
+## Everything you might be wondering.
+
+Which exam boards and modules do you cover?
+
+Edexcel, AQA and OCR (including OCR MEI), across pure, mechanics and statistics, taught to your specification and past papers.
+
+The jump from GCSE to A-Level maths floored me. Is that normal?
+
+Completely — the steepest step in school maths. We rebuild the algebraic fluency A-Level assumes and teach the new abstraction properly.
+
+Can you help me get an A or A*?
+
+The top grades come from understanding plus fluency under time pressure on unseen questions. We build both; the result depends on starting point and effort.
+
+I'm doing AS or resitting. Can you help?
+
+Yes — AS, full A-Level and resit candidates, with a plan built around exactly where you are.
+
+How much does it cost?
+
+USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+
+Is there a free trial?
+
 Yes — the first lesson is free, no card needed.
 
-### Will I keep the same tutor?
-Yes — one tutor across the year.
+Will I keep the same tutor?
 
-### Can you cover mechanics and statistics, not just pure?
-Yes — all three strands.
+Yes — one tutor across the year who ramps into revision before the exams.
 
-### Do you prepare for STEP, MAT or university maths?
-Yes — STEP and MAT-style problem solving. See our college and sixth-form page.
+Can you cover mechanics and statistics, not just pure?
 
-### Are lessons live?
+Yes — all three. We make the applied content as solid as the pure.
+
+Do you prepare for STEP, MAT or university maths?
+
+Yes — STEP and MAT-style problem solving alongside A-Level. See our [college and sixth-form](/online-maths-tuition-for-college-students-in-uk) page.
+
+Are lessons live?
+
 Yes — live, one-to-one, with a shared whiteboard.
 
-### When should I start?
-Year 12 for foundations; Year 13 for consolidation and technique. We help at any stage.
+When should I start?
 
-### Do lessons fit around college and exam season?
-Yes — evening and weekend slots in UK time, ramping up around exams.
+Year 12 for strong foundations; Year 13 for consolidation and technique. We help at any stage with an honest view of what's achievable.
 
-## Related pages
+Do lessons fit around college and exam season?
 
-- Further Maths Tuition — /further-maths-tuition-online
-- College & Sixth Form Maths in the UK — /online-maths-tuition-for-college-students-in-uk
-- GCSE Maths Tuition — /gcse-maths-tuition-online
-- UKMT Maths Challenge — /ukmt-maths-challenge-tutoring
-- AP Calculus AB & BC — /ap-calculus-tutoring-online
-- College Mathematics Masterclass — /courses/college-mathematics-complete-masterclass
+Yes — evening and weekend slots in UK time, ramping up around mocks and summer exams.
+
+## Book a free A-Level maths trial lesson.
+
+Bring your specification and the topic that's giving you trouble. We'll show you how we'd teach it and how we'd close the gap to your target grade. No card needed.
+
+[See the full course](/courses/college-mathematics-complete-masterclass)Keep exploring
+
+## More maths tuition from Modern Age Coders.
+
+[UK · examFurther Maths Tuition](/further-maths-tuition-online)[UK · 16–19College & Sixth Form Maths](/online-maths-tuition-for-college-students-in-uk)[UK · examGCSE Maths Tuition](/gcse-maths-tuition-online)[UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[USA · APAP Calculus AB & BC](/ap-calculus-tutoring-online)[CourseCollege Mathematics Masterclass](/courses/college-mathematics-complete-masterclass)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/a-level-maths-tuition-online*

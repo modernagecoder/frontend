@@ -1,100 +1,247 @@
-# Online Maths Tuition in the UAE — Modern Age Coders
+---
+title: "Online Maths Tuition in the UAE · 1:1 Across Every Curriculum & Emirate — Modern Age Coders"
+description: "Live 1:1 online maths tuition across the UAE — for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 100/month (about AED 370), 8 classes. Book a free trial."
+canonical: https://learn.modernagecoders.com/online-maths-tuition-uae
+keywords: ["online maths tuition UAE", "maths tutor UAE", "maths classes UAE", "online maths tutor Dubai", "maths tutor Abu Dhabi", "IB maths tutor UAE", "GCSE maths tutor UAE", "CBSE maths tutor UAE", "American curriculum maths UAE", "maths tuition for kids UAE", "maths tutor for teens UAE", "best maths tutor UAE"]
+source: src/pages/online-maths-tuition-uae.html
+---
+> Live 1:1 online maths tuition across the UAE — for British, American, IB, CBSE and MOE curricula, all ages, in every emirate. We teach the reasoning behind the maths, not rote memorising. Mentors in Gulf Standard Time. USD 100/month (about AED 370), 8 classes. Book a free trial.
 
-**Quick answer:** Modern Age Coders provides live, one-to-one online maths tuition across the
-UAE — Dubai, Abu Dhabi, Sharjah and every emirate — for the British (GCSE, A-Level), American
-(SAT, AP), IB (Maths AA & AI), CBSE and UAE MOE curricula, for all ages from primary to adult.
-Lessons run in Gulf Standard Time with a dedicated tutor who teaches the reasoning behind the
-maths, not rote memorising. **USD 100/month (about AED 370)** for eight 1:1 lessons, or USD
-40/month in a small group. First lesson free.
+In short
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** Students of all ages across the UAE — British, American, IB, CBSE and MOE curricula
-- **Format:** Live one-to-one online, 8 lessons/month, 2 per week, Gulf Standard Time (UTC+4)
-- **Price:** USD 100/month (≈ AED 370, 1:1) · USD 40/month (≈ AED 147, small group) · no contract
-- **Curricula covered:** British (GCSE, A-Level), American (SAT, AP), IB (AA & AI), CBSE/ICSE, UAE MOE
-- **Emirates:** Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, Umm Al Quwain — online
+**Modern Age Coders provides live, one-to-one online maths tuition across the UAE** — in Dubai, Abu Dhabi, Sharjah and every emirate — for the British (GCSE, A-Level), American (SAT, AP), IB (Maths AA & AI), CBSE and UAE MOE curricula, for all ages from primary to adult.
 
-## The problem we solve
+Lessons run in Gulf Standard Time with a dedicated tutor who teaches the reasoning behind the maths, not rote memorising. Pricing is **USD 100 per month (about AED 370)** for eight 1:1 lessons, or USD 40 per month in a small group. The first lesson is free.
 
-The UAE is unusual: within one neighbourhood you'll find children on the British, American,
-IB, CBSE and Ministry of Education systems, each with its own syllabus and exams. A tutor who
-knows one curriculum can be the wrong fit for a child on another. We match each family with a
-mentor who fits their exact system and school — and whichever it is, we teach understanding,
-not tricks to memorise.
+Why UAE families struggle to find the right maths help
 
-## How we teach
+## In a country of many curricula, most tutors only know one.
 
-1. **Match the curriculum and the mentor** — British, American, IB, CBSE or MOE, worked from the school's syllabus.
-2. **Find and fix the real gap** — diagnose the earlier missing idea, not just the current topic.
-3. **Teach the reasoning** — methods a student can rebuild and explain.
-4. **Build fluency & exam technique** — curriculum-specific exam skills once the idea is solid.
+The UAE is unusual: within a single neighbourhood you'll find children on the British, American, IB, CBSE and Ministry of Education systems, each with its own syllabus, exams and way of doing things. A tutor who knows one curriculum well can be the wrong fit for a child on another — and families often discover this only after weeks of mismatched lessons.
 
-## A real worked example: why BODMAS isn't arbitrary
+The other common problem is the tutoring-mill approach: drilling past papers and tricks that lift a test score briefly but leave no real understanding underneath.
 
-"3 × 4" means "three 4s grouped together," so 2 + 3 × 4 means "2, plus three 4s":
+We're built for exactly this. Our tutors teach to your child's actual curriculum and school, and we match each family with a mentor who fits — so an IB student gets an IB mind, a CBSE student gets CBSE depth, a British-school student gets GCSE and A-Level precision.
 
-- 2 + 3 × 4 = 2 + (4 + 4 + 4) = 2 + 12 = **14** (not 20)
-- multiplication binds tighter *because* it's repeated addition — it must be settled before the loose 2
+And whichever system your child follows, the teaching philosophy is the same: understand *why* the maths works, so it transfers to the exam, the next year, and real life.
 
-Once a child sees multiplication is "already a group," BODMAS stops being a chant and becomes
-obvious. That's how we teach every curriculum: the reason, not the rule.
+How we teach
 
-## Why a coding school teaches maths
+## Understanding first — the same principle, whatever the curriculum.
 
-The thinking that builds a strong coder builds a strong mathematician: **break the big into
-the small** (decomposition), **find the pattern**, and **debug your reasoning**. In a UAE
-moving toward an AI-driven economy, students who can truly reason — not just recall — pull
-ahead.
+Memorised methods fade between systems and exams. Understood ideas travel anywhere.
 
-## Curricula & ages we cover
+### Match the curriculum and the mentor
 
-- British curriculum: primary through KS3, GCSE and A-Level
-- International Baccalaureate: IB Maths AA and AI (SL & HL), MYP
-- American curriculum: US-curriculum maths, SAT and AP
-- Indian curriculum: CBSE and ICSE
-- UAE MOE, and all ages — kids, teens, adults
-- Every emirate, online, in Gulf Standard Time
+We place your child with a tutor who knows their exact system — British, American, IB, CBSE or MOE — and works from their school's syllabus.
 
-## How lessons work
+### Find and fix the real gap
 
-One student, one tutor, live video with a shared whiteboard. Eight lessons a month, two each
-week, worked from your child's curriculum and school. After-school, evening and weekend slots
-in Gulf Standard Time. A note after each lesson.
+We diagnose the earlier idea that's actually missing, rather than just drilling the current topic, so progress is genuine.
 
-## FAQ
+### Teach the reasoning
 
-### Do you teach maths for UAE schools and curricula?
-Yes — British (GCSE, A-Level), American (SAT, AP), IB (AA & AI), CBSE/ICSE, and UAE MOE, to your child's actual school and syllabus.
+Every method is shown as something your child can rebuild and explain — the only kind of maths that survives an unfamiliar question.
 
-### Which emirates do you cover?
-All of them — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain — online, in GST.
+### Build fluency & exam technique
 
-### How much does maths tuition cost in the UAE?
-USD 100/month (about AED 370) for 1:1 — eight live lessons, two a week. Small-group option USD 40/month (about AED 147). No contract.
+Once the idea is solid, we add the speed and the curriculum-specific exam skills that turn understanding into grades.
 
-### Is the first lesson free?
-Yes — the first lesson is free, no card needed.
+See it for yourself
 
-### Are the lessons live or recorded?
+## "BODMAS" — why the order of operations isn't an arbitrary rule.
+
+Worked example · works in every curriculum
+
+**What gets memorised:** "BODMAS — brackets, orders, division, multiplication, addition, subtraction." Children chant the order and still get 2 + 3 × 4 wrong, because they've memorised a sequence without knowing why it exists.
+
+**How we do it.** The order isn't a rule someone invented — it reflects what the symbols *mean*. "3 × 4" is shorthand for "three 4s grouped together." So 2 + 3 × 4 means "2, plus three 4s":
+
+2 + 3 × 4 means 2 + (4 + 4 + 4)= 2 + 12 = **14** (not 20)multiplication binds tighter *because* it is repeated addition —it has to happen before we add the loose 2
+
+Once a child sees that multiplication is "already a group" and so must be settled before stray additions, BODMAS stops being a chant to recall and becomes obvious. This is how we teach everything, in every curriculum: not the rule, but the reason — which is exactly what makes it stick and transfer.
+
+Why a coding school teaches maths
+
+## The thinking that builds a strong coder is the thinking that builds a strong mathematician.
+
+### Break the big into the small
+
+Decomposition — splitting a hard problem into steps — is the same skill in a maths word problem and a software feature.
+
+### Find the pattern
+
+Spotting structure is what lets a coder write a loop and a student see why a method works. We grow it deliberately.
+
+### Debug your reasoning
+
+"Where did this go wrong?" is a skill we teach directly — checking your own thinking instead of waiting for a red mark.
+
+We're Modern Age Coders, an education company built around real coding and AI. Maths is where that logical thinking begins, and the UAE — with its push toward an AI-driven, knowledge economy — is exactly the place where students who can truly *reason*, not just recall, will pull ahead.
+
+Curricula & ages we cover
+
+## One provider for whichever system your child follows.
+
+Each has a dedicated page — but every one is taught for understanding first.
+
+### British curriculum
+
+Primary maths through KS3, [GCSE](/gcse-maths-tutor-uae) and [A-Level](/a-level-maths-tutor-uae) for the many UK-curriculum schools across the UAE.
+
+### International Baccalaureate
+
+[IB Maths AA and AI](/ib-maths-tutor-uae) at Standard and Higher Level, plus MYP, for the UAE's large IB cohort.
+
+### American curriculum
+
+[US-curriculum maths, the SAT and AP](/american-maths-tutor-uae) for American-system schools in Dubai, Abu Dhabi and beyond.
+
+### Indian curriculum (CBSE/ICSE)
+
+[CBSE and ICSE maths](/cbse-maths-tutor-uae) for the UAE's very large Indian-school community.
+
+### UAE MOE & all ages
+
+Ministry of Education maths, and tuition for [kids](/maths-tuition-for-kids-uae), [teens](/maths-tuition-for-teens-uae) and [adults](/maths-classes-for-adults-uae).
+
+### Every emirate
+
+Online across [Dubai](/maths-tutor-in-dubai), [Abu Dhabi](/maths-tutor-in-abu-dhabi), [Sharjah](/maths-tutor-in-sharjah) and the rest of the UAE.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** any family in the UAE who wants serious, curriculum-matched maths help: a child slipping in school, one aiming for top grades or a competitive university, an expat family who's moved between systems, or an adult brushing up. We teach all of them, in any emirate.
+
+**What's realistic.** Most families notice their child stops dreading maths within a few weeks. Grade improvements track a term of steady, twice-weekly work as the foundations rebuild — not overnight. We'll always be honest about what's achievable in your timeline.
+
+### What we won't do
+
+- Teach the wrong curriculum to the wrong child.
+- Drill tricks with no understanding beneath them.
+- Promise a grade jump on an unrealistic timeline.
+- Treat a child as a test score rather than a learner.
+
+How lessons work
+
+## Built around the UAE school week.
+
+### 1:1, live
+
+One student, one tutor, real-time video with a shared whiteboard. No recordings, no autopilot.
+
+### 8 lessons a month
+
+Two each week, worked from your child's curriculum, school and homework.
+
+### Gulf Standard Time
+
+After-school, evening and weekend slots in GST (UTC+4). You pick two weekly times.
+
+### You stay informed
+
+A note after each lesson and a plain-language progress summary every few weeks.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Tuition
+
+$100 / month · ≈ AED 370
+
+- 8 live one-to-one lessons a month (2 per week)
+- The same dedicated, curriculum-matched tutor
+- Taught to your child's school & syllabus
+- Notes after every lesson · cancel any time
+
+### Small-Group Cohort
+
+$40 / month · ≈ AED 147
+
+- 8 live small-group lessons a month (2 per week)
+- A few students at the same level & curriculum
+- Same teaching approach, lower price
+- A friendly first step · cancel any time
+
+[Explore the courses](/courses)
+
+AED figures are approximate; billing is in USD. Want the full topic map by stage? [**Explore the maths courses →**](/courses)
+
+Who teaches your child
+
+## Mentors matched to your curriculum and your child.
+
+Every tutor we take on has to know their curriculum deeply enough to explain an idea three different ways, and stay genuinely patient when a student is stuck for the fourth time. We test for both, then match each family with a mentor who fits the child and the system they follow.
+
+Your child keeps the same tutor, so trust builds — and a child who trusts their tutor will admit "I don't get it," which is where every breakthrough begins.
+
+"We moved from a British school to an American one and our son's maths fell apart. Modern Age Coders matched him with a tutor who knew both systems and bridged the gap. Within a term he was ahead."
+
+— Parent, Dubai Marina
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Local tutoring centre | Maths apps |
+| --- | --- | --- | --- |
+| Matches your exact curriculum | Yes — all five systems | Usually one | Generic |
+| Teaches the reasoning | Always | Varies | Rarely |
+| Same tutor each time | Yes | Often rotates | N/A |
+| Fully online, your time zone | Yes, GST | Travel required | Yes |
+| Monthly price | $100 / ≈AED 370 (1:1) | AED 800–2,500+ | AED 20–50 |
+
+In-person centres in the UAE are excellent but typically far costlier per hour and tied to one curriculum and location. We bring matched, one-to-one teaching to your home, online.
+
+Questions UAE families ask
+
+## Everything you might be wondering.
+
+Do you teach maths for UAE schools and curricula?
+
+Yes — British (GCSE and A-Level), American (with SAT and AP), IB (Maths AA and AI), Indian CBSE and ICSE, and the UAE Ministry of Education curriculum. We teach to your child's actual school and syllabus.
+
+Which emirates do you cover?
+
+All of them — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain — because tuition is fully online, in Gulf Standard Time.
+
+How much does maths tuition cost in the UAE?
+
+USD 100 per month (about AED 370) for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month (about AED 147). No contract; cancel any time.
+
+Is the first lesson free?
+
+Yes — the first lesson is free, with no card needed to book. You meet the tutor and we assess your child and curriculum.
+
+Are the lessons live or recorded?
+
 Every lesson is live and one-to-one with a real tutor on a shared whiteboard.
 
-### What times are lessons available in the UAE?
-After-school, evening and weekend slots in Gulf Standard Time (UTC+4).
+What times are lessons available in the UAE?
 
-### What makes Modern Age Coders different from other maths tutors in the UAE?
-We teach reasoning not tricks, keep the same dedicated tutor, cover every UAE curriculum, and link maths to computational thinking.
+After-school, evening and weekend slots in Gulf Standard Time (UTC+4), around the UAE school week.
 
-### Do you cover all ages?
-Yes — primary through secondary, curriculum exams, college and adults, placed by understanding.
+What makes Modern Age Coders different from other maths tutors in the UAE?
 
-## Related pages
+We teach reasoning rather than tricks, keep the same dedicated tutor, cover every UAE curriculum, and as a coding school we link maths to computational thinking.
 
-- Maths Tutor in Dubai — /maths-tutor-in-dubai
-- Maths Tutor in Abu Dhabi — /maths-tutor-in-abu-dhabi
-- Maths Tutor in Sharjah — /maths-tutor-in-sharjah
-- IB Maths Tutor (AA & AI) in the UAE — /ib-maths-tutor-uae
-- GCSE Maths Tutor in the UAE — /gcse-maths-tutor-uae
-- A-Level Maths Tutor in the UAE — /a-level-maths-tutor-uae
-- CBSE Maths Tutor in the UAE — /cbse-maths-tutor-uae
-- American Curriculum & SAT Maths Tutor in the UAE — /american-maths-tutor-uae
-- Maths Tuition for Kids / Teens / Adults in the UAE — /maths-tuition-for-kids-uae · /maths-tuition-for-teens-uae · /maths-classes-for-adults-uae
+Do you cover all ages?
+
+Yes — from primary children through secondary and curriculum exams to college students and adults, placed by understanding rather than age.
+
+## Book a free maths trial lesson, anywhere in the UAE.
+
+Tell us your child's curriculum and where they're stuck. We'll match a tutor, show you how we teach, and you decide. No card needed, no pressure.
+
+[Explore the courses](/courses)Explore by emirate, curriculum & age
+
+## More maths tuition from Modern Age Coders.
+
+[UAE · emirateMaths Tutor in Dubai](/maths-tutor-in-dubai)[UAE · emirateMaths Tutor in Abu Dhabi](/maths-tutor-in-abu-dhabi)[UAE · emirateMaths Tutor in Sharjah](/maths-tutor-in-sharjah)[UAE · curriculumIB Maths Tutor (AA & AI)](/ib-maths-tutor-uae)[UAE · curriculumCBSE Maths Tutor](/cbse-maths-tutor-uae)[UAE · agesMaths Tuition for Kids](/maths-tuition-for-kids-uae)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/online-maths-tuition-uae*

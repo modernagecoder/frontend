@@ -2,107 +2,236 @@
 title: "Coding Classes in Assam | Online Python, AI & Web Dev for All Ages"
 description: "Live online coding & maths classes in Assam for kids, teens & adults. Scratch, Python, AI, Java, Web Dev & DSA. Serving Guwahati, Dibrugarh, Silchar & Jorhat. Rated 4.9/5. Free demo!"
 canonical: /coding-classes-in-assam
-keywords: ["coding classes in Assam", "online coding classes Assam", "coding classes for kids Assam", "Python classes Assam", "AI course for kids Assam", "coding classes Guwahati", "coding classes Dibrugarh", "coding classes Silchar", "coding classes Jorhat", "SEBA coding", "coding for girls Assam"]
+keywords: ["coding classes in Assam", "online coding classes Assam", "coding classes for kids Assam", "Python classes Assam", "AI course for kids Assam", "coding institute Assam", "learn coding Assam", "coding classes Guwahati", "coding classes Dibrugarh", "coding classes Silchar", "coding classes Jorhat", "SEBA coding"]
 source: src/pages/coding-classes-in-assam.html
-provider: Modern Age Coders
-contact: +91 9123366161
-email: contact@modernagecoders.com
 ---
+> Live online coding & maths classes in Assam for kids, teens & adults. Scratch, Python, AI, Java, Web Dev & DSA. Serving Guwahati, Dibrugarh, Silchar & Jorhat. Rated 4.9/5. Free demo!
+
+Assam • **Live Online Classes**
 
 # Coding Classes in Assam for Kids, Teens & Adults
 
-**Quick answer:** Modern Age Coders runs live online coding and mathematics classes across Assam for ages 6 to 60+. Kids start with Scratch and Python, teens learn Web Development, Java and AI, and college students and adults master Data Structures, Full-Stack development and Data Science. Classes are taught live in small batches of 5–8 students, support SEBA/AHSEC, CBSE and ICSE learners, and are available in Guwahati, Dibrugarh, Silchar, Jorhat and every other city in the state. Group plans start at ₹1,499/month and every student can book a free demo class.
+From Guwahati — the gateway to the Northeast — to Dibrugarh, Silchar and Jorhat, Modern Age Coders teaches Scratch, Python, Java, Web Development and AI through live, small-batch online classes. World-class tech education delivered to every corner of Assam, right at home.
 
-- **Provider:** Modern Age Coders
-- **Where:** Live online, serving all of Assam, India
-- **Ages:** 6 to 60+ (kids, teens, college students, working adults)
-- **Phone / WhatsApp:** +91 9123366161
-- **Email:** contact@modernagecoders.com
-- **Rating:** 4.9/5
-- **Free demo:** Yes, before enrolment
+Book a Free Demo ClassExplore Courses**4.9/5**Parent rating**5–8**Students per batch**100%**Live & online**6–60+**Ages we teach
 
-## What coding courses are available in Assam?
+## Quick answer
 
-### Coding for Kids (ages 6–12)
-Scratch block coding, game design and animation, then an introduction to Python. Lessons also build maths and problem-solving skills.
-- Course page: /courses/coding/kids
+**Modern Age Coders runs live online coding and mathematics classes across Assam for ages 6 to 60+.** Kids start with Scratch and Python, teens learn Web Development, Java and AI, and college students & adults master Data Structures, Full-Stack and Data Science. Classes are taught live in small batches of 5–8 students, support SEBA/AHSEC, CBSE and ICSE learners, and are available in Guwahati, Dibrugarh, Silchar, Jorhat and every other city in the state. Group plans start at ₹1,499/month and every student can book a free demo class.
 
-### Coding for Teens (ages 13–18)
-Python programming, Web Development (HTML, CSS, JavaScript), Java and AI / Machine Learning fundamentals, building real websites, apps and AI projects.
-- Course page: /courses/coding/teens
+Start Today
 
-### Coding for College Students & Adults (ages 18+)
-Data Structures & Algorithms, Full-Stack Web Development, Python for Data Science and AI, plus placement and interview preparation.
-- Course page: /courses/coding/college
+## Book Your Free Demo Class in Assam
 
-## Popular courses for Assam students
-- Python & AI for Kids & Teens — /python-and-ai-classes-for-kids-teens
-- AI & ML for Teens — /ai-ml-course-for-teens
-- Java Programming for Kids & Teens — /java-programming-for-kids-teens
-- Coding for Girls — /coding-classes-for-girls
-- Summer Coding Camp — /summer-coding-camp
+Tell us a little about the learner and we'll arrange a free, no-obligation demo with an expert instructor. No payment required to try.
 
-## How much do coding classes cost in Assam?
+Prefer to talk now? Reach us directly:
 
-| Plan | Price | Batch size | Schedule |
-|------|-------|-----------|----------|
-| Group Batch | ₹1,499 / month | 5–8 students | 2 classes/week |
-| Mini Batch | ₹2,499 / month | 3–4 students | 2 classes/week |
-| 1-on-1 Personal | ₹4,999 / month | 1 student | Flexible / personalised |
+[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes in Assam)
 
-All plans include live interactive sessions, recorded class access and a completion certificate. A free demo class is available before you enrol.
+What We Teach
 
-## Which cities in Assam are served?
+## Coding & Maths Courses for Every Age in Assam
 
-Live online classes reach every district. Dedicated city page:
+A clear path from a child's first block of code to job-ready engineering skills. Every course is live, project-based and taught in small batches by expert instructors.
 
-- **Guwahati** — /best-coding-class-in-guwahati
+AGES 6–12 · KIDS
 
-Also serving: Dibrugarh, Silchar, Jorhat, Nagaon, Tinsukia, Tezpur, Bongaigaon, Dhubri, Sivasagar, Goalpara, Barpeta and North Lakhimpur.
+### Scratch, Python & Game Design
 
-## Why learn coding in Assam?
+Curiosity-first coding that feels like play.
 
-Assam is the gateway to India's Northeast and its largest education hub. Guwahati is growing into a genuine IT and startup centre, IIT Guwahati is one of the country's top engineering institutes, and universities across the state produce more tech-minded graduates every year. Modern Age Coders removes the barrier of finding quality teachers — especially outside Guwahati — with live, small-batch online classes for students in Dibrugarh, Silchar and any district.
+- Scratch block coding, animation & storytelling
+- Build your first games, quizzes & apps
+- Gentle introduction to Python & logic
+- Maths confidence through puzzles & problem-solving
 
-## School boards and exams
+[View Kids Courses →](/courses/coding/kids)AGES 13–18 · TEENS
 
-The curriculum complements the **Board of Secondary Education Assam (SEBA/AHSEC), CBSE and ICSE**, and the advanced maths programme supports **JEE and the Assam CEE**.
+### Python, Java, Web Dev & AI
 
-## Language of instruction
+Real projects for school, portfolio & careers.
 
-Classes are taught in English, and instructors can explain concepts in **Assamese, Hindi or Bengali** when a student is more comfortable.
+- Python programming & real-world apps
+- Web Development with HTML, CSS & JavaScript
+- Java & object-oriented problem solving
+- AI / Machine Learning fundamentals & projects
 
-## Frequently asked questions
+[View Teen Courses →](/courses/coding/teens)AGES 18+ · COLLEGE & ADULTS
 
-**What are the best online coding classes in Assam?**
-Live online classes for kids (6–12), teens (13–18) and adults — Scratch, Python, Web Development, Java, AI/ML and DSA — in small batches of 5–8, with a free demo class.
+### DSA, Full-Stack & Data Science
 
-**Do you support SEBA, CBSE and ICSE students?**
-Yes. The curriculum complements SEBA/AHSEC, CBSE and ICSE.
+Placement-ready, interview-focused training.
 
-**How much do classes cost?**
-Group ₹1,499/month, Mini Batch ₹2,499/month, 1-on-1 ₹4,999/month. Free demo before enrolling.
+- Data Structures & Algorithms (interview prep)
+- Full-Stack Web Development (MERN)
+- Python for Data Science & AI
+- Mock interviews & portfolio building
 
-**Are classes available in Assamese?**
-Yes, instructors teach in English and explain in Assamese, Hindi or Bengali when it helps.
+[View College Courses →](/courses/coding/college)Book a Free Demo for Any Course
 
-**Do you teach Python and AI to kids and teens?**
-Yes — dedicated Python & AI and AI/ML tracks; kids start with Scratch then Python, teens build AI projects.
+Most Requested in Assam
 
-**Can your maths classes help with JEE and Assam CEE?**
-Yes, the advanced maths programme builds fundamentals for JEE and the Assam CEE.
+## Popular Coding Courses for Assam Students
 
-**Do you offer coding for girls?**
-Yes — a dedicated Coding for Girls programme.
+Hand-picked programmes parents and students in Assam ask for most — explore any of them or book a free demo to find the right fit.
 
-**Are classes live or recorded?**
-Live and interactive with a real instructor; every session is also recorded for revision.
+[Python & AIFor kids & teens — code + intelligence](/python-and-ai-classes-for-kids-teens)[AI & ML for TeensBuild real machine-learning projects](/ai-ml-course-for-teens)[Java ProgrammingStrong OOP foundations for teens](/java-programming-for-kids-teens)[Web DevelopmentHTML, CSS, JavaScript & live sites](/courses/coding/teens)[Scratch for KidsGames & animation, ages 6–10](/courses/coding/kids)[DSA & Full-StackPlacement-ready for college students](/courses/coding/college)[Coding for GirlsSupportive, confidence-building batches](/coding-classes-for-girls)[Summer Coding CampFast, fun project sprints](/summer-coding-camp)
 
-## Book a free demo
+Across The State
 
-- Book online: /coding-classes-in-assam#book-demo
-- Call / WhatsApp: +91 9123366161
-- Email: contact@modernagecoders.com
+## Coding Classes in Every Corner of Assam
+
+Because our classes are live and online, any student with a laptop and internet can join — whether you're in the capital or a district town. Explore our dedicated city page:
+
+[Guwahati Assam's largest city and the Northeast's education, IT & commercial gateway. Coding in Guwahati →](/best-coding-class-in-guwahati)DibrugarhSilcharJorhatNagaonTinsukiaTezpurBongaigaonDhubriSivasagarGoalparaBarpetaNorth Lakhimpur
+
+Why It Matters Here
+
+## Why Coding Matters for Students in Assam
+
+Assam is the gateway to India's Northeast and its largest education hub. Guwahati is growing into a genuine IT and startup centre, IIT Guwahati is one of the country's top engineering institutes, and universities across the state are producing more tech-minded graduates every year. For Assamese families, coding is a skill that connects local talent to opportunities across India and the world — without anyone having to leave home.
+
+The barrier has always been access to quality teachers, especially outside Guwahati. Modern Age Coders removes that barrier with **live, small-batch online classes** where a real instructor knows each student's pace, reviews their projects and keeps them building — in Dibrugarh, Silchar or any district.
+
+### Aligned with Assam's school boards
+
+Our curriculum complements the **Board of Secondary Education Assam (SEBA/AHSEC), CBSE and ICSE**. We strengthen the logical thinking and maths fundamentals that help across every subject, and our advanced maths track supports **JEE and the Assam CEE**. Explore [Python & AI](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens) and [DSA & full-stack](/courses/coding/college) tracks built for this.
+
+### Learn in the language you're comfortable with
+
+Classes are taught in English, and instructors can explain concepts in **Assamese, Hindi or Bengali** when it helps a student understand faster. We focus on genuine understanding, not rote learning — and we run a dedicated [Coding for Girls](/coding-classes-for-girls) programme to bring more girls across Assam into tech.
+
+The Difference
+
+## Why Assam Families Choose Modern Age Coders
+
+### Small live batches (5–8)
+
+Every student gets real attention from the instructor. No pre-recorded videos pretending to be a class — these are live, two-way sessions.
+
+### Project-based learning
+
+Students build real games, websites, apps and AI projects — work they can show in school portfolios and college applications.
+
+### Recorded for revision
+
+Missed a class or want to revise? Every live session is recorded and shared, so learning never stops between sessions.
+
+### Board & exam aligned
+
+Lessons reinforce SEBA, CBSE and ICSE concepts and build the maths foundation for JEE and the Assam CEE.
+
+### Certificates that count
+
+Students earn completion certificates that strengthen school portfolios and demonstrate real, verifiable coding skills.
+
+### Free demo, fair pricing
+
+Try a full demo class before you pay anything. Group plans start at just ₹1,499/month with flexible scheduling.
+
+Simple Pricing
+
+## Coding Class Fees in Assam
+
+Transparent monthly plans with no hidden charges. Start with a free demo, then choose the batch size that suits your child.
+
+### Group Batch
+
+₹1,499per month · 2 classes/week
+
+- 5–8 students per batch
+- Live interactive sessions
+- Recorded class access
+- Completion certificate
+
+Start Free DemoMost Popular
+
+### Mini Batch
+
+₹2,499per month · 2 classes/week
+
+- Only 3–4 students per batch
+- More personal attention
+- Recorded class access
+- Project guidance & certificate
+
+Start Free Demo
+
+### 1-on-1 Personal
+
+₹4,999per month · fully personalised
+
+- Dedicated personal instructor
+- Custom pace & schedule
+- Recorded class access
+- Priority project mentoring
+
+Start Free Demo
+
+Parent & Student Voices
+
+## What Assam Families Say
+
+★★★★★
+
+"My son in Guwahati built his first game within weeks. The small batch keeps him engaged and the teacher is very patient. His school maths improved too."
+
+Rituparna B.Parent · Guwahati★★★★★
+
+"We're in Dibrugarh and good coding teachers were impossible to find locally. These live online classes solved it — and they explain in Assamese whenever needed."
+
+Pranjal D.Parent · Dibrugarh★★★★★
+
+"As an engineering student in Silchar, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+
+Madhusmita R.College student · Silchar
+
+## Ready to start coding in Assam?
+
+Book a free demo class today — see how your child learns before you spend a rupee.
+
+Book a Free Demo Class
+
+Good To Know
+
+## Frequently Asked Questions
+
+What are the best online coding classes in Assam?+
+
+Modern Age Coders offers live online coding classes in Assam for kids aged 6–12, teens aged 13–18 and adults. Courses include Scratch, Python, Web Development, Java, AI/ML and Data Structures & Algorithms. Classes run in small batches of 5–8 students with expert instructors, and students across Guwahati, Dibrugarh, Silchar and Jorhat can join. Every new learner gets a free demo class.
+
+Do you offer coding classes for SEBA, CBSE and ICSE students?+
+
+Yes. Our coding and maths curriculum supports students from the Board of Secondary Education Assam (SEBA/AHSEC), CBSE and ICSE. Lessons complement school work and strengthen logical thinking and problem solving alongside the school syllabus.
+
+How much do coding classes cost in Assam?+
+
+Group coding classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,499 per month, and personalised 1-on-1 classes are ₹4,999 per month. A free demo class is available before you enrol.
+
+Are classes available in Assamese as well as English?+
+
+Yes. Our instructors teach in English and can explain concepts in Assamese, Hindi or Bengali when a student is more comfortable, so children across Assam can learn coding in the language that suits them best.
+
+Which cities in Assam do you serve?+
+
+Because classes are live and online, we serve every district of Assam. We have a dedicated city page for Guwahati, and we also teach students in Dibrugarh, Silchar, Jorhat, Nagaon, Tinsukia, Tezpur and beyond.
+
+Do you teach Python and AI to kids and teens in Assam?+
+
+Yes. Kids begin with Scratch and move into Python from around age 10, and teens learn Python, Java, Web Development and AI/Machine Learning by building real projects. See our dedicated [Python & AI](/python-and-ai-classes-for-kids-teens) and [AI & ML for Teens](/ai-ml-course-for-teens) tracks.
+
+Can your maths classes help with JEE and Assam CEE preparation?+
+
+Yes. Our advanced maths programme builds the strong fundamentals needed for JEE and the Assam CEE. We focus on concept clarity, problem-solving speed and reasoning rather than rote learning.
+
+Do you offer coding classes specially for girls in Assam?+
+
+Yes. We run a dedicated [Coding for Girls](/coding-classes-for-girls) track and supportive batches that encourage girls in Assam to build games, websites and AI projects with confidence.
+
+Are the classes live or recorded?+
+
+All classes are live and interactive with a real instructor, so students can ask questions in real time. Each session is also recorded and shared, so learners in Assam can revise lessons anytime.
 
 ---
 

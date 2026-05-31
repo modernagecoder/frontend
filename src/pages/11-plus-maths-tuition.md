@@ -1,109 +1,257 @@
-# 11 Plus Maths Tuition Online — Modern Age Coders
+---
+title: "11 Plus Maths Tuition Online · 1:1 GL & CEM 11+ Maths Prep — Modern Age Coders"
+description: "Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+canonical: https://learn.modernagecoders.com/11-plus-maths-tuition
+keywords: ["11 plus maths tuition", "11+ maths tutor online", "11 plus maths prep", "GL assessment maths", "CEM 11 plus maths", "grammar school maths entry", "independent school 11+ maths", "11 plus problem solving", "11+ maths past papers", "year 5 11 plus maths", "11 plus reasoning maths", "online 11 plus tutor UK"]
+source: src/pages/11-plus-maths-tuition.html
+---
+> Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
 
-Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number
-fluency and problem-solving for grammar and independent school entry — not just past-paper
-drilling — with the timed-reasoning skills the 11+ rewards. Same tutor to the exam, UK time.
-**USD 100/month for eight live 1:1 lessons (two a week). Small-group option: USD 40/month.**
-First lesson free.
+Why 11+ prep often backfires
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** UK children aged 9–11 preparing for 11+ maths (grammar and independent entry)
-- **Format:** Live one-to-one online, 8 lessons/month, 2 per week, UK time
-- **Price:** USD 100/month (1:1) · USD 40/month (small group) · no contract
-- **Full course:** /courses/elementary-mathematics-complete-masterclass
+## Drilling past papers builds a child who panics the moment a question looks unfamiliar.
 
-## The problem we solve
+The 11+ is competitive, so the instinct is to hammer past papers from Year 4. But the exam is specifically designed to reward flexible reasoning under time pressure — it dresses familiar maths in unfamiliar clothes. A child trained only to recognise the exact question types they've drilled freezes the moment the wording shifts.
 
-Drilling past papers builds a child who panics the moment a question looks unfamiliar. The
-11+ is designed to reward flexible reasoning under time pressure — it dresses familiar maths
-in unfamiliar clothes. A child trained only on the exact question types they've drilled
-freezes when the wording shifts, and relentless drilling drains the confidence that helps a
-child think clearly in the exam room. We build genuine number fluency and problem-solving
-first, then add timed practice and strategy.
+Worse, relentless drilling drains the confidence and enjoyment that actually help a child think clearly in the exam room.
 
-## How we teach
+What the 11+ really tests is whether a child can reason quickly and calmly with numbers — spotting the efficient route, drawing a problem out, checking an answer makes sense.
 
-1. **Build rock-solid number sense** — quick arithmetic, fractions, ratio, percentages.
-2. **Teach problem-solving moves** — drawing a problem, working backwards, the efficient route.
-3. **Add timing gently** — speed on a foundation of understanding, with calm clock strategies.
-4. **Rehearse the real exam** — GL, CEM or school papers under realistic conditions.
+So we build that. We grow genuine number fluency and problem-solving first, on a foundation of understanding, then add timed practice and exam strategy. The result is a child who stays composed when a question surprises them — which is exactly the child the 11+ is looking for.
 
-## A real worked example: a ratio problem, drawn out
+How we teach
 
-"Sweets shared between Amy and Ben in the ratio 3 : 5. Ben gets 12 more. How many altogether?"
-See a ratio as equal parts and draw them:
+## Fluency and reasoning first, exam technique second.
 
-- Amy 3 parts, Ben 5 parts; Ben's extra = 5 − 3 = 2 parts = 12 sweets
-- 1 part = 12 ÷ 2 = 6; total parts = 8 → **48 sweets**
+The order matters — technique only sticks on top of real understanding.
 
-No equation, no panic — "draw the parts and find what one part is worth" cracks a huge family
-of 11+ ratio questions. We teach a small kit of these reliable moves so an unfamiliar question
-becomes "I know how to start this."
+### Build rock-solid number sense
 
-## Why a coding school teaches 11+ maths
+Quick, confident arithmetic and a real grasp of fractions, ratio and percentages — the toolkit every 11+ question draws on.
 
-The 11+ rewards the thinking we build in young coders: **break the problem down**, **spot the
-pattern**, and **check it makes sense**. Children who learn maths this way carry a genuine
-problem-solving habit into secondary school.
+### Teach problem-solving moves
 
-## What we cover
+Drawing a problem, working backwards, spotting the efficient route — the flexible thinking the exam actually rewards.
 
-- Number & arithmetic fluency: fast four operations, place value, factors, mental maths
-- Fractions, decimals & percentages and the links between them
-- Ratio & proportion, taught with the draw-the-parts approach
-- Word & multi-step problems: reading carefully, choosing the method
-- Measures, time & data: money, units, perimeter, area, tables and graphs
-- Exam technique: timed practice, when to skip and return, careful marking, staying calm
+### Add timing gently
 
-## How lessons work
+We build speed on a foundation of understanding, never by rushing, and teach calm strategies for the clock.
 
-One child, one tutor, live video with a shared whiteboard. Eight lessons a month, two each
-week (about 45 minutes), paced for the exam timeline. After-school, early-evening and weekend
-slots in UK time. A note after each lesson.
+### Rehearse the real exam
 
-## FAQ
+GL, CEM or school-specific papers under realistic conditions, reviewing every miss to find the cause.
 
-### Do you prepare for GL and CEM-style 11+ exams?
-Yes — both, plus individual school papers where set.
+See it for yourself
 
-### When should we start 11+ maths prep?
-Year 4 or early Year 5 gives the calmest, most effective preparation; we also help later starters honestly.
+## A tricky 11+ ratio problem — solved by drawing it out.
 
-### Isn't 11+ prep just drilling past papers?
-Drilling alone is brittle. We build fluency and problem-solving first, then layer on timed practice.
+Worked example · numerical reasoning
 
-### My child gets anxious about the timing. Can you help?
-Yes — speed built gradually on understanding, with calm strategies, at your child's pace.
+**The question:** "Sweets are shared between Amy and Ben in the ratio 3 : 5. Ben gets 12 more than Amy. How many sweets are there altogether?" Under time pressure, children try random sums and get lost.
 
-### How much does it cost?
-USD 100/month for 1:1 (eight live lessons, two a week). Small-group option USD 40/month. No contract.
+**How we teach it.** The trick the 11+ wants is to see a ratio as equal-sized parts, and to draw them. Amy has 3 parts, Ben has 5 parts. Ben's extra 2 parts are the "12 more":
 
-### Is there a free trial?
-Yes — the first lesson is free, no card needed.
+Amy: ▢▢▢ Ben: ▢▢▢▢▢Ben's extra parts = 5 − 3 = 2 parts = 12 sweetsso 1 part = 12 ÷ 2 = 6 sweetstotal parts = 3 + 5 = 8 → total = 8 × 6 = **48 sweets**
 
-### Will my child keep the same tutor?
-Yes — one tutor to the exam.
+No equation, no panic — just "draw the parts and find what one part is worth." That single habit cracks a huge family of 11+ ratio and proportion questions, however they're worded. We teach children a small kit of these reliable moves, so an unfamiliar question becomes "oh, I know how to start this" instead of a blank. That calm confidence is worth more marks on the day than any amount of frantic drilling.
 
-### Are lessons live?
+Why a coding school teaches 11+ maths
+
+## The 11+ rewards exactly the thinking we build in young coders.
+
+### Break the problem down
+
+Turning a wordy question into clear steps is the same skill that turns a task into code. We teach children to do it instinctively.
+
+### Spot the pattern
+
+Seeing the structure inside a problem — the parts, the repeat, the rule — is what the 11+ reasoning sections test, and what coding sharpens.
+
+### Check it makes sense
+
+"Is 48 a sensible answer?" is a debugging habit that saves careless marks under exam pressure.
+
+We're Modern Age Coders, and the clear, structured thinking we teach young programmers is precisely what the 11+ rewards. Children who learn maths this way don't just pass an exam — they carry a genuine problem-solving habit into secondary school and beyond.
+
+What we cover
+
+## Everything the 11+ maths and numerical reasoning expects.
+
+Tailored to GL, CEM or your target schools' own papers.
+
+### Number & arithmetic fluency
+
+Fast, accurate four operations, place value, factors and multiples, and the mental maths the timed papers demand.
+
+### Fractions, decimals & percentages
+
+Confident work across all three and the links between them — a heavily tested 11+ area.
+
+### Ratio & proportion
+
+Sharing, scaling and proportion problems, taught with the draw-the-parts approach that makes them simple.
+
+### Word & multi-step problems
+
+Reading carefully, choosing the method, and working through several steps without losing the thread.
+
+### Measures, time & data
+
+Money, time, units, perimeter and area, and reading tables and graphs under time pressure.
+
+### Exam technique
+
+Timed practice, when to skip and return, careful marking of answers, and staying calm with the clock.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the Year 4 or 5 child beginning 11+ preparation, the child who's been drilling but freezes on unfamiliar questions, and the able child who needs stretch and exam composure rather than more worksheets. We tailor to grammar or independent entry and your target schools.
+
+**What's realistic.** Real fluency and reasoning build over months of steady, calm work — that's the preparation that actually performs on the day. Selective entry is competitive, so we never guarantee a place; we guarantee genuinely well-taught maths and a confident, composed exam-taker.
+
+### What we won't do
+
+- Drill papers at the expense of real understanding.
+- Pile on pressure that drains your child's confidence.
+- Guarantee a grammar or independent place.
+- Treat the 11+ as separate from genuine maths learning.
+
+How lessons work
+
+## Calm, consistent, and built toward the exam date.
+
+### 1:1, live
+
+One child, one tutor, real-time video with a shared whiteboard for working problems together.
+
+### 8 lessons a month
+
+Two each week, around 45 minutes, paced for the exam timeline without overload.
+
+### UK time
+
+After-school, early-evening and weekend slots in GMT/BST.
+
+### You stay informed
+
+A note after each lesson and a progress summary every few weeks.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Tuition
+
+$100 / month
+
+- 8 live one-to-one lessons a month (2 per week)
+- The same dedicated tutor to the exam
+- Tailored to GL, CEM or your target schools
+- Notes after every lesson · cancel any time
+
+### Small-Group Cohort
+
+$40 / month
+
+- 8 live small-group lessons a month (2 per week)
+- A few children at the same stage
+- Same teaching approach, lower price
+- A friendly option · cancel any time
+
+[See the full course](/courses/elementary-mathematics-complete-masterclass)
+
+Sitting 13+ entry instead? See our [**Common Entrance Maths →**](/common-entrance-maths-tuition) page.
+
+Who teaches your child
+
+## Tutors who keep 11+ prep calm and effective.
+
+11+ preparation can become stressful fast, and a good tutor's first job is to keep it from doing so. Ours are chosen for genuine warmth with this age group as much as for sharp maths — they build confidence while they build skill, because a calm child performs and an anxious one doesn't.
+
+The same tutor stays to the exam, so they know exactly which question types still trip your child up and aim each lesson there.
+
+"We'd tried a drilling tutor and our daughter dreaded it. This was different — she actually enjoyed the lessons, stopped panicking in mocks, and got her grammar place."
+
+— Parent of a Year 5 child, Kent
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Past-paper packs | Drilling tutor |
+| --- | --- | --- | --- |
+| Builds flexible reasoning | Yes, first | No | Rarely |
+| Keeps the child confident | A priority | You manage it | Often not |
+| Same tutor to the exam | Yes | N/A | Usually |
+| Strengthens school maths too | Yes | No | Sometimes |
+| Monthly price | $100 (1:1) / $40 (group) | £10–30 | £30–50/hr |
+
+Past-paper packs are a useful part of preparation, and we use them — but only on top of the reasoning and confidence that make a child perform when a question surprises them.
+
+Questions parents ask
+
+## Everything you might be wondering.
+
+Do you prepare for GL and CEM-style 11+ exams?
+
+Yes — both GL Assessment and CEM-style maths and numerical reasoning, and individual school papers where set. Tailored to the exact exams your child is sitting.
+
+When should we start 11+ maths prep?
+
+Year 4 or early Year 5 gives the calmest, most effective preparation. We also help families who start later, with an honest view of what's achievable.
+
+Isn't 11+ prep just drilling past papers?
+
+Drilling alone produces brittle results. The 11+ rewards quick, flexible reasoning, so we build fluency and problem-solving first, then layer on timed practice.
+
+My child gets anxious about the timing. Can you help?
+
+Yes — we build speed gradually on a foundation of understanding and teach calm strategies, going at exactly your child's pace.
+
+How much does it cost?
+
+USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+
+Is there a free trial?
+
+Yes — the first lesson is free, no card needed. We assess your child and the exams they're targeting.
+
+Will my child keep the same tutor?
+
+Yes — one tutor to the exam who knows which question types still need work.
+
+Are lessons live?
+
 Yes — live, one-to-one, with a shared whiteboard.
 
-### Does this also help with school maths?
-Yes — the fluency and reasoning strengthen KS2 school maths.
+Does this also help with school maths?
 
-### What if my child doesn't pass?
-We never guarantee a result — entry is competitive. We promise well-taught maths and a confident exam-taker.
+Yes — the fluency and reasoning strengthen KS2 school maths at the same time.
 
-### Do you cover the non-verbal reasoning too?
-Our focus is maths and numerical reasoning; we can advise on combining with dedicated reasoning support.
+What if my child doesn't pass?
 
-### What time slots are available?
+We never guarantee a result — selective entry is competitive. We promise genuinely well-taught maths that leaves your child stronger and more confident whatever the outcome.
+
+Do you cover the non-verbal reasoning too?
+
+Our focus is maths and numerical reasoning; the spatial and pattern thinking overlaps usefully. We can advise on combining our work with dedicated reasoning support.
+
+What time slots are available?
+
 After-school, early-evening and weekend slots in UK time (GMT/BST).
 
-## Related pages
+## Book a free 11+ maths trial lesson.
 
-- Common Entrance Maths — /common-entrance-maths-tuition
-- KS2 Maths Tuition (SATs) — /ks2-maths-tuition-online
-- Maths Tuition for Kids in the UK — /online-maths-tuition-for-kids-in-uk
-- Maths Tuition for Teens in the UK — /online-maths-tuition-for-teens-in-uk
-- Maths Tutoring for Kids in the USA — /online-maths-tutoring-for-kids-in-usa
-- Elementary Mathematics Masterclass — /courses/elementary-mathematics-complete-masterclass
+Tell us your target schools and exam board. We'll assess your child calmly, show you how we teach, and map out the path to the exam. No card needed.
+
+[See the full course](/courses/elementary-mathematics-complete-masterclass)Keep exploring
+
+## More maths tuition from Modern Age Coders.
+
+[UK · 13+Common Entrance Maths](/common-entrance-maths-tuition)[UK · KS2KS2 Maths Tuition (SATs)](/ks2-maths-tuition-online)[UK · primaryMaths Tuition for Kids](/online-maths-tuition-for-kids-in-uk)[UK · KS3/KS4Maths Tuition for Teens](/online-maths-tuition-for-teens-in-uk)[USA · ages 6–11Maths Tutoring for Kids (USA)](/online-maths-tutoring-for-kids-in-usa)[CourseElementary Mathematics Masterclass](/courses/elementary-mathematics-complete-masterclass)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/11-plus-maths-tuition*

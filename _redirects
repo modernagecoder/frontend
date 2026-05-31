@@ -217,6 +217,47 @@
 /java-oops-concepts-course /src/pages/java-oops-concepts-course.html 200
 /java-certification-course /src/pages/java-certification-course.html 200
 
+# C++ course cluster (pillar + spokes)
+/best-c-plus-plus-classes-in-india /src/pages/best-c-plus-plus-classes-in-india.html 200
+/c-plus-plus-classes-for-teens /src/pages/c-plus-plus-classes-for-teens.html 200
+/c-plus-plus-classes-for-college-students /src/pages/c-plus-plus-classes-for-college-students.html 200
+/c-plus-plus-for-beginners /src/pages/c-plus-plus-for-beginners.html 200
+/c-plus-plus-dsa-course /src/pages/c-plus-plus-dsa-course.html 200
+/c-plus-plus-oops-concepts-course /src/pages/c-plus-plus-oops-concepts-course.html 200
+/c-plus-plus-for-competitive-programming /src/pages/c-plus-plus-for-competitive-programming.html 200
+/c-plus-plus-projects-for-students /src/pages/c-plus-plus-projects-for-students.html 200
+/online-c-plus-plus-classes /src/pages/online-c-plus-plus-classes.html 200
+/c-plus-plus-for-placement-preparation /src/pages/c-plus-plus-for-placement-preparation.html 200
+/c-plus-plus-game-development /src/pages/c-plus-plus-game-development.html 200
+/c-plus-plus-certification-course /src/pages/c-plus-plus-certification-course.html 200
+
+# AI/ML course cluster (pillar + spokes)
+/best-ai-and-machine-learning-course-in-india /src/pages/best-ai-and-machine-learning-course-in-india.html 200
+/machine-learning-course-for-beginners /src/pages/machine-learning-course-for-beginners.html 200
+/deep-learning-course /src/pages/deep-learning-course.html 200
+/data-science-course /src/pages/data-science-course.html 200
+/artificial-intelligence-course /src/pages/artificial-intelligence-course.html 200
+/generative-ai-course /src/pages/generative-ai-course.html 200
+/python-for-data-science /src/pages/python-for-data-science.html 200
+/python-for-machine-learning /src/pages/python-for-machine-learning.html 200
+/ai-course-for-beginners /src/pages/ai-course-for-beginners.html 200
+/how-to-build-ai-models /src/pages/how-to-build-ai-models.html 200
+/how-to-train-machine-learning-models /src/pages/how-to-train-machine-learning-models.html 200
+/build-machine-learning-models-in-python /src/pages/build-machine-learning-models-in-python.html 200
+/neural-networks-course /src/pages/neural-networks-course.html 200
+/natural-language-processing-course /src/pages/natural-language-processing-course.html 200
+/computer-vision-course /src/pages/computer-vision-course.html 200
+/large-language-models-course /src/pages/large-language-models-course.html 200
+/prompt-engineering-course /src/pages/prompt-engineering-course.html 200
+/ai-agents-course /src/pages/ai-agents-course.html 200
+/deep-learning-with-tensorflow-and-pytorch /src/pages/deep-learning-with-tensorflow-and-pytorch.html 200
+/data-analytics-course /src/pages/data-analytics-course.html 200
+/ai-ml-course-for-college-students /src/pages/ai-ml-course-for-college-students.html 200
+/ai-and-machine-learning-for-working-professionals /src/pages/ai-and-machine-learning-for-working-professionals.html 200
+/ai-ml-projects-for-students /src/pages/ai-ml-projects-for-students.html 200
+/ai-ml-certification-course /src/pages/ai-ml-certification-course.html 200
+/online-ai-and-machine-learning-classes /src/pages/online-ai-and-machine-learning-classes.html 200
+
 # Daily Challenges & Practice Pages
 /coding-challenges /src/pages/coding-challenges.html 200
 /maths-challenges /src/pages/maths-challenges.html 200

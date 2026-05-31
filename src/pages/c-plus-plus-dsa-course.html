@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+        gtag('config', 'AW-16910316353');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ DSA Course | Data Structures &amp; Algorithms in C++ (with STL) Online</title>
+
+    <meta name="description"
+        content="Master Data Structures & Algorithms in C++ with the STL. Live online DSA course — arrays, linked lists, stacks, trees, graphs, hashing, recursion & dynamic programming for placements & competitive programming. Small batches, free demo.">
+    <meta name="keywords"
+        content="c++ dsa course, data structures and algorithms in c++, c++ stl course, dsa with c++ online, c++ dsa for placements, learn dsa in c++, c++ algorithms course, dsa course India, c++ data structures, competitive programming dsa c++">
+    <meta name="author" content="Modern Age Coders">
+    <link rel="canonical" href="/c-plus-plus-dsa-course">
+
+    <link rel="alternate" type="text/markdown" href="/src/pages/c-plus-plus-dsa-course.md" title="Markdown version for AI agents">
+    <link rel="alternate" hreflang="en" href="/c-plus-plus-dsa-course" />
+    <link rel="alternate" hreflang="en-in" href="/c-plus-plus-dsa-course" />
+    <link rel="alternate" hreflang="x-default" href="/c-plus-plus-dsa-course" />
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <meta name="theme-color" content="#6366f1">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/c-plus-plus-dsa-course">
+    <meta property="og:title" content="C++ DSA Course | Data Structures &amp; Algorithms in C++ (with STL)">
+    <meta property="og:description"
+        content="Master DSA in C++ with the STL — arrays, linked lists, trees, graphs, recursion and dynamic programming for placements and competitive programming. Live small-batch classes. Free demo.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="C++ DSA Course (with STL) — Placement Ready">
+    <meta name="twitter:description"
+        content="Data Structures & Algorithms in C++ with the STL for placements and competitive programming. Live small-batch online classes. Free demo.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+    <meta name="google-site-verification" content="fpweGaVH4rJIwjSfE5wSdzUGWTYsLz2KFENZxOoX91k" />
+    <meta name="geo.region" content="IN">
+    <meta name="geo.placename" content="India">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "EducationalOrganization",
+          "@id": "https://learn.modernagecoders.com/c-plus-plus-dsa-course#org",
+          "name": "Modern Age Coders — C++ DSA Course",
+          "description": "Live online Data Structures & Algorithms course taught in C++ with the STL. Covers arrays, linked lists, stacks, queues, trees, graphs, hashing, recursion, sorting and dynamic programming for placements and competitive programming, in small batches with expert mentors.",
+          "url": "https://learn.modernagecoders.com/c-plus-plus-dsa-course",
+          "telephone": "+919123366161",
+          "email": "contact@modernagecoders.com",
+          "areaServed": { "@type": "Country", "name": "India" },
+          "priceRange": "₹₹",
+          "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "418", "bestRating": "5" },
+          "sameAs": [
+            "https://www.facebook.com/modernagecoders",
+            "https://www.instagram.com/modern_age_coders",
+            "https://www.linkedin.com/company/modernagecoders",
+            "https://www.youtube.com/@modernagecoders"
+          ]
+        },
+        {
+          "@type": "Course",
+          "name": "Data Structures & Algorithms in C++ (with STL)",
+          "description": "A complete DSA course in C++ covering arrays, strings, linked lists, stacks, queues, hashing, recursion, trees, graphs, sorting and searching, greedy techniques and dynamic programming — implemented with the Standard Template Library.",
+          "provider": { "@type": "Organization", "name": "Modern Age Coders", "sameAs": "https://learn.modernagecoders.com" },
+          "educationalLevel": "Intermediate to Advanced", "courseCode": "CPP-DSA",
+          "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online", "courseWorkload": "PT3H" },
+          "offers": { "@type": "Offer", "price": "1499", "priceCurrency": "INR", "availability": "https://schema.org/InStock" }
+        },
+        {
+          "@type": "Course",
+          "name": "C++ DSA for Placements & Contests",
+          "description": "An interview-and-contest-focused DSA track in C++ with problem-solving patterns — two pointers, sliding window, binary search, recursion and dynamic programming — plus mock interviews for placement coding rounds.",
+          "provider": { "@type": "Organization", "name": "Modern Age Coders", "sameAs": "https://learn.modernagecoders.com" },
+          "educationalLevel": "Advanced", "courseCode": "CPP-DSA-PLACEMENT",
+          "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online", "courseWorkload": "PT3H" },
+          "offers": { "@type": "Offer", "price": "1499", "priceCurrency": "INR", "availability": "https://schema.org/InStock" }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "What does the C++ DSA course cover?", "acceptedAnswer": { "@type": "Answer", "text": "The course covers the full Data Structures & Algorithms syllabus in C++ — arrays, strings, linked lists, stacks, queues, hashing, recursion, trees, graphs, sorting and searching, greedy techniques and dynamic programming — implemented with the STL, with interview-style problems throughout." } },
+            { "@type": "Question", "name": "Why learn DSA in C++ specifically?", "acceptedAnswer": { "@type": "Answer", "text": "C++ is fast and its Standard Template Library gives you ready-made data structures — vector, map, set, stack, queue, priority_queue — so you implement algorithms quickly and cleanly. It is the most popular language for competitive programming and is accepted in nearly every placement coding round." } },
+            { "@type": "Question", "name": "Do I need to know C++ before joining the DSA course?", "acceptedAnswer": { "@type": "Answer", "text": "A basic working knowledge of C++ (syntax, loops, functions, OOP) helps. If you are new or rusty, we begin with a fast Core C++ and STL refresher before the DSA deep dive, and place you in the right batch after a free demo." } },
+            { "@type": "Question", "name": "Is this DSA course good for college placements?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — it is built for it. The syllabus mirrors what interviewers ask in coding rounds, and the track includes problem-solving patterns and mock interviews so you can clear product-company and campus placements." } },
+            { "@type": "Question", "name": "How much does the C++ DSA course cost?", "acceptedAnswer": { "@type": "Answer", "text": "Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,499 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first." } },
+            { "@type": "Question", "name": "Are the DSA classes live with practice problems?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Classes are live in small batches with a mentor who reviews your code, and every topic comes with hand-picked practice problems and contest-style questions, all recorded for revision." } }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com" },
+            { "@type": "ListItem", "position": 2, "name": "Best C++ Classes in India", "item": "https://learn.modernagecoders.com/best-c-plus-plus-classes-in-india" },
+            { "@type": "ListItem", "position": 3, "name": "C++ DSA Course", "item": "https://learn.modernagecoders.com/c-plus-plus-dsa-course" }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "name": "C++ DSA Course — Data Structures & Algorithms with STL",
+          "description": "Live online Data Structures & Algorithms course in C++ with the STL — arrays, trees, graphs, recursion and dynamic programming for placements and competitive programming. Small batches, free demo.",
+          "url": "https://learn.modernagecoders.com/c-plus-plus-dsa-course",
+          "inLanguage": "en-IN",
+          "isPartOf": { "@type": "WebSite", "name": "Modern Age Coders", "url": "https://learn.modernagecoders.com" },
+          "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".cd-quick-answer", ".cd-hero h1"] }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Page Specific Fixes -->
+    <style>
+        select.input-field, select {
+            background-color: #0a0a1e !important; color: #ffffff !important;
+            border: 1px solid rgba(99, 102, 241, 0.5) !important;
+            padding: 12px 16px !important; border-radius: 8px !important; font-size: 15px !important;
+            -webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%236366f1' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E") !important;
+            background-repeat: no-repeat !important; background-position: right 12px center !important; cursor: pointer !important;
+        }
+        select.input-field option, select option { background-color: #0a0a1e !important; color: #ffffff !important; padding: 10px !important; }
+    </style>
+
+    <!-- ============ C++ DSA COURSE — DISTINCT IDENTITY (C++ blue / indigo) ============ -->
+    <style>
+        :root {
+            --cd-blue: #2b9be8; --cd-indigo: #6366f1;
+            --cd-ink: #e8e9fb; --cd-muted: #b0b2d4;
+            --cd-line: rgba(99, 102, 241, 0.26); --cd-card: rgba(12, 12, 28, 0.72);
+        }
+        .cppdsa-page { background: #06061a; }
+        .cd-hero { position: relative; padding: 116px 20px 64px; overflow: hidden;
+            background: radial-gradient(1100px 520px at 84% -10%, rgba(43,155,232,0.16), transparent 60%), radial-gradient(900px 480px at 4% 8%, rgba(99,102,241,0.22), transparent 62%); }
+        .cd-hero::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(rgba(99,102,241,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(99,102,241,0.05) 1px, transparent 1px); background-size: 40px 40px; mask-image: radial-gradient(820px 480px at 55% 0%, #000 0%, transparent 76%); pointer-events: none; }
+        .cd-hero-inner { position: relative; max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: 1.04fr 0.96fr; gap: 48px; align-items: center; }
+        .cd-eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 12.5px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; color: var(--cd-indigo); background: rgba(99,102,241,0.12); border: 1px solid var(--cd-line); padding: 7px 14px; border-radius: 999px; }
+        .cd-eyebrow b { color: #60c6ff; }
+        .cd-hero h1 { font-family: 'Syne', 'Inter', sans-serif; font-weight: 800; font-size: clamp(2.15rem, 4.7vw, 3.5rem); line-height: 1.05; color: #fff; margin: 18px 0 16px; letter-spacing: -0.5px; }
+        .cd-hero h1 .cd-grad { background: linear-gradient(100deg, var(--cd-indigo), #818cf8); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+        .cd-hero p.cd-lede { font-size: 1.07rem; line-height: 1.72; color: var(--cd-muted); max-width: 580px; margin: 0 0 26px; }
+        .cd-cta-row { display: flex; flex-wrap: wrap; gap: 14px; }
+        .cd-btn { display: inline-flex; align-items: center; gap: 9px; padding: 15px 28px; border-radius: 12px; font-weight: 700; font-size: 1rem; text-decoration: none; cursor: pointer; border: none; transition: transform .2s ease, box-shadow .2s ease; }
+        .cd-btn-primary { background: linear-gradient(100deg, var(--cd-indigo), #4f46e5); color: #fff; box-shadow: 0 10px 30px rgba(99,102,241,0.34); }
+        .cd-btn-primary:hover { transform: translateY(-2px); box-shadow: 0 16px 40px rgba(99,102,241,0.46); }
+        .cd-btn-ghost { background: transparent; color: var(--cd-ink); border: 1px solid var(--cd-line); }
+        .cd-btn-ghost:hover { border-color: var(--cd-indigo); transform: translateY(-2px); }
+
+        /* hero side — data structure visual */
+        .cd-ds { background: var(--cd-card); border: 1px solid var(--cd-line); border-radius: 16px; padding: 24px; box-shadow: 0 26px 60px rgba(0,0,0,0.5); }
+        .cd-ds-title { font-family: 'Fira Code', monospace; font-size: 12px; color: var(--cd-indigo); margin-bottom: 14px; }
+        .cd-arr { display: flex; gap: 6px; margin-bottom: 22px; }
+        .cd-cell { flex: 1; text-align: center; background: rgba(99,102,241,0.10); border: 1px solid var(--cd-line); border-radius: 8px; padding: 12px 0; font-family: 'Fira Code', monospace; color: #c7d2fe; font-size: 14px; }
+        .cd-cell.hot { background: rgba(43,155,232,0.18); border-color: var(--cd-blue); color: #fff; }
+        .cd-tree { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+        .cd-node { width: 38px; height: 38px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--cd-indigo), var(--cd-blue)); color: #fff; font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 700; }
+        .cd-row { display: flex; gap: 40px; }
+        .cd-tree-wrap { position: relative; }
+        .cd-tree-wrap::before, .cd-tree-wrap::after { content: ""; position: absolute; top: 38px; width: 24px; height: 1px; background: var(--cd-line); }
+
+        .cd-wrap { max-width: 1180px; margin: 0 auto; }
+        .cd-section { padding: 66px 20px; }
+        .cd-kicker { color: #60c6ff; font-weight: 700; font-size: 13px; letter-spacing: 1.4px; text-transform: uppercase; text-align: center; margin: 0 0 8px; }
+        .cd-h2 { font-family: 'Syne', 'Inter', sans-serif; font-weight: 800; font-size: clamp(1.65rem, 3vw, 2.35rem); color: #fff; text-align: center; margin: 0 0 14px; letter-spacing: -0.4px; }
+        .cd-sub { text-align: center; color: var(--cd-muted); max-width: 700px; margin: 0 auto 40px; line-height: 1.7; font-size: 1.02rem; }
+        .cd-ribbon { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+        .cd-stat { flex: 1 1 150px; background: var(--cd-card); border: 1px solid var(--cd-line); border-radius: 14px; padding: 16px 18px; }
+        .cd-stat b { display: block; font-family: 'Syne', sans-serif; font-size: 1.7rem; color: #fff; line-height: 1; }
+        .cd-stat span { font-size: 13px; color: var(--cd-muted); }
+        .cd-quick-answer { position: relative; max-width: 1000px; margin: -18px auto 0; background: linear-gradient(180deg, rgba(99,102,241,0.13), rgba(43,155,232,0.05)); border: 1px solid var(--cd-line); border-left: 4px solid var(--cd-indigo); border-radius: 14px; padding: 26px 28px; }
+        .cd-quick-answer h2 { font-size: 1.05rem; color: var(--cd-indigo); margin: 0 0 10px; font-weight: 700; letter-spacing: .3px; }
+        .cd-quick-answer p { color: #e3e4f7; line-height: 1.74; margin: 0; font-size: 1.04rem; }
+
+        .cd-grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+        .cd-card { background: var(--cd-card); border: 1px solid var(--cd-line); border-radius: 16px; padding: 26px 22px; transition: transform .25s ease, border-color .25s ease; }
+        .cd-card:hover { transform: translateY(-6px); border-color: var(--cd-indigo); }
+        .cd-card .cd-ic { width: 46px; height: 46px; border-radius: 12px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, rgba(43,155,232,0.22), rgba(99,102,241,0.16)); border: 1px solid var(--cd-line); margin-bottom: 16px; }
+        .cd-card h3 { font-family: 'Syne', sans-serif; color: #fff; font-size: 1.12rem; margin: 0 0 8px; }
+        .cd-card p { color: var(--cd-muted); font-size: .95rem; line-height: 1.62; margin: 0; }
+
+        .cd-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+        .cd-step { background: var(--cd-card); border: 1px solid var(--cd-line); border-radius: 16px; padding: 24px 20px; }
+        .cd-step .cd-no { font-family: 'Fira Code', monospace; font-size: 12px; color: var(--cd-indigo); }
+        .cd-step h3 { font-family: 'Syne', sans-serif; color: #fff; font-size: 1.06rem; margin: 6px 0 8px; }
+        .cd-step p { color: var(--cd-muted); font-size: .9rem; line-height: 1.55; margin: 0; }
+
+        .cd-promo { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+        .cd-promo a { display: block; text-decoration: none; background: var(--cd-card); border: 1px solid var(--cd-line); border-radius: 14px; padding: 18px 16px; transition: transform .2s ease, border-color .2s ease, background .2s ease; }
+        .cd-promo a:hover { transform: translateY(-4px); border-color: var(--cd-indigo); background: rgba(99,102,241,0.06); }
+        .cd-promo .cd-pt { font-family: 'Syne', sans-serif; color: #fff; font-weight: 700; font-size: 1rem; margin: 0 0 4px; }
+        .cd-promo .cd-pd { color: var(--cd-muted); font-size: .82rem; line-height: 1.4; }
+
+        .cd-pricing { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1000px; margin: 0 auto; }
+        .cd-plan { background: var(--cd-card); border: 1px solid var(--cd-line); border-radius: 18px; padding: 30px 26px; text-align: center; position: relative; }
+        .cd-plan.cd-pop { border-color: var(--cd-indigo); box-shadow: 0 18px 44px rgba(99,102,241,0.18); }
+        .cd-plan .cd-badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: linear-gradient(100deg, var(--cd-indigo), #4f46e5); color: #fff; font-size: 11.5px; font-weight: 800; letter-spacing: .5px; padding: 5px 14px; border-radius: 999px; text-transform: uppercase; }
+        .cd-plan h3 { font-family: 'Syne', sans-serif; color: #fff; font-size: 1.2rem; margin: 0 0 10px; }
+        .cd-price { font-family: 'Syne', sans-serif; font-size: 2.3rem; color: #fff; line-height: 1; }
+        .cd-price small { display: block; font-size: .85rem; color: var(--cd-muted); margin-top: 6px; font-family: 'Inter', sans-serif; }
+        .cd-plan ul { list-style: none; padding: 0; margin: 20px 0 24px; text-align: left; }
+        .cd-plan li { color: var(--cd-muted); padding: 6px 0 6px 24px; position: relative; font-size: .93rem; }
+        .cd-plan li::before { content: "✓"; position: absolute; left: 0; color: var(--cd-blue); font-weight: 800; }
+
+        .cd-quotes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .cd-quote { background: var(--cd-card); border: 1px solid var(--cd-line); border-radius: 16px; padding: 26px 24px; }
+        .cd-quote p { color: #e3e4f7; line-height: 1.7; font-size: .98rem; margin: 0 0 18px; }
+        .cd-quote .cd-by { color: var(--cd-indigo); font-weight: 700; font-size: .92rem; }
+        .cd-quote .cd-where { color: var(--cd-muted); font-size: .85rem; }
+        .cd-stars { color: #fbbf24; letter-spacing: 2px; font-size: .95rem; margin-bottom: 12px; }
+
+        .cd-prose { max-width: 880px; margin: 0 auto; color: var(--cd-muted); line-height: 1.85; font-size: 1.05rem; }
+        .cd-prose h3 { color: #fff; font-family: 'Syne', sans-serif; font-size: 1.3rem; margin: 30px 0 10px; }
+        .cd-prose strong { color: var(--cd-ink); }
+        .cd-prose a { color: #60c6ff; text-decoration: none; font-weight: 600; }
+
+        .cd-faq { max-width: 840px; margin: 0 auto; }
+        .cd-faq .faq-item { background: var(--cd-card); border: 1px solid var(--cd-line); border-radius: 12px; margin-bottom: 12px; overflow: hidden; }
+        .cd-faq .faq-question { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 22px; cursor: pointer; color: #fff; font-weight: 600; font-size: 1.02rem; }
+        .cd-faq .faq-toggle { color: var(--cd-indigo); font-size: 1.5rem; line-height: 1; flex-shrink: 0; }
+        .cd-faq .faq-answer { max-height: 0; overflow: hidden; transition: max-height .35s ease; }
+        .cd-faq .faq-answer p { padding: 0 22px 20px; color: var(--cd-muted); line-height: 1.74; margin: 0; }
+
+        .cd-band { max-width: 1180px; margin: 0 auto; background: linear-gradient(100deg, rgba(99,102,241,0.16), rgba(43,155,232,0.10)); border: 1px solid var(--cd-line); border-radius: 20px; padding: 40px 32px; text-align: center; }
+        .cd-band h2 { font-family: 'Syne', sans-serif; color: #fff; font-size: clamp(1.4rem, 2.6vw, 2rem); margin: 0 0 10px; }
+        .cd-band p { color: var(--cd-muted); margin: 0 0 22px; font-size: 1.02rem; }
+        .cd-form-section { background: radial-gradient(700px 360px at 80% 0%, rgba(99,102,241,0.13), transparent 65%); }
+        @media (max-width: 980px) {
+            .cd-hero-inner { grid-template-columns: 1fr; gap: 34px; }
+            .cd-steps { grid-template-columns: repeat(2, 1fr); }
+            .cd-grid3, .cd-pricing, .cd-quotes { grid-template-columns: 1fr; }
+            .cd-promo { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 560px) { .cd-hero { padding-top: 100px; } .cd-steps, .cd-promo { grid-template-columns: 1fr; } }
+    </style>
+
+    <!-- Meta Pixel -->
+    <script src="/js/meta-pixel.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/best-coding-class.css">
+    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
+    <link rel="stylesheet" href="/css/pages/landing.css?v=20260411-p7">
+    <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
+    <script src="/js/ux-enhancements.js" defer></script>
+    <script src="/js/hover-prefetch.js" defer></script>
+    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+</head>
+
+<body class="best-coding-page cppdsa-page">
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <canvas id="background-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;"></canvas>
+
+    <!-- BEGIN_INLINED_NAV -->
+<style>
+    .callback-nav-btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; border: none; border-radius: 25px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3); }
+    .callback-nav-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4); }
+    .callback-nav-btn svg { flex-shrink: 0; }
+    @media (max-width: 768px) { .callback-nav-btn span { display: none; } .callback-nav-btn { padding: 10px; } }
+</style>
+
+<header>
+    <nav>
+        <div class="navbar">
+            <div class="nav-container">
+                <a href="/" class="logo">
+                    <img style="border-radius: 10px;" src="/images/logo.svg" alt="Modern Age Coders Logo"
+                        class="logo-img" width="40" height="40" fetchpriority="high">
+                    <span class="logo-text">Modern Age Coders</span>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item dropdown">
+                        <a href="/courses" class="nav-link">Courses
+                            <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="/courses" class="dropdown-item" style="font-weight: bold; border-bottom: 1px solid rgba(168, 85, 247, 0.3); margin-bottom: 0.5rem; padding-bottom: 0.75rem;">View All Courses</a>
+                            <a href="/courses/coding/kids" class="dropdown-item">For Kids (Ages 6-12)</a>
+                            <a href="/courses/coding/teens" class="dropdown-item">For Teens (Ages 13-18)</a>
+                            <a href="/courses/coding/college" class="dropdown-item">For College Students</a>
+                            <a href="/courses/coding/college" class="dropdown-item">For Professionals</a>
+                            <a href="/courses/coding/corporate" class="dropdown-item">Customized Training</a>
+                            <a href="/courses/coding/girls" class="dropdown-item highlight">Special For Girls</a>
+                            <a href="/summer-coding-camp" class="dropdown-item highlight">Summer Coding Camp</a>
+                            <a href="/schools" class="dropdown-item">Schools Program</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="/coding-challenges" class="nav-link">Practice
+                            <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="/coding-challenges" class="dropdown-item" style="font-weight: bold;">Coding Challenges</a>
+                            <a href="/maths-challenges" class="dropdown-item" style="font-weight: bold;">Maths Challenges</a>
+                            <a href="/mistakes-students-make" class="dropdown-item">Mistakes Students Make</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="/student-labs" class="nav-link">Tools
+                            <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="/beat-the-babu" class="dropdown-item">Beat the Babu</a>
+                            <a href="/aura" class="dropdown-item">Aura</a>
+                            <a href="https://mind.modernagecoders.com" class="dropdown-item">Beautiful Mind</a>
+                            <a href="https://zap.modernagecoders.com" class="dropdown-item">Zap</a>
+                            <a href="https://envision.modernagecoders.com" class="dropdown-item">Envision</a>
+                            <a href="https://misti.modernagecoders.com" class="dropdown-item">Misti AI</a>
+                            <a href="https://deep64.modernagecoders.com" class="dropdown-item">Deep 64</a>
+                            <div style="border-top: 1px solid rgba(168, 85, 247, 0.25); margin: 0.5rem 0; padding-top: 0.25rem;"></div>
+                            <a href="https://dashboard.modernagecoders.com/attendance" class="dropdown-item" target="_blank" rel="noopener" style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(16, 185, 129, 0.05)); border: 1px solid rgba(16, 185, 129, 0.3); color: #10b981; font-weight: 600; border-radius: 6px; margin-bottom: 4px;">
+                                <svg style="width:14px;height:14px;margin-right:6px;vertical-align:middle;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                                Mark Attendance
+                            </a>
+                            <a href="https://dashboard.modernagecoders.com/recording" class="dropdown-item" target="_blank" rel="noopener" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(59, 130, 246, 0.05)); border: 1px solid rgba(59, 130, 246, 0.3); color: #3b82f6; font-weight: 600; border-radius: 6px;">
+                                <svg style="width:14px;height:14px;margin-right:6px;vertical-align:middle;flex-shrink:0;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                                Class Recordings
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="/love" class="nav-link" style="color: #ec4899; font-weight: 600;">
+                            <svg style="width: 16px; height: 16px; margin-right: 4px; fill: #ec4899;" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+                            Love
+                            <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="/love" class="dropdown-item" style="font-weight: bold;">Wall of Love</a>
+                            <a href="/success-stories" class="dropdown-item">Success Stories</a>
+                            <a href="/student-labs" class="dropdown-item">Student Labs</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="/pricing" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
+                    <li class="nav-item">
+                        <button type="button" class="callback-nav-btn" onclick="openCallbackModal()">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span></span>
+                        </button>
+                    </li>
+                    <li class="nav-item" style="margin-left: 10px;"><a href="https://dashboard.modernagecoders.com" target="_blank" class="cta-button" style="padding: 0.6rem 2rem !important;">Login</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div id="callbackModalOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:99999; align-items:center; justify-content:center;">
+    <div style="background:#fff; border-radius:20px; padding:40px; max-width:400px; width:90%; text-align:center; position:relative; box-shadow:0 25px 50px rgba(0,0,0,0.25);">
+        <button type="button" onclick="closeCallbackModal()" style="position:absolute; top:15px; right:15px; width:32px; height:32px; border:none; background:#f3f4f6; border-radius:50%; font-size:20px; cursor:pointer; color:#666;">&times;</button>
+        <div style="width:80px; height:80px; background:linear-gradient(135deg,#e0e7ff,#c7d2fe); border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 20px;">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        </div>
+        <h3 style="font-size:24px; font-weight:700; color:#1f2937; margin:0 0 8px;">Request a Callback</h3>
+        <p style="font-size:15px; color:#6b7280; margin:0 0 25px;">Enter your number, we'll call you right back!</p>
+        <form id="callbackForm" onsubmit="submitCallback(event)" style="display:flex; flex-direction:column; gap:15px;">
+            <div style="display:flex; align-items:center; background:#f9fafb; border:2px solid #e5e7eb; border-radius:12px; overflow:hidden;">
+                <span style="padding:14px 12px; background:#f3f4f6; color:#6b7280; font-weight:600; border-right:2px solid #e5e7eb;">+91</span>
+                <input type="tel" id="callbackPhoneInput" placeholder="Enter phone number" maxlength="10" required style="flex:1; padding:14px 15px; border:none; background:transparent; font-size:16px; color:#1f2937; outline:none;">
+            </div>
+            <button type="submit" id="callbackSubmitBtn" style="padding:14px 24px; background:linear-gradient(135deg,#6366f1,#4f46e5); color:#fff; border:none; border-radius:12px; font-size:16px; font-weight:600; cursor:pointer;">Call Me Back</button>
+        </form>
+        <div id="callbackSuccessMsg" style="display:none; padding:20px 0;">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" style="margin-bottom:15px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            <h4 style="font-size:20px; font-weight:700; color:#10b981; margin:0 0 8px;">We'll call you soon!</h4>
+            <p style="font-size:14px; color:#6b7280; margin:0;">Expect a call within 3 hours</p>
+        </div>
+    </div>
+</div>
+<!-- END_INLINED_NAV -->
+
+    <main id="main">
+
+        <!-- ===================== HERO ===================== -->
+        <section class="cd-hero">
+            <div class="cd-hero-inner">
+                <div>
+                    <span class="cd-eyebrow">Data Structures &amp; Algorithms &nbsp;•&nbsp; <b>In C++ with the STL</b></span>
+                    <h1>C++ DSA Course — <span class="cd-grad">Master Data Structures &amp; Algorithms</span></h1>
+                    <p class="cd-lede">The DSA course that actually sticks. Learn every core data structure and algorithm
+                        in C++ using the STL — arrays, linked lists, stacks, queues, trees, graphs, hashing, recursion
+                        and dynamic programming — with a mentor reviewing your code and interview-style problems in every
+                        class. Built for placements and competitive programming.</p>
+                    <div class="cd-cta-row">
+                        <a href="#book-demo" class="cd-btn cd-btn-primary">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                            Book a Free DSA Demo Class
+                        </a>
+                        <a href="#syllabus" class="cd-btn cd-btn-ghost">See the Syllabus</a>
+                    </div>
+
+                    <div class="cd-ribbon">
+                        <div class="cd-stat"><b>STL</b><span>Vectors, maps, sets &amp; more</span></div>
+                        <div class="cd-stat"><b>5–8</b><span>Students per batch</span></div>
+                        <div class="cd-stat"><b>Live</b><span>Code reviewed every class</span></div>
+                        <div class="cd-stat"><b>Problems</b><span>Interview-style practice</span></div>
+                    </div>
+                </div>
+
+                <div class="cd-ds" aria-hidden="true">
+                    <div class="cd-ds-title">// array → sorted → search → tree</div>
+                    <div class="cd-arr">
+                        <div class="cd-cell">2</div><div class="cd-cell">5</div><div class="cd-cell hot">8</div><div class="cd-cell">11</div><div class="cd-cell">17</div><div class="cd-cell">23</div>
+                    </div>
+                    <div class="cd-tree">
+                        <div class="cd-node">8</div>
+                        <div class="cd-row"><div class="cd-node">5</div><div class="cd-node">17</div></div>
+                        <div class="cd-row" style="gap:14px;"><div class="cd-node">2</div><div class="cd-node">11</div><div class="cd-node">23</div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== QUICK ANSWER (GEO/AEO) ===================== -->
+        <div class="cd-quick-answer">
+            <h2>Quick answer</h2>
+            <p><strong>Modern Age Coders' C++ DSA course teaches the full Data Structures &amp; Algorithms syllabus in
+                C++ using the STL.</strong> You cover arrays, strings, linked lists, stacks, queues, hashing, recursion,
+                trees, graphs, sorting and searching, greedy techniques and dynamic programming — every topic paired with
+                interview-style problems. Classes are live in small batches of 5–8 with a mentor who reviews your code,
+                built for placement coding rounds and competitive programming. Group plans start at ₹1,499/month, and
+                every learner gets a free demo class first.</p>
+        </div>
+
+        <!-- ===================== LEAD FORM (DEMO-FIRST) ===================== -->
+        <section id="book-demo" class="section cd-section cd-form-section" style="padding-top:54px;">
+            <p class="cd-kicker">Start Today</p>
+            <h2 class="cd-h2">Book Your Free C++ DSA Demo Class</h2>
+            <p class="cd-sub">Tell us your level and target, and we'll arrange a free, no-obligation DSA demo with an
+                expert mentor. No payment required to try.</p>
+
+            <div class="contact-container">
+                <form class="contact-form" id="tryCodeForm" action="#" method="POST">
+                    <div class="form-group"><label for="contactName" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">Your Name *</label><input type="text" id="contactName" name="name" class="input-field" placeholder="Enter your full name" required></div>
+                    <div class="form-group"><label for="contactEmail" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">Email Address *</label><input type="email" id="contactEmail" name="email" class="input-field" placeholder="your.email@example.com" required></div>
+                    <div class="form-group"><label for="contactPhone" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">WhatsApp/Phone *</label><input type="tel" id="contactPhone" name="contact" class="input-field" placeholder="10-digit mobile number" required pattern="[0-9]{10}"></div>
+                    <div class="form-group"><label for="childAge" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">Your Stage *</label>
+                        <select id="childAge" name="childAge" class="input-field" required>
+                            <option value="">Select stage</option>
+                            <option value="School (16-18)">School (16–18)</option>
+                            <option value="1st-2nd year">College · 1st–2nd year</option>
+                            <option value="3rd-final year">College · 3rd–final year</option>
+                            <option value="Graduated">Graduated / Job seeker</option>
+                            <option value="Working">Working professional</option>
+                        </select>
+                    </div>
+                    <div class="form-group"><label for="userCity" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">C++ Level</label>
+                        <select id="userCity" name="userCity" class="input-field">
+                            <option value="">Select your level</option>
+                            <option value="New to C++">New to C++ (need refresher)</option>
+                            <option value="Comfortable">Comfortable with C++ basics</option>
+                            <option value="Some DSA">Done some DSA already</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group"><label for="contactMessage" style="color:#CBD5E1!important;font-size:14px!important;margin-bottom:5px!important;display:block!important;">What's your DSA goal? *</label><textarea id="contactMessage" name="message" class="input-field" placeholder="e.g. master DSA in C++ for upcoming placements, or get contest-ready..." required rows="4" minlength="10"></textarea></div>
+                    <button type="submit" class="submit-button" style="width:100%!important;padding:16px!important;font-size:1.1rem!important;"><span class="button-text">Book My Free DSA Demo</span></button>
+                </form>
+                <div class="form-feedback" id="formFeedback" style="display:none;margin-top:20px!important;padding:15px!important;border-radius:10px!important;"><p class="feedback-message" style="margin:0!important;"></p></div>
+            </div>
+            <div style="text-align:center!important;margin-top:30px!important;">
+                <p style="color:#CBD5E1!important;margin-bottom:15px!important;">Prefer to talk now? Reach us directly:</p>
+                <div style="display:flex!important;flex-wrap:wrap!important;gap:15px!important;justify-content:center!important;">
+                    <a href="tel:+919123366161" style="background:rgba(99,102,241,0.15)!important;border:1px solid #6366f1!important;color:#a5b4fc!important;padding:12px 24px!important;border-radius:10px!important;text-decoration:none!important;font-weight:600!important;">Call: 9123366161</a>
+                    <a href="https://wa.me/919123366161?text=Hi, I'm interested in the C++ DSA course" target="_blank" style="background:rgba(37,211,102,0.15)!important;border:1px solid #25D366!important;color:#25D366!important;padding:12px 24px!important;border-radius:10px!important;text-decoration:none!important;font-weight:600!important;">WhatsApp Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== WHAT YOU MASTER ===================== -->
+        <section class="section cd-section">
+            <p class="cd-kicker">The Three Layers</p>
+            <h2 class="cd-h2">What the C++ DSA Course Builds</h2>
+            <p class="cd-sub">Containers, structures and algorithmic thinking — the three layers every coding round tests.</p>
+            <div class="cd-wrap">
+                <div class="cd-grid3">
+                    <div class="cd-card">
+                        <div class="cd-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2b9be8" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
+                        <h3>STL Containers</h3>
+                        <p>vector, string, map, unordered_map, set, multiset, stack, queue, deque and priority_queue — and exactly when to reach for each.</p>
+                    </div>
+                    <div class="cd-card">
+                        <div class="cd-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><circle cx="12" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M12 7.5v4M10 13l-3 3.5M14 13l3 3.5"/></svg></div>
+                        <h3>Core Data Structures</h3>
+                        <p>Linked lists, stacks, queues, hashing, heaps, trees, binary search trees and graphs — built and used, not just memorised.</p>
+                    </div>
+                    <div class="cd-card">
+                        <div class="cd-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2b9be8" stroke-width="2"><path d="M4 17l6-6-6-6"/><path d="M12 19h8"/></svg></div>
+                        <h3>Algorithms &amp; Patterns</h3>
+                        <p>Recursion, backtracking, sorting, binary search, two-pointers, sliding window, greedy and dynamic programming.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SYLLABUS ===================== -->
+        <section id="syllabus" class="section cd-section">
+            <p class="cd-kicker">The DSA Roadmap</p>
+            <h2 class="cd-h2">A Clear Path Through DSA</h2>
+            <p class="cd-sub">Mentor-led stages, each ending with interview-style problems and a contest set.</p>
+            <div class="cd-wrap">
+                <div class="cd-steps">
+                    <div class="cd-step"><div class="cd-no">STAGE 01</div><h3>Foundations &amp; STL</h3><p>Time complexity, arrays, strings, the STL containers and basic problem patterns.</p></div>
+                    <div class="cd-step"><div class="cd-no">STAGE 02</div><h3>Linear Structures</h3><p>Linked lists, stacks, queues, hashing and two-pointer / sliding-window techniques.</p></div>
+                    <div class="cd-step"><div class="cd-no">STAGE 03</div><h3>Trees &amp; Graphs</h3><p>Recursion, binary trees, BSTs, heaps, graphs, BFS/DFS and shortest paths.</p></div>
+                    <div class="cd-step"><div class="cd-no">STAGE 04</div><h3>DP &amp; Interviews</h3><p>Greedy, dynamic programming, contest practice and mock technical interviews.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== RELATED / PROMO ===================== -->
+        <section class="section cd-section">
+            <p class="cd-kicker">Explore More</p>
+            <h2 class="cd-h2">Related C++ &amp; Placement Courses</h2>
+            <p class="cd-sub">Part of our full C++ cluster and beyond — explore any or book a free demo.</p>
+            <div class="cd-wrap">
+                <div class="cd-promo">
+                    <a href="/best-c-plus-plus-classes-in-india"><div class="cd-pt">Best C++ Classes in India</div><div class="cd-pd">The full C++ course hub</div></a>
+                    <a href="/c-plus-plus-for-competitive-programming"><div class="cd-pt">Competitive Programming</div><div class="cd-pd">Codeforces &amp; CodeChef</div></a>
+                    <a href="/c-plus-plus-for-placement-preparation"><div class="cd-pt">C++ Placement Prep</div><div class="cd-pd">Coding rounds &amp; interviews</div></a>
+                    <a href="/c-plus-plus-classes-for-college-students"><div class="cd-pt">C++ for College</div><div class="cd-pd">Placement-ready C++</div></a>
+                    <a href="/c-plus-plus-oops-concepts-course"><div class="cd-pt">C++ OOP Concepts</div><div class="cd-pd">Master object thinking</div></a>
+                    <a href="/c-plus-plus-for-beginners"><div class="cd-pt">C++ for Beginners</div><div class="cd-pd">Need the basics first?</div></a>
+                    <a href="/courses/coding/college"><div class="cd-pt">DSA &amp; Full-Stack</div><div class="cd-pd">Complete track</div></a>
+                    <a href="/best-java-classes-in-india"><div class="cd-pt">Java DSA</div><div class="cd-pd">Prefer Java?</div></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== WHY DSA IN C++ ===================== -->
+        <section class="section cd-section">
+            <p class="cd-kicker">Why C++ for DSA</p>
+            <h2 class="cd-h2">Why DSA Is Best Learned in C++</h2>
+            <div class="cd-prose">
+                <p>Data Structures &amp; Algorithms is the single most important subject for coding rounds, competitive
+                    programming and technical interviews — and <strong>C++ is the language that makes it click.</strong>
+                    It is fast enough that your correct solution passes time limits, and the STL hands you production-grade
+                    data structures so you spend your energy on the algorithm, not the plumbing.</p>
+
+                <h3>The STL turns hours into minutes</h3>
+                <p>Need a balanced BST? That's a <strong>set</strong>. A hash table? <strong>unordered_map</strong>. A
+                    min-heap? <strong>priority_queue</strong>. In C++ these are one line, which is exactly why it
+                    dominates <a href="/c-plus-plus-for-competitive-programming">competitive programming</a> and is the
+                    safe choice in any <a href="/c-plus-plus-for-placement-preparation">placement coding round</a>.</p>
+
+                <h3>Understanding, then speed</h3>
+                <p>We don't just teach you to call STL functions — you build the structures first so you understand how
+                    they work, then use the STL for speed. That combination of <strong>deep understanding and fast
+                    implementation</strong> is what separates students who clear interviews from those who freeze. New to
+                    C++? Start with <a href="/c-plus-plus-for-beginners">C++ for beginners</a> and join the DSA track
+                    when you're ready.</p>
+            </div>
+        </section>
+
+        <!-- ===================== PRICING ===================== -->
+        <section id="pricing" class="section cd-section">
+            <p class="cd-kicker">Simple Pricing</p>
+            <h2 class="cd-h2">C++ DSA Course Fees</h2>
+            <p class="cd-sub">Transparent monthly plans, no hidden charges. Start with a free demo.</p>
+            <div class="cd-pricing">
+                <div class="cd-plan">
+                    <h3>Group Batch</h3>
+                    <div class="cd-price">₹1,499<small>per month · 2 classes/week</small></div>
+                    <ul><li>5–8 learners per batch</li><li>Live DSA + problem sets</li><li>Recorded class access</li><li>Completion certificate</li></ul>
+                    <a href="#book-demo" class="cd-btn cd-btn-ghost" style="width:100%;justify-content:center;">Start Free Demo</a>
+                </div>
+                <div class="cd-plan cd-pop">
+                    <span class="cd-badge">Most Popular</span>
+                    <h3>Mini Batch</h3>
+                    <div class="cd-price">₹2,499<small>per month · 2 classes/week</small></div>
+                    <ul><li>Only 3–4 learners per batch</li><li>More personal mentoring</li><li>Recorded class access</li><li>Mock interviews &amp; certificate</li></ul>
+                    <a href="#book-demo" class="cd-btn cd-btn-primary" style="width:100%;justify-content:center;">Start Free Demo</a>
+                </div>
+                <div class="cd-plan">
+                    <h3>1-on-1 Personal</h3>
+                    <div class="cd-price">₹4,999<small>per month · fully personalised</small></div>
+                    <ul><li>Dedicated personal mentor</li><li>Custom DSA roadmap</li><li>Recorded class access</li><li>Priority interview prep</li></ul>
+                    <a href="#book-demo" class="cd-btn cd-btn-ghost" style="width:100%;justify-content:center;">Start Free Demo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== TESTIMONIALS ===================== -->
+        <section class="section cd-section">
+            <p class="cd-kicker">Learner Voices</p>
+            <h2 class="cd-h2">What DSA Learners Say</h2>
+            <div class="cd-wrap">
+                <div class="cd-quotes">
+                    <div class="cd-quote"><div class="cd-stars">★★★★★</div><p>"Graphs and DP always scared me. The way they built each structure first, then showed the STL shortcut, made it finally make sense. Cleared 2 coding rounds."</p><div class="cd-by">Aman V.</div><div class="cd-where">Final-year · placed</div></div>
+                    <div class="cd-quote"><div class="cd-stars">★★★★★</div><p>"The interview-style problems every class are gold. I stopped memorising and started actually solving."</p><div class="cd-by">Priya R.</div><div class="cd-where">3rd-year CSE</div></div>
+                    <div class="cd-quote"><div class="cd-stars">★★★★★</div><p>"Best DSA course I tried — small batch, real code review, and a clear roadmap from arrays to DP. My Codeforces rating climbed fast."</p><div class="cd-by">Sourav B.</div><div class="cd-where">Competitive programmer</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CTA BAND ===================== -->
+        <section class="section cd-section">
+            <div class="cd-band">
+                <h2>Ready to actually master DSA?</h2>
+                <p>Book a free DSA demo today — see the roadmap and how we teach before you spend a rupee.</p>
+                <a href="#book-demo" class="cd-btn cd-btn-primary">Book a Free DSA Demo Class</a>
+            </div>
+        </section>
+
+        <!-- ===================== FAQ ===================== -->
+        <section id="faq" class="section cd-section">
+            <p class="cd-kicker">Good To Know</p>
+            <h2 class="cd-h2">Frequently Asked Questions</h2>
+            <div class="cd-faq">
+                <div class="faq-item"><div class="faq-question"><span>What does the C++ DSA course cover?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>The course covers the full Data Structures &amp; Algorithms syllabus in C++ — arrays, strings, linked lists, stacks, queues, hashing, recursion, trees, graphs, sorting and searching, greedy techniques and dynamic programming — implemented with the STL, with interview-style problems throughout.</p></div></div>
+                <div class="faq-item"><div class="faq-question"><span>Why learn DSA in C++ specifically?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>C++ is fast and its Standard Template Library gives you ready-made data structures — vector, map, set, stack, queue, priority_queue — so you implement algorithms quickly and cleanly. It is the most popular language for <a href="/c-plus-plus-for-competitive-programming" style="color:#818cf8;">competitive programming</a> and is accepted in nearly every placement coding round.</p></div></div>
+                <div class="faq-item"><div class="faq-question"><span>Do I need to know C++ before joining the DSA course?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>A basic working knowledge of C++ (syntax, loops, functions, OOP) helps. If you are new or rusty, we begin with a fast Core C++ and STL refresher — or start with <a href="/c-plus-plus-for-beginners" style="color:#818cf8;">C++ for beginners</a> — and place you in the right batch after a free demo.</p></div></div>
+                <div class="faq-item"><div class="faq-question"><span>Is this DSA course good for college placements?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>Yes — it is built for it. The syllabus mirrors what interviewers ask in coding rounds, and the track includes problem-solving patterns and mock interviews so you can clear product-company and campus placements. See our <a href="/c-plus-plus-for-placement-preparation" style="color:#818cf8;">placement-prep track</a>.</p></div></div>
+                <div class="faq-item"><div class="faq-question"><span>How much does the C++ DSA course cost?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>Group classes start at ₹1,499 per month for 2 classes a week. A Mini Batch of 3–4 students is ₹2,499 per month, and 1-on-1 mentoring is ₹4,999 per month. A free demo class is available first.</p></div></div>
+                <div class="faq-item"><div class="faq-question"><span>Are the DSA classes live with practice problems?</span><span class="faq-toggle">+</span></div><div class="faq-answer"><p>Yes. Classes are live in small batches with a mentor who reviews your code, and every topic comes with hand-picked practice problems and contest-style questions, all recorded for revision.</p></div></div>
+            </div>
+        </section>
+
+    </main>
+
+<!-- BEGIN_RELATED_PAGES -->
+<section aria-label="Related pages" style="background:rgba(99,102,241,.04);border-top:1px solid rgba(99,102,241,.15);border-bottom:1px solid rgba(99,102,241,.15);padding:40px 20px;margin:40px 0 0">
+  <div style="max-width:1100px;margin:0 auto">
+    <nav aria-label="Breadcrumb" style="font-size:13px;color:#94a3b8;margin-bottom:18px">
+      <a href="/" style="color:#a5b4fc;text-decoration:none">Home</a>
+      <span style="color:#475569;margin:0 6px">/</span>
+      <a href="/best-c-plus-plus-classes-in-india" style="color:#a5b4fc;text-decoration:none">C++ Classes</a>
+      <span style="color:#475569;margin:0 6px">/</span>
+      <span>C++ DSA Course</span>
+    </nav>
+    <h2 style="color:#fff;font-size:1.25rem;font-weight:800;margin:0 0 14px">Explore the C++ course family</h2>
+    <ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px">
+      <li><a href="/best-c-plus-plus-classes-in-india">Best C++ Classes in India</a></li>
+      <li><a href="/c-plus-plus-classes-for-teens">C++ Classes for Teens</a></li>
+      <li><a href="/c-plus-plus-classes-for-college-students">C++ for College Students</a></li>
+      <li><a href="/c-plus-plus-for-beginners">C++ for Beginners</a></li>
+      <li><a href="/c-plus-plus-oops-concepts-course">C++ OOP Concepts Course</a></li>
+      <li><a href="/c-plus-plus-for-competitive-programming">C++ for Competitive Programming</a></li>
+      <li><a href="/c-plus-plus-projects-for-students">C++ Projects for Students</a></li>
+      <li><a href="/online-c-plus-plus-classes">Online C++ Classes</a></li>
+      <li><a href="/c-plus-plus-for-placement-preparation">C++ for Placement Preparation</a></li>
+      <li><a href="/c-plus-plus-certification-course">C++ Certification Course</a></li>
+    </ul>
+    <p style="margin:18px 0 0"><a href="/courses" style="color:#a5b4fc;text-decoration:none;font-weight:600">&rarr; See all coding courses</a></p>
+  </div>
+</section>
+<!-- END_RELATED_PAGES -->
+
+<!-- BEGIN_INLINED_FOOTER -->
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-grid">
+            <div class="footer-column">
+                <a href="/" class="logo">
+                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" width="40" height="40" loading="lazy" decoding="async">
+                    <span class="logo-text">Modern Age Coders</span>
+                </a>
+                <p class="footer-tagline">Forging the next generation of innovators.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/modern_age_coders" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" /></svg></a>
+                    <a href="https://www.youtube.com/@modernagecoders" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg></a>
+                    <a href="https://www.linkedin.com/in/shivam-khemka-948a2a277" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg></a>
+                    <a href="https://github.com/modernagecoder" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" /></svg></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/courses">Courses</a></li>
+                    <li><a href="/success-stories">Success Stories</a></li>
+                    <li><a href="/free-resources">Free Resources</a></li>
+                    <li><a href="/student-labs">Student Labs</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/best-java-classes-in-india">Best Java Classes in India</a></li>
+                    <li><a href="/python-and-ai-classes-for-kids-teens">Python &amp; AI for Kids &amp; Teens</a></li>
+                    <li><a href="/ai-ml-course-for-teens">AI &amp; ML Course for Teens</a></li>
+                    <li><a href="/coding-classes-for-girls">Coding Classes for Girls</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-heading">C++ Courses</h3>
+                <ul class="footer-links">
+                    <li><a href="/best-c-plus-plus-classes-in-india">Best C++ Classes in India</a></li>
+                    <li><a href="/c-plus-plus-classes-for-teens">C++ Classes for Teens</a></li>
+                    <li><a href="/c-plus-plus-classes-for-college-students">C++ for College Students</a></li>
+                    <li><a href="/c-plus-plus-for-beginners">C++ for Beginners</a></li>
+                    <li><a href="/c-plus-plus-dsa-course">C++ DSA Course</a></li>
+                    <li><a href="/c-plus-plus-oops-concepts-course">C++ OOP Concepts Course</a></li>
+                    <li><a href="/c-plus-plus-for-competitive-programming">C++ Competitive Programming</a></li>
+                    <li><a href="/c-plus-plus-projects-for-students">C++ Projects for Students</a></li>
+                    <li><a href="/online-c-plus-plus-classes">Online C++ Classes</a></li>
+                    <li><a href="/c-plus-plus-for-placement-preparation">C++ for Placement Prep</a></li>
+                    <li><a href="/c-plus-plus-game-development">C++ Game Development</a></li>
+                    <li><a href="/c-plus-plus-certification-course">C++ Certification Course</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-heading">Contact & Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="tel:+919123366161">+91 9123366161</a></li>
+                    <li><a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></li>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                    <li><a href="/cancellation">Cancellation Policy</a></li>
+                    <li><a href="/refund">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom"><p id="copyright"></p></div>
+    </div>
+</footer>
+
+<a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer" class="misti-chat-btn" aria-label="Chat with Misti AI" style="position: fixed !important; bottom: 92px !important; right: 24px !important; z-index: 2147483646 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
+    <span class="misti-label" style="background: linear-gradient(135deg, #a855f7, #8b5cf6); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Ask Misti AI</span>
+    <div class="misti-icon" style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: linear-gradient(135deg, #a855f7, #8b5cf6); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="min-width: 26px; min-height: 26px;"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    </div>
+</a>
+<a href="https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20the%20C%2B%2B%20DSA%20course!" target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp" style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 2147483645 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
+    <span class="wa-label" style="background: #25D366; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Chat with us</span>
+    <div class="wa-icon" style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" style="min-width: 26px; min-height: 26px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" /></svg>
+    </div>
+</a>
+
+<style>
+    .misti-chat-btn:hover .misti-icon { transform: scale(1.08); box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5); }
+    .misti-chat-btn:hover .misti-label { box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5); }
+    .wa-float-btn:hover .wa-icon { transform: scale(1.08); box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5); }
+    .wa-float-btn:hover .wa-label { box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5); }
+    @media (max-width: 768px) {
+        .misti-label, .wa-label { display: none !important; visibility: hidden !important; }
+        .misti-chat-btn { bottom: 88px !important; right: 16px !important; }
+        .wa-float-btn { bottom: 20px !important; right: 16px !important; }
+        .misti-icon, .wa-icon { width: 52px !important; height: 52px !important; min-width: 52px !important; min-height: 52px !important; }
+    }
+</style>
+
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({ duration: 1.2, easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), direction: 'vertical', gestureDirection: 'vertical', smooth: true, mouseMultiplier: 1, smoothTouch: false, touchMultiplier: 2, infinite: false });
+            function raf(time) { lenis.raf(time); requestAnimationFrame(raf); }
+            requestAnimationFrame(raf);
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') { const t = document.querySelector(targetId); if (t) { e.preventDefault(); lenis.scrollTo(t); } }
+                });
+            });
+        }
+    });
+</script>
+<!-- END_INLINED_FOOTER -->
+
+    <!-- SCRIPTS -->
+    <script>
+        const canvas = document.getElementById('background-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        const codeChars = ['<', '>', '{', '}', '/', '=', '+', '-', '*', '(', ')', ';', ':', '0', '1'];
+        const cppChars = ['C++', 'cout', 'int', 'new', 'std', 'auto', '<<', '::', 'vector'];
+        function resizeCanvas() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+        function createParticles() {
+            particles = [];
+            const count = Math.floor((canvas.width * canvas.height) / 16000);
+            for (let i = 0; i < count; i++) {
+                const isCpp = Math.random() > 0.6;
+                particles.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height, char: isCpp ? cppChars[Math.floor(Math.random() * cppChars.length)] : codeChars[Math.floor(Math.random() * codeChars.length)], size: Math.random() * 13 + 9, speed: Math.random() * 0.3 + 0.1, opacity: Math.random() * 0.13 + 0.04, rotation: Math.random() * Math.PI * 2, rotationSpeed: (Math.random() - 0.5) * 0.01, isCpp: isCpp });
+            }
+        }
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(p => { p.y -= p.speed; p.rotation += p.rotationSpeed; if (p.y < -30) { p.y = canvas.height + 30; p.x = Math.random() * canvas.width; } ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.rotation); ctx.font = `${p.size}px monospace`; ctx.fillStyle = p.isCpp ? `rgba(99, 102, 241, ${p.opacity})` : `rgba(43, 155, 232, ${p.opacity})`; ctx.fillText(p.char, 0, 0); ctx.restore(); });
+            requestAnimationFrame(animate);
+        }
+        window.addEventListener('resize', () => { resizeCanvas(); createParticles(); });
+        resizeCanvas(); createParticles(); animate();
+
+        document.querySelectorAll('.faq-item').forEach(item => {
+            const q = item.querySelector('.faq-question'); const a = item.querySelector('.faq-answer'); const t = item.querySelector('.faq-toggle');
+            q.addEventListener('click', () => {
+                const active = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(i => { i.classList.remove('active'); i.querySelector('.faq-answer').style.maxHeight = '0'; i.querySelector('.faq-toggle').textContent = '+'; });
+                if (!active) { item.classList.add('active'); a.style.maxHeight = a.scrollHeight + 'px'; t.textContent = '-'; }
+            });
+        });
+
+        const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { e.target.style.opacity = '1'; e.target.style.transform = 'translateY(0)'; } }); }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.cd-section').forEach(el => { el.style.opacity = '0'; el.style.transform = 'translateY(20px)'; el.style.transition = 'opacity 0.6s ease, transform 0.6s ease'; observer.observe(el); });
+    </script>
+
+    <script>
+        const API_CONFIG = { development: 'http://localhost:5000', production: 'https://backend-modernagecoders.vercel.app', getBaseURL: function () { return (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') ? this.development : this.production; } };
+        const API_BASE_URL = API_CONFIG.getBaseURL();
+        function validateEmail(email) { return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email); }
+        function validatePhone(phone) {
+            const cleaned = (phone || '').replace(/\D/g, '');
+            const _ccEl = document.getElementById('contactPhone') || document.getElementById('phone') || document.querySelector('input[type="tel"][data-country-iso]');
+            const _iso = (_ccEl && _ccEl.dataset && _ccEl.dataset.countryIso) || 'IN';
+            const _re = _iso === 'IN' ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+            return _re.test(cleaned);
+        }
+        function showFeedback(type, message) { const el = document.getElementById('formFeedback'); el.style.display = 'block'; el.style.background = type === 'success' ? 'rgba(16, 185, 129, 0.15)' : 'rgba(239, 68, 68, 0.15)'; el.style.border = type === 'success' ? '1px solid #10b981' : '1px solid #ef4444'; el.style.color = type === 'success' ? '#10b981' : '#ef4444'; el.querySelector('.feedback-message').textContent = message; setTimeout(() => { el.style.display = 'none'; }, 8000); }
+        function showLoading(isLoading) { const btn = document.querySelector('.submit-button'); if (!btn) return; btn.disabled = isLoading; btn.style.opacity = isLoading ? '0.7' : '1'; }
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('tryCodeForm');
+            if (form) {
+                form.addEventListener('submit', async function (e) {
+                    e.preventDefault();
+                    const name = document.getElementById('contactName').value.trim();
+                    const email = document.getElementById('contactEmail').value.trim();
+                    const phone = document.getElementById('contactPhone').value.trim();
+                    const childAge = document.getElementById('childAge').value;
+                    const goal = document.getElementById('userCity').value;
+                    const message = document.getElementById('contactMessage').value.trim();
+                    if (!validateEmail(email)) { alert('Please enter a valid email'); return; }
+                    if (!validatePhone(phone)) { alert('Please enter a valid 10-digit phone'); return; }
+                    if (!childAge) { alert('Please select your stage'); return; }
+                    if (message.length < 10) { alert('Please describe what you want to learn'); return; }
+                    showLoading(true);
+                    let fullMessage = message + (childAge ? ` | Stage: ${childAge}` : '') + (goal ? ` | C++ level: ${goal}` : '') + ' | [Source: C++ DSA Course Page]';
+                    try {
+                        const response = await fetch(`${API_BASE_URL}/api/contact/submit`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name, email, contact: phone,
+                            countryCode: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).dial : '+91'),
+                            countryIso:  ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).iso  : 'IN'),
+                            countryName: ((window.MACCountryCode && window.MACCountryCode.read) ? window.MACCountryCode.read(document.getElementById('contactPhone') || document.getElementById('phone')).name : 'India'), message: fullMessage }) });
+                        const data = await response.json();
+                        if (response.ok) { if (typeof fbq === "function") { fbq("track", "Lead", { content_name: "C++ DSA Demo Booking", content_category: "Free Trial" }); } showFeedback('success', 'We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).'); form.reset(); } else { throw new Error(data.message || 'Something went wrong'); }
+                    } catch (error) { showFeedback('error', 'Something went wrong. Please call us at 9123366161.'); } finally { showLoading(false); }
+                });
+            }
+        });
+    </script>
+
+    <script src="/js/callback-modal.js"></script>
+    <script src="/js/navigation.js"></script>
+    <script>
+        (function() {
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '© ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
+    <script src="/js/country-code-selector.js?v=20260513c" defer></script>
+</body>
+
+</html>

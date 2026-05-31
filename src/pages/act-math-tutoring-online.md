@@ -1,106 +1,257 @@
-# ACT Math Tutoring Online — Modern Age Coders
+---
+title: "ACT Math Tutoring Online · 1:1 ACT Math Prep — Modern Age Coders"
+description: "Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+canonical: https://learn.modernagecoders.com/act-math-tutoring-online
+keywords: ["ACT math tutoring online", "ACT math prep", "ACT math tutor", "online ACT prep", "ACT math practice", "ACT math pacing", "raise ACT math score", "ACT geometry", "ACT trigonometry", "ACT algebra", "ACT 1:1 tutoring", "ACT math 36"]
+source: src/pages/act-math-tutoring-online.html
+---
+> Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $100/month, 8 classes. Free trial.
 
-Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trigonometry the
-ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes, with no
-formula sheet. Mentors in every US time zone. **USD 100/month for eight live 1:1 sessions
-(two a week). Small-group option: USD 40/month.** First session free.
+Why ACT math scores get stuck
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** US high school students preparing for the ACT (typically grades 10–12)
-- **Format:** Live one-to-one online, 8 sessions/month, 2 per week, your time zone
-- **Price:** USD 100/month (1:1) · USD 40/month (small group) · no contract
-- **Full course:** /courses/complete-high-school-mathematics-mastery
+## On the ACT, most students don't run out of math. They run out of clock.
 
-## The problem we solve
+The ACT math section is 60 questions in 60 minutes. The content isn't usually the hard part — plenty of students could answer every question correctly with unlimited time. The problem is that there isn't unlimited time, so they grind a tricky early question, fall behind, and rush the easy points at the end.
 
-On the ACT, most students don't run out of math — they run out of clock. Sixty questions in
-sixty minutes means a tricky early question can wreck the easy points at the end. Untimed
-practice hides this. The other half is the missing formula sheet: the ACT expects geometry
-and trig known cold. So we train two things together — the content that must be automatic,
-and the pacing judgement that protects your easy points.
+Doing more untimed practice doesn't fix this. It can even hide the problem, because the score looks fine until the clock is back.
 
-## How we teach
+The other half of the issue is the missing formula sheet. The SAT lets some facts slide; the ACT expects you to *know* your geometry and trig cold, instantly, with no reference.
 
-1. **Audit the content gaps** — separate topics that cost points from questions just rushed.
-2. **Lock in must-know facts** — the geometry and trig formulas the ACT assumes, made automatic.
-3. **Train pacing decisions** — what to attack, flag, or skip, and how to spot the quick route.
-4. **Drill under the real clock** — at full ACT speed, so test day feels familiar.
+So we train two things together: the content you must have automatic, and the pacing judgement — which questions to do fast, which to flag, when to move on — that protects your easy points.
 
-## A real worked example: read the figure, skip the algebra
+How we teach
 
-Right triangle, legs 6 and 8 — recognise the 3-4-5 family doubled:
+## Make the content automatic, then beat the clock.
 
-- legs 6 and 8 → 6-8-10 right triangle
-- hypotenuse = **10** (no Pythagorean setup needed)
+Timing only works once the math underneath costs no thinking time.
 
-On a one-minute-per-question test, spotting the 6-8-10 instantly instead of computing is the
-difference between finishing and not. We train recognition of Pythagorean triples, special
-angles and similar-triangle shortcuts so the figure does the work.
+### Audit the content gaps
 
-## Why a coding school teaches ACT math
+We review a real ACT section and find which topics genuinely cost points versus which were just rushed — two different fixes.
 
-Speed under constraints is an engineering skill: **cache what's reusable** (memorise key
-facts to free thinking time), **triage the workload** (do now, defer, or skip), and
-**pattern over brute force**. Our prep makes students quicker without making them careless.
+### Lock in must-know facts
 
-## What we cover
+The geometry and trig formulas the ACT assumes you've memorized become automatic, so they don't eat your minute.
 
-- Pre-algebra & elementary algebra: number basics, fractions, percentages, ratios, exponents, linear equations
-- Intermediate algebra: quadratics, functions, systems, sequences, inequalities, logs, matrices
-- Coordinate geometry: lines, slope, distance, midpoint, function graphs, conics
-- Plane geometry: angles, triangles, circles, polygons, area, volume, Pythagorean triples
-- Trigonometry: right-triangle trig, the unit circle, identities, graphs
-- Pacing & calculator strategy: efficient calculator use and timing discipline
+### Train pacing decisions
 
-## How sessions work
+Which question to attack, which to flag and skip, and how to spot the quick route — practised until it's instinct.
 
-One student, one mentor, live video with a shared whiteboard and live question review.
-Eight sessions a month, two each week (about an hour), built on official ACT practice
-material. All six US time zones. Your mentor tracks scores, errors and timing.
+### Drill under the real clock
 
-## FAQ
+We rehearse at full ACT speed so test day feels familiar, not frantic.
 
-### What's different about ACT math compared to the SAT?
-A question a minute (60 in 60), more geometry and trig, and no formula sheet. We weight timing heavily.
+See it for yourself
 
-### Which ACT math topics do you cover?
-All six reporting areas, plus the must-memorize formulas.
+## An ACT geometry question — read the figure, skip the algebra.
 
-### I run out of time on the ACT. Can you fix that?
-Yes — it's the most common problem and it's trainable: what to do fast, what to flag, how to find the quick path, drilled under time.
+Worked example · plane geometry
 
-### How much can you raise my ACT math score?
-It depends on starting point, timeline and practice; usually moves over a couple of months. No guaranteed number.
+**The question:** "In right triangle ABC, the right angle is at C, AC = 6 and BC = 8. A point sits on the hypotenuse... what is the length of AB?" Under pressure, students reach for coordinate setups and lose 90 seconds.
 
-### How much does it cost?
-USD 100/month for 1:1 (eight live sessions, two a week). Small-group option USD 40/month. No contract.
+**How we do it.** The ACT rewards recognising the figure, not grinding. Right angle at C, legs 6 and 8 — that's a 6-8-10 right triangle, the famous 3-4-5 doubled. You don't even compute:
 
-### Is there a free trial?
-Yes — the first session is free, no card needed.
+legs 6 and 8 → recognise 3-4-5 family (×2)hypotenuse AB = **10**(or, if you must: √(6² + 8²) = √100 = 10 — but recognition is faster)
 
-### Will my child keep the same tutor?
-Yes — one mentor across the whole prep.
+On a test where every question is worth the same and you have a minute each, spotting the 6-8-10 instantly instead of setting up the Pythagorean theorem is the difference between finishing and not. We train students to *see* these patterns — Pythagorean triples, special angles, similar-triangle shortcuts — so the figure does the work.
 
-### Do you use official ACT practice tests?
-Yes — with each miss reviewed as content gap, careless error or timing.
+Why a coding school teaches ACT math
 
-### Are sessions live?
-Yes — live, one-to-one, with a shared whiteboard.
+## Speed under constraints is an engineering skill.
 
-### Should I take the SAT or the ACT?
-If you read and calculate quickly and don't mind heavier geometry, the ACT often suits you. We can diagnose both. See our SAT Math page.
+### Cache what's reusable
 
-### What time zones do you cover?
-All six US time zones; two weekly slots.
+A programmer stores results to avoid recomputing. Memorising key facts cold is the same move — it frees your scarce time for thinking.
 
-### When should we start?
-Two to four months before a test date; shaky content means starting earlier.
+### Triage the workload
 
-## Related pages
+Deciding what to do now, defer, or skip is how engineers ship under deadlines. It's also exactly how you win the ACT clock.
 
-- SAT Math Prep — /sat-math-tutoring-online
-- Maths Tutoring for Teens in the USA — /online-maths-tutoring-for-teens-in-usa
-- Geometry Tutoring — /geometry-tutoring-online-usa
-- Algebra Tutoring — /algebra-tutoring-online-usa
-- AP Calculus AB & BC — /ap-calculus-tutoring-online
-- High School Mathematics Masterclass — /courses/complete-high-school-mathematics-mastery
+### Pattern over brute force
+
+Recognising a known shape beats grinding every time — in code and on a timed math test alike.
+
+We're Modern Age Coders, and the disciplined, efficient thinking we teach for programming is exactly what a fast, no-reference math test rewards. Our prep makes students quicker without making them careless.
+
+What we cover
+
+## All six ACT math reporting areas.
+
+With the must-memorize formulas drilled, since the ACT gives you none.
+
+### Pre-algebra & elementary algebra
+
+Number basics, fractions, percentages, ratios, exponents, linear equations and the foundations a fast section won't wait for.
+
+### Intermediate algebra
+
+Quadratics, functions, systems, sequences, inequalities and the occasional logarithm or matrix the ACT slips in.
+
+### Coordinate geometry
+
+Lines, slope, distance and midpoint, graphs of functions, and conics — reading them quickly off the figure.
+
+### Plane geometry
+
+Angles, triangles, circles, polygons, area and volume, plus the Pythagorean triples and special triangles that save time.
+
+### Trigonometry
+
+Right-triangle trig, the unit circle, identities and graphs — the topics that surprise students who skipped pre-calc.
+
+### Pacing & calculator strategy
+
+Using your approved calculator efficiently, and the timing discipline that protects your easy points to the last minute.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the student whose untimed scores are fine but timed scores aren't, the one with real content gaps in geometry or trig, and the high scorer pushing toward a 36. We diagnose which of those you are and aim accordingly.
+
+**What's realistic.** Pacing gains can come reasonably quickly once we name the problem; content gains track the weeks of work you put in. Your starting score and effort decide the outcome, and we'll set an honest target rather than promise a number nobody can guarantee.
+
+### What we won't do
+
+- Guarantee a specific composite or math score.
+- Pile on untimed practice that hides the real issue.
+- Teach shortcuts with no understanding behind them.
+- Pretend a weekend fixes months of preparation.
+
+How sessions work
+
+## A focused, timed-from-the-start prep.
+
+### 1:1, live
+
+One student, one mentor, real-time video with a shared whiteboard and live question review.
+
+### 8 sessions a month
+
+Two each week, around an hour, built on official ACT practice material.
+
+### Your time zone
+
+All six US zones, after school, evenings or weekends.
+
+### Score tracking
+
+Your mentor tracks scores, errors and timing so the plan sharpens each week.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Mentorship
+
+$100 / month
+
+- 8 live one-to-one sessions a month (2 per week)
+- The same mentor tracking your score throughout
+- Content fixed, then pacing trained on the clock
+- Official ACT practice · cancel any time
+
+### Small-Group Cohort
+
+$40 / month
+
+- 8 live small-group sessions a month (2 per week)
+- A few students at a similar score level
+- Same teaching approach, lower price
+- Good for shared prep · cancel any time
+
+[See the full course](/courses/complete-high-school-mathematics-mastery)
+
+Want the full algebra, geometry and trig foundation behind ACT math? [**Explore the High School Mathematics Masterclass →**](/courses/complete-high-school-mathematics-mastery)
+
+Who teaches you
+
+## Mentors who coach the clock as well as the content.
+
+An ACT math coach needs more than strong math — they need to read why a specific student is losing time, and rebuild both the missing facts and the timing habits. Our mentors do exactly that, watching how you work a figure to find the wasted seconds.
+
+You keep the same mentor through the prep, so they know your patterns and aim each session at the points still on the table.
+
+"Her content was already solid — she just couldn't finish in time. Learning what to skip and recognising the triangle patterns added points fast."
+
+— Parent of a junior, Illinois
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Free practice apps | Big prep course |
+| --- | --- | --- | --- |
+| Trains pacing specifically | Yes, from day one | Rarely | Group-paced |
+| Fixes content gaps 1:1 | Yes | No | Limited |
+| Same mentor tracks you | Yes | N/A | Usually not |
+| Drills must-know formulas | Yes | Sometimes | Sometimes |
+| Monthly price | $100 (1:1) / $40 (group) | Free | $700–2,500+ |
+
+Apps are useful for untimed drilling. We add the live diagnosis, the content fix and the pacing coaching that move an actual ACT score.
+
+Common questions
+
+## Everything you might be wondering.
+
+What's different about ACT math compared to the SAT?
+
+About a minute per question (60 in 60), more geometry and trig, and no formula sheet. The content is a bit more straightforward than the SAT, but the pace is the real challenge — so we weight timing heavily.
+
+Which ACT math topics do you cover?
+
+All six reporting areas: pre-algebra, elementary algebra, intermediate algebra, coordinate geometry, plane geometry and trigonometry — plus the formulas you must memorize.
+
+I run out of time on the ACT. Can you fix that?
+
+Yes — it's the most common ACT math problem and it's trainable. We teach what to do fast, what to flag, and how to spot the quick path, then drill under real time pressure.
+
+How much can you raise my ACT math score?
+
+It depends on starting point, timeline and practice. Shoring up content then training pacing usually moves the score over a couple of months. We won't quote a guaranteed number.
+
+How much does it cost?
+
+USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+
+Is there a free trial?
+
+Yes — the first session is free, no card needed. We review a recent score or run a quick diagnostic.
+
+Will my child keep the same tutor?
+
+Yes — one mentor tracks score, errors and timing across the whole prep.
+
+Do you use official ACT practice tests?
+
+Yes — official material, with each miss reviewed as content gap, careless error or timing.
+
+Are sessions live?
+
+Yes — live, one-to-one, with a shared whiteboard, so the mentor sees where time and points are lost.
+
+Should I take the SAT or the ACT?
+
+If you read and calculate quickly and don't mind heavier geometry, the ACT often suits you. We can run a short diagnostic on both and advise honestly. See our [SAT Math](/sat-math-tutoring-online) page too.
+
+What time zones do you cover?
+
+All six US time zones; two weekly slots in your own zone.
+
+When should we start?
+
+Two to four months before a test date is typical; shaky content means starting earlier.
+
+## Book a free ACT math trial session.
+
+Bring a recent practice section or take a quick diagnostic. We'll show you whether it's content or the clock costing you points — and how we'd fix it. No card needed.
+
+[See the full course](/courses/complete-high-school-mathematics-mastery)Keep exploring
+
+## More math tutoring from Modern Age Coders.
+
+[USA · examSAT Math Prep](/sat-math-tutoring-online)[USA · grades 6–12Maths Tutoring for Teens](/online-maths-tutoring-for-teens-in-usa)[USA · topicGeometry Tutoring](/geometry-tutoring-online-usa)[USA · topicAlgebra Tutoring](/algebra-tutoring-online-usa)[USA · APAP Calculus AB & BC](/ap-calculus-tutoring-online)[CourseHigh School Mathematics Masterclass](/courses/complete-high-school-mathematics-mastery)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/act-math-tutoring-online*

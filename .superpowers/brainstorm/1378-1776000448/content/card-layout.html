@@ -1,0 +1,99 @@
+<h2>Project Card Design — Pick Your Style</h2>
+<p class="subtitle">How should the 14 project cards look? Click the one you prefer.</p>
+
+<div class="cards">
+  <div class="card" data-choice="modern-glass" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:24px;background:linear-gradient(135deg,#0f0f23,#1a1a3e);">
+      <!-- Mock card A -->
+      <div style="border-radius:16px;overflow:hidden;border:1px solid rgba(168,85,247,0.3);background:rgba(20,20,40,0.9);">
+        <div style="height:120px;background:linear-gradient(135deg,rgba(168,85,247,0.2),rgba(78,205,196,0.2));display:flex;align-items:center;justify-content:center;position:relative;">
+          <span style="font-size:2.5rem;">🧠</span>
+          <span style="position:absolute;top:8px;right:8px;background:rgba(168,85,247,0.8);color:#fff;padding:3px 10px;border-radius:20px;font-size:0.65rem;font-weight:700;">AI & ML</span>
+          <span style="position:absolute;top:8px;left:8px;background:rgba(245,158,11,0.8);color:#fff;padding:3px 10px;border-radius:20px;font-size:0.65rem;font-weight:700;">⭐ Featured</span>
+        </div>
+        <div style="padding:16px;">
+          <h4 style="color:#f1f5f9;margin:0 0 6px;font-size:1rem;">The Beautiful Mind</h4>
+          <p style="color:#a855f7;font-size:0.75rem;margin:0 0 8px;font-weight:600;">by Modern Age Coders</p>
+          <p style="color:#94a3b8;font-size:0.75rem;line-height:1.5;margin:0 0 10px;">A focus and brain-strength game with 15 progressive levels...</p>
+          <div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:10px;">
+            <span style="padding:2px 8px;background:rgba(168,85,247,0.12);border:1px solid rgba(168,85,247,0.3);border-radius:10px;font-size:0.6rem;color:#cbd5e1;">React</span>
+            <span style="padding:2px 8px;background:rgba(78,205,196,0.12);border:1px solid rgba(78,205,196,0.3);border-radius:10px;font-size:0.6rem;color:#cbd5e1;">Firebase</span>
+            <span style="padding:2px 8px;background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.3);border-radius:10px;font-size:0.6rem;color:#cbd5e1;">JS</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#4ecdc4;font-size:0.7rem;font-weight:600;">View Project →</span>
+            <span style="color:#94a3b8;font-size:0.6rem;">🔥 Advanced</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A) Modern Glass Card</h3>
+      <p>Category badge, difficulty level, featured star, gradient image area, clean tech tags with color coding. Polished and professional.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="compact-grid" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:24px;background:linear-gradient(135deg,#0f0f23,#1a1a3e);">
+      <!-- Mock card B - Compact -->
+      <div style="display:grid;gap:10px;">
+        <div style="border-radius:12px;overflow:hidden;border:1px solid rgba(168,85,247,0.2);background:rgba(20,20,40,0.9);display:flex;height:70px;">
+          <div style="width:70px;min-width:70px;background:linear-gradient(135deg,rgba(168,85,247,0.3),rgba(78,205,196,0.3));display:flex;align-items:center;justify-content:center;font-size:1.8rem;">🎮</div>
+          <div style="padding:10px 14px;flex:1;">
+            <h4 style="color:#f1f5f9;margin:0;font-size:0.8rem;">Babu - 90s Maths Challenge</h4>
+            <p style="color:#a855f7;font-size:0.65rem;margin:2px 0;">Modern Age Coders</p>
+            <div style="display:flex;gap:3px;">
+              <span style="padding:1px 6px;background:rgba(168,85,247,0.12);border-radius:8px;font-size:0.55rem;color:#cbd5e1;">JS</span>
+              <span style="padding:1px 6px;background:rgba(78,205,196,0.12);border-radius:8px;font-size:0.55rem;color:#cbd5e1;">Firebase</span>
+            </div>
+          </div>
+        </div>
+        <div style="border-radius:12px;overflow:hidden;border:1px solid rgba(168,85,247,0.2);background:rgba(20,20,40,0.9);display:flex;height:70px;">
+          <div style="width:70px;min-width:70px;background:linear-gradient(135deg,rgba(245,158,11,0.3),rgba(236,72,153,0.3));display:flex;align-items:center;justify-content:center;font-size:1.8rem;">🤖</div>
+          <div style="padding:10px 14px;flex:1;">
+            <h4 style="color:#f1f5f9;margin:0;font-size:0.8rem;">Misti - AI Chatbot</h4>
+            <p style="color:#a855f7;font-size:0.65rem;margin:2px 0;">Harshit</p>
+            <div style="display:flex;gap:3px;">
+              <span style="padding:1px 6px;background:rgba(168,85,247,0.12);border-radius:8px;font-size:0.55rem;color:#cbd5e1;">Python</span>
+              <span style="padding:1px 6px;background:rgba(78,205,196,0.12);border-radius:8px;font-size:0.55rem;color:#cbd5e1;">AI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B) Compact Horizontal Cards</h3>
+      <p>Smaller footprint, fits more projects on screen. Good for lots of projects but less visual impact per card.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="image-focused" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:24px;background:linear-gradient(135deg,#0f0f23,#1a1a3e);">
+      <!-- Mock card C - Image heavy -->
+      <div style="border-radius:16px;overflow:hidden;border:1px solid rgba(168,85,247,0.3);background:rgba(20,20,40,0.9);">
+        <div style="height:150px;background:linear-gradient(135deg,rgba(78,205,196,0.15),rgba(168,85,247,0.15));display:flex;align-items:center;justify-content:center;position:relative;">
+          <div style="width:85%;height:75%;background:rgba(0,0,0,0.3);border-radius:8px;border:1px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;">
+            <span style="color:#64748b;font-size:0.7rem;">Screenshot Preview</span>
+          </div>
+          <div style="position:absolute;bottom:-14px;left:16px;width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,#a855f7,#4ecdc4);display:flex;align-items:center;justify-content:center;font-size:0.7rem;border:2px solid #0f0f23;">👤</div>
+        </div>
+        <div style="padding:20px 16px 16px;">
+          <p style="color:#a855f7;font-size:0.65rem;font-weight:600;margin:0 0 4px;">KRISH • WEB APP</p>
+          <h4 style="color:#f1f5f9;margin:0 0 6px;font-size:1rem;">SkyCast Weather</h4>
+          <p style="color:#94a3b8;font-size:0.72rem;line-height:1.5;margin:0 0 10px;">Real-time weather updates with a clean responsive interface...</p>
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <div style="display:flex;gap:4px;">
+              <span style="padding:2px 8px;background:rgba(168,85,247,0.12);border-radius:10px;font-size:0.6rem;color:#cbd5e1;">HTML</span>
+              <span style="padding:2px 8px;background:rgba(78,205,196,0.12);border-radius:10px;font-size:0.6rem;color:#cbd5e1;">API</span>
+            </div>
+            <span style="color:#4ecdc4;font-size:0.7rem;font-weight:600;">View →</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C) Image-Focused with Avatar</h3>
+      <p>Larger screenshot preview area, student avatar overlay, meta label (student + category). Best if project images are strong.</p>
+    </div>
+  </div>
+</div>

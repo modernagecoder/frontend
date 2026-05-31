@@ -128,6 +128,48 @@ We have a strong in-person community in Kolkata and Howrah with neighbourhood-sp
 - [Coding Classes near Uluberia, Howrah](/coding-classes-near-uluberia-howrah)
 - [Coding Classes near VIP Road, Kolkata](/coding-classes-near-vip-road-kolkata)
 
+## Coding classes by state in India
+
+We run dedicated state landing pages across India — each one locally aware with its school boards, entrance exams, languages and a hub of nearby cities. Find yours below.
+
+- [📍 Coding classes in Andhra Pradesh](/coding-classes-in-andhra-pradesh)
+- [📍 Coding classes in Assam](/coding-classes-in-assam)
+- [📍 Coding classes in Bihar](/coding-classes-in-bihar)
+- [📍 Coding classes in Chhattisgarh](/coding-classes-in-chhattisgarh)
+- [📍 Coding classes in Goa](/coding-classes-in-goa)
+- [📍 Coding classes in Gujarat](/coding-classes-in-gujarat)
+- [📍 Coding classes in Haryana](/coding-classes-in-haryana)
+- [📍 Coding classes in Himachal Pradesh](/coding-classes-in-himachal-pradesh)
+- [📍 Coding classes in Jharkhand](/coding-classes-in-jharkhand)
+- [📍 Coding classes in Karnataka](/coding-classes-in-karnataka)
+- [📍 Coding classes in Kerala](/coding-classes-in-kerala)
+- [📍 Coding classes in Madhya Pradesh](/coding-classes-in-madhya-pradesh)
+- [📍 Coding classes in Maharashtra](/coding-classes-in-maharashtra)
+- [📍 Coding classes in Odisha](/coding-classes-in-odisha)
+- [📍 Coding classes in Punjab](/coding-classes-in-punjab)
+- [📍 Coding classes in Rajasthan](/coding-classes-in-rajasthan)
+- [📍 Coding classes in Tamil Nadu](/coding-classes-in-tamil-nadu)
+- [📍 Coding classes in Telangana](/coding-classes-in-telangana)
+- [📍 Coding classes in Uttar Pradesh](/coding-classes-in-uttar-pradesh)
+- [📍 Coding classes in Uttarakhand](/coding-classes-in-uttarakhand)
+- [📍 Coding classes in West Bengal](/coding-classes-in-west-bengal)
+
+## Coding classes in other countries
+
+We also run dedicated landing pages for our families outside India. Every page is locally aware — exam boards, time zones, curriculum frameworks, and country-specific universities.
+
+- [🇨🇭 Coding classes in Switzerland](/coding-classes-in-switzerland)
+- [🇩🇪 Coding classes in Germany](/coding-classes-in-germany)
+- [🇬🇧 Coding classes in the United Kingdom](/coding-classes-in-united-kingdom)
+- [🇨🇦 Coding classes in Canada](/coding-classes-in-canada)
+- [🇸🇪 Coding classes in Sweden](/coding-classes-in-sweden)
+- [🇺🇸 Coding classes in the United States](/coding-classes-in-united-states)
+- [🇦🇺 Coding classes in Australia](/coding-classes-in-australia)
+- [🇦🇪 Coding classes in the UAE](/coding-classes-in-uae)
+- [🇸🇬 Coding classes in Singapore](/coding-classes-in-singapore)
+- [🇮🇪 Coding classes in Ireland](/coding-classes-in-ireland)
+- [🇳🇿 Coding classes in New Zealand](/coding-classes-in-new-zealand)
+
 ## Don't see your city or class? We still teach you.
 
 All our classes are live, online and 1-on-1. Every student from anywhere in India or the world gets the same expert-led program. Book a free demo and we'll match you with the right batch.

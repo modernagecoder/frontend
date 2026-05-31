@@ -1,109 +1,257 @@
-# Online Maths Tuition for Teens in the UK — Modern Age Coders
+---
+title: "Online Maths Tuition for Teens in the UK · 1:1 KS3 & GCSE Maths — Modern Age Coders"
+description: "Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+canonical: https://learn.modernagecoders.com/online-maths-tuition-for-teens-in-uk
+keywords: ["online maths tuition for teens UK", "secondary maths tutor", "KS3 maths tutor", "KS4 maths tutor", "GCSE maths tuition", "year 7 maths help", "year 8 maths tutor", "year 9 maths", "year 10 maths tutor", "year 11 GCSE maths", "maths tutor for teenager UK", "GCSE maths help"]
+source: src/pages/online-maths-tuition-for-teens-in-uk.html
+---
+> Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
 
-Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We rebuild the
-reasoning underneath algebra, ratio and geometry so it holds up — through KS3, into GCSE,
-and beyond. We tutor for AQA, Edexcel and OCR, foundation and higher tier. Same tutor
-throughout, UK time (GMT/BST). **USD 100/month for eight live 1:1 lessons (two a week).
-Small-group option: USD 40/month.** First lesson free.
+Why teens slip in secondary maths
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** UK secondary students, Years 7–11, ages 11–16, KS3 & KS4
-- **Format:** Live one-to-one online, 8 lessons/month, 2 per week, UK time
-- **Price:** USD 100/month (1:1) · USD 40/month (small group) · no contract
-- **Full course:** /courses/complete-high-school-mathematics-mastery
+## Maths is the one subject where last year's gap quietly drags down this year's grade.
 
-## The problem we solve
+English or history forgive a shaky topic — you can still follow the next one. Maths doesn't. If fractions never really landed in Year 6, algebra feels impossible in Year 8, and by Year 10 a capable teenager has decided they're "just not a maths person". They're not. They're standing on one missing brick.
 
-Maths is the one subject where last year's gap drags down this year's grade. If fractions
-never landed in Year 6, algebra feels impossible in Year 8, and by Year 10 a capable teen
-has decided they're "not a maths person" — standing on one missing brick. Cramming makes it
-worse. We diagnose the exact idea that broke, repair it, and the current work gets easier on
-its own.
+Cramming makes it worse. A student memorises enough to survive a test, the understanding never forms, and the gap widens silently until the next assessment exposes it.
 
-## How we teach
+A class of thirty can't pause for the one student lost on step two, and marking homework only shows *that* an answer was wrong, never *why*.
 
-1. **Diagnose the real gap** — find the earlier missing idea before the current topic.
-2. **Derive, don't dictate** — a method you can rebuild is one you can't forget.
-3. **Make them do the talking** — the teen explains reasoning back and works problems live.
-4. **Then build exam technique** — past papers, method marks and GCSE timing.
+We work the other way around. One student, one tutor, and a diagnosis first: we find the exact idea that broke, repair it, and watch the current work get easier without us ever touching it directly.
 
-## A real worked example: why you "flip and multiply" to divide fractions
+How we teach
 
-Dividing asks "how many of these fit into that?" So 6 ÷ ½ asks "how many halves fit into 6?"
+## Reasoning first, so the exam takes care of itself.
 
-- 6 ÷ ½ = "how many halves in 6?" = **12**
-- and 6 × 2 = 12 ✓ (×2 is the flipped ½)
-- so a ÷ (c/d) = a × (d/c) — flip and multiply, with a reason
+Memorised steps fail under pressure. Understood ideas don't.
 
-"Flip and multiply" isn't a spell — it's the obvious consequence of what dividing means. A
-teen who sees this stops mixing up which fraction to flip and can handle the algebraic
-fractions that trip up GCSE candidates.
+### Diagnose the real gap
 
-## Why a coding school teaches maths
+Before the current topic, we find the earlier idea that's actually missing — that's almost always where the trouble began.
 
-The thinking behind good code is the thinking behind good maths: **decomposition**,
-**abstraction** (an algebra function and a code function are the same idea), and **debugging
-your reasoning**. A teen who learns maths as logic walks into computer science, physics and
-economics already fluent in how they think.
+### Derive, don't dictate
 
-## What we cover (KS3 & GCSE)
+We show your teen where a method comes from. A method you can rebuild is one you can't forget, and one you can adapt to an unfamiliar GCSE question.
 
-- Number: fractions, decimals, percentages, indices, standard form, surds
-- Algebra: expressions, equations, simultaneous equations, quadratics, sequences, graphs, functions
-- Ratio & proportion: ratio, direct and inverse proportion, rates, compound measures
-- Geometry & measures: angles, Pythagoras, trigonometry, circle theorems, transformations, area, volume
-- Probability & statistics: probability, tree diagrams, averages, interpreting data
-- Exam skills: foundation/higher strategy, method marks, past papers, timing
+### Make them do the talking
 
-## How lessons work
+Your teen explains the reasoning back and works problems live while the tutor watches the thinking, not just the final answer.
 
-One teen, one tutor, live video with a shared whiteboard. Eight lessons a month, two each
-week (50–60 minutes), worked from your teen's scheme of work and papers. After-school,
-evening and weekend slots in UK time, ramping up around mocks and GCSEs.
+### Then build exam technique
 
-## FAQ
+Once the idea is solid, we drill past-paper questions, method marks and the timing the GCSE rewards.
 
-### What year groups do you teach?
-Years 7–11 (KS3 and KS4), building toward GCSE, placed by what the student can actually do.
+See it for yourself
 
-### Do you teach to the GCSE exam boards?
-Yes — AQA, Edexcel and OCR, foundation and higher tier, from your teen's scheme of work and mocks.
+## Dividing fractions — why you "flip and multiply".
 
-### My teen is in a low set and losing confidence. Where do you start?
-By finding the earlier missing topic. Fix the foundation and the present work gets easier.
+Worked example · KS3 into GCSE
 
-### Is it aligned with KS3 and the national curriculum?
-Yes — KS3 sets up everything in GCSE, taught for understanding.
+**What gets memorised:** "to divide by a fraction, turn it upside down and multiply." Teens follow it, but ask *why* and there's silence — so when it appears inside an algebra fraction at GCSE, it falls apart.
 
-### How much does it cost?
-USD 100/month for 1:1 (eight live lessons, two a week). Small-group option USD 40/month. No contract.
+**How we do it.** Dividing asks "how many of these fit into that?" So 6 ÷ ½ is asking "how many halves fit into 6?" — and two halves fit into every whole, so the answer is twelve. Dividing by a half *doubles*. Multiplying by 2 (the flipped ½) does the same thing:
 
-### Is there a free trial?
-Yes — the first lesson is free, no card needed.
+6 ÷ ½ = "how many halves in 6?" = **12**and 6 × 2 = 12 ✓ (×2 is the flipped ½)so a ÷ (c/d) = a × (d/c) — flip and multiply, with a reason
 
-### Will my teen keep the same tutor?
-Yes — one tutor throughout.
+Now "flip and multiply" isn't a spell — it's the obvious consequence of what dividing actually means. A teen who sees this stops mixing up which fraction to flip, and can handle the algebraic fractions that trip up GCSE candidates. That's the difference between a grade that survives one test and understanding that survives the exam.
 
-### Do lessons fit around UK school and revision?
-Yes — after-school, evening and weekend slots in UK time, ramping up around exams.
+Why a coding school teaches maths
 
-### Are lessons live, or recorded?
+## The thinking behind good code is the thinking behind good maths.
+
+### Decomposition
+
+A hard problem is solved by breaking it into smaller ones. A multi-step GCSE question and a software feature are attacked the same way.
+
+### Abstraction
+
+A function in algebra — input in, output out — is the same idea as a function in code. Teens who get one get the other for free.
+
+### Debugging your reasoning
+
+"Where did this go wrong?" is a skill. We teach teens to trace their own logic and find the error, instead of waiting for a red pen.
+
+We're Modern Age Coders — we've spent years teaching teenagers to think like builders. Maths is where that thinking is sharpest. A teen who learns maths as logic walks into computer science, physics and economics already fluent in how those subjects think.
+
+What we cover
+
+## The full KS3 and GCSE syllabus.
+
+From the KS3 foundations that decide everything to the higher-tier GCSE topics that decide the top grades.
+
+### Number
+
+Fractions, decimals, percentages, indices, standard form and surds — the bedrock the rest of GCSE leans on.
+
+### Algebra
+
+Expressions, equations, simultaneous equations, quadratics, sequences, graphs and functions — the largest part of the exam.
+
+### Ratio & proportion
+
+Ratio, direct and inverse proportion, rates and compound measures — the topic students most often lose marks on.
+
+### Geometry & measures
+
+Angles, Pythagoras, trigonometry, circle theorems, transformations, area and volume.
+
+### Probability & statistics
+
+Probability, tree diagrams, averages, and interpreting data and graphs.
+
+### Exam skills
+
+Foundation and higher tier strategy, method marks, past papers and the timing that turns understanding into grades.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the teen slipping in a low set, the one coasting on memory who's about to hit the GCSE wall, and the strong student chasing a grade 8 or 9. We teach the whole range and aim at the next realistic grade.
+
+**What's realistic.** The first thing most parents notice is their teen stops dreading maths and starts attempting problems. Grade improvements build over a term or two of steady, twice-weekly work as the foundations rebuild. Anyone promising a grade jump in a fortnight is selling something we won't.
+
+### What we won't do
+
+- Hand out answers so homework looks done.
+- Teach exam tricks with no understanding beneath them.
+- Push ahead while old gaps stay buried.
+- Promise a grade we can't honestly back.
+
+How lessons work
+
+## Consistent, one-to-one, and tied to school.
+
+### 1:1, live
+
+One teen, one tutor, real-time video with a shared whiteboard. No recordings, no autopilot.
+
+### 8 lessons a month
+
+Two each week, usually 50–60 minutes. We work from your teen's scheme of work and papers.
+
+### UK time
+
+After-school, evening and weekend slots in GMT/BST, ramping up around mocks and GCSEs.
+
+### You stay informed
+
+A note after each lesson and a plain-English progress summary every few weeks.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Tuition
+
+$100 / month
+
+- 8 live one-to-one lessons a month (2 per week)
+- The same dedicated tutor throughout
+- Worked from your teen's exam board & papers
+- Notes after every lesson · cancel any time
+
+### Small-Group Cohort
+
+$40 / month
+
+- 8 live small-group lessons a month (2 per week)
+- A few students at the same level
+- Same teaching approach, lower price
+- A solid first step · cancel any time
+
+[See the full course](/courses/complete-high-school-mathematics-mastery)
+
+Heading into GCSE year? See our focused [**GCSE Maths Tuition →**](/gcse-maths-tuition-online) page.
+
+Who teaches your teen
+
+## Tutors who can explain the same idea five different ways.
+
+Teenagers spot instantly when a teacher only knows one route through a problem. Our tutors are chosen because they know the material deeply enough to find the explanation that works for *this* student — and because they never make a teen feel daft for asking.
+
+The same tutor stays with your teen, which is what makes a 15-year-old willing to say "I still don't get it" — the sentence every real improvement starts with.
+
+"She went from a grade 4 in her mocks to a 7 in the real GCSE. The difference was she finally understood why the methods worked instead of just copying them."
+
+— Parent of a Year 11 student, Bristol
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Revision apps | A typical tutor |
+| --- | --- | --- | --- |
+| Fixes the root gap | Diagnoses & rebuilds it | No — content only | Sometimes |
+| Teaches reasoning | Always | Rarely | Varies |
+| Same tutor each time | Yes, throughout | N/A | Often |
+| Works to your exam board | Yes | Generic | Varies |
+| Monthly price | $100 (1:1) / $40 (group) | £5–10 | £30–50/hr |
+
+Revision apps are handy for practice. A local tutor is great if you can afford the hourly rate. We give the live, one-to-one attention of a tutor at a monthly price closer to an app.
+
+Questions parents ask
+
+## Everything you might be wondering.
+
+What year groups do you teach?
+
+Years 7 through 11 — KS3 and KS4 — building steadily toward GCSE, placing each student by what they can actually do.
+
+Do you teach to the GCSE exam boards?
+
+Yes — AQA, Edexcel and OCR, foundation and higher tier, working from your teen's scheme of work, mocks and homework.
+
+My teen is in a low set and losing confidence. Where do you start?
+
+By finding the earlier missing topic, often from KS2 or early KS3. Fix the foundation and the present work gets easier, which rebuilds confidence.
+
+Is it aligned with KS3 and the national curriculum?
+
+Yes — KS3 sets up everything in GCSE, so we treat number, algebra, ratio, geometry and probability seriously and teach for understanding.
+
+How much does it cost?
+
+USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+
+Is there a free trial?
+
+Yes — the first lesson is free, no card needed. We diagnose the real gaps.
+
+Will my teen keep the same tutor?
+
+Yes — one tutor throughout, which matters for older students who need to trust someone before admitting confusion.
+
+Do lessons fit around UK school and revision?
+
+Yes — after-school, evening and weekend slots in UK time, ramping up around mocks and GCSE season.
+
+Are lessons live, or recorded?
+
 Live, one-to-one, with a shared whiteboard.
 
-### Can tuition raise my teen's GCSE grade?
-Usually, over a term or two of steady work. We won't promise a specific jump on a timeline.
+Can tuition raise my teen's GCSE grade?
 
-### Do you help with homework and revision?
-Yes — by teaching the method using your teen's own work and past papers.
+Usually, over a term or two of steady work rather than a fortnight. We won't promise a specific jump on a timeline.
 
-### Can we start mid-year?
-Yes — we start exactly where the trouble began.
+Do you help with homework and revision?
 
-## Related pages
+Yes — by teaching the method using your teen's own homework and past papers, not just giving answers.
 
-- GCSE Maths Tuition — /gcse-maths-tuition-online
-- KS3 Maths Tuition — /ks3-maths-tuition-online
-- Common Entrance Maths — /common-entrance-maths-tuition
-- Maths Tuition for Kids in the UK — /online-maths-tuition-for-kids-in-uk
-- Maths Tutoring for Teens in the USA — /online-maths-tutoring-for-teens-in-usa
-- Secondary & High School Mathematics — /courses/complete-high-school-mathematics-mastery
+Can we start mid-year?
+
+Yes — we start exactly where the trouble began and catch up as needed.
+
+## Book a free trial lesson for your teen.
+
+Your teen meets the tutor, we find the gap that's actually holding the grade down, and you decide afterwards. No card needed, no pressure.
+
+[See the full course](/courses/complete-high-school-mathematics-mastery)Keep exploring
+
+## More maths tuition from Modern Age Coders.
+
+[UK · examGCSE Maths Tuition](/gcse-maths-tuition-online)[UK · KS3KS3 Maths Tuition](/ks3-maths-tuition-online)[UK · 13+Common Entrance Maths](/common-entrance-maths-tuition)[UK · primaryMaths Tuition for Kids](/online-maths-tuition-for-kids-in-uk)[USA · grades 6–12Maths Tutoring for Teens (USA)](/online-maths-tutoring-for-teens-in-usa)[CourseSecondary & High School Mathematics](/courses/complete-high-school-mathematics-mastery)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/online-maths-tuition-for-teens-in-uk*

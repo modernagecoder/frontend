@@ -1,111 +1,257 @@
-# Math Olympiad & AMC Tutoring Online — Modern Age Coders
+---
+title: "Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching — Modern Age Coders"
+description: "Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+canonical: https://learn.modernagecoders.com/math-olympiad-amc-tutoring
+keywords: ["math olympiad tutoring online", "AMC tutor", "AMC 8 prep", "AMC 10 prep", "AMC 12 prep", "MATHCOUNTS coaching", "AIME prep", "competition math tutor", "math olympiad coach", "problem solving math", "number theory combinatorics tutor", "math competition prep"]
+source: src/pages/math-olympiad-amc-tutoring.html
+---
+> Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $100/month, 8 classes. Free trial.
 
-Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME
-pathway. Competition math is a different craft from school math — winning means seeing a
-problem from an angle nobody handed you. We teach that craft: number theory, combinatorics,
-clever geometry and the problem-solving habits that earn medals. Mentors in every US time
-zone. **USD 100/month for eight live 1:1 sessions (two a week). Small-group option: USD
-40/month.** First session free.
+Why strong students still stall on the AMC
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** US students in AMC, MATHCOUNTS and AIME (typically grades 5–12)
-- **Format:** Live one-to-one online, 8 sessions/month, 2 per week, your time zone
-- **Price:** USD 100/month (1:1) · USD 40/month (small group) · no contract
-- **Full course:** /courses/olympiad-competition-mathematics-mastery
+## Knowing more formulas doesn't help. Competition math rewards a different way of thinking.
 
-## The problem we solve
+A student who aces school math often hits a wall on the AMC, and it confuses everyone. The reason is simple: school trains you to recognise which taught method applies, while a competition problem is built so that *no* taught method obviously applies. The whole challenge is finding the path yourself.
 
-Strong school-math students often stall on the AMC. School trains you to recognise which
-taught method applies; a competition problem is built so that no taught method obviously
-applies — the challenge is finding the path yourself. Drilling more formulas does almost
-nothing. What works is learning the moves that generate insight: trying small cases, looking
-for symmetry, reframing a hard count as an easier one, working backward. We coach exactly
-that.
+Drilling more formulas does almost nothing for this. You can't memorize your way to a clever insight.
 
-## How we coach
+What actually works is learning the moves that generate insight — trying small cases, looking for symmetry, reframing a hard count as an easier one, working backward from the answer. These are concrete, nameable techniques, not magic.
 
-1. **Build the toolkit of moves** — small cases, symmetry, invariants, complementary counting, working backward.
-2. **Coach the struggle, not just the answer** — intervene at the right moment to build persistence.
-3. **Go deep in each topic** — number theory, combinatorics, algebra, olympiad geometry.
-4. **Rehearse under contest conditions** — timed past AMC/MATHCOUNTS/AIME papers and contest strategy.
+That's what we coach. We give your child hard problems, watch how they attack them, and build the problem-solving toolkit and the patience that competition math is genuinely made of.
 
-## A real worked example: count the complement
+How we coach
 
-"How many integers from 1 to 100 are divisible by neither 2 nor 5?" Count what you don't
-want, using inclusion-exclusion:
+## We teach how to attack a problem, not which formula to recall.
 
-- divisible by 2: 50; by 5: 20; by both (10): 10
-- removed = 50 + 20 − 10 = 60 (don't double-count)
-- survivors = 100 − 60 = **40**
+Insight is a set of habits. We make each one explicit and practised.
 
-The whole problem turns on one habit — "is it easier to count the complement?" — plus not
-double-counting overlaps. No formula memorized; a way of looking applied. We train a small
-set of powerful reframings a student reaches for automatically.
+### Build the toolkit of moves
 
-## Why a coding school coaches olympiad math
+Small cases, symmetry, invariants, complementary counting, working backward — the recurring techniques that crack contest problems, taught one at a time.
 
-Competitive programming and competition math are siblings: **decompose and reframe**,
-**spot invariants and structure**, and **get comfortable with hard**. Olympiad-trained
-students often become exceptional programmers, and vice versa.
+### Coach the struggle, not just the answer
 
-## What we cover
+We watch your child wrestle with a problem and intervene at the right moment, building the persistence that separates strong competitors from the rest.
 
-- Number theory: divisibility, modular arithmetic, primes, Diophantine reasoning
-- Combinatorics: counting, complementary counting, casework, pigeonhole, probability
-- Algebra: clever factoring, polynomials and roots, inequalities, substitutions
-- Olympiad geometry: angle chasing, similar triangles, power of a point, constructions
-- Problem-solving heuristics: small cases, symmetry, invariants, extremal arguments
-- Contest strategy: time management, guessing/skipping, AIME's integer format, the pipeline
+### Go deep in each topic
 
-## How sessions work
+Number theory, combinatorics, algebra and olympiad geometry, each explored until your child owns the standard ideas and can combine them.
 
-One student, one coach, live video with a shared whiteboard. Eight sessions a month, two
-each week (about an hour), on a long-term topic arc. All six US time zones. Timed past-paper
-practice before each contest.
+### Rehearse under contest conditions
 
-## FAQ
+Timed sets from past AMC, MATHCOUNTS and AIME papers, plus the strategy of guessing, skipping and scoring that the contests reward.
 
-### Which competitions do you coach for?
-AMC 8/10/12, MATHCOUNTS, and the AIME pathway — tailored to the contest and division.
+See it for yourself
 
-### Is competition math different from school math?
-Very. School applies a known method; competition asks you to find one. We teach that exploratory problem-solving.
+## A counting problem — won by reframing, not grinding.
 
-### My child is strong at school math but new to competitions. Is that fine?
-Yes — the most common starting point. We build the competition habits from where your child is.
+Worked example · combinatorics, AMC style
 
-### Can you help my child qualify for AIME?
-We coach toward it honestly — realistic for committed students over time, depending on starting level and practice.
+**The problem:** "How many positive integers from 1 to 100 are divisible by neither 2 nor 5?" A student starts listing or trying to count the ones that qualify — slow and error-prone.
 
-### How much does it cost?
-USD 100/month for 1:1 (eight live sessions, two a week). Small-group option USD 40/month. No contract.
+**The reframe we teach.** Counting what you *don't* want is often far easier than counting what you do. So instead of counting the survivors, count the ones to remove, using inclusion-exclusion:
 
-### Is there a free trial?
-Yes — the first session is free, no card needed.
+divisible by 2: 50divisible by 5: 20divisible by both (i.e. by 10): 10removed = 50 + 20 − 10 = 60 (don't double-count the 10s)survivors = 100 − 60 = **40**
 
-### What ages and grades is this for?
-Roughly grades 5–12 — MATHCOUNTS and AMC 8 for middle school, AMC 10/12 and AIME for high school.
+The whole problem turns on one habit — "is it easier to count the complement?" — plus knowing not to double-count overlaps. No formula was memorized; a way of looking was applied. This is the texture of competition math, and it's exactly what we train: a small set of powerful reframings your child reaches for automatically when a problem looks impossible.
 
-### Will my child keep the same coach?
-Yes — one mentor building a long-term arc.
+Why a coding school coaches olympiad math
 
-### Are sessions live?
-Yes — live, one-to-one, with a shared whiteboard.
+## Competitive programming and competition math are siblings.
 
-### Isn't this just for math geniuses?
-No — the students who do well usually learned to enjoy hard problems. That's teachable.
+### Decompose & reframe
 
-### Does competition math help with the SAT or admissions?
-Yes, indirectly — the SAT/ACT feel easy afterward, and strong results signal on applications.
+The strongest coders win by reframing a problem into one they can solve. It's the identical move behind cracking an AMC question.
 
-### What time zones do you cover?
-All six US time zones; two weekly slots.
+### Invariants & structure
 
-## Related pages
+Spotting what stays fixed while everything else changes solves olympiad problems and verifies algorithms alike.
 
-- UKMT Maths Challenge — /ukmt-maths-challenge-tutoring
-- Maths Tutoring for Teens in the USA — /online-maths-tutoring-for-teens-in-usa
-- SAT Math Prep — /sat-math-tutoring-online
-- Geometry Tutoring — /geometry-tutoring-online-usa
-- Maths Tutoring for Kids in the USA — /online-maths-tutoring-for-kids-in-usa
-- Olympiad & Competition Mathematics Masterclass — /courses/olympiad-competition-mathematics-mastery
+### Comfort with hard
+
+Both reward a student who can sit calmly with a problem they don't yet know how to solve. That comfort is the real prize.
+
+We're Modern Age Coders, and competitive programming runs in our DNA. The same problem-solving instincts power both fields — which is why olympiad-trained students so often become exceptional programmers, and vice versa.
+
+What we cover
+
+## The competition topics, from AMC 8 to AIME.
+
+Pitched to your child's contest and division, with depth that travels upward.
+
+### Number theory
+
+Divisibility, modular arithmetic, primes, Diophantine reasoning and the number-sense that AMC and AIME lean on heavily.
+
+### Combinatorics
+
+Counting techniques, complementary counting, casework, pigeonhole, and the probability problems contests love.
+
+### Algebra
+
+Clever factoring, polynomials and their roots, inequalities, functional thinking and substitutions that collapse hard problems.
+
+### Olympiad geometry
+
+Angle chasing, similar triangles, power of a point, and the constructions that turn a baffling figure into a solvable one.
+
+### Problem-solving heuristics
+
+Small cases, symmetry, invariants, extremal arguments and working backward — the meta-skills that generalise across every topic.
+
+### Contest strategy
+
+Time management, when to guess or skip, AIME's exact-integer format, and how to qualify and progress through the pipeline.
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the middle schooler starting MATHCOUNTS or AMC 8, the high schooler chasing an AIME qualification, and the young student who's clearly ahead and bored by school math. What matters most isn't raw talent — it's genuine appetite for hard problems.
+
+**What's realistic.** Competition results build over seasons, not weeks. Most students see their problem-solving deepen steadily, and ambitious goals like AIME qualification are reachable for committed students over time. We'll be honest about the timeline and never sell a guaranteed medal.
+
+### What we won't do
+
+- Promise a specific score, qualification or medal.
+- Drill formulas in place of real problem-solving.
+- Push a child who isn't enjoying it.
+- Pretend insight can be crammed the week before a contest.
+
+How sessions work
+
+## A long game, coached one to one.
+
+### 1:1, live
+
+One student, one coach, real-time video with a shared whiteboard for working hard problems together.
+
+### 8 sessions a month
+
+Two each week, around an hour, on a topic arc built for the long term.
+
+### Your time zone
+
+All six US zones, around school and contest schedules.
+
+### Contest ramp
+
+Timed past-paper practice and strategy before each competition.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Coaching
+
+$100 / month
+
+- 8 live one-to-one sessions a month (2 per week)
+- The same coach building a long-term arc
+- Pitched to your child's contest and division
+- Past-paper practice · cancel any time
+
+### Small-Group Cohort
+
+$40 / month
+
+- 8 live small-group sessions a month (2 per week)
+- A few keen students solving together
+- Same coaching approach, lower price
+- Great for a math-club crew · cancel any time
+
+[See the full course](/courses/olympiad-competition-mathematics-mastery)
+
+Want the structured competition path laid out? [**Explore the Olympiad & Competition Mathematics Masterclass →**](/courses/olympiad-competition-mathematics-mastery)
+
+Who coaches your child
+
+## Coaches who've solved these problems and love them.
+
+Competition coaching can't be faked. Our olympiad coaches have genuine problem-solving backgrounds and, just as importantly, the patience to let a student struggle productively instead of rushing to the answer. They know when to hint and when to wait — the hardest part of the craft.
+
+Your child keeps the same coach, who builds a deliberate arc across topics and knows exactly which kinds of problems still trip them up.
+
+"He used to give up the moment a problem looked unfamiliar. Now he grins at hard ones. The AMC score followed, but that change in him is the real win."
+
+— Parent of a 7th grader, Massachusetts
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Problem-set books | Large online classes |
+| --- | --- | --- | --- |
+| Coaches your child's actual struggle | Yes, live 1:1 | No | Rarely |
+| Teaches heuristics, not formulas | Yes | Implicitly | Varies |
+| Same coach, long-term arc | Yes | N/A | Usually not |
+| Adapts pace to the student | Fully | You self-pace | Fixed schedule |
+| Monthly price | $100 (1:1) / $40 (group) | $20–40 | $200–500+ |
+
+Great problem books are essential and we use them. What a book can't do is watch your child get stuck and give the one nudge that teaches them to get unstuck themselves.
+
+Common questions
+
+## Everything you might be wondering.
+
+Which competitions do you coach for?
+
+AMC 8, AMC 10, AMC 12, MATHCOUNTS, and the AIME pathway for those who qualify. We coach the problem-solving that carries across all of them and tailor practice to the contest and division.
+
+Is competition math different from school math?
+
+Very. School math applies a known method; competition math asks you to find one nobody handed you. We teach that creative, exploratory problem-solving — it's learnable.
+
+My child is strong at school math but new to competitions. Is that fine?
+
+That's the most common starting point. We build the competition habits — patience, trying cases, looking for structure — starting where your child is.
+
+Can you help my child qualify for AIME?
+
+We coach toward it honestly. It's realistic for many committed students over time, depending on starting level and practice. We set an honest target and build the problem-solving.
+
+How much does it cost?
+
+USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+
+Is there a free trial?
+
+Yes — the first session is free, no card needed. We give a couple of problems to see how your child thinks.
+
+What ages and grades is this for?
+
+Roughly grades 5–12 — MATHCOUNTS and AMC 8 for middle school, AMC 10/12 and AIME for high school. We also stretch younger students who are ahead.
+
+Will my child keep the same coach?
+
+Yes — one mentor building a long-term arc who knows which problem types still need work.
+
+Are sessions live?
+
+Yes — live, one-to-one, with a shared whiteboard. Coaching the struggle only works in real time.
+
+Isn't this just for math geniuses?
+
+No. The students who do well usually learned to enjoy struggling with hard problems, not natural prodigies. That enjoyment is teachable.
+
+Does competition math help with the SAT or admissions?
+
+Yes, indirectly — the SAT/ACT feel easy afterward, and strong AMC/AIME results signal on competitive applications. The deeper benefit is how the student learns to think.
+
+What time zones do you cover?
+
+All six US time zones; two weekly slots around school.
+
+## Book a free olympiad coaching trial.
+
+We'll hand your child a couple of competition problems, see how they think, and show you the path we'd build toward their next contest. No card needed.
+
+[See the full course](/courses/olympiad-competition-mathematics-mastery)Keep exploring
+
+## More math tutoring from Modern Age Coders.
+
+[UK · competitionUKMT Maths Challenge](/ukmt-maths-challenge-tutoring)[USA · grades 6–12Maths Tutoring for Teens](/online-maths-tutoring-for-teens-in-usa)[USA · examSAT Math Prep](/sat-math-tutoring-online)[USA · topicGeometry Tutoring](/geometry-tutoring-online-usa)[USA · ages 6–11Maths Tutoring for Kids](/online-maths-tutoring-for-kids-in-usa)[CourseOlympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/math-olympiad-amc-tutoring*

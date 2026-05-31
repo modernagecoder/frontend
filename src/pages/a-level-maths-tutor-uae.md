@@ -1,100 +1,249 @@
-# A-Level Maths Tutor in the UAE — Modern Age Coders
+---
+title: "A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics — Modern Age Coders"
+description: "Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. USD 100/month (about AED 370). Free trial."
+canonical: https://learn.modernagecoders.com/a-level-maths-tutor-uae
+keywords: ["A-level maths tutor UAE", "A-level maths tutor Dubai", "AS level maths tutor UAE", "Cambridge International A level maths UAE", "Edexcel A-level maths UAE", "sixth form maths tutor UAE", "A-level pure maths tutor", "A-level mechanics statistics UAE", "online A-level maths UAE", "British curriculum sixth form maths"]
+source: src/pages/a-level-maths-tutor-uae.html
+---
+> Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. USD 100/month (about AED 370). Free trial.
 
-**Quick answer:** Modern Age Coders provides live one-to-one online A-Level and AS maths
-tutoring for British-curriculum sixth-form students across the UAE — Edexcel, AQA, OCR and
-Cambridge International — covering pure, mechanics and statistics. We rebuild the fluency
-A-Level assumes and teach concepts from first principles, then train exam technique, with the
-same tutor to the exam. **USD 100/month (about AED 370)** for eight 1:1 sessions; Gulf
-Standard Time; first session free.
+In short
 
-- **Provider:** Modern Age Coders (learn.modernagecoders.com)
-- **Audience:** British-curriculum sixth-form students in the UAE taking AS or A-Level maths
-- **Format:** Live one-to-one online, 8 sessions/month, 2 per week, Gulf Standard Time (UTC+4)
-- **Price:** USD 100/month (≈ AED 370, 1:1) · USD 40/month (≈ AED 147, small group) · no contract
-- **Boards:** Edexcel, AQA, OCR, Cambridge International (CIE)
+**Modern Age Coders provides live one-to-one online A-Level and AS maths tutoring for British-curriculum sixth-form students across the UAE** — Edexcel, AQA, OCR and Cambridge International — covering pure, mechanics and statistics.
 
-## The problem we solve
+We rebuild the fluency A-Level assumes and teach concepts from first principles, then train exam technique, with the same tutor to the exam. Pricing is **USD 100 per month (about AED 370)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
 
-UAE students who breezed through IGCSE hit a wall in the first term of A-Level. A-Level stops
-rewarding memorise-and-repeat; it demands algebraic fluency so automatic it costs no thought,
-and the confidence to attack a question with no obvious method. The grade-deciding questions
-are deliberately unfamiliar, so past-paper drilling alone can't prepare you. We rebuild the
-fluency, teach concepts from first principles, and train the reasoning that separates a pass
-from a confident A.
+Why A-Level maths catches students out
 
-## How we teach
+## The step up from IGCSE is brutal — and it's not about working harder.
 
-1. **Rebuild IGCSE-to-A-Level fluency** — the algebra A-Level assumes, made automatic.
-2. **Derive, don't memorise** — show where each result comes from so you can rebuild it.
-3. **Train unseen problem-solving** — how to start a question with no obvious method.
-4. **Drill papers & technique** — working, notation and timing that bank every mark.
+Every year, UAE students who breezed through IGCSE maths hit a wall in the first term of A-Level. It's bewildering, and the cause is clear: A-Level stops rewarding the memorise-and-repeat approach that worked before. It demands algebraic fluency so automatic it costs no thought, and the confidence to attack a question with no obvious method.
 
-## A real worked example: why the chain rule "peels the layers"
+Working harder at the old approach doesn't fix it — it just produces more frustration.
 
-(3x + 1)⁵ is a function inside a function — inner machine (3x + 1) feeding outer machine
-(^5). A change in x changes the inner value, amplified by the outer, so the rates multiply:
+The questions that decide A and A* grades are deliberately unfamiliar: they combine topics, hide the method, and reward genuine reasoning. Past-paper drilling alone can't prepare you, because the next paper looks different again.
 
-- let u = 3x + 1, y = u⁵
-- dy/dx = dy/du × du/dx = 5u⁴ × 3 = **15(3x + 1)⁴**
+We bridge the gap directly. We rebuild the fluency A-Level assumes, teach each concept from where it comes from, and train the problem-solving and exam technique that turn understanding into the grade you're aiming for.
 
-The "multiply by the inside's derivative" is because two linked rates of change compound,
-like gears. A student who pictures this never misapplies the chain rule and extends it to
-harder compositions.
+How we teach
 
-## Why a coding school tutors A-Level maths
+## Fluency, understanding, then exam technique.
 
-A-Level maths and CS are the same thinking: **build from primitives**, **reason don't
-recall**, and **compose functions** (the chain rule is functions inside functions). A-Level
-maths underpins CS, engineering and economics — the fields the UAE invests in most.
+Worked from your specification, toward the unseen questions that decide your grade.
 
-## What we cover (all three strands)
+### Rebuild IGCSE-to-A-Level fluency
 
-- Pure — algebra & functions: indices, surds, partial fractions, binomial, modelling
-- Pure — calculus: differentiation and integration from first principles, parametric/implicit, differential equations
-- Pure — trigonometry & vectors: radians, identities, addition/double-angle formulae, vectors
-- Statistics: data, probability, binomial and normal distributions, hypothesis testing
-- Mechanics: kinematics, forces, Newton's laws, moments, projectiles
-- Exam technique: "show that" and proof, unseen problem-solving, calculator skills, timing
+The algebra A-Level assumes is automatic. We make yours automatic too, so it never eats your time on harder work.
 
-(For full exam-board detail, see our A-Level Maths Tuition page.)
+### Derive, don't memorise
 
-## How lessons work
+We show where each result comes from — why the chain rule works, why a vector equation describes a line — so you can rebuild and adapt it.
 
-One student, one tutor, live video with a shared whiteboard. Eight sessions a month, two each
-week, worked from your specification and past papers. Evening and weekend slots in Gulf
-Standard Time, ramping into exams.
+### Train unseen problem-solving
 
-## FAQ
+We coach how to start a question with no obvious method, the exact skill the top-mark questions test.
 
-### Which boards and which A-Level do you cover?
-Edexcel, AQA, OCR and Cambridge International (CIE) AS & A Level, across pure, mechanics and statistics.
+### Drill papers & technique
 
-### The jump from IGCSE to A-Level floored my child. Is that normal?
-Completely — the steepest step in the British curriculum. We rebuild fluency and teach the new abstraction.
+Using your board's papers, we build the working, notation and timing that bank every available mark.
 
-### Can you help me get an A or A*?
-Understanding plus fluency on unseen questions; we build both, with the result depending on effort.
+See it for yourself
 
-### Do you cover mechanics and statistics, not just pure?
-Yes — all three strands.
+## The chain rule — why you "peel the layers".
 
-### How much does it cost?
+Worked example · A-Level pure
+
+**What gets memorised:** "differentiate the outside, then multiply by the derivative of the inside." Students chant it, misapply it on anything unusual, and never see why the multiplication is there.
+
+**How we do it.** A function like (3x + 1)⁵ is a function *inside* a function — an inner machine (3x + 1) feeding an outer machine (raise to the 5th). A small change in x changes the inner value, and that change is then amplified by the outer machine. So the two rates of change *multiply*:
+
+y = (3x + 1)⁵, let u = 3x + 1 so y = u⁵how fast y changes with x = (how fast y changes with u) × (how fast u changes with x)dy/dx = dy/du × du/dx = 5u⁴ × 3 = **15(3x + 1)⁴**
+
+The "multiply by the inside's derivative" isn't a rule to obey — it's because two linked rates of change compound, exactly like gears: turn the input gear a little, the middle gear turns, and the output turns by the product of the two ratios. A student who pictures this never misapplies the chain rule, and can extend it to harder compositions — which is precisely the fluency A-Level and university calculus demand.
+
+Why a coding school tutors A-Level maths
+
+## A-Level maths and computer science are the same kind of thinking.
+
+### Build from primitives
+
+A-Level builds complex results from a few definitions, exactly as a program builds features from primitives. We teach that constructive habit.
+
+### Reason, don't recall
+
+The unseen questions reward working a problem out from what you understand — the same instinct that solves a novel coding problem.
+
+### Compose functions
+
+The chain rule is literally about functions inside functions — the heart of how software, and calculus, are built.
+
+We're Modern Age Coders, built around real coding and AI. A-Level maths underpins computer science, engineering and economics — the fields the UAE is investing in most — and the precise, constructive reasoning we teach for programming is exactly what makes it click.
+
+What we cover
+
+## The full A-Level, all three strands.
+
+Taught to your board, with the foundations rebuilt under each topic.
+
+### Pure: algebra & functions
+
+Indices, surds, partial fractions, the binomial expansion, functions, transformations and modelling.
+
+### Pure: calculus
+
+Differentiation and integration from first principles, chain/product/quotient rules, parametric and implicit methods, differential equations.
+
+### Pure: trigonometry & vectors
+
+Radians, identities, the addition and double-angle formulae, and vectors.
+
+### Statistics
+
+Data, probability, the binomial and normal distributions, hypothesis testing and the large data set.
+
+### Mechanics
+
+Kinematics, forces and Newton's laws, moments, and projectiles.
+
+### Exam technique
+
+"Show that" and proof questions, unseen problem-solving, calculator skills, and the timing the papers demand.
+
+Want the full exam-board breakdown? See our in-depth [**A-Level Maths Tuition page →**](/a-level-maths-tuition-online)
+
+Who this is for
+
+## The right fit — and an honest word on what to expect.
+
+**This fits** the UAE sixth-former floored by the IGCSE-to-A-Level jump, the student chasing an A or A*, the AS or resit candidate, and the student targeting a competitive maths or STEM degree abroad.
+
+**What's realistic.** Most students feel the difference within a couple of weeks as fluency returns. A grade turnaround tracks the year and the work you do between sessions. We'll be honest about what's achievable and never quote a guaranteed grade.
+
+### What we won't do
+
+- Complete coursework or assessed work for you.
+- Teach methods with no concept beneath them.
+- Drill past papers without fixing the fluency gap.
+- Promise a grade we can't honestly support.
+
+How lessons work
+
+## Built around sixth form and exam season.
+
+### 1:1, live
+
+One student, one tutor, real-time video and a shared whiteboard for pure, mechanics and stats.
+
+### 8 sessions a month
+
+Two each week, around an hour, worked from your specification and past papers.
+
+### Gulf Standard Time
+
+Evening and weekend slots in GST that fit around sixth form.
+
+### Exam ramp
+
+Targeted revision before mock and summer exams.
+
+Pricing
+
+## One simple price. No contract.
+
+### 1:1 Private Tuition
+
+$100 / month · ≈ AED 370
+
+- 8 live one-to-one sessions a month (2 per week)
+- The same tutor through to the exam
+- Taught to your board across pure, mechanics & stats
+- Past papers & technique · cancel any time
+
+### Small-Group Cohort
+
+$40 / month · ≈ AED 147
+
+- 8 live small-group sessions a month (2 per week)
+- A few students on the same board
+- Same teaching approach, lower price
+- Good for classmates · cancel any time
+
+[See the full course](/courses/college-mathematics-complete-masterclass)
+
+AED figures are approximate; billing is in USD. Taking the IB instead? See our [**IB Maths Tutor (UAE) →**](/ib-maths-tutor-uae) page.
+
+Who teaches you
+
+## Tutors who know A-Level cold — and how it's marked.
+
+Our A-Level tutors have strong mathematical backgrounds and a precise knowledge of each board's papers. They can explain why a result is true *and* show you the exact working a marker needs — and they remember how punishing the IGCSE-to-A-Level jump feels.
+
+You keep the same tutor through the year, so they know your weak spots and how you think, and aim every session at the marks still on the table.
+
+"He was failing AS maths after a great IGCSE. His tutor rebuilt the algebra he'd been faking and taught calculus properly — he finished with an A and a place to study engineering."
+
+— Parent, British-curriculum sixth form, Abu Dhabi
+
+An honest comparison
+
+## How we differ from the alternatives.
+
+| What matters | Modern Age Coders | Revision videos | General tutor |
+| --- | --- | --- | --- |
+| Rebuilds the fluency gap | Yes | No | Sometimes |
+| Teaches unseen problem-solving | Yes | Rarely | Varies |
+| Covers pure, mechanics & stats | All three | Usually pure | Varies |
+| Same tutor to the exam | Yes | N/A | Often |
+| Monthly price | $100 / ≈AED 370 (1:1) | Free–AED 150 | AED 1,500–4,000+ |
+
+Revision videos are a useful supplement; they can't watch you attempt an unseen question and coach the reasoning in real time — which is what moves an A-Level grade.
+
+Common questions
+
+## Everything you might be wondering.
+
+Which boards and which A-Level do you cover?
+
+Edexcel, AQA, OCR and Cambridge International (CIE) AS & A Level Maths, across pure, mechanics and statistics, to your specification.
+
+The jump from IGCSE to A-Level floored my child. Is that normal?
+
+Completely — the steepest step in the British curriculum. We rebuild the fluency and teach the new abstraction properly.
+
+Can you help me get an A or A*?
+
+The top grades come from understanding plus fluency on unseen questions. We build both; the result depends on effort.
+
+Do you cover mechanics and statistics, not just pure?
+
+Yes — all three strands, with the applied content as solid as the pure.
+
+How much does it cost?
+
 USD 100/month (about AED 370) for 1:1 — eight live sessions, two a week. Small-group option USD 40/month. No contract.
 
-### Is the first session free?
+Is the first session free?
+
 Yes — no card needed.
 
-### Do you prepare for STEP, MAT or university admissions maths?
+Do you prepare for STEP, MAT or university admissions maths?
+
 Yes — STEP and MAT-style problem solving alongside A-Level.
 
-### What times are lessons available?
+What times are lessons available?
+
 Evening and weekend slots in Gulf Standard Time (UTC+4), ramping up before exams.
 
-## Related pages
+## Book a free A-Level maths trial session.
 
-- GCSE Maths Tutor in the UAE — /gcse-maths-tutor-uae
-- IB Maths Tutor (AA & AI) in the UAE — /ib-maths-tutor-uae
-- American Curriculum & SAT Maths Tutor in the UAE — /american-maths-tutor-uae
-- A-Level Maths Tuition (full UK detail) — /a-level-maths-tuition-online
-- Maths Tutor in Dubai — /maths-tutor-in-dubai
-- All UAE Maths Tuition — /online-maths-tuition-uae
+Bring your specification and the topic that's giving you trouble. We'll show you how we'd teach it and close the gap to your target grade. No card needed.
+
+[See the full course](/courses/college-mathematics-complete-masterclass)Keep exploring
+
+## More maths tuition from Modern Age Coders.
+
+[UAE · curriculumGCSE Maths Tutor](/gcse-maths-tutor-uae)[UAE · curriculumIB Maths Tutor (AA & AI)](/ib-maths-tutor-uae)[UAE · curriculumAmerican & SAT Maths Tutor](/american-maths-tutor-uae)[UK · detailA-Level Maths Tuition (full)](/a-level-maths-tuition-online)[UAE · emirateMaths Tutor in Dubai](/maths-tutor-in-dubai)[UAE · hubAll UAE Maths Tuition](/online-maths-tuition-uae)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/a-level-maths-tutor-uae*
