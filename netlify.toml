@@ -126,6 +126,30 @@
   status = 301
   force = true
 
+# Hackathon 1.0 participant guide (how it works, rounds, rules)
+[[redirects]]
+  from = "/hackathon-guide"
+  to = "/src/pages/hackathon-guide.html"
+  status = 200
+
+[[redirects]]
+  from = "/hackathon-guide.html"
+  to = "/hackathon-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/how-hackathon-works"
+  to = "/hackathon-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hackathon-rules"
+  to = "/hackathon-guide"
+  status = 301
+  force = true
+
 # Keyword-rich SEO aliases — all 301 to the canonical /hackathon so we capture
 # search + backlink + type-in traffic for these variations without duplicate content.
 [[redirects]]
