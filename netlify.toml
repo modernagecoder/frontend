@@ -1197,6 +1197,257 @@
   status = 301
   force = true
 
+# Complex / Society Landing Pages - New Town, Kolkata
+[[redirects]]
+  from = "/coding-classes-in-uniworld-city"
+  to = "/src/pages/coding-classes-in-uniworld-city.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-uniworld-city.md"
+  to = "/src/pages/coding-classes-in-uniworld-city.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-south-city"
+  to = "/src/pages/coding-classes-in-south-city.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-south-city.md"
+  to = "/src/pages/coding-classes-in-south-city.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-urbana"
+  to = "/src/pages/coding-classes-in-urbana.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-urbana.md"
+  to = "/src/pages/coding-classes-in-urbana.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-upohar"
+  to = "/src/pages/coding-classes-in-upohar.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-upohar.md"
+  to = "/src/pages/coding-classes-in-upohar.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-hiland-park"
+  to = "/src/pages/coding-classes-in-hiland-park.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-hiland-park.md"
+  to = "/src/pages/coding-classes-in-hiland-park.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sukhobrishti"
+  to = "/src/pages/coding-classes-in-sukhobrishti.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sukhobrishti.md"
+  to = "/src/pages/coding-classes-in-sukhobrishti.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-calcutta-riverside"
+  to = "/src/pages/coding-classes-in-calcutta-riverside.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-calcutta-riverside.md"
+  to = "/src/pages/coding-classes-in-calcutta-riverside.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-godrej-prakriti"
+  to = "/src/pages/coding-classes-in-godrej-prakriti.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-godrej-prakriti.md"
+  to = "/src/pages/coding-classes-in-godrej-prakriti.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-siddha-town-madhyamgram"
+  to = "/src/pages/coding-classes-in-siddha-town-madhyamgram.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-siddha-town-madhyamgram.md"
+  to = "/src/pages/coding-classes-in-siddha-town-madhyamgram.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-rosedale-garden"
+  to = "/src/pages/coding-classes-in-rosedale-garden.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-rosedale-garden.md"
+  to = "/src/pages/coding-classes-in-rosedale-garden.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-dlf-new-town-heights"
+  to = "/src/pages/coding-classes-in-dlf-new-town-heights.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-dlf-new-town-heights.md"
+  to = "/src/pages/coding-classes-in-dlf-new-town-heights.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-genexx-valley-joka"
+  to = "/src/pages/coding-classes-in-genexx-valley-joka.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-genexx-valley-joka.md"
+  to = "/src/pages/coding-classes-in-genexx-valley-joka.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-avidipta-mukundapur"
+  to = "/src/pages/coding-classes-in-avidipta-mukundapur.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-avidipta-mukundapur.md"
+  to = "/src/pages/coding-classes-in-avidipta-mukundapur.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-diamond-city-south"
+  to = "/src/pages/coding-classes-in-diamond-city-south.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-diamond-city-south.md"
+  to = "/src/pages/coding-classes-in-diamond-city-south.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-greenfield-city-behala"
+  to = "/src/pages/coding-classes-in-greenfield-city-behala.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-greenfield-city-behala.md"
+  to = "/src/pages/coding-classes-in-greenfield-city-behala.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-natural-city-garia"
+  to = "/src/pages/coding-classes-in-natural-city-garia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-natural-city-garia.md"
+  to = "/src/pages/coding-classes-in-natural-city-garia.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sherwood-estate"
+  to = "/src/pages/coding-classes-in-sherwood-estate.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sherwood-estate.md"
+  to = "/src/pages/coding-classes-in-sherwood-estate.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-avani-riverside-howrah"
+  to = "/src/pages/coding-classes-in-avani-riverside-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-avani-riverside-howrah.md"
+  to = "/src/pages/coding-classes-in-avani-riverside-howrah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-diamond-city-north"
+  to = "/src/pages/coding-classes-in-diamond-city-north.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-diamond-city-north.md"
+  to = "/src/pages/coding-classes-in-diamond-city-north.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ideal-niketan-tangra"
+  to = "/src/pages/coding-classes-in-ideal-niketan-tangra.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-ideal-niketan-tangra.md"
+  to = "/src/pages/coding-classes-in-ideal-niketan-tangra.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sugam-habitat"
+  to = "/src/pages/coding-classes-in-sugam-habitat.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sugam-habitat.md"
+  to = "/src/pages/coding-classes-in-sugam-habitat.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-elita-garden-vista"
+  to = "/src/pages/coding-classes-in-elita-garden-vista.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-elita-garden-vista.md"
+  to = "/src/pages/coding-classes-in-elita-garden-vista.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-udayan-condoville-em-bypass"
+  to = "/src/pages/coding-classes-in-udayan-condoville-em-bypass.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-udayan-condoville-em-bypass.md"
+  to = "/src/pages/coding-classes-in-udayan-condoville-em-bypass.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-hiland-willows"
+  to = "/src/pages/coding-classes-in-hiland-willows.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-hiland-willows.md"
+  to = "/src/pages/coding-classes-in-hiland-willows.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-eden-city-maheshtala"
+  to = "/src/pages/coding-classes-in-eden-city-maheshtala.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-eden-city-maheshtala.md"
+  to = "/src/pages/coding-classes-in-eden-city-maheshtala.md"
+  status = 200
+
 # City Landing Pages - SEO Optimized
 [[redirects]]
   from = "/best-coding-class-in-kolkata"
