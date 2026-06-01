@@ -289,6 +289,24 @@ img,svg{max-width:100%;display:block}
 @media (max-width:820px){.foot-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:520px){.foot-grid{grid-template-columns:1fr}}
 
+/* sibling neighbourhoods link mesh */
+.nbhd{margin-top:8px}
+.nbhd-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:28px}
+.nbhd-link{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:16px 18px;color:var(--ink);font-weight:500;font-size:var(--step--1);line-height:1.35;transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease}
+.nbhd-link:hover,.nbhd-link:focus-visible{text-decoration:none;transform:translateY(-2px);box-shadow:var(--shadow);border-color:var(--teal)}
+.nbhd-link svg{width:18px;height:18px;flex:0 0 auto;color:var(--copper)}
+.nbhd-link b{font-weight:600;color:var(--teal-d)}
+.nbhd-hub{display:inline-flex;align-items:center;gap:9px;margin-top:26px;font-weight:600;color:var(--teal-d)}
+.nbhd-hub svg{width:16px;height:16px}
+
+/* mobile-only sticky bottom CTA */
+.sticky-cta{display:none}
+@media (max-width:759.98px){
+  .sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--paper);border-top:1px solid var(--line);padding:10px clamp(14px,4vw,20px);box-shadow:0 -8px 24px -18px rgba(28,27,24,.6)}
+  .sticky-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:74px}
+}
+
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease, transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
@@ -389,7 +407,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Udayan</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:22ch">A landmark township on the Bypass deserves teaching that comes to its doorstep.</h2>
       <p style="margin-top:20px" class="lede">Udayan — The Condoville is one of Kolkata's largest planned communities: a 26-acre township off the EM Bypass near Science City, built by Ambuja Neotia (Bengal Ambuja) as the city's first Condoville under a public-private partnership with the Government of West Bengal. With well over a thousand homes across its Utsarg, Utsav and Udita ranges, it holds a small town's worth of school-going children behind one set of gates.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">What a township this size cannot bring inside its boundary wall is the cluster of good coding and maths centres — which sit scattered across South and central Kolkata, on the far side of the Bypass and the Park Circus connector. Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch straight from your flat at Udayan — no crawl through the Bypass and Science City crossing, no time lost in evening traffic. The maths we teach maps to the boards local children study, including CBSE, ICSE and the West Bengal state board, so class work and tuition pull the same way.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">What a township this size cannot bring inside its boundary wall is the cluster of good coding and maths centres — which sit scattered across South and central Kolkata, on the far side of the Bypass and the Park Circus connector. Modern Age Coders closes that gap. We are a live, online school based in Kolkata, and for families searching for coding classes for kids near Udayan The Condoville, Python classes on the EM Bypass or online maths tuition on the EM Bypass, your child joins a real teacher and a small batch straight from your flat at Udayan — no crawl through the Bypass and Science City crossing, no time lost in evening traffic. The maths we teach maps to the boards local children study, including CBSE, ICSE and the West Bengal state board, so class work and tuition pull the same way.</p>
       <blockquote class="pullquote">At Udayan, the lift down to your car is the longest commute a class should ever ask of a child — and with live-online, even that disappears.</blockquote>
     </div>
     <div>
@@ -645,6 +663,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>What do you actually teach near Udayan and the EM Bypass?</summary>
+        <p><b>Live Python classes, Java, web development, AI and school maths, all taught online to Udayan families.</b> Parents looking for coding classes for kids near Udayan The Condoville, Python classes on the EM Bypass, or online maths tuition on the EM Bypass get the same live, instructor-led teaching that makes us among the best coding classes on the EM Bypass — without anyone leaving the township.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -703,7 +725,77 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEIGHBOURHOOD LINK MESH -->
+<section class="section section--paper2 nbhd" id="neighbourhoods" aria-labelledby="nbhd-head">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nbhd-head">Coding &amp; maths classes across Kolkata</h2>
+      <p>We teach families in townships and complexes all over Kolkata, live and online. If you have neighbours or family in another community, here is where to send them.</p>
+    </div>
+    <div class="nbhd-grid">
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Urbana</b>, Anandapur, EM Bypass</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-upohar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Upohar</b>, Chak Garia, EM Bypass</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-hiland-park">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Hiland Park</b>, near Patuli, EM Bypass</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Avidipta</b>, Mukundapur</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-sugam-habitat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Sugam Habitat</b>, Picnic Garden</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-ideal-niketan-tangra">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Ideal Niketan</b>, Tangra</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Natural City</b>, Garia</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Sherwood Estate</b>, Narendrapur</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>South City</b>, Prince Anwar Shah Road</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Diamond City South</b>, Tollygunge</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Uniworld City</b>, New Town</span>
+      </a>
+      <a class="nbhd-link" href="https://learn.modernagecoders.com/coding-classes-in-greenfield-city-behala">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span>Coding classes near <b>Greenfield City</b>, Behala</span>
+      </a>
+    </div>
+    <a class="nbhd-hub" href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">
+      See all coding classes in Kolkata
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
 </main>
+
+<!-- mobile-only sticky CTA -->
+<div class="sticky-cta" aria-hidden="false">
+  <a class="btn btn-copper" href="#demo">Book a free demo</a>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -752,6 +844,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Udayan The Condoville on the EM Bypass, near Science City.",
       "areaServed": [
         {"@type":"Place","name":"Udayan The Condoville, EM Bypass, Kolkata"},
@@ -798,6 +891,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on CBSE, ICSE or the West Bengal board — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the CBSE, ICSE and West Bengal state board syllabi that schools around the EM Bypass follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"What do you actually teach near Udayan and the EM Bypass?","acceptedAnswer":{"@type":"Answer","text":"Live Python classes, Java, web development, AI and school maths, all taught online to Udayan families. Parents looking for coding classes for kids near Udayan The Condoville, Python classes on the EM Bypass, or online maths tuition on the EM Bypass get the same live, instructor-led teaching that makes us among the best coding classes on the EM Bypass — without anyone leaving the township."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

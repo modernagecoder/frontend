@@ -24,7 +24,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 ## Built for New Town: a tower-block address, a city-grade classroom
 
-DLF New Town Heights is a tall, self-contained community in Action Area III — ten towers rising thirty-three floors over New Town, with a club, pool and play areas inside the gates. What a high-rise on the planned grid cannot put inside its own podium is a good coding and maths teacher. Modern Age Coders fills that gap: your child joins a real teacher and a small batch from your flat at Action Area III — no run down Biswa Bangla Sarani toward Salt Lake, no evening lost crossing New Town to a coaching centre.
+DLF New Town Heights is a tall, self-contained community in Action Area III — ten towers rising thirty-three floors over New Town, with a club, pool and play areas inside the gates. What a high-rise on the planned grid cannot put inside its own podium is a good coding and maths teacher. Modern Age Coders fills that gap: your child joins a real teacher and a small batch from your flat at Action Area III — no run down Biswa Bangla Sarani toward Salt Lake, no evening lost crossing New Town to a coaching centre. Families searching for coding classes for kids near DLF New Town Heights — Python classes in New Town, or online maths tuition in New Town — find the best coding classes in New Town here, only without the drive.
 
 DLF New Town Heights in brief:
 
@@ -90,6 +90,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on CBSE, ICSE/ISC or the West Bengal board — will the maths match? Yes. Our maths teaching maps to the CBSE, ICSE/ISC and West Bengal state board syllabi that New Town schools such as DPS Newtown and DPS Megacity follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you offer coding classes for kids near DLF New Town Heights? Yes. Coding classes for kids near DLF New Town Heights run as small live batches — Python classes for New Town beginners, Java for older students, plus online maths tuition for New Town children — all joined straight from your Action Area III flat.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -102,7 +103,20 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Love wall (reviews): /love
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
-- Coding classes near Uniworld City: /coding-classes-in-uniworld-city
-- Coding classes near Urbana: /coding-classes-in-urbana
+
+## Other Kolkata neighbourhoods
+
+The same live, instructor-led classes reach apartment complexes across New Town and Kolkata:
+
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Sukhobrishti, New Town Action Area III: /coding-classes-in-sukhobrishti
+- Coding classes near Rosedale Garden, New Town: /coding-classes-in-rosedale-garden
+- Coding classes near Elita Garden Vista, New Town: /coding-classes-in-elita-garden-vista
+- Coding classes near Hiland Willows, New Town: /coding-classes-in-hiland-willows
+- Coding classes near Diamond City North, VIP Road: /coding-classes-in-diamond-city-north
+- Coding classes near Urbana, Anandapur, EM Bypass: /coding-classes-in-urbana
+- Coding classes near Upohar, Chak Garia, EM Bypass: /coding-classes-in-upohar
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving DLF New Town Heights and Action Area III, New Town. For ages 6 to 65.

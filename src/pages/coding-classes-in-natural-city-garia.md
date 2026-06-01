@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Coding and maths for Natural City, Garia and Tollygunge,
 
 # Coding and maths classes for Garia and Tollygunge families, taught live
 
-Modern Age Coders is a live, online coding and mathematics school based in Kolkata, serving families around Natural City in Garia and Tollygunge, South Kolkata. Small online batches in Python, Java, AI and school maths, taught by real instructors on a live screen with your child — not a recorded video. For ages 6 to 65.
+Modern Age Coders is a live, online coding and mathematics school based in Kolkata, serving families around Natural City in Garia and Tollygunge, South Kolkata. We offer coding classes for kids near Natural City, Python classes in Garia, online maths tuition in Garia, and what many parents are looking for as the best coding classes in Garia — small online batches in Python, Java, AI and school maths, taught by real instructors on a live screen with your child, not a recorded video. For ages 6 to 65.
 
 - 100% live, instructor-led classes
 - Small batches
@@ -96,6 +96,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on the West Bengal board, CBSE or ICSE — will the maths match? Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools across Garia and Tollygunge follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you offer coding classes for kids and Python classes in Garia? Yes — live Python classes and beginner-friendly coding classes for kids near Natural City, Garia, plus online maths tuition for Garia families alongside the coding tracks.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -108,7 +109,20 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Love wall (reviews): /love
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
-- Coding classes near South City: /coding-classes-in-south-city
-- Coding classes near Hiland Park: /coding-classes-in-hiland-park
+
+## Other Kolkata neighbourhoods we teach
+
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Hiland Park, EM Bypass: /coding-classes-in-hiland-park
+- Coding classes near Upohar, Chak Garia: /coding-classes-in-upohar
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near Udayan The Condoville, EM Bypass: /coding-classes-in-udayan-condoville-em-bypass
+- Coding classes near Urbana, Anandapur: /coding-classes-in-urbana
+- Coding classes near Sugam Habitat, Picnic Garden: /coding-classes-in-sugam-habitat
+- Coding classes near Ideal Niketan, Tangra: /coding-classes-in-ideal-niketan-tangra
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Greenfield City, Behala: /coding-classes-in-greenfield-city-behala
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Natural City, Garia and Tollygunge, South Kolkata. For ages 6 to 65.

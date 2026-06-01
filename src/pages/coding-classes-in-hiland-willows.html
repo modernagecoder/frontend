@@ -305,6 +305,25 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 10px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby cluster — internal link mesh */
+.nearby{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:36px}
+.nearby a{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:16px 18px;color:var(--ink);font-weight:500;font-size:var(--step--1);line-height:1.4;transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease}
+.nearby a:hover{text-decoration:none;transform:translateY(-2px);border-color:var(--teal);box-shadow:var(--shadow)}
+.nearby a:focus-visible{transform:translateY(-2px);border-color:var(--teal)}
+.nearby a svg{width:18px;height:18px;flex:0 0 auto;color:var(--espresso)}
+.nearby a b{font-family:"Familjen Grotesk";font-weight:600;color:var(--ink)}
+.nearby-all{margin-top:24px;font-size:var(--step--1);color:var(--ink-2)}
+.nearby-all a{font-weight:600;color:var(--teal-d)}
+@media (prefers-reduced-motion: reduce){.nearby a:hover{transform:none}}
+
+/* mobile-only sticky bottom CTA */
+.mobile-cta{display:none}
+@media (max-width:759px){
+  .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(245,241,232,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(14px,4vw,20px);padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+  .mobile-cta .btn{width:100%;justify-content:center;box-shadow:0 8px 18px -10px rgba(14,107,96,.9)}
+  body{padding-bottom:78px}
+}
 </style>
 </head>
 
@@ -399,7 +418,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for New Town</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:22ch">A planned township deserves planned learning &#8212; brought to the apartment.</h2>
       <p style="margin-top:20px" class="lede">Hiland Willows is one of the calmer addresses of New Town &#8212; nine towers, fourteen floors apiece, set across a green five-acre cluster in Action Area II, a short hop from Eco Park and City Centre New Town. The township has wide roads, clean air and clubhouses inside the gate. What it does not have inside the gate is the cluster of established coding and maths centres, most of which still sit a long drive away in South and central Kolkata.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that distance. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from the flat at Hiland Willows &#8212; no school-run down Major Arterial Road, no hour lost to the Chingrighata or VIP Road jams that swallow a New Town family's evening. The maths we teach maps to the boards New Town schools follow &#8212; ICSE at Delhi Public School Newtown, CBSE at The Newtown School, alongside the West Bengal state board &#8212; so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that distance. We are a live, online school based in Kolkata, and our coding classes for kids near Hiland Willows bring some of the best coding classes New Town families can find straight to the living room: your child joins a real teacher and a small batch from the flat at Hiland Willows &#8212; no school-run down Major Arterial Road, no hour lost to the Chingrighata or VIP Road jams that swallow a New Town family's evening. From beginner-friendly Python classes in New Town to online maths tuition mapped to your child's board, the maths we teach maps to the boards New Town schools follow &#8212; ICSE at Delhi Public School Newtown, CBSE at The Newtown School, alongside the West Bengal state board &#8212; so class work and tuition pull in the same direction.</p>
       <blockquote class="pullquote">New Town was planned so families would not have to commute for everything. A good coding teacher should be one more thing that comes to the township, not one more reason to leave it.</blockquote>
     </div>
     <div>
@@ -655,6 +674,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes &#8212; our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you offer Python and maths classes specifically for New Town families?</summary>
+        <p><b>Yes.</b> We run live Python classes and online maths tuition for New Town families every week, including coding classes for kids near Hiland Willows and Action Area II. Whether you want the best coding classes in New Town for a beginner or a teen heading toward AI and projects, your child joins a small live batch straight from the flat &#8212; no travel, same teacher as a family in central Kolkata.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -715,6 +738,68 @@ img,svg{max-width:100%;display:block}
 
 </main>
 
+<!-- NEARBY / CROSS-LINK MESH -->
+<section class="section section--paper2" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h">Coding &amp; maths classes across Kolkata.</h2>
+      <p>We teach families in gated complexes and townships right across Kolkata and its suburbs. If you have neighbours or relatives in another address, here is where to point them &#8212; starting with New Town and the addresses nearest Hiland Willows.</p>
+    </div>
+    <nav class="nearby" aria-label="Coding classes in other Kolkata neighbourhoods">
+      <a href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Uniworld City</b>, New Town</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-sukhobrishti">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Sukhobrishti</b>, Action Area III</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-rosedale-garden">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Rosedale Garden</b>, New Town</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-dlf-new-town-heights">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>DLF New Town Heights</b>, New Town</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-elita-garden-vista">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Elita Garden Vista</b>, New Town</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-north">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Diamond City North</b>, VIP Road</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Urbana</b>, EM Bypass</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-hiland-park">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Hiland Park</b>, EM Bypass</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Avidipta</b>, Mukundapur</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>South City</b>, Prince Anwar Shah Road</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-godrej-prakriti">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Godrej Prakriti</b>, Sodepur</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-siddha-town-madhyamgram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Siddha Town</b>, Madhyamgram</span>
+      </a>
+    </nav>
+    <p class="nearby-all">Looking more broadly? See our hub for <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">the best coding classes in Kolkata</a>.</p>
+  </div>
+</section>
+
 <footer class="site-footer">
   <div class="wrap">
     <div class="foot-grid">
@@ -751,6 +836,11 @@ img,svg{max-width:100%;display:block}
   </div>
 </footer>
 
+<!-- mobile-only sticky CTA -->
+<div class="mobile-cta" role="region" aria-label="Quick action">
+  <a class="btn btn-primary" href="#demo">Book a free demo</a>
+</div>
+
 <!-- JSON-LD -->
 <script type="application/ld+json">
 {
@@ -762,6 +852,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Hiland Willows, Action Area II, New Town.",
       "areaServed": [
         {"@type":"Place","name":"Hiland Willows, Action Area II, New Town, Kolkata"},
@@ -808,6 +899,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is at DPS Newtown or The Newtown School — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the ICSE, CBSE and West Bengal state board syllabi that New Town schools such as Delhi Public School Newtown and The Newtown School follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you offer Python and maths classes specifically for New Town families?","acceptedAnswer":{"@type":"Answer","text":"Yes. We run live Python classes and online maths tuition for New Town families every week, including coding classes for kids near Hiland Willows and Action Area II. Your child joins a small live batch straight from the flat, with no travel and the same teacher as a family in central Kolkata."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

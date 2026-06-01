@@ -297,6 +297,27 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 10px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby cluster links */
+.nearby{padding-block:clamp(48px,7vw,84px)}
+.nearby .section-head{margin-bottom:8px}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:32px}
+.nearby-link{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:15px 18px;color:var(--ink);font-size:var(--step--1);font-weight:500;transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease}
+.nearby-link:hover{text-decoration:none;transform:translateY(-2px);border-color:var(--teal);box-shadow:var(--shadow)}
+.nearby-link:focus-visible{text-decoration:none}
+.nearby-link svg{width:17px;height:17px;flex:0 0 auto;color:var(--rust)}
+.nearby-link b{font-weight:600;color:var(--ink)}
+.nearby-all{margin-top:24px;font-size:var(--step--1);color:var(--ink-2)}
+.nearby-all a{color:var(--teal-d);font-weight:600}
+@media (prefers-reduced-motion: reduce){.nearby-link:hover{transform:none}}
+
+/* mobile sticky CTA bar */
+.mobile-cta{display:none}
+@media (max-width:759px){
+  .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(245,246,247,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(14px,4vw,20px) calc(10px + env(safe-area-inset-bottom,0px))}
+  .mobile-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:74px}
+}
 </style>
 </head>
 
@@ -391,7 +412,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Madhyamgram</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:20ch;font-weight:700">Madhyamgram is growing fast — good teaching should keep pace.</h2>
       <p style="margin-top:20px" class="lede">Siddha Town is a large gated township off Sodepur Road in Madhyamgram — a fast-growing northern suburb where young families have moved precisely for the space and the quiet. The trade-off is distance: the established coding and maths coaching belt still sits south, in central and South Kolkata, a long haul through Madhyamgram's Chowmatha crossing and down a perennially busy Jessore Road.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your flat at Siddha Town — no evening trip past the Madhyamgram junction, no time lost to traffic. The maths we teach maps to the boards children around Madhyamgram study — the West Bengal state board, CBSE and ICSE — so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your flat at Siddha Town — no evening trip past the Madhyamgram junction, no time lost to traffic. For families searching for coding classes for kids near Siddha Town, Python classes in Madhyamgram or online maths tuition in Madhyamgram, the lesson now happens in your living room. The maths we teach maps to the boards children around Madhyamgram study — the West Bengal state board, CBSE and ICSE — so class work and tuition pull in the same direction.</p>
       <blockquote class="pullquote">Near the Chowmatha, the busiest hours on Jessore Road are exactly when a child should be learning, not stuck in a car.</blockquote>
     </div>
     <div>
@@ -636,6 +657,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>What do the best coding classes near Siddha Town, Madhyamgram cost?</summary>
+        <p><b>Live group mini-batches are ₹2,499 a month and one-to-one classes are ₹4,999 a month, each with two live classes every week.</b> Families looking for coding classes for kids near Siddha Town, Python classes in Madhyamgram or online maths tuition in Madhyamgram pay the same simple fees as anyone across Kolkata — there is no surcharge for the distance, because the class comes to your flat. Start with a free demo before you pay anything.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -696,6 +721,60 @@ img,svg{max-width:100%;display:block}
 
 </main>
 
+<!-- NEARBY / CROSS-CLUSTER LINKS -->
+<section class="section nearby section--paper2" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h">Coding &amp; maths classes across Kolkata</h2>
+      <p>We teach families in gated townships and complexes all over Kolkata and its suburbs. If you have moved between neighbourhoods, or know a family in another part of the city, here is where to point them.</p>
+    </div>
+    <div class="nearby-grid">
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-godrej-prakriti">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Godrej Prakriti</b>, Sodepur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-north">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Diamond City North</b>, VIP Road</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Uniworld City</b>, New Town</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sukhobrishti">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Sukhobrishti</b>, New Town</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-rosedale-garden">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Rosedale Garden</b>, New Town</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-elita-garden-vista">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Elita Garden Vista</b>, New Town</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-hiland-willows">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Hiland Willows</b>, New Town</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-dlf-new-town-heights">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>DLF New Town Heights</b>, New Town</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>South City</b>, Prince Anwar Shah Road</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Urbana</b>, Anandapur, EM Bypass</span>
+      </a>
+    </div>
+    <p class="nearby-all">Looking for the wider picture? See <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">coding classes in Kolkata</a> for every neighbourhood we serve.</p>
+  </div>
+</section>
+
 <footer class="site-footer">
   <div class="wrap">
     <div class="foot-grid">
@@ -715,8 +794,9 @@ img,svg{max-width:100%;display:block}
       <div>
         <h4>Near you</h4>
         <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">Coding classes in Kolkata</a>
+        <a href="https://learn.modernagecoders.com/coding-classes-in-godrej-prakriti">Coding classes near Godrej Prakriti, Sodepur</a>
         <a href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">Coding classes near Uniworld City</a>
-        <a href="https://learn.modernagecoders.com/coding-classes-in-calcutta-riverside">Coding classes near Calcutta Riverside</a>
+        <a href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-north">Coding classes near Diamond City North</a>
       </div>
       <div>
         <h4>Talk to us</h4>
@@ -732,6 +812,11 @@ img,svg{max-width:100%;display:block}
   </div>
 </footer>
 
+<!-- mobile sticky CTA -->
+<div class="mobile-cta">
+  <a class="btn btn-rust" href="#demo">Book a free demo</a>
+</div>
+
 <!-- JSON-LD -->
 <script type="application/ld+json">
 {
@@ -743,6 +828,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Siddha Town, Madhyamgram, North 24 Parganas.",
       "areaServed": [
         {"@type":"Place","name":"Siddha Town, Madhyamgram, North 24 Parganas, Kolkata"},
@@ -789,6 +875,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on the West Bengal board, CBSE or ICSE — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools across Madhyamgram and along Jessore Road follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"What do the best coding classes near Siddha Town, Madhyamgram cost?","acceptedAnswer":{"@type":"Answer","text":"Live group mini-batches are ₹2,499 a month and one-to-one classes are ₹4,999 a month, each with two live classes every week. Families looking for coding classes for kids near Siddha Town, Python classes in Madhyamgram or online maths tuition in Madhyamgram pay the same simple fees as anyone across Kolkata, with no surcharge for distance. Start with a free demo before you pay anything."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

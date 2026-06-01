@@ -24,7 +24,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 ## A whole township at home, except the coding teacher
 
-Eden City packs nearly everything a family needs onto its grounds at Sarengabad — a football field, swimming pool, gym, library and a club, behind one gate off the New Budge Budge Trunk Road. The one thing it cannot fit inside the boundary wall is a good coding and maths teacher, and that has usually meant a long ride toward the South Kolkata coaching belts. Modern Age Coders removes that ride: your child joins a real teacher and a small batch from your own tower flat — no slow crawl up the Budge Budge Trunk Road past Bata More, no evening lost in traffic toward Behala, Taratala or New Alipore.
+Eden City packs nearly everything a family needs onto its grounds at Sarengabad — a football field, swimming pool, gym, library and a club, behind one gate off the New Budge Budge Trunk Road. The one thing it cannot fit inside the boundary wall is a good coding and maths teacher, and that has usually meant a long ride toward the South Kolkata coaching belts. Modern Age Coders removes that ride: your child joins a real teacher and a small batch from your own tower flat — no slow crawl up the Budge Budge Trunk Road past Bata More, no evening lost in traffic toward Behala, Taratala or New Alipore. For parents looking for coding classes for kids near Eden City, Python classes in Maheshtala, or online maths tuition in Maheshtala, this is the same teaching without the commute — which is why families call us among the best coding classes Maheshtala offers from home.
 
 Eden City in brief:
 
@@ -90,7 +90,24 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on the West Bengal board, CBSE or ICSE — will the maths match? Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools around Maheshtala and Sarengabad follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you offer coding classes for kids and Python classes in Maheshtala? Yes — we run coding classes for kids near Eden City and Python classes for Maheshtala learners, all live online. Families looking for the best coding classes in Maheshtala, or online maths tuition in Maheshtala, get the same small-batch teaching from home at Sarengabad.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
+
+## Other Kolkata neighbourhoods we teach
+
+The same live, instructor-led classes reach gated townships and apartment complexes across Kolkata:
+
+- Coding classes near Calcutta Riverside, Batanagar, Maheshtala: /coding-classes-in-calcutta-riverside
+- Coding classes near Greenfield City, Behala: /coding-classes-in-greenfield-city-behala
+- Coding classes near Genexx Valley, Joka: /coding-classes-in-genexx-valley-joka
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near Avani Riverside, Shibpur, Howrah: /coding-classes-in-avani-riverside-howrah
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Urbana, Anandapur, EM Bypass: /coding-classes-in-urbana
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
 
 ## Contact and links
 

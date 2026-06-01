@@ -2,7 +2,7 @@
 title: "Coding & Maths Classes in Greenfield City, Behala"
 description: "Live coding and maths classes for children, teens and adults at Greenfield City, Behala. Small online batches in Python, Java and AI near Behala Chowrasta."
 canonical: /coding-classes-in-greenfield-city-behala
-keywords: ["coding classes Greenfield City Behala", "coding classes Behala Kolkata", "coding classes James Long Sarani", "Python tuition Behala", "online maths classes Behala", "live online coding classes Behala Chowrasta", "maths classes West Bengal board CBSE ICSE Behala", "girls coding classes Behala"]
+keywords: ["coding classes Greenfield City Behala", "coding classes for kids near Greenfield City", "best coding classes Behala", "coding classes James Long Sarani", "Python classes Behala", "Python tuition Behala", "online maths tuition Behala", "online maths classes Behala", "live online coding classes Behala Chowrasta", "maths classes West Bengal board CBSE ICSE Behala", "girls coding classes Behala"]
 source: src/pages/coding-classes-in-greenfield-city-behala.html
 area: Greenfield City, Behala (James Long Sarani / Behala Chowrasta), South-West Kolkata
 ---
@@ -33,7 +33,7 @@ Greenfield City in brief:
 - The Purple Line metro, with Behala Chowrasta and Behala Bazar stations on Diamond Harbour Road, now operational between Joka and Majerhat
 - 0 km your child travels — the class comes home
 
-The maths we teach maps to the boards Behala children study — the West Bengal state board (WBBSE), CBSE and ICSE. A large township at Behala Chowrasta has nearly everything within reach, and a live-online class adds the one thing that used to mean a trip out: a good teacher, on screen with your child.
+The maths we teach maps to the boards Behala children study — the West Bengal state board (WBBSE), CBSE and ICSE. A large township at Behala Chowrasta has nearly everything within reach, and a live-online class adds the one thing that used to mean a trip out: a good teacher, on screen with your child. From beginner Python classes Behala parents ask about, to online maths tuition Behala children can join after school, these are among the best coding classes Behala families can reach without crossing the city — including coding classes for kids near Greenfield City itself.
 
 ## How we teach: fundamentals first, tools second, understanding always
 
@@ -90,6 +90,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on the West Bengal board, CBSE or ICSE — will the maths match? Yes. Our maths teaching maps to the West Bengal state board (WBBSE), CBSE and ICSE syllabi that schools across Behala follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you offer Python and maths classes specifically for Behala families? Yes. We run live Python classes for Behala learners and online maths tuition for Behala children every week, with coding classes for kids near Greenfield City, James Long Sarani and Behala Chowrasta joining the same small batches as students elsewhere in Kolkata.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -102,7 +103,19 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Love wall (reviews): /love
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
-- Coding classes near South City: /coding-classes-in-south-city
-- Coding classes near Calcutta Riverside: /coding-classes-in-calcutta-riverside
+
+## Coding and maths classes in other Kolkata neighbourhoods
+
+- Coding classes near Genexx Valley, Joka: /coding-classes-in-genexx-valley-joka
+- Coding classes near Calcutta Riverside, Batanagar: /coding-classes-in-calcutta-riverside
+- Coding classes near Eden City, Maheshtala: /coding-classes-in-eden-city-maheshtala
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near Avani Riverside, Shibpur (Howrah): /coding-classes-in-avani-riverside-howrah
+- Coding classes near Urbana, Anandapur: /coding-classes-in-urbana
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Greenfield City and Behala. For ages 6 to 65.

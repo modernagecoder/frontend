@@ -283,6 +283,25 @@ img,svg{max-width:100%;display:block}
 @media (max-width:820px){.foot-grid{grid-template-columns:1fr 1fr}}
 @media (max-width:520px){.foot-grid{grid-template-columns:1fr}}
 
+/* nearby / cross-links */
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:32px}
+.nearby-link{display:flex;align-items:flex-start;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-s);padding:16px 18px;color:var(--ink);font-size:var(--step--1);font-weight:500;border-left:3px solid var(--teal);transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease}
+.nearby-link:hover,.nearby-link:focus-visible{transform:translateY(-2px);box-shadow:var(--shadow);border-left-color:var(--coral);text-decoration:none}
+.nearby-link svg{width:18px;height:18px;flex:0 0 auto;color:var(--teal);margin-top:3px}
+.nearby-link span b{display:block;font-family:"Spectral";font-weight:600;font-size:1rem;color:var(--ink);line-height:1.2}
+.nearby-link span small{color:var(--ink-3);font-size:.78rem}
+.nearby-all{margin-top:26px;font-size:var(--step--1);color:var(--ink-2)}
+.nearby-all a{font-weight:600;color:var(--teal-d)}
+@media (prefers-reduced-motion: reduce){.nearby-link:hover,.nearby-link:focus-visible{transform:none}}
+
+/* mobile sticky CTA */
+.mobile-cta{display:none}
+@media (max-width:759.98px){
+  .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(246,248,248,.95);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(16px,4vw,24px);padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+  .mobile-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:74px}
+}
+
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease, transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
@@ -383,7 +402,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for South City</p>
       <h2 style="font-size:var(--step-3);margin-top:14px;max-width:18ch">A great address still can't beat South Kolkata traffic.</h2>
       <p style="margin-top:20px" class="lede">South City has a mall and an international school on its doorstep — but a good coding teacher is rarely the thing waiting downstairs. Getting a child across Prince Anwar Shah Road, Tollygunge and the Bypass for a class, then home again, still costs a whole evening.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from the flat itself — no car, no traffic, no waiting. The maths we teach maps to the boards South Kolkata children actually study, including the ICSE, ISC and Cambridge syllabi at South City International School and the ICSE and CBSE paths at schools like South Point, so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from the flat itself — no car, no traffic, no waiting. Families searching for coding classes for kids near South City, or for Python classes on Prince Anwar Shah Road, South Kolkata, get the same live teaching without anyone leaving the building. The maths we teach maps to the boards South Kolkata children actually study, including the ICSE, ISC and Cambridge syllabi at South City International School and the ICSE and CBSE paths at schools like South Point, so class work and tuition pull in the same direction.</p>
       <blockquote class="pullquote">The best coding class is the one your child actually attends every week. Removing the commute is how that happens.</blockquote>
     </div>
     <div>
@@ -394,7 +413,7 @@ img,svg{max-width:100%;display:block}
         <div class="fact"><b>0 km</b><span>your child travels — class comes home</span></div>
       </div>
       <!-- Complex figures (31.14 acres, five towers ~117m, ~1,600 units) from public South City project data; confirm before relying on exact numbers in claims. -->
-      <p style="margin-top:16px;font-size:var(--step--1);color:var(--ink-3)">With South City Mall and South City International School right beside the towers, families here already value good schooling close to home. A live-online class is the same idea applied to coding and maths — taught well, with nothing to travel to.</p>
+      <p style="margin-top:16px;font-size:var(--step--1);color:var(--ink-3)">With South City Mall and South City International School right beside the towers, families here already value good schooling close to home. A live-online class is the same idea applied to coding and maths — whether you want the best coding classes on Prince Anwar Shah Road, South Kolkata, or online maths tuition on Prince Anwar Shah Road, South Kolkata, it is taught well, with nothing to travel to.</p>
     </div>
   </div>
 </section>
@@ -636,6 +655,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you offer coding classes for kids near South City and online maths tuition on Prince Anwar Shah Road?</summary>
+        <p><b>Yes — both, and a child never has to leave home for either.</b> We run live coding classes for kids near South City, Python classes for Prince Anwar Shah Road, South Kolkata families, and online maths tuition on Prince Anwar Shah Road, South Kolkata, all taught by a real instructor in a small live batch. Many local parents come to us looking for the best coding classes on Prince Anwar Shah Road, South Kolkata, and judge the teaching through a free demo before they pay.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -694,7 +717,73 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY / CROSS-LINKS -->
+<section class="section section--paper2" id="nearby">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2>Coding &amp; maths classes across Kolkata</h2>
+      <p>The same live, instructor-led classes reach families in housing complexes all over Kolkata. If you have moved, or a friend lives elsewhere in the city, these neighbourhood pages are a good next stop.</p>
+    </div>
+    <div class="nearby-grid">
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Avidipta</b><small>Mukundapur, South Kolkata</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-hiland-park">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Hiland Park</b><small>EM Bypass, near Patuli</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Diamond City South</b><small>Tollygunge, South Kolkata</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Natural City</b><small>Garia, South Kolkata</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-upohar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Upohar</b><small>Chak Garia, EM Bypass</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Sherwood Estate</b><small>Narendrapur, South Kolkata</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-udayan-condoville-em-bypass">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Udayan The Condoville</b><small>EM Bypass</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sugam-habitat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Sugam Habitat</b><small>Picnic Garden</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-greenfield-city-behala">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Greenfield City</b><small>Behala</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-genexx-valley-joka">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Genexx Valley</b><small>Joka</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Urbana</b><small>Anandapur, EM Bypass</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        <span><b>Coding classes near Uniworld City</b><small>New Town</small></span>
+      </a>
+    </div>
+    <p class="nearby-all">Looking for the bigger picture? See <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">coding classes in Kolkata</a> for every neighbourhood we serve.</p>
+  </div>
+</section>
+
 </main>
+
+<div class="mobile-cta">
+  <a class="btn btn-coral" href="#demo">Book a free demo</a>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -743,6 +832,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families in South City on Prince Anwar Shah Road.",
       "areaServed": [
         {"@type":"Place","name":"South City, Prince Anwar Shah Road, Kolkata"},
@@ -789,6 +879,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is at South City International or another ICSE/Cambridge school — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the ICSE, ISC and Cambridge syllabi at South City International School and the ICSE and CBSE paths at schools like South Point, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you offer coding classes for kids near South City and online maths tuition on Prince Anwar Shah Road?","acceptedAnswer":{"@type":"Answer","text":"Yes — both, and a child never has to leave home for either. We run live coding classes for kids near South City, Python classes for Prince Anwar Shah Road, South Kolkata families, and online maths tuition on Prince Anwar Shah Road, South Kolkata, all taught by a real instructor in a small live batch. Many local parents come to us looking for the best coding classes on Prince Anwar Shah Road, South Kolkata, and judge the teaching through a free demo before they pay."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

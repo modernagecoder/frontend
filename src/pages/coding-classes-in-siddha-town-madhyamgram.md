@@ -24,7 +24,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 ## Built for Madhyamgram: city-quality teaching, without the run down Jessore Road
 
-Siddha Town is a large gated township off Sodepur Road in Madhyamgram — a fast-growing northern suburb where young families have moved precisely for the space and the quiet. The trade-off is distance: the established coding and maths coaching belt still sits south, in central and South Kolkata, a long haul through Madhyamgram's Chowmatha crossing and down a perennially busy Jessore Road. Modern Age Coders closes that gap: your child joins a real teacher and a small batch from your flat at Siddha Town — no evening trip past the Madhyamgram junction, no time lost to traffic.
+Siddha Town is a large gated township off Sodepur Road in Madhyamgram — a fast-growing northern suburb where young families have moved precisely for the space and the quiet. The trade-off is distance: the established coding and maths coaching belt still sits south, in central and South Kolkata, a long haul through Madhyamgram's Chowmatha crossing and down a perennially busy Jessore Road. Modern Age Coders closes that gap: your child joins a real teacher and a small batch from your flat at Siddha Town — no evening trip past the Madhyamgram junction, no time lost to traffic. For families searching for coding classes for kids near Siddha Town, Python classes in Madhyamgram or online maths tuition in Madhyamgram, the best coding classes Madhyamgram families can join now run from your living room.
 
 Siddha Town and Madhyamgram in brief:
 
@@ -90,6 +90,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on the West Bengal board, CBSE or ICSE — will the maths match? Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools across Madhyamgram and along Jessore Road follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- What do the best coding classes near Siddha Town, Madhyamgram cost? Live group mini-batches are Rs 2,499 a month and one-to-one classes are Rs 4,999 a month, each with two live classes every week. Coding classes for kids near Siddha Town, Python classes in Madhyamgram and online maths tuition in Madhyamgram all pay the same simple fees, with no surcharge for distance.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -102,7 +103,18 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Love wall (reviews): /love
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
-- Coding classes near Uniworld City: /coding-classes-in-uniworld-city
-- Coding classes near Calcutta Riverside: /coding-classes-in-calcutta-riverside
+
+## Other Kolkata neighbourhoods we serve
+
+- Coding classes near Godrej Prakriti, Sodepur: /coding-classes-in-godrej-prakriti
+- Coding classes near Diamond City North, VIP Road: /coding-classes-in-diamond-city-north
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Sukhobrishti, New Town: /coding-classes-in-sukhobrishti
+- Coding classes near Rosedale Garden, New Town: /coding-classes-in-rosedale-garden
+- Coding classes near Elita Garden Vista, New Town: /coding-classes-in-elita-garden-vista
+- Coding classes near Hiland Willows, New Town: /coding-classes-in-hiland-willows
+- Coding classes near DLF New Town Heights, New Town: /coding-classes-in-dlf-new-town-heights
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Urbana, Anandapur, EM Bypass: /coding-classes-in-urbana
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Siddha Town and Madhyamgram, North 24 Parganas. For ages 6 to 65.

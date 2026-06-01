@@ -24,7 +24,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 ## Built for Anandapur: forty floors up is no place to start a school run
 
-Urbana's families live high above one of Kolkata's busiest junctions. Between the Ruby crossing and the EM Bypass, an after-school drive to a coaching centre and back can swallow the entire evening. Because Modern Age Coders is live and online, your child joins a real teacher and a small batch from the apartment itself — no car, no Bypass, no waiting.
+Urbana's families live high above one of Kolkata's busiest junctions. Between the Ruby crossing and the EM Bypass, an after-school drive to a coaching centre and back can swallow the entire evening. Because Modern Age Coders is live and online, your child joins a real teacher and a small batch from the apartment itself — no car, no Bypass, no waiting. Parents looking for coding classes for kids near Urbana, Python classes in Anandapur, EM Bypass, online maths tuition in Anandapur, EM Bypass, or simply the best coding classes in Anandapur, EM Bypass get all of it delivered straight into the tower.
 
 Urbana in numbers:
 
@@ -90,6 +90,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - We travel often — can the classes keep up? Yes. Your child keeps the same teacher and batch wherever you are, and every session is recorded.
 - My child is at The Heritage School, Calcutta International or DPS Ruby Park — will the maths match? Yes. Our maths teaching maps to the ICSE and CBSE paths and the international framework that Anandapur schools follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you offer coding classes for kids near Urbana and Anandapur specifically? Yes. Families across Anandapur and the EM Bypass join us for live coding classes for kids near Urbana, Python classes in Anandapur, EM Bypass, and online maths tuition in Anandapur, EM Bypass, all delivered online into your tower with no travel to a centre.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -104,5 +105,18 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
 - Coding classes near South City: /coding-classes-in-south-city
 - Coding classes near Uniworld City: /coding-classes-in-uniworld-city
+
+## Other Kolkata neighbourhoods we serve
+
+- Coding classes near Upohar, Chak Garia: /coding-classes-in-upohar
+- Coding classes near Hiland Park, EM Bypass: /coding-classes-in-hiland-park
+- Coding classes near Udayan The Condoville, EM Bypass: /coding-classes-in-udayan-condoville-em-bypass
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near Ideal Niketan, Tangra: /coding-classes-in-ideal-niketan-tangra
+- Coding classes near Sugam Habitat, Picnic Garden: /coding-classes-in-sugam-habitat
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Elita Garden Vista, New Town: /coding-classes-in-elita-garden-vista
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Urbana and Anandapur, off EM Bypass. For ages 6 to 65.

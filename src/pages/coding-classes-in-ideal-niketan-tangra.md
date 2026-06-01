@@ -26,7 +26,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 Ideal Niketan sits in the heart of Tangra — Kolkata's historic Chinatown, the old Hakka Chinese tannery quarter that still keeps the city's best-loved Chinese kitchens. It is a wonderful place to live and an honestly difficult place to drive out of at six in the evening. The good coding and maths centres mostly sit elsewhere, and reaching them means the Chingrighata crawl or the Park Circus Connector, one of the city's heaviest stretches at school-run and office hours.
 
-Modern Age Coders removes that journey entirely. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your Ideal Niketan apartment, with the evening kept for homework instead of headlights.
+Modern Age Coders removes that journey entirely. We are a live, online school based in Kolkata: whether you want coding classes for kids near Ideal Niketan, Python classes in Tangra or online maths tuition in Tangra, your child joins a real teacher and a small batch from your Ideal Niketan apartment, with the evening kept for homework instead of headlights. For many families these are the best coding classes Tangra can reach without ever touching the Bypass.
 
 Ideal Niketan and Tangra in brief:
 
@@ -90,6 +90,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Are the classes really live, or recorded videos? They are 100% live. A real instructor teaches each class in real time and can see your child's work. Recordings exist only for revision.
 - What ages do you teach? Children, teens and adults — roughly ages 6 to 65.
 - We're at Ideal Niketan in Tangra — can we still join easily? Yes — location makes no difference for a live-online class. Your child joins the same teacher and batch as a family in central Kolkata, with no trip across the Chingrighata or Park Circus Connector traffic.
+- Do you run coding classes for kids near Ideal Niketan, and Python classes in Tangra? Yes — we run live coding classes for kids near Ideal Niketan and Python classes for Tangra families every week. Children start with playful, visual coding, then move into Python; teens and adults go further into Java, web development and AI. Because we are live-online, these are the best coding classes Tangra families can reach without a single trip onto the Bypass.
 - What device and internet do we need? A laptop or desktop and a stable broadband connection are ideal.
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on the West Bengal board, CBSE or ICSE — will the maths match? Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE/ISC syllabi that schools around Tangra and Park Circus follow.
@@ -106,7 +107,21 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Love wall (reviews): /love
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
-- Coding classes near South City: /coding-classes-in-south-city
+
+## Other Kolkata neighbourhoods
+
+Live coding and maths classes near other complexes, starting with neighbourhoods close to Tangra and the EM Bypass:
+
 - Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Urbana, Anandapur: /coding-classes-in-urbana
+- Coding classes near Upohar, Chak Garia: /coding-classes-in-upohar
+- Coding classes near Udayan, The Condoville, EM Bypass: /coding-classes-in-udayan-condoville-em-bypass
+- Coding classes near Hiland Park, EM Bypass: /coding-classes-in-hiland-park
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Sugam Habitat, Picnic Garden: /coding-classes-in-sugam-habitat
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Greenfield City, Behala: /coding-classes-in-greenfield-city-behala
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Ideal Niketan and Tangra. For ages 6 to 65.

@@ -26,7 +26,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 Udayan — The Condoville is one of Kolkata's largest planned communities: a 26-acre township off the EM Bypass near Science City, built by Ambuja Neotia (Bengal Ambuja) as the city's first Condoville under a public-private partnership with the Government of West Bengal. With well over a thousand homes across its Utsarg, Utsav and Udita ranges, it holds a small town's worth of school-going children behind one set of gates.
 
-What a township this size cannot bring inside its boundary wall is the cluster of good coding and maths centres, which sit scattered across South and central Kolkata, on the far side of the Bypass and the Park Circus connector. Modern Age Coders closes that gap: your child joins a real teacher and a small batch straight from your flat at Udayan — no crawl through the Bypass and Science City crossing, no time lost in evening traffic.
+What a township this size cannot bring inside its boundary wall is the cluster of good coding and maths centres, which sit scattered across South and central Kolkata, on the far side of the Bypass and the Park Circus connector. Modern Age Coders closes that gap. For families searching for coding classes for kids near Udayan The Condoville, Python classes on the EM Bypass, online maths tuition on the EM Bypass, or simply the best coding classes on the EM Bypass, your child joins a real teacher and a small batch straight from your flat at Udayan — no crawl through the Bypass and Science City crossing, no time lost in evening traffic.
 
 Udayan in brief:
 
@@ -92,6 +92,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on CBSE, ICSE or the West Bengal board — will the maths match? Yes. Our maths teaching maps to the CBSE, ICSE and West Bengal state board syllabi that schools around the EM Bypass follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- What do you actually teach near Udayan and the EM Bypass? Live Python classes, Java, web development, AI and school maths, all taught online to Udayan families looking for coding classes for kids near Udayan The Condoville, Python classes on the EM Bypass, or online maths tuition on the EM Bypass.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -106,5 +107,21 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
 - Coding classes near Urbana: /coding-classes-in-urbana
 - Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+
+## Other Kolkata neighbourhoods we teach
+
+- Coding classes near Urbana, Anandapur, EM Bypass: /coding-classes-in-urbana
+- Coding classes near Upohar, Chak Garia, EM Bypass: /coding-classes-in-upohar
+- Coding classes near Hiland Park, near Patuli, EM Bypass: /coding-classes-in-hiland-park
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Sugam Habitat, Picnic Garden: /coding-classes-in-sugam-habitat
+- Coding classes near Ideal Niketan, Tangra: /coding-classes-in-ideal-niketan-tangra
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Greenfield City, Behala: /coding-classes-in-greenfield-city-behala
+- See all coding classes in Kolkata: /best-coding-class-in-kolkata
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Udayan The Condoville and the EM Bypass, near Science City. For ages 6 to 65.

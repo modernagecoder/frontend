@@ -33,7 +33,7 @@ Upohar in numbers:
 - Around 1,270 homes; a large, settled community
 - 0 km your child travels — the class comes home
 
-The maths we teach maps to the boards children here actually study, including the ICSE, ISC and CBSE syllabi at schools along the EM Bypass and Garia belt such as DPS Megacity and Welland Gouldsmith. Close to the New Garia (Kavi Subhash) metro and the Acropolis and South City malls, Upohar is well placed for everything except a weekly class — for which the shortest trip is no trip at all.
+Families look us up as the best coding classes in Chak Garia, EM Bypass, and that is the gap we fill: coding classes for kids near Upohar, Python classes for Chak Garia, EM Bypass teens, and online maths tuition for Chak Garia, EM Bypass students, all from one settled weekly slot. The maths we teach maps to the boards children here actually study, including the ICSE, ISC and CBSE syllabi at schools along the EM Bypass and Garia belt such as DPS Megacity and Welland Gouldsmith. Close to the New Garia (Kavi Subhash) metro and the Acropolis and South City malls, Upohar is well placed for everything except a weekly class — for which the shortest trip is no trip at all.
 
 ## How we teach: fundamentals first, tools second, understanding always
 
@@ -90,6 +90,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child studies at a Bypass or Garia ICSE/CBSE school — will the maths match? Yes. Our maths teaching maps to the ICSE, ISC and CBSE syllabi at schools along the EM Bypass and Garia belt, such as DPS Megacity and Welland Gouldsmith.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you run coding classes specifically for kids near Upohar and Chak Garia? Yes — coding classes for kids near Upohar are exactly what we do. Children in Chak Garia, off EM Bypass, join age-grouped live batches in Python and visual coding from home, with online maths tuition for Chak Garia, EM Bypass families available alongside.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -104,5 +105,20 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
 - Coding classes near Urbana: /coding-classes-in-urbana
 - Coding classes near South City: /coding-classes-in-south-city
+
+## Coding and maths classes in other Kolkata neighbourhoods
+
+- Coding classes near Urbana, Anandapur, EM Bypass: /coding-classes-in-urbana
+- Coding classes near Hiland Park, EM Bypass: /coding-classes-in-hiland-park
+- Coding classes near Udayan The Condoville, EM Bypass: /coding-classes-in-udayan-condoville-em-bypass
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near South City, South Kolkata: /coding-classes-in-south-city
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Sugam Habitat, Picnic Garden: /coding-classes-in-sugam-habitat
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Calcutta Riverside, Maheshtala: /coding-classes-in-calcutta-riverside
+- Best coding classes in Kolkata (city hub): /best-coding-class-in-kolkata
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Upohar and Chak Garia, off EM Bypass. For ages 6 to 65.

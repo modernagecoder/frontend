@@ -293,6 +293,24 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby / cross-cluster links */
+.nearby{border-top:1px solid var(--line)}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:32px}
+.nearby-link{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-s);padding:15px 18px;color:var(--ink);font-weight:500;font-size:var(--step--1);transition:border-color .15s ease, transform .15s ease, box-shadow .15s ease}
+.nearby-link:hover,.nearby-link:focus-visible{text-decoration:none;border-color:var(--teal);transform:translateY(-2px);box-shadow:var(--shadow)}
+.nearby-link svg{width:18px;height:18px;flex:0 0 auto;color:var(--amber-d)}
+.nearby-link span small{display:block;color:var(--ink-3);font-size:.74rem;font-weight:500;margin-top:2px}
+.nearby-all{margin-top:26px;font-size:var(--step--1);color:var(--ink-2)}
+@media (prefers-reduced-motion: reduce){.nearby-link:hover,.nearby-link:focus-visible{transform:none}}
+
+/* mobile-only sticky bottom CTA */
+.sticky-cta{display:none}
+@media (max-width:759.98px){
+  .sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(250,247,241,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(14px,4vw,20px);padding-bottom:calc(10px + env(safe-area-inset-bottom))}
+  .sticky-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:78px}
+}
 </style>
 </head>
 
@@ -387,7 +405,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Sukhobrishti</p>
       <h2 style="font-size:var(--step-3);margin-top:14px;max-width:20ch">A community this large deserves great teaching close to home.</h2>
       <p style="margin-top:20px" class="lede">Sukhobrishti is one of the largest planned communities in the country — tens of thousands of families in New Town's Action Area III. With the Infosys and ITC campuses at the eastern edge, many parents here work in tech and know exactly why coding matters. What is harder to find is good, affordable teaching that does not mean a long trip out of the township.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders brings live, instructor-led coding and maths into the home, at a fair price — no travel to a distant centre, no premium-centre fees. Your child joins a real teacher and a small batch from your block itself. The maths we teach maps to the boards children here study, including the CBSE and ICSE syllabi at schools nearby such as Delhi Public School New Town, Narayana School and The Newtown School, so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders brings live, instructor-led coding and maths into the home, at a fair price — no travel to a distant centre, no premium-centre fees. Families searching for coding classes for kids near Sukhobrishti, or for Python classes in New Town Action Area III, get the same teacher and a small batch from your block itself. The maths we teach maps to the boards children here study, including the CBSE and ICSE syllabi at schools nearby such as Delhi Public School New Town, Narayana School and The Newtown School, so class work and tuition pull in the same direction. For parents who want online maths tuition in New Town Action Area III alongside the coding, both run on the same simple home setup.</p>
       <blockquote class="pullquote">Good teaching should not depend on a premium address. Live and online, the same teacher reaches every block in the township.</blockquote>
     </div>
     <div>
@@ -641,6 +659,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>What makes you the best coding classes in New Town Action Area III?</summary>
+        <p><b>Every class is live and instructor-led, kept in small batches, at a fair fee — and you judge it with a free demo first.</b> For families in Sukhobrishti and New Town Action Area III, that means real teaching that maps to the CBSE and ICSE maths your child studies, with no travel and no premium-centre overhead. We would rather earn the recommendation than claim a title.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -699,7 +721,74 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY / CROSS-CLUSTER LINKS -->
+<section class="section nearby" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h" style="font-size:var(--step-3);margin-top:14px">Coding &amp; maths classes across Kolkata</h2>
+      <p>Same live teachers, same fair fees, the same small batches — wherever your home is. If you have family or friends in another complex, here is where to point them.</p>
+    </div>
+    <div class="nearby-grid">
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Uniworld City<small>New Town</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-rosedale-garden">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Rosedale Garden<small>New Town</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-dlf-new-town-heights">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near DLF New Town Heights<small>New Town</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-elita-garden-vista">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Elita Garden Vista<small>New Town</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-hiland-willows">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Hiland Willows<small>New Town</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Urbana<small>Anandapur, EM Bypass</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-hiland-park">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Hiland Park<small>EM Bypass, Patuli</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Avidipta<small>Mukundapur</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near South City<small>Prince Anwar Shah Road</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-north">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Diamond City North<small>VIP Road</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-godrej-prakriti">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Godrej Prakriti<small>Sodepur</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-siddha-town-madhyamgram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+        <span>Coding classes near Siddha Town<small>Madhyamgram</small></span>
+      </a>
+    </div>
+    <p class="nearby-all">Looking for the wider picture? See <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">coding classes in Kolkata</a> for every neighbourhood we serve.</p>
+  </div>
+</section>
+
 </main>
+
+<!-- mobile-only sticky bottom CTA -->
+<div class="sticky-cta" aria-hidden="false">
+  <a class="btn btn-amber" href="#demo">Book a free demo</a>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -748,6 +837,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families in Sukhobrishti, New Town Action Area III.",
       "areaServed": [
         {"@type":"Place","name":"Sukhobrishti, New Town Action Area III, Kolkata"},
@@ -794,6 +884,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child studies at a New Town CBSE or ICSE school — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the CBSE and ICSE syllabi at New Town schools such as Delhi Public School New Town, Narayana School and The Newtown School, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"What makes you the best coding classes in New Town Action Area III?","acceptedAnswer":{"@type":"Answer","text":"Every class is live and instructor-led, kept in small batches, at a fair fee, and you judge it with a free demo first. For families in Sukhobrishti and New Town Action Area III that means real teaching that maps to the CBSE and ICSE maths your child studies, with no travel and no premium-centre overhead."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

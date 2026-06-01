@@ -300,6 +300,24 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby — cross-page interlinking mesh, in this page's identity */
+.nearby{border-top:1px solid var(--line)}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:32px}
+.nearby-grid a{display:flex;align-items:center;gap:11px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:15px 18px;color:var(--ink-2);font-size:var(--step--1);font-weight:500;line-height:1.4;transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease}
+.nearby-grid a:hover,.nearby-grid a:focus-visible{text-decoration:none;border-color:var(--teal);transform:translateY(-2px);box-shadow:var(--shadow);color:var(--ink)}
+.nearby-grid a svg{width:16px;height:16px;flex:0 0 auto;color:var(--olive)}
+.nearby-grid a.nearby-hub{background:var(--olive-tint);border-color:#d3dcb8;font-weight:600;color:var(--olive-d)}
+.nearby-grid a.nearby-hub svg{color:var(--olive-d)}
+@media (prefers-reduced-motion: reduce){.nearby-grid a:hover,.nearby-grid a:focus-visible{transform:none}}
+
+/* mobile-only sticky bottom CTA */
+.mobile-cta{display:none}
+@media (max-width:759.98px){
+  .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px clamp(12px,4vw,18px);background:rgba(243,245,239,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);box-shadow:0 -8px 24px -18px rgba(27,30,24,.6)}
+  .mobile-cta .btn{display:flex;width:100%;justify-content:center}
+  body{padding-bottom:76px}
+}
 </style>
 </head>
 
@@ -394,7 +412,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Tollygunge</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:20ch">South Kolkata's school belt is close — the coding teacher needn't be far.</h2>
       <p style="margin-top:20px" class="lede">Diamond City South sits right on M.G. Road in Tollygunge — one of the busiest arteries in South Kolkata, minutes from the Tollygunge tram depot and the metro. It is a wonderful place to live, but the daily reality of getting a child across that traffic to a coaching centre and back, two evenings a week, is its own small ordeal.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders removes that trip entirely. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your flat in the complex — no auto down M.G. Road, no waiting at the gate after dark. The maths we teach maps to the boards South Kolkata families study, including the West Bengal state board, CBSE and ICSE syllabi, so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders removes that trip entirely. We are a live, online school based in Kolkata, and for families looking for coding classes for kids near Diamond City South, your child joins a real teacher and a small batch from your flat in the complex — no auto down M.G. Road, no waiting at the gate after dark. We run Python classes in Tollygunge homes and online maths tuition for Tollygunge students alike, and the maths we teach maps to the boards South Kolkata families study, including the West Bengal state board, CBSE and ICSE syllabi, so class work and tuition pull in the same direction.</p>
       <blockquote class="pullquote">The evening crawl down M.G. Road is exactly what a live, online class lets your child skip.</blockquote>
     </div>
     <div>
@@ -644,6 +662,10 @@ img,svg{max-width:100%;display:block}
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
+      <details>
+        <summary>Do you offer the best coding classes in Tollygunge for families near Diamond City South?</summary>
+        <p><b>We let the teaching make that case for you.</b> Rather than claim to be the best coding classes in Tollygunge, we invite every family near Diamond City South to a free live demo and judge for themselves. You get the same instructor-led coding classes and online maths tuition we run for households along M.G. Road and across Tollygunge — Python, Java, web, AI and board-aligned maths — without any travel.</p>
+      </details>
     </div>
   </div>
 </section>
@@ -699,6 +721,67 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY — cross-page interlinking across the Kolkata complex cluster -->
+<section class="section nearby" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h">Coding &amp; maths classes across Kolkata</h2>
+      <p>Because every class is live and online, the same teachers reach families in gated complexes right across the city. If a neighbour or relative lives elsewhere in South Kolkata or beyond, here is where to point them.</p>
+    </div>
+    <nav class="nearby-grid" aria-label="Coding classes in other Kolkata neighbourhoods">
+      <a href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near South City, Prince Anwar Shah Road
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-hiland-park">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Hiland Park, EM Bypass
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Natural City, Garia
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Sherwood Estate, Narendrapur
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Avidipta, Mukundapur
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-upohar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Upohar, Chak Garia
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Urbana, Anandapur
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-sugam-habitat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Sugam Habitat, Picnic Garden
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-greenfield-city-behala">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Greenfield City, Behala
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-genexx-valley-joka">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Genexx Valley, Joka
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-calcutta-riverside">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        Coding classes near Calcutta Riverside, Batanagar
+      </a>
+      <a class="nearby-hub" href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg>
+        Coding classes in Kolkata — main hub
+      </a>
+    </nav>
+  </div>
+</section>
+
 </main>
 
 <footer class="site-footer">
@@ -737,6 +820,11 @@ img,svg{max-width:100%;display:block}
   </div>
 </footer>
 
+<!-- mobile-only sticky bottom CTA -->
+<div class="mobile-cta">
+  <a class="btn btn-primary" href="#demo">Book a free demo</a>
+</div>
+
 <!-- JSON-LD -->
 <script type="application/ld+json">
 {
@@ -748,6 +836,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Diamond City South, Tollygunge, South Kolkata.",
       "areaServed": [
         {"@type":"Place","name":"Diamond City South, Tollygunge, Kolkata"},
@@ -794,7 +883,8 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on the West Bengal board, CBSE or ICSE — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools across Tollygunge and South Kolkata follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
-        {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
+        {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}},
+        {"@type":"Question","name":"Do you offer the best coding classes in Tollygunge for families near Diamond City South?","acceptedAnswer":{"@type":"Answer","text":"We let the teaching make that case for you. Rather than claim to be the best coding classes in Tollygunge, we invite every family near Diamond City South to a free live demo and judge for themselves. You get the same instructor-led coding classes and online maths tuition we run for households along M.G. Road and across Tollygunge — Python, Java, web, AI and board-aligned maths — without any travel."}}
       ]
     }
   ]

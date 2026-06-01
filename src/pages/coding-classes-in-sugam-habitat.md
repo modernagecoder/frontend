@@ -34,7 +34,7 @@ Sugam Habitat and Picnic Garden in brief:
 - Reputed schools nearby, including Calcutta International School and St. Mary's
 - 0 km your child travels — the class comes home
 
-The maths we teach maps to the boards families around Picnic Garden actually study — the West Bengal state board, CBSE and ICSE. Sugam Habitat already has the location — a live-online class simply removes the one trip that location can't fix: the drive to a good teacher.
+The maths we teach maps to the boards families around Picnic Garden actually study — the West Bengal state board, CBSE and ICSE. Sugam Habitat already has the location — a live-online class simply removes the one trip that location can't fix: the drive to a good teacher. For families searching for coding classes for kids near Sugam Habitat, Python classes Picnic Garden children can join from home, online maths tuition Picnic Garden parents can sit beside, or simply the best coding classes Picnic Garden has access to, the class now arrives in the living room.
 
 ## How we teach: fundamentals first, tools second, understanding always
 
@@ -91,6 +91,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on the West Bengal board, CBSE or ICSE — will the maths match? Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools around Picnic Garden and Tiljala follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you offer coding and maths for kids near Sugam Habitat and across Picnic Garden? Yes — we run coding classes for kids near Sugam Habitat and the wider Picnic Garden and Tiljala area, taught live from Kolkata. Families looking for the best coding classes Picnic Garden has access to, Python classes Picnic Garden children can join from home, or online maths tuition Picnic Garden parents can supervise, all start the same way: a free live demo.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -105,5 +106,23 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
 - Coding classes near South City: /coding-classes-in-south-city
 - Coding classes near Urbana: /coding-classes-in-urbana
+
+## Other Kolkata neighbourhoods
+
+Live coding and maths classes also reach families in apartment complexes across the city:
+
+- Coding classes near Urbana, Anandapur, EM Bypass: /coding-classes-in-urbana
+- Coding classes near Upohar, Chak Garia, EM Bypass: /coding-classes-in-upohar
+- Coding classes near Hiland Park, EM Bypass, Patuli: /coding-classes-in-hiland-park
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Ideal Niketan, Tangra: /coding-classes-in-ideal-niketan-tangra
+- Coding classes near Udayan The Condoville, EM Bypass: /coding-classes-in-udayan-condoville-em-bypass
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Avani Riverside, Shibpur, Howrah: /coding-classes-in-avani-riverside-howrah
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Rosedale Garden, New Town: /coding-classes-in-rosedale-garden
+- The best coding classes in Kolkata: /best-coding-class-in-kolkata
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Sugam Habitat and Picnic Garden, Tiljala. For ages 6 to 65.

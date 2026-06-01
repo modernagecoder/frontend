@@ -26,7 +26,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 Godrej Prakriti is a green, low-density township by Godrej Properties on BT Road in Sodepur — around 22 acres of gardens, walking tracks and a natural waterbody, a calm pocket of North 24 Parganas a short way from the Ganga. It has nearly everything inside the gate. The one thing it cannot bring closer is the city's belt of good coding and maths centres, which still sit several kilometres south, down a BT Road that crawls at peak hours through Sodepur Traffic More.
 
-Modern Age Coders closes that gap: your child joins a real teacher and a small batch from your flat at Prakriti — no slow ride toward Shyambazar, no evening lost in BT Road traffic.
+Modern Age Coders closes that gap: your child joins a real teacher and a small batch from your flat at Prakriti — no slow ride toward Shyambazar, no evening lost in BT Road traffic. For families looking for coding classes for kids near Godrej Prakriti, Python classes in Sodepur, online maths tuition in Sodepur, or simply the best coding classes in Sodepur, the lesson opens right in your living room.
 
 Godrej Prakriti, Sodepur, in brief:
 
@@ -91,6 +91,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - What device and internet do we need at home? A laptop or desktop and a stable broadband connection are ideal.
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on the West Bengal board, CBSE or ICSE — will the maths match? Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools around Sodepur and Panihati follow.
+- Do you offer coding classes for kids and Python classes near Godrej Prakriti, Sodepur? Yes. We run live coding classes for kids near Godrej Prakriti, beginner-friendly Python classes for Sodepur learners, and online maths tuition for Sodepur families, all from your own flat — some of the most asked-for and best coding classes in Sodepur.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
@@ -106,5 +107,20 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
 - Coding classes near Uniworld City: /coding-classes-in-uniworld-city
 - Coding classes near Calcutta Riverside: /coding-classes-in-calcutta-riverside
+
+## Coding and maths classes in other Kolkata neighbourhoods
+
+- Coding classes near Siddha Town, Madhyamgram: /coding-classes-in-siddha-town-madhyamgram
+- Coding classes near Diamond City North, VIP Road: /coding-classes-in-diamond-city-north
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Sukhobrishti, New Town: /coding-classes-in-sukhobrishti
+- Coding classes near Rosedale Garden, New Town: /coding-classes-in-rosedale-garden
+- Coding classes near Elita Garden Vista, New Town: /coding-classes-in-elita-garden-vista
+- Coding classes near Hiland Willows, New Town: /coding-classes-in-hiland-willows
+- Coding classes near DLF New Town Heights, New Town: /coding-classes-in-dlf-new-town-heights
+- Coding classes near Avani Riverside, Shibpur, Howrah: /coding-classes-in-avani-riverside-howrah
+- Coding classes near South City, South Kolkata: /coding-classes-in-south-city
+- Coding classes near Urbana, EM Bypass: /coding-classes-in-urbana
+- Best coding classes in Kolkata: /best-coding-class-in-kolkata
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Godrej Prakriti and Sodepur, Panihati. For ages 6 to 65.

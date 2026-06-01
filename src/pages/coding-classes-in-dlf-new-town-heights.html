@@ -294,6 +294,25 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby cluster — internal-link mesh, in this page's palette */
+.nearby{border-top:1px solid var(--line)}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:32px;list-style:none;padding:0}
+.nearby-grid li{margin:0}
+.nearby-link{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:8px;padding:15px 18px;color:var(--ink);font-weight:500;font-size:var(--step--1);line-height:1.35;transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease}
+.nearby-link:hover,.nearby-link:focus-visible{text-decoration:none;transform:translateY(-2px);border-color:var(--teal);box-shadow:var(--shadow)}
+.nearby-link svg{width:17px;height:17px;flex:0 0 auto;color:var(--burg)}
+.nearby-kolkata{margin-top:24px}
+.nearby-kolkata a{font-weight:600;color:var(--teal-d);display:inline-flex;align-items:center;gap:8px}
+@media (prefers-reduced-motion: reduce){.nearby-link:hover,.nearby-link:focus-visible{transform:none}}
+
+/* mobile-only sticky bottom CTA bar */
+.mobile-cta{display:none}
+@media (max-width:759.98px){
+  .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(247,243,243,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(14px,4vw,20px);padding-bottom:calc(10px + env(safe-area-inset-bottom))}
+  .mobile-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:78px}
+}
 </style>
 </head>
 
@@ -388,7 +407,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for New Town</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:20ch;font-weight:700">A tower-block address, a city-grade classroom.</h2>
       <p style="margin-top:20px" class="lede">DLF New Town Heights is a tall, self-contained community in Action Area III — ten towers rising thirty-three floors over New Town, with a club, pool and play areas inside the gates. What a high-rise on the planned grid cannot put inside its own podium is a good coding and maths teacher.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders fills that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your flat at Action Area III — no run down Biswa Bangla Sarani toward Salt Lake, no evening lost crossing New Town to a coaching centre. The maths we teach maps to the boards New Town families study, including CBSE, ICSE/ISC and the West Bengal state board — the syllabi schools like DPS Newtown and DPS Megacity follow — so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders fills that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your flat at Action Area III — no run down Biswa Bangla Sarani toward Salt Lake, no evening lost crossing New Town to a coaching centre. Families searching for coding classes for kids near DLF New Town Heights — Python classes in New Town, or online maths tuition in New Town — find the same teaching here, only without the drive. The maths we teach maps to the boards New Town families study, including CBSE, ICSE/ISC and the West Bengal state board — the syllabi schools like DPS Newtown and DPS Megacity follow — so class work and tuition pull in the same direction.</p>
       <blockquote class="pullquote">A short hop to Sector V for work should not become a long haul for your child's coding class.</blockquote>
     </div>
     <div>
@@ -643,6 +662,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you offer coding classes for kids near DLF New Town Heights?</summary>
+        <p><b>Yes — these are the best coding classes for New Town families because the classroom comes to you.</b> Coding classes for kids near DLF New Town Heights run as small live batches: Python classes for New Town beginners, Java for older students, plus online maths tuition for New Town children — all joined straight from your Action Area III flat, with nothing to travel to.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -701,7 +724,36 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY / CROSS-CLUSTER INTERLINKS -->
+<section class="section nearby" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h">Coding &amp; maths classes across Kolkata</h2>
+      <p>The same live, instructor-led classes reach families in apartment complexes right across New Town and Kolkata. If you have neighbours or relatives nearby, point them to their own complex below.</p>
+    </div>
+    <ul class="nearby-grid">
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near Uniworld City, New Town</a></li>
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sukhobrishti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near Sukhobrishti, New Town Action Area III</a></li>
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-rosedale-garden"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near Rosedale Garden, New Town</a></li>
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-elita-garden-vista"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near Elita Garden Vista, New Town</a></li>
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-hiland-willows"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near Hiland Willows, New Town</a></li>
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-north"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near Diamond City North, VIP Road</a></li>
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near Urbana, Anandapur, EM Bypass</a></li>
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-upohar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near Upohar, Chak Garia, EM Bypass</a></li>
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near Avidipta, Mukundapur</a></li>
+      <li><a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Coding classes near South City, Prince Anwar Shah Road</a></li>
+    </ul>
+    <p class="nearby-kolkata">Looking more widely? <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">See the best coding classes in Kolkata <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></p>
+  </div>
+</section>
+
 </main>
+
+<!-- mobile-only sticky bottom CTA -->
+<div class="mobile-cta" aria-label="Quick actions">
+  <a class="btn btn-primary" href="#demo">Book a free demo</a>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -750,6 +802,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at DLF New Town Heights, Action Area III, New Town.",
       "areaServed": [
         {"@type":"Place","name":"DLF New Town Heights, Action Area III, New Town, Kolkata"},
@@ -796,6 +849,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on CBSE, ICSE/ISC or the West Bengal board — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the CBSE, ICSE/ISC and West Bengal state board syllabi that New Town schools such as DPS Newtown and DPS Megacity follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you offer coding classes for kids near DLF New Town Heights?","acceptedAnswer":{"@type":"Answer","text":"Yes — these are the best coding classes for New Town families because the classroom comes to you. Coding classes for kids near DLF New Town Heights run as small live batches: Python classes for New Town beginners, Java for older students, plus online maths tuition for New Town children — all joined straight from your Action Area III flat, with nothing to travel to."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

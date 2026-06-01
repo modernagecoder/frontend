@@ -298,6 +298,24 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 6px 0;z-index:100}
 .skip:focus{left:0}
+
+/* sibling interlinking — across Kolkata */
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:32px}
+.nearby-link{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:15px 18px;color:var(--ink-2);font-size:var(--step--1);font-weight:500;transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease}
+.nearby-link svg{width:17px;height:17px;flex:0 0 auto;color:var(--ind)}
+.nearby-link b{color:var(--ink);font-weight:600}
+.nearby-link:hover,.nearby-link:focus-visible{text-decoration:none;border-color:var(--ind);transform:translateY(-2px);box-shadow:var(--shadow)}
+.nearby-hub{margin-top:24px;font-size:var(--step--1);color:var(--ink-2)}
+.nearby-hub a{font-weight:600;color:var(--ind-d)}
+@media (prefers-reduced-motion: reduce){.nearby-link:hover{transform:none}}
+
+/* mobile-only sticky bottom CTA */
+.mobile-cta{display:none}
+@media (max-width:759px){
+  .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(244,245,247,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(16px,5vw,24px);padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+  .mobile-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:74px}
+}
 </style>
 </head>
 
@@ -397,7 +415,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Hiland Park</p>
       <h2 style="font-size:var(--step-3);margin-top:14px;max-width:20ch">You chose a self-contained address. Make the class fit it.</h2>
       <p style="margin-top:20px" class="lede">Hiland Park was Kolkata's first high-rise condominium — a community designed so the essentials sit within the gate. A weekly coding or maths class should respect that same logic: it should come to the home, not pull a child back out onto the EM Bypass after school.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from the apartment — no gate pass for a tutor, no parking near the Metropolis Mall, no traffic toward Patuli. The maths we teach maps to the boards children here actually study, including the CBSE and ICSE syllabi at schools along the Bypass such as Delhi Public School Ruby Park and Riverdale High School, so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from the apartment — no gate pass for a tutor, no parking near the Metropolis Mall, no traffic toward Patuli. We run coding classes for kids near Hiland Park and Python classes on EM Bypass, near Patuli, alongside online maths tuition on EM Bypass, near Patuli — the same teacher, the same week, with nobody leaving the tower. The maths we teach maps to the boards children here actually study, including the CBSE and ICSE syllabi at schools along the Bypass such as Delhi Public School Ruby Park and Riverdale High School, so class work and tuition pull in the same direction.</p>
       <blockquote class="pullquote">A community built to keep daily life close to home deserves a class that respects the same idea.</blockquote>
     </div>
     <div>
@@ -643,6 +661,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you offer coding classes for kids near Hiland Park and the rest of EM Bypass?</summary>
+        <p><b>Yes — we run coding classes for kids near Hiland Park and across the EM Bypass, near Patuli, every week.</b> Because the classes are live and online, families looking for Python classes on EM Bypass, near Patuli, or online maths tuition on EM Bypass, near Patuli, get the same teacher and small batch without anyone leaving the apartment. We aim to be the best coding classes EM Bypass, near Patuli, families recommend to a neighbour.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -701,7 +723,69 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- CODING & MATHS ACROSS KOLKATA — sibling interlinking -->
+<section class="section section--paper2" id="nearby">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2>Coding &amp; maths classes across Kolkata</h2>
+      <p>We teach the same live classes into apartment communities all over Kolkata. If you have friends or family in another complex, point them to their own neighbourhood page.</p>
+    </div>
+    <div class="nearby-grid">
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-upohar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Upohar</b>, Chak Garia</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Urbana</b>, Anandapur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Avidipta</b>, Mukundapur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-udayan-condoville-em-bypass">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Udayan The Condoville</b>, EM Bypass</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Natural City</b>, Garia</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sugam-habitat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Sugam Habitat</b>, Picnic Garden</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Sherwood Estate</b>, Narendrapur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>South City</b>, Prince Anwar Shah Road</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Diamond City South</b>, Tollygunge</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-ideal-niketan-tangra">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Ideal Niketan</b>, Tangra</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Coding classes near <b>Uniworld City</b>, New Town</span>
+      </a>
+    </div>
+    <p class="nearby-hub">Not on this list? See our full guide to the <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">best coding classes in Kolkata</a>.</p>
+  </div>
+</section>
+
 </main>
+
+<div class="mobile-cta">
+  <a class="btn btn-primary" href="#demo">Book a free demo</a>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -750,6 +834,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Hiland Park, EM Bypass near Patuli.",
       "areaServed": [
         {"@type":"Place","name":"Hiland Park, EM Bypass, Kolkata"},
@@ -796,6 +881,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child studies at a Bypass or Patuli CBSE/ICSE school — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the CBSE and ICSE syllabi at schools along the EM Bypass, such as Delhi Public School Ruby Park and Riverdale High School, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you offer coding classes for kids near Hiland Park and the rest of EM Bypass?","acceptedAnswer":{"@type":"Answer","text":"Yes — we run coding classes for kids near Hiland Park and across the EM Bypass, near Patuli, every week. Because the classes are live and online, families looking for Python classes on EM Bypass, near Patuli, or online maths tuition on EM Bypass, near Patuli, get the same teacher and small batch without anyone leaving the apartment. We aim to be the best coding classes EM Bypass, near Patuli, families recommend to a neighbour."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

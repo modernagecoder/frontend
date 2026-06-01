@@ -24,7 +24,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 ## Built for New Town: a planned township deserves planned learning
 
-Hiland Willows is one of the calmer addresses of New Town — nine towers, fourteen floors apiece, set across a green five-acre cluster in Action Area II, a short hop from Eco Park and City Centre New Town. The township has wide roads, clean air and clubhouses inside the gate. What it does not have inside the gate is the cluster of established coding and maths centres, most of which still sit a long drive away in South and central Kolkata. Modern Age Coders closes that distance: your child joins a real teacher and a small batch from the flat at Hiland Willows — no school-run down Major Arterial Road, no hour lost to the Chingrighata or VIP Road jams that swallow a New Town family's evening.
+Hiland Willows is one of the calmer addresses of New Town — nine towers, fourteen floors apiece, set across a green five-acre cluster in Action Area II, a short hop from Eco Park and City Centre New Town. The township has wide roads, clean air and clubhouses inside the gate. What it does not have inside the gate is the cluster of established coding and maths centres, most of which still sit a long drive away in South and central Kolkata. Modern Age Coders closes that distance with coding classes for kids near Hiland Willows and some of the best coding classes New Town families can find — including beginner-friendly Python classes in New Town and online maths tuition for New Town children: your child joins a real teacher and a small batch from the flat at Hiland Willows — no school-run down Major Arterial Road, no hour lost to the Chingrighata or VIP Road jams that swallow a New Town family's evening.
 
 Hiland Willows in brief:
 
@@ -105,7 +105,22 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Love wall (reviews): /love
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
-- Coding classes near Hiland Park: /coding-classes-in-hiland-park
-- Coding classes near Urbana: /coding-classes-in-urbana
+
+## Other Kolkata neighbourhoods
+
+Coding and maths classes for families in nearby townships and gated complexes, starting with New Town and the addresses closest to Hiland Willows:
+
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Sukhobrishti, Action Area III: /coding-classes-in-sukhobrishti
+- Coding classes near Rosedale Garden, New Town: /coding-classes-in-rosedale-garden
+- Coding classes near DLF New Town Heights, New Town: /coding-classes-in-dlf-new-town-heights
+- Coding classes near Elita Garden Vista, New Town: /coding-classes-in-elita-garden-vista
+- Coding classes near Diamond City North, VIP Road: /coding-classes-in-diamond-city-north
+- Coding classes near Urbana, EM Bypass: /coding-classes-in-urbana
+- Coding classes near Hiland Park, EM Bypass: /coding-classes-in-hiland-park
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Godrej Prakriti, Sodepur: /coding-classes-in-godrej-prakriti
+- Coding classes near Siddha Town, Madhyamgram: /coding-classes-in-siddha-town-madhyamgram
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Hiland Willows and New Town, Action Area II. For ages 6 to 65.

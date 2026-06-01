@@ -296,6 +296,24 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;z-index:100}
 .skip:focus{left:0}
+
+/* nearby neighbourhoods — internal-link mesh */
+.nearby{border-top:1px solid var(--line)}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:0;margin-top:32px;border:1px solid var(--line);background:var(--white)}
+.nearby-grid a{display:flex;align-items:center;gap:12px;padding:18px 20px;color:var(--ink);font-weight:500;font-size:var(--step--1);border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .15s ease,color .15s ease}
+.nearby-grid a:hover,.nearby-grid a:focus-visible{background:rgba(14,107,96,.06);color:var(--teal-d);text-decoration:none}
+.nearby-grid a svg{width:17px;height:17px;flex:0 0 auto;color:var(--gold)}
+.nearby-grid a b{font-family:"Newsreader";font-weight:600}
+.nearby-all{margin-top:22px;font-size:var(--step--1);color:var(--ink-2)}
+.nearby-all a{font-weight:600;color:var(--teal-d)}
+
+/* mobile sticky CTA bar */
+.sticky-cta{display:none}
+@media (max-width:759.98px){
+  .sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(244,241,234,.94);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(14px,4vw,20px);padding-bottom:calc(10px + env(safe-area-inset-bottom))}
+  .sticky-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:74px}
+}
 </style>
 </head>
 
@@ -392,7 +410,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Anandapur</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:18ch;font-weight:500">Forty floors up is no place to start a school run.</h2>
       <p style="margin-top:20px" class="lede">Urbana's families live high above one of Kolkata's busiest junctions. Between the Ruby crossing and the EM Bypass, an after-school drive to a coaching centre and back can swallow the entire evening — and the lift queue has not even started.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from the apartment itself — no car, no Bypass, no waiting. The maths we teach maps to the boards Anandapur children actually study, including the ICSE and CBSE paths and the international framework at schools nearby such as The Heritage School, Calcutta International School and DPS Ruby Park, so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from the apartment itself — no car, no Bypass, no waiting. Parents looking for coding classes for kids near Urbana, or for the best coding classes in Anandapur, EM Bypass without the evening commute, get exactly that: Python classes in Anandapur, EM Bypass and online maths tuition in Anandapur, EM Bypass, delivered straight into the tower. The maths we teach maps to the boards Anandapur children actually study, including the ICSE and CBSE paths and the international framework at schools nearby such as The Heritage School, Calcutta International School and DPS Ruby Park, so class work and tuition pull in the same direction.</p>
       <blockquote class="pullquote">For a family that already travels, an online class is the one that follows the child — same teacher, same batch, wherever the week takes you.</blockquote>
     </div>
     <div>
@@ -646,6 +664,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you offer coding classes for kids near Urbana and Anandapur specifically?</summary>
+        <p><b>Yes.</b> Families across Anandapur and the EM Bypass join us for live coding classes for kids near Urbana, Python classes in Anandapur, EM Bypass, and online maths tuition in Anandapur, EM Bypass. Because every class is delivered online into your tower, there is no travel to a centre — you get what many parents are looking for when they search for the best coding classes in Anandapur, EM Bypass, without the evening commute.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -704,7 +726,37 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY NEIGHBOURHOODS — internal-link mesh -->
+<section class="section nearby" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h">Coding &amp; maths classes across Kolkata</h2>
+      <p>We teach live online into apartment complexes all over Kolkata. If you have neighbours or family in another tower, here is where to find their nearest page.</p>
+    </div>
+    <nav class="nearby-grid" aria-label="Coding classes in other Kolkata neighbourhoods">
+      <a href="https://learn.modernagecoders.com/coding-classes-in-upohar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Upohar</b>, Chak Garia</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-hiland-park"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Hiland Park</b>, EM Bypass</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-udayan-condoville-em-bypass"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Udayan The Condoville</b>, EM Bypass</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Avidipta</b>, Mukundapur</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Natural City</b>, Garia</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Sherwood Estate</b>, Narendrapur</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-ideal-niketan-tangra"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Ideal Niketan</b>, Tangra</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-sugam-habitat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Sugam Habitat</b>, Picnic Garden</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-south-city"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>South City</b>, Prince Anwar Shah Road</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Uniworld City</b>, New Town</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Diamond City South</b>, Tollygunge</a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-elita-garden-vista"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg> Coding classes near <b>Elita Garden Vista</b>, New Town</a>
+    </nav>
+    <p class="nearby-all">Not on the list? See our hub for <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">the best coding classes in Kolkata</a> for every area we serve.</p>
+  </div>
+</section>
+
 </main>
+
+<a class="sticky-cta" href="#demo" aria-label="Book a free demo">
+  <span class="btn btn-gold">Book a free demo</span>
+</a>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -753,6 +805,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families in Urbana, Anandapur off EM Bypass.",
       "areaServed": [
         {"@type":"Place","name":"Urbana, Anandapur, EM Bypass, Kolkata"},
@@ -799,6 +852,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"We travel often — can the classes keep up?","acceptedAnswer":{"@type":"Answer","text":"Yes. Your child keeps the same teacher and batch wherever you are, and every session is recorded, so travel or a relocation never means starting over with someone new."}},
         {"@type":"Question","name":"My child is at The Heritage School, Calcutta International or DPS Ruby Park — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the ICSE and CBSE paths and the international framework that Anandapur schools follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you offer coding classes for kids near Urbana and Anandapur specifically?","acceptedAnswer":{"@type":"Answer","text":"Yes. Families across Anandapur and the EM Bypass join us for live coding classes for kids near Urbana, Python classes in Anandapur, EM Bypass, and online maths tuition in Anandapur, EM Bypass. Because every class is delivered online into your tower, there is no travel to a centre."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

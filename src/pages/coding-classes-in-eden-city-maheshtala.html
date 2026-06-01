@@ -295,6 +295,24 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby cluster — internal-link mesh, Eden City palette */
+.nearby{border-top:1px solid var(--line)}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:32px}
+.nearby-link{display:flex;align-items:flex-start;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:16px 18px;color:var(--ink);font-size:var(--step--1);font-weight:500;line-height:1.4;transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease}
+.nearby-link:hover,.nearby-link:focus-visible{text-decoration:none;transform:translateY(-2px);box-shadow:var(--shadow);border-color:var(--peri)}
+.nearby-link svg{width:18px;height:18px;flex:0 0 auto;color:var(--peri);margin-top:2px}
+.nearby-link b{color:var(--teal-d);font-weight:600}
+.nearby-all{margin-top:26px;font-size:var(--step--1);color:var(--ink-2)}
+@media (prefers-reduced-motion: reduce){.nearby-link:hover,.nearby-link:focus-visible{transform:none}}
+
+/* mobile-only sticky bottom CTA bar */
+.sticky-cta{display:none}
+@media (max-width:759px){
+  .sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(246,245,241,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(16px,5vw,24px);padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+  .sticky-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:78px}
+}
 </style>
 </head>
 
@@ -389,7 +407,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Made for Eden City families</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:22ch">A whole township at home, except the coding teacher.</h2>
       <p style="margin-top:20px" class="lede">Eden City packs nearly everything a family needs onto its grounds at Sarengabad — a football field, swimming pool, gym, library and a club, behind one gate off the New Budge Budge Trunk Road. The one thing it cannot fit inside the boundary wall is a good coding and maths teacher, and that has usually meant a long ride toward the South Kolkata coaching belts.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders removes that ride. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your own tower flat — no slow crawl up the Budge Budge Trunk Road past Bata More, no evening lost in traffic toward Behala, Taratala or New Alipore. The maths we teach maps to the boards Maheshtala children study, including the West Bengal state board, CBSE and ICSE syllabi, so class work and tuition pull the same way.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders removes that ride. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your own tower flat — no slow crawl up the Budge Budge Trunk Road past Bata More, no evening lost in traffic toward Behala, Taratala or New Alipore. For parents looking for coding classes for kids near Eden City, Python classes in Maheshtala, or online maths tuition in Maheshtala, this is the same teaching without the commute. The maths we teach maps to the boards Maheshtala children study, including the West Bengal state board, CBSE and ICSE syllabi, so class work and tuition pull the same way — which is why families call us among the best coding classes Maheshtala offers from home.</p>
       <blockquote class="pullquote">For a family inside a self-contained township, the coaching class is the one errand worth never leaving home for.</blockquote>
     </div>
     <div>
@@ -646,6 +664,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you offer coding classes for kids and Python classes in Maheshtala?</summary>
+        <p><b>Yes — we run coding classes for kids near Eden City and Python classes for Maheshtala learners, all taught live online.</b> Families searching for the best coding classes in Maheshtala, or online maths tuition in Maheshtala, get the same small-batch, instructor-led teaching from home at Sarengabad — Python, Java, AI, web development and board-aligned maths, with no travel toward the city.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -704,7 +726,69 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY CLUSTER — internal-link mesh -->
+<section class="section nearby" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across Kolkata</p>
+      <h2 id="nearby-h">Coding &amp; maths classes across Kolkata</h2>
+      <p>The same live, instructor-led classes reach gated townships and apartment complexes right across the city. If you have neighbours or family elsewhere in Kolkata, here is where else we teach.</p>
+    </div>
+    <div class="nearby-grid">
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-calcutta-riverside">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Calcutta Riverside</b>, Batanagar, Maheshtala</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-greenfield-city-behala">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Greenfield City</b>, Behala</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-genexx-valley-joka">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Genexx Valley</b>, Joka</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Diamond City South</b>, Tollygunge</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Natural City</b>, Garia</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Sherwood Estate</b>, Narendrapur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avani-riverside-howrah">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Avani Riverside</b>, Shibpur, Howrah</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>South City</b>, Prince Anwar Shah Road</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Avidipta</b>, Mukundapur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Urbana</b>, Anandapur, EM Bypass</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Uniworld City</b>, New Town</span>
+      </a>
+    </div>
+    <p class="nearby-all">Looking for the bigger picture? See our overview of <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">coding classes in Kolkata</a>.</p>
+  </div>
+</section>
+
 </main>
+
+<nav class="sticky-cta" aria-label="Book a free demo">
+  <a class="btn btn-primary" href="#demo">Book a free demo</a>
+</nav>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -753,6 +837,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Eden City, Sarengabad, Maheshtala.",
       "areaServed": [
         {"@type":"Place","name":"Eden City, Sarengabad, Maheshtala, Kolkata"},
@@ -799,6 +884,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on the West Bengal board, CBSE or ICSE — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools around Maheshtala and Sarengabad follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you offer coding classes for kids and Python classes in Maheshtala?","acceptedAnswer":{"@type":"Answer","text":"Yes — we run coding classes for kids near Eden City and Python classes for Maheshtala learners, all taught live online. Families searching for the best coding classes in Maheshtala, or online maths tuition in Maheshtala, get the same small-batch, instructor-led teaching from home at Sarengabad — Python, Java, AI, web development and board-aligned maths, with no travel toward the city."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

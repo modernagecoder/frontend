@@ -291,6 +291,26 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 8px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby / cross-page interlinking */
+.nearby{margin-top:8px}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:32px}
+.nearby-grid a{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-s);padding:16px 18px;color:var(--ink);font-weight:500;font-size:var(--step--1);line-height:1.4;transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease}
+.nearby-grid a:hover,.nearby-grid a:focus-visible{text-decoration:none;transform:translateY(-2px);box-shadow:var(--shadow);border-color:var(--teal)}
+.nearby-grid a svg{width:20px;height:20px;flex:0 0 auto;color:var(--teal)}
+.nearby-grid a b{font-weight:600;color:var(--ink)}
+.nearby-grid a small{display:block;color:var(--ink-3);font-size:.78rem;font-weight:500}
+.nearby-grid a.nearby-hub{background:var(--paper-2);border-color:var(--teal)}
+.nearby-grid a.nearby-hub svg{color:var(--berry)}
+@media (prefers-reduced-motion: reduce){.nearby-grid a:hover{transform:none}}
+
+/* mobile sticky CTA bar */
+.mcta{display:none}
+@media (max-width:759.98px){
+  .mcta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--white);border-top:1px solid var(--line);padding:10px clamp(14px,4vw,20px);box-shadow:0 -8px 24px -18px rgba(21,33,28,.6)}
+  .mcta .btn{width:100%;justify-content:center}
+  body{padding-bottom:74px}
+}
 </style>
 </head>
 
@@ -385,7 +405,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Chak Garia</p>
       <h2 style="font-size:var(--step-3);margin-top:14px;max-width:20ch">A settled community deserves a settled class routine.</h2>
       <p style="margin-top:20px" class="lede">Upohar is one of South Kolkata's established communities — families who have lived here for years, with school runs and work timed to the minute. Adding a coaching-centre trip down the EM Bypass, in Garia traffic, is the one thing the weekly routine cannot easily absorb.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from home, inside the Condoville — no auto, no Bypass, no waiting at the gate. The maths we teach maps to the boards children here actually study, including the ICSE, ISC and CBSE syllabi at schools along the Bypass and Garia belt such as DPS Megacity and Welland Gouldsmith, so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders is a live, online school based in Kolkata. Your child joins a real teacher and a small batch from home, inside the Condoville — no auto, no Bypass, no waiting at the gate. Families look us up as the best coding classes in Chak Garia, EM Bypass, and that is exactly the gap we fill: coding classes for kids near Upohar, Python classes for Chak Garia, EM Bypass teens, and online maths tuition for Chak Garia, EM Bypass students, all from one settled weekly slot. The maths we teach maps to the boards children here actually study, including the ICSE, ISC and CBSE syllabi at schools along the Bypass and Garia belt such as DPS Megacity and Welland Gouldsmith, so class work and tuition pull in the same direction.</p>
       <blockquote class="pullquote">The best coding class is the one that fits a busy family's week — not the one that adds another trip to it.</blockquote>
     </div>
     <div>
@@ -639,6 +659,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you run coding classes specifically for kids near Upohar and Chak Garia?</summary>
+        <p><b>Yes — coding classes for kids near Upohar are exactly what we do.</b> Children in Chak Garia, off EM Bypass, join age-grouped live batches in Python and visual coding from home, with online maths tuition for Chak Garia, EM Bypass families available alongside. There is no centre to travel to; the class joins your child inside the Condoville.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -697,7 +721,73 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY / CROSS-PAGE INTERLINKING -->
+<section class="section section--paper2 nearby" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h">Coding &amp; maths classes across Kolkata</h2>
+      <p>We teach live, online — so the same small batches reach families in complexes and neighbourhoods all over Kolkata. A few near Upohar, and a few further afield.</p>
+    </div>
+    <nav class="nearby-grid" aria-label="Coding classes in other Kolkata neighbourhoods">
+      <a href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Urbana</b><small>Anandapur, EM Bypass</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-hiland-park">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Hiland Park</b><small>EM Bypass, near Patuli</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-udayan-condoville-em-bypass">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Udayan The Condoville</b><small>EM Bypass</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Avidipta</b><small>Mukundapur</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Natural City</b><small>Garia</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near South City</b><small>Prince Anwar Shah Road, South Kolkata</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Sherwood Estate</b><small>Narendrapur</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Diamond City South</b><small>Tollygunge</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-sugam-habitat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Sugam Habitat</b><small>Picnic Garden</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Uniworld City</b><small>New Town</small></span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-calcutta-riverside">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-5h6v5"/></svg>
+        <span><b>Coding classes near Calcutta Riverside</b><small>Batanagar, Maheshtala</small></span>
+      </a>
+      <a class="nearby-hub" href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="10" r="3"/><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11Z"/></svg>
+        <span><b>Best coding classes in Kolkata</b><small>See our city-wide hub</small></span>
+      </a>
+    </nav>
+  </div>
+</section>
+
 </main>
+
+<!-- mobile sticky CTA -->
+<div class="mcta">
+  <a class="btn btn-berry" href="#demo">Book a free demo</a>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -746,6 +836,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families in Upohar, Chak Garia off EM Bypass.",
       "areaServed": [
         {"@type":"Place","name":"Upohar, Chak Garia, EM Bypass, Kolkata"},
@@ -792,6 +883,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child studies at a Bypass or Garia ICSE/CBSE school — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the ICSE, ISC and CBSE syllabi at schools along the EM Bypass and Garia belt, such as DPS Megacity and Welland Gouldsmith, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you run coding classes specifically for kids near Upohar and Chak Garia?","acceptedAnswer":{"@type":"Answer","text":"Yes — coding classes for kids near Upohar are exactly what we do. Children in Chak Garia, off EM Bypass, join age-grouped live batches in Python and visual coding from home, with online maths tuition for Chak Garia, EM Bypass families available alongside. There is no centre to travel to; the class joins your child inside the Condoville."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

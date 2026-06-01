@@ -33,7 +33,7 @@ Hiland Park in numbers:
 - Metropolis Mall on the complex, two minutes from the lobby
 - 0 km your child travels — the class comes home
 
-The maths we teach maps to the boards children here actually study, including the CBSE and ICSE syllabi at schools along the Bypass such as Delhi Public School Ruby Park and Riverdale High School. Close to the New Garia (Kavi Subhash) metro, Peerless Hospital and Patuli, Hiland Park is well connected — but for a weekly class, the most convenient option is the one with no journey at all.
+We run coding classes for kids near Hiland Park and Python classes on EM Bypass, near Patuli, alongside online maths tuition on EM Bypass, near Patuli — the same teacher, the same week, with nobody leaving the tower. For families comparing options, we aim to be the best coding classes EM Bypass, near Patuli, recommend to a neighbour. The maths we teach maps to the boards children here actually study, including the CBSE and ICSE syllabi at schools along the Bypass such as Delhi Public School Ruby Park and Riverdale High School. Close to the New Garia (Kavi Subhash) metro, Peerless Hospital and Patuli, Hiland Park is well connected — but for a weekly class, the most convenient option is the one with no journey at all.
 
 ## How we teach: fundamentals first, tools second, understanding always
 
@@ -90,6 +90,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child studies at a Bypass or Patuli CBSE/ICSE school — will the maths match? Yes. Our maths teaching maps to the CBSE and ICSE syllabi at schools along the EM Bypass, such as Delhi Public School Ruby Park and Riverdale High School.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you offer coding classes for kids near Hiland Park and the rest of EM Bypass? Yes — we run coding classes for kids near Hiland Park and across the EM Bypass, near Patuli, every week. Families looking for Python classes on EM Bypass, near Patuli, or online maths tuition on EM Bypass, near Patuli, get the same teacher and small batch without leaving the apartment.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -104,5 +105,20 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
 - Coding classes near Upohar: /coding-classes-in-upohar
 - Coding classes near Urbana: /coding-classes-in-urbana
+
+## Coding and maths classes in other Kolkata neighbourhoods
+
+- Coding classes near Upohar, Chak Garia: /coding-classes-in-upohar
+- Coding classes near Urbana, Anandapur: /coding-classes-in-urbana
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Udayan The Condoville, EM Bypass: /coding-classes-in-udayan-condoville-em-bypass
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Sugam Habitat, Picnic Garden: /coding-classes-in-sugam-habitat
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Ideal Niketan, Tangra: /coding-classes-in-ideal-niketan-tangra
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Best coding classes in Kolkata (full guide): /best-coding-class-in-kolkata
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Hiland Park and the EM Bypass, near Patuli. For ages 6 to 65.

@@ -302,6 +302,26 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 6px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby neighbourhoods — internal-link mesh */
+.nearby{background:var(--paper-2);border-top:1px solid var(--line)}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:30px}
+.nearby-link{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-left:3px solid var(--teal);border-radius:var(--radius);padding:15px 18px;color:var(--ink);font-weight:500;font-size:var(--step--1);line-height:1.4;transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease}
+.nearby-link:hover{text-decoration:none;transform:translateY(-2px);box-shadow:var(--shadow);border-left-color:var(--crimson)}
+.nearby-link:focus-visible{text-decoration:none}
+.nearby-link svg{width:18px;height:18px;flex:0 0 auto;color:var(--teal)}
+.nearby-link:hover svg{color:var(--crimson)}
+.nearby-link span b{font-weight:700;color:var(--teal-d)}
+.nearby-all{margin-top:26px;font-size:var(--step--1);color:var(--ink-2)}
+.nearby-all a{font-weight:600;color:var(--crimson-d)}
+
+/* mobile sticky bottom CTA bar */
+.mobile-cta{display:none}
+@media (max-width:759.98px){
+  .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(246,244,238,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(14px,4vw,20px);box-shadow:0 -8px 24px -16px rgba(26,24,21,.55)}
+  .mobile-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:74px}
+}
 </style>
 </head>
 
@@ -396,7 +416,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Garia &amp; Tollygunge</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:20ch">Garia is well-connected — and the shortest route to a great class is still no route.</h2>
       <p style="margin-top:20px" class="lede">Garia and Tollygunge sit at the busy southern edge of Kolkata, where the Blue Line metro ends and the EM Bypass, NSC Bose Road and the Sonarpur railway feed thousands of commuters in and out each day. It is well connected — but a good coding or maths class often still means an evening crawl through that very traffic.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders removes the trip entirely. We are a live, online school based in Kolkata: from a flat near Natural City, off Mahanayak Uttam Kumar Sarani, your child joins a real teacher and a small batch without leaving home. The maths we teach maps to the boards South Kolkata families study — the West Bengal state board, CBSE and ICSE syllabi followed at schools like BDM International, The Modern Academy and Riverdale High — so class work and tuition pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders removes the trip entirely. We are a live, online school based in Kolkata: from a flat near Natural City, off Mahanayak Uttam Kumar Sarani, your child joins a real teacher and a small batch without leaving home. Families looking for coding classes for kids near Natural City, Python classes in Garia, or online maths tuition in Garia get city-quality teaching at home — and the maths we teach maps to the boards South Kolkata families study, the West Bengal state board, CBSE and ICSE syllabi followed at schools like BDM International, The Modern Academy and Riverdale High, so class work and tuition pull in the same direction. For many parents weighing up the best coding classes in Garia, that combination of live teaching and zero travel is what tips the decision.</p>
       <blockquote class="pullquote">In a neighbourhood this well-connected, the smartest commute to class is the one you never make.</blockquote>
     </div>
     <div>
@@ -650,6 +670,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you offer coding classes for kids and Python classes in Garia?</summary>
+        <p><b>Yes — we run live Python classes and beginner-friendly coding classes for kids near Natural City, Garia.</b> Children start with playful, visual coding and move into real Python; teens and adults can go further into Java, web development and AI. We also run online maths tuition for Garia families alongside the coding tracks, so a child can learn both with the same school. Many parents searching for the best coding classes in Garia simply book a free demo first and decide from there.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -708,7 +732,73 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY NEIGHBOURHOODS — internal-link mesh -->
+<section class="section nearby" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Coding &amp; maths classes across Kolkata</p>
+      <h2 id="nearby-h">Live classes for families in your part of the city.</h2>
+      <p>The same live, instructor-led coding and maths classes reach homes right across Kolkata — South Kolkata, the EM Bypass and New Town included. Find the gated community or neighbourhood nearest you.</p>
+    </div>
+    <div class="nearby-grid">
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>South City</b>, Prince Anwar Shah Road</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-hiland-park">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Hiland Park</b>, EM Bypass</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-upohar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Upohar</b>, Chak Garia</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Avidipta</b>, Mukundapur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Diamond City South</b>, Tollygunge</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Sherwood Estate</b>, Narendrapur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-udayan-condoville-em-bypass">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Udayan The Condoville</b>, EM Bypass</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Urbana</b>, Anandapur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sugam-habitat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Sugam Habitat</b>, Picnic Garden</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-ideal-niketan-tangra">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Ideal Niketan</b>, Tangra</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Uniworld City</b>, New Town</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-greenfield-city-behala">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Coding classes near <b>Greenfield City</b>, Behala</span>
+      </a>
+    </div>
+    <p class="nearby-all">Not on the list? We teach live across the whole city — start at <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">coding classes in Kolkata</a>.</p>
+  </div>
+</section>
+
 </main>
+
+<div class="mobile-cta">
+  <a class="btn btn-crimson" href="#demo">Book a free demo</a>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -757,6 +847,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families in Garia, Tollygunge and around Natural City, South Kolkata.",
       "areaServed": [
         {"@type":"Place","name":"Natural City, Garia, Kolkata"},
@@ -804,6 +895,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on the West Bengal board, CBSE or ICSE — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools across Garia and Tollygunge follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you offer coding classes for kids and Python classes in Garia?","acceptedAnswer":{"@type":"Answer","text":"Yes — we run live Python classes and beginner-friendly coding classes for kids near Natural City, Garia. Children start with playful, visual coding and move into real Python; teens and adults can go further into Java, web development and AI. We also run online maths tuition for Garia families alongside the coding tracks, so a child can learn both with the same school."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

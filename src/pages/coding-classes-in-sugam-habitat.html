@@ -294,6 +294,25 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 6px 0;z-index:100}
 .skip:focus{left:0}
+
+/* sibling neighbourhood links — same identity */
+.nbh-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:32px}
+.nbh{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:15px 18px;color:var(--ink-2);font-size:var(--step--1);font-weight:500;transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease}
+.nbh:hover{text-decoration:none;border-color:var(--teal);transform:translateY(-2px);box-shadow:var(--shadow);color:var(--ink)}
+.nbh:focus-visible{border-color:var(--teal)}
+.nbh svg{width:17px;height:17px;flex:0 0 auto;color:var(--graphite)}
+.nbh b{font-weight:600;color:var(--ink)}
+.nbh-all{margin-top:24px;font-size:var(--step--1);color:var(--ink-2)}
+.nbh-all a{font-weight:600;color:var(--teal-d)}
+@media (prefers-reduced-motion: reduce){.nbh:hover{transform:none}}
+
+/* mobile-only sticky bottom CTA */
+.sticky-cta{display:none}
+@media (max-width:759px){
+  .sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(247,245,239,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(16px,5vw,24px);padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+  .sticky-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:74px}
+}
 </style>
 </head>
 
@@ -401,7 +420,7 @@ img,svg{max-width:100%;display:block}
       <!-- Verified: Sugam Habitat by Sugam Homes — 346 units across 7 blocks (B+G+7) on ~5.7 acres,
            IGBC Gold pre-certified, on Picnic Garden Road, Tiljala (pin 700039). EM Bypass at doorstep;
            Park Circus station ~1.8 km, Ballygunge Junction ~1.4 km; near Science City. -->
-      <p style="margin-top:16px;font-size:var(--step--1);color:var(--ink-3)">A short walk from Science City and the Bypass, with reputed schools such as Calcutta International School and St. Mary's nearby, Sugam Habitat already has the location — a live-online class simply removes the one trip that location can't fix: the drive to a good teacher.</p>
+      <p style="margin-top:16px;font-size:var(--step--1);color:var(--ink-3)">A short walk from Science City and the Bypass, with reputed schools such as Calcutta International School and St. Mary's nearby, Sugam Habitat already has the location — a live-online class simply removes the one trip that location can't fix: the drive to a good teacher. For families searching for coding classes for kids near Sugam Habitat, Python classes Picnic Garden children can join from home, or online maths tuition Picnic Garden parents can sit beside, the class now arrives in the living room.</p>
     </div>
   </div>
 </section>
@@ -635,6 +654,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you offer coding and maths for kids near Sugam Habitat and across Picnic Garden?</summary>
+        <p><b>Yes — we run coding classes for kids near Sugam Habitat and the wider Picnic Garden and Tiljala area, taught live from Kolkata.</b> Families looking for the best coding classes Picnic Garden has access to, Python classes Picnic Garden children can join from home, or online maths tuition Picnic Garden parents can supervise, all start the same way: a free live demo, with no travel up Picnic Garden Road.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -693,7 +716,37 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- ACROSS KOLKATA — sibling neighbourhood interlinks -->
+<section class="section section--paper2" id="across-kolkata">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2>Coding &amp; maths classes across Kolkata</h2>
+      <p>Live, instructor-led coding and maths classes reach families in apartment complexes right across Kolkata. If you know neighbours near Picnic Garden or elsewhere in the city, here is where they can start.</p>
+    </div>
+    <div class="nbh-grid">
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-urbana"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Urbana</b>, Anandapur, EM Bypass</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-upohar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Upohar</b>, Chak Garia, EM Bypass</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-hiland-park"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Hiland Park</b>, EM Bypass, Patuli</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Avidipta</b>, Mukundapur</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-ideal-niketan-tangra"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Ideal Niketan</b>, Tangra</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-udayan-condoville-em-bypass"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Udayan The Condoville</b>, EM Bypass</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-south-city"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>South City</b>, Prince Anwar Shah Road</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Natural City</b>, Garia</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Diamond City South</b>, Tollygunge</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-avani-riverside-howrah"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Avani Riverside</b>, Shibpur, Howrah</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Uniworld City</b>, New Town</a>
+      <a class="nbh" href="https://learn.modernagecoders.com/coding-classes-in-rosedale-garden"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg> Coding classes near <b>Rosedale Garden</b>, New Town</a>
+    </div>
+    <p class="nbh-all">Looking for the wider picture? See <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">the best coding classes in Kolkata</a> for every age and track.</p>
+  </div>
+</section>
+
 </main>
+
+<aside class="sticky-cta" aria-label="Book a free demo">
+  <a class="btn btn-primary" href="#demo">Book a free demo</a>
+</aside>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -742,6 +795,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Sugam Habitat, Picnic Garden, Tiljala.",
       "areaServed": [
         {"@type":"Place","name":"Sugam Habitat, Picnic Garden Road, Tiljala, Kolkata"},
@@ -788,6 +842,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on the West Bengal board, CBSE or ICSE — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools around Picnic Garden and Tiljala follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you offer coding and maths for kids near Sugam Habitat and across Picnic Garden?","acceptedAnswer":{"@type":"Answer","text":"Yes — we run coding classes for kids near Sugam Habitat and the wider Picnic Garden and Tiljala area, taught live from Kolkata. Families looking for the best coding classes Picnic Garden has access to, Python classes Picnic Garden children can join from home, or online maths tuition Picnic Garden parents can supervise, all start the same way: a free live demo, with no travel up Picnic Garden Road."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

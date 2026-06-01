@@ -33,7 +33,7 @@ Calcutta Riverside in brief:
 - Batanagar — the historic Bata township, reborn as an integrated development
 - 0 km your child travels — the class comes home
 
-The maths we teach maps to the boards children in Maheshtala study, including the West Bengal state board, CBSE and ICSE syllabi. Built on the old Bata factory land at Batanagar and now an integrated riverfront township, Calcutta Riverside has nearly everything within it — and a live-online class adds the one thing that used to mean a trip out: a good teacher.
+Whether you are after coding classes for kids near Calcutta Riverside, Python classes in Batanagar, Maheshtala, online maths tuition in Batanagar, Maheshtala, or simply the best coding classes Batanagar, Maheshtala families can join, every session arrives in your living room. The maths we teach maps to the boards children in Maheshtala study, including the West Bengal state board, CBSE and ICSE syllabi. Built on the old Bata factory land at Batanagar and now an integrated riverfront township, Calcutta Riverside has nearly everything within it — and a live-online class adds the one thing that used to mean a trip out: a good teacher.
 
 ## How we teach: fundamentals first, tools second, understanding always
 
@@ -102,7 +102,19 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Love wall (reviews): /love
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
-- Coding classes near South City: /coding-classes-in-south-city
-- Coding classes near Hiland Park: /coding-classes-in-hiland-park
+
+## Other Kolkata neighbourhoods
+
+- Coding classes near Eden City, Maheshtala: /coding-classes-in-eden-city-maheshtala
+- Coding classes near Genexx Valley, Joka: /coding-classes-in-genexx-valley-joka
+- Coding classes near Greenfield City, Behala: /coding-classes-in-greenfield-city-behala
+- Coding classes near Avani Riverside, Howrah: /coding-classes-in-avani-riverside-howrah
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Hiland Park, EM Bypass: /coding-classes-in-hiland-park
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Calcutta Riverside and Batanagar, Maheshtala. For ages 6 to 65.

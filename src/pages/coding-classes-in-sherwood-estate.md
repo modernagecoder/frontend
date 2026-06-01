@@ -35,7 +35,7 @@ Sherwood Estate in brief (from public project listings; verify exact figures):
 - Sits opposite the Narendrapur Ramakrishna Mission, under a kilometre from the EM Bypass
 - 0 km your child travels — the class comes home
 
-The maths we teach maps to the boards children in Narendrapur study, including the West Bengal state board, CBSE and ICSE syllabi. Sherwood Estate has nearly everything within its gates — and a live-online class adds the one thing that used to mean a trip out: a good teacher.
+The maths we teach maps to the boards children in Narendrapur study, including the West Bengal state board, CBSE and ICSE syllabi. For families looking for the best coding classes in Narendrapur — coding classes for kids near Sherwood Estate, Python classes for teens in Narendrapur, or online maths tuition in Narendrapur — the whole school comes home through one live screen. Sherwood Estate has nearly everything within its gates — and a live-online class adds the one thing that used to mean a trip out: a good teacher.
 
 ## How we teach: fundamentals first, tools second, understanding always
 
@@ -92,6 +92,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on the West Bengal board, CBSE or ICSE — will the maths match? Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools around Narendrapur and the EM Bypass follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you run coding classes for kids near Sherwood Estate, and Python classes in Narendrapur? Yes — we run live coding classes for kids near Sherwood Estate and Python classes for Narendrapur learners, all online, with online maths tuition in Narendrapur available alongside the coding tracks.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -104,7 +105,22 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Love wall (reviews): /love
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
-- Coding classes near Urbana: /coding-classes-in-urbana
-- Coding classes near Hiland Park: /coding-classes-in-hiland-park
+
+## Other Kolkata neighbourhoods
+
+The same live, online classes reach families across Kolkata:
+
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Hiland Park, EM Bypass: /coding-classes-in-hiland-park
+- Coding classes near Upohar, Chak Garia: /coding-classes-in-upohar
+- Coding classes near Urbana, Anandapur: /coding-classes-in-urbana
+- Coding classes near Udayan The Condoville, EM Bypass: /coding-classes-in-udayan-condoville-em-bypass
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Sugam Habitat, Picnic Garden: /coding-classes-in-sugam-habitat
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Genexx Valley, Joka: /coding-classes-in-genexx-valley-joka
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Calcutta Riverside, Batanagar: /coding-classes-in-calcutta-riverside
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Sherwood Estate and Narendrapur, off the EM Bypass. For ages 6 to 65.

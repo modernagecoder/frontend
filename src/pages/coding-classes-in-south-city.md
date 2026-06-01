@@ -24,7 +24,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 ## Built for South City: a great address still can't beat South Kolkata traffic
 
-South City has a mall and an international school on its doorstep, but a good coding teacher is rarely the thing waiting downstairs. Getting a child across Prince Anwar Shah Road, Tollygunge and the Bypass for a class, then home again, still costs a whole evening. Because Modern Age Coders is live and online, your child joins a real teacher and a small batch from the flat itself — no car, no traffic, no waiting.
+South City has a mall and an international school on its doorstep, but a good coding teacher is rarely the thing waiting downstairs. Getting a child across Prince Anwar Shah Road, Tollygunge and the Bypass for a class, then home again, still costs a whole evening. Because Modern Age Coders is live and online, your child joins a real teacher and a small batch from the flat itself — no car, no traffic, no waiting. Families searching for coding classes for kids near South City, Python classes on Prince Anwar Shah Road, South Kolkata, or the best coding classes on Prince Anwar Shah Road, South Kolkata, get the same live teaching without anyone leaving the building. We also run online maths tuition on Prince Anwar Shah Road, South Kolkata, mapped to the boards local children study.
 
 South City in numbers:
 
@@ -90,6 +90,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is at South City International or another ICSE/Cambridge school — will the maths match? Yes. Our maths teaching maps to the ICSE, ISC and Cambridge syllabi at South City International School and the ICSE and CBSE paths at schools like South Point.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you offer coding classes for kids near South City and online maths tuition on Prince Anwar Shah Road? Yes — both. We run live coding classes for kids near South City, Python classes for Prince Anwar Shah Road, South Kolkata families, and online maths tuition on Prince Anwar Shah Road, South Kolkata, all taught by a real instructor in a small live batch.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -103,5 +104,20 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
 - Coding classes near Uniworld City: /coding-classes-in-uniworld-city
+
+## Other Kolkata neighbourhoods we serve
+
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near Hiland Park, EM Bypass: /coding-classes-in-hiland-park
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Upohar, Chak Garia: /coding-classes-in-upohar
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near Udayan The Condoville, EM Bypass: /coding-classes-in-udayan-condoville-em-bypass
+- Coding classes near Sugam Habitat, Picnic Garden: /coding-classes-in-sugam-habitat
+- Coding classes near Greenfield City, Behala: /coding-classes-in-greenfield-city-behala
+- Coding classes near Genexx Valley, Joka: /coding-classes-in-genexx-valley-joka
+- Coding classes near Urbana, Anandapur: /coding-classes-in-urbana
+- Coding classes in Kolkata (all areas): /best-coding-class-in-kolkata
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving South City and Prince Anwar Shah Road, South Kolkata. For ages 6 to 65.

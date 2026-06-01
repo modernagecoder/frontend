@@ -295,6 +295,24 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 12px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby cluster — internal-link mesh (Genexx Valley identity) */
+.nearby{padding-block:clamp(48px,7vw,84px);border-top:1px solid var(--line)}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:12px;margin-top:32px}
+.nearby-link{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:15px 18px;color:var(--ink-2);font-size:var(--step--1);font-weight:500;transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease}
+.nearby-link:hover,.nearby-link:focus-visible{text-decoration:none;transform:translateY(-2px);border-color:var(--cobalt);box-shadow:var(--shadow);color:var(--ink)}
+.nearby-link svg{width:17px;height:17px;flex:0 0 auto;color:var(--cobalt)}
+.nearby-link b{color:var(--ink);font-weight:600}
+.nearby-all{margin-top:26px;font-size:var(--step--1);color:var(--ink-2)}
+@media (prefers-reduced-motion: reduce){.nearby-link:hover,.nearby-link:focus-visible{transform:none}}
+
+/* mobile-only sticky bottom CTA */
+.mobile-cta{display:none}
+@media (max-width:759.98px){
+  .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(244,246,249,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(14px,4vw,20px) calc(10px + env(safe-area-inset-bottom))}
+  .mobile-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:78px}
+}
 </style>
 </head>
 
@@ -389,7 +407,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Joka</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:20ch">Joka just got its Metro — now it gets city-grade coding too.</h2>
       <p style="margin-top:20px" class="lede">Genexx Valley is a large gated township off Diamond Harbour Road in Joka, spread over roughly 20 acres of greens, water bodies and play areas across dozens of well-spaced blocks. It has nearly everything within its walls — what it cannot move closer is the cluster of good coding and maths centres, most of which still sit across town in South and central Kolkata.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your flat at Genexx Valley — no slow crawl up Diamond Harbour Road, no time lost crossing the city. And while the new Joka–Esplanade metro (the Purple Line, running right along Diamond Harbour Road from IIM Calcutta's Joka stop) will one day make the trip easier, a live class is here today, with zero travel either way.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your flat at Genexx Valley — no slow crawl up Diamond Harbour Road, no time lost crossing the city. Families searching for coding classes for kids near Genexx Valley, Python classes in Joka, or online maths tuition in Joka find the same thing here — among the best coding classes Joka parents can join without anyone leaving the township. And while the new Joka–Esplanade metro (the Purple Line, running right along Diamond Harbour Road from IIM Calcutta's Joka stop) will one day make the trip easier, a live class is here today, with zero travel either way.</p>
       <blockquote class="pullquote">The Joka–Esplanade line shortened the trip to town; a live class removes it for your child altogether.</blockquote>
     </div>
     <div>
@@ -635,6 +653,10 @@ img,svg{max-width:100%;display:block}
         <p><b>A laptop or desktop and a stable broadband connection are ideal.</b> A reliable home connection at Genexx Valley is enough to join a live class and share the screen; we will confirm the simple setup with you before the first session.</p>
       </details>
       <details>
+        <summary>Do you teach Python and coding to kids near Genexx Valley specifically?</summary>
+        <p><b>Yes — Python is our most popular starting point for children near Genexx Valley and across Joka.</b> Because the class is live and online, a child on Diamond Harbour Road gets the exact same Python classes, instructor and small batch as a learner anywhere in Kolkata. Teens can move on to Java, web development and AI, while online maths tuition for Joka families runs alongside, mapped to the CBSE, ICSE and West Bengal boards.</p>
+      </details>
+      <details>
         <summary>How big are the batches?</summary>
         <p><b>Group batches are kept deliberately small</b> so the teacher can give attention to each child and notice when someone needs help. If you want fully individual attention, one-to-one sessions are available.</p>
       </details>
@@ -705,7 +727,70 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY CLUSTER — internal link mesh -->
+<section class="section nearby" id="nearby" aria-labelledby="nearby-head">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-head" style="font-size:var(--step-3);margin-top:16px">Coding &amp; maths classes across Kolkata</h2>
+      <p>We teach families well beyond Joka. Because every class is live and online, the same instructors and small batches reach gated complexes right across Kolkata. If you have neighbours, cousins or colleagues in any of these, send them our way.</p>
+    </div>
+    <div class="nearby-grid">
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-calcutta-riverside">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Calcutta Riverside</b>, Batanagar</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-eden-city-maheshtala">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Eden City</b>, Maheshtala</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-greenfield-city-behala">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Greenfield City</b>, Behala</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Diamond City South</b>, Tollygunge</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Natural City</b>, Garia</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Sherwood Estate</b>, Narendrapur</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avani-riverside-howrah">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Avani Riverside</b>, Howrah</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>South City</b>, Prince Anwar Shah Road</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sugam-habitat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Sugam Habitat</b>, Picnic Garden</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Urbana</b>, EM Bypass</span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg>
+        <span>Coding classes near <b>Uniworld City</b>, New Town</span>
+      </a>
+    </div>
+    <p class="nearby-all">Looking for the bigger picture? See our hub for <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">coding classes in Kolkata</a>.</p>
+  </div>
+</section>
+
 </main>
+
+<!-- mobile-only sticky bottom CTA -->
+<div class="mobile-cta" aria-hidden="false">
+  <a class="btn btn-primary" href="#demo">Book a free demo</a>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -754,6 +839,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Genexx Valley, Joka, on Diamond Harbour Road.",
       "areaServed": [
         {"@type":"Place","name":"Genexx Valley, Joka, Kolkata"},
@@ -797,6 +883,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"What ages do you teach?","acceptedAnswer":{"@type":"Answer","text":"Children, teens and adults — roughly ages 6 to 65. Younger children begin with visual coding and age-appropriate maths; teens move into Python, Java, web development and AI; adults and college students can start fresh or go deep."}},
         {"@type":"Question","name":"We live at Genexx Valley, Joka — away from the city centres. Can we still join?","acceptedAnswer":{"@type":"Answer","text":"Yes — location makes no difference for a live-online class. Your child joins the same teacher and batch as a family in central Kolkata, straight from your Genexx Valley flat, with no travel up Diamond Harbour Road at all."}},
         {"@type":"Question","name":"What device and internet do we need at home?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop and a stable broadband connection are ideal. A reliable home connection at Genexx Valley is enough to join a live class and share the screen."}},
+        {"@type":"Question","name":"Do you teach Python and coding to kids near Genexx Valley specifically?","acceptedAnswer":{"@type":"Answer","text":"Yes — Python is our most popular starting point for children near Genexx Valley and across Joka. Because the class is live and online, a child on Diamond Harbour Road gets the exact same Python classes, instructor and small batch as a learner anywhere in Kolkata. Teens can move on to Java, web development and AI, while online maths tuition for Joka families runs alongside, mapped to the CBSE, ICSE and West Bengal boards."}},
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on the CBSE, ICSE or West Bengal board — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the CBSE, ICSE and West Bengal state board syllabi that Joka schools follow, from Kendriya Vidyalaya at IIM Calcutta to the ICSE schools nearby, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},

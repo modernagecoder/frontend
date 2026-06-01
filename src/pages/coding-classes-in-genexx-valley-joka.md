@@ -24,7 +24,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 ## Built for Joka: city-quality teaching, without the trip into the city
 
-Genexx Valley is a large gated township off Diamond Harbour Road in Joka, spread over roughly 20 acres of greens, water bodies and play areas across dozens of well-spaced blocks. It has nearly everything within its walls — what it cannot move closer is the cluster of good coding and maths centres, most of which still sit across town in South and central Kolkata. Modern Age Coders closes that gap: your child joins a real teacher and a small batch from your flat at Genexx Valley — no slow crawl up Diamond Harbour Road, no time lost crossing the city.
+Genexx Valley is a large gated township off Diamond Harbour Road in Joka, spread over roughly 20 acres of greens, water bodies and play areas across dozens of well-spaced blocks. It has nearly everything within its walls — what it cannot move closer is the cluster of good coding and maths centres, most of which still sit across town in South and central Kolkata. Modern Age Coders closes that gap: your child joins a real teacher and a small batch from your flat at Genexx Valley — no slow crawl up Diamond Harbour Road, no time lost crossing the city. Families looking for coding classes for kids near Genexx Valley, Python classes in Joka, online maths tuition in Joka, or simply the best coding classes Joka can offer find all of it here, live and online.
 
 Genexx Valley / Joka in brief:
 
@@ -86,6 +86,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Are the classes really live, or recorded videos? They are 100% live. A real instructor teaches each class in real time and can see your child's work. Recordings exist only for revision.
 - What ages do you teach? Children, teens and adults — roughly ages 6 to 65.
 - We live at Genexx Valley, Joka — away from the city centres. Can we still join? Yes — location makes no difference for a live-online class. Your child joins the same teacher and batch as a family in central Kolkata.
+- Do you teach Python and coding to kids near Genexx Valley specifically? Yes — Python is our most popular starting point for children near Genexx Valley and across Joka, with the same live instructor and small batch a child gets anywhere in Kolkata. Teens move on to Java, web development and AI, while online maths tuition for Joka families runs alongside.
 - What device and internet do we need? A laptop or desktop and a stable broadband connection are ideal.
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on the CBSE, ICSE or West Bengal board — will the maths match? Yes. Our maths teaching maps to the CBSE, ICSE and West Bengal state board syllabi that Joka schools follow.
@@ -102,7 +103,19 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Love wall (reviews): /love
 - Contact: /contact
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
-- Coding classes near South City: /coding-classes-in-south-city
-- Coding classes near Calcutta Riverside: /coding-classes-in-calcutta-riverside
+
+## Other Kolkata neighbourhoods we teach
+
+- Coding classes near Calcutta Riverside, Batanagar: /coding-classes-in-calcutta-riverside
+- Coding classes near Eden City, Maheshtala: /coding-classes-in-eden-city-maheshtala
+- Coding classes near Greenfield City, Behala: /coding-classes-in-greenfield-city-behala
+- Coding classes near Diamond City South, Tollygunge: /coding-classes-in-diamond-city-south
+- Coding classes near Natural City, Garia: /coding-classes-in-natural-city-garia
+- Coding classes near Sherwood Estate, Narendrapur: /coding-classes-in-sherwood-estate
+- Coding classes near Avani Riverside, Howrah: /coding-classes-in-avani-riverside-howrah
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Sugam Habitat, Picnic Garden: /coding-classes-in-sugam-habitat
+- Coding classes near Urbana, EM Bypass: /coding-classes-in-urbana
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Genexx Valley and Joka, Diamond Harbour Road. For ages 6 to 65.

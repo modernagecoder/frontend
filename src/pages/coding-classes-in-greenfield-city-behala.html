@@ -306,6 +306,28 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 12px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby-cluster interlinking — uses page's teal/slate identity */
+.nearby{background:var(--paper-2);border-top:1px solid var(--line)}
+.nearby .section-head p{color:var(--ink-2)}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-top:32px}
+.nearby-link{display:flex;align-items:center;gap:12px;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:15px 18px;color:var(--ink);font-weight:500;font-size:var(--step--1);transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease;border-left:3px solid var(--slate)}
+.nearby-link:hover,.nearby-link:focus-visible{text-decoration:none;transform:translateY(-2px);border-color:var(--slate);box-shadow:var(--shadow)}
+.nearby-link svg{width:17px;height:17px;flex:0 0 auto;color:var(--slate-d)}
+.nearby-link span{line-height:1.35}
+.nearby-link b{display:block;font-family:"Sora";font-weight:600;color:var(--ink)}
+.nearby-link small{color:var(--ink-3);font-size:.78rem}
+.nearby-link--pillar{border-left-color:var(--teal)}
+.nearby-link--pillar svg{color:var(--teal)}
+@media (prefers-reduced-motion: reduce){.nearby-link:hover,.nearby-link:focus-visible{transform:none}}
+
+/* mobile-only sticky bottom CTA */
+.sticky-cta{display:none}
+@media (max-width:759px){
+  .sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(246,242,234,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(16px,5vw,24px) calc(10px + env(safe-area-inset-bottom,0px))}
+  .sticky-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:78px}
+}
 </style>
 </head>
 
@@ -653,6 +675,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes &mdash; our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
       <details>
+        <summary>Do you offer Python and maths classes specifically for Behala families?</summary>
+        <p><b>Yes.</b> We run live Python classes for Behala learners and online maths tuition for Behala children every week, with coding classes for kids near Greenfield City, James Long Sarani and Behala Chowrasta joining the same small batches as students elsewhere in Kolkata. Whether you want beginner Python, Java for ICSE/ISC, or board-aligned maths, it is among the best coding classes Behala parents can join without sending a child across the city.</p>
+      </details>
+      <details>
         <summary>How do we get started?</summary>
         <p><b>Book a free demo using the form on this page, or call +91 91233 66161.</b> We will suggest the right level for your child and a class time that fits your week.</p>
       </details>
@@ -711,7 +737,73 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY / CROSS-CLUSTER INTERLINKING -->
+<section class="section nearby" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h" style="font-size:var(--step-3);margin-top:16px;font-weight:600">Coding &amp; maths classes across Kolkata</h2>
+      <p>The same live teachers and small batches reach families well beyond Behala. If you are near one of these townships and apartment complexes, start here.</p>
+    </div>
+    <nav class="nearby-grid" aria-label="Coding classes in other Kolkata neighbourhoods">
+      <a class="nearby-link nearby-link--pillar" href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg>
+        <span><b>Coding classes in Kolkata</b><small>Citywide live online school</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-genexx-valley-joka">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Genexx Valley, Joka</b><small>Next stop down the Purple Line</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-calcutta-riverside">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Calcutta Riverside, Batanagar</b><small>Maheshtala riverside township</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-eden-city-maheshtala">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Eden City, Maheshtala</b><small>Just across Behala</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-south">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Diamond City South, Tollygunge</b><small>A short way up the line</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near South City, Prince Anwar Shah Road</b><small>South Kolkata</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Avidipta, Mukundapur</b><small>EM Bypass / South-East</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-natural-city-garia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Natural City, Garia</b><small>South Kolkata</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sherwood-estate">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Sherwood Estate, Narendrapur</b><small>South-East Kolkata</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avani-riverside-howrah">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Avani Riverside, Shibpur</b><small>Across the river in Howrah</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Urbana, Anandapur</b><small>EM Bypass</small></span>
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span><b>Coding classes near Uniworld City, New Town</b><small>North-East Kolkata</small></span>
+      </a>
+    </nav>
+  </div>
+</section>
+
 </main>
+
+<!-- mobile-only sticky bottom CTA -->
+<div class="sticky-cta">
+  <a class="btn btn-primary" href="#demo">Book a free demo</a>
+</div>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -760,6 +852,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Greenfield City, Behala.",
       "areaServed": [
         {"@type":"Place","name":"Greenfield City, Behala, Kolkata"},
@@ -806,6 +899,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on the West Bengal board, CBSE or ICSE — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the West Bengal state board (WBBSE), CBSE and ICSE syllabi that schools across Behala follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
+        {"@type":"Question","name":"Do you offer Python and maths classes specifically for Behala families?","acceptedAnswer":{"@type":"Answer","text":"Yes. We run live Python classes for Behala learners and online maths tuition for Behala children every week, with coding classes for kids near Greenfield City, James Long Sarani and Behala Chowrasta joining the same small batches as students elsewhere in Kolkata. Whether you want beginner Python, Java for ICSE/ISC, or board-aligned maths, it is among the best coding classes Behala parents can join without sending a child across the city."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
     }

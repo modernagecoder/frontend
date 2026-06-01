@@ -24,7 +24,7 @@ Book a free demo: [Call +91 91233 66161](tel:+919123366161) | [WhatsApp us](http
 
 ## Built for New Town: made for the commute, not against it
 
-Families in Uniworld City keep tight weekday schedules. Many parents work across the road at the Sector V and New Town tech parks; evenings on the Major Arterial Road and Biswa Bangla Sarani are not the time to drive a child to a coaching centre and back. Because Modern Age Coders is live and online, your child joins a real teacher and a small batch from home, inside the township — no traffic, no waiting parents, no lost evening.
+Looking for coding classes for kids near Uniworld City? Families here keep tight weekday schedules. Many parents work across the road at the Sector V and New Town tech parks; evenings on the Major Arterial Road and Biswa Bangla Sarani are not the time to drive a child to a coaching centre and back. Because Modern Age Coders is live and online, your child joins a real teacher and a small batch from home, inside the township — no traffic, no waiting parents, no lost evening. Our live Python classes for New Town learners and online maths tuition for New Town families run in the same small-batch format, so whether a child needs coding or maths, the lesson comes to the living room.
 
 Uniworld City in numbers:
 
@@ -90,7 +90,24 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child studies at a New Town CBSE or ICSE school — will the maths match? Yes. Our maths teaching maps to the CBSE and ICSE/ISC syllabi that New Town schools such as The Newtown School and DPS Newtown follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you serve other parts of New Town, or only Uniworld City? We teach families right across New Town and Rajarhat. Parents searching for the best coding classes in New Town, or for Python classes and online maths tuition for any New Town address, get the same live teaching from home.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
+
+## Coding and maths classes in other Kolkata neighbourhoods
+
+The same live, instructor-led classes reach families in apartment complexes and townships across Kolkata:
+
+- Coding classes near Sukhobrishti, New Town Action Area III: /coding-classes-in-sukhobrishti
+- Coding classes near Rosedale Garden, New Town: /coding-classes-in-rosedale-garden
+- Coding classes near DLF New Town Heights, New Town: /coding-classes-in-dlf-new-town-heights
+- Coding classes near Elita Garden Vista, New Town: /coding-classes-in-elita-garden-vista
+- Coding classes near Hiland Willows, New Town: /coding-classes-in-hiland-willows
+- Coding classes near Siddha Town, Madhyamgram: /coding-classes-in-siddha-town-madhyamgram
+- Coding classes near Diamond City North, VIP Road: /coding-classes-in-diamond-city-north
+- Coding classes near Urbana, Anandapur, EM Bypass: /coding-classes-in-urbana
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Best coding classes in Kolkata — all neighbourhoods: /best-coding-class-in-kolkata
 
 ## Contact and links
 

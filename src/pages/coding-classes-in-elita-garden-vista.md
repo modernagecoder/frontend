@@ -33,7 +33,7 @@ Elita Garden Vista in brief:
 - Set off New Town's 2nd Major Arterial Road
 - 0 km your child travels — the class comes home
 
-The maths we teach maps to the boards New Town families actually study, including CBSE, ICSE and the West Bengal state board, so what happens at Delhi Public School Newtown or Gateway International and what happens in our class pull the same way. In a tower of thirty floors, the shortest trip to a great teacher is the one that ends in your own living room.
+For parents searching for coding classes for kids near Elita Garden Vista, Python classes in New Town, or simply the best coding classes New Town can offer without a commute, this is what they look like. The maths we teach maps to the boards New Town families actually study, including CBSE, ICSE and the West Bengal state board, so what happens at Delhi Public School Newtown or Gateway International and what happens in our online maths tuition in New Town pull the same way. In a tower of thirty floors, the shortest trip to a great teacher is the one that ends in your own living room.
 
 ## How we teach: fundamentals first, tools second, understanding always
 
@@ -90,6 +90,7 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - How big are the batches? Group batches are kept deliberately small. One-to-one sessions are available for fully individual attention.
 - My child is on CBSE, ICSE or the West Bengal board — will the maths match? Yes. Our maths teaching maps to the CBSE, ICSE and West Bengal state board syllabi that schools around New Town such as Delhi Public School Newtown and Gateway International follow.
 - Do you have girls-only batches? Yes — our Queen and Princess Coders tracks are girls-only.
+- Do you run coding classes for kids near Elita Garden Vista specifically? Yes — Elita Garden Vista, Action Area III and the wider New Town area are exactly who this page is for. Families here join the same live Python classes and online maths tuition in New Town as anyone else in the city, straight from their tower.
 - How do we get started? Book a free demo on the page, or call +91 91233 66161.
 
 ## Contact and links
@@ -104,5 +105,19 @@ Both plans are billed monthly and include two live classes per week. Summer camp
 - Coding classes in Kolkata: /best-coding-class-in-kolkata
 - Coding classes near Uniworld City: /coding-classes-in-uniworld-city
 - Coding classes near Rosedale Garden: /coding-classes-in-rosedale-garden
+
+## Other Kolkata neighbourhoods
+
+- Coding classes near Uniworld City, New Town: /coding-classes-in-uniworld-city
+- Coding classes near Sukhobrishti, New Town Action Area III: /coding-classes-in-sukhobrishti
+- Coding classes near Rosedale Garden, New Town: /coding-classes-in-rosedale-garden
+- Coding classes near DLF New Town Heights, New Town: /coding-classes-in-dlf-new-town-heights
+- Coding classes near Hiland Willows, New Town: /coding-classes-in-hiland-willows
+- Coding classes near Urbana, Anandapur, EM Bypass: /coding-classes-in-urbana
+- Coding classes near Upohar, Chak Garia, EM Bypass: /coding-classes-in-upohar
+- Coding classes near Avidipta, Mukundapur: /coding-classes-in-avidipta-mukundapur
+- Coding classes near South City, Prince Anwar Shah Road: /coding-classes-in-south-city
+- Coding classes near Diamond City North, VIP Road: /coding-classes-in-diamond-city-north
+- Coding classes near Genexx Valley, Joka: /coding-classes-in-genexx-valley-joka
 
 Modern Age Coders — a live, online coding and mathematics school based in Kolkata, serving Elita Garden Vista and New Town, Action Area III. For ages 6 to 65.

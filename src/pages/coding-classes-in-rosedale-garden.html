@@ -294,6 +294,25 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 6px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby — cross-cluster internal links */
+.nearby{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:12px;margin-top:36px}
+.nearby a{display:flex;align-items:flex-start;gap:11px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:15px 17px;color:var(--ink);font-size:var(--step--1);font-weight:500;line-height:1.4;transition:transform .15s ease, border-color .15s ease, box-shadow .15s ease}
+.nearby a:hover,.nearby a:focus-visible{text-decoration:none;border-color:var(--teal);transform:translateY(-2px);box-shadow:var(--shadow)}
+.nearby a svg{width:17px;height:17px;flex:0 0 auto;color:var(--navy);margin-top:2px}
+.nearby a b{display:block;font-weight:600;color:var(--teal-d)}
+.nearby a span{display:block;color:var(--ink-3);font-size:.78rem;font-weight:500}
+@media (prefers-reduced-motion: reduce){.nearby a:hover,.nearby a:focus-visible{transform:none}}
+
+/* mobile-only sticky bottom demo CTA */
+.mobile-cta{display:none}
+@media (max-width:759.98px){
+  .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(247,244,236,.94);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(16px,5vw,24px);padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+  .mobile-cta{text-decoration:none}
+  .mobile-cta:hover{text-decoration:none}
+  .mobile-cta .btn{display:flex;width:100%;justify-content:center}
+  body{padding-bottom:78px}
+}
 </style>
 </head>
 
@@ -388,7 +407,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for New Town</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:22ch">Inside the gates of Rosedale, the class can come to you.</h2>
       <p style="margin-top:20px" class="lede">Rosedale Garden is a planned high-rise community in New Town, Rajarhat — six towers of twenty-six floors set across roughly sixteen acres, with the green, gated calm that drew families here in the first place. The one thing a self-contained township cannot bring inside its gates is a good coding and maths teacher, still scattered across older parts of the city.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from the flat at Rosedale Garden — no drive out along the Major Arterial Road, no evening lost in New Town traffic. The maths we teach maps to the boards New Town children study, including ICSE, CBSE and the West Bengal state board, so school work and class pull in the same direction.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from the flat at Rosedale Garden — no drive out along the Major Arterial Road, no evening lost in New Town traffic. Families searching for coding classes for kids near Rosedale Garden, Python classes in New Town, or online maths tuition in New Town find it all here in one live batch. The maths we teach maps to the boards New Town children study, including ICSE, CBSE and the West Bengal state board, so school work and class pull in the same direction.</p>
       <blockquote class="pullquote">When the good teachers sit across town, a live screen quietly brings the better choice home.</blockquote>
     </div>
     <div>
@@ -504,7 +523,7 @@ img,svg{max-width:100%;display:block}
     <div class="section-head">
       <p class="eyebrow">The honest answer</p>
       <h2>"Is online really as good as in person?"</h2>
-      <p>A fair question. Here is the straight answer to what parents at Rosedale Garden usually ask us, without overselling it.</p>
+      <p>A fair question, and the one families weighing the best coding classes in New Town ask first. Here is the straight answer to what parents at Rosedale Garden usually ask us, without overselling it.</p>
     </div>
     <div class="objections">
       <div class="obj">
@@ -623,6 +642,10 @@ img,svg{max-width:100%;display:block}
         <p><b>A laptop or desktop and a stable broadband connection are ideal.</b> A reliable home connection in the township is enough to join a live class and share the screen; we will confirm the simple setup with you before the first session.</p>
       </details>
       <details>
+        <summary>Do you teach coding classes for kids near Rosedale Garden and across New Town?</summary>
+        <p><b>Yes — children near Rosedale Garden and across New Town, Rajarhat join our live batches every week.</b> Because every class is online and instructor-led, a child at Rosedale Garden gets the same teacher, the same Python classes and the same online maths tuition as families anywhere else in New Town or wider Kolkata — without leaving the township.</p>
+      </details>
+      <details>
         <summary>How big are the batches?</summary>
         <p><b>Group batches are kept deliberately small</b> so the teacher can give attention to each child and notice when someone needs help. If you want fully individual attention, one-to-one sessions are available.</p>
       </details>
@@ -693,7 +716,72 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY / CROSS-CLUSTER LINKS -->
+<section class="section section--paper2" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h">Coding &amp; maths classes across Kolkata</h2>
+      <p>Live online classes reach every neighbourhood the same way. If you have moved, or have family in another township, here is where else Modern Age Coders teaches — starting close to New Town.</p>
+    </div>
+    <nav class="nearby" aria-label="Coding classes in other Kolkata neighbourhoods">
+      <a href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near Uniworld City</b>New Town</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-sukhobrishti">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near Sukhobrishti</b>New Town, Action Area III</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-dlf-new-town-heights">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near DLF New Town Heights</b>New Town</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-elita-garden-vista">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near Elita Garden Vista</b>New Town</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-hiland-willows">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near Hiland Willows</b>New Town</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near Urbana</b>Anandapur, EM Bypass</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-upohar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near Upohar</b>Chak Garia, EM Bypass</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-avidipta-mukundapur">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near Avidipta</b>Mukundapur</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near South City</b>Prince Anwar Shah Road</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-north">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near Diamond City North</b>VIP Road</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/coding-classes-in-siddha-town-madhyamgram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg>
+        <span><b>Coding classes near Siddha Town</b>Madhyamgram</span>
+      </a>
+      <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="10" r="3"/><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/></svg>
+        <span><b>Best coding classes in Kolkata</b>City-wide hub</span>
+      </a>
+    </nav>
+  </div>
+</section>
+
 </main>
+
+<a class="mobile-cta" href="#demo" aria-hidden="false">
+  <span class="btn btn-primary">Book a free demo</span>
+</a>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -742,6 +830,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Rosedale Garden, New Town, Rajarhat.",
       "areaServed": [
         {"@type":"Place","name":"Rosedale Garden, New Town, Rajarhat, Kolkata"},
@@ -785,6 +874,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"What ages do you teach?","acceptedAnswer":{"@type":"Answer","text":"Children, teens and adults — roughly ages 6 to 65. Younger children begin with visual coding and age-appropriate maths; teens move into Python, Java, web development and AI; adults and college students can start fresh or go deep."}},
         {"@type":"Question","name":"We live inside Rosedale Garden — can we join from the flat?","acceptedAnswer":{"@type":"Answer","text":"Yes — that is exactly how it works. Your child joins the same teacher and batch as a family elsewhere in Kolkata, straight from your flat at Rosedale Garden, with no travel out of the township at all."}},
         {"@type":"Question","name":"What device and internet do we need at home?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop and a stable broadband connection are ideal. A reliable home connection in the township is enough to join a live class and share the screen."}},
+        {"@type":"Question","name":"Do you teach coding classes for kids near Rosedale Garden and across New Town?","acceptedAnswer":{"@type":"Answer","text":"Yes — children near Rosedale Garden and across New Town, Rajarhat join our live batches every week. Because every class is online and instructor-led, a child at Rosedale Garden gets the same teacher, the same Python classes and the same online maths tuition as families anywhere else in New Town or wider Kolkata, without leaving the township."}},
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is at an ICSE, CBSE or West Bengal board school — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the ICSE, CBSE and West Bengal state board syllabi that New Town schools follow, so it supports school work."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},

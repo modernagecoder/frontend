@@ -294,6 +294,24 @@ img,svg{max-width:100%;display:block}
 
 .skip{position:absolute;left:-999px;top:0;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 10px 0;z-index:100}
 .skip:focus{left:0}
+
+/* nearby cluster — internal-link mesh */
+.nearby{border-top:1px solid var(--line)}
+.nearby-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:32px}
+.nearby-link{display:flex;align-items:center;gap:13px;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:16px 18px;color:var(--ink);font-weight:500;font-size:var(--step--1);transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease}
+.nearby-link:hover{text-decoration:none;transform:translateY(-2px);border-color:var(--teal);box-shadow:var(--shadow)}
+.nearby-link svg{width:18px;height:18px;flex:0 0 auto;color:var(--plum)}
+.nearby-link b{font-weight:600;color:var(--teal-d)}
+.nearby-all{margin-top:26px;font-size:var(--step--1);color:var(--ink-2)}
+@media (prefers-reduced-motion: reduce){.nearby-link:hover{transform:none}}
+
+/* mobile-only sticky bottom CTA */
+.sticky-cta{display:none}
+@media (max-width:759.98px){
+  .sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(250,246,239,.96);backdrop-filter:saturate(140%) blur(8px);border-top:1px solid var(--line);padding:10px clamp(16px,4vw,24px) calc(10px + env(safe-area-inset-bottom,0px))}
+  .sticky-cta .btn{width:100%;justify-content:center}
+  body{padding-bottom:78px}
+}
 </style>
 </head>
 
@@ -388,7 +406,7 @@ img,svg{max-width:100%;display:block}
       <p class="eyebrow">Built for Sodepur</p>
       <h2 style="font-size:var(--step-3);margin-top:16px;max-width:20ch">The greenest address in Sodepur deserves a classroom to match.</h2>
       <p style="margin-top:20px" class="lede">Godrej Prakriti is a green, low-density township on BT Road in Sodepur — around 22 acres of gardens, walking tracks and a natural waterbody, a calm pocket of North 24 Parganas a short way from the Ganga. It has nearly everything inside the gate. The one thing it cannot bring closer is the city's belt of good coding and maths centres, which still sit several kilometres south, down a BT Road that crawls at peak hours through Sodepur Traffic More.</p>
-      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your flat at Prakriti — no slow ride toward Shyambazar, no evening lost in BT Road traffic. The maths we teach maps to the boards children around Sodepur and Panihati study, including the West Bengal state board, CBSE and ICSE syllabi, so what happens in class pulls in the same direction as school.</p>
+      <p style="margin-top:18px;color:var(--ink-2)">Modern Age Coders closes that gap. We are a live, online school based in Kolkata: your child joins a real teacher and a small batch from your flat at Prakriti — no slow ride toward Shyambazar, no evening lost in BT Road traffic. For families looking for coding classes for kids near Godrej Prakriti, Python classes in Sodepur, or online maths tuition in Sodepur, the lesson simply opens in your living room. The maths we teach maps to the boards children around Sodepur and Panihati study, including the West Bengal state board, CBSE and ICSE syllabi, so what happens in class pulls in the same direction as school.</p>
       <blockquote class="pullquote">A township built around open green and water should not send its children back into BT Road traffic for a class.</blockquote>
     </div>
     <div>
@@ -640,6 +658,10 @@ img,svg{max-width:100%;display:block}
         <p><b>Yes.</b> Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools around Sodepur and Panihati follow, so what we teach supports school work rather than pulling against it.</p>
       </details>
       <details>
+        <summary>Do you offer coding classes for kids and Python classes near Godrej Prakriti, Sodepur?</summary>
+        <p><b>Yes — these are some of the most asked-for classes near Godrej Prakriti.</b> We run live coding classes for kids near Godrej Prakriti, beginner-friendly Python classes for Sodepur learners, and online maths tuition for Sodepur families, all from your own flat. Many parents searching for the best coding classes in Sodepur choose us precisely because the lesson reaches Prakriti without a single trip down BT Road.</p>
+      </details>
+      <details>
         <summary>Do you have girls-only batches?</summary>
         <p><b>Yes — our Queen and Princess Coders tracks are girls-only.</b> Same curriculum, same standards, in a setting many families and students prefer.</p>
       </details>
@@ -702,7 +724,69 @@ img,svg{max-width:100%;display:block}
   </div>
 </section>
 
+<!-- NEARBY CLUSTER — coding & maths across Kolkata -->
+<section class="section nearby" id="nearby" aria-labelledby="nearby-h">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Across the city</p>
+      <h2 id="nearby-h">Coding &amp; maths classes across Kolkata</h2>
+      <p>The same live, instructor-led teaching reaches families in townships and complexes all over Kolkata and its northern fringe. If you have friends or relatives in another gated community, point them to their own page.</p>
+    </div>
+    <div class="nearby-grid">
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-siddha-town-madhyamgram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>Siddha Town</b>, Madhyamgram
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-diamond-city-north">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>Diamond City North</b>, VIP Road
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-uniworld-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>Uniworld City</b>, New Town
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-sukhobrishti">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>Sukhobrishti</b>, New Town
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-rosedale-garden">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>Rosedale Garden</b>, New Town
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-elita-garden-vista">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>Elita Garden Vista</b>, New Town
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-hiland-willows">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>Hiland Willows</b>, New Town
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-dlf-new-town-heights">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>DLF New Town Heights</b>, New Town
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-avani-riverside-howrah">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>Avani Riverside</b>, Shibpur, Howrah
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-south-city">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>South City</b>, South Kolkata
+      </a>
+      <a class="nearby-link" href="https://learn.modernagecoders.com/coding-classes-in-urbana">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3"/></svg>
+        Coding classes near <b>Urbana</b>, EM Bypass
+      </a>
+    </div>
+    <p class="nearby-all">Looking for the city-wide picture? See <a href="https://learn.modernagecoders.com/best-coding-class-in-kolkata">the best coding classes in Kolkata</a>.</p>
+  </div>
+</section>
+
 </main>
+
+<aside class="sticky-cta" aria-label="Book a free demo">
+  <a class="btn btn-primary" href="#demo">Book a free demo</a>
+</aside>
 
 <footer class="site-footer">
   <div class="wrap">
@@ -751,6 +835,7 @@ img,svg{max-width:100%;display:block}
       "name": "Modern Age Coders",
       "url": "https://learn.modernagecoders.com/",
       "telephone": "+91-91233-66161",
+      "priceRange": "₹₹",
       "description": "Live, instructor-led online coding and mathematics classes for children, teens and adults, based in Kolkata and serving families at Godrej Prakriti, Sodepur, Panihati, North 24 Parganas.",
       "areaServed": [
         {"@type":"Place","name":"Godrej Prakriti, Sodepur, Kolkata"},
@@ -796,6 +881,7 @@ img,svg{max-width:100%;display:block}
         {"@type":"Question","name":"What device and internet do we need at home?","acceptedAnswer":{"@type":"Answer","text":"A laptop or desktop and a stable broadband connection are ideal. A reliable home line in the township is enough to join a live class and share the screen; we will confirm the simple setup with you before the first session."}},
         {"@type":"Question","name":"How big are the batches?","acceptedAnswer":{"@type":"Answer","text":"Group batches are kept deliberately small so the teacher can give attention to each child. One-to-one sessions are available for fully individual attention."}},
         {"@type":"Question","name":"My child is on the West Bengal board, CBSE or ICSE — will the maths match?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our maths teaching maps to the West Bengal state board, CBSE and ICSE syllabi that schools around Sodepur and Panihati follow, so it supports school work."}},
+        {"@type":"Question","name":"Do you offer coding classes for kids and Python classes near Godrej Prakriti, Sodepur?","acceptedAnswer":{"@type":"Answer","text":"Yes — these are some of the most asked-for classes near Godrej Prakriti. We run live coding classes for kids near Godrej Prakriti, beginner-friendly Python classes for Sodepur learners, and online maths tuition for Sodepur families, all from your own flat. Many parents searching for the best coding classes in Sodepur choose us precisely because the lesson reaches Prakriti without a single trip down BT Road."}},
         {"@type":"Question","name":"Do you have girls-only batches?","acceptedAnswer":{"@type":"Answer","text":"Yes — our Queen and Princess Coders tracks are girls-only, with the same curriculum and standards."}},
         {"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Book a free demo using the form on this page, or call +91 91233 66161. We will suggest the right level for your child and a class time that fits your week."}}
       ]
