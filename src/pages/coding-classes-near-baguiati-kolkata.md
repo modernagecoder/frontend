@@ -1,364 +1,246 @@
 ---
-title: "Coding & Maths Classes near Baguiati, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Baguiati, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Hariyana Vidya Mandir, Apeejay School, St. Stephen's and other North East Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Baguiati, Kolkata"
+description: "Live online coding & maths classes near Baguiati, Kolkata. Python, Java, AI/ML for kids & teens. ICSE/CBSE board prep, small batches, from ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-baguiati-kolkata
-keywords: ["Baguiati Kolkata coding classes", "coding near Baguiati", "coding for kids Baguiati", "Python classes Baguiati", "maths tuition Baguiati Kolkata", "online coding Baguiati", "EM Bypass coding classes", "teen coding Baguiati", "AI classes Baguiati Kolkata", "Baguiati English Academy coding", "CBSE ICSE tuition Baguiati"]
+keywords: ["coding classes near Baguiati", "coding classes Baguiati Kolkata", "Python classes Baguiati", "Java classes ICSE Baguiati", "AI ML classes Baguiati", "maths tuition Baguiati", "online coding VIP Road Kolkata", "coding classes Aswini Nagar", "coding classes Jagatpur", "ICSE computer applications Baguiati", "CBSE computer science Kolkata", "coding classes for kids Deshbandhu Nagar"]
 source: src/pages/coding-classes-near-baguiati-kolkata.html
 ---
-> Live online coding classes near Baguiati, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Hariyana Vidya Mandir, Apeejay School, St. Stephen's and other North East Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Baguiati, Kolkata. Python, Java, AI/ML for kids & teens. ICSE/CBSE board prep, small batches, from ₹1,499/mo.
 
-East Kolkata's Fastest-Growing Corridor — Live Online Classes
+LIVE ONLINE · BAGUIATI · NORTH 24 PARGANAS
 
-# Coding & Maths Classes for Students near Baguiati, Kolkata
+# Premium Coding & Maths Classes, Live Online for Baguiati, Kolkata
 
-One of the fastest-growing residential areas along EM Bypass. New apartment complexes, young families, and a demand for quality education that doesn't require hours of commuting — that is Baguiati in 2026. **Baguiati English Academy**, **National English School Baguiati (ICSE)**, and schools along the VIP Road corridor serve a rapidly expanding student population. Young professionals moving to Baguiati from across Kolkata bring high educational expectations — but finding quality coding classes nearby has meant travelling to Salt Lake or South Kolkata. Not anymore. Modern Age Coders brings **100% live online coding and mathematics classes** to Baguiati doorsteps. Small batches of 6-8 students, expert instructors, and a curriculum designed for genuine skill-building. From Scratch for six-year-olds to competitive programming for ambitious teens, our courses are made for Baguiati — a neighbourhood that wants city-grade education without the city commute.
+Modern Age Coders runs premium, 100% live online coding and mathematics classes for families across Baguiati — from the VIP Road corridor and Baguiati Crossing to Aswini Nagar, Jagatpur and Deshbandhu Nagar. Every class is small (6 to 8 students), project-based and taught live by full-time engineers and maths graduates — never pre-recorded. Children learn Python, Java, AI/ML and school maths from home, with no evening commute through Baguiati traffic. Fees start at ₹1,499 per month.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% live, never recordedBatches of 6-8 studentsEngineer & maths-graduate teachersFrom ₹1,499/month[Book a Free Demo Class](/contact)[Explore All Courses](/courses)6-8Students per live batch₹1,499Starting fee per month90 minDaily VIP Road commute saved1-on-1Personalised option availableLIVE ONLINE · BAGUIATI, KOLKATA
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, small-batch, project-based — never pre-recorded videoBatch size6-8 students (group) · 3-4 (mini batch) · 1-on-1 availableAges**6 to 65** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) + Mathematics (Grade 1 to college)BoardsICSE (Java/BlueJ), CBSE (Python), IGCSE, WBBSE State BoardFeesGroup ₹1,499/mo · Mini batch ₹2,499/mo · 1-on-1 ₹4,999/moFree demoYes — a full live class, no payment or commitmentServingBaguiati, Aswini Nagar, Jagatpur, Deshbandhu Nagar, Tegharia, Kestopur, VIP Road corridor & New Town fringePREMIUM, LIVE, SMALL-BATCH
 
-## Live Online Coding Classes near Baguiati — What Parents Should Know
+## A live online school, not a video library
 
-Baguiati parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Baguiati is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Hariyana Vidya Mandir, Apeejay School, St. Stephen's and other North East Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Modern Age Coders is a premium live online school, not a video library — every Baguiati student learns in a real-time class of 6 to 8, taught by a full-time engineer or maths graduate who can see their screen, answer questions instantly and review their code line by line. This is the same city-grade teaching that once required travelling to Salt Lake or South Kolkata, now delivered live to a laptop on VIP Road.
 
-📺
+### Every class is genuinely live
 
-### 100% Live, Not Pre-Recorded
+There are no recorded lectures here. A teacher is present on screen for every minute of every class, explaining, questioning and correcting in real time. Your child codes while the teacher watches, so mistakes are caught and fixed the moment they happen.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small batches of 6 to 8
 
-👨‍👩‍👧‍👦
+We deliberately cap each batch at 6 to 8 students so every child gets spoken to by name and gets their doubts answered the same session. Crowded 30-student "online tuitions" cannot do this — small batches are the entire point of paying for quality.
 
-### Max 6–8 Students per Live Batch
+### Taught by working engineers & maths graduates
 
-Smaller than any Baguiati-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are led by full-time engineers and mathematics graduates, not part-time college students reading from a slide deck. They have written real software and solved real maths, so they teach why code works, not just what to type.
 
-🏠
+### Project-based from day one
 
-### Zero Travel through Baguiati Traffic
+Children build real, working programs from the first weeks — a price tracker, a small game, a calculator, a quiz app. Project work is how concepts actually stick, and it gives every Baguiati student something concrete to show their parents and school.
 
-No fighting evening VIP Road and Baguiati crossing traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Board-aware teaching
 
-📝
+We teach to the syllabus your child actually sits. ICSE students get Java in BlueJ mapped to the Class 9-10 Computer Applications board; CBSE students get Python aligned to Informatics Practices and Computer Science. Coding skill and board marks grow together.
 
-### Recordings + Notes After Each Class
+### No commute, more evening
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Reaching a real institute from Baguiati meant 75-90 minutes of stop-go traffic through Baguiati Crossing and Kestopur each way. Live online returns roughly two hours of your child's evening on every class day — for homework, rest or play, not for sitting in a car on VIP Road.
 
-💻
+FULL RANGE OF LIVE TRACKS
 
-### Project-Based, Not Theory-Heavy
+## Course Catalogue
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids & teens, ages ~10-17 | Live Python plus AI basics — games, tools and the platform's most-requested teen track |
+| [Java for Kids/Teens](/java-programming-for-kids-teens) | Teens, especially ICSE students | Java fundamentals, the core language for ICSE Computer Applications |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9-10 | BlueJ-based Java mapped exactly to the ICSE Computer Applications board syllabus |
+| [AI & ML for Teens](/ai-ml-course-for-teens) | Teens, 13-18 | Live AI/ML fundamentals — train your first models and understand how AI thinks |
+| [AI/ML for College Students](/ai-ml-course-for-college-students) | College / undergrad | Applied, placement-focused AI/ML projects and portfolio building |
+| [Python for Machine Learning](/python-for-machine-learning) | Teens, college, professionals | Python foundations built specifically for machine-learning workflows |
+| [Python for Data Science](/python-for-data-science) | Teens, college, professionals | Python with pandas and numpy for real data analysis and visualisation |
+| [Online Maths Tuition](/online-maths-tuition) | All ages, Grade 1 to college | Live maths across ICSE/CBSE/WBBSE, plus Olympiad and college mathematics |
+| [Maths Class 10](/maths-class-10) | Class 10 board students | Focused, exam-targeted Class 10 mathematics board preparation |
+| [Math Olympiad / AMC](/math-olympiad-amc-tutoring) | Olympiad aspirants | Competition maths for AMC, IOQM, RMO and IMO-style problem solving |
+| [CBSE/ICSE Computer Science 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 board students | Complete Python (CBSE) + Java (ICSE) CS course: theory, practicals and projects |
+| [Coding for Kids (ages 6-12)](/courses/coding/kids) | Kids, 6-12 | Scratch, block coding, web design and AI basics in a gentle, playful path |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls, kids & teens | Girls-only Princess & Queen Coders batches for confident, pressure-free learning |
 
-👨‍🏫
+WHERE MOST FAMILIES START
 
-### Parent Updates Every Month
+## Three featured tracks
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+MOST POPULAR
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+### Python & AI for Kids and Teens
 
-## Schools near Baguiati Whose Students Learn with Us
+Python is the language we recommend most for Baguiati families starting out — it is readable, powerful and the gateway to AI, data science and CBSE Computer Science. Our [Python & AI track](/python-and-ai-classes-for-kids-teens) takes a child from their very first `print()` to building genuinely useful programs, taught live in small batches by engineers who use Python every day.
 
-Students from **Baguiati English Academy**, **National English School Baguiati (ICSE)**, and schools along the **VIP Road corridor** join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus. Families across the EM Bypass stretch — from Kestopur to Lake Town — trust us for quality tech education.
+**You'll learn:** Variables, loops, functions and logic. **You'll build:** a working price tracker, quiz game and your first AI-powered tool.
 
-Whether your child follows the ICSE, CBSE, or State Board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Baguiati offers this depth of coding education alongside structured mathematics tutoring.
+[Start Python →](/python-and-ai-classes-for-kids-teens)
 
-## What Your Child Will Learn with Modern Age Coders
+BUILT FOR ICSE
 
-Baguiati's young families demand quality coding education — without the commute. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+### Java & ICSE Computer Applications
 
-🎨
+Most ICSE schools around Baguiati — National English School on VIP Road, Calcutta Public School and others — run Java in BlueJ for Class 9-10 Computer Applications. Our [Java for ICSE](/java-programming-for-icse-students) course is mapped straight to that board syllabus, so your child's coding lessons and exam marks move together. Teens beyond the board can take the broader [Java for Teens](/java-programming-for-kids-teens) path, then progress to [Java DSA](/java-dsa-course) and a [Java certification](/java-certification-course).
 
-### For Kids (Ages 6-12)
+**You'll learn:** Classes, objects, arrays, string handling and BlueJ workflows. **You'll build:** the kind of programs the ICSE Computer Applications paper actually asks for.
 
-Baguiati's young families demand quality coding education — without the commute. The perfect starting age for your child's coding journey.
+[Start Java →](/java-programming-for-icse-students)
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+FUTURE-READY
 
-💻
+### AI & Machine Learning
 
-### For Teens (Ages 13-18)
+AI is no longer optional, and Baguiati's ambitious teens and college students can start now. Our [AI/ML for Teens](/ai-ml-course-for-teens) course demystifies how machines learn, while [AI/ML for College Students](/ai-ml-course-for-college-students) builds a placement-ready portfolio. Both are live, project-led and taught by engineers who build these systems for a living.
 
-Where EM Bypass corridor teens build real-world tech skills from home. ICSE and CBSE students gain skills that boards and entrance exams both reward.
+**You'll learn:** How models learn from data, basic neural networks and Python ML libraries. **You'll build:** a working classifier and a small predictive project of your own.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+[Explore AI & ML →](/ai-ml-course-for-teens)
 
-🎓
+BAGUIATI & VIP ROAD SCHOOLS
 
-### For College Students
+## Schools we teach students from
 
-Baguiati's college students gain the edge for IT corridor placements. Sharpen your competitive edge for campus recruitment.
+We teach students from the leading schools across the Baguiati and VIP Road belt — including National English School on VIP Road (ICSE), Calcutta Public School, Baguiati (ICSE), Hariyana Vidya Mandir (CBSE), Mahadevi Birla Shishu Vihar (ICSE), Apeejay School, Salt Lake (ICSE), Mangalam Vidya Niketan (CBSE), Tegharia Hindu School and Sri Aurobindo Institute of Education (WBBSE), Holy Child Institution and Salt Lake School. Because our classes are live and online, a child from any of these schools — or any board — joins from home with no travel.
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Baguiati households often juggle two syllabi at once: ICSE schools teach Java in BlueJ for Class 9-10 Computer Applications, while CBSE schools push Python in Classes 11-12 Informatics Practices and Computer Science. We teach to both. Our [CBSE/ICSE Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers Python and Java board theory, practicals and projects together, and dedicated tracks exist for [ICSE students](/coding-for-icse-students) and [CBSE students](/coding-for-cbse-students). Siblings on different boards can each be taught correctly — no compromise on either.
 
-💼
+THE BAGUIATI WE BUILT THIS FOR
 
-### For Professionals
+## City-grade teaching, VIP Road pricing
 
-Upskilling programmes for working professionals staying relevant in tech.
+Baguiati has changed faster than almost any part of Kolkata. Within a decade, the ponds and low buildings along VIP Road have given way to mid-rise apartment blocks, and the families filling them are overwhelmingly first- and second-generation Kolkata settlers — many with roots in 24-Parganas and Nadia. They are PSU bank staff, Sector V IT professionals and small business owners: intensely focused on their children's education, but sensibly value-conscious, and rightly unwilling to accept the ₹5,000-a-month tuition norms that drift over from Salt Lake.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+That is exactly the family we built this for. Quality coding teaching here used to mean an evening crawl from Baguiati Crossing through the Kestopur bottleneck into Salt Lake — 75 to 90 minutes of stop-go traffic, each way, on a school night. Live small-batch online classes erase that commute entirely. A child sits down at a laptop in Aswini Nagar or Jagatpur at the scheduled time, learns in a batch of six to eight, and is done — with the whole evening still ahead of them.
 
-📊
+And the work our Baguiati students produce is rooted in the streets they actually live on. They write programs about the buses at Joramandir, the prices at Jagatpur Bazar, the pandals of Deshbandhu Nagar. That is not decoration — it is how coding becomes real for a child: when the thing they build solves a problem their own family has. Premium teaching, honest pricing and projects that mean something locally — that is what we bring to the VIP Road corridor.
 
-### Mathematics for All Ages
+PROJECT 01
 
-Baguiati parents know maths and code are inseparable.
+### Joramandir Bus Frequency Logger
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+A Class 8 Baguiati student wrote a Python program that records how long the 30B and DN9 buses take to reach the Joramandir stop at different times — so her grandmother knows exactly when to leave for the doctor.
 
-☀️
+PROJECT 02
 
-### Summer & Winter Camps
+### Deshbandhu Nagar Pujo Pandal Crowd Estimator
 
-Intensive short-term programs during school breaks.
+A Class 9 boy built a Scratch app that rates how crowded each neighbourhood Durga Puja pandal is by time-slot, helping his family plan their pandal-hopping route around Aswini Nagar and AA Block.
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+PROJECT 03
 
-## Why Baguiati Parents Choose Modern Age Coders
+### Jagatpur Bazar Fish Price Tracker
 
-🎥
+A Class 7 girl made a small Python tool logging daily rui and katla prices at Jagatpur Bazar across three vendors, so her mother can spot the cheapest stall before walking over.
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+"We almost didn't enrol because the fee looked too low for the quality — but the live small batch is the real thing, and we no longer lose an evening to VIP Road traffic."
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Baguiati families expect quality education to work.
+AParentAswini NagarWHERE WE SERVE
 
-👥
+## Baguiati & the VIP Road corridor
 
-### Small Batches — Maximum 6-8 Students
+Serving Baguiati and the wider VIP Road corridor across pin codes **700059, 700159, 700157, 700101, 700102 and 700055** — covering Deshbandhu Nagar, Aswini Nagar, Jagatpur, VIP Road and the New Town fringe.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+BaguiatiJagatpurAswini NagarDeshbandhu NagarTeghariaKestopurKrishnapurJoramandirHatiaraNarayanpurRajarhat RoadLake Town borderSreebhumiVIP Road corridorNew Town fringe
 
-🧰
+Live online — so wherever you are along VIP Road, EM Bypass or the Rajarhat belt, your child joins the same premium small batch from home. [See all Kolkata areas we serve](/best-coding-class-in-kolkata).
 
-### Coding + Maths Combined — Only in India
+FLEXIBLE LIVE SLOTS
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why East Kolkata parents trust us over single-subject alternatives.
+## Weekly schedule
 
-💰
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-school | 4:00 PM – 5:30 PM | Kids (6-12) finishing school early | Mon / Wed / Fri |
+| Early evening | 5:30 PM – 7:00 PM | School teens, ICSE & CBSE board students | Tue / Thu / Sat |
+| Prime evening | 7:00 PM – 8:30 PM | Working-parent households, Sector V schedules | Mon / Wed / Fri |
+| Late evening | 8:30 PM – 10:00 PM | College students & working adults | Tue / Thu / Sat |
+| Weekend intensive | 10:00 AM – 12:00 PM | Project work, board crash prep, camps | Sat / Sun |
 
-### Starting at Just ₹1,499/month
+Timings are flexible — we match a slot to your child's school and your work hours. [Tell us what suits you](/contact).
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+AN HONEST COMPARISON
 
-## Baguiati: VIP Road's Middle-Class Engine of New Coding Families
+## Live online vs the offline tuition centre
 
-Baguiati sits along VIP Road, sandwiched between Lake Town and the New Town corridor. The neighbourhood grew rapidly in the 2000s — mid-rise apartment buildings, narrow inner lanes off Jagatpur and Aswini Nagar, and a strong Bengali and Marwari middle-class population. Many families here are first or second-generation Kolkata residents, often with roots in 24-Parganas or Bardhaman.
+### Where live online wins
 
-Schools include Hariyana Vidya Mandir, Apeejay School Salt Lake, St. Stephen's, and the various smaller ICSE/CBSE schools that have sprung up along the VIP Road belt. Parents are pragmatic salaried professionals — clerks at PSU banks, mid-level IT professionals at Sector V, mid-tier business owners.
+- No 75-90 minute commute through Baguiati Crossing and Kestopur traffic — roughly two hours of every class evening returned to your child.
+- Genuinely small batches of 6-8, because we are not limited by the size of a physical room in Baguiati.
+- Access to full-time engineers and maths graduates, not just whichever tutor happens to live nearby.
+- The teacher sees your child's actual screen and reviews their code live — closer attention than a crowded offline room allows.
+- No safety worry about a child travelling home alone after dark on VIP Road.
+- Recorded notes and resources to revise from, even though classes themselves are always live.
+- Honest pricing from ₹1,499/month — no overhead of rent and travel padding the fee.
 
-For these families, coding is the path their children take to leap into the IT industry their parents may have admired from outside. We have grown rapidly in Baguiati for exactly this reason. The price is right, the curriculum is real, and the children genuinely build programs.
+### When offline still wins (honest)
 
-### Recent Projects Built by Students from Baguiati
+- Very young children (under 6) sometimes need a parent physically beside them to stay settled.
+- Households without a reliable laptop or stable broadband connection.
+- Families who specifically want their child out of the house and in a separate physical room to study.
+- Learners who simply concentrate better with a teacher standing over their shoulder in person.
 
-These are real student projects from our Baguiati batches — small, useful, and unmistakably theirs.
+For most Baguiati families, live online delivers better teachers, smaller batches and a saved evening — at a lower, honest fee. [Try a free live demo](/contact) and judge the difference for yourself.
 
-#### Baguiati Crossing Auto Fare List
+GETTING STARTED
 
-A Class 8 student built a Python script that lists auto fares from Baguiati Crossing to 15 common stops. Her family has printed and laminated it.
+## Four steps to your first live class
 
-#### Apeejay School Bus Tracker
+01
 
-A Class 9 boy built a Scratch app that estimates which of two morning school buses arrives first at his Tegharia stop. His mother uses it.
+### Book a free demo
 
-#### Aswini Nagar Veggie Price Drill
+Tell us your child's age, board and school, and we'll schedule a full live class at no cost. [Book your free demo](/contact).
 
-A Class 7 girl built a small Python tool that logs daily vegetable prices — her grandmother says her family eats better now.
+02
 
-“
+### Meet your teacher
 
-We're a salaried family. We can't afford ₹5,000 a month for coding. The reason we're with Modern Age Coders is that the fee is honest and the teaching is real.
+Your child joins a real live session, meets an engineer or maths-graduate instructor and tries actual coding or maths hands-on.
 
-— A Baguiati parent, paraphrased from a recent conversation.
+03
 
-## Neighbourhoods near Baguiati We Serve
+### Pick a track & batch
 
-Because every class is live online, we serve students across the entire Baguiati belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+Choose the right course and a slot that fits school and work hours; [browse the full catalogue](/courses) or [see pricing](/pricing).
 
-### Pin codes we actively teach in
+04
 
-**700059** (Baguiati, Jagatpur), **700101** (Kestopur side), **700157** (New Town border), **700055** (Lake Town edge), **700052** (VIP Road touch), **700089** (Lake Town extended), **700102** (Krishnapur, Kestopur).
+### Start learning live
 
-### Localities our students log in from
+Join your small batch of 6-8 and begin building real projects from week one — from home, with zero commute.
 
-BaguiatiJagatpurAswini NagarDeshbandhu NagarTeghariaRajarhat RoadKrishnapurKestopurLake Town borderVIP RoadHatiaraNarayanpurSreebhumiSalt Lake borderNew Town fringe
+FROM A BAGUIATI PARENT
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+## What families say
 
-## Class Timings & Weekly Schedule for Students near Baguiati
+"The small live batch made all the difference for my son — the teacher knows him by name and actually checks his code every class. He looks forward to coding now instead of dreading another tuition. Genuinely worth it."
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+SSonam OswalMother of Dhairya
 
-☀️
+[Read more on our Wall of Love](/love)
 
-### Morning Slot — 9:00 to 11:00 AM
+QUESTIONS BAGUIATI PARENTS ASK
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Frequently asked questions
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+Yes — we teach students right across the Baguiati belt, including from National English School on VIP Road, Calcutta Public School, Hariyana Vidya Mandir, Mahadevi Birla Shishu Vihar, Apeejay School Salt Lake and Tegharia Hindu School. Because classes are live online, students from any of these schools join from home. [Book a free demo](/contact) to start.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) course is mapped directly to the ICSE Class 9-10 Computer Applications syllabus and taught in BlueJ. Your child builds the exact kinds of programs the board paper expects, so coding skill and exam marks grow together.For most Baguiati families, yes. You avoid 75-90 minutes of stop-go VIP Road traffic each way, your child learns in a smaller batch of 6-8, and the teacher reviews their screen live. You get better teaching and a saved evening at a lower fee. [Try a free live demo](/contact) and compare.₹1,499/month is our group batch (6-8 students), and it is the full fee — live classes, teaching and learning resources included, with no hidden charges. Mini batches (3-4) are ₹2,499/month and 1-on-1 is ₹4,999/month. Full breakdown on our [pricing page](/pricing).Yes. We teach to each board correctly: [Python and CBSE Computer Science](/coding-for-cbse-students) for one child and [Java for ICSE](/java-programming-for-icse-students) for the other, with timings that suit Sector V working parents' evening schedules. Many Baguiati households enrol two siblings on different tracks.Ages 6 to 65 — from young kids on [Scratch and block coding](/courses/coding/kids), to teens on [Python](/python-and-ai-classes-for-kids-teens) and [Java](/java-programming-for-kids-teens), to college students and working adults. There is a track for every member of the family.Every class is 100% live with a real teacher present throughout — never pre-recorded. The instructor sees your child's screen, answers doubts on the spot and reviews their code in real time. This live, small-batch model is the core of what makes us premium.Full-time engineers and mathematics graduates — people who build real software and solve real maths — not part-time college students reading slides. This is why our teaching explains why, not just what to type.Let us know in advance and we will help your child catch up — through shared notes, resources and, where needed, a short recap in the next session or a make-up slot. No one is left behind because of one missed evening.A laptop or desktop with a stable broadband connection and a webcam is ideal. A reliable internet line — easily available across the VIP Road corridor — is the main requirement; we'll guide you on the simple setup before the first class.Classes are taught in clear English, with friendly Bengali and Hindi support whenever a concept needs it. Our teachers know Baguiati families well and explain in whatever way helps the child understand best.Yes. Our [Online Maths Tuition](/online-maths-tuition) covers Grade 1 to college across ICSE, CBSE and WBBSE, plus focused [Class 10 maths](/maths-class-10) and [Olympiad / AMC coaching](/math-olympiad-amc-tutoring). Many families enrol for both coding and maths together.Yes — students receive a certificate on completing a course module, recognising the projects they have built and the skills they have demonstrated. It is a genuine record of work, not just attendance.Yes — [Coding Classes for Girls](/coding-classes-for-girls) runs girls-only Princess and Queen Coders batches, and we offer [Summer](/summer-coding-camp) and [Winter Coding Camps](/winter-coding-camp) that complete a full module over the school break.Just [book a free demo](/contact) with your child's age, board and school — we schedule a full live class with no payment and no commitment. You only decide to enrol after you have seen the teaching for yourself.
 
-🏫
+## City-Grade Coding & Maths — Live to Your Home in Baguiati
 
-### After-School Slot — 4:30 to 7:30 PM
+Skip the VIP Road commute, keep the quality: small live batches, engineer-led teaching and honest pricing from ₹1,499/month.
 
-The most popular slot for kids and teens near Baguiati. School ends, snack, log in. Two classes a week, 60 minutes each.
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)NEARBY AREAS WE ALSO SERVE
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
+## Coding & maths near you
 
-🌚
+[VIP Road](/coding-classes-near-vip-road-kolkata)[Kestopur](/coding-classes-near-kestopur-kolkata)[Salt Lake](/coding-classes-near-salt-lake-kolkata)[Lake Town](/coding-classes-near-lake-town-kolkata)[Sreebhumi](/coding-classes-near-sreebhumi-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Baguiati parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Hariyana Vidya Mandir, Mahadevi Birla Shishu Vihar (close), Apeejay School and similar Baguiati-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Hariyana Vidya Mandir, Apeejay School Salt Lake, Bidya Bharati and other CBSE-track Baguiati-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that St. Stephen's School, Tegharia Hindu School, Holy Child Institution and other ICSE-track Baguiati-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Baguiati — Honest Comparison
-
-Baguiati and Tegharia have a handful of small tuition rooms scattered along VIP Road. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Baguiati centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Baguiati crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Baguiati
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Baguiati
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Baguiati. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"The way Modern Age Coders teaches is truly different. My son Aditya was never interested in coding before, but now he looks forward to every class. The teachers explain concepts with so much patience and connect coding to real-life examples. The small batch size means he gets individual attention. As a parent, I feel confident he is building skills that will matter in the future."
-
-RRitu KediaMother of Aditya
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Baguiati
-
- Are there coding classes for kids near Baguiati, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Baguiati. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from Baguiati English Academy, National English School, and other Baguiati schools are already learning with us. What is the fee for coding and maths classes near Baguiati? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Baguiati? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Baguiati schools follow. How can my child in Baguiati attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed — no more driving to Salt Lake or South Kolkata for quality coaching. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Jagatpur or Aswini Nagar? +Three big differences. **First**, batch size: most Baguiati tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through VIP Road and Baguiati crossing traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Baguiati? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Baguiati belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Baguiati? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Baguiati. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Hariyana Vidya Mandir, Apeejay School, St. Stephen's and other North East Kolkata schools and other Baguiati-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Baguiati Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Baguiati trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[VIP Road](/coding-classes-near-vip-road-kolkata)[Kestopur](/coding-classes-near-kestopur-kolkata)[Salt Lake](/coding-classes-near-salt-lake-kolkata)[Lake Town](/coding-classes-near-lake-town-kolkata)[Nager Bazar](/coding-classes-near-nager-bazar-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [Mahadevi Birla Academy, Kolkata](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata)
 
 ---
 
