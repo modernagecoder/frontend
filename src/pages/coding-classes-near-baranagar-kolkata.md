@@ -1,364 +1,247 @@
 ---
-title: "Coding & Maths Classes near Baranagar, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Baranagar, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Sailendra Sircar Vidyalaya, KV Cossipore, Adamas International and other North Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Baranagar"
+description: "Live online, premium coding & maths classes for Baranagar, Bonhooghly & Sinthee families. Small batches, project-based, taught by engineers. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-baranagar-kolkata
-keywords: ["Baranagar Kolkata coding classes", "coding near Baranagar", "Ramakrishna Mission Baranagar coding", "coding for kids Baranagar", "Python classes Baranagar", "maths tuition Baranagar North Kolkata", "online coding Baranagar", "Auxilium Convent coding Baranagar", "teen coding Baranagar", "AI classes Baranagar Kolkata", "CBSE ICSE tuition Baranagar"]
+keywords: ["coding classes Baranagar", "coding classes near Baranagar Kolkata", "maths tuition Baranagar", "online coding classes Bonhooghly", "Python classes Baranagar", "Java ICSE classes Sinthee", "AI ML classes Kolkata", "computer science tuition Cossipore", "ISI entrance maths Baranagar", "coding for kids B.T. Road", "ICSE Java BlueJ Kolkata", "live online coding classes Dakshineswar"]
 source: src/pages/coding-classes-near-baranagar-kolkata.html
 ---
-> Live online coding classes near Baranagar, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Sailendra Sircar Vidyalaya, KV Cossipore, Adamas International and other North Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online, premium coding & maths classes for Baranagar, Bonhooghly & Sinthee families. Small batches, project-based, taught by engineers. Free demo.
 
-Knowledge as Service — Live Online Classes
+Baranagar · Bonhooghly · Sinthee · Cossipore — Live Online
 
-# Coding & Maths Classes for Students near Baranagar, Kolkata
+# Live Online Coding & Maths Classes near Baranagar, Kolkata
 
-Home to the Ramakrishna Math and its legacy of education as service. Baranagar families value knowledge for its own sake — learning here is not about credentials, it is about genuine understanding. **Baranagar Narendranath Vidyamandir**, **Baranagar Ramakrishna Mission Ashrama High School**, and nearby **Auxilium Convent School (ICSE)** reflect this ethos of sincere, deep education. Coding is Vidya (knowledge) for the digital age — and Modern Age Coders delivers it with the same sincerity that Baranagar's spiritual and educational heritage demands. Our **100% live online coding and mathematics classes** are built on a simple principle: teach properly, in small batches, with instructors who care about understanding, not just syllabus completion. From a six-year-old learning computational thinking through Scratch to a teenager building real Python projects, our courses match Baranagar's values — depth over surface, understanding over memorisation, genuine skill over certificates.
+Modern Age Coders runs premium, live online coding and mathematics classes for families across Baranagar, Bonhooghly, Sinthee and Cossipore — no recordings, no travel down B.T. Road. Children learn Python, Java, AI/ML and school-to-Olympiad maths in small live batches of 6–8, taught by full-time engineers and maths graduates. Every class is project-based and one curriculum carries both coding and statistics-grade maths together. Book a free demo today.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% live, never pre-recordedSmall batches · max 6–8Coding + Maths in one programmeTaught by full-time engineers[Book a Free Demo Class](/contact)[Explore All Courses](/courses)6–8Max students per live batch1-on-1Personalised option availableAges 6–65Kids, teens, college, adultsFreeFirst demo class, no card neededLive Online · Baranagar, Kolkata
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, interactive, never pre-recorded — taught in real time by full-time engineers and maths graduatesBatch sizeSmall live batches of **max 6–8** (group), 3–4 (mini batch), or 1-on-1Ages**6 to 65** — kids, teens, college students, working adultsSubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (school, Olympiad, college) in one curriculumBoardsICSE/ISC (Java/BlueJ), CBSE (Python), WBBSE/state board — Bengali- and Hindi-medium friendlyFeesFrom **₹1,499/month** (group), ₹2,499/month (mini batch 3–4), ₹4,999/month (1-on-1)Free demoYes — one free live demo class before you decide; no card requiredServingBaranagar, Bonhooghly, Sinthee, Tobin Road, Cossipore, Alambazar, Dakshineswar, Belgharia, Dunlop, Noapara, Ariadaha, Kashipur, Paikpara, KuthighatWhy It Works
 
-## Live Online Coding Classes near Baranagar — What Parents Should Know
+## Premium, live, and built for Baranagar
 
-Baranagar parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Baranagar is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Sailendra Sircar Vidyalaya, KV Cossipore, Adamas International and other North Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Every Modern Age Coders class for Baranagar is delivered live online by a full-time engineer or maths graduate — real teaching in real time, never a recorded video and never an automated app. This is premium, high-quality coding and maths education brought to your Bonhooghly or Sinthee flat, with small batches so each child is seen, questioned and corrected in the moment.
 
-📺
+### Truly live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Classes happen live with a teacher on screen who answers your child's question the second it is asked. There are no pre-recorded lectures to watch alone and no AI bot pretending to teach. If a Bonhooghly student is stuck on a loop, the teacher debugs it with them, line by line, that same minute.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small batches of 6–8
 
-👨‍👩‍👧‍👦
+We cap group batches at 6–8 students so no child hides at the back as they would in a 30-seat physical coaching room. Mini batches run at 3–4, and 1-on-1 is available for ISI-aspirant or board-exam-critical learners. Smaller rooms mean more turns to speak, code and ask.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers and maths graduates
 
-Smaller than any Baranagar-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Your child is taught by full-time engineers and mathematics graduates, not part-time college students reading off slides. The same person who explains a Python concept can show how it is used in real software, and the maths teacher can connect a probability sum to genuine statistics — the depth a statistics-heritage Baranagar household expects.
 
-🏠
+### Project-based, every term
 
-### Zero Travel through Baranagar Traffic
+Children build real, working projects rather than memorising syntax — a quiz engine, a data tool, a small game, a model. Project work is how understanding becomes permanent, and it gives every student something concrete to show, from a school submission to an ISI-entrance practice tool.
 
-No fighting evening B.T. Road and Baranagar junction traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Coding and maths in one programme
 
-📝
+Baranagar families rarely want only coding or only maths, so we teach both as one connected discipline: coding is applied logic, and maths is the reasoning underneath it. A single household can run school maths, Olympiad prep and a Python track together, with teachers who talk to each other about the same child.
 
-### Recordings + Notes After Each Class
+### Zero commute, more study time
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Because class is at home, your child never sits in evening B.T. Road traffic between Sinthee More, Tobin More and Dunlop, and never changes autos at the Baranagar crossing. That recovered hour-plus each way goes back into study, rest and family time — the single most practical reason North Kolkata parents switch to live online.
 
-💻
+Course Catalogue
 
-### Project-Based, Not Theory-Heavy
+## Every course we teach near Baranagar
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids & teens, ages ~10–17 | Python from scratch plus AI foundations, built through real project-based live batches |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young beginners moving from blocks to text code | Variables, loops and first real programs in a gentle, confidence-building Python course |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens, ages 13–18 | Core Java with BlueJ practicals — the exact language ICSE Computer Applications relies on |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9–10 Computer Applications | Java/BlueJ mapped to the ICSE syllabus, board-style programs and viva preparation |
+| [Java DSA Course](/java-dsa-course) | College students & placement aspirants | Data Structures & Algorithms in Java for interviews and competitive coding |
+| [Java OOP Concepts Course](/java-oops-concepts-course) | Students strengthening core OOP | Classes, objects, inheritance, polymorphism and abstraction, deeply understood |
+| [Java Certification Course](/java-certification-course) | Learners wanting a credential | End-to-end Java ending in a completion certificate and portfolio |
+| [Java Projects for Students](/java-projects-for-students) | Students needing board/portfolio work | Guided Java projects fit for school submissions and portfolios |
+| [AI/ML Course for Teens](/ai-ml-course-for-teens) | Teens, ages 13–18 | Machine learning and AI concepts through hands-on, teen-level projects |
+| [AI/ML for College Students](/ai-ml-course-for-college-students) | College students & serious learners | Applied AI/ML with Python, model building and real datasets |
+| [AI/ML Projects for Students](/ai-ml-projects-for-students) | Students building an AI portfolio | Demonstrable models and notebooks, project by project |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1–12 to college, all boards | School maths, Olympiad (AMC/IOQM/RMO/IMO) and college calculus/linear algebra |
+| [ICSE/CBSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 ICSE & CBSE board students | ICSE Java and CBSE Python theory, practicals and projects for the board exam |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only batches, kids & teens | Princess/Queen Coders — confidence, leadership and a full coding track |
 
-👨‍🏫
+Featured Tracks
 
-### Parent Updates Every Month
+## Three tracks Baranagar families start with
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+Most in-demand language
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+### Python & AI for Kids and Teens
 
-## Schools near Baranagar Whose Students Learn with Us
+Python is the language we recommend most Baranagar beginners start with — readable, powerful and the gateway to AI and data work. In small live batches, your child moves from first variables to working programs and AI foundations, with a full-time engineer correcting their code in real time. It is the same Python that CBSE students at the Cossipore KV meet in school, taught with far more depth.
 
-Students from **Baranagar Narendranath Vidyamandir**, **Baranagar Ramakrishna Mission Ashrama High School**, and **Auxilium Convent School (ICSE, nearby)** in and around Baranagar join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+**You'll learn:** loops, functions, files and AI basics. **You'll build:** a real tool such as a quiz engine or data helper.
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform in Baranagar offers this depth of coding education alongside structured mathematics tutoring.
+[Start with Python & AI for Kids/Teens →](/python-and-ai-classes-for-kids-teens)
 
-## What Your Child Will Learn with Modern Age Coders
+ICSE Java / BlueJ
 
-Baranagar families value genuine learning — our coding courses deliver exactly that, covering every age group from first-graders to working professionals.
+### Java Programming for Teens & ICSE Students
 
-🎨
+Java is essential for ICSE/ISC students at Central Modern School and Sailendra Sircar Vidyalaya, where Computer Applications is built on Java with BlueJ. We teach the exact board syllabus — board-style programs, OOP and viva preparation — alongside a serious Java track for teens who want real programming maturity. Every concept is taught by an engineer who has shipped Java code.
 
-### For Kids (Ages 6-12)
+**You'll learn:** classes, objects, inheritance and OOP. **You'll build:** board-ready programs and portfolio projects.
 
-Baranagar families value genuine learning — our coding courses deliver exactly that.
+[Explore Java for ICSE Students →](/java-programming-for-icse-students)
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+Applied AI & data
 
-💻
+### AI & Machine Learning
 
-### For Teens (Ages 13-18)
+AI/ML is where Baranagar's statistics heritage meets modern coding — and it is the track most asked about by ISI-aspirant and college households near the Bonhooghly campus. Teens start with intuitive ML concepts and teen-level projects; college students go further into Python model building and real datasets. Taught by engineers, the focus is genuine understanding of how models reason, not buzzwords.
 
-Where the Ramakrishna legacy neighbourhood builds digital-age skills with sincerity.
+**You'll learn:** data handling, model training and evaluation. **You'll build:** demonstrable models and notebooks for your portfolio.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+[Explore AI/ML for Teens →](/ai-ml-course-for-teens) · [AI/ML for College Students →](/ai-ml-course-for-college-students)
 
-🎓
+Schools Served
 
-### For College Students
+## Board-aware teaching for every Baranagar school
 
-Baranagar's college students add practical coding depth to their academic foundation.
+We teach students from every major Baranagar school across all three boards — ICSE/ISC at Central Modern School and Sailendra Sircar Vidyalaya (Java/BlueJ), CBSE at Kendriya Vidyalaya Cossipore and the Belgharia-Dunlop schools including Adamas International (Python), and WBBSE at Baranagar Narendranath Vidyamandir, Baranagar Ramakrishna Mission Ashrama High School, Baranagar Rajkumari Memorial Girls' High School and Mahesh Bhattacharya Memorial High School. Holy Child Institution and ICSE convent families are equally at home with us, and we explain comfortably in Bengali and Hindi as well as English.
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Because Baranagar runs a real board mix, our teaching is board-aware, not one-size-fits-all. ICSE students get Java/BlueJ aligned to Computer Applications and the [ICSE/CBSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) board course covers ICSE Java and CBSE Python theory, practicals and projects together — so a Class 11 student at Sailendra Sircar and one at the Cossipore KV can prepare in the same household. For the maths side, [Online Maths Tuition](/online-maths-tuition) follows your child's exact board from Grade 1 through college, including Olympiad and ISI-entrance-style work.
 
-💼
+The Neighbourhood
 
-### For Professionals
+## Baranagar: old-money intellect, statistical seriousness
 
-Upskilling programmes for working professionals staying relevant in tech.
+Baranagar is one of India's oldest municipalities, and it carries itself like one — a dense, old-money North Kolkata belt where intellect is a household value, not a slogan. The Ramakrishna Math's idea of education as Vidya, learning in service of character, still sets the tone, and the Indian Statistical Institute campus at Bonhooghly gives the whole area a quiet, statistics-and-maths-respecting seriousness. Families here have often had a researcher, statistician or college teacher in a previous generation, and they can smell marketing from a mile off.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+That is exactly why we keep our promise narrow and literal: live teaching, small rooms, real engineers, genuine maths. A Baranagar parent does not want a flashy app or a recorded video library — they want their child to actually understand why a proof works and why a program runs. We teach coding as applied logic sitting on top of mathematics, which is the way this neighbourhood already thinks. The same child can drill ISI-entrance probability in the morning and build a Python project in the evening, with teachers who treat both as one discipline.
 
-📊
+And we take the daily reality seriously. Between Sinthee More, Tobin More and the Dunlop crossing, the evening grind on B.T. Road is real, and changing autos at the Baranagar or Bonhooghly junction adds another tiring leg before any physical class even begins. Live online erases that entire commute — from a flat in Bonhooghly, Cossipore, Alambazar or near Dakshineswar, your child simply opens a laptop at class time. The hour you save is given back to study and rest, which in an academically serious home matters more than anything.
 
-### Mathematics for All Ages
+PROJECT A
 
-Baranagar families know maths and code are inseparable.
+### Noapara Metro vs Auto Time Race
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+A Class 8 student in Bonhooghly built a Python script comparing Noapara metro timings against B.T. Road auto routes to predict the fastest way to reach Esplanade at different hours, using a week of his own logged trips.
 
-☀️
+PROJECT B
 
-### Summer & Winter Camps
+### ISI-Style Probability Trainer
 
-Intensive short-term programs during school breaks.
+A Class 11 ISI-aspirant near Bonhooghly coded a Python quiz engine that generates fresh permutation-and-probability problems in the ISI/B.Stat entrance style and tracks accuracy over time, drilling toward the entrance two years out.
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+PROJECT C
 
-## Why Baranagar Parents Choose Modern Age Coders
+### Baranagar Math Aarti Crowd Estimator
 
-🎥
+A Class 9 girl built a Scratch and spreadsheet model estimating evening aarti crowd sizes at Baranagar Math and Dakshineswar across the week, turning her own counts into a simple bar-chart predictor for the family's temple visits.
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+"What won us over was that the teacher actually made our son understand the logic, not just finish the chapter — and there's no more evening trip down B.T. Road."
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Baranagar families expect quality education to work.
+PParentBonhooghlyAreas Served
 
-👥
+## Pin codes & localities we teach in
 
-### Small Batches — Maximum 6-8 Students
+Serving Baranagar and the surrounding North Kolkata belt across pin codes 700036, 700090, 700108 (ISI/Bonhooghly), 700035, 700050, 700056 and 700110.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+BaranagarBonhooghlySintheeSinthee MoreTobin RoadCossiporeAlambazarDakshineswarBelghariaDunlopNoaparaAriadahaKashipurPaikparaKuthighat
 
-🧰
+Not on the list? If you are anywhere along B.T. Road or the wider North Kolkata belt, our live online classes reach you exactly the same way — [book a free demo](/contact) and join from home.
 
-### Coding + Maths Combined — Only in India
+Weekly Schedule
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why North Kolkata parents trust us over single-subject alternatives.
+## Flexible slots around school & tuition
 
-💰
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Morning | 7:00–9:00 AM | Early risers, adults before work, weekend learners | Mon–Sat / Sun |
+| Afternoon | 1:00–4:00 PM | Younger kids, half-day school students | Mon–Fri |
+| Evening | 5:00–8:00 PM | School-going kids & teens after class | Mon–Sat |
+| Late evening | 8:00–9:30 PM | Working adults & college students | Mon–Sat |
+| Weekend | Flexible AM/PM | Board-exam intensives & ISI-entrance maths | Sat & Sun |
 
-### Starting at Just ₹1,499/month
+Slots are flexible — we fit class times around your child's school, tuition and board-exam schedule.
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+Honest Comparison
 
-## Baranagar: ISI, Dakshineswar, and the Statistical Mind of North Kolkata
+## Live online vs offline — where each wins
 
-Baranagar sits along the river, with Dakshineswar Temple at one end and the Indian Statistical Institute campus at the other. This is statistical Kolkata — the neighbourhood that has produced more econometricians and statisticians per capita than perhaps any other in India. The families along B.T. Road, Tobin Road, and Bonhooghly often have a researcher or a college professor in the previous generation.
+### Where live online wins
 
-Children grow up with a particular intellectual flavour: heavy on Mathematics, light on noise, sceptical of marketing. For these families, coding fits naturally because programming is essentially applied logic — the same instinct that drew their parents and grandparents to statistics.
+- No evening commute down B.T. Road — no Sinthee More, Tobin More or Dunlop traffic, no auto-changing at the Baranagar crossing.
+- An hour-plus saved each way goes straight back into study, rest and family time.
+- Small live batches of 6–8 mean more speaking and coding turns than a 30-seat physical room.
+- Taught by full-time engineers and maths graduates, not whoever is locally available.
+- Your child learns on the actual device they will build on, with screen-sharing and real-time code review.
+- Recordings of your own class are available for revision, while teaching stays fully live.
+- Parents can sit in from the next room and see the teaching quality for themselves.
 
-Our courses combine coding with mathematics in a way that resonates here. The Python + Algebra + Probability track for senior students draws particular interest from Baranagar parents who want their child preparing for ISI's entrance exams several years out.
+### When offline still wins (honestly)
 
-### Recent Projects Built by Students from Baranagar
+- A child who genuinely cannot self-start may need someone physically in the room — though our small batches and 1-on-1 close most of that gap.
+- Hands-on robotics or hardware kits are easier face-to-face than over a screen.
+- Some very young children settle faster with an in-person teacher for the first few weeks.
+- Families with unreliable internet at home may find a physical centre steadier.
 
-These are real student projects from our Baranagar batches — small, useful, and unmistakably theirs.
+For the great majority of Baranagar, Bonhooghly and Sinthee families, live online delivers better teachers, smaller rooms and zero commute — [book a free demo](/contact) and judge the quality before you decide.
 
-#### ISI Entrance Maths Drill
+How To Start
 
-A Class 11 student built a Python program that drills him on 40 ISI-style probability questions per session. He's planning to write the entrance exam in two years.
+## Four steps to your first class
 
-#### Dakshineswar Visitor Flow Logger
+01
 
-A Class 9 boy built a Scratch app that estimates temple visitor counts during the Saraswati Pujo week. The temple committee found it interesting.
+### Book a free demo
 
-#### Statistics Homework Helper
+Tell us your child's age, board and goals, and we'll schedule one free live demo class — no card, no commitment. [Book a Free Demo Class](/contact)
 
-A Class 12 student built a Python program that computes mean, variance, and correlation for any dataset she pastes in. Her tuition teacher adopted it as a class example.
+02
 
-“
+### Meet your teacher live
 
-Half this neighbourhood is statisticians or their descendants. We don't separate code from math. The fact that your platform treats them together is rare and right.
+Your child sits in a real live class with a full-time engineer or maths graduate and experiences the small-batch teaching first-hand. [See all courses](/courses)
 
-— A Baranagar parent, paraphrased from a recent conversation.
+03
 
-## Neighbourhoods near Baranagar We Serve
+### Pick your plan
 
-Because every class is live online, we serve students across the entire Baranagar belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+Choose group (₹1,499/mo), mini batch (₹2,499/mo) or 1-on-1 (₹4,999/mo) — switch any time as your child progresses. [View pricing](/pricing)
 
-### Pin codes we actively teach in
+04
 
-**700036** (Baranagar core, Bonhooghly), **700090** (Sinthee, Tobin Road), **700035** (Belgharia border), **700050** (Belgachia), **700108** (B.T. Road, ISI side), **700002** (Cossipore touch), **700056** (Dakshineswar side).
+### Start building
 
-### Localities our students log in from
+Begin weekly live classes and watch your child build real projects from the first month. [Read our Wall of Love](/love)
 
-BaranagarBonhooghlySintheeTobin RoadB.T. RoadDakshineswarBelgachiaCossiporeBelgharia borderAlambazarNorthern AvenueKashipurPaikparaTala ParkKhardah border
+From a Parent
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+## What families say
 
-## Class Timings & Weekly Schedule for Students near Baranagar
+"The way the teachers explain coding to my son Dhairya is wonderful — he actually looks forward to every class and has built real projects he is proud of. As a parent, the small batch size and the personal attention made all the difference."
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
-
-☀️
-
-### Morning Slot — 9:00 to 11:00 AM
-
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
-
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
-
-🏫
-
-### After-School Slot — 4:30 to 7:30 PM
-
-The most popular slot for kids and teens near Baranagar. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Baranagar parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Sailendra Sircar Vidyalaya, Indian Institute of Cerebral Palsy school, St. Xavier's Collegiate (nearby) and similar Baranagar-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Kendriya Vidyalaya Cossipore, DAV Public School, Adamas International and other CBSE-track Baranagar-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Holy Child Institution, St. Theresa's, Mahesh Bhattacharya Memorial and other ICSE-track Baranagar-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Baranagar — Honest Comparison
-
-Baranagar and Sinthee have neighbourhood-style tuition rooms along B.T. Road. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Baranagar centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Baranagar crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Baranagar
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Baranagar
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Baranagar. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"My son Aditya has been learning with Modern Age Coders for several months now, and the transformation is remarkable. The teachers genuinely care about each student's understanding. They do not rush through topics — they make sure the concept is truly grasped before moving forward. As a parent, that sincerity in teaching is exactly what I was looking for."
-
-RRitu KediaMother of Aditya
+SSonam OswalMother of Dhairya
 
 [Read more on our Wall of Love →](/love)
 
-## Frequently Asked Questions — Coding & Maths near Baranagar
+FAQ
 
- Are there coding classes for kids near Baranagar, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Baranagar. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from Baranagar Narendranath Vidyamandir, Ramakrishna Mission Ashrama High School, and other Baranagar schools are already learning with us. What is the fee for coding and maths classes near Baranagar? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Baranagar? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Baranagar schools follow. How can my child in Baranagar attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Bonhooghly or Sinthee? +Three big differences. **First**, batch size: most Baranagar tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through B.T. Road and Baranagar junction traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Baranagar? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Baranagar belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Baranagar? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Baranagar. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Sailendra Sircar Vidyalaya, KV Cossipore, Adamas International and other North Kolkata schools and other Baranagar-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
+## Questions Baranagar parents ask
 
-## Start Your Child's Coding & Maths Journey from Baranagar Today
+Every class is 100% live and interactive, taught in real time by a full-time engineer or maths graduate. There are no pre-recorded lectures and no automated apps — your child's questions are answered the moment they are asked. You can [book a free live demo](/contact) to see exactly how a class runs.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) course is mapped to the ICSE Computer Applications syllabus with BlueJ practicals, board-style programs and viva prep. For Class 11-12, the [board Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers ICSE Java in full.Yes — the same [board Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers CBSE Python theory, practicals and projects. Younger CBSE students can start with [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) to build a strong base first.Absolutely — that is the whole point. Classes are 100% live online from home, so your child never sits in evening B.T. Road traffic or changes autos at the Baranagar crossing. All they need is a laptop or desktop and an internet connection.Yes. We teach coding and mathematics as one connected discipline, and [Online Maths Tuition](/online-maths-tuition) covers school maths, Olympiad (AMC/IOQM/RMO/IMO) and college-level work including ISI-entrance-style probability and statistics. Many of our Bonhooghly families run a maths track and a [Python/AI track](/python-and-ai-classes-for-kids-teens) together.Yes. Our teachers explain comfortably in Bengali and Hindi as well as English, which suits students from Ramakrishna Mission, Narendranath Vidyamandir and other WBBSE backgrounds. Concepts are never lost to language.Group classes (max 6–8) are from ₹1,499/month, mini batches (3–4 students) are ₹2,499/month, and 1-on-1 is ₹4,999/month. Full details are on our [pricing page](/pricing), and you can change plans as your child progresses.Yes — 1-on-1 at ₹4,999/month gives fully personalised pacing, ideal for board-exam years or focused ISI-entrance maths. Many quality-focused Baranagar families use mini batches (₹2,499/mo) as a middle ground. See [pricing](/pricing).Group batches are capped at 6–8 students, mini batches at 3–4, and 1-on-1 is one student. We deliberately keep rooms small so every child gets real speaking and coding time — unlike a 30-seat physical coaching centre.You receive a recording of your own session for revision, and a missed class can be made up — we'll help reschedule so nothing is lost. Teaching itself always stays live; recordings are only for revision.A laptop or desktop with a stable internet connection is enough; a headset helps. We use screen-sharing and live code review so the teacher can see and correct your child's code in real time.Plenty — [Python & AI](/python-and-ai-classes-for-kids-teens), [Java Programming](/java-programming-for-kids-teens), [AI/ML for Teens](/ai-ml-course-for-teens), and the full [Coding for Teens hub](/courses/coding/teens). All are project-based and taught live by engineers.Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) (Princess and Queen Coders) are dedicated girls-only batches building tech confidence and leadership across kids and teens.Yes — courses such as the [Java Certification Course](/java-certification-course) and [AI/ML Certification Course](/ai-ml-certification-course) end in a completion certificate and a project portfolio your child can show.Book one free live demo class — no card, no commitment. You and your child meet a real teacher, sit in a real small-batch class, and judge the quality yourselves. [Book a Free Demo Class](/contact).
 
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Baranagar trust Modern Age Coders.
+## Give your Baranagar child depth, not flash.
 
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
+Live online, small-batch coding and maths taught by real engineers and maths graduates — start with one free class and judge the quality yourself.
 
-## Coding & Maths Classes in Other Areas of Kolkata
+[Book a Free Demo Class](/contact)[Explore All Courses](/courses)Nearby Areas
 
-We serve students across Kolkata and Howrah. Explore classes near your area.
+## Coding & maths classes across North Kolkata
 
-[Shyambazar](/coding-classes-near-shyambazar-kolkata)[Dum Dum](/coding-classes-near-dum-dum-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
+[Shyambazar](/coding-classes-near-shyambazar-kolkata)[Dum Dum](/coding-classes-near-dum-dum-kolkata)[Lake Town](/coding-classes-near-lake-town-kolkata)[Sreebhumi](/coding-classes-near-sreebhumi-kolkata)[Nager Bazar](/coding-classes-near-nager-bazar-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [ICSE/CBSE Computer Science Class 11-12 (board CS prep)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
 
 ---
 
