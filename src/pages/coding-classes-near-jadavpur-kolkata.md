@@ -1,362 +1,247 @@
 ---
-title: "Coding & Maths Classes near Jadavpur, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Jadavpur, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Jadavpur, Kolkata"
+description: "Live online, small-batch coding & maths classes near Jadavpur — Python, Java, AI/ML & ICSE/CBSE board prep. Taught by full-time engineers. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-jadavpur-kolkata
-keywords: ["coding classes near Jadavpur Kolkata", "maths tuition Jadavpur Kolkata", "coding classes Jadavpur University", "coding classes St Lawrence High School", "Python classes Jadavpur", "coding for kids Jadavpur", "coding for teens Jadavpur", "online coding classes Jadavpur Kolkata", "ICSE Java tuition Jadavpur", "CBSE Python classes Jadavpur", "maths classes near Jadavpur", "coding classes near me Jadavpur"]
+keywords: ["coding classes near Jadavpur", "coding classes Jadavpur Kolkata", "Python classes Jadavpur", "Java BlueJ classes Jadavpur", "ICSE computer applications Jadavpur", "CBSE computer science Jadavpur", "online maths tuition Jadavpur", "AI ML classes for teens Kolkata", "coding classes Bagha Jatin", "coding classes Santoshpur", "DSA classes Jadavpur University", "kids coding Patuli"]
 source: src/pages/coding-classes-near-jadavpur-kolkata.html
 ---
-> Live online coding classes near Jadavpur, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online, small-batch coding & maths classes near Jadavpur — Python, Java, AI/ML & ICSE/CBSE board prep. Taught by full-time engineers. Book a free demo.
 
-Kolkata's University Town — Live Online Classes
+Jadavpur · Kolkata's University Town
 
-# Coding & Maths Classes for Students near Jadavpur, Kolkata
+# Live Online Coding & Maths Classes near Jadavpur
 
-University town. Research papers, innovation labs, and engineering dreams are in the air. Jadavpur University — one of India's most prestigious engineering institutions — sets the intellectual tone for this entire neighbourhood. Students near Jadavpur don't just study; they build. Schools like **Jadavpur Vidyapith**, **St. Lawrence High School (ICSE)**, **Kendriya Vidyalaya Jadavpur (CBSE)**, and nearby **Calcutta Public School (Haltu)** serve thousands of students who grow up breathing academic ambition. But school computer science syllabi — even at the best schools — barely scratch the surface of what coding truly means. Modern Age Coders brings **100% live online coding and mathematics classes** to Jadavpur families, channelling the innovation culture of this university neighbourhood into structured learning for children of all ages. From a six-year-old learning Scratch to a JU student sharpening DSA skills for placement season, our courses are built for people who believe in building, not just studying.
+Modern Age Coders runs premium, live online coding and mathematics classes for families near Jadavpur, Kolkata — from six-year-olds on Scratch to Jadavpur University students sharpening DSA for placements. We teach Python, Java (BlueJ), AI/ML and ICSE/CBSE board prep in small live batches of 4–8, led by full-time engineers and maths graduates. No pre-recorded videos, no commute down Raja S.C. Mallick Road. Every class is real, live and project-based.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Live, not pre-recordedSmall batches (4–8)Taught by full-time engineersICSE · CBSE · WBBSE aligned[Book a Free Demo Class](/contact)[Explore Courses](/courses)500+Students taught online4.9/5Parent rating4–8Students per live batchFreeFirst demo classLive Online · Jadavpur, Kolkata
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online** — real teacher, real-time, never pre-recordedBatch sizeSmall live batches of **4–8**; mini batches of 3–4; or 1-on-1Ages**6 to 65** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) + MathematicsBoardsICSE/ISC, CBSE, WBBSE, IGCSE — Java/BlueJ and Python tracksFeesGroup **₹1,499**/month · Mini batch **₹2,499**/month · 1-on-1 **₹4,999**/monthFree demoFull live demo session — no payment, no commitmentServingJadavpur, Bagha Jatin, Sulekha, Santoshpur, Garfa, Haltu, Patuli, Garia and nearbyWhy It Works
 
-## Live Online Coding Classes near Jadavpur — What Parents Should Know
+## Live online, premium quality — built for a town that asks hard questions
 
-Most "online" courses you see advertised are pre-recorded videos pretending to be classes. **Modern Age Coders is different.** Every single class near Jadavpur is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug shows up. Parents in Jadavpur consistently tell us this is the single biggest reason they choose us over local tuition centres or YouTube-style "courses".
+Every Modern Age Coders class near Jadavpur is delivered live online by a full-time engineer or maths graduate — not a pre-recorded video, not a part-time tutor. This is premium, high-quality coding and mathematics education built for a university town where parents and JU-adjacent relatives ask hard technical questions and expect teachers who can actually defend a data-structure choice. Here is what that looks like.
 
-📺
+### Genuinely live, never pre-recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is a live class with a real teacher who can see your child's screen, answer questions on the spot and adapt the pace. There are no recorded lectures pretending to be a course. If a Class 10 student is stuck on a BlueJ loop tonight, it gets fixed tonight.
 
-Every class is delivered live by an instructor who can see your child's screen, debug their code in real time, and adjust pace based on the room. No "playlist of videos" trickery.
+### Small batches of 4–8
 
-👨‍👩‍👧‍👦
+We cap live batches at four to eight students so every learner gets airtime and individual code review. In a Jadavpur lane full of large coaching halls, this is the opposite — small enough that the teacher knows exactly where each child is stuck. Mini batches of 3–4 and 1-on-1 are available for deeper attention.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers & maths graduates
 
-Smaller than the average Jadavpur tuition class. Your child gets called on, asked questions, and corrected — not lost in a crowd of 30+.
+Classes are led by full-time engineers and mathematics graduates who teach for a living, not college students moonlighting between exams. This matters in Jadavpur, where families value teachers who can go genuinely deep on OOP, recursion or a calculus proof rather than read off a slide deck.
 
-🏠
+### Project-based from day one
 
-### Zero Travel from Jadavpur
+Students build real, working things — calculators, games, bots, data tools — not just complete worksheets. Project work is how concepts stick and how a portfolio grows. Our Jadavpur learners have shipped auto-fare charts, train-timetable bots and Pujo footfall loggers that family members actually use.
 
-No autos to 8B bus stand, no waiting in evening Raja S.C. Mallick Road traffic. Your child logs in from home, you save 90 minutes of commute every class day.
+### Board-aware, depth-first
 
-📝
+We map directly to the ICSE Java/BlueJ Computer Applications and CBSE Python Informatics Practices syllabi that Jadavpur-belt schools follow — then push past the minimum. Board marks and real understanding are not a trade-off here; you get both. See our [Computer Science course for Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
-### Recordings + Notes After Each Class
+### Zero commute, calendar that respects Kolkata
 
-Missed a class because of school exams or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Learning from your desk in Bagha Jatin, Garfa or Patuli saves 60–90 minutes of evening travel down Raja S.C. Mallick Road and Prince Anwar Shah Road per class day. Batches pause for Durga Pujo, Saraswati Pujo, Christmas and board exam weeks — the way real Kolkata families live.
 
-💻
+The Catalogue
 
-### Project-Based, Not Theory-Heavy
+## Every course, live and taught by an engineer
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show family.
+We teach a full catalogue across coding and mathematics for ages 6 to working professionals — every course below is live online and taught by a full-time engineer or maths graduate.
 
-👨‍🏫
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Ages 12-17, CBSE Python track | Data types, control flow, functions, OOP, pandas/numpy, MySQL — matches CBSE Class 11-12 Informatics Practices |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young first-time Python learners | A gentle entry into Python syntax and logic for children new to text-based coding |
+| [Python Projects for Kids](/python-projects-for-kids) | Kids ready to build with Python | Calculators, games and small apps kids can show the family |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens, ICSE Class 9-10 Computer Applications | BlueJ syntax, arrays, strings, classes, inheritance — 25+ board-style programs and project files |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens, ages 13-18 | Machine-learning concepts and model building for an AI-driven future |
+| [ICSE/CBSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 ICSE (Java) & CBSE (Python) | Complete board CS — theory, practicals, projects and exam prep |
+| [ICSE Computer Applications Class 10](/computer-applications-icse-class-10) | ICSE Class 10 students | The full Class 10 ICSE Java/BlueJ syllabus and practical paper |
+| [Computer Science Class 11 ICSE](/computer-science-class-11-icse) | ISC Class 11 students | ISC-level Computer Science theory and Java practicals |
+| [Computer Science Class 12 ICSE](/computer-science-class-12-icse) | ISC Class 12 students | Advanced Java, data structures and board project work |
+| [Computer Science Class 11 CBSE](/computer-science-class-11-cbse) | CBSE Class 11 students | CBSE Class 11 Computer Science with Python fundamentals |
+| [Computer Science Class 12 CBSE](/computer-science-class-12-cbse) | CBSE Class 12 students | Python, SQL and CBSE board project preparation |
+| [Online Mathematics Tuition](/online-maths-tuition) | Grades 1-12 plus college, all boards | Board maths, Olympiad prep (AMC, IOQM, RMO, IMO), calculus, linear algebra |
+| [Coding Courses for College](/courses/coding/college) | College students & placement aspirants | DSA, MERN stack, AI/ML masterclass, Python for data analysis, MySQL for interviews |
 
-### Parent Updates Every Month
+**More tracks:** [Coding for ICSE Students](/coding-for-icse-students) · [Coding for CBSE Students](/coding-for-cbse-students) · [Coding for IGCSE Students](/coding-for-igcse-students) · [Maths Class 10](/maths-class-10) · [Coding Classes for Girls](/coding-classes-for-girls) · [Summer Coding Camp](/summer-coding-camp) · [Winter Coding Camp](/winter-coding-camp) · [Kids coding (ages 6-12)](/courses/coding/kids) · [See all courses](/courses)
 
-You get a written progress report each month: what your child built, where they're struggling, and what's next. You're never in the dark about whether the fees are worth it.
+Featured Tracks
 
-Want to see it in action? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+## Three tracks Jadavpur families ask for first
 
-## Schools near Jadavpur Whose Students Learn with Us
+Most In-Demand
 
-Students from **Jadavpur Vidyapith**, **St. Lawrence High School (ICSE)**, **Kendriya Vidyalaya Jadavpur (CBSE)**, and nearby **Calcutta Public School (Haltu)** in and around Jadavpur join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+### Python & AI — from first line to data science
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Jadavpur offers this depth of coding education alongside structured mathematics tutoring.
+Python is the language Jadavpur's engineering-minded families ask for first, and for good reason: it powers everything from CBSE Class 11-12 Informatics Practices to real data science and AI careers. Our live, project-based [Python track for kids and teens](/python-and-ai-classes-for-kids-teens) takes students from syntax and logic to functions, OOP and pandas/numpy with MySQL — the exact spine CBSE boards examine.
 
-## What Your Child Will Learn with Modern Age Coders
+**You'll learn:** Control flow, functions, OOP, pandas/numpy, MySQL. **You'll build:** calculators, games and small data tools.
 
-Jadavpur families value substance over shortcuts. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+[Explore Python →](/python-and-ai-classes-for-kids-teens)
 
-🎨
+ICSE Board Essential
 
-### For Kids (Ages 6-12)
+### Java in BlueJ — built for the ICSE Class 9-10 paper
 
-In a neighbourhood that breathes innovation, kids start building early.
+For St. Lawrence and other Jadavpur-belt ICSE students, Java in BlueJ is the board essential, and we teach it the way the Computer Applications paper demands. Our [Java programming track](/java-programming-for-kids-teens) covers syntax, arrays, strings, classes and inheritance through 25+ board-style programs and project files — not theory in a vacuum, but the actual programs that earn marks.
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+**You'll learn:** Arrays, strings, classes, inheritance. **You'll build:** 25+ board-pattern BlueJ programs plus a project file.
 
-💻
+[Explore Java →](/java-programming-for-kids-teens)
 
-### For Teens (Ages 13-18)
+Future-Ready
 
-Where Jadavpur's future engineers sharpen the skills that university demands.
+### AI & Machine Learning — for a JU town that builds
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+In a neighbourhood living in the shadow of Jadavpur University's data-science and engineering faculties, AI is not a buzzword — it is the next syllabus. Our [AI & Machine Learning course for teens](/ai-ml-course-for-teens) introduces real machine-learning concepts and model building for ages 13-18, giving ambitious students a genuine head start rather than a certificate.
 
-🎓
+**You'll learn:** Core ML concepts, data handling and model building. **You'll build:** your first trained, working model.
 
-### For College Students
+[Explore AI & ML →](/ai-ml-course-for-teens)
 
-JU, Techno India, CEMK — college students prepare for the coding interview gauntlet.
+Schools We Serve
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+## Mapped to your school's exact board
 
-💼
+We teach students from across the Jadavpur school belt — Jadavpur Vidyapith and Jadavpur High School (WBBSE), St. Lawrence High School and Modern High School (ICSE), Kendriya Vidyalaya Jadavpur and DPS Ruby Park (CBSE), Calcutta Public School at Haltu, Patha Bhavan in Bagha Jatin, Sushila Birla Girls' School, La Martiniere, and Bidyasagar Sishu Niketan. Whether your child sits the WBBSE, ICSE, CBSE or IGCSE board, our live classes map to their exact syllabus.
 
-### For Professionals
+The Jadavpur belt runs a strong ICSE Java/BlueJ and CBSE Python split for Class 9-12, and we teach both tracks to board standard and beyond. ICSE students get BlueJ-accurate Computer Applications and ISC Computer Science; CBSE students get Python and Informatics Practices for the practical and project paper. Our [Class 11-12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers the theory, practicals, projects and exam prep for the exact boards your school follows — see also [Coding for ICSE Students](/coding-for-icse-students) and [Coding for CBSE Students](/coding-for-cbse-students).
 
-Upskilling programmes for working professionals staying relevant in tech.
+The Neighbourhood
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+## A university town where a child's first language is dinner-table talk
 
-📊
+Jadavpur is a true university town. The shadow of Jadavpur University's engineering and science faculties sets the tone for the whole neighbourhood, and the lanes off Raja S.C. Mallick Road are full of multi-generational engineering, PSU and research households who debate syllabi the way other neighbourhoods debate football. From the 8B Bus Stand to Sulekha crossing to the quieter stretches near Sammilani Park, this is a place where a child's first programming language is dinner-table conversation.
 
-### Mathematics for All Ages
+Families here are board-serious — a strong ICSE Java/BlueJ and CBSE Python split for Class 9-12 — but distinctly depth-hungry. Parents and JU-adjacent relatives ask hard technical questions and distrust glossy marketing; they want teachers who can actually defend a data-structure choice, not recite a brochure. That is exactly why we staff classes with full-time engineers and maths graduates and keep batches small. Substance over polish is not a slogan in Jadavpur — it is the entry fee.
 
-Jadavpur families know maths and code are inseparable.
+From Sulekha to Bagha Jatin to Patuli, this belt is academically ambitious and value-conscious in equal measure. The same parent who wants genuine DSA depth for a JU-bound teenager also wants Scratch to feel like play for a six-year-old, and wants the evening to not be eaten by a 90-minute auto run through Prince Anwar Shah Road traffic. Live online answers all three — depth, delight and zero commute — from one desk at home.
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+PROJECT / 01
 
-☀️
+### JU Canteen Queue Predictor
 
-### Summer & Winter Camps
+A Class 11 boy off Raja S.C. Mallick Road built a Python tool that logs the time of day and estimates wait times at the Jadavpur University canteen rush, plotting the quietest 20-minute window with matplotlib — born from his elder sibling's complaints.
 
-Intensive short-term programs during school breaks.
+PROJECT / 02
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+### Bagha Jatin Local Train Timetable Bot
 
-## Why Jadavpur Parents Choose Modern Age Coders
+A Class 9 ICSE student in Bagha Jatin wrote a BlueJ Java program that takes a destination station and prints the next three Sealdah-South line trains from Bagha Jatin halt; his grandfather now checks it before leaving the house.
 
-🎥
+PROJECT / 03
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+### Sulekha Tuition-Lane Maths Streak Tracker
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — the kind of substance-first education that Jadavpur families value over flashy marketing.
+A Class 10 girl near Sulekha crossing made a Scratch app that turns daily ICSE maths practice into a 'streak' game with badges, after watching coaching-line friends lose momentum between board mock tests.
 
-👥
+"My son's relatives are all engineers, so they grilled the teacher — and for once, the teacher had real answers. That's why we stayed."
 
-### Small Batches — Maximum 6-8 Students
+JA Jadavpur parentparaphrasedAreas We Serve
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+## Jadavpur and every lane around it
 
-🧰
+Serving Jadavpur and the surrounding pin codes **700032, 700075, 700031, 700078, 700099, 700095, 700047** and **700068**.
 
-### Coding + Maths Combined — Only in India
+Jadavpur Central / 8BSulekhaBagha JatinSantoshpurSelimpurGarfaHaltuPatuliBansdroniNaktalaGariaDhakuriaBijoygarhJodhpur ParkPrince Anwar Shah Road
 
-Algorithms need mathematical thinking. Equations click better when you code them. In a neighbourhood shaped by engineering and innovation culture, this synergy makes perfect sense.
+Because every class is live online, distance from any landmark is irrelevant — if you can reach a screen anywhere near Jadavpur, you can join the same batch.
 
-💰
+Weekly Schedule
 
-### Starting at Just ₹1,499/month
+## Live slots that fit school and work
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+Classes run in fixed live slots through the week, with timings that fit school and work — and pauses for Durga Pujo, Saraswati Pujo, Christmas and board exam weeks.
 
-## Jadavpur: India's Engineering Heart Doesn't Settle for Average Coding Education
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-school | 4:00–5:30 PM | Kids (6-12), Scratch & Python beginners | Mon / Wed / Fri |
+| Early evening | 5:30–7:00 PM | Teens, ICSE Java & CBSE Python board prep | Tue / Thu / Sat |
+| Prime evening | 7:00–8:30 PM | Class 9-12 board CS & maths | Mon / Wed / Fri |
+| Night | 8:30–10:00 PM | JU students & professionals — DSA, AI/ML | Tue / Thu / Sat |
+| Weekend | 10:00 AM–12:00 PM | Project intensives & camps | Sat / Sun |
+| Flexible 1-on-1 | By appointment | Any age, custom pace | Any day |
 
-Jadavpur is one of India's three or four most prestigious engineering institutions, and the entire neighbourhood lives in its intellectual shadow. The auto stand at 8B is a meeting place for JU students; the canteens around Sulekha and Bagha Jatin are extensions of the campus. The families that live in the residential lanes off Sulekha and Patuli often have an engineer in the previous generation — a JU graduate, a Bengal Engineering alumnus, or someone who built a career in the public sector.
+Online vs Offline
 
-For these families, coding education has to meet a high standard. The grandfather may have written FORTRAN on a punch-card machine; the father may run a data analytics team. They will ask hard, technical questions during the demo, and they will read the curriculum carefully. They are unimpressed by marketing and entirely impressed by depth.
+## An honest comparison
 
-Our curriculum is built for this audience — project-driven, syntax-precise, real-world. Children from Jadavpur Vidyapith, St. Lawrence, and KV Jadavpur have been some of our most consistent learners, often staying with us from Class 5 (Scratch) all the way through Class 10 (Java) and beyond.
+### Where live online wins
 
-### Recent Projects Built by Students from Jadavpur
+- Zero commute — no 60–90 minute evening auto run down Raja S.C. Mallick Road or Prince Anwar Shah Road
+- The whole city of teachers, not just one Jadavpur-8B coaching hall — you get a full-time engineer regardless of locality
+- Small live batches of 4–8 with screen-sharing, so the teacher sees exactly where your child is stuck
+- Sessions are recorded for revision, so a missed concept can be reviewed before the next class
+- Safer for younger children — learning from home, parents nearby, no evening traffic to navigate
+- Easy 1-on-1 escalation when a Class 12 board student needs deeper, individual attention
+- Calendar respects Kolkata — batches pause for Durga Pujo, Saraswati Pujo, Christmas and board exams
 
-These are real student projects from our Jadavpur batches — small, useful, and unmistakably theirs.
+### When offline still wins
 
-#### Jadavpur 8B Auto Fare Chart
+- Some very young children focus better with a tutor physically beside them for the first few weeks
+- Households without a reliable laptop or stable broadband connection
+- Families who specifically want in-person peer socialising over academic depth
+- Learners who simply prefer a printed notebook and a physical whiteboard
 
-A Class 9 student built a Python script that lists auto fares from 8B Bus Stand to 15 nearby destinations. His mother taped a printed copy near the door.
+For most Jadavpur families chasing real depth, board marks and a sane evening, live online wins on every count that matters — and the free demo lets you judge for yourself before deciding.
 
-#### Patuli Lake Pujo Footfall Logger
+How To Start
 
-A Class 10 girl built a Scratch app that estimates Pujo footfall at the Patuli Lake pandal. The local committee found it interesting.
+## Four steps from demo to first project
 
-#### Jadavpur Vidyapith Maths Drill
+01
 
-A Class 11 boy built a Python program that drills him on 50 ICSE-style maths questions per session. He used it for his Class 11 final prep.
+### Book a free demo
 
-“
+Reserve a full live demo class with a real teacher, no payment and no commitment. [Book a Free Demo Class](/contact).
 
-Jadavpur is a hard audience. We are an engineering family. Our questions during the demo were technical. The instructor answered all of them honestly, including 'we don't teach that yet'. That is why we joined.
+02
 
-— A Jadavpur parent, paraphrased from a recent conversation.
+### Meet your teacher live
 
-## Neighbourhoods near Jadavpur We Serve
+Sit in on a real session, ask the hard technical questions, and watch your child code in real time. [Explore Courses](/courses) first if you want to choose a track.
 
-Because every class is live online, we serve students across the entire Jadavpur belt and adjoining South Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+03
 
-### Pin codes we actively teach in
+### Pick your batch & plan
 
-**700032** (Jadavpur, Sulekha, 8B Bus Stand), **700075** (Bagha Jatin, Patuli, Garia border), **700031** (Dhakuria, Selimpur edge), **700068** (Bansdroni outskirts), **700078** (Garfa, Santoshpur side), **700099** (Garia, Naktala), **700095** (Haltu side — Calcutta Public School area).
+Choose group, mini batch or 1-on-1 at a fee that fits — ₹1,499, ₹2,499 or ₹4,999 per month. [View Pricing](/pricing).
 
-### Localities our students log in from
+04
 
-Jadavpur CentralBagha JatinSulekhaSantoshpurSelimpurGarfaHaltuPatuliBansdroniNaktalaGariaDhakuriaPrince Anwar Shah RoadRaja S.C. Mallick RoadSammilani Park
+### Start building
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+Join your live batch and ship your first working project within the first few weeks. [Read more on our Wall of Love](/love).
 
-## Class Timings & Weekly Schedule for Students near Jadavpur
+"The teachers genuinely care about how much Dhairya actually understands, not just finishing the syllabus. The live classes are interactive and he looks forward to them every week — we couldn't be happier."
 
-Most Jadavpur schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
-
-☀️
-
-### Morning Slot — 9:00 to 11:00 AM
-
-Best for: pre-school / kindergarten kids, working professionals, college students in evening shift jobs, or weekend learners.
-
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
-
-🏫
-
-### After-School Slot — 4:30 to 7:30 PM
-
-The most popular slot for kids and teens near Jadavpur. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- JU students & college learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Jadavpur parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Bidyasagar Sishu Niketan, KV Jadavpur primary section, or Calcutta Public School Haltu.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at KV Jadavpur, DPS Ruby Park (close enough), Sushila Birla Girls' School, and JU campus school children.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that St. Lawrence High School, La Martiniere for Boys/Girls, Modern High School, and Calcutta Public School students follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Jadavpur — Honest Comparison
-
-Jadavpur has good local computer tuition centres. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Jadavpur centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through evening Jadavpur traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Jadavpur
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person CCTV-style supervision of the room
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Jadavpur
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Jadavpur. All you need is a laptop and internet.
-
-## What Students Say About Modern Age Coders
-
-★★★★★
-
-"Modern Age Coders has been a game-changer! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs."
-
-SSamridho MondalStudent, Grade 9
+SSonam OswalMother of Dhairya
 
 [Read more on our Wall of Love →](/love)
 
-## Frequently Asked Questions — Coding & Maths near Jadavpur
+Questions Parents Ask
 
- Are there live coding classes available for kids near Jadavpur, Kolkata? +Yes. Modern Age Coders offers 100% live online coding classes for kids aged 6-12 near Jadavpur. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics — all from home. Classes start at ₹1,499/month with small batches of 6-8 students. Students from Jadavpur Vidyapith, St. Lawrence High School, and other nearby schools are already learning with us. What do coding and maths classes near Jadavpur cost? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Can students near Jadavpur get ICSE Java and CBSE Python board exam preparation? +Absolutely. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Jadavpur-area schools follow. Do you offer DSA or placement prep for Jadavpur University students? +Yes. We offer Data Structures & Algorithms (DSA), MERN Stack, AI/ML, and Python courses designed for college students preparing for campus placements and coding interviews. JU, Techno India, and other college students near Jadavpur already train with us. [Explore college courses](/courses/coding/college). What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near 8B Bus Stand or Sulekha? +Three big differences. **First**, batch size: most Jadavpur tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after school. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Raja S.C. Mallick Road or Prince Anwar Shah Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Jadavpur? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Jadavpur belt are 100+ Mbps and more than enough. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, JU campus interviews, or just showing off to grandparents in Bagha Jatin. My child is from a Bengali-medium school near Jadavpur. Will language be a problem? +Not at all. Several of our Jadavpur Vidyapith and other Bengali-medium board students start with us every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English, and where helpful, switch to Bangla or Hindi to clarify. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students, we also help compile the syllabus-mandated project files in the format your school accepts.
+## Frequently asked questions
 
-## Start Your Child's Coding & Maths Journey from Jadavpur Today
+Yes. Our [Java track](/java-programming-for-kids-teens) and [ICSE Computer Applications Class 10 course](/computer-applications-icse-class-10) follow the BlueJ Computer Applications syllabus exactly, with 25+ board-style programs and a project file. We teach to the actual practical paper, not generic Java.Yes. Our [Class 11-12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers Python, pandas/numpy, MySQL and the full CBSE practical and project paper. It maps directly to Informatics Practices and Computer Science for Classes 11 and 12.As deep as your student can take it. Classes are led by full-time engineers, and our [college coding track](/courses/coding/college) covers DSA, MERN, Python for data analysis and AI/ML for placements. We are happy to be grilled on a data-structure choice in the demo.Yes. Batches pause for Durga Pujo, Saraswati Pujo, Christmas and the WBBSE/ICSE/CBSE board exam weeks. We schedule around how Kolkata families actually live.Yes — every class is 100% live online with a real teacher, never pre-recorded. You learn from your own desk in Jadavpur, Bagha Jatin, Garfa or Patuli, saving 60–90 minutes of evening travel per class day.Yes. Our [college track](/courses/coding/college) covers DSA, MERN stack, AI/ML and MySQL for campus interviews, and 1-on-1 slots are available for focused placement prep at ₹4,999/month.Group batches (max 6-8) are ₹1,499/month, mini batches (3-4 students) are ₹2,499/month, and 1-on-1 is ₹4,999/month. Full details are on our [pricing page](/pricing).ICSE/ISC, CBSE, WBBSE and IGCSE. We run dedicated pathways for [ICSE](/coding-for-icse-students), [CBSE](/coding-for-cbse-students) and [IGCSE](/coding-for-igcse-students) students.Small by design — group batches cap at 6-8 students, mini batches at 3-4, and 1-on-1 is available. This keeps individual code review and airtime possible for every learner.Sessions are recorded so your child can review a missed class before the next one, and teachers help them catch up. For 1-on-1 students, slots can usually be rescheduled.A laptop or desktop with a stable broadband connection and a webcam is ideal. A tablet works for younger kids on Scratch, but text-based coding from Class 6 onward is best on a computer.Classes are taught in clear English, and teachers comfortably explain in Hindi or Bengali when a younger child needs it — common for Jadavpur families.Yes. Kids aged 6-12 start with [Scratch and block coding](/courses/coding/kids), and we run girls-only [Princess Coders and Queen Coders](/coding-classes-for-girls) batches.Both. Our [online maths tuition](/online-maths-tuition) covers Grades 1-12 and college — board maths, [Class 10 maths](/maths-class-10), and Olympiad prep (AMC, IOQM, RMO, IMO), calculus and linear algebra.Students receive a completion certificate for each track, and the best way to begin is a free live demo — no payment, no commitment. [Book a Free Demo Class](/contact) and meet the teacher first.
 
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Jadavpur trust Modern Age Coders.
+## Depth over marketing. Live over recorded. Start near Jadavpur today.
 
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
+Book a free live demo, ask the hard questions, and watch your child build something real — no payment, no commitment.
 
-## Coding & Maths Classes in Other Areas of Kolkata
+[Book a Free Demo Class](/contact)[Explore Courses](/courses)[WhatsApp +91 91233 66161](https://wa.me/919123366161)Nearby Localities
 
-We serve students across Kolkata and Howrah. Explore classes near your area.
+## Coding & maths classes across South Kolkata
 
-[Dhakuria](/coding-classes-near-dhakuria-kolkata)[Kasba](/coding-classes-near-kasba-kolkata)[Jodhpur Park](/coding-classes-near-jodhpur-park-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
+[Dhakuria](/coding-classes-near-dhakuria-kolkata)[Kasba](/coding-classes-near-kasba-kolkata)[Jodhpur Park](/coding-classes-near-jodhpur-park-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
+
+ICSE & CBSE board families: [Computer Science for Class 11-12 →](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
 
 ---
 
