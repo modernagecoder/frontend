@@ -1,364 +1,242 @@
 ---
-title: "Coding & Maths Classes near Ballygunge, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Ballygunge, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, Modern High, Birla High students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Coding & Maths Classes near Ballygunge, Kolkata"
+description: "Live online coding & maths classes for Ballygunge families. Small 6-8 batches, ICSE Java & CBSE Python, taught by full-time engineers. Book a free demo today."
 canonical: https://learn.modernagecoders.com/coding-classes-near-ballygunge-kolkata
-keywords: ["coding classes near Ballygunge Kolkata", "maths tuition Ballygunge Kolkata", "coding classes South Point High School", "coding classes Modern High School", "Python classes Ballygunge", "coding for kids Ballygunge", "coding for teens Ballygunge", "online coding classes Ballygunge Kolkata", "ICSE Java tuition Ballygunge", "CBSE Python classes Ballygunge", "maths classes near Ballygunge", "coding classes near me Ballygunge"]
+keywords: ["coding classes near Ballygunge", "coding classes Ballygunge Kolkata", "maths tuition Ballygunge", "ICSE Java classes Kolkata", "CBSE Python coding Ballygunge", "online coding classes South Kolkata", "Python classes for kids Ballygunge", "coding classes near Gariahat", "AI ML classes for teens Kolkata", "computer science Class 11 12 Kolkata", "coding for kids Ballygunge Circular Road", "live online coding Kolkata"]
 source: src/pages/coding-classes-near-ballygunge-kolkata.html
 ---
-> Live online coding classes near Ballygunge, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, Modern High, Birla High students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes for Ballygunge families. Small 6-8 batches, ICSE Java & CBSE Python, taught by full-time engineers. Book a free demo today.
 
-South Kolkata's Education Hub — Live Online Classes
+Live Online · South Kolkata · Ballygunge
 
-# Coding & Maths Classes for Students near Ballygunge, Kolkata
+# Coding & Maths Classes near Ballygunge, Kolkata
 
-Ballygunge is the undisputed centre of South Kolkata's academic universe. Within a two-kilometre radius sit **South Point High School**, **Modern High School for Girls**, **Birla High School**, and **Mahadevi Birla World Academy** — some of India's most celebrated schools. Parents here set the bar high, yet most schools still teach computing through a thin ICT syllabus. Modern Age Coders fills that gap with **100% live online coding and mathematics classes** that Ballygunge students join from home — no Gariahat traffic, no crowded coaching centres.
+Modern Age Coders runs premium, live online coding and mathematics classes for Ballygunge families, in small batches of 6-8 students taught by full-time engineers and maths graduates. We follow the exact ICSE Java (BlueJ) and CBSE Python syllabi that South Point, Modern High, Birla High and La Martiniere for Girls set, so your child gets board-grade rigour without the daily fight through Ballygunge Phari and Gariahat traffic. Book a free live demo.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Small live batches (max 6-8)Taught by full-time engineersProject-based, not pre-recordedClasses can start within 24 hours[Book Free Demo Class](/contact)[Explore Courses](/courses)6-8Students per live batch₹1,499Per month, group10+Ballygunge schools served24 hrsFrom demo to first classLive Online · Ballygunge, Kolkata
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online** — real teacher, real-time, never pre-recordedBatch sizeSmall live batches of **6-8**; mini batch 3-4; or 1-on-1Ages**6 to 65** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)Boards**ICSE, CBSE, IGCSE, WBBSE** — aligned to the syllabus your school followsFeesFrom **₹1,499/month** (group, max 6-8) · ₹2,499/month (mini batch 3-4) · ₹4,999/month (1-on-1)Free demoYes — a full live class, not a sales pitch; classes can start within 24 hoursServingBallygunge Phari, Ballygunge Circular Road, Beck Bagan, Hindustan Park, Ekdalia, Bondel Road, Gariahat, Golpark & all South KolkataWhy it works
 
-## Live Online Coding Classes near Ballygunge — What Parents Should Know
+## Premium, live, small-batch — built for demanding families
 
-Ballygunge parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Ballygunge is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. South Point, Modern High, and Birla High parents consistently tell us this is the single biggest reason they switched from local Gariahat tuition rooms.
+Every Modern Age Coders class is delivered live online by a full-time engineer or maths graduate, in a small batch of 6-8 students — never a pre-recorded video and never a 40-child broadcast. This is premium, high-quality coding and maths education built for the academically demanding Ballygunge family that wants school-grade depth, individual attention and real accountability.
 
-📺
+### Live, never pre-recorded
 
-### 100% Live, Not Pre-Recorded
+Your child learns from a real teacher in real time, asks questions the moment they arise and gets answered on the spot. There are no recorded lectures to passively watch; every session is a live, two-way class. That is how a doubt about a BlueJ output gets cleared before it becomes a board-exam mistake.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small batches of 6-8
 
-👨‍👩‍👧‍👦
+We cap live batches at 6-8 students so every child is seen, heard and stretched — the small-batch rigour Ballygunge parents specifically ask for. For those who want even closer attention, mini batches of 3-4 and fully personalised 1-on-1 are available. No child hides at the back of the room.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers
 
-Smaller than any Ballygunge tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are run by full-time engineers and maths graduates, not rotating part-time tutors or college freelancers. They write code for a living and teach it the way it is actually used, then map it back to the exact ICSE and CBSE syllabus points your school examines. Serious teachers for serious parents.
 
-🏠
+### Project-based learning
 
-### Zero Travel through Gariahat Traffic
+Children build real, working projects — a Python score tracker, a Scratch route planner, a Java drill engine — instead of memorising syntax. Every concept lands through something the child makes and can show you. Skills stick because they were used, not crammed.
 
-No fighting evening Gariahat Junction jams, no looking for parking near Quest Mall. Your child logs in from home; you save 90 minutes of commute each class day.
+### Board-aligned curriculum
 
-📝
+We teach the precise syllabus Ballygunge schools follow: ICSE Java/BlueJ for Class 9-10 Computer Applications and CBSE Python for Class 11-12 Informatics Practices. Practical files, output-prediction problems and project work all map to what the boards actually mark. See our [Class 11-12 board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
-### Recordings + Notes After Each Class
+### No commute, all the hours back
 
-Missed a class because of school exams, a vacation, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Going live online removes the daily grind through the Ballygunge Phari five-point crossing and the perpetual Gariahat Junction snarl, plus the parking hunt around Quest Mall — reclaiming roughly 90 minutes per class day. Your child simply logs in from your Ballygunge Circular Road flat and starts learning.
 
-💻
+Full catalogue
 
-### Project-Based, Not Theory-Heavy
+## Coding & maths courses for every age
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Ages ~10-17, CBSE Informatics Practices track | Data types, control flow, functions, OOP and pandas/numpy basics through board-style projects |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | ICSE Class 9-10 Computer Applications students | Java syntax, OOP, arrays, strings, the BlueJ environment and 25+ board-style programs |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens 13-18 ready to go beyond intro coding | Machine learning and AI fundamentals, positioned as the future of every industry |
+| [Online Maths Tuition](/online-maths-tuition) | All ages, Grades 1-12 (ICSE/CBSE/WBBSE) + college | School maths through college, plus Olympiad prep (AMC, IOQM, RMO, IMO) — maths and code together |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only batches: Princess Coders (kids), Queen Coders (teens) | Coding skills and tech leadership in a dedicated, supportive girls-only batch |
+| [ICSE/CBSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 board students (ICSE Java + CBSE Python) | Theory, practicals, projects and full board exam prep |
+| [Coding for Kids (Ages 6-12)](/courses/coding/kids) | Primary-section beginners, ages 6-12 | Scratch and block-based coding, HTML/CSS web design and Kids AI basics |
+| [Coding for Teens (Ages 13-18)](/courses/coding/teens) | Teens on ICSE/CBSE tracks | Python, Java, AI/ML, full-stack web, game dev and competitive programming |
+| [Coding for College Students](/courses/coding/college) | College students (e.g. Jadavpur, Presidency) | DSA, MERN stack, AI/ML masterclass, Python for data analysis and MySQL mastery |
+| [Corporate / Customized Training](/courses/coding/corporate) | Working professionals and corporate teams | Custom upskilling, career-switch training and team programmes |
+| [Summer Coding Camp](/summer-coding-camp) | Kids, teens and adults on summer break | A full module completed intensively in 3-4 weeks |
+| [Winter Coding Camp](/winter-coding-camp) | Kids, teens and adults over winter holidays | A full module completed intensively in 3-4 weeks |
+| [All Courses Index](/courses) | Anyone browsing the full catalogue | Every coding and maths track — Web Dev, AI/ML, DSA, MERN and more |
 
-👨‍🏫
+Where most students start
 
-### Parent Updates Every Month
+## Three featured tracks
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+Most in-demand
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+### Python & AI for Kids and Teens
 
-## Schools near Ballygunge Whose Students Learn with Us
+Python is the most in-demand language and the spine of the CBSE Informatics Practices track that South Point and Birla High students sit for. We take children from first principles — data types, control flow, functions, OOP — into real pandas and numpy work, all through board-exam-style projects rather than rote syntax drills.
 
-Students from [South Point High School (CBSE)](/coding-and-maths-for-birla-high-school-kolkata), [Modern High School for Girls (ICSE)](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata), Kendriya Vidyalaya Ballygunge (CBSE), [Birla High School (CBSE)](/coding-and-maths-for-birla-high-school-kolkata), Calcutta Boys' School (ICSE), and [Mahadevi Birla World Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) in and around Ballygunge join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+**You'll learn:** Core Python and OOP. **You'll build:** a working data project you can demo, built board-style.
 
-Whether your child follows the ICSE, CBSE, or IGCSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform in Ballygunge offers this depth of coding education alongside structured mathematics tutoring.
+[Start with Python →](/python-and-ai-classes-for-kids-teens)
 
-## What Your Child Will Learn with Modern Age Coders
+ICSE essential
 
-Ballygunge parents expect academic excellence. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+### Java Programming for Kids and Teens
 
-🎨
+Java with BlueJ is the heart of ICSE Class 9-10 Computer Applications at Modern High, La Martiniere for Girls and St. Lawrence — and it is exactly what we teach. We drill syntax, OOP, arrays and strings against 25+ board-style programs and the output-prediction problems that trip students up in the practical exam.
 
-### For Kids (Ages 6-12)
+**You'll learn:** Java, OOP and BlueJ. **You'll build:** 25+ board-style programs and a personal drill engine.
 
-The perfect starting age. South Kolkata's brightest young minds begin their coding journey here.
+[Start with Java →](/java-programming-for-kids-teens)
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+Future-ready
 
-💻
+### AI & Machine Learning for Teens
 
-### For Teens (Ages 13-18)
+For the teen who has outgrown intro programming, our AI and machine learning track introduces the fundamentals now shaping every industry. Students move from solid Python into real ML concepts — data, models, training and prediction — building intuition that puts them years ahead of the school syllabus.
 
-Where ICSE and CBSE students build skills that boards and entrance exams both reward.
+**You'll learn:** ML and AI fundamentals. **You'll build:** a first machine-learning model from data to prediction.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+[Start with AI & ML →](/ai-ml-course-for-teens)
 
-🎓
+Schools we serve
 
-### For College Students
+## The legacy schools that set the bar in Ballygunge
 
-From Jadavpur University to Presidency — sharpen your competitive edge.
+We teach children from the legacy schools that set the academic bar in Ballygunge: South Point High School (CBSE) on Ballygunge Place, Modern High School for Girls (ICSE) at Beck Bagan, [Birla High School (CBSE)](/coding-and-maths-for-birla-high-school-kolkata) and [Mahadevi Birla World Academy (ICSE)](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) on Moira Street, La Martiniere for Girls (ICSE) on Rawdon Street, Pratt Memorial, St. Lawrence High School on Ballygunge Circular Road, Calcutta Boys' School, Kendriya Vidyalaya Ballygunge and Calcutta International School (IGCSE). All within roughly a 2km radius of Ballygunge Phari.
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Because Ballygunge is heavily ICSE and CBSE with some IGCSE, we match the curriculum precisely: Java with BlueJ for ICSE Class 9-10 Computer Applications, and Python for CBSE Class 11-12 Informatics Practices. Our [Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers theory, practicals, projects and board exam prep for exactly the boards these schools follow — so what a child learns with us lands directly on their school practical file and board marksheet.
 
-💼
+The neighbourhood
 
-### For Professionals
+## Old-money academic heartland, no tolerance for fluff
 
-Upskilling programmes for working professionals staying relevant in tech.
+Ballygunge is South Kolkata's old-money academic heartland — a leafy belt of generational bungalows and heritage flats around Ballygunge Circular Road, where families have lived for fifty years and more, and treat schooling as a serious, multi-generational project. From Ballygunge Phari to Beck Bagan to Hindustan Park, the streets carry a quiet expectation: do it properly, or do not bother.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+It is also a place where parents are well-informed and openly sceptical of edu-tech hype, and rightly so. The dense cluster of legacy schools within two kilometres — South Point, Modern High, Birla High, La Martiniere for Girls — sets an exacting standard, and the prevailing culture rewards quiet rigour, small batches and board-grade depth over flashy gamification and a leaderboard. That is precisely the kind of teaching we built.
 
-📊
+And it spares the family the Ballygunge ritual nobody misses: the crawl through the Phari five-point crossing, the perpetual Gariahat Junction snarl on the school run, the parking hunt around Quest Mall and Gariahat Market. A live online class hands those ninety minutes back to a child who simply logs in from home — and uses the time to actually build something.
 
-### Mathematics for All Ages
+### Gariahat Phari Signal-Timer Logger
 
-Ballygunge parents know maths and code are inseparable.
+A Class 8 South Point student wrote a Python program that logs how long the Ballygunge Phari traffic signal makes the family car wait each morning, then charts the worst days of the week so they leave earlier on Fridays.
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### Ekdalia Puja Pandal-Hop Planner
 
-☀️
+A Class 6 girl from a Hindustan Park family built a Scratch app that maps the shortest walking route between Ekdalia Evergreen, Singhi Park and Ballygunge Cultural pujas, so her cousins can pandal-hop without doubling back.
 
-### Summer & Winter Camps
+### ICSE Java BlueJ Drill Bot
 
-Intensive short-term programs during school breaks.
+A Class 10 St. Lawrence boy built a Python quiz engine that fires 30 ICSE Computer Applications Java/BlueJ questions per sitting and tracks which output-prediction problems he keeps failing before his board practicals.
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+"We wanted the rigour of a proper school tutor, in a small batch, without the daily Gariahat traffic — and that is exactly what we found."
 
-## Why Ballygunge Parents Choose Modern Age Coders
+PA Ballygunge parentparaphrased from a recent conversationAreas we serve
 
-🎥
+## Ballygunge & the South Kolkata belt
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+Serving Ballygunge and the surrounding South Kolkata pin codes — **700019, 700029, 700017, 700020, 700025, 700026 and 700039**.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Ballygunge families expect quality education to work.
+Ballygunge PhariBallygunge Circular RoadBeck BaganHindustan ParkEkdaliaKarunamoyeeBondel RoadMandeville GardensSarat Bose RoadGariahatGolparkSouthern AvenueLake GardensHazraPark Circus border
 
-👥
+Live online, so we teach families right across Kolkata — see [Coding Classes in Kolkata](/best-coding-class-in-kolkata) for every area we serve.
 
-### Small Batches — Maximum 6-8 Students
+When we teach
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+## Weekly schedule & slots
 
-🧰
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Early Morning | 6:30 – 8:00 AM | School-bus families on Bondel Road & Ballygunge Circular Road | Mon–Fri |
+| After School | 4:00 – 6:00 PM | Primary and middle-school kids (ages 6-12) | Mon, Wed, Fri |
+| Evening | 6:30 – 8:30 PM | ICSE/CBSE teens doing Java & Python prep | Tue, Thu, Sat |
+| Late Evening | 8:30 – 9:30 PM | College students & working professionals | Mon, Wed |
+| Weekend | 10:00 AM – 1:00 PM | Olympiad maths, AI/ML and project intensives | Sat, Sun |
 
-### Coding + Maths Combined — Only in India
+Honest comparison
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why South Kolkata parents trust us over single-subject alternatives.
+## Live online vs offline tuition
 
-💰
+### Where live online wins
 
-### Starting at Just ₹1,499/month
+- No daily fight through Ballygunge Phari or Gariahat Junction — roughly 90 minutes saved per class day
+- No parking hunt around Quest Mall or Gariahat Market
+- The same small 6-8 batch and the same full-time engineer, every single session
+- Your child learns from your own Ballygunge Circular Road flat, safe and supervised
+- Easy to fit around heavy school-bus and tuition timetables
+- Sessions can be reviewed and a missed class made up — no lost lesson, no lost fee
+- Access to specialist maths and AI/ML teachers regardless of who happens to live nearby
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+### When offline still wins
 
-## Ballygunge: Old Money, Top Schools, and No Tolerance for Edu-Tech Fluff
+- Some children genuinely focus better with a tutor physically in the room
+- Very young first-timers may need a parent beside them for the first few sessions
+- Hands-on hardware or robotics kits are easier in a physical lab
+- A home with no quiet corner or stable internet can make live online harder
 
-Ballygunge is the heart of the South Kolkata old-money belt — the lanes off Ballygunge Phari, Mandeville Gardens, Bondel Road, and Hindustan Park house families who have been here for fifty or more years. The schools are unforgiving: South Point, Modern High School, Birla High, and La Martiniere set a bar that demands their children outwork the average city child.
+For most Ballygunge families, live online delivers the rigour they want with none of the traffic they dread — and the free demo lets you judge for yourself before committing.
 
-Ballygunge parents do not buy the loud edu-tech ads. They have seen every coding pitch since 2018, and they have watched neighbours' kids enrol, get a certificate, and forget every line of code three months later. What they want is the academic equivalent of their child's school: small batches, real teachers, real assessment, real projects.
+Getting started
 
-Our 6–8 student live batches replicate, very deliberately, the small-tutorial culture that South Point and Modern High parents already understand. The instructor is a working software engineer. The curriculum runs 24–30 weeks. The project at the end is real enough to put into a college application.
+## From demo to first class in four steps
 
-### Recent Projects Built by Students from Ballygunge
+01
 
-These are real student projects from our Ballygunge batches — small, useful, and unmistakably theirs.
+### Book a free demo
 
-#### South Point Olympiad Mock Score
+Tell us your child's class and board, and pick a slot — [book a free demo class](/contact) that is a real live lesson, not a sales pitch.
 
-A Class 9 South Point student built a Python program that scores her own Maths Olympiad mock papers and tracks her improvement over six months.
+02
 
-#### Modern High School Bus Tracker
+### Meet your teacher
 
-A Class 7 girl built a Scratch app that her mother uses to track when her school bus is expected at the Bondel Road stop — based on the WhatsApp updates from other parents.
+Your child sits a full live session with a full-time engineer or maths graduate and you see the small-batch teaching first-hand.
 
-#### Birla High ICSE Java Mock Engine
+03
 
-A Class 10 Birla High boy built a Python script that drills him on 30 ICSE Java syllabus questions per session. He used it for his Class 10 boards.
+### Pick your plan
 
-“
+Choose group (6-8), mini batch (3-4) or 1-on-1 — [see transparent pricing](/pricing) from ₹1,499/month, with no long lock-ins.
 
-Ballygunge schools are already serious. We don't have time for a frivolous coding class. The reason we stayed with Modern Age Coders is that it operates at the same seriousness as our daughter's school.
+04
 
-— A Ballygunge parent, paraphrased from a recent conversation.
+### Start within 24 hours
 
-## Neighbourhoods near Ballygunge We Serve
+Once you are happy, regular classes can begin within 24 hours — [explore the full course catalogue](/courses) to map your child's path.
 
-Because every class is live online, we serve students across the entire Ballygunge belt and the wider South Kolkata zone. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+What parents say
 
-### Pin codes we actively teach in
+## In a parent's own words
 
-**700019** (Ballygunge core, Hindustan Park, Ekdalia), **700029** (Lake Gardens, Karunamoyee edge), **700017** (Park Street side, Sarat Bose Road), **700025** (Bhowanipore, Hazra), **700026** (Lake Market, Rashbehari border), **700039** (Tangra, Beck Bagan extended), **700020** (Elgin Road, Camac Street touch).
-
-### Localities our students log in from
-
-Ballygunge PhariGariahatHindustan ParkEkdaliaKarunamoyeeBondel RoadMandeville GardensSarat Bose RoadBallygunge Circular RoadLake GardensHazraRashbehariBeck BaganPark Circus borderSouthern Avenue
-
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
-
-## Class Timings & Weekly Schedule for Students near Ballygunge
-
-Most Ballygunge-area schools dismiss between 2:00 and 3:30 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
-
-☀️
-
-### Morning Slot — 9:00 to 11:00 AM
-
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
-
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
-
-🏫
-
-### After-School Slot — 4:30 to 7:30 PM
-
-The most popular slot for kids and teens near Ballygunge. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Ballygunge parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Modern High School, La Martiniere, Pratt Memorial, or Calcutta International School primary section.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Birla High School, Modern High, La Martiniere for Girls, and other CBSE-track Ballygunge schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that South Point High School, St. Lawrence, Modern High School, and St. James' students follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Ballygunge — Honest Comparison
-
-Ballygunge has plenty of computer tuition centres around Gariahat, Hindustan Park, and Bondel Road. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Ballygunge centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Gariahat Junction traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Ballygunge
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Ballygunge
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Ballygunge. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"My child is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement. The teachers are very cooperative and listen to our suggestions."
+"Modern Age Coders has been a wonderful experience for my son Dhairya. The teachers are patient, the batches are genuinely small, and he actually looks forward to class. We have seen real improvement in both his confidence and his coding."
 
 SSonam OswalMother of Dhairya
 
 [Read more on our Wall of Love →](/love)
 
-## Frequently Asked Questions — Coding & Maths near Ballygunge
+Questions, answered
 
- Are there coding classes for kids near Ballygunge, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Ballygunge. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from South Point, Modern High, and other Ballygunge schools are already learning with us. What is the fee for coding and maths classes near Ballygunge? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Ballygunge? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Ballygunge schools follow. How can my child in Ballygunge attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Gariahat or Hindustan Park? +Three big differences. **First**, batch size: most Ballygunge tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Gariahat Junction and Ballygunge Phari traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Ballygunge? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, Hathway, and ACT connections in the Ballygunge belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in the live online class? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at South Point, Modern High, Birla High and other Ballygunge schools, we also help compile the syllabus-mandated project files in the format your school accepts.
+## Frequently asked questions
 
-## Start Your Child's Coding & Maths Journey from Ballygunge Today
+Yes. Our [Java programming track](/java-programming-for-kids-teens) follows the precise ICSE Class 9-10 Computer Applications syllabus — Java syntax, OOP, arrays, strings and the BlueJ environment — drilled against 25+ board-style programs and the output-prediction problems that appear in the practical exam.Yes. Our [Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers CBSE Python for Informatics Practices — theory, practicals, projects and board exam prep — and maps directly to the practical file your child must submit.Group batches are capped at 6-8 students, so this is nothing like a 40-child broadcast or a YouTube-style class. If you want even closer attention, we offer mini batches of 3-4 and fully personalised 1-on-1 sessions. [See pricing](/pricing) for each option.We are 100% live online, which is the whole point — your child avoids the daily Ballygunge Phari and Gariahat traffic and simply logs in from home. There is no physical centre to commute to; the teaching quality comes from small live batches and full-time engineers, not a building.Every class is live, in real time, with a real teacher — never a pre-recorded video. Your child can ask a question the moment a doubt arises and have it answered on the spot, which is exactly how board-exam mistakes get caught early.Classes are taught by full-time engineers and maths graduates, not rotating part-time tutors or college freelancers. They build with these tools professionally and map every concept back to the exact ICSE or CBSE syllabus point your school examines.Yes. Families on Ballygunge Circular Road and Bondel Road juggle heavy school-bus and tuition schedules, so we offer early-morning, after-school, evening and weekend slots. Tell us your constraints when you [book a demo](/contact) and we will fit around them.Group classes (max 6-8) start at ₹1,499/month, mini batches of 3-4 are ₹2,499/month, and fully personalised 1-on-1 is ₹4,999/month. Full details are on our [pricing page](/pricing), with no long lock-ins.ICSE, CBSE, IGCSE and WBBSE — we align to whichever syllabus your child's school follows. Ballygunge is heavily ICSE/CBSE with some IGCSE, so we most often teach ICSE Java and CBSE Python alongside [school and Olympiad maths](/online-maths-tuition).A missed class can be made up — you do not lose the lesson and you do not lose the fee. Because batches are small, we can reschedule or arrange a catch-up so your child stays with the syllabus.A laptop or desktop with a stable internet connection and a webcam is ideal; a tablet works for younger kids doing Scratch. A quiet corner to log in from your Ballygunge flat is all the setup required.Classes are taught in clear English, with teachers comfortable switching to Bengali or Hindi to explain a tricky concept when a younger child needs it. The written code, syllabus and exams remain in English, as the boards require.Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) run dedicated girls-only batches — Princess Coders for kids and Queen Coders for teens — building coding skills and tech leadership in a supportive environment.Yes — students receive a certificate on completing a track, and more importantly they finish with real, working projects they built themselves that they can show schools, juries or admissions panels.[Book a free demo class](/contact) — a real live lesson, not a sales pitch. Once you are happy with the teacher and the batch, regular classes can begin within 24 hours.
 
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Ballygunge trust Modern Age Coders.
+## Give your child Ballygunge-grade rigour — minus the Gariahat traffic.
 
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
+Premium, live online coding and maths in small 6-8 batches, taught by full-time engineers — book a free demo and see a real class before you decide.
 
-## Coding & Maths Classes in Other Areas of Kolkata
+[Book Free Demo Class](/contact)[View Pricing](/pricing)Explore nearby
 
-We serve students across Kolkata and Howrah. Explore classes near your area.
+## Coding & maths classes in other Kolkata areas
+
+Nearby areas we serve:
 
 [Gariahat](/coding-classes-near-gariahat-kolkata)[Golpark](/coding-classes-near-golpark-kolkata)[Southern Avenue](/coding-classes-near-southern-avenue-kolkata)[Bhowanipore](/coding-classes-near-bhowanipore-kolkata)[Park Circus](/coding-classes-near-park-circus-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific pages:
+
+[Coding & Maths for Birla High School](/coding-and-maths-for-birla-high-school-kolkata)[Coding & Maths for Mahadevi Birla World Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata)
 
 ---
 
