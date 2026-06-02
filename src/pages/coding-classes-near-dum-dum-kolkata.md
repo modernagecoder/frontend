@@ -1,364 +1,240 @@
 ---
-title: "Coding & Maths Classes near Dum Dum, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Dum Dum, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Air Force Bal Bharati, Hariyana Vidya Mandir, Holy Cross and other North Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Dum Dum, Kolkata"
+description: "Live online coding & maths classes near Dum Dum, Kolkata for kids, teens & college. Python, Java, AI/ML + maths. ICSE/CBSE prep, batches of 6-8, free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-dum-dum-kolkata
-keywords: ["Dum Dum Kolkata coding classes", "coding near Dum Dum", "KV Dum Dum coding", "Auxilium Convent coding", "coding for kids Dum Dum", "Python classes Dum Dum Kolkata", "maths tuition Dum Dum North Kolkata", "online coding Dum Dum", "CBSE tuition Dum Dum", "teen coding Dum Dum Kolkata", "Scratch programming Dum Dum", "AI classes Dum Dum"]
+keywords: ["coding classes near Dum Dum Kolkata", "coding classes Dum Dum", "Python classes Dum Dum", "Java coding Dum Dum", "AI ML classes Dum Dum", "maths tuition Dum Dum Kolkata", "online coding Nager Bazar", "coding classes Bangur Avenue", "ICSE computer applications Dum Dum", "CBSE computer science Dum Dum", "kids coding Dum Dum Cantonment", "coding classes near Kolkata airport"]
 source: src/pages/coding-classes-near-dum-dum-kolkata.html
 ---
-> Live online coding classes near Dum Dum, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Air Force Bal Bharati, Hariyana Vidya Mandir, Holy Cross and other North Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Dum Dum, Kolkata for kids, teens & college. Python, Java, AI/ML + maths. ICSE/CBSE prep, batches of 6-8, free demo.
 
-North Kolkata's Gateway to the World — Live Online Classes
+DUM DUM · NAGER BAZAR · BANGUR AVENUE · NORTH KOLKATA
 
-# Coding & Maths Classes for Students near Dum Dum, Kolkata
+# Live Online Coding & Maths Classes near Dum Dum, Kolkata
 
-Gateway to the world — Kolkata's airport is here. Dum Dum families are connected, aspirational, and forward-looking. Whether they're catching flights for business or dropping children at **Kendriya Vidyalaya Ordnance Factory Dum Dum (CBSE)**, **Auxilium Convent School (ICSE)**, **Dum Dum Kishore Bharati High School**, or **Indira Gandhi Memorial High School**, parents in Dum Dum think globally. They understand that the skills their children need are no longer confined to textbooks — coding and computational thinking are now as essential as English and mathematics. Yet quality coding education in North Kolkata has historically meant commuting south. Not anymore. Modern Age Coders brings **100% live online coding and mathematics classes** directly to Dum Dum homes — the same expert instructors, the same small batches of 6-8 students, the same curriculum that families in Salt Lake and Ballygunge trust. From a six-year-old learning Scratch to a KV student preparing for CBSE Computer Science practicals, Dum Dum students now have equal access to Kolkata's best coding education.
+Modern Age Coders runs premium, live online coding and mathematics classes for students near Dum Dum, Kolkata — covering Nager Bazar, Bangur Avenue, Motijheel and Dum Dum Cantonment. Children, teens and college students learn Python, Java, AI/ML and school maths in small live batches of 6–8, taught by full-time software engineers and maths graduates. Nothing is pre-recorded. You get Salt Lake-grade instruction at home, with no Jessore Road commute.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Live, never pre-recordedBatches of 6–8Engineers & maths graduatesFrom ₹1,499/month[Book a Free Demo Class](/contact)[Explore Courses](/courses)6–8Students per live batch100%Live, project-based classes9Local schools served near Dum Dum0 minCommute through Nager BazarAT A GLANCE
 
-Free demo • No commitment • Classes start within 24 hours
+## The essentials, in one place
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**Premium, 100% live online**, taught in real time — never pre-recordedBatch sizeGroup of **6–8**, mini-batch of 3–4, or 1-on-1Ages**6 to 65** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, DSA, web) + Mathematics (Grades 1–12, Olympiad)BoardsICSE / ISC, CBSE, IGCSE and WBBSE — Java for ICSE, Python for CBSEFees**₹1,499/month** group · ₹2,499/month mini-batch · ₹4,999/month 1-on-1Free demoYes — one free live demo class, no commitmentServingDum Dum, Nager Bazar, Bangur Avenue, Motijheel, Dum Dum Cantonment, South Dum Dum, Patipukur, Lake Town sideLIVE ONLINE · PREMIUM QUALITY
 
-## Live Online Coding Classes near Dum Dum — What Parents Should Know
+## Salt Lake-grade teaching, delivered to Dum Dum
 
-Dum Dum parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Dum Dum is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Air Force Bal Bharati, Hariyana Vidya Mandir, Holy Cross and other North Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Modern Age Coders is a premium, live online coding and maths school — every Dum Dum student is taught in real time by a full-time engineer or maths graduate inside a small batch of 6–8, never by a recording or a part-time tutor. Historically, families in Bangur Avenue or Motijheel had to send a child 75–90 minutes south to Salt Lake or Ballygunge for instruction of this quality. Live online deletes that commute and brings the same mentor into the child's room by 6 pm.
 
-📺
+### Live, never pre-recorded
 
-### 100% Live, Not Pre-Recorded
+Every class is taught live, in real time, by an instructor who can see your child's screen and code. There are no recorded video lessons to watch alone. Students ask questions the moment they are stuck and get answered on the spot — the way real learning works.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small batches of 6–8
 
-👨‍👩‍👧‍👦
+Each live batch is capped at 6–8 students, so every child near Dum Dum gets attention by name, not a seat in a 40-strong tuition hall. Mini-batches of 3–4 and fully personalised 1-on-1 options exist for students who want even more focus. Nobody hides at the back.
 
-### Max 6–8 Students per Live Batch
+### Taught by engineers & maths graduates
 
-Smaller than any Dum Dum-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are led by full-time software engineers and qualified mathematics graduates — not college students teaching part-time after their own lectures. Your child learns Python, Java and AI/ML from people who write production code, and maths from people who teach it as a discipline. This is what a premium standard actually means.
 
-🏠
+### Project-based every class
 
-### Zero Travel through Nager Bazar Traffic
+Students build something in nearly every session — a game, a script, a working tool — rather than copying whiteboard notes. A Class 10 child from the KV Ordnance Factory community built a Python cricket scorer for the staff-quarters league. Real projects make concepts stick and fill a portfolio for board submission and college applications.
 
-No fighting evening Nager Bazar and Jessore Road traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### No Jessore Road commute
 
-📝
+The same instructor a child would have travelled south to reach now appears live on screen at home. No 90-minute evening crawl through Nager Bazar crossing, no airport-bound Jessore Road snarl, no waiting parents. Study time that used to vanish in traffic goes back into actual learning — and into family evenings.
 
-### Recordings + Notes After Each Class
+### Coding and maths under one roof
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Modern Age Coders is among the only platforms in India that teaches both coding and mathematics seriously, with the same premium standard. A Dum Dum family can keep a child's Java/BlueJ (ICSE) or Python (CBSE) track and their Class 10 maths preparation with a single trusted provider, on one schedule, at one set of fees.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## Every track we teach near Dum Dum
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids & Teens](/python-and-ai-classes-for-kids-teens) | Ages ~9–17, CBSE Informatics Practices | Foundational Python plus AI basics with real project work — the most in-demand language |
+| [Java Programming for Kids & Teens](/java-programming-for-kids-teens) | Teens 13–18, ICSE track | Java/BlueJ syntax, OOP and board-style programs for Class 9–10 Computer Applications |
+| [AI/ML Course for Teens](/ai-ml-course-for-teens) | Teens 13–18 | Introduction to AI and machine learning with real model building |
+| [AI/ML for College Students](/ai-ml-course-for-college-students) | College students, serious learners | Deeper AI/ML and model building aimed at placements and a competitive edge |
+| [Coding for College Students](/courses/coding/college) | College & placement aspirants | DSA, MERN stack, AI/ML masterclass and Python for data analysis |
+| [C++ Classes in India](/best-c-plus-plus-classes-in-india) | College, CP/DSA aspirants | C++ for competitive programming, DSA and placement preparation |
+| [Coding for Kids (Scratch)](/courses/coding/kids) | Kids ages 6–12 | Scratch and block-based coding — logic taught visually, the ideal first step |
+| [Coding for Teens](/courses/coding/teens) | Teens ages 13–18 | Python, Java, full-stack, game dev and competitive programming |
+| [CBSE/ICSE Computer Science Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 CS/IP students | Theory, practicals, projects and exam strategy — ICSE Java and CBSE Python |
+| [Computer Applications ICSE Class 10](/computer-applications-icse-class-10) | ICSE Class 10 students | Java/BlueJ board prep covering theory and every practical |
+| [Online Maths Tuition (Grades 1–12)](/online-maths-tuition) | All boards + Olympiad | School to college maths plus Olympiad prep (AMC, IOQM, RMO, IMO) |
+| [Girls' Batches (Princess/Queen Coders)](/coding-classes-for-girls) | Girls, kids through teens | Girls-only batches building tech confidence and leadership |
+| [Summer](/summer-coding-camp) & [Winter](/winter-coding-camp) Coding Camps | All ages, on school break | Intensive 3–4 week holiday program completing a full module |
 
-👨‍🏫
+FEATURED TRACKS
 
-### Parent Updates Every Month
+## Three tracks Dum Dum families ask for most
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+MOST IN-DEMAND
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+### Python & AI for Kids & Teens
 
-## Schools near Dum Dum Whose Students Learn with Us
+Python is the world's most in-demand language and the backbone of CBSE Informatics Practices and Computer Science. Students near Dum Dum start from first principles — variables, loops, functions — and quickly move to building real games, scripts and small AI demos. A Class 10 boy from the Ordnance Factory quarters used these skills to build a working cricket scorer for his neighbourhood league.
 
-Students from **Kendriya Vidyalaya Ordnance Factory Dum Dum (CBSE)**, **Auxilium Convent School (ICSE)**, **Dum Dum Kishore Bharati High School**, and **Indira Gandhi Memorial High School** in and around Dum Dum join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+**You'll learn:** core Python and AI fundamentals. **You'll build:** games, automation scripts and a portfolio-ready mini-project.
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform in Dum Dum offers this depth of coding education alongside structured mathematics tutoring.
+[Explore Python & AI](/python-and-ai-classes-for-kids-teens)
 
-## What Your Child Will Learn with Modern Age Coders
+ICSE ESSENTIAL
 
-Dum Dum's globally-connected families expect genuine, quality education. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+### Java Programming for Kids & Teens
 
-🎨
+Java is the board-mandated language for ICSE Computer Applications and ISC Computer Science — exactly what students at Auxilium Convent, Hariyana Vidya Mandir, Holy Cross and Sudhir Memorial need. We teach Java/BlueJ the way the board examines it, with OOP, object handling and board-style programs, so a Class 9–10 student walks into the practical exam confident.
 
-### For Kids (Ages 6-12)
+**You'll learn:** Java/BlueJ syntax and object-oriented programming. **You'll build:** the exact program types the ICSE/ISC board sets.
 
-Dum Dum's globally-connected families start their children's coding journey early.
+[Explore Java Programming](/java-programming-for-kids-teens)
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+FUTURE-PROOF
 
-💻
+### AI & Machine Learning
 
-### For Teens (Ages 13-18)
+AI and machine learning are reshaping every industry, and Dum Dum's airport-belt families are globally connected enough to want their children ahead of it. Teens build real models — not slideshows — while college students go deeper into ML aimed squarely at placements. It is the single most future-proof skill we teach.
 
-Where North Kolkata's most aspirational teens build skills that travel with them.
+**You'll learn:** how machine-learning models actually work. **You'll build:** and train real models for a showcase portfolio.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+[Explore AI & Machine Learning](/ai-ml-course-for-teens)
 
-🎓
+SCHOOLS WE SERVE
 
-### For College Students
+## Built around your child's exact syllabus
 
-Dum Dum's college students gain the competitive edge for tech placements.
+We teach students from the major schools across the Dum Dum belt, including **Auxilium Convent School** (P.K. Guha Road, 700028), **Adamas International School**, **Air Force Bal Bharati School**, **Kendriya Vidyalaya Ordnance Factory Dum Dum**, **Hariyana Vidya Mandir**, **Sudhir Memorial Institute**, **Holy Cross School**, **Dum Dum Kishore Bharati High School** and **Indira Gandhi Memorial High School**. Whether a child sits the ICSE, CBSE or WBBSE state board, our live classes are built around their exact syllabus.
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Dum Dum runs a genuine board mix, so we teach two parallel computer-science tracks under one roof. ICSE convents like Auxilium follow Java/BlueJ for Computer Applications, while CBSE central-government schools such as the KVs and Air Force Bal Bharati follow Python — and we cover both, right up to the boards. For Class 11–12 students, our [Computer Science and Informatics Practices for Class 11–12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) handles theory, practicals, projects and exam strategy for ICSE Java and CBSE Python alike.
 
-💼
+THE NEIGHBOURHOOD
 
-### For Professionals
+## North Kolkata's gateway to the world
 
-Upskilling programmes for working professionals staying relevant in tech.
+Dum Dum is North Kolkata's gateway to the world. The airport sits at its edge, planes climb over Jessore Road every few minutes, and the neighbourhood carries an unmistakable outward-looking streak — Air Force families, Ordnance Factory engineers, railway officers and salaried Bengali households who think globally even on a careful budget. It is dense, pragmatic and proudly residential, stretching from Nager Bazar crossing through Bangur Avenue's apartment blocks to the quiet lanes of Motijheel and Dum Dum Cantonment.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+For years, the catch was distance. A serious coding mentor meant a 75–90 minute evening crawl south to Salt Lake Sector V or Ballygunge — out through the perpetual snarl at Nager Bazar crossing, into the airport-bound Jessore Road traffic, and back home long after dinner. Quality felt like something that lived in South Kolkata and charged South Kolkata prices. Plenty of bright Dum Dum children simply went without, or settled for a crowded local tuition hall.
 
-📊
+Live online changes that maths completely. The same calibre of instructor a family would have travelled south to reach now appears on screen in a child's room in Bangur or Motijheel by 6 pm — small batch, real project, full attention. The commute disappears, the premium price drops to ₹1,499 a month, and the airport-belt ambition finally has a school that keeps up with it. Children here don't just learn to code; they build tools for the streets and societies they live in.
 
-### Mathematics for All Ages
+PROJECT 01
 
-Dum Dum parents know maths and code are inseparable.
+### Jessore Road Pothole & Waterlogging Map
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+A Class 9 ICSE girl from Auxilium built a Java (BlueJ) console program that logs monsoon waterlogging spots between Nager Bazar and Airport Gate 1, ranking the worst stretches her family avoids during the rains.
 
-☀️
+PROJECT 02
 
-### Summer & Winter Camps
+### Cantonment Local Train Timetable Helper
 
-Intensive short-term programs during school breaks.
+A Class 7 boy near Dum Dum Cantonment made a Scratch app that tells him the next Sealdah-bound and Bangaon-bound local, so he times his walk to the platform instead of waiting on the foot-overbridge.
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+PROJECT 03
 
-## Why Dum Dum Parents Choose Modern Age Coders
+### Ordnance Factory Quarters Cricket League Scorer
 
-🎥
+A Class 10 boy from the KV Ordnance Factory community built a Python scorecard tool for the Sunday gully-cricket league in the staff quarters, auto-computing run rates and a points table for eight teams.
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+"We always assumed good coding meant the trek to Salt Lake. My son now learns more, from home, for less — and he actually looks forward to class."
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how North Kolkata's heritage of genuine learning demands quality education to work.
+PParentBangur AvenueAREAS & PIN CODES
 
-👥
+## Where we reach near Dum Dum
 
-### Small Batches — Maximum 6-8 Students
+Serving students across pin codes **700028, 700055, 700030, 700074, 700089, 700081 and 700048**.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+Dum DumNager BazarDum Dum ParkBangur AvenueMotijheelDum Dum CantonmentSouth Dum DumPatipukurLake Town sideSreebhumi sideBiratiBelgharia borderNorthern AvenueAirport Gate 1 sideJessore Road belt
 
-🧰
+Not on the list? If you are anywhere in the Dum Dum and North Kolkata belt, our live online classes reach you — [book a free demo](/contact) and we'll confirm your slot.
 
-### Coding + Maths Combined — Only in India
+WEEKLY SCHEDULE
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why value-conscious Dum Dum parents trust us over single-subject alternatives.
+## Slots that fit straight after school
 
-💰
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-School Early | 4:00 PM – 5:00 PM | Kids 6–12 (Scratch, Python basics) | Mon–Fri |
+| Evening Prime | 6:00 PM – 7:00 PM | School students straight after school, no travel | Mon–Fri |
+| Late Evening | 7:30 PM – 8:30 PM | Teens, board CS, working parents observing | Mon–Sat |
+| Weekend Morning | 10:00 AM – 12:00 PM | College DSA, AI/ML, intensive maths | Sat–Sun |
+| Weekend Flexi | 5:00 PM – 6:30 PM | Camps, 1-on-1 and catch-up sessions | Sat–Sun |
 
-### Starting at Just ₹1,499/month
+ONLINE vs OFFLINE
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+## An honest comparison for Dum Dum families
 
-## Dum Dum: Practical, Aspirational, and Increasingly Code-Aware
+### Where live online wins
 
-Dum Dum is one of Kolkata's largest and oldest residential belts. The cantonment, the airport, the Bangur Avenue apartment blocks — it is a wide, pragmatic, middle-class neighbourhood spread across nearly 10 square kilometres. The families are a mix of Bengali Hindu, Christian, and a strong Air Force community around Bal Bharati School.
+- Zero commute — no 90-minute round trip through Nager Bazar crossing and Jessore Road traffic
+- The same Salt Lake/Ballygunge-grade instructors, delivered to a Bangur or Motijheel bedroom
+- Small live batches of 6–8, versus 20–40 students in most local tuition halls
+- Full class recordings, notes and code so a missed class is never a lost class
+- Classes continue uninterrupted even if an Air Force or Ordnance Factory family is posted out of Dum Dum
+- Premium quality at ₹1,499/month, without South Kolkata institute pricing
+- Safer evenings — children learn at home instead of travelling back after dark
 
-Children attend Hariyana Vidya Mandir, Air Force Bal Bharati, Sudhir Memorial, and Holy Cross. The parents tend to be salaried professionals — bank officers, railway employees, school teachers, mid-level corporate executives. They are pragmatic and budget-conscious. Coding is appealing because the economics is clear: pay ₹18,000 a year, get a child who can put Python on a college application.
+### When offline still wins
 
-We have grown rapidly in Dum Dum precisely because we don't oversell. The pitch is simple: live online, small batch, real curriculum, transparent fee, four years of consistency. Dum Dum parents respond well to this.
+- A child who genuinely focuses better with a tutor physically in the room
+- Families without a reliable laptop or a stable home internet connection
+- Very young learners who still need a parent seated beside them throughout
+- Students who specifically want in-person peer company over a live online batch
 
-### Recent Projects Built by Students from Dum Dum
+For most Dum Dum families the maths is simple: same mentors, smaller batches, real projects, no commute — and it costs less. [Book a free demo](/contact) and judge a live class for yourself.
 
-These are real student projects from our Dum Dum batches — small, useful, and unmistakably theirs.
+HOW TO START
 
-#### Dum Dum Cantonment Bus Tracker
+## From enquiry to building in four steps
 
-A Class 8 boy built a Scratch app that estimates the next CSTC bus at the cantonment stop, useful for his evening tuition commute.
+01
 
-#### Bangur Avenue Society Maintenance Log
+### Book a free demo
 
-A Class 10 girl built a Python script that tracks her apartment society's monthly maintenance dues across 24 flats. The secretary adopted it.
+Tell us your child's class and board, and we'll schedule one free live demo with a real instructor. [Book a Free Demo Class](/contact)
 
-#### Air Force Bal Bharati Marks Sheet
+02
 
-A Class 9 boy built a small web tool that takes his quarterly internal scores and projects his board grade range. Six classmates use it.
+### Meet your mentor
 
-“
+Your child sits a genuine live session in a small batch and codes something real, so you see the quality before paying. [See all courses](/courses)
 
-Dum Dum is practical. We don't pay for noise. We pay for results. Three years in, our daughter writes real Python. That's all the proof I need.
+03
 
-— A Dum Dum parent, paraphrased from a recent conversation.
+### Pick your plan
 
-## Neighbourhoods near Dum Dum We Serve
+Choose group, mini-batch or 1-on-1, and coding, maths or both — same transparent pricing across all. [View pricing](/pricing)
 
-Because every class is live online, we serve students across the entire Dum Dum belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+04
 
-### Pin codes we actively teach in
+### Start building
 
-**700028** (Dum Dum, Nager Bazar), **700055** (Dum Dum Park, Bangur Avenue), **700030** (Sinthee, Dum Dum Cantonment), **700074** (Birati side), **700089** (Lake Town edge), **700081** (Belgharia edge), **700048** (Sreebhumi side).
+Lock an evening slot that fits straight after school and your child begins building projects from week one. [Message us on WhatsApp](https://wa.me/919123366161)
 
-### Localities our students log in from
+"My son Dhairya has genuinely started enjoying his classes — the teachers are patient, the batches are small, and he's actually building things on his own now. As a parent, that confidence is what I was looking for."
 
-Dum DumNager BazarDum Dum ParkBangur AvenueMotijheelDum Dum CantonmentBiratiBelgharia borderLake Town sideSreebhumi sidePatipukurNorthern AvenueAirport Gate 1 sideJessore RoadSouth Dum Dum
+SSonam OswalMother of Dhairya
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+[Read more on our Wall of Love](/love)
 
-## Class Timings & Weekly Schedule for Students near Dum Dum
+FREQUENTLY ASKED
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+## Questions Dum Dum parents ask
 
-☀️
+Yes. Modern Age Coders runs live online coding classes for children aged 6-12 across the Dum Dum belt, covering Nager Bazar, Bangur Avenue and Motijheel. Kids start with [Scratch and block coding](/courses/coding/kids) and move into real Python. Classes are live and project-based, from ₹1,499/month in batches of 6-8.Yes. We teach the full Java/BlueJ Computer Applications syllabus for ICSE Class 9-10, exactly as the board examines it, through our [Java Programming](/java-programming-for-kids-teens) and [Computer Applications ICSE Class 10](/computer-applications-icse-class-10) courses. This suits students from Auxilium Convent, Hariyana Vidya Mandir, Holy Cross and Sudhir Memorial.Yes. CBSE schools such as Adamas International, Kendriya Vidyalaya Ordnance Factory and Air Force Bal Bharati follow Python for Computer Science and Informatics Practices, and we cover it in full. See [Python & AI for Kids & Teens](/python-and-ai-classes-for-kids-teens) and, for senior school, the [Class 11-12 board course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Group classes are ₹1,499/month (max 6-8 students), mini-batches of 3-4 are ₹2,499/month, and fully personalised 1-on-1 is ₹4,999/month. Coding and maths are priced the same. Full details are on our [pricing page](/pricing).Yes, on two counts. You pay from ₹1,499/month instead of South Kolkata institute prices, and you save the daily 75-90 minute round trip through Nager Bazar crossing and Jessore Road traffic. You get the same calibre of instructor without the commute or the premium. [Compare for yourself with a free demo](/contact).Yes. Because every class is live online, your child keeps the same instructor, batch and schedule even if your family is posted out of Dum Dum. There is nothing to re-enrol and no centre to leave — the class simply follows you to your new city.We run evening slots at 6:00 PM and 7:30 PM on weekdays, plus weekend mornings and a flexi slot. A student in Bangur Avenue or Motijheel logs in straight after school with zero travel. See the full [schedule and book a slot](/contact).Yes. Our [Princess Coders and Queen Coders](/coding-classes-for-girls) girls-only batches run for kids through teens, building tech confidence and leadership in a comfortable all-girls setting — a natural fit for families from Auxilium and the area's convent schools.Three differences: batch size (6-8 versus 20-40 in most local halls), instructor profile (full-time software engineers and maths graduates, not part-time tutors), and format (live project-based coding every class, not whiteboard notes). Plus zero commute through Nager Bazar and Jessore Road.Every class is 100% live, taught in real time by an instructor who sees your child's screen and answers questions on the spot. Nothing is pre-recorded. This is the core of our premium standard — real teaching, not a video library.You receive the full class recording, instructor's notes and code, plus a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board-exam weeks, batches can be paused on request at no charge for the paused weeks.A basic laptop or desktop with 4 GB RAM running Windows 10/11, macOS or Ubuntu is enough; Chromebooks work for Scratch and web design. Internet of 5 Mbps or higher is comfortable, which most Jio Fiber, Airtel Xstream and ACT connections in Dum Dum exceed easily.No. Students from Bengali-medium and Hindi-medium schools enrol in every batch. Programming syntax is in English, but instructors explain in simple English and switch to Bangla or Hindi when it helps. Most students are comfortable with the technical vocabulary within 3-4 weeks.Yes to both. Every course ends with a completion certificate plus the project portfolio your child built. We also teach [maths from Grades 1-12 and Olympiad prep](/online-maths-tuition) — Modern Age Coders is among the only platforms in India combining serious coding and mathematics under one roof.Yes. Book one free live demo class with a real instructor, with no commitment, before you decide. [Book a free demo](/contact) or message us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161).
 
-### Morning Slot — 9:00 to 11:00 AM
+## Premium live coding & maths near Dum Dum — without the commute.
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+Same Salt Lake-grade mentors, small batches of 6–8, real projects from week one — delivered live to your home in Dum Dum.
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+[Book a Free Demo Class](/contact)[Explore Courses](/courses)[+91 91233 66161](https://wa.me/919123366161)NEARBY LOCALITIES
 
-🏫
+## Coding & maths classes across Kolkata
 
-### After-School Slot — 4:30 to 7:30 PM
+[Nager Bazar](/coding-classes-near-nager-bazar-kolkata)[Lake Town](/coding-classes-near-lake-town-kolkata)[Sreebhumi](/coding-classes-near-sreebhumi-kolkata)[Baranagar](/coding-classes-near-baranagar-kolkata)[Shyambazar](/coding-classes-near-shyambazar-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-The most popular slot for kids and teens near Dum Dum. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Dum Dum parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at St. Xavier's Collegiate primary (nearby), Air Force School (Dum Dum), Hariyana Vidya Mandir and similar Dum Dum-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Air Force Bal Bharati, Hariyana Vidya Mandir Dum Dum, Adamas International and other CBSE-track Dum Dum-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Hariyana Vidya Mandir, Sudhir Memorial Institute, Holy Cross and other ICSE-track Dum Dum-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Dum Dum — Honest Comparison
-
-Dum Dum and Nager Bazar have several neighbourhood tuition rooms along Jessore Road. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Dum Dum centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Nager Bazar crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Dum Dum
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Dum Dum
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Dum Dum. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"Aditya was always curious about computers but never got the right guidance at school. Since joining Modern Age Coders, he has built three projects on his own and his confidence has grown tremendously. The teachers are patient, knowledgeable, and truly care about each child's progress. Best decision we made for his future."
-
-RRitu KediaMother of Aditya
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Dum Dum
-
- Are there coding classes for kids near Dum Dum, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Dum Dum. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from KV Ordnance Factory Dum Dum, Auxilium Convent, and other Dum Dum schools are already learning with us. What is the fee for coding and maths classes near Dum Dum? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Dum Dum? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Dum Dum schools follow. How can my child in Dum Dum attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Nager Bazar or Dum Dum Park? +Three big differences. **First**, batch size: most Dum Dum tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Nager Bazar and Jessore Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Dum Dum? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Dum Dum belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Dum Dum? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Dum Dum. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Air Force Bal Bharati, Hariyana Vidya Mandir, Holy Cross and other North Kolkata schools and other Dum Dum-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Dum Dum Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Dum Dum trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Shyambazar](/coding-classes-near-shyambazar-kolkata)[Baranagar](/coding-classes-near-baranagar-kolkata)[Nager Bazar](/coding-classes-near-nager-bazar-kolkata)[Lake Town](/coding-classes-near-lake-town-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [CBSE/ICSE Computer Science for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
 ---
 
