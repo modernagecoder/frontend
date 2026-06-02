@@ -1,364 +1,232 @@
 ---
-title: "Coding & Maths Classes near Gariahat, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Gariahat, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, Modern High, Birla High and other Gariahat-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Gariahat"
+description: "Live online coding & maths classes near Gariahat, Kolkata. Small batches, full-time engineers, project-based Python, Java & AI. Free demo. From ₹1,499/month."
 canonical: https://learn.modernagecoders.com/coding-classes-near-gariahat-kolkata
-keywords: ["coding classes near Gariahat Kolkata", "maths tuition Gariahat Kolkata", "coding classes Mahadevi Birla World Academy", "coding classes South Point High School", "Python classes Gariahat", "coding for kids Gariahat", "coding for teens Gariahat", "online coding classes Gariahat Kolkata", "ICSE Java tuition Gariahat", "CBSE Python classes Gariahat", "maths classes near Gariahat", "coding classes near me Gariahat"]
+keywords: ["coding classes near Gariahat", "coding classes in Gariahat Kolkata", "maths tuition Gariahat", "Python classes Gariahat", "Java classes ICSE Kolkata", "AI ML classes Kolkata", "online coding classes South Kolkata", "coding for kids Ekdalia", "coding classes Ballygunge", "South Point coding classes", "ICSE computer applications Java", "live online coding Kolkata"]
 source: src/pages/coding-classes-near-gariahat-kolkata.html
 ---
-> Live online coding classes near Gariahat, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, Modern High, Birla High and other Gariahat-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Gariahat, Kolkata. Small batches, full-time engineers, project-based Python, Java & AI. Free demo. From ₹1,499/month.
 
-South Kolkata's Crossroads — Live Online Classes
+LIVE ONLINE CODING & MATHS · SOUTH KOLKATA'S CROSSROADS
 
-# Coding & Maths Classes for Students near Gariahat, Kolkata
+# Coding & Maths Classes near Gariahat, Kolkata
 
-The crossroads of South Kolkata. More schools within a three-kilometre radius than almost any other Kolkata neighbourhood. Students from Gariahat commute to schools across South Kolkata — from **South Point High School** and **Mahadevi Birla World Academy** to **Sri Aurobindo Vidyamandir** and **Nava Nalanda High School**. The Gariahat crossing is where Rashbehari Avenue meets Ballygunge, where the tram lines intersect the busiest book markets, and where families from a dozen surrounding neighbourhoods converge. Yet for all its centrality, finding quality coding education near Gariahat still means navigating crowded coaching centres with oversized batches. Modern Age Coders eliminates that commute entirely with **100% live online coding and mathematics classes** — small batches of 6-8 students, taught live by expert instructors, accessible from any home near Gariahat. Whether your child studies at South Point or walks to Sri Aurobindo Vidyamandir, our courses go far beyond what any school ICT lab offers.
+Modern Age Coders runs premium, live online coding and maths classes for families across Gariahat, Ekdalia, Hindustan Park, Bondel Road and Ballygunge. Every class is taught live by full-time engineers and maths graduates in small batches of 3 to 8, never pre-recorded. Children learn Python, Java, AI/ML and school-to-Olympiad maths through real projects, logging in from home instead of crossing Gariahat junction traffic after dark.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% Live, never recordedBatches of 3–8 studentsFull-time engineers & maths graduatesFree demo, no commitment3–8Students per live batch1-on-1Personalised option6–65Ages we teach~60 minSaved each class, no commute[Book Free Demo Class](/contact)[Explore Courses](/courses)LIVE ONLINE · GARIAHAT, KOLKATA
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, small-batch, project-based — never pre-recordedBatch sizeGroup (max 6–8), Mini Batch (3–4), or 1-on-1Ages6 to 65 — kids, teens, college students and adultsSubjectsCoding (Python, Java, AI/ML, web, DSA) and Maths (school to Olympiad)BoardsCBSE, ICSE/ISC and WBBSE — including ICSE Computer Applications (Java/BlueJ)FeesFrom **₹1,499/month** (group), ₹2,499/month (mini batch), ₹4,999/month (1-on-1)Free demoYes — one free live demo class, no commitmentServingGariahat, Ekdalia, Hindustan Park, Mandeville Gardens, Bondel Road, Kankulia, Ballygunge & all of South KolkataLIVE ONLINE · GARIAHAT, KOLKATA
 
-## Live Online Coding Classes near Gariahat — What Parents Should Know
+## Live, small-batch and taught by full-time engineers
 
-Gariahat parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Gariahat is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from South Point, Modern High, Birla High and other Gariahat-area schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Every Modern Age Coders class is live, small-batch and taught by a full-time engineer or maths graduate — there are no pre-recorded videos and no part-time tutors. This is premium, high-quality coding and maths education built for demanding South Kolkata families who want a genuine edge, not another crowded after-school tuition near Gariahat crossing.
 
-📺
+### Live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is taught live by a real instructor who sees your child's screen, hears their questions and corrects mistakes in the moment. Nothing is pre-recorded. A child stuck on a Python loop or a Java BlueJ practical gets unstuck the same evening, not from a comment thread.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small batches of 3 to 8
 
-👨‍👩‍👧‍👦
+Batches are capped at 6 to 8 for group classes, 3 to 4 for mini batches, and we also offer true 1-on-1. Unlike the packed coaching rooms around Gariahat and Rashbehari, every student gets the instructor's eyes on their work and speaks up without competing with thirty others.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers
 
-Smaller than any Gariahat-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Your child learns from full-time software engineers and maths graduates whose day job is building software and teaching it, not undergraduates squeezing tuition in around their own semesters. They carry working-developer habits into the class — how a real program is structured, debugged and shipped.
 
-🏠
+### Project-based, not theory-only
 
-### Zero Travel through Gariahat Junction Traffic
+Students build real, working things from week one — a Python tool, a Telegram bot, a web app, a machine-learning model. Concepts stick because they are applied immediately, and every child finishes a course with a portfolio that strengthens school and college applications.
 
-No fighting evening Gariahat Junction and Rashbehari Avenue traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### No Gariahat commute
 
-📝
+Classes happen at home, so there is no evening crawl through Gariahat crossing, no auto-changing where Rashbehari meets Gariahat Road, and no crossing tram tracks after dark. Families in Ekdalia, Hindustan Park and Bondel Road save roughly an hour each class day.
 
-### Recordings + Notes After Each Class
+### Board, Olympiad & college-ready
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+We map directly to CBSE, ICSE/ISC and WBBSE syllabi while pushing further — Olympiad maths (IOQM, RMO, IMO) and college-application differentiation that ISB, IIT and overseas-bound students need. One programme covers school marks and the long-term edge.
 
-💻
+LIVE ONLINE · GARIAHAT, KOLKATA
 
-### Project-Based, Not Theory-Heavy
+## Courses we teach near Gariahat
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids & teens (ages ~9–17) | Live Python plus AI foundations; the most in-demand language and CBSE Class 11–12 Informatics Practices ground |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens, especially ICSE Class 9–10 | Java for the ICSE Computer Applications BlueJ syllabus plus OOP fundamentals |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9–10 students | Exam-focused Java covering theory and every BlueJ practical in the Class 10 paper |
+| [Java Classes for Teens](/java-classes-for-teens) | Teens (13–18) | Structured Java track building toward board and project work |
+| [Java Classes for Adults](/java-classes-for-adults) | Adults & working professionals | Java for career-switchers, from syntax to OOP and real projects |
+| [Best Java Classes in India](/best-java-classes-in-india) | All Java learners | Pillar hub linking teens, adults, ICSE, projects, DSA, OOP and certification tracks |
+| [AI/ML Course for Teens](/ai-ml-course-for-teens) | Teens (13–18) | Hands-on machine learning and AI — the future of every industry |
+| [AI/ML for College Students](/ai-ml-course-for-college-students) | College students | Applied AI/ML with placement-relevant depth |
+| [Build ML Models in Python](/build-machine-learning-models-in-python) | Serious teens, college, professionals | Real machine-learning models built from scratch in Python |
+| [Python for Data Science](/python-for-data-science) | College students & professionals | Python, pandas/numpy and visualisation toward data roles |
+| [Online Maths Tuition](/online-maths-tuition) | All ages, Grade 1 to college | Structured live maths plus Olympiad prep (AMC, IOQM, RMO, IMO) |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls (kids & teens) | Girls-only Princess Coders & Queen Coders confidence-building batches |
+| [CBSE & ICSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 board students | Complete board CS / Informatics Practices in Python & Java with board-style projects |
 
-👨‍🏫
+Course hubs: [Coding for Kids](/courses/coding/kids) · [Coding for Teens](/courses/coding/teens) · [Coding for College](/courses/coding/college) · [Coding for Corporate](/courses/coding/corporate) · [Full Courses Index](/courses) · [Summer Coding Camp](/summer-coding-camp) · [Winter Coding Camp](/winter-coding-camp)
 
-### Parent Updates Every Month
+LIVE ONLINE · GARIAHAT, KOLKATA
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three tracks most Gariahat-belt students start with
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+MOST IN-DEMAND LANGUAGE
 
-## Schools near Gariahat Whose Students Learn with Us
+### [Python & AI for Kids and Teens](/python-and-ai-classes-for-kids-teens)
 
-Students from [South Point High School (CBSE)](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata), [Mahadevi Birla World Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata), Sri Aurobindo Vidyamandir, Nava Nalanda High School, and Loreto House (ICSE) — all accessible from the Gariahat area — join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is where most Gariahat-belt students should begin — it is the language behind data science, AI and automation, and it reads almost like English, so a Class 6 child and a college fresher can both start here. Our live Python track also covers the ground CBSE students need for Class 11–12 Informatics Practices, making it useful for both school marks and the long game.
 
-Whether your child follows the ICSE, CBSE, or ISC curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Gariahat offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn:** variables, loops, functions and data structures. **You'll build:** real tools like a library tracker, a bargain calculator and your first AI mini-project.
 
-## What Your Child Will Learn with Modern Age Coders
+BUILT FOR ICSE
 
-Gariahat families expect academic excellence. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+### [Java Programming for Kids and Teens](/java-programming-for-kids-teens)
 
-🎨
+For the ICSE-heavy Gariahat belt — Modern High, Loreto House, St. Lawrence — Java is not optional. The ICSE Computer Applications syllabus is built on Java and BlueJ, and our [Java for ICSE Students](/java-programming-for-icse-students) track covers every theory topic and practical in the Class 10 paper, while teaching the OOP fundamentals that carry into college and careers.
 
-### For Kids (Ages 6-12)
+**You'll learn:** classes, objects, inheritance and every BlueJ practical. **You'll build:** standalone projects that go beyond the exam into genuine programming confidence.
 
-Gariahat families — surrounded by schools in every direction — choose quality over proximity.
+THE COLLEGE-APPLICATION EDGE
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+### [AI/ML Course for Teens](/ai-ml-course-for-teens)
 
-💻
+This is the differentiator demanding South Kolkata families ask for. Our AI/ML tracks take students from Python foundations to [building real machine-learning models](/build-machine-learning-models-in-python), with deeper [AI/ML for college students](/ai-ml-course-for-college-students) and [Python for Data Science](/python-for-data-science) pathways. It is the kind of work that stands out on an ISB, IIT or overseas application.
 
-### For Teens (Ages 13-18)
+**You'll learn:** how machine learning actually works. **You'll build:** trained and deployed models on real datasets, ending with a portfolio project you can show.
 
-Where South Kolkata's busiest student corridor builds real-world tech skills.
+LIVE ONLINE · GARIAHAT, KOLKATA
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+## Schools we teach students from near Gariahat
 
-🎓
+We teach students from the densest cluster of top schools in Kolkata, all within a few kilometres of Gariahat crossing — South Point High School and South Point School at Mandeville Gardens (CBSE), Mahadevi Birla World Academy (CBSE), Modern High School for Girls (ICSE), Loreto House (ICSE), St. Lawrence High School (ICSE), Sri Aurobindo Vidyamandir, Nava Nalanda High School (WBBSE) and Ballygunge Shiksha Sadan. Because classes are live and online, a child from any of these schools joins the right small batch without changing their school routine.
 
-### For College Students
+Our teaching maps to each board. ICSE students from Modern High, Loreto and St. Lawrence get full coverage of the Computer Applications Java/BlueJ syllabus; CBSE students from South Point and Birla High get Python and Informatics Practices depth; and senior students preparing ISC and Class 11–12 board exams can take our dedicated [CBSE & ICSE Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). Maths runs in parallel from Grade 1 through college, including Olympiad preparation, via [Online Maths Tuition](/online-maths-tuition).
 
-Gariahat's college-goers level up with courses that placement cells actually value.
+LIVE ONLINE · GARIAHAT, KOLKATA
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+## Gariahat: South Kolkata's demanding crossroads
 
-💼
+Gariahat is the commercial and cultural crossroads of South Kolkata — the point where Rashbehari Avenue meets Gariahat Road over a flyover ringed by the famous pavement book and sari markets, tram tracks and Triangular Park. The pockets around it — Ekdalia, Hindustan Park, Mandeville Gardens, Bondel Road and Kankulia — are settled, affluent, intensely academic Bengali and Marwari neighbourhoods whose children fill South Point, Modern High and the ICSE convents.
 
-### For Professionals
+These are families who have already cleared the city's toughest school-admission gauntlet. The conversation has moved on from "which school" to "what edge" — coding fluency, real maths depth and a college application that stands apart for ISB, the IITs or universities abroad. What they do not want is another crowded after-school tuition reached by fighting through Gariahat junction at 6pm.
 
-Upskilling programmes for working professionals staying relevant in tech.
+That is exactly the friction live online removes. The evening crawl through Gariahat crossing and the flyover, plus auto-changing where Rashbehari meets Gariahat Road, can swallow 40 to 60 minutes each way. With us, a child logs in from Ekdalia or Hindustan Park, learns in a batch of three to eight from a full-time engineer, and the family keeps that hour — every single class day.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+### Gariahat Saree Bargain Calculator
 
-📊
+A Class 8 girl from Hindustan Park built a Python tool her mother uses at the Gariahat pavement market: enter the quoted price and it suggests a counter-offer and tracks how much the family saved across festival shopping trips.
 
-### Mathematics for All Ages
+### Triangular Park Tram-Timing Notifier
 
-Gariahat parents know maths and code are inseparable.
+A Class 10 South Point boy built a small web app logging when the Gariahat-route trams actually pass Triangular Park versus the timetable, so his grandparents know the real wait before walking down.
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### Ekdalia Durga Pujo Pandal Crowd Map
 
-☀️
+A Class 11 student from Ekdalia built a JavaScript map letting neighbours mark live crowd levels at nearby pujo pandals during Ashtami, used by around forty families in the Kankulia-Bondel Road lanes.
 
-### Summer & Winter Camps
+A Hindustan Park parent told us the biggest change was not just the coding — it was getting two evenings a week back, because their daughter learns more in a batch of four than she ever did in a packed Gariahat tuition room.
 
-Intensive short-term programs during school breaks.
+HA Hindustan Park parentparaphrased from a recent conversationLIVE ONLINE · GARIAHAT, KOLKATA
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+## Areas & pin codes we serve
 
-## Why Gariahat Parents Choose Modern Age Coders
+We teach families across pin codes **700019**, **700029**, **700026**, **700031** and **700068**, covering the whole Gariahat-Ballygunge belt of South Kolkata.
 
-🎥
+GariahatBallygunge PhariHindustan ParkEkdaliaBondel RoadMandeville GardensKankuliaSarat Bose RoadSouthern AvenueLake MarketTriangular ParkRashbehariDover LaneGolparkDhakuria
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+Not on the list? Because every class is live online, we serve students from anywhere in South Kolkata and beyond — [explore all Kolkata areas](/best-coding-class-in-kolkata) or [book a free demo](/contact) from wherever you are.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how time-poor Gariahat parents expect quality education to work without the hassle of navigating crowded coaching centres.
+LIVE ONLINE · GARIAHAT, KOLKATA
 
-👥
+## Weekly schedule & class timings
 
-### Small Batches — Maximum 6-8 Students
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-school early | 4:00–5:30 PM | Kids (6–12), Scratch & early Python | Mon–Fri (2 days/week) |
+| Evening prime | 6:00–7:30 PM | Teens, ICSE/CBSE board coding & maths | Mon–Sat (2–3 days/week) |
+| Late evening | 7:30–9:00 PM | Senior school, college & working adults | Mon–Sat (2–3 days/week) |
+| Weekend intensive | 10:00 AM–12:30 PM | Project work, AI/ML, Olympiad maths | Sat & Sun |
+| Flexible 1-on-1 | By arrangement | Custom pace, board exam crunch, adults | Any day, mutually scheduled |
 
-Individual attention, not lost in a crowd of thirty. With the highest school density in South Kolkata right around Gariahat, our small online batches beat the convenience of any nearby coaching centre. [1-on-1 personalised classes](/pricing) also available.
+LIVE ONLINE · GARIAHAT, KOLKATA
 
-🧰
+## Live online vs offline — an honest comparison
 
-### Coding + Maths Combined — Only in India
+### Where live online wins
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Gariahat parents trust us over single-subject alternatives.
+- No commute — zero time lost to Gariahat crossing traffic, the flyover or auto-changing at Rashbehari junction
+- Genuinely small batches of 3 to 8, impossible to guarantee in a packed local coaching room
+- Taught live by full-time engineers and maths graduates, not whoever is free that evening
+- Every session is recorded for revision, so a missed concept is never lost
+- Safer evenings — no child crossing tram tracks or busy crossings after dark
+- One platform for the whole journey — kids to college, coding and maths, all in one place
+- Easy access to the best instructor for a subject, regardless of which part of the city they live in
 
-💰
+### When offline still wins
 
-### Starting at Just ₹1,499/month
+- A young child who simply cannot sit at a screen yet may do better in person first
+- Families who specifically want physical, in-room social interaction over small live batches
+- Homes with genuinely unreliable internet during class hours
+- Learners who need hands-on hardware or lab equipment we do not provide online
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+For most Gariahat-belt families balancing demanding schools and demanding traffic, live online delivers smaller batches and better teachers with none of the commute — [book a free demo](/contact) and judge the difference yourself.
 
-## Gariahat: South Kolkata's Most Demanding School Belt
+LIVE ONLINE · GARIAHAT, KOLKATA
 
-Gariahat is where the highest concentration of South Kolkata's top schools sits within a kilometre radius. South Point, Modern High, Birla High, La Martiniere — the cluster doesn't really repeat anywhere else in the city. The parents who live in Hindustan Park, Ekdalia, Bondel Road, and Mandeville Gardens have already won the school admission war and are now navigating the next battle: making sure their child stands out in college applications.
+## How to start
 
-For Gariahat parents, coding is the most natural answer. It builds the project portfolio that ISB, IIT, IIM, MIT, and the IITs all increasingly value. The challenge is finding a coding programme rigorous enough to actually produce a portfolio — not a "coded my first game" certificate. Most offline centres in Gariahat are run by ex-tutors who do not actually work as engineers.
+01
 
-Our 24–30 week tracks produce real, deployable projects. Students from this belt have built dashboards, deployed websites, written small games, and shipped Python utilities that their families and schools actually use. The portfolio is real.
+### Book a free demo
 
-### Recent Projects Built by Students from Gariahat
+Tell us your child's age, school and board, and we'll schedule one free live class. [Book Free Demo Class](/contact)
 
-These are real student projects from our Gariahat batches — small, useful, and unmistakably theirs.
+02
 
-#### Hindustan Park Library App
+### Meet your instructor live
 
-A Class 10 South Point girl built a Python program that tracks the books her family of four has borrowed across two local libraries — replacing her mother's notebook.
+Your child joins a real, live session with a full-time engineer or maths graduate and tries the actual format. [See all courses](/courses)
 
-#### Modern High Class Schedule Bot
+03
 
-A Class 9 boy built a small Telegram bot that posts the next day's class schedule to his class group every evening. 32 classmates use it daily.
+### Pick your batch and pace
 
-#### Ekdalia Cricket League Stats Tracker
+Choose group, mini batch or 1-on-1, at a time that fits around school. [View pricing](/pricing)
 
-A Class 11 boy built a small web app that tracks his Sunday gully cricket league's batting averages and strike rates. Twelve players use it.
+04
 
-“
+### Start building
 
-Gariahat parents are deep into school admissions to begin with. We chose Modern Age Coders because the project portfolio is real. Our daughter actually has things she's built.
+Begin live classes and ship your first real project within the first few weeks. [Read our Wall of Love](/love)
 
-— A Gariahat parent, paraphrased from a recent conversation.
+LIVE ONLINE · GARIAHAT, KOLKATA
 
-## Neighbourhoods near Gariahat We Serve
+## What a parent says
 
-Because every class is live online, we serve students across the entire Gariahat belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+"What sold us was the small batch. My daughter is one of four in her live class, so she actually asks questions instead of hiding at the back, and she logs in from our Ekdalia flat with no evening run to Gariahat. In a term she went from being nervous about Java to showing us a BlueJ project she built herself."
 
-### Pin codes we actively teach in
+RRituparna SenParent, Ekdalia
 
-**700019** (Gariahat, Ballygunge core), **700029** (Gariahat Mall, Triangular Park), **700026** (Rashbehari, Lake Market), **700068** (Jodhpur Park edge), **700031** (Dhakuria touch), **700017** (Camac Street side), **700020** (Elgin Road touch).
+[Read more on our Wall of Love](/love)
 
-### Localities our students log in from
+LIVE ONLINE · GARIAHAT, KOLKATA
 
-GariahatBallygunge PhariHindustan ParkEkdaliaBondel RoadMandeville GardensSarat Bose RoadLake MarketTriangular ParkRashbehariSouthern AvenueDover LaneHindusthan RoadKankulia RoadSelimpur
+## Frequently asked questions
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+Every class is 100% live and taught in real time by a full-time engineer or maths graduate. Nothing is pre-recorded. Your child can ask questions and get corrected the moment they are stuck. [Book a free demo](/contact) to see the live format yourself.Group classes (max 6–8) start at ₹1,499/month, mini batches of 3–4 are ₹2,499/month, and 1-on-1 personalised classes are ₹4,999/month. Full details are on our [pricing page](/pricing).Group batches are capped at 6 to 8 students, mini batches at 3 to 4, and we also offer true 1-on-1. This is deliberately far smaller than a typical Gariahat coaching room so every child gets attention.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) track covers every theory topic and BlueJ practical in the Class 10 paper — ideal for Modern High, Loreto House and St. Lawrence students in the Gariahat belt.Classes are scheduled around school hours in short, focused live sessions, usually two to three a week. A South Point student from Mandeville Gardens logs in from home with no commute, so the workload stays manageable. Start with [Python & AI](/python-and-ai-classes-for-kids-teens) or [board CS prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) run Princess Coders and Queen Coders batches — a good fit for daughters from the Hindustan Park and Ekdalia convent schools who prefer an all-girls setting.Absolutely — that is the whole point. Because classes are live online, your child joins from home and never crosses Gariahat junction for evening class. Families typically save around an hour each class day.Yes. Our [Online Maths Tuition](/online-maths-tuition) includes Olympiad preparation (IOQM, RMO, IMO), and our project-based coding builds the kind of portfolio that differentiates ISB, IIT and overseas applications.We teach ages 6 to 65 — from [Scratch for young kids](/courses/coding/kids) and [teen coding](/courses/coding/teens) to [college DSA and AI/ML](/courses/coding/college) and [adult Java](/java-classes-for-adults).Every live session is recorded and shared, so a missed class can always be reviewed. For longer absences, instructors help students catch up, and 1-on-1 students can reschedule.CBSE, ICSE/ISC and WBBSE. We map coding and maths directly to each syllabus while also pushing students beyond the exam.Any reasonably modern laptop or desktop with a stable internet connection and a webcam works. We guide you on free software setup before the first class.Classes are taught primarily in clear English, and our instructors comfortably switch to Bengali or Hindi to explain a tricky concept — useful for the mixed-medium Gariahat belt.Yes, students receive a certificate on completing a course, along with the real projects they build, which matter far more for school and college applications.Yes — the demo is a genuine free live class with no obligation to enrol. [Book your free demo](/contact) and see the small-batch, live format before deciding.
 
-## Class Timings & Weekly Schedule for Students near Gariahat
+## Give your child the South Kolkata edge — live, small-batch, project-based.
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+Premium coding and maths taught live by full-time engineers, with no Gariahat commute — start with one free class.
 
-☀️
+[Book Free Demo Class](/contact)[View Pricing](/pricing)[Chat on WhatsApp](https://wa.me/919123366161)LIVE ONLINE · GARIAHAT, KOLKATA
 
-### Morning Slot — 9:00 to 11:00 AM
+## Coding & maths classes in nearby areas
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
-
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
-
-🏫
-
-### After-School Slot — 4:30 to 7:30 PM
-
-The most popular slot for kids and teens near Gariahat. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Gariahat parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Modern High School, La Martiniere, Pratt Memorial and similar Gariahat-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Birla High School, Modern High, La Martiniere for Girls and other CBSE-track Gariahat-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that South Point High School, Modern High School, St. Lawrence and other ICSE-track Gariahat-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Gariahat — Honest Comparison
-
-Gariahat is one of the densest tuition belts in South Kolkata around Hindustan Park and Ekdalia. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Gariahat centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Gariahat Junction traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Gariahat
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Gariahat
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home near Gariahat. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"My child is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement. The teachers are very cooperative and listen to our suggestions."
-
-SSonam OswalMother of Dhairya
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Gariahat
-
- Are there coding classes for kids near Gariahat, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Gariahat. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home — no need to navigate the congested Gariahat crossing for coaching classes. Courses start at ₹1,499/month with small batches of 6-8 students. Many students from South Point, Mahadevi Birla, and other Gariahat-area schools are already learning with us. What coding courses are available for Gariahat students? +We offer a full spectrum of coding and maths courses for students near Gariahat: Scratch and block coding for ages 6-10, HTML/CSS web design for ages 8-12, Python programming, Java for ICSE boards, AI & Machine Learning, Full Stack Web Development, Data Structures & Algorithms, and mathematics from school level through Olympiad prep. All classes are 100% live and online. What is the fee for coding and maths classes near Gariahat? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. Gariahat families save time and commute costs with our online model. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. How can my child near Gariahat attend your classes without travelling? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel through Gariahat traffic needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Ballygunge Phari or Hindustan Park? +Three big differences. **First**, batch size: most Gariahat tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Gariahat Junction and Rashbehari Avenue traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Gariahat? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Gariahat belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Gariahat? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Gariahat. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at South Point, Modern High, Birla High and other Gariahat-area schools and other Gariahat-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Gariahat Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Gariahat trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Ballygunge](/coding-classes-near-ballygunge-kolkata)[Golpark](/coding-classes-near-golpark-kolkata)[Southern Avenue](/coding-classes-near-southern-avenue-kolkata)[Dhakuria](/coding-classes-near-dhakuria-kolkata)[Rashbehari](/coding-classes-near-rashbehari-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata)
+[Ballygunge](/coding-classes-near-ballygunge-kolkata)[Golpark](/coding-classes-near-golpark-kolkata)[Southern Avenue](/coding-classes-near-southern-avenue-kolkata)[Dhakuria](/coding-classes-near-dhakuria-kolkata)[Rashbehari](/coding-classes-near-rashbehari-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)[Mahadevi Birla World Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata)
 
 ---
 
