@@ -1,364 +1,234 @@
 ---
-title: "Coding & Maths Classes near Sreebhumi, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Sreebhumi, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Hariyana Vidya Mandir, Sudhir Memorial, Holy Cross and other North Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Sreebhumi, Kolkata"
+description: "Premium live online coding & maths classes near Sreebhumi, Kolkata. Small 6-8 batches, project-based, taught by full-time engineers. Free demo, from ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-sreebhumi-kolkata
-keywords: ["Sreebhumi Kolkata coding classes", "coding near Sreebhumi", "coding for kids Sreebhumi", "Python classes Sreebhumi", "maths tuition Sreebhumi", "online coding Sreebhumi Kolkata", "Salt Lake Sreebhumi coding", "teen coding Sreebhumi", "AI classes Sreebhumi", "premium lakeside coding Kolkata", "CBSE ICSE tuition Sreebhumi"]
+keywords: ["coding classes near Sreebhumi", "coding classes Lake Town Kolkata", "online coding classes Sreebhumi", "maths tuition Sreebhumi Kolkata", "Python classes Lake Town", "Java classes ICSE Kolkata", "AI ML classes Kolkata", "coding classes Bangur Avenue", "computer applications ICSE Class 10", "CBSE Informatics Practices Class 11", "coding classes VIP Road Kolkata", "kids coding classes Sreebhumi"]
 source: src/pages/coding-classes-near-sreebhumi-kolkata.html
 ---
-> Live online coding classes near Sreebhumi, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Hariyana Vidya Mandir, Sudhir Memorial, Holy Cross and other North Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Premium live online coding & maths classes near Sreebhumi, Kolkata. Small 6-8 batches, project-based, taught by full-time engineers. Free demo, from ₹1,499/mo.
 
-Premium Lakeside Living — Live Online Classes
+LIVE ONLINE · SREEBHUMI · LAKE TOWN · VIP ROAD
 
-# Coding & Maths Classes for Students near Sreebhumi, Kolkata
+# Premium Coding & Maths Classes near Sreebhumi, Kolkata
 
-Premium lakeside living with Salt Lake at its doorstep. Sreebhumi families invest in quality — quality homes, quality schools, quality after-school education. This is a neighbourhood where the view includes both the lake and Salt Lake's Sector V skyline — a daily reminder that technology drives the future. Schools in the Sreebhumi and Lake Town vicinity serve families who are discerning about education and unwilling to compromise on standards. Modern Age Coders matches that standard with **100% live online coding and mathematics classes** — small batches of 6-8 students, expert instructors, and a curriculum that delivers genuine skill-building. No pre-recorded videos, no oversized classes, no gimmicks. From a six-year-old learning Scratch to a teenager building AI projects, our courses are designed for families who know the difference between quality and marketing. Sreebhumi's lakeside calm meets Salt Lake's tech ambition — and Modern Age Coders brings the education that bridges both.
+Modern Age Coders runs live online coding and mathematics classes for families near Sreebhumi, Lake Town and the VIP Road corridor. Children learn in small batches of 6–8, taught in real time by full-time software engineers and maths graduates — never pre-recorded video. Lessons are project-based, mapped to ICSE Java/BlueJ and CBSE Python syllabi, and run entirely from home, so no one crawls through the Sreebhumi junction. Book a free demo first.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% live, never recordedSmall batches (6–8)Engineers & maths graduatesFree demo, no payment upfront6–8Students per live batch1:1Personal attention option₹1,499Starting fee per month0 minCommute through VIP Road traffic[Book a Free Demo Class](/contact)[Explore Courses](/courses)AT A GLANCE
 
-Free demo • No commitment • Classes start within 24 hours
+## The essentials, in one place
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, taught in real time — never pre-recordedBatch sizeSmall batches of **6–8**; mini batch of 3–4; or 1-on-1Ages**6 to 65** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) and mathematicsBoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesFrom **₹1,499/month** (group), ₹2,499 (mini batch), ₹4,999 (1-on-1)Free demoYes — one free live demo class, no payment or commitmentServingSreebhumi, Lake Town, Bangur Avenue, VIP Road, Ultadanga, Salt Lake borderLIVE ONLINE · PREMIUM QUALITY
 
-## Live Online Coding Classes near Sreebhumi — What Parents Should Know
+## Real teachers, real time, real projects
 
-Sreebhumi parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Sreebhumi is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Hariyana Vidya Mandir, Sudhir Memorial, Holy Cross and other North Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Every Modern Age Coders class near Sreebhumi is a live, two-way online session with a real teacher — there are no pre-recorded videos and no auto-play playlists. You get premium, high-quality coding and maths education at home: small batches, full-time engineers and maths graduates as teachers, and a project every child actually builds and keeps.
 
-📺
+### Live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Classes happen in real time on a scheduled slot, with your child speaking, sharing screen and asking questions as they code. A teacher watches the work as it is written and corrects mistakes on the spot. This is the opposite of buying a recorded course and hoping a six-year-old finishes it alone.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Genuinely small batches
 
-👨‍👩‍👧‍👦
+We cap group batches at 6–8 students, with mini batches of 3–4 and full 1-on-1 options. That is a fraction of the size of the crowded tuition rooms around Bangur Avenue and Khanna More. Every child is known by name and nobody hides at the back.
 
-### Max 6–8 Students per Live Batch
+### Taught by working engineers
 
-Smaller than any Sreebhumi-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Teachers are full-time software engineers and maths graduates, not part-time college students reading from a guidebook. They have shipped real code and solved real maths, so they explain why a concept matters, not just how to pass a test. Premium teaching is the whole point.
 
-🏠
+### Project-based, always
 
-### Zero Travel through Sreebhumi Traffic
+Children do not just watch syntax; they build working things — a game, a calculator, a small web app, a data chart. Each project goes into a portfolio your child can show at school or in an interview. Local students have built market price trackers and Pujo pandal maps this way.
 
-No fighting evening Sreebhumi VIP Road junction traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Mapped to your board
 
-📝
+Lessons are aligned to the exact syllabus your school follows — Java/BlueJ for ICSE Computer Applications, Python and Informatics Practices for CBSE Class 11–12, plus IGCSE and WBBSE support. So coding class doubles as board exam preparation. The same teacher who builds projects also drills board-style programs.
 
-### Recordings + Notes After Each Class
+### Zero commute, more time
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Because everything is online, your child loses no time in the Sreebhumi VIP Road junction or the Lake Town-Ultadanga crawl. A lesson ends and dinner begins — no airport-bound traffic, no waiting parents in the car. That is 60–90 minutes saved on every single class day.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## Every course, mapped to who it is for
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Ages ~10–17 starting their first real language | Live Python with an AI/ML on-ramp; games, scripts and an introduction to machine learning |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young coders moving up from block coding | Text-based Python fundamentals with gentle, kid-friendly projects |
+| [Python Projects for Kids](/python-projects-for-kids) | Kids who know Python basics | A portfolio of small games, calculators and useful scripts |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | ICSE Class 9–10 Computer Applications students | Java/BlueJ aligned to the ICSE syllabus with board-style practical programs |
+| [Java Classes for Teens](/java-classes-for-teens) | Teenagers 13–18 building real Java skills | Java from syntax through OOP and projects |
+| [Java Classes for Adults](/java-classes-for-adults) | College students and working adults | Placement-oriented Java, OOP depth and backend foundations |
+| [AI/ML Course for Teens](/ai-ml-course-for-teens) | Teens 13–18 curious about AI | Project-based intro to AI and machine learning concepts |
+| [AI/ML Course for College Students](/ai-ml-course-for-college-students) | College students and early professionals | Python-based AI/ML, data analysis and model building for the job market |
+| [Online Maths Tuition](/online-maths-tuition) | Grade 1 through college, all boards | School maths plus Olympiad prep (AMC, IOQM, RMO, IMO) |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only kids and teens batches | Dedicated Princess/Queen Coders coding track |
+| [CBSE/ICSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 ICSE (Java) and CBSE (Python) | Complete board CS / Informatics Practices prep with submission-ready projects |
+| [Summer Coding Camp](/summer-coding-camp) | Kids, teens and adults in summer break | A full module completed intensively in 3–4 weeks |
+| [Browse all courses](/courses) | Anyone exploring the full catalogue | Every coding and maths course across all age groups |
 
-👨‍🏫
+FEATURED TRACKS
 
-### Parent Updates Every Month
+## Three tracks families near Sreebhumi ask for most
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+MOST IN-DEMAND
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+### [Python & AI for Kids and Teens](/python-and-ai-classes-for-kids-teens)
 
-## Schools near Sreebhumi Whose Students Learn with Us
+Python is our most requested language near Sreebhumi, and for good reason: it is the language CBSE uses for Class 11–12 and the gateway into AI and data work. Children start with simple programs and move to real projects at their own pace, all live with a teacher. It is also the natural first step before machine learning.
 
-Students from schools in the **Sreebhumi and Lake Town vicinity**, **VIP Road corridor schools**, and **Salt Lake schools nearby** join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+**You'll learn / build:** variables to functions to AI basics — building games, calculators and your first ML-flavoured project. → [Start with Python](/python-and-ai-classes-for-kids-teens)
 
-Whether your child follows the ICSE, CBSE, or IGCSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Sreebhumi offers this depth of coding education alongside structured mathematics tutoring.
+ICSE BOARD-ALIGNED
 
-## What Your Child Will Learn with Modern Age Coders
+### [Java Programming for Kids and Teens](/java-programming-for-kids-teens)
 
-Sreebhumi's quality-conscious families choose coding education that delivers results. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+For the many ICSE families around Lake Town, Bangur and Holy Cross, Java is not optional — it is the Class 9–10 Computer Applications syllabus, written in BlueJ. We teach Java the way the board examines it, with practical programs and patterns, while still making it genuinely interesting. Adults can take the placement-focused track instead.
 
-🎨
+**You'll learn / build:** classes, objects and OOP through board-style BlueJ programs and a small project of your own. → [Start with Java](/java-programming-for-kids-teens)
 
-### For Kids (Ages 6-12)
+FUTURE-READY
 
-Sreebhumi's quality-conscious families choose coding education that delivers results.
+### [AI & Machine Learning](/ai-ml-course-for-college-students)
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+AI is no longer a buzzword for the next generation; it is a skill. Teens get a project-based introduction to how machine learning actually works, while college students and early professionals go deeper into data analysis and model building geared to the tech job market. Both tracks are live and hands-on, built on Python.
 
-💻
+**You'll learn / build:** how models learn from data, then build a working mini-model — from [teen-level AI](/ai-ml-course-for-teens) to [college-level AI/ML](/ai-ml-course-for-college-students). → [Explore AI & ML](/ai-ml-course-for-college-students)
 
-### For Teens (Ages 13-18)
+SCHOOLS SERVED
 
-Where lakeside living meets tech ambition — teens build skills that matter.
+## Your school, your syllabus, your plan
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+We teach children from the schools families near Sreebhumi actually attend — Hariyana Vidya Mandir, Holy Cross School in Lake Town, Holy Child Institute in Bangur, Sudhir Memorial Institute at Kalindi, Apeejay School and Aryan Public School on the VIP Road side, Our Lady Queen of the Missions in Salt Lake, and Julien Day School in Kankurgachi. Whether your child sits the ICSE, CBSE, IGCSE or WBBSE board, the coding plan fits their syllabus, not a generic template.
 
-🎓
+That matters because the boards diverge sharply: ICSE schools like Holy Cross and Holy Child run Java/BlueJ in Class 9–10, while CBSE schools like Apeejay and Sudhir Memorial use Python and Informatics Practices in Class 11–12. Our teachers map each child to the right language and exam pattern, and Class 11–12 students can take the dedicated [Computer Science and Informatics Practices for Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) course for full board prep with submission-ready projects.
 
-### For College Students
+THE NEIGHBOURHOOD
 
-Sreebhumi's college students gain coding skills for the Sector V job market.
+## Sreebhumi, beyond the one weekend a year
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Sreebhumi is one of Kolkata's quietly confident pockets. It is the strip where Lake Town's calm lakeside avenues meet the rush of VIP Road heading out to the airport and across to Salt Lake's Sector V skyline. Most people know it for one weekend a year — when the Sreebhumi Sporting Club's Durga Pujo turns the whole junction into a river of people — but the rest of the year it is an established residential neighbourhood of salaried families who value substance over show.
 
-💼
+The families here are pragmatic and low-key: multi-generational Bengali, Marwari and Punjabi households who are quality-conscious without being loud about it. This is not a status-driven, edu-investing belt like parts of Salt Lake; it is a place where a good teacher earns trust slowly and then keeps a family for years. That is exactly the relationship a small live online batch is built for — the same teacher, week after week, who actually knows your child.
 
-### For Professionals
+And the daily reality is traffic. Anyone who has waited at the Sreebhumi VIP Road junction or crawled through the Lake Town-Ultadanga crossing at evening rush — worse still during the Pujo weeks — knows what a tuition trip across Bangur Avenue and Khanna More really costs. Live online classes simply remove that. A child finishes a lesson at the desk and walks straight to dinner, with 60–90 minutes a day handed back to the family.
 
-Upskilling programmes for working professionals staying relevant in tech.
+### The kind of projects local students build
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+### Bangur Avenue Market Price Tracker
 
-📊
+A Class 8 student built a Python program that logs daily vegetable and fish prices from the Bangur market and charts the weekly trend, so her grandmother knows the best day to shop.
 
-### Mathematics for All Ages
+### VIP Road Bus-Frequency Logger
 
-Sreebhumi families know maths and code are inseparable.
+A Class 10 ICSE boy wrote a Java/BlueJ console app that records how long he waits for the AC-39 and other buses at the Lake Town stop, then prints the average wait by time of day.
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### Sreebhumi Pujo Pandal Map
 
-☀️
+A Class 6 girl built a Scratch interactive map that lets visitors tap pandals around Sreebhumi and Lake Town to see this year's theme, opening time and the least-crowded entry route.
 
-### Summer & Winter Camps
+"My son used to lose half his evening just getting to and from tuition near Bangur — now that class is live online, he finishes and we have dinner together."
 
-Intensive short-term programs during school breaks.
+PParentLake TownAREAS & PIN CODES
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+## Who we serve around Sreebhumi
 
-## Why Sreebhumi Parents Choose Modern Age Coders
+We serve learners across pin codes 700048, 700089, 700055, 700054, 700067, 700028, 700052 and 700074 — Sreebhumi PO covers Lake Town, with the surrounding Bangur, Ultadanga, Salt Lake border and Dum Dum pockets all within reach.
 
-🎥
+SreebhumiLake TownBangur AvenueVIP RoadUltadangaPhoolbaganManiktala edgePatipukurDum Dum ParkKhanna MoreNorthern AvenueKankurgachiSalt Lake borderJessore Road touchKarunamoyee edge
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+Because every class is live online, you can join from anywhere near Sreebhumi — or anywhere in Kolkata, India or the world — with nothing more than a laptop and a steady connection.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Sreebhumi families expect quality education to work.
+SCHEDULE
 
-👥
+## Slots that fit school, work and Kolkata life
 
-### Small Batches — Maximum 6-8 Students
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Early Morning | 6:30–8:00 AM | School-goers before classes; working adults | Mon–Fri |
+| After School | 4:00–6:00 PM | Kids and teens (Classes 4–10) | Mon, Wed, Fri |
+| Evening | 6:30–8:30 PM | Teens, board students, ICSE/CBSE Class 9–12 | Tue, Thu, Sat |
+| Late Evening | 8:30–10:00 PM | College students and working professionals | Mon, Wed, Fri |
+| Weekend | 9:00 AM–1:00 PM | Flexible slots, camps, 1-on-1 catch-up | Sat, Sun |
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+Slots are indicative; your free demo confirms the exact timing that suits your child.
 
-🧰
+ONLINE vs OFFLINE
 
-### Coding + Maths Combined — Only in India
+## The honest comparison
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Sreebhumi parents trust us over single-subject alternatives.
+### Where live online wins
 
-💰
+- Zero commute — no time lost at the Sreebhumi VIP Road junction or the Lake Town-Ultadanga crawl, even during Pujo weeks.
+- Genuinely small batches of 6–8, far smaller than the crowded tuition rooms around Bangur Avenue and Khanna More.
+- Access to full-time software engineers and maths graduates, not just whoever teaches nearby.
+- The same dedicated teacher every week, who knows your child by name and tracks their progress.
+- Screen-sharing means the teacher sees the actual code as it is written and corrects it instantly.
+- Notes and worked examples from each live session for revision, plus a free demo before you pay.
+- Safer and calmer for younger children — no travelling after dark on VIP Road.
 
-### Starting at Just ₹1,499/month
+### When offline still wins (the honest bit)
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+- A child who refuses to engage with any screen and needs a teacher physically beside them.
+- Households without a reliable laptop or stable internet connection.
+- Families who specifically want a neighbourhood social setting over focused learning.
+- Very young children who still need a parent in the room for the first few sessions.
 
-## Sreebhumi: Bangur Avenue's Neighbour, with a Quiet Education Tradition
+For most quality-conscious families near Sreebhumi, live online delivers better teachers, smaller batches and zero commute — which is why retention here is so high once families start.
 
-Sreebhumi is the strip along VIP Road that connects Lake Town to Ultadanga, with Bangur Avenue and the Sreebhumi Pujo just beside. The neighbourhood is salaried middle-class Bengali, Marwari, and Punjabi — families that have built up over a generation or two in the area, and now want their children to leap forward.
+HOW TO START
 
-Children attend Hariyana Vidya Mandir, Sudhir Memorial, Holy Cross, and the various Lake Town schools. Parents are pragmatic and slightly under-the-radar — this is not a noisy edu-investing belt like Salt Lake, but it is consistent. Once a Sreebhumi parent enrols a child in a programme, they tend to stick with it for years.
+## From first message to first project
 
-We have a solid base of Sreebhumi students who started in Class 5 with Scratch and are now in Class 9 doing Python. That continuity is the entire point of how we run this thing.
+01
 
-### Recent Projects Built by Students from Sreebhumi
+### Book a free demo
 
-These are real student projects from our Sreebhumi batches — small, useful, and unmistakably theirs.
+Tell us your child's class and board, and we will schedule one free live demo with a real teacher. → [Book Free Demo Class](/contact)
 
-#### Sreebhumi Pujo Footfall Counter
+02
 
-A Class 9 student built a Python script that estimates Sreebhumi Pujo crowd flow from a public webcam over the festival days.
+### Meet your teacher
 
-#### VIP Road Carpool Coordinator
+Your child codes live in the demo so you can judge the teaching quality before spending a rupee. → [See all courses](/courses)
 
-A Class 10 boy built a small web app that tracks which neighbour shares his school drop on which day. His mother and three other mothers use it.
+03
 
-#### Lake Town Tuition Calendar
+### Pick a plan
 
-A Class 7 girl built a Scratch app that tracks her four weekly tuitions and reminds her of homework due dates.
+Choose Group (₹1,499/mo), Mini Batch (₹2,499/mo) or 1-on-1 (₹4,999/mo) based on the attention you want. → [View pricing](/pricing)
 
-“
+04
 
-We don't make loud decisions in this neighbourhood. We watched friends' kids learn for two years, then joined. It's been five terms since then.
+### Start building
 
-— A Sreebhumi parent, paraphrased from a recent conversation.
+Lock a slot and your child begins their first project from week one, fully online from home. → [Explore Courses](/courses)
 
-## Neighbourhoods near Sreebhumi We Serve
+FROM A PARENT
 
-Because every class is live online, we serve students across the entire Sreebhumi belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+## What families tell us
 
-### Pin codes we actively teach in
+"Modern Age Coders has been wonderful for Dhairya. The classes are genuinely live and interactive, and the teacher gives him real individual attention — something I never expected from an online format. He looks forward to every session and has built things I didn't think a child his age could."
 
-**700048** (Sreebhumi, Ultadanga), **700089** (Lake Town edge), **700055** (Bangur Avenue, Dum Dum Park), **700067** (Phoolbagan), **700054** (Maniktala side), **700028** (Dum Dum edge), **700052** (VIP Road touch).
+SSonam OswalMother of Dhairya
 
-### Localities our students log in from
+Read more parent stories on our [Wall of Love](/love).
 
-SreebhumiLake TownUltadangaBangur AvenueVIP RoadPhoolbaganManiktala edgePatipukurJessore Road touchSalt Lake borderDum Dum ParkKhanna MoreNorthern AvenueKankurgachi sideKarunamoyee edge
+FAQ
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+## Questions families near Sreebhumi ask
 
-## Class Timings & Weekly Schedule for Students near Sreebhumi
+Yes. ICSE students at schools like Holy Cross and Holy Child learn Java in BlueJ exactly as the Class 9-10 board examines it, with board-style practical programs. See [Java Programming for Kids/Teens](/java-programming-for-kids-teens).Yes. CBSE students at Apeejay, Sudhir Memorial and similar schools follow Python and Informatics Practices, and we have a dedicated [Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) with full board prep and submission-ready projects.Yes. Group batches are capped at 6-8 students, with mini batches of 3-4 and full 1-on-1 options — far smaller than the crowded tuition rooms around Bangur Avenue and Khanna More. See [pricing](/pricing).No travel at all. Every class is 100% live online from home, so you never touch the VIP Road junction or the Lake Town-Ultadanga crossing, even during the Durga Pujo weeks.Every class is live and two-way, with a real teacher in real time — never pre-recorded video. Your child speaks, shares their screen and gets corrected on the spot. [Book a free demo](/contact) to see for yourself.Yes. We offer one free live demo class with no payment and no commitment, so you can judge the teaching before deciding. → [Book Free Demo Class](/contact)Group (₹1,499/mo) is a live batch of 6-8; Mini Batch (₹2,499/mo) is 3-4 students for closer attention; 1-on-1 (₹4,999/mo) is fully personalised. Full details on the [pricing page](/pricing).Full-time software engineers and maths graduates — people who have shipped real code and solved real maths, not part-time students reading a guidebook. That is the premium quality the whole programme is built on.Tell us in advance and the same teacher helps your child catch up on what was covered, and in mini and 1-on-1 plans a makeup slot can usually be rescheduled. No child is left behind for missing a day.A laptop or desktop with a webcam and a stable internet connection is ideal; a tablet works for younger kids. No special software to buy — we guide you through the free tools in the demo.[Python](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens), [AI and Machine Learning](/ai-ml-course-for-college-students), Scratch, web and DSA on the coding side, plus full [maths tuition](/online-maths-tuition) from Grade 1 through college.Yes. Families on the Lake Town and Salt Lake border who prefer it can choose our girls-only Princess/Queen Coders batches. See [Coding Classes for Girls](/coding-classes-for-girls).Classes are taught in clear English, and teachers comfortably explain in Hindi or Bengali when a younger child needs it — which suits the Bengali, Marwari and Punjabi families around Sreebhumi.Yes. On completing a course your child receives a certificate, but the real proof is the portfolio of working projects they build and keep — far more useful at school or in an interview.Yes. We teach ages 6 to 65, including [Java for adults](/java-classes-for-adults), [college-level AI/ML](/ai-ml-course-for-college-students) and the [college coding hub](/courses/coding/college) with DSA and more.
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+## Premium live coding & maths, right here near Sreebhumi.
 
-☀️
+Small live batches, real engineers, zero commute through VIP Road traffic — start with one free demo class.
 
-### Morning Slot — 9:00 to 11:00 AM
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)EXPLORE NEARBY
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Coding & maths classes in nearby areas
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
-
-🏫
-
-### After-School Slot — 4:30 to 7:30 PM
-
-The most popular slot for kids and teens near Sreebhumi. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Sreebhumi parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Hariyana Vidya Mandir, Sudhir Memorial, Holy Child and similar Sreebhumi-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Hariyana Vidya Mandir, Apeejay School, Aryan Public School and other CBSE-track Sreebhumi-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Hariyana Vidya Mandir, Sudhir Memorial, Holy Cross and other ICSE-track Sreebhumi-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Sreebhumi — Honest Comparison
-
-Sreebhumi and Lake Town have several neighbourhood tuition rooms. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Sreebhumi centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Sreebhumi crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Sreebhumi
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Sreebhumi
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Sreebhumi. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"My son Nikit has been learning with Modern Age Coders and the progress has been remarkable. The teachers are patient, knowledgeable, and genuinely care about each student's growth. The small batch size means Nikit gets proper attention and his doubts are cleared immediately. I am very happy with the quality of education."
-
-SSonu GoyalFather of Nikit
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Sreebhumi
-
- Are there coding classes for kids near Sreebhumi, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Sreebhumi. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from schools in the Sreebhumi, Lake Town, and Salt Lake vicinity are already learning with us. What is the fee for coding and maths classes near Sreebhumi? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Sreebhumi? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for students from schools in the Sreebhumi, Lake Town, and Salt Lake area. How can my child in Sreebhumi attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Lake Town or Ultadanga? +Three big differences. **First**, batch size: most Sreebhumi tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Sreebhumi VIP Road junction traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Sreebhumi? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Sreebhumi belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Sreebhumi? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Sreebhumi. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Hariyana Vidya Mandir, Sudhir Memorial, Holy Cross and other North Kolkata schools and other Sreebhumi-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Sreebhumi Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Sreebhumi trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Salt Lake](/coding-classes-near-salt-lake-kolkata)[VIP Road](/coding-classes-near-vip-road-kolkata)[Lake Town](/coding-classes-near-lake-town-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+[Lake Town](/coding-classes-near-lake-town-kolkata)[Salt Lake](/coding-classes-near-salt-lake-kolkata)[VIP Road](/coding-classes-near-vip-road-kolkata)[Coding Classes in Kolkata — All Areas](/best-coding-class-in-kolkata)[Explore all courses](/courses)[Coding & Maths for DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
 
 ---
 
