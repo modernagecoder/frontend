@@ -1,364 +1,241 @@
 ---
-title: "Coding & Maths Classes near Tollygunge, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Tollygunge, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, Birla High, Mahadevi Birla and other Tollygunge-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Coding & Maths Classes near Tollygunge, Kolkata | Live"
+description: "Live online coding & maths classes for Tollygunge, Charu Market, Bansdroni & Lake Gardens kids. Small batches, full-time engineers, from ₹1,499/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-tollygunge-kolkata
-keywords: ["coding classes near Tollygunge Kolkata", "maths tuition Tollygunge Kolkata", "coding classes Purushottam Bhagchandka", "coding classes DPS Joka", "Python classes Tollygunge", "coding for kids Tollygunge", "coding for teens Tollygunge", "online coding classes Tollygunge Kolkata", "ICSE Java tuition Tollygunge", "CBSE Python classes Tollygunge", "maths classes near Tollygunge", "coding classes near me Tollygunge"]
+keywords: ["coding classes near Tollygunge", "coding classes Tollygunge Kolkata", "maths tuition Tollygunge", "Python classes for kids Tollygunge", "Java ICSE coding South Point", "coding classes Charu Market", "coding classes Bansdroni", "AI ML classes for teens Kolkata", "online coding classes Lake Gardens", "ICSE Computer Applications Java BlueJ Kolkata", "CBSE Computer Science Class 11 12 online", "coding classes for girls South Kolkata"]
 source: src/pages/coding-classes-near-tollygunge-kolkata.html
 ---
-> Live online coding classes near Tollygunge, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, Birla High, Mahadevi Birla and other Tollygunge-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes for Tollygunge, Charu Market, Bansdroni & Lake Gardens kids. Small batches, full-time engineers, from ₹1,499/mo. Free demo.
 
-Where Creativity Meets Code — Live Online Classes
+LIVE ONLINE · SOUTH KOLKATA · TOLLYGUNGE
 
-# Coding & Maths Classes for Students near Tollygunge, Kolkata
+# Coding & Maths Classes near Tollygunge, Kolkata
 
-From Tollywood's film studios to cutting-edge code studios — Tollygunge knows creativity. This is the neighbourhood that gave Indian cinema its Bengali voice, and that same creative energy now runs through the children growing up here. **Purushottam Bhagchandka Academic School (ICSE)**, **Tollygunge Bangiya Vidyalaya**, nearby **DPS Joka (CBSE)**, and **Nava Nalanda High School** serve families who value both artistic expression and academic rigour. Yet creativity in the 21st century demands a new vocabulary: loops, functions, algorithms, and data. Coding is the new creative medium — and Modern Age Coders teaches it through **100% live online classes** that Tollygunge students join from the comfort of home. No commuting through the Metro corridor, no sitting in oversized batches at coaching centres on SP Mukherjee Road. Just focused, small-batch, live instruction from expert teachers. From a six-year-old learning Scratch to a teenager building games in Python, our courses turn Tollygunge's creative DNA into technical fluency.
+Modern Age Coders runs premium live online coding and mathematics classes for children and teens across Tollygunge, Charu Market, Bansdroni, Naktala and Lake Gardens. Every class is taught live by full-time software engineers and maths graduates in small batches of six to eight students, never pre-recorded. Fees start at ₹1,499/month, and your first demo class is free. Tollywood's creative city now learns to build with code.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Max 6-8 per live batchFull-time engineers & maths graduatesFrom ₹1,499/monthFree first demo class[Book a Free Demo Class](/contact)[Explore Courses](/courses)100%Live, never recorded6-8Students per batch₹1,499Starting fee /month90 minSaved per class dayAT A GLANCE
 
-Free demo • No commitment • Classes start within 24 hours
+## Coding & maths near Tollygunge, in one screen
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, real teacher on screen, never pre-recordedBatch sizeSmall live batches of **6-8**; mini batch 3-4; or 1-on-1Ages6 to 17 for school tracks; teens, college and adults for advanced tracksSubjectsCoding (Scratch, Python, Java, AI/ML, DSA) and Mathematics (school, Olympiad, college)BoardsICSE/ISC, CBSE, IGCSE and WBBSE/State; English, Bengali and Hindi medium welcomeFeesFrom **₹1,499/month** (group), ₹2,499/month (mini batch), ₹4,999/month (1-on-1)Free demoYes — one full live class, no payment and no commitmentServingTollygunge, Tollygunge Phari, Charu Market, Bansdroni, Naktala, Kudghat, Lake Gardens, Regent Park, Deshapriya Park, New Alipore edgeLIVE ONLINE · PREMIUM QUALITY
 
-## Live Online Coding Classes near Tollygunge — What Parents Should Know
+## A premium live school, not a video library
 
-Tollygunge parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Tollygunge is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from South Point, Birla High, Mahadevi Birla and other Tollygunge-area schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Modern Age Coders is a premium live online school, not a video library — every Tollygunge child learns from a real full-time engineer or maths graduate teaching on screen in a batch of six to eight, with their camera on, their code reviewed line by line, and their questions answered the moment they ask. This is what high-quality coding and maths education looks like when it is built around small live batches and real projects.
 
-📺
+### Genuinely live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Every single class is taught live by a teacher who can see your child's screen and code in real time. There are no pre-recorded videos to fall asleep to and no automated app drills. When a Class 8 student in Bansdroni is stuck on a loop, the teacher fixes it with them in that moment, not in a forum reply tomorrow.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Six to eight students, never a crowd
 
-👨‍👩‍👧‍👦
+Our group batches are capped at six to eight students, a fraction of the forty-child rooms on S.P. Mukherjee Road. That cap means every child speaks, shares their screen and gets corrected by name in each session. Families who want even tighter attention can pick a mini batch of three to four or full 1-on-1 classes.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers and maths graduates
 
-Smaller than any Tollygunge-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Your child is taught by full-time professional software engineers and qualified mathematics graduates, not by part-time college students reading from a slide. They teach the way real code is written and real maths is reasoned, so a Tollygunge student learns industry habits from their very first class.
 
-🏠
+### Project-based from day one
 
-### Zero Travel through Tollygunge Phari Traffic
+Children build real, working things — a game, a calculator, an app for their own street — instead of memorising syntax. A Tollygunge Phari signal timer, a Tollywood shoot-day budget tracker, a Rabindra Sarobar walk logger: these are real projects our local students have built, and each one becomes a portfolio piece.
 
-No fighting evening Tollygunge Phari and Prince Anwar Shah Road traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Premium quality at a value-conscious fee
 
-📝
+Tollygunge parents weigh every rupee against results, and so do we. Group classes start at just ₹1,499/month — a fraction of the ₹4,000-4,500/month edtech plans many local families have rejected — while delivering live teaching, small batches and real projects. See the full breakdown on our [View pricing](/pricing) page.
 
-### Recordings + Notes After Each Class
+### Zero commute, ninety minutes saved
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Because the classroom is online, your child never crawls through the Tollygunge Phari snarl or changes autos at Charu Market for a one-hour class. That is roughly 60-90 minutes of South Kolkata traffic saved every single class day — time that goes back into study, rest and family.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## Every track a Tollygunge family might need
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids and teens 8-17 starting their first real language | Live Python with AI fundamentals — the core of CBSE Class 11-12 Informatics Practices |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens, especially ICSE-track South Point and South City students | Live Java mapped to the ICSE Class 9-10 Computer Applications BlueJ syllabus |
+| [Java Programming for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9-10 board students | BlueJ theory, every Class 10 practical, viva prep and submission-ready project files |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens 13-18 curious about AI | Hands-on AI/ML, building real models and intuition for the future of every industry |
+| [Best AI & Machine Learning Course in India](/best-ai-and-machine-learning-course-in-india) | College students, serious teens and professionals | Pillar AI/ML pathway across Python, ML, deep learning and model-building tracks |
+| [Data Science Course](/data-science-course) | College students and professionals | End-to-end data science with Python, analysis and real datasets |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1-12 and college, all boards | Live school maths, Olympiad (AMC, IOQM, RMO, IMO) and college maths |
+| [ICSE/CBSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 9-12 ICSE (Java) and CBSE (Python) board students | Complete board CS prep — theory, practicals, projects and exam coaching |
+| [Computer Applications ICSE Class 10](/computer-applications-icse-class-10) | ICSE Class 10 students | Focused ICSE Class 10 Computer Applications (Java/BlueJ) board preparation |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only Princess and Queen Coders batches | Dedicated girls-only coding batches building confidence and tech leadership |
+| [Java DSA Course](/java-dsa-course) | College and placement-focused learners | Data Structures & Algorithms in Java for interviews and competitive programming |
+| [Summer Coding Camp](/summer-coding-camp) | Kids, teens and adults on summer break | Intensive camp completing a full module in 3-4 weeks |
+| [Browse the full Courses Index](/courses) | Anyone exploring every track | Master index of all coding and maths courses across every age group |
 
-👨‍🏫
+FEATURED TRACKS
 
-### Parent Updates Every Month
+## Three pathways most Tollygunge students start with
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+MOST IN-DEMAND
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+### Python & AI for Kids and Teens
 
-## Schools near Tollygunge Whose Students Learn with Us
+Python is the language we recommend most Tollygunge children start with — it is readable, powerful, and the exact language CBSE uses for Class 11-12 Informatics Practices and Computer Science. In live batches, your child moves from variables and loops to real scripts, simple games and their first taste of AI, all guided by a full-time engineer.
 
-Students from Purushottam Bhagchandka Academic School (ICSE), Tollygunge Bangiya Vidyalaya, DPS Joka (CBSE), and Nava Nalanda High School in and around Tollygunge join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+**You'll learn:** variables, loops, functions and AI basics. **You'll build:** games, automation scripts and a portfolio project.
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Tollygunge offers this depth of coding education alongside structured mathematics tutoring.
+[Start with Python](/python-and-ai-classes-for-kids-teens)
 
-## What Your Child Will Learn with Modern Age Coders
+ICSE / ISC BOARD-ALIGNED
 
-Tollygunge families nurture both creativity and academic excellence. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+### Java for ICSE & ISC Students
 
-🎨
+For South Point, South City International and Purushottam Bhagchandka students on the ICSE track, Java is non-negotiable — the Class 9-10 Computer Applications syllabus is built on it in BlueJ. Our Java course follows that syllabus exactly, covering theory, every practical, viva preparation and submission-ready project files so board marks and real skill grow together.
 
-### For Kids (Ages 6-12)
+**You'll learn:** OOP, classes, arrays and BlueJ. **You'll build:** every Class 10 practical plus a documented board project.
 
-Tollygunge's creative kids discover that coding is the ultimate creative tool.
+[Start with Java](/java-programming-for-icse-students)
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+FUTURE-READY
 
-💻
+### AI & Machine Learning for Teens
 
-### For Teens (Ages 13-18)
+AI is reshaping every industry, including the film and creative work that defines Tollygunge. Our AI/ML track gives teens 13-18 a hands-on, intuition-first introduction — they train real models, understand how the technology actually works, and build the kind of projects that make a college application and a future career stand out.
 
-Where Tollygunge's storytellers learn to build with code, not just words.
+**You'll learn:** Python for ML, data handling and core algorithms. **You'll build:** and train your own working machine learning models.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+[Explore AI & Machine Learning](/ai-ml-course-for-teens)
 
-🎓
+SCHOOLS SERVED
 
-### For College Students
+## Mapped to the syllabus your child actually sits
 
-Tollygunge's college students bridge creativity and technology.
+We teach children from every major Tollygunge and South Kolkata school, including South Point High School, South City International School, Purushottam Bhagchandka Academic School, M.P. Birla Foundation Higher Secondary School, Julien Day School and Carmel School near Deshapriya Park (ICSE/ISC), Delhi Public School Joka (CBSE), and Nava Nalanda High School, Tollygunge Bangiya Vidyalaya and The B.S.S. School in Bansdroni (WBBSE/State). Because classes are live online, a child's school timetable and commute never clash with their coding or maths slot.
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Tollygunge is predominantly an ICSE neighbourhood, so we map our teaching to the syllabus your child actually sits. ICSE/ISC students from South Point and South City International get Java in BlueJ exactly as their board demands; CBSE students from DPS Joka get Python for Informatics Practices and Computer Science. Our [Computer Science and Informatics Practices for Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) course handles board theory, practicals, projects and exam coaching in one place, while younger students build the foundations first.
 
-💼
+THE NEIGHBOURHOOD
 
-### For Professionals
+## Tollywood's creative city, learning the newest medium
 
-Upskilling programmes for working professionals staying relevant in tech.
+Tollygunge is the cultural heart of Bengali South Kolkata — the home of Tollywood, where the Technicians Studios sit a few minutes from the Tollygunge Phari crossing and the Metro terminus near Mahakali Temple. It is a neighbourhood where film and theatre families share the same lanes off Deshapriya Park Road and Mahanirvan Road as old-money Bengali professionals and newer apartment households around South City on Prince Anwar Shah Road. Creativity is in the water here, and coding is simply the newest creative medium.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+Parents in Tollygunge take education seriously but spend practically. They favour established ICSE names like South Point and strong State-board schools, and they weigh tuition by results, not by brand-name marketing — which is exactly why so many local families have walked away from ₹4,000-4,500/month edtech plans. A premium live class with a real engineer, capped at six to eight students and starting at ₹1,499/month, is the kind of honest value this neighbourhood respects.
 
-📊
+And the daily grind is real: the four-arm Tollygunge Phari signal, the S.P. Mukherjee Road crawl, the auto changeover at Charu Market and Rashbehari. Sending a child to a coaching room in Bansdroni or Lake Gardens can cost an hour and a half a day for a single hour of class. Live online erases that entirely — the teacher arrives on screen, the camera comes on, and the only thing your child commutes to is their own desk.
 
-### Mathematics for All Ages
+PROJECT 01
 
-Tollygunge families know maths and code are inseparable.
+### Tollygunge Phari Signal Timer
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+A Class 8 Nava Nalanda student built a Scratch model that simulates the four-arm Tollygunge Phari signal and predicts the best five-minute window to cross toward Charu Market on a school morning.
 
-☀️
+PROJECT 02
 
-### Summer & Winter Camps
+### Tollywood Shoot-Day Budget Tracker
 
-Intensive short-term programs during school breaks.
+A Class 10 girl whose family works in film production wrote a Python program that logs daily shoot expenses across studios and flags when a scene goes over its day-budget, replacing her father's handwritten diary.
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+PROJECT 03
 
-## Why Tollygunge Parents Choose Modern Age Coders
+### Rabindra Sarobar Morning-Walk Logger
 
-🎥
+A Class 6 boy from Lake Gardens built a Python app that records his grandfather's lap count and walking time at Rabindra Sarobar and charts the family's weekly progress on WhatsApp.
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+"My daughter actually looks forward to the class now, and I no longer waste two hours a day on the road getting her there and back."
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Tollygunge families expect quality education to work.
+TA Tollygunge parentparaphrased from our [Wall of Love](/love)AREAS & PIN CODES
 
-👥
+## Where our Tollygunge students live
 
-### Small Batches — Maximum 6-8 Students
+We serve students across pin codes **700033, 700040, 700026, 700045, 700053, 700068 and 700082**.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+TollygungeTollygunge PhariCharu MarketBansdroniNaktalaKudghatNetaji NagarLake GardensRanikuthiRegent ParkJodhpur Park edgeDeshapriya ParkRashbehariNew Alipore edgeGaria side
 
-🧰
+Anywhere in South Kolkata with a stable internet connection works — if your home or school is near Tollygunge, your child can join a live batch today.
 
-### Coding + Maths Combined — Only in India
+WEEKLY SCHEDULE
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why South Kolkata parents trust us over single-subject alternatives.
+## Slots that fit around the school run
 
-💰
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Early evening | 4:30 PM – 5:30 PM | Primary-school kids (ages 6-10) after school | Mon / Wed or Tue / Thu |
+| Prime evening | 6:00 PM – 7:00 PM | Middle-school students (Class 6-8) | Mon / Wed or Tue / Thu |
+| Late evening | 7:30 PM – 8:30 PM | ICSE/CBSE teens and board students (Class 9-12) | Tue / Thu or Sat |
+| Weekend morning | 10:00 AM – 11:30 AM | Camps, Olympiad maths and 1-on-1 intensives | Sat / Sun |
 
-### Starting at Just ₹1,499/month
+Timings are flexible — tell us when your child returns from school and we will fit a slot around the Tollygunge Phari traffic, not the other way round.
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+ONLINE VS OFFLINE
 
-## Tollygunge: Film City Roots, Modern Apartment-Life Realities
+## An honest comparison for Tollygunge families
 
-Tollygunge is the heart of the Bengali film industry — the studios off Mahanirvan Road, Mahesh Bhattacharya Sarani, and Tollygunge Phari are still active. The neighbourhood has long had a mix of film professionals, traditional Bengali middle-class households, and a newer wave of corporate families drawn to the affordable apartments and easy Tollygunge Metro access.
+### Where live online wins
 
-Children from Tollygunge attend South Point, Birla High, Modern High, Mahadevi Birla Shishu Vihar, and DPS Ruby Park. The parents are practical and budget-aware — the loud edtech platforms with their ₹4,500/month plans don't survive here. The local tuition centres around Charu Market and Bansdroni are cheap but variable in quality.
+- No commute through the Tollygunge Phari or S.P. Mukherjee Road snarl — roughly 60-90 minutes saved every class day.
+- Genuinely small batches of 6-8, versus the 30-40 child rooms common in local coaching.
+- Your child is taught by full-time engineers and maths graduates, not whoever a neighbourhood centre could hire.
+- Screen-sharing means the teacher sees and fixes your child's exact code, line by line, in real time.
+- One consistent teacher all year — no rotating faculty and no substitute reading from a slide.
+- Parents can sit in, see the live class quality, and know exactly what they are paying for.
+- Lower overheads mean premium teaching at a value fee — from ₹1,499/month, not ₹4,000-plus.
 
-Our ₹1,499/month group classes are priced specifically for this audience — affordable, structured, and not requiring the family to choose between music class and coding class. We work hard to keep that price unchanged.
+### When offline still wins
 
-### Recent Projects Built by Students from Tollygunge
+- A child who genuinely cannot focus without a teacher physically beside them may do better in person at first.
+- Very young learners (under 6) sometimes need a parent or adult nearby to settle in.
+- Homes with no reliable internet or no quiet corner will struggle with any online class.
+- Some families simply prefer face-to-face contact, and that is a fair and honest preference.
 
-These are real student projects from our Tollygunge batches — small, useful, and unmistakably theirs.
+For most Tollygunge families, live online delivers better teachers, smaller batches and zero commute — but book a free demo and judge the quality for yourself before you decide.
 
-#### Tollygunge Studio Schedule App
+HOW TO START
 
-A Class 11 girl built a small Python script for her actor-father to track his shoot schedules across three studios. He had previously kept it on a piece of paper in his wallet.
+## Four steps from curious to coding
 
-#### Bansdroni Bus Stop Counter
+STEP 01
 
-A Class 8 boy built a Scratch app that estimates which of three bus routes reaches Bansdroni fastest at 8 AM. His mother uses it for school drop.
+### Book your free demo
 
-#### South Point Test Prep Drill
+Tell us your child's class and board on our [Book Free Demo Class](/contact) page; there is no payment and no commitment.
 
-A Class 9 girl built a Python program that drills her on 40 Science questions per session. She used it for her Class 9 pre-mid-terms.
+STEP 02
 
-“
+### Meet your teacher live
 
-We have a strict budget. Loud platforms charge four times what you do for less. The fact that you teach live for ₹1,499 a month is what made me sign up. The fact that it's good is why we stayed.
+Join one full live class with a full-time engineer or maths graduate and see the small-batch quality first-hand.
 
-— A Tollygunge parent, paraphrased from a recent conversation.
+STEP 03
 
-## Neighbourhoods near Tollygunge We Serve
+### Pick your course and plan
 
-Because every class is live online, we serve students across the entire Tollygunge belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+Choose a track from our [Courses](/courses) catalogue and a plan from [pricing](/pricing) — group, mini batch or 1-on-1.
 
-### Pin codes we actively teach in
+STEP 04
 
-**700033** (Tollygunge, Charu Market), **700040** (Naktala, Bansdroni edge), **700045** (Lake Gardens edge), **700068** (Bansdroni), **700026** (Kalighat edge), **700053** (New Alipore edge), **700038** (Behala edge).
+### Start building
 
-### Localities our students log in from
+Begin your regular live batch and watch your child ship their first real project within weeks.
 
-TollygungeTollygunge PhariCharu MarketBansdroniNaktalaKudghatLake Gardens edgePrince Anwar Shah RoadMahanirvan RoadNSC Bose RoadKarunamoyee TollygungeTollygunge MetroMahishbathan sideBallygunge edgeJadavpur edge
+"Modern Age Coders has been wonderful for Dhairya. The classes are live and personal, the teacher actually knows him by name, and I can see real progress in how he thinks and solves problems. As a parent I finally feel my money is going somewhere worthwhile."
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+SSonam OswalMother of Dhairya
 
-## Class Timings & Weekly Schedule for Students near Tollygunge
+Read more parent stories on our [Wall of Love](/love).
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+FREQUENTLY ASKED
 
-☀️
+## Tollygunge parents' questions, answered
 
-### Morning Slot — 9:00 to 11:00 AM
+Every class is 100% live with a real teacher on screen who can see your child's code and answer questions instantly. We never use pre-recorded videos or automated app drills. You can confirm this yourself in a free [demo class](/contact).Group classes (max 6-8) start at ₹1,499/month, mini batches (3-4 students) are ₹2,499/month, and full 1-on-1 classes are ₹4,999/month. The same fee covers coding and maths tracks. See the full breakdown on our [pricing](/pricing) page.Those plans often sell pre-recorded video libraries or huge batches with rotating tutors. We teach live, in batches of 6-8, with full-time engineers and maths graduates, starting at just ₹1,499/month — premium quality at a value fee that this value-conscious neighbourhood respects.Yes, exactly. Our [Java for ICSE Students](/java-programming-for-icse-students) course follows the ICSE Class 9-10 BlueJ syllabus, covering theory, every practical, viva preparation and submission-ready project files.Yes. Because the class is online there is no commute, and we schedule your slot around when your child actually gets home — typically early-evening, prime-evening or weekend timings. Tell us their return time and we fit the class to it.Any board and any medium is welcome — ICSE/ISC, CBSE, IGCSE and WBBSE/State. We teach in English, Bengali or Hindi as the child is comfortable, and map the coding pathway to whatever your child needs.Yes. Many South Kolkata families prefer them, so we run dedicated girls-only Princess and Queen Coders batches. See [Coding Classes for Girls](/coding-classes-for-girls) for details.We teach Scratch for younger kids, then [Python](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens), [AI & Machine Learning](/ai-ml-course-for-teens) and [Java DSA](/java-dsa-course) for older students. Browse everything in our [Courses](/courses) index.Yes. Our [Online Maths Tuition](/online-maths-tuition) covers school maths from Grade 1 to 12, college maths, and Olympiad preparation (AMC, IOQM, RMO, IMO), all taught live by qualified maths graduates.Tell us in advance and we will arrange a catch-up — either a make-up slot or a one-on-one recap with the teacher, plus class notes — so no concept is ever skipped. Because teaching is live, the recap is a real session, not just a recording.Any laptop or desktop with a stable internet connection and a webcam works; a tablet is fine for younger kids. We help you install the free coding tools in the very first class, so no prior setup is required.Full-time professional software engineers and qualified mathematics graduates — not part-time college students. They teach the way real code is written and real maths is reasoned.Yes. Students receive a certificate on completing a course module, and more importantly they finish with real projects in a portfolio they can show schools and, later, colleges.Yes. Our [Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) course covers ISC Java and CBSE Python with full board theory, practicals, projects and exam coaching.Your first demo class is completely free, with no payment and no commitment. Just book it on our [Contact](/contact) page, meet the teacher live, and decide afterwards.
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Tollywood's creative city is learning to build. Is your child?
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+Premium live online coding and maths, small batches, full-time engineers, from ₹1,499/month — and your first class is free.
 
-🏫
+[Book a Free Demo Class](/contact)[WhatsApp +91 91233 66161](https://wa.me/919123366161)[View Pricing](/pricing)NEARBY LOCALITIES
 
-### After-School Slot — 4:30 to 7:30 PM
+## Coding & maths classes in other South Kolkata areas
 
-The most popular slot for kids and teens near Tollygunge. School ends, snack, log in. Two classes a week, 60 minutes each.
+[Kalighat](/coding-classes-near-kalighat-kolkata)[New Alipore](/coding-classes-near-new-alipore-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[Dhakuria](/coding-classes-near-dhakuria-kolkata)[Kasba](/coding-classes-near-kasba-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Tollygunge parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at South Point primary, Mahadevi Birla Shishu Vihar, Birla High and similar Tollygunge-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at South Point, Birla High, DPS Ruby Park and other CBSE-track Tollygunge-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that South Point High School, Modern High, Mahadevi Birla World Academy and other ICSE-track Tollygunge-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Tollygunge — Honest Comparison
-
-Tollygunge and Bansdroni have many small tuition rooms along Mahanirvan Road and Charu Market. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Tollygunge centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Tollygunge Phari traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Tollygunge
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Tollygunge
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Tollygunge. All you need is a laptop and internet.
-
-## What Students Say About Modern Age Coders
-
-★★★★★
-
-"Modern Age Coders has been a game-changer! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs."
-
-SSamridho MondalStudent, Grade 9
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Tollygunge
-
- Are there live coding classes for kids near Tollygunge, Kolkata? +Yes. Modern Age Coders offers 100% live online coding classes for kids aged 6-12 near Tollygunge. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from the comfort of home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from Purushottam Bhagchandka, DPS Joka, and other Tollygunge-area schools are already learning with us. What do coding and maths classes near Tollygunge cost? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you provide ICSE and CBSE Computer Science tuition for Tollygunge students? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Tollygunge schools like Purushottam Bhagchandka (ICSE) and DPS Joka (CBSE) follow. My child studies near Tollygunge — how do they join your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed — no navigating the Tollygunge Metro corridor or SP Mukherjee Road traffic. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Tollygunge Phari or Charu Market? +Three big differences. **First**, batch size: most Tollygunge tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Tollygunge Phari and Prince Anwar Shah Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Tollygunge? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Tollygunge belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Tollygunge? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Tollygunge. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at South Point, Birla High, Mahadevi Birla and other Tollygunge-area schools and other Tollygunge-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Tollygunge Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Tollygunge trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Kalighat](/coding-classes-near-kalighat-kolkata)[New Alipore](/coding-classes-near-new-alipore-kolkata)[Dhakuria](/coding-classes-near-dhakuria-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[Kasba](/coding-classes-near-kasba-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [Coding & Maths for Mahadevi Birla World Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata)
 
 ---
 
