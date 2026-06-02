@@ -1,364 +1,242 @@
 ---
-title: "Coding & Maths Classes near Kestopur, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Kestopur, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Apeejay, Hariyana Vidya Mandir, Holy Child and other North East Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Kestopur, Kolkata"
+description: "Premium live online coding & maths for Kestopur families. Small batches, ICSE Java + CBSE Python + AI/ML, real engineers — no canal-bridge commute. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-kestopur-kolkata
-keywords: ["Kestopur Kolkata coding classes", "coding near Kestopur", "coding for kids Kestopur", "Python classes Kestopur", "maths tuition Kestopur Kolkata", "online coding Kestopur", "New Town gateway coding", "teen coding Kestopur", "AI classes Kestopur", "CBSE ICSE tuition Kestopur", "coding classes near Kestopur canal"]
+keywords: ["coding classes Kestopur", "coding classes near Kestopur Kolkata", "maths tuition Kestopur", "Python classes Kestopur", "Java classes Krishnapur", "ICSE computer applications Kestopur", "CBSE computer science Baguiati", "AI ML classes for teens Kolkata", "online coding classes Prafulla Kanan", "kids coding VIP Road", "coding classes near New Town fringe", "live online coding Kolkata"]
 source: src/pages/coding-classes-near-kestopur-kolkata.html
 ---
-> Live online coding classes near Kestopur, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Apeejay, Hariyana Vidya Mandir, Holy Child and other North East Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Premium live online coding & maths for Kestopur families. Small batches, ICSE Java + CBSE Python + AI/ML, real engineers — no canal-bridge commute. Free demo.
 
-Gateway to New Town — Live Online Classes
+LIVE ONLINE · CODING & MATHS · KESTOPUR, KOLKATA
 
-# Coding & Maths Classes for Students near Kestopur, Kolkata
+# Premium Coding & Maths Classes near Kestopur, Kolkata
 
-The gateway to New Town. Kestopur has transformed from a quiet suburb to a thriving residential area in just a decade. Families here have city-level ambitions — and now city-level (actually, global-level) coding education. Schools in the Kestopur area, including **CBSE and ICSE schools along the Salt Lake-New Town corridor**, serve a growing population of young, ambitious families. The Kestopur canal bridge connects this neighbourhood to New Town's IT ecosystem, and many parents here work in Sector V or Rajarhat's tech companies. They know what coding skills are worth. Modern Age Coders brings **100% live online coding and mathematics classes** to Kestopur homes — small batches of 6-8 students, expert instructors, and a curriculum that matches what Salt Lake and New Town families trust. No need to cross the canal for quality education. From Scratch for young beginners to full-stack web development for college students, our courses bring the future to Kestopur's doorstep.
+Modern Age Coders runs premium, 100% live online coding and mathematics classes for families across Kestopur, Krishnapur, Prafulla Kanan and the New Town fringe. Small live batches are taught in real time by full-time software engineers and maths graduates — never pre-recorded videos. We cover ICSE Java/BlueJ, CBSE Python, AI/ML and school maths, project-based throughout, with no Kestopur Bridge or canal crossing. Book a free live demo class, no commitment.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% live, never recordedMax 6-8 per batchEngineers & maths graduatesFrom ₹1,499/mo6-8Max students per live batch~90 minBridge + VIP Road commute saved1-on-1Personalised option available0Payment to book your demo[Book a Free Demo Class](/contact)[Explore Courses](/courses)AT A GLANCE
 
-Free demo • No commitment • Classes start within 24 hours
+## The essentials, on one screen
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, real-time teaching — not pre-recordedBatch sizeGroup max **6-8** · Mini batch **3-4** · **1-on-1**Ages**6 to 65** — kids, teens, college students and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), IGCSEFeesGroup **₹1,499/month** · Mini batch **₹2,499/month** · 1-on-1 **₹4,999/month**Free demoYes — one free live class, no payment, no commitmentServingKestopur, Krishnapur, Prafulla Kanan, Tegharia, Baguiati, Hatiara, Jagatpur, New Town fringe, VIP Road beltLIVE · PREMIUM · SMALL-BATCH
 
-## Live Online Coding Classes near Kestopur — What Parents Should Know
+## Live online, premium quality — without crossing the canal
 
-Kestopur parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Kestopur is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Apeejay, Hariyana Vidya Mandir, Holy Child and other North East Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Every Modern Age Coders class is a small, live, premium session taught in real time — a genuine teacher on screen, your child's code on screen, questions answered the moment they are asked. We are not a video library and not a 40-child webinar. For Kestopur's practical, value-conscious families, this is corridor-grade coding and maths brought into the flat — without anyone crawling across Kestopur Bridge or fighting VIP Road traffic to a far-off centre.
 
-📺
+### Live, never pre-recorded
 
-### 100% Live, Not Pre-Recorded
+Classes happen live, with a real engineer or maths graduate teaching your child directly. You ask a question and get an answer in the same minute, not in a comments thread three days later. Nothing here is a playback of someone else's lesson.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small premium batches
 
-👨‍👩‍👧‍👦
+Group batches cap at 6-8 students, mini batches at 3-4, and 1-on-1 is exactly that. The teacher sees every screen, knows every name, and notices the moment a concept slips. This is the opposite of a crowded local coaching room.
 
-### Max 6–8 Students per Live Batch
+### Taught by working engineers
 
-Smaller than any Kestopur-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Your child learns from full-time software engineers and qualified maths graduates, not part-time college students reading from a slide deck. The same Sector V and Rajarhat IT work many Kestopur fathers commute to is what our teachers actually do.
 
-🏠
+### Project-based, always
 
-### Zero Travel through Kestopur Traffic
+Students build real, working things — a fare splitter, a school-bus ETA notifier, a function-cost planner — not toy exercises they forget by dinner. Every module ends with something they can show, run and explain.
 
-No fighting evening VIP Road and Kestopur Bridge traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Board-aware curriculum
 
-📝
+Coursework maps directly to what Kestopur-area schools actually teach: ICSE Java/BlueJ for Calcutta Public School, National English School and Holy Child, CBSE Python/CS for North Point, Hariyana Vidya Mandir and Aryan Public, plus IGCSE. See [ICSE Java & CBSE Python](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
-### Recordings + Notes After Each Class
+### Zero commute, real time saved
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+No crawling over the single Kestopur Bridge or the canal bridge onto choked VIP Road to reach a tuition centre. Live online erases roughly 90 minutes of round-trip travel each class day — time that goes back to the child and the family.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## Every track we teach, near Kestopur
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Ages ~9-17 | The most in-demand language, from fundamentals to AI basics, project by project |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young first-timers | A gentle first Python track after block coding |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens; ICSE Computer Applications | Java/BlueJ syntax through real projects |
+| [Java Programming for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9-10 | BlueJ mapped to the ICSE practical and theory paper |
+| [Java DSA Course](/java-dsa-course) | College / placement prep | Data Structures & Algorithms in Java for interviews |
+| [AI/ML Course for Teens](/ai-ml-course-for-teens) | Teens 13-18 | An introduction to AI and machine learning, the future of every industry |
+| [AI/ML Course for College Students](/ai-ml-course-for-college-students) | College & serious learners | College-level model building for the Rajarhat-Salt Lake tech corridor |
+| [AI/ML Projects for Students](/ai-ml-projects-for-students) | Portfolio builders | Showcase-ready, hands-on AI/ML builds |
+| [CBSE/ICSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 board CS / IP | Complete board prep: theory, practicals, projects, exam strategy |
+| [Coding for ICSE Students](/coding-for-icse-students) | ICSE board students | Coding aligned to the ICSE computer curriculum |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only batches | Princess & Queen Coders — confidence and leadership in tech |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1-12 + Olympiad | Live maths from school through AMC/IOQM/RMO/IMO and college |
+| [Summer](/summer-coding-camp) & [Winter Coding Camps](/winter-coding-camp) | Kids, teens, adults | A full module completed in an intensive 3-4 week break |
 
-👨‍🏫
+Browse everything in [All Courses](/courses) or compare plans on [Pricing](/pricing).
 
-### Parent Updates Every Month
+FEATURED TRACKS
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three tracks Kestopur families ask for most
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+MOST IN-DEMAND
 
-## Schools near Kestopur Whose Students Learn with Us
+### Python & AI — the language the IT corridor runs on
 
-Students from **Kestopur area CBSE schools**, **Salt Lake-New Town corridor schools**, and **Baguiati English Academy** (nearby) in and around Kestopur join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is the language behind the data, automation and AI work happening daily inside the Sector V and Rajarhat offices many Kestopur parents commute to across the canal. Our [Python & AI track for kids and teens](/python-and-ai-classes-for-kids-teens) takes students from first print statement to working AI basics, entirely through projects they build and keep.
 
-Whether your child follows the ICSE, CBSE, or IGCSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Kestopur offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn:** variables, loops, functions, data and AI fundamentals · **You'll build:** real Python apps and small AI demos.
 
-## What Your Child Will Learn with Modern Age Coders
+ICSE ESSENTIAL
 
-Kestopur families demand the same quality of education that Salt Lake and New Town enjoy. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+### Java/BlueJ — built for Kestopur's ICSE schools
 
-🎨
+ICSE Computer Applications means Java in BlueJ, and that is exactly what Calcutta Public School, National English School, Pramila Memorial and Holy Child teach. Our [Java Programming for ICSE students](/java-programming-for-icse-students) maps cleanly to the board's theory and practical papers, then [Java DSA](/java-dsa-course) carries serious students toward placements.
 
-### For Kids (Ages 6-12)
+**You'll learn:** Java syntax, OOP, BlueJ practicals · **You'll build:** board-style programs and portfolio projects.
 
-Kestopur's ambitious families give their children a coding head start.
+THE FUTURE
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+### AI & Machine Learning — for the generation that will build it
 
-💻
+Kestopur's children grow up beside the New Town IT corridor yet rarely learn to make the technology behind it. Our [AI/ML course for teens](/ai-ml-course-for-teens) and [AI/ML course for college students](/ai-ml-course-for-college-students) close that gap with real model building, leading into a showcase-ready [AI/ML project portfolio](/ai-ml-projects-for-students).
 
-### For Teens (Ages 13-18)
+**You'll learn:** how machine learning models think, train and predict · **You'll build:** working ML projects you can demo and explain.
 
-Where New Town's gateway neighbourhood builds the next generation of tech talent.
+SCHOOLS WE SERVE
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+## Built around Kestopur's ICSE and CBSE schools
 
-🎓
+Modern Age Coders teaches students from the major schools across Kestopur, Krishnapur, Baguiati and the New Town fringe, including Calcutta Public School, National English School (VIP Road), Pramila Memorial Institute, Mangalam Vidya Niketan (Krishnapur), The Vedanta Academy and Holy Child Institution on the ICSE side, and North Point Secondary School, Aryan Public School, Hariyana Vidya Mandir and Apeejay School (Salt Lake) on the CBSE side. Whichever school and board your child is on, classes fit alongside it.
 
-### For College Students
+Kestopur sits at a genuine board crossroads — a strong ICSE base alongside a growing CBSE presence — and our curriculum respects that split: ICSE students get Java/BlueJ aligned to Computer Applications, while CBSE students get Python aligned to Computer Science and Informatics Practices. For board years, our [Computer Science for Class 11-12 (ICSE Java & CBSE Python)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers theory, practicals, projects and exam preparation in one place. ICSE students are supported through [Coding for ICSE students](/coding-for-icse-students), and IGCSE families via [Coding for IGCSE students](/coding-for-igcse-students).
 
-Kestopur's college students prepare for the Rajarhat-Salt Lake tech corridor.
+THE NEIGHBOURHOOD
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+## Kestopur: the gateway to New Town
 
-💼
+Kestopur is the gateway to New Town — a fast-grown, dense residential belt wedged between Salt Lake, Baguiati and the canal, where lettered lanes and new apartment blocks have filled in faster than the roads can carry them. Cross the single Kestopur Bridge over VIP Road, or the canal bridge, and you are in the heart of it: a neighbourhood largely built by first-generation Kolkata families whose breadwinners work in Sector V and Rajarhat IT or in government service.
 
-### For Professionals
+The education culture here is intensely aspirational but practical and value-conscious. Parents pick a deliberate mix of CBSE schools like North Point, Hariyana Vidya Mandir and Aryan Public and ICSE schools like Calcutta Public School, National English School and Pramila Memorial — and they expect tangible, exam-relevant outcomes for the money. Decisions travel by word of mouth between neighbouring flats, and roughly a third of new enrolments are the second child of a family already with us.
 
-Upskilling programmes for working professionals staying relevant in tech.
+The quiet irony of Kestopur is that children grow up looking straight across the canal at the New Town IT corridor — yet most never learn to build any of the technology powering it. Live online classes close that gap without a parent burning an evening in canal-bridge traffic to reach a Salt Lake or New Town institute. The teacher comes to the screen; nobody crosses the bridge.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+PROJECT A
 
-📊
+### Kestopur Bridge Crossing-Time Estimator
 
-### Mathematics for All Ages
+A Class 9 student's Python script that estimates peak-hour crossing time over Kestopur Bridge, now used by his Sector V-commuting father to time the morning run.
 
-Kestopur families know maths and code are inseparable.
+PROJECT B
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### Family Function Cost Calculator
 
-☀️
+A Class 10 girl's web app to plan a 50-guest function across catering, decorator and rental cost lines, built for her aunt's celebration.
 
-### Summer & Winter Camps
+PROJECT C
 
-Intensive short-term programs during school breaks.
+### Aryan Public Class Notes App
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A Class 7 boy's Scratch app where classmates upload daily class notes — eighteen students now contribute every week.
 
-## Why Kestopur Parents Choose Modern Age Coders
+"We are the second family on our floor to join — a neighbour's child was already building real apps, and that was all the proof we needed."
 
-🎥
+KA Kestopur parentKrishnapur sideAREAS & PIN CODES
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+## Across Kestopur, Krishnapur and the New Town fringe
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Kestopur families expect quality education to work.
+Serving Kestopur and surrounding pin codes **700101, 700102, 700059, 700157** and **700156**, plus the wider VIP Road, Baguiati and New Town-fringe belt.
 
-👥
+KestopurKrishnapurPrafulla KananTeghariaBaguiatiHatiaraJagatpurNew Town fringeSukanta NagarDeshbandhu NagarVIP Road beltLake Town borderSreebhumiSalt Lake Sector V sideSaraswati Apartments area
 
-### Small Batches — Maximum 6-8 Students
+Live online, so wherever you are around Kestopur — Prafulla Kanan housing belt, the Krishnapur crossing, the Saraswati Apartments side or anywhere along VIP Road — your classroom is the same screen.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+SCHEDULE
 
-🧰
+## Slots that flex around IT-corridor office hours
 
-### Coding + Maths Combined — Only in India
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Early Morning | 6:30-8:00 AM | Before-school kids; pre-commute parents | Mon-Fri |
+| After School | 4:00-6:00 PM | School-going kids and teens | Mon-Sat |
+| Evening | 6:30-8:30 PM | Teens; ICSE/CBSE board students | Mon-Sat |
+| Late Evening | 8:30-10:00 PM | Sector V / Rajarhat working families & professionals | Mon-Fri |
+| Weekend | Flexible AM/PM | Olympiad, projects, intensive prep | Sat-Sun |
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Kestopur parents trust us over single-subject alternatives.
+Slots flex around Sector V and Rajarhat office hours — children can attend independently while a parent is still commuting home, and we will fit the class to your week.
 
-💰
+ONLINE vs OFFLINE
 
-### Starting at Just ₹1,499/month
+## Where live online wins — and where it doesn't
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+### Where live online wins
 
-## Kestopur: The Quiet, Family-First Neighbourhood Building Coding Families
+- Zero commute — no Kestopur Bridge crawl, no canal-bridge crossing onto VIP Road, ~90 minutes saved every class day
+- Smaller effective batches than most local centres can run profitably (6-8, 3-4, or 1-on-1)
+- Access to full-time engineers and maths graduates, not whoever a neighbourhood centre could hire
+- The exact screen the child codes on is what the teacher sees and corrects, in real time
+- Recordings and notes available for revision after every live class
+- Children can attend safely from the flat while a parent is still commuting back from Sector V or Rajarhat
+- No exposure to monsoon, traffic or safety worries on the evening trip home
 
-Kestopur is one of Kolkata's most rapidly growing residential belts. Centred on the Kestopur Bridge over VIP Road, the area has filled out over the last 20 years with mid-rise apartment buildings, small markets, and a tight community of families largely first-generation in Kolkata. The neighbourhood feeds into Apeejay School, Hariyana Vidya Mandir, Holy Child, and Aryan Public.
+### When offline still wins
 
-Kestopur parents are practical, family-oriented, and quietly ambitious for their children. The fathers typically work in IT services or government; the mothers are increasingly working professionals themselves. The challenge they face is finding a coding programme that fits the family budget without sacrificing teaching quality.
+- A child who genuinely cannot stay focused without a person physically beside them
+- Families who specifically want their child to leave the house for a peer group
+- Homes without a reliable laptop/desktop and stable internet
+- Very young learners who still need an adult hands-on with the mouse and keyboard
 
-We've quietly built up a strong Kestopur and Krishnapur student base. The pattern is consistent: a family enrols one child, sees results in 3–4 months, then enrols the younger sibling. Roughly 30% of our Kestopur enrolments are second-children-of-existing-families.
+For most Kestopur families — practical, time-pressed and quality-conscious — live online is simply the better-quality option. Try a free demo and judge it on substance, not our word.
 
-### Recent Projects Built by Students from Kestopur
+HOW TO START
 
-These are real student projects from our Kestopur batches — small, useful, and unmistakably theirs.
+## Four steps from here to building
 
-#### Kestopur Bridge Crossing Time Estimator
+01
 
-A Class 9 student built a Python script that estimates how long it takes to cross Kestopur Bridge at peak hours. His father (who commutes to Sector V) uses it.
+### Book a free demo
 
-#### Family Function Cost Calculator
+Tell us your child's age, board and goal and pick a slot on the [contact page](/contact) — no payment, no commitment.
 
-A Class 10 girl built a small web app that helps her aunt plan a 50-guest function across catering, decorator, and rental cost lines.
+02
 
-#### Aryan Public Class Notes App
+### Meet your teacher live
 
-A Class 7 boy built a Scratch app where his classmates upload daily class notes. 18 students contribute weekly.
+Join one real, live class with a full-time engineer or maths graduate and see the small-batch teaching first-hand.
 
-“
+03
 
-We brought our older daughter to you two years ago. She has built so much that we enrolled the younger one a month ago. That's the whole pattern in Kestopur households.
+### Pick your plan
 
-— A Kestopur parent, paraphrased from a recent conversation.
+Choose group, mini batch or 1-on-1 on the [pricing page](/pricing) and the course that fits from [our full catalogue](/courses).
 
-## Neighbourhoods near Kestopur We Serve
+04
 
-Because every class is live online, we serve students across the entire Kestopur belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+### Start building
 
-### Pin codes we actively teach in
+Begin regular live classes and your child starts building real, working projects from week one.
 
-**700101** (Kestopur core), **700102** (Kestopur, Krishnapur), **700059** (Baguiati edge), **700157** (New Town edge), **700156** (Action Area New Town), **700089** (Lake Town side), **700052** (VIP Road side).
+FROM A PARENT
 
-### Localities our students log in from
+## Why families choose us
 
-KestopurKrishnapurTegharia edgeBaguiati sidePrafulla KananNew Town fringeHatiaraJagatpurSalt Lake Sector V sideVIP RoadLake Town borderSukanta NagarDeshbandhu NagarSaraswati Apartments areaRajarhat Road
+"My son Dhairya has genuinely started looking forward to his classes — the teacher keeps the batch small and actually pays attention to him. As a parent you can see he is building real things, not just watching videos. We are very happy we chose Modern Age Coders."
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+SSonam OswalMother of Dhairya
 
-## Class Timings & Weekly Schedule for Students near Kestopur
+Read more on our [Wall of Love](/love).
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+FAQ
 
-☀️
+## Questions Kestopur parents ask
 
-### Morning Slot — 9:00 to 11:00 AM
+Every class is 100% live and taught in real time by a full-time engineer or maths graduate. Nothing is a pre-recorded video. Your child can ask a question and get an answer in the same minute. [Book a free demo](/contact) to see for yourself.Yes. Our [Java for ICSE students](/java-programming-for-icse-students) track is built around the Java/BlueJ Computer Applications syllabus taught at Calcutta Public School, National English School, Pramila Memorial and Holy Child. We cover both the theory paper and the board practical, not just general coding.Yes. We teach CBSE Class 11-12 Computer Science and Informatics Practices (Python) in our [Class 11-12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course), covering theory, practicals, projects and exam preparation. Younger CBSE students are covered through our [Python & AI track](/python-and-ai-classes-for-kids-teens).Yes — it is fully live online, with no centre to travel to. That means no crawling over the single Kestopur Bridge or the canal bridge onto choked VIP Road, and roughly 90 minutes of commute saved each class day. Your classroom is your screen at home.Yes. Classes are small and teacher-led, so a child can join and learn independently while you are still commuting home. We run evening and late-evening slots specifically for IT-corridor families; tell us your week on the [contact page](/contact).Fees are group (max 6-8) at ₹1,499/month, mini batch (3-4) at ₹2,499/month, and 1-on-1 at ₹4,999/month — full details on [pricing](/pricing). Many of our Kestopur families enrol a second child, and we are happy to discuss a sibling arrangement when you book your demo.We teach ages 6 to 65 — young kids on [Scratch and block coding](/courses/coding/kids), teens on [Python](/python-and-ai-classes-for-kids-teens) and [Java](/java-programming-for-kids-teens), [college students](/courses/coding/college) on DSA and AI/ML, and working professionals upskilling.Full-time software engineers and qualified maths graduates — not part-time college students. The same Sector V and Rajarhat IT work many Kestopur parents commute to is what our teachers do for a living, and most parents notice the difference within the first demo.Classes are taught 100% live; a recording of that live session is then shared for revision, so a missed session can be caught up on, and notes are provided. For longer gaps we help reschedule within your batch where possible. Continuity is part of why we keep batches small.A laptop or desktop with a stable internet connection and a webcam is ideal; a reasonably specced tablet can work for younger learners. We share exact requirements before your demo so there are no surprises.Classes are taught in clear English, with Hindi and Bengali used freely to explain a tricky concept when it helps the child understand. The goal is comprehension, not formality.Yes. Our [online maths tuition](/online-maths-tuition) covers Grades 1-12 across all boards, plus Olympiad preparation (AMC/IOQM/RMO/IMO) and college-level maths — taught live by maths graduates, same small-batch model.Yes. Teens can start with our [AI/ML course for teens](/ai-ml-course-for-teens), college students with the [AI/ML course for college students](/ai-ml-course-for-college-students), and anyone building a portfolio with [AI/ML projects for students](/ai-ml-projects-for-students).Yes — students receive a certificate on completing a course or module, and more importantly they finish with real, working projects they can show and explain. The portfolio matters more than the paper.You start by booking one free live class on the [contact page](/contact) — no payment and no commitment. Sit in, watch the small-batch teaching, then decide. Most families decide after that single demo.
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Kestopur looks straight across the canal at the IT corridor. Let your child learn to build it.
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+Premium, live, small-batch coding and maths — taught by real engineers, no bridge to cross, no commitment to try.
 
-🏫
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)NEARBY AREAS
 
-### After-School Slot — 4:30 to 7:30 PM
+## Explore nearby areas we also serve
 
-The most popular slot for kids and teens near Kestopur. School ends, snack, log in. Two classes a week, 60 minutes each.
+[Salt Lake](/coding-classes-near-salt-lake-kolkata)[New Town](/coding-classes-near-new-town-kolkata)[Baguiati](/coding-classes-near-baguiati-kolkata)[VIP Road](/coding-classes-near-vip-road-kolkata)[Lake Town](/coding-classes-near-lake-town-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Kestopur parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Apeejay School Salt Lake, Hariyana Vidya Mandir, Bidya Bharati and similar Kestopur-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Apeejay School, Hariyana Vidya Mandir, Aryan Public School and other CBSE-track Kestopur-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Holy Child Institution, Apeejay School, St. Stephen's and other ICSE-track Kestopur-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Kestopur — Honest Comparison
-
-Kestopur and Krishnapur have a growing tuition cluster along VIP Road. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Kestopur centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Kestopur crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Kestopur
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Kestopur
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Kestopur. All you need is a laptop and internet.
-
-## What Our Students Say About Modern Age Coders
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. The live classes are engaging, the instructors explain everything clearly, and I have improved so much in both coding and problem-solving. I genuinely look forward to every session."
-
-SSamridho MondalStudent, Grade 9
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Kestopur
-
- Are there coding classes for kids near Kestopur, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Kestopur. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from schools along the Salt Lake-New Town corridor are already learning with us. What is the fee for coding and maths classes near Kestopur? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Kestopur? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Kestopur-area schools follow. How can my child in Kestopur attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Krishnapur or Tegharia edge? +Three big differences. **First**, batch size: most Kestopur tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through VIP Road and Kestopur Bridge traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Kestopur? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Kestopur belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Kestopur? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Kestopur. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Apeejay, Hariyana Vidya Mandir, Holy Child and other North East Kolkata schools and other Kestopur-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Kestopur Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Kestopur trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Salt Lake](/coding-classes-near-salt-lake-kolkata)[New Town](/coding-classes-near-new-town-kolkata)[Baguiati](/coding-classes-near-baguiati-kolkata)[VIP Road](/coding-classes-near-vip-road-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School / board: [ICSE Java & CBSE Python — Class 11-12 Computer Science](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
 ---
 
