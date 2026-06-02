@@ -1,364 +1,248 @@
 ---
-title: "Coding & Maths Classes near New Alipore, Kolkata | Modern Age Coders"
-description: "Live online coding classes near New Alipore, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, M.P. Birla Foundation, Mahadevi Birla and other South Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near New Alipore"
+description: "Premium live online coding & maths classes for New Alipore, Kolkata. Small batches, project-based, taught by engineers. ICSE/ISC/CBSE. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-near-new-alipore-kolkata
-keywords: ["New Alipore Kolkata coding classes", "coding near New Alipore", "South City International coding", "coding for kids New Alipore", "Python classes New Alipore Kolkata", "maths tuition New Alipore", "online coding New Alipore", "ICSE CBSE tuition New Alipore", "teen coding New Alipore South Kolkata", "Scratch programming New Alipore", "AI classes New Alipore Kolkata", "coding classes near me New Alipore"]
+keywords: ["coding classes New Alipore", "maths tuition New Alipore Kolkata", "online coding classes Kolkata", "Python classes New Alipore", "Java ICSE classes Kolkata", "ISC Computer Science New Alipore", "coding for kids New Alipore", "AI ML classes Kolkata", "coding classes near Sahapur", "live online coding Kolkata", "coding classes Block A New Alipore", "South Point coding classes"]
 source: src/pages/coding-classes-near-new-alipore-kolkata.html
 ---
-> Live online coding classes near New Alipore, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, M.P. Birla Foundation, Mahadevi Birla and other South Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Premium live online coding & maths classes for New Alipore, Kolkata. Small batches, project-based, taught by engineers. ICSE/ISC/CBSE. Free demo class.
 
-South Kolkata's Progressive Township — Live Online Classes
+NEW ALIPORE · KOLKATA · 700053
 
-# Coding & Maths Classes for Students near New Alipore, Kolkata
+# Live Online Coding & Maths Classes near New Alipore
 
-A planned township built for modern living. New Alipore families are progressive, education-focused, and tech-savvy. With schools like **South City International School (ISC)**, **New Alipore Multipurpose School**, and nearby **Lakshmipat Singhania Academy (ICSE/CBSE)**, parents here invest heavily in their children's future. The wide, tree-lined blocks of New Alipore reflect a neighbourhood designed with intention — and that same intentionality extends to how families here approach education. They research, compare, and choose quality over convenience. Modern Age Coders meets that standard with **100% live online coding and mathematics classes** — expert-led, small-batch, and structured for genuine skill-building. No pre-recorded shortcuts, no oversized coaching centre batches. From a six-year-old learning Scratch to a South City International student preparing for ISC Computer Science, our courses bring the depth that New Alipore families expect — directly to their thoughtfully designed homes.
+Modern Age Coders runs premium, 100% live online coding and mathematics classes for New Alipore families — never pre-recorded. We teach small batches of 3 to 8 students, project by project, from kindergarten Scratch to ISC Computer Science. Every class is led by a full-time engineer or maths graduate, delivered straight to your home in Block A, Sahapur or Sakher Bazar, with transparent fees and no brand surcharge.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% Live · Never RecordedBatches of 3-8Engineers & Maths GraduatesICSE · ISC · CBSE · IGCSE500+Students Taught Online4.9/5Parent Rating3-8Students Per Live BatchFreeFirst Demo Class[Book a Free Demo Class](/contact)[Explore Courses](/courses)AT A GLANCE
 
-Free demo • No commitment • Classes start within 24 hours
+## The essentials, on one page
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, taught in real time — never pre-recordedBatch sizeGroup max 6-8 · Mini batch 3-4 · 1-on-1 availableAges**6 to 65** — kindergarten Scratch through college and corporateSubjectsCoding (Python, Java, AI/ML, C++, web, DSA) + Mathematics (Grade 1 to college)BoardsICSE, ISC, CBSE, IGCSE and WBBSE — bilingual support availableFeesFrom **₹1,499/month** (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — one free live demo class, no payment, no commitmentServingNew Alipore, Sahapur, Sakher Bazar, Block A-L, Alipore Park Road, Behala edgeLIVE ONLINE · NEW ALIPORE, KOLKATA
 
-## Live Online Coding Classes near New Alipore — What Parents Should Know
+## Premium, live, taught by people who build software
 
-New Alipore parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near New Alipore is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from South Point, M.P. Birla Foundation, Mahadevi Birla and other South Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Modern Age Coders is a premium, high-quality live online coding and maths school — every single class happens in real time with a teacher who can see your child's screen, answer questions on the spot and correct mistakes as they happen. Nothing is pre-recorded, batches stay small, and lessons are built around projects your child actually builds, not videos they passively watch.
 
-📺
+### Live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is a live classroom, not a playlist. Your child speaks, shares their screen, asks questions and gets answered in the moment. When a New Alipore student is stuck on a loop or a board-style program, the teacher fixes it there and then — something no recorded course can match.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small live batches
 
-👨‍👩‍👧‍👦
+We cap group batches at 6-8 students, run mini batches of 3-4 and offer true 1-on-1. Small numbers mean every child gets airtime, every doubt gets heard, and no quiet student disappears at the back of a 40-person room. This is how genuine teaching actually works.
 
-### Max 6–8 Students per Live Batch
+### Taught by real engineers
 
-Smaller than any New Alipore-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are led by full-time engineers and maths graduates, not part-time tutors or junior interns reading slides. They have shipped real software and solved real maths, so they teach the *why* behind the syntax — and they can answer the off-syllabus question your sharp New Alipore student inevitably asks.
 
-🏠
+### Project-based, always
 
-### Zero Travel through New Alipore Traffic
+Children learn by building, not memorising. From a first Scratch game to a Python inventory tracker for the family business, every module ends in a working project the student owns and can show off. Portfolios beat parroting, especially for the practical and viva components of ICSE and ISC.
 
-No fighting evening New Alipore crossing and Diamond Harbour Road traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Transparent pricing, no brand tax
 
-📝
+New Alipore families famously refuse to pay extra for a brand name — and we agree. Our fees are published openly: ₹1,499/month group, ₹2,499/month mini batch, ₹4,999/month 1-on-1. What you pay for is teaching hours and small batches, never a glossy logo. [View pricing](/pricing).
 
-### Recordings + Notes After Each Class
+### Zero commute, more practice time
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Live online means no crawl through the New Alipore crossing or the SN Roy Road evening snarl, and no parking hunt on Sahapur Road — twice a class day. That recovered ~90 minutes goes back into practice, homework or simply rest, while the teaching quality stays fully premium.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## Every track we teach, one place
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids & Teens](/python-and-ai-classes-for-kids-teens) | Ages ~10-17 | Python fundamentals through AI basics, aligned to CBSE Class 11-12 Informatics Practices |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | First-time coders moving from blocks to text | Variables, loops and first real Python scripts |
+| [Python Projects for Kids](/python-projects-for-kids) | Kids ready to build a portfolio | Calculators, games and quiz apps a child can show off |
+| [Java Programming for Kids & Teens](/java-programming-for-kids-teens) | Teens 13-18, ICSE track | Java syntax through OOP using BlueJ, the Class 9-10 standard |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9-10 Computer Applications | 25+ board-style programs, practical and viva prep |
+| [Best Java Classes in India](/best-java-classes-in-india) | All Java learners | The full Java pillar — ICSE/ISC, beginners, projects, DSA, OOP |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens 13-18 | Hands-on intro to AI/ML built for school-age learners |
+| [AI/ML for College Students](/ai-ml-course-for-college-students) | College, prepping for tech jobs | Applied machine learning and model building |
+| [Best AI & ML Course in India](/best-ai-and-machine-learning-course-in-india) | Serious teens, college, professionals | Pillar from data analysis through model building |
+| [Machine Learning for Beginners](/machine-learning-course-for-beginners) | Beginners new to ML | ML from scratch in Python, no prior background |
+| [Best C++ Classes in India](/best-c-plus-plus-classes-in-india) | DSA, competitive programming, placements | C++ for CP, data structures and interview prep |
+| [Online Maths Tuition](/online-maths-tuition) | All ages, Grades 1-12 + college | School maths through Olympiad (AMC, IOQM, RMO, IMO) and college calculus |
+| [CBSE/ICSE Computer Science 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 9-12 board CS students | ICSE Java and CBSE Python — theory, practicals, projects, exam prep |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only batches | Princess & Queen Coders — confidence and tech leadership |
+| [Coding for College (DSA/MERN)](/courses/coding/college) | College and professionals | DSA, MERN stack, AI/ML and data analysis for the job market |
 
-👨‍🏫
+FEATURED TRACKS
 
-### Parent Updates Every Month
+## Where most New Alipore students begin
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+Most In-Demand Language
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+### Python & AI for Kids & Teens
 
-## Schools near New Alipore Whose Students Learn with Us
+Python is the language we recommend most New Alipore students start with — it is readable, powerful and the backbone of AI, data and the CBSE Class 11-12 Informatics Practices syllabus. Our live, project-led track takes a child from their first script to genuine AI basics, with a full-time engineer guiding every line.
 
-Students from **South City International School (ISC)**, **New Alipore Multipurpose School**, **Lakshmipat Singhania Academy (ICSE/CBSE)** (nearby), and **Alipore Multipurpose School** (nearby) in and around New Alipore join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+**You'll learn:** variables, loops, functions and AI fundamentals. **You'll build:** a calculator, a quiz app and a real Python project of your own.
 
-Whether your child follows the ISC, ICSE, CBSE, or IGCSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform in New Alipore offers this depth of coding education alongside structured mathematics tutoring.
+[Start with Python](/python-and-ai-classes-for-kids-teens)
 
-## What Your Child Will Learn with Modern Age Coders
+ICSE Board Essential
 
-New Alipore parents expect academic excellence. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+### Java Programming for ICSE & Teens
 
-🎨
+Java is non-negotiable for ICSE students at South Point, M.P. Birla and Mahadevi Birla — the board's Computer Applications syllabus is built on Java in BlueJ. We teach the exact syllabus live, drilling syntax through OOP with 25+ board-style programs plus dedicated practical and viva preparation.
 
-### For Kids (Ages 6-12)
+**You'll learn:** Java syntax, OOP, BlueJ and the ICSE Class 9-10 syllabus. **You'll build:** 25+ board-style programs and full viva readiness.
 
-New Alipore's progressive families start building future skills early.
+[Start with Java](/java-programming-for-icse-students)
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+The Future of Every Industry
 
-💻
+### AI & Machine Learning for Teens
 
-### For Teens (Ages 13-18)
+AI and machine learning are no longer optional, and New Alipore's tech-aware families know it. This hands-on live track introduces teens to real machine learning — how models learn, predict and improve — built specifically for school-age learners with no prior background needed.
 
-Where New Alipore's ISC and CBSE students go beyond the school syllabus.
+**You'll learn:** the foundations of AI, data and how ML models work. **You'll build:** your first working machine-learning model in Python.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+[Start with AI & ML](/ai-ml-course-for-teens)
 
-🎓
+SCHOOLS WE SERVE
 
-### For College Students
+## Students from every major New Alipore school
 
-New Alipore's ambitious college students prep for the tech-first job market.
+Modern Age Coders teaches students from every major New Alipore and South Kolkata school — including South City International School, M.P. Birla Foundation Higher Secondary School, DPS New Alipore, South Point School, Mahadevi Birla World Academy, Lakshmipat Singhania Academy, Ashok Hall Girls' Higher Secondary School, Modern High School for Girls, New Alipore Multipurpose School and The Heritage School on the Behala touch. Because we are live online, a child from any of these schools joins the same premium batch from home — no travel through the New Alipore crossing required.
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Our teaching maps directly onto the board your child actually sits. ICSE students get Java in BlueJ exactly as their Computer Applications paper demands; ISC students at South Point get Computer Science with the right language and viva drills; CBSE students at DPS New Alipore get Python and Informatics Practices. For Class 9-12 we run a dedicated [CBSE/ICSE Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covering theory, practicals, projects and exam preparation — and we support Bengali- and Hindi-medium students bilingually so no one falls behind in an English-medium batch.
 
-💼
+THE NEIGHBOURHOOD
 
-### For Professionals
+## Built with intention — and so is how we teach
 
-Upskilling programmes for working professionals staying relevant in tech.
+New Alipore is one of Kolkata's first deliberately planned townships — laid out after Partition in clean lettered blocks from A through L, with broad streets and independent houses rather than the tangle of older neighbourhoods. That design intention shaped the people: progressive, education-first families, old jute and textile and food-trading households living alongside professionals and academics. The shared instinct here is quality over convenience, and a principled refusal to pay a premium for a brand that hasn't earned it.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+That ethic is exactly why live online suits New Alipore so well. The alternative is the daily reality of the New Alipore crossing jam and the SN Roy Road and Diamond Harbour Road peak-hour snarl, plus hunting parking on choked internal lanes like Sahapur Road — endured twice every class day, often after dark, ferrying children block to block. Our classes erase that round trip entirely while keeping the teaching genuinely premium: small live batches, real engineers, real projects.
 
-📊
+From a desk in Block A, off Sahapur Road, near Sakher Bazar or out towards Buroshibtala and the Behala edge, a New Alipore student joins the same high-quality batch as a child anywhere else in the city. The families here have always valued substance over signage. So do we — which is why our fees are published openly and our teaching is what you actually pay for.
 
-### Mathematics for All Ages
+PROJECT 01
 
-New Alipore parents know maths and code are inseparable.
+### Sahapur Market Price Board
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+A Class 8 girl living off Sahapur Road built a Python program her mother uses to log daily fish and vegetable prices from the local bazaar, flagging when the weekly spend crosses budget. Two neighbour aunties now ask her for the printout.
 
-☀️
+PROJECT 02
 
-### Summer & Winter Camps
+### Block-to-Block Carpool Planner
 
-Intensive short-term programs during school breaks.
+A Class 10 boy tired of the New Alipore crossing jam built a web app that matches families across Blocks A through L heading to the same schools each morning, so parents can share one car instead of four separate trips.
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+PROJECT 03
 
-## Why New Alipore Parents Choose Modern Age Coders
+### ISC Computer Science Viva Trainer
 
-🎥
+A Class 12 South Point student built a Java and BlueJ practice tool that fires random ISC Computer Science theory and output-prediction questions on a timer. His whole practical batch uses it the week before the board viva.
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+"We don't pay extra for a brand — we pay for our child to actually be taught. This is the first class that felt like the real thing."
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how New Alipore families expect quality education to work.
+NA New Alipore parentBlock A, New AliporeAREAS WE SERVE
 
-👥
+## New Alipore and its surrounds
 
-### Small Batches — Maximum 6-8 Students
+Serving New Alipore and its surrounds across pin codes **700053, 700038, 700034, 700060, 700027, 700033 and 700040**.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+New AliporeBlock A New AliporeBlock L New AliporeSahapurSakher BazarBuroshibtalaAlipore Park Road touchSN Roy RoadDiamond Harbour Road beltTaratala RoadSuhasini Ganguly SaraniJames Long SaraniBehala edgeKhidirpore touchTollygunge edge
 
-🧰
+Not on the list? If you're anywhere around New Alipore, Alipore or Behala, you're in our catchment — every class is live online, so your exact block never matters. [See all Kolkata areas](/best-coding-class-in-kolkata).
 
-### Coding + Maths Combined — Only in India
+WEEKLY SCHEDULE
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why South Kolkata parents trust us over single-subject alternatives.
+## Live batches that fit around school
 
-💰
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-school early | 4:00 PM - 5:30 PM | Kids ages 6-12, Scratch & Python beginners | Mon-Fri |
+| After-school late | 5:30 PM - 7:00 PM | Teens, ICSE Java & CBSE Python | Mon-Fri |
+| Evening | 7:00 PM - 8:30 PM | ISC Computer Science, board & maths | Mon-Sat |
+| Night | 8:30 PM - 10:00 PM | College, DSA, AI/ML, working adults | Mon-Sat |
+| Weekend morning | 9:00 AM - 12:00 PM | Project intensives, camps, flexi batches | Sat-Sun |
 
-### Starting at Just ₹1,499/month
+Slots are flexible — tell us your school timing and we'll fit a live batch around it.
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+THE HONEST COMPARISON
 
-## New Alipore: Planned, Posh, Practical — and Very Family-First
+## Live online vs the neighbourhood tuition room
 
-New Alipore is one of Kolkata's first planned neighbourhoods — built block by block in the 1950s and 60s, with wide roads and large independent houses that have largely survived. The families here are often old-business households — jute, textile, food — with a strong English-medium-school tradition and a deeply family-first orientation.
+### Where live online wins
 
-Children from New Alipore attend South Point, M.P. Birla Foundation, Mahadevi Birla, DPS, and various ICSE schools. The parents are not flashy, but they care intensely about their children's education and will spend whatever it takes for genuine quality. They are also unusually price-aware on principle — "we don't pay extra for the brand" is a New Alipore phrase.
+- Zero commute — no crawl through the New Alipore crossing or SN Roy Road snarl, twice a class day
+- Recovers roughly 90 minutes per class day for practice, homework or rest
+- Small live batches of 3-8, so every child gets real airtime
+- Taught by full-time engineers and maths graduates, not local part-time tutors
+- No safety worry of ferrying children block to block after dark
+- Wider course range than any single neighbourhood tuition room — Python, Java, AI/ML, C++, DSA, maths
+- Transparent published fees with no brand surcharge
 
-Our pricing meets that ethic. We don't run TV ads; we don't bundle "premium" tiers; we don't have surprise add-on fees. ₹1,499/month for a small live batch, take it or leave it. The transparency wins New Alipore families repeatedly.
+### When offline still wins (the honest list)
 
-### Recent Projects Built by Students from New Alipore
+- A child who genuinely cannot self-start may need a parent or adult nearby for the first few weeks
+- Very young children sometimes settle faster with physical hand-holding at the keyboard
+- Households with unreliable internet should sort connectivity before committing
+- Some families simply prefer the ritual of a teacher in the room — and that's a fair preference
 
-These are real student projects from our New Alipore batches — small, useful, and unmistakably theirs.
+For most New Alipore families, the maths is simple: same premium teaching, smaller batches, none of the commute. Try a [free live demo](/contact) and judge for yourself.
 
-#### Family Business Inventory Tracker
+GETTING STARTED
 
-A Class 11 girl whose father runs a wholesale spices business built a Python script that tracks inventory across three storage locations. The accountant has adopted it.
+## Four steps to your first live class
 
-#### South Point ICSE Mock Test Engine
+01
 
-A Class 10 boy built a Python program that pulls 30 random ICSE Class 10 questions per subject. Five of his classmates use it for board prep.
+### Book a free demo
 
-#### New Alipore Block Cricket League
+Pick a time and join one free live class — no payment, no commitment. [Book a free demo](/contact).
 
-A Class 9 boy built a small web page that tracks the Block A cricket league's batting and bowling figures. The league captain swears by it.
+02
 
-“
+### Meet your teacher & get a plan
 
-We're New Alipore. We don't pay extra for brand names. We pay for quality. Your fee is transparent and your teaching is real. That's enough for us.
+Your child meets a full-time engineer or maths graduate who assesses their level and proposes a track. [Explore courses](/courses).
 
-— A New Alipore parent, paraphrased from a recent conversation.
+03
 
-## Neighbourhoods near New Alipore We Serve
+### Choose your batch & plan
 
-Because every class is live online, we serve students across the entire New Alipore belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+Pick group, mini batch or 1-on-1, with fees published openly upfront. [View pricing](/pricing).
 
-### Pin codes we actively teach in
+04
 
-**700053** (New Alipore core), **700027** (Alipore touch), **700034** (Khidirpore, Behala edge), **700038** (Behala edge), **700033** (Tollygunge), **700040** (Naktala edge), **700060** (Behala edge).
+### Start building
 
-### Localities our students log in from
+Begin live classes around your child's school timing and finish the first module with a real project in hand. [Read our Wall of Love](/love).
 
-New AliporeAlipore Park Road touchSahapurBehala edgeKhidirpore touchTaratala RoadDiamond Harbour Road touchBlock A New AliporeBlock L New AliporeTollygunge edgeSakher Bazar sideMahatma Gandhi Road areaSuhasini Ganguly SaraniJames Long SaraniBuroshibtala
+FROM A PARENT
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+## What New Alipore families say
 
-## Class Timings & Weekly Schedule for Students near New Alipore
+"My son Dhairya has genuinely come to love his classes — the teacher is patient, the batch is small, and he's actually building things he's proud to show us. As a New Alipore parent who researches everything, this is the rare class that delivered exactly what it promised."
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+SSonam OswalMother of Dhairya
 
-☀️
+[Read more on our Wall of Love](/love).
 
-### Morning Slot — 9:00 to 11:00 AM
+QUESTIONS, ANSWERED
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Frequently asked questions
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+Every class is 100% live and taught in real time — never pre-recorded. Your child interacts with a full-time engineer or maths graduate, shares their screen and gets doubts solved on the spot. [Book a free demo](/contact) to see a live class yourself.Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) track follows the BlueJ Java Computer Applications syllabus precisely, and our [CBSE/ICSE Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers ISC and CBSE board CS, including practicals and viva.The fee buys live teaching hours and small batches, nothing else. Pricing is published openly: ₹1,499/month group, ₹2,499/month mini batch, ₹4,999/month 1-on-1, with no hidden brand surcharge. See full [pricing](/pricing).Group batches are capped at 6-8 students, mini batches run 3-4, and we also offer true 1-on-1. Small numbers are deliberate — they're how every child actually gets heard.Yes — that's the whole point. Classes are live online into your home, so no one travels through the New Alipore crossing or SN Roy Road snarl, saving roughly 90 minutes per class day.Yes. Our teachers support Bengali- and Hindi-medium students bilingually so they keep pace in an English-medium batch, without falling behind on coding or maths concepts.Yes — our [Coding Classes for Girls](/coding-classes-for-girls) run dedicated girls-only batches (Princess & Queen Coders) in the same small-batch, project-based format, building tech confidence and leadership.Ages 6 to 65 — from kindergarten [Scratch for kids](/courses/coding/kids) through teens, to [college DSA and MERN](/courses/coding/college) and working adults. There's a track for every level.We teach full [online maths tuition](/online-maths-tuition) from Grade 1 through Class 12 and college, covering school maths, Olympiad (AMC, IOQM, RMO, IMO) and college calculus and linear algebra — alongside the complete coding catalogue.Tell us in advance and we'll arrange a make-up slot or a focused recap in the next session. Because batches are small, no missed class means lost ground — the teacher catches your child up directly.A laptop or desktop with a stable internet connection and a webcam is ideal. We'll guide you on free software setup during the free demo, so nothing extra needs buying.Yes — [AI & Machine Learning for Teens](/ai-ml-course-for-teens) for school-age learners, [AI/ML for College Students](/ai-ml-course-for-college-students), and [Machine Learning for Beginners](/machine-learning-course-for-beginners) for those starting from scratch.Yes — students receive a certificate on completing a module, but the real proof is the portfolio of working projects they build along the way, which matters far more for school and beyond.Every class is led by a full-time engineer or maths graduate who has shipped real software or solved real maths — not part-time tutors or interns reading from slides. They teach the reasoning, not just the answer.The demo is genuinely free — no payment and no commitment. Just [book a free demo class](/contact), meet the teacher, and decide afterwards whether to enrol.
 
-🏫
+## Premium live coding & maths, delivered to your New Alipore home.
 
-### After-School Slot — 4:30 to 7:30 PM
+Small batches, real engineers, transparent fees — and not a minute lost to the New Alipore crossing jam. See it live before you decide.
 
-The most popular slot for kids and teens near New Alipore. School ends, snack, log in. Two classes a week, 60 minutes each.
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)NEARBY AREAS WE SERVE
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
+## Coding & maths across South Kolkata
 
-🌚
+[Alipore](/coding-classes-near-alipore-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[Greenfield City Behala](/coding-classes-in-greenfield-city-behala)[Calcutta Riverside](/coding-classes-in-calcutta-riverside)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-New Alipore parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at DPS New Alipore (where applicable), South Point primary, Ashok Hall and similar New Alipore-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at DPS, M.P. Birla Foundation, Mahadevi Birla World Academy and other CBSE-track New Alipore-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that South Point, Lakshmipat Singhania Academy, Modern High School and other ICSE-track New Alipore-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near New Alipore — Honest Comparison
-
-New Alipore has private tuition rooms in residential homes scattered across the blocks. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average New Alipore centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through New Alipore crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in New Alipore
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from New Alipore
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in New Alipore. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"My son Nikit has been learning with Modern Age Coders and the progress has been remarkable. The teachers are patient, knowledgeable, and truly care about each student's growth. The small batch size means Nikit gets personal attention in every class. I'm glad we chose this platform."
-
-SSonu GoyalFather of Nikit
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near New Alipore
-
- Are there coding classes for kids near New Alipore, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near New Alipore. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from South City International, New Alipore Multipurpose School, and other New Alipore schools are already learning with us. What is the fee for coding and maths classes near New Alipore? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near New Alipore? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that New Alipore schools follow. How can my child in New Alipore attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Alipore Park Road touch or Sahapur? +Three big differences. **First**, batch size: most New Alipore tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through New Alipore crossing and Diamond Harbour Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in New Alipore? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the New Alipore belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near New Alipore? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near New Alipore. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at South Point, M.P. Birla Foundation, Mahadevi Birla and other South Kolkata schools and other New Alipore-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from New Alipore Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across New Alipore trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Alipore](/coding-classes-near-alipore-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [Coding & Maths for Mahadevi Birla World Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata)
 
 ---
 
