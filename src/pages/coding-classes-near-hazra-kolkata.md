@@ -1,364 +1,243 @@
 ---
-title: "Coding & Maths Classes near Hazra, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Hazra, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Bhavan's, Ashok Hall, Mitra Institution and other Hazra-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Hazra, Kolkata"
+description: "Live online, engineer-led coding & maths near Hazra, Kolkata. Python, Java, AI/ML for ICSE/CBSE/WBBSE kids & teens. Batches of 6-8 from ₹1,499/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-hazra-kolkata
-keywords: ["Hazra Kolkata coding classes", "coding near Hazra", "Presidency University area coding", "coding for kids Hazra", "Python classes Hazra Kolkata", "maths tuition Hazra South Kolkata", "online coding Hazra", "Mitra Institution Hazra", "teen coding Hazra", "coaching centre alternative Hazra", "AI classes Hazra Kolkata", "coding classes near Hazra Road"]
+keywords: ["coding classes near Hazra Kolkata", "online coding Hazra", "Python classes Hazra", "Java BlueJ ICSE Hazra", "AI ML classes Hazra Kolkata", "maths tuition Hazra", "coding for kids Sarat Bose Road", "coding Bhowanipore Kalighat", "Ashok Hall coding classes", "Bhavan's Gangabux Kanoria coding", "live online coding Kolkata", "Hazra Road coding tuition"]
 source: src/pages/coding-classes-near-hazra-kolkata.html
 ---
-> Live online coding classes near Hazra, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Bhavan's, Ashok Hall, Mitra Institution and other Hazra-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online, engineer-led coding & maths near Hazra, Kolkata. Python, Java, AI/ML for ICSE/CBSE/WBBSE kids & teens. Batches of 6-8 from ₹1,499/mo. Free demo.
 
-South Kolkata's Student Corridor — Live Online Classes
+LIVE ONLINE · SOUTH KOLKATA'S STUDENT CORRIDOR
 
-# Coding & Maths Classes for Students near Hazra, Kolkata
+# Live Online Coding & Maths Classes near Hazra, Kolkata
 
-The student corridor of South Kolkata. Between Presidency University and multiple coaching centres, Hazra breathes education. Walk down Hazra Road any evening and you'll see students carrying textbooks, heading to tuitions, debating in tea stalls. This is a neighbourhood where learning is not just valued — it is lived. **Mitra Institution**, schools in the **Hazra Law College** vicinity, and **Rashbehari Connell School** serve families steeped in academic culture. Adding structured coding classes to this ecosystem is a natural fit — but until now, finding quality coding education near Hazra meant settling for oversized batches or outdated curricula. Modern Age Coders brings **100% live online coding and mathematics classes** that match Hazra's intellectual rigour. Small batches of 6-8 students, taught live by expert instructors, accessible from any home on or near Hazra Road. From Scratch for young beginners to competitive programming for aspiring Olympiad candidates, our courses are built for a neighbourhood that takes education seriously.
+Modern Age Coders runs premium, live online coding and maths classes for students near Hazra, Kolkata — taught in real time by full-time software engineers and maths graduates, never pre-recorded. In small batches of six to eight, children from the Hazra–Bhowanipore–Kalighat belt learn Python, Java, AI/ML and school maths by building real projects. It is the engineer-led batch a three-generation tuition neighbourhood has been waiting for.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Live, not recordedBatches of 6-8Engineers & maths graduatesICSE · CBSE · WBBSE · IGCSE6-8Students per live batch90 minCommute saved each class day₹1,499Per month, group plan onwards100%Live, project-based teaching[Book a Free Demo Class](/contact)[Explore All Courses](/courses)LIVE ONLINE · HAZRA, KOLKATA
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**Live online, two-way classes** — taught in real time, never pre-recorded videosBatch sizeSmall batches of **6-8** (mini batch 3-4; 1-on-1 available)Ages**6 to 65** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, Scratch, web, AI/ML, DSA) + Mathematics (Grade 1 to college + Olympiad)BoardsICSE, CBSE, WBBSE and IGCSE — Java/BlueJ for ICSE, Python for CBSEFeesFrom **₹1,499/month** (group, max 6-8) · ₹2,499/month (mini batch 3-4) · ₹4,999/month (1-on-1)Free demoYes — one free live demo class, no payment, no commitmentServingHazra, Kalighat, Bhowanipore, Padmapukur, Chakraberia, Sarat Bose Road, Lansdowne, Elgin Road and nearby South KolkataWHY IT IS DIFFERENT
 
-## Live Online Coding Classes near Hazra — What Parents Should Know
+## Premium, live, engineer-led — not a recorded course
 
-Hazra parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Hazra is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Bhavan's, Ashok Hall, Mitra Institution and other Hazra-area schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Our classes are premium, high-quality, live online coding and maths education — every session is taught live by a working software engineer or maths graduate to a batch of six to eight students, with the teacher seeing each child's screen and correcting code as it is written. There are no pre-recorded lectures and no 40-child rooms. This is what separates a Hazra child who finishes the year able to build from one who only finishes a syllabus.
 
-📺
+### Live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Every class happens in real time with the camera on and the teacher present. Your child asks a doubt the moment it appears and gets it answered there, not in a comment box days later. A recorded course cannot see when a ten-year-old has frozen on line four of a loop — a live engineer can.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Taught by full-time engineers
 
-👨‍👩‍👧‍👦
+Classes are led by full-time software engineers and maths graduates who write production code and solve real problems for a living. They teach the language the way the industry actually uses it, not the way a generic coaching handout describes it. Around Hazra, where families chase the right teacher across the city, this is the teacher worth finding.
 
-### Max 6–8 Students per Live Batch
+### Small batches of 6-8
 
-Smaller than any Hazra-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+A maximum of six to eight students means every child is seen, named and pushed each class. It is the opposite of the packed tuition rooms on Hazra Road and Sarat Bose Road, where a quiet student can hide for a whole term. Smaller still? Choose a 3-4 mini batch or fully personalised 1-on-1.
 
-🏠
+### Project-based, not theory-only
 
-### Zero Travel through Hazra Traffic
+Children learn by building — games, apps, scripts and board project files — so concepts stick because they were used, not just memorised. A student leaves each module with something real they made and can show. Theory that is never applied is forgotten by the next exam; a project is remembered for years.
 
-No fighting evening Hazra crossing and Asutosh Mukherjee Road traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Board-aware curriculum
 
-📝
+We map directly to what Hazra's schools actually examine: Java and BlueJ for ICSE Computer Applications, Python and Informatics Practices for CBSE, and English-comfortable coding for WBBSE Bengali-medium students. Class 9-10 project files and Class 11-12 board prep are covered explicitly. Your child's coding hobby and their report card pull in the same direction.
 
-### Recordings + Notes After Each Class
+### Commute-free, time given back
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Live online erases the daily fight through Hazra crossing, the evening crawl on Asutosh Mukherjee Road and the auto-changing scramble at Jatin Das Park metro — roughly 90 minutes returned to your child on every class day. That time goes back into homework, rest and actual practice. Same teacher quality, none of the travel tax.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## What students near Hazra can learn
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Teens 12-17 and upper-primary kids | Control flow, OOP, file I/O and pandas/numpy basics through board-style projects |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Kids moving up from block coding | A gentle on-ramp to their first text-based language |
+| [Python Projects for Kids](/python-projects-for-kids) | Kids who know the basics | Games, scripts and mini-apps for a starter portfolio |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | ICSE Class 9-10 teens and Java starters | Java syntax, classes, BlueJ and 25+ board-style programs |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens 13-18 entering AI/ML | Hands-on machine learning and model-building for school students |
+| [Coding for Kids (Scratch/Web/AI)](/courses/coding/kids) | Kids ages 6-12 | Scratch, block coding, HTML/CSS web design and kids' AI basics |
+| [Coding for Teens](/courses/coding/teens) | Teens ages 13-18 | Python, Java, web dev, game dev and competitive programming |
+| [AI/ML, DSA, MERN, Full-Stack (College)](/courses/coding/college) | Calcutta/Presidency University students & professionals | Placement-ready DSA, MERN stack, AI/ML masterclass and MySQL |
+| [AI & ML for College Students](/ai-ml-course-for-college-students) | College students & serious professionals | End-to-end machine learning, model-building and a portfolio AI/ML project |
+| [Online Mathematics Tuition](/online-maths-tuition) | Grades 1-12, college, Olympiad aspirants | School maths plus AMC/IOQM/RMO/IMO Olympiad preparation |
+| [CBSE/ICSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 CBSE (Python) & ICSE (Java) students | Theory, practicals, projects and full board exam preparation |
+| [Coding for ICSE Students](/coding-for-icse-students) | ICSE-track school students | ICSE-aligned Computer Applications support in Java/BlueJ |
+| [Coding for CBSE Students](/coding-for-cbse-students) | CBSE-track school students | CBSE-aligned Informatics Practices support in Python |
+| [Girls' Batches (Princess/Queen Coders)](/coding-classes-for-girls) | Girls-only kids and teens | Dedicated girls-only coding batches building tech leadership |
 
-👨‍🏫
+**Also available:** [AI/ML Certification Course](/ai-ml-certification-course) · [Coding for IGCSE Students](/coding-for-igcse-students) · [Summer Coding Camp](/summer-coding-camp) · [Winter Coding Camp](/winter-coding-camp) · [Full Courses Index](/courses) · [Pricing](/pricing)
 
-### Parent Updates Every Month
+FEATURED TRACKS
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three tracks Hazra families ask for most
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+MOST IN-DEMAND
 
-## Schools near Hazra Whose Students Learn with Us
+### [Python & AI for Kids and Teens](/python-and-ai-classes-for-kids-teens)
 
-Students from **Mitra Institution**, schools in the **Hazra Law College vicinity**, **Rashbehari Connell School**, **Hindu School** (accessible from Hazra), and **Hare School** (nearby) in and around Hazra join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is the language Hazra's CBSE students meet in Informatics Practices and the one the world builds AI on — so it is where we start most serious learners. Children move from first variables to clean, structured programs that read data, solve problems and run real logic, all in live classes with an engineer watching the screen.
 
-Whether your child follows the ICSE, CBSE, or IGCSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Hazra offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn:** variables, loops, functions, OOP, files and pandas/numpy basics. **You'll build:** a working data tool, a small game and a board-style project you can submit and demo.
 
-## What Your Child Will Learn with Modern Age Coders
+ICSE ESSENTIAL
 
-Hazra families expect academic excellence. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+### [Java Programming for Kids and Teens](/java-programming-for-kids-teens)
 
-🎨
+For ICSE families at St. James', Ashok Hall and the wider Hazra belt, Java in BlueJ is not optional — it is the Class 9-10 Computer Applications board reality. We teach it exactly as the exam expects, building the project file program by program with documentation, so the board mark and the real skill arrive together.
 
-### For Kids (Ages 6-12)
+**You'll learn:** Java syntax, classes, objects, inheritance and BlueJ. **You'll build:** 25+ board-style programs and a complete, documented ICSE Computer Applications project file.
 
-In Hazra's academic-first neighbourhood, even the youngest start learning to code.
+FUTURE-READY
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+### [AI & Machine Learning for Teens](/ai-ml-course-for-teens)
 
-💻
+AI is no longer a college topic — capable teens near Hazra can start building real models now. This live track takes students from Python comfort into genuine machine learning: training models on data, understanding how predictions are made, and shipping a working AI project. College students and professionals can step up to the full [college AI/ML, DSA and MERN tracks](/courses/coding/college).
 
-### For Teens (Ages 13-18)
+**You'll learn:** data handling, model training, evaluation and core ML concepts. **You'll build:** a trained model and a hands-on AI project from start to finish.
 
-Where South Kolkata's student corridor adds tech fluency to its academic DNA.
+SCHOOLS WE SERVE
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+## Every crest on the Hazra school map
 
-🎓
+We teach students from across Hazra's school map, including Mitra Institution (Bhawanipur Branch) and Rashbehari Connell Anglo Bengali Vidyalaya on the WBBSE side, Bhavan's Gangabux Kanoria Vidyamandir and M.P. Birla Foundation Higher Secondary on CBSE, and Ashok Hall Girls', St. James' School, Future Foundation and the South Point edge in Ballygunge on the ICSE side. Whatever the crest on the uniform, the live online format means a child joins the same engineer-led batch without anyone crossing Hazra crossing twice a week.
 
-### For College Students
+Because the Hazra belt is genuinely mixed, we teach to each board rather than to a generic syllabus. ICSE students get Java and BlueJ matched to the Class 9-10 Computer Applications project file; CBSE students get Python and Informatics Practices; and our [CBSE/ICSE Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers senior board theory, practicals and projects end to end. Bengali-medium WBBSE students get English-comfortable coding without losing their board maths focus, supported by [online maths tuition](/online-maths-tuition) from Grade 1 upward.
 
-Presidency, Calcutta University — Hazra's college students build placement-ready skills.
+THE NEIGHBOURHOOD
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+## The spine of old South Kolkata's student corridor
 
-💼
+Hazra is the spine of old South Kolkata's student corridor — an education-soaked Bengali neighbourhood wrapped around the University of Calcutta's Hazra campus and Hazra Law College, where the griho-shikhok tradition runs three generations deep. Walk from Hazra crossing down Sarat Bose Road or along Harish Mukherjee Road and you pass coaching boards every few metres; here, learning is not a weekend add-on, it is the household's daily project.
 
-### For Professionals
+These are families who will cross the city for the right teacher, and who measure a class by what their child can actually do at the end of it. That instinct is exactly why a small, engineer-led online batch fits so naturally: it offers the rigour of a serious private tutor, but with a working software engineer instead of a generalist, and a real project instead of a worksheet. The old Bhowanipore–Kalighat–Padmapukur education culture finally has a coding option built to its own standard.
 
-Upskilling programmes for working professionals staying relevant in tech.
+And the practical maths is hard to argue with. A live online class deletes the evening crawl on Asutosh Mukherjee Road, the auto-changing scramble at Jatin Das Park metro and the bumper-to-bumper return from a faraway centre — roughly an hour and a half handed back to your child on every single class day. That time goes where it should: into practice, rest and the next project. The teacher quality stays premium; only the commute disappears.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+PROJECT 01
 
-📊
+### Jatin Das Park Metro Crowd-Time Predictor
 
-### Mathematics for All Ages
+A Class 8 student built a Python script that logs how packed the Jatin Das Park metro platform is by time-of-day and suggests the least-crowded slot for the school commute.
 
-Hazra families know maths and code are inseparable.
+PROJECT 02
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### Hazra Coaching-Centre Timetable Clash Finder
 
-☀️
+A Class 9 girl built a web app that takes a student's tuition timings across Hazra Road and Sarat Bose Road and flags scheduling clashes before admission, ending the family WhatsApp chaos.
 
-### Summer & Winter Camps
+PROJECT 03
 
-Intensive short-term programs during school breaks.
+### ICSE Java Library for Dadu's Boipara Book Stall
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A Class 10 boy from Padmapukur built a 22-class BlueJ inventory system in Java to catalogue his grandfather's second-hand book stall, doubling it as his ICSE Computer Applications project file with documentation.
 
-## Why Hazra Parents Choose Modern Age Coders
+"I had three home tutors in mind for coding. None of them could actually code. This batch could — and my son now builds things he is proud to show us."
 
-🎥
+PA Hazra parentparaphrasedAREAS WE SERVE
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+## Across the Hazra belt and nearby South Kolkata
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Hazra families expect quality education to work.
+Serving students across pin codes **700026, 700025, 700020, 700029, 700019** and **700027**.
 
-👥
+HazraKalighatBhowaniporePadmapukurChakraberiaSarat Bose RoadLansdowneHarish Mukherjee RoadAsutosh Mukherjee RoadNorthern ParkBhowanipore MarketElgin RoadMahim Halder StreetHazra CrossingRashbehari (edge)
 
-### Small Batches — Maximum 6-8 Students
+Anywhere near Hazra with a stable internet connection works — because the classroom is live online, your exact address is never the constraint. Outside this belt? See [all Kolkata areas we serve](/best-coding-class-in-kolkata).
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+WEEKLY SCHEDULE
 
-🧰
+## Slots that fit a Hazra school week
 
-### Coding + Maths Combined — Only in India
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-school | 4:00-5:00 PM | Kids 6-12, Scratch & beginner Python | Mon / Wed or Tue / Thu |
+| Early evening | 5:30-6:30 PM | Teens, Java/BlueJ & Python | Mon / Wed or Tue / Thu |
+| Prime evening | 7:00-8:00 PM | ICSE/CBSE board prep & AI/ML | Tue / Thu or Sat / Sun |
+| Night | 8:30-9:30 PM | College students & working adults | Sat / Sun |
+| Weekend | Flexible AM/PM | Maths tuition & camp intensives | Saturday & Sunday |
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why South Kolkata parents trust us over single-subject alternatives.
+Slots are indicative; we set the final timetable around your child's school and tuition schedule. [Book a demo](/contact) to lock a slot.
 
-💰
+AN HONEST COMPARISON
 
-### Starting at Just ₹1,499/month
+## Where live online wins — and when offline still does
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+### Where live online wins
 
-## Hazra: Generations of Bengali Households, Now Quietly Teaching Their Kids Code
+- The teacher is a working software engineer, not whoever the local centre could hire near Hazra Road.
+- Batches stay at 6-8, so no child disappears the way they can in a packed tuition room.
+- Roughly 90 minutes of daily commute through Hazra crossing and Jatin Das Park is given straight back.
+- Screen-sharing lets the teacher see and fix your child's actual code in real time.
+- Every class is project-based, so learning is built and remembered, not just heard.
+- Board-specific tracks (ICSE Java/BlueJ, CBSE Python) run without you hunting for a board specialist locally.
+- No weather, no traffic and no monsoon means classes almost never get cancelled.
 
-Hazra is the cultural backbone of old South Kolkata. The crossing itself is a chaotic landmark of trams, autos, and three generations of families crossing each other at the chemist shop. The lanes off Mahim Halder Street, Sarat Bose Road, and Asutosh Mukherjee Road house Bengali families that have been here for sixty years — the kind of household where the dadu reads three newspapers a morning and the granddaughter does her Class 9 ICSE Java homework on the same dining table.
+### When offline still wins (honest)
 
-Tuition culture is deep here. Almost every Bhowanipore-Hazra child has had a private tutor since Class 1. The Bengali tradition of *griho-shikhok* — the home tutor — is alive and well. So when these families come to us, they are not unfamiliar with serious one-on-one teaching. The question is whether a 6–8 student live online class can match what their child gets from a Maths tutor sitting at the dining table.
+- Very young children who genuinely cannot yet sit at a screen with light parent support.
+- Families who specifically want their child physically out of the house for social reasons.
+- Homes with no reliable internet or no quiet corner for a focused live class.
+- Learners who only stay accountable with a tutor physically in the room.
 
-We argue it can, for coding specifically, because a Maths-degree tutor was never a software engineer. Our instructors push code to production every week. They speak the languages they teach as native languages. Your child finally gets a teacher who can debug a real error message in real time.
+For serious, project-based coding and board-aligned maths, a small live online batch led by an engineer beats both the oversized local tuition room and the well-meaning home tutor who cannot actually code. [See it for yourself in a free demo](/contact).
 
-### Recent Projects Built by Students from Hazra
+GETTING STARTED
 
-These are real student projects from our Hazra batches — small, useful, and unmistakably theirs.
+## Four steps from curious to building
 
-#### Hazra Auto Stand Fare Calculator
+STEP 01
 
-A Class 8 student built a Scratch program that calculates the auto fare between Hazra and four common destinations — useful, his grandfather says, for not getting cheated.
+### Book a free demo
 
-#### Dida's Recipe Encyclopedia
+Pick a slot and meet your child's teacher live in one free class with [no payment and no commitment](/contact).
 
-A Class 9 girl built a Python program that stores 80 of her grandmother's recipes with ingredient-based search. The grandmother is mildly proud.
+STEP 02
 
-#### ICSE Computer Applications Project File
+### We assess and place
 
-A Class 10 boy from Padmapukur built a 25-program Java project file in BlueJ, complete with documentation — submitted as his ICSE project.
+We gauge your child's level, board and goals, then place them in the right batch — group, [mini batch or 1-on-1](/pricing).
 
-“
+STEP 03
 
-Our family has used home tutors for three generations. The question we had was: can an online class match that quality? Three months in, the answer is yes — for coding, it's actually better.
+### Choose the track
 
-— A Hazra parent, paraphrased from a recent conversation.
+Lock in [Python](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens), [AI/ML](/ai-ml-course-for-teens), [maths](/online-maths-tuition) or board CS, and set the weekly timetable around school.
 
-## Neighbourhoods near Hazra We Serve
+STEP 04
 
-Because every class is live online, we serve students across the entire Hazra belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+### Start building
 
-### Pin codes we actively teach in
+Join live each week, build real projects, and watch progress you can actually see — [browse the full catalogue](/courses) any time.
 
-**700026** (Hazra, Kalighat), **700025** (Bhowanipore touch), **700020** (Elgin Road touch), **700029** (Lansdowne edge), **700019** (Ballygunge edge), **700027** (Alipore touch), **700033** (Tollygunge side).
+PARENT VOICE
 
-### Localities our students log in from
+## What a parent says
 
-HazraKalighatBhowaniporeHazra CrossingPadmapukurSarat Bose RoadAsutosh Mukherjee RoadLansdowne RoadHarish Mukherjee RoadChakraberiaBhowanipore MarketNorthern ParkSouth Park Street sideElgin RoadMahim Halder Street
+"We had tried two coaching centres off Sarat Bose Road and our daughter was just one face in a crowded room. Here the batch is tiny, the teacher actually writes code, and she now finishes her ICSE Java project on her own. The saved commute through Hazra crossing was the bonus we did not expect to value so much."
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+RA Sarat Bose Road parentparaphrased · ICSE Class 9
 
-## Class Timings & Weekly Schedule for Students near Hazra
+[Read more on our Wall of Love](/love)
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+FAQ
 
-☀️
+## Questions Hazra parents ask
 
-### Morning Slot — 9:00 to 11:00 AM
+For serious coding, yes. A batch of 6-8 led by a working software engineer gives each child far more attention and real-world correctness than a 30-40 student room run by a generalist. You also save roughly 90 minutes of daily commute. [Try a free demo](/contact) and compare directly.Yes, explicitly. Our [Java course](/java-programming-for-kids-teens) builds 25+ board-style programs in BlueJ and a complete, documented Computer Applications project file aligned to the ICSE pattern. We teach Java the way the board examines it.Yes. Our [CBSE/ICSE Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers Python, Informatics Practices theory, practicals and projects for the senior board exam. Younger CBSE students are supported through [Coding for CBSE Students](/coding-for-cbse-students).A home tutor brings comfort and discipline, but most cannot actually write production code. Our live batches give you that same close attention plus a real software engineer and a project-based outcome. Many Hazra families keep their maths home tutor and add us for coding.Yes. Students from Mitra Institution (Bhawanipur Branch) and other WBBSE schools learn coding at a comfortable English pace while keeping their board maths on track through our [online maths tuition](/online-maths-tuition).Group batches (max 6-8) are from ₹1,499/month, mini batches (3-4) are ₹2,499/month, and fully personalised 1-on-1 is ₹4,999/month. See full details on the [pricing page](/pricing).Every class is 100% live and two-way — a real teacher, in real time, who can see your child's screen and answer doubts on the spot. We never use pre-recorded videos.Tell us in advance and we arrange a catch-up — a make-up session where possible, plus notes and the lesson's project so nothing is lost. Live attention means missed work is genuinely recovered, not ignored.A laptop or desktop with a stable internet connection and a quiet corner is ideal; a tablet works for younger beginners. We share simple setup help before the first class.ICSE, CBSE, WBBSE and IGCSE — Java/BlueJ for ICSE, Python for CBSE, and English-comfortable coding for WBBSE. See [Coding for ICSE](/coding-for-icse-students), [CBSE](/coding-for-cbse-students) and [IGCSE](/coding-for-igcse-students) students.Primarily clear, simple English, with teachers comfortable supporting Hazra's Bengali-medium students so no child is held back by language while learning to code.Yes. Our [Princess and Queen Coders](/coding-classes-for-girls) batches are dedicated girls-only coding groups for kids and teens, building both skills and tech confidence.From age 6 to 65 — kids (6-12), teens (13-18), [college students and professionals](/courses/coding/college), and adult learners.Yes — students receive a course completion certificate, and more importantly leave each module with real projects they built and can show.[Book a free demo class](/contact) — one live session with no payment and no commitment. You meet the teacher, see the format, and decide afterwards. WhatsApp us at [+91 91233 66161](https://wa.me/919123366161) to pick a slot.
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Hazra's student corridor deserves a coding class built to its own standard.
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+Live, engineer-led, project-based — book one free demo near Hazra and see the difference a batch of 6-8 makes.
 
-🏫
+[Book a Free Demo Class](/contact)[Explore All Courses](/courses)[Chat on WhatsApp](https://wa.me/919123366161)NEARBY AREAS
 
-### After-School Slot — 4:30 to 7:30 PM
+## Coding & maths classes in nearby Kolkata areas
 
-The most popular slot for kids and teens near Hazra. School ends, snack, log in. Two classes a week, 60 minutes each.
+[Bhowanipore](/coding-classes-near-bhowanipore-kolkata)[Kalighat](/coding-classes-near-kalighat-kolkata)[Rashbehari](/coding-classes-near-rashbehari-kolkata)[Lansdowne](/coding-classes-near-lansdowne-kolkata)[Elgin Road](/coding-classes-near-elgin-road-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Hazra parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Bhavan's Gangabux Kanoria, Ashok Hall, M.P. Birla Foundation and similar Hazra-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Bhavan's Gangabux Kanoria, M.P. Birla Foundation, Future Foundation and other CBSE-track Hazra-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Ashok Hall, Mitra Institution, St. James' and other ICSE-track Hazra-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Hazra — Honest Comparison
-
-Hazra and Bhowanipore have generations-old tuition rooms in the residential lanes. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Hazra centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Hazra crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Hazra
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Hazra
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home near Hazra. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. The classes are engaging and the instructors explain complex topics in a way that actually makes sense. I have improved a lot in both coding and problem-solving. Highly recommend it to anyone serious about learning."
-
-SSamridho MondalStudent, Grade 9
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Hazra
-
- Are there coding classes for kids near Hazra, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Hazra. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from Mitra Institution, Rashbehari Connell School, and other Hazra area schools are already learning with us. What is the fee for coding and maths classes near Hazra? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Hazra? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Hazra area schools follow. How can my child near Hazra Road attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Kalighat or Bhowanipore? +Three big differences. **First**, batch size: most Hazra tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Hazra crossing and Asutosh Mukherjee Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Hazra? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Hazra belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Hazra? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Hazra. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Bhavan's, Ashok Hall, Mitra Institution and other Hazra-area schools and other Hazra-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Hazra Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Hazra trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Bhowanipore](/coding-classes-near-bhowanipore-kolkata)[Rashbehari](/coding-classes-near-rashbehari-kolkata)[Kalighat](/coding-classes-near-kalighat-kolkata)[Lansdowne](/coding-classes-near-lansdowne-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [Coding & Maths for Birla High School, Kolkata](/coding-and-maths-for-birla-high-school-kolkata)
 
 ---
 
