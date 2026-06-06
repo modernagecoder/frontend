@@ -1,364 +1,244 @@
 ---
-title: "Coding & Maths Classes near Park Circus, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Park Circus, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Don Bosco, La Martiniere, Calcutta Boys' and other central Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Park Circus, Kolkata"
+description: "Premium live online coding & maths near Park Circus, Kolkata. Small 6-8 batches, ICSE/ISC Java & Python, taught by full-time engineers. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-park-circus-kolkata
-keywords: ["Park Circus Kolkata coding classes", "coding near Park Circus", "Don Bosco Park Circus coding", "coding for kids Park Circus", "Python classes Park Circus Kolkata", "maths tuition Park Circus", "online coding Park Circus", "ICSE tuition Park Circus", "teen coding Park Circus Kolkata", "Scratch programming Park Circus", "AI classes Park Circus", "coding classes near me Park Circus"]
+keywords: ["coding classes near Park Circus", "coding classes Park Circus Kolkata", "maths tuition Park Circus", "ICSE ISC Java classes Kolkata", "Python classes for kids Park Circus", "AI ML classes for teens Kolkata", "Don Bosco Park Circus coding", "computer science Class 11 12 Kolkata", "online coding classes near Beck Bagan Karaya", "coding classes near Darga Road Kolkata", "live online coding Kolkata", "girls coding classes Kolkata"]
 source: src/pages/coding-classes-near-park-circus-kolkata.html
 ---
-> Live online coding classes near Park Circus, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Don Bosco, La Martiniere, Calcutta Boys' and other central Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Premium live online coding & maths near Park Circus, Kolkata. Small 6-8 batches, ICSE/ISC Java & Python, taught by full-time engineers. Book a free demo.
 
-Kolkata's Most Vibrant Neighbourhood — Live Online Classes
+[Home](/)/[Coding Classes in Kolkata](/best-coding-class-in-kolkata)/Coding Classes near Park CircusLIVE ONLINE · PARK CIRCUS, KOLKATA · 700017
 
-# Coding & Maths Classes for Students near Park Circus, Kolkata
+# Coding & Maths Classes near Park Circus, Kolkata
 
-One of Kolkata's most diverse and vibrant neighbourhoods. Park Circus is where communities converge, cultures blend, and children from every background share the same academic ambitions. **Don Bosco School Park Circus (ICSE)** anchors the area's educational reputation, while **Park Circus Shyama Prasad Vidyalaya** and nearby **Loreto Convent Entally (ICSE)** serve a broad spectrum of families. This is a neighbourhood that believes in equal opportunity through education — and coding is the great equalizer. Whether a student comes from a business family or an academic household, the ability to code opens the same doors. Modern Age Coders brings **100% live online coding and mathematics classes** to Park Circus families — small batches of 6-8 students, live instruction, no barriers. No commuting across the Maidan to reach coaching centres. From Scratch for beginners to AI/ML for advanced teens, our courses meet Park Circus where it already is: ambitious, diverse, and ready for the future.
+Modern Age Coders runs premium, live online coding and maths classes for families around Park Circus, Kolkata — the 7-Point Crossing, Beck Bagan, Karaya, Darga Road and the Entally border. We teach small batches of 6-8 students, project by project, with full-time software engineers and maths graduates, not pre-recorded videos. ISC/ICSE-grade Python, Java and AI for Don Bosco, Loreto Entally, Calcutta Boys' and St. James' students — no 7-Point traffic, ever.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Live, not recorded6-8 per batchEngineers & maths graduatesFree demo, no card6-8Students per live batch0 minAt the 7-Point Crossing₹1,499Starting fee per month4.9/5Parent rating · Wall of Love[Book a Free Demo](/contact)[Explore Courses](/courses)At a glance
 
-Free demo • No commitment • Classes start within 24 hours
+## The facts, in one screen
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, small-group; taught in real time, never pre-recordedBatch size6-8 (group), 3-4 (mini batch), or 1-on-1Ages**6 to 65** — kids, teens, college and working adultsSubjectsCoding (Scratch, Python, Java, C++, web, AI/ML, DSA) + Mathematics (Grade 1-12 + Olympiad)BoardsISC/ICSE, CBSE and WBBSE — board-aligned Computer Science & Computer ApplicationsFeesfrom ₹1,499/month (group), ₹2,499/month (mini batch 3-4), ₹4,999/month (1-on-1)Free demoYes — one full live class, no card, no commitmentServingPark Circus, Beck Bagan, Karaya, Darga Road, Convent Road, Entally, Tiljala, Topsia, Beniapukur, Mullick Bazar, Theatre Road & the Sealdah borderLive online, premium quality
 
-## Live Online Coding Classes near Park Circus — What Parents Should Know
+## Board-grade coding, taught live — without leaving Darga Road
 
-Park Circus parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Park Circus is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Don Bosco, La Martiniere, Calcutta Boys' and other central Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Modern Age Coders is a premium, high-quality, live online coding and maths school for Kolkata — and around Park Circus, that means a child learns serious, board-grade programming from a Darga Road or Beck Bagan flat without a single minute at the 7-Point Crossing. Every class is taught live by a full-time engineer or maths graduate to a batch of 6-8, with cameras on, code shared, and doubts cleared the moment they appear. Nothing here is a pre-recorded video.
 
-📺
+### Live, never pre-recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is a real teacher on a real call, watching your child write code line by line. When a Loreto Entally or Don Bosco student gets stuck on a loop, the answer comes in seconds — not from a comment section under a playback video.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small batches of 6-8
 
-👨‍👩‍👧‍👦
+We cap group batches at 6-8 so every child speaks, screen-shares and is known by name. Park Circus families who want even more focus choose our mini batch of 3-4 or fully personalised 1-on-1 classes on the [pricing](/pricing) page.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers
 
-Smaller than any Park Circus-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Your child is taught by working software engineers and maths graduates, not part-time tutors reading slides. They know how Java behaves in BlueJ, how Python breaks, and how to explain an array to a Class 9 student so it actually sticks.
 
-🏠
+### Project-based, board-grade
 
-### Zero Travel through Park Circus 7-point Traffic
+Children build real, working projects every few weeks — a fare splitter, a revision bot, a review board — not toy demos. The work is pitched at ISC/ICSE rigour, so it doubles as genuine preparation for school Computer Science and Computer Applications.
 
-No fighting evening Park Circus 7-Point crossing traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Zero commute, full safety
 
-📝
+No evening run through the 7-Point snarl, no auto-change near the Maidan, no parent escort through Park Street traffic. A class that would cost 45-60 minutes each way to a Ballygunge coaching centre starts the second your child opens the laptop.
 
-### Recordings + Notes After Each Class
+### Coding and maths under one roof
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+The same school that teaches your child to code also teaches [school maths](/online-maths-tuition) from Grade 1 to 12, including Olympiad prep. One trusted teacher pool, one schedule, one login — logic and mathematics taught the way they belong, together.
 
-💻
+Course Catalogue
 
-### Project-Based, Not Theory-Heavy
+## Every track we teach near Park Circus
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Ages ~10-17, CBSE Informatics Practices track | Python from data types and control flow to functions, OOP and pandas/numpy basics through board-style projects |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young first-time Python learners moving past blocks | A gentle, confident first step into real text-based Python |
+| [Python Projects for Kids](/python-projects-for-kids) | Kids who already know Python basics | Small, useful programs built end to end to lock in the fundamentals |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | ICSE Class 9-10 Computer Applications students | Java syntax, OOP, arrays, strings, the BlueJ environment and 25+ board-style programs |
+| [Best Java Classes in India](/best-java-classes-in-india) | All-ages Java learners (pillar) | The full Java track with the authentic ICSE/ISC BlueJ hook |
+| [Java Classes for Teens](/java-classes-for-teens) | Teens 13-18 learning Java | Teen-paced Java fundamentals, OOP and exam-style problem solving |
+| [Java Classes for Adults](/java-classes-for-adults) | Working adults and career-switchers | Job-relevant Java from the ground up, at an adult pace |
+| [Java for Beginners](/java-for-beginners) | Absolute beginners to Java | Core Java fundamentals from scratch, no prior coding needed |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens 13-18 ready to go beyond intro coding | Machine learning and AI fundamentals — the skill behind every industry's future |
+| [Web Development for Teens](/courses/full-stack-web-development-teens-masterclass) | Teens 13-18 building for the browser | HTML, CSS and JavaScript through to full-stack projects deployed on the web |
+| [Best C++ Classes in India](/best-c-plus-plus-classes-in-india) | College and serious students | Competitive programming, DSA and placement-grade C++ |
+| [School Maths Tuition](/online-maths-tuition) | Grades 1-12, all boards, plus Olympiad aspirants | Live maths from Grade 1 through college, including AMC/IOQM/RMO/IMO prep |
+| [Girls' Coding (Princess/Queen Coders)](/coding-classes-for-girls) | Girls-only batches, kids and teens | Dedicated girls-only coding and a tech-leadership track |
+| [CBSE/ICSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 board CS / Informatics Practices | Complete board CS — theory, practicals, projects and exam prep in Python + Java |
 
-👨‍🏫
+See the full catalogue on our [all courses index](/courses) — including [Scratch for kids](/courses/coding/kids), [coding for teens](/courses/coding/teens), [DSA for college](/courses/coding/college) and [corporate training](/courses/coding/corporate).
 
-### Parent Updates Every Month
+Featured tracks
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## The three Park Circus families start with
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+MOST POPULAR · AGES 10+
 
-## Schools near Park Circus Whose Students Learn with Us
+### Python that carries from Class 6 to college
 
-Students from [Don Bosco School Park Circus (ICSE)](/coding-and-maths-for-don-bosco-park-circus-kolkata), Park Circus Shyama Prasad Vidyalaya, and nearby Loreto Convent Entally (ICSE) in and around Park Circus join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+For most families around the 7-Point Crossing, Python is the natural first language — it powers CBSE Informatics Practices, opens the door to AI, and stays gentle enough for a curious Class 6 student. We take learners from their first `print()` through control flow, functions, OOP and the pandas/numpy basics that real data work needs, all through projects they actually want to finish.
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Park Circus offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn:** Variables, loops, functions, OOP, files and data basics. **You'll build:** tools like a shared-auto fare splitter and a festival tiffin tracker.
 
-## What Your Child Will Learn with Modern Age Coders
+[Start with Python →](/python-and-ai-classes-for-kids-teens)
 
-Park Circus families know coding opens doors regardless of background. Our courses are built for that belief, covering every age group from first-graders to working professionals.
+ICSE/ISC ESSENTIAL · CLASS 9-12
 
-🎨
+### Java and BlueJ, the way Don Bosco and Calcutta Boys' need it
 
-### For Kids (Ages 6-12)
+Around Park Circus, Java is not optional — it is the language behind ICSE Computer Applications and ISC Computer Science at Don Bosco, Calcutta Boys', St. James' and Loreto Entally. We teach Java exactly as the boards examine it: in BlueJ, with full attention to syntax, OOP, arrays, strings and the pattern, string and array programs that turn up in every paper.
 
-Park Circus families know coding opens doors regardless of background. Start your child's journey here.
+**You'll learn:** Classes, objects, inheritance, arrays, strings. **You'll build:** 25+ board-style programs — including an ISC BlueJ revision bot students share before exams.
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+[Master Java →](/java-programming-for-kids-teens)
 
-💻
+FUTURE-READY · TEENS 13-18
 
-### For Teens (Ages 13-18)
+### AI/ML for the teen who is already past the basics
 
-Where Don Bosco students and neighbourhood teens build tech skills that matter.
+For Park Circus teens who have outgrown intro coding, AI and machine learning are the obvious next step — the skill set quietly reshaping medicine, finance, business and the family trade alike. We teach the real fundamentals: how data trains a model, how predictions are made, and how to build a working AI project rather than just talk about ChatGPT.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+**You'll learn:** Data handling, core ML concepts and model-building basics. **You'll build:** a real, trained AI project of the student's own.
 
-🎓
+[Explore AI & ML →](/ai-ml-course-for-teens)
 
-### For College Students
+Schools served
 
-Park Circus college students bridge ambition and technical skill.
+## Built for the ISC/ICSE schools around the 7-Point Crossing
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Modern Age Coders teaches students from every major school around Park Circus, Kolkata. That includes ISC/ICSE students from Don Bosco School, Park Circus (23 Darga Road), Loreto Convent Entally, Calcutta Boys' School, St. James' School and The Frank Anthony Public School, Entally; La Martiniere for Boys & Girls just up Loudon Street; CBSE families at Future Foundation School in Tangra; and WBBSE households at Park Circus Shyama Prasad Vidyalaya and Mahabodhi School near Beck Bagan and Mullick Bazar. Because every class is live online, a child logs in from a Darga Road, Karaya or Convent Road flat at exactly the time that fits their school and tuition.
 
-💼
+This is an ISC/ICSE-heavy cluster, and our teaching is built for it. ICSE students get Java in BlueJ aligned to Computer Applications; ISC and Class 11-12 students follow our complete [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) course covering theory, practicals, projects and exam prep in both Python and Java. CBSE families on the Informatics Practices track follow the [Python](/python-and-ai-classes-for-kids-teens) line, while Bengali- and Hindi-medium students near Karaya and Beck Bagan learn the same content in English at their own pace. Don Bosco families can also see our dedicated page for [Don Bosco School Park Circus (ICSE)](/coding-and-maths-for-don-bosco-park-circus-kolkata).
 
-### For Professionals
+The neighbourhood
 
-Upskilling programmes for working professionals staying relevant in tech.
+## The most plural square mile in Kolkata
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+Park Circus is the most plural square mile in Kolkata. Around the 7-Point Crossing, Bengali Hindu, Muslim, Anglo-Indian, Marwari, Parsi and old Jewish families have shared the same lanes for generations — the same chemists, the same Quest Mall escalators, the same Beck Bagan and Karaya bazaars. It is a neighbourhood that does not show off but quietly keeps score: on board results, on business, on which child cracked the ISC paper. Coding belongs here precisely because it is the great equaliser — a Class 9 mind from any household, any board, any medium can build the same working program.
 
-📊
+Yet for all that ambition, serious tech coaching has always sat somewhere else — across the Maidan, over on the Ballygunge and Gariahat side, past the Park Street and AJC Bose Road signals. Getting a child there after a late-finishing ISC school day means the 7-Point snarl, an auto-change near the Maidan and 45-60 minutes each way that nobody has. That gap is exactly what live online closes. The premium teacher your child would have travelled an hour for now arrives on a screen in the front room, on time, every week.
 
-### Mathematics for All Ages
+And it shows in what these students build. The projects that come out of Park Circus batches are unmistakably of this place — fare splitters for the shared-auto run to Sealdah, festival trackers that span Ramzan and Durga Pujo, a review board for the Tangra restaurants the cousins argue about. They are not generic exercises. They are this neighbourhood, written in code by the children who live in it.
 
-Park Circus parents know maths and code are inseparable.
+PROJECT 01
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### 7-Point Crossing Auto-Fare Splitter
 
-☀️
+A Class 9 Calcutta Boys' student built a Python CLI that splits shared-auto fares between friends commuting from Park Circus to Sealdah, Gariahat and Esplanade — accounting for who gets off at which point on the route.
 
-### Summer & Winter Camps
+PROJECT 02
 
-Intensive short-term programs during school breaks.
+### Iftar & Pujo Tiffin Tracker
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A Class 7 girl from Beck Bagan made a Scratch app her family uses during Ramzan and Durga Pujo to log which neighbour sent which dish, so thank-you boxes go back to the right doorstep across the para.
 
-## Why Park Circus Parents Choose Modern Age Coders
+PROJECT 03
 
-🎥
+### ISC Java BlueJ Revision Bot
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+A Class 12 Don Bosco boy coded a Java/BlueJ tool that pulls a random pattern, string and array program from the ISC syllabus each evening — now shared on his batch's class group before boards.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Park Circus families expect quality education to work.
+"We stopped fighting the 7-Point traffic for tuition, and my son actually does more now that the class comes to him." — paraphrased from a Park Circus parent. Read more on our [Wall of Love](/love).
 
-👥
+Areas & pin codes
 
-### Small Batches — Maximum 6-8 Students
+## Where we reach around Park Circus
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+Serving Park Circus and the surrounding pin codes — **700017, 700019, 700014, 700039, 700016, 700015 and 700020** — plus the wider Entally–Sealdah belt.
 
-🧰
+Park CircusBeck BaganKarayaDarga RoadConvent RoadTiljalaTopsiaBeniapukurMullick BazarEntallySealdah borderTangra edgeTheatre Road / Shakespeare SaraniA.J.C. Bose Road beltPark Street side
 
-### Coding + Maths Combined — Only in India
+Anywhere around the 7-Point Crossing, the Park Circus Maidan or Quest Mall on Syed Amir Ali Avenue — if your child can open a laptop, we reach you. Browse [all Kolkata areas](/best-coding-class-in-kolkata).
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Park Circus parents trust us over single-subject alternatives.
+Weekly schedule
 
-💰
+## Slots built around a real Park Circus week
 
-### Starting at Just ₹1,499/month
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-school | 4:00-5:30 PM | Primary & middle-school kids (Scratch, Python beginners) | Mon-Fri |
+| Early evening | 5:30-7:00 PM | ICSE/ISC Class 9-12 Java & Computer Science | Mon-Sat |
+| Late evening | 7:00-8:30 PM | Teens after late-finishing ISC school hours & tuition | Mon-Sat |
+| Night batch | 8:30-9:30 PM | Working adults & college (Java, C++, DSA) | Tue, Thu, Sat |
+| Weekend mornings | 10:00 AM-12:00 PM | Project deep-dives, AI/ML, maths intensives | Sat-Sun |
+| Flexible 1-on-1 | By appointment | Girls-only batches, board crunch & custom timing | Any day, incl. festival-friendly slots |
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+Online vs offline
 
-## Park Circus: Cosmopolitan, Plural, and Quietly Ambitious
+## An honest comparison for Park Circus families
 
-Park Circus is the most plural part of Kolkata. Bengali Hindu, Muslim, Anglo-Indian, Marwari, Parsi, and Jewish families have lived around the 7-Point Crossing for generations. The neighbourhood feeds children into Don Bosco Park Circus, La Martiniere, Calcutta Boys' School, and St. James' — a remarkably good cluster of schools.
+### Where live online wins
 
-Parents in Park Circus are quietly competitive on academic excellence. The Don Bosco father whose son is at IIT Kharagpur, the La Martiniere mother whose daughter is at NIFT — these are the family conversations every Park Circus child grows up hearing. Coding lives within that ambition. The parents do not want a "fun coding app for kids" — they want their child to genuinely be able to code by the time he or she finishes school.
+- Zero time lost to the 7-Point Crossing snarl, the Maidan auto-change or the Park Street signals — class starts the moment the laptop opens.
+- Saves 45-60 minutes each way versus reaching a Ballygunge or Gariahat coaching centre after a late ISC school day.
+- No parent escort needed through evening traffic — daughters and younger children stay safely at home.
+- The same premium engineer or maths graduate, whether you live on Darga Road or near the Sealdah border.
+- Small live batches of 6-8 mean more speaking time per child than a crowded offline classroom.
+- Screen-sharing and live code review let the teacher see and fix mistakes the instant they happen.
+- Easy to slot around tuition, Friday prayers, Pujo and festival schedules that real Park Circus weeks are built around.
 
-We've structured the Class 9–12 track precisely for this. A Class 9 student who joins us and stays through Class 12 will have written 200+ programs, built 5–6 real projects, and be ready for any first-year college computer science course.
+### When offline still wins (honest)
 
-### Recent Projects Built by Students from Park Circus
+- Very young children who need a physically present adult to stay seated for an hour.
+- Families with genuinely unreliable internet or no spare device at home.
+- Learners who simply concentrate better with a teacher physically in the room.
+- Pure peer energy — some students thrive most sitting shoulder-to-shoulder with classmates.
 
-These are real student projects from our Park Circus batches — small, useful, and unmistakably theirs.
+For most Park Circus families, live online delivers the same premium, board-grade teaching without the commute — but the honest answer depends on your child, so try a free demo and judge for yourself.
 
-#### Multilingual Greetings Generator
+How to start
 
-A Class 7 girl from Karaya built a Scratch project that generates Eid, Durga Pujo, and Christmas greetings in English, Bangla, Hindi, and Urdu. Her family uses it every festival.
+## Four steps from here to your first project
 
-#### Don Bosco ISC Java Mock Paper
+01
 
-A Class 12 Don Bosco boy built a Python script that picks 15 random Java questions from the ISC syllabus — his entire class now uses it.
+### Book a free demo
 
-#### Tangra Restaurant Review Board
+Pick a slot on our [contact page](/contact) and reserve one full live class. No card, no commitment.
 
-A Class 10 girl built a small HTML/CSS/JavaScript review board for her cousins to rate Tangra restaurants. It has 25 contributors.
+02
 
-“
+### Meet your teacher
 
-Park Circus parents are competitive about academics. Coding has to be serious here, not a hobby. That's why we picked you over the loud ones.
+Your child sits in a real, live session with a full-time engineer or maths graduate and builds something on day one.
 
-— A Park Circus parent, paraphrased from a recent conversation.
+03
 
-## Neighbourhoods near Park Circus We Serve
+### Choose your track
 
-Because every class is live online, we serve students across the entire Park Circus belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+Pick the right course and batch size on the [courses](/courses) and [pricing](/pricing) pages — group, mini batch or 1-on-1.
 
-### Pin codes we actively teach in
+04
 
-**700017** (Park Circus, Lower Circular Road), **700019** (Ballygunge edge), **700014** (Sealdah edge), **700039** (Tangra side), **700016** (Esplanade touch), **700022** (Entally), **700020** (AJC Bose touch).
+### Start learning weekly
 
-### Localities our students log in from
+Lock a recurring weekly slot that fits school, tuition and festivals, and begin building projects from week one.
 
-Park CircusTopsiaBeck BaganKarayaLower Circular RoadAJC Bose Road touchTiljalaBeniapukurMullick BazarConvent RoadDarga RoadTangra edgeTheatre Road touchPark Street sideSealdah border
+"Modern Age Coders has been wonderful for Dhairya. The classes are live and personal, the teacher genuinely knows him, and he looks forward to every session — we've seen real confidence with both coding and his school work."
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+SSonam OswalMother of Dhairya
 
-## Class Timings & Weekly Schedule for Students near Park Circus
+Read more parent stories on our [Wall of Love](/love).
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+Questions, answered
 
-☀️
+## Park Circus parents most often ask
 
-### Morning Slot — 9:00 to 11:00 AM
+Yes. We teach Java in BlueJ aligned to ICSE Computer Applications and follow the full ISC/Class 11-12 syllabus in our [board Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). Don Bosco families have a dedicated [Don Bosco Park Circus page](/coding-and-maths-for-don-bosco-park-circus-kolkata) too.Absolutely. All our coding is taught in clear English at the child's own pace, and small 6-8 batches mean the teacher adjusts to each learner. Many of our Park Circus students come from Bengali- and Hindi-medium homes and thrive — start with [Python for beginners](/python-for-beginners-kids).Yes. Many Park Circus families prefer this for their daughters, so we run dedicated girls-only [Princess Coders and Queen Coders](/coding-classes-for-girls) batches across kids and teens, with a tech-leadership track. Timings are flexible.Your child logs in from home, so there is no run through the 7-Point snarl, no auto-change near the Maidan and no escort through Park Street traffic. Compared with a Ballygunge or Gariahat coaching centre, that saves roughly 45-60 minutes each way per class.Yes. We run after-school, evening and night slots up to 9:30 PM, plus weekend batches, and we set festival-friendly timings around Ramzan, Pujo and Friday schedules. Pick what fits on the [contact page](/contact).Every class is 100% live — a real full-time engineer or maths graduate teaching a small batch in real time, with cameras on and code shared. We never sell pre-recorded video courses.Group batches are capped at 6-8 students. For more focus you can choose a mini batch of 3-4 or fully personalised 1-on-1 classes — see [pricing](/pricing).Fees start from 1,499/month for group (6-8), 2,499/month for a mini batch (3-4) and 4,999/month for 1-on-1. Full details are on the [pricing page](/pricing).Ages 6 to 65 — from Scratch for young children through [Python](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens) and [AI/ML](/ai-ml-course-for-teens) for teens, to [C++ and DSA](/best-c-plus-plus-classes-in-india) for college students and adults.ISC/ICSE, CBSE and WBBSE. Our Computer Science teaching maps directly to ICSE Computer Applications, ISC Computer Science and CBSE Informatics Practices via the [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Tell us in advance and we will arrange a catch-up — a make-up slot in a parallel batch or a focused recap with the teacher — so no one falls behind. Small batches make this easy to manage.Any laptop or desktop with a stable broadband or 4G connection and a webcam works. We will confirm the simple setup during your free demo.Yes. We teach live [school maths](/online-maths-tuition) from Grade 1 to Class 12 across all boards, including Olympiad prep (AMC, IOQM, RMO, IMO) — taught by maths graduates, same school, same login.Yes. Students receive a completion certificate per course or module, and more importantly, a portfolio of real working projects they have built themselves.Visit our [contact page](/contact) and pick a slot — it is one full live class, with no card and no commitment, so you can judge the teaching before deciding.
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Park Circus, your coding & maths class is one click away — not one traffic jam.
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+Premium, live, small-batch coding and maths taught by real engineers — book a free demo today and skip the 7-Point Crossing for good.
 
-🏫
+[Book a Free Demo](/contact)[View Pricing](/pricing)Nearby areas
 
-### After-School Slot — 4:30 to 7:30 PM
+## Coding & maths classes across central Kolkata
 
-The most popular slot for kids and teens near Park Circus. School ends, snack, log in. Two classes a week, 60 minutes each.
+[Ballygunge](/coding-classes-near-ballygunge-kolkata)[Park Street](/coding-classes-near-park-street-kolkata)[AJC Bose Road](/coding-classes-near-ajc-bose-road-kolkata)[Gariahat](/coding-classes-near-gariahat-kolkata)[Camac Street](/coding-classes-near-camac-street-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Park Circus parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Don Bosco Park Circus, La Martiniere, Calcutta Boys' School and similar Park Circus-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Don Bosco, La Martiniere, Future Foundation and other CBSE-track Park Circus-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Don Bosco Park Circus, La Martiniere, Calcutta Boys' School, St. James' and other ICSE-track Park Circus-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Park Circus — Honest Comparison
-
-Park Circus has a dense network of private tuition rooms in residential lanes. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Park Circus centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Park Circus 7-point traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Park Circus
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Park Circus
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Park Circus. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"Somraj has grown so much in confidence since he started learning with Modern Age Coders. He now explains coding concepts to his friends at school. The teachers are patient, the batches are small, and the quality of instruction is outstanding. I am so glad we found this platform."
-
-RRia MukherjeeMother of Somraj
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Park Circus
-
- Are there coding classes for kids near Park Circus, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Park Circus. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from Don Bosco Park Circus, Park Circus Shyama Prasad Vidyalaya, and other neighbourhood schools are already learning with us. What is the fee for coding and maths classes near Park Circus? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE Computer Science tuition for Park Circus students? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Park Circus schools like Don Bosco follow. How can my child in Park Circus attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Topsia or Beck Bagan? +Three big differences. **First**, batch size: most Park Circus tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Park Circus 7-Point crossing traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Park Circus? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Park Circus belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Park Circus? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Park Circus. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Don Bosco, La Martiniere, Calcutta Boys' and other central Kolkata schools and other Park Circus-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Park Circus Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Park Circus trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Ballygunge](/coding-classes-near-ballygunge-kolkata)[Park Street](/coding-classes-near-park-street-kolkata)[AJC Bose Road](/coding-classes-near-ajc-bose-road-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [Don Bosco School Park Circus (ICSE)](/coding-and-maths-for-don-bosco-park-circus-kolkata).
 
 ---
 
