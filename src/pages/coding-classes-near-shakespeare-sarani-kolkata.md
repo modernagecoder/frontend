@@ -1,364 +1,253 @@
 ---
-title: "Coding & Maths Classes near Shakespeare Sarani, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Shakespeare Sarani, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for La Martiniere, Loreto House, Modern High and other central Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Shakespeare Sarani"
+description: "Live online, premium coding & maths classes near Shakespeare Sarani, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto students. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-shakespeare-sarani-kolkata
-keywords: ["Shakespeare Sarani Kolkata coding classes", "Theatre Road Kolkata coding", "coding near Shakespeare Sarani", "coding for kids Shakespeare Sarani", "Python classes Theatre Road Kolkata", "maths tuition Shakespeare Sarani", "online coding central Kolkata", "ICSE CBSE tuition Shakespeare Sarani", "teen coding Shakespeare Sarani", "AI classes central Kolkata", "coding classes near Theatre Road"]
+keywords: ["coding classes near Shakespeare Sarani", "coding classes Shakespeare Sarani Kolkata", "Python classes Kolkata 700017", "Java ICSE classes Kolkata", "AI ML classes for teens Kolkata", "online maths tuition Shakespeare Sarani", "coding classes near Camac Street", "coding classes near Theatre Road", "ISC computer science coaching Kolkata", "La Martiniere coding classes", "St Xavier's coding classes Kolkata", "live online coding classes Kolkata"]
 source: src/pages/coding-classes-near-shakespeare-sarani-kolkata.html
 ---
-> Live online coding classes near Shakespeare Sarani, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for La Martiniere, Loreto House, Modern High and other central Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online, premium coding & maths classes near Shakespeare Sarani, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto students. Free demo.
 
-The Heart of Central Kolkata — Live Online Classes
+LIVE ONLINE CODING & MATHS — SHAKESPEARE SARANI, CENTRAL KOLKATA
 
-# Coding & Maths Classes for Students near Shakespeare Sarani, Kolkata
+# Coding & Maths Classes near Shakespeare Sarani, Kolkata
 
-Named after the greatest writer in the English language, Shakespeare Sarani — still known to many as Theatre Road — is one of Central Kolkata's most distinguished addresses. Consulates, corporate offices, and some of Kolkata's finest residential buildings line this tree-shaded avenue. Families here are cosmopolitan, globally aware, and deeply invested in education that prepares their children for an international future. Schools like **St. Xavier's**, **La Martiniere**, and **Loreto House** are all within a short radius, and the educational expectations of Shakespeare Sarani families match those institutions' reputations. Now it is time for the children of Shakespeare Sarani to learn the language of the future — code. Modern Age Coders brings **100% live online coding and mathematics classes** to this distinguished neighbourhood. Small batches of 6-8 students, expert instructors, and a curriculum that spans from creative Scratch projects for young learners to AI/ML for ambitious teens. Shakespeare wrote in the language of his time; your child can write in the language of theirs.
+Modern Age Coders runs premium, live online coding and mathematics classes for families near Shakespeare Sarani, the old Theatre Road, in Central Kolkata's diplomatic quarter. Children from St. Xavier's, La Martiniere, Loreto House and Modern High learn Python, Java, AI/ML and board-level maths in small live batches of six to eight, taught by full-time engineers and maths graduates. Every class is project-based and interactive, never pre-recorded. Book a free demo.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Live, never pre-recordedSmall batches of 6-8Taught by full-time engineersZero commute from Camac Street6-8Students per live batch4.9/5Parent rating6-65Ages we teach100%Live, project-based[Book a Free Demo Class](/contact)[Explore Courses](/courses)
 
-Free demo • No commitment • Classes start within 24 hours
+Free demo · No commitment · 500+ students taught online
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+At a glance
 
-## Live Online Coding Classes near Shakespeare Sarani — What Parents Should Know
+## Live online coding & maths for Shakespeare Sarani families
 
-Shakespeare Sarani parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Shakespeare Sarani is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from La Martiniere, Loreto House, Modern High and other central Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Here is everything about Modern Age Coders' live online coding and maths classes for Shakespeare Sarani families, at a glance.
 
-📺
+Format**100% live online, project-based** — never pre-recorded videosBatch sizeSmall live batches of **6-8** (mini batch 3-4, or 1-on-1)Ages**6 to 65** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) and MathematicsBoardsISC, ICSE, CBSE and IGCSE; Olympiad and college mathsFeesFrom **₹1,499/month** (group), ₹2,499/month (mini batch 3-4), ₹4,999/month (1-on-1)Free demoYes — a full live demo class, no commitment ([book here](/contact))ServingShakespeare Sarani, Camac Street, Russell Street, Park Street, Theatre Road and all of Central Kolkata (700017 / 700020 / 700016 / 700071)Premium · Live
 
-### 100% Live, Not Pre-Recorded
+## A premium, live online coding & maths school
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+Modern Age Coders is a premium, live online coding and maths school — every Shakespeare Sarani class is taught in real time by a full-time engineer or maths graduate, in a small batch, building real projects. We do not sell pre-recorded video libraries or auto-graded worksheets; a real teacher watches your child code, line by line, in every single session.
 
-👨‍👩‍👧‍👦
+### Live, never pre-recorded
 
-### Max 6–8 Students per Live Batch
+Every class is a live session with a real teacher on screen, not a recording your child watches alone. Questions get answered the moment they come up, and the teacher adapts the pace to the child in the room. This is structured tuition, delivered online — the opposite of a passive video course.
 
-Smaller than any Shakespeare Sarani-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+### Small live batches of 6-8
 
-🏠
+We cap group batches at six to eight students so every child is seen, heard and corrected in each class. For families who want even closer attention, mini batches run at three to four, and 1-on-1 is available at ₹4,999/month. No child hides at the back of a forty-seat room here. See [pricing](/pricing).
 
-### Zero Travel through Shakespeare Sarani Traffic
+### Taught by full-time engineers and maths graduates
 
-No fighting evening Shakespeare Sarani and Camac Street traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+Your child is taught by full-time professional engineers and mathematics graduates, not weekend freelancers or college interns. These are people who write production code and have taught the ISC, ICSE and CBSE syllabi for years. For globally benchmarked Shakespeare Sarani families, the instruction is genuinely international in standard.
 
-📝
+### Project-based from day one
 
-### Recordings + Notes After Each Class
+Children build real things — games, web apps, AI models and board-practical programs — instead of memorising syntax. Every module ends in a finished project the child can show and explain. That portfolio matters for school, for IGCSE/IB coursework and for the globally mobile families who relocate between Kolkata, Singapore and London.
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+### Zero commute, ninety minutes saved
 
-💻
+An after-school crawl through the Shakespeare Sarani, Camac Street and AJC Bose Road crossings at 5-7 pm can cost an hour each way. Live online erases that entirely, returning roughly ninety minutes per class day to your child's evening. The belt has no real offline coding centre — only premium home tutors — so this is the structured alternative.
 
-### Project-Based, Not Theory-Heavy
+### One curriculum, every board
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+We teach the ISC Computer Science (Java) syllabus of St. Xavier's and La Martiniere, the CBSE Informatics Practices (Python) track, ICSE Computer Applications and IGCSE computer science under one roof. Maths runs Grade 1 to 12 plus college and Olympiad. Timings flex around school hours and exam weeks. Explore the full [course catalogue](/courses).
 
-👨‍🏫
+Course Catalogue
 
-### Parent Updates Every Month
+## Every track we teach live online
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+Modern Age Coders teaches the full coding and maths catalogue live online to Shakespeare Sarani families — here is every track and who it suits.
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids & Teens](/python-and-ai-classes-for-kids-teens) | Kids and teens, ages 8-17 | Project-based Python plus an AI introduction — the most in-demand language, built around real games and tools |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | First-time coders, ages 9-13 | A gentle move from Scratch into text-based Python, building real syntax confidence |
+| [Python Projects for Kids](/python-projects-for-kids) | Kids who know Python basics | A portfolio of small Python builds — games, quizzes and tools |
+| [Java Programming for Kids & Teens](/java-programming-for-kids-teens) | Teens, ages 13-18 | Core Java and object-oriented thinking — the foundation for ICSE/ISC board CS |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9-10 students | BlueJ-based Java mapped exactly to the ICSE Computer Applications syllabus and practical paper |
+| [Java DSA Course](/java-dsa-course) | Teens and college students | Data structures and algorithms in Java for interviews and competitive programming |
+| [Java Certification Course](/java-certification-course) | Teens, college, professionals | A structured Java track ending in a completion certificate and project portfolio |
+| [AI/ML Course for Teens](/ai-ml-course-for-teens) | Ambitious teens, ages 13-18 | Machine learning fundamentals and real model-building projects |
+| [AI/ML Course for College Students](/ai-ml-course-for-college-students) | College students and serious learners | A deeper AI/ML track with data handling and applied model building |
+| [Python for Data Science](/python-for-data-science) | College students and professionals | pandas/numpy data analysis and visualisation in Python |
+| [CBSE/ICSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 board students | Complete CS and Informatics Practices prep — theory, practicals, projects and exam prep (CBSE Python / ISC Java) |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1-12 plus college, all boards | Live maths from Grade 1 to college, including Olympiad prep (AMC, IOQM, RMO, IMO) |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls (Princess Coders / Queen Coders) | Girls-only live batches building tech confidence and leadership |
 
-## Schools near Shakespeare Sarani Whose Students Learn with Us
+Featured tracks
 
-Students from **St. Xavier's Collegiate School (ICSE/ISC)**, **La Martiniere for Boys (ISC)**, **Loreto House (ICSE/ISC)**, **Loreto Day School Elliot Road**, and schools across the Park Street and Camac Street corridor join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+## Where most Shakespeare Sarani families start
 
-Whether your child follows the ICSE, ISC, CBSE, or IGCSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Shakespeare Sarani offers this depth of coding education alongside structured mathematics tutoring.
+Most in-demand language
 
-## What Your Child Will Learn with Modern Age Coders
+### Python & AI for Kids & Teens
 
-Shakespeare Sarani families expect academic excellence. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+Python is the language we recommend most Shakespeare Sarani families start with — it is readable, powerful and the gateway to AI, data science and automation. Our live, project-based Python course takes children from their first line of code to working games, tools and a first taste of machine learning, all taught by full-time engineers in small batches.
 
-🎨
+**You'll learn:** variables, loops, functions and data structures; **You'll build:** playable games, a quiz bot and your first AI model.
 
-### For Kids (Ages 6-12)
+[Start Python](/python-and-ai-classes-for-kids-teens)
 
-Shakespeare Sarani families prepare their children for a global future — coding included.
+ISC / ICSE board foundation
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+### Java Programming for Kids & Teens
 
-💻
+Java is the board language at St. Xavier's, La Martiniere and Loreto — the ISC Computer Science and ICSE Computer Applications papers are built on it. We teach core Java and object-oriented programming in BlueJ, mapped to the exact syllabus and practical paper your child sits, so school marks and real engineering skill grow together.
 
-### For Teens (Ages 13-18)
+**You'll learn:** classes, objects, arrays, string handling and OOP; **You'll build:** the board-practical programs and a self-testing practice deck.
 
-Where Central Kolkata's most cosmopolitan teens master the language of technology.
+[Start Java](/java-programming-for-kids-teens)
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+Future-ready
 
-🎓
+### AI & Machine Learning for Teens
 
-### For College Students
+For the globally benchmarked teenagers of Central Kolkata, AI is no longer optional. Our AI/ML track teaches the real mathematics and code behind machine learning — not buzzwords — through hands-on model-building projects. Ambitious students leave able to train, test and explain their own models, a genuine edge for IGCSE/IB coursework and for university applications abroad.
 
-Shakespeare Sarani's college students add coding fluency to their international profile.
+**You'll learn:** data handling, training and evaluation; **You'll build:** and demonstrate your own working machine-learning models.
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+[Start AI/ML](/ai-ml-course-for-teens)
 
-💼
+Schools served
 
-### For Professionals
+## Built around the schools of the Shakespeare Sarani belt
 
-Upskilling programmes for working professionals staying relevant in tech.
+Modern Age Coders teaches students from every major school around Shakespeare Sarani, including St. Xavier's Collegiate School (Park Street, ISC), La Martiniere for Boys (Loudon Street, ISC), La Martiniere for Girls (Rawdon Street, ISC), Loreto House (Middleton Row, ISC), Loreto Day School Elliot Road (ICSE), Modern High School for Girls (ICSE), M.P. Birla Foundation Higher Secondary School (ICSE), St. James' School (AJC Bose Road, ISC), Birla High School (Moira Street, CBSE) and Future Foundation School (ICSE). Whether your child sits an ISC, ICSE, CBSE or IGCSE board, our classes flex around school hours, exam weeks and the busy extra-curricular schedules common to La Martiniere and Loreto students.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+Because the belt is ISC/ICSE-dominant with a strong CBSE cohort, we teach to the exact board your child follows. For Class 11-12, our [CBSE/ICSE Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers CBSE Informatics Practices (Python) and ISC Computer Science (Java) end to end — theory, practicals, projects and exam prep. ICSE Class 9-10 students take [Java for ICSE Students](/java-programming-for-icse-students) in BlueJ, mapped to the Computer Applications practical paper, while [online maths tuition](/online-maths-tuition) covers every board from Grade 1 through college. Girls from Loreto House, Modern High and La Martiniere for Girls can join our girls-only [Princess Coders and Queen Coders](/coding-classes-for-girls) batches.
 
-📊
+The neighbourhood
 
-### Mathematics for All Ages
+## Shakespeare Sarani — the diplomatic quarter
 
-Shakespeare Sarani parents know maths and code are inseparable.
+Shakespeare Sarani — the old Theatre Road — is one of Central Kolkata's most distinctive addresses: a tree-shaded avenue ringed by consulates, heritage mansions and the Camac Street business strip. The British Deputy High Commission and the U.S. Consulate General sit a short walk away on Ho Chi Minh Sarani, and Park Mansions, the Camac Street commercial belt and the Victoria Memorial green all frame the neighbourhood. It is the diplomatic and old-corporate quarter of the city, and it carries that character into how its families think about education.
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+The households here are cosmopolitan and globally benchmarked — diplomats, surgeons, lawyers and senior executives whose children are often trilingual in English, Bangla and Hindi, with a little French or Spanish picked up on family postings abroad. These parents compare their children not just to the rest of Kolkata but to peers in Singapore, London and Bangalore. Education is treated as a serious, long-horizon investment, and the expectation is structured, internationally credible instruction rather than ad-hoc home tutoring.
 
-☀️
+Yet for all its prestige, the Shakespeare Sarani belt has no real offline coding centre — only expensive private home tutors. Add the 5-7 pm crawl through the AJC Bose Road and Camac Street crossings, and a single after-school class can swallow two hours of an evening. Live online classes solve both problems at once: world-class teaching from full-time engineers, in small live batches, with zero travel. For families who already treat code as just another language their children should speak, it is the obvious fit.
 
-### Summer & Winter Camps
+PROJECT / 01
 
-Intensive short-term programs during school breaks.
+### Consulate Quiz Bot
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A Class 7 student near Ho Chi Minh Sarani built a Python quiz bot on world capitals and flags to prep for an inter-school MUN, scoring answers and tracking a leaderboard for her team.
 
-## Why Shakespeare Sarani Parents Choose Modern Age Coders
+PROJECT / 02
 
-🎥
+### Heritage Walk Map
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+A Class 8 St. Xavier's boy coded an interactive web map of the Park Street and Camac Street heritage buildings, with clickable pins popping up each mansion's year and history for a school project.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Shakespeare Sarani families expect quality education to work.
+PROJECT / 03
 
-👥
+### ISC Computer Applications Practical Trainer
 
-### Small Batches — Maximum 6-8 Students
+A Class 10 La Martiniere student wrote a set of BlueJ Java programs — arrays, string handling, number patterns — into a self-testing practice deck to drill for the ICSE practical paper.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+"We were paying a fortune for a home tutor who came when traffic allowed. The live online class is more structured, our son is in a proper small batch, and we got our evenings back."
 
-🧰
+CParent near Camac Streetparaphrased · [Wall of Love](/love)Areas & pin codes
 
-### Coding + Maths Combined — Only in India
+## Serving all of Central Kolkata
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Central Kolkata parents trust us over single-subject alternatives.
-
-💰
-
-### Starting at Just ₹1,499/month
-
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
-
-## Shakespeare Sarani: Diplomats, Consulates, and Children Raised on Three Languages
-
-Shakespeare Sarani — once Theatre Road — runs through the city's diplomatic and old-corporate quarter. The British Deputy High Commission, the American Consulate, and a string of corporate offices share this stretch with apartment buildings that house surgeons, lawyers, and senior executives. Many of the children growing up here move freely between English, Bangla, and Hindi, and some between English, Bangla, and Spanish or French because of family work postings.
-
-For these families, programming is just another language — a useful one, and a non-negotiable one. They've watched friends in Singapore, London, and Bangalore put their children into structured coding tracks at age 8, and they don't want their child to start at 14 instead. The Shakespeare Sarani belt does not have offline tuition centres in any meaningful sense; what it has is private tutors who come home, charge a lot, and teach what they vaguely remember from their own engineering days.
-
-Our live online classes are the structured alternative. A trained instructor, a 24–30 week module, a real curriculum that progresses, and a project at the end. Done.
-
-### Recent Projects Built by Students from Shakespeare Sarani
-
-These are real student projects from our Shakespeare Sarani batches — small, useful, and unmistakably theirs.
-
-#### Trilingual Vocabulary Game
-
-A Class 6 student near Hungerford Street built a Scratch game that tests her 8-year-old brother on English, Bangla, and Hindi vocabulary. The brother prefers it to his school workbook.
-
-#### Mom's Embassy Event RSVP
-
-A Class 9 La Martiniere girl built a small web form her diplomat-mother used to track 60 attendees for a consulate cultural evening.
-
-#### CBSE Class 11 Statistics Helper
-
-A Class 11 student near Ho Chi Minh Sarani built a Python program that runs basic descriptive statistics (mean, median, mode, standard deviation) on his physics lab data.
-
-“
-
-We didn't want a video course in another language. We wanted a real teacher, on a real call, with real other children. That's harder to find than it should be.
-
-— A Shakespeare Sarani parent, paraphrased from a recent conversation.
-
-## Neighbourhoods near Shakespeare Sarani We Serve
-
-Because every class is live online, we serve students across the entire Shakespeare Sarani belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
-
-### Pin codes we actively teach in
-
-**700017** (Shakespeare Sarani, Camac Street), **700020** (AJC Bose, Elgin Road), **700016** (Park Street), **700071** (Chowringhee), **700019** (Ballygunge edge), **700025** (Bhowanipore touch), **700013** (Esplanade edge).
-
-### Localities our students log in from
+We serve families across Central Kolkata pin codes 700017, 700020, 700016, 700071, 700019, 700013 and 700014.
 
 Shakespeare SaraniCamac StreetRussell StreetTheatre RoadPark StreetWood StreetLoudon StreetAJC Bose RoadElgin RoadChowringheeRawdon StreetPark MansionsMirza Ghalib StreetHungerford StreetHo Chi Minh Sarani
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+Live online, so wherever you are in Central Kolkata — or anywhere in India and beyond — your child joins the same small live batch with the same full-time engineer. See [all Kolkata areas](/best-coding-class-in-kolkata).
 
-## Class Timings & Weekly Schedule for Students near Shakespeare Sarani
+Weekly schedule
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+## Fixed live slots that flex around school
 
-☀️
+Classes run live at fixed weekly slots, and timings flex around ISC/ICSE/CBSE school hours and exam weeks.
 
-### Morning Slot — 9:00 to 11:00 AM
+| Slot | Time (IST) | Best for | Days |
+| --- | --- | --- | --- |
+| After-school early | 4:00-5:00 pm | Kids ages 8-12, primary and middle school | Mon / Wed or Tue / Thu |
+| After-school late | 5:30-6:30 pm | Middle and senior school, board CS | Mon / Wed or Tue / Thu |
+| Evening | 7:00-8:00 pm | Teens, ISC/ICSE board prep, AI/ML | Tue / Thu or Wed / Fri |
+| Weekend morning | 10:00-11:30 am | Project intensives, college and adults | Sat or Sun |
+| Weekend midday | 12:00-1:30 pm | Girls-only batches, beginners | Sat or Sun |
+| Flexible / 1-on-1 | By arrangement | Custom pace, exam-week support | Any day, mutually fixed |
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+Online vs offline
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+## An honest comparison for Shakespeare Sarani families
 
-🏫
+### Where live online wins
 
-### After-School Slot — 4:30 to 7:30 PM
+- No travel — zero time lost to the 5-7 pm Shakespeare Sarani, Camac Street and AJC Bose Road crawl, around ninety minutes saved per class day.
+- Access to full-time engineers and maths graduates, not whichever home tutor lives nearby.
+- Small live batches of 6-8, so the class is genuinely interactive, not a recorded lecture.
+- The screen is the whiteboard — your child sees real code run live and can share their own screen instantly.
+- Recordings and notes for revision, on top of the live class — useful during ISC/ICSE exam weeks.
+- Easy continuity for globally mobile diplomatic families who relocate between Kolkata, Singapore and London.
+- Safer and calmer — no late-evening pick-ups through Central Kolkata traffic.
 
-The most popular slot for kids and teens near Shakespeare Sarani. School ends, snack, log in. Two classes a week, 60 minutes each.
+### When offline still wins
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
+- A child who genuinely cannot self-start may need a parent or adult nearby for the first few weeks online.
+- Very young learners sometimes settle faster with a teacher physically in the room.
+- Homes with unreliable internet or no quiet study corner will struggle with any live online class.
+- Some families simply prefer the ritual of leaving home for a class — and that is a fair preference.
 
-🌚
+For most Shakespeare Sarani families — busy, globally benchmarked and short on evening hours — live online delivers higher-quality teaching with none of the commute. [Book a free demo](/contact) and judge it for yourself.
 
-### Evening Slot — 7:30 to 9:30 PM
+How to start
 
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
+## From first demo to first project
 
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
+Getting started takes one free demo class — here is the four-step path.
 
-📅
+01
 
-### Weekend Intensive — Sat/Sun
+### Book your free demo
 
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
+Tell us your child's age and board, and pick a slot. [Book a free demo](/contact).
 
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
+02
 
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
+### Meet your teacher live
 
-## What's Actually Taught — Curriculum Snapshot
+Your child joins a real, live class with a full-time engineer and codes something on day one.
 
-Shakespeare Sarani parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
+03
 
-Kids Track
+### Choose your track and batch
 
-### Scratch & Block Coding — Ages 6 to 10
+Pick a course and a slot that fits school hours, and a [pricing](/pricing) tier from group to 1-on-1.
 
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at La Martiniere, Modern High, Loreto House and similar Shakespeare Sarani-area primary sections.
+04
 
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
+### Start building
 
-Teens Track
+Begin weekly live classes and watch the projects — and the board marks — add up. [Explore courses](/courses).
 
-### Python Programming — Ages 12 to 17
+"My son Dhairya genuinely looks forward to his coding classes now. The teacher is patient, the batch is small, and he is actually building things he can show us. As a working parent, the live online format has been a relief — no running around in traffic, and the quality is excellent."
 
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Modern High School, M.P. Birla Foundation, Future Foundation and other CBSE-track Shakespeare Sarani-area schools.
+SSonam OswalMother of Dhairya
 
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
+[Read more on our Wall of Love](/love)
 
-ICSE Board Track
+FAQ
 
-### Java for Class 9–10 ICSE Computer Applications
+## Questions from Shakespeare Sarani parents
 
-Built specifically for the ICSE Java syllabus that La Martiniere, Loreto House, St. James' and other ICSE-track Shakespeare Sarani-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
+Yes. Our [CBSE/ICSE Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers CBSE Informatics Practices in Python and ISC Computer Science in Java end to end — theory, practicals, projects and exam prep. It is built for exactly the boards followed at La Martiniere, St. Xavier's and Modern High.Yes — every class is 100% live with a real teacher on screen, never a pre-recorded video. Your child near Camac Street or Shakespeare Sarani avoids the evening AJC Bose Road traffic entirely while getting structured, interactive tuition.Group batches are capped at six to eight students. We also offer mini batches of three to four (₹2,499/month) and 1-on-1 classes (₹4,999/month) for families who want closer attention. See [pricing](/pricing).Fees start at ₹1,499/month for group classes (max 6-8), ₹2,499/month for a mini batch of 3-4, and ₹4,999/month for 1-on-1. Full details are on the [pricing page](/pricing).Full-time professional engineers and mathematics graduates — not weekend freelancers or college interns. They write real code and have taught the ISC, ICSE and CBSE syllabi for years.Yes. We schedule around ISC/ICSE/CBSE school hours, board exam weeks and the busy extra-curricular schedules common to Loreto and La Martiniere students. The [contact form](/contact) lets you tell us your preferred slot.Yes. Our project-based approach builds an international-standard portfolio of working code, which suits IGCSE/IB coursework and the globally mobile diplomatic families of the Shakespeare Sarani belt. Start with [Python](/python-and-ai-classes-for-kids-teens) or [AI/ML](/ai-ml-course-for-teens).Yes — our [Princess Coders and Queen Coders](/coding-classes-for-girls) batches are girls-only, ideal for students at Loreto House, Modern High and La Martiniere for Girls.We share a recording and notes for every session, and your teacher will help your child catch up in the next class. For 1-on-1 students, a missed slot can usually be rescheduled.A laptop or desktop with a webcam and a stable internet connection is enough — no high-end machine required. A quiet corner to focus in helps a lot.Ages 6 to 65 — kids, teens, college students and working professionals. Young beginners start with [Scratch](/courses/coding/kids); college students can take [DSA](/courses/coding/college).Classes are taught in clear English, and teachers can switch to Hindi or Bangla to explain a tricky concept — a natural fit for the trilingual children of Central Kolkata.Yes. [Online maths tuition](/online-maths-tuition) runs from Grade 1 through Class 12 and college, across all boards, and includes Olympiad prep (AMC, IOQM, RMO, IMO). [Class 10 maths](/maths-class-10) has a focused board-prep track.Yes. Structured tracks such as the [Java Certification Course](/java-certification-course) end in a completion certificate and a project portfolio your child can show.Book a free live demo class — a real session with a real teacher, no commitment. [Book your free demo](/contact) or message us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161).
 
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
+## Premium live coding & maths, minutes from Shakespeare Sarani — without leaving home.
 
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
+Join a free live demo class, meet a full-time engineer, and watch your child build something real on day one.
 
-## Live Online vs. Offline Coding Tuition near Shakespeare Sarani — Honest Comparison
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)[+91 91233 66161](https://wa.me/919123366161)Nearby localities
 
-The Shakespeare Sarani belt has premium tuition centres at premium prices. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
+## Coding & maths classes across Central Kolkata
 
-### ✓ Where Live Online Wins
+[Park Street](/coding-classes-near-park-street-kolkata)[Camac Street](/coding-classes-near-camac-street-kolkata)[Loudon Street](/coding-classes-near-loudon-street-kolkata)[Elgin Road](/coding-classes-near-elgin-road-kolkata)[Ballygunge](/coding-classes-near-ballygunge-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-- ▸ Smaller batch (6–8) than the average Shakespeare Sarani centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Shakespeare Sarani crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Shakespeare Sarani
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Shakespeare Sarani
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home near Shakespeare Sarani. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"The way Modern Age Coders teaches is truly exceptional. My son Somraj has developed a genuine passion for coding. The instructors are patient, knowledgeable, and make every concept clear. I am so glad we chose this platform for his education."
-
-RRia MukherjeeMother of Somraj
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Shakespeare Sarani
-
- Are there coding classes for kids near Shakespeare Sarani, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Shakespeare Sarani. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from St. Xavier's, La Martiniere, Loreto House, and other schools near Shakespeare Sarani are already learning with us. What is the fee for coding and maths classes near Shakespeare Sarani? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Shakespeare Sarani? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Shakespeare Sarani schools follow. How can my child near Shakespeare Sarani attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Camac Street or Russell Street? +Three big differences. **First**, batch size: most Shakespeare Sarani tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Shakespeare Sarani and Camac Street traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Shakespeare Sarani? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Shakespeare Sarani belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Shakespeare Sarani? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Shakespeare Sarani. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at La Martiniere, Loreto House, Modern High and other central Kolkata schools and other Shakespeare Sarani-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Shakespeare Sarani Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Shakespeare Sarani trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Park Street](/coding-classes-near-park-street-kolkata)[Camac Street](/coding-classes-near-camac-street-kolkata)[Loudon Street](/coding-classes-near-loudon-street-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [Coding & Maths for Birla High School](/coding-and-maths-for-birla-high-school-kolkata).
 
 ---
 
