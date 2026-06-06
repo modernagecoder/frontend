@@ -1,364 +1,236 @@
 ---
-title: "Coding & Maths Classes near Dhakuria, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Dhakuria, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Birla High, South Point, Modern High and other South Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Dhakuria, Kolkata"
+description: "Live online coding & maths classes near Dhakuria, Kolkata. Python, Java, AI/ML, Scratch + maths. ICSE/CBSE board prep. Small batches from ₹1,499/mo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-dhakuria-kolkata
-keywords: ["Dhakuria Kolkata coding classes", "coding near Dhakuria", "Jadavpur University area coding", "coding for kids Dhakuria", "Python classes Dhakuria Kolkata", "maths tuition Dhakuria South Kolkata", "online coding Dhakuria", "St Lawrence High School Dhakuria", "teen coding Dhakuria", "KV Jadavpur coding", "AI classes Dhakuria", "coding classes near Dhakuria Bridge"]
+keywords: ["coding classes near Dhakuria Kolkata", "online coding Dhakuria", "Python classes Dhakuria", "Java BlueJ ICSE Dhakuria", "AI ML classes Dhakuria", "maths tuition Dhakuria", "coding classes Selimpur", "coding Lake Gardens Jodhpur Park", "Jadavpur University area coding", "St Lawrence South Point coding", "KV Ballygunge DPS Ruby Park coding", "coding classes near Dhakuria Bridge"]
 source: src/pages/coding-classes-near-dhakuria-kolkata.html
 ---
-> Live online coding classes near Dhakuria, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Birla High, South Point, Modern High and other South Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Dhakuria, Kolkata. Python, Java, AI/ML, Scratch + maths. ICSE/CBSE board prep. Small batches from ₹1,499/mo.
 
-Where Academia Meets Ambition — Live Online Classes
+LIVE ONLINE CODING & MATHS · DHAKURIA · SOUTH KOLKATA
 
-# Coding & Maths Classes for Students near Dhakuria, Kolkata
+# Live Online Coding & Maths Classes near Dhakuria, Kolkata
 
-Nestled between Jadavpur University and Gariahat market, Dhakuria students grow up seeing both academic rigour and real-world hustle every day. That combination — intellectual depth paired with practical ambition — is the perfect mindset for learning to code. Schools like **St. Lawrence High School (ICSE)**, **Kendriya Vidyalaya Jadavpur (CBSE)**, and institutions near the **Jadavpur University campus** serve families who value education that leads somewhere. Dhakuria is not a neighbourhood that tolerates fluff — parents here want structured learning with measurable outcomes. Modern Age Coders delivers exactly that through **100% live online coding and mathematics classes**. Small batches, live instruction, real projects — no pre-recorded shortcuts. From a six-year-old in Dhakuria learning Scratch to a JU student sharpening DSA skills for placement season, our courses bridge the gap between what schools teach and what the real world demands. The best coding education near Dhakuria no longer requires crossing the bridge to Gariahat coaching centres.
+Modern Age Coders runs premium live online coding and mathematics classes for families near Dhakuria, Kolkata — covering Selimpur, Jodhpur Park, Lake Gardens, South End Park and the Jadavpur University belt across the bridge. Children learn Python, Java, AI/ML, Scratch and school maths in small live batches of 6 to 8, taught by full-time engineers and maths graduates. Classes are mapped to ICSE and CBSE syllabi, project-based, and never pre-recorded. Free demo within 24 hours.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Small live batches — max 6 to 8Taught by full-time engineers & maths graduatesICSE Java/BlueJ + CBSE Python board-alignedNo commute over Dhakuria Bridge — learn from home[Book a Free Demo Class](/contact)[Explore Courses](/courses)6-8Students per live batch~90 minSaved per class, no bridge crossing1-on-1Personal tutoring available24 hrFrom free demo to first classLIVE ONLINE · DHAKURIA, KOLKATA
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**Live online, interactive** — small batches or 1-on-1. Never pre-recorded video.Batch sizeGroup max 6-8 · Mini batch 3-4 · One-on-one availableAges**6 to 65** — kids, teens, college students and working professionalsSubjectsCoding (Python, Java, AI/ML, Scratch, web, DSA) + Mathematics (Grade 1 to college, Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python/Informatics Practices), IGCSE, WBBSEFeesGroup from **₹1,499/month** · Mini batch ₹2,499/month · 1-on-1 ₹4,999/monthFree demoFull live demo session, no commitment; classes start within 24 hoursServingDhakuria, Selimpur, Jodhpur Park, Lake Gardens, South End Park, Garcha, Surya Sen Nagar, Jadavpur, Bagha Jatin, Patuli, Kasba, Garfa, Haltu, Golpark — and across KolkataWHY MODERN AGE CODERS
 
-## Live Online Coding Classes near Dhakuria — What Parents Should Know
+## Premium live online — nothing pre-recorded
 
-Dhakuria parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Dhakuria is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Birla High, South Point, Modern High and other South Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Modern Age Coders is a premium, high-quality live online coding and maths school — every class is taught in real time by a full-time engineer or maths graduate, in batches small enough that the tutor knows your child's name, syllabus and weak spots. Nothing here is pre-recorded. For Dhakuria families who treat marks and measurable progress as non-negotiable, that means a class built around your child's exact ICSE or CBSE board, not a generic video playlist.
 
-📺
+### Live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is a live, two-way class — your child speaks, shares their screen, asks doubts and gets answered in the moment. There are no pre-recorded lectures to fall asleep to. A real engineer watches the code being typed and corrects mistakes before they become habits.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small batches, real attention
 
-👨‍👩‍👧‍👦
+Batches are capped at 6 to 8 students, with mini batches of 3 to 4 and full one-on-one available. In a Dhakuria tutoring culture where parents compare notes, that ratio is the difference between a child who participates and one who hides at the back. Every learner writes code in every class.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers & maths graduates
 
-Smaller than any Dhakuria-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are led by full-time professional engineers and mathematics graduates — not part-time college students or rotating freelancers. They know production code, board examiners' expectations and the JU-belt standard of rigour that Dhakuria households quietly hold tutors to.
 
-🏠
+### Project-based, visible output
 
-### Zero Travel through Dhakuria Bridge Traffic
+Children build real, working things — games, tools, apps and board project files — not just worksheets. In a reading-and-debating neighbourhood that distrusts flashy promises, visible output earns trust: a project a parent can see running wins faster than a certificate.
 
-No fighting evening Dhakuria Bridge and Selimpur Road traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Board-aligned to ICSE & CBSE
 
-📝
+Coding maps directly to your child's board: ICSE Computer Applications in Java/BlueJ for St. Lawrence and South Point families, Python and Informatics Practices for KV Ballygunge and DPS Ruby Park families. The [Class 11-12 board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers theory, practicals, projects and exam technique.
 
-### Recordings + Notes After Each Class
+### One tutor for coding and maths
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+A Selimpur or South End Park family can run [coding](/courses) and [maths](/online-maths-tuition) on a single schedule, with one point of contact and one fee structure. No juggling two coaching centres across the bridge — one premium provider handles both subjects with the same standard.
 
-💻
+LIVE ONLINE · DHAKURIA, KOLKATA
 
-### Project-Based, Not Theory-Heavy
+## Course Catalogue
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Ages ~10-17 starting their first real language | Live Python plus AI fundamentals — the core of CBSE Class 11-12 Informatics Practices |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young coders moving up from Scratch | Python syntax, variables, loops and first text-based programs |
+| [Python Projects for Kids](/python-projects-for-kids) | Kids who know Python basics | Games, tools and mini-apps that become a showcase portfolio |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | ICSE Class 9-10 and BlueJ board students | Java syntax to OOP and BlueJ, built around 25+ board-style programs |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens 13-18 ready for AI beyond basics | Hands-on machine learning, model building and AI projects |
+| [Computer Applications ICSE Class 10](/computer-applications-icse-class-10) | ICSE Class 10 Java/BlueJ board students | Full board syllabus, board-style programs and viva prep |
+| [CBSE/ICSE Computer Science Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 board students (ICSE Java / CBSE Python) | Complete board CS + IP: theory, practicals, projects, exam technique |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1-12, college, Olympiad aspirants | Live maths all boards, plus AMC, IOQM, RMO, IMO prep |
+| [Coding for ICSE Students](/coding-for-icse-students) | ICSE-board students across classes | Java/BlueJ-centred track and board project files |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Computer Applications candidates | BlueJ-focused Java mapped to the ICSE board paper and viva |
+| [Coding for CBSE Students](/coding-for-cbse-students) | CBSE-board students across classes | Python and Informatics Practices-aligned track |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only batches (Princess & Queen Coders) | Dedicated batches building tech confidence and leadership |
+| [For College Students](/courses/coding/college) | College & placement-track learners | DSA, MERN, AI/ML masterclass, Python for data, MySQL |
+| [AI & ML for College Students](/ai-ml-course-for-college-students) | JU-belt undergraduates & placement aspirants | Applied machine learning, model building and a deployable AI project |
+| [Summer](/summer-coding-camp) & [Winter](/winter-coding-camp) Camps | Kids, teens, adults on holiday break | A full module completed intensively in 3-4 weeks |
 
-👨‍🏫
+See the full [course index](/courses) or [pricing](/pricing) for every track and plan.
 
-### Parent Updates Every Month
+FEATURED TRACKS
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three tracks Dhakuria families ask for most
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+MOST IN-DEMAND LANGUAGE
 
-## Schools near Dhakuria Whose Students Learn with Us
+### Python & AI for Kids and Teens
 
-Students from **St. Lawrence High School (ICSE)**, **Kendriya Vidyalaya Jadavpur (CBSE)**, schools near the **Jadavpur University campus**, and **Calcutta Public School (Haltu, nearby)** in and around Dhakuria join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is the language Dhakuria's CBSE families meet in Class 11-12 Informatics Practices and the one JU-belt parents want their children fluent in early. We teach it live, from first `print()` to AI fundamentals, in small batches where every child codes in every class. It is the gentlest serious on-ramp into real programming.
 
-Whether your child follows the ICSE, CBSE, or IGCSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Dhakuria offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn / build:** variables, loops, functions and AI basics → working games, tools and a portfolio of mini-apps. → [Start Python](/python-and-ai-classes-for-kids-teens)
 
-## What Your Child Will Learn with Modern Age Coders
+ICSE JAVA/BLUEJ BOARD
 
-Dhakuria families want education with outcomes. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+### Java Programming for Kids and Teens
 
-🎨
+For St. Lawrence, South Point, Modern High and Lakshmipat Singhania students, ICSE Computer Applications means Java in BlueJ — and the board project file decides marks. We teach Java syntax to OOP around 25+ board-style programs, exactly the way examiners grade them, with full viva preparation.
 
-### For Kids (Ages 6-12)
+**You'll learn / build:** Java syntax, classes, OOP and BlueJ → a complete ICSE-grade board project file. → [Start Java](/java-programming-for-kids-teens)
 
-Dhakuria families want education with outcomes — our kids start building from day one.
+JU-BELT FAVOURITE
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+### AI & Machine Learning for Teens
 
-💻
+Dhakuria's engineering-minded households want more than syntax — they want their teens building things the JU campus across the bridge respects. This track takes 13-18s into real machine learning: data, models and AI projects, hands-on and live, with an engineer guiding every experiment.
 
-### For Teens (Ages 13-18)
+**By the end you can demo:** a trained model and a working AI project, built from data handling through model training and core ML concepts. → [Start AI & ML](/ai-ml-course-for-teens)
 
-Where Jadavpur's neighbourhood teens turn academic rigour into real coding skill.
+SCHOOLS SERVED
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+## Schools across the Dhakuria–Ballygunge–Lake Gardens belt
 
-🎓
+We teach students from the schools that define the Dhakuria–Ballygunge–Lake Gardens belt: St. Lawrence High School, South Point High School, Modern High School for Girls, Lakshmipat Singhania Academy and The Future Foundation School (Lake Gardens) on the ICSE side; Kendriya Vidyalaya Ballygunge, Calcutta Public School (Haltu) and DPS Ruby Park on the CBSE side; Binodini Girls' High School (Dhakuria) on the WBBSE side; and B.D. Memorial Institute (Selimpur). Because these boards live on the same lane here, we run ICSE Java/BlueJ and CBSE Python tracks side by side.
 
-### For College Students
+Each child is taught their own board's syllabus, not a generic one. ICSE students follow [Computer Applications in Java/BlueJ](/computer-applications-icse-class-10) with board-style programs and viva drill; CBSE students follow [Python and Informatics Practices](/coding-for-cbse-students) the way practicals are graded. For Class 11-12, our [complete board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers theory, practicals, the project file and exam technique — and IGCSE families are served through our [IGCSE Computer Science track](/coding-for-igcse-students).
 
-JU, Techno India, CEMK — Dhakuria's college students ace coding interviews.
+THE NEIGHBOURHOOD
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+## Dhakuria: the hinge of South Kolkata
 
-💼
+Dhakuria is the hinge of South Kolkata — the bridge where the old residential Bengali belt of Lake Gardens, Jodhpur Park and South End Park meets the academic-engineering gravity of Jadavpur University just across the canal. It is a reading, debating, tutoring neighbourhood. On the same lane you'll find a CA-uncle's flat and a first-generation IT engineer's, an ICSE-Java household and a CBSE-Python one, and every one of them treats marks and measurable progress as non-negotiable.
 
-### For Professionals
+That two-culture mix shapes how children start. Engineering households around the JU belt enrol their children early — Class 5 or 6 — wanting Python in their hands before the pressure years. Older Lake Gardens and South End Park families enrol later, Class 8 or 9, but once they commit they stay the course. Both camps share one trait: they don't tolerate fluff. A coding class that ties straight to the board syllabus and shows visible output earns their trust far faster than any flashy promise.
 
-Upskilling programmes for working professionals staying relevant in tech.
+And both camps share one daily frustration — the commute. Reaching a Gariahat or Golpark coaching centre means crawling over the single-lane Dhakuria Bridge bottleneck and the chaotic Selimpur crossing in evening peak, then changing autos at Gariahat: 40 to 50 minutes each way after dark. Live online erases the bridge crossing and the auto-changing entirely, handing roughly 90 minutes per class day back to study and dinner. The class comes home; the child never crosses the bridge.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+### Dhakuria Station Sealdah-South Train Board
 
-📊
+A Class 9 student built a Python command-line tool listing Dhakuria-station up and down train timings toward Sealdah and Budge Budge, so her grandfather stops missing the 8:10 to college.
 
-### Mathematics for All Ages
+### Selimpur Crossing Auto-Pool Finder
 
-Dhakuria parents know maths and code are inseparable.
+A Class 7 boy made a Scratch app that maps which shared-auto routes leave from Selimpur crossing toward Gariahat, Garia and Jadavpur, colour-coded by fare.
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### ICSE BlueJ 'Lake Gardens Library' Catalogue
 
-☀️
+A Class 10 ICSE student wrote a 20-class Java/BlueJ program managing a neighbourhood book-lending register, submitted as her board project file and graded exemplary.
 
-### Summer & Winter Camps
+"We almost sent him to a Gariahat centre, but crossing the bridge every evening was impossible — and honestly, the live class at home turned out sharper than the coaching centre would have been."
 
-Intensive short-term programs during school breaks.
+JA parentJodhpur ParkAREAS WE SERVE
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+## Around Dhakuria & across South Kolkata
 
-## Why Dhakuria Parents Choose Modern Age Coders
+Serving students across pin codes **700031, 700068, 700075, 700045, 700029 and 700019** — and the wider South Kolkata belt around Dhakuria.
 
-🎥
+DhakuriaSelimpurJodhpur ParkLake GardensSouth End ParkGarchaSurya Sen NagarJadavpur (Gariahat side)Bagha Jatin borderPatuli edgeKasba borderGarfaHaltuGolpark / Gariahat sideDhakuria Bridge
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+Live online, so location is never a barrier — we teach families anywhere in [Kolkata](/best-coding-class-in-kolkata) and across India, all in the same small-batch live format.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Dhakuria families expect quality education to work.
+WEEKLY SCHEDULE
 
-👥
+## Flexible live slots, built around school
 
-### Small Batches — Maximum 6-8 Students
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Early Morning | 6:30 – 8:00 AM | School-goers before the first bell | Mon/Wed/Fri |
+| After-School | 4:00 – 6:00 PM | Kids and primary-class learners | Tue/Thu/Sat |
+| Evening Prime | 6:30 – 8:30 PM | Teens, ICSE/CBSE board students | Mon–Fri (flexible) |
+| Late Evening | 8:30 – 10:00 PM | College students & working professionals | Sat/Sun |
+| Weekend Intensive | 10:00 AM – 1:00 PM | Camps, project work, exam crunch | Sat/Sun |
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+Slots are flexible — we fix your child's timetable around school, tuition and the board calendar at the demo.
 
-🧰
+HONEST COMPARISON
 
-### Coding + Maths Combined — Only in India
+## Live online vs offline near Dhakuria
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Dhakuria parents trust us over single-subject alternatives.
+### Where live online wins
 
-💰
+- No crossing Dhakuria Bridge or fighting the Selimpur crossing — roughly 90 minutes saved every class day.
+- Small live batches of 6-8 with the same full-time engineer each session, so progress is tracked, not lost.
+- Your child shares their screen and codes live; the tutor catches mistakes in real time.
+- One tutor and one schedule for both coding and maths — no shuttling between two centres.
+- Every class is recorded for revision, so a missed session is never a lost lesson.
+- Access to specialist engineer and maths-graduate tutors regardless of who happens to coach near Gariahat.
+- Safe for younger children — no evening auto-changing or walking home after dark.
 
-### Starting at Just ₹1,499/month
+### When offline still wins
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+- Very young children (under 6) who still need an adult physically beside the screen.
+- Households without a reliable laptop or stable broadband connection.
+- Learners who genuinely focus better with a tutor in the same room and no screen at all.
+- Families who specifically want their child to leave the house and study among peers in person.
 
-## Dhakuria: The Bridge Between South Kolkata and Jadavpur's Brain Belt
+For most school-going children near Dhakuria, live online delivers a better tutor, smaller batches and 90 saved minutes a day — without ever crossing the bridge.
 
-Dhakuria sits at the meeting point of two different cultures — the South Kolkata old-residential belt (Ballygunge, Lake Gardens) and the academic-engineering belt around Jadavpur University. The Dhakuria Bridge over the canal is symbolic: cross north and you're in upper-middle-class apartment Kolkata; cross south and you're in the JU-Jadavpur-Bagha Jatin academic corridor.
+HOW TO START
 
-The families here reflect that mix. Some are old South Kolkata Bengali, with a chartered accountant in the previous generation; others are first-generation engineering graduates from JU and Bengal Engineering, building careers in IT firms. The children study at Birla High, Lakshmipat Singhania Academy, Modern High School, and South Point.
+## From free demo to first class in 24 hours
 
-We've taught students from both Dhakuria worlds. The pattern: the engineering-parent household tends to enrol early, in Class 5 or 6, and stays through Class 10; the older Bengali household enrols a bit later, in Class 8 or 9, but stays as committed once they're in.
+01
 
-### Recent Projects Built by Students from Dhakuria
+### Book your free demo
 
-These are real student projects from our Dhakuria batches — small, useful, and unmistakably theirs.
+Request a no-commitment [free live demo class](/contact); tell us your child's class and board.
 
-#### Dhakuria Bridge Auto Fare Sheet
+02
 
-A Class 8 student built a Scratch app that lists the autorickshaw fares from Dhakuria Bridge to 12 nearby points. Her mother prints it and keeps it in her wallet.
+### Meet your tutor
 
-#### Lakshmipat Singhania ICSE Java Project
+Sit in on a real live session with a full-time engineer or maths graduate and see the small-batch format first-hand.
 
-A Class 10 boy built a 25-program BlueJ project that he submitted as his ICSE Board project file. His teacher graded it 'exemplary'.
+03
 
-#### Selimpur Crossing Bus Schedule App
+### Pick your plan
 
-A Class 9 girl built a small Python tool that scrapes bus schedules at the Selimpur crossing — her father uses it to plan office mornings.
+Choose group, mini batch or 1-on-1 from our [transparent pricing](/pricing), for coding, maths or both.
 
-“
+04
 
-My husband and I both went through JU. We know how badly Bengal's tech education has historically lagged. We were determined to give our son a different start. That's why we joined you in Class 5.
+### Start within 24 hours
 
-— A Dhakuria parent, paraphrased from a recent conversation.
+Lock your weekly slot and begin; your child writes real code in the very first class. [Explore all courses](/courses).
 
-## Neighbourhoods near Dhakuria We Serve
+PARENT VOICE
 
-Because every class is live online, we serve students across the entire Dhakuria belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+## What a Dhakuria-area parent says
 
-### Pin codes we actively teach in
+"Modern Age Coders has been wonderful for my son Dhairya. The classes are live and personal, the teacher actually knows where he struggles, and I can see him building real projects instead of just memorising. As a parent, that visible progress is exactly what I wanted."
 
-**700031** (Dhakuria core, Selimpur), **700068** (Jodhpur Park, Bansdroni edge), **700075** (Bagha Jatin, Patuli), **700045** (Lake Gardens), **700029** (Lake Mall side), **700033** (Tollygunge touch), **700019** (Ballygunge edge).
+SSonam OswalMother of Dhairya
 
-### Localities our students log in from
+Read more on our [Wall of Love](/love).
 
-DhakuriaSelimpurJodhpur ParkLake GardensSouth End ParkLake Mall areaDhakuria BridgeSurjasen NagarHindustan Park edgeGariahat sideJadavpur edgeTollygunge edgeBagha Jatin borderPatuli edgeKasba border
+FAQ
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+## Coding & maths near Dhakuria — answered
 
-## Class Timings & Weekly Schedule for Students near Dhakuria
+Yes — completely. Our [ICSE Class 10 Computer Applications track](/computer-applications-icse-class-10) follows the Java/BlueJ board syllabus with 25+ board-style programs, the project file and viva preparation, taught exactly the way examiners grade it. See also our [Java programming course](/java-programming-for-kids-teens).Yes. Our [CBSE coding track](/coding-for-cbse-students) and [Class 11-12 board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) cover Python and Informatics Practices the way the board grades practicals — theory, practical file, project and exam technique.For most school-goers, yes. You get a full-time engineer tutor, a batch of just 6-8, recorded revisions and roughly 90 minutes saved per class day — without the single-lane bridge bottleneck or auto-changing at Gariahat after dark.That is an ideal entry point. Younger children start with [Scratch and block coding](/courses/coding/kids), then move to [Python for beginners](/python-for-beginners-kids). Engineering households around the JU belt routinely enrol at this age for exactly this reason.Yes — many Selimpur and South End Park families run [coding](/courses) and [maths tuition](/online-maths-tuition) together on one schedule, one point of contact and one fee structure, so you manage a single timetable.Group classes start at ₹1,499/month (max 6-8), mini batches are ₹2,499/month (3-4 students), and 1-on-1 is ₹4,999/month — the same pricing for coding and maths. Full details on our [pricing page](/pricing).Always live and two-way. Your child speaks, shares their screen and codes in real time while a tutor watches and corrects. We never sell pre-recorded video playlists.Full-time professional engineers and mathematics graduates — not part-time college students or rotating freelancers. The same tutor stays with your child so progress is tracked across the term.Every session is recorded and shared, so a missed class is never a lost lesson. For 1-on-1 students we also reschedule slots when you give us reasonable notice.A laptop or desktop with a webcam and a stable broadband connection works best. A tablet can do at the kids level, but a keyboard is strongly recommended once real coding begins.Classes are taught in clear English, with Bengali and Hindi explanation whenever a concept needs it — comfortable for every Dhakuria household.Yes — students receive a completion certificate per module, and more importantly build a portfolio of real, working projects they can show, which matters more to most board and admissions panels.Yes. Teens can take our dedicated [AI & Machine Learning track](/ai-ml-course-for-teens), and AI fundamentals are built into the [Python & AI course](/python-and-ai-classes-for-kids-teens) from the start.Yes — [Princess Coders](/coding-classes-for-girls) for kids and Queen Coders for teens are dedicated girls-only batches that build tech confidence and leadership in a supportive setting.Book a [free live demo class](/contact). After the demo you pick a plan and your child can begin within 24 hours, writing real code in the very first session.
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+## Bring the class home — skip the bridge.
 
-☀️
+Premium live online coding and maths near Dhakuria, in small batches taught by full-time engineers — your child's first class can start within 24 hours.
 
-### Morning Slot — 9:00 to 11:00 AM
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)NEARBY AREAS
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Coding & maths classes near you
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
-
-🏫
-
-### After-School Slot — 4:30 to 7:30 PM
-
-The most popular slot for kids and teens near Dhakuria. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Dhakuria parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Birla High School, South Point primary, Modern High School and similar Dhakuria-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Birla High School, South Point, DPS Ruby Park and other CBSE-track Dhakuria-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that South Point High School, Modern High School, Lakshmipat Singhania Academy and other ICSE-track Dhakuria-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Dhakuria — Honest Comparison
-
-Dhakuria and Selimpur have several private tuition rooms around the bridge area. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Dhakuria centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Dhakuria Bridge traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Dhakuria
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Dhakuria
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Dhakuria. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"The classes at Modern Age Coders have been a game-changer for me. The live sessions are interactive, and the teachers really push you to think differently about problems. I've improved so much in both coding and maths since I joined."
-
-SSamridho MondalStudent, Grade 9
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Dhakuria
-
- Are there coding classes for kids near Dhakuria, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Dhakuria. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from St. Lawrence High School, KV Jadavpur, and other Dhakuria-area schools are already learning with us. What is the fee for coding and maths classes near Dhakuria? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Dhakuria? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Dhakuria schools follow. How can my child in Dhakuria attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Selimpur or Jodhpur Park? +Three big differences. **First**, batch size: most Dhakuria tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Dhakuria Bridge and Selimpur Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Dhakuria? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Dhakuria belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Dhakuria? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Dhakuria. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Birla High, South Point, Modern High and other South Kolkata schools and other Dhakuria-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Dhakuria Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Dhakuria trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Gariahat](/coding-classes-near-gariahat-kolkata)[Jadavpur](/coding-classes-near-jadavpur-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[Golpark](/coding-classes-near-golpark-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+[Gariahat](/coding-classes-near-gariahat-kolkata)[Jadavpur](/coding-classes-near-jadavpur-kolkata)[Lake Gardens](/coding-classes-near-lake-gardens-kolkata)[Jodhpur Park](/coding-classes-near-jodhpur-park-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)[DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
 
 ---
 
