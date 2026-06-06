@@ -1,364 +1,246 @@
 ---
-title: "Coding & Maths Classes near Loudon Street, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Loudon Street, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for La Martiniere, Loreto House, Modern High and other central Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Loudon Street"
+description: "Live online, premium coding & maths classes near Loudon Street, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto families. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-loudon-street-kolkata
-keywords: ["Loudon Street Kolkata coding classes", "coding near Loudon Street", "premium Kolkata coding", "coding for kids Loudon Street", "Python classes Loudon Street Kolkata", "maths tuition Loudon Street", "online coding Loudon Street central Kolkata", "elite coding classes Kolkata", "teen coding Loudon Street", "AI classes Loudon Street", "coding classes near Maidan Kolkata"]
+keywords: ["coding classes near Loudon Street", "coding classes Loudon Street Kolkata", "Python classes Kolkata 700017", "Java ICSE classes Kolkata", "AI ML classes for teens Kolkata", "online maths tuition Loudon Street", "coding classes near Park Street Kolkata", "coding classes near Camac Street", "ICSE computer applications coaching Kolkata", "La Martiniere coding classes", "St Xavier's coding classes Kolkata", "live online coding classes Kolkata"]
 source: src/pages/coding-classes-near-loudon-street-kolkata.html
 ---
-> Live online coding classes near Loudon Street, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for La Martiniere, Loreto House, Modern High and other central Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online, premium coding & maths classes near Loudon Street, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto families. Book a free demo.
 
-Central Kolkata's Most Premium Address — Live Online Classes
+Live Online · Central Kolkata's Premier Address
 
-# Coding & Maths Classes for Students near Loudon Street, Kolkata
+# Coding & Maths Classes near Loudon Street, Kolkata
 
-One of Kolkata's most premium addresses, between Park Street and the Maidan. Loudon Street families expect nothing less than world-class education — and they have the discernment to tell the difference between genuine quality and polished marketing. This is a neighbourhood of heritage residences, diplomatic quarters, and families whose educational standards have been shaped by proximity to Kolkata's finest institutions. **St. Xavier's**, **La Martiniere**, and **Loreto House** are all within minutes, and the children who grow up on Loudon Street attend schools that rank among India's best. Modern Age Coders delivers coding and mathematics education that matches this standard — **100% live, expert-led, personalised**. Every class is taught live with a maximum of 6-8 students. Every instructor is selected for depth of knowledge, not just teaching credentials. From a six-year-old learning to think computationally through Scratch to a teenager building AI projects, our courses are designed for families who will only accept the best. Loudon Street deserves world-class — and that is exactly what we deliver.
+Modern Age Coders runs premium, live online coding and mathematics classes for families near Loudon Street, Kolkata (700017). We teach Python, Java, AI/ML and school maths in small live batches of 6–8, led by full-time software engineers and maths graduates — never pre-recorded videos. Children at St. Xavier's, La Martiniere and Loreto House learn from home by 4:30 PM, with zero commute through Park Street and Camac Street traffic.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Live online, never pre-recordedSmall batches (max 6–8)Python, Java, C++, AI/ML & DSAEngineers & maths graduatesFlexible evening slots6–8Students per live batch1-on-1Or fully personalised₹1,499Group classes / month6–65Ages we teach[Book a Free Demo Class](/contact)[Explore Courses](/courses)Live Online · Loudon Street, Kolkata
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**Live online classes** — real teacher, real time, never pre-recordedBatch sizeSmall batches of 6–8; mini batch of 3–4; or 1-on-1Ages6 to 65 — kids, teens, college students and working adultsSubjectsCoding (Python, Java, C++, AI/ML, web, DSA) and Mathematics (Grades 1–12 + college)BoardsICSE, ISC, CBSE, IGCSE and state board; Bengali/Hindi-medium learners welcomeFeesFrom **₹1,499/month** (group, max 6–8), ₹2,499/month (mini batch 3–4), ₹4,999/month (1-on-1)Free demoYes — one free live demo class, no payment, no commitmentServingLoudon Street, Camac Street, Russell Street, Theatre Road, Park Street, Rawdon Street, Wood Street, AJC Bose Road, Elgin Road (700017, 700016, 700020, 700019, 700071)Why It Works
 
-## Live Online Coding Classes near Loudon Street — What Parents Should Know
+## Premium live online, judged by families who know quality
 
-Loudon Street parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Loudon Street is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from La Martiniere, Loreto House, Modern High and other central Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Modern Age Coders is a premium, live online coding and maths school — every class is taught in real time by a full-time engineer or maths graduate to a small batch of 6–8 students, never delivered as a pre-recorded video. Loudon Street families are discerning buyers who can tell a genuine class from a polished recording, and that is exactly what we are built for: studio-quality teaching that arrives at home, on schedule, with no auto-change at the Mullick Bazar crossing.
 
-📺
+### Live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is a real classroom, not a playback. Your child can interrupt, ask "why did that program throw an error", and get the answer in the same breath — exactly as they would in a St. Xavier's classroom. There is no "watch the video and figure it out alone" gap that pre-recorded courses quietly leave behind.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Batches of 6–8, by design
 
-👨‍👩‍👧‍👦
+At a Loudon Street price point you should never sit in a thirty-child online room. Our group batches are capped at 6–8 so the teacher knows every student's name, level and weak spot. Want even closer attention? Mini batches of 3–4 and true 1-on-1 are available at fixed, transparent fees.
 
-### Max 6–8 Students per Live Batch
+### Taught by working engineers
 
-Smaller than any Loudon Street-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are led by full-time software engineers and maths graduates, not gig-economy part-timers reading a script. They have shipped real software and solved real maths, so your child learns current, practical methods — the same craft that built the apps on their phone.
 
-🏠
+### Project-based from day one
 
-### Zero Travel through Loudon Street junction Traffic
+Children do not just take notes; they build. Every module ends in something showable — a working game, a small web tool, a trained mini-model — so progress is visible to parents, not just claimed. A portfolio beats a participation certificate, and discerning families notice the difference.
 
-No fighting evening Loudon Street and Park Street office-hour traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Zero commute, ~90 minutes saved
 
-📝
+A physical class anywhere in the city means crawling through Park Street, Camac Street and Theatre Road office-hour gridlock, plus an auto-change at a chaotic junction — easily 60–90 wasted minutes per class day. Live online deletes that entirely: your child walks from homework to a live batch in the same room.
 
-### Recordings + Notes After Each Class
+### One provider, coding and maths
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Many Loudon Street families run [coding](/courses) and [maths tuition](/online-maths-tuition) together with us — one trusted teacher pool, one schedule, one point of contact. It is the quiet, organised choice for an already over-scheduled household near Park Street.
 
-💻
+The Full Catalogue
 
-### Project-Based, Not Theory-Heavy
+## Every course we teach, live
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Ages 10–17 starting real programming | Python from scratch with an AI on-ramp; games, bots and small apps; CBSE Class 11–12 IP foundations |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | First-time learners, ages 9–13 | Gentle Python syntax, loops and functions for a child's first text-based code |
+| [Python Projects for Kids](/python-projects-for-kids) | Kids who know Python basics | Hands-on mini-projects — games, scripts, tools — that build a showable portfolio |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens, esp. ICSE Class 9–10 Computer Applications | ICSE-aligned Java in BlueJ: OOP, arrays, strings, 25+ board-style programs and project files |
+| [ICSE Computer Applications Class 10](/computer-applications-icse-class-10) | ICSE Class 10 board students | Full Java/BlueJ board prep — theory, practicals, viva and project documentation |
+| [Board CS Class 11–12 (ICSE Java + CBSE Python)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 board students (ICSE & CBSE) | Complete board CS: ICSE Java and CBSE Python, theory, practicals, projects and exam prep |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens 13–18 and serious early learners | Project-based AI/ML foundations; train your first working models in small live batches |
+| [Java DSA Course](/java-dsa-course) | College students & serious teens | Data Structures & Algorithms in Java for placements and competitive programming |
+| [C++ DSA Course](/c-plus-plus-dsa-course) | College & CP-focused learners | DSA in C++ for competitive programming and placement preparation |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls (kids & teens), girls-only batch | Princess and Queen Coders batches building coding confidence and leadership |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1–12 and college, all boards | Live maths from Grade 1 through college, plus Olympiad prep (AMC, IOQM, RMO, IMO) |
+| [Coding for Kids (Scratch)](/courses/coding/kids) | Ages 6–12, block coding | Scratch and block-based logic through stories, games and quizzes |
+| [Coding for College](/courses/coding/college) | College students | DSA, MERN stack, AI/ML masterclass, Python for data analysis, MySQL |
 
-👨‍🏫
+Browse the [full course index](/courses) or [view pricing](/pricing) for group, mini-batch and 1-on-1 plans.
 
-### Parent Updates Every Month
+Most In Demand
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three tracks Loudon Street families ask for most
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+Most popular language
 
-## Schools near Loudon Street Whose Students Learn with Us
+### Python & AI for Kids and Teens
 
-Students from **St. Xavier's Collegiate School (ICSE/ISC)**, **La Martiniere for Boys (ICSE/ISC)**, **Loreto House (ICSE/ISC)**, Calcutta Girls' High School, and other elite institutions near Loudon Street join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is the most in-demand language in the world and the gentlest serious on-ramp for a young coder. In live project batches, your child moves from first `print` to building real games, scripts and small apps — and meets AI ideas early, the same foundations CBSE expects in Class 11–12 Informatics Practices.
 
-Whether your child follows the ICSE, CBSE, or IGCSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Loudon Street offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn:** variables, loops, functions and an AI on-ramp. **You'll build:** playable games, a quiz bot and a small working tool for the family.
 
-## What Your Child Will Learn with Modern Age Coders
+[Start Python](/python-and-ai-classes-for-kids-teens)
 
-Loudon Street families demand excellence. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+ICSE / ISC board-aligned
 
-🎨
+### Java for ICSE & ISC Students
 
-### For Kids (Ages 6-12)
+At St. Xavier's, La Martiniere and St. James', Computer Applications means Java in BlueJ — and that is precisely what we drill. We cover the exact board syllabus, 25+ examiner-style programs, practical files and viva prep, then build genuine OOP understanding on top so marks and real skill arrive together.
 
-Loudon Street's most discerning families choose coding education that genuinely delivers.
+**You'll learn:** OOP, arrays, strings and exact board patterns. **You'll build:** 25+ board-style programs plus a documented project file ready for the practical.
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+[Start Java](/java-programming-for-kids-teens)
 
-💻
+The future of every industry
 
-### For Teens (Ages 13-18)
+### AI & Machine Learning for Teens
 
-Where Central Kolkata's elite students master skills that define the next generation.
+AI is no longer a buzzword; it is the layer every industry now runs on, and a curious teen can learn its foundations today. In small live batches we make machine learning concrete — clean data, train a model, see it predict — explained at school-age level with no hand-waving.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+**You'll learn:** how models learn, the data-to-prediction pipeline and core ML ideas. **You'll build:** your first working classifier and a small predictive project to show off.
 
-🎓
+[Start AI/ML](/ai-ml-course-for-teens)
 
-### For College Students
+Schools We Serve
 
-Loudon Street's college students build the technical foundation for global careers.
+## Built around Loudon Street's schools
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+We teach children from the schools that line the Loudon Street, Park Street and AJC Bose Road belt — including St. Xavier's Collegiate School (Park Street, with its primary section at Wood Street), La Martiniere for Boys and La Martiniere for Girls, Loreto House on Middleton Row, Calcutta Girls' High School, St. James' and Pratt Memorial on AJC Bose Road, Modern High School for Girls, and the CBSE cohort at Future Foundation School and M. P. Birla Foundation. Whatever your child's school and board, there is a batch built for their level.
 
-💼
+The neighbourhood is ICSE/ISC-dominant, which means Java in BlueJ for Computer Applications and ISC Computer Science — and CBSE-present, which means Python. Our [board CS course for Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) maps to both: ICSE Java and CBSE Python, with theory, practicals, projects and exam practice. A family with one ICSE child and one CBSE child can run [Java](/java-programming-for-kids-teens) and [Python](/python-and-ai-classes-for-kids-teens) tracks side by side, each in the right batch.
 
-### For Professionals
+On the Ground
 
-Upskilling programmes for working professionals staying relevant in tech.
+## Loudon Street, up close
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+Loudon Street is one of central Kolkata's most premium addresses — a quiet, heritage pocket tucked between Park Street and the Maidan, lined with old mansion blocks, consulates, chambers and Belle Vue Clinic. It sits inside the city's busiest commercial belt yet feels a step removed from it: Camac Street's offices a turn away, the Park Mansions arcade on Park Street, the seven-point crossing at Park Circus to the east, and Chowringhee and Esplanade just down the road.
 
-📊
+The families here are old-money and senior-professional Kolkata — surgeons attached to Belle Vue, corporate lawyers, senior bankers commuting Kolkata–Mumbai, export-house promoters. Their children fill the ICSE/ISC benches of St. Xavier's, La Martiniere and Loreto House, with a smaller CBSE cohort at Future Foundation and M. P. Birla. These are discerning buyers: education here is both status and substance, and a class only earns a place in an already-packed week if it is genuinely expert-led and selective, not another mass-market franchise.
 
-### Mathematics for All Ages
+That is the gap live online fills. A physical class means crawling out through Theatre Road and the Mullick Bazar and Park Circus crossings in office-hour traffic — 60 to 90 minutes gone per class day, plus an auto-change at a chaotic junction. With us, the child walks from homework to a small live batch in the same room, taught by a working engineer. The premium is in the teaching and the time saved, not in a longer commute.
 
-Loudon Street families know maths and code are inseparable.
+PROJECT 01
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### Heritage Block Walk Map
 
-☀️
+A Class 8 St. Xavier's boy built a Python and simple-map tool that plots the listed heritage buildings along Loudon Street, Wood Street and Park Street, tagging each with its build year, so his grandfather's morning walk has a little narrated route.
 
-### Summer & Winter Camps
+PROJECT 02
 
-Intensive short-term programs during school breaks.
+### Clinic Appointment Reminder
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A Class 9 La Martiniere girl whose mother is a consultant at Belle Vue wrote a small web form that lets the front desk log patient slots and auto-flags double-bookings, replacing a paper register.
 
-## Why Loudon Street Parents Choose Modern Age Coders
+PROJECT 03
 
-🎥
+### Recital Seat Planner
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+A Class 7 Loreto House student built a tiny app to arrange seating for her annual piano recital — 40 guests, 6 rows — that swaps seats and prints name cards, after doing it all by hand last year.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Loudon Street families expect quality education to work.
+"After her Loreto recital season, fighting Park Street traffic for a five o'clock tuition was simply out of the question. A real teacher in a batch of six, live from our own drawing room, means our daughter is actually known by name — not one more tile on a crowded screen."
 
-👥
+LA Loudon Street parentLoreto House familyWhere We Reach
 
-### Small Batches — Maximum 6-8 Students
+## Serving Loudon Street and the Park Street belt
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+We serve families across pin codes **700017, 700016, 700020, 700019** and **700071** — the central Kolkata belt around Loudon Street, Park Street and Camac Street.
 
-🧰
+Loudon StreetCamac StreetRussell StreetTheatre Road / Shakespeare SaraniPark StreetOutram StreetRawdon StreetAJC Bose RoadWood StreetMiddleton RowMirza Ghalib StreetFree School StreetElgin RoadPark MansionsPark Circus border
 
-### Coding + Maths Combined — Only in India
+Because every class is live online, we reach any home in central Kolkata — and beyond it, your child keeps the same teacher and batch from Mumbai, Bengaluru or Dubai. [See all Kolkata areas](/best-coding-class-in-kolkata).
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Central Kolkata parents trust us over single-subject alternatives.
+When We Teach
 
-💰
+## Slots that fit a packed Loudon Street week
 
-### Starting at Just ₹1,499/month
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-school | 4:30 – 6:00 PM | Kids and younger teens straight after class | Mon–Fri |
+| Early evening | 6:00 – 7:30 PM | Teens balancing sport, music and tuition | Mon–Sat |
+| Late evening | 7:30 – 9:00 PM | Seniors and working professionals | Mon–Sat |
+| Weekend morning | 10:00 AM – 12:00 PM | Board batches and intensive project work | Sat–Sun |
+| Custom 1-on-1 | By arrangement | Families with shifting corporate hours | Flexible |
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+Slots are flexible and can be tailored around school, exams and travel — discuss your timing in the [free demo](/contact).
 
-## Loudon Street: Quiet Old Buildings, Fast-Moving Parents
+An Honest Comparison
 
-Loudon Street is one of the central residential pockets where time appears to have slowed down. Old red-brick apartment buildings, broad pavements, the gentle hush of Camac Street and Theatre Road in the background. But the families inside those buildings are moving at high velocity — corporate lawyers, surgeons at Belle Vue, founders of small export houses, senior bankers commuting between Kolkata and Mumbai.
+## Live online vs a neighbourhood tuition room
 
-Their children study at La Martiniere, Modern High, and Loreto House. They've already done two years of after-school activities by Class 6. They've tried karate, swimming, abacus, Vedic Maths, and one out of three has already had a French tutor visit them at home. Coding is the next thing on the list — and these parents know to ignore the loud platforms that run TV ads.
+### Where live online wins
 
-What they look for is what they look for in everything: small, focused, no-nonsense quality. Modern Age Coders fits because we are not a content platform pretending to be a school. We are a small school operating online, and the instructors take the same approach La Martiniere classroom teachers do — firm, structured, project-driven.
+- Zero commute — no 60–90 minutes lost in Park Street, Camac Street and Theatre Road traffic each class day.
+- Small live batches of 6–8, capped by design, instead of whoever fits in a local room.
+- Taught by full-time engineers and maths graduates, not whoever is locally available.
+- Sessions can be recorded, so a missed class is reviewed and never lost.
+- Continuity from any city — a Mumbai posting or Dubai trip does not interrupt the course.
+- One provider for both [coding](/courses) and [maths](/online-maths-tuition), on one schedule.
+- Project-based learning with a real, showable portfolio — not just notebook copying.
 
-### Recent Projects Built by Students from Loudon Street
+### When offline still wins
 
-These are real student projects from our Loudon Street batches — small, useful, and unmistakably theirs.
+- A child who genuinely cannot self-focus on a screen yet may need an in-person adult beside them at first.
+- Very young first-timers sometimes settle faster with a parent physically in the room (which live online actually allows from home).
+- Hands-on hardware or robotics kits are easier to share face-to-face.
+- Some families simply prefer a handshake and a physical address — and that is a fair preference.
 
-#### Travel Wishlist Tracker
+For most Loudon Street families, the maths is simple: world-class teaching, smaller batches and ~90 minutes saved a day, all without leaving the flat. [Book a free demo](/contact) and judge a live session for yourself.
 
-A Class 9 La Martiniere boy built a Python app that ranks his family's travel wishlist (8 countries, 23 cities) by cost vs season — his mother uses it for her January planning.
+Getting Started
 
-#### Ballet Class Attendance Bot
+## Four steps to your first class
 
-A Loreto House Class 7 girl built a small web form for her ballet teacher to track 14 students' weekly attendance. The teacher now uses it instead of paper.
+01
 
-#### Stock Watcher (Toy Version)
+### Book a free demo
 
-A Class 11 ISC boy built a Python script that pulls 5 stock prices from a free API and prints whether they're up or down for the day — he sends his father a daily report.
+Tell us your child's class, board and goal, and we'll schedule one free live session. [Book now](/contact).
 
-“
+02
 
-We tried two of the loud online coding platforms first. Both were content factories. The reason we stayed with Modern Age Coders is that an actual human teaches an actual class. That's it.
+### Meet the teacher live
 
-— A Loudon Street parent, paraphrased from a recent conversation.
+Sit in on a real small-batch class and see the teaching quality before any payment. No recordings, no script.
 
-## Neighbourhoods near Loudon Street We Serve
+03
 
-Because every class is live online, we serve students across the entire Loudon Street belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+### Pick your track and plan
 
-### Pin codes we actively teach in
+Choose [a course](/courses) and a [plan](/pricing) — group, mini batch or 1-on-1 — that suits your child's level and your week.
 
-**700017** (Loudon Street, Camac Street, Park Street), **700020** (Elgin Road, AJC Bose), **700016** (Park Street side), **700019** (Ballygunge edge), **700025** (Bhowanipore touch), **700071** (Chowringhee touch), **700013** (Esplanade edge).
+04
 
-### Localities our students log in from
+### Start building
 
-Loudon StreetCamac StreetRussell StreetTheatre RoadPark StreetOutram StreetRawdon StreetAJC Bose RoadWood StreetMirza Ghalib StreetFree School StreetPark MansionsPark Circus borderElgin RoadShakespeare Sarani
+Join your batch and begin a project-based module that ends in something your child can actually show.
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+Wall of Love
 
-## Class Timings & Weekly Schedule for Students near Loudon Street
+## What parents say
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+"My son Dhairya has genuinely started enjoying his classes — the teachers are patient, the batches are small, and I can see real progress in how he thinks and builds, not just what he memorises. As a parent I finally feel the time and money are well spent."
 
-☀️
+SSonam OswalMother of Dhairya
 
-### Morning Slot — 9:00 to 11:00 AM
+Read more on our [Wall of Love](/love).
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+Questions
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+## Loudon Street parents ask
 
-🏫
+Every class is fully live — a real teacher teaching in real time to a small batch, never a pre-recorded video. Your child can ask questions and get answers in the moment, exactly like a classroom. Families on this belt specifically don't want a recorded course dressed up as a class, and neither do we. [Book a free demo](/contact) to see a live session first.Group classes (batch of 6–8) are from ₹1,499/month, mini batches of 3–4 are ₹2,499/month, and fully personalised 1-on-1 classes are ₹4,999/month. The same pricing applies to coding and maths. There are no hidden charges, and the first demo is free — full details are on the [pricing page](/pricing).Yes — our [Java course](/java-programming-for-kids-teens) follows the precise BlueJ Java syllabus that St. Xavier's, La Martiniere and St. James' set for Class 9–10, including board-style programs, practical files and viva prep. We drill the exact patterns examiners look for, then build genuine OOP understanding on top. For Class 10 specifically, see [ICSE Computer Applications Class 10](/computer-applications-icse-class-10).Yes. A family can run both tracks side by side — [Java for the ICSE/ISC child](/java-programming-for-kids-teens) and [Python or CBSE-aligned Computer Science](/python-and-ai-classes-for-kids-teens) for the CBSE child at Future Foundation or M. P. Birla. Each child sits in the batch that matches their level and board. Our [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers both for Class 11–12.Genuinely small — group batches are capped at 6–8 students, not a 30-child online room. If you want closer attention, mini batches of 3–4 (₹2,499/month) and true 1-on-1 (₹4,999/month) are available. At a Loudon Street price point, the small batch is the point, not the exception.Most learners do one or two live sessions a week, and we offer flexible after-school, evening and weekend slots to fit around an over-scheduled week near Park Street. You can start with a single weekly class and scale up only if your child wants more. Discuss your exact timing in the [free demo](/contact).We teach ICSE, ISC, CBSE, IGCSE and state board students — which suits the Loudon Street mix of St. Xavier's, La Martiniere and Loreto (ICSE/ISC) alongside Future Foundation and M. P. Birla (CBSE). See dedicated pathways for [ICSE](/coding-for-icse-students), [CBSE](/coding-for-cbse-students) and [IGCSE](/coding-for-igcse-students). Bengali and Hindi-medium learners are welcome too.A missed class is never a lost lesson. Sessions can be recorded so your child reviews what they missed and resumes with the same batch and teacher, and we help them catch up directly. For families with shifting corporate hours, this safety net matters.Yes — because every class is live online, your child keeps the same teacher, batch and curriculum from any city or time zone. Whether you are in a Loudon Street flat, a Mumbai posting or a Dubai hotel, the classroom simply opens on the laptop. Nothing restarts and no new tutor is needed.We teach ages 6 to 65 — from [Scratch for young kids](/courses/coding/kids), through [Python](/python-and-ai-classes-for-kids-teens) and [Java](/java-programming-for-kids-teens) for teens, to [DSA](/java-dsa-course) and placement prep for [college](/courses/coding/college) and adults. Every learner is placed in an age-appropriate batch.Classes are taught by full-time software engineers and maths graduates, not gig-economy part-timers. They have built real software and solved real maths, so children learn current, practical methods rather than a memorised script — the level of teaching discerning families expect.Alongside coding we offer structured [online maths tuition](/online-maths-tuition) for Grades 1–12 across all boards and into college, including Olympiad prep (AMC, IOQM, RMO, IMO) and focused [Class 10 board maths](/maths-class-10). Many Loudon Street families take coding and maths together with the same provider.A laptop or desktop is ideal (a tablet works for younger children), with a stable broadband connection and a webcam. No special software purchase is required — we guide you through the free tools used in class during the demo.Classes are taught in clear English, the medium of the area's schools, and teachers comfortably support students in Hindi where it helps understanding. The aim is that the concept lands, not that a child struggles with language.Yes — learners receive a certificate on completing their course module. To begin, [book a free demo class](/contact): one live session, no payment, no commitment. You can read real parent reviews on our [Wall of Love](/love) first.Start Here
 
-### After-School Slot — 4:30 to 7:30 PM
+## See a live class before you decide
 
-The most popular slot for kids and teens near Loudon Street. School ends, snack, log in. Two classes a week, 60 minutes each.
+Book one free live session, meet the teacher, and judge the quality yourself — no payment, no commitment, no traffic.
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)[+91 91233 66161](https://wa.me/919123366161)Nearby Areas
 
-🌚
+## Coding & maths in nearby localities
 
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Loudon Street parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at La Martiniere, Modern High School, Loreto House and similar Loudon Street-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Modern High School, Future Foundation, M.P. Birla Foundation and other CBSE-track Loudon Street-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that La Martiniere for Boys, La Martiniere for Girls, Loreto House, St. James' and other ICSE-track Loudon Street-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Loudon Street — Honest Comparison
-
-The Loudon Street belt has high-priced premium tuition centres in residential buildings. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Loudon Street centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Loudon Street junction traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Loudon Street
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Loudon Street
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home near Loudon Street. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"My son Somraj has been learning coding with Modern Age Coders and the progress has been remarkable. The teachers genuinely care about each child's understanding, not just completing a syllabus. The small batch size means he gets real attention and can ask questions freely. I would highly recommend this to any parent looking for quality coding education."
-
-RRia MukherjeeMother of Somraj
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Loudon Street
-
- Are there coding classes for kids near Loudon Street, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Loudon Street. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from St. Xavier's, La Martiniere, and other schools near Loudon Street are already learning with us. What is the fee for coding and maths classes near Loudon Street? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Loudon Street? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that schools near Loudon Street follow. How can my child near Loudon Street attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Camac Street or Russell Street? +Three big differences. **First**, batch size: most Loudon Street tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Loudon Street and Park Street office-hour traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Loudon Street? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Loudon Street belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Loudon Street? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Loudon Street. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at La Martiniere, Loreto House, Modern High and other central Kolkata schools and other Loudon Street-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Loudon Street Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Loudon Street trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
-
-[Park Street](/coding-classes-near-park-street-kolkata)[Camac Street](/coding-classes-near-camac-street-kolkata)[Shakespeare Sarani](/coding-classes-near-shakespeare-sarani-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+[Park Street](/coding-classes-near-park-street-kolkata)[Camac Street](/coding-classes-near-camac-street-kolkata)[Shakespeare Sarani](/coding-classes-near-shakespeare-sarani-kolkata)[Birla High School](/coding-and-maths-for-birla-high-school-kolkata)[Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
 ---
 
