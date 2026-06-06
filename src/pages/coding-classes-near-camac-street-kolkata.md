@@ -1,364 +1,247 @@
 ---
-title: "Coding & Maths Classes near Camac Street, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Camac Street, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for La Martiniere, Loreto House, Modern High School and other central Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Camac Street"
+description: "Live online, premium coding & maths classes near Camac Street, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto students. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-camac-street-kolkata
-keywords: ["Camac Street Kolkata coding classes", "coding near Camac Street", "corporate corridor Kolkata coding", "coding for kids Camac Street", "Python classes Camac Street Kolkata", "maths tuition Camac Street", "online coding central Kolkata", "professional parents coding Camac Street", "teen coding Camac Street", "AI classes Camac Street", "coding classes near Camac Street Kolkata"]
+keywords: ["coding classes near Camac Street", "coding classes Camac Street Kolkata", "Python classes Kolkata 700017", "Java ICSE classes Kolkata", "AI ML classes for teens Kolkata", "online maths tuition Camac Street", "coding classes near Russell Street", "coding classes near Theatre Road", "ICSE computer applications coaching Kolkata", "La Martiniere coding classes", "St Xavier's coding classes Kolkata", "live online coding classes Kolkata"]
 source: src/pages/coding-classes-near-camac-street-kolkata.html
 ---
-> Live online coding classes near Camac Street, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for La Martiniere, Loreto House, Modern High School and other central Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online, premium coding & maths classes near Camac Street, Kolkata. Small batches for St. Xavier's, La Martiniere & Loreto students. Book a free demo.
 
-Kolkata's Corporate Corridor — Live Online Classes
+Live Online · Kolkata's Corporate Corridor
 
-# Coding & Maths Classes for Students near Camac Street, Kolkata
+# Coding & Maths Classes near Camac Street, Kolkata
 
-Kolkata's corporate corridor. Offices of MNCs and Indian corporates line this street — from consulting firms to tech companies to financial institutions. Parents who work on Camac Street know exactly how important technology skills are in the professional world, because they see it every day. They do not need to be convinced that their children should learn to code — they need to find the right programme. Schools like **St. Xavier's Collegiate School**, **La Martiniere**, and **Future Foundation School** are all within easy reach of Camac Street, and the children of this neighbourhood attend some of Kolkata's finest institutions. Modern Age Coders completes their education with **100% live online coding and mathematics classes** — structured, expert-led, and designed for families who understand that quality matters more than marketing. Small batches of 6-8 students, taught by instructors who build real skills, not just certificates. From Scratch for young beginners to AI and competitive programming for ambitious teens, our courses are what Camac Street's professional parents would build if they designed a coding programme themselves.
+Modern Age Coders runs premium, live online coding and mathematics classes for families near Camac Street, Kolkata (700017). We teach Python, Java, AI/ML and school maths in small live batches of 6–8, led by full-time software engineers and maths graduates — never pre-recorded videos. Children at St. Xavier's, La Martiniere, Loreto and St. James' learn from home by 4:30 PM, with no commute through Park Street traffic.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Live online, never pre-recordedSmall batches (max 6–8)Engineers & maths graduatesFlexible slots for corporate hours6–8Students per live batch1-on-1Or fully personalised₹1,499Group classes / month6–65Ages we teach[Book a Free Demo Class](/contact)[Explore Courses](/courses)Live Online · Camac Street, Kolkata
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**Live online classes** — real teacher, real time, never pre-recordedBatch sizeSmall batches of 6–8; mini batch of 3–4; or 1-on-1Ages6 to 65 — kids, teens, college students and working adultsSubjectsCoding (Python, Java, C++, AI/ML, web, DSA) and Mathematics (Grades 1–12 + college)BoardsICSE, ISC, CBSE and state board; Bengali/Hindi-medium learners welcomeFeesFrom **₹1,499/month** (group), ₹2,499/month (mini batch 3–4), ₹4,999/month (1-on-1)Free demoYes — one free live demo class, no commitmentServingCamac Street, Russell Street, Theatre Road, Wood Street, Park Street, Loudon Street, Rawdon Street (700017, 700016, 700071, 700019, 700020, 700025)Why It Works
 
-## Live Online Coding Classes near Camac Street — What Parents Should Know
+## Premium live online, built for time-poor families
 
-Camac Street parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Camac Street is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from La Martiniere, Loreto House, Modern High School and other central Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Modern Age Coders is a premium, live online coding and maths school — every class is taught in real time by a full-time engineer or maths graduate to a small batch of 6–8 students, never delivered as a pre-recorded video. For Camac Street's time-poor professional families, this means studio-quality teaching that arrives at home, on schedule, without anyone crossing Park Street traffic.
 
-📺
+### Live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is a live classroom, not a playback. Your child can interrupt, ask "why did that break", and get an answer in the same breath — exactly as they would in a La Martiniere classroom. There is no "watch the video and figure it out alone" gap that pre-recorded courses leave behind.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small batches of 6–8
 
-👨‍👩‍👧‍👦
+We cap live batches at 6–8 students, with mini batches of 3–4 and fully personalised 1-on-1 options. The teacher knows every child's name, pace and weak spots within the first week. No child hides at the back; no question waits twenty minutes for a turn.
 
-### Max 6–8 Students per Live Batch
+### Taught by real engineers
 
-Smaller than any Camac Street-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are led by full-time software engineers and maths graduates, not gig-economy part-timers reading a script. They have shipped real software and solved real maths, so when a Theatre Road teen asks how a feature works in production, the answer comes from experience, not a slide.
 
-🏠
+### Project-based, not theory-only
 
-### Zero Travel through Camac Street Traffic
+Children build working things from the first month — a tool, a bot, a small app — not just notes to memorise. This project-first approach is why a Russell Street child can show a finished Python program to a parent at dinner, instead of describing what a loop is in the abstract.
 
-No fighting evening Camac Street and Park Street office-hour traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Fits the corporate-corridor day
 
-📝
+Live online slots into the Camac Street rhythm: school dismisses around 2:30 PM, the driver has the child home by 3:15 PM, and class begins at 4:30 PM while parents are still at the office. No 90-minute round trip to a Gariahat tuition flat, no unsupervised travel through a dense commercial zone.
 
-### Recordings + Notes After Each Class
+### Continuous across cities & time zones
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Because the classroom is online, learning never breaks when a finance or consulting family travels or relocates. The same teacher, same batch and same curriculum continue from a Dubai hotel, a Bengaluru posting or a Park Mansions flat — no restarting with a new tutor every move.
 
-💻
+Course Catalogue
 
-### Project-Based, Not Theory-Heavy
+## Every course we run, live online
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids and teens ages 8–17 | Python from scratch plus AI fundamentals; build games, bots and small apps in live project batches |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young beginners leaving block coding | Variables, loops and first real programs — a gentle bridge from Scratch to Python |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9–10 Computer Applications | The exact BlueJ Java syllabus, board-style programs, practicals and viva prep |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens ages 13–18 | Core Java and OOP foundations — the ICSE essential plus general programming strength |
+| [Java DSA Course](/java-dsa-course) | Teens and college students | Data structures and algorithms in Java for placements and competitive coding |
+| [AI/ML for Teens](/ai-ml-course-for-teens) | Teens ages 13–18 | Machine-learning foundations and your first working models, explained for school-age learners |
+| [AI/ML for College Students](/ai-ml-course-for-college-students) | College students and serious learners | Applied AI/ML for placements and data-focused careers |
+| [C++ DSA Course](/c-plus-plus-dsa-course) | College students and competitive programmers | C++ data structures and algorithms for CP, DSA interviews and placements |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls, kids and teens | Girls-only Princess/Queen Coders batches building tech confidence and leadership |
+| [CBSE/ICSE Computer Science Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 board students | Complete board CS: theory, practicals, projects and exam prep (ICSE Java / CBSE Python) |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1–12, all boards, through college | Structured maths plus Olympiad prep (AMC, IOQM, RMO, IMO) and college maths |
+| [Summer Coding Camp](/summer-coding-camp) | Kids, teens and adults on summer break | A full coding module completed intensively in 3–4 weeks |
+| [Winter Coding Camp](/winter-coding-camp) | Kids, teens and adults on winter break | A full holiday-intensive coding module in 3–4 weeks |
 
-👨‍🏫
+See the full catalogue on the [All Courses](/courses) page, or check [Pricing](/pricing) for every plan.
 
-### Parent Updates Every Month
+Featured Tracks
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three tracks Camac Street families start with
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+Most In-Demand
 
-## Schools near Camac Street Whose Students Learn with Us
+### Python & AI for Kids and Teens
 
-Students from **St. Xavier's Collegiate School (ICSE)**, **La Martiniere for Boys**, **Future Foundation School**, and **Assembly of God Church School** in and around the Camac Street corridor join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is the language we recommend most Camac Street families start with — it is the most in-demand language in industry and the gentlest to learn well. In small live batches, children move from their first `print()` to writing real programs and AI-aware projects, guided by an engineer who uses Python at work. It is also the CBSE Class 11–12 Computer Science language, so school and skill reinforce each other.
 
-Whether your child follows the ICSE, CBSE, or ISC curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Camac Street offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn:** Variables, loops, functions and AI basics. **You'll build:** games, bots and a finished mini-app to show at home.
 
-## What Your Child Will Learn with Modern Age Coders
+[Start with Python →](/python-and-ai-classes-for-kids-teens)
 
-Camac Street's professional parents expect nothing less than excellence. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+ICSE Essential
 
-🎨
+### Java for ICSE Students
 
-### For Kids (Ages 6-12)
+For St. Xavier's, La Martiniere and St. James' students, Java is not optional — it is the language behind ICSE Computer Applications for Class 9–10. We teach the exact BlueJ syllabus your school sets, drilling board-style programs, practical files and viva answers, then extend into proper object-oriented thinking. This is the difference between scraping a board pass and genuinely understanding the code. ISC and Class 11–12 students continue in our complete [Computer Science for Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) course.
 
-Camac Street's professional parents start their children's tech education early.
+**You'll learn:** OOP, classes, the BlueJ board syllabus and viva prep. **You'll build:** clean, board-ready programs with confidence.
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+[Master Java for ICSE →](/java-programming-for-icse-students)
 
-💻
+Future-Facing
 
-### For Teens (Ages 13-18)
+### AI & Machine Learning for Teens
 
-Where the children of Kolkata's corporate corridor build the skills they'll use.
+Camac Street parents who work in finance, consulting and export already see AI reshaping their own industries, and they want their children ahead of it. Our AI/ML track takes teens from Python foundations to building their first real machine-learning models — explained for school-age minds, not diluted into buzzwords. College-bound students can continue into our applied AI/ML for college and placements.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+**You'll learn:** ML foundations, data handling and model building. **You'll build:** a working model you can explain end to end.
 
-🎓
+[Explore AI & ML →](/ai-ml-course-for-teens)
 
-### For College Students
+Schools We Serve
 
-Camac Street's college students gain the coding edge for corporate placements.
+## Children from the schools around Camac Street
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Modern Age Coders teaches children from the leading schools around Camac Street, including St. Xavier's Collegiate School (Mother Teresa Sarani), La Martiniere for Boys and La Martiniere for Girls (Loudon Street and Rawdon Street), Loreto House (Middleton Row), St. James' School (AJC Bose Road), Assembly of God Church School, Pratt Memorial School, Modern High School for Girls, Future Foundation School and M.P. Birla Foundation. Because we are fully live online, a child anywhere in the 700017 belt joins the same small batch without a single minute of commute.
 
-💼
+This is a predominantly ICSE/ISC neighbourhood, with a strong CBSE minority — and our teaching maps directly onto both. For ICSE Class 9–10 we follow the BlueJ [Java for ICSE](/java-programming-for-icse-students) syllabus, programs, practicals and viva; for board finals we run a complete [Computer Science for Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) course covering ICSE Java and CBSE Python. A family with one ICSE child and one CBSE child can run both tracks side by side, and [school maths](/online-maths-tuition) from Grade 1 through college sits alongside the coding.
 
-### For Professionals
+The Neighbourhood
 
-Upskilling programmes for the professionals who work along Camac Street's corporate corridor.
+## Camac Street — Kolkata's downtown corporate corridor
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+Camac Street — Abanindranath Tagore Sarani — is Kolkata's downtown corporate corridor, where law chambers, banks, consulates, advertising houses and export firms stack up inside Park Mansions, Industries House and the Russell Street and Theatre Road towers. The families who live here, in Park Mansions flats and Russell Street walk-ups, often work in those very buildings: consulting, finance, law, design, export. They are time-poor, two-income and globally networked, and they already know that coding and applied maths matter. What they want is not persuasion — it is a serious, well-structured programme.
 
-📊
+That is exactly the gap live online fills here. The Camac Street–Park Street–AJC Bose Road belt is gridlocked through office hours and again at the school run, so a child finishing at St. Xavier's or La Martiniere can lose an hour crawling to a Gariahat or Ballygunge tuition flat and another hour back. With Modern Age Coders, the driver drops the child home near Minto Park or Rawdon Street by 3:15 PM, and class begins at 4:30 PM — no traffic, no unsupervised travel through Free School Street and Chowringhee, no evening lost to logistics.
 
-### Mathematics for All Ages
+What we love about teaching this neighbourhood is how quickly its children turn code into something real. These are households where a parent's work — an export invoice, a cause-list, a team lunch order — is visible at the dinner table, and the children build software to solve exactly those problems. The projects below were all built by students from the Camac Street belt, and every one of them shipped to a real user at home.
 
-Camac Street's professional parents know maths and code are inseparable.
+PROJECT / 01
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### Consulate Currency Converter
 
-☀️
+A La Martiniere Class 8 boy living off Theatre Road built a Python tool that converts INR to USD, GBP and EUR at the day's rate for his father's export-house invoices. His father now opens it before every overseas call instead of checking three websites.
 
-### Summer & Winter Camps
+PROJECT / 02
 
-Intensive short-term programs during school breaks.
+### Fort Knox Lunch-Order Splitter
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A St. James' Class 9 student, whose mother works in a Camac Street office, built a small web app that splits the weekly team tiffin order and per-head cost across 11 colleagues — ending the daily WhatsApp confusion over who owes what.
 
-## Why Camac Street Parents Choose Modern Age Coders
+PROJECT / 03
 
-🎥
+### Middleton Row Carpool Tracker
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+A Loreto House Class 7 girl built a Python program that schedules the shared school car between three Park Mansions families, printing each morning's pickup order so the drivers stop calling each other at 6:45 AM.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Camac Street's professional families expect quality education to work.
+"My evenings are unpredictable, but the class isn't — she logs in at 4:30 whether I'm home or stuck on Camac Street, and she's actually building things."
 
-👥
+PParentPark MansionsAreas & Pin Codes
 
-### Small Batches — Maximum 6-8 Students
+## The Camac Street, Park Street & AJC Bose Road belt
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+We serve families across pin codes **700017, 700016, 700071, 700019, 700020** and **700025** — the Camac Street, Park Street and AJC Bose Road belt.
 
-🧰
+Camac StreetRussell StreetTheatre RoadWood StreetPark StreetLoudon StreetRawdon StreetMiddleton RowFree School StreetElgin RoadAJC Bose RoadShakespeare SaraniMinto ParkPark MansionsChowringheeBallygunge edge
 
-### Coding + Maths Combined — Only in India
+Live anywhere near Camac Street and not listed above? Because every class is live online, your exact street does not matter — [book a free demo](/contact) from wherever you are in central Kolkata.
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Camac Street's corporate families trust us over single-subject alternatives.
+Weekly Schedule
 
-💰
+## Slots that fit the corporate-corridor day
 
-### Starting at Just ₹1,499/month
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-school early | 4:30 PM – 5:30 PM | Primary and middle school (ages 6–12) home by 3:15 | Mon / Wed / Fri |
+| After-school late | 6:00 PM – 7:00 PM | Teens balancing school homework | Tue / Thu |
+| Evening | 7:30 PM – 8:30 PM | ICSE/ISC board students and older teens | Mon / Wed |
+| Weekend morning | 10:00 AM – 11:30 AM | Project-intensive and 1-on-1 sessions | Sat / Sun |
+| Weekend afternoon | 4:00 PM – 5:30 PM | Working adults and college learners | Sat / Sun |
+| Flexible / custom | By arrangement | Families with unpredictable corporate hours | As agreed |
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+Honest Comparison
 
-## Camac Street: Cosmopolitan Kids, Curiosity-Driven Parents, and Almost No Time
+## Where live online wins — and where it doesn't
 
-Camac Street isn't really a residential neighbourhood — it is the city's commercial spine, with high-rise corporate offices stacked above old residential apartments. The families that live in those Park Mansions flats, Russell Street walk-ups, and Theatre Road buildings are mostly two-income, often international, and almost always time-poor. The mother is a partner at a law firm on Old Court House Street; the father runs an export business out of an Outram Street office. Their child goes to La Martiniere or Modern High School and has homework that the parents can rarely sit and help with.
+### Where live online wins
 
-For these families, coding classes are not optional. The parents know their world — consulting, finance, law, design — is being remade by software. They want their child to grow up with code as a first language, the way they grew up with English. But they also don't have the bandwidth to drive their child to Gariahat tuition rooms after school, and the offline centres along Camac Street are absurdly expensive without being noticeably better.
+- Zero commute — no hour lost crawling through Camac Street, Park Street or AJC Bose Road traffic each way
+- No unsupervised travel for a child through a dense commercial and office zone
+- Small live batches of 6–8 with full teacher attention, not a crowded tuition room
+- Taught by full-time engineers and maths graduates, not whoever is local
+- Sessions can be recorded for revision, so a missed evening is never a lost lesson
+- Learning continues unbroken when a corporate family travels or relocates
+- Same premium teacher and curriculum whether you sit in Park Mansions or a Dubai hotel
 
-Our live online format slots into the Camac Street rhythm perfectly. School ends at 2:30 PM. Driver drops the child home by 3:15 PM. By 4:30 PM the child is at her desk, headphones on, learning Python or Scratch live from an instructor. The parents are still at work. The driver is on the next school pickup. Nobody had to lose 90 minutes to logistics.
+### When offline still wins (honest)
 
-### Recent Projects Built by Students from Camac Street
+- Very young first-timers (5–6) who still need a parent physically beside them to settle in
+- Households without a reliable laptop, tablet or stable broadband connection
+- Children who genuinely focus only with a tutor physically in the room
+- Pure exam-cramming weeks where a child wants a fixed neighbourhood study desk
 
-These are real student projects from our Camac Street batches — small, useful, and unmistakably theirs.
+For most Camac Street families — busy, connected and short on time — live online delivers more attention and zero commute. [Book a free demo](/contact) and judge the quality for yourself.
 
-#### Hindi-to-English Vocab Trainer
+How To Start
 
-A Class 7 girl from Russell Street built a Python program to help her grandmother learn 50 new English words a week. The grandmother now sends her vocabulary score by WhatsApp every Sunday.
+## From first call to first project, in four steps
 
-#### Mom's Court Hearing Calendar
+01
 
-A teen from Park Mansions built a small web app that his lawyer mother uses to track her cause-list across three courts. She replaced her paper diary after three weeks.
+### Book a free demo
 
-#### Loudon Street Cricket Score Bot
+Tell us your child's age, school and board, and [book a free demo class](/contact) — one live session, no commitment.
 
-A Modern High School Class 9 boy from Theatre Road built a Python bot that posts the score of his weekend gully cricket league to a group of 30 friends via Telegram.
+02
 
-“
+### Meet your teacher
 
-We both work full days and can't take the child to coaching rooms. The reason this format works is that the class happens in our drawing room while we're still at our desks.
+Your child joins a real engineer or maths graduate live, and we assess their current level and pace in that first session.
 
-— A Camac Street parent, paraphrased from a recent conversation.
+03
 
-## Neighbourhoods near Camac Street We Serve
+### Pick your track and batch
 
-Because every class is live online, we serve students across the entire Camac Street belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+Choose a course and a batch size that fits — group, mini batch or 1-on-1 — and a slot that suits your hours; see [pricing](/pricing) and [all courses](/courses).
 
-### Pin codes we actively teach in
+04
 
-**700017** (Camac Street, Russell Street, Theatre Road), **700016** (Park Street, Free School Street), **700019** (Ballygunge edge), **700020** (Elgin Road, AJC Bose), **700071** (Chowringhee touch), **700025** (Bhowanipore side), **700013** (Esplanade edge).
+### Start building
 
-### Localities our students log in from
+Classes begin, projects start in the first month, and you watch the work appear — at home, on schedule, near Camac Street.
 
-Camac StreetRussell StreetTheatre RoadWood StreetPark StreetLoudon StreetFree School StreetChowringheeOutram StreetRawdon StreetMirza Ghalib StreetElgin RoadAJC Bose RoadShakespeare SaraniPark Mansions
+Parent Review
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+## What a Camac Street parent says
 
-## Class Timings & Weekly Schedule for Students near Camac Street
+"We were looking for something serious, not just another tuition. Modern Age Coders gave my son a proper structured programme with a teacher who actually knows the subject. The live classes and small batch made all the difference — he's genuinely enjoying coding now."
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
-
-☀️
-
-### Morning Slot — 9:00 to 11:00 AM
-
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
-
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
-
-🏫
-
-### After-School Slot — 4:30 to 7:30 PM
-
-The most popular slot for kids and teens near Camac Street. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Camac Street parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at La Martiniere for Boys, La Martiniere for Girls, Modern High School and similar Camac Street-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Modern High School, Future Foundation, M.P. Birla Foundation and other CBSE-track Camac Street-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that La Martiniere, St. James' School, Loreto House, Modern High School and other ICSE-track Camac Street-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Camac Street — Honest Comparison
-
-The Camac Street and Park Street belt has premium tuition centres at premium prices. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Camac Street centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Camac Street crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Camac Street
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Camac Street
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home near Camac Street. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"Somraj has been learning Python with Modern Age Coders for the past six months. The structured curriculum and the patience of the instructors have made a real difference. He now solves problems independently and has started building his own projects. As a working parent, I appreciate how organised and professional the classes are."
-
-RRia MukherjeeMother of Somraj
+SSonam OswalMother of Dhairya
 
 [Read more on our Wall of Love →](/love)
 
-## Frequently Asked Questions — Coding & Maths near Camac Street
+Questions, Answered
 
- Are there coding classes for kids near Camac Street, Kolkata? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Camac Street. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from St. Xavier's, La Martiniere, and other schools near Camac Street are already learning with us. What is the fee for coding and maths classes near Camac Street? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Camac Street? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that schools near Camac Street follow. How can my child near Camac Street attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Russell Street or Theatre Road? +Three big differences. **First**, batch size: most Camac Street tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Camac Street and Park Street office-hour traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Camac Street? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Camac Street belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Camac Street? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Camac Street. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at La Martiniere, Loreto House, Modern High School and other central Kolkata schools and other Camac Street-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
+## Camac Street coding & maths FAQ
 
-## Start Your Child's Coding & Maths Journey from Camac Street Today
+Every class is fully live — a real teacher teaching in real time to a small batch, never a pre-recorded video. Your child can ask questions and get answers in the moment, exactly like a classroom. You can [book a free demo](/contact) to see a live session before deciding.Group classes (batch of 6-8) are from ₹1,499/month, mini batches of 3-4 are ₹2,499/month, and fully personalised 1-on-1 classes are ₹4,999/month. Full details are on the [pricing page](/pricing). There are no hidden charges, and the first demo is free.We teach ICSE, ISC, CBSE and state board students, which suits the Camac Street mix of St. Xavier's, La Martiniere, Loreto (ICSE/ISC) and Modern High, M.P. Birla (CBSE). Bengali and Hindi-medium learners are welcome too. Coding is board-agnostic; our [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) maps to ICSE Java and CBSE Python.Yes — our [Java for ICSE](/java-programming-for-icse-students) course follows the precise BlueJ Java syllabus that St. Xavier's, La Martiniere and St. James' set for Class 9-10, including board-style programs, practical files and viva prep. We drill the exact patterns examiners look for, then build genuine OOP understanding on top.Yes. We offer flexible and custom slots for families with late or shifting corporate hours, and sessions can be recorded so a missed class is never a lost lesson. Your child reviews the recording and resumes with the same batch and teacher.Yes — because every class is live online, your child keeps the same teacher, batch and curriculum from any city or time zone. Whether you are in a Park Mansions flat, a Bengaluru posting or a Dubai hotel, the classroom simply opens on your laptop. Nothing restarts and no new tutor is needed.A neighbourhood tuition room means an hour each way through Park Street and AJC Bose Road traffic, a crowded room, and whoever is locally available teaching. We deliver small live batches of 6-8 taught by full-time engineers, at home, with zero commute. The teaching quality and the time saved are both higher.Yes. A family can run both tracks side by side — [Java for ICSE](/java-programming-for-icse-students) for the ICSE/ISC child and [Python](/python-and-ai-classes-for-kids-teens) or CBSE-aligned Computer Science for the CBSE child. Each child sits in the batch that matches their level and board.We teach ages 6 to 65 — from [Scratch for young kids](/courses/coding/kids), through [Python](/python-and-ai-classes-for-kids-teens) and [Java](/java-programming-for-kids-teens) for teens, to [DSA and placement prep for college](/courses/coding/college) and adults. Every learner is placed in an age-appropriate batch.Classes are taught by full-time software engineers and maths graduates, not gig-economy part-timers. They have built real software and solved real maths, so children learn current, practical methods rather than a memorised script.Alongside coding we offer structured [online maths tuition](/online-maths-tuition) for Grades 1-12 across all boards and into college, including Olympiad prep (AMC, IOQM, RMO, IMO). Many Camac Street families take coding and maths together with the same provider.A laptop or desktop is ideal (a tablet works for younger children), with a stable broadband connection and a webcam. No special software purchase is required — we guide you through the free tools used in class during the demo.Classes are taught in clear English, the medium of the area's schools, and teachers comfortably support students in Hindi where it helps understanding. The aim is that the concept lands, not that a child struggles with language.Yes — our [Coding Classes for Girls](/coding-classes-for-girls) run as Princess and Queen Coders batches, building technical skill and confidence in a girls-only environment, ideal for students from Loreto House, La Martiniere for Girls and Modern High School for Girls.Yes, learners receive a certificate on completing their course module. To begin, [book a free demo class](/contact) — one live session, no commitment — and you can read real parent reviews on our [Wall of Love](/love) first.
 
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why professional parents across Camac Street trust Modern Age Coders.
+## Premium live coding & maths, minus the Camac Street commute.
 
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
+Small live batches, real engineers, projects from the first month — start with one free class and see the quality yourself.
 
-## Coding & Maths Classes in Other Areas of Kolkata
+[Book a Free Demo Class](/contact)[Explore All Courses](/courses)[+91 91233 66161](https://wa.me/919123366161)Nearby & Related
 
-We serve students across Kolkata and Howrah. Explore classes near your area.
+## Coding & maths classes in nearby localities
 
-[Park Street](/coding-classes-near-park-street-kolkata)[Loudon Street](/coding-classes-near-loudon-street-kolkata)[Elgin Road](/coding-classes-near-elgin-road-kolkata)[Shakespeare Sarani](/coding-classes-near-shakespeare-sarani-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
+[Park Street](/coding-classes-near-park-street-kolkata)[Loudon Street](/coding-classes-near-loudon-street-kolkata)[Elgin Road](/coding-classes-near-elgin-road-kolkata)[Shakespeare Sarani](/coding-classes-near-shakespeare-sarani-kolkata)[AJC Bose Road](/coding-classes-near-ajc-bose-road-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-School-specific: [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [Don Bosco Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [Coding & Maths for St. James' School and AJC Bose Road](/coding-classes-near-ajc-bose-road-kolkata) • [Board Exam Prep — Computer Science for Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course)
 
 ---
 
