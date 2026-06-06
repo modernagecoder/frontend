@@ -1,362 +1,254 @@
 ---
-title: "Coding & Maths Classes near Howrah City, Howrah | Modern Age Coders"
-description: "Live online coding classes near Howrah City, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah city schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Howrah City"
+description: "Premium live online coding & maths classes near Howrah City, Howrah. Small batches, full-time engineer tutors, ICSE/CBSE-aligned. From ₹1,499/month. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-howrah-city-howrah
-keywords: ["Howrah City coding classes", "coding classes Howrah", "Don Bosco Howrah", "St Thomas Church School Howrah", "maths tuition Howrah", "online coding Howrah", "coding for kids Howrah", "Python classes Howrah", "ICSE tuition Howrah", "CBSE computer science Howrah", "coding near Howrah Bridge", "kids coding classes Howrah City"]
+keywords: ["coding classes near Howrah City", "coding classes in Howrah", "online coding classes Howrah", "Python classes Howrah", "Java classes Howrah", "AI ML course Howrah", "maths tuition Howrah", "ICSE computer classes Howrah", "CBSE computer science Howrah", "coding classes Salkia Shibpur", "kids coding Howrah Maidan", "live online coding Howrah"]
 source: src/pages/coding-classes-near-howrah-city-howrah.html
 ---
-> Live online coding classes near Howrah City, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah city schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Premium live online coding & maths classes near Howrah City, Howrah. Small batches, full-time engineer tutors, ICSE/CBSE-aligned. From ₹1,499/month. Free demo.
 
-World-Class Education, This Side of the Bridge — Live Online
+LIVE ONLINE · HOWRAH CITY, HOWRAH
 
-# Coding & Maths Classes for Students near Howrah City, Howrah
+# Live Online Coding & Maths Classes near Howrah City
 
-The twin city. Just across Howrah Bridge from Kolkata's finest institutions, yet historically underserved by quality after-school education. Howrah City is home to **Don Bosco School Howrah (ICSE)**, **St. Thomas' Church School Howrah (ICSE)**, **Howrah Zilla School**, **Shibpur Dinobundhoo Institution**, and **Kendriya Vidyalaya Howrah (CBSE)** — schools that produce excellent students year after year. But when those students wanted coding education beyond school ICT labs, they had to cross the bridge. Not anymore. With **100% live online classes** from Modern Age Coders, a student in Howrah City gets the exact same education, the exact same instructor, and the exact same quality as a student in Ballygunge or Salt Lake. The bridge no longer matters. From a six-year-old learning Scratch to a Class 12 student preparing for ICSE Java practicals, our courses bring Kolkata-grade tech education directly to Howrah doorsteps — no commute, no compromise.
+Modern Age Coders runs premium, live online coding and mathematics classes for families across Howrah City — from Howrah Maidan and Salkia to Shibpur, Pilkhana and the GT Road belt. Every class is taught live by full-time engineers and maths graduates in small batches of 6–8, never pre-recorded. Your child gets the same Kolkata-grade tuition that families once crossed Howrah Bridge for — now live to your home, with zero commute. Fees start at ₹1,499/month.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% live · not recordedSmall batches of 6–8Engineer & maths-graduate tutorsNo bridge, no commute6–8Students per live batch₹1,499Starting fee per month24 hrsFrom demo to first class1–12+Grades & ages we teach[Book a Free Demo Class](/contact)[Explore All Courses](/courses)AT A GLANCE
 
-Free demo • No commitment • Classes start within 24 hours
+## The essentials, in one place
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online, interactive** — taught in real time, never pre-recordedBatch sizeSmall live batches of **6–8**; mini batches of 3–4; or 1-on-1AgesKids 6–12, teens 13–18, college students and working adults (ages **6 to 65**)SubjectsCoding (Python, Java, AI/ML, web, DSA) and Mathematics (Grade 1–12 + Olympiad)BoardsICSE, CBSE, ISC and WBBSE/state — taught in English, Bengali or HindiFeesFrom **₹1,499/month** (group), ₹2,499/month (mini batch), ₹4,999/month (1-on-1)Free demoYes — one free live demo class; classes can start within 24 hoursServingHowrah Maidan, Salkia, Pilkhana, Shibpur, Kadamtala, Mandirtala, Santragachi side, GT Road belt and all of Howrah CityLIVE · PREMIUM QUALITY
 
-## Live Online Coding Classes near Howrah City — What Parents Should Know
+## Live, engineer-led and premium — not recorded video
 
-Howrah City parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Howrah City is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah city schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Our Howrah City classes are 100% live, premium-quality and taught by full-time engineers and maths graduates — not recorded videos, not part-time freelancers. Each child learns in a small live batch where the teacher sees their screen, corrects their code in real time, and builds real projects with them every single week. This is the standard Howrah families once had to cross the bridge for, delivered live to your home.
 
-📺
+### Genuinely live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is a real, two-way live class — your child speaks, asks doubts, and shares their screen with the teacher. There are no pre-recorded videos to watch alone. If a concept does not click, the teacher re-explains it on the spot until it does.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small live batches of 6–8
 
-👨‍👩‍👧‍👦
+We cap group batches at 6–8 students so every child is seen, heard and corrected by name. Prefer even closer attention? Choose a mini batch of 3–4 or fully personalised 1-on-1 classes. No child sits at the back of a crowded online room.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers & maths graduates
 
-Smaller than any Howrah City-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Your child is taught by full-time professional engineers and maths graduates who code and teach for a living — not college-student stand-ins. They know the ICSE and CBSE syllabus, real industry tools, and how to explain hard ideas simply to a nervous beginner.
 
-🏠
+### Project-based from day one
 
-### Zero Travel through Howrah Maidan Traffic
+Children do not just watch — they build. From the first weeks they create working programs, games, calculators and data tools they can show family and friends. Real projects build real confidence, and a real portfolio for school and college applications.
 
-No fighting evening Howrah Bridge approach and GT Road traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### No bridge, no commute
 
-📝
+A good Kolkata-side centre once meant crossing the jammed Howrah Bridge or fighting Mullick Phatak and GT Road traffic — 45 to 90 minutes each way. Live online erases that entirely. A child in a Salkia or Shibpur lane gets the same teacher without ever leaving home.
 
-### Recordings + Notes After Each Class
+### Flexible timings & easy catch-up
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Classes flex around Howrah school hours, tuition loads and evening commitments. Miss a class for an exam, a function or load-shedding? We arrange a structured catch-up so your child never falls behind. Schedules bend to your family, not the other way around.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## Every course, live online to Howrah City
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+Below is the full Modern Age Coders catalogue available live online to Howrah City — every course is taught live, project-based, and links to its full syllabus.
 
-👨‍🏫
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids and teens (10–17) starting a real text-based language | Live Python plus intro AI — games, scripts and your first smart programs |
+| [Java for Kids/Teens](/java-programming-for-kids-teens) | Teens, especially ICSE students needing board Java | Java aligned to the ICSE BlueJ syllabus plus solid OOP foundations |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9–10 Computer Applications students | Theory plus every practical that appears in the Class 10 BlueJ paper |
+| [AI/ML for Teens](/ai-ml-course-for-teens) | Teens (13–18) exploring AI and machine learning | Beginner-friendly ML with real, working model-building projects |
+| [AI/ML for College Students](/ai-ml-course-for-college-students) | College students and serious learners | Full AI/ML pipeline — data, models, evaluation and applied projects |
+| [Machine Learning for Beginners](/machine-learning-course-for-beginners) | Beginners with basic Python entering ML | Foundational ML concepts and hands-on model training from scratch |
+| [Java DSA Course](/java-dsa-course) | College students and placement-prep candidates | Data structures and algorithms in Java for interviews and CP |
+| [Computer Science Class 11–12 (CBSE/ICSE)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 board CS / Informatics Practices students | Complete CBSE Python and ICSE Java theory, practicals and projects |
+| [Computer Applications ICSE Class 10](/computer-applications-icse-class-10) | ICSE Class 10 Computer Applications students | Board-aligned Java/BlueJ coverage for the Class 10 paper |
+| [Coding for ICSE Students](/coding-for-icse-students) | ICSE-board students of all classes | A coding pathway mapped to the full ICSE curriculum |
+| [Coding for CBSE Students](/coding-for-cbse-students) | CBSE-board students of all classes | A coding pathway mapped to the full CBSE curriculum |
+| [Mathematics — Online Maths Tuition](/online-maths-tuition) | Grades 1–12, all boards, plus Olympiad aspirants | School maths Grade 1–12 and Olympiad prep (IOQM, RMO, IMO) |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only batches (Princess & Queen Coders) | Dedicated girls' batches building tech confidence and leadership |
 
-### Parent Updates Every Month
+Looking for something else — kids' Scratch, the full teen track, or college MERN and placements? See the [complete course directory](/courses), the [kids' track (ages 6–12)](/courses/coding/kids), the [teen track (13–18)](/courses/coding/teens) and the [college/professional track](/courses/coding/college), or compare plans on [pricing](/pricing).
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+FEATURED TRACKS
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+## Three tracks Howrah families start with
 
-## Schools near Howrah City Whose Students Learn with Us
+MOST IN-DEMAND
 
-Students from **Don Bosco School Howrah (ICSE)**, **St. Thomas' Church School Howrah (ICSE)**, **Howrah Zilla School**, **Shibpur Dinobundhoo Institution**, and **Kendriya Vidyalaya Howrah (CBSE)** in and around Howrah City join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+### Python & AI — the language to start with
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform serving Howrah offers this depth of coding education alongside structured mathematics tutoring.
+Python is the world's most in-demand programming language and the perfect first real language for a Howrah City student. Taught live and project-first, your child moves from simple scripts to genuinely useful tools — and gets an early taste of AI. It is the headline track for kids and teens, and the foundation everything else builds on.
 
-## What Your Child Will Learn with Modern Age Coders
+**You'll learn:** Python syntax, logic and problem-solving. **You'll build:** games, calculators and your first AI-flavoured programs.
 
-Howrah parents have the same aspirations as Kolkata's best neighbourhoods. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+[Explore Python & AI →](/python-and-ai-classes-for-kids-teens)
 
-🎨
+ICSE BOARD-ESSENTIAL
 
-### For Kids (Ages 6-12)
+### Java — built for ICSE, strong for everyone
 
-Howrah's children deserve the same world-class coding foundation as Kolkata's best.
+For Howrah's many ICSE students — Don Bosco Liluah, St. Thomas', M.C. Kejriwal — Java is not optional; it is the board language taught in BlueJ. Our live Java course follows the exact ICSE syllabus while building real object-oriented foundations that carry into college and placements. Adults and career-switchers learn job-focused Java on the same track.
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+**You'll learn:** Java, OOP and the full BlueJ practical set. **You'll build:** board-ready programs and real applications.
 
-💻
+[Explore Java →](/java-programming-for-kids-teens)
 
-### For Teens (Ages 13-18)
+FUTURE-READY
 
-Where Howrah's brightest ICSE and CBSE students build skills the bridge once blocked.
+### AI & Machine Learning — build, don't just watch
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+AI and machine learning are reshaping every field Howrah's engineering families work in. We teach ML the practical way — beginner-friendly for teens, deeper for college students and professionals — so learners actually train models rather than memorise theory. For an IIEST aspirant or a curious Class 11 student, this is a genuine head start.
 
-🎓
+**You'll learn:** how models are trained, evaluated and deployed. **You'll build:** real ML projects for your portfolio.
 
-### For College Students
+[AI/ML for Teens →](/ai-ml-course-for-teens) · [AI/ML for College Students →](/ai-ml-course-for-college-students)
 
-From IIEST Shibpur to Howrah's engineering colleges — placement-ready coding skills.
+SCHOOLS SERVED
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+## From every Howrah school — without crossing the river
 
-💼
+We teach students from across Howrah City's leading schools — including Don Bosco School Liluah, St. Thomas' Church School, M.C. Kejriwal Vidyapeeth and St. Aloysius' Day School (ICSE); Kendriya Vidyalaya Santragachi and Indian Public School Howrah Maidan (CBSE); and Howrah Zilla School, Shibpur Dinobundhoo Institution, Salkia Vidyapith and Howrah Vivekananda Institution (WBBSE/state). Because every class is live online, a child from any Howrah school — ICSE convent, CBSE school or Bengali-medium state institution — learns from the same engineer-tutors without crossing the river.
 
-### For Professionals
+Our teaching maps directly to what your child studies in school. ICSE students get Java exactly as it appears in the Class 10 BlueJ Computer Applications paper; CBSE students get the Python-based Computer Science syllabus; and board-exam candidates in Classes 11–12 get complete, structured preparation. If you want coverage tied tightly to the board paper, start with our [Computer Science Class 11–12 (CBSE/ICSE) course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) or [Computer Applications for ICSE Class 10](/computer-applications-icse-class-10).
 
-Upskilling programmes for working professionals staying relevant in tech.
+THE NEIGHBOURHOOD
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+## Howrah City — and the bridge that used to be in the way
 
-📊
+Howrah City is Kolkata's working twin across the Hooghly — a dense, hard-grafting fabric of railway colonies, jute and engineering families, and old riverside neighbourhoods like Salkia, Pilkhana and Shibpur. The education culture here is practical and aspirational at once: parents are careful with money, but fiercely committed to giving their children an early edge. For generations that meant either making do with what was nearby, or sending a child across the bridge night after night.
 
-### Mathematics for All Ages
+The schools are strong — the ICSE convents around Liluah, the CBSE classrooms at KV Santragachi and Indian Public School near Howrah Maidan, the big state institutions along the GT Road belt. What has long lagged is quality after-school tech coaching on the Howrah side itself. A serious coding or maths tutor usually meant Howrah Bridge at rush hour, or Mullick Phatak and the Howrah Maidan crossing — 45 to 90 minutes each way that a school-going child simply cannot spare.
 
-Howrah parents know maths and code are inseparable.
+Live online changes the arithmetic completely. A child in a Salkia lane near Pilkhana, or a Shibpur student a short walk from IIEST, opens a laptop and is in the same live class as everyone else — taught by the same full-time engineer, building the same project, asking doubts out loud. No ferry, no bridge, no waiting at the Bandhaghat jetty. The bridge that once stood between Howrah's children and a good tech education is no longer in the way.
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+PROJECT 01
 
-☀️
+### Bandhaghat Ferry Timetable App
 
-### Summer & Winter Camps
+A Class 9 Shibpur student built a Python app showing the next Howrah-to-Kolkata ferry departures from Bandhaghat and Ramkrishnapur ghats, so riverside commuters skip the wait at the jetty.
 
-Intensive short-term programs during school breaks.
+PROJECT 02
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+### Salkia Railway-Colony Tuition Scheduler
 
-## Why Howrah Parents Choose Modern Age Coders
+A Class 10 girl from a Pilkhana railway family coded a small scheduler that juggles her siblings' and neighbours' tuition slots and sends a reminder before each class.
 
-🎥
+PROJECT 03
 
-### The Bridge Barrier, Removed
+### Howrah Maidan Metro Crowd Estimator
 
-No more crossing Howrah Bridge for quality coding education. Our 100% live online classes bring the same instructors, same curriculum, and same teaching quality directly to your home in Howrah City — zero commute required.
+A Class 11 IIEST aspirant built a Python program that logs Howrah Maidan Metro entry counts by hour and charts the least-crowded times to travel for evening classes.
 
-👥
+"My son builds things now instead of just watching videos — and we never once had to cross the bridge for a class."
 
-### Small Batches — Maximum 6-8 Students
+HA Howrah City parentparaphrasedAREAS & PIN CODES
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+## Across Howrah City — wherever your lane
 
-🧰
+Serving Howrah City pin codes **711101, 711102, 711103, 711104, 711106, 711108 and 711109**.
 
-### Coding + Maths Combined — Only in India
+Howrah MaidanHowrah Station areaSalkiaPilkhanaShibpurKadamtalaMandirtalaSantragachi sideBandhaghatRamkrishnapurLiluah edgeBelilious RoadGT Road HowrahForeshore RoadMullick Phatak
 
-Algorithms need mathematical thinking. Equations click better when you code them. Howrah has a proud engineering heritage — our combined approach honours that legacy while preparing students for the future.
+Live anywhere in or around Howrah City? If your home has a laptop and a basic internet connection, your child can join our live classes — wherever the lane, whichever the school.
 
-💰
+SCHEDULE
 
-### Starting at Just ₹1,499/month
+## Flexible live slots, built around Howrah routines
 
-Equal access at an affordable price. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+Classes run live across the week in flexible slots built around Howrah school hours and evening routines.
 
-## Howrah: Industrial Spine, Railway Roots, and a Generation Coding Their Way Up
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Morning | 8:00–11:00 AM | Weekend learners, home-schoolers, college students | Sat–Sun |
+| Afternoon | 1:00–4:00 PM | Younger kids on half-day or early-finish school days | Mon–Fri |
+| Early evening | 5:00–7:00 PM | School students after Howrah school hours | Mon–Sat |
+| Late evening | 7:00–9:00 PM | Teens with tuition loads, working adults | Mon–Sat |
+| Weekend intensive | Flexible | Camp-style fast-track and exam crunch prep | Sat–Sun |
 
-Howrah is older than Kolkata in many senses. The Hooghly riverside, the Howrah Maidan, the railway colony lanes around Salkia and Pilkhana, the mills around Shibpur and Mandirtala — this is the industrial twin of Kolkata, with its own deep history and culture. The families that live in central Howrah are often three or four generations into the city: jute mill engineers, railway mechanics, port workers, small business owners.
+**Note:** Exact timings are personalised at booking. Missed a class for an exam, function or load-shedding? We arrange a structured catch-up.
 
-Children go to Howrah Vivekananda Institution, St. Thomas' Day School, Don Bosco Liluah, and the various Howrah Maidan schools. Parents tend to be conservatively practical: education is the lever that lifts the family, and coding is the new version of what an engineering diploma was for the previous generation.
+HONEST COMPARISON
 
-We've taught children from this entire belt — Shibpur, Mandirtala, Kadamtala, Pilkhana, Salkia. The pattern: parents are careful with money but absolutely committed to giving their child a head start. Our ₹1,499/month entry-level pricing is what gets them through the door; the teaching is what keeps them.
+## Where live online wins — and where it doesn't
 
-### Recent Projects Built by Students from Howrah
+### Where live online wins
 
-These are real student projects from our Howrah batches — small, useful, and unmistakably theirs.
+- No commute — no crossing Howrah Bridge, no Mullick Phatak or GT Road traffic, no 45–90 minute each-way ordeal.
+- The same Kolkata-grade engineer-tutors reach a Salkia or Shibpur home that a local centre never could.
+- Small live batches of 6–8 mean more individual attention than a crowded neighbourhood classroom.
+- Your child shares their screen, so the teacher corrects the actual code in real time.
+- Safer and easier for parents — no sending a child out alone after dark or through riverside lanes.
+- Every project is saved digitally, building a portfolio your child can show schools and colleges.
+- Easy, structured catch-up for missed classes — nothing is lost to an exam, a function or load-shedding.
 
-#### Salkia Mill Workers' Shift Tracker
+### When offline still wins
 
-A Class 9 boy whose grandfather worked at a Howrah jute mill built a Python script that tracks worker shift patterns. The grandfather is touched.
+- A young child who genuinely cannot focus without a person physically beside them.
+- Homes with no reliable laptop, tablet or internet connection at all.
+- Families who specifically want a neighbour's child to attend in the same physical room.
+- Learners who prefer pen-and-paper-only coaching with no screen involved.
 
-#### Howrah Station Train Arrival Bot
+For most Howrah City families with a laptop and a basic connection, live online delivers better teachers, smaller batches and zero commute — the bridge is no longer a barrier. [Book a free demo](/contact) and judge for yourself.
 
-A Class 11 student built a small Python tool that estimates the next four Howrah Mail arrivals. His father (who commutes from Bandel) uses it.
+HOW TO START
 
-#### Don Bosco Liluah Class Marks Chart
+## From first message to first class in 24 hours
 
-A Class 10 girl built a Python program that takes her class's quarterly marks and shows where she stands. Five classmates now use it.
+Getting started takes one free demo class, and your child can begin within 24 hours.
 
-“
+01
 
-I worked at a Howrah factory for 30 years. I don't want my son to. Coding is his ticket. Your price made it possible for me to send him.
+### Book a free demo
 
-— A Howrah parent, paraphrased from a recent conversation.
+Tell us your child's age, board and goal, and pick a slot on the [contact page](/contact) or message us on WhatsApp.
 
-## Neighbourhoods near Howrah City We Serve
+02
 
-Because every class is live online, we serve students across the entire Howrah City belt and adjoining Howrah localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+### Attend the live demo
 
-### Pin codes we actively teach in
+Your child meets a real engineer-tutor in a live class and tries actual coding or maths — no recordings, no obligation.
 
-**711101** (Howrah Station, Pilkhana, Salkia), **711102** (Shibpur, Howrah Maidan), **711103** (Kadamtala, Shibpur edge), **711104** (Mandirtala, Santragachi side), **711105** (Belur side), **711106** (Bandhaghat), **711108** (Liluah edge).
+03
 
-### Localities our students log in from
+### Pick a plan & schedule
 
-Howrah MaidanHowrah Station areaPilkhanaSalkiaShibpurKadamtalaMandirtalaSantragachi sideBandhaghatLiluah edgeBelilious RoadGT Road HowrahHooghly riversideForeshore RoadHowrah Bridge approach
+Choose group, mini batch or 1-on-1 from [pricing](/pricing), and we fix timings around your Howrah school and tuition hours.
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+04
 
-## Class Timings & Weekly Schedule for Students near Howrah City
+### Start building
 
-Most Howrah schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+Regular live classes begin, often within 24 hours, and your child starts building real projects from week one. Browse the full [course catalogue](/courses) to plan the path ahead.
 
-☀️
+PARENT VOICE
 
-### Morning Slot — 9:00 to 11:00 AM
+## What a Howrah parent says
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+"What sold us was not having to put our child on the road every evening — the class comes home, live, and the teacher actually corrects his code as he types. He went from watching tutorials to writing his own small programs, and he is far more confident asking questions now."
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
-
-🏫
-
-### After-School Slot — 4:30 to 7:30 PM
-
-The most popular slot for kids and teens near Howrah City. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Howrah City parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Howrah Vivekananda Institution, St. Thomas' Day School Howrah, Don Bosco Liluah and similar Howrah City-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Don Bosco Liluah, KV Howrah, Adamas International and other CBSE-track Howrah City-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Howrah Vivekananda Institution, St. Thomas' Day School, MC Kejriwal Vidyapeeth and other ICSE-track Howrah City-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Howrah City — Honest Comparison
-
-Howrah city has many private tuition rooms scattered across Shibpur, Salkia, and Kadamtala. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Howrah City centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Howrah Maidan traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Howrah City
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Howrah
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Howrah. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"I highly recommend this coding class! The teachers are incredibly knowledgeable and passionate. They explain complex concepts in a way that's easy to understand and always encourage students to think critically. The class atmosphere has really boosted my son's confidence."
-
-RRitu KediaMother of Aditya
+MA parent in Howrah Cityverified review
 
 [Read more on our Wall of Love →](/love)
 
-## Frequently Asked Questions — Coding & Maths near Howrah City
+FAQ
 
- Do I need to travel to Kolkata for coding classes from Howrah City? +Not at all. Modern Age Coders classes are 100% live and online. Your child learns from home in Howrah City with the same instructors and curriculum as students anywhere in Kolkata. All you need is a laptop and internet connection — no crossing the bridge required. Are the classes the same quality as Kolkata coaching centres? +Yes — in fact, better. Our live online classes have small batches of 6-8 students, far smaller than most Kolkata coaching centres. Every student gets individual attention, real-time doubt clearing, and personalised feedback from the same expert instructors. The quality is identical regardless of whether you join from Howrah or anywhere else. What coding courses are available for kids in Howrah City? +We offer Scratch and block-based coding for ages 6-8, HTML/CSS web design for ages 8-10, Python programming for ages 10+, and Java for ICSE students. Classes start at ₹1,499/month with small batches. Students from Don Bosco Howrah, St. Thomas' Church School, and other Howrah schools are already learning with us. Do you offer ICSE and CBSE Computer Science tuition for Howrah students? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — ideal for students from Don Bosco Howrah, St. Thomas' Church School, Kendriya Vidyalaya Howrah, and other Howrah schools. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Howrah Station area or Pilkhana? +Three big differences. **First**, batch size: most Howrah City tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Howrah Bridge approach and GT Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Howrah City? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Howrah City belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Howrah City? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Howrah City. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah city schools and other Howrah City-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
+## Questions Howrah City families ask
 
-## Start Your Child's Coding & Maths Journey from Howrah Today
+We are 100% live online — there is no physical centre to travel to. Every class is a real, two-way live session with an engineer or maths-graduate tutor, not a recorded video. It delivers the same quality Howrah families once crossed the bridge for, without the commute. [Book a free demo](/contact) to experience it.Yes — and for most families it is better. Your child gets the same Kolkata-grade tutors in a small live batch of 6–8, shares their screen for real-time correction, and saves 45–90 minutes of bridge and GT Road traffic each way. The teaching quality does not drop; the commute simply disappears.Yes. We map directly to your child's board — ICSE Java/BlueJ as it appears in the Class 10 paper, and the CBSE Python-based Computer Science syllabus. Start with [Computer Applications for ICSE Class 10](/computer-applications-icse-class-10), [Coding for CBSE Students](/coding-for-cbse-students), or the [Class 11-12 board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Yes. Our tutors teach in English, Bengali or Hindi, matched to whatever your child is most comfortable with. Medium of instruction at school is never a barrier — we adapt the explanation to the student.Yes — ₹1,499/month is the full fee for our small group batch (6–8 students), with no hidden charges. A mini batch of 3–4 is ₹2,499/month, and fully personalised 1-on-1 classes are ₹4,999/month. See the breakdown on [pricing](/pricing).We teach kids from age 6, teens, college students and working adults. Coding runs from Scratch for young children up to DSA, MERN and AI/ML for college and professionals, and our [maths tuition](/online-maths-tuition) covers Grade 1-12 plus Olympiad prep.Python, Java, AI/ML, web development, data structures and algorithms, and full school mathematics. Most students start with [Python & AI](/python-and-ai-classes-for-kids-teens) or, for ICSE board needs, [Java](/java-programming-for-kids-teens).Yes. We offer afternoon, early-evening and late-evening slots, plus weekends, all arranged around your child's school and tuition schedule. Timings are personalised at booking.Nothing is lost. We arrange a structured catch-up so your child covers the missed material and stays with their batch. Just let us know in advance where possible.A laptop or desktop is ideal (a tablet works for younger kids), plus a basic broadband or 4G connection. You do not need anything high-end — most ordinary Howrah home connections handle our live classes smoothly.Every class is genuinely live and interactive — your child speaks, asks doubts and shares their screen with the teacher. We never use pre-recorded videos as the lesson. This is the core of our premium, high-quality approach.Group batches are capped at 6–8 students so every child is seen and corrected by name. You can also choose a mini batch of 3–4 or fully personalised 1-on-1 classes for even closer attention.Yes. Our [Princess Coders and Queen Coders](/coding-classes-for-girls) are dedicated girls-only batches that build coding skill and confidence in a comfortable, supportive live setting.Yes. Students receive a certificate on completing their course or module, and — more importantly — a portfolio of real projects they have built that schools and colleges value. See examples on our [Wall of Love](/love).The demo is genuinely free, with no obligation. Book on the [contact page](/contact) or message us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161), attend a live trial, and if it's a fit, regular classes can begin within 24 hours.
 
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Howrah trust Modern Age Coders.
+## The bridge is no longer in the way
 
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
+Premium, live, engineer-led coding and maths for your child — right here in Howrah City, with zero commute and a free demo to start.
 
-## Coding & Maths Classes in Other Areas of Howrah & Kolkata
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)[+91 91233 66161](https://wa.me/919123366161)NEARBY AREAS
 
-We serve students across Howrah and Kolkata. Explore classes near your area.
+## Coding & maths classes near you in Howrah
 
-[Shibpur](/coding-classes-near-shibpur-howrah)[Kadamtala](/coding-classes-near-kadamtala-howrah)[Mandirtala](/coding-classes-near-mandirtala-howrah)[Santragachi](/coding-classes-near-santragachi-howrah)[All Kolkata Areas](/best-coding-class-in-kolkata)
+[Shibpur](/coding-classes-near-shibpur-howrah)[Kadamtala](/coding-classes-near-kadamtala-howrah)[Mandirtala](/coding-classes-near-mandirtala-howrah)[Santragachi](/coding-classes-near-santragachi-howrah)[Bally](/coding-classes-near-bally-howrah)[All Kolkata Areas](/best-coding-class-in-kolkata)
+
+School-specific / board link: [Computer Applications for ICSE Class 10 (Don Bosco, St. Thomas', M.C. Kejriwal students)](/computer-applications-icse-class-10)
 
 ---
 
