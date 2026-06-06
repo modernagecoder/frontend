@@ -1,364 +1,251 @@
 ---
-title: "Coding & Maths Classes near Lake Gardens, Kolkata | Modern Age Coders"
-description: "Live online coding classes near Lake Gardens, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, Birla High, Modern High and other South Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Lake Gardens"
+description: "Live online coding & maths classes near Lake Gardens, Kolkata. Python, Java, AI/ML + maths for South Point, Birla High, DPS Ruby Park. Small batches, free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-lake-gardens-kolkata
-keywords: ["Lake Gardens Kolkata coding classes", "coding near Lake Gardens", "DPS Ruby Park Kolkata", "maths tuition Lake Gardens", "coding for kids Lake Gardens Kolkata", "Python classes Lake Gardens South Kolkata", "online coding Lake Gardens", "ICSE CBSE tuition Lake Gardens", "Scratch programming Lake Gardens", "AI classes Lake Gardens Kolkata", "teen coding Lake Gardens", "coding classes near me Lake Gardens"]
+keywords: ["coding classes Lake Gardens Kolkata", "coding classes near Lake Gardens", "Python classes Lake Gardens", "Java ICSE coding Lake Gardens", "maths tuition Lake Gardens Kolkata", "online coding classes South Kolkata", "AI ML classes for teens Kolkata", "coding for kids Lake Gardens", "ICSE computer applications Java tuition", "CBSE computer science Python class", "DPS Ruby Park coding classes", "coding classes near Tollygunge Jodhpur Park"]
 source: src/pages/coding-classes-near-lake-gardens-kolkata.html
 ---
-> Live online coding classes near Lake Gardens, Kolkata for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for South Point, Birla High, Modern High and other South Kolkata schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Lake Gardens, Kolkata. Python, Java, AI/ML + maths for South Point, Birla High, DPS Ruby Park. Small batches, free demo.
 
-Family-First Education — Live Online Classes
+Lake Gardens, South Kolkata · 100% Live Online Classes
 
-# Coding & Maths Classes for Students near Lake Gardens, Kolkata
+# Live Online Coding & Maths Classes near Lake Gardens, Kolkata
 
-A quiet, family-oriented residential pocket in South Kolkata. Parents in Lake Gardens are deeply involved in their children's education — they research options, compare curricula, and choose programmes that deliver genuine learning over flashy marketing. Schools like **Jodhpur Park Boys' School**, **DPS Ruby Park (CBSE)**, **Lake Gardens Govt. School**, and nearby **Ashutosh Memorial Institute** serve families who prioritise substance. In a neighbourhood where parents attend every PTM and track every report card, the expectation for after-school education is equally high. Modern Age Coders meets that expectation with **100% live online coding and mathematics classes** — small batches of 6-8 students where every child gets personal attention, taught live by instructors who explain, not just lecture. No pre-recorded shortcuts. From a six-year-old building their first Scratch game to a DPS Ruby Park student preparing for CBSE Computer Science board exams, our courses are designed for families who care about the how, not just the what.
+Modern Age Coders runs 100% live online coding and mathematics classes for families in Lake Gardens, Kolkata — Python, Java, AI/ML and school maths, taught in small batches of 6–8 by full-time software engineers and maths graduates, not pre-recorded videos. Children from South Point, Birla High, Modern High and DPS Ruby Park learn from the same desk at home, with no Prince Anwar Shah Road commute. Book a free demo today.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% Live, Not RecordedSmall Batches (6–8)Taught by Full-Time EngineersFrom ₹1,499/month[Book a Free Demo Class](/contact)[Explore All Courses](/courses)6–8Students per live batch1:1Personalised option4.9/5Parent rating24 hrsDemo to first classLive Online · Lake Gardens, Kolkata
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, real-time with a teacher — never pre-recordedBatch sizeGroup max 6–8, Mini Batch 3–4, or 1-on-1 personalisedAges6 to 18 for school tracks; college and working professionals also taught (6 to 65)SubjectsCoding (Python, Java, Scratch, AI/ML, web, DSA) + Mathematics (Grade 1 to college)BoardsICSE, CBSE, ISC, IGCSE and WBBSE — Java for ICSE, Python for CBSEFeesGroup from ₹1,499/month; Mini Batch ₹2,499/month; 1-on-1 ₹4,999/monthFree demoA full live class, not a sales call; classes can start within 24 hoursServingLake Gardens (700045) and Jodhpur Park, Dhakuria, Tollygunge, Charu Market, Kalighat, Golf GreenWhy Live, Why Small
 
-## Live Online Coding Classes near Lake Gardens — What Parents Should Know
+## Premium teaching, delivered live to your desk
 
-Lake Gardens parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Lake Gardens is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from South Point, Birla High, Modern High and other South Kolkata schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Modern Age Coders delivers premium, high-quality coding and maths education to Lake Gardens entirely through live online classes — every session is taught in real time by a full-time engineer or maths graduate, in a batch small enough that your child is seen and heard. Nothing here is a pre-recorded video on autoplay. This is the same standard of teaching a Lake Gardens family would expect from a private tutor, delivered live to the same desk where homework already happens.
 
-📺
+### Live, never pre-recorded
 
-### 100% Live, Not Pre-Recorded
+Every class is a live session with a teacher who can see your child's screen, catch a wrong loop the moment it is typed, and answer a question the second it is asked. There is no "play, pause, hope it makes sense" — the lesson adapts to your child in real time. That is the difference between watching coding and learning it.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Batches of 6–8, by design
 
-👨‍👩‍👧‍👦
+We cap group batches at 6–8 students, with Mini Batch (3–4) and 1-on-1 options for families who want more attention. In a Lake Gardens-sized batch, every child writes code in front of the teacher, presents work, and debugs alongside peers — the opposite of a 30-seat Gariahat coaching hall where a quiet child disappears.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers
 
-Smaller than any Lake Gardens-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Your child is taught by full-time software engineers and qualified maths graduates, not college students moonlighting between their own exams. They write production code and teach as their profession, so they explain not just the syntax but how it is actually used. Parents who research curricula carefully — as Lake Gardens parents do — can verify this in the free demo.
 
-🏠
+### Project-based, not note-based
 
-### Zero Travel through Lake Gardens signal Traffic
+Children build real, working things — a sale-tracker, a train-schedule tool, a maths drill app — instead of copying whiteboard notes. Each module ends with a portfolio project the child can demo and, for ICSE and CBSE students, files compiled in the format the school accepts for board project submission.
 
-No fighting evening Prince Anwar Shah Road and Lake Gardens traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Replaces a commute, never adds one
 
-📝
+A 100% live online class happens from home, so it replaces the evening tuition trip rather than adding a fifth one. No crawling through the Prince Anwar Shah Road or Tollygunge Phari signal jams, no changing autos at the Lake Gardens halt crossing — saving roughly 90 minutes of commute on each class day. The 5–6 PM session ends and the child is free to play or finish homework.
 
-### Recordings + Notes After Each Class
+### Coding and maths under one roof
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Modern Age Coders is built on the idea that maths and code belong together. The same platform that teaches your child Python also runs structured [school maths](/online-maths-tuition) from Grade 1 to college, including Olympiad prep (AMC, IOQM, RMO, IMO). One trusted teaching standard, two subjects, no second vendor to vet.
 
-💻
+Course Catalogue
 
-### Project-Based, Not Theory-Heavy
+## Every track a Lake Gardens family might need
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids and teens (9–17) | India's most in-demand language plus AI basics; foundation for CBSE Class 11–12 Informatics Practices |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Beginners and younger teens | A gentle first route into core Java with BlueJ — logic, syntax and small programs, before any board pressure |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens (13–18) | Intro to AI/ML concepts and hands-on model projects pitched at school age |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1–12 and college, all boards | Structured maths from Grade 1 to college, including Olympiad prep (AMC, IOQM, RMO, IMO) |
+| [Coding for Kids (Scratch)](/courses/coding/kids) | Kids (6–12) | Block-based Scratch coding, animations and first games |
+| [Coding for Teens](/courses/coding/teens) | Teens (13–18) | Python, Java and web development on a guided teen track |
+| [Coding for College (DSA)](/courses/coding/college) | College students | Data Structures & Algorithms, MERN and placement preparation |
+| [CBSE/ICSE Computer Science Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 board CS students | Complete ICSE Java + CBSE Python board course for Computer Science and Informatics Practices |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9–10 (board track) | Syllabus-mapped Computer Applications: every prescribed practical and theory topic, with pre-board revision |
+| [Best AI & ML Course in India](/best-ai-and-machine-learning-course-in-india) | College students and serious learners | Pillar AI/ML track from Python through real model building |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls (Princess / Queen Coders) | Girls-only batches building tech confidence and leadership |
+| [Java DSA Course](/java-dsa-course) | College and placement prep | Data Structures & Algorithms taught in Java |
+| [Summer Coding Camp](/summer-coding-camp) | All ages on a break | A full module completed in an intensive 3–4 week camp |
 
-👨‍🏫
+Browse everything on the [full Courses index](/courses) or compare plans on the [pricing page](/pricing).
 
-### Parent Updates Every Month
+Featured Tracks
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three routes most Lake Gardens students take
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+Most In-Demand
 
-## Schools near Lake Gardens Whose Students Learn with Us
+### Python & AI for Kids and Teens
 
-Students from **Jodhpur Park Boys' School**, [DPS Ruby Park (CBSE)](/coding-classes-for-dps-ruby-park-kolkata), **Lake Gardens Govt. School**, **Shri Shikshayatan School** (nearby), and **Ashutosh Memorial Institute** in and around Lake Gardens join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is the language a Lake Gardens teenager should learn first — readable, used everywhere from school projects to real software, and the exact language CBSE chose for Class 11–12 Computer Science and Informatics Practices. We start gentle and quickly move to building real tools, the way our students built a Lake-side sale-tracker and a board-maths drill app. A DPS Ruby Park (CBSE) child can take Python while an ICSE-board sibling takes Java — both in the same household.
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Lake Gardens offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn:** Variables, logic, functions and files. **You'll build:** a working tool of your own (tracker, planner or drill app).
 
-## What Your Child Will Learn with Modern Age Coders
+[Start with Python →](/python-and-ai-classes-for-kids-teens)
 
-Lake Gardens parents research every option — and choose the one that truly teaches. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+ICSE Board Essential
 
-🎨
+### Java with BlueJ for ICSE Students
 
-### For Kids (Ages 6-12)
+For South Point, Birla High, Modern High and Shri Shikshayatan students, Java in BlueJ *is* the Class 10 ICSE Computer Applications syllabus — and the ISC Class 11–12 syllabus after it. We cover the full theory plus every prescribed practical, taught by engineers who write Java professionally, so concepts like classes, arrays and string handling actually make sense before the board practical. Pre-board revision included.
 
-Lake Gardens parents research every option — and choose the one that truly teaches.
+**You'll learn:** Classes, objects, arrays, string handling. **You'll build:** board-style BlueJ programs and a projected-grade marks tool.
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+[Java for ICSE students →](/java-programming-for-icse-students)
 
-💻
+Future-Ready
 
-### For Teens (Ages 13-18)
+### AI & Machine Learning
 
-Where DPS Ruby Park and neighbourhood teens build skills for the real world.
+For the ambitious Lake Gardens teenager who has outgrown "hello world," AI and Machine Learning is the next real step — and for college students and professionals, it is a career track. We teach AI/ML concepts hands-on, building small models rather than reciting buzzwords, scaling from a teen-friendly [AI/ML for Teens](/ai-ml-course-for-teens) course up to the [pillar AI & ML course](/best-ai-and-machine-learning-course-in-india) for serious learners.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+**You'll learn:** Data handling and model basics. **You'll build:** a working ML mini-project you can explain in an interview.
 
-🎓
+[Explore AI & ML →](/ai-ml-course-for-teens)
 
-### For College Students
+Schools We Serve
 
-Lake Gardens' college students prepare for placements with structured coding.
+## A track for every blazer in the neighbourhood
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Modern Age Coders teaches children from the full mix of Lake Gardens-area schools — ICSE institutions including South Point High School, Birla High School, Modern High School for Girls, Shri Shikshayatan School and La Martiniere for Boys; the CBSE strong-hold of DPS Ruby Park; and the WBBSE/state-board base of Jodhpur Park Boys' School, Jodhpur Park Girls' High School, Nava Nalanda High School and Ram Mohan Mission High School. Whatever crest is on your child's blazer, there is a track built for their board.
 
-💼
+The board your child sits decides the language they need. ICSE and ISC students at South Point, Birla High and Modern High write Java in BlueJ for Computer Applications and Computer Science, while CBSE students at DPS Ruby Park work in Python for Informatics Practices and Computer Science. Our [complete CBSE/ICSE Computer Science course for Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers both — ICSE Java and CBSE Python — so a household with one child in each board is fully served, and project files are prepared in the format each school accepts for board submission.
 
-### For Professionals
+The Neighbourhood
 
-Upskilling programmes for working professionals staying relevant in tech.
+## Lake Gardens, honestly
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+Lake Gardens is one of South Kolkata's quietest pockets — a low-rise, family-owned belt wedged between Kalighat, Jodhpur Park, Tollygunge and Charu Market, with the Budge Budge-line railway halt running straight through it. It is old-money and intellectual: doctors, college professors and senior IT managers whose children top their classes and whose parents attend every PTM. Here, education is taken seriously and marketing is taken with a pinch of salt. Families want substance, not a flashy brochure.
 
-📊
+The honest tension in a Lake Gardens home is over-scheduling. Many of these children already carry three tuitions near Lake Market, and the common refrain at the dinner table is "we don't want a sixth tuition." That is exactly why a live online class earns its place here — it is not an extra trip. It replaces the evening crawl through the Prince Anwar Shah Road and Tollygunge Phari signal jams, the auto-change at the Lake Gardens halt crossing, the 40–50 minutes lost each way. The child stays at the same desk; the 5–6 PM class ends and they are free.
 
-### Mathematics for All Ages
+And these parents check the work. They sit in on the first few classes, they ask who is teaching, they want to see that it is a full-time engineer and not a part-time tutor reading slides. We welcome that scrutiny — it is the reason the teaching has to be genuinely good. The proof is in what the children build, not in what we claim.
 
-Lake Gardens families know maths and code are inseparable.
+### Budge Budge Line Halt Board
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+A Class 9 South Point student built a Python tool that prints the next four down-line locals stopping at the Lake Gardens halt, so her younger brother stops missing the train to his Sealdah-side coaching.
 
-☀️
+### Pujo Pandal Hop Planner
 
-### Summer & Winter Camps
+A Class 8 boy from a Jodhpur Park family wrote a Python program that sorts the nearby Maddox Square, Lake and Tollygunge pandals by distance and queue time, mapping the family's Ashtami route in the shortest walk.
 
-Intensive short-term programs during school breaks.
+### ICSE Java Marks Predictor
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A Class 10 Birla High student built a BlueJ Java console app that takes her component test scores and projects her likely ICSE Computer Applications board grade, used through her pre-board revision.
 
-## Why Lake Gardens Parents Choose Modern Age Coders
+"We did not want a sixth tuition — we wanted one thing done properly. This replaced an evening trip instead of adding one, and I could see the engineer actually teaching my son in the first class."
 
-🎥
+LA Lake Gardens parentparaphrasedAreas We Serve
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+## Lake Gardens and across South Kolkata
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Lake Gardens families expect quality education to work.
+Serving Lake Gardens (700045) and the surrounding South Kolkata pin codes — 700033, 700031, 700068, 700029 and 700040.
 
-👥
+Lake GardensJodhpur ParkDhakuriaTollygungeCharu MarketKalighatSouth End ParkSelimpurNaktalaBansdroniLake MarketPrince Anwar Shah Road beltGolf GreenRanikuthi
 
-### Small Batches — Maximum 6-8 Students
+Live online, so we teach families right across South Kolkata and beyond. Not on the list? See [all the Kolkata areas we serve](/best-coding-class-in-kolkata) — your locality is almost certainly covered.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+Live Batch Timings
 
-🧰
+## Slots that fit around school and tuition
 
-### Coding + Maths Combined — Only in India
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-school early | 4:00 – 5:00 PM | Kids (6–12), Scratch & first Python | Tue & Thu |
+| Evening prime | 5:00 – 6:00 PM | School-age teens, Python / Java | Mon & Wed |
+| Evening late | 6:30 – 7:30 PM | ICSE/CBSE board CS, exam prep | Tue & Fri |
+| Night | 8:00 – 9:00 PM | College students, AI/ML & DSA | Sat & Sun |
+| Weekend morning | 10:00 – 11:30 AM | Working professionals, upskilling | Sat or Sun |
+| Flexible 1-on-1 | By arrangement | Any age needing a custom timetable | Chosen with family |
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Lake Gardens parents trust us over single-subject alternatives.
+Timings are arranged around school-bus return times and existing maths tuition; tell us your child's free window and we will fit a live batch into it.
 
-💰
+An Honest Comparison
 
-### Starting at Just ₹1,499/month
+## Where live online wins — and when it does not
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+### Where live online wins
 
-## Lake Gardens: The Pleasantly Wooded, Quietly Ambitious Belt
+- No commute — replaces the Prince Anwar Shah Road / Tollygunge Phari trip and saves ~90 minutes on each class day.
+- Smaller batches (6–8) than a 20–40 seat physical coaching hall, so every child is actually taught.
+- Taught by full-time engineers nationwide, not whoever happens to tutor near Lake Market.
+- Every class is recorded — a missed session is never a lost session.
+- The child's own laptop becomes the classroom, so the coding setup is the one they will keep using.
+- Parents can sit in from the same room and verify quality without "visiting a centre."
+- Easy to pause during Durga Pujo, board exams or a family trip, with no charge for paused weeks.
 
-Lake Gardens is one of those Kolkata neighbourhoods that looks ordinary at first glance and reveals its quality only after you've spent time there. The streets are tree-lined, the apartments mostly low-rise and well-built, and the families — doctors, professors, senior management at IT companies — are not noisy about success.
+### When offline still wins
 
-Children from Lake Gardens go to South Point, Birla High, Modern High, La Martiniere, and DPS Ruby Park. They tend to be high academic performers, but their parents are careful not to over-schedule them. The phrase we hear most often from Lake Gardens parents is "we don't want a sixth tuition".
+- A child who needs an adult physically present to stay on task may do better in a room at first.
+- Very young or first-time learners sometimes settle faster with a teacher beside them.
+- Households without a reliable laptop or stable broadband should sort that out before starting.
+- Some families simply value the ritual of leaving the house to study, and that is a fair preference.
 
-That is precisely why our live online format works: it replaces a tuition trip, not adds one. Same chair, same desk, same headphones. Class begins at 5 PM, ends at 6 PM, and the child is free to do homework or play till dinner.
+For most Lake Gardens families — laptop at home, broadband already on, a child who is academically driven but over-scheduled — live online wins on every count that matters. Try a [free demo](/contact) and judge it for yourself.
 
-### Recent Projects Built by Students from Lake Gardens
+How To Start
 
-These are real student projects from our Lake Gardens batches — small, useful, and unmistakably theirs.
+## From demo to first class in four steps
 
-#### Lake Mall Sale Tracker
+01
 
-A Class 9 girl built a Python script that watches her favourite store's sale page and alerts her mother — the family has saved on three Pujo shopping trips this year.
+### Book a free demo
 
-#### DPS Ruby Park Maths Drill
+Tell us your child's age, board and free time slot and we will schedule a full live demo class — a real lesson, not a sales pitch.
 
-A Class 10 boy built a Python program that drills him on 40 board-style maths questions per session. He used it for his pre-board prep.
+[Book a free demo →](/contact)
 
-#### Tollygunge Local Train Schedule
+02
 
-A Class 11 student built a small Python utility that prints the next four local trains at the Lake Gardens halt, which she uses for her college commute.
+### Sit in and verify
 
-“
+Join the demo from the same room, watch a full-time engineer teach, and confirm the batch size and teaching standard before you commit.
 
-We didn't want a sixth tutor for our daughter. Modern Age Coders fits without adding a single commute. That was the whole reason we picked it.
+[See the Wall of Love →](/love)
 
-— A Lake Gardens parent, paraphrased from a recent conversation.
+03
 
-## Neighbourhoods near Lake Gardens We Serve
+### Pick the track and plan
 
-Because every class is live online, we serve students across the entire Lake Gardens belt and adjoining Kolkata localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+Choose the right course and a plan that fits — group from ₹1,499, Mini Batch ₹2,499, or 1-on-1 at ₹4,999.
 
-### Pin codes we actively teach in
+[View pricing →](/pricing)
 
-**700045** (Lake Gardens core), **700033** (Tollygunge edge), **700031** (Dhakuria touch), **700068** (Jodhpur Park edge), **700026** (Lake Market edge), **700029** (Southern Avenue edge), **700040** (Naktala side).
+04
 
-### Localities our students log in from
+### Start within 24 hours
 
-Lake GardensJodhpur ParkDhakuria edgeTollygunge edgeSouth End ParkLake Mall sideNaktala borderBansdroni edgeSelimpurPrince Anwar Shah RoadLake MallTollygunge Phari8B Bus Stand sideKarunamoyee TollygungeAnwar Shah Road
+Once you are happy, regular live classes can begin within a day, fitted around school and existing tuitions.
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+[Explore courses →](/courses)
 
-## Class Timings & Weekly Schedule for Students near Lake Gardens
+From A Parent
 
-Most Kolkata schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+## What it looks like from a Lake Gardens home
 
-☀️
+"Modern Age Coders has been wonderful for my son Dhairya. The classes are genuinely live and interactive, the batch is small enough that he never hides at the back, and his teacher is patient and clearly knows the subject deeply. He looks forward to every session and is now building his own little projects. As a parent I could see the quality from the very first class."
 
-### Morning Slot — 9:00 to 11:00 AM
+SSonam OswalMother of Dhairya
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+Read more from parents like Sonam on our [Wall of Love](/love).
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+Questions, Answered
 
-🏫
+## Frequently asked questions
 
-### After-School Slot — 4:30 to 7:30 PM
+Yes. Our [Java for ICSE students](/java-programming-for-icse-students) course covers the full Class 10 Computer Applications syllabus in BlueJ — every prescribed theory topic and practical program. For Class 11-12, the [complete CBSE/ICSE Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) continues into ISC Java. Pre-board revision is built in.It is not a fourth trip — it is a replacement for one. Because every class is [100% live online](/contact), there is no Prince Anwar Shah Road commute; the child stays at the same desk and the 5-6 PM class ends with their evening free. You are swapping a tuition journey for a focused live session, not stacking another one on top.Yes — Python for the CBSE child, Java for the ICSE child, often in different slots the same week. Our [Class 11-12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers both boards, and younger siblings can start on [Python](/python-and-ai-classes-for-kids-teens) or [Java](/java-programming-for-kids-teens) tracks. One platform serves the whole family.Yes. Your child is taught by full-time software engineers and qualified maths graduates, not college students between their own exams. You can verify it yourself in the free [demo class](/contact) — sit in, watch who teaches and how, and decide before committing.We run after-school (4-6 PM), evening (6:30-7:30 PM) and weekend slots, plus flexible 1-on-1 timings. Tell us your child's free window after the school bus and tuition, and we will fit a live batch into it. See the schedule above or ask on [contact](/contact).Group classes (max 6-8) start at ₹1,499/month, Mini Batch (3-4) is ₹2,499/month, and personalised 1-on-1 is ₹4,999/month. Full details are on the [pricing page](/pricing), and the demo class is free.100% live. Every session is real-time with a teacher who sees your child's screen and answers questions instantly — never an autoplay recording. You do, however, get the recording of each class afterwards for revision.You receive the full class recording, the instructor's notes and code, plus a short doubt-clearing session before the next live class. During Durga Pujo, board-exam weeks or a family trip, batches can be paused on request with no charge for the paused weeks.A basic laptop or desktop with 4 GB RAM (Windows, macOS or Ubuntu) is enough; Chromebooks work for Scratch and web. A 5 Mbps connection is comfortable, and most Jio Fiber, Airtel Xstream and ACT lines in Lake Gardens are well above that.No. Programming syntax is in English, but instructors explain in simple English and switch to Bangla or Hindi when it helps. Students from Bengali-medium schools enrol every batch and pick up the technical vocabulary within a few weeks.Yes, and we encourage it for the first few classes, especially for children under 12. Lake Gardens parents who like to vet a curriculum can see exactly what is taught and how. Most step away once the child is settled.Both. Modern Age Coders combines coding and mathematics, with structured [online maths tuition](/online-maths-tuition) from Grade 1 to college, including Olympiad prep (AMC, IOQM, RMO, IMO). One teaching standard covers both subjects.Yes. Our [Coding for Girls](/coding-classes-for-girls) Princess and Queen Coders batches are girls-only, building tech confidence and leadership in a supportive space — popular with Modern High and Shri Shikshayatan families.Yes. Every course ends with a completion certificate plus the portfolio of projects the child built. For ICSE and CBSE students, project files are compiled in the format the school accepts for board project submission.Book a free [demo class](/contact) — a real live lesson, not a pitch. Once you are happy with the teacher and batch, regular classes can begin within 24 hours, fitted around school and existing tuitions. Browse the [full course catalogue](/courses) any time.
 
-The most popular slot for kids and teens near Lake Gardens. School ends, snack, log in. Two classes a week, 60 minutes each.
+## Give your Lake Gardens child the one tuition worth keeping.
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
+Live, small-batch coding and maths — taught by real engineers, from the same desk at home. Book a free demo class and judge the quality yourself.
 
-🌚
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)[WhatsApp +91 91233 66161](https://wa.me/919123366161)Nearby Areas
 
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Lake Gardens parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at South Point primary, Birla High, Modern High and similar Lake Gardens-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at South Point, Birla High, DPS Ruby Park and other CBSE-track Lake Gardens-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that South Point High School, Modern High School, La Martiniere and other ICSE-track Lake Gardens-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Lake Gardens — Honest Comparison
-
-Lake Gardens and surrounding lanes have many small private tuition rooms. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Lake Gardens centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Lake Gardens signal traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Lake Gardens
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Lake Gardens
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Lake Gardens. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"The teachers at Modern Age Coders are wonderful. They teach in a clear, easy, and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
-
-SSonu GoyalFather of Nikit
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Lake Gardens
-
- Are there live coding classes for children near Lake Gardens, Kolkata? +Yes. Modern Age Coders offers 100% live online coding classes for kids aged 6-12 near Lake Gardens. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from DPS Ruby Park, Jodhpur Park Boys' School, and other Lake Gardens neighbourhood schools are already learning with us. What do coding and maths classes near Lake Gardens cost? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Can students from Lake Gardens get CBSE and ICSE Computer Science board exam preparation? +Absolutely. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built specifically for students from DPS Ruby Park and other CBSE/ICSE schools in the Lake Gardens area. My child studies at a school near Lake Gardens. How do they join your online classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed — learn from the comfort of your home in Lake Gardens. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Jodhpur Park or Dhakuria edge? +Three big differences. **First**, batch size: most Lake Gardens tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Prince Anwar Shah Road and Lake Gardens traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Lake Gardens? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Lake Gardens belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Lake Gardens? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Lake Gardens. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at South Point, Birla High, Modern High and other South Kolkata schools and other Lake Gardens-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Lake Gardens Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Lake Gardens trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Kolkata
-
-We serve students across Kolkata and Howrah. Explore classes near your area.
+## Coding & maths classes in other South Kolkata areas
 
 [Southern Avenue](/coding-classes-near-southern-avenue-kolkata)[Jodhpur Park](/coding-classes-near-jodhpur-park-kolkata)[New Alipore](/coding-classes-near-new-alipore-kolkata)[Tollygunge](/coding-classes-near-tollygunge-kolkata)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-School-specific: [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [Coding classes for DPS Ruby Park (CBSE)](/coding-classes-for-dps-ruby-park-kolkata)
 
 ---
 
