@@ -1,362 +1,257 @@
 ---
-title: "Coding & Maths Classes near Shibpur, Howrah | Modern Age Coders"
-description: "Live online coding classes near Shibpur, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Shibpur, Howrah"
+description: "Live online coding & maths classes near Shibpur, Howrah. Python, Java, AI/ML, Scratch + ICSE/CBSE board prep. Small live batches from ₹1,499/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-shibpur-howrah
-keywords: ["Shibpur Howrah coding classes", "coding near Shibpur", "IIEST Shibpur coding", "coding for kids Shibpur Howrah", "Python classes Shibpur", "maths tuition Shibpur Howrah", "online coding Shibpur", "engineering coding Shibpur", "Shibpur Dinobundhoo Institution", "Don Bosco Howrah coding", "ICSE tuition Shibpur", "teen coding Shibpur Howrah"]
+keywords: ["coding classes near Shibpur Howrah", "coding classes Shibpur", "IIEST Shibpur coding classes", "Python classes Shibpur Howrah", "Java BlueJ ICSE Shibpur", "maths tuition Shibpur Howrah", "online coding classes Howrah", "AI ML classes for teens Howrah", "CBSE computer science Howrah", "coding for kids Shibpur", "coding classes near Botanic Garden Howrah", "coding classes near Mandirtala"]
 source: src/pages/coding-classes-near-shibpur-howrah.html
 ---
-> Live online coding classes near Shibpur, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Shibpur, Howrah. Python, Java, AI/ML, Scratch + ICSE/CBSE board prep. Small live batches from ₹1,499/mo. Free demo.
 
 Engineering Heritage Meets Future Skills — Live Online
 
 # Coding & Maths Classes for Students near Shibpur, Howrah
 
-Home to IIEST (formerly Bengal Engineering College), one of India's oldest and most prestigious engineering institutions, Shibpur has engineering in its DNA — generations of engineers have walked these streets, and the neighbourhood's intellectual identity is inseparable from technology and innovation. Schools like **Shibpur Dinobundhoo Institution**, **Don Bosco School Howrah (ICSE)**, **St. Thomas' Church School Howrah (ICSE)**, and **Kendriya Vidyalaya Howrah (CBSE)** serve families who understand that technical education is not a luxury — it is a foundation. Yet structured coding classes for school-age children have been scarce on this side of the river. Modern Age Coders changes that with **100% live online coding and mathematics classes** — the same expert instructors and small batches that families in Salt Lake and Ballygunge trust, now accessible from every Shibpur home. From a six-year-old learning Scratch to a teenager preparing for JEE with our competitive maths programme, our courses help Shibpur's next generation start building their engineering foundation early.
+Modern Age Coders runs premium, 100% live online coding and mathematics classes for kids, teens and college students near Shibpur, Howrah. Built for IIEST's engineering-heritage neighbourhood, our small live batches (max 6–8) are taught by full-time software engineers and maths graduates — never pre-recorded video. Learn Python, Java, AI/ML, Scratch and school-to-Olympiad maths from home, with full ICSE and CBSE board support. From ₹1,499/month. Free demo today.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% Live Interactive4.9/5 Parent RatingMax 6–8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
 
 Free demo • No commitment • Classes start within 24 hours
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+500+Students Mentored4.9/5Average Parent Rating6–8Students per Live Batch90 minSaved per Class DayLive Online · Shibpur, Howrah
 
-## Live Online Coding Classes near Shibpur — What Parents Should Know
+## At a Glance
 
-Shibpur parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Shibpur is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Format**100% live online, small-batch** — never pre-recorded videoBatch sizeMax 6–8 (group), 3–4 (mini batch), or 1-on-1Ages6 to 65 — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, Web, DSA) + Mathematics (school to Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), WBBSE state board — Bengali & Hindi-medium friendlyFeesGroup ₹1,499/mo • Mini Batch ₹2,499/mo • 1-on-1 ₹4,999/moFree demoYes — no commitment; classes start within 24 hours of enrolmentServingShibpur, Botanic Garden area, IIEST side, Mandirtala, Howrah Maidan, Kadamtala, Bandhaghat & nearby (711102, 711103, 711104) — part of the greater Kolkata metroLive Online · Shibpur, Howrah
 
-📺
+## Premium Live Teaching, Brought Home to Shibpur
 
-### 100% Live, Not Pre-Recorded
+Modern Age Coders delivers premium, high-quality coding and maths education to Shibpur entirely through live online classes — real instructors teaching in real time, in batches of six to eight, with code written and debugged together on screen every session. This is not a recorded-video app and not a crowded coaching hall: it is the same expert small-batch teaching trusted in Salt Lake and Ballygunge, brought to every home around IIEST.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Genuinely Live, Never Recorded
 
-👨‍👩‍👧‍👦
+Every class is taught live by a real instructor who sees your child's screen, catches mistakes as they happen and answers questions the moment they come up. There is no pre-recorded playlist to fall behind on — your child codes alongside the teacher, in real time, every single class.
 
-### Max 6–8 Students per Live Batch
+### Small Batches of 6–8
 
-Smaller than any Shibpur-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Most Shibpur tuition centres seat 20–40 students per room. We cap a live batch at six to eight, so every learner is known by name, gets airtime in every session and never hides at the back. Engineering-minded parents around IIEST want depth, not crowd management — small batches make depth possible.
 
-🏠
+### Taught by Full-Time Engineers & Maths Graduates
 
-### Zero Travel through Shibpur Traffic
+Your child is taught by working software engineers and qualified mathematics graduates — full-time educators, not part-time college students moonlighting between exams. They answer the sharp, syllabus-deep questions that technically-literate Shibpur families are known to ask, because they have built real software themselves.
 
-No fighting evening Shibpur and Andul Road traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Project-Based Every Class
 
-📝
+Children do not just take notes — they build. Every session produces working code, and every module ends with a real project added to a portfolio: a game, a web tool, a data script, a board-submission file. It is the same hands-on rigour an engineering family expects, started early.
 
-### Recordings + Notes After Each Class
+### Coding and Maths Under One Roof
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Modern Age Coders is India's platform built to teach coding and mathematics together, because the two reinforce each other. A Shibpur student can do Python in one batch and Olympiad or board maths in another, with instructors who understand how logical thinking carries across both — see our [maths tuition from Grade 1 through college](/online-maths-tuition).
 
-💻
+### Zero Commute, ~90 Minutes Saved
 
-### Project-Based, Not Theory-Heavy
+A tuition run that should take ten minutes can eat an hour in evening gridlock at the Shibpur crossing, on Andul Road and along G.T. Road South — and a Kolkata-side centre means crossing the Howrah Bridge or Vidyasagar Setu in peak traffic. Live online removes the crossing, the auto-changes and the riverside jams, giving your child back roughly 90 minutes on every class day.
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+Live Online · Shibpur, Howrah
 
-👨‍🏫
+## Course Catalogue
 
-### Parent Updates Every Month
+Shibpur families value academic rigour, and our catalogue is built for that standard — every track below is taught live, in a small batch, by a full-time engineer or maths graduate.
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids & teens, ages 12–17 | Live Python plus CBSE Class 11–12 Informatics Practices — OOP, files, pandas/numpy basics, MySQL |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | ICSE Class 9–10 Computer Applications students | Java in BlueJ to the ICSE syllabus — 25+ board-style programs, mock practicals, viva prep, a submission-ready project file |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens exploring AI/ML | Project-based machine learning — the field shaping every future industry, taught to teenage learners |
+| [AI & ML for College Students](/ai-ml-course-for-college-students) | College / engineering students near IIEST | Applied machine learning — the ML workflow, real datasets and model building for placements and projects |
+| [Java DSA Course](/java-dsa-course) | College students & placement aspirants | Data structures and algorithms in Java — the interview and placement foundation engineering families value |
+| [ICSE/CBSE Computer Science Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 ICSE (Java) & CBSE (Python) board students | Complete CS board prep — theory, practicals, projects and exam prep for the boards Howrah schools follow |
+| [Coding for Kids](/courses/coding/kids) | Children ages 6–12 | Scratch, block-based coding, web design and AI basics — the ideal first step for primary-section students |
+| [Coding for Teens](/courses/coding/teens) | Teens ages 13–18 | Python, Java, full-stack web, game dev and competitive programming tracks |
+| [Coding for College Students](/courses/coding/college) | College / engineering students | DSA, MERN stack, AI/ML masterclass, Python for data analysis and MySQL mastery |
+| [Coding for Girls (Princess/Queen Coders)](/coding-classes-for-girls) | Girls-only batches, kids through teens | Dedicated girls-only coding batches building genuine tech-leadership confidence |
+| [Online Maths Tuition](/online-maths-tuition) | All ages, Grades 1–12 through college | School maths, Olympiad prep (AMC, IOQM, RMO, IMO), college calculus/linear algebra, business maths |
+| [Summer Coding Camp](/summer-coding-camp) | Kids, teens & adults, summer break | Intensive camp completing a full module in 3–4 weeks |
+| [Winter Coding Camp](/winter-coding-camp) | Kids, teens & adults, winter holidays | Holiday intensive completing a full module in 3–4 weeks |
+| [All Courses](/courses) | Every learner exploring the catalogue | Master index of every coding and maths track, from kids to working professionals |
+| [Pricing](/pricing) | Parents comparing plans | Group ₹1,499/mo • Mini Batch ₹2,499/mo • 1-on-1 ₹4,999/mo |
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+Live Online · Shibpur, Howrah
 
-## Schools near Shibpur Whose Students Learn with Us
+## Featured Tracks for Shibpur
 
-Students from **Shibpur Dinobundhoo Institution**, **Don Bosco School Howrah (ICSE)**, **St. Thomas' Church School Howrah (ICSE)**, and **Kendriya Vidyalaya Howrah (CBSE)** in and around Shibpur join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Most In-Demand
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform in Shibpur offers this depth of coding education alongside structured mathematics tutoring.
+### Python & AI for Kids and Teens
 
-## What Your Child Will Learn with Modern Age Coders
+Python is the language Shibpur's engineering-minded families ask for first, and for good reason — it powers AI, data science and the CBSE Class 11–12 Informatics Practices syllabus alike. Our live track takes a learner past "hello world" into genuine programming maturity: object-oriented thinking, working with files, and the first real taste of pandas, numpy and MySQL.
 
-Shibpur families value academic rigour. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+**You'll learn:** OOP, file handling and data basics. **You'll build:** working scripts, a small data project and a portfolio piece ready for board submission.
 
-🎨
+[Explore Python Programming](/python-and-ai-classes-for-kids-teens)
 
-### For Kids (Ages 6-12)
+ICSE Board-Aligned
 
-In Shibpur, where engineering is heritage, kids start building early.
+### Java Programming in BlueJ for ICSE
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+Don Bosco Liluah, St. Thomas' and Howrah Vivekananda all teach Java in BlueJ for ICSE Computer Applications — and that is exactly what we teach, syllabus-deep. Each student works through board-style programs, then rehearses for the practical exam and viva so nothing on exam day is a surprise.
 
-💻
+**You'll learn:** Java syntax, classes, arrays and string handling to the ICSE pattern. **You'll build:** 25+ board-style programs and a submission-ready project file.
 
-### For Teens (Ages 13-18)
+[Explore Java Programming](/java-programming-for-kids-teens)
 
-Where IIEST's neighbourhood teens build the coding skills that engineering demands.
+Future-Ready
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+### AI & Machine Learning for Teens
 
-🎓
+In a neighbourhood with engineering in its DNA, teenagers should meet the technology reshaping every industry while it is still new to the world. This live, project-based track introduces real machine-learning ideas to teenage learners — not as buzzwords, but as things they build, train and understand.
 
-### For College Students
+**You'll learn:** how models learn from data, the core ML workflow and where AI is genuinely useful. **You'll build:** hands-on ML mini-projects that demystify the field.
 
-IIEST and Howrah's engineering students sharpen their competitive programming edge.
+[Explore AI & Machine Learning](/ai-ml-course-for-teens)
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Live Online · Shibpur, Howrah
 
-💼
+## Schools We Teach Across the Shibpur Belt
 
-### For Professionals
+Modern Age Coders teaches students from across the Shibpur and wider Howrah school belt — including Shibpur Dinobundhoo Institution and Sree Durga Balika Vidyalaya (WBBSE), Howrah Vivekananda Institution, Don Bosco School Liluah, St. Thomas' Church School Howrah, M.C. Kejriwal Vidyapeeth and St. Aloysius' School (ICSE), and Kendriya Vidyalaya Howrah and Adamas International, Belur (CBSE). It is a genuine ICSE / CBSE / WBBSE mix, with strong Bengali-medium and Hindi-medium representation, and we teach to the board each child actually sits.
 
-Upskilling programmes for working professionals staying relevant in tech.
+Because the school mix here spans three boards, we map our teaching to each one precisely. ICSE students at Don Bosco, St. Thomas' and Howrah Vivekananda get Java in BlueJ exactly as their Computer Applications syllabus expects, with mock practicals and viva prep. CBSE students at KV Howrah and Adamas get Python aligned to Informatics Practices. For Class 11–12 board candidates, our [complete ICSE/CBSE Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers theory, practicals, projects and exam prep, with project files compiled in the format each school accepts for submission.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+Live Online · Shibpur, Howrah
 
-📊
+## Shibpur: IIEST's Backyard, Engineering in Its DNA
 
-### Mathematics for All Ages
+Shibpur is Howrah's engineering heartland. It grew up around IIEST — the former Bengal Engineering College — and the historic Acharya Jagadish Chandra Bose Indian Botanic Garden along the Hooghly, and that heritage is woven into family life here. Generations carry engineering and technical backgrounds, so when a parent near the Botanic Garden gate or on Belilious Road sits down for a demo, they ask sharp, syllabus-deep questions before enrolling a child — and they convert at a high rate once they see the teaching is real.
 
-Shibpur families know maths and code are inseparable.
+The everyday geography shapes how we teach, too. Evening gridlock at the Shibpur crossing, on Andul Road and along G.T. Road South turns a ten-minute tuition run into an hour, and reaching a Kolkata-side centre means the Howrah Bridge or Vidyasagar Setu at the worst possible time. Live online erases all of it — no crossing, no auto-changes at Mandirtala or Howrah Maidan, no riverside jam at Bandhaghat — and hands roughly 90 minutes back to the child every class day, time better spent building something.
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+Culture here takes maths and science seriously from the primary years, and the school belt is honestly mixed — ICSE, CBSE and WBBSE, with plenty of Bengali-medium and Hindi-medium students. That suits us: programming syntax is in English, but our instructors explain concepts in plain language and switch to Bangla or Hindi when it helps a concept land. A child from Sree Durga Balika Vidyalaya and a child from Don Bosco Liluah can sit in the same ambitious batch and both thrive.
 
-☀️
+### Recent Projects Built by Shibpur Students
 
-### Summer & Winter Camps
+PROJECT 01
 
-Intensive short-term programs during school breaks.
+### Botanic Garden Banyan Tour Guide
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A Class 8 student from the Botanic Garden side built a Scratch interactive map that walks visitors from the main gate to the Great Banyan Tree, with audio facts about the rare species along the path.
 
-## Why Shibpur Parents Choose Modern Age Coders
+PROJECT 02
 
-🎥
+### Shibpur Crossing Auto-Fare Calculator
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+A Class 10 ICSE student wrote a Java (BlueJ) program that computes shared-auto fares from Shibpur crossing to Mandirtala, Howrah Maidan and Kadamtala, so younger siblings always know the right change.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Shibpur families expect quality education to work.
+PROJECT 03
 
-👥
+### Ferry Ghat Timetable Reminder
 
-### Small Batches — Maximum 6-8 Students
+A Class 11 learner near Bandhaghat coded a Python tool that lists Hooghly ferry timings from Howrah ghats and pings a reminder before the next boat — built after missing a ferry to college one rainy morning.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+"We are an engineering family, so we asked hard questions in the demo — and for once the answers held up. My son builds something real every class, and we never fight Shibpur traffic to get there."
 
-🧰
+SA Shibpur parentparaphrased from a recent demoLive Online · Shibpur, Howrah
 
-### Coding + Maths Combined — Only in India
+## Areas & Pin Codes We Serve
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Shibpur parents trust us over single-subject alternatives.
+Serving Shibpur and the surrounding Howrah belt — pin codes **711102, 711103, 711104, 711101, 711106** and **711109**.
 
-💰
+ShibpurBotanic Garden areaIIEST Shibpur sideMandirtalaHowrah MaidanKadamtalaBandhaghatForeshore RoadBelilious RoadPilkhanaSalkiaLiluahRamrajatalaSantragachiAndul Road approach
 
-### Starting at Just ₹1,499/month
+Anywhere around Shibpur, the Botanic Garden or the Hooghly riverside — if you have a laptop and a connection, you are inside our classroom. [See all the Kolkata and Howrah areas we serve](/best-coding-class-in-kolkata).
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+Live Online · Shibpur, Howrah
 
-## Shibpur: IIEST's Backyard, and the Engineering Roots of a Whole Generation
+## Weekly Schedule & Class Timings
 
-Shibpur is dominated by IIEST — the Indian Institute of Engineering Science and Technology, formerly Bengal Engineering College, the second-oldest engineering institution in India. The lanes around the campus, the Botanical Garden, and Mandirtala have a particular character: families with engineering degrees going back generations.
+Most Howrah schools dismiss between 1:30 PM and 4:00 PM, so our slots sit in the after-school evening window, with weekend intensives for board and Olympiad work.
 
-Children attend Howrah Vivekananda Institution, St. Thomas' Day School, and Don Bosco Liluah. The parents have a clear, technically-informed view of what coding means in 2026. They know Python, they know what GitHub is, and they will ask hard questions about how exactly we teach.
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-School Junior | 4:30 – 5:30 PM | Kids ages 6–12 (Scratch, web basics) | Mon & Wed / Tue & Thu |
+| Early Evening Teens | 5:30 – 6:30 PM | Teens (Python, Java, ICSE/CBSE prep) | Mon & Wed / Tue & Thu |
+| Prime Evening | 6:30 – 7:30 PM | Teens & board candidates (most-requested) | Tue & Thu / Mon & Wed |
+| Late Evening | 7:30 – 8:30 PM | Working-hour families, AI/ML, college DSA | Wed & Fri |
+| Weekend Intensive | 10:00 – 11:30 AM | Board exam prep, Olympiad maths, camps | Sat & Sun |
+| Flexible 1-on-1 | By arrangement | Personalised pace, clashing school timetables | Chosen with you |
 
-Our demo classes for Shibpur parents tend to be lengthy — the parent listens carefully, asks technical questions, and only then decides. The conversion rate is high once we are inside the door, because the curriculum holds up.
+Live Online · Shibpur, Howrah
 
-### Recent Projects Built by Students from Shibpur
+## Live Online vs Offline — an Honest Comparison
 
-These are real student projects from our Shibpur batches — small, useful, and unmistakably theirs.
+### Where live online wins
 
-#### Botanical Garden Plant Census
+- Zero commute — no Shibpur crossing, Andul Road or G.T. Road gridlock, and no Howrah Bridge or Vidyasagar Setu crossing for a Kolkata-side centre.
+- Roughly 90 minutes given back to the child on every class day.
+- Genuinely small batches of 6–8, impossible to guarantee in a crowded local tuition hall.
+- Taught by full-time software engineers and maths graduates, not part-time tutors between their own exams.
+- Every class is recorded and shared, so a missed session is never a lost one.
+- Code, notes and the project repository stay with the child forever — nothing trapped on a whiteboard.
+- Access to specialist tracks (AI/ML, DSA, Olympiad maths) that no single neighbourhood centre would staff.
 
-A Class 9 girl built a Scratch app that catalogues 60 species of trees in the Botanical Garden, with photos her grandfather had taken over years.
+### When offline still wins
 
-#### IIEST Hostel Visiting Hours Schedule
+- The casual face-to-face energy of sitting shoulder-to-shoulder with a friend in the same room.
+- A very young or easily-distracted child may need a parent nearby for the first few weeks.
+- Households with genuinely unreliable internet will find live classes harder.
+- Some families simply prefer a teacher physically present, and that preference is fair.
 
-A Class 11 student built a small web tool that tracks IIEST visiting hours across hostels — useful for his cousin doing engineering there.
+For most Shibpur families the maths is simple: the same expert teaching, smaller batches, no traffic, and 90 minutes a day back. [Book a free live demo](/contact) and judge it for yourself.
 
-#### Howrah Vivekananda Marks Sheet Auto-Fill
+Live Online · Shibpur, Howrah
 
-A Class 10 boy built a Python script that auto-fills his quarterly marks into his school's reporting template.
+## How to Start from Shibpur
 
-“
+01
 
-I'm an IIEST graduate. My father was an IIEST graduate. We know what real engineering teaching looks like. Your curriculum is the closest match we found.
+### Book a free demo
 
-— A Shibpur parent, paraphrased from a recent conversation.
+Tell us your child's age, board and goal, and pick a slot — [book a free live demo class](/contact) in under a minute.
 
-## Neighbourhoods near Shibpur We Serve
+02
 
-Because every class is live online, we serve students across the entire Shibpur belt and adjoining Howrah localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+### Meet your instructor live
 
-### Pin codes we actively teach in
+Your child attends one real, live class with a full-time engineer or maths graduate, while you watch how the small batch actually works.
 
-**711102** (Shibpur, Howrah Maidan), **711103** (Shibpur Botanical, Kadamtala edge), **711104** (Mandirtala side), **711101** (Howrah city), **711106** (Bandhaghat), **711108** (Liluah edge), **711302** (Andul edge).
+03
 
-### Localities our students log in from
+### Choose your track and plan
 
-ShibpurBotanical Garden areaIIEST Shibpur sideHowrah MaidanKadamtala edgeMandirtala sideBelilious RoadGT Road HowrahAndul Road approachHooghly riversideForeshore RoadPilkhana sideSalkiaBandhaghatKona Expressway approach
+Pick the right course — [Python](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens), [AI/ML](/ai-ml-course-for-teens) or [maths](/online-maths-tuition) — and a plan from our [transparent pricing](/pricing).
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+04
 
-## Class Timings & Weekly Schedule for Students near Shibpur
+### Start within 24 hours
 
-Most Howrah schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+Confirm your batch and begin building — classes start within 24 hours, with no long-term lock-in.
 
-☀️
+Live Online · Shibpur, Howrah
 
-### Morning Slot — 9:00 to 11:00 AM
+## What Parents Say
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+"My son Dhairya has genuinely started looking forward to his classes — the teacher makes coding fun but also pushes him to think. The small batch means he actually gets attention, and as a parent I can see real progress, not just screen time. Highly recommend Modern Age Coders."
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+SSonam OswalMother of Dhairya
 
-🏫
+[Read more on our Wall of Love](/love)
 
-### After-School Slot — 4:30 to 7:30 PM
+Live Online · Shibpur, Howrah
 
-The most popular slot for kids and teens near Shibpur. School ends, snack, log in. Two classes a week, 60 minutes each.
+## Frequently Asked Questions
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
+Yes. Modern Age Coders runs live online coding classes for children aged 6–12 near Shibpur, covering Scratch, block coding, web design and AI basics. Classes are small live batches of 6–8 and start at ₹1,499/month. [Explore coding for kids](/courses/coding/kids).Group classes are ₹1,499/month (max 6–8 students), mini batches of 3–4 are ₹2,499/month, and personalised 1-on-1 classes are ₹4,999/month. You can try a free demo before paying anything — see full [pricing](/pricing).Every class is 100% live, taught in real time by a full-time instructor in a batch of 6–8 — never a recorded playlist or an app you watch alone. If you have already crossed off app-based courses, this is the live alternative you were looking for. [Book a demo](/contact) to see it.Yes — Java in BlueJ to the ICSE syllabus, including 25+ board-style programs, mock practicals and viva prep, ending in a submission-ready project file. [Explore Java Programming](/java-programming-for-kids-teens).Yes. Our [complete ICSE/CBSE Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers Java (ICSE) and Python (CBSE) with theory, practicals, projects and exam prep — ideal for students at KV Howrah, Adamas, Don Bosco Liluah and St. Thomas'.No. Programming syntax is in English, but instructors explain concepts in simple English and switch to Bangla or Hindi when it helps. Several Bengali-medium and Hindi-medium students enrol every batch and adapt to the technical vocabulary within 3–4 weeks.Deep. Teens work through genuine OOP, data-structures thinking, real projects and, where they choose, [DSA for college](/courses/coding/college) and [AI/ML](/ai-ml-course-for-teens) — taught by working software engineers who answer hard technical questions properly.Batches are capped at 6–8 students (or 3–4 mini, or 1-on-1), and a free demo can usually be scheduled within 24 hours of booking. [Book your demo here](/contact).Yes. Siblings can share a mini-batch (3–4 students) at ₹2,499/month, which many engineering-heritage families here prefer for two children at similar levels. Ask about it during your [demo booking](/contact).You receive the full class recording, the instructor's notes and the code repository, plus a free doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board-exam weeks, batches can be paused on request at no charge.A basic laptop or desktop with 4 GB RAM running Windows 10/11, macOS or Ubuntu is enough; Chromebooks work for Scratch and web design. Internet of 5 Mbps or higher is comfortable, and most Jio Fiber, Airtel Xstream and ACT connections in Shibpur are well above that.Both. Modern Age Coders is built to teach coding and mathematics together — our [maths tuition](/online-maths-tuition) runs from Grade 1 through college and includes Olympiad prep (AMC, IOQM, RMO, IMO) and competitive-exam maths.Yes. Our [Princess & Queen Coders](/coding-classes-for-girls) programme runs dedicated girls-only batches from kids through teens, building genuine tech-leadership confidence in a supportive space.Yes. Every course ends with a Modern Age Coders completion certificate plus the project portfolio built along the way. For ICSE and CBSE students, project files are compiled in the format their school accepts for board project submission.Three things: batch size (6–8 versus 20–40 at most local centres), instructors (full-time software engineers and maths graduates, not part-time tutors), and format (project-based live coding every class, not whiteboard notes) — plus zero commute through Shibpur and Andul Road traffic. [Book a free demo](/contact) and compare.
 
-🌚
+## Shibpur Has Engineering in Its DNA — Start Your Child's Foundation Today
 
-### Evening Slot — 7:30 to 9:30 PM
+Premium live online coding and maths, small batches, full-time engineer instructors, no traffic — book a free demo and see it for yourself.
 
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
+[Book Free Demo Class](/contact)[WhatsApp +91 91233 66161](https://wa.me/919123366161)[View Pricing](/pricing)Live Online · Shibpur, Howrah
 
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
+## Coding & Maths Classes in Other Howrah Areas
 
-📅
+[Howrah City](/coding-classes-near-howrah-city-howrah)[Kadamtala](/coding-classes-near-kadamtala-howrah)[Mandirtala](/coding-classes-near-mandirtala-howrah)[Liluah](/coding-classes-near-liluah-howrah)[Santragachi](/coding-classes-near-santragachi-howrah)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Shibpur parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Howrah Vivekananda Institution, St. Thomas' Day School, Don Bosco Liluah and similar Shibpur-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at KV Howrah, Don Bosco Liluah, Adamas International and other CBSE-track Shibpur-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Howrah Vivekananda Institution, St. Thomas', MC Kejriwal Vidyapeeth and other ICSE-track Shibpur-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Shibpur — Honest Comparison
-
-Shibpur has private tuition rooms in residential lanes around the Botanical Garden. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Shibpur centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Shibpur crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Shibpur
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Shibpur
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Shibpur. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"Aditya was always curious about how apps and games work, but we could never find a structured class near Howrah that went beyond basic computer lessons. Modern Age Coders changed that completely. The live classes are engaging, the batch size is small, and the teacher actually knows each student by name. Within three months, Aditya built his first Python project. As a mother, I feel confident he is building skills that will matter."
-
-RRitu KediaMother of Aditya
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Shibpur
-
- Are there coding classes for kids near Shibpur, Howrah? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Shibpur. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from Shibpur Dinobundhoo Institution, Don Bosco Howrah, and other Shibpur schools are already learning with us. What is the fee for coding and maths classes near Shibpur? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Shibpur? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Shibpur schools follow. How can my child in Shibpur attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed — no crossing the Howrah Bridge. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Botanical Garden area or IIEST Shibpur side? +Three big differences. **First**, batch size: most Shibpur tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Shibpur and Andul Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Shibpur? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Shibpur belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Shibpur? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Shibpur. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools and other Shibpur-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Shibpur Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Shibpur trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Howrah & Kolkata
-
-We serve students across Howrah and Kolkata. Explore classes near your area.
-
-[Howrah City](/coding-classes-near-howrah-city-howrah)[Kadamtala](/coding-classes-near-kadamtala-howrah)[Bally](/coding-classes-near-bally-howrah)[All Kolkata Areas](/best-coding-class-in-kolkata)
+ICSE/CBSE board students at Howrah Vivekananda, Don Bosco Liluah, St. Thomas' and KV Howrah → [Computer Science for Class 11–12 (Python & Java)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
 ---
 
