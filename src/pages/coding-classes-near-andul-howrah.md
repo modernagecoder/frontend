@@ -1,364 +1,255 @@
 ---
-title: "Coding & Maths Classes near Andul, Howrah | Modern Age Coders"
-description: "Live online coding classes near Andul, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Andul Mahiary B.M. Institution, Howrah Vivekananda and other Howrah-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Andul, Howrah"
+description: "Live online coding & maths classes near Andul, Howrah. Python, Java, AI/ML + maths tuition. ICSE/CBSE/WBBSE board prep. Small batches, ₹1,499/mo. Free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-andul-howrah
-keywords: ["Andul Howrah coding", "coding near Andul", "Python Andul", "maths tuition Andul Howrah", "coding classes near Andul Howrah", "coding for kids Andul", "coding for teens Andul", "online coding classes Andul Howrah", "ICSE Java tuition Andul", "CBSE Python classes Andul", "maths classes near Andul", "coding classes near me Andul"]
+keywords: ["coding classes near Andul Howrah", "coding classes Andul Mouri", "Python classes Andul", "Java tuition Andul ICSE", "maths tuition Andul Howrah", "online coding Mahiari", "coding for kids Andul", "CBSE Python classes Andul", "AI ML classes Howrah", "coding classes near me Andul", "WBBSE computer science Andul", "live coding classes Andul Road"]
 source: src/pages/coding-classes-near-andul-howrah.html
 ---
-> Live online coding classes near Andul, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Andul Mahiary B.M. Institution, Howrah Vivekananda and other Howrah-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Andul, Howrah. Python, Java, AI/ML + maths tuition. ICSE/CBSE/WBBSE board prep. Small batches, ₹1,499/mo. Free demo.
 
-Historic Town, Modern Skills — Live Online Classes
+LIVE ONLINE CODING & MATHS · ANDUL, HOWRAH
 
-# Coding & Maths Classes for Students near Andul, Howrah
+# Premium Live Coding & Maths Classes near Andul, Howrah
 
-Andul is a historic town with roots going back centuries — from the Andul Rajbari to its rich cultural heritage. But as Andul modernizes, its children need **modern skills to thrive in the 21st century**. Coding and mathematics form the foundation of every future career — engineering, medicine, finance, design. Modern Age Coders brings **100% live online classes** directly to Andul homes. Equal access to the same quality education available in central Kolkata, without leaving your neighbourhood.
+Modern Age Coders runs 100% live online coding and maths classes for students in Andul, Andul Mouri, Mahiari and across the NH-16 corridor — taught by full-time software engineers and maths graduates in small batches of 6–8, never pre-recorded. Children from Andul Mahiari B.M. Institution, Adamas International and Howrah Vivekananda get Salt-Lake-quality teaching at home from ₹1,499/month, with zero commute through the Andul Mouri crossing.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% Live · Never RecordedSmall Batches (6–8)Project-Based Every ClassFrom ₹1,499/month[Book a Free Demo Class](/contact)[Explore All Courses](/courses)6–8Students per live batch₹1,499Starting fee per month90 minsCommute saved per class day30+Coding & maths coursesAt a glance
 
-Free demo • No commitment • Classes start within 24 hours
+## Live coding & maths near Andul — the facts
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, interactive — not pre-recorded videos. Taught from your home in Andul.Batch sizeGroup 6–8 · Mini Batch 3–4 · 1-on-1 personalisedAges**6 to 65** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, Scratch, AI/ML, web, DSA) and Mathematics (school, Olympiad, college)BoardsICSE (Java/BlueJ), CBSE (Python/IP), WBBSE and IGCSE supportedFeesFrom **₹1,499/month** (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — one free live demo class, no commitmentServingAndul, Andul Mouri, Mahiari, Argori, Pancharul, Sankrail edge, Mourigram and the wider NH-16 / Andul Road beltTaught byFull-time software engineers and mathematics graduatesLive online · premium quality
 
-## Live Online Coding Classes near Andul — What Parents Should Know
+## Real engineers, live, in small batches — at Andul prices
 
-Andul parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Andul is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Andul Mahiary B.M. Institution, Howrah Vivekananda and other Howrah-area schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Every Modern Age Coders class for Andul is delivered live online by a full-time engineer or maths graduate — your child writes and runs real code in the session, asks questions in real time, and is never handed a pre-recorded video to watch alone. This is premium, high-quality teaching brought to homes in Andul Mouri and Mahiari at a fraction of a central-Kolkata tuition centre's cost.
 
-📺
+### Truly live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Classes happen in real time with a live instructor on screen, not a playlist your child clicks through. Doubts are cleared the moment they appear, code is debugged together, and every session is taught fresh. Recordings are provided afterwards only as revision support, never as a substitute for the live class.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small batches of 6–8
 
-👨‍👩‍👧‍👦
+A maximum of 6–8 students per live batch means the instructor knows your child's name, pace and weak spots — impossible in a 30–40 student offline coaching hall near Andul Road. Mini batches of 3–4 and 1-on-1 plans go even smaller for children who want focused attention.
 
-### Max 6–8 Students per Live Batch
+### Taught by working engineers
 
-Smaller than any Andul-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are led by full-time software engineers and mathematics graduates, not part-time home tutors taking coding on the side. Your child learns how code is actually written in industry, with clean habits and real tools, from people who do this for a living.
 
-🏠
+### Project-based, every single class
 
-### Zero Travel through Andul Mouri Traffic
+Children build real things from day one — a small game, a useful script, a board-style program — instead of copying notes off a whiteboard. By the end of each module they have a finished project for their portfolio and, for ICSE and CBSE students, a project file in the format their school accepts.
 
-No fighting evening Andul Road and NH-16 traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Salt-Lake quality at Andul prices
 
-📝
+The same curriculum, instructors and live format that families in Salt Lake and central Kolkata pay premium fees for is delivered to Andul homes from ₹1,499/month. For a budget-conscious Howrah-outskirts family, this is the most affordable lever to put a child on equal footing with wealthier city schoolkids.
 
-### Recordings + Notes After Each Class
+### Zero commute through Andul Mouri
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+No fighting the chronic snarl at the Andul Mouri crossing, no changing autos near Andul railway station, no crawling along the NH-16 service lane after dark. Live online removes 75–90 minutes of round-trip travel per class day — time your child spends on practice, not on the road.
 
-💻
+Course Catalogue
 
-### Project-Based, Not Theory-Heavy
+## Courses for every age, board and goal near Andul
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids & teens, ~10–17 | The world's most in-demand language plus AI basics, built through small real-world projects. |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Younger kids starting out | A gentle first Python course that builds logic and confidence through tiny programs. |
+| [Python Projects for Kids](/python-projects-for-kids) | Kids who know Python basics | Hands-on portfolio projects — quizzes, calculators, mini-tools — to cement the fundamentals. |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens, esp. ICSE Class 9–10 | Java syntax through BlueJ and board-style programs — exactly what Adamas and Vivekananda ICSE students need. |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens 13–18 | AI/ML concepts and first model-building projects for the generation that will use them at work. |
+| [CBSE/ICSE Computer Science Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11–12 board students | Complete CS & Informatics Practices prep — theory, practicals, projects and exam strategy. |
+| [Coding for ICSE Students](/coding-for-icse-students) | ICSE-curriculum students | ICSE-aligned computer applications (Java/BlueJ) support and enrichment beyond the textbook. |
+| [Coding for CBSE Students](/coding-for-cbse-students) | CBSE-curriculum students | CBSE-aligned Python / Informatics Practices coding support, ideal for Narayana School Andul. |
+| [Coding for IGCSE Students](/coding-for-igcse-students) | IGCSE-curriculum students | IGCSE / Cambridge computer science coding support for students on an international-board stream. |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1–12 & college, all boards | Live maths from arithmetic to calculus, plus Olympiad prep (AMC, IOQM, RMO, IMO). |
+| [Coding for Kids (Scratch)](/courses/coding/kids) | Kids 6–12 | Scratch and block coding that builds logic, creativity and confidence before typed code. |
+| [Coding for College Students (DSA)](/courses/coding/college) | College students & professionals | Placement tracks — DSA, MERN stack, AI/ML and data analysis. |
+| [Coding for Girls (Princess/Queen Coders)](/coding-classes-for-girls) | Girls-only batches, kids & teens | Dedicated girls-only batches that build tech confidence and leadership. |
+| [Summer](/summer-coding-camp) / [Winter](/winter-coding-camp) Coding Camp | Kids, teens, adults on break | An intensive holiday camp finishing a full module in 3–4 weeks. |
 
-👨‍🏫
+See the full catalogue of 30+ courses → [Explore Courses](/courses)
 
-### Parent Updates Every Month
+Featured tracks
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three tracks most Andul students start with
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+MOST IN-DEMAND
 
-## Schools near Andul Whose Students Learn with Us
+### Python & AI for Kids and Teens
 
-Students from **Andul Mrigendra High School**, **Andul Union High School**, **Bagnan High School**, **Mourigram Vidyapith**, and other WBBSE and CBSE schools in the Andul-Mourigram area join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is the language behind modern AI, data and automation, and it is where most Andul students should begin. Our project-based Python track takes a child from their first print statement to genuinely useful programs — and for CBSE students at Narayana School Andul, it maps directly onto the Python and Informatics Practices syllabus.
 
-Whether your child follows the ICSE, CBSE, or WBBSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). Historic roots, modern education.
+**You'll learn** variables, loops, functions and basic AI; **you'll build** quizzes, mini-games and a real tool you can show your school. [Start Python](/python-and-ai-classes-for-kids-teens)
 
-## What Your Child Will Learn with Modern Age Coders
+ICSE ESSENTIAL
 
-As Andul modernizes, its children need 21st-century skills. Our courses cover every age group from first-graders to working professionals.
+### Java Programming through BlueJ
 
-🎨
+For ICSE students at Adamas International and Howrah Vivekananda Institution, Java in BlueJ is the heart of the Class 9–10 computer applications paper. Our Java track teaches the exact syntax, patterns and board-style programs examiners expect, with a completed project file ready for school submission.
 
-### For Kids (Ages 6-12)
+**You'll learn** classes, objects, loops and arrays in BlueJ; **you'll build** a 15–20 program board-style project file accepted by your school. [Start Java](/java-programming-for-kids-teens)
 
-The perfect starting age. Build logic, creativity, and confidence through code.
+FUTURE-READY
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+### AI & Machine Learning for Teens
 
-💻
+AI is no longer optional for the next generation of engineers, and an Andul teenager can learn it live from home just as well as a Salt Lake one. This track demystifies machine learning — how models learn, predict and make decisions — and gets students building their first working models with guidance, not just theory.
 
-### For Teens (Ages 13-18)
+**You'll learn** how ML models train and predict; **you'll build** a simple prediction or image-classification model of your own. [Start AI & ML](/ai-ml-course-for-teens)
 
-Where ICSE, CBSE, and WBBSE students build skills that boards and entrance exams both reward.
+Schools served
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+## Every Andul school, every board, one institute
 
-🎓
+Modern Age Coders teaches children from every kind of school in and around Andul. Board exposure here is genuinely mixed, and our teaching follows it precisely — ICSE students get Java in BlueJ, CBSE students get Python and Informatics Practices, and WBBSE students get the computer concepts their syllabus needs, all bridged toward the same strong fundamentals. Whether your child studies in Bengali, Hindi or English medium, the live class is taught to their level.
 
-### For College Students
+WBBSE
 
-Build technical skills for placements and competitive exams.
+### State-board high schools
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+The 90-year-old Andul Mahiari B.M. Institution, Andul Mrigendra High School, Andul Union High School and older institutions like Andul Kasundia Tarasundari and Mourigram Vidyapith — computer concepts taught to syllabus level.
 
-💼
+ICSE
 
-### For Professionals
+### Java / BlueJ schools
 
-Upskilling programmes for working professionals staying relevant in tech.
+Adamas International School, MC Kejriwal Vidyapeeth and Howrah Vivekananda Institution — the exact Java/BlueJ computer applications syllabus for Class 9–10, with a school-ready project file.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+CBSE / IGCSE
 
-📊
+### Python & international streams
 
-### Mathematics for All Ages
+Narayana School, Andul (CBSE) gets Python and Informatics Practices support, and students on an IGCSE / Cambridge stream get aligned computer science coding help beyond the textbook.
 
-Maths and code are inseparable — learn both for maximum impact.
+Class 11–12 students from any board can step into our complete board CS course → [Computer Science and Informatics Practices for Class 11–12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+The neighbourhood
 
-☀️
+## Andul: historic zamindari town, ambitious new coders
 
-### Summer & Winter Camps
+Andul is a historic zamindari town on Howrah's south-western edge, anchored by the 1834 Andul Rajbari built by the Dutta Chaudhury family and by high schools that have stood for nearly a century. Yet it sits right beside the gritty NH-16 and Sankrail industrial belt, so its families are a mix of old Bengali-medium households and working-class, highway-industry parents — and almost all of them treat education as the surest ladder up.
 
-Intensive short-term programs during school breaks.
+These are quietly determined, budget-conscious families, and they have worked out something sharp: coding is the most affordable way to put an Andul child on equal footing with the wealthier schoolkids of Salt Lake and central Kolkata. They don't need a marble campus; they need real engineers teaching their child live, at a price that fits a single-income home near Andul Road.
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+That is exactly what live online delivers. From a home in Andul Mouri, Mahiari or Pancharul, a child opens a laptop and joins a small live batch — no auto-change near Andul railway station, no evening crawl down the NH-16 service lane, no 90 minutes lost on the road. The town's history stays at home on the wall; the future opens up on the screen.
 
-## Why Andul Parents Choose Modern Age Coders
+### Andul Rajbari Heritage Walk App
 
-🎥
+A Class 8 student from Mahiari built a Python/Streamlit mini-guide mapping the 1834 Rajbari, the Chandi Mandap and the old zamindar houses, with a short story card for each stop — her school used it for the annual heritage exhibition.
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+### Andul Mouri Auto & Local-Train Planner
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — quality that was previously unavailable outside Kolkata city limits.
+A Class 10 boy coded a tool that compares taking an auto from Andul Mouri against catching the next down-train from Andul station (ADL) to reach Howrah, so families know the faster option before stepping out.
 
-👥
+### Sankrail Factory-Shift Maths Logbook
 
-### Small Batches — Maximum 6-8 Students
+A Class 9 student whose father does shift work near Sankrail Industrial Park wrote a Java (BlueJ) program that calculates overtime hours and weekly wages from clock-in times — submitted as his ICSE-style computer applications project.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+"We could never have driven to a Kolkata coding centre after school — but my son now codes live from our home in Andul Mouri, and his school principal asked for a printout of what he built."
 
-🧰
+AAn Andul parentparaphrasedAreas & pin codes
 
-### Coding + Maths Combined — Only in India
+## Where our Andul students log in from
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is what sets Modern Age Coders apart from every other alternative.
+Serving Andul and the surrounding Howrah outskirts across pin codes **711302, 711310, 711309, 711301, 711315, 711313 and 711227**.
 
-💰
+AndulAndul MouriMahiariArgoriPancharulMajuJala DhulagoriSankrail edgeMourigramSapuiparaAndul Road beltDomjur edgeBauria sideUluberia approachKendua
 
-### Starting at Just ₹1,499/month
+Live online, so we reach every home along the Andul Road and NH-16 corridor — if your locality isn't listed, you're still covered.
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+Weekly schedule
 
-## Andul: Outskirts of Howrah, Heart of a New Coding Cohort
+## Live slots that fit school, tuition and work
 
-Andul sits where Howrah city ends and the NH-16 corridor begins. The neighbourhood is a mix of older Bengali families (the Andul Mahiary B.M. Institution has been here for over 90 years) and a growing population of working-class families employed in the small industries along the highway. Andul Mouri, Mahiari, Sankrail — these names define the belt.
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Morning | 7:00–9:00 AM | Early-rising kids; pre-school practice | Mon–Sat (flexible) |
+| After-school | 4:00–6:00 PM | Primary & middle-school kids | 2 days/week |
+| Evening | 6:00–8:00 PM | Teens, ICSE/CBSE board students | 2 days/week |
+| Late evening | 8:00–9:30 PM | Working adults & college students | 2 days/week |
+| Weekend | 10:00 AM–1:00 PM | Camps, 1-on-1, exam-crunch revision | Sat & Sun |
 
-Andul parents are budget-conscious and quietly determined. They know their children are competing against Kolkata schoolchildren whose parents earn five or ten times as much, and they are not willing to let that gap widen. Coding feels to them like the most direct, most affordable lever to close it.
+All slots are live and online. Timings are confirmed at your free demo to fit your child's school and tuition schedule.
 
-Our ₹1,499/month plan was designed precisely for this audience. The teaching is the same as it is for any Salt Lake child — no quality difference, no different curriculum.
+Honest comparison
 
-### Recent Projects Built by Students from Andul
+## Live online vs offline tuition near Andul
 
-These are real student projects from our Andul batches — small, useful, and unmistakably theirs.
+### Where live online wins
 
-#### Andul Mouri Auto Fare List
+- Zero commute — saves 75–90 minutes a class day versus crossing the Andul Mouri snarl and NH-16 traffic.
+- Small live batches of 6–8 instead of a 30–40 student offline coaching hall.
+- Taught by full-time software engineers and maths graduates, not part-time local home tutors.
+- Salt-Lake-quality curriculum from ₹1,499/month — far cheaper than a city centre.
+- Every class is project-based and recorded for revision, so a missed class is never a lost class.
+- Safe — no daughter walking back alone from a tuition centre after dark near Andul railway station.
+- One institute from Class 5 right through to Class 11–12 board CS, with no change of teacher or method.
 
-A Class 8 boy built a Python script that lists auto fares from Andul Mouri to nine common destinations. His school principal asked for a printed copy.
+### When offline still wins (honest)
 
-#### NH-16 Bus Tracker
+- A child with no device or no home internet at all needs an offline option first.
+- Very young children (under 6) sometimes settle better with a parent physically beside them.
+- Pure rote board cramming the night before an exam can suit a walk-in tuition.
+- Families who specifically want their child out of the house for social reasons may prefer a centre.
 
-A Class 10 girl built a small web tool that estimates which highway bus reaches Howrah city fastest. Her mother (who travels to Hospital Howrah weekly) uses it.
+For almost every Andul family with a basic laptop and a Jio or Airtel connection, live online wins on quality, safety, cost and time — [book a free demo](/contact) and judge for yourself.
 
-#### Andul Mahiary School Project
+How to start
 
-A Class 9 student built a 20-program Java project file submitted as his school's annual computer applications project.
+## From first call to first project in four steps
 
-“
+01
 
-We're an Andul family. We earn less than a Kolkata family. We want our daughter to compete with them anyway. Your teaching and your price together make that possible.
+### Book your free demo
 
-— A Andul parent, paraphrased from a recent conversation.
+Tell us your child's class and board; we slot a free live demo with no commitment. [Book a free demo](/contact)
 
-## Neighbourhoods near Andul We Serve
+02
 
-Because every class is live online, we serve students across the entire Andul belt and adjoining Howrah localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+### Meet your instructor
 
-### Pin codes we actively teach in
+Your child sits in one real live class with a full-time engineer or maths graduate and writes actual code. [See all courses](/courses)
 
-**711302** (Andul, Andul Mouri), **711310** (Mahiari side), **711301** (Sankrail edge), **711315** (Uluberia approach), **711313** (Bauria side), **711227** (Bally edge), **711104** (Howrah city side).
+03
 
-### Localities our students log in from
+### Pick a plan that fits
 
-AndulAndul MouriSankrail edgeMahiariPancharulArgoriMajuJala DhulagoriNH-16 corridorAndul RoadDomjur edgeBauria sideUluberia approachMourigramSapuipara side
+Choose Group (₹1,499/mo), Mini Batch (₹2,499/mo) or 1-on-1 (₹4,999/mo). [View pricing](/pricing)
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+04
 
-## Class Timings & Weekly Schedule for Students near Andul
+### Start learning from home
 
-Most Howrah schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+Join your small live batch from Andul and begin building real projects from the very first week. [Explore courses](/courses)
 
-☀️
+From a parent
 
-### Morning Slot — 9:00 to 11:00 AM
+## What families say
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+"Dhairya genuinely looks forward to his coding class now — the batch is small, the teacher is patient, and he is actually building things, not just watching videos. As a parent I can see the difference in how he thinks."
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
-
-🏫
-
-### After-School Slot — 4:30 to 7:30 PM
-
-The most popular slot for kids and teens near Andul. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Andul parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Andul Mahiary B.M. Institution, Andul Kasundia Tarasundari, Bauria Bohu Bazar and similar Andul-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Adamas International, Sushila Birla Girls' (nearby), DPS Howrah (where applicable) and other CBSE-track Andul-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Howrah Vivekananda Institution, Andul Kasundia Tarasundari, MC Kejriwal Vidyapeeth and other ICSE-track Andul-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Andul — Honest Comparison
-
-Andul and Mourigram have a handful of small private tuition rooms. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Andul centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Andul Mouri traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Andul
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Andul
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Andul. All you need is a laptop and internet.
-
-## What Students Say About Modern Age Coders
-
-★★★★★
-
-"Modern Age Coders has been a game-changer for me. The classes are engaging and the instructors explain complex topics in a way that actually makes sense. I have improved a lot in both coding and problem-solving. Highly recommend it to anyone serious about learning."
-
-SSamridho MondalStudent, Grade 9
+SSonam OswalMother of Dhairya
 
 [Read more on our Wall of Love →](/love)
 
-## Frequently Asked Questions — Coding & Maths near Andul
+FAQ
 
- Are there coding classes for kids near Andul, Howrah? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Andul. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Students from Andul and neighbouring areas are already learning with us. What is the fee for coding and maths classes near Andul? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition for Andul students? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep. How can my child in Andul attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel to Kolkata or Howrah city needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Andul Mouri or Sankrail edge? +Three big differences. **First**, batch size: most Andul tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Andul Road and NH-16 traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Andul? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Andul belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Andul? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Andul. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Andul Mahiary B.M. Institution, Howrah Vivekananda and other Howrah-area schools and other Andul-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
+## Andul coding & maths classes — your questions
 
-## Start Your Child's Coding & Maths Journey from Andul Today
+Yes. Our [Java Programming](/java-programming-for-kids-teens) track and [Coding for ICSE Students](/coding-for-icse-students) course cover the exact Java/BlueJ computer applications syllabus for Class 9-10, including board-style programs and a school-ready project file. ICSE students at Adamas International, MC Kejriwal Vidyapeeth and Howrah Vivekananda Institution follow this every batch.Yes. Our [Coding for CBSE Students](/coding-for-cbse-students) course and [Python & AI](/python-and-ai-classes-for-kids-teens) track follow the CBSE Python and Informatics Practices syllabus. For Class 11-12, the [complete board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers theory, practicals, projects and exam prep.Correct. Every class is 100% live online from your home. Your child never crosses the NH-16 traffic or changes autos at the Andul Mouri crossing — all they need is a laptop and an internet connection. [Book a free demo](/contact).Yes. Many students from Bengali- and Hindi-medium schools enrol every batch. Programming syntax is in English, but instructors explain in simple English and switch to Bangla or Hindi when it helps; most students settle into the technical vocabulary within 3-4 weeks.A local tutor near Andul Road typically teaches one subject from a textbook. For ₹1,499/month you get a live batch of 6-8 led by a full-time software engineer, project-based every class, with recordings and a portfolio. See the full breakdown on our [pricing page](/pricing).Yes — that continuity is the point. A child can begin with [Scratch for kids](/courses/coding/kids), move into [Python](/python-and-ai-classes-for-kids-teens) or [Java](/java-programming-for-kids-teens), and finish with [Class 11-12 board CS](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — same institute, same standards.Group classes are ₹1,499/month (2 classes/week, max 6-8 students), Mini Batch (3-4 students) is ₹2,499/month, and personalised 1-on-1 is ₹4,999/month. Full details on the [pricing page](/pricing).100% live. A real instructor teaches in real time, your child writes code and asks questions during the session, and nothing is a pre-recorded playlist. Recordings are shared afterwards only for revision.You receive the full class recording, instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board-exam weeks, batches can be paused on request with no charge for paused weeks.A basic laptop or desktop with 4 GB RAM running Windows 10/11, macOS or Ubuntu is enough; Chromebooks work for Scratch and web. 5 Mbps or higher is comfortable, and most Jio Fiber, Airtel Xstream and broadband lines around Andul Mouri are well above that.Both. Modern Age Coders combines coding and mathematics, with live [maths tuition](/online-maths-tuition) from Grade 1 through college, including Olympiad prep (AMC, IOQM, RMO, IMO).Yes. Our [Princess Coders and Queen Coders](/coding-classes-for-girls) batches are girls-only, building confidence and tech leadership in a comfortable space — popular with families from the older Andul households.Yes. Every course ends with a Modern Age Coders completion certificate plus the project portfolio built during the course. For ICSE and CBSE students, project files are compiled in the format their school accepts for board submission.Yes. Our [Summer Coding Camp](/summer-coding-camp) and [Winter Coding Camp](/winter-coding-camp) are short intensives that finish a full module over the school break — ideal for trying coding before committing to a full course.Call or WhatsApp us at [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact). The demo is a real live class with no commitment, and we use it to confirm the right slot and level for your child.
 
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Howrah trust Modern Age Coders.
+## Andul's next coder starts at home — book a free demo
 
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
+Premium, live, project-based coding and maths from full-time engineers — Salt-Lake quality at your Andul home, from ₹1,499/month with zero commute.
 
-## Coding & Maths Classes in Other Areas of Howrah
+[Book a Free Demo Class](/contact)[View Pricing](/pricing)[+91 91233 66161](https://wa.me/919123366161)Nearby areas
 
-We serve students across Howrah and Kolkata. Explore classes near your area.
+## Nearby areas we also serve, live online
 
-[Domjur](/coding-classes-near-domjur-howrah)[Uluberia](/coding-classes-near-uluberia-howrah)[All Kolkata & Howrah Areas](/best-coding-class-in-kolkata)
+[Domjur](/coding-classes-near-domjur-howrah)[Uluberia](/coding-classes-near-uluberia-howrah)[Santragachi](/coding-classes-near-santragachi-howrah)[Shibpur](/coding-classes-near-shibpur-howrah)[Howrah City](/coding-classes-near-howrah-city-howrah)[All Kolkata & Howrah Areas](/best-coding-class-in-kolkata)
 
-Nearby Howrah areas: [Howrah City](/coding-classes-near-howrah-city-howrah) • [Shibpur](/coding-classes-near-shibpur-howrah) • [Mandirtala](/coding-classes-near-mandirtala-howrah) • [Ramrajatala](/coding-classes-near-ramrajatala-howrah) • [Santragachi](/coding-classes-near-santragachi-howrah)
+School-specific: [ICSE Java (BlueJ) coding support for Adamas International & Howrah Vivekananda students](/coding-for-icse-students).
 
 ---
 
