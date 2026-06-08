@@ -80,6 +80,19 @@
         .update p { color: var(--mut); font-size: 0.94rem; line-height: 1.6; white-space: pre-line; }
         .empty { text-align: center; color: var(--faint); font-size: 0.92rem; padding: 1.5rem 0; }
 
+        /* Round 1 scorecard */
+        .scorecard { border: 1px solid var(--line2); border-radius: 14px; background: rgba(12,5,24,0.5); padding: 1.1rem 1.2rem; }
+        .score-overall { display: flex; align-items: baseline; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.9rem; }
+        .score-overall .num { font-family: var(--disp); font-weight: 800; font-size: 2.6rem; line-height: 1; color: var(--acid); }
+        .score-overall .out { font-family: var(--mono); color: var(--faint); font-size: 0.95rem; }
+        .score-overall .lab { margin-left: auto; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); }
+        .score-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.6rem 0; border-top: 1px solid var(--line); }
+        .score-row:first-of-type { border-top: none; }
+        .sc-l b { display: block; color: #fff; font-family: var(--disp); font-weight: 600; font-size: 0.95rem; }
+        .sc-l span { color: var(--faint); font-size: 0.78rem; }
+        .sc-v { font-family: var(--disp); font-weight: 800; color: var(--cyan-hi); font-size: 1.15rem; white-space: nowrap; }
+        .sc-v i { font-style: normal; color: var(--faint); font-size: 0.72rem; font-weight: 500; }
+
         .links { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.4rem 0 0.4rem; }
         .links a { flex: 1; min-width: 130px; text-align: center; font-family: var(--mono); font-size: 0.8rem; padding: 0.7rem; border-radius: 11px; border: 1px solid var(--line2); background: rgba(0,0,0,0.3); color: var(--ink); text-decoration: none; }
         .links a:hover { border-color: var(--violet); color: #fff; }
@@ -135,6 +148,11 @@
                 <span class="chip status" id="dStatus">Active</span>
             </div>
 
+            <div id="dScoreWrap" style="display:none;">
+                <div class="sec-label">Round 1 scorecard</div>
+                <div id="dScore"></div>
+            </div>
+
             <div class="sec-label">Your updates</div>
             <div id="dUpdates"></div>
 
@@ -170,8 +188,9 @@
         passwords: ["9903990709"],
         builderId: "MAC-247",
         status: "Round 2 — Qualified",
+        score: { overall: 4.7, c: [7,6,2,4,3,4,7] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 33/70. Congratulations — you have advanced to Round 2, the ultimate elimination round!\n\nYou picked a genuinely important real-world problem. For the build, focus on two things: a simple plan to onboard your very first users (those first workers), and making the experience effortless for people who aren't tech-savvy — keep it dead simple. Nail that and you'll stand out.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nYou picked a genuinely important real-world problem. For the build, focus on two things: a simple plan to onboard your very first users (those first workers), and making the experience effortless for people who aren't tech-savvy — keep it dead simple. Nail that and you'll stand out.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -181,8 +200,9 @@
         builderId: "MAC-388",
         teamLabel: "Team ShadowForge",
         status: "Round 2 — Qualified",
+        score: { overall: 4.9, c: [5,4,4,5,5,3,8] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Team ShadowForge — your Round 1 score: 34/70. Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nAmbitious, interesting idea. The big thing to nail in the build is trust: show clearly how you verify that a discovered skill is real (rather than the AI just assuming the strongest level). A solid verification approach will make your solution truly credible.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations, Team ShadowForge — you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nAmbitious, interesting idea. The big thing to nail in the build is trust: show clearly how you verify that a discovered skill is real (rather than the AI just assuming the strongest level). A solid verification approach will make your solution truly credible.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -190,8 +210,9 @@
         passwords: ["9752444247"],
         builderId: "MAC-512",
         status: "Round 2 — Qualified",
+        score: { overall: 8.4, c: [9,9,8,8,7,9,9] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 59/70 — an excellent result! Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nStrong, well-explained idea. For the build, be ready to show exactly which sensors you use, what the AI actually does, and why AI is the right tool for it. Get those crisp and you're in great shape.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — an excellent result, and you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nStrong, well-explained idea. For the build, be ready to show exactly which sensors you use, what the AI actually does, and why AI is the right tool for it. Get those crisp and you're in great shape.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -199,8 +220,9 @@
         passwords: ["9830083201"],
         builderId: "MAC-431",
         status: "Round 2 — Qualified",
+        score: { overall: 3.9, c: [5,8,2,3,1,1,7] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 27/70. Congratulations — you have advanced to Round 2, the ultimate elimination round!\n\nGood problem to care about. The key for the build: avoid relying on users manually updating parking slots (that becomes a bottleneck over time). Explore automatic detection — sensors, a camera, or crowd-sourced signals — to make it effortless. That single change will make your solution far stronger.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nGood problem to care about. The key for the build: avoid relying on users manually updating parking slots (that becomes a bottleneck over time). Explore automatic detection — sensors, a camera, or crowd-sourced signals — to make it effortless. That single change will make your solution far stronger.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -210,8 +232,9 @@
         builderId: "MAC-274",
         teamLabel: "Team Fin Alpha Legends",
         status: "Round 2 — Qualified",
+        score: { overall: 8.9, c: [9,9.5,9,7,8,10,10] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Team Fin Alpha Legends — your Round 1 score: 62.5/70, one of the top scores! Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nOutstanding work. For the build, think carefully about how users first discover and learn about scams through your product. Keep this momentum going — we're genuinely excited to see what you build.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations, Team Fin Alpha Legends — one of the top scores, and you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nOutstanding work. For the build, think carefully about how users first discover and learn about scams through your product. Keep this momentum going — we're genuinely excited to see what you build.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -219,8 +242,9 @@
         passwords: ["9007856501"],
         builderId: "MAC-619",
         status: "Round 2 — Qualified",
+        score: { overall: 4.0, c: [7,9,2,2,1,1,6] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 28/70. Congratulations — you have advanced to Round 2, the ultimate elimination round!\n\nYou chose an important, high-ambition area. For the build, sharpen how your solution solves the actual problem rather than visualising what advanced systems already detect. Define the specific gap you fill and the real user it helps — that focus will lift your project a lot.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nYou chose an important, high-ambition area. For the build, sharpen how your solution solves the actual problem rather than visualising what advanced systems already detect. Define the specific gap you fill and the real user it helps — that focus will lift your project a lot.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -228,8 +252,9 @@
         passwords: ["9831238909"],
         builderId: "MAC-153",
         status: "Round 2 — Qualified",
+        score: { overall: 3.3, c: [5,2,2,2,2,2,8] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 23/70. Congratulations — you have advanced to Round 2, the ultimate elimination round!\n\nThanks for putting your idea forward. For the build, aim for a sharper, bigger problem — one that genuinely needs a dedicated product (not something a quick message or shared drive already solves). A focused, real pain point will make a huge difference. You've got this.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nThanks for putting your idea forward. For the build, aim for a sharper, bigger problem — one that genuinely needs a dedicated product (not something a quick message or shared drive already solves). A focused, real pain point will make a huge difference. You've got this.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -237,8 +262,9 @@
         passwords: ["9836213363"],
         builderId: "MAC-708",
         status: "Round 2 — Qualified",
+        score: { overall: 7.6, c: [9,9,7,6,7,7,8] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 53/70 — a strong result! Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nGreat submission. For the build, make it clear what makes GuardianX better than simply using an existing AI like Gemini, and show how you protect user privacy. Lead with your unique value and you'll do really well.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — a strong result, and you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nGreat submission. For the build, make it clear what makes GuardianX better than simply using an existing AI like Gemini, and show how you protect user privacy. Lead with your unique value and you'll do really well.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -246,8 +272,9 @@
         passwords: ["7980037905"],
         builderId: "MAC-339",
         status: "Round 2 — Qualified",
+        score: { overall: 7.6, c: [8,8,10,10,9,8,null] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 53/70 — a strong result! Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nVery impressive solution. If you execute the retrieval and embeddings well, your knowledge-base idea is powerful and transferable to almost anything. In the build, make the 'why this matters' crisp and show it working end-to-end. Excited to see it!\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — a strong result, and you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nVery impressive solution. If you execute the retrieval and embeddings well, your knowledge-base idea is powerful and transferable to almost anything. In the build, make the 'why this matters' crisp and show it working end-to-end. Excited to see it!\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -257,8 +284,9 @@
         builderId: "MAC-465",
         teamLabel: "Team Techno coders",
         status: "Round 2 — Qualified",
+        score: { overall: 4.0, c: [6,8,2,2,2,1,7] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Team Techno coders — your Round 1 score: 28/70. Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nThe problem you picked is genuine. For the build, make your solution crystal clear — explain exactly what you are building and why it beats simple alternatives (like a calendar reminder). Clarity is your biggest win here.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations, Team Techno coders — you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nThe problem you picked is genuine. For the build, make your solution crystal clear — explain exactly what you are building and why it beats simple alternatives (like a calendar reminder). Clarity is your biggest win here.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -266,8 +294,9 @@
         passwords: ["9331193313"],
         builderId: "MAC-582",
         status: "Round 2 — Qualified",
+        score: { overall: 7.1, c: [8,9,7,4,8,7,7] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 50/70 — a solid result! Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nThe problem is real and relatable. There are existing solutions out there, so in the build show clearly what you do differently and better. Do it well and it'll be a great project — excited to see the final product!\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — a solid result, and you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nThe problem is real and relatable. There are existing solutions out there, so in the build show clearly what you do differently and better. Do it well and it'll be a great project — excited to see the final product!\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -275,8 +304,9 @@
         passwords: ["9830508734"],
         builderId: "MAC-091",
         status: "Round 2 — Qualified",
+        score: { overall: 8.0, c: [9,9,7,7,8,8,8] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 56/70 — a great result! Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nA genuinely important problem. The key for the build: don't rely on a generic AI wrapper — farmers will depend on this, so aim for a specialised, farming-aware system that truly understands the domain. Get that right and your impact is huge.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — a great result, and you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nA genuinely important problem. The key for the build: don't rely on a generic AI wrapper — farmers will depend on this, so aim for a specialised, farming-aware system that truly understands the domain. Get that right and your impact is huge.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -284,8 +314,9 @@
         passwords: ["9216840198"],
         builderId: "MAC-806",
         status: "Round 2 — Qualified",
+        score: { overall: 9.4, c: [9,10,10,9,9,9,10] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 66/70 — one of the highest scores in the hackathon! Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nA genuine problem and a clean, to-the-point solution — brilliant work. We can't wait to see your final product. Bring your best in Round 2!\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — one of the highest scores in the hackathon, and you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nA genuine problem and a clean, to-the-point solution — brilliant work. We can't wait to see your final product. Bring your best in Round 2!\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -293,8 +324,9 @@
         passwords: ["9674611112"],
         builderId: "MAC-417",
         status: "Round 2 — Qualified",
+        score: { overall: 4.9, c: [8,6,2,3,3,2,10] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Your Round 1 score: 34/70. Congratulations — you have advanced to Round 2, the ultimate elimination round!\n\nThanks for a confident presentation. For the build, ground your claims in clear evidence and show why an app is the best way to deliver value (beyond what a quick search already gives). Tighten the core idea and back it up — that will make it much stronger.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nThanks for a confident presentation. For the build, ground your claims in clear evidence and show why an app is the best way to deliver value (beyond what a quick search already gives). Tighten the core idea and back it up — that will make it much stronger.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       },
       {
@@ -304,8 +336,9 @@
         builderId: "MAC-650",
         teamLabel: "Team Eco Squads",
         status: "Round 2 — Qualified",
+        score: { overall: 8.6, c: [8,9,9,8,8,9,9] },
         updates: [
-          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Team Eco Squads — your Round 1 score: 60/70, a top result! Congratulations, you have advanced to Round 2, the ultimate elimination round!\n\nClear, strong and impactful work. We genuinely can't wait to see your final product. Bring your best to Round 2!\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
+          { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations, Team Eco Squads — a top result, and you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nClear, strong and impactful work. We genuinely can't wait to see your final product. Bring your best to Round 2!\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
       }
       // Add more. Solo:  , { names: ["Full Name"], passwords: ["PHONE"], builderId: "MAC-004", status: "Round 1 — Submitted", updates: [] }
@@ -357,6 +390,30 @@
       if (u.teamLabel){ teamChip.textContent = u.teamLabel; teamChip.style.display = ""; } else { teamChip.style.display = "none"; }
       var st = document.getElementById("dStatus");
       st.textContent = u.status || "Active";
+
+      // Round 1 scorecard
+      var scWrap = document.getElementById("dScoreWrap");
+      var sc = document.getElementById("dScore");
+      if (u.score && u.score.c) {
+        var labels = [
+          ["Problem Clarity", "How clearly you defined the problem"],
+          ["Problem Importance", "How real and significant the problem is"],
+          ["Solution Quality", "How strong and complete your solution is"],
+          ["Innovation", "How original and creative your idea is"],
+          ["Feasibility", "How realistically it can be built"],
+          ["Impact", "How much real-world difference it can make"],
+          ["Presentation", "How clearly you pitched and explained it"]
+        ];
+        var rows = labels.map(function (l, idx) {
+          var v = u.score.c[idx];
+          var vs = (v === null || v === undefined) ? "&mdash;" : v;
+          return '<div class="score-row"><div class="sc-l"><b>' + l[0] + '</b><span>' + l[1] + '</span></div><div class="sc-v">' + vs + '<i>/10</i></div></div>';
+        }).join("");
+        sc.innerHTML = '<div class="scorecard"><div class="score-overall"><span class="num">' + u.score.overall + '</span><span class="out">/10</span><span class="lab">Overall Round 1 score</span></div>' + rows + '</div>';
+        scWrap.style.display = "";
+      } else {
+        sc.innerHTML = ""; scWrap.style.display = "none";
+      }
 
       var box = document.getElementById("dUpdates");
       var ups = u.updates || [];
