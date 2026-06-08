@@ -131,6 +131,7 @@
 
             <div class="dash-meta">
                 <span class="chip">Builder ID: <b id="dId">—</b></span>
+                <span class="chip" id="dTeam" style="display:none;"></span>
                 <span class="chip status" id="dStatus">Active</span>
             </div>
 
@@ -150,50 +151,51 @@
     /* ============================================================
        PARTICIPANT LIST — edit this only. No database needed.
        ------------------------------------------------------------
-       For each participant add an object below.
-       - name:      their full name (login is case/space-insensitive)
-       - password:  their phone number (what they log in with).
-                    NOTE: this is visible in the page source, so do not
-                    share the live link publicly.
-       - builderId: shown on their dashboard (optional)
-       - status:    e.g. "Active", "Round 2 Qualified", "Not Shortlisted"
-       - updates:   newest first. Add a new {date,title,text} entry each
-                    time you want to share something with this person.
-       After editing, save and redeploy (push to main).
-
-       NOTE: the two entries below are SAMPLE/PLACEHOLDER data — replace
-       them with your real participants before sharing the link.
+       Each entry accepts MULTIPLE names and MULTIPLE phone numbers, so
+       for a TEAM any member's name + any team member's phone works.
+       - names:     accepted login names (case/space-insensitive).
+                    Solo: just their name. Team: team name + every member.
+       - passwords: accepted phone numbers. Solo: their phone.
+                    Team: the team number + each member's number.
+       - builderId: shown on the dashboard (optional)
+       - teamLabel: optional, e.g. "Team ShadowForge" (shown as a chip)
+       - status:    e.g. "Round 1 — Submitted", "Round 2 Qualified"
+       - updates:   newest first. Add a {date,title,text} per update.
+       NOTE: names/phones here are visible in the page source — share the
+       login link only with participants. After editing, push to main.
        ============================================================ */
     var PARTICIPANTS = [
       {
-        name: "Tanish Jhunjhunwala",
-        password: "9903990709",
-        builderId: "MAC-001",
+        names: ["Tanish Jhunjhunwala"],
+        passwords: ["9903990709"],
+        builderId: "MAC-247",
         status: "Round 1 — Submitted",
         updates: [
           { date: "8 Jun 2026", title: "Round 1 submission received", text: "Thanks for submitting your idea (HunarBook) and your video. Your Round 1 entry is in. Shortlist results for Round 2 will be shared right here — stay tuned!" }
         ]
       },
       {
-        name: "ShadowForge",
-        password: "8336992705",
-        builderId: "MAC-002",
+        // Team: any of these names works, with any of the listed phone numbers.
+        names: ["ShadowForge", "Krish Shroff", "Manay Agarwal", "Somraj Roy"],
+        passwords: ["8336992705"],   // add each member's phone number here too, if you have them
+        builderId: "MAC-388",
+        teamLabel: "Team ShadowForge",
         status: "Round 1 — Submitted",
         updates: [
           { date: "8 Jun 2026", title: "Round 1 submission received", text: "Thanks Team ShadowForge (Krish, Manay & Somraj) — we've received your idea (ShadowSkills AI) and your video. Your Round 1 entry is in. Shortlist results for Round 2 will be shared right here — stay tuned!" }
         ]
       },
       {
-        name: "Ridan Soni",
-        password: "9752444247",
-        builderId: "MAC-003",
+        names: ["Ridan Soni"],
+        passwords: ["9752444247"],
+        builderId: "MAC-512",
         status: "Round 1 — Submitted",
         updates: [
           { date: "8 Jun 2026", title: "Round 1 submission received", text: "Thanks for submitting your idea (financial literacy for children) and your video. Your Round 1 entry is in. Shortlist results for Round 2 will be shared right here — stay tuned!" }
         ]
       }
-      // Add more participants here:
-      // , { name: "Full Name", password: "PHONE", builderId: "MAC-004", status: "Round 1 — Submitted", updates: [ { date: "", title: "", text: "" } ] }
+      // Add more. Solo:  , { names: ["Full Name"], passwords: ["PHONE"], builderId: "MAC-004", status: "Round 1 — Submitted", updates: [] }
+      // Team:           , { names: ["Team Name","Member One","Member Two"], passwords: ["TEAMPHONE","MEMBER1PHONE"], builderId: "MAC-005", teamLabel: "Team Name", status: "Round 1 — Submitted", updates: [] }
     ];
 
     /* ---------- logic (no need to edit below) ---------- */
@@ -201,23 +203,35 @@
 
     function norm(s){ return String(s||"").trim().toLowerCase().replace(/\s+/g,""); }
 
-    function findParticipant(name, pass){
-      var n = norm(name), p = String(pass||"").trim();
+    // Login succeeds when the name AND the phone both belong to the SAME
+    // entry — name matches any of its `names`, phone matches any of its
+    // `passwords`. Returns { user, displayName } or null.
+    function findMatch(name, pass){
+      var n = norm(name), p = String(pass||"").trim().replace(/\s+/g,"");
       for (var i=0;i<PARTICIPANTS.length;i++){
         var u = PARTICIPANTS[i];
-        if (String(u.password).trim() === p && norm(u.name) === n) return u;
+        var names = u.names || (u.name ? [u.name] : []);
+        var passes = u.passwords || (u.password ? [u.password] : []);
+        var matchedName = null;
+        for (var j=0;j<names.length;j++){ if (norm(names[j]) === n){ matchedName = names[j]; break; } }
+        var passOk = false;
+        for (var k=0;k<passes.length;k++){ if (String(passes[k]).trim().replace(/\s+/g,"") === p){ passOk = true; break; } }
+        if (matchedName && passOk) return { user: u, displayName: matchedName };
       }
       return null;
     }
 
     function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
 
-    function renderDashboard(u){
+    function renderDashboard(u, displayName){
       document.getElementById("loginView").classList.add("hidden");
       var d = document.getElementById("dashView");
       d.classList.remove("hidden");
-      document.getElementById("dHello").textContent = u.name.split(" ")[0] || u.name;
+      var greet = displayName || (u.names && u.names[0]) || u.name || "Builder";
+      document.getElementById("dHello").textContent = greet.split(" ")[0] || greet;
       document.getElementById("dId").textContent = u.builderId || "—";
+      var teamChip = document.getElementById("dTeam");
+      if (u.teamLabel){ teamChip.textContent = u.teamLabel; teamChip.style.display = ""; } else { teamChip.style.display = "none"; }
       var st = document.getElementById("dStatus");
       st.textContent = u.status || "Active";
 
@@ -236,12 +250,12 @@
       e.preventDefault();
       var name = document.getElementById("name").value;
       var pass = document.getElementById("pass").value;
-      var u = findParticipant(name, pass);
+      var m = findMatch(name, pass);
       var err = document.getElementById("loginError");
-      if (u){
+      if (m){
         err.classList.remove("show");
-        try { sessionStorage.setItem(SESSION_KEY, JSON.stringify({ name: u.name, password: u.password })); } catch(e){}
-        renderDashboard(u);
+        try { sessionStorage.setItem(SESSION_KEY, JSON.stringify({ name: name, password: pass })); } catch(e){}
+        renderDashboard(m.user, m.displayName);
       } else {
         err.classList.add("show");
       }
@@ -260,8 +274,8 @@
         var raw = sessionStorage.getItem(SESSION_KEY);
         if (!raw) return;
         var s = JSON.parse(raw);
-        var u = findParticipant(s.name, s.password);
-        if (u) renderDashboard(u);
+        var m = findMatch(s.name, s.password);
+        if (m) renderDashboard(m.user, m.displayName);
       } catch(e){}
     })();
     </script>
