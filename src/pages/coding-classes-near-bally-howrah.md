@@ -1,364 +1,246 @@
 ---
-title: "Coding & Maths Classes near Bally, Howrah | Modern Age Coders"
-description: "Live online coding classes near Bally, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Don Bosco Liluah, St. Thomas' Church School and other Bally-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Bally, Howrah"
+description: "Premium live online coding & maths classes for Bally & Belur students. Small batches, project-based Python, Java, AI/ML & board prep. Book a free demo."
 canonical: https://learn.modernagecoders.com/coding-classes-near-bally-howrah
-keywords: ["Bally Howrah coding", "coding near Bally", "Don Bosco Howrah coding", "Python Bally Howrah", "maths tuition Bally", "online coding Bally", "ICSE tuition Bally Howrah", "coding classes near Bally Howrah", "maths classes Bally Howrah", "coding for kids Bally", "coding for teens Bally", "online coding classes Bally Howrah"]
+keywords: ["coding classes Bally", "coding classes near Bally Howrah", "Python classes Bally", "Java classes Bally", "ICSE computer applications Bally", "online maths tuition Bally", "AI ML course Howrah", "coding classes Belur Math", "coding classes Liluah", "kids coding Bally", "live online coding Howrah", "board exam computer science Bally"]
 source: src/pages/coding-classes-near-bally-howrah.html
 ---
-> Live online coding classes near Bally, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Don Bosco Liluah, St. Thomas' Church School and other Bally-area schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Premium live online coding & maths classes for Bally & Belur students. Small batches, project-based Python, Java, AI/ML & board prep. Book a free demo.
 
-From Industrial Heritage to Digital Future — Live Online
+LIVE ONLINE CODING & MATHS · SERVING BALLY, BELUR & LILUAH
 
-# Coding & Maths Classes for Students near Bally, Howrah
+# Premium Coding & Maths Classes near Bally, Howrah
 
-Bally carries an industrial heritage that transformed Howrah into a manufacturing powerhouse. Today, that same spirit of precision and hard work drives Bally families to invest in their children's future. Where jute mills and engineering workshops once defined ambition, **Don Bosco School Howrah** students and learners from **Bally Nischinda schools** and local **CBSE/ICSE institutions** are now discovering coding as the pathway to opportunity. The systematic thinking and logic inherited from an industrial past powers great code. Modern Age Coders brings **100% live online coding and mathematics classes** right to Bally homes — same quality as Kolkata, no river crossing needed.
+Modern Age Coders runs premium, 100% live online coding and mathematics classes for students across Bally, Belur Math, Bally Halt and Liluah. We teach Python, Java, AI/ML and school maths in small live batches of 6 to 8, taught by full-time engineers and maths graduates, never pre-recorded. Your child learns from home, with no Bally Bridge traffic and no Hooghly river crossing to reach a Kolkata coaching centre.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% Live, Never Pre-RecordedSmall Batches (6-8 Max)Taught by Engineers & Maths GraduatesICSE Java · CBSE Python · WBBSE Maths[Book a Free Demo Class](/contact)[Explore Courses](/courses)1:6Live batch sizes6-65Ages we teach90 minCommute saved / classFreeFirst demo classLIVE ONLINE · BALLY, HOWRAH
 
-Free demo • No commitment • Classes start within 24 hours
+## At a glance
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online**, real-time with a teacher — not pre-recorded videoBatch sizeGroup of 6-8, mini batch of 3-4, or fully 1-on-1Ages**6 to 65** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, Scratch, DSA, web) and Mathematics (Grade 1 to college + Olympiad)BoardsICSE (Java/BlueJ), CBSE (Python), ISC and WBBSE — all supportedFeesFrom ₹1,499/month group, ₹2,499/month mini batch, ₹4,999/month 1-on-1Free demoYes — one free, no-commitment live demo class before you decideServingBally, Belur, Belur Math, Bally Halt, Liluah, Nischinda, Dewangazi, Bally Ghoshpara and the wider GT Road beltLIVE ONLINE · PREMIUM QUALITY
 
-## Live Online Coding Classes near Bally — What Parents Should Know
+## Live online, premium teaching — for a Bally household
 
-Bally parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Bally is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Don Bosco Liluah, St. Thomas' Church School and other Bally-area schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Every class at Modern Age Coders is delivered live online by a full-time engineer or maths graduate to a small batch — so a Bally student gets the same premium, project-based teaching as any top Kolkata centre, without crossing Bally Bridge or the Hooghly. Nothing here is pre-recorded; your child speaks, asks and codes in real time, every single class.
 
-📺
+### Genuinely Live, Never a Recording
 
-### 100% Live, Not Pre-Recorded
+Every session is taught live by a real teacher who sees your child's screen and answers in the moment. There are no pre-recorded lectures to watch alone. Doubts get cleared the second they appear, not days later.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small Batches, Real Attention
 
-👨‍👩‍👧‍👦
+We cap group batches at 6 to 8 students, run mini batches of 3 to 4, and offer fully 1-on-1 classes. Your child is known by name, tracked individually and never lost in a crowd of fifty. This is how Bally's working families get true value for money.
 
-### Max 6–8 Students per Live Batch
+### Taught by Engineers & Maths Graduates
 
-Smaller than any Bally-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are led by full-time software engineers and mathematics graduates, not part-time college students reading from a slide deck. They know how ICSE BlueJ, CBSE Python and WBBSE maths actually map to real software and real exams. The teaching is current, correct and career-aware.
 
-🏠
+### Project-Based From Day One
 
-### Zero Travel through Bally Bridge Traffic
+Children build real, working things — games, trackers, calculators and data tools — instead of only copying syntax. Projects double as board practical files and portfolio pieces. Bally students have built everything from a Belur Math timing tool to a GT Road fare app.
 
-No fighting evening Bally Bridge and GT Road traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### The Commute Disappears
 
-📝
+No GT Road bottleneck, no Bally Bridge or Nivedita Setu choke, no ferry across to Dakshineswar for evening coaching. Your child finishes school, has a snack and is coding from home — saving roughly 90 minutes of round-trip travel every class day. That time goes back into study and rest.
 
-### Recordings + Notes After Each Class
+### Premium Quality at a Bally Price
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Premium teaching does not have to mean a premium-city price. Group classes start at ₹1,499 a month, mini batches at ₹2,499, and personalised 1-on-1 at ₹4,999. You get small-batch, engineer-led, project-based education at fees that respect a practical Bally household budget.
 
-💻
+LIVE ONLINE · BALLY, HOWRAH
 
-### Project-Based, Not Theory-Heavy
+## Course Catalogue
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+Bally families value discipline and excellence. Our courses are built for that standard, covering every age group from young Scratch beginners to working professionals.
 
-👨‍🏫
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Ages 6-17 (CBSE/ICSE track) | Python fundamentals through AI basics, all project-based |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens 13-18, ICSE essential | Java syntax through OOP, aligned to ICSE Computer Applications |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9-10 (BlueJ) | Full ICSE Java/BlueJ syllabus with board-style practical programs |
+| [AI/ML Course for Teens](/ai-ml-course-for-teens) | Teens 13-18 | Intro to AI and machine learning with hands-on Python builds |
+| [AI/ML for Professionals](/ai-and-machine-learning-for-working-professionals) | Working professionals upskilling | Career-relevant machine learning for those already in jobs |
+| [CS Class 11-12 (ICSE/CBSE)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | Class 11-12 CS/IP board students | Complete ICSE (Java) & CBSE (Python) theory, practicals, projects |
+| [Mathematics](/online-maths-tuition) | Grades 1-12, college, all boards | School maths plus Olympiad prep (IOQM, RMO, IMO) |
+| [Java DSA Course](/java-dsa-course) | College & placement aspirants | Data Structures & Algorithms in Java for interviews and CP |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only batches | Princess & Queen Coders dedicated girls-only batches, all ages |
+| [Scratch / Kids Coding](/courses/coding/kids) | Kids ages 6-12 | Scratch, block coding, web design and AI basics for beginners |
+| [College / DSA Track](/courses/coding/college) | College students | DSA, MERN stack, AI/ML and database mastery |
+| [Summer Coding Camp](/summer-coding-camp) | Holiday learners, all ages | A full module completed intensively in 3-4 weeks |
+| [Winter Coding Camp](/winter-coding-camp) | Holiday learners, all ages | Short-format, holiday-intensive module completion |
 
-### Parent Updates Every Month
+See the full list on the [Courses index](/courses) or [view pricing](/pricing).
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+LIVE ONLINE · FEATURED TRACKS
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+## Three tracks Bally families ask for most
 
-## Schools near Bally Whose Students Learn with Us
+MOST IN-DEMAND
 
-Students from [Don Bosco School Howrah (ICSE)](/coding-and-maths-for-don-bosco-park-circus-kolkata), Bally Nischinda High School, Bally Janakalyan Vidyalaya, local CBSE and ICSE institutions across Bally, and schools in nearby Belur and Liluah join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+### [Python & AI for Kids and Teens](/python-and-ai-classes-for-kids-teens)
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Bally offers this depth of coding education alongside structured mathematics tutoring.
+Python is the language behind modern AI, data science and automation, and it is the gentlest serious language for a young coder to start with. Our Bally students move from their first line of Python to building real tools — exactly the kind of project a Class 11 learner near Dewangazi More used to log GT Road air-quality data. It is also the core language for the CBSE Computer Science syllabus at KV Belur and Adamas.
 
-## What Your Child Will Learn with Modern Age Coders
+**You'll learn:** Variables, loops, functions and AI basics. **You'll build:** games, calculators and real data-visualisation projects.
 
-Bally families value discipline and excellence. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+ICSE ESSENTIAL
 
-🎨
+### [Java Programming for ICSE Students](/java-programming-for-icse-students)
 
-### For Kids (Ages 6-12)
+Java with BlueJ is the official Computer Applications language for ICSE schools across the Liluah-Belur belt — Don Bosco Liluah, St. Denis and M.C. Kejriwal. We teach the exact board syllabus, the practical file format and the board-style program patterns examiners expect. A Class 10 student here even built a Belur Math aarti and ferry-timing console program as a board practical.
 
-The perfect starting age. Bally's brightest young minds begin their coding journey here.
+**You'll learn:** Java syntax, classes and full OOP. **You'll build:** board-ready BlueJ programs and a complete practical file.
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+FUTURE-PROOF SKILL
 
-💻
+### [AI & Machine Learning for Teens](/ai-ml-course-for-teens)
 
-### For Teens (Ages 13-18)
+Artificial Intelligence and Machine Learning are reshaping every industry, and Bally's practical, IT-aspirational families want their children fluent in it early. This track takes school students from Python foundations into real machine-learning concepts and applied projects they can put on a resume or college application. College students and working professionals can step up to our [college AI/ML](/ai-ml-course-for-college-students) and [professional](/ai-and-machine-learning-for-working-professionals) tracks.
 
-Where ICSE and CBSE students build skills that boards and entrance exams both reward.
+**You'll learn:** Core ML ideas, data handling and model basics. **You'll build:** working AI mini-projects for your portfolio.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+LIVE ONLINE · SCHOOLS SERVED
 
-🎓
+## Schools near Bally whose students learn with us
 
-### For College Students
+We teach students from every kind of school around Bally, across all major boards. That includes ICSE and ISC convent students from Don Bosco School Liluah, St. Denis School (Belur/Liluah), M.C. Kejriwal Vidyapeeth and Agrasain Balika Siksha Sadan; CBSE students from Kendriya Vidyalaya Belur and Adamas International; and the strong Bengali-medium WBBSE base at Bally Girls' High School, Bally Vidyapith, Bally Nischinda High School and Bally Jagacha High School. We even support families linked to [Don Bosco School Park Circus](/coding-and-maths-for-don-bosco-park-circus-kolkata).
 
-From engineering colleges in Howrah to universities across Bengal — sharpen your competitive edge.
+Because Bally's board landscape is genuinely mixed, our teaching is board-aware rather than one-size-fits-all. ICSE and ISC students get the full [Java/BlueJ Computer Applications](/java-programming-for-icse-students) syllabus with board-style practical files; CBSE students get the Python track that maps to their [Class 11-12 Computer Science and Informatics Practices](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) papers; and WBBSE families get clear, value-priced coding plus [school maths tuition](/online-maths-tuition) from Grade 1 onward. Whatever the school, the syllabus is matched and the board prep is real.
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+LIVE ONLINE · THE NEIGHBOURHOOD
 
-💼
+## Bally: a town that respects precise, careful work
 
-### For Professionals
+Bally has always been a town that respects hard, precise work. Strung along Grand Trunk Road between Howrah and the Hooghly belt, its jute mills, engineering workshops and colony families built a culture of discipline and skill long before software arrived. That same spirit of precision now channels naturally into coding — where one wrong character breaks a program and one careful fix makes it run. Bally children take to it because their families already value getting things exactly right.
 
-Upskilling programmes for working professionals staying relevant in tech.
+This is also a deeply rooted, riverside Bengali town. Belur Math and the Ramakrishna Mission anchor its cultural life; the ghats, Bally Halt station, Dewangazi More and the daily rhythm of Bally-to-Dakshineswar ferries are part of every family's week. Parents here are conservative in lifestyle but quietly ambitious for their children — they want real IT and engineering futures, taught with discipline and proven results, not flashy branding. Live online classes fit that life: the child stays home, safe and studying, while learning the same skills as any South Kolkata student.
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+And the commute is the real story. Reaching a Kolkata or central-Howrah coaching centre from Bally means crawling through GT Road bottlenecks and the chronic Bally Bridge and Nivedita Setu choke, or crossing the river toward Dakshineswar — easily 75 to 90 minutes round trip on an evening. We delete that entirely. School ends, a snack is had, and the child is coding from home with no road and no river to cross. The saved time goes back into practice, rest and family.
 
-📊
+PROJECT 01
 
-### Mathematics for All Ages
+### Belur Math Aarti & Ferry Timing Bot
 
-Bally families know maths and code are inseparable.
+A Class 10 ICSE student's Java/BlueJ console program that returns Belur Math aarti timings and the next Bally-to-Dakshineswar ferry slot, built as a board practical file project.
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+PROJECT 02
 
-☀️
+### GT Road Pollution Logger
 
-### Summer & Winter Camps
+A Class 11 student's Python project charting daily AQI readings near Dewangazi More against traffic-peak hours, turning Bally's mill-belt air-quality concern into a data-visualisation portfolio piece.
 
-Intensive short-term programs during school breaks.
+PROJECT 03
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+### Durga Puja Pandal-Hopping Route Planner
 
-## Why Bally Parents Choose Modern Age Coders
+A Class 8 learner's Scratch app that maps a walking order for popular Bally and Liluah Puja pandals, so families cover the most pandals before the evening crowd, shared with neighbours during Pujo.
 
-🎥
+"No more dragging him across Bally Bridge after school for tuition — he learns from home and we can see he is actually building things."
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+BA Bally parentparaphrased — read more on our [Wall of Love](/love)LIVE ONLINE · AREAS SERVED
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Bally families expect quality education to work.
+## Areas & pin codes we teach across
 
-👥
+### Pin codes
 
-### Small Batches — Maximum 6-8 Students
+We serve students across pin codes **711201, 711202, 711203, 711204, 711205, 711227 and 711101** — the full Bally, Belur and Liluah belt.
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+BallyBelurBelur MathBally HaltBally GhoshparaNischindaBally NimtalaBally KhalDewangaziBally JagachaGT Road BallyBally Bridge areaLiluah edgeDakshineswar approachHindmotor side
 
-🧰
+Live anywhere near Bally or Belur? If you have a laptop and an internet connection, you are already in our classroom — no travel required.
 
-### Coding + Maths Combined — Only in India
+LIVE ONLINE · WEEKLY SCHEDULE
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Howrah parents trust us over single-subject alternatives.
+## Class timings built around Bally school hours
 
-💰
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| After-School Early | 4:00 PM - 5:30 PM | Kids (6-12), Scratch & Python beginners | Mon / Wed / Fri |
+| After-School Late | 5:30 PM - 7:00 PM | Teens, ICSE Java & CBSE Python | Tue / Thu / Sat |
+| Evening | 7:00 PM - 8:30 PM | Board prep (Class 9-12), maths | Mon / Wed / Fri |
+| Night | 8:30 PM - 10:00 PM | College, DSA, working adults | Tue / Thu / Sat |
+| Weekend Intensive | 10:00 AM - 12:00 PM | Camps, projects, 1-on-1 catch-up | Sat / Sun |
 
-### Starting at Just ₹1,499/month
+Slots are flexible — we fix a timetable around your child's school hours and tuition load. [Book a demo](/contact) to lock a slot.
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+LIVE ONLINE · HONEST COMPARISON
 
-## Bally: The GT Road Crossing of Three Generations of Families
+## Live online vs offline tuition near Bally
 
-Bally is the gateway between Howrah and the Hooghly belt — the famous Bally Bridge connects to Dakshineswar, the Bally Halt railway station, and Belur Math just upriver. The neighbourhood has a deep traditional Bengali Hindu character mixed with a growing population of working-class families in the colonies along GT Road.
+### Where live online wins
 
-Children attend Don Bosco Liluah (just across the line), St. Thomas' Church School, Bally Vidyapith, and several local Bengali-medium schools. Parents are conservative on appearance but practical on their children's future. The combination of traditional Bengali culture and aspirational coding ambition is unique to this belt.
+- No GT Road traffic, no Bally Bridge or Nivedita Setu choke, no river crossing — roughly 90 minutes saved every class day.
+- Small live batches of 6-8 mean more teacher attention than a packed local coaching room.
+- Taught by full-time engineers and maths graduates, not whoever is available locally.
+- Your child stays home — safe, supervised and studying — which conservative Bally families value.
+- Every class is screen-shared and interactive, so doubts are solved live, not left for next week.
+- Recordings of your own class are available for revision, on top of the live teaching.
+- Premium, project-based teaching at Bally-friendly fees from ₹1,499 a month.
 
-We've taught a steady trickle of Bally students for three years. The retention rate matches Liluah's — once a Bally family commits, they stay committed.
+### When offline still wins
 
-### Recent Projects Built by Students from Bally
+- Some very young children focus better with a parent physically beside them for the first few weeks.
+- A purely social, in-person hobby club is a different goal from structured skill-building.
+- Households with no reliable laptop or internet connection will struggle with any online format.
+- A student who needs constant physical supervision may do better with an in-person minder present.
 
-These are real student projects from our Bally batches — small, useful, and unmistakably theirs.
+For genuine, structured coding and maths skills, live online wins on quality, attention and time saved — which is why Bally families are choosing it. [Book a free demo](/contact) and judge for yourself.
 
-#### Belur Math Visitor Hours App
+LIVE ONLINE · GETTING STARTED
 
-A Class 9 girl built a Python script that tracks Belur Math's official visiting hours across festival days. The local mandir committee finds it useful.
+## How to start from Bally
 
-#### Bally Bridge Traffic Time Estimator
+01
 
-A Class 11 boy built a small Python tool that estimates Bally Bridge crossing time at peak hours based on a public webcam.
+### Book your free demo
 
-#### GT Road Auto Fare Reference
+Pick a slot and meet a real teacher in a live class, with no commitment. [Book a free demo](/contact).
 
-A Class 8 student built a Scratch app listing autos fares from Bally to 12 nearby stops. His friend group uses it.
+02
 
-“
+### Choose your track
 
-Bally is traditional but ambitious. We don't show off. We just want our child to break into the IT economy. Your fees and teaching make that practical for us.
+We help you select the right course for your child's age, board and goal, from [Scratch](/courses/coding/kids) to [Java](/java-programming-for-kids-teens), [Python](/python-and-ai-classes-for-kids-teens) or [maths](/online-maths-tuition).
 
-— A Bally parent, paraphrased from a recent conversation.
+03
 
-## Neighbourhoods near Bally We Serve
+### Pick a plan
 
-Because every class is live online, we serve students across the entire Bally belt and adjoining Howrah localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+Choose a group, mini batch or 1-on-1 plan that fits your budget on our [pricing page](/pricing).
 
-### Pin codes we actively teach in
+04
 
-**711201** (Bally core, Bally Halt), **711227** (Bally Ghoshpara, Belur Math side), **711202** (Bally Nimtala), **711203** (Bally Dewangazi side), **711204** (Liluah edge), **711205** (Bally Beleghata edge), **711101** (Howrah city side).
+### Start building
 
-### Localities our students log in from
+Your child joins their small live batch and starts building real projects from the very first week. [Explore all courses](/courses).
 
-BallyBelur Math sideBally HaltBally GhoshparaNischindaBally NimtalaBally KhalDewangaziLiluah edgeDakshineswar approachBally Bridge areaBally CourtHindmotor sideGT Road BallyBelur
+LIVE ONLINE · PARENT VOICE
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+## What a Bally parent says
 
-## Class Timings & Weekly Schedule for Students near Bally
+"My son Dhairya has genuinely started enjoying his classes. The teachers are patient, the batches are small, and he is actually building real projects, not just watching videos. As a parent, seeing him this engaged with coding is wonderful."
 
-Most Howrah schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+SSonam OswalMother of Dhairya
 
-☀️
+Read more parent and student stories on our [Wall of Love](/love).
 
-### Morning Slot — 9:00 to 11:00 AM
+LIVE ONLINE · FAQ
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Frequently asked questions
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+Yes. Our [Java for ICSE Students](/java-programming-for-icse-students) course covers the full ICSE Java/BlueJ Computer Applications syllabus, including board-style practical files and the exact program patterns examiners expect. Students from Don Bosco Liluah, St. Denis and M.C. Kejriwal are taught to their own board's requirements.Absolutely. Our teachers explain concepts in simple, clear language and do not assume strong prior English, and group batches start at just ₹1,499 a month. Coding is a skill any disciplined WBBSE student can learn well. See [pricing](/pricing) for all options.Yes — every class is live and online, taught in real time by a teacher. Your child learns from home with no Bally Bridge, no Nivedita Setu choke and no river crossing, saving around 90 minutes per class day. Nothing is pre-recorded.Yes. Our [Coding Classes for Girls](/coding-classes-for-girls) (Princess Coders and Queen Coders) are dedicated girls-only batches across age groups, designed for families who prefer that environment for their daughters. The curriculum is identical in quality to all other batches.Yes. Our [Class 11-12 Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) covers the full CBSE Python-based CS and IP syllabus — theory, practicals and projects. We prepare students for both the written board papers and the practical examination.Group classes (max 6-8) start at ₹1,499 a month, mini batches (3-4 students) at ₹2,499 a month, and fully personalised 1-on-1 classes at ₹4,999 a month. See the [pricing page](/pricing) for full details. There are no hidden charges.We support ICSE (Java/BlueJ), CBSE (Python), ISC and WBBSE. Our teaching is board-aware, so the syllabus and exam style are matched to your child's actual school. We cover both [Java](/java-programming-for-kids-teens) and [Python](/python-and-ai-classes-for-kids-teens) board tracks.We teach students from age 6 to 65 — kids, teens, college students and working adults. Young beginners can start with [Scratch and kids coding](/courses/coding/kids), and adults can take [Java for adults](/java-classes-for-adults) or [AI/ML for professionals](/ai-and-machine-learning-for-working-professionals).Every live class is recorded, so your child can catch up on any missed session before the next class. For 1-on-1 students we can also reschedule the slot. No lesson is ever lost.A laptop or desktop with a stable internet connection works best, as the children write and run real code on screen. A reasonably modern tablet can work for younger Scratch learners. We will confirm the right setup during your free demo.Classes are taught in clear, simple English, and teachers are comfortable explaining concepts in a Hindi or Bengali-friendly way when a younger or WBBSE student needs it. The goal is understanding, not jargon.It is 100% live. Every class is taught in real time by a full-time engineer or maths graduate to a small batch, so your child can ask questions and clear doubts on the spot. We never replace live teaching with pre-recorded videos.Yes. Our certificate-track courses, such as the [Java Certification Course](/java-certification-course) and [AI/ML Certification Course](/ai-ml-certification-course), award a certificate backed by assessed projects, so it reflects real, demonstrated skill.Yes. We offer [online maths tuition](/online-maths-tuition) from Grade 1 through Class 12 and into college, for all boards, including Olympiad preparation (IOQM, RMO, IMO). Many Bally families enrol for both coding and maths together.Just [book a free demo class](/contact) — it is genuinely free and carries no commitment. Your child attends a real live class, you see the teaching quality for yourself, and only then do you decide. You can also reach us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161).
 
-🏫
+## Bally's next coder or mathematician is at home right now.
 
-### After-School Slot — 4:30 to 7:30 PM
+Premium, live online, project-based coding and maths — small batches, engineer-led, no Bally Bridge traffic. Start with one free class.
 
-The most popular slot for kids and teens near Bally. School ends, snack, log in. Two classes a week, 60 minutes each.
+[Book a Free Demo Class](/contact)[Explore Courses](/courses)[+91 91233 66161](https://wa.me/919123366161)LIVE ONLINE · NEARBY AREAS
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
+## Coding & maths classes in nearby areas
 
-🌚
+[Shibpur](/coding-classes-near-shibpur-howrah)[Howrah City](/coding-classes-near-howrah-city-howrah)[Liluah](/coding-classes-near-liluah-howrah)[Santragachi](/coding-classes-near-santragachi-howrah)[Domjur](/coding-classes-near-domjur-howrah)[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Bally parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at St. Thomas' Church School, Bally Vidyapith, Don Bosco Liluah (nearby) and similar Bally-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at Don Bosco Liluah, KV Belur, Adamas International and other CBSE-track Bally-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Don Bosco Liluah, MC Kejriwal Vidyapeeth, St. Thomas' Church School and other ICSE-track Bally-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Bally — Honest Comparison
-
-Bally has private tuition rooms along GT Road and around Belur Math. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Bally centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Bally Bridge traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Bally
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Bally
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Bally. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"Aditya was always curious about how apps and games work, but we could never find a structured class near Howrah that went beyond basic computer lessons. Modern Age Coders changed that completely. The live classes are engaging, the batch size is small, and the teacher actually knows each student by name. Within three months, Aditya built his first Python project. As a mother, I feel confident he is building skills that will matter."
-
-RRitu KediaMother of Aditya
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Bally
-
- Are there coding classes for kids near Bally, Howrah? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Bally, Howrah. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from Don Bosco Howrah and other Bally schools are already learning with us. What is the fee for coding and maths classes near Bally? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Bally? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Bally schools follow. How can my child in Bally attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed — no crossing the Hooghly river to reach Kolkata coaching centres. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Belur Math side or Bally Halt? +Three big differences. **First**, batch size: most Bally tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Bally Bridge and GT Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Bally? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Bally belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Bally? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Bally. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Don Bosco Liluah, St. Thomas' Church School and other Bally-area schools and other Bally-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Bally Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Bally and Howrah trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Howrah & Kolkata
-
-We serve students across Howrah and Kolkata. Explore classes near your area.
-
-[Shibpur](/coding-classes-near-shibpur-howrah)[Howrah City](/coding-classes-near-howrah-city-howrah)[All Kolkata Areas](/best-coding-class-in-kolkata)
-
-School-specific: [Don Bosco](/coding-and-maths-for-don-bosco-park-circus-kolkata) • [Birla High School](/coding-and-maths-for-birla-high-school-kolkata) • [Mahadevi Birla Academy](/coding-and-maths-for-mahadevi-birla-world-academy-kolkata) • [DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)
+School-specific: [Don Bosco School Park Circus (ICSE)](/coding-and-maths-for-don-bosco-park-circus-kolkata).
 
 ---
 
