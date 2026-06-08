@@ -231,6 +231,64 @@
         updates: [
           { date: "8 Jun 2026", title: "Round 1 — under evaluation", text: "Thank you for your Round 1 submission. Our panel is currently evaluating all entries. The Round 1 results will be declared soon — please keep checking here for your update. All the best!" }
         ]
+      },
+      {
+        names: ["Vivaan Madhogaria"],
+        passwords: ["9836213363"],
+        builderId: "MAC-708",
+        status: "Round 1 — Under Evaluation",
+        updates: [
+          { date: "8 Jun 2026", title: "Round 1 — under evaluation", text: "Thank you for your Round 1 submission. Our panel is currently evaluating all entries. The Round 1 results will be declared soon — please keep checking here for your update. All the best!" }
+        ]
+      },
+      {
+        names: ["Pratham Rupera"],
+        passwords: ["7980037905"],
+        builderId: "MAC-339",
+        status: "Round 1 — Under Evaluation",
+        updates: [
+          { date: "8 Jun 2026", title: "Round 1 — under evaluation", text: "Thank you for your Round 1 submission. Our panel is currently evaluating all entries. The Round 1 results will be declared soon — please keep checking here for your update. All the best!" }
+        ]
+      },
+      {
+        // Team: any member name works with the team's phone number.
+        names: ["Techno coders", "Rudraansh Agarwal", "Yuwaansh Agarwal"],
+        passwords: ["9433208127"],
+        builderId: "MAC-465",
+        teamLabel: "Team Techno coders",
+        status: "Round 1 — Under Evaluation",
+        updates: [
+          { date: "8 Jun 2026", title: "Round 1 — under evaluation", text: "Thank you, Team Techno coders, for your Round 1 submission. Our panel is currently evaluating all entries. The Round 1 results will be declared soon — please keep checking here for your update. All the best!" }
+        ]
+      },
+      {
+        names: ["Bhavya Jain"],
+        passwords: ["9331193313"],
+        builderId: "MAC-582",
+        status: "Round 1 — Under Evaluation",
+        updates: [
+          { date: "8 Jun 2026", title: "Round 1 — under evaluation", text: "Thank you for your Round 1 submission. Our panel is currently evaluating all entries. The Round 1 results will be declared soon — please keep checking here for your update. All the best!" }
+        ]
+      },
+      {
+        names: ["Nikit Goyal"],
+        passwords: ["9830508734"],
+        builderId: "MAC-091",
+        status: "Round 1 — Under Evaluation",
+        updates: [
+          { date: "8 Jun 2026", title: "Round 1 — under evaluation", text: "Thank you for your Round 1 submission. Our panel is currently evaluating all entries. The Round 1 results will be declared soon — please keep checking here for your update. All the best!" }
+        ]
+      },
+      {
+        // NOTE: this participant left the NAME field BLANK in the form (contact 9216840198).
+        // They can log in by typing their phone number in BOTH fields. Replace the name below once known.
+        names: ["9216840198"],
+        passwords: ["9216840198"],
+        builderId: "MAC-806",
+        status: "Round 1 — Under Evaluation",
+        updates: [
+          { date: "8 Jun 2026", title: "Round 1 — under evaluation", text: "Thank you for your Round 1 submission. Our panel is currently evaluating all entries. The Round 1 results will be declared soon — please keep checking here for your update. All the best!" }
+        ]
       }
       // Add more. Solo:  , { names: ["Full Name"], passwords: ["PHONE"], builderId: "MAC-004", status: "Round 1 — Submitted", updates: [] }
       // Team:           , { names: ["Team Name","Member One","Member Two"], passwords: ["TEAMPHONE","MEMBER1PHONE"], builderId: "MAC-005", teamLabel: "Team Name", status: "Round 1 — Submitted", updates: [] }
@@ -240,12 +298,17 @@
     var SESSION_KEY = "mac_hx_login_v1";
 
     function norm(s){ return String(s||"").trim().toLowerCase().replace(/\s+/g,""); }
+    // Phone normaliser: keep digits only, drop a leading country code 91 so
+    // "9903990709", "+91 9903990709" and "919903990709" all match.
+    function normPhone(s){ var d = String(s||"").replace(/[^0-9]/g,""); if (d.length>10 && d.slice(0,2)==="91") d = d.slice(2); return d; }
 
     // Login succeeds when the name AND the phone both belong to the SAME
     // entry — name matches any of its `names`, phone matches any of its
     // `passwords`. Returns { user, displayName } or null.
     function findMatch(name, pass){
-      var n = norm(name), p = String(pass||"").trim().replace(/\s+/g,"");
+      var n = norm(name);
+      var pRaw = String(pass||"").trim().replace(/\s+/g,"");
+      var pPhone = normPhone(pass);
       for (var i=0;i<PARTICIPANTS.length;i++){
         var u = PARTICIPANTS[i];
         var names = u.names || (u.name ? [u.name] : []);
@@ -253,7 +316,11 @@
         var matchedName = null;
         for (var j=0;j<names.length;j++){ if (norm(names[j]) === n){ matchedName = names[j]; break; } }
         var passOk = false;
-        for (var k=0;k<passes.length;k++){ if (String(passes[k]).trim().replace(/\s+/g,"") === p){ passOk = true; break; } }
+        for (var k=0;k<passes.length;k++){
+          var sRaw = String(passes[k]).trim().replace(/\s+/g,"");
+          var sPhone = normPhone(passes[k]);
+          if (sRaw === pRaw || (pPhone.length>=7 && pPhone === sPhone)) { passOk = true; break; }
+        }
         if (matchedName && passOk) return { user: u, displayName: matchedName };
       }
       return null;
