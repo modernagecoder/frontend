@@ -1,364 +1,248 @@
 ---
-title: "Coding & Maths Classes near Kadamtala, Howrah | Modern Age Coders"
-description: "Live online coding classes near Kadamtala, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Kadamtala, Howrah"
+description: "Live online coding & maths classes near Kadamtala, Howrah. Small batches, project-based, taught by engineers. ICSE Java, CBSE Python. From ₹1,499/month."
 canonical: https://learn.modernagecoders.com/coding-classes-near-kadamtala-howrah
-keywords: ["Kadamtala Howrah coding", "St Thomas Church School Howrah coding", "coding near Kadamtala", "Python Kadamtala", "maths tuition Kadamtala Howrah", "affordable coding Howrah", "online coding Kadamtala", "coding classes near Kadamtala Howrah", "coding for kids Kadamtala", "coding for teens Kadamtala", "ICSE Java tuition Kadamtala", "CBSE Python classes Kadamtala"]
+keywords: ["coding classes near Kadamtala Howrah", "coding classes Howrah", "ICSE Java classes Howrah", "CBSE Python classes Howrah", "online coding classes Howrah", "maths tuition Kadamtala", "coding classes near Howrah Station", "BlueJ classes Howrah", "AI ML classes Howrah", "Python classes for kids Howrah", "computer applications ICSE Class 10 Howrah", "online maths tuition Kadamtala"]
 source: src/pages/coding-classes-near-kadamtala-howrah.html
 ---
-> Live online coding classes near Kadamtala, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Kadamtala, Howrah. Small batches, project-based, taught by engineers. ICSE Java, CBSE Python. From ₹1,499/month.
 
-Quality Education for Every Family — Live Online
+KADAMTALA · HOWRAH · LIVE ONLINE
 
-# Coding & Maths Classes for Students near Kadamtala, Howrah
+# Live Online Coding & Maths Classes near Kadamtala, Howrah
 
-Kadamtala is one of Howrah's most densely populated, commercially active areas. **St. Thomas' Church School Howrah (ICSE)** and other neighbourhood institutions serve a large student population. Families here work hard and want every opportunity for their children — yet quality tech education has always been out of reach. Modern Age Coders changes that with **live online coding and mathematics classes at just ₹1,499/month**, accessible to every family in Kadamtala. 100% live, small batches, personal attention — because quality should never be a privilege.
+Modern Age Coders runs premium, live online coding and mathematics classes for families in Kadamtala, Howrah — taught in real time by full-time engineers and maths graduates, never pre-recorded. Children join small batches of 6 to 8 from home, covering ICSE Java/BlueJ, CBSE Python, AI/ML and school maths. Fees start at ₹1,499/month, with a free demo class. No commute through the Howrah Station bazaar lanes — just log in and learn.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Live, not recordedBatches of 6–8Engineers as teachersFrom ₹1,499/month[Book a Free Demo Class](/contact)[Explore All Courses](/courses)6–8Students per live batch₹1,499Starting fee per month100%Live & project-based75–90 minDaily commute savedAT A GLANCE
 
-Free demo • No commitment • Classes start within 24 hours
+## Coding & maths near Kadamtala — the facts
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**100% live online** — real-time classes with a teacher on screen, not pre-recorded videosBatch sizeSmall batches of **6–8** (group), 3–4 (mini batch), or 1-on-1Ages**6 to 65** — kids, teens, college students and working adultsSubjectsCoding (Python, Java, AI/ML, C++, DSA) and Mathematics (Grades 1–12, college, Olympiad)BoardsICSE Java/BlueJ, CBSE Python, ISC, IGCSE and WBBSE state boardFeesFrom **₹1,499/month** (group) · ₹2,499/month (mini batch) · ₹4,999/month (1-on-1)Free demoYes — one free, no-commitment live demo class before you decideServingKadamtala, Pilkhana, Church Road, Belilious Road, Howrah Maidan, Salkia, Bandhaghat and across HowrahWHY LIVE, WHY PREMIUM
 
-## Live Online Coding Classes near Kadamtala — What Parents Should Know
+## Live online, taught by engineers — at an honest price
 
-Kadamtala parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Kadamtala is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Every Modern Age Coders class for Kadamtala is delivered live online by a full-time engineer or maths graduate — there are no pre-recorded videos and no rotating part-time tutors. Children learn in small batches of six to eight, write real code in every session, and get their doubts answered the moment they raise a hand. This is premium, high-quality tech education built for hard-working Howrah families, at an honest price.
 
-📺
+### Live, never pre-recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is taught live, in real time, by a teacher who can see your child's screen and code. When a Class 9 student near Church Road gets stuck on a BlueJ program, the teacher fixes it there and then — not in a comment thread a day later. Recorded videos cannot do that.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Genuinely small batches
 
-👨‍👩‍👧‍👦
+Group batches are capped at six to eight students, so every child is known by name and gets spoken to in every class. Our mini batches run at three to four, and 1-on-1 is one student to one teacher. No child sits silent at the back the way they would in a packed Howrah tuition room.
 
-### Max 6–8 Students per Live Batch
+### Taught by engineers and maths graduates
 
-Smaller than any Kadamtala-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Your child is taught by full-time professional engineers and mathematics graduates, not school-leaver part-timers paid by the hour. They have written production code and solved real maths, so they teach the why behind every line — the kind of teacher quality that was historically out of reach for many Kadamtala families.
 
-🏠
+### Project-based from day one
 
-### Zero Travel through Kadamtala Traffic
+Children build real, working things — a price tracker, a fare chart, a maintenance calculator — instead of only copying notes. A project your child can show family and add to a board file or college application teaches far more than rote theory, and it makes coding stick.
 
-No fighting evening Kadamtala bazaar and GT Road Howrah traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Board-aware, not generic
 
-📝
+Classes map directly onto the syllabus your child sits — ICSE Java/BlueJ, CBSE Python, and WBBSE maths for state-board schools. We prepare for board-style programs, practicals and project files, not a vague generic course.
 
-### Recordings + Notes After Each Class
+### Honest, affordable pricing
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Quality should never be a privilege. Group classes start at ₹1,499/month, so a hard-working middle-income Kadamtala family gets the same engineer-taught, small-batch quality as anyone in the city. You see [full pricing](/pricing) up front — no hidden fees, no surprise charges.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## Every track, from first code to certification
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids and teens ages 10–17 | Live project-based Python plus AI fundamentals — games, scripts and the first text language schools want |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9–10 computer applications students | The full ICSE Java/BlueJ syllabus, board-style programs, practicals and project files |
+| [AI/ML Course for Teens](/ai-ml-course-for-teens) | Teens ages 13–18 | Approachable machine learning and AI projects built in Python |
+| [Java for Kids/Teens](/java-programming-for-kids-teens) | Teens ages 13–18, ICSE-track | Java around the ICSE/ISC BlueJ syllabus plus genuine OOP maturity |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1–12, college, all boards | Live maths from primary to college, including Olympiad prep (AMC, IOQM, RMO, IMO) |
+| [Computer Applications ICSE Class 10](/computer-applications-icse-class-10) | ICSE Class 10 students | Java/BlueJ computer applications board preparation |
+| [ICSE/CBSE Computer Science Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | ICSE and CBSE Class 11–12 students | Complete board CS — ICSE Java and CBSE Python theory, practicals and projects |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | First-time learners ages 9–13 | Gentle ground-up Python with small games and scripts |
+| [AI/ML Course for College Students](/ai-ml-course-for-college-students) | College and engineering students | Applied ML — models, datasets and degree-level projects |
+| [Java DSA Course](/java-dsa-course) | College students, placement aspirants | Data structures and algorithms in Java for interviews |
+| [C++ DSA Course](/c-plus-plus-dsa-course) | Competitive programmers, placement aspirants | DSA in C++ for CP, contests and placements |
+| [Coding Classes for Girls](/coding-classes-for-girls) | Girls-only batches (Princess/Queen Coders) | Dedicated girls-only coding building tech confidence and leadership |
+| [Maths Class 10](/maths-class-10) | Class 10 board students | Focused Class 10 mathematics board exam preparation |
 
-👨‍🏫
+College students and placement aspirants also take [C++ for DSA](/c-plus-plus-dsa-course) — the language of choice for competitive programming and coding interviews. See the [full course catalogue](/courses) for every track — beginners to certification, kids to working professionals.
 
-### Parent Updates Every Month
+FEATURED TRACKS
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three paths most Kadamtala families start with
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+MOST POPULAR FIRST LANGUAGE
 
-## Schools near Kadamtala Whose Students Learn with Us
+### Python & AI for Kids and Teens
 
-Students from **St. Thomas' Church School Howrah (ICSE)**, **Kadamtala area schools**, and **Howrah Zilla School** (nearby) join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is the language we recommend most Kadamtala children start with — it reads almost like English, powers everything from CBSE Class 11–12 board CS to real AI, and rewards beginners quickly. In live project-based sessions, your child writes working code from the first class and steadily builds towards AI fundamentals.
 
-Whether your child follows the ICSE, CBSE, or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform in Kadamtala offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn:** variables, loops, functions and logic. **You'll build:** real projects like a bazaar price tracker, a quiz game and a departure reminder.
 
-## What Your Child Will Learn with Modern Age Coders
+[Start with Python](/python-and-ai-classes-for-kids-teens)
 
-Kadamtala families deserve world-class education at an honest price. Our courses are built for that promise, covering every age group from first-graders to working professionals.
+ICSE / BlueJ READY
 
-🎨
+### Java for ICSE & ISC Students
 
-### For Kids (Ages 6-12)
+Java is essential for ICSE students across Kadamtala and Howrah, where the ICSE computer applications syllabus is taught in Java on BlueJ. We teach the exact board syllabus — class structure, OOP, board-style programs and the project file — alongside genuine programming maturity that carries into ISC and engineering.
 
-The perfect starting age. Howrah's curious young minds begin their coding journey here.
+**You'll learn:** classes, objects, inheritance and polymorphism. **You'll build:** board-ready BlueJ programs and a complete ICSE project file.
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+[Master ICSE Java](/java-programming-for-icse-students)
 
-💻
+FUTURE-READY
 
-### For Teens (Ages 13-18)
+### AI & Machine Learning
 
-Where ICSE and CBSE students build skills that boards and entrance exams both reward.
+AI and machine learning are now within reach of school and college students, and we teach them hands-on in Python — not as theory, but by building real models on real data. Teens start with [AI/ML for Teens](/ai-ml-course-for-teens); college students and professionals go deeper with applied projects, model-building and data science.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+**You'll learn:** datasets, training and evaluation. **You'll build:** working ML models and a portfolio project you can showcase.
 
-🎓
+[Explore AI & Machine Learning](/best-ai-and-machine-learning-course-in-india)
 
-### For College Students
+SCHOOLS WE SERVE
 
-From engineering colleges to general degrees — sharpen your competitive edge.
+## Built around your child's actual school and board
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+We teach children from across Kadamtala and old Howrah, including ICSE, CBSE, ISC and WBBSE state-board schools in and around the area. Whatever school and board your child is on, our classes map to their syllabus. Because all classes are live online, a child from any of these schools logs in from home without crossing the Howrah Station crush.
 
-💼
+Our teaching follows your child's actual board, not a generic syllabus. ICSE students get Java/BlueJ computer applications mapped to their [Class 10 ICSE](/computer-applications-icse-class-10) board programs and project file; CBSE students get Python-based computer science; and Class 11–12 students of both boards prepare with our [complete board Computer Science course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). WBBSE state-board students are equally welcome — coding and [school maths](/online-maths-tuition) are taught from first principles, so the medium of your school is no barrier.
 
-### For Professionals
+THE NEIGHBOURHOOD
 
-Upskilling programmes for working professionals staying relevant in tech.
+## Kadamtala — the working spine of old Howrah
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+Kadamtala is the dense, working spine of old Howrah — Church Road and St. Thomas' Church wrapped tight around the railway station, the bazaar lanes spilling off Belilious Road, the godowns and shops that have fed Howrah Station for over a century. Families here run three and four generations deep, many with roots in the jute mills, the railways and the engineering trades of Liluah and Shibpur. For most of those years, the kind of tech education that opens real doors lived somewhere across the river, out of easy reach.
 
-📊
+That distance was never only about money — it was about time and the daily grind of getting there. A child heading to coaching from Kadamtala has to cross the chaos around the station and the Pilkhana crossing, push through bazaar lanes, gamble on G.T. Road evening jams and change autos at Howrah Maidan. Seventy-five to ninety minutes of an evening, gone, every class day. Live online classes simply delete that journey: the child opens a laptop in the flat, and that hour and a half goes straight back into studying and resting.
 
-### Mathematics for All Ages
+And the families are changing. Newer households in the Belilious Road apartment blocks are warming fast to coding, and the older generation — the ones who built lives around engineering and the railways — quietly understand that this is the same lever, pointed at the next thing. What we have seen, again and again, is that a Kadamtala child given a real teacher and a small live batch builds things that matter to the street they live on.
 
-Kadamtala parents know maths and code are inseparable.
+PROJECT 01
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### Church Road Tuition-Lane Slot Finder
 
-☀️
+A Class 9 ICSE student built a Java/BlueJ console program listing which coaching and music classes along Church Road have open evening slots, so her younger cousin could pick a batch that didn't clash with school.
 
-### Summer & Winter Camps
+PROJECT 02
 
-Intensive short-term programs during school breaks.
+### Howrah Station Local-Train Departure Reminder
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A Class 10 boy from a Belilious Road apartment wrote a Python script that takes his father's regular Howrah-to-Bardhaman local timings and pings a reminder 20 minutes before — after his father missed two trains in the platform rush.
 
-## Why Kadamtala Parents Choose Modern Age Coders
+PROJECT 03
 
-🎥
+### Pilkhana Ration & Grocery Splitter
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+A Class 8 student built a Scratch app that splits a shared monthly grocery and ration bill between three families sharing a Pilkhana house, showing each family's share with a tap. His grandmother now settles accounts with it.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how families in Kadamtala expect quality education to work.
+"My son used to lose two hours just getting to and from his classes. Now he logs in from home, and the teacher actually knows him by name."
 
-👥
+PParentBelilious RoadAREAS WE SERVE
 
-### Small Batches — Maximum 6-8 Students
+## Across Kadamtala and the Howrah pin codes
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+Serving Kadamtala and the surrounding Howrah pin codes: **711101, 711102, 711103, 711104, 711106 and 711108**.
 
-🧰
+KadamtalaPilkhanaChurch RoadBelilious RoadHowrah MaidanHowrah Station approachBandhaghatSalkiaMandirtala sideShibpur edgeLiluahBelgachia (Howrah)Foreshore Road beltBally edgeKona Expressway side
 
-### Coding + Maths Combined — Only in India
+Live online, so wherever you are in Howrah — bazaar lane or riverside flat — the same engineer-taught, small-batch classes reach you. See [all Kolkata and Howrah areas](/best-coding-class-in-kolkata).
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Howrah parents trust us over single-subject alternatives.
+WEEKLY SCHEDULE
 
-💰
+## Slots that fit a Kadamtala school routine
 
-### Starting at Just ₹1,499/month
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Early evening | 4:30 – 5:30 PM | Kids ages 6–12 (Scratch, Python beginners) | Mon / Wed / Fri |
+| Prime evening | 6:00 – 7:00 PM | Teens, ICSE Java & CBSE Python | Tue / Thu / Sat |
+| Late evening | 7:30 – 8:30 PM | Class 9–12 board CS & maths | Mon / Wed / Fri |
+| Night | 8:30 – 9:30 PM | College students & working adults | Tue / Thu / Sat |
+| Weekend morning | 10:00 – 11:30 AM | Camps, projects & 1-on-1 | Sat / Sun |
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+Timings are flexible — we set a slot around your child's school and tuition routine. Tell us what suits when you [book a demo](/contact).
 
-## Kadamtala: Howrah's Quiet Bazaar Lanes Are Now Coding Their Future
+LIVE ONLINE VS OFFLINE
 
-Kadamtala sits in the heart of old Howrah, between Howrah Maidan and the river. The bazaar lanes, the GT Road traffic, the Belilious Road residential apartments — this is a part of the city that has resisted change for decades. The families here are largely Bengali, often three or four generations into Howrah, with the older generation tied to the jute and engineering industries.
+## Where live online wins for Kadamtala
 
-Children attend Howrah Vivekananda Institution and the local cluster. Parents are conservative and careful, but their stance on coding is shifting fast. The younger families who have recently moved into the apartment blocks along Belilious Road are particularly aggressive about getting their children started early.
+### Where live online wins
 
-We've been quietly building a Kadamtala base for two years. The first cohort of students started in Class 7–8; they are now in Class 9–10 doing Python.
+- No 75–90 minute round trip through Howrah Station, the Pilkhana crossing and G.T. Road evening jams — that time goes back into study.
+- No auto changes at Howrah Maidan, no walking home through dark bazaar lanes after class.
+- Your child is taught by a full-time engineer or maths graduate, not whoever happens to be free in a local centre.
+- Small batches of six to eight mean every child is seen, named and answered — better than a packed offline tuition room.
+- The teacher sees your child's actual screen and code live, fixing mistakes in the moment.
+- Every session is project-based, so children build real, working things — not just copy notes from a board.
+- Honest pricing from ₹1,499/month puts premium teaching within reach of every hard-working Kadamtala family.
 
-### Recent Projects Built by Students from Kadamtala
+### When offline still wins
 
-These are real student projects from our Kadamtala batches — small, useful, and unmistakably theirs.
+- A child who genuinely cannot access any device or a basic internet connection at home.
+- A very young learner who still needs a parent physically beside them for every minute.
+- Families who specifically want a neighbourhood drop-off-and-collect arrangement over home learning.
+- Learners who feel they need a printed-worksheet, blackboard-only setting with no screen at all.
 
-#### Kadamtala Bazaar Vegetable Price Bot
+For almost every Kadamtala family with a basic laptop or tablet and a steady connection, live online delivers higher teaching quality, smaller batches and zero commute — at a price that finally makes it fair.
 
-A Class 9 girl built a Python script that tracks vegetable prices at three Kadamtala bazaar shops. Her grandmother says it has shifted family shopping habits.
+HOW TO START
 
-#### Belilious Road Apartment Maintenance Calculator
+## Four steps to your child's first project
 
-A Class 10 boy built a small Python tool for his society secretary to compute monthly maintenance across 30 flats.
+01
 
-#### Howrah Maidan Auto Fare Chart
+### Book a free demo
 
-A Class 8 student built a Scratch app listing 12 destinations and their auto fares from Kadamtala. His father has it on his phone.
+Tell us your child's age, school and board, and pick a slot — [book a free demo class](/contact) with no commitment.
 
-“
+02
 
-Kadamtala doesn't follow trends. We waited and watched. The neighbour's daughter learned with you for two years. We finally enrolled our son last month.
+### Meet your teacher live
 
-— A Kadamtala parent, paraphrased from a recent conversation.
+Your child joins one real, live session with a full-time engineer or maths graduate and tries actual coding or maths first-hand.
 
-## Neighbourhoods near Kadamtala We Serve
+03
 
-Because every class is live online, we serve students across the entire Kadamtala belt and adjoining Howrah localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+### Choose your track and batch
 
-### Pin codes we actively teach in
+We recommend the right course — [Python](/python-and-ai-classes-for-kids-teens), [Java](/java-programming-for-kids-teens), [AI/ML](/ai-ml-course-for-teens) or [maths](/online-maths-tuition) — and a batch size and slot that fit; [see pricing](/pricing).
 
-**711103** (Kadamtala, Shibpur edge), **711102** (Shibpur, Howrah Maidan), **711101** (Howrah Station side), **711104** (Mandirtala), **711106** (Bandhaghat), **711108** (Liluah edge), **711204** (Liluah).
+04
 
-### Localities our students log in from
+### Start building
 
-KadamtalaShibpur edgeHowrah MaidanPilkhanaSalkiaMandirtala sideBandhaghatBelilious RoadG.T. Road HowrahForeshore RoadHooghly riversideHowrah Station approachLiluah edgeBally edgeKona Expressway side
+Your child begins regular live classes from home and builds their first real project within the first few weeks.
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+PARENT STORY
 
-## Class Timings & Weekly Schedule for Students near Kadamtala
+## What a Modern Age Coders parent says
 
-Most Howrah schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+"The teachers are extremely patient and the classes are completely live, so my son Dhairya is always engaged. He has built projects I genuinely did not expect at his age, and his confidence has grown so much. I am very happy we chose Modern Age Coders."
 
-☀️
+SSonam OswalMother of Dhairya
 
-### Morning Slot — 9:00 to 11:00 AM
+Read more parent and student stories on our [Wall of Love](/love).
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+FAQ
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+## Questions Kadamtala families ask
 
-🏫
+Yes. We teach the full ICSE Java/BlueJ computer applications syllabus, including board-style programs, practicals and the project file, through our [Computer Applications ICSE Class 10](/computer-applications-icse-class-10) and [Java for ICSE Students](/java-programming-for-icse-students) courses. Lessons map directly onto what Kadamtala and Howrah ICSE students sit in the board exam.Absolutely. Our coding and [maths classes](/online-maths-tuition) are taught from first principles, so WBBSE state-board, English-medium and Bengali-medium students are all equally welcome. The board or medium of your school is no barrier to learning Python, Java or AI.Any laptop, desktop or tablet from the last several years works, plus a basic broadband or 4G connection. The classes are designed to run on modest home internet, and if you ever drop briefly the teacher catches your child up. We will check your setup during the free demo.Because every class is live online, your child logs in from home and never has to cross the station crush, the Pilkhana crossing or G.T. Road jams. That saves 75 to 90 minutes of round-trip commute per class day. We set timings around your child's school and tuition routine.Group classes (batches of 6–8) start at ₹1,499/month, mini batches (3–4 students) are ₹2,499/month, and 1-on-1 is ₹4,999/month. There are no hidden charges; full details are on our [pricing page](/pricing). Quality teaching should never be a privilege, and our group fee is built to be genuinely affordable.They are 100% live. A full-time engineer or maths graduate teaches in real time, sees your child's screen, and answers doubts the moment they arise — there are no pre-recorded videos. This is the core of what makes the teaching high-quality.Group batches are capped at 6–8 students, mini batches run at 3–4, and 1-on-1 is one student with one teacher. Small batches mean every child is known by name and gets spoken to in every class.Full-time professional engineers and mathematics graduates — not part-time school-leavers. They have written real code and solved real maths, so they teach the reasoning behind every concept, not just the answer.Tell us in advance and we will help your child catch up — either by adjusting into another batch's session or with a focused recap from the teacher. Because batches are small, nobody is left behind after an absence.A laptop, desktop or tablet with a webcam and a stable internet connection is enough. All coding tools (Python, BlueJ for Java, and others) are free and we guide you through installing them in the first session.Classes are taught primarily in clear English, and our teachers comfortably explain in Hindi or Bengali when a Kadamtala child needs a concept unpacked further. No child is left confused over language.Yes. Students receive a completion certificate along with a portfolio of the projects they have built, which is useful for school files and college applications. Several of our [Java](/java-certification-course) and [AI/ML](/ai-ml-certification-course) tracks are certificate courses.We teach ages 6 to 65 — from young children on [Scratch and Python beginners](/python-for-beginners-kids), through teens and ICSE/CBSE board students, to college students and working adults on [DSA](/java-dsa-course), [AI/ML](/ai-ml-course-for-college-students) and [data science](/data-science-course).Yes. We teach live [online maths](/online-maths-tuition) from Grade 1 through Class 12 and college, across all boards, including [Class 10 board maths](/maths-class-10) and Olympiad prep (AMC, IOQM, RMO, IMO). Many Kadamtala families take both coding and maths.Yes, the demo is genuinely free with no obligation. Just [book a free demo class](/contact) or message us on WhatsApp at [+91 91233 66161](https://wa.me/919123366161); your child attends one live session, and you decide afterwards.
 
-### After-School Slot — 4:30 to 7:30 PM
+## Quality coding and maths, for every Kadamtala family.
 
-The most popular slot for kids and teens near Kadamtala. School ends, snack, log in. Two classes a week, 60 minutes each.
+Live small batches, taught by engineers, from ₹1,499/month — book one free demo and let your child try it before you decide.
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
+[Book a Free Demo Class](/contact)[Explore All Courses](/courses)[WhatsApp +91 91233 66161](https://wa.me/919123366161)NEARBY AREAS
 
-🌚
+## Coding & maths in other parts of Howrah
 
-### Evening Slot — 7:30 to 9:30 PM
+[Howrah City / Howrah Station Area](/coding-classes-near-howrah-city-howrah)[Shibpur & IIEST Area](/coding-classes-near-shibpur-howrah)[Mandirtala](/coding-classes-near-mandirtala-howrah)[All Kolkata & Howrah Areas](/best-coding-class-in-kolkata)
 
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Kadamtala parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Howrah Vivekananda, St. Thomas' Day School, Don Bosco Liluah and similar Kadamtala-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at KV Howrah, Don Bosco Liluah, Adamas International and other CBSE-track Kadamtala-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Howrah Vivekananda Institution, St. Thomas', MC Kejriwal Vidyapeeth and other ICSE-track Kadamtala-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Kadamtala — Honest Comparison
-
-Kadamtala has neighbourhood tuition rooms along GT Road and the inner lanes. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Kadamtala centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Kadamtala crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Kadamtala
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Kadamtala
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Kadamtala. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"I highly recommend this coding class! The teachers are incredibly knowledgeable and passionate. They explain complex concepts in a way that's easy to understand and always encourage students to think critically. The class atmosphere has really boosted my son's confidence."
-
-RRitu KediaMother of Aditya
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Kadamtala
-
- Are there coding classes for kids near Kadamtala, Howrah? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Kadamtala. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from St. Thomas' Church School and other Kadamtala schools are already learning with us. What is the fee for coding and maths classes near Kadamtala? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition near Kadamtala? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Kadamtala schools follow. How can my child in Kadamtala attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Shibpur edge or Howrah Maidan? +Three big differences. **First**, batch size: most Kadamtala tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Kadamtala bazaar and GT Road Howrah traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Kadamtala? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Kadamtala belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Kadamtala? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Kadamtala. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools and other Kadamtala-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Kadamtala Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Kadamtala trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Howrah
-
-We serve students across Howrah and Kolkata. Explore classes near your area.
-
-[Howrah City](/coding-classes-near-howrah-city-howrah)[Shibpur](/coding-classes-near-shibpur-howrah)[Mandirtala](/coding-classes-near-mandirtala-howrah)[All Kolkata & Howrah Areas](/best-coding-class-in-kolkata)
-
-Also nearby: [Howrah Station Area](/coding-classes-near-howrah-city-howrah) • [Shibpur & IIEST Area](/coding-classes-near-shibpur-howrah)
+ICSE Java/BlueJ for Kadamtala ICSE students → [Computer Applications ICSE Class 10](/computer-applications-icse-class-10).
 
 ---
 
