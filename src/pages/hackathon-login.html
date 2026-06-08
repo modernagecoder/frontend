@@ -82,10 +82,21 @@
 
         /* Round 1 scorecard */
         .scorecard { border: 1px solid var(--line2); border-radius: 14px; background: rgba(12,5,24,0.5); padding: 1.1rem 1.2rem; }
-        .score-overall { display: flex; align-items: baseline; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.9rem; }
-        .score-overall .num { font-family: var(--disp); font-weight: 800; font-size: 2.6rem; line-height: 1; color: var(--acid); }
-        .score-overall .out { font-family: var(--mono); color: var(--faint); font-size: 0.95rem; }
-        .score-overall .lab { margin-left: auto; font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); }
+        .score-overall { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.3rem; margin-bottom: 1.1rem; padding: 1.4rem 1rem 1.2rem; border-radius: 18px; background: radial-gradient(130% 110% at 50% 0%, rgba(196,248,42,0.16), rgba(45,212,191,0.05) 55%, transparent); border: 1px solid rgba(196,248,42,0.32); }
+        .score-overall .lab { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--faint); }
+        .score-big { display: flex; align-items: baseline; gap: 0.35rem; }
+        .score-big .num { font-family: var(--disp); font-weight: 800; font-size: clamp(3.4rem, 14vw, 4.6rem); line-height: 1; color: var(--acid); text-shadow: 0 0 36px rgba(196,248,42,0.5); }
+        .score-big .out { font-family: var(--mono); font-size: 1.15rem; color: var(--mut); }
+
+        /* Round 2 build-phase card */
+        .round2 { border: 1px solid rgba(168,85,247,0.4); border-radius: 14px; background: linear-gradient(135deg, rgba(168,85,247,0.14), rgba(45,212,191,0.06)); padding: 1.2rem 1.3rem; }
+        .round2 h3 { font-family: var(--disp); font-weight: 800; font-size: 1.18rem; color: #fff; margin: 0 0 0.5rem; }
+        .round2 .r2lead { color: var(--ink); font-size: 0.95rem; line-height: 1.55; margin: 0 0 0.7rem; }
+        .round2 .r2lead b { color: var(--acid); }
+        .round2 ul { margin: 0; padding-left: 1.15rem; }
+        .round2 li { color: var(--mut); font-size: 0.92rem; line-height: 1.6; margin-bottom: 0.55rem; }
+        .round2 li b { color: #fff; }
+        .round2 .r2note { margin: 0.9rem 0 0; font-size: 0.83rem; color: var(--faint); line-height: 1.5; }
         .score-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.6rem 0; border-top: 1px solid var(--line); }
         .score-row:first-of-type { border-top: none; }
         .sc-l b { display: block; color: #fff; font-family: var(--disp); font-weight: 600; font-size: 0.95rem; }
@@ -146,6 +157,11 @@
                 <span class="chip">Builder ID: <b id="dId">—</b></span>
                 <span class="chip" id="dTeam" style="display:none;"></span>
                 <span class="chip status" id="dStatus">Active</span>
+            </div>
+
+            <div id="dRound2Wrap" style="display:none;">
+                <div class="sec-label">Round 2 — build phase</div>
+                <div id="dRound2"></div>
             </div>
 
             <div id="dScoreWrap" style="display:none;">
@@ -409,10 +425,30 @@
           var vs = (v === null || v === undefined) ? "&mdash;" : v;
           return '<div class="score-row"><div class="sc-l"><b>' + l[0] + '</b><span>' + l[1] + '</span></div><div class="sc-v">' + vs + '<i>/10</i></div></div>';
         }).join("");
-        sc.innerHTML = '<div class="scorecard"><div class="score-overall"><span class="num">' + u.score.overall + '</span><span class="out">/10</span><span class="lab">Overall Round 1 score</span></div>' + rows + '</div>';
+        sc.innerHTML = '<div class="scorecard"><div class="score-overall"><span class="lab">Overall Round 1 Score</span><div class="score-big"><span class="num">' + u.score.overall + '</span><span class="out">/10</span></div></div>' + rows + '</div>';
         scWrap.style.display = "";
       } else {
         sc.innerHTML = ""; scWrap.style.display = "none";
+      }
+
+      // Round 2 build-phase details (shown once a participant is in Round 2)
+      var r2Wrap = document.getElementById("dRound2Wrap");
+      var r2 = document.getElementById("dRound2");
+      if ((u.status || "").indexOf("Round 2") !== -1) {
+        r2.innerHTML = '<div class="round2">' +
+          '<h3>You are on Round 2 — start building your product!</h3>' +
+          '<p class="r2lead">This is the ultimate elimination round. You have <b>48 hours</b> to build your product. Make it real, and make it work.</p>' +
+          '<p class="r2lead" style="margin-bottom:0.5rem;">Once it is ready, submit your project in <b>any one</b> of these ways:</p>' +
+          '<ul>' +
+            '<li><b>GitHub (recommended):</b> push your project to a GitHub repository and make it <b>Public</b>, then share the repository link.</li>' +
+            '<li><b>Don\'t know GitHub?</b> Put your full project folder into a <b>.zip</b> file, upload it to <b>Google Drive</b> with sharing set to &ldquo;Anyone with the link&rdquo;, and share that link.</li>' +
+            '<li><b>Built fully with an AI tool?</b> Simply share the public link to your AI project/build.</li>' +
+          '</ul>' +
+          '<p class="r2note">The submission form and the exact deadline will be shared in your WhatsApp group. All the best — go build something great!</p>' +
+        '</div>';
+        r2Wrap.style.display = "";
+      } else {
+        r2.innerHTML = ""; r2Wrap.style.display = "none";
       }
 
       var box = document.getElementById("dUpdates");
