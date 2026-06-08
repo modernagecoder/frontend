@@ -1,362 +1,240 @@
 ---
-title: "Coding & Maths Classes near Santragachi, Howrah | Modern Age Coders"
-description: "Live online coding classes near Santragachi, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Santragachi, Howrah"
+description: "Live online coding & maths classes near Santragachi, Howrah. Small batches, full-time engineers, Python, Java & AI/ML. CBSE & ICSE. Free demo in 24 hours."
 canonical: https://learn.modernagecoders.com/coding-classes-near-santragachi-howrah
-keywords: ["Santragachi Howrah coding", "coding near Santragachi", "KV Santragachi coding", "Python Santragachi", "maths tuition Santragachi Howrah", "online coding Santragachi", "coding classes near Santragachi Howrah", "maths classes Santragachi", "coding for kids Santragachi", "coding for teens Santragachi", "CBSE Python classes Santragachi", "computer science tuition Santragachi"]
+keywords: ["coding classes Santragachi", "coding classes Howrah", "Python classes Santragachi", "Java classes Howrah", "ICSE Java BlueJ Howrah", "CBSE Python coding Santragachi", "AI ML classes Howrah", "online maths tuition Santragachi", "KV Santragachi coding", "kids coding classes Howrah", "live online coding Howrah", "coding classes near Santragachi Junction"]
 source: src/pages/coding-classes-near-santragachi-howrah.html
 ---
-> Live online coding classes near Santragachi, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Santragachi, Howrah. Small batches, full-time engineers, Python, Java & AI/ML. CBSE & ICSE. Free demo in 24 hours.
 
-Connected to Everywhere — Live Online Classes
+LIVE ONLINE · HOWRAH · SANTRAGACHI JUNCTION
 
-# Coding & Maths Classes for Students near Santragachi, Howrah
+# Coding & Maths Classes near Santragachi, Howrah
 
-Santragachi is one of Howrah's most important railway junctions — a neighbourhood connected to everywhere. With **KV Santragachhi (CBSE)** as the area's academic anchor and **Santragachi KM High School** shaping generations of students, families here have always valued education that leads to real opportunities. Practical, hardworking, and future-focused — that is Santragachi. Now **100% live online coding and mathematics classes** add to Santragachi's educational infrastructure. No train to Kolkata needed for quality coding — Modern Age Coders brings it straight to your home.
+Modern Age Coders runs premium, live online coding and mathematics classes for Santragachi and the wider Howrah junction belt. Children from KV Santragachi, Santragachi Kedarnath Institution, Howrah Vivekananda Institution and the Liluah ICSE schools learn Python, Java and AI/ML in small live batches led by full-time engineers and maths graduates. No recorded videos, no crossing Santragachi Bridge or the Kona Expressway. The class arrives straight at your GIP Colony or Andul Road home.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+Live, never recordedSmall batches of 6–8CBSE Python + ICSE JavaFree demo in 24 hours[Book a Free Demo Class](/contact)[Explore Courses](/courses)1-on-1or small live batches90 minbridge commute saved per class100%full-time engineer & maths-graduate tutors₹1,499per month, group planAT A GLANCE
 
-Free demo • No commitment • Classes start within 24 hours
+## The essentials, in one place
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format**Live online**, one-on-one or small live batch — never pre-recordedBatch sizeMax 6–8 (group), 3–4 (mini batch), or fully 1-on-1Ages**6 to 65** — kids, teens, college and working professionalsSubjectsCoding (Python, Java, AI/ML, web, DSA) + Mathematics (school to Olympiad)BoardsCBSE (Python), ICSE (Java/BlueJ), WBBSEFeesFrom ₹1,499/month group · ₹2,499/month mini batch · ₹4,999/month 1-on-1Free demoYes — no commitment, classes start within 24 hoursServingSantragachi, Jagacha, GIP Colony, Dasnagar, Andul Road, Shibpur edge & all HowrahLIVE · PREMIUM · SMALL BATCH
 
-## Live Online Coding Classes near Santragachi — What Parents Should Know
+## Genuinely live, genuinely premium
 
-Santragachi parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Santragachi is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Every Modern Age Coders class for Santragachi is genuinely live, premium and high-quality — taught in real time by a full-time engineer or mathematics graduate, never a pre-recorded video and never a part-time tutor. Small batches mean your child is seen, questioned and corrected in the moment, building real projects rather than passively watching playback.
 
-📺
+### Live, not recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is taught live by a real instructor who can see your child's screen and answer the question being asked right now. There are no pre-recorded lectures hiding behind a login. If your child is stuck on a BlueJ error or a Python loop, it gets fixed in that class, not in a comment thread.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small live batches
 
-👨‍👩‍👧‍👦
+We cap groups at 6–8 students, run mini batches of 3–4, and offer fully one-on-one classes. That ratio means a child from KV Santragachi gets individual attention impossible in a 30-seat coaching room. Quieter students are drawn out; faster ones are pushed ahead.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers
 
-Smaller than any Santragachi-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Your instructor codes for a living and teaches full-time — not a college student moonlighting between exams. They have shipped real software and prepared real boards, so they teach Python and Java the way industry and exams actually use them. Maths is taught by dedicated mathematics graduates.
 
-🏠
+### Project-based learning
 
-### Zero Travel through Santragachi Traffic
+Children build working things from week one — a Santragachi train board, a bird-count logger, a notes diary — not just slides of theory. Each project is chosen so the concept sticks because the child made something real. Portfolios grow class by class.
 
-No fighting evening Santragachi Bridge and Kona Expressway traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Board-aware curriculum
 
-📝
+We teach to the exact board your child sits. CBSE families get Python and Informatics Practices; ICSE families get Java in BlueJ tuned to Class 9–10 Computer Applications. Siblings on different boards are both handled. See our [Board Exam Prep course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
-### Recordings + Notes After Each Class
+### Continuity for transfer families
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+Santragachi is a railway town where postings move families across India. Because every class is online, a GIP Colony child keeps the same instructor and curriculum even after a transfer — no restarting at a new local centre. Your child's progress travels with them.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## Every track, every age, near Santragachi
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids & teens (9–17), CBSE/state-board | Python from basics through OOP, pandas/numpy and CBSE Class 11–12 Informatics Practices |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | Young first-time coders | Variables, syntax and first text-based programs, gently paced |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens, especially ICSE | Java in BlueJ building toward Class 9–10 Computer Applications practicals |
+| [Java for ICSE Students](/java-programming-for-icse-students) | ICSE Class 9–10 students | Board-style programs, mock practicals and submission-ready project files |
+| [Java + DSA Course](/java-dsa-course) | College & serious teens | Data structures and algorithms in Java for placements and contests |
+| [AI & Machine Learning for Teens](/ai-ml-course-for-teens) | Teens (13–18) | Hands-on model-building and an intro to the AI behind every industry |
+| [AI/ML for College Students](/ai-ml-course-for-college-students) | College/university students | Python data analysis, deeper modelling and real project work |
+| [Online Maths Tuition](/online-maths-tuition) | All ages, Grades 1–college | School maths through college plus Olympiad prep (AMC, IOQM, RMO, IMO) |
+| [Coding for CBSE Students](/coding-for-cbse-students) | CBSE school students | Python-focused coding that strengthens school Computer Science |
+| [Coding for ICSE Students](/coding-for-icse-students) | ICSE school students | Java/BlueJ matched to Computer Applications requirements |
+| [Coding for Girls (Princess/Queen Coders)](/coding-classes-for-girls) | Girls — kids & teens | Confidence-building girls-only batches and tech leadership |
+| [Kids Coding (Scratch / Web / Kids AI)](/courses/coding/kids) | Kids 6–12 | Scratch, HTML/CSS web design and Kids AI Mastery — the ideal first step |
+| [College Coding Track (DSA/MERN/Data)](/courses/coding/college) | College students | DSA, MERN-stack apps, AI/ML, Python for data and MySQL mastery |
 
-👨‍🏫
+FEATURED TRACKS
 
-### Parent Updates Every Month
+## Three paths most Santragachi families start with
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+MOST IN-DEMAND
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+### [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens)
 
-## Schools near Santragachi Whose Students Learn with Us
+Python is the language that opens doors — from CBSE Informatics Practices at KV Santragachi to AI and data science careers. We start with clean fundamentals and build to OOP, pandas and numpy, with each concept landing through a project the child actually wants to make. It is the surest first language for a Howrah family aiming at the IT economy.
 
-Students from **KV Santragachhi (CBSE)**, **Santragachi KM High School**, and other area schools in and around Santragachi join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+**You'll learn** Python syntax, loops, functions, OOP and the CBSE Class 11–12 syllabus. **You'll build** real tools — like a Santragachi train arrival board — not just exercises.
 
-Whether your child follows the CBSE or state board curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform near Santragachi offers this depth of coding education alongside structured mathematics tutoring.
+ICSE BOARD-ESSENTIAL
 
-## What Your Child Will Learn with Modern Age Coders
+### [Java Programming for Kids/Teens](/java-programming-for-kids-teens)
 
-Santragachi families value education that opens doors. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+For ICSE students at Howrah Vivekananda Institution, St. Thomas', Don Bosco Liluah and M.C. Kejriwal, Java in BlueJ is non-negotiable for Class 9–10 Computer Applications. We teach exactly the BlueJ environment and program patterns the board demands, with mock practicals and submission-ready files. For [ICSE-specific drilling, see the dedicated track](/java-programming-for-icse-students).
 
-🎨
+**You'll learn** Java classes, methods, arrays, strings and board-style logic in BlueJ. **You'll build** submission-ready practical programs and a portfolio of board-pattern projects.
 
-### For Kids (Ages 6-12)
+THE FUTURE OF EVERY INDUSTRY
 
-The perfect starting age. Howrah's brightest young minds begin their coding journey here.
+### [AI & Machine Learning for Teens](/ai-ml-course-for-teens)
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+AI is no longer optional — it is the layer every industry is rebuilding on. Our teens' track demystifies machine learning with hands-on model-building rather than buzzwords, giving a Santragachi student a genuine head start. College students can step up to the [AI/ML for College Students masterclass](/ai-ml-course-for-college-students).
 
-💻
+**You'll learn** how models learn from data, core ML concepts and Python for AI. **You'll build** and train your own working models on real datasets.
 
-### For Teens (Ages 13-18)
+SCHOOLS WE SERVE
 
-Where CBSE and state board students build skills that boards and entrance exams both reward.
+## Board-aware for every Santragachi school
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+Modern Age Coders teaches children from every major Santragachi and Howrah school, online and board-aware. That includes PM SHRI Kendriya Vidyalaya Santragachi (Jagacha/GIP Colony), Santragachi Kedarnath Institution, Surendranath Balika Vidyalaya and Unsani High School on the state-board side, and the strong local ICSE belt — Howrah Vivekananda Institution, St. Thomas' Day School, Don Bosco School Liluah, M.C. Kejriwal Vidyapeeth and Bishop Morrow School, Shibpur. CBSE families from Adamas International are taught too.
 
-🎓
+The Santragachi board mix is genuinely split, so we teach to each one precisely. KV Santragachi and other CBSE students get Python and Class 11–12 Informatics Practices; the ICSE schools get Java in BlueJ tuned to Class 9–10 Computer Applications. WBBSE students get school-aligned coding plus strong [online maths tuition](/online-maths-tuition). Siblings on different boards are both handled in one household. See our complete [Computer Science board course for Class 11–12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).
 
-### For College Students
+THE NEIGHBOURHOOD
 
-From engineering colleges to universities — sharpen your competitive edge.
+## Santragachi keeps railway time
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Santragachi keeps railway time. Life here is paced by long-distance trains pulling out of Santragachi Junction toward Bangalore, Hyderabad and Mumbai, and by the daily crawl over Santragachi Bridge and the Kona Expressway. The resident base is heavily railway-linked — loco staff, ticket inspectors and yard workers from the GIP and Jagacha colonies — alongside Andul Road traders and Shibpur-edge professionals. It is a practical, value-conscious crowd that treats education as the surest exit from cyclical, transfer-prone railway jobs into the IT economy.
 
-💼
+For these families, a coaching run to a Kolkata-side institute is a real cost. Crossing Santragachi Bridge or taking the Kona Expressway to a Howrah-bound local, after the evening goods-train and office rush, easily eats 75 to 90 minutes each way. That is a child arriving tired and a parent waiting in traffic. Live online removes the journey entirely: a 6 pm batch starts at 6 pm, in the GIP Colony or Andul Road home, with the same premium instructor every week.
 
-### For Professionals
+And the learning stays rooted in the neighbourhood the child knows. We have had students build tools around Santragachi Jheel's migratory birds, the bridge's traffic windows and the railway colony's paper-heavy admin — because a concept sticks when it solves a problem you actually see. That is what project-based, live teaching looks like when it is set in Santragachi rather than read off a generic slide.
 
-Upskilling programmes for working professionals staying relevant in tech.
+### Santragachi Jheel Bird-Count Logger
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+A Class 9 ICSE student's Java/BlueJ program lets winter visitors tally migratory-bird sightings at Santragachi Jheel by species and date, then prints a season summary — born from her school's annual bird-watching trip to the lake.
 
-📊
+### Bridge-Jam Departure Planner
 
-### Mathematics for All Ages
+A Class 11 boy's Python tool learns the usual Santragachi Bridge and Kona Expressway slow-down windows and tells his trader father the latest minute he can leave home and still reach a Kolkata client meeting on time.
 
-Santragachi families know maths and code are inseparable.
+### GIP Colony Quarter-Allotment Helper
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+A Class 10 KV Santragachi student's Python app organises railway-colony quarter and transfer details into a clean, searchable list — built after watching his ticket-inspector father wrestle with paper allotment notices every posting.
 
-☀️
+"No more sending him across the bridge after school — the class comes home, and the teacher is a real engineer."
 
-### Summer & Winter Camps
+SA Santragachi parentRead more on our [Wall of Love](/love)AREAS & PIN CODES
 
-Intensive short-term programs during school breaks.
+## Where our Santragachi students log in from
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+Serving Santragachi and Howrah pin codes **711104, 711110, 711112, 711106, 711102, 711103 and 711101**, plus every surrounding junction-belt neighbourhood.
 
-## Why Santragachi Parents Choose Modern Age Coders
+SantragachiJagachaGIP ColonyDasnagarPadmapukurRamrajatalaMandirtalaShibpur edgeAndul RoadNibraUnsaniKonaBankraShalimarHowrah Maidan
 
-🎥
+Not on the list? If you are anywhere in Howrah, we teach your child live online — distance and bridge traffic simply do not apply.
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+WEEKLY SCHEDULE
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Santragachi families expect quality education to work.
+## Slots built around Santragachi school hours
 
-👥
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Morning | 7:00 – 9:00 AM | Early risers, board revision before school | Mon–Sat |
+| After-school | 4:00 – 6:00 PM | Kids 6–12, Scratch & beginner Python | Mon–Fri |
+| Evening | 6:00 – 8:00 PM | Teens, Python/Java, no bridge commute | Mon–Sat |
+| Night | 8:00 – 9:30 PM | Working professionals, college, AI/ML & DSA | Mon–Fri |
+| Weekend | 10:00 AM – 1:00 PM | Project sprints, Olympiad maths, camps | Sat–Sun |
 
-### Small Batches — Maximum 6-8 Students
+HONEST COMPARISON
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+## Live online vs offline — both sides
 
-🧰
+### Where live online wins
 
-### Coding + Maths Combined — Only in India
+- Zero commute — no Santragachi Bridge or Kona Expressway jam; class starts on time, every time.
+- Around 90 minutes saved per class, returned to study, rest or play.
+- Access to full-time engineers and maths graduates, not whoever the nearest centre could hire.
+- Small batches of 6–8, or true 1-on-1 — attention a 30-seat coaching room cannot match.
+- Continuity through railway transfers: same teacher and curriculum even if the family is posted away.
+- Recordings of your own live class for revision, plus shared screens and instant code feedback.
+- Siblings on different boards taught from one home, no extra travel.
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Howrah parents trust us over single-subject alternatives.
+### When offline still wins (honest)
 
-💰
+- Some very young children focus better with a parent physically seated beside them at first.
+- Pure peer-group social energy of a shared classroom is harder to replicate online.
+- Households without a stable internet connection or a spare device will struggle.
+- A parent wanting to physically drop in and watch the room may prefer a local centre.
 
-### Starting at Just ₹1,499/month
+For most Santragachi families, live online wins on teacher quality, attention and the 90 minutes it hands back every class — without ever crossing the bridge.
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+HOW TO START
 
-## Santragachi: Junction Town, Train Travellers, and a New Wave of Coding Kids
+## Four steps to your first live class
 
-Santragachi is a railway junction town — the second major railhead of Howrah, with through-trains from Bangalore, Hyderabad, and Mumbai stopping here daily. The neighbourhood has a particular character: the families that have grown up around the station are often railway employees, ticket inspectors, and small traders. The Kona Expressway connects them quickly to the larger Howrah-Kolkata economy.
+01
 
-Children attend the Howrah Vivekananda, St. Thomas' Day School, and Don Bosco Liluah cluster. The parents are practical and value-driven — they want their children to escape the cyclical pattern of small-town railway employment and break into the IT economy. Coding is the most direct lever they can pull.
+### Book a free demo
 
-We have a small but growing Santragachi student base. The retention is unusually high — once a Santragachi family is in, they stay for years.
+Tell us your child's class and board on the [contact page](/contact); it takes a minute and costs nothing.
 
-### Recent Projects Built by Students from Santragachi
+02
 
-These are real student projects from our Santragachi batches — small, useful, and unmistakably theirs.
+### Meet your instructor live
 
-#### Santragachi Train Arrival Board
+Sit in on a real, live demo class with a full-time engineer or maths graduate, no recording, no commitment.
 
-A Class 10 boy built a small Python tool that pulls and displays his neighbourhood's train arrivals. His grandfather (a retired ticket inspector) finds it nostalgically useful.
+03
 
-#### Kona Expressway Cab Surge Tracker
+### Pick a plan
 
-A Class 11 student built a Scratch app that estimates Uber surge across Kona Expressway. His father uses it for client meetings in Kolkata.
+Choose group, mini batch or 1-on-1 from our transparent [pricing](/pricing), starting at ₹1,499/month.
 
-#### Don Bosco Liluah Daily Notes Diary
+04
 
-A Class 9 girl built a Python program that aggregates the day's notes across her four subjects into one PDF for revision.
+### Start within 24 hours
 
-“
+Confirm and your child's regular live classes begin the next day — or [WhatsApp us on +91 91233 66161](https://wa.me/919123366161).
 
-We come from Indian Railways. We want our son in IT. Coding is the path. Your curriculum is the bridge.
+PARENT VOICES
 
-— A Santragachi parent, paraphrased from a recent conversation.
+## What a parent told us
 
-## Neighbourhoods near Santragachi We Serve
+"Modern Age Coders has been wonderful for Dhairya. The classes are live and interactive, the teacher genuinely understands how to keep a child engaged, and we have seen real progress in his confidence and logic. As a parent I could not ask for more."
 
-Because every class is live online, we serve students across the entire Santragachi belt and adjoining Howrah localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+SSonam OswalParent · from our wider community
 
-### Pin codes we actively teach in
+This is one of many reviews from across our programme — read more, including notes from Santragachi families, on our [Wall of Love](/love).
 
-**711104** (Santragachi core, Mandirtala), **711102** (Shibpur edge), **711101** (Howrah city), **711103** (Kadamtala), **711302** (Andul edge), **711108** (Liluah edge), **711106** (Bandhaghat).
+FAQ
 
-### Localities our students log in from
+## Questions Santragachi parents ask
 
-SantragachiMandirtalaRamrajatalaShibpur edgeKadamtala edgeHowrah MaidanBelilious RoadAndul Road approachForeshore RoadKona ExpresswayGT Road HowrahBagnan approachSapuipara sideHowrah Station approachBandhaghat
+Every class is genuinely live and taught in real time by a full-time engineer or maths graduate. There are no pre-recorded lectures. Your child can ask questions and get them answered in that same session. [Book a free demo](/contact) to see for yourself.Yes. We teach Java in the BlueJ environment with board-style programs, mock practicals and submission-ready files, tuned to the ICSE syllabus that Vivekananda, St. Thomas' and Don Bosco Liluah students sit. See [Java for ICSE Students](/java-programming-for-icse-students).Yes, in full. We cover Python fundamentals through OOP, pandas/numpy and the CBSE Class 11-12 Informatics Practices board syllabus. See [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) and the [board CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Yes. Because every class is live online, your child keeps the same instructor and curriculum even after a posting moves you out of GIP Colony or Jagacha. There is no restarting at a new local centre — progress travels with you.Yes. Classes run live into your home over the internet, so there is no crossing Santragachi Bridge or the Kona Expressway to a Kolkata coaching centre. You can choose fully 1-on-1, a mini batch of 3-4, or a small group of 6-8. See [pricing](/pricing).Yes. One child can do ICSE Java while another does CBSE Python, taught separately and correctly from the same home. We also teach school maths and Olympiad prep alongside coding — see [Online Maths Tuition](/online-maths-tuition).Group classes (max 6-8) are from ₹1,499/month, mini batches (3-4) are ₹2,499/month, and one-on-one is ₹4,999/month. Full details are on our [pricing page](/pricing). The demo class is free.Ages 6 to 65 — from young children starting [Scratch and Kids AI](/courses/coding/kids) to teens, [college students doing DSA and MERN](/courses/coding/college), and working professionals upskilling.Tell us in advance and we will reschedule where possible, especially for 1-on-1 students. Every live class can also be recorded for your child to revise the exact lesson they sat in. No content is lost.A laptop or desktop with a stable internet connection works best, though a tablet is fine for younger kids. We help you set up the coding tools in the first session. No expensive hardware is needed.Classes are taught in clear English with Hindi and Bengali explanation whenever a concept needs it — comfortable for Santragachi and Howrah families. The instructor adapts to the child.Yes. Students earn completion certificates, and we offer dedicated certification-track courses in [Java](/java-certification-course) and [AI/ML](/ai-ml-certification-course) with verifiable credentials and a portfolio.Yes. Our Princess Coders and Queen Coders batches are girls-only, building confidence and tech leadership in a comfortable space. See [Coding for Girls](/coding-classes-for-girls).Yes. Our [Summer Coding Camp](/summer-coding-camp) and [Winter Coding Camp](/winter-coding-camp) complete a full module over the break — ideal for Santragachi students wanting a fast start during school holidays.The demo is completely free and carries no obligation. After it, regular classes can begin within 24 hours. [Book a demo](/contact) or [WhatsApp +91 91233 66161](https://wa.me/919123366161).
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+## Bring the class home to Santragachi.
 
-## Class Timings & Weekly Schedule for Students near Santragachi
+Premium, live, project-based coding and maths — taught by real engineers, with no bridge to cross. Free demo, classes within 24 hours.
 
-Most Howrah schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+[Book a Free Demo Class](/contact)[See all courses](/courses)[+91 91233 66161](https://wa.me/919123366161)NEARBY & WIDER
 
-☀️
+## Coding & maths across Howrah and Kolkata
 
-### Morning Slot — 9:00 to 11:00 AM
+### Nearby in Howrah
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+[Howrah City](/coding-classes-near-howrah-city-howrah)[Ramrajatala](/coding-classes-near-ramrajatala-howrah)[Mandirtala](/coding-classes-near-mandirtala-howrah)[Shibpur](/coding-classes-near-shibpur-howrah)[Liluah](/coding-classes-near-liluah-howrah)
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+### Wider
 
-🏫
+[All Kolkata Areas](/best-coding-class-in-kolkata)
 
-### After-School Slot — 4:30 to 7:30 PM
+### School-specific
 
-The most popular slot for kids and teens near Santragachi. School ends, snack, log in. Two classes a week, 60 minutes each.
-
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
-
-🌚
-
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Santragachi parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Howrah Vivekananda Institution, St. Thomas' Day School, Don Bosco Liluah and similar Santragachi-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at KV Howrah, Don Bosco Liluah, Adamas International and other CBSE-track Santragachi-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Howrah Vivekananda Institution, St. Thomas', MC Kejriwal and other ICSE-track Santragachi-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Santragachi — Honest Comparison
-
-Santragachi has neighbourhood tuition rooms near the Junction Station. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Santragachi centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Santragachi crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Santragachi
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Santragachi
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Santragachi. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"I highly recommend this coding class! The teachers are incredibly knowledgeable and passionate. They explain complex concepts in a way that's easy to understand and always encourage students to think critically. The class atmosphere has really boosted my son's confidence."
-
-RRitu KediaMother of Aditya
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Santragachi
-
- Are there coding classes for kids near Santragachi, Howrah? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Santragachi. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from KV Santragachhi and other Santragachi schools are already learning with us. What is the fee for coding and maths classes near Santragachi? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer CBSE Computer Science tuition near Santragachi? +Yes. We offer complete CS preparation for CBSE (Python) and ICSE (Java) board exams, covering Class 9-10 and 11-12. Our [CBSE/ICSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Santragachi schools follow. How can my child in Santragachi attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Mandirtala or Ramrajatala? +Three big differences. **First**, batch size: most Santragachi tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Santragachi Bridge and Kona Expressway traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Santragachi? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Santragachi belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Santragachi? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Santragachi. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools and other Santragachi-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Santragachi Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Santragachi trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Howrah & Kolkata
-
-We serve students across Howrah and Kolkata. Explore classes near your area.
-
-[Howrah City](/coding-classes-near-howrah-city-howrah)[Ramrajatala](/coding-classes-near-ramrajatala-howrah)[Mandirtala](/coding-classes-near-mandirtala-howrah)[All Kolkata Areas](/best-coding-class-in-kolkata)
+[ICSE students at Don Bosco Liluah, St. Thomas' & Howrah Vivekananda → Java for ICSE Students](/java-programming-for-icse-students)
 
 ---
 
