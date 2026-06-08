@@ -1,364 +1,247 @@
 ---
-title: "Coding & Maths Classes near Mandirtala, Howrah | Modern Age Coders"
-description: "Live online coding classes near Mandirtala, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today."
+title: "Live Online Coding & Maths Classes near Mandirtala, Howrah"
+description: "Live online coding & maths classes near Mandirtala, Howrah. Small batches, full-time engineers, Python, Java, AI/ML. ICSE/CBSE/WBBSE. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-near-mandirtala-howrah
-keywords: ["Mandirtala Howrah coding", "coding near Mandirtala", "Python Mandirtala", "maths tuition Mandirtala Howrah", "online coding Mandirtala", "coding classes near Mandirtala Howrah", "coding for kids Mandirtala", "coding for teens Mandirtala", "online coding classes Mandirtala Howrah", "ICSE Java tuition Mandirtala", "CBSE Python classes Mandirtala", "maths classes near Mandirtala"]
+keywords: ["coding classes near Mandirtala Howrah", "maths tuition Mandirtala", "Python classes Shibpur Howrah", "Java BlueJ ICSE Howrah", "online coding classes Howrah", "AI ML classes for teens Howrah", "CBSE computer science Class 11 12", "ICSE computer applications Class 10", "coding classes for kids Howrah", "live online coding Shibpur", "maths tuition Class 10 Howrah", "coding classes near IIEST Shibpur"]
 source: src/pages/coding-classes-near-mandirtala-howrah.html
 ---
-> Live online coding classes near Mandirtala, Howrah for kids, teens & college students. Python, Java, Scratch, AI/ML + Maths tuition. ICSE/CBSE board prep for Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools students. Small live batches (max 6-8). From ₹1,499/mo. Free demo today.
+> Live online coding & maths classes near Mandirtala, Howrah. Small batches, full-time engineers, Python, Java, AI/ML. ICSE/CBSE/WBBSE. Free demo class.
 
-Temple of Learning — Live Online Classes
+LIVE ONLINE CODING & MATHS · MANDIRTALA · SHIBPUR · HOWRAH
 
-# Coding & Maths Classes for Students near Mandirtala, Howrah
+# Coding & Maths Classes near Mandirtala, Howrah
 
-Mandirtala — the name itself means temple. And a temple of learning is exactly what we deliver. Situated in the heart of central Howrah, Mandirtala is home to **growing families who value sincere, structured education** over flashy gimmicks. Modern Age Coders brings **100% live online coding and mathematics classes** directly to Mandirtala homes — small-batch, instructor-led sessions where every child gets individual attention. No commute across the bridge, no crowded coaching centres. Just genuine learning, delivered live.
+Modern Age Coders runs premium, 100% live online coding and mathematics classes for families near Mandirtala and Shibpur, Howrah — the same premium standard we bring to the wider Kolkata metro. Mandirtala means “the place of the temple”, and we treat learning the same way — sincere, structured, no gimmicks. Classes are small live batches taught by full-time engineers and maths graduates, never pre-recorded videos. Your child learns from home, with no evening crossing of the Vidyasagar Setu or Belilious Road traffic.
 
-100% Live Interactive4.9/5 Parent RatingMax 6-8 per BatchFrom ₹1,499/mo[Book Free Demo Class](/contact)[Explore Courses](/courses)
+100% live · never pre-recordedSmall batches of 3-8ICSE · CBSE · WBBSE · IGCSEFree demo · starts in 24 hours[Book a Free Demo Class](/contact)[Explore All Courses](/courses)6-8Max students per live batch100%Live, taught in real time₹1,499Group fees, per month24 hrsFrom demo to first classAT A GLANCE
 
-Free demo • No commitment • Classes start within 24 hours
+## The Mandirtala programme, in one fact sheet
 
-500+Students Mentored30+Courses Available15+Countries Served97%Parent Satisfaction
+Format100% live online, taught in real time by a **full-time engineer or maths graduate** — not pre-recorded videosBatch sizeGroup (max 6-8), Mini Batch (3-4), or 1-on-1Ages**6 to 65** — kids, teens, college and working professionalsSubjectsCoding (Scratch, Python, Java, web, AI/ML, DSA) and Mathematics (Grade 1 to college)BoardsICSE / ISC (Java, BlueJ), CBSE (Python), WBBSE and Cambridge IGCSEFeesGroup from **₹1,499/month** · Mini Batch ₹2,499/month · 1-on-1 ₹4,999/monthFree demoYes — a free, no-commitment live demo; classes begin within 24 hoursServingMandirtala, Shibpur, Botanical Garden side, Foreshore Road, Belilious Road, Kadamtala, Howrah Maidan and the rest of central Howrah — and the wider Kolkata metroLIVE ONLINE · PREMIUM QUALITY
 
-## Live Online Coding Classes near Mandirtala — What Parents Should Know
+## Premium teaching, delivered live into your Mandirtala home
 
-Mandirtala parents have heard every coding pitch in the city. Most "online" courses are actually pre-recorded videos pretending to be classes — the kind that get abandoned in week three. **Modern Age Coders is different.** Every single class near Mandirtala is taught **100% live** by a real instructor on Zoom or Google Meet, with your child's screen visible, hand-raised questions answered in real time, and feedback delivered the moment a bug appears. Parents from Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools consistently tell us this is the single biggest reason they switched from local tuition rooms.
+Every Modern Age Coders class for Mandirtala is delivered live online by a full-time engineer or mathematics graduate, in a small batch, built around projects — never a pre-recorded video your child watches alone. This is premium, high-quality teaching brought directly to homes across Shibpur and central Howrah, so quality never depends on which coaching centre happens to be within walking distance.
 
-📺
+### Live, never recorded
 
-### 100% Live, Not Pre-Recorded
+Every session is taught in real time by a live teacher who can see your child's screen, answer a doubt the moment it appears, and adjust the pace. There are no pre-recorded lectures and no “watch and figure it out yourself” gaps.
 
-Every class is delivered live by an instructor who can see your child's screen, debug in real time, and adjust pace based on the room. No "playlist of videos" trickery sold as a course.
+### Small live batches
 
-👨‍👩‍👧‍👦
+Group batches are capped at 6-8 students, with Mini Batches of 3-4 and true 1-on-1 options. In a tight Mandirtala batch every child is known by name, gets called on, and is never lost at the back of a crowded room.
 
-### Max 6–8 Students per Live Batch
+### Taught by full-time engineers
 
-Smaller than any Mandirtala-area tuition class you'll find. Your child gets called on, asked questions, corrected, mentored — not lost in a crowd of 30+.
+Classes are led by full-time engineers and mathematics graduates who do this as their profession, not college students earning pocket money between exams. Your child learns correct habits and real-world technique from day one.
 
-🏠
+### Project-based learning
 
-### Zero Travel through Mandirtala Traffic
+Children build real, working things — a Python tool, a Scratch game, a small website — instead of only copying notes. Projects turn abstract syntax into something a child from Foreshore Road can actually show their family.
 
-No fighting evening Mandirtala and Belilious Road traffic, no auto-changing at busy crossings. Your child logs in from home; you save 90 minutes of commute each class day.
+### Board-aligned, board-honest
 
-📝
+Coding and maths tracks map directly onto the ICSE (Java/BlueJ), CBSE (Python) and WBBSE syllabi your child already follows. We teach for understanding first and the exam paper second, so both improve together.
 
-### Recordings + Notes After Each Class
+### Zero commute
 
-Missed a class because of school exams, a family visit, or a Saraswati Pujo holiday? Get the recording, instructor's notes, and the code repository the same evening.
+No child crosses the Vidyasagar Setu or waits at the Belilious Road and Shibpur Road crossings after dark. That is roughly 75-90 minutes saved per class day, and a safer, calmer evening at home.
 
-💻
+COURSE CATALOGUE
 
-### Project-Based, Not Theory-Heavy
+## Every track we run for Mandirtala families
 
-Your child builds — a game, a website, a Python script, a maths solver. By the end of each module they have a real project they can show off to family and friends.
+| Course | Who it is for | What you build / learn |
+| --- | --- | --- |
+| [Python & AI for Kids/Teens](/python-and-ai-classes-for-kids-teens) | Kids and teens, ages 9-17 | Python fundamentals through AI basics; the most in-demand language, aligned to CBSE Informatics Practices |
+| [Python for Beginners (Kids)](/python-for-beginners-kids) | First-time coders, ages 9-12 | A gentle entry into Python with kid-friendly projects before teen-level programming |
+| [Java Programming for Kids/Teens](/java-programming-for-kids-teens) | Teens, especially ICSE Class 9-10 | Java syntax, OOP and the BlueJ practical paper — the ICSE board essential |
+| [ICSE Computer Applications Class 10](/computer-applications-icse-class-10) | ICSE Class 10 students | Java/BlueJ syllabus with theory, 25+ board-style programs and project files |
+| [Computer Science Class 11 ICSE](/computer-science-class-11-icse) | ISC Class 11 students | ISC Computer Science (Java) Class 11 board preparation |
+| [Computer Science Class 12 ICSE](/computer-science-class-12-icse) | ISC Class 12 students | ISC Computer Science (Java) Class 12 board preparation |
+| [Computer Science Class 11 CBSE](/computer-science-class-11-cbse) | CBSE Class 11 students | CBSE Computer Science (Python) Class 11 syllabus and practicals |
+| [Computer Science Class 12 CBSE](/computer-science-class-12-cbse) | CBSE Class 12 students | CBSE Computer Science (Python) Class 12 syllabus and practicals |
+| [Computer Science Class 11-12 (Complete)](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) | ICSE + CBSE Class 11-12 | Complete Java (ICSE) and Python (CBSE) board prep — theory, practicals, projects, exam-style questions |
+| [AI/ML Course for Teens](/ai-ml-course-for-teens) | Teens, ages 13-18 | Machine learning fundamentals and real model building |
+| [Coding for Kids](/courses/coding/kids) | Kids, ages 6-12 | Scratch, block coding, web design and AI basics — the starting track |
+| [Coding for College Students](/courses/coding/college) | College students | DSA, MERN stack, AI/ML masterclass, Python for data analysis and MySQL |
+| [Online Maths Tuition](/online-maths-tuition) | Grades 1-12 and college, all boards | Structured maths plus Olympiad prep (AMC, IOQM, RMO, IMO) and college calculus/linear algebra |
+| [Coding for Girls (Princess/Queen Coders)](/coding-classes-for-girls) | Girls-only batches, kids and teens | Dedicated girls-only batches building confidence and tech leadership |
 
-👨‍🏫
+See the [full course catalogue](/courses) for every coding and maths track.
 
-### Parent Updates Every Month
+FEATURED TRACKS
 
-You receive a written progress report each month: what your child built, where they're struggling, what's next. You're never wondering whether the fees are working.
+## Three tracks Mandirtala parents ask for most
 
-Want to see it before paying anything? [Book a free live demo class](/contact) — no payment, no commitment, just sit beside your child and watch one full session.
+MOST IN-DEMAND
 
-## Schools near Mandirtala Whose Students Learn with Us
+### Python & AI for Kids and Teens
 
-Students from **Howrah Zilla School**, **Mandirtala High School**, **Shibpur Dinobundhoo Institution**, **Howrah Vivekananda Institution**, **St. Thomas' Church School**, and other respected institutions in and around Mandirtala join Modern Age Coders for live coding and maths classes that go far beyond their school computer syllabus.
+Python is the language CBSE schools like KV Howrah and Don Bosco Liluah build their Informatics Practices around, and the language behind almost every AI tool today. We start with clean fundamentals and move into AI basics through projects a child can show at home — like the Belilious Road vegetable-price drill our students have built.
 
-Whether your child follows the ICSE, CBSE, or WBBSE curriculum, our courses complement and strengthen what they learn in school — especially [Computer Science and Informatics Practices for Class 11-12 board exams](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). No other platform in Mandirtala offers this depth of coding education alongside structured mathematics tutoring.
+**You'll learn:** Variables, loops, functions and AI basics. **You'll build:** real Python tools that solve a Mandirtala-sized problem.
 
-## What Your Child Will Learn with Modern Age Coders
+[Start with Python](/python-and-ai-classes-for-kids-teens)
 
-Mandirtala families value sincere, results-driven education. Our courses are built for that standard, covering every age group from first-graders to working professionals.
+ICSE ESSENTIAL
 
-🎨
+### Java Programming & BlueJ for ICSE
 
-### For Kids (Ages 6-12)
+For students at Howrah Vivekananda Institution, St. Thomas' and MC Kejriwal, ICSE computer means Java in BlueJ. We teach Java syntax and object-oriented thinking the way the board paper expects, with 25+ board-style programs and proper project files so the practical exam holds no surprises.
 
-The perfect starting age. Howrah's brightest young minds begin their coding journey here.
+**You'll learn:** Java syntax, OOP and BlueJ. **You'll build:** the program set and project files ICSE Class 10 demands.
 
-- Scratch & Block-Based Coding — learn logic visually
-- Web Design with HTML & CSS — build real websites
-- Kids AI Mastery — understand artificial intelligence
-- [Princess Coders](/coding-classes-for-girls) — girls-only batch
+[Start with Java](/java-programming-for-kids-teens)
 
-💻
+FUTURE-READY
 
-### For Teens (Ages 13-18)
+### AI & Machine Learning for Teens
 
-Where ICSE, CBSE, and WBBSE students build skills that boards and entrance exams both reward.
+Teens near IIEST Shibpur grow up surrounded by engineering ambition, and AI/ML is where that ambition now points. This track takes a student from solid Python into machine learning fundamentals and building their own working models — real understanding, not buzzwords.
 
-- [Python Programming](/python-and-ai-classes-for-kids-teens) — most in-demand language
-- [Java Programming](/java-programming-for-kids-teens) — ICSE board essential
-- [AI & Machine Learning](/ai-ml-course-for-teens) — future of every industry
-- Full Stack Web Dev · Game Dev · Competitive Programming
-- [Queen Coders](/coding-classes-for-girls) — girls-only tech leadership
-- [Board Exam Prep](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) — ICSE Java & CBSE Python
+**You'll learn:** ML fundamentals and model building. **You'll build:** and train and run your own first machine-learning model.
 
-🎓
+[Explore AI & Machine Learning](/ai-ml-course-for-teens)
 
-### For College Students
+SCHOOLS SERVED
 
-From Bengal Engineering College legacy to modern tech careers — sharpen your competitive edge.
+## A genuine board mix, taught the right way for each child
 
-- Data Structures & Algorithms (DSA)
-- MERN Stack Development
-- AI/ML Masterclass · Python for Data Analysis
-- MySQL Database Mastery
+Modern Age Coders teaches students from across Mandirtala and Shibpur's mixed-board schools, including Howrah Vivekananda Institution, St. Thomas' Church School, St. Aloysius' Day School, MC Kejriwal Vidyapeeth and Don Bosco Liluah (ICSE), Howrah Zilla School, Mandirtala High School and Shibpur Dinobundhoo Institution (WBBSE), alongside KV Howrah and Adamas International (CBSE) — plus many Bengali-medium and Hindi-medium neighbourhood families.
 
-💼
+Because Mandirtala is a genuine board mix, we run the right track for each child rather than one generic course. ICSE and ISC students follow Java and BlueJ; CBSE students follow Python; and Class 11-12 board candidates from either stream can take our complete [Computer Science and Informatics Practices course for Class 11-12](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course). WBBSE and Bengali-medium children start gently in Scratch or beginner Python, with explanations in the language they think in.
 
-### For Professionals
+THE NEIGHBOURHOOD
 
-Upskilling programmes for working professionals staying relevant in tech.
+## Mandirtala: the place of the temple, at the foot of the bridge
 
-- Custom upskilling programs
-- Career switch training
-- Corporate team training
+Mandirtala sits at the Shibpur foot of the Vidyasagar Setu, where the Second Hooghly Bridge ramp comes down beside the twin Shiva temples that give the neighbourhood its name. It is a rooted, working-middle-class Bengali belt — railway and port families, school teachers, small traders — living within the academic gravity of IIEST Shibpur and the Acharya Jagadish Chandra Bose Botanic Garden. People here are pragmatic and referral-driven; they trust sincere, structured teaching far more than flashy marketing.
 
-📊
+For these families, getting a child to a coaching centre has always meant a hard choice: cross the Vidyasagar Setu or Howrah Bridge into Kolkata, or fight the evening snarl at the Shibpur Road, Belilious Road and Foreshore Road crossings. Either way it is 75 to 90 minutes round trip, and a parent watching the clock after dark. Live online classes remove that entirely — the teacher arrives at the dining table, not the other way round.
 
-### Mathematics for All Ages
+We keep the teaching local in spirit even though it is online. Children build projects rooted in their own streets — comparing bridge routes, mapping bus options to Howrah Maidan, tracking vegetable prices on Belilious Road. That is what makes coding stick for a Mandirtala child: it stops being a foreign subject from across the river and becomes a tool for the world just outside the door.
 
-Mandirtala families know maths and code are inseparable.
+PROJECT 01
 
-- [School Maths](/online-maths-tuition) — Grades 1-12, all boards
-- Olympiad Prep — AMC, IOQM, RMO, IMO
-- College Maths — Calculus, Linear Algebra
-- Business & Finance Mathematics
+### Vidyasagar Setu Toll & Traffic Checker
 
-☀️
+A Class 9 student built a Python tool that compares crossing the Second Hooghly Bridge versus Howrah Bridge by toll and typical evening delay, so the family picks the faster route into Kolkata.
 
-### Summer & Winter Camps
+PROJECT 02
 
-Intensive short-term programs during school breaks.
+### Botanic Garden Plant Quiz
 
-- [Summer Coding Camp](/summer-coding-camp) — Kids, Teens, Adults
-- [Winter Coding Camp](/winter-coding-camp) — Holiday intensive
-- Complete a full module in 3-4 weeks
+A Class 7 girl made a Scratch quiz game on the famous trees of the Shibpur Botanic Garden, including the Great Banyan, that her younger cousins now play before school visits.
 
-## Why Mandirtala Parents Choose Modern Age Coders
+PROJECT 03
 
-🎥
+### Foreshore Road Step Logger
 
-### 100% Live Classes, Zero Pre-Recorded Videos
+A Class 8 student wrote a Python program that logs distance and steps along the Foreshore Road riverside stretch for his grandfather, printing a weekly summary.
 
-Every class is taught live by a real instructor. Your child asks questions, interacts, and learns in real time — exactly how Mandirtala families expect quality education to work.
+“My son used to lose an hour each way crossing the bridge for tuition. Now he learns from his own desk, and the teacher actually knows him.”
 
-👥
+MA Mandirtala parentparaphrased from a recent conversationAREAS & PIN CODES
 
-### Small Batches — Maximum 6-8 Students
+## Where our Mandirtala students log in from
 
-Individual attention, not lost in a crowd of thirty. [1-on-1 personalised classes](/pricing) also available for students who need focused mentoring.
+Serving Mandirtala and surrounding Howrah pin codes: **711102, 711109, 711103, 711104 and 711106**.
 
-🧰
+MandirtalaShibpurBotanical Garden sideForeshore RoadBelilious RoadKadamtala edgeHowrah MaidanBandhaghatPilkhanaSantragachi sideGT Road HowrahKona Expressway approachRamrajatala sideHowrah Station approachHooghly riverside
 
-### Coding + Maths Combined — Only in India
+Anywhere in Howrah or Kolkata with a stable internet connection — because every class is live online, your exact street never limits the quality of teaching.
 
-Algorithms need mathematical thinking. Equations click better when you code them. This synergy is why Howrah parents trust us over single-subject alternatives.
+WEEKLY SCHEDULE
 
-💰
+## Slots built around school, tuition and IIEST timings
 
-### Starting at Just ₹1,499/month
+| Slot | Time | Best for | Days |
+| --- | --- | --- | --- |
+| Morning | 7:00-9:00 AM | College students, professionals, early risers | Mon-Sat (flexible) |
+| After-school | 4:00-6:00 PM | Kids and primary-school children | Weekdays |
+| Evening | 6:00-8:30 PM | Teens and ICSE/CBSE board students | Weekdays |
+| Weekend | 9:00 AM-1:00 PM | Families wanting one focused weekly session | Sat & Sun |
+| Flexible 1-on-1 | By appointment | Anyone needing a custom timing | Any day |
 
-Quality education doesn't need to cost a fortune. [View pricing](/pricing). Kolkata-founded, serving 15+ countries. **[Book a free demo](/contact)** — zero commitment.
+ONLINE vs OFFLINE
 
-## Mandirtala: Where Old Howrah Meets the New Coding Curriculum
+## An honest comparison for rooted Mandirtala families
 
-Mandirtala sits between Howrah Maidan and the Santragachi side, with the Belilious Road running through it. The neighbourhood is mostly Bengali, with a tight working middle-class population — railway employees, port workers, small business owners, school teachers. The families have lived here for generations, and the children attend the broad Howrah Vivekananda / St. Thomas' / Don Bosco cluster.
+### Where live online wins
 
-Mandirtala parents are pragmatic and rooted. They are not chasing every new educational trend, but they are extremely attentive to what works. Word of mouth dominates here — a family will enrol because their neighbour's daughter has been learning with us for two years and can now write a real Python script.
+- Zero commute — no crossing the Vidyasagar Setu or Howrah Bridge, no waiting at Belilious Road crossings after dark; 75-90 minutes saved per class.
+- Access to full-time engineers and maths graduates, not just whichever tutor is within walking distance of Mandirtala.
+- Genuinely small batches of 6-8, so every child is seen and called on.
+- Screen sharing means the teacher watches your child code in real time and catches mistakes instantly.
+- Recordings of your own class for revision, even though teaching itself is always live.
+- The exact ICSE/CBSE/WBBSE track for your child, instead of one mixed-board group.
+- Safer evenings — children stay home rather than changing autos at busy junctions.
 
-Our growth in Mandirtala has been entirely referral-driven. We don't advertise here, but the community knows us.
+### When offline still wins
 
-### Recent Projects Built by Students from Mandirtala
+- Very young first-timers sometimes settle faster with a parent sitting beside them for the first week.
+- A home that has no reliable internet or device will struggle with any live format.
+- Some families simply prefer a physical room and face-to-face presence, and that is a fair preference.
+- Pure exam-cramming the night before a paper is sometimes easier with a tutor physically in the room.
 
-These are real student projects from our Mandirtala batches — small, useful, and unmistakably theirs.
+For most rooted Mandirtala families, live online delivers better teachers, smaller batches and safer evenings — without losing the warmth of a teacher who knows your child by name.
 
-#### Mandirtala Auto Stand Fare Sheet
+HOW TO START
 
-A Class 8 boy built a Scratch app listing auto fares to 14 nearby destinations. His mother prints it and keeps it taped near the door.
+## From a free demo to your first class in four steps
 
-#### Howrah Maidan Bus Route Optimizer
+01
 
-A Class 10 girl built a small Python tool that compares three bus routes from Mandirtala to Howrah Maidan. Her father swears by it.
+### Book a free demo
 
-#### Belilious Road Vegetable Price Drill
+Tell us your child's class, board and goal, and reserve a free, no-commitment [live demo class](/contact).
 
-A Class 9 boy built a Python program that tracks daily prices at three Belilious Road vegetable shops.
+02
 
-“
+### Meet your teacher
 
-We chose Modern Age Coders because three families on our street had already been with you for a year. The kids could actually code. That was enough evidence.
+Sit in on a real live session, see the small-batch teaching style, and ask anything before deciding.
 
-— A Mandirtala parent, paraphrased from a recent conversation.
+03
 
-## Neighbourhoods near Mandirtala We Serve
+### Pick your plan
 
-Because every class is live online, we serve students across the entire Mandirtala belt and adjoining Howrah localities. If you live anywhere in the pin code range below, you're a Modern Age Coders student in waiting.
+Choose Group, Mini Batch or 1-on-1 on our transparent [pricing](/pricing); the same fees apply to coding and maths.
 
-### Pin codes we actively teach in
+04
 
-**711104** (Mandirtala, Santragachi side), **711102** (Shibpur edge), **711103** (Kadamtala side), **711101** (Howrah city), **711106** (Bandhaghat), **711108** (Liluah edge), **711302** (Andul edge).
+### Start within 24 hours
 
-### Localities our students log in from
+Once you are happy, regular live classes begin within a day, fitted to a slot that suits your child.
 
-MandirtalaSantragachi sideShibpur edgeKadamtala edgeBelilious RoadHowrah MaidanGT Road HowrahHooghly riversideForeshore RoadHowrah Station approachBandhaghatKona Expressway approachPilkhana sideMourigram sideBotanical Garden side
+PARENT VOICE
 
-Live somewhere not listed? It doesn't matter — [book a free demo](/contact) and we'll teach your child wherever they are, as long as there's internet and a laptop or desktop in the house.
+## Sincere, structured teaching — exactly what we wanted
 
-## Class Timings & Weekly Schedule for Students near Mandirtala
+“Modern Age Coders has been wonderful for my son Dhairya. The classes are live and personal, the teacher is patient, and I can see real improvement in how he thinks and solves problems. It is sincere, structured teaching — exactly what we were looking for.”
 
-Most Howrah schools dismiss between 1:30 PM and 4:00 PM. Our schedule is built around that — with after-school evening slots and dedicated weekend batches for students juggling school, school tuition, and our coding/maths classes.
+SSonam OswalMother of Dhairya
 
-☀️
+[Read more on our Wall of Love](/love)
 
-### Morning Slot — 9:00 to 11:00 AM
+FAQ
 
-Best for: kindergarten kids, working professionals, college students in evening jobs, or weekend learners.
+## Questions Mandirtala parents ask us
 
-- Saturday & Sunday batches available
-- Adults & corporate upskilling track
-- Weekday morning — on request
+Yes. Given the mixed board schools here, ICSE/ISC students take [Java and BlueJ](/java-programming-for-kids-teens) and CBSE students take [Python](/python-and-ai-classes-for-kids-teens). Each child is placed in the track that matches their own school syllabus, never a generic mixed group.Absolutely. Fluent English is not required — our teachers explain in the language a child thinks in and start gently with [Scratch or beginner Python](/courses/coding/kids). Many WBBSE families from Mandirtala learn very comfortably this way.Every class is 100% live and taught in real time by a full-time engineer or maths graduate. There are no pre-recorded video lectures; your child interacts with a real teacher who answers doubts on the spot.Group batches are capped at 6-8 students, Mini Batches at 3-4, and 1-on-1 is exactly that. Small batches mean every child near Mandirtala is known by name and never lost at the back.Group classes start at ₹1,499/month, Mini Batches are ₹2,499/month, and 1-on-1 is ₹4,999/month — the same for coding and maths. See full [pricing](/pricing) for details.The Group plan at ₹1,499/month is the most affordable and fully featured. You can upgrade to a Mini Batch or 1-on-1 at any time as your child progresses — no need to commit to the highest plan first.Never. Your child learns from home, so there is no crossing of the Vidyasagar Setu or Howrah Bridge and no waiting at the Belilious Road or Shibpur Road crossings after dark — saving 75-90 minutes per class day.Every live session is recorded, so a child who misses can watch their own class back, and the teacher will recap key points in the next session. For 1-on-1, we simply reschedule the slot.Any laptop or desktop with a stable internet connection works; a basic webcam and headphones help. We will check your setup during the free demo so the first real class runs smoothly.Yes. Our [online maths tuition](/online-maths-tuition) covers Grades 1-12, all boards, plus Olympiad prep (AMC, IOQM, RMO, IMO) and college calculus and linear algebra — same live, small-batch format and same fees.Yes. Our [Princess & Queen Coders](/coding-classes-for-girls) girls-only batches are available for families in Mandirtala who prefer them, building confidence and tech leadership in a comfortable setting.We run after-school (4-6 PM), evening (6-8:30 PM) and weekend slots, plus flexible 1-on-1 timings. Board students typically take the evening slot so coding sits around school and tuition.We cover ages 6-65 across ICSE/ISC (Java), CBSE (Python), WBBSE and Cambridge IGCSE. Class 11-12 board candidates can take the complete [Computer Science Class 11-12 course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course).Yes, students receive a certificate on completing a track, along with the real projects they have built — which often matter more than the certificate itself when showing progress.Book a free, no-commitment [demo class](/contact); you sit in on a real live session before deciding anything. If you are happy, regular classes begin within 24 hours.
 
-🏫
+## A temple of learning, brought home to Mandirtala
 
-### After-School Slot — 4:30 to 7:30 PM
+Premium live online coding and maths, taught by full-time engineers in small batches — book your free demo and start within 24 hours.
 
-The most popular slot for kids and teens near Mandirtala. School ends, snack, log in. Two classes a week, 60 minutes each.
+[Book a Free Demo Class](/contact)[+91 91233 66161](https://wa.me/919123366161)NEARBY AREAS
 
-- Monday/Wednesday or Tuesday/Thursday
-- Kids (6–12), Teens (13–18)
-- ICSE / CBSE / WBBSE board students
+## Coding & maths classes in other parts of Howrah
 
-🌚
+[Shibpur](/coding-classes-near-shibpur-howrah)[Kadamtala](/coding-classes-near-kadamtala-howrah)[Santragachi](/coding-classes-near-santragachi-howrah)[Howrah City](/coding-classes-near-howrah-city-howrah)[Ramrajatala](/coding-classes-near-ramrajatala-howrah)[All Kolkata & Howrah Areas](/best-coding-class-in-kolkata)
 
-### Evening Slot — 7:30 to 9:30 PM
-
-For senior students balancing school tuition. Late-evening slot leaves room for school work and family dinner.
-
-- Class 9–12 board prep
-- JEE/Olympiad maths track
-- College students & working learners
-
-📅
-
-### Weekend Intensive — Sat/Sun
-
-For families with packed weekday tuition schedules. Two longer sessions on the weekend cover the same syllabus.
-
-- 2 × 90-minute sessions/week
-- Same curriculum, fewer interruptions
-- Recordings sent for revision
-
-Holidays during school exams or Durga Pujo, Saraswati Pujo, Christmas? Tell us in advance — we adjust your batch schedule and never charge for paused weeks.
-
-## What's Actually Taught — Curriculum Snapshot
-
-Mandirtala parents ask hard questions about what their child is actually going to learn. Here's a clean breakdown of three of our most-requested live online tracks.
-
-Kids Track
-
-### Scratch & Block Coding — Ages 6 to 10
-
-A 12–16 week module that takes a complete beginner from "what is a computer" to building their own animated stories, simple games, and interactive birthday cards. Ideal first step for kids at Howrah Vivekananda Institution, St. Thomas' Day School, Don Bosco Liluah and similar Mandirtala-area primary sections.
-
-**You'll learn:** sequencing, loops, events, conditionals, variables, sprites, costumes, parallel scripts, simple maths in code, debugging. **You'll build:** animated story project, maze game, quiz app, drawing tool, and a final showcase project of the child's choice.
-
-Teens Track
-
-### Python Programming — Ages 12 to 17
-
-A 24–30 week deep-dive covering everything CBSE Class 11–12 Informatics Practices needs, plus genuine programming maturity. Built for students at KV Howrah, Don Bosco Liluah, Adamas International and other CBSE-track Mandirtala-area schools.
-
-**You'll learn:** variables, data types, control flow, functions, lists, dictionaries, file I/O, OOP, exception handling, modules, pandas/numpy basics, plotting, MySQL connectivity, project planning. **You'll build:** calculator, hangman, expense tracker, mini library system, data visualisation dashboard, board-exam style projects.
-
-ICSE Board Track
-
-### Java for Class 9–10 ICSE Computer Applications
-
-Built specifically for the ICSE Java syllabus that Howrah Vivekananda Institution, St. Thomas', MC Kejriwal and other ICSE-track Mandirtala-area schools follow. Covers theory + every practical that shows up in the Class 10 BlueJ paper.
-
-**You'll learn:** Java syntax, primitive types, operators, control structures, functions, arrays, strings, classes, objects, constructors, inheritance, BlueJ environment, ISC-level standard library, project documentation. **You'll build:** 25+ board-style programs, full mock practical exams, viva voce preparation, project file ready to submit.
-
-Looking for Maths, Web Development, AI/ML, DSA, or MERN Stack? [See all courses](/courses) — every track has the same depth as the three above.
-
-## Live Online vs. Offline Coding Tuition near Mandirtala — Honest Comparison
-
-Mandirtala has neighbourhood tuition rooms along Belilious Road. We don't pretend otherwise. But there are real reasons our live online format works better for serious coding and maths learning — and a couple of honest cases where offline still wins. Read both sides before you decide.
-
-### ✓ Where Live Online Wins
-
-- ▸ Smaller batch (6–8) than the average Mandirtala centre (20–40)
-- ▸ Instructors are full-time coders, not part-time tutors
-- ▸ Recorded sessions for revision — impossible offline
-- ▸ Zero commute through Mandirtala crossing traffic
-- ▸ Make-up class for missed sessions, free of charge
-- ▸ Pause batch during board exams or Pujo holidays
-- ▸ Real industry curriculum — not just board syllabus
-
-### When Offline Still Wins
-
-- ▸ If the child genuinely cannot focus without a teacher in the room
-- ▸ If there's no laptop/desktop available at home in Mandirtala
-- ▸ If internet bandwidth is consistently below 5 Mbps
-- ▸ If parent wants in-person, in-the-room supervision of the child
-
-For everything else — especially serious skills that grow with the child — live online with a small batch beats offline coaching consistently.
-
-## How to Start Coding & Maths Classes from Mandirtala
-
-1
-
-### Book a Free Demo
-
-Call or WhatsApp [+91 91233 66161](https://wa.me/919123366161), or [book online](/contact).
-
-2
-
-### Tell Us About Your Child
-
-Age, school, board, interests — so we recommend the right fit.
-
-3
-
-### We Recommend the Right Course
-
-From [Scratch for kids](/courses/coding/kids) to [DSA for college](/courses/coding/college) — personalised guidance.
-
-4
-
-### Start Learning
-
-Join live classes from home in Mandirtala. All you need is a laptop and internet.
-
-## What Parents Say About Modern Age Coders
-
-★★★★★
-
-"I highly recommend this coding class! The teachers are incredibly knowledgeable and passionate. They explain complex concepts in a way that's easy to understand and always encourage students to think critically. The class atmosphere has really boosted my son's confidence."
-
-RRitu KediaMother of Aditya
-
-[Read more on our Wall of Love →](/love)
-
-## Frequently Asked Questions — Coding & Maths near Mandirtala
-
- Are there coding classes for kids near Mandirtala, Howrah? +Yes. Modern Age Coders offers live online coding classes for kids aged 6-12 near Mandirtala. Your child can learn Scratch, block coding, web design (HTML/CSS), and AI basics from home. Classes start at ₹1,499/month with small batches of 6-8 students. Many students from Howrah Zilla School, Mandirtala High School, and other local institutions are already learning with us. What is the fee for coding and maths classes near Mandirtala? +Group classes start at ₹1,499/month (2 classes per week, max 6-8 students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 classes are ₹4,999/month. Both coding and maths follow the same pricing. [Book a free demo](/contact) before committing. See our full [pricing page](/pricing) for details. Do you offer ICSE and CBSE Computer Science tuition for Mandirtala students? +Yes. We offer complete CS preparation for ICSE (Java) and CBSE (Python) board exams, covering Class 9-10 and 11-12. Our [ICSE/CBSE CS course](/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course) includes theory, practicals, projects, and exam prep — built for the boards that Mandirtala schools follow. How can my child in Mandirtala attend your classes? +All classes are 100% live and online. Your child needs a laptop/computer and internet connection. No travel needed — no crossing the Howrah Bridge to reach a coaching centre. We offer weekday evening batches (4-8 PM) and full weekend batches (Sat & Sun, 9 AM - 7 PM). Every session is recorded for revision. What age is best to start learning coding? +Children as young as 6 can start with Scratch. Ages 8-10 are ideal for HTML/CSS web design. Ages 12+ can begin Python or Java. There is no "too early" or "too late" — we have [courses for every age](/courses) from 6-year-olds to working professionals. Do you teach mathematics as well, or only coding? +We teach both. Modern Age Coders is the only platform in India combining coding and mathematics. We offer [maths tuition from Grade 1 through college](/online-maths-tuition), including Olympiad prep (AMC, IOQM, RMO, IMO). Students who learn both consistently outperform those studying either in isolation. Can I book a free trial class before enrolling? +Absolutely. Call/WhatsApp [+91 91233 66161](https://wa.me/919123366161) or visit [learn.modernagecoders.com/contact](/contact). The demo is a full live session — not a sales pitch — so you experience the teaching quality firsthand. How are your live online classes different from coaching centres near Santragachi side or Shibpur edge? +Three big differences. **First**, batch size: most Mandirtala tuition rooms have 20–40 children; ours never exceed 6–8. **Second**, instructor profile: we hire full-time software engineers and maths graduates, not part-time tutors moonlighting after their day jobs. **Third**, format: every class is project-based and your child writes real code every session — not just copies notes from a whiteboard. Plus, you save the daily commute through Mandirtala and Belilious Road traffic. What if my child misses a class because of school exams or a Pujo holiday? +No problem at all. You get the full recording of the missed class, the instructor's notes, the code repository, and a free 30-minute doubt-clearing session before the next live class. During Durga Pujo, Saraswati Pujo, Christmas or board exam weeks, just tell us in advance and we pause your batch — you never pay for paused weeks. What laptop and internet speed does my child need at home in Mandirtala? +A basic laptop or desktop with 4 GB RAM and Windows 10/11, macOS, or Ubuntu works fine. Chromebooks also work for younger kids on Scratch and web design. Internet speed of **5 Mbps or higher** is comfortable; most Jio Fiber, Airtel Xstream, and ACT connections in the Mandirtala belt are 100+ Mbps. We send a checklist before the first class so you can verify everything in 5 minutes. Do you give homework and projects, or just live class time? +Both. Every live class includes hands-on coding inside the session, plus a short take-home task (15–30 minutes for kids, 30–60 minutes for teens). Each module ends with a real project that goes into your child's personal portfolio — useful later for college applications, top engineering programmes, or just showing off to family. Will my child interact with other students in your live online classes near Mandirtala? +Yes — that's the whole point of a 6–8 student live batch. Students share screens, debug each other's code, present mini-projects to the group, and build social-coding habits that matter later in college and at work. It's the opposite of a lonely YouTube tutorial experience. My child is from a Bengali-medium school near Mandirtala. Will language be a problem? +Not at all. Several students from Bengali-medium and Hindi-medium schools enrol every batch. Programming itself is in English (it has to be — that's how Python and Java work), but our instructors patiently explain concepts in simple English and switch to Bangla or Hindi when helpful. Within 3–4 weeks, children are comfortable with the technical vocabulary. Can I sit in the room while my child takes the class? +Yes — in fact, we encourage it for the first 2–3 classes, especially for kids under 12. You see exactly what is being taught, how the instructor handles your child, and what's expected as homework. After that, most parents step away because the class becomes a natural flow your child enjoys independently. Will my child get a certificate after completing the course? +Yes. At the end of every course, students get a Modern Age Coders completion certificate, plus the project portfolio they built. For ICSE/CBSE board students at Howrah Vivekananda, St. Thomas', Don Bosco Liluah and other Howrah schools and other Mandirtala-area schools, we also help compile the syllabus-mandated project files in the format your school accepts.
-
-## Start Your Child's Coding & Maths Journey from Mandirtala Today
-
-Do not let your child fall behind in the most important skills of the 21st century. Book a free demo class and see why parents across Mandirtala and Howrah trust Modern Age Coders.
-
-[+91 91233 66161](https://wa.me/919123366161)[Book Online](/contact)[Explore Courses](/courses)
-
-## Coding & Maths Classes in Other Areas of Howrah
-
-We serve students across Howrah and Kolkata. Explore classes near your area.
-
-[Kadamtala](/coding-classes-near-kadamtala-howrah)[Howrah City](/coding-classes-near-howrah-city-howrah)[Ramrajatala](/coding-classes-near-ramrajatala-howrah)[Santragachi](/coding-classes-near-santragachi-howrah)[All Kolkata & Howrah Areas](/best-coding-class-in-kolkata)
-
-Nearby Howrah areas: [Shibpur](/coding-classes-near-shibpur-howrah) • [Domjur](/coding-classes-near-domjur-howrah) • [Andul](/coding-classes-near-andul-howrah) • [Uluberia](/coding-classes-near-uluberia-howrah)
+ICSE students from Howrah Vivekananda, St. Thomas' and MC Kejriwal — see [ICSE Computer Applications for Class 10](/computer-applications-icse-class-10).
 
 ---
 
