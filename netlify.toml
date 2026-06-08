@@ -132,6 +132,12 @@
   to = "/src/pages/hackathon-guide.html"
   status = 200
 
+# Hackathon 1.0 participant login portal
+[[redirects]]
+  from = "/hackathon-login"
+  to = "/src/pages/hackathon-login.html"
+  status = 200
+
 [[redirects]]
   from = "/hackathon-guide.html"
   to = "/hackathon-guide"

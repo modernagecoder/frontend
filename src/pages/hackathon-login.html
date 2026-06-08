@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participant Login — Modern Age Coders Hackathon 1.0</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <meta name="theme-color" content="#0a0118">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg:#07030f; --ink:#f4f0ff; --mut:#b6a9d6; --faint:#7c6da3;
+            --violet:#a855f7; --cyan:#2dd4bf; --cyan-hi:#5eead4; --acid:#c4f82a; --pink:#ff2d8e; --gold:#ffd24a;
+            --line:rgba(168,133,247,0.16); --line2:rgba(168,133,247,0.32); --glass:rgba(20,12,38,0.62);
+            --disp:'Bricolage Grotesque',sans-serif; --body:'Sora',-apple-system,'Segoe UI',sans-serif; --mono:'JetBrains Mono',monospace;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { background: var(--bg); }
+        body { background: var(--bg); color: var(--ink); font-family: var(--body); min-height: 100vh; position: relative; overflow-x: hidden; }
+        .atmos { position: fixed; inset: 0; z-index: 0; pointer-events: none;
+            background: radial-gradient(60% 50% at 15% 8%, rgba(168,85,247,0.22), transparent 60%),
+                        radial-gradient(55% 45% at 85% 6%, rgba(45,212,191,0.16), transparent 60%),
+                        radial-gradient(70% 60% at 50% 115%, rgba(255,45,142,0.12), transparent 60%),
+                        linear-gradient(180deg,#07030f,#0a0418 55%,#07030f); }
+        .atmos::before { content:""; position:absolute; inset:0;
+            background-image: linear-gradient(rgba(168,133,247,0.045) 1px,transparent 1px), linear-gradient(90deg,rgba(168,133,247,0.045) 1px,transparent 1px);
+            background-size: 64px 64px; -webkit-mask-image: radial-gradient(circle at 50% 30%,#000,transparent 80%); mask-image: radial-gradient(circle at 50% 30%,#000,transparent 80%); }
+
+        .wrap { position: relative; z-index: 2; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 1.5rem; }
+        .card { width: 100%; max-width: 440px; background: var(--glass); border: 1px solid var(--line2); border-radius: 22px; padding: clamp(1.6rem, 5vw, 2.4rem); backdrop-filter: blur(16px); box-shadow: 0 40px 90px rgba(0,0,0,0.5), 0 0 60px rgba(168,85,247,0.12); }
+        .dash-card { max-width: 560px; }
+
+        .brand { display: flex; align-items: center; gap: 0.6rem; justify-content: center; margin-bottom: 1.4rem; }
+        .brand img { width: 40px; height: 40px; border-radius: 10px; box-shadow: 0 0 18px rgba(168,85,247,0.4); }
+        .brand b { font-family: var(--disp); font-weight: 800; font-size: 0.95rem; color: #fff; }
+        .brand b i { color: var(--faint); font-style: normal; margin: 0 0.2em; } .brand b em { color: var(--acid); font-style: normal; margin-left: 0.3em; }
+
+        .kicker { text-align: center; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--cyan-hi); margin-bottom: 0.5rem; }
+        h1 { font-family: var(--disp); font-weight: 800; font-size: 1.6rem; text-align: center; margin-bottom: 0.4rem; }
+        h1 .g { background: linear-gradient(102deg, var(--violet), var(--cyan) 50%, var(--acid)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .sub { text-align: center; color: var(--mut); font-size: 0.92rem; margin-bottom: 1.6rem; line-height: 1.5; }
+
+        .field { margin-bottom: 1rem; }
+        .field label { display: block; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--faint); margin-bottom: 0.4rem; }
+        .field input { width: 100%; padding: 0.85rem 1rem; border-radius: 12px; background: rgba(0,0,0,0.35); border: 1px solid var(--line2); color: #fff; font-family: var(--body); font-size: 1rem; }
+        .field input:focus { outline: none; border-color: var(--acid); box-shadow: 0 0 0 3px rgba(196,248,42,0.16); }
+
+        .btn { width: 100%; margin-top: 0.5rem; padding: 1rem; border: none; border-radius: 13px; cursor: pointer; font-family: var(--body); font-weight: 700; font-size: 1.05rem; color: #14021f; background: linear-gradient(100deg, var(--acid), var(--cyan-hi)); transition: transform .2s, box-shadow .25s; }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(196,248,42,0.4); }
+        .btn-ghost { background: transparent; border: 1px solid var(--line2); color: var(--ink); font-size: 0.9rem; padding: 0.7rem; }
+        .btn-ghost:hover { box-shadow: none; border-color: var(--violet); }
+
+        .error { display: none; margin-top: 0.9rem; padding: 0.7rem 0.9rem; border-radius: 10px; background: rgba(239,68,68,0.12); border: 1px solid rgba(239,68,68,0.4); color: #fca5a5; font-size: 0.88rem; text-align: center; }
+        .error.show { display: block; }
+        .hint { text-align: center; margin-top: 1.2rem; font-family: var(--mono); font-size: 0.74rem; color: var(--faint); line-height: 1.5; }
+        .hint a { color: var(--cyan-hi); text-decoration: none; }
+
+        /* dashboard */
+        .hidden { display: none !important; }
+        .dash-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.4rem; }
+        .dash-hello { font-family: var(--disp); font-weight: 800; font-size: 1.5rem; }
+        .dash-hello span { color: var(--acid); }
+        .dash-meta { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.4rem; }
+        .chip { font-family: var(--mono); font-size: 0.72rem; padding: 0.35rem 0.75rem; border-radius: 999px; border: 1px solid var(--line2); background: rgba(0,0,0,0.3); color: var(--mut); }
+        .chip b { color: #fff; }
+        .chip.status { border-color: rgba(196,248,42,0.4); color: var(--acid); }
+
+        .sec-label { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--faint); margin: 1.4rem 0 0.8rem; }
+        .update { border: 1px solid var(--line); border-radius: 14px; background: rgba(12,5,24,0.5); padding: 1.1rem 1.2rem; margin-bottom: 0.8rem; }
+        .update .meta { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.4rem; flex-wrap: wrap; }
+        .update .dt { font-family: var(--mono); font-size: 0.72rem; color: var(--cyan-hi); }
+        .update h4 { font-family: var(--disp); font-weight: 700; font-size: 1.05rem; color: #fff; }
+        .update p { color: var(--mut); font-size: 0.94rem; line-height: 1.6; white-space: pre-line; }
+        .empty { text-align: center; color: var(--faint); font-size: 0.92rem; padding: 1.5rem 0; }
+
+        .links { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.4rem 0 0.4rem; }
+        .links a { flex: 1; min-width: 130px; text-align: center; font-family: var(--mono); font-size: 0.8rem; padding: 0.7rem; border-radius: 11px; border: 1px solid var(--line2); background: rgba(0,0,0,0.3); color: var(--ink); text-decoration: none; }
+        .links a:hover { border-color: var(--violet); color: #fff; }
+    </style>
+</head>
+
+<body>
+    <div class="atmos" aria-hidden="true"></div>
+
+    <div class="wrap">
+        <!-- ============ LOGIN VIEW ============ -->
+        <div class="card" id="loginView">
+            <div class="brand">
+                <img src="/images/logo.svg" alt="Modern Age Coders" width="40" height="40">
+                <b>MAC<i>//</i>HACKATHON<em>1.0</em></b>
+            </div>
+            <div class="kicker">Participant Portal</div>
+            <h1>Welcome <span class="g">back, builder</span></h1>
+            <p class="sub">Log in to see your personal hackathon updates, results and progress.</p>
+
+            <form id="loginForm" autocomplete="off">
+                <div class="field">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="field">
+                    <label for="pass">Password (your phone number)</label>
+                    <input type="password" id="pass" inputmode="numeric" placeholder="Your registered phone number" required>
+                </div>
+                <button class="btn" type="submit">Log in</button>
+                <div class="error" id="loginError">Incorrect name or password. Please check what we shared with you.</div>
+            </form>
+
+            <p class="hint">Your name &amp; password were shared with you in your Hackathon WhatsApp group.<br>
+            Trouble logging in? WhatsApp <a href="https://wa.me/919123366161">+91 91233 66161</a></p>
+        </div>
+
+        <!-- ============ DASHBOARD VIEW ============ -->
+        <div class="card dash-card hidden" id="dashView">
+            <div class="brand">
+                <img src="/images/logo.svg" alt="Modern Age Coders" width="40" height="40">
+                <b>MAC<i>//</i>HACKATHON<em>1.0</em></b>
+            </div>
+
+            <div class="dash-top">
+                <div class="dash-hello">Hi, <span id="dHello">Builder</span></div>
+                <button class="btn btn-ghost" id="logoutBtn" style="width:auto;">Log out</button>
+            </div>
+
+            <div class="dash-meta">
+                <span class="chip">Builder ID: <b id="dId">—</b></span>
+                <span class="chip status" id="dStatus">Active</span>
+            </div>
+
+            <div class="sec-label">Your updates</div>
+            <div id="dUpdates"></div>
+
+            <div class="sec-label">Quick links</div>
+            <div class="links">
+                <a href="/hackathon" target="_blank">Event page</a>
+                <a href="/hackathon-guide" target="_blank">Full guide</a>
+                <a href="https://wa.me/919123366161" target="_blank">WhatsApp us</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    /* ============================================================
+       PARTICIPANT LIST — edit this only. No database needed.
+       ------------------------------------------------------------
+       For each participant add an object below.
+       - name:      their full name (login is case/space-insensitive)
+       - password:  their phone number (what they log in with).
+                    NOTE: this is visible in the page source, so do not
+                    share the live link publicly.
+       - builderId: shown on their dashboard (optional)
+       - status:    e.g. "Active", "Round 2 Qualified", "Not Shortlisted"
+       - updates:   newest first. Add a new {date,title,text} entry each
+                    time you want to share something with this person.
+       After editing, save and redeploy (push to main).
+
+       NOTE: the two entries below are SAMPLE/PLACEHOLDER data — replace
+       them with your real participants before sharing the link.
+       ============================================================ */
+    var PARTICIPANTS = [
+      {
+        name: "Tanish Jhunjhunwala",
+        password: "9903990709",
+        builderId: "MAC-001",
+        status: "Round 1 — Submitted",
+        updates: [
+          { date: "8 Jun 2026", title: "Round 1 submission received", text: "Thanks for submitting your idea (HunarBook) and your video. Your Round 1 entry is in. Shortlist results for Round 2 will be shared right here — stay tuned!" }
+        ]
+      },
+      {
+        name: "ShadowForge",
+        password: "8336992705",
+        builderId: "MAC-002",
+        status: "Round 1 — Submitted",
+        updates: [
+          { date: "8 Jun 2026", title: "Round 1 submission received", text: "Thanks Team ShadowForge (Krish, Manay & Somraj) — we've received your idea (ShadowSkills AI) and your video. Your Round 1 entry is in. Shortlist results for Round 2 will be shared right here — stay tuned!" }
+        ]
+      },
+      {
+        name: "Ridan Soni",
+        password: "9752444247",
+        builderId: "MAC-003",
+        status: "Round 1 — Submitted",
+        updates: [
+          { date: "8 Jun 2026", title: "Round 1 submission received", text: "Thanks for submitting your idea (financial literacy for children) and your video. Your Round 1 entry is in. Shortlist results for Round 2 will be shared right here — stay tuned!" }
+        ]
+      }
+      // Add more participants here:
+      // , { name: "Full Name", password: "PHONE", builderId: "MAC-004", status: "Round 1 — Submitted", updates: [ { date: "", title: "", text: "" } ] }
+    ];
+
+    /* ---------- logic (no need to edit below) ---------- */
+    var SESSION_KEY = "mac_hx_login_v1";
+
+    function norm(s){ return String(s||"").trim().toLowerCase().replace(/\s+/g,""); }
+
+    function findParticipant(name, pass){
+      var n = norm(name), p = String(pass||"").trim();
+      for (var i=0;i<PARTICIPANTS.length;i++){
+        var u = PARTICIPANTS[i];
+        if (String(u.password).trim() === p && norm(u.name) === n) return u;
+      }
+      return null;
+    }
+
+    function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+
+    function renderDashboard(u){
+      document.getElementById("loginView").classList.add("hidden");
+      var d = document.getElementById("dashView");
+      d.classList.remove("hidden");
+      document.getElementById("dHello").textContent = u.name.split(" ")[0] || u.name;
+      document.getElementById("dId").textContent = u.builderId || "—";
+      var st = document.getElementById("dStatus");
+      st.textContent = u.status || "Active";
+
+      var box = document.getElementById("dUpdates");
+      var ups = u.updates || [];
+      if (!ups.length){
+        box.innerHTML = '<div class="empty">No updates yet — check back soon. We post results &amp; progress here.</div>';
+      } else {
+        box.innerHTML = ups.map(function(up){
+          return '<div class="update"><div class="meta"><span class="dt">'+esc(up.date||"")+'</span><h4>'+esc(up.title||"")+'</h4></div><p>'+esc(up.text||"")+'</p></div>';
+        }).join("");
+      }
+    }
+
+    document.getElementById("loginForm").addEventListener("submit", function(e){
+      e.preventDefault();
+      var name = document.getElementById("name").value;
+      var pass = document.getElementById("pass").value;
+      var u = findParticipant(name, pass);
+      var err = document.getElementById("loginError");
+      if (u){
+        err.classList.remove("show");
+        try { sessionStorage.setItem(SESSION_KEY, JSON.stringify({ name: u.name, password: u.password })); } catch(e){}
+        renderDashboard(u);
+      } else {
+        err.classList.add("show");
+      }
+    });
+
+    document.getElementById("logoutBtn").addEventListener("click", function(){
+      try { sessionStorage.removeItem(SESSION_KEY); } catch(e){}
+      document.getElementById("dashView").classList.add("hidden");
+      document.getElementById("loginView").classList.remove("hidden");
+      document.getElementById("loginForm").reset();
+    });
+
+    /* keep logged in within the same browser tab/session */
+    (function(){
+      try {
+        var raw = sessionStorage.getItem(SESSION_KEY);
+        if (!raw) return;
+        var s = JSON.parse(raw);
+        var u = findParticipant(s.name, s.password);
+        if (u) renderDashboard(u);
+      } catch(e){}
+    })();
+    </script>
+</body>
+
+</html>
