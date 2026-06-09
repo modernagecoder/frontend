@@ -51,6 +51,7 @@
 /register-hackathon /hackathon 301!
 /about /src/pages/about.html 200
 /courses /src/pages/course.html 200
+/course-atlas /src/pages/course-atlas.html 200
 /business-solutions /src/pages/business-solutions.html 200
 /ai-agents-and-automation /src/pages/ai-agents-and-automation.html 200
 /pricing /src/pages/pricing.html 200

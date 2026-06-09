@@ -222,6 +222,11 @@
   status = 200
 
 [[redirects]]
+  from = "/course-atlas"
+  to = "/src/pages/course-atlas.html"
+  status = 200
+
+[[redirects]]
   from = "/pricing"
   to = "/src/pages/pricing.html"
   status = 200
