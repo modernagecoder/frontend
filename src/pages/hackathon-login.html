@@ -68,6 +68,13 @@
         .dash-hello { font-family: var(--disp); font-weight: 800; font-size: 1.5rem; }
         .dash-hello span { color: var(--acid); }
         .dash-meta { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.4rem; }
+        .tabs { display: flex; gap: 0.4rem; background: rgba(0,0,0,0.3); border: 1px solid var(--line); border-radius: 12px; padding: 0.3rem; margin-bottom: 1.2rem; }
+        .tab { flex: 1; padding: 0.6rem 0.5rem; border: none; border-radius: 9px; cursor: pointer; background: transparent; color: var(--mut); font-family: var(--body); font-weight: 600; font-size: 0.9rem; transition: background .2s, color .2s; }
+        .tab:hover { color: #fff; }
+        .tab.active { background: linear-gradient(100deg, var(--violet), var(--cyan)); color: #0a0118; }
+        .tab-panel.hidden { display: none; }
+        .r2-pending { text-align: center; color: var(--mut); font-size: 0.95rem; line-height: 1.6; padding: 1.6rem 1.2rem; border: 1px dashed var(--line2); border-radius: 14px; background: rgba(12,5,24,0.4); }
+        .r2-pending b { color: var(--acid); }
         .chip { font-family: var(--mono); font-size: 0.72rem; padding: 0.35rem 0.75rem; border-radius: 999px; border: 1px solid var(--line2); background: rgba(0,0,0,0.3); color: var(--mut); }
         .chip b { color: #fff; }
         .chip.status { border-color: rgba(196,248,42,0.4); color: var(--acid); }
@@ -159,18 +166,28 @@
                 <span class="chip status" id="dStatus">Active</span>
             </div>
 
-            <div id="dRound2Wrap" style="display:none;">
-                <div class="sec-label">Round 2 — build phase</div>
-                <div id="dRound2"></div>
+            <div class="tabs">
+                <button type="button" class="tab active" data-tab="r1">Round 1</button>
+                <button type="button" class="tab" data-tab="r2">Round 2 Results</button>
             </div>
 
-            <div id="dScoreWrap" style="display:none;">
-                <div class="sec-label">Round 1 scorecard</div>
-                <div id="dScore"></div>
+            <div class="tab-panel" data-panel="r1">
+                <div id="dScoreWrap" style="display:none;">
+                    <div class="sec-label">Round 1 scorecard</div>
+                    <div id="dScore"></div>
+                </div>
+                <div class="sec-label">Your updates</div>
+                <div id="dUpdates"></div>
             </div>
 
-            <div class="sec-label">Your updates</div>
-            <div id="dUpdates"></div>
+            <div class="tab-panel hidden" data-panel="r2">
+                <div id="dRound2Wrap" style="display:none;">
+                    <div class="sec-label">Round 2 — build phase</div>
+                    <div id="dRound2"></div>
+                </div>
+                <div class="sec-label">Round 2 result</div>
+                <div id="dR2Result"></div>
+            </div>
 
             <div class="sec-label">Quick links</div>
             <div class="links">
@@ -451,6 +468,20 @@
         r2.innerHTML = ""; r2Wrap.style.display = "none";
       }
 
+      // Round 2 result (shown in the "Round 2 Results" tab)
+      var r2res = document.getElementById("dR2Result");
+      if (u.round2) {
+        var rr = u.round2;
+        var sb = (rr.score !== null && rr.score !== undefined)
+          ? '<div class="score-overall" style="margin-bottom:0.9rem;"><span class="lab">Round 2 Score</span><div class="score-big"><span class="num">' + rr.score + '</span><span class="out">/10</span></div></div>'
+          : "";
+        r2res.innerHTML = '<div class="scorecard">' + sb +
+          '<h4 style="font-family:var(--disp);font-weight:700;color:#fff;margin:0 0 .45rem;">' + esc(rr.title || rr.result || "Round 2 result") + '</h4>' +
+          '<p style="color:var(--mut);font-size:.94rem;line-height:1.6;white-space:pre-line;margin:0;">' + esc(rr.comment || "") + '</p></div>';
+      } else {
+        r2res.innerHTML = '<div class="r2-pending">Round 2 results have <b>not been declared yet</b>.<br>Finish building and submitting your project — your result will appear here soon.</div>';
+      }
+
       var box = document.getElementById("dUpdates");
       var ups = u.updates || [];
       if (!ups.length){
@@ -460,7 +491,23 @@
           return '<div class="update"><div class="meta"><span class="dt">'+esc(up.date||"")+'</span><h4>'+esc(up.title||"")+'</h4></div><p>'+esc(up.text||"")+'</p></div>';
         }).join("");
       }
+
+      setActiveTab("r1");
     }
+
+    // Dashboard tab switching (Round 1 / Round 2 Results)
+    function setActiveTab(which){
+      var tabs = document.querySelectorAll('.tab');
+      for (var i=0;i<tabs.length;i++) tabs[i].classList.toggle('active', tabs[i].getAttribute('data-tab')===which);
+      var panels = document.querySelectorAll('.tab-panel');
+      for (var j=0;j<panels.length;j++) panels[j].classList.toggle('hidden', panels[j].getAttribute('data-panel')!==which);
+    }
+    (function(){
+      var tabs = document.querySelectorAll('.tab');
+      for (var i=0;i<tabs.length;i++){
+        tabs[i].addEventListener('click', function(){ setActiveTab(this.getAttribute('data-tab')); });
+      }
+    })();
 
     document.getElementById("loginForm").addEventListener("submit", function(e){
       e.preventDefault();
