@@ -75,6 +75,10 @@
         .tab-panel.hidden { display: none; }
         .r2-pending { text-align: center; color: var(--mut); font-size: 0.95rem; line-height: 1.6; padding: 1.6rem 1.2rem; border: 1px dashed var(--line2); border-radius: 14px; background: rgba(12,5,24,0.4); }
         .r2-pending b { color: var(--acid); }
+        .r2-badge { display: inline-block; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; padding: 0.4rem 0.85rem; border-radius: 999px; margin-bottom: 0.9rem; }
+        .r2-badge.r2-through { color: var(--acid); background: rgba(196,248,42,0.12); border: 1px solid rgba(196,248,42,0.45); }
+        .r2-badge.r2-out { color: #fda4af; background: rgba(239,68,68,0.14); border: 1px solid rgba(239,68,68,0.5); }
+        .chip.status.out { border-color: rgba(239,68,68,0.5); color: #fda4af; }
         .chip { font-family: var(--mono); font-size: 0.72rem; padding: 0.35rem 0.75rem; border-radius: 999px; border: 1px solid var(--line2); background: rgba(0,0,0,0.3); color: var(--mut); }
         .chip b { color: #fff; }
         .chip.status { border-color: rgba(196,248,42,0.4); color: var(--acid); }
@@ -274,8 +278,13 @@
         names: ["Shaurya Gupta"],
         passwords: ["9007856501"],
         builderId: "MAC-619",
-        status: "Round 2 — Qualified",
+        status: "Round 2 — Not Qualified",
         score: { overall: 4.0, c: [7,9,2,2,1,1,6] },
+        round2: {
+          result: "Not Qualified",
+          verdict: "out",
+          comment: "Thank you for building and submitting your project.\n\nAfter review, your submission turned out to be a basic single-page simulation rather than a real working product. It did not run smoothly — it needed a few code fixes just to start, and it crashed during testing (along with some mathematical bugs). Most importantly, it doesn't actually solve a real problem; it only simulates one. For these reasons, your project has not qualified for the next stage.\n\nPlease don't be disheartened — putting your work out there is genuinely commendable, and this is valuable learning. We'd love to see you back, sharper and stronger, in our next hackathon. Keep building!"
+        },
         updates: [
           { date: "9 Jun 2026", title: "Round 1 results — you're through to Round 2!", text: "Congratulations — you have advanced to Round 2, the ultimate elimination round! Your detailed Round 1 scorecard is shown above.\n\nYou chose an important, high-ambition area. For the build, sharpen how your solution solves the actual problem rather than visualising what advanced systems already detect. Define the specific gap you fill and the real user it helps — that focus will lift your project a lot.\n\nRound 2 details will be shared in your WhatsApp group. Get ready to build!" }
         ]
@@ -423,6 +432,7 @@
       if (u.teamLabel){ teamChip.textContent = u.teamLabel; teamChip.style.display = ""; } else { teamChip.style.display = "none"; }
       var st = document.getElementById("dStatus");
       st.textContent = u.status || "Active";
+      st.classList.toggle("out", (u.status || "").indexOf("Not Qualified") !== -1);
 
       // Round 1 scorecard
       var scWrap = document.getElementById("dScoreWrap");
@@ -451,7 +461,7 @@
       // Round 2 build-phase details (shown once a participant is in Round 2)
       var r2Wrap = document.getElementById("dRound2Wrap");
       var r2 = document.getElementById("dRound2");
-      if ((u.status || "").indexOf("Round 2") !== -1) {
+      if ((u.status || "").indexOf("Round 2") !== -1 && !u.round2) {
         r2.innerHTML = '<div class="round2">' +
           '<h3>You are on Round 2 — start building your product!</h3>' +
           '<p class="r2lead">This is the ultimate elimination round. You have <b>48 hours</b> to build your product. Make it real, and make it work.</p>' +
@@ -475,8 +485,10 @@
         var sb = (rr.score !== null && rr.score !== undefined)
           ? '<div class="score-overall" style="margin-bottom:0.9rem;"><span class="lab">Round 2 Score</span><div class="score-big"><span class="num">' + rr.score + '</span><span class="out">/10</span></div></div>'
           : "";
-        r2res.innerHTML = '<div class="scorecard">' + sb +
-          '<h4 style="font-family:var(--disp);font-weight:700;color:#fff;margin:0 0 .45rem;">' + esc(rr.title || rr.result || "Round 2 result") + '</h4>' +
+        var vClass = (rr.verdict === "out") ? "r2-out" : "r2-through";
+        var badge = rr.result ? '<div class="r2-badge ' + vClass + '">' + esc(rr.result) + '</div>' : '';
+        r2res.innerHTML = '<div class="scorecard">' + badge + sb +
+          '<h4 style="font-family:var(--disp);font-weight:700;color:#fff;margin:0 0 .45rem;">' + esc(rr.title || "Judges' feedback") + '</h4>' +
           '<p style="color:var(--mut);font-size:.94rem;line-height:1.6;white-space:pre-line;margin:0;">' + esc(rr.comment || "") + '</p></div>';
       } else {
         r2res.innerHTML = '<div class="r2-pending">Round 2 results have <b>not been declared yet</b>.<br>Finish building and submitting your project — your result will appear here soon.</div>';
