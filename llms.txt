@@ -47,6 +47,7 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 
 - Homepage: https://learn.modernagecoders.com/
 - All Courses: https://learn.modernagecoders.com/courses
+- Real Coding Classes (depth-first manifesto — Python internals, maths-first AI/ML, DSA, C++, Java, full-stack; markdown at /src/pages/real-coding-classes.md): https://learn.modernagecoders.com/real-coding-classes
 - About Us: https://learn.modernagecoders.com/about
 - Blog (coding & math education tips): https://learn.modernagecoders.com/blog
 - Pricing (from ₹1499/month): https://learn.modernagecoders.com/pricing

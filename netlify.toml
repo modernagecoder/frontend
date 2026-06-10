@@ -227,6 +227,11 @@
   status = 200
 
 [[redirects]]
+  from = "/real-coding-classes"
+  to = "/src/pages/real-coding-classes.html"
+  status = 200
+
+[[redirects]]
   from = "/pricing"
   to = "/src/pages/pricing.html"
   status = 200
