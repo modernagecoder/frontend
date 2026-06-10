@@ -97,6 +97,12 @@ const InternationalPricing = {
     this.updateCoursePages();
     this.updateSummerCampPages();
     this.hideInternationalSections();
+    // Generic fallback for pages with custom pricing markup (SEO clusters,
+    // city/state/school/complex pages). Must run LAST: the specific handlers
+    // above rewrite their own markup first, so any ₹ still in the DOM at this
+    // point belongs to markup they don't know about.
+    this.hideGenericMiniBatchCards();
+    this.genericPriceSwap();
   },
 
   // Hide cards/blocks that are India-only (e.g., Mini Batch tier has no USD price).
@@ -231,6 +237,60 @@ const InternationalPricing = {
         btn.textContent = btn.textContent.replace(/₹[\d,]+/, price.display);
       }
     });
+  },
+
+  // ─── Generic Mini Batch hiding (custom-markup pages) ───
+  // The Mini Batch tier (₹2,499, 3-4 students) is India-only and has no USD
+  // price. Pages with bespoke pricing markup (e.g. .bj-plan on the Java
+  // pillar) don't carry [data-india-only], so detect the card by content:
+  // a plan/card/tier element that mentions both "Mini Batch" and ₹2,499.
+  hideGenericMiniBatchCards() {
+    var nameRx = /mini\s*batch/i;
+    var priceRx = /(?:₹|\bRs\.?)\s*2,?499(?!\d)/;
+    var candidates = document.querySelectorAll('[class*="plan"], [class*="card"], [class*="tier"]');
+    candidates.forEach(function(el) {
+      var txt = el.textContent || '';
+      if (!nameRx.test(txt) || !priceRx.test(txt)) return;
+      // Hide only the innermost matching container, never a wrapper that
+      // also holds the other plans.
+      var hasMatchingChild = Array.prototype.some.call(
+        el.querySelectorAll('[class*="plan"], [class*="card"], [class*="tier"]'),
+        function(c) { var t = c.textContent || ''; return nameRx.test(t) && priceRx.test(t); }
+      );
+      if (!hasMatchingChild) el.style.display = 'none';
+    });
+  },
+
+  // ─── Generic ₹ → $ text swap (custom-markup pages) ───
+  // Rewrites any remaining INR price mention to the flat USD price. Order
+  // matters: ₹49,999 must be handled before ₹4,999. ₹2,499 maps to the $40
+  // group price (no USD Mini Batch exists; inline "from ₹2,499" mentions on
+  // hyper-local pages must not surface a third SKU).
+  genericPriceSwap() {
+    var rules = [
+      { rx: /(?:₹|\bRs\.?)\s*49,?999(?!\d)/g, usd: '$599' },
+      { rx: /(?:₹|\bRs\.?)\s*1,?499(?!\d)/g,  usd: '$40'  },
+      { rx: /(?:₹|\bRs\.?)\s*1,?999(?!\d)/g,  usd: '$40'  },  // school bootcamp group tier
+      { rx: /(?:₹|\bRs\.?)\s*2,?499(?!\d)/g,  usd: '$40'  },
+      { rx: /(?:₹|\bRs\.?)\s*2,?999(?!\d)/g,  usd: '$100' },  // school-page 1-on-1 tier
+      { rx: /(?:₹|\bRs\.?)\s*4,?999(?!\d)/g,  usd: '$100' }
+    ];
+    var skip = { SCRIPT: 1, STYLE: 1, NOSCRIPT: 1, TEXTAREA: 1, TITLE: 1 };
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while ((node = walker.nextNode())) {
+      var parent = node.parentNode;
+      if (!parent || skip[parent.nodeName]) continue;
+      var text = node.nodeValue;
+      if (text.indexOf('₹') === -1 && !/\bRs\.?\s*\d/.test(text)) continue;
+      var out = text;
+      rules.forEach(function(rule) {
+        // Replacement via function so "$" in the price is never treated as a
+        // regex group reference.
+        out = out.replace(rule.rx, function() { return rule.usd; });
+      });
+      if (out !== text) node.nodeValue = out;
+    }
   },
 
   // ─── Hide Old International Sections ───
