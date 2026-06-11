@@ -114,6 +114,11 @@
         .sc-l span { color: var(--faint); font-size: 0.78rem; }
         .sc-v { font-family: var(--disp); font-weight: 800; color: var(--cyan-hi); font-size: 1.15rem; white-space: nowrap; }
         .sc-v i { font-style: normal; color: var(--faint); font-size: 0.72rem; font-weight: 500; }
+        .combined-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.8rem 0.7rem; margin-top: 0.6rem; border-top: 2px solid rgba(196,248,42,0.45); background: rgba(196,248,42,0.07); border-radius: 10px; }
+        .cmb-l b { display: block; color: #fff; font-family: var(--disp); font-weight: 700; font-size: 1rem; }
+        .cmb-l span { color: var(--faint); font-size: 0.74rem; }
+        .cmb-v { font-family: var(--disp); font-weight: 800; color: var(--acid); font-size: 1.45rem; white-space: nowrap; }
+        .cmb-v i { font-style: normal; color: var(--mut); font-size: 0.78rem; font-weight: 500; margin-left: 1px; }
 
         .links { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 1.4rem 0 0.4rem; }
         .links a { flex: 1; min-width: 130px; text-align: center; font-family: var(--mono); font-size: 0.8rem; padding: 0.7rem; border-radius: 11px; border: 1px solid var(--line2); background: rgba(0,0,0,0.3); color: var(--ink); text-decoration: none; }
@@ -294,7 +299,7 @@
           result: "Qualified",
           verdict: "through",
           title: "Congratulations — you're through to Round 3!",
-          points: 83,
+          score2: { overall: 8.3, c: [9,8,7,8,10,9,7] },
           comment: "Congratulations, Team Fin Alpha Legends (Harsh, Krishnav, Mivaan and Reyaan) — JuniorMint has QUALIFIED for Round 3, the Grand Finale!\n\nWe actually ran your app and tested it properly, and you should be genuinely proud — this is one of the most complete, truly working builds in the whole hackathon. We logged in, opened the Market Terminal and watched the BSE stock prices update live, then bought 10 shares of TCS: your app correctly took the money out of our coins (₹1,00,000 down to ₹63,082.50), added the shares to our portfolio, and showed a live profit/loss that kept changing with the price. Everything worked end-to-end — real simulated trading, 200+ BSE stocks across 10 sectors, quizzes that earn coins, a big learning hub, and 'Richie the Raccoon', your AI tutor. And the fact that you are 10 years old makes this genuinely impressive.\n\nWe also loved how responsible it is: clear 'this is educational only, not real money' warnings everywhere, and Richie is set up to warn kids against gambling, get-rich-quick schemes and sharing UPI PINs. For a children's finance app, that safety-first thinking is exactly right and very mature.\n\nNow some honest, practical things to fix before the finale — these matter:\n1) Your AI tutor was running in 'offline demo mode' when we tested, because the Gemini API key wasn't active. Make sure the real key works in your final demo so Richie gives real AI answers live.\n2) We spotted a likely bug in your code: you call the AI model 'gemini-3.5-flash', which is not a real model name (the real ones are like 'gemini-2.5-flash'). Even with a key, this may fail — please fix the model name and test that Richie actually replies.\n3) Originality: simulated stock-market games already exist (like Moneycontrol's 'Moneybhai', Zerodha Varsity, and Wall Street Survivor). So be ready to answer 'why JuniorMint?' — your best answers are: it is built specifically for Indian kids, it has an AI tutor that adjusts to the child's age, and it teaches safety and scam-awareness, not just trading.\n\nOverall — outstanding, genuinely working work, especially for your age. Get the live AI running, fix that model name, sharpen your 'why us' story, and you will be very strong in the finale. See you in Round 3!"
         },
         updates: [
@@ -325,7 +330,7 @@
         round2: {
           result: "Qualified",
           verdict: "through",
-          points: 84,
+          score2: { overall: 8.4, c: [9,9,8,7,9,9,8] },
           title: "Congratulations — you're through to Round 3!",
           comment: "Congratulations, Rishi — My Family Library has QUALIFIED for Round 3, the Grand Finale!\n\nThis is a big step up, and it was well earned. We actually installed and ran your app, loaded your demo, and went through it properly — and it is a genuinely complete, working product. You built a real full-stack app (a React front-end with a real Express server and Gemini AI), and the whole lending system actually works: family members have profiles, books are catalogued with owner, genre and age rating, and there is a proper borrow workflow — request a book, the owner approves or rejects it, return it, and every action is saved to an activity log. That is real, non-trivial engineering, not a mock-up.\n\nWe were especially happy to see this because of your Round 1 feedback: we had asked you to build something that genuinely needs a dedicated product, not something a shared drive or spreadsheet already solves. You answered that well — the AI camera book-scanning (snap a cover, the AI identifies the book) and the structured borrow/approve/return ledger are real reasons this deserves to be its own app. The AI reading recommendations were a nice touch too, and we liked that the app is honest when it is using its offline backup instead of the live AI.\n\nNow some honest things to fix before the finale:\n1) Your Gemini AI key was not active when we tested, so the AI (book scanning and recommendations) ran on the offline backup. Set GEMINI_API_KEY so the real AI runs live in your demo — the camera-scan-a-real-book moment will be your strongest wow factor, so make sure it works.\n2) We spotted a likely bug: your code calls the model 'gemini-3.5-flash', which is not a real model name (the real ones are like 'gemini-2.5-flash'). Please fix it and test that scanning truly works with a key.\n3) Your data currently lives in the server's memory, so it resets when the server restarts. Your app says 'multi-device sync' — to make that real, you'd need a proper database. At minimum, be honest about this in the demo.\n4) Be ready to answer 'why not just use Goodreads or a shared list?' — your answer is the family lending workflow plus instant AI scanning.\n\nOverall — genuinely strong, complete, working work, and a clear, well-targeted idea. Get the live AI working, fix that model name, and practise scanning a real book on camera. See you in Round 3!"
         },
@@ -343,7 +348,7 @@
           result: "Qualified",
           verdict: "through",
           title: "Congratulations — you're through to Round 3!",
-          points: 91,
+          score2: { overall: 9.1, c: [10,9,8,10,10,9,8] },
           comment: "Congratulations, Vivaan — GuardianX has QUALIFIED for Round 3, the Grand Finale!\n\nWe tested your live app properly. We ran three very different messages through your scanner: a real SBI KYC scam SMS, a normal family message ('Hi beta, dinner is ready'), and pure gibberish. Here is why that matters — your AI got all three right. The scam was flagged DANGEROUS (KYC Fraud, 100%) with the exact red flags (bit.ly link, '24-hour' false urgency), the family message was correctly marked SAFE (it even quoted 'beta' and 'Mummy' and said 'reply to your mother, no cyber action needed'), and the gibberish was correctly called out as random nonsense. That proves your AI genuinely reads and understands each message — it is real, working AI, not fixed or pre-written answers. That alone puts you ahead of many submissions.\n\nWhat makes GuardianX strong is its real-world impact. Online fraud — fake KYC texts, UPI tricks, 'digital arrest' calls, loan-app blackmail — is one of the biggest real problems in India right now, and you built a genuinely useful tool against it: a clear threat report with red flags, what-it-means, step-by-step what-to-do, the 1930 helpline and cybercrime.gov.in, plus a well-researched India scam encyclopedia, breach check, link guard, a learn section and quizzes. It is polished and complete. You also answered your Round 1 note well — you addressed privacy with your 'zero storage' promise.\n\nNow two honest things to prepare for the finale, because the judges WILL ask:\n1) Originality: AI scam-checkers already exist — for example Bitdefender 'Scamio', Truecaller, and Google's built-in scam detection. So be ready to answer clearly: 'Why GuardianX over those?' Your strongest answers are your deep India focus (Indian scams, 1930, cybercrime.gov.in), your all-in-one approach (scan + link + breach + education in one place), and your education-first angle that teaches people to spot scams themselves. Lead with that.\n2) Honesty of your numbers: your home page shows stats like '12,847 threats blocked today' and '3,241 users protected'. These look made-up rather than real usage. For a product whose whole promise is trust and protecting people from deception, fake numbers can hurt you. Please make them real or remove them before the finale.\n\nOverall — excellent, genuinely useful work. Polish your demo, sharpen your 'why us' answer, fix the stats, and bring it. See you in Round 3!"
         },
         updates: [
@@ -360,7 +365,7 @@
           result: "Qualified",
           verdict: "through",
           title: "Congratulations — you're through to Round 3!",
-          points: 89,
+          score2: { overall: 8.9, c: [10,10,7,8,9,9,9.5] },
           comment: "Congratulations, Pratham — Second Brain has QUALIFIED for Round 3, the Grand Finale!\n\nWe tested your live app and read your code, and you should be genuinely proud. You built a real, working knowledge-base system: paste a YouTube link, and it extracts the transcript, breaks it into chunks with timestamps, generates AI insights, and lets you chat with the video and get answers backed by sources. Your stack is real and well thought out (Next.js, a Convex backend, and Gemini with an automatic fallback model). You already have 8 real videos ingested and organised into folders — this is a finished, functioning product, not a mock-up.\n\nThe single most impressive thing was this: we opened the 'Me at the zoo' video and asked 'what colour are the elephants?'. Your app answered, honestly, that the colour is not mentioned in the transcript — instead of making something up. Most AI projects hallucinate a confident wrong answer here. Yours stayed faithful to the actual source and cited the exact segment. That is the hard part of this kind of AI, and you got it right. It directly delivers on your Round 1 note, where we asked you to nail the retrieval and show it working end-to-end — you did.\n\nNow two honest things to prepare for the finale, because the judges will ask:\n1) Originality: a tool that lets you chat with your videos/notes and get cited answers already exists — the biggest one is Google's NotebookLM (you add sources, including YouTube, and chat across them with citations), and there are others like Eightify. So be ready to answer clearly: 'Why Second Brain over NotebookLM?' Your strongest answers are your YouTube-first workflow, your timestamp-level citations, and your folder + cross-folder synthesis. Lead with those.\n2) Real semantic search: right now your retrieval uses keyword/full-text search, not true vector embeddings. That means a question like 'hiring engineers' may miss a video that says 'recruiting developers'. Adding real embeddings (or being upfront that it's keyword-based for now) would make it noticeably stronger and matches the 'semantic' promise. (Small polish: finish the README tech-stack section, and double-check the per-video insights panel always finishes generating.)\n\nOverall — excellent, genuinely working engineering on a real problem. Sharpen your 'why us vs NotebookLM' story, tighten the demo, and you'll be very strong in the finale. See you in Round 3!"
         },
         updates: [
@@ -394,7 +399,7 @@
           result: "Qualified",
           verdict: "through",
           title: "Congratulations — you're through to Round 3!",
-          points: 76,
+          score2: { overall: 7.6, c: [7,7,6,8,8,9,8] },
           comment: "Congratulations, Bhavya — NutriLife has QUALIFIED for Round 3, the Grand Finale!\n\nWe reviewed your live app, and you have built something genuinely polished: a real product with proper accounts (Google, Apple, and email sign-in), a real backend, saved meal pages, daily tracking, and a clean, professional design. The core idea — snap a photo of your meal and instantly get calories, macros, vitamins and minerals — is a useful, real-life problem worth solving, and your presentation of it is strong. That level of finish is good work.\n\nNow the most important thing to prepare for the finale — and please take this seriously, because it is exactly what we asked you in Round 1 ('there are existing solutions out there, so show clearly what you do differently and better'). The 'photo of your food → AI calories' idea is currently the single most crowded app category in the world. There are very popular apps doing exactly this already: Cal AI, SnapCalorie, Foodvisor, MyFitnessPal, and especially HealthifyMe's 'Snap' feature, which is huge in India. So in Round 3 the judges WILL ask: 'Why NutriLife instead of Cal AI or HealthifyMe?' If your honest answer is 'it does the same thing', that will be a problem.\n\nSo your job before the finale is to find and show your edge. Pick at least one thing and make it clearly better than the big apps — for example: focus on Indian foods and home-cooked thalis that global apps get wrong (dal, sabzi, roti portions, regional dishes), or add genuinely smart coaching that adapts to the user's goals, or accuracy you can prove. Show it solving something the others fail at. Lead the whole demo with that difference.\n\nOne practical request: please make sure judges can actually test it — right now sign-up needs email confirmation, which can block people. Make a smooth demo path or a ready test account for the finale.\n\nOverall — a polished, real build on a genuinely useful problem. Spend your remaining time proving 'why us', not adding features, and you can do well. See you in Round 3!"
         },
         updates: [
@@ -426,7 +431,7 @@
           result: "Qualified",
           verdict: "through",
           title: "Congratulations — you're through to Round 3!",
-          points: 94,
+          score2: { overall: 9.4, c: [9,10,10,10,9,9,9] },
           comment: "Congratulations, Uddhav — Nexus has QUALIFIED for Round 3, the Grand Finale!\n\nYou were one of the highest scorers in Round 1, and your Round 2 build lived up to it. We went through your actual code on GitHub line by line, and the most important thing we can tell you is: everything in your README is genuinely built, not just described. You wrote a real native Android launcher in Kotlin — it registers as the phone's home screen, it even sets itself up as a default SMS app, and your guardian-alert logic really sends an SMS through the phone (SmsManager) when the phone is continuously active for 3+ hours, or when it stays inactive for 3+ hours between 7 AM and 9 PM, with hourly reminders. The voice-prompt confirmation (speech recognition + text-to-speech) is real too. That is serious, real engineering — harder than a normal web app — and you should be proud of it.\n\nWhat makes this special is the idea. Most teams build something that already exists; you found a genuinely real and underserved problem — keeping senior citizens safe on their phones — and attacked it from a fresh angle. The 'digital arrest' fraud (fake police keeping elderly people on video calls for hours) is one of the most serious scams in India today, and using a simple, clever signal — 'phone unusually active for hours' — to quietly alert a younger family member is original thinking we have not seen elsewhere. Pairing that with an inactivity 'is everything okay?' health check and a clean, senior-friendly launcher makes it a thoughtful, caring product. This is exactly the kind of 'solve a real problem' work this hackathon is about.\n\nTwo honest things to prepare for the finale, because the judges will push on them:\n1) False alarms: 'active for 3+ hours' could trigger when a senior is simply watching YouTube or on a long family video call, and 'inactive' could just mean the phone is on charge. Be ready to explain how you would reduce false alerts — for example, detecting whether a video-call app is actually open, or asking the user a quick 'Are you okay?' before alerting. You do not need it fully built; you need a clear, smart answer.\n2) Live demo: right now it is a code repo. For Round 3 you must show it running on a real phone — open the launcher, set a guardian number, and demonstrate an alert SMS actually being sent. A live demo on a real device will be very powerful, so practice it. (Small polish: rename the app/package from 'com.example.n' to a real name.)\n\nOverall — outstanding, genuinely original work with real engineering behind it. Refine the alert logic, prepare a smooth live demo, and you will be very strong in the finale. See you in Round 3!"
         },
         updates: [
@@ -460,7 +465,7 @@
           result: "Qualified",
           verdict: "through",
           title: "Congratulations — you're through to Round 3!",
-          points: 85,
+          score2: { overall: 8.5, c: [10,8,8,7,10,9,7.5] },
           comment: "Congratulations, Team Eco Squads (Savvya and Arya) — you have QUALIFIED for Round 3, the Grand Finale!\n\nWe went through your live app in full — we created an account, joined a squad, logged an action and watched it appear on the leaderboard, and read the squad chat. Here is the honest reason you're through: out of everything we reviewed, EcoSquad is one of the most complete and genuinely working builds. It's not a demo — it's a real, multi-user product with real accounts (email, magic link, Google and Apple sign-in), squads you can create and join, a live leaderboard that updates the moment you log an action, real-time squad chat, and a weekly real-world prize system. The CO₂ values behind each action are sensibly researched (a vegan meal saves far more than a cloth bag), and converting it into 'trees planted' and 'km not driven' makes the impact feel real. That level of finish is hard to achieve, and you did it.\n\nWhat stood out most was your anti-cheating system — photo proof for logs plus a rotating weekly 'referee' who can cancel suspicious entries. That is genuinely clever, because the biggest weakness of every self-reported eco app is people faking actions to win, and you actually thought about solving it. That kind of thinking is exactly what we're looking for.\n\nOne honest, important challenge to prepare for the finale: the core idea — log green habits, see CO₂ saved, compete on a leaderboard, earn rewards — is not brand new. Apps like AWorld (the official app of the UN's ActNow climate campaign), Ant Forest on Alipay (where logging low-carbon actions plants real trees, used by hundreds of millions), and JouleBug already do this. So in Round 3 the judges WILL ask: 'What makes EcoSquad different and better than these?' Your best answer is your trust/verification system (photo + referee) and your tight squad-based competition — lead with that, and show why it makes your impact numbers more believable than the big apps. Come ready to defend that clearly.\n\nFor now — very well done. This is a strong, real build and a well-earned spot in the finale. Polish your demo, sharpen your 'why us' story, and bring it. See you in Round 3!"
         },
         updates: [
@@ -566,14 +571,38 @@
       var r2res = document.getElementById("dR2Result");
       if (u.round2) {
         var rr = u.round2;
-        var sb = (rr.points !== null && rr.points !== undefined)
-          ? '<div class="score-overall" style="margin-bottom:0.9rem;"><span class="lab">Round 2 Score</span><div class="score-big"><span class="num">' + rr.points + '</span><span class="out">/100</span></div></div>'
-          : ((rr.score !== null && rr.score !== undefined)
-            ? '<div class="score-overall" style="margin-bottom:0.9rem;"><span class="lab">Round 2 Score</span><div class="score-big"><span class="num">' + rr.score + '</span><span class="out">/10</span></div></div>'
-            : "");
         var vClass = (rr.verdict === "out") ? "r2-out" : "r2-through";
         var badge = rr.result ? '<div class="r2-badge ' + vClass + '">' + esc(rr.result) + '</div>' : '';
-        r2res.innerHTML = '<div class="scorecard">' + badge + sb +
+
+        // Detailed Round 2 scorecard (parameter breakdown) — shown when a score2 exists
+        var scoreBlock = "";
+        if (rr.score2 && rr.score2.c) {
+          var labels2 = [
+            ["Working Build", "Does it genuinely work end-to-end (not a mock-up)"],
+            ["Technical Strength", "Depth and quality of the real engineering — AI, backend, code"],
+            ["Innovation", "How original and different it is from apps that already exist"],
+            ["Real-World Impact", "How much genuine difference it can make"],
+            ["Completeness", "How much of the full idea is actually built and usable"],
+            ["Design & Polish", "Quality, finish and ease of use of the product"],
+            ["Round 3 Readiness", "How demo-ready it is and how much is left to fix"]
+          ];
+          var rows2 = labels2.map(function (l, idx) {
+            var v = rr.score2.c[idx];
+            var vs = (v === null || v === undefined) ? "&mdash;" : v;
+            return '<div class="score-row"><div class="sc-l"><b>' + l[0] + '</b><span>' + l[1] + '</span></div><div class="sc-v">' + vs + '<i>/10</i></div></div>';
+          }).join("");
+          var combined = "";
+          if (u.score && u.score.overall !== null && u.score.overall !== undefined) {
+            var total = Math.round((u.score.overall + rr.score2.overall) * 10) / 10;
+            combined = '<div class="combined-row"><div class="cmb-l"><b>Combined Total</b><span>Round 1 (' + u.score.overall + ') + Round 2 (' + rr.score2.overall + ')</span></div><div class="cmb-v">' + total + '<i>/20</i></div></div>';
+          }
+          scoreBlock = '<div class="score-overall" style="margin-bottom:0.9rem;"><span class="lab">Overall Round 2 Score</span><div class="score-big"><span class="num">' + rr.score2.overall + '</span><span class="out">/10</span></div></div>' + rows2 + combined;
+        } else if (rr.points !== null && rr.points !== undefined) {
+          scoreBlock = '<div class="score-overall" style="margin-bottom:0.9rem;"><span class="lab">Round 2 Score</span><div class="score-big"><span class="num">' + rr.points + '</span><span class="out">/100</span></div></div>';
+        }
+
+        r2res.innerHTML = '<div class="scorecard">' + badge + scoreBlock + '</div>' +
+          '<div class="scorecard" style="margin-top:1rem;">' +
           '<h4 style="font-family:var(--disp);font-weight:700;color:#fff;margin:0 0 .45rem;">' + esc(rr.title || "Judges' feedback") + '</h4>' +
           '<p style="color:var(--mut);font-size:.94rem;line-height:1.6;white-space:pre-line;margin:0;">' + esc(rr.comment || "") + '</p></div>';
       } else {
