@@ -178,6 +178,7 @@
             <div class="tabs">
                 <button type="button" class="tab active" data-tab="r1">Round 1</button>
                 <button type="button" class="tab" data-tab="r2">Round 2 Results</button>
+                <button type="button" class="tab" data-tab="r3">Round 3</button>
             </div>
 
             <div class="tab-panel" data-panel="r1">
@@ -196,6 +197,11 @@
                 </div>
                 <div class="sec-label">Round 2 result</div>
                 <div id="dR2Result"></div>
+            </div>
+
+            <div class="tab-panel hidden" data-panel="r3">
+                <div class="sec-label">Round 3 — Grand Finale</div>
+                <div id="dR3Result"></div>
             </div>
 
             <div class="sec-label">Quick links</div>
@@ -607,6 +613,31 @@
           '<p style="color:var(--mut);font-size:.94rem;line-height:1.6;white-space:pre-line;margin:0;">' + esc(rr.comment || "") + '</p></div>';
       } else {
         r2res.innerHTML = '<div class="r2-pending">Round 2 results have <b>not been declared yet</b>.<br>Finish building and submitting your project — your result will appear here soon.</div>';
+      }
+
+      // Round 3 — Grand Finale details (shown in the "Round 3" tab)
+      var r3 = document.getElementById("dR3Result");
+      var isFinalist = u.round2 && (u.round2.verdict === "through" || (u.round2.result || "").indexOf("Qualified") !== -1 && (u.round2.result || "").indexOf("Not") === -1);
+      var isTeam = (u.names && u.names.length > 1) || !!u.teamLabel;
+      if (isFinalist) {
+        r3.innerHTML = '<div class="round2">' +
+          '<div class="r2-badge r2-through">Grand Finalist</div>' +
+          '<h3>You\'re in the Grand Finale! 🎉</h3>' +
+          '<p class="r2lead">Congratulations — you are one of the finalists going through to <b>Round 3</b>, the live Grand Finale. This is the final stage.</p>' +
+          '<ul>' +
+            '<li><b>When:</b> This <b>Saturday, 13 June 2026</b>.</li>' +
+            '<li><b>Format:</b> A live demo of your project plus a Q&amp;A with the judges, held over <b>Zoom</b>.</li>' +
+            '<li><b>Time &amp; joining link:</b> The exact time and the <b>Zoom meeting link</b> will be shared in your <b>WhatsApp group</b> — please keep checking it.</li>' +
+            (isTeam
+              ? '<li><b>Teams:</b> <b>Every team member must join</b> the Zoom meeting together on Saturday.</li>'
+              : '<li><b>Joining:</b> Join the Zoom on time from a device with a working <b>camera and microphone</b>.</li>') +
+          '</ul>' +
+          '<p class="r2note">Prepare a short, confident live demo and be ready to explain clearly why your project is different and better. Re-read the "Round 3 Readiness" points in your Round 2 feedback to know exactly what to polish before Saturday. All the best!</p>' +
+        '</div>';
+      } else if (u.round2) {
+        r3.innerHTML = '<div class="r2-pending">Round 3 is the <b>Grand Finale</b>, held this <b>Saturday, 13 June 2026</b> for the qualified finalists.<br><br>Your hackathon journey ends at Round 2 this time — thank you genuinely for taking part and building with us. We hope to see you back, stronger, next time!</div>';
+      } else {
+        r3.innerHTML = '<div class="r2-pending">Round 3 (the <b>Grand Finale</b>) details will appear here once your Round 2 result is announced.</div>';
       }
 
       var box = document.getElementById("dUpdates");
