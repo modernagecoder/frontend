@@ -1657,6 +1657,10 @@
   to = "/src/pages/best-coding-class-in-gurgaon.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-ghaziabad"
+  to = "/src/pages/best-coding-class-in-ghaziabad.html"
+  status = 200
+[[redirects]]
   from = "/best-coding-class-in-nashik"
   to = "/src/pages/best-coding-class-in-nashik.html"
   status = 200
