@@ -1506,6 +1506,11 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-gandhinagar"
+  to = "/src/pages/best-coding-class-in-gandhinagar.html"
+  status = 200
+
+[[redirects]]
   from = "/best-coding-class-in-indore"
   to = "/src/pages/best-coding-class-in-indore.html"
   status = 200

@@ -118,7 +118,14 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
-  
+
+  <url>
+    <loc>https://learn.modernagecoders.com/best-coding-class-in-gandhinagar</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <url>
     <loc>https://learn.modernagecoders.com/best-coding-class-in-bengaluru</loc>
     <lastmod>2026-03-22</lastmod>
