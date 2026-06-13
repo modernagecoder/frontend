@@ -1692,6 +1692,10 @@
   to = "/src/pages/best-coding-class-in-jammu.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-srinagar"
+  to = "/src/pages/best-coding-class-in-srinagar.html"
+  status = 200
+[[redirects]]
   from = "/best-coding-class-in-siliguri"
   to = "/src/pages/best-coding-class-in-siliguri.html"
   status = 200
