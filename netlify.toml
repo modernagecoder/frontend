@@ -1687,6 +1687,10 @@
   to = "/src/pages/best-coding-class-in-siliguri.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-durgapur"
+  to = "/src/pages/best-coding-class-in-durgapur.html"
+  status = 200
+[[redirects]]
   from = "/best-coding-class-in-prayagraj"
   to = "/src/pages/best-coding-class-in-prayagraj.html"
   status = 200
