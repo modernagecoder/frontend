@@ -1710,6 +1710,10 @@
   to = "/src/pages/best-coding-class-in-darbhanga.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-gaya"
+  to = "/src/pages/best-coding-class-in-gaya.html"
+  status = 200
+[[redirects]]
   from = "/best-coding-class-in-moradabad"
   to = "/src/pages/best-coding-class-in-moradabad.html"
   status = 200
