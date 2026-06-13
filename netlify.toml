@@ -1566,6 +1566,11 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-thrissur"
+  to = "/src/pages/best-coding-class-in-thrissur.html"
+  status = 200
+
+[[redirects]]
   from = "/best-coding-class-in-nagpur"
   to = "/src/pages/best-coding-class-in-nagpur.html"
   status = 200
