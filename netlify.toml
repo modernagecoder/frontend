@@ -1706,6 +1706,10 @@
   to = "/src/pages/best-coding-class-in-bhagalpur.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-darbhanga"
+  to = "/src/pages/best-coding-class-in-darbhanga.html"
+  status = 200
+[[redirects]]
   from = "/best-coding-class-in-moradabad"
   to = "/src/pages/best-coding-class-in-moradabad.html"
   status = 200
