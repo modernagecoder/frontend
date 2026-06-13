@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  DRAFT WINNERS PAGE — PLACEHOLDER CONTENT.
+  The names and projects below are DUMMY placeholders. After the real Round 3
+  finale, replace the 3 winner cards (data-winner blocks) with the actual
+  winners' names + project details, then push to publish.
+  ============================================================================
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winners — Modern Age Coders Hackathon 1.0</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#07030f">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg:#07030f; --ink:#f4f0ff; --mut:#b6a9d6; --faint:#7c6da3;
+            --violet:#a855f7; --cyan:#2dd4bf; --cyan-hi:#5eead4; --acid:#c4f82a; --pink:#ff2d8e; --gold:#ffd24a;
+            --line:rgba(168,133,247,0.16); --line2:rgba(168,133,247,0.32); --glass:rgba(20,12,38,0.62);
+            --disp:'Bricolage Grotesque',sans-serif; --body:'Sora',-apple-system,'Segoe UI',sans-serif; --mono:'JetBrains Mono',monospace;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { background: var(--bg); scroll-behavior: smooth; }
+        body { background: var(--bg); color: var(--ink); font-family: var(--body); min-height: 100vh; position: relative; overflow-x: hidden; }
+        .atmos { position: fixed; inset: 0; z-index: 0; pointer-events: none;
+            background: radial-gradient(60% 50% at 15% 8%, rgba(168,85,247,0.22), transparent 60%),
+                        radial-gradient(55% 45% at 85% 6%, rgba(45,212,191,0.16), transparent 60%),
+                        radial-gradient(70% 60% at 50% 115%, rgba(255,210,74,0.12), transparent 60%),
+                        linear-gradient(180deg,#07030f,#0a0418 55%,#07030f); }
+        .atmos::before { content:""; position:absolute; inset:0;
+            background-image: linear-gradient(rgba(168,133,247,0.045) 1px,transparent 1px), linear-gradient(90deg,rgba(168,133,247,0.045) 1px,transparent 1px);
+            background-size: 64px 64px; -webkit-mask-image: radial-gradient(circle at 50% 20%,#000,transparent 80%); mask-image: radial-gradient(circle at 50% 20%,#000,transparent 80%); }
+
+        .wrap { position: relative; z-index: 2; max-width: 1080px; margin: 0 auto; padding: clamp(2rem,6vw,4.5rem) 1.4rem 4rem; }
+
+        .top { text-align: center; margin-bottom: clamp(2rem,5vw,3.4rem); }
+        .brand { display:inline-flex; align-items:center; gap:0.55rem; margin-bottom:1.6rem; }
+        .brand .logo { width:34px; height:34px; border-radius:9px; display:grid; place-items:center; font-size:1.1rem; background:linear-gradient(135deg,var(--violet),var(--cyan)); box-shadow:0 0 18px rgba(168,85,247,0.4); }
+        .brand b { font-family:var(--disp); font-weight:800; font-size:0.92rem; color:#fff; letter-spacing:0.01em; }
+        .kicker { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.8rem; }
+        h1 { font-family: var(--disp); font-weight: 800; font-size: clamp(2.6rem, 8vw, 4.6rem); line-height: 1.02; letter-spacing: -0.02em; }
+        h1 .g { background: linear-gradient(102deg, var(--gold), var(--acid) 45%, var(--cyan-hi)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .lede { color: var(--mut); font-size: clamp(0.98rem,2.5vw,1.12rem); max-width: 620px; margin: 1.1rem auto 0; line-height: 1.6; }
+        .meta-row { display:flex; flex-wrap:wrap; gap:0.6rem; justify-content:center; margin-top:1.5rem; }
+        .chip { font-family:var(--mono); font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--cyan-hi); background:rgba(45,212,191,0.08); border:1px solid rgba(45,212,191,0.28); border-radius:999px; padding:0.4rem 0.9rem; }
+
+        .winners { display:grid; gap:1.4rem; }
+        .winner { position:relative; display:grid; grid-template-columns: 88px 1fr auto; gap:1.4rem; align-items:start;
+            background: var(--glass); border:1px solid var(--line2); border-radius:22px; padding:1.6rem 1.7rem; backdrop-filter: blur(14px);
+            box-shadow: 0 30px 70px rgba(0,0,0,0.45); overflow:hidden; }
+        .winner::before { content:""; position:absolute; left:0; top:0; bottom:0; width:5px; }
+        .w1::before { background:linear-gradient(180deg,var(--gold),#ffae3a); }
+        .w2::before { background:linear-gradient(180deg,#dfe7ee,#9fb0c0); }
+        .w3::before { background:linear-gradient(180deg,#e6a978,#c77b48); }
+        .w1 { box-shadow: 0 30px 80px rgba(0,0,0,0.5), 0 0 50px rgba(255,210,74,0.14); border-color: rgba(255,210,74,0.4); }
+
+        .medal { width:88px; height:88px; border-radius:18px; display:grid; place-items:center; font-size:2.6rem;
+            background: rgba(255,255,255,0.04); border:1px solid var(--line2); position:relative; }
+        .w1 .medal { background: radial-gradient(circle at 40% 30%, rgba(255,210,74,0.28), rgba(255,210,74,0.05)); border-color: rgba(255,210,74,0.5); }
+        .w2 .medal { background: radial-gradient(circle at 40% 30%, rgba(223,231,238,0.22), rgba(223,231,238,0.04)); }
+        .w3 .medal { background: radial-gradient(circle at 40% 30%, rgba(230,169,120,0.22), rgba(230,169,120,0.04)); }
+        .rank-tag { display:block; text-align:center; font-family:var(--mono); font-size:0.6rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--faint); margin-top:0.5rem; }
+
+        .body h2 { font-family:var(--disp); font-weight:800; font-size:1.5rem; color:#fff; line-height:1.1; }
+        .body .winner-name { display:inline-block; font-family:var(--mono); font-size:0.74rem; letter-spacing:0.06em; color:var(--acid); margin-bottom:0.55rem; }
+        .body .tagline { color:var(--cyan-hi); font-weight:600; font-size:0.96rem; margin:0.35rem 0 0.6rem; }
+        .body .desc { color:var(--mut); font-size:0.95rem; line-height:1.62; }
+        .tags { display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:0.9rem; }
+        .tag { font-family:var(--mono); font-size:0.66rem; letter-spacing:0.05em; color:var(--mut); background:rgba(168,133,247,0.1); border:1px solid var(--line); border-radius:7px; padding:0.25rem 0.55rem; }
+
+        .prize { text-align:right; white-space:nowrap; }
+        .prize .amt { font-family:var(--disp); font-weight:800; font-size:1.7rem; color:var(--acid); line-height:1; }
+        .w1 .prize .amt { color:var(--gold); }
+        .prize .lab { display:block; font-family:var(--mono); font-size:0.6rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--faint); margin-top:0.4rem; }
+
+        .foot { text-align:center; margin-top:3rem; color:var(--faint); font-size:0.85rem; line-height:1.6; }
+        .foot a { color:var(--cyan-hi); text-decoration:none; }
+
+        @media (max-width: 680px) {
+            .winner { grid-template-columns: 60px 1fr; }
+            .medal { width:60px; height:60px; font-size:1.8rem; border-radius:14px; }
+            .prize { grid-column: 1 / -1; text-align:left; border-top:1px solid var(--line); padding-top:0.9rem; margin-top:0.2rem; }
+            .prize .lab { margin-top:0.15rem; }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="atmos"></div>
+    <main class="wrap">
+        <header class="top">
+            <div class="brand"><span class="logo">⚡</span><b>Modern Age Coders</b></div>
+            <div class="kicker">Hackathon 1.0 · Grand Finale</div>
+            <h1>The <span class="g">Champions</span></h1>
+            <p class="lede">From hundreds of builders, three rounds, and a live finale — these are the projects that solved a real problem and shipped something that genuinely works. Congratulations to our top 3 winners.</p>
+            <div class="meta-row">
+                <span class="chip">₹30,000 Prize Pool</span>
+                <span class="chip">12–13 June 2026</span>
+                <span class="chip">Live Demo Day</span>
+            </div>
+        </header>
+
+        <section class="winners">
+
+            <!-- WINNER 1 (placeholder) -->
+            <article class="winner w1" data-winner="1">
+                <div>
+                    <div class="medal">🥇</div>
+                    <span class="rank-tag">Champion</span>
+                </div>
+                <div class="body">
+                    <span class="winner-name">Ishaan Verma</span>
+                    <h2>SafeStep</h2>
+                    <p class="tagline">An AI walking companion that gives sight back to the visually impaired.</p>
+                    <p class="desc">SafeStep turns any ordinary smartphone into a pair of eyes. Worn facing forward, its camera reads the path ahead in real time and speaks calm, instant guidance — <em>“step down ahead,” “person approaching on your left,” “clear for ten steps.”</em> A double-tap fires an SOS that shares live location and a voice note with a chosen guardian. Best of all, it runs <strong>fully offline</strong> on low-cost Android phones — so independence never depends on the internet.</p>
+                    <div class="tags"><span class="tag">Computer Vision</span><span class="tag">Accessibility</span><span class="tag">Offline-first</span><span class="tag">Voice Guidance</span></div>
+                </div>
+                <div class="prize"><span class="amt">₹6,000</span><span class="lab">Rank 01 · Top Prize</span></div>
+            </article>
+
+            <!-- WINNER 2 (placeholder) -->
+            <article class="winner w2" data-winner="2">
+                <div>
+                    <div class="medal">🥈</div>
+                    <span class="rank-tag">1st Runner-up</span>
+                </div>
+                <div class="body">
+                    <span class="winner-name">Ananya Iyer</span>
+                    <h2>FarmSense</h2>
+                    <p class="tagline">A pocket crop doctor that stops disease before it spreads.</p>
+                    <p class="desc">FarmSense puts an agriculture expert in every farmer's pocket. Snap a photo of a sick leaf and, within seconds, it names the disease, explains it in the farmer's <strong>own language with a spoken message</strong>, and prescribes an exact, low-cost treatment using what's available locally. When several nearby farms report the same problem, FarmSense quietly warns the whole village of an outbreak — turning one farmer's photo into protection for an entire region.</p>
+                    <div class="tags"><span class="tag">AI Diagnosis</span><span class="tag">AgriTech</span><span class="tag">Regional Languages</span><span class="tag">Community Alerts</span></div>
+                </div>
+                <div class="prize"><span class="amt">₹5,000</span><span class="lab">Rank 02</span></div>
+            </article>
+
+            <!-- WINNER 3 (placeholder) -->
+            <article class="winner w3" data-winner="3">
+                <div>
+                    <div class="medal">🥉</div>
+                    <span class="rank-tag">2nd Runner-up</span>
+                </div>
+                <div class="body">
+                    <span class="winner-name">Kabir Rao</span>
+                    <h2>StudyLoop</h2>
+                    <p class="tagline">Turns any textbook page into a study plan that adapts to you.</p>
+                    <p class="desc">StudyLoop turns a single photo of a textbook page into a complete study kit — a smart quiz, flashcards, and a 7-day revision plan — in under a minute. As you answer, it learns exactly which ideas you keep getting wrong and <strong>rebuilds the next round to drill those weak spots</strong>, so every minute of studying goes where it actually matters. It's like having a patient tutor who only teaches what you haven't mastered yet.</p>
+                    <div class="tags"><span class="tag">EdTech</span><span class="tag">Adaptive Learning</span><span class="tag">OCR + AI</span><span class="tag">Personalised</span></div>
+                </div>
+                <div class="prize"><span class="amt">₹4,000</span><span class="lab">Rank 03</span></div>
+            </article>
+
+        </section>
+
+        <footer class="foot">
+            <p>Heartfelt congratulations to every builder who made it to the finale — and to everyone who dared to build something real.</p>
+            <p style="margin-top:0.6rem;">Hosted by <a href="/">Modern Age Coders</a> · India's online coding &amp; mathematics school.</p>
+        </footer>
+    </main>
+</body>
+
+</html>

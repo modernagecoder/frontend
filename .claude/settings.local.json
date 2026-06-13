@@ -250,7 +250,17 @@
       "Bash(node scripts/generate-courses.js)",
       "Bash(echo \"GEN_RC_$?\")",
       "Read(//tmp/**)",
-      "Bash(pkill -f dev-server.js)"
+      "Bash(pkill -f dev-server.js)",
+      "Skill(deep-research)",
+      "WebFetch(domain:alp.consulting)",
+      "WebFetch(domain:www.dqindia.com)",
+      "WebFetch(domain:analyticsindiamag.com)",
+      "WebFetch(domain:www.deccanchronicle.com)",
+      "WebFetch(domain:www.imarcgroup.com)",
+      "WebFetch(domain:www.orfonline.org)",
+      "WebFetch(domain:www.ibef.org)",
+      "WebFetch(domain:ukhrultimes.com)",
+      "WebFetch(domain:informatics.nic.in)"
     ]
   }
 }
