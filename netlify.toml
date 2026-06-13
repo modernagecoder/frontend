@@ -1571,6 +1571,11 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-kollam"
+  to = "/src/pages/best-coding-class-in-kollam.html"
+  status = 200
+
+[[redirects]]
   from = "/best-coding-class-in-nagpur"
   to = "/src/pages/best-coding-class-in-nagpur.html"
   status = 200
