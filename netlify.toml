@@ -1914,6 +1914,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-solapur"
+  to = "/src/pages/best-coding-class-in-solapur.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-solapur.html"
+  to = "/best-coding-class-in-solapur"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-hubli"
   to = "/src/pages/best-coding-class-in-hubli.html"
   status = 200
