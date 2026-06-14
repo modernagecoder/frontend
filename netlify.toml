@@ -1785,6 +1785,15 @@
   to = "/src/pages/best-coding-class-in-warangal.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-karimnagar"
+  to = "/src/pages/best-coding-class-in-karimnagar.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-karimnagar.html"
+  to = "/best-coding-class-in-karimnagar"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-muzaffarpur"
   to = "/src/pages/best-coding-class-in-muzaffarpur.html"
   status = 200
