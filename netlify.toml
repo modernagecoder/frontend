@@ -1727,6 +1727,10 @@
   to = "/src/pages/best-coding-class-in-madurai.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-tirunelveli"
+  to = "/src/pages/best-coding-class-in-tirunelveli.html"
+  status = 200
+[[redirects]]
   from = "/best-coding-class-in-trichy"
   to = "/src/pages/best-coding-class-in-trichy.html"
   status = 200
