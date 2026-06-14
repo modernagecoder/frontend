@@ -1609,6 +1609,11 @@
   to = "/src/pages/best-coding-class-in-salem.html"
   status = 200
 
+[[redirects]]
+  from = "/best-coding-class-in-erode"
+  to = "/src/pages/best-coding-class-in-erode.html"
+  status = 200
+
 # Tier 2 City Pages — April 2026
 [[redirects]]
   from = "/best-coding-class-in-vadodara"
