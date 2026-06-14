@@ -39,6 +39,8 @@
 /hackathon /src/pages/hackathon.html 200
 /hackathon-guide /src/pages/hackathon-guide.html 200
 /hackathon-login /src/pages/hackathon-login.html 200
+/hackathon-winners /src/pages/hackathon-winners.html 200
+/hackathon-winners.html /hackathon-winners 301!
 /how-hackathon-works /hackathon-guide 301!
 /hackathon-rules /hackathon-guide 301!
 /hackathon-2026 /hackathon 301!
