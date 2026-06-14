@@ -1905,6 +1905,15 @@
   to = "/src/pages/best-coding-class-in-aurangabad.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-kolhapur"
+  to = "/src/pages/best-coding-class-in-kolhapur.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-kolhapur.html"
+  to = "/best-coding-class-in-kolhapur"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-hubli"
   to = "/src/pages/best-coding-class-in-hubli.html"
   status = 200
