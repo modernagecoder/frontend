@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <!--
   ============================================================================
-  DRAFT WINNERS PAGE — PLACEHOLDER CONTENT.
-  The names and projects below are DUMMY placeholders. After the real Round 3
-  finale, replace the 3 winner cards (data-winner blocks) with the actual
-  winners' names + project details, then push to publish.
+  WINNERS PAGE — Modern Age Coders Hackathon 1.0 · Grand Finale.
+  The 3 winning PROJECTS below are real. The builder/team NAME line on each
+  card is a placeholder ( .winner-name ) — replace the three "— add winner /
+  team name —" strings with the actual team names, then flip the <meta robots>
+  tag to "index, follow" and publish.
   ============================================================================
 -->
 <html lang="en">
@@ -48,13 +49,12 @@
         .kicker { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.8rem; }
         h1 { font-family: var(--disp); font-weight: 800; font-size: clamp(2.6rem, 8vw, 4.6rem); line-height: 1.02; letter-spacing: -0.02em; }
         h1 .g { background: linear-gradient(102deg, var(--gold), var(--acid) 45%, var(--cyan-hi)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-        .lede { color: var(--mut); font-size: clamp(0.98rem,2.5vw,1.12rem); max-width: 620px; margin: 1.1rem auto 0; line-height: 1.6; }
+        .lede { color: var(--mut); font-size: clamp(0.98rem,2.5vw,1.12rem); max-width: 660px; margin: 1.1rem auto 0; line-height: 1.6; }
         .meta-row { display:flex; flex-wrap:wrap; gap:0.6rem; justify-content:center; margin-top:1.5rem; }
         .chip { font-family:var(--mono); font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--cyan-hi); background:rgba(45,212,191,0.08); border:1px solid rgba(45,212,191,0.28); border-radius:999px; padding:0.4rem 0.9rem; }
 
-        .winners { display:grid; gap:1.4rem; }
-        .winner { position:relative; display:grid; grid-template-columns: 88px 1fr auto; gap:1.4rem; align-items:start;
-            background: var(--glass); border:1px solid var(--line2); border-radius:22px; padding:1.6rem 1.7rem; backdrop-filter: blur(14px);
+        .winners { display:grid; gap:1.6rem; }
+        .winner { position:relative; background: var(--glass); border:1px solid var(--line2); border-radius:22px; padding:1.7rem 1.8rem; backdrop-filter: blur(14px);
             box-shadow: 0 30px 70px rgba(0,0,0,0.45); overflow:hidden; }
         .winner::before { content:""; position:absolute; left:0; top:0; bottom:0; width:5px; }
         .w1::before { background:linear-gradient(180deg,var(--gold),#ffae3a); }
@@ -62,33 +62,60 @@
         .w3::before { background:linear-gradient(180deg,#e6a978,#c77b48); }
         .w1 { box-shadow: 0 30px 80px rgba(0,0,0,0.5), 0 0 50px rgba(255,210,74,0.14); border-color: rgba(255,210,74,0.4); }
 
+        /* card header: medal | title | prize */
+        .w-head { display:grid; grid-template-columns: 88px 1fr auto; gap:1.4rem; align-items:start; }
+        .w-medal { text-align:center; }
         .medal { width:88px; height:88px; border-radius:18px; display:grid; place-items:center; font-size:2.6rem;
-            background: rgba(255,255,255,0.04); border:1px solid var(--line2); position:relative; }
+            background: rgba(255,255,255,0.04); border:1px solid var(--line2); }
         .w1 .medal { background: radial-gradient(circle at 40% 30%, rgba(255,210,74,0.28), rgba(255,210,74,0.05)); border-color: rgba(255,210,74,0.5); }
         .w2 .medal { background: radial-gradient(circle at 40% 30%, rgba(223,231,238,0.22), rgba(223,231,238,0.04)); }
         .w3 .medal { background: radial-gradient(circle at 40% 30%, rgba(230,169,120,0.22), rgba(230,169,120,0.04)); }
         .rank-tag { display:block; text-align:center; font-family:var(--mono); font-size:0.6rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--faint); margin-top:0.5rem; }
 
-        .body h2 { font-family:var(--disp); font-weight:800; font-size:1.5rem; color:#fff; line-height:1.1; }
-        .body .winner-name { display:inline-block; font-family:var(--mono); font-size:0.74rem; letter-spacing:0.06em; color:var(--acid); margin-bottom:0.55rem; }
-        .body .tagline { color:var(--cyan-hi); font-weight:600; font-size:0.96rem; margin:0.35rem 0 0.6rem; }
-        .body .desc { color:var(--mut); font-size:0.95rem; line-height:1.62; }
-        .tags { display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:0.9rem; }
-        .tag { font-family:var(--mono); font-size:0.66rem; letter-spacing:0.05em; color:var(--mut); background:rgba(168,133,247,0.1); border:1px solid var(--line); border-radius:7px; padding:0.25rem 0.55rem; }
+        .w-title { min-width:0; }
+        .winner-name { display:inline-block; font-family:var(--mono); font-size:0.74rem; letter-spacing:0.06em; color:var(--acid); margin-bottom:0.5rem; }
+        .winner-name.todo { color:var(--faint); font-style:italic; }
+        .w-title h2 { font-family:var(--disp); font-weight:800; font-size:1.6rem; color:#fff; line-height:1.08; }
+        .tagline { color:var(--cyan-hi); font-weight:600; font-size:0.98rem; margin:0.4rem 0 0; }
 
         .prize { text-align:right; white-space:nowrap; }
         .prize .amt { font-family:var(--disp); font-weight:800; font-size:1.7rem; color:var(--acid); line-height:1; }
         .w1 .prize .amt { color:var(--gold); }
         .prize .lab { display:block; font-family:var(--mono); font-size:0.6rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--faint); margin-top:0.4rem; }
 
+        /* card body */
+        .w-body { margin-top:1.3rem; padding-top:1.3rem; border-top:1px solid var(--line); }
+        .desc { color:var(--mut); font-size:0.95rem; line-height:1.64; }
+        .desc strong { color:var(--ink); font-weight:600; }
+
+        .stat-row { display:flex; flex-wrap:wrap; gap:0.7rem; margin:1.15rem 0 0.2rem; }
+        .stat { background:rgba(168,133,247,0.08); border:1px solid var(--line); border-radius:12px; padding:0.6rem 0.85rem; }
+        .stat b { display:block; font-family:var(--disp); font-weight:800; font-size:1.15rem; color:var(--cyan-hi); line-height:1; }
+        .w1 .stat b { color:var(--gold); }
+        .stat span { display:block; font-family:var(--mono); font-size:0.6rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--faint); margin-top:0.35rem; }
+
+        .cols { display:grid; grid-template-columns:1.05fr 0.95fr; gap:1.7rem; margin-top:1.3rem; }
+        .sub { font-family:var(--mono); font-size:0.68rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); margin-bottom:0.65rem; }
+        ul.feat { list-style:none; display:grid; gap:0.5rem; }
+        ul.feat li { position:relative; padding-left:1.25rem; color:var(--mut); font-size:0.9rem; line-height:1.5; }
+        ul.feat li::before { content:"▹"; position:absolute; left:0; top:0; color:var(--cyan); }
+        .flow { color:var(--mut); font-size:0.9rem; line-height:1.6; }
+        .flow .step { color:var(--cyan-hi); font-family:var(--mono); font-size:0.84rem; }
+
+        .tags { display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:1.3rem; }
+        .tag { font-family:var(--mono); font-size:0.66rem; letter-spacing:0.05em; color:var(--mut); background:rgba(168,133,247,0.1); border:1px solid var(--line); border-radius:7px; padding:0.25rem 0.55rem; }
+
         .foot { text-align:center; margin-top:3rem; color:var(--faint); font-size:0.85rem; line-height:1.6; }
         .foot a { color:var(--cyan-hi); text-decoration:none; }
 
-        @media (max-width: 680px) {
-            .winner { grid-template-columns: 60px 1fr; }
-            .medal { width:60px; height:60px; font-size:1.8rem; border-radius:14px; }
+        @media (max-width: 760px) {
+            .winner { padding:1.4rem 1.3rem; }
+            .w-head { grid-template-columns: 58px 1fr; gap:1rem; }
+            .medal { width:58px; height:58px; font-size:1.7rem; border-radius:14px; }
+            .w-title h2 { font-size:1.35rem; }
             .prize { grid-column: 1 / -1; text-align:left; border-top:1px solid var(--line); padding-top:0.9rem; margin-top:0.2rem; }
             .prize .lab { margin-top:0.15rem; }
+            .cols { grid-template-columns:1fr; gap:1.2rem; }
         }
     </style>
 </head>
@@ -100,7 +127,7 @@
             <div class="brand"><span class="logo">⚡</span><b>Modern Age Coders</b></div>
             <div class="kicker">Hackathon 1.0 · Grand Finale</div>
             <h1>The <span class="g">Champions</span></h1>
-            <p class="lede">From hundreds of builders, three rounds, and a live finale — these are the projects that solved a real problem and shipped something that genuinely works. Congratulations to our top 3 winners.</p>
+            <p class="lede">From hundreds of builders, three rounds, and a live finale — three teams shipped something that genuinely works. From spotting AI-generated deepfakes, to running an entire agency on plain English, to turning mangrove restoration into verified carbon credits. Meet our top 3 winning projects.</p>
             <div class="meta-row">
                 <span class="chip">₹30,000 Prize Pool</span>
                 <span class="chip">12–13 June 2026</span>
@@ -110,52 +137,135 @@
 
         <section class="winners">
 
-            <!-- WINNER 1 (placeholder) -->
+            <!-- ================= WINNER 1 — Deepfake Detection ================= -->
             <article class="winner w1" data-winner="1">
-                <div>
-                    <div class="medal">🥇</div>
-                    <span class="rank-tag">Champion</span>
+                <div class="w-head">
+                    <div class="w-medal">
+                        <div class="medal">🥇</div>
+                        <span class="rank-tag">Champion</span>
+                    </div>
+                    <div class="w-title">
+                        <span class="winner-name">Ishan Verma</span>
+                        <h2>Deepfake Detection</h2>
+                        <p class="tagline">Catching AI-generated fake videos with 93.59% accuracy — frame by frame.</p>
+                    </div>
+                    <div class="prize"><span class="amt">₹6,000</span><span class="lab">Rank 01 · Top Prize</span></div>
                 </div>
-                <div class="body">
-                    <span class="winner-name">Ishaan Verma</span>
-                    <h2>SafeStep</h2>
-                    <p class="tagline">An AI walking companion that gives sight back to the visually impaired.</p>
-                    <p class="desc">SafeStep turns any ordinary smartphone into a pair of eyes. Worn facing forward, its camera reads the path ahead in real time and speaks calm, instant guidance — <em>“step down ahead,” “person approaching on your left,” “clear for ten steps.”</em> A double-tap fires an SOS that shares live location and a voice note with a chosen guardian. Best of all, it runs <strong>fully offline</strong> on low-cost Android phones — so independence never depends on the internet.</p>
-                    <div class="tags"><span class="tag">Computer Vision</span><span class="tag">Accessibility</span><span class="tag">Offline-first</span><span class="tag">Voice Guidance</span></div>
+                <div class="w-body">
+                    <p class="desc">As AI-generated video gets harder to spot, this project fights back with deep learning. It pairs a <strong>ResNext50 CNN</strong> — which reads the fine facial and skin artefacts inside each frame — with an <strong>LSTM</strong> that learns the unnatural patterns deepfakes leave <em>across</em> frames over time. Trained on 6,000 videos from FaceForensics++, Celeb-DF and the Deepfake Detection Challenge, it's wrapped in a clean <strong>Django web app</strong>: upload a clip and get a real-or-fake verdict with a confidence score. The whole thing is Dockerised to run on either GPU or CPU.</p>
+                    <div class="stat-row">
+                        <div class="stat"><b>93.59%</b><span>Accuracy</span></div>
+                        <div class="stat"><b>6,000</b><span>Videos Trained</span></div>
+                        <div class="stat"><b>CNN + LSTM</b><span>Hybrid Model</span></div>
+                    </div>
+                    <div class="cols">
+                        <div class="col">
+                            <h3 class="sub">Key Features</h3>
+                            <ul class="feat">
+                                <li>Hybrid ResNext50 + LSTM architecture using transfer learning</li>
+                                <li>Accuracy scales from 84% (10 frames) to 93.59% (100 frames)</li>
+                                <li>Upload-and-detect Django app with live confidence score</li>
+                                <li>Automatic face detection &amp; cropping (face_recognition / dlib)</li>
+                                <li>Docker + NGINX deployment, GPU and CPU support</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3 class="sub">How It Works</h3>
+                            <p class="flow"><span class="step">Video → frames → face crop</span> feed each face into ResNext50 to extract spatial features, pass the sequence through the LSTM to model time-based patterns, then output <span class="step">Real / Fake + confidence %</span>.</p>
+                        </div>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">PyTorch</span><span class="tag">ResNext50</span><span class="tag">LSTM</span><span class="tag">Django</span><span class="tag">OpenCV</span><span class="tag">face_recognition</span><span class="tag">Docker</span><span class="tag">Deep Learning</span>
+                    </div>
                 </div>
-                <div class="prize"><span class="amt">₹6,000</span><span class="lab">Rank 01 · Top Prize</span></div>
             </article>
 
-            <!-- WINNER 2 (placeholder) -->
+            <!-- ================= WINNER 2 — AgencyOS ================= -->
             <article class="winner w2" data-winner="2">
-                <div>
-                    <div class="medal">🥈</div>
-                    <span class="rank-tag">1st Runner-up</span>
+                <div class="w-head">
+                    <div class="w-medal">
+                        <div class="medal">🥈</div>
+                        <span class="rank-tag">1st Runner-up</span>
+                    </div>
+                    <div class="w-title">
+                        <span class="winner-name">Neev Agarwal</span>
+                        <h2>AgencyOS</h2>
+                        <p class="tagline">An AI operating system that runs an entire agency from plain-English commands.</p>
+                    </div>
+                    <div class="prize"><span class="amt">₹5,000</span><span class="lab">Rank 02</span></div>
                 </div>
-                <div class="body">
-                    <span class="winner-name">Ananya Iyer</span>
-                    <h2>FarmSense</h2>
-                    <p class="tagline">A pocket crop doctor that stops disease before it spreads.</p>
-                    <p class="desc">FarmSense puts an agriculture expert in every farmer's pocket. Snap a photo of a sick leaf and, within seconds, it names the disease, explains it in the farmer's <strong>own language with a spoken message</strong>, and prescribes an exact, low-cost treatment using what's available locally. When several nearby farms report the same problem, FarmSense quietly warns the whole village of an outbreak — turning one farmer's photo into protection for an entire region.</p>
-                    <div class="tags"><span class="tag">AI Diagnosis</span><span class="tag">AgriTech</span><span class="tag">Regional Languages</span><span class="tag">Community Alerts</span></div>
+                <div class="w-body">
+                    <p class="desc">AgencyOS is a full-stack SaaS platform that systematises the eight core layers of running an agency — <strong>Strategy, People, Sales, Delivery, Finance, Knowledge, Client Success and Reporting</strong> — into one control plane. Instead of clicking through forms, you type what you want in plain English. A lightweight TypeScript ReAct orchestrator called <strong>Hermes</strong> reasons over an MCP toolset and 12+ integrations to actually get it done. It's built privacy-first: bring your own AI key, every action is audit-logged, and the whole stack can be self-hosted into your own cloud with a single command.</p>
+                    <div class="stat-row">
+                        <div class="stat"><b>8 Layers</b><span>Agency Ops</span></div>
+                        <div class="stat"><b>12+</b><span>Integrations</span></div>
+                        <div class="stat"><b>BYOK</b><span>Privacy-First</span></div>
+                    </div>
+                    <div class="cols">
+                        <div class="col">
+                            <h3 class="sub">Key Features</h3>
+                            <ul class="feat">
+                                <li>Natural-language input for every workflow — invoices, projects, SOPs, proposals</li>
+                                <li>"Hermes" native ReAct orchestrator running over MCP tools</li>
+                                <li>Integrations: Slack, Notion, Google Drive, Linear, Gmail, Stripe, QuickBooks</li>
+                                <li>Bring-Your-Own-Key + full, exportable audit log</li>
+                                <li>pgvector knowledge base, ⌘K command palette, light/dark themes</li>
+                                <li>One-command self-host into your own AWS / GCP / Azure</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3 class="sub">How It Works</h3>
+                            <p class="flow"><span class="step">Plain-English command → MCP Gateway → Hermes ReAct loop</span> calls the right tools across connectors, knowledge and meetings, then returns the result <span class="step">+ a full audit trail</span> of every step.</p>
+                        </div>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Next.js 15</span><span class="tag">React 19</span><span class="tag">TypeScript</span><span class="tag">Prisma</span><span class="tag">PostgreSQL / pgvector</span><span class="tag">MCP</span><span class="tag">DeepSeek</span><span class="tag">Tailwind</span><span class="tag">shadcn/ui</span>
+                    </div>
                 </div>
-                <div class="prize"><span class="amt">₹5,000</span><span class="lab">Rank 02</span></div>
             </article>
 
-            <!-- WINNER 3 (placeholder) -->
+            <!-- ================= WINNER 3 — Blue Carbon Credit Registry ================= -->
             <article class="winner w3" data-winner="3">
-                <div>
-                    <div class="medal">🥉</div>
-                    <span class="rank-tag">2nd Runner-up</span>
+                <div class="w-head">
+                    <div class="w-medal">
+                        <div class="medal">🥉</div>
+                        <span class="rank-tag">2nd Runner-up</span>
+                    </div>
+                    <div class="w-title">
+                        <span class="winner-name">Vedant Mohta</span>
+                        <h2>Blue Carbon Credit Registry</h2>
+                        <p class="tagline">A blockchain registry that turns mangrove restoration into verified, tradable carbon credits.</p>
+                    </div>
+                    <div class="prize"><span class="amt">₹4,000</span><span class="lab">Rank 03</span></div>
                 </div>
-                <div class="body">
-                    <span class="winner-name">Kabir Rao</span>
-                    <h2>StudyLoop</h2>
-                    <p class="tagline">Turns any textbook page into a study plan that adapts to you.</p>
-                    <p class="desc">StudyLoop turns a single photo of a textbook page into a complete study kit — a smart quiz, flashcards, and a 7-day revision plan — in under a minute. As you answer, it learns exactly which ideas you keep getting wrong and <strong>rebuilds the next round to drill those weak spots</strong>, so every minute of studying goes where it actually matters. It's like having a patient tutor who only teaches what you haven't mastered yet.</p>
-                    <div class="tags"><span class="tag">EdTech</span><span class="tag">Adaptive Learning</span><span class="tag">OCR + AI</span><span class="tag">Personalised</span></div>
+                <div class="w-body">
+                    <p class="desc">This platform builds a transparent marketplace for <strong>blue carbon credits</strong> — credits earned by restoring coastal and ocean ecosystems like mangroves. It connects three roles end to end: <strong>NGOs</strong> submit restoration projects with tree counts, GPS coordinates and photos; <strong>auditors</strong> verify them through a rigorous 10-stage workflow; and <strong>buyers</strong> purchase the resulting credits. Every verified project is written to a blockchain ledger as an immutable, SHA-256 hash-linked block, and tokens are minted to the NGO — so buyers can see exactly which auditor approved a project and how trustworthy that auditor's track record is.</p>
+                    <div class="stat-row">
+                        <div class="stat"><b>3 Portals</b><span>NGO · Auditor · Buyer</span></div>
+                        <div class="stat"><b>10-Stage</b><span>Verification</span></div>
+                        <div class="stat"><b>SHA-256</b><span>Hash-Chain Ledger</span></div>
+                    </div>
+                    <div class="cols">
+                        <div class="col">
+                            <h3 class="sub">Key Features</h3>
+                            <ul class="feat">
+                                <li>Role-based portals for NGOs, auditors and customers</li>
+                                <li>10-stage verification pipeline with per-auditor trust scores</li>
+                                <li>Blockchain ledger: genesis block + SHA-256 hash chain</li>
+                                <li>Token minting (1 token per tree) with a full transfer ledger</li>
+                                <li>Transparent buyer view of verified projects + auditor accuracy</li>
+                                <li>Real-time updates, notifications, accessible &amp; fully responsive</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3 class="sub">How It Works</h3>
+                            <p class="flow"><span class="step">NGO submits project → auditor approves 10 stages</span> a new block is added to the chain and tokens are minted to the NGO, then <span class="step">buyers browse the verified chain and purchase credits</span>.</p>
+                        </div>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">React 18</span><span class="tag">Vite</span><span class="tag">TypeScript</span><span class="tag">Tailwind</span><span class="tag">shadcn / Radix UI</span><span class="tag">React Query</span><span class="tag">Recharts</span><span class="tag">Blockchain</span>
+                    </div>
                 </div>
-                <div class="prize"><span class="amt">₹4,000</span><span class="lab">Rank 03</span></div>
             </article>
 
         </section>
