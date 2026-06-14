@@ -138,6 +138,18 @@
   to = "/src/pages/hackathon-login.html"
   status = 200
 
+# Hackathon 1.0 winners page (clean URL → source file)
+[[redirects]]
+  from = "/hackathon-winners"
+  to = "/src/pages/hackathon-winners.html"
+  status = 200
+
+[[redirects]]
+  from = "/hackathon-winners.html"
+  to = "/hackathon-winners"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/hackathon-guide.html"
   to = "/hackathon-guide"
@@ -1648,6 +1660,11 @@
 [[redirects]]
   from = "/best-coding-class-in-kakinada"
   to = "/src/pages/best-coding-class-in-kakinada.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-rajahmundry"
+  to = "/src/pages/best-coding-class-in-rajahmundry.html"
   status = 200
 
 [[redirects]]
