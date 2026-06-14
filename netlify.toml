@@ -1626,6 +1626,11 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-tirupati"
+  to = "/src/pages/best-coding-class-in-tirupati.html"
+  status = 200
+
+[[redirects]]
   from = "/best-coding-class-in-patna"
   to = "/src/pages/best-coding-class-in-patna.html"
   status = 200
