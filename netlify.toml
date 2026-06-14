@@ -1855,6 +1855,15 @@
   to = "/src/pages/best-coding-class-in-ludhiana.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-jalandhar"
+  to = "/src/pages/best-coding-class-in-jalandhar.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-jalandhar.html"
+  to = "/best-coding-class-in-jalandhar"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-pimpri-chinchwad"
   to = "/src/pages/best-coding-class-in-pimpri-chinchwad.html"
   status = 200
