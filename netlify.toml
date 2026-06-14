@@ -1604,6 +1604,11 @@
   to = "/src/pages/best-coding-class-in-coimbatore.html"
   status = 200
 
+[[redirects]]
+  from = "/best-coding-class-in-salem"
+  to = "/src/pages/best-coding-class-in-salem.html"
+  status = 200
+
 # Tier 2 City Pages — April 2026
 [[redirects]]
   from = "/best-coding-class-in-vadodara"
