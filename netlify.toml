@@ -1932,6 +1932,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-akola"
+  to = "/src/pages/best-coding-class-in-akola.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-akola.html"
+  to = "/best-coding-class-in-akola"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-hubli"
   to = "/src/pages/best-coding-class-in-hubli.html"
   status = 200
