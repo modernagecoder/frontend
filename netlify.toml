@@ -1941,6 +1941,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-latur"
+  to = "/src/pages/best-coding-class-in-latur.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-latur.html"
+  to = "/best-coding-class-in-latur"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-hubli"
   to = "/src/pages/best-coding-class-in-hubli.html"
   status = 200
