@@ -2016,6 +2016,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-davanagere"
+  to = "/src/pages/best-coding-class-in-davanagere.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-davanagere.html"
+  to = "/best-coding-class-in-davanagere"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-jabalpur"
   to = "/src/pages/best-coding-class-in-jabalpur.html"
   status = 200
