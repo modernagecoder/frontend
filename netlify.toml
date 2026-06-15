@@ -1694,6 +1694,17 @@
   force = true
 
 [[redirects]]
+  from = "/best-coding-class-in-bokaro"
+  to = "/src/pages/best-coding-class-in-bokaro.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-bokaro.html"
+  to = "/best-coding-class-in-bokaro"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-bhubaneswar"
   to = "/src/pages/best-coding-class-in-bhubaneswar.html"
   status = 200
