@@ -2025,6 +2025,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-udupi"
+  to = "/src/pages/best-coding-class-in-udupi.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-udupi.html"
+  to = "/best-coding-class-in-udupi"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-jabalpur"
   to = "/src/pages/best-coding-class-in-jabalpur.html"
   status = 200
