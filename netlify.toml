@@ -1683,6 +1683,17 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-dhanbad"
+  to = "/src/pages/best-coding-class-in-dhanbad.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-dhanbad.html"
+  to = "/best-coding-class-in-dhanbad"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-bhubaneswar"
   to = "/src/pages/best-coding-class-in-bhubaneswar.html"
   status = 200
