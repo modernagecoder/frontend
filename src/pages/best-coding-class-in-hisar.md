@@ -166,7 +166,7 @@ International & NRI students: Group $40/month, Personal 1-on-1 $100/month (bille
 
 ## Book Your Free Demo Class in Hisar
 
-Try the teaching for yourself, free of cost. Give us a few details and our team will fix a slot and pair your child with the right teacher and track. No commitment until you're convinced.
+Try the teaching for yourself, free of cost. Tell us a little about your child and we'll set up a slot and match them with the right teacher and learning track. No commitment until you're convinced.
 [Call: 9123366161](tel:+919123366161) · [WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Hisar.) · [Email](mailto:contact@modernagecoders.com?subject=Inquiry about Coding Classes in Hisar)
 
 ## Coding That Fits Every Hisar Classroom
@@ -209,7 +209,7 @@ A laptop or desktop and a reasonably stable internet connection. A computer (not
 Weekday batches 4 PM–8 PM (after school) and weekend batches 9 AM–6 PM (Sat & Sun). About an hour, twice a week — built around school, coaching and activities, with timezone-friendly slots for families settled outside India.
 
 ### What if my child doesn't enjoy it — is there a refund?
-Start with the free demo, then watch the first paid week before you decide. If it isn't the right fit in that week, just tell us and we return the fee in full — no forms, no chasing calls. We'd rather keep a family that genuinely wants to stay than hold one that doesn't.
+Start with the free demo, then watch the first paid week before you decide. If that first paid week doesn't click for your child, just say so and the fee comes straight back — no paperwork, no follow-up calls. We'd rather keep a family that genuinely wants to stay than hold one that doesn't.
 
 ### Do you run summer & winter coding camps for Hisar students?
 Yes — intensive camps in the summer break (May–June) and the winter holidays (Dec–Jan), finishing a full course in 4–6 weeks. A productive, screen-positive use of a long holiday. Ask for dates and early-bird offers.
