@@ -2034,6 +2034,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-shimoga"
+  to = "/src/pages/best-coding-class-in-shimoga.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-shimoga.html"
+  to = "/best-coding-class-in-shimoga"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-jabalpur"
   to = "/src/pages/best-coding-class-in-jabalpur.html"
   status = 200
