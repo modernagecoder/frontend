@@ -1559,6 +1559,17 @@
   force = true
 
 [[redirects]]
+  from = "/best-coding-class-in-bikaner"
+  to = "/src/pages/best-coding-class-in-bikaner.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-bikaner.html"
+  to = "/best-coding-class-in-bikaner"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-sikar"
   to = "/src/pages/best-coding-class-in-sikar.html"
   status = 200
