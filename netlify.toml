@@ -1923,6 +1923,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-amravati"
+  to = "/src/pages/best-coding-class-in-amravati.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-amravati.html"
+  to = "/best-coding-class-in-amravati"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-hubli"
   to = "/src/pages/best-coding-class-in-hubli.html"
   status = 200
