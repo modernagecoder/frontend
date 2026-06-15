@@ -1950,6 +1950,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-bhilai"
+  to = "/src/pages/best-coding-class-in-bhilai.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-bhilai.html"
+  to = "/best-coding-class-in-bhilai"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-hubli"
   to = "/src/pages/best-coding-class-in-hubli.html"
   status = 200
