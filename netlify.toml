@@ -1835,6 +1835,15 @@
   to = "/src/pages/best-coding-class-in-faridabad.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-panipat"
+  to = "/src/pages/best-coding-class-in-panipat.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-panipat.html"
+  to = "/best-coding-class-in-panipat"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-meerut"
   to = "/src/pages/best-coding-class-in-meerut.html"
   status = 200
