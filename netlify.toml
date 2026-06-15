@@ -1844,6 +1844,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-karnal"
+  to = "/src/pages/best-coding-class-in-karnal.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-karnal.html"
+  to = "/best-coding-class-in-karnal"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-meerut"
   to = "/src/pages/best-coding-class-in-meerut.html"
   status = 200
