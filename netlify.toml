@@ -1548,6 +1548,17 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-ajmer"
+  to = "/src/pages/best-coding-class-in-ajmer.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-ajmer.html"
+  to = "/best-coding-class-in-ajmer"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-sikar"
   to = "/src/pages/best-coding-class-in-sikar.html"
   status = 200
