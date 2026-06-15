@@ -1862,6 +1862,15 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/best-coding-class-in-hisar"
+  to = "/src/pages/best-coding-class-in-hisar.html"
+  status = 200
+[[redirects]]
+  from = "/best-coding-class-in-hisar.html"
+  to = "/best-coding-class-in-hisar"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-meerut"
   to = "/src/pages/best-coding-class-in-meerut.html"
   status = 200
