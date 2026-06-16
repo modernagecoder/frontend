@@ -1743,6 +1743,17 @@
   force = true
 
 [[redirects]]
+  from = "/best-coding-class-in-cuttack"
+  to = "/src/pages/best-coding-class-in-cuttack.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-cuttack.html"
+  to = "/best-coding-class-in-cuttack"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-dehradun"
   to = "/src/pages/best-coding-class-in-dehradun.html"
   status = 200
