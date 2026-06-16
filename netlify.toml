@@ -1776,6 +1776,17 @@
   force = true
 
 [[redirects]]
+  from = "/best-coding-class-in-balasore"
+  to = "/src/pages/best-coding-class-in-balasore.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-balasore.html"
+  to = "/best-coding-class-in-balasore"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-dehradun"
   to = "/src/pages/best-coding-class-in-dehradun.html"
   status = 200
