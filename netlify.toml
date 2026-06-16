@@ -1765,6 +1765,17 @@
   force = true
 
 [[redirects]]
+  from = "/best-coding-class-in-sambalpur"
+  to = "/src/pages/best-coding-class-in-sambalpur.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-sambalpur.html"
+  to = "/best-coding-class-in-sambalpur"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-dehradun"
   to = "/src/pages/best-coding-class-in-dehradun.html"
   status = 200
