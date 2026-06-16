@@ -1781,6 +1781,17 @@
   force = true
 
 [[redirects]]
+  from = "/best-coding-class-in-rishikesh"
+  to = "/src/pages/best-coding-class-in-rishikesh.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-rishikesh.html"
+  to = "/best-coding-class-in-rishikesh"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-guwahati"
   to = "/src/pages/best-coding-class-in-guwahati.html"
   status = 200
