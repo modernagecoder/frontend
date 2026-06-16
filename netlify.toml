@@ -1528,6 +1528,17 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-ujjain"
+  to = "/src/pages/best-coding-class-in-ujjain.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-ujjain.html"
+  to = "/best-coding-class-in-ujjain"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-jaipur"
   to = "/src/pages/best-coding-class-in-jaipur.html"
   status = 200
