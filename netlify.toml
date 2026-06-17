@@ -1906,6 +1906,17 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-anand"
+  to = "/src/pages/best-coding-class-in-anand.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-anand.html"
+  to = "/best-coding-class-in-anand"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-kanpur"
   to = "/src/pages/best-coding-class-in-kanpur.html"
   status = 200
