@@ -1534,6 +1534,17 @@
   force = true
 
 [[redirects]]
+  from = "/best-coding-class-in-jamnagar"
+  to = "/src/pages/best-coding-class-in-jamnagar.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-jamnagar.html"
+  to = "/best-coding-class-in-jamnagar"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-indore"
   to = "/src/pages/best-coding-class-in-indore.html"
   status = 200
