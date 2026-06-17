@@ -1523,6 +1523,17 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-bhavnagar"
+  to = "/src/pages/best-coding-class-in-bhavnagar.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-bhavnagar.html"
+  to = "/best-coding-class-in-bhavnagar"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/best-coding-class-in-indore"
   to = "/src/pages/best-coding-class-in-indore.html"
   status = 200
