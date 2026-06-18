@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N8BM164YJP');
+  gtag('config', 'AW-16910316353');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NumPy, Pandas &amp; Matplotlib Masterclass — Python Data Analysis in Depth | Modern Age Coders</title>
+<meta name="description" content="Master data analysis in Python the deep way: NumPy, Pandas and Matplotlib taught with the maths underneath and how each library is built, not just the API. 24 live, project-based classes for teens, college and professionals. Stage 2 of a 3-stage Python-to-AI path. Free demo.">
+<meta name="keywords" content="numpy pandas matplotlib course, python data analysis in depth, learn numpy pandas matplotlib, data analysis with python, pandas masterclass, numpy masterclass, matplotlib course, python for data analysis, maths behind pandas and numpy, data analysis course online, learn data analysis 2026, why learn data analysis when AI exists, seaborn course, learn seaborn, statistical data visualization with python, seaborn tutorial, scipy course">
+<meta name="author" content="Modern Age Coders">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass">
+<link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass">
+<link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass">
+<link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+<meta name="theme-color" content="#FBFCFE">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass">
+<meta property="og:title" content="NumPy, Pandas &amp; Matplotlib Masterclass — Python Data Analysis in Depth">
+<meta property="og:description" content="Master data analysis in Python the deep way: NumPy, Pandas and Matplotlib taught with the maths underneath and how each library is built. 24 live classes. Stage 2 of a 3-stage Python-to-AI path.">
+<meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+<meta property="og:site_name" content="Modern Age Coders">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NumPy, Pandas &amp; Matplotlib Masterclass — Python Data Analysis in Depth">
+<meta name="twitter:description" content="Data analysis in Python the deep way: the API plus the maths underneath plus how each library is built. 24 live classes. Stage 2 of 3.">
+<meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter+Tight:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "NumPy, Pandas & Matplotlib Masterclass — Python Data Analysis in Depth",
+  "url": "https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass",
+  "description": "Stage 2 of a 3-stage Python-to-AI path. Twenty-four live, project-based classes that teach data analysis in real depth: NumPy, Pandas and Matplotlib taught with the maths underneath and how each library is built.",
+  "inLanguage": "en",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com/",
+    "logo": "https://learn.modernagecoders.com/images/logo.svg"
+  },
+  "about": ["NumPy", "Pandas", "Matplotlib", "Python data analysis"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What will I be able to do after Stage 2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will be able to take a real, messy dataset and carry it all the way to a defensible conclusion. That means loading data with Pandas, cleaning missing and inconsistent values, reshaping and grouping it, computing aggregates correctly, running fast vectorised maths on it with NumPy, and producing honest, well-labelled charts with Matplotlib. More importantly, you will understand what each step actually computes, so you can explain and defend your numbers rather than just trusting an output."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need Stage 1 first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need solid Python before this course: functions, loops, lists and dictionaries, reading files, and comfort with errors. Stage 1, Python From the Ground Up, builds exactly that. If you already write Python confidently you can start at Stage 2 directly. If you are unsure, book a free demo and we will place you honestly rather than sell you a class you are not ready for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need maths?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need school-level arithmetic, averages, percentages and a willingness to think clearly. We teach the rest as we go. The linear algebra behind NumPy, the statistics behind aggregation, and the geometry behind a plot are introduced exactly when you need them and tied to running code, so the maths makes the library make sense instead of being abstract theory."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is this for and what ages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This stage is for teens who have finished Stage 1, for college students, and for working professionals who want real data skills. Modern Age Coders teaches ages 6 to 65 across the full path, but Stage 2 assumes the maturity to work with real datasets, so it suits motivated teenagers and adults rather than young beginners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are classes live?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every class is live and instructor-led in a small batch, not a recorded video. You write code while the mentor watches, you analyse real datasets in the session, and you get your reasoning reviewed in real time. Classes run online so you can join from anywhere; we teach students in over fifteen countries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why learn NumPy and Pandas deeply when AI tools can analyse data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because AI can produce an analysis that looks right and is subtly wrong. It can silently drop rows, join two tables on the wrong key, average a ratio incorrectly, or plot a chart that misleads. If you understand the libraries and the maths underneath, you can read the code it generates, verify the result, debug it when it breaks, and decide whether to trust it. That same understanding is the foundation for building machine learning models by hand in Stage 3."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://learn.modernagecoders.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "NumPy, Pandas & Matplotlib Masterclass",
+      "item": "https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass"
+    }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#FBFCFE;
+  --ink:#14181F;
+  --grid:#D7E0EC;
+  --indigo:#4C6EF5;
+  --teal:#12B5A5;
+  --coral:#FF6B6B;
+  --amber:#F4A52E;
+  --violet:#845EF7;
+  --ink-soft:#4A535F;
+  --panel:#FFFFFF;
+  --maxw:1140px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background-color:var(--bg);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size:28px 28px;
+  background-position:-1px -1px;
+  color:var(--ink);
+  font-family:"Inter Tight",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  font-size:18px;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:600;line-height:1.1;letter-spacing:-0.01em;color:var(--ink);margin:0 0 .5em}
+h1{font-size:clamp(2.1rem,6vw,4rem)}
+h2{font-size:clamp(1.6rem,4vw,2.6rem);margin-top:0}
+h3{font-size:clamp(1.15rem,2.4vw,1.45rem)}
+p{margin:0 0 1.1em;color:var(--ink-soft)}
+a{color:var(--indigo);text-decoration:none}
+a:hover{text-decoration:underline}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+.kicker{font-family:"IBM Plex Mono",monospace;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--indigo);margin:0 0 1rem}
+img{max-width:100%;display:block}
+:focus-visible{outline:3px solid var(--indigo);outline-offset:3px;border-radius:4px}
+
+/* Buttons */
+.btn{
+  display:inline-block;font-family:"Inter Tight",sans-serif;font-weight:600;font-size:1rem;
+  padding:.85rem 1.5rem;border-radius:8px;border:2px solid var(--ink);
+  background:var(--ink);color:var(--bg);cursor:pointer;transition:transform .15s ease,box-shadow .15s ease;
+}
+.btn:hover{text-decoration:none;transform:translateY(-2px);box-shadow:5px 5px 0 var(--indigo)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{box-shadow:5px 5px 0 var(--teal)}
+
+/* Nav */
+header.site{position:sticky;top:0;z-index:50;background:rgba(251,252,254,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--grid)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:.7rem 24px;max-width:var(--maxw);margin:0 auto}
+.brand{display:flex;align-items:center;gap:.6rem;font-family:"Fraunces",serif;font-weight:600;font-size:1.2rem;color:var(--ink)}
+.brand:hover{text-decoration:none}
+.brand img{width:34px;height:34px}
+.nav-links{display:flex;align-items:center;gap:1.6rem}
+.nav-links a{color:var(--ink);font-weight:500;font-size:.98rem}
+.nav-links a.cta{background:var(--ink);color:var(--bg);padding:.55rem 1.05rem;border-radius:8px}
+.nav-links a.cta:hover{text-decoration:none;background:var(--indigo)}
+.hamburger{display:none;background:none;border:2px solid var(--ink);border-radius:7px;padding:.4rem .55rem;cursor:pointer}
+.hamburger span{display:block;width:22px;height:2px;background:var(--ink);margin:4px 0}
+
+/* Hero */
+.hero{padding:4.5rem 0 3rem}
+.hero h1{margin-bottom:.35em}
+.hero .sub{font-size:1.2rem;max-width:42ch;color:var(--ink-soft)}
+.hero-cta{display:flex;flex-wrap:wrap;gap:1rem;margin:2rem 0 0}
+.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:3rem 0 0}
+.trust .pt{background:var(--panel);border:1px solid var(--grid);border-radius:10px;padding:1.1rem 1rem;position:relative;overflow:hidden}
+.trust .pt::before{content:"";position:absolute;left:14px;bottom:14px;width:9px;height:9px;border-radius:50%}
+.trust .pt:nth-child(1)::before{background:var(--indigo)}
+.trust .pt:nth-child(2)::before{background:var(--teal)}
+.trust .pt:nth-child(3)::before{background:var(--coral)}
+.trust .pt:nth-child(4)::before{background:var(--amber)}
+.trust .num{font-family:"Fraunces",serif;font-size:1.7rem;font-weight:600;display:block;padding-left:18px}
+.trust .lbl{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.06em;color:var(--ink-soft);padding-left:18px}
+
+section{padding:3.5rem 0;border-top:1px solid var(--grid)}
+.lead{font-size:1.15rem;max-width:62ch}
+
+/* Path */
+.path{display:grid;grid-template-columns:1fr;gap:1.2rem;margin-top:2rem}
+.stage{background:var(--panel);border:1px solid var(--grid);border-left:5px solid var(--indigo);border-radius:10px;padding:1.4rem 1.5rem}
+.stage:nth-child(2){border-left-color:var(--teal)}
+.stage:nth-child(3){border-left-color:var(--violet)}
+.stage.here{border:2px solid var(--ink);border-left:5px solid var(--ink);box-shadow:6px 6px 0 rgba(76,110,245,.18)}
+.stage .tag{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+.stage .here-flag{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--bg);padding:.15rem .55rem;border-radius:99px;margin-left:.5rem}
+.stage h3{margin:.35rem 0 .4rem}
+.stage .count{font-family:"IBM Plex Mono",monospace;font-size:.85rem;color:var(--indigo);margin-bottom:.4rem}
+.stage p{margin-bottom:0}
+.path-note{font-family:"IBM Plex Mono",monospace;font-size:.85rem;color:var(--ink-soft);margin-top:1.4rem;text-align:center}
+
+/* Small multiples signature panel */
+.plotpanel{margin-top:2rem;background:var(--panel);border:1px solid var(--grid);border-radius:14px;padding:1.6rem;box-shadow:8px 8px 0 rgba(20,24,31,.05)}
+.plotpanel .pp-head{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;margin-bottom:1.2rem;align-items:baseline}
+.plotpanel .pp-head .fig{font-family:"IBM Plex Mono",monospace;font-size:.75rem;letter-spacing:.1em;color:var(--ink-soft)}
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
+.chart{border:1px solid var(--grid);border-radius:8px;padding:1rem 1rem .6rem;background:linear-gradient(0deg,rgba(215,224,236,.18) 1px,transparent 1px) 0 0/100% 22px,linear-gradient(90deg,rgba(215,224,236,.18) 1px,transparent 1px) 0 0/22px 100%}
+.chart .ct{font-family:"IBM Plex Mono",monospace;font-size:.72rem;color:var(--ink);font-weight:600;margin-bottom:.15rem}
+.chart .cl{font-family:"IBM Plex Mono",monospace;font-size:.64rem;color:var(--ink-soft);margin-bottom:.6rem;letter-spacing:.04em}
+.plot{position:relative;height:120px;border-left:2px solid var(--ink);border-bottom:2px solid var(--ink);margin:0 0 .3rem 26px}
+.yt{position:absolute;left:-24px;font-family:"IBM Plex Mono",monospace;font-size:.56rem;color:var(--ink-soft)}
+.xl{display:flex;justify-content:space-between;font-family:"IBM Plex Mono",monospace;font-size:.56rem;color:var(--ink-soft);margin:.15rem 0 0 26px}
+/* bar chart */
+.bars{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:space-around;padding:0 8%}
+.bar{width:13%;transform-origin:bottom;transform:scaleY(0);transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.reveal.in .bar{transform:scaleY(1)}
+.bar:nth-child(1){height:48%;background:var(--indigo)}
+.bar:nth-child(2){height:70%;background:var(--teal)}
+.bar:nth-child(3){height:38%;background:var(--coral)}
+.bar:nth-child(4){height:88%;background:var(--amber)}
+.bar:nth-child(5){height:60%;background:var(--violet)}
+/* line chart svg */
+.linechart svg .ln{stroke-dasharray:240;stroke-dashoffset:240;transition:stroke-dashoffset 1.4s ease .1s}
+.reveal.in .linechart svg .ln{stroke-dashoffset:0}
+.linechart svg .dot{opacity:0;transition:opacity .5s ease 1s}
+.reveal.in .linechart svg .dot{opacity:1}
+/* scatter */
+.scatter .pt2{position:absolute;width:8px;height:8px;border-radius:50%;opacity:0;transform:scale(.4);transition:opacity .5s ease,transform .5s ease}
+.reveal.in .scatter .pt2{opacity:.9;transform:scale(1)}
+/* histogram */
+.hist{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;gap:3px;padding:0 6%}
+.hbar{width:11%;background:var(--indigo);transform-origin:bottom;transform:scaleY(0);transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.reveal.in .hbar{transform:scaleY(1)}
+.hbar:nth-child(1){height:18%}
+.hbar:nth-child(2){height:42%}
+.hbar:nth-child(3){height:74%}
+.hbar:nth-child(4){height:96%}
+.hbar:nth-child(5){height:66%}
+.hbar:nth-child(6){height:34%}
+.hbar:nth-child(7){height:14%}
+
+/* Library breakdown */
+.libs{display:grid;grid-template-columns:1fr;gap:1.4rem;margin-top:2rem}
+.lib{background:var(--panel);border:1px solid var(--grid);border-radius:12px;padding:1.6rem 1.7rem;border-top:5px solid var(--indigo)}
+.lib:nth-child(2){border-top-color:var(--teal)}
+.lib:nth-child(3){border-top-color:var(--coral)}
+.lib .libname{font-family:"IBM Plex Mono",monospace;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:.2rem}
+.lib h3{margin-top:.1rem}
+.lib ul{margin:.8rem 0 0;padding-left:1.1rem}
+.lib li{margin-bottom:.4rem;color:var(--ink-soft)}
+.lib li::marker{color:var(--indigo)}
+
+/* Courses */
+.courses{display:grid;grid-template-columns:repeat(2,1fr);gap:1.4rem;margin-top:2rem}
+.course{background:var(--panel);border:1px solid var(--grid);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:transform .15s ease,box-shadow .15s ease}
+.course:hover{transform:translateY(-3px);box-shadow:7px 7px 0 rgba(76,110,245,.16)}
+.course img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-bottom:1px solid var(--grid)}
+.course .cbody{padding:1.2rem 1.3rem;display:flex;flex-direction:column;flex:1}
+.course h3{font-size:1.18rem;margin-bottom:.35rem}
+.course p{font-size:.96rem;margin-bottom:1rem;flex:1}
+.course .vc{font-family:"IBM Plex Mono",monospace;font-size:.82rem;font-weight:600;letter-spacing:.04em}
+
+/* How it runs */
+.runs{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem;margin-top:2rem}
+.run{background:var(--panel);border:1px solid var(--grid);border-radius:10px;padding:1.3rem 1.4rem}
+.run h3{font-size:1.1rem}
+.run p{margin-bottom:0;font-size:.96rem}
+
+/* FAQ */
+.faq{margin-top:2rem;border-top:1px solid var(--grid)}
+.faq details{border-bottom:1px solid var(--grid);padding:1.1rem 0}
+.faq summary{font-family:"Fraunces",serif;font-size:1.15rem;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:1rem;color:var(--ink)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-family:"IBM Plex Mono",monospace;color:var(--indigo);font-weight:600}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin:.9rem 0 0}
+
+/* Final CTA */
+.final{text-align:center;background:var(--ink);color:var(--bg);border-radius:16px;padding:3rem 1.5rem;margin:3.5rem auto;max-width:var(--maxw)}
+.final h2{color:var(--bg)}
+.final p{color:rgba(251,252,254,.82);max-width:48ch;margin-left:auto;margin-right:auto}
+.final .btn{margin:.4rem}
+.final .btn{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+.final .btn:hover{box-shadow:5px 5px 0 var(--amber)}
+.final .btn.ghost{background:transparent;color:var(--bg);border-color:var(--bg)}
+.final .btn.ghost:hover{box-shadow:5px 5px 0 var(--teal)}
+
+/* Footer */
+footer.site{border-top:1px solid var(--grid);background:var(--panel);padding:3rem 0 2rem}
+.fgrid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:2rem}
+.fbrand .brand{margin-bottom:.6rem}
+.fbrand p{font-size:.95rem;max-width:34ch}
+footer h4{font-family:"IBM Plex Mono",monospace;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 .8rem}
+footer ul{list-style:none;margin:0;padding:0}
+footer li{margin-bottom:.5rem}
+footer li a{color:var(--ink);font-size:.96rem}
+.smallprint{margin-top:2.4rem;padding-top:1.4rem;border-top:1px solid var(--grid);font-family:"IBM Plex Mono",monospace;font-size:.75rem;color:var(--ink-soft)}
+
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  .bar,.hbar{transform:scaleY(1);transition:none}
+  .linechart svg .ln{stroke-dashoffset:0;transition:none}
+  .linechart svg .dot,.scatter .pt2{opacity:1;transform:none;transition:none}
+}
+
+@media (max-width:820px){
+  .trust{grid-template-columns:repeat(2,1fr)}
+  .courses,.runs{grid-template-columns:1fr}
+  .charts{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  body{font-size:17px}
+  .nav-links{position:fixed;top:58px;right:0;left:0;flex-direction:column;align-items:flex-start;gap:0;background:var(--bg);border-bottom:1px solid var(--grid);padding:0;max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .nav-links.open{max-height:340px;padding:.5rem 24px 1.2rem}
+  .nav-links a{padding:.7rem 0;width:100%}
+  .nav-links a.cta{margin-top:.4rem}
+  .hamburger{display:block}
+  .hero{padding:3rem 0 2rem}
+  .fgrid{grid-template-columns:1fr}
+}
+</style>
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://learn.modernagecoders.com/#organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com/",
+      "logo": "https://learn.modernagecoders.com/images/logo.svg",
+      "description": "Live, online, instructor-led coding, programming, AI/ML and mathematics school for ages 6 to 65, teaching depth-first and from first principles.",
+      "sameAs": [
+        "https://www.facebook.com/modernagecoders",
+        "https://www.instagram.com/modernagecoders",
+        "https://www.linkedin.com/company/modernagecoders",
+        "https://www.youtube.com/@modernagecoders"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "247",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "areaServed": "Worldwide",
+      "knowsAbout": [
+        "Python",
+        "Programming",
+        "Coding",
+        "Data Analysis",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning",
+        "Generative AI",
+        "Data Science",
+        "Data Structures and Algorithms"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass#webpage",
+      "url": "https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass",
+      "name": "NumPy, Pandas & Matplotlib Masterclass - Python Data Analysis in Depth | Modern Age Coders",
+      "description": "Master Python data analysis in real depth: NumPy, Pandas and Matplotlib with the maths underneath. Stage 2 of a 3-stage Python-to-AI path.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://learn.modernagecoders.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://learn.modernagecoders.com/#organization"
+      },
+      "datePublished": "2026-06-18",
+      "dateModified": "2026-06-18",
+      "primaryImageOfPage": "https://learn.modernagecoders.com/images/og-modern-age-coders.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          "h2"
+        ]
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Data analysis and what comes next (Stage 2)",
+      "numberOfItems": 4,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Course",
+            "name": "Python Masterclass - Zero to Advanced",
+            "description": "The Python foundation that powers serious data analysis.",
+            "url": "https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Beginner to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Course",
+            "name": "Data Science Masterclass",
+            "description": "From raw data to insight with Python, pandas and real analysis.",
+            "url": "https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Course",
+            "name": "AI & ML Complete",
+            "description": "Where data analysis leads: machine learning with the maths that makes it work.",
+            "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Course",
+            "name": "Generative AI Masterclass",
+            "description": "Understand and build with large language models and generative AI.",
+            "url": "https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="/">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="34" height="34">
+      <span>Modern Age Coders</span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navlinks">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navlinks">
+      <a href="/courses">Courses</a>
+      <a href="/course-atlas">Course Atlas</a>
+      <a href="/contact">Contact</a>
+      <a class="cta" href="/book-demo">Book a free demo</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" style="border-top:none">
+    <div class="wrap">
+      <p class="kicker reveal">Stage 2 of 3 — Data, in depth</p>
+      <h1 class="reveal">NumPy, Pandas and Matplotlib — the deep way.</h1>
+      <p class="sub reveal">Learn data analysis in Python the way that lasts: the API you use every day, the maths working underneath it, and how each library is actually built. Not a tour of method names — an understanding you can defend.</p>
+      <div class="hero-cta reveal">
+        <a class="btn" href="/book-demo">Book a free demo</a>
+        <a class="btn ghost" href="#path">See the full path</a>
+      </div>
+      <div class="trust reveal" aria-label="Why students choose us">
+        <div class="pt"><span class="num">10,000+</span><span class="lbl">students taught</span></div>
+        <div class="pt"><span class="num">15+</span><span class="lbl">countries</span></div>
+        <div class="pt"><span class="num">70+</span><span class="lbl">live courses</span></div>
+        <div class="pt"><span class="num">4.9/5</span><span class="lbl">from 247+ reviews</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FULL PATH -->
+  <section id="path">
+    <div class="wrap">
+      <p class="kicker reveal">The full path</p>
+      <h2 class="reveal">Three stages from first line of Python to building models by hand.</h2>
+      <p class="lead reveal">This masterclass is the middle stage of a deliberate path. We show you all three so you can see how deep it goes and decide where to start. Each stage stands on the one before it. You are reading the page for Stage 2.</p>
+
+      <div class="path">
+        <div class="stage reveal">
+          <span class="tag">Stage 1</span>
+          <h3><a href="/python-from-the-ground-up">Python From the Ground Up</a></h3>
+          <p class="count">Grade 6–12: about 40 classes · Grade 12+ and adults: 24 classes</p>
+          <p>Every Python fundamental from the roots — the standard-library modules other courses skip, real habits, and a first honest taste of AI. This is where you become genuinely fluent in the language before you ever touch a data library.</p>
+        </div>
+        <div class="stage here reveal">
+          <span class="tag">Stage 2</span><span class="here-flag">You are here</span>
+          <h3>NumPy, Pandas &amp; Matplotlib Masterclass</h3>
+          <p class="count">24 classes · teens after Stage 1, college, professionals</p>
+          <p>Data analysis in real depth, with the maths underneath and an understanding of how each library is built. You take messy real data from raw file to honest chart and can explain every step in between.</p>
+        </div>
+        <div class="stage reveal">
+          <span class="tag">Stage 3</span>
+          <h3><a href="/machine-learning-from-scratch">Machine Learning From Scratch</a></h3>
+          <p class="count">32 classes · college and professionals only</p>
+          <p>Build the models by hand — gradient descent and the core algorithms written yourself — before you ever lean on a library. Stage 2 is what makes this possible: you cannot build a model you cannot first measure and visualise.</p>
+        </div>
+      </div>
+      <p class="path-note reveal">The adult route — Stage 1 (24) + Stage 2 (24) + Stage 3 (32) — totals about 80 live classes.</p>
+    </div>
+  </section>
+
+  <!-- SIGNATURE PLOT PANEL -->
+  <section>
+    <div class="wrap">
+      <p class="kicker reveal">The Stage 2 workbench</p>
+      <h2 class="reveal">Four charts, three libraries, one way of seeing data.</h2>
+      <p class="lead reveal">Every analysis you will build in this stage ends in a picture that tells the truth. Here is the small-multiples view we keep open through the whole course: a NumPy array becomes a bar chart, a Pandas DataFrame becomes a line and a histogram, and Matplotlib turns each into a figure with real axes, ticks and gridlines. The point is never just the plot — it is knowing exactly what produced it.</p>
+
+      <div class="plotpanel reveal" role="img" aria-label="A small-multiples panel of four hand-built charts: a bar chart from NumPy arrays, a line chart from a Pandas DataFrame, a scatter plot, and a histogram, each with axis ticks and gridlines.">
+        <div class="pp-head">
+          <strong class="mono" style="font-size:.85rem;color:var(--ink)">fig, axes = plt.subplots(2, 2)</strong>
+          <span class="fig">small multiples · shared grammar</span>
+        </div>
+        <div class="charts">
+
+          <!-- Bar: NumPy -->
+          <div class="chart">
+            <div class="ct">Bar chart</div>
+            <div class="cl">source: NumPy array · np.array([...])</div>
+            <div class="plot">
+              <span class="yt" style="top:-6px">100</span>
+              <span class="yt" style="top:50%">50</span>
+              <span class="yt" style="bottom:-6px">0</span>
+              <div class="bars">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span>
+              </div>
+            </div>
+            <div class="xl"><span>q1</span><span>q2</span><span>q3</span><span>q4</span><span>q5</span></div>
+          </div>
+
+          <!-- Line: Pandas -->
+          <div class="chart linechart">
+            <div class="ct">Line chart</div>
+            <div class="cl">source: Pandas DataFrame · df["value"]</div>
+            <div class="plot">
+              <span class="yt" style="top:-6px">8</span>
+              <span class="yt" style="top:50%">4</span>
+              <span class="yt" style="bottom:-6px">0</span>
+              <svg viewBox="0 0 100 100" preserveAspectRatio="none" width="100%" height="100%" aria-hidden="true">
+                <polyline class="ln" points="2,82 22,55 42,62 62,30 82,38 98,12" fill="none" stroke="#12B5A5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle class="dot" cx="2" cy="82" r="2.4" fill="#12B5A5"/>
+                <circle class="dot" cx="42" cy="62" r="2.4" fill="#12B5A5"/>
+                <circle class="dot" cx="82" cy="38" r="2.4" fill="#12B5A5"/>
+                <circle class="dot" cx="98" cy="12" r="2.4" fill="#12B5A5"/>
+              </svg>
+            </div>
+            <div class="xl"><span>jan</span><span>mar</span><span>may</span><span>jul</span></div>
+          </div>
+
+          <!-- Scatter -->
+          <div class="chart">
+            <div class="ct">Scatter</div>
+            <div class="cl">source: two DataFrame columns · x vs y</div>
+            <div class="plot scatter">
+              <span class="yt" style="top:-6px">y</span>
+              <span class="yt" style="bottom:-6px">0</span>
+              <span class="pt2" style="left:12%;bottom:18%;background:var(--indigo)"></span>
+              <span class="pt2" style="left:26%;bottom:34%;background:var(--coral)"></span>
+              <span class="pt2" style="left:38%;bottom:30%;background:var(--indigo)"></span>
+              <span class="pt2" style="left:52%;bottom:52%;background:var(--violet)"></span>
+              <span class="pt2" style="left:64%;bottom:46%;background:var(--coral)"></span>
+              <span class="pt2" style="left:74%;bottom:70%;background:var(--indigo)"></span>
+              <span class="pt2" style="left:86%;bottom:64%;background:var(--violet)"></span>
+            </div>
+            <div class="xl"><span>0</span><span>x</span></div>
+          </div>
+
+          <!-- Histogram -->
+          <div class="chart">
+            <div class="ct">Histogram</div>
+            <div class="cl">source: np.histogram(df["x"], bins)</div>
+            <div class="plot">
+              <span class="yt" style="top:-6px">freq</span>
+              <span class="yt" style="bottom:-6px">0</span>
+              <div class="hist">
+                <span class="hbar"></span><span class="hbar"></span><span class="hbar"></span><span class="hbar"></span><span class="hbar"></span><span class="hbar"></span><span class="hbar"></span>
+              </div>
+            </div>
+            <div class="xl"><span>low</span><span>bins</span><span>high</span></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THREE LIBRARIES IN DEPTH -->
+  <section>
+    <div class="wrap">
+      <p class="kicker reveal">Four libraries, in real depth</p>
+      <h2 class="reveal">Not the API tour. The whole machine.</h2>
+      <p class="lead reveal">Most courses teach you which methods to call. We teach you what those methods compute, why they are fast, and where they quietly go wrong. Across 24 live classes we go through four libraries one layer at a time — NumPy, Pandas, Matplotlib and Seaborn — and we keep tying each one back to the maths and to how it is built.</p>
+
+      <div class="libs">
+        <div class="lib reveal">
+          <p class="libname">NumPy · the array engine</p>
+          <h3>Arrays, vectorisation and the linear algebra underneath</h3>
+          <p>NumPy is the foundation everything else stands on, so we treat it seriously. You learn what an ndarray really is — a typed, contiguous block of memory with a shape and strides — and why that layout is what makes NumPy fast where Python loops are slow.</p>
+          <ul>
+            <li>Vectorisation: replacing loops with whole-array operations, and seeing the speed difference for yourself.</li>
+            <li>Broadcasting: the exact rules that let a (3,1) array combine with a (1,4) array, and how to predict the result shape every time.</li>
+            <li>The linear-algebra maths: dot products, matrix multiplication, norms and axes — the operations that machine learning is built from in Stage 3.</li>
+            <li>Why it is fast: contiguous memory, fixed dtypes, and work pushed down into compiled C instead of the Python interpreter.</li>
+          </ul>
+        </div>
+
+        <div class="lib reveal">
+          <p class="libname">Pandas · the data table</p>
+          <h3>Series, DataFrames, and cleaning data that fights back</h3>
+          <p>Pandas is built directly on NumPy, and once you see that, it stops being a bag of tricks. A Series is a NumPy array with a labelled index; a DataFrame is aligned Series sharing that index. Understanding that one fact explains almost everything Pandas does.</p>
+          <ul>
+            <li>Indexing done properly: loc versus iloc, boolean masks, and why alignment by index is the feature that prevents whole classes of bugs.</li>
+            <li>groupby: the split-apply-combine model, what an aggregation actually computes, and how to avoid averaging an average.</li>
+            <li>Merges and joins: inner, left, outer, and the single most common real-world mistake — joining on the wrong key and silently changing your row count.</li>
+            <li>Cleaning real messy data: missing values, mixed types, duplicates, dates and text — the unglamorous work that is most of real analysis.</li>
+            <li>Under the hood: how Pandas stores columns as NumPy arrays and why that explains both its speed and its memory use.</li>
+          </ul>
+        </div>
+
+        <div class="lib reveal">
+          <p class="libname">Matplotlib · the figure</p>
+          <h3>The grammar of a plot, and telling the truth with charts</h3>
+          <p>Matplotlib feels confusing until you learn its model. We teach the figure-and-axes structure deliberately: a Figure is the canvas, Axes are the plotting area, and almost everything you draw is a method on an Axes. Once you hold that map, every chart becomes predictable.</p>
+          <ul>
+            <li>Figures and axes: the object-oriented interface, subplots, and building small-multiples layouts like the panel above.</li>
+            <li>The grammar of a plot: data, scale, ticks, labels, legend and annotation as parts you control, not magic defaults.</li>
+            <li>Telling the truth: axis ranges that do not mislead, the right chart for the question, and spotting a chart designed to deceive.</li>
+            <li>How it is built: the layered renderer beneath the API, and why understanding it makes customising any chart straightforward.</li>
+          </ul>
+        </div>
+
+        <div class="lib reveal">
+          <p class="libname">Seaborn · statistical pictures</p>
+          <h3>Statistical plots built on Matplotlib — without the black box</h3>
+          <p>Seaborn sits directly on top of Matplotlib, so the moment you understand the figure-and-axes model you understand Seaborn too: it is a higher-level grammar for statistical charts that still hands back ordinary Matplotlib axes you can fine-tune. We teach it as a layer, never as magic.</p>
+          <ul>
+            <li>Distributions and relationships: histograms, KDE, box, violin, scatter and regression plots, and the statistic each one is really showing.</li>
+            <li>Tidy data in, chart out: how Seaborn reads a Pandas DataFrame and maps columns to colour, size and facets.</li>
+            <li>Faceting: small-multiples by category from a single call, the same idea as the panel above.</li>
+            <li>How it works: every Seaborn call is Matplotlib underneath, so you can always drop a layer down and control the figure yourself.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY MATHS UNDERNEATH MATTERS -->
+  <section>
+    <div class="wrap">
+      <p class="kicker reveal">Why the maths underneath matters</p>
+      <h2 class="reveal">Understanding is what lets you trust your own results.</h2>
+      <p class="lead reveal">It is easy to call <span class="mono">df.groupby("region").mean()</span> and get a number. It is much harder, and far more valuable, to know whether that number is right. The difference is the maths underneath, and it pays off in three concrete ways.</p>
+      <p class="reveal"><strong>You can verify.</strong> When you understand what an aggregation, a join or a normalisation actually computes, you can sanity-check the output instead of trusting it. You notice when a mean is being taken over the wrong group, when a percentage was computed on a filtered subset, or when a chart's axis was quietly cut to exaggerate a trend.</p>
+      <p class="reveal"><strong>You can debug.</strong> Real data breaks code constantly — shapes that do not broadcast, indexes that do not align, dtypes that silently coerce. People who only memorised method names get stuck here. People who understand arrays, index alignment and broadcasting read the error, see the cause, and fix it.</p>
+      <p class="reveal"><strong>You can move into machine learning.</strong> Stage 3 has you implement gradient descent and core algorithms by hand. That is only possible if you already think in vectors and matrices, can compute and plot a loss curve, and can prepare clean numeric data. This stage is exactly that foundation. If you want to see how seriously we take depth across everything we teach, read our take on what <a href="/real-coding-classes">real coding classes</a> should be.</p>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section>
+    <div class="wrap">
+      <p class="kicker reveal">Courses on this track</p>
+      <h2 class="reveal">See the courses, then decide.</h2>
+      <p class="lead reveal">The masterclass sits inside a wider data and AI track. These are the four courses students most often pair with it. Open any one to see the full outline, or browse the whole catalogue in the <a href="/course-atlas">course atlas</a>.</p>
+
+      <div class="courses">
+        <article class="course reveal">
+          <img src="/images/python-college.png" alt="Python Masterclass — Zero to Advanced course thumbnail" loading="lazy" decoding="async" width="640" height="360">
+          <div class="cbody">
+            <h3>Python Masterclass — Zero to Advanced</h3>
+            <p>The full Python language from first principles to advanced features, the depth Stage 1 is built on.</p>
+            <a class="vc" href="/courses/python-programming-masterclass-zero-to-advanced-college">View course →</a>
+          </div>
+        </article>
+
+        <article class="course reveal">
+          <img src="/images/data-science-college.png" alt="Data Science Masterclass course thumbnail" loading="lazy" decoding="async" width="640" height="360">
+          <div class="cbody">
+            <h3>Data Science Masterclass</h3>
+            <p>NumPy, Pandas and Matplotlib applied end to end across real analysis projects and honest reporting.</p>
+            <a class="vc" href="/courses/data-science-complete-masterclass-college">View course →</a>
+          </div>
+        </article>
+
+        <article class="course reveal">
+          <img src="/images/ai-ml-college.jpg" alt="AI and ML Complete course thumbnail" loading="lazy" decoding="async" width="640" height="360">
+          <div class="cbody">
+            <h3>AI &amp; ML Complete</h3>
+            <p>Machine learning built on the data skills here — models, evaluation and the maths that makes them work.</p>
+            <a class="vc" href="/courses/ai-ml-masterclass-complete-college">View course →</a>
+          </div>
+        </article>
+
+        <article class="course reveal">
+          <img src="/images/generative-ai-college.png" alt="Generative AI Masterclass course thumbnail" loading="lazy" decoding="async" width="640" height="360">
+          <div class="cbody">
+            <h3>Generative AI Masterclass</h3>
+            <p>Modern generative models and how to use them well, grounded in real understanding rather than guesswork.</p>
+            <a class="vc" href="/courses/complete-generative-ai-masterclass-college">View course →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW CLASSES RUN -->
+  <section>
+    <div class="wrap">
+      <p class="kicker reveal">How classes run</p>
+      <h2 class="reveal">Live, small, and built around real data.</h2>
+      <div class="runs">
+        <div class="run reveal">
+          <h3>Live and instructor-led</h3>
+          <p>Every session is taught in real time by a mentor, never a recorded playlist. You ask questions the moment you are stuck and get an answer the same minute.</p>
+        </div>
+        <div class="run reveal">
+          <h3>Small batches</h3>
+          <p>Batches are deliberately small so the mentor knows your work, sees where you struggle, and can adjust the pace to the people actually in the room.</p>
+        </div>
+        <div class="run reveal">
+          <h3>Real datasets</h3>
+          <p>You work with genuine, messy data — the kind with missing values, mixed types and surprises — not tidy textbook tables that never reflect the real world.</p>
+        </div>
+        <div class="run reveal">
+          <h3>You build the analysis</h3>
+          <p>You write the code and produce the charts yourself in the session. Watching someone else analyse data teaches you almost nothing; doing it teaches you everything.</p>
+        </div>
+        <div class="run reveal">
+          <h3>Your reasoning gets reviewed</h3>
+          <p>Mentors review not just whether your code runs but whether your conclusion holds — the join you chose, the average you took, the axis you set. The thinking is the lesson.</p>
+        </div>
+        <div class="run reveal">
+          <h3>Join from anywhere</h3>
+          <p>Classes are online, so students across more than fifteen countries learn together. All you need is a laptop and a stable connection.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="wrap">
+      <p class="kicker reveal">Questions, answered</p>
+      <h2 class="reveal">Frequently asked questions</h2>
+      <div class="faq reveal">
+        <details>
+          <summary>What will I be able to do after Stage 2?</summary>
+          <p>You will be able to take a real, messy dataset and carry it all the way to a defensible conclusion. That means loading data with Pandas, cleaning missing and inconsistent values, reshaping and grouping it, computing aggregates correctly, running fast vectorised maths on it with NumPy, and producing honest, well-labelled charts with Matplotlib. More importantly, you will understand what each step actually computes, so you can explain and defend your numbers rather than just trusting an output.</p>
+        </details>
+        <details>
+          <summary>Do I need Stage 1 first?</summary>
+          <p>You need solid Python before this course: functions, loops, lists and dictionaries, reading files, and comfort with errors. Stage 1, Python From the Ground Up, builds exactly that. If you already write Python confidently you can start at Stage 2 directly. If you are unsure, book a free demo and we will place you honestly rather than sell you a class you are not ready for.</p>
+        </details>
+        <details>
+          <summary>Do I need maths?</summary>
+          <p>You need school-level arithmetic, averages, percentages and a willingness to think clearly. We teach the rest as we go. The linear algebra behind NumPy, the statistics behind aggregation, and the geometry behind a plot are introduced exactly when you need them and tied to running code, so the maths makes the library make sense instead of being abstract theory.</p>
+        </details>
+        <details>
+          <summary>Who is this for and what ages?</summary>
+          <p>This stage is for teens who have finished Stage 1, for college students, and for working professionals who want real data skills. Modern Age Coders teaches ages 6 to 65 across the full path, but Stage 2 assumes the maturity to work with real datasets, so it suits motivated teenagers and adults rather than young beginners.</p>
+        </details>
+        <details>
+          <summary>Are classes live?</summary>
+          <p>Yes. Every class is live and instructor-led in a small batch, not a recorded video. You write code while the mentor watches, you analyse real datasets in the session, and you get your reasoning reviewed in real time. Classes run online so you can join from anywhere; we teach students in over fifteen countries.</p>
+        </details>
+        <details>
+          <summary>Why learn NumPy and Pandas deeply when AI tools can analyse data?</summary>
+          <p>Because AI can produce an analysis that looks right and is subtly wrong. It can silently drop rows, join two tables on the wrong key, average a ratio incorrectly, or plot a chart that misleads. If you understand the libraries and the maths underneath, you can read the code it generates, verify the result, debug it when it breaks, and decide whether to trust it. That same understanding is the foundation for building machine learning models by hand in Stage 3.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <div class="final reveal">
+    <h2>Ready to analyse data the deep way?</h2>
+    <p>Sit in on a live class, meet a mentor, and see exactly how we teach NumPy, Pandas and Matplotlib with the maths underneath. The demo is free and there is no pressure.</p>
+    <a class="btn" href="/book-demo">Book a free demo</a>
+    <a class="btn ghost" href="/course-atlas">Browse all courses</a>
+  </div>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="fbrand">
+        <a class="brand" href="/">
+          <img src="/images/logo.svg" alt="Modern Age Coders logo" width="34" height="34">
+          <span>Modern Age Coders</span>
+        </a>
+        <p>Live, online, instructor-led coding and mathematics classes for ages 6 to 65, taught in small batches by real mentors.</p>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="/courses">Courses</a></li>
+          <li><a href="/course-atlas">Course Atlas</a></li>
+          <li><a href="/real-coding-classes">Real Coding Classes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/book-demo">Book a free demo</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="smallprint">© 2026 Modern Age Coders. Live coding &amp; mathematics classes, ages 6–65.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var h=document.getElementById('hamburger');
+  var n=document.getElementById('navlinks');
+  if(h&&n){
+    h.addEventListener('click',function(){
+      var open=n.classList.toggle('open');
+      h.setAttribute('aria-expanded',open?'true':'false');
+    });
+    n.addEventListener('click',function(e){
+      if(e.target.tagName==='A'){n.classList.remove('open');h.setAttribute('aria-expanded','false');}
+    });
+  }
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var els=document.querySelectorAll('.reveal');
+  if(reduce||!('IntersectionObserver' in window)){
+    for(var i=0;i<els.length;i++){els[i].classList.add('in');}
+  }else{
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
+      });
+    },{rootMargin:'0px 0px -8% 0px',threshold:0.08});
+    for(var j=0;j<els.length;j++){io.observe(els[j]);}
+  }
+})();
+</script>
+<script>window.addEventListener('load',function(){setTimeout(function(){var r=document.querySelectorAll('.reveal');for(var i=0;i<r.length;i++){r[i].classList.add('in');}},1600);});</script>
+</body>
+</html>

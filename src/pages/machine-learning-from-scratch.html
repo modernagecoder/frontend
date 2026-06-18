@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N8BM164YJP');
+  gtag('config', 'AW-16910316353');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Machine Learning From Scratch — Build Real AI/ML Models (College &amp; Professionals) | Modern Age Coders</title>
+<meta name="description" content="Build machine learning from scratch: implement gradient descent and core models by hand, understand the maths, then master the advanced AI and ML libraries. 32 live, deeply practical classes for college students and professionals. Stage 3 of a 3-stage Python-to-AI path. Free demo.">
+<meta name="keywords" content="machine learning from scratch, build ml models from scratch, gradient descent from scratch, advanced machine learning course, ai ml for professionals, deep learning from scratch, maths behind machine learning, implement ml algorithms from scratch, machine learning math, will AI replace ml engineers, learn ai ml 2026, pytorch course, learn pytorch, tensorflow course, scikit-learn course, keras course, hugging face transformers course, deep learning libraries">
+<meta name="author" content="Modern Age Coders">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://learn.modernagecoders.com/machine-learning-from-scratch">
+<link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/machine-learning-from-scratch">
+<link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/machine-learning-from-scratch">
+<link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/machine-learning-from-scratch">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+<meta name="theme-color" content="#15191C">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://learn.modernagecoders.com/machine-learning-from-scratch">
+<meta property="og:title" content="Machine Learning From Scratch — Build Real AI/ML Models (College &amp; Professionals) | Modern Age Coders">
+<meta property="og:description" content="Implement gradient descent and core models by hand, understand the maths, then master the advanced AI and ML libraries. 32 live classes for college students and professionals.">
+<meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+<meta property="og:site_name" content="Modern Age Coders">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Machine Learning From Scratch — Build Real AI/ML Models (College &amp; Professionals)">
+<meta name="twitter:description" content="Implement gradient descent and core models by hand, understand the maths, then master the advanced AI and ML libraries. 32 live classes for college students and professionals.">
+<meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Machine Learning From Scratch — Build Real AI/ML Models",
+  "description": "Stage 3 of a 3-stage Python-to-AI path. Implement gradient descent and core machine learning models by hand, understand the maths, then master the advanced AI and ML libraries. 32 live classes for college students and professionals.",
+  "url": "https://learn.modernagecoders.com/machine-learning-from-scratch",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com/",
+    "logo": "https://learn.modernagecoders.com/images/logo.svg"
+  },
+  "hasPart": [
+    { "@type": "Course", "name": "AI & ML Complete", "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } },
+    { "@type": "Course", "name": "Artificial Intelligence Complete", "url": "https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } },
+    { "@type": "Course", "name": "Generative AI Masterclass", "url": "https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } },
+    { "@type": "Course", "name": "Data Science Masterclass", "url": "https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } },
+    { "@type": "Course", "name": "Data Structures & Algorithms", "url": "https://learn.modernagecoders.com/courses/data-structures-algorithms-masterclass-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who is this stage for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stage 3 is for college students and working professionals only. You should already be comfortable writing Python and reasoning about data. It suits computer science and engineering students, analysts and developers moving into machine learning, and professionals who want to build and ship real models rather than only call hosted APIs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need Stage 1 and Stage 2 first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need their content, not necessarily the classes. Stage 1, Python From the Ground Up, gives you the language. Stage 2, the NumPy, Pandas and Matplotlib Masterclass, gives you data handling and the vector thinking that machine learning runs on. If you already have those skills you can start here. If you do not, take the earlier stages first, because we build models on top of NumPy arrays from day one."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much maths do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need school-level algebra and a willingness to learn the rest with us. We teach the calculus, linear algebra and probability you need as we use them: derivatives for gradient descent, vectors and matrices for the data, and probability for loss functions and classification. We never wave at the maths and skip it, and we never assume a graduate background either."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What will I build?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You will implement linear regression, logistic regression and gradient descent by hand in NumPy, then code a small neural network with its own forward and backward pass. After that you rebuild the same ideas with scikit-learn, TensorFlow and PyTorch, train models on real datasets, and complete practical projects in classification, regression and a generative model. You finish with code you wrote and understand, not borrowed notebooks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are classes live?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every class is live, online and instructor-led in a small batch. You write code during the session, train models with the mentor watching, and get your maths and your implementation reviewed in real time. It is not a recorded video course you watch alone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "If AI tools can build models, why learn ML from scratch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because from-scratch understanding is exactly what lets you use those tools well. When a model underfits, a loss curve will not move, or an AI assistant hands you confident but wrong code, the people who understand gradient descent, loss functions and the data can debug it, tune it and improve it. People who only call APIs stall the moment something breaks. As AI spreads, that depth is what makes an engineer valuable rather than replaceable."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Machine Learning From Scratch", "item": "https://learn.modernagecoders.com/machine-learning-from-scratch" }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --board:#15191C;
+  --board-2:#191E22;
+  --panel:#1C2226;
+  --chalk:#E8E6DF;
+  --slate:#8A938F;
+  --slate-dim:#5E665F;
+  --line:rgba(232,230,223,0.10);
+  --line-soft:rgba(232,230,223,0.06);
+  --grad-a:#FF3D81;
+  --grad-b:#FFB000;
+  --grad:linear-gradient(90deg,#FF3D81 0%,#FFB000 100%);
+  --grad-diag:linear-gradient(120deg,#FF3D81 0%,#FFB000 100%);
+  --maxw:1180px;
+  --disp:"Familjen Grotesk",sans-serif;
+  --body:"Inter",sans-serif;
+  --mono:"JetBrains Mono",monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;
+  background-color:var(--board);
+  background-image:
+    linear-gradient(var(--line-soft) 1px,transparent 1px),
+    linear-gradient(90deg,var(--line-soft) 1px,transparent 1px);
+  background-size:48px 48px;
+  color:var(--chalk);
+  font-family:var(--body);
+  font-size:17px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{font-family:var(--disp);font-weight:700;line-height:1.1;margin:0 0 .5em;letter-spacing:-0.01em}
+p{margin:0 0 1.1em}
+a{color:var(--chalk);text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.kicker{font-family:var(--mono);font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:var(--slate)}
+.grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.eq{font-family:var(--mono);background:var(--board-2);border:1px solid var(--line);border-radius:8px;padding:.15em .5em;color:var(--chalk);white-space:nowrap}
+
+/* focus */
+a:focus-visible,button:focus-visible{outline:2px solid var(--grad-b);outline-offset:3px;border-radius:4px}
+
+/* nav */
+header.site{position:sticky;top:0;z-index:50;background:rgba(21,25,28,0.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:11px;font-family:var(--disp);font-weight:700;font-size:1.06rem;letter-spacing:-0.01em}
+.brand img{width:30px;height:30px}
+.nav-links{display:flex;align-items:center;gap:30px}
+.nav-links a{font-size:.95rem;color:var(--slate);transition:color .2s}
+.nav-links a:hover{color:var(--chalk)}
+.btn{display:inline-block;font-family:var(--mono);font-size:.84rem;letter-spacing:.04em;font-weight:500;padding:.72em 1.25em;border-radius:8px;border:1px solid var(--line);color:var(--chalk);transition:transform .15s ease,border-color .2s}
+.btn:hover{border-color:var(--slate);transform:translateY(-1px)}
+.btn-grad{background:var(--grad);color:#15191C;border:none;font-weight:700}
+.btn-grad:hover{transform:translateY(-2px)}
+.btn-lg{padding:.92em 1.6em;font-size:.92rem}
+.hamburger{display:none;background:none;border:1px solid var(--line);border-radius:8px;width:44px;height:44px;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:5px}
+.hamburger span{display:block;width:20px;height:2px;background:var(--chalk)}
+.mobile-menu{display:none;border-bottom:1px solid var(--line);background:var(--board-2)}
+.mobile-menu a{display:block;padding:14px 24px;border-top:1px solid var(--line-soft);color:var(--chalk);font-size:.98rem}
+
+/* hero */
+.hero{padding:84px 0 56px;position:relative}
+.hero h1{font-size:clamp(2.5rem,6.5vw,4.7rem);font-weight:700;margin:.28em 0 .3em}
+.hero .sub{font-size:clamp(1.05rem,2.2vw,1.32rem);color:var(--chalk);max-width:46ch;margin-bottom:0}
+.hero .sub .muted{color:var(--slate)}
+.audience-pill{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:.78rem;letter-spacing:.05em;color:var(--chalk);border:1px solid var(--line);border-radius:999px;padding:.42em 1em;margin-top:26px}
+.audience-pill .dot{width:8px;height:8px;border-radius:50%;background:var(--grad)}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:54px;border-top:1px solid var(--line);padding-top:30px}
+.trust .num{font-family:var(--disp);font-weight:700;font-size:clamp(1.5rem,3.4vw,2.1rem)}
+.trust .lab{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);margin-top:4px}
+
+/* sections */
+section{padding:62px 0}
+.section-head{max-width:60ch;margin-bottom:40px}
+.section-head .kicker{display:block;margin-bottom:14px}
+.section-head h2{font-size:clamp(1.9rem,4vw,2.7rem)}
+.section-head p{color:var(--slate);font-size:1.08rem;margin-top:.4em}
+
+/* path stages */
+.path{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}
+.stage{position:relative;border:1px solid var(--line);border-radius:14px;background:var(--board-2);padding:26px 24px;display:flex;flex-direction:column}
+.stage .step{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.stage h3{font-size:1.34rem;margin:.5em 0 .1em}
+.stage .count{font-family:var(--mono);font-size:.86rem;color:var(--chalk);margin:.2em 0 1em}
+.stage p{color:var(--slate);font-size:.97rem;flex:1}
+.stage .stage-link{font-family:var(--mono);font-size:.83rem;color:var(--chalk);border-bottom:1px solid var(--slate);padding-bottom:2px;align-self:flex-start;margin-top:14px;transition:border-color .2s}
+.stage .stage-link:hover{border-color:var(--grad-b)}
+.stage.here{border:1px solid transparent;background:
+  linear-gradient(var(--board-2),var(--board-2)) padding-box,
+  var(--grad-diag) border-box}
+.stage.here .badge{position:absolute;top:-12px;left:24px;font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;background:var(--grad);color:#15191C;font-weight:700;padding:.32em .8em;border-radius:999px}
+.path-note{font-family:var(--mono);font-size:.86rem;color:var(--slate);margin-top:24px;text-align:center}
+.path-note b{color:var(--chalk);font-weight:500}
+
+/* signature gradient descent diagram */
+.signature{border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,var(--board-2),var(--board));padding:40px 28px 30px;overflow:hidden}
+.gd-stage{position:relative;max-width:760px;margin:0 auto;height:340px}
+.gd-axes{position:absolute;inset:0}
+.gd-axis-y{position:absolute;left:54px;top:8px;bottom:54px;width:1px;background:var(--line)}
+.gd-axis-x{position:absolute;left:54px;right:18px;bottom:54px;height:1px;background:var(--line)}
+.gd-label{position:absolute;font-family:var(--mono);font-size:.72rem;color:var(--slate);letter-spacing:.04em}
+.gd-label.y{left:8px;top:8px}
+.gd-label.x{right:18px;bottom:30px}
+.gd-svg{position:absolute;left:54px;right:18px;top:8px;bottom:54px;width:calc(100% - 72px);height:calc(100% - 62px)}
+.gd-curve{fill:none;stroke:var(--slate);stroke-width:2;stroke-dasharray:3 5;opacity:.55}
+.gd-dot{opacity:0;transform-box:fill-box;transform-origin:center;transition:opacity .5s ease}
+.in .gd-dot{opacity:1}
+.in .gd-dot.d1{transition-delay:.05s}
+.in .gd-dot.d2{transition-delay:.30s}
+.in .gd-dot.d3{transition-delay:.55s}
+.in .gd-dot.d4{transition-delay:.80s}
+.in .gd-dot.d5{transition-delay:1.05s}
+.in .gd-dot.d6{transition-delay:1.30s}
+.in .gd-dot.dmin{transition-delay:1.55s}
+.gd-path{fill:none;stroke:url(#gdGrad);stroke-width:2.4;stroke-dasharray:520;stroke-dashoffset:520;transition:stroke-dashoffset 1.6s ease}
+.in .gd-path{stroke-dashoffset:0}
+@media (prefers-reduced-motion: reduce){
+  .gd-dot{opacity:1;transition:none}
+  .gd-path{stroke-dashoffset:0;transition:none}
+}
+.gd-anno{position:absolute;font-family:var(--mono);font-size:.74rem;color:var(--chalk);background:rgba(21,25,28,0.7);border:1px solid var(--line);border-radius:6px;padding:.25em .55em;white-space:nowrap}
+.gd-anno .grad-text{font-weight:700}
+.gd-anno.a-grad{top:34px;right:30px}
+.gd-anno.a-lr{top:120px;left:90px}
+.gd-anno.a-min{bottom:64px;left:50%;transform:translateX(-50%)}
+.gd-caption{font-family:var(--mono);font-size:.84rem;color:var(--slate);text-align:center;margin-top:22px;max-width:62ch;margin-left:auto;margin-right:auto}
+.gd-update{display:block;margin-top:10px;color:var(--chalk)}
+
+/* prose blocks */
+.prose{max-width:72ch}
+.prose h3{font-size:1.45rem;margin-top:1.6em}
+.prose p{color:var(--chalk)}
+.prose .lead{font-size:1.12rem;color:var(--chalk)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.feature-list{list-style:none;padding:0;margin:0}
+.feature-list li{position:relative;padding-left:26px;margin-bottom:14px;color:var(--slate)}
+.feature-list li::before{content:"→";position:absolute;left:0;color:var(--grad-b);font-family:var(--mono)}
+.feature-list li b{color:var(--chalk);font-weight:600}
+
+/* phases / from-scratch ladder */
+.ladder{display:grid;gap:14px;margin-top:8px}
+.rung{border:1px solid var(--line);border-left:3px solid var(--grad-a);border-radius:0 12px 12px 0;background:var(--board-2);padding:20px 22px}
+.rung:nth-child(2){border-left-color:#FF6B5C}
+.rung:nth-child(3){border-left-color:#FF8A2E}
+.rung:nth-child(4){border-left-color:var(--grad-b)}
+.rung .tag{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
+.rung h3{font-size:1.2rem;margin:.35em 0 .35em}
+.rung p{color:var(--slate);font-size:.97rem;margin:0}
+.rung code{font-family:var(--mono);font-size:.85em;color:var(--chalk)}
+
+/* why-build callout */
+.callout{border:1px solid var(--line);border-radius:16px;background:var(--panel);padding:38px 34px}
+.callout .big{font-family:var(--disp);font-weight:700;font-size:clamp(1.3rem,2.6vw,1.7rem);line-height:1.25;max-width:30ch}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
+.split > div{border-top:1px solid var(--line);padding-top:16px}
+.split h4{font-family:var(--mono);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}
+.split.have h4{color:var(--grad-b)}
+.split p{color:var(--slate);font-size:.96rem;margin:0}
+
+/* courses */
+.courses{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--board-2);display:flex;flex-direction:column;transition:transform .18s ease,border-color .2s}
+.card:hover{transform:translateY(-3px);border-color:var(--slate)}
+.card-thumb{width:100%;height:170px;object-fit:cover;background:var(--panel);border-bottom:1px solid var(--line)}
+.card-body{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+.card-body h3{font-size:1.12rem;margin:0 0 .4em}
+.card-body p{color:var(--slate);font-size:.92rem;flex:1;margin:0 0 16px}
+.card-link{font-family:var(--mono);font-size:.82rem;color:var(--chalk);border-bottom:1px solid var(--slate);padding-bottom:2px;align-self:flex-start;transition:border-color .2s}
+.card:hover .card-link{border-color:var(--grad-b)}
+
+/* how it runs */
+.how{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.how-item{border:1px solid var(--line);border-radius:12px;padding:24px;background:var(--board-2)}
+.how-item .n{font-family:var(--mono);font-size:.8rem;color:var(--grad-b)}
+.how-item h3{font-size:1.12rem;margin:.5em 0 .35em}
+.how-item p{color:var(--slate);font-size:.95rem;margin:0}
+
+/* FAQ */
+.faq details{border:1px solid var(--line);border-radius:12px;background:var(--board-2);margin-bottom:12px;overflow:hidden}
+.faq summary{cursor:pointer;list-style:none;padding:20px 24px;font-family:var(--disp);font-weight:700;font-size:1.08rem;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .mark{font-family:var(--mono);color:var(--grad-b);transition:transform .2s}
+.faq details[open] summary .mark{transform:rotate(45deg)}
+.faq .ans{padding:0 24px 22px;color:var(--slate)}
+.faq .ans p{margin:0;color:var(--slate)}
+
+/* final cta */
+.final{border:1px solid transparent;border-radius:20px;background:
+  linear-gradient(var(--board-2),var(--board-2)) padding-box,
+  var(--grad-diag) border-box;padding:52px 38px;text-align:center}
+.final h2{font-size:clamp(1.8rem,4vw,2.6rem)}
+.final p{color:var(--slate);max-width:54ch;margin:0 auto 28px}
+.final .cta-row{justify-content:center}
+
+/* footer */
+footer.site{border-top:1px solid var(--line);padding:56px 0 36px;margin-top:30px}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:36px}
+.foot-brand .brand{margin-bottom:12px}
+.foot-brand p{color:var(--slate);font-size:.96rem;max-width:36ch}
+.foot-col h4{font-family:var(--mono);font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin-bottom:14px}
+.foot-col a{display:block;color:var(--chalk);font-size:.95rem;margin-bottom:10px;transition:color .2s}
+.foot-col a:hover{color:var(--grad-b)}
+.foot-small{border-top:1px solid var(--line);margin-top:40px;padding-top:24px;color:var(--slate-dim);font-size:.86rem;font-family:var(--mono)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+/* responsive */
+@media (max-width:900px){
+  .path{grid-template-columns:1fr}
+  .courses{grid-template-columns:1fr 1fr}
+  .cols,.split,.how,.split.have{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:680px){
+  .nav-links{display:none}
+  .hamburger{display:flex}
+  .mobile-menu.open{display:block}
+  .trust{grid-template-columns:1fr 1fr;gap:24px}
+  .courses{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  body{font-size:16px}
+  .hero{padding:56px 0 40px}
+  section{padding:48px 0}
+}
+@media (max-width:380px){
+  .wrap{padding:0 18px}
+  .gd-anno{font-size:.66rem}
+}
+</style>
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://learn.modernagecoders.com/#organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com/",
+      "logo": "https://learn.modernagecoders.com/images/logo.svg",
+      "description": "Live, online, instructor-led coding, programming, AI/ML and mathematics school for ages 6 to 65, teaching depth-first and from first principles.",
+      "sameAs": [
+        "https://www.facebook.com/modernagecoders",
+        "https://www.instagram.com/modernagecoders",
+        "https://www.linkedin.com/company/modernagecoders",
+        "https://www.youtube.com/@modernagecoders"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "247",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "areaServed": "Worldwide",
+      "knowsAbout": [
+        "Python",
+        "Programming",
+        "Coding",
+        "Data Analysis",
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning",
+        "Generative AI",
+        "Data Science",
+        "Data Structures and Algorithms"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/machine-learning-from-scratch#webpage",
+      "url": "https://learn.modernagecoders.com/machine-learning-from-scratch",
+      "name": "Machine Learning From Scratch - Build Real AI/ML Models | Modern Age Coders",
+      "description": "Build machine learning from scratch: implement gradient descent and core models by hand, then master advanced AI/ML libraries. Stage 3 of a 3-stage Python-to-AI path.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://learn.modernagecoders.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://learn.modernagecoders.com/#organization"
+      },
+      "datePublished": "2026-06-18",
+      "dateModified": "2026-06-18",
+      "primaryImageOfPage": "https://learn.modernagecoders.com/images/og-modern-age-coders.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          "h2"
+        ]
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Advanced AI and ML courses (Stage 3)",
+      "numberOfItems": 5,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Course",
+            "name": "AI & ML Complete",
+            "description": "Machine learning and deep learning with the maths that makes them work.",
+            "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Course",
+            "name": "Artificial Intelligence Complete",
+            "description": "AI from fundamentals to neural networks and applied projects.",
+            "url": "https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Course",
+            "name": "Generative AI Masterclass",
+            "description": "How LLMs and generative models work, and how to build with them.",
+            "url": "https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Course",
+            "name": "Data Science Masterclass",
+            "description": "From data to insight with Python, pandas and real analysis.",
+            "url": "https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Course",
+            "name": "Data Structures & Algorithms",
+            "description": "The problem-solving core behind every strong ML engineer.",
+            "url": "https://learn.modernagecoders.com/courses/data-structures-algorithms-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="/" aria-label="Modern Age Coders home">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30">
+      <span>Modern Age Coders</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="/courses">Courses</a>
+      <a href="/course-atlas">Course Atlas</a>
+      <a href="/contact">Contact</a>
+      <a class="btn btn-grad" href="/book-demo">Book a free demo</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/courses">Courses</a>
+    <a href="/course-atlas">Course Atlas</a>
+    <a href="/contact">Contact</a>
+    <a href="/book-demo">Book a free demo</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="kicker">Stage 3 of 3 — from the maths up</span>
+      <h1 class="reveal">Machine learning, <span class="grad-text">from scratch.</span></h1>
+      <p class="sub reveal">You implement gradient descent and the core models by hand, you understand the maths that makes them work, <span class="muted">and only then do you master the advanced AI and ML libraries everyone else starts with.</span></p>
+      <div class="audience-pill reveal"><span class="dot" aria-hidden="true"></span> Built for college students and working professionals</div>
+      <div class="cta-row reveal">
+        <a class="btn btn-grad btn-lg" href="/book-demo">Book a free demo</a>
+        <a class="btn btn-lg" href="#full-path">See the full path</a>
+      </div>
+      <div class="trust reveal">
+        <div><div class="num">10,000+</div><div class="lab">Students taught</div></div>
+        <div><div class="num">15+</div><div class="lab">Countries</div></div>
+        <div><div class="num">70+</div><div class="lab">Live courses</div></div>
+        <div><div class="num">4.9/5</div><div class="lab">247+ reviews</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FULL PATH -->
+  <section id="full-path">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">The full path</span>
+        <h2>Three stages from your first line of Python to building real models.</h2>
+        <p>This page is the final stage. We are showing you the whole route first so you can see the depth and decide where you belong, rather than landing in the deep end by accident. Most courses sell you the destination and quietly skip the road that gets you there; we would rather you arrive ready. Read across all three stages, work out which one matches your current Python and maths, and start there. If the third stage looks too steep today, the first two are where you earn it.</p>
+      </div>
+      <div class="path">
+        <div class="stage reveal">
+          <span class="step">Stage 1</span>
+          <h3>Python From the Ground Up</h3>
+          <div class="count">Grade 6–12: about 40 classes · Grade 12+ and adults: 24 classes</div>
+          <p>Python from the roots, including the modules most courses skip, and a first honest taste of AI. This is where the language stops being mysterious and starts being a tool you reach for.</p>
+          <a class="stage-link" href="/python-from-the-ground-up">Open Stage 1 →</a>
+        </div>
+        <div class="stage reveal">
+          <span class="step">Stage 2</span>
+          <h3>NumPy, Pandas &amp; Matplotlib Masterclass</h3>
+          <div class="count">24 classes</div>
+          <p>Data analysis in real depth, with the maths underneath, not just method names. For teens after Stage 1, college students and professionals. This is the bridge: vectors, arrays and dataframes are the language machine learning speaks.</p>
+          <a class="stage-link" href="/numpy-pandas-matplotlib-masterclass">Open Stage 2 →</a>
+        </div>
+        <div class="stage here reveal">
+          <span class="badge">You are here</span>
+          <span class="step">Stage 3</span>
+          <h3>Machine Learning From Scratch</h3>
+          <div class="count">32 classes · college and professionals only</div>
+          <p>Build models by hand — gradient descent and the core algorithms — before you ever import a library. Then master the advanced AI and ML libraries and the current advancements, with the understanding to actually use them.</p>
+          <a class="stage-link" href="/machine-learning-from-scratch">You are reading it</a>
+        </div>
+      </div>
+      <p class="path-note">The full adult route runs <b>about 80 live classes</b> — 24 in Stage 1, 24 in Stage 2, and 32 here in Stage 3.</p>
+    </div>
+  </section>
+
+  <!-- SIGNATURE: GRADIENT DESCENT -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal" style="text-align:center;margin-left:auto;margin-right:auto">
+        <span class="kicker">The one idea everything rests on</span>
+        <h2>This is gradient descent. You will write it yourself.</h2>
+        <p style="margin-left:auto;margin-right:auto">Almost every model you train is a search for the lowest point on a loss curve. Linear regression, logistic regression, and the deep networks behind modern AI are all variations on the same move: measure the error, find which direction reduces it, and step that way. Understand this picture in code and the rest of machine learning stops being magic.</p>
+      </div>
+      <div class="signature reveal">
+        <div class="gd-stage">
+          <div class="gd-axes" aria-hidden="true">
+            <div class="gd-axis-y"></div>
+            <div class="gd-axis-x"></div>
+            <span class="gd-label y">loss J(θ)</span>
+            <span class="gd-label x">parameter θ →</span>
+          </div>
+          <svg class="gd-svg" viewBox="0 0 600 260" preserveAspectRatio="none" role="img" aria-label="A bowl-shaped loss curve with stepping dots descending from the top edge toward the minimum at the bottom of the bowl, illustrating gradient descent.">
+            <defs>
+              <linearGradient id="gdGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#FF3D81"/>
+                <stop offset="100%" stop-color="#FFB000"/>
+              </linearGradient>
+            </defs>
+            <!-- parabola loss curve: J = a(x-300)^2 scaled -->
+            <path class="gd-curve" d="M 40 18 Q 300 470 560 18"/>
+            <!-- descent path connecting the steps -->
+            <path class="gd-path" d="M 70 40 L 140 110 L 205 165 L 258 198 L 290 213 L 300 216"/>
+            <!-- stepping dots -->
+            <circle class="gd-dot d1" cx="70"  cy="40"  r="7" fill="#FF3D81"/>
+            <circle class="gd-dot d2" cx="140" cy="110" r="7" fill="#FF5A6E"/>
+            <circle class="gd-dot d3" cx="205" cy="165" r="7" fill="#FF7A4E"/>
+            <circle class="gd-dot d4" cx="258" cy="198" r="7" fill="#FF9A2A"/>
+            <circle class="gd-dot d5" cx="290" cy="213" r="7" fill="#FFA814"/>
+            <circle class="gd-dot dmin" cx="300" cy="216" r="9" fill="#FFB000"/>
+          </svg>
+          <span class="gd-anno a-grad">start: high loss</span>
+          <span class="gd-anno a-lr">step = <span class="grad-text">learning rate</span> × gradient</span>
+          <span class="gd-anno a-min">minimum</span>
+        </div>
+        <p class="gd-caption">
+          Each dot is one update. You measure the slope of the loss, take a step downhill sized by the learning rate, and repeat until you reach the bottom.
+          <span class="gd-update"><span class="eq">θ := θ − α · ∂J/∂θ</span></span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT FROM SCRATCH MEANS -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Stage 3 in depth</span>
+        <h2>What "from scratch" actually means here.</h2>
+        <p>It is not a slogan. It is the order we teach in, and it is the reason graduates of this stage can do things people who skipped it cannot.</p>
+      </div>
+      <div class="ladder">
+        <div class="rung reveal">
+          <span class="tag">First — you implement the core algorithms by hand</span>
+          <h3>Linear regression, logistic regression, gradient descent and a neural network — written in NumPy</h3>
+          <p>You start with linear regression coded from nothing: a hypothesis, a cost function, and a gradient descent loop you write line by line. You watch the loss fall update by update and you tie that movement back to the slope you computed. Then logistic regression for classification, where the sigmoid and the cross-entropy loss are derived, not handed to you. Then you build a small neural network with its own forward pass and a manual backward pass, so backpropagation is something you have implemented rather than something you have heard about — you propagate the error backwards through each layer yourself and see exactly where each weight's update comes from. No <code>model.fit()</code> until you have already done its job by hand.</p>
+        </div>
+        <div class="rung reveal">
+          <span class="tag">Second — you learn the maths that makes them work</span>
+          <h3>Derivatives, vectors and matrices, probability, and loss functions</h3>
+          <p>We teach exactly the maths each algorithm needs, at the moment it needs it. Derivatives, because gradient descent is the derivative made practical. Vectors and matrices, because your data and your weights are arrays and the multiplications have meaning. Probability, because classification, cross-entropy loss and model confidence all rest on it. You leave able to read why a model behaves the way it does, not just what to type.</p>
+        </div>
+        <div class="rung reveal">
+          <span class="tag">Third — then you master the advanced libraries</span>
+          <h3>scikit-learn, TensorFlow and PyTorch — used by someone who knows what they hide</h3>
+          <p>Now the libraries are a speed-up, not a black box. You rebuild your earlier models in scikit-learn, then move to TensorFlow and PyTorch to train deeper networks on real datasets. Because you have written the internals once, the API choices, the loss functions and the optimisers all mean something — when you reach for an optimiser you know it is gradient descent with improvements you can name, and when you set a learning rate you know precisely what you are changing. You can read the documentation and the error messages with understanding, and you can tell the difference between a bug in your setup and a genuine limit of the model.</p>
+        </div>
+        <div class="rung reveal">
+          <span class="tag">Throughout — heavy practicals and current advancements</span>
+          <h3>Real projects, plus where machine learning is going right now</h3>
+          <p>Most of your time is hands-on: training models, debugging them, tuning them and measuring them honestly. You also work through current advancements — deep learning for images and text, and generative models — so you understand the systems behind today's AI tools rather than only consuming them. Every concept ends in code that runs and a result you can defend.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIBRARIES YOU MASTER -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">The toolkit, understood</span>
+        <h2>The AI and ML libraries you master — and how each one works.</h2>
+        <p>You do not just call these libraries. Because you have built the same ideas by hand first, you learn what each one does underneath — and you leave fluent in the tools real machine-learning and AI work actually runs on.</p>
+      </div>
+      <div class="ladder">
+        <div class="rung reveal">
+          <span class="tag">Classic machine learning</span>
+          <h3>scikit-learn</h3>
+          <p>The standard library for classic machine learning. You rebuild your hand-coded models here and learn how its estimators, pipelines, preprocessing and cross-validation work — and why the fit and predict design is shaped the way it is.</p>
+        </div>
+        <div class="rung reveal">
+          <span class="tag">Deep learning — the one we go deepest on</span>
+          <h3>PyTorch</h3>
+          <p>After you have written a backward pass by hand, PyTorch's autograd finally makes sense: you trace how it records a computation graph and differentiates it for you. You build tensors, custom layers, datasets and your own training loops, and train real neural networks on real data — understanding every line, not copying a notebook.</p>
+        </div>
+        <div class="rung reveal">
+          <span class="tag">Deep learning — production</span>
+          <h3>TensorFlow and Keras</h3>
+          <p>The other major framework. You learn the Keras layer API and how TensorFlow's graph execution compares to PyTorch, so you can read, debug and build in either one rather than being locked into a single ecosystem.</p>
+        </div>
+        <div class="rung reveal">
+          <span class="tag">Modern AI — large language models</span>
+          <h3>Hugging Face Transformers</h3>
+          <p>What attention and a transformer block actually compute, how a tokeniser turns text into numbers, and how to load, fine-tune and run modern models — so generative AI is something you understand and shape, not just call.</p>
+        </div>
+        <div class="rung reveal">
+          <span class="tag">Boosting and the numerical core</span>
+          <h3>XGBoost, NumPy and SciPy</h3>
+          <p>How gradient-boosted trees learn from each other's errors and keep winning on tabular data, all sitting on the NumPy and SciPy numerical core that every library on this list quietly stands on.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY BUILD IT FIRST -->
+  <section>
+    <div class="wrap">
+      <div class="callout reveal">
+        <span class="kicker">Why build it before you import it</span>
+        <p class="big" style="margin-top:14px">Anyone can call a library. The engineers worth hiring are the ones who can open it up, find out why a model is failing, and make it better.</p>
+        <p style="color:var(--slate);max-width:62ch;margin-top:6px">When you have implemented gradient descent yourself, an exploding loss is a clue, not a wall — you know to check the learning rate, the scaling of your features, or a sign error in the gradient. When you understand the maths of a loss function, a model that quietly underperforms is something you can diagnose rather than a verdict you have to accept. The gap between someone who builds and someone who only imports is not speed on a good day — it is what happens on a bad one, when the dataset is messy, the metric is misleading, and the tutorial does not match your problem. We deliberately put you on the building side of that gap, because that is the depth that lasts long after a particular library or model is replaced. If this philosophy resonates, you will feel at home with how we think about <a href="/real-coding-classes" class="grad-text">real coding classes</a> across the school.</p>
+        <div class="split have">
+          <div>
+            <h4>Engineers who built it from scratch</h4>
+            <p>Read a strange loss curve and know where to look. Tune learning rate, regularisation and architecture on purpose. Judge whether an AI-generated model is actually correct. Improve a model instead of swapping it and hoping.</p>
+          </div>
+          <div>
+            <h4>People who only ever called the API</h4>
+            <p>Copy a notebook that works until it does not. Cannot tell overfitting from a data leak. Stall the moment an error is not on Stack Overflow. Trust whatever a tool returns because they have no way to check it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Courses in this stage</span>
+        <h2>The advanced courses attached to Stage 3.</h2>
+        <p>These are the live, college-and-professional courses that carry the from-scratch approach into full specialisations. Look through them and pick the one that matches where you want to go. The complete catalogue lives in the <a href="/course-atlas" class="grad-text">course atlas</a>.</p>
+      </div>
+      <div class="courses">
+        <article class="card reveal">
+          <img class="card-thumb" src="/images/ai-ml-college.jpg" alt="AI and ML Complete course thumbnail" loading="lazy" decoding="async" width="600" height="340">
+          <div class="card-body">
+            <h3>AI &amp; ML Complete</h3>
+            <p>The full machine learning specialisation: build the algorithms by hand, then the advanced libraries, then real models end to end.</p>
+            <a class="card-link" href="/courses/ai-ml-masterclass-complete-college">View course →</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img class="card-thumb" src="/images/ai-college.png" alt="Artificial Intelligence Complete course thumbnail" loading="lazy" decoding="async" width="600" height="340">
+          <div class="card-body">
+            <h3>Artificial Intelligence Complete</h3>
+            <p>A broad, rigorous tour of modern AI — from the foundations through neural networks to the systems behind today's intelligent tools.</p>
+            <a class="card-link" href="/courses/artificial-intelligence-complete-masterclass-college">View course →</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img class="card-thumb" src="/images/generative-ai-college.png" alt="Generative AI Masterclass course thumbnail" loading="lazy" decoding="async" width="600" height="340">
+          <div class="card-body">
+            <h3>Generative AI Masterclass</h3>
+            <p>How generative models actually work, built up from the maths, so you can use and shape them rather than only prompt them.</p>
+            <a class="card-link" href="/courses/complete-generative-ai-masterclass-college">View course →</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img class="card-thumb" src="/images/data-science-college.png" alt="Data Science Masterclass course thumbnail" loading="lazy" decoding="async" width="600" height="340">
+          <div class="card-body">
+            <h3>Data Science Masterclass</h3>
+            <p>The end-to-end craft: clean and analyse real data, model it properly, and communicate results that hold up to scrutiny.</p>
+            <a class="card-link" href="/courses/data-science-complete-masterclass-college">View course →</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img class="card-thumb" src="/images/dsa-college.jpg" alt="Data Structures and Algorithms course thumbnail" loading="lazy" decoding="async" width="600" height="340">
+          <div class="card-body">
+            <h3>Data Structures &amp; Algorithms</h3>
+            <p>The reasoning underneath strong engineering — the structures and algorithms that make your machine learning code efficient and your interviews winnable.</p>
+            <a class="card-link" href="/courses/data-structures-algorithms-masterclass-college">View course →</a>
+          </div>
+        </article>
+      </div>
+      <div class="cta-row reveal" style="margin-top:34px">
+        <a class="btn btn-lg" href="/course-atlas">Browse all courses</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW CLASSES RUN -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">How classes run</span>
+        <h2>Live, small batch, and relentlessly practical.</h2>
+        <p>This stage cannot be learned by watching. You build, you train, and a mentor watches your maths and your code while you do it.</p>
+      </div>
+      <div class="how">
+        <div class="how-item reveal">
+          <span class="n">01</span>
+          <h3>Live and instructor-led</h3>
+          <p>Every class is taught in real time by an instructor, online, with you typing alongside. Questions are answered the moment they come up, not left in a comment thread.</p>
+        </div>
+        <div class="how-item reveal">
+          <span class="n">02</span>
+          <h3>Small batches</h3>
+          <p>Groups stay small so the instructor can see your screen, your derivations and your mistakes. At this depth, individual attention is the whole point.</p>
+        </div>
+        <div class="how-item reveal">
+          <span class="n">03</span>
+          <h3>You implement and train models</h3>
+          <p>You are not watching demos. You write the gradient descent loop, you build the network, you train it on real data and you read the results yourself.</p>
+        </div>
+        <div class="how-item reveal">
+          <span class="n">04</span>
+          <h3>Your maths and your code get reviewed</h3>
+          <p>A mentor reviews both the reasoning and the implementation — the derivative you wrote and the loop that uses it — so misunderstandings are caught early, while they are cheap.</p>
+        </div>
+      </div>
+      <div class="cta-row reveal" style="margin-top:34px">
+        <a class="btn btn-grad btn-lg" href="/book-demo">Book a free demo</a>
+        <a class="btn btn-lg" href="/contact">Talk to us first</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Questions, answered plainly</span>
+        <h2>Frequently asked questions.</h2>
+      </div>
+      <div class="faq">
+        <details class="reveal">
+          <summary>Who is this stage for? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>Stage 3 is for college students and working professionals only. You should already be comfortable writing Python and reasoning about data. It suits computer science and engineering students, analysts and developers moving into machine learning, and professionals who want to build and ship real models rather than only call hosted APIs.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Do I need Stage 1 and Stage 2 first? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>You need their content, not necessarily the classes. <a href="/python-from-the-ground-up">Stage 1, Python From the Ground Up</a>, gives you the language. <a href="/numpy-pandas-matplotlib-masterclass">Stage 2, the NumPy, Pandas and Matplotlib Masterclass</a>, gives you data handling and the vector thinking that machine learning runs on. If you already have those skills you can start here. If you do not, take the earlier stages first, because we build models on top of NumPy arrays from day one.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>How much maths do I need? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>You need school-level algebra and a willingness to learn the rest with us. We teach the calculus, linear algebra and probability you need as we use them: derivatives for gradient descent, vectors and matrices for the data, and probability for loss functions and classification. We never wave at the maths and skip it, and we never assume a graduate background either.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>What will I build? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>You will implement linear regression, logistic regression and gradient descent by hand in NumPy, then code a small neural network with its own forward and backward pass. After that you rebuild the same ideas with scikit-learn, TensorFlow and PyTorch, train models on real datasets, and complete practical projects in classification, regression and a generative model. You finish with code you wrote and understand, not borrowed notebooks.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Are classes live? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>Yes. Every class is live, online and instructor-led in a small batch. You write code during the session, train models with the mentor watching, and get your maths and your implementation reviewed in real time. It is not a recorded video course you watch alone.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>If AI tools can build models, why learn ML from scratch? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>Because from-scratch understanding is exactly what lets you use those tools well. When a model underfits, a loss curve will not move, or an AI assistant hands you confident but wrong code, the people who understand gradient descent, loss functions and the data can debug it, tune it and improve it. People who only call APIs stall the moment something breaks. As AI spreads, that depth is what makes an engineer valuable rather than replaceable.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section>
+    <div class="wrap">
+      <div class="final reveal">
+        <h2>Build the models, then master the tools.</h2>
+        <p>Sit in one live class, watch how we teach machine learning from the maths up, and decide for yourself whether this is the depth you have been missing.</p>
+        <div class="cta-row">
+          <a class="btn btn-grad btn-lg" href="/book-demo">Book a free demo</a>
+          <a class="btn btn-lg" href="/course-atlas">Browse all courses</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="/" aria-label="Modern Age Coders home">
+          <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30">
+          <span>Modern Age Coders</span>
+        </a>
+        <p>Live, online, instructor-led coding and mathematics classes for ages 6–65, taught in small batches across 15+ countries.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Learn</h4>
+        <a href="/courses">Courses</a>
+        <a href="/course-atlas">Course Atlas</a>
+        <a href="/real-coding-classes">Real Coding Classes</a>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/book-demo">Book a free demo</a>
+      </div>
+    </div>
+    <p class="foot-small">© 2026 Modern Age Coders. Live coding &amp; mathematics classes, ages 6–65.</p>
+  </div>
+</footer>
+
+<script>
+  // mobile menu
+  (function(){
+    var h=document.getElementById('hamburger'),m=document.getElementById('mobileMenu');
+    if(h&&m){h.addEventListener('click',function(){
+      var open=m.classList.toggle('open');
+      h.setAttribute('aria-expanded',open?'true':'false');
+    });
+    m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('open');h.setAttribute('aria-expanded','false');}});
+    }
+  })();
+  // scroll reveal
+  (function(){
+    var els=document.querySelectorAll('.reveal');
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(reduce||!('IntersectionObserver' in window)){
+      for(var i=0;i<els.length;i++){els[i].classList.add('in');}
+      return;
+    }
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
+      });
+    },{rootMargin:'0px 0px -10% 0px',threshold:0.08});
+    for(var j=0;j<els.length;j++){io.observe(els[j]);}
+  })();
+</script>
+<script>window.addEventListener('load',function(){setTimeout(function(){var r=document.querySelectorAll('.reveal');for(var i=0;i<r.length;i++){r[i].classList.add('in');}},1600);});</script>
+</body>
+</html>

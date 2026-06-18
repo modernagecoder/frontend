@@ -284,6 +284,36 @@
   status = 200
 
 [[redirects]]
+  from = "/python-from-the-ground-up"
+  to = "/src/pages/python-from-the-ground-up.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-from-the-ground-up.md"
+  to = "/src/pages/python-from-the-ground-up.md"
+  status = 200
+
+[[redirects]]
+  from = "/numpy-pandas-matplotlib-masterclass"
+  to = "/src/pages/numpy-pandas-matplotlib-masterclass.html"
+  status = 200
+
+[[redirects]]
+  from = "/numpy-pandas-matplotlib-masterclass.md"
+  to = "/src/pages/numpy-pandas-matplotlib-masterclass.md"
+  status = 200
+
+[[redirects]]
+  from = "/machine-learning-from-scratch"
+  to = "/src/pages/machine-learning-from-scratch.html"
+  status = 200
+
+[[redirects]]
+  from = "/machine-learning-from-scratch.md"
+  to = "/src/pages/machine-learning-from-scratch.md"
+  status = 200
+
+[[redirects]]
   from = "/pricing"
   to = "/src/pages/pricing.html"
   status = 200

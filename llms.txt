@@ -52,6 +52,9 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Coding vs Programming (the real difference between coding and programming; how we build genuine programmers and problem-solvers, not just coders; markdown at /coding-vs-programming.md): https://learn.modernagecoders.com/coding-vs-programming
 - Learn Coding From First Principles (depth-first — understand how code actually works under the hood: memory, execution, the maths behind AI/ML; markdown at /learn-coding-from-first-principles.md): https://learn.modernagecoders.com/learn-coding-from-first-principles
 - Master AI, ML, Python & Java (the deep mastery tracks with full course showcase; markdown at /master-ai-ml-python-java.md): https://learn.modernagecoders.com/master-ai-ml-python-java
+- Python From the Ground Up (Stage 1 of the Python-to-AI path: complete in-depth Python from fundamentals to the modules most courses skip; Grade 6-12 ~40 classes, Grade 12+ 24 classes; markdown at /python-from-the-ground-up.md): https://learn.modernagecoders.com/python-from-the-ground-up
+- NumPy, Pandas & Matplotlib Masterclass (Stage 2: Python data analysis in real depth with the maths underneath; 24 classes; markdown at /numpy-pandas-matplotlib-masterclass.md): https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass
+- Machine Learning From Scratch (Stage 3: build AI/ML models by hand incl. gradient descent, then master advanced libraries; 32 classes, college & professionals; markdown at /machine-learning-from-scratch.md): https://learn.modernagecoders.com/machine-learning-from-scratch
 - About Us: https://learn.modernagecoders.com/about
 - Blog (coding & math education tips): https://learn.modernagecoders.com/blog
 - Pricing (from ₹1499/month): https://learn.modernagecoders.com/pricing
