@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N8BM164YJP');
+  gtag('config', 'AW-16910316353');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Learn Coding From First Principles — Understand How Code Actually Works | Modern Age Coders</title>
+<meta name="description" content="Stop memorising syntax. Learn coding from first principles and finally understand how code actually works under the hood — memory, execution, data and the maths behind AI and ML. Modern Age Coders teaches the depth other classes skip, in live small-batch Python, Java, C++ and AI/ML classes. Free demo.">
+<meta name="keywords" content="learn coding from first principles, how code actually works, understand programming deeply, first principles programming, what coding tutorials skip, how computers run code, depth-first coding course, conceptual programming course, learn python internals, maths behind machine learning, why learn coding fundamentals with AI, understand AI generated code, learn programming deeply 2026, how computers run code, what AI coding tools cannot do, depth-first programming">
+<meta name="author" content="Modern Age Coders">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://learn.modernagecoders.com/learn-coding-from-first-principles">
+<link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/learn-coding-from-first-principles">
+<link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/learn-coding-from-first-principles">
+<link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/learn-coding-from-first-principles">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+<meta name="theme-color" content="#ECE3CF">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://learn.modernagecoders.com/learn-coding-from-first-principles">
+<meta property="og:title" content="Learn Coding From First Principles — Understand How Code Actually Works | Modern Age Coders">
+<meta property="og:description" content="Stop memorising syntax. Learn coding from first principles and finally understand how code actually works under the hood — memory, execution, data and the maths behind AI and ML. The depth other classes skip, in live small-batch classes.">
+<meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+<meta property="og:site_name" content="Modern Age Coders">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Learn Coding From First Principles — Understand How Code Actually Works | Modern Age Coders">
+<meta name="twitter:description" content="Stop memorising syntax. Learn how code actually works under the hood — memory, execution, data and the maths behind AI and ML. Live small-batch classes. Free demo.">
+<meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Spline+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Learn Coding From First Principles",
+  "description": "A depth-first approach to learning to code: understand how code actually works under the hood — memory, execution, data and the maths behind AI and ML — in live, small-batch Python, Java, C++ and AI/ML classes.",
+  "url": "https://learn.modernagecoders.com/learn-coding-from-first-principles",
+  "provider": {
+    "@type": "Organization",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com",
+    "logo": "https://learn.modernagecoders.com/images/logo.svg"
+  },
+  "audience": { "@type": "EducationalAudience", "educationalRole": "student" },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "247",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does 'first principles' actually mean here?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It means we start from the smallest true thing and build up, instead of starting from a tutorial you copy. Before you use a list, you understand how it lives in memory. Before you write a loop, you understand why it costs what it costs. Before you call a model, you understand the maths that makes it learn. You end up able to reason about code you've never seen, because you understand the rules underneath it rather than a recipe on top of it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I just want to build apps fast — why go deep?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Going deep is what makes you fast later. People who only memorise patterns stall the moment something breaks in a way the tutorial didn't cover. When you understand how code actually runs, debugging stops being guesswork, you choose the right data structure on instinct, and you read unfamiliar libraries without fear. We still ship real projects in every track — we just make sure you understand why they work, so the next project is faster, not slower."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need maths?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For general programming, no — we teach the small amount of logic and counting you need as we go. For AI and machine learning, some maths is unavoidable, and that's exactly the part most courses skip. We teach it from scratch and tie every idea to code: vectors as lists of numbers, a gradient as the direction that reduces error, probability as counting outcomes. You don't need to arrive a mathematician; you need to be willing to understand the few ideas that make models work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this only for advanced students?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. First-principles teaching helps beginners most of all, because they learn the real model of the machine before bad habits form. We teach ages 6 to 65 in small batches, and the depth is dialled to the learner. A ten-year-old learns how a variable holds a value; a college student learns how that value sits in memory and what a function call costs. Same philosophy, different altitude."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are classes live?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every class is live, online and instructor-led, in small batches so a mentor can actually see how you think. You write the code yourself while a teacher watches your reasoning, asks why, and corrects the idea — not just the output. Recordings exist for revision, but the learning happens live, in the room, with someone who can answer the question behind your question."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the free demo work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Book a free demo class and we'll match you with a mentor and a topic at your level. It's a real lesson, not a sales pitch: you'll write a little code, take apart one idea from first principles, and see exactly how we teach. If it's a fit, you continue. If not, you walk away with one concept you genuinely understand. No payment details needed to try it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "With AI writing code, why learn how it works from first principles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because AI raises the value of understanding, not lowers it. A model can produce code that looks right and is subtly wrong, and the only way to catch that is to understand how the code actually runs: memory, control flow, complexity, and the maths behind any model you use. First-principles learners review AI output the way a senior engineer does, knowing what to trust, what to question and how to fix it. Learners who never opened the black box can only hope the AI was right. Depth is what turns AI from a risk into a real advantage."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Learn Coding From First Principles", "item": "https://learn.modernagecoders.com/learn-coding-from-first-principles" }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --paper:#ECE3CF;
+    --panel:#E4D8BC;
+    --ink:#16130D;
+    --cobalt:#1B43C0;
+    --vermilion:#E8431F;
+    --caption:#6B6450;
+    --plum:#6A1F8A;
+    --line:#16130D;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation:none !important; transition:none !important;}
+  }
+  body{
+    margin:0;
+    background-color:var(--paper);
+    background-image:
+      radial-gradient(var(--caption) 0.6px, transparent 0.7px),
+      radial-gradient(var(--caption) 0.6px, transparent 0.7px);
+    background-size:7px 7px, 7px 7px;
+    background-position:0 0, 3.5px 3.5px;
+    color:var(--ink);
+    font-family:"Spline Sans", system-ui, sans-serif;
+    font-size:18px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  /* faint paper grain over the halftone */
+  body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    z-index:0;
+    background-image:
+      repeating-linear-gradient(115deg, rgba(22,19,13,0.02) 0 2px, transparent 2px 5px);
+    mix-blend-mode:multiply;
+  }
+  .wrap{position:relative;z-index:1;}
+  .container{width:100%;max-width:1140px;margin:0 auto;padding:0 22px;}
+  a{color:var(--cobalt);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  img{max-width:100%;display:block;}
+  h1,h2,h3{font-family:"Anton", Impact, sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:0.5px;line-height:0.96;margin:0;}
+  .mono{font-family:"DM Mono", ui-monospace, monospace;}
+  .kicker{
+    font-family:"DM Mono", monospace;
+    font-size:0.78rem;
+    letter-spacing:0.28em;
+    text-transform:uppercase;
+    color:var(--vermilion);
+    margin:0 0 14px;
+  }
+  .eyebrow-num{
+    font-family:"DM Mono", monospace;
+    font-size:0.74rem;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    color:var(--caption);
+  }
+  :focus-visible{
+    outline:3px solid var(--vermilion);
+    outline-offset:3px;
+  }
+
+  /* ---------- NAV ---------- */
+  header.site{
+    position:sticky;top:0;z-index:50;
+    background:var(--paper);
+    border-bottom:2.5px solid var(--ink);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .brand img{height:34px;width:auto;}
+  .brand b{font-family:"Anton",sans-serif;font-weight:400;font-size:1.25rem;text-transform:uppercase;letter-spacing:0.5px;color:var(--ink);}
+  .nav-links{display:flex;align-items:center;gap:26px;}
+  .nav-links a{color:var(--ink);font-weight:600;font-size:0.95rem;}
+  .nav-links a:hover{color:var(--cobalt);text-decoration:none;}
+  .btn{
+    display:inline-block;
+    font-family:"DM Mono",monospace;
+    font-weight:500;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    font-size:0.85rem;
+    padding:12px 20px;
+    border:2.5px solid var(--ink);
+    background:var(--vermilion);
+    color:var(--paper);
+    box-shadow:4px 4px 0 var(--ink);
+    transition:transform .12s ease, box-shadow .12s ease;
+  }
+  .btn:hover{text-decoration:none;transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink);color:var(--paper);}
+  .btn:active{transform:translate(0,0);box-shadow:2px 2px 0 var(--ink);}
+  .btn.cobalt{background:var(--cobalt);}
+  .btn.ghost{background:transparent;color:var(--ink);box-shadow:4px 4px 0 var(--ink);}
+  .btn.ghost:hover{color:var(--ink);background:var(--panel);}
+  .nav-cta{display:flex;align-items:center;gap:14px;}
+  .hamburger{
+    display:none;
+    background:var(--paper);
+    border:2.5px solid var(--ink);
+    width:46px;height:42px;
+    cursor:pointer;
+    padding:0;
+    align-items:center;justify-content:center;
+    flex-direction:column;gap:5px;
+  }
+  .hamburger span{display:block;width:22px;height:2.5px;background:var(--ink);}
+  @media (max-width:880px){
+    .nav-links{
+      display:none;
+      position:absolute;top:100%;left:0;right:0;
+      flex-direction:column;align-items:flex-start;gap:0;
+      background:var(--paper);
+      border-bottom:2.5px solid var(--ink);
+      padding:6px 22px 16px;
+    }
+    .nav-links.open{display:flex;}
+    .nav-links a{padding:12px 0;width:100%;border-bottom:1px solid rgba(22,19,13,0.18);}
+    .nav-cta .btn{display:none;}
+    .nav-cta .hamburger{display:flex;}
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{padding:64px 0 40px;}
+  .hero h1{
+    font-size:clamp(3rem, 11vw, 8.5rem);
+    position:relative;
+    color:var(--ink);
+    max-width:11ch;
+  }
+  /* signature misregistration: ghost in cobalt offset behind */
+  .hero h1::before{
+    content:attr(data-echo);
+    position:absolute;
+    left:3px;top:3px;
+    color:var(--cobalt);
+    z-index:-1;
+    -webkit-text-stroke:0;
+    user-select:none;
+    pointer-events:none;
+  }
+  .hero .sub{
+    font-size:clamp(1.05rem,2.6vw,1.4rem);
+    max-width:46ch;
+    margin:26px 0 10px;
+    color:var(--ink);
+  }
+  .hero .sub strong{color:var(--vermilion);}
+  .cta-row{display:flex;flex-wrap:wrap;gap:16px;margin:30px 0 0;}
+
+  /* trust stamps */
+  .stamps{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:16px;
+    margin:46px 0 0;
+  }
+  .stamp{
+    border:2.5px solid var(--ink);
+    background:var(--panel);
+    padding:16px 14px;
+    text-align:center;
+    transform:rotate(-1.2deg);
+    position:relative;
+  }
+  .stamp:nth-child(even){transform:rotate(1.2deg);background:var(--paper);}
+  .stamp b{display:block;font-family:"Anton",sans-serif;font-weight:400;font-size:1.9rem;color:var(--cobalt);line-height:1;}
+  .stamp:nth-child(odd) b{color:var(--vermilion);}
+  .stamp span{font-family:"DM Mono",monospace;font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--caption);display:block;margin-top:7px;}
+
+  /* ---------- SECTIONS ---------- */
+  section{padding:62px 0;border-top:2.5px solid var(--ink);}
+  .sec-head{margin:0 0 12px;}
+  .sec-head h2{font-size:clamp(2rem,6vw,4rem);color:var(--ink);max-width:18ch;}
+  .sec-head h2 .ink2{color:var(--vermilion);}
+  .lead{font-size:1.12rem;max-width:62ch;margin:18px 0 0;color:var(--ink);}
+  p{margin:0 0 18px;}
+  .body-copy p{max-width:64ch;}
+
+  /* ---------- EXPLODED VIEW ---------- */
+  .exploded{margin-top:34px;}
+  .specimen-line{
+    font-family:"DM Mono",monospace;
+    background:var(--ink);
+    color:var(--paper);
+    padding:14px 18px;
+    border:2.5px solid var(--ink);
+    font-size:1rem;
+    overflow-x:auto;
+    white-space:nowrap;
+  }
+  .specimen-line .tok-key{color:var(--vermilion);}
+  .specimen-line .tok-num{color:#9fc0ff;}
+  .layers{display:flex;flex-direction:column;gap:0;margin-top:0;}
+  .layer{
+    position:relative;
+    border:2.5px solid var(--ink);
+    border-top:none;
+    background:var(--panel);
+    padding:20px 130px 20px 22px;
+    background-image:radial-gradient(rgba(27,67,192,0.16) 1px, transparent 1.4px);
+    background-size:9px 9px;
+  }
+  .layer:nth-child(odd){
+    background-image:radial-gradient(rgba(232,67,31,0.16) 1px, transparent 1.4px);
+    background-size:9px 9px;
+  }
+  .layer .lnum{font-family:"DM Mono",monospace;font-size:0.72rem;letter-spacing:0.18em;color:var(--caption);text-transform:uppercase;}
+  .layer h3{font-size:1.5rem;margin:4px 0 6px;color:var(--ink);}
+  .layer p{font-size:0.98rem;max-width:54ch;margin:0;color:var(--ink);}
+  .layer .arrow{
+    position:absolute;
+    right:14px;top:50%;
+    transform:translateY(-50%);
+    width:104px;
+    text-align:right;
+  }
+  .layer .arrow .tag{
+    display:inline-block;
+    font-family:"DM Mono",monospace;
+    font-size:0.66rem;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--paper);
+    background:var(--vermilion);
+    border:2px solid var(--ink);
+    padding:5px 8px;
+    line-height:1.25;
+    text-align:left;
+  }
+  .layer .arrow::after{
+    content:"";
+    display:block;
+    width:0;height:0;
+    margin:6px 0 0 auto;
+    border-left:9px solid transparent;
+    border-right:9px solid transparent;
+    border-top:12px solid var(--vermilion);
+  }
+  .layer:last-child .arrow::after{display:none;}
+  .exploded-caption{font-family:"DM Mono",monospace;font-size:0.74rem;color:var(--caption);margin-top:14px;text-transform:uppercase;letter-spacing:0.1em;}
+
+  /* ---------- IGNORED LIST ---------- */
+  .ignore-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0;margin-top:34px;border:2.5px solid var(--ink);}
+  .ignore-item{
+    padding:22px 22px;
+    border-right:2.5px solid var(--ink);
+    border-bottom:2.5px solid var(--ink);
+  }
+  .ignore-item:nth-child(2n){border-right:none;}
+  .ignore-grid .ignore-item:nth-last-child(-n+2){border-bottom:none;}
+  .ignore-item .n{font-family:"DM Mono",monospace;font-weight:500;color:var(--vermilion);font-size:0.8rem;letter-spacing:0.1em;}
+  .ignore-item h3{font-size:1.35rem;margin:8px 0 8px;color:var(--cobalt);}
+  .ignore-item p{font-size:0.97rem;margin:0;color:var(--ink);max-width:46ch;}
+
+  /* ---------- PULL QUOTE ---------- */
+  .pull{
+    margin:46px 0 0;
+    border-left:8px solid var(--vermilion);
+    padding:8px 0 8px 24px;
+  }
+  .pull p{font-family:"Anton",sans-serif;text-transform:uppercase;font-size:clamp(1.5rem,4.4vw,2.6rem);line-height:1.02;color:var(--ink);margin:0;max-width:22ch;}
+  .pull p em{font-style:normal;color:var(--cobalt);}
+
+  /* ---------- METHOD ---------- */
+  .method-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px;}
+  .method-card{
+    border:2.5px solid var(--ink);
+    background:var(--paper);
+    padding:22px;
+    box-shadow:5px 5px 0 var(--ink);
+  }
+  .method-card .step{font-family:"Anton",sans-serif;font-size:2.4rem;color:var(--vermilion);line-height:1;}
+  .method-card:nth-child(3n+2) .step{color:var(--cobalt);}
+  .method-card:nth-child(3n) .step{color:var(--plum);}
+  .method-card h3{font-size:1.25rem;margin:10px 0 8px;color:var(--ink);}
+  .method-card p{font-size:0.96rem;margin:0;color:var(--ink);}
+
+  /* ---------- SPECIMEN COURSES ---------- */
+  .specimens{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:34px;}
+  .spec-card{
+    border:2.5px solid var(--ink);
+    background:var(--paper);
+    display:flex;flex-direction:column;
+    transition:transform .14s ease, box-shadow .14s ease;
+    box-shadow:5px 5px 0 var(--ink);
+  }
+  .spec-card:hover{transform:translate(-3px,-3px);box-shadow:8px 8px 0 var(--cobalt);}
+  .spec-thumb{position:relative;border-bottom:2.5px solid var(--ink);overflow:hidden;background:var(--panel);}
+  .spec-thumb img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;filter:contrast(1.04) saturate(1.05);}
+  .spec-thumb .label{
+    position:absolute;top:10px;left:10px;
+    font-family:"DM Mono",monospace;font-size:0.66rem;letter-spacing:0.1em;text-transform:uppercase;
+    background:var(--ink);color:var(--paper);padding:4px 8px;border:2px solid var(--ink);
+  }
+  .spec-body{padding:18px;display:flex;flex-direction:column;flex:1;}
+  .spec-body h3{font-size:1.2rem;color:var(--ink);margin:0 0 8px;}
+  .spec-body p{font-size:0.95rem;color:var(--caption);margin:0 0 16px;flex:1;}
+  .spec-body a.view{
+    font-family:"DM Mono",monospace;font-size:0.82rem;text-transform:uppercase;letter-spacing:0.06em;
+    color:var(--cobalt);font-weight:500;border-top:2px solid var(--ink);padding-top:12px;
+  }
+  .spec-body a.view:hover{color:var(--vermilion);text-decoration:none;}
+
+  /* ---------- HOW A CLASS RUNS ---------- */
+  .runs{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:34px;}
+  .run-card{border:2.5px dashed var(--ink);padding:22px;background:var(--panel);}
+  .run-card h3{font-size:1.3rem;color:var(--cobalt);margin:0 0 8px;}
+  .run-card:nth-child(even) h3{color:var(--vermilion);}
+  .run-card p{font-size:0.97rem;margin:0;color:var(--ink);}
+
+  /* ---------- FAQ ---------- */
+  .faq{margin-top:30px;border-top:2.5px solid var(--ink);}
+  details{border-bottom:2.5px solid var(--ink);padding:0;}
+  summary{
+    cursor:pointer;list-style:none;
+    font-family:"Anton",sans-serif;text-transform:uppercase;font-size:1.25rem;
+    padding:20px 44px 20px 0;position:relative;color:var(--ink);
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary::after{
+    content:"+";position:absolute;right:6px;top:16px;
+    font-family:"DM Mono",monospace;font-size:1.6rem;color:var(--vermilion);
+  }
+  details[open] summary::after{content:"–";}
+  details p{padding:0 0 22px;margin:0;max-width:70ch;font-size:1rem;}
+
+  /* ---------- CTA BAND ---------- */
+  .cta-band{background:var(--cobalt);color:var(--paper);border-top:2.5px solid var(--ink);border-bottom:2.5px solid var(--ink);
+    background-image:radial-gradient(rgba(236,227,207,0.18) 1px, transparent 1.4px);background-size:10px 10px;}
+  .cta-band h2{color:var(--paper);font-size:clamp(2rem,6vw,4rem);max-width:20ch;}
+  .cta-band h2 .ink2{color:var(--vermilion);}
+  .cta-band p{color:var(--paper);max-width:54ch;margin:16px 0 0;opacity:0.95;}
+  .cta-band .btn.ghost{color:var(--paper);box-shadow:4px 4px 0 var(--paper);border-color:var(--paper);}
+  .cta-band .btn.ghost:hover{background:rgba(236,227,207,0.12);color:var(--paper);}
+  .cta-band .btn{box-shadow:4px 4px 0 var(--paper);border-color:var(--paper);}
+
+  /* ---------- FOOTER ---------- */
+  footer.site{background:var(--paper);padding:54px 0 30px;border-top:2.5px solid var(--ink);}
+  .foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:30px;}
+  .foot-brand b{font-family:"Anton",sans-serif;font-weight:400;text-transform:uppercase;font-size:1.4rem;color:var(--ink);display:block;}
+  .foot-brand p{font-size:0.95rem;color:var(--caption);max-width:38ch;margin:10px 0 0;}
+  .foot-col h4{font-family:"DM Mono",monospace;font-size:0.78rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--vermilion);margin:0 0 14px;}
+  .foot-col a{display:block;color:var(--ink);font-size:0.95rem;margin-bottom:10px;}
+  .foot-col a:hover{color:var(--cobalt);}
+  .foot-bottom{margin-top:40px;border-top:2px solid var(--ink);padding-top:18px;font-family:"DM Mono",monospace;font-size:0.78rem;color:var(--caption);letter-spacing:0.04em;}
+
+  /* ---------- REVEAL ---------- */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in{opacity:1;transform:none;}
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1;transform:none;}
+  }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width:880px){
+    .stamps{grid-template-columns:repeat(2,1fr);}
+    .method-grid{grid-template-columns:1fr;}
+    .specimens{grid-template-columns:repeat(2,1fr);}
+  }
+  @media (max-width:640px){
+    body{font-size:17px;}
+    .ignore-grid{grid-template-columns:1fr;}
+    .ignore-item{border-right:none;}
+    .ignore-grid .ignore-item:nth-last-child(-n+2){border-bottom:2.5px solid var(--ink);}
+    .ignore-grid .ignore-item:last-child{border-bottom:none;}
+    .specimens{grid-template-columns:1fr;}
+    .runs{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr;}
+    .layer{padding:18px 18px 70px;}
+    .layer .arrow{position:static;width:auto;text-align:left;transform:none;margin-top:14px;}
+    .layer .arrow::after{margin:6px 0 0 0;}
+  }
+  @media (max-width:380px){
+    .stamps{grid-template-columns:1fr;}
+    .cta-row .btn{width:100%;text-align:center;}
+  }
+</style>
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://learn.modernagecoders.com/#organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com/",
+      "logo": "https://learn.modernagecoders.com/images/logo.svg",
+      "description": "Live, online, instructor-led coding, programming, AI/ML and mathematics school for ages 6 to 65, teaching depth-first and from first principles.",
+      "sameAs": [
+        "https://www.facebook.com/modernagecoders",
+        "https://www.instagram.com/modernagecoders",
+        "https://www.linkedin.com/company/modernagecoders",
+        "https://www.youtube.com/@modernagecoders"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "247",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "areaServed": "Worldwide",
+      "knowsAbout": [
+        "Programming",
+        "Coding",
+        "Python",
+        "Java",
+        "C++",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning",
+        "Generative AI",
+        "Data Structures and Algorithms",
+        "Data Science",
+        "Web Development"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/learn-coding-from-first-principles#webpage",
+      "url": "https://learn.modernagecoders.com/learn-coding-from-first-principles",
+      "name": "Learn Coding From First Principles - Understand How Code Actually Works",
+      "description": "Learn coding from first principles and understand how code actually works under the hood, plus the maths behind AI and ML, in live small-batch classes.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://learn.modernagecoders.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://learn.modernagecoders.com/#organization"
+      },
+      "datePublished": "2026-06-18",
+      "dateModified": "2026-06-18",
+      "primaryImageOfPage": "https://learn.modernagecoders.com/images/og-modern-age-coders.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          "h2"
+        ]
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Six courses to learn coding in depth",
+      "numberOfItems": 6,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Course",
+            "name": "Python Masterclass - Zero to Advanced",
+            "description": "Understand Python from the inside: objects, memory, the data model and generators.",
+            "url": "https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Beginner to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Course",
+            "name": "AI & ML Complete",
+            "description": "Learn how models actually learn, with the maths built from scratch and tied to code.",
+            "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Course",
+            "name": "Data Structures & Algorithms",
+            "description": "See why each structure exists and what every operation really costs.",
+            "url": "https://learn.modernagecoders.com/courses/data-structures-algorithms-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Course",
+            "name": "C++ Programming",
+            "description": "Get close to the machine: memory, pointers and how programs really run.",
+            "url": "https://learn.modernagecoders.com/courses/cpp-programming-complete-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Beginner to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Course",
+            "name": "Data Science Masterclass",
+            "description": "Work from raw data to insight while understanding the methods underneath.",
+            "url": "https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Course",
+            "name": "Generative AI Masterclass",
+            "description": "Understand how large language models work before you build with them.",
+            "url": "https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <div class="container nav">
+    <a class="brand" href="/" aria-label="Modern Age Coders home">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="34" height="34">
+      <b>Modern Age Coders</b>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="/courses">Courses</a>
+      <a href="/course-atlas">Course Atlas</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn cobalt" href="/book-demo">Book a free demo</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" style="border-top:none;">
+    <div class="container">
+      <p class="kicker">Field Guide No.01 — Depth</p>
+      <h1 data-echo="Open the black box.">Open the black box.</h1>
+      <p class="sub">Most courses teach you which buttons to press. We teach you <strong>what actually happens when you press them</strong> — how code runs, where data lives, and the maths behind the machines that learn.</p>
+      <div class="cta-row">
+        <a class="btn" href="/book-demo">Book a free demo</a>
+        <a class="btn ghost" href="/course-atlas">Browse all courses</a>
+      </div>
+      <div class="stamps" role="list" aria-label="Proof points">
+        <div class="stamp" role="listitem"><b>10,000+</b><span>Students taught</span></div>
+        <div class="stamp" role="listitem"><b>15+</b><span>Countries</span></div>
+        <div class="stamp" role="listitem"><b>70+</b><span>Live courses</span></div>
+        <div class="stamp" role="listitem"><b>4.9/5</b><span>247+ reviews</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT'S INSIDE THE BOX -->
+  <section class="reveal">
+    <div class="container">
+      <p class="eyebrow-num">Specimen 01 — Exploded view</p>
+      <div class="sec-head">
+        <h2>What's inside <span class="ink2">the box?</span></h2>
+      </div>
+      <p class="lead">A single line of code looks simple. Underneath, it falls through four layers before anything happens. Here is the whole descent — the part most courses never show you.</p>
+
+      <div class="exploded">
+        <div class="specimen-line" aria-label="Sample line of code being traced"><span class="tok-key">total</span> = <span class="tok-key">sum</span>([<span class="tok-num">1</span>, <span class="tok-num">2</span>, <span class="tok-num">3</span>])</div>
+        <div class="layers">
+
+          <div class="layer">
+            <span class="lnum">Layer 1 — Source</span>
+            <h3>What you wrote</h3>
+            <p>Plain text you can read. To the computer it is meaningless until something translates it. This is the only layer most tutorials ever discuss.</p>
+            <div class="arrow"><span class="tag">Parsed into a tree</span></div>
+          </div>
+
+          <div class="layer">
+            <span class="lnum">Layer 2 — Interpreter / bytecode</span>
+            <h3>Turned into instructions</h3>
+            <p>Python compiles your line into bytecode: tiny steps like "load the list", "call sum", "store the result". Now there is a precise sequence the machine can follow.</p>
+            <div class="arrow"><span class="tag">Run step by step</span></div>
+          </div>
+
+          <div class="layer">
+            <span class="lnum">Layer 3 — Memory</span>
+            <h3>Where the data lives</h3>
+            <p>The list, each number, and the name "total" all occupy real memory. Names are labels pointing at boxes of bytes. Understanding this is why you stop being surprised by bugs.</p>
+            <div class="arrow"><span class="tag">Handed to the CPU</span></div>
+          </div>
+
+          <div class="layer">
+            <span class="lnum">Layer 4 — CPU / hardware</span>
+            <h3>Where it actually runs</h3>
+            <p>The processor adds the bytes, billions of times a second. Every loop, every model, every game is ultimately this: numbers moving through silicon. That is the bottom of the box.</p>
+            <div class="arrow"><span class="tag">Result returns</span></div>
+          </div>
+
+        </div>
+        <p class="exploded-caption">// Trace one line all the way down and code stops being magic.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT OTHER CLASSES IGNORE -->
+  <section class="reveal">
+    <div class="container">
+      <p class="eyebrow-num">Specimen 02 — The skipped chapter</p>
+      <div class="sec-head">
+        <h2>What other <span class="ink2">classes ignore</span></h2>
+      </div>
+      <p class="lead">These are the questions that separate someone who copies code from someone who understands it. Almost every beginner course walks straight past them. We start here.</p>
+
+      <div class="ignore-grid">
+        <div class="ignore-item">
+          <span class="n">01</span>
+          <h3>How a variable really lives in memory</h3>
+          <p>A name is not the value. It is a label pointing at a box. That single idea explains why two variables can change together, why copying sometimes does nothing, and a whole category of "impossible" bugs.</p>
+        </div>
+        <div class="ignore-item">
+          <span class="n">02</span>
+          <h3>Why a loop can be slow</h3>
+          <p>Doing the same work a million times is fine; doing it a million times inside another million is not. We teach you to feel the cost of a loop before you run it, not after it freezes.</p>
+        </div>
+        <div class="ignore-item">
+          <span class="n">03</span>
+          <h3>What "truthy" actually means</h3>
+          <p>Why does an empty list count as false but the string "false" count as true? Because the language has rules for emptiness and zero. Learn the rule once and you never guess at an "if" again.</p>
+        </div>
+        <div class="ignore-item">
+          <span class="n">04</span>
+          <h3>What a function call really costs</h3>
+          <p>Calling a function is not free. The machine saves its place, sets up new memory, jumps, runs, and returns. Knowing this is the difference between clean code and code that quietly crawls.</p>
+        </div>
+        <div class="ignore-item">
+          <span class="n">05</span>
+          <h3>How a model actually learns from data</h3>
+          <p>A model does not "understand". It nudges numbers up and down to make its errors smaller, over and over. We show you that loop in real maths and real code, so AI stops being a mystery word.</p>
+        </div>
+        <div class="ignore-item">
+          <span class="n">06</span>
+          <h3>Why the same code gives different answers</h3>
+          <p>Floating point, integer overflow, order of operations, hidden rounding. Numbers in a computer are not the numbers from school. We teach where they diverge so your results stop surprising you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIRST PRINCIPLES, NOT FIRST TUTORIALS -->
+  <section class="reveal">
+    <div class="container">
+      <p class="eyebrow-num">Specimen 03 — Method</p>
+      <div class="sec-head">
+        <h2>First principles, <span class="ink2">not first tutorials</span></h2>
+      </div>
+      <div class="body-copy">
+        <p>A tutorial hands you the answer and asks you to type it. You finish with a working program and almost no idea why it works. The moment something breaks, or the problem changes shape, you are stuck — because you learned a recipe, not the rules behind it. First principles is the opposite. We start from the smallest true thing and build, so that what you learn transfers to problems you have never seen.</p>
+        <p>That sounds slower. In practice it is faster, because you stop relearning the same idea in ten disguises. A learner who truly understands how memory works does not need a separate lesson for lists, dictionaries, objects and files — they are all the same idea wearing different clothes. This is the difference we explore in depth on our <a href="/real-coding-classes">real coding classes</a> page, and it is the engine behind everything we teach here.</p>
+      </div>
+
+      <div class="method-grid">
+        <div class="method-card">
+          <div class="step">1</div>
+          <h3>Start from the smallest true thing</h3>
+          <p>Before a loop, a single step. Before a list, a single box in memory. We name the one true idea, then build everything on top of it.</p>
+        </div>
+        <div class="method-card">
+          <div class="step">2</div>
+          <h3>Derive, don't memorise</h3>
+          <p>You should be able to rebuild a rule from scratch if you forget it. We teach the why so the what becomes obvious, instead of a list to cram.</p>
+        </div>
+        <div class="method-card">
+          <div class="step">3</div>
+          <h3>The maths behind AI and ML</h3>
+          <p>Vectors as lists of numbers. A gradient as the direction that lowers error. Probability as counting outcomes. We tie every idea straight to code you run.</p>
+        </div>
+        <div class="method-card">
+          <div class="step">4</div>
+          <h3>Read real source code</h3>
+          <p>We open real libraries and read them together. Once you can read code others wrote, you are no longer trapped inside the few examples a course gave you.</p>
+        </div>
+        <div class="method-card">
+          <div class="step">5</div>
+          <h3>Rebuild small tools from scratch</h3>
+          <p>The fastest way to understand a thing is to build a tiny version of it. A mini sorting routine, a tiny model, a small interpreter — built by you, understood by you.</p>
+        </div>
+        <div class="method-card">
+          <div class="step">6</div>
+          <h3>Connect every layer</h3>
+          <p>From the line you type to the silicon that runs it, you see how the layers fit. Nothing stays a black box, because you have been inside every one.</p>
+        </div>
+      </div>
+
+      <div class="pull">
+        <p>Understanding is faster than memorising. <em>It just feels slower on day one.</em></p>
+      </div>
+
+      <div class="body-copy" style="margin-top:30px;">
+        <p>People often ask whether there is even a difference between "coding" and "programming", or whether it all blurs together. There is a real distinction, and it maps almost exactly onto depth — typing instructions versus designing how a system thinks. We pull that apart carefully on our <a href="/coding-vs-programming">coding vs programming</a> page, but the short version is this: anyone can be taught to produce code, the same way anyone can be taught to copy a sentence in a language they do not speak. We are interested in the other thing — the understanding that lets you write the sentence yourself, and explain why it is correct.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSE SPECIMENS -->
+  <section class="reveal">
+    <div class="container">
+      <p class="eyebrow-num">Specimen 04 — Course catalogue</p>
+      <div class="sec-head">
+        <h2>Six places <span class="ink2">to go deep</span></h2>
+      </div>
+      <p class="lead">Every track below is built depth-first: you learn how the thing works, then you build it. Each is live, small-batch and mentor-led. Open the full set on the <a href="/course-atlas">course atlas</a>.</p>
+
+      <div class="specimens">
+
+        <article class="spec-card">
+          <div class="spec-thumb">
+            <span class="label">Python</span>
+            <img src="/images/python-college.png" alt="Python Masterclass course thumbnail" width="640" height="360" loading="lazy" decoding="async">
+          </div>
+          <div class="spec-body">
+            <h3>Python Masterclass — Zero to Advanced</h3>
+            <p>Not just syntax — how Python stores data, runs your code and where the time actually goes.</p>
+            <a class="view" href="/courses/python-programming-masterclass-zero-to-advanced-college">View course →</a>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <div class="spec-thumb">
+            <span class="label">AI / ML</span>
+            <img src="/images/ai-ml-college.jpg" alt="AI and Machine Learning Complete course thumbnail" width="640" height="360" loading="lazy" decoding="async">
+          </div>
+          <div class="spec-body">
+            <h3>AI &amp; ML Complete</h3>
+            <p>Build models you understand. We teach the maths that makes a model learn, line by line.</p>
+            <a class="view" href="/courses/ai-ml-masterclass-complete-college">View course →</a>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <div class="spec-thumb">
+            <span class="label">DSA</span>
+            <img src="/images/dsa-college.jpg" alt="Data Structures and Algorithms course thumbnail" width="640" height="360" loading="lazy" decoding="async">
+          </div>
+          <div class="spec-body">
+            <h3>Data Structures &amp; Algorithms</h3>
+            <p>Learn why a structure is fast, not just how to use it. Cost and trade-offs, from the ground up.</p>
+            <a class="view" href="/courses/data-structures-algorithms-masterclass-college">View course →</a>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <div class="spec-thumb">
+            <span class="label">C++</span>
+            <img src="/images/cpp-college.png" alt="C++ Programming course thumbnail" width="640" height="360" loading="lazy" decoding="async">
+          </div>
+          <div class="spec-body">
+            <h3>C++ Programming</h3>
+            <p>The language that makes memory visible. See exactly where your data lives and what it costs.</p>
+            <a class="view" href="/courses/cpp-programming-complete-masterclass-college">View course →</a>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <div class="spec-thumb">
+            <span class="label">Data Science</span>
+            <img src="/images/data-science-college.png" alt="Data Science Masterclass course thumbnail" width="640" height="360" loading="lazy" decoding="async">
+          </div>
+          <div class="spec-body">
+            <h3>Data Science Masterclass</h3>
+            <p>From raw numbers to real conclusions — and the statistics that tell you when to trust them.</p>
+            <a class="view" href="/courses/data-science-complete-masterclass-college">View course →</a>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <div class="spec-thumb">
+            <span class="label">Generative AI</span>
+            <img src="/images/generative-ai-college.png" alt="Generative AI Masterclass course thumbnail" width="640" height="360" loading="lazy" decoding="async">
+          </div>
+          <div class="spec-body">
+            <h3>Generative AI Masterclass</h3>
+            <p>Look past the demo. Understand how these models predict, why they fail, and how to steer them.</p>
+            <a class="view" href="/courses/complete-generative-ai-masterclass-college">View course →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW A CLASS RUNS -->
+  <section class="reveal">
+    <div class="container">
+      <p class="eyebrow-num">Specimen 05 — In the room</p>
+      <div class="sec-head">
+        <h2>How a <span class="ink2">class runs</span></h2>
+      </div>
+      <p class="lead">Depth needs a real teacher in the room. Here is how a Modern Age Coders class actually works, from age six to sixty-five.</p>
+
+      <div class="runs">
+        <div class="run-card">
+          <h3>Live, every time</h3>
+          <p>Classes are live and instructor-led — never a pre-recorded video you watch alone. You can ask the question behind your question and get an answer in the moment, while it still matters.</p>
+        </div>
+        <div class="run-card">
+          <h3>Small batches</h3>
+          <p>Batches stay small on purpose, so a mentor can actually see how each learner thinks. Depth is impossible in a crowd of a hundred; it needs eyes on your screen and your reasoning.</p>
+        </div>
+        <div class="run-card">
+          <h3>You build it yourself</h3>
+          <p>You write the code, not the teacher. Watching someone else type teaches almost nothing. The understanding sticks only when your own hands are on the keyboard, making and fixing real things.</p>
+        </div>
+        <div class="run-card">
+          <h3>Your reasoning gets reviewed</h3>
+          <p>A mentor reviews your thinking, not just your output. "It works" is the start of the conversation, not the end. Why does it work, what would break it, and what is the cleaner way?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="reveal">
+    <div class="container">
+      <p class="eyebrow-num">Specimen 06 — Questions</p>
+      <div class="sec-head">
+        <h2>Honest <span class="ink2">answers</span></h2>
+      </div>
+
+      <div class="faq">
+        <details>
+          <summary>What does "first principles" actually mean here?</summary>
+          <p>It means we start from the smallest true thing and build up, instead of starting from a tutorial you copy. Before you use a list, you understand how it lives in memory. Before you write a loop, you understand why it costs what it costs. Before you call a model, you understand the maths that makes it learn. You end up able to reason about code you've never seen, because you understand the rules underneath it rather than a recipe on top of it.</p>
+        </details>
+        <details>
+          <summary>I just want to build apps fast — why go deep?</summary>
+          <p>Going deep is what makes you fast later. People who only memorise patterns stall the moment something breaks in a way the tutorial didn't cover. When you understand how code actually runs, debugging stops being guesswork, you choose the right data structure on instinct, and you read unfamiliar libraries without fear. We still ship real projects in every track — we just make sure you understand why they work, so the next project is faster, not slower.</p>
+        </details>
+        <details>
+          <summary>Do I need maths?</summary>
+          <p>For general programming, no — we teach the small amount of logic and counting you need as we go. For AI and machine learning, some maths is unavoidable, and that's exactly the part most courses skip. We teach it from scratch and tie every idea to code: vectors as lists of numbers, a gradient as the direction that reduces error, probability as counting outcomes. You don't need to arrive a mathematician; you need to be willing to understand the few ideas that make models work.</p>
+        </details>
+        <details>
+          <summary>Is this only for advanced students?</summary>
+          <p>No. First-principles teaching helps beginners most of all, because they learn the real model of the machine before bad habits form. We teach ages 6 to 65 in small batches, and the depth is dialled to the learner. A ten-year-old learns how a variable holds a value; a college student learns how that value sits in memory and what a function call costs. Same philosophy, different altitude.</p>
+        </details>
+        <details>
+          <summary>Are classes live?</summary>
+          <p>Yes. Every class is live, online and instructor-led, in small batches so a mentor can actually see how you think. You write the code yourself while a teacher watches your reasoning, asks why, and corrects the idea — not just the output. Recordings exist for revision, but the learning happens live, in the room, with someone who can answer the question behind your question.</p>
+        </details>
+        <details>
+          <summary>How does the free demo work?</summary>
+          <p>Book a free demo class and we'll match you with a mentor and a topic at your level. It's a real lesson, not a sales pitch: you'll write a little code, take apart one idea from first principles, and see exactly how we teach. If it's a fit, you continue. If not, you walk away with one concept you genuinely understand. No payment details needed to try it.</p>
+        </details>
+        <details>
+          <summary>With AI writing code, why learn how it works from first principles?</summary>
+          <p>Because AI raises the value of understanding, not lowers it. A model can produce code that looks right and is subtly wrong, and the only way to catch that is to understand how the code actually runs: memory, control flow, complexity, and the maths behind any model you use. First-principles learners review AI output the way a senior engineer does, knowing what to trust, what to question and how to fix it. Learners who never opened the black box can only hope the AI was right. Depth is what turns AI from a risk into a real advantage.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band reveal">
+    <div class="container">
+      <h2>See the box <span class="ink2">opened.</span></h2>
+      <p>Book a free demo and we'll take one idea apart from first principles, live, with a mentor. It's a real lesson — bring your curiosity and one thing you've always found confusing.</p>
+      <div class="cta-row">
+        <a class="btn ghost" href="/book-demo">Book a free demo</a>
+        <a class="btn ghost" href="/course-atlas">Browse all courses</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <b>Modern Age Coders</b>
+        <p>Live, online coding and mathematics classes that open the black box — teaching how code actually works, from first principles, for ages 6 to 65.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Learn</h4>
+        <a href="/courses">Courses</a>
+        <a href="/course-atlas">Course Atlas</a>
+        <a href="/real-coding-classes">Real Coding Classes</a>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/book-demo">Book a demo</a>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 Modern Age Coders. Live coding &amp; mathematics classes, ages 6–65.</div>
+  </div>
+</footer>
+
+</div>
+
+<script>
+  (function(){
+    var btn = document.getElementById('hamburger');
+    var menu = document.getElementById('navLinks');
+    if(btn && menu){
+      btn.addEventListener('click', function(){
+        var open = menu.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      });
+      menu.addEventListener('click', function(e){
+        if(e.target.tagName === 'A'){
+          menu.classList.remove('open');
+          btn.setAttribute('aria-expanded','false');
+          btn.setAttribute('aria-label','Open menu');
+        }
+      });
+    }
+
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var items = document.querySelectorAll('.reveal');
+    if(reduce || !('IntersectionObserver' in window)){
+      items.forEach(function(el){ el.classList.add('in'); });
+    } else {
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){
+          if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+        });
+      }, { threshold: 0.12 });
+      items.forEach(function(el){ io.observe(el); });
+    }
+  })();
+</script>
+<script>window.addEventListener('load',function(){setTimeout(function(){var r=document.querySelectorAll('.reveal');for(var i=0;i<r.length;i++){r[i].classList.add('in');}},1600);});</script>
+</body>
+</html>

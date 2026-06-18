@@ -54,7 +54,15 @@
 /about /src/pages/about.html 200
 /courses /src/pages/course.html 200
 /course-atlas /src/pages/course-atlas.html 200
+/course-atlas.md /src/pages/course-atlas.md 200
 /real-coding-classes /src/pages/real-coding-classes.html 200
+/real-coding-classes.md /src/pages/real-coding-classes.md 200
+/coding-vs-programming /src/pages/coding-vs-programming.html 200
+/coding-vs-programming.md /src/pages/coding-vs-programming.md 200
+/learn-coding-from-first-principles /src/pages/learn-coding-from-first-principles.html 200
+/learn-coding-from-first-principles.md /src/pages/learn-coding-from-first-principles.md 200
+/master-ai-ml-python-java /src/pages/master-ai-ml-python-java.html 200
+/master-ai-ml-python-java.md /src/pages/master-ai-ml-python-java.md 200
 /business-solutions /src/pages/business-solutions.html 200
 /ai-agents-and-automation /src/pages/ai-agents-and-automation.html 200
 /pricing /src/pages/pricing.html 200

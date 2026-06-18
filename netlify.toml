@@ -239,8 +239,48 @@
   status = 200
 
 [[redirects]]
+  from = "/course-atlas.md"
+  to = "/src/pages/course-atlas.md"
+  status = 200
+
+[[redirects]]
   from = "/real-coding-classes"
   to = "/src/pages/real-coding-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/real-coding-classes.md"
+  to = "/src/pages/real-coding-classes.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-vs-programming"
+  to = "/src/pages/coding-vs-programming.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-vs-programming.md"
+  to = "/src/pages/coding-vs-programming.md"
+  status = 200
+
+[[redirects]]
+  from = "/learn-coding-from-first-principles"
+  to = "/src/pages/learn-coding-from-first-principles.html"
+  status = 200
+
+[[redirects]]
+  from = "/learn-coding-from-first-principles.md"
+  to = "/src/pages/learn-coding-from-first-principles.md"
+  status = 200
+
+[[redirects]]
+  from = "/master-ai-ml-python-java"
+  to = "/src/pages/master-ai-ml-python-java.html"
+  status = 200
+
+[[redirects]]
+  from = "/master-ai-ml-python-java.md"
+  to = "/src/pages/master-ai-ml-python-java.md"
   status = 200
 
 [[redirects]]
