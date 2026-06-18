@@ -10,6 +10,7 @@
     "generate:llms": "node scripts/generate-llms-full.js",
     "generate:all": "npm run generate:blogs && npm run generate:courses && npm run generate:resources && npm run generate:static-md && npm run generate:llms",
     "update:course-links": "node scripts/update-course-links.js",
+    "build:links": "node scripts/build-internal-links.js",
     "dev": "node scripts/dev-server.js",
     "start": "node scripts/dev-server.js",
     "test:contrast": "node scripts/contrast-checker.js",

@@ -3113,6 +3113,66 @@
     .cp-class-row .body { padding: 16px 18px; }
 }
 
+/* ── Family-story cards ────────────────────────────────────────────────
+   The "<country> family stories" sections reuse .cp-class-walk (a 100px+1fr
+   timetable grid) as their wrapper, with .cp-walk-card children that had no
+   styling — so each card was crushed into the 100px column. :has() re-grids
+   ONLY the wrapper that holds story cards, leaving the minute-by-minute
+   timetable (whose children are .cp-class-row) completely untouched. */
+.cp-class-walk:has(.cp-walk-card) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 14px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    overflow: visible;
+}
+.cp-walk-card {
+    background: var(--cp-bg-1);
+    border: 1px solid var(--cp-line);
+    border-radius: var(--cp-radius);
+    padding: 22px 24px;
+}
+.cp-walk-card .cp-walk-tag {
+    display: inline-block;
+    font-family: var(--cp-font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--cp-accent);
+    background: var(--cp-accent-soft);
+    border: 1px solid var(--cp-accent-soft);
+    padding: 4px 11px;
+    border-radius: 40px;
+    margin-bottom: 12px;
+}
+.cp-walk-card h3 {
+    color: var(--cp-white);
+    font-family: var(--cp-font-display);
+    font-weight: 500;
+    font-size: 1.06rem;
+    line-height: 1.34;
+    letter-spacing: -0.01em;
+    margin: 0 0 10px;
+}
+.cp-walk-card p {
+    color: var(--cp-text-soft);
+    font-size: 0.93rem;
+    line-height: 1.6;
+    margin: 0 0 12px;
+}
+.cp-walk-card .cp-walk-meta {
+    margin: 12px 0 0;
+    padding-top: 12px;
+    border-top: 1px solid var(--cp-line);
+    font-family: var(--cp-font-mono);
+    font-size: 0.78rem;
+    color: var(--cp-text-soft);
+}
+@media (max-width: 640px) {
+    .cp-class-walk:has(.cp-walk-card) { grid-template-columns: 1fr; }
+}
+
 /* =====================================================================
    UNITED STATES COMPONENTS
    Silicon-Valley bold — vivid blue/red gradient, big type, vibrant.

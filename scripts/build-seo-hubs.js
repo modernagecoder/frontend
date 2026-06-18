@@ -509,7 +509,11 @@ function injectAll() {
   };
 
   console.log('\nInjecting "Related pages" blocks...');
-  process(citySlugs, 'coding-classes-in-india', 'Coding Classes in India', cityLabel);
+  // DEPRECATED: geographic wiring (cities + Kolkata/Howrah localities) is now owned by
+  // scripts/build-internal-links.js, which builds a correct state->city->locality graph.
+  // The old pickSiblings() linked across a flat hard-coded list (Kolkata -> Bengaluru, etc.).
+  // Do NOT re-enable the line below or it will overwrite the correct related blocks.
+  // process(citySlugs, 'coding-classes-in-india', 'Coding Classes in India', cityLabel);
   process(classSlugs, 'learn-coding-by-class', 'Learn Coding by Class', classLabel);
   process(ageSlugs, 'learn-coding-by-age', 'Learn Coding by Age', ageLabel);
   console.log(`\nDone. Updated ${count} templated pages.`);
@@ -521,7 +525,10 @@ function injectAll() {
 
 function main() {
   console.log('Building SEO hub pages...');
-  buildCityHub();
+  // DEPRECATED: buildCityHub() rewrote coding-classes-in-india.html from a stale 48-city
+  // list and reset the inlined nav/footer to placeholders. The India hub is now maintained
+  // directly and gets its related block from scripts/build-internal-links.js. Leave disabled.
+  // buildCityHub();
   buildClassHub();
   buildAgeHub();
   injectAll();
