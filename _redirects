@@ -39,8 +39,6 @@
 /hackathon /src/pages/hackathon.html 200
 /hackathon-guide /src/pages/hackathon-guide.html 200
 /hackathon-login /src/pages/hackathon-login.html 200
-/hackathon-winners /src/pages/hackathon-winners.html 200
-/hackathon-winners.html /hackathon-winners 301!
 /how-hackathon-works /hackathon-guide 301!
 /hackathon-rules /hackathon-guide 301!
 /hackathon-2026 /hackathon 301!
@@ -69,6 +67,18 @@
 /numpy-pandas-matplotlib-masterclass.md /src/pages/numpy-pandas-matplotlib-masterclass.md 200
 /machine-learning-from-scratch /src/pages/machine-learning-from-scratch.html 200
 /machine-learning-from-scratch.md /src/pages/machine-learning-from-scratch.md 200
+/maths-behind-machine-learning /src/pages/maths-behind-machine-learning.html 200
+/maths-behind-machine-learning.md /src/pages/maths-behind-machine-learning.md 200
+/how-large-language-models-work /src/pages/how-large-language-models-work.html 200
+/how-large-language-models-work.md /src/pages/how-large-language-models-work.md 200
+/how-computer-vision-works /src/pages/how-computer-vision-works.html 200
+/how-computer-vision-works.md /src/pages/how-computer-vision-works.md 200
+/ai-classes-for-kids /src/pages/ai-classes-for-kids.html 200
+/ai-classes-for-kids.md /src/pages/ai-classes-for-kids.md 200
+/ai-classes-for-teenagers /src/pages/ai-classes-for-teenagers.html 200
+/ai-classes-for-teenagers.md /src/pages/ai-classes-for-teenagers.md 200
+/ai-classes-for-beginners /src/pages/ai-classes-for-beginners.html 200
+/ai-classes-for-beginners.md /src/pages/ai-classes-for-beginners.md 200
 /business-solutions /src/pages/business-solutions.html 200
 /ai-agents-and-automation /src/pages/ai-agents-and-automation.html 200
 /pricing /src/pages/pricing.html 200

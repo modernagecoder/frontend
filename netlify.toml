@@ -138,18 +138,6 @@
   to = "/src/pages/hackathon-login.html"
   status = 200
 
-# Hackathon 1.0 winners page (clean URL → source file)
-[[redirects]]
-  from = "/hackathon-winners"
-  to = "/src/pages/hackathon-winners.html"
-  status = 200
-
-[[redirects]]
-  from = "/hackathon-winners.html"
-  to = "/hackathon-winners"
-  status = 301
-  force = true
-
 [[redirects]]
   from = "/hackathon-guide.html"
   to = "/hackathon-guide"
@@ -311,6 +299,66 @@
 [[redirects]]
   from = "/machine-learning-from-scratch.md"
   to = "/src/pages/machine-learning-from-scratch.md"
+  status = 200
+
+[[redirects]]
+  from = "/maths-behind-machine-learning"
+  to = "/src/pages/maths-behind-machine-learning.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-behind-machine-learning.md"
+  to = "/src/pages/maths-behind-machine-learning.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-large-language-models-work"
+  to = "/src/pages/how-large-language-models-work.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-large-language-models-work.md"
+  to = "/src/pages/how-large-language-models-work.md"
+  status = 200
+
+[[redirects]]
+  from = "/how-computer-vision-works"
+  to = "/src/pages/how-computer-vision-works.html"
+  status = 200
+
+[[redirects]]
+  from = "/how-computer-vision-works.md"
+  to = "/src/pages/how-computer-vision-works.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-kids"
+  to = "/src/pages/ai-classes-for-kids.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-kids.md"
+  to = "/src/pages/ai-classes-for-kids.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-teenagers"
+  to = "/src/pages/ai-classes-for-teenagers.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-teenagers.md"
+  to = "/src/pages/ai-classes-for-teenagers.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-beginners"
+  to = "/src/pages/ai-classes-for-beginners.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-beginners.md"
+  to = "/src/pages/ai-classes-for-beginners.md"
   status = 200
 
 [[redirects]]
