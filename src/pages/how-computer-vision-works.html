@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N8BM164YJP');
+  gtag('config', 'AW-16910316353');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Computer Vision Works - CNNs, Feature Maps &amp; Object Detection Explained | Modern Age Coders</title>
+<meta name="description" content="Understand how computer vision actually works - pixels, convolutions, feature maps, CNNs and vision transformers, classification and object detection - explained deeply, then built. Live small-batch AI classes for serious learners, college and professionals. Free demo.">
+<meta name="keywords" content="how computer vision works, computer vision explained, how cnns work, convolutional neural networks explained, image classification deep learning, object detection explained, feature maps, vision transformers, how machines see, learn computer vision, deep learning for images, image recognition explained">
+<meta name="author" content="Modern Age Coders">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://learn.modernagecoders.com/how-computer-vision-works">
+<link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/how-computer-vision-works">
+<link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/how-computer-vision-works">
+<link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/how-computer-vision-works">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+<meta name="theme-color" content="#EEF1F4">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://learn.modernagecoders.com/how-computer-vision-works">
+<meta property="og:title" content="How Computer Vision Works - CNNs, Feature Maps &amp; Object Detection Explained | Modern Age Coders">
+<meta property="og:description" content="Understand how computer vision actually works - pixels, convolutions, feature maps, CNNs and vision transformers, classification and detection - explained deeply, then built. Live small-batch AI classes.">
+<meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+<meta property="og:site_name" content="Modern Age Coders">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Computer Vision Works - CNNs, Feature Maps &amp; Object Detection Explained">
+<meta name="twitter:description" content="Pixels, convolutions, feature maps, CNNs and vision transformers, classification and object detection - explained deeply, then built in live small-batch AI classes.">
+<meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "How Computer Vision Works - CNNs, Feature Maps & Object Detection Explained",
+  "description": "A deep, standalone explanation of how computer vision works: pixels and tensors, convolutions, feature maps, CNNs, vision transformers, and the tasks of classification, detection and segmentation - then how to build it in live classes.",
+  "url": "https://learn.modernagecoders.com/how-computer-vision-works",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com/",
+    "logo": "https://learn.modernagecoders.com/images/logo.svg"
+  },
+  "hasPart": [
+    { "@type": "Course", "name": "AI & ML Complete", "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } },
+    { "@type": "Course", "name": "Artificial Intelligence Complete", "url": "https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } },
+    { "@type": "Course", "name": "Generative AI Masterclass", "url": "https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } },
+    { "@type": "Course", "name": "Data Science Masterclass", "url": "https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } },
+    { "@type": "Course", "name": "Python Masterclass - Zero to Advanced", "url": "https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college", "provider": { "@type": "Organization", "name": "Modern Age Coders" } }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to be advanced to learn computer vision?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. You need to be comfortable writing basic Python and willing to think carefully. We start from what an image really is - a grid of numbers - and build up to convolutions, CNNs and detection one honest step at a time. If your Python is shaky, our Python Masterclass gets you ready, and many learners take it first. You do not need any prior machine learning experience to begin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need maths for this?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You need school-level algebra and a willingness to learn the rest as we use it. Convolution is multiplication and addition over a small window. Training is gradient descent on a loss. We teach the small amount of linear algebra, calculus and probability each idea needs, exactly when it is needed, with pictures and code rather than abstract proofs. You will not be left guessing why a model behaves the way it does."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I build real projects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You build an image classifier and train it on a real dataset, then build an object detector that draws bounding boxes with confidence scores on images it has never seen. You work with real image data - loading, augmenting and cleaning it - and you use transfer learning to fine-tune a pretrained backbone on your own classes. Every project ends in code you wrote, can run and can explain."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is this for and what ages?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This depth-first track suits serious teenagers, college students and working professionals who want to genuinely understand computer vision and build with it. We teach ages 6 to 65 across our courses, but the from-pixels-to-detection path here is aimed at older, motivated learners. If you are a younger beginner, a free demo helps us place you on the right starting course."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are classes live?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every class is live, online and instructor-led in a small batch. You write code during the session, watch feature maps and detections appear on screen, and get your model and your reasoning reviewed in real time. It is not a recorded video you watch alone - you can ask why something failed the moment it fails."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why learn how computer vision works when pretrained models exist?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because understanding is what lets you choose, fine-tune, debug and trust a vision model rather than just run a demo you cannot fix. Pretrained models are powerful, but they fail on your own data, your edge cases, your lighting, your classes. The people who know how convolutions, feature maps and detection heads work can read a confusion matrix, fix a labelling problem, fine-tune the right layers and ship a real product. People who only call an API stall the moment the demo stops matching reality."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+    { "@type": "ListItem", "position": 2, "name": "How Computer Vision Works", "item": "https://learn.modernagecoders.com/how-computer-vision-works" }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#EEF1F4;
+  --bg-2:#E6EAEE;
+  --panel:#FFFFFF;
+  --ink:#0C0D10;
+  --steel:#5A6472;
+  --steel-dim:#8A93A0;
+  --green:#18C964;
+  --green-deep:#0FA552;
+  --magenta:#FF3DA6;
+  --line:#0C0D10;
+  --line-soft:rgba(12,13,16,0.12);
+  --grid:rgba(12,13,16,0.045);
+  --maxw:1180px;
+  --disp:"Archivo",sans-serif;
+  --body:"Inter",sans-serif;
+  --mono:"IBM Plex Mono",monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{
+  margin:0;
+  background-color:var(--bg);
+  background-image:
+    linear-gradient(var(--grid) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:22px 22px;
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:17px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{font-family:var(--disp);font-weight:800;line-height:1.07;margin:0 0 .5em;letter-spacing:-0.02em}
+p{margin:0 0 1.1em}
+a{color:var(--ink);text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.kicker{font-family:var(--mono);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--steel);font-weight:500}
+.green{color:var(--green-deep)}
+.mag{color:var(--magenta)}
+.lab{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;color:var(--steel)}
+code{font-family:var(--mono);background:var(--bg-2);border:1px solid var(--line-soft);border-radius:6px;padding:.06em .42em;font-size:.86em}
+section{padding:66px 0;border-top:1px solid var(--line-soft)}
+.section-head{max-width:62ch;margin-bottom:34px}
+.section-head h2{font-size:clamp(1.7rem,3.6vw,2.5rem);margin:.18em 0 .35em}
+.section-head p{color:var(--steel);font-size:1.04rem}
+
+/* focus */
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--magenta);outline-offset:3px;border-radius:4px}
+
+/* nav */
+header.site{position:sticky;top:0;z-index:60;background:rgba(238,241,244,0.9);backdrop-filter:blur(10px);border-bottom:1.5px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:11px;font-family:var(--disp);font-weight:800;font-size:1.05rem;letter-spacing:-0.02em}
+.brand img{width:30px;height:30px}
+.nav-links{display:flex;align-items:center;gap:28px}
+.nav-links a{font-size:.94rem;color:var(--steel);font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--ink)}
+.btn{display:inline-block;font-family:var(--mono);font-size:.82rem;letter-spacing:.03em;font-weight:500;padding:.74em 1.25em;border-radius:8px;border:1.5px solid var(--line);color:var(--ink);background:var(--panel);transition:transform .15s ease,box-shadow .2s ease,background .2s}
+.btn:hover{transform:translateY(-1px);box-shadow:3px 3px 0 var(--line)}
+.btn-green{background:var(--green);border-color:var(--line);color:#04210F;font-weight:600}
+.btn-green:hover{transform:translateY(-2px);box-shadow:4px 4px 0 var(--line)}
+.btn-lg{padding:.92em 1.55em;font-size:.9rem}
+.hamburger{display:none;background:var(--panel);border:1.5px solid var(--line);border-radius:8px;width:44px;height:44px;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:5px}
+.hamburger span{display:block;width:20px;height:2px;background:var(--ink)}
+.mobile-menu{display:none;border-bottom:1.5px solid var(--line);background:var(--panel)}
+.mobile-menu.open{display:block}
+.mobile-menu a{display:block;padding:14px 24px;border-top:1px solid var(--line-soft);color:var(--ink);font-size:.98rem;font-weight:500}
+
+/* hero */
+.hero{padding:78px 0 58px;border-top:none}
+.hero h1{font-size:clamp(2.4rem,6.2vw,4.4rem);margin:.26em 0 .32em;max-width:18ch}
+.hero .sub{font-size:clamp(1.04rem,2.1vw,1.28rem);color:var(--steel);max-width:54ch;margin-bottom:0}
+.hero .sub b{color:var(--ink);font-weight:600}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.trust{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:46px}
+.trust > div{background:var(--panel);border:1.5px solid var(--line);border-radius:12px;padding:16px 18px}
+.trust .num{font-family:var(--disp);font-weight:800;font-size:1.5rem;letter-spacing:-0.02em}
+.trust .lab{margin-top:2px}
+
+/* signature pipeline */
+.sig-section{background:var(--bg-2)}
+.pipe{background:var(--panel);border:1.5px solid var(--line);border-radius:16px;padding:30px 24px;position:relative;overflow:hidden}
+.pipe::before{content:"PIPELINE";position:absolute;top:12px;right:16px;font-family:var(--mono);font-size:.66rem;letter-spacing:.22em;color:var(--steel-dim)}
+.pipe-row{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap}
+.stage-box{flex:1 1 150px;min-width:130px;max-width:200px;background:var(--bg);border:1.5px solid var(--line);border-radius:12px;padding:14px 12px 12px;text-align:center}
+.stage-box .stage-cap{font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--steel);margin-bottom:9px}
+.stage-box .shape{font-family:var(--mono);font-size:.62rem;color:var(--steel-dim);margin-top:9px}
+.arrow{font-family:var(--mono);color:var(--green-deep);font-weight:600;font-size:1.1rem;flex:0 0 auto}
+/* pixel grid */
+.pgrid{display:grid;gap:2px;width:84px;height:84px;margin:0 auto}
+.pgrid.g6{grid-template-columns:repeat(6,1fr);grid-template-rows:repeat(6,1fr)}
+.pgrid.g5{grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(5,1fr)}
+.pgrid.g4{grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,1fr)}
+.pgrid.g3{grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr)}
+.px{background:var(--bg-2);border-radius:1px}
+.px.on{background:var(--ink)}
+.px.edge{background:var(--magenta)}
+.px.tex{background:#FFB0DC}
+.px.part{background:var(--green)}
+.px.obj{background:var(--green-deep)}
+/* detection box */
+.detbox{position:relative;width:100px;height:100px;margin:0 auto;background:var(--bg-2);border-radius:6px;overflow:hidden}
+.detbox .scene{position:absolute;inset:0;background:
+  radial-gradient(circle at 60% 58%, rgba(12,13,16,0.22), transparent 42%),
+  linear-gradient(180deg,#dfe4ea,#cfd6de)}
+.bbox{position:absolute;left:30px;top:26px;width:52px;height:58px;border:2.5px solid var(--green);border-radius:3px;box-shadow:0 0 0 1px rgba(24,201,100,0.25)}
+.bbox::after{content:"cat 0.97";position:absolute;left:-2px;top:-19px;font-family:var(--mono);font-size:.58rem;background:var(--green);color:#04210F;padding:1px 5px;border-radius:3px 3px 0 0;white-space:nowrap;font-weight:600}
+.draw .bbox{animation:drawbox .9s ease forwards}
+@keyframes drawbox{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.pipe-caption{margin:22px auto 0;max-width:70ch;color:var(--steel);font-size:.98rem;text-align:center}
+.pipe-caption .eq{font-family:var(--mono);color:var(--ink)}
+
+/* breakdown ladder */
+.ladder{display:grid;gap:18px}
+.rung{background:var(--panel);border:1.5px solid var(--line);border-radius:14px;padding:24px 26px;position:relative}
+.rung .tag{display:inline-block;font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--green-deep);border:1px solid var(--line-soft);border-radius:999px;padding:.32em .8em;margin-bottom:13px}
+.rung h3{font-size:1.28rem;margin:.1em 0 .45em}
+.rung p{color:var(--steel);margin-bottom:0}
+.rung p + p{margin-top:.9em}
+.rung .shape-row{font-family:var(--mono);font-size:.78rem;color:var(--ink);background:var(--bg-2);border:1px solid var(--line-soft);border-radius:8px;padding:.5em .8em;margin-top:14px;display:inline-block}
+
+/* two-col cards (why understanding) */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.mini{background:var(--panel);border:1.5px solid var(--line);border-radius:14px;padding:22px 24px}
+.mini h3{font-size:1.12rem;margin:.1em 0 .4em}
+.mini p{color:var(--steel);margin-bottom:0;font-size:.98rem}
+
+/* build list */
+.build-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.build{background:var(--panel);border:1.5px solid var(--line);border-radius:14px;padding:22px 24px}
+.build .num{font-family:var(--mono);font-size:.74rem;color:var(--magenta);letter-spacing:.08em}
+.build h3{font-size:1.14rem;margin:.25em 0 .4em}
+.build p{color:var(--steel);margin-bottom:0;font-size:.98rem}
+
+/* courses */
+.course-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--panel);border:1.5px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .15s ease,box-shadow .2s ease}
+.card:hover{transform:translateY(-3px);box-shadow:5px 5px 0 var(--line)}
+.card img{width:100%;height:160px;object-fit:cover;border-bottom:1.5px solid var(--line);background:var(--bg-2)}
+.card-body{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+.card-body h3{font-size:1.08rem;margin:0 0 .4em}
+.card-body p{color:var(--steel);font-size:.94rem;margin:0 0 16px}
+.card-link{margin-top:auto;font-family:var(--mono);font-size:.82rem;color:var(--green-deep);font-weight:600}
+.card:hover .card-link{color:var(--ink)}
+
+/* go deeper */
+.deep-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.deep{display:block;background:var(--panel);border:1.5px solid var(--line);border-radius:14px;padding:20px 22px;transition:transform .15s ease,box-shadow .2s ease}
+.deep:hover{transform:translateY(-2px);box-shadow:4px 4px 0 var(--line)}
+.deep .lab{margin-bottom:8px}
+.deep h3{font-size:1.1rem;margin:0 0 .35em}
+.deep p{color:var(--steel);font-size:.94rem;margin:0}
+.deep .go{font-family:var(--mono);font-size:.8rem;color:var(--green-deep);margin-top:12px;display:inline-block;font-weight:600}
+
+/* FAQ */
+.faq{display:grid;gap:12px;max-width:880px}
+details{background:var(--panel);border:1.5px solid var(--line);border-radius:12px;overflow:hidden}
+summary{list-style:none;cursor:pointer;padding:18px 22px;font-family:var(--disp);font-weight:700;font-size:1.04rem;display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary .mark{font-family:var(--mono);color:var(--green-deep);font-weight:600;flex:0 0 auto}
+details[open] summary .mark{color:var(--magenta)}
+.ans{padding:0 22px 18px}
+.ans p{color:var(--steel);margin:0}
+
+/* final cta */
+.final{background:var(--ink);color:var(--bg);border:1.5px solid var(--line);border-radius:18px;padding:48px 40px;text-align:center}
+.final h2{color:var(--bg);font-size:clamp(1.7rem,3.6vw,2.5rem)}
+.final p{color:#C4CBD4;max-width:56ch;margin:0 auto 26px}
+.final .btn{background:transparent;color:var(--bg);border-color:var(--bg)}
+.final .btn:hover{box-shadow:3px 3px 0 var(--green)}
+.final .btn-green{background:var(--green);color:#04210F;border-color:var(--green)}
+.final .btn-green:hover{box-shadow:4px 4px 0 var(--bg)}
+.final .cta-row{justify-content:center;margin-top:0}
+
+/* footer */
+footer.site{border-top:1.5px solid var(--line);background:var(--bg-2);padding:54px 0 30px}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:30px}
+.foot-brand p{color:var(--steel);font-size:.95rem;margin-top:14px;max-width:42ch}
+.foot-col h4{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--steel);margin-bottom:14px;font-weight:600}
+.foot-col a{display:block;color:var(--ink);font-size:.96rem;margin-bottom:10px}
+.foot-col a:hover{color:var(--green-deep)}
+.foot-small{margin-top:36px;padding-top:22px;border-top:1px solid var(--line-soft);color:var(--steel);font-size:.86rem}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+/* responsive */
+@media (max-width:880px){
+  .nav-links{display:none}
+  .hamburger{display:flex}
+  .trust{grid-template-columns:repeat(2,1fr)}
+  .grid2,.build-grid,.deep-grid{grid-template-columns:1fr}
+  .course-grid{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr}
+}
+@media (max-width:540px){
+  body{font-size:16px}
+  section{padding:48px 0}
+  .course-grid{grid-template-columns:1fr}
+  .trust{grid-template-columns:1fr 1fr}
+  .final{padding:36px 22px}
+  .pipe{padding:22px 14px}
+}
+@media (max-width:360px){
+  .wrap{padding:0 16px}
+  .trust{grid-template-columns:1fr}
+}
+</style>
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://learn.modernagecoders.com/#organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com/",
+      "logo": "https://learn.modernagecoders.com/images/logo.svg",
+      "description": "Live, online, instructor-led coding, programming, AI/ML and mathematics school for ages 6 to 65, teaching depth-first and from first principles.",
+      "sameAs": [
+        "https://www.facebook.com/modernagecoders",
+        "https://www.instagram.com/modernagecoders",
+        "https://www.linkedin.com/company/modernagecoders",
+        "https://www.youtube.com/@modernagecoders"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "247",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "areaServed": "Worldwide",
+      "knowsAbout": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "Artificial Intelligence",
+        "Mathematics for Machine Learning",
+        "Large Language Models",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Generative AI",
+        "Data Science",
+        "Neural Networks",
+        "Data Structures and Algorithms"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/how-computer-vision-works#webpage",
+      "url": "https://learn.modernagecoders.com/how-computer-vision-works",
+      "name": "How Computer Vision Works - CNNs, Feature Maps & Object Detection Explained | Modern Age Coders",
+      "description": "Understand how computer vision actually works - pixels, convolutions, feature maps, CNNs and vision transformers, classification and object detection - then build it.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://learn.modernagecoders.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://learn.modernagecoders.com/#organization"
+      },
+      "datePublished": "2026-06-19",
+      "dateModified": "2026-06-19",
+      "primaryImageOfPage": "https://learn.modernagecoders.com/images/og-modern-age-coders.png",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          "h2"
+        ]
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Courses to learn computer vision and AI",
+      "numberOfItems": 5,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Course",
+            "name": "AI & ML Complete",
+            "description": "Machine learning and deep learning, including vision models.",
+            "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Course",
+            "name": "Artificial Intelligence Complete",
+            "description": "AI fundamentals through neural networks applied to images.",
+            "url": "https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Course",
+            "name": "Generative AI Masterclass",
+            "description": "Generative models, including image generation.",
+            "url": "https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate to Advanced",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Course",
+            "name": "Data Science Masterclass",
+            "description": "Working with real data, the groundwork for vision datasets.",
+            "url": "https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Intermediate",
+            "isAccessibleForFree": false
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Course",
+            "name": "Python Masterclass - Zero to Advanced",
+            "description": "The Python foundation for building vision models.",
+            "url": "https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college",
+            "provider": {
+              "@id": "https://learn.modernagecoders.com/#organization"
+            },
+            "courseMode": "online",
+            "inLanguage": "en",
+            "educationalLevel": "Beginner to Advanced",
+            "isAccessibleForFree": false
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="/" aria-label="Modern Age Coders home">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30">
+      <span>Modern Age Coders</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="/courses">Courses</a>
+      <a href="/course-atlas">Course Atlas</a>
+      <a href="/contact">Contact</a>
+      <a class="btn btn-green" href="/book-demo">Book a free demo</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/courses">Courses</a>
+    <a href="/course-atlas">Course Atlas</a>
+    <a href="/contact">Contact</a>
+    <a href="/book-demo">Book a free demo</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="kicker">How machines learn to see</span>
+      <h1 class="reveal">How computer vision <span class="green">actually works.</span></h1>
+      <p class="sub reveal">Pixels, convolutions, feature maps and detection - <b>explained deeply, then built.</b> This is the page that takes you from a grid of numbers to a labelled bounding box, and shows you exactly how a machine gets from one to the other.</p>
+      <div class="cta-row reveal">
+        <a class="btn btn-green btn-lg" href="/book-demo">Book a free demo</a>
+        <a class="btn btn-lg" href="#see">See how it sees</a>
+      </div>
+      <div class="trust reveal">
+        <div><div class="num">10,000+</div><div class="lab">Students taught</div></div>
+        <div><div class="num">15+</div><div class="lab">Countries</div></div>
+        <div><div class="num">70+</div><div class="lab">Live courses</div></div>
+        <div><div class="num">4.9/5</div><div class="lab">247+ reviews</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE PIPELINE -->
+  <section class="sig-section" id="see">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">What the model sees</span>
+        <h2>From pixels to a labelled box - the whole pipeline, one frame at a time.</h2>
+        <p>A machine never sees a "cat". It sees a grid of numbers. Each stage below transforms that grid: first into edges, then textures, then parts, until a final head decides what is present and where. This is the shape of nearly every modern vision model.</p>
+      </div>
+      <div class="pipe reveal" id="pipe">
+        <div class="pipe-row">
+
+          <div class="stage-box">
+            <div class="stage-cap">Input pixels</div>
+            <div class="pgrid g6" aria-hidden="true">
+              <span class="px"></span><span class="px on"></span><span class="px on"></span><span class="px on"></span><span class="px"></span><span class="px"></span>
+              <span class="px on"></span><span class="px"></span><span class="px"></span><span class="px"></span><span class="px on"></span><span class="px"></span>
+              <span class="px on"></span><span class="px"></span><span class="px on"></span><span class="px on"></span><span class="px"></span><span class="px on"></span>
+              <span class="px on"></span><span class="px"></span><span class="px"></span><span class="px"></span><span class="px"></span><span class="px on"></span>
+              <span class="px"></span><span class="px on"></span><span class="px"></span><span class="px"></span><span class="px on"></span><span class="px"></span>
+              <span class="px"></span><span class="px"></span><span class="px on"></span><span class="px on"></span><span class="px"></span><span class="px"></span>
+            </div>
+            <div class="shape">tensor 224x224x3</div>
+          </div>
+
+          <span class="arrow" aria-hidden="true">&rarr;</span>
+
+          <div class="stage-box">
+            <div class="stage-cap">Edges</div>
+            <div class="pgrid g5" aria-hidden="true">
+              <span class="px"></span><span class="px edge"></span><span class="px edge"></span><span class="px"></span><span class="px"></span>
+              <span class="px edge"></span><span class="px"></span><span class="px"></span><span class="px edge"></span><span class="px"></span>
+              <span class="px edge"></span><span class="px"></span><span class="px"></span><span class="px"></span><span class="px edge"></span>
+              <span class="px"></span><span class="px edge"></span><span class="px"></span><span class="px edge"></span><span class="px"></span>
+              <span class="px"></span><span class="px"></span><span class="px edge"></span><span class="px"></span><span class="px"></span>
+            </div>
+            <div class="shape">early filters</div>
+          </div>
+
+          <span class="arrow" aria-hidden="true">&rarr;</span>
+
+          <div class="stage-box">
+            <div class="stage-cap">Textures</div>
+            <div class="pgrid g4" aria-hidden="true">
+              <span class="px tex"></span><span class="px"></span><span class="px tex"></span><span class="px"></span>
+              <span class="px"></span><span class="px tex"></span><span class="px"></span><span class="px tex"></span>
+              <span class="px tex"></span><span class="px"></span><span class="px tex"></span><span class="px"></span>
+              <span class="px"></span><span class="px tex"></span><span class="px"></span><span class="px tex"></span>
+            </div>
+            <div class="shape">mid feature maps</div>
+          </div>
+
+          <span class="arrow" aria-hidden="true">&rarr;</span>
+
+          <div class="stage-box">
+            <div class="stage-cap">Parts</div>
+            <div class="pgrid g3" aria-hidden="true">
+              <span class="px part"></span><span class="px"></span><span class="px part"></span>
+              <span class="px"></span><span class="px part"></span><span class="px"></span>
+              <span class="px part"></span><span class="px part"></span><span class="px"></span>
+            </div>
+            <div class="shape">deep feature maps</div>
+          </div>
+
+          <span class="arrow" aria-hidden="true">&rarr;</span>
+
+          <div class="stage-box">
+            <div class="stage-cap">Object + box</div>
+            <div class="detbox" aria-hidden="true">
+              <div class="scene"></div>
+              <div class="bbox"></div>
+            </div>
+            <div class="shape">class + coordinates</div>
+          </div>
+
+        </div>
+        <p class="pipe-caption">Left to right: a raw pixel grid becomes edges, then textures, then object parts, then a single confident decision - <span class="eq">cat, 0.97</span>, located inside a green box. The picture below explains each step in real depth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FROM PIXELS TO UNDERSTANDING -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">From pixels to understanding</span>
+        <h2>The six ideas that make a machine see.</h2>
+        <p>Each idea builds on the one before it. Read them in order and the whole field stops being a black box - you will be able to point at any stage of a model and say what it is doing and why.</p>
+      </div>
+      <div class="ladder">
+
+        <div class="rung reveal">
+          <span class="tag">1 - What an image really is</span>
+          <h3>A grid of numbers, stored as a tensor</h3>
+          <p>To a computer there is no picture. A colour image is a three-dimensional array: height by width by three channels - red, green and blue - where every entry is an intensity, usually from 0 to 255. A 224 by 224 photo is just 150,528 numbers arranged in a cube. Once you see an image as a tensor, everything that follows is arithmetic on that tensor: scaling values into a small range so training is stable, stacking many images into a batch, and reading off the shape to know what flows into the next layer.</p>
+          <div class="shape-row">image &rarr; tensor of shape (height, width, channels) = (224, 224, 3)</div>
+        </div>
+
+        <div class="rung reveal">
+          <span class="tag">2 - Convolutions</span>
+          <h3>A small filter slides across the image and reports what it finds</h3>
+          <p>The core operation in vision is the convolution. You take a tiny grid of weights - a kernel, often 3 by 3 - and slide it across the image. At each position you multiply the kernel against the pixels underneath it and add the results into a single number. Slide it everywhere and you get a new grid: a feature map showing where that kernel's pattern appeared.</p>
+          <p>What a kernel detects depends entirely on its weights. One set fires on vertical edges, another on horizontal edges, another on a patch of a particular colour. The breakthrough of deep learning is that we do not design these kernels by hand - the network learns the weights from data, discovering for itself which patterns are worth looking for.</p>
+          <div class="shape-row">kernel (3x3) over input &rarr; one feature map per filter</div>
+        </div>
+
+        <div class="rung reveal">
+          <span class="tag">3 - Feature maps and hierarchy</span>
+          <h3>Edges become textures, textures become parts, parts become objects</h3>
+          <p>One convolution layer finds simple things - edges and blobs. Stack the output through another convolution layer and it combines those edges into textures and corners. Stack again and it combines textures into parts: an eye, a wheel, a window frame. Stack deeper still and those parts combine into whole objects. This rising ladder of meaning is the single most important idea in the field. Early feature maps are local and generic; deep feature maps are abstract and specific. The same architecture that learns to spot a cat's ear learns to spot a road sign, because the hierarchy of edges-to-parts-to-objects is general.</p>
+        </div>
+
+        <div class="rung reveal">
+          <span class="tag">4 - Convolutional neural networks</span>
+          <h3>Why pooling and depth make the hierarchy actually work</h3>
+          <p>A convolutional neural network, or CNN, is a stack of convolution layers with two helpers. Between layers, a non-linearity - usually a ReLU that simply zeroes out negatives - lets the network represent patterns that are not just straight-line combinations. And pooling layers shrink the feature maps by keeping only the strongest response in each small region, which makes the network cheaper and lets it recognise a feature whether it sits slightly left or slightly right.</p>
+          <p>Depth is what gives a CNN its power: every layer sees a wider slice of the original image than the one before it, so deep layers reason about large structures while early layers handle fine detail. The whole stack is trained end to end with gradient descent - the same loss-minimising step behind every neural network - so the kernels, the combinations and the final decision are all learned together.</p>
+        </div>
+
+        <div class="rung reveal">
+          <span class="tag">5 - Vision transformers</span>
+          <h3>Treat the image as patches and let attention decide what matters</h3>
+          <p>CNNs build understanding from small neighbourhoods outward. Vision transformers take a different route. They cut the image into a grid of small patches - say 16 by 16 pixels each - turn every patch into a vector, and then let an attention mechanism compare every patch with every other patch. Attention, in plain terms, is the model asking "to understand this patch, which other patches should I look at?" and weighting them accordingly. A patch of fur can pay attention to a patch of ear far across the image, even though they are not neighbours.</p>
+          <p>That global view is the strength of transformers: they can relate distant parts of an image directly, where a CNN needs many layers to connect them. With enough data they match or beat CNNs, and many modern systems combine both - convolutions for efficient local features, attention for long-range reasoning.</p>
+        </div>
+
+        <div class="rung reveal">
+          <span class="tag">6 - The tasks</span>
+          <h3>Classification, detection and segmentation - and how each is set up</h3>
+          <p><b>Classification</b> answers "what is in this image?" with one label. The feature maps are flattened and passed to a final layer that outputs a probability for each class - the highest wins. <b>Object detection</b> answers "what is in this image, and where?" It adds heads that predict bounding-box coordinates and a class for each box, plus a confidence score, so a single image can return many labelled boxes. <b>Segmentation</b> goes further and labels every pixel - this pixel is road, this one is car - producing a mask rather than a box. Same backbone of feature maps underneath; what changes is the head on top and the loss you train it with. Understanding that the task is decided by the head, not the eyes, is what lets you reshape a model for a new problem.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY UNDERSTANDING BEATS RUNNING A PRETRAINED MODEL -->
+  <section class="sig-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Understanding vs running a demo</span>
+        <h2>Why understanding beats running a pretrained model.</h2>
+        <p>Loading a pretrained model and getting a result is the easy 20 percent. The hard, valuable 80 percent is everything that happens when that result meets your real data. That is exactly what understanding unlocks.</p>
+      </div>
+      <div class="grid2">
+        <div class="mini reveal">
+          <h3>Choosing the right model</h3>
+          <p>When you know how backbones, heads and input sizes work, you can pick a model that fits your problem and your hardware instead of grabbing whatever the tutorial used. You can tell a classifier from a detector at a glance and know which one your task needs.</p>
+        </div>
+        <div class="mini reveal">
+          <h3>Fine-tuning on your own data</h3>
+          <p>Pretrained weights know generic features, not your factory, your crops or your medical scans. Understanding the hierarchy tells you which layers to freeze and which to retrain, so you adapt a powerful backbone to your classes with a fraction of the data and time.</p>
+        </div>
+        <div class="mini reveal">
+          <h3>Debugging when it goes wrong</h3>
+          <p>A model that scores well in a demo can fail badly on your images. Knowing how feature maps, losses and confidence scores behave lets you read a confusion matrix, spot a labelling error, fix a preprocessing mismatch and tell a real model limit from a setup bug.</p>
+        </div>
+        <div class="mini reveal">
+          <h3>Trusting it on edge cases</h3>
+          <p>Odd lighting, blur, an unusual angle, a class the model never saw - these are where products break. Understanding how vision models generalise, and where they do not, lets you test honestly, set sensible confidence thresholds and decide when a human needs to stay in the loop.</p>
+        </div>
+      </div>
+      <p class="reveal" style="margin-top:24px;color:var(--steel)">This is the philosophy of every track we teach. We build the depth first, because depth is what holds up when the demo meets reality. It is the same reason behind our <a class="green" href="/real-coding-classes" style="font-weight:600;text-decoration:underline">real coding classes</a> - learning to build and reason, not just to copy and run.</p>
+    </div>
+  </section>
+
+  <!-- WHAT YOU LEARN TO BUILD -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">What you learn to build</span>
+        <h2>Real systems, with the understanding sitting underneath them.</h2>
+        <p>You do not finish with notes about computer vision. You finish with working systems you wrote, ran and can explain - and you understand every layer they stand on.</p>
+      </div>
+      <div class="build-grid">
+        <div class="build reveal">
+          <div class="num">project 01</div>
+          <h3>An image classifier</h3>
+          <p>You build a CNN that takes an image and returns a label with a probability. You train it on a real dataset, watch the loss fall and the accuracy rise, and learn to read whether it is genuinely learning or just memorising - then fix it when it is the latter.</p>
+        </div>
+        <div class="build reveal">
+          <div class="num">project 02</div>
+          <h3>An object detector</h3>
+          <p>You move from "what is in the image" to "what and where". You build a detector that draws bounding boxes with class labels and confidence scores on images it has never seen, and you learn how the box and class heads are trained together.</p>
+        </div>
+        <div class="build reveal">
+          <div class="num">skill</div>
+          <h3>Working with real image data</h3>
+          <p>Real datasets are messy. You learn to load, resize and normalise images, to augment them so the model generalises, to handle class imbalance, and to split data honestly so your accuracy numbers actually mean something.</p>
+        </div>
+        <div class="build reveal">
+          <div class="num">skill</div>
+          <h3>Transfer learning, understood</h3>
+          <p>You take a backbone pretrained on millions of images and fine-tune it on your own small dataset. Because you understand the feature hierarchy, you know exactly which layers to freeze and which to retrain - the fastest honest route to a strong model.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="sig-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Attached live courses</span>
+        <h2>The courses where you build this for real.</h2>
+        <p>Every one is live, online and instructor-led in a small batch. Computer vision sits inside our AI, machine learning and deep learning tracks - here are the courses that take you there.</p>
+      </div>
+      <div class="course-grid">
+
+        <a class="card reveal" href="/courses/ai-ml-masterclass-complete-college">
+          <img src="/images/ai-ml-college.jpg" alt="AI and ML Complete masterclass course thumbnail" loading="lazy" decoding="async" width="400" height="225">
+          <div class="card-body">
+            <h3>AI &amp; ML Complete</h3>
+            <p>Machine learning and deep learning end to end, with the vision models and the maths that make them work.</p>
+            <span class="card-link">View course &rarr;</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="/courses/artificial-intelligence-complete-masterclass-college">
+          <img src="/images/ai-college.png" alt="Artificial Intelligence Complete masterclass course thumbnail" loading="lazy" decoding="async" width="400" height="225">
+          <div class="card-body">
+            <h3>Artificial Intelligence Complete</h3>
+            <p>AI from fundamentals to neural networks, CNNs and applied projects you build and defend.</p>
+            <span class="card-link">View course &rarr;</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="/courses/complete-generative-ai-masterclass-college">
+          <img src="/images/generative-ai-college.png" alt="Generative AI Masterclass course thumbnail" loading="lazy" decoding="async" width="400" height="225">
+          <div class="card-body">
+            <h3>Generative AI Masterclass</h3>
+            <p>How modern generative and vision-language models work, and how to build with them.</p>
+            <span class="card-link">View course &rarr;</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="/courses/data-science-complete-masterclass-college">
+          <img src="/images/data-science-college.png" alt="Data Science Masterclass course thumbnail" loading="lazy" decoding="async" width="400" height="225">
+          <div class="card-body">
+            <h3>Data Science Masterclass</h3>
+            <p>From raw data to insight with Python - the data handling that every vision pipeline depends on.</p>
+            <span class="card-link">View course &rarr;</span>
+          </div>
+        </a>
+
+        <a class="card reveal" href="/courses/python-programming-masterclass-zero-to-advanced-college">
+          <img src="/images/python-college.png" alt="Python Masterclass Zero to Advanced course thumbnail" loading="lazy" decoding="async" width="400" height="225">
+          <div class="card-body">
+            <h3>Python Masterclass - Zero to Advanced</h3>
+            <p>The language everything here runs on, taught from the ground up to genuinely advanced.</p>
+            <span class="card-link">View course &rarr;</span>
+          </div>
+        </a>
+
+      </div>
+      <p class="reveal" style="margin-top:26px;color:var(--steel)">Not sure where to start? The full catalogue, with prerequisites and what each one builds, is laid out in our <a class="green" href="/course-atlas" style="font-weight:600;text-decoration:underline">course atlas</a>.</p>
+    </div>
+  </section>
+
+  <!-- GO DEEPER -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Go deeper</span>
+        <h2>Related deep-dives, written the same way.</h2>
+        <p>Each of these explains a hard idea properly, then shows you how to build it. If this page made vision click, these are the natural next reads.</p>
+      </div>
+      <div class="deep-grid">
+
+        <a class="deep reveal" href="/maths-behind-machine-learning">
+          <div class="lab">Deep dive</div>
+          <h3>The Maths Behind Machine Learning</h3>
+          <p>The linear algebra, calculus and probability that quietly run every model - convolutions and training included.</p>
+          <span class="go">Read it &rarr;</span>
+        </a>
+
+        <a class="deep reveal" href="/how-large-language-models-work">
+          <div class="lab">Deep dive</div>
+          <h3>How Large Language Models Work</h3>
+          <p>Tokens, embeddings and attention explained from scratch - the same attention that powers vision transformers.</p>
+          <span class="go">Read it &rarr;</span>
+        </a>
+
+        <a class="deep reveal" href="/machine-learning-from-scratch">
+          <div class="lab">Course track</div>
+          <h3>Machine Learning From Scratch</h3>
+          <p>Implement gradient descent and the core models by hand, then master the libraries with real understanding.</p>
+          <span class="go">Read it &rarr;</span>
+        </a>
+
+        <a class="deep reveal" href="/master-ai-ml-python-java">
+          <div class="lab">Course track</div>
+          <h3>Master AI, ML, Python &amp; Java</h3>
+          <p>The full path from your first line of code to building and shipping intelligent systems.</p>
+          <span class="go">Read it &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="sig-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Questions, answered</span>
+        <h2>Before you book a demo.</h2>
+      </div>
+      <div class="faq">
+        <details class="reveal">
+          <summary>Do I need to be advanced to learn computer vision? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>No. You need to be comfortable writing basic Python and willing to think carefully. We start from what an image really is - a grid of numbers - and build up to convolutions, CNNs and detection one honest step at a time. If your Python is shaky, our Python Masterclass gets you ready, and many learners take it first. You do not need any prior machine learning experience to begin.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Do I need maths for this? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>You need school-level algebra and a willingness to learn the rest as we use it. Convolution is multiplication and addition over a small window. Training is gradient descent on a loss. We teach the small amount of linear algebra, calculus and probability each idea needs, exactly when it is needed, with pictures and code rather than abstract proofs. You will not be left guessing why a model behaves the way it does.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Will I build real projects? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>Yes. You build an image classifier and train it on a real dataset, then build an object detector that draws bounding boxes with confidence scores on images it has never seen. You work with real image data - loading, augmenting and cleaning it - and you use transfer learning to fine-tune a pretrained backbone on your own classes. Every project ends in code you wrote, can run and can explain.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Who is this for and what ages? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>This depth-first track suits serious teenagers, college students and working professionals who want to genuinely understand computer vision and build with it. We teach ages 6 to 65 across our courses, but the from-pixels-to-detection path here is aimed at older, motivated learners. If you are a younger beginner, a free demo helps us place you on the right starting course.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Are classes live? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>Yes. Every class is live, online and instructor-led in a small batch. You write code during the session, watch feature maps and detections appear on screen, and get your model and your reasoning reviewed in real time. It is not a recorded video you watch alone - you can ask why something failed the moment it fails.</p></div>
+        </details>
+        <details class="reveal">
+          <summary>Why learn how computer vision works when pretrained models exist? <span class="mark" aria-hidden="true">+</span></summary>
+          <div class="ans"><p>Because understanding is what lets you choose, fine-tune, debug and trust a vision model rather than just run a demo you cannot fix. Pretrained models are powerful, but they fail on your own data, your edge cases, your lighting, your classes. The people who know how convolutions, feature maps and detection heads work can read a confusion matrix, fix a labelling problem, fine-tune the right layers and ship a real product. People who only call an API stall the moment the demo stops matching reality.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section>
+    <div class="wrap">
+      <div class="final reveal">
+        <h2>See how it sees - in a live class.</h2>
+        <p>Sit in one free demo, watch a model turn pixels into a labelled box on a real image, and decide for yourself whether this is the depth you have been looking for.</p>
+        <div class="cta-row">
+          <a class="btn btn-green btn-lg" href="/book-demo">Book a free demo</a>
+          <a class="btn btn-lg" href="/course-atlas">Browse all courses</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="/" aria-label="Modern Age Coders home">
+          <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30">
+          <span>Modern Age Coders</span>
+        </a>
+        <p>Live, online, instructor-led coding and mathematics classes for ages 6 to 65, taught in small batches across 15+ countries.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Learn</h4>
+        <a href="/courses">Courses</a>
+        <a href="/course-atlas">Course Atlas</a>
+        <a href="/real-coding-classes">Real Coding Classes</a>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/book-demo">Book a free demo</a>
+      </div>
+    </div>
+    <p class="foot-small">© 2026 Modern Age Coders. Live coding &amp; mathematics classes, ages 6-65.</p>
+  </div>
+</footer>
+
+<script>
+  // mobile menu
+  (function(){
+    var h=document.getElementById('hamburger'),m=document.getElementById('mobileMenu');
+    if(h&&m){
+      h.addEventListener('click',function(){
+        var open=m.classList.toggle('open');
+        h.setAttribute('aria-expanded',open?'true':'false');
+        h.setAttribute('aria-label',open?'Close menu':'Open menu');
+      });
+      m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('open');h.setAttribute('aria-expanded','false');h.setAttribute('aria-label','Open menu');}});
+    }
+  })();
+  // scroll reveal + detection box draw-in
+  (function(){
+    var els=document.querySelectorAll('.reveal');
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var pipe=document.getElementById('pipe');
+    if(reduce||!('IntersectionObserver' in window)){
+      for(var i=0;i<els.length;i++){els[i].classList.add('in');}
+      return;
+    }
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          en.target.classList.add('in');
+          if(en.target===pipe){pipe.classList.add('draw');}
+          io.unobserve(en.target);
+        }
+      });
+    },{rootMargin:'0px 0px -10% 0px',threshold:0.08});
+    for(var j=0;j<els.length;j++){io.observe(els[j]);}
+  })();
+</script>
+<script>window.addEventListener('load',function(){setTimeout(function(){var r=document.querySelectorAll('.reveal');for(var i=0;i<r.length;i++){r[i].classList.add('in');}},1600);});</script>
+</body>
+</html>

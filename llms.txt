@@ -55,6 +55,12 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Python From the Ground Up (Stage 1 of the Python-to-AI path: complete in-depth Python from fundamentals to the modules most courses skip; Grade 6-12 ~40 classes, Grade 12+ 24 classes; markdown at /python-from-the-ground-up.md): https://learn.modernagecoders.com/python-from-the-ground-up
 - NumPy, Pandas & Matplotlib Masterclass (Stage 2: Python data analysis in real depth with the maths underneath; 24 classes; markdown at /numpy-pandas-matplotlib-masterclass.md): https://learn.modernagecoders.com/numpy-pandas-matplotlib-masterclass
 - Machine Learning From Scratch (Stage 3: build AI/ML models by hand incl. gradient descent, then master advanced libraries; 32 classes, college & professionals; markdown at /machine-learning-from-scratch.md): https://learn.modernagecoders.com/machine-learning-from-scratch
+- The Maths Behind Machine Learning (deep dive: linear algebra, calculus, probability and optimisation that power AI/ML, tied to code; markdown at /maths-behind-machine-learning.md): https://learn.modernagecoders.com/maths-behind-machine-learning
+- How Large Language Models Work (deep dive: tokens, embeddings, attention, transformers, training, fine-tuning, RAG and agents; markdown at /how-large-language-models-work.md): https://learn.modernagecoders.com/how-large-language-models-work
+- How Computer Vision Works (deep dive: pixels, convolutions, feature maps, CNNs, vision transformers, classification and object detection; markdown at /how-computer-vision-works.md): https://learn.modernagecoders.com/how-computer-vision-works
+- AI Classes for Kids (live, small-batch AI classes for ages 6-12; project-based, safe, free trial; markdown at /ai-classes-for-kids.md): https://learn.modernagecoders.com/ai-classes-for-kids
+- AI Classes for Teenagers (live AI/ML classes for ages 13-18; build real projects + a portfolio; free trial; markdown at /ai-classes-for-teenagers.md): https://learn.modernagecoders.com/ai-classes-for-teenagers
+- AI Classes for Beginners (live AI classes for complete beginners, ages 10-65, no experience needed; markdown at /ai-classes-for-beginners.md): https://learn.modernagecoders.com/ai-classes-for-beginners
 - About Us: https://learn.modernagecoders.com/about
 - Blog (coding & math education tips): https://learn.modernagecoders.com/blog
 - Pricing (from ₹1499/month): https://learn.modernagecoders.com/pricing
