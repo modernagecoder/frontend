@@ -13,7 +13,7 @@ Live Online · Civil Lines · A.P. Colony · Rampur · Bodh Gaya
 
 Gaya has been a seat of learning for two and a half thousand years — the very ground where the Buddha found enlightenment. We bring that legacy into the present: from **Civil Lines and A.P. Colony to Manpur, Delha and Bodh Gaya**, your child learns to build the technology shaping the next millennium.
 
-358+ Gaya learners · 4.9/5 parent rating · JEE / NEET / Bihar Board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE / NEET / Bihar Board-aligned logic · Free demo class
 
 Modern Age Coders runs Gaya's top-rated **live online** coding classes. All classes are online, so a child in Civil Lines, A.P. Colony, Rampur, Delha, Manpur, Magadh Colony or out near Bodh Gaya joins the same expert teacher from home — no auto-rickshaw run to a far coaching centre.
 

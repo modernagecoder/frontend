@@ -13,7 +13,7 @@ Live Online · Lashkar · Morar · City Centre · Thatipur
 
 Gwalior has spent centuries building things meant to last — its fort, its gharana, its schools. We teach coding in that same **build-to-last spirit**. From the lanes of **Lashkar and Morar to the offices of City Centre and the campuses near Thatipur & DD Nagar**, your child learns to build technology — not just scroll through it.
 
-367+ Gwalior learners · 4.9/5 parent rating · JEE, CBSE & MP-Board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE, CBSE & MP-Board-aligned logic · Free demo class
 
 Modern Age Coders runs Gwalior's top-rated **live online** coding classes. All classes are online, so a student in old Lashkar, Morar, the City Centre offices, Thatipur, DD Nagar, Govindpuri or out near Maharaj Bada joins the same expert teacher from home — no autos through the Maharaj Bada bottleneck.
 

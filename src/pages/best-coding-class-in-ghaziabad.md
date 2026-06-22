@@ -13,7 +13,7 @@ Live Online · Indirapuram · Vaishali · Raj Nagar · Crossings Republik
 
 Ghaziabad has always been NCR's **gateway — the place that makes, moves and connects**. From the **Sahibabad workshops to the high-rise townships of Indirapuram and Raj Nagar Extension**, we teach your child to engineer the next thing the city builds — not just use it.
 
-400+ Ghaziabad learners · 4.9/5 parent rating · JEE & CBSE-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE & CBSE-aligned logic · Free demo class
 
 Modern Age Coders runs Ghaziabad's top-rated **live online** coding classes. Every class is online, so a student in Indirapuram (Ahinsa Khand, Nyay Khand, Niti Khand), Vaishali, Vasundhara, Kaushambi, Raj Nagar or the fast-growing Raj Nagar Extension, Crossings Republik, Wave City, Mohan Nagar, Sahibabad or the NH-9 corridor logs in to the same expert teacher from home — no autos to flag down, no Blue Line crush.
 

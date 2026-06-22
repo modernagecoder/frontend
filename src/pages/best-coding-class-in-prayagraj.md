@@ -13,7 +13,7 @@ Live Online · Civil Lines · Georgetown · Jhunsi · Naini
 
 Prayagraj is the city where rivers — and disciplines — meet. **A place that has always prized rigorous learning**, the "Oxford of the East." We bring that same seriousness to code. From **Civil Lines and Georgetown to Tagore Town, the Allahabad University belt, Jhunsi and Naini**, your child learns to build — not just consume — technology.
 
-352+ Prayagraj learners · 4.9/5 parent rating · JEE, UPSC & UP/CBSE-Board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE, UPSC & UP/CBSE-Board-aligned logic · Free demo class
 
 Modern Age Coders runs Prayagraj's top-rated **live online** coding classes. All classes are online, so a student in Civil Lines, Georgetown, Tagore Town, Allahpur, Katra, Jhunsi (across the Ganga), Naini, Mumfordganj or Rajapur joins the same expert teacher from home — no autos through Chowk traffic, no travel across the Sangam bridges.
 

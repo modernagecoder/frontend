@@ -13,7 +13,7 @@ Live Online · Magunta Layout · Dargamitta · AC Nagar · Stonehousepet
 
 Nellore made its name two ways — as **India's shrimp-export capital on the Pennar** and as the town that raised an entire coaching empire. We add the third: real software skills. From **Magunta Layout and Dargamitta to AC Nagar, Stonehousepet and Podalakur Road**, your child learns to build — not just consume — technology.
 
-364+ Nellore learners · 4.9/5 parent rating · EAPCET, JEE & NEET-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · EAPCET, JEE & NEET-aligned logic · Free demo class
 
 Modern Age Coders runs Nellore's top-rated **live online** coding classes. All classes are online, so a student in Magunta Layout, Dargamitta, AC Nagar, Stonehousepet, Balaji Nagar, along Podalakur Road, Vedayapalem, Mulapet or out near Kovur and Krishnapatnam joins the same expert teacher from home — no autos down Trunk Road, no coaching-hub traffic.
 

@@ -13,7 +13,7 @@ Live Online · Gandhi Chowk · Khaleelwadi · Kanteshwar · Armoor & Bodhan
 
 Indur grew turmeric, maize and rice for the whole country — **it knows how patience and good soil compound into a harvest**. We grow coders the same way. From **Gandhi Chowk and Khaleelwadi to Kanteshwar and out to Armoor, Bodhan and Kamareddy**, your child learns to build software at home — no move to Hyderabad, no settling for less.
 
-320+ Telangana learners · 4.9/5 parent rating · TS EAPCET, JEE & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · TS EAPCET, JEE & board-aligned logic · Free demo class
 
 Modern Age Coders runs Nizamabad's top-rated **live online** coding classes. All classes are online, so a student near Gandhi Chowk, in Khaleelwadi, Vinayak Nagar, Subhash Nagar or Kanteshwar, in Arsapally, Dubba or Vivekananda Nagar, along Hyderabad Road, or out in Dichpally, Armoor, Bodhan and Kamareddy joins the same expert teacher from home — no travel to a city-centre tuition.
 

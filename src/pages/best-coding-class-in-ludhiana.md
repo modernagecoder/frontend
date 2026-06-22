@@ -13,7 +13,7 @@ Live Online · Sarabha Nagar · Model Town · BRS Nagar · Pakhowal Road
 
 Ludhiana built India's industry the hard way — **hands on the loom, eyes on the next order**. We teach coding with that same maker's instinct. From the **family workshops of Ghumar Mandi to the homes of Sarabha Nagar, Model Town & BRS Nagar**, your child learns to build software — not just scroll through it.
 
-387+ Ludhiana learners · 4.9/5 parent rating · JEE & CBSE-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE & CBSE-aligned logic · Free demo class
 
 Modern Age Coders runs Ludhiana's top-rated **live online** coding classes. Every class is online, so a student in Sarabha Nagar, Model Town, BRS Nagar, Civil Lines, Pakhowal Road, Dugri, Ferozepur Road, Ghumar Mandi or Aggar Nagar — or in nearby Khanna, Jagraon and Sahnewal — joins the same expert teacher from home, with no rickshaw run down Ferozepur Road and no Ghumar Mandi traffic.
 

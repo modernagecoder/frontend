@@ -13,7 +13,7 @@ Live Online · Model Town · Tripuri · Urban Estate · Punjabi University Belt
 
 The royal city has always prized fine craft and serious learning — **from the Patiala pagri and jutti to the gates of Thapar**. Coding is the modern craft, and we teach it with the same care. From **Qila Mubarak and Adalat Bazaar to Urban Estate, Leela Bhawan and the university belt**, your child learns to build technology — not just scroll through it.
 
-412+ Punjab learners · 4.9/5 parent rating · JEE, Thapar & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE, Thapar & board-aligned logic · Free demo class
 
 Modern Age Coders runs Patiala's top-rated **live online** coding classes. All classes are online, so a student in Model Town, Tripuri, Urban Estate, Leela Bhawan, Civil Lines, Bhupindra Road, near Punjabi University, or out in Rajpura, Nabha, Sanaur and Samana joins the same expert teacher from home — no travel to a city-centre tuition.
 

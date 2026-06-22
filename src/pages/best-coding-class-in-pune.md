@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Trusted Coding Classes for Kids & Teens in Pune
 
 A dedicated coding institute for students aged 8-18. From **Hinjewadi to Hadapsar**, **Wakad to Viman Nagar** — we help Pune's young minds build real programming skills through expert-led, project-based learning.
 
-523+ Students Enrolled | 4.9/5 Parent Rating | Serving All Pune Areas | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | Serving All Pune Areas | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Pune)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 StudentsQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -409,7 +409,7 @@ We provide regular progress updates to parents. After each module, you'll receiv
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 523+ Pune families who chose Modern Age Coders for their children's coding education. Book a free demo today and see if we're the right fit for your child.
+Join 500+ families across India who chose Modern Age Coders for their children's coding education. Book a free demo today and see if we're the right fit for your child.
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)
 
@@ -440,7 +440,7 @@ Project-based learning, small batches (5-8 students), expert instructors with in
 Areas we serve:HinjewadiWakadBanerKothrudViman NagarHadapsarAundhKoregaon ParkMagarpattaPCMC+ All Pune Areas
 
 Ready to start your child's coding journey? Book a **free demo class** today.
-Join **523+ Pune families** who chose us for their children's tech education.
+Join **500+ families across India** who chose us for their children's tech education.
 
 Book Free Demo[Call: 9123366161](tel:+919123366161)
 

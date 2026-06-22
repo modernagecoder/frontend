@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Home of IIT Patna & Ancient Pataliputra — Home of IIT 
 
 Learn in **Bihar's Education Capital**! From **Boring Road, Kankarbagh, Bailey Road, and Rajendra Nagar** — where the legacy of Nalanda meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-231+ Students Enrolled | 4.9/5 Parent Rating | Bihar Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | Bihar Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Patna)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students3,600+Classes Delivered97%Parent Satisfaction40+Schools Trust Us11+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Maths problem sets for JEE and NEET preparation
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 231+ students from Boring Road, Kankarbagh, Bailey Road, and Rajendra Nagar, and across Patna who are building their future with code.
+Join students from Boring Road, Kankarbagh, Bailey Road, and Rajendra Nagar, and across Patna who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Patna)</>{ }01City of Knowledge
 

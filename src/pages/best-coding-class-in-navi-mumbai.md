@@ -13,7 +13,7 @@ Live Online · Vashi · Nerul · Kharghar · Belapur · Airoli
 
 Navi Mumbai was drawn from scratch on a map — **a planned, twin-city built to outgrow the old one**. Your child should learn to build the same way. From the **node high-rises of Kharghar and Ulwe to the Airoli–Ghansoli IT belt and the Belapur CBD**, we teach kids to create technology, not just scroll through it.
 
-382+ Navi Mumbai learners · 4.9/5 parent rating · JEE & MHT-CET-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE & MHT-CET-aligned logic · Free demo class
 
 Modern Age Coders runs Navi Mumbai's top-rated **live online** coding classes. Every class is online, so a child in Vashi, Nerul, Belapur CBD, the fast-growing Kharghar and Ulwe nodes, the Airoli–Ghansoli Mindspace belt, Seawoods, Sanpada, Kopar Khairane or Panvel joins the same expert teacher from home — no rickshaw to a centre, no Palm Beach Road crawl.
 

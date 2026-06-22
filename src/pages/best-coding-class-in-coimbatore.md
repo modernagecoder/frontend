@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Manchester of South India — Where PSG Tech & Amrita Sh
 
 Train in **Tamil Nadu's engineering capital** where PSG Tech, Amrita & CIT alumni build world-class products! From **RS Puram to Peelamedu, Saibaba Colony to Gandhipuram** — we're shaping tomorrow's tech leaders in the Manchester of South India.
 
-312+ Students Enrolled | 4.9/5 Parent Rating | TNEA & JEE Prep Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | TNEA & JEE Prep Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Coimbatore. Please share details.)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 StudentsQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -329,7 +329,7 @@ Yes! Weekend batches (Sat-Sun 9 AM - 6 PM) and weekday batches (4 PM - 8 PM) ava
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 312+ students from RS Puram, Peelamedu, Saibaba Colony, Gandhipuram, and across Coimbatore who are building their future with code.
+Join students from RS Puram, Peelamedu, Saibaba Colony, Gandhipuram, and across Coimbatore who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Coimbatore. Please share details.) </> { } 01The Manchester of South India
 

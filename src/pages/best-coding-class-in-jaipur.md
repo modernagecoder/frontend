@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — The Pink City — Rajasthan's Fastest-Growing Tech Hub
 
 Learn in **Rajasthan's fastest-growing tech hub**! From **Malviya Nagar to Vaishali Nagar, Mansarovar to C-Scheme** — we're building tomorrow's tech leaders in the Pink City of Rajasthan.
 
-387+ Students Enrolled | 4.9/5 Parent Rating | RBSE & JEE Prep Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | RBSE & JEE Prep Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Jaipur)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 StudentsQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -329,7 +329,7 @@ Yes! Weekend batches (Sat-Sun 9 AM - 6 PM) and weekday batches (4 PM - 8 PM) ava
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 387+ students from Malviya Nagar, Vaishali Nagar, Mansarovar, Jagatpura, and across Jaipur who are building their future with code.
+Join students from Malviya Nagar, Vaishali Nagar, Mansarovar, Jagatpura, and across Jaipur who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Jaipur) </> { } 01India's The Pink City
 

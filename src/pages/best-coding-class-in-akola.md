@@ -13,7 +13,7 @@ Live Online · Tilak Road · Civil Lines · Jatharpeth · Murtizapur Road
 
 Akola is **Vidarbha's Cotton City — a junction where trade meets science**. Its mandis sort cotton, tur-dal and oilseed by the trainload; PDKV's labs read soil and seed; and a great railway junction connects its routes across India. We teach coding in that same spirit: measure, build, refine. From the Old City and Tilak Road to Gorakshan Road, Jatharpeth and the Malkapur Road belt, and out to **Akot, Murtizapur, Balapur, Telhara and Patur**, your child learns to build software — and connect to global work from right here, instead of migrating to Pune or Nagpur.
 
-468+ Maharashtra learners · 4.9/5 parent rating · MHT-CET, JEE & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · MHT-CET, JEE & board-aligned logic · Free demo class
 
 Modern Age Coders runs Akola's top-rated **live online** coding classes. All classes are online, so a student on Tilak Road, in Civil Lines, Jatharpeth, Sindhi Camp, near Ratanlal Plots, on Gorakshan Road, Dabki Road, Murtizapur Road or the Malkapur Road belt, in Kaulkhed, Geeta Nagar or Ranpise Nagar — or out in Akot, Murtizapur, Balapur, Telhara and Patur — joins the same expert teacher from home, with no autorickshaw ride across town.
 

@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Golden Temple City & Punjab's Education Hub — Home of 
 
 Learn in **Punjab's Golden City**! From **Ranjit Avenue, Lawrence Road, Model Town, and Green Avenue** — where the legacy of the Golden Temple's spiritual legacy meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-187+ Students Enrolled | 4.9/5 Parent Rating | Punjab Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | Punjab Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Amritsar)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students2,800+Classes Delivered97%Parent Satisfaction35+Schools Trust Us11+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Maths challenges for JEE and Punjab CET preparation
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 187+ students from Ranjit Avenue, Lawrence Road, Model Town, and Green Avenue, and across Amritsar who are building their future with code.
+Join students from Ranjit Avenue, Lawrence Road, Model Town, and Green Avenue, and across Amritsar who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Amritsar)</>{ }01Golden Temple City
 

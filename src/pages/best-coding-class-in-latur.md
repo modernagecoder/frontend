@@ -13,7 +13,7 @@ Live Online · Ganj Golai · Barshi Road · Ausa Road · MIDC Latur
 
 Latur gave India the **"Latur Pattern"** — disciplined, results-driven coaching that turns ordinary students into board toppers and JEE/NEET rankers. We don't replace that famous rigour; we extend it. The very habits that crack an entrance exam — focus, repetition, exactness — are exactly what build great software. Coding is the **build dimension** layered on top of Latur's exam discipline: not instead of board, JEE or NEET success, but the modern complement that turns a topper into a creator. From Ganj Golai, Shivaji Chowk and Barshi Road to Ausa Road, MIDC Latur, Nanded Road and Old Latur — and out to **Udgir, Ausa, Nilanga, Ahmedpur and Murud** — your child learns world-class future skills without ever leaving home for Pune or Hyderabad.
 
-468+ Maharashtra learners · 4.9/5 parent rating · MHT-CET, JEE, NEET & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · MHT-CET, JEE, NEET & board-aligned logic · Free demo class
 
 Modern Age Coders runs Latur's top-rated **live online** coding classes. All classes are online, so a student near Ganj Golai, on Barshi Road or Ausa Road, in MIDC Latur, near Shivaji Chowk or Subhash Chowk, in Tukai Nagar, Vivekanand Nagar, Sai Nagar or Anand Nagar, in Old Latur or Daji Pet — or out in Udgir, Ausa, Nilanga, Ahmedpur and Murud — joins the same expert teacher from home, with no autorickshaw ride across town.
 

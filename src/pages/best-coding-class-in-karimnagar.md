@@ -13,7 +13,7 @@ Live Online · Tower Circle · Mukarampet · Mancherial Road · Vidya Nagar
 
 Karimnagar cuts and polishes granite that travels the world — **raw strength, shaped with precision**. We shape young minds the same way. From **Tower Circle and Mancherial Road to Vidya Nagar and out to Jagtial, Sircilla and Peddapalli**, your child learns to build technology — not just scroll through it.
 
-400+ Telangana learners · 4.9/5 parent rating · EAMCET, JEE & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · EAMCET, JEE & board-aligned logic · Free demo class
 
 Modern Age Coders runs Karimnagar's top-rated **live online** coding classes. All classes are online, so a student near Tower Circle, in Mukarampet, Bhagath Nagar, Kothirampur, Vidya Nagar, Jyothi Nagar, LMD Colony, on the Mancherial Road belt, or out in Jagtial, Sircilla, Peddapalli and Huzurabad joins the same expert teacher from home — no travel to a city-centre tuition.
 

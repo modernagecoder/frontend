@@ -13,7 +13,7 @@ Live Online · Rajapeth · Camp · Sai Nagar · Gadge Nagar · Badnera Road
 
 Amravati is **Vidarbha's cotton and orange heart** — a trading town built on patient, season-long work in the fields and the discipline of its physical-culture traditions. We teach coding with that same patience. And as the new **PM MITRA textile park at Nandgaon Peth** brings modern industry and fresh jobs, the opportunities arriving are digital. From **Rajapeth, Camp and Sai Nagar to Gadge Nagar, Morshi Road, Badnera Road and out to Badnera, Achalpur and Warud**, your child learns to build software — and seize that wave from home instead of migrating to Pune or Mumbai.
 
-468+ Maharashtra learners · 4.9/5 parent rating · MHT-CET, JEE & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · MHT-CET, JEE & board-aligned logic · Free demo class
 
 Modern Age Coders runs Amravati's top-rated **live online** coding classes. All classes are online, so a student in Rajapeth, Camp, Sai Nagar, Gadge Nagar, Rukmini Nagar, Shankar Nagar, Dastur Nagar, Navsari, near Ambadevi temple, on VMV Road or Walgaon Road, or out in Badnera, Achalpur, Anjangaon, Morshi and Warud joins the same expert teacher from home — no auto rides across town.
 

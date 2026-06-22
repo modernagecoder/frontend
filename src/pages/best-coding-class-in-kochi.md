@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Queen of the Arabian Sea — India's First Smart City
 
 Train where **Infosys, UST Global, and TCS in Kerala** shaped their skills! From **Kakkanad to Ernakulam, Edapally to Vyttila** — we're building tomorrow's tech leaders in India's startup capital.
 
-356+ Students Enrolled | 4.9/5 Parent Rating | KEAM & JEE Prep Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | KEAM & JEE Prep Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Kochi)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 StudentsQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -329,7 +329,7 @@ Yes! Weekend batches (Sat-Sun 9 AM - 6 PM) and weekday batches (4 PM - 8 PM) ava
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 356+ students from Kakkanad, Edapally, Vyttila, Ernakulam, and across Kochi who are building their future with code.
+Join students from Kakkanad, Edapally, Vyttila, Ernakulam, and across Kochi who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Kochi) </> { } 01India's First Smart City
 

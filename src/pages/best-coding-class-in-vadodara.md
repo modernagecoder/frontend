@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Cultural Capital of Gujarat — Home of MS University
 
 Learn in **Gujarat's Cultural Capital**! From **Alkapuri to Sayajigunj, Fatehgunj to Akota** — where the legacy of Sayaji Rao Gaekwad meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-267+ Students Enrolled | 4.9/5 Parent Rating | GSEB & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | GSEB & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Vadodara)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students4,200+Classes Delivered98%Parent Satisfaction50+Schools Trust Us12+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Maths puzzles that build JEE reasoning skills
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 267+ students from Alkapuri, Sayajigunj, Fatehgunj, Akota, and across Vadodara who are building their future with code.
+Join students from Alkapuri, Sayajigunj, Fatehgunj, Akota, and across Vadodara who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Vadodara)</>{ }01Cultural Capital of Gujarat
 

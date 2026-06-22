@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Education Capital of Tamil Nadu — Home of NIT Tiruchir
 
 Learn in **NIT Trichy City**! From **Thillai Nagar, Cantonment, Srirangam, and KK Nagar** — where the legacy of Tiruchirappalli meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-155+ Students Enrolled | 4.9/5 Parent Rating | Tamil Nadu Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | Tamil Nadu Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Trichy)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students4,200+Classes Delivered98%Parent Satisfaction50+Schools Trust Us12+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Maths puzzles that build JEE reasoning skills
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 155+ students from Thillai Nagar, Cantonment, Srirangam, and KK Nagar, and across Trichy who are building their future with code.
+Join students from Thillai Nagar, Cantonment, Srirangam, and KK Nagar, and across Trichy who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Trichy)</>{ }01Education Capital of Tamil Nadu
 

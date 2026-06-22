@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Northeast India's Tech Hub & IIT Guwahati City — Home 
 
 Learn in **Northeast India's Tech Hub**! From **GS Road, Dispur, Chandmari, and Six Mile** — where the legacy of IIT Guwahati's world-class engineering meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-178+ Students Enrolled | 4.9/5 Parent Rating | Assam Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | Assam Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Guwahati)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students2,700+Classes Delivered96%Parent Satisfaction35+Schools Across NE10+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Maths exercises for JEE and AHSEC board exams
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 178+ students from GS Road, Dispur, Chandmari, and Six Mile, and across Guwahati who are building their future with code.
+Join students from GS Road, Dispur, Chandmari, and Six Mile, and across Guwahati who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Guwahati)</>{ }01Gateway of Northeast India
 

@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Rajasthan's Most Liveable City — Home of IIT Rajasthan
 
 Learn in **City of Lakes**! From **Hiran Magri, Sector 14, Fateh Sagar, and Sukhadia Circle** — where the legacy of modern innovation meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-147+ Students Enrolled | 4.9/5 Parent Rating | Rajasthan Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | Rajasthan Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Udaipur)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students4,200+Classes Delivered98%Parent Satisfaction50+Schools Trust Us12+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Maths puzzles that build JEE reasoning skills
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 147+ students from Hiran Magri, Sector 14, Fateh Sagar, and Sukhadia Circle, and across Udaipur who are building their future with code.
+Join students from Hiran Magri, Sector 14, Fateh Sagar, and Sukhadia Circle, and across Udaipur who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Udaipur)</>{ }01Rajasthan's Most Liveable City
 

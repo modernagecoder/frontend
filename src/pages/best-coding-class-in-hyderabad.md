@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Pearl City's Premier Coding Academy — HITEC City Hub
 
 Where **Microsoft & Google meet tomorrow's talent**! From **HITEC City to Gachibowli, Jubilee Hills to Secunderabad** — we're building Hyderabad's next generation of tech leaders.
 
-512+ Students Enrolled | 4.9/5 Parent Rating | TS EAMCET Prep Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | TS EAMCET Prep Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Hyderabad)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 StudentsQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -403,7 +403,7 @@ We provide regular progress updates to parents. After each module, you'll receiv
 
 ## Ready to Start Your Child's Coding Journey in Hyderabad?
 
-Join 512+ students from HITEC City, Gachibowli, Madhapur, Kondapur, Jubilee Hills, and across Hyderabad who are already building their future with code. Book a free demo class today — no obligation, no pressure.
+Join students from HITEC City, Gachibowli, Madhapur, Kondapur, Jubilee Hills, and across Hyderabad who are already building their future with code. Book a free demo class today — no obligation, no pressure.
 
 Book Free Demo Class[WhatsApp Us Now](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Hyderabad) </> { } 01City of Pearls - IT Capital
 

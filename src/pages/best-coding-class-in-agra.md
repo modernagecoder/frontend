@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Heritage City Embracing Digital Education — Home of Da
 
 Learn in **Heritage City Going Digital**! From **Sanjay Place, Civil Lines, Dayalbagh, and Kamla Nagar** — where the legacy of excellence meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-214+ Students Enrolled | 4.9/5 Parent Rating | UP Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | UP Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Agra)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students3,200+Classes Delivered97%Parent Satisfaction38+Schools Trust Us11+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ UP Board maths + coding integration exercises
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 214+ students from Sanjay Place, Civil Lines, Dayalbagh, and Kamla Nagar, and across Agra who are building their future with code.
+Join students from Sanjay Place, Civil Lines, Dayalbagh, and Kamla Nagar, and across Agra who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Agra)</>{ }01City of the Taj Mahal
 

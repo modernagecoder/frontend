@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — World's Oldest City & Home of IIT BHU — Home of IIT (B
 
 Learn in **World's Oldest Living City**! From **Lanka, Sigra, Bhelupur, and BHU Campus** — where the legacy of 5,000 years of unbroken learning tradition meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-209+ Students Enrolled | 4.9/5 Parent Rating | UP Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | UP Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Varanasi)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students3,300+Classes Delivered97%Parent Satisfaction42+Schools Trust Us12+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ JEE Advanced logical reasoning coding exercises
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 209+ students from Lanka, Sigra, Bhelupur, and BHU Campus, and across Varanasi who are building their future with code.
+Join students from Lanka, Sigra, Bhelupur, and BHU Campus, and across Varanasi who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Varanasi)</>{ }01City of Light & Kashi
 

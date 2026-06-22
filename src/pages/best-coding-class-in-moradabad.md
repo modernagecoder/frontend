@@ -13,7 +13,7 @@ Live Online · Civil Lines · Buddhi Vihar · Majhola · Ram Ganga Vihar
 
 Moradabad's brass has travelled to homes in 100+ countries — shaped by hand, then shipped to the world. The next export this city makes is its **children's ideas, turned into software**. From Civil Lines to the Ram Ganga colonies, your child learns to build — not just consume — technology.
 
-372+ Moradabad learners · 4.9/5 parent rating · JEE & CBSE/UP-Board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE & CBSE/UP-Board-aligned logic · Free demo class
 
 Modern Age Coders runs Moradabad's top-rated **live online** coding classes. All classes are online, so a student in Civil Lines, Buddhi Vihar, Majhola, Deen Dayal Nagar, Lajpat Nagar, Kanth Road, Ram Ganga Vihar, Mansarovar, the old city around Court Road or the TMU belt joins the same expert teacher from home — no autos across town, no travel on Delhi Road.
 

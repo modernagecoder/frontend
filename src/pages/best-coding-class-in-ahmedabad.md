@@ -13,7 +13,7 @@ Premier Coding Classes for Kids & Teens in Ahmedabad
 
 A specialized **Live Online** coding academy for students aged 8-18. From **SG Highway to Satellite**, **Prahlad Nagar to Vastrapur** — we empower Ahmedabad's future innovators with real programming skills through expert-led, hands-on **interactive online sessions**.
 
-412+ Students Enrolled | 4.9/5 Parent Rating | **100% Live Online Classes** | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | **100% Live Online Classes** | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Ahmedabad)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 StudentsQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -395,7 +395,7 @@ We provide regular progress updates to parents. After each module, you'll receiv
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 412+ Ahmedabad families who chose Modern Age Coders for their children's coding education. Book a free demo today and see if we're the right fit for your child.
+Join 500+ families across India who chose Modern Age Coders for their children's coding education. Book a free demo today and see if we're the right fit for your child.
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)
 

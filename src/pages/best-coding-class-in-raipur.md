@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Chhattisgarh's Fastest Growing City — Home of NIT Raip
 
 Learn in **Steel Capital of India**! From **Shankar Nagar, Devendra Nagar, Telibandha, and Civil Lines** — where the legacy of modern innovation meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-142+ Students Enrolled | 4.9/5 Parent Rating | CG Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | CG Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Raipur)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students4,200+Classes Delivered98%Parent Satisfaction50+Schools Trust Us12+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Maths puzzles that build JEE reasoning skills
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 142+ students from Shankar Nagar, Devendra Nagar, Telibandha, and Civil Lines, and across Raipur who are building their future with code.
+Join students from Shankar Nagar, Devendra Nagar, Telibandha, and Civil Lines, and across Raipur who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Raipur)</>{ }01Chhattisgarh's Fastest Growing City
 

@@ -13,7 +13,7 @@ Live Online · Fairlands · Hasthampatti · Five Roads · Suramangalam
 
 Salem is a city that builds — **steel, sago, handloom, and a wall of engineering colleges**. We teach coding with that same maker's instinct. From **Fairlands and Hasthampatti to the Five Roads junction and the SAIL township beneath the Shevaroy hills**, your child learns to build — not just consume — technology.
 
-300+ Salem learners · 4.9/5 parent rating · TNEA, JEE & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · TNEA, JEE & board-aligned logic · Free demo class
 
 Modern Age Coders runs Salem's top-rated **live online** coding classes. All classes are online, so a student in Fairlands, Hasthampatti, Five Roads, Alagapuram, Ammapet, Suramangalam, Shevapet, Gugai, Kondalampatti, the Junction belt or out towards Omalur Road joins the same expert teacher from home — no scooter ride across the Junction traffic.
 

@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — City of Lakes — Where MANIT & Top Institutions Shape F
 
 Train in **Madhya Pradesh's capital city** where education meets innovation! From **MP Nagar to Arera Colony, Kolar Road to Habibganj** — we're building tomorrow's tech leaders in the City of Lakes.
 
-278+ Students Enrolled | 4.9/5 Parent Rating | MPBSE & JEE Prep Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | MPBSE & JEE Prep Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Bhopal)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 StudentsQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -353,7 +353,7 @@ Coding builds algorithmic thinking, pattern recognition, and mathematical reason
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 278+ students from Kolar Road, Arera Colony, Shahpura, New Market, and across Bhopal who are building their future with code.
+Join students from Kolar Road, Arera Colony, Shahpura, New Market, and across Bhopal who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Bhopal) </> { } 01India's City of Lakes
 

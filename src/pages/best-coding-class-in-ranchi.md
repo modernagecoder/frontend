@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Home of BIT Mesra & IIM Ranchi — Home of BIT Mesra
 
 Learn in **Jharkhand's Tech Capital**! From **Doranda, Harmu, Kanke Road, and Bariatu** — where the legacy of BIT Mesra's engineering legacy meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-198+ Students Enrolled | 4.9/5 Parent Rating | Jharkhand Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | Jharkhand Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Ranchi)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students3,100+Classes Delivered96%Parent Satisfaction35+Schools Trust Us10+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Maths puzzle sets for JEE and JAC board preparation
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 198+ students from Doranda, Harmu, Kanke Road, and Bariatu, and across Ranchi who are building their future with code.
+Join students from Doranda, Harmu, Kanke Road, and Bariatu, and across Ranchi who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Ranchi)</>{ }01City of Waterfalls
 

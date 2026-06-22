@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Home of IIT Kanpur & HBTU — Home of IIT Kanpur
 
 Learn in **Home of IIT Kanpur**! From **Swaroop Nagar, Kidwai Nagar, Civil Lines, and Govind Nagar** — where the legacy of IIT Kanpur's legendary engineering tradition meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-256+ Students Enrolled | 4.9/5 Parent Rating | UP Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | UP Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Kanpur)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students3,500+Classes Delivered98%Parent Satisfaction45+Schools Trust Us12+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ UP Board aligned maths and coding integration exercises
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 256+ students from Swaroop Nagar, Kidwai Nagar, Civil Lines, and Govind Nagar, and across Kanpur who are building their future with code.
+Join students from Swaroop Nagar, Kidwai Nagar, Civil Lines, and Govind Nagar, and across Kanpur who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Kanpur)</>{ }01Manchester of India
 

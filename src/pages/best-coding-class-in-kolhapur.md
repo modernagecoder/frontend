@@ -13,7 +13,7 @@ Live Online · Rajarampuri · Shahupuri · Tarabai Park · Kasaba Bawada
 
 Kolhapur is a city of **craftsmen and champions** — chappal artisans who perfect every stitch, wrestlers who earn every win in the red soil of the akhada. We teach coding with that same patience and discipline. From **Rajarampuri and Shahupuri to Tarabai Park, Kasaba Bawada and out to Ichalkaranji, Jaysingpur and Kagal**, your child learns to build software — not just scroll through it.
 
-372+ Maharashtra learners · 4.9/5 parent rating · MHT-CET, JEE & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · MHT-CET, JEE & board-aligned logic · Free demo class
 
 Modern Age Coders runs Kolhapur's top-rated **live online** coding classes. All classes are online, so a student in Rajarampuri, Shahupuri, Tarabai Park, Laxmipuri, on the Mahadwar Road or Station Road core, in Kasaba Bawada, Nagala Park, Shivaji Peth, near Rankala lake, or out in Ichalkaranji, Jaysingpur, Kagal and Gadhinglaj joins the same expert teacher from home — no auto rides across town.
 

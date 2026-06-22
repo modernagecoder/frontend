@@ -13,7 +13,7 @@ Live Online · Civil Lines · Marris Road · Dodhpur · AMU
 
 Aligarh has built precision for a century — **locks, hardware and one of India's great universities**. We bring that same craft to code. From the **trade families of Tala Nagri to the AMU-bound students of Sir Syed Nagar, and across Civil Lines, Marris Road & Ramghat Road**, your child learns to build — not just use — technology.
 
-372+ Aligarh learners · 4.9/5 parent rating · JEE, CBSE & UP Board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE, CBSE & UP Board-aligned logic · Free demo class
 
 Modern Age Coders runs Aligarh's top-rated **live online** coding classes. All classes are online, so a student in Civil Lines, Marris Road, Ramghat Road, Dodhpur, Sasni Gate, Centre Point, Quarsi, Jamalpur, Sir Syed Nagar or out near Tala Nagri and the Anoopshahr Road colonies joins the same expert teacher from home — no auto ride through GT Road traffic. We also reach students in Khair, Iglas and Atrauli.
 

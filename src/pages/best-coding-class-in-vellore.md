@@ -13,7 +13,7 @@ Live Online · Katpadi · Sathuvachari · Gandhi Nagar · Officers Line
 
 Vellore turns aspiration into achievement — **a fort town that became a national education magnet**. We teach coding with the same seriousness this city brings to JEE and NEET. From the **VIT corridor at Katpadi to the homes of Sathuvachari, Gandhi Nagar and Officers Line**, your child learns to build — not just consume — technology.
 
-342+ Vellore learners · 4.9/5 parent rating · JEE/NEET & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · JEE/NEET & board-aligned logic · Free demo class
 
 Modern Age Coders runs Vellore's top-rated **live online** coding classes. All classes are online, so a student in Katpadi, Sathuvachari, Gandhi Nagar, Thottapalayam, Bagayam, Officers Line, Vasanthapuram, Thorapadi or the Fort area joins the same expert teacher from home — no autos through Long Bazaar, no travel to Katpadi.
 

@@ -13,7 +13,7 @@ Live Online · Hotgi Road · Vijapur Road · Jule Solapur · Akkalkot Road
 
 Solapur knows how to turn thread into a pattern the whole world buys — its chaddars and terry towels carry a GI tag for a reason. A loom turns thread into pattern the way code turns logic into products: **same patience, same repeating loops, the same eye for a single flaw**. From **Hotgi Road and Vijapur Road to Jule Solapur, Akkalkot Road and out to Akkalkot, Pandharpur and Barshi**, we teach your child to weave the future — to build software, not just scroll through it.
 
-430+ Maharashtra learners · 4.9/5 parent rating · MHT-CET, JEE & board-aligned logic · Free demo class
+500+ learners across India · 4.9/5 parent rating · MHT-CET, JEE & board-aligned logic · Free demo class
 
 Modern Age Coders runs Solapur's top-rated **live online** coding classes. All classes are online, so a student on Hotgi Road or Vijapur Road, near Saat Rasta or Asra Chowk, in Murarji Peth, Shukrawar Peth, Kasba Peth, Budhwar Peth, Jule Solapur, Damani Nagar or the Railway Lines area — or out in Akkalkot, Pandharpur, Barshi and Kurduwadi — joins the same expert teacher from home, with no travel to a city-centre tuition. Our teachers are at ease with Marathi-, Kannada-, Telugu- and Hindi-speaking homes.
 

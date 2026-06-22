@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — India's School Capital & IIT Roorkee Gateway — Home of
 
 Learn in **India's School Capital**! From **Rajpur Road, GMS Road, Clement Town, and Ballupur** — where the legacy of The Doon School's century-old legacy meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-189+ Students Enrolled | 4.9/5 Parent Rating | Uttarakhand Board & CBSE Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | Uttarakhand Board & CBSE Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Dehradun)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students2,900+Classes Delivered98%Parent Satisfaction30+Schools Trust Us12+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Competitive coding exercises for Olympiad aspirants
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 189+ students from Rajpur Road, GMS Road, Clement Town, and Ballupur, and across Dehradun who are building their future with code.
+Join students from Rajpur Road, GMS Road, Clement Town, and Ballupur, and across Dehradun who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Dehradun)</>{ }01Doon Valley & School Capital
 

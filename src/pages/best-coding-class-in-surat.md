@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — The Diamond City — India's Fastest-Growing Metro
 
 Learn from India's **fastest-growing city's** entrepreneurial spirit! From **Vesu to Adajan, Athwa to Citylight** — we're building tomorrow's tech leaders in Gujarat's Diamond City.
 
-421+ Students Enrolled | 4.9/5 Parent Rating | GSEB & CBSE Prep | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | GSEB & CBSE Prep | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Surat)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 StudentsQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -329,7 +329,7 @@ Yes! Weekend batches (Sat-Sun 9 AM - 6 PM) and weekday batches (4 PM - 8 PM) ava
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 421+ students from Vesu, Adajan, Athwa, Citylight, and across Surat who are building their future with code.
+Join students from Vesu, Adajan, Athwa, Citylight, and across Surat who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Surat) </> { } 01India's Diamond City
 

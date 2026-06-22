@@ -13,7 +13,7 @@ LIVE ONLINE CLASSES — Mahatma Gandhi's City & Gujarat's Industrial Hub — Hom
 
 Learn in **Gujarat's Industrial Hub**! From **Kalawad Road, University Road, Yagnik Road, and Bhaktinagar** — where the legacy of Mahatma Gandhi's formative years meets the future of technology. Build tomorrow's skills today with live coding and maths classes.
 
-198+ Students Enrolled | 4.9/5 Parent Rating | GSEB & Gujarat CET Support | Free Demo Class
+500+ Students Across India | 4.9/5 Parent Rating | GSEB & Gujarat CET Support | Free Demo Class
 
 Book Free Demo Class[Call: 9123366161](tel:+919123366161)[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Rajkot)★★★★★Google ReviewsLive OnlineInteractive ClassesCertificateon CompletionSmall Batches5-8 Students3,000+Classes Delivered97%Parent Satisfaction38+Schools Trust Us11+Months Avg RetentionQuick Links:Kids Courses (8-12)Teen Courses (13-18)PricingBook Free DemoFAQs
 
@@ -504,7 +504,7 @@ Gujarat CET maths reasoning exercises
 
 ## Ready to Start Your Child's Coding Journey?
 
-Join 198+ students from Kalawad Road, University Road, Yagnik Road, and Bhaktinagar, and across Rajkot who are building their future with code.
+Join students from Kalawad Road, University Road, Yagnik Road, and Bhaktinagar, and across Rajkot who are building their future with code.
 
 Book Free Demo Class[WhatsApp Us](https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Rajkot)</>{ }01Rangilu Rajkot
 
