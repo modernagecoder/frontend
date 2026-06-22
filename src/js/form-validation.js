@@ -226,7 +226,7 @@ class FormValidator {
     console.log('Form is valid and ready to submit');
     
     // Show success message
-    this.showFormMessage('Form submitted successfully!', 'success');
+    this.showFormMessage('Form submitted successfully! We will reach out within 24 hours. To connect now, you can contact 9123366161 (Shivam Sir) directly for a faster response.', 'success');
     
     // Reset form after short delay
     setTimeout(() => {
