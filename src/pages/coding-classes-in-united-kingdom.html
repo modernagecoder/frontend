@@ -105,6 +105,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,400;9..144,0,500;9..144,0,600;9..144,1,400;9..144,1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/country-pages.css">
+
+    <!-- Vibe Coding & AI — featured "frontier" block styles (page-local) -->
+    <style id="cp-vibe-styles">
+    .cp-vibe{position:relative;padding:clamp(64px,8vw,118px) 0;background:radial-gradient(820px 460px at 12% 0%,rgba(168,85,247,.16),transparent 62%),radial-gradient(720px 480px at 92% 28%,rgba(34,211,238,.12),transparent 60%),linear-gradient(180deg,#07060e,#090a14);border-top:1px solid rgba(168,85,247,.22);border-bottom:1px solid rgba(168,85,247,.22);overflow:hidden}
+    .cp-vibe::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(168,85,247,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(34,211,238,.05) 1px,transparent 1px);background-size:52px 52px;-webkit-mask-image:radial-gradient(ellipse at 50% 0%,#000 35%,transparent 78%);mask-image:radial-gradient(ellipse at 50% 0%,#000 35%,transparent 78%);pointer-events:none}
+    .cp-vibe>.cp-wrap{position:relative;z-index:1}
+    .cp-vibe-eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--cp-font-mono);font-size:11px;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:#d8b4fe;padding:7px 14px;border-radius:999px;border:1px solid rgba(168,85,247,.4);background:rgba(168,85,247,.1);margin-bottom:20px}
+    .cp-vibe-eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:#a3e635;box-shadow:0 0 12px #a3e635}
+    .cp-vibe-h2{font-family:var(--cp-font-display);font-size:clamp(1.9rem,3.8vw,3rem);line-height:1.08;letter-spacing:-.02em;margin:0 0 18px;color:#fff;max-width:20ch}
+    .cp-vibe-h2 .grad{background:linear-gradient(110deg,#a855f7 0%,#22d3ee 55%,#a3e635 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    .cp-vibe-lede{color:var(--cp-text-soft);max-width:74ch;font-size:clamp(1rem,1.4vw,1.12rem);margin:0 0 28px}
+    .cp-vibe-lede strong{color:#fff}
+    .cp-vibe-cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:44px}
+    .cp-vibe-cta .cp-btn-primary{background:linear-gradient(120deg,#a855f7,#22d3ee);color:#0a0a14;box-shadow:0 14px 40px -12px rgba(168,85,247,.5)}
+    .cp-vibe-cta .cp-btn-primary:hover{box-shadow:0 18px 52px -12px rgba(34,211,238,.55)}
+    .cp-vibe-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .cp-vibe-card{display:flex;flex-direction:column;background:rgba(255,255,255,.022);border:1px solid rgba(168,85,247,.2);border-radius:var(--cp-radius);overflow:hidden;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+    .cp-vibe-card:hover{transform:translateY(-5px);border-color:#22d3ee;box-shadow:0 24px 60px -30px rgba(34,211,238,.5)}
+    .cp-vibe-card:focus-visible{outline:2px solid #22d3ee;outline-offset:3px}
+    .cp-vibe-thumb{position:relative;aspect-ratio:16/10;background-size:cover;background-position:center;background-color:#11121e}
+    .cp-vibe-thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 42%,rgba(7,6,14,.82))}
+    .cp-vibe-tag{position:absolute;top:10px;left:10px;z-index:1;font-family:var(--cp-font-mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:#0a0a14;background:#a3e635;padding:4px 9px;border-radius:999px;font-weight:600}
+    .cp-vibe-body{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1}
+    .cp-vibe-body h3{font-family:var(--cp-font-display);font-size:1.06rem;color:#fff;margin:0 0 8px;line-height:1.2;font-weight:600}
+    .cp-vibe-body p{color:var(--cp-text-soft);font-size:.86rem;line-height:1.6;margin:0 0 16px;flex:1}
+    .cp-vibe-explore{color:#22d3ee;font-family:var(--cp-font-mono);font-size:12.5px;font-weight:500;letter-spacing:.03em}
+    .cp-vibe-more{margin-top:30px;display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+    .cp-vibe-more .lbl{color:var(--cp-text-mute);font-size:13px;width:100%;margin-bottom:2px}
+    .cp-vibe-chip{font-family:var(--cp-font-mono);font-size:12px;color:var(--cp-text-soft);padding:8px 14px;border-radius:999px;border:1px solid rgba(168,85,247,.28);background:rgba(168,85,247,.06);transition:border-color .2s,color .2s}
+    .cp-vibe-chip:hover{border-color:#22d3ee;color:#fff}
+    @media(max-width:1000px){.cp-vibe-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.cp-vibe-grid{grid-template-columns:1fr}}
+    @media(prefers-reduced-motion:reduce){.cp-vibe-card{transition:none}.cp-vibe-card:hover{transform:none}}
+    </style>
 </head>
 
 <body class="cp-root cp-uk">
@@ -118,6 +152,7 @@
         </a>
         <ul class="cp-nav-menu">
             <li class="cp-nav-item"><a href="#courses" class="cp-nav-link">Courses</a></li>
+            <li class="cp-nav-item"><a href="#vibe" class="cp-nav-link">Vibe + AI</a></li>
             <li class="cp-nav-item"><a href="#stages" class="cp-nav-link">Key Stages</a></li>
             <li class="cp-nav-item"><a href="#exams" class="cp-nav-link">GCSE / A-Level</a></li>
             <li class="cp-nav-item"><a href="#pricing" class="cp-nav-link">Pricing</a></li>
@@ -140,6 +175,7 @@
             <li><a href="/courses/coding/kids" class="sub">— For Kids (KS1–KS2)</a></li>
             <li><a href="/courses/coding/teens" class="sub">— For Teens (KS3–KS5)</a></li>
             <li><a href="/courses/coding/college" class="sub">— University &amp; Adults</a></li>
+            <li><a href="#vibe">Vibe Coding + AI</a></li>
             <li><a href="#stages">Key Stages</a></li>
             <li><a href="#exams">GCSE / A-Level</a></li>
             <li><a href="#pricing">Pricing</a></li>
@@ -198,6 +234,66 @@
                 <!-- duplicate for seamless loop -->
                 <span>Oxford</span><span>Cambridge</span><span>Imperial</span><span>UCL</span><span>Edinburgh</span><span>Warwick</span><span>Manchester</span><span>Bristol</span><span>Durham</span><span>KCL</span><span>Southampton</span><span>St Andrews</span><span>Glasgow</span><span>Leeds</span><span>Sheffield</span><span>Birmingham</span>
             </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================== VIBE CODING & AI — FEATURED ============================== -->
+<section class="cp-vibe" id="vibe">
+    <div class="cp-wrap">
+        <span class="cp-vibe-eyebrow">The frontier · featured</span>
+        <h2 class="cp-vibe-h2">Vibe Coding &amp; AI Agents — <span class="grad">where coding is actually heading.</span></h2>
+        <p class="cp-vibe-lede">
+            This is the part the National Curriculum hasn't caught up to yet. <strong>Vibe coding</strong> — describe what you want, the AI drafts it, and you read, refine and ship it — together with <strong>AI coding agents</strong> like <strong>Codex</strong> and <strong>Claude Code</strong> is how engineers across British tech, from DeepMind and the London AI scene to every serious startup, actually write software in 2026. We teach the agentic workflow <em>and</em> the Python, algorithms and computer-science fundamentals underneath it — so your child <strong>drives the AI instead of being replaced by it</strong>, and walks into GCSE and A-Level Computer Science, the NEA coursework project and a Russell-Group application already fluent in the tools the field now runs on.
+        </p>
+        <div class="cp-vibe-cta">
+            <a href="/courses" class="cp-btn cp-btn-primary cp-btn-arrow">Browse all courses</a>
+            <button type="button" class="cp-btn cp-btn-ghost" onclick="openCallbackModal()">Book a free trial</button>
+        </div>
+
+        <div class="cp-vibe-grid">
+            <a href="/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev" class="cp-vibe-card">
+                <div class="cp-vibe-thumb" style="background-image:url('/images/vibe-coding-kids.webp');"><span class="cp-vibe-tag">New · Ages 8–12</span></div>
+                <div class="cp-vibe-body">
+                    <h3>Vibe Coding for Kids</h3>
+                    <p>Children build real games and apps by describing ideas to AI, then learn the Scratch and Python logic underneath — a confident, modern start well before KS3 computing.</p>
+                    <span class="cp-vibe-explore">Explore the course →</span>
+                </div>
+            </a>
+            <a href="/courses/vibe-coding-for-teens-python-web-ai-projects-course" class="cp-vibe-card">
+                <div class="cp-vibe-thumb" style="background-image:url('/images/vibe-coding-teens.webp');"><span class="cp-vibe-tag">Trending · Ages 13–18</span></div>
+                <div class="cp-vibe-body">
+                    <h3>Vibe Coding for Teens</h3>
+                    <p>Python, web and AI projects built the modern way — prompt, generate, refine. Teens ship real products while genuinely mastering the concepts behind GCSE and A-Level Computer Science.</p>
+                    <span class="cp-vibe-explore">Explore the course →</span>
+                </div>
+            </a>
+            <a href="/courses/codex-and-claude-code-ai-coding-agents-course-for-teens" class="cp-vibe-card">
+                <div class="cp-vibe-thumb" style="background-image:url('/images/codex-claude-code-teens.webp');"><span class="cp-vibe-tag">Future · Ages 13–18</span></div>
+                <div class="cp-vibe-body">
+                    <h3>AI Coding Agents — Codex &amp; Claude Code</h3>
+                    <p>Hands-on with the exact agents real engineers use in 2026. Ideal for an ambitious OCR or AQA NEA project — plan, prompt and ship software with an AI pair-programmer, and understand every line.</p>
+                    <span class="cp-vibe-explore">Explore the course →</span>
+                </div>
+            </a>
+            <a href="/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals" class="cp-vibe-card">
+                <div class="cp-vibe-thumb" style="background-image:url('/images/codex-claude-code-adults.webp');"><span class="cp-vibe-tag">Pro · University &amp; 18+</span></div>
+                <div class="cp-vibe-body">
+                    <h3>AI Agents for Pros &amp; University</h3>
+                    <p>Master Codex, Claude Code and agentic workflows to multiply your output — the exact edge London, Manchester and Cambridge employers are hiring for right now.</p>
+                    <span class="cp-vibe-explore">Explore the course →</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="cp-vibe-more">
+            <span class="lbl">More on the frontier:</span>
+            <a href="/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course" class="cp-vibe-chip">Vibe Coding for University</a>
+            <a href="/courses/complete-generative-ai-masterclass-college" class="cp-vibe-chip">Generative AI Masterclass</a>
+            <a href="/courses/ai-tools-mastery-complete-college" class="cp-vibe-chip">AI Tools Mastery</a>
+            <a href="/courses/ai-ml-masterclass-teens" class="cp-vibe-chip">AI &amp; Machine Learning</a>
+            <a href="/courses" class="cp-vibe-chip">View all courses →</a>
         </div>
     </div>
 </section>

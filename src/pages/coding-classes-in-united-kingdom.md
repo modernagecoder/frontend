@@ -21,6 +21,17 @@ An **Online School** · Serving the United Kingdom · +44 · GMT / BST
 
 Live 1:1 mentorship in real **Python**, modern web and **agentic AI** — aligned with **KS3–KS5 computing**, **GCSE Computer Science (AQA · OCR · Pearson)**, **A-Level** and the algorithmic depth Oxbridge, Imperial, UCL and the rest of the Russell Group quietly assume. **£79 a month**, eight live sessions, two a week, cancel any time.
 
+## Vibe Coding & AI Agents — where coding is actually heading (featured)
+
+Vibe coding — describe what you want, the AI drafts it, and you read, refine and ship it — together with AI coding agents like **Codex** and **Claude Code** is how engineers across British tech, from DeepMind and the London AI scene to every serious startup, actually write software in 2026. We teach the agentic workflow and the Python, algorithms and computer-science fundamentals underneath it, so your child drives the AI instead of being replaced by it — fluent for GCSE and A-Level Computer Science, the NEA coursework project and Russell-Group admissions.
+
+- [Vibe Coding for Kids (ages 8–12)](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
+- [Vibe Coding for Teens (ages 13–18)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [AI Coding Agents — Codex & Claude Code (teens)](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
+- [AI Agents for Pros & University](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+- [Vibe Coding for University](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)
+- [Browse all courses](/courses)
+
 See what we teach by Key StagePick a course · start this week
 
 ## Seven serious tracks for British learners — primary to professional.

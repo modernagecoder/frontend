@@ -21,6 +21,17 @@ America's coding classroom · +1 · all 50 states
 
 Live 1:1 mentorship in **Python**, modern web and **agentic AI** for K–12, college and adult learners across America. Aligned with **AP Computer Science Principles**, **AP CS A**, **USACO** (Bronze → Platinum), and the algorithmic depth **MIT**, **Stanford**, **CMU**, **Berkeley**, **Caltech** and the Ivy League actually look for. **$100 a month**, eight live sessions, two a week, cancel anytime. Mentors work in **your** time zone.
 
+## Vibe Coding & AI Agents — start where coding is going (featured)
+
+Vibe coding — describe what you want, the AI drafts it, and you read, refine and ship it — together with AI coding agents like **Codex** and **Claude Code** is how engineers at OpenAI, Anthropic, Nvidia and every serious US startup actually write software in 2026. We teach the agentic workflow and the Python, algorithms and computer-science fundamentals underneath it, so your student drives the AI instead of being replaced by it — fluent for AP CS, USACO and top-tier CS admissions.
+
+- [Vibe Coding for Kids (ages 8–12)](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
+- [Vibe Coding for Teens (ages 13–18)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
+- [AI Coding Agents — Codex & Claude Code (teens)](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
+- [AI Agents for Pros & College](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
+- [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)
+- [Browse all courses](/courses)
+
 See AP & USACO tracks4.9/5Average parent & learner rating · 2,140 reviews50 statesMentors live in all 6 US time zones8 / moLive 1:1 sessions, 2 each week$100Per month · cancel any time · no contractMentors live in **all 6 US time zones**Booking now · 09:00 – 21:00 local in each zone**HT** · UTC −10Honolulu · HiloAfter-school *15:30*, evening *18:00*, Sat morning**AKT** · UTC −9Anchorage · JuneauAfter-school *16:00*, evening *18:30*, weekend**PT** · UTC −8Los Angeles · SF · SeattleAfter-school *16:30*, evening *19:00*, every slot busy**MT** · UTC −7Denver · Phoenix · SLCAfter-school *16:30*, evening *19:30*, weekend**CT** · UTC −6Chicago · Houston · AustinAfter-school *17:00*, evening *19:30*, every slot busy**ET** · UTC −5NYC · Boston · DC · AtlantaAfter-school *17:00*, evening *19:30*, every slot busyParent rating4.9 / 5 · 2,140 reviewsAligned withAP CSP · AP CSA · USACOCoverageAll 50 states · 6 time zonesCommitmentFree trial · month-to-monthPick a course · start this week
 
 ## Eight serious tracks for American learners — elementary to professional.
