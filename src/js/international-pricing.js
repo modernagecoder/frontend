@@ -26,6 +26,14 @@ const InternationalPricing = {
       personal: { amount: 100, display: '$100', symbol: '$', period: '/month', currency: 'USD' },
       lifetime: { amount: 599, display: '$599', symbol: '$', period: '',       currency: 'USD' },
       summer:   { amount: 60,  display: '$60',  symbol: '$', period: '',       currency: 'USD' }
+    },
+    // MATHS-ONLY international pricing. Maths is priced above the flat coding
+    // price: 1-hour live classes, 2 per week, 8 per month. Indian (₹) prices are
+    // unchanged; the coding international prices above are unchanged. Applied on
+    // the pricing.html Maths tab and on any page tagged data-subject="maths".
+    internationalMaths: {
+      group:    { amount: 100, display: '$100', symbol: '$', period: '/month', currency: 'USD' },
+      personal: { amount: 150, display: '$150', symbol: '$', period: '/month', currency: 'USD' }
     }
   },
 
@@ -63,9 +71,42 @@ const InternationalPricing = {
     // Toggle catalog price chips (course.html) regardless of region
     this.updateCatalogPriceChips();
 
-    if (!this.isIndian) {
+    // Pages that ship their own India/International toggle panels (the maths hub
+    // pages) keep both currencies in static markup. Just activate the panel that
+    // matches the visitor; skip DOM price-swapping so the static prices stand.
+    var hasManualPanels = this.applyRegionPanels();
+
+    if (!this.isIndian && !hasManualPanels) {
       this.updateAllPages();
     }
+  },
+
+  // ─── Region toggle panels (pages with their own India/International tabs) ───
+  // Returns true if this page has such panels (so the caller skips swapping).
+  applyRegionPanels() {
+    var intlPanel = document.getElementById('panel-international');
+    var indiaPanel = document.getElementById('panel-indian');
+    if (!intlPanel || !indiaPanel) return false;
+
+    var wantIntl = !this.isIndian;
+    indiaPanel.classList.toggle('active', !wantIntl);
+    intlPanel.classList.toggle('active', wantIntl);
+    document.querySelectorAll('.price-tab').forEach(function(btn) {
+      var isIntlBtn = btn.getAttribute('data-panel') === 'international';
+      btn.classList.toggle('active', isIntlBtn === wantIntl);
+    });
+    return true;
+  },
+
+  // ─── Maths context ───
+  // True on dedicated maths pages, which tag <body>/<html> data-subject="maths".
+  // Used to pick maths USD prices (group $100, 1-on-1 $150) over the flat coding
+  // prices when swapping ₹ markup or course cards.
+  isMathsContext() {
+    var el = document.documentElement;
+    var b = document.body;
+    return (!!el && el.getAttribute('data-subject') === 'maths') ||
+           (!!b && b.getAttribute('data-subject') === 'maths');
   },
 
   // ─── Detection ───
@@ -125,10 +166,14 @@ const InternationalPricing = {
 
   // ─── Pricing Page (pricing.html) ───
   updatePricingPage() {
-    var prices = this.PRICES.international;
+    var coding = this.PRICES.international;
+    var maths = this.PRICES.internationalMaths;
 
-    // Each tab (Coding, Maths, Custom) has cards: Group (1st) and Personal (2nd)
+    // Each tab (Coding, Maths, Custom) has cards: Group (1st) and Personal (2nd).
+    // The Maths tab (#tab-maths) uses the higher maths-only USD prices; every
+    // other tab keeps the flat coding prices.
     document.querySelectorAll('.pricing-tab-content').forEach(function(tab) {
+      var prices = (tab.id === 'tab-maths') ? maths : coding;
       var cards = tab.querySelectorAll('.pricing-card-new');
       cards.forEach(function(card) {
         // Skip "Custom Quote" cards
@@ -173,7 +218,7 @@ const InternationalPricing = {
 
   // ─── Generated Course Pages (course-template.html) ───
   updateCoursePages() {
-    var prices = this.PRICES.international;
+    var prices = this.isMathsContext() ? this.PRICES.internationalMaths : this.PRICES.international;
 
     // Template 1: .enrollment-option > h4 + .price
     document.querySelectorAll('.enrollment-option').forEach(function(option) {
@@ -267,7 +312,16 @@ const InternationalPricing = {
   // group price (no USD Mini Batch exists; inline "from ₹2,499" mentions on
   // hyper-local pages must not surface a third SKU).
   genericPriceSwap() {
-    var rules = [
+    // Maths pages (data-subject="maths") price Group at $100 and 1-on-1 at $150.
+    // Every other page keeps the flat coding swap (Group $40, 1-on-1 $100).
+    var rules = this.isMathsContext() ? [
+      { rx: /(?:₹|\bRs\.?)\s*49,?999(?!\d)/g, usd: '$599' },
+      { rx: /(?:₹|\bRs\.?)\s*1,?499(?!\d)/g,  usd: '$100' },  // maths group tier
+      { rx: /(?:₹|\bRs\.?)\s*1,?999(?!\d)/g,  usd: '$100' },
+      { rx: /(?:₹|\bRs\.?)\s*2,?499(?!\d)/g,  usd: '$150' },
+      { rx: /(?:₹|\bRs\.?)\s*2,?999(?!\d)/g,  usd: '$150' },
+      { rx: /(?:₹|\bRs\.?)\s*4,?999(?!\d)/g,  usd: '$150' }   // maths 1-on-1 tier
+    ] : [
       { rx: /(?:₹|\bRs\.?)\s*49,?999(?!\d)/g, usd: '$599' },
       { rx: /(?:₹|\bRs\.?)\s*1,?499(?!\d)/g,  usd: '$40'  },
       { rx: /(?:₹|\bRs\.?)\s*1,?999(?!\d)/g,  usd: '$40'  },  // school bootcamp group tier

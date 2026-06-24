@@ -52,8 +52,8 @@
         {"@type":"Offer","name":"Group Classes","price":"1499","priceCurrency":"INR","availability":"https://schema.org/InStock"},
         {"@type":"Offer","name":"Mini Batch (3-4 students, India only)","price":"2499","priceCurrency":"INR","availability":"https://schema.org/InStock"},
         {"@type":"Offer","name":"Personalized 1-on-1","price":"4999","priceCurrency":"INR","availability":"https://schema.org/InStock"},
-        {"@type":"Offer","name":"International Group Classes","price":"40","priceCurrency":"USD","availability":"https://schema.org/InStock"},
-        {"@type":"Offer","name":"International 1-on-1","price":"100","priceCurrency":"USD","availability":"https://schema.org/InStock"}
+        {"@type":"Offer","name":"International Group Classes","price":"100","priceCurrency":"USD","availability":"https://schema.org/InStock"},
+        {"@type":"Offer","name":"International 1-on-1","price":"150","priceCurrency":"USD","availability":"https://schema.org/InStock"}
       ],
       "audience":{
         "@type":"EducationalAudience",
@@ -69,7 +69,7 @@
       "@type":"FAQPage",
       "mainEntity":[
         {"@type":"Question","name":"Is online maths tuition effective?","acceptedAnswer":{"@type":"Answer","text":"Yes. Research shows that personalized online maths tuition often outperforms classroom learning because students get individual attention, can learn at their own pace, and have access to recorded sessions for revision. Our students regularly improve their grades by 20-40% within the first 3 months."}},
-        {"@type":"Question","name":"How much does online maths tuition cost?","acceptedAnswer":{"@type":"Answer","text":"At Modern Age Coders, group maths classes start at just ₹1,499/month (for Indian students) or $40/month (for international students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 sessions start at ₹4,999/month or $100/month. There are no hidden fees and you can cancel anytime."}},
+        {"@type":"Question","name":"How much does online maths tuition cost?","acceptedAnswer":{"@type":"Answer","text":"At Modern Age Coders, group maths classes start at just ₹1,499/month (for Indian students) or $100/month (for international students). Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 sessions start at ₹4,999/month or $150/month. There are no hidden fees and you can cancel anytime."}},
         {"@type":"Question","name":"Which boards and curricula do you cover?","acceptedAnswer":{"@type":"Answer","text":"We cover CBSE, ICSE, State Boards (all Indian states), IB (International Baccalaureate), IGCSE, Cambridge, and US Common Core. Our tutors customize lessons based on your specific syllabus and textbook."}},
         {"@type":"Question","name":"Can students from outside India join?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. We have students from 15+ countries including the US, UK, UAE, Canada, Singapore, Australia, and across Europe. Classes are scheduled at times that work across different time zones. International students pay in USD."}},
         {"@type":"Question","name":"What age groups can enroll for maths tuition?","acceptedAnswer":{"@type":"Answer","text":"We teach maths to students from age 6 all the way to 65. Our curriculum covers primary school (Class 1-5), middle school (Class 6-8), high school (Class 9-12), college-level mathematics, and competitive exam preparation for working professionals."}},
@@ -301,7 +301,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-s
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
 </head>
 
-<body>
+<body data-subject="maths">
 <div class="mt-bg"></div>
 <div class="page-wrap">
 
@@ -756,7 +756,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-s
                     <div class="p-price"><span class="currency">&#8377;</span>2,499</div>
                     <p class="p-period">per month</p>
                     <ul class="p-features">
-                        <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>2 private sessions per week</li>
+                        <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>2 private sessions per week (1 hour each)</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>100% customized to your syllabus</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Flexible scheduling (any timezone)</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Dedicated tutor assigned</li>
@@ -782,7 +782,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-s
                     </div>
                     <h3>Group Classes</h3>
                     <p class="p-tagline">Learn with peers, grow together</p>
-                    <div class="p-price"><span class="currency">$</span>40</div>
+                    <div class="p-price"><span class="currency">$</span>100</div>
                     <p class="p-period">USD / month</p>
                     <ul class="p-features">
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>2 classes per week (1 hour each)</li>
@@ -793,7 +793,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-s
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Doubt clearing support</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Course completion certificate</li>
                     </ul>
-                    <a href="https://wa.me/919123366161?text=Hi! I'm an international student interested in Group Maths Classes ($40 USD/month). Can you share more details?" target="_blank" rel="noopener" class="p-cta">Chat to Enroll</a>
+                    <a href="https://wa.me/919123366161?text=Hi! I'm an international student interested in Group Maths Classes ($100 USD/month). Can you share more details?" target="_blank" rel="noopener" class="p-cta">Chat to Enroll</a>
                 </div>
 
                 <div class="p-card featured">
@@ -803,10 +803,10 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-s
                     </div>
                     <h3>Personalized 1-on-1</h3>
                     <p class="p-tagline">Your pace, your goals, your schedule</p>
-                    <div class="p-price"><span class="currency">$</span>80</div>
+                    <div class="p-price"><span class="currency">$</span>150</div>
                     <p class="p-period">USD / month</p>
                     <ul class="p-features">
-                        <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>2 private sessions per week</li>
+                        <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>2 private sessions per week (1 hour each)</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>100% customized to your curriculum</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Flexible scheduling across timezones</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Dedicated tutor + priority support</li>
@@ -815,7 +815,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-s
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Lifetime recording access</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Portfolio and career guidance</li>
                     </ul>
-                    <a href="https://wa.me/919123366161?text=Hi! I'm an international student interested in Personalized 1-on-1 Maths Classes ($100 USD/month). Can you share more details?" target="_blank" rel="noopener" class="p-cta">Chat to Enroll</a>
+                    <a href="https://wa.me/919123366161?text=Hi! I'm an international student interested in Personalized 1-on-1 Maths Classes ($150 USD/month). Can you share more details?" target="_blank" rel="noopener" class="p-cta">Chat to Enroll</a>
                 </div>
             </div>
             <p class="intl-note">Also available in EUR, GBP, CAD, AUD, SGD & AED.<br>Contact <a href="tel:+919123366161">+91 9123366161</a> (Shivam Sir) for payment details.</p>
@@ -943,7 +943,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-s
             <button class="faq-q-mt">How much does online maths tuition cost?
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-a-mt"><div class="faq-a-mt-inner">At Modern Age Coders, group maths classes start at just &#8377;1,499/month for Indian students or $40/month for international students. Mini Batch (3-4 students) is &#8377;2,499/month. Personalized 1-on-1 sessions are &#8377;4,999/month or $100/month. There are no hidden fees and you can cancel anytime.</div></div>
+            <div class="faq-a-mt"><div class="faq-a-mt-inner">At Modern Age Coders, group maths classes start at just &#8377;1,499/month for Indian students or $100/month for international students. Mini Batch (3-4 students) is &#8377;2,499/month. Personalized 1-on-1 sessions are &#8377;4,999/month or $150/month. There are no hidden fees and you can cancel anytime.</div></div>
         </div>
         <div class="faq-item-mt">
             <button class="faq-q-mt">Which boards and curricula do you cover?

@@ -2105,8 +2105,12 @@
             function generateCourseCard(course) {
                 const imagePath = `/images/${course.imageUrl || 'default-course.png'}`;
                 const isIndian = window.__MAC_IS_INDIAN !== false;
-                const priceAmount = isIndian ? '₹1,499' : '$40';
-                const prepPrice = isIndian ? '₹1,499/month' : '$40/month';
+                // Maths courses carry the higher maths international price; Indian
+                // group price (₹1,499) is the same for maths and coding.
+                const isMathsCourse = /mathematics/i.test(course.templateUrl || '');
+                const intlStart = isMathsCourse ? '$100' : '$40';
+                const priceAmount = isIndian ? '₹1,499' : intlStart;
+                const prepPrice = isIndian ? '₹1,499/month' : intlStart + '/month';
                 const isHackathon = course.isHackathon === true;
                 const cardClass = isHackathon ? 'course-card-minimal hackathon-card' : 'course-card-minimal';
                 const ribbon = isHackathon

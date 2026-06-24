@@ -966,6 +966,19 @@ class CourseGenerator {
         const successMetricsHTML = this.generateSuccessMetricsHTML(courseData);
         html = html.replace(/{{SUCCESS_METRICS}}/g, successMetricsHTML);
 
+        // Maths courses: international (USD) pricing is higher than the flat
+        // coding rate — Group $100, 1-on-1 $150. Tag the page data-subject="maths"
+        // so international-pricing.js swaps the ₹ enrollment cards accordingly,
+        // and update the static "International Students" FYI cards/modals to match.
+        // Coding courses are untouched; Indian ₹ prices are identical either way.
+        if (/mathematics/i.test(meta.slug || '')) {
+            html = html.replace('<body class="course-detail-page">', '<body class="course-detail-page" data-subject="maths">');
+            html = html.replace("showInternationalContactModal('Group Classes', '$40 USD')", "showInternationalContactModal('Group Classes', '$100 USD')");
+            html = html.replace("showInternationalContactModal('Personalized Mentorship', '$100 USD')", "showInternationalContactModal('Personalized Mentorship', '$150 USD')");
+            html = html.replace(/(Group Classes<\/div>[\s\S]*?line-height: 1\.1;">\s*)\$40(<\/div>)/, (m, p1, p2) => p1 + '$100' + p2);
+            html = html.replace(/(Personalized<\/div>[\s\S]*?line-height: 1\.1;">\s*)\$100(<\/div>)/, (m, p1, p2) => p1 + '$150' + p2);
+        }
+
         return html;
     }
 
