@@ -336,8 +336,8 @@
     <!-- Homepage redesign — Editorial "Ledger & Proof"                 -->
     <!-- Single stylesheet, authored from scratch. No legacy CSS.       -->
     <!-- ============================================================== -->
-    <link rel="preload" href="/css/index-redesign.css?v=20260626c" as="style">
-    <link rel="stylesheet" href="/css/index-redesign.css?v=20260626c">
+    <link rel="preload" href="/css/index-redesign.css?v=20260626d" as="style">
+    <link rel="stylesheet" href="/css/index-redesign.css?v=20260626d">
 
     <!-- Prefetch likely-next pages (idle bandwidth) -->
     <link rel="prefetch" href="/courses">
@@ -633,50 +633,53 @@
 
             <div class="hero-image">
                 <div class="hero-symbol-wrapper">
-                    <div class="glow-symbol-container" id="dynamic-hero-symbol" title="Maths & Code = Magic">
+                    <div class="glow-symbol-container hero-specimen" id="dynamic-hero-symbol" title="Coding &amp; Maths">
                         <div class="ambient-glow" id="hero-ambient-glow"></div>
-                        <span class="sym-char sym-brace" id="sym-brace-left">{</span>
-                        <span class="sym-char sym-semi" id="sym-semi-left">;</span>
-                        <span class="sym-math-group" id="sym-center-group">&lt;/&gt;</span>
-                        <span class="sym-char sym-semi" id="sym-semi-right">;</span>
-                        <span class="sym-char sym-brace" id="sym-brace-right">}</span>
+
+                        <!-- CODING specimen -->
+                        <figure class="spec-panel spec-code">
+                            <div class="spec-bar">
+                                <span class="spec-dot"></span><span class="spec-dot"></span><span class="spec-dot"></span>
+                                <span class="spec-file">make.js</span>
+                            </div>
+                            <div class="spec-body spec-code-body">
+                                <div class="ln"><span class="cc">// where logic meets imagination</span></div>
+                                <div class="ln"><span class="ck">function</span> <span class="cf">learn</span>(<span class="cv">you</span>) {</div>
+                                <div class="ln spec-indent"><span class="ck">const</span> skill = <span class="cv">code</span> + <span class="cv">maths</span>;</div>
+                                <div class="ln spec-indent"><span class="ck">return</span> you.<span class="cf">build</span>(skill);</div>
+                                <div class="ln">}</div>
+                                <div class="ln"><span class="cf">learn</span>(<span class="cv">you</span>); <span class="cc">// real-world ready</span></div>
+                            </div>
+                            <figcaption class="spec-quote"><span class="cc">// "Talk is cheap. Show me the code."</span></figcaption>
+                        </figure>
+
+                        <!-- MATHS specimen -->
+                        <figure class="spec-panel spec-math">
+                            <div class="spec-bar">
+                                <span class="spec-dot"></span><span class="spec-dot"></span><span class="spec-dot"></span>
+                                <span class="spec-file">proof.note</span>
+                            </div>
+                            <div class="spec-body spec-math-body">
+                                <p class="m-line"><span class="m-op">&sum;</span> i &nbsp;=&nbsp; <span class="m-hl">n(n + 1)</span> / 2</p>
+                                <p class="m-line">f(x) = ax&sup2; + bx + c</p>
+                                <p class="m-line">f&prime;(x) = 2ax + b</p>
+                                <p class="m-line"><span class="m-op">&int;</span> x&sup2; dx = x&sup3; / 3 + C</p>
+                            </div>
+                            <figcaption class="spec-quote spec-quote-math">&ldquo;Mathematics is the music of reason.&rdquo;</figcaption>
+                        </figure>
                     </div>
                     <div class="hero-symbol-caption"><span>coding</span><span>maths</span></div>
                 </div>
 
                 <script>
                     document.addEventListener('DOMContentLoaded', function () {
-                        const codingToggle = document.getElementById('hero-coding-toggle');
-                        const mathsToggle = document.getElementById('hero-maths-toggle');
-                        const box = document.getElementById('dynamic-hero-symbol');
-                        const braceLeft = document.getElementById('sym-brace-left');
-                        const braceRight = document.getElementById('sym-brace-right');
-                        const semiLeft = document.getElementById('sym-semi-left');
-                        const semiRight = document.getElementById('sym-semi-right');
-                        const centerGroup = document.getElementById('sym-center-group');
-
-                        // Editorial toggle: keep ids, swap glyphs + theme class only (no neon).
-                        const updateHeroTheme = () => {
-                            const isMaths = mathsToggle && mathsToggle.checked;
-                            if (box) box.classList.toggle('is-maths', !!isMaths);
-                            if (isMaths) {
-                                if (braceLeft) braceLeft.textContent = '[';
-                                if (braceRight) braceRight.textContent = ']';
-                                if (semiLeft) semiLeft.innerHTML = '&nbsp;';
-                                if (semiRight) semiRight.innerHTML = '&nbsp;';
-                                if (centerGroup) centerGroup.innerHTML = '&sum;';
-                            } else {
-                                if (braceLeft) braceLeft.textContent = '{';
-                                if (braceRight) braceRight.textContent = '}';
-                                if (semiLeft) semiLeft.textContent = ';';
-                                if (semiRight) semiRight.textContent = ';';
-                                if (centerGroup) centerGroup.innerHTML = '&lt;/&gt;';
-                            }
-                        };
-
-                        if (codingToggle) codingToggle.addEventListener('change', updateHeroTheme);
-                        if (mathsToggle) mathsToggle.addEventListener('change', updateHeroTheme);
-                        updateHeroTheme();
+                        var coding = document.getElementById('hero-coding-toggle');
+                        var maths = document.getElementById('hero-maths-toggle');
+                        var box = document.getElementById('dynamic-hero-symbol');
+                        function update() { if (box) box.classList.toggle('is-maths', !!(maths && maths.checked)); }
+                        if (coding) coding.addEventListener('change', update);
+                        if (maths) maths.addEventListener('change', update);
+                        update();
                     });
                 </script>
             </div> <!-- Close hero-image -->

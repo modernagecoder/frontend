@@ -299,6 +299,41 @@ nav{width:100%}
   font-family:var(--font-mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
 }
 
+/* hero specimen: real code editor (coding) <-> worked maths note (maths) */
+.hero-specimen{display:block;padding:0;font-size:16px;font-weight:400;color:var(--ink)}
+.hero-specimen .spec-panel{
+  position:absolute;inset:0;z-index:1;margin:0;
+  display:flex;flex-direction:column;
+  padding:clamp(1rem,2.4vw,1.4rem) clamp(1rem,2.6vw,1.5rem);
+  opacity:0;transform:translateY(12px);
+  transition:opacity .45s ease,transform .45s ease;pointer-events:none;
+}
+.hero-specimen .spec-code{opacity:1;transform:none}
+.hero-specimen.is-maths .spec-code{opacity:0;transform:translateY(-12px)}
+.hero-specimen.is-maths .spec-math{opacity:1;transform:none}
+.spec-bar{display:flex;align-items:center;gap:6px;padding-bottom:.8rem;margin-bottom:.85rem;border-bottom:1px solid var(--line)}
+.spec-dot{width:9px;height:9px;border-radius:50%;background:rgba(28,24,20,.16)}
+.spec-dot:first-child{background:var(--amber)}
+.spec-file{margin-left:auto;font-family:var(--font-mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted)}
+.spec-body{flex:1;min-height:0}
+/* code */
+.spec-code-body{counter-reset:ln;font-family:var(--font-mono);font-size:clamp(.7rem,1.45vw,.9rem);line-height:1.75;color:var(--ink)}
+.spec-code-body .ln{counter-increment:ln;position:relative;padding-left:2.4em;white-space:nowrap}
+.spec-code-body .ln::before{content:counter(ln);position:absolute;left:0;width:1.5em;text-align:right;color:rgba(28,24,20,.22)}
+.spec-code-body .ln.spec-indent{padding-left:3.9em}
+.cc{color:#9b8f7e;font-style:italic}
+.ck{color:var(--amber);font-weight:600}
+.cf{color:var(--ink);font-weight:600}
+.cv{color:#8a5a2b}
+.spec-quote{margin-top:auto;padding-top:.8rem;border-top:1px solid var(--line);font-family:var(--font-mono);font-size:clamp(.66rem,1.3vw,.76rem);color:#9b8f7e;line-height:1.5}
+.spec-quote .cc{font-style:normal}
+/* maths */
+.spec-math-body{display:flex;flex-direction:column;justify-content:center;gap:.55rem}
+.m-line{margin:0;font-family:var(--font-display);font-style:italic;font-size:clamp(1rem,2.3vw,1.4rem);line-height:1.5;color:var(--ink)}
+.m-op{font-style:normal;color:var(--amber);font-size:1.25em;font-weight:600;margin-right:.12em}
+.m-hl{color:var(--amber)}
+.spec-quote-math{font-family:var(--font-display);font-style:italic;text-transform:none;letter-spacing:0;color:var(--muted)}
+
 /* =====================================================================
    TABS  (coding / maths / pricing)
    ===================================================================== */
