@@ -56,7 +56,9 @@ body.editorial a{color:inherit}
 h1,h2,h3,h4{
   font-family:var(--font-display);font-weight:600;line-height:1.12;letter-spacing:-.02em;margin:0;color:var(--ink);
 }
-body.editorial p{margin:0}
+/* low-specificity reset so component rules like `.subtitle{margin:.9rem auto}`
+   keep their auto side-margins (else centered subtitles hug the left) */
+p{margin:0}
 body.editorial ul{margin:0;padding:0}
 body.editorial button{font-family:inherit}
 body.editorial ::selection{background:var(--amber-tint-2);color:var(--ink)}
