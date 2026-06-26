@@ -527,7 +527,7 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
    ADVANTAGE / FEATURES
    ===================================================================== */
 .features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.3rem}
-.feature-item{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.6rem}
+.feature-item{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.6rem;text-align:center}
 .feature-icon{width:46px;height:46px;display:flex;align-items:center;justify-content:center;border-radius:12px;background:var(--amber-tint);color:var(--amber);margin-bottom:1rem}
 .feature-icon svg{width:26px;height:26px;stroke:currentColor;fill:none}
 .feature-item h3{font-size:1.12rem;margin-bottom:.45rem}
@@ -566,7 +566,7 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
   opacity:0;transition:opacity .3s;
 }
 .project-card:hover .project-overlay{opacity:1}
-.project-info{padding:1.4rem;color:#fff}
+.project-info{padding:1.4rem;color:#fff;text-align:center}
 .project-info h3{color:#fff;font-size:1.15rem;margin-bottom:.5rem}
 .project-info p{color:rgba(255,255,255,.85);font-size:.85rem;line-height:1.55}
 .student-name{display:inline-block;margin-top:.7rem;color:#F0B868;font-family:var(--font-mono);font-size:.8rem}
@@ -675,7 +675,7 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
 .title-accent{width:48px;height:3px;background:var(--amber);border-radius:3px;margin:1.1rem auto 0}
 .why-learn-subtitle{color:var(--muted);max-width:720px;margin:1rem auto 0;line-height:1.7}
 .reasons-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.4rem}
-.reason-card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1.8rem 1.7rem;overflow:hidden}
+.reason-card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1.8rem 1.7rem;overflow:hidden;text-align:center}
 .reason-card .card-accent{position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--amber)}
 .reason-card.teal .card-accent{background:var(--ink)}
 .card-number{position:absolute;top:.7rem;right:1.1rem;font-family:var(--font-mono);font-weight:700;font-size:2.4rem;color:rgba(28,24,20,.08)}
@@ -733,7 +733,7 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
 .plan-price .custom-price{font-family:var(--font-display);font-size:1.6rem;color:var(--amber);font-weight:600}
 .custom-how{margin-top:2.5rem;padding:2rem;background:var(--paper-2);border:1px solid var(--line);border-radius:18px}
 .custom-how>h3{text-align:center;color:var(--ink);font-size:1.5rem;margin-bottom:1.4rem}
-.custom-how-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.4rem;text-align:left}
+.custom-how-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.4rem;text-align:center}
 .custom-how-grid h4{color:var(--ink);font-family:var(--font-display);margin-bottom:.4rem}
 .custom-how-grid p{color:var(--muted);margin:0;font-size:.9rem;line-height:1.55}
 

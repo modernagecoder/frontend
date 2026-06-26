@@ -28,8 +28,8 @@
 
 /* form card */
 .form-card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:clamp(1.6rem,3.5vw,2.4rem)}
-.form-card>h2{font-size:1.5rem}
-.form-card>p{color:var(--muted);margin:.5rem 0 1.6rem;font-size:.95rem;line-height:1.6}
+.form-card>h2{font-size:1.5rem;text-align:center}
+.form-card>p{color:var(--muted);margin:.5rem 0 1.6rem;font-size:.95rem;line-height:1.6;text-align:center}
 .contact-form-new{display:flex;flex-direction:column;gap:1.1rem}
 .form-group-new{display:flex;flex-direction:column}
 .form-group-new label{font-size:.84rem;font-weight:600;color:var(--ink-soft);margin-bottom:.4rem}
@@ -57,7 +57,7 @@ body.editorial .form-input.error{border-color:var(--red);box-shadow:0 0 0 3px rg
 
 /* info card (dark ink panel) */
 .info-card{background:var(--ink);color:var(--paper);border-radius:20px;padding:clamp(1.6rem,3.5vw,2.4rem)}
-.info-card>h2{color:#fff;font-size:1.5rem;margin-bottom:1.6rem}
+.info-card>h2{color:#fff;font-size:1.5rem;margin-bottom:1.6rem;text-align:center}
 .info-items{display:flex;flex-direction:column;gap:1.3rem}
 .info-item{display:flex;gap:1rem;align-items:flex-start}
 .info-icon{width:44px;height:44px;flex-shrink:0;border-radius:12px;background:rgba(180,83,9,.28);color:#E0A158;display:flex;align-items:center;justify-content:center}
@@ -66,9 +66,9 @@ body.editorial .form-input.error{border-color:var(--red);box-shadow:0 0 0 3px rg
 .info-content a,.info-content p{color:#bfb7a9;font-size:.92rem;text-decoration:none;line-height:1.55;margin:0;display:block}
 .info-content a:hover{color:#E0A158}
 .office-hours-closed{color:#8a8175 !important}
-.social-section{margin-top:1.8rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.12)}
-.social-section h3{color:#fff;font-size:.95rem;margin-bottom:.9rem}
-.info-card .social-links{display:flex;gap:.7rem}
+.social-section{margin-top:1.8rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.12);text-align:center}
+.social-section h3{color:#fff;font-size:.95rem;margin-bottom:.9rem;text-align:center}
+.info-card .social-links{display:flex;gap:.7rem;justify-content:center}
 .info-card .social-link{width:40px;height:40px;border-radius:10px;border:1px solid rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;color:#bdb4a6;transition:color .2s,border-color .2s,background .2s}
 .info-card .social-link:hover{color:#fff;border-color:var(--amber);background:rgba(180,83,9,.22)}
 .info-card .social-link svg{width:18px;height:18px;fill:currentColor}
