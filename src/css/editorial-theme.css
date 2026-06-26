@@ -96,12 +96,14 @@ body.editorial nav{width:100%}
 .dropdown-item:hover{background:var(--amber-tint);color:var(--amber)}
 .dropdown-item.highlight{color:var(--amber);font-weight:600}
 .callback-nav-btn{flex-shrink:0}
-.cta-button{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:10px;padding:.6rem 1.4rem;font-size:.9rem;font-weight:600;text-decoration:none;cursor:pointer;transition:background .2s,border-color .2s,color .2s,transform .2s}
-.cta-button:hover{background:var(--amber);border-color:var(--amber);color:#fff;transform:translateY(-1px)}
-.cta-button.primary{background:var(--amber);border-color:var(--amber);color:#fff}
-.cta-button.primary:hover{background:var(--amber-deep)}
-.cta-button.secondary{background:transparent;color:var(--ink);border-color:var(--ink)}
-.cta-button.secondary:hover{background:var(--ink);color:var(--paper)}
+/* scoped with body.editorial (0,2,1) so the `color` beats body.editorial a{color:inherit} (0,1,2)
+   — otherwise the Login button gets dark text on its dark bg and looks like a black box */
+body.editorial .cta-button{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:10px;padding:.6rem 1.4rem;font-size:.9rem;font-weight:600;text-decoration:none;cursor:pointer;transition:background .2s,border-color .2s,color .2s,transform .2s}
+body.editorial .cta-button:hover{background:var(--amber);border-color:var(--amber);color:#fff;transform:translateY(-1px)}
+body.editorial .cta-button.primary{background:var(--amber);border-color:var(--amber);color:#fff}
+body.editorial .cta-button.primary:hover{background:var(--amber-deep)}
+body.editorial .cta-button.secondary{background:transparent;color:var(--ink);border-color:var(--ink)}
+body.editorial .cta-button.secondary:hover{background:var(--ink);color:var(--paper)}
 .mobile-menu-btn{display:none;flex-direction:column;justify-content:center;gap:5px;width:42px;height:42px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;padding:0 9px}
 .mobile-menu-btn span{display:block;height:2px;width:100%;background:var(--ink);border-radius:2px;transition:transform .25s,opacity .2s}
 .mobile-menu-btn.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
