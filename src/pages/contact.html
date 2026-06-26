@@ -37,7 +37,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
-    <meta name="theme-color" content="#a855f7">
+    <meta name="theme-color" content="#B45309">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
@@ -117,23 +117,21 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
 
-    <link rel="stylesheet" href="../css/contact.css">
-    <!-- Phase 6 UI/UX Polish -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
-    <link rel="stylesheet" href="/css/pages/contact.css?v=20260411-p6">
+    <!-- Fonts: Fraunces (display) · Inter (UI) · JetBrains Mono (code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
+    <!-- Editorial theme (shared) + Contact page styles. No legacy CSS. -->
+    <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626c">
+    <link rel="stylesheet" href="/css/contact-redesign.css?v=20260626">
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
-    <!-- Phase 7 Distinctive Identity -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
-    <link rel="stylesheet" href="/css/pages/contact.css?v=20260411-p7">
-    <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
-    <script src="/js/ux-enhancements.js" defer></script>
-    <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+    <noscript><style>.section{opacity:1 !important;transform:none !important}</style></noscript>
 </head>
 
-<body class="contact-page">
+<body class="contact-page editorial">
     <a href="#main" class="skip-link">Skip to main content</a>
     <canvas id="background-canvas"></canvas>
     <!-- BEGIN_INLINED_NAV -->
@@ -583,7 +581,7 @@
         <!-- ====== PRICING PLANS SECTION END ====== -->
 
         <!-- ====== COMPARISON TABLE SECTION START ====== -->
-        <section class="section comparison-section">
+        <section class="comparison-section">
             
 
             <div class="comparison-container">
@@ -954,9 +952,7 @@
         </section>
     </main>
 
-    <!-- GSAP Libraries - Loaded at end of body to prevent render-blocking LCP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- GSAP scroll animations removed for the editorial reskin (content statically visible). -->
 
     <script>
         // API Configuration
