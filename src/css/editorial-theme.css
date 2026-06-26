@@ -50,7 +50,10 @@ body.editorial{
   overflow-x:hidden;
 }
 body.editorial img{max-width:100%;height:auto;display:block}
-body.editorial a{color:inherit}
+/* low-specificity so component link colors (.cta-button, .skip-link, .blog-button,
+   nav/footer links, etc.) win — a `body.editorial a` reset (0,1,2) silently turned
+   every styled <a>-button's text to ink, making it blend into its background */
+a{color:inherit}
 /* bare element selectors (this file only loads on editorial pages) so that
    component heading colors — amber footer headings, white CTA heading — win */
 h1,h2,h3,h4{
@@ -95,6 +98,10 @@ body.editorial nav{width:100%}
 .dropdown-item{display:block;padding:.58rem .75rem;border-radius:9px;color:var(--ink-soft);text-decoration:none;font-size:.9rem;line-height:1.3;transition:background .18s,color .18s}
 .dropdown-item:hover{background:var(--amber-tint);color:var(--amber)}
 .dropdown-item.highlight{color:var(--amber);font-weight:600}
+/* dashboard links (Mark Attendance / Class Recordings) carry old dark-theme inline
+   green/blue tints that read low-contrast on the light menu — normalise to amber */
+body.editorial .dropdown-content a[style*="gradient"]{background:var(--amber-tint) !important;border:1px solid rgba(180,83,9,.2) !important;color:var(--amber-deep) !important;font-weight:600}
+body.editorial .dropdown-content a[style*="gradient"]:hover{background:var(--amber-tint-2) !important;color:var(--amber-deep) !important}
 .callback-nav-btn{flex-shrink:0}
 /* scoped with body.editorial (0,2,1) so the `color` beats body.editorial a{color:inherit} (0,1,2)
    — otherwise the Login button gets dark text on its dark bg and looks like a black box */

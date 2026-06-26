@@ -103,8 +103,10 @@ body.editorial .blog-search-input:focus{outline:none;border-color:var(--amber);b
 .blog-content h2::after{display:none}
 .blog-content h3{font-family:var(--font-display);font-weight:600;font-size:clamp(1.3rem,2.4vw,1.6rem);color:var(--ink);margin:2rem 0 .8rem;scroll-margin-top:90px}
 .blog-content h4{font-family:var(--font-display);font-weight:600;font-size:1.18rem;color:var(--ink);margin:1.6rem 0 .6rem}
-body.editorial .blog-content a{color:var(--amber);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;transition:color .2s}
-body.editorial .blog-content a:hover{color:var(--amber-deep)}
+/* :not(.blog-button) so CTA buttons (also <a> in .blog-content) keep their own
+   white/ink text instead of the amber content-link colour (amber-on-amber bug) */
+body.editorial .blog-content a:not(.blog-button){color:var(--amber);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;transition:color .2s}
+body.editorial .blog-content a:not(.blog-button):hover{color:var(--amber-deep)}
 .blog-content strong{color:var(--ink);font-weight:700}
 .blog-content em{font-style:italic}
 .blog-content ul,.blog-content ol{margin:0 0 1.4rem}
