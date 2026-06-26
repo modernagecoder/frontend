@@ -37,7 +37,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
-    <meta name="theme-color" content="#a855f7">
+    <meta name="theme-color" content="#B45309">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
@@ -182,27 +182,21 @@
     <!-- Meta Pixel -->
     <script src="/js/meta-pixel.js"></script>
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="/css/pricing.css">
-    
-    <!-- GSAP moved to end of body for better LCP -->
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <!-- Phase 6 UI/UX Polish -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
-    <link rel="stylesheet" href="/css/pages/pricing.css?v=20260411-p6">
+    <!-- Fonts: Fraunces (display) · Inter (UI) · JetBrains Mono (code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
+    <!-- Editorial theme (shared) + Pricing page styles. No legacy CSS. -->
+    <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626c">
+    <link rel="stylesheet" href="/css/pricing-redesign.css?v=20260626">
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
-    <!-- Phase 7 Distinctive Identity -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
-    <link rel="stylesheet" href="/css/pages/pricing.css?v=20260411-p7">
-    <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
-    <script src="/js/ux-enhancements.js" defer></script>
-    <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+    <noscript><style>.section{opacity:1 !important;transform:none !important}</style></noscript>
 </head>
 
-<body class="pricing-page">
+<body class="pricing-page editorial">
     <a href="#main" class="skip-link">Skip to main content</a>
     <!-- canvas removed for performance -->
     <!-- BEGIN_INLINED_NAV -->
@@ -959,9 +953,9 @@
 
                 <!-- Maths international pricing (priced above the flat coding rate) -->
                 <p class="intl-currencies-note" style="margin-bottom: 1rem;">
-                    <strong style="color: #fff;">Mathematics (international):</strong>
-                    Group <strong style="color: #fff;">$100</strong> &middot;
-                    Personalized 1-on-1 <strong style="color: #fff;">$150</strong> / month —
+                    <strong>Mathematics (international):</strong>
+                    Group <strong>$100</strong> &middot;
+                    Personalized 1-on-1 <strong>$150</strong> / month &mdash;
                     1-hour live classes, 2 per week (8 a month).
                 </p>
 
@@ -975,7 +969,7 @@
         <!-- ====== INTERNATIONAL PRICING SECTION END ====== -->
 
         <!-- ====== COMPARISON TABLE SECTION START ====== -->
-        <section class="section comparison-section">
+        <section class="comparison-section">
 <div class="comparison-container">
                 <div class="comparison-header">
                     <h2>Why Choose Modern Age Coders?</h2>
@@ -1448,33 +1442,35 @@
         </section>
 
         <!-- How We Compare Section -->
-        <section class="how-compare-section" style="max-width: 900px; margin: 0 auto; padding: 60px 20px 40px;">
-            <h2 style="font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; color: #fff; margin-bottom: 8px; text-align: center;">How We Compare</h2>
-            <p style="color: #94a3b8; text-align: center; margin-bottom: 32px;">Affordable coding classes in India without compromising on quality</p>
-            <div style="overflow-x: auto;">
-                <table class="how-compare-table" style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+        <section class="how-compare-section">
+            <div class="section-header">
+                <h2>How We Compare</h2>
+                <p>Affordable coding classes in India without compromising on quality.</p>
+            </div>
+            <div class="how-compare-wrapper">
+                <table class="how-compare-table">
                     <thead>
                         <tr>
-                            <th style="background: rgba(168,85,247,0.15); color: #e2e8f0; padding: 14px 16px; text-align: left; font-weight: 700; border-bottom: 2px solid rgba(168,85,247,0.3);">Feature</th>
-                            <th style="background: rgba(168,85,247,0.25); color: #a855f7; padding: 14px 16px; text-align: left; font-weight: 700; border-bottom: 2px solid rgba(168,85,247,0.3);">Modern Age Coders</th>
-                            <th style="background: rgba(168,85,247,0.15); color: #e2e8f0; padding: 14px 16px; text-align: left; font-weight: 700; border-bottom: 2px solid rgba(168,85,247,0.3);">WhiteHat Jr</th>
-                            <th style="background: rgba(168,85,247,0.15); color: #e2e8f0; padding: 14px 16px; text-align: left; font-weight: 700; border-bottom: 2px solid rgba(168,85,247,0.3);">BYJU's</th>
-                            <th style="background: rgba(168,85,247,0.15); color: #e2e8f0; padding: 14px 16px; text-align: left; font-weight: 700; border-bottom: 2px solid rgba(168,85,247,0.3);">Vedantu</th>
+                            <th>Feature</th>
+                            <th class="mac-col">Modern Age Coders</th>
+                            <th>WhiteHat Jr</th>
+                            <th>BYJU's</th>
+                            <th>Vedantu</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #e2e8f0; font-weight: 600;">Monthly Price (Group)</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #a855f7; font-weight: 700;">Rs 1,499</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Rs 5,000+</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Rs 3,000-8,000+</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Rs 3,500+</td></tr>
-                        <tr><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #e2e8f0; font-weight: 600;">1-on-1 Available</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #a855f7; font-weight: 700;">Yes (Rs 4,999)</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Yes (Rs 8,000+)</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Limited</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Limited</td></tr>
-                        <tr><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #e2e8f0; font-weight: 600;">Coding + Maths</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #a855f7; font-weight: 700;">Both Integrated</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Coding Only</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Maths Only</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Maths Only</td></tr>
-                        <tr><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #e2e8f0; font-weight: 600;">Live Classes</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #a855f7; font-weight: 700;">100% Live</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Live</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Mostly Recorded</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Live</td></tr>
-                        <tr><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #e2e8f0; font-weight: 600;">Contracts</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #a855f7; font-weight: 700;">None. Cancel anytime</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">6-12 month packs</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Long-term lock-in</td><td style="padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.06); color: #cbd5e1;">Varies</td></tr>
-                        <tr><td style="padding: 12px 16px; color: #e2e8f0; font-weight: 600;">Global Access</td><td style="padding: 12px 16px; color: #a855f7; font-weight: 700;">15+ Countries</td><td style="padding: 12px 16px; color: #cbd5e1;">India focused</td><td style="padding: 12px 16px; color: #cbd5e1;">India focused</td><td style="padding: 12px 16px; color: #cbd5e1;">India focused</td></tr>
+                        <tr><td>Monthly Price (Group)</td><td class="mac-col">Rs 1,499</td><td>Rs 5,000+</td><td>Rs 3,000-8,000+</td><td>Rs 3,500+</td></tr>
+                        <tr><td>1-on-1 Available</td><td class="mac-col">Yes (Rs 4,999)</td><td>Yes (Rs 8,000+)</td><td>Limited</td><td>Limited</td></tr>
+                        <tr><td>Coding + Maths</td><td class="mac-col">Both Integrated</td><td>Coding Only</td><td>Maths Only</td><td>Maths Only</td></tr>
+                        <tr><td>Live Classes</td><td class="mac-col">100% Live</td><td>Live</td><td>Mostly Recorded</td><td>Live</td></tr>
+                        <tr><td>Contracts</td><td class="mac-col">None. Cancel anytime</td><td>6-12 month packs</td><td>Long-term lock-in</td><td>Varies</td></tr>
+                        <tr><td>Global Access</td><td class="mac-col">15+ Countries</td><td>India focused</td><td>India focused</td><td>India focused</td></tr>
                     </tbody>
                 </table>
             </div>
-            <div style="margin-top: 32px; padding: 24px; background: rgba(168,85,247,0.06); border: 1px solid rgba(168,85,247,0.2); border-radius: 12px; text-align: center;">
-                <p style="color: #e2e8f0; font-weight: 700; font-size: 1.1rem; margin-bottom: 8px;">No long-term contracts. No hidden fees. Cancel anytime.</p>
-                <p style="color: #94a3b8; font-size: 0.9rem;">Every plan comes with live classes, doubt clearing, progress reports, and a completion certificate.</p>
+            <div class="how-compare-note">
+                <p class="strong">No long-term contracts. No hidden fees. Cancel anytime.</p>
+                <p>Every plan comes with live classes, doubt clearing, progress reports, and a completion certificate.</p>
             </div>
         </section>
 
@@ -1586,10 +1582,6 @@
         </section>
     </main>
 
-    <!-- GSAP Libraries - Loaded at end of body to prevent render-blocking LCP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
     <script>
         // Tab Functionality
         const tabBtns = document.querySelectorAll('.pricing-tab-btn');
@@ -1623,48 +1615,7 @@
                 }
             });
         });
-
-        // GSAP Animations
-        gsap.registerPlugin(ScrollTrigger);
-
-        gsap.from('.pricing-hero h1', { opacity: 0, y: 30, duration: 0.8, ease: 'power3.out' });
-        gsap.from('.pricing-hero p', { opacity: 0, duration: 0.8, delay: 0.2, ease: 'power3.out' });
-        gsap.from('.pricing-tab-nav', { opacity: 0, y: 20, duration: 0.6, delay: 0.4, ease: 'power3.out' });
-
-        gsap.utils.toArray('.pricing-card-new').forEach((card, i) => {
-            gsap.from(card, {
-                scrollTrigger: { trigger: card, start: 'top 90%' },
-                opacity: 0, y: 40, duration: 0.7, delay: i * 0.15, ease: 'power2.out'
-            });
-        });
-
-        gsap.utils.toArray('.comparison-card').forEach((card, i) => {
-            gsap.from(card, {
-                scrollTrigger: { trigger: card, start: 'top 90%' },
-                opacity: 0, y: 30, duration: 0.6, delay: i * 0.15, ease: 'power2.out'
-            });
-        });
-
-        gsap.utils.toArray('.included-item').forEach((item, i) => {
-            gsap.from(item, {
-                scrollTrigger: { trigger: item, start: 'top 90%' },
-                opacity: 0, x: -20, duration: 0.5, delay: i * 0.06, ease: 'power2.out'
-            });
-        });
-
-        gsap.utils.toArray('.faq-item').forEach((item, i) => {
-            gsap.from(item, {
-                scrollTrigger: { trigger: item, start: 'top 90%' },
-                opacity: 0, y: 20, duration: 0.5, delay: i * 0.08, ease: 'power2.out'
-            });
-        });
-
-        gsap.utils.toArray('.section-header').forEach(header => {
-            gsap.from(header, {
-                scrollTrigger: { trigger: header, start: 'top 90%' },
-                opacity: 0, y: 25, duration: 0.6, ease: 'power2.out'
-            });
-        });
+        // GSAP scroll animations removed — content is statically visible in the editorial reskin.
     </script>
 
     <script src="/js/callback-modal.js"></script>
@@ -1673,9 +1624,9 @@
     <script src="/js/tab-accessibility.js"></script>
 
     <!-- ====== TRUST + SEO SECTION ====== -->
-    <section style="max-width: 800px; margin: 0 auto; padding: 40px 20px; text-align: center;">
-        <p style="color: #10b981; font-weight: 700; font-size: 1.15rem; margin-bottom: 8px;">No hidden fees. No long-term contracts. Cancel anytime.</p>
-        <p style="color: #94a3b8; line-height: 1.8; font-size: 0.95rem;">
+    <section class="pricing-trust">
+        <p class="trust-head">No hidden fees. No long-term contracts. Cancel anytime.</p>
+        <p>
             Our affordable coding and maths classes are trusted by students from 15+ countries worldwide. Whether you're
             in the US, UK, UAE, or anywhere else — same transparent pricing, same quality education. Pay monthly, pause
             when you want, resume when you're ready.
