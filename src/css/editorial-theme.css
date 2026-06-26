@@ -1,0 +1,171 @@
+/* =====================================================================
+   Modern Age Coders — Shared Editorial Theme  ·  "Ledger & Proof"
+   Amber + Ink on warm paper. Display: Fraunces · UI: Inter · Code: JetBrains Mono
+   Used by sub-pages (about / pricing / courses ...) to match the homepage.
+   Apply to a page by adding class "editorial" to <body>.
+   Authored from scratch — depends on no legacy stylesheet.
+   ===================================================================== */
+
+:root {
+  --paper:#FBF8F2;
+  --paper-2:#F4EEE3;
+  --surface:#FFFFFF;
+  --ink:#1C1814;
+  --ink-soft:#3A332C;
+  --muted:#6B6259;
+  --line:rgba(28,24,20,.12);
+  --line-2:rgba(28,24,20,.07);
+  --amber:#B45309;
+  --amber-bright:#D97706;
+  --amber-deep:#8F3F08;
+  --amber-tint:rgba(180,83,9,.08);
+  --amber-tint-2:rgba(180,83,9,.16);
+  --rose:#B4456E;
+  --green:#1F8A55;
+  --red:#B0473C;
+  --footer-bg:#17130E;
+  --footer-text:#C2BAAD;
+  --container:1140px;
+  --radius:14px;
+  --shadow-sm:0 1px 2px rgba(28,24,20,.04), 0 8px 24px -16px rgba(28,24,20,.22);
+  --shadow-md:0 24px 50px -30px rgba(28,24,20,.40);
+  --font-display:'Fraunces',Georgia,'Times New Roman',serif;
+  --font-body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'JetBrains Mono','Fira Code',ui-monospace,'Consolas',monospace;
+}
+
+/* ---------- reset / base ---------- */
+body.editorial *,body.editorial *::before,body.editorial *::after{box-sizing:border-box}
+body.editorial{
+  margin:0;
+  font-family:var(--font-body);
+  font-size:16px;line-height:1.6;
+  color:var(--ink);
+  background-color:var(--paper);
+  background-image:
+    linear-gradient(rgba(28,24,20,.045) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(28,24,20,.045) 1px,transparent 1px);
+  background-size:44px 44px;background-position:center top;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+body.editorial img{max-width:100%;height:auto;display:block}
+body.editorial a{color:inherit}
+/* bare element selectors (this file only loads on editorial pages) so that
+   component heading colors — amber footer headings, white CTA heading — win */
+h1,h2,h3,h4{
+  font-family:var(--font-display);font-weight:600;line-height:1.12;letter-spacing:-.02em;margin:0;color:var(--ink);
+}
+body.editorial p{margin:0}
+body.editorial ul{margin:0;padding:0}
+body.editorial button{font-family:inherit}
+body.editorial ::selection{background:var(--amber-tint-2);color:var(--ink)}
+
+.skip-link{position:absolute;left:-999px;top:0;z-index:10000;background:var(--ink);color:var(--paper);padding:.7rem 1.1rem;border-radius:0 0 10px 0;font-size:.85rem;text-decoration:none}
+.skip-link:focus{left:0}
+
+/* ---------- section frame + reveal ---------- */
+body.editorial .section{width:100%;max-width:var(--container);margin-inline:auto;padding:clamp(3rem,6vw,5rem) 1.5rem;position:relative}
+body.editorial .section:not(.hero-section){opacity:0;transform:translateY(20px);transition:opacity .7s cubic-bezier(.22,.61,.36,1),transform .7s cubic-bezier(.22,.61,.36,1)}
+body.editorial .section.animate-in{opacity:1;transform:none}
+.section-title{font-size:clamp(1.9rem,3.6vw,3rem);text-align:center;max-width:20ch;margin-inline:auto}
+.section-title::after{content:"";display:block;width:48px;height:3px;border-radius:3px;background:var(--amber);margin:1.1rem auto 0}
+.section-subtitle{text-align:center;color:var(--muted);max-width:700px;margin:1rem auto 2.6rem;font-size:1.05rem;line-height:1.7}
+.eyebrow{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--amber);font-weight:600}
+
+/* =====================================================================
+   NAVIGATION  (shared inlined nav component)
+   ===================================================================== */
+body.editorial header{position:sticky;top:0;z-index:1000;background:rgba(251,248,242,.82);backdrop-filter:saturate(140%) blur(14px);-webkit-backdrop-filter:saturate(140%) blur(14px);border-bottom:1px solid var(--line)}
+body.editorial nav{width:100%}
+.nav-container{max-width:1240px;margin-inline:auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.75rem 1.5rem}
+.logo{display:inline-flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--ink);flex-shrink:0}
+.logo-img{border-radius:8px;width:38px;height:38px}
+.logo-text{font-family:var(--font-display);font-weight:600;font-size:1.16rem;letter-spacing:-.015em;white-space:nowrap}
+.nav-menu{display:flex;align-items:center;gap:.15rem;list-style:none}
+.nav-item{position:relative;display:flex;align-items:center}
+.nav-link{display:inline-flex;align-items:center;padding:.55rem .8rem;border-radius:9px;color:var(--ink-soft);font-size:.92rem;font-weight:500;text-decoration:none;transition:color .2s,background .2s;cursor:pointer}
+.nav-link:hover{color:var(--amber);background:var(--amber-tint)}
+.nav-link svg{transition:transform .2s}
+.dropdown:hover .nav-link>svg{transform:rotate(180deg)}
+.dropdown-content{position:absolute;top:calc(100% + 6px);left:0;min-width:248px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-md);padding:.5rem;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .2s,visibility .2s,transform .2s;z-index:60}
+.dropdown:hover .dropdown-content,.dropdown.active .dropdown-content{opacity:1;visibility:visible;transform:none}
+.dropdown-item{display:block;padding:.58rem .75rem;border-radius:9px;color:var(--ink-soft);text-decoration:none;font-size:.9rem;line-height:1.3;transition:background .18s,color .18s}
+.dropdown-item:hover{background:var(--amber-tint);color:var(--amber)}
+.dropdown-item.highlight{color:var(--amber);font-weight:600}
+.callback-nav-btn{flex-shrink:0}
+.cta-button{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:10px;padding:.6rem 1.4rem;font-size:.9rem;font-weight:600;text-decoration:none;cursor:pointer;transition:background .2s,border-color .2s,color .2s,transform .2s}
+.cta-button:hover{background:var(--amber);border-color:var(--amber);color:#fff;transform:translateY(-1px)}
+.cta-button.primary{background:var(--amber);border-color:var(--amber);color:#fff}
+.cta-button.primary:hover{background:var(--amber-deep)}
+.cta-button.secondary{background:transparent;color:var(--ink);border-color:var(--ink)}
+.cta-button.secondary:hover{background:var(--ink);color:var(--paper)}
+.mobile-menu-btn{display:none;flex-direction:column;justify-content:center;gap:5px;width:42px;height:42px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;padding:0 9px}
+.mobile-menu-btn span{display:block;height:2px;width:100%;background:var(--ink);border-radius:2px;transition:transform .25s,opacity .2s}
+.mobile-menu-btn.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.mobile-menu-btn.active span:nth-child(2){opacity:0}
+.mobile-menu-btn.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* =====================================================================
+   BUTTONS / PILLS (shared)
+   ===================================================================== */
+.btn-amber{display:inline-flex;align-items:center;gap:.5rem;background:var(--amber);color:#fff;border:1px solid var(--amber);padding:.85rem 1.6rem;border-radius:11px;font-weight:600;text-decoration:none;cursor:pointer;transition:background .2s,transform .2s;box-shadow:0 14px 26px -16px rgba(180,83,9,.7)}
+.btn-amber:hover{background:var(--amber-deep);transform:translateY(-2px)}
+.btn-ghost{display:inline-flex;align-items:center;gap:.45rem;background:transparent;color:var(--ink);border:1px solid var(--line);padding:.85rem 1.5rem;border-radius:11px;font-weight:600;text-decoration:none;transition:border-color .2s,background .2s}
+.btn-ghost:hover{border-color:var(--ink);background:var(--surface)}
+
+/* =====================================================================
+   FORMS (shared generic)
+   ===================================================================== */
+body.editorial input,body.editorial select,body.editorial textarea{width:100%;font-family:var(--font-body);font-size:.95rem;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:.8rem .9rem;transition:border-color .2s,box-shadow .2s}
+body.editorial textarea{resize:vertical;min-height:110px}
+body.editorial input::placeholder,body.editorial textarea::placeholder{color:#a59c90}
+body.editorial input:focus,body.editorial select:focus,body.editorial textarea:focus{outline:none;border-color:var(--amber);box-shadow:0 0 0 3px var(--amber-tint-2)}
+body.editorial select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 20 20' fill='%236B6259'%3E%3Cpath d='M5.3 7.3a1 1 0 011.4 0L10 10.6l3.3-3.3a1 1 0 111.4 1.4l-4 4a1 1 0 01-1.4 0l-4-4a1 1 0 010-1.4z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .8rem center;padding-right:2.2rem}
+
+/* =====================================================================
+   FOOTER (shared inlined footer component)
+   ===================================================================== */
+.site-footer{background:var(--footer-bg);color:var(--footer-text);margin-top:2rem}
+.footer-container{max-width:1240px;margin-inline:auto;padding:clamp(2.5rem,5vw,4rem) 1.5rem 2rem}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:2.2rem}
+.site-footer .logo,.site-footer .logo-text{color:#fff}
+.footer-tagline{color:#998f80;margin:1rem 0 1.2rem;font-size:.92rem;line-height:1.6;max-width:34ch}
+.social-links{display:flex;gap:.7rem}
+.social-links a{width:38px;height:38px;border-radius:10px;border:1px solid rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;color:#bdb4a6;transition:all .2s}
+.social-links a:hover{color:#fff;border-color:var(--amber);background:rgba(180,83,9,.18)}
+.social-links svg{width:18px;height:18px}
+.footer-heading{font-family:var(--font-mono);color:#E0A158;font-size:.74rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;margin-bottom:1.1rem}
+.footer-links{list-style:none;display:flex;flex-direction:column;gap:.55rem}
+.footer-links a{color:#b3aa9c;text-decoration:none;font-size:.88rem;transition:color .2s;overflow-wrap:anywhere}
+.footer-links a:hover{color:#fff}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:2.5rem;padding-top:1.5rem;text-align:center}
+.footer-bottom p{color:#8a8175;font-size:.84rem}
+
+/* =====================================================================
+   RESPONSIVE (shared)
+   ===================================================================== */
+@media (max-width:980px){
+  .mobile-menu-btn{display:flex}
+  .nav-menu{position:fixed;top:0;right:0;height:100dvh;width:min(86vw,360px);flex-direction:column;align-items:stretch;gap:0;background:var(--surface);border-left:1px solid var(--line);padding:5rem 1.2rem 2rem;overflow-y:auto;transform:translateX(100%);transition:transform .3s ease;box-shadow:-24px 0 60px rgba(28,24,20,.18);z-index:999}
+  .nav-menu.active{transform:none}
+  .nav-item{width:100%;flex-direction:column;align-items:stretch}
+  .nav-link{width:100%;padding:.9rem .5rem;border-radius:0;border-bottom:1px solid var(--line-2);font-size:1rem;justify-content:space-between}
+  .dropdown-content{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:none;padding:0 0 0 .8rem;max-height:0;overflow:hidden;transition:max-height .28s ease;min-width:0}
+  .dropdown.active .dropdown-content{max-height:640px;padding-bottom:.5rem}
+  .nav-menu .cta-button,.callback-nav-btn{margin-top:.8rem;width:100%;justify-content:center}
+}
+@media (max-width:820px){.footer-grid{grid-template-columns:1fr 1fr;gap:1.8rem}}
+@media (max-width:430px){.footer-grid{grid-template-columns:1fr;gap:1.6rem}}
+@media (max-width:560px){body.editorial{font-size:15px}body.editorial .section{padding:clamp(2.4rem,8vw,3.2rem) 1.15rem}}
+
+/* retone the Misti AI floating widget from purple to ink (shared; WhatsApp stays green) */
+body.editorial .misti-icon,body.editorial .misti-label{background:#1C1814 !important}
+body.editorial .misti-label,body.editorial .misti-icon{box-shadow:0 4px 14px rgba(180,83,9,.28) !important}
+body.editorial .misti-chat-btn:hover .misti-icon,body.editorial .misti-chat-btn:hover .misti-label{box-shadow:0 6px 20px rgba(180,83,9,.4) !important}
+
+body.editorial.no-js .section{opacity:1!important;transform:none!important}
+@media (prefers-reduced-motion:reduce){
+  body.editorial *{animation-duration:.001ms!important;transition-duration:.001ms!important}
+  body.editorial .section:not(.hero-section){opacity:1;transform:none}
+}

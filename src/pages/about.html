@@ -37,7 +37,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
         <link rel="manifest" href="/favicon/site.webmanifest">
-        <meta name="theme-color" content="#a855f7">
+        <meta name="theme-color" content="#B45309">
 
         <!-- Open Graph Meta Tags -->
         <meta property="og:type" content="website">
@@ -104,11 +104,14 @@
         <link rel="stylesheet" href="/css/mobile-nav-fix.css">
         <link rel="stylesheet" href="/css/keyboard-navigation.css">
         <link rel="stylesheet" href="/css/mobile-nav-final-fix.css"> -->
-        <link rel="stylesheet" href="/css/about.css">
-
-        <!-- Phase 6 UI/UX Polish -->
-        <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
-        <link rel="stylesheet" href="/css/pages/about.css?v=20260411-p6">
+        <!-- Fonts: Fraunces (display) · Inter (UI) · JetBrains Mono (code) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
+        <!-- Editorial theme (shared) + About page styles. No legacy CSS. -->
+        <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626c">
+        <link rel="stylesheet" href="/css/about-redesign.css?v=20260626d">
         <script src="/js/ux-enhancements.js" defer></script>
         <script src="/js/hover-prefetch.js" defer></script>
         <script>
@@ -143,16 +146,10 @@
       ]
     }
     </script>
-    <!-- Phase 7 Distinctive Identity -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
-    <link rel="stylesheet" href="/css/pages/about.css?v=20260411-p7">
-    <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
-    <script src="/js/ux-enhancements.js" defer></script>
-    <script src="/js/hover-prefetch.js" defer></script>
-    <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
+    <noscript><style>.reveal-up,.section{opacity:1 !important;transform:none !important}</style></noscript>
 </head>
 
-<body class="about-page">
+<body class="about-page editorial">
     <!-- Skip link for keyboard navigation -->
     <a href="#main" class="skip-link">Skip to main content</a>
 
@@ -890,15 +887,15 @@
         </section>
 
         <!-- Maths and Coding Section -->
-        <section style="max-width: 900px; margin: 0 auto; padding: 60px 20px 20px;">
-            <h2 style="font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; color: #fff; margin-bottom: 16px; text-align: center;">Maths and Coding for Children: Why We Teach Both</h2>
-            <p style="color: #94a3b8; line-height: 1.8; margin-bottom: 16px; text-align: center; max-width: 750px; margin-left: auto; margin-right: auto;">
-                Modern Age Coders is the world's first platform offering integrated maths and coding for children online. We believe coding without maths is incomplete, and maths without coding is abstract. Together, they create powerful thinkers.
+        <section class="philosophy-section">
+            <h2>Maths and Coding: Why We Teach Both</h2>
+            <p>
+                Modern Age Coders is the world's first platform offering integrated maths and coding online. We believe coding without maths is incomplete, and maths without coding is abstract. Together, they create powerful thinkers.
             </p>
-            <p style="color: #94a3b8; line-height: 1.8; margin-bottom: 16px; text-align: center; max-width: 750px; margin-left: auto; margin-right: auto;">
-                When a child learns Python alongside algebra, they see variables come alive. When they build a game using geometry, triangles stop being textbook diagrams. This is the philosophy behind every course we offer, from age 6 to 65, across 15+ countries.
+            <p>
+                When a learner picks up Python alongside algebra, they see variables come alive. When they build a game using geometry, triangles stop being textbook diagrams. This is the philosophy behind every course we offer, from age 6 to 65, across 15+ countries.
             </p>
-            <p style="color: #94a3b8; line-height: 1.8; text-align: center; max-width: 750px; margin-left: auto; margin-right: auto;">
+            <p>
                 Maths + Code for Ages 6 to 65. That is what we do. And we do it better than anyone.
             </p>
         </section>
@@ -974,7 +971,7 @@
                 ctx.restore();
             });
 
-            requestAnimationFrame(animate);
+            // requestAnimationFrame(animate);  // loop disabled — canvas hidden for the editorial paper background
         }
 
         window.addEventListener('resize', () => {
