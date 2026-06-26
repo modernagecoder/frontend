@@ -7,117 +7,57 @@ source: src/pages/success-stories.html
 ---
 > Discover how students transformed their coding skills at Modern Age Coders. Real success stories from kids, teens, and college students who learned to code and achieve their dreams.
 
-Student Success Stories
+★ Real Google reviews · 4.9 / 547+
 
-# Real Students, Real Transformations
+# Real students, real feedback
 
-Discover how students of all ages transformed their skills, built amazing projects, and achieved their dreams at Modern Age Coders. These are their stories.
+Unfiltered words from the parents and students who learn with Modern Age Coders. Every review below is a real Google review — nothing scripted.
 
-500+Students Trained95%Success Rate50+Projects Built4.9?Parent Rating
+4.9★Average rating547+Google reviewsSince 2020Coding + maths15+Countries
 
-## Featured Success Stories
+## What families say
 
-AArjun SharmaAge 10 | Kolkata | Kids CodingKids
+Straight from our Google reviews
 
-I never thought I could make my own game! Now I've made 5 games and showed them to my whole class. Coding is so much fun!
+★★★★★
 
-CourseKids Coding Blocks MasterclassDuration6 monthsProjects Built15+ games & animations🥇Won 1st Place in School Science Fair Coding ProjectParent's Words
+My child Dhairya, is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject in the future. I also appreciate the teachers—they are very cooperative and listen to our suggestions. They try to apply them in class, which is very helpful. Overall, I am very happy with the class.
 
-"My son went from playing games all day to creating them. The transformation in his problem-solving skills is incredible!" — Mrs. Sharma
+SSonam OswalMother of Dhairya★★★★★
 
-PPriya PatelAge 16 | Hyderabad | Python & AITeens
+Mivaan enjoys the class. He understands the concepts, and completes his tasks with excitement. He started taking interest in coding... truly amazing class...
 
-I built an AI chatbot that helps students with homework. It started as a class project but now my school actually uses it!
+SShradha SarafMother of Mivaan★★★★★
 
-CourseAI & ML Masterclass for TeensDuration8 monthsSkills GainedPython, TensorFlow, NLP🤖School-Wide Deployment of Her AI Homework AssistantParent's Words
+My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!
 
-"Priya was always good at maths but now she combines it with coding beautifully. Modern Age Coders made that connection!" — Mr. Patel
+SShewta SinghMother of Ishan★★★★★
 
-SSneha ReddyAge 14 | Bengaluru | Queen CodersQueen Coders
+I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding, making every session engaging and insightful. They explain complex concepts in a way that's easy to understand and always encourage us to ask questions and think critically. The class atmosphere is friendly and collaborative, which has really boosted my son's confidence and interest in coding.
 
-Being in an all-girls batch gave me so much confidence! I was shy before, but now I present my projects on stage without fear.
+RRitu KediaMother of Aditya★★★★★
 
-CourseQueen Coders Tech LeadershipDuration10 monthsProjects BuiltWebsite + Mobile App🌟Selected for Google Code-in Mentorship ProgramParent's Words
+Modern Age Coder have wonderful teachers who teaches in a clear, easy and practical way. The teacher boosts students’ confidence, keeps them updated with technology, and inspires them to learn without hesitation. The teachers are very friendly allowing students to communicate easily for clearing their basic doubts... Very satisfied... Thank you..
 
-"The supportive environment at Modern Age Coders helped Sneha find her voice in tech." — Mrs. Reddy
+SSonu GoyalFather of Nikit★★★★★
 
-RRahul VermaAge 21 | Pune | Full StackCollege
+The one step solution for my son . Modern age coders make learning coding so simple that kids love it. It focus on specific areas like content, instruction, engagement, and the overall learning experience. Teachers make it so simple providing clearer explanations, incorporating more practical exercises, or making the content more interactive. As per my son "I find the coding class to be very helpful and engaging. Sir is super knowledgeable and able to explain complex concepts in a clear and concise manner. The course content was well-structured, and the projects were challenging and rewarding.
 
-I landed my dream job at a top tech company within 3 months of completing the course. The project portfolio was key!
+RRia MukherjeeMother of Somraj★★★★★
 
-CourseFull Stack Development MasterclassDuration12 monthsSalary Package12 LPA (First Job!)💼Placed at Top Product Company with 12 LPAIIshaan KumarAge 9 | Delhi | Web Design for KidsKids
+I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers - Shivam Sir, Mihir Sir and Sonu Sir - is extraordinary, that establishes a personal connection with students. They were not only my teachers, but also mentors, life counselors and most importantly, a friendly figure . Their initiatives to organize trips were not only an effort to personally interact with the students to make them feel their friend, but also built camaraderie and lifelong memories.
 
-I made a website for my mom's bakery business! She was so proud that she showed it to all her customers.
+VVineeta BhatterMother of Krishnam★★★★★
 
-CourseWeb Design for KidsDuration4 monthsSkills GainedHTML, CSS, Design🌐Built a Real Business Website for Family BakeryParent's Words
+Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease. The teaching is top-notch, and the support is exceptional. I highly recommend Modern Age Coders to anyone looking to boost their coding skills and excel in IT!
 
-"At 9 years old, he built something professionals charge thousands for. Worth every penny!" — Mrs. Kumar
+SSamridho MondalStudent at grade 9[Read & write reviews on Google](https://g.page/r/Cff_QkHNaP9yEAE/review)[Visit our Wall of Love](/love)
 
-VVikram SinghAge 17 | Mumbai | Game DevelopmentTeens
+## Ready to write your story?
 
-My mobile game got 1000+ downloads on Play Store! Modern Age Coders helped me turn my gaming passion into a skill.
+Book a free trial class and meet your mentor — no commitment, just a real lesson.
 
-CourseGame Development MasterclassDuration9 monthsPublished Games3 on Play Store🎮Published Game with 1000+ DownloadsAAnanya GuptaAge 20 | Kolkata | DSA & CompetitiveCollege
-
-From struggling with basic loops to solving hard LeetCode problems. DSA course completely changed how I approach problems.
-
-CourseData Structures & AlgorithmsDuration6 monthsLeetCode Problems400+ solved🎯Cracked Amazon SDE InterviewMMeera KrishnanAge 28 | Chennai | Career SwitchProfessional
-
-Left my marketing job to become a developer. The structured curriculum and real projects made transition smooth.
-
-CourseFull Stack Web DevelopmentPrevious CareerMarketing ManagerCurrent RoleFrontend Developer📈Successfully Switched to Tech with 40% Salary HikeKKavya NairAge 11 | Kochi | Princess CodersPrincess Coders
-
-I love that my batch is all girls! We help each other and now I'm not scared to ask questions in class anymore.
-
-CoursePrincess Coders MasterclassDuration8 monthsProjects BuiltAnimation Stories, Games🎨Created Animated Story Selected for State ExhibitionParent's Words
-
-"The girls-only environment was exactly what Kavya needed. Her confidence has skyrocketed!" — Mrs. Nair
-
-SSamriddha MondalGrade 8 | Kolkata | Python & ITSchool IT
-
-I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs!
-
-CoursePython Programming for StudentsDuration8 monthsResultClass Topper in IT📚From Struggling Student to Class TopperKKrishnam BhatterB.Tech CSE | Jaipur | Full StackCollege
-
-The teaching approach here is extraordinary. They were not only my teachers but also mentors. One-on-one doubt solving, regular tests, and working on real-world projects - this is what sets them apart!
-
-CourseFull Stack DevelopmentDuration10 monthsProjects Built8 real-world projects💼Built Portfolio That Landed Internship at StartupYYug RathoreAge 13 | Delhi | Web DevelopmentTeens
-
-I made new friends and learned valuable coding skills while having the fun of my life. It's not just coding here—it's outings, bonding, and preparing you for your future!
-
-CourseWeb Development for TeensDuration6 monthsBest PartMade friends + learned skills🤝Built Lasting Friendships & Tech Skills TogetherStudent's Own Words
-
-"Definitely five stars. They prepare you for your future while making learning enjoyable!"
-
-MMivaan SarafAge 8 | Hyderabad | Scratch CodingKids
-
-I love my coding class! I can make characters move and create my own stories. My teacher makes everything so easy to understand.
-
-CourseKids Coding BlocksDuration4 monthsProjects Built12 games & animations✨Started Taking Interest in Coding & LogicParent's Words
-
-"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding— truly amazing!" — Mrs. Shradha Saraf
-
-VVansh AgarwalGrade 11 | Kolkata | Python & Data ScienceTeens
-
-One of the most wonderful education centres out there. Education is not limited to school syllabus but focuses on skill development. Learning here has been a wonderful journey!
-
-CoursePython & Data ScienceDuration10 monthsSkills GainedPython, Pandas, Data Analysis📊Built Data Analysis Project for School Science FairAAarav SharmaGrade 7 | Hyderabad | Math & CodingMath + Code
-
-They don't just teach syntax, they explain WHY things work. I finally understood how loops actually work in memory. Now I can solve any problem without memorizing patterns!
-
-CoursePython with Math LogicDuration8 monthsMath ScoreImproved from 72% to 94%🧠Developed Deep Conceptual UnderstandingParent's Words
-
-"They practice A LOT. Not just 2-3 problems, but 20-30 variations until the concept is crystal clear. My son can now solve problems he's never seen before." — Mr. Rajesh Kumar
-
-Want to see more genuine feedback from our students and parents?
-
-[Visit Our Wall of Love](/love)
-
-## Ready to Write Your Success Story?
-
-Join hundreds of students who have transformed their skills and achieved their dreams at Modern Age Coders.
-
-[Book Free Trial Class](/contact)[Explore Courses](/courses)
+[Book a Free Trial](/contact)[Explore Courses](/courses)
 
 ---
 

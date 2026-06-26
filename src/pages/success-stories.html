@@ -36,7 +36,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <meta name="theme-color" content="#a855f7">
+    <meta name="theme-color" content="#B45309">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
@@ -111,412 +111,28 @@
     <script src="/js/meta-pixel.js"></script>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
-    <link rel="stylesheet" href="/css/keyboard-navigation.css">
-    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
+    <link rel="stylesheet" href="/css/success-redesign.css?v=20260627">
+    <noscript><style>.section{opacity:1 !important;transform:none !important}</style></noscript>
 
-    <style>
-        /* Success Stories Page Styles */
-        .success-page {
-            --accent-purple: #a855f7;
-            --accent-teal: #4ecdc4;
-            --accent-gold: #ffd700;
-            --text-primary: #f1f5f9;
-            --text-secondary: #94a3b8;
-            --card-bg: rgba(30, 30, 50, 0.6);
-            --card-border: rgba(168, 85, 247, 0.2);
-        }
-
-        /* Hero Section */
-        .success-hero {
-            min-height: 50vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 4rem 2rem;
-            position: relative;
-        }
-
-        .success-hero-inner {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .success-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            padding: 0.5rem 1.5rem;
-            border-radius: 50px;
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-            color: white;
-        }
-
-        .success-hero h1 {
-            font-size: clamp(2rem, 5vw, 3.5rem);
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 1.5rem;
-            background: linear-gradient(135deg, #fff 0%, #e2e8f0 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .success-hero h1 span {
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
-
-        .success-hero p {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            max-width: 700px;
-            margin: 0 auto 2rem;
-            line-height: 1.7;
-        }
-
-        /* Stats Strip */
-        .stats-strip {
-            display: flex;
-            justify-content: center;
-            gap: 3rem;
-            flex-wrap: wrap;
-            padding: 2rem;
-            background: var(--card-bg);
-            border-radius: 20px;
-            border: 1px solid var(--card-border);
-            max-width: 800px;
-            margin: 2rem auto;
-        }
-
-        .stat-item {
-            text-align: center;
-        }
-
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .stat-label {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            margin-top: 0.25rem;
-        }
-
-        /* Success Stories Grid */
-        .stories-section {
-            padding: 4rem 2rem;
-            max-width: 1300px;
-            margin: 0 auto;
-        }
-
-        .section-header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .section-header h2 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-        }
-
-        .stories-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-        }
-
-        /* Story Card */
-        .story-card {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 20px;
-            padding: 2rem;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .story-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, var(--accent-purple), var(--accent-teal));
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .story-card:hover::before {
-            opacity: 1;
-        }
-
-        .story-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-purple);
-            box-shadow: 0 20px 40px rgba(168, 85, 247, 0.15);
-        }
-
-        .story-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .story-avatar {
-            width: 60px;
-            height: 60px;
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: white;
-        }
-
-        .story-meta {
-            flex: 1;
-        }
-
-        .story-name {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 0.25rem;
-        }
-
-        .story-info {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-        }
-
-        .story-badge {
-            display: inline-block;
-            padding: 0.3rem 0.8rem;
-            background: rgba(168, 85, 247, 0.2);
-            border: 1px solid var(--accent-purple);
-            border-radius: 20px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--accent-purple);
-        }
-
-        .story-quote {
-            font-size: 1.1rem;
-            color: var(--text-primary);
-            font-style: italic;
-            line-height: 1.7;
-            margin-bottom: 1.5rem;
-            position: relative;
-            padding-left: 1.5rem;
-        }
-
-        .story-quote::before {
-            content: '"';
-            position: absolute;
-            left: 0;
-            top: -5px;
-            font-size: 2rem;
-            color: var(--accent-purple);
-            opacity: 0.5;
-        }
-
-        .story-details {
-            background: rgba(255, 255, 255, 0.03);
-            border-radius: 12px;
-            padding: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .detail-row {
-            display: flex;
-            justify-content: space-between;
-            padding: 0.5rem 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .detail-row:last-child {
-            border-bottom: none;
-        }
-
-        .detail-label {
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-        }
-
-        .detail-value {
-            color: var(--text-primary);
-            font-weight: 600;
-            font-size: 0.85rem;
-        }
-
-        .story-achievement {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            padding: 1rem;
-            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(78, 205, 196, 0.1));
-            border-radius: 12px;
-            border-left: 3px solid var(--accent-gold);
-        }
-
-        .achievement-icon {
-            font-size: 1.5rem;
-        }
-
-        .achievement-text {
-            color: var(--text-primary);
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-
-        /* Parent Testimonial */
-        .parent-quote {
-            margin-top: 1.5rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .parent-label {
-            font-size: 0.75rem;
-            color: var(--accent-teal);
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 0.5rem;
-        }
-
-        .parent-text {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            font-style: italic;
-            line-height: 1.6;
-        }
-
-        /* CTA Section */
-        .cta-section {
-            padding: 5rem 2rem;
-            text-align: center;
-            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(78, 205, 196, 0.1));
-        }
-
-        .cta-content {
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        .cta-content h2 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-        }
-
-        .cta-content p {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-        }
-
-        .cta-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .cta-btn {
-            padding: 1rem 2rem;
-            border-radius: 50px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            display: inline-block;
-        }
-
-        .cta-btn-primary {
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            color: white;
-        }
-
-        .cta-btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
-        }
-
-        .cta-btn-secondary {
-            background: transparent;
-            border: 2px solid var(--accent-purple);
-            color: var(--accent-purple);
-        }
-
-        .cta-btn-secondary:hover {
-            background: var(--accent-purple);
-            color: white;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .success-hero h1 {
-                font-size: 2rem;
-            }
-
-            .stats-strip {
-                gap: 1.5rem;
-                padding: 1.5rem;
-            }
-
-            .stat-number {
-                font-size: 2rem;
-            }
-
-            .stories-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .story-card {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    
     <!-- Phase 6 UI/UX Polish -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
     <!-- Phase 7 Distinctive Identity -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
-    <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
 </head>
 
-<body class="success-page">
+<body class="success-page editorial">
     <!-- Skip link for keyboard navigation -->
     <a href="#main" class="skip-link">Skip to main content</a>
 
-    <canvas id="background-canvas"></canvas>
 
     <!-- Navigation -->
     <style>
@@ -731,604 +347,109 @@
         </div>
     </div>
 
-    <main id="main">
-        <!-- Hero Section -->
+        <main id="main">
+        <!-- Hero -->
         <section class="success-hero">
             <div class="success-hero-inner">
-                <span class="success-badge">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polygon
-                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                        </polygon>
-                    </svg>
-                    Student Success Stories
-                </span>
-                <h1>Real Students, <span>Real Transformations</span></h1>
-                <p>Discover how students of all ages transformed their skills, built amazing projects, and achieved
-                    their dreams at Modern Age Coders. These are their stories.</p>
-
+                <span class="success-badge">★ Real Google reviews · 4.9 / 547+</span>
+                <h1>Real students, <span>real feedback</span></h1>
+                <p>Unfiltered words from the parents and students who learn with Modern Age Coders. Every review below is a real Google review — nothing scripted.</p>
                 <div class="stats-strip">
-                    <div class="stat-item">
-                        <div class="stat-number">500+</div>
-                        <div class="stat-label">Students Trained</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">95%</div>
-                        <div class="stat-label">Success Rate</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">50+</div>
-                        <div class="stat-label">Projects Built</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">4.9?</div>
-                        <div class="stat-label">Parent Rating</div>
-                    </div>
+                    <div class="stat-item"><div class="stat-number">4.9★</div><div class="stat-label">Average rating</div></div>
+                    <div class="stat-item"><div class="stat-number">547+</div><div class="stat-label">Google reviews</div></div>
+                    <div class="stat-item"><div class="stat-number">Since 2020</div><div class="stat-label">Coding + maths</div></div>
+                    <div class="stat-item"><div class="stat-number">15+</div><div class="stat-label">Countries</div></div>
                 </div>
             </div>
         </section>
 
-        <!-- Stories Section -->
+        <!-- Real reviews from families -->
         <section class="stories-section">
             <div class="section-header">
-                <h2>Featured Success Stories</h2>
+                <h2>What families say</h2>
+                <p>Straight from our Google reviews</p>
             </div>
-
             <div class="stories-grid">
-                <!-- Story 1 - Kids -->
                 <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">A</div>
-                        <div class="story-meta">
-                            <div class="story-name">Arjun Sharma</div>
-                            <div class="story-info">Age 10 | Kolkata | Kids Coding</div>
-                        </div>
-                        <span class="story-badge">Kids</span>
-                    </div>
-                    <p class="story-quote">I never thought I could make my own game! Now I've made 5 games and showed
-                        them to my whole class. Coding is so much fun!</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Kids Coding Blocks Masterclass</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">6 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Projects Built</span>
-                            <span class="detail-value">15+ games & animations</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">🥇</span>
-                        <span class="achievement-text">Won 1st Place in School Science Fair Coding Project</span>
-                    </div>
-                    <div class="parent-quote">
-                        <div class="parent-label">Parent's Words</div>
-                        <p class="parent-text">"My son went from playing games all day to creating them. The
-                            transformation in his problem-solving skills is incredible!" — Mrs. Sharma</p>
-                    </div>
-                </div>
-
-                <!-- Story 2 - Teen -->
-                <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">P</div>
-                        <div class="story-meta">
-                            <div class="story-name">Priya Patel</div>
-                            <div class="story-info">Age 16 | Hyderabad | Python & AI</div>
-                        </div>
-                        <span class="story-badge">Teens</span>
-                    </div>
-                    <p class="story-quote">I built an AI chatbot that helps students with homework. It started as a
-                        class project but now my school actually uses it!</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">AI & ML Masterclass for Teens</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">8 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Skills Gained</span>
-                            <span class="detail-value">Python, TensorFlow, NLP</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">🤖</span>
-                        <span class="achievement-text">School-Wide Deployment of Her AI Homework Assistant</span>
-                    </div>
-                    <div class="parent-quote">
-                        <div class="parent-label">Parent's Words</div>
-                        <p class="parent-text">"Priya was always good at maths but now she combines it with coding
-                            beautifully. Modern Age Coders made that connection!" — Mr. Patel</p>
-                    </div>
-                </div>
-
-                <!-- Story 3 - Girls Coding -->
-                <div class="story-card">
-                    <div class="story-header">
+                    <div class="story-stars">★★★★★</div>
+                    <p class="story-quote">My child Dhairya, is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject in the future. I also appreciate the teachers—they are very cooperative and listen to our suggestions. They try to apply them in class, which is very helpful. Overall, I am very happy with the class.</p>
+                    <div class="story-person">
                         <div class="story-avatar">S</div>
-                        <div class="story-meta">
-                            <div class="story-name">Sneha Reddy</div>
-                            <div class="story-info">Age 14 | Bengaluru | Queen Coders</div>
-                        </div>
-                        <span class="story-badge">Queen Coders</span>
-                    </div>
-                    <p class="story-quote">Being in an all-girls batch gave me so much confidence! I was shy before, but
-                        now I present my projects on stage without fear.</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Queen Coders Tech Leadership</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">10 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Projects Built</span>
-                            <span class="detail-value">Website + Mobile App</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">🌟</span>
-                        <span class="achievement-text">Selected for Google Code-in Mentorship Program</span>
-                    </div>
-                    <div class="parent-quote">
-                        <div class="parent-label">Parent's Words</div>
-                        <p class="parent-text">"The supportive environment at Modern Age Coders helped Sneha find her
-                            voice in tech." — Mrs. Reddy</p>
+                        <div><div class="story-name">Sonam Oswal</div><div class="story-role">Mother of Dhairya</div></div>
                     </div>
                 </div>
-
-                <!-- Story 4 - College -->
                 <div class="story-card">
-                    <div class="story-header">
+                    <div class="story-stars">★★★★★</div>
+                    <p class="story-quote">Mivaan enjoys the class. He understands the concepts, and completes his tasks with excitement. He started taking interest in coding... truly amazing class...</p>
+                    <div class="story-person">
+                        <div class="story-avatar">S</div>
+                        <div><div class="story-name">Shradha Saraf</div><div class="story-role">Mother of Mivaan</div></div>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-stars">★★★★★</div>
+                    <p class="story-quote">My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!</p>
+                    <div class="story-person">
+                        <div class="story-avatar">S</div>
+                        <div><div class="story-name">Shewta Singh</div><div class="story-role">Mother of Ishan</div></div>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-stars">★★★★★</div>
+                    <p class="story-quote">I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding, making every session engaging and insightful. They explain complex concepts in a way that's easy to understand and always encourage us to ask questions and think critically. The class atmosphere is friendly and collaborative, which has really boosted my son's confidence and interest in coding.</p>
+                    <div class="story-person">
                         <div class="story-avatar">R</div>
-                        <div class="story-meta">
-                            <div class="story-name">Rahul Verma</div>
-                            <div class="story-info">Age 21 | Pune | Full Stack</div>
-                        </div>
-                        <span class="story-badge">College</span>
-                    </div>
-                    <p class="story-quote">I landed my dream job at a top tech company within 3 months of completing the
-                        course. The project portfolio was key!</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Full Stack Development Masterclass</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">12 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Salary Package</span>
-                            <span class="detail-value">12 LPA (First Job!)</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">💼</span>
-                        <span class="achievement-text">Placed at Top Product Company with 12 LPA</span>
+                        <div><div class="story-name">Ritu Kedia</div><div class="story-role">Mother of Aditya</div></div>
                     </div>
                 </div>
-
-                <!-- Story 5 - Kids Web Design -->
                 <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">I</div>
-                        <div class="story-meta">
-                            <div class="story-name">Ishaan Kumar</div>
-                            <div class="story-info">Age 9 | Delhi | Web Design for Kids</div>
-                        </div>
-                        <span class="story-badge">Kids</span>
-                    </div>
-                    <p class="story-quote">I made a website for my mom's bakery business! She was so proud that she
-                        showed it to all her customers.</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Web Design for Kids</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">4 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Skills Gained</span>
-                            <span class="detail-value">HTML, CSS, Design</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">🌐</span>
-                        <span class="achievement-text">Built a Real Business Website for Family Bakery</span>
-                    </div>
-                    <div class="parent-quote">
-                        <div class="parent-label">Parent's Words</div>
-                        <p class="parent-text">"At 9 years old, he built something professionals charge thousands for.
-                            Worth every penny!" — Mrs. Kumar</p>
-                    </div>
-                </div>
-
-                <!-- Story 6 - Teen Game Dev -->
-                <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">V</div>
-                        <div class="story-meta">
-                            <div class="story-name">Vikram Singh</div>
-                            <div class="story-info">Age 17 | Mumbai | Game Development</div>
-                        </div>
-                        <span class="story-badge">Teens</span>
-                    </div>
-                    <p class="story-quote">My mobile game got 1000+ downloads on Play Store! Modern Age Coders helped me
-                        turn my gaming passion into a skill.</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Game Development Masterclass</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">9 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Published Games</span>
-                            <span class="detail-value">3 on Play Store</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">🎮</span>
-                        <span class="achievement-text">Published Game with 1000+ Downloads</span>
-                    </div>
-                </div>
-
-                <!-- Story 7 - College DSA -->
-                <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">A</div>
-                        <div class="story-meta">
-                            <div class="story-name">Ananya Gupta</div>
-                            <div class="story-info">Age 20 | Kolkata | DSA & Competitive</div>
-                        </div>
-                        <span class="story-badge">College</span>
-                    </div>
-                    <p class="story-quote">From struggling with basic loops to solving hard LeetCode problems. DSA
-                        course completely changed how I approach problems.</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Data Structures & Algorithms</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">6 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">LeetCode Problems</span>
-                            <span class="detail-value">400+ solved</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">🎯</span>
-                        <span class="achievement-text">Cracked Amazon SDE Interview</span>
-                    </div>
-                </div>
-
-                <!-- Story 8 - Career Switcher -->
-                <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">M</div>
-                        <div class="story-meta">
-                            <div class="story-name">Meera Krishnan</div>
-                            <div class="story-info">Age 28 | Chennai | Career Switch</div>
-                        </div>
-                        <span class="story-badge">Professional</span>
-                    </div>
-                    <p class="story-quote">Left my marketing job to become a developer. The structured curriculum and
-                        real projects made transition smooth.</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Full Stack Web Development</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Previous Career</span>
-                            <span class="detail-value">Marketing Manager</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Current Role</span>
-                            <span class="detail-value">Frontend Developer</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">📈</span>
-                        <span class="achievement-text">Successfully Switched to Tech with 40% Salary Hike</span>
-                    </div>
-                </div>
-
-                <!-- Story 9 - Princess Coders -->
-                <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">K</div>
-                        <div class="story-meta">
-                            <div class="story-name">Kavya Nair</div>
-                            <div class="story-info">Age 11 | Kochi | Princess Coders</div>
-                        </div>
-                        <span class="story-badge">Princess Coders</span>
-                    </div>
-                    <p class="story-quote">I love that my batch is all girls! We help each other and now I'm not scared
-                        to ask questions in class anymore.</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Princess Coders Masterclass</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">8 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Projects Built</span>
-                            <span class="detail-value">Animation Stories, Games</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">🎨</span>
-                        <span class="achievement-text">Created Animated Story Selected for State Exhibition</span>
-                    </div>
-                    <div class="parent-quote">
-                        <div class="parent-label">Parent's Words</div>
-                        <p class="parent-text">"The girls-only environment was exactly what Kavya needed. Her confidence
-                            has skyrocketed!" — Mrs. Nair</p>
-                    </div>
-                </div>
-
-                <!-- Story 10 - Real testimonial inspired -->
-                <div class="story-card">
-                    <div class="story-header">
+                    <div class="story-stars">★★★★★</div>
+                    <p class="story-quote">Modern Age Coder have wonderful teachers who teaches in a clear, easy and practical way. The teacher boosts students’ confidence, keeps them updated with technology, and inspires them to learn without hesitation. The teachers are very friendly allowing students to communicate easily for clearing their basic doubts... Very satisfied... Thank you..</p>
+                    <div class="story-person">
                         <div class="story-avatar">S</div>
-                        <div class="story-meta">
-                            <div class="story-name">Samriddha Mondal</div>
-                            <div class="story-info">Grade 8 | Kolkata | Python & IT</div>
-                        </div>
-                        <span class="story-badge">School IT</span>
-                    </div>
-                    <p class="story-quote">I struggled to grasp IT concepts and coding before joining, but their classes
-                        transformed everything. I'm now the topper in my class and can confidently write complex
-                        programs!</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Python Programming for Students</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">8 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Result</span>
-                            <span class="detail-value">Class Topper in IT</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">📚</span>
-                        <span class="achievement-text">From Struggling Student to Class Topper</span>
+                        <div><div class="story-name">Sonu Goyal</div><div class="story-role">Father of Nikit</div></div>
                     </div>
                 </div>
-
-                <!-- Story 11 - Krishnam inspired -->
                 <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">K</div>
-                        <div class="story-meta">
-                            <div class="story-name">Krishnam Bhatter</div>
-                            <div class="story-info">B.Tech CSE | Jaipur | Full Stack</div>
-                        </div>
-                        <span class="story-badge">College</span>
-                    </div>
-                    <p class="story-quote">The teaching approach here is extraordinary. They were not only my teachers
-                        but also mentors. One-on-one doubt solving, regular tests, and working on real-world projects -
-                        this is what sets them apart!</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Full Stack Development</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">10 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Projects Built</span>
-                            <span class="detail-value">8 real-world projects</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">💼</span>
-                        <span class="achievement-text">Built Portfolio That Landed Internship at Startup</span>
+                    <div class="story-stars">★★★★★</div>
+                    <p class="story-quote">The one step solution for my son . Modern age coders make learning coding so simple that kids love it. It focus on specific areas like content, instruction, engagement, and the overall learning experience. Teachers make it so simple providing clearer explanations, incorporating more practical exercises, or making the content more interactive. As per my son "I find the coding class to be very helpful and engaging. Sir is super knowledgeable and able to explain complex concepts in a clear and concise manner. The course content was well-structured, and the projects were challenging and rewarding.</p>
+                    <div class="story-person">
+                        <div class="story-avatar">R</div>
+                        <div><div class="story-name">Ria Mukherjee</div><div class="story-role">Mother of Somraj</div></div>
                     </div>
                 </div>
-
-                <!-- Story 12 - Yug inspired -->
                 <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">Y</div>
-                        <div class="story-meta">
-                            <div class="story-name">Yug Rathore</div>
-                            <div class="story-info">Age 13 | Delhi | Web Development</div>
-                        </div>
-                        <span class="story-badge">Teens</span>
-                    </div>
-                    <p class="story-quote">I made new friends and learned valuable coding skills while having the fun of
-                        my life. It's not just coding here—it's outings, bonding, and preparing you for your future!</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Web Development for Teens</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">6 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Best Part</span>
-                            <span class="detail-value">Made friends + learned skills</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">🤝</span>
-                        <span class="achievement-text">Built Lasting Friendships & Tech Skills Together</span>
-                    </div>
-                    <div class="parent-quote">
-                        <div class="parent-label">Student's Own Words</div>
-                        <p class="parent-text">"Definitely five stars. They prepare you for your future while making
-                            learning enjoyable!"</p>
-                    </div>
-                </div>
-
-                <!-- Story 13 - Mivaan/Parent perspective -->
-                <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">M</div>
-                        <div class="story-meta">
-                            <div class="story-name">Mivaan Saraf</div>
-                            <div class="story-info">Age 8 | Hyderabad | Scratch Coding</div>
-                        </div>
-                        <span class="story-badge">Kids</span>
-                    </div>
-                    <p class="story-quote">I love my coding class! I can make characters move and create my own stories.
-                        My teacher makes everything so easy to understand.</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Kids Coding Blocks</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">4 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Projects Built</span>
-                            <span class="detail-value">12 games & animations</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">✨</span>
-                        <span class="achievement-text">Started Taking Interest in Coding & Logic</span>
-                    </div>
-                    <div class="parent-quote">
-                        <div class="parent-label">Parent's Words</div>
-                        <p class="parent-text">"Mivaan enjoys the class. He understands the concepts and completes his
-                            tasks with excitement. He started taking interest in coding— truly amazing!" — Mrs. Shradha
-                            Saraf</p>
-                    </div>
-                </div>
-
-                <!-- Story 14 - Vansh inspired -->
-                <div class="story-card">
-                    <div class="story-header">
+                    <div class="story-stars">★★★★★</div>
+                    <p class="story-quote">I'm truly grateful for my experience at Modern Age Coders! The teaching approach of my legendary teachers - Shivam Sir, Mihir Sir and Sonu Sir - is extraordinary, that establishes a personal connection with students. They were not only my teachers, but also mentors, life counselors and most importantly, a friendly figure . Their initiatives to organize trips were not only an effort to personally interact with the students to make them feel their friend, but also built camaraderie and lifelong memories.</p>
+                    <div class="story-person">
                         <div class="story-avatar">V</div>
-                        <div class="story-meta">
-                            <div class="story-name">Vansh Agarwal</div>
-                            <div class="story-info">Grade 11 | Kolkata | Python & Data Science</div>
-                        </div>
-                        <span class="story-badge">Teens</span>
-                    </div>
-                    <p class="story-quote">One of the most wonderful education centres out there. Education is not
-                        limited to school syllabus but focuses on skill development. Learning here has been a wonderful
-                        journey!</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Python & Data Science</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">10 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Skills Gained</span>
-                            <span class="detail-value">Python, Pandas, Data Analysis</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">📊</span>
-                        <span class="achievement-text">Built Data Analysis Project for School Science Fair</span>
+                        <div><div class="story-name">Vineeta Bhatter</div><div class="story-role">Mother of Krishnam</div></div>
                     </div>
                 </div>
-
-                <!-- Story 15 - Aarav Math + Coding -->
                 <div class="story-card">
-                    <div class="story-header">
-                        <div class="story-avatar">A</div>
-                        <div class="story-meta">
-                            <div class="story-name">Aarav Sharma</div>
-                            <div class="story-info">Grade 7 | Hyderabad | Math & Coding</div>
-                        </div>
-                        <span class="story-badge">Math + Code</span>
-                    </div>
-                    <p class="story-quote">They don't just teach syntax, they explain WHY things work. I finally
-                        understood how loops actually work in memory. Now I can solve any problem without memorizing
-                        patterns!</p>
-                    <div class="story-details">
-                        <div class="detail-row">
-                            <span class="detail-label">Course</span>
-                            <span class="detail-value">Python with Math Logic</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Duration</span>
-                            <span class="detail-value">8 months</span>
-                        </div>
-                        <div class="detail-row">
-                            <span class="detail-label">Math Score</span>
-                            <span class="detail-value">Improved from 72% to 94%</span>
-                        </div>
-                    </div>
-                    <div class="story-achievement">
-                        <span class="achievement-icon">🧠</span>
-                        <span class="achievement-text">Developed Deep Conceptual Understanding</span>
-                    </div>
-                    <div class="parent-quote">
-                        <div class="parent-label">Parent's Words</div>
-                        <p class="parent-text">"They practice A LOT. Not just 2-3 problems, but 20-30 variations until
-                            the concept is crystal clear. My son can now solve problems he's never seen before." — Mr.
-                            Rajesh Kumar</p>
+                    <div class="story-stars">★★★★★</div>
+                    <p class="story-quote">Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease. The teaching is top-notch, and the support is exceptional. I highly recommend Modern Age Coders to anyone looking to boost their coding skills and excel in IT!</p>
+                    <div class="story-person">
+                        <div class="story-avatar">S</div>
+                        <div><div class="story-name">Samridho Mondal</div><div class="story-role">Student at grade 9</div></div>
                     </div>
                 </div>
             </div>
+            <div class="reviews-cta">
+                <a href="https://g.page/r/Cff_QkHNaP9yEAE/review" target="_blank" rel="noopener" class="reviews-google-btn">Read &amp; write reviews on Google
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+                <a href="/love" class="reviews-love-link">Visit our Wall of Love</a>
+            </div>
         </section>
 
-        <!-- Wall of Love Link -->
-        <section
-            style="text-align: center; padding: 3rem 2rem; background: var(--card-bg); border-top: 1px solid var(--card-border);">
-            <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 1.5rem;">Want to see more genuine
-                feedback from our students and parents?</p>
-            <a href="/love"
-                style="display: inline-flex; align-items: center; gap: 0.75rem; padding: 1rem 2rem; background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(78, 205, 196, 0.15)); border: 2px solid var(--accent-purple); border-radius: 50px; color: var(--accent-purple); font-weight: 600; text-decoration: none; transition: all 0.3s ease;"
-                onmouseover="this.style.background='linear-gradient(135deg, var(--accent-purple), var(--accent-teal))'; this.style.color='white';"
-                onmouseout="this.style.background='linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(78, 205, 196, 0.15))'; this.style.color='var(--accent-purple)';">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                </svg>
-                Visit Our Wall of Love
-            </a>
-        </section>
-
-        <!-- CTA Section -->
+        <!-- CTA -->
         <section class="cta-section">
             <div class="cta-content">
-                <h2>Ready to Write Your Success Story?</h2>
-                <p>Join hundreds of students who have transformed their skills and achieved their dreams at Modern Age
-                    Coders.</p>
+                <h2>Ready to write your story?</h2>
+                <p>Book a free trial class and meet your mentor — no commitment, just a real lesson.</p>
                 <div class="cta-buttons">
-                    <a href="/contact" class="cta-btn cta-btn-primary">Book Free Trial Class</a>
+                    <a href="/contact" class="cta-btn cta-btn-primary">Book a Free Trial</a>
                     <a href="/courses" class="cta-btn cta-btn-secondary">Explore Courses</a>
                 </div>
             </div>
@@ -1656,69 +777,6 @@
     </style>
 
     <!-- Scripts -->
-    <script>
-// Background Canvas Animation
-        const canvas = document.getElementById('background-canvas');
-        const ctx = canvas.getContext('2d');
-        let particles = [];
-        const symbols = ['⭐', '🏆', '🎉', '💪', '🚀', '✨', '🌟', '🎊'];
-
-        function resizeCanvas() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        }
-
-        function createParticles() {
-            particles = [];
-            const particleCount = Math.floor((canvas.width * canvas.height) / 15000);
-            for (let i = 0; i < particleCount; i++) {
-                particles.push({
-                    x: Math.random() * canvas.width,
-                    y: Math.random() * canvas.height,
-                    char: symbols[Math.floor(Math.random() * symbols.length)],
-                    speed: 0.2 + Math.random() * 0.5,
-                    size: 14 + Math.random() * 10,
-                    opacity: 0.1 + Math.random() * 0.2,
-                    rotation: Math.random() * Math.PI * 2,
-                    rotationSpeed: (Math.random() - 0.5) * 0.01
-                });
-            }
-        }
-
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-            particles.forEach(p => {
-                p.y -= p.speed;
-                p.rotation += p.rotationSpeed;
-
-                if (p.y < -30) {
-                    p.y = canvas.height + 30;
-                    p.x = Math.random() * canvas.width;
-                    p.char = symbols[Math.floor(Math.random() * symbols.length)];
-                }
-
-                ctx.save();
-                ctx.translate(p.x, p.y);
-                ctx.rotate(p.rotation);
-                ctx.font = `${p.size}px Arial`;
-                ctx.globalAlpha = p.opacity;
-                ctx.fillText(p.char, 0, 0);
-                ctx.restore();
-            });
-
-            requestAnimationFrame(animate);
-        }
-
-        window.addEventListener('resize', () => {
-            resizeCanvas();
-            createParticles();
-        });
-
-        resizeCanvas();
-        createParticles();
-        animate();
-    </script>
 
     <!-- Load Unified Mobile Navigation JavaScript -->
     <script src="/js/unified-mobile-nav.js"></script>
