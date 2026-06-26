@@ -2197,14 +2197,14 @@
                     <div class="certificate-carousel">
                         <div class="certificate-track">
                             <img src="/images/somraj-certificate.webp" alt="Modern Age Coders Certificate of Completion"
-                                class="certificate-image" width="500" height="500" loading="lazy">
+                                class="certificate-image" width="500" height="500" loading="eager" decoding="async">
                             <img src="/images/paarth-certificate.webp" alt="Modern Age Coders Certificate of Completion"
-                                class="certificate-image" width="500" height="500" loading="lazy">
+                                class="certificate-image" width="500" height="500" loading="eager" decoding="async">
                             <img src="/images/vanshika-certificate.webp"
                                 alt="Modern Age Coders Certificate of Completion" class="certificate-image"
-                                width="500" height="500" loading="lazy">
+                                width="500" height="500" loading="eager" decoding="async">
                             <img src="/images/pratham-certificate.webp" alt="Modern Age Coders Certificate of Completion"
-                                class="certificate-image" width="500" height="500" loading="lazy">
+                                class="certificate-image" width="500" height="500" loading="eager" decoding="async">
 
                         </div>
                     </div>
@@ -4466,11 +4466,8 @@
         })();
     </script>
 
-    <!-- Phase 3 Performance: hover-prefetch for instant internal navigation -->
-    <script src="/js/hover-prefetch.js" defer></script>
-
-    <!-- Phase 4 UX: back-to-top, form auto-save, modal focus trap, sticky mobile CTA, active nav -->
-    <script src="/js/ux-enhancements.js" defer></script>
+    <!-- hover-prefetch.js and ux-enhancements.js are already loaded once in <head>;
+         the duplicate includes here caused two back-to-top buttons. -->
 
     <!-- Phase 3 Performance: register service worker for caching/offline -->
     <script>
