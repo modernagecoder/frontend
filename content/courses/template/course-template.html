@@ -49,39 +49,23 @@
     {{STRUCTURED_DATA}}
     </script>
 
-    <!-- Load main site CSS FIRST for navigation and footer -->
-    <link rel="stylesheet" href="/src/css/style.css">
-    <link rel="stylesheet" href="/src/css/responsive.css">
-    <link rel="stylesheet" href="/src/css/mobile-nav-fix.css">
-    <link rel="stylesheet" href="/src/css/mobile-nav-final-fix.css">
-
-    <!-- Then load course-specific CSS (curriculum, content styles) -->
-    <link rel="stylesheet" href="/content/courses/generated/{{COURSE_SLUG}}/style.css">
-    <link rel="stylesheet" href="/content/courses/generated/{{COURSE_SLUG}}/mobile-responsive-fix.css">
-    <link rel="stylesheet" href="/src/css/share-button.css">
-    <link rel="stylesheet" href="/src/css/download-curriculum.css">
-
-    <!-- CRITICAL: Load navigation override LAST to force correct styles -->
-    <link rel="stylesheet" href="/src/css/course-nav-override.css">
-
-    <!-- Prevent horizontal scrollbar on course pages -->
-    <style>
-        html, body {
-            overflow-x: hidden !important;
-            max-width: 100vw !important;
-        }
-    </style>
-
-    <!-- Phase 7 Distinctive Identity -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p7">
-    <link rel="stylesheet" href="/css/pages/course-detail.css?v=20260411-p7">
-    <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7">
+    <!-- Fonts: Fraunces (display) · Inter (UI) · JetBrains Mono (code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
+    <!-- Editorial theme (shared) + Course detail styles. No legacy CSS. -->
+    <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
+    <link rel="stylesheet" href="/css/course-detail-redesign.css?v=20260627e">
+    <meta name="theme-color" content="#B45309">
+    <style>html,body{overflow-x:hidden;max-width:100vw}</style>
+    <noscript><style>.section{opacity:1 !important;transform:none !important}</style></noscript>
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
 </head>
 
-<body class="course-detail-page">
+<body class="course-detail-page editorial">
 
     <!-- Navigation Component Placeholder -->
     <div id="nav-placeholder"></div>
@@ -134,42 +118,29 @@
                     </span>
                 </div>
 
-                <!-- Download Curriculum CTA + See-Us-In-Action buttons -->
-                <style>
-                    .hero-proof-btn { display: inline-flex; align-items: center; gap: 9px; padding: 14px 22px; border-radius: 12px; font-size: 0.98rem; font-weight: 700; text-decoration: none; color: #fff; transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease; }
-                    .hero-proof-btn svg { flex-shrink: 0; }
-                    .hero-proof-btn .hp-arrow { transition: transform 0.2s ease; }
-                    .hero-proof-btn:hover { transform: translateY(-2px); }
-                    .hero-proof-btn:hover .hp-arrow { transform: translateX(3px); }
-                    .hero-proof-btn--teach { background: linear-gradient(135deg, #10b981, #059669); box-shadow: 0 6px 20px rgba(16,185,129,0.42); }
-                    .hero-proof-btn--teach:hover { box-shadow: 0 10px 28px rgba(16,185,129,0.58); }
-                    .hero-proof-btn--love { background: linear-gradient(135deg, #ec4899, #db2777); box-shadow: 0 6px 20px rgba(236,72,153,0.42); }
-                    .hero-proof-btn--love:hover { box-shadow: 0 10px 28px rgba(236,72,153,0.58); }
-                    .hero-proof-btn--labs { background: linear-gradient(135deg, #06b6d4, #0891b2); box-shadow: 0 6px 20px rgba(6,182,212,0.42); }
-                    .hero-proof-btn--labs:hover { box-shadow: 0 10px 28px rgba(6,182,212,0.58); }
-                    @media (max-width: 600px) { .hero-cta-row .download-curriculum-btn, .hero-cta-row .hero-proof-btn { width: 100%; justify-content: center; } }
-                </style>
+                <!-- One clear CTA path: Enrol (→ pricing) + Book a free demo. Resources demoted to quiet links. -->
                 <div class="hero-cta-row">
-                    <button type="button" id="downloadCurriculumBtn" class="download-curriculum-btn" aria-label="Download course curriculum as PDF">
-                        <svg class="dl-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="7 10 12 15 17 10"></polyline>
-                            <line x1="12" y1="15" x2="12" y2="3"></line>
-                        </svg>
-                        <span class="dl-label">Download Curriculum (PDF)</span>
-                    </button>
-                    <a href="/how-we-teach" class="hero-proof-btn hero-proof-btn--teach" aria-label="Watch how we teach — live demo lessons">
-                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                        Watch How We Teach <svg class="hp-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                    </a>
-                    <a href="/love" class="hero-proof-btn hero-proof-btn--love" aria-label="Read parent and student testimonials">
-                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-                        Wall of Love
-                    </a>
-                    <a href="/student-labs" class="hero-proof-btn hero-proof-btn--labs" aria-label="See projects students built">
-                        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6"></path><path d="M10 3v6.5L5.2 18a2 2 0 0 0 1.7 3h10.2a2 2 0 0 0 1.7-3L14 9.5V3"></path></svg>
-                        Student Labs
-                    </a>
+                    <div class="cd-primary-cta">
+                        <a href="#enroll" class="cd-btn-primary">Enrol Now
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="/contact" class="cd-btn-secondary">Book a Free Demo</a>
+                    </div>
+                    <div class="hero-resource-links">
+                        <button type="button" id="downloadCurriculumBtn" class="download-curriculum-btn" aria-label="Download course curriculum as PDF">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        <span class="dl-label">Download syllabus</span>
+                        </button>
+                        <a href="/how-we-teach" class="hero-proof-btn hero-proof-btn--teach" aria-label="Watch how we teach — live demo lessons">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Watch a class
+                        </a>
+                        <a href="/love" class="hero-proof-btn hero-proof-btn--love" aria-label="Read parent and student testimonials">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg> Wall of Love
+                        </a>
+                        <a href="/student-labs" class="hero-proof-btn hero-proof-btn--labs" aria-label="See projects students built">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6"></path><path d="M10 3v6.5L5.2 18a2 2 0 0 0 1.7 3h10.2a2 2 0 0 0 1.7-3L14 9.5V3"></path></svg> Student Labs
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="course-hero-image">
@@ -177,89 +148,27 @@
             </div>
         </section>
 
-        <!-- Course Duration Information Section -->
-        <section style="max-width: 1200px; margin: 2rem auto; padding: 0 2rem;">
-            <div style="background: rgba(16, 16, 28, 0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 1.5rem; padding: 2rem; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden; display: flex; gap: 1.5rem; align-items: flex-start;"
-                onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 20px 50px rgba(168, 85, 247, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.2)'"
-                onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 32px rgba(0, 0, 0, 0.3)'; this.style.borderColor='rgba(255, 255, 255, 0.12)'">
 
-                <!-- Top gradient border -->
-                <div
-                    style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #a855f7, #4ecdc4, #ffa500); border-radius: 1.5rem 1.5rem 0 0;">
+        <!-- Course duration (editorial) -->
+        <section class="cd-duration">
+            <div class="cd-duration-card">
+                <div class="cd-duration-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                 </div>
-
-                <!-- Duration Icon -->
-                <div
-                    style="flex-shrink: 0; width: 48px; height: 48px; background: linear-gradient(135deg, #a855f7, #4ecdc4); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(168, 85, 247, 0.3);">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
-                        style="filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <polyline points="12 6 12 12 16 14"></polyline>
-                    </svg>
-                </div>
-
-                <!-- Duration Content -->
-                <div style="flex: 1;">
-                    <h3
-                        style="font-size: 1.5rem; font-weight: 700; color: #F8FAFC; margin-bottom: 1rem; background: linear-gradient(135deg, #ffffff, #d1d8ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
-                        Flexible Course Duration
-                    </h3>
-
-                    <p style="color: #CBD5E1; font-size: 1rem; line-height: 1.6; margin-bottom: 1.5rem;">
-                        Course duration varies based on the student's background and learning pace.
-                        <strong style="color: #F8FAFC; font-weight: 600;">For beginners (kids/teens):</strong> typically
-                        6-9 months depending on the specific course.
-                        <strong style="color: #F8FAFC; font-weight: 600;">For adults with prior knowledge:</strong>
-                        duration may be shorter with accelerated learning paths.
-                    </p>
-
-                    <!-- Duration Options Grid -->
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
-                        <div style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 0.75rem; padding: 1rem; transition: all 0.3s ease;"
-                            onmouseover="this.style.background='rgba(24, 24, 40, 0.9)'; this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.transform='translateY(-2px)'"
-                            onmouseout="this.style.background='rgba(0, 0, 0, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.12)'; this.style.transform='translateY(0)'">
-                            <span
-                                style="display: block; font-size: 0.875rem; color: #94A3B8; margin-bottom: 0.25rem; font-weight: 500;">Standard
-                                Pace:</span>
-                            <span style="display: block; font-size: 1rem; color: #F8FAFC; font-weight: 600;">6-9
-                                months</span>
-                        </div>
-                        <div style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 0.75rem; padding: 1rem; transition: all 0.3s ease;"
-                            onmouseover="this.style.background='rgba(24, 24, 40, 0.9)'; this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.transform='translateY(-2px)'"
-                            onmouseout="this.style.background='rgba(0, 0, 0, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.12)'; this.style.transform='translateY(0)'">
-                            <span
-                                style="display: block; font-size: 0.875rem; color: #94A3B8; margin-bottom: 0.25rem; font-weight: 500;">Accelerated
-                                Option:</span>
-                            <span style="display: block; font-size: 1rem; color: #F8FAFC; font-weight: 600;">Increase
-                                class frequency for faster completion</span>
-                        </div>
+                <div>
+                    <h3>Flexible course duration</h3>
+                    <p>Duration depends on the student's background and pace. <strong>Beginners (kids / teens):</strong> typically 6–9 months. <strong>Adults with prior knowledge:</strong> often shorter, with an accelerated path.</p>
+                    <div class="cd-duration-opts">
+                        <div class="cd-duration-opt"><span class="k">Standard pace</span><span class="v">6–9 months</span></div>
+                        <div class="cd-duration-opt"><span class="k">Accelerated</span><span class="v">Add class frequency to finish faster</span></div>
                     </div>
-
-                    <!-- Contact Information -->
-                    <div
-                        style="background: rgba(168, 85, 247, 0.1); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.75rem; padding: 1.25rem;">
-                        <p
-                            style="color: #CBD5E1; font-size: 0.95rem; line-height: 1.5; display: flex; align-items: flex-start; gap: 0.75rem; margin: 0;">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#a855f7"
-                                stroke-width="2" style="flex-shrink: 0; margin-top: 0.125rem;">
-                                <path
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                                </path>
-                            </svg>
-                            For personalized duration planning and detailed course information, contact Modern Age
-                            Coders at
-                            <a href="tel:+919123366161"
-                                style="color: #a855f7; text-decoration: none; font-weight: 600; transition: all 0.3s ease; padding: 0.25rem 0.5rem; border-radius: 0.375rem; background: rgba(168, 85, 247, 0.1);"
-                                onmouseover="this.style.background='rgba(168, 85, 247, 0.2)'; this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 15px rgba(168, 85, 247, 0.3)'"
-                                onmouseout="this.style.background='rgba(168, 85, 247, 0.1)'; this.style.transform='scale(1)'; this.style.boxShadow='none'">9123366161</a>
-                        </p>
-                    </div>
+                    <p class="cd-duration-contact">For personalised duration planning, call <a href="tel:+919123366161">+91 91233 66161</a> — we'll map a schedule to your goals.</p>
                 </div>
             </div>
         </section>
 
         <!-- Enhanced Enrollment CTA Section -->
-        <section class="enrollment-cta-section">
+        <section class="enrollment-cta-section" id="enroll">
             <div class="enrollment-cta-container">
                 <div class="enrollment-cta-text">
                     <h2>Ready to Master {{COURSE_TITLE}}?</h2>
@@ -288,97 +197,32 @@
                 </div>
             </div>
 
-            <!-- International Pricing Section - Centered Below -->
-            <div style="max-width: 700px; margin: 3rem auto 0; padding: 0 1.5rem;">
-                <!-- Header with Globe -->
-                <div
-                    style="display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
-                    <div
-                        style="width: 44px; height: 44px; background: linear-gradient(135deg, #0ea5e9, #38bdf8); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(14, 165, 233, 0.4);">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <line x1="2" y1="12" x2="22" y2="12"></line>
-                            <path
-                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                            </path>
-                        </svg>
+            <!-- International Pricing (editorial) -->
+            <div class="cd-intl">
+                <div class="cd-intl-head">
+                    <div class="cd-intl-globe">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                     </div>
-                    <h3
-                        style="font-size: 1.4rem; font-weight: 700; background: linear-gradient(135deg, #0ea5e9, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin: 0; text-align: center;">
-                        International Students (Outside India)
-                    </h3>
+                    <h3>International Students (Outside India)</h3>
                 </div>
-
-                <!-- International Pricing Cards -->
-                <div id="intl-pricing-grid"
-                    style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; max-width: 550px; margin: 0 auto;">
-                    <!-- Group Class Card -->
-                    <div style="background: linear-gradient(145deg, rgba(14, 165, 233, 0.12), rgba(56, 189, 248, 0.06)); border: 1px solid rgba(14, 165, 233, 0.35); border-radius: 1.25rem; padding: 1.5rem 1.25rem; text-align: center; position: relative; overflow: hidden; transition: all 0.3s ease;"
-                        onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(14, 165, 233, 0.25)'; this.style.borderColor='rgba(14, 165, 233, 0.6)'"
-                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.borderColor='rgba(14, 165, 233, 0.35)'">
-                        <!-- Shine effect -->
-                        <div
-                            style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, rgba(14, 165, 233, 0.8), transparent);">
-                        </div>
-                        <div
-                            style="font-size: 0.8rem; color: #94A3B8; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; font-weight: 600;">
-                            Group Classes</div>
-                        <div
-                            style="font-size: 2.25rem; font-weight: 800; background: linear-gradient(135deg, #0ea5e9, #38bdf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1.1;">
-                            $40</div>
-                        <div style="font-size: 0.9rem; color: #CBD5E1; margin-top: 0.25rem;">USD / month</div>
-                        <div
-                            style="font-size: 0.75rem; color: #64748B; margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
-                            2 Classes per Week</div>
-                        <a href="javascript:void(0)" onclick="showInternationalContactModal('Group Classes', '$40 USD')"
-                            style="display: inline-block; margin-top: 1rem; padding: 0.6rem 1.5rem; background: linear-gradient(135deg, #0ea5e9, #38bdf8); color: white; text-decoration: none; border-radius: 0.5rem; font-size: 0.85rem; font-weight: 600; transition: all 0.3s ease; cursor: pointer;"
-                            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 25px rgba(14, 165, 233, 0.4)'"
-                            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'">Enroll Now</a>
+                <div id="intl-pricing-grid" class="cd-intl-grid">
+                    <div class="cd-intl-card">
+                        <div class="cd-intl-label">Group Classes</div>
+                        <div class="cd-intl-price">$40</div>
+                        <div class="cd-intl-per">USD / month</div>
+                        <div class="cd-intl-note">2 Classes per Week</div>
+                        <a href="javascript:void(0)" onclick="showInternationalContactModal('Group Classes', '$40 USD')" class="cd-intl-btn">Enroll Now</a>
                     </div>
-
-                    <!-- Personalized Class Card Wrapper -->
-                    <div style="position: relative;">
-                        <!-- Recommended badge - Outside the card -->
-                        <div
-                            style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #a855f7, #8b5cf6); color: white; font-size: 0.65rem; font-weight: 700; padding: 0.3rem 0.75rem; border-radius: 9999px; text-transform: uppercase; letter-spacing: 0.05em; z-index: 10; box-shadow: 0 4px 12px rgba(168, 85, 247, 0.4); white-space: nowrap;">
-                            Recommended</div>
-                        <!-- Card -->
-                        <div style="background: linear-gradient(145deg, rgba(168, 85, 247, 0.12), rgba(139, 92, 246, 0.06)); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 1.25rem; padding: 1.5rem 1.25rem; text-align: center; position: relative; overflow: hidden; transition: all 0.3s ease; margin-top: 0.5rem;"
-                            onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(168, 85, 247, 0.25)'; this.style.borderColor='rgba(168, 85, 247, 0.6)'"
-                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'; this.style.borderColor='rgba(168, 85, 247, 0.35)'">
-                            <!-- Shine effect -->
-                            <div
-                                style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.8), transparent);">
-                            </div>
-                            <div
-                                style="font-size: 0.8rem; color: #94A3B8; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.5rem; font-weight: 600;">
-                                Personalized</div>
-                            <div
-                                style="font-size: 2.25rem; font-weight: 800; background: linear-gradient(135deg, #a855f7, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1.1;">
-                                $100</div>
-                            <div style="font-size: 0.9rem; color: #CBD5E1; margin-top: 0.25rem;">USD / month</div>
-                            <div
-                                style="font-size: 0.75rem; color: #64748B; margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
-                                2 Classes per Week · 1-on-1</div>
-                            <a href="javascript:void(0)"
-                                onclick="showInternationalContactModal('Personalized Mentorship', '$100 USD')"
-                                style="display: inline-block; margin-top: 1rem; padding: 0.6rem 1.5rem; background: transparent; color: #a855f7; text-decoration: none; border: 2px solid #a855f7; border-radius: 0.5rem; font-size: 0.85rem; font-weight: 600; transition: all 0.3s ease; cursor: pointer;"
-                                onmouseover="this.style.background='linear-gradient(135deg, #a855f7, #8b5cf6)'; this.style.color='white'; this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 25px rgba(168, 85, 247, 0.4)'"
-                                onmouseout="this.style.background='transparent'; this.style.color='#a855f7'; this.style.transform='scale(1)'; this.style.boxShadow='none'">Enroll
-                                Now</a>
-                        </div>
+                    <div class="cd-intl-card rec">
+                        <div class="cd-intl-badge">Recommended</div>
+                        <div class="cd-intl-label">Personalized</div>
+                        <div class="cd-intl-price">$100</div>
+                        <div class="cd-intl-per">USD / month</div>
+                        <div class="cd-intl-note">2 Classes per Week &middot; 1-on-1</div>
+                        <a href="javascript:void(0)" onclick="showInternationalContactModal('Personalized Mentorship', '$100 USD')" class="cd-intl-btn">Enroll Now</a>
                     </div>
                 </div>
-
-                <!-- Additional currencies note -->
-                <p
-                    style="text-align: center; font-size: 0.85rem; color: #64748B; margin-top: 1.25rem; line-height: 1.5;">
-                    Also available in EUR, GBP, CAD, AUD, SGD & AED.
-                    <a href="/contact/" style="color: #0ea5e9; text-decoration: none; font-weight: 500;"
-                        onmouseover="this.style.textDecoration='underline'"
-                        onmouseout="this.style.textDecoration='none'">Contact us</a> for details.
-                </p>
+                <p class="cd-intl-more">Also available in EUR, GBP, CAD, AUD, SGD &amp; AED. <a href="/contact/">Contact us</a> for details.</p>
             </div>
         </section>
 
@@ -534,6 +378,38 @@
             </div>
         </section>
 
+        <!-- Feedback / testimonials from real Modern Age Coders families -->
+        <section class="cd-testimonials">
+            <h2>What Families Say</h2>
+            <p class="cd-tm-sub">Real feedback from the parents and students who learn with us.</p>
+            <div class="cd-tm-rating"><span class="stars">★★★★★</span> 4.9 average · 547+ Google reviews</div>
+            <div class="cd-tm-grid">
+                <div class="cd-tm-card">
+                    <div class="cd-tm-stars">★★★★★</div>
+                    <p class="cd-tm-quote">"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding — truly amazing class."</p>
+                    <div class="cd-tm-person"><div class="cd-tm-avatar">S</div><div><div class="cd-tm-name">Shradha Saraf</div><div class="cd-tm-role">Mother of Mivaan</div></div></div>
+                </div>
+                <div class="cd-tm-card">
+                    <div class="cd-tm-stars">★★★★★</div>
+                    <p class="cd-tm-quote">"My son struggled with maths for years. Integrating it into coding projects has transformed how he thinks — he now genuinely enjoys both."</p>
+                    <div class="cd-tm-person"><div class="cd-tm-avatar">S</div><div><div class="cd-tm-name">Shewta Singh</div><div class="cd-tm-role">Mother of Ishan</div></div></div>
+                </div>
+                <div class="cd-tm-card">
+                    <div class="cd-tm-stars">★★★★★</div>
+                    <p class="cd-tm-quote">"Modern Age Coders has wonderful teachers who teach in a clear, easy and practical way. My son looks forward to every single class."</p>
+                    <div class="cd-tm-person"><div class="cd-tm-avatar">S</div><div><div class="cd-tm-name">Sonu Goyal</div><div class="cd-tm-role">Father of Nikit</div></div></div>
+                </div>
+                <div class="cd-tm-card">
+                    <div class="cd-tm-stars">★★★★★</div>
+                    <p class="cd-tm-quote">"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts before — now they finally click, and I actually look forward to learning."</p>
+                    <div class="cd-tm-person"><div class="cd-tm-avatar">S</div><div><div class="cd-tm-name">Samridho Mondal</div><div class="cd-tm-role">Student · Grade 9</div></div></div>
+                </div>
+            </div>
+            <a href="https://g.page/r/Cff_QkHNaP9yEAE/review" target="_blank" rel="noopener" class="cd-tm-google">Read &amp; write reviews on Google
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+        </section>
+
         <!-- FAQ Section - Only displays if course has FAQs -->
         {{FAQ_SECTION}}
 
@@ -549,6 +425,20 @@
         <!-- Related Blogs Section - Auto-generated for internal linking -->
         {{RELATED_BLOGS}}
 
+        <!-- Final CTA -->
+        <section class="cd-final-cta">
+            <div class="cd-final-cta-inner">
+                <h2>Ready to start {{COURSE_TITLE}}?</h2>
+                <p>Book a free demo class to meet your mentor and see how we teach — no commitment. Or enrol now and start this week.</p>
+                <div class="cd-final-cta-row">
+                    <a href="#enroll" class="cd-btn-primary">Enrol Now
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                    <a href="/contact" class="cd-btn-secondary">Book a Free Demo</a>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- Curriculum data inlined for client-side PDF download. Stays in sync with JSON. -->
@@ -557,44 +447,6 @@
     <script src="/content/courses/generated/{{COURSE_SLUG}}/course-navigation.js"></script>
     <script src="/src/js/download-curriculum.js" defer></script>
 
-    <!-- Responsive styles for duration section -->
-    <style>
-        @media (max-width: 1024px) {
-            .duration-section-responsive {
-                flex-direction: column !important;
-                text-align: center !important;
-            }
-
-            .duration-options-responsive {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .duration-section-responsive {
-                padding: 1.5rem !important;
-            }
-
-            .duration-section-responsive h3 {
-                font-size: 1.25rem !important;
-            }
-
-            .contact-text-responsive {
-                flex-direction: column !important;
-                gap: 0.5rem !important;
-                text-align: left !important;
-            }
-        }
-
-        /* International Pricing - Mobile Responsive */
-        @media (max-width: 520px) {
-            #intl-pricing-grid {
-                grid-template-columns: 1fr !important;
-                max-width: 320px !important;
-                gap: 1.25rem !important;
-            }
-        }
-    </style>
 
     <!-- Footer Component Placeholder -->
     <div id="footer-placeholder"></div>
