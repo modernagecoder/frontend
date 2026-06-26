@@ -35,19 +35,19 @@
 
 /* ---------- PRICING CARDS ---------- */
 .pricing-cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.6rem;align-items:stretch;max-width:1040px;margin-inline:auto}
-.pricing-card-new{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:2rem 1.7rem;transition:transform .25s,box-shadow .25s}
+.pricing-card-new{position:relative;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:2rem 1.7rem;transition:transform .25s,box-shadow .25s;text-align:center}
 .pricing-card-new:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
 .pricing-card-new.recommended{border:1.5px solid var(--amber);box-shadow:0 26px 54px -30px rgba(180,83,9,.55)}
 .recommended-badge{position:absolute;top:-.85rem;left:50%;transform:translateX(-50%);background:var(--amber);color:#fff;font-family:var(--font-body);font-size:.68rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:.36rem .95rem;border-radius:40px;white-space:nowrap}
-.card-icon{width:50px;height:50px;border-radius:13px;background:var(--amber-tint);color:var(--amber);display:flex;align-items:center;justify-content:center;margin-bottom:1.1rem}
+.card-icon{width:50px;height:50px;border-radius:13px;background:var(--amber-tint);color:var(--amber);display:flex;align-items:center;justify-content:center;margin:0 auto 1.1rem}
 .card-icon svg{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:2}
 .pricing-card-new h3{font-size:1.4rem;margin-bottom:.2rem}
 .card-tagline{color:var(--muted);font-size:.86rem;margin-bottom:1.1rem}
-.price-display{display:flex;align-items:baseline;gap:.12rem;margin-bottom:1.3rem;font-family:var(--font-display);line-height:1}
+.price-display{display:flex;align-items:baseline;justify-content:center;gap:.12rem;margin-bottom:1.3rem;font-family:var(--font-display);line-height:1}
 .price-amount{font-size:2.7rem;font-weight:600;color:var(--ink)}
 .price-currency{font-family:var(--font-body);font-size:1.3rem;font-weight:700;color:var(--amber)}
 .price-period{font-family:var(--font-body);font-size:.95rem;font-weight:500;color:var(--muted)}
-.features-list{list-style:none;display:flex;flex-direction:column;gap:.65rem;margin-bottom:1.7rem;flex:1}
+.features-list{list-style:none;display:flex;flex-direction:column;gap:.65rem;margin-bottom:1.7rem;flex:1;align-self:center;text-align:left}
 .features-list li{display:flex;align-items:flex-start;gap:.6rem;font-size:.9rem;color:var(--ink-soft);line-height:1.45}
 .features-list li svg{width:17px;height:17px;flex-shrink:0;margin-top:.15rem;color:var(--amber);stroke:currentColor}
 .features-list li strong{color:var(--ink)}
@@ -67,14 +67,14 @@
 .intl-header p{color:var(--muted);max-width:660px;margin:1rem auto 0;line-height:1.7}
 .intl-header p strong{color:var(--ink)}
 .intl-cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,360px));gap:1.6rem;justify-content:center;align-items:stretch;margin-bottom:1.6rem}
-.intl-card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:2rem 1.7rem;height:100%}
+.intl-card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:2rem 1.7rem;height:100%;text-align:center}
 .intl-card-wrapper{position:relative}
 .intl-card-personal{border:1.5px solid var(--amber);box-shadow:0 26px 54px -30px rgba(180,83,9,.55)}
 .intl-recommended-badge{position:absolute;top:-.85rem;left:50%;transform:translateX(-50%);z-index:2;background:var(--amber);color:#fff;font-size:.68rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:.36rem .95rem;border-radius:40px;white-space:nowrap}
 .intl-card-label{font-family:var(--font-display);font-weight:600;font-size:1.3rem;margin-bottom:.4rem}
 .intl-card-price{font-family:var(--font-display);font-weight:600;font-size:2.7rem;color:var(--ink);line-height:1}
 .intl-card-period{color:var(--muted);font-size:.9rem;margin-bottom:1.3rem;font-family:var(--font-mono);letter-spacing:.02em}
-.intl-card-features{list-style:none;display:flex;flex-direction:column;gap:.65rem;margin-bottom:1.7rem;flex:1}
+.intl-card-features{list-style:none;display:flex;flex-direction:column;gap:.65rem;margin-bottom:1.7rem;flex:1;align-self:center;text-align:left}
 .intl-card-features li{display:flex;align-items:flex-start;gap:.6rem;font-size:.9rem;color:var(--ink-soft);line-height:1.45}
 .intl-card-features li svg{width:17px;height:17px;flex-shrink:0;margin-top:.15rem;color:var(--amber)}
 .intl-whatsapp-btn{display:flex;align-items:center;justify-content:center;gap:.5rem;padding:.85rem 1rem;border-radius:11px;text-decoration:none;font-weight:600;background:#1F8A55;color:#fff;border:1px solid #1F8A55;transition:background .2s}
@@ -106,21 +106,21 @@
 
 /* ---------- WHICH ONE cards ---------- */
 .comparison-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.6rem}
-.comparison-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:1.9rem 1.7rem}
+.comparison-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:1.9rem 1.7rem;text-align:center}
 .comparison-card.personal-card{border-color:rgba(180,83,9,.4)}
-.comparison-card-header{display:flex;align-items:center;gap:.9rem;margin-bottom:1rem}
+.comparison-card-header{display:flex;align-items:center;justify-content:center;gap:.9rem;margin-bottom:1rem;text-align:left}
 .comparison-icon{width:50px;height:50px;border-radius:13px;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .comparison-icon svg{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:2}
 .comparison-card-header h3{font-size:1.18rem}
 .comparison-card-header span{color:var(--amber);font-family:var(--font-mono);font-weight:700;font-size:.95rem}
 .comparison-subtitle{color:var(--muted);line-height:1.6;margin-bottom:1.2rem;font-size:.95rem}
-.comparison-list{list-style:none;display:flex;flex-direction:column;gap:.6rem}
+.comparison-list{list-style:none;display:inline-flex;flex-direction:column;gap:.6rem;text-align:left}
 .comparison-list li{display:flex;align-items:flex-start;gap:.6rem;font-size:.9rem;color:var(--ink-soft);line-height:1.5}
 .comparison-list li svg{width:17px;height:17px;flex-shrink:0;margin-top:.15rem;color:var(--amber)}
 
 /* ---------- WHAT'S INCLUDED ---------- */
 .included-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.3rem}
-.included-item{display:flex;gap:1rem;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.4rem}
+.included-item{display:flex;flex-direction:column;gap:.9rem;align-items:center;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.6rem 1.4rem}
 .included-icon{width:44px;height:44px;flex-shrink:0;border-radius:11px;background:var(--amber-tint);color:var(--amber);display:flex;align-items:center;justify-content:center}
 .included-icon svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2}
 .included-text h4{font-size:1.02rem;margin-bottom:.25rem}
