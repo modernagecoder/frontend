@@ -38,7 +38,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/favicon/android-chrome-512x512.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
-    <meta name="theme-color" content="#a855f7">
+    <meta name="theme-color" content="#B45309">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/">
@@ -323,32 +323,30 @@
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link rel="dns-prefetch" href="https://wa.me">
 
-    <!-- Preload critical CSS for early download (parser-blocking saved) -->
-    <link rel="preload" href="/css/style.css?v=20260325" as="style">
-    <link rel="preload" href="/css/index-bundle.css?v=20260325" as="style">
-    <link rel="preload" href="/css/core.css?v=20260411" as="style">
-    <link rel="preload" href="/css/pages/homepage.css?v=20260411-p4" as="style">
-
     <!-- Preload above-the-fold logo (LCP candidate) -->
     <link rel="preload" href="/images/logo.svg" as="image" fetchpriority="high">
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="/css/style.css?v=20260325">
-    <link rel="stylesheet" href="/css/index-bundle.css?v=20260325">
+    <!-- Fonts: Fraunces (display) · Inter (UI) · JetBrains Mono (code/numbers) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
 
-    <!-- Phase 1 UI/UX Overhaul: new design system (elevation layer) -->
-    <link rel="stylesheet" href="/css/core.css?v=20260411">
-    <link rel="stylesheet" href="/css/pages/homepage.css?v=20260411-p4">
-
-    <!-- Phase 7.1 Distinctive Identity + Artistic Hero -->
-    <link rel="stylesheet" href="/css/pages/identity.css?v=20260411-p7-7">
+    <!-- ============================================================== -->
+    <!-- Homepage redesign — Editorial "Ledger & Proof"                 -->
+    <!-- Single stylesheet, authored from scratch. No legacy CSS.       -->
+    <!-- ============================================================== -->
+    <link rel="preload" href="/css/index-redesign.css?v=20260626" as="style">
+    <link rel="stylesheet" href="/css/index-redesign.css?v=20260626">
 
     <!-- Prefetch likely-next pages (idle bandwidth) -->
     <link rel="prefetch" href="/courses">
     <link rel="prefetch" href="/about">
 
-    <!-- Phase 6 UI/UX Polish -->
-    <link rel="stylesheet" href="/css/pages/global.css?v=20260411-p6">
+    <!-- Reveal sections if JS is unavailable -->
+    <noscript>
+        <style>.section{opacity:1 !important;transform:none !important}</style>
+    </noscript>
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
@@ -582,6 +580,7 @@
         <section class="section hero-section" aria-label="Hero — Maths and Code made for each other"
             style="padding-top: 5rem; padding-bottom: 3rem;">
             <div class="hero-text">
+                <p class="hero-eyebrow">Coding + Maths &middot; Ages 6&ndash;65 &middot; Live 1-on-1</p>
                 <h1 id="hero-main-title"><span style="white-space: nowrap;"><span class="highlight-ma">Ma</span>ths +
                         Co<span class="highlight-de">de</span></span><br><span class="highlight-made">Made</span> for
                     Each
@@ -594,6 +593,21 @@
                     We don't just teach coding and maths. We teach you how to <span class="hero-emphasis">think, build, and solve problems</span> that
                     actually matter. Just real skills that work in the real world at any age, any stage.
                 </p>
+
+                <div class="hero-cta-group">
+                    <a href="/contact" class="hero-cta">Book a Free Demo</a>
+                    <a href="/courses" class="hero-cta-outline">View Courses &rarr;</a>
+                </div>
+
+                <div class="hero-trust">
+                    <span><span class="star">&#9733;</span> <b>4.9</b></span>
+                    <span class="dot"></span>
+                    <span><b>547</b> reviews</span>
+                    <span class="dot"></span>
+                    <span><b>15+</b> countries</span>
+                    <span class="dot"></span>
+                    <span>since <b>2020</b></span>
+                </div>
 
                 <div class="hero-toggle-container">
                     <input type="radio" id="hero-coding-toggle" name="hero-category" class="hero-toggle-input"
@@ -623,63 +637,45 @@
                         <div class="ambient-glow" id="hero-ambient-glow"></div>
                         <span class="sym-char sym-brace" id="sym-brace-left">{</span>
                         <span class="sym-char sym-semi" id="sym-semi-left">;</span>
-                        <span class="sym-math-group" id="sym-center-group">
-                            <span class="sym-char sym-math-e"
-                                style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #f59e0b, #fb923c); font-size: 110px;">&lt;</span><span
-                                class="sym-char sym-math-x"
-                                style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #fb923c, #f59e0b); font-size: 110px; margin-top: 0px;">/</span><span
-                                class="sym-char sym-math-e"
-                                style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #f59e0b, #fb923c); font-size: 110px;">&gt;</span>
-                        </span>
+                        <span class="sym-math-group" id="sym-center-group">&lt;/&gt;</span>
                         <span class="sym-char sym-semi" id="sym-semi-right">;</span>
                         <span class="sym-char sym-brace" id="sym-brace-right">}</span>
                     </div>
+                    <div class="hero-symbol-caption"><span>coding</span><span>maths</span></div>
                 </div>
 
                 <script>
                     document.addEventListener('DOMContentLoaded', function () {
                         const codingToggle = document.getElementById('hero-coding-toggle');
                         const mathsToggle = document.getElementById('hero-maths-toggle');
-
-                        const glowBg = document.getElementById('hero-ambient-glow');
+                        const box = document.getElementById('dynamic-hero-symbol');
                         const braceLeft = document.getElementById('sym-brace-left');
                         const braceRight = document.getElementById('sym-brace-right');
                         const semiLeft = document.getElementById('sym-semi-left');
                         const semiRight = document.getElementById('sym-semi-right');
                         const centerGroup = document.getElementById('sym-center-group');
 
-                        // We DO NOT update the hero Title text, only the glow and the symbols.
+                        // Editorial toggle: keep ids, swap glyphs + theme class only (no neon).
                         const updateHeroTheme = () => {
-                            if (codingToggle.checked) {
-                                if (glowBg) glowBg.style.background = 'radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.15) 0%, rgba(14, 165, 233, 0.1) 30%, transparent 60%)';
-
-                                // Transform colors back to coding
-                                if (braceLeft) { braceLeft.innerText = '{'; braceLeft.classList.remove('glow-color-maths-brace'); }
-                                if (braceRight) { braceRight.innerText = '}'; braceRight.classList.remove('glow-color-maths-brace'); }
-
-                                if (semiLeft) { semiLeft.innerText = ';'; semiLeft.classList.remove('glow-color-maths-semi'); }
-                                if (semiRight) { semiRight.innerText = ';'; semiRight.classList.remove('glow-color-maths-semi'); }
-
-                                if (centerGroup) centerGroup.innerHTML = `<span class="sym-char sym-math-e" style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #f59e0b, #fb923c); font-size: 110px;">&lt;</span><span class="sym-char sym-math-x" style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #fb923c, #f59e0b); font-size: 110px; margin-top: 0px;">/</span><span class="sym-char sym-math-e" style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #f59e0b, #fb923c); font-size: 110px;">&gt;</span>`;
-
+                            const isMaths = mathsToggle && mathsToggle.checked;
+                            if (box) box.classList.toggle('is-maths', !!isMaths);
+                            if (isMaths) {
+                                if (braceLeft) braceLeft.textContent = '[';
+                                if (braceRight) braceRight.textContent = ']';
+                                if (semiLeft) semiLeft.innerHTML = '&nbsp;';
+                                if (semiRight) semiRight.innerHTML = '&nbsp;';
+                                if (centerGroup) centerGroup.innerHTML = '&sum;';
                             } else {
-                                if (glowBg) glowBg.style.background = 'radial-gradient(circle at 50% 50%, rgba(245, 158, 11, 0.15) 0%, rgba(219, 39, 119, 0.1) 30%, transparent 60%)';
-
-                                // Transform colors to maths theme
-                                if (braceLeft) { braceLeft.innerText = '['; braceLeft.classList.add('glow-color-maths-brace'); }
-                                if (braceRight) { braceRight.innerText = ']'; braceRight.classList.add('glow-color-maths-brace'); }
-
-                                if (semiLeft) { semiLeft.innerText = '\u00A0'; semiLeft.classList.add('glow-color-maths-semi'); }
-                                if (semiRight) { semiRight.innerText = '\u00A0'; semiRight.classList.add('glow-color-maths-semi'); }
-
-                                if (centerGroup) centerGroup.innerHTML = `<span class="sym-char sym-math-e" style="font-style: normal; font-family: 'Georgia', 'Times New Roman', serif; font-weight: 700; background-image: linear-gradient(90deg, #0ea5e9, #2dd4bf); font-size: 110px;">&sum;</span><span class="sym-char sym-math-x" style="font-style: normal; font-family: 'Georgia', 'Times New Roman', serif; font-weight: 700; background-image: linear-gradient(90deg, #2dd4bf, #0ea5e9); font-size: 80px; margin-top: 15px; margin-left:15px;">&infin;</span>`;
+                                if (braceLeft) braceLeft.textContent = '{';
+                                if (braceRight) braceRight.textContent = '}';
+                                if (semiLeft) semiLeft.textContent = ';';
+                                if (semiRight) semiRight.textContent = ';';
+                                if (centerGroup) centerGroup.innerHTML = '&lt;/&gt;';
                             }
                         };
 
-                        codingToggle.addEventListener('change', updateHeroTheme);
-                        mathsToggle.addEventListener('change', updateHeroTheme);
-
-                        // Initial setup
+                        if (codingToggle) codingToggle.addEventListener('change', updateHeroTheme);
+                        if (mathsToggle) mathsToggle.addEventListener('change', updateHeroTheme);
                         updateHeroTheme();
                     });
                 </script>
@@ -1581,20 +1577,18 @@
 
                 <!-- Custom Pricing Content -->
                 <div class="tab-content" id="pricing-custom">
-                    <div style="text-align: center; margin-bottom: 2rem;">
-                        <p style="color: #CBD5E1; font-size: 1.125rem; max-width: 800px; margin: 0 auto;">
-                            Need something specific? We create customized training programs tailored to your goals,
-                            whether it's learning a specific language, mastering a particular skill, or achieving a
-                            unique objective.
-                        </p>
-                    </div>
+                    <p class="custom-intro">
+                        Need something specific? We create customized training programs tailored to your goals,
+                        whether it's learning a specific language, mastering a particular skill, or achieving a
+                        unique objective.
+                    </p>
 
                     <div class="pricing-grid">
                         <!-- Custom Group Plan Card -->
                         <div class="pricing-card">
                             <h3 class="plan-title">Custom Group Training</h3>
                             <div class="plan-price">
-                                <span style="font-size: 1.5rem; color: #a855f7;">Custom Pricing</span>
+                                <span class="custom-price">Custom Pricing</span>
                             </div>
                             <ul class="plan-features">
                                 <li>Choose Your Programming Language</li>
@@ -1615,7 +1609,7 @@
                             <div class="popular-badge">FULLY CUSTOMIZED</div>
                             <h3 class="plan-title">Custom 1-on-1 Training</h3>
                             <div class="plan-price">
-                                <span style="font-size: 1.5rem; color: #a855f7;">Custom Pricing</span>
+                                <span class="custom-price">Custom Pricing</span>
                             </div>
                             <ul class="plan-features">
                                 <li><strong>100% Personalized Curriculum</strong></li>
@@ -1634,23 +1628,20 @@
                         </div>
                     </div>
 
-                    <div
-                        style="text-align: center; margin-top: 2.5rem; padding: 2rem; background: rgba(139, 92, 246, 0.15); border-radius: 1rem; border: 1px solid rgba(168, 85, 247, 0.3);">
-                        <h3 style="color: #a855f7; font-size: 1.5rem; margin-bottom: 1rem;">How Custom Training Works
-                        </h3>
-                        <div
-                            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; text-align: left;">
+                    <div class="custom-how">
+                        <h3>How Custom Training Works</h3>
+                        <div class="custom-how-grid">
                             <div>
-                                <h4 style="color: #fff; margin-bottom: 0.5rem;">1. Tell Us Your Goals</h4>
-                                <p style="color: #CBD5E1; margin: 0;">Share what you want to learn and achieve</p>
+                                <h4>1. Tell Us Your Goals</h4>
+                                <p>Share what you want to learn and achieve</p>
                             </div>
                             <div>
-                                <h4 style="color: #fff; margin-bottom: 0.5rem;">2. We Design Your Plan</h4>
-                                <p style="color: #CBD5E1; margin: 0;">Our team creates a customized curriculum</p>
+                                <h4>2. We Design Your Plan</h4>
+                                <p>Our team creates a customized curriculum</p>
                             </div>
                             <div>
-                                <h4 style="color: #fff; margin-bottom: 0.5rem;">3. Start Learning</h4>
-                                <p style="color: #CBD5E1; margin: 0;">Begin your personalized learning journey</p>
+                                <h4>3. Start Learning</h4>
+                                <p>Begin your personalized learning journey</p>
                             </div>
                         </div>
                     </div>
@@ -3313,122 +3304,46 @@
 
     </main>
 
-    <!-- ====== POPULAR COURSES SECTION - Professional Chip Style ====== -->
-    <section class="section popular-courses-chips"
-        style="padding: 3rem 1.5rem; background: linear-gradient(180deg, rgba(15, 23, 42, 0.95) 0%, rgba(20, 15, 35, 0.98) 100%); position: relative; overflow: hidden;">
-        <!-- Subtle Background Glow -->
-        <div
-            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 600px; height: 600px; background: radial-gradient(circle, rgba(168, 85, 247, 0.08) 0%, transparent 70%); pointer-events: none;">
+    <!-- ====== POPULAR COURSES — chip style ====== -->
+    <section class="section popular-courses-chips">
+        <h2 class="section-title">Popular Courses</h2>
+        <p class="section-subtitle">Explore our top-rated programs &middot; opens in a new tab.</p>
+        <div class="chips-wrap">
+            <a class="course-chip" href="/courses/python-programming-masterclass-zero-to-advanced-college" target="_blank" rel="noopener">Python Masterclass</a>
+            <a class="course-chip" href="/courses/python-ai-automation-masterclass-college" target="_blank" rel="noopener">AI Automation</a>
+            <a class="course-chip" href="/courses/ai-ml-masterclass-teens" target="_blank" rel="noopener">AI/ML for Teens</a>
+            <a class="course-chip" href="/courses/ai-ml-masterclass-complete-college" target="_blank" rel="noopener">AI/ML College</a>
+            <a class="course-chip" href="/courses/ai-tools-mastery-complete-college" target="_blank" rel="noopener">AI Tools Mastery</a>
+            <a class="course-chip" href="/courses/full-stack-web-development-masterclass-college" target="_blank" rel="noopener">Full Stack Web</a>
+            <a class="course-chip" href="/courses/mern-stack-development-masterclass-college" target="_blank" rel="noopener">MERN Stack</a>
+            <a class="course-chip" href="/courses/mern-stack-development-masterclass-college" target="_blank" rel="noopener">MERN College</a>
+            <a class="course-chip" href="/courses/complete-app-development-masterclass" target="_blank" rel="noopener">App Development</a>
+            <a class="course-chip" href="/courses/backend-coding-masterclass-for-teens" target="_blank" rel="noopener">Backend Teens</a>
+            <a class="course-chip chip-pink" href="/coding-classes-for-girls">&#10024; Coding for Girls</a>
+            <a class="course-chip" href="/courses/kids-coding-blocks-masterclass" target="_blank" rel="noopener">Kids Coding Blocks</a>
+            <a class="course-chip" href="/courses/kids-ai-mastery-course" target="_blank" rel="noopener">Kids AI Mastery</a>
+            <a class="course-chip" href="/courses/kids-ai-web-development-course" target="_blank" rel="noopener">Kids AI &amp; Web</a>
+            <a class="course-chip" href="/courses/complete-game-development-masterclass-for-teens" target="_blank" rel="noopener">Game Dev Teens</a>
+            <a class="course-chip" href="/courses/competitive-programming-masterclass-college" target="_blank" rel="noopener">Competitive Programming</a>
+            <a class="course-chip" href="/courses/data-analysis-mastery-course-college" target="_blank" rel="noopener">Data Analysis</a>
+            <a class="course-chip" href="/courses/mysql-database-complete-masterclass-college" target="_blank" rel="noopener">MySQL Database</a>
+            <a class="course-chip" href="/courses/algorithmic-trading-masterclass-complete" target="_blank" rel="noopener">Algo Trading</a>
         </div>
-
-        <div class="container" style="max-width: 1100px; margin: 0 auto; position: relative; z-index: 1;">
-            <h2
-                style="text-align: center; font-size: 1.4rem; font-weight: 600; color: #f1f5f9; margin-bottom: 0.75rem; letter-spacing: -0.01em;">
-                Popular Courses
-            </h2>
-            <p style="text-align: center; color: rgba(148, 163, 184, 0.8); font-size: 0.85rem; margin-bottom: 1.75rem;">
-                Explore our top-rated programs • Opens in new tab
-            </p>
-
-            <!-- Chips Container -->
-            <div
-                style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; max-width: 1000px; margin: 0 auto;">
-
-                <!-- Python & AI Courses -->
-                <a href="/courses/python-programming-masterclass-zero-to-advanced-college" target="_blank"
-                    rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(168, 85, 247, 0.12); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Python
-                    Masterclass</a>
-                <a href="/courses/python-ai-automation-masterclass-college" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(168, 85, 247, 0.12); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">AI
-                    Automation</a>
-                <a href="/courses/ai-ml-masterclass-teens" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(168, 85, 247, 0.12); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">AI/ML
-                    for Teens</a>
-                <a href="/courses/ai-ml-masterclass-complete-college" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(168, 85, 247, 0.12); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">AI/ML
-                    College</a>
-                <a href="/courses/ai-tools-mastery-complete-college" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(168, 85, 247, 0.12); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">AI
-                    Tools Mastery</a>
-
-                <!-- Web & App Development -->
-                <a href="/courses/full-stack-web-development-masterclass-college" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(78, 205, 196, 0.12); border: 1px solid rgba(78, 205, 196, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Full
-                    Stack Web</a>
-                <a href="/courses/mern-stack-development-masterclass-college" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(78, 205, 196, 0.12); border: 1px solid rgba(78, 205, 196, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">MERN
-                    Stack</a>
-                <a href="/courses/mern-stack-development-masterclass-college" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(78, 205, 196, 0.12); border: 1px solid rgba(78, 205, 196, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">MERN
-                    College</a>
-                <a href="/courses/complete-app-development-masterclass" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(78, 205, 196, 0.12); border: 1px solid rgba(78, 205, 196, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">App
-                    Development</a>
-                <a href="/courses/backend-coding-masterclass-for-teens" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(78, 205, 196, 0.12); border: 1px solid rgba(78, 205, 196, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Backend
-                    Teens</a>
-
-                <!-- Girls Coding -->
-                <a href="/coding-classes-for-girls"
-                    style="padding: 0.55rem 1.1rem; background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.5); border-radius: 50px; color: #f9a8d4; text-decoration: none; font-size: 0.8rem; font-weight: 600; transition: all 0.25s ease;">✨ Coding for Girls</a>
-
-                <!-- Kids Courses -->
-                <a href="/courses/kids-coding-blocks-masterclass" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(236, 72, 153, 0.12); border: 1px solid rgba(236, 72, 153, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Kids
-                    Coding Blocks</a>
-                <a href="/courses/kids-ai-mastery-course" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(236, 72, 153, 0.12); border: 1px solid rgba(236, 72, 153, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Kids
-                    AI Mastery</a>
-                <a href="/courses/kids-ai-web-development-course" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(236, 72, 153, 0.12); border: 1px solid rgba(236, 72, 153, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Kids
-                    AI & Web</a>
-
-                <!-- Game Dev, Data & More -->
-                <a href="/courses/complete-game-development-masterclass-for-teens" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Game
-                    Dev Teens</a>
-                <a href="/courses/competitive-programming-masterclass-college" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Competitive
-                    Programming</a>
-                <a href="/courses/data-analysis-mastery-course-college" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Data
-                    Analysis</a>
-                <a href="/courses/mysql-database-complete-masterclass-college" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">MySQL
-                    Database</a>
-                <a href="/courses/algorithmic-trading-masterclass-complete" target="_blank" rel="noopener"
-                    style="padding: 0.55rem 1.1rem; background: rgba(245, 158, 11, 0.12); border: 1px solid rgba(245, 158, 11, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Algo
-                    Trading</a>
-            </div>
-
-            <!-- View All Button -->
-            <div style="text-align: center; margin-top: 1.5rem;">
-                <a href="/courses" target="_blank" rel="noopener"
-                    style="display: inline-block; padding: 0.6rem 1.5rem; background: transparent; border: 1px solid rgba(168, 85, 247, 0.4); border-radius: 50px; color: rgba(226, 232, 240, 0.9); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: all 0.25s ease;">View
-                    All Courses →</a>
-            </div>
+        <div class="chips-viewall view-more-container">
+            <a class="view-more-button" href="/courses" target="_blank" rel="noopener">View All Courses &rarr;</a>
         </div>
     </section>
 
-    <section class="section map-section"
-        style="padding: 4rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-        <div class="container" style="max-width: 1200px; margin: 0 auto;">
-            <h2 class="section-title" style="color: white; text-align: center; margin-bottom: 1rem;">Find Us</h2>
-            <p style="text-align: center; color: rgba(255, 255, 255, 0.9); margin-bottom: 0.5rem; font-size: 1.1rem;">
-                <strong>100% Live Online Classes</strong> - Learn from anywhere in the world!
-            </p>
-            <p style="text-align: center; color: rgba(255, 255, 255, 0.85); margin-bottom: 2rem; font-size: 1rem;">
-                Main Office: Kolkata, India
-            </p>
-            <div class="map-container"
-                style="border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3); height: 450px;">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.1819647117145!2d88.36874367507889!3d22.6096791794654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ac9ecbf8214ce6f%3A0x72ff68cd4142fff7!2sThe%20Modern%20Age%20Coders!5e0!3m2!1sen!2sin!4v1762773799882!5m2!1sen!2sin"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade" title="Modern Age Coders Location">
-                </iframe>
-            </div>
+    <!-- ====== MAP ====== -->
+    <section class="section map-section">
+        <h2 class="section-title">Find Us</h2>
+        <p class="map-meta"><strong>100% Live Online Classes</strong> &mdash; learn from anywhere in the world.</p>
+        <p class="map-meta">Main Office: Kolkata, India</p>
+        <div class="map-wrap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.1819647117145!2d88.36874367507889!3d22.6096791794654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ac9ecbf8214ce6f%3A0x72ff68cd4142fff7!2sThe%20Modern%20Age%20Coders!5e0!3m2!1sen!2sin!4v1762773799882!5m2!1sen!2sin"
+                width="100%" height="430" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Modern Age Coders Location"></iframe>
         </div>
     </section>
 
@@ -4029,6 +3944,22 @@
                 }
             });
         });
+
+        // --- Carousel arrows: scroll testimonial + certificate tracks ---
+        (function () {
+            function wire(track, prev, next, ratio) {
+                if (!track) return;
+                var step = function () { return Math.max(240, track.clientWidth * ratio); };
+                if (prev) prev.addEventListener('click', function () { track.scrollBy({ left: -step(), behavior: 'smooth' }); });
+                if (next) next.addEventListener('click', function () { track.scrollBy({ left: step(), behavior: 'smooth' }); });
+            }
+            wire(document.querySelector('.testimonials-carousel'),
+                document.querySelector('.carousel-arrow-left'),
+                document.querySelector('.carousel-arrow-right'), 0.85);
+            wire(document.querySelector('.certificate-track'),
+                document.querySelector('.certificate-arrow-left'),
+                document.querySelector('.certificate-arrow-right'), 1);
+        })();
     </script>
 
     <!-- ====== LOGIN MODAL ====== -->
@@ -4172,42 +4103,42 @@
     <!-- DISCOVERY HUBS (internal-linking entry points) -->
     <!-- ============================================ -->
     <!-- BEGIN_DISCOVERY_HUBS -->
-    <section aria-label="Find your programme" style="background:linear-gradient(180deg,#000002,#0a0a14);border-top:1px solid rgba(168,85,247,.18);padding:64px 20px;font-family:'Inter',system-ui,-apple-system,sans-serif">
-      <div style="max-width:1180px;margin:0 auto">
-        <span style="display:inline-block;background:rgba(168,85,247,.12);border:1px solid rgba(168,85,247,.35);color:#c4b5fd;padding:7px 16px;border-radius:40px;font-size:11px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:16px">Find your programme</span>
-        <h2 style="color:#fff;font-size:clamp(1.5rem,3vw,2.1rem);font-weight:800;margin:0 0 8px;letter-spacing:-.4px">Coding &amp; Maths classes across India &mdash; and worldwide</h2>
-        <p style="color:#94a3b8;font-size:1rem;max-width:760px;margin:0 0 36px">Live, interactive classes in small batches of 4&ndash;8 students for kids, teens and adults. Pick your city, choose a language, or explore every course.</p>
-        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px">
+    <section class="discovery-hubs" aria-label="Find your programme">
+      <div class="discovery-inner">
+        <span class="eyebrow">Find your programme</span>
+        <h2>Coding &amp; Maths classes across India &mdash; and worldwide</h2>
+        <p class="lead">Live, interactive classes in small batches of 4&ndash;8 students for kids, teens and adults. Pick your city, choose a language, or explore every course.</p>
+        <div class="discovery-grid">
           <div>
-            <h3 style="color:#06b6d4;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;margin:0 0 14px">Coding classes by city</h3>
-            <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px">
-              <li><a href="/best-coding-class-in-mumbai" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Coding classes in Mumbai</a></li>
-              <li><a href="/best-coding-class-in-delhi" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Coding classes in Delhi</a></li>
-              <li><a href="/best-coding-class-in-bengaluru" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Coding classes in Bengaluru</a></li>
-              <li><a href="/best-coding-class-in-hyderabad" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Coding classes in Hyderabad</a></li>
-              <li><a href="/best-coding-class-in-kolkata" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Coding classes in Kolkata</a></li>
-              <li><a href="/best-coding-class-in-pune" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Coding classes in Pune</a></li>
-              <li><a href="/coding-classes-in-india" style="color:#a855f7;text-decoration:none;font-weight:700;font-size:.95rem">All cities in India &rarr;</a></li>
+            <h3>Coding classes by city</h3>
+            <ul>
+              <li><a href="/best-coding-class-in-mumbai">Coding classes in Mumbai</a></li>
+              <li><a href="/best-coding-class-in-delhi">Coding classes in Delhi</a></li>
+              <li><a href="/best-coding-class-in-bengaluru">Coding classes in Bengaluru</a></li>
+              <li><a href="/best-coding-class-in-hyderabad">Coding classes in Hyderabad</a></li>
+              <li><a href="/best-coding-class-in-kolkata">Coding classes in Kolkata</a></li>
+              <li><a href="/best-coding-class-in-pune">Coding classes in Pune</a></li>
+              <li><a class="strong" href="/coding-classes-in-india">All cities in India &rarr;</a></li>
             </ul>
           </div>
           <div>
-            <h3 style="color:#06b6d4;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;margin:0 0 14px">Learn by language &amp; topic</h3>
-            <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px">
-              <li><a href="/python-and-ai-classes-for-kids-teens" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Python &amp; AI for Kids &amp; Teens</a></li>
-              <li><a href="/best-java-classes-in-india" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Java classes in India</a></li>
-              <li><a href="/best-c-plus-plus-classes-in-india" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">C++ classes in India</a></li>
-              <li><a href="/best-ai-and-machine-learning-course-in-india" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">AI &amp; Machine Learning course</a></li>
-              <li><a href="/online-maths-tuition" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Online maths tuition</a></li>
+            <h3>Learn by language &amp; topic</h3>
+            <ul>
+              <li><a href="/python-and-ai-classes-for-kids-teens">Python &amp; AI for Kids &amp; Teens</a></li>
+              <li><a href="/best-java-classes-in-india">Java classes in India</a></li>
+              <li><a href="/best-c-plus-plus-classes-in-india">C++ classes in India</a></li>
+              <li><a href="/best-ai-and-machine-learning-course-in-india">AI &amp; Machine Learning course</a></li>
+              <li><a href="/online-maths-tuition">Online maths tuition</a></li>
             </ul>
           </div>
           <div>
-            <h3 style="color:#06b6d4;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;margin:0 0 14px">Explore everything</h3>
-            <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px">
-              <li><a href="/courses" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">All courses</a></li>
-              <li><a href="/course-atlas" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Course Atlas (full catalog)</a></li>
-              <li><a href="/best-coding-classes-online" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Best coding classes online</a></li>
-              <li><a href="/pricing" style="color:#e2e8f0;text-decoration:none;font-size:.95rem">Pricing &amp; plans</a></li>
-              <li><a href="/book-demo" style="color:#a855f7;text-decoration:none;font-weight:700;font-size:.95rem">Book a free demo &rarr;</a></li>
+            <h3>Explore everything</h3>
+            <ul>
+              <li><a href="/courses">All courses</a></li>
+              <li><a href="/course-atlas">Course Atlas (full catalog)</a></li>
+              <li><a href="/best-coding-classes-online">Best coding classes online</a></li>
+              <li><a href="/pricing">Pricing &amp; plans</a></li>
+              <li><a class="strong" href="/book-demo">Book a free demo &rarr;</a></li>
             </ul>
           </div>
         </div>
@@ -4331,10 +4262,10 @@
     aria-label="Chat with Misti AI"
     style="position: fixed !important; bottom: 92px !important; right: 24px !important; z-index: 2147483646 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
     <span class="misti-label"
-        style="background: linear-gradient(135deg, #a855f7, #8b5cf6); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Ask
+        style="background: #1C1814; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(180, 83, 9, 0.32); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Ask
         Misti AI</span>
     <div class="misti-icon"
-        style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: linear-gradient(135deg, #a855f7, #8b5cf6); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
+        style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: #1C1814; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(180, 83, 9, 0.32); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round" style="min-width: 26px; min-height: 26px;">
             <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
@@ -4365,11 +4296,11 @@
     /* Misti AI Button Hover */
     .misti-chat-btn:hover .misti-icon {
         transform: scale(1.08);
-        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+        box-shadow: 0 6px 20px rgba(180, 83, 9, 0.4);
     }
 
     .misti-chat-btn:hover .misti-label {
-        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+        box-shadow: 0 6px 20px rgba(180, 83, 9, 0.4);
     }
 
     /* WhatsApp Button Hover */
