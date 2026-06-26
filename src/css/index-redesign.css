@@ -428,7 +428,17 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
 .contact-form{display:flex;flex-direction:column;gap:1rem}
 .contact-form .form-group{margin:0}
 .contact-form .submit-button{width:100%;margin-top:.3rem}
-.error-message{color:var(--red);font-size:.8rem;margin-top:.35rem;min-height:1rem;display:block}
+/* Contact-form field errors: a tidy red line when shown, hidden when empty.
+   corporate-training-form.js injects a GLOBAL `.error-message` box style
+   (pink gradient + 2rem padding) for its own form; these scoped rules
+   (higher specificity, no !important needed) stop it rendering empty pink
+   boxes under the contact fields. */
+.contact-form .error-message{
+  display:block;background:none;border:none;border-radius:0;
+  padding:0;margin:.4rem 0 0;min-height:0;animation:none;
+  color:var(--red);font-size:.82rem;line-height:1.4;
+}
+.contact-form .error-message:empty{display:none}
 .input-field.invalid,input.invalid{border-color:var(--red);box-shadow:0 0 0 3px rgba(176,71,60,.12)}
 .button-loader .spinner{width:22px;height:22px;animation:spin 1s linear infinite}
 .button-loader .spinner .path{stroke:#fff;stroke-linecap:round;stroke-dasharray:90,150;stroke-dashoffset:0;animation:dash 1.4s ease-in-out infinite}
