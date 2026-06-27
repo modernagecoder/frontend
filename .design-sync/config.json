@@ -1,0 +1,17 @@
+{
+  "projectId": "e95285c5-ec48-4a7c-81e2-74f579fdc57d",
+  "shape": "package",
+  "pkg": "@modernagecoders/ledger-proof",
+  "globalName": "LedgerProof",
+  "entry": "./design-system/dist/index.js",
+  "buildCmd": "npm --prefix ./design-system run build",
+  "cssEntry": "src/styles/ledger-proof.css",
+  "readmeHeader": ".design-sync/conventions.md",
+  "runtimeFontPrefixes": ["Fraunces", "Inter", "JetBrains Mono"],
+  "overrides": {
+    "Navbar": { "cardMode": "column" },
+    "Hero": { "cardMode": "column" },
+    "Footer": { "cardMode": "column" },
+    "Tabs": { "cardMode": "column" }
+  }
+}
