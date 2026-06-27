@@ -2064,6 +2064,11 @@
   to = "/src/pages/best-coding-class-in-mangalore.html"
   status = 200
 [[redirects]]
+  from = "/best-coding-class-in-mangalore.html"
+  to = "/best-coding-class-in-mangalore"
+  status = 301
+  force = true
+[[redirects]]
   from = "/best-coding-class-in-thiruvananthapuram"
   to = "/src/pages/best-coding-class-in-thiruvananthapuram.html"
   status = 200
