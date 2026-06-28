@@ -252,6 +252,26 @@
   status = 200
 
 [[redirects]]
+  from = "/vibe-coding-classes"
+  to = "/src/pages/vibe-coding-classes.html"
+  status = 200
+
+[[redirects]]
+  from = "/vibe-coding-classes.md"
+  to = "/src/pages/vibe-coding-classes.md"
+  status = 200
+
+[[redirects]]
+  from = "/modern-age-coders-vs-whitehat-jr-cuemath-codingal"
+  to = "/src/pages/modern-age-coders-vs-whitehat-jr-cuemath-codingal.html"
+  status = 200
+
+[[redirects]]
+  from = "/modern-age-coders-vs-whitehat-jr-cuemath-codingal.md"
+  to = "/src/pages/modern-age-coders-vs-whitehat-jr-cuemath-codingal.md"
+  status = 200
+
+[[redirects]]
   from = "/learn-coding-from-first-principles"
   to = "/src/pages/learn-coding-from-first-principles.html"
   status = 200

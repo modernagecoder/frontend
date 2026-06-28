@@ -200,7 +200,6 @@ def jsonld(c):
           "email": "contact@modernagecoders.com",
           "areaServed": {{ "@type": "Country", "name": "India" }},
           "priceRange": "\\u20b9\\u20b9",
-          "aggregateRating": {{ "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "547", "bestRating": "5" }},
           "sameAs": [
             "https://www.facebook.com/modernagecoders",
             "https://www.instagram.com/modern_age_coders",

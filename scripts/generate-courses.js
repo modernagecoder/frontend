@@ -684,14 +684,11 @@ class CourseGenerator {
             courseSchema.coursePrerequisites = "None — beginner-friendly with optional advanced track";
         }
 
-        // Add aggregated rating if available
-        courseSchema.aggregateRating = {
-            "@type": "AggregateRating",
-            "ratingValue": 4.9,
-            "reviewCount": 547,
-            "bestRating": "5",
-            "worstRating": "1"
-        };
+        // NOTE: aggregateRating intentionally omitted. A bare, identical
+        // 4.9/547 rating cloned onto every course (no per-course review
+        // provenance, not user-sourced) is a Google structured-data policy
+        // risk and is ineligible for review rich results. Re-add ONLY when
+        // backed by a real, per-course review source (e.g. GBP/Trustpilot).
 
         schemas.push(courseSchema);
 
@@ -764,6 +761,35 @@ class CourseGenerator {
             "dateModified": new Date().toISOString()
         };
         schemas.push(articleSchema);
+
+        // Organization + real Google reviews (these 4 are shown in the visible
+        // "What Families Say" section of every course page, so the markup matches
+        // on-page content). sameAs links the real Google Business Profile so Google
+        // and AI engines can cross-reference the genuine 4.9-star reviews.
+        // NOTE: no aggregateRating — self-serving aggregate ratings are intentionally
+        // omitted site-wide; Google pulls the real rating from the Business Profile.
+        const reviewsOrgSchema = {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "@id": "https://learn.modernagecoders.com/#organization",
+            "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com/",
+            "logo": "https://learn.modernagecoders.com/images/logo.webp",
+            "sameAs": [
+                "https://g.page/r/Cff_QkHNaP9yEAE/review",
+                "https://www.facebook.com/profile.php?id=100088860364349",
+                "https://instagram.com/modern_age_coders",
+                "https://www.youtube.com/@modernagecoders",
+                "https://www.linkedin.com/in/shivam-khemka-948a2a277"
+            ],
+            "review": [
+                { "@type": "Review", "author": { "@type": "Person", "name": "Shradha Saraf" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding — truly amazing class." },
+                { "@type": "Review", "author": { "@type": "Person", "name": "Shewta Singh" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "My son struggled with maths for years. Integrating it into coding projects has transformed how he thinks — he now genuinely enjoys both." },
+                { "@type": "Review", "author": { "@type": "Person", "name": "Sonu Goyal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has wonderful teachers who teach in a clear, easy and practical way. My son looks forward to every single class." },
+                { "@type": "Review", "author": { "@type": "Person", "name": "Samridho Mondal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts before — now they finally click, and I actually look forward to learning." }
+            ]
+        };
+        schemas.push(reviewsOrgSchema);
 
         return schemas;
     }
