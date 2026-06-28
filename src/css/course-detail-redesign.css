@@ -12,7 +12,7 @@ body.editorial .section{opacity:1 !important;transform:none !important}
 
 /* shared section frame */
 .course-hero,.enrollment-cta-section,.program-overview-section,.course-tabs-section,
-.cd-duration,.cd-testimonials,.faq-section,.related-courses-section,.related-blogs-section,
+.cd-duration,.cd-testimonials,.cd-videos,.faq-section,.related-courses-section,.related-blogs-section,
 .cd-final-cta,.success-metrics-section,.why-this-course-section{
   width:100%;max-width:var(--container);margin-inline:auto;padding-inline:1.5rem;position:relative;
 }
@@ -221,6 +221,32 @@ body.editorial .show-more-btn{background:none;border:none;color:var(--amber);fon
 .cd-tm-role{font-family:var(--font-mono);font-size:.74rem;color:var(--muted)}
 body.editorial .cd-tm-google{display:inline-flex;align-items:center;gap:.5rem;margin-top:1.8rem;color:var(--ink);font-weight:600;font-size:.9rem;text-decoration:none;border-bottom:1px solid var(--amber);padding-bottom:2px}
 body.editorial .cd-tm-google:hover{color:var(--amber)}
+
+/* ---- Feedback videos (Wall of Love) — added 2026-06-29 ---- */
+.cd-videos{padding-top:clamp(2rem,4vw,3rem);padding-bottom:clamp(2.5rem,5vw,4rem);text-align:center}
+.cd-videos h2{font-size:clamp(1.8rem,3.6vw,2.6rem);margin:0 0 .4rem}
+.cd-videos .cd-vid-sub{color:var(--muted);margin:.9rem auto 0;max-width:580px;line-height:1.7}
+.cd-vid-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:1.2rem;margin-top:2.2rem;text-align:left}
+.cd-vid{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow-sm);transition:transform .18s ease,box-shadow .18s ease}
+.cd-vid:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.cd-vid-frame{position:relative;aspect-ratio:16/9;background:#100c08;overflow:hidden}
+.cd-vid-play{position:absolute;inset:0;width:100%;height:100%;padding:0;border:0;cursor:pointer;background:#100c08;display:block}
+body.editorial .cd-vid-play img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.9;transition:opacity .2s ease,transform .35s ease}
+.cd-vid:hover .cd-vid-play img{opacity:1;transform:scale(1.05)}
+.cd-vid-pin{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:54px;height:54px;border-radius:50%;background:var(--amber);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px rgba(0,0,0,.4);transition:transform .2s ease}
+.cd-vid:hover .cd-vid-pin{transform:translate(-50%,-50%) scale(1.08)}
+.cd-vid-pin svg{width:22px;height:22px;margin-left:3px}
+.cd-vid-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.cd-vid-meta{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.85rem 1rem}
+.cd-vid-title{font-family:var(--font-display);font-weight:600;font-size:.98rem;color:var(--ink)}
+.cd-vid-dur{font-family:var(--font-mono);font-size:.72rem;color:var(--muted);flex-shrink:0}
+.cd-vid-actions{display:flex;flex-wrap:wrap;gap:.8rem;justify-content:center;margin-top:2.3rem}
+body.editorial .cd-vid-btn-primary{display:inline-flex;align-items:center;gap:.5rem;background:var(--amber);color:#fff;border:1px solid var(--amber);border-radius:40px;padding:.8rem 1.5rem;font-weight:600;font-size:.95rem;text-decoration:none;transition:background .18s ease,transform .18s ease}
+body.editorial .cd-vid-btn-primary:hover{background:var(--amber-deep);transform:translateY(-2px)}
+body.editorial .cd-vid-btn-ghost{display:inline-flex;align-items:center;gap:.5rem;background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:40px;padding:.8rem 1.5rem;font-weight:600;font-size:.95rem;text-decoration:none;transition:border-color .18s ease,color .18s ease}
+body.editorial .cd-vid-btn-ghost:hover{border-color:var(--amber);color:var(--amber)}
+@media (max-width:560px){.cd-vid-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:400px){.cd-vid-grid{grid-template-columns:1fr}}
 
 /* =====================  FAQ  ===================== */
 .faq-section{max-width:820px;padding-top:clamp(2rem,4vw,3rem);padding-bottom:clamp(2rem,4vw,3rem)}
