@@ -18,6 +18,7 @@ Real projects built by Modern Age Coders students — games, AI chatbots, weathe
 - **Baby — Typing Speed Challenge** — typing test with a MongoDB-backed leaderboard (JavaScript, Node.js, MongoDB). By Kritika. https://baby.modernagecoders.com
 - **Simon Game** — memory-based colour & sound sequence game (HTML, CSS, JavaScript). By Yashaswi. http://yashaswi-2017.my.canva.site
 - **Palm Arcana (SuperPawer)** — webcam hand-tracking game where palm gestures summon fire & lightning; computer vision + creative coding. Vibe-coded. Vibe Coding, Computer Vision, JavaScript, Canvas. By Aarush. https://superpawer.netlify.app
+- **Doodle Dash — 30-Second Drawing Challenge** — get a prompt, draw it in 30 seconds, then an AI judge grades you; easy/medium/hard modes. Vibe-coded. Vibe Coding, AI Judge, Canvas, Lovable. By Shubh. https://doodledashmaster.lovable.app
 
 ### AI & ML
 - **Misti — AI Chatbot for Maths & Coding** — AI chatbot giving step-by-step maths/coding help (Python, AI/ML, LLM APIs). By Harshit. https://misti.modernagecoders.com
@@ -31,6 +32,7 @@ Real projects built by Modern Age Coders students — games, AI chatbots, weathe
 - **MyDay — Social Productivity Organizer** — tasks, goals and a community feed (JavaScript, Node.js, MongoDB, Python). By Vedant. https://myday.modernagecoders.com
 - **FreshTrack — Food Expiry Tracker** — tracks expiry online & offline (JavaScript, MongoDB, Local Storage). By Tanish. https://freshtrackpro.netlify.app/
 - **Pracy — Coding Practice & Quiz Platform** — challenges, quizzes & score tracking (JavaScript, Node.js, MongoDB). By Rohan. https://astounding-flan-f18e08.netlify.app/
+- **LumenFX — AR/VR Photo Effects Studio** — upload a photo and transform it with cinematic filters, AR face effects & 240+ trending presets. Vibe-coded. Vibe Coding, AR/VR, WebGL, Lovable. By Raayan. https://arvrbadestweb.lovable.app
 
 ### Tools
 - **Word Counter Website** — counts words, sentences & paragraphs in real time (HTML, CSS, JavaScript). By Vansh. https://vanshagarwalwordcounter-sys.github.io/WordCounter/
