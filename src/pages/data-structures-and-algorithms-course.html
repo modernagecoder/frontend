@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+        gtag('config', 'AW-16910316353');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DSA Course — Build Your Logic with Data Structures &amp; Algorithms | Modern Age Coders</title>
+    <meta name="title" content="DSA Course — Build Your Logic with Data Structures & Algorithms | Modern Age Coders">
+    <meta name="description"
+        content="A live, in-depth Data Structures & Algorithms (DSA) course for college students and Class 11–12. Build real problem-solving logic from first principles — arrays to dynamic programming and graphs. New batch starts Sunday 12 July, every Sunday 4:30 PM, ₹1499/month, runs until you master DSA. Prerequisite: basic coding in any language.">
+    <meta name="keywords"
+        content="DSA course, data structures and algorithms course, best DSA course, DSA course for placements, learn DSA, DSA classes online, DSA for college students, DSA for class 11 12, competitive programming course, coding interview preparation, Modern Age Coders">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <link rel="canonical" href="https://learn.modernagecoders.com/data-structures-and-algorithms-course">
+    <link rel="alternate" type="text/markdown" href="/data-structures-and-algorithms-course.md" title="Markdown version for AI agents">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/data-structures-and-algorithms-course" />
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/data-structures-and-algorithms-course" />
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/data-structures-and-algorithms-course" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/data-structures-and-algorithms-course">
+    <meta property="og:title" content="DSA Course — Build Your Logic with Data Structures & Algorithms">
+    <meta property="og:description" content="Live, in-depth DSA for college & Class 11–12. From arrays to dynamic programming & graphs. New batch starts Sun 12 July · Sundays 4:30 PM · ₹1499/month.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:locale" content="en_IN">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://learn.modernagecoders.com/data-structures-and-algorithms-course">
+    <meta property="twitter:title" content="DSA Course — Build Your Logic with Data Structures & Algorithms">
+    <meta property="twitter:description" content="Live, in-depth DSA. New batch starts Sun 12 July · Sundays 4:30 PM · ₹1499/month · runs until you master DSA.">
+    <meta property="twitter:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+
+    <!-- Meta Pixel -->
+    <script src="/js/meta-pixel.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Caveat:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Course",
+          "@id": "https://learn.modernagecoders.com/data-structures-and-algorithms-course#course",
+          "name": "Data Structures & Algorithms (DSA) Course",
+          "description": "A live, in-depth Data Structures and Algorithms course that builds problem-solving logic from first principles — complexity analysis, arrays, strings, searching and sorting, hashing, stacks, queues, linked lists, trees, heaps, tries, graphs, recursion and backtracking, greedy, and dynamic programming. Designed for college students and Class 11–12 learners who know basic coding in any language. The course runs continuously until the entire DSA syllabus is mastered.",
+          "url": "https://learn.modernagecoders.com/data-structures-and-algorithms-course",
+          "inLanguage": "en",
+          "coursePrerequisites": "Basic core coding in any one language (C, C++, Java or Python) and clear, strong fundamentals.",
+          "educationalLevel": "College students and Class 11–12 (high school)",
+          "teaches": ["Time and space complexity (Big-O)", "Arrays and strings", "Searching and sorting", "Hashing", "Stacks and queues", "Linked lists", "Trees and binary search trees", "Heaps and priority queues", "Tries", "Graphs", "Recursion and backtracking", "Greedy algorithms", "Dynamic programming"],
+          "provider": { "@id": "https://learn.modernagecoders.com/#org" },
+          "offers": {
+            "@type": "Offer",
+            "category": "Paid",
+            "price": "1499",
+            "priceCurrency": "INR",
+            "url": "https://learn.modernagecoders.com/data-structures-and-algorithms-course",
+            "availability": "https://schema.org/InStock",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "1499",
+              "priceCurrency": "INR",
+              "unitText": "MONTH",
+              "billingDuration": "P1M"
+            }
+          },
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "Online",
+            "courseWorkload": "P1W",
+            "startDate": "2026-07-12",
+            "courseSchedule": {
+              "@type": "Schedule",
+              "repeatFrequency": "P1W",
+              "byDay": "https://schema.org/Sunday",
+              "startDate": "2026-07-12",
+              "startTime": "16:30",
+              "scheduleTimezone": "Asia/Kolkata"
+            },
+            "instructor": { "@type": "Person", "name": "Modern Age Coders Faculty" }
+          }
+        },
+        {
+          "@type": "EducationalOrganization",
+          "@id": "https://learn.modernagecoders.com/#org",
+          "name": "Modern Age Coders",
+          "url": "https://learn.modernagecoders.com/",
+          "logo": "https://learn.modernagecoders.com/images/og-modern-age-coders.png",
+          "description": "Live, online coding and mathematics classes for ages 6 to 65 — taught in depth, from first principles.",
+          "telephone": "+91-9123366161",
+          "email": "contact@modernagecoders.com",
+          "sameAs": ["https://www.instagram.com/modern_age_coders", "https://www.youtube.com/@modernagecoders"]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Courses", "item": "https://learn.modernagecoders.com/courses" },
+            { "@type": "ListItem", "position": 3, "name": "DSA Course", "item": "https://learn.modernagecoders.com/data-structures-and-algorithms-course" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            { "@type": "Question", "name": "When does the DSA course start?", "acceptedAnswer": { "@type": "Answer", "text": "The new batch starts on Sunday, 12 July at 4:30 PM IST, and then runs live every Sunday at the same time. Register early to lock your seat, as batch sizes are kept small." } },
+            { "@type": "Question", "name": "What is the prerequisite for this DSA course?", "acceptedAnswer": { "@type": "Answer", "text": "You should know basic core coding in any one language — C, C++, Java or Python. You don't need to be an expert; if your logic is clear and your fundamentals (variables, loops, conditionals, functions, arrays) are strong, you're ready. DSA is language-agnostic, so any language works." } },
+            { "@type": "Question", "name": "Who is the DSA course best suited for?", "acceptedAnswer": { "@type": "Answer", "text": "It's ideal for college students and learners in Class 11 or 12 who already know basic coding and want to build serious problem-solving logic for placements, coding interviews and competitive programming. Motivated learners of any background with strong fundamentals can also join." } },
+            { "@type": "Question", "name": "When are the classes held and what does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "Live classes are held every Sunday at 4:30 PM IST, starting 12 July. The fee is ₹1499 per month. The course runs continuously, month after month, until you have completed and mastered the entire DSA syllabus." } },
+            { "@type": "Question", "name": "How long does the DSA course last?", "acceptedAnswer": { "@type": "Answer", "text": "There is no rushed end date. DSA is deep, so the course runs as a long-term, month-by-month journey until you finish the whole syllabus — from complexity analysis all the way to dynamic programming and graphs. We cover everything in depth and never skip the hard parts." } },
+            { "@type": "Question", "name": "Which programming language is used in the course?", "acceptedAnswer": { "@type": "Answer", "text": "DSA is taught with a language-agnostic, logic-first approach, so you can follow along in C++, Java, Python or C. The focus is on the thinking, patterns and data structures themselves, which transfer to any language." } },
+            { "@type": "Question", "name": "Will this DSA course help with placements and coding interviews?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Data structures and algorithms are the core of technical interviews at product companies and of competitive programming. By building logic from first principles and practising patterns like two pointers, sliding window, recursion, backtracking and dynamic programming, you become ready to solve unseen problems under pressure." } },
+            { "@type": "Question", "name": "How do I register for the DSA course?", "acceptedAnswer": { "@type": "Answer", "text": "Fill in the registration form on this page or message us on WhatsApp at +91 9123366161. You can also book a free demo class first to make sure it's the right fit before you enrol." } }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <script>document.documentElement.className += ' dsa-js';</script>
+
+    <style>
+        /* ============================================================
+           DSA Course — "The Logic Notebook"
+           Self-contained. Warm engineering-journal aesthetic, same brand
+           family as /coding-roadmap & /student-labs. Prefix: dsa-.
+           ============================================================ */
+        :root {
+            --paper: #FBF7EC;
+            --paper-card: #FFFDF6;
+            --ink: #232027;
+            --ink-2: #57525C;
+            --ink-3: #8A8490;
+            --rule: #E7DCC4;
+            --rule-2: #EFE6D2;
+            --pine: #167A5B;
+            --pine-deep: #0F5C44;
+            --pine-dim: rgba(22, 122, 91, .1);
+            --coral: #DB6A4E;
+            --amber: #BC7A1E;
+            --amber-dim: rgba(188, 122, 30, .12);
+            --maxw: 1120px;
+            --display: 'Bricolage Grotesque', system-ui, sans-serif;
+            --hand: 'Caveat', cursive;
+            --body: 'Inter', system-ui, sans-serif;
+            --mono: 'JetBrains Mono', ui-monospace, monospace;
+        }
+
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+        body {
+            margin: 0;
+            background-color: var(--paper);
+            background-image: linear-gradient(rgba(231, 220, 196, 0.42) 1px, transparent 1px);
+            background-size: 100% 2.1rem;
+            color: var(--ink);
+            font-family: var(--body);
+            font-size: 17px;
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            overflow-x: hidden;
+        }
+        a { color: inherit; }
+        img, svg { display: block; max-width: 100%; }
+
+        .dsa-wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
+        .dsa-skip { position: absolute; left: -999px; top: 0; z-index: 200; background: var(--ink); color: #fff; padding: 10px 16px; border-radius: 0 0 10px 0; font-weight: 700; text-decoration: none; }
+        .dsa-skip:focus { left: 0; }
+
+        h1, h2, h3, h4 { font-family: var(--display); font-weight: 700; line-height: 1.07; letter-spacing: -.015em; color: var(--ink); margin: 0; }
+        h2 { font-size: clamp(1.9rem, 4.4vw, 3rem); }
+        p { margin: 0 0 1rem; }
+        .dsa-eyebrow { font-family: var(--hand); font-size: 1.4rem; color: var(--coral); font-weight: 700; transform: rotate(-1.2deg); display: inline-block; }
+        .dsa-lead { font-size: 1.16rem; color: var(--ink-2); }
+
+        .dsa-section { padding: clamp(52px, 7vw, 94px) 0; position: relative; }
+        .dsa-head { max-width: 740px; margin: 0 auto clamp(30px, 4vw, 50px); text-align: center; }
+        .dsa-head p { color: var(--ink-2); font-size: 1.1rem; margin-top: 1rem; }
+        .dsa-underline { display: block; width: 180px; height: 13px; margin: .4rem auto 0; color: var(--coral); }
+        .dsa-underline path { stroke: currentColor; stroke-width: 4; fill: none; stroke-linecap: round; }
+
+        /* Big-O tag */
+        .dsa-bigo { font-family: var(--mono); font-size: .72rem; font-weight: 500; color: var(--pine-deep); background: var(--pine-dim); border: 1px solid rgba(22, 122, 91, .26); border-radius: 6px; padding: 2px 7px; white-space: nowrap; }
+
+        /* buttons (brand hard-shadow style) */
+        .dsa-btn { display: inline-flex; align-items: center; gap: .5rem; font-family: var(--body); font-weight: 600; font-size: 1rem; padding: .82rem 1.45rem; border-radius: 13px; border: 2px solid var(--ink); text-decoration: none; cursor: pointer; transition: transform .15s ease, box-shadow .15s ease, background .15s ease; }
+        .dsa-btn-primary { background: var(--pine); color: #fff; box-shadow: 4px 4px 0 var(--pine-deep); }
+        .dsa-btn-primary:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--pine-deep); }
+        .dsa-btn-primary:active { transform: translate(1px, 1px); box-shadow: 2px 2px 0 var(--pine-deep); }
+        .dsa-btn-dark { background: var(--ink); color: var(--paper-card); box-shadow: 4px 4px 0 rgba(35, 32, 39, .18); }
+        .dsa-btn-dark:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 rgba(35, 32, 39, .22); }
+        .dsa-btn-ghost { background: transparent; color: var(--ink); box-shadow: 4px 4px 0 rgba(35, 32, 39, .1); }
+        .dsa-btn-ghost:hover { background: #fff; transform: translate(-2px, -2px); }
+        :focus-visible { outline: 3px solid var(--pine); outline-offset: 3px; border-radius: 5px; }
+
+        /* nav */
+        .dsa-nav { position: sticky; top: 0; z-index: 100; background: rgba(251, 247, 236, .9); backdrop-filter: blur(8px); border-bottom: 1.5px solid var(--rule); }
+        .dsa-nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 12px 22px; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+        .dsa-brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--display); font-weight: 800; font-size: 1.04rem; color: var(--ink); }
+        .dsa-brand img { width: 30px; height: 30px; border-radius: 7px; }
+        .dsa-nav-links { display: flex; align-items: center; gap: 22px; }
+        .dsa-nav-links a { text-decoration: none; font-weight: 600; font-size: .94rem; color: var(--ink-2); padding: 4px 0; border-bottom: 2px solid transparent; }
+        .dsa-nav-links a:hover { color: var(--ink); border-bottom-color: var(--coral); }
+        .dsa-nav-cta { display: flex; align-items: center; gap: 10px; }
+        .dsa-nav-cta .dsa-btn { padding: .58rem 1.05rem; font-size: .92rem; border-radius: 11px; box-shadow: 3px 3px 0 var(--pine-deep); }
+        .dsa-burger { display: none; width: 44px; height: 40px; border: 2px solid var(--ink); border-radius: 10px; background: var(--paper-card); cursor: pointer; flex-direction: column; justify-content: center; align-items: center; gap: 4px; }
+        .dsa-burger span { width: 19px; height: 2.2px; background: var(--ink); border-radius: 2px; }
+        @media (max-width: 940px) {
+            .dsa-nav-links { position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; align-items: flex-start; gap: 2px; background: var(--paper-card); border-bottom: 1.5px solid var(--rule); padding: 10px 22px 18px; display: none; }
+            .dsa-nav-links.dsa-open { display: flex; }
+            .dsa-nav-links a { width: 100%; padding: 10px 0; border-bottom: 1px solid var(--rule-2); }
+            .dsa-burger { display: flex; }
+            .dsa-nav-cta .dsa-ghost-hide { display: none; }
+        }
+
+        /* cohort ribbon */
+        .dsa-ribbon { background: var(--ink); color: var(--paper-card); }
+        .dsa-ribbon-inner { max-width: var(--maxw); margin: 0 auto; padding: 9px 22px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px 16px; font-size: .92rem; text-align: center; }
+        .dsa-ribbon b { color: #fff; }
+        .dsa-ribbon .hl { color: #FFD66B; font-weight: 700; }
+        .dsa-ribbon a { color: var(--paper-card); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
+        .dsa-ribbon a:hover { color: #FFD66B; }
+
+        /* hero */
+        .dsa-hero { padding: clamp(40px, 6vw, 74px) 0 clamp(28px, 4vw, 48px); }
+        .dsa-hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 46px; align-items: center; }
+        .dsa-hero h1 { font-size: clamp(2.5rem, 6vw, 4.1rem); font-weight: 800; margin: .7rem 0 1rem; }
+        .dsa-hero h1 .u { position: relative; white-space: nowrap; }
+        .dsa-hero h1 .u::after { content: ""; position: absolute; left: -1%; right: -1%; bottom: .04em; height: .32em; background: var(--coral); opacity: .32; z-index: -1; border-radius: 6px; transform: rotate(-1deg); }
+        .dsa-hero .dsa-lead { max-width: 47ch; }
+        .dsa-facts { display: flex; flex-wrap: wrap; gap: 9px; margin: 1.4rem 0 0; }
+        .dsa-fact { display: inline-flex; align-items: center; gap: 7px; font-size: .88rem; font-weight: 500; color: var(--ink); background: var(--paper-card); border: 1.5px solid var(--rule); border-radius: 30px; padding: 6px 13px; }
+        .dsa-fact b { color: var(--pine-deep); font-weight: 700; }
+        .dsa-fact.acc { background: var(--amber-dim); border-color: rgba(188, 122, 30, .35); }
+        .dsa-fact.acc b { color: var(--amber); }
+        .dsa-hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 1.7rem; }
+        .dsa-hero-note { margin-top: .95rem; font-size: .88rem; color: var(--ink-3); }
+
+        /* hero notebook sketch */
+        .dsa-sketch { background: var(--paper-card); border: 2px solid var(--ink); border-radius: 20px; padding: 22px 22px 18px; box-shadow: 8px 9px 0 var(--rule-2); position: relative; }
+        .dsa-sketch-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+        .dsa-sketch-top .t { font-family: var(--hand); font-size: 1.45rem; color: var(--coral); transform: rotate(-2deg); }
+        .dsa-sketch-top .c { font-family: var(--mono); font-size: .72rem; color: var(--ink-3); }
+        .dsa-sketch svg.tree .edge { stroke: var(--ink); stroke-width: 2.2; fill: none; }
+        .dsa-sketch svg.tree .node { fill: var(--paper-card); stroke: var(--ink); stroke-width: 2.2; }
+        .dsa-sketch svg.tree .node.p { fill: var(--pine); stroke: var(--pine-deep); }
+        .dsa-sketch svg.tree .node.a { fill: #FFD66B; }
+        .dsa-sketch svg.tree text { font-family: var(--mono); font-size: 13px; font-weight: 600; fill: var(--ink); }
+        .dsa-sketch svg.tree text.w { fill: #fff; }
+        .dsa-sketch svg.tree .lbl { font-family: var(--hand); font-size: 17px; fill: var(--coral); }
+        .dsa-sketch-foot { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 12px; padding-top: 12px; border-top: 1.5px dashed var(--rule); }
+        @media (max-width: 880px) { .dsa-hero-grid { grid-template-columns: 1fr; gap: 30px; } .dsa-sketch { order: 2; } }
+
+        /* trust strip */
+        .dsa-trust { border-top: 1.5px solid var(--rule); border-bottom: 1.5px solid var(--rule); background: rgba(255, 253, 246, .5); }
+        .dsa-trust-inner { display: flex; flex-wrap: wrap; gap: 12px 26px; justify-content: center; align-items: center; padding: 16px 0; }
+        .dsa-trust-inner span { font-family: var(--mono); font-size: .8rem; color: var(--ink-2); display: inline-flex; align-items: center; gap: 8px; }
+        .dsa-trust-inner span::before { content: "✓"; color: var(--pine); font-weight: 700; }
+
+        /* card grids */
+        .dsa-cards { display: grid; gap: 18px; }
+        .dsa-card { background: var(--paper-card); border: 2px solid var(--ink); border-radius: 18px; padding: 26px; box-shadow: 5px 6px 0 var(--rule-2); transition: transform .16s ease, box-shadow .16s ease; }
+        .dsa-card:hover { transform: translateY(-4px); box-shadow: 7px 9px 0 var(--rule-2); }
+        .dsa-card h3 { font-size: 1.2rem; margin-bottom: .5rem; }
+        .dsa-card p { color: var(--ink-2); font-size: .96rem; margin: 0; }
+        .dsa-card .ic { width: 46px; height: 46px; border-radius: 12px; background: var(--pine-dim); border: 1.5px solid rgba(22, 122, 91, .3); display: grid; place-items: center; margin-bottom: 16px; font-size: 22px; }
+        .dsa-3 { grid-template-columns: repeat(3, 1fr); }
+        @media (max-width: 820px) { .dsa-3 { grid-template-columns: 1fr; } }
+
+        /* who / prereq split */
+        .dsa-split { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: start; }
+        @media (max-width: 820px) { .dsa-split { grid-template-columns: 1fr; } }
+        .dsa-checklist { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+        .dsa-checklist li { display: flex; gap: 13px; align-items: flex-start; }
+        .dsa-checklist .ck { flex: none; width: 25px; height: 25px; border-radius: 8px; background: var(--pine); border: 2px solid var(--pine-deep); color: #fff; display: grid; place-items: center; font-size: 13px; font-weight: 700; margin-top: 2px; }
+        .dsa-checklist b { color: var(--ink); font-weight: 700; }
+        .dsa-checklist span.tx { color: var(--ink-2); }
+        .dsa-panel { background: var(--paper-card); border: 2px solid var(--ink); border-radius: 18px; padding: 28px; box-shadow: 5px 6px 0 var(--rule-2); }
+        .dsa-panel h3 { font-size: 1.32rem; margin-bottom: .5rem; }
+        .dsa-panel p { color: var(--ink-2); }
+
+        /* method / worked example */
+        .dsa-method { background: var(--paper-card); border: 2px solid var(--ink); border-radius: 22px; box-shadow: 8px 9px 0 var(--rule-2); overflow: hidden; }
+        .dsa-method-head { padding: 22px 28px; border-bottom: 2px solid var(--ink); display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
+        .dsa-method-head .q { font-family: var(--display); font-weight: 700; font-size: 1.2rem; }
+        .dsa-method-head .q small { display: block; font-family: var(--hand); font-size: 1.25rem; color: var(--coral); font-weight: 700; }
+        .dsa-steps2 { display: grid; grid-template-columns: 1fr 1fr; }
+        @media (max-width: 760px) { .dsa-steps2 { grid-template-columns: 1fr; } }
+        .dsa-try { padding: 26px 28px; }
+        .dsa-try:first-child { border-right: 2px dashed var(--rule); }
+        @media (max-width: 760px) { .dsa-try:first-child { border-right: 0; border-bottom: 2px dashed var(--rule); } }
+        .dsa-try .tag { font-family: var(--mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+        .dsa-try h4 { font-size: 1.12rem; margin: 6px 0 8px; }
+        .dsa-try h4.crossed { text-decoration: line-through; text-decoration-color: var(--coral); text-decoration-thickness: 2px; color: var(--ink-3); }
+        .dsa-try p { color: var(--ink-2); font-size: .94rem; margin: 0 0 12px; }
+        .dsa-code { font-family: var(--mono); font-size: .82rem; line-height: 1.7; background: #FBF3E1; border: 1.5px solid var(--rule); border-radius: 11px; padding: 12px 14px; color: #4A4438; white-space: pre-wrap; margin: 0 0 12px; }
+        .dsa-code .k { color: var(--pine-deep); } .dsa-code .m { color: var(--amber); } .dsa-code .c { color: var(--ink-3); }
+        .dsa-try-note { display: flex; align-items: center; gap: 10px; }
+        .dsa-try-note .nt { font-family: var(--hand); font-size: 1.2rem; color: var(--coral); }
+        .dsa-method-foot { padding: 20px 28px; border-top: 2px solid var(--ink); background: var(--pine-dim); font-size: 1.02rem; color: var(--ink); }
+        .dsa-method-foot b { color: var(--pine-deep); }
+
+        /* curriculum */
+        .dsa-curri { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+        @media (max-width: 760px) { .dsa-curri { grid-template-columns: 1fr; } }
+        .dsa-mod { background: var(--paper-card); border: 2px solid var(--ink); border-radius: 16px; padding: 22px 24px; position: relative; box-shadow: 4px 5px 0 var(--rule-2); transition: transform .16s ease, box-shadow .16s ease; }
+        .dsa-mod:hover { transform: translateY(-3px); box-shadow: 6px 8px 0 var(--rule-2); }
+        .dsa-mod-n { font-family: var(--mono); font-size: .72rem; color: var(--coral); letter-spacing: .06em; font-weight: 600; }
+        .dsa-mod h3 { font-size: 1.12rem; margin: 5px 0 9px; }
+        .dsa-mod p { color: var(--ink-2); font-size: .92rem; margin: 0 0 12px; }
+        .dsa-mod-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+        .dsa-mod-tags .t { font-family: var(--mono); font-size: .7rem; color: var(--ink-2); background: var(--paper); border: 1.5px solid var(--rule); border-radius: 6px; padding: 2px 7px; }
+
+        /* steps */
+        .dsa-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+        @media (max-width: 820px) { .dsa-steps { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 460px) { .dsa-steps { grid-template-columns: 1fr; } }
+        .dsa-step { background: var(--paper-card); border: 2px solid var(--ink); border-radius: 16px; padding: 22px; box-shadow: 4px 5px 0 var(--rule-2); }
+        .dsa-step .num { font-family: var(--mono); font-size: 1.4rem; font-weight: 600; color: var(--pine); }
+        .dsa-step h3 { font-size: 1.06rem; margin: 8px 0 6px; }
+        .dsa-step p { color: var(--ink-2); font-size: .9rem; margin: 0; }
+
+        /* first month timeline */
+        .dsa-timeline { max-width: 760px; margin: 0 auto; display: grid; gap: 14px; }
+        .dsa-week { display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: start; background: var(--paper-card); border: 2px solid var(--ink); border-radius: 14px; padding: 18px 22px; box-shadow: 4px 5px 0 var(--rule-2); }
+        .dsa-week .date { font-family: var(--mono); font-size: .82rem; color: #fff; background: var(--ink); border-radius: 8px; padding: 6px 11px; white-space: nowrap; text-align: center; align-self: center; }
+        .dsa-week:first-child .date { background: var(--pine); }
+        .dsa-week h4 { font-size: 1.08rem; margin: 0 0 3px; }
+        .dsa-week p { color: var(--ink-2); font-size: .92rem; margin: 0; }
+        .dsa-timeline-note { text-align: center; font-family: var(--hand); font-size: 1.35rem; color: var(--coral); margin-top: 4px; }
+
+        /* outcomes */
+        .dsa-out { grid-template-columns: repeat(4, 1fr); }
+        @media (max-width: 880px) { .dsa-out { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 480px) { .dsa-out { grid-template-columns: 1fr; } }
+        .dsa-out .dsa-card { text-align: center; }
+        .dsa-out .ic { margin: 0 auto 14px; }
+
+        /* pricing + register */
+        .dsa-reg-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 24px; align-items: start; }
+        @media (max-width: 880px) { .dsa-reg-grid { grid-template-columns: 1fr; } }
+        .dsa-price { background: var(--paper-card); border: 2px solid var(--ink); border-radius: 22px; padding: 30px; box-shadow: 7px 8px 0 var(--rule-2); }
+        .dsa-price .tag { font-family: var(--mono); font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; color: var(--pine-deep); }
+        .dsa-price .amt { font-family: var(--display); font-size: 3.2rem; font-weight: 800; color: var(--ink); line-height: 1; margin: 8px 0 2px; }
+        .dsa-price .amt small { font-size: 1.05rem; color: var(--ink-2); font-weight: 500; }
+        .dsa-price .startline { margin: 10px 0 0; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: .95rem; color: var(--amber); background: var(--amber-dim); border: 1.5px solid rgba(188, 122, 30, .3); border-radius: 30px; padding: 6px 13px; }
+        .dsa-price ul { list-style: none; margin: 20px 0 0; padding: 0; display: grid; gap: 11px; }
+        .dsa-price li { display: flex; gap: 11px; align-items: flex-start; color: var(--ink); font-size: .96rem; }
+        .dsa-price li svg { flex: none; width: 19px; height: 19px; margin-top: 3px; color: var(--pine); }
+        .dsa-startfast { margin-top: 22px; padding: 14px 16px; border-radius: 12px; background: var(--pine-dim); border: 1.5px solid rgba(22, 122, 91, .3); font-size: .92rem; color: var(--ink); }
+        .dsa-startfast b { color: var(--pine-deep); }
+
+        .dsa-form { background: var(--paper-card); border: 2px solid var(--ink); border-radius: 22px; padding: 30px; box-shadow: 7px 8px 0 var(--rule-2); }
+        .dsa-form h3 { font-size: 1.4rem; margin-bottom: 6px; }
+        .dsa-form > p { color: var(--ink-2); font-size: .95rem; margin-bottom: 18px; }
+        .dsa-field { margin-bottom: 15px; }
+        .dsa-field label { display: block; font-size: .82rem; font-weight: 600; color: var(--ink-2); margin-bottom: 7px; }
+        .dsa-field input, .dsa-field select { width: 100%; background: var(--paper); border: 2px solid var(--rule); border-radius: 11px; padding: 12px 14px; color: var(--ink); font-family: var(--body); font-size: 1rem; }
+        .dsa-field input::placeholder { color: var(--ink-3); }
+        .dsa-field input:focus, .dsa-field select:focus { outline: none; border-color: var(--pine); box-shadow: 0 0 0 3px var(--pine-dim); }
+        .dsa-form-btn { width: 100%; justify-content: center; margin-top: 6px; }
+        .dsa-form-alt { text-align: center; margin-top: 16px; font-size: .9rem; color: var(--ink-3); }
+        .dsa-form-alt a { color: var(--pine-deep); text-decoration: none; font-weight: 700; }
+        .dsa-form-alt a:hover { text-decoration: underline; }
+        .dsa-reg-success { display: none; text-align: center; padding: 22px 10px; }
+        .dsa-reg-success .big { font-size: 2.4rem; }
+        .dsa-reg-success h3 { margin: 10px 0 8px; }
+        .dsa-reg-success p { color: var(--ink-2); }
+        .dsa-reg-success a { color: var(--pine-deep); font-weight: 700; }
+
+        /* contact row */
+        .dsa-contact { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 30px; }
+        .dsa-contact a { display: inline-flex; align-items: center; gap: 9px; text-decoration: none; color: var(--ink); background: var(--paper-card); border: 2px solid var(--ink); border-radius: 12px; padding: 11px 17px; font-weight: 600; font-size: .94rem; box-shadow: 3px 3px 0 var(--rule-2); transition: transform .15s ease, box-shadow .15s ease; }
+        .dsa-contact a:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--rule-2); }
+        .dsa-contact svg { width: 18px; height: 18px; color: var(--pine); }
+
+        /* faq */
+        .dsa-faq { max-width: 820px; margin: 0 auto; display: grid; gap: 10px; }
+        .dsa-faq details { background: var(--paper-card); border: 2px solid var(--ink); border-radius: 14px; padding: 4px 20px; box-shadow: 3px 4px 0 var(--rule-2); }
+        .dsa-faq summary { list-style: none; cursor: pointer; padding: 16px 0; font-family: var(--display); font-weight: 700; font-size: 1.08rem; color: var(--ink); display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+        .dsa-faq summary::-webkit-details-marker { display: none; }
+        .dsa-faq summary::after { content: "+"; color: var(--coral); font-size: 1.5rem; font-weight: 400; transition: transform .2s ease; flex: none; }
+        .dsa-faq details[open] summary::after { transform: rotate(45deg); }
+        .dsa-faq-a { padding: 0 0 18px; color: var(--ink-2); }
+
+        /* final cta */
+        .dsa-cta { text-align: center; background: var(--ink); color: var(--paper-card); border-radius: 26px; padding: clamp(36px, 5vw, 64px); }
+        .dsa-cta h2 { color: var(--paper-card); margin-bottom: .5rem; }
+        .dsa-cta .dsa-eyebrow { color: #FFD66B; }
+        .dsa-cta p { color: #D7CFBF; max-width: 54ch; margin: 0 auto 1.7rem; font-size: 1.1rem; }
+        .dsa-cta .startpill { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: .82rem; color: #FFD66B; border: 1.5px solid rgba(255, 214, 107, .4); border-radius: 30px; padding: 6px 14px; margin-bottom: 1.2rem; }
+        .dsa-cta-row { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+        .dsa-cta .dsa-btn-primary { box-shadow: 4px 4px 0 rgba(0, 0, 0, .35); }
+        .dsa-cta .dsa-btn-ghost { background: transparent; color: var(--paper-card); border-color: var(--paper-card); box-shadow: 4px 4px 0 rgba(0, 0, 0, .3); }
+        .dsa-cta .dsa-btn-ghost:hover { background: rgba(255, 255, 255, .08); }
+
+        /* footer */
+        .dsa-foot { border-top: 1.5px solid var(--rule); padding: 46px 0 36px; }
+        .dsa-foot-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 28px; }
+        .dsa-foot-brand b { font-family: var(--display); font-size: 1.1rem; }
+        .dsa-foot-brand p { color: var(--ink-2); font-size: .92rem; max-width: 32ch; margin-top: 8px; }
+        .dsa-foot-col h4 { font-family: var(--mono); font-size: .74rem; letter-spacing: .07em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 12px; }
+        .dsa-foot-col a { display: block; text-decoration: none; color: var(--ink-2); font-size: .94rem; padding: 4px 0; }
+        .dsa-foot-col a:hover { color: var(--ink); }
+        .dsa-foot-bottom { max-width: var(--maxw); margin: 26px auto 0; padding: 18px 22px 0; border-top: 1px solid var(--rule-2); color: var(--ink-3); font-size: .85rem; }
+        @media (max-width: 760px) { .dsa-foot-grid { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 440px) { .dsa-foot-grid { grid-template-columns: 1fr; } }
+
+        /* reveal */
+        html.dsa-js .dsa-reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s cubic-bezier(.16, 1, .3, 1), transform .7s cubic-bezier(.16, 1, .3, 1); }
+        html.dsa-js .dsa-reveal.dsa-in { opacity: 1; transform: none; }
+        @media (prefers-reduced-motion: reduce) { html.dsa-js .dsa-reveal { opacity: 1 !important; transform: none !important; } }
+    </style>
+</head>
+
+<body>
+    <a class="dsa-skip" href="#register">Skip to registration</a>
+
+    <!-- NAV -->
+    <header class="dsa-nav">
+        <div class="dsa-nav-inner">
+            <a class="dsa-brand" href="/" aria-label="Modern Age Coders home">
+                <img src="/images/logo.svg" alt="Modern Age Coders logo" width="30" height="30">
+                Modern Age Coders
+            </a>
+            <nav class="dsa-nav-links" id="dsaNav" aria-label="Primary">
+                <a href="#why">Why DSA</a>
+                <a href="#method">Our method</a>
+                <a href="#curriculum">Curriculum</a>
+                <a href="#pricing">Fees</a>
+                <a href="#faq">FAQ</a>
+                <a href="/courses">All courses</a>
+            </nav>
+            <div class="dsa-nav-cta">
+                <a class="dsa-btn dsa-btn-ghost dsa-ghost-hide" href="/book-demo">Free demo</a>
+                <a class="dsa-btn dsa-btn-primary" href="#register">Register</a>
+                <button class="dsa-burger" id="dsaBurger" aria-label="Open menu" aria-expanded="false" aria-controls="dsaNav"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- COHORT RIBBON -->
+    <div class="dsa-ribbon">
+        <div class="dsa-ribbon-inner">
+            <span>◆ New batch starts <span class="hl">Sunday, 12 July · 4:30 PM</span> — then every Sunday. <b>₹1499/month.</b> Seats are limited.</span>
+            <a href="#register">Reserve your seat →</a>
+        </div>
+    </div>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="dsa-hero">
+            <div class="dsa-wrap">
+                <div class="dsa-hero-grid">
+                    <div>
+                        <span class="dsa-eyebrow">live cohort · starts 12 July</span>
+                        <h1>Build your <span class="u">logic</span>.<br>Master DSA.</h1>
+                        <p class="dsa-lead">A live, genuinely in-depth Data Structures &amp; Algorithms course that teaches you to <strong>think</strong> — not memorise. From complexity analysis and arrays all the way to graphs and dynamic programming, built from first principles for college students and Class 11–12.</p>
+                        <div class="dsa-facts">
+                            <span class="dsa-fact acc">🗓 Starts <b>Sun 12 July</b></span>
+                            <span class="dsa-fact"><b>₹1499</b> / month</span>
+                            <span class="dsa-fact">Live · <b>Sundays 4:30 PM</b></span>
+                            <span class="dsa-fact">College &amp; <b>Class 11–12</b></span>
+                            <span class="dsa-fact">Runs <b>until you finish DSA</b></span>
+                        </div>
+                        <div class="dsa-hero-cta">
+                            <a class="dsa-btn dsa-btn-primary" href="#register">Register now →</a>
+                            <a class="dsa-btn dsa-btn-ghost" href="/book-demo">Book a free demo</a>
+                        </div>
+                        <p class="dsa-hero-note">Prerequisite: you know basic coding in <em>any</em> language (C, C++, Java or Python). Start early — start faster.</p>
+                    </div>
+
+                    <div class="dsa-sketch" aria-hidden="true">
+                        <div class="dsa-sketch-top">
+                            <span class="t">traverse the tree…</span>
+                            <span class="c">// notebook</span>
+                        </div>
+                        <svg class="tree" viewBox="0 0 340 232" role="img" aria-label="A hand-drawn binary tree of nodes">
+                            <line class="edge" x1="170" y1="40" x2="92" y2="110" />
+                            <line class="edge" x1="170" y1="40" x2="248" y2="110" />
+                            <line class="edge" x1="92" y1="110" x2="50" y2="188" />
+                            <line class="edge" x1="92" y1="110" x2="134" y2="188" />
+                            <line class="edge" x1="248" y1="110" x2="206" y2="188" />
+                            <line class="edge" x1="248" y1="110" x2="290" y2="188" />
+                            <circle class="node p" cx="170" cy="40" r="23" /><text class="w" x="170" y="45" text-anchor="middle">1</text>
+                            <circle class="node" cx="92" cy="110" r="21" /><text x="92" y="115" text-anchor="middle">2</text>
+                            <circle class="node" cx="248" cy="110" r="21" /><text x="248" y="115" text-anchor="middle">3</text>
+                            <circle class="node a" cx="50" cy="188" r="19" /><text x="50" y="193" text-anchor="middle">4</text>
+                            <circle class="node a" cx="134" cy="188" r="19" /><text x="134" y="193" text-anchor="middle">5</text>
+                            <circle class="node a" cx="206" cy="188" r="19" /><text x="206" y="193" text-anchor="middle">6</text>
+                            <circle class="node a" cx="290" cy="188" r="19" /><text x="290" y="193" text-anchor="middle">7</text>
+                            <text class="lbl" x="300" y="44">root</text>
+                            <text class="lbl" x="2" y="150">leaves ↘</text>
+                        </svg>
+                        <div class="dsa-sketch-foot">
+                            <span class="dsa-bigo">O(1)</span>
+                            <span class="dsa-bigo">O(log n)</span>
+                            <span class="dsa-bigo">O(n)</span>
+                            <span class="dsa-bigo">O(n log n)</span>
+                            <span class="dsa-bigo">O(n²)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUST -->
+        <div class="dsa-trust">
+            <div class="dsa-wrap">
+                <div class="dsa-trust-inner">
+                    <span>Logic-first, not rote</span>
+                    <span>Live dry-runs on the board</span>
+                    <span>Doubt-solving every class</span>
+                    <span>Placement &amp; interview ready</span>
+                    <span>Language-agnostic</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- WHY -->
+        <section class="dsa-section" id="why">
+            <div class="dsa-wrap">
+                <div class="dsa-head">
+                    <span class="dsa-eyebrow">why DSA matters</span>
+                    <h2>The skill that turns a coder into a problem-solver</h2>
+                    <svg class="dsa-underline" viewBox="0 0 200 14" aria-hidden="true"><path d="M3 8 C 40 2, 70 12, 100 7 S 165 3, 197 8"/></svg>
+                    <p>Anyone can learn syntax. DSA is where you learn to break a hard, unseen problem into a plan and an efficient solution — the single most valuable, most tested skill in computer science.</p>
+                </div>
+                <div class="dsa-cards dsa-3">
+                    <div class="dsa-card dsa-reveal">
+                        <div class="ic">🧠</div>
+                        <h3>Build real logic</h3>
+                        <p>Stop guessing. Learn the patterns — two pointers, recursion, sliding window, dynamic programming — that let you reason your way to any solution.</p>
+                    </div>
+                    <div class="dsa-card dsa-reveal">
+                        <div class="ic">💼</div>
+                        <h3>Crack placements &amp; interviews</h3>
+                        <p>DSA is the core of every technical interview at product companies. Master it and you walk in ready for problems you've never seen.</p>
+                    </div>
+                    <div class="dsa-card dsa-reveal">
+                        <div class="ic">⚡</div>
+                        <h3>Start early, start faster</h3>
+                        <p>The earlier you build these foundations — in Class 11–12 or early college — the further ahead you are. Compounding skill beats last-minute cramming.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHO / PREREQUISITES -->
+        <section class="dsa-section" id="who" style="padding-top:0">
+            <div class="dsa-wrap">
+                <div class="dsa-head">
+                    <span class="dsa-eyebrow">who it's for · prerequisites</span>
+                    <h2>Is this DSA course right for you?</h2>
+                </div>
+                <div class="dsa-split">
+                    <ul class="dsa-checklist dsa-reveal">
+                        <li><span class="ck">✓</span><span class="tx"><b>You know basic coding in any one language.</b> C, C++, Java or Python — it doesn't matter which. DSA is language-agnostic; the logic transfers everywhere.</span></li>
+                        <li><span class="ck">✓</span><span class="tx"><b>Your core concepts are strong.</b> Variables, loops, conditionals, functions and arrays feel comfortable — your fundamentals are solid.</span></li>
+                        <li><span class="ck">✓</span><span class="tx"><b>Your logic is clear.</b> You enjoy figuring things out and want to get genuinely good at solving problems, not just copying answers.</span></li>
+                        <li><span class="ck">✓</span><span class="tx"><b>You're in college, or Class 11 or 12.</b> The ideal time to start. Motivated learners with strong fundamentals are welcome too.</span></li>
+                    </ul>
+                    <div class="dsa-panel dsa-reveal">
+                        <h3>Not sure if you're ready?</h3>
+                        <p>That's exactly what a free demo class is for. We'll quickly check where your fundamentals stand, show you how we teach logic, and tell you honestly whether to start now or shore up the basics first.</p>
+                        <div style="margin-top:18px;display:flex;flex-wrap:wrap;gap:10px">
+                            <a class="dsa-btn dsa-btn-primary" href="/book-demo">Book a free demo</a>
+                            <a class="dsa-btn dsa-btn-ghost" href="https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20check%20if%20I%27m%20ready%20for%20the%20DSA%20course" target="_blank" rel="noopener">Ask on WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- METHOD / WORKED EXAMPLE -->
+        <section class="dsa-section" id="method" style="padding-top:0">
+            <div class="dsa-wrap">
+                <div class="dsa-head">
+                    <span class="dsa-eyebrow">how we build your logic</span>
+                    <h2>We don't hand you answers. We grow the instinct.</h2>
+                    <svg class="dsa-underline" viewBox="0 0 200 14" aria-hidden="true"><path d="M3 8 C 40 2, 70 12, 100 7 S 165 3, 197 8"/></svg>
+                    <p>Every topic is taught the same way — start from the obvious-but-slow idea, feel why it hurts, then discover the insight that makes it fast. Here's a tiny taste with one classic problem.</p>
+                </div>
+
+                <div class="dsa-method dsa-reveal">
+                    <div class="dsa-method-head">
+                        <span class="q">The problem:&nbsp;</span>
+                        <span class="q">given an array, find two numbers that add up to a target.<small>“…easy, right? Let's see.”</small></span>
+                    </div>
+                    <div class="dsa-steps2">
+                        <div class="dsa-try">
+                            <div class="tag">Step 1 · first instinct</div>
+                            <h4 class="crossed">Check every pair</h4>
+                            <p>Loop over every pair of numbers and test if they add to the target. It works… but on a big array it crawls.</p>
+                            <pre class="dsa-code"><span class="k">for</span> i in 0..n:
+  <span class="k">for</span> j in i+1..n:
+    <span class="k">if</span> a[i] + a[j] == target:
+      <span class="k">return</span> (i, j)</pre>
+                            <div class="dsa-try-note"><span class="dsa-bigo">O(n²)</span><span class="nt">slow on big inputs ✗</span></div>
+                        </div>
+                        <div class="dsa-try">
+                            <div class="tag">Step 2 · the insight</div>
+                            <h4>Remember what you've seen</h4>
+                            <p>For each number, you already know what its partner would be: <em>target − num</em>. So just remember every number in a hash map and check in one pass.</p>
+                            <pre class="dsa-code">seen = {}
+<span class="k">for</span> i, num in a:
+  need = target - num
+  <span class="k">if</span> need in seen:
+    <span class="k">return</span> (seen[need], i)
+  seen[num] = i</pre>
+                            <div class="dsa-try-note"><span class="dsa-bigo">O(n)</span><span class="nt">one clean pass ✓</span></div>
+                        </div>
+                    </div>
+                    <div class="dsa-method-foot">That leap — from brute force to insight — is <b>the logic we train</b>, on every single topic. Do it a hundred times and it stops being magic and becomes how you think.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CURRICULUM -->
+        <section class="dsa-section" id="curriculum" style="padding-top:0">
+            <div class="dsa-wrap">
+                <div class="dsa-head">
+                    <span class="dsa-eyebrow">the full syllabus</span>
+                    <h2>Everything in DSA — covered in depth</h2>
+                    <svg class="dsa-underline" viewBox="0 0 200 14" aria-hidden="true"><path d="M3 8 C 40 2, 70 12, 100 7 S 165 3, 197 8"/></svg>
+                    <p>This is the complete map. We go module by module, dry-run every idea by hand, and never skip the hard parts. The course runs as long as it takes for you to truly master each one.</p>
+                </div>
+                <div class="dsa-curri">
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 00 · FOUNDATIONS</div>
+                        <h3>How to think + Complexity</h3>
+                        <p>Time &amp; space complexity, asymptotic analysis, how to read constraints, and a repeatable framework for attacking any new problem.</p>
+                        <div class="dsa-mod-tags"><span class="t">Big-O</span><span class="t">Time/Space</span><span class="t">Problem framing</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 01 · LINEAR</div>
+                        <h3>Arrays &amp; Strings</h3>
+                        <p>Traversals, in-place tricks, prefix sums, two pointers and sliding window — the patterns behind a huge share of all interview problems.</p>
+                        <div class="dsa-mod-tags"><span class="t">Two pointers</span><span class="t">Sliding window</span><span class="t">Prefix sums</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 02 · SEARCH/SORT</div>
+                        <h3>Searching &amp; Sorting</h3>
+                        <p>Binary search (and binary search on the answer), merge sort, quick sort, and the sorting-based patterns that unlock tougher problems.</p>
+                        <div class="dsa-mod-tags"><span class="t">Binary search</span><span class="t">Merge / Quick</span><span class="t">O(n log n)</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 03 · HASHING</div>
+                        <h3>Hashing — Maps &amp; Sets</h3>
+                        <p>Hash maps, hash sets, frequency counting and the lookups that turn O(n²) brute force into clean O(n) solutions.</p>
+                        <div class="dsa-mod-tags"><span class="t">HashMap</span><span class="t">HashSet</span><span class="t">Frequency</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 04 · STACK/QUEUE</div>
+                        <h3>Stacks &amp; Queues</h3>
+                        <p>Stacks, queues, deques and the powerful monotonic-stack pattern for next-greater-element and histogram-style problems.</p>
+                        <div class="dsa-mod-tags"><span class="t">Monotonic stack</span><span class="t">Deque</span><span class="t">LIFO/FIFO</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 05 · LINKED LISTS</div>
+                        <h3>Linked Lists</h3>
+                        <p>Singly &amp; doubly linked lists, reversal, cycle detection, and the fast-and-slow pointer technique done until it's second nature.</p>
+                        <div class="dsa-mod-tags"><span class="t">Fast/slow</span><span class="t">Reversal</span><span class="t">Cycle detect</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 06 · TREES</div>
+                        <h3>Trees &amp; Binary Search Trees</h3>
+                        <p>Binary trees, BSTs, all traversals (in/pre/post/level-order), and how to reason recursively about tree problems with confidence.</p>
+                        <div class="dsa-mod-tags"><span class="t">Traversals</span><span class="t">BST</span><span class="t">Recursion</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 07 · HEAPS</div>
+                        <h3>Heaps &amp; Priority Queues</h3>
+                        <p>Min/max heaps, heapify, and the top-K / k-way-merge patterns that show up constantly in interviews and real systems.</p>
+                        <div class="dsa-mod-tags"><span class="t">Priority queue</span><span class="t">Top-K</span><span class="t">Heapify</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 08 · TRIES</div>
+                        <h3>Tries &amp; Advanced Strings</h3>
+                        <p>Prefix trees for fast string lookups and autocomplete, plus a solid intro to advanced string-matching patterns.</p>
+                        <div class="dsa-mod-tags"><span class="t">Prefix tree</span><span class="t">Autocomplete</span><span class="t">String match</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 09 · GRAPHS</div>
+                        <h3>Graphs</h3>
+                        <p>Representations, BFS &amp; DFS, topological sort, shortest paths (Dijkstra), union-find / DSU and minimum spanning trees — the big leagues.</p>
+                        <div class="dsa-mod-tags"><span class="t">BFS / DFS</span><span class="t">Dijkstra</span><span class="t">Union-Find</span><span class="t">Topo sort</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 10 · RECURSION</div>
+                        <h3>Recursion &amp; Backtracking</h3>
+                        <p>Subsets, permutations, combinations, N-Queens and the decision-tree thinking that powers backtracking and DP alike.</p>
+                        <div class="dsa-mod-tags"><span class="t">Backtracking</span><span class="t">Subsets/Perms</span><span class="t">N-Queens</span></div>
+                    </div>
+                    <div class="dsa-mod dsa-reveal">
+                        <div class="dsa-mod-n">MODULE 11 · GREEDY + DP</div>
+                        <h3>Greedy &amp; Dynamic Programming</h3>
+                        <p>Greedy proofs and the full DP ladder — 1D/2D, knapsack, LIS, and DP on grids, strings and trees. The hardest, highest-leverage topic, taught patiently.</p>
+                        <div class="dsa-mod-tags"><span class="t">Knapsack</span><span class="t">LIS</span><span class="t">DP on trees</span><span class="t">Greedy</span></div>
+                    </div>
+                </div>
+                <p style="text-align:center;margin:30px auto 0;color:var(--ink-3);font-family:var(--mono);font-size:.86rem;max-width:62ch">…plus bit manipulation, maths for DSA, and advanced structures (segment trees, Fenwick / BIT) once the core is solid. Nothing important left out.</p>
+            </div>
+        </section>
+
+        <!-- FORMAT -->
+        <section class="dsa-section" id="format" style="padding-top:0">
+            <div class="dsa-wrap">
+                <div class="dsa-head">
+                    <span class="dsa-eyebrow">how the class works</span>
+                    <h2>Live, hands-on, and built to actually stick</h2>
+                </div>
+                <div class="dsa-steps">
+                    <div class="dsa-step dsa-reveal"><div class="num">01</div><h3>Live every Sunday</h3><p>One focused live class each Sunday at 4:30 PM — interactive, with cameras-on dry-runs on the board.</p></div>
+                    <div class="dsa-step dsa-reveal"><div class="num">02</div><h3>Logic first</h3><p>We derive each idea from scratch, dry-run it by hand, then code it — so you understand <em>why</em>, not just what.</p></div>
+                    <div class="dsa-step dsa-reveal"><div class="num">03</div><h3>Practice &amp; doubts</h3><p>Curated problem sheets after every topic, with dedicated doubt-solving so nobody gets left behind.</p></div>
+                    <div class="dsa-step dsa-reveal"><div class="num">04</div><h3>Goes until you finish</h3><p>No artificial deadline. The course continues month after month until the whole DSA syllabus is mastered.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FIRST MONTH -->
+        <section class="dsa-section" id="firstmonth" style="padding-top:0">
+            <div class="dsa-wrap">
+                <div class="dsa-head">
+                    <span class="dsa-eyebrow">your first four Sundays</span>
+                    <h2>What the journey looks like — from day one</h2>
+                    <p>Real dates, real momentum. Here's exactly how your first month unfolds.</p>
+                </div>
+                <div class="dsa-timeline">
+                    <div class="dsa-week dsa-reveal"><span class="date">Sun<br>12 Jul</span><div><h4>How to think + Complexity</h4><p>Big-O, time vs space, reading constraints, and the framework you'll use on every problem after this.</p></div></div>
+                    <div class="dsa-week dsa-reveal"><span class="date">Sun<br>19 Jul</span><div><h4>Arrays &amp; Two Pointers</h4><p>In-place tricks and the two-pointer pattern that quietly solves a huge share of problems.</p></div></div>
+                    <div class="dsa-week dsa-reveal"><span class="date">Sun<br>26 Jul</span><div><h4>Sliding Window &amp; Prefix Sums</h4><p>Turn nested loops into single passes — the moment brute force starts giving way to insight.</p></div></div>
+                    <div class="dsa-week dsa-reveal"><span class="date">Sun<br>2 Aug</span><div><h4>Binary Search (and on the answer)</h4><p>Not just searching a sorted array — searching the space of possible answers. A real level-up.</p></div></div>
+                </div>
+                <p class="dsa-timeline-note">…and onward through the whole map, at a depth that sticks ↝</p>
+            </div>
+        </section>
+
+        <!-- OUTCOMES -->
+        <section class="dsa-section" id="outcomes" style="padding-top:0">
+            <div class="dsa-wrap">
+                <div class="dsa-head">
+                    <span class="dsa-eyebrow">what you walk away with</span>
+                    <h2>Outcomes that compound</h2>
+                </div>
+                <div class="dsa-cards dsa-out">
+                    <div class="dsa-card dsa-reveal"><div class="ic">🎯</div><h3>Interview-ready</h3><p>Confidence to solve unseen problems in product-company interviews.</p></div>
+                    <div class="dsa-card dsa-reveal"><div class="ic">🏆</div><h3>Competitive edge</h3><p>The toolkit for competitive programming and coding contests.</p></div>
+                    <div class="dsa-card dsa-reveal"><div class="ic">🎓</div><h3>College advantage</h3><p>A head start that makes your CS coursework feel easy.</p></div>
+                    <div class="dsa-card dsa-reveal"><div class="ic">🧩</div><h3>Real problem-solving</h3><p>A mind that breaks any hard problem into a clear, efficient plan.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING + REGISTER -->
+        <section class="dsa-section" id="pricing" style="padding-top:0">
+            <div class="dsa-wrap">
+                <div class="dsa-head">
+                    <span class="dsa-eyebrow">fees &amp; registration</span>
+                    <h2>Simple pricing. Serious depth.</h2>
+                </div>
+                <div class="dsa-reg-grid" id="register">
+                    <div class="dsa-price dsa-reveal">
+                        <span class="tag">Monthly fee</span>
+                        <div class="amt">₹1499<small> / month</small></div>
+                        <div class="startline">🗓 New batch begins Sunday, 12 July</div>
+                        <p style="color:var(--ink-2);margin:.8rem 0 0;font-size:.95rem">Pay month to month. Continue for as long as you need to master the full syllabus.</p>
+                        <ul>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Live class every Sunday, 4:30 PM IST</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> The complete DSA syllabus, in depth</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Problem sheets + live doubt-solving</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Language-agnostic (C++ / Java / Python / C)</li>
+                            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Runs until you complete DSA — no rushing</li>
+                        </ul>
+                        <div class="dsa-startfast"><b>Start early, start faster.</b> The sooner you begin, the bigger your head start when placements and contests arrive.</div>
+                    </div>
+
+                    <div>
+                        <form class="dsa-form" id="dsaRegForm" novalidate>
+                            <h3>Register for the DSA course</h3>
+                            <p>Fill this in and we'll confirm your seat on WhatsApp — usually within a few hours.</p>
+                            <div class="dsa-field">
+                                <label for="regName">Full name</label>
+                                <input type="text" id="regName" name="name" placeholder="Your name" autocomplete="name" required>
+                            </div>
+                            <div class="dsa-field">
+                                <label for="regPhone">WhatsApp number</label>
+                                <input type="tel" id="regPhone" name="phone" placeholder="10-digit mobile number" inputmode="numeric" autocomplete="tel" required>
+                            </div>
+                            <div class="dsa-field">
+                                <label for="regLevel">You are currently in</label>
+                                <select id="regLevel" name="level">
+                                    <option>College</option>
+                                    <option>Class 12</option>
+                                    <option>Class 11</option>
+                                    <option>Working professional</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="dsa-field">
+                                <label for="regLang">Language you already know</label>
+                                <select id="regLang" name="lang">
+                                    <option>C++</option>
+                                    <option>Java</option>
+                                    <option>Python</option>
+                                    <option>C</option>
+                                    <option>JavaScript</option>
+                                    <option>Just starting out</option>
+                                </select>
+                            </div>
+                            <button class="dsa-btn dsa-btn-primary dsa-form-btn" type="submit">Register for the 12 July batch →</button>
+                            <div class="dsa-form-alt">Prefer to talk first? <a href="/book-demo">Book a free demo</a></div>
+                        </form>
+                        <div class="dsa-form dsa-reg-success" id="dsaRegSuccess" aria-live="polite">
+                            <div class="big">✅</div>
+                            <h3>You're almost in!</h3>
+                            <p>We've opened WhatsApp with your details. Send that message and our team will confirm your seat for the 12 July batch. If WhatsApp didn't open, message us at <a href="https://wa.me/919123366161">+91 9123366161</a>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dsa-contact">
+                    <a href="https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20register%20for%20the%20DSA%20course%20%2812%20July%20batch%29" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.4 5 5.1-1.3A10 10 0 1 0 12 2Zm5.6 14.2c-.2.7-1.3 1.3-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1-1.4-1-2.6 0-1.3.6-1.9.9-2.1.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6c-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.7-.9c.2-.3.4-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.7-.1 1.2Z"/></svg> WhatsApp +91 9123366161</a>
+                    <a href="tel:+919123366161"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg> Call us</a>
+                    <a href="mailto:contact@modernagecoders.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg> contact@modernagecoders.com</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="dsa-section" id="faq" style="padding-top:0">
+            <div class="dsa-wrap">
+                <div class="dsa-head">
+                    <span class="dsa-eyebrow">questions</span>
+                    <h2>DSA course FAQ</h2>
+                    <svg class="dsa-underline" viewBox="0 0 200 14" aria-hidden="true"><path d="M3 8 C 40 2, 70 12, 100 7 S 165 3, 197 8"/></svg>
+                </div>
+                <div class="dsa-faq">
+                    <details><summary>When does the course start?</summary><div class="dsa-faq-a">The new batch starts on <strong>Sunday, 12 July at 4:30 PM IST</strong>, then runs live every Sunday at the same time. Register early to lock your seat — batch sizes are kept small.</div></details>
+                    <details><summary>What is the prerequisite for this course?</summary><div class="dsa-faq-a">You should know basic core coding in any one language — C, C++, Java or Python. You don't need to be an expert; if your logic is clear and your fundamentals (variables, loops, conditionals, functions, arrays) are strong, you're ready. DSA is language-agnostic, so any language works.</div></details>
+                    <details><summary>Who is this course best suited for?</summary><div class="dsa-faq-a">It's ideal for college students and learners in Class 11 or 12 who already know basic coding and want to build serious problem-solving logic for placements, coding interviews and competitive programming. Motivated learners with strong fundamentals are also welcome.</div></details>
+                    <details><summary>How much does it cost?</summary><div class="dsa-faq-a">The fee is ₹1499 per month, paid month to month. The course continues until you've completed and mastered the entire DSA syllabus.</div></details>
+                    <details><summary>How long does the course last?</summary><div class="dsa-faq-a">There's no rushed end date. DSA is deep, so this runs as a long-term, month-by-month journey — from complexity analysis all the way to dynamic programming and graphs. We cover everything in depth and never skip the hard parts.</div></details>
+                    <details><summary>Which programming language do you use?</summary><div class="dsa-faq-a">A language-agnostic, logic-first approach — follow along in C++, Java, Python or C. The focus is the thinking, patterns and data structures themselves, which transfer to any language.</div></details>
+                    <details><summary>Will it help with placements and interviews?</summary><div class="dsa-faq-a">Yes. DSA is the core of technical interviews at product companies and of competitive programming. By building logic from first principles and practising patterns like two pointers, sliding window, recursion, backtracking and dynamic programming, you become ready to solve unseen problems under pressure.</div></details>
+                    <details><summary>How do I register?</summary><div class="dsa-faq-a">Fill in the registration form above, or message us on WhatsApp at +91 9123366161. You can also book a free demo class first to make sure it's the right fit before you enrol.</div></details>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="dsa-section" style="padding-top:0">
+            <div class="dsa-wrap">
+                <div class="dsa-cta dsa-reveal">
+                    <div class="startpill">🗓 Batch starts Sunday, 12 July · 4:30 PM IST</div>
+                    <span class="dsa-eyebrow">your logic, leveled up</span>
+                    <h2>Start early. Start faster.</h2>
+                    <p>Build the problem-solving foundation that pays off for the rest of your coding life — one focused Sunday at a time.</p>
+                    <div class="dsa-cta-row">
+                        <a class="dsa-btn dsa-btn-primary" href="#register">Reserve your seat — ₹1499/month</a>
+                        <a class="dsa-btn dsa-btn-ghost" href="/book-demo">Book a free demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="dsa-foot">
+        <div class="dsa-wrap">
+            <div class="dsa-foot-grid">
+                <div class="dsa-foot-brand">
+                    <b>Modern Age Coders</b>
+                    <p>Live, online coding &amp; mathematics classes that go deep — for ages 6 to 65. Forging real problem-solvers.</p>
+                </div>
+                <div class="dsa-foot-col">
+                    <h4>Learn</h4>
+                    <a href="/courses">All courses</a>
+                    <a href="/coding-roadmap">Coding Roadmap</a>
+                    <a href="/student-labs">Student Labs</a>
+                </div>
+                <div class="dsa-foot-col">
+                    <h4>This course</h4>
+                    <a href="#curriculum">Curriculum</a>
+                    <a href="#pricing">Fees</a>
+                    <a href="#register">Register</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <div class="dsa-foot-col">
+                    <h4>Talk to us</h4>
+                    <a href="/book-demo">Book a free demo</a>
+                    <a href="https://wa.me/919123366161" target="_blank" rel="noopener">WhatsApp</a>
+                    <a href="tel:+919123366161">+91 9123366161</a>
+                </div>
+            </div>
+        </div>
+        <div class="dsa-foot-bottom">© 2026 Modern Age Coders. Live DSA &amp; coding classes. New batch starts Sunday 12 July · every Sunday 4:30 PM · ₹1499/month · build your logic from first principles.</div>
+    </footer>
+
+    <script>
+        (function () {
+            'use strict';
+
+            /* mobile nav */
+            var burger = document.getElementById('dsaBurger');
+            var nav = document.getElementById('dsaNav');
+            if (burger && nav) {
+                burger.addEventListener('click', function () {
+                    var open = nav.classList.toggle('dsa-open');
+                    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+                });
+                nav.addEventListener('click', function (e) { if (e.target.tagName === 'A') { nav.classList.remove('dsa-open'); burger.setAttribute('aria-expanded', 'false'); } });
+            }
+
+            var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            /* scroll reveal */
+            var revealEls = document.querySelectorAll('.dsa-reveal');
+            if (reduce || !('IntersectionObserver' in window)) {
+                revealEls.forEach(function (el) { el.classList.add('dsa-in'); });
+            } else {
+                var ro = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('dsa-in'); ro.unobserve(en.target); } });
+                }, { threshold: 0.12 });
+                revealEls.forEach(function (el) { ro.observe(el); });
+            }
+
+            /* registration form -> WhatsApp + background lead capture */
+            var form = document.getElementById('dsaRegForm');
+            if (form) {
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    var name = (document.getElementById('regName').value || '').trim();
+                    var phone = (document.getElementById('regPhone').value || '').replace(/\D/g, '');
+                    var level = document.getElementById('regLevel').value;
+                    var lang = document.getElementById('regLang').value;
+
+                    if (name.length < 2) { alert('Please enter your name.'); return; }
+                    if (phone.length < 10) { alert('Please enter a valid 10-digit WhatsApp number.'); return; }
+
+                    try { if (typeof gtag === 'function') { gtag('event', 'generate_lead', { event_category: 'dsa_course', value: 1499 }); } } catch (e) {}
+                    try { if (typeof fbq === 'function') { fbq('track', 'Lead', { content_name: 'DSA Course' }); } } catch (e) {}
+
+                    try {
+                        fetch('https://backend-modernagecoders.vercel.app/api/callback/request', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ phone: phone, countryCode: '+91', countryIso: 'IN', countryName: 'India' })
+                        }).catch(function () {});
+                    } catch (e) {}
+
+                    var text = 'Hi! I want to register for the DSA (Data Structures & Algorithms) course - 12 July batch.\n\n'
+                        + 'Name: ' + name + '\n'
+                        + 'WhatsApp: ' + phone + '\n'
+                        + 'Currently in: ' + level + '\n'
+                        + 'Knows: ' + lang + '\n\n'
+                        + '(Starts Sun 12 July · Sundays 4:30 PM IST · Rs.1499/month)';
+                    window.open('https://wa.me/919123366161?text=' + encodeURIComponent(text), '_blank');
+
+                    form.style.display = 'none';
+                    var ok = document.getElementById('dsaRegSuccess');
+                    if (ok) { ok.style.display = 'block'; ok.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+                });
+            }
+
+        })();
+    </script>
+</body>
+
+</html>

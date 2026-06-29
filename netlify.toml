@@ -655,6 +655,53 @@
   to = "/src/pages/java-dsa-course.md"
   status = 200
 
+# DSA course (data structures & algorithms) — primary + keyword aliases
+[[redirects]]
+  from = "/data-structures-and-algorithms-course"
+  to = "/src/pages/data-structures-and-algorithms-course.html"
+  status = 200
+
+[[redirects]]
+  from = "/data-structures-and-algorithms-course.md"
+  to = "/src/pages/data-structures-and-algorithms-course.md"
+  status = 200
+
+[[redirects]]
+  from = "/dsa-course"
+  to = "/data-structures-and-algorithms-course"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/best-dsa-course"
+  to = "/data-structures-and-algorithms-course"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/dsa-course-for-placements"
+  to = "/data-structures-and-algorithms-course"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/dsa-classes"
+  to = "/data-structures-and-algorithms-course"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/learn-dsa"
+  to = "/data-structures-and-algorithms-course"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/dsa"
+  to = "/data-structures-and-algorithms-course"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/java-oops-concepts-course"
   to = "/src/pages/java-oops-concepts-course.html"

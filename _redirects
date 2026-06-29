@@ -432,6 +432,16 @@
 /java-oops-concepts-course /src/pages/java-oops-concepts-course.html 200
 /java-certification-course /src/pages/java-certification-course.html 200
 
+# DSA course (data structures & algorithms) — primary + keyword aliases
+/data-structures-and-algorithms-course /src/pages/data-structures-and-algorithms-course.html 200
+/data-structures-and-algorithms-course.md /src/pages/data-structures-and-algorithms-course.md 200
+/dsa-course /data-structures-and-algorithms-course 301!
+/best-dsa-course /data-structures-and-algorithms-course 301!
+/dsa-course-for-placements /data-structures-and-algorithms-course 301!
+/dsa-classes /data-structures-and-algorithms-course 301!
+/learn-dsa /data-structures-and-algorithms-course 301!
+/dsa /data-structures-and-algorithms-course 301!
+
 # C++ course cluster (pillar + spokes)
 /best-c-plus-plus-classes-in-india /src/pages/best-c-plus-plus-classes-in-india.html 200
 /c-plus-plus-classes-for-teens /src/pages/c-plus-plus-classes-for-teens.html 200
