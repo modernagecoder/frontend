@@ -17,10 +17,13 @@ Real projects built by Modern Age Coders students — games, AI chatbots, weathe
 - **Babu — 90 Second Maths Challenge** — timed maths game with a live Firebase/MongoDB leaderboard (JavaScript, Firebase, MongoDB). By Modern Age Coders. https://babu.modernagecoders.com
 - **Baby — Typing Speed Challenge** — typing test with a MongoDB-backed leaderboard (JavaScript, Node.js, MongoDB). By Kritika. https://baby.modernagecoders.com
 - **Simon Game** — memory-based colour & sound sequence game (HTML, CSS, JavaScript). By Yashaswi. http://yashaswi-2017.my.canva.site
+- **Palm Arcana (SuperPawer)** — webcam hand-tracking game where palm gestures summon fire & lightning; computer vision + creative coding. Vibe-coded. Vibe Coding, Computer Vision, JavaScript, Canvas. By a Modern Age Coders student. https://superpawer.netlify.app
 
 ### AI & ML
 - **Misti — AI Chatbot for Maths & Coding** — AI chatbot giving step-by-step maths/coding help (Python, AI/ML, LLM APIs). By Harshit. https://misti.modernagecoders.com
 - **HugSelle — AI Smile Generator** — detects mood and generates uplifting quotes & visuals (Python, Machine Learning, AI). By Anurag. https://hugselle.modernagecoders.com
+- **NutriLife — AI Nutrition Coach** — snap a meal photo and AI names every food + breaks down calories, macros, vitamins & minerals; daily tracking and smart coaching. Vibe-coded (built with AI prompts, then refined by hand). Vibe Coding, AI Vision, React, Lovable. By Bhavya. https://nutrilife-bhavya.lovable.app
+- **GuardianX — AI Bodyguard for the Internet** — paste any suspicious link/message for an instant AI scam verdict; link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded. Vibe Coding, AI, React, Lovable. By a Modern Age Coders student. https://guardianx-cybersaver.lovable.app
 
 ### Web Apps
 - **SkyCast — Weather Forecast App** — real-time weather for any location (JavaScript, API, HTML/CSS). By Krish. https://krish-shroff.github.io/AuraWeatherTech/

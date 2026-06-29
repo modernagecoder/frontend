@@ -103,7 +103,10 @@
             { "@type": "ListItem", "position": 11, "item": { "@type": "CreativeWork", "name": "Word Counter Website", "url": "https://vanshagarwalwordcounter-sys.github.io/WordCounter/" } },
             { "@type": "ListItem", "position": 12, "item": { "@type": "CreativeWork", "name": "Life Span Tracker", "url": "https://lifespantracker.netlify.app/" } },
             { "@type": "ListItem", "position": 13, "item": { "@type": "CreativeWork", "name": "Simon Game", "url": "http://yashaswi-2017.my.canva.site" } },
-            { "@type": "ListItem", "position": 14, "item": { "@type": "CreativeWork", "name": "Image Slider Website", "url": "https://robo23middle-stack.github.io/scenes/" } }
+            { "@type": "ListItem", "position": 14, "item": { "@type": "CreativeWork", "name": "Image Slider Website", "url": "https://robo23middle-stack.github.io/scenes/" } },
+            { "@type": "ListItem", "position": 15, "item": { "@type": "CreativeWork", "name": "NutriLife — AI Nutrition Coach", "url": "https://nutrilife-bhavya.lovable.app" } },
+            { "@type": "ListItem", "position": 16, "item": { "@type": "CreativeWork", "name": "GuardianX — AI Bodyguard for the Internet", "url": "https://guardianx-cybersaver.lovable.app" } },
+            { "@type": "ListItem", "position": 17, "item": { "@type": "CreativeWork", "name": "Palm Arcana — Summon the Elements", "url": "https://superpawer.netlify.app" } }
           ]
         },
         {
@@ -255,6 +258,8 @@
         .sl-card:hover .sl-shot img { transform: scale(1.05); }
         .sl-cat { position: absolute; top: 12px; left: 12px; font-family: var(--mono); font-size: .68rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: #fff; background: var(--c); border: 1.5px solid var(--ink); border-radius: 20px; padding: 3px 10px; }
         .sl-featured { position: absolute; top: 12px; right: 12px; font-family: var(--mono); font-size: .66rem; font-weight: 600; color: var(--ink); background: #FFD66B; border: 1.5px solid var(--ink); border-radius: 20px; padding: 3px 9px; }
+        .sl-vibe { position: absolute; top: 12px; right: 12px; display: inline-flex; align-items: center; gap: 5px; font-family: var(--mono); font-size: .64rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: #fff; background: var(--ink); border: 1.5px solid var(--ink); border-radius: 20px; padding: 3px 9px; }
+        .sl-vibe::before { content: "\2726"; color: var(--c-tool); font-size: .85rem; line-height: 1; }
         .sl-live { position: absolute; bottom: 12px; left: 12px; display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: .68rem; font-weight: 600; color: #fff; background: rgba(20, 18, 23, .82); border-radius: 20px; padding: 3px 10px; }
         .sl-live::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 0 rgba(74, 222, 128, .7); animation: sl-pulse 1.8s infinite; }
         @keyframes sl-pulse { 0% { box-shadow: 0 0 0 0 rgba(74, 222, 128, .6); } 70% { box-shadow: 0 0 0 6px rgba(74, 222, 128, 0); } 100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0); } }
@@ -403,13 +408,13 @@
         <div class="sl-filterwrap" id="sl-lab">
             <div class="sl-wrap">
                 <div class="sl-filter" role="group" aria-label="Filter projects by type">
-                    <button class="sl-fbtn sl-on" type="button" data-filter="all" aria-pressed="true">All <span class="sl-fcount">14</span></button>
-                    <button class="sl-fbtn" type="button" data-filter="game" aria-pressed="false">Games <span class="sl-fcount">4</span></button>
-                    <button class="sl-fbtn" type="button" data-filter="ai" aria-pressed="false">AI &amp; ML <span class="sl-fcount">2</span></button>
+                    <button class="sl-fbtn sl-on" type="button" data-filter="all" aria-pressed="true">All <span class="sl-fcount">17</span></button>
+                    <button class="sl-fbtn" type="button" data-filter="game" aria-pressed="false">Games <span class="sl-fcount">5</span></button>
+                    <button class="sl-fbtn" type="button" data-filter="ai" aria-pressed="false">AI &amp; ML <span class="sl-fcount">4</span></button>
                     <button class="sl-fbtn" type="button" data-filter="webapp" aria-pressed="false">Web Apps <span class="sl-fcount">5</span></button>
                     <button class="sl-fbtn" type="button" data-filter="tool" aria-pressed="false">Tools <span class="sl-fcount">3</span></button>
                 </div>
-                <p class="sl-showing" id="slShowing" aria-live="polite">Showing all 14 projects</p>
+                <p class="sl-showing" id="slShowing" aria-live="polite">Showing all 17 projects</p>
             </div>
         </div>
 
@@ -447,6 +452,39 @@
                             <div class="sl-by">by Modern Age Coders</div>
                             <p class="sl-desc">An exciting 90-second maths challenge with random problems under time pressure, and a dynamic leaderboard powered by Firebase/MongoDB with real-time score updates.</p>
                             <div class="sl-tags"><span>JavaScript</span><span>Firebase</span><span>MongoDB</span></div>
+                            <div class="sl-card-foot"><span class="sl-open">Open the live project ↗</span><span class="sl-diff">Advanced</span></div>
+                        </div>
+                    </a>
+
+                    <a class="sl-card sl-reveal" data-category="ai" href="https://nutrilife-bhavya.lovable.app" target="_blank" rel="noopener">
+                        <div class="sl-shot"><img src="/images/projects/nutrilife.webp" alt="NutriLife — AI nutrition app that scans meals" loading="lazy" decoding="async"><span class="sl-cat">AI &amp; ML</span><span class="sl-vibe">vibe coded</span><span class="sl-live">live</span></div>
+                        <div class="sl-body">
+                            <h3 class="sl-card-title">NutriLife — AI Nutrition Coach</h3>
+                            <div class="sl-by">by Bhavya</div>
+                            <p class="sl-desc">Snap a photo of any meal and NutriLife instantly names every food, then breaks down the calories, macros, vitamins and minerals — powered by AI. Bhavya vibe-coded it from a single idea: shaped the app in prompts, then wired up the AI food-recognition, daily tracking and smart coaching by hand.</p>
+                            <div class="sl-tags"><span>Vibe Coding</span><span>AI Vision</span><span>React</span><span>Lovable</span></div>
+                            <div class="sl-card-foot"><span class="sl-open">Open the live project ↗</span><span class="sl-diff">Advanced</span></div>
+                        </div>
+                    </a>
+
+                    <a class="sl-card sl-reveal" data-category="ai" href="https://guardianx-cybersaver.lovable.app" target="_blank" rel="noopener">
+                        <div class="sl-shot"><img src="/images/projects/guardianx.webp" alt="GuardianX — AI cyber-safety bodyguard for the internet" loading="lazy" decoding="async"><span class="sl-cat">AI &amp; ML</span><span class="sl-vibe">vibe coded</span><span class="sl-live">live</span></div>
+                        <div class="sl-body">
+                            <h3 class="sl-card-title">GuardianX — AI Bodyguard for the Internet</h3>
+                            <div class="sl-by">by a Modern Age Coders student</div>
+                            <p class="sl-desc">Paste any suspicious link or message and GuardianX returns an instant AI verdict before you become a victim — plus a link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded from idea to working product through prompts, then refined until it genuinely understands how phishing and scams work.</p>
+                            <div class="sl-tags"><span>Vibe Coding</span><span>AI</span><span>React</span><span>Lovable</span></div>
+                            <div class="sl-card-foot"><span class="sl-open">Open the live project ↗</span><span class="sl-diff">Advanced</span></div>
+                        </div>
+                    </a>
+
+                    <a class="sl-card sl-reveal" data-category="game" href="https://superpawer.netlify.app" target="_blank" rel="noopener">
+                        <div class="sl-shot"><img src="/images/projects/superpawer.webp" alt="Palm Arcana — webcam hand-tracking game that summons fire and lightning" loading="lazy" decoding="async"><span class="sl-cat">Game</span><span class="sl-vibe">vibe coded</span><span class="sl-live">live</span></div>
+                        <div class="sl-body">
+                            <h3 class="sl-card-title">Palm Arcana — Summon the Elements</h3>
+                            <div class="sl-by">by a Modern Age Coders student</div>
+                            <p class="sl-desc">Open your palms to the webcam and computer vision turns your gestures into real magic — the left palm throws a fireball, the right crackles with lightning. A wild blend of hand-tracking AI, creative coding and pure imagination, vibe-coded into a playable browser experience.</p>
+                            <div class="sl-tags"><span>Vibe Coding</span><span>Computer Vision</span><span>JavaScript</span><span>Canvas</span></div>
                             <div class="sl-card-foot"><span class="sl-open">Open the live project ↗</span><span class="sl-diff">Advanced</span></div>
                         </div>
                     </a>
