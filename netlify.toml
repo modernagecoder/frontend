@@ -437,6 +437,11 @@
   status = 200
 
 [[redirects]]
+  from = "/student-labs.md"
+  to = "/src/pages/student-labs.md"
+  status = 200
+
+[[redirects]]
   from = "/coding-roadmap"
   to = "/src/pages/coding-roadmap.html"
   status = 200

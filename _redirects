@@ -103,6 +103,7 @@
 /gazette /src/pages/gazette.html 200
 /newspaper /gazette 301!
 /student-labs /src/pages/student-labs.html 200
+/student-labs.md /src/pages/student-labs.md 200
 /coding-roadmap /src/pages/coding-roadmap.html 200
 /coding-roadmap.md /src/pages/coding-roadmap.md 200
 /bootstrap /src/pages/bootstrap.html 200
