@@ -25,6 +25,8 @@ Real projects built by Modern Age Coders students — games, AI chatbots, weathe
 - **HugSelle — AI Smile Generator** — detects mood and generates uplifting quotes & visuals (Python, Machine Learning, AI). By Anurag. https://hugselle.modernagecoders.com
 - **NutriLife — AI Nutrition Coach** — snap a meal photo and AI names every food + breaks down calories, macros, vitamins & minerals; daily tracking and smart coaching. Vibe-coded (built with AI prompts, then refined by hand). Vibe Coding, AI Vision, React, Lovable. By Bhavya. https://nutrilife-bhavya.lovable.app
 - **GuardianX — AI Bodyguard for the Internet** — paste any suspicious link/message for an instant AI scam verdict; link scanner, safety score, breach check and live scam alerts built for India. Vibe-coded. Vibe Coding, AI, React, Lovable. By Vivaan. https://guardianx-cybersaver.lovable.app
+- **BookDesk — AI Book Summaries & Quizzes** — type any book name + author and get the book's details, a summary and a custom quiz; a full-stack AI study app powered by Google Gemini + a live database. Gemini AI, Full-Stack, Database, Quiz Gen. By Anika. https://bookdesk1.netlify.app
+- **HairSync — AI Hairstyle Try-On** — upload a photo and try on any hairstyle (wolf cut, curtain bangs, fades, braids…) rendered by AI in seconds. Vibe-coded. Vibe Coding, AI Image, Virtual Try-On, Lovable. By Kriti. https://hairsync.lovable.app
 
 ### Web Apps
 - **SkyCast — Weather Forecast App** — real-time weather for any location (JavaScript, API, HTML/CSS). By Krish. https://krish-shroff.github.io/AuraWeatherTech/
@@ -60,7 +62,10 @@ Python, JavaScript, HTML & CSS, React, Node.js, MongoDB, Firebase, AI & ML, GSAP
 - *"Building the Misti AI chatbot was the most exciting thing I've done. I went from knowing nothing about AI to deploying a full working chatbot."* — **Harshit**, AI & ML Course (built Misti)
 - *"I never thought I could build a real website with animations and parallax at my age. Now I'm building websites for fun!"* — **Isha**, Web Development Course (built Moxo)
 
-More real feedback on the Wall of Love: /love
+### Feedback from our families (videos)
+Real parents and students in their own words — video stories you can watch: Pure Love & Joy, Honest Feelings, Life Changing Moments, Proud & Happy, Sweet Memories, Heartfelt Stories, Genuine Smiles.
+- Full Wall of Love: /love
+- Complete feedback video playlist: https://youtube.com/playlist?list=PLfTigabkzKdy4y52hmNOQRaL8gsc9lbU1
 
 ## FAQ
 - **What projects can beginners build?** Word counters, image sliders, memory games and calculators first; then weather apps, typing challenges and interactive sites. First project usually within 2–3 months.

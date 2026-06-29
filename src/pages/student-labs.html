@@ -108,7 +108,9 @@
             { "@type": "ListItem", "position": 16, "item": { "@type": "CreativeWork", "name": "GuardianX — AI Bodyguard for the Internet", "url": "https://guardianx-cybersaver.lovable.app" } },
             { "@type": "ListItem", "position": 17, "item": { "@type": "CreativeWork", "name": "Palm Arcana — Summon the Elements", "url": "https://superpawer.netlify.app" } },
             { "@type": "ListItem", "position": 18, "item": { "@type": "CreativeWork", "name": "LumenFX — AR/VR Photo Effects Studio", "url": "https://arvrbadestweb.lovable.app" } },
-            { "@type": "ListItem", "position": 19, "item": { "@type": "CreativeWork", "name": "Doodle Dash — 30-Second Drawing Challenge", "url": "https://doodledashmaster.lovable.app" } }
+            { "@type": "ListItem", "position": 19, "item": { "@type": "CreativeWork", "name": "Doodle Dash — 30-Second Drawing Challenge", "url": "https://doodledashmaster.lovable.app" } },
+            { "@type": "ListItem", "position": 20, "item": { "@type": "CreativeWork", "name": "BookDesk — AI Book Summaries & Quizzes", "url": "https://bookdesk1.netlify.app" } },
+            { "@type": "ListItem", "position": 21, "item": { "@type": "CreativeWork", "name": "HairSync — AI Hairstyle Try-On", "url": "https://hairsync.lovable.app" } }
           ]
         },
         {
@@ -319,6 +321,27 @@
         .sl-voice-who small { font-family: var(--mono); font-size: .72rem; color: var(--ink-3); }
         @media (max-width: 680px) { .sl-voices { grid-template-columns: 1fr; } }
 
+        /* video feedback wall */
+        .sl-vid-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+        @media (max-width: 900px) { .sl-vid-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 520px) { .sl-vid-grid { grid-template-columns: 1fr; } }
+        .sl-vid { margin: 0; }
+        .sl-vid-frame { position: relative; aspect-ratio: 16 / 9; border: 2px solid var(--ink); border-radius: 15px; overflow: hidden; background: #1E1B16; box-shadow: 5px 6px 0 var(--rule-2); }
+        .sl-vid-play { position: absolute; inset: 0; width: 100%; height: 100%; padding: 0; border: 0; background: none; cursor: pointer; display: block; }
+        .sl-vid-play img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+        .sl-vid-frame:hover .sl-vid-play img { transform: scale(1.06); }
+        .sl-vid-frame::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 45%, rgba(0,0,0,.35) 100%); pointer-events: none; }
+        .sl-vid-frame.sl-playing::after { display: none; }
+        .sl-vid-pin { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 54px; height: 54px; border-radius: 50%; background: rgba(255,255,255,.94); border: 2px solid var(--ink); display: grid; place-items: center; color: var(--margin); box-shadow: 0 6px 18px rgba(0,0,0,.3); transition: transform .18s ease, background .18s ease; z-index: 2; }
+        .sl-vid-pin svg { width: 24px; height: 24px; margin-left: 3px; }
+        .sl-vid-frame:hover .sl-vid-pin { transform: translate(-50%, -50%) scale(1.12); background: #fff; }
+        .sl-vid-play:focus-visible .sl-vid-pin { transform: translate(-50%, -50%) scale(1.12); }
+        .sl-vid iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+        .sl-vid-meta { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding: 11px 4px 0; }
+        .sl-vid-title { font-family: var(--display); font-weight: 600; font-size: .98rem; color: var(--ink); }
+        .sl-vid-dur { font-family: var(--mono); font-size: .74rem; color: var(--ink-3); flex: none; }
+        .sl-vid-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 34px; }
+
         /* faq */
         .sl-faq { max-width: 820px; margin: 0 auto; display: grid; gap: 10px; }
         .sl-faq details { border-bottom: 1.5px solid var(--rule); }
@@ -410,13 +433,13 @@
         <div class="sl-filterwrap" id="sl-lab">
             <div class="sl-wrap">
                 <div class="sl-filter" role="group" aria-label="Filter projects by type">
-                    <button class="sl-fbtn sl-on" type="button" data-filter="all" aria-pressed="true">All <span class="sl-fcount">19</span></button>
+                    <button class="sl-fbtn sl-on" type="button" data-filter="all" aria-pressed="true">All <span class="sl-fcount">21</span></button>
                     <button class="sl-fbtn" type="button" data-filter="game" aria-pressed="false">Games <span class="sl-fcount">6</span></button>
-                    <button class="sl-fbtn" type="button" data-filter="ai" aria-pressed="false">AI &amp; ML <span class="sl-fcount">4</span></button>
+                    <button class="sl-fbtn" type="button" data-filter="ai" aria-pressed="false">AI &amp; ML <span class="sl-fcount">6</span></button>
                     <button class="sl-fbtn" type="button" data-filter="webapp" aria-pressed="false">Web Apps <span class="sl-fcount">6</span></button>
                     <button class="sl-fbtn" type="button" data-filter="tool" aria-pressed="false">Tools <span class="sl-fcount">3</span></button>
                 </div>
-                <p class="sl-showing" id="slShowing" aria-live="polite">Showing all 19 projects</p>
+                <p class="sl-showing" id="slShowing" aria-live="polite">Showing all 21 projects</p>
             </div>
         </div>
 
@@ -509,6 +532,28 @@
                             <div class="sl-by">by Shubh</div>
                             <p class="sl-desc">Pick a difficulty, get a prompt, and you have exactly 30 seconds to draw it — then an AI judge scores how close you got. Three modes from easy objects to chaotic scenes. Shubh vibe-coded it idea-first, wiring real AI image grading into a fast, addictive drawing game.</p>
                             <div class="sl-tags"><span>Vibe Coding</span><span>AI Judge</span><span>Canvas</span><span>Lovable</span></div>
+                            <div class="sl-card-foot"><span class="sl-open">Open the live project ↗</span><span class="sl-diff">Advanced</span></div>
+                        </div>
+                    </a>
+
+                    <a class="sl-card sl-reveal" data-category="ai" href="https://bookdesk1.netlify.app" target="_blank" rel="noopener">
+                        <div class="sl-shot"><img src="/images/projects/bookdesk.webp" alt="BookDesk — full-stack AI app that summarises any book and builds a quiz" loading="lazy" decoding="async"><span class="sl-cat">AI &amp; ML</span><span class="sl-vibe">vibe coded</span><span class="sl-live">live</span></div>
+                        <div class="sl-body">
+                            <h3 class="sl-card-title">BookDesk — AI Book Summaries &amp; Quizzes</h3>
+                            <div class="sl-by">by Anika</div>
+                            <p class="sl-desc">Type in any book name and author, and BookDesk pulls together the book's details, a clear summary and a custom quiz to test what you've learned — a genuinely useful study companion. Anika built it as a full-stack AI application, powered by Google Gemini with a live database behind it.</p>
+                            <div class="sl-tags"><span>Gemini AI</span><span>Full-Stack</span><span>Database</span><span>Quiz Gen</span></div>
+                            <div class="sl-card-foot"><span class="sl-open">Open the live project ↗</span><span class="sl-diff">Advanced</span></div>
+                        </div>
+                    </a>
+
+                    <a class="sl-card sl-reveal" data-category="ai" href="https://hairsync.lovable.app" target="_blank" rel="noopener">
+                        <div class="sl-shot"><img src="/images/projects/hairsync.webp" alt="HairSync — AI virtual hairstyle try-on app" loading="lazy" decoding="async"><span class="sl-cat">AI &amp; ML</span><span class="sl-vibe">vibe coded</span><span class="sl-live">live</span></div>
+                        <div class="sl-body">
+                            <h3 class="sl-card-title">HairSync — AI Hairstyle Try-On</h3>
+                            <div class="sl-by">by Kriti</div>
+                            <p class="sl-desc">Upload a clear photo and try on any hairstyle before you commit — wolf cuts, curtain bangs, fades, braids and dozens of trending looks, rendered onto your own face by AI in seconds. Kriti vibe-coded this virtual try-on studio from a single idea into a working app.</p>
+                            <div class="sl-tags"><span>Vibe Coding</span><span>AI Image</span><span>Virtual Try-On</span><span>Lovable</span></div>
                             <div class="sl-card-foot"><span class="sl-open">Open the live project ↗</span><span class="sl-diff">Advanced</span></div>
                         </div>
                     </a>
@@ -731,8 +776,88 @@
                         <div class="sl-voice-who"><b>Isha</b><small>Student · Web Development Course · built Moxo</small></div>
                     </blockquote>
                 </div>
-                <div style="text-align:center;margin-top:26px">
-                    <a class="sl-btn sl-btn-ghost" href="/love">Read the whole Wall of Love →</a>
+            </div>
+        </section>
+
+        <!-- VIDEO FEEDBACK / WALL OF LOVE -->
+        <section class="sl-section" style="padding-top:0">
+            <div class="sl-wrap">
+                <div class="sl-head">
+                    <span class="sl-eyebrow">see it &amp; hear it</span>
+                    <h2>Feedback from our families</h2>
+                    <svg class="sl-underline" viewBox="0 0 200 14" aria-hidden="true"><path d="M3 8 C 40 2, 70 12, 100 7 S 165 3, 197 8"/></svg>
+                    <p class="sl-lead" style="margin-top:1rem">Real parents and students, in their own words. Press play on any story — or watch the full Wall of Love and our complete feedback playlist.</p>
+                </div>
+
+                <div class="sl-vid-grid">
+                    <figure class="sl-vid sl-reveal">
+                        <div class="sl-vid-frame">
+                            <button class="sl-vid-play" type="button" data-yt="U7vTcMULDY8" aria-label="Play feedback video: Pure Love and Joy">
+                                <img src="https://i.ytimg.com/vi/U7vTcMULDY8/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+                                <span class="sl-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
+                            </button>
+                        </div>
+                        <figcaption class="sl-vid-meta"><span class="sl-vid-title">Pure Love &amp; Joy</span><span class="sl-vid-dur">2:30</span></figcaption>
+                    </figure>
+                    <figure class="sl-vid sl-reveal">
+                        <div class="sl-vid-frame">
+                            <button class="sl-vid-play" type="button" data-yt="GhoF3-d-92E" aria-label="Play feedback video: Honest Feelings">
+                                <img src="https://i.ytimg.com/vi/GhoF3-d-92E/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+                                <span class="sl-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
+                            </button>
+                        </div>
+                        <figcaption class="sl-vid-meta"><span class="sl-vid-title">Honest Feelings</span><span class="sl-vid-dur">1:45</span></figcaption>
+                    </figure>
+                    <figure class="sl-vid sl-reveal">
+                        <div class="sl-vid-frame">
+                            <button class="sl-vid-play" type="button" data-yt="Up6S920LyRs" aria-label="Play feedback video: Life Changing Moments">
+                                <img src="https://i.ytimg.com/vi/Up6S920LyRs/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+                                <span class="sl-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
+                            </button>
+                        </div>
+                        <figcaption class="sl-vid-meta"><span class="sl-vid-title">Life Changing Moments</span><span class="sl-vid-dur">4:10</span></figcaption>
+                    </figure>
+                    <figure class="sl-vid sl-reveal">
+                        <div class="sl-vid-frame">
+                            <button class="sl-vid-play" type="button" data-yt="j-eaIPbSksc" aria-label="Play feedback video: Proud and Happy">
+                                <img src="https://i.ytimg.com/vi/j-eaIPbSksc/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+                                <span class="sl-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
+                            </button>
+                        </div>
+                        <figcaption class="sl-vid-meta"><span class="sl-vid-title">Proud &amp; Happy</span><span class="sl-vid-dur">3:05</span></figcaption>
+                    </figure>
+                    <figure class="sl-vid sl-reveal">
+                        <div class="sl-vid-frame">
+                            <button class="sl-vid-play" type="button" data-yt="5hgvxieimTM" aria-label="Play feedback video: Sweet Memories">
+                                <img src="https://i.ytimg.com/vi/5hgvxieimTM/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+                                <span class="sl-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
+                            </button>
+                        </div>
+                        <figcaption class="sl-vid-meta"><span class="sl-vid-title">Sweet Memories</span><span class="sl-vid-dur">2:15</span></figcaption>
+                    </figure>
+                    <figure class="sl-vid sl-reveal">
+                        <div class="sl-vid-frame">
+                            <button class="sl-vid-play" type="button" data-yt="v9pNat8vY9M" aria-label="Play feedback video: Heartfelt Stories">
+                                <img src="https://i.ytimg.com/vi/v9pNat8vY9M/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+                                <span class="sl-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
+                            </button>
+                        </div>
+                        <figcaption class="sl-vid-meta"><span class="sl-vid-title">Heartfelt Stories</span><span class="sl-vid-dur">3:20</span></figcaption>
+                    </figure>
+                    <figure class="sl-vid sl-reveal">
+                        <div class="sl-vid-frame">
+                            <button class="sl-vid-play" type="button" data-yt="7Y4qFO1VwKc" aria-label="Play feedback video: Genuine Smiles">
+                                <img src="https://i.ytimg.com/vi/7Y4qFO1VwKc/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+                                <span class="sl-vid-pin" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg></span>
+                            </button>
+                        </div>
+                        <figcaption class="sl-vid-meta"><span class="sl-vid-title">Genuine Smiles</span><span class="sl-vid-dur">2:45</span></figcaption>
+                    </figure>
+                </div>
+
+                <div class="sl-vid-actions">
+                    <a class="sl-btn" href="/love">See the full Wall of Love</a>
+                    <a class="sl-btn sl-btn-ghost" href="https://youtube.com/playlist?list=PLfTigabkzKdy4y52hmNOQRaL8gsc9lbU1" target="_blank" rel="noopener">Watch the feedback playlist on YouTube ↗</a>
                 </div>
             </div>
         </section>
@@ -863,6 +988,23 @@
                     btns.forEach(function (b) { b.classList.remove('sl-on'); b.setAttribute('aria-pressed', 'false'); });
                     btn.classList.add('sl-on'); btn.setAttribute('aria-pressed', 'true');
                     applyFilter(btn.getAttribute('data-filter'));
+                });
+            });
+
+            /* feedback video facades — load YouTube only on click */
+            document.querySelectorAll('.sl-vid-play').forEach(function (btn) {
+                btn.addEventListener('click', function () {
+                    var id = btn.getAttribute('data-yt');
+                    if (!id) return;
+                    var frame = btn.closest('.sl-vid-frame');
+                    var f = document.createElement('iframe');
+                    f.setAttribute('src', 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0');
+                    f.setAttribute('title', 'Feedback video');
+                    f.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+                    f.setAttribute('allowfullscreen', '');
+                    frame.innerHTML = '';
+                    frame.classList.add('sl-playing');
+                    frame.appendChild(f);
                 });
             });
 
