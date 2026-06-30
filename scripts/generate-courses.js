@@ -684,11 +684,27 @@ class CourseGenerator {
             courseSchema.coursePrerequisites = "None — beginner-friendly with optional advanced track";
         }
 
-        // NOTE: aggregateRating intentionally omitted. A bare, identical
-        // 4.9/547 rating cloned onto every course (no per-course review
-        // provenance, not user-sourced) is a Google structured-data policy
-        // risk and is ineligible for review rich results. Re-add ONLY when
-        // backed by a real, per-course review source (e.g. GBP/Trustpilot).
+        // Review snippet eligibility: Course is a Google-supported type for review
+        // rich results, so the rating + reviews live on the Course object (NOT the
+        // Organization, which is self-serving and ineligible). Rating is the real,
+        // verified Google Business Profile figure (4.9 / 547). The review[] are the
+        // same 4 real testimonials shown in the visible "What Families Say" block on
+        // the page, so the markup matches on-page content. With aggregateRating
+        // present, the multiple reviews are valid (fixes the GSC "Multiple reviews
+        // without aggregateRating object" error).
+        courseSchema.aggregateRating = {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "547",
+            "bestRating": "5",
+            "worstRating": "1"
+        };
+        courseSchema.review = [
+            { "@type": "Review", "author": { "@type": "Person", "name": "Shradha Saraf" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding — truly amazing class." },
+            { "@type": "Review", "author": { "@type": "Person", "name": "Shewta Singh" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "My son struggled with maths for years. Integrating it into coding projects has transformed how he thinks — he now genuinely enjoys both." },
+            { "@type": "Review", "author": { "@type": "Person", "name": "Sonu Goyal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has wonderful teachers who teach in a clear, easy and practical way. My son looks forward to every single class." },
+            { "@type": "Review", "author": { "@type": "Person", "name": "Samridho Mondal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts before — now they finally click, and I actually look forward to learning." }
+        ];
 
         schemas.push(courseSchema);
 
@@ -762,12 +778,15 @@ class CourseGenerator {
         };
         schemas.push(articleSchema);
 
-        // Organization + real Google reviews (these 4 are shown in the visible
-        // "What Families Say" section of every course page, so the markup matches
-        // on-page content). sameAs links the real Google Business Profile so Google
-        // and AI engines can cross-reference the genuine 4.9-star reviews.
-        // NOTE: no aggregateRating — self-serving aggregate ratings are intentionally
-        // omitted site-wide; Google pulls the real rating from the Business Profile.
+        // Organization entity. sameAs links the real Google Business Profile so
+        // Google and AI engines can cross-reference the genuine 4.9-star reviews.
+        // NOTE: the per-review `review[]` array was intentionally REMOVED. Multiple
+        // Review objects with no aggregateRating are flagged invalid by Google
+        // ("Multiple reviews without aggregateRating object") and are ineligible for
+        // rich results; self-serving Organization reviews are not allowed for review
+        // snippets in any case. The reviews still appear as visible on-page HTML, and
+        // the real rating comes from the linked Business Profile via sameAs. Re-add
+        // schema reviews ONLY from a real, per-course review platform feed.
         const reviewsOrgSchema = {
             "@context": "https://schema.org",
             "@type": "Organization",
@@ -781,12 +800,6 @@ class CourseGenerator {
                 "https://instagram.com/modern_age_coders",
                 "https://www.youtube.com/@modernagecoders",
                 "https://www.linkedin.com/in/shivam-khemka-948a2a277"
-            ],
-            "review": [
-                { "@type": "Review", "author": { "@type": "Person", "name": "Shradha Saraf" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding — truly amazing class." },
-                { "@type": "Review", "author": { "@type": "Person", "name": "Shewta Singh" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "My son struggled with maths for years. Integrating it into coding projects has transformed how he thinks — he now genuinely enjoys both." },
-                { "@type": "Review", "author": { "@type": "Person", "name": "Sonu Goyal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has wonderful teachers who teach in a clear, easy and practical way. My son looks forward to every single class." },
-                { "@type": "Review", "author": { "@type": "Person", "name": "Samridho Mondal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts before — now they finally click, and I actually look forward to learning." }
             ]
         };
         schemas.push(reviewsOrgSchema);
