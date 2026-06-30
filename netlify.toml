@@ -257,6 +257,36 @@
   status = 200
 
 [[redirects]]
+  from = "/pcep-python-certification-prep"
+  to = "/src/pages/pcep-python-certification-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/pcep-python-certification-prep.md"
+  to = "/src/pages/pcep-python-certification-prep.md"
+  status = 200
+
+[[redirects]]
+  from = "/oca-java-certification-prep"
+  to = "/src/pages/oca-java-certification-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/oca-java-certification-prep.md"
+  to = "/src/pages/oca-java-certification-prep.md"
+  status = 200
+
+[[redirects]]
+  from = "/cpa-cpp-certification-prep"
+  to = "/src/pages/cpa-cpp-certification-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/cpa-cpp-certification-prep.md"
+  to = "/src/pages/cpa-cpp-certification-prep.md"
+  status = 200
+
+[[redirects]]
   from = "/vibe-coding-classes.md"
   to = "/src/pages/vibe-coding-classes.md"
   status = 200
