@@ -1,0 +1,432 @@
+{
+  "meta": {
+    "slug": "python-lambda-functions",
+    "title": "Python Lambda Functions: When to Use Them, 10 Examples",
+    "description": "Lambda functions in Python explained: the anatomy, the key argument, map and filter, when not to use them, and 10 tested examples with output.",
+    "keywords": [
+      "lambda function python",
+      "python lambda",
+      "anonymous function python",
+      "sorted key lambda python",
+      "map filter lambda python",
+      "lambda vs def python",
+      "sort by value lambda"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-03",
+    "dateModified": "2026-07-03",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Lambda",
+      "Functions",
+      "Intermediate Python",
+      "Clean Code"
+    ],
+    "readTime": "7 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Python Lambda Functions: When to Use Them, 10 Examples",
+    "subtitle": "What lambdas are, where they genuinely belong, and when to write a def instead, with 10 tested examples.",
+    "featuredImage": {
+      "url": "/images/blog/python-lambda-functions/00-hero.png",
+      "alt": "Python lambda functions explained with 10 tested examples"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Somewhere in every Python codebase sits a line like sorted(data, key=lambda x: x[1]), and every beginner who meets it has the same two questions: what is that lambda thing, and why did nobody just write a normal function? This guide answers both, honestly."
+      },
+      {
+        "type": "paragraph",
+        "text": "A <strong>lambda function</strong> is a small, anonymous function written as a single expression. It exists for one reason: sometimes you need a tiny throwaway function for exactly one moment, usually to tell another function like sorted(), max(), or filter() how to treat each item, and defining a full def for that moment is more ceremony than the job deserves."
+      },
+      {
+        "type": "paragraph",
+        "text": "Below are 10 tested examples, from your first lambda to sorting by two fields at once, plus the part most tutorials skip: when a lambda is the wrong choice. If functions in general still feel new, take a lap through <a href='/blog/python-for-beginners'>Python for beginners</a> first."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Anatomy of a Lambda",
+        "id": "anatomy"
+      },
+      {
+        "type": "paragraph",
+        "text": "Three parts: the lambda keyword, the arguments, and one expression whose value is returned automatically. That single-expression rule is the defining constraint. No statements, no loops, no multiple lines. It is a function distilled to one thought."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-lambda-functions/01-anatomy.png",
+        "alt": "Anatomy of a Python lambda function: the lambda keyword, the arguments, and a single expression that is returned automatically",
+        "caption": "One keyword, the arguments, one expression. The return is implied."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the same function written both ways. They behave identically; the difference is purely where and how briefly you need it."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-lambda-functions/02-def-vs-lambda.png",
+        "alt": "The same doubling function written with def and as a lambda in Python, behaving identically",
+        "caption": "Same function, two outfits. def for functions with a life, lambda for functions with a moment."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Your first lambda"
+      },
+      {
+        "type": "paragraph",
+        "text": "A lambda is a function squeezed into an expression: arguments before the colon, one expression after, and the result comes back automatically, no return needed. We name it here only so you can see it work; in real code, lambdas usually stay anonymous."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "double = lambda x: x * 2\n\nprint(double(5))\nprint(double(21))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "10\n42"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Two arguments, same idea"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lambdas take multiple arguments exactly like def functions."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "area = lambda length, width: length * width\n\nprint(area(5, 3))\nprint(area(12, 4))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "15\n48"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where Lambdas Actually Live: the key Argument",
+        "id": "the-key-argument"
+      },
+      {
+        "type": "paragraph",
+        "text": "Examples 1 and 2 exist to teach the syntax, but you will almost never assign a lambda to a name in real code. The genuine habitat of the lambda is the key argument, where it acts as a lens: it tells sorted(), max(), and min() what to look at when comparing items."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Sort words by length"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the lambda's true home: the key argument of sorted(). The lambda tells sorted() what to measure about each item, here the word's length, and the ordering follows that measurement."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "words = [\"python\", \"go\", \"javascript\", \"java\", \"c\"]\n\nby_length = sorted(words, key=lambda w: len(w))\n\nprint(by_length)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['c', 'go', 'java', 'python', 'javascript']"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-lambda-functions/03-key-lens.png",
+        "alt": "How the key argument works in Python sorted: the lambda measures each item and the ordering follows those measurements",
+        "caption": "sorted() never compares your items directly. It compares what the key lambda returns for each."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Sort pairs by the second value"
+      },
+      {
+        "type": "paragraph",
+        "text": "Records often arrive as tuples. The lambda reaches into each pair and picks the field to sort by, here the marks at position 1, highest first."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "results = [(\"Asha\", 92), (\"Rohan\", 85), (\"Meera\", 96), (\"Zoya\", 78)]\n\nranked = sorted(results, key=lambda pair: pair[1], reverse=True)\n\nprint(ranked)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[('Meera', 96), ('Asha', 92), ('Rohan', 85), ('Zoya', 78)]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Sort a dictionary by its values"
+      },
+      {
+        "type": "paragraph",
+        "text": "The same trick sorts dictionaries. Take the items, point the lambda at position 1, and rebuild."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = {\"maths\": 92, \"english\": 75, \"science\": 88}\n\nranked = dict(sorted(marks.items(), key=lambda item: item[1], reverse=True))\n\nprint(ranked)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{'maths': 92, 'science': 88, 'english': 75}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Find the top item with max()"
+      },
+      {
+        "type": "paragraph",
+        "text": "max() and min() accept the same key argument, which turns them into instant judges of anything."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "results = [(\"Asha\", 92), (\"Rohan\", 85), (\"Meera\", 96)]\n\ntopper = max(results, key=lambda pair: pair[1])\nlongest = max([\"go\", \"python\", \"javascript\"], key=lambda w: len(w))\n\nprint(\"Topper :\", topper)\nprint(\"Longest:\", longest)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Topper : ('Meera', 96)\nLongest: javascript"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "map() and filter(), With an Honest Note",
+        "id": "map-filter"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lambdas also pair with map() and filter(), and you should be able to read those combinations because older code is full of them. Worth knowing: modern Python style often prefers a <a href='/blog/python-list-comprehension-explained'>list comprehension</a> for the same jobs, [p * 2 for p in prices] instead of map. Both are correct; comprehensions are simply what you will see recommended more today."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. Transform a list with map()"
+      },
+      {
+        "type": "paragraph",
+        "text": "map() applies a function to every item. With a lambda, the whole transformation fits on one line. The list() call around it turns the lazy map object into a real list."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "prices = [120, 250, 80]\n\nwith_gst = list(map(lambda p: round(p * 1.18), prices))\n\nprint(with_gst)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[142, 295, 94]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Filter a list with filter()"
+      },
+      {
+        "type": "paragraph",
+        "text": "filter() keeps only the items for which the lambda returns True."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "numbers = [12, 7, 20, 3, 18, 9]\n\nevens = list(filter(lambda n: n % 2 == 0, numbers))\n\nprint(evens)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[12, 20, 18]"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Two Sharper Tricks",
+        "id": "sharper-tricks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two closing patterns worth keeping: a conditional expression inside a lambda, and the tuple trick for sorting by more than one field."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. A conditional inside a lambda"
+      },
+      {
+        "type": "paragraph",
+        "text": "A lambda body must be a single expression, and a conditional expression qualifies. This is as much logic as a lambda should ever hold."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "grade = lambda m: \"pass\" if m >= 40 else \"fail\"\n\nprint([grade(m) for m in [35, 72, 48, 91]])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['fail', 'pass', 'pass', 'pass']"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Sort by two things at once"
+      },
+      {
+        "type": "paragraph",
+        "text": "Return a tuple from the lambda and Python sorts by the first field, breaking ties with the second: here grade first, then name alphabetically."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "students = [(\"Rohan\", 8), (\"Asha\", 7), (\"Meera\", 8), (\"Zoya\", 7)]\n\nordered = sorted(students, key=lambda s: (s[1], s[0]))\n\nprint(ordered)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[('Asha', 7), ('Zoya', 7), ('Meera', 8), ('Rohan', 8)]"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When Not to Use a Lambda",
+        "id": "when-not"
+      },
+      {
+        "type": "paragraph",
+        "text": "The lambda's limits are features, not flaws, and respecting them is what separates tidy code from clever code. If the logic needs two steps, a name that explains itself, or will be used in more than one place, write a def. Python's own style guide, PEP 8, explicitly advises def over assigning a lambda to a variable, because grade = lambda m: ... gives you the worst of both: an anonymous function that now has a name, but no proper signature or docstring."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-lambda-functions/04-use-avoid.png",
+        "alt": "When to use a lambda in Python versus when to write a def function",
+        "caption": "A lambda is for a moment. A def is for a job."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Mistakes That Catch Everyone",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Trying to put statements inside:</strong> lambda x: print(x); x + 1 is a syntax error. One expression only.",
+          "<strong>Forgetting list() around map or filter:</strong> printing map(...) directly shows a map object, not your results.",
+          "<strong>Writing an if without an else:</strong> inside a lambda the conditional is an expression, so the else is compulsory.",
+          "<strong>Stuffing complex logic in:</strong> if your lambda needs a deep breath to read aloud, it wanted to be a def.",
+          "<strong>Assigning lambdas to names as a habit:</strong> fine for a quick demo, but PEP 8 says use def, and it is right."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "The reading trick",
+        "text": "Read key=lambda pair: pair[1] as by the second value. Read key=lambda w: len(w) as by length. The word by translates every key lambda you will ever meet into plain English."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is a lambda function in Python?",
+            "content": "A small anonymous function defined in a single expression: lambda arguments: expression. The expression's value is returned automatically. Lambdas are typically passed straight into functions like sorted(), max(), map(), and filter() rather than being named."
+          },
+          {
+            "title": "What is the difference between lambda and def?",
+            "content": "def creates a named function that can hold many statements, a docstring, and reusable logic. A lambda holds exactly one expression and usually has no name. Use def for anything with a life beyond one line; use lambda for a small function needed in exactly one place."
+          },
+          {
+            "title": "Why is lambda used in sorted()?",
+            "content": "sorted() accepts a key function that it calls on every item, and it orders items by those results instead of the items themselves. A lambda is the lightest way to say sort by length or sort by the second field right at the call site."
+          },
+          {
+            "title": "Can a lambda have if else?",
+            "content": "Yes, as a conditional expression: lambda m: \"pass\" if m >= 40 else \"fail\". The else part is compulsory, because the lambda must always produce a value. Full if statements with blocks are not allowed."
+          },
+          {
+            "title": "Can a lambda have multiple lines or statements?",
+            "content": "No. A lambda body is one expression, full stop. No assignments, no loops, no statements. The moment your logic needs more, that is Python nudging you toward def, and you should take the hint."
+          },
+          {
+            "title": "Is lambda faster than a normal function?",
+            "content": "No, they compile to essentially the same thing and run at the same speed. Choose between them for readability, not performance."
+          },
+          {
+            "title": "Should I use map and filter or list comprehensions?",
+            "content": "Both work, and you must be able to read both. Modern Python style generally prefers comprehensions: [p * 2 for p in prices] reads more directly than list(map(lambda p: p * 2, prices)). map and filter still shine when you already have a named function to apply."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Small Tool, Used Precisely"
+      },
+      {
+        "type": "paragraph",
+        "text": "That is the lambda: not a rite of passage, just a small tool with a precise grip. You will use it most inside sorted() and max(), you will read it everywhere in data code, where libraries like pandas lean on it constantly, and you now know exactly when to put it down and write a def instead. That path into data work is what our <a href='/master-ai-ml-python-java'>Python, AI and ML track</a> is built around."
+      },
+      {
+        "type": "paragraph",
+        "text": "Round out this level with <a href='/blog/python-list-comprehension-explained'>list comprehensions</a> and the <a href='/blog/python-dictionary-complete-guide'>dictionary guide</a>, or learn it all live in our <a href='/courses'>coding courses</a> for learners aged 6 to 67."
+      },
+      {
+        "type": "button",
+        "text": "Level Up Your Python",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-list-comprehension-explained'>Python List Comprehension: 15 Examples</a>",
+          "<a href='/blog/python-dictionary-complete-guide'>Python Dictionary: The Complete Guide</a>",
+          "<a href='/blog/python-oop-tutorial-for-beginners'>Python OOP Tutorial</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "python-list-comprehension-explained",
+    "python-dictionary-complete-guide",
+    "python-oop-tutorial-for-beginners"
+  ]
+}
