@@ -1,0 +1,848 @@
+{
+  "meta": {
+    "slug": "star-pattern-programs-in-python",
+    "title": "Star Pattern Programs in Python: 30 Patterns With Code",
+    "description": "30 star pattern programs in Python with code and real output: triangles, pyramids, diamonds, grids, number and alphabet patterns, from two simple loops.",
+    "keywords": [
+      "star pattern programs in python",
+      "python pattern programs",
+      "pyramid pattern in python",
+      "star pattern in python using for loop",
+      "number pattern programs in python",
+      "alphabet pattern in python",
+      "nested loops python"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-03",
+    "dateModified": "2026-07-03",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Pattern Programs",
+      "Nested Loops",
+      "Exam Preparation",
+      "Beginner Programming"
+    ],
+    "readTime": "14 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Star Pattern Programs in Python: 30 Patterns With Code",
+    "subtitle": "Triangles, pyramids, diamonds, grids, numbers, and letters. Thirty tested pattern programs, each with its code and the exact output it prints.",
+    "featuredImage": {
+      "url": "/images/blog/star-pattern-programs-in-python/00-hero.png",
+      "alt": "30 star pattern programs in Python with code and output"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every programmer remembers their first star pattern. A few loops, a print statement, and suddenly the screen is drawing triangles. Pattern programs stay popular for a good reason: they are the clearest way to learn how nested loops actually behave, and they show up in ICSE, CBSE, and college lab exams year after year."
+      },
+      {
+        "type": "paragraph",
+        "text": "This page collects <strong>30 star pattern programs in Python</strong>, organised into six families: star triangles, pyramids, diamonds, grids, number patterns, and alphabet patterns. Every program was run before it was pasted here, and the output shown under each one is the real output it printed."
+      },
+      {
+        "type": "paragraph",
+        "text": "You do not need much to follow along, just loops and print(). If those still feel shaky, warm up with our <a href='/blog/python-for-beginners'>Python for beginners</a> guide first, then come back and draw."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Two-Loop Idea Behind Every Pattern",
+        "id": "two-loop-idea"
+      },
+      {
+        "type": "paragraph",
+        "text": "All 30 patterns below run on the same engine. The outer loop picks a row. The inner loop, or a string expression, decides what that row contains. That is the whole secret. When a pattern looks complicated, it is never the loops that changed, only the decision about what to print at row i, column j."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/star-pattern-programs-in-python/01-two-loop-grid.png",
+        "alt": "How nested loops draw patterns in Python: the outer loop picks the row i, the inner loop walks the columns j and prints a star or a space",
+        "caption": "The outer loop picks the row, the inner loop walks the columns. Every pattern is just a different rule for star or space."
+      },
+      {
+        "type": "paragraph",
+        "text": "Python gives you two shortcuts worth knowing before you start. First, string multiplication: <span class=\"mono\">\"*\" * 3</span> gives ***, so a whole row can be one print call. Second, <span class=\"mono\">print(\"*\", end=\"\")</span> prints a star without jumping to the next line, which is how the cell-by-cell patterns stay on one row until you call an empty print()."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "How to practise these",
+        "text": "Do not copy all 30 in one sitting. Pick one family, type each pattern by hand, then change rows to 4 or 7 and predict what will happen before you run it. The prediction step is where the learning happens."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Six Families at a Glance",
+        "id": "six-families"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/star-pattern-programs-in-python/02-families.png",
+        "alt": "Six families of Python pattern programs: star triangles, pyramids, diamonds, squares and grids, number patterns, and alphabet patterns",
+        "caption": "Thirty patterns, six families. Master one pattern per family and the rest are variations."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Star Triangles",
+        "id": "star-triangles"
+      },
+      {
+        "type": "paragraph",
+        "text": "Triangles are where everyone starts, because Python's string multiplication does most of the work. One loop, one print, and the shape appears."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Right triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "The starter pattern. Row i gets i stars, and Python's string multiplication does the counting for you."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    print(\"*\" * i)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*\n**\n***\n****\n*****"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Inverted right triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Same idea, opposite direction. Counting down from rows to 1 flips the triangle upside down."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(rows, 0, -1):\n    print(\"*\" * i)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*****\n****\n***\n**\n*"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Right-aligned triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Push each row to the right by printing spaces first. Row i needs rows - i spaces before its stars."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    print(\" \" * (rows - i) + \"*\" * i)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "    *\n   **\n  ***\n ****\n*****"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Inverted right-aligned triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Combine the two tricks: count down and pad with spaces."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(rows, 0, -1):\n    print(\" \" * (rows - i) + \"*\" * i)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*****\n ****\n  ***\n   **\n    *"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Hollow right triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Print a star only on the edges: the first column, the diagonal, and the last row. Everything else is a space."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    for j in range(1, i + 1):\n        if j == 1 or j == i or i == rows:\n            print(\"*\", end=\"\")\n        else:\n            print(\" \", end=\"\")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*\n**\n* *\n*  *\n*****"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pyramids",
+        "id": "pyramids"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pyramids add one new idea: leading spaces. Get the spaces right and the stars centre themselves. The row formula to remember is rows - i spaces followed by 2i - 1 stars."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/star-pattern-programs-in-python/03-pyramid-row.png",
+        "alt": "Anatomy of one pyramid row in Python: rows minus i spaces followed by 2 times i minus 1 stars keeps every row centred",
+        "caption": "One row of a pyramid, taken apart. Spaces push the stars into the centre."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Full pyramid"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most asked pattern in exams. Each row is rows - i spaces followed by 2i - 1 stars, which keeps it centred."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    print(\" \" * (rows - i) + \"*\" * (2 * i - 1))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "    *\n   ***\n  *****\n *******\n*********"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. Inverted pyramid"
+      },
+      {
+        "type": "paragraph",
+        "text": "Run the same row formula backwards."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(rows, 0, -1):\n    print(\" \" * (rows - i) + \"*\" * (2 * i - 1))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*********\n *******\n  *****\n   ***\n    *"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Hollow pyramid"
+      },
+      {
+        "type": "paragraph",
+        "text": "Stars only at the two slanting edges and across the base. The two edge positions are rows - i + 1 and rows + i - 1."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    for j in range(1, 2 * rows):\n        if j == rows - i + 1 or j == rows + i - 1 or i == rows:\n            print(\"*\", end=\"\")\n        else:\n            print(\" \", end=\"\")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "    *\n   * *\n  *   *\n *     *\n*********"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. Hourglass"
+      },
+      {
+        "type": "paragraph",
+        "text": "An inverted pyramid on top of a normal one. The second loop starts at 2 so the middle row is not printed twice."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(rows, 0, -1):\n    print(\" \" * (rows - i) + \"*\" * (2 * i - 1))\nfor i in range(2, rows + 1):\n    print(\" \" * (rows - i) + \"*\" * (2 * i - 1))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*********\n *******\n  *****\n   ***\n    *\n   ***\n  *****\n *******\n*********"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Christmas tree"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two stacked pyramids and a one-character trunk. A favourite in school projects every December."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 4\nfor i in range(1, rows + 1):\n    print(\" \" * (rows - i) + \"*\" * (2 * i - 1))\nfor i in range(2, rows + 1):\n    print(\" \" * (rows - i) + \"*\" * (2 * i - 1))\nprint(\" \" * (rows - 1) + \"|\")"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "   *\n  ***\n *****\n*******\n  ***\n *****\n*******\n   |"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Diamonds and Wings",
+        "id": "diamonds"
+      },
+      {
+        "type": "paragraph",
+        "text": "These shapes are two triangles or pyramids glued together. If you can print a pyramid, you already know how to print all five of these."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "11. Diamond"
+      },
+      {
+        "type": "paragraph",
+        "text": "A pyramid going up, then the same rows going back down. Note the second loop starts at rows - 1 so the widest row prints once."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    print(\" \" * (rows - i) + \"*\" * (2 * i - 1))\nfor i in range(rows - 1, 0, -1):\n    print(\" \" * (rows - i) + \"*\" * (2 * i - 1))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "    *\n   ***\n  *****\n *******\n*********\n *******\n  *****\n   ***\n    *"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "12. Hollow diamond"
+      },
+      {
+        "type": "paragraph",
+        "text": "Only the two edge stars of each row survive. The top row is the single point where both edges meet."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    for j in range(1, 2 * rows):\n        if j == rows - i + 1 or j == rows + i - 1:\n            print(\"*\", end=\"\")\n        else:\n            print(\" \", end=\"\")\n    print()\nfor i in range(rows - 1, 0, -1):\n    for j in range(1, 2 * rows):\n        if j == rows - i + 1 or j == rows + i - 1:\n            print(\"*\", end=\"\")\n        else:\n            print(\" \", end=\"\")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "    *\n   * *\n  *   *\n *     *\n*       *\n *     *\n  *   *\n   * *\n    *"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "13. Right Pascal triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Grow to the full width, then shrink back. Two simple loops, no spaces needed."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    print(\"*\" * i)\nfor i in range(rows - 1, 0, -1):\n    print(\"*\" * i)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*\n**\n***\n****\n*****\n****\n***\n**\n*"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "14. Left Pascal triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "The mirrored version. The space padding from the right-aligned triangle does the aligning."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    print(\" \" * (rows - i) + \"*\" * i)\nfor i in range(rows - 1, 0, -1):\n    print(\" \" * (rows - i) + \"*\" * i)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "    *\n   **\n  ***\n ****\n*****\n ****\n  ***\n   **\n    *"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "15. Butterfly"
+      },
+      {
+        "type": "paragraph",
+        "text": "Stars on both sides with a widening gap of spaces in the middle. The gap for row i is 2 * (rows - i) spaces."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 4\nfor i in range(1, rows + 1):\n    print(\"*\" * i + \" \" * (2 * (rows - i)) + \"*\" * i)\nfor i in range(rows, 0, -1):\n    print(\"*\" * i + \" \" * (2 * (rows - i)) + \"*\" * i)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*      *\n**    **\n***  ***\n********\n********\n***  ***\n**    **\n*      *"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Squares and Grids",
+        "id": "squares-grids"
+      },
+      {
+        "type": "paragraph",
+        "text": "Grid patterns think in coordinates. The inner loop asks one question for every cell: does a star belong at row i, column j? The if condition is the whole pattern."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/star-pattern-programs-in-python/04-solid-vs-hollow.png",
+        "alt": "Solid square versus hollow square pattern in Python, showing the border condition that turns a filled shape into an outline",
+        "caption": "Solid fills every cell. Hollow keeps only the border, decided by one if condition."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "16. Solid square"
+      },
+      {
+        "type": "paragraph",
+        "text": "One line of stars, printed rows times."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(rows):\n    print(\"*\" * rows)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*****\n*****\n*****\n*****\n*****"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "17. Hollow square"
+      },
+      {
+        "type": "paragraph",
+        "text": "Stars on the border only: first row, last row, first column, last column."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    for j in range(1, rows + 1):\n        if i == 1 or i == rows or j == 1 or j == rows:\n            print(\"*\", end=\"\")\n        else:\n            print(\" \", end=\"\")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*****\n*   *\n*   *\n*   *\n*****"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "18. X pattern"
+      },
+      {
+        "type": "paragraph",
+        "text": "A star lands where the row and column meet on either diagonal: j == i or j == size - 1 - i."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "size = 5\nfor i in range(size):\n    for j in range(size):\n        if j == i or j == size - 1 - i:\n            print(\"*\", end=\"\")\n        else:\n            print(\" \", end=\"\")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*   *\n * *\n  *\n * *\n*   *"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "19. Plus pattern"
+      },
+      {
+        "type": "paragraph",
+        "text": "Stars along the middle row and the middle column. Use an odd size so there is a true centre."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "size = 5\nmid = size // 2\nfor i in range(size):\n    for j in range(size):\n        if i == mid or j == mid:\n            print(\"*\", end=\"\")\n        else:\n            print(\" \", end=\"\")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "  *\n  *\n*****\n  *\n  *"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "20. Checkerboard"
+      },
+      {
+        "type": "paragraph",
+        "text": "A star wherever row + column is even. Change the % 2 test to flip the colours."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(rows):\n    for j in range(rows):\n        if (i + j) % 2 == 0:\n            print(\"*\", end=\"\")\n        else:\n            print(\" \", end=\"\")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "* * *\n * *\n* * *\n * *\n* * *"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Number Patterns",
+        "id": "number-patterns"
+      },
+      {
+        "type": "paragraph",
+        "text": "Swap the star for a number and the same loops teach you something new: what the loop variables are actually doing. These five turn up constantly in ICSE and CBSE papers."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "21. Number triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Swap stars for the column number and the counting becomes visible."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    for j in range(1, i + 1):\n        print(j, end=\" \")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1\n1 2\n1 2 3\n1 2 3 4\n1 2 3 4 5"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "22. Repeated row number"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every row repeats its own row number i, exactly i times."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    print((str(i) + \" \") * i)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1\n2 2\n3 3 3\n4 4 4 4\n5 5 5 5 5"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "23. Floyd's triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "A running counter that never resets, so the numbers flow across the rows: 1, then 2 3, then 4 5 6."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nnum = 1\nfor i in range(1, rows + 1):\n    for j in range(i):\n        print(num, end=\" \")\n        num += 1\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1\n2 3\n4 5 6\n7 8 9 10\n11 12 13 14 15"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "24. Palindrome number pyramid"
+      },
+      {
+        "type": "paragraph",
+        "text": "Build the left half as a string, mirror it without its last character, and glue the two together."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    left = \"\".join(str(j) for j in range(1, i + 1))\n    print(\" \" * (rows - i) + left + left[:-1][::-1])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "    1\n   121\n  12321\n 1234321\n123454321"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "25. Inverted number triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "The number triangle, counting down. Row one is the longest and it shrinks from there."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(rows, 0, -1):\n    for j in range(1, i + 1):\n        print(j, end=\" \")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1 2 3 4 5\n1 2 3 4\n1 2 3\n1 2\n1"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Alphabet and Word Patterns",
+        "id": "alphabet-patterns"
+      },
+      {
+        "type": "paragraph",
+        "text": "One small tool makes letter patterns possible: chr(). Since chr(65) is A, the letter for column j is chr(65 + j), and everything else works like the number patterns."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "26. Alphabet triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "chr(65) is the letter A, chr(66) is B, and so on. Each row walks a little further down the alphabet."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    for j in range(i):\n        print(chr(65 + j), end=\" \")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "A\nA B\nA B C\nA B C D\nA B C D E"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "27. Repeated letter rows"
+      },
+      {
+        "type": "paragraph",
+        "text": "Row i repeats its own letter i times, the alphabet cousin of the repeated number pattern."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(rows):\n    print((chr(65 + i) + \" \") * (i + 1))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "A\nB B\nC C C\nD D D D\nE E E E E"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "28. Alphabet palindrome pyramid"
+      },
+      {
+        "type": "paragraph",
+        "text": "The classic A, ABA, ABCBA shape. Same mirror trick as the number version, with letters."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(1, rows + 1):\n    left = \"\".join(chr(64 + j) for j in range(1, i + 1))\n    print(\" \" * (rows - i) + left + left[:-1][::-1])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "    A\n   ABA\n  ABCBA\n ABCDCBA\nABCDEDCBA"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "29. Inverted alphabet triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Start wide and lose one letter per row."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "rows = 5\nfor i in range(rows, 0, -1):\n    for j in range(i):\n        print(chr(65 + j), end=\" \")\n    print()"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "A B C D E\nA B C D\nA B C\nA B\nA"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "30. Word staircase"
+      },
+      {
+        "type": "paragraph",
+        "text": "A gentle finisher: slice a word one letter longer each row. Try it with your own name."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "word = \"PYTHON\"\nfor i in range(1, len(word) + 1):\n    print(word[:i])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "P\nPY\nPYT\nPYTH\nPYTHO\nPYTHON"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When Your Pattern Looks Wrong",
+        "id": "debugging"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every pattern that comes out crooked fails for one of a small number of reasons. Check these before staring at the loops."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Everything prints on one line:</strong> you forgot the empty print() after the inner loop.",
+          "<strong>Everything prints on its own line:</strong> you forgot end=\"\" inside the inner loop.",
+          "<strong>The shape leans left:</strong> your space count is off by one. Print rows - i spaces, not rows - i + 1.",
+          "<strong>One row too few:</strong> range(1, rows) stops before rows. You almost always want range(1, rows + 1).",
+          "<strong>The hollow shape is filled:</strong> your if condition prints a star in the else branch too. Only the edges get stars."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "The exam shortcut",
+        "text": "In ICSE and CBSE papers, pattern questions are marks waiting to be collected. Learn the pyramid row formula, the border condition for hollow shapes, and Floyd's running counter, and you can rebuild nearly any pattern they throw at you. Students in our live classes drill exactly these, one pattern family at a time."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How do nested loops create patterns in Python?",
+            "content": "The outer loop runs once per row. For each row, the inner loop runs once per column and decides whether to print a star, a number, a letter, or a space. After the inner loop finishes a row, an empty print() moves to the next line. Every pattern on this page follows that structure."
+          },
+          {
+            "title": "How do I print stars on the same line in Python?",
+            "content": "Use print(\"*\", end=\"\"). By default print jumps to a new line after every call, and end=\"\" replaces that newline with nothing, so the next star lands beside the previous one."
+          },
+          {
+            "title": "What is the formula for a pyramid pattern?",
+            "content": "For row i out of n rows, print n - i spaces followed by 2i - 1 stars. The spaces push the stars toward the centre and the odd star counts (1, 3, 5, 7) keep the shape symmetrical."
+          },
+          {
+            "title": "How do I make a hollow pattern instead of a solid one?",
+            "content": "Print a star only when the cell sits on the border of the shape, and a space everywhere else. For a square that means the first row, last row, first column, or last column. For a pyramid it means the two slanted edges and the base."
+          },
+          {
+            "title": "How do I change the size of a pattern?",
+            "content": "Every program here stores the size in a variable named rows or size at the top. Change that one number and the whole shape scales, which is exactly why the loop limits are written in terms of the variable instead of fixed numbers."
+          },
+          {
+            "title": "Which pattern programs are asked most in school exams?",
+            "content": "The full pyramid, the right triangle and its inverted form, Floyd's triangle, the number triangle, and at least one hollow shape appear again and again in ICSE and CBSE papers. If you are preparing for a board exam, master those six first."
+          },
+          {
+            "title": "How do I print alphabet patterns in Python?",
+            "content": "Use the chr() function. chr(65) is A, chr(66) is B, and so on, so the letter for column j is chr(65 + j). After that, alphabet patterns work exactly like number patterns."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Draw Your Way to Real Skill"
+      },
+      {
+        "type": "paragraph",
+        "text": "Thirty patterns sounds like a lot, but you have really practised six ideas: string multiplication, leading spaces, running counters, border conditions, mirroring, and chr(). Those six carry you far beyond patterns, into every loop you will ever write. For more hands-on practice like this, try <a href='/blog/how-to-reverse-a-string-in-python'>reversing a string five ways</a> or the <a href='/blog/how-to-find-hcf-and-lcm-in-python'>HCF and LCM guide</a> next."
+      },
+      {
+        "type": "paragraph",
+        "text": "And if you are working toward a school exam, our <a href='/python-for-class-10'>Python classes for Class 10</a> practise exactly these patterns with a teacher checking every line, and our live <a href='/courses'>coding courses</a> welcome learners aged 6 to 67."
+      },
+      {
+        "type": "button",
+        "text": "Practise Patterns With a Teacher",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-for-beginners'>Python for Beginners</a>",
+          "<a href='/blog/how-to-reverse-a-string-in-python'>How to Reverse a String in Python</a>",
+          "<a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20 Java Programs for ICSE Class 10</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "python-for-beginners",
+    "how-to-reverse-a-string-in-python",
+    "top-20-java-programs-for-icse-class-10"
+  ]
+}
