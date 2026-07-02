@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "slug": "python-oop-tutorial-for-beginners",
+    "title": "Python OOP Tutorial: Classes, Objects, and Inheritance",
+    "description": "A beginner's Python OOP tutorial: classes, objects, __init__, self, methods, inheritance, and encapsulation, taught with one running Student example.",
+    "keywords": [
+      "python oop tutorial",
+      "python classes and objects",
+      "object oriented programming python",
+      "python inheritance",
+      "self in python",
+      "__init__ python",
+      "encapsulation python"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-03",
+    "dateModified": "2026-07-03",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "OOP",
+      "Classes",
+      "Inheritance",
+      "Python Tutorial"
+    ],
+    "readTime": "9 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Python OOP Tutorial: Classes, Objects, and Inheritance",
+    "subtitle": "Classes, objects, self, inheritance, and encapsulation, built up step by step around one Student example, with every snippet tested.",
+    "featuredImage": {
+      "url": "/images/blog/python-oop-tutorial-for-beginners/00-hero.png",
+      "alt": "Python OOP tutorial for beginners covering classes, objects, and inheritance"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sooner or later, every Python learner meets a line like class Student: and wonders why the simple world of functions was not enough. This tutorial is that missing conversation: <strong>object oriented programming</strong>, explained from zero, with one running example and no jargon walls."
+      },
+      {
+        "type": "paragraph",
+        "text": "The idea behind OOP is almost disappointingly simple. Instead of keeping your data in one place and the functions that work on it somewhere else, you bundle them together into objects: a student who knows her own marks and can compute her own average, a wallet that guards its own balance. Programs built this way read like descriptions of the real things they model."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every snippet below was run before it was pasted in, and each builds on the last. If functions and lists still feel wobbly, do a lap of <a href='/blog/python-for-beginners'>Python for beginners</a> first, then come back."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-oop-tutorial-for-beginners/01-blueprint.png",
+        "alt": "A Python class works like a blueprint that stamps out objects: one Student class producing separate asha and rohan objects with their own data",
+        "caption": "One blueprint, many objects. Each object carries its own copy of the data."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 1: Your First Class and Objects",
+        "id": "first-class"
+      },
+      {
+        "type": "paragraph",
+        "text": "A class is a blueprint. It describes what every student has, without being any particular student. An object is one real student stamped out from that blueprint. You can stamp out as many as you like, and each keeps its own data."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class Student:\n    def __init__(self, name, grade):\n        self.name = name\n        self.grade = grade\n\nasha = Student(\"Asha\", 7)\nrohan = Student(\"Rohan\", 8)\n\nprint(asha.name, \"is in grade\", asha.grade)\nprint(rohan.name, \"is in grade\", rohan.grade)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Asha is in grade 7\nRohan is in grade 8"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two objects, one blueprint. asha and rohan share the same structure but carry their own names and grades. The __init__ method runs automatically each time you create an object, and its job is to fill in that object's starting data."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 2: What self Actually Is",
+        "id": "what-is-self"
+      },
+      {
+        "type": "paragraph",
+        "text": "self is the word that confuses everyone for a week and then becomes obvious. It simply means this particular object. When you write asha.introduce(), Python quietly passes asha in as self. The proof: calling the method the long way does exactly the same thing."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class Student:\n    def __init__(self, name, grade):\n        self.name = name\n        self.grade = grade\n\n    def introduce(self):\n        return \"Hi, I am \" + self.name\n\nasha = Student(\"Asha\", 7)\n\nprint(asha.introduce())\nprint(Student.introduce(asha))   # the same call, written long-hand"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Hi, I am Asha\nHi, I am Asha"
+      },
+      {
+        "type": "paragraph",
+        "text": "Both lines print the same sentence because they are the same call. The short form is just Python filling in self for you. Once that clicks, self stops being magic and starts being a plain parameter."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-oop-tutorial-for-beginners/02-self.png",
+        "alt": "What self means in Python: calling asha.introduce() passes the asha object into the method as self",
+        "caption": "self is just the object the method was called on. Python fills it in for you."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 3: Methods That Do Real Work",
+        "id": "methods"
+      },
+      {
+        "type": "paragraph",
+        "text": "Attributes store what an object has. Methods define what it can do. Because every method receives self, it can read and change that object's own data without touching anyone else's."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class Student:\n    def __init__(self, name, grade):\n        self.name = name\n        self.grade = grade\n        self.marks = []\n\n    def add_mark(self, score):\n        self.marks.append(score)\n\n    def average(self):\n        return sum(self.marks) / len(self.marks)\n\nasha = Student(\"Asha\", 7)\nasha.add_mark(92)\nasha.add_mark(85)\nasha.add_mark(78)\n\nprint(asha.marks)\nprint(asha.average())"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[92, 85, 78]\n85.0"
+      },
+      {
+        "type": "paragraph",
+        "text": "asha collected her own marks, and her average came from her own list. If we created rohan too, his marks list would start empty. That per-object memory is the whole reason classes exist."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 4: Printing Objects Nicely with __str__",
+        "id": "str-method"
+      },
+      {
+        "type": "paragraph",
+        "text": "Print an object as-is and Python shows you an unhelpful memory address. Give the class a __str__ method and you decide what printing means."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class Student:\n    def __init__(self, name, grade):\n        self.name = name\n        self.grade = grade\n\n    def __str__(self):\n        return \"Student \" + self.name + \", grade \" + str(self.grade)\n\nasha = Student(\"Asha\", 7)\nprint(asha)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Student Asha, grade 7"
+      },
+      {
+        "type": "paragraph",
+        "text": "Methods with double underscores, like __init__ and __str__, are hooks that Python calls at special moments: __init__ at creation, __str__ when printing. There are many more, but these two carry you a long way."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 5: Inheritance: Building on What Exists",
+        "id": "inheritance"
+      },
+      {
+        "type": "paragraph",
+        "text": "Suppose coding students are students too, with one extra detail: a favourite language. Instead of rewriting the Student class, we extend it. The child class inherits everything the parent has, adds what is new, and may override what needs to change."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class Student:\n    def __init__(self, name, grade):\n        self.name = name\n        self.grade = grade\n\n    def introduce(self):\n        return \"Hi, I am \" + self.name\n\nclass CodingStudent(Student):\n    def __init__(self, name, grade, language):\n        super().__init__(name, grade)   # let the parent set up name and grade\n        self.language = language\n\n    def introduce(self):                # override with a better version\n        return \"Hi, I am \" + self.name + \" and I code in \" + self.language\n\nmeera = CodingStudent(\"Meera\", 8, \"Python\")\n\nprint(meera.introduce())\nprint(meera.grade)                       # inherited from Student\nprint(isinstance(meera, Student))        # a CodingStudent IS a Student"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Hi, I am Meera and I code in Python\n8\nTrue"
+      },
+      {
+        "type": "paragraph",
+        "text": "Three things happened. super().__init__ asked the parent to do its normal setup. meera.grade worked even though CodingStudent never mentions grade, because it was inherited. And introduce() ran the child's version, since a child's method wins when both define one."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-oop-tutorial-for-beginners/03-inheritance.png",
+        "alt": "Python inheritance tree: CodingStudent extends Student, inheriting name and grade while adding a language and overriding introduce",
+        "caption": "The child inherits everything, adds what is new, and overrides what must change."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 6: Encapsulation: Guarding Your Data",
+        "id": "encapsulation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Objects can protect their own data. The underscore in _balance is Python's polite signal: this is internal, change it through the methods. The methods can then enforce rules, like refusing a negative deposit."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class Wallet:\n    def __init__(self):\n        self._balance = 0\n\n    def deposit(self, amount):\n        if amount > 0:\n            self._balance = self._balance + amount\n        else:\n            print(\"Ignored:\", amount)\n\n    def balance(self):\n        return self._balance\n\nw = Wallet()\nw.deposit(50)\nw.deposit(-10)\nw.deposit(30)\n\nprint(w.balance())"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Ignored: -10\n80"
+      },
+      {
+        "type": "paragraph",
+        "text": "The wallet ignored the bad deposit because every change passes through deposit(), where the rule lives. Scatter that rule across a whole program instead, and one forgotten check corrupts the data."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 7: Objects Inside Objects: Composition",
+        "id": "composition"
+      },
+      {
+        "type": "paragraph",
+        "text": "Not everything is inheritance. A school is not a kind of student, it has students. Storing objects inside other objects is called composition, and real programs are mostly built from it."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class Student:\n    def __init__(self, name):\n        self.name = name\n\nclass School:\n    def __init__(self, name):\n        self.name = name\n        self.students = []\n\n    def enroll(self, student):\n        self.students.append(student)\n\n    def roll_call(self):\n        return [s.name for s in self.students]\n\nschool = School(\"Modern Age Coders\")\nschool.enroll(Student(\"Asha\"))\nschool.enroll(Student(\"Rohan\"))\nschool.enroll(Student(\"Meera\"))\n\nprint(school.roll_call())"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['Asha', 'Rohan', 'Meera']"
+      },
+      {
+        "type": "paragraph",
+        "text": "A quick rule of thumb: say the sentence aloud. If X IS a Y, inherit. If X HAS a Y, compose. A coding student is a student. A school has students."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Step 8: Class Attributes vs Object Attributes",
+        "id": "class-vs-instance"
+      },
+      {
+        "type": "paragraph",
+        "text": "One last distinction that trips people up. Attributes set inside __init__ belong to each object. Attributes set directly on the class are shared by every object."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class Student:\n    school = \"Modern Age Coders\"   # shared by all students\n\n    def __init__(self, name):\n        self.name = name           # personal to each student\n\nasha = Student(\"Asha\")\nrohan = Student(\"Rohan\")\n\nprint(asha.name, \"and\", rohan.name)\nprint(asha.school)\nprint(rohan.school)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Asha and Rohan\nModern Age Coders\nModern Age Coders"
+      },
+      {
+        "type": "paragraph",
+        "text": "Both students report the same school because there is only one copy of it, living on the class. Keep shared facts on the class and personal data in __init__, and this distinction never bites you."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Do You Even Need a Class?",
+        "id": "when-to-use"
+      },
+      {
+        "type": "paragraph",
+        "text": "Honest answer: not always. A script that reads a file and prints a summary is happier as plain functions. Classes earn their keep when several pieces of data travel together and have behaviour attached, when you need many copies of the same shape of thing, or when a family of related types shares behaviour. If you are juggling parallel lists like names, grades, and marks and passing them around together, that is your sign: those belong in one class."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-oop-tutorial-for-beginners/04-decision.png",
+        "alt": "When to use functions versus classes in Python: short scripts suit functions, data with behaviour and many similar things suit classes",
+        "caption": "Neither tool is better. They answer different questions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Mistakes Every Beginner Makes Once",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Forgetting self in the method definition:</strong> def introduce(): raises a TypeError the moment you call it. Every instance method's first parameter is self.",
+          "<strong>Forgetting the parentheses when creating an object:</strong> asha = Student stores the class itself. You want asha = Student(\"Asha\", 7).",
+          "<strong>Putting a mutable default on the class:</strong> a class attribute like marks = [] is shared by every object. Create fresh lists inside __init__ instead.",
+          "<strong>Skipping super().__init__ in a child class:</strong> the parent's setup never runs, and the attributes it would have created simply do not exist.",
+          "<strong>Reaching into _underscore attributes from outside:</strong> it works, but it bypasses the rules the class wrote for itself. Use the methods."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "The fastest way to make OOP stick",
+        "text": "Model something from your own life: a cricket team, a playlist, a school timetable. Give it three attributes and two methods, create a few objects, and make them talk to each other. One hour of that beats ten hours of reading."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the difference between a class and an object in Python?",
+            "content": "A class is the blueprint: it defines what attributes and methods something will have. An object is one concrete thing built from that blueprint, with its own real data. Student is a class; asha, a particular student in grade 7, is an object."
+          },
+          {
+            "title": "What does self mean in Python?",
+            "content": "self is the object a method was called on. When you write asha.introduce(), Python translates it to Student.introduce(asha), so inside the method, self is asha. It has to be the first parameter of every instance method."
+          },
+          {
+            "title": "What does __init__ do?",
+            "content": "__init__ is the setup method Python runs automatically whenever you create a new object. Its job is to attach the object's starting data: self.name = name and so on. It does not create the object, it initialises it, hence the name."
+          },
+          {
+            "title": "What is inheritance in Python?",
+            "content": "A way for one class to build on another. class CodingStudent(Student) means CodingStudent starts with everything Student has, then adds or overrides what it needs. Use it when the child genuinely IS a kind of the parent."
+          },
+          {
+            "title": "What is the difference between inheritance and composition?",
+            "content": "Inheritance models IS-A: a coding student is a student. Composition models HAS-A: a school has students, stored as objects inside it. Beginners tend to over-use inheritance; most real relationships in programs are composition."
+          },
+          {
+            "title": "Are private variables real in Python?",
+            "content": "Python has no enforced private variables. A single underscore, like _balance, is a convention meaning internal, do not touch directly. A double underscore adds name mangling, which discourages access but does not truly forbid it. The culture is trust plus clear signals."
+          },
+          {
+            "title": "When should I use OOP instead of plain functions?",
+            "content": "When data and behaviour belong together, when you need many objects of the same shape, or when related types share behaviour. For short scripts, plain functions are simpler and better. Learning to choose between the two is itself the skill."
+          },
+          {
+            "title": "Is everything in Python really an object?",
+            "content": "Yes. Numbers, strings, lists, functions, even classes themselves are objects, which is why they all have methods you can call, like \"hello\".upper(). The class system you just learned is the same machinery the whole language runs on."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "From Blueprints to Real Programs"
+      },
+      {
+        "type": "paragraph",
+        "text": "You now hold the four ideas that carry all of OOP: classes stamp out objects, self is just this object, inheritance extends what exists, and composition assembles bigger things from smaller ones. Every framework you will ever meet, from game engines to web servers, is these four ideas wearing work clothes. This build-it-from-the-ground-up approach is exactly how we teach in <a href='/learn-coding-from-first-principles'>coding from first principles</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "Keep the momentum with our <a href='/blog/python-dictionary-complete-guide'>dictionary guide</a>, or see OOP working inside real exam programs in <a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20 Java programs for ICSE</a>. And for a live teacher who reads every class you write, our <a href='/courses'>coding courses</a> welcome learners aged 6 to 67."
+      },
+      {
+        "type": "button",
+        "text": "Learn OOP With a Teacher",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-dictionary-complete-guide'>Python Dictionary: The Complete Guide</a>",
+          "<a href='/blog/python-list-comprehension-explained'>Python List Comprehension: 15 Examples</a>",
+          "<a href='/blog/fibonacci-series-in-python'>Fibonacci Series in Python: 7 Ways</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "python-dictionary-complete-guide",
+    "python-list-comprehension-explained",
+    "fibonacci-series-in-python"
+  ]
+}
