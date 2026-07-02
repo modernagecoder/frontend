@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "slug": "exception-handling-in-python",
+    "title": "Exception Handling in Python: Try, Except, Finally",
+    "description": "Exception handling in Python explained: try, except, else, finally, raise, and custom exceptions, with real tracebacks and tested examples.",
+    "keywords": [
+      "exception handling python",
+      "try except python",
+      "python try except finally",
+      "python raise exception",
+      "python error handling",
+      "custom exception python",
+      "python traceback"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-03",
+    "dateModified": "2026-07-03",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Exception Handling",
+      "Error Handling",
+      "Python Tutorial",
+      "Best Practices"
+    ],
+    "readTime": "8 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Exception Handling in Python: Try, Except, Finally",
+    "subtitle": "Real tracebacks, precise catching, reliable cleanup, and your own exceptions, all with tested code and honest best practices.",
+    "featuredImage": {
+      "url": "/images/blog/exception-handling-in-python/00-hero.png",
+      "alt": "Exception handling in Python with try, except, else, and finally explained"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every program eventually meets a moment it did not plan for. A user types \"twelve\" where a number should go, a file is missing, a divisor turns out to be zero. Beginners treat these moments as failures. Working programmers treat them as Tuesdays, because Python gives you a whole machinery for meeting them calmly: <strong>exception handling</strong> with try, except, else, and finally."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide walks through that machinery with tested examples, including the crashes themselves. When you see a traceback below, it is a real one, produced by really running the broken code. By the end you will know how to catch errors precisely, clean up reliably, raise your own exceptions, and, just as important, when not to catch anything at all."
+      },
+      {
+        "type": "paragraph",
+        "text": "You only need functions and basic types to follow along. If those need a refresher, start at <a href='/blog/python-for-beginners'>Python for beginners</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What a Crash Actually Looks Like",
+        "id": "the-crash"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before handling errors, learn to read one. Here is a small program that divides by zero, and the exact message Python prints when it dies."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = [92, 85, 78]\nstudents = 0\n\nprint(\"Average:\", sum(marks) / students)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Traceback (most recent call last):\n  File \"example.py\", line 4, in <module>\n    print(\"Average:\", sum(marks) / students)\n                      ~~~~~~~~~~~^~~~~~~~~~\nZeroDivisionError: division by zero"
+      },
+      {
+        "type": "paragraph",
+        "text": "Read a traceback from the bottom up. The last line names the exception and explains it: ZeroDivisionError, division by zero. The lines above point to the exact file and line where it happened. A traceback is not Python shouting at you, it is Python filing a precise bug report."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/exception-handling-in-python/01-traceback.png",
+        "alt": "Anatomy of a Python traceback: the file and line, the failing code, the exception type, and the message, read from the bottom up",
+        "caption": "Read it bottom-up: what went wrong, then where."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "try and except: Catching the Error",
+        "id": "try-except"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wrap the risky line in try, and describe the rescue plan in except. If nothing goes wrong, except is skipped entirely. If the named error occurs, Python jumps straight to it instead of crashing."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = [92, 85, 78]\nstudents = 0\n\ntry:\n    average = sum(marks) / students\n    print(\"Average:\", average)\nexcept ZeroDivisionError:\n    print(\"No students yet, so no average to show.\")\n\nprint(\"The program is still alive.\")"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "No students yet, so no average to show.\nThe program is still alive."
+      },
+      {
+        "type": "paragraph",
+        "text": "The last line is the point. The error happened, the program answered it sensibly, and life went on."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Catch the Specific Error, Not Everything",
+        "id": "specific-exceptions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Different mistakes raise different exceptions, and you can give each its own answer. Stack multiple except blocks and Python picks the one that matches."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def safe_divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return \"Cannot divide by zero\"\n    except TypeError:\n        return \"Both values must be numbers\"\n\nprint(safe_divide(10, 2))\nprint(safe_divide(10, 0))\nprint(safe_divide(10, \"two\"))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "5.0\nCannot divide by zero\nBoth values must be numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "The tempting shortcut is a bare except: that catches everything. Resist it. A bare except swallows errors you never imagined, including your own typos, and turns loud, findable bugs into silent wrong answers."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/exception-handling-in-python/02-bare-vs-specific.png",
+        "alt": "Bare except versus specific except in Python: catching everything hides bugs while catching the named exception handles only what you planned for",
+        "caption": "Catch what you planned for. Let everything else stay loud."
+      },
+      {
+        "type": "paragraph",
+        "text": "It helps to know the family you are catching from. Most everyday errors are cousins under one parent class, Exception."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/exception-handling-in-python/03-family.png",
+        "alt": "Common Python exception family: ValueError, TypeError, ZeroDivisionError, KeyError, and FileNotFoundError all inherit from Exception",
+        "caption": "The everyday exceptions you will actually meet, and where they sit."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "else and finally: The Full Toolkit",
+        "id": "else-finally"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two more blocks complete the set. else runs only when no error occurred, which keeps your happy path separate from your risky line. finally runs no matter what happened, which makes it the home for cleanup: closing files, releasing connections, saying goodbye."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def read_marks(raw):\n    try:\n        value = int(raw)\n    except ValueError:\n        print(repr(raw), \"is not a number\")\n    else:\n        print(\"Recorded mark:\", value)\n    finally:\n        print(\"-- entry processed --\")\n\nread_marks(\"92\")\nread_marks(\"ninety two\")"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Recorded mark: 92\n-- entry processed --\n'ninety two' is not a number\n-- entry processed --"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/exception-handling-in-python/04-flow.png",
+        "alt": "Flow of try, except, else, and finally in Python: else runs on success, except runs on error, finally runs on both paths",
+        "caption": "Two roads through the same code. finally sits at the end of both."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Files close themselves with with",
+        "text": "The most common cleanup job, closing files, has its own shortcut. Writing with open(\"data.txt\") as f: guarantees the file closes even if the code inside fails, no finally required. Use with for files and save finally for everything else."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Reading the Error's Details with as",
+        "id": "as-e"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sometimes the handler needs to know exactly what went wrong. Capture the exception object with as and it will tell you."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "values = [\"10\", \"abc\", \"25\"]\n\nfor raw in values:\n    try:\n        print(int(raw) * 2)\n    except ValueError as e:\n        print(\"Skipped one:\", e)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "20\nSkipped one: invalid literal for int() with base 10: 'abc'\n50"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "raise: Throwing Your Own Exceptions",
+        "id": "raise"
+      },
+      {
+        "type": "paragraph",
+        "text": "Handling errors is half the story. The other half is refusing bad data early. When your function receives something it cannot honestly work with, raise an exception instead of limping on and producing nonsense later."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def set_age(age):\n    if age < 0 or age > 130:\n        raise ValueError(\"age must be between 0 and 130, got \" + str(age))\n    print(\"Age set to\", age)\n\nset_age(12)\n\ntry:\n    set_age(-5)\nexcept ValueError as e:\n    print(\"Rejected:\", e)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Age set to 12\nRejected: age must be between 0 and 130, got -5"
+      },
+      {
+        "type": "paragraph",
+        "text": "A crash at the boundary, with a clear message, is a gift to whoever debugs the program later. Usually that is you."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Custom Exceptions for Your Own Rules",
+        "id": "custom-exceptions"
+      },
+      {
+        "type": "paragraph",
+        "text": "When your program has rules of its own, give their failures names of their own. A custom exception is just a class inheriting from Exception, and even an empty one makes error handling read like plain English."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "class InsufficientFunds(Exception):\n    pass\n\nclass Wallet:\n    def __init__(self, balance):\n        self.balance = balance\n\n    def spend(self, amount):\n        if amount > self.balance:\n            raise InsufficientFunds(\"tried to spend \" + str(amount) + \", have \" + str(self.balance))\n        self.balance = self.balance - amount\n        return self.balance\n\nw = Wallet(100)\nprint(\"Left:\", w.spend(60))\n\ntry:\n    w.spend(500)\nexcept InsufficientFunds as e:\n    print(\"Blocked:\", e)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Left: 40\nBlocked: tried to spend 500, have 40"
+      },
+      {
+        "type": "paragraph",
+        "text": "If classes are new territory, our <a href='/blog/python-oop-tutorial-for-beginners'>Python OOP tutorial</a> covers exactly the two lines that custom exception used."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Real Pattern: Parsing Messy Input",
+        "id": "real-pattern"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the shape you will reuse constantly: a batch of messy, human-typed data, processed with one small try inside the loop, so a single bad entry never sinks the batch."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "entries = [\"92\", \"85\", \"eighty\", \"78\", \"\"]\n\nvalid = []\nrejected = 0\n\nfor raw in entries:\n    try:\n        valid.append(int(raw))\n    except ValueError:\n        rejected = rejected + 1\n\nprint(\"Marks recorded:\", valid)\nprint(\"Rejected entries:\", rejected)\nprint(\"Average:\", sum(valid) / len(valid))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Marks recorded: [92, 85, 78]\nRejected entries: 2\nAverage: 85.0"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Habits That Separate Good Error Handling from Noise",
+        "id": "best-practices"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Keep the try small:</strong> wrap the one line that can fail, not the whole function. A big try hides which line actually threw.",
+          "<strong>Catch the specific exception:</strong> except ValueError, not bare except. Unknown errors should stay loud.",
+          "<strong>Never pass silently:</strong> except: pass is how bugs disappear for six months. At minimum, print or log what happened.",
+          "<strong>Do not use exceptions for normal flow:</strong> if a missing key is expected, dict.get() says it better than try and except KeyError.",
+          "<strong>Raise early, with clear messages:</strong> reject bad data at the boundary of your function, naming what you got and what you wanted."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The Python way: ask forgiveness",
+        "text": "Python culture prefers EAFP, easier to ask forgiveness than permission: try the operation and handle the exception, rather than checking every condition first. It reads cleaner and avoids the gap between checking and doing. The exception list above tells you where the limits of that philosophy sit."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is exception handling in Python?",
+            "content": "A way to respond to runtime errors instead of crashing. Risky code goes inside a try block; the response to a named error goes in an except block. If the error occurs, Python jumps to the handler and the program continues."
+          },
+          {
+            "title": "What is the difference between an error and an exception?",
+            "content": "Syntax errors are mistakes in the code's grammar, caught before the program even runs, and try cannot help with them. Exceptions are problems that arise while the program runs, like dividing by zero or opening a missing file, and those are what try and except are for."
+          },
+          {
+            "title": "What does finally do in Python?",
+            "content": "The finally block runs no matter how the try ended, on success, on a handled error, even on an unhandled one. That makes it the reliable place for cleanup like closing connections. For files specifically, the with statement does this automatically."
+          },
+          {
+            "title": "When does the else block run in try except?",
+            "content": "Only when the try block finished with no exception. It is where the happy-path code goes, keeping the try itself down to just the risky line."
+          },
+          {
+            "title": "Is it bad to use a bare except in Python?",
+            "content": "Almost always. A bare except catches everything, including typos like a misspelled variable name, and even the exception raised when a user presses Ctrl+C. Bugs stop crashing and start silently corrupting. Name the exception you expect."
+          },
+          {
+            "title": "How do I raise an exception in Python?",
+            "content": "Use the raise keyword with an exception object: raise ValueError(\"age must be positive\"). Do it when your code receives data it cannot honestly work with, so the problem surfaces at its source instead of three functions later."
+          },
+          {
+            "title": "How do I create a custom exception?",
+            "content": "Define a class that inherits from Exception, even an empty one: class InsufficientFunds(Exception): pass. Then raise and catch it by name. Custom names make error-handling code read like a description of your program's rules."
+          },
+          {
+            "title": "What is EAFP in Python?",
+            "content": "Easier to Ask Forgiveness than Permission: the Python habit of trying an operation and handling the exception, instead of pre-checking every condition. The opposite style, Look Before You Leap, has its places, but EAFP is the community default."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Errors Stop Being Scary Here"
+      },
+      {
+        "type": "paragraph",
+        "text": "The shift this topic brings is quiet but permanent: errors go from something that happens to you to something you design for. Your programs stop dying at the first surprise, and your tracebacks turn into fast, readable bug reports. That confidence under failure is a skill we drill deliberately in our <a href='/real-coding-classes'>real coding classes</a>, because it is what separates typing code from engineering it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Keep building with the <a href='/blog/python-oop-tutorial-for-beginners'>OOP tutorial</a> or the <a href='/blog/python-dictionary-complete-guide'>dictionary guide</a>, and when you want a teacher who watches your code fail and shows you why that is good news, our live <a href='/courses'>coding courses</a> welcome learners aged 6 to 67."
+      },
+      {
+        "type": "button",
+        "text": "Learn Python Properly",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-oop-tutorial-for-beginners'>Python OOP Tutorial</a>",
+          "<a href='/blog/python-dictionary-complete-guide'>Python Dictionary: The Complete Guide</a>",
+          "<a href='/blog/how-to-read-and-write-files-in-python'>How to Read and Write Files in Python</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "python-oop-tutorial-for-beginners",
+    "python-dictionary-complete-guide",
+    "how-to-read-and-write-files-in-python"
+  ]
+}
