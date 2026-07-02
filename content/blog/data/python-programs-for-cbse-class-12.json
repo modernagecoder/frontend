@@ -1,0 +1,654 @@
+{
+  "meta": {
+    "slug": "python-programs-for-cbse-class-12",
+    "title": "20 Python Programs for CBSE Class 12 Board Exam (083)",
+    "description": "20 Python programs for the CBSE Class 12 Computer Science board exam: functions, text, binary and CSV files, and the stack, all tested with output.",
+    "keywords": [
+      "python programs class 12",
+      "cbse class 12 python programs",
+      "class 12 computer science practical programs",
+      "file handling programs class 12",
+      "binary file programs python class 12",
+      "stack program in python class 12",
+      "csv programs class 12"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-03",
+    "dateModified": "2026-07-03",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "CBSE",
+      "Class 12",
+      "Computer Science",
+      "Exam Preparation"
+    ],
+    "readTime": "11 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "20 Python Programs for CBSE Class 12 Board Exam (083)",
+    "subtitle": "Functions, text files, binary files, CSV, and the stack: the program families the 083 paper keeps asking, each tested with its real output.",
+    "featuredImage": {
+      "url": "/images/blog/python-programs-for-cbse-class-12/00-hero.png",
+      "alt": "20 Python programs for the CBSE Class 12 Computer Science board exam with tested code"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you are sitting the CBSE Class 12 Computer Science exam, code 083, the mathematics is simple: the programming unit is the biggest block of theory marks, and the practical adds 30 more on top. Most of those marks come from a small, predictable set of program types: functions, text files, binary files, CSV, and a stack."
+      },
+      {
+        "type": "paragraph",
+        "text": "This page collects <strong>20 Python programs for CBSE Class 12</strong> that cover exactly that ground. Each comes with the exam-style question and a working program, and every single one was executed before being pasted here, including the file-handling programs, which really created, read, and updated their files."
+      },
+      {
+        "type": "paragraph",
+        "text": "Type them, run them, then rewrite them from memory. The practical examiner is watching for fluency, not recital."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where These Programs Earn Their Marks",
+        "id": "exam-structure"
+      },
+      {
+        "type": "paragraph",
+        "text": "Computer Science (083) is split 70 and 30: a 70-mark theory paper, where Computational Thinking and Programming is the largest unit at 40 marks, and a 30-mark practical. Inside the practical, you write a Python program live for 8 marks, and your practical file, at least 15 Python programs plus SQL work, carries 7 more. In other words, the 20 programs below are aimed at the most concentrated marks in the whole subject."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-programs-for-cbse-class-12/01-marks-map.png",
+        "alt": "CBSE Class 12 Computer Science 083 marks split: 70 theory with programming worth 40, and 30 practical including the live Python program and practical file",
+        "caption": "Follow the marks. Programming dominates both halves of the subject."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Build your practical file from this page",
+        "text": "The board asks for a minimum of 15 Python programs in your practical file. The 20 here are organised to cover every required area, so working through them leaves your file effectively complete."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Files You Must Know Apart",
+        "id": "file-types"
+      },
+      {
+        "type": "paragraph",
+        "text": "Half the syllabus anxiety is really one confusion: which file type wants which tools. Text files use plain read and write. Binary files need the pickle module and rb or wb modes. CSV files use the csv module with reader and writer objects. Same idea, three dialects."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-programs-for-cbse-class-12/02-file-trio.png",
+        "alt": "Text versus binary versus CSV files in CBSE Class 12 Python: the open modes and modules each one uses",
+        "caption": "Three file types, three toolkits. Mixing them up costs marks."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Functions",
+        "id": "functions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Functions open the programming unit and the examiners love them because one question tests parameters, return values, and defaults all at once."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Palindrome check with a function"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a function is_palindrome(text) that returns True if the given string reads the same in both directions, ignoring case."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def is_palindrome(text):\n    text = text.lower()\n    return text == text[::-1]\n\nprint(is_palindrome(\"Madam\"))\nprint(is_palindrome(\"Python\"))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "True\nFalse"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Count vowels with a function"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a function count_vowels(text) that returns the number of vowels in the given string."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def count_vowels(text):\n    count = 0\n    for ch in text.lower():\n        if ch in \"aeiou\":\n            count = count + 1\n    return count\n\nprint(count_vowels(\"Computer Science\"))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "6"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Simple interest with a default argument"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a function interest(principal, rate, time) where rate has a default value of 8, and show both ways of calling it."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def interest(principal, time, rate=8):\n    return principal * rate * time / 100\n\nprint(interest(5000, 2))        # uses the default rate\nprint(interest(5000, 2, 10))    # overrides it"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "800.0\n1000.0"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Return several values at once"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a function that receives a list of marks and returns the highest, the lowest, and the average together."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def summary(marks):\n    return max(marks), min(marks), sum(marks) / len(marks)\n\nhigh, low, avg = summary([78, 92, 65, 88, 71])\nprint(\"Highest:\", high)\nprint(\"Lowest :\", low)\nprint(\"Average:\", avg)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Highest: 92\nLowest : 65\nAverage: 78.8"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Text Files",
+        "id": "text-files"
+      },
+      {
+        "type": "paragraph",
+        "text": "Text file questions are near-guaranteed. Every one of them follows the same rhythm: open with the with clause, walk the content, count or copy something."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Create and write a text file"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to create a text file story.txt and write three lines into it using the with clause."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "with open(\"story.txt\", \"w\") as f:\n    f.write(\"Python is easy to learn.\\n\")\n    f.write(\"The board exam tests files.\\n\")\n    f.write(\"Practice makes it simple.\\n\")\n\nprint(\"story.txt created\")"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "story.txt created"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Count words in a file"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to read story.txt and count the total number of words in it."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "with open(\"story.txt\", \"r\") as f:\n    text = f.read()\n\nwords = text.split()\nprint(\"Total words:\", len(words))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Total words: 14"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. Count lines starting with a vowel"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count how many lines of story.txt begin with a vowel."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "count = 0\nwith open(\"story.txt\", \"r\") as f:\n    for line in f:\n        if line and line[0].lower() in \"aeiou\":\n            count = count + 1\n\nprint(\"Lines starting with a vowel:\", count)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Lines starting with a vowel: 0"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Count character types in a file"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count the uppercase letters, lowercase letters, and digits present in story.txt."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "upper = lower = digits = 0\nwith open(\"story.txt\", \"r\") as f:\n    for ch in f.read():\n        if ch.isupper():\n            upper = upper + 1\n        elif ch.islower():\n            lower = lower + 1\n        elif ch.isdigit():\n            digits = digits + 1\n\nprint(\"Uppercase:\", upper)\nprint(\"Lowercase:\", lower)\nprint(\"Digits   :\", digits)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Uppercase: 3\nLowercase: 59\nDigits   : 0"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. Copy matching lines to another file"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to copy every line of story.txt that contains the word \"exam\" into a new file selected.txt."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "with open(\"story.txt\", \"r\") as src, open(\"selected.txt\", \"w\") as dest:\n    for line in src:\n        if \"exam\" in line.lower():\n            dest.write(line)\n\nwith open(\"selected.txt\", \"r\") as f:\n    print(f.read().rstrip())"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "The board exam tests files."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Binary Files with pickle",
+        "id": "binary-files"
+      },
+      {
+        "type": "paragraph",
+        "text": "Binary file questions carry the most steps: dump, load, search, update. Master this quartet and the scariest part of the practical becomes routine. These four programs run in sequence, exactly like a practical record."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-programs-for-cbse-class-12/03-pickle-flow.png",
+        "alt": "The pickle round trip in Python: a list of records goes through pickle.dump into a .dat file and comes back through pickle.load",
+        "caption": "dump on the way in, load on the way out. Everything binary is this round trip."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Write records to a binary file"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program using pickle to store a list of student records, each with roll, name, and marks, in a binary file students.dat."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import pickle\n\nstudents = [\n    {\"roll\": 1, \"name\": \"Asha\", \"marks\": 92},\n    {\"roll\": 2, \"name\": \"Rohan\", \"marks\": 85},\n    {\"roll\": 3, \"name\": \"Meera\", \"marks\": 78}\n]\n\nwith open(\"students.dat\", \"wb\") as f:\n    pickle.dump(students, f)\n\nprint(\"Records written:\", len(students))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Records written: 3"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "11. Read every record back"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to open students.dat and display every stored record."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import pickle\n\nwith open(\"students.dat\", \"rb\") as f:\n    students = pickle.load(f)\n\nfor s in students:\n    print(s[\"roll\"], s[\"name\"], s[\"marks\"])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1 Asha 92\n2 Rohan 85\n3 Meera 78"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "12. Search a binary file by roll number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to search students.dat for the record with roll number 2 and display it, or report that it is missing."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import pickle\n\nwith open(\"students.dat\", \"rb\") as f:\n    students = pickle.load(f)\n\nfound = False\nfor s in students:\n    if s[\"roll\"] == 2:\n        print(\"Found:\", s[\"name\"], \"with\", s[\"marks\"], \"marks\")\n        found = True\n\nif not found:\n    print(\"No record with that roll number\")"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Found: Rohan with 85 marks"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "13. Update a record and save it back"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to increase Rohan's marks by 5 in students.dat and rewrite the file."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import pickle\n\nwith open(\"students.dat\", \"rb\") as f:\n    students = pickle.load(f)\n\nfor s in students:\n    if s[\"name\"] == \"Rohan\":\n        s[\"marks\"] = s[\"marks\"] + 5\n\nwith open(\"students.dat\", \"wb\") as f:\n    pickle.dump(students, f)\n\nwith open(\"students.dat\", \"rb\") as f:\n    print(pickle.load(f)[1])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{'roll': 2, 'name': 'Rohan', 'marks': 90}"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "CSV Files",
+        "id": "csv-files"
+      },
+      {
+        "type": "paragraph",
+        "text": "CSV connects Python to spreadsheets, and the csv module does the heavy lifting. Remember newline=\"\" when writing, and next(reader) to skip a header."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "14. Write rows to a CSV file"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program using the csv module to create results.csv with a header row and three student rows."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import csv\n\nrows = [\n    [\"Roll\", \"Name\", \"Marks\"],\n    [1, \"Asha\", 92],\n    [2, \"Rohan\", 85],\n    [3, \"Meera\", 78]\n]\n\nwith open(\"results.csv\", \"w\", newline=\"\") as f:\n    writer = csv.writer(f)\n    writer.writerows(rows)\n\nprint(\"results.csv written\")"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "results.csv written"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "15. Read a CSV file row by row"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to read results.csv and display each row."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import csv\n\nwith open(\"results.csv\", \"r\") as f:\n    reader = csv.reader(f)\n    for row in reader:\n        print(row)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['Roll', 'Name', 'Marks']\n['1', 'Asha', '92']\n['2', 'Rohan', '85']\n['3', 'Meera', '78']"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "16. Filter and total a CSV file"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count how many students in results.csv scored more than 80, skipping the header row."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import csv\n\ncount = 0\nwith open(\"results.csv\", \"r\") as f:\n    reader = csv.reader(f)\n    next(reader)                 # skip the header\n    for row in reader:\n        if int(row[2]) > 80:\n            count = count + 1\n\nprint(\"Students above 80:\", count)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Students above 80: 2"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Stack",
+        "id": "stack"
+      },
+      {
+        "type": "paragraph",
+        "text": "The syllabus names one data structure: a stack implemented with a list. Push with append, pop with pop, and respect the underflow case."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-programs-for-cbse-class-12/04-stack.png",
+        "alt": "A stack implemented with a Python list: push with append and pop from the same end, last in first out",
+        "caption": "One end does all the work. Last in, first out."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "17. Implement a stack using a list"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to implement push, pop, and peek operations for a stack of book titles using a list."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "stack = []\n\ndef push(item):\n    stack.append(item)\n\ndef pop():\n    if not stack:\n        return \"Underflow\"\n    return stack.pop()\n\ndef peek():\n    if not stack:\n        return \"Empty\"\n    return stack[-1]\n\npush(\"Maths\")\npush(\"Physics\")\npush(\"CS\")\n\nprint(\"Top of stack:\", peek())\nprint(\"Popped:\", pop())\nprint(\"Popped:\", pop())\nprint(\"Remaining:\", stack)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Top of stack: CS\nPopped: CS\nPopped: Physics\nRemaining: ['Maths']"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "18. Reverse a string using a stack"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program that pushes every character of a word onto a stack, then pops them all to build the reversed word."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "word = \"BOARDS\"\nstack = []\n\nfor ch in word:\n    stack.append(ch)\n\nreversed_word = \"\"\nwhile stack:\n    reversed_word = reversed_word + stack.pop()\n\nprint(reversed_word)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "SDRAOB"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Random Numbers and Dictionaries",
+        "id": "random-dict"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two final favourites: the random module, which powers dice and OTP style questions, and the dictionary counting pattern that turns up in output-prediction questions too."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "19. Dice roller with random"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program using the random module to simulate rolling a die five times. The output changes every run, which is the point."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import random\n\nfor i in range(5):\n    print(\"Roll\", i + 1, \":\", random.randint(1, 6))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Roll 1 : 6\nRoll 2 : 6\nRoll 3 : 6\nRoll 4 : 3\nRoll 5 : 4"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "20. Word frequency with a dictionary"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count how many times each word appears in a sentence, using a dictionary."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "sentence = \"the exam tests the file the stack and the loop\"\n\ncounts = {}\nfor word in sentence.split():\n    counts[word] = counts.get(word, 0) + 1\n\nfor word, n in counts.items():\n    print(word, \"->\", n)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "the -> 4\nexam -> 1\ntests -> 1\nfile -> 1\nstack -> 1\nand -> 1\nloop -> 1"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Marks You Lose Without Noticing",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Wrong mode for binary files:</strong> opening students.dat with \"r\" instead of \"rb\" crashes pickle. Binary files always take the b.",
+          "<strong>Forgetting newline=\"\" when writing CSV:</strong> without it, Windows inserts a blank line after every row, and your output looks wrong in the viva.",
+          "<strong>Popping an empty stack:</strong> always check the underflow case. Examiners deliberately test it.",
+          "<strong>Reading a file after writing without reopening:</strong> finish the with block, then open again to read. The with clause closes the file for you.",
+          "<strong>Hard-coding what should be a parameter:</strong> if the question says any file or any number, your function must accept it as an argument."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "A four-week plan that works",
+        "text": "Week one, functions and text files. Week two, binary and CSV. Week three, the stack plus your project polishing. Week four, rewrite one program from each family from memory every day. Steady beats heroic, especially in board season."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Which Python programs are most important for the CBSE Class 12 board exam?",
+            "content": "Text file programs (counting words, lines, or characters), binary file programs with pickle (write, read, search, update), CSV reading and writing, a stack implemented with a list, and function-based questions. The 20 programs on this page cover all of these families."
+          },
+          {
+            "title": "How many marks is the Computer Science practical?",
+            "content": "The practical carries 30 marks alongside the 70-mark theory paper. Within it, the live Python program is worth 8 marks and the practical file, with a minimum of 15 Python programs plus SQL work, carries 7, with the project and viva making up the rest."
+          },
+          {
+            "title": "What is the difference between a text file and a binary file in Python?",
+            "content": "A text file stores readable characters and is handled with plain read and write in \"r\" or \"w\" modes. A binary file stores Python objects in encoded form, needs \"rb\" or \"wb\" modes, and uses the pickle module's dump and load to convert objects to bytes and back."
+          },
+          {
+            "title": "Why do we use pickle in Class 12 Python?",
+            "content": "pickle converts whole Python objects, like a list of student dictionaries, into bytes that can be saved in a binary file, and converts them back on reading. That lets record-style programs store structured data without inventing a text format."
+          },
+          {
+            "title": "What does newline=\"\" do when writing a CSV file?",
+            "content": "It stops Python from adding an extra blank line after every row on Windows. The csv module manages its own line endings, so you hand it a file opened with newline=\"\" and let it take charge."
+          },
+          {
+            "title": "How is a stack implemented in Python for the board exam?",
+            "content": "With a plain list, using append() to push and pop() to remove, both at the same end. The syllabus expects push, pop, and usually peek or display, plus handling of the underflow case when the stack is empty."
+          },
+          {
+            "title": "Is Class 12 Computer Science hard to score in?",
+            "content": "It is considered one of the more scoring subjects precisely because the program types repeat. If you can write the file-handling and stack programs fluently and manage your SQL, the paper holds few surprises. Consistent practice matters more than brilliance."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Walk Into the Practical Calm"
+      },
+      {
+        "type": "paragraph",
+        "text": "Twenty programs, six families, and between them the whole programming side of the 083 paper. The pattern you should notice: none of these programs is long. Board programs reward clarity and correct tool choice, not cleverness. If a program here felt shaky, that family is your next practice session. For the underlying concepts, our <a href='/blog/how-to-read-and-write-files-in-python'>file handling guide</a> and <a href='/blog/exception-handling-in-python'>exception handling guide</a> go deeper."
+      },
+      {
+        "type": "paragraph",
+        "text": "And if you want a teacher who has walked students through this exact paper, our <a href='/python-for-class-12-cbse'>Python classes for Class 12 CBSE</a> run live and hands-on, with <a href='/courses'>courses</a> for learners aged 6 to 67."
+      },
+      {
+        "type": "button",
+        "text": "Prepare With a Class 12 Teacher",
+        "url": "/python-for-class-12-cbse",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/how-to-read-and-write-files-in-python'>How to Read and Write Files in Python</a>",
+          "<a href='/blog/exception-handling-in-python'>Exception Handling in Python</a>",
+          "<a href='/blog/python-dictionary-complete-guide'>Python Dictionary: The Complete Guide</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "how-to-read-and-write-files-in-python",
+    "exception-handling-in-python",
+    "python-dictionary-complete-guide"
+  ]
+}
