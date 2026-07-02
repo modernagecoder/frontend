@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "slug": "how-to-find-hcf-and-lcm-in-python",
+    "title": "How to Find HCF and LCM in Python (5 Easy Methods)",
+    "description": "Learn to find the HCF and LCM in Python using math.gcd, math.lcm, loops, and the Euclidean algorithm, with copy-paste code and clear examples.",
+    "keywords": [
+      "hcf and lcm in python",
+      "find hcf and lcm in python",
+      "gcd in python",
+      "lcm in python",
+      "math.gcd",
+      "euclidean algorithm python",
+      "hcf of two numbers in python",
+      "python math program"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-02",
+    "dateModified": "2026-07-02",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Mathematics",
+      "Beginner Programming",
+      "Python Tutorial",
+      "Algorithm"
+    ],
+    "readTime": "8 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "How to Find HCF and LCM in Python (5 Easy Methods)",
+    "subtitle": "Five clear ways to find the HCF and LCM of numbers in Python, from the one-line built-in to the classic Euclidean algorithm, all with runnable code.",
+    "featuredImage": {
+      "url": "/images/blog/how-to-find-hcf-and-lcm-in-python/00-hero.png",
+      "alt": "How to find HCF and LCM in Python, five methods with code"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finding the HCF and LCM of two numbers is one of the first real programs most students write once they move past printing text. It shows up in school assignments, in first-year college labs, and in coding interviews, because it quietly tests loops, conditions, and a little number sense all at once."
+      },
+      {
+        "type": "paragraph",
+        "text": "The good news is that Python gives you more than one path to the answer. You can let a built-in function do the whole job in a single line, or you can write the logic yourself and understand exactly what is happening under the hood. Both are worth knowing: one for real work, one for learning."
+      },
+      {
+        "type": "paragraph",
+        "text": "In this guide we will cover five methods to find the <strong>HCF and LCM in Python</strong>: the built-in <span class=\"mono\">math.gcd</span> and <span class=\"mono\">math.lcm</span> functions, the Euclidean algorithm with a while loop, a recursive version, a plain brute-force loop, and the neat formula that turns any HCF into an LCM. Every example uses the same two numbers, 48 and 18, so you can follow the answer all the way through."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What Are HCF and LCM? A Quick Refresher",
+        "id": "what-are-hcf-lcm"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before we write any code, let us be sure the two ideas are clear, because the code only makes sense once the maths does."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>HCF (Highest Common Factor):</strong> the largest number that divides both numbers exactly. It is also called the GCD, or Greatest Common Divisor. Python uses the name gcd.",
+          "<strong>LCM (Lowest Common Multiple):</strong> the smallest number that both numbers divide into exactly."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Take 48 and 18. The factors of 48 are 1, 2, 3, 4, 6, 8, 12, 16, 24, 48. The factors of 18 are 1, 2, 3, 6, 9, 18. The common factors are 1, 2, 3, and 6, so the highest of them, the HCF, is 6. The smallest number that both 48 and 18 divide into is 144, so the LCM is 144."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-find-hcf-and-lcm-in-python/01-concept.png",
+        "alt": "HCF and LCM of 48 and 18 explained with factor lists, HCF is 6 and LCM is 144",
+        "caption": "HCF is the biggest factor they share. LCM is the smallest multiple they share."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The One Formula That Ties Them Together",
+        "id": "hcf-lcm-relationship"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the single most useful fact in this whole topic. For any two positive numbers, the HCF multiplied by the LCM always equals the two numbers multiplied together."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "The golden rule",
+        "text": "HCF(a, b) times LCM(a, b) equals a times b. For 48 and 18 that is 6 times 144 equals 864, and 48 times 18 also equals 864. This means once you know the HCF, you get the LCM almost for free."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-find-hcf-and-lcm-in-python/02-relationship.png",
+        "alt": "The relationship HCF times LCM equals a times b, shown with 6 times 144 equals 48 times 18 equals 864",
+        "caption": "Know the HCF and the LCM is one multiplication and one division away."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 1: The Easy Way With math.gcd and math.lcm",
+        "id": "method-builtin"
+      },
+      {
+        "type": "paragraph",
+        "text": "Python ships with a math module that already knows how to do this. The <span class=\"mono\">math.gcd</span> function gives you the HCF, and <span class=\"mono\">math.lcm</span> gives you the LCM. This is the version you should use in real projects."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\na = 48\nb = 18\n\nhcf = math.gcd(a, b)   # Highest Common Factor\nlcm = math.lcm(a, b)   # Lowest Common Multiple\n\nprint(\"HCF:\", hcf)     # HCF: 6\nprint(\"LCM:\", lcm)     # LCM: 144"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-find-hcf-and-lcm-in-python/03-builtin-code.png",
+        "alt": "Python code window using math.gcd and math.lcm to find HCF 6 and LCM 144 of 48 and 18",
+        "caption": "Two function calls, and you are done."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Version note",
+        "text": "math.gcd has been in Python since version 3.5. math.lcm arrived later, in Python 3.9. If your version is older, use Method 5 below to build the LCM from the HCF, which works everywhere."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 2: HCF With the Euclidean Algorithm (While Loop)",
+        "id": "method-euclidean"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you want to understand how the HCF is actually found, the Euclidean algorithm is the classic approach and it is beautifully short. The idea is simple: keep replacing the larger number with the remainder of dividing the two, until the remainder is zero. Whatever is left is the HCF. This kind of clever, efficient trick is the heart of algorithmic thinking, which we build up step by step in our <a href='/data-structures-and-algorithms-course'>data structures and algorithms course</a>."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def find_hcf(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n\nprint(find_hcf(48, 18))   # 6"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-find-hcf-and-lcm-in-python/04-euclidean.png",
+        "alt": "Euclidean algorithm steps for 48 and 18: 48 mod 18 is 12, 18 mod 12 is 6, 12 mod 6 is 0, HCF is 6",
+        "caption": "The remainder shrinks each round until it hits zero. The last non-zero value is the HCF."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "How it works, step by step"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Start with a = 48 and b = 18.",
+          "48 mod 18 is 12, so a becomes 18 and b becomes 12.",
+          "18 mod 12 is 6, so a becomes 12 and b becomes 6.",
+          "12 mod 6 is 0, so a becomes 6 and b becomes 0.",
+          "b is now 0, the loop stops, and a, which is 6, is the HCF."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The line <span class=\"mono\">a, b = b, a % b</span> swaps and updates both values in one go. This is why the algorithm handles cases where a is smaller than b without any extra checks."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 3: HCF With Recursion",
+        "id": "method-recursion"
+      },
+      {
+        "type": "paragraph",
+        "text": "The same Euclidean idea can be written with recursion, where the function calls itself instead of using a loop. Some people find this version reads more like the definition of the problem."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def find_hcf(a, b):\n    if b == 0:\n        return a\n    return find_hcf(b, a % b)\n\nprint(find_hcf(48, 18))   # 6"
+      },
+      {
+        "type": "paragraph",
+        "text": "The base case is when b reaches 0, and at that point a holds the answer. Until then, the function keeps calling itself with the smaller pair, exactly like the loop did."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 4: HCF and LCM With a Simple Loop",
+        "id": "method-loop"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the most beginner-friendly method because it copies how you would do it by hand. To find the HCF, check every number from 1 up to the smaller of the two, and remember the largest one that divides both."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def find_hcf(a, b):\n    hcf = 1\n    for i in range(1, min(a, b) + 1):\n        if a % i == 0 and b % i == 0:\n            hcf = i\n    return hcf\n\nprint(find_hcf(48, 18))   # 6"
+      },
+      {
+        "type": "paragraph",
+        "text": "You can find the LCM with a loop too. Start at the larger number and keep going up until you hit a value that both numbers divide into exactly."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def find_lcm(a, b):\n    greater = max(a, b)\n    while True:\n        if greater % a == 0 and greater % b == 0:\n            return greater\n        greater += 1\n\nprint(find_lcm(48, 18))   # 144"
+      },
+      {
+        "type": "paragraph",
+        "text": "These loops are easy to read, but they get slow for very large numbers because they test one value at a time. For anything beyond practice, prefer the built-in or the formula method."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Method 5: Finding LCM From the HCF",
+        "id": "lcm-from-hcf"
+      },
+      {
+        "type": "paragraph",
+        "text": "Remember the golden rule. Since HCF times LCM equals a times b, you can rearrange it to get the LCM directly: LCM equals a times b, divided by the HCF. This is fast and works on any Python version, since it only needs an HCF function."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def find_hcf(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n\ndef find_lcm(a, b):\n    return a * b // find_hcf(a, b)\n\nprint(find_lcm(48, 18))   # 144"
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice the double slash. That is integer division, which keeps the result a whole number instead of a decimal. Since the HCF always divides a times b exactly, the answer is always clean."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Bonus: HCF and LCM of a List of Numbers",
+        "id": "list-of-numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "What if you have more than two numbers? You can apply the two-number logic across the whole list using reduce, which carries the running answer from one pair to the next."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\nfrom functools import reduce\n\nnumbers = [12, 18, 24]\n\nhcf_all = reduce(math.gcd, numbers)\nlcm_all = reduce(math.lcm, numbers)\n\nprint(\"HCF of list:\", hcf_all)   # 6\nprint(\"LCM of list:\", lcm_all)   # 72"
+      },
+      {
+        "type": "paragraph",
+        "text": "reduce takes the first two numbers, finds their answer, then combines that answer with the next number, and so on. It is the cleanest way to handle a whole list at once."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Which Method Should You Use?",
+        "id": "which-method"
+      },
+      {
+        "type": "paragraph",
+        "text": "All five methods give the same answer for 48 and 18. The one you pick depends on whether you are shipping real code or learning the logic for an exam."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/how-to-find-hcf-and-lcm-in-python/05-comparison.png",
+        "alt": "Comparison of the built-in, Euclidean loop, recursion, and brute-force methods by speed and best use",
+        "caption": "For real work use the built-in. To learn the logic, write the Euclidean version."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Real projects:</strong> use math.gcd and math.lcm. They are fast, tested, and clear.",
+          "<strong>Learning or interviews:</strong> write the Euclidean while loop, since it shows you understand the algorithm.",
+          "<strong>Old Python versions:</strong> use the formula method to build the LCM from your own HCF.",
+          "<strong>First time seeing this:</strong> start with the simple loop, then upgrade once the idea clicks."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Complete Program (Copy-Paste Ready)",
+        "id": "complete-program"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is a small program that asks the user for two numbers and prints both results using the built-in functions."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "import math\n\na = int(input(\"Enter the first number: \"))\nb = int(input(\"Enter the second number: \"))\n\nprint(\"HCF of\", a, \"and\", b, \"is\", math.gcd(a, b))\nprint(\"LCM of\", a, \"and\", b, \"is\", math.lcm(a, b))"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Common Mistakes to Avoid",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Using a single slash for the LCM:</strong> a * b / find_hcf(a, b) returns a decimal like 144.0. Use double slash for a clean whole number.",
+          "<strong>Forgetting to update b in the while loop:</strong> if you leave out a, b = b, a % b, the loop never ends.",
+          "<strong>Assuming math.lcm exists everywhere:</strong> it needs Python 3.9 or newer. On older versions, build it from the HCF.",
+          "<strong>Passing zero:</strong> the HCF of a number and 0 is the number itself, which is correct, but the brute-force LCM loop will run forever if either input is 0. Guard against it if users can type anything."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Test it yourself",
+        "text": "Try each method with a new pair, like 24 and 36. You should get an HCF of 12 and an LCM of 72 every time. If one method disagrees, you have found a bug to fix, which is great practice."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the difference between HCF and GCD in Python?",
+            "content": "There is no difference. HCF (Highest Common Factor) and GCD (Greatest Common Divisor) are two names for the same thing. Python uses the name gcd, so math.gcd gives you the HCF."
+          },
+          {
+            "title": "Is there a direct function for LCM in Python?",
+            "content": "Yes. math.lcm returns the LCM directly, but only in Python 3.9 and newer. If your version is older, compute it as a * b // math.gcd(a, b)."
+          },
+          {
+            "title": "How do I find the HCF and LCM of two numbers in Python in one line?",
+            "content": "Import math, then use math.gcd(a, b) for the HCF and math.lcm(a, b) for the LCM. Each is a single function call."
+          },
+          {
+            "title": "Why use // instead of / for the LCM formula?",
+            "content": "The single slash gives a float, so a * b / hcf would print 144.0. The double slash does integer division and returns 144. Since the HCF always divides a * b exactly, the whole-number result is correct."
+          },
+          {
+            "title": "Which method is fastest for large numbers?",
+            "content": "The Euclidean algorithm and the built-in math.gcd are the fastest because they shrink the numbers quickly. The brute-force loops are the slowest because they test every value one by one."
+          },
+          {
+            "title": "Can I find the HCF and LCM of more than two numbers?",
+            "content": "Yes. Use functools.reduce with math.gcd or math.lcm across a list, as shown in the bonus section. It applies the two-number logic across the whole list."
+          },
+          {
+            "title": "What is the HCF of a number and zero?",
+            "content": "The HCF of any number and 0 is the number itself. For example, math.gcd(18, 0) returns 18. Just be careful with the brute-force LCM loop, which does not handle 0 well."
+          }
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Keep Building Your Python Skills"
+      },
+      {
+        "type": "paragraph",
+        "text": "Small programs like this are how strong Python habits are built, one clear idea at a time. If you enjoyed working through the logic, try our beginner-friendly walkthrough on <a href='/blog/python-for-beginners'>Python for beginners</a>, or stretch further with the classic <a href='/blog/armstrong-number-python-complete-guide-examples-code'>Armstrong number program</a>. When you are ready for a guided path with a real teacher, our <a href='/python-from-the-ground-up'>Python from the ground up</a> course covers fundamentals exactly like these, and our live <a href='/courses'>coding courses</a> take learners aged 6 to 67 from first line of code to confident problem solver."
+      },
+      {
+        "type": "button",
+        "text": "Explore Our Coding Courses",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-for-beginners'>Python for Beginners</a>",
+          "<a href='/blog/how-to-write-a-leap-year-program-in-python'>How to Write a Leap Year Program in Python</a>",
+          "<a href='/blog/armstrong-number-python-complete-guide-examples-code'>Armstrong Number in Python</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "python-for-beginners",
+    "how-to-write-a-leap-year-program-in-python",
+    "armstrong-number-python-complete-guide-examples-code"
+  ]
+}

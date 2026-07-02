@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><style>
+:root{--w:1200px;--h:675px;--blue:#2b6cb0;--purple:#7c5cbf}
+.fit{gap:0;align-items:center}
+.flow{display:flex;flex-direction:column;align-items:center;gap:0}
+.node{font-family:'Inter',sans-serif;font-weight:700;text-align:center;border:3px solid var(--ink);display:flex;align-items:center;justify-content:center}
+.term{background:var(--pine);color:#fff;border-radius:999px;padding:9px 34px;font-size:22px;box-shadow:4px 4px 0 var(--ink)}
+.io{background:#DCEBFA;color:var(--ink);padding:10px 30px;font-size:20px;transform:skewX(-14deg);box-shadow:4px 4px 0 var(--ink)}
+.io span{display:inline-block;transform:skewX(14deg);font-family:'JetBrains Mono',monospace}
+.proc{background:var(--card);color:var(--ink);border-radius:8px;padding:11px 22px;font-size:19px;font-family:'JetBrains Mono',monospace;font-weight:700;box-shadow:4px 4px 0 var(--ink)}
+.conn{width:3px;height:20px;background:var(--ink)}
+.arrowhead{width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:10px solid var(--ink);margin-top:-2px}
+.branch{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;width:100%;gap:0}
+.dwrap{grid-column:2;display:flex;justify-content:center}
+.dia{width:118px;height:118px;transform:rotate(45deg);background:var(--yellow);border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);display:flex;align-items:center;justify-content:center}
+.dia .lbl{transform:rotate(-45deg);width:175px;text-align:center;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:19px;line-height:1.15}
+.side{grid-column:3;display:flex;align-items:center;gap:0;justify-self:start}
+.hline{height:3px;width:46px;background:var(--ink)}
+.harrow{width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:10px solid var(--ink)}
+.ylabel{font-family:'Caveat',cursive;font-weight:700;font-size:26px;color:var(--pine);position:relative;top:-16px;left:6px}
+.nlabel{font-family:'Caveat',cursive;font-weight:700;font-size:26px;color:var(--coral)}
+.sidebox{background:var(--card);border:3px solid var(--ink);border-radius:8px;padding:9px 16px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:16px;box-shadow:4px 4px 0 var(--ink);line-height:1.2}
+.repeat{font-family:'Caveat',cursive;font-weight:700;font-size:24px;color:var(--purple);margin-left:8px}
+.out{background:var(--pine);color:#fff;border-radius:8px;padding:10px 26px;font-weight:800;font-size:20px;box-shadow:4px 4px 0 var(--ink);font-family:'Bricolage Grotesque',sans-serif}
+.outno{background:#F3B7A6;color:var(--ink);border:3px solid var(--ink);border-radius:8px;padding:9px 16px;font-weight:800;font-size:17px;box-shadow:4px 4px 0 var(--ink);font-family:'Bricolage Grotesque',sans-serif}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><rect width="512" height="512" fill="#007bff"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/><path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/><line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/><line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/><line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/><line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/></g><g fill="#fff"><circle cx="182" cy="190" r="41"/><circle cx="330" cy="190" r="41"/><path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/><path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/></g></svg></span><span class="brand-name">Modern Age Coders</span><span class="handle">flowchart: palindrome</span></div>
+  <div class="main"><div class="fit">
+    <div class="flow">
+      <div class="node term">Start</div>
+      <div class="conn"></div><div class="arrowhead"></div>
+      <div class="node io"><span>Read number n</span></div>
+      <div class="conn"></div><div class="arrowhead"></div>
+      <div class="node proc">rev = 0 , temp = n</div>
+      <div class="conn"></div><div class="arrowhead"></div>
+      <div class="branch">
+        <div class="dwrap"><div class="dia"><span class="lbl">temp &ne; 0 ?</span></div></div>
+        <div class="side"><div class="hline"></div><div class="harrow"></div><span class="ylabel">yes</span><div class="sidebox">rev = rev*10 + temp%10<br>temp = temp / 10 <span class="repeat">&#8635; loop</span></div></div>
+      </div>
+      <span class="nlabel">no &darr;</span>
+      <div class="arrowhead"></div>
+      <div class="branch">
+        <div class="dwrap"><div class="dia" style="background:#DCEBFA"><span class="lbl">rev == n ?</span></div></div>
+        <div class="side"><div class="hline"></div><div class="harrow"></div><span class="nlabel" style="position:relative;top:-16px;left:6px">no</span><div class="outno">Not a Palindrome</div></div>
+      </div>
+      <span class="ylabel" style="color:var(--pine);top:0">yes &darr;</span>
+      <div class="arrowhead"></div>
+      <div class="node out">Number is a Palindrome</div>
+      <div class="conn"></div><div class="arrowhead"></div>
+      <div class="node term">End</div>
+    </div>
+  </div></div>
+</div></body></html>

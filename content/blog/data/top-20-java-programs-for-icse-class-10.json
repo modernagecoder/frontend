@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "slug": "top-20-java-programs-for-icse-class-10",
+    "title": "Top 20 Java Programs for ICSE Class 10 (With Code)",
+    "description": "The top 20 Java programs for ICSE Class 10, each with the exam-style question and tested BlueJ code: special numbers, strings, arrays, patterns and more.",
+    "keywords": [
+      "java programs for icse class 10",
+      "icse class 10 java programs",
+      "important java programs icse",
+      "icse computer applications programs",
+      "special number programs java",
+      "icse class 10 computer applications",
+      "bluej programs icse",
+      "icse board java programs"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-02",
+    "dateModified": "2026-07-02",
+    "category": "Java",
+    "tags": [
+      "Java",
+      "ICSE",
+      "Computer Applications",
+      "BlueJ",
+      "Exam Preparation"
+    ],
+    "readTime": "16 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Top 20 Java Programs for ICSE Class 10 (With Code)",
+    "subtitle": "The programs that keep coming back in the ICSE Computer Applications paper, each with its exam-style question and tested BlueJ code.",
+    "featuredImage": {
+      "url": "/images/blog/top-20-java-programs-for-icse-class-10/00-hero.png",
+      "alt": "Top 20 Java programs for ICSE Class 10 with code, exam preparation"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you are preparing for the ICSE Class X Computer Applications exam, one thing becomes clear fast: the same kinds of Java programs come back year after year. Special numbers, string handling, arrays, patterns, and a menu-driven program or two. Once you can write these confidently, most of the program-writing paper stops being a surprise."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide collects the top 20 Java programs that matter most for ICSE Class 10. For each one you get the exam-style question and a clean, working program written the way you would in BlueJ. Every program here was actually compiled and run, so the code you copy is the code that works."
+      },
+      {
+        "type": "paragraph",
+        "text": "Do not just read them. Type each program into BlueJ, run it, change the input, and watch what happens. That is how the logic sticks, and it is exactly how we work in our <a href='/java-programming-for-icse-students'>Java classes for ICSE students</a>: write, run, break it, and fix it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How the ICSE Computer Applications Exam Works",
+        "id": "exam-structure"
+      },
+      {
+        "type": "paragraph",
+        "text": "ICSE Class X Computer Applications is taught and examined in Java, usually written in the BlueJ environment. The written paper runs for two hours and carries 100 marks. It has two parts: Section A is worth 40 marks and is compulsory, covering the whole syllabus with short questions. Section B is worth 60 marks and is where the full program-writing questions sit, and you get a choice of which ones to attempt. Alongside the paper, there is 100 marks of Internal Assessment based on lab work."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/top-20-java-programs-for-icse-class-10/05-blueprint.png",
+        "alt": "ICSE Class X Computer Applications exam blueprint: 2 hours, 100 marks, Section A 40 and Section B 60, plus Internal Assessment",
+        "caption": "The 20 programs below are aimed squarely at Section B, where you write full programs."
+      },
+      {
+        "type": "paragraph",
+        "text": "The program questions are built from the same syllabus units: taking input with Scanner, using Math library methods, conditions with if-else and switch, loops and nested loops, user-defined methods, and single and double dimensional arrays with string handling. The 20 programs below cover all of that ground."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "How to use this list",
+        "text": "Work through one family at a time. Learn the pattern for one program in a group, and the rest in that group start to feel familiar. Aim to write each from memory, not just recognise it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The 20 Programs at a Glance",
+        "id": "at-a-glance"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are the 20 programs grouped into six families. If a group feels weak, that is exactly where to spend your next practice session."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/top-20-java-programs-for-icse-class-10/01-category-map.png",
+        "alt": "Map of 20 ICSE Class 10 Java programs grouped into six families: special numbers, number checks, series and maths, loops and menu, strings, arrays",
+        "caption": "Six families cover the whole program-writing paper."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Number and Special-Number Programs",
+        "id": "number-programs"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the biggest and most-tested group. Special numbers look tricky at first, but they all follow one idea: pull out the digits, do something with them, and compare the result to the original number."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/top-20-java-programs-for-icse-class-10/02-special-numbers.png",
+        "alt": "Worked examples of four ICSE special numbers: Automorphic 25, Neon 9, Spy 1124, Disarium 135",
+        "caption": "Four ICSE favourites, with the actual working behind each."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Prime Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to input a number and check whether it is a Prime number. A prime number has exactly two factors, 1 and the number itself."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class Prime {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int count = 0;\n        for (int i = 1; i <= n; i++) {\n            if (n % i == 0)\n                count++;\n        }\n        if (count == 2)\n            System.out.println(n + \" is a Prime number.\");\n        else\n            System.out.println(n + \" is not a Prime number.\");\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Sample:</strong> input 13 prints \"13 is a Prime number.\""
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Palindrome Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Palindrome. A palindrome reads the same forwards and backwards, like 121. Reverse the number and compare it with the original."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class PalindromeNumber {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int rev = 0, temp = n;\n        while (temp != 0) {\n            int d = temp % 10;\n            rev = rev * 10 + d;\n            temp = temp / 10;\n        }\n        if (rev == n)\n            System.out.println(n + \" is a Palindrome.\");\n        else\n            System.out.println(n + \" is not a Palindrome.\");\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "The reverse-and-compare idea shows up again and again. Here is the same logic drawn as a flowchart, which is worth knowing because ICSE sometimes asks for the algorithm too."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/top-20-java-programs-for-icse-class-10/04-flowchart.png",
+        "alt": "Flowchart for checking a palindrome number: read n, reverse the digits in a loop, compare the reverse with the original",
+        "caption": "The palindrome-number logic as a flowchart."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Armstrong Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a 3-digit number is an Armstrong number. A number is Armstrong when the sum of the cubes of its digits equals the number, like 153 = 1 cube + 5 cube + 3 cube."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class Armstrong {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a 3-digit number: \");\n        int n = sc.nextInt();\n        int temp = n, sum = 0;\n        while (temp != 0) {\n            int d = temp % 10;\n            sum = sum + d * d * d;\n            temp = temp / 10;\n        }\n        if (sum == n)\n            System.out.println(n + \" is an Armstrong number.\");\n        else\n            System.out.println(n + \" is not an Armstrong number.\");\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Sample:</strong> input 153 prints \"153 is an Armstrong number.\""
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Perfect Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Perfect number. A perfect number equals the sum of its factors excluding itself, like 28 = 1 + 2 + 4 + 7 + 14."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class Perfect {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int sum = 0;\n        for (int i = 1; i < n; i++) {\n            if (n % i == 0)\n                sum = sum + i;\n        }\n        if (sum == n)\n            System.out.println(n + \" is a Perfect number.\");\n        else\n            System.out.println(n + \" is not a Perfect number.\");\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Automorphic Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is Automorphic. A number is automorphic when its square ends with the number itself, like 25 whose square is 625."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class Automorphic {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int sq = n * n;\n        String s1 = String.valueOf(n);\n        String s2 = String.valueOf(sq);\n        if (s2.endsWith(s1))\n            System.out.println(n + \" is an Automorphic number.\");\n        else\n            System.out.println(n + \" is not an Automorphic number.\");\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Neon Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Neon number. In a neon number, the digits of its square add up to the number itself, like 9 whose square is 81 and 8 + 1 = 9."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class Neon {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int sq = n * n, sum = 0;\n        while (sq != 0) {\n            sum = sum + sq % 10;\n            sq = sq / 10;\n        }\n        if (sum == n)\n            System.out.println(n + \" is a Neon number.\");\n        else\n            System.out.println(n + \" is not a Neon number.\");\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. Spy Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Spy number. In a spy number the sum of the digits equals the product of the digits, like 1124 where 1 + 1 + 2 + 4 = 8 and 1 x 1 x 2 x 4 = 8."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class Spy {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int temp = n, sum = 0, prod = 1;\n        while (temp != 0) {\n            int d = temp % 10;\n            sum = sum + d;\n            prod = prod * d;\n            temp = temp / 10;\n        }\n        if (sum == prod)\n            System.out.println(n + \" is a Spy number.\");\n        else\n            System.out.println(n + \" is not a Spy number.\");\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Disarium Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Disarium number. Here each digit is raised to the power of its position from the left, and the results are added to give the number, like 135 = 1 to the power 1 + 3 to the power 2 + 5 to the power 3."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class Disarium {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int len = String.valueOf(n).length();\n        int temp = n, sum = 0;\n        while (temp != 0) {\n            int d = temp % 10;\n            sum = sum + (int) Math.pow(d, len);\n            len--;\n            temp = temp / 10;\n        }\n        if (sum == n)\n            System.out.println(n + \" is a Disarium number.\");\n        else\n            System.out.println(n + \" is not a Disarium number.\");\n    }\n}"
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "One pattern, many special numbers",
+        "text": "Notice how Automorphic, Neon, Spy, and Disarium all start by breaking a number into digits and end by comparing a result to the original. Master that shape once and you can write any special-number program the examiner invents."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Series and Maths Programs",
+        "id": "series-programs"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. Fibonacci Series"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print the Fibonacci series up to n terms. Each term is the sum of the two before it, starting from 0 and 1."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class Fibonacci {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"How many terms? \");\n        int n = sc.nextInt();\n        int a = 0, b = 1;\n        System.out.print(\"Fibonacci series: \");\n        for (int i = 1; i <= n; i++) {\n            System.out.print(a + \" \");\n            int c = a + b;\n            a = b;\n            b = c;\n        }\n        System.out.println();\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Sample:</strong> 10 terms print 0 1 1 2 3 5 8 13 21 34."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Factorial of a Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the factorial of a number. The factorial of n is the product of all whole numbers from 1 to n."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class Factorial {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        long fact = 1;\n        for (int i = 1; i <= n; i++)\n            fact = fact * i;\n        System.out.println(\"Factorial of \" + n + \" = \" + fact);\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "The factorial grows fast, so the answer is stored in a long instead of an int."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "11. Sum of Digits"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the sum of the digits of a number, like 1234 giving 10."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class SumOfDigits {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int n = sc.nextInt();\n        int temp = n, sum = 0;\n        while (temp != 0) {\n            sum = sum + temp % 10;\n            temp = temp / 10;\n        }\n        System.out.println(\"Sum of digits = \" + sum);\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "12. HCF and LCM of Two Numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the HCF and LCM of two numbers. The HCF is the largest number that divides both, and the LCM is the smallest number both divide into. Once you have the HCF, the LCM is just the two numbers multiplied and divided by the HCF."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class HcfLcm {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter two numbers: \");\n        int a = sc.nextInt();\n        int b = sc.nextInt();\n        int x = a, y = b;\n        while (y != 0) {\n            int r = x % y;\n            x = y;\n            y = r;\n        }\n        int hcf = x;\n        int lcm = (a * b) / hcf;\n        System.out.println(\"HCF = \" + hcf);\n        System.out.println(\"LCM = \" + lcm);\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "This uses the Euclidean method to find the HCF quickly. If you want the same idea explained step by step in another language, read our guide on <a href='/blog/how-to-find-hcf-and-lcm-in-python'>how to find the HCF and LCM in Python</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Loops, Patterns and a Menu Program",
+        "id": "loops-patterns"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "13. Number Pattern (Floyd's Triangle)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program using nested loops to print Floyd's triangle for n rows, where the numbers run continuously across the rows."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class NumberPattern {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter number of rows: \");\n        int n = sc.nextInt();\n        int num = 1;\n        for (int i = 1; i <= n; i++) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(num + \" \");\n                num++;\n            }\n            System.out.println();\n        }\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "Patterns are all about nested loops: the outer loop controls the rows, the inner loop controls what prints on each row. Change the inner loop and you get a completely different shape."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/top-20-java-programs-for-icse-class-10/03-pattern-gallery.png",
+        "alt": "Three ICSE pattern outputs from nested loops: Floyd's triangle, a number pyramid, and a star pattern",
+        "caption": "The same two-loop idea produces all three of these classic outputs."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "14. Menu-Driven Program (switch-case)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a menu-driven program using switch-case to find the area of a circle, a square, or a rectangle based on the user's choice."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class MenuDriven {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.println(\"1. Area of Circle\");\n        System.out.println(\"2. Area of Square\");\n        System.out.println(\"3. Area of Rectangle\");\n        System.out.print(\"Enter your choice: \");\n        int choice = sc.nextInt();\n        switch (choice) {\n            case 1:\n                System.out.print(\"Enter radius: \");\n                double r = sc.nextDouble();\n                System.out.println(\"Area = \" + (3.14 * r * r));\n                break;\n            case 2:\n                System.out.print(\"Enter side: \");\n                double s = sc.nextDouble();\n                System.out.println(\"Area = \" + (s * s));\n                break;\n            case 3:\n                System.out.print(\"Enter length and breadth: \");\n                double l = sc.nextDouble();\n                double b = sc.nextDouble();\n                System.out.println(\"Area = \" + (l * b));\n                break;\n            default:\n                System.out.println(\"Invalid choice.\");\n        }\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "Examiners love switch-case because it tests whether you remember the break statement and the default case. Leave out break and every case below the match will run too."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "String Programs",
+        "id": "string-programs"
+      },
+      {
+        "type": "paragraph",
+        "text": "String questions appear almost every year, often two of them. The key tools are length, charAt, and the character checks from the Character class."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "15. Palindrome String"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a word is a Palindrome, like 'madam', ignoring the difference between uppercase and lowercase."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class PalindromeString {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a word: \");\n        String s = sc.nextLine();\n        String rev = \"\";\n        for (int i = s.length() - 1; i >= 0; i--)\n            rev = rev + s.charAt(i);\n        if (s.equalsIgnoreCase(rev))\n            System.out.println(s + \" is a Palindrome.\");\n        else\n            System.out.println(s + \" is not a Palindrome.\");\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "16. Count Vowels and Consonants"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count the number of vowels and consonants in a string."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class VowelsConsonants {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a string: \");\n        String s = sc.nextLine().toLowerCase();\n        int v = 0, c = 0;\n        for (int i = 0; i < s.length(); i++) {\n            char ch = s.charAt(i);\n            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')\n                v++;\n            else if (ch >= 'a' && ch <= 'z')\n                c++;\n        }\n        System.out.println(\"Vowels = \" + v);\n        System.out.println(\"Consonants = \" + c);\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "Converting the string to lowercase first means you only have to check five vowels instead of ten. The second condition makes sure spaces and punctuation are not counted as consonants."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "17. Change the Case of a String"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to change the case of every letter in a string, so uppercase becomes lowercase and lowercase becomes uppercase."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class ToggleCase {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter a string: \");\n        String s = sc.nextLine();\n        String result = \"\";\n        for (int i = 0; i < s.length(); i++) {\n            char ch = s.charAt(i);\n            if (Character.isUpperCase(ch))\n                result = result + Character.toLowerCase(ch);\n            else if (Character.isLowerCase(ch))\n                result = result + Character.toUpperCase(ch);\n            else\n                result = result + ch;\n        }\n        System.out.println(\"Result: \" + result);\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Sample:</strong> \"Hello World\" becomes \"hELLO wORLD\"."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Array Programs",
+        "id": "array-programs"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "18. Bubble Sort (Ascending Order)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to sort an array of numbers in ascending order using the bubble sort technique."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class BubbleSort {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"How many numbers? \");\n        int n = sc.nextInt();\n        int[] arr = new int[n];\n        for (int i = 0; i < n; i++)\n            arr[i] = sc.nextInt();\n        for (int i = 0; i < n - 1; i++) {\n            for (int j = 0; j < n - 1 - i; j++) {\n                if (arr[j] > arr[j + 1]) {\n                    int t = arr[j];\n                    arr[j] = arr[j + 1];\n                    arr[j + 1] = t;\n                }\n            }\n        }\n        System.out.println(\"Sorted: \" + Arrays.toString(arr));\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bubble sort compares neighbours and swaps them if they are in the wrong order, so the largest value bubbles to the end each pass. To sort in descending order, just change the greater-than sign to a less-than sign. Sorting and searching are your first real algorithms, and if they spark your curiosity, our <a href='/java-dsa-course'>Java DSA course</a> takes them a good deal further."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "19. Linear Search"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to search for a number in an array using linear search and print its position."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class LinearSearch {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"How many numbers? \");\n        int n = sc.nextInt();\n        int[] arr = new int[n];\n        for (int i = 0; i < n; i++)\n            arr[i] = sc.nextInt();\n        System.out.print(\"Number to search: \");\n        int key = sc.nextInt();\n        int pos = -1;\n        for (int i = 0; i < n; i++) {\n            if (arr[i] == key) {\n                pos = i;\n                break;\n            }\n        }\n        if (pos == -1)\n            System.out.println(key + \" not found.\");\n        else\n            System.out.println(key + \" found at position \" + (pos + 1));\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "20. Largest and Smallest in an Array"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the largest and smallest element in an array of numbers."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\npublic class LargestSmallest {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"How many numbers? \");\n        int n = sc.nextInt();\n        int[] arr = new int[n];\n        for (int i = 0; i < n; i++)\n            arr[i] = sc.nextInt();\n        int max = arr[0], min = arr[0];\n        for (int i = 1; i < n; i++) {\n            if (arr[i] > max) max = arr[i];\n            if (arr[i] < min) min = arr[i];\n        }\n        System.out.println(\"Largest = \" + max);\n        System.out.println(\"Smallest = \" + min);\n    }\n}"
+      },
+      {
+        "type": "paragraph",
+        "text": "Starting max and min at the first element, rather than at 0, is the safe habit. It works even when every number in the array is negative."
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Your practice plan",
+        "text": "Pick one program a day, type it into BlueJ without looking, and run it on three different inputs. In three weeks you will have written all 20 from memory, which is exactly what the exam asks for."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Which Java programs are most important for ICSE Class 10?",
+            "content": "Special-number programs (Automorphic, Neon, Spy, Disarium), palindrome and Armstrong checks, patterns using nested loops, at least one string program, an array program like bubble sort or linear search, and a menu-driven switch-case program. All 20 in this list are drawn from those recurring types."
+          },
+          {
+            "title": "What is BlueJ and why does ICSE use it?",
+            "content": "BlueJ is a simple, beginner-friendly Java development environment. ICSE uses it because it lets students focus on writing and running Java classes without a heavy, complicated setup, which suits learners who are new to programming."
+          },
+          {
+            "title": "How many marks does the program-writing part carry?",
+            "content": "The written paper is 100 marks over two hours. Section A is 40 marks and compulsory. Section B is 60 marks and holds the longer program-writing questions, where you get a choice of which to attempt. There is also 100 marks of Internal Assessment from lab work."
+          },
+          {
+            "title": "What are special numbers in ICSE?",
+            "content": "Special numbers are numbers with a defining property, such as Automorphic (its square ends with the number), Neon (digits of its square add up to the number), Spy (sum of digits equals product of digits), and Disarium (digits raised to their position add up to the number). They are a favourite topic for program questions."
+          },
+          {
+            "title": "Do I need to memorise these programs?",
+            "content": "You should be able to write them from understanding, not blind memory. Learn the shape of each group, for example how every special number breaks a value into digits, and you can rebuild any program even if the exact question is new."
+          },
+          {
+            "title": "Is Java hard to learn for Class 10?",
+            "content": "No. The Class 10 syllabus uses a small, consistent set of ideas: input, conditions, loops, methods, arrays, and strings. Once you practise a handful of programs, the rest follow the same patterns. Regular hands-on practice matters far more than talent."
+          },
+          {
+            "title": "How should I practise for the exam?",
+            "content": "Write each program by hand and in BlueJ, then test it with different inputs, including tricky ones like 0 or a single-digit number. Solving past papers under a timer also helps you get used to the two-hour format."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Keep Practising, One Program at a Time"
+      },
+      {
+        "type": "paragraph",
+        "text": "These 20 programs cover the ground that the ICSE Class X Computer Applications paper keeps returning to. Learn the idea behind each family, write them until they feel easy, and the program-writing section becomes the part you look forward to. If you want more Java practice, see our roundups of the <a href='/blog/top-10-java-programs-for-school-students'>top 10 Java programs for school students</a> and <a href='/blog/30-best-java-programs-for-class-8-students'>Java programs for Class 8</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you would rather learn with a teacher who checks your code and clears doubts as you go, our live classes take students aged 6 to 67 from their first line of Java to full confidence for the board exam. Explore our <a href='/best-java-classes-in-india'>Java classes</a> or book a free demo."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Java Demo Class",
+        "url": "/contact",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/top-10-java-programs-for-school-students'>Top 10 Java Programs for School Students</a>",
+          "<a href='/blog/30-best-java-programs-for-class-8-students'>30 Best Java Programs for Class 8 Students</a>",
+          "<a href='/blog/how-to-find-hcf-and-lcm-in-python'>How to Find the HCF and LCM in Python</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "top-10-java-programs-for-school-students",
+    "30-best-java-programs-for-class-8-students",
+    "top-10-java-programs-every-college-student-must-know"
+  ]
+}
