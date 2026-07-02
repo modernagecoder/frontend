@@ -1,0 +1,531 @@
+{
+  "meta": {
+    "slug": "python-list-comprehension-explained",
+    "title": "Python List Comprehension: 15 Examples, Simple to Advanced",
+    "description": "List comprehension in Python explained from scratch: the three-slot pattern, where the if goes, and 15 tested examples from squares to generators.",
+    "keywords": [
+      "list comprehension python",
+      "python list comprehension",
+      "list comprehension examples",
+      "nested list comprehension python",
+      "if else in list comprehension",
+      "python one line for loop",
+      "generator expression python"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-03",
+    "dateModified": "2026-07-03",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "List Comprehension",
+      "Python Tutorial",
+      "Clean Code",
+      "Intermediate Python"
+    ],
+    "readTime": "9 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Python List Comprehension: 15 Examples, Simple to Advanced",
+    "subtitle": "The three-slot pattern that folds a loop into one readable line, explained from zero with 15 tested examples.",
+    "featuredImage": {
+      "url": "/images/blog/python-list-comprehension-explained/00-hero.png",
+      "alt": "Python list comprehension explained with 15 examples from simple to advanced"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a moment in every Python learner's life when a four-line loop collapses into one clean line, and the code suddenly reads like a sentence. That is <strong>list comprehension</strong>, and it is less magic than it looks: a loop, folded into the brackets of the list it builds."
+      },
+      {
+        "type": "paragraph",
+        "text": "Comprehensions matter for two reasons. They are everywhere in real Python code, so you have to read them fluently even if you never write one. And when used well they are genuinely clearer than the loops they replace, because the whole intent sits on a single line."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide builds the idea from zero and then works through 15 examples, each one executed before it was pasted here. You only need loops and lists to follow along; if those are still new, start with <a href='/blog/python-for-beginners'>Python for beginners</a> and come back."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Pattern Behind Every Comprehension",
+        "id": "the-pattern"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every list comprehension has the same three slots: an expression that shapes each item, a for clause that walks a sequence, and an optional if that filters. Once you can spot the three slots, you can read any comprehension ever written."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-list-comprehension-explained/01-anatomy.png",
+        "alt": "Anatomy of a Python list comprehension with the expression, loop, and filter parts labelled",
+        "caption": "Three slots: shape it, walk it, filter it. The if is optional."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the same job done both ways. The loop appends item by item. The comprehension says the whole thing at once."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-list-comprehension-explained/02-loop-vs-comp.png",
+        "alt": "A four-line Python for loop and a one-line list comprehension producing exactly the same list",
+        "caption": "Same output, same speed of thought once you can read it."
+      },
+      {
+        "type": "paragraph",
+        "text": "A good way to hold the idea: a comprehension is a conveyor belt. Items ride in from the sequence, the if gate drops the ones that do not qualify, the expression reshapes the ones that pass, and the finished items land in a new list. The original list is never touched."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-list-comprehension-explained/03-conveyor.png",
+        "alt": "List comprehension as a conveyor belt: numbers flow in, a filter gate drops the odd ones, the expression doubles the rest",
+        "caption": "In, filter, transform, out. The source list stays exactly as it was."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Basics, One Idea at a Time",
+        "id": "basics"
+      },
+      {
+        "type": "paragraph",
+        "text": "Five examples, each adding one small twist: transform, filter, and the fact that any sequence can feed a comprehension. Read every one aloud before running it."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Squares from a range"
+      },
+      {
+        "type": "paragraph",
+        "text": "The hello world of comprehensions. Read it right to left: for every n from 1 to 5, keep n times n."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "squares = [n * n for n in range(1, 6)]\n\nprint(squares)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[1, 4, 9, 16, 25]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Transform every item"
+      },
+      {
+        "type": "paragraph",
+        "text": "Any expression works at the front. Here each name passes through upper() on its way into the new list."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "names = [\"asha\", \"rohan\", \"meera\"]\n\nshouty = [name.upper() for name in names]\n\nprint(shouty)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['ASHA', 'ROHAN', 'MEERA']"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Filter with an if at the end"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add an if after the loop and only the items that pass get in. Nothing is transformed here, just selected."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "numbers = [4, 7, 10, 13, 16, 19]\n\nevens = [n for n in numbers if n % 2 == 0]\n\nprint(evens)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[4, 10, 16]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Pull characters from a string"
+      },
+      {
+        "type": "paragraph",
+        "text": "Strings are sequences too, so a comprehension can walk one letter at a time."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "word = \"programming\"\n\nvowels = [ch for ch in word if ch in \"aeiou\"]\n\nprint(vowels)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['o', 'a', 'i']"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Convert a whole list of types"
+      },
+      {
+        "type": "paragraph",
+        "text": "Input usually arrives as text. One line turns a list of digit strings into real numbers you can add."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "raw = [\"10\", \"25\", \"7\"]\n\nnums = [int(s) for s in raw]\n\nprint(nums)\nprint(sum(nums))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[10, 25, 7]\n42"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Everyday Jobs",
+        "id": "everyday-jobs"
+      },
+      {
+        "type": "paragraph",
+        "text": "The examples you will actually reuse: labelling data, cleaning text, and flattening the awkward nested lists that real programs keep handing you."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-list-comprehension-explained/04-if-vs-ifelse.png",
+        "alt": "Where the if goes in a Python list comprehension: a filtering if sits after the loop, an if-else expression sits before it",
+        "caption": "The one everyone mixes up. A filtering if goes at the end. An if-else that produces a value goes at the front."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Label items with if-else"
+      },
+      {
+        "type": "paragraph",
+        "text": "When every item must produce something, the if-else moves to the front, before the for. It is an expression now, not a filter."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = [35, 72, 48, 91, 28]\n\nresults = [\"pass\" if m >= 40 else \"fail\" for m in marks]\n\nprint(results)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['fail', 'pass', 'pass', 'pass', 'fail']"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. Clean up messy text"
+      },
+      {
+        "type": "paragraph",
+        "text": "Real data arrives with stray spaces and random capitals. Chain the string methods inside the expression and the whole list comes out washed."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "raw = [\"  Asha \", \"ROHAN\", \" meera  \"]\n\nclean = [s.strip().lower() for s in raw]\n\nprint(clean)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['asha', 'rohan', 'meera']"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Measure every word"
+      },
+      {
+        "type": "paragraph",
+        "text": "A comprehension can hand its result straight to another function, like max() hunting for the longest word."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "words = [\"code\", \"python\", \"loop\", \"comprehension\"]\n\nlengths = [len(w) for w in words]\n\nprint(lengths)\nprint(max(lengths))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[4, 6, 4, 13]\n13"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. Flatten a nested list"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two fors run left to right, exactly in the order you would write them as normal loops: first each row, then each item inside it."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "nested = [[1, 2], [3, 4], [5, 6]]\n\nflat = [x for row in nested for x in row]\n\nprint(flat)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[1, 2, 3, 4, 5, 6]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Build every pair"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two independent loops give you every combination, the same way a times table is built."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "pairs = [(x, y) for x in [1, 2, 3] for y in [\"a\", \"b\"]]\n\nprint(pairs)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b'), (3, 'a'), (3, 'b')]"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Sharper Tools",
+        "id": "advanced"
+      },
+      {
+        "type": "paragraph",
+        "text": "The last five push further: matrices, dictionaries, and the set, dict, and generator cousins that share the same shape."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "11. Grab one column from a matrix"
+      },
+      {
+        "type": "paragraph",
+        "text": "A matrix is a list of rows. Picking index 1 from every row slices out the middle column."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "matrix = [\n    [1, 2, 3],\n    [4, 5, 6],\n    [7, 8, 9]\n]\n\ncolumn = [row[1] for row in matrix]\n\nprint(column)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[2, 5, 8]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "12. Filter a dictionary into a list"
+      },
+      {
+        "type": "paragraph",
+        "text": "Comprehensions read from anything you can loop over, including dictionary items. Here only the passing students keep their names on the list."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "results = {\"Asha\": 92, \"Rohan\": 35, \"Meera\": 78, \"Zoya\": 38}\n\npassed = [name for name, m in results.items() if m >= 40]\n\nprint(passed)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['Asha', 'Meera']"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "13. Keep only the digits"
+      },
+      {
+        "type": "paragraph",
+        "text": "Combine a filter with join() and you have a one-line text cleaner."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "messy = \"a1b2c3d4\"\n\ndigits = \"\".join([ch for ch in messy if ch.isdigit()])\n\nprint(digits)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1234"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "14. Meet the cousins: set and dict comprehensions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Swap the square brackets for braces and the same pattern builds sets and dictionaries. One idea, three containers."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "words = [\"code\", \"loop\", \"python\", \"trees\"]\n\nunique_lengths = {len(w) for w in words}\nword_length = {w: len(w) for w in words}\n\nprint(unique_lengths)\nprint(word_length)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{4, 5, 6}\n{'code': 4, 'loop': 4, 'python': 6, 'trees': 5}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "15. Drop the brackets and feed sum() directly"
+      },
+      {
+        "type": "paragraph",
+        "text": "Without brackets this becomes a generator expression: it never builds the list in memory, it just streams values into sum(). For big ranges this is the version to use."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "total = sum(n * n for n in range(1, 101))\n\nprint(total)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "338350"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When a Plain Loop Is the Better Choice",
+        "id": "when-not"
+      },
+      {
+        "type": "paragraph",
+        "text": "Comprehensions are for building lists, not for doing things. If the body of your loop prints, saves to a file, or updates other variables, keep it as a loop. And if your comprehension needs more than one if and one or two fors to say what it means, it has outgrown one line. The test is simple: can you read it aloud in one breath? If not, write the loop. Nobody was ever failed in a code review for being too clear."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Read it aloud",
+        "text": "Every comprehension can be spoken as a sentence. [n * n for n in range(1, 6)] reads as: the square of every n from 1 to 5. If you cannot phrase yours as a sentence, that is the sign to break it back into a loop."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Mistakes That Catch Everyone Once",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Putting a filtering if before the for:</strong> [n for n if n > 0 in nums] is a syntax error. A filter goes after the loop: [n for n in nums if n > 0].",
+          "<strong>Forgetting the else in a front if:</strong> [\"pass\" if m >= 40 for m in marks] fails. An if before the for is an expression and must carry an else.",
+          "<strong>Using a comprehension for side effects:</strong> [print(x) for x in items] builds a useless list of None. Just write the loop.",
+          "<strong>Nesting until unreadable:</strong> two fors is the practical ceiling. Three or more belongs in a loop with real names.",
+          "<strong>Shadowing names:</strong> [x for x in x] runs but hurts. Give the loop variable its own name."
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is a list comprehension in Python?",
+            "content": "A compact way to build a new list by transforming and filtering an existing sequence in one expression: [n * n for n in range(1, 6)] builds the squares of 1 to 5. It does the same work as a for loop with append, folded into a single readable line."
+          },
+          {
+            "title": "Is a list comprehension faster than a for loop?",
+            "content": "Usually a little faster, because the looping happens in Python's internals rather than through repeated append calls. But the honest reason to use one is readability, not speed. For heavy number crunching, libraries like NumPy matter far more than loop style."
+          },
+          {
+            "title": "Where does the if go in a list comprehension?",
+            "content": "A filtering if goes at the end, after the for: [n for n in nums if n > 0]. An if-else that chooses a value goes at the front, before the for: [\"pass\" if m >= 40 else \"fail\" for m in marks]. The two are different tools and the position is what separates them."
+          },
+          {
+            "title": "Can I use else in a list comprehension?",
+            "content": "Yes, but only in the front position as part of a conditional expression: value_if_true if condition else value_if_false. A trailing filter if cannot take an else, which is the error most beginners hit first."
+          },
+          {
+            "title": "How do nested list comprehensions work?",
+            "content": "Multiple fors read left to right in the same order as stacked loops. [x for row in nested for x in row] means: for each row in nested, for each x in that row, keep x. That flattens a list of lists."
+          },
+          {
+            "title": "What is the difference between a list comprehension and a generator expression?",
+            "content": "Brackets build the whole list in memory at once. Parentheses, or no brackets inside a function call like sum(n * n for n in range(1000000)), create a generator that produces one value at a time. For large data, the generator saves memory."
+          },
+          {
+            "title": "Do set and dictionary comprehensions exist too?",
+            "content": "Yes. Braces build a set: {len(w) for w in words}. Braces with a colon build a dictionary: {w: len(w) for w in words}. The reading pattern is identical, only the container changes."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "One Pattern, a Lifetime of Use"
+      },
+      {
+        "type": "paragraph",
+        "text": "Fifteen examples, but really one pattern: shape it, walk it, filter it. From here, comprehensions turn up everywhere, filtering rows of data, cleaning text, and feeding results straight into sum(), max(), and friends. Keep practising with our <a href='/blog/python-dictionary-complete-guide'>dictionary guide</a>, which pairs naturally with this one, or flex the basics with <a href='/blog/star-pattern-programs-in-python'>30 pattern programs</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you want this level of Python to become second nature, our <a href='/python-from-the-ground-up'>Python from the ground up</a> course builds it brick by brick, and our live <a href='/courses'>coding courses</a> teach learners aged 6 to 67 with a real teacher reading every line."
+      },
+      {
+        "type": "button",
+        "text": "Learn Python With a Teacher",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-dictionary-complete-guide'>Python Dictionary: The Complete Guide</a>",
+          "<a href='/blog/how-to-reverse-a-string-in-python'>How to Reverse a String in Python</a>",
+          "<a href='/blog/python-for-beginners'>Python for Beginners</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "python-dictionary-complete-guide",
+    "how-to-reverse-a-string-in-python",
+    "python-for-beginners"
+  ]
+}
