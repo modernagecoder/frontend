@@ -1,0 +1,626 @@
+{
+  "meta": {
+    "slug": "python-dictionary-complete-guide",
+    "title": "Python Dictionary: The Complete Guide With 20 Examples",
+    "description": "Learn the Python dictionary properly: create, read, update, loop, merge, sort, and nest, with 20 tested examples and the mistakes to avoid.",
+    "keywords": [
+      "python dictionary",
+      "dictionary in python",
+      "python dict methods",
+      "dictionary comprehension python",
+      "python key value pairs",
+      "nested dictionary python",
+      "python get method"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-03",
+    "dateModified": "2026-07-03",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Dictionaries",
+      "Data Structures",
+      "Python Tutorial",
+      "Beginner Programming"
+    ],
+    "readTime": "10 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Python Dictionary: The Complete Guide With 20 Examples",
+    "subtitle": "Keys, values, and everything you can do with them: 20 tested examples from your first lookup to a working contact book.",
+    "featuredImage": {
+      "url": "/images/blog/python-dictionary-complete-guide/00-hero.png",
+      "alt": "Python dictionary complete guide with 20 tested examples"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lists are the first container every Python learner meets, but dictionaries are the one working programmers reach for most. Config files, JSON from every API on the internet, counters, caches, lookup tables: underneath, they are all the same thing, a <strong>Python dictionary</strong> mapping keys to values."
+      },
+      {
+        "type": "paragraph",
+        "text": "The idea is simple. A list finds things by position: give me item number 2. A dictionary finds things by name: give me Rohan's phone number. The moment your data has natural labels, a dictionary says what your code means far better than a list ever could."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide walks through 20 examples, from creating your first dictionary to a small working contact book. Every example was run before being pasted here, and the output under each snippet is the real output. If Python itself is brand new to you, start with <a href='/blog/python-for-beginners'>Python for beginners</a> and come back."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What a Dictionary Actually Is",
+        "id": "what-is-a-dictionary"
+      },
+      {
+        "type": "paragraph",
+        "text": "A dictionary is a collection of key and value pairs inside curly braces. Each key acts like a label stuck onto its value. Keys must be unique and unchangeable, which is why strings and numbers make good keys and lists do not. Values can be anything at all: numbers, strings, lists, even other dictionaries."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-dictionary-complete-guide/01-anatomy.png",
+        "alt": "Anatomy of a Python dictionary literal with the braces, keys, values, and pairs labelled",
+        "caption": "One dictionary, taken apart. Keys are the labels, values are the data."
+      },
+      {
+        "type": "paragraph",
+        "text": "Since Python 3.7, dictionaries also remember the order you added things in, and lookups stay fast no matter how big the dictionary grows. Asking a dictionary of ten entries and a dictionary of ten million for a key both answer almost instantly, which is the quiet superpower behind everything below."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-dictionary-complete-guide/02-lookup.png",
+        "alt": "List versus dictionary lookup in Python: a list finds items by position number while a dictionary finds them by name",
+        "caption": "Lists answer by position. Dictionaries answer by name."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "First Steps With a Dictionary",
+        "id": "first-steps"
+      },
+      {
+        "type": "paragraph",
+        "text": "Six moves cover most of what you will ever do: create, read, add, remove, check, and loop. Get comfortable here and the rest of the guide is easy."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Create a dictionary and read a value"
+      },
+      {
+        "type": "paragraph",
+        "text": "Curly braces, keys on the left, values on the right. You read a value by asking for its key in square brackets."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "student = {\"name\": \"Asha\", \"age\": 12, \"grade\": 7}\n\nprint(student[\"name\"])\nprint(student[\"age\"])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Asha\n12"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Add a new pair and update an old one"
+      },
+      {
+        "type": "paragraph",
+        "text": "The same square-bracket assignment does both jobs. If the key is new, Python adds it. If it already exists, Python overwrites the value."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "student = {\"name\": \"Asha\", \"age\": 12}\n\nstudent[\"city\"] = \"Kolkata\"   # new key, so this adds\nstudent[\"age\"] = 13           # existing key, so this updates\n\nprint(student)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{'name': 'Asha', 'age': 13, 'city': 'Kolkata'}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Remove pairs with pop() and del"
+      },
+      {
+        "type": "paragraph",
+        "text": "pop() removes a key and hands you back its value, which is handy when you still need it. del just deletes."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "student = {\"name\": \"Asha\", \"age\": 13, \"city\": \"Kolkata\"}\n\nremoved = student.pop(\"city\")\ndel student[\"age\"]\n\nprint(removed)\nprint(student)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Kolkata\n{'name': 'Asha'}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Read safely with get()"
+      },
+      {
+        "type": "paragraph",
+        "text": "Square brackets crash with a KeyError if the key is missing. get() returns None instead, or any default you choose. This one method prevents most beginner dictionary crashes."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = {\"maths\": 92, \"science\": 88}\n\nprint(marks.get(\"maths\"))\nprint(marks.get(\"english\"))\nprint(marks.get(\"english\", 0))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "92\nNone\n0"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Check whether a key exists"
+      },
+      {
+        "type": "paragraph",
+        "text": "The in keyword asks about keys, not values. Test before you touch and you never crash."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = {\"maths\": 92, \"science\": 88}\n\nprint(\"maths\" in marks)\nprint(\"english\" in marks)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "True\nFalse"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Loop through a dictionary"
+      },
+      {
+        "type": "paragraph",
+        "text": "items() hands you each pair as key and value together, which reads far better than looking everything up inside the loop."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = {\"maths\": 92, \"science\": 88, \"english\": 75}\n\nfor subject, score in marks.items():\n    print(subject, \"->\", score)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "maths -> 92\nscience -> 88\nenglish -> 75"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Dictionaries Doing Real Work",
+        "id": "real-work"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where dictionaries earn their keep. Counting, looking things up by name, and nesting records are the jobs you will meet in real programs, school projects, and interviews alike."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-dictionary-complete-guide/04-freq-flow.png",
+        "alt": "How word frequency counting works in Python: split the sentence into words, then count each word into a dictionary",
+        "caption": "Split, then count. The dictionary does the remembering."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. Count word frequency"
+      },
+      {
+        "type": "paragraph",
+        "text": "The classic dictionary job, and a question interviewers never retire. get() with a default of 0 means the very first time a word appears, it starts counting from zero."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "sentence = \"the quick brown fox jumps over the lazy dog the end\"\n\ncounts = {}\nfor word in sentence.split():\n    counts[word] = counts.get(word, 0) + 1\n\nprint(counts[\"the\"])\nprint(counts)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "3\n{'the': 3, 'quick': 1, 'brown': 1, 'fox': 1, 'jumps': 1, 'over': 1, 'lazy': 1, 'dog': 1, 'end': 1}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Build a phone book"
+      },
+      {
+        "type": "paragraph",
+        "text": "Names to numbers is exactly what dictionaries were invented for. Check membership first and the lookup can never crash."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "phonebook = {\n    \"Asha\": \"98300 11111\",\n    \"Rohan\": \"98300 22222\",\n    \"Meera\": \"98300 33333\"\n}\n\nname = \"Rohan\"\nif name in phonebook:\n    print(name, \":\", phonebook[name])\nelse:\n    print(name, \"is not saved\")"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Rohan : 98300 22222"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. Nest dictionaries inside a dictionary"
+      },
+      {
+        "type": "paragraph",
+        "text": "A dictionary value can be another dictionary. Chain the square brackets to walk inward, one level at a time."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "students = {\n    \"roll_1\": {\"name\": \"Asha\", \"marks\": 92},\n    \"roll_2\": {\"name\": \"Rohan\", \"marks\": 85}\n}\n\nprint(students[\"roll_2\"][\"name\"])\nprint(students[\"roll_1\"][\"marks\"])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Rohan\n92"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Keep lists as values"
+      },
+      {
+        "type": "paragraph",
+        "text": "One key, many values: store a list under the key and append to it like any other list."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "homework = {\"monday\": [\"maths\", \"reading\"], \"tuesday\": [\"science\"]}\n\nhomework[\"tuesday\"].append(\"coding\")\n\nprint(homework[\"tuesday\"])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['science', 'coding']"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "11. Merge two dictionaries"
+      },
+      {
+        "type": "paragraph",
+        "text": "The | operator builds a merged copy. When both sides share a key, the right side wins, which makes it perfect for defaults plus overrides."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "defaults = {\"theme\": \"light\", \"font\": \"Inter\", \"size\": 14}\ncustom = {\"theme\": \"dark\"}\n\nsettings = defaults | custom\n\nprint(settings)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{'theme': 'dark', 'font': 'Inter', 'size': 14}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "12. Flip keys and values"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sometimes you need to look up in the other direction. A one-line comprehension swaps every pair."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "codes = {\"IN\": \"India\", \"JP\": \"Japan\", \"BR\": \"Brazil\"}\n\nnames = {value: key for key, value in codes.items()}\n\nprint(names[\"Japan\"])"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "JP"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Methods Worth Knowing",
+        "id": "useful-methods"
+      },
+      {
+        "type": "paragraph",
+        "text": "Python dictionaries carry a toolbox of methods. You do not need all of them, but these four solve problems that would otherwise take clumsy loops."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/python-dictionary-complete-guide/03-toolbox.png",
+        "alt": "Six essential Python dictionary methods with micro examples: get, pop, update, keys, values, and items",
+        "caption": "The dictionary toolbox. Six methods cover nearly every everyday job."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "13. See all keys, values, and pairs"
+      },
+      {
+        "type": "paragraph",
+        "text": "Three views of the same dictionary. Wrap them in list() when you want a plain list you can index or slice."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = {\"maths\": 92, \"science\": 88}\n\nprint(list(marks.keys()))\nprint(list(marks.values()))\nprint(list(marks.items()))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "['maths', 'science']\n[92, 88]\n[('maths', 92), ('science', 88)]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "14. Group items with setdefault()"
+      },
+      {
+        "type": "paragraph",
+        "text": "setdefault() fetches a key, but if the key is missing it first stores the default you give. That turns grouping into a two-line loop."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "pairs = [(\"Asha\", \"red\"), (\"Rohan\", \"blue\"), (\"Meera\", \"red\")]\n\ngroups = {}\nfor name, house in pairs:\n    groups.setdefault(house, []).append(name)\n\nprint(groups)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{'red': ['Asha', 'Meera'], 'blue': ['Rohan']}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "15. Start a scoreboard with fromkeys()"
+      },
+      {
+        "type": "paragraph",
+        "text": "fromkeys() builds a dictionary from a list of keys, all sharing one starting value. Ideal for attendance registers and score counters."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "attendance = dict.fromkeys([\"Asha\", \"Rohan\", \"Meera\"], 0)\n\nattendance[\"Asha\"] += 1\n\nprint(attendance)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{'Asha': 1, 'Rohan': 0, 'Meera': 0}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "16. Sort a dictionary by its values"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dictionaries keep insertion order, so sort the pairs first and rebuild. The key function picks pair[1], the value, as the thing to sort by."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = {\"maths\": 92, \"english\": 75, \"science\": 88}\n\nranked = dict(sorted(marks.items(), key=lambda pair: pair[1], reverse=True))\n\nprint(ranked)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{'maths': 92, 'science': 88, 'english': 75}"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Comprehensions and Mini Programs",
+        "id": "comprehensions"
+      },
+      {
+        "type": "paragraph",
+        "text": "The finishing school. Dict comprehensions compress build-and-filter loops into one readable line, and the closing example stitches the whole guide into a working program."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "17. Build a dictionary in one line"
+      },
+      {
+        "type": "paragraph",
+        "text": "A dict comprehension is a loop folded into the braces. Here every number from 1 to 5 becomes a key, with its square as the value."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "squares = {n: n * n for n in range(1, 6)}\n\nprint(squares)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "18. Filter a dictionary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add an if to the comprehension and only the pairs that pass survive."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "marks = {\"maths\": 92, \"english\": 75, \"science\": 88, \"history\": 64}\n\npassed = {sub: m for sub, m in marks.items() if m >= 80}\n\nprint(passed)"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "{'maths': 92, 'science': 88}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "19. Total up a shopping cart"
+      },
+      {
+        "type": "paragraph",
+        "text": "values() gives you just the prices, and sum() adds them. Ten lines of receipt in four lines of code."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "cart = {\"notebook\": 60, \"pen\": 15, \"geometry box\": 120}\n\nfor item, price in cart.items():\n    print(item, \":\", price)\n\nprint(\"Total:\", sum(cart.values()))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "notebook : 60\npen : 15\ngeometry box : 120\nTotal: 195"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "20. A tiny contact book with functions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Everything from this guide in one small program: a dictionary as storage, get() for safe lookups, and functions wrapped around both."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "contacts = {}\n\ndef save(name, number):\n    contacts[name] = number\n\ndef find(name):\n    return contacts.get(name, \"not found\")\n\nsave(\"Asha\", \"98300 11111\")\nsave(\"Rohan\", \"98300 22222\")\n\nprint(find(\"Asha\"))\nprint(find(\"Zoya\"))"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "98300 11111\nnot found"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Mistakes Everyone Makes Once",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>KeyError on a missing key:</strong> marks[\"english\"] crashes if english is not there. Use marks.get(\"english\") or test with in first.",
+          "<strong>Using a list as a key:</strong> keys must be values that cannot change, so lists are out. Use a tuple instead: locations[(22.57, 88.36)] works.",
+          "<strong>Changing a dictionary while looping over it:</strong> adding or deleting keys mid-loop raises a RuntimeError. Loop over list(marks.keys()) if you must delete.",
+          "<strong>Expecting in to check values:</strong> \"Asha\" in phonebook checks keys. For values, write \"Asha\" in phonebook.values().",
+          "<strong>Copying with =:</strong> b = a does not copy, it points both names at the same dictionary. Use b = a.copy() for a real copy."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "One habit that pays forever",
+        "text": "Whenever you write a square-bracket lookup, pause and ask: can this key ever be missing? If yes, switch to get() or an in check on the spot. That single habit removes the most common crash in beginner Python."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is the difference between a list and a dictionary in Python?",
+            "content": "A list stores items in a numbered sequence and you fetch them by position, like items[2]. A dictionary stores key and value pairs and you fetch by key, like marks[\"maths\"]. Use a list when order and position matter, and a dictionary when your data has natural labels."
+          },
+          {
+            "title": "What does the get() method do?",
+            "content": "get() reads a value by key, but never crashes. If the key is missing it returns None, or a default you supply as the second argument, like marks.get(\"english\", 0). Square brackets on a missing key raise a KeyError instead."
+          },
+          {
+            "title": "Are Python dictionaries ordered?",
+            "content": "Yes. Since Python 3.7, a dictionary remembers the order in which keys were inserted, and looping over it visits them in that order. Before 3.7 the order was not guaranteed, which is why older tutorials say otherwise."
+          },
+          {
+            "title": "What can be used as a dictionary key?",
+            "content": "Any value that cannot change: strings, numbers, and tuples all work. Lists and other dictionaries cannot be keys because they are mutable. Values, on the other hand, can be absolutely anything."
+          },
+          {
+            "title": "How do I sort a dictionary by value?",
+            "content": "Sort the pairs and rebuild: dict(sorted(marks.items(), key=lambda pair: pair[1], reverse=True)). The lambda picks the value out of each pair as the sorting key, and reverse=True puts the biggest first."
+          },
+          {
+            "title": "How do I merge two dictionaries in Python?",
+            "content": "On Python 3.9 and newer, use the pipe operator: merged = a | b. Where both share a key, b wins. On older versions, use merged = {**a, **b} or a.update(b), which changes a in place."
+          },
+          {
+            "title": "What is a nested dictionary?",
+            "content": "A dictionary whose values are themselves dictionaries, like a record of students where each roll number maps to a smaller dictionary of name and marks. You reach inside by chaining keys: students[\"roll_1\"][\"name\"]."
+          },
+          {
+            "title": "What is a dictionary comprehension?",
+            "content": "A one-line way to build a dictionary from a loop, written inside braces: {n: n * n for n in range(1, 6)}. Add an if at the end to filter while you build. It does exactly what the longer loop does, in less space."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Where Dictionaries Take You Next"
+      },
+      {
+        "type": "paragraph",
+        "text": "Once dictionaries click, a surprising amount of programming suddenly makes sense: JSON files are dictionaries, API responses are dictionaries, pandas rows behave like dictionaries, and the counters and caches inside real applications are dictionaries too. That is why they are worth learning properly rather than in passing. For more practice at this level, try <a href='/blog/how-to-reverse-a-string-in-python'>reversing strings five ways</a> or our <a href='/blog/star-pattern-programs-in-python'>30 pattern programs</a> next."
+      },
+      {
+        "type": "paragraph",
+        "text": "And when you are ready to use dictionaries on real data and real projects, the path from here runs through our <a href='/master-ai-ml-python-java'>Python, AI and ML track</a>, with live <a href='/courses'>courses</a> for learners aged 6 to 67 and a teacher who reads every line you write."
+      },
+      {
+        "type": "button",
+        "text": "Find Your Python Course",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-for-beginners'>Python for Beginners</a>",
+          "<a href='/blog/how-to-reverse-a-string-in-python'>How to Reverse a String in Python</a>",
+          "<a href='/blog/star-pattern-programs-in-python'>Star Pattern Programs in Python</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "python-for-beginners",
+    "how-to-reverse-a-string-in-python",
+    "star-pattern-programs-in-python"
+  ]
+}
