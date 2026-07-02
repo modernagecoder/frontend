@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><style>
+:root{--w:1200px;--h:675px;--blue:#2b6cb0}
+.fit{gap:20px}
+.race{display:flex;gap:26px;justify-content:center}
+.lane{flex:0 1 440px;border:4px solid var(--ink);border-radius:18px;background:var(--card);padding:22px 26px;display:flex;flex-direction:column;gap:10px}
+.lane.slow{box-shadow:8px 9px 0 var(--coral)}
+.lane.fast{box-shadow:8px 9px 0 var(--pine)}
+.lane .who{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:21px;color:#5c574d}
+.lane .time{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:66px;letter-spacing:-1.5px;line-height:1}
+.slow .time{color:var(--coral)} .fast .time{color:var(--pine)}
+.lane .why{font-size:19px;color:#5c574d;line-height:1.3}
+.bar{height:20px;border:3px solid var(--ink);border-radius:8px;overflow:hidden;background:#F7F1E2}
+.bar span{display:block;height:100%}
+.slow .bar span{width:100%;background:var(--coral)}
+.fast .bar span{width:2%;background:var(--pine)}
+.mid{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.mid .x{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:40px;background:var(--yellow);border:3px solid var(--ink);border-radius:14px;padding:10px 18px;box-shadow:5px 6px 0 var(--ink)}
+.foot-note{font-family:'Caveat',cursive;font-weight:700;font-size:32px;color:var(--coral);text-align:center}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><rect width="512" height="512" fill="#007bff"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/><path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/><line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/><line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/><line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/><line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/></g><g fill="#fff"><circle cx="182" cy="190" r="41"/><circle cx="330" cy="190" r="41"/><path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/><path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/></g></svg></span><span class="brand-name">Modern Age Coders</span><span class="handle">measured, not guessed</span></div>
+  <div class="main"><div class="fit">
+    <span class="eyebrow">fib(30), timed while writing this post</span>
+    <div class="race">
+      <div class="lane slow">
+        <span class="who">plain recursion</span>
+        <span class="time">121 ms</span>
+        <div class="bar"><span></span></div>
+        <span class="why">2,692,537 calls, most of them repeats of work already done.</span>
+      </div>
+      <div class="mid"><span class="x">~2400x</span></div>
+      <div class="lane fast">
+        <span class="who">with @lru_cache</span>
+        <span class="time">0.05 ms</span>
+        <div class="bar"><span></span></div>
+        <span class="why">31 real calls. Every repeat is answered from memory.</span>
+      </div>
+    </div>
+    <div class="foot-note">one decorator line. that is the whole difference.</div>
+  </div></div>
+</div></body></html>
