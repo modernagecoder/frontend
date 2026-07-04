@@ -314,6 +314,10 @@
       },
       {
         "type": "paragraph",
+        "text": "And whichever door you pick, our <a href='/blog/learn-python-step-by-step'>free step-by-step Python library</a> lays out the full staged path the moment you choose Python."
+      },
+      {
+        "type": "paragraph",
         "text": "If Python is your opening move, our <a href='/python-from-the-ground-up'>Python from the ground up</a> course and the <a href='/blog/python-for-beginners'>beginner's guide</a> are built for exactly that. If JavaScript is, start with <a href='/blog/javascript-basics'>JavaScript basics</a>. And if you would rather have a teacher help you sequence the whole journey, our live <a href='/courses'>coding courses</a> guide learners aged 6 to 67 through both."
       },
       {

@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><style>
+:root{--w:1200px;--h:675px;--blue:#2b6cb0;--purple:#7c5cbf}
+.fit{gap:20px}
+.line{position:relative;height:330px}
+.rail{position:absolute;left:60px;right:60px;top:74px;height:10px;background:var(--ink);border-radius:5px}
+.stops{position:absolute;inset:0;display:flex;justify-content:space-between;padding:0 30px}
+.stop{width:196px;display:flex;flex-direction:column;align-items:center;gap:8px}
+.dot2{margin-top:56px;width:46px;height:46px;border-radius:50%;border:5px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:22px;background:var(--card);z-index:2}
+.s1 .dot2{background:#DCEBFA} .s2 .dot2{background:#B7E4CF} .s3 .dot2{background:#FFF3C4} .s4 .dot2{background:#FDECE6} .s5 .dot2{background:#E0D4F5}
+.card2{border:3px solid var(--ink);border-radius:13px;background:var(--card);padding:10px 12px;box-shadow:4px 5px 0 var(--ink);text-align:center;width:100%}
+.card2 .t{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:19px;line-height:1.1}
+.s1 .t{color:var(--blue)} .s2 .t{color:var(--pine)} .s3 .t{color:var(--amber)} .s4 .t{color:var(--coral)} .s5 .t{color:var(--purple)}
+.card2 .d{font-size:15px;color:#5c574d;line-height:1.25;margin-top:3px}
+.card2 .n{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;color:#8a8478;margin-top:5px;display:block}
+.note{font-family:'Caveat',cursive;font-weight:700;font-size:36px;color:var(--coral);text-align:center}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><rect width="512" height="512" fill="#007bff"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/><path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/><line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/><line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/><line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/><line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/></g><g fill="#fff"><circle cx="182" cy="190" r="41"/><circle cx="330" cy="190" r="41"/><path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/><path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/></g></svg></span><span class="brand-name">Modern Age Coders</span><span class="handle">the whole path</span></div>
+  <div class="main"><div class="fit">
+    <span class="eyebrow">five stops, in order</span>
+    <div class="line">
+      <div class="rail"></div>
+      <div class="stops">
+        <div class="stop s1"><span class="dot2">1</span><div class="card2"><span class="t">Start Here</span><div class="d">Pick your language, run your first programs</div><span class="n">3 guides</span></div></div>
+        <div class="stop s2"><span class="dot2">2</span><div class="card2"><span class="t">Loops</span><div class="d">Patterns, Fibonacci, and the classics</div><span class="n">7 guides</span></div></div>
+        <div class="stop s3"><span class="dot2">3</span><div class="card2"><span class="t">Containers</span><div class="d">Dictionaries, comprehensions, lambdas</div><span class="n">3 guides</span></div></div>
+        <div class="stop s4"><span class="dot2">4</span><div class="card2"><span class="t">Real Programs</span><div class="d">OOP, exceptions, and files that persist</div><span class="n">5 guides</span></div></div>
+        <div class="stop s5"><span class="dot2">5</span><div class="card2"><span class="t">Your Track</span><div class="d">Board exams or the data career road</div><span class="n">5 guides</span></div></div>
+      </div>
+    </div>
+    <div class="note">each stage assumes only the stages before it</div>
+  </div></div>
+</div></body></html>

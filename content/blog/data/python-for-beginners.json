@@ -54,6 +54,10 @@
         "text": "Still weighing your options before you commit? Our honest <a href='/blog/python-vs-javascript-which-to-learn-first'>Python vs JavaScript comparison</a> runs the same program in both languages and settles the which-first question by what you want to build."
       },
       {
+        "type": "paragraph",
+        "text": "And if you like learning with a map in hand, our <a href='/blog/learn-python-step-by-step'>free Python tutorial library</a> arranges every guide on this site into five ordered stages, with this one as stage one."
+      },
+      {
         "type": "callout",
         "calloutType": "info",
         "title": "Your Learning Journey",

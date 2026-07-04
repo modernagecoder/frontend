@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "slug": "learn-python-step-by-step",
+    "title": "Learn Python Step by Step: The Free Tutorial Library",
+    "description": "A free, ordered path through every Python tutorial on this site: five stages from your first line of code to exam-ready, all with tested code.",
+    "keywords": [
+      "learn python step by step",
+      "python tutorial for beginners free",
+      "python learning path",
+      "python roadmap for beginners",
+      "free python tutorials",
+      "how to learn python",
+      "python for school students"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-04",
+    "dateModified": "2026-07-04",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Learning Path",
+      "Free Tutorials",
+      "Beginner Programming",
+      "Study Guide"
+    ],
+    "readTime": "7 min read",
+    "featured": true
+  },
+  "hero": {
+    "title": "Learn Python Step by Step: The Free Tutorial Library",
+    "subtitle": "Every Python guide on this site, arranged into five stages from first line to exam-ready. All code tested, all output real, all of it free.",
+    "featuredImage": {
+      "url": "/images/blog/learn-python-step-by-step/00-hero.png",
+      "alt": "Learn Python step by step with a free five-stage tutorial library"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is no shortage of Python tutorials on the internet. What is rare is an order: which one first, which one next, and when you are actually ready to move on. This page is that order. Every Python guide on this site, arranged into five stages, from your first line of code to walking into a board exam calm."
+      },
+      {
+        "type": "paragraph",
+        "text": "One promise holds across everything linked here: <strong>every code example was executed before it was published</strong>, and the output you see under each snippet is the real output it produced. No pseudo-code, no it-should-work. If a guide here shows a result, that result happened."
+      },
+      {
+        "type": "paragraph",
+        "text": "Bookmark this page. Work top to bottom, one guide at a time, and let each stage feel easy before you leave it. That is the whole method."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/learn-python-step-by-step/01-path.png",
+        "alt": "The five stage path to learn Python step by step: first steps, loops, containers, real programs, and exam or career tracks",
+        "caption": "Five stages. Each one assumes only the stages before it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Stage 1: Start Here",
+        "id": "stage-1"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two questions get settled in stage one: is Python the right first language for you, and can you write and run a simple program without help? Do not rush this stage, and do not linger in it either. The moment small programs run without fear, move on."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "print(\"Hello, world. This is day one.\")"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-vs-javascript-which-to-learn-first'>Python vs JavaScript: which to learn first</a>. If you have not committed yet, settle it honestly in one read.",
+          "<a href='/blog/python-for-beginners'>Python for beginners</a>. The full walkthrough: installing, variables, input, conditions, loops, and your first programs.",
+          "<a href='/blog/python-basic-programs-for-beginners'>30+ basic Python programs</a>. Volume practice. Write them, do not read them."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Stage 2: Make Loops Second Nature",
+        "id": "stage-2"
+      },
+      {
+        "type": "paragraph",
+        "text": "Loops are where programming stops being typing and starts being thinking. This stage is deliberately playful: patterns you can see, sequences that grow, and small classic problems that exams and interviews never retire."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/star-pattern-programs-in-python'>30 star pattern programs</a>. Triangles, pyramids, and diamonds. The fastest way to feel nested loops in your hands.",
+          "<a href='/blog/how-to-reverse-a-string-in-python'>Reverse a string, five ways</a>. One tiny problem, five techniques, including the famous one-line slice.",
+          "<a href='/blog/fibonacci-series-in-python'>The Fibonacci series, seven ways</a>. Loops, recursion, caching, and generators, with honest speed measurements.",
+          "<a href='/blog/how-to-find-hcf-and-lcm-in-python'>HCF and LCM, five methods</a>. Your first real algorithm: the 2,300 year old Euclidean trick.",
+          "<a href='/blog/how-to-write-a-leap-year-program-in-python'>The leap year program</a>. Small, sneaky, and excellent condition practice.",
+          "<a href='/blog/what-is-floor-division-in-python'>Floor division explained</a>. The double slash you will meet in half the programs above.",
+          "<a href='/blog/how-to-build-menu-driven-program-in-python'>Build a menu-driven program</a>. Your first program that feels like an app."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Stage 3: Master the Containers",
+        "id": "stage-3"
+      },
+      {
+        "type": "paragraph",
+        "text": "Real data does not arrive one value at a time. Stage three is about the structures that hold it, and the compact idioms Python is famous for. This is the stage that quietly turns you from someone who writes lines into someone who writes programs."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-dictionary-complete-guide'>The Python dictionary, 20 examples</a>. The single most useful structure in the language. JSON, APIs, and counters all speak it.",
+          "<a href='/blog/python-list-comprehension-explained'>List comprehensions, 15 examples</a>. Fold a loop into one readable line, and know when not to.",
+          "<a href='/blog/python-lambda-functions'>Lambda functions, 10 examples</a>. The tiny anonymous functions that power sorting, and the honest rules for when a def is better."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Stage 4: Write Real Programs",
+        "id": "stage-4"
+      },
+      {
+        "type": "paragraph",
+        "text": "Stage four is the jump from exercises to software: code organised into functions and classes, data that survives after the program closes, and errors that get handled instead of feared."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/advantages-functions-python-why-every-coder-should-use-them'>Why functions change everything</a>. The case for organising code before you write more of it.",
+          "<a href='/blog/python-oop-tutorial-for-beginners'>OOP: classes, objects, and inheritance</a>. One running Student example, from your first class to composition.",
+          "<a href='/blog/exception-handling-in-python'>Exception handling: try, except, finally</a>. Real tracebacks, precise catching, and the habits that keep programs alive.",
+          "<a href='/blog/how-to-read-and-write-files-in-python'>Read and write files</a>. Data that persists, done with modern best practices.",
+          "<a href='/blog/file-types-in-python-complete-guide'>File types</a>, <a href='/blog/file-built-in-methods-python-guide'>file methods</a>, and <a href='/blog/file-organization-in-python'>file organisation</a>. The supporting trio once files click."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Stage 5: Pick Your Track",
+        "id": "stage-5"
+      },
+      {
+        "type": "paragraph",
+        "text": "From here the path forks by destination. School students head into board preparation. Professionals head toward data. Both tracks stand entirely on the four stages behind you."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>The school and boards track:</strong>"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/python-programs-for-cbse-class-12'>20 Python programs for CBSE Class 12</a>. The 083 practical syllabus, every program executed: files, pickle, CSV, and the stack.",
+          "<a href='/blog/top-20-java-programs-for-icse-class-10'>20 Java programs for ICSE Class 10</a>. For the BlueJ side of the family.",
+          "<a href='/blog/cbse-icse-gap-what-schools-not-teaching-about-tech'>The CBSE/ICSE gap</a>. Why board marks and real skill are different things, and how to have both."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>The career track:</strong>"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/why-python-most-powerful-skill-professionals-today'>Why Python is the most powerful skill for professionals</a>. The case, the roles, and the learning path around a full-time job.",
+          "<a href='/blog/data-science-ai-math-skills-professionals'>Data science, AI, and maths skills</a>. Where the Python road leads next."
+        ]
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/learn-python-step-by-step/02-tested.png",
+        "alt": "Why the code in this library can be trusted: every example is written, executed, its output captured, and only then published",
+        "caption": "The rule behind every guide in this library: run it first, publish it second."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to Use This Library",
+        "id": "how-to-use"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>One guide at a time, typed not read.</strong> Copy-paste teaches your clipboard. Typing teaches you.",
+          "<strong>Three inputs per example.</strong> Run each snippet as given, then change something and predict the result before running again. The prediction is the practice.",
+          "<strong>Stay until it feels easy.</strong> Stages are gates, not races. Boredom is the signal to move on, confusion is the signal to stay.",
+          "<strong>Come back with a purpose.</strong> Stuck on a school assignment or a project? The stage structure doubles as a lookup: files in stage four, patterns in stage two."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "A steady weekly rhythm",
+        "text": "Three sessions a week, forty five minutes each, beats a five hour Sunday every time. At that pace, stages one and two take about a month together, and most learners reach the end of stage four within three to four months. Slow is smooth, and smooth is fast."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When Self-Study Needs a Second Pair of Eyes",
+        "id": "with-a-teacher"
+      },
+      {
+        "type": "paragraph",
+        "text": "Everything on this page is free, and it is genuinely enough to take you a long way. Here is the honest limit: a library can show you correct code, but it cannot look at <em>your</em> code. It cannot spot the habit that will hurt you in month three, or notice that you are racing through stage two when your loops still wobble, or answer the question you did not know how to phrase."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/learn-python-step-by-step/03-teacher.png",
+        "alt": "What self-study gives you versus what a live teacher adds: feedback on your own code, pacing, and answers to questions you could not phrase",
+        "caption": "The library teaches from correct code. A teacher teaches from yours."
+      },
+      {
+        "type": "paragraph",
+        "text": "That second pair of eyes is exactly what our live classes add. Small groups, a teacher who reads every line you write, and a path that adapts to where you actually are, for learners aged 6 to 67. If you are working through this library and want that feedback loop, a free demo class is the easiest way to see whether it fits."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Demo Class",
+        "url": "/contact",
+        "style": "primary"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How long does it take to learn Python with this library?",
+            "content": "At three short sessions a week, most learners finish stages one and two in about a month, and reach the end of stage four in three to four months. The exam and career tracks in stage five depend on your goal. Faster is possible; steadier is better."
+          },
+          {
+            "title": "Is everything here really free?",
+            "content": "Yes. Every guide linked on this page is free to read, with complete tested code you can copy and run. Our paid offering is different in kind, not in content: live classes where a teacher works with your code directly."
+          },
+          {
+            "title": "Do I have to follow the stages in order?",
+            "content": "Stages one to four build on each other, so the order matters there. Inside a stage, follow your curiosity. And if you arrive with a specific need, say file handling for an exam, jumping straight to that guide is a perfectly good use of the library."
+          },
+          {
+            "title": "What age is this path suitable for?",
+            "content": "The guides are written for roughly age 11 upward, including teens, college students, and working professionals. For younger children, visual programming first is the kinder route; our guides on Scratch and block coding cover that stage, and this library takes over once typing-based code makes sense."
+          },
+          {
+            "title": "Do I need to be good at maths to learn Python?",
+            "content": "No. Basic arithmetic covers stages one to four. A few guides touch slightly deeper ideas, remainders, the Euclidean algorithm, but each one explains its own maths from zero. Programming builds logical thinking; it does not demand advanced maths to start."
+          },
+          {
+            "title": "What should I do after finishing all five stages?",
+            "content": "Build something that is yours: a real small project, however modest, teaches more than any tutorial. From there the forks are projects and portfolios, data science, web development, or exam preparation, and stage five points at each road."
+          },
+          {
+            "title": "I am preparing for boards. Which parts do I need?",
+            "content": "CBSE Class 12 students should work stages one, two, and four, then live inside the 20-program CBSE bank. ICSE Class 10 students preparing in Java can go straight to the ICSE program bank, which is self-contained. Both banks show real executed output for every program."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Start Where You Are"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sixty seconds from now you could have run your first line of Python, or your five hundredth. Either way the next step is the same size: one guide, one typed example, one small win. The library will be here in order whenever you come back."
+      },
+      {
+        "type": "button",
+        "text": "Talk to a Teacher First",
+        "url": "/contact",
+        "style": "primary"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "python-for-beginners",
+    "star-pattern-programs-in-python",
+    "python-programs-for-cbse-class-12"
+  ]
+}

@@ -247,6 +247,10 @@
       },
       {
         "type": "paragraph",
+        "text": "All of these programs also have a home in our <a href='/blog/learn-python-step-by-step'>step-by-step Python library</a>, which orders every tutorial on this site into five stages so you always know what comes next."
+      },
+      {
+        "type": "paragraph",
         "text": "When you want to go beyond the teaser, our full guide to the <a href='/blog/fibonacci-series-in-python'>Fibonacci series in Python</a> writes it seven different ways, from a simple loop to a cached recursion, with honest speed measurements."
       },
       {
