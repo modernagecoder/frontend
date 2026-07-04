@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "icse-class-10-computer-applications-revision",
+    "title": "ICSE Class 10 Computer Applications: Revision Guide",
+    "description": "The complete ICSE Class 10 Computer Applications revision guide: paper structure, topic-by-topic notes, 70 executed Java programs, and a 4-week plan.",
+    "keywords": [
+      "icse class 10 computer applications",
+      "icse computer applications revision",
+      "icse class 10 java syllabus",
+      "computer applications important questions",
+      "icse java board exam preparation",
+      "bluej icse class 10",
+      "icse computer applications programs"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-04",
+    "dateModified": "2026-07-04",
+    "category": "Java",
+    "tags": [
+      "ICSE",
+      "Computer Applications",
+      "Java",
+      "Revision",
+      "Exam Preparation"
+    ],
+    "readTime": "6 min read",
+    "featured": true
+  },
+  "hero": {
+    "title": "ICSE Class 10 Computer Applications: Revision Guide",
+    "subtitle": "Paper structure, every syllabus topic with its hotspots, 70 executed Java programs across four banks, and a calm four-week plan.",
+    "featuredImage": {
+      "url": "/images/blog/icse-class-10-computer-applications-revision/00-hero.png",
+      "alt": "ICSE Class 10 Computer Applications complete revision guide for the Java board exam"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "If ICSE Class 10 Computer Applications is on your timetable, here is the honest good news: this is one of the most predictable, most scorable papers you will sit, provided you revise the right things in the right order. This page is that order: the paper's structure, every syllabus area with what it actually asks, our full program banks, and a last-month plan."
+      },
+      {
+        "type": "paragraph",
+        "text": "Treat it as your revision homepage. Everything linked from here follows one rule: every program was compiled in real Java and executed before publishing, so what you practise is exactly what runs."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How the Paper Is Built",
+        "id": "paper-structure"
+      },
+      {
+        "type": "paragraph",
+        "text": "Computer Applications is taught and examined in Java, written in the BlueJ environment. The theory paper runs two hours for 100 marks: Section A carries 40 compulsory marks of short questions across the whole syllabus, and Section B carries 60 marks of full program-writing questions, with a choice of which to attempt. Alongside it sits a 100-mark Internal Assessment built on your lab work through the year."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/icse-class-10-computer-applications-revision/01-paper.png",
+        "alt": "Structure of the ICSE Class 10 Computer Applications paper: two hours, 100 marks, Section A 40 compulsory and Section B 60 with choice, plus internal assessment",
+        "caption": "Section B is where preparation pays: 60 marks of programs, with a choice."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "What Section A actually tests",
+        "text": "Definitions, one-line differences, operator results, and output prediction snippets. It rewards precise vocabulary: constructor vs method, equals vs ==, the exact result of 17 / 5 versus 17 % 5. The topic notes below flag these hotspots."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Syllabus, Topic by Topic",
+        "id": "syllabus-map"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ten areas cover the syllabus. For each, here is what the paper does with it and where to drill it."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/icse-class-10-computer-applications-revision/02-topics.png",
+        "alt": "The ten topic areas of ICSE Class 10 Computer Applications with their revision weight",
+        "caption": "Ten areas. The starred four produce most of Section B."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>OOP concepts:</strong> definitions of class, object, encapsulation, and abstraction. Section A territory; learn crisp one-liners.",
+          "<strong>Values and data types:</strong> int vs double behaviour, char arithmetic, type conversion. Output questions love implicit conversion.",
+          "<strong>Operators:</strong> arithmetic, relational, logical, ternary, and the / vs % pair. Practise predicting results by hand.",
+          "<strong>Conditionals:</strong> if ladders and switch. The switch-with-missing-break output question is a perennial. Drill it in the <a href='/blog/50-java-programs-for-icse-class-10'>50-program bank</a>, family one.",
+          "<strong>Loops and nested loops:</strong> series, digit extraction, and one pattern almost every year. Families two and four of the <a href='/blog/50-java-programs-for-icse-class-10'>bank</a> cover both.",
+          "<strong>Special numbers:</strong> the most ICSE topic of all. Ten types with executed checks live in the bank, and the <a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20</a> walks the big ones slowly.",
+          "<strong>Methods:</strong> parameters, return values, and overloading. Covered across both program banks.",
+          "<strong>Constructors:</strong> asked every year in some form. Our <a href='/blog/java-constructors-explained'>constructor guide</a> runs every type, plus the versus-method table.",
+          "<strong>String handling:</strong> the richest Section B marks. The <a href='/blog/string-handling-in-java'>string guide</a> holds the method toolkit, the equals trap, and five board programs.",
+          "<strong>Arrays:</strong> searching and sorting, single dimensional. The <a href='/blog/java-array-programs-for-beginners'>20 array programs</a> include every syllabus sort and search with executed steps."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Your Program Banks, In Revision Order",
+        "id": "program-banks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Four resources, in the order a revision should use them:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20 Java Programs for ICSE</a>: the slow, explained walk through the highest-frequency questions. Start here if programs still feel shaky.",
+          "<a href='/blog/string-handling-in-java'>String Handling in Java</a> and <a href='/blog/java-constructors-explained'>Java Constructors</a>: the two topics that repay concept-first revision before drilling.",
+          "<a href='/blog/java-array-programs-for-beginners'>20 Java Array Programs</a>: searching, sorting, and the 2D questions, each traced with real output.",
+          "<a href='/blog/50-java-programs-for-icse-class-10'>The 50-Program Bank</a>: the full seven-family sweep for the final weeks, ten programs a week."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Output-Question Traps",
+        "id": "output-traps"
+      },
+      {
+        "type": "paragraph",
+        "text": "Section A's output questions are built from a short list of traps. Recognise them and the marks are mechanical."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/icse-class-10-computer-applications-revision/03-traps.png",
+        "alt": "The classic output question traps in ICSE Java: integer division, missing break, equals versus ==, post increment, and char arithmetic",
+        "caption": "Five traps set almost every year. Each has a one-line defence."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Integer division:</strong> 17 / 5 is 3, not 3.4, when both sides are int. The decimal only survives if one side is double.",
+          "<strong>The missing break:</strong> a switch without break runs every case below the match. Read switch questions twice.",
+          "<strong>equals vs ==:</strong> two strings with identical text can fail ==. Text comparison means equals().",
+          "<strong>x++ vs ++x:</strong> post uses then changes; pre changes then uses. Write the intermediate values in the margin.",
+          "<strong>char arithmetic:</strong> (char)('A' + 2) is 'C', and 'A' + 2 alone is 67. Watch whether the cast is there."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Last Month, Week by Week",
+        "id": "last-month"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Week 1:</strong> concepts pass. The constructor guide, the string guide, and your class notes for definitions. Make the Section A one-liners automatic.",
+          "<strong>Week 2:</strong> program families one to four of the 50-bank: conditions, loops, special numbers, patterns. Ten programs typed per week is the pace.",
+          "<strong>Week 3:</strong> families five to seven plus the array programs: strings, arrays, methods, constructors. Dry-run one sorting pass daily.",
+          "<strong>Week 4:</strong> past papers under the clock, two hours each. Mark them against the traps list above, and rewrite from memory every program that resisted."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "The day before",
+        "text": "Do not learn anything new. Rewrite five favourite programs from memory, reread the traps list, sleep. The paper rewards calm recall, and calm is built the night before."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Is ICSE Class 10 Computer Applications easy to score in?",
+            "content": "It is widely considered among the most scorable papers, because the program families repeat year after year. Students who have typed the standard programs until they flow, and who know the output-question traps, routinely score very high. The risk is only in treating it as a reading subject."
+          },
+          {
+            "title": "How is the Computer Applications paper structured?",
+            "content": "A two-hour, 100-mark theory paper: Section A with 40 compulsory marks of short questions, and Section B with 60 marks of program-writing where you choose which questions to attempt. Internal Assessment based on the year's lab work carries a further 100 marks."
+          },
+          {
+            "title": "Which topics matter most for Section B?",
+            "content": "Special numbers, one nested-loop pattern, string programs, and an array sort or search form the core almost every year, with methods and constructors woven through. That is exactly why those four areas have dedicated guides and banks on this page."
+          },
+          {
+            "title": "How many programs should I practise before boards?",
+            "content": "Our banks hold 70 executed programs across the Top 20 and the 50-program bank, organised so ten a week covers everything in five to seven weeks. Depth matters more than count: a program you can rewrite from memory is worth five you have only read."
+          },
+          {
+            "title": "Do I need to write import statements and Scanner in every answer?",
+            "content": "When your solution reads input, yes: import java.util.Scanner and construct one. Many answers can also be written with values passed as method parameters where the question allows. What examiners consistently reward is complete, runnable-looking structure."
+          },
+          {
+            "title": "How do I prepare for the output questions in Section A?",
+            "content": "Learn the five traps: integer division, missing break, equals vs ==, increment order, and char arithmetic. Then practise by predicting outputs on paper before running the code in BlueJ to check. Ten minutes daily for two weeks makes these near-automatic."
+          },
+          {
+            "title": "What is the best way to use BlueJ during revision?",
+            "content": "Type every practice program rather than pasting it, run it on the sample values, then change the values and predict the new output before running again. BlueJ's simplicity is the point: no project setup, just class, compile, run."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Walk In Prepared, Walk Out Smiling"
+      },
+      {
+        "type": "paragraph",
+        "text": "Everything on this page compounds: concepts make the programs make sense, programs make the outputs predictable, and the weekly plan makes all of it calm. Bookmark this hub, work the banks, and if the wider question of school-versus-real-skills is on your mind, our essay on <a href='/blog/cbse-icse-gap-what-schools-not-teaching-about-tech'>the CBSE/ICSE gap</a> is the bigger picture."
+      },
+      {
+        "type": "paragraph",
+        "text": "And when you want a coach who has taken students through this exact paper, live, our <a href='/java-programming-for-icse-students'>ICSE Java classes</a> pair you with a teacher who reads every line you write, within <a href='/courses'>courses</a> for learners aged 6 to 67. A free demo tells you in forty minutes whether it fits."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free ICSE Demo Class",
+        "url": "/contact",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/50-java-programs-for-icse-class-10'>50 Important Java Programs for ICSE Class 10</a>",
+          "<a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20 Java Programs for ICSE Class 10</a>",
+          "<a href='/blog/string-handling-in-java'>String Handling in Java</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "50-java-programs-for-icse-class-10",
+    "top-20-java-programs-for-icse-class-10",
+    "string-handling-in-java"
+  ]
+}

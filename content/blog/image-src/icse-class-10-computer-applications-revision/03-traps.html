@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><style>
+:root{--w:1200px;--h:675px;--blue:#2b6cb0;--purple:#7c5cbf}
+.fit{gap:12px}
+.traps{display:flex;flex-direction:column;gap:10px}
+.trap{display:flex;align-items:center;gap:0;border:3px solid var(--ink);border-radius:13px;overflow:hidden;box-shadow:4px 5px 0 var(--ink);background:var(--card)}
+.trap .code{flex:none;width:330px;padding:11px 18px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:19px;background:var(--ink);color:#e7e3ec;align-self:stretch;display:flex;align-items:center}
+.trap .code .r{color:#ff7a6b} .trap .code .y{color:#ffd15a}
+.trap .out{flex:none;width:170px;padding:11px 14px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:20px;text-align:center}
+.t1 .out{color:var(--coral)} .t2 .out{color:var(--amber)} .t3 .out{color:var(--purple)} .t4 .out{color:var(--blue)} .t5 .out{color:var(--pine)}
+.trap .why{flex:1;padding:11px 16px;font-size:17px;color:#5c574d;line-height:1.25;border-left:2px solid var(--line)}
+.note{font-family:'Caveat',cursive;font-weight:700;font-size:32px;color:var(--coral);text-align:center}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><rect width="512" height="512" fill="#007bff"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/><path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/><line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/><line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/><line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/><line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/></g><g fill="#fff"><circle cx="182" cy="190" r="41"/><circle cx="330" cy="190" r="41"/><path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/><path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/></g></svg></span><span class="brand-name">Modern Age Coders</span><span class="handle">output-question traps</span></div>
+  <div class="main"><div class="fit">
+    <span class="eyebrow">five traps, set almost every year</span>
+    <div class="traps">
+      <div class="trap t1"><span class="code">int r = <span class="y">17 / 5</span>;</span><span class="out">r = 3</span><span class="why">Both sides int, so the decimal is thrown away. Not 3.4.</span></div>
+      <div class="trap t2"><span class="code">case 1: ... <span class="r">// no break</span></span><span class="out">falls through</span><span class="why">Without break, every case below the match also runs.</span></div>
+      <div class="trap t3"><span class="code">s1 <span class="y">==</span> s2</span><span class="out">maybe false</span><span class="why">Compares references, not text. equals() compares the characters.</span></div>
+      <div class="trap t4"><span class="code">int a = 5; print(<span class="y">a++</span>);</span><span class="out">prints 5</span><span class="why">Post-increment uses the value first, then adds. ++a would print 6.</span></div>
+      <div class="trap t5"><span class="code">(char)(<span class="y">'A' + 2</span>)</span><span class="out">'C'</span><span class="why">With the cast you get a letter. Without it, 'A' + 2 is the number 67.</span></div>
+    </div>
+    <div class="note">predict on paper, then check in bluej. ten minutes a day.</div>
+  </div></div>
+</div></body></html>
