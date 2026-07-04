@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "slug": "string-handling-in-java",
+    "title": "String Handling in Java: The ICSE and CBSE Guide",
+    "description": "String handling in Java for ICSE and CBSE: the method toolkit, equals vs ==, immutability, substring rules, and 5 board programs with real output.",
+    "keywords": [
+      "string handling in java",
+      "java string programs",
+      "string methods in java",
+      "string handling in java icse",
+      "equals vs == in java",
+      "substring in java",
+      "charAt in java"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-04",
+    "dateModified": "2026-07-04",
+    "category": "Java",
+    "tags": [
+      "Java",
+      "Strings",
+      "ICSE",
+      "CBSE",
+      "Exam Preparation"
+    ],
+    "readTime": "8 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "String Handling in Java: The ICSE and CBSE Guide",
+    "subtitle": "The method toolkit, the equals trap, immutability, and five board-style programs, every example compiled and run with its real output.",
+    "featuredImage": {
+      "url": "/images/blog/string-handling-in-java/00-hero.png",
+      "alt": "String handling in Java complete guide for ICSE and CBSE students"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask an ICSE examiner where students bleed marks, and string questions come up immediately. Not because <strong>string handling in Java</strong> is hard, but because it rewards precise method knowledge: exactly what substring includes, exactly what equals compares, exactly why a string never changes. Get those precise, and string questions become the most reliable marks on the paper."
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide covers the String methods the ICSE and CBSE syllabi lean on, the two traps that cost the most marks, and five board-style programs. Every example below was compiled and executed, and each output shown is the real one."
+      },
+      {
+        "type": "paragraph",
+        "text": "It pairs with our <a href='/blog/50-java-programs-for-icse-class-10'>50-program ICSE bank</a>, where the string family gets eight more programs including Piglatin and initials."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A String Is a Row of Indexed Characters",
+        "id": "what-is-a-string"
+      },
+      {
+        "type": "paragraph",
+        "text": "Everything in string handling flows from one picture: a String is a row of characters, numbered from 0. The first character sits at index 0, the last at length() - 1, and every method is just a way of asking about, or building from, those positions."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/string-handling-in-java/01-index-ruler.png",
+        "alt": "The string COMPUTER with each character's index from 0 to 7, showing how charAt and substring count positions in Java",
+        "caption": "Index 0 to length() - 1. Every string method counts from this ruler."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Method Toolkit, in One Program",
+        "id": "method-toolkit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are the workhorse methods in a single tour. Run this once and you have seen most of what the paper can ask."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class StrTour {\n    public static void main(String[] args) {\n        String s = \"  Computer Applications  \";\n        String t = s.trim();\n        System.out.println(\"length()      : \" + t.length());\n        System.out.println(\"charAt(3)     : \" + t.charAt(3));\n        System.out.println(\"indexOf('A')  : \" + t.indexOf('A'));\n        System.out.println(\"substring(9)  : \" + t.substring(9));\n        System.out.println(\"toUpperCase() : \" + t.toUpperCase());\n        System.out.println(\"replace(a, @) : \" + t.replace('a', '@'));\n        System.out.println(\"startsWith    : \" + t.startsWith(\"Comp\"));\n        System.out.println(\"endsWith      : \" + t.endsWith(\"ions\"));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "length()      : 21\ncharAt(3)     : p\nindexOf('A')  : 9\nsubstring(9)  : Applications\ntoUpperCase() : COMPUTER APPLICATIONS\nreplace(a, @) : Computer Applic@tions\nstartsWith    : true\nendsWith      : true"
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice trim() ran first: real input often arrives with stray spaces, and trimming before measuring is a habit examiners quietly reward."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/string-handling-in-java/02-methods.png",
+        "alt": "The essential Java String methods for ICSE and CBSE: length, charAt, indexOf, substring, case changes, trim, replace, equals, and compareTo",
+        "caption": "The toolkit. If a question mentions positions, think charAt and substring. If it mentions comparing, think equals and compareTo."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Trap That Costs the Most Marks: equals vs ==",
+        "id": "equals-trap"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two strings holding identical text can still fail an == test, because == compares whether they are the same object in memory, not the same characters. The characters are what you almost always mean."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class EqualsTrap {\n    public static void main(String[] args) {\n        String a = \"BLUEJ\";\n        String b = new String(\"BLUEJ\");\n\n        System.out.println(a == b);                  // compares references\n        System.out.println(a.equals(b));             // compares characters\n        System.out.println(a.equalsIgnoreCase(\"bluej\"));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "false\ntrue\ntrue"
+      },
+      {
+        "type": "paragraph",
+        "text": "Same text, yet == said false. Burn the rule in: text is compared with equals() or equalsIgnoreCase(). Reserve == for numbers and characters."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/string-handling-in-java/03-equals.png",
+        "alt": "equals versus == for Java strings: == compares references while equals compares the actual characters",
+        "caption": "== asks are you the same object. equals() asks do you say the same thing."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Strings Never Change: Immutability",
+        "id": "immutability"
+      },
+      {
+        "type": "paragraph",
+        "text": "A Java String cannot be modified after creation. Methods like toUpperCase() do not change the string; they hand back a new one, and if you do not catch it in a variable, it vanishes."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Immutable {\n    public static void main(String[] args) {\n        String s = \"icse\";\n        s.toUpperCase();                 // result thrown away!\n        System.out.println(s);           // still lowercase\n\n        s = s.toUpperCase();             // capture the new string\n        System.out.println(s);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "icse\nICSE"
+      },
+      {
+        "type": "paragraph",
+        "text": "The first call did nothing visible because its result was discarded. The assignment on the next line is what actually captures the change. Half of all silent string bugs are this one habit."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "substring and charAt, Precisely",
+        "id": "substring-precise"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two rules cover nearly every position question: substring(a) runs from index a to the end, and substring(a, b) runs from a up to b minus one, the end index is not included."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SubstringDemo {\n    public static void main(String[] args) {\n        String s = \"COMPUTER\";\n        System.out.println(s.substring(3));       // from index 3 to the end\n        System.out.println(s.substring(0, 4));    // 0 to 3, the 4 is NOT included\n        System.out.println(s.charAt(0) + \"\" + s.charAt(s.length() - 1));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "PUTER\nCOMP\nCR"
+      },
+      {
+        "type": "paragraph",
+        "text": "PUTER, COMP, and CR: start index included, end index excluded, and first plus last character via charAt. Those three lines are a whole family of exam questions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "compareTo and Alphabetical Order",
+        "id": "compareto"
+      },
+      {
+        "type": "paragraph",
+        "text": "compareTo() returns a number, not a boolean: negative when the first string comes earlier alphabetically, zero when identical, positive when it comes later. It is the engine behind sorting names."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CompareToDemo {\n    public static void main(String[] args) {\n        System.out.println(\"Apple\".compareTo(\"Banana\"));   // negative: Apple comes first\n        System.out.println(\"Mango\".compareTo(\"Mango\"));    // zero: identical\n        System.out.println(\"Papaya\".compareTo(\"Guava\"));   // positive: Papaya comes later\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "-1\n0\n9"
+      },
+      {
+        "type": "paragraph",
+        "text": "Read the sign, not the value. The exact numbers vary; negative, zero, or positive is the answer the paper wants."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Five Board-Style String Programs",
+        "id": "board-programs"
+      },
+      {
+        "type": "paragraph",
+        "text": "Now the toolkit goes to work. These five shapes cover the string questions boards keep rotating."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Count vowels, consonants, digits, and spaces"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count the vowels, consonants, digits, and spaces in a string."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CountTypes {\n    public static void main(String[] args) {\n        String s = \"ICSE 2027 Computer Applications\";\n        int vowels = 0, consonants = 0, digits = 0, spaces = 0;\n        for (int i = 0; i < s.length(); i++) {\n            char ch = Character.toLowerCase(s.charAt(i));\n            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')\n                vowels++;\n            else if (ch >= 'a' && ch <= 'z')\n                consonants++;\n            else if (Character.isDigit(ch))\n                digits++;\n            else if (ch == ' ')\n                spaces++;\n        }\n        System.out.println(\"Vowels: \" + vowels);\n        System.out.println(\"Consonants: \" + consonants);\n        System.out.println(\"Digits: \" + digits);\n        System.out.println(\"Spaces: \" + spaces);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Vowels: 10\nConsonants: 14\nDigits: 4\nSpaces: 3"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Capitalise every word (title case)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print a sentence with the first letter of every word in capitals."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class TitleCase {\n    public static void main(String[] args) {\n        String s = \"string handling carries the marks\";\n        String[] words = s.split(\" \");\n        String result = \"\";\n        for (int i = 0; i < words.length; i++) {\n            result = result + Character.toUpperCase(words[i].charAt(0))\n                   + words[i].substring(1) + \" \";\n        }\n        System.out.println(result.trim());\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "String Handling Carries The Marks"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Find the longest word"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find and print the longest word in a sentence."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class LongestWord {\n    public static void main(String[] args) {\n        String s = \"practise every single definition daily\";\n        String[] words = s.split(\" \");\n        String longest = words[0];\n        for (int i = 1; i < words.length; i++) {\n            if (words[i].length() > longest.length())\n                longest = words[i];\n        }\n        System.out.println(\"Longest word: \" + longest + \" (\" + longest.length() + \" letters)\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Longest word: definition (10 letters)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Search for a word with indexOf"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to search for a word in a sentence and print the index where it starts."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SearchWord {\n    public static void main(String[] args) {\n        String s = \"Java is the language of the ICSE board\";\n        String target = \"ICSE\";\n        int pos = s.indexOf(target);\n        if (pos == -1)\n            System.out.println(target + \" not found\");\n        else\n            System.out.println(target + \" found at index \" + pos);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "ICSE found at index 28"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Arrange the letters of a word alphabetically"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to arrange the characters of a word in alphabetical order."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Arrays;\npublic class SortChars {\n    public static void main(String[] args) {\n        String s = \"BOARDS\";\n        char[] letters = s.toCharArray();\n        Arrays.sort(letters);\n        String result = new String(letters);\n        System.out.println(s + \" -> \" + result);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "BOARDS -> ABDORS"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Mistakes Examiners See Every Year",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Comparing text with ==:</strong> works sometimes, fails unpredictably. equals() every time.",
+          "<strong>Running past the last index:</strong> charAt(s.length()) throws StringIndexOutOfBoundsException. The last valid index is length() - 1.",
+          "<strong>Forgetting substring's exclusive end:</strong> substring(0, 4) gives four characters, indices 0 to 3.",
+          "<strong>Discarding method results:</strong> s.toUpperCase(); alone changes nothing. Assign it: s = s.toUpperCase();",
+          "<strong>Treating compareTo like a boolean:</strong> it returns an int. Test its sign against zero."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "One habit worth a full grade",
+        "text": "Whenever a string question involves positions, sketch the index ruler in the margin first: the word with 0, 1, 2... under each letter. Thirty seconds of drawing prevents every off-by-one error the question was designed to trigger."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is string handling in Java?",
+            "content": "Working with text using the String class and its methods: measuring with length(), reading positions with charAt(), cutting pieces with substring(), searching with indexOf(), changing case, and comparing with equals() and compareTo(). ICSE and CBSE both test it heavily through program questions."
+          },
+          {
+            "title": "What is the difference between equals() and == for strings?",
+            "content": "== checks whether two variables point at the same object in memory. equals() checks whether the characters match. For comparing text, equals() or equalsIgnoreCase() is almost always what you mean, and using == instead is the most common string mistake in board answers."
+          },
+          {
+            "title": "How does substring() work in Java?",
+            "content": "substring(a) returns everything from index a to the end. substring(a, b) returns indices a up to b minus one; the end index is excluded. So \"COMPUTER\".substring(0, 4) is COMP, exactly four characters."
+          },
+          {
+            "title": "Why are Java strings immutable?",
+            "content": "Once created, a String's characters can never change; every modifying method returns a brand new string. This makes strings safe to share and reuse internally. Practically, it means you must capture results: s = s.trim(), not just s.trim()."
+          },
+          {
+            "title": "What does compareTo() return?",
+            "content": "An integer: negative if the calling string comes earlier alphabetically, zero if both are identical, positive if it comes later. Exam answers should interpret the sign rather than the exact value."
+          },
+          {
+            "title": "Which string programs are asked most in ICSE?",
+            "content": "Counting character types (vowels, consonants, digits, spaces), palindrome and reverse, Piglatin, initials of a name, title case, longest word, and alphabetical arrangements come up again and again. All appear here or in our 50-program ICSE bank."
+          },
+          {
+            "title": "Is StringBuffer needed for ICSE Class 10?",
+            "content": "The Class 10 syllabus centres on the String class and its methods. Focus your energy on the toolkit above; it is what the paper actually examines."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Precise Methods, Reliable Marks"
+      },
+      {
+        "type": "paragraph",
+        "text": "String handling is the rare topic where knowing ten methods precisely beats knowing a hundred vaguely. You now have the ruler, the toolkit, the two traps, and five programs that put them to work. Drill the rest of the family in the <a href='/blog/50-java-programs-for-icse-class-10'>50-program bank</a>, or step back to the <a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20 walkthroughs</a> if any of this moved too fast."
+      },
+      {
+        "type": "paragraph",
+        "text": "And when you want every one of your own string programs checked line by line, our <a href='/java-programming-for-icse-students'>live Java classes for ICSE students</a> do exactly that, for learners aged 6 to 67 across our <a href='/courses'>courses</a>."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free ICSE Java Demo",
+        "url": "/contact",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/50-java-programs-for-icse-class-10'>50 Important Java Programs for ICSE Class 10</a>",
+          "<a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20 Java Programs for ICSE Class 10</a>",
+          "<a href='/blog/how-to-reverse-a-string-in-python'>How to Reverse a String in Python</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "50-java-programs-for-icse-class-10",
+    "top-20-java-programs-for-icse-class-10",
+    "how-to-reverse-a-string-in-python"
+  ]
+}

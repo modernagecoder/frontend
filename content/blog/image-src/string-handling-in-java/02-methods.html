@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><style>
+:root{--w:1200px;--h:675px;--blue:#2b6cb0;--purple:#7c5cbf}
+.fit{gap:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.m{border:3px solid var(--ink);border-radius:12px;background:var(--card);padding:11px 14px;box-shadow:4px 5px 0 var(--ink)}
+.m .nm{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:19px}
+.g1 .nm{color:var(--blue)} .g2 .nm{color:var(--pine)} .g3 .nm{color:var(--coral)} .g4 .nm{color:var(--amber)} .g5 .nm{color:var(--purple)}
+.m .d{font-size:15px;color:#5c574d;line-height:1.25;margin-top:3px}
+.legend{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.leg{display:flex;align-items:center;gap:7px;font-size:16px;font-weight:600;color:#3b3833}
+.leg .sw{width:14px;height:14px;border-radius:4px}
+.note{font-family:'Caveat',cursive;font-weight:700;font-size:31px;color:var(--coral);text-align:center}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><rect width="512" height="512" fill="#007bff"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/><path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/><line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/><line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/><line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/><line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/></g><g fill="#fff"><circle cx="182" cy="190" r="41"/><circle cx="330" cy="190" r="41"/><path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/><path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/></g></svg></span><span class="brand-name">Modern Age Coders</span><span class="handle">the toolkit</span></div>
+  <div class="main"><div class="fit">
+    <span class="eyebrow">twelve methods, the whole syllabus</span>
+    <div class="grid">
+      <div class="m g1"><span class="nm">length()</span><div class="d">How many characters</div></div>
+      <div class="m g1"><span class="nm">charAt(i)</span><div class="d">The character at index i</div></div>
+      <div class="m g1"><span class="nm">indexOf(x)</span><div class="d">Where x first appears, or -1</div></div>
+      <div class="m g2"><span class="nm">substring(a, b)</span><div class="d">Slice from a to b-1</div></div>
+      <div class="m g2"><span class="nm">replace(old, new)</span><div class="d">Swap every occurrence</div></div>
+      <div class="m g2"><span class="nm">trim()</span><div class="d">Strip leading and trailing spaces</div></div>
+      <div class="m g3"><span class="nm">equals(s)</span><div class="d">Same characters, case matters</div></div>
+      <div class="m g3"><span class="nm">equalsIgnoreCase(s)</span><div class="d">Same characters, any case</div></div>
+      <div class="m g3"><span class="nm">compareTo(s)</span><div class="d">Alphabetical order as a signed int</div></div>
+      <div class="m g4"><span class="nm">toUpperCase() / toLowerCase()</span><div class="d">A new string in the new case</div></div>
+      <div class="m g5"><span class="nm">startsWith(s) / endsWith(s)</span><div class="d">Boundary checks, true or false</div></div>
+      <div class="m g5"><span class="nm">split(" ")</span><div class="d">Break a sentence into words</div></div>
+    </div>
+    <div class="note">positions? charAt + substring. comparing? equals + compareTo.</div>
+  </div></div>
+</div></body></html>
