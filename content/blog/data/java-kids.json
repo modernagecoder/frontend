@@ -280,6 +280,10 @@
         "text": "Many kids learn Python first, then transition to Java once they're comfortable with programming fundamentals. This progression makes Java feel more approachable."
       },
       {
+        "type": "paragraph",
+        "text": "Once that transition happens, momentum comes from small, visible wins: our <a href='/blog/java-array-programs-for-beginners'>20 array programs for beginners</a> and the <a href='/blog/string-handling-in-java'>string handling guide</a> are written for exactly that first-real-Java stage, with every example run and its output shown."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Java vs JavaScript For Kids"

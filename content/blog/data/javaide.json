@@ -265,6 +265,10 @@
       },
       {
         "type": "paragraph",
+        "text": "And if BlueJ is on your screen because ICSE is on your timetable, our <a href='/blog/icse-class-10-computer-applications-revision'>Computer Applications revision guide</a> and its <a href='/blog/50-java-programs-for-icse-class-10'>50-program bank</a> are built around exactly this environment."
+      },
+      {
+        "type": "paragraph",
         "text": "<strong>Price:</strong> Free | <strong>Platform:</strong> Windows, Mac, Linux"
       },
       {
@@ -599,4 +603,3 @@
     }
   ]
 }
-

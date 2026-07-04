@@ -161,6 +161,10 @@
         "text": "Given two sorted arrays, merge them into a single sorted array without using any built-in sorting functions."
       },
       {
+        "type": "paragraph",
+        "text": "If these array challenges feel a step too steep, our <a href='/blog/java-array-programs-for-beginners'>20 solved array programs for beginners</a> rebuilds the foundations first, searching, sorting, and 2D grids, with executed output under every program."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Solution"

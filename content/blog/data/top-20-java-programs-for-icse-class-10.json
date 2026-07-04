@@ -383,6 +383,10 @@
         "text": "String questions appear almost every year, often two of them. The key tools are length, charAt, and the character checks from the Character class."
       },
       {
+        "type": "paragraph",
+        "text": "The whole method toolkit behind these, charAt, substring, equals against ==, and the traps that cost marks, lives in our <a href='/blog/string-handling-in-java'>string handling in Java guide</a>, worth a read before drilling this family."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "15. Palindrome String"
@@ -545,6 +549,10 @@
       {
         "type": "paragraph",
         "text": "These 20 programs cover the ground that the ICSE Class X Computer Applications paper keeps returning to. Learn the idea behind each family, write them until they feel easy, and the program-writing section becomes the part you look forward to. If you want more Java practice, see our roundups of the <a href='/blog/top-10-java-programs-for-school-students'>top 10 Java programs for school students</a> and <a href='/blog/30-best-java-programs-for-class-8-students'>Java programs for Class 8</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "When these twenty feel comfortable, two natural next steps are waiting: the full <a href='/blog/50-java-programs-for-icse-class-10'>50-program revision bank</a> for breadth across all seven families, and the <a href='/blog/icse-class-10-computer-applications-revision'>complete Computer Applications revision guide</a> for the whole-paper plan."
       },
       {
         "type": "paragraph",
