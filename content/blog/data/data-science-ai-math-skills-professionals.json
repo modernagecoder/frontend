@@ -60,6 +60,10 @@
         "text": "Think of data science, AI, and mathematics as three interconnected pillars. Data science gives you the tools to extract insights from information. AI provides the algorithms to automate decisions and predictions. Mathematics is the foundation that makes both possible. Together, they form the most powerful skill combination in modern tech—and the demand for professionals who understand all three is skyrocketing."
       },
       {
+        "type": "paragraph",
+        "text": "On the Python side, the on-ramp is shorter than it looks: <a href='/blog/python-dictionary-complete-guide'>dictionaries</a>, <a href='/blog/python-list-comprehension-explained'>list comprehensions</a>, and <a href='/blog/python-lambda-functions'>lambda functions</a> are the three idioms that make data code readable, and each has a short tested guide here."
+      },
+      {
         "type": "callout",
         "calloutType": "info",
         "title": "2025 Market Reality",

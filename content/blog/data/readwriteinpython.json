@@ -82,6 +82,10 @@
         "text": "While this guide focuses heavily on standard text files, understanding <a href='https://learn.modernagecoders.com/blog/file-types-in-python-complete-guide' target='_blank' rel='noopener noreferrer'>different file types in Python</a> (like CSVs or JSONs) is a logical next step, as the exact same reading and writing principles apply across the board."
       },
       {
+        "type": "paragraph",
+        "text": "These same skills are also the heart of the school syllabus. Our <a href='/blog/python-programs-for-cbse-class-12'>20 Python programs for CBSE Class 12</a> lean on exactly these text, binary, and CSV patterns, each executed with its real output shown."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "How to Write Data to a File",
@@ -154,6 +158,10 @@
       {
         "type": "paragraph",
         "text": "This reads a single line at a time. Every time you call the function, it moves to the next line. This is perfect for parsing through heavy server logs without eating up your computer's memory."
+      },
+      {
+        "type": "paragraph",
+        "text": "Files are also where most beginners meet their first real crashes, a missing file here, a permission error there. Our guide to <a href='/blog/exception-handling-in-python'>exception handling in Python</a> shows how try and except turn those crashes into calm, useful messages."
       },
       {
         "type": "code",
@@ -253,4 +261,3 @@
     "why-python-most-powerful-skill-professionals-today"
   ]
 }
-

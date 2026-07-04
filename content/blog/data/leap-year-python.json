@@ -198,6 +198,10 @@
       },
       {
         "type": "paragraph",
+        "text": "For more practice at exactly this level, try finding the <a href='/blog/how-to-find-hcf-and-lcm-in-python'>HCF and LCM in Python</a> next, or watch loops draw shapes in our <a href='/blog/star-pattern-programs-in-python'>30 star pattern programs</a>."
+      },
+      {
+        "type": "paragraph",
         "text": "Ready to solidify your logic skills and start building applications that actually matter? Check out the professional Python masterclasses at Modern Age Coders. We will take you from writing basic math scripts to engineering full-stack software."
       }
     ]
@@ -208,4 +212,3 @@
     "working-professionals-upskill-coding-without-quitting-job"
   ]
 }
-

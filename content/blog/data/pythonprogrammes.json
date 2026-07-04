@@ -246,6 +246,10 @@
         "text": "Print a sequence where the next number is found by adding up the two numbers before it (0, 1, 1, 2, 3, 5, 8...). This is a fantastic test of your variable-updating skills."
       },
       {
+        "type": "paragraph",
+        "text": "When you want to go beyond the teaser, our full guide to the <a href='/blog/fibonacci-series-in-python'>Fibonacci series in Python</a> writes it seven different ways, from a simple loop to a cached recursion, with honest speed measurements."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "18. Check if a Number is an Armstrong Number"
@@ -471,4 +475,3 @@
     "file-types-in-python-complete-guide"
   ]
 }
-

@@ -70,6 +70,10 @@
         "text": "<strong>Example:</strong> When you divide 17 by 5, regular division gives you 3.4. Floor division gives you just 3—the largest whole number that doesn't exceed the actual result."
       },
       {
+        "type": "paragraph",
+        "text": "Floor division also powers one of the most-searched beginner programs there is: finding the <a href='/blog/how-to-find-hcf-and-lcm-in-python'>HCF and LCM in Python</a>, where the double slash is what keeps the LCM a clean whole number."
+      },
+      {
         "type": "code",
         "language": "python",
         "code": "regular_division = 17 / 5\nfloor_division = 17 // 5\n\nprint(regular_division)   # Output: 3.4\nprint(floor_division)     # Output: 3"

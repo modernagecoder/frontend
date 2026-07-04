@@ -168,6 +168,10 @@
         "text": "Instead of letting the program crash, we \"try\" to get a number. If we encounter a <code>ValueError</code>, we catch it and politely ask the user to try again."
       },
       {
+        "type": "paragraph",
+        "text": "That one guard is just the beginning of what try and except can do. Our full guide to <a href='/blog/exception-handling-in-python'>exception handling in Python</a> covers else, finally, raise, and the habits that keep real programs alive when users get creative."
+      },
+      {
         "type": "code",
         "language": "python",
         "code": "try:\n    num1 = float(input(\"Enter first number: \"))\nexcept ValueError:\n    print(\"That is not a valid number! Please try again.\")\n    continue # Skips the rest of the loop and starts over at the menu"
@@ -234,4 +238,3 @@
     "working-professionals-upskill-coding-without-quitting-job"
   ]
 }
-

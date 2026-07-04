@@ -517,6 +517,10 @@
         "text": "These concepts build on similar programming techniques: digit manipulation, iterative checking, and mathematical validation."
       },
       {
+        "type": "paragraph",
+        "text": "Two natural next steps in the same spirit: the <a href='/blog/fibonacci-series-in-python'>Fibonacci series written seven ways</a> and <a href='/blog/how-to-reverse-a-string-in-python'>reversing a string five ways</a>, both with tested code and real output under every example."
+      },
+      {
         "type": "heading",
         "level": 2,
         "text": "Complete Code Example (Copy-Paste Ready)",

@@ -376,6 +376,10 @@
       },
       {
         "type": "paragraph",
+        "text": "And when plain functions feel natural, two doors open next: <a href='/blog/python-lambda-functions'>lambda functions</a>, the one-line cousins you pass into sorted and filter, and <a href='/blog/python-oop-tutorial-for-beginners'>classes and objects</a>, where functions become methods that live together with their data."
+      },
+      {
+        "type": "paragraph",
         "text": "If you're ready to go further, explore our <a href='https://learn.modernagecoders.com/courses/python-ai-kids-masterclass' target='_blank' rel='noopener noreferrer'>Python courses</a> designed for learners of all ages — from absolute beginners to teens building real apps."
       }
     ]
@@ -386,5 +390,3 @@
     "role-of-mathematics-programming-logical-problem-solving"
   ]
 }
-
-

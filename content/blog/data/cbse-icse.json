@@ -178,6 +178,10 @@
       },
       {
         "type": "paragraph",
+        "text": "If you are staring down those exact papers, we keep two practical question banks: <a href='/blog/python-programs-for-cbse-class-12'>20 Python programs for CBSE Class 12</a> and <a href='/blog/top-20-java-programs-for-icse-class-10'>20 Java programs for ICSE Class 10</a>, every program executed before publishing, with its real output shown."
+      },
+      {
+        "type": "paragraph",
         "text": "This teaches students to memorize code patterns rather than understand logic. It's the opposite of how programming works in reality, where you run code, see errors, debug, and iterate."
       },
       {

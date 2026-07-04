@@ -875,6 +875,10 @@
       },
       {
         "type": "paragraph",
+        "text": "Once the move to Python happens, keep the visual feedback alive: <a href='/blog/star-pattern-programs-in-python'>star pattern programs</a> let kids draw with loops the way they drew with blocks. And when the next question arrives, usually about web development, our <a href='/blog/python-vs-javascript-which-to-learn-first'>Python vs JavaScript guide</a> answers it honestly."
+      },
+      {
+        "type": "paragraph",
         "text": "The most important thing isn't which language you choose—it's that your child starts coding, stays engaged, and keeps learning. Whether they begin with colorful blocks or lines of text, they're building skills that will serve them for a lifetime."
       },
       {

@@ -247,6 +247,10 @@
         "text": "One language, countless applications. Learn Python once, apply it everywhere. This versatility means your investment in learning pays dividends across multiple use cases."
       },
       {
+        "type": "paragraph",
+        "text": "If you are starting that journey, three short guides carry you a long way: the <a href='/blog/python-dictionary-complete-guide'>dictionary guide</a> for the data structure every API and dataset speaks, <a href='/blog/python-list-comprehension-explained'>list comprehensions</a> for clean data wrangling, and <a href='/blog/python-lambda-functions'>lambda functions</a> for the sorting and filtering idioms you will meet in pandas."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Massive Ecosystem of Libraries"

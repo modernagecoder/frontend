@@ -50,6 +50,10 @@
         "text": "In this comprehensive Python tutorial for beginners, you'll learn the fundamentals step-by-step with plenty of code examples and practical exercises. By the end, you'll have written your first Python programs and understand the core concepts that power millions of applications worldwide. Let's dive into the fundamentals!"
       },
       {
+        "type": "paragraph",
+        "text": "Still weighing your options before you commit? Our honest <a href='/blog/python-vs-javascript-which-to-learn-first'>Python vs JavaScript comparison</a> runs the same program in both languages and settles the which-first question by what you want to build."
+      },
+      {
         "type": "callout",
         "calloutType": "info",
         "title": "Your Learning Journey",
@@ -364,6 +368,10 @@
         "text": "Loops are one of the most powerful features in programming. They let you repeat code without writing it multiple times, making your programs efficient and scalable. Imagine having to write 'print' 100 times versus using a loop—that's the power we're talking about!"
       },
       {
+        "type": "paragraph",
+        "text": "Once loops click, the fastest way to make them stick is drawing with them. Our guide to <a href='/blog/star-pattern-programs-in-python'>30 star pattern programs in Python</a> turns this same repeat-the-work idea into triangles, pyramids, and diamonds you can actually see."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "For Loops"
@@ -400,6 +408,10 @@
       {
         "type": "paragraph",
         "text": "Lists are like containers that can hold multiple items in a specific order. Think of them as a shopping list or a playlist—they keep track of multiple values under one variable name. Lists are one of Python's most versatile data structures."
+      },
+      {
+        "type": "paragraph",
+        "text": "Lists find things by position. When your data has natural labels instead, names, subjects, settings, Python has a second container built exactly for that: the <a href='/blog/python-dictionary-complete-guide'>dictionary</a>, and it is worth learning properly right after lists."
       },
       {
         "type": "heading",

@@ -65,6 +65,10 @@
         "text": "Here's what makes JavaScript special: it runs directly in your browser, which means you don't need to install anything to start coding. Every modern browser has a JavaScript engine built in. This makes it incredibly accessible for beginners—you can start writing JavaScript code right now using just your browser's developer console!"
       },
       {
+        "type": "paragraph",
+        "text": "Torn between starting here or starting with Python? Our honest <a href='/blog/python-vs-javascript-which-to-learn-first'>Python vs JavaScript comparison</a> runs the same program in both languages and decides it by what you want to build, not by fan loyalty."
+      },
+      {
         "type": "heading",
         "level": 3,
         "text": "Why Learn JavaScript?",
