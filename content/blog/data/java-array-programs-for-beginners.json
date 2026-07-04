@@ -1,0 +1,612 @@
+{
+  "meta": {
+    "slug": "java-array-programs-for-beginners",
+    "title": "Java Array Programs for Beginners: 20 Solved Examples",
+    "description": "20 Java array programs for beginners, solved and executed: storing, searching, bubble and selection sort, string arrays, and 2D matrices with output.",
+    "keywords": [
+      "java array programs",
+      "array programs in java for beginners",
+      "java array programs with output",
+      "bubble sort program in java",
+      "binary search program in java",
+      "2d array programs in java",
+      "array questions in java"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-04",
+    "dateModified": "2026-07-04",
+    "category": "Java",
+    "tags": [
+      "Java",
+      "Arrays",
+      "Sorting",
+      "Searching",
+      "Beginner Programming"
+    ],
+    "readTime": "12 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Java Array Programs for Beginners: 20 Solved Examples",
+    "subtitle": "From your first five boxes to matrix transposes: 20 array programs, every one compiled, executed, and explained with its real output.",
+    "featuredImage": {
+      "url": "/images/blog/java-array-programs-for-beginners/00-hero.png",
+      "alt": "Java array programs for beginners, 20 solved examples with output"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Arrays are where Java gets real. One variable suddenly holds a whole class of marks, a list of names, an entire matrix, and every serious program you write afterwards leans on them. They are also the most heavily searched Java topic among students, for a simple reason: array questions decide marks, in ICSE, CBSE, and first-year college alike."
+      },
+      {
+        "type": "paragraph",
+        "text": "This page is 20 solved <strong>Java array programs for beginners</strong>, from storing your first five numbers to transposing a matrix. Every program was compiled and executed before being published, and the output under each is the real one it printed."
+      },
+      {
+        "type": "paragraph",
+        "text": "New to arrays entirely? Read the first section slowly, the index picture is the whole game. Preparing for boards? Jump to sorting and searching, then drill the wider families in our <a href='/blog/50-java-programs-for-icse-class-10'>50-program ICSE bank</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The One Picture Behind Every Array",
+        "id": "the-picture"
+      },
+      {
+        "type": "paragraph",
+        "text": "An array is a fixed row of boxes, numbered from 0. The number of boxes is arr.length, the first box is arr[0], and the last is arr[length - 1]. Almost every array error in exams is a program knocking on a box that does not exist."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/java-array-programs-for-beginners/01-anatomy.png",
+        "alt": "Anatomy of a Java array: numbered boxes from index 0 to length minus 1, with the length and the out of bounds zone labelled",
+        "caption": "Boxes 0 to length - 1. Knock anywhere else and Java throws ArrayIndexOutOfBoundsException."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "First Steps With Arrays",
+        "id": "first-steps"
+      },
+      {
+        "type": "paragraph",
+        "text": "Five programs that build the reflexes: index from 0, stop at length - 1, and let the loop do the walking."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Store and print elements"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to store five numbers in an array and print them with their positions."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class StoreAndPrint {\n    public static void main(String[] args) {\n        int[] arr = {12, 45, 7, 89, 23};\n        for (int i = 0; i < arr.length; i++)\n            System.out.println(\"Index \" + i + \" holds \" + arr[i]);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Index 0 holds 12\nIndex 1 holds 45\nIndex 2 holds 7\nIndex 3 holds 89\nIndex 4 holds 23"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Sum and average"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the sum and average of the elements of an array."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SumAvg {\n    public static void main(String[] args) {\n        int[] marks = {72, 85, 90, 66, 78};\n        int sum = 0;\n        for (int i = 0; i < marks.length; i++)\n            sum = sum + marks[i];\n        System.out.println(\"Sum = \" + sum);\n        System.out.println(\"Average = \" + (double) sum / marks.length);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Sum = 391\nAverage = 78.2"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Count even and odd"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count the even and odd numbers in an array."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CountEvenOdd {\n    public static void main(String[] args) {\n        int[] arr = {11, 24, 36, 41, 58, 63};\n        int even = 0, odd = 0;\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] % 2 == 0)\n                even++;\n            else\n                odd++;\n        }\n        System.out.println(\"Even: \" + even + \", Odd: \" + odd);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Even: 3, Odd: 3"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Print in reverse order"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print the elements of an array in reverse order."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class PrintReverse {\n    public static void main(String[] args) {\n        int[] arr = {5, 10, 15, 20, 25};\n        for (int i = arr.length - 1; i >= 0; i--)\n            System.out.print(arr[i] + \" \");\n        System.out.println();\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "25 20 15 10 5"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Copy one array into another"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to copy the elements of one array into another and print the copy."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CopyArray {\n    public static void main(String[] args) {\n        int[] a = {3, 6, 9, 12};\n        int[] b = new int[a.length];\n        for (int i = 0; i < a.length; i++)\n            b[i] = a[i];\n        for (int i = 0; i < b.length; i++)\n            System.out.print(b[i] + \" \");\n        System.out.println();\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "3 6 9 12"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Searching and Extremes",
+        "id": "searching"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finding things is what arrays are for. Linear search reads everything; binary search halves a sorted array each step; and the largest, second largest, and frequency questions are all one careful pass."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/java-array-programs-for-beginners/02-search.png",
+        "alt": "Linear search versus binary search on a Java array: linear checks every box while binary halves a sorted array each step",
+        "caption": "Linear search walks every box. Binary search halves the field each guess, but only on a sorted array."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Largest element"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the largest element in an array."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Largest {\n    public static void main(String[] args) {\n        int[] arr = {41, 78, 12, 95, 60};\n        int max = arr[0];\n        for (int i = 1; i < arr.length; i++) {\n            if (arr[i] > max)\n                max = arr[i];\n        }\n        System.out.println(\"Largest = \" + max);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Largest = 95"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. Second largest element"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the second largest element in an array."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SecondLargest {\n    public static void main(String[] args) {\n        int[] arr = {41, 78, 12, 95, 60};\n        int max = Integer.MIN_VALUE, second = Integer.MIN_VALUE;\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] > max) {\n                second = max;\n                max = arr[i];\n            } else if (arr[i] > second && arr[i] != max) {\n                second = arr[i];\n            }\n        }\n        System.out.println(\"Second largest = \" + second);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Second largest = 78"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Linear search"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to search for a value in an array using linear search."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class LinSearch {\n    public static void main(String[] args) {\n        int[] arr = {18, 32, 7, 54, 21};\n        int key = 54, pos = -1;\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] == key) {\n                pos = i;\n                break;\n            }\n        }\n        if (pos == -1)\n            System.out.println(key + \" not found\");\n        else\n            System.out.println(key + \" found at index \" + pos);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "54 found at index 3"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. Binary search"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to search a sorted array using binary search, printing the steps."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class BinSearch {\n    public static void main(String[] args) {\n        int[] arr = {6, 14, 27, 39, 51, 68, 80};\n        int key = 51, low = 0, high = arr.length - 1, pos = -1;\n        while (low <= high) {\n            int mid = (low + high) / 2;\n            System.out.println(\"Checking index \" + mid + \" (value \" + arr[mid] + \")\");\n            if (arr[mid] == key) {\n                pos = mid;\n                break;\n            } else if (arr[mid] < key)\n                low = mid + 1;\n            else\n                high = mid - 1;\n        }\n        System.out.println(key + \" found at index \" + pos);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Checking index 3 (value 39)\nChecking index 5 (value 68)\nChecking index 4 (value 51)\n51 found at index 4"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Frequency of a value"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count how many times a value occurs in an array."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CountOccur {\n    public static void main(String[] args) {\n        int[] arr = {4, 7, 4, 9, 4, 2, 7};\n        int key = 4, count = 0;\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] == key)\n                count++;\n        }\n        System.out.println(key + \" occurs \" + count + \" times\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "4 occurs 3 times"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Sorting and Rearranging",
+        "id": "sorting"
+      },
+      {
+        "type": "paragraph",
+        "text": "The syllabus names bubble sort and selection sort, and examiners like flipping the order to descending to check you understand rather than memorise. Reversing in place and merging round out the family."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/java-array-programs-for-beginners/03-bubble.png",
+        "alt": "One pass of bubble sort on a Java array: neighbouring values are compared and swapped so the largest bubbles to the end",
+        "caption": "One bubble sort pass: compare neighbours, swap when out of order, the largest value sinks to the end."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "11. Bubble sort, ascending"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to sort an array in ascending order using bubble sort."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Arrays;\npublic class Bubble {\n    public static void main(String[] args) {\n        int[] arr = {52, 17, 88, 4, 36};\n        for (int i = 0; i < arr.length - 1; i++) {\n            for (int j = 0; j < arr.length - 1 - i; j++) {\n                if (arr[j] > arr[j + 1]) {\n                    int t = arr[j];\n                    arr[j] = arr[j + 1];\n                    arr[j + 1] = t;\n                }\n            }\n        }\n        System.out.println(Arrays.toString(arr));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[4, 17, 36, 52, 88]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "12. Selection sort, descending"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to sort an array in descending order using selection sort."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Arrays;\npublic class Selection {\n    public static void main(String[] args) {\n        int[] arr = {23, 61, 9, 47, 30};\n        for (int i = 0; i < arr.length - 1; i++) {\n            int maxIndex = i;\n            for (int j = i + 1; j < arr.length; j++) {\n                if (arr[j] > arr[maxIndex])\n                    maxIndex = j;\n            }\n            int t = arr[i];\n            arr[i] = arr[maxIndex];\n            arr[maxIndex] = t;\n        }\n        System.out.println(Arrays.toString(arr));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[61, 47, 30, 23, 9]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "13. Reverse the array itself"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to reverse an array in place by swapping ends toward the middle."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Arrays;\npublic class ReverseInPlace {\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5, 6};\n        int i = 0, j = arr.length - 1;\n        while (i < j) {\n            int t = arr[i];\n            arr[i] = arr[j];\n            arr[j] = t;\n            i++;\n            j--;\n        }\n        System.out.println(Arrays.toString(arr));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[6, 5, 4, 3, 2, 1]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "14. Merge two arrays"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to merge two arrays into a third and print it."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Arrays;\npublic class MergeTwo {\n    public static void main(String[] args) {\n        int[] a = {2, 4, 6};\n        int[] b = {1, 3, 5, 7};\n        int[] c = new int[a.length + b.length];\n        for (int i = 0; i < a.length; i++)\n            c[i] = a[i];\n        for (int i = 0; i < b.length; i++)\n            c[a.length + i] = b[i];\n        System.out.println(Arrays.toString(c));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[2, 4, 6, 1, 3, 5, 7]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "15. Separate even and odd into two arrays"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to copy the even and odd numbers of an array into two separate arrays."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SeparateEvenOdd {\n    public static void main(String[] args) {\n        int[] arr = {12, 5, 8, 21, 34, 9};\n        int e = 0, o = 0;\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] % 2 == 0) e++; else o++;\n        }\n        int[] even = new int[e];\n        int[] odd = new int[o];\n        e = 0; o = 0;\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] % 2 == 0)\n                even[e++] = arr[i];\n            else\n                odd[o++] = arr[i];\n        }\n        System.out.print(\"Even: \");\n        for (int i = 0; i < even.length; i++) System.out.print(even[i] + \" \");\n        System.out.print(\"\\nOdd : \");\n        for (int i = 0; i < odd.length; i++) System.out.print(odd[i] + \" \");\n        System.out.println();\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Even: 12 8 34\nOdd : 5 21 9"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "String Arrays and Two Dimensions",
+        "id": "strings-2d"
+      },
+      {
+        "type": "paragraph",
+        "text": "Arrays hold more than numbers. String arrays bring compareTo into play, and double dimensional arrays add the row-and-column questions: printing, diagonals, and the transpose."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "16. Longest name in a String array"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the longest name stored in a String array."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class LongestName {\n    public static void main(String[] args) {\n        String[] names = {\"Asha\", \"Balasubramaniam\", \"Meera\", \"Zoya\"};\n        String longest = names[0];\n        for (int i = 1; i < names.length; i++) {\n            if (names[i].length() > longest.length())\n                longest = names[i];\n        }\n        System.out.println(\"Longest name: \" + longest);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Longest name: Balasubramaniam"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "17. Sort names alphabetically"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to arrange a String array in alphabetical order using compareTo."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class AlphaSortNames {\n    public static void main(String[] args) {\n        String[] names = {\"Rohan\", \"Asha\", \"Zoya\", \"Meera\"};\n        for (int i = 0; i < names.length - 1; i++) {\n            for (int j = 0; j < names.length - 1 - i; j++) {\n                if (names[j].compareTo(names[j + 1]) > 0) {\n                    String t = names[j];\n                    names[j] = names[j + 1];\n                    names[j + 1] = t;\n                }\n            }\n        }\n        for (int i = 0; i < names.length; i++)\n            System.out.println(names[i]);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Asha\nMeera\nRohan\nZoya"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "18. Create and print a 2D array"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to store numbers in a 3 by 3 double dimensional array and print them row by row."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Matrix2D {\n    public static void main(String[] args) {\n        int[][] m = {\n            {1, 2, 3},\n            {4, 5, 6},\n            {7, 8, 9}\n        };\n        for (int i = 0; i < 3; i++) {\n            for (int j = 0; j < 3; j++)\n                System.out.print(m[i][j] + \" \");\n            System.out.println();\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1 2 3\n4 5 6\n7 8 9"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "19. Sum of the diagonal"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the sum of the left diagonal of a square matrix."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class DiagonalSum {\n    public static void main(String[] args) {\n        int[][] m = {\n            {5, 1, 3},\n            {2, 8, 4},\n            {6, 7, 9}\n        };\n        int sum = 0;\n        for (int i = 0; i < 3; i++)\n            sum = sum + m[i][i];\n        System.out.println(\"Diagonal sum = \" + sum);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Diagonal sum = 22"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "20. Transpose of a matrix"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print the transpose of a 3 by 3 matrix, turning rows into columns."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Transpose {\n    public static void main(String[] args) {\n        int[][] m = {\n            {1, 2, 3},\n            {4, 5, 6},\n            {7, 8, 9}\n        };\n        for (int j = 0; j < 3; j++) {\n            for (int i = 0; i < 3; i++)\n                System.out.print(m[i][j] + \" \");\n            System.out.println();\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1 4 7\n2 5 8\n3 6 9"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Errors That Follow Beginners Around",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Walking one step too far:</strong> i <= arr.length visits a box that does not exist. The last index is length - 1, so the condition is i < arr.length.",
+          "<strong>length vs length():</strong> arrays use the field arr.length with no brackets; strings use the method s.length() with brackets. Mixing them up is a compile error.",
+          "<strong>Integer division in averages:</strong> sum / count truncates when both are int. Cast one side: (double) sum / count.",
+          "<strong>Forgetting binary search needs sorted data:</strong> on an unsorted array it returns nonsense without any error to warn you.",
+          "<strong>Swapping without a temp variable:</strong> a[i] = a[j]; a[j] = a[i]; destroys one value. The three-line temp swap is the pattern."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "The dry-run habit",
+        "text": "For every sorting question, trace one full pass on paper with five numbers before writing code. Examiners often ask for the array's state after each pass, and students who dry-run collect those marks in seconds."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is an array in Java?",
+            "content": "A fixed-size collection of values of one type, stored in numbered boxes starting from index 0. You declare the size once, reach any box instantly with arr[i], and get the box count from arr.length."
+          },
+          {
+            "title": "Why do Java arrays start at index 0?",
+            "content": "The index measures the offset from the start of the array, and the first element sits at offset zero. Practically, remember the pair: first element arr[0], last element arr[arr.length - 1]."
+          },
+          {
+            "title": "What is the difference between length and length()?",
+            "content": "Arrays expose a field: arr.length, no brackets. Strings expose a method: s.length(), with brackets. Java refuses to compile the wrong one, which at least makes this mistake loud."
+          },
+          {
+            "title": "What is the difference between linear search and binary search?",
+            "content": "Linear search checks every element from the start and works on any array. Binary search repeatedly halves a SORTED array, making it far faster on large data. If the array is not sorted, binary search silently gives wrong answers."
+          },
+          {
+            "title": "Which sorting methods do school boards expect?",
+            "content": "Bubble sort and selection sort, on single dimensional arrays, sometimes in descending order to test understanding. Both appear above with executed output, and the ICSE bank drills them further."
+          },
+          {
+            "title": "What is a double dimensional array?",
+            "content": "An array of arrays, written int[][], that behaves like a grid with rows and columns. You reach a cell with m[row][col], and the classic questions are row-by-row printing, diagonal sums, and the transpose."
+          },
+          {
+            "title": "How do I avoid ArrayIndexOutOfBoundsException?",
+            "content": "Keep every index between 0 and length - 1. In practice that means loop conditions of i < arr.length, never i <= arr.length, and checking positions arithmetic like mid, i + 1, or i - 1 near the edges."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Twenty Programs, One Reflex"
+      },
+      {
+        "type": "paragraph",
+        "text": "Everything above compresses to one reflex: see the boxes, respect the edges, and let the loop walk. From here, the natural next steps are the <a href='/blog/string-handling-in-java'>string handling guide</a>, since string arrays combine both topics, and the full <a href='/blog/50-java-programs-for-icse-class-10'>50-program ICSE bank</a> if boards are coming."
+      },
+      {
+        "type": "paragraph",
+        "text": "And when you want someone to watch your loops walk and catch the off-by-one before the examiner does, our live <a href='/java-for-beginners'>Java classes for beginners</a> do exactly that, with <a href='/courses'>courses</a> for learners aged 6 to 67."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free Java Demo Class",
+        "url": "/contact",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/string-handling-in-java'>String Handling in Java</a>",
+          "<a href='/blog/50-java-programs-for-icse-class-10'>50 Important Java Programs for ICSE Class 10</a>",
+          "<a href='/blog/top-10-java-programs-every-college-student-must-know'>Top 10 Java Programs for College Students</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "string-handling-in-java",
+    "50-java-programs-for-icse-class-10",
+    "top-10-java-programs-every-college-student-must-know"
+  ]
+}
