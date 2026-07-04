@@ -1,0 +1,1237 @@
+{
+  "meta": {
+    "slug": "50-java-programs-for-icse-class-10",
+    "title": "50 Important Java Programs for ICSE Class 10 Boards",
+    "description": "The complete ICSE Class 10 Java program bank: 50 board-style programs in 7 families, every one compiled and run, with its real output shown.",
+    "keywords": [
+      "icse class 10 java programs",
+      "important java programs icse",
+      "java programs for icse board exam",
+      "icse computer applications programs",
+      "special number programs java icse",
+      "java pattern programs icse",
+      "bluej programs for icse class 10"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-04",
+    "dateModified": "2026-07-04",
+    "category": "Java",
+    "tags": [
+      "Java",
+      "ICSE",
+      "Computer Applications",
+      "BlueJ",
+      "Exam Preparation"
+    ],
+    "readTime": "24 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "50 Important Java Programs for ICSE Class 10 Boards",
+    "subtitle": "The complete revision bank: seven program families the paper draws from, 50 programs, every one compiled, executed, and shown with its real output.",
+    "featuredImage": {
+      "url": "/images/blog/50-java-programs-for-icse-class-10/00-hero.png",
+      "alt": "50 important Java programs for the ICSE Class 10 board exam with real outputs"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask any ICSE Computer Applications teacher what separates a 95 from a 70, and you will hear the same answer: the students who score are the ones who have already written the standard programs so many times that the exam feels like revision. This page is that practice, in one place: <strong>50 Java programs for ICSE Class 10</strong>, organised into the seven families the paper draws from."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every single program below was compiled and executed before being published, and the output under each one is the real output it printed. Each uses sample values written directly into the code so you can run it the moment you paste it into BlueJ. Where an exam question says accept from the user, wrap the same logic in a Scanner, the logic is the mark-earning part."
+      },
+      {
+        "type": "paragraph",
+        "text": "If 50 feels like a lot, start with our <a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20 for ICSE</a>, which walks the highest-frequency picks slowly with full explanations. This page is the complete bank: broader, faster, built for revision."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How the 50 Are Organised",
+        "id": "organisation"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the ICSE paper, Section B carries 60 of the 100 marks and is where full programs are written, with a choice of questions. The seven families below are how those questions cluster, and knowing which family a question belongs to is half of solving it."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/50-java-programs-for-icse-class-10/01-bank.png",
+        "alt": "The 50 ICSE Java programs organised into seven families: conditions, loops and series, special numbers, patterns, strings, arrays, and methods with constructors",
+        "caption": "Seven families, 50 programs. Recognise the family and you already know the shape of the answer."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "The recognition habit",
+        "text": "Before writing any exam answer, name the family out loud: this is a special number, so it is digit extraction plus one comparison. This is a pattern, so outer loop rows, inner loop columns. Students who classify first almost never freeze."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Conditions and Operators",
+        "id": "conditions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Eight warm-up programs built on if, else, and the operators. Section A loves these as output questions, and Section B uses them as the opening steps of bigger programs."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Even or odd"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is even or odd."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class EvenOdd {\n    public static void main(String[] args) {\n        int n = 47;\n        if (n % 2 == 0)\n            System.out.println(n + \" is even\");\n        else\n            System.out.println(n + \" is odd\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "47 is odd"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Largest of three numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the largest of three numbers using nested if."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class LargestOfThree {\n    public static void main(String[] args) {\n        int a = 25, b = 62, c = 41;\n        int largest;\n        if (a > b && a > c)\n            largest = a;\n        else if (b > c)\n            largest = b;\n        else\n            largest = c;\n        System.out.println(\"Largest = \" + largest);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Largest = 62"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Positive, negative or zero"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is positive, negative, or zero."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class PosNegZero {\n    public static void main(String[] args) {\n        int n = -18;\n        if (n > 0)\n            System.out.println(\"Positive\");\n        else if (n < 0)\n            System.out.println(\"Negative\");\n        else\n            System.out.println(\"Zero\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Negative"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Leap year check"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a year is a leap year."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class LeapYear {\n    public static void main(String[] args) {\n        int year = 2028;\n        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)\n            System.out.println(year + \" is a leap year\");\n        else\n            System.out.println(year + \" is not a leap year\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "2028 is a leap year"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Grade from marks (if-else ladder)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print the grade for given marks: A for 80 and above, B for 60 to 79, C for 40 to 59, else D."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class GradeCalc {\n    public static void main(String[] args) {\n        int marks = 73;\n        char grade;\n        if (marks >= 80)\n            grade = 'A';\n        else if (marks >= 60)\n            grade = 'B';\n        else if (marks >= 40)\n            grade = 'C';\n        else\n            grade = 'D';\n        System.out.println(\"Marks \" + marks + \" gets grade \" + grade);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Marks 73 gets grade B"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Simple interest"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to calculate simple interest for a given principal, rate, and time."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SimpleInterest {\n    public static void main(String[] args) {\n        double p = 5000, r = 8, t = 2;\n        double si = (p * r * t) / 100;\n        System.out.println(\"Simple Interest = \" + si);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Simple Interest = 800.0"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. Celsius to Fahrenheit"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to convert a temperature from Celsius to Fahrenheit."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CelsiusFahrenheit {\n    public static void main(String[] args) {\n        double c = 37.0;\n        double f = c * 9 / 5 + 32;\n        System.out.println(c + \" C = \" + f + \" F\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "37.0 C = 98.6 F"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Buzz number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Buzz number. A buzz number ends with 7 or is divisible by 7."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class BuzzNumber {\n    public static void main(String[] args) {\n        int n = 63;\n        if (n % 10 == 7 || n % 7 == 0)\n            System.out.println(n + \" is a Buzz number\");\n        else\n            System.out.println(n + \" is not a Buzz number\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "63 is a Buzz number"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Loops and Series",
+        "id": "loops-series"
+      },
+      {
+        "type": "paragraph",
+        "text": "The while and for loop workhorses. Master the digit-extraction pair here, sum of digits and reverse, because half the special numbers below reuse it."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. Sum of first n natural numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the sum of the first n natural numbers."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SumNatural {\n    public static void main(String[] args) {\n        int n = 50, sum = 0;\n        for (int i = 1; i <= n; i++)\n            sum = sum + i;\n        System.out.println(\"Sum of first \" + n + \" numbers = \" + sum);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Sum of first 50 numbers = 1275"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Factorial of a number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the factorial of a number using a loop."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Factorial {\n    public static void main(String[] args) {\n        int n = 7;\n        long fact = 1;\n        for (int i = 1; i <= n; i++)\n            fact = fact * i;\n        System.out.println(n + \"! = \" + fact);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "7! = 5040"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "11. Multiplication table"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print the multiplication table of a number."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class MultTable {\n    public static void main(String[] args) {\n        int n = 7;\n        for (int i = 1; i <= 10; i++)\n            System.out.println(n + \" x \" + i + \" = \" + (n * i));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "7 x 1 = 7\n7 x 2 = 14\n7 x 3 = 21\n7 x 4 = 28\n7 x 5 = 35\n7 x 6 = 42\n7 x 7 = 49\n7 x 8 = 56\n7 x 9 = 63\n7 x 10 = 70"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "12. Fibonacci series"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print the first n terms of the Fibonacci series."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Fibonacci {\n    public static void main(String[] args) {\n        int n = 10, a = 0, b = 1;\n        for (int i = 1; i <= n; i++) {\n            System.out.print(a + \" \");\n            int c = a + b;\n            a = b;\n            b = c;\n        }\n        System.out.println();\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "0 1 1 2 3 5 8 13 21 34"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "13. Sum of the series 1 + 1/2 + 1/3 + ..."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the sum of the series 1 + 1/2 + 1/3 + ... + 1/n."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SeriesSum {\n    public static void main(String[] args) {\n        int n = 5;\n        double sum = 0;\n        for (int i = 1; i <= n; i++)\n            sum = sum + 1.0 / i;\n        System.out.println(\"Sum = \" + sum);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Sum = 2.283333333333333"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "14. Sum of digits"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the sum of the digits of a number."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class DigitSum {\n    public static void main(String[] args) {\n        int n = 4718, sum = 0, temp = n;\n        while (temp != 0) {\n            sum = sum + temp % 10;\n            temp = temp / 10;\n        }\n        System.out.println(\"Sum of digits of \" + n + \" = \" + sum);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Sum of digits of 4718 = 20"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "15. Reverse a number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to reverse the digits of a number."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class ReverseNumber {\n    public static void main(String[] args) {\n        int n = 8256, rev = 0, temp = n;\n        while (temp != 0) {\n            rev = rev * 10 + temp % 10;\n            temp = temp / 10;\n        }\n        System.out.println(\"Reverse of \" + n + \" = \" + rev);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Reverse of 8256 = 6528"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "16. Count the digits"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count how many digits a number has."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CountDigits {\n    public static void main(String[] args) {\n        int n = 90387, count = 0, temp = n;\n        while (temp != 0) {\n            count++;\n            temp = temp / 10;\n        }\n        System.out.println(n + \" has \" + count + \" digits\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "90387 has 5 digits"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Special Numbers",
+        "id": "special-numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most ICSE family of them all. Ten number types, each with a one-line definition and a worked check. Notice how nearly all of them are digit extraction wearing different hats."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/50-java-programs-for-icse-class-10/02-decoder.png",
+        "alt": "How to recognise which family an ICSE Java question belongs to from its wording",
+        "caption": "Question words that give the family away. Classify first, then write."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "17. Prime number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is prime."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class PrimeCheck {\n    public static void main(String[] args) {\n        int n = 97, count = 0;\n        for (int i = 1; i <= n; i++) {\n            if (n % i == 0)\n                count++;\n        }\n        if (count == 2)\n            System.out.println(n + \" is prime\");\n        else\n            System.out.println(n + \" is not prime\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "97 is prime"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "18. Palindrome number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a palindrome."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class PalindromeNum {\n    public static void main(String[] args) {\n        int n = 1331, rev = 0, temp = n;\n        while (temp != 0) {\n            rev = rev * 10 + temp % 10;\n            temp = temp / 10;\n        }\n        if (rev == n)\n            System.out.println(n + \" is a palindrome\");\n        else\n            System.out.println(n + \" is not a palindrome\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1331 is a palindrome"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "19. Armstrong number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a 3-digit number is an Armstrong number."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Armstrong {\n    public static void main(String[] args) {\n        int n = 371, sum = 0, temp = n;\n        while (temp != 0) {\n            int d = temp % 10;\n            sum = sum + d * d * d;\n            temp = temp / 10;\n        }\n        if (sum == n)\n            System.out.println(n + \" is an Armstrong number\");\n        else\n            System.out.println(n + \" is not an Armstrong number\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "371 is an Armstrong number"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "20. Perfect number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Perfect number."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class PerfectNum {\n    public static void main(String[] args) {\n        int n = 496, sum = 0;\n        for (int i = 1; i < n; i++) {\n            if (n % i == 0)\n                sum = sum + i;\n        }\n        if (sum == n)\n            System.out.println(n + \" is a Perfect number\");\n        else\n            System.out.println(n + \" is not a Perfect number\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "496 is a Perfect number"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "21. Automorphic number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is Automorphic. Its square must end with the number itself."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Automorphic {\n    public static void main(String[] args) {\n        int n = 76;\n        int sq = n * n;\n        String s1 = Integer.toString(n);\n        String s2 = Integer.toString(sq);\n        if (s2.endsWith(s1))\n            System.out.println(n + \" is Automorphic (square = \" + sq + \")\");\n        else\n            System.out.println(n + \" is not Automorphic\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "76 is Automorphic (square = 5776)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "22. Neon number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Neon number. The digits of its square must add up to the number."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class NeonNum {\n    public static void main(String[] args) {\n        int n = 9, sq = n * n, sum = 0;\n        while (sq != 0) {\n            sum = sum + sq % 10;\n            sq = sq / 10;\n        }\n        if (sum == n)\n            System.out.println(n + \" is a Neon number\");\n        else\n            System.out.println(n + \" is not a Neon number\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "9 is a Neon number"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "23. Spy number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Spy number. The sum of its digits must equal the product of its digits."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SpyNum {\n    public static void main(String[] args) {\n        int n = 1412, sum = 0, product = 1, temp = n;\n        while (temp != 0) {\n            int d = temp % 10;\n            sum = sum + d;\n            product = product * d;\n            temp = temp / 10;\n        }\n        if (sum == product)\n            System.out.println(n + \" is a Spy number\");\n        else\n            System.out.println(n + \" is not a Spy number\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1412 is a Spy number"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "24. Disarium number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Disarium number. Digits raised to their positions must add up to the number."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Disarium {\n    public static void main(String[] args) {\n        int n = 175;\n        int len = Integer.toString(n).length();\n        int sum = 0, temp = n;\n        while (temp != 0) {\n            int d = temp % 10;\n            sum = sum + (int) Math.pow(d, len);\n            len--;\n            temp = temp / 10;\n        }\n        if (sum == n)\n            System.out.println(n + \" is a Disarium number\");\n        else\n            System.out.println(n + \" is not a Disarium number\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "175 is a Disarium number"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "25. Kaprekar number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Kaprekar number. Split its square so the parts add back to the number."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Kaprekar {\n    public static void main(String[] args) {\n        int n = 45;\n        int sq = n * n;\n        String s = Integer.toString(sq);\n        int digits = Integer.toString(n).length();\n        String left = s.substring(0, s.length() - digits);\n        String right = s.substring(s.length() - digits);\n        int leftVal = left.isEmpty() ? 0 : Integer.parseInt(left);\n        int rightVal = Integer.parseInt(right);\n        if (leftVal + rightVal == n)\n            System.out.println(n + \" is a Kaprekar number (\" + leftVal + \" + \" + rightVal + \")\");\n        else\n            System.out.println(n + \" is not a Kaprekar number\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "45 is a Kaprekar number (20 + 25)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "26. Harshad number"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a number is a Harshad number. It must be divisible by the sum of its digits."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Harshad {\n    public static void main(String[] args) {\n        int n = 108, sum = 0, temp = n;\n        while (temp != 0) {\n            sum = sum + temp % 10;\n            temp = temp / 10;\n        }\n        if (n % sum == 0)\n            System.out.println(n + \" is a Harshad number\");\n        else\n            System.out.println(n + \" is not a Harshad number\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "108 is a Harshad number"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Patterns with Nested Loops",
+        "id": "patterns"
+      },
+      {
+        "type": "paragraph",
+        "text": "One pattern appears in almost every paper. The outer loop counts rows, the inner loop decides what each row holds. Six shapes cover every variant examiners rotate through."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "27. Right triangle of stars"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print a right-angled triangle of stars with 5 rows."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class StarTriangle {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 5; i++) {\n            for (int j = 1; j <= i; j++)\n                System.out.print(\"* \");\n            System.out.println();\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "*\n* *\n* * *\n* * * *\n* * * * *"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "28. Inverted star triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print an inverted right-angled triangle of stars."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class InvTriangle {\n    public static void main(String[] args) {\n        for (int i = 5; i >= 1; i--) {\n            for (int j = 1; j <= i; j++)\n                System.out.print(\"* \");\n            System.out.println();\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "* * * * *\n* * * *\n* * *\n* *\n*"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "29. Star pyramid"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print a centred pyramid of stars with 5 rows."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Pyramid {\n    public static void main(String[] args) {\n        int n = 5;\n        for (int i = 1; i <= n; i++) {\n            for (int s = 1; s <= n - i; s++)\n                System.out.print(\" \");\n            for (int j = 1; j <= 2 * i - 1; j++)\n                System.out.print(\"*\");\n            System.out.println();\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "    *\n   ***\n  *****\n *******\n*********"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "30. Number triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print a triangle where row i contains the numbers 1 to i."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class NumTriangle {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 5; i++) {\n            for (int j = 1; j <= i; j++)\n                System.out.print(j + \" \");\n            System.out.println();\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1\n1 2\n1 2 3\n1 2 3 4\n1 2 3 4 5"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "31. Floyd's triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print Floyd's triangle with 4 rows."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class FloydTriangle {\n    public static void main(String[] args) {\n        int num = 1;\n        for (int i = 1; i <= 4; i++) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(num + \" \");\n                num++;\n            }\n            System.out.println();\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "1\n2 3\n4 5 6\n7 8 9 10"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "32. Alphabet pattern"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print a triangle where row i contains the first i capital letters."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CharPattern {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 5; i++) {\n            for (int j = 0; j < i; j++)\n                System.out.print((char) (65 + j) + \" \");\n            System.out.println();\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "A\nA B\nA B C\nA B C D\nA B C D E"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "String Programs",
+        "id": "strings"
+      },
+      {
+        "type": "paragraph",
+        "text": "String questions carry heavy marks and reward method knowledge: charAt, substring, split, and the Character checks. Piglatin and initials are perennial board favourites."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "33. Count vowels"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count the vowels in a string."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CountVowels {\n    public static void main(String[] args) {\n        String s = \"Computer Applications\";\n        int count = 0;\n        String lower = s.toLowerCase();\n        for (int i = 0; i < lower.length(); i++) {\n            char ch = lower.charAt(i);\n            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')\n                count++;\n        }\n        System.out.println(\"Vowels = \" + count);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Vowels = 8"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "34. Reverse a string"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to reverse a string using a loop."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class ReverseString {\n    public static void main(String[] args) {\n        String s = \"BLUEJ\";\n        String rev = \"\";\n        for (int i = s.length() - 1; i >= 0; i--)\n            rev = rev + s.charAt(i);\n        System.out.println(\"Reverse of \" + s + \" is \" + rev);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Reverse of BLUEJ is JEULB"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "35. Palindrome string"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to check whether a word is a palindrome, ignoring case."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class PalinString {\n    public static void main(String[] args) {\n        String s = \"Madam\";\n        String rev = \"\";\n        for (int i = s.length() - 1; i >= 0; i--)\n            rev = rev + s.charAt(i);\n        if (s.equalsIgnoreCase(rev))\n            System.out.println(s + \" is a palindrome\");\n        else\n            System.out.println(s + \" is not a palindrome\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Madam is a palindrome"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "36. Toggle the case"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to change every uppercase letter to lowercase and vice versa."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class ToggleCase {\n    public static void main(String[] args) {\n        String s = \"IcSe BoArDs\";\n        String result = \"\";\n        for (int i = 0; i < s.length(); i++) {\n            char ch = s.charAt(i);\n            if (Character.isUpperCase(ch))\n                result = result + Character.toLowerCase(ch);\n            else if (Character.isLowerCase(ch))\n                result = result + Character.toUpperCase(ch);\n            else\n                result = result + ch;\n        }\n        System.out.println(result);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "iCsE bOaRdS"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "37. Count words"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count the words in a sentence."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CountWords {\n    public static void main(String[] args) {\n        String s = \"Practice one program every single day\";\n        String[] words = s.trim().split(\"\\\\s+\");\n        System.out.println(\"Words = \" + words.length);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Words = 6"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "38. Initials of a name"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print the initials of a name followed by the surname, like S. K. Gupta."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class Initials {\n    public static void main(String[] args) {\n        String name = \"Sarojini Kavita Gupta\";\n        String[] parts = name.split(\" \");\n        String result = \"\";\n        for (int i = 0; i < parts.length - 1; i++)\n            result = result + parts[i].charAt(0) + \". \";\n        result = result + parts[parts.length - 1];\n        System.out.println(result);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "S. K. Gupta"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "39. Frequency of a character"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to count how many times a given character appears in a string."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CharFrequency {\n    public static void main(String[] args) {\n        String s = \"programming\";\n        char target = 'm';\n        int count = 0;\n        for (int i = 0; i < s.length(); i++) {\n            if (s.charAt(i) == target)\n                count++;\n        }\n        System.out.println(\"'\" + target + \"' appears \" + count + \" times\");\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "'m' appears 2 times"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "40. Piglatin form"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to convert a word into its Piglatin form: move letters up to the first vowel to the end and add AY."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class PigLatin {\n    public static void main(String[] args) {\n        String s = \"LONDON\";\n        int pos = -1;\n        for (int i = 0; i < s.length(); i++) {\n            char ch = s.charAt(i);\n            if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {\n                pos = i;\n                break;\n            }\n        }\n        String pig = s.substring(pos) + s.substring(0, pos) + \"AY\";\n        System.out.println(s + \" -> \" + pig);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "LONDON -> ONDONLAY"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Array Programs",
+        "id": "arrays"
+      },
+      {
+        "type": "paragraph",
+        "text": "Single dimensional arrays: search it, sort it, sum it. Bubble and selection sort plus both searches are explicitly on the syllabus, so all four live here."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/50-java-programs-for-icse-class-10/03-planner.png",
+        "alt": "A five week plan to practise all 50 ICSE Java programs before the board exam",
+        "caption": "Ten programs a week is a calm pace. Week six is for rewriting the ones that fought back."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "41. Largest and smallest"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the largest and smallest element in an array."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class MaxMin {\n    public static void main(String[] args) {\n        int[] arr = {34, 78, 12, 95, 41};\n        int max = arr[0], min = arr[0];\n        for (int i = 1; i < arr.length; i++) {\n            if (arr[i] > max) max = arr[i];\n            if (arr[i] < min) min = arr[i];\n        }\n        System.out.println(\"Largest = \" + max);\n        System.out.println(\"Smallest = \" + min);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Largest = 95\nSmallest = 12"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "42. Sum and average"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to find the sum and average of the elements of an array."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class SumAverage {\n    public static void main(String[] args) {\n        int[] marks = {78, 85, 92, 66, 74};\n        int sum = 0;\n        for (int i = 0; i < marks.length; i++)\n            sum = sum + marks[i];\n        double avg = (double) sum / marks.length;\n        System.out.println(\"Sum = \" + sum);\n        System.out.println(\"Average = \" + avg);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Sum = 395\nAverage = 79.0"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "43. Linear search"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to search for a value in an array using linear search."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class LinearSearch {\n    public static void main(String[] args) {\n        int[] arr = {15, 8, 22, 39, 4};\n        int key = 39, pos = -1;\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] == key) {\n                pos = i;\n                break;\n            }\n        }\n        if (pos == -1)\n            System.out.println(key + \" not found\");\n        else\n            System.out.println(key + \" found at index \" + pos);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "39 found at index 3"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "44. Binary search"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to search a sorted array using binary search."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class BinarySearch {\n    public static void main(String[] args) {\n        int[] arr = {4, 11, 25, 38, 52, 67};\n        int key = 38, low = 0, high = arr.length - 1, pos = -1;\n        while (low <= high) {\n            int mid = (low + high) / 2;\n            if (arr[mid] == key) {\n                pos = mid;\n                break;\n            } else if (arr[mid] < key)\n                low = mid + 1;\n            else\n                high = mid - 1;\n        }\n        System.out.println(key + \" found at index \" + pos);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "38 found at index 3"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "45. Bubble sort"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to sort an array in ascending order using bubble sort."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Arrays;\npublic class BubbleSort {\n    public static void main(String[] args) {\n        int[] arr = {64, 25, 12, 89, 33};\n        for (int i = 0; i < arr.length - 1; i++) {\n            for (int j = 0; j < arr.length - 1 - i; j++) {\n                if (arr[j] > arr[j + 1]) {\n                    int t = arr[j];\n                    arr[j] = arr[j + 1];\n                    arr[j + 1] = t;\n                }\n            }\n        }\n        System.out.println(Arrays.toString(arr));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[12, 25, 33, 64, 89]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "46. Selection sort"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to sort an array in ascending order using selection sort."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Arrays;\npublic class SelectionSort {\n    public static void main(String[] args) {\n        int[] arr = {29, 10, 44, 3, 18};\n        for (int i = 0; i < arr.length - 1; i++) {\n            int minIndex = i;\n            for (int j = i + 1; j < arr.length; j++) {\n                if (arr[j] < arr[minIndex])\n                    minIndex = j;\n            }\n            int t = arr[i];\n            arr[i] = arr[minIndex];\n            arr[minIndex] = t;\n        }\n        System.out.println(Arrays.toString(arr));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "[3, 10, 18, 29, 44]"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "47. Reverse an array"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a program to print the elements of an array in reverse order."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class ReverseArray {\n    public static void main(String[] args) {\n        int[] arr = {2, 4, 6, 8, 10};\n        for (int i = arr.length - 1; i >= 0; i--)\n            System.out.print(arr[i] + \" \");\n        System.out.println();\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "10 8 6 4 2"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Methods, Constructors, and Menus",
+        "id": "methods-constructors"
+      },
+      {
+        "type": "paragraph",
+        "text": "The paper always tests whether you can shape code, not just write it: overloaded methods, a class with a constructor, and the switch statement."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "48. Overloaded area() methods"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write overloaded methods area() to compute the area of a circle, a rectangle, and a triangle, and call all three."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class AreaOverload {\n    static double area(double radius) {\n        return 3.14 * radius * radius;\n    }\n    static double area(double length, double breadth) {\n        return length * breadth;\n    }\n    static double area(double base, double height, boolean isTriangle) {\n        return 0.5 * base * height;\n    }\n    public static void main(String[] args) {\n        System.out.println(\"Circle    = \" + area(7));\n        System.out.println(\"Rectangle = \" + area(12, 5));\n        System.out.println(\"Triangle  = \" + area(10, 8, true));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Circle    = 153.86\nRectangle = 60.0\nTriangle  = 40.0"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "49. A class with a constructor"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Define a class Student with a parameterised constructor that stores a name and marks, and a method to display them. Create two objects."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class StudentCtor {\n    String name;\n    int marks;\n    StudentCtor(String n, int m) {\n        name = n;\n        marks = m;\n    }\n    void display() {\n        System.out.println(name + \" scored \" + marks);\n    }\n    public static void main(String[] args) {\n        StudentCtor s1 = new StudentCtor(\"Asha\", 92);\n        StudentCtor s2 = new StudentCtor(\"Rohan\", 85);\n        s1.display();\n        s2.display();\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Asha scored 92\nRohan scored 85"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "50. Menu with switch"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Question:</strong> Write a menu-driven program using switch to print whether a stored choice selects square or cube of a number."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class MenuSwitch {\n    public static void main(String[] args) {\n        int choice = 2, n = 6;\n        switch (choice) {\n            case 1:\n                System.out.println(\"Square of \" + n + \" = \" + (n * n));\n                break;\n            case 2:\n                System.out.println(\"Cube of \" + n + \" = \" + (n * n * n));\n                break;\n            default:\n                System.out.println(\"Invalid choice\");\n        }\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Cube of 6 = 216"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Turning Sample Values into User Input",
+        "id": "scanner-swap"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every program above uses fixed sample values so it runs instantly. When the question demands input, the swap is mechanical: import java.util.Scanner, create one, and replace the assignment."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\n// instead of:  int n = 47;\nScanner sc = new Scanner(System.in);\nSystem.out.print(\"Enter a number: \");\nint n = sc.nextInt();          // everything after this line stays identical"
+      },
+      {
+        "type": "paragraph",
+        "text": "That is the entire difference. Practise the logic with fixed values, and add the Scanner shell in the exam when the wording asks for it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Marks You Lose Without Noticing",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Forgetting to reset before reuse:</strong> if you reverse a number and then need it again, keep the original in a temp variable. Half of all special-number bugs are this.",
+          "<strong>Integer division surprises:</strong> sum / count truncates when both are int. Cast one side to double for averages.",
+          "<strong>Comparing strings with ==:</strong> use equals() or equalsIgnoreCase(). The == operator compares references, not text.",
+          "<strong>Off-by-one in loops:</strong> arrays run 0 to length - 1. Writing i <= arr.length throws ArrayIndexOutOfBoundsException.",
+          "<strong>Missing break in switch:</strong> without it, every case below the match also runs."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "The examiner's eye",
+        "text": "Presentation earns quiet marks: meaningful variable names, consistent indentation, and one comment naming the logic. Two programs with identical logic do not always score identically."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Are these 50 programs enough for the ICSE board exam?",
+            "content": "They cover every program family the Computer Applications paper draws from: conditions, loops, special numbers, patterns, strings, arrays, and methods with constructors. Pair them with past-paper output questions and theory revision, and the program-writing side is fully prepared."
+          },
+          {
+            "title": "Which programs are asked most often in ICSE Class 10?",
+            "content": "Special numbers (Armstrong, palindrome, prime, automorphic, spy, and their cousins), one nested-loop pattern, one or two string programs like Piglatin or initials, and an array program such as bubble sort or binary search appear again and again across years."
+          },
+          {
+            "title": "Why do these programs use fixed values instead of Scanner input?",
+            "content": "So every program runs the moment you paste it into BlueJ, and so the output shown could be captured from a real execution. Converting any of them to user input is a three-line Scanner change, shown in the section above."
+          },
+          {
+            "title": "How should I practise 50 programs before boards?",
+            "content": "Ten a week for five weeks, typing each one rather than reading it, then a final week rewriting from memory the ones that resisted. Classify every program by family as you go; recognition is what the exam actually tests."
+          },
+          {
+            "title": "What is the difference between this list and your Top 20 ICSE post?",
+            "content": "The Top 20 walks the highest-frequency programs slowly, with step-by-step explanations and Scanner-based input. This page is the full revision bank: 50 programs, faster pace, sample values, built for the weeks before the exam."
+          },
+          {
+            "title": "Do I need to memorise all the special number definitions?",
+            "content": "Learn the definitions, not the code. Every special number program is digit extraction plus one comparison, so once you can write the extraction loop from memory, each definition takes only a line or two more."
+          },
+          {
+            "title": "Which sorting and searching methods does ICSE expect?",
+            "content": "Bubble sort and selection sort for sorting, linear search and binary search for searching, all on single dimensional arrays. All four are in the array family above, executed with their outputs."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Fifty Programs, One Calm Exam Hall"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is nothing mysterious about a strong Computer Applications score. It is the same seven families, practised until the pen moves on its own. Work the bank, use the <a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20 walkthroughs</a> when a family needs slower treatment, and keep our <a href='/blog/string-handling-in-java'>string handling guide</a> beside the string family, since that is where the richest marks hide."
+      },
+      {
+        "type": "paragraph",
+        "text": "And if you want a teacher who has coached this exact paper, our <a href='/java-programming-for-icse-students'>Java classes for ICSE students</a> run live, with learners aged 6 to 67 across our <a href='/courses'>courses</a>. A free demo is the fastest way to see the difference feedback makes."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free ICSE Java Demo",
+        "url": "/contact",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/top-20-java-programs-for-icse-class-10'>Top 20 Java Programs for ICSE Class 10</a>",
+          "<a href='/blog/top-10-java-programs-for-school-students'>Top 10 Java Programs for School Students</a>",
+          "<a href='/blog/30-best-java-programs-for-class-8-students'>30+ Java Programs for Class 8</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "top-20-java-programs-for-icse-class-10",
+    "top-10-java-programs-for-school-students",
+    "30-best-java-programs-for-class-8-students"
+  ]
+}
