@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "slug": "java-constructors-explained",
+    "title": "Java Constructors Explained: Types, Overloading, ICSE",
+    "description": "Constructors in Java explained for ICSE and CBSE: default, parameterised, copy, overloading, this, and constructor vs method, all run with real output.",
+    "keywords": [
+      "constructor in java",
+      "java constructor",
+      "constructor overloading in java",
+      "types of constructors in java",
+      "constructor in java icse",
+      "copy constructor java",
+      "constructor vs method"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-07-04",
+    "dateModified": "2026-07-04",
+    "category": "Java",
+    "tags": [
+      "Java",
+      "Constructors",
+      "OOP",
+      "ICSE",
+      "Exam Preparation"
+    ],
+    "readTime": "8 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Java Constructors Explained: Types, Overloading, ICSE",
+    "subtitle": "Default, parameterised, copy, overloading, and the constructor-vs-method comparison the paper loves, every example compiled and run.",
+    "featuredImage": {
+      "url": "/images/blog/java-constructors-explained/00-hero.png",
+      "alt": "Java constructors explained with types, overloading, and ICSE board examples"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every ICSE paper finds a way to ask about constructors, a definition here, an output question there, a design a class with... program almost every year. And every year, students who could write the code stumble on the ideas: what exactly runs when, why there is no return type, and what this is doing in there. This guide settles all of it, with every example compiled and executed."
+      },
+      {
+        "type": "paragraph",
+        "text": "The one-line version first: <strong>a constructor is the method-like block that runs automatically, exactly once, at the moment an object is born</strong>, and its whole job is to give that object its starting values. Everything else in the topic is detail on top of that sentence."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Anatomy: What Makes a Constructor a Constructor",
+        "id": "anatomy"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two rules identify a constructor on sight, and both are exam questions in disguise: its name is exactly the class name, and it declares no return type, not even void. Break either rule and Java treats it as an ordinary method."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/java-constructors-explained/01-anatomy.png",
+        "alt": "Anatomy of a Java constructor: same name as the class, no return type, runs automatically when new creates the object",
+        "caption": "Class name, no return type, triggered by new. Those three facts answer half the theory questions ever set."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Your first constructor, watched in action"
+      },
+      {
+        "type": "paragraph",
+        "text": "The print statement inside the constructor is there as proof: watch it fire once per object, automatically, before anything else touches the object."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class FirstCtor {\n    String name;\n    int marks;\n\n    FirstCtor(String n, int m) {      // the constructor\n        name = n;\n        marks = m;\n        System.out.println(\"Constructor ran for \" + name);\n    }\n\n    public static void main(String[] args) {\n        FirstCtor s1 = new FirstCtor(\"Asha\", 92);\n        FirstCtor s2 = new FirstCtor(\"Rohan\", 85);\n        System.out.println(s1.name + \": \" + s1.marks);\n        System.out.println(s2.name + \": \" + s2.marks);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Constructor ran for Asha\nConstructor ran for Rohan\nAsha: 92\nRohan: 85"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two objects, two automatic runs, each stamping its own object's data. Nobody called the constructor by name; new did it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Default Constructor",
+        "id": "default-constructor"
+      },
+      {
+        "type": "paragraph",
+        "text": "A constructor with no parameters is called a default constructor. It hands every new object the same sensible starting state. One fact examiners love: if you write NO constructor at all, Java quietly supplies an invisible no-argument one, but the moment you write any constructor yourself, that free one disappears."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class DefaultCtor {\n    String name;\n    int marks;\n\n    DefaultCtor() {                    // default constructor, no parameters\n        name = \"Not set\";\n        marks = 0;\n    }\n\n    public static void main(String[] args) {\n        DefaultCtor s = new DefaultCtor();\n        System.out.println(s.name + \" / \" + s.marks);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Not set / 0"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Parameterised Constructors and this",
+        "id": "this-keyword"
+      },
+      {
+        "type": "paragraph",
+        "text": "When constructor parameters use the same names as the fields, Java needs to know which name means which. this.name always means the object's field; plain name means the nearest parameter. This is the tidiest way to write constructors, and the syllabus expects you to read it fluently."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class ThisDemo {\n    String name;\n    int marks;\n\n    ThisDemo(String name, int marks) {\n        this.name = name;      // this.name is the field, name is the parameter\n        this.marks = marks;\n    }\n\n    public static void main(String[] args) {\n        ThisDemo s = new ThisDemo(\"Meera\", 96);\n        System.out.println(s.name + \" scored \" + s.marks);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Meera scored 96"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Constructor Overloading",
+        "id": "overloading"
+      },
+      {
+        "type": "paragraph",
+        "text": "A class can hold several constructors as long as their parameter lists differ. Java picks the version that matches the arguments you pass to new. This is constructor overloading, and it is the single most-asked constructor concept in ICSE program questions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Three constructors, one class"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class OverloadCtor {\n    String name;\n    int marks;\n\n    OverloadCtor() {                      // version 1: no details yet\n        name = \"Unknown\";\n        marks = 0;\n    }\n    OverloadCtor(String n) {              // version 2: name only\n        name = n;\n        marks = 0;\n    }\n    OverloadCtor(String n, int m) {       // version 3: everything\n        name = n;\n        marks = m;\n    }\n\n    void display() {\n        System.out.println(name + \" -> \" + marks);\n    }\n\n    public static void main(String[] args) {\n        new OverloadCtor().display();\n        new OverloadCtor(\"Asha\").display();\n        new OverloadCtor(\"Rohan\", 85).display();\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Unknown -> 0\nAsha -> 0\nRohan -> 85"
+      },
+      {
+        "type": "paragraph",
+        "text": "Same class, three doorways in. Count the arguments in each new and you can predict which constructor fired, which is exactly the skill output questions test."
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/java-constructors-explained/02-overload.png",
+        "alt": "Constructor overloading in Java: new with zero, one, or two arguments dispatches to the matching constructor",
+        "caption": "Java matches new to a constructor by counting and typing the arguments. No match, no compile."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Copy Constructor",
+        "id": "copy-constructor"
+      },
+      {
+        "type": "paragraph",
+        "text": "A copy constructor takes an existing object and builds a new one with the same values. The proof that it truly copied is in the output: changing the duplicate leaves the original untouched."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CopyCtor {\n    String name;\n    int marks;\n\n    CopyCtor(String n, int m) {\n        name = n;\n        marks = m;\n    }\n    CopyCtor(CopyCtor other) {            // copy constructor\n        name = other.name;\n        marks = other.marks;\n    }\n\n    public static void main(String[] args) {\n        CopyCtor original = new CopyCtor(\"Zoya\", 78);\n        CopyCtor duplicate = new CopyCtor(original);\n        duplicate.marks = duplicate.marks + 5;   // only the copy changes\n        System.out.println(\"Original : \" + original.name + \" \" + original.marks);\n        System.out.println(\"Duplicate: \" + duplicate.name + \" \" + duplicate.marks);\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Original : Zoya 78\nDuplicate: Zoya 83"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Constructor vs Method: The Comparison the Paper Loves",
+        "id": "constructor-vs-method"
+      },
+      {
+        "type": "paragraph",
+        "text": "The differences fit in one program. The constructor carries the class name, has no return type, and ran exactly once, at new. The method has its own name, declares a return type, and ran every time we called it."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class CtorVsMethod {\n    int balance;\n\n    CtorVsMethod(int start) {         // constructor: class name, no return type\n        balance = start;\n    }\n\n    int deposit(int amount) {         // method: own name, has a return type\n        balance = balance + amount;\n        return balance;\n    }\n\n    public static void main(String[] args) {\n        CtorVsMethod acc = new CtorVsMethod(100);   // constructor runs once, here\n        System.out.println(acc.deposit(50));         // methods run whenever called\n        System.out.println(acc.deposit(25));\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "150\n175"
+      },
+      {
+        "type": "image",
+        "url": "/images/blog/java-constructors-explained/03-vs.png",
+        "alt": "Constructor versus method in Java: name, return type, when it runs, and how many times",
+        "caption": "Four rows that appear in some form on nearly every paper. Learn them as a pair."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Board-Style Program, Start to Finish",
+        "id": "board-style"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here is the shape ICSE actually asks: design a class with fields, a parameterised constructor, a computing method, and a display method, then create objects and use them."
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class BoardStyle {\n    String name;\n    int price, quantity;\n\n    BoardStyle(String n, int p, int q) {\n        name = n;\n        price = p;\n        quantity = q;\n    }\n\n    int totalCost() {\n        return price * quantity;\n    }\n\n    void display() {\n        System.out.println(name + \" x\" + quantity + \" = Rs \" + totalCost());\n    }\n\n    public static void main(String[] args) {\n        BoardStyle item1 = new BoardStyle(\"Notebook\", 60, 3);\n        BoardStyle item2 = new BoardStyle(\"Geometry box\", 120, 1);\n        item1.display();\n        item2.display();\n    }\n}"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Notebook x3 = Rs 180\nGeometry box x1 = Rs 120"
+      },
+      {
+        "type": "paragraph",
+        "text": "Fields, constructor, method, display, objects. Whatever story the question wraps around it, a shop, a library, a bank, this five-part skeleton is the answer."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Mistakes That Cost Constructor Marks",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Giving the constructor a return type:</strong> void ClassName() compiles, but it is now a method, and new will not call it. The paper sets this trap deliberately.",
+          "<strong>Misspelling the class name:</strong> a constructor named student inside class Student is just an unknown method. Case matters.",
+          "<strong>Expecting the free default constructor after writing your own:</strong> once any constructor exists, new ClassName() fails unless you wrote the no-argument version too.",
+          "<strong>Forgetting this with same-named parameters:</strong> name = name; assigns the parameter to itself and the field stays empty.",
+          "<strong>Calling a constructor like a method:</strong> obj.ClassName() is not a thing. Constructors run through new, once, at birth."
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "The output-question shortcut",
+        "text": "When a constructor question shows code and asks for output, first mark every new, then match each to its constructor by argument count. The printed lines follow that mapping in order. Two minutes, full marks."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faq"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What is a constructor in Java?",
+            "content": "A special block with the same name as its class and no return type, which runs automatically when an object is created with new. Its job is initialisation: giving the new object its starting values."
+          },
+          {
+            "title": "What are the types of constructors in Java?",
+            "content": "The ones school syllabi test: the default (no-argument) constructor, the parameterised constructor, and the copy constructor which builds a new object from an existing one. Overloading lets one class offer several of these side by side."
+          },
+          {
+            "title": "Why does a constructor have no return type?",
+            "content": "Because its output IS the object being constructed; there is nothing separate to return. Writing a return type, even void, turns it into an ordinary method, which is a favourite trick in board theory questions."
+          },
+          {
+            "title": "What is constructor overloading?",
+            "content": "Defining several constructors in one class with different parameter lists. Java selects the matching one by the number and types of arguments passed to new. It lets a class be created from full details, partial details, or none."
+          },
+          {
+            "title": "What is the use of this in a constructor?",
+            "content": "this refers to the object being built. Its main use is separating fields from same-named parameters: this.name = name; copies the parameter into the field. Without this, the parameter would just be assigned to itself."
+          },
+          {
+            "title": "What happens if I write no constructor at all?",
+            "content": "Java supplies an invisible default constructor that takes no arguments, so new ClassName() still works. But the moment you define any constructor of your own, that automatic one is withdrawn."
+          },
+          {
+            "title": "What is the difference between a constructor and a method?",
+            "content": "Name: constructor matches the class, a method has its own. Return type: constructor has none, a method must declare one. Trigger: constructor runs via new, a method via a call. Frequency: once per object versus as often as you like."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "One Idea, Fully Owned"
+      },
+      {
+        "type": "paragraph",
+        "text": "Constructors are a small topic that examiners can slice many ways, and you have now seen every slice run for real: default, parameterised, this, overloading, copy, and the versus-method comparison. Put it to work inside the <a href='/blog/50-java-programs-for-icse-class-10'>50-program ICSE bank</a>, where the constructor family closes the set, and see the same idea in Python in our <a href='/blog/python-oop-tutorial-for-beginners'>OOP tutorial</a>."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the version of this topic where a teacher reads your class designs live, our <a href='/java-programming-for-icse-students'>ICSE Java classes</a> are built for it, part of <a href='/courses'>courses</a> serving learners aged 6 to 67."
+      },
+      {
+        "type": "button",
+        "text": "Book a Free ICSE Java Demo",
+        "url": "/contact",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related reading"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='/blog/50-java-programs-for-icse-class-10'>50 Important Java Programs for ICSE Class 10</a>",
+          "<a href='/blog/string-handling-in-java'>String Handling in Java</a>",
+          "<a href='/blog/python-oop-tutorial-for-beginners'>Python OOP Tutorial</a>"
+        ]
+      }
+    ]
+  },
+  "relatedPosts": [
+    "50-java-programs-for-icse-class-10",
+    "string-handling-in-java",
+    "python-oop-tutorial-for-beginners"
+  ]
+}

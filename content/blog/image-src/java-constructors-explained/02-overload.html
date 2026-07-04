@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><style>
+:root{--w:1200px;--h:675px;--blue:#2b6cb0;--purple:#7c5cbf}
+.fit{gap:14px}
+.rows{display:flex;flex-direction:column;gap:14px}
+.match{display:flex;align-items:center;gap:14px;justify-content:center}
+.call{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:22px;background:var(--card);border:3px solid var(--ink);border-radius:12px;padding:10px 18px;box-shadow:4px 5px 0 var(--ink);min-width:340px}
+.call .g{color:var(--pine)} .call .y{color:var(--amber)}
+.wire{flex:none;display:flex;align-items:center}
+.wire .l{height:4px;width:50px}
+.wire .h{width:0;height:0;border-top:8px solid transparent;border-bottom:8px solid transparent}
+.m1 .l{background:var(--blue)} .m1 .h{border-left:12px solid var(--blue)}
+.m2 .l{background:var(--amber)} .m2 .h{border-left:12px solid var(--amber)}
+.m3 .l{background:var(--coral)} .m3 .h{border-left:12px solid var(--coral)}
+.ctor{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:20px;border:3px solid var(--ink);border-radius:12px;padding:10px 18px;min-width:360px}
+.c1{background:#DCEBFA;color:var(--blue)} .c2{background:#FFF3C4;color:var(--amber)} .c3{background:#FDECE6;color:var(--coral)}
+.note{font-family:'Caveat',cursive;font-weight:700;font-size:34px;color:var(--coral);text-align:center}
+</style></head>
+<body><div class="frame">
+  <div class="brand-row"><span class="logo"><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><rect width="512" height="512" fill="#007bff"/><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"><path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/><path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/><line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/><line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/><line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/><line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/></g><g fill="#fff"><circle cx="182" cy="190" r="41"/><circle cx="330" cy="190" r="41"/><path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/><path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/></g></svg></span><span class="brand-name">Modern Age Coders</span><span class="handle">overloading dispatch</span></div>
+  <div class="main"><div class="fit">
+    <span class="eyebrow">java counts the arguments and picks the door</span>
+    <div class="rows">
+      <div class="match"><span class="call"><span class="g">new</span> Student()</span><span class="wire m1"><span class="l"></span><span class="h"></span></span><span class="ctor c1">Student() { ... }</span></div>
+      <div class="match"><span class="call"><span class="g">new</span> Student(<span class="y">"Asha"</span>)</span><span class="wire m2"><span class="l"></span><span class="h"></span></span><span class="ctor c2">Student(String n) { ... }</span></div>
+      <div class="match"><span class="call"><span class="g">new</span> Student(<span class="y">"Rohan", 85</span>)</span><span class="wire m3"><span class="l"></span><span class="h"></span></span><span class="ctor c3">Student(String n, int m) { ... }</span></div>
+    </div>
+    <div class="note">count the arguments in new, and you can predict every output question</div>
+  </div></div>
+</div></body></html>
