@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Competitor comparison: Mathnasium
+/modern-age-coders-vs-mathnasium /src/pages/modern-age-coders-vs-mathnasium.html 200
+/modern-age-coders-vs-mathnasium.md /src/pages/modern-age-coders-vs-mathnasium.md 200
+
 # Schools Hub Page
 /schools /src/pages/schools.html 200
 

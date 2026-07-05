@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Competitor comparison: Mathnasium
+[[redirects]]
+  from = "/modern-age-coders-vs-mathnasium"
+  to = "/src/pages/modern-age-coders-vs-mathnasium.html"
+  status = 200
+
+[[redirects]]
+  from = "/modern-age-coders-vs-mathnasium.md"
+  to = "/src/pages/modern-age-coders-vs-mathnasium.md"
+  status = 200
+
 # Schools Hub Page
 [[redirects]]
   from = "/schools"
