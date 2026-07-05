@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Competitor comparison: Tynker
+[[redirects]]
+  from = "/modern-age-coders-vs-tynker"
+  to = "/src/pages/modern-age-coders-vs-tynker.html"
+  status = 200
+
+[[redirects]]
+  from = "/modern-age-coders-vs-tynker.md"
+  to = "/src/pages/modern-age-coders-vs-tynker.md"
+  status = 200
+
 # Competitor comparison: Juni Learning
 [[redirects]]
   from = "/modern-age-coders-vs-juni-learning"
