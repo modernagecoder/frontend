@@ -165,3 +165,39 @@
   .trust-badges{gap:.6rem 1.1rem}
   .info-card,.form-card{padding:1.5rem}
 }
+
+/* =====================================================================
+   Slot picker + trust additions (2026-07-05). Prefix: .bd-
+   ===================================================================== */
+
+.bd-trust-line {
+    font-size: 14px; color: #3A332C; margin: 10px 0 4px;
+    padding: 10px 14px; background: rgba(180, 83, 9, .06);
+    border: 1px solid rgba(180, 83, 9, .14); border-radius: 10px;
+}
+.bd-trust-line b { color: #1C1814; }
+.bd-star { color: #D97706; }
+.bd-trust-line a { color: #8F3F08; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+
+.bd-optional { color: #6B6259; font-weight: 400; font-size: 12.5px; }
+.bd-chip-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.bd-time-row { margin-top: 10px; max-height: 190px; overflow-y: auto; padding-right: 4px; }
+.bd-chip {
+    display: inline-flex; flex-direction: column; align-items: center; gap: 1px;
+    font-family: 'Inter', system-ui, sans-serif; cursor: pointer;
+    background: #FFFFFF; border: 1.5px solid rgba(28, 24, 20, .14);
+    border-radius: 10px; padding: 8px 12px; min-width: 64px;
+    transition: border-color .12s ease, background .12s ease, transform .12s ease;
+}
+.bd-chip b { font-size: 13.5px; color: #1C1814; font-weight: 700; }
+.bd-chip span { font-size: 11px; color: #6B6259; }
+.bd-chip:hover { border-color: #D97706; transform: translateY(-1px); }
+.bd-chip.active { border-color: #B45309; background: rgba(180, 83, 9, .08); }
+.bd-chip.active b { color: #8F3F08; }
+.bd-slot-note { font-size: 12.5px; color: #6B6259; margin: 10px 0 0; }
+
+.bd-teacher-preview {
+    margin: 16px 0 0; font-size: 14px; color: #3A332C; text-align: center;
+    border-top: 1px dashed rgba(28, 24, 20, .15); padding-top: 14px;
+}
+.bd-teacher-preview a { color: #8F3F08; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }

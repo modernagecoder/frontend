@@ -15,6 +15,12 @@ Experience our world-class teaching before you commit. Try a live 1-on-1 session
 
 ## Schedule Your Demo
 
+Pick a preferred demo slot right in the form: choose a day (next 7 days) and a time between 10:00 AM and 8:00 PM IST, shown in your local timezone too. Flexible? Leave it unselected and we will call to fix a time.
+
+Zero-risk booking: no payment, no card, no obligation. Rated 4.9 across 547 Google reviews. Read the full promise: https://learn.modernagecoders.com/guarantee
+Want to judge us first? Watch recordings of real classes: https://learn.modernagecoders.com/how-we-teach
+
+
 Fill in the details and we'll arrange a personalized demo session for you.
 
 ## What You'll Get
