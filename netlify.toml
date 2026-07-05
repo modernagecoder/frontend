@@ -2565,6 +2565,17 @@
   to = "/src/pages/thank-you.html"
   status = 200
 
+# Zero-risk promise page
+[[redirects]]
+  from = "/guarantee"
+  to = "/src/pages/guarantee.html"
+  status = 200
+
+[[redirects]]
+  from = "/guarantee.md"
+  to = "/src/pages/guarantee.md"
+  status = 200
+
 # Schools Hub Page
 [[redirects]]
   from = "/schools"
