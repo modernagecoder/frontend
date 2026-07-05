@@ -932,6 +932,8 @@
                             <option value="cpp">C++ &amp; competitive programming</option>
                             <option value="scratch">Scratch &amp; block coding (ages 6–10 only)</option>
                             <option value="cs-board">Computer Science board syllabus (CBSE/ICSE Class 11–12)</option>
+                            <option value="maths-school">Mathematics (school level, live 1-hour classes)</option>
+                            <option value="maths-advanced">Mathematics (advanced: Class 11–12, college, competitive)</option>
                             <option value="olympiad">Olympiad medal track (premium)</option>
                             <option value="jee">JEE coding track</option>
                             <option value="comeback">Coding Comeback for Women</option>
@@ -1011,6 +1013,12 @@
                             <div class="fc-breakdown" id="fcBreakdown">
                                 <!-- Populated by JS -->
                             </div>
+
+                            <p class="fc-flat-note" id="fcFlatNote" style="display:none; font-size:.84rem; line-height:1.55; margin:14px 0 0; padding:12px 14px; border:1px dashed currentColor; border-radius:10px; opacity:.85;">
+                                This is an estimate. Our actual published international prices are flat:
+                                coding $40/month group or $100/month 1-on-1; mathematics $100/month group or
+                                $150/month 1-on-1, all with 8 live one-hour classes. See <a href="/pricing">full pricing</a>.
+                            </p>
 
                             <button type="button" class="fc-result-cta" id="fcClaim">Reserve a seat at this fee →</button>
                             <a class="fc-result-ghost" href="/book-demo">Or book a free demo first</a>
@@ -1324,7 +1332,11 @@
         'cs-board':{ kid: 2700, teen: 3300, college: 4300, adult: 4300 },
         olympiad:  { kid: 5400, teen: 6200, college: 7200, adult: 7200 },
         jee:       { kid: 3400, teen: 3800, college: 3800, adult: 3800 },
-        comeback:  { kid: 4600, teen: 4600, college: 4600, adult: 4600 }
+        comeback:  { kid: 4600, teen: 4600, college: 4600, adult: 4600 },
+        // Maths is intentionally premium internationally ($100 group / $150 1-on-1 flat):
+        // bases calibrated so standard-intensity intl estimates land in that band.
+        'maths-school':   { kid: 3600, teen: 4000, college: 4400, adult: 4400 },
+        'maths-advanced': { kid: 4400, teen: 4800, college: 5200, adult: 5200 }
     };
 
     var INTENSITY_MULT = {
@@ -1447,6 +1459,10 @@
         // Show
         document.getElementById('fcResultEmpty').style.display = 'none';
         document.getElementById('fcResultShow').classList.add('on');
+
+        // Outside India, real published prices are flat — surface them next to the estimate.
+        var flatNote = document.getElementById('fcFlatNote');
+        if (flatNote) flatNote.style.display = (state.country === 'IN') ? 'none' : '';
 
         var mainEl = document.getElementById('fcMainAmount');
         var strikeEl = document.getElementById('fcOriginalAmount');

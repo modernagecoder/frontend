@@ -135,3 +135,7 @@ Only if you ask. The fee on this page is the real fee. You can sign up directly 
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-fee-calculator*
+
+## Mathematics tiers (added July 2026)
+
+The calculator now estimates Mathematics too: school-level and advanced (Class 11-12, college, competitive). Mathematics is intentionally premium internationally. Actual published international prices are flat: coding $40/month group or $100/month 1-on-1; mathematics $100/month group or $150/month 1-on-1, all with 8 live one-hour classes. Full pricing: https://learn.modernagecoders.com/pricing
