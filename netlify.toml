@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Cost guide: coding classes India
+[[redirects]]
+  from = "/coding-classes-cost-india-2026"
+  to = "/src/pages/coding-classes-cost-india-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-cost-india-2026.md"
+  to = "/src/pages/coding-classes-cost-india-2026.md"
+  status = 200
+
 # Decision guide: private tutor vs online
 [[redirects]]
   from = "/private-math-tutor-vs-online-tutoring"
