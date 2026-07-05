@@ -61,7 +61,10 @@ const EnrollmentModal = {
     // Detect international user
     const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
     const paymentFeaturesText = isIndian ? 'UPI, Cards, Net Banking' : 'Cards, International Payments';
-    const priceText = isIndian ? '' : ' ($40 USD/month)';
+    // Starting (group-tier) USD price, maths-aware via the shared helper.
+    var intlGroup = (window.CoursePayment && window.CoursePayment.getIntlPricing)
+      ? window.CoursePayment.getIntlPricing('group') : null;
+    const priceText = isIndian ? '' : ' (from ' + ((intlGroup && intlGroup.display) || '$40/month') + ' USD)';
     const whatsappMsg = encodeURIComponent('Hi, I want to enroll in ' + this.courseName + priceText + '. Please share details.');
     
     const modalHTML = `

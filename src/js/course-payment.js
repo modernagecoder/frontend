@@ -227,15 +227,34 @@ const CoursePayment = {
   // Get pricing for current course
   getPricing: function(planType) {
     if (!this.config) return null;
-    
+
     // Check if course has specific pricing
     const courseConfig = this.config.courses[this.courseSlug];
     if (courseConfig && courseConfig.pricing && courseConfig.pricing[planType]) {
       return courseConfig.pricing[planType];
     }
-    
+
     // Fall back to default pricing
     return this.config.defaultPricing[planType];
+  },
+
+  // Intl prices from the single source of truth (international-pricing.js),
+  // maths-aware: maths pages (data-subject="maths") charge $100 group /
+  // $150 personal instead of the flat coding $40/$100. Falls back to the
+  // flat coding prices if that script is absent on the page.
+  getIntlPricing: function(planType) {
+    var ip = window.InternationalPricing;
+    var table = (ip && ip.isMathsContext && ip.isMathsContext() && ip.PRICES.internationalMaths)
+      ? ip.PRICES.internationalMaths
+      : (ip && ip.PRICES ? ip.PRICES.international : null);
+    var fallback = {
+      group:    { amount: 40,  display: '$40',  period: '/month' },
+      personal: { amount: 100, display: '$100', period: '/month' },
+      lifetime: { amount: 599, display: '$599', period: '' }
+    };
+    var p = (table && table[planType]) || fallback[planType];
+    if (!p) return null;
+    return { amount: p.amount, display: p.display + (p.period || '') };
   },
 
   // Setup payment buttons - DISABLED: Now handled by enrollment-modal.js
@@ -265,14 +284,9 @@ const CoursePayment = {
       return;
     }
 
-    const intlPrices = {
-      group:    { amount: 40,  display: '$40/month' },
-      personal: { amount: 100, display: '$100/month' },
-      lifetime: { amount: 599, display: '$599' }
-    };
-
-    // Use international pricing if not Indian
-    const displayPricing = isIndian ? pricing : (intlPrices[planType] || pricing);
+    // Use international pricing if not Indian (maths-aware, single source)
+    var intlP = this.getIntlPricing(planType);
+    const displayPricing = isIndian ? pricing : (intlP || pricing);
     const currencySymbol = isIndian ? '₹' : '$';
     const phoneMaxLength = isIndian ? '10' : '15';
     const phonePlaceholder = isIndian ? '10-digit mobile number' : 'Phone number';
@@ -391,12 +405,12 @@ const CoursePayment = {
       
       // Determine currency and amount for international users.
       // Mini Batch has no USD price — it's India-only; foreign users are blocked earlier.
+      // Prices come from getIntlPricing (maths-aware, single source of truth).
       const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : (ccInfo.iso === 'IN');
-      const intlPrices = { group: 40, personal: 100, lifetime: 599 };
-      const intlDisplayPrices = { group: '$40/month', personal: '$100/month', lifetime: '$599' };
-      const finalAmount = isIndian ? amount : (intlPrices[planType] || amount);
+      var intlP = this.getIntlPricing(planType);
+      const finalAmount = isIndian ? amount : (intlP ? intlP.amount : amount);
       const currency = isIndian ? 'INR' : 'USD';
-      const buttonPriceText = isIndian ? this.getPricing(planType).display : (intlDisplayPrices[planType] || this.getPricing(planType).display);
+      const buttonPriceText = isIndian ? this.getPricing(planType).display : (intlP ? intlP.display : this.getPricing(planType).display);
       
       // Create order
       const apiUrl = this.getApiUrl();

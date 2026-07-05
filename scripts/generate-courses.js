@@ -1011,7 +1011,9 @@ class CourseGenerator {
         // and update the static "International Students" FYI cards/modals to match.
         // Coding courses are untouched; Indian ₹ prices are identical either way.
         if (/mathematics/i.test(meta.slug || '')) {
-            html = html.replace('<body class="course-detail-page">', '<body class="course-detail-page" data-subject="maths">');
+            // Robust to body-class variants (the editorial reskin added a class,
+            // which silently broke an exact-match replace here before).
+            html = html.replace(/<body class="(course-detail-page[^"]*)">/, '<body class="$1" data-subject="maths">');
             html = html.replace("showInternationalContactModal('Group Classes', '$40 USD')", "showInternationalContactModal('Group Classes', '$100 USD')");
             html = html.replace("showInternationalContactModal('Personalized Mentorship', '$100 USD')", "showInternationalContactModal('Personalized Mentorship', '$150 USD')");
             html = html.replace(/(Group Classes<\/div>[\s\S]*?line-height: 1\.1;">\s*)\$40(<\/div>)/, (m, p1, p2) => p1 + '$100' + p2);
