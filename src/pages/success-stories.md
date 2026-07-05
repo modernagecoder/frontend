@@ -13,11 +13,16 @@ source: src/pages/success-stories.html
 
 Unfiltered words from the parents and students who learn with Modern Age Coders. Every review below is a real Google review — nothing scripted.
 
-4.9★Average rating547+Google reviewsSince 2020Coding + maths15+Countries
+4.9 average rating · 547+ Google reviews · 500+ projects built · 15+ countries
 
-## What families say
+## Ten real stories
 
-Straight from our Google reviews
+Every quote is a real Google review or a student's own words. Where a student shipped a project, we link the live build.
+
+Highlights with live builds:
+- Somraj (mother Ria Mukherjee's review) shipped the Image Slider Website, live in Student Labs
+- Harshit (AI & ML course) built Misti, an AI chatbot for maths and coding: https://misti.modernagecoders.com
+- Isha (Web Development course) built Moxo, an animated company landing page, live in Student Labs
 
 ★★★★★
 
@@ -62,3 +67,15 @@ Book a free trial class and meet your mentor — no commitment, just a real less
 ---
 
 *Canonical: https://learn.modernagecoders.com/success-stories*
+
+## Hear it on camera
+
+Seven real video reviews from parents and students, watchable on the page. Full Wall of Love: https://learn.modernagecoders.com/love · Complete feedback playlist: https://youtube.com/playlist?list=PLfTigabkzKdy4y52hmNOQRaL8gsc9lbU1
+
+## The proof students ship
+
+Three of the 21 live projects in Student Labs: Misti (AI chatbot, by Harshit), NutriLife (AI nutrition coach, by Bhavya), GuardianX (AI link-safety checker, by Vivaan). All 21: https://learn.modernagecoders.com/student-labs
+
+## Ready to write your story?
+
+Book a free demo: https://learn.modernagecoders.com/book-demo

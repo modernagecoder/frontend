@@ -59,3 +59,69 @@ body.editorial .cta-btn-secondary:hover{background:var(--paper);color:var(--ink)
 @media (max-width:560px){
   .stats-strip{gap:1.4rem 2rem}
 }
+
+/* =====================================================================
+   Case-study upgrades (2026-07-05): source chips, build lines,
+   video wall, project proof strip. Prefix: .ss-
+   ===================================================================== */
+
+.ss-build {
+    margin: 12px 0 0; font-size: 13.5px; color: #3A332C;
+    background: rgba(180, 83, 9, .07); border-left: 3px solid #B45309;
+    border-radius: 8px; padding: 8px 12px;
+}
+.ss-build a { color: #8F3F08; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.ss-source {
+    display: inline-block; margin-top: 12px;
+    font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 10.5px;
+    letter-spacing: .07em; text-transform: uppercase; color: #1F8A55;
+    border: 1px solid rgba(31, 138, 85, .3); border-radius: 999px;
+    background: rgba(31, 138, 85, .06); padding: 4px 10px;
+}
+
+.ss-videos, .ss-projects { padding: 56px 24px 20px; max-width: 1140px; margin: 0 auto; }
+.ss-video-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 26px; }
+.ss-video {
+    position: relative; border: 1px solid rgba(28, 24, 20, .12); border-radius: 12px;
+    overflow: hidden; padding: 0; background: #1C1814; cursor: pointer;
+    aspect-ratio: 16/9; display: block; width: 100%;
+}
+.ss-video img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: .85; transition: opacity .15s ease, transform .2s ease; }
+.ss-video:hover img { opacity: 1; transform: scale(1.03); }
+.ss-play {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 44px; height: 44px; border-radius: 50%; background: rgba(251, 248, 242, .92);
+}
+.ss-play::after {
+    content: ""; position: absolute; top: 50%; left: 54%; transform: translate(-50%, -50%);
+    border-style: solid; border-width: 8px 0 8px 13px;
+    border-color: transparent transparent transparent #B45309;
+}
+.ss-video-title {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    font-size: 12px; font-weight: 600; color: #FBF8F2; text-align: left;
+    background: linear-gradient(transparent, rgba(28, 24, 20, .85));
+    padding: 18px 10px 8px;
+}
+.ss-video-frame { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: 12px; }
+.ss-video-links { text-align: center; margin-top: 22px; font-size: 14.5px; color: #6B6259; }
+.ss-video-links a { color: #8F3F08; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+
+.ss-project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 26px; }
+.ss-project {
+    display: block; border: 1px solid rgba(28, 24, 20, .12); border-radius: 12px;
+    overflow: hidden; background: #FFFFFF; text-decoration: none;
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+.ss-project:hover { transform: translateY(-3px); box-shadow: 0 24px 50px -30px rgba(28, 24, 20, .4); }
+.ss-project img { width: 100%; aspect-ratio: 16/10; object-fit: cover; object-position: top; display: block; }
+.ss-project-name {
+    display: block; padding: 12px 14px; font-size: 14px; font-weight: 700; color: #1C1814;
+}
+.ss-project-name small { display: block; font-weight: 500; color: #6B6259; font-size: 12px; margin-top: 2px; }
+
+@media (max-width: 900px) { .ss-video-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 620px) {
+    .ss-video-grid { grid-template-columns: 1fr; }
+    .ss-project-grid { grid-template-columns: 1fr; }
+}
