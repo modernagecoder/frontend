@@ -9,7 +9,7 @@ source: src/pages/modern-age-coders-vs-juni-learning.html
 
 # Modern Age Coders vs Juni Learning
 
-**In one paragraph:** Pick Juni if a US-based instructor is a hard requirement and budget is not the constraint. Pick Modern Age Coders if you want more live teaching for far less money: eight 1-on-1 classes a month for $100 versus four for $275+, mentors who also teach the maths behind the code, and group options from $40 a month.
+**In one paragraph:** Pick Juni if a US-based instructor is a hard requirement and budget is not the constraint. Pick Modern Age Coders if you want deeper teaching on a faster rhythm: eight interactive one-hour 1-on-1 classes a month, project-first, with the maths behind the code taught in the same school; the month costs $100, not $275.
 
 ## Side by side (typical published US prices, as of July 2026)
 

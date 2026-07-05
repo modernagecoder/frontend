@@ -9,7 +9,7 @@ source: src/pages/modern-age-coders-vs-mathnasium.html
 
 # Modern Age Coders vs Mathnasium
 
-**In one paragraph:** Pick Mathnasium if your child works best in a physical center and you have one nearby. Pick Modern Age Coders if you want true 1-on-1 or small-group live teaching at home, at roughly a third of the typical Mathnasium membership, with the option to learn coding and maths together.
+**In one paragraph:** Pick Mathnasium if your child works best in a physical center and you have one nearby. Pick Modern Age Coders if you want deep, application-first live teaching at home: a dedicated mentor, one full hour, interactive classes students wait for, with coding and maths together, and a month of it costs less than half a typical membership.
 
 ## Side by side (typical published US prices, as of July 2026)
 

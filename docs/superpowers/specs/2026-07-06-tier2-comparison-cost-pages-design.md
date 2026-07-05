@@ -39,6 +39,10 @@ Extract the live `/modern-age-coders-vs-whitehat-jr-cuemath-codingal` identity i
 
 **Fee calculator:** add maths tier options; replace/align exchange-rate-derived USD with real flat intl pricing ($40/$100 coding, $100/$150 maths); verify existing currency dropdown behavior end-to-end.
 
+## Brand positioning (USER RULE, 2026-07-06 — overrides any earlier framing)
+
+NEVER position Modern Age Coders as budget/cheap/affordable-first. The identity is PREMIUM TEACHING: very deep, real knowledge with application; interactive, never boring; one-hour live classes students eagerly wait for; highest quality. Price appears ONLY as the closing proof of value ("all of this, and it costs less"), never as the lead or the headline. Heroes and CTAs lead with depth/engagement/quality; per-class price maths stays (factual value proof) but framed as "more teaching for the money", not "cheap".
+
 ## Hard constraints
 
 - Only verified facts above; every competitor number carries "typical published prices, as of July 2026" + named sources; nothing invented.
