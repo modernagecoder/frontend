@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Cost guide: online math tutoring (US)
+[[redirects]]
+  from = "/online-math-tutor-cost"
+  to = "/src/pages/online-math-tutor-cost.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-math-tutor-cost.md"
+  to = "/src/pages/online-math-tutor-cost.md"
+  status = 200
+
 # Competitor comparison: Codingal
 [[redirects]]
   from = "/modern-age-coders-vs-codingal"
