@@ -132,6 +132,7 @@ const InternationalPricing = {
 
   // ─── Update ALL pages ───
   updateAllPages() {
+    this.showIntlOnlySections();
     this.hideIndiaOnlyCards();
     this.updatePricingPage();
     this.updateHomePage();
@@ -150,6 +151,15 @@ const InternationalPricing = {
   hideIndiaOnlyCards() {
     document.querySelectorAll('[data-india-only="true"]').forEach(function(el) {
       el.style.display = 'none';
+    });
+  },
+
+  // Reveal intl-only blocks. They ship hidden in the markup so India visitors
+  // and crawlers always see the India-default view without any JS.
+  showIntlOnlySections() {
+    document.querySelectorAll('[data-intl-only="true"]').forEach(function(el) {
+      el.hidden = false;
+      el.style.removeProperty('display');
     });
   },
 
