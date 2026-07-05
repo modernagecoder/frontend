@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Competitor comparison: Cuemath
+/modern-age-coders-vs-cuemath /src/pages/modern-age-coders-vs-cuemath.html 200
+/modern-age-coders-vs-cuemath.md /src/pages/modern-age-coders-vs-cuemath.md 200
+
 # Competitor comparison: Kumon
 /modern-age-coders-vs-kumon /src/pages/modern-age-coders-vs-kumon.html 200
 /modern-age-coders-vs-kumon.md /src/pages/modern-age-coders-vs-kumon.md 200

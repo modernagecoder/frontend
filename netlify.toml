@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Competitor comparison: Cuemath
+[[redirects]]
+  from = "/modern-age-coders-vs-cuemath"
+  to = "/src/pages/modern-age-coders-vs-cuemath.html"
+  status = 200
+
+[[redirects]]
+  from = "/modern-age-coders-vs-cuemath.md"
+  to = "/src/pages/modern-age-coders-vs-cuemath.md"
+  status = 200
+
 # Competitor comparison: Kumon
 [[redirects]]
   from = "/modern-age-coders-vs-kumon"
