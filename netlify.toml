@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Listicle: best kids coding classes 2026
+[[redirects]]
+  from = "/best-online-coding-classes-for-kids-2026"
+  to = "/src/pages/best-online-coding-classes-for-kids-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-online-coding-classes-for-kids-2026.md"
+  to = "/src/pages/best-online-coding-classes-for-kids-2026.md"
+  status = 200
+
 # Listicle: best online math tutoring 2026
 [[redirects]]
   from = "/best-online-math-tutoring-2026"
