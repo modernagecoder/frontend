@@ -1104,8 +1104,9 @@
                             content_category: 'Free Trial'
                         });
                     }
-                    showFeedback('success', 'We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');
-                    contactForm.reset();
+                    // Success: hand off to the thank-you page
+                    window.location.href = '/thank-you?src=book-demo';
+                    return;
                 } else {
                     showFeedback('error', data.message || 'Something went wrong. Please try again.');
                 }

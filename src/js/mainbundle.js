@@ -1455,9 +1455,13 @@ window.submitCallback = function(e) {
     .then(function(data) {
         console.log('Response:', data);
         if (data.success) {
-            if (form) form.style.display = 'none';
-            if (success) success.style.display = 'block';
-            setTimeout(window.closeCallbackModal, 3000);
+            // Fire Meta Pixel Contact event
+            if (typeof fbq === 'function') {
+                fbq('track', 'Contact');
+            }
+            // Hand off to the thank-you page
+            window.location.href = '/thank-you?src=callback';
+            return;
         } else {
             alert(data.message || 'Something went wrong. Please try again.');
         }

@@ -79,9 +79,9 @@ window.submitCallback = function(e) {
             if (typeof fbq === 'function') {
                 fbq('track', 'Contact');
             }
-            if (form) form.style.display = 'none';
-            if (success) success.style.display = 'block';
-            setTimeout(window.closeCallbackModal, 3000);
+            // Hand off to the thank-you page
+            window.location.href = '/thank-you?src=callback';
+            return;
         } else {
             alert(data.message || 'Something went wrong. Please try again.');
         }
