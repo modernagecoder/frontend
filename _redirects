@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Cost guide: kids coding classes (US)
+/coding-classes-for-kids-cost /src/pages/coding-classes-for-kids-cost.html 200
+/coding-classes-for-kids-cost.md /src/pages/coding-classes-for-kids-cost.md 200
+
 # Cost guide: online math tutoring (US)
 /online-math-tutor-cost /src/pages/online-math-tutor-cost.html 200
 /online-math-tutor-cost.md /src/pages/online-math-tutor-cost.md 200

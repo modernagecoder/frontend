@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Cost guide: kids coding classes (US)
+[[redirects]]
+  from = "/coding-classes-for-kids-cost"
+  to = "/src/pages/coding-classes-for-kids-cost.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-cost.md"
+  to = "/src/pages/coding-classes-for-kids-cost.md"
+  status = 200
+
 # Cost guide: online math tutoring (US)
 [[redirects]]
   from = "/online-math-tutor-cost"
