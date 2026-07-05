@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Listicle: best online math tutoring 2026
+[[redirects]]
+  from = "/best-online-math-tutoring-2026"
+  to = "/src/pages/best-online-math-tutoring-2026.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-online-math-tutoring-2026.md"
+  to = "/src/pages/best-online-math-tutoring-2026.md"
+  status = 200
+
 # Cost guide: coding classes India
 [[redirects]]
   from = "/coding-classes-cost-india-2026"
