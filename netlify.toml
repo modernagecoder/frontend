@@ -2576,6 +2576,23 @@
   to = "/src/pages/guarantee.md"
   status = 200
 
+# Team / founder page
+[[redirects]]
+  from = "/team"
+  to = "/src/pages/team.html"
+  status = 200
+
+[[redirects]]
+  from = "/team.md"
+  to = "/src/pages/team.md"
+  status = 200
+
+[[redirects]]
+  from = "/instructors"
+  to = "/team"
+  status = 301
+  force = true
+
 # Schools Hub Page
 [[redirects]]
   from = "/schools"

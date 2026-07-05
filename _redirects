@@ -684,6 +684,11 @@
 /guarantee /src/pages/guarantee.html 200
 /guarantee.md /src/pages/guarantee.md 200
 
+# Team / founder page
+/team /src/pages/team.html 200
+/team.md /src/pages/team.md 200
+/instructors /team 301!
+
 # Schools Hub Page
 /schools /src/pages/schools.html 200
 
