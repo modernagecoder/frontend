@@ -148,7 +148,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Pricing page styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/pricing-redesign.css?v=20260626d">
+    <link rel="stylesheet" href="/css/pricing-redesign.css?v=20260705">
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
     <script>if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}</script>
@@ -562,6 +562,23 @@
                         <a href="/contact" class="choose-plan-btn outline">Get Started</a>
                     </div>
                 </div>
+
+                <!-- Per-class value math (coding) -->
+                <div class="pv-perclass" data-india-only="true">
+                    <p class="pv-perclass-lead">Every plan is <b>2 live classes a week, 8 a month</b>. Live teaching, not recordings.</p>
+                    <div class="pv-chips">
+                        <span class="pv-chip">Group &#8377;1,499 &#8776; <b>&#8377;187 per live class</b></span>
+                        <span class="pv-chip">Mini Batch &#8377;2,499 &#8776; <b>&#8377;312 per live class</b></span>
+                        <span class="pv-chip">1-on-1 &#8377;4,999 &#8776; <b>&#8377;625 per live class</b></span>
+                    </div>
+                </div>
+                <div class="pv-perclass" data-intl-only="true" hidden>
+                    <p class="pv-perclass-lead">Every plan is <b>2 live classes a week, 8 a month</b>. Live teaching, not recordings.</p>
+                    <div class="pv-chips">
+                        <span class="pv-chip">Group $40 &#8776; <b>$5 per live class</b></span>
+                        <span class="pv-chip">1-on-1 $100 &#8776; <b>$12.50 per live class</b></span>
+                    </div>
+                </div>
             </div>
 
             <!-- Maths Tab -->
@@ -717,6 +734,23 @@
                         <a href="/contact" class="choose-plan-btn outline">Get Started</a>
                     </div>
                 </div>
+
+                <!-- Per-class value math (maths) -->
+                <div class="pv-perclass" data-india-only="true">
+                    <p class="pv-perclass-lead">Every plan is <b>2 live classes a week, 8 a month</b>. Live teaching, not recordings.</p>
+                    <div class="pv-chips">
+                        <span class="pv-chip">Group &#8377;1,499 &#8776; <b>&#8377;187 per live class</b></span>
+                        <span class="pv-chip">Mini Batch &#8377;2,499 &#8776; <b>&#8377;312 per live class</b></span>
+                        <span class="pv-chip">1-on-1 &#8377;4,999 &#8776; <b>&#8377;625 per live class</b></span>
+                    </div>
+                </div>
+                <div class="pv-perclass" data-intl-only="true" hidden>
+                    <p class="pv-perclass-lead">Maths plans are <b>2 one-hour live classes a week, 8 a month</b>, taught 1-on-1 or in small groups.</p>
+                    <div class="pv-chips">
+                        <span class="pv-chip">Group $100 &#8776; <b>$12.50 per live class</b></span>
+                        <span class="pv-chip">1-on-1 $150 &#8776; <b>$18.75 per live class</b></span>
+                    </div>
+                </div>
             </div>
 
             <!-- Custom Tab -->
@@ -820,6 +854,18 @@
                         <a href="/contact" class="choose-plan-btn">Get Quote</a>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- ====== RISK-REVERSAL STRIP ====== -->
+        <section class="pv-risk" aria-label="Zero-risk promise">
+            <div class="pv-risk-inner">
+                <span class="pv-risk-item">Free demo before you pay</span>
+                <span class="pv-risk-dot" aria-hidden="true"></span>
+                <span class="pv-risk-item">Monthly billing, cancel anytime</span>
+                <span class="pv-risk-dot" aria-hidden="true"></span>
+                <span class="pv-risk-item">No registration fee</span>
+                <a class="pv-risk-link" href="/guarantee">Read our zero-risk promise</a>
             </div>
         </section>
 
@@ -944,6 +990,65 @@
             </div>
         </section>
         <!-- ====== INTERNATIONAL PRICING SECTION END ====== -->
+
+        <!-- ====== INTERNATIONAL PRICE COMPARISON (intl visitors only) ====== -->
+        <section class="pv-intl-compare" data-intl-only="true" hidden aria-label="What families pay elsewhere">
+            <div class="pv-compare-inner">
+                <h2>What families pay elsewhere</h2>
+                <p class="pv-compare-sub">Live online classes should not cost like a private tutor franchise.</p>
+                <div class="pv-compare-scroll">
+                    <table class="pv-compare-table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th class="pv-mac-col">Modern Age Coders</th>
+                                <th>Mathnasium</th>
+                                <th>Kumon</th>
+                                <th>Juni Learning</th>
+                                <th>Cuemath (US)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monthly price</td>
+                                <td class="pv-mac-col">$40 group<br>$100 to $150 1-on-1</td>
+                                <td>$300 to $450</td>
+                                <td>$150 to $220 per subject</td>
+                                <td>from $275 (1-on-1)</td>
+                                <td>$200 to $256</td>
+                            </tr>
+                            <tr>
+                                <td>Format</td>
+                                <td class="pv-mac-col">Live small group + 1-on-1</td>
+                                <td>In-center / hybrid</td>
+                                <td>Worksheet-based</td>
+                                <td>Live online</td>
+                                <td>Live online</td>
+                            </tr>
+                            <tr>
+                                <td>Coding + Maths</td>
+                                <td class="pv-mac-col">Both, integrated</td>
+                                <td>Maths only</td>
+                                <td>Maths and reading</td>
+                                <td>Coding focus</td>
+                                <td>Maths only</td>
+                            </tr>
+                            <tr>
+                                <td>Contracts</td>
+                                <td class="pv-mac-col">None, monthly</td>
+                                <td>Varies + enrollment fee</td>
+                                <td>Registration fee</td>
+                                <td>Monthly</td>
+                                <td>Plans / packages</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="pv-compare-note">Typical published US prices as of July 2026, from tutors.com,
+                    brighterly.com, myelearningworld.com, and cuemath.com. Verify current rates with each
+                    provider.</p>
+            </div>
+        </section>
 
         <!-- ====== COMPARISON TABLE SECTION START ====== -->
         <section class="comparison-section">
@@ -1419,7 +1524,7 @@
         </section>
 
         <!-- How We Compare Section -->
-        <section class="how-compare-section">
+        <section class="how-compare-section" data-india-only="true">
             <div class="section-header">
                 <h2>How We Compare</h2>
                 <p>Affordable coding classes in India without compromising on quality.</p>

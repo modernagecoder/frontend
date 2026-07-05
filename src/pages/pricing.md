@@ -285,6 +285,22 @@ We teach students from age 8 to 21+. We have different courses designed for kids
 
 Yes, you can pause for exams or vacations. Just let us know at least a week in advance, and we'll hold your spot.
 
+## What a class actually costs
+
+Every plan is 2 live classes a week, 8 a month. Live teaching, not recordings.
+
+- Group: Rs 1,499/month, about Rs 187 per live class (international: $40/month, about $5 per class)
+- Mini Batch (India only): Rs 2,499/month, about Rs 312 per live class
+- 1-on-1: Rs 4,999/month, about Rs 625 per live class (international: $100/month coding, $150/month maths)
+
+## Zero-risk start
+
+Free demo class before you pay. Monthly billing, cancel anytime. No registration fee. Read the full promise: https://learn.modernagecoders.com/guarantee
+
+## What families pay elsewhere (international)
+
+Typical published US prices as of July 2026: Mathnasium $300 to $450/month, Kumon $150 to $220 per subject/month, Juni Learning from $275/month for 1-on-1, Cuemath US $200 to $256/month. Modern Age Coders live classes run $40/month (group) to $100-$150/month (1-on-1), with no contracts and no enrollment fees. Sources: tutors.com, brighterly.com, myelearningworld.com, cuemath.com.
+
 ## Still Have Questions?
 
 Not sure which plan is right for you? Let's talk. We'll help you figure out the best option based on your goals and learning style.

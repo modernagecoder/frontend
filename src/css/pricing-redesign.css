@@ -191,3 +191,67 @@ body.editorial .choose-plan-btn.outline,
 body.editorial .cta-btn-secondary{color:var(--ink)}
 body.editorial .choose-plan-btn.outline:hover,
 body.editorial .cta-btn-secondary:hover{color:var(--paper)}
+
+/* =====================================================================
+   Value-justification additions (2026-07-05): per-class math strips,
+   risk-reversal band, intl comparison table. Prefix: .pv-
+   ===================================================================== */
+
+.pv-perclass {
+    margin: 26px auto 0; max-width: 860px; text-align: center;
+    background: var(--surface, #FFFFFF); border: 1px solid rgba(28, 24, 20, .12);
+    border-radius: 14px; padding: 20px 22px;
+}
+.pv-perclass-lead { color: #3A332C; font-size: 15.5px; margin: 0 0 14px; }
+.pv-perclass-lead b { color: #1C1814; }
+.pv-chips { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+.pv-chip {
+    font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px;
+    color: #3A332C; background: rgba(180, 83, 9, .08);
+    border: 1px solid rgba(180, 83, 9, .16); border-radius: 999px;
+    padding: 8px 14px;
+}
+.pv-chip b { color: #8F3F08; }
+
+.pv-risk { padding: 6px 24px 30px; }
+.pv-risk-inner {
+    max-width: 1140px; margin: 0 auto; display: flex; align-items: center;
+    justify-content: center; gap: 16px; flex-wrap: wrap;
+    border: 1px dashed rgba(180, 83, 9, .35); border-radius: 14px;
+    background: rgba(180, 83, 9, .05); padding: 16px 22px;
+}
+.pv-risk-item { font-size: 15px; font-weight: 600; color: #1C1814; }
+.pv-risk-dot { width: 5px; height: 5px; border-radius: 50%; background: #B45309; }
+.pv-risk-link {
+    font-size: 14.5px; font-weight: 700; color: #8F3F08;
+    text-decoration: underline; text-underline-offset: 3px;
+}
+
+.pv-intl-compare { padding: 40px 24px 10px; }
+.pv-compare-inner { max-width: 1140px; margin: 0 auto; text-align: center; }
+.pv-intl-compare h2 { font-size: clamp(26px, 3.4vw, 34px); margin-bottom: 8px; }
+.pv-compare-sub { color: #6B6259; font-size: 15.5px; margin: 0 0 24px; }
+.pv-compare-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.pv-compare-table {
+    width: 100%; min-width: 720px; border-collapse: collapse;
+    background: #FFFFFF; border: 1px solid rgba(28, 24, 20, .12);
+    border-radius: 14px; overflow: hidden; font-size: 14.5px;
+}
+.pv-compare-table th, .pv-compare-table td {
+    padding: 13px 16px; border-bottom: 1px solid rgba(28, 24, 20, .08);
+    text-align: left; color: #3A332C; vertical-align: top;
+}
+.pv-compare-table thead th {
+    font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px;
+    letter-spacing: .06em; text-transform: uppercase; color: #6B6259;
+    background: #F4EEE3;
+}
+.pv-compare-table td:first-child { font-weight: 600; color: #1C1814; }
+.pv-compare-table .pv-mac-col { background: rgba(180, 83, 9, .07); color: #1C1814; font-weight: 600; }
+.pv-compare-table tbody tr:last-child td { border-bottom: none; }
+.pv-compare-note { color: #6B6259; font-size: 12.5px; margin-top: 14px; }
+
+@media (max-width: 620px) {
+    .pv-risk-dot { display: none; }
+    .pv-risk-inner { flex-direction: column; gap: 8px; }
+}
