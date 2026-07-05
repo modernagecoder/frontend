@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Competitor comparison: Outschool
+[[redirects]]
+  from = "/modern-age-coders-vs-outschool"
+  to = "/src/pages/modern-age-coders-vs-outschool.html"
+  status = 200
+
+[[redirects]]
+  from = "/modern-age-coders-vs-outschool.md"
+  to = "/src/pages/modern-age-coders-vs-outschool.md"
+  status = 200
+
 # Competitor comparison: Tynker
 [[redirects]]
   from = "/modern-age-coders-vs-tynker"
