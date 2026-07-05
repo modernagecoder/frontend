@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Decision guide: private tutor vs online
+[[redirects]]
+  from = "/private-math-tutor-vs-online-tutoring"
+  to = "/src/pages/private-math-tutor-vs-online-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/private-math-tutor-vs-online-tutoring.md"
+  to = "/src/pages/private-math-tutor-vs-online-tutoring.md"
+  status = 200
+
 # Cost guide: kids coding classes (US)
 [[redirects]]
   from = "/coding-classes-for-kids-cost"

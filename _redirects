@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Decision guide: private tutor vs online
+/private-math-tutor-vs-online-tutoring /src/pages/private-math-tutor-vs-online-tutoring.html 200
+/private-math-tutor-vs-online-tutoring.md /src/pages/private-math-tutor-vs-online-tutoring.md 200
+
 # Cost guide: kids coding classes (US)
 /coding-classes-for-kids-cost /src/pages/coding-classes-for-kids-cost.html 200
 /coding-classes-for-kids-cost.md /src/pages/coding-classes-for-kids-cost.md 200
