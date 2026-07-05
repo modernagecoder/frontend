@@ -12,11 +12,11 @@
 4. **Success stories:** only verifiable existing assets — Student Labs projects (real screenshots), Wall of Love videos (/love), already-published named testimonials. Each story cites its source.
 5. **Build style:** sequential, small-first, each item browser-verified before the next.
 6. **Homepage intl:** client-side content swap (extend existing detection). No geo-IP edge serving, no separate page.
-7. **Brand theme (user emphasis):** every page must match the LIVE homepage vibe — near-black `#000002` background, purple `#a855f7` primary, cyan `#06b6d4` secondary, amber `#f59e0b` (maths accents), text `#f1f5f9`, Syne 800 headings, Inter body, Fira Code mono, glass-card surfaces, shared nav/footer. Not the warm/editorial sub-brands used on some landing pages.
+7. **Brand theme (user emphasis, corrected 2026-07-05):** every page must match the LIVE homepage vibe. The live homepage on `main` is the editorial **"Ledger & Proof"** design (`index-redesign.css`): warm paper `#FBF8F2`, ink `#1C1814`, amber `#B45309`/`#D97706`, Fraunces display / Inter body / JetBrains Mono. book-demo, pricing, and success-stories already share `src/css/editorial-theme.css` (`body.editorial` + one page-specific stylesheet each). New pages (/thank-you, /guarantee, /team) follow that exact pattern: `editorial-theme.css` + one new page CSS file + `body class="editorial"` + the inlined nav/footer marker convention.
 
 ## Hard constraints
 
-- **No fabricated numbers or claims.** Only already-published facts. Real rating 4.9★/~547 (GMB) may appear as visible text but NEVER as schema `AggregateRating` (removed site-wide Jun 2026; re-add only when sourced from a real review platform).
+- **No fabricated numbers or claims.** Only already-published facts. Rating usage follows the current site-wide convention (commit `4dd0dfac`): `AggregateRating 4.9 / reviewCount 547` sourced from real Google reviews is permitted in schema and visible text; never invent any other rating/count values.
 - **No refund/money-back language** (per decision 1).
 - Intl visitors never see INR (`international-pricing.js` handles swap; new price mentions must use its detectable markup patterns or `data-india-only`).
 - Every new indexable page: entries in BOTH `_redirects` and `netlify.toml`, `sitemap.xml`, and a `.md` twin. Redirect rules tested locally before push (prod outage 2026-04-30 rule).
