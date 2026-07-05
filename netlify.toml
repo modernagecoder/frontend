@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Competitor comparison: Codingal
+[[redirects]]
+  from = "/modern-age-coders-vs-codingal"
+  to = "/src/pages/modern-age-coders-vs-codingal.html"
+  status = 200
+
+[[redirects]]
+  from = "/modern-age-coders-vs-codingal.md"
+  to = "/src/pages/modern-age-coders-vs-codingal.md"
+  status = 200
+
 # Competitor comparison: Outschool
 [[redirects]]
   from = "/modern-age-coders-vs-outschool"

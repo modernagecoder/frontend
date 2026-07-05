@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Competitor comparison: Codingal
+/modern-age-coders-vs-codingal /src/pages/modern-age-coders-vs-codingal.html 200
+/modern-age-coders-vs-codingal.md /src/pages/modern-age-coders-vs-codingal.md 200
+
 # Competitor comparison: Outschool
 /modern-age-coders-vs-outschool /src/pages/modern-age-coders-vs-outschool.html 200
 /modern-age-coders-vs-outschool.md /src/pages/modern-age-coders-vs-outschool.md 200
