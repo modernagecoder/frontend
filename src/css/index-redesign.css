@@ -873,3 +873,30 @@ select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='ht
   *{animation-duration:.001ms!important;transition-duration:.001ms!important}
   .section:not(.hero-section){opacity:1;transform:none}
 }
+
+/* =====================================================================
+   International families strip (intl visitors only, 2026-07-05)
+   ===================================================================== */
+.intl-families { padding-top: 2rem; padding-bottom: 1rem; }
+.intl-families-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px;
+    max-width: var(--container, 1140px); margin: 2rem auto 0; padding: 0 24px;
+}
+.intl-family-card {
+    background: var(--surface, #FFFFFF); border: 1px solid var(--line, rgba(28,24,20,.12));
+    border-top: 3px solid var(--amber, #B45309); border-radius: var(--radius, 14px);
+    padding: 24px 24px 22px; box-shadow: var(--shadow-sm, 0 1px 2px rgba(28,24,20,.04));
+    text-align: left;
+}
+.intl-family-kicker {
+    font-family: var(--font-mono, ui-monospace); font-size: 11.5px;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--amber, #B45309);
+    margin: 0 0 8px;
+}
+.intl-family-card h3 { font-size: 19px; margin: 0 0 8px; color: var(--ink, #1C1814); }
+.intl-family-card p:not(.intl-family-kicker) { color: var(--muted, #6B6259); font-size: 14.5px; margin: 0 0 14px; }
+.intl-family-card a {
+    color: var(--amber-deep, #8F3F08); font-weight: 700; font-size: 14px;
+    text-decoration: underline; text-underline-offset: 3px;
+}
+@media (max-width: 900px) { .intl-families-grid { grid-template-columns: 1fr; } }

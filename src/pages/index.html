@@ -329,8 +329,8 @@
     <!-- Homepage redesign — Editorial "Ledger & Proof"                 -->
     <!-- Single stylesheet, authored from scratch. No legacy CSS.       -->
     <!-- ============================================================== -->
-    <link rel="preload" href="/css/index-redesign.css?v=20260626f" as="style">
-    <link rel="stylesheet" href="/css/index-redesign.css?v=20260626f">
+    <link rel="preload" href="/css/index-redesign.css?v=20260705" as="style">
+    <link rel="stylesheet" href="/css/index-redesign.css?v=20260705">
 
     <!-- Prefetch likely-next pages (idle bandwidth) -->
     <link rel="prefetch" href="/courses">
@@ -600,9 +600,14 @@
                     logic and creativity. When numbers meet imagination, learning becomes fun, meaningful, and full of
                     endless possibilities. Join us in shaping young minds where problem-solving meets innovation.</p> -->
 
-                <p>
+                <p data-india-only="true">
                     We don't just teach coding and maths. We teach you how to <span class="hero-emphasis">think, build, and solve problems</span> that
                     actually matter. Just real skills that work in the real world at any age, any stage.
+                </p>
+                <p data-intl-only="true" hidden>
+                    Live online coding and maths classes taught by real mentors, joined by families in
+                    <span class="hero-emphasis">15+ countries</span>. Small batches, slots that fit your
+                    timezone, and transparent USD pricing from $40 a month.
                 </p>
 
                 <div class="hero-cta-group">
@@ -694,6 +699,34 @@
                     });
                 </script>
             </div> <!-- Close hero-image -->
+        </section>
+
+        <!-- ====== INTERNATIONAL FAMILIES STRIP (intl visitors only) ====== -->
+        <section class="section intl-families" data-intl-only="true" hidden>
+            <h2 class="section-title">Why families abroad choose us</h2>
+            <div class="intl-families-grid">
+                <div class="intl-family-card">
+                    <p class="intl-family-kicker">Price</p>
+                    <h3>2 to 5x less than local centers</h3>
+                    <p>Live 1-on-1 from $100 to $150 a month. US tutoring centers typically run
+                        $200 to $450 a month.</p>
+                    <a href="/pricing">Compare pricing</a>
+                </div>
+                <div class="intl-family-card">
+                    <p class="intl-family-kicker">Schedule</p>
+                    <h3>Your timezone, not ours</h3>
+                    <p>Live classes scheduled around your family's week. Students already join us
+                        from 15+ countries.</p>
+                    <a href="/book-demo">Book a free demo</a>
+                </div>
+                <div class="intl-family-card">
+                    <p class="intl-family-kicker">Proof</p>
+                    <h3>Same teachers, same method</h3>
+                    <p>Rated 4.9 across 547 Google reviews. Coding and maths taught together,
+                        real projects from day one.</p>
+                    <a href="/success-stories">Read the stories</a>
+                </div>
+            </div>
         </section>
 
         <!-- ====== WHY CODING + MATHS TOGETHER USP SECTION ====== -->
