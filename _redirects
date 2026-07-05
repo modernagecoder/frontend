@@ -677,6 +677,9 @@
 # Post-payment welcome / enrollment confirmation page
 /welcome /src/pages/welcome.html 200
 
+# Post-lead thank-you page (noindex funnel page)
+/thank-you /src/pages/thank-you.html 200
+
 # Schools Hub Page
 /schools /src/pages/schools.html 200
 

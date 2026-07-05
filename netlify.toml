@@ -2559,6 +2559,12 @@
   to = "/src/pages/welcome.html"
   status = 200
 
+# Post-lead thank-you page (noindex funnel page)
+[[redirects]]
+  from = "/thank-you"
+  to = "/src/pages/thank-you.html"
+  status = 200
+
 # Schools Hub Page
 [[redirects]]
   from = "/schools"
