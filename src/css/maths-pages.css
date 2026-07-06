@@ -736,3 +736,144 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-american-uae h1, .mp-american-uae h2 { letter-spacing:-.02em; font-weight:700; }
 .mp-american-uae .mp-eyebrow { color: var(--mp-accent-2); }
 .mp-american-uae .mp-worked { border-left-color: var(--mp-accent-2); }
+
+
+/* ============================================================
+   Tier 3 — International Maths Ladder page themes (2026-07-06)
+   Same convention as above: each page's body class overrides
+   the --mp-* tokens. Grades 3-5 use the friendlier Quicksand
+   head font (like .mp-ks2); 6th up use the default head font.
+   ============================================================ */
+
+/* Grade ladder: warm, age-appropriate progression */
+.mp-grade3 { --mp-accent:#0d9488; --mp-accent-2:#f59e0b; --mp-accent-soft:#d9f2ef;
+  --mp-hero-bg:#0b2e2a; --mp-hero-ink:#effffc; --mp-hero-muted:#93c5bd;
+  --mp-bg-alt:#f2faf8; --mp-ink:#11302b; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-grade3 .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #f59e0b 0%, transparent 46%),
+  radial-gradient(640px 420px at 4% 110%, #0d9488 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-grade3 h1,.mp-grade3 h2,.mp-grade3 h3 { font-weight:700; letter-spacing:-.01em; }
+
+.mp-grade4 { --mp-accent:#0891b2; --mp-accent-2:#e11d48; --mp-accent-soft:#dcf3f9;
+  --mp-hero-bg:#0a2b36; --mp-hero-ink:#ecfaff; --mp-hero-muted:#8fc3d2;
+  --mp-bg-alt:#f1f9fb; --mp-ink:#0f2c35; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-grade4 .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #e11d48 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #0891b2 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-grade4 h1,.mp-grade4 h2,.mp-grade4 h3 { font-weight:700; letter-spacing:-.01em; }
+
+.mp-grade5 { --mp-accent:#7c3aed; --mp-accent-2:#f59e0b; --mp-accent-soft:#ede9fe;
+  --mp-hero-bg:#241a3f; --mp-hero-ink:#f4efff; --mp-hero-muted:#b1a3d6;
+  --mp-bg-alt:#f7f5fc; --mp-ink:#231a38; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-grade5 .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #f59e0b 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #7c3aed 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-grade5 h1,.mp-grade5 h2,.mp-grade5 h3 { font-weight:700; letter-spacing:-.01em; }
+
+.mp-grade6 { --mp-accent:#2563eb; --mp-accent-2:#16a34a; --mp-accent-soft:#e3ecfe;
+  --mp-hero-bg:#101c3a; --mp-hero-ink:#eef3ff; --mp-hero-muted:#9aa9d4;
+  --mp-bg-alt:#f3f6fc; --mp-ink:#12203c; }
+.mp-grade6 .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #16a34a 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #2563eb 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-grade7 { --mp-accent:#c2410c; --mp-accent-2:#0e7490; --mp-accent-soft:#feeada;
+  --mp-hero-bg:#331507; --mp-hero-ink:#fff4ec; --mp-hero-muted:#d3a88f;
+  --mp-bg-alt:#fbf5f0; --mp-ink:#31180b; }
+.mp-grade7 .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #0e7490 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #c2410c 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-grade8 { --mp-accent:#4f46e5; --mp-accent-2:#db2777; --mp-accent-soft:#e7e6fd;
+  --mp-hero-bg:#191642; --mp-hero-ink:#efeeff; --mp-hero-muted:#a5a1d8;
+  --mp-bg-alt:#f5f4fd; --mp-ink:#1a1740; }
+.mp-grade8 .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #db2777 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #4f46e5 0%, transparent 52%), var(--mp-hero-bg); }
+
+/* Specialty US */
+.mp-summer { --mp-accent:#ea580c; --mp-accent-2:#0284c7; --mp-accent-soft:#ffe9d9;
+  --mp-hero-bg:#3a1a05; --mp-hero-ink:#fff5ec; --mp-hero-muted:#dcae8c;
+  --mp-bg-alt:#fdf6f0; --mp-ink:#361c0a; }
+.mp-summer .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #0284c7 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #ea580c 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-catchup { --mp-accent:#0f766e; --mp-accent-2:#b45309; --mp-accent-soft:#d8efec;
+  --mp-hero-bg:#0d2926; --mp-hero-ink:#eefffb; --mp-hero-muted:#8fbcb4;
+  --mp-bg-alt:#f2f9f7; --mp-ink:#0f2b27; }
+.mp-catchup .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #b45309 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #0f766e 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-algebra2 { --mp-accent:#1d4ed8; --mp-accent-2:#9333ea; --mp-accent-soft:#e4ecff;
+  --mp-hero-bg:#101a38; --mp-hero-ink:#eef3ff; --mp-hero-muted:#9caacf;
+  --mp-bg-alt:#f4f6fb; --mp-ink:#131c33; }
+.mp-algebra2 .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #9333ea 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #1d4ed8 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-precalc { --mp-accent:#0e7490; --mp-accent-2:#e11d48; --mp-accent-soft:#dcf1f6;
+  --mp-hero-bg:#0a2731; --mp-hero-ink:#ecf9ff; --mp-hero-muted:#8fbecb;
+  --mp-bg-alt:#f1f8fa; --mp-ink:#0e2831; }
+.mp-precalc .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #e11d48 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #0e7490 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-calculus { --mp-accent:#6d28d9; --mp-accent-2:#059669; --mp-accent-soft:#eae4fb;
+  --mp-hero-bg:#1e1438; --mp-hero-ink:#f1ebff; --mp-hero-muted:#a99cd0;
+  --mp-bg-alt:#f6f4fb; --mp-ink:#201738; }
+.mp-calculus .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #059669 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #6d28d9 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-iseessat { --mp-accent:#166534; --mp-accent-2:#b45309; --mp-accent-soft:#dcefe2;
+  --mp-hero-bg:#0e2818; --mp-hero-ink:#eefcf2; --mp-hero-muted:#94bda1;
+  --mp-bg-alt:#f2f9f4; --mp-ink:#112a1b; }
+.mp-iseessat .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #b45309 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #166534 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-sgmethod { --mp-accent:#dc2626; --mp-accent-2:#0d9488; --mp-accent-soft:#fde5e5;
+  --mp-hero-bg:#320c0c; --mp-hero-ink:#fff0f0; --mp-hero-muted:#d49a9a;
+  --mp-bg-alt:#fbf4f4; --mp-ink:#2f1010; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-sgmethod .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #0d9488 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #dc2626 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-sgmethod h1,.mp-sgmethod h2,.mp-sgmethod h3 { font-weight:700; letter-spacing:-.01em; }
+
+/* Exam boards + country markets */
+.mp-ibglobal { --mp-accent:#1e40af; --mp-accent-2:#0d9488; --mp-accent-soft:#e2e9fd;
+  --mp-hero-bg:#0f1a3d; --mp-hero-ink:#eef2ff; --mp-hero-muted:#98a5d1;
+  --mp-bg-alt:#f3f5fb; --mp-ink:#121c3a; }
+.mp-ibglobal .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #0d9488 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #1e40af 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-igcse { --mp-accent:#9d174d; --mp-accent-2:#0369a1; --mp-accent-soft:#fbe2ec;
+  --mp-hero-bg:#330b1e; --mp-hero-ink:#ffeef6; --mp-hero-muted:#d095ae;
+  --mp-bg-alt:#fbf3f7; --mp-ink:#310f20; }
+.mp-igcse .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #0369a1 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #9d174d 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-sg { --mp-accent:#dc2626; --mp-accent-2:#0f766e; --mp-accent-soft:#fde5e5;
+  --mp-hero-bg:#2d0a0a; --mp-hero-ink:#fff0f0; --mp-hero-muted:#d49a9a;
+  --mp-bg-alt:#fbf4f4; --mp-ink:#2f1010; }
+.mp-sg .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #0f766e 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #dc2626 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-au { --mp-accent:#065f46; --mp-accent-2:#f59e0b; --mp-accent-soft:#d9f0e8;
+  --mp-hero-bg:#0a2b20; --mp-hero-ink:#eefff8; --mp-hero-muted:#8fc0ac;
+  --mp-bg-alt:#f1f9f5; --mp-ink:#0d2b21; }
+.mp-au .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #f59e0b 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #065f46 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-ca { --mp-accent:#b91c1c; --mp-accent-2:#1d4ed8; --mp-accent-soft:#fce4e4;
+  --mp-hero-bg:#310d0d; --mp-hero-ink:#fff0f0; --mp-hero-muted:#d19c9c;
+  --mp-bg-alt:#fbf4f4; --mp-ink:#2f1111; }
+.mp-ca .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #1d4ed8 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #b91c1c 0%, transparent 52%), var(--mp-hero-bg); }
