@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Specialty: summer math program
+[[redirects]]
+  from = "/summer-math-program-online"
+  to = "/src/pages/summer-math-program-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/summer-math-program-online.md"
+  to = "/src/pages/summer-math-program-online.md"
+  status = 200
+
 # Grade ladder: 8th grade math tutor
 [[redirects]]
   from = "/online-math-tutor-8th-grade"
