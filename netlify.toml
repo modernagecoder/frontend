@@ -2595,6 +2595,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/singapore-math-method-tutoring"
+  to = "/src/pages/singapore-math-method-tutoring.html"
+  status = 200
+
+[[redirects]]
+  from = "/singapore-math-method-tutoring.md"
+  to = "/src/pages/singapore-math-method-tutoring.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/isee-ssat-math-prep"
   to = "/src/pages/isee-ssat-math-prep.html"
   status = 200
