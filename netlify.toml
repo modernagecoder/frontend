@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Tier 2 comparison/cost page
+[[redirects]]
+  from = "/isee-ssat-math-prep"
+  to = "/src/pages/isee-ssat-math-prep.html"
+  status = 200
+
+[[redirects]]
+  from = "/isee-ssat-math-prep.md"
+  to = "/src/pages/isee-ssat-math-prep.md"
+  status = 200
+
 # Specialty: calculus tutoring
 [[redirects]]
   from = "/calculus-tutoring-online"

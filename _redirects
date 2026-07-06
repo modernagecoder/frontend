@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Tier 2 comparison/cost page
+/isee-ssat-math-prep /src/pages/isee-ssat-math-prep.html 200
+/isee-ssat-math-prep.md /src/pages/isee-ssat-math-prep.md 200
+
 # Specialty: calculus tutoring
 /calculus-tutoring-online /src/pages/calculus-tutoring-online.html 200
 /calculus-tutoring-online.md /src/pages/calculus-tutoring-online.md 200
