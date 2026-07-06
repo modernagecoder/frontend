@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Specialty: precalculus tutoring
+[[redirects]]
+  from = "/precalculus-tutoring-online"
+  to = "/src/pages/precalculus-tutoring-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/precalculus-tutoring-online.md"
+  to = "/src/pages/precalculus-tutoring-online.md"
+  status = 200
+
 # Specialty: Algebra 2 tutoring
 [[redirects]]
   from = "/algebra-2-tutoring-online"
