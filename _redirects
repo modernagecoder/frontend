@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Specialty: Algebra 2 tutoring
+/algebra-2-tutoring-online /src/pages/algebra-2-tutoring-online.html 200
+/algebra-2-tutoring-online.md /src/pages/algebra-2-tutoring-online.md 200
+
 # Specialty: math catch-up program
 /math-catch-up-program /src/pages/math-catch-up-program.html 200
 /math-catch-up-program.md /src/pages/math-catch-up-program.md 200

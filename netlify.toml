@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Specialty: Algebra 2 tutoring
+[[redirects]]
+  from = "/algebra-2-tutoring-online"
+  to = "/src/pages/algebra-2-tutoring-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/algebra-2-tutoring-online.md"
+  to = "/src/pages/algebra-2-tutoring-online.md"
+  status = 200
+
 # Specialty: math catch-up program
 [[redirects]]
   from = "/math-catch-up-program"
