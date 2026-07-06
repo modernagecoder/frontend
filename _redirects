@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Grade ladder: 5th grade math tutor
+/online-math-tutor-5th-grade /src/pages/online-math-tutor-5th-grade.html 200
+/online-math-tutor-5th-grade.md /src/pages/online-math-tutor-5th-grade.md 200
+
 # Grade ladder: 4th grade math tutor
 /online-math-tutor-4th-grade /src/pages/online-math-tutor-4th-grade.html 200
 /online-math-tutor-4th-grade.md /src/pages/online-math-tutor-4th-grade.md 200
