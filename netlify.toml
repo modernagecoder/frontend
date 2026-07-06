@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Grade ladder: 3rd grade math tutor
+[[redirects]]
+  from = "/online-math-tutor-3rd-grade"
+  to = "/src/pages/online-math-tutor-3rd-grade.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-math-tutor-3rd-grade.md"
+  to = "/src/pages/online-math-tutor-3rd-grade.md"
+  status = 200
+
 # Listicle: best kids coding classes 2026
 [[redirects]]
   from = "/best-online-coding-classes-for-kids-2026"
