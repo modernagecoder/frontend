@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Specialty: math catch-up program
+/math-catch-up-program /src/pages/math-catch-up-program.html 200
+/math-catch-up-program.md /src/pages/math-catch-up-program.md 200
+
 # Specialty: summer math program
 /summer-math-program-online /src/pages/summer-math-program-online.html 200
 /summer-math-program-online.md /src/pages/summer-math-program-online.md 200

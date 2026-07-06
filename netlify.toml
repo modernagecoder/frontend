@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Specialty: math catch-up program
+[[redirects]]
+  from = "/math-catch-up-program"
+  to = "/src/pages/math-catch-up-program.html"
+  status = 200
+
+[[redirects]]
+  from = "/math-catch-up-program.md"
+  to = "/src/pages/math-catch-up-program.md"
+  status = 200
+
 # Specialty: summer math program
 [[redirects]]
   from = "/summer-math-program-online"
