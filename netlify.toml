@@ -2593,6 +2593,17 @@
   status = 301
   force = true
 
+# Grade ladder: 8th grade math tutor
+[[redirects]]
+  from = "/online-math-tutor-8th-grade"
+  to = "/src/pages/online-math-tutor-8th-grade.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-math-tutor-8th-grade.md"
+  to = "/src/pages/online-math-tutor-8th-grade.md"
+  status = 200
+
 # Grade ladder: 7th grade math tutor
 [[redirects]]
   from = "/online-math-tutor-7th-grade"
