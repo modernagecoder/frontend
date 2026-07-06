@@ -689,6 +689,10 @@
 /team.md /src/pages/team.md 200
 /instructors /team 301!
 
+# Specialty: calculus tutoring
+/calculus-tutoring-online /src/pages/calculus-tutoring-online.html 200
+/calculus-tutoring-online.md /src/pages/calculus-tutoring-online.md 200
+
 # Specialty: precalculus tutoring
 /precalculus-tutoring-online /src/pages/precalculus-tutoring-online.html 200
 /precalculus-tutoring-online.md /src/pages/precalculus-tutoring-online.md 200
