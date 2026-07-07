@@ -2600,6 +2600,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/online-math-tutor-9th-grade"
+  to = "/src/pages/online-math-tutor-9th-grade.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-math-tutor-9th-grade.md"
+  to = "/src/pages/online-math-tutor-9th-grade.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/online-math-tutor-2nd-grade"
   to = "/src/pages/online-math-tutor-2nd-grade.html"
   status = 200
