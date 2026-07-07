@@ -178,9 +178,9 @@ Our American-curriculum tutors know the school math sequence, the Digital SAT an
 
 The same tutor stays with your child, so they know the course, the target schools and exactly which skills still need work as test dates approach.
 
-"One tutor handled her Algebra 2 grade and her SAT prep together. Because it was the same maths taught properly, both improved at once — and she got into her first-choice US university."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent, American-curriculum school, Dubai
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

@@ -172,9 +172,9 @@ The skill that matters most at KS3 is turning the abstract concrete — making "
 
 The same tutor stays with your child, building steadily toward GCSE and always knowing which foundation still needs work.
 
-"He'd been drifting in Year 8 and we only noticed when his Year 9 reports dipped. His tutor rebuilt the algebra properly — he started Year 10 ahead instead of behind."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a Year 9 student, Newcastle
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

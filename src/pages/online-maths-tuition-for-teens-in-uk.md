@@ -172,9 +172,9 @@ Teenagers spot instantly when a teacher only knows one route through a problem. 
 
 The same tutor stays with your teen, which is what makes a 15-year-old willing to say "I still don't get it" — the sentence every real improvement starts with.
 
-"She went from a grade 4 in her mocks to a 7 in the real GCSE. The difference was she finally understood why the methods worked instead of just copying them."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a Year 11 student, Bristol
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

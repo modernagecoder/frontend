@@ -172,9 +172,9 @@ Anyone we hire has to do two things well: know elementary math deeply enough to 
 
 Your child keeps the same mentor, so trust builds. A child who trusts their teacher will admit "I don't get it" — and that admission is where every breakthrough begins.
 
-"My daughter went from crying over homework to explaining place value to her little brother. We didn't change schools. We just changed how it was taught."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a 3rd grader, Texas
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

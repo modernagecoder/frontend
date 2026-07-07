@@ -172,9 +172,9 @@ Everyone we take on has to know primary maths deeply enough to explain it three 
 
 Your child keeps the same tutor, so trust builds — and a child who trusts their tutor will say "I don't get it", which is where every breakthrough begins.
 
-"Long division was a nightmare in Year 5. By the SATs she was confident, and — more importantly — she actually understood it walking into Year 7."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a Year 6 child, Sheffield
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

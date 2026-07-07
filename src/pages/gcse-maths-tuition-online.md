@@ -172,9 +172,9 @@ Good GCSE coaching needs both a deep command of the maths and a precise knowledg
 
 The same tutor stays through to the exam, watching the grades and recurring mistakes, so the plan is always aimed at the marks still on the table.
 
-"She was predicted a 5 and finished with a 7. Her tutor found it was all the worded questions and ratio — fix those, and the grade jumped."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a Year 11 student, Surrey
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

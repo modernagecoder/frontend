@@ -131,7 +131,7 @@ PROJECT // 03
 
 A Cambridge School IGCSE student wrote a Python web mini-app mapping a heritage walk from Netaji Bhawan on Elgin Road to the old Sarat Bose Road mansions — sorting stops by distance, tagging each with a one-line history card, and exporting it all as a shareable PDF.
 
-"What sold us was that it is genuinely live and genuinely small — our son is actually taught, not parked in front of a video." — Parent, off Sarat Bose Road
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement." — Sonam Oswal, mother of Dhairya (verified Google review)
 
 AREAS WE SERVE
 

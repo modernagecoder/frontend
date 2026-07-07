@@ -180,9 +180,9 @@ Good GCSE/IGCSE coaching needs both a deep command of the maths and a precise kn
 
 The same tutor stays to the exam, watching grades and recurring mistakes, so the plan is always aimed at the marks still on the table.
 
-"My daughter was predicted a 5 in her IGCSE and finished with a 7. The tutor found it was all the worded and ratio questions — fix those, and the grade jumped."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent, British-curriculum school, Dubai
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

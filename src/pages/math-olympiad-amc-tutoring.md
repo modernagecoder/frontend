@@ -172,9 +172,9 @@ Competition coaching can't be faked. Our olympiad coaches have genuine problem-s
 
 Your child keeps the same coach, who builds a deliberate arc across topics and knows exactly which kinds of problems still trip them up.
 
-"He used to give up the moment a problem looked unfamiliar. Now he grins at hard ones. The AMC score followed, but that change in him is the real win."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a 7th grader, Massachusetts
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

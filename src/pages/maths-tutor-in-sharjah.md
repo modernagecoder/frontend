@@ -178,9 +178,9 @@ Whether your child is sitting CBSE boards, GCSEs or the IB, we match them with a
 
 The same tutor stays week to week, building the trust that makes a student willing to say "I don't understand" — the moment real progress begins.
 
-"We wanted a serious CBSE maths tutor without the cost of a centre. The match was excellent, my son understood the concepts properly, and his board preparation has never been calmer."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent, Al Nahda, Sharjah
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

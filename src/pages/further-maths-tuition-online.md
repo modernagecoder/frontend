@@ -172,9 +172,9 @@ Further Maths needs a tutor with real mathematical depth — someone who can sho
 
 You keep the same tutor through the year, so they know your options, your weak topics and your target, and aim every lesson there.
 
-"Complex numbers had completely lost her. One lesson on the Argand diagram and rotation, and the whole module suddenly made sense. She got an A* and an offer from her first-choice university."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a Year 13 student, Cambridge
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

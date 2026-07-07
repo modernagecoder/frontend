@@ -219,13 +219,13 @@ Complete personalization & flexibility.
 
 Select 1-on-1 Mentorship
 
-## What Parents Around Park Circus Are Saying
+## What Parents Say
 
 “
 
-My daughter is in Class 9 at MBWA and was terrified of the Python practicals. After just 2 months with Modern Age Coders, she scored full marks in her periodical test. The mentor understood exactly what CBSE expects and prepped her accordingly. We are now enrolling her younger brother for the Scratch programme too.
+My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!
 
-— Parent of MBWA Class 9 Student, Park Circus Area
+— Shewta Singh, mother of Ishan (verified Google review)
 
 ## Frequently Asked Questions
 

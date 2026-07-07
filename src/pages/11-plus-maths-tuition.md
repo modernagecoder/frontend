@@ -172,9 +172,9 @@ Who teaches your child
 
 The same tutor stays to the exam, so they know exactly which question types still trip your child up and aim each lesson there.
 
-"We'd tried a drilling tutor and our daughter dreaded it. This was different — she actually enjoyed the lessons, stopped panicking in mocks, and got her grammar place."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a Year 5 child, Kent
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

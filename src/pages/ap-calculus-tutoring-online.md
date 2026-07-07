@@ -172,9 +172,9 @@ Teaching AP Calculus well takes both a real command of the mathematics and a pre
 
 The same mentor follows the whole course, so by spring they know precisely which units and which FRQ habits still need work.
 
-"He understood derivatives but kept losing FRQ points on justification. His tutor fixed the wording and the interpretation questions — that's what moved him to a 5."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a senior, Washington
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

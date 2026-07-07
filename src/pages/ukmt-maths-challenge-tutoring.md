@@ -172,9 +172,9 @@ Challenge coaching can't be faked. Our coaches have genuine problem-solving back
 
 Your child keeps the same coach, who builds a deliberate arc across topics and knows exactly which kinds of problems still trip them up, season to season.
 
-"She used to abandon a problem the second it looked unfamiliar. Now she lights up at the hard ones. The gold certificate was lovely — but that change in her is the real win."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a Year 9 student, Oxford
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

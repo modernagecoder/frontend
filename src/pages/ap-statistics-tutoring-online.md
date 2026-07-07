@@ -172,9 +172,9 @@ Good AP Stats coaching needs a teacher who genuinely understands inference — n
 
 The same mentor follows the whole course, so by spring they know which units and which writing habits still cost your student marks.
 
-"She could do every test on the calculator but kept losing FRQ points on the wording. Once her tutor fixed how she stated conclusions, the practice scores jumped."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a junior, Georgia
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

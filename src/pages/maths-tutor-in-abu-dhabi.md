@@ -178,9 +178,9 @@ Because we're online, your child isn't limited to whichever tutor happens to be 
 
 The same tutor stays week to week, so trust and momentum build instead of restarting.
 
-"We're on Saadiyat and the IB tutors we wanted were all the way across the city. Going online solved it instantly — and the match was better than anyone local we'd tried."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent, Saadiyat Island, Abu Dhabi
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

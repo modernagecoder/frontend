@@ -172,9 +172,9 @@ Our tutors at this level have strong mathematical backgrounds and remember exact
 
 You keep the same tutor through the year, so there's no re-explaining your course every week. They learn how you think and aim their explanations there.
 
-"He was failing AS maths after a great GCSE. His tutor rebuilt the algebra he'd been faking and taught calculus properly — he finished A2 with an A."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a sixth-former, Leeds
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

@@ -178,9 +178,9 @@ Every tutor we take on has to know their curriculum deeply enough to explain an 
 
 Your child keeps the same tutor, so trust builds — and a child who trusts their tutor will admit "I don't get it," which is where every breakthrough begins.
 
-"We moved from a British school to an American one and our son's maths fell apart. Modern Age Coders matched him with a tutor who knew both systems and bridged the gap. Within a term he was ahead."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent, Dubai Marina
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

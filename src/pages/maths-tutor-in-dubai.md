@@ -178,9 +178,9 @@ Because we're online, your child isn't limited to whichever tutor happens to liv
 
 The same tutor stays week to week, so trust and momentum build instead of restarting with a new face.
 
-"We'd been driving to a tutoring centre twice a week across Dubai. Switching to 1:1 online gave us back the evenings and our daughter's grades actually improved faster."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent, Arabian Ranches, Dubai
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

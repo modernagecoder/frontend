@@ -178,9 +178,9 @@ Teenagers spot instantly when a teacher only knows one route through a problem. 
 
 The same tutor stays with your teen, which is what makes a 15-year-old willing to say "I still don't get it" — the sentence every real improvement starts with.
 
-"He went from a borderline grade to genuinely enjoying maths before his IGCSEs. The difference was finally understanding why the methods worked, not just copying them."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a Year 10 student, Abu Dhabi
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

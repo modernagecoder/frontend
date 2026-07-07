@@ -172,9 +172,9 @@ Good SAT coaching needs two things: deep command of the actual math, and a clear
 
 The same mentor stays with you, watching your scores and your recurring mistakes, so by test day the plan is built around exactly the points you can still gain.
 
-"My son had been stuck in the mid-600s through two practice tests on his own. Once his tutor found it was all pacing on the algebra, the score finally moved."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a junior, New Jersey
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

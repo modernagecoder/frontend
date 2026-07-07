@@ -178,9 +178,9 @@ IB Maths needs a tutor who genuinely understands the course — the AA/AI distin
 
 The same tutor stays through the course, so by exam season they know exactly which topics and which IA aspects still need work.
 
-"AA HL had completely overwhelmed her, and the IA was stalled. Her tutor rebuilt the calculus properly and guided the exploration — she finished with a 6 and a place at her first-choice university."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of an IB Diploma student, Dubai
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

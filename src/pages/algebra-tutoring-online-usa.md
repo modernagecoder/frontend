@@ -172,9 +172,9 @@ The skill that matters most in algebra teaching is making the abstract feel conc
 
 The same mentor stays throughout, so they know precisely which idea is shaky and can keep building on what's already solid.
 
-"Algebra 1 nearly ended her interest in math. Her tutor went back to fractions, rebuilt it properly, and now she's ahead in Algebra 2. We wish we'd started sooner."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a 9th grader, Arizona
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

@@ -172,9 +172,9 @@ Common Entrance, especially at scholarship level, demands a tutor who genuinely 
 
 The same tutor stays to the exam, knows your target schools and required level, and aims each lesson at exactly the problem types your child still finds hard.
 
-"The multi-step problems threw him completely. His tutor taught him to plan before calculating, and he sat the 13+ calmly — and won a maths exhibition we hadn't dared hope for."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a Year 8 prep-school child, Hampshire
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

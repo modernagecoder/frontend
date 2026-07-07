@@ -180,9 +180,9 @@ Our A-Level tutors have strong mathematical backgrounds and a precise knowledge 
 
 You keep the same tutor through the year, so they know your weak spots and how you think, and aim every session at the marks still on the table.
 
-"He was failing AS maths after a great IGCSE. His tutor rebuilt the algebra he'd been faking and taught calculus properly — he finished with an A and a place to study engineering."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent, British-curriculum sixth form, Abu Dhabi
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

@@ -172,9 +172,9 @@ Teaching an adult who's anxious about maths takes a particular kind of teacher �
 
 You keep the same tutor, who learns your goal and your pace and adjusts as life changes. That relationship is what turns "I'm rubbish at maths" into "actually, I get this now".
 
-"I'd failed GCSE maths twice and needed it for a nursing course. My tutor rebuilt it from scratch, kindly, and I finally passed at 34."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Returning learner, Birmingham
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

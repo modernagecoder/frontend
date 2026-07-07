@@ -172,9 +172,9 @@ An ACT math coach needs more than strong math — they need to read why a specif
 
 You keep the same mentor through the prep, so they know your patterns and aim each session at the points still on the table.
 
-"Her content was already solid — she just couldn't finish in time. Learning what to skip and recognising the triangle patterns added points fast."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a junior, Illinois
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

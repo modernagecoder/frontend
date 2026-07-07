@@ -133,7 +133,7 @@ PROJECT 03
 
 A Class 10 student wrote a Python billing script for her uncle's small Hatibagan saree shop, auto-calculating GST and printing a clean receipt to replace handwritten slips.
 
-"My son now codes from his own desk in the evening instead of sitting in 5-point traffic — and he actually looks forward to the class." — Parent, off Bidhan Sarani
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!" — Shewta Singh, mother of Ishan (verified Google review)
 
 Areas & pin codes
 

@@ -172,9 +172,9 @@ Our college-level mentors have strong quantitative backgrounds and, just as impo
 
 You keep the same mentor through the term, so there's no re-explaining your course every week. They learn how you think and aim their explanations there.
 
-"I was about to drop multivariable calc. Two months of weekly sessions and I finished with a B+ — and I actually understood gradients instead of guessing."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Sophomore, mechanical engineering, Ohio
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

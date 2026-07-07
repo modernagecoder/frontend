@@ -25,7 +25,7 @@ See your school's curriculumتعليم برمجة وذكاء اصطناعي عا
 
 The UAE is one single time zone — **GST (UTC+4)**. That makes scheduling simpler than any other country we serve. Most of our mentors are based in India (IST, only 90 minutes behind), so a 5 pm Dubai class is a normal 3:30 pm class for the mentor — no jet-lagged teaching, no “midnight in Mumbai” tradeoffs.
 
-**4.9 / 5**From 2,140 UAE parent & student reviews**7 emirates**Dubai · Abu Dhabi · Sharjah · Ajman · RAK · Fujairah · UAQ**6 curricula**CBSE · ICSE · British · American · IB · MOE-UAE**AED 368**Per month · ≈ USD 100 · no joining fee · cancel anytimeChoose your child's track
+**4.9 / 5**From 547 UAE parent & student reviews**7 emirates**Dubai · Abu Dhabi · Sharjah · Ajman · RAK · Fujairah · UAQ**6 curricula**CBSE · ICSE · British · American · IB · MOE-UAE**AED 368**Per month · ≈ USD 100 · no joining fee · cancel anytimeChoose your child's track
 
 ## Pick the course that matches their school year — and book a trial in under 30 seconds.
 

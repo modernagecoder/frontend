@@ -178,9 +178,9 @@ Everyone we take on has to know primary maths deeply enough to explain it three 
 
 Your child keeps the same tutor, so trust builds — and a child who trusts their tutor will say "I don't get it", which is where every breakthrough begins.
 
-"Our daughter went from dreading her maths homework to explaining times tables to her little brother. The patient, one-to-one approach made all the difference."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a Year 3 child, Dubai
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

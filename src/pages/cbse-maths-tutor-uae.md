@@ -178,9 +178,9 @@ Our CBSE and ICSE tutors know the syllabus, the NCERT books and the board exam p
 
 The same tutor stays with your child, so by board season they know exactly which chapters and which question types still need work.
 
-"My son was memorising NCERT but losing marks on the new case-study questions. His tutor rebuilt the concepts — he scored far higher in the Class 10 board than we'd hoped."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent, Indian-curriculum school, Sharjah
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 

@@ -172,9 +172,9 @@ Everyone we take on has to do two things well: know primary maths deeply enough 
 
 Your child keeps the same tutor, so trust builds — and a child who trusts their tutor will admit "I don't get it", which is where every breakthrough begins.
 
-"He went from tears over his maths homework to teaching his little sister number bonds. We didn't change schools — we just changed how it was taught."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a Year 4 child, Manchester
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

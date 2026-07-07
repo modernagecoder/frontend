@@ -172,9 +172,9 @@ A good geometry teacher can take the dread out of a proof by showing it's just r
 
 The same mentor stays through the course, so they know whether the next gap is logical or visual and aim each session at it.
 
-"Proofs were a disaster. Once his tutor showed him they're just 'reason, reason, reason,' he stopped panicking — and started getting them right."
+"My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Parent of a 10th grader, Colorado
+— Shewta Singh, mother of Ishan (verified Google review)
 
 An honest comparison
 

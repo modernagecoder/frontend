@@ -172,9 +172,9 @@ Teenagers can tell instantly when a teacher only knows one route through a probl
 
 The same mentor stays with your teen all year. That continuity is what makes a 15-year-old willing to say "I still don't get it" — the sentence that every real improvement starts with.
 
-"He went from a low C in Algebra 2 to genuinely enjoying it. The difference was he finally understood why the steps worked instead of just copying them."
+"My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Parent of a 10th grader, California
+— Sonam Oswal, mother of Dhairya (verified Google review)
 
 An honest comparison
 
