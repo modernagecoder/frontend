@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "slug": "algebra-foundations-masterclass",
+    "title": "Algebra Foundations Masterclass — Pre-Algebra + Algebra 1, Live Online",
+    "description": "Live online Pre-Algebra and Algebra 1 course: fractions and negatives repaired, algebra taught as a language, linear equations, functions and quadratics built for genuine ownership. 8 one-hour classes a month with a dedicated mentor, free demo first.",
+    "keywords": [
+      "algebra 1 course online",
+      "pre algebra course online",
+      "algebra foundations course",
+      "learn algebra online for students",
+      "algebra 1 tutoring course",
+      "algebra for grade 7 8 9",
+      "algebra basics course",
+      "linear equations course",
+      "algebra 1 help online",
+      "middle school algebra course",
+      "algebra course for beginners",
+      "algebra live classes online",
+      "algebra word problems help",
+      "algebra readiness program",
+      "Modern Age Coders algebra"
+    ],
+    "category": "School Mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Grades 7-9, or any student whose algebra base needs a real rebuild",
+    "commitment": "2 live one-hour classes per week + short practice sets",
+    "certification": "Course completion certificate + phase mastery checks",
+    "image_path": "algebra-foundations.png"
+  },
+  "program_overview": {
+    "title": "Algebra Foundations Masterclass",
+    "tagline": "Algebra is a language. We teach your child to speak it, not memorize it.",
+    "description": "A 12-month live program covering Pre-Algebra and the whole of Algebra 1 — the single most consequential stretch in school mathematics. Every later course (Geometry, Algebra 2, SAT, calculus) silently assumes this material, and most struggling high-schoolers trace their trouble to exactly here. We teach algebra as a language with meaning: negatives and fractions rebuilt first, letters introduced as numbers-in-waiting, equations read as sentences, and functions met as machines. Students solve and explain aloud in every class; procedures are drilled only after the idea underneath holds.",
+    "what_makes_this_different": [
+      "The arithmetic base — fractions, negatives, order of operations — is repaired first, because algebra built on sand always collapses in year two",
+      "Letters taught as meaning, not ritual: students can say what x is doing in every line they write",
+      "Word problems as the main course, not the scary extras at the chapter's end",
+      "Equation-table-graph fluency: every linear situation seen three ways",
+      "The explain-back method: what survives explaining is what is actually learned",
+      "One dedicated mentor who tracks exactly where understanding thins",
+      "A genuine on-ramp to Algebra 2, SAT prep and beyond — this course is the runway",
+      "One full interactive hour per class, twice a week"
+    ],
+    "learning_path": {
+      "phase_1": "Pre-Algebra: the number system mastered — integers, fractions, decimals, ratios and the first variables",
+      "phase_2": "The heart of Algebra 1: equations, inequalities, linear functions and systems, seen as equation, table and graph",
+      "phase_3": "Exponents, polynomials and quadratics — plus the word-problem and graph craft that makes it all usable"
+    },
+    "career_outcomes": [
+      "An algebra base that makes Algebra 2, Geometry and SAT prep feel fair",
+      "Word-problem confidence — the skill every later exam actually tests",
+      "Grade improvement that persists, because it rests on understanding",
+      "Readiness for advanced tracks: honors math, competition math, and math-through-coding"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Pre-Algebra — The Number System Mastered (Weeks 1-16)",
+    "description": "Almost every algebra struggle is an arithmetic gap wearing a disguise. This phase rebuilds integers, fractions, decimals and ratios to genuine fluency, then introduces variables so gently they feel obvious.",
+    "week_1_4": {
+      "title": "Weeks 1-4: Diagnostic + Integers and the Number Line",
+      "theme": "Negatives that finally make sense",
+      "topics": [
+        "Full diagnostic: where the number base actually stands",
+        "The number line as home: integers, opposites and absolute value",
+        "Adding and subtracting negatives with meaning (temperature, money, elevation)",
+        "Multiplying and dividing negatives — why the rules are what they are",
+        "Order of operations as grammar, not a mnemonic chant",
+        "Mental arithmetic habits started: every class opens with fluency work"
+      ],
+      "projects": [
+        "Personal gap map for the year ahead",
+        "Integer war-stories set: temperature, bank balance and elevation problems"
+      ]
+    },
+    "week_5_10": {
+      "title": "Weeks 5-10: Fractions and Decimals, Properly This Time",
+      "theme": "The gap behind most algebra failures",
+      "topics": [
+        "Fractions as numbers with places on the line, not pizza slices",
+        "Equivalence and comparison through reasoning, not rules",
+        "All four operations with fractions, each from a picture first",
+        "Decimals, place value and fraction-decimal-percent conversion fluency",
+        "Estimation as a checking habit: does this answer make sense?",
+        "Exponents introduced as repeated multiplication with meaning"
+      ],
+      "projects": [
+        "Fraction operation gallery: one worked picture per operation, made by the student",
+        "Real-recipe scaling project: fractions doing real work"
+      ]
+    },
+    "week_11_16": {
+      "title": "Weeks 11-16: Ratios, Percents and the First Variables",
+      "theme": "From arithmetic to algebra, without the cliff",
+      "topics": [
+        "Ratio and rate reasoning: the choose-the-easy-comparison skill",
+        "Proportions solved by sense first, cross-multiplication second",
+        "Percent problems in every costume: change, discount, tax, reverse",
+        "Variables introduced as numbers-in-waiting; expressions as phrases",
+        "Evaluating and simplifying expressions; like terms with meaning",
+        "The distributive property as area — a picture that never lies"
+      ],
+      "projects": [
+        "Best-buy investigation: unit-price reasoning on real products",
+        "Phase mastery check: solve, explain and extend, per topic"
+      ]
+    }
+  },
+  "phase_2_linear_algebra": {
+    "title": "PHASE 2: Equations, Functions and Systems (Weeks 17-36)",
+    "description": "The heart of Algebra 1. Equations are read as sentences and solved with balance reasoning; linear functions are met as equation, table and graph telling one story; systems make two stories intersect. This is the phase that decides the next five years of math.",
+    "week_17_22": {
+      "title": "Weeks 17-22: Equations and Inequalities as Sentences",
+      "theme": "Solving with meaning, not moves",
+      "topics": [
+        "One-step and two-step equations from balance reasoning",
+        "Multi-step equations: variables on both sides, distribution, fractions",
+        "Translating words into equations — the skill that unlocks word problems",
+        "Literal equations: isolating any variable in a formula",
+        "Inequalities: what flips the sign and why",
+        "Checking solutions as a habit, not an afterthought"
+      ],
+      "projects": [
+        "Equation-sentence dictionary: twenty phrasings, twenty equations",
+        "Real-world setups: phone plans, savings goals, break-even problems"
+      ]
+    },
+    "week_23_29": {
+      "title": "Weeks 23-29: Linear Functions Three Ways",
+      "theme": "One situation, three faces",
+      "topics": [
+        "Coordinate plane fluency and graph-reading discipline",
+        "Slope as rate of change, from stories before formulas",
+        "Slope-intercept, point-slope and standard form, translated freely",
+        "Graphing lines by meaning; intercepts as starting values",
+        "Function notation and the function-as-machine idea",
+        "Linear modeling: real data fitted, interpreted and questioned"
+      ],
+      "projects": [
+        "Equation-table-graph triptych for three real situations",
+        "Data modeling mini-project: fit a line, defend the interpretation"
+      ]
+    },
+    "week_30_36": {
+      "title": "Weeks 30-36: Systems of Equations and Inequalities",
+      "theme": "Two stories crossing",
+      "topics": [
+        "Systems by graphing: the intersection as the answer to a question",
+        "Substitution and elimination, chosen by structure not habit",
+        "How many solutions? Parallel, crossing and identical lines as ideas",
+        "Systems word problems: mixtures, comparisons, break-even",
+        "Linear inequalities and systems of them, with shaded-region reasoning",
+        "Phase checkpoint: mixed problem set at grade-level exam standard"
+      ],
+      "projects": [
+        "Business break-even case solved all three ways",
+        "Phase mastery check: solve, explain and extend, per topic"
+      ]
+    }
+  },
+  "phase_3_quadratics": {
+    "title": "PHASE 3: Exponents, Polynomials and Quadratics (Weeks 37-52)",
+    "description": "The bridge into Algebra 2: exponent rules from meaning, polynomial arithmetic without fear, factoring as detective work and quadratics met as functions with real stories. The course closes with the word-problem and graph craft that turns knowledge into marks.",
+    "week_37_42": {
+      "title": "Weeks 37-42: Exponents and Polynomials",
+      "theme": "Rules rebuilt from meaning",
+      "topics": [
+        "Exponent rules derived, not memorized — including zero and negatives",
+        "Scientific notation with real scale (atoms to galaxies)",
+        "Polynomials as expressions with structure: naming, adding, subtracting",
+        "Multiplying polynomials: the area model that makes FOIL obvious",
+        "Special products recognized as patterns: squares and difference of squares",
+        "Fluency drills at pace, now that meaning holds"
+      ],
+      "projects": [
+        "Powers-of-ten scale tour: notation doing real scientific work",
+        "Area-model gallery for polynomial multiplication"
+      ]
+    },
+    "week_43_48": {
+      "title": "Weeks 43-48: Factoring and Quadratic Equations",
+      "theme": "Structure detective work",
+      "topics": [
+        "Factoring as un-multiplying: GCF, trinomials, special patterns",
+        "The zero-product property — why factoring solves equations",
+        "Square roots and solving by square-rooting",
+        "The quadratic formula, derived once so it is never mysterious",
+        "Choosing a method by structure: factor, root, or formula",
+        "The discriminant previewed: how many solutions and why"
+      ],
+      "projects": [
+        "Factoring pattern-book, built by the student",
+        "Quadratic equation gauntlet: mixed methods under light timing"
+      ]
+    },
+    "week_49_52": {
+      "title": "Weeks 49-52: Quadratic Functions + the Capstone",
+      "theme": "Parabolas with stories",
+      "topics": [
+        "Quadratic functions and parabola anatomy: vertex, axis, intercepts",
+        "Projectile and area stories: the vertex as the answer to a real question",
+        "Graphing quadratics from every form",
+        "Course capstone review: the year's ideas connected into one map",
+        "Algebra 2 preview: what comes next and why this base carries it",
+        "Final mastery check across all three phases"
+      ],
+      "projects": [
+        "Capstone: one real quadratic situation modeled, graphed and presented",
+        "Personal algebra handbook — the year's ideas in the student's own words"
+      ]
+    }
+  },
+  "faqs": [
+    {
+      "question": "Who is this course for?",
+      "answer": "Three groups: students in grades 7-9 meeting algebra for the first time and wanting it taught properly; older students whose Algebra 2 or SAT struggles trace back to a weak Algebra 1 base; and homeschool families who want a structured, live-taught algebra year. The diagnostic in the free demo places every student accurately."
+    },
+    {
+      "question": "My child is already failing algebra at school. Is this remedial or advanced?",
+      "answer": "It is neither and both — it is understanding-first. We start where your child actually is (the diagnostic finds it), repair the arithmetic underneath if needed, and build to full Algebra 1 ownership. Struggling students stop sinking; comfortable students go deeper than school does."
+    },
+    {
+      "question": "Why does the course spend weeks on fractions and negatives?",
+      "answer": "Because they are the gap behind most algebra failures. A student who cannot operate on fractions confidently will lose points in every algebra topic forever. We fix the foundation first — it is slower in week one and dramatically faster by month six."
+    },
+    {
+      "question": "How is this different from school algebra?",
+      "answer": "Class sizes and method. School must march thirty students through a syllabus; we teach 1-on-1 or in tight small groups, with your child solving and explaining aloud for a full hour. Every idea is built from meaning — balance reasoning, area models, function machines — so it survives past the test."
+    },
+    {
+      "question": "Will this align with my child's school curriculum?",
+      "answer": "Yes. The course covers the standard Pre-Algebra and Algebra 1 territory (US Common Core, and the equivalent stretch in Indian, British and IB middle-school systems), and the mentor sequences topics to reinforce what school is doing rather than clash with it."
+    },
+    {
+      "question": "How long until we see grade improvement?",
+      "answer": "Homework and test comfort usually move within 4-6 weeks; deep, durable improvement — the kind that persists into Algebra 2 — builds over the year. Monthly billing means you watch evidence and re-decide every four weeks."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students pay USD $100 per month for group and $150 for 1-on-1. Both include 8 live one-hour classes a month, recordings, and a free demo class before any payment."
+    },
+    {
+      "question": "Can we try it before paying?",
+      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic — a real lesson plus an honest read on where the gaps actually are, with no card details required."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Shewta Singh, mother of Ishan (verified Google review)",
+      "text": "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Sonam Oswal, mother of Dhairya (verified Google review)",
+      "text": "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement.",
+      "rating": 5
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Personal gap map and year-long error log",
+      "Fraction operation gallery and factoring pattern-book, made by the student",
+      "Equation-table-graph triptychs for real situations",
+      "Business break-even case solved three ways",
+      "Capstone quadratic modeling project + personal algebra handbook"
+    ],
+    "total_projects_built": "10+ student-made artifacts across the year",
+    "skills_mastered": [
+      "Integer, fraction and decimal fluency",
+      "Ratio, proportion and percent reasoning",
+      "Equation solving with balance reasoning",
+      "Linear functions as equation, table and graph",
+      "Systems of equations and inequalities",
+      "Exponent rules and polynomial arithmetic",
+      "Factoring and quadratic equations",
+      "Word-problem translation craft"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 one-hour live classes with your mentor",
+      "practice": "Short, purposeful sets — never busywork stacks",
+      "fluency": "Mental-math warm-up in every class",
+      "total_per_week": "About 3-4 focused hours"
+    },
+    "support_provided": {
+      "live_sessions": "8 live one-hour classes every month, 2 per week",
+      "mentorship": "One dedicated mentor across the whole year",
+      "recordings": "Every class recorded for revision",
+      "progress_tracking": "Phase mastery checks shared with parents",
+      "flexibility": "Slots move around school exams and family plans"
+    },
+    "certification": {
+      "phase_certificates": "Mastery check at the end of each phase",
+      "final_certificate": "Course completion certificate from Modern Age Coders",
+      "portfolio_projects": "The student's own algebra handbook and project gallery"
+    }
+  },
+  "prerequisites": {
+    "education": "Typically grades 7-9; older students rebuilding a weak base are equally welcome",
+    "math_background": "Basic whole-number arithmetic — everything else is taught or repaired inside the course",
+    "equipment": "Computer with stable internet, notebook and pencil",
+    "time_commitment": "2 live hours plus 1-2 practice hours weekly",
+    "english": "Course taught in English",
+    "motivation": "Willingness to explain thinking aloud — the method depends on it"
+  },
+  "who_is_this_for": {
+    "first_timers": "Grade 7-9 students meeting algebra for the first time who deserve to meet it properly",
+    "strugglers": "Students drowning in school algebra whose real gap is usually fractions or negatives",
+    "rebuilders": "Older students whose Algebra 2, SAT or IGCSE trouble traces back to this exact material",
+    "homeschoolers": "Families who want a structured, live-taught algebra year with a real teacher",
+    "advancers": "Strong grade 6-7 students ready to start the algebra road early"
+  },
+  "career_paths_after_completion": [
+    "Ready for Algebra 2, Geometry and the high-school mathematics track",
+    "The base that SAT and ACT math prep assumes",
+    "Eligible for competition mathematics and honors placements",
+    "Continue with the High School Mathematics Mastery Program with the same mentor"
+  ],
+  "course_guarantees": {
+    "free_demo": "A free live demo class that doubles as the diagnostic — before any payment",
+    "recorded_classes": "All live sessions recorded",
+    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
+    "mastery_checks": "Solve, explain and extend — a topic is closed only when all three hold",
+    "certificate": "Completion certificate plus phase mastery record"
+  },
+  "relatedCourses": [
+    "comprehensive-middle-school-mathematics-mastery",
+    "complete-high-school-mathematics-mastery",
+    "sat-math-prep-course",
+    "maths-through-coding"
+  ]
+}

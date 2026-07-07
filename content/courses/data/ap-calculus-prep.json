@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "slug": "ap-calculus-exam-prep",
+    "title": "AP Calculus AB & BC Exam Prep Course — Live Online Classes, Score 5 Goal",
+    "description": "Live online AP Calculus AB and BC prep with a dedicated mentor: limits, derivatives and integrals taught as ideas, every FRQ type against real rubrics, calculator strategy and full mock cycles. 8 one-hour classes a month, free demo first.",
+    "keywords": [
+      "ap calculus exam prep",
+      "ap calculus course online",
+      "ap calculus ab prep course",
+      "ap calculus bc prep course",
+      "ap calc tutor online",
+      "ap calculus frq practice",
+      "ap calculus score 5",
+      "ap calculus live classes",
+      "best ap calculus course",
+      "ap calculus mock exams",
+      "ap calc ab bc difference",
+      "ap calculus summer prep",
+      "ap calculus review course",
+      "calculus for ap students",
+      "Modern Age Coders AP calculus"
+    ],
+    "category": "Test Prep Mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "10 months (40 weeks)",
+    "level": "AP Calculus AB and BC students, grades 11-12",
+    "commitment": "2 live one-hour classes per week + weekly problem sets",
+    "certification": "Course completion certificate + documented mock-exam progression",
+    "image_path": "ap-calculus-prep.png"
+  },
+  "program_overview": {
+    "title": "AP Calculus AB & BC Exam Prep",
+    "tagline": "Three ideas, taught like ideas — then trained against the real rubrics.",
+    "description": "A 10-month live program that runs alongside your student's AP Calculus course and aims squarely at the exam. All of calculus is three ideas — the limit, the derivative, the integral — and students who own them as ideas find the AP exam fair. We teach ideas first, repair the precalculus debt that quietly causes most 'calculus errors', then convert understanding into score: every free-response question type drilled against actual College Board rubrics, multiple-choice pacing, calculator-section strategy, and full mock cycles timed like the real exam. AB and BC students are taught to their exact course.",
+    "what_makes_this_different": [
+      "Ideas before technique: the derivative discovered through shrinking intervals, the FTC earned as a punchline — so unfamiliar exam framings do not break the student",
+      "Precalculus repaired inline: weak composition and trig are fixed inside calculus problems, where the repair sticks",
+      "FRQ craft against real rubrics: how points are actually awarded, including justification language graders look for",
+      "AB and BC tracks: series, parametrics and polar taught properly for BC students",
+      "Calculator and no-calculator sections trained as different skills",
+      "Full mock cycles with documented score progression, peaking in exam week",
+      "One dedicated mentor across the whole year — one full interactive hour per class",
+      "Honest guidance: a diagnostic first, evidence-based targets, never invented score promises"
+    ],
+    "learning_path": {
+      "phase_1": "Limits and derivatives as ideas, with precalculus repaired inline and the rule toolkit built to speed",
+      "phase_2": "Derivative applications, integrals, the Fundamental Theorem and differential equations — the AB core completed",
+      "phase_3": "BC extensions (series, parametrics, polar), then exam craft: FRQ rubrics, MCQ pacing, calculator strategy and full mock cycles"
+    },
+    "career_outcomes": [
+      "A 4-5 goal on the AP exam, pursued with method instead of panic",
+      "College credit positioning and a lighter first-year math load",
+      "The function-and-limit fluency engineering and CS majors assume",
+      "Calculus that survives past May, because it was understood, not memorized"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Limits and Derivatives as Ideas (Weeks 1-14)",
+    "description": "The diagnostic finds the real starting point — including the precalculus debt — then the two foundational ideas are built properly: the limit as approach, the derivative as instantaneous rate, and the rule toolkit drilled to exam speed only after the ideas hold.",
+    "week_1_3": {
+      "title": "Weeks 1-3: Diagnostic + Limits as Approach",
+      "theme": "Where calculus actually starts",
+      "topics": [
+        "Full diagnostic: calculus-so-far plus the precalculus underneath (composition, trig, algebra fluency)",
+        "Limits graphically, numerically and analytically — one idea, three faces",
+        "One-sided limits, infinite limits and limits at infinity",
+        "Continuity as a definition that finally makes sense",
+        "The Intermediate Value Theorem as an exam justification pattern",
+        "Precalculus repair begins: the personal gap list, attacked weekly"
+      ],
+      "projects": [
+        "Personal error log and gap map for the whole year",
+        "Limit-evaluation toolkit sheet, built not copied"
+      ]
+    },
+    "week_4_8": {
+      "title": "Weeks 4-8: The Derivative, Discovered Then Drilled",
+      "theme": "Average speed over shrinking intervals",
+      "topics": [
+        "The derivative discovered via shrinking-interval tables — limit and derivative met as one idea",
+        "Derivative as slope, as rate, and as the exam's favorite interpretation question",
+        "Differentiability vs continuity, and where functions fail to have derivatives",
+        "The rule toolkit: power, product, quotient rules built from meaning",
+        "The chain rule as composition unwrapping — the make-or-break skill",
+        "Trig, exponential and logarithmic derivatives to fluency"
+      ],
+      "projects": [
+        "Shrinking-interval investigation: one data table to both core ideas",
+        "Timed derivative gauntlet at exam pace, reviewed for error patterns"
+      ]
+    },
+    "week_9_14": {
+      "title": "Weeks 9-14: Implicit, Inverse and the First Applications",
+      "theme": "The derivative earns its keep",
+      "topics": [
+        "Implicit differentiation as the chain rule in disguise",
+        "Derivatives of inverse functions, including inverse trig",
+        "Related rates from pictures: setup discipline that survives exam pressure",
+        "Local linearity and tangent-line approximation",
+        "L'Hospital's Rule, used where it is actually allowed",
+        "First FRQ exposure: rate and interpretation questions against the rubric"
+      ],
+      "projects": [
+        "Related-rates case set: five classic setups from picture to answer",
+        "Phase checkpoint: timed AB-style mixed section with full review"
+      ]
+    }
+  },
+  "phase_2_integrals": {
+    "title": "PHASE 2: Analysis, Integrals and the FTC (Weeks 15-28)",
+    "description": "Curve analysis makes the derivative a reasoning tool, then the integral arrives as accumulation and the Fundamental Theorem connects the two halves of the course. By the end of this phase the entire AB syllabus is owned.",
+    "week_15_19": {
+      "title": "Weeks 15-19: Curve Analysis and Optimization",
+      "theme": "Reading functions like a mathematician",
+      "topics": [
+        "First and second derivative analysis: increasing, concavity, extrema, inflection",
+        "The Mean Value Theorem and its exam justification language",
+        "Curve sketching from f' and f'' — the classic FRQ family",
+        "Optimization from word problems: model first, calculus second",
+        "Motion on a line: position, velocity, acceleration, speed",
+        "Justification writing: the exact phrases rubrics award points for"
+      ],
+      "projects": [
+        "Full f-f'-f'' graph-relationship FRQ solved and self-graded on the rubric",
+        "Optimization mini-case portfolio: fence, box, cost, distance"
+      ]
+    },
+    "week_20_24": {
+      "title": "Weeks 20-24: The Integral as Accumulation + the FTC",
+      "theme": "The course's great punchline, earned",
+      "topics": [
+        "Riemann sums by hand and in tables — the accumulation idea made concrete",
+        "The definite integral as net change; units and interpretation questions",
+        "The Fundamental Theorem of Calculus, arrived at as a discovery",
+        "Antiderivatives and the substitution method as the chain rule reversed",
+        "Functions defined by integrals — the FRQ type students fear most, defanged",
+        "Average value and the accumulation FRQ family"
+      ],
+      "projects": [
+        "Riemann-to-FTC investigation: watching sums converge",
+        "Accumulation FRQ set against real rubrics"
+      ]
+    },
+    "week_25_28": {
+      "title": "Weeks 25-28: Applications of Integrals + Differential Equations",
+      "theme": "The AB syllabus, closed",
+      "topics": [
+        "Area between curves, set up from sketches",
+        "Volumes: discs, washers and known cross-sections",
+        "Separable differential equations and exponential models",
+        "Slope fields: reading, matching and sketching",
+        "Motion problems revisited with integrals",
+        "AB syllabus checkpoint: full timed section, error log updated"
+      ],
+      "projects": [
+        "Volume gallery: one solid each way, from sketch to setup to answer",
+        "AB mock exam number one with documented score"
+      ]
+    }
+  },
+  "phase_3_bc_and_exam": {
+    "title": "PHASE 3: BC Topics + Exam Craft and Mock Cycles (Weeks 29-40)",
+    "description": "BC students complete series, parametrics and polar; AB students go straight to craft. Then the program becomes an exam machine: FRQ rubric mastery, MCQ pacing, calculator strategy and full mock cycles that peak in the first week of May.",
+    "week_29_33": {
+      "title": "Weeks 29-33: BC Extensions (BC track) / Deep Review (AB track)",
+      "theme": "The BC separator topics",
+      "topics": [
+        "Integration by parts and partial fractions (BC)",
+        "Improper integrals and L'Hospital revisited (BC)",
+        "Sequences and series: convergence tests as a decision tree (BC)",
+        "Taylor and Maclaurin polynomials; Lagrange error bound (BC)",
+        "Parametric and polar: derivatives, speed, arc length and area (BC)",
+        "AB track in parallel: full-syllabus spaced review by error-log priority"
+      ],
+      "projects": [
+        "Series convergence decision-tree card, built by the student",
+        "Parametric motion mini-case (BC) / AB mixed mock section (AB)"
+      ]
+    },
+    "week_34_37": {
+      "title": "Weeks 34-37: FRQ Rubric Mastery and Calculator Strategy",
+      "theme": "How points are actually awarded",
+      "topics": [
+        "The six FRQ archetypes and their rubric patterns, drilled one by one",
+        "Justification language: what earns the point and what graders ignore",
+        "Calculator-active strategy: what to store, graph and compute",
+        "No-calculator section speed: exact values and clean algebra under time",
+        "MCQ pacing plans built from personal timing data",
+        "Partial-credit engineering: banking points on problems you cannot finish"
+      ],
+      "projects": [
+        "Self-graded FRQ portfolio: one of each archetype against real rubrics",
+        "Personal pacing plan for all four exam sections"
+      ]
+    },
+    "week_38_40": {
+      "title": "Weeks 38-40: Full Mock Cycles and Peak Week",
+      "theme": "May feels like a rehearsed place",
+      "topics": [
+        "Full-length mocks under exact AP timing, AB or BC as registered",
+        "Question-by-question review: reasoning, rubric, and the named fix",
+        "Error-log closure and final target calibration",
+        "Peak-week plan: light practice, rest, logistics and warm-up routine",
+        "Exam-day rituals: the reset after a hard FRQ, time checkpoints per section"
+      ],
+      "projects": [
+        "Two full mock cycles with documented score progression",
+        "Written exam-day plan, rehearsed before the real morning"
+      ]
+    }
+  },
+  "faqs": [
+    {
+      "question": "Does this course cover AB or BC?",
+      "answer": "Both, taught to your student's actual registration. The AB core is the shared spine; BC students additionally get series, parametrics, polar and the extra integration techniques in Phase 3 while AB students run deep review and extra mock cycles. The mentor aligns with your school's pacing so classwork and prep reinforce each other."
+    },
+    {
+      "question": "My student is strong in class but bombs timed practice. Can you fix that?",
+      "answer": "Usually, yes — that profile is craft, not content. Timed collapse comes from slow routes, missing rubric awareness and pacing panic, all of which are trained skills. The FRQ rubric work plus personal pacing plans built from real timing data is exactly the fix."
+    },
+    {
+      "question": "Most of my student's lost points are algebra slips, not calculus. Does prep help?",
+      "answer": "This is the most common pattern on AP exams, and it is very fixable. We track exactly where points die; when it is precalculus debt — simplification, composition, trig values — we repair those habits inside calculus problems, where the fix actually sticks."
+    },
+    {
+      "question": "When should AP Calculus prep start?",
+      "answer": "The full 10-month arc starts alongside the school year and peaks in May. Joining mid-year works too — the mentor compresses toward your student's gap list and the mock cycles. The honest note: series (for BC) and FRQ craft reward runway, so earlier is calmer."
+    },
+    {
+      "question": "What score can we expect?",
+      "answer": "We will not invent one. What you get instead: a real diagnostic, a plan aimed at the highest-value gaps, and a documented mock progression so the trend is visible long before May. Most committed students who complete the mock cycles walk in targeting 4-5 with evidence behind the target."
+    },
+    {
+      "question": "How is this different from the school's AP class?",
+      "answer": "It is 1-on-1 or a tight small group, so your student's specific errors get the airtime a class of thirty cannot give. School covers the syllabus; we make sure your student owns the ideas, and then train the exam itself — rubrics, pacing, calculator strategy — which most classrooms have no time for."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students pay USD $100 per month for group and $150 for 1-on-1. Both include 8 live one-hour classes a month, recordings, and a free demo class before any payment."
+    },
+    {
+      "question": "Can we try it before paying?",
+      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic — a real lesson plus an honest read on the starting point, with no card details required."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Shewta Singh, mother of Ishan (verified Google review)",
+      "text": "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Sonam Oswal, mother of Dhairya (verified Google review)",
+      "text": "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement.",
+      "rating": 5
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Year-long error log and precalculus gap map",
+      "Self-graded FRQ portfolio covering every archetype against real rubrics",
+      "Series convergence decision tree and personal formula sheets (BC)",
+      "Two full mock cycles with documented score progression",
+      "Written exam-day plan rehearsed before May"
+    ],
+    "total_projects_built": "5+ exam artifacts including full mock cycles",
+    "skills_mastered": [
+      "Limits, continuity and the derivative as ideas",
+      "The full derivative toolkit at exam speed",
+      "Curve analysis, optimization and motion",
+      "Integrals, the FTC and accumulation reasoning",
+      "Differential equations and slope fields",
+      "Series, parametrics and polar (BC)",
+      "FRQ rubric craft and justification writing",
+      "MCQ pacing and calculator-section strategy"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 one-hour live classes with your mentor",
+      "problem_sets": "One curated set per week, reviewed in class",
+      "timed_work": "Timed sections increasing in frequency toward May",
+      "total_per_week": "About 4-5 focused hours"
+    },
+    "support_provided": {
+      "live_sessions": "8 live one-hour classes every month, 2 per week",
+      "mentorship": "One dedicated mentor across the whole year",
+      "recordings": "Every class recorded for revision",
+      "progress_tracking": "Error log + mock progression shared with parents",
+      "flexibility": "Intensity adjusts around school exams and mock weeks"
+    },
+    "certification": {
+      "final_certificate": "Course completion certificate from Modern Age Coders",
+      "score_record": "Documented diagnostic-to-final mock progression",
+      "portfolio_projects": "FRQ portfolio as evidence of rubric mastery"
+    }
+  },
+  "prerequisites": {
+    "education": "Enrolled in (or about to start) AP Calculus AB or BC, typically grades 11-12",
+    "math_background": "Precalculus completed at any comfort level — the diagnostic finds the real base and we repair inline",
+    "equipment": "Computer with stable internet; an approved graphing calculator for the calculator sections",
+    "time_commitment": "2 live hours plus 2-3 practice hours weekly",
+    "english": "Course taught in English",
+    "motivation": "The May exam date does the motivating; we supply the method"
+  },
+  "who_is_this_for": {
+    "ab_students": "AP Calculus AB students who want the ideas owned and the exam trained, not just survived",
+    "bc_students": "BC students who need series, parametrics and polar taught properly, plus the pace to finish strong",
+    "struggling_mid_year": "Students whose first-semester grade says the memorize-and-hope approach is failing",
+    "score_maximizers": "Strong students hunting a 5 through FRQ craft and error elimination",
+    "self_studiers": "Disciplined students taking the exam without an AP class at school"
+  },
+  "career_paths_after_completion": [
+    "A 4-5 on AP Calculus, with the college-credit positioning that follows",
+    "Engineering, CS and quantitative-major readiness built on real understanding",
+    "A lighter, calmer first-year college math experience",
+    "Ready for the College Mathematics Masterclass or competition mathematics"
+  ],
+  "course_guarantees": {
+    "free_demo": "A free live demo class that doubles as the diagnostic — before any payment",
+    "recorded_classes": "All live sessions recorded",
+    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
+    "honest_targets": "Evidence-based score guidance — never invented promises",
+    "certificate": "Completion certificate plus documented mock progression"
+  },
+  "relatedCourses": [
+    "sat-math-prep-course",
+    "complete-high-school-mathematics-mastery",
+    "college-mathematics-complete-masterclass",
+    "olympiad-competition-mathematics-mastery"
+  ]
+}
