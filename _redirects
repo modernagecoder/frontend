@@ -690,6 +690,10 @@
 /instructors /team 301!
 
 # Tier 2 comparison/cost page
+/online-maths-tuition-singapore /src/pages/online-maths-tuition-singapore.html 200
+/online-maths-tuition-singapore.md /src/pages/online-maths-tuition-singapore.md 200
+
+# Tier 2 comparison/cost page
 /igcse-maths-tuition-online /src/pages/igcse-maths-tuition-online.html 200
 /igcse-maths-tuition-online.md /src/pages/igcse-maths-tuition-online.md 200
 

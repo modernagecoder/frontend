@@ -2595,6 +2595,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/online-maths-tuition-singapore"
+  to = "/src/pages/online-maths-tuition-singapore.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-tuition-singapore.md"
+  to = "/src/pages/online-maths-tuition-singapore.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/igcse-maths-tuition-online"
   to = "/src/pages/igcse-maths-tuition-online.html"
   status = 200
