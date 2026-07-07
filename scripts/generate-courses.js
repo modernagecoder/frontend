@@ -1010,7 +1010,9 @@ class CourseGenerator {
         // so international-pricing.js swaps the ₹ enrollment cards accordingly,
         // and update the static "International Students" FYI cards/modals to match.
         // Coding courses are untouched; Indian ₹ prices are identical either way.
-        if (/mathematics/i.test(meta.slug || '')) {
+        // Slug test covers every maths-family slug: "mathematics", "math"/"maths"
+        // (SAT/PSLE/mental/early), "calculus" and "algebra" prep courses.
+        if (/math|calculus|algebra/i.test(meta.slug || '')) {
             // Robust to body-class variants (the editorial reskin added a class,
             // which silently broke an exact-match replace here before).
             html = html.replace(/<body class="(course-detail-page[^"]*)">/, '<body class="$1" data-subject="maths">');
