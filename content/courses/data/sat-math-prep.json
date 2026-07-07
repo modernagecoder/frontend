@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "slug": "sat-math-prep-course",
+    "title": "SAT Math 800 Prep Course — Live Online Classes for the Digital SAT",
+    "description": "Live online SAT Math prep with a dedicated mentor: Heart of Algebra, Advanced Math, Problem-Solving & Data Analysis, Desmos strategy and full adaptive mock cycles for the Digital SAT. 8 one-hour classes a month, free demo class first.",
+    "keywords": [
+      "sat math prep course",
+      "sat math course online",
+      "digital sat math prep",
+      "sat math tutor online",
+      "sat math 800 course",
+      "sat math practice classes",
+      "sat math desmos strategy",
+      "sat math score improvement",
+      "best sat math course",
+      "sat math classes for high school students",
+      "sat quantitative prep",
+      "sat math online coaching",
+      "sat math prep for grade 10 11 12",
+      "sat math small group classes",
+      "Modern Age Coders SAT math"
+    ],
+    "category": "Test Prep Mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Grades 10-12, all starting scores",
+    "commitment": "2 live one-hour classes per week + weekly timed practice",
+    "certification": "Course completion certificate + documented mock-score progression",
+    "image_path": "sat-math-prep.png"
+  },
+  "program_overview": {
+    "title": "SAT Math 800 Prep Course",
+    "tagline": "The Digital SAT rewards thinkers. We build the thinker, then train the test.",
+    "description": "A 6-month live prep program for the Digital SAT's math section, taught 1-on-1 or in small groups by a dedicated mentor. The SAT math section rewards structure recognition and clean algebra far more than memorized tricks, so we teach the mathematics underneath first — linear and nonlinear equations, functions, ratios, data — then layer on adaptive-test strategy: module pacing, Desmos calculator fluency, and when to solve versus when to backsolve. Every student runs full timed mock cycles with question-by-question review, so score movement is measured, not hoped for.",
+    "what_makes_this_different": [
+      "Understanding-first: we repair the algebra underneath before drilling question types, because that is where 600-scorers become 750-scorers",
+      "Digital SAT native: adaptive module strategy and built-in Desmos calculator workflows taught as first-class skills",
+      "A dedicated mentor who tracks your error log across the whole program, not a rotating cast",
+      "Full mock cycles under real timing with question-by-question review against the reasoning, not just the answer key",
+      "One full interactive hour per class, twice a week — no 25-minute check-ins",
+      "Honest score guidance: a diagnostic in week one and evidence-based targets, never invented score promises",
+      "Small groups capped tight, or fully private 1-on-1 mentorship",
+      "Every class recorded for revision before test day"
+    ],
+    "learning_path": {
+      "phase_1": "Diagnostic + the algebra core: linear equations, systems, inequalities and the function idea, repaired to fluency",
+      "phase_2": "Advanced Math and Problem-Solving & Data: quadratics, exponentials, ratios, percentages and data interpretation",
+      "phase_3": "Test craft: adaptive pacing, Desmos mastery, full mock cycles and error-log-driven polishing to peak on test day"
+    },
+    "career_outcomes": [
+      "A math section score that opens selective-college doors, built on real understanding",
+      "Algebra and function fluency that carries directly into AP courses and college math",
+      "Calculator-smart, time-disciplined exam habits that transfer to every future standardized test",
+      "A documented mock-score progression parents and counselors can actually see"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: The Algebra Core (Weeks 1-8)",
+    "description": "The Digital SAT's biggest domain is algebra. This phase diagnoses exactly where points are leaking and rebuilds linear equations, systems, inequalities and functions to reconstruction strength — the foundation every later question type stands on.",
+    "week_1_2": {
+      "title": "Weeks 1-2: Diagnostic + Linear Equations Rebuilt",
+      "theme": "Know the starting line, repair the base",
+      "topics": [
+        "Full timed diagnostic module with question-by-question review",
+        "Personal error log opened: content gaps vs speed gaps vs careless patterns",
+        "Linear equations and expressions from meaning, not moves",
+        "Translating word problems into equations — the SAT's favorite disguise",
+        "Slope and intercepts as rates and starting values in context",
+        "Desmos introduction: graphing as a checking habit"
+      ],
+      "projects": [
+        "Personal score map: your exact domains, question types and target",
+        "First timed mini-module under real Digital SAT pacing"
+      ]
+    },
+    "week_3_4": {
+      "title": "Weeks 3-4: Systems and Inequalities",
+      "theme": "Two equations, one picture",
+      "topics": [
+        "Systems solved three ways: substitution, elimination, Desmos intersection",
+        "How many solutions? Parallel, intersecting and identical lines as ideas",
+        "Linear inequalities and shaded regions read from the graph",
+        "Systems word problems: mixtures, rates, break-even setups",
+        "When solving is slower than testing answer choices — strategy honestly taught",
+        "Timed reps: the 60-second system question"
+      ],
+      "projects": [
+        "Break-even mini-case solved by equation, table and graph",
+        "Error-log review: your system-question mistakes classified and closed"
+      ]
+    },
+    "week_5_6": {
+      "title": "Weeks 5-6: Functions as Machines",
+      "theme": "The idea the hard modules assume",
+      "topics": [
+        "Function notation read as a sentence: f(x) is an output, not a mystery",
+        "Evaluating, composing and interpreting functions in context",
+        "Graph reading: intercepts, increasing/decreasing, transformations",
+        "Linear function word problems and modeling",
+        "Function questions in the calculator module: Desmos-first workflows",
+        "Timed reps: function questions across both modules"
+      ],
+      "projects": [
+        "Function-transformation exploration built live in Desmos",
+        "Mixed timed set: algebra domain at full pace"
+      ]
+    },
+    "week_7_8": {
+      "title": "Weeks 7-8: Algebra Domain Checkpoint",
+      "theme": "Prove the base holds",
+      "topics": [
+        "Full algebra-domain timed section under adaptive conditions",
+        "Review ritual taught: why each miss happened, what changes next time",
+        "Absolute value and compound inequalities — the fringe cases",
+        "Careless-error engineering: writing habits that stop point leaks",
+        "Module-1 pacing plan drafted against your speed data"
+      ],
+      "projects": [
+        "Algebra checkpoint mock + personal pacing plan v1",
+        "Updated error log with closed vs open gap list"
+      ]
+    }
+  },
+  "phase_2_advanced_math": {
+    "title": "PHASE 2: Advanced Math + Problem-Solving & Data (Weeks 9-18)",
+    "description": "The domains that separate good scores from great ones: quadratics and exponentials taught as ideas, then the ratio-percent-data cluster where careless points go to die. Every topic is drilled at real SAT difficulty tiers, including the hard-module versions.",
+    "week_9_11": {
+      "title": "Weeks 9-11: Quadratics and Nonlinear Equations",
+      "theme": "The hard module's favorite territory",
+      "topics": [
+        "Quadratics four ways: factoring, completing the square, formula, Desmos",
+        "The discriminant as an idea: how many solutions and why the SAT asks",
+        "Vertex form and parabola word problems (projectiles, revenue, area)",
+        "Nonlinear systems: line meets parabola, read from the graph",
+        "Exponent rules rebuilt from meaning; rational exponents and radicals",
+        "Hard-module quadratic questions: recognizing the structure in costume"
+      ],
+      "projects": [
+        "Projectile/revenue modeling mini-case solved by vertex reasoning",
+        "Timed hard-module quadratic set with full review"
+      ]
+    },
+    "week_12_14": {
+      "title": "Weeks 12-14: Exponential Growth, Polynomials and Rational Expressions",
+      "theme": "Advanced Math, completed",
+      "topics": [
+        "Linear vs exponential growth: the comparison the SAT loves to test",
+        "Exponential word problems: percent growth/decay, doubling, interest",
+        "Polynomial arithmetic, zeros and graph behavior",
+        "Rational expressions and equations without fear",
+        "Isolating variables in formulas — the classic layup question",
+        "Equivalent-expression questions: the algebra-fluency tax"
+      ],
+      "projects": [
+        "Growth-model comparison case: same data, linear vs exponential fits",
+        "Advanced Math domain checkpoint under timing"
+      ]
+    },
+    "week_15_18": {
+      "title": "Weeks 15-18: Problem-Solving & Data Analysis",
+      "theme": "Ratios, percents and data — the careless-point graveyard",
+      "topics": [
+        "Ratio and proportion reasoning: the choose-the-easy-comparison skill",
+        "Percent problems in every SAT costume: change, reverse, repeated",
+        "Unit conversion and rates with dimensional discipline",
+        "Reading tables, scatterplots, histograms and box plots fast",
+        "Line of best fit, slope interpretation and prediction questions",
+        "Mean, median, range and standard deviation as concepts",
+        "Margin of error and study-design questions — what the SAT actually asks",
+        "Two-way tables and conditional probability without formulas"
+      ],
+      "projects": [
+        "Data-interpretation sprint: 20 real chart questions under time",
+        "Full mixed-domain mock: first complete Digital SAT math section"
+      ]
+    }
+  },
+  "phase_3_test_mastery": {
+    "title": "PHASE 3: Adaptive Test Craft + Mock Cycles (Weeks 19-26)",
+    "description": "Content becomes score in this phase: adaptive module strategy, Desmos speed workflows, geometry-and-trig completion, and a full mock cycle rhythm — test, review, repair, retest — that peaks the week of the real exam.",
+    "week_19_20": {
+      "title": "Weeks 19-20: Geometry and Trigonometry Domain",
+      "theme": "The smallest domain, banked completely",
+      "topics": [
+        "Area, volume and the reference-sheet formulas used intelligently",
+        "Triangles: similarity, right-triangle trig, special right triangles",
+        "Circles: arcs, sectors, and the circle equation",
+        "Angle chasing with parallel lines and polygons",
+        "Coordinate geometry: distance, midpoint, and geometric reasoning on the grid",
+        "Trig on the SAT: exactly what is tested, nothing more"
+      ],
+      "projects": [
+        "Geometry domain checkpoint under timing",
+        "Personal formula-and-recognition sheet, built not copied"
+      ]
+    },
+    "week_21_23": {
+      "title": "Weeks 21-23: Adaptive Strategy and Desmos Mastery",
+      "theme": "Play the test as designed",
+      "topics": [
+        "How Digital SAT adaptivity works and what module 1 accuracy is worth",
+        "Pacing plans per module built from your own timing data",
+        "Desmos power workflows: solving, systems, regressions, tables at speed",
+        "Solve vs backsolve vs plug-in: choosing the fastest honest route",
+        "Flag-and-return discipline; the two-pass module method",
+        "Guessing strategy and the no-blank rule, applied calmly"
+      ],
+      "projects": [
+        "Desmos speed drills: 15 questions where the calculator wins",
+        "Strategy card: your personal decision rules for module 2"
+      ]
+    },
+    "week_24_26": {
+      "title": "Weeks 24-26: Full Mock Cycles and Peak Week",
+      "theme": "Test day as a rehearsed place",
+      "topics": [
+        "Full adaptive mocks under exact timing, reviewed question by question",
+        "Error-log closure: every recurring mistake gets a named fix",
+        "Score-trend review with honest final-target calibration",
+        "Peak-week plan: what to practice, what to rest, sleep and logistics",
+        "Test-day routine: warm-up set, timing checkpoints, reset ritual after hard questions"
+      ],
+      "projects": [
+        "Two to three full mock cycles with documented score progression",
+        "Written test-day plan, rehearsed twice before the real thing"
+      ]
+    }
+  },
+  "faqs": [
+    {
+      "question": "Is this course for the Digital SAT?",
+      "answer": "Yes — the course is built for the Digital SAT format: two adaptive math modules, the built-in Desmos graphing calculator, and current question styles. Module strategy and Desmos fluency are taught as first-class skills alongside the mathematics, and we verify current test details against College Board materials for your test date."
+    },
+    {
+      "question": "What score improvement can we expect?",
+      "answer": "We will not invent a number — improvement depends on the starting score, weeks available and practice done between classes. What we promise instead: a real diagnostic in week one, a plan that attacks your highest-value gaps first, and a documented mock-score progression you can watch. Students who complete the mock cycles see their trend line clearly before test day."
+    },
+    {
+      "question": "My teen scores well in school math but low on SAT practice tests. Why?",
+      "answer": "This is the most common profile we see. School rewards showing your work over weeks; the SAT rewards structure recognition under a clock. The gap is usually speed, question-reading and strategy rather than missing content — all trainable. The diagnostic separates content gaps from craft gaps in the first week."
+    },
+    {
+      "question": "When should SAT math prep start?",
+      "answer": "The full program is 6 months, which comfortably fits a spring test from an autumn start. Starting closer to the test still works — the mentor compresses toward your highest-value domains and mock cycles — but more runway means the algebra core gets properly rebuilt rather than patched."
+    },
+    {
+      "question": "How is this different from a prep-book or app-based course?",
+      "answer": "Books and apps give practice; they cannot watch your teen think. A live mentor catches the broken step inside the work — the sign error, the misread, the slow route — and fixes the habit, not just the answer. That is why our classes are a full interactive hour with your teen solving and explaining aloud, twice a week."
+    },
+    {
+      "question": "Do you cover the reading and writing section too?",
+      "answer": "This course is deliberately math-only — depth over bundling. Math is where a specialist mentor moves scores fastest, and where our maths-and-coding teaching method gives a real edge. Families wanting verbal prep can run it in parallel elsewhere without conflict."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students pay USD $100 per month for group and $150 for 1-on-1. Both include 8 live one-hour classes a month, recordings, and the free demo class before any payment."
+    },
+    {
+      "question": "Can we try it before paying?",
+      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic — a real lesson plus an honest read on the starting point and target, with no card details required."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Shewta Singh, mother of Ishan (verified Google review)",
+      "text": "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Sonam Oswal, mother of Dhairya (verified Google review)",
+      "text": "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement.",
+      "rating": 5
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Personal score map and error log maintained across all 6 months",
+      "Desmos workflow library built by the student, question type by question type",
+      "Two to three full adaptive mock cycles with documented score progression",
+      "Personal pacing plans for both modules, built from real timing data",
+      "Written test-day plan rehearsed before the real exam"
+    ],
+    "total_projects_built": "5+ prep artifacts including full mock cycles",
+    "skills_mastered": [
+      "Linear equations, systems and inequalities at SAT speed",
+      "Functions, quadratics and exponentials as ideas",
+      "Ratio, percent and data-analysis fluency",
+      "SAT geometry and trigonometry domain",
+      "Desmos calculator power workflows",
+      "Adaptive module pacing and two-pass strategy",
+      "Error-log discipline and careless-point engineering",
+      "Test-day routine and calm under the clock"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 one-hour live classes with your mentor",
+      "timed_practice": "1-2 timed sets or module sections per week",
+      "review": "Every practice set reviewed for reasoning, not just answers",
+      "total_per_week": "About 4-5 focused hours"
+    },
+    "support_provided": {
+      "live_sessions": "8 live one-hour classes every month, 2 per week",
+      "mentorship": "One dedicated mentor across the whole program",
+      "recordings": "Every class recorded for revision",
+      "progress_tracking": "Error log + mock-score progression shared with parents",
+      "flexibility": "Slots move around school exams and family plans"
+    },
+    "certification": {
+      "final_certificate": "Course completion certificate from Modern Age Coders",
+      "score_record": "Documented diagnostic-to-final mock progression",
+      "portfolio_projects": "Error log and pacing plans as evidence of method"
+    }
+  },
+  "prerequisites": {
+    "education": "Grades 10-12 (or gap-year students retaking the SAT)",
+    "math_background": "School algebra at any comfort level — the diagnostic finds the real starting point",
+    "equipment": "Computer with stable internet; the Digital SAT's Desmos calculator is built into practice tools",
+    "time_commitment": "2 live hours plus 2-3 practice hours weekly",
+    "english": "Course taught in English",
+    "motivation": "A target test date, or our help choosing one"
+  },
+  "who_is_this_for": {
+    "score_raisers": "Students scoring 500-650 on practice tests who need the algebra core rebuilt, not more drills",
+    "top_end": "Students at 700+ hunting the last 60-100 points through hard-module craft and error elimination",
+    "strong_at_school": "Teens with good school grades whose practice scores do not match — the classic craft gap",
+    "planners": "Grade 10 families starting early so the real test year is calm",
+    "retakers": "Students whose first attempt underperformed and who want a method, not more of the same"
+  },
+  "career_paths_after_completion": [
+    "A math score that strengthens selective-college applications",
+    "AP Calculus and AP Statistics readiness, built on real algebra fluency",
+    "Stronger merit-scholarship positioning at score-aware universities",
+    "Ready for AP Calculus Exam Prep or the College Mathematics Masterclass"
+  ],
+  "course_guarantees": {
+    "free_demo": "A free live demo class that doubles as the diagnostic — before any payment",
+    "recorded_classes": "All live sessions recorded",
+    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
+    "honest_targets": "Evidence-based score guidance — never invented promises",
+    "certificate": "Completion certificate plus documented score progression"
+  },
+  "relatedCourses": [
+    "ap-calculus-exam-prep",
+    "algebra-foundations-masterclass",
+    "complete-high-school-mathematics-mastery",
+    "college-mathematics-complete-masterclass"
+  ]
+}
