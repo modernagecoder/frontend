@@ -690,6 +690,10 @@
 /instructors /team 301!
 
 # Tier 2 comparison/cost page
+/minecraft-coding-classes-for-kids /src/pages/minecraft-coding-classes-for-kids.html 200
+/minecraft-coding-classes-for-kids.md /src/pages/minecraft-coding-classes-for-kids.md 200
+
+# Tier 2 comparison/cost page
 /roblox-coding-classes-for-kids /src/pages/roblox-coding-classes-for-kids.html 200
 /roblox-coding-classes-for-kids.md /src/pages/roblox-coding-classes-for-kids.md 200
 
