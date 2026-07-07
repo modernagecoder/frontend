@@ -2595,6 +2595,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/online-coding-summer-camp"
+  to = "/src/pages/online-coding-summer-camp.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-summer-camp.md"
+  to = "/src/pages/online-coding-summer-camp.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/minecraft-coding-classes-for-kids"
   to = "/src/pages/minecraft-coding-classes-for-kids.html"
   status = 200
