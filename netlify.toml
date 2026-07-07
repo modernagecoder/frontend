@@ -2595,6 +2595,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/ib-maths-tuition-online"
+  to = "/src/pages/ib-maths-tuition-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/ib-maths-tuition-online.md"
+  to = "/src/pages/ib-maths-tuition-online.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/singapore-math-method-tutoring"
   to = "/src/pages/singapore-math-method-tutoring.html"
   status = 200
