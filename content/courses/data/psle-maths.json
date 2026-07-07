@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "slug": "psle-maths-mastery",
+    "title": "PSLE Maths Mastery Course — Model Method & Problem Sums, Live Online",
+    "description": "Live online PSLE maths course on the MOE syllabus: model method taught as thinking, problem-sum structure families, no-calculator Paper 1 fluency and AL-banking exam craft. Singapore evening slots, 8 one-hour classes a month, free demo first.",
+    "keywords": [
+      "psle maths course online",
+      "psle maths tuition course",
+      "psle problem sums course",
+      "psle model method course",
+      "psle maths online classes",
+      "p5 p6 maths tuition online",
+      "moe syllabus maths course",
+      "psle paper 1 practice",
+      "psle maths heuristics course",
+      "singapore primary maths course",
+      "psle al score maths",
+      "psle maths revision course",
+      "bar model maths course",
+      "fractions of remainder psle",
+      "Modern Age Coders PSLE maths"
+    ],
+    "category": "Exam Board Mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Primary 4-6 students on the MOE syllabus, PSLE-bound",
+    "commitment": "2 live one-hour classes per week + short practice sets",
+    "certification": "Course completion certificate + documented paper-score progression",
+    "image_path": "psle-maths.png"
+  },
+  "program_overview": {
+    "title": "PSLE Maths Mastery",
+    "tagline": "Problem sums are a teachable skill. We teach it, 1-on-1, without the centre queue.",
+    "description": "A 12-month live program aimed squarely at PSLE mathematics, taught on the MOE syllabus at Singapore-friendly evening hours. The PSLE separates thinkers from drillers: multi-step problem sums, a no-calculator Paper 1, and AL scoring where consistency is everything. This course teaches the model method as a thinking tool rather than a template, names and trains the heuristics explicitly, builds calculator-free fluency in every class, and closes with paper craft — time discipline, working presentation and the mark-banking habits that protect AL bands.",
+    "what_makes_this_different": [
+      "The model method taught as reasoning — part-whole, comparison, before-after and re-cutting — not as a ritual the school demands",
+      "Problem sums taught by structure family, so new problems look like old friends in disguise",
+      "MOE heuristics named and trained explicitly: work backwards, guess-and-check with discipline, restate, spot patterns",
+      "Paper 1 fluency drills open every class, because AL bands are lost one careless mark at a time",
+      "1-on-1 attention no centre batch of fifteen can give, at Singapore evening hours",
+      "Understanding-first: a child who can draw what the numbers are doing owns the problem",
+      "One dedicated mentor tracking exactly where your child's reasoning thins",
+      "Honest AL guidance from real timed-paper evidence, never invented promises"
+    ],
+    "learning_path": {
+      "phase_1": "The method rebuilt properly: number fluency, model drawing as thinking, and the first problem-sum families",
+      "phase_2": "The P5-P6 canon: fractions of remainder, ratio, percentage, speed and geometry — family by family",
+      "phase_3": "Exam craft: Paper 1 and 2 technique, timed papers, mark-banking discipline and the calm P6 runway to the PSLE"
+    },
+    "career_outcomes": [
+      "An AL band that reflects your child's real ability, not their exam nerves",
+      "Problem-sum confidence that carries into secondary E and A Maths",
+      "Calculator-free fluency that keeps paying long after the PSLE",
+      "A child who reads a hard problem and starts drawing instead of freezing"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: The Method, Rebuilt Properly (Months 1-4)",
+    "description": "The gap behind most PSLE struggles is a model method learned as template instead of thinking. This phase rebuilds number fluency and model drawing from meaning, then applies both to the first problem-sum families.",
+    "month_1": {
+      "title": "Month 1: Diagnostic + Number Fluency, Bare-Handed",
+      "weeks": "Weeks 1-4",
+      "week_1": "Full diagnostic: model-method depth, Paper 1 fluency, and exactly where problem sums break — with an honest AL baseline",
+      "week_2": "Whole-number operations at Paper 1 tempo; estimation as a checking habit",
+      "week_3": "Fractions as numbers: equivalence, comparison and operations from pictures first",
+      "week_4": "Decimals and the fraction-decimal-percentage bridge, to fluency"
+    },
+    "month_2_3": {
+      "title": "Months 2-3: Model Drawing as Thinking",
+      "weeks": "Weeks 5-12",
+      "week_5_6": "Part-whole models: the child draws, the mentor questions — never the reverse",
+      "week_7_8": "Comparison models: more-than, less-than and times-as-many, made visible",
+      "week_9_10": "Unit thinking: when to cut a bar into parts, and the re-cutting flexibility templates cannot supply",
+      "week_11_12": "First structure families: sum-and-difference and equal-stage problems, solved by model and defended aloud"
+    },
+    "month_4": {
+      "title": "Month 4: Heuristics, Named and Trained",
+      "weeks": "Weeks 13-16",
+      "week_13": "Work backwards: end-state problems unwound step by step",
+      "week_14": "Guess-and-check with discipline: the organised table, not wild stabs",
+      "week_15": "Restate and simplify: turning wordy problems into drawable ones",
+      "week_16": "Phase checkpoint: mixed problem-sum set solved, explained and extended"
+    }
+  },
+  "phase_2_problem_sums": {
+    "title": "PHASE 2: The P5-P6 Canon, Family by Family (Months 5-9)",
+    "description": "The problem-sum territory where the PSLE decides its top bands, taught by structure family so your child recognises the skeleton under every costume: fractions of remainder, ratio and its changes, percentage, speed and geometry.",
+    "month_5": {
+      "title": "Month 5: Fractions of Remainder and Branch Models",
+      "weeks": "Weeks 17-20",
+      "week_17_18": "The remainder concept made visible: branch models and the re-cut into common parts",
+      "week_19_20": "Classic remainder problems at PSLE standard, including the multi-stage versions that humble adults"
+    },
+    "month_6": {
+      "title": "Month 6: Ratio, and Ratio That Changes",
+      "weeks": "Weeks 21-24",
+      "week_21_22": "Ratio as units: equivalent ratios, sharing and the unit-value engine",
+      "week_23_24": "Before-and-after problems: changed ratios, constant totals and constant differences — the PSLE's signature family"
+    },
+    "month_7": {
+      "title": "Month 7: Percentage in Every Costume",
+      "weeks": "Weeks 25-28",
+      "week_25_26": "Percentage of, increase and decrease, and GST-and-discount chains",
+      "week_27_28": "Reverse percentage and percentage-with-model problems at exam standard"
+    },
+    "month_8": {
+      "title": "Month 8: Speed, Rate and the Journey Problems",
+      "weeks": "Weeks 29-32",
+      "week_29_30": "Speed as a rate with meaning: distance-time reasoning before formulas",
+      "week_31_32": "Meeting, catching-up and average-speed problems, drawn on journey diagrams"
+    },
+    "month_9": {
+      "title": "Month 9: Geometry, Area and the Visual Problems",
+      "weeks": "Weeks 33-36",
+      "week_33_34": "Angles, triangles and quadrilaterals with justification language; composite figures",
+      "week_35_36": "Area and perimeter problem sums including the shaded-region classics; circles at P6 standard"
+    }
+  },
+  "phase_3_exam_craft": {
+    "title": "PHASE 3: Paper Craft and the PSLE Runway (Months 10-12)",
+    "description": "Understanding becomes AL bands here: Paper 1 speed without a calculator, Paper 2 working discipline, timed full papers with review rituals, and a peak plan that walks into the PSLE calm.",
+    "month_10": {
+      "title": "Month 10: Paper 1 and Paper 2 as Different Skills",
+      "weeks": "Weeks 37-40",
+      "week_37_38": "Paper 1 craft: mental strategies, no-calculator discipline and the one-mark questions banked fast",
+      "week_39_40": "Paper 2 craft: presentation of working, method marks, and calculator use that helps instead of wastes time"
+    },
+    "month_11": {
+      "title": "Month 11: Timed Papers and Mark Banking",
+      "weeks": "Weeks 41-44",
+      "week_41_42": "Full timed papers at exam pacing; the banking discipline — secure marks first, wrestle the monsters last",
+      "week_43_44": "Review rituals: why each mark was lost, and the named fix; error-log closure begins"
+    },
+    "month_12": {
+      "title": "Month 12: The Calm Runway",
+      "weeks": "Weeks 45-52",
+      "week_45_48": "Weakest-family rotations by error-log priority; confidence work through problems your child can nearly do, then can",
+      "week_49_52": "Final paper cycles with documented progression; peak-week plan — light practice, rest, and the exam met as a rehearsed place"
+    }
+  },
+  "faqs": [
+    {
+      "question": "Is this course aligned to the MOE syllabus and the actual PSLE format?",
+      "answer": "Yes — the MOE primary mathematics syllabus is the spine, and exam work uses the real format: the no-calculator Paper 1, Paper 2 with calculator, and AL scoring awareness throughout. We verify current SEAB formats for your child's cohort rather than assuming."
+    },
+    {
+      "question": "How do the class timings work from Singapore?",
+      "answer": "Comfortably — Singapore evenings after school and CCA map to our mentors' prime teaching hours, so 6 to 9 pm SGT slots are genuinely available, as are weekend mornings. You pick two weekly slots and they stay yours."
+    },
+    {
+      "question": "My child computes well but freezes on problem sums. Can this be fixed?",
+      "answer": "Yes — problem sums are the most teachable 'talent' in Singapore maths. They break into structure families, each with a model shape and heuristic. We teach the families, then the re-cutting flexibility that separates thinkers from template-followers. A term of that work changes what your child sees when they read a problem."
+    },
+    {
+      "question": "My child already attends a tuition centre. Why switch?",
+      "answer": "Sometimes you should not — a child thriving near the top of a good batch should stay. The switch wins when the batch pace is wrong in either direction: the struggling child whose specific gaps never get airtime, or the capable child rehearsing what they already know. Here, every minute of the hour aims at your child."
+    },
+    {
+      "question": "When should PSLE prep start?",
+      "answer": "The full 12-month arc suits P5, finishing on the P6 runway; P6 students join a compressed version prioritised by the diagnostic. Earlier starts (P4) spend longer in the method phase, which is the highest-return work there is."
+    },
+    {
+      "question": "What AL improvement can we expect?",
+      "answer": "We will not invent a number. What you get: an honest baseline in week one, the highest-value families attacked first, and timed-paper evidence you can track yourself. AL bands reward consistency, and consistency is a trainable behaviour."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students — including Singapore families — pay USD $100 per month for group and $150 for 1-on-1, with 8 live one-hour classes a month and recordings included. Singapore centres typically charge SGD 250-500 monthly for batches of 8-15."
+    },
+    {
+      "question": "Can we try it before paying?",
+      "answer": "Yes. Every child starts with a free live demo class at a Singapore evening hour that doubles as the diagnostic — no card details, no obligation."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Shewta Singh, mother of Ishan (verified Google review)",
+      "text": "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Sonam Oswal, mother of Dhairya (verified Google review)",
+      "text": "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement.",
+      "rating": 5
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Personal error log and problem-sum family map",
+      "The child's own model-method handbook, drawn not copied",
+      "Heuristics card set: each strategy named with a worked example",
+      "Timed paper cycles with documented AL-trend progression",
+      "Peak-week plan rehearsed before the real PSLE"
+    ],
+    "total_projects_built": "5+ exam artifacts plus the child's own handbooks",
+    "skills_mastered": [
+      "Model drawing as a thinking tool",
+      "All major problem-sum structure families",
+      "MOE heuristics, named and applied",
+      "Paper 1 calculator-free fluency",
+      "Paper 2 working and method-mark discipline",
+      "Fractions, ratio, percentage and speed at PSLE depth",
+      "Geometry and shaded-region craft",
+      "Time discipline and mark banking"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 one-hour live classes at Singapore evening hours",
+      "practice": "Short purposeful sets — never another assessment-book stack",
+      "fluency": "Paper 1-style warm-up in every class",
+      "total_per_week": "About 3-4 focused hours"
+    },
+    "support_provided": {
+      "live_sessions": "8 live one-hour classes every month, 2 per week",
+      "mentorship": "One dedicated mentor across the whole run",
+      "recordings": "Every class recorded for revision",
+      "progress_tracking": "Timed-paper progression shared with parents",
+      "flexibility": "Slots move around school exams and family plans"
+    },
+    "certification": {
+      "final_certificate": "Course completion certificate from Modern Age Coders",
+      "score_record": "Documented timed-paper progression",
+      "portfolio_projects": "The child's model-method handbook and heuristics cards"
+    }
+  },
+  "prerequisites": {
+    "education": "Primary 4-6 on the MOE syllabus (or equivalent international students using Singapore-style curricula)",
+    "math_background": "Any — the diagnostic finds the real stage and the method phase rebuilds from there",
+    "equipment": "Computer with stable internet, notebook and pencil; calculator for Paper 2 work",
+    "time_commitment": "2 live hours plus 1-2 practice hours weekly",
+    "english": "Course taught in English",
+    "motivation": "A child willing to draw and explain — the method does the rest"
+  },
+  "who_is_this_for": {
+    "problem_sum_strugglers": "Children whose computation is fine but whose problem sums produce blank stares",
+    "template_drawers": "Children who draw models as ritual without the bars carrying the reasoning",
+    "paper_1_leakers": "Children losing careless marks to calculator-free arithmetic",
+    "centre_switchers": "Families whose centre batch is not teaching their child",
+    "p4_planners": "P4 families starting the method work early, when it is cheapest"
+  },
+  "career_paths_after_completion": [
+    "An AL band that reflects real ability, opening posting options",
+    "Secondary-ready: the algebra handover met with model-method understanding underneath",
+    "E Maths and A Maths readiness through Secondary",
+    "Ready for GEP/DSA-style stretch via competition mathematics"
+  ],
+  "course_guarantees": {
+    "free_demo": "A free live demo class at a Singapore evening hour — before any payment",
+    "recorded_classes": "All live sessions recorded",
+    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
+    "honest_targets": "AL guidance from timed-paper evidence, never invented promises",
+    "certificate": "Completion certificate plus documented progression"
+  },
+  "relatedCourses": [
+    "elementary-mathematics-complete-masterclass",
+    "comprehensive-middle-school-mathematics-mastery",
+    "mental-maths-mastery-kids",
+    "olympiad-competition-mathematics-mastery"
+  ]
+}

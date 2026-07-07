@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "slug": "gcse-mathematics-mastery",
+    "title": "GCSE Mathematics Mastery — Foundation & Higher (9-1), Live Online",
+    "description": "Live online GCSE Maths course for AQA, Edexcel and OCR: Foundation and Higher tiers, non-calculator Paper 1 fluency, grade 7-9 reach taught early and past-paper technique on real mark schemes. 8 one-hour classes a month, free demo first.",
+    "keywords": [
+      "gcse maths course online",
+      "gcse maths tuition course",
+      "gcse maths higher course",
+      "gcse maths foundation course",
+      "gcse maths 9-1 revision course",
+      "aqa gcse maths course",
+      "edexcel gcse maths course",
+      "ocr gcse maths classes",
+      "gcse maths grade 9 course",
+      "gcse maths past paper practice",
+      "gcse maths non calculator practice",
+      "gcse maths online classes uk",
+      "year 10 11 maths tuition",
+      "gcse maths resit course",
+      "Modern Age Coders GCSE maths"
+    ],
+    "category": "Exam Board Mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "18 months (72 weeks)",
+    "level": "Years 9-11 GCSE students, Foundation and Higher tiers, plus resit candidates",
+    "commitment": "2 live one-hour classes per week + weekly past-paper work",
+    "certification": "Course completion certificate + documented paper-score progression",
+    "image_path": "gcse-maths.png"
+  },
+  "program_overview": {
+    "title": "GCSE Mathematics Mastery",
+    "tagline": "Foundation to grade 5 secure, Higher to grade 9 — taught for understanding, trained for the papers.",
+    "description": "An 18-month live program for GCSE mathematics across AQA, Edexcel and OCR, at Foundation or Higher tier. GCSE maths is three papers — one strictly non-calculator — with grades that gatekeep sixth form, apprenticeships and A-Level maths. This course teaches the syllabus understanding-first (so the mock slide of year 11 never happens), trains bare-hands fluency for Paper 1 in every class, brings the Higher-tier grade 7-9 topics in early enough to settle, and converts it all into marks through past-paper cycles against your exact board's mark schemes.",
+    "what_makes_this_different": [
+      "Board-exact: AQA, Edexcel or OCR confirmed first, and every past paper comes from your board",
+      "Tier-honest: evidence for Foundation-vs-Higher decisions, and a real runway from grade 4-risk to 6-secure, or 6 to 9",
+      "Non-calculator Paper 1 fluency drilled in every class",
+      "The grade 7-9 separator topics taught months early so they settle instead of being crammed",
+      "Mark-scheme literacy: method marks, working discipline and the plus-minus habits that stop point leaks",
+      "Understanding-first teaching: algebra as a language, so re-framed exam questions do not break the student",
+      "One dedicated mentor across the whole GCSE run — a full interactive hour, twice a week",
+      "Resit candidates welcome, with a compressed evidence-led plan"
+    ],
+    "learning_path": {
+      "phase_1": "The Foundation core built properly: number fluency, algebra as a language, and the geometry and data basics",
+      "phase_2": "The Higher reach with settling time: quadratics, functions, trigonometry, vectors and the grade 7-9 separator topics",
+      "phase_3": "Past-paper craft by board: all three papers, timing plans, mark banking and full cycles into the exam series"
+    },
+    "career_outcomes": [
+      "A GCSE grade that opens sixth-form, apprenticeship and A-Level doors",
+      "Higher-tier command that makes A-Level maths a step, not a cliff",
+      "The numeracy confidence every future pathway quietly requires",
+      "Exam craft that transfers to every exam the student will ever sit"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: The Core, Built Properly (Months 1-6)",
+    "description": "Foundation-tier territory owned deeply is what Higher-tier grades stand on. This phase rebuilds number fluency without a calculator, teaches algebra as a language, and secures the geometry and statistics basics — with the diagnostic finding the true starting point first.",
+    "month_1_2": {
+      "title": "Months 1-2: Diagnostic + Number, Bare-Handed",
+      "weeks": "Weeks 1-8",
+      "week_1_2": "Full diagnostic: board confirmed, tier fit assessed honestly, non-calculator fluency and algebra base measured",
+      "week_3_4": "Fractions, decimals and percentages to fluency — Paper 1's exact territory — with estimation as a checking habit",
+      "week_5_6": "Ratio and proportion reasoning: the best-buy, recipe and map-scale families",
+      "week_7_8": "Indices, standard form and bounds; error intervals done with meaning"
+    },
+    "month_3_4": {
+      "title": "Months 3-4: Algebra as a Language",
+      "weeks": "Weeks 9-16",
+      "week_9_10": "Expressions, expansion and factorisation with the area model underneath",
+      "week_11_12": "Linear equations and inequalities read as sentences; rearranging formulae",
+      "week_13_14": "Straight-line graphs: gradient as rate, y = mx + c as a story; real-life graphs read critically",
+      "week_15_16": "Simultaneous equations by structure; sequences and the nth term"
+    },
+    "month_5_6": {
+      "title": "Months 5-6: Shape and Data Foundations",
+      "weeks": "Weeks 17-24",
+      "week_17_18": "Angle reasoning with justification language: parallel lines, polygons, bearings",
+      "week_19_20": "Area, perimeter and volume including compound shapes; Pythagoras from a picture",
+      "week_21_22": "Averages, charts, scatter graphs and correlation — data read like a sceptic",
+      "week_23_24": "Phase checkpoint: a full Foundation-standard paper under timing, reviewed against the mark scheme"
+    }
+  },
+  "phase_2_higher": {
+    "title": "PHASE 2: The Higher Reach, With Settling Time (Months 7-12)",
+    "description": "The topics that separate grade 5 from grade 9, taught months before the exam so they are owned rather than crammed: quadratics and functions, trigonometry beyond right angles, vectors, circle theorems and the algebraic craft the top questions assume.",
+    "month_7_8": {
+      "title": "Months 7-8: Quadratics and Functions",
+      "weeks": "Weeks 25-32",
+      "week_25_26": "Quadratics by factorising, completing the square and the formula — chosen by structure",
+      "week_27_28": "Quadratic graphs, turning points and real contexts; quadratic inequalities (Higher)",
+      "week_29_30": "Function notation, composite and inverse functions — where half the function marks are lost",
+      "week_31_32": "Graph transformations, cubic and reciprocal graphs; algebraic fractions (Higher)"
+    },
+    "month_9_10": {
+      "title": "Months 9-10: Trigonometry, Vectors and Circle Theorems",
+      "weeks": "Weeks 33-40",
+      "week_33_34": "Right-triangle trig consolidated; exact trig values for Paper 1",
+      "week_35_36": "Sine and cosine rules with bearings and area applications; trig graphs (Higher)",
+      "week_37_38": "Vectors and the classic geometric vector proof, defanged (Higher)",
+      "week_39_40": "Circle theorems with proof-quality justification"
+    },
+    "month_11_12": {
+      "title": "Months 11-12: Probability, Proportion and the Grade 8-9 Craft",
+      "weeks": "Weeks 41-48",
+      "week_41_42": "Probability with tree and Venn diagrams; conditional probability without formula-panic",
+      "week_43_44": "Direct and inverse proportion as equations; rates of change and pre-calculus gradient ideas (Higher)",
+      "week_45_46": "Histograms, cumulative frequency and comparing distributions like a statistician",
+      "week_47_48": "Phase checkpoint: full Higher-tier past-paper cycle with mark-scheme review and error-log update"
+    }
+  },
+  "phase_3_exam_craft": {
+    "title": "PHASE 3: Paper Craft to the Exam Series (Months 13-18)",
+    "description": "Three papers, one strictly non-calculator, sat over exam season: this phase turns understanding into grades with board-exact past-paper cycles, personal timing plans, mark-banking discipline and a peak plan that meets the series calmly.",
+    "month_13_14": {
+      "title": "Months 13-14: The Three-Paper System",
+      "weeks": "Weeks 49-56",
+      "week_49_52": "Paper 1 craft: non-calculator discipline, exact values and clean written working at speed",
+      "week_53_56": "Papers 2-3 craft: calculator use that helps, multi-step chains, and method-mark harvesting on problems you cannot finish"
+    },
+    "month_15_16": {
+      "title": "Months 15-16: Full Cycles by Board",
+      "weeks": "Weeks 57-64",
+      "week_57_60": "Full timed papers from your exact board and tier; review rituals — why each mark was lost, and the named fix",
+      "week_61_64": "Timing plans from personal data; weakest-topic rotations by error-log priority; grade-boundary awareness used honestly"
+    },
+    "month_17_18": {
+      "title": "Months 17-18: The Series, Met Calmly",
+      "weeks": "Weeks 65-72",
+      "week_65_68": "Final cycles with documented progression; error-log closure; targeted revision that respects the mocks calendar",
+      "week_69_72": "Peak plan: light consolidations, rest discipline, and exam-day routines rehearsed across all three papers"
+    }
+  },
+  "faqs": [
+    {
+      "question": "Which exam boards does this course cover?",
+      "answer": "AQA, Edexcel and OCR — the content overlaps heavily, but paper styles and mark schemes differ, so the first thing the mentor confirms is your school's board, and every past paper comes from it. The 9-1 grading system and three-paper structure (one non-calculator) frame all exam work."
+    },
+    {
+      "question": "Foundation or Higher — how should the decision be made?",
+      "answer": "By destination, then evidence. Foundation caps the grade at 5, so if A-Level maths or a competitive sixth form is even possible, Higher is the default. Whether the gaps blocking Higher are repairable in the time available is a diagnostic question — and the free demo answers it with evidence you can take to school."
+    },
+    {
+      "question": "My child's grades slide every mock as content deepens. Why?",
+      "answer": "That slide is the classic signature of procedure without understanding: memorized methods hold at grade 4-5 content and collapse when questions chain or re-frame. Understanding-first teaching is the fix — algebra as a language, geometry with justification — which is exactly how this course teaches."
+    },
+    {
+      "question": "Can you take a grade 6 student to grade 8-9?",
+      "answer": "That jump is made of specific things: the Higher separator topics (functions, vectors, circle theorems, proportion craft) owned early, Paper 1 fluency, and mark-scheme literacy on the long questions. All are taught directly in Phases 2-3. The honest caveat: the earlier the start, the more settling time the grade 8-9 topics get."
+    },
+    {
+      "question": "Do you take resit candidates?",
+      "answer": "Yes — post-16 resit students get a compressed, evidence-led version of the program prioritised by their diagnostic, aimed at the grade 4/5 threshold or beyond as their goals require."
+    },
+    {
+      "question": "How does this fit around school mocks and revision?",
+      "answer": "The mentor plans against your school calendar: intensity rises before mocks, past-paper focus aligns with what school is testing, and the final months are sequenced around the real series. The course reinforces school rather than competing with it."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students — including UK families — pay USD $100 per month for group and $150 for 1-on-1, with 8 live one-hour classes a month and recordings included. UK tutors typically charge £25-£50 per hour for the same format."
+    },
+    {
+      "question": "Can we try it before paying?",
+      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic — board, tier, fluency and algebra base — with no card details required."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Shewta Singh, mother of Ishan (verified Google review)",
+      "text": "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Sonam Oswal, mother of Dhairya (verified Google review)",
+      "text": "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement.",
+      "rating": 5
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Personal error log and syllabus map across all 18 months",
+      "Non-calculator fluency system built through daily-dose drills",
+      "Self-graded past-paper portfolio against your board's real mark schemes",
+      "Personal timing plans for all three papers",
+      "Full timed cycles with documented score progression"
+    ],
+    "total_projects_built": "5+ exam artifacts plus the student's own handbooks",
+    "skills_mastered": [
+      "Calculator-free number fluency",
+      "Algebra as a language: equations, formulae, graphs",
+      "Higher-tier functions, trigonometry and vectors",
+      "Circle theorems and geometric justification",
+      "Probability and statistics at exam depth",
+      "Proportion and rates-of-change craft",
+      "Mark-scheme literacy and working discipline",
+      "Three-paper timing strategy"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 one-hour live classes with your mentor",
+      "past_paper_work": "Weekly question sets from your exact board",
+      "fluency": "Non-calculator warm-up in every class",
+      "total_per_week": "About 4 focused hours"
+    },
+    "support_provided": {
+      "live_sessions": "8 live one-hour classes every month, 2 per week",
+      "mentorship": "One dedicated mentor across the whole GCSE run",
+      "recordings": "Every class recorded for revision",
+      "progress_tracking": "Paper-score progression shared with parents",
+      "flexibility": "Intensity adjusts around mocks and the exam series"
+    },
+    "certification": {
+      "final_certificate": "Course completion certificate from Modern Age Coders",
+      "score_record": "Documented paper-score progression",
+      "portfolio_projects": "Past-paper portfolio and personal handbooks"
+    }
+  },
+  "prerequisites": {
+    "education": "Years 9-11 GCSE students (AQA, Edexcel or OCR), or post-16 resit candidates",
+    "math_background": "Any — the diagnostic finds the real base; Foundation gaps are repaired before Higher reach",
+    "equipment": "Computer with stable internet; a scientific calculator for Papers 2-3",
+    "time_commitment": "2 live hours plus 1-2 practice hours weekly",
+    "english": "Course taught in English",
+    "motivation": "An exam series on the calendar; we supply the method"
+  },
+  "who_is_this_for": {
+    "higher_aimers": "Students who need the move from Foundation-risk to Higher-comfortable made real",
+    "grade_9_hunters": "Grade 6-7 students converting understanding into 8-9 through separator topics and paper craft",
+    "mock_sliders": "Students whose grades sink each mock as memorized methods run out",
+    "paper_1_worriers": "Calculator-raised students facing the non-calculator paper",
+    "resitters": "Post-16 candidates who need the threshold cleared with a method this time"
+  },
+  "career_paths_after_completion": [
+    "A GCSE grade that opens sixth-form and apprenticeship doors",
+    "A-Level Mathematics readiness for Higher-tier students",
+    "The numeracy base every career pathway quietly requires",
+    "Ready for IB or A-Level tracks, or competition mathematics"
+  ],
+  "course_guarantees": {
+    "free_demo": "A free live demo class that doubles as the diagnostic — before any payment",
+    "recorded_classes": "All live sessions recorded",
+    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
+    "tier_honesty": "Evidence-based tier advice, in both directions",
+    "certificate": "Completion certificate plus documented score progression"
+  },
+  "relatedCourses": [
+    "igcse-mathematics-mastery",
+    "ib-mathematics-aa-ai-masterclass",
+    "complete-high-school-mathematics-mastery",
+    "sat-math-prep-course"
+  ]
+}
