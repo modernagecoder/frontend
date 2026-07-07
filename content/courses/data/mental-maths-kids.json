@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "slug": "mental-maths-mastery-kids",
+    "title": "Mental Maths Mastery for Kids — Number Sense, Not Tricks (Ages 5-10)",
+    "description": "Live online mental maths course for ages 5-10: number bonds, decomposition strategies and estimation built into real number sense — the honest alternative to abacus and trick-based programs. 8 one-hour classes a month, free demo first.",
+    "keywords": [
+      "mental maths classes for kids",
+      "mental math course online",
+      "mental maths for kids online",
+      "abacus alternative for kids",
+      "vedic maths alternative",
+      "number sense course for kids",
+      "mental arithmetic classes",
+      "maths classes for 5 year olds",
+      "maths classes for 7 year olds",
+      "fast calculation course kids",
+      "number bonds course",
+      "mental maths tricks vs understanding",
+      "primary mental maths course",
+      "mental maths mastery",
+      "Modern Age Coders mental maths"
+    ],
+    "category": "Elementary Mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Ages 5-10 (roughly grades K-5), all starting levels",
+    "commitment": "2 live one-hour classes per week + 10 minutes of daily play-practice",
+    "certification": "Course completion certificate + stage mastery checks",
+    "image_path": "mental-maths-kids.png"
+  },
+  "program_overview": {
+    "title": "Mental Maths Mastery for Kids",
+    "tagline": "Number sense, not tricks. The speed follows, and it never expires.",
+    "description": "A 12-month live program that builds genuine mental arithmetic in children aged 5-10 — the honest alternative to abacus franchises and 'Vedic tricks' courses. Trick-based speed impresses at demos and quietly expires: it bypasses understanding, so it cannot transfer to fractions, algebra or problem solving. We build number sense instead — numbers as decomposable quantities, number bonds, compensation and estimation — through games and puzzles a child genuinely enjoys. The result is a child who calculates fast because they see numbers clearly, and that clarity keeps paying through every year of school mathematics.",
+    "what_makes_this_different": [
+      "Number sense over tricks: strategies a child can explain always beat procedures they can only perform",
+      "The speed is real and durable — decomposition, bonds and compensation transfer straight into fractions and algebra later",
+      "Games, puzzles and number talks: children wait for these classes, which is the engagement no drill sheet buys",
+      "Concrete-pictorial-abstract progression, the method behind the world's strongest maths systems",
+      "Explain-back in every class: what a child can teach, a child owns",
+      "One dedicated mentor who knows exactly which facts and strategies each child holds",
+      "A genuine on-ramp: graduates flow into our grade-level maths programs already ahead",
+      "One full interactive hour per class, twice a week — built for young attention spans with variety, not lectures"
+    ],
+    "learning_path": {
+      "phase_1": "Number sense foundations: quantities, bonds to 10 and 20, and the part-whole thinking everything else stands on",
+      "phase_2": "The strategy toolkit: make-ten, doubles, compensation, and multiplication as structure — not chanting",
+      "phase_3": "Big-number courage: multi-digit mental strategies, fraction sense beginnings, estimation mastery and speed with understanding"
+    },
+    "career_outcomes": [
+      "A child who volunteers answers in maths class instead of hiding",
+      "Arithmetic fluency that makes every later topic — fractions, percentages, algebra — feel lighter",
+      "Estimation judgment: the life skill of knowing when an answer looks wrong",
+      "A genuine head start into grade-level mastery programs and competition maths"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Number Sense Foundations (Months 1-4)",
+    "description": "Before speed comes seeing: numbers as quantities that break apart and recombine. This phase builds subitizing, part-whole thinking and the bonds of 10 and 20 through concrete materials and games — tuned to each child's starting stage.",
+    "month_1": {
+      "title": "Month 1: Seeing Numbers",
+      "weeks": "Weeks 1-4",
+      "week_1": "Playful diagnostic: which facts, strategies and confidence the child already holds — disguised as games",
+      "week_2": "Subitizing and quantity sense: dots, dice and ten-frames — recognising amounts without counting",
+      "week_3": "Part-whole thinking: every number is made of other numbers (7 is 5-and-2, 6-and-1, 3-and-4)",
+      "week_4": "The number line as home: position, order, distance and the empty-number-line game"
+    },
+    "month_2_3": {
+      "title": "Months 2-3: The Bonds That Power Everything",
+      "weeks": "Weeks 5-12",
+      "week_5_6": "Bonds of 10 to automaticity — through games, never flashcard grind",
+      "week_7_8": "Doubles and near-doubles as anchor facts; adding 9 and 11 by compensation preview",
+      "week_9_10": "Bridging through 10: the make-ten strategy that turns 8+5 into 10+3",
+      "week_11_12": "Bonds to 20 and fact families: addition and subtraction as one idea seen from two sides"
+    },
+    "month_4": {
+      "title": "Month 4: Subtraction as Distance + Stage Checkpoint",
+      "weeks": "Weeks 13-16",
+      "week_13": "Subtraction two ways: taking away versus finding the gap — and when each is faster",
+      "week_14": "Counting up for change: the shopkeeper's method every adult secretly uses",
+      "week_15": "Mixed strategy play: number talks where children compare routes to the same answer",
+      "week_16": "Stage mastery check through games: solve it, explain it, teach it back"
+    }
+  },
+  "phase_2_strategies": {
+    "title": "PHASE 2: The Strategy Toolkit (Months 5-8)",
+    "description": "The heart of mental maths: named strategies the child chooses between — make-ten, compensation, doubling and halving — plus multiplication met as structure and arrays rather than chanted tables. Choice is the skill; speed is the side effect.",
+    "month_5": {
+      "title": "Month 5: Two-Digit Courage",
+      "weeks": "Weeks 17-20",
+      "week_17_18": "Adding two-digit numbers mentally: jumps of ten, then the leftover ones",
+      "week_19_20": "Compensation as a superpower: 39 + 26 becomes 40 + 25; subtracting 19 by taking 20 and giving one back"
+    },
+    "month_6": {
+      "title": "Month 6: Multiplication as Structure",
+      "weeks": "Weeks 21-24",
+      "week_21_22": "Multiplication as groups and arrays — seen and built before recited",
+      "week_23_24": "The clever tables route: 2s, 10s and 5s first, then doubling to 4s and 8s; 9s by compensation"
+    },
+    "month_7": {
+      "title": "Month 7: The Full Tables, Owned",
+      "weeks": "Weeks 25-28",
+      "week_25_26": "3s, 6s and the tricky squares; the handful of hard facts isolated and conquered",
+      "week_27_28": "Division as the other side of multiplication; fact-family fluency through games"
+    },
+    "month_8": {
+      "title": "Month 8: Doubling, Halving and Strategy Choice",
+      "weeks": "Weeks 29-32",
+      "week_29_30": "Doubling and halving chains: 16 x 5 as 8 x 10 — the strategy that feels like magic and is pure structure",
+      "week_31_32": "Strategy tournaments: same problem, different routes, and the metacognition of choosing — plus stage mastery check"
+    }
+  },
+  "phase_3_mastery": {
+    "title": "PHASE 3: Big Numbers, Estimation and Durable Speed (Months 9-12)",
+    "description": "The toolkit scales up: multi-digit mental arithmetic, the beginnings of fraction sense, estimation as judgment, and — now that understanding holds — genuine speed work. The course closes with each child measurably faster and, more importantly, able to explain every move.",
+    "month_9": {
+      "title": "Month 9: Multi-Digit Mental Arithmetic",
+      "weeks": "Weeks 33-36",
+      "week_33_34": "Hundreds without fear: place-value jumps, friendly numbers and compensation at scale",
+      "week_35_36": "Mental multiplication beyond tables: 23 x 4 by splitting, 15 x 6 by halving-doubling"
+    },
+    "month_10": {
+      "title": "Month 10: Estimation as Judgment",
+      "weeks": "Weeks 37-40",
+      "week_37_38": "Rounding with purpose: getting close fast, and knowing how close is close enough",
+      "week_39_40": "The reasonableness habit: catching wrong answers by sense — the skill calculators cannot replace"
+    },
+    "month_11": {
+      "title": "Month 11: Fraction Sense Beginnings",
+      "weeks": "Weeks 41-44",
+      "week_41_42": "Halves, quarters and the fraction-of-a-quantity game — mental fractions from pictures",
+      "week_43_44": "Fraction and decimal friends: one-half is 0.5 is 50% — the bridge built early"
+    },
+    "month_12": {
+      "title": "Month 12: Speed With Understanding + Graduation",
+      "weeks": "Weeks 45-52",
+      "week_45_48": "Timed play now that meaning holds: beat-your-own-record ladders, never child-versus-child pressure",
+      "week_49_52": "Graduation project: each child runs a number talk, teaching their favourite strategy — plus final stage mastery check and the road-ahead plan"
+    }
+  },
+  "faqs": [
+    {
+      "question": "How is this different from abacus or Vedic maths classes?",
+      "answer": "Those programs teach procedures that produce fast answers — and the speed is real, but it lives outside understanding. It rarely transfers to fractions, word problems or algebra, and it fades when practice stops. We build number sense instead: strategies the child understands and chooses between. The speed arrives a little later and then never leaves, because it is made of understanding."
+    },
+    {
+      "question": "What age is right to start?",
+      "answer": "Ages 5-10, and the mentor meets each child at their actual stage rather than their age. Five-year-olds start with quantity games and bonds; nine-year-olds might start at the strategy toolkit. The playful diagnostic in the free demo places every child accurately."
+    },
+    {
+      "question": "Will my child actually enjoy this, or is it drilling in disguise?",
+      "answer": "Enjoyment is the engine of the whole method: number talks, strategy tournaments, beat-your-own-record ladders and games carry every class. Parents consistently tell us their children wait for these classes — which sounds impossible for arithmetic until you watch one. That is what the free demo is for."
+    },
+    {
+      "question": "My child counts on fingers past age 7. Is that a problem this fixes?",
+      "answer": "Yes, and gently. Finger counting past grade 2 means number bonds never became automatic, so every calculation starts from scratch. We rebuild the bonds through games until known facts replace counting — without ever shaming the fingers on the way."
+    },
+    {
+      "question": "Does this replace school maths or run alongside it?",
+      "answer": "Alongside, and underneath: number sense is the foundation school maths quietly assumes. Children in this course typically find school arithmetic suddenly easy, which buys the confidence that changes everything else."
+    },
+    {
+      "question": "How much practice is needed between classes?",
+      "answer": "About ten minutes a day of assigned play — a game, a strategy challenge, a number talk with a parent. Small daily doses beat weekend marathons for fluency building, and ten minutes keeps it joyful."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students pay USD $100 per month for group and $150 for 1-on-1. Both include 8 live one-hour classes a month, recordings, and a free demo class before any payment."
+    },
+    {
+      "question": "Can we try it before paying?",
+      "answer": "Yes. Every child starts with a free live demo class that doubles as the playful diagnostic — no card details, no obligation."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sonam Oswal, mother of Dhairya (verified Google review)",
+      "text": "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement.",
+      "rating": 5
+    },
+    {
+      "name": "Shewta Singh, mother of Ishan (verified Google review)",
+      "text": "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!",
+      "rating": 5
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "The child's own strategy book: every named strategy with their worked example",
+      "Number-talk leadership: each child regularly explains routes to the class or mentor",
+      "Beat-your-own-record fluency ladders, tracked across the year",
+      "Estimation journal: real-life guesses checked and calibrated",
+      "Graduation number talk taught by the child"
+    ],
+    "total_projects_built": "A year-long strategy book plus 4+ fluency artifacts",
+    "skills_mastered": [
+      "Number bonds to 20 at automaticity",
+      "Make-ten, compensation and bridging strategies",
+      "Doubling-halving and the clever tables route",
+      "Full multiplication and division fact fluency",
+      "Multi-digit mental arithmetic",
+      "Estimation and reasonableness judgment",
+      "Early fraction and decimal sense",
+      "Explaining mathematical thinking aloud"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 one-hour live classes, built with variety for young attention",
+      "daily_play": "About 10 minutes of assigned games or number talks",
+      "family_involvement": "Simple number-talk prompts parents can run at dinner",
+      "total_per_week": "About 3 focused hours"
+    },
+    "support_provided": {
+      "live_sessions": "8 live one-hour classes every month, 2 per week",
+      "mentorship": "One dedicated mentor who knows the child's exact fact map",
+      "recordings": "Every class recorded",
+      "progress_tracking": "Stage mastery checks shared with parents",
+      "flexibility": "Slots move around school and family plans"
+    },
+    "certification": {
+      "phase_certificates": "Stage mastery check at the end of each phase",
+      "final_certificate": "Course completion certificate from Modern Age Coders",
+      "portfolio_projects": "The child's own strategy book"
+    }
+  },
+  "prerequisites": {
+    "education": "Ages 5-10; can count to 20 to start the youngest track",
+    "math_background": "None assumed — the diagnostic finds the true stage",
+    "equipment": "Computer or tablet with stable internet; household objects double as manipulatives",
+    "time_commitment": "2 live hours plus 10 minutes of daily play",
+    "english": "Course taught in English",
+    "motivation": "None needed on day one — building it is the course's job"
+  },
+  "who_is_this_for": {
+    "finger_counters": "Children counting on fingers past grade 2, whose bonds never became automatic",
+    "maths_worriers": "Children already saying 'I'm bad at maths' — the belief this course exists to reverse",
+    "abacus_shoppers": "Parents comparing abacus and Vedic programs who want speed that transfers and lasts",
+    "young_starters": "Ages 5-6 whose parents want the foundation laid right the first time",
+    "quick_kids": "Naturally strong children ready to go deeper than school arithmetic allows"
+  },
+  "career_paths_after_completion": [
+    "Ready for the Elementary Mathematics Masterclass, arriving ahead",
+    "The fluency base that makes fractions and early algebra feel light",
+    "Competition-maths readiness for children who catch fire",
+    "A natural bridge into maths-through-coding for the builder types"
+  ],
+  "course_guarantees": {
+    "free_demo": "A free live demo class that doubles as the playful diagnostic — before any payment",
+    "recorded_classes": "All live sessions recorded",
+    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
+    "no_pressure": "Beat-your-own-record only — never child-versus-child speed pressure",
+    "certificate": "Completion certificate plus stage mastery record"
+  },
+  "relatedCourses": [
+    "early-math-foundations",
+    "elementary-mathematics-complete-masterclass",
+    "psle-maths-mastery",
+    "maths-through-coding"
+  ]
+}
