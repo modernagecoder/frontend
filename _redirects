@@ -691,6 +691,10 @@
 /instructors /team 301!
 
 # Tier 2 comparison/cost page
+/online-math-tutor-10th-grade /src/pages/online-math-tutor-10th-grade.html 200
+/online-math-tutor-10th-grade.md /src/pages/online-math-tutor-10th-grade.md 200
+
+# Tier 2 comparison/cost page
 /online-math-tutor-9th-grade /src/pages/online-math-tutor-9th-grade.html 200
 /online-math-tutor-9th-grade.md /src/pages/online-math-tutor-9th-grade.md 200
 
