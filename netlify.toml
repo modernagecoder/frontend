@@ -2595,6 +2595,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/free-trial"
+  to = "/src/pages/free-trial.html"
+  status = 200
+
+[[redirects]]
+  from = "/free-trial.md"
+  to = "/src/pages/free-trial.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/homeschool-coding-curriculum"
   to = "/src/pages/homeschool-coding-curriculum.html"
   status = 200
