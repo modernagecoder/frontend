@@ -898,3 +898,57 @@ ul, ol { color: var(--mp-ink-soft); }
 .mp-course-card .go::after { content: " \2192"; }
 .mp-course-card:hover .go::after { margin-left: 3px; }
 @media (max-width: 900px) { .mp-courses { grid-template-columns: 1fr; } }
+
+/* ---------- Tier 4 kids-coding themes (added 2026-07-08) ---------- */
+.mp-scratch { --mp-accent:#ea580c; --mp-accent-2:#2563eb; --mp-accent-soft:#fdeadd;
+  --mp-hero-bg:#2b1503; --mp-hero-ink:#fff4ec; --mp-hero-muted:#d9a887;
+  --mp-bg-alt:#fdf7f2; --mp-ink:#2b1a10; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-scratch .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #2563eb 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #ea580c 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-scratch h1,.mp-scratch h2,.mp-scratch h3 { font-weight:700; letter-spacing:-.01em; }
+
+.mp-roblox { --mp-accent:#dc2626; --mp-accent-2:#475569; --mp-accent-soft:#fde3e3;
+  --mp-hero-bg:#1c0f12; --mp-hero-ink:#fdf0f0; --mp-hero-muted:#c99a9a;
+  --mp-bg-alt:#faf4f4; --mp-ink:#2b1215; }
+.mp-roblox .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #64748b 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #dc2626 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-minecraft { --mp-accent:#16a34a; --mp-accent-2:#92400e; --mp-accent-soft:#def3e3;
+  --mp-hero-bg:#0c2210 ; --mp-hero-ink:#effcf1; --mp-hero-muted:#95bf9d;
+  --mp-bg-alt:#f2f9f3; --mp-ink:#122b17; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-minecraft .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #92400e 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #16a34a 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-minecraft h1,.mp-minecraft h2,.mp-minecraft h3 { font-weight:700; letter-spacing:-.01em; }
+
+.mp-camp { --mp-accent:#d97706; --mp-accent-2:#0ea5e9; --mp-accent-soft:#fdeed3;
+  --mp-hero-bg:#301c02; --mp-hero-ink:#fff8ea; --mp-hero-muted:#d9b98a;
+  --mp-bg-alt:#fdf9f0; --mp-ink:#2d1e0a; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-camp .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #0ea5e9 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #d97706 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-camp h1,.mp-camp h2,.mp-camp h3 { font-weight:700; letter-spacing:-.01em; }
+
+.mp-kidsusa { --mp-accent:#1d4ed8; --mp-accent-2:#dc2626; --mp-accent-soft:#e1e9fd;
+  --mp-hero-bg:#0d173a; --mp-hero-ink:#eef2ff; --mp-hero-muted:#9aa8d6;
+  --mp-bg-alt:#f3f6fd; --mp-ink:#111c3d; }
+.mp-kidsusa .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #dc2626 0%, transparent 42%),
+  radial-gradient(640px 420px at 4% 110%, #1d4ed8 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-kidsuk { --mp-accent:#be123c; --mp-accent-2:#1e3a8a; --mp-accent-soft:#fbe1e8;
+  --mp-hero-bg:#2b0a14; --mp-hero-ink:#fdeef3; --mp-hero-muted:#d093a5;
+  --mp-bg-alt:#fbf4f6; --mp-ink:#2e1019; }
+.mp-kidsuk .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #1e3a8a 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #be123c 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-homeschool { --mp-accent:#15803d; --mp-accent-2:#d97706; --mp-accent-soft:#ddf1e4;
+  --mp-hero-bg:#122a18; --mp-hero-ink:#f0fbf3; --mp-hero-muted:#9cc2a7;
+  --mp-bg-alt:#f4faf5; --mp-ink:#14301c; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-homeschool .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #d97706 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #15803d 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-homeschool h1,.mp-homeschool h2,.mp-homeschool h3 { font-weight:700; letter-spacing:-.01em; }
