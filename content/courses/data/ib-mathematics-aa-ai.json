@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "slug": "ib-mathematics-aa-ai-masterclass",
+    "title": "IB Mathematics AA & AI Masterclass — SL & HL, Live Online with IA Coaching",
+    "description": "Live online IB Maths course for Analysis & Approaches and Applications & Interpretation, SL and HL: syllabus taught for ownership, paper-specific technique, GDC fluency and honest IA coaching within IB integrity rules. 8 one-hour classes a month, free demo first.",
+    "keywords": [
+      "ib mathematics course online",
+      "ib maths aa course",
+      "ib maths ai course",
+      "ib math aa hl course",
+      "ib math aa sl online classes",
+      "ib maths tuition course",
+      "ib mathematical exploration help",
+      "ib maths ia coaching",
+      "ib paper 1 practice course",
+      "ib maths hl paper 3 prep",
+      "gdc calculator skills ib",
+      "ib myp maths course",
+      "ib diploma maths online",
+      "ib maths grade 7 course",
+      "Modern Age Coders IB maths"
+    ],
+    "category": "Exam Board Mathematics",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "24 months (the full Diploma Programme arc)",
+    "level": "IB DP students (AA & AI, SL & HL) and MYP students heading to the DP",
+    "commitment": "2 live one-hour classes per week + weekly past-paper work",
+    "certification": "Course completion certificate + documented paper-score progression",
+    "image_path": "ib-maths-aa-ai.png"
+  },
+  "program_overview": {
+    "title": "IB Mathematics AA & AI Masterclass",
+    "tagline": "Your exact course, your exact level, taught to a 7.",
+    "description": "A full-Diploma live program matched to the student's actual IB course: Analysis & Approaches or Applications & Interpretation, at SL or HL. IB maths punishes generic tutoring — the two courses examine different things, AA runs a strictly non-calculator paper while AI assumes the GDC everywhere, HL adds an extended problem-solving paper, and the Internal Assessment is worth a fifth of the grade. This masterclass teaches the syllabus for genuine ownership, trains paper-specific technique on real past questions and mark schemes, builds GDC fluency as a scored skill, and coaches the Mathematical Exploration honestly — structure, criteria and critique, with the work staying the student's own under IB academic integrity rules.",
+    "what_makes_this_different": [
+      "Course-exact teaching: AA and AI are different subjects here, as they are on exam day",
+      "Non-calculator craft for AA Paper 1 and GDC power-workflows for AI, each trained deliberately",
+      "The IA coached properly: topic selection against the actual criteria, milestones, mathematical depth and honest draft critique — never ghost-writing",
+      "HL Paper 3 stamina built through olympiad-flavoured problem work",
+      "Predicted-grade awareness: the arc aims at internal assessments too, because those set the number universities see",
+      "MYP-era gaps repaired inline instead of ignored",
+      "One dedicated mentor across the whole two-year arc",
+      "Honest course-fit advice, including 'stay at SL' when that is the truth"
+    ],
+    "learning_path": {
+      "phase_1": "The shared core built to DP strength: algebra, functions and the toolkit both courses stand on, with MYP debt repaired",
+      "phase_2": "Course-specific depth: calculus and proof for AA, statistics, modelling and technology for AI — plus IA season, shepherded",
+      "phase_3": "Syllabus completion, paper craft by course and level, HL Paper 3 training and full past-paper cycles into the exam session"
+    },
+    "career_outcomes": [
+      "An IB maths grade that holds up predicted grades and university offers",
+      "AA students: the calculus and proof maturity maths-heavy degrees expect",
+      "AI students: the statistical and modelling literacy business and social-science degrees actually use",
+      "An IA the student can defend line by line, because it is genuinely theirs"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: The Shared Core at DP Strength (Months 1-8)",
+    "description": "Both IB courses stand on the same five topic areas. This phase builds number & algebra and functions to Diploma strength, repairs MYP-era gaps inline, and establishes the retrieval and paper habits that a two-year syllabus demands.",
+    "month_1_2": {
+      "title": "Months 1-2: Diagnostic, Course Fit and Algebra at DP Pace",
+      "weeks": "Weeks 1-8",
+      "week_1_2": "Full diagnostic: syllabus position, MYP-era gaps, GDC habits, and an honest course-fit read (AA vs AI, SL vs HL) with evidence",
+      "week_3_4": "Exponents, logarithms and the laws that both courses assume — taught from meaning, drilled to fluency",
+      "week_5_6": "Sequences and series: arithmetic, geometric, sigma notation and financial applications (an AI favourite)",
+      "week_7_8": "Proof and reasoning foundations: direct proof and mathematical writing habits (deeper for AA HL)"
+    },
+    "month_3_5": {
+      "title": "Months 3-5: Functions — the DP's Load-Bearing Topic",
+      "weeks": "Weeks 9-20",
+      "week_9_12": "Function anatomy: domain, range, composition and inverses — the material the whole DP silently assumes",
+      "week_13_16": "Transformations and graph literacy; quadratics and polynomials to DP depth; the discriminant as an idea",
+      "week_17_20": "Exponential, logarithmic and rational functions with modelling contexts; GDC graphing workflows introduced properly"
+    },
+    "month_6_8": {
+      "title": "Months 6-8: Geometry, Trigonometry and First Paper Craft",
+      "weeks": "Weeks 21-32",
+      "week_21_24": "Trigonometry rebuilt: unit circle, identities and equations (AA depth) / right-triangle and applied trig with bearings (AI emphasis)",
+      "week_25_28": "Vectors (AA HL) and 3D geometry; sine and cosine rules in applied problems",
+      "week_29_32": "First past-paper season: question anatomy, mark-scheme logic, and the review ritual used for the next eighteen months"
+    }
+  },
+  "phase_2_course_depth": {
+    "title": "PHASE 2: Course-Specific Depth + the IA (Months 9-16)",
+    "description": "The AA and AI tracks now genuinely diverge: calculus and proof depth for AA, statistics and modelling with full GDC fluency for AI. In the middle of this phase sits IA season — the Mathematical Exploration, coached against the real criteria while remaining the student's own work.",
+    "month_9_11": {
+      "title": "Months 9-11: The AA Track / The AI Track",
+      "weeks": "Weeks 33-44",
+      "week_33_36": "AA: limits and differentiation from first principles; the derivative toolkit including chain rule mastery. AI: descriptive statistics, correlation and regression on the GDC",
+      "week_37_40": "AA: applications — tangents, optimisation, kinematics; introduction to integration. AI: probability, distributions (binomial, normal) and interpretation craft",
+      "week_41_44": "AA: integration techniques and areas/volumes. AI: modelling cycle — choose, fit, critique and improve a model; matrices and networks (HL)"
+    },
+    "month_12_14": {
+      "title": "Months 12-14: IA Season — the Exploration, Shepherded",
+      "weeks": "Weeks 45-56",
+      "week_45_48": "Topic selection against the five criteria: personal engagement that is real, mathematics that can score; proposal locked with milestones",
+      "week_49_52": "The mathematics deepened: the mentor pushes rigour and aim while the student drives; communication and notation standards set",
+      "week_53_56": "Draft critique rounds: honest feedback against each criterion, reflection strengthened, and the final polish plan — the work staying the student's own throughout, per IB academic integrity rules"
+    },
+    "month_15_16": {
+      "title": "Months 15-16: Syllabus Depth Continues",
+      "weeks": "Weeks 57-64",
+      "week_57_60": "AA: further calculus (HL: deeper techniques, Maclaurin ideas); AI: hypothesis testing, chi-squared and t-tests with interpretation",
+      "week_61_64": "HL students of both courses: Paper 3-style extended investigations introduced; SL students: consolidation cycles by error-log priority"
+    }
+  },
+  "phase_3_exam_mastery": {
+    "title": "PHASE 3: Syllabus Close + Paper Craft to Exam Session (Months 17-24)",
+    "description": "The remaining syllabus is closed with margin, then the program becomes exam craft: papers by course and level, calculator and non-calculator discipline, HL Paper 3 stamina, and full timed cycles that peak in the exam session — with predicted-grade checkpoints along the way.",
+    "month_17_19": {
+      "title": "Months 17-19: Closing the Syllabus with Margin",
+      "weeks": "Weeks 65-76",
+      "week_65_70": "Final syllabus topics per course and level, taught early enough to settle: remaining probability/statistics (AA), remaining calculus for AI HL, kinematics and applications",
+      "week_71_76": "Full-syllabus connection map built by the student; spaced retrieval cycles across all five topic areas"
+    },
+    "month_20_22": {
+      "title": "Months 20-22: Paper Craft by Course and Level",
+      "weeks": "Weeks 77-88",
+      "week_77_80": "AA Paper 1 non-calculator craft: exact values, structure recognition and clean written working. AI: GDC speed workflows for every paper",
+      "week_81_84": "Paper 2 technique: extended structured questions, method-mark discipline and time allocation from personal data",
+      "week_85_88": "HL Paper 3: long unfamiliar investigations — harvesting earlier parts, keeping momentum, and the calm that stamina training buys"
+    },
+    "month_23_24": {
+      "title": "Months 23-24: Full Cycles and the Exam Session",
+      "weeks": "Weeks 89-96",
+      "week_89_92": "Full timed past-paper cycles by exact course and level, reviewed against real mark schemes; error-log closure",
+      "week_93_96": "Peak plan: final consolidations, rest discipline, exam-day routines — and the session met as a rehearsed place"
+    }
+  },
+  "faqs": [
+    {
+      "question": "Do you teach both AA and AI, at both SL and HL?",
+      "answer": "Yes — and separately, because they are genuinely different courses. The mentor teaches your student's exact registration: AA's algebraic, proof-flavoured, calculus-heavy road or AI's modelling, statistics and technology-first road, at the right level. The free demo doubles as a course-fit consult if the choice is still open."
+    },
+    {
+      "question": "How does the IA coaching work — and how far is too far?",
+      "answer": "We coach the Mathematical Exploration properly: topic selection against the actual criteria, structure, pushing the mathematics deep enough to score, and honest critique of drafts. We do not write it or polish prose into someone else's voice — IB academic integrity rules are real, schools check, and the IA only helps your student if it is genuinely theirs. Done right, it is the most coachable 20% of the grade."
+    },
+    {
+      "question": "My AA student falls apart on the non-calculator paper. Fixable?",
+      "answer": "Very. Paper 1 skill is mostly exact-value fluency plus structure recognition — seeing the quadratic inside the exponential equation. Both are trained, not innate, and every AA class includes non-calculator work so Paper 1 becomes routine long before the exam."
+    },
+    {
+      "question": "Do you teach GDC (graphing calculator) skills?",
+      "answer": "As a first-class skill, because AI examines it and AA's Paper 2 rewards it: efficient graphing, solving and regression workflows, and knowing what counts as acceptable use of technology. AI students who underuse the GDC leave marks and minutes on the table."
+    },
+    {
+      "question": "Can you help before predicted grades are set?",
+      "answer": "That is the highest-leverage timing in the IB — predictions ride on school assessments, so a focused arc aimed at the next internal exams moves the number universities actually see. Start earlier than feels necessary; predictions harden sooner than most families expect."
+    },
+    {
+      "question": "My child is in the MYP. Is this course relevant yet?",
+      "answer": "Yes — MYP students join the Phase 1 material aimed at arriving in the DP with the algebra and functions base both courses silently assume. It is the cheapest IB maths insurance there is."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students pay USD $100 per month for group and $150 for 1-on-1 — while IB-specialist agencies bill $60 to $120 per hour for the same format. 8 live one-hour classes a month, recordings included, free demo first."
+    },
+    {
+      "question": "Can we try it before paying?",
+      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic and course-fit consult — no card details, no obligation."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Shewta Singh, mother of Ishan (verified Google review)",
+      "text": "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Sonam Oswal, mother of Dhairya (verified Google review)",
+      "text": "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement.",
+      "rating": 5
+    }
+  ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Two-year error log and syllabus map, maintained by the student",
+      "The Mathematical Exploration (IA), coached against the real criteria",
+      "GDC workflow library (AI) / exact-value fluency system (AA)",
+      "Self-graded past-paper portfolio against real mark schemes",
+      "Full timed paper cycles with documented score progression"
+    ],
+    "total_projects_built": "The IA plus 5+ exam artifacts",
+    "skills_mastered": [
+      "Algebra, functions and trigonometry at DP strength",
+      "AA: calculus, proof and non-calculator craft",
+      "AI: statistics, modelling and GDC power-workflows",
+      "Mark-scheme literacy and method-mark discipline",
+      "HL Paper 3 stamina and investigation technique",
+      "IA construction against the five criteria",
+      "Predicted-grade exam readiness",
+      "Two-year retrieval and revision systems"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 one-hour live classes with your mentor",
+      "past_paper_work": "Weekly question sets from your exact course and level",
+      "ia_season": "Milestone check-ins during Exploration months",
+      "total_per_week": "About 4-5 focused hours"
+    },
+    "support_provided": {
+      "live_sessions": "8 live one-hour classes every month, 2 per week",
+      "mentorship": "One dedicated mentor across the whole Diploma",
+      "recordings": "Every class recorded for revision",
+      "progress_tracking": "Paper-score progression + IA milestones shared with parents",
+      "flexibility": "Intensity adjusts around mocks, IA deadlines and the exam session"
+    },
+    "certification": {
+      "final_certificate": "Course completion certificate from Modern Age Coders",
+      "score_record": "Documented paper-score progression across the arc",
+      "portfolio_projects": "The IA and past-paper portfolio"
+    }
+  },
+  "prerequisites": {
+    "education": "IB DP students (either course, either level) or MYP years 4-5 students heading to the DP",
+    "math_background": "Any — the diagnostic finds the real base and MYP-era gaps are repaired inline",
+    "equipment": "Computer with stable internet; an IB-approved GDC (we advise on models)",
+    "time_commitment": "2 live hours plus 2-3 hours of past-paper and IA work weekly",
+    "english": "Course taught in English",
+    "motivation": "The Diploma provides it; we supply the method and the calm"
+  },
+  "who_is_this_for": {
+    "aa_students": "AA SL/HL students who want the ideas owned and Paper 1 made routine",
+    "ai_students": "AI SL/HL students who need modelling depth and real GDC fluency",
+    "ia_season": "Students whose Exploration is drifting and needs structure and honest critique",
+    "hl_ambition": "HL students building the Paper 3 stamina regular homework never builds",
+    "myp_runway": "MYP students buying the cheapest IB insurance: a real algebra base"
+  },
+  "career_paths_after_completion": [
+    "An IB maths grade that holds predicted grades and university offers",
+    "AA route: engineering, mathematics, physics and CS degree readiness",
+    "AI route: business, economics and social-science quantitative literacy",
+    "Ready for College Mathematics Masterclass or competition mathematics"
+  ],
+  "course_guarantees": {
+    "free_demo": "A free live demo class that doubles as diagnostic and course-fit consult",
+    "recorded_classes": "All live sessions recorded",
+    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
+    "integrity": "IA coached hard, within IB academic integrity rules — always",
+    "certificate": "Completion certificate plus documented score progression"
+  },
+  "relatedCourses": [
+    "igcse-mathematics-mastery",
+    "complete-high-school-mathematics-mastery",
+    "college-mathematics-complete-masterclass",
+    "olympiad-competition-mathematics-mastery"
+  ]
+}
