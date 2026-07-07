@@ -2595,6 +2595,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/scratch-coding-classes-for-kids"
+  to = "/src/pages/scratch-coding-classes-for-kids.html"
+  status = 200
+
+[[redirects]]
+  from = "/scratch-coding-classes-for-kids.md"
+  to = "/src/pages/scratch-coding-classes-for-kids.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/online-math-tutor-canada"
   to = "/src/pages/online-math-tutor-canada.html"
   status = 200
