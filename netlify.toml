@@ -2595,6 +2595,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/online-math-tutor-canada"
+  to = "/src/pages/online-math-tutor-canada.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-math-tutor-canada.md"
+  to = "/src/pages/online-math-tutor-canada.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/online-maths-tutoring-australia"
   to = "/src/pages/online-maths-tutoring-australia.html"
   status = 200
