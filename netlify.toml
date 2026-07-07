@@ -84,6 +84,11 @@
   status = 200
 
 [[redirects]]
+  from = "/downloads/*"
+  to = "/public/downloads/:splat"
+  status = 200
+
+[[redirects]]
   from = "/favicon/*"
   to = "/public/favicon/:splat"
   status = 200
@@ -2592,6 +2597,17 @@
   to = "/team"
   status = 301
   force = true
+
+# Tier 2 comparison/cost page
+[[redirects]]
+  from = "/free-coding-starter-kit"
+  to = "/src/pages/free-coding-starter-kit.html"
+  status = 200
+
+[[redirects]]
+  from = "/free-coding-starter-kit.md"
+  to = "/src/pages/free-coding-starter-kit.md"
+  status = 200
 
 # Tier 2 comparison/cost page
 [[redirects]]

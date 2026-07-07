@@ -133,6 +133,9 @@ function resolveFilePath(url) {
         // Otherwise serve from public/images
         return urlPath.replace('/images/', 'public/images/');
     }
+    if (urlPath.startsWith('/downloads/')) {
+        return urlPath.replace('/downloads/', 'public/downloads/');
+    }
     if (urlPath.startsWith('/favicon/')) {
         return urlPath.replace('/favicon/', 'public/favicon/');
     }

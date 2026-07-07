@@ -7,6 +7,7 @@
 /css/* /src/css/:splat 200
 /js/* /src/js/:splat 200
 /images/* /public/images/:splat 200
+/downloads/* /public/downloads/:splat 200
 /admin/* /src/admin/:splat 200
 
 # Resources sitemap — clean URL for robots.txt to reference (no trailing slash)
@@ -688,6 +689,10 @@
 /team /src/pages/team.html 200
 /team.md /src/pages/team.md 200
 /instructors /team 301!
+
+# Tier 2 comparison/cost page
+/free-coding-starter-kit /src/pages/free-coding-starter-kit.html 200
+/free-coding-starter-kit.md /src/pages/free-coding-starter-kit.md 200
 
 # Tier 2 comparison/cost page
 /coding-vs-maths /src/pages/coding-vs-maths.html 200
