@@ -2595,6 +2595,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/coding-vs-maths"
+  to = "/src/pages/coding-vs-maths.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-vs-maths.md"
+  to = "/src/pages/coding-vs-maths.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/best-age-to-start-coding"
   to = "/src/pages/best-age-to-start-coding.html"
   status = 200
