@@ -2600,6 +2600,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/online-math-tutor-11th-grade"
+  to = "/src/pages/online-math-tutor-11th-grade.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-math-tutor-11th-grade.md"
+  to = "/src/pages/online-math-tutor-11th-grade.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/online-math-tutor-10th-grade"
   to = "/src/pages/online-math-tutor-10th-grade.html"
   status = 200
