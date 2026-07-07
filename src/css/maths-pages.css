@@ -952,3 +952,50 @@ ul, ol { color: var(--mp-ink-soft); }
   radial-gradient(700px 460px at 88% -6%, #d97706 0%, transparent 44%),
   radial-gradient(640px 420px at 4% 110%, #15803d 0%, transparent 52%), var(--mp-hero-bg); }
 .mp-homeschool h1,.mp-homeschool h2,.mp-homeschool h3 { font-weight:700; letter-spacing:-.01em; }
+
+/* ---------- Tier 5 trust/AEO themes (added 2026-07-08) ---------- */
+.mp-trial { --mp-accent:#16a34a; --mp-accent-2:#d97706; --mp-accent-soft:#def3e3;
+  --mp-hero-bg:#0d2513; --mp-hero-ink:#effcf1; --mp-hero-muted:#96c09f;
+  --mp-bg-alt:#f2f9f3; --mp-ink:#132b18; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-trial .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #d97706 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #16a34a 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-trial h1,.mp-trial h2,.mp-trial h3 { font-weight:700; letter-spacing:-.01em; }
+
+.mp-results { --mp-accent:#1e40af; --mp-accent-2:#059669; --mp-accent-soft:#e2e9fd;
+  --mp-hero-bg:#101a38; --mp-hero-ink:#eef2ff; --mp-hero-muted:#9aa7d3;
+  --mp-bg-alt:#f3f6fc; --mp-ink:#121d3c; }
+.mp-results .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #059669 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #1e40af 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-pfaq { --mp-accent:#7c3aed; --mp-accent-2:#d97706; --mp-accent-soft:#ece2fd;
+  --mp-hero-bg:#1d1133; --mp-hero-ink:#f4eeff; --mp-hero-muted:#b1a1d6;
+  --mp-bg-alt:#f7f4fc; --mp-ink:#201436; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-pfaq .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #d97706 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #7c3aed 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-pfaq h1,.mp-pfaq h2,.mp-pfaq h3 { font-weight:700; letter-spacing:-.01em; }
+
+.mp-agestart { --mp-accent:#e11d48; --mp-accent-2:#0d9488; --mp-accent-soft:#fde2e8;
+  --mp-hero-bg:#2e0a14; --mp-hero-ink:#fdeef2; --mp-hero-muted:#d295a4;
+  --mp-bg-alt:#fbf4f6; --mp-ink:#301019; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-agestart .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #0d9488 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #e11d48 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-agestart h1,.mp-agestart h2,.mp-agestart h3 { font-weight:700; letter-spacing:-.01em; }
+
+.mp-cvm { --mp-accent:#7c3aed; --mp-accent-2:#d97706; --mp-accent-soft:#f0e7fd;
+  --mp-hero-bg:#190f2e; --mp-hero-ink:#f3edff; --mp-hero-muted:#ac9dd2;
+  --mp-bg-alt:#f7f4fb; --mp-ink:#1d1233; }
+.mp-cvm .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #d97706 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #7c3aed 0%, transparent 52%), var(--mp-hero-bg); }
+
+.mp-starterkit { --mp-accent:#d97706; --mp-accent-2:#0891b2; --mp-accent-soft:#fdeed3;
+  --mp-hero-bg:#2e1b03; --mp-hero-ink:#fff7e8; --mp-hero-muted:#d8b688;
+  --mp-bg-alt:#fdf9f0; --mp-ink:#2c1d0a; --mp-font-head:"Quicksand","Inter",sans-serif; }
+.mp-starterkit .mp-hero { background:
+  radial-gradient(700px 460px at 88% -6%, #0891b2 0%, transparent 44%),
+  radial-gradient(640px 420px at 4% 110%, #d97706 0%, transparent 52%), var(--mp-hero-bg); }
+.mp-starterkit h1,.mp-starterkit h2,.mp-starterkit h3 { font-weight:700; letter-spacing:-.01em; }
