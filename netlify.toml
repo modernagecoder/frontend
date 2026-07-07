@@ -2595,6 +2595,17 @@
 
 # Tier 2 comparison/cost page
 [[redirects]]
+  from = "/online-coding-classes-for-kids-uk"
+  to = "/src/pages/online-coding-classes-for-kids-uk.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-coding-classes-for-kids-uk.md"
+  to = "/src/pages/online-coding-classes-for-kids-uk.md"
+  status = 200
+
+# Tier 2 comparison/cost page
+[[redirects]]
   from = "/online-coding-classes-for-kids-usa"
   to = "/src/pages/online-coding-classes-for-kids-usa.html"
   status = 200
