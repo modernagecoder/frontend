@@ -669,3 +669,7 @@ No quiz, no pop-up, no sales pressure. Leave a number, a mentor in your time zon
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-united-states*
+
+## Math, taught with the same depth
+
+The same mentors and one-hour live classes also teach math: premium 1-on-1 USD $150/month, small group $100, free demo first. Start here: /algebra-2-tutoring-online /ap-calculus-tutoring-online /calculus-tutoring-online /isee-ssat-math-prep /math-catch-up-program /online-math-tutor-3rd-grade /precalculus-tutoring-online /sat-math-tutoring-online /summer-math-program-online

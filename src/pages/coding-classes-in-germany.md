@@ -711,3 +711,7 @@ No quiz, no pop-up, no sales pressure. Leave a number, a CET-hours mentor calls 
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-germany*
+
+## Maths, taught with the same depth
+
+The same mentors and one-hour live classes also teach maths: premium 1-on-1 USD $150/month, small group $100, free demo first. Start here: /best-online-math-tutoring-2026 /ib-maths-tuition-online /igcse-maths-tuition-online /math-catch-up-program /online-math-tutor-3rd-grade /singapore-math-method-tutoring

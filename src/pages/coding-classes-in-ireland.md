@@ -832,3 +832,7 @@ We hope you've found this page useful even if you don't end up booking. Irish pa
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-ireland*
+
+## Maths, taught with the same depth
+
+The same mentors and one-hour live classes also teach maths: premium 1-on-1 USD $150/month, small group $100, free demo first. Start here: /best-online-math-tutoring-2026 /ib-maths-tuition-online /igcse-maths-tuition-online /math-catch-up-program /online-math-tutor-3rd-grade /singapore-math-method-tutoring

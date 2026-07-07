@@ -871,3 +871,7 @@ We hope you've found this page useful even if you don't end up booking. Singapor
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-singapore*
+
+## Maths, taught with the same depth
+
+The same mentors and one-hour live classes also teach maths: premium 1-on-1 USD $150/month, small group $100, free demo first. Start here: /best-online-math-tutoring-2026 /courses/olympiad-competition-mathematics-mastery /ib-maths-tuition-online /igcse-maths-tuition-online /online-maths-tuition-singapore /singapore-math-method-tutoring
