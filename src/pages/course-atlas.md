@@ -12,7 +12,7 @@ source: src/pages/course-atlas.html
 
 The complete Modern Age Coders catalogue of live, project-based courses in coding, AI/ML, web and app development, data science and mathematics for ages 6 to 65. Every course is taught live in small batches by mentors, with real projects and a certificate. Browse by track below, or [book a free demo](/book-demo).
 
-Total courses listed: 72
+Total courses listed: 82
 
 ## Courses by track
 
@@ -97,6 +97,16 @@ Total courses listed: 72
 - [Olympiad & Competition Mathematics](/courses/olympiad-competition-mathematics-mastery) - Advanced problem-solving and competition training — from school olympiads to AMC, MATHCOUNTS, AIME and beyond.
 - [Business & Finance Mathematics](/courses/complete-business-finance-mathematics-mastery) - Quantitative finance, risk analysis and financial modelling — the maths that moves money.
 - [Data Analytics Mathematics](/courses/data-analytics-mathematics-masterclass) - Statistics, probability and ML mathematics — the foundation every data professional needs.
+- [Early Math Foundations (K-2)](/courses/early-math-foundations) - Playful, concrete math for ages 4-7: counting with meaning, number bonds and shapes, in the years that decide if math becomes a friend.
+- [Mental Maths Mastery for Kids](/courses/mental-maths-mastery-kids) - Number sense, not tricks: bonds, decomposition and estimation built into real, durable calculation speed.
+- [PSLE Maths Mastery](/courses/psle-maths-mastery) - Model method taught as thinking, problem-sum families and Paper 1 fluency, on the MOE syllabus at Singapore evening hours.
+- [Algebra Foundations Masterclass](/courses/algebra-foundations-masterclass) - Pre-Algebra and Algebra 1 taught as a language: the most consequential stretch in school maths, done properly.
+- [Maths Through Coding](/courses/maths-through-coding) - Learn maths by building it in Python: fraction machines, turtle geometry and probability simulators. The signature fusion.
+- [SAT Math 800 Prep](/courses/sat-math-prep-course) - Digital SAT math with method: the algebra core rebuilt, Desmos strategy, adaptive pacing and full mock cycles.
+- [AP Calculus AB & BC Prep](/courses/ap-calculus-exam-prep) - Three ideas taught like ideas, then trained against real FRQ rubrics: AB and BC tracks, score 5 goal.
+- [IB Mathematics AA & AI](/courses/ib-mathematics-aa-ai-masterclass) - Your exact IB course at SL or HL: paper-specific technique, GDC fluency and honest IA coaching.
+- [IGCSE Mathematics Mastery](/courses/igcse-mathematics-mastery) - Cambridge 0580/0980 Core and Extended plus Additional Maths 0606, with non-calculator fluency built in.
+- [GCSE Mathematics Mastery](/courses/gcse-mathematics-mastery) - Foundation and Higher (9-1) for AQA, Edexcel and OCR: grade 7-9 topics taught early, papers trained on real mark schemes.
 
 ## Frequently asked questions
 
