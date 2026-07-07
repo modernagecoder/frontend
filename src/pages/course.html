@@ -1655,6 +1655,68 @@
                 badges: ['popular'], templateUrl: '/courses/college-mathematics-complete-masterclass/', imageUrl: 'applied-maths.png'
             },
 
+            // MATHEMATICS COURSES - Specialty & Exam Prep (2026)
+            {
+                id: 311, category: 'mathematics', title: 'Early Math Foundations (K-2)',
+                description: 'Playful, concrete math for ages 4-7: counting with meaning, number bonds, shapes - the years that decide if math becomes a friend.',
+                skills: ['Counting & Cardinality', 'Number Bonds', 'Early Place Value'], difficulty: 'beginner', ageGroup: 'elementary',
+                badges: ['new'], templateUrl: '/courses/early-math-foundations/', imageUrl: 'early-math-k2.png'
+            },
+            {
+                id: 312, category: 'mathematics', title: 'Mental Maths Mastery (Ages 5-10)',
+                description: 'Number sense, not tricks: bonds, decomposition and estimation built into real, durable calculation speed.',
+                skills: ['Number Bonds', 'Mental Strategies', 'Estimation'], difficulty: 'beginner', ageGroup: 'elementary',
+                badges: ['new', 'hot'], templateUrl: '/courses/mental-maths-mastery-kids/', imageUrl: 'mental-maths-kids.png'
+            },
+            {
+                id: 313, category: 'mathematics', title: 'PSLE Maths Mastery',
+                description: 'Model method taught as thinking, problem-sum families and Paper 1 fluency - MOE syllabus, Singapore evening slots.',
+                skills: ['Model Method', 'Problem Sums', 'PSLE Paper Craft'], difficulty: 'intermediate', ageGroup: 'elementary',
+                badges: ['new'], templateUrl: '/courses/psle-maths-mastery/', imageUrl: 'psle-maths.png'
+            },
+            {
+                id: 314, category: 'mathematics', title: 'Algebra Foundations Masterclass',
+                description: 'Pre-Algebra + Algebra 1 taught as a language: the most consequential stretch in school math, done properly.',
+                skills: ['Equations & Functions', 'Linear Graphs', 'Quadratics Intro'], difficulty: 'intermediate', ageGroup: 'middle',
+                badges: ['new', 'popular'], templateUrl: '/courses/algebra-foundations-masterclass/', imageUrl: 'algebra-foundations.png'
+            },
+            {
+                id: 315, category: 'mathematics', title: 'Maths Through Coding',
+                description: 'Learn math by building it in Python: fraction machines, turtle geometry, probability simulators. The signature fusion.',
+                skills: ['Python', 'Computational Thinking', 'Applied Math'], difficulty: 'intermediate', ageGroup: 'middle',
+                badges: ['new', 'hot'], templateUrl: '/courses/maths-through-coding/', imageUrl: 'maths-through-coding.png'
+            },
+            {
+                id: 316, category: 'mathematics', title: 'SAT Math 800 Prep',
+                description: 'Digital SAT math with method: algebra core rebuilt, Desmos strategy, adaptive pacing and full mock cycles.',
+                skills: ['SAT Algebra', 'Desmos Strategy', 'Mock Cycles'], difficulty: 'advanced', ageGroup: 'high',
+                badges: ['new', 'hot'], templateUrl: '/courses/sat-math-prep-course/', imageUrl: 'sat-math-prep.png'
+            },
+            {
+                id: 317, category: 'mathematics', title: 'AP Calculus AB & BC Prep',
+                description: 'Three ideas taught like ideas, then trained against real FRQ rubrics - AB and BC tracks, score 5 goal.',
+                skills: ['Limits & Derivatives', 'Integrals & FTC', 'FRQ Craft'], difficulty: 'advanced', ageGroup: 'high',
+                badges: ['new'], templateUrl: '/courses/ap-calculus-exam-prep/', imageUrl: 'ap-calculus-prep.png'
+            },
+            {
+                id: 318, category: 'mathematics', title: 'IB Mathematics AA & AI',
+                description: 'Your exact IB course at SL or HL: paper-specific technique, GDC fluency and honest IA coaching.',
+                skills: ['AA & AI Syllabus', 'Paper Craft', 'IA Coaching'], difficulty: 'advanced', ageGroup: 'high',
+                badges: ['new', 'hot'], templateUrl: '/courses/ib-mathematics-aa-ai-masterclass/', imageUrl: 'ib-maths-aa-ai.png'
+            },
+            {
+                id: 319, category: 'mathematics', title: 'IGCSE Mathematics Mastery',
+                description: 'Cambridge 0580/0980 Core and Extended plus Additional Maths 0606, with non-calculator fluency built in.',
+                skills: ['Extended Syllabus', 'Non-Calc Fluency', '0606 Add Maths'], difficulty: 'advanced', ageGroup: 'high',
+                badges: ['new'], templateUrl: '/courses/igcse-mathematics-mastery/', imageUrl: 'igcse-maths.png'
+            },
+            {
+                id: 320, category: 'mathematics', title: 'GCSE Mathematics Mastery',
+                description: 'Foundation and Higher (9-1) for AQA, Edexcel and OCR: grade 7-9 topics taught early, papers trained on real mark schemes.',
+                skills: ['Higher Tier Reach', 'Paper 1 Craft', 'Mark Schemes'], difficulty: 'advanced', ageGroup: 'high',
+                badges: ['new'], templateUrl: '/courses/gcse-mathematics-mastery/', imageUrl: 'gcse-maths.png'
+            },
+
             // MATHEMATICS COURSES - Professionals
             {
                 id: 69, category: 'mathematics', title: 'Business & Finance Math',
@@ -1802,7 +1864,7 @@
                 const isIndian = window.__MAC_IS_INDIAN !== false;
                 // Maths courses carry the higher maths international price; Indian
                 // group price (₹1,499) is the same for maths and coding.
-                const isMathsCourse = /mathematics/i.test(course.templateUrl || '');
+                const isMathsCourse = /math|calculus|algebra/i.test(course.templateUrl || '');
                 const intlStart = isMathsCourse ? '$100' : '$40';
                 const priceAmount = isIndian ? '₹1,499' : intlStart;
                 const prepPrice = isIndian ? '₹1,499/month' : intlStart + '/month';
