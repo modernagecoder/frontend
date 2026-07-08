@@ -64,24 +64,145 @@
     "month_1_2": {
       "title": "Months 1-2: Diagnostic, Course Fit and Algebra at DP Pace",
       "weeks": "Weeks 1-8",
-      "week_1_2": "Full diagnostic: syllabus position, MYP-era gaps, GDC habits, and an honest course-fit read (AA vs AI, SL vs HL) with evidence",
-      "week_3_4": "Exponents, logarithms and the laws that both courses assume, taught from meaning, drilled to fluency",
-      "week_5_6": "Sequences and series: arithmetic, geometric, sigma notation and financial applications (an AI favourite)",
-      "week_7_8": "Proof and reasoning foundations: direct proof and mathematical writing habits (deeper for AA HL)"
+      "week_1_2": {
+        "title": "Diagnostic and Course Fit (AA vs AI, SL vs HL)",
+        "description": "Full diagnostic: syllabus position, MYP-era gaps, GDC habits, and an honest course-fit read (AA vs AI, SL vs HL) with evidence",
+        "topics": [
+          "Full syllabus-position diagnostic across the five IB topic areas",
+          "Locating MYP-era gaps in algebra and number",
+          "Current GDC habits and calculator setup review",
+          "Evidence-based AA vs AI course comparison",
+          "SL vs HL demand and workload honesty",
+          "Baseline record set up for later progress tracking"
+        ],
+        "practice": "Complete a short mixed diagnostic set and log every gap it exposes into a personal error log."
+      },
+      "week_3_4": {
+        "title": "Exponents and Logarithms to DP Fluency",
+        "description": "Exponents, logarithms and the laws that both courses assume, taught from meaning, drilled to fluency",
+        "topics": [
+          "Laws of exponents from first meaning",
+          "Rational and negative indices",
+          "Logarithms as the inverse of exponentials",
+          "Laws of logarithms and change of base",
+          "Solving exponential and logarithmic equations",
+          "Fluency drills that both courses assume"
+        ],
+        "practice": "Work a fluency set converting between exponential and logarithmic form and solving equations without hesitation."
+      },
+      "week_5_6": {
+        "title": "Sequences, Series and Financial Applications",
+        "description": "Sequences and series: arithmetic, geometric, sigma notation and financial applications (an AI favourite)",
+        "topics": [
+          "Arithmetic sequences and series",
+          "Geometric sequences and series",
+          "Sigma notation fluency",
+          "Sum to infinity and the idea of convergence",
+          "Compound interest and annuities (an AI favourite)",
+          "Financial modelling contexts on the GDC"
+        ],
+        "practice": "Solve a mixed set that pairs pure sequence questions with a compound-interest financial application."
+      },
+      "week_7_8": {
+        "title": "Proof and Mathematical Writing Foundations",
+        "description": "Proof and reasoning foundations: direct proof and mathematical writing habits (deeper for AA HL)",
+        "topics": [
+          "Direct proof structure",
+          "Clear mathematical writing and notation",
+          "Logical connectives and reasoning",
+          "Counterexamples and disproof",
+          "Deeper proof demands for AA HL",
+          "Setting the standard for written working"
+        ],
+        "practice": "Write out two short direct proofs with full justification and correct notation."
+      }
     },
     "month_3_5": {
       "title": "Months 3-5: Functions, the DP's Load-Bearing Topic",
       "weeks": "Weeks 9-20",
-      "week_9_12": "Function anatomy: domain, range, composition and inverses, the material the whole DP silently assumes",
-      "week_13_16": "Transformations and graph literacy; quadratics and polynomials to DP depth; the discriminant as an idea",
-      "week_17_20": "Exponential, logarithmic and rational functions with modelling contexts; GDC graphing workflows introduced properly"
+      "week_9_12": {
+        "title": "Function Anatomy: Domain, Range, Composition, Inverses",
+        "description": "Function anatomy: domain, range, composition and inverses, the material the whole DP silently assumes",
+        "topics": [
+          "Domain and range from meaning",
+          "Function notation and evaluation",
+          "Composite functions",
+          "Inverse functions and their graphs",
+          "One-to-one functions and the horizontal-line idea",
+          "Why the whole DP silently assumes this fluency"
+        ],
+        "practice": "Build a reference sheet of domain, range and inverse for a set of standard functions."
+      },
+      "week_13_16": {
+        "title": "Transformations, Quadratics and Polynomials",
+        "description": "Transformations and graph literacy; quadratics and polynomials to DP depth; the discriminant as an idea",
+        "topics": [
+          "Translations, stretches and reflections of graphs",
+          "Reading graphs fluently",
+          "Quadratics in vertex, root and factored forms",
+          "The discriminant as an idea, not just a formula",
+          "Polynomial behaviour and the factor theorem",
+          "Sketching to DP depth"
+        ],
+        "practice": "Sketch a family of transformed graphs by hand, then confirm each on the GDC."
+      },
+      "week_17_20": {
+        "title": "Exponential, Log and Rational Functions with the GDC",
+        "description": "Exponential, logarithmic and rational functions with modelling contexts; GDC graphing workflows introduced properly",
+        "topics": [
+          "Exponential growth and decay models",
+          "Logarithmic functions and scales",
+          "Rational functions and asymptotes",
+          "Modelling contexts drawn from data",
+          "GDC graphing workflow set up properly",
+          "Interpreting features straight from a graph"
+        ],
+        "practice": "Model a given real context with an exponential or rational function and justify the fit on the GDC."
+      }
     },
     "month_6_8": {
       "title": "Months 6-8: Geometry, Trigonometry and First Paper Craft",
       "weeks": "Weeks 21-32",
-      "week_21_24": "Trigonometry rebuilt: unit circle, identities and equations (AA depth) / right-triangle and applied trig with bearings (AI emphasis)",
-      "week_25_28": "Vectors (AA HL) and 3D geometry; sine and cosine rules in applied problems",
-      "week_29_32": "First past-paper season: question anatomy, mark-scheme logic, and the review ritual used for the next eighteen months"
+      "week_21_24": {
+        "title": "Trigonometry: Unit Circle to Applied Bearings",
+        "description": "Trigonometry rebuilt: unit circle, identities and equations (AA depth) / right-triangle and applied trig with bearings (AI emphasis)",
+        "topics": [
+          "Unit circle and exact values (AA depth)",
+          "Trigonometric identities",
+          "Solving trigonometric equations (AA)",
+          "Right-triangle trigonometry (AI emphasis)",
+          "Applied trig with bearings and angles of elevation",
+          "Radian measure introduced"
+        ],
+        "practice": "Complete a split set: AA exact-value and identity work, AI applied bearings problems."
+      },
+      "week_25_28": {
+        "title": "Vectors, 3D Geometry and the Sine and Cosine Rules",
+        "description": "Vectors (AA HL) and 3D geometry; sine and cosine rules in applied problems",
+        "topics": [
+          "Vectors and vector operations (AA HL)",
+          "3D coordinate geometry",
+          "The sine rule in non-right triangles",
+          "The cosine rule and the ambiguous case",
+          "Area of a triangle formula",
+          "Applied problems combining the rules"
+        ],
+        "practice": "Solve a set of non-right-triangle problems, choosing the sine or cosine rule deliberately."
+      },
+      "week_29_32": {
+        "title": "First Past-Paper Season and the Review Ritual",
+        "description": "First past-paper season: question anatomy, mark-scheme logic, and the review ritual used for the next eighteen months",
+        "topics": [
+          "Anatomy of an IB exam question",
+          "Command terms and what they demand",
+          "Reading and applying mark schemes",
+          "Method marks versus answer marks",
+          "The review ritual used for the next eighteen months",
+          "Building the error-log habit"
+        ],
+        "practice": "Sit one short past-paper section under time, then self-mark it against the real mark scheme.",
+        "assessment": "End-of-phase checkpoint: a timed past-paper section marked against the official scheme sets the Phase 1 baseline."
+      }
     }
   },
   "phase_2_course_depth": {
@@ -90,22 +211,121 @@
     "month_9_11": {
       "title": "Months 9-11: The AA Track / The AI Track",
       "weeks": "Weeks 33-44",
-      "week_33_36": "AA: limits and differentiation from first principles; the derivative toolkit including chain rule mastery. AI: descriptive statistics, correlation and regression on the GDC",
-      "week_37_40": "AA: applications, tangents, optimisation, kinematics; introduction to integration. AI: probability, distributions (binomial, normal) and interpretation craft",
-      "week_41_44": "AA: integration techniques and areas/volumes. AI: modelling cycle, choose, fit, critique and improve a model; matrices and networks (HL)"
+      "week_33_36": {
+        "title": "AA Differentiation from First Principles / AI Statistics and Regression",
+        "description": "AA: limits and differentiation from first principles; the derivative toolkit including chain rule mastery. AI: descriptive statistics, correlation and regression on the GDC",
+        "topics": [
+          "AA: limits and the idea of a derivative",
+          "AA: differentiation from first principles",
+          "AA: derivative toolkit and chain rule mastery",
+          "AI: descriptive statistics measures",
+          "AI: correlation and Pearson r",
+          "AI: linear regression on the GDC"
+        ],
+        "practice": "AA students differentiate a mixed set including chain-rule cases; AI students run a regression on a dataset and interpret it."
+      },
+      "week_37_40": {
+        "title": "AA Applications and Integration / AI Probability Distributions",
+        "description": "AA: applications, tangents, optimisation, kinematics; introduction to integration. AI: probability, distributions (binomial, normal) and interpretation craft",
+        "topics": [
+          "AA: tangents and normals",
+          "AA: optimisation problems",
+          "AA: kinematics with calculus",
+          "AA: introduction to integration",
+          "AI: probability rules and diagrams",
+          "AI: binomial and normal distributions with interpretation"
+        ],
+        "practice": "AA students solve an optimisation and a kinematics problem; AI students compute and interpret binomial and normal probabilities."
+      },
+      "week_41_44": {
+        "title": "AA Integration and Areas / AI Modelling Cycle and Networks",
+        "description": "AA: integration techniques and areas/volumes. AI: modelling cycle, choose, fit, critique and improve a model; matrices and networks (HL)",
+        "topics": [
+          "AA: integration techniques",
+          "AA: definite integrals and area under a curve",
+          "AA: volumes of revolution",
+          "AI: the modelling cycle, choose, fit, critique, improve",
+          "AI: matrices and their operations (HL)",
+          "AI: networks and graph theory (HL)"
+        ],
+        "practice": "AA students find an area and a volume by integration; AI students fit and critique a model for a given dataset."
+      }
     },
     "month_12_14": {
       "title": "Months 12-14: IA Season, the Exploration, Shepherded",
       "weeks": "Weeks 45-56",
-      "week_45_48": "Topic selection against the five criteria: personal engagement that is real, mathematics that can score; proposal locked with milestones",
-      "week_49_52": "The mathematics deepened: the mentor pushes rigour and aim while the student drives; communication and notation standards set",
-      "week_53_56": "Draft critique rounds: honest feedback against each criterion, reflection strengthened, and the final polish plan, the work staying the student's own throughout, per IB academic integrity rules"
+      "week_45_48": {
+        "title": "IA Topic Selection and Proposal",
+        "description": "Topic selection against the five criteria: personal engagement that is real, mathematics that can score; proposal locked with milestones",
+        "topics": [
+          "The five IA assessment criteria explained",
+          "Genuine personal engagement",
+          "Mathematics chosen so it can actually score",
+          "Scoping a workable exploration question",
+          "A milestone plan for the IA",
+          "Academic integrity expectations set from the start"
+        ],
+        "practice": "Draft three candidate IA questions and test each honestly against the five criteria.",
+        "assessment": "IA milestone: the exploration proposal is locked with a dated milestone plan."
+      },
+      "week_49_52": {
+        "title": "Deepening the IA Mathematics",
+        "description": "The mathematics deepened: the mentor pushes rigour and aim while the student drives; communication and notation standards set",
+        "topics": [
+          "Pushing mathematical rigour in the exploration",
+          "Meeting the aim criterion",
+          "Communication and structure standards",
+          "Correct notation throughout",
+          "Student-led work with mentor questioning",
+          "Keeping the exploration honestly the student's own"
+        ],
+        "practice": "Develop the core mathematics of your exploration and annotate where each criterion is being met."
+      },
+      "week_53_56": {
+        "title": "IA Draft Critique and Final Polish Plan",
+        "description": "Draft critique rounds: honest feedback against each criterion, reflection strengthened, and the final polish plan, the work staying the student's own throughout, per IB academic integrity rules",
+        "topics": [
+          "Honest critique against each criterion",
+          "Strengthening the reflection",
+          "Improving communication and presentation",
+          "The final polish plan",
+          "Academic integrity kept throughout",
+          "Self-checking before submission"
+        ],
+        "practice": "Revise your IA draft against criterion-by-criterion feedback and record the changes you make.",
+        "assessment": "IA milestone: a full draft is reviewed against all five criteria before the final polish."
+      }
     },
     "month_15_16": {
       "title": "Months 15-16: Syllabus Depth Continues",
       "weeks": "Weeks 57-64",
-      "week_57_60": "AA: further calculus (HL: deeper techniques, Maclaurin ideas); AI: hypothesis testing, chi-squared and t-tests with interpretation",
-      "week_61_64": "HL students of both courses: Paper 3-style extended investigations introduced; SL students: consolidation cycles by error-log priority"
+      "week_57_60": {
+        "title": "AA Further Calculus / AI Hypothesis Testing",
+        "description": "AA: further calculus (HL: deeper techniques, Maclaurin ideas); AI: hypothesis testing, chi-squared and t-tests with interpretation",
+        "topics": [
+          "AA: further integration and differentiation",
+          "AA HL: deeper techniques and Maclaurin ideas",
+          "AI: the logic of hypothesis testing",
+          "AI: chi-squared tests for independence",
+          "AI: t-tests and interpretation",
+          "Reading statistical output critically"
+        ],
+        "practice": "AA students tackle a further-calculus set; AI students run and interpret a chi-squared or t-test."
+      },
+      "week_61_64": {
+        "title": "HL Paper 3 Investigations Introduced / SL Consolidation",
+        "description": "HL students of both courses: Paper 3-style extended investigations introduced; SL students: consolidation cycles by error-log priority",
+        "topics": [
+          "HL: the structure of Paper 3 extended investigations",
+          "HL: harvesting earlier parts of a problem",
+          "HL: sustaining an unfamiliar investigation",
+          "SL: consolidation by error-log priority",
+          "SL: targeted retrieval of weak topics",
+          "Both: connecting topics across the syllabus"
+        ],
+        "practice": "HL students attempt one extended investigation; SL students clear their top three error-log items.",
+        "assessment": "End-of-phase checkpoint: HL students are marked on a Paper 3 style investigation and SL students on a targeted consolidation set."
+      }
     }
   },
   "phase_3_exam_mastery": {
@@ -114,21 +334,107 @@
     "month_17_19": {
       "title": "Months 17-19: Closing the Syllabus with Margin",
       "weeks": "Weeks 65-76",
-      "week_65_70": "Final syllabus topics per course and level, taught early enough to settle: remaining probability/statistics (AA), remaining calculus for AI HL, kinematics and applications",
-      "week_71_76": "Full-syllabus connection map built by the student; spaced retrieval cycles across all five topic areas"
+      "week_65_70": {
+        "title": "Closing the Final Syllabus Topics",
+        "description": "Final syllabus topics per course and level, taught early enough to settle: remaining probability/statistics (AA), remaining calculus for AI HL, kinematics and applications",
+        "topics": [
+          "Remaining probability and statistics (AA)",
+          "Remaining calculus for AI HL",
+          "Kinematics and applied problems",
+          "Any outstanding course-specific topics",
+          "Topics taught early enough to settle",
+          "Linking new topics back to earlier work"
+        ],
+        "practice": "Complete a set on the last new topics for your exact course and level."
+      },
+      "week_71_76": {
+        "title": "Full-Syllabus Connection Map and Spaced Retrieval",
+        "description": "Full-syllabus connection map built by the student; spaced retrieval cycles across all five topic areas",
+        "topics": [
+          "Building a personal syllabus connection map",
+          "Linking the five topic areas",
+          "Scheduling spaced retrieval",
+          "Interleaving topics in practice",
+          "Identifying weak links to revisit",
+          "Preparing for full paper cycles"
+        ],
+        "practice": "Build a one-page connection map of the whole syllabus and schedule your spaced retrieval."
+      }
     },
     "month_20_22": {
       "title": "Months 20-22: Paper Craft by Course and Level",
       "weeks": "Weeks 77-88",
-      "week_77_80": "AA Paper 1 non-calculator craft: exact values, structure recognition and clean written working. AI: GDC speed workflows for every paper",
-      "week_81_84": "Paper 2 technique: extended structured questions, method-mark discipline and time allocation from personal data",
-      "week_85_88": "HL Paper 3: long unfamiliar investigations, harvesting earlier parts, keeping momentum, and the calm that stamina training buys"
+      "week_77_80": {
+        "title": "AA Paper 1 Non-Calculator Craft / AI GDC Speed",
+        "description": "AA Paper 1 non-calculator craft: exact values, structure recognition and clean written working. AI: GDC speed workflows for every paper",
+        "topics": [
+          "AA: exact-value fluency",
+          "AA: structure recognition inside questions",
+          "AA: clean written working for method marks",
+          "AI: GDC speed workflows",
+          "AI: efficient graphing, solving and regression",
+          "Acceptable use of technology"
+        ],
+        "practice": "AA students complete a non-calculator set; AI students time their GDC workflows on typical questions."
+      },
+      "week_81_84": {
+        "title": "Paper 2 Technique and Time Allocation",
+        "description": "Paper 2 technique: extended structured questions, method-mark discipline and time allocation from personal data",
+        "topics": [
+          "Strategy for extended structured questions",
+          "Method-mark discipline",
+          "Time allocation from personal data",
+          "Recovering from a stuck part",
+          "Presentation that earns follow-through marks",
+          "GDC use within Paper 2"
+        ],
+        "practice": "Sit a Paper 2 section and log your time per question to set personal pacing targets."
+      },
+      "week_85_88": {
+        "title": "HL Paper 3 Stamina and Investigation Craft",
+        "description": "HL Paper 3: long unfamiliar investigations, harvesting earlier parts, keeping momentum, and the calm that stamina training buys",
+        "topics": [
+          "Long unfamiliar investigations",
+          "Harvesting earlier parts to reach later ones",
+          "Keeping momentum through difficulty",
+          "Managing time across a long problem",
+          "The calm that stamina training buys",
+          "Reviewing Paper 3 against the scheme"
+        ],
+        "practice": "Complete a full HL Paper 3 style investigation under time and review it against the mark scheme."
+      }
     },
     "month_23_24": {
       "title": "Months 23-24: Full Cycles and the Exam Session",
       "weeks": "Weeks 89-96",
-      "week_89_92": "Full timed past-paper cycles by exact course and level, reviewed against real mark schemes; error-log closure",
-      "week_93_96": "Peak plan: final consolidations, rest discipline, exam-day routines, and the session met as a rehearsed place"
+      "week_89_92": {
+        "title": "Full Timed Past-Paper Cycles",
+        "description": "Full timed past-paper cycles by exact course and level, reviewed against real mark schemes; error-log closure",
+        "topics": [
+          "Full timed past-paper cycles",
+          "Papers for the exact course and level",
+          "Marking against real mark schemes",
+          "Error-log closure",
+          "Spotting patterns across mistakes",
+          "Refining exam-day strategy"
+        ],
+        "practice": "Sit a full timed paper, self-mark it, and close the error-log items it reveals.",
+        "assessment": "Mock checkpoint: full timed papers are marked against official schemes and score progression is recorded."
+      },
+      "week_93_96": {
+        "title": "Peak Plan and the Exam Session",
+        "description": "Peak plan: final consolidations, rest discipline, exam-day routines, and the session met as a rehearsed place",
+        "topics": [
+          "Final targeted consolidations",
+          "Rest and recovery discipline",
+          "Exam-day routines",
+          "GDC and materials checklist",
+          "Managing nerves through rehearsal",
+          "Meeting the session as a rehearsed place"
+        ],
+        "practice": "Run a final light consolidation and rehearse your full exam-day routine.",
+        "assessment": "The IB examination session: papers are sat for the student's exact course and level."
+      }
     }
   },
   "faqs": [

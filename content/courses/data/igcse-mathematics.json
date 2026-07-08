@@ -64,26 +64,172 @@
     "month_1_2": {
       "title": "Months 1-2: Diagnostic + Number, Bare-Handed",
       "weeks": "Weeks 1-8",
-      "week_1_2": "Full diagnostic: board and syllabus code confirmed, tier fit assessed honestly, non-calculator fluency and algebra base measured",
-      "week_3_4": "Number fluency rebuilt: fractions, decimals, percentages and estimation as a checking habit, the non-calculator paper's exact territory",
-      "week_5_6": "Ratio, proportion and rates of change; standard form with real scale",
-      "week_7_8": "Indices and surds from meaning; bounds and accuracy, the quietly examined skills"
+      "week_1_2": {
+        "title": "Diagnostic, Syllabus Code and Tier Fit",
+        "description": "Full diagnostic: board and syllabus code confirmed, tier fit assessed honestly, non-calculator fluency and algebra base measured",
+        "topics": [
+          "Board and syllabus code confirmed: 0580, 0980 or 4MA1",
+          "Core versus Extended tier fit assessed honestly",
+          "Non-calculator fluency screen",
+          "Algebra base measured",
+          "Number and ratio accuracy audit",
+          "Honest starting-grade picture"
+        ],
+        "practice": "A mixed non-calculator and algebra diagnostic set matched to the suspected tier.",
+        "assessment": "Baseline grade estimate with a written Core-or-Extended recommendation and a topic-priority map."
+      },
+      "week_3_4": {
+        "title": "Number Fluency Rebuilt",
+        "description": "Number fluency rebuilt: fractions, decimals, percentages and estimation as a checking habit, the non-calculator paper's exact territory",
+        "topics": [
+          "The four operations with fractions",
+          "Decimal calculations without a calculator",
+          "Percentage of, increase, decrease and reverse",
+          "Converting between fractions, decimals and percentages",
+          "Estimation and rounding as a check",
+          "Non-calculator paper territory"
+        ],
+        "practice": "A non-calculator number set with estimation checks on every answer."
+      },
+      "week_5_6": {
+        "title": "Ratio, Proportion and Standard Form",
+        "description": "Ratio, proportion and rates of change; standard form with real scale",
+        "topics": [
+          "Sharing in a given ratio",
+          "Direct and inverse proportion",
+          "Rates of change in context",
+          "Standard form and its arithmetic",
+          "Standard form at real scale",
+          "Unit conversions"
+        ],
+        "practice": "Ratio, proportion and standard-form questions in applied contexts."
+      },
+      "week_7_8": {
+        "title": "Indices, Surds, Bounds and Accuracy",
+        "description": "Indices and surds from meaning; bounds and accuracy, the quietly examined skills",
+        "topics": [
+          "Index laws with negative and fractional powers",
+          "Surds and simplifying (Extended)",
+          "Rationalising and surd arithmetic",
+          "Upper and lower bounds",
+          "Accuracy and significant figures",
+          "Bounds applied in calculations"
+        ],
+        "practice": "An indices, surds and bounds set including accuracy questions."
+      }
     },
     "month_3_4": {
       "title": "Months 3-4: Algebra as a Language",
       "weeks": "Weeks 9-16",
-      "week_9_10": "Expressions, expansion and factorisation with the area model underneath",
-      "week_11_12": "Linear equations and inequalities read as sentences; changing the subject of formulae",
-      "week_13_14": "Straight-line graphs: gradient as rate, intercepts as starting values, equation, table and graph as one story",
-      "week_15_16": "Simultaneous equations by structure; sequences and the nth term"
+      "week_9_10": {
+        "title": "Expressions, Expansion and Factorisation",
+        "description": "Expressions, expansion and factorisation with the area model underneath",
+        "topics": [
+          "Simplifying and collecting like terms",
+          "Expanding single and double brackets",
+          "The area model behind expansion",
+          "Factorising into brackets",
+          "Common-factor extraction",
+          "Algebraic notation discipline"
+        ],
+        "practice": "An expand-and-factorise set anchored by area-model diagrams."
+      },
+      "week_11_12": {
+        "title": "Linear Equations, Inequalities and Formulae",
+        "description": "Linear equations and inequalities read as sentences; changing the subject of formulae",
+        "topics": [
+          "Solving linear equations step by step",
+          "Equations with brackets and fractions",
+          "Solving and representing inequalities",
+          "Number-line representation of solutions",
+          "Changing the subject of a formula",
+          "Reading an equation as a sentence"
+        ],
+        "practice": "Linear equation, inequality and rearrangement questions with worded contexts."
+      },
+      "week_13_14": {
+        "title": "Straight-Line Graphs as One Story",
+        "description": "Straight-line graphs: gradient as rate, intercepts as starting values, equation, table and graph as one story",
+        "topics": [
+          "Plotting straight-line graphs",
+          "Gradient understood as a rate",
+          "Intercepts as starting values",
+          "Equation, table and graph as one story",
+          "Finding the equation of a line",
+          "Parallel and perpendicular lines"
+        ],
+        "practice": "Straight-line graph questions linking equation, table and graph."
+      },
+      "week_15_16": {
+        "title": "Simultaneous Equations and Sequences",
+        "description": "Simultaneous equations by structure; sequences and the nth term",
+        "topics": [
+          "Simultaneous equations by elimination",
+          "Simultaneous equations by substitution",
+          "Choosing a method by structure",
+          "Linear and simple non-linear sequences",
+          "Finding and using the nth term rule",
+          "Pattern recognition"
+        ],
+        "practice": "A simultaneous-equations and nth-term set graded by structure."
+      }
     },
     "month_5_6": {
       "title": "Months 5-6: Shape, Space and Data Foundations",
       "weeks": "Weeks 17-24",
-      "week_17_18": "Angle reasoning: parallel lines, polygons and circle basics with justification language",
-      "week_19_20": "Perimeter, area and volume including compound shapes; Pythagoras from a picture",
-      "week_21_22": "Statistics foundations: averages, charts and scatter diagrams read critically",
-      "week_23_24": "Phase checkpoint: a full Core-tier paper under timing, reviewed against the mark scheme, the review ritual for the rest of the course"
+      "week_17_18": {
+        "title": "Angle Reasoning and Justification",
+        "description": "Angle reasoning: parallel lines, polygons and circle basics with justification language",
+        "topics": [
+          "Angles on lines and around points",
+          "Parallel-line angle rules",
+          "Interior and exterior angles of polygons",
+          "Basic circle angle facts",
+          "Stating a reason for every step",
+          "Multi-step angle chains"
+        ],
+        "practice": "Angle problems requiring a named reason for each step."
+      },
+      "week_19_20": {
+        "title": "Perimeter, Area, Volume and Pythagoras",
+        "description": "Perimeter, area and volume including compound shapes; Pythagoras from a picture",
+        "topics": [
+          "Perimeter and area of standard shapes",
+          "Compound and composite shapes",
+          "Volume and surface area of solids",
+          "Pythagoras derived from a picture",
+          "Applying Pythagoras in context",
+          "Units for length, area and volume"
+        ],
+        "practice": "A mensuration set combining compound shapes and Pythagoras problems."
+      },
+      "week_21_22": {
+        "title": "Statistics Foundations",
+        "description": "Statistics foundations: averages, charts and scatter diagrams read critically",
+        "topics": [
+          "Mean, median, mode and range",
+          "Averages from frequency tables",
+          "Bar charts, pie charts and pictograms",
+          "Scatter diagrams and correlation",
+          "Lines of best fit",
+          "Reading data critically"
+        ],
+        "practice": "A statistics set interpreting charts and a scatter diagram."
+      },
+      "week_23_24": {
+        "title": "Phase 1 Core-Tier Checkpoint",
+        "description": "Phase checkpoint: a full Core-tier paper under timing, reviewed against the mark scheme, the review ritual for the rest of the course",
+        "topics": [
+          "Full Core-tier paper under timing",
+          "Mark-scheme review of every question",
+          "The review ritual established",
+          "Method-mark awareness introduced",
+          "Error log started from the checkpoint",
+          "Timing across a full paper"
+        ],
+        "practice": "A complete Core-tier paper sat to time, then reviewed against the mark scheme.",
+        "assessment": "Core-tier checkpoint paper marked to the mark scheme, establishing the review ritual and the error log."
+      }
     }
   },
   "phase_2_extended": {
@@ -92,26 +238,171 @@
     "month_7_8": {
       "title": "Months 7-8: Quadratics and Functions",
       "weeks": "Weeks 25-32",
-      "week_25_26": "Quadratic equations by factorising, completing the square and the formula, chosen by structure",
-      "week_27_28": "Quadratic graphs and real contexts; simultaneous linear-quadratic systems",
-      "week_29_30": "Function notation, composite and inverse functions, read as meaning, where half of all function marks are lost",
-      "week_31_32": "Graph transformations and the graph-literacy the top questions assume"
+      "week_25_26": {
+        "title": "Solving Quadratics Three Ways",
+        "description": "Quadratic equations by factorising, completing the square and the formula, chosen by structure",
+        "topics": [
+          "Solving by factorising",
+          "Completing the square",
+          "The quadratic formula",
+          "Choosing the method by structure",
+          "Roots and their meaning",
+          "Extended-tier quadratic manipulation"
+        ],
+        "practice": "A quadratics set requiring choice of factorising, completing the square or the formula."
+      },
+      "week_27_28": {
+        "title": "Quadratic Graphs and Linear-Quadratic Systems",
+        "description": "Quadratic graphs and real contexts; simultaneous linear-quadratic systems",
+        "topics": [
+          "Sketching quadratic graphs",
+          "Roots, intercepts and symmetry",
+          "Quadratics in real contexts",
+          "Simultaneous linear-quadratic systems",
+          "Solving graphically and algebraically",
+          "Interpreting the parabola"
+        ],
+        "practice": "Quadratic-graph questions plus simultaneous linear-quadratic systems."
+      },
+      "week_29_30": {
+        "title": "Functions: Composite and Inverse",
+        "description": "Function notation, composite and inverse functions, read as meaning, where half of all function marks are lost",
+        "topics": [
+          "Function notation and evaluation",
+          "Composite functions and order",
+          "Inverse functions and how to find them",
+          "Domain and range awareness",
+          "Common function-mark traps",
+          "Functions read as meaning"
+        ],
+        "practice": "A functions set focused on composite and inverse questions."
+      },
+      "week_31_32": {
+        "title": "Graph Transformations and Graph Literacy",
+        "description": "Graph transformations and the graph-literacy the top questions assume",
+        "topics": [
+          "Translations and reflections of graphs",
+          "Recognising graphs from equations",
+          "Cubic, reciprocal and exponential shapes",
+          "Reading features from a graph",
+          "Graph literacy the top questions assume",
+          "Sketching from key points"
+        ],
+        "practice": "Graph-transformation and graph-reading questions at Extended standard."
+      }
     },
     "month_9_10": {
       "title": "Months 9-10: Trigonometry and Vectors at Full Depth",
       "weeks": "Weeks 33-40",
-      "week_33_34": "Right-triangle trig consolidated, then the sine and cosine rules with bearing and area applications",
-      "week_35_36": "Trig graphs and solving simple trig equations (Extended reach)",
-      "week_37_38": "Vectors: notation, geometry proofs and the classic Extended vector question, defanged",
-      "week_39_40": "Circle theorems completed with proof-quality justification"
+      "week_33_34": {
+        "title": "Trigonometry: Right Triangles to Sine and Cosine Rules",
+        "description": "Right-triangle trig consolidated, then the sine and cosine rules with bearing and area applications",
+        "topics": [
+          "Sine, cosine and tangent ratios",
+          "Finding sides and angles in right triangles",
+          "The sine rule",
+          "The cosine rule",
+          "Area of a triangle with the sine formula",
+          "Bearings and applications"
+        ],
+        "practice": "A trig set moving from right triangles to sine and cosine rule problems."
+      },
+      "week_35_36": {
+        "title": "Trig Graphs and Equations",
+        "description": "Trig graphs and solving simple trig equations (Extended reach)",
+        "topics": [
+          "Sine, cosine and tangent graphs",
+          "Features and periodicity of trig graphs",
+          "Solving simple trig equations",
+          "Reading solutions from a graph",
+          "Extended-reach trig contexts",
+          "Exact values where required"
+        ],
+        "practice": "Trig-graph and simple trig-equation questions at Extended reach."
+      },
+      "week_37_38": {
+        "title": "Vectors and Geometric Proof",
+        "description": "Vectors: notation, geometry proofs and the classic Extended vector question, defanged",
+        "topics": [
+          "Vector notation and column vectors",
+          "Adding and scaling vectors",
+          "Position vectors and paths",
+          "Geometry proofs with vectors",
+          "The classic Extended vector question",
+          "Proving collinear or parallel points"
+        ],
+        "practice": "Vector questions building to the classic Extended vector proof."
+      },
+      "week_39_40": {
+        "title": "Circle Theorems",
+        "description": "Circle theorems completed with proof-quality justification",
+        "topics": [
+          "The main circle theorems",
+          "Angle at the centre and at the circumference",
+          "Cyclic quadrilaterals and tangents",
+          "The alternate segment theorem",
+          "Proof-quality justification language",
+          "Multi-theorem angle chains"
+        ],
+        "practice": "Circle-theorem problems requiring a named theorem for each step."
+      }
     },
     "month_11_12": {
       "title": "Months 11-12: Probability, Data and the Extended Checkpoint",
       "weeks": "Weeks 41-48",
-      "week_41_42": "Probability with tree diagrams and conditional reasoning; combined events without formula-panic",
-      "week_43_44": "Cumulative frequency, histograms and comparing distributions like a statistician",
-      "week_45_46": "Differentiation introduced (0580 Extended's calculus taste): gradients of curves and turning points",
-      "week_47_48": "Phase checkpoint: full Extended-tier past paper cycle with mark-scheme review and error-log update"
+      "week_41_42": {
+        "title": "Probability and Tree Diagrams",
+        "description": "Probability with tree diagrams and conditional reasoning; combined events without formula-panic",
+        "topics": [
+          "Probability of single and combined events",
+          "Tree diagrams for dependent events",
+          "Conditional reasoning",
+          "With and without replacement",
+          "Set notation and Venn diagrams",
+          "Avoiding formula-panic"
+        ],
+        "practice": "A probability set using tree diagrams and conditional reasoning."
+      },
+      "week_43_44": {
+        "title": "Cumulative Frequency and Histograms",
+        "description": "Cumulative frequency, histograms and comparing distributions like a statistician",
+        "topics": [
+          "Cumulative frequency curves",
+          "Median, quartiles and interquartile range",
+          "Histograms with unequal class widths",
+          "Frequency density",
+          "Box plots and comparing distributions",
+          "Interpreting data like a statistician"
+        ],
+        "practice": "A set drawing and reading cumulative frequency curves and histograms."
+      },
+      "week_45_46": {
+        "title": "Introductory Differentiation (Extended)",
+        "description": "Differentiation introduced (0580 Extended's calculus taste): gradients of curves and turning points",
+        "topics": [
+          "Differentiation as the gradient of a curve",
+          "Differentiating simple polynomials",
+          "Gradient at a point",
+          "Turning points from the derivative",
+          "The 0580 Extended calculus taste",
+          "Interpreting a rate of change"
+        ],
+        "practice": "Introductory differentiation questions finding gradients and turning points."
+      },
+      "week_47_48": {
+        "title": "Phase 2 Extended-Tier Checkpoint",
+        "description": "Phase checkpoint: full Extended-tier past paper cycle with mark-scheme review and error-log update",
+        "topics": [
+          "Full Extended-tier past-paper cycle",
+          "Mark-scheme review of long questions",
+          "Method-mark and follow-through practice",
+          "Error-log update from the cycle",
+          "Timing across an Extended paper",
+          "Weak-topic list refreshed"
+        ],
+        "practice": "A full Extended-tier past paper sat to time and reviewed against the mark scheme.",
+        "assessment": "Extended-tier past-paper cycle marked to the mark scheme, updating the error log and weak-topic list."
+      }
     }
   },
   "phase_3_additional_and_exam": {
@@ -120,21 +411,106 @@
     "month_13_15": {
       "title": "Months 13-15: Additional Mathematics 0606 (or Extended Consolidation)",
       "weeks": "Weeks 49-60",
-      "week_49_52": "0606: functions at depth, quadratics revisited with rigour, indices and surds, simultaneous equations, the A-Level trailer begins. (Parallel track: Extended students consolidate by error-log priority)",
-      "week_53_56": "0606: binomial expansion, trigonometric identities and equations, logarithmic and exponential functions",
-      "week_57_60": "0606: introductory calculus, differentiation and integration with applications; vectors and kinematics"
+      "week_49_52": {
+        "title": "0606 Functions and Algebra Foundations",
+        "description": "0606: functions at depth, quadratics revisited with rigour, indices and surds, simultaneous equations, the A-Level trailer begins. (Parallel track: Extended students consolidate by error-log priority)",
+        "topics": [
+          "0606 functions at depth",
+          "Quadratics revisited with rigour",
+          "Indices and surds",
+          "Simultaneous equations for 0606",
+          "The A-Level trailer begins",
+          "Parallel Extended consolidation by error-log priority"
+        ],
+        "practice": "0606 function and algebra problems, with Extended students on a parallel consolidation set."
+      },
+      "week_53_56": {
+        "title": "0606 Binomial, Trig Identities and Logs",
+        "description": "0606: binomial expansion, trigonometric identities and equations, logarithmic and exponential functions",
+        "topics": [
+          "Binomial expansion",
+          "Trigonometric identities",
+          "Solving trigonometric equations",
+          "Logarithmic functions and laws",
+          "Exponential functions",
+          "Modelling with exponentials and logs"
+        ],
+        "practice": "A 0606 set on binomial expansion, trig identities and log-exponential functions."
+      },
+      "week_57_60": {
+        "title": "0606 Calculus, Vectors and Kinematics",
+        "description": "0606: introductory calculus, differentiation and integration with applications; vectors and kinematics",
+        "topics": [
+          "Differentiation rules and applications",
+          "Integration as the reverse of differentiation",
+          "Areas and definite integrals",
+          "Applications to rates and optimisation",
+          "Vectors at 0606 depth",
+          "Kinematics of motion"
+        ],
+        "practice": "A 0606 calculus set with differentiation, integration and a kinematics problem."
+      }
     },
     "month_16_17": {
       "title": "Months 16-17: Past-Paper Craft by Board and Series",
       "weeks": "Weeks 61-68",
-      "week_61_64": "Paper cycles from your exact board: non-calculator papers under bare-hands discipline, calculator papers with method-mark craft",
-      "week_65_68": "Timing plans from personal data; multi-step question chains rehearsed; the plus-minus and units habits that stop point leaks"
+      "week_61_64": {
+        "title": "Board-Exact Paper Cycles",
+        "description": "Paper cycles from your exact board: non-calculator papers under bare-hands discipline, calculator papers with method-mark craft",
+        "topics": [
+          "Paper cycles from the exact board and series",
+          "Non-calculator papers under bare-hands discipline",
+          "Calculator papers with method-mark craft",
+          "Tier-correct paper selection",
+          "Presenting working for marks",
+          "Board-specific command words"
+        ],
+        "practice": "Board-exact non-calculator and calculator papers sat to time and reviewed."
+      },
+      "week_65_68": {
+        "title": "Timing Plans and Point-Leak Habits",
+        "description": "Timing plans from personal data; multi-step question chains rehearsed; the plus-minus and units habits that stop point leaks",
+        "topics": [
+          "Personal timing plans from paper data",
+          "Per-question time budgets",
+          "Multi-step question chains rehearsed",
+          "The plus-minus sign habit",
+          "Units and final-answer discipline",
+          "Stopping avoidable point leaks"
+        ],
+        "practice": "Timed multi-step question sets drilling the plus-minus and units habits."
+      }
     },
     "month_18": {
       "title": "Month 18: The Exam Series, Met Calmly",
       "weeks": "Weeks 69-72",
-      "week_69_70": "Final full cycles with documented score progression; error-log closure",
-      "week_71_72": "Peak-week plan: light consolidations, rest, and exam-day routines rehearsed, the series met as a known place"
+      "week_69_70": {
+        "title": "Final Cycles and Error-Log Closure",
+        "description": "Final full cycles with documented score progression; error-log closure",
+        "topics": [
+          "Final full paper cycles",
+          "Documented score progression",
+          "Error-log closure",
+          "Re-testing previously fixed errors",
+          "Confidence on weak topics",
+          "Consistency across papers"
+        ],
+        "practice": "Final full paper cycles with progression charted and closed errors re-tested."
+      },
+      "week_71_72": {
+        "title": "Peak-Week Plan and Exam-Day Routines",
+        "description": "Peak-week plan: light consolidations, rest, and exam-day routines rehearsed, the series met as a known place",
+        "topics": [
+          "Light consolidation in the peak week",
+          "Rest before the series",
+          "Exam-day routines rehearsed",
+          "Calm pacing under real conditions",
+          "Final confidence work",
+          "The series met as a known place"
+        ],
+        "practice": "Light consolidation tasks and a rehearsed exam-day routine before the series.",
+        "assessment": "Final full-cycle rehearsal with documented score progression before the exam series."
+      }
     }
   },
   "faqs": [

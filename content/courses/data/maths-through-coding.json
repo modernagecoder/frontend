@@ -64,22 +64,144 @@
     "month_1": {
       "title": "Month 1: First Programs, First Number Ideas",
       "weeks": "Weeks 1-4",
-      "week_1": "Hello, Python: the editor, print, variables, and a diagnostic of both maths comfort and machine comfort",
-      "week_2": "Arithmetic operators and order of operations: the computer obeys the same grammar your maths teacher does",
-      "week_3": "Integer division and remainders: modulo as the parity machine, even/odd detectors and cycle patterns",
-      "week_4": "Conditionals with number tests: divisibility rules coded and then explained backwards"
+      "week_1": {
+        "title": "Hello Python: Editor, Print and Variables",
+        "description": "Hello, Python: the editor, print, variables, and a diagnostic of both maths comfort and machine comfort",
+        "topics": [
+          "Setting up and using the Python editor",
+          "The print function",
+          "Variables and naming",
+          "Numbers and text as data",
+          "A diagnostic of maths comfort",
+          "A diagnostic of machine comfort"
+        ],
+        "practice": "Write and run a short program that stores your name and age in variables and prints a sentence.",
+        "projects": [
+          "Write a Python script that prints a personalised greeting built from variables"
+        ]
+      },
+      "week_2": {
+        "title": "Arithmetic Operators and Order of Operations",
+        "description": "Arithmetic operators and order of operations: the computer obeys the same grammar your maths teacher does",
+        "topics": [
+          "Addition, subtraction, multiplication and division operators",
+          "Order of operations in code",
+          "Brackets to control evaluation",
+          "Integer versus decimal results",
+          "Matching code grammar to maths grammar",
+          "Predicting an expression before running it"
+        ],
+        "practice": "Predict the value of several mixed-operator expressions, then check each by running it.",
+        "projects": [
+          "Write a Python calculator that evaluates a multi-step expression and prints the result"
+        ]
+      },
+      "week_3": {
+        "title": "Integer Division, Remainders and Modulo",
+        "description": "Integer division and remainders: modulo as the parity machine, even/odd detectors and cycle patterns",
+        "topics": [
+          "Integer division",
+          "The modulo operator",
+          "Modulo as a parity machine",
+          "Even and odd detectors",
+          "Cycle and repeating patterns with modulo",
+          "The clock-arithmetic idea"
+        ],
+        "practice": "Use modulo to test a list of numbers for even or odd and describe the pattern you see.",
+        "projects": [
+          "Write a Python script that labels every number from 1 to 50 as even or odd using modulo"
+        ]
+      },
+      "week_4": {
+        "title": "Conditionals and Divisibility Rules",
+        "description": "Conditionals with number tests: divisibility rules coded and then explained backwards",
+        "topics": [
+          "if, elif and else",
+          "Comparison operators",
+          "Coding divisibility tests",
+          "Explaining divisibility rules backwards",
+          "Combining conditions",
+          "Reading a program's branches"
+        ],
+        "practice": "Code a divisibility checker for 2, 3 and 5 and explain in your own words why each rule works.",
+        "projects": [
+          "Write a Python program that reports which of 2, 3, 5 and 10 a number is divisible by"
+        ]
+      }
     },
     "month_2": {
       "title": "Month 2: Loops Meet Number Theory",
       "weeks": "Weeks 5-8",
-      "week_5_6": "Loops as repetition with purpose: times tables generated, then patterns in them hunted and explained",
-      "week_7_8": "Factor finders and prime testers: the student's first real algorithms, and why 1 is not prime, settled by code"
+      "week_5_6": {
+        "title": "Loops and Times-Table Patterns",
+        "description": "Loops as repetition with purpose: times tables generated, then patterns in them hunted and explained",
+        "topics": [
+          "for loops and range",
+          "Loops as purposeful repetition",
+          "Generating times tables",
+          "Hunting patterns inside the tables",
+          "Explaining the patterns found",
+          "The nested-loop idea introduced"
+        ],
+        "practice": "Generate several times tables with a loop and write down one pattern you notice in each.",
+        "projects": [
+          "Write a Python script that visualises a times-table as a grid of rows and columns"
+        ]
+      },
+      "week_7_8": {
+        "title": "Factor Finders and Prime Testers",
+        "description": "Factor finders and prime testers: the student's first real algorithms, and why 1 is not prime, settled by code",
+        "topics": [
+          "Finding all factors of a number",
+          "Building a prime tester",
+          "The definition of a prime",
+          "Why 1 is not prime, settled by code",
+          "Writing your first real algorithms",
+          "Testing an algorithm across many inputs"
+        ],
+        "practice": "Run your prime tester across the numbers 1 to 30 and confirm the results by hand.",
+        "projects": [
+          "Write a Python program that lists every factor of a number",
+          "Write a Python prime tester that prints all primes up to 100"
+        ]
+      }
     },
     "month_3": {
       "title": "Month 3: The Fraction Machine",
       "weeks": "Weeks 9-12",
-      "week_9_10": "GCD discovered through the Euclidean idea; a fraction simplifier built, which forces equivalence to be truly understood",
-      "week_11_12": "Fraction arithmetic programmed (common denominators become obvious when a machine needs them); phase demo day: each student presents their number toolkit"
+      "week_9_10": {
+        "title": "GCD and the Fraction Simplifier",
+        "description": "GCD discovered through the Euclidean idea; a fraction simplifier built, which forces equivalence to be truly understood",
+        "topics": [
+          "Common factors and the GCD",
+          "The Euclidean idea for finding a GCD",
+          "Coding a GCD function",
+          "Fraction equivalence",
+          "Building a fraction simplifier",
+          "Why the machine forces real understanding"
+        ],
+        "practice": "Simplify several fractions by hand, then confirm each one with your simplifier.",
+        "projects": [
+          "Write a Python fraction simplifier that reduces any fraction to lowest terms using the GCD"
+        ]
+      },
+      "week_11_12": {
+        "title": "Fraction Arithmetic and Phase Demo Day",
+        "description": "Fraction arithmetic programmed (common denominators become obvious when a machine needs them); phase demo day: each student presents their number toolkit",
+        "topics": [
+          "Adding and subtracting fractions in code",
+          "Why a machine needs common denominators",
+          "Multiplying and dividing fractions",
+          "Combining the GCD with fraction arithmetic",
+          "Preparing a clear demo",
+          "Presenting the number toolkit"
+        ],
+        "practice": "Extend your fraction program to add and subtract two fractions and simplify the result.",
+        "assessment": "Phase demo day: each student presents their number toolkit and explains the mathematics behind it.",
+        "projects": [
+          "Write a Python fraction calculator that adds, subtracts and simplifies two fractions"
+        ]
+      }
     }
   },
   "phase_2_shape_and_algebra": {
@@ -88,20 +210,112 @@
     "month_4": {
       "title": "Month 4: Turtle Geometry",
       "weeks": "Weeks 13-16",
-      "week_13_14": "Turtle basics: squares, triangles and the exterior-angle discovery (why 360 divided by n draws every regular polygon)",
-      "week_15_16": "Star polygons, spirals and angle art; interior-angle sums verified by walking them"
+      "week_13_14": {
+        "title": "Turtle Basics and the Exterior-Angle Discovery",
+        "description": "Turtle basics: squares, triangles and the exterior-angle discovery (why 360 divided by n draws every regular polygon)",
+        "topics": [
+          "Turtle graphics setup",
+          "Drawing squares and triangles",
+          "Forward and turn commands",
+          "Discovering exterior angles by steering",
+          "Why 360 divided by n draws a regular polygon",
+          "Connecting turning to angle size"
+        ],
+        "practice": "Draw three different regular polygons with turtle and record the turn angle each one needs.",
+        "projects": [
+          "Write a Python turtle program that draws any regular polygon from the number of sides"
+        ]
+      },
+      "week_15_16": {
+        "title": "Star Polygons, Spirals and Angle Art",
+        "description": "Star polygons, spirals and angle art; interior-angle sums verified by walking them",
+        "topics": [
+          "Drawing star polygons",
+          "Spirals with a changing step or angle",
+          "Angle-art compositions",
+          "Interior-angle sums",
+          "Verifying angle sums by walking them",
+          "Combining loops with turtle turns"
+        ],
+        "practice": "Create an angle-art pattern and explain the interior or exterior angles that make it close.",
+        "projects": [
+          "Write a Python turtle program that draws a star polygon or spiral of your own design"
+        ]
+      }
     },
     "month_5": {
       "title": "Month 5: Coordinates and Real Variables",
       "weeks": "Weeks 17-20",
-      "week_17_18": "The coordinate plane as the screen it literally is; plotting points, lines and midpoints in code",
-      "week_19_20": "Algebra as code: expressions evaluated, equations solved by guess-check-refine, and why balance methods beat brute force"
+      "week_17_18": {
+        "title": "The Coordinate Plane in Code",
+        "description": "The coordinate plane as the screen it literally is; plotting points, lines and midpoints in code",
+        "topics": [
+          "The screen as a coordinate plane",
+          "Plotting points from coordinates",
+          "Drawing lines between points",
+          "Finding midpoints",
+          "The distance-between-points idea",
+          "Reading coordinates back off a drawing"
+        ],
+        "practice": "Plot a set of points in code and compute the midpoint of two of them.",
+        "projects": [
+          "Write a Python program that plots points and draws the line and midpoint between two of them"
+        ]
+      },
+      "week_19_20": {
+        "title": "Algebra as Code: Expressions and Equations",
+        "description": "Algebra as code: expressions evaluated, equations solved by guess-check-refine, and why balance methods beat brute force",
+        "topics": [
+          "Evaluating algebraic expressions in code",
+          "Variables that actually vary",
+          "Solving equations by guess, check and refine",
+          "Why balance methods beat brute force",
+          "Substituting into a formula",
+          "Checking a solution programmatically"
+        ],
+        "practice": "Solve a linear equation both with a guess-check-refine loop and by balancing, then compare.",
+        "projects": [
+          "Write a Python script that solves a linear equation by guess-check-refine and prints each step"
+        ]
+      }
     },
     "month_6": {
       "title": "Month 6: Functions as Machines, Literally",
       "weeks": "Weeks 21-24",
-      "week_21_22": "Python functions and mathematical functions introduced as the same idea: input, rule, output",
-      "week_23_24": "The grapher project: plot y = mx + c and watch m and c do their jobs; then parabolas, and phase demo day"
+      "week_21_22": {
+        "title": "Functions as Machines: Input, Rule, Output",
+        "description": "Python functions and mathematical functions introduced as the same idea: input, rule, output",
+        "topics": [
+          "Defining a Python function",
+          "Parameters and return values",
+          "Mathematical functions as machines",
+          "Input, rule and output as one idea",
+          "Evaluating a function for many inputs",
+          "Building a table of values"
+        ],
+        "practice": "Write a function for a simple rule and print a table of its outputs for several inputs.",
+        "projects": [
+          "Write a Python function that takes x and returns a rule such as 2x plus 1, then tabulates it"
+        ]
+      },
+      "week_23_24": {
+        "title": "The Grapher Project and Phase Demo Day",
+        "description": "The grapher project: plot y = mx + c and watch m and c do their jobs; then parabolas, and phase demo day",
+        "topics": [
+          "Plotting y = mx + c",
+          "The role of the gradient m",
+          "The role of the intercept c",
+          "Plotting parabolas",
+          "Watching parameters reshape the graph",
+          "Presenting the grapher at demo day"
+        ],
+        "practice": "Use your grapher to compare two lines with different m and c and describe the difference.",
+        "assessment": "Phase demo day: each student presents their grapher and explains how m and c shape the line.",
+        "projects": [
+          "Write a Python grapher that plots y = mx + c for chosen values of m and c",
+          "Extend the grapher to plot a parabola and watch how its shape changes"
+        ]
+      }
     }
   },
   "phase_3_chance_data_capstone": {
@@ -110,20 +324,111 @@
     "month_7": {
       "title": "Month 7: Probability by Simulation",
       "weeks": "Weeks 25-28",
-      "week_25_26": "Randomness in code: coin flippers and dice rollers; experimental versus theoretical probability, watched converging",
-      "week_27_28": "The classic puzzles simulated: two-dice sums, streaks in coin flips, intuition calibrated by evidence"
+      "week_25_26": {
+        "title": "Randomness: Coin Flippers and Dice Rollers",
+        "description": "Randomness in code: coin flippers and dice rollers; experimental versus theoretical probability, watched converging",
+        "topics": [
+          "Random numbers in Python",
+          "Coin-flip simulation",
+          "Dice-roll simulation",
+          "Experimental probability from many trials",
+          "Theoretical probability",
+          "Watching results converge as trials grow"
+        ],
+        "practice": "Simulate 1000 coin flips and compare the experimental probability with the theoretical value.",
+        "projects": [
+          "Write a Python script that simulates thousands of dice rolls and reports the proportion of each outcome"
+        ]
+      },
+      "week_27_28": {
+        "title": "Simulating Classic Probability Puzzles",
+        "description": "The classic puzzles simulated: two-dice sums, streaks in coin flips, intuition calibrated by evidence",
+        "topics": [
+          "Two-dice sum distributions",
+          "Why 7 is the most likely sum",
+          "Streaks in coin flips",
+          "Calibrating intuition with evidence",
+          "Counting outcomes versus simulating them",
+          "Comparing simulation with theory"
+        ],
+        "practice": "Simulate two-dice sums many times and chart how often each sum appears.",
+        "projects": [
+          "Write a Python simulation of two-dice sums that displays the frequency of each total"
+        ]
+      }
     },
     "month_8": {
       "title": "Month 8: Statistics on Real Data",
       "weeks": "Weeks 29-32",
-      "week_29_30": "Mean, median and range computed by the student's own code, the definitions can no longer be vague",
-      "week_31_32": "A real dataset explored: summaries, simple charts, and the sceptic's questions (outliers, sample size, fair comparisons)"
+      "week_29_30": {
+        "title": "Mean, Median and Range in Code",
+        "description": "Mean, median and range computed by the student's own code, the definitions can no longer be vague",
+        "topics": [
+          "Computing the mean in code",
+          "Finding the median by sorting",
+          "Calculating the range",
+          "Making vague definitions precise",
+          "Handling a list of data",
+          "Checking results against a hand calculation"
+        ],
+        "practice": "Write code to compute the mean, median and range of a data list, then verify each by hand.",
+        "projects": [
+          "Write a Python program that reads a list of numbers and reports the mean, median and range"
+        ]
+      },
+      "week_31_32": {
+        "title": "Exploring a Real Dataset",
+        "description": "A real dataset explored: summaries, simple charts, and the sceptic's questions (outliers, sample size, fair comparisons)",
+        "topics": [
+          "Loading a real dataset",
+          "Summarising the data",
+          "Making simple charts",
+          "Spotting outliers",
+          "Questioning the sample size",
+          "Judging whether a comparison is fair"
+        ],
+        "practice": "Summarise a small real dataset and write down two sceptic's questions it raises.",
+        "projects": [
+          "Write a Python program that summarises a real dataset and draws a simple chart from it"
+        ]
+      }
     },
     "month_9": {
       "title": "Month 9: The Capstone",
       "weeks": "Weeks 33-36",
-      "week_33_34": "Capstone chosen and scoped: a times-table trainer, geometry art generator, probability game, data story, the student's call, the mentor's rigor",
-      "week_35_36": "Build, test, polish; demo day, the student presents their program and, more importantly, explains its mathematics"
+      "week_33_34": {
+        "title": "Capstone Chosen and Scoped",
+        "description": "Capstone chosen and scoped: a times-table trainer, geometry art generator, probability game, data story, the student's call, the mentor's rigor",
+        "topics": [
+          "Choosing a capstone idea",
+          "Scoping the mathematics inside it",
+          "Planning the build in steps",
+          "Setting a realistic target",
+          "Options: a trainer, an art generator, a game or a data story",
+          "Mentor rigour applied to the maths"
+        ],
+        "practice": "Write a one-page plan for your capstone that names the mathematics it will make visible.",
+        "projects": [
+          "Begin building your chosen capstone program in Python from your scoped plan"
+        ]
+      },
+      "week_35_36": {
+        "title": "Capstone Build, Test and Demo Day",
+        "description": "Build, test, polish; demo day, the student presents their program and, more importantly, explains its mathematics",
+        "topics": [
+          "Building the capstone",
+          "Testing and debugging",
+          "Polishing the program",
+          "Preparing a clear demo",
+          "Presenting the program",
+          "Explaining the mathematics behind it"
+        ],
+        "practice": "Test your capstone on several cases, fix what breaks, and rehearse your demo explanation.",
+        "assessment": "Final demo day: each student presents the capstone and explains the mathematics it is built on.",
+        "projects": [
+          "Complete, test and polish your capstone program ready to demo"
+        ]
+      }
     }
   },
   "faqs": [

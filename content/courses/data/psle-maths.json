@@ -64,26 +64,172 @@
     "month_1": {
       "title": "Month 1: Diagnostic + Number Fluency, Bare-Handed",
       "weeks": "Weeks 1-4",
-      "week_1": "Full diagnostic: model-method depth, Paper 1 fluency, and exactly where problem sums break, with an honest AL baseline",
-      "week_2": "Whole-number operations at Paper 1 tempo; estimation as a checking habit",
-      "week_3": "Fractions as numbers: equivalence, comparison and operations from pictures first",
-      "week_4": "Decimals and the fraction-decimal-percentage bridge, to fluency"
+      "week_1": {
+        "title": "Diagnostic and the Honest AL Baseline",
+        "description": "Full diagnostic: model-method depth, Paper 1 fluency, and exactly where problem sums break, with an honest AL baseline",
+        "topics": [
+          "Model-method depth check across part-whole and comparison bars",
+          "Paper 1 non-calculator fluency screen",
+          "Locating exactly where problem sums break down",
+          "Honest Achievement Level (AL) baseline from timed questions",
+          "Whole-number, fraction and decimal accuracy audit",
+          "Reading-the-question and working-presentation habits"
+        ],
+        "practice": "A short mixed diagnostic of Paper 1 items and two problem sums, marked to expose the real starting stage.",
+        "assessment": "Baseline AL estimate plus a written map of which problem-sum families and Paper 1 skills need the most work."
+      },
+      "week_2": {
+        "title": "Whole-Number Operations at Paper 1 Tempo",
+        "description": "Whole-number operations at Paper 1 tempo; estimation as a checking habit",
+        "topics": [
+          "Addition, subtraction, multiplication and division fluency",
+          "Long multiplication and long division without a calculator",
+          "Order of operations in multi-step calculations",
+          "Estimation and rounding as a checking habit",
+          "Mental strategies for speed on Paper 1 items",
+          "Place value and number sense to catch slips"
+        ],
+        "practice": "A timed whole-number drill set plus five estimation checks on given answers."
+      },
+      "week_3": {
+        "title": "Fractions as Numbers, From Pictures First",
+        "description": "Fractions as numbers: equivalence, comparison and operations from pictures first",
+        "topics": [
+          "Fractions on a number line as genuine quantities",
+          "Equivalent fractions and simplifying",
+          "Comparing and ordering fractions",
+          "Adding and subtracting unlike fractions",
+          "Multiplying and dividing fractions with meaning",
+          "Bar and area pictures behind every rule"
+        ],
+        "practice": "A fractions set moving from picture-drawn answers to fluent written computation."
+      },
+      "week_4": {
+        "title": "Decimals and the Fraction-Decimal-Percentage Bridge",
+        "description": "Decimals and the fraction-decimal-percentage bridge, to fluency",
+        "topics": [
+          "Decimal place value and the four operations",
+          "Converting fractions to decimals and back",
+          "Linking decimals, fractions and percentages",
+          "Rounding decimals and estimating results",
+          "Money and measurement contexts",
+          "Fluency drills across all three forms"
+        ],
+        "practice": "Conversion drills and mixed decimal calculations at Paper 1 pace."
+      }
     },
     "month_2_3": {
       "title": "Months 2-3: Model Drawing as Thinking",
       "weeks": "Weeks 5-12",
-      "week_5_6": "Part-whole models: the child draws, the mentor questions, never the reverse",
-      "week_7_8": "Comparison models: more-than, less-than and times-as-many, made visible",
-      "week_9_10": "Unit thinking: when to cut a bar into parts, and the re-cutting flexibility templates cannot supply",
-      "week_11_12": "First structure families: sum-and-difference and equal-stage problems, solved by model and defended aloud"
+      "week_5_6": {
+        "title": "Part-Whole Models as Reasoning",
+        "description": "Part-whole models: the child draws, the mentor questions, never the reverse",
+        "topics": [
+          "Part-whole bar model as a picture of the numbers",
+          "Drawing the unknown before computing",
+          "Total, part and missing-part relationships",
+          "Translating word phrases into bar segments",
+          "The child draws first, the mentor questions",
+          "Checking the model against the story"
+        ],
+        "practice": "Six part-whole problem sums where the bar is drawn before any calculation."
+      },
+      "week_7_8": {
+        "title": "Comparison Models Made Visible",
+        "description": "Comparison models: more-than, less-than and times-as-many, made visible",
+        "topics": [
+          "Comparison bars for more-than and less-than",
+          "Times-as-many and multiplicative comparison",
+          "Aligning bars to reveal the difference",
+          "Two-quantity and three-quantity comparisons",
+          "Choosing comparison over part-whole",
+          "Defending the chosen model aloud"
+        ],
+        "practice": "A comparison-model set mixing additive and multiplicative relationships."
+      },
+      "week_9_10": {
+        "title": "Unit Thinking and Re-Cutting Bars",
+        "description": "Unit thinking: when to cut a bar into parts, and the re-cutting flexibility templates cannot supply",
+        "topics": [
+          "Treating one unit as the engine of a model",
+          "Deciding how many parts to cut a bar into",
+          "Re-cutting a bar when the story changes",
+          "Finding unit value then scaling up",
+          "Flexibility that templates cannot supply",
+          "Common-part reasoning across quantities"
+        ],
+        "practice": "Problems requiring the student to choose the cut, then re-cut when stuck."
+      },
+      "week_11_12": {
+        "title": "First Structure Families: Sum-and-Difference",
+        "description": "First structure families: sum-and-difference and equal-stage problems, solved by model and defended aloud",
+        "topics": [
+          "Sum-and-difference problem family",
+          "Equal-stage and equal-value problems",
+          "Recognising the skeleton under the wording",
+          "Matching model shape to family",
+          "Solving then explaining the reasoning aloud",
+          "Extending a solved problem to a variant"
+        ],
+        "practice": "A family-sorted set of sum-and-difference and equal-stage problem sums."
+      }
     },
     "month_4": {
       "title": "Month 4: Heuristics, Named and Trained",
       "weeks": "Weeks 13-16",
-      "week_13": "Work backwards: end-state problems unwound step by step",
-      "week_14": "Guess-and-check with discipline: the organised table, not wild stabs",
-      "week_15": "Restate and simplify: turning wordy problems into drawable ones",
-      "week_16": "Phase checkpoint: mixed problem-sum set solved, explained and extended"
+      "week_13": {
+        "title": "Work Backwards Heuristic",
+        "description": "Work backwards: end-state problems unwound step by step",
+        "topics": [
+          "Recognising end-state problems",
+          "Reversing each operation in turn",
+          "Undoing add, subtract, multiply and divide",
+          "Model support for backward reasoning",
+          "Checking by working forwards again",
+          "When work-backwards beats other methods"
+        ],
+        "practice": "A set of end-state problems solved by unwinding step by step."
+      },
+      "week_14": {
+        "title": "Disciplined Guess-and-Check",
+        "description": "Guess-and-check with discipline: the organised table, not wild stabs",
+        "topics": [
+          "Setting up an organised guess-and-check table",
+          "Choosing a sensible first guess",
+          "Using each result to steer the next guess",
+          "Column headings that show the reasoning",
+          "Knowing when guess-and-check is efficient",
+          "Presenting the table for method marks"
+        ],
+        "practice": "Guess-and-check problems recorded in a clean, columned table."
+      },
+      "week_15": {
+        "title": "Restate and Simplify",
+        "description": "Restate and simplify: turning wordy problems into drawable ones",
+        "topics": [
+          "Stripping a wordy problem to its core",
+          "Restating in the student's own words",
+          "Identifying the quantity actually asked for",
+          "Turning sentences into a drawable model",
+          "Removing distracting detail",
+          "Simplify-then-solve as a habit"
+        ],
+        "practice": "Wordy problems rewritten in one line, then drawn and solved."
+      },
+      "week_16": {
+        "title": "Phase 1 Checkpoint",
+        "description": "Phase checkpoint: mixed problem-sum set solved, explained and extended",
+        "topics": [
+          "Mixed problem-sum set across all Phase 1 families",
+          "Model choice under mixed conditions",
+          "Explaining each solution aloud",
+          "Extending problems to harder variants",
+          "Heuristics applied without prompting",
+          "Error log started from checkpoint mistakes"
+        ],
+        "practice": "A mixed timed problem-sum set covering every Phase 1 family.",
+        "assessment": "Phase 1 checkpoint marked for method and reasoning, feeding the first error-log entries."
+      }
     }
   },
   "phase_2_problem_sums": {
@@ -92,32 +238,152 @@
     "month_5": {
       "title": "Month 5: Fractions of Remainder and Branch Models",
       "weeks": "Weeks 17-20",
-      "week_17_18": "The remainder concept made visible: branch models and the re-cut into common parts",
-      "week_19_20": "Classic remainder problems at PSLE standard, including the multi-stage versions that humble adults"
+      "week_17_18": {
+        "title": "Remainder Concept and Branch Models",
+        "description": "The remainder concept made visible: branch models and the re-cut into common parts",
+        "topics": [
+          "Fraction of a remainder made visible",
+          "Branch models for successive fractions",
+          "Re-cutting into common parts",
+          "Tracking what is left after each stage",
+          "Restoring the whole from a known part",
+          "Two-stage remainder reasoning"
+        ],
+        "practice": "Branch-model problems working from a remainder back to the whole."
+      },
+      "week_19_20": {
+        "title": "Multi-Stage Remainder Problems",
+        "description": "Classic remainder problems at PSLE standard, including the multi-stage versions that humble adults",
+        "topics": [
+          "Classic PSLE remainder problem sums",
+          "Three-stage and multi-stage remainders",
+          "Combining branch models with unit value",
+          "Fraction-of-remainder with a given amount",
+          "Spotting the common-part cut quickly",
+          "Presenting long working clearly"
+        ],
+        "practice": "A set of exam-standard remainder problems, including multi-stage versions."
+      }
     },
     "month_6": {
       "title": "Month 6: Ratio, and Ratio That Changes",
       "weeks": "Weeks 21-24",
-      "week_21_22": "Ratio as units: equivalent ratios, sharing and the unit-value engine",
-      "week_23_24": "Before-and-after problems: changed ratios, constant totals and constant differences, the PSLE's signature family"
+      "week_21_22": {
+        "title": "Ratio as Units",
+        "description": "Ratio as units: equivalent ratios, sharing and the unit-value engine",
+        "topics": [
+          "Ratio read as units",
+          "Equivalent ratios and simplifying",
+          "Sharing a quantity in a given ratio",
+          "The unit-value engine for ratio problems",
+          "Two-term and three-term ratios",
+          "Ratio bars linked to fractions"
+        ],
+        "practice": "Ratio problems solved through the unit-value method with bar support."
+      },
+      "week_23_24": {
+        "title": "Before-and-After Ratio Problems",
+        "description": "Before-and-after problems: changed ratios, constant totals and constant differences, the PSLE's signature family",
+        "topics": [
+          "Before-and-after ratio changes",
+          "Constant-total problems",
+          "Constant-difference problems",
+          "Constant one-quantity problems",
+          "Choosing the invariant to anchor units",
+          "The PSLE signature ratio family"
+        ],
+        "practice": "Before-and-after ratio sets sorted by which quantity stays constant."
+      }
     },
     "month_7": {
       "title": "Month 7: Percentage in Every Costume",
       "weeks": "Weeks 25-28",
-      "week_25_26": "Percentage of, increase and decrease, and GST-and-discount chains",
-      "week_27_28": "Reverse percentage and percentage-with-model problems at exam standard"
+      "week_25_26": {
+        "title": "Percentage Of, Increase and Decrease",
+        "description": "Percentage of, increase and decrease, and GST-and-discount chains",
+        "topics": [
+          "Finding a percentage of a quantity",
+          "Percentage increase and decrease",
+          "GST and discount calculations",
+          "Chained percentage changes",
+          "Percentage with bar-model support",
+          "Everyday money contexts"
+        ],
+        "practice": "Percentage problems including discount-then-GST chains."
+      },
+      "week_27_28": {
+        "title": "Reverse Percentage at Exam Standard",
+        "description": "Reverse percentage and percentage-with-model problems at exam standard",
+        "topics": [
+          "Reverse percentage: finding the original",
+          "Distinguishing part, whole and percentage",
+          "Percentage combined with bar models",
+          "Multi-step percentage problem sums",
+          "Checking answers against the original",
+          "Exam-standard presentation"
+        ],
+        "practice": "Reverse-percentage and percentage-with-model problems at PSLE level."
+      }
     },
     "month_8": {
       "title": "Month 8: Speed, Rate and the Journey Problems",
       "weeks": "Weeks 29-32",
-      "week_29_30": "Speed as a rate with meaning: distance-time reasoning before formulas",
-      "week_31_32": "Meeting, catching-up and average-speed problems, drawn on journey diagrams"
+      "week_29_30": {
+        "title": "Speed as a Rate With Meaning",
+        "description": "Speed as a rate with meaning: distance-time reasoning before formulas",
+        "topics": [
+          "Speed understood as distance per unit time",
+          "Distance-time reasoning before formulas",
+          "Deriving the speed, distance, time triangle",
+          "Units and conversions in rate problems",
+          "Constant-speed situations",
+          "Reading a journey from a description"
+        ],
+        "practice": "Distance-time problems solved by reasoning, then confirmed by formula."
+      },
+      "week_31_32": {
+        "title": "Journey Problems and Average Speed",
+        "description": "Meeting, catching-up and average-speed problems, drawn on journey diagrams",
+        "topics": [
+          "Meeting problems on journey diagrams",
+          "Catching-up and overtaking problems",
+          "Average speed over multiple legs",
+          "Total distance over total time",
+          "Two-object motion drawn to scale",
+          "Common average-speed traps"
+        ],
+        "practice": "Meeting, catching-up and average-speed problems on drawn journey diagrams."
+      }
     },
     "month_9": {
       "title": "Month 9: Geometry, Area and the Visual Problems",
       "weeks": "Weeks 33-36",
-      "week_33_34": "Angles, triangles and quadrilaterals with justification language; composite figures",
-      "week_35_36": "Area and perimeter problem sums including the shaded-region classics; circles at P6 standard"
+      "week_33_34": {
+        "title": "Angles and Figures With Justification",
+        "description": "Angles, triangles and quadrilaterals with justification language; composite figures",
+        "topics": [
+          "Angle facts for lines and triangles",
+          "Angle properties of quadrilaterals",
+          "Justifying each step with a reason",
+          "Composite and overlapping figures",
+          "Unknown angles in multi-shape diagrams",
+          "Clear geometric working"
+        ],
+        "practice": "Angle problems requiring a stated reason for every step."
+      },
+      "week_35_36": {
+        "title": "Area, Perimeter and Shaded Regions",
+        "description": "Area and perimeter problem sums including the shaded-region classics; circles at P6 standard",
+        "topics": [
+          "Area and perimeter of composite shapes",
+          "Shaded-region classic problems",
+          "Subtracting and combining areas",
+          "Circle area and circumference at P6 standard",
+          "Fractions of a circle and semicircles",
+          "Presenting area working clearly"
+        ],
+        "practice": "Shaded-region and circle problem sums at PSLE standard."
+      }
     }
   },
   "phase_3_exam_craft": {
@@ -126,20 +392,93 @@
     "month_10": {
       "title": "Month 10: Paper 1 and Paper 2 as Different Skills",
       "weeks": "Weeks 37-40",
-      "week_37_38": "Paper 1 craft: mental strategies, no-calculator discipline and the one-mark questions banked fast",
-      "week_39_40": "Paper 2 craft: presentation of working, method marks, and calculator use that helps instead of wastes time"
+      "week_37_38": {
+        "title": "Paper 1 Craft and Mental Strategies",
+        "description": "Paper 1 craft: mental strategies, no-calculator discipline and the one-mark questions banked fast",
+        "topics": [
+          "Mental strategies for Paper 1 speed",
+          "No-calculator discipline under time",
+          "Banking one-mark and two-mark questions fast",
+          "Common Paper 1 question types",
+          "Avoiding careless-mark leaks",
+          "Order of attack on Paper 1"
+        ],
+        "practice": "A full Paper 1 section timed, focused on banking the short questions."
+      },
+      "week_39_40": {
+        "title": "Paper 2 Craft and Method Marks",
+        "description": "Paper 2 craft: presentation of working, method marks, and calculator use that helps instead of wastes time",
+        "topics": [
+          "Presentation of working for method marks",
+          "Calculator use that saves time",
+          "Structuring multi-step Paper 2 answers",
+          "Showing enough working to secure marks",
+          "Units and final-answer discipline",
+          "Choosing when the calculator helps"
+        ],
+        "practice": "Paper 2 questions written up to full method-mark presentation standard."
+      }
     },
     "month_11": {
       "title": "Month 11: Timed Papers and Mark Banking",
       "weeks": "Weeks 41-44",
-      "week_41_42": "Full timed papers at exam pacing; the banking discipline, secure marks first, wrestle the monsters last",
-      "week_43_44": "Review rituals: why each mark was lost, and the named fix; error-log closure begins"
+      "week_41_42": {
+        "title": "Full Timed Papers and Mark Banking",
+        "description": "Full timed papers at exam pacing; the banking discipline, secure marks first, wrestle the monsters last",
+        "topics": [
+          "Full papers at true exam pacing",
+          "Banking secure marks first",
+          "Leaving the hardest problems for last",
+          "Time budgeting across Paper 1 and Paper 2",
+          "Managing pressure and pacing",
+          "Flagging and returning to hard items"
+        ],
+        "practice": "A complete timed paper sat under exam conditions with a pacing plan."
+      },
+      "week_43_44": {
+        "title": "Review Rituals and the Error Log",
+        "description": "Review rituals: why each mark was lost, and the named fix; error-log closure begins",
+        "topics": [
+          "Reviewing why each mark was lost",
+          "Naming the specific fix for each error",
+          "Sorting errors by type and frequency",
+          "Beginning error-log closure",
+          "Turning mistakes into targeted practice",
+          "Splitting careless from conceptual errors"
+        ],
+        "practice": "Each lost mark logged with a named fix and a follow-up practice item."
+      }
     },
     "month_12": {
       "title": "Month 12: The Calm Runway",
       "weeks": "Weeks 45-52",
-      "week_45_48": "Weakest-family rotations by error-log priority; confidence work through problems your child can nearly do, then can",
-      "week_49_52": "Final paper cycles with documented progression; peak-week plan, light practice, rest, and the exam met as a rehearsed place"
+      "week_45_48": {
+        "title": "Weakest-Family Rotations",
+        "description": "Weakest-family rotations by error-log priority; confidence work through problems your child can nearly do, then can",
+        "topics": [
+          "Rotations targeting the weakest families",
+          "Priority set by the error log",
+          "Confidence work on nearly-mastered problems",
+          "Revisiting problem-sum families that slip",
+          "Spaced return to fixed errors",
+          "Building momentum into the final weeks"
+        ],
+        "practice": "Rotating problem sets aimed at the top error-log priorities each week."
+      },
+      "week_49_52": {
+        "title": "Final Cycles and the Peak-Week Plan",
+        "description": "Final paper cycles with documented progression; peak-week plan, light practice, rest, and the exam met as a rehearsed place",
+        "topics": [
+          "Final full paper cycles",
+          "Documented AL-trend progression",
+          "Peak-week light-practice plan",
+          "Rest and routine before the exam",
+          "Exam-day rehearsal and timing",
+          "The PSLE met as a rehearsed place"
+        ],
+        "practice": "Final timed papers with progression recorded, tapering into light peak-week practice.",
+        "assessment": "Final timed PSLE-format papers scored and charted to confirm AL-trend progression before the exam."
+      }
     }
   },
   "faqs": [
