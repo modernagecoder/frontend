@@ -36,14 +36,13 @@
   "program_overview": {
     "title": "Complete Full Stack Web Development Masterclass",
     "tagline": "From 'Hello World' to Production-Ready Enterprise Applications",
-    "description": "This is not just a course—it's a complete transformation program. Whether you're a student, working professional, or someone with zero coding experience, this 2-year masterclass will turn you into a highly skilled full stack developer capable of building, deploying, and scaling real-world applications.\n\nYou'll master every layer of web development: from pixel-perfect frontend interfaces to robust backend systems, from database optimization to cloud infrastructure, from basic algorithms to system design interviews. By the end, you'll have built 20+ projects, contributed to open source, and be ready for senior developer roles.",
+    "description": "This is not just a course, it's a complete transformation program. Whether you're a student, working professional, or someone with zero coding experience, this 2-year masterclass will turn you into a highly skilled full stack developer capable of building, deploying, and scaling real-world applications.\n\nYou'll master every layer of web development: from pixel-perfect frontend interfaces to robust backend systems, from database optimization to cloud infrastructure, from basic algorithms to system design interviews. By the end, you'll have built 20+ projects, contributed to open source, and be ready for senior developer roles.",
     "what_makes_this_different": [
       "Starts from absolute zero - no prerequisites required",
       "2 years of structured, progressive learning",
       "Covers 100% of modern web development stack",
       "Real industry projects and case studies",
       "Interview preparation and system design",
-      "Career guidance and job placement support",
       "Lifetime access and updates",
       "Build production-ready portfolio"
     ],
@@ -1611,20 +1610,19 @@
     "Software Consultant"
   ],
   "salary_expectations": {
-    "after_6_months": "₹3-5 LPA (Junior Developer)",
-    "after_12_months": "₹6-10 LPA (Full Stack Developer)",
-    "after_18_months": "₹10-18 LPA (Senior Developer)",
-    "after_24_months": "₹15-30+ LPA (Senior/Lead roles)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "growing_roles": "₹3-5 LPA (Junior Developer)",
+    "experienced_roles": "₹6-10 LPA (Full Stack Developer); ₹10-18 LPA (Senior Developer); ₹15-30+ LPA (Senior/Lead roles)",
     "freelance": "₹500-2000/hour",
     "international": "$50k-120k USD based on location and experience"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Job placement support and referrals",
-    "lifetime_updates": "Free access to all future content updates",
-    "mentorship": "Dedicated mentor throughout the journey",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "Production-ready portfolio by completion"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1672,22 +1670,15 @@
   "why_this_course": {
     "title": "Why Full Stack Development is the Most Valuable Tech Skill",
     "paragraphs": [
-      "Full stack developers are the Swiss Army knives of tech—capable of building complete applications from scratch. This versatility makes them incredibly valuable: they can join startups and build entire products solo, or integrate seamlessly into large teams at enterprises. The result? Some of the highest salaries and best job security in tech.",
-      "Our 24-month program is the most comprehensive full stack curriculum available. You won't just learn React and Node—you'll master databases, DevOps, cloud deployment, system design, and software architecture. By graduation, you'll have the skills of a senior developer with 3-5 years of experience.",
+      "Full stack developers are the Swiss Army knives of tech, capable of building complete applications from scratch. This versatility makes them incredibly valuable: they can join startups and build entire products solo, or integrate seamlessly into large teams at enterprises. The result? Some of the highest salaries and best job security in tech.",
+      "Our 24-month program is the most comprehensive full stack curriculum available. You won't just learn React and Node, you'll master databases, DevOps, cloud deployment, system design, and software architecture. By graduation, you'll have the skills of a senior developer with 3-5 years of experience.",
       "What truly sets our program apart is the emphasis on real-world projects. You'll build 20+ production applications, contribute to open source, and complete client projects. This hands-on approach means you graduate not with theoretical knowledge, but with a portfolio that proves your capabilities to any employer."
     ],
     "highlights": [
       "24-month comprehensive curriculum covering every aspect of web development",
       "20+ production projects deployed and serving real users",
       "Complete DevOps and cloud deployment training (AWS, Docker, Kubernetes)",
-      "System design preparation for senior developer roles",
-      "94% job placement rate with average ₹12 LPA starting salary"
+      "System design preparation for senior developer roles"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "4,200+",
-    "job_placement_rate": "94%",
-    "avg_starting_salary": "₹12 LPA",
-    "companies_hiring_grads": "150+"
   }
 }

@@ -1559,8 +1559,7 @@
           "Professional Frontend Developer Certification",
           "Letter of Recommendation",
           "Alumni Network Access",
-          "Lifetime Course Updates",
-          "Job Placement Support"
+          "Lifetime Course Updates"
         ],
         "assessment": "FINAL SHOWCASE: Present complete portfolio to industry professionals"
       }
@@ -1599,9 +1598,9 @@
       "mentorship": "1-on-1 guidance from experienced developers",
       "community": "Active Discord community of teen developers",
       "code_review": "Professional code reviews for all projects",
-      "career_support": "Job placement, internship assistance",
       "freelance_support": "Help landing first clients",
-      "lifetime_access": "All content and future updates"
+      "lifetime_access": "All content and future updates",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each quarter",
@@ -1640,21 +1639,13 @@
     "Technical Founder",
     "Creative Developer"
   ],
-  "salary_expectations": {
-    "after_6_months": "₹2-4 LPA (Internships)",
-    "after_9_months": "₹4-7 LPA (Junior roles)",
-    "after_12_months": "₹6-12 LPA (Frontend Developer)",
-    "freelance": "₹500-1500/hour",
-    "international": "$30k-60k USD entry level",
-    "projects": "₹10k-50k per project"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Job placement support",
-    "portfolio_review": "Professional portfolio guidance",
-    "mentorship": "Dedicated mentor throughout",
-    "certificate": "Industry-recognized certification",
-    "success": "40+ projects portfolio guaranteed"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1713,11 +1704,5 @@
       "Freelance-ready skills by program completion",
       "Direct pathway to high-paying tech internships"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "1,500+",
-    "internship_placements": "85%",
-    "projects_deployed": "50,000+",
-    "scholarship_recipients": "65+"
   }
 }

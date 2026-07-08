@@ -36,7 +36,7 @@
   "program_overview": {
     "title": "Complete Python Programming Masterclass",
     "tagline": "From 'Hello World' to AI-Powered Production Applications",
-    "description": "This is not just a Python course—it's a complete career transformation program. Whether you're a curious 10-year-old, a student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Python developer capable of building web applications, analyzing data, automating tasks, creating AI models, and solving real-world problems.\n\nYou'll master Python from ground zero to advanced professional level: from basic syntax to complex algorithms, from simple scripts to production web applications, from data analysis to machine learning, from automation to cloud deployment. By the end, you'll have built 30+ projects, mastered multiple Python frameworks, and be ready for professional developer roles across multiple domains.",
+    "description": "This is not just a Python course, it's a complete career transformation program. Whether you're a curious 10-year-old, a student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Python developer capable of building web applications, analyzing data, automating tasks, creating AI models, and solving real-world problems.\n\nYou'll master Python from ground zero to advanced professional level: from basic syntax to complex algorithms, from simple scripts to production web applications, from data analysis to machine learning, from automation to cloud deployment. By the end, you'll have built 30+ projects, mastered multiple Python frameworks, and be ready for professional developer roles across multiple domains.",
     "what_makes_this_different": [
       "Starts from absolute zero - perfect for all ages (10+ years)",
       "Separate learning tracks for kids, teens, and adults",
@@ -1557,26 +1557,21 @@
     "Bioinformatics Programmer"
   ],
   "salary_expectations": {
-    "after_3_months": "₹2-4 LPA (Junior Python Developer / Intern)",
-    "after_6_months": "₹4-7 LPA (Python Developer / Automation Engineer)",
-    "after_9_months": "₹7-12 LPA (Full Stack Python / Data Analyst)",
-    "after_12_months": "₹10-20 LPA (Senior Python / Data Scientist / ML Engineer)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹2-4 LPA (Junior Python Developer / Intern)",
+    "growing_roles": "₹4-7 LPA (Python Developer / Automation Engineer); ₹7-12 LPA (Full Stack Python / Data Analyst)",
+    "experienced_roles": "₹10-20 LPA (Senior Python / Data Scientist / ML Engineer)",
+    "other_roles": "₹12-30 LPA in India, $80k-180k USD internationally; ₹15-40 LPA in India, $100k-200k+ USD internationally",
     "freelance": "₹500-3000/hour based on specialization",
-    "international": "$60k-150k USD (USA) based on role and experience",
-    "data_science": "₹12-30 LPA in India, $80k-180k USD internationally",
-    "ML_engineer": "₹15-40 LPA in India, $100k-200k+ USD internationally"
+    "international": "$60k-150k USD (USA) based on role and experience"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee - no questions asked",
-    "job_assistance": "Job placement support, referrals, interview preparation",
-    "lifetime_updates": "Free access to all future content updates and new modules",
-    "mentorship": "Dedicated expert mentor throughout your 12-month journey",
-    "certificate": "Industry-recognized certification upon completion",
-    "portfolio": "30+ production-ready projects for your portfolio",
-    "community": "Lifetime access to community and alumni network",
-    "career_switch": "Support until you successfully switch careers (extended support)",
-    "skill_guarantee": "Master Python or continue learning free until you do",
-    "refund_policy": "If not satisfied in first month, full refund guaranteed"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

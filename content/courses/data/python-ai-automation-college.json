@@ -36,14 +36,13 @@
   "program_overview": {
     "title": "Complete Python & AI Automation Masterclass",
     "tagline": "From 'Hello World' to Production-Ready AI Systems",
-    "description": "This is not just a course—it's a complete transformation program. Whether you're a student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Python developer and AI engineer capable of building, deploying, and scaling real-world automation and AI solutions.\n\nYou'll master every aspect of Python development: from basic programming to advanced automation, from traditional scripts to cutting-edge AI models, from simple bots to enterprise automation systems. By the end, you'll have built 30+ projects, deployed AI models, and be ready for senior automation engineer or AI developer roles.",
+    "description": "This is not just a course, it's a complete transformation program. Whether you're a student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Python developer and AI engineer capable of building, deploying, and scaling real-world automation and AI solutions.\n\nYou'll master every aspect of Python development: from basic programming to advanced automation, from traditional scripts to cutting-edge AI models, from simple bots to enterprise automation systems. By the end, you'll have built 30+ projects, deployed AI models, and be ready for senior automation engineer or AI developer roles.",
     "what_makes_this_different": [
       "Starts from absolute zero - no prerequisites required",
       "1 year of structured, progressive learning",
       "Covers 100% of modern Python automation & AI stack",
       "Real industry projects and case studies",
       "Interview preparation and AI system design",
-      "Career guidance and job placement support",
       "Lifetime access and updates",
       "Build production-ready AI portfolio"
     ],
@@ -1629,20 +1628,19 @@
     "AI Startup Founder"
   ],
   "salary_expectations": {
-    "after_6_months": "₹4-6 LPA (Python Developer)",
-    "after_12_months": "₹8-15 LPA (AI/ML Engineer)",
-    "after_18_months": "₹15-25 LPA (Senior AI Engineer)",
-    "after_24_months": "₹20-40+ LPA (AI Architect/Lead)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "growing_roles": "₹4-6 LPA (Python Developer)",
+    "experienced_roles": "₹8-15 LPA (AI/ML Engineer); ₹15-25 LPA (Senior AI Engineer); ₹20-40+ LPA (AI Architect/Lead)",
     "freelance": "₹1000-5000/hour",
     "international": "$60k-150k USD based on location and experience"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Job placement support and referrals",
-    "lifetime_updates": "Free access to all future content updates",
-    "mentorship": "Dedicated mentor throughout the journey",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "Production-ready AI portfolio by completion"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1667,7 +1665,7 @@
     },
     {
       "question": "How is this course different from other Python courses available online?",
-      "answer": "Unlike basic Python courses, this program focuses specifically on AI and automation applications. You'll learn not just programming, but how to build intelligent systems that solve real business problems. We include mentorship, live projects with companies, career support, and guaranteed job placement assistance."
+      "answer": "Unlike basic Python courses, this program focuses specifically on AI and automation applications. You learn not just programming, but how to build intelligent systems that solve real business problems, working on hands-on projects throughout. We include mentorship, career guidance, and interview preparation to help you present your work well."
     }
   ],
   "related_courses": [
@@ -1690,8 +1688,8 @@
   "why_this_course": {
     "title": "Why Choose This Python AI Automation Masterclass?",
     "paragraphs": [
-      "In today's rapidly evolving tech landscape, Python AI Automation skills are among the most valuable and in-demand. Companies across every industry—from startups to Fortune 500 giants—are desperately seeking professionals who can build intelligent automation systems. This isn't just another Python course; it's a complete career transformation program designed to take you from absolute beginner to job-ready AI professional.",
-      "What sets this program apart is our hands-on, project-based approach. Over 12 months, you won't just watch videos—you'll build real AI systems that solve real business problems. From web scrapers and chatbots to computer vision applications and enterprise automation solutions, every project is designed to be portfolio-worthy and interview-ready.",
+      "In today's rapidly evolving tech landscape, Python AI Automation skills are among the most valuable and in-demand. Companies across every industry, from startups to Fortune 500 giants, are desperately seeking professionals who can build intelligent automation systems. This isn't just another Python course; it's a complete career transformation program designed to take you from absolute beginner to job-ready AI professional.",
+      "What sets this program apart is our hands-on, project-based approach. Over 12 months, you won't just watch videos, you'll build real AI systems that solve real business problems. From web scrapers and chatbots to computer vision applications and enterprise automation solutions, every project is designed to be portfolio-worthy and interview-ready.",
       "Our curriculum is developed in partnership with industry leaders and updated continuously to reflect the latest technologies and best practices. You'll learn not just Python, but the entire modern AI/ML stack: TensorFlow, PyTorch, OpenCV, NLP frameworks, cloud deployment, and MLOps. By graduation, you'll have skills that companies are willing to pay premium salaries for."
     ],
     "highlights": [
@@ -1701,11 +1699,5 @@
       "Career support including resume review and interview preparation",
       "Lifetime access to course updates and alumni community"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "2,500+",
-    "completion_rate": "89%",
-    "job_placement_rate": "94%",
-    "avg_salary_increase": "58%"
   }
 }

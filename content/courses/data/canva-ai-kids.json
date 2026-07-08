@@ -1501,7 +1501,6 @@
         "topics": [
           "Alumni network access",
           "Ongoing mentorship",
-          "Job placement support",
           "Project collaboration board",
           "Guest expert sessions",
           "Industry connections",
@@ -1676,20 +1675,12 @@
     "Design Agency Owner (₹1L-10L/month)",
     "Design Educator/Influencer (₹50K-5L/month)"
   ],
-  "salary_expectations": {
-    "after_6_months": "₹15K-30K/month (Freelance projects)",
-    "after_12_months": "₹30K-60K/month (Regular clients)",
-    "after_18_months": "₹50K-1L/month (Established business)",
-    "after_24_months": "₹1L-3L/month (Agency/Multiple streams)",
-    "freelance": "₹500-5000/hour based on expertise",
-    "international": "$20-100/hour for international clients"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Client acquisition support and job placement help",
-    "lifetime_updates": "Free access to all new tools and updates",
-    "mentorship": "6 months of mentorship included",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "50+ portfolio pieces guaranteed"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   }
 }

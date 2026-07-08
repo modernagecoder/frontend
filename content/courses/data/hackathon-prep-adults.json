@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "hackathon-prep-for-adults-professionals-coding-ai-innovation-course",
-    "title": "Hackathon for Adults & Professionals — Free Hackathon + 12-Week Pro Prep (18+) | Modern Age Coders",
-    "description": "Free hackathon for adults, professionals, founders and career switchers (18+). Plus a 12-week Pro Hackathon Prep — full-stack engineering, AI agents, system design, distributed systems, RAG, vector DBs, and founder-grade pitching. Build something innovative. Win sponsor prizes. Ship to production.",
+    "title": "Hackathon for Adults & Professionals, Free Hackathon + 12-Week Pro Prep (18+) | Modern Age Coders",
+    "description": "Free hackathon for adults, professionals, founders and career switchers (18+). Plus a 12-week Pro Hackathon Prep, full-stack engineering, AI agents, system design, distributed systems, RAG, vector DBs, and founder-grade pitching. Build something innovative. Win sponsor prizes. Ship to production.",
     "keywords": [
       "hackathon for adults",
       "professional hackathon India",
@@ -41,8 +41,8 @@
     },
     "duration": "12 weeks pro prep + Live Hackathon Weekend",
     "level": "Beginner-Friendly to Advanced (Adults 18+)",
-    "commitment": "8–10 hours/week",
-    "certification": "Pro Hackathon Builder — Modern Age Coders Certified",
+    "commitment": "8-10 hours/week",
+    "certification": "Pro Hackathon Builder, Modern Age Coders Certified",
     "image_path": "hackathon-adults.png",
     "author": {
       "name": "Modern Age Coders Team",
@@ -67,17 +67,17 @@
     "featured": true
   },
   "program_overview": {
-    "title": "Hackathon for Adults & Professionals — Build Something Worth Building",
+    "title": "Hackathon for Adults & Professionals, Build Something Worth Building",
     "tagline": "Free hackathon for everyone. Pro-grade prep for those who want to build at production scale.",
-    "description": "Hackathon for Adults & Professionals is a free-to-enter hackathon and a 12-week pro-grade prep course at Modern Age Coders, designed for working professionals, career switchers, founders, students 18+, and anyone who has ever said 'I wish I could just build that idea myself.'\n\nThe hackathon participation is 100% free — no fee, no employer endorsement needed. You can be a software engineer, a product manager, a designer, a marketer, a teacher, a doctor, a small-business owner, or a fresh graduate. If you're 18+ and want to build, you're in.\n\nOur only motive: build something great. Build something innovative. Use coding logic, efficient algorithms, AI agents and modern infrastructure to ship real production software in 48 hours that solves a problem people would actually pay for.\n\nThe optional 12-week Pro Prep Course is for adults who want to walk into a hackathon (or a startup) with deep, current technical fluency. It is priced the same as our other professional courses — Group ₹1,499/mo, Mini Batch ₹2,499/mo, or 1-on-1 ₹4,999/mo.\n\nThe curriculum is dense and modern. We cover full-stack engineering with Next.js 16 + Server Actions + Cache Components, distributed system design, AI agents with tool calling and durable workflows, RAG pipelines with vector databases, prompt engineering with Claude / GPT-4o / Gemini 2, observability, security, and shipping to production on Vercel / AWS / Cloudflare. We also cover the soft skills that actually matter — scoping under time pressure, founder-grade pitching, sponsor relationship management, and demo storytelling.\n\nBy Week 12, every participant has a polished GitHub portfolio, a deployed capstone with paying-customer-ready quality, a 3-minute investor-style pitch video, and competes in the Live Modern Age Coders Pro Hackathon Weekend with sponsor prizes (cloud credits, API credits, mentor calls, and cash awards).",
+    "description": "Hackathon for Adults & Professionals is a free-to-enter hackathon and a 12-week pro-grade prep course at Modern Age Coders, designed for working professionals, career switchers, founders, students 18+, and anyone who has ever said 'I wish I could just build that idea myself.'\n\nThe hackathon participation is 100% free, no fee, no employer endorsement needed. You can be a software engineer, a product manager, a designer, a marketer, a teacher, a doctor, a small-business owner, or a fresh graduate. If you're 18+ and want to build, you're in.\n\nOur only motive: build something great. Build something innovative. Use coding logic, efficient algorithms, AI agents and modern infrastructure to ship real production software in 48 hours that solves a problem people would actually pay for.\n\nThe optional 12-week Pro Prep Course is for adults who want to walk into a hackathon (or a startup) with deep, current technical fluency. It is priced the same as our other professional courses, Group ₹1,499/mo, Mini Batch ₹2,499/mo, or 1-on-1 ₹4,999/mo.\n\nThe curriculum is dense and modern. We cover full-stack engineering with Next.js 16 + Server Actions + Cache Components, distributed system design, AI agents with tool calling and durable workflows, RAG pipelines with vector databases, prompt engineering with Claude / GPT-4o / Gemini 2, observability, security, and shipping to production on Vercel / AWS / Cloudflare. We also cover the soft skills that actually matter, scoping under time pressure, founder-grade pitching, sponsor relationship management, and demo storytelling.\n\nBy Week 12, every participant has a polished GitHub portfolio, a deployed capstone with paying-customer-ready quality, a 3-minute investor-style pitch video, and competes in the Live Modern Age Coders Pro Hackathon Weekend with sponsor prizes (cloud credits, API credits, mentor calls, and cash awards).",
     "what_makes_this_different": [
-      "Free hackathon participation — anyone 18+ can register at zero cost",
+      "Free hackathon participation, anyone 18+ can register at zero cost",
       "Prep course priced same as other Modern Age Coders professional programs",
-      "Built for working adults — evening and weekend live sessions, all recorded",
+      "Built for working adults, evening and weekend live sessions, all recorded",
       "Curriculum led by senior engineers, ex-CTOs and YC-alumni founders",
       "Modern 2026 stack: Next.js 16, Server Actions, AI SDK, Workflow DevKit, Vercel Sandbox",
-      "AI Agents focus — tool calling, multi-step workflows, durable execution",
-      "RAG done properly — chunking, embeddings, hybrid search, reranking",
+      "AI Agents focus, tool calling, multi-step workflows, durable execution",
+      "RAG done properly, chunking, embeddings, hybrid search, reranking",
       "System design depth: queues, caches, sharding, event-driven architectures",
       "Real production concerns: observability, security, on-call, cost",
       "1-on-1 mentor matching with senior engineers / founders in capstone phase",
@@ -87,20 +87,20 @@
       "Career-switch friendly: pathway from non-tech career to first tech role"
     ],
     "learning_path": {
-      "phase_1": "Foundations (Weeks 1–4): Python + TypeScript, Git/GitHub, full-stack fundamentals, first solo hackathon",
-      "phase_2": "Pro Stack (Weeks 5–8): Next.js 16 + Server Actions + Cache Components, AI agents + tool calling + RAG, system design, observability, mock hackathon",
-      "phase_3": "Hackathon Sprint (Weeks 9–12): Capstone build, mentor coaching, pitch lab, Live Pro Hackathon Weekend"
+      "phase_1": "Foundations (Weeks 1-4): Python + TypeScript, Git/GitHub, full-stack fundamentals, first solo hackathon",
+      "phase_2": "Pro Stack (Weeks 5-8): Next.js 16 + Server Actions + Cache Components, AI agents + tool calling + RAG, system design, observability, mock hackathon",
+      "phase_3": "Hackathon Sprint (Weeks 9-12): Capstone build, mentor coaching, pitch lab, Live Pro Hackathon Weekend"
     },
     "skills_gained": [
-      "Hackathon mindset — scope, MVP, ruthless prioritization, founder-grade decision making",
+      "Hackathon mindset, scope, MVP, ruthless prioritization, founder-grade decision making",
       "Python 3.12 and TypeScript 5 fluency",
       "Next.js 16 App Router, Server Components, Server Actions, Cache Components",
-      "Tailwind CSS + shadcn/ui — production-grade UI",
-      "Supabase / Postgres / Redis / Cloudflare D1 — pick the right datastore",
+      "Tailwind CSS + shadcn/ui, production-grade UI",
+      "Supabase / Postgres / Redis / Cloudflare D1, pick the right datastore",
       "REST and tRPC API design",
       "Authentication: Clerk, Auth0, magic links, OAuth, RBAC",
-      "AI SDK (Vercel AI SDK) — text, tools, agents, streaming",
-      "AI APIs: Claude 4.7, GPT-4o, Gemini 2.5 — tradeoffs and cost models",
+      "AI SDK (Vercel AI SDK), text, tools, agents, streaming",
+      "AI APIs: Claude 4.7, GPT-4o, Gemini 2.5, tradeoffs and cost models",
       "Tool calling, multi-step agents, durable workflows (Vercel WDK)",
       "RAG pipelines: chunking, embeddings, hybrid search, reranking, eval",
       "Vector databases: pgvector, Pinecone, Weaviate, Qdrant",
@@ -110,13 +110,13 @@
       "Security basics: OWASP top 10, CSP, secrets management",
       "Performance: Core Web Vitals, edge runtime, ISR, streaming",
       "Deployment on Vercel, AWS, Cloudflare",
-      "Pitch design — VC-style 3-minute deck",
+      "Pitch design, VC-style 3-minute deck",
       "Demo storytelling and live Q&A with senior judges"
     ],
     "career_outcomes": [
       "Hackathon Champion (corporate, sponsor, MLH, SIH-grad)",
       "Indie Hacker / Solo Founder",
-      "AI Engineer at startups (₹15–60 LPA)",
+      "AI Engineer at startups (₹15-60 LPA)",
       "Full-Stack Engineer at YC / mid-stage startups",
       "Product Engineer / Product Manager",
       "Career Switcher into tech from non-tech background",
@@ -142,8 +142,8 @@
     ]
   },
   "phase_1_foundations": {
-    "title": "PHASE 1: Foundations — Engineering Fluency for Adults (Weeks 1–4)",
-    "description": "Adults arrive from very different starting points — some are seasoned engineers, some are PMs who've never written code, some are career switchers from medicine or finance. Phase 1 is the great equalizer. By Week 4, every participant ships a deployed full-stack app and competes in their first solo mini-hackathon.",
+    "title": "PHASE 1: Foundations, Engineering Fluency for Adults (Weeks 1-4)",
+    "description": "Adults arrive from very different starting points, some are seasoned engineers, some are PMs who've never written code, some are career switchers from medicine or finance. Phase 1 is the great equalizer. By Week 4, every participant ships a deployed full-stack app and competes in their first solo mini-hackathon.",
     "week_1": {
       "title": "Week 1: Hackathon Culture, Python + TypeScript Setup, Engineering Mindset",
       "theme": "Foundations & Mindset",
@@ -168,14 +168,14 @@
       "practice": "Configure your full pro environment with Cursor, GitHub CLI, Node 22 and Python 3.12, then write the same small utility in Python and TypeScript to compare ergonomics."
     },
     "week_2": {
-      "title": "Week 2: Full-Stack Fundamentals — REST, Databases, Auth",
+      "title": "Week 2: Full-Stack Fundamentals, REST, Databases, Auth",
       "theme": "Building Real Web Apps",
       "topics": [
         "REST API design: resources, verbs, status codes, idempotency",
         "Postgres fundamentals: schemas, indexes, transactions",
         "Supabase fast track: DB + auth + storage + realtime in 30 minutes",
         "Connection pooling, migrations, seed data",
-        "Authentication: Clerk vs Auth0 vs custom NextAuth — tradeoffs",
+        "Authentication: Clerk vs Auth0 vs custom NextAuth, tradeoffs",
         "RBAC and row-level security",
         "Caching basics: HTTP, CDN, Redis",
         "Email + magic links + OAuth flows",
@@ -187,21 +187,21 @@
         "Auth flow with Clerk + RBAC",
         "Public + private routes split with middleware"
       ],
-      "vibe_challenge": "Build a multi-tenant notes app where each user only sees their own notes — and prove it in tests.",
+      "vibe_challenge": "Build a multi-tenant notes app where each user only sees their own notes, and prove it in tests.",
       "practice": "Model a two table Postgres schema in Supabase with auth enabled and expose one authenticated REST endpoint with correct status codes."
     },
     "week_3": {
-      "title": "Week 3: Modern Frontend — Next.js 16, Server Actions, Tailwind, shadcn/ui",
+      "title": "Week 3: Modern Frontend, Next.js 16, Server Actions, Tailwind, shadcn/ui",
       "theme": "Production-Grade UI",
       "topics": [
         "Next.js 16 App Router fundamentals",
-        "Server Components vs Client Components — when to use which",
+        "Server Components vs Client Components, when to use which",
         "Server Actions for form submissions and mutations",
         "Cache Components: PPR, use cache, cacheLife, cacheTag",
         "Streaming and Suspense",
         "Route handlers and middleware (proxy)",
         "Tailwind CSS productivity setup",
-        "shadcn/ui — install, customize, theme",
+        "shadcn/ui, install, customize, theme",
         "Dark mode, responsive design, accessibility minimums",
         "Image and font optimization with Next.js"
       ],
@@ -214,39 +214,39 @@
       "practice": "Build a Next.js 16 page that mixes Server and Client Components, handles a form through one Server Action and streams a slow section with Suspense."
     },
     "week_4": {
-      "title": "Week 4: First Solo Pro Mini Hackathon — Ship Production-Ready in 12 Hours",
+      "title": "Week 4: First Solo Pro Mini Hackathon, Ship Production-Ready in 12 Hours",
       "theme": "First Real Pro Hackathon",
       "topics": [
         "12-hour pro hackathon template: 1 hr ideate, 8 hr build, 1 hr deploy, 2 hr polish + pitch",
-        "Picking a problem worth solving — adult-grade scoping",
+        "Picking a problem worth solving, adult-grade scoping",
         "Building solo with Cursor + Claude + Vercel preview",
         "Production checklist: env vars, error pages, monitoring, mobile",
         "Deployment with custom domain and SSL",
         "Recording a 2-minute demo with Loom",
         "Writing a judge-ready README + architecture diagram",
-        "First pro pitch — 2 minutes with slides",
+        "First pro pitch, 2 minutes with slides",
         "Self-grading using rubric",
         "Phase 1 retrospective"
       ],
       "projects": [
-        "PHASE 1 CAPSTONE — Solo Pro Mini Hackathon: 12-hour build, deployed to a real domain, 2-minute pro demo, judge-ready README"
+        "PHASE 1 CAPSTONE, Solo Pro Mini Hackathon: 12-hour build, deployed to a real domain, 2-minute pro demo, judge-ready README"
       ],
-      "vibe_challenge": "Ship 60 minutes early — beat the deadline like a real founder.",
+      "vibe_challenge": "Ship 60 minutes early, beat the deadline like a real founder.",
       "assessment": "Phase 1 Pro Mini Hackathon Score Card with mentor feedback letter"
     }
   },
   "phase_2_pro_stack": {
-    "title": "PHASE 2: Pro Stack — AI Agents, RAG, System Design (Weeks 5–8)",
-    "description": "This is the differentiator — what separates a winning hackathon team from a generic one. Adults learn how production AI software is actually built today: agents with tool calling, durable workflows, RAG over private data, and the system design choices that scale.",
+    "title": "PHASE 2: Pro Stack, AI Agents, RAG, System Design (Weeks 5-8)",
+    "description": "This is the differentiator, what separates a winning hackathon team from a generic one. Adults learn how production AI software is actually built today: agents with tool calling, durable workflows, RAG over private data, and the system design choices that scale.",
     "week_5": {
-      "title": "Week 5: AI APIs & The Vercel AI SDK — Stream, Cache, Cost-Manage",
+      "title": "Week 5: AI APIs & The Vercel AI SDK, Stream, Cache, Cost-Manage",
       "theme": "Production AI Engineering",
       "topics": [
-        "Anthropic Claude 4.7, OpenAI GPT-4o, Google Gemini 2.5 — tradeoffs",
+        "Anthropic Claude 4.7, OpenAI GPT-4o, Google Gemini 2.5, tradeoffs",
         "Vercel AI SDK fundamentals: generateText, streamText, tools",
         "Streaming responses to UI with React Suspense",
-        "Prompt caching with Anthropic — 90% cost reduction",
-        "Function/tool calling — turning LLMs into actuators",
+        "Prompt caching with Anthropic, 90% cost reduction",
+        "Function/tool calling, turning LLMs into actuators",
         "Multimodal: text + image + file inputs",
         "Structured outputs with Zod schemas",
         "Cost tracking, rate limiting, fallback chains",
@@ -273,7 +273,7 @@
         "Vercel Sandbox for safe code execution by AI",
         "Memory: short-term, long-term, semantic memory",
         "Evaluation: how do we know an agent is good?",
-        "MCP (Model Context Protocol) servers — extending agent capabilities",
+        "MCP (Model Context Protocol) servers, extending agent capabilities",
         "Common failure modes: tool loops, prompt injection, runaway costs"
       ],
       "projects": [
@@ -285,7 +285,7 @@
       "practice": "Build a two tool agent, for example web lookup plus calculator, with a visible step log and a hard termination condition."
     },
     "week_7": {
-      "title": "Week 7: RAG Done Right — Embeddings, Vector DBs, Hybrid Search, Eval",
+      "title": "Week 7: RAG Done Right, Embeddings, Vector DBs, Hybrid Search, Eval",
       "theme": "Retrieval-Augmented Generation at Production Quality",
       "topics": [
         "When NOT to use RAG (fine-tuning vs RAG vs prompt eng)",
@@ -297,7 +297,7 @@
         "Evaluation: groundedness, context precision, faithfulness",
         "RAG observability: trace every retrieval and answer",
         "Cost and latency tradeoffs",
-        "When RAG fails — and how to debug"
+        "When RAG fails, and how to debug"
       ],
       "projects": [
         "RAG over your own documents (PDFs + Notion export)",
@@ -308,7 +308,7 @@
       "practice": "Implement a small RAG pipeline over 20 to 50 documents with pgvector, then evaluate five queries and record where retrieval failed and why."
     },
     "week_8": {
-      "title": "Week 8: System Design + Mock Pro Hackathon (Teams of 2–4)",
+      "title": "Week 8: System Design + Mock Pro Hackathon (Teams of 2-4)",
       "theme": "Engineering Depth & Realistic Hackathon Practice",
       "topics": [
         "System design fundamentals: load, latency, consistency, partitioning",
@@ -319,24 +319,24 @@
         "Observability stack: logs, metrics, traces (OpenTelemetry)",
         "Security: OWASP top 10, CSP, secrets management",
         "On-call, error budgets, postmortems",
-        "Pro Mock Hackathon: teams of 2–4, 24-hour build window",
+        "Pro Mock Hackathon: teams of 2-4, 24-hour build window",
         "Live judging panel with senior engineers + founders"
       ],
       "projects": [
-        "PHASE 2 CAPSTONE — Pro Mock Hackathon: 24-hour team build with deployed product, agent or RAG component, full pitch + Q&A"
+        "PHASE 2 CAPSTONE, Pro Mock Hackathon: 24-hour team build with deployed product, agent or RAG component, full pitch + Q&A"
       ],
-      "vibe_challenge": "Survive your first 24-hour hackathon weekend — sleep optional.",
+      "vibe_challenge": "Survive your first 24-hour hackathon weekend, sleep optional.",
       "assessment": "Pro Mock Hackathon Judges Panel scoring + written feedback letter"
     }
   },
   "phase_3_hackathon_sprint": {
-    "title": "PHASE 3: Pro Hackathon Sprint — Capstone, Pitch Lab & Live Hackathon Weekend (Weeks 9–12)",
+    "title": "PHASE 3: Pro Hackathon Sprint, Capstone, Pitch Lab & Live Hackathon Weekend (Weeks 9-12)",
     "description": "The final 4 weeks are a real, founder-grade hackathon journey. Adults lock a capstone, get matched with senior mentors (engineers, founders, VCs as needed), build with production discipline, get founder-grade pitch coaching, and compete in the Live Pro Hackathon Weekend with sponsor prizes.",
     "week_9": {
-      "title": "Week 9: Capstone Lock — Spec, Architecture, Cost Model, GTM Sketch",
+      "title": "Week 9: Capstone Lock, Spec, Architecture, Cost Model, GTM Sketch",
       "theme": "Founder-Grade Capstone Kickoff",
       "topics": [
-        "Idea finalists — picking a capstone with both judge-appeal and founder-potential",
+        "Idea finalists, picking a capstone with both judge-appeal and founder-potential",
         "Writing a 2-page Product Spec (problem, users, JTBD, MVP, stretch)",
         "Architecture diagram with picked tech stack and rationale",
         "Cost model: AI tokens, infra, third-party APIs",
@@ -355,7 +355,7 @@
       "practice": "Deliver your two page capstone spec with an architecture diagram, a token and infra cost model, and a risk register with mitigations."
     },
     "week_10": {
-      "title": "Week 10: Heavy Build Sprint — Production Discipline at Hackathon Speed",
+      "title": "Week 10: Heavy Build Sprint, Production Discipline at Hackathon Speed",
       "theme": "Build Week",
       "topics": [
         "Daily commits with great messages",
@@ -364,31 +364,31 @@
         "Mid-sprint mentor reviews and code walkthroughs",
         "Test critical paths (smoke + at least one E2E)",
         "Loading / empty / error states across the app",
-        "Mobile and accessibility — judges open on phones",
+        "Mobile and accessibility, judges open on phones",
         "Performance: Core Web Vitals, bundle size, edge runtime",
         "Observability: every error visible in Sentry / Vercel logs",
         "Daily standup logs to mentor"
       ],
       "projects": [
-        "Capstone build — 70% complete by end of Week 10",
+        "Capstone build, 70% complete by end of Week 10",
         "Daily standup logs (3 lines: shipped / shipping / blocked)",
         "Mid-sprint demo to mentor + 3 peers"
       ],
       "practice": "Ship daily for five days: clean commits, one mid sprint mentor review actioned, and one end to end test guarding your demo path."
     },
     "week_11": {
-      "title": "Week 11: Founder-Grade Pitch Lab — VC Critique, Slides, Demo Polish",
+      "title": "Week 11: Founder-Grade Pitch Lab, VC Critique, Slides, Demo Polish",
       "theme": "Pitch & Demo Mastery",
       "topics": [
         "Hackathon judging rubric (Innovation 25 / Execution 25 / Design 25 / Pitch 25)",
         "VC-style judging: 'why now, why you, why this big'",
         "The 3-minute pro pitch: Hook → Problem → Solution → Demo → Architecture → Traction (if any) → Team → Ask",
-        "Slide design — minimal, image-first, 8 slides max",
+        "Slide design, minimal, image-first, 8 slides max",
         "Live VC-style critique sessions with senior mentors",
         "Recording a high-quality demo (multiple takes, edited in Loom or DaVinci)",
         "Voice and pacing tips from professional pitch coaches",
-        "Q&A handling — 'I don't know' done well",
-        "Final README polish — judges read this first",
+        "Q&A handling, 'I don't know' done well",
+        "Final README polish, judges read this first",
         "Final code freeze, deployment health check, mobile/dark mode/edge cases"
       ],
       "projects": [
@@ -399,14 +399,14 @@
       "practice": "Rehearse the three minute pitch on camera twice, tighten the deck to eight image first slides and prepare answers to the three hardest judge questions."
     },
     "week_12": {
-      "title": "Week 12: LIVE PRO HACKATHON WEEKEND — Compete with Founders & Senior Engineers",
+      "title": "Week 12: LIVE PRO HACKATHON WEEKEND, Compete with Founders & Senior Engineers",
       "theme": "The Real Pro Hackathon",
       "topics": [
         "Friday: opening keynote, sponsor announcements, theme reveal, team check-in",
         "Saturday: 18-hour final sprint with senior mentor support",
         "Saturday evening: pitch dress rehearsal with VC-style critique",
         "Sunday morning: 4-hour final polish + production deploy",
-        "Sunday afternoon: live judging — every team pitches in front of senior judges",
+        "Sunday afternoon: live judging, every team pitches in front of senior judges",
         "Sponsor categories: Best AI Agent, Best RAG, Best Founder Potential, Best Architecture, Best Pitch, Most Innovative, Audience Favorite",
         "Live judge Q&A with founders and CTOs",
         "Awards ceremony with cash prizes, cloud credits, mentor calls and founder intros",
@@ -414,15 +414,15 @@
         "Graduation: Pro Hackathon Builder Certification awarded"
       ],
       "projects": [
-        "GRAND CAPSTONE — Live Pro Hackathon Submission: production-deployed product + GitHub repo + 3-minute investor pitch + 8-slide deck + judge-ready README + live presentation + Q&A"
+        "GRAND CAPSTONE, Live Pro Hackathon Submission: production-deployed product + GitHub repo + 3-minute investor pitch + 8-slide deck + judge-ready README + live presentation + Q&A"
       ],
       "assessment": "Final Pro Hackathon Score + Founder Feedback Letter",
-      "certification": "Pro Hackathon Builder — Modern Age Coders Certified"
+      "certification": "Pro Hackathon Builder, Modern Age Coders Certified"
     }
   },
   "free_hackathon_event": {
-    "title": "The Live Pro Hackathon — Free for Every Adult",
-    "description": "Modern Age Coders runs a free, public-access pro hackathon every quarter. Anyone aged 18+ can register — no fee, no employer endorsement, no entrance test. Career switchers, full-time engineers, founders, students, and curious professionals all welcome.",
+    "title": "The Live Pro Hackathon, Free for Every Adult",
+    "description": "Modern Age Coders runs a free, public-access pro hackathon every quarter. Anyone aged 18+ can register, no fee, no employer endorsement, no entrance test. Career switchers, full-time engineers, founders, students, and curious professionals all welcome.",
     "what_is_included_free": [
       "Free hackathon registration (no fee at all)",
       "48-hour event participation (online + select offline cities)",
@@ -445,30 +445,30 @@
       "Internship and full-time role referrals for top performers",
       "Career-switch support: 1-on-1 portfolio reviews + LinkedIn coaching"
     ],
-    "frequency": "Quarterly — March, June, September, December",
+    "frequency": "Quarterly, March, June, September, December",
     "location": "Online (global) + Offline pods in 30+ Indian cities",
     "languages": "English (primary), Hindi (secondary)"
   },
   "faqs": [
     {
       "question": "Is the hackathon really free for adults?",
-      "answer": "Yes — 100% free for anyone aged 18+. No fee. No employer or college endorsement needed. Free certificate. Free judging by senior engineers, founders and VCs. Eligible for all sponsor prizes."
+      "answer": "Yes, 100% free for anyone aged 18+. No fee. No employer or college endorsement needed. Free certificate. Free judging by senior engineers, founders and VCs. Eligible for all sponsor prizes."
     },
     {
       "question": "Why is the prep course paid?",
-      "answer": "The prep course is optional. It's for adults who want serious, structured 12-week training in modern engineering, AI agents, RAG, system design and pitching. It's priced same as our other professional courses — Group ₹1,499/mo, Mini Batch ₹2,499/mo, 1-on-1 ₹4,999/mo. The hackathon participation stays free regardless."
+      "answer": "The prep course is optional. It's for adults who want serious, structured 12-week training in modern engineering, AI agents, RAG, system design and pitching. It's priced same as our other professional courses, Group ₹1,499/mo, Mini Batch ₹2,499/mo, 1-on-1 ₹4,999/mo. The hackathon participation stays free regardless."
     },
     {
-      "question": "I'm a non-technical adult — can I still do this?",
-      "answer": "Yes — and you're our favorite kind of student. Many of our top hackathon winners have come from non-technical backgrounds (medicine, law, finance, teaching). Phase 1 starts from absolute zero. AI tools (Cursor, Replit Agent, Bolt.new) close the gap dramatically. Within 4 weeks, you'll be deploying full-stack apps."
+      "question": "I'm a non-technical adult, can I still do this?",
+      "answer": "Yes, and you're our favorite kind of student. Many of our top hackathon winners have come from non-technical backgrounds (medicine, law, finance, teaching). Phase 1 starts from absolute zero. AI tools (Cursor, Replit Agent, Bolt.new) close the gap dramatically. Within 4 weeks, you'll be deploying full-stack apps."
     },
     {
-      "question": "I'm a senior engineer — will this be too basic?",
+      "question": "I'm a senior engineer, will this be too basic?",
       "answer": "No. The Phase 2 content (AI agents, RAG done right, durable workflows, system design at hackathon scale, observability) is genuinely current and challenges senior engineers. We also let experienced engineers fast-track Phase 1 in 2 weeks if they pass a placement test."
     },
     {
       "question": "What's the time commitment?",
-      "answer": "Plan for 8–10 hours weekly: 2 live sessions (2 hours each, evenings or weekends), 4 hours of independent project work, and 1–2 hours for the weekly pro hackathon-style challenge. All sessions are recorded for working professionals who can't always attend live."
+      "answer": "Plan for 8-10 hours weekly: 2 live sessions (2 hours each, evenings or weekends), 4 hours of independent project work, and 1-2 hours for the weekly pro hackathon-style challenge. All sessions are recorded for working professionals who can't always attend live."
     },
     {
       "question": "What stack will I learn?",
@@ -476,7 +476,7 @@
     },
     {
       "question": "Will this help me switch careers into tech?",
-      "answer": "Yes — directly. Career switchers are a big part of our cohort. You graduate with: a deployed capstone, a public GitHub portfolio, a recorded pitch, a Pro Hackathon Builder certification, and 1-on-1 LinkedIn / portfolio review. We refer top performers to hiring partners (startups, SaaS companies, AI labs)."
+      "answer": "Yes, directly. Career switchers are a big part of our cohort. You graduate with a deployed capstone, a public GitHub portfolio, a recorded pitch, a Pro Hackathon Builder certification, and a 1-on-1 LinkedIn and portfolio review. We help you present your work well for applications and interviews, though outcomes depend on your effort and the market."
     },
     {
       "question": "Can founders use this to validate their startup idea?",
@@ -484,11 +484,11 @@
     },
     {
       "question": "Are there sponsor prizes?",
-      "answer": "Yes. Past sponsors have offered cloud credits ($500–$5,000), AI API credits, mentor calls with VC partners, founder intros, and cash awards. Sponsor lineup announced 2 weeks before each quarterly hackathon."
+      "answer": "Yes. Past sponsors have offered cloud credits ($500, $5,000), AI API credits, mentor calls with VC partners, founder intros, and cash awards. Sponsor lineup announced 2 weeks before each quarterly hackathon."
     },
     {
       "question": "Do you cover system design and DSA?",
-      "answer": "System design — yes, deeply, at hackathon depth (queues, caches, sharding, event-driven). DSA — to the level you need to write efficient hackathon code. For deep DSA prep (interview-grade), we recommend our Vibe Coding for College / DSA Masterclass program."
+      "answer": "System design, yes, deeply, at hackathon depth (queues, caches, sharding, event-driven). DSA, to the level you need to write efficient hackathon code. For deep DSA prep (interview-grade), we recommend our Vibe Coding for College / DSA Masterclass program."
     },
     {
       "question": "What's the refund policy?",
@@ -519,9 +519,9 @@
   ],
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1 (Weeks 1–4): 6+ full-stack projects + Solo Pro Mini Hackathon (deployed)",
-      "Phase 2 (Weeks 5–8): 6+ AI/agent/RAG/system-design projects + Pro Mock Hackathon",
-      "Phase 3 (Weeks 9–12): Capstone build + investor pitch deck + 3-min demo + LIVE Pro Hackathon submission"
+      "Phase 1 (Weeks 1-4): 6+ full-stack projects + Solo Pro Mini Hackathon (deployed)",
+      "Phase 2 (Weeks 5-8): 6+ AI/agent/RAG/system-design projects + Pro Mock Hackathon",
+      "Phase 3 (Weeks 9-12): Capstone build + investor pitch deck + 3-min demo + LIVE Pro Hackathon submission"
     ],
     "total_projects_built": "12+ deployed projects + Live Pro Hackathon Capstone",
     "skills_mastered": [
@@ -544,11 +544,11 @@
     "weekly_structure": {
       "live_classes": "2 sessions (2 hours each, evening or weekend)",
       "independent_projects": "4 hours",
-      "weekly_pro_hack": "1 themed hackathon-style challenge (1–2 hours)",
-      "total_per_week": "8–10 hours"
+      "weekly_pro_hack": "1 themed hackathon-style challenge (1-2 hours)",
+      "total_per_week": "8-10 hours"
     },
     "certification": {
-      "final_certificate": "Pro Hackathon Builder — Modern Age Coders Certified",
+      "final_certificate": "Pro Hackathon Builder, Modern Age Coders Certified",
       "capstone_required": "Live hackathon submission (production-deployed product + investor pitch + demo)",
       "portfolio": "12+ deployed projects + grand capstone"
     },
@@ -557,14 +557,14 @@
       "mentor_matching": "1-on-1 senior mentor in capstone phase",
       "pitch_lab": "Founder-grade VC-style pitch coaching",
       "career_support": "1-on-1 LinkedIn + portfolio review for career switchers",
-      "internship_referrals": "Top performers referred to hiring partners",
       "founder_support": "Mentor founders matched for capstone if you're building a startup",
-      "community": "Pro Hackathon Builders alumni network + private Slack"
+      "community": "Pro Hackathon Builders alumni network + private Slack",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     }
   },
   "prerequisites": {
     "age": "18+",
-    "experience": "Zero coding experience welcome — career switchers and non-technical adults thrive here",
+    "experience": "Zero coding experience welcome, career switchers and non-technical adults thrive here",
     "equipment": "Laptop with stable internet (16GB RAM recommended for AI dev work)",
     "software": "All free / open-source tiers (VS Code, Cursor free tier, Vercel hobby tier, Supabase free tier)",
     "mindset": "Willingness to ship rough first versions and iterate publicly"
@@ -578,7 +578,7 @@
     "small_business_owners": "Entrepreneurs who want to build internal tools for their business"
   },
   "career_paths_after_completion": [
-    "AI Engineer at startups (₹15–60 LPA in India, $80k–$200k globally)",
+    "AI Engineer at startups (₹15-60 LPA in India, $80k, $200k globally)",
     "Full-Stack Engineer at YC / mid-stage startups",
     "Product Engineer / Product Manager",
     "Indie Hacker / Solo Founder",
@@ -588,21 +588,16 @@
     "Hackathon-Champion track (sponsor pipelines, accelerator interviews)"
   ],
   "salary_expectations": {
-    "fresh_career_switchers": "₹6–18 LPA in first tech role",
-    "engineers_upskilling": "₹20–60 LPA for senior AI / full-stack roles",
-    "founders": "Pre-seed funding range typically $50k–$500k from accelerators or angels",
-    "global_remote": "$80k–$200k for AI / full-stack engineers from India working remote"
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "other_roles": "₹6-18 LPA in first tech role; ₹20-60 LPA for senior AI / full-stack roles; Pre-seed funding range typically $50k, $500k from accelerators or angels; $80k, $200k for AI / full-stack engineers from India working remote"
   },
   "course_guarantees": {
-    "free_hackathon": "Hackathon participation always free for any adult 18+",
-    "deployed_projects": "Every project deploys to a real domain",
-    "github_portfolio": "Public GitHub portfolio with 12+ production-grade projects",
-    "mentor_matching": "1-on-1 senior engineer or founder mentor in capstone phase",
-    "pitch_coaching": "Founder-grade VC-style pitch lab in Week 11",
-    "career_support": "Portfolio + LinkedIn review for career switchers",
-    "internship_referrals": "Top performers introduced to hiring partners",
-    "certificate": "Pro Hackathon Builder certification on completion",
-    "satisfaction": "Full refund within first 2 weeks if not satisfied"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "relatedCourses": [
     "vibe-coding-for-college-fullstack-ai-dsa-career-course",

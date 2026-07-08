@@ -510,20 +510,13 @@
     "Hackathon competitor who can build a working prototype in a weekend",
     "Future AI-assisted Software Engineer, Web Developer, or App Developer"
   ],
-  "salary_expectations": {
-    "note": "Teens don't earn salaries from a course, but these skills compound. Here's the future earning potential they set you up for:",
-    "internships": "AI-fluent student interns are increasingly sought after for paid internships",
-    "early_career": "Entry-level developers who can direct AI agents are among the most productive (and best-paid) juniors",
-    "long_term": "Directing AI coding agents is becoming a core, highly-valued software skill for the decade ahead",
-    "freelance": "Even as a teen, simple websites/apps can be built for small clients with agent help"
-  },
   "course_guarantees": {
-    "living_syllabus": "Living Syllabus guarantee: the curriculum is updated as OpenAI Codex and Anthropic Claude Code release new features, models, and capabilities. Enrolled students always learn the latest, at no extra cost",
-    "hands_on": "Every class includes real, runnable commands and a hands-on project, no passive watching",
-    "beginner_safe": "Start from zero: no coding experience required",
-    "portfolio": "Finish with a deployed app and a real GitHub profile",
-    "mentorship": "Live guidance from mentors who use these agents daily",
-    "certificate": "Recognized completion certificate for your capstone"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "additional_learning_resources": {
     "total_projects_built": "24 hands-on projects, one per class, finishing with a deployed capstone app",
@@ -574,12 +567,6 @@
     "the_shift": "Coding is changing faster than at any point in history. The developers who thrive aren't just typing code, they're directing AI agents that write, test, and ship it. Teens who learn this now have a multi-year head start.",
     "two_tools_one_course": "We teach BOTH Codex and Claude Code because real developers use both, and knowing when to reach for each is a superpower.",
     "always_current": "Our Living Syllabus means you're never learning a frozen, outdated version. As the tools evolve, so does the course."
-  },
-  "success_metrics": {
-    "projects_shipped": "Every student ships at least one deployed app",
-    "real_prs": "Students open and review real GitHub pull requests with AI code review",
-    "tool_fluency": "Graduates can confidently install, configure, and direct both Codex and Claude Code",
-    "safety_first": "Students complete the course following a personal safe-AI-coding checklist"
   },
   "faqs": [
     {

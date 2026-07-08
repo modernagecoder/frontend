@@ -1,7 +1,7 @@
 {
   "meta": {
     "slug": "gcse-mathematics-mastery",
-    "title": "GCSE Mathematics Mastery — Foundation & Higher (9-1), Live Online",
+    "title": "GCSE Mathematics Mastery, Foundation & Higher (9-1), Live Online",
     "description": "Live online GCSE Maths course for AQA, Edexcel and OCR: Foundation and Higher tiers, non-calculator Paper 1 fluency, grade 7-9 reach taught early and past-paper technique on real mark schemes. 8 one-hour classes a month, free demo first.",
     "keywords": [
       "gcse maths course online",
@@ -34,8 +34,8 @@
   },
   "program_overview": {
     "title": "GCSE Mathematics Mastery",
-    "tagline": "Foundation to grade 5 secure, Higher to grade 9 — taught for understanding, trained for the papers.",
-    "description": "An 18-month live program for GCSE mathematics across AQA, Edexcel and OCR, at Foundation or Higher tier. GCSE maths is three papers — one strictly non-calculator — with grades that gatekeep sixth form, apprenticeships and A-Level maths. This course teaches the syllabus understanding-first (so the mock slide of year 11 never happens), trains bare-hands fluency for Paper 1 in every class, brings the Higher-tier grade 7-9 topics in early enough to settle, and converts it all into marks through past-paper cycles against your exact board's mark schemes.",
+    "tagline": "Foundation to grade 5 secure, Higher to grade 9, taught for understanding, trained for the papers.",
+    "description": "An 18-month live program for GCSE mathematics across AQA, Edexcel and OCR, at Foundation or Higher tier. GCSE maths is three papers, one strictly non-calculator, with grades that gatekeep sixth form, apprenticeships and A-Level maths. This course teaches the syllabus understanding-first (so the mock slide of year 11 never happens), trains bare-hands fluency for Paper 1 in every class, brings the Higher-tier grade 7-9 topics in early enough to settle, and converts it all into marks through past-paper cycles against your exact board's mark schemes.",
     "what_makes_this_different": [
       "Board-exact: AQA, Edexcel or OCR confirmed first, and every past paper comes from your board",
       "Tier-honest: evidence for Foundation-vs-Higher decisions, and a real runway from grade 4-risk to 6-secure, or 6 to 9",
@@ -43,7 +43,7 @@
       "The grade 7-9 separator topics taught months early so they settle instead of being crammed",
       "Mark-scheme literacy: method marks, working discipline and the plus-minus habits that stop point leaks",
       "Understanding-first teaching: algebra as a language, so re-framed exam questions do not break the student",
-      "One dedicated mentor across the whole GCSE run — a full interactive hour, twice a week",
+      "One dedicated mentor across the whole GCSE run, a full interactive hour, twice a week",
       "Resit candidates welcome, with a compressed evidence-led plan"
     ],
     "learning_path": {
@@ -60,12 +60,12 @@
   },
   "phase_1_foundation": {
     "title": "PHASE 1: The Core, Built Properly (Months 1-6)",
-    "description": "Foundation-tier territory owned deeply is what Higher-tier grades stand on. This phase rebuilds number fluency without a calculator, teaches algebra as a language, and secures the geometry and statistics basics — with the diagnostic finding the true starting point first.",
+    "description": "Foundation-tier territory owned deeply is what Higher-tier grades stand on. This phase rebuilds number fluency without a calculator, teaches algebra as a language, and secures the geometry and statistics basics, with the diagnostic finding the true starting point first.",
     "month_1_2": {
       "title": "Months 1-2: Diagnostic + Number, Bare-Handed",
       "weeks": "Weeks 1-8",
       "week_1_2": "Full diagnostic: board confirmed, tier fit assessed honestly, non-calculator fluency and algebra base measured",
-      "week_3_4": "Fractions, decimals and percentages to fluency — Paper 1's exact territory — with estimation as a checking habit",
+      "week_3_4": "Fractions, decimals and percentages to fluency, Paper 1's exact territory, with estimation as a checking habit",
       "week_5_6": "Ratio and proportion reasoning: the best-buy, recipe and map-scale families",
       "week_7_8": "Indices, standard form and bounds; error intervals done with meaning"
     },
@@ -82,7 +82,7 @@
       "weeks": "Weeks 17-24",
       "week_17_18": "Angle reasoning with justification language: parallel lines, polygons, bearings",
       "week_19_20": "Area, perimeter and volume including compound shapes; Pythagoras from a picture",
-      "week_21_22": "Averages, charts, scatter graphs and correlation — data read like a sceptic",
+      "week_21_22": "Averages, charts, scatter graphs and correlation, data read like a sceptic",
       "week_23_24": "Phase checkpoint: a full Foundation-standard paper under timing, reviewed against the mark scheme"
     }
   },
@@ -92,9 +92,9 @@
     "month_7_8": {
       "title": "Months 7-8: Quadratics and Functions",
       "weeks": "Weeks 25-32",
-      "week_25_26": "Quadratics by factorising, completing the square and the formula — chosen by structure",
+      "week_25_26": "Quadratics by factorising, completing the square and the formula, chosen by structure",
       "week_27_28": "Quadratic graphs, turning points and real contexts; quadratic inequalities (Higher)",
-      "week_29_30": "Function notation, composite and inverse functions — where half the function marks are lost",
+      "week_29_30": "Function notation, composite and inverse functions, where half the function marks are lost",
       "week_31_32": "Graph transformations, cubic and reciprocal graphs; algebraic fractions (Higher)"
     },
     "month_9_10": {
@@ -126,7 +126,7 @@
     "month_15_16": {
       "title": "Months 15-16: Full Cycles by Board",
       "weeks": "Weeks 57-64",
-      "week_57_60": "Full timed papers from your exact board and tier; review rituals — why each mark was lost, and the named fix",
+      "week_57_60": "Full timed papers from your exact board and tier; review rituals, why each mark was lost, and the named fix",
       "week_61_64": "Timing plans from personal data; weakest-topic rotations by error-log priority; grade-boundary awareness used honestly"
     },
     "month_17_18": {
@@ -139,15 +139,15 @@
   "faqs": [
     {
       "question": "Which exam boards does this course cover?",
-      "answer": "AQA, Edexcel and OCR — the content overlaps heavily, but paper styles and mark schemes differ, so the first thing the mentor confirms is your school's board, and every past paper comes from it. The 9-1 grading system and three-paper structure (one non-calculator) frame all exam work."
+      "answer": "AQA, Edexcel and OCR, the content overlaps heavily, but paper styles and mark schemes differ, so the first thing the mentor confirms is your school's board, and every past paper comes from it. The 9-1 grading system and three-paper structure (one non-calculator) frame all exam work."
     },
     {
-      "question": "Foundation or Higher — how should the decision be made?",
-      "answer": "By destination, then evidence. Foundation caps the grade at 5, so if A-Level maths or a competitive sixth form is even possible, Higher is the default. Whether the gaps blocking Higher are repairable in the time available is a diagnostic question — and the free demo answers it with evidence you can take to school."
+      "question": "Foundation or Higher, how should the decision be made?",
+      "answer": "By destination, then evidence. Foundation caps the grade at 5, so if A-Level maths or a competitive sixth form is even possible, Higher is the default. Whether the gaps blocking Higher are repairable in the time available is a diagnostic question, and the free demo answers it with evidence you can take to school."
     },
     {
       "question": "My child's grades slide every mock as content deepens. Why?",
-      "answer": "That slide is the classic signature of procedure without understanding: memorized methods hold at grade 4-5 content and collapse when questions chain or re-frame. Understanding-first teaching is the fix — algebra as a language, geometry with justification — which is exactly how this course teaches."
+      "answer": "That slide is the classic signature of procedure without understanding: memorized methods hold at grade 4-5 content and collapse when questions chain or re-frame. Understanding-first teaching is the fix, algebra as a language, geometry with justification, which is exactly how this course teaches."
     },
     {
       "question": "Can you take a grade 6 student to grade 8-9?",
@@ -155,7 +155,7 @@
     },
     {
       "question": "Do you take resit candidates?",
-      "answer": "Yes — post-16 resit students get a compressed, evidence-led version of the program prioritised by their diagnostic, aimed at the grade 4/5 threshold or beyond as their goals require."
+      "answer": "Yes, post-16 resit students get a compressed, evidence-led version of the program prioritised by their diagnostic, aimed at the grade 4/5 threshold or beyond as their goals require."
     },
     {
       "question": "How does this fit around school mocks and revision?",
@@ -163,11 +163,11 @@
     },
     {
       "question": "What does the course cost?",
-      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students — including UK families — pay USD $100 per month for group and $150 for 1-on-1, with 8 live one-hour classes a month and recordings included. UK tutors typically charge £25-£50 per hour for the same format."
+      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students, including UK families, pay USD $100 per month for group and $150 for 1-on-1, with 8 live one-hour classes a month and recordings included. UK tutors typically charge £25-£50 per hour for the same format."
     },
     {
       "question": "Can we try it before paying?",
-      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic — board, tier, fluency and algebra base — with no card details required."
+      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic, board, tier, fluency and algebra base, with no card details required."
     }
   ],
   "testimonials": [
@@ -222,7 +222,7 @@
   },
   "prerequisites": {
     "education": "Years 9-11 GCSE students (AQA, Edexcel or OCR), or post-16 resit candidates",
-    "math_background": "Any — the diagnostic finds the real base; Foundation gaps are repaired before Higher reach",
+    "math_background": "Any, the diagnostic finds the real base; Foundation gaps are repaired before Higher reach",
     "equipment": "Computer with stable internet; a scientific calculator for Papers 2-3",
     "time_commitment": "2 live hours plus 1-2 practice hours weekly",
     "english": "Course taught in English",
@@ -242,11 +242,12 @@
     "Ready for IB or A-Level tracks, or competition mathematics"
   ],
   "course_guarantees": {
-    "free_demo": "A free live demo class that doubles as the diagnostic — before any payment",
-    "recorded_classes": "All live sessions recorded",
-    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
-    "tier_honesty": "Evidence-based tier advice, in both directions",
-    "certificate": "Completion certificate plus documented score progression"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "relatedCourses": [
     "igcse-mathematics-mastery",

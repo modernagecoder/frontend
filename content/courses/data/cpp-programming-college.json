@@ -35,7 +35,7 @@
   "program_overview": {
     "title": "Complete C++ Programming Masterclass",
     "tagline": "From Hello World to High-Performance System Programming",
-    "description": "This is not just a course—it's a complete transformation into a professional C++ developer. C++ powers the world's most critical systems: operating systems, game engines, embedded devices, trading systems, and browsers. This 12-month masterclass takes you from absolute beginner to expert C++ developer, capable of building high-performance applications, system-level software, game engines, and solving complex algorithmic problems. You'll master modern C++ standards, STL, memory management, multithreading, and specialized domains like game development and competitive programming.",
+    "description": "This is not just a course, it's a complete transformation into a professional C++ developer. C++ powers the world's most critical systems: operating systems, game engines, embedded devices, trading systems, and browsers. This 12-month masterclass takes you from absolute beginner to expert C++ developer, capable of building high-performance applications, system-level software, game engines, and solving complex algorithmic problems. You'll master modern C++ standards, STL, memory management, multithreading, and specialized domains like game development and competitive programming.",
     "what_makes_this_different": [
       "Starts from absolute zero - no programming experience needed",
       "Complete 12-month structured curriculum with modern C++ (up to C++23)",
@@ -1269,20 +1269,19 @@
     "Technical Lead"
   ],
   "salary_expectations": {
-    "after_6_months": "₹5-8 LPA (Junior C++ Developer)",
-    "after_12_months": "₹8-15 LPA (C++ Developer)",
-    "after_18_months": "₹12-25 LPA (Senior C++ Developer)",
-    "after_24_months": "₹20-40+ LPA (Lead Developer/Architect)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "growing_roles": "₹5-8 LPA (Junior C++ Developer)",
+    "experienced_roles": "₹8-15 LPA (C++ Developer); ₹12-25 LPA (Senior C++ Developer); ₹20-40+ LPA (Lead Developer/Architect)",
     "freelance": "₹2000-8000/hour based on expertise",
     "international": "$80k-180k USD based on location and specialization"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Job placement support with tech companies",
-    "lifetime_updates": "Free access to all future content and C++ standards",
-    "mentorship": "Dedicated mentor throughout the journey",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "Production-ready portfolio by completion"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1330,7 +1329,7 @@
   "why_this_course": {
     "title": "Why C++ Commands the Highest Developer Salaries",
     "paragraphs": [
-      "C++ developers are among the highest-paid in the industry because they solve problems no other language can handle efficiently. When performance matters—games running at 120fps, trading systems executing in microseconds, autonomous vehicles making split-second decisions—C++ is the only choice.",
+      "C++ developers are among the highest-paid in the industry because they solve problems no other language can handle efficiently. When performance matters, games running at 120fps, trading systems executing in microseconds, autonomous vehicles making split-second decisions, C++ is the only choice.",
       "This masterclass covers the complete C++ ecosystem from fundamentals to advanced topics like template metaprogramming, lock-free concurrency, and system-level optimization. You'll understand not just how to write C++, but how modern compilers optimize your code and how to think about performance.",
       "Beyond salaries, C++ offers unique career paths: game engines at Epic Games, operating systems at Microsoft, trading systems at Goldman Sachs, autonomous vehicles at Tesla. These specialized roles offer not just high pay, but fascinating technical challenges."
     ],
@@ -1341,11 +1340,5 @@
       "Game development, HPC, and financial systems specializations",
       "Preparation for Google, Microsoft, and trading firm interviews"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "2,200+",
-    "specialized_placements": "78%",
-    "avg_salary_premium": "+35%",
-    "open_source_contributions": "500+"
   }
 }

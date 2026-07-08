@@ -90,7 +90,7 @@
       {
         "type": "callout",
         "calloutType": "warning",
-        "title": "AI Won't Replace Developers — But AI-Skilled Developers Will Replace Others",
+        "title": "AI Won't Replace Developers, But AI-Skilled Developers Will Replace Others",
         "text": "The developers who will thrive in 2026 aren't those who fear AI—they're the ones who leverage it. Learn to work WITH AI tools. Understand the code AI generates. Debug it, improve it, architect around it. This is the new baseline expectation."
       },
       {
@@ -789,7 +789,7 @@
       {
         "type": "callout",
         "calloutType": "info",
-        "title": "Don't Chase Trends — But Stay Aware",
+        "title": "Don't Chase Trends, But Stay Aware",
         "text": "Focus on fundamentals with established languages first. Once you're proficient in Python + one other language, picking up Go or Rust becomes manageable in 4-6 weeks. AI assistants make learning new languages faster than ever."
       },
       {

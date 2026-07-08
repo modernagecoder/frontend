@@ -511,18 +511,18 @@
     "Freelance / Founder shipping AI-built products faster"
   ],
   "salary_expectations": {
-    "after_3_months": "₹6-12 LPA in India / $70k-110k globally (developer using agents to boost output)",
-    "after_6_months": "₹12-22 LPA / $110k-150k (AI-assisted engineer shipping features independently)",
-    "after_12_months": "₹22-40+ LPA / $150k-220k+ (senior/lead leveraging agents and SDK automation at scale)",
-    "note": "Ranges vary by region, role, and prior experience; directing AI coding agents is rapidly becoming a premium, in-demand skill."
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹6-12 LPA in India / $70k-110k globally (developer using agents to boost output)",
+    "growing_roles": "₹12-22 LPA / $110k-150k (AI-assisted engineer shipping features independently)",
+    "experienced_roles": "₹22-40+ LPA / $150k-220k+ (senior/lead leveraging agents and SDK automation at scale)"
   },
   "course_guarantees": {
-    "living_syllabus": "Living Syllabus guarantee: continuously updated as OpenAI Codex and Anthropic Claude Code release new features, models, and capabilities. Enrolled students always learn the current product, at no extra cost",
-    "hands_on": "Every class is lab-driven with real commands, config, and a deliverable",
-    "production_focus": "Workplace-grade labs and a production capstone, not toy demos",
-    "sdk_depth": "Goes all the way to the Claude Agent SDK and Codex SDK for real automation",
-    "mentorship": "Guidance from mentors who use these agents in production daily",
-    "certificate": "Recognized professional completion certificate"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "additional_learning_resources": {
     "total_projects_built": "24 hands-on deliverables, one per class, including a production-grade capstone shipped in Class 24",
@@ -574,12 +574,6 @@
     "the_shift": "Software engineering is moving from typing code to directing agents that write, test, review, and ship it. The professionals who master this now are dramatically more productive, and more employable.",
     "two_tools_one_course": "We teach BOTH Codex and Claude Code to professional depth, including the SDKs, because real teams use both and the meta-skill is choosing the right one per task.",
     "always_current": "The Living Syllabus tracks a fast-moving space (new models and features ship monthly), so you learn what's actually shipping today."
-  },
-  "success_metrics": {
-    "production_shipped": "Every student ships a production-grade capstone (deployed app and/or merged automation)",
-    "review_at_scale": "Students integrate AI code review into a GitHub/CI workflow",
-    "automation_built": "Students build at least one SDK/headless automation",
-    "governance_ready": "Students produce a team-ready safe-agentic-coding policy"
   },
   "faqs": [
     {

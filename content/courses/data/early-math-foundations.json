@@ -1,7 +1,7 @@
 {
   "meta": {
     "slug": "early-math-foundations",
-    "title": "Early Math Foundations — Playful, Concrete Math for Ages 4-7 (K-2)",
+    "title": "Early Math Foundations, Playful, Concrete Math for Ages 4-7 (K-2)",
     "description": "Live online early math course for ages 4-7: counting with meaning, number bonds, shapes, measurement and playful problem solving, taught concrete-first in short, joyful, interactive classes. 8 classes a month, free demo first.",
     "keywords": [
       "early math course for kids",
@@ -35,24 +35,24 @@
   "program_overview": {
     "title": "Early Math Foundations",
     "tagline": "The years that decide whether math becomes a friend. We make it one.",
-    "description": "A 12-month live program for children aged 4-7 — the years when a child's whole relationship with mathematics is quietly decided. Early math done right is not worksheets; it is counting that means something, quantities seen and handled, patterns spotted, shapes built and stories solved. Our mentors teach concrete-first in genuinely interactive classes structured as short playful segments that respect young attention spans: real objects, ten-frames, games and math talk, with the child doing and explaining rather than watching. Children leave this course fluent in early number, confident in their own thinking, and — the part parents notice most — actually liking math.",
+    "description": "A 12-month live program for children aged 4-7, the years when a child's whole relationship with mathematics is quietly decided. Early math done right is not worksheets; it is counting that means something, quantities seen and handled, patterns spotted, shapes built and stories solved. Our mentors teach concrete-first in genuinely interactive classes structured as short playful segments that respect young attention spans: real objects, ten-frames, games and math talk, with the child doing and explaining rather than watching. Children leave this course fluent in early number, confident in their own thinking, and, the part parents notice most, actually liking math.",
     "what_makes_this_different": [
       "Concrete before abstract, always: quantities are handled, drawn, and only then written as symbols",
-      "Classes built for young attention: an hour of varied segments — games, movement, building, story problems — never an hour of sitting still",
+      "Classes built for young attention: an hour of varied segments, games, movement, building, story problems, never an hour of sitting still",
       "Counting taught with meaning: one-to-one correspondence, cardinality and the ideas most programs skip straight past",
-      "Number bonds and part-whole thinking started early, gently — the foundation everything to age 18 stands on",
+      "Number bonds and part-whole thinking started early, gently, the foundation everything to age 18 stands on",
       "Math talk from day one: even five-year-olds explain their thinking here, in their own words",
       "One dedicated mentor who knows the child, their pace and their spark",
       "Parents equipped too: simple everyday math-play prompts, because kitchens teach more than worksheets",
-      "The honest opposite of drill academies — no pressure, no rankings, no tears"
+      "The honest opposite of drill academies, no pressure, no rankings, no tears"
     ],
     "learning_path": {
-      "phase_1": "Counting with meaning, comparing quantities, and the first part-whole ideas — through objects and games",
+      "phase_1": "Counting with meaning, comparing quantities, and the first part-whole ideas, through objects and games",
       "phase_2": "Addition and subtraction as stories, bonds to 10, place value beginnings and the teen numbers demystified",
-      "phase_3": "Numbers to 100 and beyond, early measurement, shapes and data — plus problem-solving courage and grade-2 readiness"
+      "phase_3": "Numbers to 100 and beyond, early measurement, shapes and data, plus problem-solving courage and grade-2 readiness"
     },
     "career_outcomes": [
-      "A child who says 'I like math' — the outcome that predicts the next decade",
+      "A child who says 'I like math', the outcome that predicts the next decade",
       "Number sense foundations that make grades 3-5 feel natural",
       "Fine reasoning habits: explaining, checking, trying another way",
       "A smooth on-ramp into Mental Maths Mastery or the Elementary Masterclass"
@@ -60,27 +60,27 @@
   },
   "phase_1_foundation": {
     "title": "PHASE 1: Counting That Means Something (Months 1-4)",
-    "description": "Counting looks simple and hides deep ideas: one number per object, the last number telling the total, quantities compared and conserved. This phase builds those ideas properly through objects, movement and games — the difference between reciting numbers and understanding them.",
+    "description": "Counting looks simple and hides deep ideas: one number per object, the last number telling the total, quantities compared and conserved. This phase builds those ideas properly through objects, movement and games, the difference between reciting numbers and understanding them.",
     "month_1": {
       "title": "Month 1: Numbers as Quantities",
       "weeks": "Weeks 1-4",
       "week_1": "Playful diagnostic disguised as games: counting, comparing and pattern instincts observed",
-      "week_2": "One-to-one counting with real objects; the cardinality idea — the last number IS the amount",
-      "week_3": "Subitizing: seeing 3, 4 and 5 without counting — dice, dots and finger patterns",
-      "week_4": "Comparing quantities: more, fewer, same — justified with matching, not guessing"
+      "week_2": "One-to-one counting with real objects; the cardinality idea, the last number IS the amount",
+      "week_3": "Subitizing: seeing 3, 4 and 5 without counting, dice, dots and finger patterns",
+      "week_4": "Comparing quantities: more, fewer, same, justified with matching, not guessing"
     },
     "month_2_3": {
       "title": "Months 2-3: The Number World to 10",
       "weeks": "Weeks 5-12",
       "week_5_6": "Numerals connected to quantities; counting forwards and backwards as a game",
       "week_7_8": "Ten-frames as home base: five-and-some structure, seeing numbers inside numbers",
-      "week_9_10": "Part-whole play: 5 is 2-and-3, 4-and-1 — decomposition as a toy, years before it is a technique",
+      "week_9_10": "Part-whole play: 5 is 2-and-3, 4-and-1, decomposition as a toy, years before it is a technique",
       "week_11_12": "Ordinal numbers, position words and the number line met as a walking game"
     },
     "month_4": {
       "title": "Month 4: Patterns and Sorting + Stage Checkpoint",
       "weeks": "Weeks 13-16",
-      "week_13": "Repeating patterns: copy, extend, create — the beginnings of algebraic thinking",
+      "week_13": "Repeating patterns: copy, extend, create, the beginnings of algebraic thinking",
       "week_14": "Sorting and classifying by attributes; explaining the rule you sorted by",
       "week_15": "Growing patterns and what-comes-next reasoning",
       "week_16": "Stage mastery check through play: show it, say it, teach it to your bear"
@@ -88,7 +88,7 @@
   },
   "phase_2_operations": {
     "title": "PHASE 2: Stories, Bonds and the Teen Numbers (Months 5-8)",
-    "description": "Addition and subtraction arrive as stories acted out with objects — joining, separating, comparing — long before symbols carry them. Bonds to 10 grow toward automaticity through games, and the famously confusing teen numbers get demystified with place-value materials.",
+    "description": "Addition and subtraction arrive as stories acted out with objects, joining, separating, comparing, long before symbols carry them. Bonds to 10 grow toward automaticity through games, and the famously confusing teen numbers get demystified with place-value materials.",
     "month_5": {
       "title": "Month 5: Addition and Subtraction as Stories",
       "weeks": "Weeks 17-20",
@@ -98,19 +98,19 @@
     "month_6": {
       "title": "Month 6: Bonds of 10 and Fact Families",
       "weeks": "Weeks 21-24",
-      "week_21_22": "Bonds of 10 through every game we know — the single most valuable fact set in mathematics",
+      "week_21_22": "Bonds of 10 through every game we know, the single most valuable fact set in mathematics",
       "week_23_24": "Fact families: 3+7, 7+3, 10-7, 10-3 as one idea seen four ways"
     },
     "month_7": {
       "title": "Month 7: Teen Numbers and Place Value Beginnings",
       "weeks": "Weeks 25-28",
-      "week_25_26": "Teens demystified: 14 as ten-and-four, built with materials — where place value actually starts",
+      "week_25_26": "Teens demystified: 14 as ten-and-four, built with materials, where place value actually starts",
       "week_27_28": "Numbers to 20: counting, comparing, and bridging-through-10 previewed as a game"
     },
     "month_8": {
       "title": "Month 8: Story Problems and the Explain Habit",
       "weeks": "Weeks 29-32",
-      "week_29_30": "Word problems as theatre: act it, draw it, then write it — the three-step that prevents future word-problem fear",
+      "week_29_30": "Word problems as theatre: act it, draw it, then write it, the three-step that prevents future word-problem fear",
       "week_31_32": "Missing-number puzzles and both-ways thinking; stage mastery check through play"
     }
   },
@@ -138,34 +138,34 @@
     "month_12": {
       "title": "Month 12: Shapes, Data and Graduation",
       "weeks": "Weeks 45-52",
-      "week_45_48": "2D and 3D shapes built, named and hunted at home; halves and quarters as fair sharing — fractions met kindly",
-      "week_49_52": "Simple pictographs from the child's own surveys; graduation project — the child teaches their favourite math game — and the road-ahead plan into grade-level math"
+      "week_45_48": "2D and 3D shapes built, named and hunted at home; halves and quarters as fair sharing, fractions met kindly",
+      "week_49_52": "Simple pictographs from the child's own surveys; graduation project, the child teaches their favourite math game, and the road-ahead plan into grade-level math"
     }
   },
   "faqs": [
     {
       "question": "Can a 4-year-old really learn in online classes?",
-      "answer": "Yes — with the right design, which is the whole craft here. Classes run as short, varied playful segments: a counting game, a building challenge, a story problem, a movement break with skip counting. The mentor works with real objects the child holds up to the camera, and parents of our youngest students sit nearby for the first weeks. The free demo shows you exactly how it works with your child."
+      "answer": "Yes, with the right design, which is the whole craft here. Classes run as short, varied playful segments: a counting game, a building challenge, a story problem, a movement break with skip counting. The mentor works with real objects the child holds up to the camera, and parents of our youngest students sit nearby for the first weeks. The free demo shows you exactly how it works with your child."
     },
     {
       "question": "Isn't this age too early for structured math?",
-      "answer": "It is exactly the right age for the right kind: playful, concrete, talk-rich mathematics. Research on early number sense is unambiguous — the part-whole and counting ideas built at 4-7 predict mathematics success for years. What would be wrong at this age is worksheets and drilling, which is why we do neither."
+      "answer": "It is exactly the right age for the right kind: playful, concrete, talk-rich mathematics. Research on early number sense is unambiguous, the part-whole and counting ideas built at 4-7 predict mathematics success for years. What would be wrong at this age is worksheets and drilling, which is why we do neither."
     },
     {
       "question": "How is this different from apps like Khan Kids or busy-work workbooks?",
-      "answer": "Apps entertain and practice; they cannot listen. The engine of early math learning is math talk — a child explaining 'I saw 5 because 4-and-1' to a person who responds. Our mentors have that conversation twice a week, notice exactly which ideas have landed, and adjust in real time. No app does that."
+      "answer": "Apps entertain and practice; they cannot listen. The engine of early math learning is math talk, a child explaining 'I saw 5 because 4-and-1' to a person who responds. Our mentors have that conversation twice a week, notice exactly which ideas have landed, and adjust in real time. No app does that."
     },
     {
       "question": "My child already loves numbers. Will this stretch them?",
-      "answer": "Happily — the mentor teaches to stage, not age. A number-loving five-year-old might race into part-whole play and early place value while a classmate consolidates counting. Small groups and 1-on-1 make that flexibility real."
+      "answer": "Happily, the mentor teaches to stage, not age. A number-loving five-year-old might race into part-whole play and early place value while a classmate consolidates counting. Small groups and 1-on-1 make that flexibility real."
     },
     {
       "question": "What do parents need to do at home?",
-      "answer": "Minutes, not hours: we send simple everyday prompts — count the stairs, share the strawberries fairly, spot the pattern on the tiles. Kitchens and car rides teach more early math than worksheets ever did, and we show you how to use them."
+      "answer": "Minutes, not hours: we send simple everyday prompts, count the stairs, share the strawberries fairly, spot the pattern on the tiles. Kitchens and car rides teach more early math than worksheets ever did, and we show you how to use them."
     },
     {
       "question": "What comes after this course?",
-      "answer": "Graduates flow into Mental Maths Mastery (for fluency depth) or the Elementary Mathematics Masterclass (the full grades 1-5 program) with the same mentor where possible — arriving with the foundation those courses quietly assume."
+      "answer": "Graduates flow into Mental Maths Mastery (for fluency depth) or the Elementary Mathematics Masterclass (the full grades 1-5 program) with the same mentor where possible, arriving with the foundation those courses quietly assume."
     },
     {
       "question": "What does the course cost?",
@@ -173,7 +173,7 @@
     },
     {
       "question": "Can we try it before paying?",
-      "answer": "Yes. Every child starts with a free live demo class that doubles as the playful diagnostic — no card details, no obligation, and you will know within the hour whether your child lights up."
+      "answer": "Yes. Every child starts with a free live demo class that doubles as the playful diagnostic, no card details, no obligation, and you will know within the hour whether your child lights up."
     }
   ],
   "testimonials": [
@@ -209,7 +209,7 @@
     ],
     "weekly_structure": {
       "live_classes": "2 one-hour live classes in short playful segments",
-      "home_play": "Everyday math prompts for parents — minutes, not worksheets",
+      "home_play": "Everyday math prompts for parents, minutes, not worksheets",
       "materials": "Household objects as manipulatives; printable ten-frames provided",
       "total_per_week": "About 2.5 gentle hours"
     },
@@ -228,7 +228,7 @@
   },
   "prerequisites": {
     "education": "Ages 4-7; no academic prerequisites whatsoever",
-    "math_background": "None — this course IS the foundation",
+    "math_background": "None, this course IS the foundation",
     "equipment": "Computer or tablet with stable internet; everyday objects (blocks, buttons, spoons) as materials",
     "time_commitment": "2 live hours plus everyday math play",
     "english": "Course taught in English",
@@ -238,21 +238,22 @@
     "first_steps": "Ages 4-5 taking their very first structured math steps, playfully",
     "k_2_students": "Kindergarten to grade 2 children whose school math needs a stronger foundation underneath",
     "eager_minds": "Young children already fascinated by numbers who deserve real food for it",
-    "worried_starts": "Children whose first school math experiences created tears — reversible at this age, quickly",
+    "worried_starts": "Children whose first school math experiences created tears, reversible at this age, quickly",
     "planning_parents": "Families who want the foundation laid right the first time, before gaps exist"
   },
   "career_paths_after_completion": [
     "Ready for Mental Maths Mastery with the bonds already forming",
     "Ready for the Elementary Mathematics Masterclass, arriving confident",
-    "A child who enters grade 3 liking math — the outcome that compounds for a decade",
+    "A child who enters grade 3 liking math, the outcome that compounds for a decade",
     "Early access to the maths-and-coding world for the builder types"
   ],
   "course_guarantees": {
-    "free_demo": "A free live demo class that doubles as the playful diagnostic — before any payment",
-    "recorded_classes": "All live sessions recorded",
-    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
-    "no_pressure": "No rankings, no timed tests at this age, no tears — ever",
-    "certificate": "Completion certificate plus stage mastery record"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "relatedCourses": [
     "mental-maths-mastery-kids",

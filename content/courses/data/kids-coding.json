@@ -1641,21 +1641,13 @@
     "Freelance Developer",
     "Tech Entrepreneur"
   ],
-  "salary_expectations": {
-    "after_6_months": "Build freelance projects, tutoring opportunities",
-    "after_12_months": "₹2-4 LPA (Junior roles/internships)",
-    "after_18_months": "₹4-8 LPA (Entry-level developer)",
-    "after_24_months": "₹6-12 LPA (Developer roles)",
-    "freelance": "₹200-1000/hour based on projects",
-    "international": "$20-60k USD entry-level opportunities"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Career exploration and guidance",
-    "lifetime_updates": "Access to all future content",
-    "mentorship": "Dedicated age-appropriate mentorship",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "100+ projects portfolio by completion"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

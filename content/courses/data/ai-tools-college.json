@@ -35,7 +35,7 @@
   "program_overview": {
     "title": "Complete AI Tools Mastery Program",
     "tagline": "From Basic Prompts to Advanced AI Automation Workflows",
-    "description": "This is not just an AI tools course—it's a complete transformation into an AI-powered professional. Whether you're a content creator, marketer, developer, entrepreneur, or working professional, this 6-month program will teach you to leverage cutting-edge AI tools to 10x your productivity, automate workflows, create stunning content, and build AI-powered solutions without writing code.\n\nYou'll master every major AI tool from ChatGPT to Midjourney, from prompt engineering to AI automation, from simple tasks to complex multi-agent systems. By the end, you'll have built 30+ AI-powered projects, automated countless workflows, and be recognized as an AI tools expert in your field.",
+    "description": "This is not just an AI tools course, it's a complete transformation into an AI-powered professional. Whether you're a content creator, marketer, developer, entrepreneur, or working professional, this 6-month program will teach you to leverage cutting-edge AI tools to 10x your productivity, automate workflows, create stunning content, and build AI-powered solutions without writing code.\n\nYou'll master every major AI tool from ChatGPT to Midjourney, from prompt engineering to AI automation, from simple tasks to complex multi-agent systems. By the end, you'll have built 30+ AI-powered projects, automated countless workflows, and be recognized as an AI tools expert in your field.",
     "what_makes_this_different": [
       "Starts from absolute zero - no technical background needed",
       "Covers ALL major AI tools (ChatGPT, Claude, Gemini, Midjourney, etc.)",
@@ -931,15 +931,11 @@
     "note": "Income varies based on skills, niche, and effort"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee",
-    "lifetime_access": "All current and future content",
-    "tool_updates": "Regular updates as new AI tools emerge",
-    "community": "Lifetime community access",
-    "resources": "Continuously updated prompt libraries and templates",
-    "support": "Email and community support",
-    "portfolio": "30+ documented projects",
-    "certification": "Professional certification",
-    "business_templates": "Ready-to-use service packages and pricing",
-    "client_materials": "Proposals, contracts, delivery templates"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   }
 }

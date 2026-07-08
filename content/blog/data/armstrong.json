@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "armstrong-number-python-complete-guide-examples-code",
-    "title": "Armstrong Number in Python — Code Examples & 5-Min Tutorial",
-    "description": "Armstrong number in Python — copy-paste code, step-by-step tutorial, and 5 worked examples (3-digit & n-digit). Tested code for beginners and interview prep. Run it in 30 seconds.",
+    "title": "Armstrong Number in Python, Code Examples & 5-Min Tutorial",
+    "description": "Armstrong number in Python, copy-paste code, step-by-step tutorial, and 5 worked examples (3-digit & n-digit). Tested code for beginners and interview prep. Run it in 30 seconds.",
     "keywords": [
       "armstrong number python",
       "armstrong number program",
@@ -32,10 +32,10 @@
     "featured": false
   },
   "hero": {
-    "title": "Armstrong Number in Python — Code Examples & 5-Min Tutorial",
+    "title": "Armstrong Number in Python, Code Examples & 5-Min Tutorial",
     "featuredImage": {
       "url": "https://ik.imagekit.io/qnvuzyjls/Armstrong%20number%20in%20python/Armstrong%20Number%20IN%20Python!",
-      "alt": "Armstrong Number in Python — Code Examples & 5-Min Tutorial"
+      "alt": "Armstrong Number in Python, Code Examples & 5-Min Tutorial"
     }
   },
   "content": {

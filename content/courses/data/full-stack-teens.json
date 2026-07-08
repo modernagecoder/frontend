@@ -57,7 +57,7 @@
     "career_outcomes": [
       "Stand out in college applications with impressive portfolio",
       "Qualify for internships at tech companies",
-      "Start freelancing and earn ₹30-50k/month",
+      "Start freelancing",
       "Launch your own startup or app business",
       "Win hackathons and coding competitions",
       "Get hired as a junior developer (if 18+)"
@@ -1564,8 +1564,8 @@
       "mentorship": "Young mentors who understand teens",
       "community": "Discord server exclusively for teen developers",
       "code_review": "Professional code reviews on projects",
-      "career_support": "College prep, internship guidance, job placement",
-      "lifetime_access": "All content and future updates"
+      "lifetime_access": "All content and future updates",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "4 phase completion certificates",
@@ -1603,21 +1603,13 @@
     "Coding Instructor/Mentor",
     "Software Engineering Intern (during college)"
   ],
-  "salary_expectations": {
-    "after_6_months": "₹500-1500/hour freelancing",
-    "after_12_months": "₹15-30k/month part-time or internships",
-    "after_18_months": "₹30-60k/month junior positions",
-    "after_24_months": "₹5-12 LPA full-time (if 18+)",
-    "freelance": "₹1500-5000/hour for projects",
-    "international": "$20-50/hour remote work"
-  },
   "course_guarantees": {
-    "money_back": "30-day full refund guarantee",
-    "job_assistance": "Internship and job placement support",
-    "lifetime_updates": "Free access to all future content",
-    "mentorship": "Personal mentor throughout journey",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "50+ production-ready projects"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

@@ -42,7 +42,6 @@
       "Industry-standard tools and techniques",
       "Portfolio of 25+ analysis projects",
       "Business communication and storytelling focus",
-      "Interview preparation and placement support",
       "Covers both technical and business aspects",
       "Hands-on with Fortune 500 company data"
     ],
@@ -1745,20 +1744,20 @@
     "Analytics Manager"
   ],
   "salary_expectations": {
-    "after_2_months": "₹3-5 LPA (Junior Analyst)",
-    "after_4_months": "₹5-8 LPA (Data Analyst)",
-    "after_6_months": "₹8-15 LPA (Senior Analyst)",
-    "experienced": "₹15-25+ LPA (Lead/Manager)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹3-5 LPA (Junior Analyst); ₹5-8 LPA (Data Analyst)",
+    "growing_roles": "₹8-15 LPA (Senior Analyst)",
+    "other_roles": "₹15-25+ LPA (Lead/Manager)",
     "freelance": "₹500-2000/hour",
     "international": "$50k-100k+ USD"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Placement support and referrals",
-    "lifetime_updates": "Free access to new content",
-    "mentorship": "Industry expert guidance",
-    "certificate": "Professional certification",
-    "portfolio": "25+ real-world projects"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

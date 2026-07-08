@@ -1598,12 +1598,12 @@
     "performance": "Real-world application tasks"
   },
   "course_guarantees": {
-    "satisfaction": "30-day satisfaction guarantee",
-    "progress": "Guaranteed skill improvement",
-    "support": "Unlimited email support",
-    "updates": "Free curriculum updates",
-    "resources": "Access to all supplementary materials",
-    "community": "Lifetime community access"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1651,8 +1651,8 @@
   "why_this_course": {
     "title": "Why Choose This Elementary Mathematics Program?",
     "paragraphs": [
-      "Mathematics is the foundation of all STEM learning, and the elementary years are when children develop their relationship with numbers that lasts a lifetime. Our program goes beyond memorization to build true mathematical understanding—the kind that makes students genuinely love math rather than fear it.",
-      "Unlike traditional tutoring that focuses on homework completion, our course develops deep number sense through visual learning, hands-on activities, and real-world connections. Children don't just learn procedures—they understand WHY math works, building confidence that transfers to every subject.",
+      "Mathematics is the foundation of all STEM learning, and the elementary years are when children develop their relationship with numbers that lasts a lifetime. Our program goes beyond memorization to build true mathematical understanding, the kind that makes students genuinely love math rather than fear it.",
+      "Unlike traditional tutoring that focuses on homework completion, our course develops deep number sense through visual learning, hands-on activities, and real-world connections. Children don't just learn procedures, they understand WHY math works, building confidence that transfers to every subject.",
       "Our expert educators use gamification, personalized pacing, and proven pedagogical methods to make math enjoyable and engaging. With small class sizes and individual attention, every child gets the support they need to thrive."
     ],
     "highlights": [
@@ -1662,11 +1662,5 @@
       "Olympiad and competition preparation included",
       "Parent progress reports and involvement resources"
     ]
-  },
-  "success_metrics": {
-    "students_helped": "1,800+",
-    "grade_improvement": "2+ Levels",
-    "parent_satisfaction": "96%",
-    "competition_qualifiers": "200+"
   }
 }

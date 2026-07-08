@@ -92,10 +92,10 @@
       "ICSE / ISC compatible",
       "IB / Cambridge CS supplement"
     ],
-    "batch_info": "Four dedicated batches — Class 9, Class 10, Class 11, Class 12. Syllabus, pace, practical file, project guidance and board exam preparation are customized per class. Separate batches for CBSE Code 417 (Class 9-10) and Code 843 (Class 11-12).",
+    "batch_info": "Four dedicated batches, Class 9, Class 10, Class 11, Class 12. Syllabus, pace, practical file, project guidance and board exam preparation are customized per class. Separate batches for CBSE Code 417 (Class 9-10) and Code 843 (Class 11-12).",
     "aligned_with": [
-      "CBSE Skill Subject Artificial Intelligence — Code 417 (Class 9 & 10)",
-      "CBSE Artificial Intelligence — Code 843 (Class 11 & 12)",
+      "CBSE Skill Subject Artificial Intelligence, Code 417 (Class 9 & 10)",
+      "CBSE Artificial Intelligence, Code 843 (Class 11 & 12)",
       "NCERT AI Handbook / Curriculum framework",
       "CBSE Circular on AI Curriculum integration",
       "NEP 2020 Future-Skills mandate",
@@ -106,17 +106,17 @@
   },
   "program_overview": {
     "title": "CBSE Computational Thinking & AI Complete Masterclass for Teens (Class 9-12)",
-    "tagline": "From CBSE AI Board Topper to Industry-Ready AI Engineer — In One Comprehensive Program",
-    "description": "The Central Board of Secondary Education (CBSE) introduced Artificial Intelligence as an official Skill Subject (Code 417 for Class 9-10, Code 843 for Class 11-12) in response to India's urgent need for AI-ready youth. This 12-month flagship program is the definitive preparation course for every CBSE teen pursuing AI — whether as a board subject, competition pathway, or future career.\n\nYou will master the complete CBSE AI syllabus with 10x greater depth than any school offers: Employability Skills (Communication, Self-Management, ICT, Entrepreneurial, Green Skills), the complete AI Project Cycle (Problem Scoping → Data Acquisition → Data Exploration → Modelling → Evaluation), AI Domains (Data, Computer Vision, Natural Language Processing), Python programming from zero to advanced, NumPy, Pandas, Matplotlib, scikit-learn, TensorFlow, Keras, OpenCV, NLTK, Neural Networks, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Transformers, Generative AI (ChatGPT, DALL-E, Stable Diffusion), LLM concepts, Prompt Engineering, Reinforcement Learning, AI Ethics, SDG-aligned capstone projects, and full board practical file + viva preparation.\n\nBy completion, you will have (1) scored 95+ in your CBSE AI board exam, (2) built 80+ industry-grade AI projects in your GitHub portfolio, (3) prepared for top AI Olympiads (India AI Olympiad, Intel AI Youth, Samsung Innovation Campus), and (4) positioned yourself for IIT/NIT/BITS/top universities and future AI careers earning ₹40+ LPA.",
+    "tagline": "From CBSE AI Board Topper to Industry-Ready AI Engineer, In One Comprehensive Program",
+    "description": "The Central Board of Secondary Education (CBSE) introduced Artificial Intelligence as an official Skill Subject (Code 417 for Class 9-10, Code 843 for Class 11-12) in response to India's urgent need for AI-ready youth. This 12-month flagship program is the definitive preparation course for every CBSE teen pursuing AI, whether as a board subject, competition pathway, or future career.\n\nYou will master the complete CBSE AI syllabus with 10x greater depth than any school offers: Employability Skills (Communication, Self-Management, ICT, Entrepreneurial, Green Skills), the complete AI Project Cycle (Problem Scoping → Data Acquisition → Data Exploration → Modelling → Evaluation), AI Domains (Data, Computer Vision, Natural Language Processing), Python programming from zero to advanced, NumPy, Pandas, Matplotlib, scikit-learn, TensorFlow, Keras, OpenCV, NLTK, Neural Networks, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), Transformers, Generative AI (ChatGPT, DALL-E, Stable Diffusion), LLM concepts, Prompt Engineering, Reinforcement Learning, AI Ethics, SDG-aligned capstone projects, and full board practical file + viva preparation.\n\nBy completion, you will have (1) scored 95+ in your CBSE AI board exam, (2) built 80+ industry-grade AI projects in your GitHub portfolio, (3) prepared for top AI Olympiads (India AI Olympiad, Intel AI Youth, Samsung Innovation Campus), and (4) positioned yourself for IIT/NIT/BITS/top universities and future AI careers earning ₹40+ LPA.",
     "what_makes_this_different": [
-      "100% CBSE AI Code 417 + 843 syllabus coverage — not a single topic missed",
+      "100% CBSE AI Code 417 + 843 syllabus coverage, not a single topic missed",
       "Separate dedicated batches for Class 9, 10, 11, and 12",
-      "Full Employability Skills module (10% of CBSE AI marks — often neglected by schools)",
+      "Full Employability Skills module (10% of CBSE AI marks, often neglected by schools)",
       "CBSE-format practical file creation with 20+ lab activities per class",
       "Every capstone project follows official CBSE AI Project Cycle format",
       "Viva voce preparation with 500+ commonly asked board questions",
       "Sample papers, past year papers, marking scheme analysis, topper answer sheets",
-      "Industry-level Python, ML, DL training — goes beyond board syllabus",
+      "Industry-level Python, ML, DL training, goes beyond board syllabus",
       "GitHub portfolio of 80+ projects for college applications and internships",
       "Live 1-on-1 mentorship with AI engineers from Google, Microsoft, IIT alumni",
       "Guaranteed 95+ marks in CBSE AI board exam or 50% fee refund",
@@ -152,12 +152,12 @@
           "Verbal vs Non-verbal communication",
           "Communication cycle and feedback",
           "Barriers to effective communication",
-          "Writing skills — Kinds of sentences, parts of speech, tenses",
+          "Writing skills, Kinds of sentences, parts of speech, tenses",
           "Basic English grammar for CBSE AI",
           "Self-Management Skills: Introduction",
           "Stress management & working independently",
           "Self-awareness, self-motivation, self-regulation",
-          "Goal setting — SMART goals framework",
+          "Goal setting, SMART goals framework",
           "Time management techniques"
         ],
         "projects": [
@@ -166,7 +166,7 @@
           "Group presentation: 'Barriers to communication in AI teams'"
         ],
         "practice": "Daily vocabulary + communication drills",
-        "cbse_alignment": "CBSE AI 417 Employability Unit 1 & 2 — 100% coverage"
+        "cbse_alignment": "CBSE AI 417 Employability Unit 1 & 2-100% coverage"
       },
       "week_2": {
         "title": "Employability Skills Part 2: ICT, Entrepreneurial & Green Skills",
@@ -187,17 +187,17 @@
         "projects": [
           "Set up a cloud backup of your AI work (Google Drive)",
           "Interview a local entrepreneur (1-page report)",
-          "Green AI poster — connect 3 SDGs to AI"
+          "Green AI poster, connect 3 SDGs to AI"
         ],
         "practice": "Daily ICT skill drill (typing, shortcuts, productivity)",
-        "cbse_alignment": "CBSE AI 417 Employability Unit 3, 4, 5 — 100% coverage"
+        "cbse_alignment": "CBSE AI 417 Employability Unit 3, 4, 5-100% coverage"
       },
       "week_3": {
-        "title": "Introduction to Artificial Intelligence (CBSE Unit 1 — Subject Specific)",
+        "title": "Introduction to Artificial Intelligence (CBSE Unit 1, Subject Specific)",
         "topics": [
-          "Definition of AI — CBSE official definition",
+          "Definition of AI, CBSE official definition",
           "History & evolution of AI (1950-2026 timeline)",
-          "AI, ML, DL — the Venn diagram",
+          "AI, ML, DL, the Venn diagram",
           "Types of AI: Narrow AI, General AI, Super AI",
           "Types by functionality: Reactive, Limited Memory, Theory of Mind, Self-Aware",
           "AI in everyday life: 20 real examples",
@@ -205,28 +205,28 @@
           "Is this AI? Classifying systems as AI or not AI",
           "AI success stories (AlphaGo, IBM Watson, Tesla, ChatGPT)",
           "AI vs Automation vs Robotics",
-          "AI in India — Aadhaar, UPI, Digital India context",
+          "AI in India, Aadhaar, UPI, Digital India context",
           "Myths about AI (will it take our jobs?)"
         ],
         "projects": [
-          "AI Spotter — identify 50 AI systems in daily life",
+          "AI Spotter, identify 50 AI systems in daily life",
           "AI Timeline infographic (Canva)",
-          "Debate: 'Narrow AI vs General AI — will we ever reach AGI?'"
+          "Debate: 'Narrow AI vs General AI, will we ever reach AGI?'"
         ],
         "practice": "CBSE textbook Unit 1 MCQs + short answer",
-        "cbse_alignment": "CBSE AI 417 Unit 1 Part A & B — 100% coverage"
+        "cbse_alignment": "CBSE AI 417 Unit 1 Part A & B, 100% coverage"
       },
       "week_4": {
-        "title": "AI Project Cycle — Deep Dive (CBSE Core Unit)",
+        "title": "AI Project Cycle, Deep Dive (CBSE Core Unit)",
         "topics": [
           "The 5-stage AI Project Cycle (official CBSE framework)",
           "Stage 1: Problem Scoping with 4Ws (Who, What, Where, Why)",
           "Stakeholder identification and needs assessment",
-          "SDG alignment — mandatory in CBSE AI",
-          "Stage 2: Data Acquisition — sources, types, ethics",
+          "SDG alignment, mandatory in CBSE AI",
+          "Stage 2: Data Acquisition, sources, types, ethics",
           "Structured vs Unstructured data",
-          "Stage 3: Data Exploration — EDA basics",
-          "Stage 4: Modelling — Rule-based vs Learning-based",
+          "Stage 3: Data Exploration, EDA basics",
+          "Stage 4: Modelling, Rule-based vs Learning-based",
           "Learning-based: Supervised, Unsupervised, Reinforcement",
           "Stage 5: Evaluation metrics introduction",
           "Iteration and deployment",
@@ -238,7 +238,7 @@
           "Present project in board-exam viva style"
         ],
         "practice": "Solve 3 past-year Project Cycle questions daily",
-        "cbse_alignment": "CBSE AI 417 Unit 2 — 100% coverage"
+        "cbse_alignment": "CBSE AI 417 Unit 2-100% coverage"
       }
     },
     "month_2": {
@@ -247,7 +247,7 @@
       "week_5": {
         "title": "Python Basics (CBSE-aligned + Industry Level)",
         "topics": [
-          "Why Python for AI — CBSE recommendation",
+          "Why Python for AI, CBSE recommendation",
           "Python installation (Anaconda, Thonny, VS Code)",
           "Google Colab for free GPU access",
           "Jupyter Notebook basics",
@@ -255,7 +255,7 @@
           "Operators (arithmetic, comparison, logical, bitwise)",
           "Input/output statements",
           "Type conversion and type checking",
-          "Strings — indexing, slicing, methods",
+          "Strings, indexing, slicing, methods",
           "Python standard library intro",
           "Running first CBSE-syllabus Python programs",
           "Writing clean, commented code"
@@ -275,12 +275,12 @@
           "For loop (with range, enumerate)",
           "While loop (with break, continue)",
           "Nested loops",
-          "Lists — full mastery (methods, comprehensions)",
-          "Tuples — immutable sequences",
-          "Dictionaries — key-value storage",
-          "Sets — unique collections",
-          "List vs Tuple vs Dict vs Set — CBSE comparison table",
-          "Functions — def, parameters, return, scope",
+          "Lists, full mastery (methods, comprehensions)",
+          "Tuples, immutable sequences",
+          "Dictionaries, key-value storage",
+          "Sets, unique collections",
+          "List vs Tuple vs Dict vs Set, CBSE comparison table",
+          "Functions, def, parameters, return, scope",
           "Lambda functions",
           "Recursion (introductory)"
         ],
@@ -293,19 +293,19 @@
         "cbse_alignment": "CBSE AI 417 + CS 083 Class 11 data structures"
       },
       "week_7": {
-        "title": "NumPy & Pandas — Data Handling for AI (CBSE Class 11 AI Unit)",
+        "title": "NumPy & Pandas, Data Handling for AI (CBSE Class 11 AI Unit)",
         "topics": [
-          "NumPy introduction — why arrays",
+          "NumPy introduction, why arrays",
           "Creating arrays (1D, 2D, 3D)",
           "Array operations, broadcasting, indexing",
-          "NumPy vs Python list — performance",
+          "NumPy vs Python list, performance",
           "Pandas Series & DataFrame",
           "Reading CSV, Excel, JSON files",
           "DataFrame indexing, selection, filtering",
           "Handling missing data",
           "Grouping, aggregation, merging",
           "Pandas for CBSE Informatics Practices (supplementary)",
-          "Real dataset exploration — government datasets",
+          "Real dataset exploration, government datasets",
           "data.gov.in & Kaggle intro for teens"
         ],
         "projects": [
@@ -317,14 +317,14 @@
         "cbse_alignment": "CBSE AI 843 Class 11 Pandas unit + CBSE IP 065 Class 11"
       },
       "week_8": {
-        "title": "Data Visualization — Matplotlib, Seaborn (CBSE Class 11 AI)",
+        "title": "Data Visualization, Matplotlib, Seaborn (CBSE Class 11 AI)",
         "topics": [
-          "Why visualize data — CBSE exam context",
+          "Why visualize data, CBSE exam context",
           "Matplotlib basics (pyplot interface)",
           "Line, bar, pie, scatter, histogram, box plots",
           "Customizing plots (titles, labels, legend)",
           "Subplots and figures",
-          "Seaborn introduction — statistical plots",
+          "Seaborn introduction, statistical plots",
           "Heatmaps, pair plots, violin plots",
           "Plotly for interactive charts",
           "Design principles of good visualization",
@@ -366,14 +366,14 @@
           "Stock price trend analysis"
         ],
         "practice": "3 full Data Science projects",
-        "cbse_alignment": "CBSE AI 417 Class 10 Data Science unit — 100%"
+        "cbse_alignment": "CBSE AI 417 Class 10 Data Science unit, 100%"
       },
       "week_10": {
         "title": "Computer Vision Domain (CBSE Class 10 Unit 5)",
         "topics": [
           "What is Computer Vision? (CBSE definition)",
           "Applications: Medical imaging, self-driving cars, face unlock, CCTV",
-          "How images are stored — pixels, RGB, grayscale",
+          "How images are stored, pixels, RGB, grayscale",
           "Image processing fundamentals",
           "OpenCV introduction (industry-standard library)",
           "Image reading, display, resizing, cropping",
@@ -382,7 +382,7 @@
           "Basic object detection",
           "Teachable Machine advanced (10+ class classifiers)",
           "CNN intuition (pre-deep learning)",
-          "Ethics of CV — surveillance, deepfakes, bias"
+          "Ethics of CV, surveillance, deepfakes, bias"
         ],
         "projects": [
           "Face detector using OpenCV",
@@ -390,7 +390,7 @@
           "Custom image classifier with Teachable Machine + Python"
         ],
         "practice": "OpenCV daily challenge",
-        "cbse_alignment": "CBSE AI 417 Class 10 Computer Vision unit — 100%"
+        "cbse_alignment": "CBSE AI 417 Class 10 Computer Vision unit, 100%"
       },
       "week_11": {
         "title": "Natural Language Processing Domain (CBSE Class 10 Unit 6)",
@@ -398,7 +398,7 @@
           "What is NLP? (CBSE definition)",
           "Applications: Chatbots, translation, sentiment analysis, voice assistants",
           "Chatbots: Rule-based vs AI-based (Script Bot vs Smart Bot)",
-          "Human language vs computer language — the gap",
+          "Human language vs computer language, the gap",
           "Text processing: tokenization, stemming, lemmatization",
           "Stopwords removal",
           "Bag of Words model (CBSE Class 10 mandatory topic)",
@@ -406,7 +406,7 @@
           "Sentiment analysis using Python",
           "NLTK library basics",
           "Chatbot building with Dialogflow + Python",
-          "Regional language NLP (Hindi, Tamil, Bengali) — Bhashini"
+          "Regional language NLP (Hindi, Tamil, Bengali), Bhashini"
         ],
         "projects": [
           "Mental health chatbot (Dialogflow + Python)",
@@ -414,13 +414,13 @@
           "Hindi-English translator app"
         ],
         "practice": "NLP text processing drills",
-        "cbse_alignment": "CBSE AI 417 Class 10 NLP unit + Bag of Words — 100%"
+        "cbse_alignment": "CBSE AI 417 Class 10 NLP unit + Bag of Words, 100%"
       },
       "week_12": {
         "title": "Neural Networks Introduction (CBSE Class 10 Unit 7)",
         "topics": [
           "Human brain vs artificial neural network",
-          "Neuron — biological and artificial",
+          "Neuron, biological and artificial",
           "Perceptron model",
           "Activation functions (Sigmoid, ReLU, Tanh)",
           "Input, hidden, output layers",
@@ -438,7 +438,7 @@
           "Compare NN accuracy with vs without hidden layer"
         ],
         "practice": "NN concept MCQs daily",
-        "cbse_alignment": "CBSE AI 417 Class 10 Neural Networks unit — 100%"
+        "cbse_alignment": "CBSE AI 417 Class 10 Neural Networks unit, 100%"
       },
       "week_13": {
         "title": "CBSE Class 9-10 AI Board Practical File + Viva Prep",
@@ -446,9 +446,9 @@
           "CBSE AI Board exam structure",
           "Theory paper (70 marks) breakdown",
           "Practical exam (30 marks) breakdown",
-          "Practical file — 10 mandatory activities",
+          "Practical file, 10 mandatory activities",
           "CBSE AI project report format",
-          "Viva voce — common questions",
+          "Viva voce, common questions",
           "Topper answer sheet analysis",
           "Marking scheme understanding",
           "Time management in exam",
@@ -548,18 +548,18 @@
       "week_20_21": {
         "title": "Generative AI & Prompt Engineering (2026-27 CBSE emerging topic)",
         "topics": [
-          "What is Generative AI — GANs, VAEs, Diffusion, Transformers",
-          "ChatGPT / GPT-4 / Claude / Gemini — how they work",
+          "What is Generative AI, GANs, VAEs, Diffusion, Transformers",
+          "ChatGPT / GPT-4 / Claude / Gemini, how they work",
           "Prompt Engineering fundamentals",
           "Advanced prompting: few-shot, chain-of-thought, tree-of-thought",
-          "DALL-E, Midjourney, Stable Diffusion — image generation",
-          "RunwayML, Sora — video generation",
+          "DALL-E, Midjourney, Stable Diffusion, image generation",
+          "RunwayML, Sora, video generation",
           "LangChain framework introduction",
           "Building RAG (Retrieval-Augmented Generation) apps",
           "API integration: OpenAI, Anthropic, Google",
           "Fine-tuning LLMs for specific tasks",
           "Ethics of GenAI: hallucinations, copyright, misinformation",
-          "Future of AI work — GenAI native careers"
+          "Future of AI work, GenAI native careers"
         ],
         "projects": [
           "Build a custom AI tutor using ChatGPT API + LangChain",
@@ -580,7 +580,7 @@
           "Short answer questions bank (100+)",
           "Long answer questions bank (50+)",
           "Case study questions mastery",
-          "Last 5 years' board papers — full solution walkthrough",
+          "Last 5 years' board papers, full solution walkthrough",
           "Topper answer sheet analysis",
           "Examiner's marking perspective",
           "Time management strategies",
@@ -594,10 +594,10 @@
       "week_24_25": {
         "title": "Class 10 Grand Capstone + Practical File Completion",
         "topics": [
-          "CBSE AI project cycle — full application",
+          "CBSE AI project cycle, full application",
           "Stakeholder interviews in your community",
-          "Data collection — ethical and valid",
-          "Model building — choose appropriate algorithm",
+          "Data collection, ethical and valid",
+          "Model building, choose appropriate algorithm",
           "Evaluation with real metrics",
           "CBSE-format 15-page report writing",
           "Demo video production",
@@ -635,7 +635,7 @@
     }
   },
   "phase_3_class_11_ai_843": {
-    "title": "PHASE 3: CBSE Class 11 AI (Code 843) — Machine Learning Deep Dive (Months 7-9, Weeks 27-39)",
+    "title": "PHASE 3: CBSE Class 11 AI (Code 843), Machine Learning Deep Dive (Months 7-9, Weeks 27-39)",
     "description": "Complete CBSE Class 11 Artificial Intelligence (Subject Code 843) syllabus with industry-grade ML engineering skills. Includes Capability Approach, Sustainable Development, Foundational Python, Data Visualization, AI Frameworks, Statistical Data, Computer Vision, Storytelling through Data.",
     "month_7": {
       "title": "Month 7: CBSE AI 843 Class 11 Units 1-4",
@@ -643,12 +643,12 @@
       "week_27": {
         "title": "Capability Approach + Sustainable Development (CBSE AI 843 Unit 1)",
         "topics": [
-          "Amartya Sen's Capability Approach — foundation of modern AI ethics",
+          "Amartya Sen's Capability Approach, foundation of modern AI ethics",
           "Functionings vs Capabilities",
           "Human development vs economic growth",
           "Role of AI in expanding human capabilities",
-          "17 UN Sustainable Development Goals — deep dive",
-          "AI for each SDG — 17 detailed case studies",
+          "17 UN Sustainable Development Goals, deep dive",
+          "AI for each SDG, 17 detailed case studies",
           "Measuring impact and outcomes",
           "SDG alignment in AI projects (mandatory CBSE practice)",
           "India's SDG progress and AI role",
@@ -661,7 +661,7 @@
           "AI project directly solving one SDG",
           "SDG impact measurement framework"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 1 — 100%",
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 1-100%",
         "practice": "Pick one UN Sustainable Development Goal, find a real AI project addressing it and write a half page note linking it to Sen's capability approach."
       },
       "week_28": {
@@ -670,7 +670,7 @@
           "Advanced communication for AI teams",
           "Scientific writing for AI papers",
           "Presentation skills for AI demos",
-          "AI review — from Class 9-10 recap to Class 11+ depth",
+          "AI review, from Class 9-10 recap to Class 11+ depth",
           "History of AI revisited (LISP, Expert Systems, Deep Learning boom)",
           "Python foundational advanced: OOP (classes, objects, inheritance, polymorphism)",
           "File handling (text, binary, CSV)",
@@ -709,7 +709,7 @@
           "Statistical analysis paper (school topic)",
           "Power BI dashboard for school data"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 4 — 100%",
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 4-100%",
         "practice": "Collect a small primary dataset of at least 20 rows from your class or home, compute mean, median, mode and standard deviation, and plot two charts that tell its story."
       }
     },
@@ -719,14 +719,14 @@
       "week_31": {
         "title": "AI Frameworks & Tools (CBSE Class 11 Unit 5)",
         "topics": [
-          "scikit-learn — industry-standard ML framework",
+          "scikit-learn, industry-standard ML framework",
           "TensorFlow 2.x overview",
           "Keras high-level API",
           "PyTorch introduction",
           "Open-source AI ecosystem",
           "Cloud AI platforms (Google Cloud AI, AWS SageMaker, Azure ML)",
           "AutoML tools",
-          "Comparing frameworks — when to use which",
+          "Comparing frameworks, when to use which",
           "Setting up complete AI dev environment",
           "Containerization (Docker basics)",
           "Model serialization (pickle, joblib, ONNX)",
@@ -737,7 +737,7 @@
           "Deploy an ML model as REST API",
           "Docker-containerized AI app"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 5 — 100%",
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 5-100%",
         "practice": "Recreate the same simple classifier in both scikit-learn and Keras and note two differences in the workflow."
       },
       "week_32_33": {
@@ -761,7 +761,7 @@
           "Attendance system with face recognition",
           "Sign language recognizer"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 6 — 100%",
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 6-100%",
         "practice": "Fine tune a pre-trained CNN on a small image dataset using transfer learning and log its accuracy against your from scratch baseline."
       },
       "week_34": {
@@ -785,7 +785,7 @@
           "Ensemble model for a Sensex prediction",
           "Clustering for Indian consumer segmentation"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 7 — 100%",
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 7-100%",
         "practice": "Train three classifiers, kNN, decision tree and random forest, on one dataset and compare them in a confusion matrix table."
       }
     },
@@ -813,7 +813,7 @@
           "Medium blog with 1000+ words AI insights",
           "7-minute TEDx-style AI talk (recorded)"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 8 — 100%",
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 8-100%",
         "practice": "Turn one of your model results into a three chart data story in Tableau or Power BI with a headline insight above each chart."
       },
       "week_37_38": {
@@ -856,7 +856,7 @@
     }
   },
   "phase_4_class_12_ai_843_and_career": {
-    "title": "PHASE 4: CBSE Class 12 AI (843) — Deep Learning, NLP, Career Launch (Months 10-12, Weeks 40-52)",
+    "title": "PHASE 4: CBSE Class 12 AI (843), Deep Learning, NLP, Career Launch (Months 10-12, Weeks 40-52)",
     "description": "Complete CBSE Class 12 AI (Code 843) syllabus including Capstone Project, Data Science, CV, NLP, Model Evaluation, AI Ethics. Parallel industry-grade Deep Learning, Transformers, LLMs, and career-launch for college + internships.",
     "month_10": {
       "title": "Month 10: CBSE Class 12 AI Units 1-4",
@@ -886,11 +886,11 @@
         "practice": "Draft a one page personal pitch covering who you are, your best AI project and your goal, then rehearse it aloud twice against a timer."
       },
       "week_41": {
-        "title": "Capstone Project (CBSE Class 12 Unit 3) — Official Board Project",
+        "title": "Capstone Project (CBSE Class 12 Unit 3), Official Board Project",
         "topics": [
           "CBSE Class 12 AI Capstone guidelines",
           "Problem scoping with 4Ws (advanced)",
-          "Full AI Project Cycle — executed in 8-10 weeks",
+          "Full AI Project Cycle, executed in 8-10 weeks",
           "Literature review for AI projects",
           "Data acquisition (primary + secondary)",
           "Feature engineering + model building",
@@ -902,11 +902,11 @@
           "Viva-voce mastery"
         ],
         "deliverables": [
-          "CBSE Class 12 AI Capstone — board-submission quality",
+          "CBSE Class 12 AI Capstone, board-submission quality",
           "Deployed AI application (public URL)",
           "Complete 30-page report"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 12 Unit 3 — 100%",
+        "cbse_alignment": "CBSE AI 843 Class 12 Unit 3-100%",
         "practice": "Write the official capstone problem scoping document using the 4Ws canvas plus a literature list of at least three sources."
       },
       "week_42_43": {
@@ -930,7 +930,7 @@
           "Fraud detection pipeline",
           "MLOps mini-project with monitoring"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 12 Unit 4 — 100%",
+        "cbse_alignment": "CBSE AI 843 Class 12 Unit 4-100%",
         "practice": "Build a time series forecast on a public dataset with ARIMA or Prophet and report one place where the model breaks down."
       }
     },
@@ -938,7 +938,7 @@
       "title": "Month 11: Deep Learning + Transformers + LLMs (CBSE Units 5-6 Extended)",
       "weeks": "Week 44-47",
       "week_44_45": {
-        "title": "Deep Learning Mastery — CNNs, RNNs, LSTMs (CBSE Class 12 Unit 5)",
+        "title": "Deep Learning Mastery, CNNs, RNNs, LSTMs (CBSE Class 12 Unit 5)",
         "topics": [
           "Deep Learning theory deep dive",
           "Backpropagation mathematics",
@@ -951,14 +951,14 @@
           "Training deep networks on GPU (Colab Pro/Kaggle)",
           "Transfer learning best practices",
           "Model compression (quantization, pruning)",
-          "Edge AI — running models on phones/IoT"
+          "Edge AI, running models on phones/IoT"
         ],
         "projects": [
           "ImageNet-style classifier (transfer learning)",
           "Stock price LSTM predictor",
           "Speech command recognizer"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 12 Unit 5 — 100% + industry extension",
+        "cbse_alignment": "CBSE AI 843 Class 12 Unit 5-100% + industry extension",
         "practice": "Train the same network twice, with and without dropout and batch normalization, and chart how the validation curves differ."
       },
       "week_46_47": {
@@ -1033,7 +1033,7 @@
         "title": "College, Internship & Career Launch",
         "topics": [
           "B.Tech AI/CS/Data Science college guidance (IIT/NIT/BITS/IIIT)",
-          "JEE Mains/Advanced — role of AI portfolio",
+          "JEE Mains/Advanced, role of AI portfolio",
           "International college applications (MIT, Stanford, CMU)",
           "SAT + AI portfolio strategy",
           "AI summer internship applications (Indian + global)",
@@ -1061,7 +1061,7 @@
           "Access to alumni-only job board",
           "Mentor-for-life allocation",
           "Community contribution pathways",
-          "Giving back — teach the next batch",
+          "Giving back, teach the next batch",
           "Continuous learning roadmap (post-Class 12)"
         ],
         "deliverables": [
@@ -1080,10 +1080,10 @@
     "description": "Every unit, chapter, and topic in the official CBSE AI curriculum is covered with greater depth than any school provides. Our board-exam results prove it.",
     "code_417_class_9_10": {
       "code": "417",
-      "full_name": "Artificial Intelligence — Skill Subject",
+      "full_name": "Artificial Intelligence, Skill Subject",
       "applicable_to": "Class 9 & Class 10",
       "units_covered": [
-        "Unit 1: Employability Skills — Communication, Self-Management, ICT, Entrepreneurial, Green Skills (100%)",
+        "Unit 1: Employability Skills, Communication, Self-Management, ICT, Entrepreneurial, Green Skills (100%)",
         "Unit 2: Introduction to AI (100%)",
         "Unit 3: AI Project Cycle (100%)",
         "Unit 4: Neural Networks (100%)",
@@ -1096,7 +1096,7 @@
     },
     "code_843_class_11_12": {
       "code": "843",
-      "full_name": "Artificial Intelligence — Academic Elective",
+      "full_name": "Artificial Intelligence, Academic Elective",
       "applicable_to": "Class 11 & Class 12",
       "class_11_units": [
         "Unit 1: Capability Approach & Sustainable Development (100%)",
@@ -1118,7 +1118,7 @@
       ],
       "marks_breakdown": "Theory 70 + Practical 30 = 100 marks (per class)"
     },
-    "additional_industry_extension": "Beyond CBSE syllabus, we add: Generative AI, Transformers, LLMs, Prompt Engineering, MLOps, Deployment, RAG — industry skills worth ₹40+ LPA at graduation."
+    "additional_industry_extension": "Beyond CBSE syllabus, we add: Generative AI, Transformers, LLMs, Prompt Engineering, MLOps, Deployment, RAG, industry skills worth ₹40+ LPA at graduation."
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
@@ -1198,7 +1198,7 @@
   },
   "prerequisites": {
     "age": "13-18 years (Classes 9 to 12)",
-    "coding_experience": "None — we start from absolute zero. Prior Scratch/Python is a bonus.",
+    "coding_experience": "None, we start from absolute zero. Prior Scratch/Python is a bonus.",
     "equipment": "Laptop/desktop (min 8GB RAM, i3+/Ryzen 3+), stable internet (10 Mbps+), webcam, headphones",
     "software": "All free (+ Google Colab for GPU). Paid optional: Colab Pro ($10/mo) or Kaggle free GPU",
     "time_commitment": "10-12 hours/week (2-3 classes + practical + self-study)",
@@ -1211,11 +1211,11 @@
     "cbse_class_10": "Students pursuing CBSE AI (417) with board exam in Class 10",
     "cbse_class_11": "Students electing CBSE AI (Code 843) as academic elective in Class 11",
     "cbse_class_12": "Students with CBSE AI (843) board exam in Class 12",
-    "other_boards": "ICSE/ISC, IB, Cambridge, State Board students — curriculum fully transferable",
+    "other_boards": "ICSE/ISC, IB, Cambridge, State Board students, curriculum fully transferable",
     "international_students": "NRI/PIO students preparing for Indian board exams from abroad",
     "cs_non_cs_students": "Students doing CBSE CS (083) or IP (065) wanting AI depth alongside",
     "engineering_aspirants": "JEE/BITSAT aspirants wanting AI portfolio for college applications",
-    "international_college_applicants": "Students applying to MIT, Stanford, CMU — AI portfolio is critical",
+    "international_college_applicants": "Students applying to MIT, Stanford, CMU, AI portfolio is critical",
     "competition_aspirants": "Kids gunning for India AI Olympiad, Intel AI Youth, Samsung Innovation Campus, MS Imagine Cup, Google AI, UNICEF AI-for-Good",
     "startup_minded": "Teens who want to launch an AI product/startup while in school",
     "self_learners": "Homeschoolers and advanced learners wanting structured AI mastery"
@@ -1223,56 +1223,41 @@
   "career_paths_after_completion": [
     "B.Tech in AI / CS / Data Science / ECE at IIT, NIT, BITS, IIIT, top private universities",
     "International admissions: MIT, Stanford, CMU, Georgia Tech, UIUC (AI portfolio is a key differentiator)",
-    "AI/ML Engineer (₹12-40 LPA starting, ₹60 LPA-1 Crore+ with experience)",
-    "Data Scientist (₹10-35 LPA starting)",
-    "ML Research Scientist (₹20-60 LPA + PhD pathway)",
-    "AI Product Manager (₹15-50 LPA)",
-    "AI Startup Founder (unlimited potential — Y Combinator, Sequoia India pathway)",
-    "Computer Vision Engineer (₹12-45 LPA)",
-    "NLP Engineer / Conversational AI (₹12-40 LPA)",
-    "Generative AI Engineer / Prompt Engineer (₹15-60 LPA — emerging in 2026-27)",
-    "Quantitative AI (Algo Trading) — ₹30 LPA-2 Crore+",
-    "AI Ethics / Policy (₹15-40 LPA + government/NGO roles)"
+    "AI/ML Engineer",
+    "Data Scientist",
+    "ML Research Scientist",
+    "AI Product Manager",
+    "AI Startup Founder (unlimited potential, Y Combinator, Sequoia India pathway)",
+    "Computer Vision Engineer",
+    "NLP Engineer / Conversational AI",
+    "Generative AI Engineer / Prompt Engineer",
+    "Quantitative AI (Algo Trading), ₹30 LPA-2 Crore+",
+    "AI Ethics / Policy"
   ],
-  "salary_expectations": {
-    "immediate_board_impact": "95+ in CBSE AI board exam (417 & 843) — raises overall percentile",
-    "scholarships": "KVPY, NTSE, Inspire, Intel AI, Samsung Innovation, Microsoft AI scholarships",
-    "competitions": "Prize money ₹50K-₹5 Lakh from major AI competitions",
-    "college_admissions": "Direct advantage in IIT/NIT via portfolio + competitive exams",
-    "summer_internships": "₹15K-₹50K/month internships at Indian startups (after Class 11)",
-    "starting_ai_engineer_india": "₹12-40 LPA straight out of B.Tech",
-    "starting_ai_engineer_faang": "₹50 LPA-1.5 Crore+ at Google, Microsoft, Meta",
-    "phd_researcher": "₹15-40 LPA during PhD + $150K+ post-PhD abroad",
-    "ai_startup_founder": "Unlimited — recent Indian teen AI founder exits ₹10 Crore+",
-    "international_opportunities": "Silicon Valley, London, Singapore, Tokyo — AI is the #1 hiring demand"
-  },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee",
-    "board_score_guarantee": "95+ in CBSE AI board exam or 50% fee refund (terms apply)",
-    "cbse_alignment": "100% CBSE syllabus coverage guarantee (417 + 843)",
-    "support": "6-hour response guarantee 7 days a week",
-    "updates": "Lifetime access to all future CBSE curriculum updates",
-    "certificate": "Industry-recognized AI Developer + CBSE Board Ready certification",
-    "portfolio": "80+ GitHub projects guarantee",
-    "college_readiness": "Complete preparation for JEE + AI B.Tech + international applications",
-    "internship_referral": "At least 2 internship referrals post-Class 11 completion"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
       "question": "Is this course officially aligned with CBSE AI Code 417 and 843 syllabus?",
-      "answer": "Yes — 100% alignment. Every unit of CBSE AI Class 9-10 (Code 417) and Class 11-12 (Code 843) is covered in greater depth than prescribed. We follow the exact CBSE pedagogical order, use NCERT-recommended textbooks and tools, and our capstone projects follow the official CBSE AI Project Cycle format. Our students consistently score 95+ in their CBSE AI board exams (verified by 2,800+ board results)."
+      "answer": "Yes, 100% alignment. Every unit of CBSE AI Class 9-10 (Code 417) and Class 11-12 (Code 843) is covered in greater depth than prescribed. We follow the exact CBSE pedagogical order, use NCERT-recommended textbooks and tools, and our capstone projects follow the official CBSE AI Project Cycle format. Our students consistently score 95+ in their CBSE AI board exams (verified by 2,800+ board results)."
     },
     {
       "question": "What is the difference between CBSE AI Code 417 and Code 843?",
-      "answer": "Code 417 is the Skill Subject for Class 9 & 10 (introductory, more hands-on, 30% practical). Code 843 is the Academic Elective for Class 11 & 12 (deeper theory + advanced ML/DL, 70% theory + 30% practical). Our course seamlessly covers both — Phases 1-2 master Code 417, Phases 3-4 master Code 843. Students starting in Class 9 get a complete 4-year pathway; students starting later enter the appropriate phase based on diagnostic."
+      "answer": "Code 417 is the Skill Subject for Class 9 & 10 (introductory, more hands-on, 30% practical). Code 843 is the Academic Elective for Class 11 & 12 (deeper theory + advanced ML/DL, 70% theory + 30% practical). Our course seamlessly covers both, Phases 1-2 master Code 417, Phases 3-4 master Code 843. Students starting in Class 9 get a complete 4-year pathway; students starting later enter the appropriate phase based on diagnostic."
     },
     {
       "question": "I'm in Class 12 with boards in a few months. Is this course still useful?",
       "answer": "Yes, we offer a Class 12 Crash Track (3-4 months intensive) that covers the complete CBSE AI 843 Class 12 syllabus with board-focused revision, 10 mock tests, capstone project (board-submission quality), and viva mastery. Our Class 12 crash students have scored 90+ in under 3 months of intensive prep. Book a free diagnostic to see if this suits you."
     },
     {
-      "question": "My school already teaches CBSE AI — why do I need this?",
-      "answer": "Most CBSE schools cover AI at surface level due to 2-4 hours/week constraint, and teacher training is still catching up. Our course goes 10x deeper with 10-12 hours/week, industry-grade Python + ML + DL, full practical file support, capstone project guidance, board-exam strategy, competition prep, and GitHub portfolio — none of which schools provide. 92% of our students also attend school AI classes — we complement, not replace."
+      "question": "My school already teaches CBSE AI, why do I need this?",
+      "answer": "Most CBSE schools cover AI at surface level due to 2-4 hours/week constraint, and teacher training is still catching up. Our course goes 10x deeper with 10-12 hours/week, industry-grade Python + ML + DL, full practical file support, capstone project guidance, board-exam strategy, competition prep, and GitHub portfolio, none of which schools provide. 92% of our students also attend school AI classes, we complement, not replace."
     },
     {
       "question": "Do you cover the CBSE practical file requirements?",
@@ -1280,19 +1265,19 @@
     },
     {
       "question": "I'm not planning to do Computer Science in college. Is AI still worth it?",
-      "answer": "AI is becoming the 'new literacy' across all fields — medicine (AI diagnostics), law (legal AI), business (AI analytics), design (GenAI), finance (algo trading), creative arts (AI filmmaking). The 4 pillars of Computational Thinking plus AI fluency will be essential in every career by 2030. Even if you pursue non-CS fields, this course gives you a decade-long career advantage. Many of our students become doctors, lawyers, designers — all enhanced by AI skills."
+      "answer": "AI is becoming the 'new literacy' across all fields, medicine (AI diagnostics), law (legal AI), business (AI analytics), design (GenAI), finance (algo trading), creative arts (AI filmmaking). The 4 pillars of Computational Thinking plus AI fluency will be essential in every career by 2030. Even if you pursue non-CS fields, this course gives you a decade-long career advantage. Many of our students become doctors, lawyers, designers, all enhanced by AI skills."
     },
     {
       "question": "Will this help with JEE / BITSAT / other entrance exams?",
-      "answer": "Directly: No (JEE doesn't test AI). Indirectly: Yes — our computational thinking module sharpens logical reasoning and problem-solving that directly boost JEE Advanced performance. More importantly, your AI project portfolio becomes a massive differentiator for IIT/NIT/BITS interviews, scholarship applications, and international college admissions where portfolio weight is 40-60%."
+      "answer": "Directly: No (JEE doesn't test AI). Indirectly: Yes, our computational thinking module sharpens logical reasoning and problem-solving that directly boost JEE Advanced performance. More importantly, your AI project portfolio becomes a massive differentiator for IIT/NIT/BITS interviews, scholarship applications, and international college admissions where portfolio weight is 40-60%."
     },
     {
       "question": "Is 10-12 hours per week sustainable alongside Class 10/12 boards?",
-      "answer": "Yes, because AI is one of your board subjects (Code 417 for Class 10, Code 843 for Class 12) — the time spent directly contributes to your board prep. Our schedule adjusts during board months (Jan-March) to revision mode. Many of our students handle full CBSE board prep (Physics, Chem, Math, English) + AI 95+ score + GitHub portfolio simultaneously with our structured approach."
+      "answer": "Yes, because AI is one of your board subjects (Code 417 for Class 10, Code 843 for Class 12), the time spent directly contributes to your board prep. Our schedule adjusts during board months (Jan-March) to revision mode. Many of our students handle full CBSE board prep (Physics, Chem, Math, English) + AI 95+ score + GitHub portfolio simultaneously with our structured approach."
     },
     {
       "question": "Do I need a powerful computer for Deep Learning?",
-      "answer": "No — we use Google Colab which provides free GPU access (enough for 90% of our curriculum). For heavier training, Kaggle offers 30 hours/week free GPU, or Colab Pro ($10/month) or your school's lab. A basic 8GB RAM laptop suffices for coding. We teach cloud-first engineering (which is the industry standard anyway)."
+      "answer": "No, we use Google Colab which provides free GPU access (enough for 90% of our curriculum). For heavier training, Kaggle offers 30 hours/week free GPU, or Colab Pro ($10/month) or your school's lab. A basic 8GB RAM laptop suffices for coding. We teach cloud-first engineering (which is the industry standard anyway)."
     },
     {
       "question": "Will I be ready for international AI programs like Stanford AI4All or MIT Beaver Works?",
@@ -1300,7 +1285,7 @@
     },
     {
       "question": "How does the board score guarantee work?",
-      "answer": "If you attend 85%+ classes, complete 80%+ homework, submit all practical file activities and capstone on time, score below 95 in CBSE AI board exam — we refund 50% of fees. Our historical guarantee claim rate is <3% because our methodology works. See full terms in enrollment agreement."
+      "answer": "If you attend 85%+ classes, complete 80%+ homework, submit all practical file activities and capstone on time, score below 95 in CBSE AI board exam, we refund 50% of fees. Our historical guarantee claim rate is <3% because our methodology works. See full terms in enrollment agreement."
     },
     {
       "question": "What if I'm in a non-CBSE board but want to learn AI?",
@@ -1311,7 +1296,7 @@
     {
       "slug": "cbse-computational-thinking-and-ai-course-for-kids-classes-3-to-8",
       "title": "CT & AI for Kids (Classes 3-8)",
-      "description": "Our primary/middle school CT & AI course — perfect preparation for Class 9 entry"
+      "description": "Our primary/middle school CT & AI course, perfect preparation for Class 9 entry"
     },
     {
       "slug": "python-complete-masterclass-teens",
@@ -1336,13 +1321,13 @@
     {
       "slug": "problem-solving-dsa-masterclass-teens",
       "title": "Problem Solving & DSA for Teens",
-      "description": "Sharpens algorithm skills — complements AI engineering path"
+      "description": "Sharpens algorithm skills, complements AI engineering path"
     }
   ],
   "why_this_course": {
     "title": "Why CBSE AI (417 & 843) Mastery Is Non-Negotiable for Ambitious Teens",
     "paragraphs": [
-      "The Central Board of Secondary Education officially launched Artificial Intelligence as a Skill Subject (Code 417) for Class 9-10 and an Academic Elective (Code 843) for Class 11-12. With India announcing the National AI Mission and private industry projecting 1.2 million AI jobs by 2030, mastery of CBSE's AI curriculum is the single highest-leverage academic investment a teen can make today. Yet most CBSE schools struggle to teach AI well — due to rapid syllabus evolution, teacher training gaps, and the inherent 2-4 hours/week time constraint.",
+      "The Central Board of Secondary Education officially launched Artificial Intelligence as a Skill Subject (Code 417) for Class 9-10 and an Academic Elective (Code 843) for Class 11-12. With India announcing the National AI Mission and private industry projecting 1.2 million AI jobs by 2030, mastery of CBSE's AI curriculum is the single highest-leverage academic investment a teen can make today. Yet most CBSE schools struggle to teach AI well, due to rapid syllabus evolution, teacher training gaps, and the inherent 2-4 hours/week time constraint.",
       "This 12-month program solves that completely. We cover 100% of CBSE AI Code 417 (Class 9-10) and Code 843 (Class 11-12) with 10x the depth, supplemented by industry skills (Deep Learning, Transformers, GenAI, MLOps) that 95% of practicing AI engineers earn ₹40+ LPA for. Every student builds an 80-project GitHub portfolio, masters the official CBSE AI Project Cycle for board capstones, and leaves with verifiable AI engineer credentials.",
       "More than grades: the compounding benefit is immense. Teens who master AI early get admitted to top engineering colleges (AI portfolio carries 40-60% weight in modern admissions), win international competitions (Intel AI Youth, Samsung Innovation Campus, Google AI for Good), secure summer internships at 16-17, and position themselves for careers that will define the next 50 years of technology. Our 2,800+ alumni are already employed at Google, Microsoft, Flipkart, Razorpay, and studying at IITs, MIT, Stanford, and CMU."
     ],
@@ -1353,24 +1338,10 @@
       "CBSE-format practical file (20+ activities) + capstone project per class",
       "500+ viva-voce question bank mastery",
       "Industry-grade Python + ML + DL + GenAI + MLOps training",
-      "80+ project GitHub portfolio — college-application ready",
+      "80+ project GitHub portfolio, college-application ready",
       "Live IIT/Google/Microsoft AI engineer instructors",
       "Prize-winning guidance for Intel AI Youth, Samsung Innovation, MS Imagine, India AI Olympiad",
       "Direct pathway to IIT/NIT/BITS/IIIT, international colleges, and first AI internship"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "2,800+",
-    "cbse_schools_using_our_program": "400+",
-    "board_score_95_plus_achievement_rate": "89%",
-    "students_admitted_to_iit_nit_bits": "340+",
-    "students_admitted_to_mit_stanford_cmu": "22+",
-    "ai_competition_winners": "215+",
-    "prize_money_won_by_students": "₹1.8 Crore+ cumulative",
-    "internships_secured_post_class_11": "180+",
-    "parent_satisfaction": "97%",
-    "course_completion_rate": "91%",
-    "average_github_portfolio_projects": "82 per graduate",
-    "linkedin_recommendations_received": "650+"
   }
 }

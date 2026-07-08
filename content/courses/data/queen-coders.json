@@ -1580,8 +1580,8 @@
       "mentorship": "C-level female executives as mentors",
       "community": "Exclusive Queen Coders executive network",
       "code_review": "Architecture reviews by principal engineers",
-      "career_support": "Executive placement and board positions",
-      "lifetime_access": "Forever access to elite network and resources"
+      "lifetime_access": "Forever access to elite network and resources",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each phase (4 total)",
@@ -1620,18 +1620,19 @@
     "Board Member (Technology Committee)"
   ],
   "salary_expectations": {
-    "after_6_months": "₹15-25 LPA (Senior roles)",
-    "after_12_months": "₹25-50+ LPA (Leadership roles)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "growing_roles": "₹15-25 LPA (Senior roles)",
+    "experienced_roles": "₹25-50+ LPA (Leadership roles)",
     "freelance": "₹2000-5000/hour consulting",
     "international": "$150k-500k+ USD for leadership positions"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Executive placement support",
-    "lifetime_updates": "Lifetime access to Queen network",
-    "mentorship": "C-level mentor matching",
-    "certificate": "Elite industry certification",
-    "portfolio": "Enterprise portfolio of projects"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

@@ -1638,11 +1638,11 @@
     "programs": "Advice on selecting graduate programs"
   },
   "course_guarantees": {
-    "quality": "University-level mathematical education",
-    "support": "Comprehensive learning support",
-    "updates": "Course updates with new mathematical developments",
-    "access": "Lifetime access to materials",
-    "community": "Active mathematical community",
-    "success": "Proven track record of student success"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   }
 }

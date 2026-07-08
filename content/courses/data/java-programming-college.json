@@ -36,7 +36,7 @@
   "program_overview": {
     "title": "Complete Java Programming Masterclass",
     "tagline": "From 'Hello World' to Enterprise Microservices Architecture",
-    "description": "This is not just a Java course—it's a complete transformation into an enterprise-ready Java professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Java developer capable of building scalable enterprise applications, microservices, RESTful APIs, and cloud-native solutions.\n\nYou'll master Java from ground zero to enterprise architect level: from basic syntax to advanced design patterns, from console applications to Spring Boot microservices, from JDBC to Hibernate ORM, from monolithic apps to cloud-native distributed systems. By the end, you'll have built 40+ projects, mastered the entire Java ecosystem, and be ready for senior Java developer roles in top tech companies.",
+    "description": "This is not just a Java course, it's a complete transformation into an enterprise-ready Java professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Java developer capable of building scalable enterprise applications, microservices, RESTful APIs, and cloud-native solutions.\n\nYou'll master Java from ground zero to enterprise architect level: from basic syntax to advanced design patterns, from console applications to Spring Boot microservices, from JDBC to Hibernate ORM, from monolithic apps to cloud-native distributed systems. By the end, you'll have built 40+ projects, mastered the entire Java ecosystem, and be ready for senior Java developer roles in top tech companies.",
     "what_makes_this_different": [
       "Starts from absolute zero - perfect for complete beginners",
       "Separate learning tracks for kids (12+), teens, and adults",
@@ -1808,8 +1808,8 @@
       "code_review": "Expert code reviews for all major projects",
       "career_support": "Resume review, mock interviews, job referrals to product companies",
       "lifetime_access": "All content, future updates, new Java versions coverage",
-      "placement_assistance": "Dedicated placement cell with company partnerships",
-      "interview_prep": "Mock interviews with industry professionals"
+      "interview_prep": "Mock interviews with industry professionals",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each phase completion (4 certificates)",
@@ -1862,30 +1862,21 @@
     "Startup Founder / CTO"
   ],
   "salary_expectations": {
-    "after_3_months": "₹3-5 LPA (Junior Java Developer / Fresher)",
-    "after_6_months": "₹5-9 LPA (Java Developer)",
-    "after_9_months": "₹8-15 LPA (Senior Java Developer / Spring Boot Developer)",
-    "after_12_months": "₹12-25 LPA (Senior Java / Microservices Developer / Tech Lead)",
-    "experienced_3_years": "₹18-40 LPA (Lead Developer / Architect)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹3-5 LPA (Junior Java Developer / Fresher)",
+    "growing_roles": "₹5-9 LPA (Java Developer); ₹8-15 LPA (Senior Java Developer / Spring Boot Developer)",
+    "experienced_roles": "₹12-25 LPA (Senior Java / Microservices Developer / Tech Lead); ₹18-40 LPA (Lead Developer / Architect)",
     "freelance": "₹1000-5000/hour based on expertise",
     "international_usa": "$80k-180k USD (Java Developer to Senior)",
-    "international_europe": "€50k-120k EUR based on country and experience",
-    "product_companies": "₹15-50 LPA in top product companies (Google, Amazon, Microsoft, etc.)",
-    "fintech_banking": "₹20-60 LPA in banking and fintech sectors"
+    "international_europe": "€50k-120k EUR based on country and experience"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee - no questions asked",
-    "job_assistance": "Job placement support with 500+ hiring partners",
-    "lifetime_updates": "Free access to all future content, new Java versions, framework updates",
-    "mentorship": "Dedicated expert mentor throughout 12-month journey and beyond",
-    "certificate": "Industry-recognized certification from established platform",
-    "portfolio": "40+ production-ready projects for impressive portfolio",
-    "community": "Lifetime access to alumni network and community",
-    "career_switch": "Extended support until successful career switch (up to 18 months)",
-    "skill_guarantee": "Master Java or continue learning free until you do",
-    "interview_guarantee": "Unlimited mock interviews until you land a job",
-    "salary_hike": "Average 150-300% salary hike for career switchers",
-    "placement_record": "85%+ placement rate within 6 months of completion"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1902,7 +1893,7 @@
     },
     {
       "question": "How does this Java course prepare me for job interviews and placement?",
-      "answer": "We provide comprehensive interview preparation including: 150+ LeetCode problem solutions, system design practice (designing Twitter, Uber, etc.), Java-specific interview questions, Spring Boot scenarios, and unlimited mock interviews. Our 85%+ placement rate within 6 months speaks to the effectiveness. We also help with resume optimization and company connections."
+      "answer": "We provide comprehensive interview preparation including 150+ LeetCode problem solutions, system design practice (designing systems like Twitter and Uber), Java-specific interview questions, Spring Boot scenarios, and unlimited mock interviews. We also help with resume optimization and building a strong project portfolio. We prepare you thoroughly for interviews, but we do not make placement guarantees."
     },
     {
       "question": "What kind of projects will I build in this Java programming masterclass?",
@@ -1910,7 +1901,7 @@
     },
     {
       "question": "What salary can I expect after completing this Java programming course?",
-      "answer": "Salaries vary by experience: Freshers start at ₹3-5 LPA, after 6 months ₹5-9 LPA, after 12 months ₹8-15 LPA, and experienced developers (2-3 years) earn ₹18-40 LPA. Top product companies (Google, Amazon, Microsoft) offer ₹15-50 LPA. Fintech/banking sectors pay ₹20-60 LPA. International remote jobs offer $80k-180k USD."
+      "answer": "As general market context (not a guarantee): Java developers in India commonly start around ₹3-5 LPA, reach roughly ₹8-15 LPA with a couple of years of experience, and ₹18-40 LPA as they become senior, with higher ranges at large product companies. International remote roles can pay more. Actual pay depends on your skills, experience, and the market."
     }
   ],
   "related_courses": [
@@ -1941,14 +1932,7 @@
       "40+ enterprise-grade projects with Spring Boot microservices",
       "Complete cloud deployment: AWS, Docker, Kubernetes",
       "System design preparation for senior roles",
-      "150+ LeetCode problems with Java solutions",
-      "85% placement rate within 6 months"
+      "150+ LeetCode problems with Java solutions"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "5,100+",
-    "job_placement_rate": "85%",
-    "avg_starting_salary": "₹8.5 LPA",
-    "enterprise_positions": "1,200+"
   }
 }

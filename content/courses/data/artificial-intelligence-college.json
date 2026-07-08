@@ -36,7 +36,7 @@
   "program_overview": {
     "title": "Complete Artificial Intelligence Masterclass",
     "tagline": "From Classical AI to Artificial General Intelligence Research",
-    "description": "This is not just an AI course—it's a complete journey through the entire landscape of Artificial Intelligence. Whether you're a complete beginner, computer science student, researcher, or professional wanting deep AI expertise, this 12-month masterclass will transform you into an AI expert with comprehensive knowledge spanning from classical symbolic AI to modern neural approaches, from theoretical foundations to practical intelligent systems.\n\nYou'll master AI from philosophical foundations to cutting-edge research: from search algorithms to knowledge representation, from expert systems to autonomous agents, from logic and reasoning to probabilistic AI, from planning to learning, from single agents to multi-agent systems, from narrow AI to AGI concepts. By the end, you'll have built 50+ intelligent systems, understood AI at the deepest level, published research, and be prepared for AI research scientist roles or PhD programs.",
+    "description": "This is not just an AI course, it's a complete journey through the entire landscape of Artificial Intelligence. Whether you're a complete beginner, computer science student, researcher, or professional wanting deep AI expertise, this 12-month masterclass will transform you into an AI expert with comprehensive knowledge spanning from classical symbolic AI to modern neural approaches, from theoretical foundations to practical intelligent systems.\n\nYou'll master AI from philosophical foundations to cutting-edge research: from search algorithms to knowledge representation, from expert systems to autonomous agents, from logic and reasoning to probabilistic AI, from planning to learning, from single agents to multi-agent systems, from narrow AI to AGI concepts. By the end, you'll have built 50+ intelligent systems, understood AI at the deepest level, published research, and be prepared for AI research scientist roles or PhD programs.",
     "what_makes_this_different": [
       "Comprehensive coverage: Classical + Modern AI",
       "Theoretical foundations AND practical implementation",
@@ -1415,14 +1415,9 @@
     "AI Startup Founder (Research-driven)"
   ],
   "salary_expectations": {
-    "research_engineer": "₹15-30 LPA (India), $120k-200k (USA)",
-    "ai_research_scientist": "₹25-50 LPA (India), $180k-350k (USA)",
-    "senior_researcher": "₹40-80 LPA (India), $250k-500k (USA)",
-    "principal_scientist": "₹60-150 LPA (India), $350k-800k+ (USA)",
-    "research_labs": "DeepMind, OpenAI pay $300k-$1M+ for top researchers",
-    "academic": "₹10-30 LPA (India), $80k-150k (USA) as Assistant Professor",
-    "consulting": "₹200-500/hour for expert AI consulting",
-    "note": "AI research is among highest-paid technical fields globally"
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "other_roles": "₹15-30 LPA (India), $120k-200k (USA); ₹25-50 LPA (India), $180k-350k (USA); ₹40-80 LPA (India), $250k-500k (USA); ₹60-150 LPA (India), $350k-800k+ (USA); DeepMind, OpenAI pay $300k-$1M+ for top researchers; ₹10-30 LPA (India), $80k-150k (USA) as Assistant Professor",
+    "consulting": "₹200-500/hour for expert AI consulting"
   },
   "academic_outcomes": {
     "phd_admissions": "Prepared for top 20 AI PhD programs worldwide",
@@ -1437,19 +1432,12 @@
     "research_network": "Connections with AI research community"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee",
-    "phd_preparation": "Equivalent to first-year PhD coursework in AI",
-    "research_quality": "Capstone project at publication level",
-    "mentorship": "PhD-level researcher mentorship throughout",
-    "lifetime_access": "All materials, papers, updates forever",
-    "publication_support": "Guidance until first paper acceptance",
-    "phd_application_support": "Complete application support for top programs",
-    "community": "Lifetime access to researcher community",
-    "advanced_modules": "Free access to all future advanced topics",
-    "computing_resources": "Cloud credits for research experiments",
-    "conference_guidance": "Help with conference submissions and attendance",
-    "career_support": "Research career guidance and networking",
-    "excellence_guarantee": "Master AI at the deepest theoretical and practical level"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

@@ -1580,7 +1580,7 @@
       "phase_certificates": "Certificate after each phase (4 total)",
       "final_certificate": "Princess Coders Certified Developer",
       "linkedin_badge": "Verified LinkedIn certification",
-      "industry_recognized": "Recognized by partner companies",
+      "industry_recognized": "A course-completion certificate you can add to your resume and LinkedIn.",
       "portfolio_projects": "40+ projects for your portfolio"
     }
   },
@@ -1612,19 +1612,13 @@
     "Startup Founder (Tech entrepreneur)",
     "Open Source Contributor (Global impact)"
   ],
-  "salary_expectations": {
-    "after_6_months": "₹2-4 LPA (Intern/Junior roles)",
-    "after_12_months": "₹4-8 LPA (Full Developer)",
-    "freelance": "₹300-1500/hour based on expertise",
-    "international": "$30k-80k USD for remote positions"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Dedicated placement support for women in tech",
-    "lifetime_updates": "Free access to all future content",
-    "mentorship": "Female industry mentors throughout",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "Professional portfolio upon completion"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

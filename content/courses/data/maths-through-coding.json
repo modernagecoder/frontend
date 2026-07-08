@@ -1,7 +1,7 @@
 {
   "meta": {
     "slug": "maths-through-coding",
-    "title": "Maths Through Coding — Learn Math by Building It in Python (Ages 10-15)",
+    "title": "Maths Through Coding, Learn Math by Building It in Python (Ages 10-15)",
     "description": "Live online course where students learn mathematics by programming it: fractions, algebra, geometry, probability and functions built as Python projects. The signature Modern Age Coders fusion, taught by mentors fluent in both. 8 one-hour classes a month, free demo first.",
     "keywords": [
       "maths through coding course",
@@ -35,15 +35,15 @@
   "program_overview": {
     "title": "Maths Through Coding",
     "tagline": "If you can build it, you understand it. Students build the maths.",
-    "description": "A 9-month live course teaching mathematics the way our whole school believes it should be met: by building it. Students write Python programs that ARE the maths — a fraction simplifier that forces understanding of GCD, turtle geometry that makes angles visceral, probability simulators that settle arguments with ten thousand dice rolls, and function grapher projects that turn algebra into something you can watch. This is the signature Modern Age Coders fusion, taught by mentors genuinely fluent in both subjects — and for Ontario families, it happens to cover the coding expectations now examined inside math class from Grade 1. No prior coding needed; the mathematics runs roughly grades 5-9 territory with stretch room.",
+    "description": "A 9-month live course teaching mathematics the way our whole school believes it should be met: by building it. Students write Python programs that ARE the maths, a fraction simplifier that forces understanding of GCD, turtle geometry that makes angles visceral, probability simulators that settle arguments with ten thousand dice rolls, and function grapher projects that turn algebra into something you can watch. This is the signature Modern Age Coders fusion, taught by mentors genuinely fluent in both subjects, and for Ontario families, it happens to cover the coding expectations now examined inside math class from Grade 1. No prior coding needed; the mathematics runs roughly grades 5-9 territory with stretch room.",
     "what_makes_this_different": [
       "The maths is the syllabus, the code is the method: every program exists to force a mathematical idea into the open",
-      "A computer rejects vague understanding — code that half-understands fractions simply does not run, which makes debugging a mathematics lesson",
+      "A computer rejects vague understanding, code that half-understands fractions simply does not run, which makes debugging a mathematics lesson",
       "Mentors fluent in both subjects, because a coding teacher who waves at the maths (or vice versa) breaks the whole idea",
       "Real Python from week one, at a pace built for ages 10-15",
       "Every topic ends with a working artifact the student built and can demo",
       "Directly serves Ontario's coding-in-math strand, and the computational-thinking push in curricula worldwide",
-      "The engagement answer for the child who says maths is boring but plays with code for hours — or the reverse",
+      "The engagement answer for the child who says maths is boring but plays with code for hours, or the reverse",
       "One dedicated mentor, one full interactive hour, twice a week"
     ],
     "learning_path": {
@@ -53,38 +53,38 @@
     },
     "career_outcomes": [
       "Mathematics that survives, because it was built rather than memorized",
-      "Real Python skills — the on-ramp to our full programming tracks",
+      "Real Python skills, the on-ramp to our full programming tracks",
       "Computational thinking: decomposition, patterns and precision, the literacy every future field wants",
       "A demo-able project portfolio that makes school maths and science genuinely easier"
     ]
   },
   "phase_1_foundation": {
     "title": "PHASE 1: Numbers as Programs (Months 1-3)",
-    "description": "Python foundations learned through number theory a student can touch: parity, divisibility, primes, factors and fractions. By phase end the student programs comfortably and — the real goal — has met arithmetic ideas so concretely they can never again be mysterious.",
+    "description": "Python foundations learned through number theory a student can touch: parity, divisibility, primes, factors and fractions. By phase end the student programs comfortably and, the real goal, has met arithmetic ideas so concretely they can never again be mysterious.",
     "month_1": {
       "title": "Month 1: First Programs, First Number Ideas",
       "weeks": "Weeks 1-4",
-      "week_1": "Hello, Python: the editor, print, variables — and a diagnostic of both maths comfort and machine comfort",
+      "week_1": "Hello, Python: the editor, print, variables, and a diagnostic of both maths comfort and machine comfort",
       "week_2": "Arithmetic operators and order of operations: the computer obeys the same grammar your maths teacher does",
-      "week_3": "Integer division and remainders: modulo as the parity machine — even/odd detectors and cycle patterns",
+      "week_3": "Integer division and remainders: modulo as the parity machine, even/odd detectors and cycle patterns",
       "week_4": "Conditionals with number tests: divisibility rules coded and then explained backwards"
     },
     "month_2": {
       "title": "Month 2: Loops Meet Number Theory",
       "weeks": "Weeks 5-8",
       "week_5_6": "Loops as repetition with purpose: times tables generated, then patterns in them hunted and explained",
-      "week_7_8": "Factor finders and prime testers: the student's first real algorithms, and why 1 is not prime — settled by code"
+      "week_7_8": "Factor finders and prime testers: the student's first real algorithms, and why 1 is not prime, settled by code"
     },
     "month_3": {
       "title": "Month 3: The Fraction Machine",
       "weeks": "Weeks 9-12",
-      "week_9_10": "GCD discovered through the Euclidean idea; a fraction simplifier built — which forces equivalence to be truly understood",
+      "week_9_10": "GCD discovered through the Euclidean idea; a fraction simplifier built, which forces equivalence to be truly understood",
       "week_11_12": "Fraction arithmetic programmed (common denominators become obvious when a machine needs them); phase demo day: each student presents their number toolkit"
     }
   },
   "phase_2_shape_and_algebra": {
     "title": "PHASE 2: Shape and Change (Months 4-6)",
-    "description": "Geometry becomes visceral through turtle graphics — exterior angles are unforgettable once you have steered them — and algebra comes alive as code: variables that actually vary, functions as machines, and graphs the student plots themselves.",
+    "description": "Geometry becomes visceral through turtle graphics, exterior angles are unforgettable once you have steered them, and algebra comes alive as code: variables that actually vary, functions as machines, and graphs the student plots themselves.",
     "month_4": {
       "title": "Month 4: Turtle Geometry",
       "weeks": "Weeks 13-16",
@@ -98,7 +98,7 @@
       "week_19_20": "Algebra as code: expressions evaluated, equations solved by guess-check-refine, and why balance methods beat brute force"
     },
     "month_6": {
-      "title": "Month 6: Functions as Machines — Literally",
+      "title": "Month 6: Functions as Machines, Literally",
       "weeks": "Weeks 21-24",
       "week_21_22": "Python functions and mathematical functions introduced as the same idea: input, rule, output",
       "week_23_24": "The grapher project: plot y = mx + c and watch m and c do their jobs; then parabolas, and phase demo day"
@@ -106,30 +106,30 @@
   },
   "phase_3_chance_data_capstone": {
     "title": "PHASE 3: Chance, Data and the Capstone (Months 7-9)",
-    "description": "Probability stops being formulas when you can roll ten thousand dice per second: simulators settle intuitions, real datasets get summarized and questioned, and the course closes with a capstone the student designs — a working program where the mathematics is the star.",
+    "description": "Probability stops being formulas when you can roll ten thousand dice per second: simulators settle intuitions, real datasets get summarized and questioned, and the course closes with a capstone the student designs, a working program where the mathematics is the star.",
     "month_7": {
       "title": "Month 7: Probability by Simulation",
       "weeks": "Weeks 25-28",
       "week_25_26": "Randomness in code: coin flippers and dice rollers; experimental versus theoretical probability, watched converging",
-      "week_27_28": "The classic puzzles simulated: two-dice sums, streaks in coin flips — intuition calibrated by evidence"
+      "week_27_28": "The classic puzzles simulated: two-dice sums, streaks in coin flips, intuition calibrated by evidence"
     },
     "month_8": {
       "title": "Month 8: Statistics on Real Data",
       "weeks": "Weeks 29-32",
-      "week_29_30": "Mean, median and range computed by the student's own code — the definitions can no longer be vague",
+      "week_29_30": "Mean, median and range computed by the student's own code, the definitions can no longer be vague",
       "week_31_32": "A real dataset explored: summaries, simple charts, and the sceptic's questions (outliers, sample size, fair comparisons)"
     },
     "month_9": {
       "title": "Month 9: The Capstone",
       "weeks": "Weeks 33-36",
-      "week_33_34": "Capstone chosen and scoped: a times-table trainer, geometry art generator, probability game, data story — the student's call, the mentor's rigor",
-      "week_35_36": "Build, test, polish; demo day — the student presents their program and, more importantly, explains its mathematics"
+      "week_33_34": "Capstone chosen and scoped: a times-table trainer, geometry art generator, probability game, data story, the student's call, the mentor's rigor",
+      "week_35_36": "Build, test, polish; demo day, the student presents their program and, more importantly, explains its mathematics"
     }
   },
   "faqs": [
     {
       "question": "Is this a maths course or a coding course?",
-      "answer": "A maths course that uses code as its laboratory. The syllabus is mathematical — number theory, fractions, geometry, algebra, probability, statistics — and every program exists to force one of those ideas into the open. Students do finish with real Python skills, which is a genuine bonus, but the mathematics is the star."
+      "answer": "A maths course that uses code as its laboratory. The syllabus is mathematical, number theory, fractions, geometry, algebra, probability, statistics, and every program exists to force one of those ideas into the open. Students do finish with real Python skills, which is a genuine bonus, but the mathematics is the star."
     },
     {
       "question": "Does my child need coding experience?",
@@ -137,15 +137,15 @@
     },
     {
       "question": "Why does building things teach maths better than practicing problems?",
-      "answer": "Because a computer rejects vague understanding. A student who 'sort of' knows fraction equivalence writes a simplifier that fails, and fixing it requires actually understanding GCD. That debugging loop — predict, test, explain the gap — is the deepest mathematical practice there is, and it feels like play."
+      "answer": "Because a computer rejects vague understanding. A student who 'sort of' knows fraction equivalence writes a simplifier that fails, and fixing it requires actually understanding GCD. That debugging loop, predict, test, explain the gap, is the deepest mathematical practice there is, and it feels like play."
     },
     {
       "question": "We're in Ontario and coding is now examined inside math class. Does this help?",
-      "answer": "Directly — this course is our sweet spot for exactly that curriculum. Ontario weaves coding expectations through math from Grade 1, most homes have nobody fluent in both halves, and our mentors teach both natively. Students walk back into class ahead on the strand instead of puzzled by it."
+      "answer": "Directly, this course is our sweet spot for exactly that curriculum. Ontario weaves coding expectations through math from Grade 1, most homes have nobody fluent in both halves, and our mentors teach both natively. Students walk back into class ahead on the strand instead of puzzled by it."
     },
     {
       "question": "My child loves games but says maths is boring. Will this work?",
-      "answer": "This course exists for that child. The maths arrives wearing a project the child wants to build — angle art, a dice game, a grapher — and engagement does the heavy lifting. The reverse child (loves maths, indifferent to screens) discovers code as the best maths toy ever made."
+      "answer": "This course exists for that child. The maths arrives wearing a project the child wants to build, angle art, a dice game, a grapher, and engagement does the heavy lifting. The reverse child (loves maths, indifferent to screens) discovers code as the best maths toy ever made."
     },
     {
       "question": "What maths level does it assume and reach?",
@@ -157,7 +157,7 @@
     },
     {
       "question": "Can we try it before paying?",
-      "answer": "Yes. Every student starts with a free live demo class — they will build and run their first small program inside that hour, and you will see the method working with your own child. No card details required."
+      "answer": "Yes. Every student starts with a free live demo class, they will build and run their first small program inside that hour, and you will see the method working with your own child. No card details required."
     }
   ],
   "testimonials": [
@@ -214,10 +214,10 @@
   "prerequisites": {
     "education": "Ages 10-15 (roughly grades 5-10)",
     "math_background": "Comfortable whole-number arithmetic; everything else is built inside the course",
-    "coding_experience": "None required — Python taught from zero",
+    "coding_experience": "None required, Python taught from zero",
     "equipment": "Computer with stable internet; free tools only (no purchases)",
     "english": "Course taught in English",
-    "motivation": "Curiosity about either half — maths or code — is enough; the course supplies the other"
+    "motivation": "Curiosity about either half, maths or code, is enough; the course supplies the other"
   },
   "who_is_this_for": {
     "bored_by_worksheets": "The child who says maths is boring but builds in Minecraft for hours",
@@ -233,11 +233,12 @@
     "A natural bridge to competition mathematics for the puzzle-hungry"
   ],
   "course_guarantees": {
-    "free_demo": "A free live demo class where your child builds their first program — before any payment",
-    "recorded_classes": "All live sessions recorded",
-    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
-    "portfolio": "A demo-ready portfolio of working programs by course end",
-    "certificate": "Completion certificate plus project portfolio"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "relatedCourses": [
     "comprehensive-middle-school-mathematics-mastery",

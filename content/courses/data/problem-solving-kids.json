@@ -36,7 +36,7 @@
   "program_overview": {
     "title": "Complete Problem-Solving & Computational Thinking Masterclass",
     "tagline": "Build a Problem-Solving Mindset That Lasts a Lifetime!",
-    "description": "This transformative 6-month program doesn't just teach kids to code – it teaches them HOW TO THINK! Through engaging puzzles, coding challenges, real-world problems, and creative projects, students develop critical thinking skills that apply to every area of life.\n\nUsing a blend of coding platforms, logic puzzles, strategy games, and hands-on challenges, kids learn to break down complex problems, recognize patterns, develop algorithms, and create innovative solutions. Perfect for building confidence, improving academic performance, and preparing for future STEM careers.",
+    "description": "This transformative 6-month program doesn't just teach kids to code, it teaches them HOW TO THINK! Through engaging puzzles, coding challenges, real-world problems, and creative projects, students develop critical thinking skills that apply to every area of life.\n\nUsing a blend of coding platforms, logic puzzles, strategy games, and hands-on challenges, kids learn to break down complex problems, recognize patterns, develop algorithms, and create innovative solutions. Perfect for building confidence, improving academic performance, and preparing for future STEM careers.",
     "what_makes_this_different": [
       "Focus on thinking skills, not just coding",
       "Mix of digital and unplugged activities",
@@ -1655,21 +1655,13 @@
     "Teacher/Educator",
     "Any career requiring critical thinking"
   ],
-  "salary_expectations": {
-    "immediate": "Improved academic grades and opportunities",
-    "competitions": "Prize money from competitions",
-    "tutoring": "₹200-500/hour teaching other kids",
-    "future_stem": "₹10-50 LPA (with continued education)",
-    "entrepreneurship": "Unlimited potential",
-    "international": "Global opportunities in STEM"
-  },
   "course_guarantees": {
-    "money_back": "30-day satisfaction guarantee",
-    "improvement": "Guaranteed improvement in problem-solving",
-    "support": "Continuous mentor support",
-    "updates": "Free access to new content",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "150+ documented problem solutions"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1717,9 +1709,9 @@
   "why_this_course": {
     "title": "Why Computational Thinking is Your Child's Superpower",
     "paragraphs": [
-      "Computational thinking isn't about computers—it's about thinking clearly and solving problems systematically. These skills help children excel in math, science, reading comprehension, and even creative writing. Studies show students with strong computational thinking outperform peers across all academic subjects.",
+      "Computational thinking isn't about computers, it's about thinking clearly and solving problems systematically. These skills help children excel in math, science, reading comprehension, and even creative writing. Studies show students with strong computational thinking outperform peers across all academic subjects.",
       "Our program transforms abstract concepts into engaging, hands-on activities. Through puzzles, games, building challenges, and creative projects, children develop logical reasoning, pattern recognition, and algorithmic thinking without even realizing they're learning crucial STEM skills.",
-      "Unlike passive learning, our approach builds genuine problem-solving confidence. Children learn to break down complex challenges, think step-by-step, and persist through difficulties. These meta-skills benefit them throughout their education and careers—regardless of whether they pursue technology."
+      "Unlike passive learning, our approach builds genuine problem-solving confidence. Children learn to break down complex challenges, think step-by-step, and persist through difficulties. These meta-skills benefit them throughout their education and careers, regardless of whether they pursue technology."
     ],
     "highlights": [
       "Age-appropriate curriculum adapting to 7-16 year olds",
@@ -1728,11 +1720,5 @@
       "150+ documented problem solutions for portfolio",
       "Improved academic performance across all subjects"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "2,100+",
-    "academic_improvement": "87%",
-    "parent_satisfaction": "94%",
-    "continued_to_coding": "78%"
   }
 }

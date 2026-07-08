@@ -36,7 +36,7 @@
   "program_overview": {
     "title": "Complete Flutter App Development Masterclass",
     "tagline": "From 'Hello World' to Production-Ready Cross‑Platform Apps",
-    "description": "This is not just a Flutter course—it’s a complete transformation into a professional cross-platform app developer. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Flutter developer capable of building beautiful, performant apps for Android, iOS, Web, and Desktop.\n\nYou’ll master Flutter and Dart from ground zero: from basic programming logic to advanced state management patterns, from simple UIs to complex, animated, responsive layouts, from offline-first apps to real-time apps powered by Firebase and custom backends. You’ll learn architectural patterns (MVVM, Clean Architecture), testing, CI/CD, performance optimization, and deployment to app stores. By the end, you’ll have built 40+ real-world projects and be ready for Flutter developer roles in product companies, agencies, and startups.",
+    "description": "This is not just a Flutter course, it’s a complete transformation into a professional cross-platform app developer. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Flutter developer capable of building beautiful, performant apps for Android, iOS, Web, and Desktop.\n\nYou’ll master Flutter and Dart from ground zero: from basic programming logic to advanced state management patterns, from simple UIs to complex, animated, responsive layouts, from offline-first apps to real-time apps powered by Firebase and custom backends. You’ll learn architectural patterns (MVVM, Clean Architecture), testing, CI/CD, performance optimization, and deployment to app stores. By the end, you’ll have built 40+ real-world projects and be ready for Flutter developer roles in product companies, agencies, and startups.",
     "what_makes_this_different": [
       "Starts from absolute zero - perfect for complete beginners with no coding background",
       "Separate learning tracks for kids (12+), teens, and adults with age-appropriate projects",
@@ -94,7 +94,7 @@
           "Two-screen mini app using basic navigation",
           "Kids track variant: Colorful \"My Favorite Things\" app"
         ],
-        "practice": "Daily: 30–45 min Dart & Flutter basics; reproduce 3–5 simple screens from design snapshots"
+        "practice": "Daily: 30-45 min Dart & Flutter basics; reproduce 3-5 simple screens from design snapshots"
       },
       "week_3_4": {
         "title": "Dart Basics, Variables, Data Types & Operators",
@@ -172,7 +172,7 @@
           "Basic contact form UI (no backend yet)",
           "Kids variant: \"My Pet\" info card with big images & fun fonts"
         ],
-        "practice": "Recreate 6–10 simple UI screens from given Figma/Dribbble screenshots"
+        "practice": "Recreate 6-10 simple UI screens from given Figma/Dribbble screenshots"
       }
     },
     "month_3_4": {
@@ -245,7 +245,7 @@
           "Features: Home screen, list views, detail pages, basic persistence via in-memory lists, clean UI"
         ],
         "practice": "Refactor earlier projects to use cleaner OOP and reusable widgets",
-        "assessment": "Phase 1 Final Assessment – Dart fundamentals, core Flutter widgets & basic OOP"
+        "assessment": "Phase 1 Final Assessment, Dart fundamentals, core Flutter widgets & basic OOP"
       }
     }
   },
@@ -297,12 +297,12 @@
         ],
         "projects": [
           "Multi-screen notes app with details and edit screens",
-          "Onboarding flow with 3–4 intro pages",
+          "Onboarding flow with 3-4 intro pages",
           "Bottom navigation based mini app (Home / Search / Profile)",
           "Simple tabbed app with TabBar and TabBarView",
           "Kids variant: Storybook app with navigation between chapters"
         ],
-        "practice": "Implement routing and navigation in 6–8 mini applications"
+        "practice": "Implement routing and navigation in 6-8 mini applications"
       },
       "week_31_32": {
         "title": "Forms, Validation & User Input Handling",
@@ -399,7 +399,7 @@
         "practice": "Build 12+ features requiring reading/writing persistent local data"
       },
       "week_38_39": {
-        "title": "State Management with Provider & Riverpod – Part 1",
+        "title": "State Management with Provider & Riverpod, Part 1",
         "topics": [
           "Revisiting Provider for larger apps",
           "Multiple providers and provider scopes",
@@ -420,7 +420,7 @@
         "practice": "Refactor 5 existing apps from setState/Provider to Riverpod"
       },
       "week_40_41": {
-        "title": "Advanced State Management: Riverpod / BLoC – Part 2",
+        "title": "Advanced State Management: Riverpod / BLoC, Part 2",
         "topics": [
           "StateNotifier & StateNotifierProvider with Riverpod",
           "Modeling complex state (loading, loaded, error) patterns",
@@ -479,7 +479,7 @@
           "Alternative: Recipe Organizer app with favorites and offline storage",
           "Alternative: Journal/Diary app with tags and search"
         ],
-        "assessment": "Phase 2 Final Exam – State management, navigation, persistence, and animations"
+        "assessment": "Phase 2 Final Exam, State management, navigation, persistence, and animations"
       }
     },
     "month_11_12": {
@@ -527,7 +527,7 @@
           "Architecture template boilerplate for future apps",
           "Kids variant: Simplified architecture for a game app"
         ],
-        "practice": "Refactor 2–3 earlier apps using improved architecture patterns"
+        "practice": "Refactor 2-3 earlier apps using improved architecture patterns"
       },
       "week_49_50": {
         "title": "Networking & REST API Integration - Fundamentals",
@@ -560,7 +560,7 @@
           "Unit tests for Dart logic (services, utils)",
           "Widget tests: testing UI components and layouts",
           "Mocking services and repositories",
-          "Introduction to golden tests (visual regression) – concept",
+          "Introduction to golden tests (visual regression), concept",
           "Basic test-driven development (TDD) workflow",
           "Measuring coverage in Flutter projects"
         ],
@@ -579,7 +579,7 @@
           "pubspec.yaml deep dive: dependencies, dev_dependencies",
           "Managing versions and package upgrades",
           "Creating and publishing your own Dart/Flutter package (concept)",
-          "Build flavors (dev, staging, prod) – overview",
+          "Build flavors (dev, staging, prod), overview",
           "Flutter build commands for Android, iOS, Web",
           "Introduction to Git with Flutter projects",
           "Git branching strategies (feature, develop, main)",
@@ -624,7 +624,7 @@
           "Simple presence/online status indicator",
           "Kids variant: Shared drawing board (concept + simple implementation)"
         ],
-        "practice": "Build 6–8 small realtime features with Firestore streams"
+        "practice": "Build 6-8 small realtime features with Firestore streams"
       },
       "week_55_56": {
         "title": "Authentication & User Management",
@@ -632,7 +632,7 @@
           "Firebase Authentication overview",
           "Email/password sign up and login",
           "Password reset flow",
-          "Social login (Google, Apple, Facebook – platform dependent)",
+          "Social login (Google, Apple, Facebook, platform dependent)",
           "Persisting login state and auto-login",
           "Linking auth user to Firestore profile documents",
           "Protecting routes based on auth state",
@@ -688,7 +688,7 @@
           "In-app announcement banner system",
           "Kids variant: Reward reminder notifications for practice streaks"
         ],
-        "practice": "Implement both remote and local notifications across 2–3 apps"
+        "practice": "Implement both remote and local notifications across 2-3 apps"
       },
       "week_61": {
         "title": "Advanced Firebase: Queries, Security & Performance",
@@ -709,7 +709,7 @@
           "Dashboard app with Firestore aggregate views",
           "Kids variant: Filtered content access based on age group"
         ],
-        "practice": "Design secure Firestore structures and rules for 2–3 different apps"
+        "practice": "Design secure Firestore structures and rules for 2-3 different apps"
       }
     },
     "month_15_16": {
@@ -913,7 +913,7 @@
           "Technical documentation of capstone architecture",
           "Checklist for future production Flutter apps"
         ],
-        "assessment": "Phase 3 Final Exam – Backend integration, Firebase, architecture & production features"
+        "assessment": "Phase 3 Final Exam, Backend integration, Firebase, architecture & production features"
       }
     }
   },
@@ -931,7 +931,7 @@
           "Routing for web (URL-based navigation, go_router intro)",
           "Mouse, keyboard and hover interactions",
           "Window sizing and layout considerations on desktop",
-          "Persisting data on web (localStorage, indexedDB – via plugins)",
+          "Persisting data on web (localStorage, indexedDB, via plugins)",
           "SEO considerations for Flutter Web (limitations & strategies)",
           "Packaging & distributing desktop apps (Windows, macOS, Linux basics)"
         ],
@@ -1049,7 +1049,7 @@
           "Feature flagging system concept for gradual rollouts",
           "Kids variant: System design explained with simplified diagrams"
         ],
-        "practice": "Create 3–4 system design documents for different app types"
+        "practice": "Create 3-4 system design documents for different app types"
       },
       "week_90_91": {
         "title": "Performance Engineering for Flutter Apps",
@@ -1126,7 +1126,7 @@
           "Backlog and sprint planning for capstone build",
           "Risk analysis and mitigation plan for project"
         ],
-        "practice": "Consolidated revision: build one small app end-to-end in 1–2 days"
+        "practice": "Consolidated revision: build one small app end-to-end in 1-2 days"
       }
     },
     "month_23": {
@@ -1187,7 +1187,7 @@
           "Ethical and inclusive community participation"
         ],
         "projects": [
-          "Contribute to 3–5 Flutter/Dart open-source projects (docs, bugfixes, small features)",
+          "Contribute to 3-5 Flutter/Dart open-source projects (docs, bugfixes, small features)",
           "Create and publish at least one open-source Flutter/Dart package or starter template",
           "Maintain an open-source example app or code snippet repository",
           "Write documentation or tutorials for an existing open-source package",
@@ -1214,7 +1214,7 @@
           "Building a long-term career roadmap with Flutter"
         ],
         "projects": [
-          "Solve 80–120 DSA problems relevant for mobile/backend roles",
+          "Solve 80-120 DSA problems relevant for mobile/backend roles",
           "Curated list of 100+ Flutter interview Q&A with your own notes",
           "Mock interviews (technical + behavioral) with peers/mentors",
           "System design case studies with a focus on mobile apps",
@@ -1268,7 +1268,7 @@
           "Optional: Deployed web version and/or desktop package if relevant",
           "End-to-end feature documentation and API references",
           "Architecture and data flow diagrams",
-          "Automated test suite with target 70–80% coverage on core logic",
+          "Automated test suite with target 70-80% coverage on core logic",
           "CI/CD configuration scripts (GitHub Actions/Codemagic/etc.)",
           "Performance profiling and optimization report",
           "Security and privacy checklist with mitigation strategies",
@@ -1298,23 +1298,23 @@
           "ATS-optimized resume targeted at Flutter/Mobile Developer roles",
           "Enhanced LinkedIn profile with featured projects and endorsements",
           "GitHub profile with active contributions and polished repositories",
-          "5–10 technical blog posts or case studies documenting your learning or projects",
+          "5-10 technical blog posts or case studies documenting your learning or projects",
           "Public presentation or recorded talk/demo of your capstone",
           "Job application materials (cover letters, outreach templates)",
           "Completed mock interviews with feedback incorporated",
-          "6–12 month personal learning roadmap beyond the course",
+          "6-12 month personal learning roadmap beyond the course",
           "List of relevant communities, newsletters, and events to stay engaged with"
         ],
-        "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM – Complete Flutter & Dart mastery evaluation plus portfolio review"
+        "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM, Complete Flutter & Dart mastery evaluation plus portfolio review"
       }
     }
   },
   "additional_learning_resources": {
     "projects_throughout_course": [
-      "Phase 1 (Months 1-3): 20+ foundational projects – Dart console apps, basic UIs, forms, small multi-screen apps",
-      "Phase 2 (Months 4-6): 18+ intermediate projects – responsive UIs, offline storage apps, advanced state management, animated experiences",
-      "Phase 3 (Months 7-9): 20+ connected projects – Firebase-powered apps, REST clients, auth flows, payment demos, complex product apps",
-      "Phase 4 (Months 10-12): 15+ advanced projects – multi-platform apps, CI/CD pipelines, performance-optimized apps, store-ready products",
+      "Phase 1 (Months 1-3): 20+ foundational projects, Dart console apps, basic UIs, forms, small multi-screen apps",
+      "Phase 2 (Months 4-6): 18+ intermediate projects, responsive UIs, offline storage apps, advanced state management, animated experiences",
+      "Phase 3 (Months 7-9): 20+ connected projects, Firebase-powered apps, REST clients, auth flows, payment demos, complex product apps",
+      "Phase 4 (Months 10-12): 15+ advanced projects, multi-platform apps, CI/CD pipelines, performance-optimized apps, store-ready products",
       "Final: 5 major capstone projects including at least 1 enterprise-grade app demonstrating complete Flutter expertise"
     ],
     "total_projects_built": "70+ projects from beginner toy apps to enterprise-grade, store-ready products",
@@ -1347,23 +1347,23 @@
       "code_review": "Expert code reviews for all major apps and capstone projects",
       "career_support": "Resume review, portfolio polishing, mock interviews for Flutter roles, and job search guidance",
       "lifetime_access": "Lifetime access to all Flutter course content, updates, and new modules as Flutter evolves",
-      "placement_assistance": "Dedicated placement support with companies hiring Flutter/mobile developers",
-      "interview_prep": "Structured Flutter interview prep, mock interviews with industry professionals"
+      "interview_prep": "Structured Flutter interview prep, mock interviews with industry professionals",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each phase completion (4 Flutter phase certificates)",
       "final_certificate": "Professional Flutter App Developer Certification",
-      "spring_certificate": "N/A for Flutter – replaced by: Flutter Firebase Specialist Certificate",
-      "microservices_certificate": "N/A for Flutter – replaced by: Cross-Platform App Architecture Certificate",
+      "spring_certificate": "N/A for Flutter, replaced by: Flutter Firebase Specialist Certificate",
+      "microservices_certificate": "N/A for Flutter, replaced by: Cross-Platform App Architecture Certificate",
       "linkedin_badge": "Digital badges for LinkedIn reflecting Flutter specialization",
       "industry_recognized": "Recognized by startups, agencies, and product companies using Flutter in production",
       "portfolio_projects": "40+ production-style apps and mini-projects for your portfolio",
-      "oracle_exam_prep": "Not applicable – instead: guidance for Google/Flutter-related certifications and badges when available"
+      "oracle_exam_prep": "Not applicable, instead: guidance for Google/Flutter-related certifications and badges when available"
     }
   },
   "prerequisites": {
-    "education": "No formal degree required – open to school students, college students, and working professionals",
-    "coding_experience": "Absolute beginner friendly – no prior programming or mobile development experience needed",
+    "education": "No formal degree required, open to school students, college students, and working professionals",
+    "coding_experience": "Absolute beginner friendly, no prior programming or mobile development experience needed",
     "age": "12+ years (separate learning tracks and examples for kids, teens, and adults)",
     "equipment": "Computer/laptop (Windows/Mac/Linux), minimum 8GB RAM recommended, Android device or emulator; macOS recommended for iOS builds",
     "time_commitment": "15-20 hours per week consistently for best results and portfolio depth",
@@ -1401,30 +1401,21 @@
     "CTO / Tech Co-founder for app-based startups"
   ],
   "salary_expectations": {
-    "after_3_months": "₹3-5 LPA (Junior Flutter Developer / Mobile Intern with strong fundamentals)",
-    "after_6_months": "₹5-9 LPA (Flutter Developer / Mobile App Developer with portfolio apps)",
-    "after_9_months": "₹8-15 LPA (Senior Flutter Developer / Lead Mobile Engineer in startups & agencies)",
-    "after_12_months": "₹12-25 LPA (Senior/Lead Flutter Developer or Mobile Architect in product companies)",
-    "experienced_3_years": "₹18-40 LPA (Lead Developer / Mobile Architect / Specialist Consultant)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹3-5 LPA (Junior Flutter Developer / Mobile Intern with strong fundamentals)",
+    "growing_roles": "₹5-9 LPA (Flutter Developer / Mobile App Developer with portfolio apps); ₹8-15 LPA (Senior Flutter Developer / Lead Mobile Engineer in startups & agencies)",
+    "experienced_roles": "₹12-25 LPA (Senior/Lead Flutter Developer or Mobile Architect in product companies); ₹18-40 LPA (Lead Developer / Mobile Architect / Specialist Consultant)",
     "freelance": "₹1000-5000/hour or $20-$100/hour based on expertise and client region",
     "international_usa": "$80k-160k USD (Mobile / Flutter Developer to Senior roles, remote or onsite)",
-    "international_europe": "€50k-120k EUR based on country, role, and experience in Flutter/mobile dev",
-    "product_companies": "₹15-45 LPA in top product companies and well-funded startups using Flutter",
-    "fintech_banking": "₹18-40 LPA in fintechs and digital banks that adopt Flutter for their apps"
+    "international_europe": "€50k-120k EUR based on country, role, and experience in Flutter/mobile dev"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee – if you're not satisfied, get a full refund.",
-    "job_assistance": "Job placement support with companies and agencies hiring Flutter/mobile developers.",
-    "lifetime_updates": "Lifetime access to all Flutter content, including updates for new Flutter & Dart versions.",
-    "mentorship": "Dedicated expert mentor support throughout the 12-month journey and during job search.",
-    "certificate": "Industry-recognized Flutter Developer certification upon successful completion.",
-    "portfolio": "40+ visually impressive, real-world Flutter apps and mini-projects to showcase to employers/clients.",
-    "community": "Lifetime access to the alumni network and active Flutter-focused community.",
-    "career_switch": "Extended career transition guidance until you land a Flutter/mobile development role (up to 18 months).",
-    "skill_guarantee": "Master core Flutter & Dart concepts or continue with additional support and content at no extra cost.",
-    "interview_guarantee": "Unlimited mock interviews and portfolio reviews until you achieve a job offer (within program terms).",
-    "salary_hike": "Average 150-300% salary hike reported by successful career switchers into Flutter/mobile roles.",
-    "placement_record": "Strong placement outcomes; majority of committed learners land interviews or roles within 6 months of completion."
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "cpp-programming-masterclass-for-teens",
-    "title": "C++ Course for Teens Online — Live Classes from ₹1499/mo (2026)",
-    "description": "Live online C++ course for teens — build real games and ace competitive programming. 12-month program from zero to advanced. Master the language behind Minecraft, Fortnite & every AAA game. Group ₹1499/mo · Mini Batch ₹2499/mo · 1-on-1 ₹4999/mo. Free demo.",
+    "title": "C++ Course for Teens Online, Live Classes from ₹1499/mo (2026)",
+    "description": "Live online C++ course for teens, build real games and ace competitive programming. 12-month program from zero to advanced. Master the language behind Minecraft, Fortnite & every AAA game. Group ₹1499/mo · Mini Batch ₹2499/mo · 1-on-1 ₹4999/mo. Free demo.",
     "keywords": [
       "C++ for teens",
       "game development",
@@ -1610,8 +1610,8 @@
       "community": "Active Discord with teen C++ developers",
       "code_review": "Professional code reviews",
       "contest_support": "Competitive programming coaching",
-      "career_support": "College and job placement assistance",
-      "lifetime_access": "All content and updates"
+      "lifetime_access": "All content and updates",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each quarter",
@@ -1650,21 +1650,13 @@
     "Research Software Engineer",
     "Technical Founder"
   ],
-  "salary_expectations": {
-    "after_6_months": "₹2-5 LPA (Internships)",
-    "after_9_months": "₹5-8 LPA (Junior roles)",
-    "after_12_months": "₹8-15 LPA (C++ Developer)",
-    "competitive_prizes": "₹10k-1L in competitions",
-    "freelance": "₹1000-3000/hour for C++ work",
-    "international": "$50k-100k USD for C++ roles"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Placement support for jobs/internships",
-    "competition_prep": "USACO and competition preparation",
-    "portfolio_review": "Industry-standard portfolio",
-    "mentorship": "Expert C++ developer mentorship",
-    "success": "50+ projects and competition-ready skills"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1712,7 +1704,7 @@
   "why_this_course": {
     "title": "Why C++ is the Ultimate Language for Ambitious Teens",
     "paragraphs": [
-      "C++ isn't just another programming language—it's the language that powers the world's most performance-critical systems. From video games like Fortnite and League of Legends to operating systems and rocket guidance software, C++ is everywhere that speed and precision matter.",
+      "C++ isn't just another programming language, it's the language that powers the world's most performance-critical systems. From video games like Fortnite and League of Legends to operating systems and rocket guidance software, C++ is everywhere that speed and precision matter.",
       "Learning C++ gives teenagers a profound understanding of how computers actually work. Unlike higher-level languages that hide complexity, C++ teaches memory management, optimization, and system-level thinking. This deep knowledge makes mastering any other language significantly easier.",
       "For competitive programming and college admissions, C++ proficiency is a serious differentiator. USACO, IOI, and other prestigious competitions use C++, and admission officers at top universities recognize the technical depth required to master it. Your C++ projects and competition rankings become powerful additions to college applications."
     ],
@@ -1723,11 +1715,5 @@
       "Arduino and robotics projects (optional hardware)",
       "Industry-recognized certification for college applications"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "1,200+",
-    "competition_winners": "85+",
-    "projects_built": "45,000+",
-    "college_acceptances": "150+"
   }
 }

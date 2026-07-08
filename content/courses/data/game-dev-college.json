@@ -35,7 +35,7 @@
   "program_overview": {
     "title": "Complete Game Development Masterclass",
     "tagline": "From Game Idea to Published Title on Multiple Platforms",
-    "description": "This is not just a course—it's your journey from gaming enthusiast to professional game developer. The video game industry is larger than movies and music combined, and skilled game developers are in massive demand. This 12-month masterclass transforms you into a complete game developer, capable of designing, programming, and shipping games across PC, mobile, console, and VR platforms. You'll master industry-standard engines (Unity, Unreal), programming languages (C++, C#), game design principles, and build a portfolio of playable games that could launch your career or indie studio.",
+    "description": "This is not just a course, it's your journey from gaming enthusiast to professional game developer. The video game industry is larger than movies and music combined, and skilled game developers are in massive demand. This 12-month masterclass transforms you into a complete game developer, capable of designing, programming, and shipping games across PC, mobile, console, and VR platforms. You'll master industry-standard engines (Unity, Unreal), programming languages (C++, C#), game design principles, and build a portfolio of playable games that could launch your career or indie studio.",
     "what_makes_this_different": [
       "Starts from absolute zero - no coding or art experience needed",
       "Complete 12-month structured curriculum covering all aspects of game dev",
@@ -1165,20 +1165,19 @@
     "Freelance Game Developer"
   ],
   "salary_expectations": {
-    "after_6_months": "₹4-8 LPA (Junior Game Developer)",
-    "after_12_months": "₹8-15 LPA (Game Developer)",
-    "after_18_months": "₹12-25 LPA (Senior Game Developer)",
-    "after_24_months": "₹20-40+ LPA (Lead Developer/Technical Director)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "growing_roles": "₹4-8 LPA (Junior Game Developer)",
+    "experienced_roles": "₹8-15 LPA (Game Developer); ₹12-25 LPA (Senior Game Developer); ₹20-40+ LPA (Lead Developer/Technical Director)",
     "freelance": "₹2000-10000/hour based on expertise",
     "international": "$60k-150k USD (higher in AAA studios)"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Placement support with game studios",
-    "lifetime_updates": "Free access to all future content",
-    "mentorship": "Industry mentor throughout journey",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "Commercial-quality game portfolio"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

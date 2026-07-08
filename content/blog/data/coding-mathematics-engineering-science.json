@@ -34,7 +34,7 @@
   },
   "hero": {
     "title": "How Coding and Mathematics Work Together in Engineering & Science",
-    "subtitle": "The powerful partnership that drives innovation—from rocket science to artificial intelligence. Backed by research and real-world engineering examples.",
+    "subtitle": "The powerful partnership that drives innovation, from rocket science to artificial intelligence. Backed by research and real-world engineering examples.",
     "featuredImage": {
       "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_22_hero.png",
       "alt": "Mathematical equations and code merging together in engineering context"
@@ -787,7 +787,7 @@
             "content": "Not necessarily for basic programming. You can build websites and apps with minimal math. However, for engineering, data science, and AI, strong math skills become essential. The good news is that coding can actually help you understand math better! A 2023 study found that students who learned programming alongside math scored 28% higher in both subjects."
           },
           {
-            "title": "Which should I learn first—coding or mathematics?",
+            "title": "Which should I learn first, coding or mathematics?",
             "content": "Learn them together! Start with basic programming while strengthening your math fundamentals. As you advance in both, you'll see how they complement each other. Research shows this integrated approach is 45% more effective than learning them separately. Neither needs to come first—they reinforce each other."
           },
           {

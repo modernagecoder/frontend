@@ -1,7 +1,7 @@
 {
   "meta": {
     "slug": "ap-calculus-exam-prep",
-    "title": "AP Calculus AB & BC Exam Prep Course — Live Online Classes, Score 5 Goal",
+    "title": "AP Calculus AB & BC Exam Prep Course, Live Online Classes, Score 5 Goal",
     "description": "Live online AP Calculus AB and BC prep with a dedicated mentor: limits, derivatives and integrals taught as ideas, every FRQ type against real rubrics, calculator strategy and full mock cycles. 8 one-hour classes a month, free demo first.",
     "keywords": [
       "ap calculus exam prep",
@@ -34,21 +34,21 @@
   },
   "program_overview": {
     "title": "AP Calculus AB & BC Exam Prep",
-    "tagline": "Three ideas, taught like ideas — then trained against the real rubrics.",
-    "description": "A 10-month live program that runs alongside your student's AP Calculus course and aims squarely at the exam. All of calculus is three ideas — the limit, the derivative, the integral — and students who own them as ideas find the AP exam fair. We teach ideas first, repair the precalculus debt that quietly causes most 'calculus errors', then convert understanding into score: every free-response question type drilled against actual College Board rubrics, multiple-choice pacing, calculator-section strategy, and full mock cycles timed like the real exam. AB and BC students are taught to their exact course.",
+    "tagline": "Three ideas, taught like ideas, then trained against the real rubrics.",
+    "description": "A 10-month live program that runs alongside your student's AP Calculus course and aims squarely at the exam. All of calculus is three ideas, the limit, the derivative, the integral, and students who own them as ideas find the AP exam fair. We teach ideas first, repair the precalculus debt that quietly causes most 'calculus errors', then convert understanding into score: every free-response question type drilled against actual College Board rubrics, multiple-choice pacing, calculator-section strategy, and full mock cycles timed like the real exam. AB and BC students are taught to their exact course.",
     "what_makes_this_different": [
-      "Ideas before technique: the derivative discovered through shrinking intervals, the FTC earned as a punchline — so unfamiliar exam framings do not break the student",
+      "Ideas before technique: the derivative discovered through shrinking intervals, the FTC earned as a punchline, so unfamiliar exam framings do not break the student",
       "Precalculus repaired inline: weak composition and trig are fixed inside calculus problems, where the repair sticks",
       "FRQ craft against real rubrics: how points are actually awarded, including justification language graders look for",
       "AB and BC tracks: series, parametrics and polar taught properly for BC students",
       "Calculator and no-calculator sections trained as different skills",
       "Full mock cycles with documented score progression, peaking in exam week",
-      "One dedicated mentor across the whole year — one full interactive hour per class",
+      "One dedicated mentor across the whole year, one full interactive hour per class",
       "Honest guidance: a diagnostic first, evidence-based targets, never invented score promises"
     ],
     "learning_path": {
       "phase_1": "Limits and derivatives as ideas, with precalculus repaired inline and the rule toolkit built to speed",
-      "phase_2": "Derivative applications, integrals, the Fundamental Theorem and differential equations — the AB core completed",
+      "phase_2": "Derivative applications, integrals, the Fundamental Theorem and differential equations, the AB core completed",
       "phase_3": "BC extensions (series, parametrics, polar), then exam craft: FRQ rubrics, MCQ pacing, calculator strategy and full mock cycles"
     },
     "career_outcomes": [
@@ -60,13 +60,13 @@
   },
   "phase_1_foundation": {
     "title": "PHASE 1: Limits and Derivatives as Ideas (Weeks 1-14)",
-    "description": "The diagnostic finds the real starting point — including the precalculus debt — then the two foundational ideas are built properly: the limit as approach, the derivative as instantaneous rate, and the rule toolkit drilled to exam speed only after the ideas hold.",
+    "description": "The diagnostic finds the real starting point, including the precalculus debt, then the two foundational ideas are built properly: the limit as approach, the derivative as instantaneous rate, and the rule toolkit drilled to exam speed only after the ideas hold.",
     "week_1_3": {
       "title": "Weeks 1-3: Diagnostic + Limits as Approach",
       "theme": "Where calculus actually starts",
       "topics": [
         "Full diagnostic: calculus-so-far plus the precalculus underneath (composition, trig, algebra fluency)",
-        "Limits graphically, numerically and analytically — one idea, three faces",
+        "Limits graphically, numerically and analytically, one idea, three faces",
         "One-sided limits, infinite limits and limits at infinity",
         "Continuity as a definition that finally makes sense",
         "The Intermediate Value Theorem as an exam justification pattern",
@@ -82,11 +82,11 @@
       "title": "Weeks 4-8: The Derivative, Discovered Then Drilled",
       "theme": "Average speed over shrinking intervals",
       "topics": [
-        "The derivative discovered via shrinking-interval tables — limit and derivative met as one idea",
+        "The derivative discovered via shrinking-interval tables, limit and derivative met as one idea",
         "Derivative as slope, as rate, and as the exam's favorite interpretation question",
         "Differentiability vs continuity, and where functions fail to have derivatives",
         "The rule toolkit: power, product, quotient rules built from meaning",
-        "The chain rule as composition unwrapping — the make-or-break skill",
+        "The chain rule as composition unwrapping, the make-or-break skill",
         "Trig, exponential and logarithmic derivatives to fluency"
       ],
       "projects": [
@@ -122,7 +122,7 @@
       "topics": [
         "First and second derivative analysis: increasing, concavity, extrema, inflection",
         "The Mean Value Theorem and its exam justification language",
-        "Curve sketching from f' and f'' — the classic FRQ family",
+        "Curve sketching from f' and f'', the classic FRQ family",
         "Optimization from word problems: model first, calculus second",
         "Motion on a line: position, velocity, acceleration, speed",
         "Justification writing: the exact phrases rubrics award points for"
@@ -137,11 +137,11 @@
       "title": "Weeks 20-24: The Integral as Accumulation + the FTC",
       "theme": "The course's great punchline, earned",
       "topics": [
-        "Riemann sums by hand and in tables — the accumulation idea made concrete",
+        "Riemann sums by hand and in tables, the accumulation idea made concrete",
         "The definite integral as net change; units and interpretation questions",
         "The Fundamental Theorem of Calculus, arrived at as a discovery",
         "Antiderivatives and the substitution method as the chain rule reversed",
-        "Functions defined by integrals — the FRQ type students fear most, defanged",
+        "Functions defined by integrals, the FRQ type students fear most, defanged",
         "Average value and the accumulation FRQ family"
       ],
       "projects": [
@@ -229,15 +229,15 @@
     },
     {
       "question": "My student is strong in class but bombs timed practice. Can you fix that?",
-      "answer": "Usually, yes — that profile is craft, not content. Timed collapse comes from slow routes, missing rubric awareness and pacing panic, all of which are trained skills. The FRQ rubric work plus personal pacing plans built from real timing data is exactly the fix."
+      "answer": "Usually, yes, that profile is craft, not content. Timed collapse comes from slow routes, missing rubric awareness and pacing panic, all of which are trained skills. The FRQ rubric work plus personal pacing plans built from real timing data is exactly the fix."
     },
     {
       "question": "Most of my student's lost points are algebra slips, not calculus. Does prep help?",
-      "answer": "This is the most common pattern on AP exams, and it is very fixable. We track exactly where points die; when it is precalculus debt — simplification, composition, trig values — we repair those habits inside calculus problems, where the fix actually sticks."
+      "answer": "This is the most common pattern on AP exams, and it is very fixable. We track exactly where points die; when it is precalculus debt, simplification, composition, trig values, we repair those habits inside calculus problems, where the fix actually sticks."
     },
     {
       "question": "When should AP Calculus prep start?",
-      "answer": "The full 10-month arc starts alongside the school year and peaks in May. Joining mid-year works too — the mentor compresses toward your student's gap list and the mock cycles. The honest note: series (for BC) and FRQ craft reward runway, so earlier is calmer."
+      "answer": "The full 10-month arc starts alongside the school year and peaks in May. Joining mid-year works too, the mentor compresses toward your student's gap list and the mock cycles. The honest note: series (for BC) and FRQ craft reward runway, so earlier is calmer."
     },
     {
       "question": "What score can we expect?",
@@ -245,7 +245,7 @@
     },
     {
       "question": "How is this different from the school's AP class?",
-      "answer": "It is 1-on-1 or a tight small group, so your student's specific errors get the airtime a class of thirty cannot give. School covers the syllabus; we make sure your student owns the ideas, and then train the exam itself — rubrics, pacing, calculator strategy — which most classrooms have no time for."
+      "answer": "It is 1-on-1 or a tight small group, so your student's specific errors get the airtime a class of thirty cannot give. School covers the syllabus; we make sure your student owns the ideas, and then train the exam itself, rubrics, pacing, calculator strategy, which most classrooms have no time for."
     },
     {
       "question": "What does the course cost?",
@@ -253,7 +253,7 @@
     },
     {
       "question": "Can we try it before paying?",
-      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic — a real lesson plus an honest read on the starting point, with no card details required."
+      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic, a real lesson plus an honest read on the starting point, with no card details required."
     }
   ],
   "testimonials": [
@@ -308,7 +308,7 @@
   },
   "prerequisites": {
     "education": "Enrolled in (or about to start) AP Calculus AB or BC, typically grades 11-12",
-    "math_background": "Precalculus completed at any comfort level — the diagnostic finds the real base and we repair inline",
+    "math_background": "Precalculus completed at any comfort level, the diagnostic finds the real base and we repair inline",
     "equipment": "Computer with stable internet; an approved graphing calculator for the calculator sections",
     "time_commitment": "2 live hours plus 2-3 practice hours weekly",
     "english": "Course taught in English",
@@ -328,11 +328,12 @@
     "Ready for the College Mathematics Masterclass or competition mathematics"
   ],
   "course_guarantees": {
-    "free_demo": "A free live demo class that doubles as the diagnostic — before any payment",
-    "recorded_classes": "All live sessions recorded",
-    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
-    "honest_targets": "Evidence-based score guidance — never invented promises",
-    "certificate": "Completion certificate plus documented mock progression"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "relatedCourses": [
     "sat-math-prep-course",

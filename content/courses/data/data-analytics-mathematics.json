@@ -1636,19 +1636,18 @@
     "Chief Data Scientist"
   ],
   "salary_expectations": {
-    "entry_level": "₹8-15 LPA / $70-100k USD",
-    "mid_level": "₹15-30 LPA / $100-150k USD",
-    "senior_level": "₹30-60 LPA / $150-250k USD",
-    "expert_level": "₹60+ LPA / $250k+ USD",
-    "consulting": "₹5000-15000/hour",
-    "research": "Varies by institution and grants"
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹8-15 LPA / $70-100k USD",
+    "growing_roles": "₹15-30 LPA / $100-150k USD",
+    "experienced_roles": "₹30-60 LPA / $150-250k USD; ₹60+ LPA / $250k+ USD",
+    "consulting": "₹5000-15000/hour"
   },
   "course_guarantees": {
-    "job_readiness": "Industry-ready skills guaranteed",
-    "project_portfolio": "20+ production-ready projects",
-    "interview_prep": "Mock interviews and prep materials",
-    "lifetime_access": "All content and future updates",
-    "community": "Lifetime community membership",
-    "support": "6 months post-completion support"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   }
 }

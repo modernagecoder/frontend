@@ -1815,20 +1815,19 @@
     "Technical Lead"
   ],
   "salary_expectations": {
-    "after_2_months": "Ready for ₹5-10 LPA roles",
-    "after_4_months": "Ready for ₹10-20 LPA roles",
-    "after_6_months": "Ready for ₹15-40+ LPA roles",
-    "faang_ready": "₹25-60+ LPA packages",
-    "international": "$100k-250k+ USD",
-    "competitive_programming": "Prize money + opportunities"
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "Ready for ₹5-10 LPA roles; Ready for ₹10-20 LPA roles",
+    "growing_roles": "Ready for ₹15-40+ LPA roles",
+    "other_roles": "₹25-60+ LPA packages",
+    "international": "$100k-250k+ USD"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Interview preparation and referrals",
-    "lifetime_updates": "Free access to new problems and content",
-    "mentorship": "Guidance from FAANG engineers",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "500+ problems solved with solutions"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

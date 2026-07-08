@@ -35,7 +35,7 @@
   "program_overview": {
     "title": "Complete Algorithmic Trading Masterclass",
     "tagline": "From Manual Trading to Fully Automated Profitable Systems",
-    "description": "This is not just a trading course—it's a complete transformation into a quantitative trader and algorithmic trading professional. Whether you're a complete beginner, manual trader wanting to automate, developer entering finance, or finance professional wanting quantitative skills, this 12-month masterclass will turn you into a skilled algorithmic trader capable of designing, backtesting, optimizing, and deploying profitable automated trading systems.\n\nYou'll master algorithmic trading from ground zero to professional level: from financial markets basics to advanced quantitative strategies, from Python programming to machine learning models, from paper trading to live automated execution, from single strategies to portfolio management. By the end, you'll have built 40+ trading strategies, backtested extensively, and deployed live trading systems with proper risk management.",
+    "description": "This is not just a trading course, it's a complete transformation into a quantitative trader and algorithmic trading professional. Whether you're a complete beginner, manual trader wanting to automate, developer entering finance, or finance professional wanting quantitative skills, this 12-month masterclass will turn you into a skilled algorithmic trader capable of designing, backtesting, optimizing, and deploying profitable automated trading systems.\n\nYou'll master algorithmic trading from ground zero to professional level: from financial markets basics to advanced quantitative strategies, from Python programming to machine learning models, from paper trading to live automated execution, from single strategies to portfolio management. By the end, you'll have built 40+ trading strategies, backtested extensively, and deployed live trading systems with proper risk management.",
     "what_makes_this_different": [
       "Starts from absolute zero - no trading or coding background needed",
       "Complete 12-month structured curriculum",
@@ -1407,17 +1407,12 @@
     "continuous_learning": "Markets evolve, continuous adaptation required"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee",
-    "lifetime_access": "All content, strategies, updates forever",
-    "data_access": "Historical and real-time data for practice",
-    "strategy_library": "100+ tested strategies",
-    "community": "Lifetime access to trader community",
-    "mentorship": "Expert guidance throughout",
-    "job_support": "Resume review, interview prep for quant roles",
-    "fund_guidance": "Help starting prop desk or fund (for qualified students)",
-    "code_repository": "Complete code library for all projects",
-    "paper_trading": "Unlimited paper trading practice",
-    "broker_support": "Assistance with live account setup"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

@@ -1580,8 +1580,8 @@
       "community": "Active Discord with traders and quants",
       "code_review": "Strategy and code reviews",
       "paper_trading": "Simulated trading environment",
-      "career_support": "Job placement assistance",
-      "lifetime_access": "All content and future updates"
+      "lifetime_access": "All content and future updates",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",
@@ -1624,23 +1624,20 @@
     "Fintech Developer"
   ],
   "salary_expectations": {
-    "after_3_months": "₹5-8 LPA (Junior Quant Analyst)",
-    "after_6_months": "₹10-15 LPA (Algo Trader)",
-    "after_9_months": "₹15-25 LPA (Quant Developer)",
-    "after_12_months": "₹20-50+ LPA (Senior Quant Trader)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹5-8 LPA (Junior Quant Analyst)",
+    "growing_roles": "₹10-15 LPA (Algo Trader); ₹15-25 LPA (Quant Developer)",
+    "experienced_roles": "₹20-50+ LPA (Senior Quant Trader)",
     "freelance": "₹2000-10000/hour consulting",
-    "prop_trading": "Profit sharing 20-50%",
-    "fund_manager": "2% management + 20% performance fees",
     "international": "$80k-300k+ USD based on location"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "paper_trading": "Risk-free simulated trading environment",
-    "job_assistance": "Placement support with trading firms",
-    "lifetime_updates": "Free access to all future content",
-    "mentorship": "Guidance from professional traders",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "25+ production-ready trading systems"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

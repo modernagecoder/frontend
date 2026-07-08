@@ -1200,20 +1200,12 @@
     "Software Development (algorithms)",
     "Economics and Econometrics"
   ],
-  "salary_expectations": {
-    "after_6_months": "Ready for university STEM programs",
-    "after_12_months": "Qualified for tutoring (₹500-1500/hour)",
-    "after_18_months": "N/A - Educational program",
-    "after_24_months": "N/A - Educational program",
-    "freelance": "₹500-2000/hour for math tutoring",
-    "international": "Strong foundation for STEM careers ($60k-150k+)"
-  },
   "course_guarantees": {
-    "money_back": "30-day satisfaction guarantee",
-    "job_assistance": "University application support",
-    "lifetime_updates": "Access to all future content",
-    "mentorship": "Expert mathematician guidance",
-    "certificate": "Verifiable completion certificate",
-    "portfolio": "Complete problem-solving portfolio"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   }
 }

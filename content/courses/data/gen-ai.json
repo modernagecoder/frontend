@@ -39,7 +39,7 @@
   "program_overview": {
     "title": "Complete Generative AI Masterclass",
     "tagline": "From 'What is AI?' to Building Production-Ready AI Systems",
-    "description": "This is not just a Generative AI course—it's a complete transformation into an enterprise-ready AI Engineer. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled AI professional capable of building LLM applications, AI agents, image generation systems, multimodal AI, and production-ready generative AI solutions.\n\nYou'll master Generative AI from ground zero to AI architect level: from understanding neural networks to building GPT-powered applications, from basic prompts to advanced prompt engineering, from using APIs to fine-tuning models, from single AI calls to complex multi-agent systems. By the end, you'll have built 50+ AI projects, mastered the entire GenAI ecosystem, and be ready for AI Engineer roles at top tech companies and AI startups.",
+    "description": "This is not just a Generative AI course, it's a complete transformation into an enterprise-ready AI Engineer. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled AI professional capable of building LLM applications, AI agents, image generation systems, multimodal AI, and production-ready generative AI solutions.\n\nYou'll master Generative AI from ground zero to AI architect level: from understanding neural networks to building GPT-powered applications, from basic prompts to advanced prompt engineering, from using APIs to fine-tuning models, from single AI calls to complex multi-agent systems. By the end, you'll have built 50+ AI projects, mastered the entire GenAI ecosystem, and be ready for AI Engineer roles at top tech companies and AI startups.",
     "what_makes_this_different": [
       "Starts from absolute zero - perfect for complete beginners",
       "Separate learning tracks for kids (14+), teens, and adults",
@@ -1909,10 +1909,10 @@
       "code_review": "Expert code reviews for all major projects and assignments",
       "career_support": "Resume review, mock interviews, job referrals to AI companies",
       "lifetime_access": "All content, future updates, new models and techniques coverage",
-      "placement_assistance": "Dedicated placement support with AI startup and enterprise partnerships",
       "interview_prep": "Mock technical interviews, system design practice with experts",
       "research_guidance": "Paper reading groups, research implementation support",
-      "startup_support": "For those building AI products, access to entrepreneurship resources"
+      "startup_support": "For those building AI products, access to entrepreneurship resources",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each phase completion (4 certificates)",
@@ -1970,34 +1970,21 @@
     "AI Freelancer / Contract Engineer"
   ],
   "salary_expectations": {
-    "after_3_months": "₹4-7 LPA (Junior AI Developer / Prompt Engineer)",
-    "after_6_months": "₹8-15 LPA (AI Application Developer / LLM Engineer)",
-    "after_9_months": "₹15-25 LPA (AI Engineer / Senior LLM Engineer)",
-    "after_12_months": "₹20-40 LPA (Senior AI Engineer / AI Architect / AI Lead)",
-    "experienced_2_years": "₹30-70 LPA (Lead AI Engineer / Principal Engineer)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹4-7 LPA (Junior AI Developer / Prompt Engineer)",
+    "growing_roles": "₹8-15 LPA (AI Application Developer / LLM Engineer); ₹15-25 LPA (AI Engineer / Senior LLM Engineer)",
+    "experienced_roles": "₹20-40 LPA (Senior AI Engineer / AI Architect / AI Lead); ₹30-70 LPA (Lead AI Engineer / Principal Engineer)",
     "freelance": "₹2000-10000/hour based on expertise and specialization",
     "international_usa": "$120k-300k USD (AI Engineer to Senior/Staff level)",
-    "international_europe": "€70k-180k EUR based on country and experience",
-    "ai_startups": "₹25-80 LPA + equity in funded AI startups",
-    "faang_companies": "₹40-100 LPA at Google, Meta, Microsoft, Amazon AI teams",
-    "research_roles": "₹30-60 LPA at AI research labs (OpenAI, Anthropic, DeepMind styles)",
-    "ai_consulting": "₹50-150 LPA as independent consultant or at top firms"
+    "international_europe": "€70k-180k EUR based on country and experience"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee - no questions asked",
-    "job_assistance": "AI job placement support with 300+ AI companies and startups",
-    "lifetime_updates": "Free access to all future content, new models, frameworks, and techniques",
-    "mentorship": "Dedicated AI expert mentor throughout 12-month journey and beyond",
-    "certificate": "Industry-recognized Generative AI Engineer certification",
-    "portfolio": "50+ production-ready AI projects for impressive portfolio",
-    "community": "Lifetime access to AI professionals alumni network and community",
-    "career_switch": "Extended support until successful career switch into AI (up to 18 months)",
-    "skill_guarantee": "Master Generative AI or continue learning free until you do",
-    "interview_guarantee": "Unlimited mock AI interviews until you land a job",
-    "salary_hike": "Average 200-400% salary hike for career switchers",
-    "placement_record": "80%+ placement rate within 6 months of completion in AI roles",
-    "startup_support": "For entrepreneurs, access to AI startup accelerator network",
-    "research_support": "For researchers, paper publication guidance and collaboration opportunities"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -2022,7 +2009,7 @@
     },
     {
       "question": "What salary can I expect after completing this Generative AI masterclass?",
-      "answer": "Salaries vary by experience level: After 6 months ₹8-15 LPA as AI developer, after 12 months ₹15-30 LPA as AI Engineer, with 2-3 years ₹30-70 LPA as Senior/Lead. AI startups offer ₹25-80 LPA + equity. FAANG companies pay ₹40-100 LPA. International remote jobs offer $120k-300k USD. Freelance AI consulting can earn ₹2000-10000/hour. The AI talent shortage means exceptional compensation for skilled professionals."
+      "answer": "As general market context (not a guarantee): AI and LLM engineering roles in India commonly range from about ₹8-15 LPA at entry level to ₹30-70 LPA for senior and lead roles, with higher figures at large product companies. International remote roles and freelance consulting can pay more. Actual pay depends on your skills, experience, portfolio, and the market, not on this course."
     },
     {
       "question": "Do I need an expensive GPU to learn Generative AI?",
@@ -2075,14 +2062,7 @@
       "50+ production-ready projects from APIs to custom trained models",
       "Master every major AI framework and platform in the ecosystem",
       "Build RAG systems, AI agents, and multimodal applications",
-      "Complete interview preparation for top AI companies",
-      "80% placement rate within 6 months with ₹15-40 LPA average"
+      "Complete interview preparation for top AI companies"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "3,800+",
-    "job_placement_rate": "80%",
-    "avg_starting_salary": "₹18.5 LPA",
-    "ai_positions": "950+"
   }
 }

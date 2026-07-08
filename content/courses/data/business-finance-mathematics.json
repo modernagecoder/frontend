@@ -1170,8 +1170,8 @@
       "mentorship": "Industry professional mentors",
       "community": "Active finance professionals network",
       "code_review": "Model review and feedback",
-      "career_support": "Interview prep and job placement",
-      "lifetime_access": "All materials and future updates"
+      "lifetime_access": "All materials and future updates",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each quarter",
@@ -1198,31 +1198,30 @@
     "anyone": "Anyone pursuing finance careers"
   },
   "career_paths_after_completion": [
-    "Financial Analyst (₹6-15 LPA)",
-    "Investment Banking Analyst (₹10-25 LPA)",
-    "Risk Analyst (₹8-18 LPA)",
-    "Equity Research Analyst (₹8-20 LPA)",
-    "Credit Analyst (₹6-15 LPA)",
-    "Portfolio Manager (₹15-40 LPA)",
-    "Quantitative Analyst (₹12-30 LPA)",
-    "Corporate Finance Manager (₹10-25 LPA)",
-    "Financial Consultant (₹8-20 LPA)",
-    "Actuarial Analyst (₹6-15 LPA)"
+    "Financial Analyst",
+    "Investment Banking Analyst",
+    "Risk Analyst",
+    "Equity Research Analyst",
+    "Credit Analyst",
+    "Portfolio Manager",
+    "Quantitative Analyst",
+    "Corporate Finance Manager",
+    "Financial Consultant",
+    "Actuarial Analyst"
   ],
   "salary_expectations": {
-    "after_6_months": "₹4-8 LPA (Entry-level analyst)",
-    "after_12_months": "₹8-15 LPA (Financial Analyst)",
-    "after_18_months": "₹12-25 LPA (Senior Analyst)",
-    "after_24_months": "₹15-40 LPA (Manager/Specialist)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "growing_roles": "₹4-8 LPA (Entry-level analyst)",
+    "experienced_roles": "₹8-15 LPA (Financial Analyst); ₹12-25 LPA (Senior Analyst); ₹15-40 LPA (Manager/Specialist)",
     "freelance": "₹1000-5000/hour consulting",
     "international": "$60k-150k based on role and location"
   },
   "course_guarantees": {
-    "money_back": "30-day money-back guarantee",
-    "job_assistance": "Placement support in finance roles",
-    "lifetime_updates": "Free access to all updates",
-    "mentorship": "Industry expert mentorship",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "Professional project portfolio"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   }
 }

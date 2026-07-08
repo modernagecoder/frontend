@@ -1207,21 +1207,13 @@
     "Tech Blog Writer",
     "AI Tool Specialist"
   ],
-  "salary_expectations": {
-    "during_course": "₹500-1000/hour for small projects",
-    "after_completion": "₹2000-5000 per website project",
-    "internships": "₹5,000-15,000/month (part-time)",
-    "future_potential": "Strong foundation for ₹10-30 LPA careers",
-    "freelance": "₹10,000-50,000 per project",
-    "international": "Build foundation for $50k-150k careers"
-  },
   "course_guarantees": {
-    "money_back": "30-day satisfaction guarantee",
-    "completion_support": "Extended time if needed",
-    "lifetime_updates": "Access to all future content",
-    "mentorship": "Dedicated youth mentor throughout",
-    "certificate": "Verified certificate of completion",
-    "portfolio": "30+ projects for college applications"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1292,11 +1284,5 @@
       "Foundation for any tech or creative career",
       "Fun, game-like progression with badges and rewards"
     ]
-  },
-  "success_metrics": {
-    "websites_created": "4,200+",
-    "young_developers_trained": "850+",
-    "continued_to_advanced_coding": "88%",
-    "parent_satisfaction": "96%"
   }
 }

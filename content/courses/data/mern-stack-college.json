@@ -1,8 +1,8 @@
 {
   "meta": {
     "slug": "mern-stack-development-masterclass-college",
-    "title": "MERN Stack Course Online — Job-Ready Full-Stack Bootcamp (2026)",
-    "description": "Live MERN Stack course online — MongoDB, Express, React, Node.js. 12-month full-stack bootcamp builds 6 production-ready projects for your portfolio. Job-ready. Group ₹1499/mo · 1-on-1 ₹4999/mo. Free demo class.",
+    "title": "MERN Stack Course Online, Job-Ready Full-Stack Bootcamp (2026)",
+    "description": "Live MERN Stack course online, MongoDB, Express, React, Node.js. 12-month full-stack bootcamp builds 6 production-ready projects for your portfolio. Job-ready. Group ₹1499/mo · 1-on-1 ₹4999/mo. Free demo class.",
     "keywords": [
       "mern stack",
       "full stack development",
@@ -1802,7 +1802,7 @@
       "code_review": "Professional code reviews on projects",
       "career_support": "Resume review, mock interviews, job referrals",
       "lifetime_access": "All content and future updates",
-      "job_guarantee": "Job assistance until placement"
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",
@@ -1845,21 +1845,20 @@
     "DevOps Engineer"
   ],
   "salary_expectations": {
-    "after_3_months": "₹3-5 LPA (Junior Frontend)",
-    "after_6_months": "₹5-10 LPA (React Developer)",
-    "after_9_months": "₹8-15 LPA (Full Stack)",
-    "after_12_months": "₹12-25+ LPA (Senior MERN)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹3-5 LPA (Junior Frontend)",
+    "growing_roles": "₹5-10 LPA (React Developer); ₹8-15 LPA (Full Stack)",
+    "experienced_roles": "₹12-25+ LPA (Senior MERN)",
     "freelance": "₹1000-5000/hour",
     "international": "$60k-150k+ USD"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Placement support until hired",
-    "lifetime_updates": "Free access to all updates",
-    "mentorship": "Industry expert guidance",
-    "certificate": "Professional certification",
-    "portfolio": "40+ production projects",
-    "community": "Lifetime community access"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1888,9 +1887,21 @@
     }
   ],
   "related_courses": [
-    {"slug": "react-js-complete-masterclass-college", "title": "React.js Complete Masterclass", "description": "Deep dive into React for advanced frontend skills"},
-    {"slug": "full-stack-web-development-masterclass-college", "title": "Full Stack Web Development", "description": "Broader web development including multiple stacks"},
-    {"slug": "data-structures-algorithms-masterclass-college", "title": "DSA Masterclass", "description": "Crack FAANG technical interviews"}
+    {
+      "slug": "react-js-complete-masterclass-college",
+      "title": "React.js Complete Masterclass",
+      "description": "Deep dive into React for advanced frontend skills"
+    },
+    {
+      "slug": "full-stack-web-development-masterclass-college",
+      "title": "Full Stack Web Development",
+      "description": "Broader web development including multiple stacks"
+    },
+    {
+      "slug": "data-structures-algorithms-masterclass-college",
+      "title": "DSA Masterclass",
+      "description": "Crack FAANG technical interviews"
+    }
   ],
   "why_this_course": {
     "title": "Why MERN Stack is the Most In-Demand Web Development Skill",
@@ -1903,9 +1914,7 @@
       "40+ production-ready projects deployed to cloud platforms",
       "Complete MERN ecosystem: MongoDB, Express, React, Node.js",
       "Advanced topics: GraphQL, Socket.io, microservices, DevOps",
-      "Interview preparation with 150+ coding problems",
-      "Job placement support until you're hired"
+      "Interview preparation with 150+ coding problems"
     ]
-  },
-  "success_metrics": {"students_enrolled": "3,800+", "job_placement_rate": "92%", "avg_starting_salary": "₹10 LPA", "projects_deployed": "125,000+"}
+  }
 }

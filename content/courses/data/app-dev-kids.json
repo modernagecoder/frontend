@@ -1658,21 +1658,13 @@
     "Digital Innovation Consultant",
     "EdTech Content Creator"
   ],
-  "salary_expectations": {
-    "after_6_months": "₹2-4 LPA (Freelance projects)",
-    "after_12_months": "₹4-6 LPA (No-code developer)",
-    "after_18_months": "₹6-10 LPA (Senior no-code developer)",
-    "after_24_months": "₹8-15+ LPA (Lead/Consultant roles)",
-    "freelance": "₹300-1500/hour",
-    "international": "$30k-80k USD based on location"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "App publishing and monetization support",
-    "lifetime_updates": "Free access to all new content",
-    "mentorship": "6 months of mentor support",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "70+ apps in your portfolio"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1720,7 +1712,7 @@
   "why_this_course": {
     "title": "Why Block Coding is the Perfect Start for Young App Creators",
     "paragraphs": [
-      "Building apps used to require years of learning complex programming languages. Not anymore. Block coding platforms like MIT App Inventor and Thunkable let kids create real, working mobile apps using visual drag-and-drop blocks—no typing code required. This revolutionary approach makes app development accessible to anyone.",
+      "Building apps used to require years of learning complex programming languages. Not anymore. Block coding platforms like MIT App Inventor and Thunkable let kids create real, working mobile apps using visual drag-and-drop blocks, no typing code required. This revolutionary approach makes app development accessible to anyone.",
       "Our program takes kids from absolute zero to publishing apps on Google Play and App Store. They'll build 70+ apps across gaming, education, social media, and AI categories. Every project is designed to be fun while teaching real programming concepts that transfer to any language they learn later.",
       "Beyond technical skills, kids develop creativity, problem-solving, and entrepreneurial thinking. Many of our students have published apps downloaded by thousands of users, won app competitions, and even earned money from their creations. Some go on to learn traditional programming, now equipped with a deep understanding of how apps work."
     ],
@@ -1731,11 +1723,5 @@
       "Seamless pathway to JavaScript and React Native",
       "Portfolio of apps to showcase to schools and employers"
     ]
-  },
-  "success_metrics": {
-    "apps_published": "3,500+",
-    "student_satisfaction": "97%",
-    "competition_winners": "120+",
-    "continued_to_programming": "82%"
   }
 }

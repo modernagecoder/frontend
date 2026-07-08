@@ -1230,20 +1230,12 @@
     "Competition Mathematics Coach",
     "Mathematical Content Creator"
   ],
-  "salary_expectations": {
-    "after_6_months": "Regional competition winner",
-    "after_12_months": "National olympiad qualifier",
-    "after_18_months": "International competition participant",
-    "after_24_months": "IMO medal contender",
-    "freelance": "₹2000-5000/hour for olympiad coaching",
-    "international": "$100k+ for quantitative careers with olympiad background"
-  },
   "course_guarantees": {
-    "money_back": "30-day satisfaction guarantee",
-    "job_assistance": "University admission support",
-    "lifetime_updates": "Access to all new problems and techniques",
-    "mentorship": "Direct access to olympiad medalists",
-    "certificate": "Competition excellence certification",
-    "portfolio": "Complete competition preparation portfolio"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   }
 }

@@ -35,7 +35,7 @@
   "program_overview": {
     "title": "Complete App Development Masterclass",
     "tagline": "From First Line of Code to Published Apps on App Stores",
-    "description": "This is not just an app development course—it's a complete transformation into a professional app developer and entrepreneur. Whether you're a complete beginner, designer wanting to code, entrepreneur with app ideas, or developer wanting mobile skills, this 12-month masterclass will turn you into a skilled app developer capable of building, designing, and launching successful mobile and web applications.\n\nYou'll master app development from ground zero to professional level: from programming basics to advanced features, from UI/UX design to backend integration, from local development to cloud deployment, from first app to App Store success. By the end, you'll have built 30+ apps, published apps to stores, monetized your creations, and be ready for app developer roles or running your own app business.",
+    "description": "This is not just an app development course, it's a complete transformation into a professional app developer and entrepreneur. Whether you're a complete beginner, designer wanting to code, entrepreneur with app ideas, or developer wanting mobile skills, this 12-month masterclass will turn you into a skilled app developer capable of building, designing, and launching successful mobile and web applications.\n\nYou'll master app development from ground zero to professional level: from programming basics to advanced features, from UI/UX design to backend integration, from local development to cloud deployment, from first app to App Store success. By the end, you'll have built 30+ apps, published apps to stores, monetized your creations, and be ready for app developer roles or running your own app business.",
     "what_makes_this_different": [
       "Starts from absolute zero - no coding experience needed",
       "Complete 12-month structured curriculum",
@@ -1389,24 +1389,13 @@
     "faang_companies": "₹40-80 LPA (India), $200k-400k (USA)",
     "note": "Income varies based on skills, location, and specialization"
   },
-  "success_stories_potential": {
-    "published_apps": "Students publish 3-10 apps within 12 months",
-    "revenue": "Some students earn ₹50k-500k/month from apps",
-    "jobs": "85% job placement rate within 6 months",
-    "freelance": "Many students start earning while learning (month 6+)",
-    "startups": "Several students launch successful app startups",
-    "acquisition": "Some apps built by students acquired by companies"
-  },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee",
-    "lifetime_access": "All content, updates, new platforms forever",
-    "published_apps": "Guidance until you publish 3 apps successfully",
-    "community": "Lifetime community and network access",
-    "mentorship": "Expert support throughout journey",
-    "job_support": "Resume, portfolio, interview prep",
-    "resources": "Code templates, UI kits, design assets",
-    "updates": "Free updates for iOS, Android, Flutter changes",
-    "business_templates": "Client contracts, proposals, pricing guides"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

@@ -1642,21 +1642,13 @@
     "Open Source Contributor",
     "Technical Content Creator"
   ],
-  "salary_expectations": {
-    "internships": "$20-60/hour at top tech companies",
-    "entry_level": "$80,000-150,000 (after college)",
-    "competition_prizes": "$500-10,000 per competition",
-    "tutoring": "$30-100/hour teaching other students",
-    "freelance_projects": "$25-75/hour for algorithm work",
-    "scholarship_opportunities": "Full rides to top universities"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "competition_ready": "Compete at national level within 6 months",
-    "interview_ready": "Crack technical interviews by course end",
-    "continuous_updates": "Free access to all future content",
-    "college_support": "Help with CS program applications",
-    "success_guarantee": "Top 20% in competitions or additional free coaching"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

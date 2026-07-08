@@ -1582,8 +1582,8 @@
       "mentorship": "Direct access to female tech billionaires",
       "community": "Ultra-exclusive Alpha Girls power network",
       "code_review": "Fortune 500 architect reviews",
-      "career_support": "C-suite placement, board positions, VC introductions",
-      "lifetime_access": "Eternal membership in Alpha sisterhood"
+      "lifetime_access": "Eternal membership in Alpha sisterhood",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Elite certification after each phase",
@@ -1621,20 +1621,13 @@
     "Global Technology Leader",
     "Historical Figure in Tech"
   ],
-  "salary_expectations": {
-    "immediate": "₹50L-1Cr ($200-400K USD)",
-    "after_6_months": "₹1-2Cr ($400-600K USD)",
-    "after_12_months": "₹2Cr+ ($600K-1M+ USD)",
-    "freelance": "₹10,000-25,000/hour ($500-1000/hour)",
-    "equity_potential": "$10M-1B+ in equity value"
-  },
   "course_guarantees": {
-    "money_back": "60-day unconditional guarantee",
-    "job_assistance": "Fortune 500 placement guarantee",
-    "lifetime_updates": "Eternal Alpha network access",
-    "mentorship": "Billionaire mentor matching",
-    "certificate": "Industry-defining certification",
-    "portfolio": "Billion-dollar portfolio guaranteed"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1682,8 +1675,8 @@
   "why_this_course": {
     "title": "Why Alpha Girls Creates Tech Industry Leaders",
     "paragraphs": [
-      "Alpha Girls isn't a coding bootcamp—it's a transformation program for women ready to dominate the highest levels of technology. While most programs teach you to code, we teach you to architect billion-dollar systems, lead Fortune 500 engineering teams, and build companies that change industries.",
-      "The tech industry desperately needs more women in leadership. Studies show diverse leadership teams outperform by 35%, yet women hold only 28% of computing roles and fewer than 5% of CEO positions. Alpha Girls exists to change this by creating the next generation of female tech titans—CTOs, founders, and industry pioneers.",
+      "Alpha Girls isn't a coding bootcamp, it's a transformation program for women ready to dominate the highest levels of technology. While most programs teach you to code, we teach you to architect billion-dollar systems, lead Fortune 500 engineering teams, and build companies that change industries.",
+      "The tech industry desperately needs more women in leadership. Studies show diverse leadership teams outperform by 35%, yet women hold only 28% of computing roles and fewer than 5% of CEO positions. Alpha Girls exists to change this by creating the next generation of female tech titans, CTOs, founders, and industry pioneers.",
       "Our program combines elite technical training with executive development: enterprise architecture, venture capital strategies, board-level communication, and building your personal brand as a thought leader. You'll work on real projects worth millions, get mentored by successful female tech leaders, and join a sisterhood of the most ambitious women in technology."
     ],
     "highlights": [
@@ -1693,11 +1686,5 @@
       "VC introduction and startup funding opportunities",
       "Exclusive network of 500+ successful women in tech"
     ]
-  },
-  "success_metrics": {
-    "alumni_network": "500+",
-    "avg_salary_increase": "180%",
-    "founded_companies": "45+",
-    "fortune_500_placements": "120+"
   }
 }

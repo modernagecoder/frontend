@@ -35,7 +35,7 @@
   "program_overview": {
     "title": "Complete AI & Machine Learning Masterclass",
     "tagline": "From Mathematics Fundamentals to Production AI Systems",
-    "description": "This is not just an AI course—it's a complete transformation into an AI/ML professional. Whether you're a beginner with no technical background, a developer wanting to transition into AI, or a data analyst aiming to become an ML engineer, this 12-month masterclass will turn you into a highly skilled AI practitioner capable of building, training, deploying, and maintaining production-grade machine learning systems.\n\nYou'll master AI/ML from ground zero to expert level: from mathematics and Python programming to classical machine learning algorithms, from deep learning fundamentals to advanced architectures like Transformers, from theory to production deployment with MLOps. By the end, you'll have built 50+ ML projects, created AI models from scratch, deployed them to production, and be ready for AI/ML engineer roles at top tech companies.",
+    "description": "This is not just an AI course, it's a complete transformation into an AI/ML professional. Whether you're a beginner with no technical background, a developer wanting to transition into AI, or a data analyst aiming to become an ML engineer, this 12-month masterclass will turn you into a highly skilled AI practitioner capable of building, training, deploying, and maintaining production-grade machine learning systems.\n\nYou'll master AI/ML from ground zero to expert level: from mathematics and Python programming to classical machine learning algorithms, from deep learning fundamentals to advanced architectures like Transformers, from theory to production deployment with MLOps. By the end, you'll have built 50+ ML projects, created AI models from scratch, deployed them to production, and be ready for AI/ML engineer roles at top tech companies.",
     "what_makes_this_different": [
       "Starts from absolute zero - mathematics, programming, everything",
       "Complete 12-month structured curriculum",
@@ -1664,36 +1664,24 @@
     "Applied Scientist at Tech Companies"
   ],
   "salary_expectations": {
-    "after_3_months": "₹4-7 LPA (Junior Data Scientist/Analyst)",
-    "after_6_months": "₹8-15 LPA (ML Engineer/Data Scientist)",
-    "after_9_months": "₹15-25 LPA (Senior ML Engineer)",
-    "after_12_months": "₹20-40 LPA (Senior ML/AI Engineer, Research Engineer)",
-    "experienced_2_years": "₹30-60 LPA (Lead ML Engineer)",
-    "faang_companies": "₹40-80 LPA in India, $150k-300k USD in USA",
-    "research_positions": "₹25-50 LPA (India), $120k-250k (USA)",
-    "ai_startups": "₹20-50 LPA + equity",
-    "freelance_consulting": "₹3000-10000/hour based on expertise",
-    "ai_architect": "₹50-100 LPA at senior level",
-    "note": "AI/ML engineers are among the highest-paid tech professionals globally"
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹4-7 LPA (Junior Data Scientist/Analyst)",
+    "growing_roles": "₹8-15 LPA (ML Engineer/Data Scientist); ₹15-25 LPA (Senior ML Engineer)",
+    "experienced_roles": "₹20-40 LPA (Senior ML/AI Engineer, Research Engineer); ₹30-60 LPA (Lead ML Engineer)",
+    "freelance_consulting": "₹3000-10000/hour based on expertise"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee",
-    "job_assistance": "Job placement support with AI companies",
-    "lifetime_updates": "Free access to all new content, research implementations",
-    "mentorship": "Expert guidance throughout and beyond",
-    "certificate": "Industry-recognized AI/ML certification",
-    "portfolio": "50+ production-ready AI projects",
-    "kaggle_support": "Guidance to achieve Kaggle Expert rank",
-    "research_support": "Help with paper implementation and publication",
-    "community": "Lifetime access to AI/ML professional network",
-    "gpu_credits": "Cloud GPU credits for training (limited)",
-    "career_switch": "Support until successful transition to AI role",
-    "skill_guarantee": "Master AI/ML or continue learning free"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
       "question": "What is the difference between this AI/ML Masterclass and the Artificial Intelligence Masterclass?",
-      "answer": "This Complete AI & ML Masterclass focuses on practical machine learning engineering: building ML pipelines, training models with TensorFlow/PyTorch, deploying to production, and achieving results on Kaggle. The AI Masterclass is more theoretical, covering classical AI, symbolic reasoning, and AGI concepts. Choose this course if you want hands-on ML engineering skills for immediate job placement."
+      "answer": "This Complete AI & ML Masterclass focuses on practical machine learning engineering: building ML pipelines, training models with TensorFlow and PyTorch, deploying to production, and working on Kaggle problems. The AI Masterclass is more theoretical, covering classical AI, symbolic reasoning, and AGI concepts. Choose this course if you want hands-on ML engineering skills for industry work."
     },
     {
       "question": "What machine learning libraries and frameworks will I master?",
@@ -1701,7 +1689,7 @@
     },
     {
       "question": "Can I get a job as an ML Engineer after this course?",
-      "answer": "Yes, this course is designed for job placement. You'll build 50+ production-ready projects, achieve competitive Kaggle rankings, and prepare for ML engineering interviews. Graduates typically secure roles as ML Engineers, Data Scientists, or AI Engineers with salaries ranging from ₹12-40 LPA in India or $100K-200K in the US."
+      "answer": "This course is built to make you job-ready as an ML engineer. You build 50+ practical projects, work on Kaggle-style problems, and prepare thoroughly for ML engineering interviews with mock interviews and portfolio review. We prepare you well, but we do not make placement guarantees. As general market context, ML and data roles in India commonly range from about ₹12-40 LPA depending on experience, with higher ranges abroad and at large product companies."
     },
     {
       "question": "What types of projects will I build in this AI/ML course?",

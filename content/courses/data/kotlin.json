@@ -36,7 +36,7 @@
   "program_overview": {
     "title": "Complete Kotlin Programming Masterclass",
     "tagline": "From 'Hello World' to Professional Android & Backend Applications",
-    "description": "This is not just a Kotlin course—it's a complete transformation into a versatile Kotlin professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Kotlin developer capable of building modern Android apps, scalable backend systems, multiplatform applications, and cloud-native solutions.\n\nYou'll master Kotlin from ground zero to professional architect level: from basic syntax to advanced language features, from console applications to full-stack Android apps with Jetpack Compose, from JDBC to Spring Boot with Kotlin, from single-platform to Kotlin Multiplatform projects. By the end, you'll have built 50+ projects, mastered the entire Kotlin ecosystem, and be ready for senior Kotlin/Android developer roles in top tech companies.",
+    "description": "This is not just a Kotlin course, it's a complete transformation into a versatile Kotlin professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Kotlin developer capable of building modern Android apps, scalable backend systems, multiplatform applications, and cloud-native solutions.\n\nYou'll master Kotlin from ground zero to professional architect level: from basic syntax to advanced language features, from console applications to full-stack Android apps with Jetpack Compose, from JDBC to Spring Boot with Kotlin, from single-platform to Kotlin Multiplatform projects. By the end, you'll have built 50+ projects, mastered the entire Kotlin ecosystem, and be ready for senior Kotlin/Android developer roles in top tech companies.",
     "what_makes_this_different": [
       "Starts from absolute zero - perfect for complete beginners",
       "Separate learning tracks for kids (12+), teens, and adults",
@@ -1780,8 +1780,8 @@
       "code_review": "Expert code reviews for all major projects",
       "career_support": "Resume review, mock interviews, job referrals",
       "lifetime_access": "All content, future updates, new Kotlin versions",
-      "placement_assistance": "Dedicated placement with Android/Kotlin companies",
-      "interview_prep": "Mock interviews with industry professionals"
+      "interview_prep": "Mock interviews with industry professionals",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each phase (4 certificates)",
@@ -1834,30 +1834,21 @@
     "Startup Founder / CTO"
   ],
   "salary_expectations": {
-    "after_3_months": "₹3-6 LPA (Junior Kotlin/Android Developer)",
-    "after_6_months": "₹6-10 LPA (Android Developer)",
-    "after_9_months": "₹10-18 LPA (Senior Android Developer)",
-    "after_12_months": "₹15-30 LPA (Senior Kotlin Developer / Tech Lead)",
-    "experienced_3_years": "₹20-45 LPA (Lead Developer / Architect)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹3-6 LPA (Junior Kotlin/Android Developer)",
+    "growing_roles": "₹6-10 LPA (Android Developer); ₹10-18 LPA (Senior Android Developer)",
+    "experienced_roles": "₹15-30 LPA (Senior Kotlin Developer / Tech Lead); ₹20-45 LPA (Lead Developer / Architect)",
     "freelance": "₹1500-6000/hour based on expertise",
     "international_usa": "$90k-200k USD (Android/Kotlin Developer to Senior)",
-    "international_europe": "€55k-130k EUR based on country",
-    "product_companies": "₹18-60 LPA in top companies (Google, Meta, etc.)",
-    "startups": "₹15-50 LPA with equity in high-growth startups"
+    "international_europe": "€55k-130k EUR based on country"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee",
-    "job_assistance": "Job placement with 400+ hiring partners",
-    "lifetime_updates": "Free access to all updates, new Kotlin versions",
-    "mentorship": "Dedicated expert mentor for 12 months and beyond",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "50+ production-ready projects",
-    "community": "Lifetime alumni network access",
-    "career_switch": "Extended support up to 18 months",
-    "skill_guarantee": "Master Kotlin or continue free until you do",
-    "interview_guarantee": "Unlimited mock interviews",
-    "salary_hike": "Average 200-350% salary hike for switchers",
-    "placement_record": "90%+ placement rate within 6 months"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

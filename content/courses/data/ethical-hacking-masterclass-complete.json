@@ -35,7 +35,7 @@
   "program_overview": {
     "title": "Complete Ethical Hacking & Cybersecurity Masterclass",
     "tagline": "From Zero Knowledge to Professional Penetration Tester",
-    "description": "This is not just a hacking course—it's a complete transformation into a cybersecurity professional. Whether you're a complete beginner with no technical background, an IT professional wanting to transition into security, or a developer aiming to become a penetration tester, this comprehensive masterclass will turn you into a highly skilled ethical hacker capable of identifying, exploiting, and securing vulnerabilities in real-world systems.\n\nYou'll master ethical hacking from ground zero to expert level: from networking fundamentals and Linux basics to advanced exploitation techniques, from web application hacking to mobile security, from wireless attacks to social engineering. By the end, you'll have performed 100+ hands-on labs, compromised various systems ethically, written professional security reports, and be ready for cybersecurity roles at top organizations.",
+    "description": "This is not just a hacking course, it's a complete transformation into a cybersecurity professional. Whether you're a complete beginner with no technical background, an IT professional wanting to transition into security, or a developer aiming to become a penetration tester, this comprehensive masterclass will turn you into a highly skilled ethical hacker capable of identifying, exploiting, and securing vulnerabilities in real-world systems.\n\nYou'll master ethical hacking from ground zero to expert level: from networking fundamentals and Linux basics to advanced exploitation techniques, from web application hacking to mobile security, from wireless attacks to social engineering. By the end, you'll have performed 100+ hands-on labs, compromised various systems ethically, written professional security reports, and be ready for cybersecurity roles at top organizations.",
     "what_makes_this_different": [
       "Starts from absolute zero - no prior knowledge required",
       "Legal and ethical hacking methodology throughout",
@@ -1719,32 +1719,20 @@
     "Chief Information Security Officer (CISO) track"
   ],
   "salary_expectations": {
-    "after_3_months": "₹3-6 LPA (Junior Security Analyst, SOC Analyst L1)",
-    "after_6_months": "₹6-12 LPA (Ethical Hacker, SOC Analyst L2, VAPT Analyst)",
-    "after_9_months": "₹10-20 LPA (Penetration Tester, Security Engineer)",
-    "after_12_months": "₹18-30 LPA (Senior Ethical Hacker, Red Team Engineer)",
-    "experienced_2_years": "₹25-45 LPA (Lead Security Engineer, Security Consultant)",
-    "faang_companies": "₹35-70 LPA in India, $130k-280k USD in USA",
-    "government_projects": "₹8-20 LPA (Cyber Crime, CERT-In, Defense contractors)",
-    "cybersecurity_firms": "₹15-40 LPA (Big4, Security MNCs, Product-based firms)",
-    "freelance_bug_bounty": "₹2-15 Lakhs per valid vulnerability (platform & severity dependent)",
-    "freelance_consulting": "₹2500-12000/hour based on skills and certifications",
-    "security_architect": "₹40-90 LPA at senior level",
-    "note": "Ethical Hackers and Cybersecurity professionals are among the most in-demand and respected roles globally due to rising cyber threats"
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹3-6 LPA (Junior Security Analyst, SOC Analyst L1)",
+    "growing_roles": "₹6-12 LPA (Ethical Hacker, SOC Analyst L2, VAPT Analyst); ₹10-20 LPA (Penetration Tester, Security Engineer)",
+    "experienced_roles": "₹18-30 LPA (Senior Ethical Hacker, Red Team Engineer); ₹25-45 LPA (Lead Security Engineer, Security Consultant)",
+    "other_roles": "₹8-20 LPA (Cyber Crime, CERT-In, Defense contractors); ₹15-40 LPA (Big4, Security MNCs, Product-based firms); ₹2-15 Lakhs per valid vulnerability (platform & severity dependent); ₹40-90 LPA at senior level",
+    "freelance_consulting": "₹2500-12000/hour based on skills and certifications"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee",
-    "job_assistance": "Job placement support with AI companies",
-    "lifetime_updates": "Free access to all new content, research implementations",
-    "mentorship": "Expert guidance throughout and beyond",
-    "certificate": "Industry-recognized AI/ML certification",
-    "portfolio": "50+ production-ready AI projects",
-    "kaggle_support": "Guidance to achieve Kaggle Expert rank",
-    "research_support": "Help with paper implementation and publication",
-    "community": "Lifetime access to AI/ML professional network",
-    "gpu_credits": "Cloud GPU credits for training (limited)",
-    "career_switch": "Support until successful transition to AI role",
-    "skill_guarantee": "Master AI/ML or continue learning free"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {

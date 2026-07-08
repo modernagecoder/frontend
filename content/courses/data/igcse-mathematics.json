@@ -1,7 +1,7 @@
 {
   "meta": {
     "slug": "igcse-mathematics-mastery",
-    "title": "IGCSE Mathematics Mastery — Core, Extended & Additional 0606, Live Online",
+    "title": "IGCSE Mathematics Mastery, Core, Extended & Additional 0606, Live Online",
     "description": "Live online IGCSE Maths course for Cambridge 0580/0980 (Core and Extended) and Additional Mathematics 0606: non-calculator fluency, syllabus-exact teaching and past-paper technique on real mark schemes. 8 one-hour classes a month, free demo first.",
     "keywords": [
       "igcse maths course online",
@@ -34,13 +34,13 @@
   },
   "program_overview": {
     "title": "IGCSE Mathematics Mastery",
-    "tagline": "Core, Extended or Additional — taught to the top grade, syllabus-exact.",
-    "description": "An 18-month live program for IGCSE mathematics, matched to the student's exact board and entry: Cambridge 0580/0980 at Core or Extended tier, Edexcel International GCSE, and Additional Mathematics 0606 for strong students. The tier decision caps or opens grades before a single answer is written, and Cambridge's updated syllabus put a non-calculator paper in front of every candidate — so this course trains bare-hands fluency deliberately, teaches the Extended reach early enough to settle, and converts understanding into marks through past-paper cycles against real mark schemes.",
+    "tagline": "Core, Extended or Additional, taught to the top grade, syllabus-exact.",
+    "description": "An 18-month live program for IGCSE mathematics, matched to the student's exact board and entry: Cambridge 0580/0980 at Core or Extended tier, Edexcel International GCSE, and Additional Mathematics 0606 for strong students. The tier decision caps or opens grades before a single answer is written, and Cambridge's updated syllabus put a non-calculator paper in front of every candidate, so this course trains bare-hands fluency deliberately, teaches the Extended reach early enough to settle, and converts understanding into marks through past-paper cycles against real mark schemes.",
     "what_makes_this_different": [
-      "Syllabus-exact: the mentor confirms your school's board and codes first, and teaches to them — 0580/0980, Edexcel 4MA1, or 0606",
+      "Syllabus-exact: the mentor confirms your school's board and codes first, and teaches to them, 0580/0980, Edexcel 4MA1, or 0606",
       "Non-calculator fluency trained in every class, because the newer papers examine it and calculator-raised students get caught",
       "Tier-honest: evidence for the Core-vs-Extended decision, and a real runway from Core-risk to Extended-comfortable",
-      "Additional Maths 0606 taught as the serious second subject it is — the best A-Level preparation on the syllabus list",
+      "Additional Maths 0606 taught as the serious second subject it is, the best A-Level preparation on the syllabus list",
       "Mark-scheme literacy: method marks, follow-through and working discipline taught explicitly",
       "Understanding-first teaching so mocks stop sliding as content deepens",
       "One dedicated mentor across the whole IGCSE run",
@@ -55,7 +55,7 @@
       "An IGCSE maths grade that opens sixth-form and A-Level doors",
       "Extended-tier command that makes A-Level maths a step, not a cliff",
       "0606 students: genuine pre-A-Level maturity including introductory calculus",
-      "Exam craft — mark schemes, timing, working discipline — that transfers to every future exam"
+      "Exam craft, mark schemes, timing, working discipline, that transfers to every future exam"
     ]
   },
   "phase_1_foundation": {
@@ -65,16 +65,16 @@
       "title": "Months 1-2: Diagnostic + Number, Bare-Handed",
       "weeks": "Weeks 1-8",
       "week_1_2": "Full diagnostic: board and syllabus code confirmed, tier fit assessed honestly, non-calculator fluency and algebra base measured",
-      "week_3_4": "Number fluency rebuilt: fractions, decimals, percentages and estimation as a checking habit — the non-calculator paper's exact territory",
+      "week_3_4": "Number fluency rebuilt: fractions, decimals, percentages and estimation as a checking habit, the non-calculator paper's exact territory",
       "week_5_6": "Ratio, proportion and rates of change; standard form with real scale",
-      "week_7_8": "Indices and surds from meaning; bounds and accuracy — the quietly examined skills"
+      "week_7_8": "Indices and surds from meaning; bounds and accuracy, the quietly examined skills"
     },
     "month_3_4": {
       "title": "Months 3-4: Algebra as a Language",
       "weeks": "Weeks 9-16",
       "week_9_10": "Expressions, expansion and factorisation with the area model underneath",
       "week_11_12": "Linear equations and inequalities read as sentences; changing the subject of formulae",
-      "week_13_14": "Straight-line graphs: gradient as rate, intercepts as starting values — equation, table and graph as one story",
+      "week_13_14": "Straight-line graphs: gradient as rate, intercepts as starting values, equation, table and graph as one story",
       "week_15_16": "Simultaneous equations by structure; sequences and the nth term"
     },
     "month_5_6": {
@@ -83,18 +83,18 @@
       "week_17_18": "Angle reasoning: parallel lines, polygons and circle basics with justification language",
       "week_19_20": "Perimeter, area and volume including compound shapes; Pythagoras from a picture",
       "week_21_22": "Statistics foundations: averages, charts and scatter diagrams read critically",
-      "week_23_24": "Phase checkpoint: a full Core-tier paper under timing, reviewed against the mark scheme — the review ritual for the rest of the course"
+      "week_23_24": "Phase checkpoint: a full Core-tier paper under timing, reviewed against the mark scheme, the review ritual for the rest of the course"
     }
   },
   "phase_2_extended": {
     "title": "PHASE 2: The Extended Reach, With Settling Time (Months 7-12)",
-    "description": "The topics that separate Extended from Core — and top grades from safe passes — taught months before the exam so they are owned, not crammed: functions, trigonometry beyond right angles, vectors, and probability at full depth.",
+    "description": "The topics that separate Extended from Core, and top grades from safe passes, taught months before the exam so they are owned, not crammed: functions, trigonometry beyond right angles, vectors, and probability at full depth.",
     "month_7_8": {
       "title": "Months 7-8: Quadratics and Functions",
       "weeks": "Weeks 25-32",
-      "week_25_26": "Quadratic equations by factorising, completing the square and the formula — chosen by structure",
+      "week_25_26": "Quadratic equations by factorising, completing the square and the formula, chosen by structure",
       "week_27_28": "Quadratic graphs and real contexts; simultaneous linear-quadratic systems",
-      "week_29_30": "Function notation, composite and inverse functions — read as meaning, where half of all function marks are lost",
+      "week_29_30": "Function notation, composite and inverse functions, read as meaning, where half of all function marks are lost",
       "week_31_32": "Graph transformations and the graph-literacy the top questions assume"
     },
     "month_9_10": {
@@ -116,13 +116,13 @@
   },
   "phase_3_additional_and_exam": {
     "title": "PHASE 3: Additional Maths 0606 + Exam Craft (Months 13-18)",
-    "description": "Strong students extend into Additional Mathematics — functions, identities, vectors and introductory calculus taught properly. All students then enter the exam machine: past-paper cycles by exact board and series, non-calculator discipline, and mark-scheme craft that peaks in the exam window.",
+    "description": "Strong students extend into Additional Mathematics, functions, identities, vectors and introductory calculus taught properly. All students then enter the exam machine: past-paper cycles by exact board and series, non-calculator discipline, and mark-scheme craft that peaks in the exam window.",
     "month_13_15": {
       "title": "Months 13-15: Additional Mathematics 0606 (or Extended Consolidation)",
       "weeks": "Weeks 49-60",
-      "week_49_52": "0606: functions at depth, quadratics revisited with rigour, indices and surds, simultaneous equations — the A-Level trailer begins. (Parallel track: Extended students consolidate by error-log priority)",
+      "week_49_52": "0606: functions at depth, quadratics revisited with rigour, indices and surds, simultaneous equations, the A-Level trailer begins. (Parallel track: Extended students consolidate by error-log priority)",
       "week_53_56": "0606: binomial expansion, trigonometric identities and equations, logarithmic and exponential functions",
-      "week_57_60": "0606: introductory calculus — differentiation and integration with applications; vectors and kinematics"
+      "week_57_60": "0606: introductory calculus, differentiation and integration with applications; vectors and kinematics"
     },
     "month_16_17": {
       "title": "Months 16-17: Past-Paper Craft by Board and Series",
@@ -134,7 +134,7 @@
       "title": "Month 18: The Exam Series, Met Calmly",
       "weeks": "Weeks 69-72",
       "week_69_70": "Final full cycles with documented score progression; error-log closure",
-      "week_71_72": "Peak-week plan: light consolidations, rest, and exam-day routines rehearsed — the series met as a known place"
+      "week_71_72": "Peak-week plan: light consolidations, rest, and exam-day routines rehearsed, the series met as a known place"
     }
   },
   "faqs": [
@@ -143,32 +143,32 @@
       "answer": "Cambridge IGCSE Mathematics 0580 and 0980 at both tiers, Cambridge Additional Mathematics 0606, and Edexcel International GCSE (4MA1). The first thing the mentor confirms is the exact code and tier your school uses, and all past-paper work comes from that board and series."
     },
     {
-      "question": "Core or Extended — how should we decide?",
-      "answer": "By destination, then evidence. Core caps the achievable grade, so if A-Level maths, sciences or a competitive sixth form is even possible, Extended is the default. Whether the gaps blocking Extended are repairable in the time available is a diagnostic question — and the free demo answers it with evidence you can take to school."
+      "question": "Core or Extended, how should we decide?",
+      "answer": "By destination, then evidence. Core caps the achievable grade, so if A-Level maths, sciences or a competitive sixth form is even possible, Extended is the default. Whether the gaps blocking Extended are repairable in the time available is a diagnostic question, and the free demo answers it with evidence you can take to school."
     },
     {
       "question": "What about the non-calculator papers?",
-      "answer": "Cambridge's updated 0580/0980 syllabus put a non-calculator paper in front of every candidate at both tiers. We train that fluency deliberately — fractions, percentages and estimation drills open every class — and verify current paper structures against your school's syllabus code and series."
+      "answer": "Cambridge's updated 0580/0980 syllabus put a non-calculator paper in front of every candidate at both tiers. We train that fluency deliberately, fractions, percentages and estimation drills open every class, and verify current paper structures against your school's syllabus code and series."
     },
     {
       "question": "Should my child take Additional Maths 0606?",
-      "answer": "If they are comfortable in Extended and A-Level maths is likely: strongly consider it. 0606 is the best A-Level preparation on the syllabus list — functions, identities, vectors and introductory calculus taught properly. It is a genuine second subject that rewards starting early, which is exactly how this course sequences it."
+      "answer": "If they are comfortable in Extended and A-Level maths is likely: strongly consider it. 0606 is the best A-Level preparation on the syllabus list, functions, identities, vectors and introductory calculus taught properly. It is a genuine second subject that rewards starting early, which is exactly how this course sequences it."
     },
     {
       "question": "My child does endless past papers but the score is stuck. Will more classes help?",
-      "answer": "More papers will not — practice repeats what the student already does, errors included. A stuck score almost always means an understanding gap upstream, usually algebra as memorized rules. We find the gap, fix it at the root, and then past papers start converting effort into marks again."
+      "answer": "More papers will not, practice repeats what the student already does, errors included. A stuck score almost always means an understanding gap upstream, usually algebra as memorized rules. We find the gap, fix it at the root, and then past papers start converting effort into marks again."
     },
     {
       "question": "Can this course rescue a threatened Core entry?",
-      "answer": "Often, yes. Schools respond to evidence, and entry deadlines usually leave more room than parents fear. A focused term of understanding-first teaching plus improving test scores is the argument that works — and we are honest in both directions when Core genuinely is the kind choice."
+      "answer": "Often, yes. Schools respond to evidence, and entry deadlines usually leave more room than parents fear. A focused term of understanding-first teaching plus improving test scores is the argument that works, and we are honest in both directions when Core genuinely is the kind choice."
     },
     {
       "question": "What does the course cost?",
-      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students pay USD $100 per month for group and $150 for 1-on-1 — while IGCSE-specialist tutors bill $40 to $100 per hour for the same format. 8 live one-hour classes a month, recordings included, free demo first."
+      "answer": "Small-group classes are ₹1,499 per month and private 1-on-1 mentorship is ₹4,999 per month in India; international students pay USD $100 per month for group and $150 for 1-on-1, while IGCSE-specialist tutors bill $40 to $100 per hour for the same format. 8 live one-hour classes a month, recordings included, free demo first."
     },
     {
       "question": "Can we try it before paying?",
-      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic — board, tier, fluency and algebra base — with no card details required."
+      "answer": "Yes. Every student starts with a free live demo class that doubles as the diagnostic, board, tier, fluency and algebra base, with no card details required."
     }
   ],
   "testimonials": [
@@ -223,7 +223,7 @@
   },
   "prerequisites": {
     "education": "Years 9-11 at an IGCSE school (Cambridge or Edexcel), or equivalent homeschool candidates",
-    "math_background": "Any — the diagnostic finds the real base; Core-level gaps are repaired before Extended reach",
+    "math_background": "Any, the diagnostic finds the real base; Core-level gaps are repaired before Extended reach",
     "equipment": "Computer with stable internet; a scientific calculator for the calculator papers",
     "time_commitment": "2 live hours plus 1-2 practice hours weekly",
     "english": "Course taught in English",
@@ -243,11 +243,12 @@
     "Ready for the IB Mathematics Masterclass or competition mathematics"
   ],
   "course_guarantees": {
-    "free_demo": "A free live demo class that doubles as the diagnostic — before any payment",
-    "recorded_classes": "All live sessions recorded",
-    "no_lock_in": "Monthly billing, cancel any time, no registration fee",
-    "tier_honesty": "Evidence-based tier advice, in both directions",
-    "certificate": "Completion certificate plus documented score progression"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "relatedCourses": [
     "ib-mathematics-aa-ai-masterclass",

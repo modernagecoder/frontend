@@ -293,7 +293,7 @@ class CourseGenerator {
             weekData = { title: '', description: weekData };
         }
         const weekNumsForTitle = (weekKey.match(/\d+/g) || []);
-        const fallbackTitle = weekNumsForTitle.length > 1 ? `Weeks ${weekNumsForTitle.join('–')}`
+        const fallbackTitle = weekNumsForTitle.length > 1 ? `Weeks ${weekNumsForTitle.join('-')}`
             : weekNumsForTitle.length === 1 ? `Week ${weekNumsForTitle[0]}` : 'Week Content';
         const title = weekData.title || fallbackTitle;
         const description = weekData.description || '';
@@ -304,7 +304,7 @@ class CourseGenerator {
 
         // Week range chip derived from the key (week_1_2 -> "Weeks 1-2")
         const weekNums = (weekKey.match(/\d+/g) || []);
-        const weekRange = weekNums.length > 1 ? `Weeks ${weekNums.join('&ndash;')}`
+        const weekRange = weekNums.length > 1 ? `Weeks ${weekNums.join('-')}`
             : weekNums.length === 1 ? `Week ${weekNums[0]}` : '';
 
         // Only collapse topics when there is a meaningful amount hidden —
@@ -726,13 +726,13 @@ class CourseGenerator {
         // coursePrerequisites — derive from level (was previously set incorrectly to category)
         const level = (meta.level || '').toLowerCase();
         if (/beginner|absolute beginner|zero|no prior/.test(level)) {
-            courseSchema.coursePrerequisites = "None — designed for complete beginners";
+            courseSchema.coursePrerequisites = "None, designed for complete beginners";
         } else if (/intermediate/.test(level)) {
             courseSchema.coursePrerequisites = "Basic familiarity with the subject";
         } else if (/advanced/.test(level)) {
             courseSchema.coursePrerequisites = "Solid foundation in the subject";
         } else {
-            courseSchema.coursePrerequisites = "None — beginner-friendly with optional advanced track";
+            courseSchema.coursePrerequisites = "None, beginner-friendly with optional advanced track";
         }
 
         // Review snippet eligibility: Course is a Google-supported type for review
@@ -751,10 +751,10 @@ class CourseGenerator {
             "worstRating": "1"
         };
         courseSchema.review = [
-            { "@type": "Review", "author": { "@type": "Person", "name": "Shradha Saraf" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding — truly amazing class." },
-            { "@type": "Review", "author": { "@type": "Person", "name": "Shewta Singh" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "My son struggled with maths for years. Integrating it into coding projects has transformed how he thinks — he now genuinely enjoys both." },
+            { "@type": "Review", "author": { "@type": "Person", "name": "Shradha Saraf" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding, truly amazing class." },
+            { "@type": "Review", "author": { "@type": "Person", "name": "Shewta Singh" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "My son struggled with maths for years. Integrating it into coding projects has transformed how he thinks. He now genuinely enjoys both." },
             { "@type": "Review", "author": { "@type": "Person", "name": "Sonu Goyal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has wonderful teachers who teach in a clear, easy and practical way. My son looks forward to every single class." },
-            { "@type": "Review", "author": { "@type": "Person", "name": "Samridho Mondal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts before — now they finally click, and I actually look forward to learning." }
+            { "@type": "Review", "author": { "@type": "Person", "name": "Samridho Mondal" }, "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }, "publisher": { "@type": "Organization", "name": "Google" }, "reviewBody": "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts before, and now they finally click, and I actually look forward to learning." }
         ];
 
         schemas.push(courseSchema);

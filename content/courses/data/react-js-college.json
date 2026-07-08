@@ -35,7 +35,7 @@
   "program_overview": {
     "title": "Complete React.js Masterclass",
     "tagline": "From JSX Basics to Production-Scale React Applications",
-    "description": "This is not just a course—it's your complete transformation into a professional React developer. React powers Facebook, Netflix, Airbnb, and countless modern web applications. This 12-month masterclass takes you from absolute beginner to senior React developer, capable of building complex, scalable, and performant web applications. You'll master modern React with Hooks, state management, server-side rendering with Next.js, mobile development with React Native, and the entire React ecosystem. Build a portfolio of 30+ production-ready applications that will impress any employer or client.",
+    "description": "This is not just a course, it's your complete transformation into a professional React developer. React powers Facebook, Netflix, Airbnb, and countless modern web applications. This 12-month masterclass takes you from absolute beginner to senior React developer, capable of building complex, scalable, and performant web applications. You'll master modern React with Hooks, state management, server-side rendering with Next.js, mobile development with React Native, and the entire React ecosystem. Build a portfolio of 30+ production-ready applications that will impress any employer or client.",
     "what_makes_this_different": [
       "Starts from absolute zero - no React or even JavaScript expertise required",
       "Complete 12-month structured curriculum with React 18+ features",
@@ -1217,20 +1217,19 @@
     "Startup CTO/Technical Co-founder"
   ],
   "salary_expectations": {
-    "after_6_months": "₹5-8 LPA (Junior React Developer)",
-    "after_12_months": "₹8-15 LPA (React Developer)",
-    "after_18_months": "₹12-25 LPA (Senior React Developer)",
-    "after_24_months": "₹20-40+ LPA (Lead/Architect)",
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "growing_roles": "₹5-8 LPA (Junior React Developer)",
+    "experienced_roles": "₹8-15 LPA (React Developer); ₹12-25 LPA (Senior React Developer); ₹20-40+ LPA (Lead/Architect)",
     "freelance": "₹2000-8000/hour based on expertise",
     "international": "$60k-150k USD based on location and experience"
   },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Job placement support with partner companies",
-    "lifetime_updates": "Free access to all React updates",
-    "mentorship": "Dedicated mentor throughout journey",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "Production-ready portfolio guaranteed"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
@@ -1278,22 +1277,15 @@
   "why_this_course": {
     "title": "Why React.js Dominates Modern Frontend Development",
     "paragraphs": [
-      "React isn't just popular—it's the undisputed leader of frontend development. Powering Facebook, Instagram, Netflix, Airbnb, and countless top tech companies, React skills are the most sought-after in the frontend job market. With over 60% of frontend positions requiring React, this is the skill that opens doors.",
+      "React isn't just popular, it's the undisputed leader of frontend development. Powering Facebook, Instagram, Netflix, Airbnb, and countless top tech companies, React skills are the most sought-after in the frontend job market. With over 60% of frontend positions requiring React, this is the skill that opens doors.",
       "Our 12-month program goes beyond tutorials to build real-world expertise. You'll master React's component architecture, hooks, state management, and the entire modern ecosystem: Next.js for server-side rendering, React Native for mobile apps, and advanced patterns used by senior engineers at top companies.",
-      "What truly sets this program apart is our project-based approach and career support. You won't just learn React—you'll build 60+ projects, deploy production applications, and receive interview preparation with companies actively hiring React developers. Many graduates land jobs before even completing the program."
+      "What truly sets this program apart is our project-based approach and career support. You won't just learn React, you'll build 60+ projects, deploy production applications, and receive interview preparation with companies actively hiring React developers. Many graduates land jobs before even completing the program."
     ],
     "highlights": [
       "60+ portfolio-ready projects including production SaaS applications",
       "Complete React ecosystem: Next.js, React Native, Redux, and more",
       "TypeScript integration for enterprise-level development",
-      "Interview preparation with partner companies",
-      "94% job placement rate within 3 months of completion"
+      "Interview preparation and mock interviews"
     ]
-  },
-  "success_metrics": {
-    "students_enrolled": "3,200+",
-    "job_placement_rate": "94%",
-    "avg_starting_salary": "₹8.5 LPA",
-    "projects_deployed": "15,000+"
   }
 }

@@ -1515,9 +1515,9 @@
       "mentorship": "1-on-1 guidance from successful app developers",
       "community": "Global teen developer Discord community",
       "code_review": "Expert feedback on all projects",
-      "career_support": "College prep, internships, job placement",
       "startup_support": "Incubation for promising app ideas",
-      "lifetime_access": "All content, updates, new technologies"
+      "lifetime_access": "All content, updates, new technologies",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",
@@ -1556,20 +1556,12 @@
     "Product Manager",
     "UX/UI Designer for Mobile"
   ],
-  "salary_expectations": {
-    "after_6_months": "₹2-5 LPA (Internships)",
-    "after_12_months": "₹5-10 LPA (Junior Developer)",
-    "after_18_months": "₹8-15 LPA (Mobile Developer)",
-    "freelance": "₹500-2000/hour",
-    "app_revenue": "₹10K-10L/month from own apps",
-    "international": "$40k-80k USD entry level"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Internship and job placement support",
-    "app_publishing": "Guaranteed app store publishing support",
-    "mentorship": "Dedicated mentor throughout journey",
-    "certificate": "Industry-recognized certification",
-    "portfolio": "20+ apps portfolio that impresses"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   }
 }

@@ -1350,20 +1350,12 @@
     "Summer internships at major tech companies",
     "Full-time junior developer (if 18+)"
   ],
-  "salary_expectations": {
-    "after_6_months": "₹500-1000/hour freelancing as student",
-    "after_12_months": "₹1000-2000/hour or internships ₹10-25k/month",
-    "after_18_months": "Part-time: ₹30-50k/month",
-    "after_24_months": "Entry-level: ₹4-8 LPA (if seeking employment)",
-    "freelance": "₹1000-3000/hour for React projects",
-    "international": "$15-30/hour for remote work"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "job_assistance": "Internship and college application support",
-    "lifetime_updates": "Free updates as React evolves",
-    "mentorship": "Young mentors who understand teens",
-    "certificate": "Professional certificate for college applications",
-    "portfolio": "30+ impressive projects by completion"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   }
 }

@@ -1606,8 +1606,8 @@
       "community": "Active Discord server for AI enthusiasts",
       "code_review": "Expert feedback on projects",
       "gpu_access": "Free cloud GPU credits for training",
-      "career_support": "Job/internship placement assistance",
-      "research_guidance": "Help with research projects"
+      "research_guidance": "Help with research projects",
+      "career_guidance": "Resume and interview preparation, plus portfolio and profile review."
     },
     "certification": {
       "phase_certificates": "Certificate after each phase",
@@ -1647,21 +1647,13 @@
     "AI Ethics Consultant",
     "AI Content Creator/Educator"
   ],
-  "salary_expectations": {
-    "internships": "$25-70/hour at top tech companies",
-    "entry_level": "$90,000-180,000 (post-college)",
-    "competitions": "$1,000-100,000 in prizes",
-    "freelance": "$50-150/hour for AI projects",
-    "research": "Fully-funded PhD opportunities",
-    "startups": "Potential for significant equity"
-  },
   "course_guarantees": {
-    "money_back": "30-day money back guarantee",
-    "project_portfolio": "40+ AI projects guaranteed",
-    "competition_ready": "Kaggle contributor level",
-    "interview_ready": "Prepared for top tech companies",
-    "continuous_updates": "Lifetime access to updates",
-    "success_support": "Extra help until goals achieved"
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
   },
   "faqs": [
     {
