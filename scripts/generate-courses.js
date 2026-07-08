@@ -25,8 +25,14 @@ const CD_ICONS = {
     briefcase: CD_SVG('<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>'),
     shield: CD_SVG('<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path>'),
 };
-// Turn a raw JSON key into a human label: "complete_beginners" -> "Complete Beginners"
-const humanizeKey = (key) => String(key).replace(/_/g, ' ').trim().replace(/\b\w/g, l => l.toUpperCase());
+// Turn a raw JSON key into a human label: "complete_beginners" -> "Complete Beginners".
+// Known acronyms are fully upper-cased ("cbse_python_track" -> "CBSE Python Track").
+const CD_ACRONYMS = new Set(['cbse', 'icse', 'isc', 'ib', 'igcse', 'psle', 'gcse', 'sat', 'ap', 'ip',
+    'cs', 'sql', 'html', 'css', 'js', 'api', 'ai', 'ml', 'oop', 'oops', 'dsa', 'mern', 'ui', 'ux',
+    'pdf', 'gpu', 'ide', 'repl', 'usa', 'uk', 'uae', 'faang', 'llm', 'rag', 'nlp', 'gpt']);
+const humanizeKey = (key) => String(key).replace(/_/g, ' ').trim().split(/\s+/)
+    .map(w => CD_ACRONYMS.has(w.toLowerCase()) ? w.toUpperCase() : (w.charAt(0).toUpperCase() + w.slice(1)))
+    .join(' ');
 
 class CourseGenerator {
     constructor() {
@@ -420,7 +426,22 @@ class CourseGenerator {
                 html += this.generateWeekHTML(week.data, week.key);
             });
         } else {
-            html += '<p class="no-content">No weekly content available</p>';
+            // Some months group weeks under named sub-tracks (e.g. a dual-track
+            // course with cbse_python_track / isc_java_track). Render each track
+            // that contains weeks as a labelled group.
+            const trackKeys = Object.keys(monthData).filter(k =>
+                k !== 'title' && k !== 'weeks' &&
+                monthData[k] && typeof monthData[k] === 'object' && !Array.isArray(monthData[k]) &&
+                this.extractWeeks(monthData[k]).length > 0);
+            trackKeys.forEach(tk => {
+                const trackWeeks = this.extractWeeks(monthData[tk]);
+                html += `<div class="track-group"><div class="track-label">${this.escapeHtml(humanizeKey(tk))}</div>`;
+                trackWeeks.forEach(week => {
+                    html += this.generateWeekHTML(week.data, week.key);
+                });
+                html += `</div>`;
+            });
+            // If there was genuinely nothing, render nothing (no placeholder text).
         }
 
         html += `

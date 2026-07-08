@@ -388,6 +388,8 @@ body.editorial .success-metric-label{color:rgba(251,248,242,.72) !important}
 .practice-section .content-section-title,.assessment-section .content-section-title{margin-bottom:.45rem}
 .practice-text,.assessment-text{margin:0}
 .week-desc{color:var(--ink-soft);font-size:.92rem;line-height:1.65;margin:.9rem 0}
+.track-group{margin:.6rem 0 1rem}
+.track-label{font-family:var(--font-mono);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--amber-deep);background:var(--amber-tint);border-radius:7px;padding:.4rem .7rem;display:inline-block;margin:.3rem 0 .7rem}
 
 /* legacy module fallback: rotate SVG chevron via .expanded */
 .curriculum-module .module-icon{display:flex;align-items:center;justify-content:center;transition:transform .25s}
