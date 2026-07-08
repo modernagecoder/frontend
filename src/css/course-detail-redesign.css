@@ -422,6 +422,7 @@ body.editorial .show-more-btn:hover{color:var(--amber-deep);text-decoration:unde
 .weekly-items,.certification-items,.support-items,.audience-items,.salary-items,.career-paths-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
 .prerequisites-items,.guarantees-items{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:.9rem}
 .weekly-item,.salary-item,.prerequisite-item{display:flex;flex-direction:column;justify-content:center}
+.salary-note{color:var(--muted);font-size:.9rem;line-height:1.65;margin:0 0 1.2rem;padding:.9rem 1.1rem;background:var(--paper-2);border:1px solid var(--line);border-left:3px solid var(--amber);border-radius:10px}
 
 /* =====================  international contact modal (editorial)  ===================== */
 .cd-imodal{position:fixed;inset:0;background:rgba(28,24,20,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;z-index:100000;padding:1rem}

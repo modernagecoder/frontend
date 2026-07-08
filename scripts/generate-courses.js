@@ -1016,7 +1016,7 @@ class CourseGenerator {
         html = html.replace(/{{CAREER_PATHS_BOX}}/g, box(careerPaths, 'career-paths-box', 'Career Paths After Completion', 'career-paths-list'));
 
         const salaryExpectations = this.generateSalaryExpectations(courseData.salary_expectations || {});
-        html = html.replace(/{{SALARY_EXPECTATIONS_BOX}}/g, box(salaryExpectations, 'salary-expectations-box', 'Salary Expectations', 'salary-grid'));
+        html = html.replace(/{{SALARY_EXPECTATIONS_BOX}}/g, box(salaryExpectations, 'salary-expectations-box', 'Salary &amp; Market Context', 'salary-body'));
 
         const courseGuarantees = this.generateCourseGuarantees(courseData.course_guarantees || {});
         html = html.replace(/{{COURSE_GUARANTEES_BOX}}/g, box(courseGuarantees, 'guarantees-box', 'Course Guarantees', 'guarantees-list'));
@@ -1531,11 +1531,18 @@ class CourseGenerator {
     generateSalaryExpectations(salary) {
         if (Object.keys(salary).length === 0) return '';
 
-        return `
+        // A market_context / note key renders as a light intro paragraph above
+        // the grid, not as a bold salary card.
+        const entries = Object.entries(salary);
+        const noteEntry = entries.find(([k]) => k === 'market_context' || k === 'note');
+        const gridEntries = entries.filter(([k]) => k !== 'market_context' && k !== 'note');
+        const note = noteEntry ? `<p class="salary-note">${this.escapeHtml(noteEntry[1])}</p>` : '';
+
+        return `${note}
             <div class="salary-items">
-                ${Object.entries(salary).map(([key, value]) => `
+                ${gridEntries.map(([key, value]) => `
                     <div class="salary-item">
-                        <div class="salary-period">${this.escapeHtml(key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()))}</div>
+                        <div class="salary-period">${this.escapeHtml(humanizeKey(key))}</div>
                         <div class="salary-amount">${this.escapeHtml(value)}</div>
                     </div>
                 `).join('')}
