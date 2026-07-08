@@ -1,11 +1,11 @@
 ---
 title: "GCSE Maths Tuition Online · 1:1 AQA, Edexcel & OCR — Modern Age Coders"
-description: "Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/gcse-maths-tuition-online
 keywords: ["GCSE maths tuition online", "GCSE maths tutor", "GCSE maths revision", "AQA GCSE maths", "Edexcel GCSE maths", "OCR GCSE maths", "higher tier GCSE maths", "foundation GCSE maths", "GCSE maths grade 9", "GCSE maths grade 4 pass", "GCSE maths past papers", "GCSE maths help"]
 source: src/pages/gcse-maths-tuition-online.html
 ---
-> Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online GCSE maths tuition for AQA, Edexcel and OCR, foundation and higher tier. We teach why the maths works, then drill past papers and method marks — so grades 1–9 stop being a mystery. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why GCSE maths grades stall
 
@@ -128,7 +128,7 @@ One student, one tutor, real-time video with a shared whiteboard and live paper 
 
 ### 8 lessons a month
 
-Two each week, around 50–60 minutes, built around your board's past papers.
+Two each week, around 60 minutes, built around your board's past papers.
 
 ### UK time
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same tutor tracking progress to the exam
 - Taught to your board & tier, with past papers
 - A diagnostic-led plan · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students at a similar grade and board
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
@@ -174,7 +174,7 @@ The same tutor stays through to the exam, watching the grades and recurring mist
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Fixes the maths underneath | Yes | No | Varies |
 | Coaches method marks & problem-solving | Yes | Limited | Varies |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $100 (1:1) / $40 (group) | £5–10 | £30–50/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £30–50/hr |
 
 Revision apps are useful for practice once gaps are known. We add the live diagnosis and the maths fix that turn revision into a higher grade.
 
@@ -212,7 +212,7 @@ Yes — we prioritise high-value foundation topics, fix the costly gaps, and dri
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

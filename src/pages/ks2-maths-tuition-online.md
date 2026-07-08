@@ -1,11 +1,11 @@
 ---
 title: "KS2 Maths Tuition Online · 1:1 Year 3–6 & SATs Maths — Modern Age Coders"
-description: "Live 1:1 online KS2 maths tuition for Years 3–6 and the Year 6 SATs. We teach why the maths works — long division, fractions, reasoning — aligned to the national curriculum, building both arithmetic and reasoning for the SATs papers. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online KS2 maths tuition for Years 3–6 and the Year 6 SATs. We teach why the maths works — long division, fractions, reasoning — aligned to the national curriculum, building both arithmetic and reasoning for the SATs papers. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/ks2-maths-tuition-online
 keywords: ["KS2 maths tuition online", "KS2 maths tutor", "year 6 SATs maths", "year 5 maths tutor", "year 4 maths help", "year 3 maths tutor", "KS2 SATs preparation", "KS2 arithmetic paper", "KS2 reasoning paper", "primary maths tutor UK", "long division help", "KS2 fractions"]
 source: src/pages/ks2-maths-tuition-online.html
 ---
-> Live 1:1 online KS2 maths tuition for Years 3–6 and the Year 6 SATs. We teach why the maths works — long division, fractions, reasoning — aligned to the national curriculum, building both arithmetic and reasoning for the SATs papers. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online KS2 maths tuition for Years 3–6 and the Year 6 SATs. We teach why the maths works — long division, fractions, reasoning — aligned to the national curriculum, building both arithmetic and reasoning for the SATs papers. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why KS2 is the moment that matters
 
@@ -128,7 +128,7 @@ One child, one tutor, real-time video with a shared whiteboard. No recordings, n
 
 ### 8 lessons a month
 
-Two each week, around 45 minutes, paced for steady progress without overload.
+Two each week, around 60 minutes, paced for steady progress without overload.
 
 ### UK time
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated tutor throughout
 - National curriculum & Year 6 SATs ready
 - Notes after every lesson · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A handful of children at the same level
 - Same teaching approach, lower price
 - A friendly first step · cancel any time
@@ -174,7 +174,7 @@ Your child keeps the same tutor, so trust builds — and a child who trusts thei
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Notices quiet confusion | Yes, live, 1:1 | No | Usually |
 | Same tutor each time | Yes | N/A | Often |
 | Builds for secondary, not just SATs | Yes | No | Varies |
-| Monthly price | $100 (1:1) / $40 (group) | £5–10 | £25–40/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £25–40/hr |
 
 SATs apps are fine for extra practice. They can't notice your child quietly guessing instead of understanding — which is precisely what we catch and fix.
 
@@ -212,7 +212,7 @@ Yes — we find the earlier missing idea and rebuild from there, so the current 
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

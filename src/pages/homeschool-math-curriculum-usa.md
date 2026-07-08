@@ -1,11 +1,11 @@
 ---
 title: "Homeschool Math Curriculum (USA) · 1:1 Online Math for Homeschoolers — Modern Age Coders"
-description: "Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/homeschool-math-curriculum-usa
 keywords: ["homeschool math curriculum", "online math for homeschoolers", "homeschool math tutor", "homeschool math program", "K-12 homeschool math", "homeschool math help", "custom math curriculum", "mastery based math", "homeschool math online classes", "Common Core homeschool math", "homeschool math sequence", "eclectic homeschool math"]
 source: src/pages/homeschool-math-curriculum-usa.html
 ---
-> Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online math for US homeschoolers, K–12. A custom scope-and-sequence built around your child, taught for understanding, with mastery-based pacing and parent reporting. Aligns with Common Core if you want it. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why homeschool math gets hard for parents
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one classes a month (2 per week)
+- 8 live one-to-one classes a month (2 per week, 1 hour each)
 - A custom scope-and-sequence for your child
 - The same dedicated mentor across the years
 - Progress records included · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group classes a month (2 per week)
+- 8 live small-group classes a month (2 per week, 1 hour each)
 - A few homeschoolers at the same stage
 - Same teaching approach, lower price
 - Great for co-ops · cancel any time
@@ -186,7 +186,7 @@ An honest comparison
 | Live expert teaching | Yes, 1:1 | Parent-led | No |
 | Catches gaps as they form | Yes, in the moment | No | Limited |
 | Records for portfolio | Yes | You compile | Score logs |
-| Monthly price | $100 (1:1) / $40 (group) | $80–150/yr | $10–20/mo |
+| Monthly price | $150 (1:1) / $100 (group) | $80–150/yr | $10–20/mo |
 
 A boxed curriculum is inexpensive and works for many families. We add live expert teaching and an individual pace for the families who want them, especially through the harder high-school years.
 
@@ -212,7 +212,7 @@ Your child moves on when they truly understand a topic, not when a calendar says
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live classes, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live classes, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

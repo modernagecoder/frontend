@@ -440,7 +440,7 @@ Project-based learning, small batches (5-8 students), expert instructors with in
 Areas we serve:OMRVelacheryAnna NagarT. NagarAdyarGuindyMylaporeBesant NagarTIDEL ParkGreater Chennai+ All Chennai Areas
 
 Ready to start your child's coding journey? Book a **free demo class** today.
-Join **500+ families across India** who chose us for their children's tech education.
+Join **487+ Chennai families** who chose us for their children's tech education.
 
 Book Free Demo[Call: 9123366161](tel:+919123366161)
 

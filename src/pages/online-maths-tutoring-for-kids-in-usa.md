@@ -1,11 +1,11 @@
 ---
 title: "Online Maths Tutoring for Kids in the USA · 1:1 Elementary Math (K–5) — Modern Age Coders"
-description: "Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math — place value, fractions and word problems — not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $100/month, 8 classes. Book a free trial."
+description: "Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math — place value, fractions and word problems — not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $150/month, 8 classes. Book a free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-kids-in-usa
 keywords: ["online math tutoring for kids USA", "elementary math tutor online", "math tutor for kids", "K-5 math tutoring", "1st grade math help", "2nd grade math tutor", "3rd grade math tutoring", "4th grade math", "5th grade math tutor", "Common Core math help", "fractions tutor for kids", "place value help"]
 source: src/pages/online-maths-tutoring-for-kids-in-usa.html
 ---
-> Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math — place value, fractions and word problems — not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $100/month, 8 classes. Book a free trial.
+> Live 1:1 online math tutoring for kids in the USA, ages 6–11. We teach the reasoning behind the math — place value, fractions and word problems — not tricks to memorize. Aligned to Common Core, mentors in every US time zone. $150/month, 8 classes. Book a free trial.
 
 Why so many kids stall
 
@@ -128,7 +128,7 @@ One child, one mentor, in a real-time video class with a shared whiteboard. No r
 
 ### 8 classes a month
 
-Two classes each week, usually 45 minutes for younger children. Enough to build momentum without overload.
+Two classes each week, usually 60 minutes for younger children. Enough to build momentum without overload.
 
 ### Your time zone
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one classes a month (2 per week)
+- 8 live one-to-one classes a month (2 per week, 1 hour each)
 - The same dedicated mentor all year
 - A learning plan built around your child
 - Notes after every class · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group classes a month (2 per week)
+- 8 live small-group classes a month (2 per week, 1 hour each)
 - A handful of children at the same level
 - Same teaching approach, lower price
 - A friendly first step · cancel any time
@@ -174,7 +174,7 @@ Your child keeps the same mentor, so trust builds. A child who trusts their teac
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Notices quiet confusion | Yes, live, one-to-one | No | Usually |
 | Same teacher each time | Yes, all year | N/A | Often, varies |
 | Parent updates | After every class | Score charts | Varies |
-| Monthly price | $100 (1:1) / $40 (group) | $10–15 | $200–600+ |
+| Monthly price | $150 (1:1) / $100 (group) | $10–15 | $200–600+ |
 
 Apps are cheap and fine for drill. A private in-home tutor is excellent and costly. We sit in between on price, with the live attention an app can't give.
 
@@ -208,7 +208,7 @@ This is the most common reason families come to us. Most kids don't dislike math
 
 How much does it cost?
 
-USD 100 per month for private 1:1 tutoring — eight live classes, two each week. A small-group option is USD 40 per month for the same eight classes. No contract; cancel any time.
+USD 150 per month for private 1:1 tutoring — eight live classes, two each week. A small-group option is USD 100 per month for the same eight classes. No contract; cancel any time.
 
 Is there a free trial?
 

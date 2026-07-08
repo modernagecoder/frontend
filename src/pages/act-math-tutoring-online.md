@@ -1,11 +1,11 @@
 ---
 title: "ACT Math Tutoring Online · 1:1 ACT Math Prep — Modern Age Coders"
-description: "Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/act-math-tutoring-online
 keywords: ["ACT math tutoring online", "ACT math prep", "ACT math tutor", "online ACT prep", "ACT math practice", "ACT math pacing", "raise ACT math score", "ACT geometry", "ACT trigonometry", "ACT algebra", "ACT 1:1 tutoring", "ACT math 36"]
 source: src/pages/act-math-tutoring-online.html
 ---
-> Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online ACT Math tutoring. We rebuild the algebra, geometry and trig the ACT tests, then train the pacing the ACT demands — 60 questions in 60 minutes. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why ACT math scores get stuck
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same mentor tracking your score throughout
 - Content fixed, then pacing trained on the clock
 - Official ACT practice · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students at a similar score level
 - Same teaching approach, lower price
 - Good for shared prep · cancel any time
@@ -174,7 +174,7 @@ You keep the same mentor through the prep, so they know your patterns and aim ea
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Fixes content gaps 1:1 | Yes | No | Limited |
 | Same mentor tracks you | Yes | N/A | Usually not |
 | Drills must-know formulas | Yes | Sometimes | Sometimes |
-| Monthly price | $100 (1:1) / $40 (group) | Free | $700–2,500+ |
+| Monthly price | $150 (1:1) / $100 (group) | Free | $700–2,500+ |
 
 Apps are useful for untimed drilling. We add the live diagnosis, the content fix and the pacing coaching that move an actual ACT score.
 
@@ -212,7 +212,7 @@ It depends on starting point, timeline and practice. Shoring up content then tra
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

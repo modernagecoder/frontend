@@ -263,6 +263,8 @@ Before you decide, compare honestly. We think the numbers speak for themselves.
 | WhatsApp doubt support | ✓ Between classes | ✗ | ✗ |
 | Verified certificate | ✓ Digital + shareable | ✓ (unverified) | ✓ Varies |
 
+[See a detailed, honest comparison vs WhiteHat Jr, Cuemath & Codingal →](/modern-age-coders-vs-whitehat-jr-cuemath-codingal)
+
 Real Reviews
 
 ## What Students & Parents Say

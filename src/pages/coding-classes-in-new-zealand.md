@@ -171,7 +171,17 @@ Girls-only cohort lead · UoA CS MSc
 
 University of Auckland Computer Science Master's. Leads our girls-only Aotearoa cohort. Particularly strong with the Year 9–12 transition for girls. Popular with Diocesan, Baradene, St Cuthbert's and Samuel Marsden families.
 
-Active NZST 15:00 – 20:00Honest pricing in NZD
+Active NZST 15:00 – 20:00Also at Modern Age Coders
+
+## Maths, taught with the same depth.
+
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For New Zealand families that means understanding-first teaching that holds up from primary through NCEA years, with IB and IGCSE for international schools. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+
+[IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
+
+NZT after-school slots · 4.9 across 547 Google reviews · no registration fee
+
+Honest pricing in NZD
 
 ## One price for Aotearoa: NZD 165 a month. Eight live 1:1 sessions. Cancel anytime.
 
@@ -867,10 +877,25 @@ We hope you've found this page useful even if you don't end up booking. Kiwi par
 
 [Browse all courses](/courses)
 
+## Live online coding classes for students in New Zealand
+
+Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
+
+### Coding classes in other countries
+
+- [Coding Classes in Australia](/coding-classes-in-australia)
+- [Coding Classes in Canada](/coding-classes-in-canada)
+- [Coding Classes in Germany](/coding-classes-in-germany)
+- [Coding Classes in Ireland](/coding-classes-in-ireland)
+- [Coding Classes in Singapore](/coding-classes-in-singapore)
+- [Coding Classes in Sweden](/coding-classes-in-sweden)
+- [Coding Classes in Switzerland](/coding-classes-in-switzerland)
+- [Coding Classes in the UAE](/coding-classes-in-uae)
+- [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
+- [Coding Classes in the United States](/coding-classes-in-united-states)
+
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-new-zealand*
-
-## Maths, taught with the same depth
-
-The same mentors and one-hour live classes also teach maths: premium 1-on-1 USD $150/month, small group $100, free demo first. Start here: /best-online-math-tutoring-2026 /ib-maths-tuition-online /igcse-maths-tuition-online /math-catch-up-program /online-math-tutor-3rd-grade /singapore-math-method-tutoring

@@ -1,17 +1,17 @@
 ---
 title: "CBSE Maths Tutor in the UAE · 1:1 Online CBSE & ICSE — Class 6 to 12 — Modern Age Coders"
-description: "Live 1:1 online CBSE & ICSE maths tutoring for Indian-curriculum students in the UAE — Class 6 to 12, including the Class 10 and 12 board exams. NCERT-aligned, taught for understanding, not rote. Gulf Standard Time. USD 100/month (about AED 370). Free trial."
+description: "Live 1:1 online CBSE & ICSE maths tutoring for Indian-curriculum students in the UAE — Class 6 to 12, including the Class 10 and 12 board exams. NCERT-aligned, taught for understanding, not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
 canonical: https://learn.modernagecoders.com/cbse-maths-tutor-uae
 keywords: ["CBSE maths tutor UAE", "CBSE maths tutor Dubai", "ICSE maths tutor UAE", "CBSE class 10 maths tutor UAE", "CBSE class 12 maths tutor", "NCERT maths tutor UAE", "Indian curriculum maths tutor UAE", "CBSE board maths Dubai", "online CBSE maths UAE", "CBSE maths tuition Sharjah Abu Dhabi"]
 source: src/pages/cbse-maths-tutor-uae.html
 ---
-> Live 1:1 online CBSE & ICSE maths tutoring for Indian-curriculum students in the UAE — Class 6 to 12, including the Class 10 and 12 board exams. NCERT-aligned, taught for understanding, not rote. Gulf Standard Time. USD 100/month (about AED 370). Free trial.
+> Live 1:1 online CBSE & ICSE maths tutoring for Indian-curriculum students in the UAE — Class 6 to 12, including the Class 10 and 12 board exams. NCERT-aligned, taught for understanding, not rote. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
 
 In short
 
 **Modern Age Coders provides live one-to-one online CBSE and ICSE maths tutoring for Indian-curriculum students across the UAE** — Class 6 through the Class 10 and 12 board exams, aligned with NCERT.
 
-We go beyond rote NCERT solutions to genuine understanding, then prepare thoroughly for the boards and competency-based questions, with the same tutor throughout. Pricing is **USD 100 per month (about AED 370)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
+We go beyond rote NCERT solutions to genuine understanding, then prepare thoroughly for the boards and competency-based questions, with the same tutor throughout. Pricing is **USD 150 per month (about AED 550)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
 
 Why CBSE maths trips up able students
 
@@ -150,18 +150,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month · ≈ AED 370
+$150 / month · ≈ AED 550
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same CBSE/ICSE-experienced tutor
 - NCERT-aligned, board-pattern preparation
 - Same tutor throughout · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month · ≈ AED 147
+$100 / month · ≈ AED 367
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students in the same class & board
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
@@ -180,7 +180,7 @@ The same tutor stays with your child, so by board season they know exactly which
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -192,7 +192,7 @@ An honest comparison
 | Teaches concepts, not solutions | Always | Varies | No — answers |
 | Ready for competency questions | Yes | Sometimes | No |
 | Same tutor each time | Yes | Often large groups | N/A |
-| Monthly price | $100 / ≈AED 370 (1:1) | AED 300–900 | AED 20–60 |
+| Monthly price | $150 / ≈AED 550 (1:1) | AED 300–900 | AED 20–60 |
 
 Group classes are cheaper but share the tutor among many; solution apps just give answers. We give full one-to-one attention that builds real understanding for the boards.
 
@@ -218,7 +218,7 @@ Yes — the full Class 11 and 12 syllabus, and JEE foundations for students head
 
 How much does it cost?
 
-USD 100/month (about AED 370) for 1:1 — eight live sessions, two a week. Small-group option USD 40/month. No contract.
+USD 150/month (about AED 550) for 1:1 — eight live sessions, two a week. Small-group option USD 100/month. No contract.
 
 Is the first session free?
 

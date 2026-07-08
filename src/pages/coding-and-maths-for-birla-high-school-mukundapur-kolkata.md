@@ -230,6 +230,14 @@ Do you offer classes specifically for BHS Mukundapur students?+We are not affili
 
 [How We Teach (Free Demo Library)](/how-we-teach)[Coding for CBSE Students](/coding-for-cbse-students)[Python for CBSE Class 12](/python-for-class-12-cbse)[Online Maths Tuition](/online-maths-tuition)[Learn Coding by Class](/learn-coding-by-class)[Student Success Stories](/success-stories)[All School Programmes](/schools)
 
+## Coding & maths classes for residential complexes near Birla High School Mukundapur
+
+Many Birla High School Mukundapur families live in these nearby housing complexes and societies, where we run live online coding and maths classes in small batches.
+
+- [Coding classes for Avidipta, Mukundapur](/coding-classes-in-avidipta-mukundapur)
+- [Coding classes for Udayan The Condoville, EM Bypass](/coding-classes-in-udayan-condoville-em-bypass)
+- [Coding classes for Hiland Park, EM Bypass](/coding-classes-in-hiland-park)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-and-maths-for-birla-high-school-mukundapur-kolkata*

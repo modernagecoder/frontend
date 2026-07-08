@@ -1,11 +1,11 @@
 ---
 title: "A-Level Maths Tuition Online · 1:1 Pure, Mechanics & Statistics — Modern Age Coders"
-description: "Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/a-level-maths-tuition-online
 keywords: ["A-level maths tuition online", "A-level maths tutor", "A-level maths revision", "Edexcel A-level maths", "AQA A-level maths", "OCR A-level maths", "A-level pure maths", "A-level mechanics", "A-level statistics", "A-level maths help", "year 12 maths tutor", "year 13 maths tutor"]
 source: src/pages/a-level-maths-tuition-online.html
 ---
-> Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online A-Level maths tuition for Edexcel, AQA and OCR. Pure, mechanics and statistics taught from the ideas up — so you can handle the unfamiliar questions A-Level is built around. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why A-Level maths catches students out
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same tutor through to the exam
 - Taught to your board across pure, mechanics & stats
 - Past papers & technique · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students on the same board
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
@@ -174,7 +174,7 @@ You keep the same tutor through the year, so they know your modules, your weak s
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Teaches unseen problem-solving | Yes | Rarely | Varies |
 | Covers pure, mechanics & stats | All three | Usually pure | Varies |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $100 (1:1) / $40 (group) | Free–£20 | £35–60/hr |
+| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | £35–60/hr |
 
 Revision videos are a useful supplement. They can't watch you attempt an unseen question and coach the reasoning in real time — which is what moves an A-Level grade.
 
@@ -212,7 +212,7 @@ Yes — AS, full A-Level and resit candidates, with a plan built around exactly 
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

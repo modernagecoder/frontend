@@ -2,45 +2,124 @@
 title: "Modern Age Coders vs Juni Learning: 2026 Comparison"
 description: "Juni Learning 1-on-1 coding starts around $275 a month for 4 sessions. Modern Age Coders is $100 a month for 8 live 1-on-1 classes. A fair, sourced comparison, updated July 2026."
 canonical: https://learn.modernagecoders.com/modern-age-coders-vs-juni-learning
-keywords: ["modern age coders vs juni learning", "juni learning alternative", "juni learning cost", "juni learning vs", "cheaper than juni learning"]
 source: src/pages/modern-age-coders-vs-juni-learning.html
 ---
-> Juni Learning sells 1-on-1 coding from about $275 to $299 a month for four sessions. Modern Age Coders teaches coding 1-on-1 for $100 a month with eight live classes: twice the classes at roughly a third of the price, plus maths in the same school. Prices verified July 2026.
+> Juni Learning 1-on-1 coding starts around $275 a month for 4 sessions. Modern Age Coders is $100 a month for 8 live 1-on-1 classes. A fair, sourced comparison, updated July 2026.
+
+Honest comparison · prices verified July 2026
 
 # Modern Age Coders vs Juni Learning
 
-**In one paragraph:** Pick Juni if a US-based instructor is a hard requirement and budget is not the constraint. Pick Modern Age Coders if you want deeper teaching on a faster rhythm: eight interactive one-hour 1-on-1 classes a month, project-first, with the maths behind the code taught in the same school; the month costs $100, not $275.
+The short version: Juni Learning sells private 1-on-1 coding classes to US families from about $275 to $299 a month for four sessions. Modern Age Coders goes deeper on a faster rhythm: **eight one-hour live classes a month, project-first and interactive**, the kind of class students wait for, with the maths behind the code taught in the same school. And the month costs **$100, not $275**.
 
-## Side by side (typical published US prices, as of July 2026)
+[Book a free demo](/book-demo)See the full comparison8Live classes a month$1001-on-1 coding, monthly$12.50Per 1-on-1 class4.9Across 547 Google reviewsIn one paragraph
 
-| Dimension | Modern Age Coders | Juni Learning |
-|---|---|---|
-| 1-on-1 coding monthly | $100 for 8 live classes | ~$275 to $299 for 4 sessions |
-| Per 1-on-1 class | $12.50 | ~$69 to $75 |
-| Group option | $40/month live small group | Semi-private (2 students) from ~$160 |
-| Maths taught | Yes, full programme | Coding-focused |
-| Ages | 6 to 67 | Primarily kids and teens |
-| Billing | Monthly, no fees | Monthly subscription |
+Which should you choose? **Pick Juni if a US-based instructor is a hard requirement** and budget is not the constraint; it is a polished American company with a strong 1-on-1 product. **Pick Modern Age Coders if you want more live teaching for far less money**: eight 1-on-1 classes a month for $100 versus four for $275+, mentors who also teach the maths behind the code, and small-group options from $40 a month. Both let you try before you buy; our demo class is free and needs no card.
 
-Sources: myelearningworld.com, masandpas.com. Verify current plans on junilearning.com.
+Side by side
 
-## Where Juni genuinely wins
+## Modern Age Coders vs Juni Learning, fairly
 
-- US-based instructors, if that is a hard requirement.
-- Same-timezone US afternoon scheduling by default.
-- A generous two-week trial has been offered.
-- Polished US-market onboarding and reports.
+Juni figures are typical published US prices as of July 2026 from myelearningworld.com and masandpas.com reviews. Plans change; verify on their site.
 
-## Where Modern Age Coders wins
+Scroll the table sideways to see every column →
 
-- Twice the teaching at a third of the price: $12.50 vs ~$70 per 1-on-1 class.
-- Two classes a week keeps coding projects moving.
-- Maths and code in one school, one mentor relationship.
-- A genuinely affordable $40/month group tier.
-- Free demo, no card, monthly billing. See /guarantee.
+| Dimension | Modern Age Coders2x the classes | Juni Learning |
+| --- | --- | --- |
+| 1-on-1 coding, monthly | **$100 for 8 live classes** | From about $275 to $299 for 4 sessions |
+| Cost per 1-on-1 class | **$12.50** | Roughly $69 to $75 |
+| Group option | **Yes, $40 a month, live small group** | Semi-private (2 students) from about $160 |
+| Maths taught | **Yes, full maths programme alongside coding** | Coding-focused; maths not the core product |
+| Instructors | **Dedicated mentors, same teacher every class** | US-based instructors, often university students |
+| Ages served | **6 to 67** | Primarily kids and teens |
+| Billing | **Monthly, cancel anytime, no fees** | Monthly subscription; sibling discounts available |
 
-## Per-class maths
+**Sources and date:** Juni figures are typical published US prices as of July 2026 from myelearningworld.com and masandpas.com. Verify current plans on junilearning.com. Our prices are published on our [pricing page](/pricing).
 
-MAC 1-on-1: $100 / 8 = $12.50 per class. Juni: ~$275 / 4 = ~$69. A year of our 1-on-1 costs about what four months of Juni does.
+The honest part
 
-Related: /coding-classes-for-kids-cost · /modern-age-coders-vs-tynker · /modern-age-coders-vs-outschool · /best-online-coding-classes-for-kids-2026 · /pricing
+## Where each one genuinely wins
+
+### Where Juni Learning is a better fit
+
+- **You specifically want a US-based instructor.** For some families, an American tutor in the same or nearby timezone matters, and that is Juni's core promise.
+- **Same-timezone afternoons.** US instructors mean late-afternoon US slots are their default rhythm.
+- **A long free trial.** Juni has offered a two-week trial, generous for testing fit.
+- **Polished US brand experience.** Onboarding, dashboards and parent reports are built for the US market.
+
+### Where Modern Age Coders wins
+
+- **Momentum matters in coding.** Two classes a week keeps projects moving; one a week often means re-explaining last week first.
+- **Depth, not demos.** Application-first, interactive hours that build real engineering understanding, the kind of class students genuinely wait for.
+- **Maths and code together.** Our mentors teach the maths behind the algorithm, one school for both subjects.
+- **A live small-group tier too.** The same teaching quality in a small batch, a format Juni does not really offer.
+- **Twice the teaching for the money.** Eight 1-on-1 classes for $100 versus four for $275+.
+- **Zero-risk start.** Free live demo, no card, monthly billing. [Our promise](/guarantee).
+
+### Do the per-class maths
+
+MAC 1-on-1 coding: $100 ÷ 8 = **$12.50 per class**Juni 1-on-1: ~$275 ÷ 4 = **~$69 per class**MAC group coding: $40 ÷ 8 = **$5 per class**Juni semi-private: ~$160 ÷ 4 = **~$40 per class**
+
+Juni figures: typical published US prices as of July 2026 (myelearningworld.com). A year of our 1-on-1 coding costs about what four months of Juni does.
+
+Real families
+
+## What families say about our coding mentors
+
+Unedited lines from our public Google reviews, rated 4.9 across 547 reviews.
+
+“
+
+### Ritu Kedia, mother of Aditya
+
+“The teachers are incredibly knowledgeable and passionate about coding, making every session engaging and insightful.”
+
+“
+
+### Shradha Saraf, mother of Mivaan
+
+“Mivaan enjoys the class. He understands the concepts, and completes his tasks with excitement. He started taking interest in coding... truly amazing class.”
+
+“
+
+### Vineeta Bhatter, mother of Krishnam
+
+“They were not only my teachers, but also mentors, life counselors and most importantly, a friendly figure.”
+
+Read all of them on [Google](https://g.page/r/Cff_QkHNaP9yEAE/review) or see our [success stories](/success-stories).
+
+Honest answers
+
+## Frequently asked questions
+
+Is Modern Age Coders cheaper than Juni Learning?
+
+Substantially. Juni's 1-on-1 plans start around $275 to $299 a month for four sessions as of July 2026, roughly $70 per class. Modern Age Coders 1-on-1 coding is $100 a month for eight live classes, $12.50 per class. Our small-group tier is $40 a month, and there are no registration fees on any plan.
+
+Are Juni's US instructors better than international mentors?
+
+Instructor quality is individual, not geographic. Juni recruits US university students; we use dedicated mentors who stay with the same student for months and are named personally in our Google reviews. If a US-based instructor is a hard requirement for your family, Juni fits that. If you care about continuity, teaching quality and cost, judge our mentors directly in a free demo class.
+
+Does Juni Learning teach maths?
+
+Juni is best known for coding. Modern Age Coders runs full coding and maths programmes side by side, so one school covers both subjects with one mentor relationship, useful when algebra starts showing up inside the code.
+
+How many classes do we get each month?
+
+Every Modern Age Coders plan is 2 live classes a week, 8 a month, whether group or 1-on-1. Juni's standard plans are weekly sessions, 4 a month. Twice-weekly rhythm keeps project momentum, which matters a lot in coding.
+
+Can we try before paying?
+
+Yes. Every student starts with a free live demo class with a real mentor, no card details required, and billing is monthly with no lock-in. Details on our [zero-risk page](/guarantee).
+
+[What kids coding classes cost](/coding-classes-for-kids-cost)[vs Tynker](/modern-age-coders-vs-tynker)[vs Outschool](/modern-age-coders-vs-outschool)[Best coding classes for kids 2026](/best-online-coding-classes-for-kids-2026)[Full pricing](/pricing)
+
+## Watch one full hour of real teaching, free
+
+Book a free demo and judge the depth for yourself. If a $275 plan still feels right afterwards, you will at least know exactly what the extra money buys.
+
+[Book a free demo](/book-demo)[See transparent pricing](/pricing)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/modern-age-coders-vs-juni-learning*

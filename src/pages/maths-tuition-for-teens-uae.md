@@ -1,17 +1,17 @@
 ---
 title: "Maths Tuition for Teens in the UAE · 1:1 Online Secondary Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 100/month (about AED 370). Free trial."
+description: "Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
 canonical: https://learn.modernagecoders.com/maths-tuition-for-teens-uae
 keywords: ["maths tuition for teens UAE", "online maths tutor for teenagers Dubai", "secondary maths tutor UAE", "GCSE maths tutor UAE", "IB maths tutor UAE", "CBSE class 9 10 maths UAE", "high school maths tutor UAE", "maths tutor for 14 year old UAE", "maths help for teens UAE", "algebra tutor UAE"]
 source: src/pages/maths-tuition-for-teens-uae.html
 ---
-> Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 100/month (about AED 370). Free trial.
+> Live 1:1 online maths tuition for teenagers in the UAE, ages 12–17, across British (GCSE), American, IB and CBSE secondary schools. We rebuild the reasoning so it holds up in exams. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
 
 In short
 
 **Modern Age Coders offers live one-to-one online maths tuition for teenagers across the UAE, ages 12–17**, matched to their British (GCSE), American, IB or CBSE secondary curriculum and exams.
 
-We rebuild the reasoning underneath algebra, geometry and functions so it holds up under exam pressure, then train exam technique. Pricing is **USD 100 per month (about AED 370)** for eight 1:1 lessons, lessons run in Gulf Standard Time, and the first lesson is free.
+We rebuild the reasoning underneath algebra, geometry and functions so it holds up under exam pressure, then train exam technique. Pricing is **USD 150 per month (about AED 550)** for eight 1:1 lessons, lessons run in Gulf Standard Time, and the first lesson is free.
 
 Why teens slip in secondary maths
 
@@ -134,7 +134,7 @@ One teen, one tutor, real-time video with a shared whiteboard. No recordings, no
 
 ### 8 lessons a month
 
-Two each week, usually 50–60 minutes, worked from your teen's curriculum and exams.
+Two each week, usually 60 minutes, worked from your teen's curriculum and exams.
 
 ### Gulf Standard Time
 
@@ -150,18 +150,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month · ≈ AED 370
+$150 / month · ≈ AED 550
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated, curriculum-matched tutor
 - Worked from your teen's exam board & papers
 - Notes after every lesson · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month · ≈ AED 147
+$100 / month · ≈ AED 367
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students at the same level & curriculum
 - Same teaching approach, lower price
 - A solid first step · cancel any time
@@ -180,7 +180,7 @@ The same tutor stays with your teen, which is what makes a 15-year-old willing t
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -192,7 +192,7 @@ An honest comparison
 | Matched to your curriculum | Yes | Varies | Generic |
 | One-to-one attention | Always | Often group | N/A |
 | Same tutor each time | Yes | Often rotates | N/A |
-| Monthly price | $100 / ≈AED 370 (1:1) | AED 1,000–2,500+ | AED 20–50 |
+| Monthly price | $150 / ≈AED 550 (1:1) | AED 1,000–2,500+ | AED 20–50 |
 
 Apps are fine for practice; centres give attention at a premium and often in groups. We give full one-to-one attention, matched to your teen's curriculum, online.
 
@@ -214,7 +214,7 @@ Yes — understanding first, then exam technique. See our [GCSE](/gcse-maths-tut
 
 How much does it cost?
 
-USD 100/month (about AED 370) for 1:1 — eight live lessons, two a week. Small-group option USD 40/month. No contract.
+USD 150/month (about AED 550) for 1:1 — eight live lessons, two a week. Small-group option USD 100/month. No contract.
 
 Is the first lesson free?
 

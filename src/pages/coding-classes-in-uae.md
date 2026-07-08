@@ -237,7 +237,17 @@ Girls-only cohort lead · MBZUAI alum
 
 MBZUAI Master's in Machine Learning. Leads our all-girls UAE cohort. Particularly skilled with younger learners (Grades 4–8).
 
-Active GST 15:00 – 20:00Honest pricing in AED
+Active GST 15:00 – 20:00Also at Modern Age Coders
+
+## Maths, taught with the same depth.
+
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For UAE students that means the school in front of them: IB, IGCSE, GCSE or an American-curriculum ladder, taught board-exact. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+
+[IB Maths (UAE)](/ib-maths-tutor-uae)[IGCSE Maths](/igcse-maths-tuition-online)[GCSE Maths](/gcse-maths-tuition-online)[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Catch-Up Program](/math-catch-up-program)[The 2026 Guide](/best-online-math-tutoring-2026)
+
+Gulf evening slots · 4.9 across 547 Google reviews · no registration fee
+
+Honest pricing in AED
 
 ## One price for the UAE: AED 368 a month. Eight live 1:1 sessions. Cancel anytime.
 
@@ -837,10 +847,25 @@ No quiz, no pop-up, no sales pressure. Leave a +971 number, a mentor working in 
 
 [Browse all courses](/courses)
 
+## Live online coding classes for students in the UAE
+
+Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
+
+### Coding classes in other countries
+
+- [Coding Classes in Australia](/coding-classes-in-australia)
+- [Coding Classes in Canada](/coding-classes-in-canada)
+- [Coding Classes in Germany](/coding-classes-in-germany)
+- [Coding Classes in Ireland](/coding-classes-in-ireland)
+- [Coding Classes in New Zealand](/coding-classes-in-new-zealand)
+- [Coding Classes in Singapore](/coding-classes-in-singapore)
+- [Coding Classes in Sweden](/coding-classes-in-sweden)
+- [Coding Classes in Switzerland](/coding-classes-in-switzerland)
+- [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
+- [Coding Classes in the United States](/coding-classes-in-united-states)
+
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-uae*
-
-## Maths, taught with the same depth
-
-The same mentors and one-hour live classes also teach maths: premium 1-on-1 USD $150/month, small group $100, free demo first. Start here: /best-online-math-tutoring-2026 /gcse-maths-tuition-online /ib-maths-tutor-uae /igcse-maths-tuition-online /math-catch-up-program /online-math-tutor-3rd-grade

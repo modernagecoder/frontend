@@ -21,18 +21,13 @@ America's coding classroom · +1 · all 50 states
 
 Live 1:1 mentorship in **Python**, modern web and **agentic AI** for K–12, college and adult learners across America. Aligned with **AP Computer Science Principles**, **AP CS A**, **USACO** (Bronze → Platinum), and the algorithmic depth **MIT**, **Stanford**, **CMU**, **Berkeley**, **Caltech** and the Ivy League actually look for. **$100 a month**, eight live sessions, two a week, cancel anytime. Mentors work in **your** time zone.
 
-## Vibe Coding & AI Agents — start where coding is going (featured)
+See AP & USACO tracks4.9/5Average parent & learner rating · 547 Google reviews50 statesMentors live in all 6 US time zones8 / moLive 1:1 sessions, 2 each week$100Per month · cancel any time · no contractThe frontier · featured
 
-Vibe coding — describe what you want, the AI drafts it, and you read, refine and ship it — together with AI coding agents like **Codex** and **Claude Code** is how engineers at OpenAI, Anthropic, Nvidia and every serious US startup actually write software in 2026. We teach the agentic workflow and the Python, algorithms and computer-science fundamentals underneath it, so your student drives the AI instead of being replaced by it — fluent for AP CS, USACO and top-tier CS admissions.
+## Vibe Coding & AI Agents — where American coding is heading.
 
-- [Vibe Coding for Kids (ages 8–12)](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- [Vibe Coding for Teens (ages 13–18)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- [AI Coding Agents — Codex & Claude Code (teens)](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
-- [AI Agents for Pros & College](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
-- [Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)
-- [Browse all courses](/courses)
+This is the part most classrooms haven't caught up to yet. **Vibe coding** — describe what you want, the AI drafts it, and you read, refine and ship it — together with **AI coding agents** like **Codex** and **Claude Code** is how engineers at OpenAI, Anthropic, Nvidia and every serious US startup actually write software in 2026. We teach the agentic workflow *and* the Python, algorithms and computer-science fundamentals underneath it — so your student **drives the AI instead of being replaced by it**, and walks into AP CS, USACO and a top-tier CS application already fluent in the tools the field now runs on.
 
-See AP & USACO tracks4.9/5Average parent & learner rating · 547 Google reviews50 statesMentors live in all 6 US time zones8 / moLive 1:1 sessions, 2 each week$100Per month · cancel any time · no contractMentors live in **all 6 US time zones**Booking now · 09:00 – 21:00 local in each zone**HT** · UTC −10Honolulu · HiloAfter-school *15:30*, evening *18:00*, Sat morning**AKT** · UTC −9Anchorage · JuneauAfter-school *16:00*, evening *18:30*, weekend**PT** · UTC −8Los Angeles · SF · SeattleAfter-school *16:30*, evening *19:00*, every slot busy**MT** · UTC −7Denver · Phoenix · SLCAfter-school *16:30*, evening *19:30*, weekend**CT** · UTC −6Chicago · Houston · AustinAfter-school *17:00*, evening *19:30*, every slot busy**ET** · UTC −5NYC · Boston · DC · AtlantaAfter-school *17:00*, evening *19:30*, every slot busyParent rating4.9 / 5 · 547 Google reviewsAligned withAP CSP · AP CSA · USACOCoverageAll 50 states · 6 time zonesCommitmentFree trial · month-to-monthPick a course · start this week
+[Browse all courses](/courses)[New · Ages 8–12  Vibe Coding for Kids Kids build real games and apps by describing ideas to AI, then learn the Scratch and Python logic underneath. Creating with AI, the way their generation will. Explore the course →](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Trending · Ages 13–18  Vibe Coding for Teens Python, web and AI projects built the modern way — prompt, generate, refine. Teens ship real products while genuinely mastering what's under the hood for AP CS and USACO. Explore the course →](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Future · Ages 13–18  AI Coding Agents — Codex & Claude Code Hands-on with the exact agents real engineers use in 2026. Teens learn to plan, prompt and ship software with an AI pair-programmer at their side — and understand every line. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[Pro · College & 18+  AI Agents for Pros & College Master Codex, Claude Code and agentic workflows to multiply your output — the exact edge US employers from FAANG to AI-first startups are hiring for right now. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)More on the frontier:[Vibe Coding for College](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Generative AI Masterclass](/courses/complete-generative-ai-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[AI & Machine Learning](/courses/ai-ml-masterclass-teens)[View all courses →](/courses)Mentors live in **all 6 US time zones**Booking now · 09:00 – 21:00 local in each zone**HT** · UTC −10Honolulu · HiloAfter-school *15:30*, evening *18:00*, Sat morning**AKT** · UTC −9Anchorage · JuneauAfter-school *16:00*, evening *18:30*, weekend**PT** · UTC −8Los Angeles · SF · SeattleAfter-school *16:30*, evening *19:00*, every slot busy**MT** · UTC −7Denver · Phoenix · SLCAfter-school *16:30*, evening *19:30*, weekend**CT** · UTC −6Chicago · Houston · AustinAfter-school *17:00*, evening *19:30*, every slot busy**ET** · UTC −5NYC · Boston · DC · AtlantaAfter-school *17:00*, evening *19:30*, every slot busyParent rating4.9 / 5 · 547 Google reviewsAligned withAP CSP · AP CSA · USACOCoverageAll 50 states · 6 time zonesCommitmentFree trial · month-to-monthPick a course · start this week
 
 ## Eight serious tracks for American learners — elementary to professional.
 
@@ -243,6 +238,16 @@ KD
 Grades K – 5
 
 Patient, child-development-aware, calm pace. Bridges Scratch to real Python so even a third-grader leaves able to write a working program.
+
+Also at Modern Age Coders
+
+## Math, taught with the same depth.
+
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at math. For American students that means the Common Core grade ladder, the algebra-to-calculus sequence, and the tests that decide things. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+
+[Grades 3-8 ladder](/online-math-tutor-3rd-grade)[Algebra 2](/algebra-2-tutoring-online)[Precalculus](/precalculus-tutoring-online)[Calculus](/calculus-tutoring-online)[SAT Math](/sat-math-tutoring-online)[AP Calculus](/ap-calculus-tutoring-online)[ISEE & SSAT](/isee-ssat-math-prep)[Summer Program](/summer-math-program-online)[Catch-Up Program](/math-catch-up-program)
+
+Every US time zone · 4.9 across 547 Google reviews · no registration fee
 
 Plain pricing · month-to-month
 
@@ -666,10 +671,25 @@ No quiz, no pop-up, no sales pressure. Leave a number, a mentor in your time zon
 
 [Browse all courses](/courses)
 
+## Live online coding classes for students in the United States
+
+Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
+
+### Coding classes in other countries
+
+- [Coding Classes in Australia](/coding-classes-in-australia)
+- [Coding Classes in Canada](/coding-classes-in-canada)
+- [Coding Classes in Germany](/coding-classes-in-germany)
+- [Coding Classes in Ireland](/coding-classes-in-ireland)
+- [Coding Classes in New Zealand](/coding-classes-in-new-zealand)
+- [Coding Classes in Singapore](/coding-classes-in-singapore)
+- [Coding Classes in Sweden](/coding-classes-in-sweden)
+- [Coding Classes in Switzerland](/coding-classes-in-switzerland)
+- [Coding Classes in the UAE](/coding-classes-in-uae)
+- [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
+
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-united-states*
-
-## Math, taught with the same depth
-
-The same mentors and one-hour live classes also teach math: premium 1-on-1 USD $150/month, small group $100, free demo first. Start here: /algebra-2-tutoring-online /ap-calculus-tutoring-online /calculus-tutoring-online /isee-ssat-math-prep /math-catch-up-program /online-math-tutor-3rd-grade /precalculus-tutoring-online /sat-math-tutoring-online /summer-math-program-online

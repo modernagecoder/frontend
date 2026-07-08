@@ -1,11 +1,11 @@
 ---
 title: "AP Statistics Tutoring Online · 1:1 AP Stats Prep — Modern Age Coders"
-description: "Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/ap-statistics-tutoring-online
 keywords: ["AP Statistics tutoring online", "AP Stats tutor", "AP Statistics prep", "AP Stats free response", "AP Statistics exam", "statistics tutor online", "hypothesis testing tutor", "confidence intervals AP Stats", "p-value explained", "AP Stats inference", "sampling distributions", "AP Statistics 5"]
 source: src/pages/ap-statistics-tutoring-online.html
 ---
-> Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online AP Statistics tutoring. We teach what the statistics actually mean — sampling, probability, inference and p-values — then train the free-response and investigative-task writing the exam scores. College Board CED aligned. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why AP Stats surprises people
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same mentor through the whole course
 - Concept rebuilt, then FRQ writing trained
 - Released AP material · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students in AP Stats together
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
@@ -174,7 +174,7 @@ The same mentor follows the whole course, so by spring they know which units and
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Coaches FRQ wording 1:1 | Yes, with feedback | No | No feedback |
 | Same mentor all course | Yes | N/A | N/A |
 | Fixes your specific misreadings | Live, in the moment | No | No |
-| Monthly price | $100 (1:1) / $40 (group) | $20–100 | $15–25 |
+| Monthly price | $150 (1:1) / $100 (group) | $20–100 | $15–25 |
 
 A review book is a useful reference. It can't read your student's FRQ answer and tell them the one phrase that turns a partial into a full score — that's what live 1:1 adds.
 
@@ -212,7 +212,7 @@ Yes — official units and skills, the exam's interpretation language, both mult
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

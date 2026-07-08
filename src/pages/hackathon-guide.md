@@ -1,91 +1,298 @@
 ---
 title: "Hackathon 1.0 Guide — How It Works, 3 Rounds, Rules & What to Build | Modern Age Coders"
-description: "The complete participant guide to Modern Age Coders Hackathon 1.0. How the hackathon works step by step: all 3 rounds (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility, prizes and the full timeline."
+description: "The complete participant guide to Modern Age Coders Hackathon 1.0. Understand exactly how the hackathon works — all 3 rounds (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility, prizes and the full timeline. Everything a participant needs, explained step by step."
 canonical: https://learn.modernagecoders.com/hackathon-guide
-keywords: ["hackathon guide", "how does a hackathon work", "hackathon rounds explained", "hackathon rules", "what to build in a hackathon", "hackathon judging criteria", "hackathon submission requirements", "online hackathon 2026", "AI hackathon rules", "Modern Age Coders Hackathon", "hackathon for beginners"]
+keywords: ["hackathon guide", "how does a hackathon work", "hackathon rules", "hackathon rounds explained", "what to build in a hackathon", "hackathon judging criteria", "hackathon submission requirements", "online hackathon 2026", "AI hackathon rules", "Modern Age Coders Hackathon", "hackathon for beginners guide", "hackathon step by step"]
 source: src/pages/hackathon-guide.html
-register_url: https://learn.modernagecoders.com/hackathon
 ---
+> The complete participant guide to Modern Age Coders Hackathon 1.0. Understand exactly how the hackathon works — all 3 rounds (idea pitch, 48-hour build sprint, grand finale), what to build, submission rules, judging criteria, allowed AI tools, eligibility, prizes and the full timeline. Everything a participant needs, explained step by step.
 
-> The complete step-by-step guide to Modern Age Coders Hackathon 1.0 — how it works, the 3 rounds, what to build, what to submit, how you're judged, the rules and the timeline.
+OverviewJourneyRoundsWhat to buildJudgingRulesFAQ[Register · ₹500](/hackathon)****What it is
 
-# How Hackathon 1.0 Works — Participant Guide
+## A build-anything hackathon to solve a real problem
 
-Modern Age Coders Hackathon 1.0 is a fully online, worldwide, build-anything hackathon open to everyone of any age, country and skill level. You register individually (₹500 in India, $10 internationally), can team up to 4 during the build round, and compete across three rounds for a ₹30,000 prize pool (top 10 builders). Any AI tool, agent or IDE is allowed.
+Modern Age Coders Hackathon 1.0 is a fully online, worldwide hackathon open to **everyone — any age, any country, any skill level**. You register as an individual, and you can form a team of up to four people once the build round begins.
 
-## Your journey — 6 steps
+The single goal: **build a working solution to a real-life problem**. Not a copy of an existing app, not a slide deck — a real thing that works and helps real people. You'll move through three rounds, and the top 10 builders share a **₹30,000 prize pool**. You can use **any AI tool, agent or IDE** you like — we're looking for the world's best *builder*, not the fastest typist.
 
-1. **Register** — sign up individually at https://learn.modernagecoders.com/hackathon and pay (₹500 / $10) before 6 June 2026.
-2. **Join your WhatsApp group** — after payment, create a WhatsApp group named "Hackathon {Your Name}" and add +91 91233 66161. All announcements, idea reviews, schedules and results are shared there.
-3. **Round 1 — Idea & Problem Pitch (7–8 June)** — submit the real-life problem you'll solve and your approach; judges shortlist the strongest ideas.
-4. **Round 2 — 48-Hour Build Sprint (9–11 June)** — build a working solution in 48 hours, solo or in a team of up to 4, using any tools. Submit project + demo video + code link.
-5. **Round 3 — Grand Finale (12–13 June)** — finalists demo live to the judges and answer questions.
-6. **Win** — judges score all finalists; the top 10 are announced and receive prizes + certificates.
+New to hackathons? Don't worry. This guide walks you through every single step.
 
-## The 3 rounds in detail
+****The journey
 
-### Round 1 — Idea & Problem Pitch (7–8 June 2026, online, screening)
-About *what* you'll build and *why it matters*, not code yet.
-- **What you do:** pick a genuine real-world problem; describe who it affects and why; explain your solution and approach; list the tools/tech you plan to use.
-- **What you submit:** a short write-up (problem + solution, ~150–300 words), optionally a rough sketch/wireframe, and your team members (or solo).
-- **Tip:** the clearer and more real the problem, the better.
+## Your path from sign-up to winning
 
-### Round 2 — 48-Hour Build Sprint (9–11 June 2026, 48 hours)
-The heart of the hackathon. Build a working solution in 48 hours. The core build must happen in this window.
-- **What you do:** build a working prototype/MVP; collaborate with your team (up to 4); use any AI tool, agent, IDE or no-code tool; stay focused.
-- **What you submit:** the working project (live link or app), a 2–3 minute demo video, a link to your code/build (e.g. GitHub), and a 3–5 line description.
-- **Tip:** build the one feature that proves your idea first; working beats perfect.
+Six simple steps. Follow them in order and you'll never be lost.
 
-### Round 3 — Grand Finale / Live Demo Day (12–13 June 2026, live)
-Finalists present.
-- **What you do:** give a short live demo; explain the problem, solution and impact; show it working; answer the judges' questions.
-- **How to prepare:** rehearse a tight 2–3 minute walkthrough; test your demo beforehand; lead with the problem then the "wow" moment.
+1
 
-## What to build
+#### Register
 
-Build a working solution to a real problem real people have. Tracks: Healthcare & Wellbeing, Education & Learning, Sustainability & Climate, FinTech & Inclusion, Daily-Life Automation, or Open/Wildcard.
+Sign up individually at [the hackathon page](/hackathon) and pay the entry fee (₹500 in India / $10 international) before **6 June 2026**. Seats are limited.
 
-A strong project: solves a real problem, actually works, has clear value (who is helped and how), and is focused (one strong feature beats many broken ones).
+2
 
-## Tools & AI policy
+#### Join your WhatsApp group
 
-Any AI tool, agent or IDE is allowed and encouraged (Cursor, Windsurf, GitHub Copilot, Claude Code, ChatGPT, Gemini, v0, Bolt, Lovable, Replit Agent, Devin, Kiro, Antigravity, and more), plus no-code/low-code tools. Fair-play expectations: the core build happens in Round 2; the project must be your own work; be ready to explain how it works in Round 3; respect licences, data and privacy.
+Right after payment you'll be asked to create a WhatsApp group named **"Hackathon {Your Name}"** and add **+91 91233 66161**. **This is your lifeline** — every announcement, idea review, schedule and result is shared in your group.
 
-## Submission checklist
+3
 
-- **Round 1:** problem statement (who + why), your solution & approach, planned tools, solo/team names.
-- **Round 2:** working project (live link/app), 2–3 min demo video, code/build link, short description.
-- All submissions go through the link shared in your WhatsApp group, before each round's deadline.
+#### Round 1 — pitch your idea
+
+Submit the real-life problem you'll solve and your plan (**7–8 June**). Our panel shortlists the strongest ideas to move forward.
+
+4
+
+#### Round 2 — build it (48 hours)
+
+The clock starts. Build a working solution in 48 hours (**9–11 June**), solo or with your team, using any tools. Submit your project, demo video and code link.
+
+5
+
+#### Round 3 — demo live
+
+Finalists present their build live to the judges and answer questions (**12–13 June**).
+
+6
+
+#### Win
+
+Judges score every finalist, the **top 10 are announced**, and prizes + certificates go out. That's it — you're a Hackathon 1.0 builder.
+
+****The 3 rounds in detail
+
+## Exactly what happens in each round
+
+Each round has a clear job, a clear deadline, and a clear thing to submit. Here's the full breakdown.
+
+Round 1 · Screening7–8 June 2026 · Online
+
+### Idea & Problem Pitch
+
+This round is about **what you'll build and why it matters** — not code yet. You pick a real-life problem and explain how you'll solve it. Our panel reviews every entry and shortlists the strongest, most impactful ideas to advance to the build round.
+
+##### What you do
+
+- Pick a genuine real-world problem.
+- Describe who it affects and why it matters.
+- Explain your solution idea & approach.
+- List the tools/tech you plan to use.
+
+##### What you submit
+
+- A short write-up (problem + solution, ~150–300 words).
+- Optional: a rough sketch, flow, or wireframe.
+- Your team members (if any), or solo.
+- Submitted via your WhatsApp group / form shared there.
+
+**Tip:** the clearer and more real your problem, the better. "An app that reminds elderly patients to take medicines and alerts family if missed" beats "a cool AI app".
+
+Round 2 · Build9–11 June 2026 · 48 hours
+
+### 48-Hour Build Sprint
+
+This is the heart of the hackathon. The clock starts and you have **48 hours to build a working solution**. Form your team (up to 4) if you want, use any AI tool, agent or IDE, and ship something real. The core of your project must be built during this window.
+
+##### What you do
+
+- Build a working prototype / MVP of your idea.
+- Collaborate with your team (up to 4 total).
+- Use any tools — AI assistants, agents, IDEs, no-code.
+- Keep it focused: working > perfect.
+
+##### What you submit
+
+- Your working project (live link or app/APK).
+- A short demo video (2–3 min) showing it work.
+- A link to your code (GitHub) or build.
+- A 3–5 line description of what it solves.
+
+**Tip:** build the one feature that proves your idea first. A small thing that truly works impresses judges more than ten half-finished features.
+
+Round 3 · Grand Finale12–13 June 2026 · Live
+
+### Live Demo Day
+
+The finalists present. You'll **demo your build live to the judges**, walk them through the problem and your solution, and answer their questions. Then scores are tallied and the **top 10 winners are crowned**.
+
+##### What you do
+
+- Give a short live demo (a few minutes).
+- Explain the problem, solution & impact clearly.
+- Show your project actually working.
+- Answer the judges' questions confidently.
+
+##### How to prepare
+
+- Rehearse a tight 2–3 minute walkthrough.
+- Have your demo ready & tested beforehand.
+- Lead with the problem, then the "wow" moment.
+- Be ready to explain your tech choices.
+
+**Tip:** tell a story — "here's the problem, here's how bad it is, watch my solution fix it". Judges remember stories, not feature lists.
+
+****What to build
+
+## Pick a problem worth solving
+
+You can build for any track below, or go fully open. The only hard rule: **it must solve a real problem real people actually have.** Here are the tracks for inspiration:
+
+#### Healthcare & Wellbeing
+
+Access, diagnosis aids, mental health, fitness, elderly & patient care.
+
+#### Education & Learning
+
+Tools that help people learn faster, cheaper, or more fairly.
+
+#### Sustainability & Climate
+
+Waste, energy, water, recycling, awareness.
+
+#### FinTech & Inclusion
+
+Money, savings, fraud prevention, access to finance.
+
+#### Daily-Life Automation
+
+AI agents that kill boring, repetitive everyday tasks.
+
+#### Open / Wildcard
+
+A real problem that fits no box. Surprise us.
+
+### What makes a strong project
+
+- **Real problem:** something people genuinely struggle with — not invented.
+- **It works:** a judge can click/use it and see it do the job.
+- **Clear value:** in one sentence, who is helped and how.
+- **Focused:** one strong feature beats many broken ones.
+
+****Tools & AI policy
+
+## Use anything to build
+
+This is an **AI-friendly hackathon**. Every AI tool, autonomous agent and AI-native IDE is allowed and encouraged: **Cursor, Windsurf, GitHub Copilot, Claude Code, ChatGPT, Gemini, v0, Bolt, Lovable, Replit Agent, Devin, Kiro, Antigravity** — and anything else. No-code and low-code tools are fine too. We want to find the best *builder*, by any means.
+
+A few fair-play expectations:
+
+- The **core build happens during Round 2** (the 48-hour sprint). Planning & design before is fine.
+- The project should be **your own work** — don't submit someone else's existing project as yours.
+- Be ready to **explain how it works** in Round 3. If you used AI to build it, that's great — just understand what you shipped.
+- Respect licences and other people's data & privacy.
+
+****Submission checklist
+
+## What to hand in
+
+##### Round 1 — idea
+
+- Problem statement (who + why).
+- Your solution & approach.
+- Planned tools/tech.
+- Solo or team names.
+
+##### Round 2 — build
+
+- Working project (live link / app).
+- 2–3 min demo video.
+- Code or build link (GitHub etc.).
+- Short description (3–5 lines).
+
+All submissions are made through the link shared in **your WhatsApp group**. Submit before each round's deadline — late entries can't be accepted because the schedule is tight.
+
+****How you're scored
 
 ## Judging criteria
 
-- **Real-World Impact — 30%:** does it solve a genuine problem people have?
-- **Innovation — 25%:** how original and clever is the idea/approach?
-- **Execution — 25%:** does it actually work? Quality, completeness, polish.
-- **Presentation — 20%:** how clearly you pitch, demo and defend it.
+Every project is scored on four things. Know these and build toward them.
 
-## Rules & eligibility
+30%
 
-- Open to anyone worldwide — any age, country, experience level. No need to be a Modern Age Coders student.
-- Registration is individual (₹500 / $10). Teams of up to 4 may form during the build round.
-- Do: solve a real problem, use any AI tool, build the core during Round 2, submit on time, be ready to demo and explain, be respectful.
-- Don't: submit someone else's project as yours, miss deadlines, use private data without permission, exceed 4 per team, register multiple times to game prizes, spam/harass.
-- Judges' decisions are final. Schedule changes (if any) are announced in your WhatsApp group.
+#### Real-World Impact
 
-## Prizes — ₹30,000 (top 10)
+Does it solve a genuine problem people actually have? How much does it help?
 
-Top 5 share ₹20,000 graduated by rank — Rank 1 ₹6,000, Rank 2 ₹5,000, Rank 3 ₹4,000, Rank 4 ₹3,000, Rank 5 ₹2,000. Ranks 6–10 each receive ₹2,000 (₹10,000). All finalists get certificates.
+25%
 
-## Timeline
+#### Innovation
 
-- **Now → 6 June 2026:** registrations open (₹500 / $10)
-- **6 June 2026, 11:59 PM IST:** registrations close
-- **7–8 June 2026:** Round 1 — idea & problem pitch
-- **9–11 June 2026:** Round 2 — 48-hour build sprint
-- **12–13 June 2026:** Round 3 — grand finale, live demos & winners
+How original and clever is the idea and the approach?
 
-## Register & contact
+25%
 
-Register: https://learn.modernagecoders.com/hackathon
-WhatsApp / call: +91 91233 66161 · Email: contact@modernagecoders.com
-Organiser: Modern Age Coders — https://learn.modernagecoders.com
+#### Execution
+
+Does it actually work? Quality, completeness and polish.
+
+20%
+
+#### Presentation
+
+How clearly you pitch, demo and defend it in the finale.
+
+****Rules & eligibility
+
+## The ground rules
+
+### Who can join
+
+- **Anyone, worldwide** — any age, any country, any experience level.
+- You don't have to be a Modern Age Coders student.
+- **Registration is individual** (₹500 / $10). You can team up (up to 4) during the build round.
+
+#### ✓ Do
+
+- Solve a real problem.
+- Use any AI tool, agent or IDE.
+- Build the core during Round 2.
+- Submit on time, every round.
+- Be ready to demo & explain your work.
+- Be respectful in the group & finale.
+
+#### ✕ Don't
+
+- Submit someone else's project as yours.
+- Miss deadlines (the schedule is tight).
+- Use private data without permission.
+- Have more than 4 people in a team.
+- Register multiple times to game prizes.
+- Spam or harass others in the group.
+
+Judges' decisions are final. Organisers may update the schedule if needed — any changes are announced in your WhatsApp group.
+
+****The rewards
+
+## ₹30,000 across the top 10
+
+The top 5 share **₹20,000** (graduated by rank) and ranks 6–10 each get **₹2,000** (₹10,000). A higher rank never earns less than a lower one. All finalists receive certificates.
+
+Rank 1₹6,000Rank 2₹5,000Rank 3₹4,000Rank 4₹3,000Rank 5₹2,000Rank 6₹2,000Rank 7₹2,000Rank 8₹2,000Rank 9₹2,000Rank 10₹2,000****Key dates
+
+## The schedule
+
+- **Now → 6 June 2026:** Registrations open (₹500 / $10).
+- **6 June 2026, 11:59 PM IST:** Registrations close.
+- **7–8 June 2026:** Round 1 — idea & problem pitch; shortlist announced.
+- **9–11 June 2026:** Round 2 — 48-hour build sprint & submission.
+- **12–13 June 2026:** Round 3 — grand finale, live demos & winners.
+
+****Questions
+
+## Frequently asked
+
+What exactly do I have to do?Register → join your WhatsApp group → Round 1 (pitch a real problem) → Round 2 (build it in 48 hours) → Round 3 (demo live to judges). This guide explains each step above.Do I need to know how to code?Helpful, but not required. Any AI tool, agent, IDE or no-code tool is allowed — what matters is shipping a working solution to a real problem. Beginners are welcome and can win.Do I have to build the project during the hackathon?Yes — the core build happens during the Round 2 sprint (9–11 June). You can plan and design beforehand, but the working build is created during the event.Can I take part solo?Absolutely. Registration is individual. If you'd like to collaborate, you can form a team of up to 4 during the build round.Where do I submit my work?Through the link shared in your WhatsApp group for each round. Make sure you've created your group ("Hackathon {Your Name}") and added +91 91233 66161.What does it cost?₹500 for participants in India, $10 USD internationally — a one-time individual registration fee.How and when are winners announced?After the live finale on 12–13 June 2026. Judges score all finalists on impact, innovation, execution and presentation; the top 10 are announced and prizes + certificates are sent out.****Ready?
+
+## Now you know how it works. Go build something real.
+
+Registrations close 6 June 2026. Lock your spot, join your group, and start.
+
+[Register now · ₹500](/hackathon)[Back to event page](/hackathon)
+
+Need help? WhatsApp / call [+91 91233 66161](https://wa.me/919123366161)
+
+[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
+---
+
+*Canonical: https://learn.modernagecoders.com/hackathon-guide*

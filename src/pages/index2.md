@@ -3,43 +3,63 @@ title: "Modern Age Coders - Online Coding & Maths Classes for All Ages | Learn W
 description: "Online coding and maths classes for ages 6-65 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!"
 canonical: https://learn.modernagecoders.com/
 keywords: ["online coding classes", "online maths tuition", "coding for kids", "coding and maths classes", "learn python for beginners", "scratch programming for kids", "coding for teenagers", "online coding classes for kids", "STEM education", "AI for kids", "learn web development", "coding for adults beginners"]
-source: src/pages/index.html
+source: src/pages/index2.html
 ---
 > Online coding and maths classes for ages 6-65 — learn from anywhere in the world. Live 1-on-1 sessions in Python, Scratch, AI, Web Dev & Mathematics. Expert instructors, hands-on projects. Book a free demo today!
 
-Coding + Maths · Ages 6–65 · Live 1-on-1
+Live online classes · ages 6 to 65 · 15+ countries · rated 4.9/5
 
-# Maths + Code Made for Each Other.
+# Maths Code Made for Each Other.
 
-We don't just teach coding and maths. We teach you how to think, build, and solve problems that actually matter. Just real skills that work in the real world at any age, any stage.
+Live, expert-led coding & maths classes for ages 6 to 65 — small batches, real projects, and a mentor who actually knows your name. See the difference in one free class.
 
-[Book a Free Demo](/contact)[View Courses →](/courses)★ **4.9****547** reviews**15+** countriessince **2020**
+[Book a Free Demo Class](/contact)
 
-make.js// where logic meets imaginationfunctionlearn(you) {const skill = code + maths;return you.build(skill);}learn(you); // real-world ready
+Free 45-minute class — no credit card, no commitment. Pick a time that suits you.
 
-*// "Talk is cheap. Show me the code."*
+**4.9/5** from 247+ parents**10,000+** students taught · 15+ countries[or browse all courses](/courses)
 
-proof.note
+S = ∑i=1n i
 
-∑ i = n(n + 1) / 2
+```
+def sum_to(n):
+    return n * (n + 1) // 2
+# sum_to(100) -> 5050
+```
 
-f(x) = ax² + bx + c
+10,000+Students Taught15+Countries4.9/5Parent Rating100%Live ClassesGetting started is easy
 
-f′(x) = 2ax + b
+## Start in 3 simple steps
 
-∫ x² dx = x³ / 3 + C
+No forms to puzzle over, no pressure. Here is exactly what happens from the moment you reach out.
 
-*“Mathematics is the music of reason.”*
+1. ### Book your free demo
 
-codingmaths
+  Tell us the learner's age and goal. It takes two minutes.
+2. ### Meet your mentor, live
 
-## Why Coding + Maths Together?
+  A real free class where we assess the level and build a learning plan.
+3. ### Learn live, grow every week
+
+  Small-batch classes, real projects, steady progress. Cancel anytime.
+
+[Book a Free Demo Class](/contact)
+
+Free 45-minute class — no credit card, cancel anytime.
+
+The world's first of its kind
+
+## Why Coding Maths Together?
 
 Most platforms teach coding OR maths. Modern Age Coders is the world's first platform that combines coding and maths, because every algorithm needs mathematical thinking and every equation clicks better when you can code it. Students from 15+ countries across Asia, the Middle East, Europe, and North America already learn with us. No matter where you are, we bring world-class education to your screen.
 
+Coding tracks
+
 ## Coding Curriculum
 
-![Scratch Programming Course](/images/kids-coding.webp)
+From first blocks to production code — a path for every age and stage.
+
+![Kids Coding Blocks Masterclass course](/images/kids-coding.webp)
 
 ### Kids Coding
 
@@ -75,7 +95,7 @@ Complete Computer Science & Informatics Practices course for Class 11 & 12. Sepa
 
 Master complex algorithms and data structures essential for technical interviews and competitive programming.
 
-[Master Algorithms](/courses/data-structures-algorithms-masterclass-college)![artificial intelligence complete masterclass college Course](/images/ai-college.webp)
+[Master Algorithms](/courses/data-structures-algorithms-masterclass-college)![Artificial Intelligence Complete Masterclass College Course](/images/ai-college.webp)
 
 ### Artificial Intelligence Complete Masterclass
 
@@ -133,17 +153,19 @@ Begin your upskilling journey with expert instructors
 
 ### Queen Coders
 
-A special batch designed exclusively for girls! 👑 Build coding confidence, leadership skills, and creativity in a supportive and empowering environment. Learn, lead, and shine together with #ModernAgeCoders.
+A special batch designed exclusively for girls! Build coding confidence, leadership skills, and creativity in a supportive and empowering environment. Learn, lead, and shine together with #ModernAgeCoders.
 
 [Join Us](/courses/queen-coders-advanced-tech-leadership)![Princess Coders Course](/images/princess-coders.webp)
 
 ### Princess Coders
 
-A special coding batch for all the young princesses who dream big! 👑 Learn to create apps, games, and websites while building confidence and leadership in the digital world. Step into tech with creativity, courage, and fun!
+A special coding batch for all the young princesses who dream big! Learn to create apps, games, and websites while building confidence and leadership in the digital world. Step into tech with creativity, courage, and fun!
 
-[Join Us](/courses/princess-coders-complete-coding-masterclass)[View All Courses](/courses/coding/girls)
+[Join Us](/courses/princess-coders-complete-coding-masterclass)[View All Courses](/courses/coding/girls)Maths tracks
 
 ## Online Maths Tuition — From School to Advanced
+
+Concept-first teaching that builds genuine number sense and reasoning — at every level.
 
 ![Elementary Mathematics Course](/images/elementary-maths.webp)
 
@@ -205,11 +227,11 @@ Master quantitative finance, risk analysis, financial modeling, and business mat
 
 Learn statistics, probability, machine learning mathematics, and data science fundamentals for analytics professionals.
 
-[Analyze Data](/courses/data-analytics-mathematics-masterclass)[View All Courses](/courses/mathematics/professional)
+[Analyze Data](/courses/data-analytics-mathematics-masterclass)[View All Courses](/courses/mathematics/professional)Pricing
 
 ## Affordable Plans, High-Quality Knowledge
 
-So that everyone can code and learn real maths.
+Simple monthly plans, no hidden fees, cancel anytime — so anyone can learn to code and master real maths. Start with a free demo before you pay.
 
 ### Group Classes
 
@@ -363,9 +385,13 @@ Begin your personalized learning journey
 
 *Starting prices listed. Other plans and prices may vary.
 
+Get started
+
 ## Try Coding and Maths
 
-Tell us what you want to learn, and we'll help you get started on your coding and maths journey!
+Tell us what you want to learn and we'll set up your free demo class — usually within 24 hours. No credit card, no commitment.
+
+Compare
 
 ## Why Choose Modern Age Coders?
 
@@ -391,9 +417,9 @@ See how we stand out from traditional coding institutes and online platforms
 
 ### Ready to Experience the Difference?
 
-Book a free demo class and see why 10,000+ students trust Modern Age Coders
+Book a free demo class and see why 10,000+ students trust Modern Age Coders. Free 45 minutes, no credit card, no commitment.
 
-[Book a Free Demo](/contact)
+[Book a Free Demo Class](/contact)The advantage
 
 ## The Modern Age Coders Advantage
 
@@ -431,43 +457,47 @@ Receive a completion certificate to showcase your newly acquired skills.
 
 Can't attend live? Get access to recorded sessions so you can learn at your own pace.
 
+For everyone
+
 ## Coding and Maths are for Everyone
 
 Our comprehensive learning paths are designed to meet you wherever you are in your journey, from first steps to advanced mastery.
 
-[Corporate](https://learn.modernagecoders.com/category/corporate.html)[Professionals](https://learn.modernagecoders.com/category/professionals.html)[College](https://learn.modernagecoders.com/category/college.html)[Teens](https://learn.modernagecoders.com/category/teens.html)[Kids](https://learn.modernagecoders.com/category/kids.html)
+[Corporate](https://learn.modernagecoders.com/category/corporate.html)[Professionals](https://learn.modernagecoders.com/category/professionals.html)[College](https://learn.modernagecoders.com/category/college.html)[Teens](https://learn.modernagecoders.com/category/teens.html)[Kids](https://learn.modernagecoders.com/category/kids.html)Student work
 
 ## From Concept to Creation
 
 Our students apply what they learn to build amazing, real-world projects. Here's a glimpse of their work.
 
-![Student project screenshot](/images/projects/fresh.webp)
+![FreshTrack food expiry tracker student project screenshot](/images/projects/fresh.webp)
 
 ### FreshTrack - Food Expiry Tracker
 
 A smart food management system that helps users track and manage food expiry dates efficiently. Users can add, update, and delete food items while the app checks expiry automatically. Built with HTML, CSS, JavaScript, MongoDB, and local storage for real-time and offline tracking
 
-- by Tanish![Student project screenshot](/images/projects/baby.webp)
+- by Tanish![Typing speed test student project screenshot](/images/projects/baby.webp)
 
 ### Baby Website
 
 A fun and engaging typing speed website where students can test their typing skills in real time. It tracks accuracy, speed, and displays a leaderboard to see who’s the fastest typer among friends!
 
-- by Kritika![Student project screenshot](/images/projects/wordcounter.webp)
+- by Kritika![Word counter student project screenshot](/images/projects/wordcounter.webp)
 
 ### Word Counter
 
 An intelligent tool that instantly counts the number of words, sentences, paragraphs, and letters in your text. Perfect for students to analyze and improve their writing structure and accuracy!
 
-- by Vansh[View More Projects](https://learn.modernagecoders.com/student-labs)![Modern Age Coders Certificate of Completion](/images/somraj-certificate.webp)![Modern Age Coders Certificate of Completion](/images/paarth-certificate.webp)![Modern Age Coders Certificate of Completion](/images/vanshika-certificate.webp)![Modern Age Coders Certificate of Completion](/images/pratham-certificate.webp)
+- by Vansh[View More Projects](https://learn.modernagecoders.com/student-labs)![Modern Age Coders Certificate of Completion](/images/somraj-certificate.webp)![Modern Age Coders Certificate of Completion](/images/paarth-certificate.webp)![Modern Age Coders Certificate of Completion](/images/vanshika-certificate.webp)![Modern Age Coders Certificate of Completion](/images/pratham-certificate.webp)Certification
 
-### Our Certificates are earned,never given
+### Our Certificates are earned, never given
 
 Upon completing any learning path, you'll receive a Certificate of Completion. It's more than a document—it's a testament to your dedication and a powerful asset for your career.
 
 - Verifiable Credentials
 - Sharable on LinkedIn
 - Portfolio-Ready Asset
+
+Loved by parents
 
 ## What Parents Say About Us
 
@@ -543,7 +573,7 @@ Samridho Mondal
 
 Student at grade 9
 
-[Post Your Review on Google](https://g.page/r/Cff_QkHNaP9yEAE/review)
+[Post Your Review on Google](https://g.page/r/Cff_QkHNaP9yEAE/review)The journey
 
 ## Learning Roadmap
 
@@ -573,7 +603,7 @@ Node.jsDatabasesPHASE 4
 
 Dive into specialized areas like AI, machine learning, or mobile development.
 
-AI/MLMobile Dev
+AI/MLMobile DevWhy it matters
 
 ## Why Learn Coding & Mathematics?
 
@@ -627,7 +657,111 @@ William Paul Thurston
 
 Join over 10,000 students learning Python, JavaScript, Java, web development, data science, and AI with expert instructors at Modern Age Coders
 
-[Explore Coding Courses](/courses)[Get Free Consultation](/contact)
+[Explore Coding Courses](/courses)[Get Free Consultation](/contact)FAQ
+
+## Frequently Asked Questions
+
+### What is Modern Age Coders?
+
++
+
+Modern Age Coders is a platform dedicated to teaching Coding and Maths to young minds aged 6–18 and college students aged 18–21. We also collaborate with companies to help build their systems and automation tools, offering practical exposure to real-world projects.
+
+### Do I need any prior coding experience?
+
++
+
+No prior experience is necessary for our beginner courses! We start from the absolute basics. For advanced courses, we recommend completing our foundational programs first.
+
+### How do online classes work?
+
++
+
+Our classes combine live instruction with interactive coding environments. Students attend scheduled virtual sessions, complete hands-on projects, and have access to recordings and resources.
+
+### What equipment does my child need?
+
++
+
+Students need a computer (Windows, Mac, or Chromebook) with a reliable internet connection. Most of our courses run in the browser, so no special software installation is required.
+
+### What age groups are your courses for?
+
++
+
+Our courses are designed for students aged 6–65, with different difficulty levels tailored to specific age groups. We have beginner courses for younger students and advanced material for teens, college students and professionals.
+
+### What courses do you offer?
+
++
+
+We offer a range of Coding and Maths courses tailored to different age groups and skill levels — from beginners to advanced. Our curriculum includes programming, computational thinking, and maths modules; check our website for the full course list and details on company-collaboration projects.
+
+### What programming languages do you teach?
+
++
+
+We teach languages and tools most useful for students’ learning paths and industry relevance — including Python, JavaScript, Java, HTML, CSS, and block-based platforms like Scratch. Our courses pair Coding with Maths concepts where appropriate, and selected modules align with company project needs.
+
+### Are classes live or pre-recorded?
+
++
+
+Classes are conducted live, with recordings available for revision. Live sessions cover interactive Coding demos and Maths problem walkthroughs; recordings help students revise concepts and project steps used in company-style development.
+
+### What is the batch size?
+
++
+
+We maintain small batches to ensure personalized attention for each student. Small groups are ideal for hands-on Coding help and maths doubt-clearing, and allow instructors to simulate collaborative team settings similar to companies.
+
+### Do you offer any free trial classes?
+
++
+
+Yes, we offer one free trial class so students and parents can evaluate our teaching style. Trial sessions can cover a sample Coding lesson or a Maths concept, and will also explain how company collaboration projects are integrated into advanced courses.
+
+### Is there an option to pay fees in installments?
+
++
+
+Yes, we provide flexible payment options including installments for many courses. Payment plans are available for both Coding and Maths programs, and for students joining longer, company-linked project tracks.
+
+### What if I miss a class?
+
++
+
+Recorded sessions are available for all classes so you can catch up. Recordings include Coding demos and Maths explanations; project notes and any company-related tasks will also be accessible for review.
+
+### Do you offer certificates after completion?
+
++
+
+Yes, every student receives a certificate upon completing their course. The certificate mentions the Coding and Maths skills learned and, where applicable, company projects completed during the program.
+
+### Can adults or parents join the classes?
+
++
+
+Yes, parents or adult learners are welcome to join beginner or professional courses in Coding, Maths, and automation, especially if they wish to upskill for work or business purposes.
+
+### Do you offer personalized 1:1 mentoring?
+
++
+
+Yes, we provide personalized mentoring sessions to ensure focused learning. Students can choose 1:1 guidance for advanced Coding, competitive Maths, or company-related project topics.
+
+### What makes Modern Age Coders different from other institutes?
+
++
+
+We not only teach Coding and Maths but also collaborate directly with companies to build systems and tools. Students get real exposure through live projects, which makes learning more practical and impactful.
+
+### How can I contact Modern Age Coders?
+
++
+
+You can reach us at 9123366161 or visit our website [www.modernagecoders.com](https://www.modernagecoders.com) to explore all Coding and Maths programs and company collaboration opportunities.
 
 ---
 

@@ -11,9 +11,13 @@ source: src/pages/coding-classes-in-india.html
 
 Enter your number, we'll call you right back!
 
+Or contact [9123366161](https://wa.me/919123366161?text=Hi%2C%20I%20need%20help%20%E2%80%93%20please%20get%20in%20touch) directly for a faster response
+
 #### We'll call you soon!
 
 Expect a call within 3 hours
+
+For a faster response, contact [9123366161](https://wa.me/919123366161?text=Hi%2C%20I%20just%20requested%20a%20callback) directly
 
 National Coverage
 
@@ -170,11 +174,69 @@ We also run dedicated landing pages for our families outside India. Every page i
 - [🇮🇪 Coding classes in Ireland](/coding-classes-in-ireland)
 - [🇳🇿 Coding classes in New Zealand](/coding-classes-in-new-zealand)
 
+## Explore coding classes by topic & language
+
+Beyond your city, pick the track you want to learn. Each pillar links every level — kids to professionals — with small 4–8 student batches and real projects.
+
+- [AI & Machine Learning course in India](/best-ai-and-machine-learning-course-in-india)
+- [Java classes in India](/best-java-classes-in-india)
+- [C++ classes in India](/best-c-plus-plus-classes-in-india)
+- [Python & AI for kids & teens](/python-and-ai-classes-for-kids-teens)
+- [Online maths tuition](/online-maths-tuition)
+- [Coding classes for girls](/coding-classes-for-girls)
+- [Vibe Coding classes (AI-powered)](/vibe-coding-classes)
+- [Course Atlas — all 70+ courses](/course-atlas)
+
 ## Don't see your city or class? We still teach you.
 
 All our classes are live, online and 1-on-1. Every student from anywhere in India or the world gets the same expert-led program. Book a free demo and we'll match you with the right batch.
 
-[Book a free demo →](/book-demo)[Ask Misti AI](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+[Book a free demo →](/book-demo)
+
+## Browse coding classes by state & city
+
+Live online coding and maths classes for kids, teens and adults across India — small 4–8 student batches, expert mentors, real projects. Choose your state or city below.
+
+### Coding classes by state
+
+- [Coding Classes in Andhra Pradesh](/coding-classes-in-andhra-pradesh)
+- [Coding Classes in Assam](/coding-classes-in-assam)
+- [Coding Classes in Bihar](/coding-classes-in-bihar)
+- [Coding Classes in Chhattisgarh](/coding-classes-in-chhattisgarh)
+- [Coding Classes in Goa](/coding-classes-in-goa)
+- [Coding Classes in Gujarat](/coding-classes-in-gujarat)
+- [Coding Classes in Haryana](/coding-classes-in-haryana)
+- [Coding Classes in Himachal Pradesh](/coding-classes-in-himachal-pradesh)
+- [Coding Classes in Jharkhand](/coding-classes-in-jharkhand)
+- [Coding Classes in Karnataka](/coding-classes-in-karnataka)
+- [Coding Classes in Kerala](/coding-classes-in-kerala)
+- [Coding Classes in Madhya Pradesh](/coding-classes-in-madhya-pradesh)
+- [Coding Classes in Maharashtra](/coding-classes-in-maharashtra)
+- [Coding Classes in Odisha](/coding-classes-in-odisha)
+- [Coding Classes in Punjab](/coding-classes-in-punjab)
+- [Coding Classes in Rajasthan](/coding-classes-in-rajasthan)
+- [Coding Classes in Tamil Nadu](/coding-classes-in-tamil-nadu)
+- [Coding Classes in Telangana](/coding-classes-in-telangana)
+- [Coding Classes in Uttar Pradesh](/coding-classes-in-uttar-pradesh)
+- [Coding Classes in Uttarakhand](/coding-classes-in-uttarakhand)
+- [Coding Classes in West Bengal](/coding-classes-in-west-bengal)
+
+### Popular cities
+
+- [Best Coding Class in Mumbai](/best-coding-class-in-mumbai)
+- [Best Coding Class in Delhi](/best-coding-class-in-delhi)
+- [Best Coding Class in Bengaluru](/best-coding-class-in-bengaluru)
+- [Best Coding Class in Hyderabad](/best-coding-class-in-hyderabad)
+- [Best Coding Class in Chennai](/best-coding-class-in-chennai)
+- [Best Coding Class in Kolkata](/best-coding-class-in-kolkata)
+- [Best Coding Class in Pune](/best-coding-class-in-pune)
+- [Best Coding Class in Ahmedabad](/best-coding-class-in-ahmedabad)
+- [Best Coding Class in Jaipur](/best-coding-class-in-jaipur)
+- [Best Coding Class in Lucknow](/best-coding-class-in-lucknow)
+- [Best Coding Class in Indore](/best-coding-class-in-indore)
+- [Best Coding Class in Chandigarh](/best-coding-class-in-chandigarh)
+
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Best Coding Classes Online](/best-coding-classes-online)[Ask Misti AI](https://misti.modernagecoders.com)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

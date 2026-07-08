@@ -210,7 +210,7 @@ Your pace, your goals, your schedule
 
 per month
 
-- 2 private sessions per week
+- 2 private sessions per week (1 hour each)
 - 100% customized to your syllabus
 - Flexible scheduling (any timezone)
 - Dedicated tutor assigned
@@ -230,7 +230,7 @@ Popular
 
 Learn with peers, grow together
 
-$40
+$100
 
 USD / month
 
@@ -242,17 +242,17 @@ USD / month
 - Doubt clearing support
 - Course completion certificate
 
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Group Maths Classes ($40 USD/month). Can you share more details?)Recommended
+[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Group Maths Classes ($100 USD/month). Can you share more details?)Recommended
 
 ### Personalized 1-on-1
 
 Your pace, your goals, your schedule
 
-$80
+$150
 
 USD / month
 
-- 2 private sessions per week
+- 2 private sessions per week (1 hour each)
 - 100% customized to your curriculum
 - Flexible scheduling across timezones
 - Dedicated tutor + priority support
@@ -261,7 +261,7 @@ USD / month
 - Lifetime recording access
 - Portfolio and career guidance
 
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Personalized 1-on-1 Maths Classes ($100 USD/month). Can you share more details?)
+[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Personalized 1-on-1 Maths Classes ($150 USD/month). Can you share more details?)
 
 Also available in EUR, GBP, CAD, AUD, SGD & AED.
 Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.
@@ -344,7 +344,7 @@ FAQ
 
 Quick answers to the questions parents and students ask most about our online maths tuition.
 
-Yes. Research shows that personalized online maths tuition often outperforms classroom learning because students get individual attention, can learn at their own pace, and have access to recorded sessions for revision. Our students regularly improve their grades by 20-40% within the first 3 months.At Modern Age Coders, group maths classes start at just ₹1,499/month for Indian students or $40/month for international students. Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 sessions are ₹4,999/month or $100/month. There are no hidden fees and you can cancel anytime.We cover CBSE, ICSE, all Indian State Boards, IB (International Baccalaureate), IGCSE, Cambridge (A/AS Level), US Common Core, and Australian National Curriculum. Our tutors customize lessons based on your specific syllabus and textbook.Absolutely. We have students from 15+ countries including the US, UK, UAE, Canada, Singapore, Australia, and across Europe. Classes are scheduled at times that work across different time zones. International students pay in USD, with support for EUR, GBP, CAD, AUD, SGD, and AED as well.We teach maths to students from age 6 all the way to 65. Our curriculum covers primary school (Class 1-5), middle school (Class 6-8), high school (Class 9-12), college-level mathematics, and competitive exam preparation for working professionals.Yes. We offer dedicated Olympiad preparation covering IMO, RMO, IOQM, AMC, and MATHCOUNTS. Our advanced track also covers JEE Maths, SAT Math, and GRE Quantitative preparation. These sessions focus on problem-solving techniques, proof strategies, and advanced reasoning.Book a free demo class. We will assess your current level, understand your goals, and recommend the right plan. There is no commitment required for the demo. You can start your regular classes from the very next week.That is exactly why we exist. Our tutors specialize in building confidence from the ground up. We start with foundational gaps, fill them patiently, and gradually build speed and accuracy. Many of our students went from failing grades to scoring 90+ within 6 months.
+Yes. Research shows that personalized online maths tuition often outperforms classroom learning because students get individual attention, can learn at their own pace, and have access to recorded sessions for revision. Our students regularly improve their grades by 20-40% within the first 3 months.At Modern Age Coders, group maths classes start at just ₹1,499/month for Indian students or $100/month for international students. Mini Batch (3-4 students) is ₹2,499/month. Personalized 1-on-1 sessions are ₹4,999/month or $150/month. There are no hidden fees and you can cancel anytime.We cover CBSE, ICSE, all Indian State Boards, IB (International Baccalaureate), IGCSE, Cambridge (A/AS Level), US Common Core, and Australian National Curriculum. Our tutors customize lessons based on your specific syllabus and textbook.Absolutely. We have students from 15+ countries including the US, UK, UAE, Canada, Singapore, Australia, and across Europe. Classes are scheduled at times that work across different time zones. International students pay in USD, with support for EUR, GBP, CAD, AUD, SGD, and AED as well.We teach maths to students from age 6 all the way to 65. Our curriculum covers primary school (Class 1-5), middle school (Class 6-8), high school (Class 9-12), college-level mathematics, and competitive exam preparation for working professionals.Yes. We offer dedicated Olympiad preparation covering IMO, RMO, IOQM, AMC, and MATHCOUNTS. Our advanced track also covers JEE Maths, SAT Math, and GRE Quantitative preparation. These sessions focus on problem-solving techniques, proof strategies, and advanced reasoning.Book a free demo class. We will assess your current level, understand your goals, and recommend the right plan. There is no commitment required for the demo. You can start your regular classes from the very next week.That is exactly why we exist. Our tutors specialize in building confidence from the ground up. We start with foundational gaps, fill them patiently, and gradually build speed and accuracy. Many of our students went from failing grades to scoring 90+ within 6 months.
 
 ## Why Online Maths Tuition Works Better in 2026
 

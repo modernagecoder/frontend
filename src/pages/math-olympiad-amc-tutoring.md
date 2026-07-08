@@ -1,11 +1,11 @@
 ---
 title: "Math Olympiad & AMC Tutoring Online · 1:1 AMC 8/10/12 & MATHCOUNTS Coaching — Modern Age Coders"
-description: "Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/math-olympiad-amc-tutoring
 keywords: ["math olympiad tutoring online", "AMC tutor", "AMC 8 prep", "AMC 10 prep", "AMC 12 prep", "MATHCOUNTS coaching", "AIME prep", "competition math tutor", "math olympiad coach", "problem solving math", "number theory combinatorics tutor", "math competition prep"]
 source: src/pages/math-olympiad-amc-tutoring.html
 ---
-> Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online math olympiad coaching for AMC 8, AMC 10, AMC 12, MATHCOUNTS and the AIME pathway. We teach problem-solving — number theory, combinatorics, clever geometry — the way competition math is really won. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why strong students still stall on the AMC
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Coaching
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same coach building a long-term arc
 - Pitched to your child's contest and division
 - Past-paper practice · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few keen students solving together
 - Same coaching approach, lower price
 - Great for a math-club crew · cancel any time
@@ -174,7 +174,7 @@ Your child keeps the same coach, who builds a deliberate arc across topics and k
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Teaches heuristics, not formulas | Yes | Implicitly | Varies |
 | Same coach, long-term arc | Yes | N/A | Usually not |
 | Adapts pace to the student | Fully | You self-pace | Fixed schedule |
-| Monthly price | $100 (1:1) / $40 (group) | $20–40 | $200–500+ |
+| Monthly price | $150 (1:1) / $100 (group) | $20–40 | $200–500+ |
 
 Great problem books are essential and we use them. What a book can't do is watch your child get stuck and give the one nudge that teaches them to get unstuck themselves.
 
@@ -212,7 +212,7 @@ We coach toward it honestly. It's realistic for many committed students over tim
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

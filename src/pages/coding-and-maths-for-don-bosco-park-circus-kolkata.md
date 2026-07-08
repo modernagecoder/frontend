@@ -230,6 +230,14 @@ Do you offer classes specifically for Don Bosco Park Circus students?+Yes! While
 
 [How We Teach (Free Demo Library)](/how-we-teach)[Coding for ICSE Students](/coding-for-icse-students)[ICSE Computer Applications (Java)](/computer-applications-icse-class-10)[Online Maths Tuition](/online-maths-tuition)[Learn Coding by Class](/learn-coding-by-class)[Student Success Stories](/success-stories)[All School Programmes](/schools)
 
+## Coding & maths classes for residential complexes near Don Bosco Park Circus
+
+Many Don Bosco Park Circus families live in these nearby housing complexes and societies, where we run live online coding and maths classes in small batches.
+
+- [Coding classes for Ideal Niketan, Tangra](/coding-classes-in-ideal-niketan-tangra)
+- [Coding classes for Sugam Habitat, Picnic Garden](/coding-classes-in-sugam-habitat)
+- [Coding classes for Udayan The Condoville, EM Bypass](/coding-classes-in-udayan-condoville-em-bypass)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-and-maths-for-don-bosco-park-circus-kolkata*

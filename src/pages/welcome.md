@@ -23,4 +23,4 @@ Please contact +91 91233 66161 on **WhatsApp** or **call** to confirm **your cla
 2. You'll receive your batch details, class link, and onboarding kit.
 3. Your first class will be scheduled at your chosen time.
 
-[Back to home](/)
+[Back to home](/)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)

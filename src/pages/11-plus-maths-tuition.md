@@ -1,11 +1,11 @@
 ---
 title: "11 Plus Maths Tuition Online · 1:1 GL & CEM 11+ Maths Prep — Modern Age Coders"
-description: "Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/11-plus-maths-tuition
 keywords: ["11 plus maths tuition", "11+ maths tutor online", "11 plus maths prep", "GL assessment maths", "CEM 11 plus maths", "grammar school maths entry", "independent school 11+ maths", "11 plus problem solving", "11+ maths past papers", "year 5 11 plus maths", "11 plus reasoning maths", "online 11 plus tutor UK"]
 source: src/pages/11-plus-maths-tuition.html
 ---
-> Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online 11 Plus maths tuition for GL and CEM-style exams. We build real number fluency and problem-solving for grammar and independent school entry — not just past-paper drilling — with the timed-reasoning skills the 11+ rewards. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why 11+ prep often backfires
 
@@ -128,7 +128,7 @@ One child, one tutor, real-time video with a shared whiteboard for working probl
 
 ### 8 lessons a month
 
-Two each week, around 45 minutes, paced for the exam timeline without overload.
+Two each week, around 60 minutes, paced for the exam timeline without overload.
 
 ### UK time
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated tutor to the exam
 - Tailored to GL, CEM or your target schools
 - Notes after every lesson · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few children at the same stage
 - Same teaching approach, lower price
 - A friendly option · cancel any time
@@ -174,7 +174,7 @@ The same tutor stays to the exam, so they know exactly which question types stil
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Keeps the child confident | A priority | You manage it | Often not |
 | Same tutor to the exam | Yes | N/A | Usually |
 | Strengthens school maths too | Yes | No | Sometimes |
-| Monthly price | $100 (1:1) / $40 (group) | £10–30 | £30–50/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £10–30 | £30–50/hr |
 
 Past-paper packs are a useful part of preparation, and we use them — but only on top of the reasoning and confidence that make a child perform when a question surprises them.
 
@@ -212,7 +212,7 @@ Yes — we build speed gradually on a foundation of understanding and teach calm
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

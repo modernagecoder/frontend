@@ -7,7 +7,7 @@ source: src/pages/hackathon.html
 ---
 > Modern Age Coders Hackathon 1.0 — the biggest build-anything online hackathon. Open to everyone worldwide, all ages. Solve a real-life problem, win from a ₹30,000 prize pool (top 10 builders). 3 rounds, 48-hour build sprint, any AI tool, agent or IDE allowed. Register individually for just ₹500. Registrations closing soon — sign up now!
 
-AboutPrizesRoundsTracksTimelineFAQ₹*30K*Prize Pool48*h*Build Sprint3Rounds10Winners Paid₹*500*Entry Fee****The mission
+AboutPrizesRoundsTracksTimelineFAQ[Guide](/hackathon-guide)₹*30K*Prize Pool48*h*Build Sprint3Rounds10Winners Paid₹*500*Entry Fee****The mission
 
 ## Don't build a demo. Build something real.
 
@@ -44,6 +44,8 @@ CursorWindsurfGitHub CopilotClaude CodeChatGPTGeminiv0BoltLovableReplit AgentDev
 ## Three rounds to the top
 
 From idea to built to defended live on stage. Make it through all three.
+
+[Read the full participant guide — how everything works →](/hackathon-guide)
 
 01Round 1 · Pitch
 
@@ -213,7 +215,7 @@ The **₹30,000 prize pool** is split so the top 10 builders are all rewarded: t
 
 Registrations close soon and seats are limited. Lock in your spot for ₹500 and take your shot at the ₹30,000 pool.
 
-Registrations close in00Days00Hours00Mins00SecsNeed help? WhatsApp / call [+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20register%20for%20Modern%20Age%20Coders%20Hackathon%201.0)
+Registrations close in00Days00Hours00Mins00SecsNeed help? WhatsApp / call [+91 91233 66161](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20register%20for%20Modern%20Age%20Coders%20Hackathon%201.0)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
 
 ---
 

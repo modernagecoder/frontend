@@ -1,11 +1,11 @@
 ---
 title: "Online Maths Tutoring for College Students in the USA · 1:1 Calculus, Linear Algebra & Stats — Modern Age Coders"
-description: "Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tutoring-for-college-students-in-usa
 keywords: ["online math tutoring for college students USA", "college calculus tutor", "calculus 1 tutor online", "calculus 2 tutor", "multivariable calculus help", "linear algebra tutor online", "discrete math tutor", "probability tutor", "college statistics tutor", "differential equations help", "proof writing tutor", "university math help"]
 source: src/pages/online-maths-tutoring-for-college-students-in-usa.html
 ---
-> Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online math tutoring for US college and university students. Calculus, linear algebra, discrete math, probability, statistics and proof writing — taught from the ideas up, not memorized. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why college math gets people
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same dedicated mentor through the term
 - Taught to your course, textbook & problem sets
 - Exam-season review · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students in the same course or topic
 - Same teaching approach, lower price
 - Good for shared classes · cancel any time
@@ -174,7 +174,7 @@ You keep the same mentor through the term, so there's no re-explaining your cour
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Works from your syllabus | Yes | No | Sometimes |
 | Same mentor all term | Yes | N/A | Rarely — drop-in |
 | Handles proof-based courses | Yes | Poorly | Sometimes |
-| Monthly price | $100 (1:1) / $40 (group) | $15–30 | Free–$ varies |
+| Monthly price | $150 (1:1) / $100 (group) | $15–30 | Free–$ varies |
 
 Campus centers are a great free resource when you can get consistent help. We add a dedicated mentor who knows your course and your gaps from week to week.
 
@@ -212,7 +212,7 @@ Yes — we teach the method on problem sets rather than handing over solutions, 
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

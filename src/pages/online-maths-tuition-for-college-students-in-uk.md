@@ -1,11 +1,11 @@
 ---
 title: "Online Maths Tuition for College & Sixth Form in the UK · 1:1 A-Level & University Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-for-college-students-in-uk
 keywords: ["sixth form maths tutor", "college maths tuition UK", "A-level maths tutor online", "university maths tutor", "16-19 maths help", "further education maths", "maths tutor for sixth form", "undergraduate maths help", "STEP maths tutor", "A-level maths revision", "college maths UK", "maths foundation year tutor"]
 source: src/pages/online-maths-tuition-for-college-students-in-uk.html
 ---
-> Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online maths tuition for UK sixth-form and college students (16–19) and undergraduates. A-Level pure and applied, university foundation maths, proof and STEP — taught from the ideas up. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why this stage catches students out
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated tutor through the year
 - Taught to your specification or module
 - Exam-season revision · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students on the same course
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
@@ -174,7 +174,7 @@ You keep the same tutor through the year, so there's no re-explaining your cours
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Works to your spec or module | Yes | Generic | Sometimes |
 | Same tutor all year | Yes | N/A | Rarely |
 | Handles proof & STEP | Yes | Limited | Sometimes |
-| Monthly price | $100 (1:1) / $40 (group) | Free–£15 | Free |
+| Monthly price | $150 (1:1) / $100 (group) | Free–£15 | Free |
 
 University drop-in help and revision sites are useful free resources. We add a dedicated tutor who knows your course and your gaps from week to week.
 
@@ -212,7 +212,7 @@ Yes — calculus, linear algebra, analysis, statistics and proof-based modules, 
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

@@ -1,11 +1,11 @@
 ---
 title: "Functional Skills Maths Tuition Online · 1:1 Entry 3, Level 1 & Level 2 — Modern Age Coders"
-description: "Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/functional-skills-maths-tuition-online
 keywords: ["functional skills maths tuition", "functional skills maths level 2", "functional skills maths level 1", "entry level 3 maths", "functional skills maths online", "functional skills maths exam", "functional skills maths for apprenticeship", "adult functional skills maths", "online functional skills tutor UK", "pass functional skills maths", "functional skills maths practice"]
 source: src/pages/functional-skills-maths-tuition-online.html
 ---
-> Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online Functional Skills maths tuition for Entry Level 3, Level 1 and Level 2. We teach the real, everyday maths the exam tests — money, measures, data — for apprenticeships, college and work. Patient, no judgment. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why Functional Skills can feel like a barrier
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same patient tutor throughout
 - Pitched to your level and your deadline
 - Sample-assessment practice · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few learners at the same level
 - Same teaching approach, lower price
 - A friendly option · cancel any time
@@ -186,7 +186,7 @@ An honest comparison
 | Patient with maths anxiety | Built for it | You're on your own | Class setting |
 | Fills your specific gaps 1:1 | Yes | No | Rarely |
 | Fits around your work | Fully flexible | Self-paced | Fixed times |
-| Monthly price | $100 (1:1) / $40 (group) | Free–£20 | Varies |
+| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | Varies |
 
 Free courses are great if you already know your gaps and can self-motivate. We add a patient tutor who finds the gaps, keeps it calm, and fits around your job.
 
@@ -212,7 +212,7 @@ Not at all — most of our Functional Skills learners are returning adults. We s
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

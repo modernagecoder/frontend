@@ -1,11 +1,11 @@
 ---
 title: "UKMT Maths Challenge Tutoring · 1:1 Junior, Intermediate & Senior Challenge — Modern Age Coders"
-description: "Live 1:1 online UKMT Maths Challenge coaching — Junior, Intermediate and Senior Challenges, Kangaroo and the BMO pathway. We teach genuine problem-solving and elegant insight, not formula drilling. Same coach, UK time. USD 100/month, 8 sessions. Free trial."
+description: "Live 1:1 online UKMT Maths Challenge coaching — Junior, Intermediate and Senior Challenges, Kangaroo and the BMO pathway. We teach genuine problem-solving and elegant insight, not formula drilling. Same coach, UK time. USD 150/month, 8 sessions. Free trial."
 canonical: https://learn.modernagecoders.com/ukmt-maths-challenge-tutoring
 keywords: ["UKMT maths challenge tutoring", "junior maths challenge prep", "intermediate maths challenge", "senior maths challenge", "UK maths challenge coach", "maths kangaroo prep", "British Maths Olympiad", "BMO tutor", "maths olympiad UK", "competition maths tutor UK", "gifted maths tutor UK", "problem solving maths challenge"]
 source: src/pages/ukmt-maths-challenge-tutoring.html
 ---
-> Live 1:1 online UKMT Maths Challenge coaching — Junior, Intermediate and Senior Challenges, Kangaroo and the BMO pathway. We teach genuine problem-solving and elegant insight, not formula drilling. Same coach, UK time. USD 100/month, 8 sessions. Free trial.
+> Live 1:1 online UKMT Maths Challenge coaching — Junior, Intermediate and Senior Challenges, Kangaroo and the BMO pathway. We teach genuine problem-solving and elegant insight, not formula drilling. Same coach, UK time. USD 150/month, 8 sessions. Free trial.
 
 Why top students still find the Challenge hard
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Coaching
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same coach building a long-term arc
 - Pitched to your child's Challenge and year
 - Past-paper practice · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few keen students solving together
 - Same coaching approach, lower price
 - Great for a maths-club crew · cancel any time
@@ -174,7 +174,7 @@ Your child keeps the same coach, who builds a deliberate arc across topics and k
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Teaches heuristics, not formulas | Yes | Implicitly | Varies |
 | Same coach, long-term arc | Yes | N/A | Usually not |
 | Adapts pace to the student | Fully | You self-pace | Fixed schedule |
-| Monthly price | $100 (1:1) / $40 (group) | £15–30 | £150–400+ |
+| Monthly price | $150 (1:1) / $100 (group) | £15–30 | £150–400+ |
 
 Great problem books are essential and we use them. What a book can't do is watch your child get stuck and give the single nudge that teaches them to get unstuck themselves.
 
@@ -212,7 +212,7 @@ We coach genuinely toward it — realistic for committed students over time, dep
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

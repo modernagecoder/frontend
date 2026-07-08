@@ -1,11 +1,11 @@
 ---
 title: "SAT Math Tutoring Online · 1:1 Digital SAT Math Prep — Modern Age Coders"
-description: "Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/sat-math-tutoring-online
 keywords: ["SAT math tutoring online", "SAT math prep", "digital SAT math", "SAT math tutor", "online SAT prep", "SAT math practice", "Heart of Algebra", "Passport to Advanced Math", "problem solving and data analysis SAT", "SAT math score improvement", "Desmos SAT", "Bluebook SAT"]
 source: src/pages/sat-math-tutoring-online.html
 ---
-> Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online SAT Math tutoring for the Digital SAT. We rebuild the algebra and data reasoning the test rewards — Heart of Algebra, Problem Solving & Data Analysis, Passport to Advanced Math — then train pacing and the traps. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why scores stall
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same mentor tracking your score throughout
 - A diagnostic-led plan, not a question dump
 - Official practice material · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students at a similar score level
 - Same teaching approach, lower price
 - Good for shared prep · cancel any time
@@ -174,7 +174,7 @@ The same mentor stays with you, watching your scores and your recurring mistakes
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Fixes the math underneath | Yes | No | Group-paced |
 | Same mentor tracks you | Yes | N/A | Usually not |
 | Trains pacing & Desmos | Yes | Limited | Sometimes |
-| Monthly price | $100 (1:1) / $40 (group) | Free | $700–2,500+ |
+| Monthly price | $150 (1:1) / $100 (group) | Free | $700–2,500+ |
 
 Free apps are great for drilling once you know your gaps. We provide the live diagnosis and the math fix that turn drilling into a higher score.
 
@@ -212,7 +212,7 @@ Often two to four months before a test date — spring of junior year or the sum
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

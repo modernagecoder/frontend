@@ -1,11 +1,11 @@
 ---
 title: "Online Maths Tuition for Teens in the UK · 1:1 KS3 & GCSE Maths — Modern Age Coders"
-description: "Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-for-teens-in-uk
 keywords: ["online maths tuition for teens UK", "secondary maths tutor", "KS3 maths tutor", "KS4 maths tutor", "GCSE maths tuition", "year 7 maths help", "year 8 maths tutor", "year 9 maths", "year 10 maths tutor", "year 11 GCSE maths", "maths tutor for teenager UK", "GCSE maths help"]
 source: src/pages/online-maths-tuition-for-teens-in-uk.html
 ---
-> Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online maths tuition for UK teenagers (KS3 & KS4, Years 7–11). We teach why the maths works — algebra, ratio, geometry, probability — so it holds up at GCSE and beyond. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why teens slip in secondary maths
 
@@ -128,7 +128,7 @@ One teen, one tutor, real-time video with a shared whiteboard. No recordings, no
 
 ### 8 lessons a month
 
-Two each week, usually 50–60 minutes. We work from your teen's scheme of work and papers.
+Two each week, usually 60 minutes. We work from your teen's scheme of work and papers.
 
 ### UK time
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated tutor throughout
 - Worked from your teen's exam board & papers
 - Notes after every lesson · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students at the same level
 - Same teaching approach, lower price
 - A solid first step · cancel any time
@@ -174,7 +174,7 @@ The same tutor stays with your teen, which is what makes a 15-year-old willing t
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Teaches reasoning | Always | Rarely | Varies |
 | Same tutor each time | Yes, throughout | N/A | Often |
 | Works to your exam board | Yes | Generic | Varies |
-| Monthly price | $100 (1:1) / $40 (group) | £5–10 | £30–50/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £30–50/hr |
 
 Revision apps are handy for practice. A local tutor is great if you can afford the hourly rate. We give the live, one-to-one attention of a tutor at a monthly price closer to an app.
 
@@ -212,7 +212,7 @@ Yes — KS3 sets up everything in GCSE, so we treat number, algebra, ratio, geom
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

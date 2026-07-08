@@ -1,11 +1,11 @@
 ---
 title: "KS3 Maths Tuition Online · 1:1 Year 7–9 Maths — Modern Age Coders"
-description: "Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/ks3-maths-tuition-online
 keywords: ["KS3 maths tuition online", "KS3 maths tutor", "year 7 maths tutor", "year 8 maths tutor", "year 9 maths help", "KS3 algebra", "KS3 to GCSE bridge", "secondary maths foundations", "KS3 maths national curriculum", "online KS3 maths tuition UK", "maths tutor for 12 year old", "maths tutor for 13 year old"]
 source: src/pages/ks3-maths-tuition-online.html
 ---
-> Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online KS3 maths tuition for Years 7–9. We build the algebra, ratio and reasoning foundations that decide GCSE success — taught for understanding, not rushed. National curriculum aligned. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why KS3 is the quiet danger zone
 
@@ -128,7 +128,7 @@ One student, one tutor, real-time video with a shared whiteboard. No recordings,
 
 ### 8 lessons a month
 
-Two each week, around 50 minutes, worked from your child's scheme of work and homework.
+Two each week, around 60 minutes, worked from your child's scheme of work and homework.
 
 ### UK time
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated tutor throughout
 - Worked from your child's school & homework
 - Built toward GCSE · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students at the same level
 - Same teaching approach, lower price
 - A solid first step · cancel any time
@@ -174,7 +174,7 @@ The same tutor stays with your child, building steadily toward GCSE and always k
 
 "My child Dhairya is really enjoying the classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement."
 
-— Sonam Oswal, mother of Dhairya (verified Google review)
+Sonam Oswal, mother of Dhairya · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Fixes hidden primary gaps | Yes, diagnosed live | No | Sometimes |
 | Builds for GCSE, not just now | Yes | No | Varies |
 | Same tutor each time | Yes | N/A | Often |
-| Monthly price | $100 (1:1) / $40 (group) | £5–10 | £28–45/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £28–45/hr |
 
 Homework apps help with the day's task. They won't notice your child has never really understood what a variable is — which is the gap that wrecks GCSE.
 
@@ -212,7 +212,7 @@ Yes — number, algebra, ratio and proportion, geometry, probability and statist
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

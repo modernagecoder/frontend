@@ -1,11 +1,11 @@
 ---
 title: "Online Maths Classes for Adults in the UK · 1:1 Numeracy, GCSE Resit & Functional Skills — Modern Age Coders"
-description: "Live 1:1 online maths classes for adults in the UK. Rebuild the basics, pass a GCSE resit or Functional Skills, or master the maths your job needs — taught patiently, no judgment. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online maths classes for adults in the UK. Rebuild the basics, pass a GCSE resit or Functional Skills, or master the maths your job needs — taught patiently, no judgment. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-classes-for-adults-in-uk
 keywords: ["online maths classes for adults UK", "adult maths tutor", "maths for adults UK", "GCSE maths resit adults", "functional skills maths adults", "maths refresher adults", "basic maths for adults", "maths anxiety help UK", "return to study maths", "adult numeracy UK", "maths for work UK", "financial maths adults"]
 source: src/pages/online-maths-classes-for-adults-in-uk.html
 ---
-> Live 1:1 online maths classes for adults in the UK. Rebuild the basics, pass a GCSE resit or Functional Skills, or master the maths your job needs — taught patiently, no judgment. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online maths classes for adults in the UK. Rebuild the basics, pass a GCSE resit or Functional Skills, or master the maths your job needs — taught patiently, no judgment. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why maths feels closed off to adults
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same patient tutor throughout
 - A plan built entirely around your goal
 - Flexible times · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few adults working toward similar goals
 - Same teaching approach, lower price
 - Great for a refresher · cancel any time
@@ -174,7 +174,7 @@ You keep the same tutor, who learns your goal and your pace and adjusts as life 
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Fills your specific gaps | Yes, diagnosed live | No | Rarely 1:1 |
 | Patient with maths anxiety | Built for it | You're on your own | Class setting |
 | Same tutor each time | Yes | N/A | Usually |
-| Monthly price | $100 (1:1) / $40 (group) | Free–£20 | Varies |
+| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | Varies |
 
 Free courses are great if you already know what's missing. We add a tutor who finds the gaps for you and stays patient while you close them — without a fixed class to keep up with.
 
@@ -212,7 +212,7 @@ The one-to-one setting helps — no audience, no being put on the spot. Most peo
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

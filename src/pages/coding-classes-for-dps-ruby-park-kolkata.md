@@ -446,6 +446,16 @@ Yes, every student receives a completion certificate after finishing their codin
 
 [Coding for DPS New Town](/coding-classes-for-dps-new-town-kolkata)[Coding Classes in Kolkata](/best-coding-class-in-kolkata)[All Courses](/courses)[Pricing](/pricing)[Summer Coding Camp](/summer-coding-camp)[How We Teach (Free Demos)](/how-we-teach)[Coding for CBSE Students](/coding-for-cbse-students)[Online Maths Tuition](/online-maths-tuition)[DPS New Town](/coding-classes-for-dps-new-town-kolkata)[All School Programmes](/schools)
 
+## Coding & maths classes for residential complexes near DPS Ruby Park
+
+Many DPS Ruby Park families live in these nearby housing complexes and societies, where we run live online coding and maths classes in small batches.
+
+- [Coding classes for Avidipta, Mukundapur](/coding-classes-in-avidipta-mukundapur)
+- [Coding classes for Hiland Park, EM Bypass](/coding-classes-in-hiland-park)
+- [Coding classes for Upohar, Chak Garia](/coding-classes-in-upohar)
+- [Coding classes for Urbana, Anandapur](/coding-classes-in-urbana)
+- [Coding classes for Udayan The Condoville, EM Bypass](/coding-classes-in-udayan-condoville-em-bypass)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-for-dps-ruby-park-kolkata*

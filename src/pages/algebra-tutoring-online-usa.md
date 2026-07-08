@@ -1,11 +1,11 @@
 ---
 title: "Algebra Tutoring Online (USA) · 1:1 Pre-Algebra, Algebra 1 & 2 — Modern Age Coders"
-description: "Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/algebra-tutoring-online-usa
 keywords: ["algebra tutoring online", "algebra tutor USA", "pre-algebra tutor", "algebra 1 tutor online", "algebra 2 tutor", "online algebra help", "algebra 1 help", "algebra 2 help", "quadratic equations tutor", "systems of equations help", "functions tutor", "factoring help"]
 source: src/pages/algebra-tutoring-online-usa.html
 ---
-> Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online algebra tutoring for US students — pre-algebra, Algebra 1 and Algebra 2. We teach why algebra works, from balancing equations to functions, so it stops feeling like rules to memorize. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why algebra breaks so many students
 
@@ -128,7 +128,7 @@ One student, one mentor, real-time video and a shared whiteboard for working alg
 
 ### 8 classes a month
 
-Two each week, around 50 minutes, worked from your child's homework and tests.
+Two each week, around 60 minutes, worked from your child's homework and tests.
 
 ### Your time zone
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one classes a month (2 per week)
+- 8 live one-to-one classes a month (2 per week, 1 hour each)
 - The same dedicated mentor throughout
 - Worked from your child's class & homework
 - Notes after every class · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group classes a month (2 per week)
+- 8 live small-group classes a month (2 per week, 1 hour each)
 - A few students at the same level
 - Same teaching approach, lower price
 - A solid first step · cancel any time
@@ -174,7 +174,7 @@ The same mentor stays throughout, so they know precisely which idea is shaky and
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Teaches why moves are legal | Always | Rarely | Varies |
 | Same teacher each time | Yes | N/A | Often |
 | Works from your child's class | Yes | No | Sometimes |
-| Monthly price | $100 (1:1) / $40 (group) | $10–20 | $200–600+ |
+| Monthly price | $150 (1:1) / $100 (group) | $10–20 | $200–600+ |
 
 An app that solves an equation for you can be handy, but it teaches your child to depend on it. We teach the reasoning so they don't need it.
 
@@ -208,7 +208,7 @@ Often, yes. Algebra is the usual breaking point because it's the first abstract 
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live classes, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live classes, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

@@ -11,17 +11,15 @@ source: src/pages/book-demo.html
 
 Experience our world-class teaching before you commit. Try a live 1-on-1 session with our expert instructors — absolutely free, no strings attached.
 
-100% FreeNo Commitment30-45 Min Session500+ Students Trained
+[Prefer to explore first? Watch real recorded classes](/how-we-teach)100% FreeNo Commitment30-45 Min Session500+ Students Trained
 
 ## Schedule Your Demo
 
-Pick a preferred demo slot right in the form: choose a day (next 7 days) and a time between 10:00 AM and 8:00 PM IST, shown in your local timezone too. Flexible? Leave it unselected and we will call to fix a time.
-
-Zero-risk booking: no payment, no card, no obligation. Rated 4.9 across 547 Google reviews. Read the full promise: https://learn.modernagecoders.com/guarantee
-Want to judge us first? Watch recordings of real classes: https://learn.modernagecoders.com/how-we-teach
-
-
 Fill in the details and we'll arrange a personalized demo session for you.
+
+**4.9** across **547 Google reviews** · No payment, no card, no obligation. [Read our zero-risk promise](/guarantee)
+
+Want to judge us before booking? [Watch recordings of real classes](/how-we-teach), unedited.
 
 ## What You'll Get
 
@@ -67,33 +65,33 @@ ArithmeticAlgebraGeometryTrigonometryCalculusStatistics Class 1 to College Level
 
 ## What Parents & Students Say
 
-Real feedback from our learning community
+Real, unedited reviews from our families on Google — rated 4.9★ across 547+ reviews.
 
-A
+S
 
-#### Arjun S.
+#### Sonam Oswal
 
-Age 10 | Kids Coding5.0
+Mother of Dhairya5.0
 
-"I never thought I could make my own game! Now I've made 5 games and showed them to my whole class. Coding is so much fun!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement… The teachers are very cooperative and listen to our suggestions. Overall, I am very happy."
 
-Won 1st Place in School Science FairP
+ Verified Google review R
 
-#### Priya P.
+#### Ritu Kedia
 
-Age 16 | Python & AI5.0
+Mother of Aditya5.0
 
-"I built an AI chatbot that helps students with homework. It started as a class project but now my school actually uses it!"
+"I highly recommend this coding class! The teachers are incredibly knowledgeable and passionate, making every session engaging. They explain complex concepts in a way that's easy to understand… it has really boosted my son's confidence and interest in coding."
 
-School-Wide Deployment of Her AI AssistantR
+ Verified Google review S
 
-#### Rahul V.
+#### Samridho Mondal
 
-Age 21 | Full Stack5.0
+Student, Grade 95.0
 
-"I landed my dream job at a top tech company within 3 months of completing the course. The project portfolio was key!"
+"Modern Age Coders has been a game-changer for me! I struggled to grasp coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs. The teaching is top-notch, and the support is exceptional."
 
-Placed at Top Company with 12 LPA[Read All Success Stories](/success-stories)[See Our Wall of Love](/love)
+ Verified Google review [Read All Success Stories](/success-stories)[See Our Wall of Love](/love)
 
 ## Student Creations
 

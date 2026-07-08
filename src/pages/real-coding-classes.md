@@ -495,11 +495,11 @@ How do I start?
 
 Book a free demo class — no payment details required. Fill the form on this page, or call [+91 91233 66161](tel:+919123366161), or [WhatsApp us](https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20book%20a%20free%20demo%20for%20the%20real%20coding%20classes.). A mentor will assess where you are, recommend the right track and depth level, and you take a real class before deciding anything.
 
-§ 11 · Keep exploring
-
 Is it still worth learning to code deeply now that AI can generate code?
 
 Yes, and depth is exactly what makes you valuable in the AI era. AI can produce code quickly, so typing is no longer the rare skill - understanding is. The people who thrive are the ones who can read what the AI wrote, spot where it is subtly wrong, design the system around it, and fix it when it breaks. That only comes from knowing how code actually works: memory, data structures, complexity and the maths behind any model. Our classes build precisely that depth, so you direct AI tools as an engineer rather than depend on them as a beginner.
+
+§ 11 · Keep exploring
 
 ## Go deeper into specific tracks.
 

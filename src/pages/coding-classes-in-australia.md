@@ -305,6 +305,16 @@ Years 1 – 6
 
 Patient, child-development-aware, calm pace. Bridges Scratch to real Python so even a Year-3 student leaves able to write a working program.
 
+Also at Modern Age Coders
+
+## Maths, taught with the same depth.
+
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For Australian students that means the Australian Curriculum, NAPLAN-flagged gap repair, and the HSC/VCE/QCE road to Methods. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+
+[Maths Tutoring Australia](/online-maths-tutoring-australia)[IB Maths (AA & AI)](/ib-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[Competition Maths](/courses/olympiad-competition-mathematics-mastery)[The 2026 Guide](/best-online-math-tutoring-2026)
+
+AEST after-school slots · 4.9 across 547 Google reviews · no registration fee
+
 Plain pricing · month-to-month
 
 ## AUD 152 a month. Eight live sessions. No fine print.
@@ -795,10 +805,25 @@ No quiz, no pop-up, no sales pressure. Leave a number, a mentor in your Aussie t
 
 [Browse all courses](/courses)
 
+## Live online coding classes for students in Australia
+
+Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
+
+### Coding classes in other countries
+
+- [Coding Classes in Canada](/coding-classes-in-canada)
+- [Coding Classes in Germany](/coding-classes-in-germany)
+- [Coding Classes in Ireland](/coding-classes-in-ireland)
+- [Coding Classes in New Zealand](/coding-classes-in-new-zealand)
+- [Coding Classes in Singapore](/coding-classes-in-singapore)
+- [Coding Classes in Sweden](/coding-classes-in-sweden)
+- [Coding Classes in Switzerland](/coding-classes-in-switzerland)
+- [Coding Classes in the UAE](/coding-classes-in-uae)
+- [Coding Classes in the United Kingdom](/coding-classes-in-united-kingdom)
+- [Coding Classes in the United States](/coding-classes-in-united-states)
+
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-australia*
-
-## Maths, taught with the same depth
-
-The same mentors and one-hour live classes also teach maths: premium 1-on-1 USD $150/month, small group $100, free demo first. Start here: /best-online-math-tutoring-2026 /courses/olympiad-competition-mathematics-mastery /ib-maths-tuition-online /igcse-maths-tuition-online /math-catch-up-program /online-maths-tutoring-australia

@@ -1,17 +1,17 @@
 ---
 title: "A-Level Maths Tutor in the UAE · 1:1 Online Pure, Mechanics & Statistics — Modern Age Coders"
-description: "Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. USD 100/month (about AED 370). Free trial."
+description: "Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
 canonical: https://learn.modernagecoders.com/a-level-maths-tutor-uae
 keywords: ["A-level maths tutor UAE", "A-level maths tutor Dubai", "AS level maths tutor UAE", "Cambridge International A level maths UAE", "Edexcel A-level maths UAE", "sixth form maths tutor UAE", "A-level pure maths tutor", "A-level mechanics statistics UAE", "online A-level maths UAE", "British curriculum sixth form maths"]
 source: src/pages/a-level-maths-tutor-uae.html
 ---
-> Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. USD 100/month (about AED 370). Free trial.
+> Live 1:1 online A-Level maths tutoring for British-curriculum sixth-form students in the UAE — Edexcel, AQA, OCR and Cambridge International AS & A Level. Pure, mechanics and statistics taught from the ideas up. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
 
 In short
 
 **Modern Age Coders provides live one-to-one online A-Level and AS maths tutoring for British-curriculum sixth-form students across the UAE** — Edexcel, AQA, OCR and Cambridge International — covering pure, mechanics and statistics.
 
-We rebuild the fluency A-Level assumes and teach concepts from first principles, then train exam technique, with the same tutor to the exam. Pricing is **USD 100 per month (about AED 370)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
+We rebuild the fluency A-Level assumes and teach concepts from first principles, then train exam technique, with the same tutor to the exam. Pricing is **USD 150 per month (about AED 550)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
 
 Why A-Level maths catches students out
 
@@ -152,18 +152,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month · ≈ AED 370
+$150 / month · ≈ AED 550
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same tutor through to the exam
 - Taught to your board across pure, mechanics & stats
 - Past papers & technique · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month · ≈ AED 147
+$100 / month · ≈ AED 367
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students on the same board
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
@@ -182,7 +182,7 @@ You keep the same tutor through the year, so they know your weak spots and how y
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -194,7 +194,7 @@ An honest comparison
 | Teaches unseen problem-solving | Yes | Rarely | Varies |
 | Covers pure, mechanics & stats | All three | Usually pure | Varies |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $100 / ≈AED 370 (1:1) | Free–AED 150 | AED 1,500–4,000+ |
+| Monthly price | $150 / ≈AED 550 (1:1) | Free–AED 150 | AED 1,500–4,000+ |
 
 Revision videos are a useful supplement; they can't watch you attempt an unseen question and coach the reasoning in real time — which is what moves an A-Level grade.
 
@@ -220,7 +220,7 @@ Yes — all three strands, with the applied content as solid as the pure.
 
 How much does it cost?
 
-USD 100/month (about AED 370) for 1:1 — eight live sessions, two a week. Small-group option USD 40/month. No contract.
+USD 150/month (about AED 550) for 1:1 — eight live sessions, two a week. Small-group option USD 100/month. No contract.
 
 Is the first session free?
 

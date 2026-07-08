@@ -1,11 +1,11 @@
 ---
 title: "Online Maths Tuition for Kids in the UK · 1:1 Primary Maths (KS1 & KS2) — Modern Age Coders"
-description: "Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works — number bonds, times tables with understanding, fractions and reasoning — aligned to the national curriculum, with Year 6 SATs readiness. £-friendly USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works — number bonds, times tables with understanding, fractions and reasoning — aligned to the national curriculum, with Year 6 SATs readiness. £-friendly USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-tuition-for-kids-in-uk
 keywords: ["online maths tuition for kids UK", "primary maths tutor", "KS1 maths tutor", "KS2 maths tutor", "maths tutor for kids UK", "year 3 maths help", "year 4 maths tutor", "year 5 maths", "year 6 SATs maths", "times tables tutor", "number bonds", "primary maths tuition online"]
 source: src/pages/online-maths-tuition-for-kids-in-uk.html
 ---
-> Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works — number bonds, times tables with understanding, fractions and reasoning — aligned to the national curriculum, with Year 6 SATs readiness. £-friendly USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online maths tuition for primary children in the UK (KS1 & KS2, ages 5–11). We teach why the maths works — number bonds, times tables with understanding, fractions and reasoning — aligned to the national curriculum, with Year 6 SATs readiness. £-friendly USD 150/month, 8 lessons. Free trial.
 
 Why so many primary children stall
 
@@ -128,7 +128,7 @@ One child, one tutor, in a real-time video lesson with a shared whiteboard. No r
 
 ### 8 lessons a month
 
-Two each week, usually around 45 minutes for younger children. Enough to build momentum without overload.
+Two each week, usually around 60 minutes for younger children. Enough to build momentum without overload.
 
 ### UK time
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated tutor throughout
 - A learning plan built around your child
 - Notes after every lesson · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A handful of children at the same level
 - Same teaching approach, lower price
 - A friendly first step · cancel any time
@@ -174,7 +174,7 @@ Your child keeps the same tutor, so trust builds — and a child who trusts thei
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Notices quiet confusion | Yes, live, 1:1 | No | Usually |
 | Same tutor each time | Yes, throughout | N/A | Often, varies |
 | Parent updates | After every lesson | Score charts | Varies |
-| Monthly price | $100 (1:1) / $40 (group) | £5–10 | £25–45/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £5–10 | £25–45/hr |
 
 Apps are inexpensive and fine for drill. A local in-person tutor is excellent and adds up quickly per hour. We sit in between, with the live attention an app can't give.
 
@@ -212,7 +212,7 @@ This is the most common reason families come to us. One-to-one attention and a p
 
 How much does it cost?
 
-USD 100 per month for private 1:1 tuition — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 tuition — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

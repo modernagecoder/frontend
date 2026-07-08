@@ -60,9 +60,13 @@ Private mentor · your pace, your goals
 
 [Get Started](/contact)
 
+Every plan is **2 live classes a week, 8 a month**. Live teaching, not recordings.
+
+Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,499 ≈ **₹312 per live class**1-on-1 ₹4,999 ≈ **₹625 per live class**
+
 ### Group Classes
 
-Up to 10 students · solve problems together
+Up to 10 students · 1-hour live classes · 2 a week (8 a month)
 
 ₹1499/month
 
@@ -93,7 +97,7 @@ Up to 10 students · solve problems together
 
 ### Personalized 1-on-1
 
-Private tutor · your syllabus, your pace
+Private tutor · 1-hour sessions · 2 a week (8 a month) · your pace
 
 ₹4999/month
 
@@ -108,6 +112,10 @@ Private tutor · your syllabus, your pace
 - Priority doubt support
 
 [Get Started](/contact)
+
+Every plan is **2 live classes a week, 8 a month**. Live teaching, not recordings.
+
+Group ₹1,499 ≈ **₹187 per live class**Mini Batch ₹2,499 ≈ **₹312 per live class**1-on-1 ₹4,999 ≈ **₹625 per live class**
 
 Need something specific? We create custom training programs for individuals, schools, and companies. Tell us your goals, and we'll design a plan that fits.
 
@@ -140,11 +148,11 @@ Custom Quote
 - Interview preparation
 - Job placement help
 
-[Get Quote](/contact)
+[Get Quote](/contact)Free demo before you payMonthly billing, cancel anytimeNo registration fee[Read our zero-risk promise](/guarantee)
 
 ## International Student Pricing
 
-For students outside India — all coding and math courses at a single transparent price in USD.
+For students outside India — coding courses at a single transparent price in USD. Mathematics is priced separately — see the **Mathematics** tab above.
 
 Group Classes$40USD / month
 
@@ -162,6 +170,8 @@ Group Classes$40USD / month
 - Portfolio & career guidance
 
 [Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm interested in Personalized 1-on-1 Classes ($100 USD/month). I'm an international student and would like to know about payment options.)
+
+**Mathematics (international):** Group **$100** · Personalized 1-on-1 **$150** / month — 1-hour live classes, 2 per week (8 a month).
 
 Also available in EUR, GBP, CAD, AUD, SGD & AED.
  Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.
@@ -254,7 +264,7 @@ Regular reports for parents
 
 ## How We Compare
 
-Affordable coding classes in India without compromising on quality
+Affordable coding classes in India without compromising on quality.
 
 | Feature | Modern Age Coders | WhiteHat Jr | BYJU's | Vedantu |
 | --- | --- | --- | --- | --- |
@@ -284,22 +294,6 @@ We accept UPI, bank transfers, and card payments. You can pay monthly or get a d
 We teach students from age 8 to 21+. We have different courses designed for kids (8-12), teens (13-17), and college students/adults (18+).
 
 Yes, you can pause for exams or vacations. Just let us know at least a week in advance, and we'll hold your spot.
-
-## What a class actually costs
-
-Every plan is 2 live classes a week, 8 a month. Live teaching, not recordings.
-
-- Group: Rs 1,499/month, about Rs 187 per live class (international: $40/month, about $5 per class)
-- Mini Batch (India only): Rs 2,499/month, about Rs 312 per live class
-- 1-on-1: Rs 4,999/month, about Rs 625 per live class (international: $100/month coding, $150/month maths)
-
-## Zero-risk start
-
-Free demo class before you pay. Monthly billing, cancel anytime. No registration fee. Read the full promise: https://learn.modernagecoders.com/guarantee
-
-## What families pay elsewhere (international)
-
-Typical published US prices as of July 2026: Mathnasium $300 to $450/month, Kumon $150 to $220 per subject/month, Juni Learning from $275/month for 1-on-1, Cuemath US $200 to $256/month. Modern Age Coders live classes run $40/month (group) to $100-$150/month (1-on-1), with no contracts and no enrollment fees. Sources: tutors.com, brighterly.com, myelearningworld.com, cuemath.com.
 
 ## Still Have Questions?
 

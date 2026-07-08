@@ -1,11 +1,11 @@
 ---
 title: "Common Entrance Maths Tuition · 1:1 ISEB 13+ & 11+ Maths — Modern Age Coders"
-description: "Live 1:1 online Common Entrance maths tuition for ISEB 13+ and 11+ exams to independent senior schools. We build real understanding across calculator and non-calculator papers, with scholarship-level stretch where needed. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online Common Entrance maths tuition for ISEB 13+ and 11+ exams to independent senior schools. We build real understanding across calculator and non-calculator papers, with scholarship-level stretch where needed. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/common-entrance-maths-tuition
 keywords: ["common entrance maths tuition", "ISEB common entrance maths", "13 plus maths tutor", "13+ common entrance", "common entrance 11+ maths", "independent school maths entry", "ISEB 13+ levels", "common entrance scholarship maths", "prep school maths tutor", "online common entrance tutor UK", "senior school entrance maths"]
 source: src/pages/common-entrance-maths-tuition.html
 ---
-> Live 1:1 online Common Entrance maths tuition for ISEB 13+ and 11+ exams to independent senior schools. We build real understanding across calculator and non-calculator papers, with scholarship-level stretch where needed. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online Common Entrance maths tuition for ISEB 13+ and 11+ exams to independent senior schools. We build real understanding across calculator and non-calculator papers, with scholarship-level stretch where needed. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why Common Entrance is its own challenge
 
@@ -128,7 +128,7 @@ One child, one tutor, real-time video with a shared whiteboard for working multi
 
 ### 8 lessons a month
 
-Two each week, around 50 minutes, paced for the exam timeline.
+Two each week, around 60 minutes, paced for the exam timeline.
 
 ### UK time
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - The same dedicated tutor to the exam
 - Pitched to your CE level & target schools
 - Scholarship stretch available · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few children at the same level
 - Same teaching approach, lower price
 - A friendly option · cancel any time
@@ -174,7 +174,7 @@ The same tutor stays to the exam, knows your target schools and required level, 
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Pitches to the exact CE level | Yes | Generic | Sometimes |
 | Scholarship-level stretch | Yes | Rarely | Not all tutors |
 | Same tutor to the exam | Yes | N/A | Often |
-| Monthly price | $100 (1:1) / $40 (group) | £15–35 | £35–60/hr |
+| Monthly price | $150 (1:1) / $100 (group) | £15–35 | £35–60/hr |
 
 Past-paper packs are useful practice and we use them — but only on top of the depth and problem-solving the harder CE and scholarship papers actually test.
 
@@ -212,7 +212,7 @@ Yes — by building genuine problem-solving depth, not just drilling past papers
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

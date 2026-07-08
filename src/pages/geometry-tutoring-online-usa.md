@@ -1,11 +1,11 @@
 ---
 title: "Geometry Tutoring Online (USA) · 1:1 High School Geometry & Proofs — Modern Age Coders"
-description: "Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/geometry-tutoring-online-usa
 keywords: ["geometry tutoring online", "geometry tutor USA", "high school geometry help", "geometry proofs tutor", "two-column proof help", "congruence similarity tutor", "coordinate geometry help", "circle theorems tutor", "geometry for high school", "online geometry classes", "geometry homework help", "failing geometry"]
 source: src/pages/geometry-tutoring-online-usa.html
 ---
-> Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online geometry tutoring for US students. We teach proofs as plain logical reasoning — congruence, similarity, circles, coordinate geometry and trig — so the subject clicks instead of confusing. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why geometry feels like a different subject
 
@@ -128,7 +128,7 @@ One student, one mentor, real-time video with a shared whiteboard for drawing an
 
 ### 8 classes a month
 
-Two each week, around 50 minutes, worked from your child's homework and tests.
+Two each week, around 60 minutes, worked from your child's homework and tests.
 
 ### Your time zone
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one classes a month (2 per week)
+- 8 live one-to-one classes a month (2 per week, 1 hour each)
 - The same dedicated mentor throughout
 - Worked from your child's class & homework
 - Notes after every class · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group classes a month (2 per week)
+- 8 live small-group classes a month (2 per week, 1 hour each)
 - A few students at the same level
 - Same teaching approach, lower price
 - A solid first step · cancel any time
@@ -174,7 +174,7 @@ The same mentor stays through the course, so they know whether the next gap is l
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Trains figure-reading live | Yes, on a whiteboard | No | Sometimes |
 | Same teacher each time | Yes | N/A | Often |
 | Works from your child's class | Yes | No | Sometimes |
-| Monthly price | $100 (1:1) / $40 (group) | $10–20 | $200–600+ |
+| Monthly price | $150 (1:1) / $100 (group) | $10–20 | $200–600+ |
 
 An app can give the answer to a geometry problem, but it can't teach your child to construct a proof — which is the entire skill the course is built to develop.
 
@@ -208,7 +208,7 @@ Definitions and postulates, angles, congruence and similarity, triangle theorems
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live classes, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live classes, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

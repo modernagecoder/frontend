@@ -127,33 +127,61 @@ Modern Age Coders comes under The Mahaviras Education LLP
 
 ## What Parents & Students Say
 
-Real feedback from real families.
+Real reviews from real families — verified on Google.
 
-"
+"★★★★★
 
-My son was never interested in computers. After 3 months here, he built his own game and now wants to learn more. The teachers are patient and actually care about each student.
+My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!
 
-P
+![Shewta Singh](https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80)
 
-#### Priya Sharma
+#### Shewta Singh
 
-Parent of 13-year-old"
+Mother of Ishan"★★★★★
 
-I tried learning coding from YouTube but kept getting stuck. Here, I actually understand what I'm doing. Built my portfolio website and got an internship because of it.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement. The teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class.
 
-R
+![Sonam Oswal](https://lh3.googleusercontent.com/a-/ALV-UjUD7G6yVNHCdcvCeT_coO6k0Vu49jzqfu5u62ULnKN7itAellGhJg=s45-c-rp-mo-ba2-br100)
 
-#### Rahul Mehta
+#### Sonam Oswal
 
-College Student, Age 20"
+Mother of Dhairya"★★★★★
 
-What I appreciate most is the transparency. I get regular updates on my daughter's progress, and I can see her confidence growing. Her math grades improved too!
+I highly recommend this coding class! The teachers are incredibly knowledgeable and passionate, making every session engaging. They explain complex concepts in a way that's easy to understand and encourage us to think critically. It has really boosted my son's confidence and interest in coding.
 
-A
+![Ritu Kedia](https://lh3.googleusercontent.com/a-/ALV-UjXVupQR3nkNh-64rcPb-gn0YgHHfyn7-ozv34FXUhlGJz1npbN1qQ=s45-c-rp-mo-br100)
 
-#### Amit Patel
+#### Ritu Kedia
 
-Parent of 15-year-old
+Mother of Aditya"★★★★★
+
+Modern Age Coders has been a game-changer for me! I struggled to grasp coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease. The teaching is top-notch and the support is exceptional.
+
+![Samridho Mondal](https://lh3.googleusercontent.com/a-/ALV-UjXY7JB9OrMVWd-PSk1NIwmd-ibF7Zsrj71eUsOJdt7Cu3pRv2lv=w90-h90-p-rp-mo-br100)
+
+#### Samridho Mondal
+
+Student, Grade 9"★★★★★
+
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He started taking interest in coding — truly an amazing class.
+
+![Shradha Saraf](https://lh3.googleusercontent.com/a/ACg8ocJIAjSLzhCVztgwnB-2n5ToRxFsWq9iqBTHGgbC_Sl8gGRPEg=s45-c-rp-mo-br100)
+
+#### Shradha Saraf
+
+Mother of Mivaan"★★★★★
+
+The one-step solution for my son. Modern Age Coders makes learning coding so simple that kids love it. The teachers provide clear explanations and practical exercises. As my son says, the projects were challenging and rewarding, and Sir explains complex concepts clearly.
+
+![Ria Mukherjee](https://lh3.googleusercontent.com/a-/ALV-UjUSgVrKO956eetsvbHMVqYFRmbuPALsy0QnWcKCXhL6MtZMhP0Xhw=s45-c-rp-mo-br100)
+
+#### Ria Mukherjee
+
+Mother of Somraj
+
+★★★★★ **4.9** rating · 547 reviews on Google
+
+[Read & write reviews on Google](https://g.page/r/Cff_QkHNaP9yEAE/review)
 
 ## Frequently Asked Questions
 
@@ -175,11 +203,11 @@ All sessions are recorded and shared with students. If you miss a class, you can
 
 Yes! Apart from education, we build custom software, websites, mobile apps, and AI solutions for businesses. From startups to established companies, we help turn ideas into working products. Contact us to discuss your project.
 
-## Maths and Coding for Children: Why We Teach Both
+## Maths and Coding: Why We Teach Both
 
-Modern Age Coders is the world's first platform offering integrated maths and coding for children online. We believe coding without maths is incomplete, and maths without coding is abstract. Together, they create powerful thinkers.
+Modern Age Coders is the world's first platform offering integrated maths and coding online. We believe coding without maths is incomplete, and maths without coding is abstract. Together, they create powerful thinkers.
 
-When a child learns Python alongside algebra, they see variables come alive. When they build a game using geometry, triangles stop being textbook diagrams. This is the philosophy behind every course we offer, from age 6 to 65, across 15+ countries.
+When a learner picks up Python alongside algebra, they see variables come alive. When they build a game using geometry, triangles stop being textbook diagrams. This is the philosophy behind every course we offer, from age 6 to 65, across 15+ countries.
 
 Maths + Code for Ages 6 to 65. That is what we do. And we do it better than anyone.
 

@@ -1,11 +1,11 @@
 ---
 title: "AP Calculus Tutoring Online · 1:1 AP Calculus AB & BC Prep — Modern Age Coders"
-description: "Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/ap-calculus-tutoring-online
 keywords: ["AP Calculus tutoring online", "AP Calculus AB tutor", "AP Calculus BC tutor", "AP Calc help", "AP Calculus prep", "AP Calc free response", "calculus tutor online", "AP Calculus 5", "limits derivatives integrals tutor", "fundamental theorem of calculus", "AP Calculus exam prep", "AP Calc BC series"]
 source: src/pages/ap-calculus-tutoring-online.html
 ---
-> Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online AP Calculus AB & BC tutoring. We teach why calculus works — limits, derivatives, integrals, the Fundamental Theorem and series — then train the AP free-response technique. Aligned to the College Board CED. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why AP Calculus trips students
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same mentor through the whole course
 - Concept rebuilt, then FRQ technique trained
 - Released AP material · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students in AB or BC together
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
@@ -174,7 +174,7 @@ The same mentor follows the whole course, so by spring they know precisely which
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Coaches FRQ justification 1:1 | Yes | No | No feedback |
 | Same mentor all course | Yes | N/A | N/A |
 | Answers your specific confusion | Live, in the moment | No | No |
-| Monthly price | $100 (1:1) / $40 (group) | $20–100 | $15–25 |
+| Monthly price | $150 (1:1) / $100 (group) | $20–100 | $15–25 |
 
 A good review book is a fine supplement. It can't watch your student justify a maximum and tell them the exact word that earns the point — that's what live 1:1 adds.
 
@@ -212,7 +212,7 @@ Yes — FRQs lose points on justification and notation, not the math. We train t
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

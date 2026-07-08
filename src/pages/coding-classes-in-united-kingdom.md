@@ -21,18 +21,13 @@ An **Online School** · Serving the United Kingdom · +44 · GMT / BST
 
 Live 1:1 mentorship in real **Python**, modern web and **agentic AI** — aligned with **KS3–KS5 computing**, **GCSE Computer Science (AQA · OCR · Pearson)**, **A-Level** and the algorithmic depth Oxbridge, Imperial, UCL and the rest of the Russell Group quietly assume. **£79 a month**, eight live sessions, two a week, cancel any time.
 
-## Vibe Coding & AI Agents — where coding is actually heading (featured)
+See what we teach by Key StageThe frontier · featured
 
-Vibe coding — describe what you want, the AI drafts it, and you read, refine and ship it — together with AI coding agents like **Codex** and **Claude Code** is how engineers across British tech, from DeepMind and the London AI scene to every serious startup, actually write software in 2026. We teach the agentic workflow and the Python, algorithms and computer-science fundamentals underneath it, so your child drives the AI instead of being replaced by it — fluent for GCSE and A-Level Computer Science, the NEA coursework project and Russell-Group admissions.
+## Vibe Coding & AI Agents — where coding is actually heading.
 
-- [Vibe Coding for Kids (ages 8–12)](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)
-- [Vibe Coding for Teens (ages 13–18)](/courses/vibe-coding-for-teens-python-web-ai-projects-course)
-- [AI Coding Agents — Codex & Claude Code (teens)](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)
-- [AI Agents for Pros & University](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)
-- [Vibe Coding for University](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)
-- [Browse all courses](/courses)
+This is the part the National Curriculum hasn't caught up to yet. **Vibe coding** — describe what you want, the AI drafts it, and you read, refine and ship it — together with **AI coding agents** like **Codex** and **Claude Code** is how engineers across British tech, from DeepMind and the London AI scene to every serious startup, actually write software in 2026. We teach the agentic workflow *and* the Python, algorithms and computer-science fundamentals underneath it — so your child **drives the AI instead of being replaced by it**, and walks into GCSE and A-Level Computer Science, the NEA coursework project and a Russell-Group application already fluent in the tools the field now runs on.
 
-See what we teach by Key StagePick a course · start this week
+[Browse all courses](/courses)[New · Ages 8–12  Vibe Coding for Kids Children build real games and apps by describing ideas to AI, then learn the Scratch and Python logic underneath — a confident, modern start well before KS3 computing. Explore the course →](/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev)[Trending · Ages 13–18  Vibe Coding for Teens Python, web and AI projects built the modern way — prompt, generate, refine. Teens ship real products while genuinely mastering the concepts behind GCSE and A-Level Computer Science. Explore the course →](/courses/vibe-coding-for-teens-python-web-ai-projects-course)[Future · Ages 13–18  AI Coding Agents — Codex & Claude Code Hands-on with the exact agents real engineers use in 2026. Ideal for an ambitious OCR or AQA NEA project — plan, prompt and ship software with an AI pair-programmer, and understand every line. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-course-for-teens)[Pro · University & 18+  AI Agents for Pros & University Master Codex, Claude Code and agentic workflows to multiply your output — the exact edge London, Manchester and Cambridge employers are hiring for right now. Explore the course →](/courses/codex-and-claude-code-ai-coding-agents-masterclass-for-adults-professionals)More on the frontier:[Vibe Coding for University](/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course)[Generative AI Masterclass](/courses/complete-generative-ai-masterclass-college)[AI Tools Mastery](/courses/ai-tools-mastery-complete-college)[AI & Machine Learning](/courses/ai-ml-masterclass-teens)[View all courses →](/courses)Pick a course · start this week
 
 ## Seven serious tracks for British learners — primary to professional.
 
@@ -315,6 +310,16 @@ KD
 KS1 – KS2
 
 Patient, child-development-aware, calm pace. Bridges Scratch to real Python so even Year 3 students leave able to write a working program.
+
+Also at Modern Age Coders
+
+## Maths, taught with the same depth.
+
+The same mentors, the same full one-hour live classes, the same understanding-first method, pointed at maths. For UK students that means GCSE and IGCSE by board and tier, IB for international schools, and gaps repaired at the root. Premium 1-on-1 mentorship is USD $150 a month, small group $100, 8 classes a month, and every student starts with a free demo class.
+
+[GCSE Maths](/gcse-maths-tuition-online)[IGCSE Maths](/igcse-maths-tuition-online)[IB Maths (AA & AI)](/ib-maths-tuition-online)[Catch-Up Program](/math-catch-up-program)[Singapore Method](/singapore-math-method-tutoring)[The 2026 Guide](/best-online-math-tutoring-2026)
+
+UK evening slots · 4.9 across 547 Google reviews · no registration fee
 
 Plain pricing · cancel monthly
 
@@ -726,10 +731,25 @@ No quiz, no pop-up, no sales pressure. Leave a number, a UK-hours mentor rings w
 
 [Browse all courses](/courses)
 
+## Live online coding classes for students in the United Kingdom
+
+Modern Age Coders teaches students worldwide over live video, in small 4–8 batches, with timings that suit your timezone. Explore other regions or book a free demo.
+
+### Coding classes in other countries
+
+- [Coding Classes in Australia](/coding-classes-in-australia)
+- [Coding Classes in Canada](/coding-classes-in-canada)
+- [Coding Classes in Germany](/coding-classes-in-germany)
+- [Coding Classes in Ireland](/coding-classes-in-ireland)
+- [Coding Classes in New Zealand](/coding-classes-in-new-zealand)
+- [Coding Classes in Singapore](/coding-classes-in-singapore)
+- [Coding Classes in Sweden](/coding-classes-in-sweden)
+- [Coding Classes in Switzerland](/coding-classes-in-switzerland)
+- [Coding Classes in the UAE](/coding-classes-in-uae)
+- [Coding Classes in the United States](/coding-classes-in-united-states)
+
+[Browse all courses →](/courses)[Book a free demo](/book-demo)[Coding Classes in India](/coding-classes-in-india)[Chat with us](https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-in-united-kingdom*
-
-## Maths, taught with the same depth
-
-The same mentors and one-hour live classes also teach maths: premium 1-on-1 USD $150/month, small group $100, free demo first. Start here: /best-online-math-tutoring-2026 /gcse-maths-tuition-online /ib-maths-tuition-online /igcse-maths-tuition-online /math-catch-up-program /singapore-math-method-tutoring

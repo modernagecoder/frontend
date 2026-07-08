@@ -1,17 +1,17 @@
 ---
 title: "Maths Classes for Adults in the UAE · 1:1 Online — Work, Study & GMAT/GRE — Modern Age Coders"
-description: "Live 1:1 online maths classes for adults in the UAE. Rebuild the basics, master statistics and financial maths for work, or prep the GMAT/GRE quant — taught patiently, no judgment. Gulf Standard Time. USD 100/month (about AED 370), 8 classes. Free trial."
+description: "Live 1:1 online maths classes for adults in the UAE. Rebuild the basics, master statistics and financial maths for work, or prep the GMAT/GRE quant — taught patiently, no judgment. Gulf Standard Time. USD 150/month (about AED 550), 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/maths-classes-for-adults-uae
 keywords: ["maths classes for adults UAE", "adult maths tutor Dubai", "maths for adults UAE", "GMAT quant tutor UAE", "GRE quant prep Dubai", "statistics for adults UAE", "financial maths UAE", "maths refresher adults UAE", "learn maths as an adult UAE", "business maths tutor UAE", "maths anxiety help UAE"]
 source: src/pages/maths-classes-for-adults-uae.html
 ---
-> Live 1:1 online maths classes for adults in the UAE. Rebuild the basics, master statistics and financial maths for work, or prep the GMAT/GRE quant — taught patiently, no judgment. Gulf Standard Time. USD 100/month (about AED 370), 8 classes. Free trial.
+> Live 1:1 online maths classes for adults in the UAE. Rebuild the basics, master statistics and financial maths for work, or prep the GMAT/GRE quant — taught patiently, no judgment. Gulf Standard Time. USD 150/month (about AED 550), 8 classes. Free trial.
 
 In short
 
 **Modern Age Coders offers live one-to-one online maths classes for adults across the UAE** — for rebuilding the basics, the statistics and financial maths of work, and GMAT/GRE quant preparation for MBA and graduate study.
 
-Teaching is patient and judgment-free, with the same mentor each session, shaped around your goal and your working hours. Pricing is **USD 100 per month (about AED 370)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first class is free.
+Teaching is patient and judgment-free, with the same mentor each session, shaped around your goal and your working hours. Pricing is **USD 150 per month (about AED 550)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first class is free.
 
 Why maths feels closed off to adults
 
@@ -150,18 +150,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month · ≈ AED 370
+$150 / month · ≈ AED 550
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same patient mentor throughout
 - A plan built entirely around your goal
 - Flexible times · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month · ≈ AED 147
+$100 / month · ≈ AED 367
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few adults working toward similar goals
 - Same teaching approach, lower price
 - Great for a refresher · cancel any time
@@ -192,7 +192,7 @@ An honest comparison
 | Fills your specific gaps | Yes, diagnosed live | No | Rarely 1:1 |
 | Patient with maths anxiety | Built for it | You're on your own | Group-paced |
 | Fits around your work | Fully flexible, online | Self-paced | Fixed times |
-| Monthly price | $100 / ≈AED 370 (1:1) | Free–AED 100 | AED 1,500–6,000+ |
+| Monthly price | $150 / ≈AED 550 (1:1) | Free–AED 100 | AED 1,500–6,000+ |
 
 Free videos are great if you already know what's missing. We add a mentor who finds the gaps for you and stays patient while you close them — at a fraction of test-prep-centre prices.
 
@@ -218,7 +218,7 @@ The one-to-one setting helps — no audience, no being put on the spot. Most peo
 
 How much does it cost?
 
-USD 100/month (about AED 370) for 1:1 — eight live sessions, two a week. Small-group option USD 40/month. No contract.
+USD 150/month (about AED 550) for 1:1 — eight live sessions, two a week. Small-group option USD 100/month. No contract.
 
 Is the first class free?
 

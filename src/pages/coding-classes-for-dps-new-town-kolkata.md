@@ -450,6 +450,17 @@ Yes — and we encourage it. Visit our free [How We Teach demo library](/how-we-
 
 [Coding for DPS New Town](/coding-classes-for-dps-new-town-kolkata)[Coding Classes in Kolkata](/best-coding-class-in-kolkata)[All Courses](/courses)[Pricing](/pricing)[Summer Coding Camp](/summer-coding-camp)[How We Teach (Free Demos)](/how-we-teach)[Coding for CBSE Students](/coding-for-cbse-students)[Online Maths Tuition](/online-maths-tuition)[DPS Ruby Park](/coding-classes-for-dps-ruby-park-kolkata)[All School Programmes](/schools)
 
+## Coding & maths classes for residential complexes near DPS New Town
+
+Many DPS New Town families live in these nearby housing complexes and societies, where we run live online coding and maths classes in small batches.
+
+- [Coding classes for Uniworld City, New Town](/coding-classes-in-uniworld-city)
+- [Coding classes for Sukhobrishti, New Town](/coding-classes-in-sukhobrishti)
+- [Coding classes for Rosedale Garden, New Town](/coding-classes-in-rosedale-garden)
+- [Coding classes for DLF New Town Heights](/coding-classes-in-dlf-new-town-heights)
+- [Coding classes for Elita Garden Vista, New Town](/coding-classes-in-elita-garden-vista)
+- [Coding classes for Hiland Willows, New Town](/coding-classes-in-hiland-willows)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-classes-for-dps-new-town-kolkata*

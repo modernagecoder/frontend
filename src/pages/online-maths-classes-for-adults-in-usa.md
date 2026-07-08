@@ -1,11 +1,11 @@
 ---
 title: "Online Maths Classes for Adults in the USA · 1:1 Math for Work, Study & Confidence — Modern Age Coders"
-description: "Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. $100/month, 8 classes. Free trial."
+description: "Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. $150/month, 8 classes. Free trial."
 canonical: https://learn.modernagecoders.com/online-maths-classes-for-adults-in-usa
 keywords: ["online math classes for adults USA", "math tutor for adults", "adult math help", "learn math as an adult", "basic math for adults", "math refresher for adults", "statistics for adults", "financial math course", "math anxiety help", "GRE quant tutor", "GMAT quant prep", "math for career change"]
 source: src/pages/online-maths-classes-for-adults-in-usa.html
 ---
-> Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. $100/month, 8 classes. Free trial.
+> Live 1:1 online math classes for adults in the USA. Rebuild the basics, master statistics and financial math for work, or prep for the GRE/GMAT quant — taught patiently, from the ground up, no judgment. Mentors in every US time zone. $150/month, 8 classes. Free trial.
 
 Why math feels closed off to adults
 
@@ -51,7 +51,7 @@ Worked example · everyday & financial math
 
 **How we do it.** A percent is just a fraction with a fixed bottom of 100. "%" literally means "per hundred." Once that single idea is solid, every percentage question becomes the same question.
 
-18% = 18 per 100 = 18/100 = 0.1818% of a $1,250 bill: 0.18 × 1250 = **$225**a price rose from $80 to $100 — what % change? change ÷ original = 20/80 = 0.25 = **25% up**
+18% = 18 per 100 = 18/100 = 0.1818% of a $1,250 bill: 0.18 × 1250 = **$225**a price rose from $80 to $150 — what % change? change ÷ original = 20/80 = 0.25 = **25% up**
 
 There's no separate trick for "of," "increase" or "discount" — it's one idea (per hundred) applied with a little reasoning. Adults who see this stop fearing tips, taxes, interest, markups and budgets, because they're all the same move. This is the foundation we build statistics and financial math on.
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Mentorship
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one classes a month (2 per week)
+- 8 live one-to-one classes a month (2 per week, 1 hour each)
 - The same patient mentor throughout
 - A plan built entirely around your goal
 - Flexible times · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group classes a month (2 per week)
+- 8 live small-group classes a month (2 per week, 1 hour each)
 - A few adults working toward similar goals
 - Same teaching approach, lower price
 - Great for a refresher · cancel any time
@@ -186,7 +186,7 @@ An honest comparison
 | Fills your specific gaps | Yes, diagnosed live | No | Rarely |
 | Patient with math anxiety | Built for it | You're on your own | Group-paced |
 | Same mentor each time | Yes | N/A | Usually not |
-| Monthly price | $100 (1:1) / $40 (group) | Free–$30 | $300–2,000+ |
+| Monthly price | $150 (1:1) / $100 (group) | Free–$30 | $300–2,000+ |
 
 Free videos are great if you already know what's missing. We add a mentor who finds the gaps for you and stays patient while you close them.
 
@@ -212,7 +212,7 @@ Yes — we rebuild the underlying arithmetic, algebra and data skills, then trai
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live sessions, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

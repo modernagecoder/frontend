@@ -1,11 +1,11 @@
 ---
 title: "Further Maths Tuition Online · 1:1 A-Level Further Mathematics — Modern Age Coders"
-description: "Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. USD 100/month, 8 lessons. Free trial."
+description: "Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. USD 150/month, 8 lessons. Free trial."
 canonical: https://learn.modernagecoders.com/further-maths-tuition-online
 keywords: ["further maths tuition online", "A-level further maths tutor", "further mathematics tutor", "complex numbers tutor", "matrices A-level", "proof by induction", "polar coordinates A-level", "further mechanics tutor", "further statistics", "decision maths tutor", "STEP MAT tutor", "further maths revision"]
 source: src/pages/further-maths-tuition-online.html
 ---
-> Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. USD 100/month, 8 lessons. Free trial.
+> Live 1:1 online Further Maths tuition for A-Level (Edexcel, AQA, OCR). Complex numbers, matrices, proof by induction, polar coordinates and further mechanics, stats and decision — taught from the ideas up. Same tutor, UK time. USD 150/month, 8 lessons. Free trial.
 
 Why Further Maths trips up able students
 
@@ -144,18 +144,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month
+$150 / month
 
-- 8 live one-to-one lessons a month (2 per week)
+- 8 live one-to-one lessons a month (2 per week, 1 hour each)
 - An expert tutor who knows your options
 - Concepts made intuitive, then fluency built
 - STEP/MAT coaching available · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month
+$100 / month
 
-- 8 live small-group lessons a month (2 per week)
+- 8 live small-group lessons a month (2 per week, 1 hour each)
 - A few students on the same options
 - Same teaching approach, lower price
 - Good for classmates · cancel any time
@@ -174,7 +174,7 @@ You keep the same tutor through the year, so they know your options, your weak t
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -186,7 +186,7 @@ An honest comparison
 | Knows Further Maths deeply | Yes | Sometimes | Not all tutors |
 | Covers your exact options | Yes | Generic | Varies |
 | STEP/MAT coaching | Yes | Rarely | Rarely |
-| Monthly price | $100 (1:1) / $40 (group) | Free–£20 | £40–70/hr |
+| Monthly price | $150 (1:1) / $100 (group) | Free–£20 | £40–70/hr |
 
 Many general tutors don't teach Further Maths confidently. Ours specialise in it — and in making its hardest ideas feel obvious.
 
@@ -212,7 +212,7 @@ Yes — the two reinforce each other. See our [A-Level Maths](/a-level-maths-tui
 
 How much does it cost?
 
-USD 100 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 40 per month. No contract; cancel any time.
+USD 150 per month for private 1:1 — eight live lessons, two each week. Small-group option USD 100 per month. No contract; cancel any time.
 
 Is there a free trial?
 

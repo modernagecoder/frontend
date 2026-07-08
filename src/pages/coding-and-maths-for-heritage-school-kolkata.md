@@ -236,6 +236,13 @@ Everything you need to know before booking your first class.
 
 [How We Teach (Free Demo Library)](/how-we-teach)[Online Maths Tuition](/online-maths-tuition)[ICSE Computer Applications (Class 10)](/computer-applications-icse-class-10)[Coding for ICSE Students](/coding-for-icse-students)[Coding for IGCSE Students](/coding-for-igcse-students)[Learn Coding by Class](/learn-coding-by-class)[Student Success Stories](/success-stories)[All School Programmes](/schools)
 
+## Coding & maths classes for residential complexes near The Heritage School, Anandapur
+
+Many The Heritage School, Anandapur families live in these nearby housing complexes and societies, where we run live online coding and maths classes in small batches.
+
+- [Coding classes for Urbana, Anandapur](/coding-classes-in-urbana)
+- [Coding classes for Avidipta, Mukundapur](/coding-classes-in-avidipta-mukundapur)
+
 ---
 
 *Canonical: https://learn.modernagecoders.com/coding-and-maths-for-heritage-school-kolkata*

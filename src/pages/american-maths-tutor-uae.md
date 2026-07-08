@@ -1,17 +1,17 @@
 ---
 title: "American Curriculum & SAT Maths Tutor in the UAE · 1:1 Online — Modern Age Coders"
-description: "Live 1:1 online maths tutoring for American-curriculum students in the UAE — middle and high school math, the SAT and AP Calculus & Statistics. We teach the reasoning, then train the test. Gulf Standard Time. USD 100/month (about AED 370). Free trial."
+description: "Live 1:1 online maths tutoring for American-curriculum students in the UAE — middle and high school math, the SAT and AP Calculus & Statistics. We teach the reasoning, then train the test. Gulf Standard Time. USD 150/month (about AED 550). Free trial."
 canonical: https://learn.modernagecoders.com/american-maths-tutor-uae
 keywords: ["American curriculum maths tutor UAE", "SAT maths tutor UAE", "SAT prep Dubai", "American school maths tutor Dubai", "AP calculus tutor UAE", "AP statistics tutor UAE", "US curriculum maths UAE", "digital SAT tutor UAE", "high school math tutor UAE", "algebra geometry tutor UAE American"]
 source: src/pages/american-maths-tutor-uae.html
 ---
-> Live 1:1 online maths tutoring for American-curriculum students in the UAE — middle and high school math, the SAT and AP Calculus & Statistics. We teach the reasoning, then train the test. Gulf Standard Time. USD 100/month (about AED 370). Free trial.
+> Live 1:1 online maths tutoring for American-curriculum students in the UAE — middle and high school math, the SAT and AP Calculus & Statistics. We teach the reasoning, then train the test. Gulf Standard Time. USD 150/month (about AED 550). Free trial.
 
 In short
 
 **Modern Age Coders provides live one-to-one online maths tutoring for American-curriculum students across the UAE** — middle and high school math, the Digital SAT, and AP Calculus and Statistics.
 
-We build the algebra and reasoning that lift both GPA and the SAT score, then train the specific test technique, with the same tutor throughout. Pricing is **USD 100 per month (about AED 370)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
+We build the algebra and reasoning that lift both GPA and the SAT score, then train the specific test technique, with the same tutor throughout. Pricing is **USD 150 per month (about AED 550)** for eight 1:1 sessions, lessons run in Gulf Standard Time, and the first session is free.
 
 Why American-curriculum families need joined-up help
 
@@ -150,18 +150,18 @@ Pricing
 
 ### 1:1 Private Tuition
 
-$100 / month · ≈ AED 370
+$150 / month · ≈ AED 550
 
-- 8 live one-to-one sessions a month (2 per week)
+- 8 live one-to-one sessions a month (2 per week, 1 hour each)
 - The same tutor for school, SAT and AP
 - Understanding first, then test technique
 - Official SAT/AP material · cancel any time
 
 ### Small-Group Cohort
 
-$40 / month · ≈ AED 147
+$100 / month · ≈ AED 367
 
-- 8 live small-group sessions a month (2 per week)
+- 8 live small-group sessions a month (2 per week, 1 hour each)
 - A few students at a similar level
 - Same teaching approach, lower price
 - Good for shared SAT prep · cancel any time
@@ -180,7 +180,7 @@ The same tutor stays with your child, so they know the course, the target school
 
 "My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended!"
 
-— Shewta Singh, mother of Ishan (verified Google review)
+Shewta Singh, mother of Ishan · verified Google review
 
 An honest comparison
 
@@ -192,7 +192,7 @@ An honest comparison
 | Teaches understanding | Always | Often just tricks | Varies |
 | Digital SAT & Desmos | Yes | Sometimes | Rarely |
 | Same tutor each time | Yes | Group-paced | Usually |
-| Monthly price | $100 / ≈AED 370 (1:1) | AED 2,000–6,000+ | AED 1,000–3,000+ |
+| Monthly price | $150 / ≈AED 550 (1:1) | AED 2,000–6,000+ | AED 1,000–3,000+ |
 
 Cram courses are pricey and SAT-only; school tutors rarely cover the test. We join everything up with one tutor at sensible value.
 
@@ -214,7 +214,7 @@ Yes — AP Calculus AB/BC and AP Statistics, CED aligned, with free-response tec
 
 How much does it cost?
 
-USD 100/month (about AED 370) for 1:1 — eight live sessions, two a week. Small-group option USD 40/month. No contract.
+USD 150/month (about AED 550) for 1:1 — eight live sessions, two a week. Small-group option USD 100/month. No contract.
 
 Is the first session free?
 

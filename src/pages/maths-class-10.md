@@ -215,7 +215,7 @@ Your pace, your goals, your schedule
 
 per month
 
-- 2 private sessions per week
+- 2 private sessions per week (1 hour each)
 - 100% customized to your syllabus
 - Flexible scheduling (any timezone)
 - Dedicated tutor assigned
@@ -235,7 +235,7 @@ Popular
 
 Learn with peers, grow together
 
-$40
+$100
 
 USD / month
 
@@ -247,17 +247,17 @@ USD / month
 - Doubt clearing support
 - Course completion certificate
 
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Class 10 Group Maths Classes ($40 USD/month). Can you share more details?)Recommended
+[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Class 10 Group Maths Classes ($100 USD/month). Can you share more details?)Recommended
 
 ### Personalized 1-on-1
 
 Your pace, your goals, your schedule
 
-$80
+$150
 
 USD / month
 
-- 2 private sessions per week
+- 2 private sessions per week (1 hour each)
 - 100% customized to your curriculum
 - Flexible scheduling across timezones
 - Dedicated tutor + priority support
@@ -266,7 +266,7 @@ USD / month
 - Lifetime recording access
 - Monthly progress reports for parents
 
-[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Class 10 Personalized 1-on-1 Maths ($100 USD/month). Can you share more details?)
+[Chat to Enroll](https://wa.me/919123366161?text=Hi! I'm an international student interested in Class 10 Personalized 1-on-1 Maths ($150 USD/month). Can you share more details?)
 
 Also available in EUR, GBP, CAD, AUD, SGD & AED.
 Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.
@@ -297,7 +297,7 @@ FAQ
 
 Quick answers to the most common questions parents and students ask about our Class 10 maths tuition.
 
-At Modern Age Coders, group maths classes for Class 10 start at just ₹1,499 per month for Indian students or $40 per month for international students. Mini Batch (3-4 students) is ₹2,499 per month. Personalized 1-on-1 sessions are ₹4,999 per month or $100 per month. There are no hidden fees and you can cancel anytime. We also offer discounts on quarterly and yearly plans, so you save more when you commit for longer.Absolutely. Online maths tuition for Class 10 board exams is highly effective because students receive individual attention, can learn at their own pace, and have access to recorded sessions for unlimited revision. Our Class 10 students consistently score 90+ in their board exams. In fact, 92% of our students show significant grade improvement within the first 3 months of joining. The key advantage is that online sessions allow for live whiteboard interaction, screen sharing, and instant doubt clearing, which many students find more engaging than traditional classroom tuition.We recommend 2 classes per week, each lasting 1 hour. This gives enough time to cover new chapters, revise previous concepts, and practice problem solving. During exam season, we offer additional revision sessions and mock test classes at no extra cost. Students also get unlimited doubt clearing support throughout the week via WhatsApp, so learning does not stop between classes.We cover all major boards including CBSE, ICSE, all Indian State Boards, IGCSE, Cambridge, and IB MYP. Our tutors customize every lesson to match your specific board syllabus, textbook, and exam pattern. Whether you are in India, the UAE, Singapore, the UK, or anywhere else in the world, we have a tutor who knows your exact curriculum. We currently have students from 15+ countries studying with us.Yes, you can join at any point during the academic year. If you are joining close to board exams, we create an accelerated revision plan that focuses on high-weightage chapters, previous year question patterns, and targeted practice. Many students who joined us just 3 months before their boards saw dramatic improvements in their scores. We also offer crash course options for students who need intensive preparation in a short timeframe.
+At Modern Age Coders, group maths classes for Class 10 start at just ₹1,499 per month for Indian students or $100 per month for international students. Mini Batch (3-4 students) is ₹2,499 per month. Personalized 1-on-1 sessions are ₹4,999 per month or $150 per month. There are no hidden fees and you can cancel anytime. We also offer discounts on quarterly and yearly plans, so you save more when you commit for longer.Absolutely. Online maths tuition for Class 10 board exams is highly effective because students receive individual attention, can learn at their own pace, and have access to recorded sessions for unlimited revision. Our Class 10 students consistently score 90+ in their board exams. In fact, 92% of our students show significant grade improvement within the first 3 months of joining. The key advantage is that online sessions allow for live whiteboard interaction, screen sharing, and instant doubt clearing, which many students find more engaging than traditional classroom tuition.We recommend 2 classes per week, each lasting 1 hour. This gives enough time to cover new chapters, revise previous concepts, and practice problem solving. During exam season, we offer additional revision sessions and mock test classes at no extra cost. Students also get unlimited doubt clearing support throughout the week via WhatsApp, so learning does not stop between classes.We cover all major boards including CBSE, ICSE, all Indian State Boards, IGCSE, Cambridge, and IB MYP. Our tutors customize every lesson to match your specific board syllabus, textbook, and exam pattern. Whether you are in India, the UAE, Singapore, the UK, or anywhere else in the world, we have a tutor who knows your exact curriculum. We currently have students from 15+ countries studying with us.Yes, you can join at any point during the academic year. If you are joining close to board exams, we create an accelerated revision plan that focuses on high-weightage chapters, previous year question patterns, and targeted practice. Many students who joined us just 3 months before their boards saw dramatic improvements in their scores. We also offer crash course options for students who need intensive preparation in a short timeframe.
 
 ## Why Online Maths Tuition is the Best Choice for Class 10
 
