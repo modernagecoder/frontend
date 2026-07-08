@@ -64,26 +64,171 @@
     "month_1": {
       "title": "Month 1: Seeing Numbers",
       "weeks": "Weeks 1-4",
-      "week_1": "Playful diagnostic: which facts, strategies and confidence the child already holds, disguised as games",
-      "week_2": "Subitizing and quantity sense: dots, dice and ten-frames, recognising amounts without counting",
-      "week_3": "Part-whole thinking: every number is made of other numbers (7 is 5-and-2, 6-and-1, 3-and-4)",
-      "week_4": "The number line as home: position, order, distance and the empty-number-line game"
+      "week_1": {
+        "title": "Getting to Know Your Number Sense",
+        "description": "Playful diagnostic: which facts, strategies and confidence the child already holds, disguised as games",
+        "topics": [
+          "Counting games that show how far a child counts with ease",
+          "Quick quantity flashes to see which small numbers are known on sight",
+          "Simple addition play that reveals the current strategy (counting on, known facts, or guessing)",
+          "Noticing confidence and comfort with numbers, not only right answers",
+          "Spotting facts already automatic, such as small doubles or bonds",
+          "Setting a friendly starting point tuned to the child, not the age"
+        ],
+        "practice": "Over a snack, ask your child to grab a small handful of raisins and guess how many before counting, then count together to check, keeping it light and playful."
+      },
+      "week_2": {
+        "title": "Seeing How Many at a Glance",
+        "description": "Subitizing and quantity sense: dots, dice and ten-frames, recognising amounts without counting",
+        "topics": [
+          "Recognising 1 to 5 dots instantly without counting (subitizing)",
+          "Reading dice patterns as whole amounts",
+          "Meeting the ten-frame as a picture of numbers",
+          "Seeing 6 to 10 as a small group sitting on top of five",
+          "Flashing and hiding quantities to build quick recognition",
+          "Talking about how the amount was seen, not just the answer"
+        ],
+        "practice": "Roll one die a few times each evening and race to say the number before counting the dots, and whoever spots it first wins that round."
+      },
+      "week_3": {
+        "title": "Numbers Are Made of Smaller Numbers",
+        "description": "Part-whole thinking: every number is made of other numbers (7 is 5-and-2, 6-and-1, 3-and-4)",
+        "topics": [
+          "Breaking a small number into two parts in different ways",
+          "Seeing 7 as 5 and 2, 6 and 1, or 4 and 3",
+          "Using fingers or counters to split a group across two hands",
+          "Understanding that the parts always rebuild the whole",
+          "Finding every way to make a chosen number",
+          "Explaining a split out loud in the child's own words"
+        ],
+        "practice": "Give your child 6 buttons and ask how many ways they can split them into two piles, writing each way down together like a treasure list."
+      },
+      "week_4": {
+        "title": "Living on the Number Line",
+        "description": "The number line as home: position, order, distance and the empty-number-line game",
+        "topics": [
+          "Placing numbers in order along a line",
+          "Deciding which number is bigger from its position",
+          "Measuring the distance or jump between two numbers",
+          "Hopping forwards and backwards along the line",
+          "Meeting the empty number line as a thinking tool",
+          "Estimating where a number belongs before checking"
+        ],
+        "practice": "Draw a long line on paper with 0 at one end and 10 at the other, then take turns pointing to where numbers like 7 or 3 should sit."
+      }
     },
     "month_2_3": {
       "title": "Months 2-3: The Bonds That Power Everything",
       "weeks": "Weeks 5-12",
-      "week_5_6": "Bonds of 10 to automaticity, through games, never flashcard grind",
-      "week_7_8": "Doubles and near-doubles as anchor facts; adding 9 and 11 by compensation preview",
-      "week_9_10": "Bridging through 10: the make-ten strategy that turns 8+5 into 10+3",
-      "week_11_12": "Bonds to 20 and fact families: addition and subtraction as one idea seen from two sides"
+      "week_5_6": {
+        "title": "The Pairs That Make Ten",
+        "description": "Bonds of 10 to automaticity, through games, never flashcard grind",
+        "topics": [
+          "Finding both parts that add to make 10",
+          "Recognising 6 and 4, 7 and 3, 8 and 2 as ten-friends",
+          "Using ten-frames to see the missing part",
+          "Answering ten-bonds quickly through repeated play",
+          "Spotting a ten-bond hidden inside a larger problem",
+          "Building speed through fun, never flashcard pressure"
+        ],
+        "practice": "Play make ten: you say a number under ten and your child shouts the partner that finishes the ten, then swap roles after five turns."
+      },
+      "week_7_8": {
+        "title": "Doubles and Their Neighbours",
+        "description": "Doubles and near-doubles as anchor facts; adding 9 and 11 by compensation preview",
+        "topics": [
+          "Learning the doubles up to 10 plus 10 as anchor facts",
+          "Using a known double to solve a near-double (6 plus 7 is double 6 and one more)",
+          "Adding 9 by adding 10 and stepping back one",
+          "Adding 11 by adding 10 and stepping up one",
+          "Seeing how one known fact unlocks several nearby ones",
+          "Choosing the closest double to lean on"
+        ],
+        "practice": "At bedtime, call out a double like double 4 for a quick answer, then a near-double like 4 plus 5, and let your child explain how the double helped."
+      },
+      "week_9_10": {
+        "title": "Making Ten to Add Bigger",
+        "description": "Bridging through 10: the make-ten strategy that turns 8+5 into 10+3",
+        "topics": [
+          "Splitting the second number to fill up to ten first",
+          "Turning 8 plus 5 into 10 plus 3",
+          "Using ten-frames to see the bridge across ten",
+          "Knowing how much a number needs to reach ten",
+          "Adding the leftover part after reaching ten",
+          "Choosing make-ten when numbers sit close to ten"
+        ],
+        "practice": "With two ten-frames and some counters, set up sums like 8 plus 5 and let your child slide counters to fill the first ten, then read the answer."
+      },
+      "week_11_12": {
+        "title": "Bonds to Twenty and Fact Families",
+        "description": "Bonds to 20 and fact families: addition and subtraction as one idea seen from two sides",
+        "topics": [
+          "Finding pairs that add to make 20",
+          "Linking a ten-bond to its twenty partner",
+          "Seeing a fact family: 13 plus 7, 7 plus 13, 20 minus 7, 20 minus 13",
+          "Understanding addition and subtraction as two views of one picture",
+          "Using a known adding fact to find its subtracting partner",
+          "Building all four facts from one number trio"
+        ],
+        "practice": "Pick three numbers that fit together, like 6, 4 and 10, and challenge your child to say all four facts they can make from them."
+      }
     },
     "month_4": {
       "title": "Month 4: Subtraction as Distance + Stage Checkpoint",
       "weeks": "Weeks 13-16",
-      "week_13": "Subtraction two ways: taking away versus finding the gap, and when each is faster",
-      "week_14": "Counting up for change: the shopkeeper's method every adult secretly uses",
-      "week_15": "Mixed strategy play: number talks where children compare routes to the same answer",
-      "week_16": "Stage mastery check through games: solve it, explain it, teach it back"
+      "week_13": {
+        "title": "Two Ways to Subtract",
+        "description": "Subtraction two ways: taking away versus finding the gap, and when each is faster",
+        "topics": [
+          "Taking away by counting back from the larger number",
+          "Finding the gap by counting up between the numbers",
+          "Deciding which way is faster for a given problem",
+          "Seeing subtraction as the distance between two numbers",
+          "Using the number line to picture both methods",
+          "Explaining which route was chosen and why"
+        ],
+        "practice": "Ask a shopping question like you have 10 and a toy costs 8, how much change, and let your child try both counting back and counting up to compare."
+      },
+      "week_14": {
+        "title": "The Shopkeeper's Counting-Up Trick",
+        "description": "Counting up for change: the shopkeeper's method every adult secretly uses",
+        "topics": [
+          "Counting up from the price to the money paid",
+          "Using friendly stops like the next ten",
+          "Adding the small jumps to find the change",
+          "Seeing why counting up avoids hard take-away sums",
+          "Playing shop with real or pretend coins",
+          "Checking the change makes sense"
+        ],
+        "practice": "Set up a tiny pretend shop with priced items and let your child be the shopkeeper, counting up from the price to give you the right change."
+      },
+      "week_15": {
+        "title": "Many Roads to the Same Answer",
+        "description": "Mixed strategy play: number talks where children compare routes to the same answer",
+        "topics": [
+          "Solving one problem in more than one way",
+          "Sharing a strategy out loud in a number talk",
+          "Listening to a different route to the same total",
+          "Comparing which method felt quickest",
+          "Respecting that different minds pick different paths",
+          "Naming the strategy used (make-ten, doubles, or counting up)"
+        ],
+        "practice": "Give one sum like 7 plus 8 and ask your child for two different ways to solve it, then you share a third way you thought of."
+      },
+      "week_16": {
+        "title": "Phase One Check Through Play",
+        "description": "Stage mastery check through games: solve it, explain it, teach it back",
+        "topics": [
+          "Revisiting bonds of 10 and 20 through games",
+          "Choosing a strategy for each problem confidently",
+          "Explaining the thinking behind an answer",
+          "Teaching a strategy back to the mentor or a parent",
+          "Celebrating the facts now known by heart",
+          "Noticing which few facts still want more play"
+        ],
+        "practice": "Let your child be the teacher for ten minutes and show you one number strategy they learned this phase, explaining each step.",
+        "assessment": "A relaxed review game covering number bonds, part-whole thinking and the early strategies, where the child solves a problem, explains it, and teaches a favourite method back, with no timing or pressure."
+      }
     }
   },
   "phase_2_strategies": {
@@ -92,26 +237,123 @@
     "month_5": {
       "title": "Month 5: Two-Digit Courage",
       "weeks": "Weeks 17-20",
-      "week_17_18": "Adding two-digit numbers mentally: jumps of ten, then the leftover ones",
-      "week_19_20": "Compensation as a superpower: 39 + 26 becomes 40 + 25; subtracting 19 by taking 20 and giving one back"
+      "week_17_18": {
+        "title": "Adding Two-Digit Numbers in Jumps",
+        "description": "Adding two-digit numbers mentally: jumps of ten, then the leftover ones",
+        "topics": [
+          "Adding the tens first in one jump",
+          "Then adding the leftover ones",
+          "Using an empty number line to record the jumps",
+          "Holding the running total in mind",
+          "Solving sums like 34 plus 23 step by step",
+          "Checking the answer feels about right"
+        ],
+        "practice": "Call out a two-digit sum like 42 plus 30 during a car ride and ask your child to jump the tens out loud, then add any ones."
+      },
+      "week_19_20": {
+        "title": "The Compensation Superpower",
+        "description": "Compensation as a superpower: 39 + 26 becomes 40 + 25; subtracting 19 by taking 20 and giving one back",
+        "topics": [
+          "Rounding a number up to a friendly ten",
+          "Adjusting the other number to keep the total fair",
+          "Turning 39 plus 26 into 40 plus 25",
+          "Subtracting 19 by taking 20 and giving one back",
+          "Understanding why the give-and-take keeps it equal",
+          "Choosing compensation when a number sits near a ten"
+        ],
+        "practice": "Give a near-ten sum like 29 plus 14 and let your child bump the 29 up to 30, solve it, then give the one back at the end."
+      }
     },
     "month_6": {
       "title": "Month 6: Multiplication as Structure",
       "weeks": "Weeks 21-24",
-      "week_21_22": "Multiplication as groups and arrays, seen and built before recited",
-      "week_23_24": "The clever tables route: 2s, 10s and 5s first, then doubling to 4s and 8s; 9s by compensation"
+      "week_21_22": {
+        "title": "Multiplication as Groups You Can See",
+        "description": "Multiplication as groups and arrays, seen and built before recited",
+        "topics": [
+          "Making equal groups with objects",
+          "Building rows and columns as an array",
+          "Reading 3 rows of 4 as three fours",
+          "Connecting repeated addition to multiplication",
+          "Seeing that an array can be counted two ways",
+          "Using the words times and groups of"
+        ],
+        "practice": "Arrange snacks or blocks into equal rows, like 3 rows of 5, and ask your child to find the total by seeing the groups rather than counting one by one."
+      },
+      "week_23_24": {
+        "title": "The Clever Route Through the Tables",
+        "description": "The clever tables route: 2s, 10s and 5s first, then doubling to 4s and 8s; 9s by compensation",
+        "topics": [
+          "Learning the easy 2s, 5s and 10s first",
+          "Doubling the 2s to reach the 4s",
+          "Doubling the 4s to reach the 8s",
+          "Finding 9s by using 10s and stepping back a group",
+          "Seeing how known tables build the harder ones",
+          "Using skip counting as a rhythm for each table"
+        ],
+        "practice": "Practise one table a day by skip counting it like a chant on the walk to the door, starting with the easy 2s, 5s or 10s."
+      }
     },
     "month_7": {
       "title": "Month 7: The Full Tables, Owned",
       "weeks": "Weeks 25-28",
-      "week_25_26": "3s, 6s and the tricky squares; the handful of hard facts isolated and conquered",
-      "week_27_28": "Division as the other side of multiplication; fact-family fluency through games"
+      "week_25_26": {
+        "title": "Taming the Trickiest Facts",
+        "description": "3s, 6s and the tricky squares; the handful of hard facts isolated and conquered",
+        "topics": [
+          "Learning the 3s by skip counting and grouping",
+          "Reaching the 6s by doubling the 3s",
+          "Meeting the square facts like 6 times 6 and 7 times 7",
+          "Spotting the small handful of facts that feel hardest",
+          "Using a known nearby fact to reach a tricky one",
+          "Practising just the stubborn facts, not the whole grid"
+        ],
+        "practice": "Pick the one fact your child finds hardest this week and turn it into a silly rhyme or picture together to make it stick."
+      },
+      "week_27_28": {
+        "title": "Division Is Multiplication Backwards",
+        "description": "Division as the other side of multiplication; fact-family fluency through games",
+        "topics": [
+          "Seeing division as sharing into equal groups",
+          "Linking 3 times 4 is 12 to 12 shared by 4 is 3",
+          "Building the multiplication and division fact family",
+          "Using a known times fact to answer a divide fact",
+          "Playing fact-family games for speed",
+          "Understanding remainders as leftovers, gently"
+        ],
+        "practice": "Share a small pile of objects equally between two or three plates and ask your child which times fact just proved the answer."
+      }
     },
     "month_8": {
       "title": "Month 8: Doubling, Halving and Strategy Choice",
       "weeks": "Weeks 29-32",
-      "week_29_30": "Doubling and halving chains: 16 x 5 as 8 x 10, the strategy that feels like magic and is pure structure",
-      "week_31_32": "Strategy tournaments: same problem, different routes, and the metacognition of choosing, plus stage mastery check"
+      "week_29_30": {
+        "title": "Doubling and Halving Magic",
+        "description": "Doubling and halving chains: 16 x 5 as 8 x 10, the strategy that feels like magic and is pure structure",
+        "topics": [
+          "Halving one number while doubling the other",
+          "Turning 16 times 5 into 8 times 10",
+          "Seeing why the answer stays the same",
+          "Choosing which number to halve to make it easy",
+          "Using this to multiply by 5 quickly",
+          "Chaining a halve and a double smoothly"
+        ],
+        "practice": "Offer a times-five problem like 14 times 5 and let your child halve the 14 to 7 and double the 5 to 10, then read off 7 times 10."
+      },
+      "week_31_32": {
+        "title": "Strategy Tournament and Phase Two Check",
+        "description": "Strategy tournaments: same problem, different routes, and the metacognition of choosing, plus stage mastery check",
+        "topics": [
+          "Solving one problem several different ways",
+          "Deciding which strategy suits which problem",
+          "Explaining why a chosen route was quickest",
+          "Reviewing make-ten, compensation and doubling-halving",
+          "Owning the full multiplication and division facts",
+          "Thinking about one's own thinking"
+        ],
+        "practice": "Hold a friendly strategy tournament: give one problem and see how many different correct routes your child can find and name.",
+        "assessment": "A relaxed review game across the strategy toolkit, where the child picks and explains a strategy for each problem and teaches a favourite one back, with no timing pressure."
+      }
     }
   },
   "phase_3_mastery": {
@@ -120,26 +362,123 @@
     "month_9": {
       "title": "Month 9: Multi-Digit Mental Arithmetic",
       "weeks": "Weeks 33-36",
-      "week_33_34": "Hundreds without fear: place-value jumps, friendly numbers and compensation at scale",
-      "week_35_36": "Mental multiplication beyond tables: 23 x 4 by splitting, 15 x 6 by halving-doubling"
+      "week_33_34": {
+        "title": "Big Numbers Without Fear",
+        "description": "Hundreds without fear: place-value jumps, friendly numbers and compensation at scale",
+        "topics": [
+          "Jumping by hundreds and tens using place value",
+          "Adding to a friendly round number first",
+          "Using compensation on larger numbers",
+          "Adding numbers like 240 plus 130 in the head",
+          "Keeping the place values lined up while jumping",
+          "Checking the size of the answer makes sense"
+        ],
+        "practice": "During a walk, add house or page numbers like 120 plus 60, encouraging your child to jump the hundreds and tens out loud."
+      },
+      "week_35_36": {
+        "title": "Multiplying Beyond the Tables",
+        "description": "Mental multiplication beyond tables: 23 x 4 by splitting, 15 x 6 by halving-doubling",
+        "topics": [
+          "Splitting a two-digit number into tens and ones",
+          "Multiplying each part then adding (23 times 4 is 20 times 4 plus 3 times 4)",
+          "Using halving and doubling on bigger products",
+          "Choosing the neatest way to split a number",
+          "Holding partial answers in mind to combine",
+          "Estimating first to check the result"
+        ],
+        "practice": "Give a problem like 21 times 3 and let your child split it into 20 times 3 and 1 times 3, then add the two parts."
+      }
     },
     "month_10": {
       "title": "Month 10: Estimation as Judgment",
       "weeks": "Weeks 37-40",
-      "week_37_38": "Rounding with purpose: getting close fast, and knowing how close is close enough",
-      "week_39_40": "The reasonableness habit: catching wrong answers by sense, the skill calculators cannot replace"
+      "week_37_38": {
+        "title": "Rounding to Get Close Fast",
+        "description": "Rounding with purpose: getting close fast, and knowing how close is close enough",
+        "topics": [
+          "Rounding a number to the nearest ten or hundred",
+          "Using rounded numbers for a quick estimate",
+          "Deciding how close an estimate needs to be",
+          "Comparing an estimate to the real answer",
+          "Rounding both numbers before adding",
+          "Understanding when an estimate is enough"
+        ],
+        "practice": "At the shop, ask your child to round a couple of prices and guess the rough total before you reach the till, then compare with the real total."
+      },
+      "week_39_40": {
+        "title": "Does This Answer Make Sense?",
+        "description": "The reasonableness habit: catching wrong answers by sense, the skill calculators cannot replace",
+        "topics": [
+          "Checking whether an answer looks reasonable",
+          "Using an estimate to catch a big mistake",
+          "Spotting answers that are far too big or too small",
+          "Asking about how much this should be first",
+          "Trusting number sense over a typed answer",
+          "Explaining why an answer cannot be right"
+        ],
+        "practice": "Say a deliberately silly answer to an easy sum, like 3 plus 4 is 30, and let your child catch it and explain why it is wrong."
+      }
     },
     "month_11": {
       "title": "Month 11: Fraction Sense Beginnings",
       "weeks": "Weeks 41-44",
-      "week_41_42": "Halves, quarters and the fraction-of-a-quantity game, mental fractions from pictures",
-      "week_43_44": "Fraction and decimal friends: one-half is 0.5 is 50%, the bridge built early"
+      "week_41_42": {
+        "title": "Halves and Quarters of Things",
+        "description": "Halves, quarters and the fraction-of-a-quantity game, mental fractions from pictures",
+        "topics": [
+          "Splitting a shape or group into equal parts",
+          "Finding half of a quantity, like half of 12",
+          "Finding a quarter by halving twice",
+          "Seeing halves and quarters in real objects",
+          "Understanding fair, equal shares",
+          "Reading a simple fraction from a picture"
+        ],
+        "practice": "Share a snack fairly and ask your child for half, then a quarter, of a small group of items, checking the shares are equal."
+      },
+      "week_43_44": {
+        "title": "Half, Point Five and Fifty Percent",
+        "description": "Fraction and decimal friends: one-half is 0.5 is 50%, the bridge built early",
+        "topics": [
+          "Seeing one-half written as 0.5",
+          "Meeting fifty percent as another name for half",
+          "Linking a quarter to 0.25 and 25 percent",
+          "Understanding these are the same amount in different clothes",
+          "Spotting halves and percents in everyday life",
+          "Reading these friendly numbers with confidence"
+        ],
+        "practice": "Point out a half price or 50 percent off sign and ask your child what that means for a simple price, like half of 10."
+      }
     },
     "month_12": {
       "title": "Month 12: Speed With Understanding + Graduation",
       "weeks": "Weeks 45-52",
-      "week_45_48": "Timed play now that meaning holds: beat-your-own-record ladders, never child-versus-child pressure",
-      "week_49_52": "Graduation project: each child runs a number talk, teaching their favourite strategy, plus final stage mastery check and the road-ahead plan"
+      "week_45_48": {
+        "title": "Beat Your Own Record",
+        "description": "Timed play now that meaning holds: beat-your-own-record ladders, never child-versus-child pressure",
+        "topics": [
+          "Using known strategies quickly and calmly",
+          "Timing oneself gently to beat a personal best",
+          "Tracking progress on a personal record ladder",
+          "Choosing the fastest strategy for each fact",
+          "Building speed on top of real understanding",
+          "Racing only against yesterday's self, never a classmate"
+        ],
+        "practice": "Set a friendly one-minute challenge of easy facts and let your child try to beat their own score from last time, celebrating any gain."
+      },
+      "week_49_52": {
+        "title": "Graduation and the Road Ahead",
+        "description": "Graduation project: each child runs a number talk, teaching their favourite strategy, plus final stage mastery check and the road-ahead plan",
+        "topics": [
+          "Choosing a favourite strategy to teach",
+          "Running a number talk for the class or mentor",
+          "Explaining each step clearly to others",
+          "Reviewing all the strategies learned this year",
+          "Celebrating durable, understood speed",
+          "Looking ahead to the next maths adventure"
+        ],
+        "practice": "Let your child teach the whole family their favourite strategy in a five-minute mini-lesson, using a real example.",
+        "assessment": "A gentle final review where the child leads a number talk teaching a chosen strategy, revisits the year's key ideas, and celebrates progress, with a friendly road-ahead plan instead of a test."
+      }
     }
   },
   "faqs": [

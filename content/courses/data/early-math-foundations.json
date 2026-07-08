@@ -64,26 +64,171 @@
     "month_1": {
       "title": "Month 1: Numbers as Quantities",
       "weeks": "Weeks 1-4",
-      "week_1": "Playful diagnostic disguised as games: counting, comparing and pattern instincts observed",
-      "week_2": "One-to-one counting with real objects; the cardinality idea, the last number IS the amount",
-      "week_3": "Subitizing: seeing 3, 4 and 5 without counting, dice, dots and finger patterns",
-      "week_4": "Comparing quantities: more, fewer, same, justified with matching, not guessing"
+      "week_1": {
+        "title": "A Playful First Look",
+        "description": "Playful diagnostic disguised as games: counting, comparing and pattern instincts observed",
+        "topics": [
+          "Counting objects to see how far counting flows",
+          "Comparing two small groups for more or fewer",
+          "Copying and continuing a simple pattern",
+          "Noticing how the child talks about numbers",
+          "Spotting counting habits gently, without correcting",
+          "Finding a warm, happy starting point"
+        ],
+        "practice": "Line up a few toys and ask your child to count them and tell you which pile has more, keeping it a game and not a test."
+      },
+      "week_2": {
+        "title": "One Number for Each Thing",
+        "description": "One-to-one counting with real objects; the cardinality idea, the last number IS the amount",
+        "topics": [
+          "Touching each object once while saying one number",
+          "Matching one number word to one thing",
+          "Understanding the last number tells the total",
+          "Counting a group and answering how many",
+          "Recounting a moved group to see the total stays the same",
+          "Slowing down to count carefully"
+        ],
+        "practice": "Count the stairs together as you climb, touching each step and cheering the final number as the total."
+      },
+      "week_3": {
+        "title": "Seeing Small Numbers Instantly",
+        "description": "Subitizing: seeing 3, 4 and 5 without counting, dice, dots and finger patterns",
+        "topics": [
+          "Recognising 1, 2 and 3 without counting",
+          "Seeing 4 and 5 as quick patterns",
+          "Reading dice dots at a glance",
+          "Showing numbers fast with fingers",
+          "Naming flashed dot cards instantly",
+          "Talking about how the amount was seen"
+        ],
+        "practice": "Flash some fingers for a second, hide them, and ask how many your child saw, taking turns being the flasher."
+      },
+      "week_4": {
+        "title": "More, Fewer, or the Same?",
+        "description": "Comparing quantities: more, fewer, same, justified with matching, not guessing",
+        "topics": [
+          "Comparing two groups for more or fewer",
+          "Matching items one to one to compare fairly",
+          "Recognising when two groups are the same",
+          "Using the words more, fewer and equal",
+          "Explaining how you know which has more",
+          "Making two groups equal by adding or taking away"
+        ],
+        "practice": "Put out two rows of buttons and ask your child to line them up in pairs to prove which row has more, or whether they match."
+      }
     },
     "month_2_3": {
       "title": "Months 2-3: The Number World to 10",
       "weeks": "Weeks 5-12",
-      "week_5_6": "Numerals connected to quantities; counting forwards and backwards as a game",
-      "week_7_8": "Ten-frames as home base: five-and-some structure, seeing numbers inside numbers",
-      "week_9_10": "Part-whole play: 5 is 2-and-3, 4-and-1, decomposition as a toy, years before it is a technique",
-      "week_11_12": "Ordinal numbers, position words and the number line met as a walking game"
+      "week_5_6": {
+        "title": "Number Symbols and Counting Both Ways",
+        "description": "Numerals connected to quantities; counting forwards and backwards as a game",
+        "topics": [
+          "Matching the written numeral to its quantity",
+          "Recognising the numerals 0 to 10",
+          "Counting forwards to ten smoothly",
+          "Counting backwards from ten like a rocket",
+          "Placing a numeral card beside the right group",
+          "Writing or tracing numerals playfully"
+        ],
+        "practice": "Do a rocket countdown from 10 to 0 before a jump or a tickle, then count back up to ten together."
+      },
+      "week_7_8": {
+        "title": "The Ten-Frame as Home Base",
+        "description": "Ten-frames as home base: five-and-some structure, seeing numbers inside numbers",
+        "topics": [
+          "Filling a ten-frame from left to right",
+          "Seeing a full row of five",
+          "Reading 7 as five and two more",
+          "Spotting how many empty spaces are left",
+          "Seeing numbers hidden inside bigger numbers",
+          "Knowing how far a number is from ten"
+        ],
+        "practice": "Draw a two-by-five grid and let your child place counters to show a number like 8, then say it as five and three more."
+      },
+      "week_9_10": {
+        "title": "Breaking Numbers into Parts",
+        "description": "Part-whole play: 5 is 2-and-3, 4-and-1, decomposition as a toy, years before it is a technique",
+        "topics": [
+          "Splitting a small group into two parts",
+          "Seeing 5 as 2 and 3, or 4 and 1",
+          "Finding different ways to make the same number",
+          "Putting the two parts back into the whole",
+          "Using two hands to hold the two parts",
+          "Talking about the parts out loud"
+        ],
+        "practice": "Hide 5 counters behind your back in two hands, show one hand, and let your child work out how many are hiding in the other."
+      },
+      "week_11_12": {
+        "title": "First, Second, Third and Where Things Sit",
+        "description": "Ordinal numbers, position words and the number line met as a walking game",
+        "topics": [
+          "Using first, second, third and last",
+          "Describing position with in front, behind and between",
+          "Walking along a number line as a path",
+          "Finding which number comes before or after",
+          "Ordering a small line of toys",
+          "Naming who is in each place in a line"
+        ],
+        "practice": "Line up soft toys and ask playful questions like which one is third, or who is between the first and the fourth."
+      }
     },
     "month_4": {
       "title": "Month 4: Patterns and Sorting + Stage Checkpoint",
       "weeks": "Weeks 13-16",
-      "week_13": "Repeating patterns: copy, extend, create, the beginnings of algebraic thinking",
-      "week_14": "Sorting and classifying by attributes; explaining the rule you sorted by",
-      "week_15": "Growing patterns and what-comes-next reasoning",
-      "week_16": "Stage mastery check through play: show it, say it, teach it to your bear"
+      "week_13": {
+        "title": "Patterns That Repeat",
+        "description": "Repeating patterns: copy, extend, create, the beginnings of algebraic thinking",
+        "topics": [
+          "Copying a simple repeating pattern",
+          "Continuing a pattern by what comes next",
+          "Creating a brand new pattern of your own",
+          "Naming the repeating unit, like red blue red blue",
+          "Spotting patterns in colours, shapes and sounds",
+          "Fixing a pattern with a deliberate mistake in it"
+        ],
+        "practice": "Start a pattern with household items, like spoon fork spoon fork, and ask what comes next, then let your child build one for you."
+      },
+      "week_14": {
+        "title": "Sorting by How Things Are Alike",
+        "description": "Sorting and classifying by attributes; explaining the rule you sorted by",
+        "topics": [
+          "Sorting objects into groups by colour, size or shape",
+          "Choosing your own rule for sorting",
+          "Explaining the rule you used",
+          "Noticing an object that does not belong",
+          "Sorting the same set a second, different way",
+          "Describing groups with words like all and none"
+        ],
+        "practice": "Tip out a box of toys or socks and ask your child to sort them, then guess the rule they chose before they tell you."
+      },
+      "week_15": {
+        "title": "Patterns That Grow",
+        "description": "Growing patterns and what-comes-next reasoning",
+        "topics": [
+          "Seeing a pattern that gets bigger each step",
+          "Working out what comes next in a growing pattern",
+          "Building steps like 1, then 2, then 3 blocks",
+          "Describing how the pattern changes",
+          "Predicting a later step in the pattern",
+          "Comparing repeating and growing patterns"
+        ],
+        "practice": "Build a staircase of blocks that grows by one each time and ask your child how many blocks the next step needs."
+      },
+      "week_16": {
+        "title": "Phase One Check Through Play",
+        "description": "Stage mastery check through play: show it, say it, teach it to your bear",
+        "topics": [
+          "Counting a group and telling the total",
+          "Comparing quantities with more and fewer",
+          "Showing a number on a ten-frame",
+          "Copying and extending a pattern",
+          "Explaining thinking out loud",
+          "Teaching a skill to a toy or a parent"
+        ],
+        "practice": "Let your child teach a teddy how to count a small group and spot which pile has more, while you happily listen in.",
+        "assessment": "A gentle play-based check of counting, comparing, ten-frames and patterns, where the child shows a skill, says how it works, and teaches it to a toy, with no pressure."
+      }
     }
   },
   "phase_2_operations": {
@@ -92,26 +237,123 @@
     "month_5": {
       "title": "Month 5: Addition and Subtraction as Stories",
       "weeks": "Weeks 17-20",
-      "week_17_18": "Joining and separating stories acted with objects; the plus and minus symbols as story shorthand",
-      "week_19_20": "Counting on (not starting over) and counting back; the empty-hand subtraction game"
+      "week_17_18": {
+        "title": "Adding and Taking Away as Stories",
+        "description": "Joining and separating stories acted with objects; the plus and minus symbols as story shorthand",
+        "topics": [
+          "Acting out a joining story with objects",
+          "Acting out a taking-away story",
+          "Meeting the plus sign as and more",
+          "Meeting the minus sign as take away",
+          "Reading a simple number story as a picture",
+          "Telling the story back in your own words"
+        ],
+        "practice": "Tell a tiny story with toys, like three ducks and two more join them, and let your child act it out and say how many altogether."
+      },
+      "week_19_20": {
+        "title": "Counting On and Counting Back",
+        "description": "Counting on (not starting over) and counting back; the empty-hand subtraction game",
+        "topics": [
+          "Starting from the bigger number and counting on",
+          "Not going back to one every time",
+          "Counting back to take away",
+          "Using fingers to count on a few more",
+          "Playing the hidden-in-the-hand take-away game",
+          "Choosing to count on or count back"
+        ],
+        "practice": "Hold some counters in a closed hand, say the number inside, add a couple on top, and let your child count on from the hidden number."
+      }
     },
     "month_6": {
       "title": "Month 6: Bonds of 10 and Fact Families",
       "weeks": "Weeks 21-24",
-      "week_21_22": "Bonds of 10 through every game we know, the single most valuable fact set in mathematics",
-      "week_23_24": "Fact families: 3+7, 7+3, 10-7, 10-3 as one idea seen four ways"
+      "week_21_22": {
+        "title": "The Pairs That Make Ten",
+        "description": "Bonds of 10 through every game we know, the single most valuable fact set in mathematics",
+        "topics": [
+          "Finding two parts that make ten",
+          "Learning pairs like 6 and 4, 7 and 3",
+          "Filling a ten-frame to see the missing part",
+          "Answering the partner of a number quickly",
+          "Playing many games to make the pairs stick",
+          "Feeling how ten is a friendly whole"
+        ],
+        "practice": "Play friends of ten: hold up some fingers on one hand and ask how many more make ten, then swap hands."
+      },
+      "week_23_24": {
+        "title": "One Number Trio, Four Facts",
+        "description": "Fact families: 3+7, 7+3, 10-7, 10-3 as one idea seen four ways",
+        "topics": [
+          "Seeing three numbers that belong together",
+          "Making two addition facts from the trio",
+          "Making two subtraction facts from the trio",
+          "Understanding adding and taking away as linked",
+          "Using one known fact to find the others",
+          "Building the whole fact family from a picture"
+        ],
+        "practice": "Give your child three numbers like 2, 8 and 10 and see how many facts they can say using all three."
+      }
     },
     "month_7": {
       "title": "Month 7: Teen Numbers and Place Value Beginnings",
       "weeks": "Weeks 25-28",
-      "week_25_26": "Teens demystified: 14 as ten-and-four, built with materials, where place value actually starts",
-      "week_27_28": "Numbers to 20: counting, comparing, and bridging-through-10 previewed as a game"
+      "week_25_26": {
+        "title": "Teen Numbers Are Ten and Some More",
+        "description": "Teens demystified: 14 as ten-and-four, built with materials, where place value actually starts",
+        "topics": [
+          "Building a teen number as one ten and some ones",
+          "Seeing 14 as ten and four",
+          "Grouping ten small items into one bundle",
+          "Reading teen numbers correctly",
+          "Understanding where place value begins",
+          "Matching the numeral to the ten-and-ones picture"
+        ],
+        "practice": "Bundle ten straws or sticks with a band, add a few loose ones, and ask your child to name the teen number you made."
+      },
+      "week_27_28": {
+        "title": "All the Way to Twenty",
+        "description": "Numbers to 20: counting, comparing, and bridging-through-10 previewed as a game",
+        "topics": [
+          "Counting forwards and backwards to 20",
+          "Comparing two numbers up to 20",
+          "Ordering numbers up to 20",
+          "Filling a second ten-frame past ten",
+          "Previewing the make-ten bridge as a game",
+          "Spotting the ten inside a teen number"
+        ],
+        "practice": "Count a bigger pile of objects, like 16 pasta pieces, into two ten-frames, then ask which of two numbers up to 20 is bigger."
+      }
     },
     "month_8": {
       "title": "Month 8: Story Problems and the Explain Habit",
       "weeks": "Weeks 29-32",
-      "week_29_30": "Word problems as theatre: act it, draw it, then write it, the three-step that prevents future word-problem fear",
-      "week_31_32": "Missing-number puzzles and both-ways thinking; stage mastery check through play"
+      "week_29_30": {
+        "title": "Act It, Draw It, Write It",
+        "description": "Word problems as theatre: act it, draw it, then write it, the three-step that prevents future word-problem fear",
+        "topics": [
+          "Acting out a word problem with objects",
+          "Drawing a simple picture of the story",
+          "Writing the matching number sentence",
+          "Finding the question hidden in the story",
+          "Deciding whether to join or take away",
+          "Checking the answer against the story"
+        ],
+        "practice": "Make up a little story, such as five apples and two eaten, and guide your child to act it, draw it, then write the number sentence."
+      },
+      "week_31_32": {
+        "title": "Missing Numbers and Phase Two Check",
+        "description": "Missing-number puzzles and both-ways thinking; stage mastery check through play",
+        "topics": [
+          "Finding a missing number in a simple sentence",
+          "Thinking backwards from an answer",
+          "Using fact families to fill the gap",
+          "Reviewing story problems and bonds of ten",
+          "Explaining how a puzzle was solved",
+          "Showing teen numbers as ten and ones"
+        ],
+        "practice": "Pose a gentle puzzle like something plus 3 makes 7 using counters, and let your child find the missing amount.",
+        "assessment": "A relaxed play-based check of story problems, bonds of ten, fact families and teen numbers, where the child solves a puzzle and explains the thinking, with no pressure."
+      }
     }
   },
   "phase_3_expansion": {
@@ -120,26 +362,123 @@
     "month_9": {
       "title": "Month 9: The Road to 100",
       "weeks": "Weeks 33-36",
-      "week_33_34": "Tens and ones with materials: building two-digit numbers, comparing and ordering them",
-      "week_35_36": "Skip counting by 2s, 5s and 10s as rhythm and pattern; the 100-square explored like a map"
+      "week_33_34": {
+        "title": "Building Numbers from Tens and Ones",
+        "description": "Tens and ones with materials: building two-digit numbers, comparing and ordering them",
+        "topics": [
+          "Building a two-digit number from tens and ones",
+          "Bundling tens and counting the leftover ones",
+          "Reading a number like 34 as three tens and four",
+          "Comparing two two-digit numbers",
+          "Ordering several numbers from small to big",
+          "Matching the numeral to the tens-and-ones model"
+        ],
+        "practice": "Use grouped straws or blocks to build a number like 27, then build another and ask your child which is bigger and why."
+      },
+      "week_35_36": {
+        "title": "Skip Counting and the Hundred Square",
+        "description": "Skip counting by 2s, 5s and 10s as rhythm and pattern; the 100-square explored like a map",
+        "topics": [
+          "Skip counting by 10s to one hundred",
+          "Skip counting by 5s and by 2s",
+          "Hearing skip counting as a rhythm",
+          "Finding patterns on the hundred square",
+          "Moving up, down and across the hundred square",
+          "Spotting the tens column and its counting patterns"
+        ],
+        "practice": "Chant counting by tens up to a hundred on a walk, then try by fives, clapping to keep the rhythm."
+      }
     },
     "month_10": {
       "title": "Month 10: Two-Digit Confidence",
       "weeks": "Weeks 37-40",
-      "week_37_38": "Adding tens, adding ones: two-digit addition with materials first, mental jumps second",
-      "week_39_40": "Ten-more ten-less fluency; friendly-number thinking previewed gently"
+      "week_37_38": {
+        "title": "Adding Two-Digit Numbers",
+        "description": "Adding tens, adding ones: two-digit addition with materials first, mental jumps second",
+        "topics": [
+          "Adding two numbers using tens and ones blocks",
+          "Combining the tens, then the ones",
+          "Moving from blocks to picturing the jump",
+          "Adding a whole ten to a number",
+          "Solving sums like 23 plus 14",
+          "Checking the answer with the materials"
+        ],
+        "practice": "Set out blocks for a sum like 22 plus 13 and let your child join the tens and the ones, then say the total."
+      },
+      "week_39_40": {
+        "title": "Ten More and Ten Less",
+        "description": "Ten-more ten-less fluency; friendly-number thinking previewed gently",
+        "topics": [
+          "Finding ten more than a number quickly",
+          "Finding ten less than a number",
+          "Using the hundred square to jump by ten",
+          "Noticing only the tens digit changes",
+          "Meeting friendly round numbers",
+          "Jumping to the next friendly ten"
+        ],
+        "practice": "Say a number like 34 and ask for ten more, then ten less, using the hundred square to check each jump."
+      }
     },
     "month_11": {
       "title": "Month 11: Measurement, Money and Time",
       "weeks": "Weeks 41-44",
-      "week_41_42": "Length, weight and capacity by comparing and then by counting units; estimation as a guessing game with feedback",
-      "week_43_44": "Coins and simple shopping play; o'clock and half-past on real clocks"
+      "week_41_42": {
+        "title": "Measuring and Guessing",
+        "description": "Length, weight and capacity by comparing and then by counting units; estimation as a guessing game with feedback",
+        "topics": [
+          "Comparing lengths as longer and shorter",
+          "Comparing weights as heavier and lighter",
+          "Comparing capacity as holds more or less",
+          "Measuring with repeated units like paper clips",
+          "Guessing a measurement, then checking it",
+          "Using words like longest, heaviest and full"
+        ],
+        "practice": "Guess how many hand-spans long the table is, then measure together to see how close the guess was."
+      },
+      "week_43_44": {
+        "title": "Money and Telling the Time",
+        "description": "Coins and simple shopping play; o'clock and half-past on real clocks",
+        "topics": [
+          "Recognising a few common coins",
+          "Paying for small pretend items",
+          "Counting a small amount of money",
+          "Reading o'clock on a real clock",
+          "Reading half-past on a real clock",
+          "Linking times to parts of the day"
+        ],
+        "practice": "Play shop with real coins for a few priced items, then check what o'clock it is on a real clock together."
+      }
     },
     "month_12": {
       "title": "Month 12: Shapes, Data and Graduation",
       "weeks": "Weeks 45-52",
-      "week_45_48": "2D and 3D shapes built, named and hunted at home; halves and quarters as fair sharing, fractions met kindly",
-      "week_49_52": "Simple pictographs from the child's own surveys; graduation project, the child teaches their favourite math game, and the road-ahead plan into grade-level math"
+      "week_45_48": {
+        "title": "Shapes and Fair Shares",
+        "description": "2D and 3D shapes built, named and hunted at home; halves and quarters as fair sharing, fractions met kindly",
+        "topics": [
+          "Naming flat shapes like circle, square and triangle",
+          "Naming solid shapes like cube, sphere and cone",
+          "Building and hunting for shapes at home",
+          "Describing shapes by their sides and corners",
+          "Sharing something fairly into halves",
+          "Sharing into quarters as four equal parts"
+        ],
+        "practice": "Go on a shape hunt around the house, then share a snack or a drawing fairly into halves and quarters."
+      },
+      "week_49_52": {
+        "title": "Graphs, Graduation and the Road Ahead",
+        "description": "Simple pictographs from the child's own surveys; graduation project, the child teaches their favourite math game, and the road-ahead plan into grade-level math",
+        "topics": [
+          "Asking a simple survey question",
+          "Collecting answers from family or class",
+          "Drawing a picture graph of the results",
+          "Reading which answer had the most",
+          "Teaching a favourite math game to others",
+          "Looking ahead to grade-level math"
+        ],
+        "practice": "Help your child survey the family on a fun question, like favourite fruit, and draw a little picture graph of the answers.",
+        "assessment": "A gentle final celebration where the child makes a simple pictograph, teaches a favourite math game, and revisits the year's ideas, with a friendly road-ahead plan instead of a test."
+      }
     }
   },
   "faqs": [
