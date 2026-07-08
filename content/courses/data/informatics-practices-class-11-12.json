@@ -6,8 +6,8 @@
     "keywords": [
       "informatics practices class 11",
       "informatics practices class 12",
-      "IP class 12 syllabus 2025-26",
-      "IP class 11 syllabus 2025-26",
+      "IP class 12 syllabus 2026-27",
+      "IP class 11 syllabus 2026-27",
       "CBSE informatics practices",
       "CBSE IP code 065",
       "IP class 12 notes",
@@ -20,7 +20,7 @@
       "Python Pandas Series DataFrame",
       "SQL functions class 12 IP",
       "informatics practices class 12 practical file",
-      "IP class 12 sample paper 2025-26",
+      "IP class 12 sample paper 2026-27",
       "Preeti Arora IP class 12 solutions",
       "Preeti Arora IP class 11 solutions",
       "Sumita Arora informatics practices",
@@ -44,7 +44,7 @@
       "best book for informatics practices class 12",
       "IP class 12 one shot revision",
       "informatics practices class 12 marking scheme",
-      "CBSE IP sample paper 2025-26",
+      "CBSE IP sample paper 2026-27",
       "Python lists dictionaries class 11 IP",
       "SQL DDL DML DQL class 11 IP",
       "emerging trends AI IoT cloud computing class 11",
@@ -86,7 +86,7 @@
     "description": "Informatics Practices (IP, Code 065) is the perfect subject for students interested in data science, business analytics, and technology applications. Unlike Computer Science (Code 083) which dives deep into programming logic and data structures, IP focuses on practical data handling using Python's Pandas library, stunning data visualization with Matplotlib, and powerful SQL database querying.\n\nThis 2-year course covers the complete CBSE IP syllabus for Class 11 and Class 12 — from the very basics of Python programming and SQL to advanced DataFrame operations, pivot tables, data visualization charts, GROUP BY/HAVING queries, table joins, computer networks, and societal impacts of technology.\n\nOur IP batch is completely separate from CS (083) and ICSE batches. Every class, assignment, test, and mock exam is specifically designed for the IP syllabus and CBSE exam pattern. We follow Preeti Arora (most popular IP textbook), Sumita Arora, and NCERT Informatics Practices textbooks chapter-by-chapter.\n\nStudents get complete practical file preparation (15+ Pandas programs, 4+ Matplotlib visualizations, 15+ SQL queries), guided project work, viva preparation, and intensive board exam revision with 10+ mock papers. Our goal: every student scores 90+ in IP board exams.",
     "what_makes_this_different": [
       "Dedicated CBSE IP batch — not mixed with CS or ICSE students",
-      "100% CBSE Code 065 syllabus coverage — latest 2025-26 curriculum",
+      "100% CBSE Code 065 syllabus coverage — latest 2026-27 curriculum",
       "Chapter-wise teaching matching Preeti Arora, Sumita Arora & NCERT IP textbooks",
       "Hands-on Pandas practice with real datasets — not just theory",
       "Matplotlib visualization projects with real-world data",
@@ -165,7 +165,7 @@
         "projects": [
           "Computer system diagram with all components labeled",
           "Input-output devices classification chart with 20+ devices",
-          "Research project: Latest processor technologies in 2025-26"
+          "Research project: Latest processor technologies in 2026-27"
         ],
         "practice": "NCERT IP Chapter 1 questions, Preeti Arora exercises, 30 MCQs on computer fundamentals"
       },
@@ -1287,7 +1287,7 @@
           "3 more full-length mock exams (Set 3, 4, 5)",
           "CBSE IP Previous Year Papers solved:",
           "2020, 2021, 2022, 2023, 2024, 2025 — complete solutions with marking scheme",
-          "CBSE IP Sample Paper 2025-26 — official sample paper solved",
+          "CBSE IP Sample Paper 2026-27 — official sample paper solved",
           "Frequently repeated question analysis — top 30 topics that appear every year",
           "Most important Pandas questions: Series operations, DataFrame creation, loc/iloc, groupby",
           "Most important SQL questions: GROUP BY + HAVING, aggregate functions, joins, functions",
@@ -1461,6 +1461,74 @@
         "note": "Comprehensive coverage with extensive solved examples"
       }
     ]
+  },
+  "additional_learning_resources": {
+    "total_projects_built": "35+ graded programs across both years, including 2 complete board practical files (Pandas, Matplotlib, and SQL) and 2 board-submission projects",
+    "projects_throughout_course": [
+      "Phase 1 (Class 11 Sem 1): Python console programs - calculators, grade tools, list and dictionary applications - plus a full school database built and queried in MySQL",
+      "Phase 2 (Class 11 Sem 2): the complete Class 11 practical file with 14+ Python programs and 14+ SQL queries, plus an emerging trends presentation project",
+      "Phase 3 (Class 12 Sem 1): real-dataset analysis with Pandas Series and DataFrames, a CSV import-analyze-export pipeline, and 4+ fully customized Matplotlib charts (line, bar, histogram)",
+      "Phase 4 (Class 12 Sem 2): advanced SQL query sets (single-row functions, GROUP BY, HAVING, joins) and the final board project combining Pandas, Matplotlib, and CSV data with documentation",
+      "Total: 2 board-ready practical files, 2 submission projects, and dozens of graded programs and query sets"
+    ],
+    "weekly_structure": {
+      "live_classes": "3-4 live classes per week, 1 hour each, in sync with the school's chapter sequence",
+      "practical_work": "2-3 hours of hands-on work: Pandas programs, Matplotlib charts, and SQL queries executed on a live MySQL database",
+      "board_style_practice": "Weekly chapter tests, output-prediction drills, query-writing practice, and answer writing trained on the CBSE marking scheme",
+      "doubt_support": "Dedicated doubt-clearing sessions, with extra slots before school exams, pre-boards, and board exams"
+    },
+    "certification": {
+      "course_certificate": "Modern Age Coders Course Completion Certificate at the end of each academic year",
+      "board_exam_readiness": "Previous year papers, the official CBSE sample paper, and full mock exams on the current IP (065) pattern: 70 marks theory plus 30 marks practical",
+      "practical_file_support": "Complete guidance on the required practical file entries (15+ Pandas programs, 4+ Matplotlib charts, 15+ SQL queries), the board project, and viva preparation for the 30-mark practical exam"
+    },
+    "skills_mastered": [
+      "Python Basics: variables, operators, control flow, lists, dictionaries, and menu-driven programs",
+      "Pandas: creating Series and DataFrames, loc and iloc selection, Boolean filtering, sorting, and aggregation",
+      "Data Visualization: line charts, bar graphs, and histograms in Matplotlib with titles, labels, legends, and grids",
+      "CSV Workflow: importing data with read_csv, cleaning and analyzing it, and exporting results with to_csv",
+      "SQL on MySQL: DDL, DML, single-row and aggregate functions, GROUP BY, HAVING, ORDER BY, and joins",
+      "Computer Networks: network types, devices, topologies, and internet basics as per the IP syllabus",
+      "Societal Impacts: digital footprint, cyber safety, IPR, plagiarism, e-waste, and the IT Act",
+      "Exam Technique: output prediction, query writing, and marking-scheme based answer writing"
+    ],
+    "support_provided": {
+      "small_batches": "Small group batches so every student gets individual attention and screen time",
+      "dedicated_ip_batch": "An IP-only (code 065) batch - never mixed with CS (083) or ICSE students",
+      "exam_season_support": "Extra revision classes and doubt sessions before pre-boards and board exams",
+      "practical_and_project_help": "Step-by-step help with every practical file entry and the board project until they are submission-ready",
+      "progress_tracking": "Regular test results and progress updates shared with parents"
+    }
+  },
+  "prerequisites": {
+    "class_level": "Students entering Class 11 or Class 12 with Informatics Practices (CBSE code 065); Class 10 students who have chosen IP can join early",
+    "prior_knowledge": "No programming or database experience required - Class 11 starts from zero; Class 12 joiners get a bridge revision of Class 11 Python and SQL",
+    "equipment": "A laptop or desktop with a stable internet connection; we guide installation of Python, Pandas, Matplotlib, and MySQL in the first sessions",
+    "time_commitment": "6-8 hours per week including live classes and self-practice",
+    "textbooks": "Preeti Arora, Sumita Arora, or NCERT IP - classes align with whichever textbook the student's school follows"
+  },
+  "who_is_this_for": {
+    "class_11_ip_students": "Students starting IP in Class 11 who want clear fundamentals in Python and SQL from the first chapter",
+    "class_12_board_aspirants": "Students facing boards in the 2026-27 session who need complete Code 065 coverage plus intensive exam practice",
+    "students_confused_by_pandas": "Students who find Series, DataFrames, loc and iloc, and Boolean indexing confusing and want them taught step by step with real data",
+    "sql_strugglers": "Students who can read queries but cannot yet independently write GROUP BY, HAVING, or join queries",
+    "practical_file_and_project_help": "Students who need structured help completing the Pandas, Matplotlib, and SQL practical file and board project on time",
+    "future_data_analysts": "Students interested in data science, analytics, or commerce-plus-technology careers after school"
+  },
+  "career_paths_after_completion": [
+    "BCA, B.Sc IT, and B.Sc Data Science admissions with working Python and SQL skills",
+    "BBA, B.Com, and economics programs where data analysis skills stand out",
+    "Data analytics and business analytics degree specializations",
+    "Data analyst internships that expect Pandas and SQL basics",
+    "Business intelligence and reporting work later on - the SQL taught here transfers directly",
+    "Statistics, journalism, and social science programs that increasingly use Python for data work",
+    "A smooth upgrade path into full data science courses after Class 12"
+  ],
+  "course_guarantees": {
+    "small_batch_promise": "Small batches only - every student practices live and gets doubts answered in every class",
+    "board_pattern_practice": "All tests, sample papers, and mock exams follow the actual CBSE IP (065) pattern and marking scheme",
+    "full_syllabus_coverage": "Complete 2026-27 Code 065 syllabus coverage finished with time left for dedicated revision before boards",
+    "doubt_clearing": "Unlimited doubt-clearing in scheduled sessions, with extra support before exams"
   },
   "faqs": [
     {

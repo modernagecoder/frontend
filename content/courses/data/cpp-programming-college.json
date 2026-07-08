@@ -1306,7 +1306,7 @@
       "answer": "Basic proficiency (junior developer level) takes 6 months of dedicated learning at 15-20 hours/week. True mastery of advanced concepts like templates, concurrency, and system programming takes 12-18 months. This course is designed to take you from zero to production-level skills in 12 months, with specialization options in game development, HPC, or financial systems."
     },
     {
-      "question": "Is C++ still relevant in 2024? Isn't it an outdated language?",
+      "question": "Is C++ still relevant in 2026? Isn't it an outdated language?",
       "answer": "C++ is more relevant than ever! It's actively developed with new standards (C++20, C++23) adding powerful features like concepts, coroutines, and modules. It powers game engines (Unreal Engine 5), operating systems, browsers (Chrome, Firefox), databases (MongoDB, MySQL), and AI frameworks (TensorFlow, PyTorch). Every major tech company - Google, Microsoft, Apple, Meta - heavily invests in C++ development."
     }
   ],

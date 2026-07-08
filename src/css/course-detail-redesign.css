@@ -387,6 +387,7 @@ body.editorial .success-metric-label{color:rgba(251,248,242,.72) !important}
 .content-section-title svg{width:15px;height:15px;color:var(--amber);flex-shrink:0}
 .practice-section .content-section-title,.assessment-section .content-section-title{margin-bottom:.45rem}
 .practice-text,.assessment-text{margin:0}
+.week-desc{color:var(--ink-soft);font-size:.92rem;line-height:1.65;margin:.9rem 0}
 
 /* legacy module fallback: rotate SVG chevron via .expanded */
 .curriculum-module .module-icon{display:flex;align-items:center;justify-content:center;transition:transform .25s}

@@ -7,8 +7,8 @@
       "computer science class 11",
       "computer science class 12",
       "CBSE computer science",
-      "CBSE CS class 12 syllabus 2025-26",
-      "CBSE CS class 11 syllabus 2025-26",
+      "CBSE CS class 12 syllabus 2026-27",
+      "CBSE CS class 11 syllabus 2026-27",
       "CBSE computer science code 083",
       "Python for class 12 CBSE",
       "Python for class 11 CBSE",
@@ -56,7 +56,7 @@
       "computer science tutor near me",
       "CBSE vs ICSE computer science",
       "computer science class 12 one shot revision",
-      "CS class 12 sample paper 2025-26",
+      "CS class 12 sample paper 2026-27",
       "computer science class 12 marking scheme",
       "sorting algorithms class 12",
       "bubble sort selection sort insertion sort",
@@ -89,7 +89,7 @@
     "description": "This is the most thorough Computer Science program built for Indian Class 11 & 12 students across both CBSE and ICSE boards. We run completely separate batches for CBSE and ICSE students because the syllabus, programming language, exam pattern, and marking scheme are fundamentally different.\n\nCBSE students learn Python programming (as per Code 083 syllabus), SQL with MySQL, computer networking, file handling, data structures using Python, and Python-MySQL connectivity. ICSE/ISC students learn Java programming, object-oriented programming, data structures (stack, queue, linked list, binary trees), Boolean algebra with Karnaugh maps, and advanced recursion.\n\nEvery class is aligned chapter-by-chapter with Sumita Arora, Preeti Arora, and NCERT textbooks. Students get complete practical file preparation, project guidance, viva preparation, previous year paper solving, and dedicated board exam revision modules. Our students consistently score 95+ in board exams because we don't just teach — we drill, practice, and perfect every concept until it becomes second nature.",
     "what_makes_this_different": [
       "Separate CBSE and ICSE batches — no mixing of syllabus or programming languages",
-      "100% syllabus coverage aligned with latest 2025-26 CBSE & ISC curriculum",
+      "100% syllabus coverage aligned with latest 2026-27 CBSE & ISC curriculum",
       "Chapter-wise teaching matching Sumita Arora, Preeti Arora & NCERT textbooks",
       "Complete practical file with 20+ programs (CBSE) / lab assignments (ISC) included",
       "Board exam project guidance with documentation and viva preparation",
@@ -334,7 +334,7 @@
           ],
           "projects": [
             "Grade calculator — CBSE marking scheme with A1, A2, B1, B2, C1, C2, D, E",
-            "Income tax calculator — with Indian tax slab rates for 2025-26",
+            "Income tax calculator — with Indian tax slab rates for 2026-27",
             "Triangle type detector — equilateral, isosceles, scalene, right-angled",
             "Simple login system with username and password validation",
             "Day of the week finder — input a number, output the day"
@@ -1503,8 +1503,8 @@
           "Mock Exam 3, 4, 5: Full-length papers with varying difficulty",
           "CBSE Previous Year Papers: 2020, 2021, 2022, 2023, 2024, 2025 — full solved",
           "ISC Previous Year Papers: 2020, 2021, 2022, 2023, 2024, 2025 — full solved",
-          "CBSE Sample Paper 2025-26 — detailed solution with marking scheme",
-          "ISC Specimen Paper 2025-26 — detailed solution",
+          "CBSE Sample Paper 2026-27 — detailed solution with marking scheme",
+          "ISC Specimen Paper 2026-27 — detailed solution",
           "Frequently repeated questions analysis — top 30 most-asked topics",
           "Marking scheme tricks: how examiners award step marks",
           "Partial credit strategies: getting marks even if full answer unknown",
@@ -1712,6 +1712,75 @@
         "classes": "Class 11 & 12"
       }
     ]
+  },
+  "additional_learning_resources": {
+    "total_projects_built": "40+ graded programs and mini projects across Class 11 and 12, including 2 complete board practical files and 2 board-submission projects",
+    "projects_throughout_course": [
+      "Phase 1 (Class 11 Sem 1): menu-driven console programs - calculators, grade and tax calculators, pattern printers, and number-logic programs built while learning Python (CBSE) or Java (ISC) fundamentals",
+      "Phase 2 (Class 11 Sem 2): the complete Class 11 practical file with 20+ programs, plus a documented mini project such as a quiz game, library manager, or student database",
+      "Phase 3 (Class 12 Sem 1): file handling utilities for text, binary (pickle), and CSV files, a record management system with search, update, and delete, and a menu-driven stack implementation",
+      "Phase 4 (Class 12 Sem 2): SQL query sets on a live MySQL database and the final board project - for CBSE, a Python plus MySQL connectivity application with full documentation and viva preparation",
+      "Total: 2 board-ready practical files, 2 submission projects, and 40+ graded programs over the two years"
+    ],
+    "weekly_structure": {
+      "live_classes": "3-4 live classes per week, 1 hour each, taught chapter by chapter in sync with the school syllabus",
+      "practical_work": "2-3 hours of guided coding practice: practical file programs, SQL queries on a live MySQL database, and output-tracing drills",
+      "board_style_practice": "Weekly chapter tests plus previous year questions, sample papers, and answer writing trained on the CBSE and ISC marking schemes",
+      "doubt_support": "Dedicated doubt-clearing sessions, with extra slots before school exams, pre-boards, and board exams"
+    },
+    "certification": {
+      "course_certificate": "Modern Age Coders Course Completion Certificate at the end of each academic year",
+      "board_exam_readiness": "Structured revision with 10 years of solved board papers and full mock exams on the current CBSE (083) and ISC pattern: 70 marks theory plus 30 marks practical",
+      "practical_file_support": "Complete guidance on every practical file program, the board project with documentation, and viva preparation for the 30-mark practical exam"
+    },
+    "skills_mastered": [
+      "Python Programming (CBSE 083): variables, control flow, strings, lists, tuples, dictionaries, functions, and exception handling",
+      "File Handling: text files, binary files with the pickle module, and CSV files with the csv module",
+      "Data Structures: stack implementation using lists with push, pop, peek, and application problems",
+      "Databases and SQL: DDL, DML, aggregate functions, GROUP BY, HAVING, and joins on MySQL",
+      "Python-MySQL Connectivity: connecting Python to MySQL, executing queries, and fetching results from a program",
+      "Computer Networks: network types, topologies, transmission media, devices, protocols, and web basics",
+      "Java and OOP (ISC batch): classes, constructors, inheritance, polymorphism, recursion, arrays, and data structures",
+      "Exam Technique: output tracing, error spotting, and writing answers to the CBSE and ISC marking schemes"
+    ],
+    "support_provided": {
+      "small_batches": "Small group batches so every student gets individual attention and screen time",
+      "board_specific_batches": "Separate CBSE (Python) and ISC (Java) batches - syllabus and language are never mixed",
+      "exam_season_support": "Extra revision classes and doubt sessions before pre-boards and board exams",
+      "practical_and_project_help": "Step-by-step help with practical file programs and the board project until they are submission-ready",
+      "progress_tracking": "Regular test results and progress updates shared with parents"
+    }
+  },
+  "prerequisites": {
+    "class_level": "Students entering Class 11 or Class 12 with Computer Science - CBSE (code 083) or ISC; Class 10 students who have chosen CS can join early",
+    "prior_knowledge": "No programming experience required - Class 11 starts from the very basics; Class 12 joiners get a bridge revision of Class 11 topics",
+    "equipment": "A laptop or desktop with a stable internet connection; we guide installation of Python and MySQL (CBSE) or Java and BlueJ (ISC) in the first sessions",
+    "time_commitment": "8-10 hours per week including live classes and self-practice",
+    "textbooks": "Sumita Arora, Preeti Arora, or NCERT - classes align with whichever textbook the student's school follows"
+  },
+  "who_is_this_for": {
+    "class_11_students": "Students starting Computer Science in Class 11 who want strong fundamentals from the first chapter",
+    "class_12_board_aspirants": "Students facing boards in the 2026-27 session who need complete syllabus coverage plus intensive exam practice",
+    "students_stuck_on_programming": "Students who understand the theory but struggle to write, trace, or debug programs on their own",
+    "practical_file_and_project_help": "Students who need structured help finishing the practical file and board project correctly and on time",
+    "future_engineers": "Students planning B.Tech, BCA, or B.Sc Computer Science who want a genuine head start on college programming",
+    "score_improvers": "Students targeting a 90+ score who want weekly tests, mock exams, and marking-scheme answer training"
+  },
+  "career_paths_after_completion": [
+    "B.Tech / BE in Computer Science or IT with a strong programming foundation before college begins",
+    "BCA, B.Sc Computer Science, and B.Sc IT admissions",
+    "JEE and other engineering entrances with Computer Science as a scoring board subject",
+    "Indian Computing Olympiad (ZIO/ZCO) and school-level coding competitions",
+    "College-level data structures and competitive programming, building on the Class 12 stack and algorithms work",
+    "Python certifications such as PCEP after the course",
+    "Early internships and freelance projects using Python and SQL",
+    "Data science and AI/ML degree specializations that expect Python fundamentals"
+  ],
+  "course_guarantees": {
+    "small_batch_promise": "Small batches only - every student writes code live and gets doubts answered in every class",
+    "board_pattern_practice": "All tests, sample papers, and mock exams follow the actual CBSE (083) and ISC pattern and marking scheme",
+    "full_syllabus_coverage": "Complete 2026-27 syllabus coverage finished with time left for dedicated revision before boards",
+    "doubt_clearing": "Unlimited doubt-clearing in scheduled sessions, with extra support before exams"
   },
   "faqs": [
     {

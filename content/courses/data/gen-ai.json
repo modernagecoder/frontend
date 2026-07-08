@@ -78,7 +78,7 @@
           "Types of AI: Narrow AI, General AI, Superintelligence",
           "Machine Learning vs Deep Learning vs Generative AI",
           "Generative AI revolution: GPT, DALL-E, Stable Diffusion",
-          "AI career paths and opportunities in 2024+",
+          "AI career paths and opportunities in 2026 and beyond",
           "Why Python for AI? Python ecosystem overview",
           "Installing Python (3.10+) and setting up environment",
           "Development environments: Jupyter Notebook, VS Code, Google Colab",
@@ -279,7 +279,7 @@
           "What is Generative AI? Definition and scope",
           "Discriminative vs Generative models",
           "Brief history: from GANs to GPT to Diffusion",
-          "Modern generative AI landscape 2024",
+          "Modern generative AI landscape 2026",
           "Large Language Models (LLMs): GPT, Claude, Gemini",
           "Text-to-image models: DALL-E, Midjourney, Stable Diffusion",
           "Text-to-video: Sora, Runway, Pika",
@@ -1546,7 +1546,7 @@
       "week_92_93": {
         "title": "Building AI Startups & Products",
         "topics": [
-          "AI startup landscape 2024+",
+          "AI startup landscape 2026 and beyond",
           "Identifying AI opportunities",
           "Market research for AI products",
           "Building vs buying foundation models",
@@ -1711,7 +1711,7 @@
       "week_99": {
         "title": "The Future of AI & Your Role",
         "topics": [
-          "Current state of AI (2024+)",
+          "Current state of AI (2026)",
           "AGI timeline and implications",
           "Multimodal AI evolution",
           "AI agents and automation",
@@ -2030,7 +2030,7 @@
     },
     {
       "question": "How is this different from a traditional ML/Data Science course?",
-      "answer": "Traditional ML courses focus on classical ML algorithms (linear regression, random forests, etc.) while we focus on modern Generative AI: Large Language Models (GPT, Claude, Llama), transformer architecture, prompt engineering, fine-tuning, RAG systems, AI agents, diffusion models for images, and multimodal AI. These are the technologies companies are desperately hiring for in 2024-2025. You'll learn some foundational ML, but 80% focus is on cutting-edge GenAI."
+      "answer": "Traditional ML courses focus on classical ML algorithms (linear regression, random forests, etc.) while we focus on modern Generative AI: Large Language Models (GPT, Claude, Llama), transformer architecture, prompt engineering, fine-tuning, RAG systems, AI agents, diffusion models for images, and multimodal AI. These are the technologies companies are actively hiring for in 2026. You'll learn some foundational ML, but 80% focus is on cutting-edge GenAI."
     },
     {
       "question": "Will this course help me get a job at AI companies like OpenAI, Anthropic, or Google DeepMind?",

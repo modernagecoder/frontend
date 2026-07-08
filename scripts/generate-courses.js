@@ -287,7 +287,16 @@ class CourseGenerator {
      * @returns {string} HTML string for the week
      */
     generateWeekHTML(weekData, weekKey) {
-        const title = weekData.title || 'Week Content';
+        // Some course data stores a week as a plain descriptive string —
+        // render it as the week's description instead of an empty shell.
+        if (typeof weekData === 'string') {
+            weekData = { title: '', description: weekData };
+        }
+        const weekNumsForTitle = (weekKey.match(/\d+/g) || []);
+        const fallbackTitle = weekNumsForTitle.length > 1 ? `Weeks ${weekNumsForTitle.join('–')}`
+            : weekNumsForTitle.length === 1 ? `Week ${weekNumsForTitle[0]}` : 'Week Content';
+        const title = weekData.title || fallbackTitle;
+        const description = weekData.description || '';
         const topics = weekData.topics || [];
         const projects = weekData.projects || [];
         const practice = weekData.practice || '';
@@ -312,6 +321,12 @@ class CourseGenerator {
                 <span class="expand-icon">${CD_ICONS.chevron}</span>
             </button>
             <div class="week-content">`;
+
+        // Optional week description (also covers plain-string weeks)
+        if (description) {
+            html += `
+                <p class="week-desc">${this.escapeHtml(description)}</p>`;
+        }
 
         // Topics section
         if (topics.length > 0) {
@@ -962,42 +977,49 @@ class CourseGenerator {
         const curriculumHTML = this.generateCurriculumHTML(courseData);
         html = html.replace(/{{CURRICULUM_MODULES}}/g, curriculumHTML);
 
-        // Projects & Portfolio Tab
+        // Projects & Portfolio Tab — every box renders only when it has data
+        // (no more "No information available" placeholder text on live pages).
         const resources = courseData.additional_learning_resources || {};
         const totalProjects = resources.total_projects_built || '50+ projects';
         html = html.replace(/{{TOTAL_PROJECTS}}/g, this.escapeHtml(totalProjects));
 
+        const box = (inner, cls, title, gridCls) => inner
+            ? `<div class="${cls}">${title ? `\n                            <h3>${title}</h3>` : ''}
+                            <div class="${gridCls}">${inner}</div>
+                        </div>`
+            : '';
+
         const projectsOverview = this.generateProjectsOverview(resources);
-        html = html.replace(/{{PROJECTS_OVERVIEW}}/g, projectsOverview);
+        html = html.replace(/{{PROJECTS_OVERVIEW_BOX}}/g, projectsOverview ? `<div class="projects-overview">${projectsOverview}</div>` : '');
 
         const weeklyStructure = this.generateWeeklyStructure(resources.weekly_structure || {});
-        html = html.replace(/{{WEEKLY_STRUCTURE}}/g, weeklyStructure);
+        html = html.replace(/{{WEEKLY_STRUCTURE_BOX}}/g, box(weeklyStructure, 'weekly-structure-box', 'Weekly Learning Structure', 'weekly-breakdown'));
 
         const certificationDetails = this.generateCertificationDetails(resources.certification || {});
-        html = html.replace(/{{CERTIFICATION_DETAILS}}/g, certificationDetails);
+        html = html.replace(/{{CERTIFICATION_BOX}}/g, box(certificationDetails, 'certification-box', 'Certification &amp; Recognition', 'certification-details'));
 
         // Technologies Tab
         const skillsMastered = this.generateSkillsMastered(resources.skills_mastered || []);
         html = html.replace(/{{SKILLS_MASTERED}}/g, skillsMastered);
 
         const supportProvided = this.generateSupportProvided(resources.support_provided || {});
-        html = html.replace(/{{SUPPORT_PROVIDED}}/g, supportProvided);
+        html = html.replace(/{{SUPPORT_PROVIDED_BOX}}/g, box(supportProvided, 'support-section', 'Support &amp; Resources', 'support-grid'));
 
         // Career & Outcomes Tab
         const prerequisites = this.generatePrerequisites(courseData.prerequisites || {});
-        html = html.replace(/{{PREREQUISITES}}/g, prerequisites);
+        html = html.replace(/{{PREREQUISITES_BOX}}/g, box(prerequisites, 'prerequisites-box', 'Prerequisites', 'prerequisites-list'));
 
         const whoIsThisFor = this.generateWhoIsThisFor(courseData.who_is_this_for || {});
-        html = html.replace(/{{WHO_IS_THIS_FOR}}/g, whoIsThisFor);
+        html = html.replace(/{{WHO_IS_THIS_FOR_BOX}}/g, box(whoIsThisFor, 'who-is-this-for-box', 'Who Is This Course For?', 'audience-grid'));
 
         const careerPaths = this.generateCareerPaths(courseData.career_paths_after_completion || []);
-        html = html.replace(/{{CAREER_PATHS}}/g, careerPaths);
+        html = html.replace(/{{CAREER_PATHS_BOX}}/g, box(careerPaths, 'career-paths-box', 'Career Paths After Completion', 'career-paths-list'));
 
         const salaryExpectations = this.generateSalaryExpectations(courseData.salary_expectations || {});
-        html = html.replace(/{{SALARY_EXPECTATIONS}}/g, salaryExpectations);
+        html = html.replace(/{{SALARY_EXPECTATIONS_BOX}}/g, box(salaryExpectations, 'salary-expectations-box', 'Salary Expectations', 'salary-grid'));
 
         const courseGuarantees = this.generateCourseGuarantees(courseData.course_guarantees || {});
-        html = html.replace(/{{COURSE_GUARANTEES}}/g, courseGuarantees);
+        html = html.replace(/{{COURSE_GUARANTEES_BOX}}/g, box(courseGuarantees, 'guarantees-box', 'Course Guarantees', 'guarantees-list'));
 
         // Structured data
         const structuredData = this.generateStructuredData(courseData);
@@ -1342,7 +1364,7 @@ class CourseGenerator {
      */
     generateProjectsOverview(resources) {
         const projects = resources.projects_throughout_course || [];
-        if (projects.length === 0) return '<p>No project information available</p>';
+        if (projects.length === 0) return '';
 
         return `
             <div class="phase-projects-list">
@@ -1366,7 +1388,7 @@ class CourseGenerator {
      * Generate weekly structure HTML
      */
     generateWeeklyStructure(structure) {
-        if (Object.keys(structure).length === 0) return '<p>No weekly structure information available</p>';
+        if (Object.keys(structure).length === 0) return '';
 
         return `
             <div class="weekly-items">
@@ -1384,7 +1406,7 @@ class CourseGenerator {
      * Generate certification details HTML
      */
     generateCertificationDetails(certification) {
-        if (Object.keys(certification).length === 0) return '<p>No certification information available</p>';
+        if (Object.keys(certification).length === 0) return '';
 
         return `
             <div class="certification-items">
@@ -1405,7 +1427,7 @@ class CourseGenerator {
      * Generate skills mastered HTML
      */
     generateSkillsMastered(skills) {
-        if (skills.length === 0) return '<p>No skills information available</p>';
+        if (skills.length === 0) return '';
 
         return `
             <div class="skills-categories">
@@ -1429,7 +1451,7 @@ class CourseGenerator {
      * Generate support provided HTML
      */
     generateSupportProvided(support) {
-        if (Object.keys(support).length === 0) return '<p>No support information available</p>';
+        if (Object.keys(support).length === 0) return '';
 
         return `
             <div class="support-items">
@@ -1450,7 +1472,7 @@ class CourseGenerator {
      * Generate prerequisites HTML
      */
     generatePrerequisites(prerequisites) {
-        if (Object.keys(prerequisites).length === 0) return '<p>No prerequisites</p>';
+        if (Object.keys(prerequisites).length === 0) return '';
 
         return `
             <div class="prerequisites-items">
@@ -1468,7 +1490,7 @@ class CourseGenerator {
      * Generate who is this for HTML
      */
     generateWhoIsThisFor(audience) {
-        if (Object.keys(audience).length === 0) return '<p>Open to everyone</p>';
+        if (Object.keys(audience).length === 0) return '';
 
         return `
             <div class="audience-items">
@@ -1489,7 +1511,7 @@ class CourseGenerator {
      * Generate career paths HTML
      */
     generateCareerPaths(paths) {
-        if (paths.length === 0) return '<p>Various career opportunities available</p>';
+        if (paths.length === 0) return '';
 
         return `
             <div class="career-paths-grid">
@@ -1507,7 +1529,7 @@ class CourseGenerator {
      * Generate salary expectations HTML
      */
     generateSalaryExpectations(salary) {
-        if (Object.keys(salary).length === 0) return '<p>Competitive industry salaries</p>';
+        if (Object.keys(salary).length === 0) return '';
 
         return `
             <div class="salary-items">
@@ -1525,7 +1547,7 @@ class CourseGenerator {
      * Generate course guarantees HTML
      */
     generateCourseGuarantees(guarantees) {
-        if (Object.keys(guarantees).length === 0) return '<p>Quality assured</p>';
+        if (Object.keys(guarantees).length === 0) return '';
 
         return `
             <div class="guarantees-items">
