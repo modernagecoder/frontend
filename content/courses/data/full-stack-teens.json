@@ -1618,5 +1618,43 @@
     "mentorship": "Personal mentor throughout journey",
     "certificate": "Industry-recognized certification",
     "portfolio": "50+ production-ready projects"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What kind of apps will my teen build?",
+      "answer": "Students build 50+ projects over 2 years, working up to full applications inspired by the platforms teens use daily: social feeds, chat apps, and streaming-style sites. They learn the complete stack: HTML, CSS, and JavaScript, then React and Vue on the frontend, and Node.js, Express, Python, and databases like MongoDB on the backend."
+    },
+    {
+      "question": "What does full stack actually mean?",
+      "answer": "Frontend is everything users see and click; backend is the engine behind it: servers, databases, and logic. A full stack developer can build both, which is why this course covers the entire journey from a first webpage to a complete working application."
+    },
+    {
+      "question": "Can a complete beginner join, and at what age?",
+      "answer": "Yes, the course assumes zero coding knowledge and is designed for ages 13 to 19. Motivated slightly younger students can join with supervision, and the early months are deliberately gentle before the pace builds."
+    },
+    {
+      "question": "What tools and costs are involved beyond the fee?",
+      "answer": "None beyond a computer and internet: VS Code, Node.js, GitHub, and every framework taught are free and open source. We also show students how to publish their projects online using free services, so their work is live on the real internet."
+    },
+    {
+      "question": "What can my teen do with these skills afterwards?",
+      "answer": "By graduation they hold a 50+ project portfolio and the ability to build real web applications end to end, a strong base for college computer science, internships, and personal projects. Many continue into our problem solving and DSA course to sharpen the algorithmic side for exams and interviews."
+    },
+    {
+      "question": "How much are the monthly fees?",
+      "answer": "Group classes are ₹1,499 per month, including 2 live classes a week in batches capped at 10 students. A mini batch of 3-4 students is ₹2,499 per month, and personal 1-on-1 classes with 2 private sessions weekly are ₹4,999 per month. International students pay $40 per month for group and $100 per month for 1-on-1 classes."
+    },
+    {
+      "question": "Does the course offer a free demo?",
+      "answer": "Yes, book a free, no-commitment demo class at learn.modernagecoders.com/contact. Parents are welcome to sit in; it is the easiest way to see whether the teaching style clicks for your teen."
+    },
+    {
+      "question": "What format do the classes follow?",
+      "answer": "Live 1-hour online classes with a real teacher, never pre-recorded videos. Groups are small and hands-on: students build during class, ask questions, and get unstuck immediately."
+    },
+    {
+      "question": "Will my teen be certified at the end?",
+      "answer": "Yes, graduates receive a full stack developer completion certificate. More importantly, they finish holding a portfolio of 50+ real projects, working applications that prove the certificate means something."
+    }
+  ]
 }

@@ -1520,6 +1520,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What does the College Mathematics Masterclass actually cover?",
+      "answer": "The program runs 24 months across four phases: single variable calculus, linear algebra and proof writing first; then multivariable calculus, differential equations, discrete mathematics and probability; then real analysis, abstract algebra, topology and complex analysis; and finally applied topics like PDEs, numerical analysis and optimization with a research style project. It is a complete undergraduate level mathematics pathway taught live."
+    },
+    {
+      "question": "Who is this course designed for?",
+      "answer": "It fits three groups well: school leavers heading into engineering, science or economics degrees who want a head start; current undergraduates who need stronger theory and proof skills than their college lectures provide; and working professionals returning to serious mathematics. Pace and depth are matched to your goals in the first month."
+    },
+    {
+      "question": "What are the prerequisites?",
+      "answer": "Comfortable high school mathematics, including algebra and basic trigonometry at pre-calculus level. Programming helps with the computational topics but is not required, and access to the mathematical software we use is provided. A diagnostic in the first sessions confirms the right starting point."
+    },
+    {
+      "question": "How is progress measured across such a long program?",
+      "answer": "Through weekly problem sets, proof write-ups reviewed line by line, and end of phase assessments that must be secure before the next phase begins. Your mentor keeps a running record of solved problems and completed proofs, so you can see exactly what has been mastered."
+    },
+    {
+      "question": "Is this useful preparation for graduate school?",
+      "answer": "Yes. The phase 3 and phase 4 material, real analysis, abstract algebra, topology and PDEs, is the standard core that mathematics and quantitative graduate programs expect. The final months also include research style projects and guidance on presenting mathematical work."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "In India, group classes are ₹1,499 per month with 2 classes per week, a mini batch is ₹2,499 per month, and personal 1-on-1 mentorship is ₹4,999 per month. International students join our premium maths track at $100 per month for group classes or $150 per month for 1-on-1."
+    },
+    {
+      "question": "Can I try a class before committing?",
+      "answer": "Yes, every student starts with a free demo class booked at learn.modernagecoders.com/contact, with no commitment and no payment details required. The demo doubles as a level check so we can recommend the right starting phase. You can also reach us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are the classes live or recorded lectures?",
+      "answer": "Every class is a live one hour online session with a real teacher, never a pre-recorded video. Groups are kept small so you can ask questions mid-proof, and sessions are interactive: you solve and explain, and the mentor corrects the thinking, not just the answer."
+    },
+    {
+      "question": "Do I get a certificate at the end?",
+      "answer": "Yes, you receive a completion certificate from Modern Age Coders along with a portfolio record of the proofs, problem sets and projects you completed. Families consistently rate this teaching approach highly: we hold 4.9 stars from 547+ Google reviews."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: Calculus visualizers, Linear algebra tools, Proof portfolio",

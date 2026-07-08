@@ -99,7 +99,8 @@
         "Keyboard typing exercises",
         "Navigation challenges",
         "Shortcut memorization"
-      ]
+      ],
+      "practice": "Practice starting up and shutting down the computer the right way, then pin your three favorite apps to the taskbar and show a parent."
     },
     "week_2": {
       "title": "File Management & Organization",
@@ -137,7 +138,8 @@
         "Speed organization drills",
         "Find and organize scattered files",
         "Create folder hierarchy"
-      ]
+      ],
+      "practice": "Create a folder tree for your school subjects and sort five files into the right folders using cut, copy and paste."
     },
     "week_3": {
       "title": "Microsoft Paint Fundamentals",
@@ -175,7 +177,8 @@
         "Recreate famous artwork",
         "Design game sprites",
         "Illustrate short story"
-      ]
+      ],
+      "practice": "Draw your dream treehouse in Paint using at least four different tools and the fill bucket."
     },
     "week_4": {
       "title": "Paint 3D & Advanced Digital Art",
@@ -214,7 +217,8 @@
         "Virtual museum exhibit",
         "3D game assets",
         "Architectural model"
-      ]
+      ],
+      "practice": "Turn your name into 3D text in Paint 3D and decorate it with stickers and one texture."
     }
   },
   "month_2": {
@@ -256,7 +260,8 @@
         "Accuracy challenges",
         "Format matching games",
         "Touch typing basics"
-      ]
+      ],
+      "practice": "Type a short paragraph about your favorite animal in Word and format it with two fonts, one color and bold key words."
     },
     "week_6": {
       "title": "Advanced Formatting & Page Layout",
@@ -294,7 +299,8 @@
         "Poster design in Word",
         "Brochure creation",
         "Certificate design"
-      ]
+      ],
+      "practice": "Make a one page mini newsletter about your week using two columns, a header and a page border."
     },
     "week_7": {
       "title": "Working with Images & Graphics",
@@ -332,7 +338,8 @@
         "Infographic design",
         "Visual timeline",
         "Diagram creation"
-      ]
+      ],
+      "practice": "Insert three pictures into a 'My Hobbies' document, then crop one, style another and wrap text around the third."
     },
     "week_8": {
       "title": "Tables, References & Collaboration",
@@ -370,7 +377,8 @@
         "Research paper structure",
         "Peer review process",
         "Version control"
-      ]
+      ],
+      "practice": "Build your weekly class timetable as a Word table and give the header row its own color."
     }
   },
   "month_3": {
@@ -412,7 +420,8 @@
         "Content organization",
         "Visual hierarchy",
         "Consistency in design"
-      ]
+      ],
+      "practice": "Create a four slide PowerPoint about your favorite place using one theme and tidy bullet points."
     },
     "week_10": {
       "title": "Animations & Transitions",
@@ -450,7 +459,8 @@
         "Create countdown timer",
         "Build animated infographic",
         "Design loading animations"
-      ]
+      ],
+      "practice": "Add a different transition to each slide of your deck and give the title text an entrance animation."
     },
     "week_11": {
       "title": "Multimedia & Interactive Elements",
@@ -488,7 +498,8 @@
         "Picture-in-picture",
         "Audio synchronization",
         "Interactive games"
-      ]
+      ],
+      "practice": "Add a photo album slide, one short video and a little background music to your presentation."
     },
     "week_12": {
       "title": "Advanced Design & Presenting",
@@ -526,7 +537,8 @@
         "Body language",
         "Q&A handling",
         "Time management"
-      ]
+      ],
+      "practice": "Design a custom layout in Slide Master, then rehearse presenting your deck out loud for two minutes."
     }
   },
   "month_4": {
@@ -568,7 +580,8 @@
         "Keyboard shortcuts",
         "Data validation basics",
         "Error checking"
-      ]
+      ],
+      "practice": "Enter a pretend week of family fruit shopping into Excel and use AutoFill to complete the days of the week."
     },
     "week_14": {
       "title": "Formulas & Functions",
@@ -606,7 +619,8 @@
         "Science data calculations",
         "Statistics basics",
         "Problem-solving scenarios"
-      ]
+      ],
+      "practice": "Track your pocket money for an imaginary week, then total it with SUM and find the daily average with AVERAGE."
     },
     "week_15": {
       "title": "Charts & Data Visualization",
@@ -644,7 +658,8 @@
         "Color theory in data",
         "Telling stories with data",
         "Dashboard creation"
-      ]
+      ],
+      "practice": "Turn your favorite game or sports scores into a column chart and a pie chart, each with a proper title and labels."
     },
     "week_16": {
       "title": "Data Management & Analysis",
@@ -682,7 +697,8 @@
         "Quality control",
         "Report generation",
         "Decision making with data"
-      ]
+      ],
+      "practice": "Sort a list of ten pretend test scores from highest to lowest and use conditional formatting to highlight the top three."
     }
   },
   "month_5": {
@@ -724,7 +740,8 @@
         "Cornell notes system",
         "Mind mapping",
         "Information management"
-      ]
+      ],
+      "practice": "Set up a OneNote notebook with one section per school subject and fill one page with notes plus a small drawing."
     },
     "week_18": {
       "title": "Microsoft Teams for Students",
@@ -762,7 +779,8 @@
         "Virtual meeting behavior",
         "Digital communication",
         "Privacy awareness"
-      ]
+      ],
+      "practice": "With a parent, practice joining a video call, sending one polite chat message and sharing your screen for a minute."
     },
     "week_19": {
       "title": "Outlook & Email Skills",
@@ -800,7 +818,8 @@
         "Time management",
         "Meeting scheduling",
         "Follow-up practices"
-      ]
+      ],
+      "practice": "Draft a polite email to a teacher with a clear subject line and one attachment, and send it to a parent instead to check it."
     },
     "week_20": {
       "title": "Additional Microsoft Tools",
@@ -840,7 +859,8 @@
         "Workflow creation",
         "Cross-app features",
         "Productivity systems"
-      ]
+      ],
+      "practice": "Make a three question quiz in Microsoft Forms about your favorite topic and ask a family member to take it."
     }
   },
   "month_6": {
@@ -883,7 +903,8 @@
         "Troubleshooting",
         "Performance optimization",
         "Security awareness"
-      ]
+      ],
+      "practice": "Capture three screenshots with the Snipping Tool and label each one in Paint."
     },
     "week_22": {
       "title": "Integrated Office Projects",
@@ -921,7 +942,8 @@
         "Template creation",
         "Efficiency techniques",
         "Quality control"
-      ]
+      ],
+      "practice": "Embed an Excel chart of your scores or savings into a Word report and write two sentences explaining what it shows."
     },
     "week_23": {
       "title": "Professional Document Creation",
@@ -959,7 +981,8 @@
         "Document design",
         "Brand consistency",
         "Industry standards"
-      ]
+      ],
+      "practice": "Create a one page kid resume listing your skills, hobbies and proudest achievements in a clean layout."
     },
     "week_24": {
       "title": "Creative Multimedia Projects",
@@ -997,7 +1020,8 @@
         "Content creation",
         "Storytelling",
         "Visual communication"
-      ]
+      ],
+      "practice": "Design one yearbook style page about your class or family with photos, captions and a title banner."
     },
     "week_25": {
       "title": "Final Capstone Project",
@@ -1031,7 +1055,8 @@
         "Presentation deck",
         "Video demonstration",
         "Reflection report"
-      ]
+      ],
+      "practice": "Write a mini plan for your final project: what you will make, which Office apps you will use and your three work sessions."
     },
     "week_26": {
       "title": "Graduation & Certification",
@@ -1069,7 +1094,8 @@
         "Graphic design with Office",
         "Business applications",
         "Teaching assistant opportunities"
-      ]
+      ],
+      "practice": "Rehearse your final presentation once at home and use one piece of family feedback to improve a slide."
     }
   },
   "additional_windows_tools": {
@@ -1367,5 +1393,43 @@
     "safe_learning": "Age-appropriate, structured, and encouraging environment",
     "certificate": "Official Microsoft Office Young Professional certificate upon completion",
     "satisfaction": "If not satisfied in first 2 weeks, full refund guaranteed"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What will my child learn in this course?",
+      "answer": "Across 6 months your child progresses from Windows basics and file management to confident use of Word, PowerPoint, Excel, Paint and Paint 3D, OneNote, Teams, and Outlook. The course is project-based throughout, ending with an integrated capstone where students combine several Office tools in one professional piece of work."
+    },
+    {
+      "question": "Which age group is this designed for?",
+      "answer": "It is built for children aged 8 to 14. Lessons assume no computer experience at all, so it also suits kids who have barely used a keyboard, as long as they can read basic instructions."
+    },
+    {
+      "question": "Does my child need computer experience before starting?",
+      "answer": "No. Month 1 begins with the absolute basics: using Windows, organizing files and folders, and simple digital art in Paint. Everything builds step by step from there."
+    },
+    {
+      "question": "What software does my child need at home?",
+      "answer": "A Windows computer or laptop with Microsoft Office (Word, PowerPoint, Excel). If you do not have an Office subscription, we provide guidance on free alternatives so no child is left out."
+    },
+    {
+      "question": "How does this help with school, and what comes next?",
+      "answer": "The skills map directly to schoolwork: essays and reports in Word, class presentations in PowerPoint, and data projects in Excel. Afterwards, many students move into our Scratch or kids coding courses, since comfortable computer use makes learning to code much smoother."
+    },
+    {
+      "question": "What is the fee structure?",
+      "answer": "Group batches cost ₹1,499 per month and include 2 classes each week with at most 10 children. A mini batch of 3-4 students is ₹2,499 per month, while personal 1-on-1 coaching with 2 private classes weekly is ₹4,999 per month. Families outside India pay $40 per month for group classes or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can my child attend a trial class first?",
+      "answer": "Yes, the first step for every family is a free demo class, booked at learn.modernagecoders.com/contact. There is no commitment attached, and parents can sit in to see exactly how the teacher works with kids."
+    },
+    {
+      "question": "What do the classes look like?",
+      "answer": "Each class is a live 1-hour online session with a real teacher guiding a small group, never a pre-recorded video. Children practice hands-on in the actual software during class and get help the moment they are stuck."
+    },
+    {
+      "question": "Will my child receive a certificate?",
+      "answer": "Yes. On completing the course your child earns a completion certificate along with a portfolio of finished projects: documents, presentations, spreadsheets, and digital art they created themselves."
+    }
+  ]
 }

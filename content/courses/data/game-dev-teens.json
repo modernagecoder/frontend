@@ -1586,6 +1586,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What does the game development course cover?",
+      "answer": "Across 24 months teens go from programming fundamentals and 2D games, through full Unity mastery with 3D, physics and multiplayer networking, into Unreal Engine, VR/AR and professional production, finishing with game business skills and a publish-ready portfolio. The curriculum mirrors how real studios build games."
+    },
+    {
+      "question": "Does my teen need coding experience to start?",
+      "answer": "No, the course starts from zero and teaches programming through building playable games from the first weeks. What matters more is genuine interest in games and the patience to build, test and improve."
+    },
+    {
+      "question": "What computer does my teen need?",
+      "answer": "A reasonably capable PC or laptop that runs Unity smoothly; a stronger machine helps for the later Unreal Engine and VR phases but is not needed on day one. We check your setup at the free demo before you commit to anything."
+    },
+    {
+      "question": "How is progress measured?",
+      "answer": "In finished games: each phase ends with playable projects, from 2D arcade games to 3D and multiplayer builds, and the mentor tracks the growing portfolio. By the later phases students are polishing games to publishing standard, the same benchmark the industry uses."
+    },
+    {
+      "question": "Unity or Unreal, which engine will they learn?",
+      "answer": "Both, in sequence: Unity first because it is the friendliest serious engine and dominates indie and mobile development, then Unreal Engine for high-end 3D. Teens graduate able to choose the right engine for a project."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "₹1,499 per month for group classes with 2 classes per week, ₹2,499 per month for a smaller mini batch, and ₹4,999 per month for private 1-on-1 mentorship. International students pay $40 per month for group or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Is there a trial class?",
+      "answer": "Yes, a free demo class with no commitment, booked at learn.modernagecoders.com/contact; your teen will build or modify something playable in that first hour. WhatsApp +91 91233 66161 if you would like to talk first."
+    },
+    {
+      "question": "How are classes delivered?",
+      "answer": "Every class is a live one hour online session with a real teacher, never pre-recorded tutorials. Small groups mean the teacher watches your teen's actual project and debugs their specific problems, which recorded courses simply cannot do."
+    },
+    {
+      "question": "What does my teen have at the end?",
+      "answer": "A Game Developer certification plus the thing studios actually ask for: a portfolio of finished, playable games across 2D, 3D and multiplayer. Parents rate our live teaching 4.9 stars across 547+ Google reviews."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: 15+ 2D games, mobile games, published on itch.io",

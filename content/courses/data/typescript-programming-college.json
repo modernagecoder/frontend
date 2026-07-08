@@ -1666,5 +1666,43 @@
         "interview_guarantee": "Unlimited mock interviews until you land a job",
         "salary_hike": "Average 150-300% salary hike for career switchers",
         "placement_record": "85%+ placement rate within 6 months of completion"
-    }
+    },
+    "faqs": [
+        {
+            "question": "Do I need to know JavaScript before joining this TypeScript course?",
+            "answer": "TypeScript is a typed layer on top of JavaScript, so the course opens with a JavaScript foundation phase before moving into TypeScript itself. Complete beginners can start from zero, while students who already know JavaScript basics move through the early weeks faster and reach the React and Node.js phases sooner. Your mentor adjusts the pace to your starting point."
+        },
+        {
+            "question": "What will I actually build during the 12 months?",
+            "answer": "You build in layers: typed utilities and small tools in the foundation phase, React applications with TypeScript in months 4 to 6, Node.js and Express REST APIs with real databases in months 7 to 9, and a full stack Next.js and GraphQL capstone deployed to the cloud in the final phase. Every project is pushed to GitHub so your portfolio grows with the course."
+        },
+        {
+            "question": "Which TypeScript version and stack do you teach?",
+            "answer": "Classes run on current TypeScript 5.x with modern tooling, plus React, Node.js, Express, Next.js and GraphQL. When the language or ecosystem moves, the material moves with it, so you are never practicing on an outdated stack."
+        },
+        {
+            "question": "Will this course help me get internships or clear placement interviews?",
+            "answer": "It prepares you honestly: TypeScript is one of the most requested skills in frontend and full stack job listings, and you finish with deployed projects, code review experience and practice on the JavaScript and TypeScript questions interviewers actually ask. We do not promise placements or salaries; we make sure your fundamentals and portfolio can stand up to scrutiny."
+        },
+        {
+            "question": "Why join a live course when TypeScript tutorials are free on YouTube?",
+            "answer": "Tutorials show someone else coding; they cannot look at your code. In live classes an instructor watches you work, catches weak typing habits like overusing the any type, reviews your projects line by line and answers questions the moment you are stuck. That feedback loop is the difference between a watch history and a portfolio."
+        },
+        {
+            "question": "What does the course cost?",
+            "answer": "In India, group classes (max 10 students, 2 classes a week) are ₹1,499 per month, a mini batch of 3 to 4 students is ₹2,499 per month, and personal 1-on-1 mentorship with 2 private classes a week is ₹4,999 per month. International students pay $40 per month for group classes or $100 per month for 1-on-1."
+        },
+        {
+            "question": "Can I try a class before paying?",
+            "answer": "Yes. Book a free demo class at learn.modernagecoders.com/contact and attend a real live session with no commitment and no payment details required. You can also reach us on WhatsApp at +91 91233 66161."
+        },
+        {
+            "question": "How are the classes conducted?",
+            "answer": "Every class is a live 1-hour online session with an instructor, never a pre-recorded video. Sessions are interactive: you code along, ask questions and get corrected in real time. Evening and weekend slots are available, which works well around college timetables and jobs."
+        },
+        {
+            "question": "Do I get a certificate at the end?",
+            "answer": "You receive a completion certificate when you finish the course. More importantly for hiring, you leave with a GitHub-ready portfolio of TypeScript projects, which is what recruiters and interviewers actually open."
+        }
+    ]
 }

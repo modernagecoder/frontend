@@ -1241,6 +1241,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What does the React for Teens course cover?",
+      "answer": "The 12 month path starts with HTML, CSS and modern JavaScript, then React itself with components, hooks and routing, followed by state management, APIs and real-time features, and finishes with production apps, an introduction to React Native and career preparation. Projects are modeled on apps teens use daily, like social feeds, chat and music players."
+    },
+    {
+      "question": "My teen has never coded. Is that a problem?",
+      "answer": "Not at all: the course is designed to start from absolute zero, and the first phase teaches web foundations before React appears. Curiosity and 10 to 15 hours a week alongside school are the only real requirements."
+    },
+    {
+      "question": "What equipment is needed?",
+      "answer": "Just a computer or laptop with a stable internet connection; all the tools used are free. No prior setup is needed, because the first sessions handle everything together."
+    },
+    {
+      "question": "How is progress measured?",
+      "answer": "By what gets built: each phase ends with working projects, from static websites to full React applications with real data, and the mentor keeps a portfolio record. By the final phase your teen is deploying complete apps, which makes progress self-evident."
+    },
+    {
+      "question": "Can this fit alongside school?",
+      "answer": "Yes, it is scoped for 10 to 15 hours a week including the 2 live classes, and class slots move around exam periods. Many students treat the projects as their creative outlet rather than extra homework."
+    },
+    {
+      "question": "How much does it cost?",
+      "answer": "Group classes are ₹1,499 per month with 2 classes weekly, a mini batch is ₹2,499 per month, and private 1-on-1 is ₹4,999 per month. Outside India, group is $40 per month and 1-on-1 is $100 per month."
+    },
+    {
+      "question": "Can we try a class for free?",
+      "answer": "Yes, book a free demo class at learn.modernagecoders.com/contact, no commitment required; your teen will write real code in the demo itself. Or message us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are lessons live?",
+      "answer": "Every lesson is a live one hour class with a real teacher in a small group, never a recorded video. Teens share screens, get code reviews and ask questions the moment they are stuck."
+    },
+    {
+      "question": "Is there a certificate?",
+      "answer": "Yes, the Teen React Developer certification on completion, along with a deployed portfolio of React projects, which for developers is the credential that actually opens doors."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: Portfolio, Quiz App, Weather Widget, Todo List, Animation Playground",

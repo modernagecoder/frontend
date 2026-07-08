@@ -2027,5 +2027,43 @@
         "interview_guarantee": "Unlimited mock interviews until you land a job",
         "salary_hike": "Average 180-350% salary hike for career switchers",
         "placement_record": "88%+ placement rate within 6 months of completion"
-    }
+    },
+    "faqs": [
+        {
+            "question": "Do I need prior programming experience for this Go course?",
+            "answer": "No, the course starts from zero, and Go's small, strict language design actually makes it a good first language. Developers coming from Python, Java or JavaScript will clear the early phases faster and get more time on concurrency and systems topics."
+        },
+        {
+            "question": "What projects will I build?",
+            "answer": "CLI tools and fundamentals projects early, then concurrent programs using goroutines and channels, REST APIs with frameworks like Gin, gRPC services, database-backed applications, and finally containerized microservices deployed with Docker and Kubernetes. Every project is GitHub-ready and mirrors real backend work."
+        },
+        {
+            "question": "Which Go version do you teach?",
+            "answer": "Current Go 1.2x releases with modules and the modern toolchain, which is exactly what production teams run. Go values backward compatibility, so what you learn stays valid, and new release features are folded into the material as they arrive."
+        },
+        {
+            "question": "Will Go help with placements and backend interviews?",
+            "answer": "Go is the language of cloud infrastructure: Docker and Kubernetes are written in it, and companies building microservices and high-performance APIs hire for it steadily. Interviews for those roles test concurrency reasoning, API design and systems fundamentals, all of which the later phases drill, and you finish with deployed services in your portfolio. As always, no placement guarantees; we build proof of skill, not promises."
+        },
+        {
+            "question": "Go's official tutorials are excellent. Why take a live course?",
+            "answer": "The official tour teaches syntax; it cannot review your concurrency code for race conditions or tell you why your channel design deadlocks. A live mentor does that on your own code every week, and the project sequence forces you to build a real portfolio rather than skim examples. That is the gap between knowing Go and being hireable in Go."
+        },
+        {
+            "question": "What is the pricing?",
+            "answer": "Group classes in India are ₹1,499 per month with 2 live classes a week and a 10-student cap, a mini batch of 3 to 4 students is ₹2,499 per month, and personal 1-on-1 mentorship with 2 private classes a week is ₹4,999 per month. International rates are $40 per month for group and $100 per month for 1-on-1."
+        },
+        {
+            "question": "Can I attend a session before enrolling?",
+            "answer": "Yes, everyone starts with a free live demo class booked through learn.modernagecoders.com/contact, with no commitment or card required. You can also message us on WhatsApp at +91 91233 66161 with questions."
+        },
+        {
+            "question": "Are classes live or recorded videos?",
+            "answer": "Live only: 1-hour online sessions with an instructor, interactive rather than lecture-style, and never pre-recorded. Evening and weekend slots are available, so the course fits around college semesters and full-time jobs."
+        },
+        {
+            "question": "What do I get on completion?",
+            "answer": "A completion certificate plus a GitHub-ready portfolio of Go projects: APIs, gRPC services and deployed microservices. In backend hiring the repository usually gets opened before the certificate does, so the course makes sure both exist."
+        }
+    ]
 }

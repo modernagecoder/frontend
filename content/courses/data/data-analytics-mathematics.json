@@ -1525,6 +1525,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What exactly does the Data & Analytics Mathematics Masterclass teach?",
+      "answer": "The 24 month curriculum covers descriptive statistics and probability, linear algebra for machine learning, statistical inference and hypothesis testing, regression, classification and clustering, optimization and the mathematics inside neural networks, then Bayesian statistics, deep learning, time series, causal inference, A/B testing and big data methods. It is the complete mathematical foundation for analytics and AI work."
+    },
+    {
+      "question": "Who is this masterclass for?",
+      "answer": "Anyone building a serious data career: college students, working analysts who feel the maths gap, developers moving into machine learning, and ambitious learners starting from scratch. No statistics background is assumed at entry."
+    },
+    {
+      "question": "What are the prerequisites?",
+      "answer": "High school algebra. Basic statistics and a little Python or R are helpful but optional, and all software and platforms used in the course are provided, so setup is not a barrier."
+    },
+    {
+      "question": "How is my progress tracked over two years?",
+      "answer": "Every phase has applied checkpoints: by the end of phase 1 you can run and defend hypothesis tests, by phase 2 you build regression and classification models, and later phases add Bayesian analyses, forecasting and experiment design. Your mentor maintains a project record so the progression is visible, not just felt."
+    },
+    {
+      "question": "Will this help me in analytics job interviews and real work?",
+      "answer": "Yes. The curriculum deliberately covers what analytics roles test: probability questions, regression interpretation, experimental design and A/B testing mathematics. The later phases on causal inference and time series map to the exact problems product and data teams handle daily."
+    },
+    {
+      "question": "How much does the masterclass cost?",
+      "answer": "Group classes are ₹1,499 per month with 2 classes per week, a mini batch is ₹2,499 per month, and personal 1-on-1 is ₹4,999 per month. International students pay $100 per month for group or $150 per month for 1-on-1 on the premium maths track."
+    },
+    {
+      "question": "Can I take a trial class?",
+      "answer": "Yes, your first class is a free demo with no commitment. Book at learn.modernagecoders.com/contact, or message +91 91233 66161 on WhatsApp and we will schedule it around your timezone."
+    },
+    {
+      "question": "Are lessons live or self-paced videos?",
+      "answer": "All teaching is live: one hour online classes with a real teacher in a small group, never pre-recorded. You work problems during class and the teacher corrects your reasoning in real time, which is where the actual learning happens."
+    },
+    {
+      "question": "What do I get on completing the program?",
+      "answer": "A completion certificate plus a working portfolio: the datasets you analyzed, the models you built and the experiments you designed across the two years. Modern Age Coders is rated 4.9 stars from 547+ Google reviews."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: Statistical analysis dashboards, EDA tools, Probability simulators, PCA implementations",

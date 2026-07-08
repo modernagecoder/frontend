@@ -70,7 +70,7 @@
         "title": "Introduction to AI Tools & ChatGPT Basics",
         "topics": [
           "AI revolution: understanding generative AI",
-          "Overview of AI tools landscape (2024)",
+          "Overview of AI tools landscape (2026)",
           "What is ChatGPT? GPT-4, GPT-3.5 differences",
           "ChatGPT account setup and interface",
           "ChatGPT Plus vs Free tier comparison",
@@ -801,6 +801,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What tools and skills does this AI tools course cover?",
+      "answer": "In 6 months you master ChatGPT and prompt engineering, then visual AI including Midjourney and Stable Diffusion alongside other leading models like Claude and Gemini, and finish with AI automation: workflows, agents, integrations and monetization. The course surveys the AI tools landscape as it stands in 2026 and teaches transferable skills so new tools slot in easily."
+    },
+    {
+      "question": "Who is this course for?",
+      "answer": "College students and early professionals who want AI leverage in their studies, work or side projects, with no technical background required. It also suits freelancers and founders who want to automate real workflows rather than just chat with AI."
+    },
+    {
+      "question": "Do the AI tools themselves cost extra?",
+      "answer": "Some do. Several tools in the course have free tiers you can start on, while the more advanced work uses paid subscriptions that typically total around $50 to $100 per month depending on which tools you adopt. We always flag free alternatives where they exist."
+    },
+    {
+      "question": "How is progress measured?",
+      "answer": "Through guided projects in each phase: a prompt library and content portfolio in phase 1, visual AI projects in phase 2, and working automation workflows in phase 3. You finish with artifacts you can show, not just tool familiarity."
+    },
+    {
+      "question": "AI tools change fast. Will this course be outdated quickly?",
+      "answer": "Tools change; the underlying skills do not. Prompt engineering, evaluation habits and workflow design transfer directly to whatever ships next, and the curriculum is refreshed to stay current, which in 2026 includes the latest ChatGPT, Claude and Gemini generations."
+    },
+    {
+      "question": "What are the course fees?",
+      "answer": "Group classes are ₹1,499 per month with 2 live classes per week, a mini batch is ₹2,499 per month, and 1-on-1 mentorship is ₹4,999 per month. International students pay $40 per month for group or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can I try it first?",
+      "answer": "Yes, book a free demo class at learn.modernagecoders.com/contact, with no commitment and no payment details. We also answer questions on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Is the course live or self-paced?",
+      "answer": "Live: one hour online classes with a real teacher, never pre-recorded lectures, in small groups where your actual use cases get worked on in class."
+    },
+    {
+      "question": "Is there a certificate?",
+      "answer": "Yes, an AI Tools Professional certification on completion, plus a portfolio of prompts, visual projects and automation workflows built during the course. Modern Age Coders is rated 4.9 stars from 547+ Google reviews."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: 30+ ChatGPT projects - content, business, productivity",

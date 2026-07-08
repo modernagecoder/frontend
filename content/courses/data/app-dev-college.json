@@ -1407,5 +1407,43 @@
     "resources": "Code templates, UI kits, design assets",
     "updates": "Free updates for iOS, Android, Flutter changes",
     "business_templates": "Client contracts, proposals, pricing guides"
-  }
+  },
+  "faqs": [
+    {
+      "question": "Which technologies does the course cover?",
+      "answer": "All the major paths: cross-platform development with Flutter and React Native, native iOS with Swift and native Android with Kotlin, plus Firebase and backend integration, and finally publishing and monetization. You graduate understanding when to choose each stack, which is itself a common interview question."
+    },
+    {
+      "question": "Do I need a Mac or an expensive setup?",
+      "answer": "Any reasonable computer handles the Flutter, React Native and Android portions. For the native iOS module, Xcode runs only on macOS, so a Mac is needed for that part specifically; students without one focus on Android and cross-platform, which is a complete path in itself. If you choose to publish, store accounts cost extra: Apple Developer is $99 per year and Google Play is a $25 one-time fee."
+    },
+    {
+      "question": "Will I publish a real app during the course?",
+      "answer": "That is the goal of phase 4: the final months cover app store preparation, review guidelines, launch and monetization, and you take one of your projects through the process. Along the way you build multiple portfolio apps with real backends, authentication and APIs."
+    },
+    {
+      "question": "Can I join with zero coding experience?",
+      "answer": "Yes, phase 1 starts with programming basics and UI/UX fundamentals before any framework appears. The 12-month structure exists precisely so beginners can build up honestly; students with prior coding simply move faster through the early weeks."
+    },
+    {
+      "question": "How does this help me get hired or start freelancing?",
+      "answer": "You finish with working apps in a GitHub portfolio, experience across cross-platform and native stacks, and interview preparation for mobile roles. Mobile development also has a real freelance market where a portfolio of shipped apps wins work. We do not guarantee jobs or client income; we make sure you have genuine evidence of skill."
+    },
+    {
+      "question": "What are the monthly fees?",
+      "answer": "₹1,499 per month for group batches in India (max 10 students, 2 classes a week), ₹2,499 per month for mini batches of 3 to 4 students, and ₹4,999 per month for 1-on-1 mentorship with 2 private classes a week. International pricing is $40 per month for group and $100 per month for 1-on-1."
+    },
+    {
+      "question": "How do I try before enrolling?",
+      "answer": "Book a free live demo class at learn.modernagecoders.com/contact; it is a real session with an instructor and carries no commitment. If you have questions first, WhatsApp us at +91 91233 66161."
+    },
+    {
+      "question": "Are the classes live?",
+      "answer": "Yes, every class is a live 1-hour online session with an instructor and screen sharing, never a pre-recorded video. You build during class, get unblocked immediately, and choose evening or weekend slots that fit around college or a job."
+    },
+    {
+      "question": "What certification do I receive?",
+      "answer": "A completion certificate as an app developer, plus the thing hiring managers actually inspect: a GitHub-ready portfolio of working apps, and if you complete phase 4, an app taken through the store publishing process."
+    }
+  ]
 }

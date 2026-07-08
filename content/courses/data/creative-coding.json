@@ -128,7 +128,8 @@
         "Color matching exercises",
         "Typography experiments",
         "Composition studies"
-      ]
+      ],
+      "practice": "Pick a real poster or flyer you like, rebuild it with a stronger visual hierarchy and a deliberate color harmony, and note which design principle drove each change."
     },
     "week_2": {
       "title": "Animation Principles & 2D Basics",
@@ -190,7 +191,8 @@
         "Flour sack emotions",
         "Hand gestures",
         "Facial expressions"
-      ]
+      ],
+      "practice": "Animate a simple bouncing ball that shows squash and stretch plus ease in and ease out, and export a five second clip."
     },
     "week_3": {
       "title": "Video Editing Fundamentals",
@@ -252,7 +254,8 @@
         "Parallel editing",
         "Speed ramping",
         "Reverse footage"
-      ]
+      ],
+      "practice": "Cut a 60 second highlight video from any raw footage using at least three transition types and synced background audio."
     },
     "week_4": {
       "title": "Mobile Video Editing & Quick Content",
@@ -317,7 +320,8 @@
         "Template creation",
         "Batch processing",
         "Quick color matching"
-      ]
+      ],
+      "practice": "Shoot and edit a 30 second vertical reel on your phone with captions, one filter and a mobile color grade."
     }
   },
   "month_2": {
@@ -383,7 +387,8 @@
         "Overshooting",
         "Anticipation in motion",
         "Secondary animation"
-      ]
+      ],
+      "practice": "Recreate a short channel intro in After Effects by keyframing position, scale and rotation on three layers, then smooth the motion in the graph editor."
     },
     "week_6": {
       "title": "Advanced Motion Graphics",
@@ -445,7 +450,8 @@
         "Particular introduction",
         "Element 3D basics",
         "Saber plugin"
-      ]
+      ],
+      "practice": "Build a ten second logo reveal using trim paths and one morphing shape transition."
     },
     "week_7": {
       "title": "Character Animation & Rigging",
@@ -506,7 +512,8 @@
         "Personality in motion",
         "Action and reaction",
         "Crowd animation basics"
-      ]
+      ],
+      "practice": "Rig a simple two legged character with Duik and animate a basic four step walk cycle."
     },
     "week_8": {
       "title": "Visual Effects & Compositing",
@@ -568,7 +575,8 @@
         "Set extension",
         "Digital makeup",
         "Time freeze effect"
-      ]
+      ],
+      "practice": "Key out a green screen clip, place the subject on a new background and match the color and shadows so the composite holds up."
     }
   },
   "month_3": {
@@ -634,7 +642,8 @@
         "Cellular automata",
         "L-systems",
         "Flocking behavior"
-      ]
+      ],
+      "practice": "Code a Processing sketch that draws a repeating pattern using loops, variables and at least three colors."
     },
     "week_10": {
       "title": "p5.js and Web-Based Creative Coding",
@@ -695,7 +704,8 @@
         "Gesture recognition",
         "Mobile sensors",
         "Geolocation art"
-      ]
+      ],
+      "practice": "Port one of your Processing sketches to p5.js and add mouse interaction plus one sound trigger."
     },
     "week_11": {
       "title": "Interactive Installations & Physical Computing",
@@ -757,7 +767,8 @@
         "Technical riders",
         "Troubleshooting",
         "Performance optimization"
-      ]
+      ],
+      "practice": "Plan a small sensor driven installation on paper and prototype its visual response in Processing using simulated input values."
     },
     "week_12": {
       "title": "Creative Coding Applications",
@@ -819,7 +830,8 @@
         "Feedback loops",
         "Emergence patterns",
         "Computational poetry"
-      ]
+      ],
+      "practice": "Generate three variations of one generative art piece by changing the rules and the randomness, then pick the strongest for your portfolio."
     }
   },
   "month_4": {
@@ -885,7 +897,8 @@
         "Material creation",
         "Camera movements",
         "Simple rigging"
-      ]
+      ],
+      "practice": "Model a simple low poly object in Blender using primitives and modifiers, then apply basic materials and render one image."
     },
     "week_14": {
       "title": "Character Animation & Rigging in 3D",
@@ -947,7 +960,8 @@
         "Dance animation",
         "Dialogue scene",
         "Physical comedy"
-      ]
+      ],
+      "practice": "Add an armature to a basic character mesh, weight paint two joints and pose the character in three distinct positions."
     },
     "week_15": {
       "title": "Advanced VFX & Compositing",
@@ -1009,7 +1023,8 @@
         "HDR workflows",
         "ACES color pipeline",
         "Cryptomatte usage"
-      ]
+      ],
+      "practice": "Track a short live action clip and composite one graphic or CG element so it sticks to the scene convincingly."
     },
     "week_16": {
       "title": "Motion Capture & Virtual Production",
@@ -1071,7 +1086,8 @@
         "Virtual scouting",
         "Remote collaboration",
         "Cloud rendering"
-      ]
+      ],
+      "practice": "Clean up a free motion capture clip, retarget it onto a rigged character and note two artifacts you had to fix."
     }
   },
   "month_5": {
@@ -1139,7 +1155,8 @@
         "UGC campaigns",
         "Contest mechanics",
         "Community management"
-      ]
+      ],
+      "practice": "Plan a three reel Instagram content series with a hook in the first two seconds of each and a researched hashtag set."
     },
     "week_18": {
       "title": "TikTok & Short-Form Dominance",
@@ -1201,7 +1218,8 @@
         "Comment engagement",
         "Collaboration methods",
         "Live stream planning"
-      ]
+      ],
+      "practice": "Recreate one trending TikTok format with your own original twist and write a short note on your sound and caption choices."
     },
     "week_19": {
       "title": "YouTube & Long-Form Content",
@@ -1264,7 +1282,8 @@
         "Subscriber conversion",
         "Revenue streams",
         "Sponsorship pitches"
-      ]
+      ],
+      "practice": "Design two alternative thumbnails and titles for the same video idea and explain which pairing you would A/B test first."
     },
     "week_20": {
       "title": "Multi-Platform Strategy & Analytics",
@@ -1326,7 +1345,8 @@
         "Campaign planning",
         "Budget allocation",
         "Team collaboration"
-      ]
+      ],
+      "practice": "Repurpose one long form video into a short, a carousel and a text post, each genuinely adapted to its platform."
     }
   },
   "month_6": {
@@ -1394,7 +1414,8 @@
         "Invoice templates",
         "Contract basics",
         "Pricing strategies"
-      ]
+      ],
+      "practice": "Draft your portfolio homepage with three case studies, each telling the problem, process and result in one paragraph."
     },
     "week_22": {
       "title": "Client Project Management",
@@ -1457,7 +1478,8 @@
         "Dropbox/Drive organization",
         "Zoom presentation skills",
         "Screen recording tools"
-      ]
+      ],
+      "practice": "Write a one page project brief and quote for a fictional client video, including scope, timeline and two revision rounds."
     },
     "week_23": {
       "title": "Industry Specialization",
@@ -1519,7 +1541,8 @@
         "Target audience definition",
         "Marketing strategy",
         "Growth planning"
-      ]
+      ],
+      "practice": "Choose your niche and produce one spec piece for it, such as a food reel, a product demo or a real estate walkthrough edit."
     },
     "week_24": {
       "title": "Advanced Techniques & Emerging Trends",
@@ -1581,7 +1604,8 @@
         "Cultural movements",
         "Technology adoption",
         "Audience behavior"
-      ]
+      ],
+      "practice": "Prototype one AI assisted asset for a current project and note where the tool saved time and where you had to correct it."
     },
     "week_25": {
       "title": "Final Capstone Project",
@@ -1648,7 +1672,8 @@
         "Documentation",
         "Presentation ready",
         "Portfolio integration"
-      ]
+      ],
+      "practice": "Complete your capstone pre-production pack: concept statement, creative brief, shot list or storyboard, and an asset checklist."
     },
     "week_26": {
       "title": "Graduation & Career Launch",
@@ -1701,7 +1726,8 @@
         "Equipment discounts",
         "Software licenses",
         "Collaboration opportunities"
-      ]
+      ],
+      "practice": "Finalize your 60 to 90 second showreel and collect feedback from two people before exporting the final version."
     }
   },
   "tools_and_software": {
@@ -1896,5 +1922,43 @@
     "certificate": "Official Creative Technologist certification upon completion",
     "freelance_ready": "Client acquisition and pricing strategy guidance included",
     "satisfaction": "If not satisfied in first 2 weeks, full refund guaranteed"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What skills does this creative coding and animation course cover?",
+      "answer": "The 6-month program moves through video editing, motion graphics in After Effects, creative coding with Processing and p5.js, 3D animation in Blender, and content strategy for Instagram, TikTok, and YouTube. Students finish with a capstone project and a professional portfolio of animations, edits, and interactive art."
+    },
+    {
+      "question": "Who is this course suitable for?",
+      "answer": "It is designed for ages 14 and up, so it works for teens as well as adults exploring a creative career or a serious side skill. We teach students from ages 6 to 65 across coding and maths, and this course sits at the older, creator-focused end of that range."
+    },
+    {
+      "question": "Do students need design or coding experience first?",
+      "answer": "No. The course starts with design and animation principles from zero, and the creative coding modules introduce programming gently through visual output, so beginners see results from the first weeks."
+    },
+    {
+      "question": "Which software is used, and do we have to buy it?",
+      "answer": "Most of the toolkit is free: DaVinci Resolve for editing, Blender for 3D, and Processing and p5.js for creative coding. After Effects is the one paid tool in the syllabus, and we guide students on using the trial version and free alternatives until they decide whether they need it."
+    },
+    {
+      "question": "Where can these skills lead after the course?",
+      "answer": "Graduates leave with a portfolio spanning editing, motion graphics, and creative code, a strong foundation for freelance work, a content channel, or deeper study in design and development. Many students pair this course with our web development track to add interactive websites to their creative range."
+    },
+    {
+      "question": "What are the monthly fees?",
+      "answer": "In India: ₹1,499 per month for group classes (2 classes weekly, maximum 10 students), ₹2,499 per month for a mini batch of 3-4 learners, and ₹4,999 per month for personal 1-on-1 training with 2 private classes a week. International students pay $40 per month for group or $100 per month for 1-on-1 classes."
+    },
+    {
+      "question": "Is there a demo class before committing?",
+      "answer": "Yes, and it is completely free with no obligation to continue. Reserve a slot at learn.modernagecoders.com/contact; for teen learners, parents are welcome to sit in on the session."
+    },
+    {
+      "question": "What is the class format?",
+      "answer": "Live 1-hour online classes with a real instructor, never recorded lectures. Sessions are interactive and kept to small groups, so every student presents work, receives direct feedback, and asks questions freely."
+    },
+    {
+      "question": "Do students receive certification?",
+      "answer": "Yes, completing the program earns a certificate in creative coding and digital animation. Students also graduate with a professional portfolio of animations, edits, and interactive pieces, which carries real weight in creative fields."
+    }
+  ]
 }

@@ -1858,5 +1858,43 @@
     "interview_guarantee": "Unlimited mock interviews",
     "salary_hike": "Average 200-350% salary hike for switchers",
     "placement_record": "90%+ placement rate within 6 months"
-  }
+  },
+  "faqs": [
+    {
+      "question": "Do I need Java or any programming background first?",
+      "answer": "No, the course teaches Kotlin from zero, and unlike older Android learning paths you do not need Java first. Existing programmers will clear the fundamentals quickly and get more time in coroutines, Jetpack Compose and app architecture."
+    },
+    {
+      "question": "Which Kotlin version and tools are taught?",
+      "answer": "Current Kotlin 2.x with the modern compiler, Android Studio, Jetpack Compose for UI, coroutines for asynchronous work, and Spring Boot for the backend phase. The stack is kept aligned with what production Android and backend teams currently use."
+    },
+    {
+      "question": "What will I build during the 12 months?",
+      "answer": "Kotlin fundamentals projects and console programs first, then real Android apps with Jetpack Compose, Material Design and API integration, followed by Spring Boot backend services and a Kotlin Multiplatform project. You finish with polished Android apps and backend work in a GitHub portfolio."
+    },
+    {
+      "question": "How does this course position me for Android or backend roles?",
+      "answer": "Kotlin is Google's preferred language for Android, and the course adds Spring Boot backend and Kotlin Multiplatform, so you can interview for more than one kind of role. You leave with real apps in a GitHub portfolio, code review experience and interview preparation. We do not promise placements; we prepare you to earn them."
+    },
+    {
+      "question": "Why not learn Kotlin from free videos?",
+      "answer": "Free videos cannot review your architecture or tell you why your coroutine leaks. In live classes a mentor reads your actual code, enforces habits like proper state handling in Compose, and keeps a 12-month arc moving from fundamentals to complete apps. Self-paced Android learning most often dies at the first big project; mentorship is how you get past it."
+    },
+    {
+      "question": "How much are the classes?",
+      "answer": "₹1,499 per month gets you a group batch in India (2 classes a week, maximum 10 students), ₹2,499 per month a mini batch of 3 to 4 students, and ₹4,999 per month personal 1-on-1 mentorship with 2 private classes weekly. International students pay $40 per month for group or $100 for 1-on-1."
+    },
+    {
+      "question": "Is the demo class really free?",
+      "answer": "Completely: book at learn.modernagecoders.com/contact, attend a live session, and decide afterward with no commitment and nothing to cancel. Students and working professionals use it to check class quality; our Google rating stands at 4.9 stars across 547+ reviews."
+    },
+    {
+      "question": "What does a typical class look like?",
+      "answer": "A live 1-hour online session with your instructor, with you writing Kotlin during class rather than watching passively; nothing is pre-recorded. Evening and weekend slots are available, designed around college timetables and office hours."
+    },
+    {
+      "question": "Is there a certificate and portfolio?",
+      "answer": "Both: a completion certificate when you finish, and a GitHub-ready portfolio of Android apps and backend services built through the year. Recruiters for Android roles almost always ask to see apps, and this course makes sure you have them."
+    }
+  ]
 }

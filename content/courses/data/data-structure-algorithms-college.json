@@ -1829,5 +1829,43 @@
     "mentorship": "Guidance from FAANG engineers",
     "certificate": "Industry-recognized certification",
     "portfolio": "500+ problems solved with solutions"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What are the prerequisites for this DSA course?",
+      "answer": "You need basic programming ability: comfort with loops, conditions and functions in at least one language. The course is not meant for absolute non-programmers; DSA builds on top of programming basics, so learn those first and this course will pay off properly."
+    },
+    {
+      "question": "Which programming language is the course taught in?",
+      "answer": "You can work in Python, C++ or Java, the three primary languages we support, with JavaScript as a secondary option. The concepts are language independent, and your mentor reviews solutions in whichever language you choose, so pick the one you want to interview in."
+    },
+    {
+      "question": "How many problems will I solve, and from where?",
+      "answer": "The 6-month track works through 500+ curated problems, moving from arrays, strings and linked lists to trees, graphs and dynamic programming. Practice draws on LeetCode style interview questions, and every week mixes taught concepts with timed problem solving."
+    },
+    {
+      "question": "Will this actually prepare me for FAANG style interviews?",
+      "answer": "It covers exactly what those interviews test: complexity analysis, core data structures, algorithm patterns and mock interview practice in the final phase. What we will not do is promise you an offer; interview outcomes depend on your practice volume and consistency. Students who complete the problem sets walk into coding rounds having seen the patterns before."
+    },
+    {
+      "question": "Why not just follow a free DSA playlist?",
+      "answer": "Playlists explain solutions after the fact; they cannot watch you get stuck. A live mentor sees your approach in real time, asks the guiding questions an interviewer would, reviews your code for edge cases and complexity, and keeps you accountable through the 6 months. Most playlist learners stall at dynamic programming; guided practice is how you get through it."
+    },
+    {
+      "question": "What is the fee structure?",
+      "answer": "₹1,499 per month for group classes in India (max 10 students, 2 classes a week), ₹2,499 per month for a 3 to 4 student mini batch, and ₹4,999 per month for 1-on-1 mentorship with 2 private classes a week. For international students it is $40 per month for group and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can I take a trial class first?",
+      "answer": "Yes. Book a free live demo at learn.modernagecoders.com/contact, attend a real session and only then decide; there is no commitment attached. Questions before booking can go to WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "How do the classes work?",
+      "answer": "Every session is a live 1-hour online class with an instructor, never a recording. You solve problems during class and get your reasoning corrected on the spot, and evening plus weekend slots are available so the course fits around college hours and internship schedules."
+    },
+    {
+      "question": "Do I get anything to show at the end?",
+      "answer": "A completion certificate, plus a GitHub-ready record of your solved problems and implementations and mock interview experience. In technical hiring your portfolio and your performance under a timer count for more than the certificate, and this course builds all three."
+    }
+  ]
 }

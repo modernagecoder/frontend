@@ -1759,5 +1759,43 @@
     "mentorship": "Industry expert guidance",
     "certificate": "Professional certification",
     "portfolio": "25+ real-world projects"
-  }
+  },
+  "faqs": [
+    {
+      "question": "Do I need coding experience or advanced maths to start?",
+      "answer": "No. The course begins with Excel and statistics fundamentals, then introduces SQL and Python step by step, so complete beginners are fine. School level mathematics is enough; every statistical idea is taught inside the course using real datasets."
+    },
+    {
+      "question": "Which tools will I actually learn?",
+      "answer": "The working analyst toolkit: Excel for quick analysis and dashboards, SQL for querying databases, Python with pandas for cleaning and analysis, Power BI and Tableau for visualization, and machine learning basics at the end. You practice each tool on realistic business datasets rather than toy examples."
+    },
+    {
+      "question": "What projects will I have in my portfolio?",
+      "answer": "By the end of 6 months you will have Excel business dashboards, SQL analyses of realistic databases, Python notebooks covering data cleaning and exploration, BI dashboards, and a capstone that takes a raw dataset all the way to an insight presentation. All of it is GitHub-ready for job applications."
+    },
+    {
+      "question": "Can this course get me a data analyst job or internship?",
+      "answer": "It gives you what employers screen for: SQL fluency, Python analysis skills, a visible portfolio and practice answering the analytics questions asked in interviews. Data analyst roles hire from every degree background, which makes the field friendly to students and career changers. We are honest about this: no placement guarantee, just real preparation."
+    },
+    {
+      "question": "How is this different from free tutorials and self-paced courses?",
+      "answer": "Self-paced courses cannot tell you why your analysis is wrong. Here a live instructor reviews your queries and notebooks, points out flawed logic in how you read the data, and pushes you to explain findings out loud, which is the actual job of an analyst. Most self-learners quit at the SQL to Python jump; a mentor gets you across it."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "India pricing is ₹1,499 per month for a group batch (max 10 students, 2 classes a week), ₹2,499 per month for a mini batch of 3 to 4 students, and ₹4,999 per month for personal 1-on-1 classes twice a week. International learners pay $40 per month for group or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can I attend a class before deciding?",
+      "answer": "Yes, we start everyone with a free live demo class, booked at learn.modernagecoders.com/contact. There is no commitment and no payment information needed; you simply experience a real session and then decide."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: each class is a 1-hour online session with an instructor, never a pre-recorded video. Classes are interactive with hands-on work on datasets, and evening and weekend slots make the course manageable alongside college or a full-time job."
+    },
+    {
+      "question": "What do I receive on completion?",
+      "answer": "A completion certificate plus something more useful in interviews: a GitHub-ready portfolio of analysis projects and dashboards you can walk a hiring manager through. We are rated 4.9 stars across 547+ Google reviews if you want an outside opinion of the teaching."
+    }
+  ]
 }

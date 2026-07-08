@@ -1936,5 +1936,43 @@
         "interview_guarantee": "Unlimited mock interviews until you land a job",
         "salary_hike": "Average 170-320% salary hike for career switchers",
         "placement_record": "87%+ placement rate within 6 months of completion"
-    }
+    },
+    "faqs": [
+        {
+            "question": "Do I need a Mac for this course?",
+            "answer": "Realistically yes: Xcode, Apple's development environment, runs only on macOS, so a Mac is required to follow the course properly, ideally with 8GB RAM or more. If you do not have one yet, message us on WhatsApp at +91 91233 66161 before enrolling and we will discuss your options honestly."
+        },
+        {
+            "question": "Which Swift version and frameworks are covered?",
+            "answer": "Current Swift (5.10 and later) with SwiftUI as the primary UI framework, plus UIKit, Core Data, Combine and modern concurrency, all inside current Xcode. The material tracks Apple's current toolchain, so you learn what iOS teams actually ship with."
+        },
+        {
+            "question": "What apps will I build during the year?",
+            "answer": "A progression of real iOS apps: fundamentals projects in Swift playgrounds early, then SwiftUI apps with data persistence, networked apps using REST APIs, Core Data backed applications, and a polished capstone taken through App Store preparation in the final phase. Each one goes into your GitHub portfolio."
+        },
+        {
+            "question": "Can this lead to an iOS developer job?",
+            "answer": "iOS development is a specialized skill area with consistent demand, and the course ends with architecture patterns, testing and interview preparation for exactly those roles. Your portfolio of working apps is the entry ticket. We are upfront that no course can guarantee placement, and we do not."
+        },
+        {
+            "question": "Why take live classes instead of following Apple's free tutorials?",
+            "answer": "Apple's tutorials are polished but assume you never get stuck, and they cannot review an app you design yourself. A live mentor debugs with you inside Xcode, reviews your SwiftUI state management and architecture, and holds the 12-month arc together so you finish apps instead of abandoning them at the first hard bug."
+        },
+        {
+            "question": "What is the fee?",
+            "answer": "Group classes cost ₹1,499 per month in India (max 10 students, 2 live classes a week), mini batches of 3 to 4 students cost ₹2,499 per month, and 1-on-1 personal mentorship with 2 private classes a week costs ₹4,999 per month. Internationally it is $40 per month for group and $100 per month for 1-on-1."
+        },
+        {
+            "question": "How do I start?",
+            "answer": "With a free live demo class: book it at learn.modernagecoders.com/contact, attend with no commitment, and see the teaching style before any payment. Bring your questions about Mac setup and course fit; the demo exists for exactly that."
+        },
+        {
+            "question": "Are sessions live or pre-recorded?",
+            "answer": "Every session is a live 1-hour online class with an instructor; we never substitute recordings. Classes are interactive with real coding in Xcode during the hour, and evening and weekend slots accommodate college schedules and day jobs."
+        },
+        {
+            "question": "What do I receive when I finish?",
+            "answer": "A completion certificate plus a GitHub-ready portfolio of iOS apps, and if you complete the final phase, experience preparing an app for App Store submission. For iOS hiring, shipped or shippable apps carry the most weight, and the course is built to leave you with them."
+        }
+    ]
 }

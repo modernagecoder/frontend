@@ -37,7 +37,7 @@
   "program_overview": {
     "title": "Complete Problem Solving & DSA Masterclass for Teens",
     "tagline": "From 'What is Programming?' to Winning Coding Competitions",
-    "description": "This isn't just another DSA course—it's a complete transformation journey designed specifically for teenage minds. Whether you're a high school student dreaming of top tech companies, preparing for programming olympiads, or just curious about problem-solving, this 1-year masterclass will turn you into a coding problem-solving machine.\n\nYou'll develop superhuman logical thinking abilities, master every important data structure and algorithm, solve 1000+ problems across difficulty levels, and be ready for any coding challenge—from school competitions to Google interviews. By the end, you'll think like a computer scientist and solve problems that seemed impossible before.",
+    "description": "This isn't just another DSA course, it's a complete transformation journey designed specifically for teenage minds. Whether you're a high school student dreaming of top tech companies, preparing for programming olympiads, or just curious about problem-solving, this 1-year masterclass will turn you into a coding problem-solving machine.\n\nYou'll develop superhuman logical thinking abilities, master every important data structure and algorithm, solve 1000+ problems across difficulty levels, and be ready for any coding challenge, from school competitions to Google interviews. By the end, you'll think like a computer scientist and solve problems that seemed impossible before.",
     "what_makes_this_different": [
       "Designed specifically for teenage learning patterns",
       "Gamified learning with points, badges, and leaderboards",
@@ -1657,5 +1657,43 @@
     "continuous_updates": "Free access to all future content",
     "college_support": "Help with CS program applications",
     "success_guarantee": "Top 20% in competitions or additional free coaching"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What exactly does this DSA course teach?",
+      "answer": "The year is a complete problem-solving ladder: programming fundamentals and logic building, core data structures like trees and graphs, dynamic programming, number theory and computational geometry, and finally competitive programming and interview-style practice. Students solve 1000+ problems of gradually increasing difficulty along the way."
+    },
+    {
+      "question": "Which programming language is used?",
+      "answer": "Python is the primary teaching language because it lets beginners focus on logic instead of syntax; C++ is introduced for competitive programming where speed matters, and Java is an option for students who already use it at school. All tools are free: Python, a free code editor, and free practice platforms like LeetCode and Codeforces."
+    },
+    {
+      "question": "Does my teen need coding experience or advanced maths?",
+      "answer": "No coding experience is required; the first month teaches programming from scratch. Middle school level mathematics is enough to start, and the course itself builds the logical and mathematical maturity needed for harder problems."
+    },
+    {
+      "question": "Is this useful if my teen is not aiming for olympiads?",
+      "answer": "Yes. Contests like Codeforces rounds and olympiad preparation are one path through the course, but the same skills power school computer science, entrance exams, and technical interviews later. Problem solving is the most transferable skill in all of programming."
+    },
+    {
+      "question": "What comes after this course?",
+      "answer": "Graduates are ready for sustained competitive programming, school and college-level contests, and the algorithm rounds used in technical interviews. Many also branch into our Python, full stack, or AI courses, where strong problem-solving skills make advanced material dramatically easier."
+    },
+    {
+      "question": "What does this course cost per month?",
+      "answer": "Group classes are ₹1,499 per month for 2 live classes a week with a maximum of 10 students. Mini batches of 3-4 cost ₹2,499 per month, and 1-on-1 personal coaching with 2 private sessions weekly is ₹4,999 per month. For international students, group classes are $40 per month and 1-on-1 is $100 per month."
+    },
+    {
+      "question": "Can my teen attend a free demo first?",
+      "answer": "Yes, demos are free and commitment-free; book at learn.modernagecoders.com/contact. Parents can sit in on the session, and the teacher will happily discuss your teen's goals, whether that is olympiads, exams, or interview preparation."
+    },
+    {
+      "question": "Are the sessions live?",
+      "answer": "Yes, all classes are live 1-hour online sessions with a real teacher, never recordings. Problem solving is taught interactively: students attempt problems in class, explain their reasoning, and learn multiple approaches from the group."
+    },
+    {
+      "question": "Is a certificate awarded?",
+      "answer": "Yes, students who complete the course earn a Problem Solving Expert certificate along with a portfolio documenting the problems and contests they have worked through. That visible record of solved problems is often what impresses schools and interviewers most."
+    }
+  ]
 }

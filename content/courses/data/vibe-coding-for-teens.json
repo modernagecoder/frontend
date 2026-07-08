@@ -155,7 +155,15 @@
         "Mad Libs Creator — fill-in-the-blank story generator"
       ],
       "vibe_challenge": "Build a 'Vibe Name Generator' that creates a cool coder alias from your real name",
-      "tools_used": ["Cursor IDE", "VS Code", "GitHub Copilot", "Python 3.x", "Git", "Terminal/Command Prompt"]
+      "tools_used": [
+        "Cursor IDE",
+        "VS Code",
+        "GitHub Copilot",
+        "Python 3.x",
+        "Git",
+        "Terminal/Command Prompt"
+      ],
+      "practice": "Set up your editor, write a Python script that asks the user three questions and prints a profile card, then commit it to a new GitHub repo."
     },
     "week_2": {
       "title": "Week 2: Flow Control — Making Smart Programs",
@@ -180,7 +188,12 @@
         "Password Strength Checker — analyses a password and gives a strength rating"
       ],
       "vibe_challenge": "Build a simple text-based 'Choose Your Own Adventure' story with multiple paths",
-      "tools_used": ["VS Code", "Python 3.x", "GitHub"]
+      "tools_used": [
+        "VS Code",
+        "Python 3.x",
+        "GitHub"
+      ],
+      "practice": "Build a number guessing game with a while loop and if elif else hints for higher or lower, counting the attempts taken."
     },
     "week_3": {
       "title": "Week 3: Functions & Modules — Writing Clean, Reusable Code",
@@ -205,7 +218,12 @@
         "Word Counter — analyses a paragraph for word count, unique words, and top 5 most used"
       ],
       "vibe_challenge": "Build a 'Daily Quote Generator' that gives you a random motivational quote each run",
-      "tools_used": ["VS Code", "Python modules: random, math, datetime", "GitHub"]
+      "tools_used": [
+        "VS Code",
+        "Python modules: random, math, datetime",
+        "GitHub"
+      ],
+      "practice": "Refactor your guessing game into functions with parameters and return values, then add a play again option."
     },
     "week_4": {
       "title": "Week 4: Data Structures & File Handling — Real Persistent Apps",
@@ -230,7 +248,8 @@
         "Vocabulary Flash Card App — add words, quiz yourself, track score"
       ],
       "capstone": "PHASE 1 CAPSTONE — Python Project: Build a fully functional command-line application of your choice. Must include: 3+ functions, data storage (file or JSON), input validation, and error handling. Present your app + explain the code.",
-      "vibe_challenge": "Build a 'Personal Journal' app that logs dated entries to a file and lets you search past entries"
+      "vibe_challenge": "Build a 'Personal Journal' app that logs dated entries to a file and lets you search past entries",
+      "practice": "Create a contact book app that stores entries in a dictionary and saves them to a file so they survive a restart."
     }
   },
   "phase_2_web_dev": {
@@ -261,7 +280,13 @@
         "Event Landing Page — HTML structure for a fictional school event"
       ],
       "vibe_challenge": "Build an HTML tribute page to your favourite tech innovator",
-      "tools_used": ["VS Code", "Live Server extension", "Chrome DevTools", "W3C Validator"]
+      "tools_used": [
+        "VS Code",
+        "Live Server extension",
+        "Chrome DevTools",
+        "W3C Validator"
+      ],
+      "practice": "Hand code a semantic personal profile page with a header, nav, three sections and a contact link, without any AI assistance."
     },
     "week_6": {
       "title": "Week 6: CSS — Make It Look Amazing",
@@ -288,7 +313,13 @@
         "Responsive Navigation Bar — a professional nav that collapses on mobile"
       ],
       "vibe_challenge": "Create a 'Glassmorphism' card UI that looks straight out of 2026",
-      "tools_used": ["VS Code", "Chrome DevTools", "Google Fonts", "CSS Grid/Flexbox"]
+      "tools_used": [
+        "VS Code",
+        "Chrome DevTools",
+        "Google Fonts",
+        "CSS Grid/Flexbox"
+      ],
+      "practice": "Style your profile page with Flexbox, a Google Font and CSS variables, and make sure it still looks right at phone width."
     },
     "week_7": {
       "title": "Week 7: JavaScript — Bring Your Website to Life",
@@ -313,7 +344,13 @@
         "Real-time Character Counter — live word/character counts as you type"
       ],
       "vibe_challenge": "Build a 'Vibe Mood Board Generator' — click a mood to change the entire page colour scheme and quote",
-      "tools_used": ["VS Code", "Chrome DevTools Console", "JavaScript ES6+", "LocalStorage API"]
+      "tools_used": [
+        "VS Code",
+        "Chrome DevTools Console",
+        "JavaScript ES6+",
+        "LocalStorage API"
+      ],
+      "practice": "Add a dark mode toggle and a live character counter to your page using DOM events, plus one array method such as map or filter."
     },
     "week_8": {
       "title": "Week 8: APIs & Full Web Projects — Connect to the Real World",
@@ -341,7 +378,14 @@
       ],
       "capstone": "PHASE 2 CAPSTONE — Web Application: Build and deploy a fully functional, responsive web app that connects to at least one real API. Must be live online. Present the live URL, explain your code, and demo the features.",
       "vibe_challenge": "Add a 'share on Twitter' button to your capstone project",
-      "tools_used": ["Fetch API", "OpenWeather API", "NASA API", "Netlify", "GitHub Pages"]
+      "tools_used": [
+        "Fetch API",
+        "OpenWeather API",
+        "NASA API",
+        "Netlify",
+        "GitHub Pages"
+      ],
+      "practice": "Fetch data from a free public API, such as weather or jokes, and render it on your page with async await and visible error handling."
     }
   },
   "phase_3_ai_portfolio": {
@@ -371,7 +415,14 @@
         "Vibe-Coded AI App — use Cursor Composer to build an entire AI tool from a single description"
       ],
       "vibe_challenge": "Build an AI tool that solves a real problem you personally face every day — using Cursor IDE",
-      "tools_used": ["Python", "Cursor IDE", "GitHub Copilot", "Google Gemini API / Claude API", "Postman"]
+      "tools_used": [
+        "Python",
+        "Cursor IDE",
+        "GitHub Copilot",
+        "Google Gemini API / Claude API",
+        "Postman"
+      ],
+      "practice": "Build a small chatbot on the Gemini or Claude API with a system prompt that gives it a personality, and note one prompt improvement you made."
     },
     "week_10": {
       "title": "Week 10: Vibe Coding Full Apps — Lovable, Bolt.new & Full Stack",
@@ -397,7 +448,16 @@
         "Bolt.new Speed Build — go from idea to deployed app in under 30 minutes"
       ],
       "vibe_challenge": "Build and deploy a complete app using ONLY Lovable — no hand-written code!",
-      "tools_used": ["Lovable", "Bolt.new", "Flask", "SQLite", "Cursor IDE", "Replit", "Vercel"]
+      "tools_used": [
+        "Lovable",
+        "Bolt.new",
+        "Flask",
+        "SQLite",
+        "Cursor IDE",
+        "Replit",
+        "Vercel"
+      ],
+      "practice": "Build the same to do app twice, once by hand and once with Lovable or Bolt.new, and write down three differences you noticed in the code."
     },
     "week_11": {
       "title": "Week 11: Developer Portfolio & Professional Presence",
@@ -423,7 +483,16 @@
         "Project README Collection — professional documentation for all 4 key portfolio projects"
       ],
       "vibe_challenge": "Contribute a fix or documentation improvement to any open-source project on GitHub",
-      "tools_used": ["v0.dev", "Lovable", "GitHub", "Netlify / Vercel", "LinkedIn", "Figma (portfolio design)", "Markdown"]
+      "tools_used": [
+        "v0.dev",
+        "Lovable",
+        "GitHub",
+        "Netlify / Vercel",
+        "LinkedIn",
+        "Figma (portfolio design)",
+        "Markdown"
+      ],
+      "practice": "Draft your portfolio site with three project cards, STAR style descriptions and a proper README on your best repo."
     },
     "week_12": {
       "title": "Week 12: Grand Vibe Showcase — Launch Your Career!",

@@ -164,7 +164,8 @@
         "Personal landing page deployed to Vercel",
         "First open-source PR to a public repo"
       ],
-      "vibe_challenge": "Migrate a Python script to TypeScript in under 60 minutes."
+      "vibe_challenge": "Migrate a Python script to TypeScript in under 60 minutes.",
+      "practice": "Configure your full pro environment with Cursor, GitHub CLI, Node 22 and Python 3.12, then write the same small utility in Python and TypeScript to compare ergonomics."
     },
     "week_2": {
       "title": "Week 2: Full-Stack Fundamentals — REST, Databases, Auth",
@@ -186,7 +187,8 @@
         "Auth flow with Clerk + RBAC",
         "Public + private routes split with middleware"
       ],
-      "vibe_challenge": "Build a multi-tenant notes app where each user only sees their own notes — and prove it in tests."
+      "vibe_challenge": "Build a multi-tenant notes app where each user only sees their own notes — and prove it in tests.",
+      "practice": "Model a two table Postgres schema in Supabase with auth enabled and expose one authenticated REST endpoint with correct status codes."
     },
     "week_3": {
       "title": "Week 3: Modern Frontend — Next.js 16, Server Actions, Tailwind, shadcn/ui",
@@ -208,7 +210,8 @@
         "Dashboard with charts (Recharts) + Cache Components",
         "Form-heavy app using Server Actions exclusively"
       ],
-      "vibe_challenge": "Reduce a page's TTFB by 50% using Cache Components in under 90 minutes."
+      "vibe_challenge": "Reduce a page's TTFB by 50% using Cache Components in under 90 minutes.",
+      "practice": "Build a Next.js 16 page that mixes Server and Client Components, handles a form through one Server Action and streams a slow section with Suspense."
     },
     "week_4": {
       "title": "Week 4: First Solo Pro Mini Hackathon — Ship Production-Ready in 12 Hours",
@@ -255,7 +258,8 @@
         "Multi-provider AI gateway with failover",
         "Structured-output extraction from PDFs"
       ],
-      "vibe_challenge": "Cut your chat app's per-message cost by 80% using prompt caching."
+      "vibe_challenge": "Cut your chat app's per-message cost by 80% using prompt caching.",
+      "practice": "Wire streamText from the Vercel AI SDK into a chat UI with one tool call, and measure token cost before and after enabling prompt caching."
     },
     "week_6": {
       "title": "Week 6: AI Agents, Tool Calling & Durable Workflows",
@@ -277,7 +281,8 @@
         "Research agent that browses, synthesizes and cites sources",
         "Customer support agent with persistent memory + escalation tool"
       ],
-      "vibe_challenge": "Build an agent that ships a production deployment end-to-end without human intervention."
+      "vibe_challenge": "Build an agent that ships a production deployment end-to-end without human intervention.",
+      "practice": "Build a two tool agent, for example web lookup plus calculator, with a visible step log and a hard termination condition."
     },
     "week_7": {
       "title": "Week 7: RAG Done Right — Embeddings, Vector DBs, Hybrid Search, Eval",
@@ -299,7 +304,8 @@
         "Hybrid-search RAG with reranking",
         "Evaluation harness with at least 50 test queries"
       ],
-      "vibe_challenge": "Take a basic RAG and improve faithfulness from 60% → 90% in 90 minutes."
+      "vibe_challenge": "Take a basic RAG and improve faithfulness from 60% → 90% in 90 minutes.",
+      "practice": "Implement a small RAG pipeline over 20 to 50 documents with pgvector, then evaluate five queries and record where retrieval failed and why."
     },
     "week_8": {
       "title": "Week 8: System Design + Mock Pro Hackathon (Teams of 2–4)",
@@ -345,7 +351,8 @@
         "Product Spec (2 pages)",
         "Architecture Diagram with cost model",
         "First investor-style pitch outline"
-      ]
+      ],
+      "practice": "Deliver your two page capstone spec with an architecture diagram, a token and infra cost model, and a risk register with mitigations."
     },
     "week_10": {
       "title": "Week 10: Heavy Build Sprint — Production Discipline at Hackathon Speed",
@@ -366,7 +373,8 @@
         "Capstone build — 70% complete by end of Week 10",
         "Daily standup logs (3 lines: shipped / shipping / blocked)",
         "Mid-sprint demo to mentor + 3 peers"
-      ]
+      ],
+      "practice": "Ship daily for five days: clean commits, one mid sprint mentor review actioned, and one end to end test guarding your demo path."
     },
     "week_11": {
       "title": "Week 11: Founder-Grade Pitch Lab — VC Critique, Slides, Demo Polish",
@@ -387,7 +395,8 @@
         "Pitch Slides (8 slides, Pitch.com / Tome / Canva)",
         "Pitch Video (3 minutes)",
         "Final README with hero image, demo URL, architecture, tech stack, team, GTM sketch"
-      ]
+      ],
+      "practice": "Rehearse the three minute pitch on camera twice, tighten the deck to eight image first slides and prepare answers to the three hardest judge questions."
     },
     "week_12": {
       "title": "Week 12: LIVE PRO HACKATHON WEEKEND — Compete with Founders & Senior Engineers",

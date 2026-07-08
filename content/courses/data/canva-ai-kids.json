@@ -74,7 +74,7 @@
         "title": "Introduction to Design & Canva Setup",
         "topics": [
           "What is graphic design? History and evolution",
-          "Design careers and opportunities in 2024",
+          "Design careers and opportunities in 2026",
           "Traditional vs digital design",
           "Introduction to Canva: Interface tour",
           "Canva Free vs Pro features comparison",
@@ -1568,6 +1568,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What does the Canva & AI Design Masterclass cover?",
+      "answer": "Six months from zero: design principles, typography and color theory, Canva mastery for social media and marketing design, AI design tools and photo editing, video editing and animation, then portfolio building, freelancing basics and client work. You finish as a capable digital designer with real published pieces."
+    },
+    {
+      "question": "Who can join this course?",
+      "answer": "It is open to everyone: no formal education or technical background is needed, and the plain language teaching works for school students as well as adults building a skill or a side income. Everything runs in the browser, so there is no heavy software to install."
+    },
+    {
+      "question": "What equipment or software do I need?",
+      "answer": "Just a computer with an internet connection, since Canva runs in the browser. We introduce AI design and editing tools step by step during the course and always point out free options before anything paid comes up."
+    },
+    {
+      "question": "How is progress measured?",
+      "answer": "Every week produces a real design deliverable, from social media posts to brand kits to edited videos, and those pieces accumulate into your portfolio. Phase-end projects act as checkpoints, and the final phase turns the portfolio into a career ready showcase."
+    },
+    {
+      "question": "Can this actually lead to freelance work?",
+      "answer": "The final phase covers exactly that: pricing, client communication, briefs and portfolio presentation, alongside current design career paths. We do not promise income figures, but you finish with the portfolio and the process a working freelancer needs."
+    },
+    {
+      "question": "How much are the fees?",
+      "answer": "₹1,499 per month for group classes with 2 classes each week, ₹2,499 per month for a mini batch, and ₹4,999 per month for 1-on-1 classes. International students pay $40 per month for group classes or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can I try before paying?",
+      "answer": "Yes, the first class is a free demo with no commitment; book it at learn.modernagecoders.com/contact. If you prefer to chat first, WhatsApp us at +91 91233 66161."
+    },
+    {
+      "question": "Is this a video course?",
+      "answer": "No. Every class is a live one hour online session with a real teacher, never pre-recorded content. Groups are small, so your designs get individual critique, which is how design skill actually improves."
+    },
+    {
+      "question": "Do I get a certificate?",
+      "answer": "Yes, a design certification on completion plus your portfolio of real projects created during the course. Modern Age Coders holds 4.9 stars across 547+ Google reviews."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Month 1-2: 20+ foundational design projects including logos, social media posts, marketing materials",

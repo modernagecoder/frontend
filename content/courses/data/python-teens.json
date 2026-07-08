@@ -37,7 +37,7 @@
   "program_overview": {
     "title": "Ultimate Python Programming Masterclass for Teens",
     "tagline": "From 'Hello World' to Building Instagram Clones, AI Bots, Games, and Your Own Python Framework",
-    "description": "This isn't just another Python course—it's a complete transformation into a Python wizard. Over 2 years, you'll master every aspect of Python, from basic syntax to advanced frameworks, from simple scripts to complex applications. Build games like Minecraft clones, create social media platforms, develop AI chatbots, automate everything in your life, hack (ethically!), create mobile apps, and even contribute to Python itself.\n\nDesigned specifically for teenage minds with projects you'll love: Discord bots, Instagram automation, game cheats (for your own games!), homework helpers, music players, and even your own programming language. By graduation, you'll have built 100+ projects and be ready for any Python challenge.",
+    "description": "This isn't just another Python course, it's a complete transformation into a Python wizard. Over 2 years, you'll master every aspect of Python, from basic syntax to advanced frameworks, from simple scripts to complex applications. Build games like Minecraft clones, create social media platforms, develop AI chatbots, automate everything in your life, hack (ethically!), create mobile apps, and even contribute to Python itself.\n\nDesigned specifically for teenage minds with projects you'll love: Discord bots, Instagram automation, game cheats (for your own games!), homework helpers, music players, and even your own programming language. By graduation, you'll have built 100+ projects and be ready for any Python challenge.",
     "what_makes_this_different": [
       "Teen-focused projects: Games, social media, automation teens actually want",
       "Visual learning with animations and interactive coding",
@@ -1686,5 +1686,43 @@
     "updates": "Free lifetime content updates",
     "community": "Lifetime community access",
     "support": "24/7 support throughout course"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What will my teen build in this Python course?",
+      "answer": "Over the 2-year journey students build 100+ projects: games with Pygame, web applications with Flask and Django, automation scripts, data science and machine learning experiments, and advanced work with Python internals in the final phase. The projects are chosen to feel exciting to teens, like bots, games, and app clones, while quietly building professional skills."
+    },
+    {
+      "question": "Is this the right level for my teenager?",
+      "answer": "The course is written for ages 13 to 19 and starts from absolute zero, so no prior coding is needed. Teens who already know some Python simply move through the early modules faster."
+    },
+    {
+      "question": "Why is the course 2 years long?",
+      "answer": "Because it goes far beyond syntax: the four phases cover fundamentals and object-oriented programming, full web development, specializations like game development, data science, and automation, and finally expert-level Python. Students see real progress within the first month; the 2-year arc is what takes them from beginner to genuinely advanced."
+    },
+    {
+      "question": "What software is needed, and is it free?",
+      "answer": "Everything is free: Python itself, the VS Code or PyCharm editors used in class, and open-source libraries like Pygame, Flask, and Django. Any reasonably modern computer with an internet connection can run the full course."
+    },
+    {
+      "question": "Where does this lead after the course?",
+      "answer": "Python is the doorway language: graduates commonly continue into our AI and machine learning masterclass, or the data structures and algorithms course for competitive programming and interview-style problem solving. The project portfolio built here carries directly into college applications and tech pathways."
+    },
+    {
+      "question": "How much does the Python masterclass cost?",
+      "answer": "₹1,499 per month for group classes, with 2 live classes weekly and at most 10 teens per batch. Mini batches of 3-4 students are ₹2,499 per month, and personal 1-on-1 tuition with 2 private classes a week is ₹4,999 per month. International students pay $40 per month for group and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Is a trial class available?",
+      "answer": "Yes, a free demo class with no commitment; book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Parents are welcome to observe the demo and ask the teacher questions afterwards."
+    },
+    {
+      "question": "How are the classes taught?",
+      "answer": "Through live 1-hour online sessions with a real teacher, never pre-recorded videos. Classes are interactive and small; students write and run code during class, not just watch someone else do it."
+    },
+    {
+      "question": "Does the course include a certificate?",
+      "answer": "Yes, finishing the masterclass earns a Python certification backed by a portfolio of 100+ real projects. The portfolio matters most: it shows precisely what your teen can build, not just what they sat through."
+    }
+  ]
 }

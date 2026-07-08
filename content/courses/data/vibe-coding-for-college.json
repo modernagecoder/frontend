@@ -172,7 +172,17 @@
         "News Aggregation Proxy — fetch and forward data from a public news API"
       ],
       "vibe_challenge": "Build a webhook listener that logs all incoming requests to a file",
-      "tools_used": ["Cursor IDE", "Claude Code", "GitHub Copilot", "Windsurf", "Node.js", "Express.js", "Postman", "Thunder Client"]
+      "tools_used": [
+        "Cursor IDE",
+        "Claude Code",
+        "GitHub Copilot",
+        "Windsurf",
+        "Node.js",
+        "Express.js",
+        "Postman",
+        "Thunder Client"
+      ],
+      "practice": "Build a small Node.js CLI utility in Cursor, then run one Composer multi file refactor and review the diff line by line before committing."
     },
     "week_2": {
       "title": "Week 2: MongoDB & Database Design — Persistent, Scalable Data",
@@ -197,7 +207,13 @@
         "E-Commerce Product Catalog — categories, variants, stock tracking in MongoDB"
       ],
       "vibe_challenge": "Design a schema for a social media app — explain your design decisions",
-      "tools_used": ["MongoDB Atlas", "MongoDB Compass", "Mongoose", "Postman"]
+      "tools_used": [
+        "MongoDB Atlas",
+        "MongoDB Compass",
+        "Mongoose",
+        "Postman"
+      ],
+      "practice": "Design a Mongoose schema for a blog with users, posts and comments, seed it on Atlas and run every CRUD operation from a script."
     },
     "week_3": {
       "title": "Week 3: React.js — Modern Frontend Development",
@@ -225,7 +241,14 @@
         "Expense Tracker — add/categorize/delete expenses, charts with Chart.js"
       ],
       "vibe_challenge": "Add dark mode toggle with Context API to any of your React projects",
-      "tools_used": ["React 18", "React Router v6", "Tailwind CSS", "Vite", "React Query"]
+      "tools_used": [
+        "React 18",
+        "React Router v6",
+        "Tailwind CSS",
+        "Vite",
+        "React Query"
+      ],
+      "practice": "Build a searchable product list in React with useState, useEffect data fetching and correct list keys, then deploy it to a free host."
     },
     "week_4": {
       "title": "Week 4: Full MERN — Authentication, Authorization & Deployment",
@@ -253,7 +276,17 @@
       ],
       "capstone": "PHASE 1 CAPSTONE — MERN Full Stack Application: Build and deploy a complete, authenticated full-stack web application using the MERN stack. Must include: user auth, at least 3 data models, REST API, React frontend, and live deployment URL. Code reviewed by an industry mentor.",
       "vibe_challenge": "Add Google OAuth login to your capstone project using Passport.js or NextAuth.js",
-      "tools_used": ["MERN", "JWT", "bcrypt", "Multer", "Cloudinary", "Render", "Vercel", "GitHub Actions"]
+      "tools_used": [
+        "MERN",
+        "JWT",
+        "bcrypt",
+        "Multer",
+        "Cloudinary",
+        "Render",
+        "Vercel",
+        "GitHub Actions"
+      ],
+      "practice": "Add JWT based register and login plus a protected dashboard route to your MERN app, with bcrypt hashed passwords and one admin only endpoint."
     }
   },
   "phase_2_dsa_ml": {
@@ -282,7 +315,13 @@
         "Text Editor Undo/Redo — stack-based implementation with UI"
       ],
       "vibe_challenge": "Solve a LeetCode Medium problem every day this week and journal your approach",
-      "tools_used": ["Python", "LeetCode", "LeetCode Discuss", "VS Code"]
+      "tools_used": [
+        "Python",
+        "LeetCode",
+        "LeetCode Discuss",
+        "VS Code"
+      ],
+      "practice": "Solve eight array and string problems using two pointers, sliding window and prefix sums, recording time and space complexity for each."
     },
     "week_6": {
       "title": "Week 6: Trees, Graphs & Advanced Algorithms",
@@ -307,7 +346,13 @@
         "Course Prerequisite Checker — topological sort applied to a real problem"
       ],
       "vibe_challenge": "Solve the top 5 most common DP problems asked in Amazon and Google interviews",
-      "tools_used": ["Python", "LeetCode", "JavaScript (visualization)", "React"]
+      "tools_used": [
+        "Python",
+        "LeetCode",
+        "JavaScript (visualization)",
+        "React"
+      ],
+      "practice": "Solve six tree and graph problems including one BFS, one DFS and one heap problem, and explain one solution aloud as if in an interview."
     },
     "week_7": {
       "title": "Week 7: Machine Learning — Teach Python to Predict the Future",
@@ -332,7 +377,15 @@
         "Customer Segmentation — K-means on e-commerce purchase data"
       ],
       "vibe_challenge": "Put your best ML model into a Flask web API so others can use it",
-      "tools_used": ["Python", "pandas", "scikit-learn", "Matplotlib", "Seaborn", "Jupyter Notebook"]
+      "tools_used": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "Jupyter Notebook"
+      ],
+      "practice": "Train a scikit-learn model on a public dataset with a proper train test split, reporting accuracy and one feature engineering decision."
     },
     "week_8": {
       "title": "Week 8: Deep Learning & AI Project Deployment",
@@ -360,7 +413,16 @@
       ],
       "capstone": "PHASE 2 CAPSTONE — An end-to-end ML application: data collection/cleaning, trained model, evaluation report, REST API, and a front-end interface. Deployed and publicly accessible.",
       "vibe_challenge": "Submit your ML project to Kaggle and write a public notebook explaining your approach",
-      "tools_used": ["TensorFlow", "Keras", "Hugging Face", "FastAPI", "Streamlit", "OpenCV", "Kaggle"]
+      "tools_used": [
+        "TensorFlow",
+        "Keras",
+        "Hugging Face",
+        "FastAPI",
+        "Streamlit",
+        "OpenCV",
+        "Kaggle"
+      ],
+      "practice": "Fine tune a pre-trained CNN such as MobileNet on a small image dataset with Keras and record a short working demo."
     }
   },
   "phase_3_career": {
@@ -391,7 +453,14 @@
         "Docker Compose Setup — containerize your full MERN stack with Docker Compose"
       ],
       "vibe_challenge": "Record a 10-minute system design interview mock — 'Design a ride-sharing app like Ola'",
-      "tools_used": ["Redis", "Docker", "Docker Compose", "Draw.io (system diagrams)", "AWS EC2 basics"]
+      "tools_used": [
+        "Redis",
+        "Docker",
+        "Docker Compose",
+        "Draw.io (system diagrams)",
+        "AWS EC2 basics"
+      ],
+      "practice": "Give Cursor Agent or Claude Code one scoped multi file task in your capstone repo, then audit the output and document what you kept, fixed or rejected."
     },
     "week_10": {
       "title": "Week 10: Cloud, DevOps & Security for AI-Generated Code",
@@ -418,7 +487,15 @@
         "Security Audit: Run OWASP ZAP against your app and fix at least 3 vulnerabilities"
       ],
       "vibe_challenge": "Set up application monitoring with Sentry — get alerted when your app throws an error",
-      "tools_used": ["AWS EC2", "AWS S3", "Nginx", "GitHub Actions", "Let's Encrypt", "Sentry"]
+      "tools_used": [
+        "AWS EC2",
+        "AWS S3",
+        "Nginx",
+        "GitHub Actions",
+        "Let's Encrypt",
+        "Sentry"
+      ],
+      "practice": "Deploy your MERN app with HTTPS on EC2 or a comparable host, and add a GitHub Actions pipeline that runs tests before every deploy."
     },
     "week_11": {
       "title": "Week 11: Placement Preparation & Professional Identity",
@@ -443,7 +520,14 @@
         "GitHub Portfolio Cleanup — all key repos have great READMEs, demo links, and screenshots"
       ],
       "vibe_challenge": "Apply to 10 internship positions this week using your new resume and portfolio",
-      "tools_used": ["GitHub", "LinkedIn", "Figma (portfolio)", "VS Code", "Notion (job tracker)"]
+      "tools_used": [
+        "GitHub",
+        "LinkedIn",
+        "Figma (portfolio)",
+        "VS Code",
+        "Notion (job tracker)"
+      ],
+      "practice": "Finish an ATS friendly one page resume, refresh your GitHub profile README and rewrite your LinkedIn headline, then get feedback from one mentor or peer."
     },
     "week_12": {
       "title": "Week 12: Grand Capstone Launch — Showcase, Certify & Conquer",

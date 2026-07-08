@@ -1118,6 +1118,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What does the olympiad mathematics program cover?",
+      "answer": "The 12 month curriculum works through the four classical olympiad pillars: number theory and combinatorics, competition algebra with polynomials and functional equations, Euclidean and coordinate geometry with trigonometry, and inequalities with advanced problem solving strategy, ending in mock competitions. The goal is genuine problem solving depth, not memorized tricks."
+    },
+    {
+      "question": "Which competitions does this prepare students for?",
+      "answer": "The training maps to the Indian olympiad pipeline, IOQM leading toward RMO and INMO, plus NMTC and SOF style olympiads, and the same material serves AMC and AIME aspirants since the topic areas overlap heavily. We prepare students honestly for the level they are at, and we never promise medals or ranks, because no honest program can."
+    },
+    {
+      "question": "Is my child ready for this course?",
+      "answer": "It suits students with a strong grasp of school mathematics who enjoy hard problems, typically from middle school upward. It is not designed for closing school level gaps; students who need foundations first are better served by our school mathematics programs and can graduate into this one."
+    },
+    {
+      "question": "What are the prerequisites?",
+      "answer": "Solid school algebra and geometry, care in reading mathematical statements, and a genuine appetite for problems that take longer than five minutes. Competition maths rewards consistent weekly practice more than raw talent, so expect a serious commitment."
+    },
+    {
+      "question": "How is progress measured in competition maths?",
+      "answer": "Through weekly problem sets at calibrated difficulty, a personal problem log tracking which techniques are secure, and regular timed mock papers in the final months. Progress here looks like solving harder problems more independently, and the log makes that visible."
+    },
+    {
+      "question": "What does the program cost?",
+      "answer": "Group training is ₹1,499 per month with 2 classes per week, a mini batch is ₹2,499 per month, and 1-on-1 coaching is ₹4,999 per month. International students train on the premium maths track at $100 per month for group or $150 per month for 1-on-1."
+    },
+    {
+      "question": "Can we try a session first?",
+      "answer": "Yes, book a free demo class at learn.modernagecoders.com/contact with no commitment; we use it to gauge your child's current problem solving level and to recommend honestly whether this course or a foundations course fits better. WhatsApp +91 91233 66161 for quick questions."
+    },
+    {
+      "question": "What is the class format?",
+      "answer": "Live one hour online classes with a real teacher in deliberately small groups, never recorded lectures. Students present their attempts and the mentor works the reasoning with them, which is the only way competition thinking actually develops."
+    },
+    {
+      "question": "Is there a certificate, and what else does my child take away?",
+      "answer": "Yes, an Olympiad Mathematics Excellence Certificate on completion, plus the more valuable artifact: a documented problem portfolio and mock paper record showing the level reached. That evidence outlasts any single contest result."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: AMC Training Manual, Number Theory Proofs, Combinatorics Guide, Mock Competitions",

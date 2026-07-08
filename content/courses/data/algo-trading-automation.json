@@ -1641,5 +1641,43 @@
     "mentorship": "Guidance from professional traders",
     "certificate": "Industry-recognized certification",
     "portfolio": "25+ production-ready trading systems"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What exactly will I learn to build?",
+      "answer": "Trading automation systems in Python: data pipelines for market data, technical analysis tooling, rule-based strategies, backtesting engines to test ideas on historical data, risk management logic, and paper trading deployments through broker APIs. By the end you can take a strategy from idea to tested, automated implementation."
+    },
+    {
+      "question": "Is this financial advice? Will I make guaranteed profits?",
+      "answer": "No, and be wary of anyone who says otherwise. This is an engineering course: it teaches you to build, backtest and automate trading systems, not what to buy. Markets carry real risk of loss, past backtest results do not guarantee future returns, and we make no profit claims of any kind."
+    },
+    {
+      "question": "Do I need trading or finance knowledge before joining?",
+      "answer": "No, phase 1 covers financial markets from the ground up alongside Python for finance. Basic programming experience helps you move faster but is not required. What matters more is the discipline to treat trading as engineering and statistics rather than gambling."
+    },
+    {
+      "question": "Which tools, data sources and brokers does the course use?",
+      "answer": "Python throughout, with standard data libraries and free sources like yfinance for learning, backtesting frameworks, and broker APIs such as Zerodha Kite for Indian markets and Alpaca internationally, plus an introduction to crypto exchange APIs like Binance. Live-money trading is never required for the course; strategies are validated through backtests and paper trading."
+    },
+    {
+      "question": "Will this help my career in quant or fintech roles?",
+      "answer": "The skill set overlaps heavily with what fintech and quant-adjacent teams look for: Python, data analysis, backtesting rigor, APIs and automation. You finish with a GitHub-ready portfolio of trading systems, which is unusual and memorable in applications. We make no placement or income guarantees, in hiring or in trading."
+    },
+    {
+      "question": "What does the program cost?",
+      "answer": "Group classes are ₹1,499 per month in India (2 classes a week, max 10 students), mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 mentorship with 2 private classes a week is ₹4,999 per month. International students pay $40 per month for group classes or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can I try it before committing?",
+      "answer": "Yes, book a free live demo class at learn.modernagecoders.com/contact; there is no commitment and no payment details are taken. It is also the right place to ask hard questions about risk, tooling and whether the course fits your goals."
+    },
+    {
+      "question": "How are classes delivered?",
+      "answer": "As live 1-hour online sessions with an instructor, never pre-recorded videos. Classes are interactive, you code the systems yourself with guidance, and evening and weekend slots suit college students and working professionals."
+    },
+    {
+      "question": "Is there a certificate?",
+      "answer": "You receive a completion certificate along with a GitHub-ready portfolio of backtested strategies and automation projects. One honest note: in this field your documented backtests and clean code impress far more than any certificate, and that is what the course is designed to produce."
+    }
+  ]
 }

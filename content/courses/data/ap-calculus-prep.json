@@ -75,7 +75,8 @@
       "projects": [
         "Personal error log and gap map for the whole year",
         "Limit-evaluation toolkit sheet, built not copied"
-      ]
+      ],
+      "practice": "Complete a limits problem set spanning graphical, numerical and analytic forms, writing full sentence IVT justifications for two of them."
     },
     "week_4_8": {
       "title": "Weeks 4-8: The Derivative, Discovered Then Drilled",
@@ -91,7 +92,8 @@
       "projects": [
         "Shrinking-interval investigation: one data table to both core ideas",
         "Timed derivative gauntlet at exam pace, reviewed for error patterns"
-      ]
+      ],
+      "practice": "Run a 20 minute derivative drill most evenings covering power, product, quotient and chain rules, and log any rule that misfires under speed."
     },
     "week_9_14": {
       "title": "Weeks 9-14: Implicit, Inverse and the First Applications",
@@ -107,7 +109,8 @@
       "projects": [
         "Related-rates case set: five classic setups from picture to answer",
         "Phase checkpoint: timed AB-style mixed section with full review"
-      ]
+      ],
+      "practice": "Solve six related rates problems, starting each with a labeled picture, plus a short implicit differentiation set with every step written out."
     }
   },
   "phase_2_integrals": {
@@ -127,7 +130,8 @@
       "projects": [
         "Full f-f'-f'' graph-relationship FRQ solved and self-graded on the rubric",
         "Optimization mini-case portfolio: fence, box, cost, distance"
-      ]
+      ],
+      "practice": "Complete two past style curve analysis FRQs using exact MVT and extrema justification language, then self grade against the rubric."
     },
     "week_20_24": {
       "title": "Weeks 20-24: The Integral as Accumulation + the FTC",
@@ -143,7 +147,8 @@
       "projects": [
         "Riemann-to-FTC investigation: watching sums converge",
         "Accumulation FRQ set against real rubrics"
-      ]
+      ],
+      "practice": "Work a Riemann sum table set by hand, then a substitution drill, and explain the Fundamental Theorem in your own words at the top of the page."
     },
     "week_25_28": {
       "title": "Weeks 25-28: Applications of Integrals + Differential Equations",
@@ -159,7 +164,8 @@
       "projects": [
         "Volume gallery: one solid each way, from sketch to setup to answer",
         "AB mock exam number one with documented score"
-      ]
+      ],
+      "practice": "Set up and solve three area and volume problems, drawing each region first, plus one separable differential equation with a slope field sketch."
     }
   },
   "phase_3_bc_and_exam": {
@@ -179,7 +185,8 @@
       "projects": [
         "Series convergence decision-tree card, built by the student",
         "Parametric motion mini-case (BC) / AB mixed mock section (AB)"
-      ]
+      ],
+      "practice": "Apply the convergence decision tree to ten mixed series (or work the AB deep review set), noting which test you chose and why for each."
     },
     "week_34_37": {
       "title": "Weeks 34-37: FRQ Rubric Mastery and Calculator Strategy",
@@ -195,7 +202,8 @@
       "projects": [
         "Self-graded FRQ portfolio: one of each archetype against real rubrics",
         "Personal pacing plan for all four exam sections"
-      ]
+      ],
+      "practice": "Grade two of your own completed FRQs point by point against the released rubric and rewrite any justification that would not earn credit."
     },
     "week_38_40": {
       "title": "Weeks 38-40: Full Mock Cycles and Peak Week",
@@ -210,7 +218,8 @@
       "projects": [
         "Two full mock cycles with documented score progression",
         "Written exam-day plan, rehearsed before the real morning"
-      ]
+      ],
+      "practice": "Sit one full length timed mock this week and close your error log so every recurring mistake has a written, named fix."
     }
   },
   "faqs": [

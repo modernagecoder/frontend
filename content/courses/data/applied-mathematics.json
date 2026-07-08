@@ -1525,6 +1525,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What does this applied mathematics program cover?",
+      "answer": "It is a 24 month program in the mathematics that powers modern applied work: statistics and probability, linear algebra, statistical inference, regression and classification, optimization and neural network mathematics, then Bayesian methods, deep learning theory, time series and causal inference, closing with big data methods, experimental design and a research phase. Everything is taught against real datasets and applications, not as abstract theory."
+    },
+    {
+      "question": "Who should take this course?",
+      "answer": "Students and professionals who want the mathematical engine behind data science and AI: aspiring data scientists and analysts, engineers moving into machine learning, and researchers who need rigorous statistics. Beginners are welcome; the sequence assumes only high school algebra."
+    },
+    {
+      "question": "How much maths or programming do I need to start?",
+      "answer": "High school algebra is enough. Basic statistics and some Python or R help but are not required, and no prior statistics knowledge is assumed. The software and platforms used in the course are provided."
+    },
+    {
+      "question": "How do I know I am progressing?",
+      "answer": "Each topic pairs theory with an applied exercise on real data, phases close with assessments, and your mentor tracks a portfolio of completed analyses and models. By phase 2 you are running full regression and classification workflows, which is a very concrete milestone."
+    },
+    {
+      "question": "How is this different from a data science bootcamp?",
+      "answer": "Bootcamps teach tools; this program teaches the mathematics that makes the tools make sense, which is what separates people who can tune a model from people who can only run one. You still work hands-on with datasets throughout, but the emphasis is on understanding why methods work and when they fail."
+    },
+    {
+      "question": "What does the program cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly, ₹2,499 per month for a mini batch, and ₹4,999 per month for dedicated 1-on-1 mentorship. Outside India, the premium maths track is $100 per month for group and $150 per month for 1-on-1."
+    },
+    {
+      "question": "Is there a way to try before enrolling?",
+      "answer": "Yes, book a free demo class at learn.modernagecoders.com/contact; there is no commitment, and it doubles as a placement conversation about your goals and starting level. WhatsApp +91 91233 66161 works too."
+    },
+    {
+      "question": "What is the teaching format?",
+      "answer": "Live one hour online classes with a real teacher, never pre-recorded lectures. Classes are small and interactive, so derivations are worked with you, not at you."
+    },
+    {
+      "question": "Is there a certificate?",
+      "answer": "You earn a completion certificate plus a documented portfolio of the statistical analyses, models and projects you built during the program, which serves as working evidence of your skills."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: Statistical analysis dashboards, EDA tools, Probability simulators, PCA implementations",

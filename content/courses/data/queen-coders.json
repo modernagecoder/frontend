@@ -29,8 +29,7 @@
     "level": "Intermediate Developer to Tech Leader/Architect",
     "commitment": "15-20 hours/week recommended",
     "certification": "Queen Coders Tech Leadership Certification - Industry Elite",
-  "image_path": "queen-coders.png"
- 
+    "image_path": "queen-coders.png"
   },
   "program_overview": {
     "title": "Queen Coders - Where Women Tech Leaders Are Born",
@@ -1633,5 +1632,43 @@
     "mentorship": "C-level mentor matching",
     "certificate": "Elite industry certification",
     "portfolio": "Enterprise portfolio of projects"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What does the Queen Coders program cover?",
+      "answer": "This is an advanced 1-year program for women who already code: system design, security, cloud architecture, AI/ML and blockchain specializations, microservices, technical leadership, and entrepreneurship. The year ends with production-grade projects and a leadership portfolio rather than beginner exercises."
+    },
+    {
+      "question": "Who is Queen Coders for, and what experience is required?",
+      "answer": "It is built for women with around 2 or more years of programming experience: developers aiming for senior, architect, or leadership roles, and founders building tech products. It is an adult program and not suitable for children; complete beginners should start with our Princess Coders track instead."
+    },
+    {
+      "question": "Why a women-only advanced program?",
+      "answer": "Fewer women reach senior engineering and architecture roles, and that gap is rarely about ability. Queen Coders concentrates on exactly the skills that unlock those rooms, system design, strategy, and leadership, practiced inside a network of ambitious women who push each other forward."
+    },
+    {
+      "question": "How much time does the program demand?",
+      "answer": "Plan for 15 to 20 hours a week including live classes and project work. The pace is intentionally rigorous because the outcome is a leadership-grade portfolio: production applications, architecture case studies, and a capstone you can defend in any technical discussion."
+    },
+    {
+      "question": "What does the program lead to?",
+      "answer": "Graduates finish with production-grade projects, architecture experience, and leadership training aimed at senior engineering, tech lead, and founder paths. You also remain part of the Queen Coders network of women in tech after graduation."
+    },
+    {
+      "question": "What does the program cost?",
+      "answer": "Group cohorts are ₹1,499 per month with 2 live classes a week and a 10-student cap, mini batches of 3-4 are ₹2,499 per month, and 1-on-1 mentorship with 2 private sessions weekly is ₹4,999 per month. International participants pay $40 per month for group or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can I experience a class before enrolling?",
+      "answer": "Yes, book a free demo class at learn.modernagecoders.com/contact with no commitment. It is a live session, so you can gauge the level, meet the instructor, and decide whether the program matches your goals."
+    },
+    {
+      "question": "What is the teaching format?",
+      "answer": "Live 1-hour online classes with a real instructor, never pre-recorded content. Cohorts are deliberately small and discussion-heavy, closer to an architecture review than a lecture."
+    },
+    {
+      "question": "Is there certification at the end?",
+      "answer": "Yes, graduates earn the Queen Coders Tech Leadership certification. The stronger credential, though, is the portfolio: production-grade applications and architecture work you can walk through in any senior-level conversation."
+    }
+  ]
 }

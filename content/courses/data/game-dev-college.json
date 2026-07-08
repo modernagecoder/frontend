@@ -1179,5 +1179,43 @@
     "mentorship": "Industry mentor throughout journey",
     "certificate": "Industry-recognized certification",
     "portfolio": "Commercial-quality game portfolio"
-  }
+  },
+  "faqs": [
+    {
+      "question": "Which game engines does the course teach?",
+      "answer": "Both industry leaders: Unity with C# for the first half, covering 2D and 3D development, and Unreal Engine with C++ in the advanced phase. Learning both makes you far more employable than knowing one, and you finish knowing which engine suits which kind of project."
+    },
+    {
+      "question": "Do I need to know programming before joining?",
+      "answer": "No, programming is taught from scratch inside the course, starting with C# in Unity. What you do need is a reasonable PC: 8GB RAM minimum with a dedicated GPU recommended, since game engines are heavier than normal coding tools."
+    },
+    {
+      "question": "What games will I actually make?",
+      "answer": "You build complete, playable games across the year: 2D games in the foundation phase, 3D games as your Unity skills deepen, Unreal Engine projects in months 7 to 9, and multiplayer work plus a polished portfolio piece in the final phase, including preparing a game for platforms like Steam."
+    },
+    {
+      "question": "Is game development a realistic career from here?",
+      "answer": "The skills are real and transferable: C#, C++, 3D mathematics and engine experience apply to games, simulation, AR/VR and beyond. You finish with playable projects in a portfolio, which is how studios evaluate juniors. We are honest that game industry hiring is competitive and we make no job guarantees; we give you work worth showing."
+    },
+    {
+      "question": "How is this better than learning Unity from YouTube?",
+      "answer": "Tutorial code works until you change anything; then you are alone. A live mentor reviews your project architecture, debugs with you, explains why your physics or performance broke, and keeps you finishing games instead of abandoning them, which is the most common way self-taught game developers stall."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Group classes with 2 live sessions a week are ₹1,499 per month in India, a mini batch of 3-4 students is ₹2,499 per month, and personal 1-on-1 mentorship with 2 private classes a week is ₹4,999 per month. International students pay $40 per month for group classes or $100 per month for 1-on-1, and everyone starts with a free demo class."
+    },
+    {
+      "question": "Can I sit in a class before paying?",
+      "answer": "Yes, the first step for every student is a free live demo class, booked at learn.modernagecoders.com/contact with no commitment. You meet the instructor and see how a live game development session runs before any payment."
+    },
+    {
+      "question": "How are classes run?",
+      "answer": "Live 1-hour online sessions with an instructor, never pre-recorded content. You work in the engine during class with the mentor watching and correcting, and evening and weekend slots keep the course workable alongside college."
+    },
+    {
+      "question": "Do I receive a certificate?",
+      "answer": "Yes, a game developer completion certificate, but the portfolio matters more: you leave with playable games and a GitHub-ready body of work, which is what studios and clients ask to see first."
+    }
+  ]
 }

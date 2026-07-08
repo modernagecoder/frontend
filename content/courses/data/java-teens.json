@@ -36,7 +36,7 @@
   "program_overview": {
     "title": "Complete Java Programming Masterclass for Teens",
     "tagline": "From 'Hello World' to Building Your Own Apps, Games, and Enterprise Systems",
-    "description": "This isn't just another programming course—it's a complete transformation journey designed specifically for teenagers who want to master Java programming. Starting from absolute zero, you'll learn to think like a programmer, build exciting projects like games and Android apps, and develop the skills needed for a successful career in software development.\n\nJava powers everything from Minecraft to Netflix, from Android apps to banking systems. Over 24 months, you'll master not just the language, but the entire ecosystem: desktop applications, web services, mobile apps, game development, and enterprise systems. With teen-friendly explanations, exciting projects, and real-world applications, you'll be building production-ready software long before graduation.",
+    "description": "This isn't just another programming course, it's a complete transformation journey designed specifically for teenagers who want to master Java programming. Starting from absolute zero, you'll learn to think like a programmer, build exciting projects like games and Android apps, and develop the skills needed for a successful career in software development.\n\nJava powers everything from Minecraft to Netflix, from Android apps to banking systems. Over 24 months, you'll master not just the language, but the entire ecosystem: desktop applications, web services, mobile apps, game development, and enterprise systems. With teen-friendly explanations, exciting projects, and real-world applications, you'll be building production-ready software long before graduation.",
     "what_makes_this_different": [
       "Designed specifically for teenage learners with engaging, relatable content",
       "Start from absolute zero - no math or coding background needed",
@@ -1699,5 +1699,43 @@
     "mentorship": "Dedicated mentor throughout the journey",
     "certificate": "Industry-recognized certification",
     "portfolio": "Production-ready portfolio by completion"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What will my teen build while learning Java?",
+      "answer": "The 2-year path goes from first console programs to desktop applications with JavaFX, data structures and algorithms, web services, database-backed systems, and Android apps in the final phase. Java is the language behind Minecraft, Android, and large banking systems, and the projects reflect that range."
+    },
+    {
+      "question": "Who should take this course, and is experience needed?",
+      "answer": "It suits motivated teenagers 13 and up, including complete beginners; the course starts from zero. It is also a natural fit for students whose school boards teach Java, such as ICSE and ISC, since class work and school work reinforce each other."
+    },
+    {
+      "question": "Should my teen learn Java or Python first?",
+      "answer": "Both are excellent first languages. Java's structure and strong typing teach disciplined thinking that transfers everywhere, it is the base of Android development, and several school curricula require it. If your teen's school teaches Java or they dream of building Android apps, this course is the better starting point."
+    },
+    {
+      "question": "Is any paid software required?",
+      "answer": "No. The Java Development Kit and the editor used in class are free, and a standard computer with an internet connection handles the entire course."
+    },
+    {
+      "question": "What are the next steps after this masterclass?",
+      "answer": "The later phases already include Android development and enterprise topics, so graduates can go deeper with our data structures and algorithms course for competitive programming and interviews, or broaden into full stack web development. The 2-year portfolio of Java projects becomes the anchor for whichever direction they choose."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes run ₹1,499 per month with 2 live classes each week and a maximum batch size of 10. A mini batch of 3-4 students is ₹2,499 per month, and dedicated 1-on-1 classes with 2 private sessions weekly cost ₹4,999 per month. Students outside India pay $40 per month for group classes or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can we book a demo class?",
+      "answer": "Yes, demo classes are free and carry no commitment; reserve one at learn.modernagecoders.com/contact. Parents can sit in, and we hold a 4.9 star rating from 547+ Google reviews if you would like to read what other families say first."
+    },
+    {
+      "question": "Is the teaching live or recorded?",
+      "answer": "Every class is live: a 1-hour online session where a real teacher works with a small group, never a pre-recorded video. Students code along in class and get corrections on the spot, which is especially important in Java's early learning curve."
+    },
+    {
+      "question": "Is there a certificate on completion?",
+      "answer": "Yes, students earn a Java developer completion certificate. It comes with a portfolio of working projects, from games and desktop apps to Android work, that demonstrates the skill behind the paper."
+    }
+  ]
 }

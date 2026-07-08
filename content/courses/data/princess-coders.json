@@ -29,13 +29,12 @@
     "level": "Complete Beginner to Advanced Developer",
     "commitment": "10-15 hours/week recommended",
     "certification": "Princess Coders Certified Developer - Industry Recognized",
-  "image_path": "princess-coders.png"
-  
+    "image_path": "princess-coders.png"
   },
   "program_overview": {
     "title": "Princess Coders - Empowering Girls Through Technology",
     "tagline": "From 'Hello World' to Leading the Tech World - A Journey Designed for Girls",
-    "description": "Princess Coders is more than a coding course—it's a transformative journey designed exclusively for girls and women of all ages. Whether you're a young girl dreaming of creating games, a teenager wanting to build apps, or a woman seeking a career change, this program provides a safe, supportive, and empowering environment to master coding.\n\nWith age-appropriate tracks, female role models, girl-centric projects, and a supportive sisterhood community, you'll learn everything from creative web design to powerful app development, from AI basics to entrepreneurship in tech.",
+    "description": "Princess Coders is more than a coding course, it's a transformative journey designed exclusively for girls and women of all ages. Whether you're a young girl dreaming of creating games, a teenager wanting to build apps, or a woman seeking a career change, this program provides a safe, supportive, and empowering environment to master coding.\n\nWith age-appropriate tracks, female role models, girl-centric projects, and a supportive sisterhood community, you'll learn everything from creative web design to powerful app development, from AI basics to entrepreneurship in tech.",
     "what_makes_this_different": [
       "Exclusively designed for girls with female instructors and mentors",
       "Age-appropriate tracks: Princess Junior (8-12), Teen Techies (13-17), Women Warriors (18+)",
@@ -1626,5 +1625,43 @@
     "mentorship": "Female industry mentors throughout",
     "certificate": "Industry-recognized certification",
     "portfolio": "Professional portfolio upon completion"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What does the Princess Coders program teach?",
+      "answer": "It is a full 1-year coding journey for girls: web foundations with HTML, CSS, and JavaScript, modern frontend development with React, backend and database skills, and a final phase of professional projects and portfolio building. Girls graduate having built real websites and applications from start to finish."
+    },
+    {
+      "question": "Why a girls-only coding program?",
+      "answer": "In many mixed classes, girls quietly stop raising their hands; a class of girls, taught with female mentors and role models, simply removes that pressure. The goal is not to make coding different for girls; it is to give them the same room to be curious, make mistakes, and lead. What we care about is confidence backed by real skill."
+    },
+    {
+      "question": "What ages can join, and how are levels handled?",
+      "answer": "The program runs age-appropriate tracks: Princess Junior for girls 8 to 12, a teen track for 13 to 17, and an adult track for women 18 and up. Each track follows the same curriculum spine with projects and pacing matched to the age group."
+    },
+    {
+      "question": "Does my daughter need experience or paid software?",
+      "answer": "No experience is needed; the course starts from the first line of HTML. All tools used are free, a browser and a free code editor cover the whole first phase, and a regular laptop is sufficient (tablets work for the youngest learners in the early months)."
+    },
+    {
+      "question": "What comes after Princess Coders?",
+      "answer": "Graduates are prepared for our advanced tracks, including Queen Coders, our leadership-focused program for women who already code. Many students also branch into our Python, AI, or full stack courses to build a specialization."
+    },
+    {
+      "question": "What are the fees for this program?",
+      "answer": "Group classes cost ₹1,499 per month (2 live classes weekly, batches capped at 10 students), mini batches of 3-4 students are ₹2,499 per month, and personal 1-on-1 mentoring with 2 private classes a week is ₹4,999 per month. Students joining from outside India pay $40 per month for group or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Is there a free demo before we decide?",
+      "answer": "Yes, every student begins with a free demo class booked at learn.modernagecoders.com/contact, with no commitment required. Parents are welcome to sit in, and you can message us on WhatsApp at +91 91233 66161 to help choose the right track first."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "All classes are live 1-hour online sessions with a real teacher; nothing is pre-recorded. Groups stay small and conversational, which matters here: the class is designed to be a place where every girl talks, asks, and builds."
+    },
+    {
+      "question": "Do students earn a certificate?",
+      "answer": "Yes, graduates receive the Princess Coders completion certificate. They also finish with a portfolio of real websites and applications, tangible proof of skill they can show schools, employers, or family."
+    }
+  ]
 }

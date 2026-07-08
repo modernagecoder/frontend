@@ -75,7 +75,8 @@
       "projects": [
         "Personal score map: your exact domains, question types and target",
         "First timed mini-module under real Digital SAT pacing"
-      ]
+      ],
+      "practice": "Complete one timed linear equations mini set, log every miss in your error log as content, speed or careless, and redo the misses untimed."
     },
     "week_3_4": {
       "title": "Weeks 3-4: Systems and Inequalities",
@@ -91,7 +92,8 @@
       "projects": [
         "Break-even mini-case solved by equation, table and graph",
         "Error-log review: your system-question mistakes classified and closed"
-      ]
+      ],
+      "practice": "Work a 15 question systems and inequalities set, solving at least five by Desmos intersection, and file each error in your log with its fix."
     },
     "week_5_6": {
       "title": "Weeks 5-6: Functions as Machines",
@@ -107,7 +109,8 @@
       "projects": [
         "Function-transformation exploration built live in Desmos",
         "Mixed timed set: algebra domain at full pace"
-      ]
+      ],
+      "practice": "Finish a mixed function notation problem set, then rebuild two missed questions in Desmos to see what the graph was telling you."
     },
     "week_7_8": {
       "title": "Weeks 7-8: Algebra Domain Checkpoint",
@@ -122,7 +125,8 @@
       "projects": [
         "Algebra checkpoint mock + personal pacing plan v1",
         "Updated error log with closed vs open gap list"
-      ]
+      ],
+      "practice": "Take one timed algebra domain section and write a one line cause and correction for every dropped point before the review class."
     }
   },
   "phase_2_advanced_math": {
@@ -142,7 +146,8 @@
       "projects": [
         "Projectile/revenue modeling mini-case solved by vertex reasoning",
         "Timed hard-module quadratic set with full review"
-      ]
+      ],
+      "practice": "Drill a 12 question hard module quadratic set, solving each question twice: once by algebra and once by the fastest Desmos route."
     },
     "week_12_14": {
       "title": "Weeks 12-14: Exponential Growth, Polynomials and Rational Expressions",
@@ -158,7 +163,8 @@
       "projects": [
         "Growth-model comparison case: same data, linear vs exponential fits",
         "Advanced Math domain checkpoint under timing"
-      ]
+      ],
+      "practice": "Complete a percent growth and decay problem set plus five isolate the variable questions, keeping each layup question under a minute."
     },
     "week_15_18": {
       "title": "Weeks 15-18: Problem-Solving & Data Analysis",
@@ -176,7 +182,8 @@
       "projects": [
         "Data-interpretation sprint: 20 real chart questions under time",
         "Full mixed-domain mock: first complete Digital SAT math section"
-      ]
+      ],
+      "practice": "Run a 20 question ratio, percent and data interpretation sprint under time and classify every miss before class."
     }
   },
   "phase_3_test_mastery": {
@@ -196,7 +203,8 @@
       "projects": [
         "Geometry domain checkpoint under timing",
         "Personal formula-and-recognition sheet, built not copied"
-      ]
+      ],
+      "practice": "Finish a geometry domain set using your own recognition sheet wherever possible, starring any formula you still had to look up."
     },
     "week_21_23": {
       "title": "Weeks 21-23: Adaptive Strategy and Desmos Mastery",
@@ -212,7 +220,8 @@
       "projects": [
         "Desmos speed drills: 15 questions where the calculator wins",
         "Strategy card: your personal decision rules for module 2"
-      ]
+      ],
+      "practice": "Do the 15 question Desmos speed drill, record your per question times and flag anything over 90 seconds for strategy review."
     },
     "week_24_26": {
       "title": "Weeks 24-26: Full Mock Cycles and Peak Week",
@@ -227,7 +236,8 @@
       "projects": [
         "Two to three full mock cycles with documented score progression",
         "Written test-day plan, rehearsed twice before the real thing"
-      ]
+      ],
+      "practice": "Sit one full adaptive mock under exact timing this week and bring the question by question review with your named fixes."
     }
   },
   "faqs": [

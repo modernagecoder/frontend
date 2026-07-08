@@ -1110,6 +1110,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What does the Middle School Mathematics program cover?",
+      "answer": "The 12 month program builds in four phases: number systems and operations; fractions, decimals, percentages and ratios; pre-algebra with equations, functions and graphing; and finally geometry, statistics, probability and multi-step problem solving. The aim is to make the middle school years the strongest part of a child's maths story."
+    },
+    {
+      "question": "Who is this course right for?",
+      "answer": "Students in the middle school years, both children who find maths shaky and need fundamentals rebuilt patiently, and confident students who want to move ahead of class. A gentle diagnostic in the first weeks means each child starts where their actual understanding is, not where their grade label says."
+    },
+    {
+      "question": "What does my child need before joining?",
+      "answer": "Just completed elementary school mathematics, a computer or tablet with internet, and a calculator. No coding background is needed, and grade level reading is enough to follow the classes comfortably."
+    },
+    {
+      "question": "Will this help with school exams and word problems?",
+      "answer": "Yes. Word problems and multi-step reasoning are treated as core skills throughout, not an afterthought: children learn to translate situations into maths before computing. Because the course teaches the concepts under every school syllabus, the work transfers directly to classroom tests."
+    },
+    {
+      "question": "How is progress measured?",
+      "answer": "Through weekly practice reviewed for method, phase-end checks before new material begins, and a running mastery record shared with parents. The final month includes projects and a comprehensive review, so you finish with visible evidence of what your child can now do."
+    },
+    {
+      "question": "How much does it cost?",
+      "answer": "₹1,499 per month for group classes with 2 classes each week, ₹2,499 per month for a mini batch, and ₹4,999 per month for personal 1-on-1 classes. International families join the premium maths track at $100 per month for group or $150 per month for 1-on-1."
+    },
+    {
+      "question": "Can my child attend a class before we decide?",
+      "answer": "Of course. The first step for every family is a free demo class, booked at learn.modernagecoders.com/contact with no commitment, where your child meets the teacher and we assess the right starting point together. You can also WhatsApp us at +91 91233 66161."
+    },
+    {
+      "question": "What is the class format?",
+      "answer": "Live one hour online classes with a real teacher, never pre-recorded videos. Groups stay small so quieter children get airtime too, and every child solves problems aloud during class rather than just watching."
+    },
+    {
+      "question": "Does my child receive a certificate?",
+      "answer": "Yes, the Middle School Mathematics Excellence Certificate on completion, plus a record of the projects and problem work done across the year. Modern Age Coders holds a 4.9 star rating from 547+ Google reviews."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: Number System Timeline, Budget Planner, Factor Tree Art, Problem-Solving Portfolio",

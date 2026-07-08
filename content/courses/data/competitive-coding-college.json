@@ -2001,5 +2001,43 @@
     "mentorship": "Red coder mentorship",
     "certificate": "Industry-recognized certification",
     "portfolio": "Complete competitive programming portfolio"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What do I need to know before joining?",
+      "answer": "You should be able to write simple programs: loops, conditions and functions in any language. C++ and the STL are taught from the first weeks of the course, so prior C++ experience is not required. If you have never programmed at all, a basic programming course first will make this one far more productive."
+    },
+    {
+      "question": "Which contests and platforms does the course train for?",
+      "answer": "Training is built around Codeforces, with regular practice on CodeChef, AtCoder and interview style problem sets. The 6-month track prepares you for ICPC style contests, rating climbs on Codeforces and the timed coding rounds companies use for hiring."
+    },
+    {
+      "question": "Why is the course taught in C++?",
+      "answer": "C++ with the STL is the standard language of serious competitive programming: it runs fast enough for strict time limits and the STL hands you tested data structures like sets, maps and priority queues. You learn modern C++ and STL fluency early, then spend the rest of the course on algorithms and problem solving."
+    },
+    {
+      "question": "Will competitive programming help with placements and interviews?",
+      "answer": "Directly, because online assessments at product companies are essentially contest problems with a timer. Over 6 months you solve timed problems across dynamic programming, graphs, greedy and more, which is exactly what those rounds test. We do not guarantee a rating or a job offer; we train the skill honestly and you can watch your contest graph move."
+    },
+    {
+      "question": "I already practice on my own. What does a live course add?",
+      "answer": "Solo practice plateaus because nobody shows you the pattern you missed. In live classes a mentor upsolves contests with you, compares your submission against the intended solution, assigns problems at the edge of your current level and reviews your code for speed and cleanliness. That guided loop is what moves ratings."
+    },
+    {
+      "question": "How much does it cost?",
+      "answer": "Group batches (maximum 10 students, 2 classes a week) are ₹1,499 per month in India, mini batches of 3 to 4 students are ₹2,499 per month, and 1-on-1 coaching with 2 private classes a week is ₹4,999 per month. Outside India the rates are $40 per month for group and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Is there a trial class?",
+      "answer": "Yes, your first class is a free live demo with zero commitment, booked at learn.modernagecoders.com/contact. We hold a 4.9 star rating across 547+ Google reviews, and the demo is your chance to judge the teaching for yourself."
+    },
+    {
+      "question": "What is the class format?",
+      "answer": "All sessions are live 1-hour online classes with an instructor; nothing is pre-recorded. You solve problems during class, discuss approaches and get immediate feedback, with evening and weekend slots that fit around college schedules and semester exams."
+    },
+    {
+      "question": "Is there a certificate?",
+      "answer": "You get a completion certificate at the end of the program. Alongside it you will have a public contest profile and a GitHub-ready record of solved problems and implementations, which speaks louder than any certificate in coding interviews."
+    }
+  ]
 }

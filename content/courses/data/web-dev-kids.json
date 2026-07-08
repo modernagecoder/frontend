@@ -34,7 +34,7 @@
   "program_overview": {
     "title": "Kids AI Web Development Masterclass",
     "tagline": "From First Click to AI-Powered Websites in Just 1 Year!",
-    "description": "Welcome to the most exciting coding adventure designed specifically for young minds! This isn't just learning to code—it's a journey into the future of technology. Whether you're 8 or 18, this program will transform you from someone who uses websites to someone who creates them.\n\nYou'll start with colorful, fun HTML pages and gradually master beautiful CSS designs. Then, you'll discover the magic of AI tools like ChatGPT, Claude, and GitHub Copilot to supercharge your coding. By the end, you'll have built 30+ amazing projects including games, interactive stories, and professional websites—all with the help of AI!",
+    "description": "Welcome to the most exciting coding adventure designed specifically for young minds! This isn't just learning to code, it's a journey into the future of technology. Whether you're 8 or 18, this program will transform you from someone who uses websites to someone who creates them.\n\nYou'll start with colorful, fun HTML pages and gradually master beautiful CSS designs. Then, you'll discover the magic of AI tools like ChatGPT, Claude, and GitHub Copilot to supercharge your coding. By the end, you'll have built 30+ amazing projects including games, interactive stories, and professional websites, all with the help of AI!",
     "what_makes_this_different": [
       "Designed specifically for young learners with fun, engaging content",
       "Uses AI tools from day one to make coding easier and more exciting",
@@ -43,7 +43,7 @@
       "Learn future-ready skills combining coding with AI",
       "Parent-friendly progress tracking and safe online environment",
       "Creative projects like games, animations, and interactive stories",
-      "No boring theory—everything is hands-on and visual"
+      "No boring theory, everything is hands-on and visual"
     ],
     "learning_path": {
       "phase_1": "Foundation (Months 1-3): HTML Basics, First Websites, Introduction to AI Helpers",
@@ -71,7 +71,7 @@
           "Meeting your AI coding friends: ChatGPT and Claude",
           "Setting up your coding playground: VS Code with fun themes",
           "Installing colorful extensions and emoji support",
-          "Your first HTML file: Hello World with emojis! 🎉",
+          "Your first HTML file: Hello World with emojis!",
           "Understanding tags: like LEGO blocks for websites",
           "Creating a personal 'About Me' page",
           "Using AI to generate HTML code ideas",
@@ -1225,28 +1225,40 @@
   },
   "faqs": [
     {
-      "question": "What age is appropriate for this web development course for kids?",
-      "answer": "This course is designed for children ages 8-18. Younger kids (8-12) start with visual, fun HTML projects with parental guidance, while teens can progress faster into JavaScript and advanced topics. Our teaching approach is tailored for young minds with engaging, game-like learning."
+      "question": "What will my child build in this web development course?",
+      "answer": "Students create 30+ real projects over the year: colorful first HTML pages, styled CSS designs, responsive layouts, interactive JavaScript features, and finally complete professional websites for a graduation portfolio. Every project is a real website they can share with family and friends."
     },
     {
-      "question": "Does my child need prior coding experience?",
-      "answer": "No prior experience needed! We start from absolute zero - even kids who've never seen code before can begin. The course uses colorful, engaging examples and AI assistants to make learning easy and fun. Many of our best students started with no tech background at all."
+      "question": "How are AI tools used in the course?",
+      "answer": "Children learn to use tools like ChatGPT, Claude, and GitHub Copilot as coding assistants: to explain concepts, suggest improvements, and help debug. We teach AI as a helper for understanding, never a shortcut that replaces learning to write HTML, CSS, and JavaScript themselves."
     },
     {
-      "question": "How is AI used in this web development course?",
-      "answer": "AI tools like ChatGPT, Claude, and GitHub Copilot are integrated throughout to help kids code faster, debug problems, and learn concepts. Kids learn to use AI as a helpful assistant, not a replacement for learning. This prepares them for the AI-powered future of development."
+      "question": "What age is right for this course, and is experience needed?",
+      "answer": "The course welcomes complete beginners aged 8 to 18; no coding experience is needed, only basic reading and typing. Younger children begin with visual, playful HTML and CSS projects, while teens move faster into JavaScript and the AI-assisted development phases."
     },
     {
-      "question": "What websites will my child be able to build after this course?",
-      "answer": "Students build 30+ projects including personal portfolios, games, interactive stories, quizzes, blogs, and even professional-looking business websites. All projects are real websites they can share with friends and family, building confidence and a portfolio for future opportunities."
+      "question": "What software or equipment is required?",
+      "answer": "A normal computer or laptop with internet access is enough. All the software used, including the VS Code editor and the AI tools introduced in class, is free, and we help students set everything up in the early lessons."
     },
     {
-      "question": "Is web development a good skill for my child's future?",
-      "answer": "Absolutely! Web development is one of the most in-demand skills globally. Beyond careers, it teaches problem-solving, creativity, and logical thinking. Many tech leaders started coding as kids, and early exposure to web development opens doors to countless opportunities in tech and beyond."
+      "question": "What can my child learn after finishing this course?",
+      "answer": "The natural next step is our full stack development track, where students add JavaScript frameworks, backend programming, and databases to build complete applications. Others branch into Python or AI courses; the HTML, CSS, and JavaScript learned here is the foundation for all of it."
     },
     {
-      "question": "What equipment does my child need for this course?",
-      "answer": "A basic computer or laptop with internet access is all that's needed. We use free software like VS Code and free AI tools. A mouse is recommended for younger kids. Parents can set up accounts together with children, and all tools are safe and kid-friendly."
+      "question": "How is the course priced?",
+      "answer": "Group learning costs ₹1,499 per month for 2 live classes a week with no more than 10 kids per batch. A mini batch of 3-4 children is ₹2,499 per month, and 1-on-1 personal classes with 2 private sessions weekly cost ₹4,999 per month. Families outside India pay $40 per month for group classes and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can we see a class before paying anything?",
+      "answer": "Yes. Book a free demo class at learn.modernagecoders.com/contact; there is no commitment, and parents are encouraged to sit in so they can judge the teaching quality firsthand."
+    },
+    {
+      "question": "Are lessons live or video-based?",
+      "answer": "Every lesson is a live, interactive 1-hour online class with a real teacher, never a pre-recorded video. Because groups are small, the teacher sees each child's code and helps immediately when someone is stuck."
+    },
+    {
+      "question": "Is there a certificate when the course ends?",
+      "answer": "Yes, graduates receive a Young Web Developer completion certificate. Even more useful is the portfolio of 30+ real websites they build along the way, which they can show to anyone with a link."
     }
   ],
   "related_courses": [

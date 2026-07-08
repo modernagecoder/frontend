@@ -1577,5 +1577,43 @@
     "career_switch": "Support until you successfully switch careers (extended support)",
     "skill_guarantee": "Master Python or continue learning free until you do",
     "refund_policy": "If not satisfied in first month, full refund guaranteed"
-  }
+  },
+  "faqs": [
+    {
+      "question": "I have never coded before. Can I really start here?",
+      "answer": "Yes, the course is built for absolute beginners: phase 1 teaches programming logic and Python fundamentals from zero. The 12-month runway is exactly why beginners succeed here; there is time to build foundations properly before web development, data science and machine learning arrive in later phases."
+    },
+    {
+      "question": "What will I build across the 12 months?",
+      "answer": "Dozens of real projects: command line tools and automation scripts early on, then algorithm work, file and data handling, web applications with Django and Flask, REST APIs, database-backed apps, and finally data science and machine learning projects. Everything lands in your GitHub portfolio as you go."
+    },
+    {
+      "question": "Which Python version and libraries do you teach?",
+      "answer": "Current Python 3 throughout, with the libraries working developers use: Django and Flask for the web, pandas for data work, and standard tooling for testing and automation. The material tracks the current ecosystem, so what you practice is what companies run."
+    },
+    {
+      "question": "How does this help with internships and placements?",
+      "answer": "Python is one of the most in-demand generalist languages, used across web development, data, automation and AI roles. You finish with a year of projects, code review experience and interview preparation on Python fundamentals and problem solving. No placement promises; the goal is that your skills and portfolio survive real scrutiny."
+    },
+    {
+      "question": "Free Python tutorials are everywhere. Why take a live course?",
+      "answer": "Because watching Python is not writing Python. A live mentor reviews your code every week, untangles your bugs with you, holds you to good habits like clean functions and testing, and keeps you moving when motivation dips, which is where self-learning usually ends. The result is a portfolio of finished projects instead of a half-watched playlist."
+    },
+    {
+      "question": "What does it cost per month?",
+      "answer": "Group classes (max 10 students, 2 live classes a week) cost ₹1,499 per month in India, mini batches of 3 to 4 students cost ₹2,499 per month, and personal 1-on-1 mentorship with 2 private classes a week costs ₹4,999 per month. For international students it is $40 per month for group and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Is there a free trial?",
+      "answer": "Your first class is a free live demo, booked at learn.modernagecoders.com/contact with no commitment. You meet the instructor, write some code, and decide with real information. We hold a 4.9 star rating across 547+ Google reviews."
+    },
+    {
+      "question": "What is the teaching format?",
+      "answer": "Live 1-hour online classes with an instructor, twice a week, never pre-recorded. Classes are interactive, with you coding during the session, and evening and weekend slots are available to fit college timetables and working hours."
+    },
+    {
+      "question": "Will I get a certificate?",
+      "answer": "Yes, a completion certificate at the end of the masterclass, together with a GitHub-ready project portfolio built over the full year. When you apply for internships or jobs, the portfolio does the talking; the certificate rounds it out."
+    }
+  ]
 }

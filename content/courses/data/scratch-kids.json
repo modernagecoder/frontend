@@ -136,7 +136,8 @@
       "challenges": {
         "daily": "Create one unique animation daily",
         "weekly": "Combine all learned blocks in one project"
-      }
+      },
+      "practice": "Make your sprite dance across the stage with move and glide blocks, visiting all four corners using x and y coordinates."
     },
     "week_2": {
       "title": "Looks, Sound, and Interactivity",
@@ -214,7 +215,8 @@
         "Build interactive art piece",
         "Make rhythm-based game",
         "Develop visual effects showcase"
-      ]
+      ],
+      "practice": "Give your sprite a costume change show that uses three graphic effects and plays a sound at each transformation."
     },
     "week_3": {
       "title": "Control Flow and Basic Logic",
@@ -286,7 +288,8 @@
         "Design pattern generator",
         "Make decision tree story",
         "Develop maze solver"
-      ]
+      ],
+      "practice": "Build a guess the door scene where if then else blocks decide what happens behind each of three doors."
     },
     "week_4": {
       "title": "Pen Extension and Creative Drawing",
@@ -357,7 +360,8 @@
           "Sound effects",
           "Increasing difficulty"
         ]
-      }
+      },
+      "practice": "Draw a rainbow spiral with the pen extension by changing the pen color inside a repeat loop."
     }
   },
   "month_2": {
@@ -423,7 +427,8 @@
         "Design achievement system",
         "Make progress bars",
         "Develop difficulty selector"
-      ]
+      ],
+      "practice": "Create a clicker game where a score variable rises with every click and the sprite celebrates at ten points."
     },
     "week_6": {
       "title": "Lists and Data Management",
@@ -484,7 +489,8 @@
         "Design playlist manager",
         "Make tournament bracket",
         "Develop dialogue system"
-      ]
+      ],
+      "practice": "Make a favorites program that stores five favorite foods in a list and says a random one when the space key is pressed."
     },
     "week_7": {
       "title": "Clones and Advanced Game Mechanics",
@@ -545,7 +551,8 @@
         "Design virus spread model",
         "Make chain reaction game",
         "Develop swarm behavior"
-      ]
+      ],
+      "practice": "Build a falling snowflake shower using clones that appear at random x positions and delete themselves at the bottom."
     },
     "week_8": {
       "title": "Broadcast Messages and Multi-Sprite Coordination",
@@ -617,7 +624,8 @@
           "Power-ups and upgrades",
           "Professional polish"
         ]
-      }
+      },
+      "practice": "Create a two scene story where a broadcast message switches the backdrop and cues the next character to speak."
     }
   },
   "month_3": {
@@ -690,7 +698,8 @@
         "Design accessibility features",
         "Make rhythm game with beat detection",
         "Develop augmented reality prototype"
-      ]
+      ],
+      "practice": "Use the Text to Speech extension to make a talking pet that greets you in two different languages."
     },
     "week_10": {
       "title": "Physics and Simulation",
@@ -752,7 +761,8 @@
         "Design domino effect",
         "Make spring mechanics",
         "Develop weather simulation"
-      ]
+      ],
+      "practice": "Give a character a real jump using a velocity variable, gravity and a landing check on a platform."
     },
     "week_11": {
       "title": "Optimization and Professional Polish",
@@ -824,7 +834,8 @@
         "Save/load functionality",
         "Credits screen",
         "Version numbering"
-      ]
+      ],
+      "practice": "Tidy up one of your older projects by adding comments to three scripts and merging any blocks that repeat."
     },
     "week_12": {
       "title": "Final Projects and Portfolio",
@@ -921,7 +932,8 @@
         "Community engagement proof",
         "Peer review participation",
         "Future goals setting"
-      ]
+      ],
+      "practice": "Write a one page plan for your final game with its goal, its sprites and three rules, then build the title screen."
     }
   },
   "additional_resources": {
@@ -1273,5 +1285,43 @@
     "certificate": "Official Scratch Game Developer certification upon completion",
     "transition_support": "Guidance for moving to text-based programming languages",
     "satisfaction": "If not satisfied in first 2 weeks, full refund guaranteed"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What will my child actually create in this Scratch course?",
+      "answer": "Over 3 months your child builds 50+ hands-on projects in Scratch, starting with simple animations and working up to full games with scoring systems, clones, physics, and multi-sprite coordination. Month 1 covers motion, looks, sound, and logic; month 2 adds variables, lists, and game mechanics; month 3 finishes with advanced projects and a personal portfolio."
+    },
+    {
+      "question": "What age is this Scratch course right for?",
+      "answer": "The course is designed for ages 6 to 14 and assumes zero coding experience. All your child needs is basic reading ability to follow on-screen instructions; lessons are visual and hands-on, which suits younger learners especially well."
+    },
+    {
+      "question": "Does my child need any coding background before joining?",
+      "answer": "None at all. Scratch was created by MIT precisely for first-time coders: children snap colorful blocks together instead of typing code, so there is no syntax to memorize. The course starts from the very first block."
+    },
+    {
+      "question": "What software do we need, and does it cost anything?",
+      "answer": "Only Scratch 3.0, which is completely free and runs in the web browser, so there is nothing to install or purchase. A regular computer or laptop with an internet connection is enough."
+    },
+    {
+      "question": "What comes after Scratch?",
+      "answer": "Scratch builds the computational thinking that makes text-based languages far easier later. The course ends with a guided transition path toward typed code, and most students continue into our Python or web development courses when they are ready."
+    },
+    {
+      "question": "How much does the Scratch course cost?",
+      "answer": "Group classes are ₹1,499 per month, which includes 2 live classes every week in a batch of at most 10 children. A mini batch of 3-4 students costs ₹2,499 per month, and personal 1-on-1 coaching with 2 private classes a week is ₹4,999 per month. International students pay $40 per month for group classes or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can we try a free class before enrolling?",
+      "answer": "Yes, every child can take a free demo class first, with no commitment of any kind. Book a slot at learn.modernagecoders.com/contact, and you are welcome to sit in and watch; you can also reach us on WhatsApp at +91 91233 66161 with any questions."
+    },
+    {
+      "question": "Are classes live or pre-recorded?",
+      "answer": "All classes are live 1-hour online sessions taught by a real teacher; we never use pre-recorded videos. Batches are small and interactive, so your child builds projects during class while the teacher watches and helps in real time."
+    },
+    {
+      "question": "Does my child receive a certificate at the end?",
+      "answer": "Yes, students earn a completion certificate when they finish the course. They also leave with a portfolio of real Scratch games and animations, which for most kids is the part they are proudest of."
+    }
+  ]
 }

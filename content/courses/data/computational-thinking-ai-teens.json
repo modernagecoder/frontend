@@ -13,7 +13,7 @@
       "CBSE artificial intelligence subject code 417",
       "CBSE artificial intelligence subject code 843",
       "CBSE AI skill subject",
-      "CBSE AI curriculum 2025-26",
+      "CBSE AI curriculum 2026-27",
       "CBSE AI syllabus class 9",
       "CBSE AI syllabus class 10",
       "CBSE AI syllabus class 11",
@@ -85,7 +85,13 @@
     "commitment": "10-12 hours/week (2-3 live classes + practical + self-study)",
     "certification": "CBSE AI Code 417 & 843 Board Readiness Certification + Industry AI Developer Certification + Verifiable Project Portfolio",
     "image_path": "ct-ai-teens.webp",
-    "boards_covered": ["CBSE AI Code 417 (Class 9-10)", "CBSE AI Code 843 (Class 11-12)", "NCERT Aligned", "ICSE / ISC compatible", "IB / Cambridge CS supplement"],
+    "boards_covered": [
+      "CBSE AI Code 417 (Class 9-10)",
+      "CBSE AI Code 843 (Class 11-12)",
+      "NCERT Aligned",
+      "ICSE / ISC compatible",
+      "IB / Cambridge CS supplement"
+    ],
     "batch_info": "Four dedicated batches — Class 9, Class 10, Class 11, Class 12. Syllabus, pace, practical file, project guidance and board exam preparation are customized per class. Separate batches for CBSE Code 417 (Class 9-10) and Code 843 (Class 11-12).",
     "aligned_with": [
       "CBSE Skill Subject Artificial Intelligence — Code 417 (Class 9 & 10)",
@@ -540,7 +546,7 @@
         "practice": "Daily NLP project"
       },
       "week_20_21": {
-        "title": "Generative AI & Prompt Engineering (2025-26 CBSE emerging topic)",
+        "title": "Generative AI & Prompt Engineering (2026-27 CBSE emerging topic)",
         "topics": [
           "What is Generative AI — GANs, VAEs, Diffusion, Transformers",
           "ChatGPT / GPT-4 / Claude / Gemini — how they work",
@@ -605,7 +611,8 @@
           "Final Class 10 AI capstone project (board-submission quality)",
           "Complete practical file (30+ activities)",
           "Viva readiness with 500+ questions rehearsed"
-        ]
+        ],
+        "practice": "Advance your capstone at home: conduct two stakeholder interviews, log the data you collected and note one ethics safeguard you applied."
       },
       "week_26": {
         "title": "Mock Board Exam + Competition Launch",
@@ -654,7 +661,8 @@
           "AI project directly solving one SDG",
           "SDG impact measurement framework"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 1 — 100%"
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 1 — 100%",
+        "practice": "Pick one UN Sustainable Development Goal, find a real AI project addressing it and write a half page note linking it to Sen's capability approach."
       },
       "week_28": {
         "title": "Communication Skills + AI Review + Python Foundation (CBSE Units 2-3)",
@@ -677,7 +685,8 @@
           "Git-managed group AI project",
           "Technical blog post on an AI topic"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Units 2-3 + extended"
+        "cbse_alignment": "CBSE AI 843 Class 11 Units 2-3 + extended",
+        "practice": "Record a three minute AI demo presentation of any past project, then solve five Python refresher exercises on lists, dicts and functions."
       },
       "week_29_30": {
         "title": "Data Literacy, Data Visualization & Statistical Data (CBSE Unit 4)",
@@ -700,7 +709,8 @@
           "Statistical analysis paper (school topic)",
           "Power BI dashboard for school data"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 4 — 100%"
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 4 — 100%",
+        "practice": "Collect a small primary dataset of at least 20 rows from your class or home, compute mean, median, mode and standard deviation, and plot two charts that tell its story."
       }
     },
     "month_8": {
@@ -727,7 +737,8 @@
           "Deploy an ML model as REST API",
           "Docker-containerized AI app"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 5 — 100%"
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 5 — 100%",
+        "practice": "Recreate the same simple classifier in both scikit-learn and Keras and note two differences in the workflow."
       },
       "week_32_33": {
         "title": "Computer Vision Advanced (CBSE Class 11 Unit 6)",
@@ -750,7 +761,8 @@
           "Attendance system with face recognition",
           "Sign language recognizer"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 6 — 100%"
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 6 — 100%",
+        "practice": "Fine tune a pre-trained CNN on a small image dataset using transfer learning and log its accuracy against your from scratch baseline."
       },
       "week_34": {
         "title": "Machine Learning Algorithms Mastery (CBSE Unit 7)",
@@ -773,7 +785,8 @@
           "Ensemble model for a Sensex prediction",
           "Clustering for Indian consumer segmentation"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 7 — 100%"
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 7 — 100%",
+        "practice": "Train three classifiers, kNN, decision tree and random forest, on one dataset and compare them in a confusion matrix table."
       }
     },
     "month_9": {
@@ -800,7 +813,8 @@
           "Medium blog with 1000+ words AI insights",
           "7-minute TEDx-style AI talk (recorded)"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 11 Unit 8 — 100%"
+        "cbse_alignment": "CBSE AI 843 Class 11 Unit 8 — 100%",
+        "practice": "Turn one of your model results into a three chart data story in Tableau or Power BI with a headline insight above each chart."
       },
       "week_37_38": {
         "title": "Class 11 AI Board Revision + Pre-Board",
@@ -836,7 +850,8 @@
           "Industry-grade capstone project",
           "Competition entries with results",
           "GitHub portfolio with 50+ projects"
-        ]
+        ],
+        "practice": "Polish your capstone README and GitHub portfolio page, then draft one competition submission entry such as Intel AI Youth."
       }
     }
   },
@@ -867,7 +882,8 @@
           "Interview for placement simulation (recorded)",
           "Business Model Canvas for final project"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 12 Employability"
+        "cbse_alignment": "CBSE AI 843 Class 12 Employability",
+        "practice": "Draft a one page personal pitch covering who you are, your best AI project and your goal, then rehearse it aloud twice against a timer."
       },
       "week_41": {
         "title": "Capstone Project (CBSE Class 12 Unit 3) — Official Board Project",
@@ -890,7 +906,8 @@
           "Deployed AI application (public URL)",
           "Complete 30-page report"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 12 Unit 3 — 100%"
+        "cbse_alignment": "CBSE AI 843 Class 12 Unit 3 — 100%",
+        "practice": "Write the official capstone problem scoping document using the 4Ws canvas plus a literature list of at least three sources."
       },
       "week_42_43": {
         "title": "Data Science Advanced + Statistical ML (CBSE Class 12 Unit 4)",
@@ -913,7 +930,8 @@
           "Fraud detection pipeline",
           "MLOps mini-project with monitoring"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 12 Unit 4 — 100%"
+        "cbse_alignment": "CBSE AI 843 Class 12 Unit 4 — 100%",
+        "practice": "Build a time series forecast on a public dataset with ARIMA or Prophet and report one place where the model breaks down."
       }
     },
     "month_11": {
@@ -940,7 +958,8 @@
           "Stock price LSTM predictor",
           "Speech command recognizer"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 12 Unit 5 — 100% + industry extension"
+        "cbse_alignment": "CBSE AI 843 Class 12 Unit 5 — 100% + industry extension",
+        "practice": "Train the same network twice, with and without dropout and batch normalization, and chart how the validation curves differ."
       },
       "week_46_47": {
         "title": "Transformers, LLMs & Modern AI (CBSE Class 12 Unit 6 extended)",
@@ -963,7 +982,8 @@
           "RAG chatbot on personal knowledge base",
           "Multimodal AI app (image + text)"
         ],
-        "cbse_alignment": "CBSE AI 843 Class 12 extended + 2026 curriculum update"
+        "cbse_alignment": "CBSE AI 843 Class 12 extended + 2026 curriculum update",
+        "practice": "Run a small experiment comparing zero shot and few shot prompts on the same task across two LLMs, and tabulate the results."
       }
     },
     "month_12": {
@@ -1006,7 +1026,8 @@
           "Final Board-Ready Certificate",
           "All practical file + capstone submitted",
           "100% viva-voice readiness"
-        ]
+        ],
+        "practice": "Answer 20 questions from the viva bank aloud under exam conditions and mark the five that need another revision pass."
       },
       "week_51": {
         "title": "College, Internship & Career Launch",
@@ -1028,7 +1049,8 @@
           "Polished LinkedIn + GitHub + portfolio website",
           "3 cold outreach emails sent",
           "1 internship application submitted"
-        ]
+        ],
+        "practice": "Shortlist five target colleges or internships and map which portfolio project you would lead with for each application."
       },
       "week_52": {
         "title": "Graduation + Lifetime Alumni Induction",
@@ -1208,7 +1230,7 @@
     "AI Startup Founder (unlimited potential — Y Combinator, Sequoia India pathway)",
     "Computer Vision Engineer (₹12-45 LPA)",
     "NLP Engineer / Conversational AI (₹12-40 LPA)",
-    "Generative AI Engineer / Prompt Engineer (₹15-60 LPA — emerging in 2025-26)",
+    "Generative AI Engineer / Prompt Engineer (₹15-60 LPA — emerging in 2026-27)",
     "Quantitative AI (Algo Trading) — ₹30 LPA-2 Crore+",
     "AI Ethics / Policy (₹15-40 LPA + government/NGO roles)"
   ],

@@ -1662,5 +1662,43 @@
     "interview_ready": "Prepared for top tech companies",
     "continuous_updates": "Lifetime access to updates",
     "success_support": "Extra help until goals achieved"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What AI projects will my teen actually build?",
+      "answer": "Across the year students build 40+ projects: chatbots, image recognition systems, recommendation engines, game-playing AIs, and generative AI experiments, ending with a production-style capstone. The course explains the ideas behind familiar technology, such as how streaming services recommend titles or how image filters work, then has students build their own versions."
+    },
+    {
+      "question": "How much maths and coding does my teen need beforehand?",
+      "answer": "Only basic algebra and no coding at all; month 1 teaches the Python needed for AI from scratch. The necessary mathematics is introduced visually and gradually alongside the projects rather than as a wall of theory upfront."
+    },
+    {
+      "question": "What age is this AI course meant for?",
+      "answer": "It is written for teenagers aged 13 to 19, with examples and projects picked for teenage interests. We teach coding and maths to students from ages 6 to 65, and this course sits squarely in the serious-teen zone: ambitious but genuinely beginner-friendly."
+    },
+    {
+      "question": "Do we need an expensive computer or paid software?",
+      "answer": "No. The course runs on free tools: Python, Jupyter notebooks, Google Colab, TensorFlow, and PyTorch, and Colab provides free access to cloud GPUs for training models. An ordinary computer with a stable internet connection is sufficient."
+    },
+    {
+      "question": "What can my teen do after finishing?",
+      "answer": "They will understand AI deeply enough to keep building on their own: stronger models, research-style experiments, and portfolio projects for college applications. Students who want more foundation often pair this with our Python masterclass or the problem solving and DSA course."
+    },
+    {
+      "question": "What is the pricing for this AI course?",
+      "answer": "Group classes cost ₹1,499 per month (2 live classes a week, no more than 10 students per batch), mini batches of 3-4 students cost ₹2,499 per month, and personal 1-on-1 classes with 2 private sessions a week cost ₹4,999 per month. International students pay $40 per month for group classes or $100 per month for 1-on-1."
+    },
+    {
+      "question": "How do we try a class before enrolling?",
+      "answer": "Book a free demo class at learn.modernagecoders.com/contact; there is no commitment, and parents are welcome to sit in. Families rate us 4.9 stars across 547+ Google reviews, and the demo is the fastest way to see why."
+    },
+    {
+      "question": "Are classes live with a teacher?",
+      "answer": "Yes, always: 1-hour live online classes with a real teacher, never pre-recorded video content. AI concepts stick when students can ask why something works mid-lesson, so classes stay small and interactive by design."
+    },
+    {
+      "question": "Do students receive a certificate?",
+      "answer": "Yes, the course ends with an AI/ML certification supported by a portfolio of 40+ working projects. When your teen can demonstrate a chatbot or an image recognizer they built themselves, the certificate becomes the footnote, not the headline."
+    }
+  ]
 }

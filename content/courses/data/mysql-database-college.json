@@ -1229,5 +1229,43 @@
     "mentorship": "Dedicated mentor throughout journey",
     "certificate": "Industry-recognized certification",
     "portfolio": "Production-ready database portfolio"
-  }
+  },
+  "faqs": [
+    {
+      "question": "Is this course only about writing SQL queries?",
+      "answer": "No, queries are just phase 1. The 12-month program goes from SQL fundamentals through database design and normalization, stored procedures, administration, performance tuning and indexing, security, and finally replication, high availability and cloud deployment on platforms like AWS. It is a database engineer's path, not a query crash course."
+    },
+    {
+      "question": "Do I need programming experience to start?",
+      "answer": "No, the course starts from zero with basic queries and builds up gradually. SQL is one of the friendliest entry points into tech, and any computer with 4GB or more of RAM can run MySQL and MySQL Workbench comfortably."
+    },
+    {
+      "question": "Which MySQL version do you teach?",
+      "answer": "Current MySQL 8.x, the line running in production at most companies, using MySQL Workbench and the command line client. Features and syntax are taught as they exist today, and the material is kept aligned with current releases."
+    },
+    {
+      "question": "How does MySQL knowledge help my career?",
+      "answer": "Almost every backend, data and full stack role expects solid SQL, and dedicated database administration and data engineering paths build directly on what this course covers. You finish with schema designs, tuned queries and administration projects in a GitHub-ready portfolio. We make no placement guarantees; SQL simply appears in more job descriptions than nearly any other technical skill."
+    },
+    {
+      "question": "Why learn databases live instead of from documentation and tutorials?",
+      "answer": "Because database mistakes are silent: a bad schema or a missing index works fine until real data arrives. A live instructor reviews your designs, shows you how to read execution plans on your own queries, and builds the production habits documentation cannot, like thinking about backups and failure before they happen."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "In India: ₹1,499 per month for group classes (max 10 students, 2 classes a week), ₹2,499 per month for a mini batch of 3 to 4 students, and ₹4,999 per month for personal 1-on-1 with 2 private classes a week. International students pay $40 per month for group and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can I evaluate the teaching first?",
+      "answer": "Yes, start with a free live demo class booked at learn.modernagecoders.com/contact, with no commitment involved. We hold 4.9 stars across 547+ Google reviews, and the demo lets you judge the teaching yourself."
+    },
+    {
+      "question": "What is the class format?",
+      "answer": "All classes are live 1-hour online sessions with an instructor; nothing is pre-recorded. You write queries and work on real schemas during class, and evening and weekend slots fit around college lectures and full-time work."
+    },
+    {
+      "question": "Is there a certification at the end?",
+      "answer": "You earn our completion certificate for the program, alongside a GitHub-ready portfolio of database projects: schema designs, optimization case studies and administration work. To be clear, this is a course certificate, not an Oracle exam credential; the skills, however, are exactly what database roles test."
+    }
+  ]
 }

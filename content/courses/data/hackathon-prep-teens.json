@@ -155,7 +155,8 @@
         "Data formatter: read a CSV, print summary stats"
       ],
       "vibe_challenge": "Solve 5 problems on Replit's Python challenges in under 60 minutes.",
-      "parent_note": "Python is the most common language at hackathons after JavaScript. Strong Python = wide hackathon options."
+      "parent_note": "Python is the most common language at hackathons after JavaScript. Strong Python = wide hackathon options.",
+      "practice": "Set up Python and VS Code, then write a script that stores five hackathon ideas in a list of dicts and prints them ranked by excitement."
     },
     "week_2": {
       "title": "Week 2: JavaScript Essentials & DOM — The Universal Hackathon Language",
@@ -178,7 +179,8 @@
         "GitHub user profile fetcher"
       ],
       "vibe_challenge": "Build a SPA that displays Pokémon details using PokeAPI in under 90 minutes.",
-      "parent_note": "Hackathons reward shippable demos. JavaScript is the fastest path from idea to live URL."
+      "parent_note": "Hackathons reward shippable demos. JavaScript is the fastest path from idea to live URL.",
+      "practice": "Build a small webpage that fetches from a public API with async await and updates the DOM when a button is clicked."
     },
     "week_3": {
       "title": "Week 3: Git, GitHub & Team Coding — Professional Workflow",
@@ -201,7 +203,8 @@
         "Team-built mini app with branches and PRs"
       ],
       "vibe_challenge": "Pair-program a project across 2 GitHub accounts and merge cleanly with no conflicts.",
-      "parent_note": "GitHub is your child's lifelong tech resume. Every hackathon, every internship, every job will check this."
+      "parent_note": "GitHub is your child's lifelong tech resume. Every hackathon, every internship, every job will check this.",
+      "practice": "Create a repo with a proper README, make five meaningful commits on a branch, then open and merge your own pull request."
     },
     "week_4": {
       "title": "Week 4: First Mini Hackathon (Solo) — Ship to a Live URL in 8 Hours",
@@ -248,7 +251,8 @@
         "Recipe finder calling an external API",
         "Interactive dashboard with charts (Recharts)"
       ],
-      "vibe_challenge": "Build a Twitter clone UI (no backend) in 90 minutes using shadcn/ui."
+      "vibe_challenge": "Build a Twitter clone UI (no backend) in 90 minutes using shadcn/ui.",
+      "practice": "Rebuild your week 2 page in React with Tailwind and one shadcn/ui component, keeping it responsive at phone width."
     },
     "week_6": {
       "title": "Week 6: Backend with Supabase + REST APIs — Build a Real Product",
@@ -270,7 +274,8 @@
         "Image gallery with uploads + storage",
         "Realtime chat (single-room) with Supabase Realtime"
       ],
-      "vibe_challenge": "Add Google login to your notes app in under 30 minutes."
+      "vibe_challenge": "Add Google login to your notes app in under 30 minutes.",
+      "practice": "Stand up a Supabase project with one table protected by Row Level Security and wire a working CRUD form to it from Next.js."
     },
     "week_7": {
       "title": "Week 7: AI APIs — Build AI-Powered Hackathon Projects",
@@ -292,7 +297,8 @@
         "AI image caption generator (Gemini multimodal)",
         "Voice-to-text journal with summarization"
       ],
-      "vibe_challenge": "Add streaming chat with citations to your notes app in under 90 minutes."
+      "vibe_challenge": "Add streaming chat with citations to your notes app in under 90 minutes.",
+      "practice": "Ship a one prompt AI feature, like a study tip generator, that calls the OpenAI, Gemini or Claude API and streams the response into your UI."
     },
     "week_8": {
       "title": "Week 8: Algorithms, DSA & System Design Lite + Mock Hackathon (Teams)",
@@ -338,7 +344,8 @@
         "Capstone Spec (1 page)",
         "Architecture Diagram",
         "Project Board with weekly milestones"
-      ]
+      ],
+      "practice": "Write your one page capstone spec covering problem, users, MVP scope and stretch goals, and sketch the architecture in Excalidraw."
     },
     "week_10": {
       "title": "Week 10: Heavy Build Sprint — Code, Test, Iterate",
@@ -359,7 +366,8 @@
         "Capstone build — 70% complete by end of Week 10",
         "Daily standup logs",
         "Mid-sprint mentor demo"
-      ]
+      ],
+      "practice": "Ship one committed feature each day for five days, with clear commit messages and at least one smoke test on the critical path."
     },
     "week_11": {
       "title": "Week 11: Pitch Lab — Storytelling, Slides & Demo Polish",
@@ -380,7 +388,8 @@
         "Pitch Slides (7 slides, Pitch.com or Canva)",
         "Pitch Video (2 minutes)",
         "Final README with hero image, demo link, tech stack, team"
-      ]
+      ],
+      "practice": "Cut your pitch to exactly two minutes, build a seven slide deck and record a demo video you would be proud to submit."
     },
     "week_12": {
       "title": "Week 12: LIVE HACKATHON WEEKEND — Compete with the World",

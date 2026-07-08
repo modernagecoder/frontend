@@ -1444,6 +1444,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What will my teen learn in this app development course?",
+      "answer": "The 18 month journey covers programming fundamentals and UI/UX design, native Android with Kotlin and iOS with Swift, cross-platform development with React Native and Flutter, then AI and AR features, app monetization and publishing to Google Play and the App Store. It ends with real, store-ready apps."
+    },
+    {
+      "question": "Is this suitable for a complete beginner?",
+      "answer": "Yes, it is built for teenagers starting from zero coding knowledge; the first months teach programming through app concepts teens actually care about. The small group format lets the pace adjust to each student."
+    },
+    {
+      "question": "Do we need a Mac or special equipment?",
+      "answer": "A regular computer and a smartphone cover most of the course, including all Android, React Native and Flutter work. Building native iOS apps with Swift does require a Mac, so if you do not have one, the mentor weights that phase toward Android while still teaching the iOS concepts, and no learning is lost."
+    },
+    {
+      "question": "How do we track progress over 18 months?",
+      "answer": "Every phase ships working apps, from first web apps to native and cross-platform builds, so progress is measured in things your teen can demo. The mentor keeps a project record, and the final phase includes the publishing process, the clearest milestone there is."
+    },
+    {
+      "question": "Will my teen actually publish an app?",
+      "answer": "Publishing to Google Play and the App Store is taught as part of the final phase, including store listings and release processes. Whether a specific app goes live depends on store policies, developer account setup and family choice, but every student finishes with store-ready apps and full knowledge of how to launch them."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "Group classes are ₹1,499 per month with 2 live classes per week, a mini batch is ₹2,499 per month, and personal 1-on-1 mentorship is ₹4,999 per month. For students outside India, it is $40 per month for group or $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can my teen attend a free class first?",
+      "answer": "Yes, every student starts with a free demo class, no commitment: book at learn.modernagecoders.com/contact or WhatsApp +91 91233 66161. The demo lets your teen meet the teacher and build something small in the very first hour."
+    },
+    {
+      "question": "Are classes live or recorded?",
+      "answer": "Live, always: one hour online sessions with a real teacher in a small group, never pre-recorded videos. Teens code during class, share their screens and get unstuck in real time."
+    },
+    {
+      "question": "Is there a certificate at the end?",
+      "answer": "Yes, a Mobile App Developer certification on completion, plus something more useful: a portfolio of working apps your teen designed, built and can demo to anyone, including future colleges and employers."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: 10+ Web apps, PWAs, Firebase projects",

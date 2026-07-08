@@ -94,7 +94,8 @@
         "Draw AI's journey timeline",
         "Play and analyze AI games"
       ],
-      "safety_focus": "Understanding AI is a tool, not a replacement for thinking"
+      "safety_focus": "Understanding AI is a tool, not a replacement for thinking",
+      "practice": "Spot five places AI helped you this week, like YouTube suggestions or a voice assistant, and mark which one felt the smartest."
     },
     "week_2": {
       "title": "ChatGPT Fundamentals",
@@ -124,7 +125,8 @@
         "Get homework help (with citations)",
         "Plan a birthday party with AI"
       ],
-      "safety_focus": "Never share personal information, always verify important facts"
+      "safety_focus": "Never share personal information, always verify important facts",
+      "practice": "With a parent nearby, ask ChatGPT three questions about your favorite animal and note which answer surprised you most."
     },
     "week_3": {
       "title": "Prompt Engineering Basics",
@@ -158,7 +160,8 @@
         "Rewrite 10 vague prompts",
         "Create prompts for 5 different purposes",
         "Compare outputs from different prompts"
-      ]
+      ],
+      "practice": "Rewrite one vague prompt like 'draw a dog' into a detailed prompt with a place, a mood and a style, then compare the two answers."
     },
     "week_4": {
       "title": "Advanced ChatGPT Techniques",
@@ -188,7 +191,8 @@
         "Research project on favorite topic",
         "Multi-language story creation"
       ],
-      "safety_focus": "Understanding AI hallucinations and verification"
+      "safety_focus": "Understanding AI hallucinations and verification",
+      "practice": "Hold a five turn conversation where you teach the AI about your favorite hobby, then ask it to quiz you on it."
     }
   },
   "month_2": {
@@ -222,7 +226,8 @@
         "Create fantasy creatures",
         "Design dream bedroom with AI"
       ],
-      "techniques": "Basic prompt structure for images: subject, style, mood, details"
+      "techniques": "Basic prompt structure for images: subject, style, mood, details",
+      "practice": "Describe your dream bedroom in words, generate an image from the description and circle two details the AI got right."
     },
     "week_6": {
       "title": "DALL-E and Bing Image Creator Mastery",
@@ -257,7 +262,8 @@
         "Landscape generation template",
         "Product design template",
         "Storybook illustration template"
-      ]
+      ],
+      "practice": "Generate the same scene in three styles, cartoon, realistic and abstract, and write down which prompt words worked best."
     },
     "week_7": {
       "title": "Midjourney and Advanced AI Art",
@@ -291,7 +297,8 @@
         "Daily art challenge",
         "Style matching exercise",
         "Prompt remix competition"
-      ]
+      ],
+      "practice": "Write one /imagine prompt that uses an aspect ratio parameter and one style word, then save your favorite result."
     },
     "week_8": {
       "title": "AI Photo Editing and Manipulation",
@@ -325,7 +332,8 @@
         "Design poster with AI elements",
         "Before/after photo gallery"
       ],
-      "safety_focus": "Understanding deepfakes and image authenticity"
+      "safety_focus": "Understanding deepfakes and image authenticity",
+      "practice": "With permission, remove the background from a family photo using an AI editor and place the subject somewhere fun."
     }
   },
   "month_3": {
@@ -362,7 +370,8 @@
         "Make birthday song variations",
         "Video game soundtrack creation"
       ],
-      "exercises": "Generate 20 different musical styles and moods"
+      "exercises": "Generate 20 different musical styles and moods",
+      "practice": "Generate two short tunes in different genres and tell someone at home which mood each one gives you."
     },
     "week_10": {
       "title": "AI Voice and Audio Tools",
@@ -396,7 +405,8 @@
         "Make multilingual announcement",
         "Audio story with sound effects"
       ],
-      "safety_focus": "Voice cloning ethics and consent"
+      "safety_focus": "Voice cloning ethics and consent",
+      "practice": "Turn a favorite poem or joke into speech with a text to speech tool using two different character voices."
     },
     "week_11": {
       "title": "AI Video Generation",
@@ -430,7 +440,8 @@
         "Music video with AI visuals",
         "Educational video with AI presenter"
       ],
-      "skills": "Storyboarding, script writing, video editing basics"
+      "skills": "Storyboarding, script writing, video editing basics",
+      "practice": "Storyboard a 15 second video in three drawn frames, then create one of the scenes with an AI video tool."
     },
     "week_12": {
       "title": "AI Animation and Motion",
@@ -464,7 +475,8 @@
         "Motion comic creation",
         "AR filter design"
       ],
-      "showcase": "Animation festival with all students' work"
+      "showcase": "Animation festival with all students' work",
+      "practice": "Animate a simple character face showing happy, sad and surprised using an AI animation tool, and show your family the result."
     }
   },
   "month_4": {
@@ -502,7 +514,8 @@
         "Design quiz preparation system",
         "Make visual study guides"
       ],
-      "ethics": "Using AI to learn, not to cheat"
+      "ethics": "Using AI to learn, not to cheat",
+      "practice": "Use an AI study helper to practice five maths or spelling questions, and mark which ones you solved without any help."
     },
     "week_14": {
       "title": "AI Research and Writing Tools",
@@ -536,7 +549,8 @@
         "Build knowledge database",
         "Design infographic report"
       ],
-      "skills": "Critical evaluation of AI-generated content"
+      "skills": "Critical evaluation of AI-generated content",
+      "practice": "Ask AI to summarize a short article about space or animals, then check one fact from the summary in another source."
     },
     "week_15": {
       "title": "AI Productivity Tools",
@@ -570,7 +584,8 @@
         "Build habit tracking system",
         "Automate routine tasks"
       ],
-      "life_skills": "Time management and organization"
+      "life_skills": "Time management and organization",
+      "practice": "Plan your perfect Saturday with an AI generated schedule, then fix two things it got wrong about you."
     },
     "week_16": {
       "title": "AI for Creative Projects",
@@ -604,7 +619,8 @@
         "Create recipe book",
         "Plan room makeover"
       ],
-      "showcase": "Creative exhibition of AI-assisted projects"
+      "showcase": "Creative exhibition of AI-assisted projects",
+      "practice": "Brainstorm ten silly story ideas with AI, pick your favorite and write the opening paragraph yourself."
     }
   },
   "month_5": {
@@ -642,7 +658,8 @@
         "Make calculator app",
         "Design personal portfolio"
       ],
-      "languages": "HTML/CSS, Python, JavaScript basics with AI assistance"
+      "languages": "HTML/CSS, Python, JavaScript basics with AI assistance",
+      "practice": "Ask an AI assistant to explain a small piece of code in kid friendly words, then change one thing and predict what happens."
     },
     "week_18": {
       "title": "No-Code AI App Builders",
@@ -676,7 +693,8 @@
         "Design task tracker",
         "Make community platform"
       ],
-      "skills": "Logical thinking, UI/UX basics, problem-solving"
+      "skills": "Logical thinking, UI/UX basics, problem-solving",
+      "practice": "Sketch the screens of a simple app idea on paper and list the three buttons it would need."
     },
     "week_19": {
       "title": "Machine Learning Platforms",
@@ -710,7 +728,8 @@
         "Gesture recognition system",
         "Predictive text generator"
       ],
-      "concepts": "Training data, testing data, accuracy, confusion matrix"
+      "concepts": "Training data, testing data, accuracy, confusion matrix",
+      "practice": "Train a Teachable Machine model to recognize two of your toys and test it five times with each toy."
     },
     "week_20": {
       "title": "AI Game Development",
@@ -744,7 +763,8 @@
         "Smart NPC system",
         "Dynamic story game"
       ],
-      "showcase": "Game jam with AI tools"
+      "showcase": "Game jam with AI tools",
+      "practice": "Design an NPC for your dream game: give it a name, one behavior rule and one line of dialogue written with AI help."
     }
   },
   "month_6": {
@@ -782,7 +802,8 @@
         "Build community helper bot",
         "Develop educational game"
       ],
-      "impact": "Understanding AI's positive potential"
+      "impact": "Understanding AI's positive potential",
+      "practice": "Pick one problem in your neighborhood and write three ways an AI helper could make it better."
     },
     "week_22": {
       "title": "AI Business and Entrepreneurship",
@@ -816,7 +837,8 @@
         "Build marketing campaign",
         "Develop business pitch"
       ],
-      "skills": "Entrepreneurial thinking, problem-solving, innovation"
+      "skills": "Entrepreneurial thinking, problem-solving, innovation",
+      "practice": "Invent a kid business idea, generate a logo for it with AI and write its one line slogan yourself."
     },
     "week_23": {
       "title": "AI Safety and Ethics",
@@ -850,7 +872,8 @@
         "Build fact-checking tool",
         "Develop digital safety plan"
       ],
-      "discussions": "Group debates on AI ethics scenarios"
+      "discussions": "Group debates on AI ethics scenarios",
+      "practice": "Play detective with a parent: compare one real photo and one AI image and list two clues that gave the AI image away."
     },
     "week_24": {
       "title": "Future of AI and Emerging Tech",
@@ -884,7 +907,8 @@
         "Build future career plan",
         "Develop innovation proposal"
       ],
-      "reflection": "Personal AI journey documentation"
+      "reflection": "Personal AI journey documentation",
+      "practice": "Draw or describe a robot helper for the year 2040 and label three sensors it would need to do its job."
     },
     "week_25": {
       "title": "Capstone Project Development",
@@ -918,7 +942,8 @@
         "Demo video (3-5 minutes)",
         "Project website/portfolio",
         "Reflection essay on AI journey"
-      ]
+      ],
+      "practice": "Choose your capstone idea, list the AI tools you will combine and write the build steps in order."
     },
     "week_26": {
       "title": "Graduation and Future Planning",
@@ -962,7 +987,8 @@
           "Letter of recommendation eligibility",
           "Alumni status and benefits"
         ]
-      }
+      },
+      "practice": "Practice your final presentation out loud once and prepare a clear answer to 'which parts did the AI do and which parts did you do?'"
     }
   },
   "ai_tools_masterlist": {

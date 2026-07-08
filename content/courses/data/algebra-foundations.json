@@ -75,7 +75,8 @@
       "projects": [
         "Personal gap map for the year ahead",
         "Integer war-stories set: temperature, bank balance and elevation problems"
-      ]
+      ],
+      "practice": "Do a short daily integer practice set this week, using the number line whenever unsure, and write one real money or temperature story for a negative number calculation."
     },
     "week_5_10": {
       "title": "Weeks 5-10: Fractions and Decimals, Properly This Time",
@@ -91,7 +92,8 @@
       "projects": [
         "Fraction operation gallery: one worked picture per operation, made by the student",
         "Real-recipe scaling project: fractions doing real work"
-      ]
+      ],
+      "practice": "Complete a mixed fractions and decimals problem set, drawing a quick picture for any operation you cannot yet explain in words."
     },
     "week_11_16": {
       "title": "Weeks 11-16: Ratios, Percents and the First Variables",
@@ -107,7 +109,8 @@
       "projects": [
         "Best-buy investigation: unit-price reasoning on real products",
         "Phase mastery check: solve, explain and extend, per topic"
-      ]
+      ],
+      "practice": "Solve ten percent problems taken from real life, discounts, tax and score changes, estimating each answer before computing to check your number sense."
     }
   },
   "phase_2_linear_algebra": {
@@ -127,7 +130,8 @@
       "projects": [
         "Equation-sentence dictionary: twenty phrasings, twenty equations",
         "Real-world setups: phone plans, savings goals, break-even problems"
-      ]
+      ],
+      "practice": "Work a set of multi step equations showing the balance move at every line, then translate three word problems into equations without solving them."
     },
     "week_23_29": {
       "title": "Weeks 23-29: Linear Functions Three Ways",
@@ -143,7 +147,8 @@
       "projects": [
         "Equation-table-graph triptych for three real situations",
         "Data modeling mini-project: fit a line, defend the interpretation"
-      ]
+      ],
+      "practice": "Graph the same line from slope intercept, point slope and standard form to confirm they agree, and describe one real situation the line could model."
     },
     "week_30_36": {
       "title": "Weeks 30-36: Systems of Equations and Inequalities",
@@ -159,7 +164,8 @@
       "projects": [
         "Business break-even case solved all three ways",
         "Phase mastery check: solve, explain and extend, per topic"
-      ]
+      ],
+      "practice": "Solve six systems choosing the method by structure, at least two each by graphing, substitution and elimination, and check every answer in both equations."
     }
   },
   "phase_3_quadratics": {
@@ -179,7 +185,8 @@
       "projects": [
         "Powers-of-ten scale tour: notation doing real scientific work",
         "Area-model gallery for polynomial multiplication"
-      ]
+      ],
+      "practice": "Complete an exponent rules drill, deriving any rule you forget instead of guessing, plus five polynomial multiplications using the area model."
     },
     "week_43_48": {
       "title": "Weeks 43-48: Factoring and Quadratic Equations",
@@ -195,7 +202,8 @@
       "projects": [
         "Factoring pattern-book, built by the student",
         "Quadratic equation gauntlet: mixed methods under light timing"
-      ]
+      ],
+      "practice": "Factor a 15 expression mixed set, then solve five quadratic equations choosing factoring, square roots or the formula and noting why each time."
     },
     "week_49_52": {
       "title": "Weeks 49-52: Quadratic Functions + the Capstone",
@@ -211,7 +219,8 @@
       "projects": [
         "Capstone: one real quadratic situation modeled, graphed and presented",
         "Personal algebra handbook — the year's ideas in the student's own words"
-      ]
+      ],
+      "practice": "Graph two parabolas from different forms, labeling vertex, axis and intercepts, and start your capstone map connecting the year's big ideas."
     }
   },
   "faqs": [

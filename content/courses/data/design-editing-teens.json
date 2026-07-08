@@ -1181,5 +1181,43 @@
     "mentorship": "Industry professional mentors throughout",
     "certificate": "Industry-recognized creative certification",
     "portfolio": "50+ portfolio pieces ready for clients/college"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What will my teen learn to create?",
+      "answer": "The year covers photo editing, video production and visual effects, graphic design and brand creation, professional photography, and motion graphics. Students build a real portfolio: edited photo sets, cinematic videos, logos and brand kits, and social media content, finishing with business and career skills in the final months."
+    },
+    {
+      "question": "What age range is this course for?",
+      "answer": "It is designed for teenagers aged 13 to 18. Creative middle schoolers slightly younger can join with parental support, and the examples and projects are chosen to feel current and relevant to teens."
+    },
+    {
+      "question": "Does my teen need any design background?",
+      "answer": "No, the course begins with creative fundamentals and first photo edits. Curiosity and willingness to practice matter far more than existing skill; the curriculum turns raw creativity into professional technique step by step."
+    },
+    {
+      "question": "Do we need to buy Adobe software?",
+      "answer": "The curriculum teaches industry-standard tools like Photoshop, Premiere Pro, and After Effects, but students can start and practice with free alternatives such as GIMP, DaVinci Resolve, Canva, and CapCut, which the course also covers. We help each family choose a setup that fits their budget before any purchase is considered."
+    },
+    {
+      "question": "How does this connect to future opportunities?",
+      "answer": "Students graduate with a portfolio that speaks for itself in college applications, freelance pitches, and creative communities. Many pair it with our creative coding and animation course to add motion design and interactive work to their range."
+    },
+    {
+      "question": "What will we pay per month?",
+      "answer": "Group classes are ₹1,499 per month, covering 2 live classes a week in batches of up to 10 teens. Mini batches of 3-4 students cost ₹2,499 per month, and 1-on-1 personal coaching with 2 private classes a week is ₹4,999 per month. For international students the rates are $40 per month for group and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can my teen try before we enroll?",
+      "answer": "Yes, start with a free demo class, no strings attached, booked at learn.modernagecoders.com/contact. Parents can sit in on the demo; our 4.9 star rating across 547+ Google reviews mostly began with exactly that first class."
+    },
+    {
+      "question": "Are these live classes?",
+      "answer": "Yes, every class is a live 1-hour online session with a real instructor, never a recorded video playlist. Small interactive groups mean each student's work gets reviewed in class, which is how editing and design actually improve."
+    },
+    {
+      "question": "What certification does my teen receive?",
+      "answer": "Completing the masterclass earns a Professional Creative Designer certificate. Alongside it, your teen graduates with a genuine creative portfolio of photos, videos, and designs, which is what colleges and clients actually look at."
+    }
+  ]
 }

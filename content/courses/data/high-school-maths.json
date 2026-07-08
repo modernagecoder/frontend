@@ -1091,6 +1091,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What topics does the High School Mathematics Mastery Program cover?",
+      "answer": "In 12 months it moves through four phases: Algebra I foundations and basic geometry; Algebra II with quadratics, functions and coordinate geometry; trigonometry and pre-calculus including sequences and complex numbers; and finally introductory calculus, statistics and probability. It is the full grade 9 to 12 arc taught as one connected story."
+    },
+    {
+      "question": "Does this course follow CBSE, ICSE or another school board?",
+      "answer": "The course is deliberately board agnostic: it teaches the mathematics underneath every board, so it works alongside CBSE, ICSE, IGCSE, IB or state syllabi rather than replacing them. Your teacher aligns examples and pacing with what school is covering whenever that helps."
+    },
+    {
+      "question": "My child is in grade 9, or already in grade 11. Is the level right?",
+      "answer": "Yes. The program starts from basic arithmetic and algebra, so a grade 9 student begins comfortably, while an older student uses it to close gaps quickly and then accelerate into pre-calculus and calculus. A diagnostic in the first week sets the entry point, so nobody sits through material they already own."
+    },
+    {
+      "question": "What are the prerequisites?",
+      "answer": "Only basic arithmetic and elementary school mathematics. No coding is involved, and the equipment list is simple: a computer or tablet, internet and a calculator. Everything else, including the thinking habits, is built inside the course."
+    },
+    {
+      "question": "How do we know it is working? How is progress measured?",
+      "answer": "Every phase ends with an assessment that must be secure before moving on, and weekly problem work is reviewed for reasoning, not just answers. Parents get a clear picture from the running record of mastered topics, and school test performance is the natural external check along the way."
+    },
+    {
+      "question": "What are the fees?",
+      "answer": "Group classes cost ₹1,499 per month and include 2 live classes per week; a smaller mini batch is ₹2,499 per month; and private 1-on-1 tutoring is ₹4,999 per month. For students outside India, the premium maths track is $100 per month for group and $150 per month for 1-on-1."
+    },
+    {
+      "question": "Is there a free trial?",
+      "answer": "Yes. Book a free demo class at learn.modernagecoders.com/contact with no commitment; it is a real lesson plus an honest read on where your child stands. Questions first? Message us on WhatsApp at +91 91233 66161."
+    },
+    {
+      "question": "Are these live classes or videos?",
+      "answer": "Live, always. Each session is a full one hour class with a real teacher in a small group, never pre-recorded content, so the teacher can catch the exact step where your child's method breaks and fix it on the spot."
+    },
+    {
+      "question": "Is there a certificate at the end of the program?",
+      "answer": "Students receive the High School Mathematics Completion Certificate along with a documented record of the topics, problem sets and projects they worked through. We are rated 4.9 stars across 547+ Google reviews, largely by parents of students in programs like this one."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: Algebraic calculator, Equation solver, Geometry tool, Pattern generator",

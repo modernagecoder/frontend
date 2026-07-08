@@ -1656,5 +1656,43 @@
     "mentorship": "Dedicated age-appropriate mentorship",
     "certificate": "Industry-recognized certification",
     "portfolio": "100+ projects portfolio by completion"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What does my child build over the 2-year program?",
+      "answer": "The journey covers 50+ projects: games and animations in Scratch and Code.org, physical computing with MakeCode, real mobile apps in MIT App Inventor, designs in Canva, AI tool projects, and Microsoft Office work. The final phase transitions into typed code, where students write their first Python programs and simple websites."
+    },
+    {
+      "question": "What age should my child be to start?",
+      "answer": "The program is designed for ages 7 and up, needing only Grade 2 level reading and writing. Because everything starts with visual blocks rather than typing, even young beginners build real projects within the first weeks."
+    },
+    {
+      "question": "Is any coding knowledge required beforehand?",
+      "answer": "None. Block coding was invented exactly for this: children drag and snap logic blocks together, so there is no syntax to type or memorize. The course assumes a complete beginner and builds up gradually across its four phases."
+    },
+    {
+      "question": "Which platforms are used, and are they free?",
+      "answer": "The core platforms, Scratch, Code.org, MakeCode, and MIT App Inventor, are all free and browser-based, so nothing needs to be purchased. A computer, laptop, or even a tablet with internet access is enough to participate."
+    },
+    {
+      "question": "What happens after the block coding phase?",
+      "answer": "That is the heart of this course: the final six months deliberately bridge from blocks into real text programming with Python and web development basics. Students leave ready to join our full Python, web development, or AI courses without the usual beginner shock."
+    },
+    {
+      "question": "How much do classes cost each month?",
+      "answer": "₹1,499 per month for group classes, which include 2 live classes a week in batches of no more than 10 kids. Smaller mini batches of 3-4 students are ₹2,499 per month, and dedicated 1-on-1 classes with 2 private sessions weekly are ₹4,999 per month. For students outside India: $40 per month for group, $100 per month for 1-on-1."
+    },
+    {
+      "question": "Is there a free trial class?",
+      "answer": "Yes. You can book a free demo at learn.modernagecoders.com/contact with zero commitment, and many parents sit in on the demo to see the teaching style for themselves. We hold a 4.9 star rating from 547+ Google reviews, and the demo class is where most of those families started."
+    },
+    {
+      "question": "Are these live classes or videos?",
+      "answer": "Every session is a live 1-hour online class taught by a real teacher; we never substitute pre-recorded videos. Groups stay small and interactive, so children code along during class rather than just watching."
+    },
+    {
+      "question": "Do students get certified at the end?",
+      "answer": "Yes, your child receives a Digital Creator and Coder completion certificate. Alongside it they build a portfolio of 50+ real projects, from games to mobile apps, that shows exactly what they can do."
+    }
+  ]
 }

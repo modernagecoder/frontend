@@ -1100,6 +1100,44 @@
       }
     }
   },
+  "faqs": [
+    {
+      "question": "What will I learn in the Business & Finance Mathematics program?",
+      "answer": "Across 12 months you move from core business maths, percentages, interest, financial calculations and accounting mathematics, through business statistics and economic mathematics, into investment analysis, valuation and risk management, and finish with derivatives, portfolio theory and quantitative financial modeling. Excel is used throughout, with Python introduced for the quantitative work."
+    },
+    {
+      "question": "Who is this course for?",
+      "answer": "Commerce and business students, finance aspirants preparing for analyst style roles, entrepreneurs who want to read their own numbers, and professionals moving toward quantitative work. It starts from genuine basics, so you do not need a finance background to begin."
+    },
+    {
+      "question": "Do I need Excel or coding skills before starting?",
+      "answer": "No. High school mathematics is the only prerequisite; Excel is taught from scratch inside the course and Python is introduced gently when the quantitative topics need it. You will need a computer with Excel and a stable internet connection."
+    },
+    {
+      "question": "How is progress measured?",
+      "answer": "Through weekly applied exercises, case style projects such as building valuation and risk models, and phase-end assessments. By the final months you are building complete financial models, which become the clearest proof of progress."
+    },
+    {
+      "question": "Is this course theoretical or practical?",
+      "answer": "Deliberately practical: every concept is anchored in a business situation, from break-even analysis and loan amortization to portfolio optimization. The final phase is essentially a professional toolkit of models you can reuse in a job, a business or further study."
+    },
+    {
+      "question": "What are the fees for this program?",
+      "answer": "Group classes are ₹1,499 per month with 2 classes per week, mini batches are ₹2,499 per month, and 1-on-1 personal mentorship is ₹4,999 per month. International learners join the premium maths track at $100 per month for group classes or $150 for private 1-on-1."
+    },
+    {
+      "question": "Can I sit in on a class first?",
+      "answer": "Yes, start with a free demo class, no commitment: book it at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. The demo also helps us gauge your starting level honestly."
+    },
+    {
+      "question": "Are classes live?",
+      "answer": "Every session is a live one hour online class with a real teacher; nothing is pre-recorded. Small class sizes mean your specific questions, including ones about your own business or coursework numbers, actually get answered."
+    },
+    {
+      "question": "What certification do I receive?",
+      "answer": "The Professional Business & Finance Mathematics Certificate on completion, plus a portfolio of the financial models and case projects you built, which is often more persuasive to employers than the certificate itself."
+    }
+  ],
   "additional_learning_resources": {
     "projects_throughout_course": [
       "Phase 1: Business calculators, Loan analyzers, Accounting tools",
