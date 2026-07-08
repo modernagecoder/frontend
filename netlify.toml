@@ -565,13 +565,15 @@
 
 [[redirects]]
   from = "/projects"
-  to = "/src/pages/projects.html"
-  status = 200
+  to = "/student-labs"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/student-projects"
-  to = "/src/pages/student-projects-standalone.html"
-  status = 200
+  to = "/student-labs"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/check-status"
@@ -4280,13 +4282,15 @@
 # Clean URL rewrites for new projects
 [[redirects]]
   from = "/student-projects-working"
-  to = "/src/pages/student-projects-working.html"
-  status = 200
+  to = "/student-labs"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/student-projects-standalone"
-  to = "/src/pages/student-projects-standalone.html"
-  status = 200
+  to = "/student-labs"
+  status = 301
+  force = true
 
 # Course category URLs (must come before individual courses)
 [[redirects]]
@@ -5215,3 +5219,123 @@
   for = "/*.webp"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# ===== Parity sync 2026-07-08: rules previously only in _redirects =====
+# (/pages/*.gif|jpg|png intentionally stay _redirects-only: mid-pattern splats)
+
+[[redirects]]
+  from = "/ai-agents-explained.md"
+  to = "/src/pages/ai-agents-explained.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-engineer-roadmap-2026.md"
+  to = "/src/pages/ai-engineer-roadmap-2026.md"
+  status = 200
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/content/blog/generated/:splat/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/best-programming-languages-college-students-2025"
+  to = "/blog/best-programming-languages-college-students-2026"
+  status = 301
+
+[[redirects]]
+  from = "/coding-and-maths-bhs-mukundapur-kolkata"
+  to = "/coding-and-maths-for-birla-high-school-mukundapur-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-birla-high-school-kolkata"
+  to = "/coding-and-maths-for-birla-high-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-don-bosco-park-circus"
+  to = "/coding-and-maths-for-don-bosco-park-circus-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-heritage-school-kolkata"
+  to = "/coding-and-maths-for-heritage-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-sbgs-kolkata"
+  to = "/coding-and-maths-for-sushila-birla-girls-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-bhs-elgin-kolkata"
+  to = "/coding-and-maths-for-birla-high-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-bhs-mukundapur-kolkata"
+  to = "/coding-and-maths-for-birla-high-school-mukundapur-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-don-bosco-park-circus"
+  to = "/coding-and-maths-for-don-bosco-park-circus-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-heritage-school-anandapur"
+  to = "/coding-and-maths-for-heritage-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-classes-sbgs-kolkata"
+  to = "/coding-and-maths-for-sushila-birla-girls-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/*"
+  to = "/content/courses/generated/:splat/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/dummy"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/form-example"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/inside-neural-networks.md"
+  to = "/src/pages/inside-neural-networks.md"
+  status = 200
+
+[[redirects]]
+  from = "/llms.txt"
+  to = "/llms.txt"
+  status = 200
+
+[[redirects]]
+  from = "/resources"
+  to = "/content/resources/generated/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/resources/*"
+  to = "/content/resources/generated/:splat/index.html"
+  status = 200
