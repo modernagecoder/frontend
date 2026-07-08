@@ -200,23 +200,23 @@ Not all after-school programmes are equal — especially when your child is at o
 | Session recordings | ✓ Every class recorded | ✗ Miss a class, miss the content |
 | Free trial class | ✓ Always free, no card needed | ✗ Paid demo or none |
 
-## What Heritage School Parents & Students Say
+## What families say about Modern Age Coders
 
-Real feedback from families in Anandapur, Kasba, Ballygunge, and across East Kolkata Township.
+Real, verified reviews from Modern Age Coders families.
 
 ★★★★★
 
-"My son is in Class 9 ICSE at Heritage and was struggling with Computer Applications. Within six weeks of joining Modern Age Coders, he finished his first Python project independently and scored 94% in his periodical test. The instructors actually know the Heritage syllabus — not just generic Python off YouTube."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests."
 
-SRSupriya R.Parent · Heritage School ICSE · Anandapur, Kolkata★★★★★
+KBKrishnam BhatterFormer student★★★★★
 
-"We chose Heritage specifically for the IBDP track. When my daughter needed help with her Extended Essay in Computer Science, we couldn't find anyone who understood the IB format. Modern Age Coders not only guided her EE but also helped with her IA project. She submitted early and the examiner praised her technical depth."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
 
-AMAnirban M.Parent · Heritage School IBDP · East Kolkata Township★★★★★
+RMRia MukherjeeParent★★★★★
 
-"My daughter started with Scratch at age 8 and is now in Class 6 doing Python. The jump was completely seamless because the curriculum is actually designed as a progression, not just separate courses. The live classes, recorded sessions, and weekend batch fit perfectly around Heritage's packed co-curricular schedule."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-PBPriyanka B.Parent · Heritage School · Kasba, Kolkata
+SGSonu GoyalParent
 
 ## Book Your Free Demo Class
 

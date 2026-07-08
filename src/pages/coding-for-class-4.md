@@ -186,23 +186,23 @@ If your child is on a boundary, here is the plain difference. Each row is a real
 | **AI** | Story only | Teachable Machine | First classifier |
 | **Session** | 1 hour | 1 hour | 1 hour |
 
-Words from parents and students
+What families say
 
-## Class 4 parents — their own words.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 4 families. Privacy-shortened.
+Real, verified reviews from Modern Age Coders families.
 
-My daughter is Class 4 ICSE. Her school computer teacher thinks she's advanced — she built a maze game that actually has a monster. The small group format suits her; she likes showing her work to classmates.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-CChitra R.Parent · Bengaluru · Group
+PPoonam RathoreParent
 
-We tried a self-paced coding app for a year — nothing stuck. One live 1-on-1 class a week and now my son asks about loops at dinner. The teacher is patient and specific.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-IIrfan M.Parent · Delhi · 1-on-1
+RRia MukherjeeParent
 
-The teacher shares a weekend voice note. Small thing but makes parents feel informed. My Class 4 daughter has built 4 games already. She shows them to grandparents on WhatsApp.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-LLata V.Parent · Chennai · GroupCommon questions from parents
+SSonu GoyalParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

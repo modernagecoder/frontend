@@ -223,9 +223,9 @@ Modern LLM patterns: prompting, retrieval, tool-calling agents, evals, deploymen
 
 ★ ★ ★ ★ ★
 
-> "My Year-11 daughter went from struggling with VCE Applied Computing to running her own AI revision tool — and she's now applying to Melbourne CS with confidence. Best money we've ever spent."
+> "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
 
-SOSarah O'BrienParent · Melbourne (Kew) · Methodist Ladies' CollegeReal shipped projects · real Aussie students
+SMSamridho MondalStudentReal shipped projects · real Aussie students
 
 ## Six things our Australian students built with us this year.
 
@@ -467,37 +467,37 @@ VS Code installed, Python 3 running, terminal no longer scary. First original pr
 
 End-of-month checkpoint: a small project chosen by the student — an AFL stats lookup, an NRL fantasy helper, a Sydney transport widget — shipped to GitHub Pages or Vercel. You get a written progress note.
 
-**Output:** a live URL the family can shareAdult learner stories
+**Output:** a live URL the family can shareWhat families say
 
-## Four Aussies who changed careers in under a year.
+## What families say about Modern Age Coders
 
-Full names withheld on request. Each is a real adult who joined us and landed in a software, data or AI role at an Australian employer.
+We teach live and online, so students in Australia learn in the same small batches as our community. These are real, verified reviews.
 
-JKJames K.30 · Sydney (Surry Hills) · ex-marketing analyst → AI engineer at Atlassian
+KBKrishnam BhatterFormer student
 
-### From marketing dashboards to LLM agents — nine months.
+### "I am truly grateful for my experience at Modern Age Coders."
 
-James joined with strong Excel and weak Python. Nine months later he shipped two production AI agents at his Atlassian team and was moved into an AI engineer role.
+My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-Started**Python basics**Pivoted**LLM apps + RAG**Now**AI eng · SaaS**EMEmma M.38 · Melbourne (Brunswick) · ex-teacher → ML engineer at REA Group
+PRPoonam RathoreParent
 
-### Maths teacher → ML engineer in 14 months.
+### "My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm."
 
-Emma had strong maths intuition but no engineering background. We took her from Python and Git to production-pattern ML over a year. She moved into an ML role at REA Group, working on property-valuation models.
+The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-Started**Python + Git**Pivoted**ML fundamentals**Now**ML eng · proptech**ATAiden T.35 · Brisbane (West End) · ex-consultant → full-stack at SafetyCulture
+RMRia MukherjeeParent
 
-### Management consultant → full-stack engineer in 11 months.
+### "The one step solution for my son."
 
-Aiden had product instincts but had never deployed code. Two months in, his first React app was on Vercel. Eleven months in, he passed the SafetyCulture interview process for a full-stack engineer role.
+Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-Started**Web fundamentals**Pivoted**Full-stack TS**Now**Full-stack · SaaS**RSRohan S.31 · Perth (Subiaco) · ex-mining engineer → AI eng at a Perth mining-tech startup
+SGSonu GoyalParent
 
-### Mining engineer → AI engineer at a Perth mining-tech startup.
+### "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way."
 
-Rohan already worked in mining engineering. He wanted to ship the predictive models he'd been designing on paper. We took him through Python, ML and agentic AI over a year, and he switched into an AI engineering role at a Perth mining-tech startup applying RL to ore-processing optimisation.
+The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-Started**Python + ML**Pivoted**RL + agents**Now**AI eng · mining-tech**Honest commitments
+Honest commitments
 
 ## What we'll always do — and what we'll never do.
 

@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 A completion certificate for the file, and honest progress notes so you always know where your child actually stands.
 
-## Success Stories from Sonipat Students
+## What Families Say About Modern Age Coders
 
-Young coders from around Sonipat and its neighbouring towns. None of them began as prodigies — they began curious, showed up each week, and slowly surprised themselves.
+Our classes are live and online, so students from Sonipat learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-KDKabir DahiyaAge 11 · Model Town, SonipatAchievement:Made a Scratch dhaba-rush game his class queued up to play during the lunch break.
+ SO Sonam OswalParent of Dhairya
 
-"My game is about a dhaba on the GT Road — you serve parathas before the customers get angry! Everyone wanted a turn. I never thought I could actually make something people play."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SASimran AntilAge 15 · HUDA Sector 15, SonipatAchievement:Built a Python quiz app her teacher now uses for weekly class revisions.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I assumed Python was only for engineers. Then I wrote a quiz app and my teacher started using it for real. Now I want to apply to one of the universities right here in Sonipat for computer science."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-HMHarsh MalikAge 20 · Kundli, SonipatAchievement:Picked up a fully-remote part-time developer role while still in his engineering course.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm in my third year of engineering near Sonipat. The DSA work and a real MERN project gave me something concrete to show — I now do remote freelance work from home. I didn't have to move to a metro to start a career."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Sonipat Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Unedited words from Sonipat families who handed us their child's first real coding journey — and stayed.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-PRPooja RanaModel Town, Sonipat
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"We almost sent him to a tuition centre instead. So glad we didn't — he now spends his free time building little apps and showing them off to his cousins. The five-student batch means the teacher actually knows him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★JKJitender KadyanHUDA Sector 23, Sonipat
+ ★★★★★ PR Poonam RathoreParent
 
-"I teach at a college myself, so I'm hard to impress. What won me over is that they explain why a program works, not just how to type it. My daughter argues about logic at the dinner table now — in a good way."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MDManisha DahiyaKundli, Sonipat
+ ★★★★★
 
-"We're up near Kundli and good classes used to mean a long drive towards the city. Now my son just logs in after school. The Saturday batch slots in around his other coaching beautifully."
-
-★★★★★SCSunita ChauhanGohana (near Sonipat)
-
-"Living in Gohana, we never had access to a teacher of this standard nearby. Online changed everything. Fair fees, a patient teacher, and both my children look forward to the class. That alone says a lot."
-
-★★★★★RARohit AhlawatTDI City, Sonipat
-
-"My daughter was shy and convinced coding 'wasn't for girls'. A term later she's building a website for my shop and correcting my spelling on it. Watching that confidence grow has been worth every rupee."
-
-★★★★★DGDeepak GoyalMurthal, Sonipat
-
-"We'd already paid one institute that just played recorded videos. Here a real teacher stops to ask my son to explain a concept back. When he can't, they slow down. That small thing is the whole difference."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Sonipat
 

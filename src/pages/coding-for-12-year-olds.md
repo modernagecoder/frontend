@@ -186,23 +186,23 @@ If your child is straddling primary and middle school, this is the honest pictur
 | **Independence** | Needs teacher prompts | Drives some sessions | Takes ownership |
 | **GitHub use** | Not yet | First repo | Active contributor |
 
-Words from parents and students
+What families say
 
-## Real parents of 12 year olds.
+## What families say about Modern Age Coders.
 
-Three recent reviews, unedited except for privacy.
+Real, verified reviews from Modern Age Coders families.
 
-My son built a small Flutter app in month 5 and we actually installed it on his phone. He was stunned. He said "appa, I made the app that is on my phone". For a 12 year old that is life-changing.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-RRohan G.Parent · Kolkata · 1-on-1
+SShradha SarafParent of Mivaan
 
-She was shy in the first group class. Now she volunteers to show her screen. The teacher called her "a very careful debugger" and she hasn't stopped smiling. Small things matter at 12.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-YYashvi M.Parent · Ahmedabad · Group
+SSonam OswalParent of Dhairya
 
-We shifted from another coding platform because the teacher there kept changing every month. Here it's the same teacher for 6 months now. My son now asks about dictionaries and API calls at dinner. That kind of consistency is rare.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-DDinesh V.Parent · Hyderabad · 1-on-1Common questions from parents
+KKrishnam BhatterFormer studentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

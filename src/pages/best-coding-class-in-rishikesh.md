@@ -353,51 +353,37 @@ Real, premium teaching from ₹1,499/month — fair for a Rishikesh family budge
 
 Completion certificates plus honest progress notes you can actually read — useful for school files and, later, college and job applications.
 
-## Success Stories from Rishikesh Students
+## What Families Say About Modern Age Coders
 
-Young coders from around Rishikesh and the nearby hills. Not prodigies — just curious kids who showed up, kept building, and surprised themselves.
+Our classes are live and online, so students from Rishikesh learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RNReyansh NegiAge 11 · Muni Ki RetiAchievement:Made a Scratch river-rafting game where you dodge the rapids — shown at his school fair.
+ SO Sonam OswalParent of Dhairya
 
-"I thought games just happened. Now I know how to make one. Mine is a rafting game on the Ganga where you steer past rocks — my friends kept asking for one more turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-ABAnanya BhattAge 15 · TapovanAchievement:Built a Python booking app for her family's homestay and put it online.
+ ★★★★★ RM Ria MukherjeeParent
 
-"My family runs a guesthouse for the yoga season. I made a small Python app to track our bookings — and realised I could build things tourists from any country could actually use. That's when coding got real for me."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ARAditya RawatAge 20 · VeerbhadraAchievement:Picked up a paid remote web-dev gig while still in college — working from home in Rishikesh.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone said I'd have to move to Bengaluru for a tech break. After the DSA and MERN track I found freelance and remote work I could do from right here. My first client was in another state and never knew — or cared — that I was sitting in the hills."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Rishikesh Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Unedited words from Rishikesh and Uttarakhand families who trusted us with their child's first steps into code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SUSunita UniyalTriveni Ghat
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone after school. Now he shows me the games he is making and gets annoyed when his class ends. The small batch is what makes it work — the teacher actually knows him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DRDr. Rohit SemwalAIIMS Rishikesh area
+ ★★★★★ PR Poonam RathoreParent
 
-"As a doctor I see how much medicine is becoming data and AI. I wanted my daughter comfortable with that world early. They teach her to think, not just to memorise syntax — exactly what I was hoping for."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MPMeenakshi PanwarLakshman Jhula
+ ★★★★★
 
-"Up near the Jhula there was simply no good coding option nearby. Online solved it — the weekend batch sits neatly around school, and he just opens the laptop at home. No more hunting for a teacher in town."
-
-★★★★★KBKavita BishtNarendra Nagar
-
-"We live up the hill from Rishikesh, so options were limited. Both my children join the same online batches now — fair fees, a genuinely good teacher, and the distance simply stopped mattering."
-
-★★★★★JTJyoti ThapliyalMuni Ki Reti
-
-"My daughter was sure coding 'wasn't for girls like her'. A few weeks in she'd built a little website for our family's cafe and was teaching me how it worked. That change in her confidence is worth more than the fee."
-
-★★★★★PRPrakash RanaDehradun Road
-
-"I run a travel business and wanted my son to have a skill that travels with him. What sold me here was that they pause to check he genuinely understood, instead of rushing to finish the lesson. That patience is rare."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Rishikesh
 

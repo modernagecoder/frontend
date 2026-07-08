@@ -314,53 +314,43 @@ MadhurawadaGajuwakaMVP ColonySeethammadharaRushikondaDwaraka NagarAkkayyapalemPe
 
 Online classes available for students across Visakhapatnam and surrounding areas
 
-## What Visakhapatnam Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Visakhapatnam who trusted us with their children's coding education.
+Our classes are live and online, so students from Visakhapatnam learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-SRSrinivas RaoMVP Colony, Vizag
+ SO Sonam OswalParent of Dhairya
 
-"My boy was glued to YouTube all evening. Now he spends that time in Scratch building his own cartoons. The shift happened in the very first week."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★LDLakshmi DeviMadhurawada, Vizag
+ ★★★★★ RM Ria MukherjeeParent
 
-"Navy postings mean we move every two years. Online classes travel with us. My daughter hasn't missed a single session across three cities."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★RKRavi KumarSeethammadhara, Vizag
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The Python course follows the AP Board logic sequence perfectly. My son's computer science marks jumped from 72 to 91 in one term."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PRPadma ReddyDwaraka Nagar, Vizag
+ ★★★★★ SG Sonu GoyalParent
 
-"I enrolled both kids. One does Scratch, the other Java. Two courses, one fee structure, zero scheduling headaches. Exactly what Vizag parents need."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VNVenkat NaiduRushikonda, Vizag
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My daughter built a Vizag beach cleanup tracker for her school project. The marine biology teacher asked her to present it at the inter-school meet."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★ASAnitha SharmaGajuwaka, Vizag
+ ★★★★★ PR Poonam RathoreParent
 
-"I join TCS Vizag!important;margin-top:12px !important;font-size:14px !important;">★★★★★
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
+
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Visakhapatnam — The Full Picture
 
 Why Visakhapatnam parents are making coding a priority for their children's future
 
 Visakhapatnam is witnessing something remarkable. The city that was once known primarily for its steel plant and naval base is now India's emerging FinTech Valley. When the AP government chose Vizag as the FinTech capital, it wasn't just a policy decision — it was recognition of the city's unique blend of technical talent, coastal quality of life, and infrastructure readiness. GITAM University's computer science graduates are being snapped up by TCS, DXC, and Cognizant at the IT SEZ in Madhurawada. Andhra University's engineering department is collaborating with FinTech startups on blockchain and AI projects. For parents in MVP Colony and Rushikonda, this means one thing: their children need coding skills not as a hobby, but as a survival skill for the economy that's being built around them. The AP Board now requires computational thinking, and EAMCET's increasing focus on logical reasoning makes early coding education an investment that pays dividends across all subjects.
-
-## Success Stories from Visakhapatnam Students
-
-ARAditya RaoAge 11 — MVP ColonyAchievement:Created a quiz game about Araku Valley coffee plantations and Borra Caves
-
-"My friends didn't know Araku grows coffee! Now they do, thanks to my game."
-
-SRSwathi ReddyAge 15 — MadhurawadaAchievement:Won an inter-school hackathon with a AI beach pollution tracker for RK Beach
-
-"I trained a model to detect plastic on beach photos. The judges were speechless."
-
-KNKarthik NaiduAge 17 — SeethammadharaAchievement:Built a ship-tracking dashboard prototype and demoed it at GITAM's annual tech fest
-
-"GITAM professors said my project could be a real startup. That was my best day ever."
 
 ## Why Visakhapatnam is the Perfect Place to Learn Coding
 

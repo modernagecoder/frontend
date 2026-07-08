@@ -314,55 +314,43 @@ Boring RoadBailey RoadKankarbaghPatna CityDanapurRajendra NagarExhibition RoadFr
 
 Online classes available for students across Patna and surrounding areas
 
-## What Patna Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Patna who trusted us with their children's coding education.
+Our classes are live and online, so students from Patna learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKRajesh KumarBoring Road, Patna
+ SO Sonam OswalParent of Dhairya
 
-"My son's maths tutor noticed the difference first. After two months of coding, his problem-solving speed doubled. The logical thinking transfers directly."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SSSunita SinhaKankarbagh, Patna
+ ★★★★★ RM Ria MukherjeeParent
 
-"I've taught school for 18 years. These instructors explain Python better than most college lecturers I've met. My daughter now debugs her own code independently."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★APAjay PrasadBailey Road, Patna
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Patna traffic makes offline tuition a two-hour ordeal. My son logs in from home, learns for an hour, and still has energy for homework. Smart decision."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★MDMeena DeviRajendra Nagar, Patna
+ ★★★★★ SG Sonu GoyalParent
 
-"My younger son started Scratch at 9. My older son is doing Java at 16. One subscription, two kids, different courses. The value is hard to beat at ₹1,499."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VMVikash MishraDanapur, Patna
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The teachers actually call if my son misses a class. That level of personal attention doesn't exist in any Boring Road coaching centre. They genuinely care."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PJPriya JhaPatliputra Colony, Patna
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter wants IIT. Her coding class isn't separate from that goal — it IS the preparation. The maths-coding combo is exactly what JEE demands."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Patna — The Full Picture
 
 Why Patna parents are making coding a priority for their children's future
 
 Patna sits at a fascinating inflection point. Bihar's education revolution is real — the state that once exported talent is now building institutions that attract it. IIT Patna's campus in Bihta is producing research that global companies notice. NIT Patna's placement records improve every year. AIIMS Patna has made the city a hub for medical aspirants. But here's what most parents on Boring Road and Kankarbagh are realizing: the IIT dream requires more than rote learning. JEE Advanced increasingly tests computational thinking. BSEB's new curriculum incorporates digital literacy. The students who start coding at 10 don't just build games — they develop the structured problem-solving mindset that separates JEE qualifiers from the rest. Patna's coaching culture is evolving, and the smartest parents are adding coding alongside the traditional maths and science tuitions. This isn't about replacing Kota — it's about complementing it with skills that make the difference in a competitive entrance exam hall.
-
-## Success Stories from Patna Students
-
-AKAdarsh KumarAge 11 — Boring RoadAchievement:Built a quiz about ancient Pataliputra that his history teacher now uses in class
-
-"My teacher asks me to update the quiz every month. I'm basically her tech assistant now."
-
-SSShreya SinhaAge 15 — KankarbaghAchievement:Won the state science olympiad's coding round with a flood prediction model for the Ganga
-
-"I used Python to predict flood levels near Digha Ghat. The Bihar government website shared my project."
-
-RPRahul PrasadAge 17 — Bailey RoadAchievement:Built a Patna metro route planner app and presented it at IIT Patna's open day
-
-"An IIT Patna professor said my app logic was 'placement-interview ready.' Best compliment ever."
 
 ## Why Patna is the Perfect Place to Learn Coding
 

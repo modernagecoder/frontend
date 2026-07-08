@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month, stated up front — no hidden charges
 
 Completion certificates and honest progress updates that give parents a clear picture and strengthen a child's portfolio.
 
-## Success Stories from Jamnagar Students
+## What Families Say About Modern Age Coders
 
-Young coders from across Jamnagar and nearby Saurashtra. Every one of them began as a beginner — and the change came from showing up each week and building.
+Our classes are live and online, so students from Jamnagar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DVDhruv VasoyaAge 10 · Patel Colony, JamnagarAchievement:Made a Scratch game about a boat sailing the Gulf of Kutch for his school's annual day.
+ SO Sonam OswalParent of Dhairya
 
-"My game is a little boat dodging rocks near Bedi port. My friends kept asking for one more turn. I never knew I could actually build a game myself."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-KTKhushi ThackerAge 15 · Park Colony, JamnagarAchievement:Built a Python tool that tracks her family's brass-workshop orders.
+ ★★★★★ RM Ria MukherjeeParent
 
-"My papa runs a small parts unit and tracked orders in a notebook. I wrote a Python program that does it for him now. Seeing him actually use my code is the best feeling."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-JMJay ModhaAge 20 · Summair Club Road, JamnagarAchievement:Landed a paid remote freelance project after the DSA and MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm in my second year of engineering here in Jamnagar. The DSA practice and the full-stack project gave me something real to show — a client in another city hired me to build their website. I never had to move away."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Jamnagar Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from Jamnagar families who trusted us with their child's first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NSNisha SavaliyaKhodiyar Colony, Jamnagar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"I worried it would just be more screen time. Instead my son shows me what he has made every week and is proud of it. The small batch is what convinced me — the teacher knows him by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★HPHardik ParmarPatel Colony, Jamnagar
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a small engineering unit, so I respect proper training. These classes teach the reasoning behind the code, not just steps to copy. My daughter's Python is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★FMFarida MemonBedi Gate, Jamnagar
+ ★★★★★
 
-"The weekend batch slots neatly between school and tuition, and there is no rushing across town for a class — she joins from her own room. Exactly what a busy household needs."
-
-★★★★★RKRajesh KarangiaKhambhalia (near Jamnagar)
-
-"We live in a town outside Jamnagar where a good coding teacher simply isn't available nearby. Online classes erased that gap — strong teacher, fair fee, and both my children look forward to it."
-
-★★★★★DJDipti JoshiIndira Marg, Jamnagar
-
-"My daughter was shy and unsure she could do this. A few weeks in, she is putting up her hand in class and asking questions. She even made a simple page for my boutique. That confidence is worth everything."
-
-★★★★★MBManish BhattGulabnagar, Jamnagar
-
-"We had tried one other class earlier where my son mostly copied screens. Here they pause and check that he has actually understood before moving on. That single difference changed how he learns."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Jamnagar
 

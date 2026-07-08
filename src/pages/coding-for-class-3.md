@@ -186,23 +186,23 @@ If your child is on a boundary, here is the plain difference. Each row is a real
 | **AI** | Story only | Teachable Machine | Teachable Machine |
 | **Session** | 1 hour | 1 hour | 1 hour |
 
-Words from parents and students
+What families say
 
-## Class 3 parents — their own words.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 3 families. Privacy-shortened.
+Real, verified reviews from Modern Age Coders families.
 
-My daughter is Class 3 ICSE. Her school computer teacher thinks she's advanced — she built a maze game that actually has a monster. The small group format suits her; she likes showing her work to classmates.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-CChitra R.Parent · Bengaluru · Group
+SShradha SarafParent of Mivaan
 
-We tried a self-paced coding app for a year — nothing stuck. One live 1-on-1 class a week and now my son asks about loops at dinner. The teacher is patient and specific.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-IIrfan M.Parent · Delhi · 1-on-1
+SSonam OswalParent of Dhairya
 
-The teacher shares a weekend voice note. Small thing but makes parents feel informed. My Class 3 daughter has built 4 games already. She shows them to grandparents on WhatsApp.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-LLata V.Parent · Chennai · GroupCommon questions from parents
+KKrishnam BhatterFormer studentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

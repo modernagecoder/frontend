@@ -182,23 +182,23 @@ If you're moving between boards or comparing difficulty.
 | **Project** | Required | Elective | Pre-release material |
 | **Typical topper %** | 92+ | 90+ | A* (grade 9) |
 
-Words from parents and students
+What families say
 
-## ICSE Class 10 parents and students.
+## What families say about Modern Age Coders.
 
-Three recent reviews from ICSE Class 10 CA families.
+Real, verified reviews from Modern Age Coders families.
 
-I was scoring 72 in my Class 10 pre-board CA. Switched to 1-on-1 with Modern Age Coders for 4 months. Final board: 95. The teacher was relentless about my comment style and variable naming.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-AAvik S.Student · Kolkata · 1-on-1
+SShradha SarafParent of Mivaan
 
-Group of 4 Class 10 ICSE CA students. Every Saturday they submit a pattern question and get it marked the way ICSE marks it. My daughter went from losing 8 marks on patterns to losing zero.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-VVani R.Parent · Delhi · Group · Class 10 ICSE
+SSonam OswalParent of Dhairya
 
-The project prep was detailed. Topic chosen together, code reviewed line by line, report written in the exact CISCE format. Full marks on project. Would not have happened without the teacher.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-TTanvi M.Parent · Mumbai · 1-on-1Common questions from parents
+KKrishnam BhatterFormer studentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

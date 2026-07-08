@@ -314,55 +314,43 @@ NIT FaridabadSector 15Sector 16Sector 21Sector 28Sector 37Old FaridabadBallabgar
 
 Online classes available for students across Faridabad and surrounding areas
 
-## What Faridabad Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Faridabad who trusted us with their children's coding education.
+Our classes are live and online, so students from Faridabad learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKLocal ParentNIT Faridabad, Faridabad
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Haryana students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSatisfied ParentNIT Faridabad, Faridabad
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a JC Bose University professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKHappy ParentNIT Faridabad, Faridabad
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Faridabad."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMProud ParentNIT Faridabad, Faridabad
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Haryana Board school schedule. Highly recommend for every Faridabad family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKDelighted ParentNIT Faridabad, Faridabad
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at JC Bose University's YMCA University."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSGrateful ParentNIT Faridabad, Faridabad
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join Delhi NCR tech companies!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Faridabad — The Full Picture
 
 Why Faridabad parents are making coding a priority for their children's future
 
 Faridabad is Haryana's industrial capital and Delhi NCR's manufacturing powerhouse. With JC Bose University of Science & Technology and YMCA University producing engineers for India's largest industrial estate, the city bridges traditional manufacturing and modern technology. Faridabad's proximity to Delhi means students here have access to India's biggest tech job market. HBSE's curriculum now includes computational thinking, and JEE preparation heavily rewards logical reasoning. For parents in Sector 15 and NIT Faridabad colony, coding isn't just a hobby — it's the skill that transforms their child from a local student to a Delhi NCR tech professional.
-
-## Success Stories from Faridabad Students
-
-APAryan PatelAge 11 — NIT FaridabadAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Faridabad's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — Sector 15Achievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — Sector 16Achievement:Built a portfolio website and got recognized at JC Bose University tech fest
-
-"The web dev course taught me real skills. JC Bose University professors noticed my work!"
 
 ## Why Faridabad is the Perfect Place to Learn Coding
 

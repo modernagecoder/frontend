@@ -183,23 +183,23 @@ Class 9 is a clear ladder rung. This is what the rung looks like.
 | **School** | Class 8 CS | Class 9 CS (402/CA) | Class 10 board |
 | **Board pressure** | None | Starts | Full-on |
 
-Words from parents and students
+What families say
 
-## Class 9 parents and teens.
+## What families say about Modern Age Coders.
 
-Three recent Class 9 reviews. Privacy-shortened, content unedited.
+Real, verified reviews from Modern Age Coders families.
 
-I'm in Class 9 CBSE. My school CS paper is Python-based. The teacher here covered Python chapters a week before school did, so every test felt like revision. Alongside, I'm building a MERN app.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-PParth J.Student · Gurgaon · 1-on-1
+SShradha SarafParent of Mivaan
 
-ICSE Class 9 Computer Applications is strict. Modern Age Coders' Java track matches it to the exam. My daughter topped the Class 9 unit test, up from 72 the year before.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-TTejas R.Parent · Bengaluru · Group
+SSonam OswalParent of Dhairya
 
-We started Class 9 not knowing if coding was for him. Halfway through the year he is sure. He built a Kaggle housing-price model and explained overfitting at dinner. At 14 that is something.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-LLeena B.Parent · Hyderabad · 1-on-1Common questions from parents
+KKrishnam BhatterFormer studentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

@@ -353,51 +353,37 @@ Quality mentoring from just ₹1,499/month, stated upfront. No hidden charges an
 
 A completion certificate plus honest, regular updates on how your child is really doing — useful for school files and college forms.
 
-## Success Stories from Kharagpur Students
+## What Families Say About Modern Age Coders
 
-Young builders from in and around Kharagpur. A few months ago they were exactly where your child is now — curious, a little unsure, and ready to try.
+Our classes are live and online, so students from Kharagpur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RGRishaan GhoshAge 11 · Inda, KharagpurAchievement:Built a Scratch game about a train pulling into Kharagpur's famous long platform.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where the train has to stop exactly along the long platform without overshooting. My friends kept failing it — and I had to read my own code to fix the bugs. That part was the most fun."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SMSneha MahatoAge 15 · Gole Bazar, KharagpurAchievement:Built a Python tool that tracks her class's test marks and plots them.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought I wasn't a 'maths person', so coding scared me. But once I built something that actually worked, it stopped feeling like a subject. Now I want to crack JEE and study engineering — maybe even at the IIT right here in town."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ADArnab DasAge 19 · Hijli, KharagpurAchievement:Landed his first remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm an engineering student in Kharagpur, and the campus around me sets a high bar. The DSA sheet and the mock interviews gave me a routine I actually trusted — and the MERN project I built is what got me the offer letter."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Kharagpur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families across Kharagpur and West Midnapore who trusted us with their child's first steps into code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SBSutapa BanerjeeKharagpur Town
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son barely looked up from his phone. Now he shows me the little games he's coding and walks me through how they work. The tiny batch is what changed things — the teacher actually notices him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PCDr. Pradip ChatterjeeHijli, near IIT
+ ★★★★★ PR Poonam RathoreParent
 
-"I work on the campus side, so I had high expectations. What impressed me is that they build reasoning and structure, not just syntax. My daughter's Python is genuinely sound — she debugs on her own now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RPRina PalMalancha, Kharagpur
+ ★★★★★
 
-"The weekend batch sits neatly between school and her tuitions. There's no running across town for a class — she just logs in. For a household where both of us work, that has been a real relief."
-
-★★★★★SMSubir MondalRailway Settlement
-
-"We're a railway family and get transferred often. A good offline class never lasts for us — this one travels with us. Same teacher, same batch, wherever the posting is. My two children are both enrolled."
-
-★★★★★MRMoumita RoyNimpura, Kharagpur
-
-"My daughter was shy and unsure she could do this. The mentor was so patient that within a few weeks she was asking the most questions in her group — and she built a little website for my tailoring work at home."
-
-★★★★★TDTapan DuttaTalbagicha, Kharagpur
-
-"We had tried a local batch before, with little to show for it. Here they pause until the concept has actually landed before moving on. The monthly progress note tells me exactly where my son stands — no guessing."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Kharagpur
 

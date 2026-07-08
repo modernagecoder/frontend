@@ -314,55 +314,43 @@ Kalawad RoadUniversity Road150 Feet Ring RoadYagnik RoadPedak RoadKuvadva RoadAm
 
 Online classes available for students across Rajkot and surrounding areas
 
-## What Rajkot Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Rajkot who trusted us with their children's coding education.
+Our classes are live and online, so students from Rajkot learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-JPJayesh PatelKalawad Road, Rajkot
+ SO Sonam OswalParent of Dhairya
 
-"My son was cricket-obsessed. I told him to build a cricket score app. He did it in Scratch in 3 weeks. Now he codes as passionately as he bats."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★HSHetal ShahUniversity Road, Rajkot
+ ★★★★★ RM Ria MukherjeeParent
 
-"I searched all of Rajkot for a coding class. Nothing matched this quality at this price. The online format is actually better — no Kalawad Road traffic."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★BJBharat JadejaYagnik Road, Rajkot
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The Java course is helping my son prepare for engineering. His approach to physics problems changed after he started thinking in algorithms. Unexpected bonus."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMPriti Mehta150 Feet Ring Road, Rajkot
+ ★★★★★ SG Sonu GoyalParent
 
-"As a business family, we count value per rupee. ₹1,499 for two live classes a week, recorded sessions, and a certificate? Paisa vasool doesn't begin to cover it."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★KDKetan DoshiBhaktinagar, Rajkot
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My daughter went from 'I hate computers' to building websites in 4 months. Her school friends now call her 'the tech girl.' That label will serve her for life."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RTRupa TrivediMavdi, Rajkot
+ ★★★★★ PR Poonam RathoreParent
 
-"Exam season used to mean dropping everything. Now my son watches recorded sessions at 11 PM after studying for boards. Zero momentum lost."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Rajkot — The Full Picture
 
 Why Rajkot parents are making coding a priority for their children's future
 
 Rajkot's DNA is entrepreneurial. This is the city where Mahatma Gandhi learned the values of self-reliance, and that spirit shows in every auto-parts workshop on Kalawad Road, every brass fitting factory, and every new-age startup. Saurashtra University's engineering graduates have built Gujarat's industrial backbone. But the auto industry is going electric and digital — Tesla's supply chain runs on software, and Rajkot's manufacturers need engineers who can code CNC machines, build IoT sensors, and write automation scripts. GSEB's updated curriculum reflects this reality. Gujarat CET now tests computational thinking alongside physics and chemistry. For Rajkot families who've always valued practical skills over theoretical knowledge, coding is the ultimate practical skill. It's not abstract — it's the difference between running a workshop and running a smart factory. Rajkot's children don't just need to learn coding. They need to learn it in a way that connects to the real-world engineering and business problems they'll solve tomorrow.
-
-## Success Stories from Rajkot Students
-
-DPDev PatelAge 11 — Kalawad RoadAchievement:Built a Saurashtra folk tales quiz with Gujarati audio narration for each story
-
-"I recorded my grandmother telling Saurashtra stories and coded a quiz around them. The whole mohalla played it."
-
-NSNidhi ShahAge 15 — University RoadAchievement:Won the Gujarat state coding competition with a water usage monitoring dashboard
-
-"My Python dashboard tracks Rajkot's water supply data. The municipal corporation shared it on their page."
-
-AJArpit JadejaAge 17 — Yagnik RoadAchievement:Built an auto-parts inventory tracker that a local factory actually started using
-
-"Jadeja Auto Parts adopted my web app for their 500-item inventory. My first real-world user at age 17."
 
 ## Why Rajkot is the Perfect Place to Learn Coding
 

@@ -186,23 +186,23 @@ If you are deciding when to begin, this table gives you the plain differences be
 | **Homework** | Optional | Tiny and playful | 10-minute tasks |
 | **Best format** | 1-on-1 | Small group works too | Both work well |
 
-Words from parents and students
+What families say
 
-## What parents of 8 year olds tell us.
+## What families say about Modern Age Coders.
 
-Three recent reviews from families with 8-year-old learners. No paid testimonials. Names shortened for privacy.
+Real, verified reviews from Modern Age Coders families.
 
-My son was scared of computer class at school — he thought coding was "big-kid stuff". Three weeks in, he showed me a Scratch story he made about our dog. The teacher has a way of turning his random ideas into finished projects. He is 8 and actually proud of something.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-MMeera J.Parent · Delhi · Small group
+SSonu GoyalParent
 
-We tried a self-paced app for six months — nothing stuck. One live 1-on-1 class a week and now he asks when the next class is. The teacher notes are short but always kind and specific: "he figured out a loop today without help".
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-AAnkit P.Parent · Bengaluru · 1-on-1
+PPoonam RathoreParent
 
-What I like is that nothing feels like homework. The weekend task is usually "finish the turtle drawing you started in class". My daughter is 8 and does it without being asked. That's rare.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-DDivya R.Parent · Hyderabad · GroupCommon questions from parents
+RRia MukherjeeParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

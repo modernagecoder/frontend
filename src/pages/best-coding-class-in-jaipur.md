@@ -223,49 +223,37 @@ Jaipur parents understand the value of future-ready skills. That's why families 
 
  500+IT Companies in Jaipur  GrowingStartup Hub 200+Top CBSE Schools 20+Engineering Colleges
 
-## What Jaipur Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Jaipur who trusted us with their children's coding education.
+Our classes are live and online, so students from Jaipur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
- RS Rajesh SharmaMalviya Nagar, Jaipur
+ SO Sonam OswalParent of Dhairya
 
-"My son was spending all his time on mobile games. Now he builds his own games in Scratch! The teachers are excellent and very patient with kids. Best investment we've made."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- ★★★★★ PG Priya GuptaVaishali Nagar, Jaipur
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a working mother, the flexible online timings are a blessing. My daughter loves the Python course and her school grades in maths have improved too. Highly recommend!"
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
- ★★★★★ AJ Anil JoshiMansarovar, Jaipur
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"We tried offline tuitions but the Jaipur summer heat made it impossible. Online classes from Modern Age Coders are the perfect solution. Quality teaching from home!"
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
- ★★★★★ SA Sunita AgarwalC-Scheme, Jaipur
+ ★★★★★ SG Sonu GoyalParent
 
-"My twins are both learning coding here. Affordable fees and quality teaching — exactly what we were looking for in Jaipur. The recorded sessions are a bonus!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
- ★★★★★ DR Deepak RathoreJagatpura, Jaipur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate our son received helped him in his school science fair. The teachers really care about each student's progress. Worth every rupee!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
- ★★★★★ KM Kavita MeenaRaja Park, Jaipur
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding but the supportive environment made her comfortable. Now she wants to become a software engineer! Amazing transformation."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
 
-## Success Stories from Jaipur Students
-
- ASArjun SharmaAge 11 — Malviya Nagar Achievement:Built a Jaipur heritage quiz game featured in school exhibition
-
-"I made a game about Hawa Mahal and Amber Fort! My classmates love playing it."
-
- AGAnanya GuptaAge 15 — Vaishali Nagar Achievement:Won 2nd place in inter-school coding competition with Python project
-
-"Coding gave me the confidence to compete. I'm preparing for JEE now!"
-
- RJRohit JainAge 17 — Mansarovar Achievement:Built a portfolio website and got recognized at school tech fest
-
-"The web dev course taught me real-world skills. My teachers were impressed!"
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Jaipur
 

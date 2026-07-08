@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Bokaro Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Bokaro Steel City and its district — curious learners who picked up a laptop and started building.
+Our classes are live and online, so students from Bokaro learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AMAniket MahatoAge 11 · Sector 9, BokaroAchievement:Built a Scratch game about loading a steel rake before the furnace runs low.
+ SO Sonam OswalParent of Dhairya
 
-"My game is about filling the steel plant's wagons before the timer ends. My friends kept asking for one more turn, and now two of them want to make their own games too."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-IKSneha IyerAge 15 · City Centre, BokaroAchievement:Coded a Python physics-formula quiz app her section used before the unit test.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought programming would be all theory, but we were building something useful by the third class. My quiz app is on half my section's phones now. I'm set on computer engineering."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RTRaushan PrasadAge 20 · Cooperative Colony, BokaroAchievement:Picked up a paid work-from-home developer stint during his engineering degree.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I study engineering here in the district. The DSA practice and the MERN build gave me something real to show, and a startup took me on part-time — earning while I'm still in college, without moving out of Bokaro."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Bokaro Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families across Bokaro Steel City and its district who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NKNutan KumariSector 2, Bokaro
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into mobile games. Now he shows me the games he has made himself. In a batch this small the teacher notices the exact moment he gets stuck — that is what sold us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★VSD. K. SinghCooperative Colony, Bokaro
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer at the steel plant, so I had high expectations. These classes teach reasoning and clean structure, not syntax to memorise. My daughter can now think a problem through on her own."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PKLakshmi MenonCity Centre, Bokaro
+ ★★★★★
 
-"The weekend slot drops neatly between school and her maths tuition, and there's no ferrying her across the township — she just opens the laptop at home. A real relief for working parents."
-
-★★★★★ASPradeep MahtoPhusro, Bokaro district
-
-"Out in the district a serious coding class simply isn't available nearby. Going online closed that gap entirely — a strong teacher and fair fees. Both my children are enrolled and looking forward to it."
-
-★★★★★RMReena BanerjeeSector 5, Bokaro
-
-"My daughter was hesitant about coding at first. The teacher gave her so much room to try things that she now puts her hand up before anyone else — and she's built a small site for my tailoring orders."
-
-★★★★★SVSanjay OraonChas, Bokaro
-
-"We tried a couple of options before this one. The difference is plain — here they confirm whether my son has actually grasped the idea before moving on, instead of just ticking off the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Bokaro
 

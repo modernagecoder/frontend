@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — strai
 
 A completion certificate to show, plus honest progress notes home so you always know where your child stands.
 
-## Success Stories from Karnal Students
+## What Families Say About Modern Age Coders
 
-Young coders from across Karnal who began with nothing more than curiosity — and a willingness to try, test and fix until it worked.
+Our classes are live and online, so students from Karnal learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-YKYuvansh KambojAge 11 · Sector 12, KarnalAchievement:Made a Scratch "paddy-field harvest" game his class voted the best project of the term.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where a tractor collects rice before the monsoon hits. Everyone in class wanted to beat my high score — and now I'm building a second level with a market where you sell the rice."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-NSNavya SainiAge 15 · Model Town, KarnalAchievement:Built a Python order-tracker for her family's rice-trading shop her father now uses.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding was only for boys who play games all day. Then I wrote a small program that tracks our shop's rice orders — my father actually shows it to buyers now. I'm set on computer science."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ARAman RanaAge 20 · Kunjpura Road, KarnalAchievement:Picked up his first paying freelance client after the MERN + DSA track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm doing my degree here in Karnal and didn't want to move to Gurgaon just to start. After the full-stack project went on my portfolio, a client found me and paid me to build their website. I'm earning from home while I study."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Karnal Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Karnal and its nearby towns who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-RARitu AhlawatSector 12, Karnal
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to finish his homework just to get back to YouTube. Now he asks for extra time on the laptop to fix a bug in his game. The small batch means the teacher actually knows him by name — that's what sold us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DVDr. Deepak Vermanear NDRI, Karnal
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm a scientist, so I'm fussy about how things are taught. They build genuine reasoning, not memorised syntax — and the teacher answered my technical questions properly. My daughter's Python is solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PGPriya GoelMughal Canal, Karnal
+ ★★★★★
 
-"The weekend slot sits neatly around school and her maths tuition. No running across town in the traffic near the market — she just opens the laptop at home. For a working mother that convenience is everything."
-
-★★★★★JCJagdeep ChaudharyGharaunda
-
-"Out in Gharaunda there's simply no good coding institute nearby. This filled the gap completely — a strong teacher, all online, at a fair price. Both my sons share the same batch and look forward to it."
-
-★★★★★MKManpreet KaurModel Town, Karnal
-
-"My daughter is quiet and I worried she would hide at the back. The teacher drew her out gently — within a month she was asking her own questions, and she coded a little billing page for our shop on her own."
-
-★★★★★STSandeep TomarKunjpura Road, Karnal
-
-"We tried a local tuition first and it was just copying notes. Here they stop and check whether my son has actually understood the concept before moving on. That care is the whole difference."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Karnal
 

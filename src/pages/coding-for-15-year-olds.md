@@ -184,23 +184,23 @@ The main difference at 15 is not what they can do — it is what they have time 
 | **DSA level** | Intro | LeetCode easy | Full LC easy/medium |
 | **Downtime** | None | Pause for boards | Exam-block pauses |
 
-Words from parents and students
+What families say
 
-## Class 10 parents — not kidding about the time crunch.
+## What families say about Modern Age Coders.
 
-Genuine reviews from parents of 15-year-olds navigating Class 10 boards.
+Real, verified reviews from Modern Age Coders families.
 
-I was nervous about any non-school class in Class 10. They paused for pre-boards on their own and resumed after. Son finished Class 10 with 94% and a deployed web app. I was wrong to be nervous.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-UUsha P.Parent · Mumbai · 1-on-1
+RRia MukherjeeParent
 
-The teacher aligned with ICSE Class 10 Java syllabus week by week. Her Java board marks went up. She also built a Flutter revision app her friends used during prelims. Rare win-win.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-JJyoti S.Parent · Pune · Group
+SSonu GoyalParent
 
-We did only one 1-hour class a week through the year. Even that was enough for him to finish 50 LeetCode problems and a study-tracker website. Small and steady works.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-KKamal R.Parent · Chennai · 1-on-1Common questions from parents
+PPoonam RathoreParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

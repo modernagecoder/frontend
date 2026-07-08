@@ -314,55 +314,43 @@ Swaroop NagarKidwai NagarCivil LinesMall RoadGovind NagarHarsh NagarKalyanpurKak
 
 Online classes available for students across Kanpur and surrounding areas
 
-## What Kanpur Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Kanpur who trusted us with their children's coding education.
+Our classes are live and online, so students from Kanpur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AGAshok GuptaSwaroop Nagar, Kanpur
+ SO Sonam OswalParent of Dhairya
 
-"My son sees IIT Kanpur's campus every day. Now he writes Python like a first-year IIT student. The dream feels reachable for the first time."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★RSReena ShuklaKidwai Nagar, Kanpur
+ ★★★★★ RM Ria MukherjeeParent
 
-"Kanpur has zero quality coding academies offline. I checked. MAC's online quality is genuinely better than what I found in Noida and Lucknow combined."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★VMVinod MishraCivil Lines, Kanpur
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I graduated from IIT Kanpur in 2003. The CS fundamentals taught here are solid — I can vouch for the curriculum quality as an alumnus."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★SASunita AgarwalGovind Nagar, Kanpur
+ ★★★★★ SG Sonu GoyalParent
 
-"Mall Road coaching centres charge ₹5,000+ for physics alone. MAC charges ₹1,499 for live coding with projects. The priorities are clear."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★RTRamesh TiwariKakadeo, Kanpur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"Board exams meant pausing all tuitions. Not coding. Recorded sessions let my son revise at midnight after studying all day. Flexibility matters."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PVPooja VermaHarsh Nagar, Kanpur
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter coded a calculator for leather pricing — Kanpur's staple industry. Her grandfather (who runs a tannery) was stunned. Practical skills."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Kanpur — The Full Picture
 
 Why Kanpur parents are making coding a priority for their children's future
 
 Kanpur's transformation from the Manchester of India to a technology hub is being driven by one institution: IIT Kanpur. The SIIC (Startup Incubation and Innovation Centre) at IIT Kanpur has incubated companies valued at billions of rupees. HBTU Kanpur (formerly HBTI) produces engineers that the manufacturing sector relies on. But here's what's changing: the manufacturing sector itself is going digital. Industry 4.0 means coding isn't just for IT companies anymore — it's for every factory floor, every supply chain, every quality control process. UP Board students who learn Python today will program the CNC machines and AI quality systems tomorrow. JEE Advanced's questions increasingly require algorithmic thinking that goes beyond textbook physics. Kanpur's coaching institutes teach maths and science brilliantly, but coding is the multiplier that turns a good JEE rank into a great one. IIT Kanpur's own admissions data shows that students with programming experience adapt faster to the rigorous first-year curriculum. For families in Swaroop Nagar and Kidwai Nagar, the message is clear: start coding now.
-
-## Success Stories from Kanpur Students
-
-AGAditya GuptaAge 11 — Swaroop NagarAchievement:Built a 1857 Revolution quiz about Kanpur's role in India's freedom struggle
-
-"My game teaches kids how Kanpur fought the British. My history teacher uses it in class now."
-
-SSShivani ShuklaAge 15 — Kidwai NagarAchievement:Won the UP state coding olympiad with a Ganga river pollution tracking dashboard
-
-"I plotted Ganga pollution data from Kanpur to Varanasi. The environment department asked for my code."
-
-RMRohit MishraAge 17 — Civil LinesAchievement:Built a JEE resource aggregator that HBTU's tech club promoted to all engineering aspirants
-
-"HBTU students shared my website in their WhatsApp groups. 500 users in the first week."
 
 ## Why Kanpur is the Perfect Place to Learn Coding
 

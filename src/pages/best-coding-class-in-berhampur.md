@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month — sensible fees a Berhampur househol
 
 A completion certificate plus regular progress notes home, so you always know what your child has built and where they are headed next.
 
-## Success Stories from Berhampur Students
+## What Families Say About Modern Age Coders
 
-Young coders from around the Silk City — a first finished game, a school-fair winner, a college internship. Small, true beginnings, each one a thread that became something.
+Our classes are live and online, so students from Berhampur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DPDebasish PatroAge 11 · Gandhi Nagar, BerhampurAchievement:Made a Scratch game where you weave a saree by catching the right colour threads — his class kept replaying it.
+ SO Sonam OswalParent of Dhairya
 
-"My grandmother weaves, so I made a game about it. You have to catch the gold thread at the right time or the border breaks. My friends got really competitive over it!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SPSreya PadhiAge 15 · Berhampur University areaAchievement:Built a Python quiz app on Odia general knowledge her batch used to revise before a test.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding was only for boys who were already good at computers. It turned out to be just careful logic, step by step. Now I want to do computer engineering after Class 12."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-KRKishore ReddyAge 20 · Lanjipalli, BerhampurAchievement:Took on his first paid freelance build while still in his Berhampur college, after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone said I'd have to move to Bhubaneswar or Hyderabad for tech work. Instead a client found my GitHub and paid me to build their site — from my own room here. The DSA practice and the live project made that possible."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Berhampur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from Silk-City families who trusted us with their child's first steps into code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SSSasmita SahuHill Patna, Berhampur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone after school. A few months in, he called me over to show a game he had made himself. In a small batch the teacher actually notices when he's stuck — that's what won me over."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PRPrasad RaoGandhi Nagar, Berhampur
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a software services desk, so I'm hard to please on teaching. They build reasoning, not syntax to mug up. My daughter can now reason her own way through a Python problem — that's the real test."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★LMLaxmi MohantyLanjipalli, Berhampur
+ ★★★★★
 
-"The weekend slot sits neatly around school and his tuition. No rushing him through Gate Bazar traffic for a class — he just opens the laptop at home. For working parents that matters a lot."
-
-★★★★★RPRamesh PanigrahiChhatrapur (near Berhampur)
-
-"We're a little outside the city, where a serious coding class simply isn't nearby. Going online fixed that completely — a strong teacher and sensible fees, and my son hasn't missed a single Saturday."
-
-★★★★★ANAnjali NaiduGoilundi, Berhampur
-
-"My daughter was shy about coding and thought it wasn't for her. The teacher's patience changed that — she's begun building a little website for our family silk shop, and she now looks forward to class."
-
-★★★★★SBSuresh BeheraAska Road, Berhampur
-
-"We had tried one local tutor before. The difference is in the follow-through — here they check that the concept actually landed before moving on, and the monthly note home tells me exactly where he stands."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Berhampur
 

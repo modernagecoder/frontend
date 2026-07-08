@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month, with transparent international rates 
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Kannur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Kannur and Malabar — some learning from Fort Road, some from a flat in the Gulf. Each one started exactly where your child is today: curious, and ready to build.
+Our classes are live and online, so students from Kannur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DNDevananda NambiarAge 11 · Thavakkara, KannurAchievement:Built a Scratch game about a Theyyam performer dodging festival crowds — shown at her school's onam fair.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only watch videos. Now I make my own games! Mine has a Theyyam dancer you move through a temple ground collecting coins. My friends keep asking me to make level two."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-FRFathima RahmanAge 15 · Kannur family in SharjahAchievement:Built a Python app to help her grandmother in Kannur track medicine timings, while learning from Sharjah.
+ ★★★★★ RM Ria MukherjeeParent
 
-"We live in Sharjah but my heart is in Kannur. My teacher in India taught me over video like he was in the same room. I made a small app that reminds my Ammumma about her medicines back home. That felt amazing."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-AKAbhinav KuttappanAge 20 · ThalasseryAchievement:Landed a remote developer internship after the DSA + MERN track, while studying at College of Engineering Thalassery.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone said you have to leave Kannur to get into tech. I cracked a remote internship from my hostel room in Thalassery. The mock interviews and the full-stack project on my CV did the talking — I never had to move."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Kannur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from Malabar families — in Kannur and across the Gulf — who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SPSreeja PanickerTalap, Kannur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son lived on his phone. Now he sits down to build his own little games and explains the logic to me while I'm in the kitchen. The small batch means the teacher actually knows him by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★AMAnwar MoideenKannur family in Dubai
+ ★★★★★ PR Poonam RathoreParent
 
-"We are in Dubai but wanted our daughter taught by an Indian teacher who understands our background. The timing works perfectly for us, and her Python is honestly better than mine. Worth every dirham."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RVRemya VijayanFort Road, Kannur
+ ★★★★★
 
-"The weekend batch fits perfectly around school and her tuition. No running through Kannur town traffic for a class — she just opens the laptop at home. A real blessing for working parents like us."
-
-★★★★★JTJaseela ThangalChovva, Kannur
-
-"In our part of Kannur, a really good offline computer class is hard to find. This solved it completely — a top teacher, online, at a fair fee. Both my children are enrolled and they actually look forward to the class."
-
-★★★★★NKNisha KammathPayyambalam, Kannur
-
-"My daughter was shy and nervous about coding. The teacher was so patient that she's now the most eager one in her batch. She even built a small website for my husband's handloom shop!"
-
-★★★★★PBPradeep BalanKannur family in Muscat
-
-"We moved to Muscat for work and worried our son would lose touch with quality Indian teaching. We tried two other online places first. The difference here is night and day — they check that he understood the concept, not just that the hour finished."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Kannur
 

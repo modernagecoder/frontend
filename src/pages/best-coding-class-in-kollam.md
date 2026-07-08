@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month, with the fee stated plainly up front 
 
 A completion certificate, plus honest progress notes you actually understand — both worth adding to a school or college application.
 
-## Success Stories from Kollam Students
+## What Families Say About Modern Age Coders
 
-Real young coders from around Kollam and the coast. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Kollam learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AKAdwaith KrishnaAge 11 · Kadappakada, KollamAchievement:Built a Scratch houseboat game his school showed off at its science exhibition.
+ SO Sonam OswalParent of Dhairya
 
-"I only used to play games before. Now I make them. I built one where you steer a houseboat across Ashtamudi lake and dodge the fishing nets — my friends kept asking for one more turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-AFAleena FathimaAge 15 · Asramam, KollamAchievement:Took the prize at her school IT fair with a Python library-tracker for her class.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python looked frightening on day one, but my teacher made each piece simple. The library app I built is still used by my class monitor. I want to do computer science and maybe work for a company abroad from right here in Kollam."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-SNSreehari NairAge 20 · TKM College, KilikollurAchievement:Landed his first remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm in my third year at TKM. The DSA sheet and mock interviews got me ready, and the MERN project on my CV did the rest — I picked up a remote internship without leaving Kollam. That's the whole point: the work comes to you now."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Kollam Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families around Kollam and the coast who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-RPReshma PillaiChinnakada, Kollam
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to stay stuck to his tablet. Now he builds his own little games and explains the logic to me over dinner. The small batch is what makes the difference — the teacher actually knows him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★STShibu ThomasKottiyam, Kollam
+ ★★★★★ PR Poonam RathoreParent
 
-"I work in software in the Gulf, so I can tell when teaching is real. These classes go after logic and problem-solving, not just syntax — and my daughter's Python is genuinely solid now. Worth every rupee."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★BVBindu VijayanThevally, Kollam
+ ★★★★★
 
-"The weekend batch slots in neatly between school and tuition. There's no running across town for a class — she just logs in from home by the lake. For working parents like us, that convenience is everything."
-
-★★★★★JJJacob JosephKarunagappally
-
-"Out in Karunagappally, a good offline coding class simply isn't an option. This fixed that entirely — a strong teacher, online, at a fair fee. Both my children are enrolled and clearly love their classes."
-
-★★★★★SRSajitha RajanPolayathode, Kollam
-
-"My daughter was shy about coding at first. The teacher put her at ease so well that she's now the most eager one in her batch — she even built a small website for our family's cashew business. I didn't expect that."
-
-★★★★★PNPraveen NambiarUliyakovil, Kollam
-
-"We tried two other tuitions before landing here, and the gap is huge. These teachers actually confirm the child has understood the idea — they don't just rush to finish the lesson and move on."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Kollam
 

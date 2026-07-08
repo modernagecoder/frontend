@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — fair 
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Udupi & Manipal
+## What Families Say About Modern Age Coders
 
-Young coders from around the coast — a few months ago, each of them was simply a curious kid with a laptop. Here's where that took them.
+Our classes are live and online, so students from Udupi learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AKAniketh KamathAge 11 · Kunjibettu, UdupiAchievement:Built a Scratch game about a Malpe fishing boat dodging waves — shown at his school's science day.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you steer a boat out of Malpe without hitting the rocks. My friends kept trying to beat my high score. I never knew I could build something people actually want to play."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SSSannidhi ShenoyAge 15 · ManipalAchievement:Built a Python web app to track the school's recycling drive across classes.
+ ★★★★★ RM Ria MukherjeeParent
 
-"My family teaches at MIT, so the bar at home is high. What surprised me is that I didn't just copy code — I understood why it worked. I'm aiming for computer engineering now, and I feel ready."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-PRPrajwal RaoAge 20 · Manipal (Engineering)Achievement:Picked up a paid remote part-time gig with an overseas startup while still in college.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The DSA grind plus building a real MERN app got me an interview with a small team abroad. Learning to use AI agents properly was the part that made me actually faster than I expected. I work remotely from Manipal now."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Udupi & Manipal Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from coastal-Karnataka families — and a few NRI parents — who trusted us with their child's first steps into code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-RPRashmi PaiUdupi Town
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to just watch videos. Now he shows me what he is building and proudly walks me through how it works. The small batch means the teacher actually knows him by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★SBDr. Suresh BhatManipal
+ ★★★★★ PR Poonam RathoreParent
 
-"I teach at the university, so I am hard to impress on academics. What won me over is that they build reasoning, not memorised syntax. My daughter's grasp of logic is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★VKVidya KamathKallianpur
+ ★★★★★
 
-"The weekend batch slots in neatly around school and tuition. No driving to a centre — she simply logs in from home. For a working couple in Kallianpur, that convenience is everything."
-
-★★★★★GSGanesh ShettyBrahmavar
-
-"Out here near Brahmavar, a good coding teacher in person is simply not available. This fixed it entirely — strong teacher, online, fair fees. Both my children are enrolled and look forward to class."
-
-★★★★★SNShruthi NayakMalpe, Udupi
-
-"My daughter was shy about trying coding. The teacher's patience changed that completely — she now asks to log in early. She even put together a little website for our family's catering work."
-
-★★★★★AAAnitha AcharyaDubai (from Udupi)
-
-"We live in the Gulf but wanted our son taught the way they teach back home in Udupi. The timing was easy to arrange, and they check he has truly understood each idea — not just finished the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Udupi & Manipal
 

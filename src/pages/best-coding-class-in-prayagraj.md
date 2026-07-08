@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Prayagraj Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Prayagraj. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Prayagraj learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ADAditya DwivediAge 11 · Tagore Town, PrayagrajAchievement:Built a Scratch "Sangam boat ride" game his school showed at its science day.
+ SO Sonam OswalParent of Dhairya
 
-"Earlier I just played games on my father's phone. Now I make my own! I made a boat game where you cross the Sangam and collect diyas — even my teacher tried it twice."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SMSaumya MishraAge 15 · Civil Lines, PrayagrajAchievement:Built a Python quiz app her class now uses to revise for board exams.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I always loved solving problems for exams, so Python suited me. I made a quiz app that picks random questions from each chapter — my friends use it before every test. Now I want to crack IIIT."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-PSPrateek SrivastavaAge 20 · Jhunsi, PrayagrajAchievement:Landed a remote internship after finishing the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a B.Tech student in Prayagraj and worried I'd be left behind because I'm not in a metro. The DSA sheet and mock interviews changed that — I got a remote internship in my fifth semester, all from home in Jhunsi."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Prayagraj Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Prayagraj who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-ATAnita TiwariGeorgetown, Prayagraj
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son could recite formulas but couldn't apply them. After a few months of coding here, his thinking became step-by-step and even his maths improved. The small batch is what made it work for us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RPDr. Rakesh PandeyTagore Town, Prayagraj
+ ★★★★★ PR Poonam RathoreParent
 
-"As a university teacher myself, I'm hard to impress. What I liked is that they teach concepts and reasoning, not just syntax to memorise. My daughter's Python foundation is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SYShalini YadavJhunsi, Prayagraj
+ ★★★★★
 
-"We live in Jhunsi, so good classes meant crossing the bridge into the city. Now my daughter just logs in from home — no travel, no traffic, the same expert teacher. A real relief for us."
-
-★★★★★MSManoj SahuNaini, Prayagraj
-
-"In Naini, a genuinely good coding class was hard to find nearby. This solved it completely — a strong teacher, online, and honest fees. Both my children are enrolled and look forward to every class."
-
-★★★★★PKPriya KeshariAllahpur, Prayagraj
-
-"My daughter was shy and convinced coding wasn't for girls like her. A few weeks in, she was raising her hand in every session — and she has just built a small website for my home tailoring work. I could not be prouder."
-
-★★★★★AAArif AhmadKatra, Prayagraj
-
-"We had tried a local batch near Katra before. The contrast is huge — here the teacher actually confirms my son has understood a concept before moving on, instead of just rushing through the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Prayagraj
 

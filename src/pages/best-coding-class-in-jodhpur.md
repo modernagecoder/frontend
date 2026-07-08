@@ -314,55 +314,43 @@ SardarpuraPaotaRatanadaShastri NagarPratap NagarBasniPal RoadResidency RoadMando
 
 Online classes available for students across Jodhpur and surrounding areas
 
-## What Jodhpur Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Jodhpur who trusted us with their children's coding education.
+Our classes are live and online, so students from Jodhpur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKLocal ParentSardarpura, Jodhpur
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Rajasthan students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSatisfied ParentSardarpura, Jodhpur
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a IIT Jodhpur professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKHappy ParentSardarpura, Jodhpur
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Jodhpur."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMProud ParentSardarpura, Jodhpur
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Rajasthan Board school schedule. Highly recommend for every Jodhpur family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKDelighted ParentSardarpura, Jodhpur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at IIT Jodhpur's AIIMS Jodhpur."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSGrateful ParentSardarpura, Jodhpur
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join IIT Jodhpur!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Jodhpur — The Full Picture
 
 Why Jodhpur parents are making coding a priority for their children's future
 
 Jodhpur — the Blue City — has received a massive educational boost with IIT Jodhpur, one of India's newer IITs that's rapidly building a reputation for AI and data science research. AIIMS Jodhpur makes it a dual-IIT-AIIMS city. MBM Engineering College has trained Rajasthan's engineers for decades. For parents in Sardarpura and Paota, IIT Jodhpur changes the aspiration landscape completely. RBSE's curriculum includes computational thinking, and JEE preparation rewards the exact algorithmic logic that coding develops. Jodhpur children who start coding now will apply to IIT Jodhpur with a natural advantage.
-
-## Success Stories from Jodhpur Students
-
-APAryan PatelAge 11 — SardarpuraAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Jodhpur's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — PaotaAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — RatanadaAchievement:Built a portfolio website and got recognized at IIT Jodhpur tech fest
-
-"The web dev course taught me real skills. IIT Jodhpur professors noticed my work!"
 
 ## Why Jodhpur is the Perfect Place to Learn Coding
 

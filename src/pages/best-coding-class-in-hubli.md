@@ -314,55 +314,43 @@ VidyanagarKeshwapurGokul RoadDeshpande NagarNavanagarUnkalSatturOld HubliTarihal
 
 Online classes available for students across Hubli and surrounding areas
 
-## What Hubli Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Hubli who trusted us with their children's coding education.
+Our classes are live and online, so students from Hubli learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKLocal ParentVidyanagar, Hubli
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Karnataka students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSatisfied ParentVidyanagar, Hubli
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a BVB College of Engineering professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKHappy ParentVidyanagar, Hubli
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Hubli."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMProud ParentVidyanagar, Hubli
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Karnataka Board school schedule. Highly recommend for every Hubli family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKDelighted ParentVidyanagar, Hubli
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at BVB College of Engineering's Karnatak University."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSGrateful ParentVidyanagar, Hubli
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join IIT Dharwad!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Hubli — The Full Picture
 
 Why Hubli parents are making coding a priority for their children's future
 
 Hubli-Dharwad is North Karnataka's powerhouse, and it just got a massive upgrade: IIT Dharwad. When the Indian government chose Dharwad for a new IIT, it validated what locals always knew — this twin city is an education hub. BVB College of Engineering (KLE Technological University) is among Karnataka's best. Karnatak University is a major research centre. The Deshpande Foundation has built an innovation ecosystem that produces startups. For parents in Vidyanagar and Keshwapur, IIT Dharwad changes everything. SSLC/PUC boards include computational thinking. KCET rewards logical reasoning. Children who start coding now will apply to IIT Dharwad with a head start that no other skill can provide.
-
-## Success Stories from Hubli Students
-
-APAryan PatelAge 11 — VidyanagarAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Hubli's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — KeshwapurAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — Gokul RoadAchievement:Built a portfolio website and got recognized at BVB College of Engineering tech fest
-
-"The web dev course taught me real skills. BVB College of Engineering professors noticed my work!"
 
 ## Why Hubli is the Perfect Place to Learn Coding
 

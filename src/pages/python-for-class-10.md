@@ -179,23 +179,23 @@ Board year differences.
 | **Web** | Flask + Django | Django deployed | Full Django + DRF |
 | **ML** | Full pipeline | NLP intro | DL + production |
 
-Words from parents and students
+What families say
 
-## Class 10 Python parents.
+## What families say about Modern Age Coders.
 
-Three recent reviews.
+Real, verified reviews from Modern Age Coders families.
 
-Class 10 CBSE. The programme paused during pre-boards. My son finished with 94% and a deployed Django blog. I was wrong to worry.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-SShruti M.Parent · Mumbai · 1-on-1
+SSonam OswalParent of Dhairya
 
-Her Java board score was 96 (ICSE) — Python was her extra. She built a Flutter-like script that helped her friends. Win-win.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-RRanjan P.Parent · Pune · Group
+KKrishnam BhatterFormer student
 
-One 1-hour class a week through the year. My son still solved 50 LeetCode problems and shipped a study tracker. Small and steady.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-DDipesh K.Parent · Chennai · 1-on-1Common questions from parents
+SShradha SarafParent of MivaanCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

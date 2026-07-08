@@ -314,55 +314,43 @@ GS RoadPaltan BazaarFancy BazaarDispurChandmariZoo RoadGaneshguriSix MileBeltola
 
 Online classes available for students across Guwahati and surrounding areas
 
-## What Guwahati Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Guwahati who trusted us with their children's coding education.
+Our classes are live and online, so students from Guwahati learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-HSHemanta SharmaDispur, Guwahati
+ SO Sonam OswalParent of Dhairya
 
-"My son walks past IIT Guwahati's gate every week. Now he's writing the kind of code IIT-G students write in first year. The motivation is through the roof."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★MHMrinmoy HazarikaGS Road, Guwahati
+ ★★★★★ RM Ria MukherjeeParent
 
-"Finding quality tech education in Guwahati used to mean sending kids to Delhi or Bangalore. Not anymore. My daughter's Python is stronger than her cousin's in Noida."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★RBRupa BoraChandmari, Guwahati
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Hindi and English instructions work perfectly for us. The teachers switch naturally. Both kids are comfortable and learning fast."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★JDJyoti DasSix Mile, Guwahati
+ ★★★★★ SG Sonu GoyalParent
 
-"My son went from Scratch to building a full website in 8 months. His school didn't even have a computer science teacher until this year. MAC filled that vacuum."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★PKPranab KalitaBeltola, Guwahati
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"At ₹1,499, I expected average quality. I was wrong. The instructors are better than the ₹5,000 offline class we tried on GS Road. We cancelled that and stayed with MAC."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★AGAnjali GoswamiGaneshguri, Guwahati
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter made a website about Assam's tea gardens for her school project. Her teacher now uses it as an example for the entire class."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Guwahati — The Full Picture
 
 Why Guwahati parents are making coding a priority for their children's future
 
 Guwahati is the gateway to an entire region's aspirations. When a student from Nagaland, Mizoram, or Manipur wants world-class education, they look to Guwahati first. IIT Guwahati — consistently ranked among India's top 10 institutions — anchors a growing tech ecosystem that includes TCS, Wipro, and the IIT-G technology incubation centre. Cotton University and Gauhati University are modernizing their curricula to include data science and AI. The Assam government's Smart City mission is digitizing Guwahati's infrastructure. For parents on GS Road and in Dispur, the calculation is clear: the Northeast's tech future runs through Guwahati, and coding is the ticket. SEBA and AHSEC boards are introducing computational thinking, and the students who start early don't just pass exams — they build the kind of problem-solving mindset that IIT Guwahati's entrance committee looks for. We serve not just Guwahati but students across all eight Northeast states, making this the region's most accessible coding education.
-
-## Success Stories from Guwahati Students
-
-AHArjun HazarikaAge 11 — DispurAchievement:Created a Assam wildlife quiz featuring the one-horned rhinos of Kaziranga
-
-"My quiz has rhinos, elephants, and even the hoolock gibbon. The Kaziranga visitor centre wants to display it."
-
-PDPriyanka DasAge 15 — GS RoadAchievement:Won the Northeast coding olympiad with a Brahmaputra flood-level prediction model
-
-"I used 15 years of water-level data to train my model. The Assam Disaster Management Agency shared my project."
-
-RSRohit SharmaAge 17 — ChandmariAchievement:Built a Northeast India tourism portal covering all 8 states, featured at IIT Guwahati's tech fest
-
-"IIT-G's tech fest gave my portal a 'Most Useful Project' award. I couldn't believe it."
 
 ## Why Guwahati is the Perfect Place to Learn Coding
 

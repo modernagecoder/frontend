@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Amravati Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Amravati and Vidarbha — proof of what a curious child can build with the right teacher, right here at home.
+Our classes are live and online, so students from Amravati learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ADArnav DeshmukhAge 11 · Rajapeth, AmravatiAchievement:Built a Scratch game about guiding an orange cart through the Vidarbha mandi — shown at his school exhibition.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only play games. Now I make them! My game is about taking a cart of oranges to the market without dropping any — everyone in my class wanted a turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SJSanika JadhavAge 15 · Sai Nagar, AmravatiAchievement:Won her school's tech fair with a Python attendance-and-marks app.
+ ★★★★★ RM Ria MukherjeeParent
 
-"At first I thought programming was only for big-city kids. My teacher proved me wrong. I built an app my class teacher actually uses now, and I want to study computer science — without leaving Amravati to do it."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-PWPranav WankhedeAge 19 · Badnera Road, AmravatiAchievement:Landed a remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm an engineering student here in Amravati. I always thought you had to move to Pune for a good break. The mock interviews and DSA practice got me a remote internship in my third semester — the project on my resume did the talking."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Amravati Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Amravati and Vidarbha who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SKSwati KaleGadge Nagar, Amravati
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son was glued to his phone. Now he sits down and builds his own little games. Honestly the best decision we made this year — the small batch means the teacher actually knows him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RIRahul IngleCamp, Amravati
+ ★★★★★ PR Poonam RathoreParent
 
-"I work in software remotely from Amravati, so I know real teaching when I see it. They teach logic and problem-solving, not just syntax. My daughter's Python is genuinely solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PDPriya DhoteRukmini Nagar, Amravati
+ ★★★★★
 
-"The weekend batch fits perfectly around school and tuitions. No running across town in the autorickshaw for a class — he just logs in from home. A blessing for working parents like us."
-
-★★★★★MGMahesh GawandeBadnera, Amravati
-
-"Out in Badnera, a really good offline coding class is hard to find. This solved it completely — top teacher, online, fair fees. Both my kids are enrolled and clearly enjoying it."
-
-★★★★★VTVaishali ThakareShankar Nagar, Amravati
-
-"My daughter was nervous about coding. The teacher made her so comfortable that she now looks forward to every class. She even built a small website for our family shop!"
-
-★★★★★SRSachin RathodDastur Nagar, Amravati
-
-"We tried two other tutors before this. The difference is night and day — here they actually check whether the child understood the concept, not just finished the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Amravati
 

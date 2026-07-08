@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Patiala Students
+## What Families Say About Modern Age Coders
 
-Young coders from right across Patiala and the surrounding towns. Not one of them had written a line of code before their first class — they simply turned up curious, and kept building from there.
+Our classes are live and online, so students from Patiala learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ESEkamjot SinghAge 11 · Model Town, PatialaAchievement:Made a Scratch quiz game on Patiala's monuments that his class plays at break.
+ SO Sonam OswalParent of Dhairya
 
-"My game asks questions about Qila Mubarak and Sheesh Mahal and keeps the score. I used to just play games on the tablet — now I build my own and my friends try to beat my high score."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-JKJasleen KaurAge 15 · Urban Estate, PatialaAchievement:Built a Python marks-and-attendance app her class teacher now uses.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought writing real code would be far too hard for me, but the teacher took it one small step at a time. Now my project is being used in my own classroom — and I'm aiming for CS at Thapar."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-HGHarnoor GillAge 20 · Rajpura (near Patiala)Achievement:Landed a remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a second-year engineering student near Rajpura. The DSA sheet and mock rounds got me ready, and the MERN project on my CV did the rest — I picked up a work-from-home internship without moving to a metro."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Patiala Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from Patiala families who trusted us with their child's very first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MKManpreet KaurModel Town, Patiala
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son barely looked up from his phone. Now he opens his laptop to show me the games he has made and walks me through how each part works. The tiny batch is what makes that happen."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★GSGurpreet SandhuCivil Lines, Patiala
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm a software engineer myself, so I'm hard to impress. They teach reasoning and problem-solving, not just syntax to memorise. My daughter's Python has become genuinely solid."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RBRitu BansalUrban Estate, Patiala
+ ★★★★★
 
-"The weekend slot sits neatly between school and tuition. No running across Patiala for a class — he just joins from his room. For working parents like us, that convenience matters."
-
-★★★★★JSJagdeep SinghRajpura (near Patiala)
-
-"In Rajpura, a genuinely good coding teacher is simply not around the corner. This solved it entirely — a strong teacher, online, at a fair fee. Both my children are enrolled and clearly enjoying it."
-
-★★★★★NANavjot AroraTripuri, Patiala
-
-"My daughter was shy and unsure at first. The teacher gave her so much confidence that she now puts her hand up before anyone else in the batch — and she has even built a little website for my shop."
-
-★★★★★SSSukhwinder SidhuNabha (near Patiala)
-
-"We had tried a couple of places before. The difference here is that they actually confirm whether the child has understood the idea, rather than just rushing to finish the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Patiala
 

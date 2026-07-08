@@ -223,49 +223,37 @@ Kochi parents understand the value of future-ready skills. That's why families f
 
  400+IT Companies at Infopark Kochi  96%Literacy Rate 150+MNCs in Kochi 15+Engineering Colleges
 
-## What Kochi Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Kochi who trusted us with their children's coding education.
+Our classes are live and online, so students from Kochi learn in the same small batches as families across India. These are real, verified reviews from our community.
 
- TK Thomas KurianKakkanad, Kochi
+ SO Sonam OswalParent of Dhairya
 
-"My son was always on his iPad playing games. Now he's building his own games! The instructors are patient and the curriculum is well-structured. Best decision for his summer vacation."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- ★★★★★ LN Lakshmi NairEdapally, Kochi
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a software engineer at a Infopark company, I know good coding education. Modern Age Coders teaches coding the right way — with logic and problem-solving, not just syntax."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
- ★★★★★ RM Rajesh MenonErnakulam, Kochi
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The flexible timings work perfectly with Kochi traffic! Online classes save us hours. Weekend batches are a blessing for working parents like us."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
- ★★★★★ PG Priya GeorgePanampilly Nagar, Kochi
+ ★★★★★ SG Sonu GoyalParent
 
-"Affordable fees without compromising on quality — that's rare to find in Kochi. My twins are both enrolled and they're learning so much. The recorded sessions help when they miss a class."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
- ★★★★★ SP Sajeev PillaiThrikkakkara, Kochi
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My daughter was hesitant about coding initially. The teachers made her feel comfortable and now she's the most enthusiastic one in her batch. She's already talking about working at Infopark!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
- ★★★★★ DK Deepa KrishnanAluva, Kochi
+ ★★★★★ PR Poonam RathoreParent
 
-"We tried two other coding institutes in Kochi before finding Modern Age Coders. The difference is night and day. Here, they actually care about whether kids understand concepts."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
 
-## Success Stories from Kochi Students
-
- ATArun ThomasAge 11 — Kakkanad Achievement:Built a Kerala tourism quiz game featured in school exhibition
-
-"I made a game about Kochi landmarks! My friends at school love playing it."
-
- MNMeera NairAge 14 — Edapally Achievement:Won 1st place in school science fair with Python Malayalam learning app
-
-"I want to work at a Infopark company someday. Coding gave me the confidence!"
-
- VMVishnu MenonAge 17 — Ernakulam Achievement:Got internship at Infopark company with portfolio website
-
-"The web dev course helped me get an internship in 12th! Now preparing for KEAM."
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Kochi
 

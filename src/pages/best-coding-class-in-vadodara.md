@@ -314,55 +314,43 @@ AlkapuriSayajigunjFatehgunjAkotaManjalpurGotriSubhanpuraKarelibaugVasnaTandaljaA
 
 Online classes available for students across Vadodara and surrounding areas
 
-## What Vadodara Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Vadodara who trusted us with their children's coding education.
+Our classes are live and online, so students from Vadodara learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RPRajesh PatelAlkapuri, Vadodara
+ SO Sonam OswalParent of Dhairya
 
-"My son went from playing PUBG all day to building his own game in Scratch. The teachers are patient and the Gujarati-friendly environment put him at ease immediately."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★PSPriya ShahFatehgunj, Vadodara
+ ★★★★★ RM Ria MukherjeeParent
 
-"I teach at MS University, so I recognise quality instruction. The Python syllabus here covers more than some first-year college courses. My daughter is thriving."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★ADAmit DesaiAkota, Vadodara
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"We compared five offline institutes in Vadodara. None offered AI or web development at this price. At ₹1,499, this is the smartest investment we made this year."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★KMKavita MehtaGotri, Vadodara
+ ★★★★★ SG Sonu GoyalParent
 
-"Both kids attend a GSEB school with packed schedules. The weekend batches and recorded classes mean they never miss a lesson, even during exam season."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★DJDhruv JoshiManjalpur, Vadodara
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The Java course helped my son clear a college coding round. His interviewer at MS University's tech fest said the portfolio made a real difference."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★NTNeha TrivediKarelibaug, Vadodara
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was convinced coding was only for boys. Three months in, she built a website about Laxmi Vilas Palace and presented it at school. Confidence transformed."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Vadodara — The Full Picture
 
 Why Vadodara parents are making coding a priority for their children's future
 
 Vadodara's education ecosystem is uniquely positioned at the crossroads of Gujarat's industrial might and cultural richness. With MS University producing top engineers for over 70 years, the Faculty of Technology alumni network spanning companies like L&T, ONGC, and Reliance, and a new wave of startups emerging from Sayajigunj's co-working spaces, this city understands that technical education isn't optional — it's foundational. The GSEB curriculum now integrates computational thinking, and Vadodara parents who once focused solely on tuition for board exams are now adding coding to their children's learning stack. The city's pharma corridor (Alembic, Sun Pharma) increasingly relies on Python for data analytics and automation, making coding the most practical skill a Vadodara student can learn today.
-
-## Success Stories from Vadodara Students
-
-APAryan PatelAge 11 — AlkapuriAchievement:Built a Navratri quiz game that his school played during the Garba night celebration
-
-"My Garba quiz stumped even the teachers! 200 students played it at our school fest."
-
-DSDiya ShahAge 15 — SayajigunjAchievement:Won the district science fair with a Python weather dashboard for Gujarat
-
-"I pulled real weather data with Python and made charts. The judges gave me first prize."
-
-RDRishi DesaiAge 17 — FatehgunjAchievement:Built a college admission tracker site that MS University featured at their tech expo
-
-"Faculty of Technology professors shared my project link with incoming students. Unreal feeling."
 
 ## Why Vadodara is the Perfect Place to Learn Coding
 

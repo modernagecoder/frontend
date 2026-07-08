@@ -353,51 +353,37 @@ Expert mentors from ₹1,499/month, billed as one flat figure. Nothing buried in
 
 Completion certificates plus regular progress notes that genuinely strengthen portfolios and applications.
 
-## Success Stories from Ghaziabad Students
+## What Families Say About Modern Age Coders
 
-Real young coders from right across Ghaziabad. Every one of them began exactly where your child stands today — curious, and ready to build something.
+Our classes are live and online, so students from Ghaziabad learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-KCKabir ChauhanAge 11 · IndirapuramAchievement:Built a Scratch RapidX-driving game his society's holiday fair lined up to play.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only play games. Now I make them! I made one where you drive the Namo Bharat train from Sahibabad without crashing — the kids in my tower kept asking for another turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SNSaanvi NagarAge 15 · VasundharaAchievement:Topped her school science exhibition with a Python homework-and-marks tracker.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python looked terrifying on day one, but the teacher made every piece click. I built a tracker my class teacher actually uses now. I want to study CS and join a product team in NCR."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ATAryan TomarAge 20 · Raj Nagar ExtensionAchievement:Cracked his first internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a third-year at an engineering college near Ghaziabad. The mock interviews and the DSA sheet got me genuinely ready — I landed an internship before campus placements even started. My MERN project did most of the talking."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Ghaziabad Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families right across Ghaziabad who trusted us with their child's very first steps in code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MSMeenakshi SharmaIndirapuram
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"A year ago my son only wanted YouTube on his phone. These days he is debugging his own quiz game and proudly demoing it to his grandparents. The tiny batch means the teacher actually knows him — that's what won us over."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RCRohit ChaudharyVaishali
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm in IT myself and commute across NCR every day, so I can spot real teaching a mile off. They drill logic and problem-solving, not just syntax. My daughter's Python is properly solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PTPriyanka TyagiRaj Nagar Extension
+ ★★★★★
 
-"The weekend batch slots in perfectly around school and tuitions. No hunting for an auto to a faraway centre — he just logs in from home. For working parents like us, that is everything."
-
-★★★★★DVDeepak VermaCrossings Republik
-
-"Out in Crossings Republik, a really good offline class is hard to come by. This solved it outright — excellent teacher, online, fair fees. Both my kids are enrolled and clearly loving it."
-
-★★★★★NSNidhi SinghalVasundhara
-
-"My daughter was so nervous about coding. The teacher put her at ease so quickly that she is now the keenest in her batch — she even built a little website for my home boutique!"
-
-★★★★★ABAnil BhatiKaushambi
-
-"We tried a couple of other tuitions before this. The gap is night and day — here they actually check whether the child has understood the idea, not just whether the lesson is over."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Ghaziabad
 

@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 A completion certificate at the end, plus honest progress notes along the way — useful proof for portfolios and college forms.
 
-## Success Stories from Panipat Students
+## What Families Say About Modern Age Coders
 
-Young coders from around the City of Weavers, in their own words. Every one of them began as a beginner with nothing but curiosity — exactly where your child stands now.
+Our classes are live and online, so students from Panipat learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-YDYuvraj DahiyaAge 11 · Model Town, PanipatAchievement:Made a Scratch "carpet-loom" matching game his class voted the best project of the term.
+ SO Sonam OswalParent of Dhairya
 
-"My dad's friends run mills, so I made a game where you match coloured threads on a loom before time runs out. Everyone in my class wanted to beat my high score."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SCSaanvi ChhabraAge 15 · HUDA Sector 13, PanipatAchievement:Built a Python order-tracker website for her family's home-furnishings export business.
+ ★★★★★ RM Ria MukherjeeParent
 
-"My family ships cushion covers abroad and tracked orders in a notebook. I built a small website to manage them — my father now shows it to buyers. That moment made me want to study computer science."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-AKArjun KadyanAge 20 · Kabri Road, PanipatAchievement:Picked up his first paid freelance web project while still in college, after the full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I didn't want to leave Panipat just to work in tech. After the MERN and DSA track I put up a portfolio, and a Delhi client hired me for a website — I'm earning from home while I finish my degree."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Panipat Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families around Panipat who trusted us with their child's first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SASunita AggarwalModel Town, Panipat
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"I was sceptical about online classes for a 9-year-old. Three months in, my son shows me a new little game almost every week. The small batch means the teacher actually knows him by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RGRohit GoyalHUDA Sector 12, Panipat
+ ★★★★★ PR Poonam RathoreParent
 
-"We run an export unit, so I wanted my daughter to learn something that travels beyond Panipat. They focus on real problem-solving, not just rote syntax — her thinking has clearly sharpened."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MKManju KadyanKabri Road, Panipat
+ ★★★★★
 
-"The weekend slot sits neatly around school and her maths tuition. No running across town for a class — she just opens the laptop at home. For a working mother that convenience is everything."
-
-★★★★★JRJaipal RanaSamalkha (near Panipat)
-
-"In Samalkha there's simply no good coding institute nearby. This filled the gap perfectly — a strong teacher, all online, at a fair price. Both my sons are in the same batch and look forward to it."
-
-★★★★★PNPreeti NarangRishi Nagar, Panipat
-
-"My daughter is shy and I worried she'd hide at the back. Instead the teacher drew her out gently — she now puts her hand up first. She even coded a simple billing page for our shop."
-
-★★★★★DSDavinder SainiAssandh Road, Panipat
-
-"We had tried a local computer class earlier and my son learned nothing useful. Here they keep checking that he truly understands a concept before moving on — that single difference is why we stayed."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Panipat
 

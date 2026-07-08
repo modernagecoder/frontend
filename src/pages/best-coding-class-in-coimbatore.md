@@ -223,49 +223,37 @@ Coimbatore parents understand the value of future-ready skills. That's why famil
 
  200+Engineering Firms in Coimbatore  25+Engineering Colleges 100+IT Companies at TIDEL Park #2Fastest Growing IT Hub in TN
 
-## What Coimbatore Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Coimbatore who trusted us with their children's coding education.
+Our classes are live and online, so students from Coimbatore learn in the same small batches as families across India. These are real, verified reviews from our community.
 
- SK Senthil KumarRS Puram, Coimbatore
+ SO Sonam OswalParent of Dhairya
 
-"My son was always on his tablet playing games. Now he's building his own games with Scratch! The instructors are patient and the curriculum is well-structured. Best decision for his summer vacation."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- ★★★★★ PL Priya LakshmiPeelamedu, Coimbatore
+ ★★★★★ RM Ria MukherjeeParent
 
-"As an engineer at a Peelamedu IT firm, I know good coding education. Modern Age Coders teaches coding the right way — with logic and problem-solving, not just syntax. Perfect for Samacheer Kalvi students."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
- ★★★★★ MN Meenakshi NarayananSaibaba Colony, Coimbatore
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Online classes are so convenient — no need to travel across Coimbatore! Weekend batches are a blessing for working parents. The recorded sessions help when kids miss a class."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
- ★★★★★ RV Rajesh VenkateshGandhipuram, Coimbatore
+ ★★★★★ SG Sonu GoyalParent
 
-"Affordable fees without compromising on quality — that's rare to find. My twins are both enrolled and learning Python. The curriculum aligns well with their Samacheer Kalvi CS syllabus."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
- ★★★★★ AS Anitha SubramanianRace Course, Coimbatore
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My daughter was hesitant about coding initially. The teachers made her feel comfortable and now she's the most enthusiastic one in her batch. She dreams of studying at PSG Tech!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
- ★★★★★ KM Karthik MuruganSinganallur, Coimbatore
+ ★★★★★ PR Poonam RathoreParent
 
-"We tried two other coding institutes before finding Modern Age Coders. The difference is night and day. Here, they actually care about whether kids understand concepts."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
 
-## Success Stories from Coimbatore Students
-
- AVArjun VijayAge 11 — RS Puram Achievement:Built a Coimbatore landmarks quiz game featured in school exhibition
-
-"I made a game about Coimbatore temples and waterfalls! My friends at school love playing it."
-
- DSDeepa SrinivasanAge 15 — Peelamedu Achievement:Won 1st place in school science fair with Python Tamil learning app
-
-"I want to study at PSG Tech someday. Coding gave me the confidence to dream big!"
-
- VRVikram RajanAge 17 — Saibaba Colony Achievement:Got internship at TIDEL Park IT firm with portfolio website
-
-"The web dev course helped me get an internship in 12th! Now preparing for TNEA."
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Coimbatore
 

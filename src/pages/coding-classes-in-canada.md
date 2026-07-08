@@ -129,11 +129,9 @@ For Canadian adults retraining into software, data or AI engineering roles. Buil
 
 Start atAny age 22 – 65Ships projectsPortfolio-gradeTarget outcomeFirst SWE / AI job★ ★ ★ ★ ★
 
-> "My son's Waterloo CS application essay basically wrote itself once he had two real shipped AI projects under his belt. He got in."
+> "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
-« La demande d'admission en informatique à Waterloo s'est presque écrite toute seule, une fois qu'il avait deux vrais projets d'IA déployés. Il a été accepté. »
-
-JDJulie D.Parent · Toronto (Etobicoke) · Father Henry Carr CSSReal shipped projects · real Canadian students
+SOSonam OswalParent of DhairyaReal shipped projects · real Canadian students
 
 ## Six things our Canadian students built with us this year.
 
@@ -409,37 +407,37 @@ VS Code installed, Python 3 running, terminal no longer scary. First original pr
 
 End-of-month checkpoint: a small project chosen by the student — an NHL stats lookup, a Toronto-weather widget, a Whistler powder-day predictor, a CEGEP study quiz — shipped to GitHub Pages or Vercel. You receive a written progress note.
 
-**Output:** a live URL you can shareAdult learner stories
+**Output:** a live URL you can shareWhat families say
 
-## Four Canadians who changed careers in under a year.
+## What families say about Modern Age Coders
 
-Full names withheld on request. Each is a real adult student who joined and ended up in a software, data or AI role at a Canadian employer.
+We teach live and online, so students in Canada learn in the same small batches as our community. These are real, verified reviews.
 
-NRNikhil R.34 · Calgary (Beltline) · ex-energy analyst → AI engineer
+SMSamridho MondalStudent
 
-### From energy reports to LLM agents — ten months.
+### "Modern Age Coders has been a game-changer for me."
 
-Nikhil joined with strong Excel and weak Python. Ten months later he had shipped an agentic-AI compliance summary tool for his Calgary energy employer that saves the team hours each week. He moved internally into an AI-engineer role.
+I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
 
-Started**Python basics**Pivoted**LLM agents + RAG**Now**AI eng · energy**SFSophie F.36 · Montréal (Plateau) · ex-product designer → bilingual full-stack
+KBKrishnam BhatterFormer student
 
-### Product designer → bilingual full-stack at a Montréal startup.
+### "I am truly grateful for my experience at Modern Age Coders."
 
-Sophie had product instincts but had never deployed code. Two months in, her first React app was on Vercel. Eleven months in, she passed an interview at a Plateau Mont-Royal SaaS startup for a bilingual front-end / product-engineering role.
+My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-Started**Web fundamentals**Pivoted**Full-stack TS**Now**Full-stack · SaaS**PTPriya T.40 · Toronto (Yonge–Eglinton) · ex-teacher → ML engineer
+PRPoonam RathoreParent
 
-### Math teacher → ML engineer at a Vector-adjacent startup.
+### "My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm."
 
-Priya had strong maths intuition but no engineering background. We started slow: Python, Git, deployment, then ML fundamentals, then real production-pattern AI. She now works at a Toronto Vector-Institute-adjacent startup as an ML engineer.
+The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-Started**Python + Git**Pivoted**ML fundamentals**Now**ML eng · health-AI**DLDavid L.29 · Vancouver (Kitsilano) · ex-PM at Hootsuite → AI eng
+SGSonu GoyalParent
 
-### Product manager → AI engineer at a Vancouver SaaS.
+### "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way."
 
-David already worked at Hootsuite in a PM role. He wanted to ship code, not just spec it. We built him up over a year on Python, ML, then agentic AI. He moved into a hands-on AI engineer role at a Vancouver SaaS company.
+The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-Started**Python + ML**Pivoted**Agentic AI**Now**AI eng · SaaS**Honest commitments
+Honest commitments
 
 ## What we'll always do — and what we'll never do.
 

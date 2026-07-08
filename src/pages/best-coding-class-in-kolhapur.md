@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Kolhapur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Kolhapur and the nearby towns — every one of them began as a beginner who was simply willing to try, then kept showing up.
+Our classes are live and online, so students from Kolhapur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-APAtharva PatilAge 11 · Rajarampuri, KolhapurAchievement:Built a Scratch quiz game on Kolhapur's forts that his class now plays at break.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only play games on my dad's phone. Now I make my own! I built a quiz where you pick the right fort — Panhala, Pavangad — and score points. Even my teacher tried it."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SKSanika KulkarniAge 15 · Tarabai Park, KolhapurAchievement:Built a Python marks-and-attendance tracker her tuition class now uses.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought Python would be too hard for me. My teacher broke it into tiny steps and suddenly it made sense. Now I want to do computer engineering and build proper apps."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-OJOmkar JadhavAge 20 · IchalkaranjiAchievement:Landed a remote internship after the DSA + full-stack track — without moving cities.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a third-year engineering student in Ichalkaranji. The DSA sheet and mock interviews got me ready, and the MERN project on my resume did the talking. I work remotely now and still live at home."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Kolhapur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Kolhapur and the nearby towns who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SPSwati PawarShahupuri, Kolhapur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into mobile games. Now he builds his own and walks me through how each one works while we have dinner. The tiny batch is really what makes it click for him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★MDMahesh DesaiTarabai Park, Kolhapur
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a software services firm, so I judge teaching closely. They build logic and problem-solving, not memorised syntax. My daughter's Python is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★VKVaishali KambleKasaba Bawada, Kolhapur
+ ★★★★★
 
-"The weekend slot sits perfectly between school and his other classes. No more rushing across town in the traffic near Mahadwar Road — he just logs in from home. A relief for working parents like us."
-
-★★★★★RPRavindra PatilJaysingpur
-
-"In Jaysingpur a good coding teacher is simply not available nearby. This solved it entirely — a strong teacher, online, at a fair fee. Both my children are enrolled and clearly enjoying it."
-
-★★★★★PJPriya JoshiLaxmipuri, Kolhapur
-
-"My daughter was shy and unsure about coding. The teacher gave her so much confidence that she now finishes her projects early and helps the others. She even built a small site for my saree business."
-
-★★★★★SMSandeep MoreNagala Park, Kolhapur
-
-"We tried a local computer class before this and the difference is night and day. Here they actually check whether my son understood the concept, not just whether the lesson got finished."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Kolhapur
 

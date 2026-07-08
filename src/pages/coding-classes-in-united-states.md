@@ -157,9 +157,9 @@ Every state has at least one good CS program. We help students choose the best f
 
 State flagshipsHonors CS programs4-year state univ.Community college → transfer paths★ ★ ★ ★ ★
 
-> "My son went from USACO Bronze to Gold in one season and is now committed to CMU SCS. Worth every dollar."
+> "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
-JTJennifer T.Parent · Cupertino, CA · Lynbrook High SchoolReal shipped projects · real American students
+SOSonam OswalParent of Dhairya · Verified Google reviewReal shipped projects · real American students
 
 ## Six things our American students built with us this year.
 
@@ -331,37 +331,29 @@ VS Code installed, Python 3 running, terminal no longer scary. First original pr
 
 End-of-month checkpoint: a small project chosen by the student — an NBA stats lookup, an AP prep quiz, a Mars-rover-themed game — shipped to GitHub Pages or Vercel. Parent gets a written progress note.
 
-**Output:** a live URL the family can shareAdult learner stories
+**Output:** a live URL the family can shareWhat families say
 
-## Four Americans who changed careers in under a year.
+## What families say about Modern Age Coders.
 
-Full names withheld on request. Each is a real adult student who joined us and landed in a software, data or AI role at a US employer.
+We teach live and online, so students from the United States learn in the same small batches as our community. These are real, verified reviews.
 
-JMJamal M.30 · NYC (Brooklyn) · ex-marketing analyst → AI engineer
+KBKrishnam BhatterFormer student · Verified Google review
 
-### From marketing dashboards to LLM agents — nine months.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The most impressive part was working on real-world projects.
 
-Jamal joined with strong Excel and weak Python. Nine months later he had shipped two production AI agents at an NYC fintech and his team moved him into an AI-engineer role.
+RMRia MukherjeeParent · Verified Google review
 
-Started**Python basics**Pivoted**LLM apps + RAG**Now**AI eng · fintech**PJPriya J.36 · Austin, TX · ex-teacher → ML engineer
+Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-### Math teacher → ML engineer in 13 months.
+SGSonu GoyalParent · Verified Google review
 
-Priya had strong math intuition but no engineering background. We started slow: Python, Git, deployment, then ML fundamentals, then production-pattern AI. She now works at an Austin health-tech startup as an ML engineer.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-Started**Python + Git**Pivoted**ML fundamentals**Now**ML eng · health-tech**RGRachel G.33 · Seattle · ex-PM → full-stack engineer
+SMSamridho MondalStudent · Verified Google review
 
-### Product manager → full-stack engineer at Amazon.
+Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
 
-Rachel already worked at Amazon in a PM role. She wanted to ship code, not just spec it. We built her up over a year: Python, TypeScript, React, AWS — and she passed an internal interview to move into a full-stack SDE-II role.
-
-Started**Web fundamentals**Pivoted**Full-stack TS**Now**Full-stack · AWS**DMDavid M.29 · San Francisco · ex-finance → AI eng at an OpenAI-adjacent startup
-
-### Investment banker → AI engineer at a Bay-Area startup.
-
-David had spreadsheets in his sleep. We helped him replace them with code — Python, ML, then agentic AI. Eleven months later he was hired as a junior AI engineer at an OpenAI-adjacent SF startup. He took a pay cut. He's never been happier.
-
-Started**Python + ML**Pivoted**Agentic AI**Now**AI eng · startup**Honest commitments
+Honest commitments
 
 ## What we'll always do — and what we'll never do.
 

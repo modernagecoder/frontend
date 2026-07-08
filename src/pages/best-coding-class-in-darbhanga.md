@@ -353,51 +353,37 @@ A big-city standard at a small-town rate — serious teaching from just ₹1,499
 
 Completion certificates plus regular progress updates parents can actually read — proof of growth that strengthens portfolios and applications.
 
-## Success Stories from Darbhanga Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Darbhanga and the Mithila region. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Darbhanga learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AJAryan JhaAge 11 · Laheriasarai, DarbhangaAchievement:Built a Scratch game about the Chhath ghats that his school showed off on Annual Day.
+ SO Sonam OswalParent of Dhairya
 
-"Earlier I only watched videos on Papa's phone. Now I make games! In mine you light the diyas on a Chhath ghat before the sun sets — my whole class clapped when sir played it."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SMSneha MishraAge 15 · Donar, DarbhangaAchievement:Built a Python order-book app for her family's makhana shop.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I was sure coding was only for students in big cities, not a Bihar Board girl from Darbhanga. Ma'am made Python simple. My first real project keeps the makhana orders for our shop — and now my cousins want me to teach them too."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RTRitesh ThakurAge 20 · Bela (DCE), DarbhangaAchievement:Landed a paid remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone told me a Darbhanga engineering student had to move to Pune or Hyderabad to be noticed. The DSA sheet and mock interviews got me through the rounds, and my MERN project sealed it — I cracked a remote internship while still living at home."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Darbhanga Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Darbhanga and Mithila who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SJSunita JhaLaheriasarai, Darbhanga
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son spent every free minute on the phone. Now he builds his own little games and explains the logic to me over dinner. In Darbhanga we don't get teachers like this in person — getting one online has been the best decision of the year."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DRDr. Rakesh Choudharynear DMCH, Darbhanga
+ ★★★★★ PR Poonam RathoreParent
 
-"As a doctor at DMCH I expect rigour, and I doubted an online class could deliver it here. It does — they build real logic and problem-solving, not rote syntax. My daughter's Python is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MMManoj MandalDonar, Darbhanga
+ ★★★★★
 
-"Between school and Board coaching my son's week is already full. The weekend batch slots neatly into the gap — no sending him out across town for one more class, he simply logs in from home. A real relief for us."
-
-★★★★★AKAnand KarnBela, Darbhanga
-
-"A serious coding teacher simply doesn't exist near us in Bela. This solved it outright — a metro-level teacher, online, at a fee a small-town family can manage. Both my children are enrolled and genuinely look forward to class."
-
-★★★★★PTPriya ThakurMirzapur, Darbhanga
-
-"My daughter was hesitant — she thought coding wasn't for girls here. The teacher put her at such ease that she's now the keenest in her batch and has built a little site showcasing our family's Madhubani paintings."
-
-★★★★★SCShashi Bhushan ChoudharyAllalpatti, Darbhanga
-
-"We'd already enrolled my son at a local computer centre that mostly taught typing and MS-Office. The contrast here is striking — they actually confirm whether he has understood the idea before moving on, not just tick off the day's lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Darbhanga
 

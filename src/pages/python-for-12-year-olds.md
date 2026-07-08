@@ -182,23 +182,23 @@ What changes year by year.
 | **APIs** | Not yet | Public APIs | Own Flask API |
 | **GitHub** | Not yet | First repo | Active repos |
 
-Words from parents and students
+What families say
 
-## Class 7 parents on their 12 year olds.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 7 families doing Python.
+Real, verified reviews from Modern Age Coders families.
 
-My daughter is Class 7. She built a Pygame Pong game and an iris classifier in the same term. The teacher moves between game, OOP and sklearn smoothly — no cognitive whiplash.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-SSushmita R.Parent · Kolkata · 1-on-1
+KKrishnam BhatterFormer student
 
-Small group of Class 7 Python kids. My son's GitHub has 4 repos now. His readme writing is also improving — the teacher actually corrects readmes, which I did not expect.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-TTarun H.Parent · Bengaluru · Group
+SShradha SarafParent of Mivaan
 
-We picked 1-on-1 because my daughter is ahead. Teacher took her straight to matplotlib and sklearn. She now visualises her cricket-score dataset on her own. This is the first class that treats her as a real learner.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-IIsha P.Parent · Mumbai · 1-on-1Common questions from parents
+SSonam OswalParent of DhairyaCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

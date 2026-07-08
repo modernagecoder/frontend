@@ -269,31 +269,31 @@ Real Reviews
 
 ## Words from Students & Parents
 
-Unedited — these are the actual words of families who enrolled in our AI & ML course for teens.
+Unedited words from real Modern Age Coders families.
 
 ★★★★★
 
-"My son Arjun is 15 and absolutely obsessed with this course. He built a spam detector in month 2 that actually works on my emails. I had zero expectation he'd be this engaged — he finishes homework faster just to get back to coding. Worth every rupee."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
-Priya Menon
+Sonam Oswal
 
-Parent · Son aged 15 · AI & ML Masterclass · Chennai
-
-★★★★★
-
-"I joined expecting to learn Python. I ended up building a CNN that classifies medical images by month 5. The instructor went beyond the syllabus every class — explaining real industry applications, not just theory. My IIT application essay is now entirely about this project."
-
-Rishi Kapoor, Age 17
-
-Student · AI & ML Masterclass · Delhi · IIT aspirant
+Parent of Dhairya · Verified Google review
 
 ★★★★★
 
-"We're in London and finding a good AI course for our daughter (14) was genuinely difficult. Most were either too basic or university-level. Modern Age Coders hit exactly the right level — challenging enough to stretch her, approachable enough that she loves it. Her school teachers are now asking her to present her AI projects to the class."
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
 
-Deepa Krishnamurthy
+Samridho Mondal
 
-Parent · Daughter aged 14 · AI & ML · London, UK
+Student · Verified Google review
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
+
+Ria Mukherjee
+
+Parent · Verified Google review
 
 Honest Comparison
 

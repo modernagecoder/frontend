@@ -314,55 +314,43 @@ Anna NagarKK NagarGoripalayamTallakulamVillapuramThirunagarPalanganathamSimmakka
 
 Online classes available for students across Madurai and surrounding areas
 
-## What Madurai Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Madurai who trusted us with their children's coding education.
+Our classes are live and online, so students from Madurai learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKRamesh KumarAnna Nagar, Madurai
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Tamil Nadu students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSelvi PandianAnna Nagar, Madurai
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a Thiagarajar College of Engineering professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKArun KumarAnna Nagar, Madurai
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Madurai."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMPriya MuruganAnna Nagar, Madurai
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Tamil Nadu Board school schedule. Highly recommend for every Madurai family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VMVenkat ManiAnna Nagar, Madurai
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at Thiagarajar College of Engineering's Madurai Kamaraj University."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSKavitha SundaramAnna Nagar, Madurai
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join Zoho!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Madurai — The Full Picture
 
 Why Madurai parents are making coding a priority for their children's future
 
 Madurai is Tamil Nadu's cultural heartbeat — the city of the magnificent Meenakshi Temple, where Sangam literature was born 2,000 years ago. But modern Madurai is also an education powerhouse. Thiagarajar College of Engineering (TCE) is among Tamil Nadu's most respected institutions. Madurai Kamaraj University (MKU) anchors a research ecosystem. AIIMS Madurai is putting the city on the medical education map. Zoho, one of India's most successful SaaS companies, has a growing presence nearby. For parents in Anna Nagar and KK Nagar, the equation is clear: Tamil Nadu's economy runs on tech talent, and Madurai's children need coding skills to compete. Samacheer Kalvi now includes computational thinking. TNEA (Tamil Nadu Engineering Admissions) rewards the logical reasoning that coding develops naturally. Madurai students who learn Python today are preparing for careers at Zoho, TCS, and the growing IT sector in South Tamil Nadu.
-
-## Success Stories from Madurai Students
-
-APAryan PatelAge 11 — Anna NagarAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Madurai's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — KK NagarAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — GoripalayamAchievement:Built a portfolio website and got recognized at Thiagarajar College of Engineering tech fest
-
-"The web dev course taught me real skills. Thiagarajar College of Engineering professors noticed my work!"
 
 ## Why Madurai is the Perfect Place to Learn Coding
 

@@ -180,23 +180,23 @@ Stream choice at Class 11.
 | **Career fit** | CS college | Data / IP | CS college |
 | **Difficulty** | Medium | Lower | Medium-high |
 
-Words from parents and students
+What families say
 
-## CBSE Class 11 Python parents + students.
+## What families say about Modern Age Coders.
 
-Three recent reviews.
+Real, verified reviews from Modern Age Coders families.
 
-Class 11 CBSE CS. Teacher teaches NCERT a week before school. I finished Python units by mid-term. 92 in half-yearly. Practical project on track.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-HHarsh V.Student · Delhi · 1-on-1
+SSonu GoyalParent
 
-Group of 4 IP students. Pandas was breaking my daughter. Fixed in 4 weeks. Half-yearly IP marks doubled.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-PPoonam S.Parent · Hyderabad · Group · Class 11 IP
+PPoonam RathoreParent
 
-My son's school CS teacher changed three times in a term. This class gave him consistency. He finished the Python project properly.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-RRahul M.Parent · Bengaluru · 1-on-1Common questions from parents
+RRia MukherjeeParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

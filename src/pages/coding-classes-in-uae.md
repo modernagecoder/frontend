@@ -143,7 +143,7 @@ Whether your child's school is KHDA-rated **Outstanding**, **Very Good** or work
 
 Several of our UAE students attend schools that received Outstanding ratings in their most recent inspection. We're not the reason for the rating — but our mentors help families translate inspection feedback into a tangible coding & AI portfolio.
 
-OUTSTANDINGDSIB / ADEK Tamkeen top tierStrand 6VERY GOODStrong but improvingStrand 6GOODAverage UAE private schoolStrand 6ACCEPTABLEImprovement focusStrand 6My daughter is at GEMS Wellington doing IGCSE Computer Science. Her school is excellent, but she needed 1:1 depth on her Programming Project. After three months with her mentor, her predicted-grade went from a 6 to a strong A-star. The mentor knew the 0478 specification better than her own classroom teacher, and never made it feel like “tutoring.” This is real teaching.— **Reem A.** · Mother of Year-11 student · Jumeirah · DubaiWhat UAE students actually ship
+OUTSTANDINGDSIB / ADEK Tamkeen top tierStrand 6VERY GOODStrong but improvingStrand 6GOODAverage UAE private schoolStrand 6ACCEPTABLEImprovement focusStrand 6My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.**Shewta Singh** · Mother of Ishan · Verified Google reviewWhat UAE students actually ship
 
 ## Not slides. Not certificates. Real working software our Emirates students built.
 

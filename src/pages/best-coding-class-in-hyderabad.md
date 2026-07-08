@@ -249,51 +249,37 @@ Quality education at honest prices. Starting at just ₹1499/month — value Hyd
 
 Completion certificates that add value to school portfolios and college applications.
 
-## Success Stories from Hyderabad Students
+## What Families Say About Modern Age Coders
 
-Real achievements from young coders across the City of Pearls. These students started just like your child — curious and eager to learn.
+Our classes are live and online, so students from Hyderabad learn in the same small batches as families across India. These are real, verified reviews from our community.
 
- AK Arjun KrishnaAge 11 — Gachibowli, HyderabadAchievement:Built a Hyderabad landmarks quiz game in Scratch that his school featured during Independence Day
+ SO Sonam OswalParent of Dhairya
 
-"I used to just play games on my tablet. Now I make my own games! My friends at school think it's so cool that I can create things on the computer. I even made a game about Charminar and Golconda Fort!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- PS Priya SharmaAge 15 — HITEC City, HyderabadAchievement:Won 1st place in school science fair with her Python-based Telugu language learning app
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python seemed scary at first, but the teachers made it so easy to understand. Now I'm helping my classmates with their computer science homework! I want to work at Microsoft in HITEC City someday."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
- VR Varun ReddyAge 17 — Madhapur, HyderabadAchievement:Built a portfolio website that helped him get an internship at a Financial District startup
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The web development course gave me real skills. I built my portfolio, applied to startups in Financial District, and got an internship in my 12th standard! Now I'm preparing for TS EAMCET with confidence."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Hyderabad Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Real feedback from families across Hyderabad who trusted us with their children's coding education.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
- SR Srinivas RaoKondapur, Hyderabad
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son was always on his phone playing games. Now he's building his own games! The instructors are patient and the curriculum is well-structured. Best decision we made for his summer vacation."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
- ★★★★★ RN Ramesh NaiduHITEC City, Hyderabad
+ ★★★★★ PR Poonam RathoreParent
 
-"As a software engineer at Microsoft myself, I know quality when I see it. Modern Age Coders teaches coding the right way — with logic and problem-solving, not just syntax. My daughter loves her Python classes!"
-
- ★★★★★ LK Lakshmi KumariJubilee Hills, Hyderabad
-
-"The flexible timings work perfectly with my son's school and tuition schedule. Weekend batches are a blessing for working parents like us. Highly recommend for anyone looking for coding classes in Hyderabad!"
-
- ★★★★★ VK Venkat KumarKukatpally, Hyderabad
-
-"Affordable fees without compromising on quality — that's rare to find in Hyderabad. My twins are both enrolled and they're learning so much. The recorded sessions help when they miss a class."
-
- ★★★★★ AP Anitha PrasadBanjara Hills, Hyderabad
-
-"My daughter was hesitant about coding initially. The teachers made her feel comfortable and now she's the most enthusiastic one in her batch. She even taught me how to make a simple website!"
-
- ★★★★★ MR Mahesh ReddySecunderabad
-
-"We tried two other coding institutes before finding Modern Age Coders. The difference is night and day. Here, they actually care about whether kids understand concepts, not just complete lessons."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Hyderabad
 

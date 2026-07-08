@@ -214,23 +214,23 @@ Three common ways kids learn Python. What each actually delivers.
 | **Pace matched to child** | Yes | No | No |
 | **Cost vs outcome** | Strong | Cheap but weak | Free but slow |
 
-Words from parents and students
+What families say
 
-## Parents on the project-first approach.
+## What families say about Modern Age Coders.
 
-Three recent reviews from families choosing our Python projects path.
+Real, verified reviews from Modern Age Coders families.
 
-He had tried two video Python courses and given up. Here he finished 6 projects in 2 months. His Rock–Paper–Scissors has proper scoring. He actually plays his own game.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-TTara R.Parent · Delhi · Group · son age 11
+SShradha SarafParent of Mivaan
 
-Daughter built a Pygame Pong and a Kaggle titanic classifier back-to-back. At 13, writing proper readmes. I ask her technical questions now, not the other way around.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-VViraj S.Parent · Pune · 1-on-1 · daughter age 13
+SSonam OswalParent of Dhairya
 
-Small group of 4 kids. Teacher rotates projects based on who has done what. My son has built a Mad Libs, a turtle star and a Maths quiz. He is 10 and he shows them to his uncles on WhatsApp.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-SSimran G.Parent · Bengaluru · Group · son age 10Common questions from parents
+KKrishnam BhatterFormer studentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

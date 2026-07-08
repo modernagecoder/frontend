@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Latur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Latur and Marathwada. Every one of them began as a beginner — what set them apart was simply showing up and putting in the reps.
+Our classes are live and online, so students from Latur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ADAtharva DeshmukhAge 11 · Ganj Golai, LaturAchievement:Built a Scratch game about steering a bullock cart through the Golai market, shown at his school exhibition.
+ SO Sonam OswalParent of Dhairya
 
-"I only used to play games on the phone. Now I make my own. I built a game where you guide a cart through the Ganj Golai market without hitting the stalls — everyone in my class wanted a turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SKSanika KulkarniAge 15 · Barshi Road, LaturAchievement:Won her school's tech fair with a Python attendance-and-marks tracker.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding would be too hard for me, but once I started building small things it made sense fast. My class teacher actually uses my marks tracker now. I want to study computer science — and I don't think I'll have to leave Latur to do real work."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-PWPranav WankhedeAge 19 · Ausa Road, LaturAchievement:Picked up a work-from-home internship after the DSA + full-stack track, without moving cities.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a second-year at a Latur college. The mock interviews and the DSA sheet got me ready, and the MERN project on my resume did the talking. I'm interning for a company sitting right here at home — that genuinely felt impossible a year ago."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Latur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Latur and Marathwada who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SPSwati PatilShivaji Chowk, Latur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone. Now he actually sits down and builds his own little games, and walks me through how each part works. In a small batch the teacher truly knows him — that is what changed things for us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RJRahul JoshiMIDC Latur
+ ★★★★★ PR Poonam RathoreParent
 
-"I work in software remotely from Latur, so I judge teaching closely. They build real logic and problem-solving, not memorised syntax. My daughter's Python is properly strong now — and she learns it the same disciplined way this city teaches everything."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★VSVaishali SuryawanshiNanded Road, Latur
+ ★★★★★
 
-"The weekend slot sits perfectly around school and his other coaching classes. No more sending him across town in an autorickshaw just for one class — he simply logs in from home. A real relief for working parents like us."
-
-★★★★★MGMahesh GawandeUdgir
-
-"Out here in Udgir, finding a genuinely good coding teacher is nearly impossible. This solved it entirely — a strong teacher, online, at a fair fee. Both my children are enrolled and clearly look forward to every class."
-
-★★★★★PKPriya KshirsagarTukai Nagar, Latur
-
-"My daughter was hesitant about coding at first. The teacher put her at ease so well that she now looks forward to class more than any of us expected — she even built a simple web page for our family's shop on Barshi Road."
-
-★★★★★SBSantosh BiradarNilanga
-
-"We tried two other tutors before this. The difference is night and day — here they actually confirm the child has understood the concept, not just that the lesson was finished. Exactly the standard Latur expects."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Latur
 

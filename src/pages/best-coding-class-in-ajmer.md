@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Ajmer Students
+## What Families Say About Modern Age Coders
 
-Young coders from around Ajmer and Pushkar. A few months ago each of them was a beginner too — what changed was simply starting.
+Our classes are live and online, so students from Ajmer learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DRDaksh RathoreAge 11 · Vaishali Nagar, AjmerAchievement:Made a Scratch game about the Pushkar camel fair that his class voted favourite project.
+ SO Sonam OswalParent of Dhairya
 
-"My game has a camel you race past the fair stalls. I had to figure out scores and collisions myself. My friends keep asking me to add new levels — it's the most fun homework I've ever had."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SCSanya ChouhanAge 15 · Civil Lines, AjmerAchievement:Built a Python quiz app her teacher now uses for weekly class revision.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought programming would just be hard maths, but it's really about thinking clearly. My quiz app picks random questions and keeps scores. Seeing my teacher actually use it in class made me want to study computer science."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-VSVivaan SharmaAge 20 · MDS University, AjmerAchievement:Picked up part-time freelance web work while still in his degree.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I worried that being in Ajmer meant being behind. After the DSA and full-stack track I had two real projects to show, and a local business hired me to build their site. I'm earning from my laptop without leaving home."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Ajmer Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families around Ajmer and Pushkar who trusted us with their child's first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MRMeenakshi RathoreVaishali Nagar, Ajmer
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to disappear into his phone for hours. Now he shows me the little games he is making and tells me what each part does. The small batch means the teacher actually knows him — that mattered to us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★APAshok PurohitCivil Lines, Ajmer
+ ★★★★★ PR Poonam RathoreParent
 
-"I teach at a school myself, so I'm fussy about how things are taught. What I liked is that they build the reasoning first and the syntax follows. My daughter doesn't just copy code — she can explain why it works."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★KSKavita SoniPushkar Road, Ajmer
+ ★★★★★
 
-"We're a little out on Pushkar Road, and good classes were always a drive away. The weekend online batch fits neatly around school and coaching, and my daughter just opens her laptop. So much easier for us."
-
-★★★★★IKImran KhanKishangarh (near Ajmer)
-
-"In Kishangarh it's hard to find a serious coding teacher nearby. This was the answer — a real teacher, online, at a fair fee. Both my children attend the same batch and look forward to it every week."
-
-★★★★★RMRitu MehraPanchsheel, Ajmer
-
-"My daughter was shy and unsure she could do coding at all. A few weeks in, she's the one asking the teacher extra questions — and she built a simple website for my tailoring business. Watching her confidence grow has been the real win."
-
-★★★★★DJDeepak JainAdarsh Nagar, Ajmer
-
-"We had tried a recorded online course before, and my son just drifted. A live, small batch where the teacher notices when he's stuck has made all the difference. They confirm he's understood before moving on."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Ajmer
 

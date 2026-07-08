@@ -353,51 +353,37 @@ Genuine teaching from ₹1,499/month, stated plainly up front. No registration t
 
 A completion certificate at the end, and frank updates along the way — you hear how your child is really doing well before any term report arrives.
 
-## Success Stories from Palakkad Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Palakkad district. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Palakkad learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DMDevananda MenonAge 11 · Chandranagar, PalakkadAchievement:Made a Scratch game about a train crossing the Palakkad Gap that her school showed at its kalolsavam tech corner.
+ SO Sonam OswalParent of Dhairya
 
-"I always loved watching the trains at the junction. Now I made a game where you drive one through the Gap without hitting the elephants — even my appooppan laughed and asked to play it twice."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-ANAnaswara NairAge 15 · Sultanpet, PalakkadAchievement:Built a Python paddy-yield tracker for her family's land that won her school's CBSE science exhibition.
+ ★★★★★ RM Ria MukherjeeParent
 
-"My family farms near Pattambi, so I made a Python tool that logs each field's harvest and predicts the next season. My maths teacher said it was better than the ones the older students made. Now I want to get into IIT Palakkad."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-AKAbhinav KrishnanAge 19 · Olavakkode, PalakkadAchievement:Landed his first internship after the DSA + full-stack track while studying at a Palakkad engineering college.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone here studies hard but few have something to show. The mock interviews and the DSA sheet got me ready, and the MERN project I built was what the interviewer actually asked about. I got the offer in my fifth semester — without moving cities."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Palakkad Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Palakkad district who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-RPRemya PrakashChandranagar, Palakkad
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to only watch others play on YouTube. Now he builds his own games and explains how they work to his grandmother. The small batch is what does it — the teacher actually notices him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★SVSajeev VarmaKanjikode, Palakkad
+ ★★★★★ PR Poonam RathoreParent
 
-"I work near the IIT campus, so I had high expectations. They teach my daughter to think through a problem, not just memorise syntax. Her Python is genuinely solid — she debugs on her own now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★LMLakshmi MohanOttapalam, Palakkad
+ ★★★★★
 
-"Living in Ottapalam, finding a proper coding teacher used to mean a long trip to town. Now my son just logs in from home for the weekend batch — it fits around his school and tuition perfectly."
-
-★★★★★JTJaseena ThottathilMannarkkad, Palakkad
-
-"Out near Mannarkkad, a good offline coding class simply doesn't exist. This solved it entirely — a proper teacher, online, at a fair fee. Both my twins joined, and now they argue over whose project is better."
-
-★★★★★DRDivya RaghavanStadium Bypass, Palakkad
-
-"My daughter was timid and convinced coding wasn't a girl's thing. Within a month the teacher had her leading her batch. She built a small website for my tailoring shop — I still can't believe it."
-
-★★★★★UNUnni NamboothiriShoranur, Palakkad
-
-"We had tried one of those big franchise centres first. The difference here is plain — they stop and make sure my son has actually understood before moving on, instead of rushing to finish the syllabus."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Palakkad
 

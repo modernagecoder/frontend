@@ -353,51 +353,37 @@ Serious teaching from ₹1,499/month, with the price stated plainly up front —
 
 A completion certificate for the portfolio, plus honest progress notes that tell you what the child has actually learnt — not just that they attended.
 
-## Success Stories from Balasore Students
+## What Families Say About Modern Age Coders
 
-Young coders from across Balasore and the coastal belt. Every one of them began as an ordinary curious child — then started shipping things that surprised even their parents.
+Our classes are live and online, so students from Balasore learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ASAryan SahooAge 11 · Sahadevkhunta, BalasoreAchievement:Built a Scratch rocket-launch game his school showed at its science day.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you fire a rocket from Chandipur and have to get the angle right or it falls in the sea. My friends kept trying to beat my score — and I built the whole thing myself."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-PDPriyasha DasAge 15 · OT Road, BalasoreAchievement:Built a Python quiz app her batch used to revise Odisha-Board science.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought programming would be all maths and memorising. Instead I built a quiz app my whole class used before the science exam. Now I want to study computer engineering — and I don't think I'll need to leave Balasore to do good work."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-SBSoumya BeheraAge 20 · FM University areaAchievement:Picked up a paid remote internship while still studying at FM University.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I study at Fakir Mohan University and assumed I'd have to move to a metro for real work. The DSA practice and the MERN project changed that — a startup took me on remotely while I'm still in college, and I'm earning from Balasore itself."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Balasore Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from Balasore and coastal-Odisha families who trusted us with their child's first steps into code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SPSasmita PandaSahadevkhunta, Balasore
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"A few months in, my son sat me down and walked me through a game he had coded on his own. With so few children in the batch, the teacher actually catches when he's lost — that is what changed things for us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PNPradeep NayakFM University area, Balasore
+ ★★★★★ PR Poonam RathoreParent
 
-"I teach at a college here, so I'm hard to impress. What won me over is that they build reasoning, not memorised commands — my daughter can now think a Python problem through entirely on her own."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RMRashmita MohantyOT Road, Balasore
+ ★★★★★
 
-"The weekend slot sits neatly around school and her tuition, and there's no sending her across town in the traffic for a class — she just opens the laptop at home. A real relief for working parents."
-
-★★★★★BBBiswajit BeheraChandipur Road, Balasore
-
-"Out near the Chandipur side, a serious coding class simply isn't available nearby. Going online closed that gap completely — a strong teacher and fair fees, and my son hasn't missed a single week."
-
-★★★★★SMSubhashree MishraStation Bazar, Balasore
-
-"My daughter was shy and unsure she could do this. The teacher's patience turned that around completely — she now looks forward to class, and she's even put together a small website for our shop."
-
-★★★★★JPJyotiranjan ParidaRemuna, Balasore
-
-"We had tried a local tuition before. The contrast is stark — here they actually confirm the child has understood a concept before moving on, instead of just rushing to finish the chapter."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Balasore
 

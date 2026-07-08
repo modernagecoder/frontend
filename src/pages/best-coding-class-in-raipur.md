@@ -314,55 +314,43 @@ Shankar NagarDevendra NagarTelibandhaPandriTatibandhCivil LinesFafadihSamta Colo
 
 Online classes available for students across Raipur and surrounding areas
 
-## What Raipur Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Raipur who trusted us with their children's coding education.
+Our classes are live and online, so students from Raipur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKLocal ParentShankar Nagar, Raipur
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Chhattisgarh students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSatisfied ParentShankar Nagar, Raipur
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a NIT Raipur professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKHappy ParentShankar Nagar, Raipur
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Raipur."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMProud ParentShankar Nagar, Raipur
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their CG Board school schedule. Highly recommend for every Raipur family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKDelighted ParentShankar Nagar, Raipur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at NIT Raipur's IIT Bhilai (nearby)."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSGrateful ParentShankar Nagar, Raipur
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join NIT Raipur!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Raipur — The Full Picture
 
 Why Raipur parents are making coding a priority for their children's future
 
 Raipur is Chhattisgarh's capital and India's steel capital, powered by the massive Bhilai Steel Plant. But the city's educational credentials are equally impressive: NIT Raipur is among Central India's best engineering institutions, and IIT Bhilai (just 30km away) is one of India's newest IITs. AIIMS Raipur puts the city on the medical education map. For parents in Shankar Nagar and Devendra Nagar, the equation is clear: NIT Raipur's placements prove that coding skills lead to top careers, and IIT Bhilai's arrival has elevated the entire region's aspirations. CGBSE's curriculum includes digital literacy, and JEE Advanced tests algorithmic thinking. Raipur children who code early are preparing for institutions they can literally see from their homes.
-
-## Success Stories from Raipur Students
-
-APAryan PatelAge 11 — Shankar NagarAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Raipur's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — Devendra NagarAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — TelibandhaAchievement:Built a portfolio website and got recognized at NIT Raipur tech fest
-
-"The web dev course taught me real skills. NIT Raipur professors noticed my work!"
 
 ## Why Raipur is the Perfect Place to Learn Coding
 

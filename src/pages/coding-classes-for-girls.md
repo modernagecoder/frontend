@@ -271,29 +271,29 @@ A generative AI tool that writes poetry, stories, and songs in different styles 
 
 GenAI · Month 9
 
-Voices from Our Queens
+Real Reviews
 
-## What Girls & Parents Say
+## What Students & Parents Say
 
 Real words from real students and their families.
 
-"I was scared I'd be the only girl who didn't understand. But everyone in my batch was learning together and the instructor made me feel like I could do anything. I built my first website in month 2!"
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
 
-Ananya S., Age 14
+Samridho Mondal
 
-Python + Web Dev · Pune
+Student · Verified Google review
 
-"My daughter used to say coding was 'for boys.' After 3 months in Code Queens, she's building apps and explaining neural networks to her father. The transformation is unbelievable."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Priya Mehta
+Sonu Goyal
 
-Parent · Daughter enrolled in AI batch
+Parent · Verified Google review
 
-"I got into NIT for computer science. My Code Queens certificate and the AI project I built were part of my portfolio. The instructor wrote my recommendation letter. This program changed everything."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests."
 
-Shreya R., Age 18
+Krishnam Bhatter
 
-Now studying CS at NIT Trichy
+Former student · Verified Google review
 
 Transparent Pricing
 

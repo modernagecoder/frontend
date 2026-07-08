@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499 a month — a fraction of big-city institute
 
 Completion certificates plus honest, regular progress updates parents can actually act on — proof of growth for portfolios and applications.
 
-## Success Stories from Nellore Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Nellore. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Nellore learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-CTCharan TejaAge 11 · Magunta Layout, NelloreAchievement:Made a Scratch game about a fishing boat dodging nets on the Pennar — picked for his school's annual day.
+ SO Sonam OswalParent of Dhairya
 
-"Before, I just played games on my mother's phone. Now I built one! You steer a little boat down the river and collect prawns — my friends kept asking for one more turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SRSahasra ReddyAge 15 · Dargamitta, NelloreAchievement:Built a Python quiz app her teacher now uses for EAPCET practice in class.
+ ★★★★★ RM Ria MukherjeeParent
 
-"With all the EAPCET coaching I wasn't sure I'd have time, but coding actually made my logic stronger. My teacher uses the quiz app I made. I want to do computer science engineering."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-PVPraveen VarmaAge 20 · AC Nagar, NelloreAchievement:Landed a remote internship after finishing the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I study engineering here in Nellore and worried recruiters would skip our college. The DSA sheet and a deployed MERN project changed that — I cleared a remote internship and now work from home for a Bengaluru startup."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Nellore Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from Nellore families who trusted us with their child's first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-LPLakshmi PrasannaMagunta Layout, Nellore
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son barely looked up from his phone before. Now he shows me the games he's built and explains how they work. Between his school and tuitions, the small batch is what made it actually stick."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★SRSrinivasa RaoDargamitta, Nellore
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a small business and was wary of online coaching. But they teach reasoning and problem-solving, not just syntax to memorise. My daughter's Python is genuinely strong, and the fees are very fair."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RDRamya DeviAC Nagar, Nellore
+ ★★★★★
 
-"The weekend batch slots in neatly around school and his coaching. No sending him out on the bike for one more class — he just logs in from home. A real relief for us as working parents."
-
-★★★★★VKVenkatesh KumarPodalakur Road, Nellore
-
-"For a proper coding teacher we used to think only Hyderabad. This proved us wrong — same quality, live online, sensible fees. Both my children are enrolled and look forward to every class."
-
-★★★★★SJSujathaStonehousepet, Nellore
-
-"My daughter was shy and convinced coding wasn't for girls. The teacher changed that — she's now the most eager one in her batch and even built a simple website for our shop. I'm so proud of her."
-
-★★★★★MMMohan Mohan RaoBalaji Nagar, Nellore
-
-"We had tried one local class earlier where they just rushed through chapters. Here they stop and check whether my son has actually understood before moving on. That patience is what we were looking for."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Nellore
 

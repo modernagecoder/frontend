@@ -181,23 +181,23 @@ Which way the beginner path shapes at different ages.
 | **Best format** | Group works | Both | Both |
 | **Class length** | 1 hour | 1 hour | 1 hour |
 
-Words from parents and students
+What families say
 
-## Parents of beginner Python kids.
+## What families say about Modern Age Coders.
 
-Three recent reviews from families whose child started Python from zero with us.
+Real, verified reviews from Modern Age Coders families.
 
-He did not know what Python even was. After 4 classes he asks Alexa to shut up because "she is not as clever as Python". The teacher makes it silly first. That worked.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-AAisha V.Parent · Delhi · Group · son age 9
+SSonu GoyalParent
 
-She had tried a recorded-video Python app and given up. The live class made the difference — her teacher catches her when she types a colon instead of a semicolon and explains why.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-BBhaskar T.Parent · Bengaluru · 1-on-1 · daughter age 12
+PPoonam RathoreParent
 
-Started from zero as a beginner in Class 9. After 2 months he is writing 30-line programs. The teacher said he should now move to the mainstream Python track — and he is ready.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-MMeena S.Parent · Chennai · Group · son age 14Common questions from parents
+RRia MukherjeeParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

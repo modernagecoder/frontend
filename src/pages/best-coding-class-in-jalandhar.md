@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Jalandhar Students
+## What Families Say About Modern Age Coders
 
-Young coders from across Jalandhar & Doaba. Every one of them began as a beginner — a curious child with a laptop — and built their way forward, one project at a time.
+Our classes are live and online, so students from Jalandhar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ASArshdeep SinghAge 11 · Model Town, JalandharAchievement:Built a Scratch penalty-shootout football game his class queues up to play at break.
+ SO Sonam OswalParent of Dhairya
 
-"My city makes footballs, and now I made a football game! You take penalties and the keeper dives — I added sound effects and a score counter myself. Everyone in my class wanted a turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-JKJasleen KaurAge 15 · Urban Estate, JalandharAchievement:Built a Python homework-and-marks tracker her class teacher now uses for the whole section.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding was only for boys who were already good at maths. Two months in, I'd built something my teacher actually relies on. Now I want to study computer science — and maybe work remotely for a company abroad without leaving Punjab."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-HSHarkirat SandhuAge 20 · Phagwara, DoabaAchievement:Landed a paid remote internship after the DSA + MERN full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I study engineering near Phagwara and everyone around me was planning to go abroad. The DSA sheet and mock interviews got me an internship I do remotely from home — and my MERN project is what got me the call. I'm building a real career without packing my bags."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Jalandhar Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Candid words from families across Jalandhar & Doaba who trusted us with their child's first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NKNavjot KaurModel Town, Jalandhar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son barely looked up from his phone. Now he shows me what he's building and walks me through how it works step by step. The tiny batch is what does it — the teacher actually notices each child."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★GSGurpreet SinghUrban Estate, Jalandhar
+ ★★★★★ PR Poonam RathoreParent
 
-"My brother works in software in Canada and I asked him to sit in on a class. His verdict: they teach proper logic and problem-solving, not just syntax to mug up. My daughter's Python is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RMRajesh MehraCool Road, Jalandhar
+ ★★★★★
 
-"The weekend slot fits neatly around school and tuition. No fighting Cool Road traffic for a class — he just logs in from home. For a working couple, that convenience is half the value."
-
-★★★★★SDSimranjit DhillonKapurthala
-
-"Out here in Kapurthala, a genuinely good coding teacher just isn't available nearby. This solved it entirely — strong teacher, online, fair fees. Both my children are enrolled and look forward to every class."
-
-★★★★★PBParminder BhattiLajpat Nagar, Jalandhar
-
-"My daughter hung back at first, sure coding wasn't her thing. The teacher's patience won her over and now she puts her hand up before anyone else. She even built a little website for our Lajpat Nagar shop!"
-
-★★★★★AVAnil VasudevaJalandhar Cantt
-
-"We'd tried a local computer institute first and it was all rote. The difference here is night and day — they actually check that the child has grasped the idea before moving on, not just that the lesson is over."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Jalandhar
 

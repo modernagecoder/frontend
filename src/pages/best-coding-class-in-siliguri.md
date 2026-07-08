@@ -353,51 +353,37 @@ Top-tier teaching from ₹1,499/month — the same fee whether you're in town or
 
 Completion certificates and honest progress reports you can actually act on — proof of growth for school files and college forms.
 
-## Success Stories from Siliguri Students
+## What Families Say About Modern Age Coders
 
-Real young coders from Siliguri, the hills and across North Bengal. Each one began exactly where your child is now — curious, and ready to build.
+Our classes are live and online, so students from Siliguri learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ACAritra ChakrabortyAge 11 · Hakimpara, SiliguriAchievement:Built a Scratch toy-train game set on the Darjeeling hills that his school showed at its annual fair.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you drive the toy train up to Darjeeling and stop it at every station before it runs out of coal. My friends kept asking for one more turn. I never knew I could actually build the games instead of just playing them."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-PTPema TamangAge 15 · St Joseph's, MatigaraAchievement:Built a Python app to log her family's tea-stall daily sales that her father now uses every evening.
+ ★★★★★ RM Ria MukherjeeParent
 
-"My father wrote sales in a notebook and lost track. I made him a small Python program that adds up the day for him. He shows it to everyone now. I want to study computer science without ever having to leave Siliguri to do it."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-SRSubhankar RoyAge 20 · NBU, SiliguriAchievement:Landed a remote internship with a Bengaluru start-up after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"At NBU I worried that companies wouldn't look at a student from up here. The DSA sheet and the mock interviews proved otherwise — I got a remote internship with a Bengaluru team and never had to relocate. My MERN project is what they asked about the whole call."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Siliguri Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Siliguri, the hills and North Bengal who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-RDRupa DasSevoke Road, Siliguri
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"We always assumed our son would have to go to Kolkata for anything like this. Instead he logs in from his room on Sevoke Road and learns from a teacher as good as any. He explains his code to us at dinner now — that alone was worth it."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DGDebasis GhoshPradhan Nagar, Siliguri
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a software job remotely from Siliguri, so I can tell teaching that's real from teaching that's for show. These teachers go after logic and problem-solving, not just syntax. My daughter's Python is the genuine article now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SPSangay PradhanKalimpong
+ ★★★★★
 
-"Up in Kalimpong there's simply nothing like this nearby. The weekend batch slots neatly between school and her other tuitions, and she joins straight from home — no long trip down to Siliguri. For hill families this is a real gift."
-
-★★★★★MRManju RaiGangtok, Sikkim
-
-"From Gangtok, finding a serious coding class meant going all the way to Siliguri or beyond. This ended that problem — a top teacher, online, at a fair fee. Both my children are enrolled and genuinely look forward to class."
-
-★★★★★ABAnjali BasuMatigara, Siliguri
-
-"My daughter was shy and unsure about coding. The teacher put her at ease so gently that she's now the keenest in the batch. She even built a little website for my home-run boutique in Matigara — I was stunned."
-
-★★★★★TLTenzing LepchaSalugara, Siliguri
-
-"We'd tried a local centre that just rushed through chapters. Here it's the opposite — they pause to make sure my son has truly understood before moving on. That patience is exactly what I was looking for and couldn't find around Salugara."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Siliguri
 

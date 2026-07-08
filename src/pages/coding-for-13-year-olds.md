@@ -186,23 +186,23 @@ Thirteen is a clear step up. This table shows where and why.
 | **School link** | Class 7 ICT | Class 8 CS prep | Class 9 board CS |
 | **Independence** | Drives some | Drives most | Fully independent |
 
-Words from parents and students
+What families say
 
-## Parents of 13 year olds — raw quotes.
+## What families say about Modern Age Coders.
 
-Recent reviews from families with 13-year-old teens in our programmes.
+Real, verified reviews from Modern Age Coders families.
 
-My son shifted from another platform where it was very video-heavy. Here the teacher actually watches him code and corrects as he types. In 3 months he built a React portfolio and a Python project. He calls the teacher on WhatsApp when stuck.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-AAparna S.Parent · Delhi · 1-on-1
+PPoonam RathoreParent
 
-What I like: the class is 5 teens, not 50. They show each other's work at the end. My daughter built a journal app in Flutter. She put it on my phone. That is an engineer.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-BBharat C.Parent · Bengaluru · Group
+RRia MukherjeeParent
 
-We have been with Modern Age Coders since our son was 11. At 13, he now commits to GitHub weekly. The teacher was very clear that OOP was the next step and paced it well.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-MMohit P.Parent · Pune · 1-on-1Common questions from parents
+SSonu GoyalParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

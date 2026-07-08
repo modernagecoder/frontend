@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Bhilai Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Bhilai & Durg — proof that a steel city raises builders. Every one of them began as a curious beginner, exactly like your child.
+Our classes are live and online, so students from Bhilai learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ANAryan NairAge 11 · Sector 9, BhilaiAchievement:Built a Scratch game about running a blast furnace, shown at his school's science exhibition.
+ SO Sonam OswalParent of Dhairya
 
-"My dad works in the plant, so I made a game where you feed the furnace and keep the temperature right. The teacher showed it in class and everyone wanted a turn!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SRSneha ReddyAge 15 · Smriti Nagar, BhilaiAchievement:Built a Python tool that quizzes her on Class 10 science and tracks her weak topics.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I was nervous about real coding, but the teacher took it one step at a time and it started to make sense. Now I'd rather build a study tool than buy one. I want to crack JEE and study computer science."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RTHarsh SahuAge 20 · DurgAchievement:Landed a work-from-home internship after the DSA + full-stack track — without leaving Durg.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I study engineering in Durg and assumed I'd have to move to a metro for any real shot. The DSA practice and the MERN project changed that — I got a remote internship and now build for a team I've never had to relocate for."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Bhilai Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Bhilai & Durg who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MVMeena VermaCivic Centre, Bhilai
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone. Now he sits down and builds his own little games, and the small batch means the teacher actually knows him by name. That attention is what changed things for us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RIRakesh IyerSmriti Nagar, Bhilai
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer at the plant, so I judge teaching closely. They build real logic and problem-solving, not memorised syntax. My daughter's Python is properly strong now — learnt with the kind of discipline this city respects."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PKPallavi MishraSupela, Bhilai
+ ★★★★★
 
-"The weekend slot sits perfectly around school and his coaching. No sending him across town in an autorickshaw for one class — he just logs in from home. A real relief for working parents like us."
-
-★★★★★ASSukhwinder KaurDurg
-
-"In Durg, finding a genuinely good coding teacher offline is nearly impossible. This solved it entirely — a strong teacher, online, at a fair fee. Both my children are enrolled and clearly enjoying it."
-
-★★★★★RMAnita ChatterjeeVaishali Nagar, Bhilai
-
-"My daughter was hesitant at first, but a few weeks in she was the one asking when the next class was. She built a little website for my tiffin business — I was honestly stunned by what a 13-year-old could put together."
-
-★★★★★DNDeepak NayakNehru Nagar, Bhilai
-
-"We tried two other tutors before this. The difference is night and day — here they actually check whether the child has understood the concept, not just finished the lesson. That's the engineering mindset I wanted for my son."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Bhilai
 

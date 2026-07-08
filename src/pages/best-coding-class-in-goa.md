@@ -314,55 +314,43 @@ PanajiMargaoVascoMapusaPondaDona PaulaPorvorimBambolimTaleigaoCalanguteCandolimM
 
 Online classes available for students across Goa and surrounding areas
 
-## What Goa Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Goa who trusted us with their children's coding education.
+Our classes are live and online, so students from Goa learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKLocal ParentPanaji, Goa
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Goa students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSatisfied ParentPanaji, Goa
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a NIT Goa professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKHappy ParentPanaji, Goa
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Goa."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMProud ParentPanaji, Goa
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Goa Board school schedule. Highly recommend for every Goa family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKDelighted ParentPanaji, Goa
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at NIT Goa's Goa University."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSGrateful ParentPanaji, Goa
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join BITS Goa!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Goa — The Full Picture
 
 Why Goa parents are making coding a priority for their children's future
 
 Goa isn't just India's beach paradise — it's becoming a serious tech hub. BITS Pilani Goa Campus produces engineers that Silicon Valley hires. NIT Goa is growing rapidly. The state's unique work-from-beach culture has attracted hundreds of tech startups and remote workers. For a small state, Goa's IT ambitions are outsized. Goa Board's progressive curriculum includes technology education from primary school. GCET tests logical reasoning. Parents in Panaji and Margao are realizing that their children's future isn't just in tourism and mining — it's in code. The digital nomad revolution has brought world-class tech culture to Goa's doorstep. Children who learn coding here grow up in an environment where Python and JavaScript are spoken as commonly as Konkani and English.
-
-## Success Stories from Goa Students
-
-APAryan PatelAge 11 — PanajiAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Goa's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — MargaoAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — VascoAchievement:Built a portfolio website and got recognized at NIT Goa tech fest
-
-"The web dev course taught me real skills. NIT Goa professors noticed my work!"
 
 ## Why Goa is the Perfect Place to Learn Coding
 

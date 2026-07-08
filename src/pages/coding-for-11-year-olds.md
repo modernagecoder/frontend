@@ -186,23 +186,23 @@ If your child is on a boundary, this table shows exactly what changes between th
 | **AI exposure** | Teachable Machine | Classifier project | Small ML with Python |
 | **Best format** | Both work | Both work | 1-on-1 for faster kids |
 
-Words from parents and students
+What families say
 
-## Parents of 11 year olds — in their own words.
+## What families say about Modern Age Coders.
 
-Three recent reviews from families with 11-year-old learners.
+Real, verified reviews from Modern Age Coders families.
 
-My daughter is in Class 6 CBSE. Her school teacher now asks her to help classmates during the computer period. She's built a Python calculator and a personal webpage. The fees are honestly fair for the attention they give each child.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-SSanjana K.Parent · Gurgaon · Group
+SSonu GoyalParent
 
-We picked 1-on-1 because our son is ahead of his class. The teacher takes him exactly where he needs to go, not where a syllabus says he should be. He's doing Python loops while his class is still on MS Paint.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-HHarsh T.Parent · Noida · 1-on-1
+PPoonam RathoreParent
 
-What changed after 3 months: she stopped being afraid of computer class at school. It used to be her weakest. Now she tells me "maa, coding is just reading instructions carefully". That mindset shift alone is worth it.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-LLatha V.Parent · Chennai · GroupCommon questions from parents
+RRia MukherjeeParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

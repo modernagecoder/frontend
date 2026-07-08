@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month — a fraction of a coaching budget, w
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Sikar Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Sikar — many from homes deep in coaching, all of whom started exactly where your child is today: curious, and ready to build.
+Our classes are live and online, so students from Sikar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DSDaksh SainiAge 10 · Subhash Nagar, SikarAchievement:Made a Scratch quiz game on Shekhawati monuments for his school's heritage week.
+ SO Sonam OswalParent of Dhairya
 
-"My big sister is always at coaching, so I wanted my own project too. I made a quiz game about the painted havelis near our house, and now my cousins play it on every visit. I keep adding harder questions!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-KKKhushi KaswanAge 16 · Piprali Road, SikarAchievement:Built a Python revision-timer app her whole coaching batch now uses.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I'm prepping for NEET, so I do coding only on Sundays. But that one habit gave me a study-timer app I built myself — friends in my batch asked for copies. It made me realise I might want to do tech alongside medicine."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-MJMohit JangidAge 20 · Nawalgarh Road, SikarAchievement:Landed a remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"My college in Sikar barely gets big campus drives, so I stopped waiting for them. I sent recruiters my MERN project link and DSA practice, and got a remote internship from home. Where you study mattered a lot less than what I could show."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Sikar Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from Sikar families — many balancing coaching alongside — who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SPSunita PooniaSubhash Nagar, Sikar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My elder one is at coaching all day, so I worried the younger would just be on YouTube. Now he builds little games and explains the logic to me at dinner. The small batch means the teacher actually knows him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RADr. Ramavtar AjmeraBajaj Road, Sikar
+ ★★★★★ PR Poonam RathoreParent
 
-"As a doctor I've seen how much rides on one exam in this town. I wanted my son to have a second strong skill regardless. They teach real logic, not just syntax — his Python is genuinely solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MLManju LambaStation Road, Sikar
+ ★★★★★
 
-"With school plus coaching, my daughter had no free hour on weekdays. The Sunday batch fixed that — she logs in from home, no running around Station Road for one more class. Such a relief for us."
-
-★★★★★KBKailash BurdakNawalgarh Road, Sikar
-
-"Sikar has no shortage of coaching, but a proper coding class for school-age kids was hard to find. This solved it — a good teacher, online, fair fees. Both my children are enrolled and clearly love it."
-
-★★★★★PMPinki MahariaRadha Kishanpura, Sikar
-
-"My daughter thought coding wasn't for girls and was hesitant. The teacher changed that completely — she's the keenest in her batch now and built a little website for our family's cloth shop. I'm so proud."
-
-★★★★★GDGovind DhakaJeevan Nagar, Sikar
-
-"We came in from Reengus and tried a local batch first. The difference here is night and day — they check whether my son actually understood the concept, not just whether the lesson finished on time."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Sikar
 

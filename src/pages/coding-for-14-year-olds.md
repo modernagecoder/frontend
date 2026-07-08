@@ -186,23 +186,23 @@ Each year here is a step. This table shows exactly what the step looks like.
 | **School link** | Class 8 CS | Class 9 CS/Java/ICSE | Class 10 board |
 | **Portfolio** | First site | Portfolio in progress | Strong portfolio |
 
-Words from parents and students
+What families say
 
-## What 14-year-olds' parents are telling us.
+## What families say about Modern Age Coders.
 
-Unedited reviews from families of Class 9 students in our full-stack and AI tracks.
+Real, verified reviews from Modern Age Coders families.
 
-My son is in Class 9 CBSE. He wanted to skip school computer class because it was "too boring". The teacher at Modern Age Coders has him working on a MERN app. Now he tells his friends he's building a product.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-GGeeta N.Parent · Noida · 1-on-1
+SSonam OswalParent of Dhairya
 
-The ICSE Java alignment is genuine. The teacher has the Class 9 syllabus open and teaches the chapter before the school teacher does. My daughter now tops her computer unit tests.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-PPreeti J.Parent · Ahmedabad · Group
+KKrishnam BhatterFormer student
 
-We enrolled for AI/ML. My son built a housing-price predictor in month 5. The teacher was clear about overfitting, which I didn't expect them to cover at 14. This is real teaching, not demos.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-TTarun B.Parent · Bengaluru · 1-on-1Common questions from parents
+SShradha SarafParent of MivaanCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

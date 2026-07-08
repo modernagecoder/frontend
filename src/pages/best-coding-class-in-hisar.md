@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — value
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Hisar Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Hisar and the nearby towns — proof of what a curious child can build once they have the right teacher and a project they care about.
+Our classes are live and online, so students from Hisar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-YBYuvraj BeniwalAge 11 · Model Town, HisarAchievement:Made a Scratch tractor-and-harvest game his class voted the best project of the term.
+ SO Sonam OswalParent of Dhairya
 
-"I used to just play games on the phone. Now I build them! My harvest game has levels and a high score — everyone in my class kept asking for one more turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SPSimran PuniaAge 15 · HUDA Sector 14, HisarAchievement:Built a Python quiz app her tuition group now uses to revise before tests.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding would be all maths and confusing words. It wasn't — the teacher broke it down step by step. Now I'm seriously thinking about a CS degree at GJU."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ASAnkit SheoranAge 20 · GJU area, HisarAchievement:Got paid to build a local trader's website after the MERN + DSA track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"After the full-stack track I put up a portfolio, and a Hisar shop owner hired me to build their website. I'm earning from home while I finish my degree — exactly what I wanted."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Hisar Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from Hisar families who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SKSunita KadyanModel Town, Hisar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to lose whole evenings to mobile games. Now he asks for laptop time to finish a project of his own. The small batch means the teacher actually knows him by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DRDr. Rakesh Saininear HAU Campus, Hisar
+ ★★★★★ PR Poonam RathoreParent
 
-"As a university man I was fussy and asked a lot of technical questions. They answered them properly and teach real reasoning, not memorised syntax. My daughter's logic is genuinely sound now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PDPriyanka DhandaHUDA Sector 15, Hisar
+ ★★★★★
 
-"The weekend slot sits neatly around school and her maths coaching. No running across town in the traffic — she just opens the laptop at home. For a working mother that convenience is everything."
-
-★★★★★JRJagbir RanaHansi (near Hisar)
-
-"Out in Hansi there's simply no good coding institute nearby. This filled the gap completely — a strong teacher, all online, at a fair price. Both my sons share the same batch."
-
-★★★★★MDManju DeviUrban Estate, Hisar
-
-"My daughter is shy and I feared she'd hide at the back. The teacher drew her out gently — within a month she was asking her own questions, and she coded a small billing page for our shop herself."
-
-★★★★★VGVikas GoyalRed Square Market, Hisar
-
-"We run a shop and don't know coding ourselves, so we worried we couldn't help him. They send regular updates and check he's really understood each topic — not just finished the lesson. Worth every rupee."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Hisar
 

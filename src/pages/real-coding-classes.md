@@ -356,25 +356,25 @@ If you want a certificate by Friday, we are the wrong school — and we'd rather
 
 Every figure below is the same one we publish across our site and schema — no inflated marketing math.
 
-**10,000+**Students taught**4.9 / 5**Average rating · 247+ reviews**15+**Countries with active students**70+**Live courses in the catalog
+**10,000+**Students taught**4.9 / 5**Average rating · 500+ Google reviews**15+**Countries with active students**70+**Live courses in the catalog
 
 > ★★★★★
 >
-> "My daughter started with the Mini Batch plan and built her first website in 3 months. The teachers are patient and the small class size means she gets real attention."
+> "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative."
 >
-> — Priya Sharma, parent
+> Sonam Oswal, parent of Dhairya
 
 > ★★★★★
 >
-> "We tried recorded courses before — my son watched videos and learned nothing. Here, on the 1-on-1 plan, he actually built real projects instead of just watching."
+> "I am truly grateful for my experience at Modern Age Coders. My teachers were mentors and friendly figures. The most impressive part was working on real-world projects, not just watching videos."
 >
-> — Rajesh Kumar, parent
+> Krishnam Bhatter, former student
 
 > ★★★★★
 >
-> "Group classes at ₹1,499 are incredibly affordable for the quality. Live teachers, recorded sessions, and a real certificate at the end."
+> "The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The projects were challenging and rewarding."
 >
-> — Anjali Mehta, student
+> Ria Mukherjee, parent
 
 Read more: [success stories](/success-stories) · [the love wall](/love)
 

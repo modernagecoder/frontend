@@ -180,23 +180,23 @@ What shifts at board.
 | **Practical weight** | 30 | 30 | 30 |
 | **Typical topper %** | 93+ | 95+ | 93+ |
 
-Words from parents and students
+What families say
 
-## Class 12 CBSE Python parents + students.
+## What families say about Modern Age Coders.
 
-Three recent board-year reviews.
+Real, verified reviews from Modern Age Coders families.
 
-Class 12 CBSE CS. SQL was breaking me at mid-term. Teacher rebuilt it in 5 sessions on a real dataset. 97 in pre-boards. Project: library management Flask app. Full marks.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-AAbhinav R.Student · Delhi · 1-on-1
+SShradha SarafParent of Mivaan
 
-Small group of 3 Class 12 CS students. Teacher runs strict timed simulations — 3 hours, no breaks. Daughter scored 93 in boards. Project: book recommender using Pandas.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-GGayatri P.Parent · Mumbai · Group
+SSonam OswalParent of Dhairya
 
-Joined late — October. SQL + networks + project in 3 months. Son scored 91 in boards. Given the timeline, remarkable.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-KKaran M.Parent · Bengaluru · 1-on-1Common questions from parents
+KKrishnam BhatterFormer studentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

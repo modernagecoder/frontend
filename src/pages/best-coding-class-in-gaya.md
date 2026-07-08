@@ -353,51 +353,37 @@ World-class teaching from just ₹1,499/month — small-town fair, never small-t
 
 A completion certificate to be proud of, plus honest progress notes so you always know exactly how your child is doing — not just at fee time.
 
-## Success Stories from Gaya Students
+## What Families Say About Modern Age Coders
 
-Real young coders from around Gaya and Bodh Gaya. Every one of them began exactly where your child is right now — curious, a little unsure, and ready to make something.
+Our classes are live and online, so students from Gaya learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AKAryan KumarAge 11 · Civil Lines, Gaya · DAVAchievement:Made a Scratch quiz game about Bodh Gaya that his class played at the school fair.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game that asks questions about the Mahabodhi Temple, and you score points for the right answer. My friends kept trying to beat each other's score. I didn't know I could actually build something like that."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SPSneha PrasadAge 15 · A.P. Colony, Gaya · Nazareth AcademyAchievement:Built a Python notes-and-reminder app her whole study group now uses.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I always thought coding was a 'boys from a big city' thing. My teacher patiently proved me wrong. Now my friends ping me when their code breaks — and I genuinely want to take up computer science."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RRRohit RanjanAge 20 · Rampur, Gaya · Magadh UniversityAchievement:Landed a paid remote internship after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone told me you have to be in Bengaluru to get a tech internship. I cracked one sitting in Gaya. The DSA practice carried me through the interview, and the project on my GitHub did the rest. My parents still can't quite believe it."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Gaya Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families around Gaya and Bodh Gaya who trusted us with their child's very first steps in coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MKManoj KumarCivil Lines, Gaya
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"In Gaya we didn't really have an option for this kind of teaching. My son finishes a class and comes running to show me what he built. Worth every rupee, and the small group is the reason it works."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RDDr. Ranjana DeviA.P. Colony, Gaya
+ ★★★★★ PR Poonam RathoreParent
 
-"With NEET prep already eating my daughter's time, I was hesitant. But coding has actually sharpened how she thinks through problems. The teacher explains, not just dictates — that's rare."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SASunita AgrawalRampur, Gaya
+ ★★★★★
 
-"The weekend slot is perfect — no rushing him across town in an auto for a class. He simply opens the laptop at home. For working parents in Gaya, that convenience alone is huge."
-
-★★★★★AKAbhishek KeshriBodh Gaya
-
-"Living near Bodh Gaya, a top-quality offline coding class was simply out of reach. Online removed that wall completely — same expert teacher, fair fee. Both my children are enrolled and loving it."
-
-★★★★★PSPriya SinhaMagadh Colony, Gaya
-
-"My daughter was sure coding 'wasn't for her'. The teacher's patience changed that — she's now the one answering doubts in her batch and she even made a small site for our shop in Gaya."
-
-★★★★★BPBirendra PaswanDelha, Gaya
-
-"I had tried one online programme before that was just pre-recorded videos. Here it's a live teacher who actually checks that my son understood — and who follows up if he didn't. That is the whole difference."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Gaya
 

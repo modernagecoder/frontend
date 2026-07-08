@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Solapur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Solapur and its towns. Every one of them began with nothing more than a little curiosity and a willingness to try.
+Our classes are live and online, so students from Solapur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ADAtharva DeshmukhAge 11 · Jule SolapurAchievement:Built a Scratch quiz game on Maharashtra's forts that his class plays at break.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only play games on the phone. Now I build them. I made a quiz where you have to name the fort from a picture — Bhuikot was the easy one — and it keeps everyone's score. My friends keep asking for new levels."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SKSanika KulkarniAge 15 · Hotgi Road, SolapurAchievement:Built a Python marks-and-attendance tracker her tuition teacher now uses for the batch.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought programming would be far too hard for me. The teacher took it slowly, in plain language, and it finally made sense. Now I want to study computer engineering and work in tech — and I don't think I'll have to leave Solapur to do it."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-PJPrathamesh JadhavAge 20 · Barshi (near Solapur)Achievement:Landed a remote internship after the DSA + full-stack track, without moving cities.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a second-year engineering student in Barshi, where good coding teachers are simply not available nearby. The DSA sheet and mock interviews got me ready, and the MERN project on my CV did the rest — I cleared a remote internship while still studying here at home."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Solapur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families across Solapur and its towns who trusted us with their child's first steps in coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SPSwati PawarMurarji Peth, Solapur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into mobile games for hours. Now he builds them himself and walks me through how each part works. The tiny batch is what makes it work — the teacher actually knows my child by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★MHMahesh HiremathVijapur Road, Solapur
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a small software job-work setup, so I can tell real teaching from coaching-class drilling. Here they make the child think the problem through first and only then write the code — my daughter's Python is genuinely solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RBReshma BiradarAkkalkot Road, Solapur
+ ★★★★★
 
-"The weekend slot fits neatly between school and his other classes. No running across town for a tuition — he just logs in from home. For working parents in Solapur, that convenience is everything."
-
-★★★★★SSSantosh ShindePandharpur (near Solapur)
-
-"Here in Pandharpur, a proper coding teacher is simply not available nearby. This solved it entirely — a strong teacher, online, at fair fees. Both my children are enrolled and clearly look forward to every class."
-
-★★★★★VKVaishali KambleDamani Nagar, Solapur
-
-"My daughter was shy and unsure she could do coding at all. The teacher's patience changed that completely — she now puts her hand up first in the batch and has even built a small website for our family handloom shop."
-
-★★★★★GDGanesh DhanwadeSaat Rasta, Solapur
-
-"We tried a couple of local classes before this. The difference is plain — here they actually check that the child has understood the concept before moving on, instead of just rushing to finish the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Solapur
 

@@ -353,51 +353,37 @@ Serious teaching from ₹1,499/month — every rupee accounted for, nothing buri
 
 A certificate at the finish line, and steady progress notes along the way — both go straight into a stronger portfolio and college file.
 
-## Success Stories from Pimpri-Chinchwad Students
+## What Families Say About Modern Age Coders
 
-Real young coders from every corner of the twin city. Each of them began right where your child stands today — curious, and itching to make something of their own.
+Our classes are live and online, so students from Pimpri Chinchwad learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-SDSoham DeshpandeAge 11 · AkurdiAchievement:Built a Scratch racing game that won applause at his school's annual day.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only play racing games. Now I make them! I built a bike race where you dodge traffic on a Pune-style road — even my friends from other classes wanted a turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-AKAditi KulkarniAge 15 · WakadAchievement:Built a Python app to track her class's library books for the school project fair.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python looked intimidating at first, but the teacher made it click step by step. My class teacher actually started using the app. I want to study CS and work in one of the Hinjewadi companies."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RPRohan PawarAge 20 · RavetAchievement:Landed his first internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a third-year engineering student in PCMC. The mock interviews and the DSA sheet are what got me through — I cleared an internship before campus placements even started. The MERN project on my CV did the talking."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Pimpri-Chinchwad Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Unfiltered words from twin-city parents — from Bhosari to Wakad — who let us teach their child their very first line of code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SJSwati JoshiNigdi
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son was always on his phone. Now he builds his own little games and explains the logic to me over dinner. Genuinely the best decision we made this year — the small batch is what makes the difference."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★MPMahesh PatilWakad
+ ★★★★★ PR Poonam RathoreParent
 
-"I work in IT in Hinjewadi, so I can tell real teaching from a show. These folks teach logic and problem-solving, not just syntax. My daughter's Python is genuinely solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★VKVaishali KaleChinchwad
+ ★★★★★
 
-"The weekend batch slots in perfectly around school and his cricket coaching. No driving him across town for a class — he just logs in from home. A real relief for working parents like us."
-
-★★★★★SSSandeep ShindeRavet
-
-"Out in the new Ravet townships, finding a really good offline coding teacher is hard. This solved it completely — top teacher, online, fair fees. Both my children are enrolled and clearly enjoying it."
-
-★★★★★PGPriya GokhalePimple Saudagar
-
-"My daughter barely spoke up in her first class. A term later she's the one demoing her project to the batch — and she built a little ordering website for my home tiffin service in Nigdi without me asking."
-
-★★★★★ABAmol BhosalePimpri
-
-"We tried a couple of other classes before this. The gap is huge — here they actually check whether the child understood the concept, not just whether the lesson finished on time."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Pimpri-Chinchwad
 

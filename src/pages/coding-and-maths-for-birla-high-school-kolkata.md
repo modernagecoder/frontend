@@ -200,23 +200,23 @@ India's #1 school deserves the best after-school programme — not just the near
 | Session recordings | ✓ Every class recorded | ✗ Miss a class, miss the content |
 | Free demo class | ✓ Always free, no card needed | ✗ Paid demo or none |
 
-## What BHS Parents Say
+## What families say about Modern Age Coders
 
-Real feedback from families in Bhowanipore, Elgin, Ballygunge, and Alipore.
+Real, verified reviews from Modern Age Coders families.
 
 ★★★★★
 
-"My son is in BHS Class 12 Science and was genuinely scared of the CBSE CS practical exam. After joining the CBSE CS Practical Bootcamp at Modern Age Coders, he completed all 15 Python programmes and his SQL sets in three weeks. He scored 28 out of 30 in the practical — and told me the exam felt easy. Worth every rupee."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
-RKRajesh K.Parent · BHS Class 12 Science · Bhowanipore, Kolkata★★★★★
+SOSonam OswalParent of Dhairya★★★★★
 
-"We enrolled our son for CBSE Maths and Python together from Class 9. The combination was genius — his CBSE Maths scores went from 72% to 91% by Class 10 boards, and he wrote his first real Python programme in month two. The instructors genuinely know the BHS academic schedule and exam dates — it's not generic coaching at all."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests."
 
-PMPrashant M.Parent · BHS Class 9–10 · Ballygunge, Kolkata★★★★★
+KBKrishnam BhatterFormer student★★★★★
 
-"My son started Scratch at age 7 and is now in BHS Class 6 doing Python. He won his school's inter-house science project competition last year with a programme he built himself. The progression from Scratch to Python was seamless — it felt like one continuous journey, not two separate courses. Live classes, recordings, weekend batches — everything works around BHS."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
 
-SBSunil B.Parent · BHS Class 6 · Alipore, Kolkata
+RMRia MukherjeeParent
 
 ## Book Your Free Demo Class
 

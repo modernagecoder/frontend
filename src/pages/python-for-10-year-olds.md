@@ -184,23 +184,23 @@ If your child is near a boundary, this is the plain difference.
 | **AI depth** | Demo | Teachable Machine call | First sklearn |
 | **Class size** | Both fine | Both fine | Both fine |
 
-Words from parents and students
+What families say
 
-## Class 5 parents on Python.
+## What families say about Modern Age Coders.
 
-Three recent reviews from families of 10-year-old Python learners.
+Real, verified reviews from Modern Age Coders families.
 
-Son is Class 5. After 2 months he writes 15-line Python programs without looking at notes. He built a maths quiz that his cousins play. This is the first coding class where I actually understand what he learned.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-PPrakash D.Parent · Noida · 1-on-1
+SSonam OswalParent of Dhairya
 
-Group of 5 Class 5 kids. They show their turtle spirals to each other — you should see the pride. Teacher is patient and specific. My daughter's school computer teacher now asks her to help in lab.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-MManali G.Parent · Mumbai · Group
+KKrishnam BhatterFormer student
 
-We tried three coding apps before this. All were videos. This is the first live class that actually watches him type. He has a Teachable Machine project and a dice-stats Python program. He is 10.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-VVishal T.Parent · Bengaluru · 1-on-1Common questions from parents
+SShradha SarafParent of MivaanCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

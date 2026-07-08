@@ -353,51 +353,37 @@ Next to a lakh-plus annual coaching budget, ₹1,499/month is a rounding error �
 
 Completion certificates and regular progress updates parents can actually read — the same transparency Kota families expect from any serious programme.
 
-## Success Stories from Kota Students
+## What Families Say About Modern Age Coders
 
-Real learners from across Kota — some balancing it with coaching, some still in school. Each one started exactly where your child is today: curious, and ready to build something of their own.
+Our classes are live and online, so students from Kota learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DMDaksh MaheshwariAge 11 · Vigyan Nagar, KotaAchievement:Built a Scratch quiz game on the planets that his class now plays before science tests.
+ SO Sonam OswalParent of Dhairya
 
-"My older brother is preparing for NEET and is always studying. I wanted to make something too, so I built a space quiz game. Now my friends ask me to add new questions — it feels like I'm the teacher!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SRSneha RathoreAge 16 · Mahaveer Nagar, KotaAchievement:Built a Python flashcard app to revise her own NEET biology terms.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I'm a NEET aspirant, so I have zero spare time. But coding two hours a week actually relaxes me — I built a flashcard app for my biology revision, and now half my batch uses it. It made me think maybe I want to do more than just medicine."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-AVAman VyasAge 20 · RTU, KotaAchievement:Landed a remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"At RTU, big companies don't always come for on-campus drives. The DSA sheet and mock interviews got me ready to apply off-campus — I cleared a remote internship in my fifth semester. My MERN project link did most of the convincing."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Kota Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from Kota families — many of them deep in the coaching journey — who added code alongside the exam prep.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MAManish AgarwalTalwandi, Kota
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My elder son is in coaching here and the whole house revolves around his prep. We enrolled the younger one in coding so he builds his own thing — and now he's the one explaining 'logic' to his big brother at dinner. Lovely to watch."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RPDr. Renu PurohitVigyan Nagar, Kota
+ ★★★★★ PR Poonam RathoreParent
 
-"As a doctor I wanted my daughter to have a backup if NEET doesn't go her way. The teachers here actually check whether she understood, not just whether she copied the code. Her Python is genuinely solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SJSuresh JainMahaveer Nagar, Kota
+ ★★★★★
 
-"Between school and coaching my son had no free hour, so I was sure this wouldn't work. But the weekend slot and the recordings made it effortless — he never misses, even on test-series days. Worth every rupee."
-
-★★★★★KMKavita MeenaLandmark City, Kota
-
-"Plenty of exam coaching in Kota, but a proper coding class for school-age kids was hard to find. This solved it completely — a good teacher, online, fair fees. Both my children are enrolled and clearly love it."
-
-★★★★★PGPriyanka GoyalIndra Vihar, Kota
-
-"My daughter felt coding was 'a boy thing' and was hesitant. The teacher changed that completely — she's now the most eager one in her batch and built a small website for our family kirana shop. I couldn't be prouder."
-
-★★★★★DCDeepak ChoudharyKunhari, Kota
-
-"My son scored an average rank, and that hit him hard. This gave him a fresh thing to be good at — within two months he was building apps and grinning again. Sometimes the best result isn't a rank at all."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Kota
 

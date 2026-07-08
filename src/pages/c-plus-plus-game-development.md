@@ -144,17 +144,17 @@ Young Game Makers
 
 ★★★★★
 
-"My son begged to learn coding so he could make games. Now he's built a 2D coin-dash game in C++ and his logic is genuinely strong. Best motivation ever."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement and the teachers are very cooperative."
 
-Sunita P.Parent of 14-year-old★★★★★
+Sonam OswalParent of Dhairya★★★★★
 
-"Seeing my sprite actually move on screen made OOP and the game loop click instantly. I've started my own platformer now."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were mentors and friendly figures. The most impressive part was working on real-world projects."
 
-Reyansh K.Teen learner★★★★★
+Krishnam BhatterFormer student★★★★★
 
-"I wanted to get into game dev seriously. This gave me real C++ fundamentals and SFML, plus a portfolio of games to show."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The projects were challenging and rewarding."
 
-Aditi M.College student
+Ria MukherjeeParent
 
 ## Ready to build your first C++ game?
 

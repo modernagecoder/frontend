@@ -195,23 +195,23 @@ If your child is right at a boundary, this table helps you decide whether to sta
 | **Session length** | 1 hour | 1 hour | 1 hour |
 | **Best format** | Small group | Both work well | 1-on-1 if pushing ahead |
 
-Parents of 10 year olds
+What families say
 
-## Honest words from the families we teach.
+## What families say about Modern Age Coders.
 
-No paid reviews, no generic "amazing experience" lines. These are parents of 10 year olds currently in our classes. Names shortened for privacy.
+Real, verified reviews from Modern Age Coders families.
 
-Arnav is 10 and had started losing interest in his school computer class because he said it was too slow. After three weeks with Modern Age Coders he was writing small Python programs on his own. The one-hour sessions twice a week work really well with his Class 5 timetable.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-PPriya S.Parent · Gurgaon · 1-on-1 format
+KKrishnam BhatterFormer student
 
-We picked the small group class because our daughter is social. She looks forward to Mondays and Thursdays to see her coding friends. The teacher shares a 2-minute voice note with a progress update every weekend — that small thing makes us feel informed without having to ask.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-RRakesh M.Parent · Bangalore · Group format
+SShradha SarafParent of Mivaan
 
-My son was afraid of Python because the YouTube videos looked intimidating. The demo class broke that fear in 40 minutes. He is now halfway through month 3 and has built a dice game and a quiz in Python. For the first time he shows his code to his grandfather, not the other way around.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-SShruti K.Parent · Pune · 1-on-1 formatCommon questions from parents
+SSonam OswalParent of DhairyaCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

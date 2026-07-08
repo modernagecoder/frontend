@@ -353,51 +353,37 @@ A real, live teacher from ₹1,499 a month, and the number you see is the number
 
 A completion certificate and steady progress notes home, so you always know what your child can now do — and so does any school or panel that asks.
 
-## Success Stories from Srinagar Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across the Kashmir Valley. Each one began exactly where your child is today — curious, and ready to build something of their own.
+Our classes are live and online, so students from Srinagar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ZHZaid HamidAge 11 · Rajbagh, SrinagarAchievement:Built a Scratch shikara-racing game his class voted the best at the school project day.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you row a shikara across Dal Lake and collect lotus flowers before the timer ends. My teacher asked me to show the whole class how I built the scoring. Now everyone wants the link."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-IJIqra JanAge 15 · Hyderpora, SrinagarAchievement:Wrote a Python app her school office now uses to track period-wise attendance.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I always thought coding was something you had to go to a big city to really learn. Doing it live from home in Hyderpora, I built an attendance tool my school actually kept using. Now I want to sit the NIT Srinagar exam for computer science."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-FMFaizan MirAge 20 · University of Kashmir, HazratbalAchievement:Landed a fully-remote developer internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"My worry was simple — recruiters never came to a campus in the Valley. After the mock rounds and a deployed project link, a Pune company took me on as a remote intern. I am earning and learning, and I never had to leave Srinagar or my family."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Srinagar Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families across the Valley who trusted us with their child's very first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NGNusrat GeelaniJawahar Nagar, Srinagar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"We had nearly resigned ourselves to my son just watching videos all evening. Now he builds the games instead and walks me through the logic at dinner. The tiny batch is what changed it — the teacher notices him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★VSTariq BhatSanat Nagar, Srinagar
+ ★★★★★ PR Poonam RathoreParent
 
-"I am a software engineer working from home in the Valley, so I can tell teaching apart from screen-reading. Here they coach the thinking, not just the keyboard. The first time my daughter fixed her own bug without calling me, I knew this was the real thing."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PKMehvish LoneBemina, Srinagar
+ ★★★★★
 
-"The weekend slot sits neatly between school and his Quran lessons, and there is no traffic across the city to plan around. He just logs in and the class runs. For a working mother, the calm of that is worth as much as the coding."
-
-★★★★★ASArif WaniNowgam, Srinagar
-
-"A proper coding teacher near Nowgam simply did not exist. Going online erased that gap in an afternoon — my daughter now learns from someone as good as any teacher in a metro, and she does it without leaving the house. I only wish we had found it a year earlier."
-
-★★★★★RMShazia AndrabiSonwar, Srinagar
-
-"She joined shy and unsure she belonged in a coding class at all. Now she is the one answering first in the batch, and she has built a small online catalogue for my Pashmina shawl work. Watching that quiet girl take charge of a project — that is the part I did not expect."
-
-★★★★★SVBilal DarRambagh, Srinagar
-
-"What convinced me was being able to sit in on the free trial class and just watch. I could see for myself that the teacher waited until my son actually understood a step before moving on. After that, deciding to enrol was easy."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Srinagar
 

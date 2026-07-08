@@ -353,51 +353,37 @@ Metro-grade teaching from just ₹1,499/month, written out plainly with no hidde
 
 A completion certificate plus honest, regular progress notes — so you always know where your child stands and have proof to show for it.
 
-## Success Stories from Jhansi Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Jhansi & Bundelkhand. Each one began exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Jhansi learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ADAryan DubeAge 11 · Civil Lines, JhansiAchievement:Built a Scratch game about defending Jhansi Fort that his school showed at its annual function.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you defend the fort from the cannons. My friends kept asking for more levels. I never thought I could build something a whole class wanted to play."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SNSaanvi NigamAge 15 · Sipri Bazar, JhansiAchievement:Built a Python quiz app her teacher now uses for class revision tests.
+ ★★★★★ RM Ria MukherjeeParent
 
-"In Jhansi I always assumed real coding was a metro thing. Online, my teacher made Python simple and now I've built something my class actually uses. I want to study computer science next."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-HPHarsh PandeyAge 19 · Bundelkhand University areaAchievement:Landed a paid remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a second-year student here in Jhansi. The DSA sheet and mock interviews got me ready, and a company hired me remotely off my MERN project — I didn't have to move cities to get my first break."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Jhansi Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Jhansi & Bundelkhand who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-RDRicha DwivediCivil Lines, Jhansi
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"In Jhansi I'd almost given up finding a serious coding teacher. My son now builds his own games and explains the logic to me over dinner. The small batch is what makes him feel seen."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★AMAnand MishraBHEL Township, Jhansi
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer at BHEL, so I can tell when teaching is real. These classes build logic and problem-solving, not just syntax to memorise. My daughter's Python is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SRShalini RajputGwalior Road, Jhansi
+ ★★★★★
 
-"The weekend slot fits neatly around school and tuition. No more sending him out on the road to a far-off centre — he just logs in from our drawing room. A relief for working parents like us."
-
-★★★★★PTPankaj TiwariSadar Bazar, Jhansi
-
-"For years Jhansi just didn't have a proper coding institute. This filled the gap entirely — an excellent teacher, online, at a fair fee. Both my children are enrolled and genuinely look forward to class."
-
-★★★★★MSMeenakshi SahuNehru Nagar, Jhansi
-
-"My daughter was shy and unsure about coding. The teacher put her at ease so gently that she's now the most eager one in her batch — she even made a little website for our family sweet shop."
-
-★★★★★DYDevendra YadavKanpur Road, Jhansi
-
-"We'd tried a local tuition before this and it was just rote work. Here it's a different world — they actually stop to check whether my son has understood the idea, not merely covered the chapter."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Jhansi
 

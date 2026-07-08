@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month, with the full fee stated upfront. No 
 
 Completion certificates plus honest progress updates parents can actually read — useful for school files and college applications.
 
-## Success Stories from Vellore Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Vellore. Each one started exactly where your child is today — curious, a little unsure, and ready to build.
+Our classes are live and online, so students from Vellore learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DMDhanush MuraliAge 11 · Gandhi Nagar, VelloreAchievement:Built a Scratch quiz game on Vellore Fort that his teacher used in a history class.
+ SO Sonam OswalParent of Dhairya
 
-"I used to just play games on my mother's phone. Now I make them. I built a quiz where you answer questions about the Fort to unlock the next room — my class actually played it in school."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-KSKeerthana SelvamAge 15 · Sathuvachari, VelloreAchievement:Built a Python app to track her NEET test scores and topper averages.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Everyone at home talks about NEET, so I made an app that plots my mock-test marks against the cut-offs. The teacher showed me how to turn it into a real project. Now I want to do CS, not just memorise."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ARArjun RameshAge 19 · Katpadi (VIT), VelloreAchievement:Landed a summer internship after the DSA + MERN full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a second-year at VIT and the campus pressure is real. The DSA sheet and mock interviews here filled the gaps my coursework left. I cleared an internship by third semester — the full-stack project on my CV is what they asked about most."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Vellore Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Vellore who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-LPLakshmi PriyaGandhi Nagar, Vellore
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son barely looked up from his phone. Now he explains his own game logic to me over dinner. For a working mother, the small batch is what sold me — he can't hide at the back."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RBDr. Rajesh BabuBagayam, Vellore
+ ★★★★★ PR Poonam RathoreParent
 
-"As a doctor I value a teacher who checks understanding, not just attendance. They taught my daughter the why behind the code, not only the syntax. Her Python is genuinely sound now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MSMeena SundaramSathuvachari, Vellore
+ ★★★★★
 
-"Between school and tuition there's barely a free hour, so a class he can log into from home is gold. No autos to Katpadi, no waiting in the evening traffic. The weekend slot fits us perfectly."
-
-★★★★★VKVijaya KannanThorapadi, Vellore
-
-"Out near Thorapadi a really good coding teacher is hard to come by. This solved it completely — strong teacher, all online, fees that don't sting. Both my children are enrolled and look forward to class."
-
-★★★★★SAShabana AnwarOfficers Line, Vellore
-
-"My daughter was sure coding wasn't for girls like her. The teacher quietly changed that — she's now the loudest one in the batch with questions, and she built a small website for my tailoring business."
-
-★★★★★PGPrakash GopalKatpadi, Vellore
-
-"We had tried a local computer class before this and it was just typing practice. Here they stop and confirm the child has actually grasped the idea before moving on. That single habit is the whole difference."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Vellore
 

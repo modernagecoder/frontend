@@ -353,51 +353,37 @@ Proper, structured teaching from ₹1,499/month, with nothing buried in the fine
 
 Completion certificates plus honest, regular progress notes home — the kind that strengthen a portfolio and tell you exactly where your child stands.
 
-## Success Stories from Guntur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Guntur and the Amaravati region. Every one of them began exactly where your child is now — curious, and ready to make something.
+Our classes are live and online, so students from Guntur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-CTCharan TejaAge 10 · Brodipet, GunturAchievement:Built a Scratch chilli-market counting game his Bhashyam class showed on Children's Day.
+ SO Sonam OswalParent of Dhairya
 
-"My thatha sells chillies in the market, so I made a game where you sort red and green chillies into the right sacks before time runs out. My friends kept asking for one more turn!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SPSneha PranaviAge 15 · Lakshmipuram, GunturAchievement:Built a Python study-timetable app her whole tuition batch now uses.
+ ★★★★★ RM Ria MukherjeeParent
 
-"With EAPCET coaching plus school, my days were a mess. So I wrote a Python app that splits revision across subjects automatically. Now half my batch has it on their phones. I want to do computer science properly."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-VRVenkata RamanaAge 20 · RVR & JC, GunturAchievement:Landed his first internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm in third year at RVR & JC. The DSA sheet and mock interviews finally made placement prep feel doable — and the MERN project I built was the first thing the interviewer asked me to walk through."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Guntur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Candid words from Guntur and Amaravati-region families who trusted us with their child's very first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-LRLakshmi RaoArundelpet, Guntur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son would not put the phone down. Now he is the one explaining to me how his game works at dinner. The small batch is what does it — the teacher actually knows where my child is stuck."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★SKSrinivas KommineniLakshmipuram, Guntur
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a software job remotely from Guntur, so I can tell teaching from time-pass. These classes build logic and problem-solving, not just memorised syntax. My daughter's Python is genuinely sound now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★DPDivya PrasadPattabhipuram, Guntur
+ ★★★★★
 
-"Between school and Narayana coaching, time is precious in our house. The weekend slot fits around all of it and there is no auto ride anywhere — he just logs in. For working parents that is everything."
-
-★★★★★RBRamesh BabuMangalagiri (Amaravati region)
-
-"In Mangalagiri a really good coding teacher is hard to find nearby. This settled it for us — proper teacher, online, and the fees are honest. Both my children are enrolled and visibly looking forward to class."
-
-★★★★★PVPadmavathi VasireddyBrindavan Gardens, Guntur
-
-"My daughter was shy about even trying coding. The teacher put her at ease so gently that she is now the most eager one in the batch — she went and built a little website for our family tailoring shop!"
-
-★★★★★NKNageswara Rao KunchamKothapet, Guntur
-
-"We had tried two coaching-style classes before, where the batch just moved on regardless. Here it is the opposite — they stop and confirm my son has really grasped the concept before the next one. That is rare."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Guntur
 

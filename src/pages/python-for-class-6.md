@@ -181,23 +181,23 @@ What changes grade by grade.
 | **AI** | Teachable intro | Teachable + Python call | First sklearn |
 | **Editor** | Thonny | Thonny | Thonny / VS Code |
 
-Words from parents and students
+What families say
 
-## Class 6 Python parents and students.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 6 families.
+Real, verified reviews from Modern Age Coders families.
 
-Class 6 CBSE. Son finished the Code 166 Python unit in month one. His school computer teacher made him the lab helper. At 11 this is a lot of confidence.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-KKiran N.Parent · Delhi · 1-on-1
+PPoonam RathoreParent
 
-Small Class 6 batch. Teacher keeps the Code 166 book open during class. Every time school teaches a chapter, my daughter has already built two projects in it.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-SSaira V.Parent · Bengaluru · Group
+RRia MukherjeeParent
 
-Son built a Teachable Machine project and called the model from Python. At 11. The teacher explained what training data means without dumbing it down.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-RRaj P.Parent · Pune · 1-on-1Common questions from parents
+SSonu GoyalParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

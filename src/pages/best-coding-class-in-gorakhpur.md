@@ -353,51 +353,37 @@ Metro-quality teaching from just ₹1,499/month — fair fees that make sense fo
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Gorakhpur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from around Gorakhpur. Not one of them came in already knowing how — they simply showed up curious and willing to build, just like your child can.
+Our classes are live and online, so students from Gorakhpur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AYAryan YadavAge 11 · Betiahata, GorakhpurAchievement:Built a Scratch quiz game about Gorakhpur landmarks for his school's annual day.
+ SO Sonam OswalParent of Dhairya
 
-"Earlier I just watched videos on my mother's phone. Now I make my own games on it. I made a quiz where you answer questions about Gorakhnath Temple and Ramgarh Tal — even my dadi played it!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SSSneha SrivastavaAge 15 · Civil Lines, GorakhpurAchievement:Built a Python homework-tracker app that her whole section started using.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I assumed real coding was only for kids in the big cities. My teacher showed me it isn't. I made an app that reminds my section about submissions — now I'm aiming for the CS branch at MMMUT."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-HNHarsh NishadAge 20 · Mohaddipur, GorakhpurAchievement:Landed a paid remote internship after the DSA + MERN full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm an engineering student here in Gorakhpur and I worried no good company would notice me. The DSA practice and mock interviews changed that — I got a remote internship that pays from home, with the MERN project doing the talking."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Gorakhpur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Candid words from Gorakhpur families who handed us their child's introduction to the world of coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NGAnjali TripathiBetiahata, Gorakhpur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"In Gorakhpur it's hard to find a coding teacher who is actually good. This solved that worry. My son now builds his own little games and explains the logic to me — the small batch means the teacher really knows him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★VSDr. Manish ChandMedical College Road, Gorakhpur
+ ★★★★★ PR Poonam RathoreParent
 
-"As a doctor I judge things on substance, not show. They teach my daughter to reason and solve problems, not just memorise syntax. Her Python is genuinely strong now, and she enjoys the work."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PKPooja MauryaTaramandal, Gorakhpur
+ ★★★★★
 
-"The weekend batch slots around school and his other tuitions without any stress. No sending him out on the road for a class — he simply logs in from home. For a working couple, that peace of mind is everything."
-
-★★★★★ASRakesh GuptaGolghar, Gorakhpur
-
-"We always felt our kids were missing out by not being in a metro. This closed that gap completely — a top teacher, online, at a fair price. Both my children are enrolled and genuinely look forward to their class."
-
-★★★★★RMShalini PandeyMohaddipur, Gorakhpur
-
-"My daughter was shy and sure that coding was a boys' thing. The teacher made her so comfortable that she's now the keenest in her batch. She even built a small website for my boutique here in Gorakhpur!"
-
-★★★★★SVSandeep VermaRustampur, Gorakhpur
-
-"We had tried a local computer centre earlier and learnt little. The difference here is night and day — they keep checking whether my son has actually understood, not just whether the lesson is over."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Gorakhpur
 

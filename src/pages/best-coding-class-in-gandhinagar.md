@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month, with the full fee stated up front and
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Gandhinagar Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Gandhinagar and the Kudasan–Sargasan belt. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Gandhinagar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DPDhruv PatelAge 11 · Sector 21, GandhinagarAchievement:Built a Scratch quiz game about Gandhinagar's sectors that his class played in computer period.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you have to find the right sector before the timer runs out. My teacher put it on the smart-board and the whole class played it. Now I want to make a bigger one with maps."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-ASAnaya ShahAge 15 · Kudasan, GandhinagarAchievement:Built a Python expense-splitter app and presented it at her school's science exhibition.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding would be all theory, but we built things from day one. My app splits a trip's expenses between friends — my cousins actually use it. I'm aiming for DA-IICT after Class 12."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-MTMeet TrivediAge 20 · Sargasan, GandhinagarAchievement:Landed a summer internship at a GIFT City fintech after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a third-year engineering student here. The DSA sheet and mock interviews are what got me through the technical round — and a GIFT City fintech took me on for the summer. My MERN project sealed it."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Gandhinagar Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Gandhinagar and the Kudasan–Sargasan belt who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-HPHetal PatelSector 7, Gandhinagar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son would only watch reels after school. Three months in, he's writing his own little games and walking me through the logic. The small batch is what changed it — the teacher actually knows him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★JMJignesh MehtaGIFT City, Gandhinagar
+ ★★★★★ PR Poonam RathoreParent
 
-"I work with a fintech in GIFT City, so I see exactly which skills get hired. These classes teach reasoning and clean problem-solving, not just syntax to memorise. My daughter's Python is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RJRina JoshiKudasan, Gandhinagar
+ ★★★★★
 
-"Out in Kudasan the good coding classes are all in Ahmedabad, which meant a long drive twice a week. This solved it — he just opens the laptop at home. A real relief for a working couple like us."
-
-★★★★★KDKunal DesaiSargasan, Gandhinagar
-
-"We compared four options before picking this one. Top teacher, fully online, and fees stated plainly with no add-ons. Both my children are enrolled now and look forward to the class each week."
-
-★★★★★PVPriya VyasSector 28, Gandhinagar
-
-"My daughter was sure coding 'wasn't for her'. The teacher was so patient that within weeks she was the one answering questions in the batch. She's even built a little website for my boutique."
-
-★★★★★ATAshish ThakkarAdalaj, Gandhinagar
-
-"What I value most is that they don't just race through the syllabus. The teacher pauses to make sure my son has truly understood before moving on. That patience is rare and it shows in his results."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Gandhinagar
 

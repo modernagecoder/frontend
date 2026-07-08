@@ -182,23 +182,23 @@ Thirteen is a clear rung up. This is what changes.
 | **GitHub** | First repo | Active repos + PR | Sustained commits |
 | **Project scope** | 3–5 classes | Multi-week | Month-long |
 
-Words from parents and students
+What families say
 
-## Class 8 parents on teen Python.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 8 Python families.
+Real, verified reviews from Modern Age Coders families.
 
-Son is Class 8. He built a Flask API that his friends actually ping from their own scripts. At 13 he is explaining JSON to me. I feel outpaced, and I am an engineer.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-KKritika S.Parent · Delhi · 1-on-1
+SSonu GoyalParent
 
-Group of 4 Class 8 teens. Teacher runs weekly code reviews. My daughter's OOP design is surprisingly clean. She knows the word "refactor" at 13.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-VVivek R.Parent · Bengaluru · Group
+PPoonam RathoreParent
 
-We moved from a recorded-video Python course. Huge difference. Live teacher asks "why did you write this loop?" — the questions shape thinking, not just knowledge.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-DDeepika M.Parent · Mumbai · 1-on-1Common questions from parents
+RRia MukherjeeParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

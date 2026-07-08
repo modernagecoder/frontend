@@ -186,23 +186,23 @@ If your child is right at a boundary, this table tells you what actually changes
 | **AI exposure** | Not yet | Teachable Machine intro | Teachable Machine + project |
 | **Session length** | 1 hour | 1 hour | 1 hour |
 
-Words from parents and students
+What families say
 
-## Real words from parents of 9 year olds.
+## What families say about Modern Age Coders.
 
-Three recent reviews, exactly as written, shortened for privacy.
+Real, verified reviews from Modern Age Coders families.
 
-My son is 9 and was obsessed with Roblox but had no idea games could be made. After two months he built a maze game that his whole family played on a Sunday. He now asks for extra class time, which is not something I thought I'd ever say about a 9 year old.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-KKarthik S.Parent · Chennai · 1-on-1
+SShradha SarafParent of Mivaan
 
-The small group class suits her perfectly — she has three regular classmates she looks forward to seeing. The teacher shares a weekly note on what they did. Last week it was "she figured out why her score kept resetting and fixed it herself".
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-NNitya B.Parent · Mumbai · Group
+SSonam OswalParent of Dhairya
 
-I was skeptical that Python would work at 9. It does. The teacher keeps the programs tiny, funny, and attached to something my son cares about. He wrote a joke generator last week. That's real Python.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-VVikas M.Parent · Pune · 1-on-1Common questions from parents
+KKrishnam BhatterFormer studentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

@@ -223,49 +223,37 @@ Surat parents understand the value of future-ready skills. That's why families f
 
  #1Fastest Growing City  ₹3L CrDiamond Industry 🚀Entrepreneurial Spirit TopGSEB/CBSE Schools
 
-## What Surat Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Surat who trusted us with their children's coding education.
+Our classes are live and online, so students from Surat learn in the same small batches as families across India. These are real, verified reviews from our community.
 
- MP Mehul PatelVesu, Surat
+ SO Sonam OswalParent of Dhairya
 
-"My son was always on his iPad playing games. Now he's building his own games in Scratch! The instructors are patient and explain concepts in a way kids understand. Best investment we made for his future."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- ★★★★★ HS Hetal ShahAdajan, Surat
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a business owner in Surat's diamond industry, I understand the value of technology. Modern Age Coders teaches coding the right way — with logic and problem-solving, not just syntax."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
- ★★★★★ JD Jayesh DesaiAthwa, Surat
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The online format is perfect — no need to travel across Surat. My daughter learns from home and the weekend batches fit perfectly with our schedule. Great value for money!"
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
- ★★★★★ PM Parul ModiCitylight, Surat
+ ★★★★★ SG Sonu GoyalParent
 
-"Affordable fees without compromising on quality — that's rare to find. Both my children are enrolled and they're learning so much. The recorded sessions help when they miss a class."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
- ★★★★★ NG Nilesh GajeraVarachha, Surat
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son was hesitant about coding initially. The teachers made him feel comfortable and now he's the most enthusiastic one in his batch. He wants to build an app for our family business!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
- ★★★★★ SA Swati AgarwalPal, Surat
+ ★★★★★ PR Poonam RathoreParent
 
-"We tried two other coding classes before finding Modern Age Coders. The difference is night and day. Here, they actually care about whether kids understand concepts. Highly recommended for Surat parents!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
 
-## Success Stories from Surat Students
-
- APAryan PatelAge 11 — Vesu Achievement:Built a diamond sorting game featured in school exhibition
-
-"I made a diamond sorting game inspired by my dad's business! My friends at school love playing it."
-
- KSKriti ShahAge 15 — Adajan Achievement:Won 1st place in school science fair with a AI chatbot project
-
-"I built a AI chatbot that can answer questions about Surat! Coding gave me the confidence to dream big."
-
- DDDev DesaiAge 17 — Athwa Achievement:Built an e-commerce portfolio website for family textile business
-
-"The web dev course helped me build an e-commerce site for our family business! Now preparing for JEE."
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Surat
 

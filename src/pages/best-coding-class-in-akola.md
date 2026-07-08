@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — value
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Akola Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Akola and the nearby towns — every one of them began as a curious beginner, exactly where your child stands right now.
+Our classes are live and online, so students from Akola learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ADAtharva DeshmukhAge 11 · Tilak Road, AkolaAchievement:Built a Scratch game about steering a cotton cart through the mandi, shown at his school exhibition.
+ SO Sonam OswalParent of Dhairya
 
-"Earlier I only played games on the phone. Now I make my own. My game has a cart that has to dodge the bullock-carts in the bazaar — everyone in class wanted a turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SISanika IngleAge 15 · Civil Lines, AkolaAchievement:Won her school's tech fair with a Python attendance-and-marks tracker.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I assumed Python would be too hard for me. My teacher broke it down until it just made sense. My class teacher actually uses my app now — and I want to study computer science without leaving Akola."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-PWPranav WankhedeAge 19 · Murtizapur Road, AkolaAchievement:Cleared a remote-internship interview off the DSA + full-stack track — and started it from Akola, no relocation.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm an engineering student here in Akola. The DSA sheet and mock interviews got me ready, and the MERN project on my CV is what opened the door. I started a remote internship while still in college — from home."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Akola Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Akola and the nearby towns who trusted us with their child's first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SKSwati KaleGorakshan Road, Akola
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to disappear into his phone for hours. Now he actually sits down and builds his own little games. In a small batch the teacher genuinely knows him — that is what changed things for us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RIRahul IngleCivil Lines, Akola
+ ★★★★★ PR Poonam RathoreParent
 
-"I work in software remotely from Akola, so I judge teaching closely. They build real logic and problem-solving, not memorised syntax. My daughter's Python is properly strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PDPriya DhoteJatharpeth, Akola
+ ★★★★★
 
-"The weekend slot sits perfectly around school and tuitions. No more sending him across town in the autorickshaw for a class — he just logs in from home. A real relief for working parents."
-
-★★★★★MGMahesh GawandeAkot
-
-"Out here in Akot, finding a really good coding teacher is nearly impossible. This solved it entirely — a strong teacher, online, at a fair fee. Both my children are enrolled and clearly enjoying it."
-
-★★★★★VRVaishali RautRatanlal Plots, Akola
-
-"My daughter was shy about coding at the start. The teacher put her at ease so well that she now looks forward to every class — and she even built a small website for our home shop."
-
-★★★★★STSandeep ThakreMurtizapur
-
-"We tried a couple of local options before this. The contrast is stark — here they actually confirm the child has understood the concept, instead of just rushing through the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Akola
 

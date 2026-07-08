@@ -314,55 +314,43 @@ Sanjay PlaceShahganjKamla NagarCivil LinesDayalbaghSikandraTrans YamunaMG RoadFa
 
 Online classes available for students across Agra and surrounding areas
 
-## What Agra Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Agra who trusted us with their children's coding education.
+Our classes are live and online, so students from Agra learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-MSMukesh SharmaSanjay Place, Agra
+ SO Sonam OswalParent of Dhairya
 
-"My son was obsessed with Taj Mahal documentaries. I told him to build a virtual tour. He did it with HTML in 6 weeks. Now he wants to add VR. The spark is lit."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★GAGeeta AgarwalCivil Lines, Agra
+ ★★★★★ RM Ria MukherjeeParent
 
-"Agra has limited options for modern education beyond board tuitions. MAC brought Delhi-quality coding to our doorstep without the Delhi prices."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★RGRavi GuptaDayalbagh, Agra
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The maths-coding combo is brilliant for JEE. My son's approach to sequences and series changed completely once he started writing Python loops."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★SJSunita JainKamla Nagar, Agra
+ ★★★★★ SG Sonu GoyalParent
 
-"Two kids, ₹1,499 each, world-class instruction. The marble inlay craftsmen in Agra say 'naksha dekhke kaam karo' — see the design before you build. Coding teaches exactly that."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★AKAjay KumarTrans Yamuna, Agra
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The Metro is changing Agra. Online education is changing it faster. My daughter is ready for both revolutions."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★NSNeha SinghShahganj, Agra
+ ★★★★★ PR Poonam RathoreParent
 
-"My son went from mobile gaming to game-making in 3 months. His Scratch game about Agra Fort won the school computer science prize."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Agra — The Full Picture
 
 Why Agra parents are making coding a priority for their children's future
 
 Agra is at an interesting crossroads. The city that built the Taj Mahal — arguably the world's greatest engineering marvel of its era — is now building something new: a digital economy. The Agra-Lucknow Expressway has cut travel time and attracted investment. The Agra Metro is modernizing infrastructure. And the tourism industry, which employs lakhs of families directly and indirectly, is going online. Every marble inlay artisan needs an e-commerce website. Every hotel needs a booking system. Every tour guide could benefit from an app. Dayalbagh University's engineering programs are evolving to meet this demand. BR Ambedkar University is adding data science courses. For parents in Sanjay Place and Civil Lines, the calculation is simple: Agra's economy is going digital, and children who learn to code will be the architects of that transformation. UP Board's curriculum updates include computational thinking, and JEE preparation increasingly rewards the kind of logical reasoning that coding develops naturally. Agra's children deserve the same quality of tech education available in Delhi and Bengaluru — and now they have it.
-
-## Success Stories from Agra Students
-
-ASArnav SharmaAge 11 — Sanjay PlaceAchievement:Built a Agra Fort virtual treasure hunt game with historical clues at each level
-
-"Every clue in my game is a real fact about Agra Fort. My teacher says it's better than the textbook."
-
-PAPriya AgarwalAge 15 — Civil LinesAchievement:Won the UP coding competition with a AI-powered Agra tourist guide chatbot
-
-"My chatbot answers questions about 200 Agra monuments in English and Hindi. The tourism board wants a demo."
-
-KGKunal GuptaAge 17 — DayalbaghAchievement:Built a marble inlay artisan marketplace connecting Agra craftsmen to global buyers
-
-"Three Agra artisan families are using my platform. Dayalbagh professors said it could scale nationally."
 
 ## Why Agra is the Perfect Place to Learn Coding
 

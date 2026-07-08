@@ -353,51 +353,37 @@ Serious teaching that opens at ₹1,499/month, with the full fee on the table up
 
 A certificate at the finish line, and honest progress notes along the way — concrete evidence for school files and college forms.
 
-## Success Stories from Thane Students
+## What Families Say About Modern Age Coders
 
-Young builders from every corner of Thane and the MMR. Not one of them arrived knowing how to code — they arrived curious, which is the only starting point your child needs too.
+Our classes are live and online, so students from Thane learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-VJVihaan JoshiAge 10 · Hiranandani Estate, ThaneAchievement:Built a Scratch boat-paddling game set on Masunda lake that his school showed off at its science day.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only watch gaming videos. Now I make my own games! Mine is about steering a little boat across Talao Pali without bumping the paddle-boats — my friends kept asking for another turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SDSaanvi DeshmukhAge 16 · Pokhran Road 2, ThaneAchievement:Topped her school's tech fest with a Python homework-and-attendance tracker.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python looked intimidating at first, but the way the teacher broke it down, it just clicked. My class teacher actually uses the tracker I built. I'm aiming for computer engineering after my MHT-CET."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-AKAtharva KulkarniAge 20 · Ghodbunder Road, ThaneAchievement:Landed his first internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm in my third year at a Mumbai-region college. The DSA sheet and the mock interviews are what got me ready — I cleared an internship round others in my batch didn't. The MERN project on my CV did most of the talking."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Thane Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Straight-up words from Thane and MMR parents who handed us their child's very first encounter with code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MPManisha PatilManpada, Thane
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son lived on his tablet. Now he builds his own little games and explains the logic to me over dinner. Easily the best decision we made this year — that small batch really is the difference."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RNRohan NaikWagle Estate, Thane
+ ★★★★★ PR Poonam RathoreParent
 
-"I work in software near Wagle Estate, so I can tell real teaching from a script. They teach logic and problem-solving, not just syntax to memorise. My daughter's Python is honestly solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SISneha IyerGhodbunder Road, Thane
+ ★★★★★
 
-"The weekend slot fits neatly around school and her dance class. No dragging her through Ghodbunder traffic for a class — she just opens the laptop at home. A real relief for working parents."
-
-★★★★★PSPrakash ShettyKolshet, Thane
-
-"Out in Kolshet, finding a really good offline class meant travelling. This solved it completely — top teacher, online, fair fees. Both my children are enrolled and clearly enjoying every session."
-
-★★★★★DKDeepa KamatNaupada, Thane
-
-"My daughter was shy about coding. The teacher put her so at ease that she's now the most eager one in her batch. She even built a small website for my home-baking business!"
-
-★★★★★AGAnil GokhaleMulund (near Thane)
-
-"Two earlier classes didn't stick. The difference here is they don't move on until my son has actually grasped it — the goal is understanding, not just ticking off the day's topic."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Thane
 

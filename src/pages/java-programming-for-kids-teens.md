@@ -342,31 +342,31 @@ Real Stories
 
 ## Parents & Students Speak
 
-Unedited — these are the real words of families who enrolled their children in our Java programming course.
+The real words of Modern Age Coders families. These are verified reviews from our community.
 
 ★★★★★
 
-"My son Ansh (11 years old) was intimidated by coding before this course. Within 3 months he had built a quiz game and a number guessing game on his own. The instructor's patience with young kids is exceptional — Ansh now asks to code after school. That's all I needed to hear."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
-Priya Sharma
+Sonam Oswal
 
-Parent · Son aged 11 · Kids Java Track · Pune
-
-★★★★★
-
-"I'm 16 and preparing for JEE. Learning Java here gave me a huge advantage in my CBSE Class 12 CS practicals. The instructor doesn't just teach — they explain WHY Java works the way it does. I scored 98% in CS practicals and I credit this course significantly."
-
-Dhruv Mehta, Age 16
-
-Student · Teens Java Track · Delhi · CBSE topper
+Parent of Dhairya
 
 ★★★★★
 
-"We're in Dubai and finding a structured Java course for my daughter (13) was nearly impossible. Every other option was either too basic or University-level. Modern Age Coders found exactly the right level. She's building a student management system now and can't wait to show her school teachers."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects."
 
-Rekha Nair
+Krishnam Bhatter
 
-Parent · Daughter aged 13 · Teens Java Track · Dubai, UAE
+Former student
+
+★★★★★
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
+
+Ria Mukherjee
+
+Parent
 
 Honest Comparison
 

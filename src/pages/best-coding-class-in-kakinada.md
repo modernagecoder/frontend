@@ -353,51 +353,37 @@ Serious teaching that begins at ₹1,499/month — every rupee stated up front, 
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Kakinada Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Kakinada & the Godavari delta. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Kakinada learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-HVHarsha VardhanAge 11 · Ramaraopeta, KakinadaAchievement:Built a Scratch fishing-harbour game his school showed at its science exhibition.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only watch videos. Now I build things! I made a game where you steer a boat into Kakinada port without hitting the rocks — my classmates kept asking for one more turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SLSai LakshmiAge 15 · Suryaraopeta, KakinadaAchievement:Topped her school's tech day with a Python library-and-fines tracker.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python looked hard until the teacher broke it into small steps. I built a tool the school library actually started using. Now I'm sure I want CSE at JNTU-K and a real software job."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RKRavi KiranAge 19 · JNTU-K, KakinadaAchievement:Landed a remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a second-year at JNTU Kakinada. People here assume you must move to Hyderabad to get good — but the DSA sheet and mock interviews got me a remote internship from home. The MERN project on my CV did the talking."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Kakinada Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Kakinada & the Godavari delta who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-PRPadmavathi RaoGandhi Nagar, Kakinada
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son barely looked up from his phone. Now he writes his own little games and explains the logic to us over dinner. The small batch is what makes the difference — the teacher knows exactly where he's stuck."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★SMSrinivas MurthyBhanugudi Junction, Kakinada
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer at one of the port-side units, so I can tell real teaching from rote drilling. Here they build logic and problem-solving, not just syntax. My daughter's Python is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★LPLavanya PrasadSarpavaram, Kakinada
+ ★★★★★
 
-"The weekend batch slots neatly around school and coaching. No autos across town for a single class — he just logs in from home. For working parents in Kakinada that convenience is everything."
-
-★★★★★VKVenkata KrishnaSamalkot (near Kakinada)
-
-"Out in Samalkot a serious coding teacher is simply not available locally. This fixed that entirely — expert teacher, online, fair fees. Both my children are enrolled and genuinely look forward to class."
-
-★★★★★DRDivya RamaniCinema Road, Kakinada
-
-"My daughter was shy and unsure about coding. The teacher made her so comfortable that she's now the most active one in her batch. She even built a little website for our family kaja shop!"
-
-★★★★★NBNaga BabuJagannaickpur, Kakinada
-
-"We tried two other online tutors before this. The gap is obvious — here they actually confirm the child has grasped the concept before moving on, instead of just racing to finish the topic."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Kakinada
 

@@ -223,49 +223,37 @@ Bhopal parents understand the value of future-ready skills. That's why families 
 
  MANITBhopal's Premier Engineering Institute  GrowingIT Park & Tech Hub MP'sCapital City JEE/NEETAspirant Hub
 
-## What Bhopal Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Bhopal who trusted us with their children's coding education.
+Our classes are live and online, so students from Bhopal learn in the same small batches as families across India. These are real, verified reviews from our community.
 
- AT Amit TiwariMP Nagar, Bhopal
+ SO Sonam OswalParent of Dhairya
 
-"My son was spending hours on mobile games. Now he's building his own games in Scratch! The instructors are very patient and the curriculum is perfectly structured. Best decision we made for his summer vacation."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- ★★★★★ SS Sunita SharmaArera Colony, Bhopal
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a teacher in Bhopal, I understand good education. Modern Age Coders teaches coding the right way — with logic, problem-solving, and real projects, not just memorizing syntax."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
- ★★★★★ RJ Raghav JainKolar Road, Bhopal
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Online classes are a huge convenience for us in Bhopal. No need to travel across the city! The flexible weekend batches are perfect for our family schedule."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
- ★★★★★ PD Priya DubeyHabibganj, Bhopal
+ ★★★★★ SG Sonu GoyalParent
 
-"Affordable fees without compromising on quality — that's exactly what we needed. Both my kids are enrolled and they love every class. The recorded sessions are great for revision before exams."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
- ★★★★★ VP Vinod PatelShahpura, Bhopal
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My daughter was hesitant about coding initially. The teachers made her feel comfortable and now she's the most enthusiastic one in her batch. She even wants to study at MANIT someday!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
- ★★★★★ NV Neha VermaHoshangabad Road, Bhopal
+ ★★★★★ PR Poonam RathoreParent
 
-"We tried two other coding institutes before finding Modern Age Coders. The difference is night and day. Here, they actually care about whether kids understand concepts, not just finish lessons."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
 
-## Success Stories from Bhopal Students
-
- ATArjun TiwariAge 11 — MP Nagar Achievement:Built a Bhopal landmarks quiz game featured in school science exhibition
-
-"I made a game about Upper Lake and Bhimbetka! My friends at school love playing it."
-
- KSKavya SharmaAge 15 — Arera Colony Achievement:Won 1st place in school science fair with Python-based Hindi learning app
-
-"I want to study at MANIT and build tech products someday. Coding gave me the confidence!"
-
- RJRohit JainAge 17 — Kolar Road Achievement:Built portfolio website that helped him get selected for a coding competition
-
-"The web dev course gave me real skills. Now preparing for JEE with extra confidence!"
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Bhopal
 

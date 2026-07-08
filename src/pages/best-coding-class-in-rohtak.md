@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Rohtak Students
+## What Families Say About Modern Age Coders
 
-Young coders from across Rohtak and the towns around it — what a few months of steady, disciplined practice actually looks like.
+Our classes are live and online, so students from Rohtak learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-YMYuvraj MalikAge 11 · Model Town, RohtakAchievement:Made a Scratch akhada-themed game his class voted the best project of the term.
+ SO Sonam OswalParent of Dhairya
 
-"I built a wrestling game where two pehelwans grapple and you score points for a clean pin. Everyone in my class wanted to beat my high score — even my dadu had a go."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SDSneha DahiyaAge 15 · HUDA Sector 3, RohtakAchievement:Built a Python quiz app her tuition group now uses to revise before tests.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding would be only for engineering toppers. The teacher broke it down step by step, and now I've made a quiz app my friends actually use. I'm thinking seriously about a CS degree at MDU."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ASAnkit SangwanAge 20 · MDU Campus area, RohtakAchievement:Picked up his first paid freelance project after the MERN + DSA track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm in my third year at MDU. After the full-stack track I put a portfolio online, and a shop owner in Rohtak paid me to build their website. Earning from home while finishing my degree felt unreal at first."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Rohtak Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Rohtak and the towns around it who trusted us with their child's first steps in code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SRSunita RatheeModel Town, Rohtak
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to lose whole evenings to mobile games. Now he asks for laptop time to finish a project of his own. The small batch means the teacher actually knows him by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DRDr. Naveen Redhunear PGIMS, Rohtak
+ ★★★★★ PR Poonam RathoreParent
 
-"As a doctor I know what disciplined preparation looks like, and I was fussy. They build real reasoning, not memorised syntax — and answered my technical questions properly. My daughter's logic is sound."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PKPriyanka KadyanHUDA Sector 2, Rohtak
+ ★★★★★
 
-"The weekend slot sits neatly around school and her maths coaching. No running across town in the traffic — she just opens the laptop at home. For a working mother that convenience is everything."
-
-★★★★★JMJagbir MalikMeham (near Rohtak)
-
-"Out in Meham there's simply no good coding institute nearby. This filled the gap completely — a strong teacher, all online, at a fair price. Both my sons share the same batch."
-
-★★★★★MKManju KadianCivil Lines, Rohtak
-
-"My daughter is shy and I feared she'd hide at the back. The teacher drew her out gently — within a month she was asking her own questions, and she coded a small billing page for our shop herself."
-
-★★★★★SDSatbir DahiyaDelhi Road, Rohtak
-
-"We tried a local tuition before this and my son just sat through it. Here they actually check whether he understood the concept, not just finished the lesson. The difference showed within weeks."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Rohtak
 

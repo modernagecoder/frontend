@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no hard-sell — valu
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Gurgaon Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Gurgaon. Every one of them started exactly where your child is today — curious, and ready to build something.
+Our classes are live and online, so students from Gurgaon learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-KSKabir SuriAge 11 · DLF Phase 4, GurgaonAchievement:Built a Scratch Rapid-Metro game his class voted favourite at the school's tech day.
+ SO Sonam OswalParent of Dhairya
 
-"I used to just play games on the iPad. Now I make them! I built a game where you drive the Rapid Metro down Golf Course Road and pick up passengers without crashing. Everyone in my class wanted a turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-ANAnaya SethiAge 15 · Sohna Road, GurgaonAchievement:Topped her school's coding club with a Python club-attendance and points tracker.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python looked intimidating at the start, but the teacher made it click step by step. I built a tracker my club's teacher-in-charge actually uses now. I want to study CS and work at one of the product companies near Cyber Hub."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-VNVivaan NagpalAge 20 · New Gurgaon (Sector 84)Achievement:Landed his first internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a second-year in a Gurgaon college. The mock interviews and DSA sheet got me genuinely ready — I cleared an internship in my fourth semester. The MERN project on my CV is what got the recruiter's attention."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Gurgaon Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Gurgaon who trusted us with their child's very first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SCShalini ChadhaSushant Lok, Gurgaon
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son lived on his console. Now he builds his own little games and walks me through the logic over dinner. Easily our best decision this year — the small batch is what really makes the difference."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RARahul AhujaDLF Phase 2, Gurgaon
+ ★★★★★ PR Poonam RathoreParent
 
-"I lead an engineering team in Cyber City, so I can tell real teaching from a slideshow. What won me over is that they build understanding step by step — my daughter now reasons through a problem before she writes a single line, and her school project work has clearly jumped a level."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MKMeghna KohliGolf Course Road, Gurgaon
+ ★★★★★
 
-"The weekend batch slots in perfectly around school and her other classes. No crawling through Golf Course Road traffic for a lesson — she just logs in from home. A real relief for working parents."
-
-★★★★★PTPranav TalwarNew Gurgaon, Sector 92
-
-"Out in New Gurgaon, good offline coding classes are still hard to find nearby. This solved it completely — strong teacher, online, fair fees. Both my kids are enrolled and clearly loving it."
-
-★★★★★DBDivya BhardwajSector 56, Gurgaon
-
-"My daughter was anxious about coding. The teacher put her at ease so quickly that she's now the most excited one in her batch. She even built a small website for my home bakery!"
-
-★★★★★AMAnkit MehrotraPalam Vihar, Gurgaon
-
-"We tried a couple of other classes before this one. The gap is obvious — here they actually check whether my son understood the concept, not just whether the lesson got finished on time."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Gurgaon
 

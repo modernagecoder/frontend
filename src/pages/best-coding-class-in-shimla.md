@@ -314,55 +314,43 @@ The MallLakkar BazarChhota ShimlaSanjauliTutikandiBoileauganjNew ShimlaPanthagha
 
 Online classes available for students across Shimla and surrounding areas
 
-## What Shimla Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Shimla who trusted us with their children's coding education.
+Our classes are live and online, so students from Shimla learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKLocal ParentThe Mall, Shimla
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Himachal Pradesh students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSatisfied ParentThe Mall, Shimla
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a IIT Mandi (nearby) professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKHappy ParentThe Mall, Shimla
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Shimla."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMProud ParentThe Mall, Shimla
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their HP Board school schedule. Highly recommend for every Shimla family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKDelighted ParentThe Mall, Shimla
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at IIT Mandi (nearby)'s HP University."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSGrateful ParentThe Mall, Shimla
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join HP's growing tech sector!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Shimla — The Full Picture
 
 Why Shimla parents are making coding a priority for their children's future
 
 Shimla — the Queen of Hills and Himachal Pradesh's capital — is more than a tourist destination. HP University is one of North India's oldest universities. IIT Mandi (just 150km away) is bringing world-class tech education to the Himalayas. NIT Hamirpur is nearby. For parents on The Mall and in Sanjauli, the challenge has always been access to quality tech education in a hill station. Online coding classes solve that completely — world-class instruction without leaving the mountains. HPBOSE's curriculum includes technology, and JEE preparation rewards computational thinking. Shimla children who code gain skills that connect them to the global tech economy while living in India's most beautiful capital city.
-
-## Success Stories from Shimla Students
-
-APAryan PatelAge 11 — The MallAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Shimla's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — Lakkar BazarAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — Chhota ShimlaAchievement:Built a portfolio website and got recognized at IIT Mandi (nearby) tech fest
-
-"The web dev course taught me real skills. IIT Mandi (nearby) professors noticed my work!"
 
 ## Why Shimla is the Perfect Place to Learn Coding
 

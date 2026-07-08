@@ -314,55 +314,43 @@ Rajpur RoadClock TowerISBTBallupurSahastradhara RoadMussoorie RoadHaridwar RoadG
 
 Online classes available for students across Dehradun and surrounding areas
 
-## What Dehradun Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Dehradun who trusted us with their children's coding education.
+Our classes are live and online, so students from Dehradun learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RRCol. Rajesh Rawat (Retd.)Clement Town, Dehradun
+ SO Sonam OswalParent of Dhairya
 
-"My son at RIMC needed programming beyond what the school syllabus covers. The Python course filled that gap perfectly. Military-grade discipline in the teaching."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★PNPriya NegiRajpur Road, Dehradun
+ ★★★★★ RM Ria MukherjeeParent
 
-"Dehradun has world-class schools but surprisingly few coding options. MAC's online platform solved that gap overnight. My daughter finished Scratch in 4 months."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★ABArun BishtGMS Road, Dehradun
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"My son boards at Welham and codes during holidays. The recorded lectures mean he can binge-learn during winter and summer breaks. Smart design."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★KCKavita ChauhanDalanwala, Dehradun
+ ★★★★★ SG Sonu GoyalParent
 
-"Both children attend a local CBSE school. The coding homework actually improves their regular maths. Their class teacher noticed before I did."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★SJSuresh JoshiBallupur, Dehradun
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"IIT Roorkee is the goal. The maths course here is rigorous enough for JEE prep, and the coding adds the computational edge that tips the balance."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DTDeepa ThapaRace Course, Dehradun
+ ★★★★★ PR Poonam RathoreParent
 
-"We moved from Delhi worried about education quality. MAC proved Dehradun doesn't mean compromising. The instruction matches anything we had in Gurgaon."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Dehradun — The Full Picture
 
 Why Dehradun parents are making coding a priority for their children's future
 
 Dehradun holds a unique position in Indian education. No other city has this concentration of elite boarding schools — The Doon School, Welham Boys', Welham Girls', RIMC, and dozens more have shaped generations of India's leaders. But even Doon's most prestigious schools are recognizing that the future demands coding literacy. IIT Roorkee, just 80km away, is one of India's oldest and most respected engineering institutions. UPES has become a major university for petroleum and technology. DIT University and Graphic Era are producing engineers for the defence and energy sectors. The Doon Valley parent who once focused solely on ICSE/ISC board results is now asking: 'Does my child know how to code?' And the answer matters because UBSE's new curriculum includes computational thinking, JEE increasingly rewards algorithmic logic, and the global companies that Dehradun alumni join — from Goldman Sachs to Google — all require programming skills. Coding isn't extracurricular in the Doon Valley anymore. It's essential.
-
-## Success Stories from Dehradun Students
-
-ARAarav RawatAge 11 — Clement TownAchievement:Built a Rajaji National Park wildlife identification quiz with photos and sounds
-
-"I recorded bird calls in Rajaji and put them in my game. The forest officer asked for a copy."
-
-ANAnanya NegiAge 15 — Rajpur RoadAchievement:Won the Uttarakhand state coding competition with an eco-tourism booking prototype
-
-"My app shows eco-lodges near Rishikesh with carbon footprint scores. The tourism board noticed."
-
-HBHarsh BishtAge 17 — GMS RoadAchievement:Built a Dehradun heritage trail website that UPES featured at their annual tech showcase
-
-"UPES professors said my site design was professional-grade. I built it in 6 weeks of web dev class."
 
 ## Why Dehradun is the Perfect Place to Learn Coding
 

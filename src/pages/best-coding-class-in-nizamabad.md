@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — value
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Nizamabad Students
+## What Families Say About Modern Age Coders
 
-Young coders from Nizamabad and the towns around it. Every one of them began as an ordinary curious kid — and then decided to build something real.
+Our classes are live and online, so students from Nizamabad learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AVAkshara VootkurAge 11 · Vinayak Nagar, NizamabadAchievement:Built a Scratch quiz game on Telangana districts that her class now plays at break.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only watch videos on the phone. Now I make my own games! I built a quiz where you score points for naming Telangana districts — even my teacher tried it."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SRSai Charan ReddyAge 15 · Subhash Nagar, NizamabadAchievement:Built a Python marks-and-attendance tracker his tuition sir now uses for the whole batch.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding was only for big-city kids. The teacher proved me wrong — I built a tracker my tuition sir actually uses. I want to do my B.Tech and write software, sitting right here in Nizamabad."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-MAMohammed ArshadAge 20 · Armoor (B.Tech, 2nd year)Achievement:Landed a remote internship after the Python + DSA + full-stack track — without moving to Hyderabad.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"My father works in the Gulf and always said I should learn a global skill. The DSA sheet and MERN project got me a remote internship in my fourth semester — earning from Armoor itself. That changed how my whole family thinks about a coding career."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Nizamabad Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families across Nizamabad and the nearby towns who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SRSrinivas RaoKhaleelwadi, Nizamabad
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into mobile games. Now he makes his own and walks me through how each one works. The small batch is what makes it work — the teacher knows exactly where he is stuck."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PLPadmaja LathaVinayak Nagar, Nizamabad
+ ★★★★★ PR Poonam RathoreParent
 
-"I am a junior lecturer, so I judge teaching closely. They build logic and problem-solving, not memorised syntax. My daughter's Python is genuinely strong now, and she enjoys it."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★VGVenkat GoudKanteshwar, Nizamabad
+ ★★★★★
 
-"The weekend batch slots perfectly between school and EAPCET coaching. No running across town for a class — he just opens the laptop at home. A real relief for us working parents."
-
-★★★★★RNRamesh NaikBodhan
-
-"In Bodhan, a good coding teacher is simply not available nearby. This solved it entirely — a strong teacher, online, fair fees. Both my children are enrolled and look forward to class."
-
-★★★★★SFShabana FatimaMubarak Nagar, Nizamabad
-
-"My daughter was shy and unsure about coding. Within a few weeks she was raising her hand first in the batch. She even built a small website for our family's turmeric trading shop!"
-
-★★★★★AKAnil KumarKamareddy
-
-"I am away on work in the Gulf for most of the year. I can join the online class or watch the recording and actually see what my son is learning. That peace of mind is worth a lot to our family."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Nizamabad
 

@@ -179,23 +179,23 @@ Grade-by-grade shift.
 | **Editor** | Thonny | Thonny/VS Code | VS Code |
 | **GitHub** | Not yet | First repo | Active repos |
 
-Words from parents and students
+What families say
 
-## Class 7 Python parents.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 7 families.
+Real, verified reviews from Modern Age Coders families.
 
-Class 7 CBSE. Daughter built a Pygame Pong and an iris classifier in the same term. The teacher switches between game, OOP and sklearn smoothly — no whiplash.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-AAnanya L.Parent · Hyderabad · 1-on-1
+SSonam OswalParent of Dhairya
 
-Group of 4 Class 7 Python kids. My son's GitHub has 4 repos now. His readme writing is also improving — the teacher corrects readmes, which I did not expect.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-PPranav G.Parent · Bengaluru · Group
+KKrishnam BhatterFormer student
 
-Picked 1-on-1. Teacher took my daughter straight to matplotlib and sklearn. She now visualises her own cricket-score dataset. First class that treats her as a real learner.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-LLokesh M.Parent · Mumbai · 1-on-1Common questions from parents
+SShradha SarafParent of MivaanCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

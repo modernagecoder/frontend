@@ -184,23 +184,23 @@ This table shows what changes in the last two school years and the first college
 | **Open source** | First PR | Sustained PRs | Maintainer track |
 | **Lifestyle** | School heavy | Boards heavy | Semester + project |
 
-Words from parents and students
+What families say
 
-## Class 12 parents — and some students.
+## What families say about Modern Age Coders.
 
-Recent reviews from 17-year-olds and their parents. Unedited, privacy-shortened.
+Real, verified reviews from Modern Age Coders families.
 
-I started in Class 11 and the programme adapted into Class 12 naturally. I finished my CBSE IP syllabus in 4 months, scored 97, and alongside built a Pandas + sklearn project I used in my college SOP. It worked.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-WWaqar H.Student · Delhi · 1-on-1
+SSonu GoyalParent
 
-We took a break during boards as planned. After boards, they did 2 months of BTech foundation. My son said his first college lectures felt like revision, which was the goal.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-NNeelam C.Parent · Kolkata · 1-on-1
+PPoonam RathoreParent
 
-Small batch of 4 Class 12 students, all CS stream. The class felt serious and supportive. My daughter finished Class 12 with 92 in CS and a deployed full-stack app. Fair trade.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-ZZoya K.Parent · Mumbai · GroupCommon questions from parents
+RRia MukherjeeParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

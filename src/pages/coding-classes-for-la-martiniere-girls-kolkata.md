@@ -206,11 +206,11 @@ Premium quality education starting at just ₹1499/month. Quality that La Martin
 
 Completion certificates that strengthen school portfolios, college applications, and demonstrate your daughter's commitment to learning beyond the classroom.
 
-## What La Martiniere Girls Parents Say
+## What families say about Modern Age Coders
 
- DSG Deepika Sen GuptaRawdon Street, Kolkata
+ PR Poonam RathoreParent
 
-"My daughter was always good at academics but shy about technology. After joining Modern Age Coders, the transformation has been remarkable. The girls-only batch made her comfortable from day one — she wasn't worried about keeping up or being judged. Within three months, she built her first Python project and presented it to the class with such confidence. Her ICSE Computer Applications marks improved from 78 to 93, and more importantly, she now says she wants to study computer science in college. The female instructor is a wonderful role model. As a La Martiniere parent, I couldn't be more proud. This programme is exactly what our daughters need to step into the future with confidence."
+"My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
 

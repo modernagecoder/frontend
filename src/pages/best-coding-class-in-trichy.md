@@ -314,55 +314,43 @@ Thillai NagarWoraiyurCantonmentSrirangamKK NagarPuthurTVS NagarThiruverumburAnna
 
 Online classes available for students across Trichy and surrounding areas
 
-## What Trichy Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Trichy who trusted us with their children's coding education.
+Our classes are live and online, so students from Trichy learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKRamesh KumarThillai Nagar, Trichy
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Tamil Nadu students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSelvi PalaniThillai Nagar, Trichy
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a NIT Tiruchirappalli professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKArun KumarThillai Nagar, Trichy
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Trichy."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMPriya MohanThillai Nagar, Trichy
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Tamil Nadu Board school schedule. Highly recommend for every Trichy family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKVenkat KumarThillai Nagar, Trichy
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at NIT Tiruchirappalli's BHEL Trichy."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KRKavitha RajaThillai Nagar, Trichy
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join NIT Trichy!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Trichy — The Full Picture
 
 Why Trichy parents are making coding a priority for their children's future
 
 Trichy is the education capital of Tamil Nadu, and for one compelling reason: NIT Tiruchirappalli. Consistently ranked as India's #1 NIT, NIT Trichy produces engineers that Google, Microsoft, Amazon, and Goldman Sachs hire directly from campus. The city also hosts BHEL's massive manufacturing complex, IIIT Trichy, and is surrounded by Anna University's affiliated colleges. For a relatively small city, Trichy punches dramatically above its weight in technical education. Parents in Thillai Nagar and Cantonment know this — their children grow up seeing NIT Trichy's campus and dreaming of getting in. Samacheer Kalvi is Tamil Nadu's integrated curriculum, and TNEA rewards computational thinking. Children who code from age 10 develop the algorithmic mindset that separates NIT qualifiers from the rest. BHEL's shift to Industry 4.0 means even traditional manufacturing careers require coding skills. Trichy isn't just producing engineers — it's producing the engineers who define India's tech future.
-
-## Success Stories from Trichy Students
-
-APAryan PatelAge 11 — Thillai NagarAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Trichy's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — CantonmentAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — KK NagarAchievement:Built a portfolio website and got recognized at NIT Tiruchirappalli tech fest
-
-"The web dev course taught me real skills. NIT Tiruchirappalli professors noticed my work!"
 
 ## Why Trichy is the Perfect Place to Learn Coding
 

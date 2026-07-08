@@ -409,37 +409,37 @@ Most-picked slot17:00 CET (Mon/Wed)Most-picked trackBuilders' & Engineers'Book a
 
 A 30-minute live session, on Zoom, on your child's CET slot. You see how a real class feels. We tailor a learning plan to where your child is today. There is no card, no commitment, no sales pressure — and if it isn't a fit, we'll happily point you elsewhere.
 
-[Email us](mailto:hello@modernagecoders.com?subject=Switzerland%20demo%20enquiry)What Swiss families say
+[Email us](mailto:hello@modernagecoders.com?subject=Switzerland%20demo%20enquiry)What families say about Modern Age Coders
 
-## Quiet, consistent progress — week after week.
+## Quiet, consistent progress, week after week.
 
-Reviews from families across Zürich, Geneva, Basel and Lausanne. Real names are abbreviated to protect minors.
+We teach live and online, so students in Switzerland learn in the same small batches as our community. These are real, verified reviews.
 
 ★★★★★
 
-> "After two months Léo, 9, is writing little Python scripts on his own. The mentor speaks slowly, never rushes him, and the Saturday morning slot fits our weekend perfectly."
+> "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
-A.M.Anne M.Parent · Lausanne (VD)★★★★★
+S.O.Sonam OswalParent of Dhairya★★★★★
 
-> "My daughter is preparing for Matura Informatik. She finally understands recursion and big-O — the way her mentor explains it, not the way her textbook tries to."
+> "I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The most impressive part was working on real-world projects."
 
-P.K.Peter K.Parent · Zürich (ZH)★★★★★
+K.B.Krishnam BhatterFormer student★★★★★
 
-> "I'm 34, I work at a Geneva bank, and I joined to learn agentic AI properly. Within three months I shipped an internal tool that saved my team hours every week."
+> "Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
 
-S.D.Sébastien D.Adult learner · Geneva (GE)★★★★★
+S.M.Samridho MondalStudent★★★★★
 
-> "We tried two other 'global' coding schools first. This is the only one that genuinely meets my son where he is, in CET, with a mentor he recognises every week."
+> "The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
 
-M.R.Maria R.Parent · Basel (BS)★★★★★
+R.M.Ria MukherjeeParent★★★★★
 
-> "My EPFL entry was nudged across by the algorithms work I did here in the year before. Honestly, the best CHF-equivalent I have ever spent on my education."
+> "My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-N.H.Nina H.Student · EPFL Lausanne★★★★★
+P.R.Poonam RathoreParent★★★★★
 
-> "My 11-year-old built a small AI agent that quizzes her on French verbs. She did it. Not us, not ChatGPT — her. That moment was worth the entire year of classes."
+> "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-T.B.Tobias B.Parent · Bern (BE)FAQ
+S.G.Sonu GoyalParentFAQ
 
 ## Everything Swiss parents and learners ask us first.
 

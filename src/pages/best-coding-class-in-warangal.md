@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month — metro-quality at small-town fairne
 
 Completion certificates plus regular progress updates parents can actually follow — proof that strengthens portfolios and applications.
 
-## Success Stories from Warangal Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Warangal & Hanamkonda. Each one began exactly where your child is today — curious, and ready to build something of their own.
+Our classes are live and online, so students from Warangal learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-SRSai Charan ReddyAge 11 · HanamkondaAchievement:Built a Scratch quiz game on Kakatiya monuments that his school showed at its annual day.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only play games on my dad's phone. Now I make my own! I built a quiz where you score points for naming the Thousand Pillar Temple and Warangal Fort — even my teacher played it twice."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SVSahasra VaddepallyAge 15 · Subedari, WarangalAchievement:Topped her school science exhibition with a Python app that tracks class marks and attendance.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python looked hard until my teacher broke it down step by step. The marks app I built is now used by my own class teacher. My dream is to crack NIT Warangal and study computer science."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ABAbhinav BandiAge 20 · Kazipet, WarangalAchievement:Landed his first internship after the DSA + full-stack track while still in third year.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm an engineering student here in Warangal and was nervous about placements. The DSA sheet and mock interviews changed everything — I cleared an internship two semesters early, and the MERN project on my resume was what they asked me about the most."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Warangal Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Warangal & Hanamkonda who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-PRPadmaja RaoHanamkonda
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son was forever on his phone. Now he builds his own little games and explains the logic to me over dinner. Easily the best decision we made this year — that tiny batch size is what makes it work."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RVRavi VarmaKazipet, Warangal
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an NIT Warangal alumnus working in software, so I can tell real teaching from a script. They build logic and problem-solving, not just syntax. My daughter's Python foundation is genuinely strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SKSwapna KandukuriSubedari, Warangal
+ ★★★★★
 
-"The weekend batch fits neatly around school and his maths tuition. No auto ride through Hanamkonda traffic for a class — he just logs in from home. A real relief for working parents like us."
-
-★★★★★NBNaresh BollamMulugu Road, Warangal
-
-"Out our side, a genuinely good coding teacher is hard to find. This solved it entirely — a top teacher, fully online, at fees that feel fair for Warangal. Both my children are enrolled and look forward to every class."
-
-★★★★★DMDivya MamidalaBalasamudram, Warangal
-
-"My daughter used to hesitate to even ask a question. A few months in, she's the one answering them — and she built a small website for my tailoring business all on her own. That confidence is worth more than the fee."
-
-★★★★★PGPrashanth GadeNakkalagutta, Warangal
-
-"We had tried two other tutors before finding this. The gap is huge — here they actually confirm the child has understood the idea before moving on, instead of just rushing to finish the topic."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Warangal
 

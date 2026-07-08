@@ -223,49 +223,37 @@ Lucknow parents understand the value of future-ready skills. That's why families
 
  IIMIIM Lucknow  500+CBSE/ICSE Schools GrowingIT Corridor JEE/NEETAspirant Hub
 
-## What Lucknow Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Lucknow who trusted us with their children's coding education.
+Our classes are live and online, so students from Lucknow learn in the same small batches as families across India. These are real, verified reviews from our community.
 
- AV Amit VermaGomti Nagar, Lucknow
+ SO Sonam OswalParent of Dhairya
 
-"My son was always on his iPad playing games. Now he's building his own games! The instructors are patient and the curriculum is well-structured. Best decision for his summer vacation."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- ★★★★★ PS Priya SrivastavaHazratganj, Lucknow
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a parent who works in IT, I know good coding education. Modern Age Coders teaches coding the right way — with logic and problem-solving, not just syntax."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
- ★★★★★ SM Seema MishraAliganj, Lucknow
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The flexible timings work perfectly with our Lucknow schedule! Online classes save us so much time. Weekend batches are a blessing for working parents like us."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
- ★★★★★ RP Rajesh PandeyIndira Nagar, Lucknow
+ ★★★★★ SG Sonu GoyalParent
 
-"Affordable fees without compromising on quality — that's rare to find in Lucknow. My twins are both enrolled and they're learning so much. The recorded sessions help when they miss a class."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
- ★★★★★ NS Neha SinghMahanagar, Lucknow
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My daughter was hesitant about coding initially. The teachers made her feel comfortable and now she's the most enthusiastic one in her batch. She's already talking about working at Google!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
- ★★★★★ DG Deepak GuptaJankipuram, Lucknow
+ ★★★★★ PR Poonam RathoreParent
 
-"We tried two other coding institutes in Lucknow before finding Modern Age Coders. The difference is night and day. Here, they actually care about whether kids understand concepts."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
 
-## Success Stories from Lucknow Students
-
- AKArjun KushwahaAge 11 — Gomti Nagar Achievement:Built a Lucknow heritage quiz game featured in school exhibition
-
-"I made a game about Lucknow landmarks! My friends at school love playing it."
-
- PSPallavi SinhaAge 15 — Hazratganj Achievement:Won 1st place in school science fair with Python Hindi learning app
-
-"I want to study at IIM Lucknow someday. Coding gave me the confidence!"
-
- VTVarun TiwariAge 17 — Aliganj Achievement:Got internship at a Lucknow IT company with portfolio website
-
-"The web dev course helped me get an internship in 12th! Now preparing for JEE."
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Lucknow
 

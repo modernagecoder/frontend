@@ -181,23 +181,23 @@ Honest comparison at the board-year level.
 | **SQL** | No | Yes | Yes |
 | **Difficulty** | Highest | Medium | Lower |
 
-Words from parents and students
+What families say
 
-## ISC Class 12 CS parents and students.
+## What families say about Modern Age Coders.
 
-Three recent Class 12 ISC reviews.
+Real, verified reviews from Modern Age Coders families.
 
-ISC Class 12 CS — linked list was breaking me. Teacher rebuilt it in 6 sessions using hand-drawn diagrams first, then Java. Pre-boards: 93. Project was a library system using linked list. Full marks.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-SSiddharth V.Student · Delhi · 1-on-1
+RRia MukherjeeParent
 
-Small group of 3 ISC Class 12 CS students. Very serious batch. Teacher runs timed paper simulations — forces them to write code within the 3-hour window. My daughter scored 94 in boards.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-PPreeti K.Parent · Kolkata · Group · ISC 12
+SSonu GoyalParent
 
-Joined mid-year because my son's school teacher was weak on recursion. Four months of 1-on-1 fixed it — he finished recursion, sorting, plus the project. Board result: 91. He will take CS in college.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-AAmit M.Parent · Mumbai · 1-on-1Common questions from parents
+PPoonam RathoreParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

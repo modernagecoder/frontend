@@ -353,51 +353,37 @@ Serious teaching from ₹1,499/month, stated up front. No hidden charges, no har
 
 A completion certificate for the portfolio, plus regular honest progress notes so you always know how your child is really doing.
 
-## Success Stories from Anand Students
+## What Families Say About Modern Age Coders
 
-Young coders from Anand, Vidyanagar and the Charotar diaspora. None of them had written a line of code before they began — they just stayed curious.
+Our classes are live and online, so students from Anand learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DPDhruv PatelAge 11 · Anand TownAchievement:Made a Scratch "feed the calf" game his class voted the best at the school fair.
+ SO Sonam OswalParent of Dhairya
 
-"Sir showed me how to make the calf move with the arrow keys, then I added a milk-bottle that grows when you score. Everyone in 5th standard wanted to play it during lunch."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-HPHeli PrajapatiAge 15 · Vallabh VidyanagarAchievement:Built a Python quiz app her science teacher now uses for weekly revision tests.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding was only for the boys in my class. Three months in, I'd written a quiz app that picks random questions and keeps score. My teacher actually uses it now — that feeling is why I want to do CS."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-JAJay AminAge 20 · BVM, Vallabh VidyanagarAchievement:Shipped a MERN project to GitHub and now mentors juniors in his college coding club.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"My DSA was weak going into third year. The structured problem sets and mock rounds fixed that, and the full-stack project gave me something real to put on GitHub. I walk into interviews with a live link now, not just marks."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Anand Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Unfiltered words from families across Anand, Vidyanagar and the Charotar diaspora who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-RPRina PatelAnand Town
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to finish his homework only to grab the phone. Now he asks for an extra class. The small batch is the real difference — the teacher actually knows what he gets wrong."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★NPNikunj PatelVallabh Vidyanagar
+ ★★★★★ PR Poonam RathoreParent
 
-"I teach at one of the Vidyanagar colleges, so I'm hard to impress. They build logic and problem-solving first and treat syntax as the easy part. My daughter's Python is genuinely sound now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★KPKunal ParmarKaramsad
+ ★★★★★
 
-"The weekend slot slots neatly between school and his tuition. No running him to a coaching centre across town — he just logs in from the drawing room. For working parents in Karamsad, that's everything."
-
-★★★★★MPMitesh PatelNew Jersey, USA (roots in Anand)
-
-"We're settled in the US but our family is from Anand. I wanted my daughter learning from Indian teachers, in our timezone-friendly evening slot. She and her cousin in Vidyanagar are in the same course — they compare projects on calls. Lovely to watch."
-
-★★★★★SPShital PatelBakrol
-
-"My daughter would go quiet whenever coding came up at school. A few months here and she's built a simple website for our family's namkeen shop. Watching her show it off at a wedding said it all."
-
-★★★★★DADarshan AminNadiad (near Anand)
-
-"In Nadiad the options for a serious coding teacher were thin. We tried a recorded-video platform first — my son just zoned out. Here it's live, the teacher asks him questions, and he can't drift off. Worth every rupee."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Anand
 

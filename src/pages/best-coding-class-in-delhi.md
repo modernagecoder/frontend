@@ -245,51 +245,37 @@ South DelhiDwarkaRohiniNoidaGurgaonGreater KailashVasant KunjSaketHauz KhasJanak
 
 📍 Serving students across Delhi, Noida, Gurgaon, Ghaziabad, Faridabad & Greater NCR
 
-## Success Stories from Delhi NCR Students
+## What Families Say About Modern Age Coders
 
-Real achievements from young coders across Delhi NCR who transformed their passion into impressive projects and skills.
+Our classes are live and online, so students from Delhi learn in the same small batches as families across India. These are real, verified reviews from our community.
 
- AS Arjun SharmaAge 11 — Dwarka, DelhiAchievement:Created a quiz game that his entire class now uses for exam preparation
+ SO Sonam OswalParent of Dhairya
 
-"I used to just play games on my tablet. Now I make them! My friends think I'm a genius because I built a maths quiz game for our class. Coding is like having superpowers!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- PG Priya GuptaAge 15 — Noida, Sector 62Achievement:Won 2nd place in school's inter-house coding competition
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python seemed scary at first, but the teachers made it so easy to understand. I built an attendance tracker for my school project and won the coding competition. Now I want to become a software engineer!"
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
- RK Rohan KapoorAge 17 — Gurgaon, DLF Phase 3Achievement:Built a portfolio website that helped him secure a summer internship at a Gurgaon startup
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The web development course gave me real skills. I built my portfolio, applied to startups in Cyber City, and got an internship in my 12th standard! This is exactly what I needed for my college applications."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Delhi NCR Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Real feedback from families across Delhi NCR who trusted us with their children's coding education.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
- NK Neha KhannaGreater Kailash, Delhi
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son was glued to his phone playing PUBG. Now he's building his own games! The transformation is incredible. The instructors are patient and the curriculum is well-designed. Best investment we made for his future."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
- ★★★★★ AM Amit MalhotraSector 50, Noida
+ ★★★★★ PR Poonam RathoreParent
 
-"As a tech professional in Noida's IT sector, I know quality when I see it. Modern Age Coders teaches coding the right way — with logic and problem-solving, not just syntax. My daughter loves her Python classes!"
-
- ★★★★★ SV Sunita VermaDwarka Sector 12, Delhi
-
-"The flexible timings work perfectly with my son's school and tuition schedule. Weekend batches are a blessing for working parents like us. No more battling Delhi traffic for classes!"
-
- ★★★★★ RJ Rajesh JainRohini Sector 9, Delhi
-
-"Affordable fees without compromising on quality — that's rare to find in Delhi. My twins are both enrolled and they're learning so much. The recorded sessions help when they miss a class."
-
- ★★★★★ PA Pooja AgarwalDLF Phase 4, Gurgaon
-
-"My daughter was hesitant about coding initially. The teachers made her feel comfortable and now she's the most enthusiastic one in her batch. She even taught me how to make a simple website!"
-
- ★★★★★ VS Vikram SinghVasant Kunj, Delhi
-
-"We tried two other coding institutes before finding Modern Age Coders. The difference is night and day. Here, they actually care about whether kids understand concepts, not just complete lessons."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Delhi NCR
 

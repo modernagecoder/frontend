@@ -180,23 +180,23 @@ If you are weighing boards or comparing what each expects, this is the honest br
 | **Practical style** | Strict syntax | Applied code | Documented |
 | **Paradigm** | OOP-first | Procedural → OOP | Procedural |
 
-Words from parents and students
+What families say
 
-## ICSE parents and students.
+## What families say about Modern Age Coders.
 
-Three recent ICSE family reviews.
+Real, verified reviews from Modern Age Coders families.
 
-My daughter was at 72 in ICSE CA at Class 9. The teacher here aligned exactly to the CISCE question pattern — specific variable naming, specific comment format. She got 94 in Class 10 boards.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-KKavita M.Parent · Kolkata · Class 10 ICSE · 1-on-1
+SSonu GoyalParent
 
-Small batch of ISC 11 students. Teacher is very particular about ICSE Java style. My son made mistakes initially. Now he writes Java the way ISC expects — clean, correct, commented.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-AAnand P.Parent · Mumbai · ISC 11 · Group
+PPoonam RathoreParent
 
-Started early because Class 9 ICSE CA is strict. Her school computer teacher now tells other parents to check us out. Also she enjoys it, which I didn't expect at 14.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-RRoshni V.Parent · Delhi · Class 9 ICSE · 1-on-1Common questions from parents
+RRia MukherjeeParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

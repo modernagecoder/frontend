@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — value
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Dhanbad Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Dhanbad and the coalfields — proof of what a curious child can build with the right teacher and a little time.
+Our classes are live and online, so students from Dhanbad learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AKAryan KumarAge 11 · Bank More, DhanbadAchievement:Built a Scratch game his class kept replaying through the lunch break.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where a little coal-train has to dodge falling rocks down the mine. My friends keep asking me to add new levels — so now I'm learning how to build them."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SMSneha MishraAge 15 · Saraidhela, DhanbadAchievement:Built a Python quiz app her whole batch used before a unit test.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I never thought I could write real code, but breaking each problem into small steps made it doable. Now I'm aiming for computer engineering — maybe even ISM right here in Dhanbad."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-FAFaiz AnsariAge 20 · Hirapur, DhanbadAchievement:Picked up a paid remote internship while still in his engineering degree.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm doing my B.Tech here in Dhanbad and worried good roles meant moving away. The DSA practice and a MERN project changed that — I work remotely for a company I've never had to visit."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Dhanbad Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Dhanbad and the coalfields who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-PSPriya SinhaBartand, Dhanbad
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone for hours. Now he shows me the little apps he has made and wants me to test them. In a batch this small, the teacher actually notices when he is stuck."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RMRajeev MahatoSaraidhela, Dhanbad
+ ★★★★★ PR Poonam RathoreParent
 
-"I am an engineer myself, so I am particular about how things are taught. Here they drill reasoning and problem-solving, not syntax to memorise. My daughter can now think a problem through on her own."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★ADAnjali DasCity Centre, Dhanbad
+ ★★★★★
 
-"The weekend slot sits neatly around school and his maths coaching. There is no rushing him across town for a class — he just opens the laptop at home. A real relief for working parents."
-
-★★★★★ASSanjay PrasadSindri (Dhanbad)
-
-"Out here near Sindri, a good offline coding class simply doesn't exist nearby. Going online fixed that entirely — a strong teacher and sensible fees. Both my children are enrolled and clearly enjoying it."
-
-★★★★★RMKavita AgarwalHirapur, Dhanbad
-
-"My daughter was hesitant about coding at first. The teacher put her at ease so gently that she now looks forward to class every week — she even built a little website for our family shop."
-
-★★★★★MKManish KumarGovindpur, Dhanbad
-
-"We had tried a couple of tutors before this. The difference is plain to see — here they actually check that my son has understood the idea, not just rushed through the lesson for the day."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Dhanbad
 

@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Course-completion certificates and honest progress reports parents can read — strengthening school showcases and college files alike.
 
-## Success Stories from Mohali Students
+## What Families Say About Modern Age Coders
 
-Real young coders from every corner of Mohali and the tricity. Every one of them began right where your child stands now — curious, and itching to make something.
+Our classes are live and online, so students from Mohali learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AGArjun GillAge 11 · Phase 7, SAS NagarAchievement:Built a Scratch cricket game his school featured at its annual exhibition.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only play games. Now I make them! I built a game where you bat at the PCA stadium and chase a target — my whole class queued up to play it."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SKSimran KaurAge 15 · Sector 70, MohaliAchievement:Won her school's tech fair with a Python attendance-and-marks app.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Honestly, I thought Python would go over my head — then my mentor broke it down step by step and suddenly it made sense. The marks-and-attendance app I made is something my class teacher now opens every morning. My plan is computer science and a job at one of the AI startups in IT City."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-HSHarnoor SinghAge 19 · KhararAchievement:Cleared his first internship interview after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I study at Chandigarh University. Grinding through the curated DSA sheet and rounds of practice interviews is exactly what landed me an internship offer in my third semester. When the panel saw the deployed MERN app on my CV, half the interview answered itself."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Mohali Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Mohali and the tricity who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NBNavjot BediPhase 3B2, SAS Nagar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son lived on his tablet. Now he builds his own games and walks me through the logic over dinner. Easily the best decision we made this year — that tiny batch size is what makes it work."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RARohit AroraIT City, Mohali
+ ★★★★★ PR Poonam RathoreParent
 
-"I work at a software firm in IT City, so I know real teaching when I see it. They build logic and problem-solving, not just syntax. My daughter's Python is genuinely solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PDPreeti DhillonSector 82, Mohali
+ ★★★★★
 
-"The weekend batch fits perfectly around school and tuitions. No driving across to a centre — he just logs in from home. A real blessing for working parents like us."
-
-★★★★★JSJaspreet SandhuKharar
-
-"Living in Kharar, finding a serious offline coding centre nearby is a real struggle. This wiped that problem out — a genuinely good teacher, all online, and fees that don't sting. I've signed up both my children and they look forward to every class."
-
-★★★★★MKMeenakshi KohliAerocity, Mohali
-
-"Coding intimidated my daughter at the start. Her teacher put her at ease so gently that she's turned into the one who asks the most questions and finishes first in her batch. She even put together a little website for my home bakery!"
-
-★★★★★VCVikram ChadhaZirakpur
-
-"We tried two other institutes in the tricity before this. The difference is night and day — here they actually check whether my child understood the concept, not just whether the lesson finished."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Mohali
 

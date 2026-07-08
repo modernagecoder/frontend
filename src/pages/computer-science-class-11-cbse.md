@@ -182,23 +182,23 @@ If you are choosing a stream or elective.
 | **Career align** | CS college | Data / IP | CS college |
 | **Difficulty** | Medium | Lower | Higher |
 
-Words from parents and students
+What families say
 
-## CBSE Class 11 CS parents and students.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 11 CBSE CS families.
+Real, verified reviews from Modern Age Coders families.
 
-Class 11 CBSE CS — the teacher teaches the NCERT chapter a week before school. I've finished the Python units by mid-term. 92 in the half-yearly. The practical project is also on track.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-HHarsh V.Student · Delhi · 1-on-1
+PPoonam RathoreParent
 
-Group of 4 Class 11 CBSE CS students. Small, focused, serious. My daughter went from 68 at Class 10 IT to 88 at Class 11 CS half-yearly. Teacher is patient with boolean algebra which she dreaded.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-PPoonam S.Parent · Hyderabad · Group · Class 11 CS
+RRia MukherjeeParent
 
-We took this because my son's school CS teacher changed three times in a term. This class gave him consistency. He finished the project properly and is now ahead of the school calendar.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-RRahul M.Parent · Bengaluru · 1-on-1Common questions from parents
+SSonu GoyalParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

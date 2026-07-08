@@ -182,23 +182,23 @@ Class 10 looks like a plateau but it is actually a carefully managed year. Here 
 | **Main goal** | Portfolio build | Portfolio + board | Stream-level depth |
 | **Downtime** | None | Board pause | Exam-block pauses |
 
-Words from parents and students
+What families say
 
-## Class 10 parents — not kidding about the calendar.
+## What families say about Modern Age Coders.
 
-Three recent Class 10 reviews, unedited.
+Real, verified reviews from Modern Age Coders families.
 
-Class 10 CBSE. The programme paused during pre-boards on its own. My son finished with 93% and a deployed web app. I was nervous about any non-school class in Class 10 — I was wrong.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-SShruti M.Parent · Mumbai · 1-on-1
+KKrishnam BhatterFormer student
 
-ICSE CA syllabus was aligned to the week. Her Java board score was 96. Also built a Flutter revision app used by her friends during prelims. Rare win-win.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-RRanjan P.Parent · Pune · Group
+SShradha SarafParent of Mivaan
 
-We did just one 1-hour class a week through the year. Still, my son solved 50 LeetCode problems and shipped a study tracker. Small and steady.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-DDipesh K.Parent · Chennai · 1-on-1Common questions from parents
+SSonam OswalParent of DhairyaCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

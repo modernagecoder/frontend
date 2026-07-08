@@ -314,55 +314,43 @@ MG MargDeoraliTadongGangtok BazaarDevelopment AreaTibet RoadChandmariSicheyArith
 
 Online classes available for students across Gangtok and surrounding areas
 
-## What Gangtok Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Gangtok who trusted us with their children's coding education.
+Our classes are live and online, so students from Gangtok learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKLocal ParentMG Marg, Gangtok
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Sikkim students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSatisfied ParentMG Marg, Gangtok
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a NIT Sikkim professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKHappy ParentMG Marg, Gangtok
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Gangtok."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMProud ParentMG Marg, Gangtok
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Sikkim Board school schedule. Highly recommend for every Gangtok family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKDelighted ParentMG Marg, Gangtok
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at NIT Sikkim's Sikkim Manipal University."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSGrateful ParentMG Marg, Gangtok
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join leading tech careers from the Himalayas!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Gangtok — The Full Picture
 
 Why Gangtok parents are making coding a priority for their children's future
 
 Gangtok is India's cleanest state capital and Sikkim's mountain paradise. Sikkim Manipal University (SMU) has put this tiny state on the education map — their distance education program reaches millions. SMIT (Sikkim Manipal Institute of Technology) produces quality engineers. NIT Sikkim is the newest addition. For parents on MG Marg and in Deorali, the digital revolution is especially meaningful — coding skills let Gangtok's children compete globally without leaving their Himalayan home. SBSE's progressive curriculum includes technology. Online coding classes are transformative here: world-class education delivered to one of India's most remote state capitals. Gangtok children who code are proving that geography is no barrier to tech excellence.
-
-## Success Stories from Gangtok Students
-
-APAryan PatelAge 11 — MG MargAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Gangtok's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — DeoraliAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — TadongAchievement:Built a portfolio website and got recognized at NIT Sikkim tech fest
-
-"The web dev course taught me real skills. NIT Sikkim professors noticed my work!"
 
 ## Why Gangtok is the Perfect Place to Learn Coding
 

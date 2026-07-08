@@ -183,23 +183,23 @@ Class 7 is a quiet but real upgrade. This is what changes.
 | **Syllabus link** | CBSE Code 166 | CBSE 167 / ICSE ICT | Class 8 CS |
 | **Independence** | Guided | Starts driving | Drives mostly |
 
-Words from parents and students
+What families say
 
-## Parents of Class 7 students.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 7 families.
+Real, verified reviews from Modern Age Coders families.
 
-My son was drifting in Class 7 — not failing, just uninterested. Coding gave him a thing of his own. He built a Flutter app prototype last month. He is 12, it runs on my phone, and he is so proud.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-AArjun V.Parent · Bengaluru · 1-on-1
+KKrishnam BhatterFormer student
 
-Batch of 4 Class 7 students. Teacher assigns a project and they present in the last 10 minutes of class. My daughter showed her API-fetch page last week. I did not know Class 7 students could do this.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-SSneha R.Parent · Mumbai · Group
+SShradha SarafParent of Mivaan
 
-The teacher noticed my son was ahead in Python and moved him to a sklearn project. No rigid syllabus for its own sake — they meet the student where they are.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-GGaurav M.Parent · Pune · 1-on-1Common questions from parents
+SSonam OswalParent of DhairyaCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

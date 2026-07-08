@@ -183,25 +183,25 @@ Agentic AI assistant Sophie shipped at her Frankfurt bank that drafts compliance
 
 PythonLangGraphClaudePostgreSQLDocker★ ★ ★ ★ ★
 
-> "Within six months my son went from 'doesn't really like Informatik' to building a working AI agent his Lehrer asked him to demo. We don't say this lightly — this is the best money we've ever spent on his education."
+> "My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-AHAndrea H.Eltern · München (Bogenhausen) · Gymnasium★★★★★
+SOSonam OswalParent of Dhairya★★★★★
 
-> "Maxi's Abitur Informatik mock score went from 9 to 14 points after one term."
+> "My teachers were not only teachers but also mentors and friendly figures. The most impressive part was working on real-world projects."
 
-— Familie B. · Berlin★★★★★
+Krishnam Bhatter, former student★★★★★
 
-> "I'm 31, switched from Vertrieb to AI engineering in nine months. Worth every Euro."
+> "Modern Age Coders make learning coding so simple that kids love it. The projects were challenging and rewarding."
 
-— Felix R. · Köln★★★★★
+Ria Mukherjee, parent★★★★★
 
-> "My daughter is 9, in Hamburg, and reads Python error messages on her own. Wahnsinn."
+> "Wonderful teachers who teach in a clear, easy and practical way. They boost students' confidence and keep them updated with technology."
 
-— Stefanie L. · Hamburg★★★★★
+Sonu Goyal, parent★★★★★
 
-> "Better than the Volkshochschule and a third the price. Mentor-Modell ist Gold wert."
+> "Mivaan enjoys the class. He understands the concepts and has started taking real interest in coding. Truly an amazing class."
 
-— Markus T. · StuttgartMeet the mentor team
+Shradha Saraf, parentMeet the mentor team
 
 ## Working engineers. Olympiad veterans. Patient teachers.
 
@@ -514,37 +514,25 @@ VS Code installed, Python 3 working, Terminal no longer scary. First original pr
 
 End-of-month checkpoint: a small project chosen by the student — a Bundesliga-result lookup, a Berlin S-Bahn delay tracker, a Bayern-Abi quiz — shipped to GitHub Pages or Vercel. You receive a written Fortschrittsbericht from the mentor.
 
-**Output:** a live URL, vorzeigbarAdult learner stories
+**Output:** a live URL, vorzeigbarWhat families say
 
-## Four Germans who changed careers in under a year.
+## What families say about Modern Age Coders.
 
-Full names withheld on request. Each story below is a real adult student who joined us and ended up in a software, data or AI role at a German employer.
+We teach live and online, so students from Germany learn in the same small batches as our community. These are real, verified reviews.
 
-FKFelix K.30 · Berlin · ex-Vertrieb → AI engineer at a Berlin fintech
+PRPoonam RathoreParent · Verified Google review
 
-### From sales dashboards to LLM agents — neun Monate.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-Felix joined with strong Excel and weak Python. Nine months later he had shipped two production AI agents at a Berlin fintech, including one that auto-drafts compliance-friendly customer replies. Sein Team moved him into an AI engineer role.
+SMSamridho MondalStudent · Verified Google review
 
-Started**Python basics**Pivoted**LLM apps + RAG**Now**AI eng · fintech**PJPetra J.42 · München · ex-Lehrerin → ML engineer at a Munich mobility startup
+Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
 
-### Mathe-Lehrerin → ML engineer in 14 Monaten.
+SSShewta SinghMother of Ishan · Verified Google review
 
-Petra had strong maths intuition but no engineering background. We started slow: Python, Git, deployment, then ML fundamentals, then real production-pattern AI. She now works at a BMW-adjacent mobility startup in München.
+My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
 
-Started**Python + Git**Pivoted**ML fundamentals**Now**ML eng · mobility**ASAndreas S.36 · Hamburg · ex-Berater → full-stack at a Hamburg startup
-
-### Unternehmensberater → full-stack at a Hamburg-Mitte startup.
-
-Andreas had product instincts but had never deployed code. Two months in, his first React app was on Vercel. Eleven months in, he passed an interview at a HafenCity SaaS company for a full-stack engineer role.
-
-Started**Web fundamentals**Pivoted**Full-stack TS**Now**Full-stack · SaaS**EHEva H.29 · Frankfurt · ex-PM → AI eng at a Commerzbank-adjacent fintech
-
-### Product manager → AI engineer at a Frankfurt fintech.
-
-Eva already worked at a Frankfurt fintech in a PM role. She wanted to ship code, not just spec it. We built her up over a year on Python, ML, then agentic AI. She moved into a hands-on AI engineer role at a Commerzbank-adjacent shop.
-
-Started**Python + ML**Pivoted**Agentic AI**Now**AI eng · fintech**Honest commitments
+Honest commitments
 
 ## Was wir immer tun — und was wir nie tun werden.
 

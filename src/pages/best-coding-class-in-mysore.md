@@ -314,55 +314,43 @@ SaraswathipuramVijayanagarGokulamJayalakshmipuramKuvempunagarHebbalVV MohallaYad
 
 Online classes available for students across Mysore and surrounding areas
 
-## What Mysore Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Mysore who trusted us with their children's coding education.
+Our classes are live and online, so students from Mysore learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKRamesh KumarSaraswathipuram, Mysore
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Karnataka students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★PSPriya ShettySaraswathipuram, Mysore
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a University of Mysore professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★GMGanesh MurthySaraswathipuram, Mysore
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Mysore."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★AHAsha HegdeSaraswathipuram, Mysore
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Karnataka Board school schedule. Highly recommend for every Mysore family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VRVinay RaoSaraswathipuram, Mysore
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at University of Mysore's SJCE (JSS Science & Tech)."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★NJNandini JoshiSaraswathipuram, Mysore
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join Infosys Mysore!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Mysore — The Full Picture
 
 Why Mysore parents are making coding a priority for their children's future
 
 Mysore holds a unique position in India's tech story. It's where Infosys built its legendary Global Education Centre — the largest corporate training facility in the world. Every year, thousands of fresh engineers from across India come to Mysore to be transformed into Infosys professionals. This means Mysore doesn't just observe the tech industry — it literally trains it. SJCE (now JSS Science and Technology University) produces engineers that companies fight over. The University of Mysore's heritage of academic excellence stretches back over a century. For parents in Saraswathipuram and Gokulam, the path is clear: Infosys is in your backyard, SJCE is down the road, and coding is the skill that connects your child to both. Karnataka's SSLC and PUC boards now include computational thinking. KCET rewards logical reasoning. Mysore children who start coding early don't just prepare for exams — they prepare for careers at the company that trained a generation of Indian engineers.
-
-## Success Stories from Mysore Students
-
-APAryan PatelAge 11 — SaraswathipuramAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Mysore's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — VijayanagarAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — GokulamAchievement:Built a portfolio website and got recognized at University of Mysore tech fest
-
-"The web dev course taught me real skills. University of Mysore professors noticed my work!"
 
 ## Why Mysore is the Perfect Place to Learn Coding
 

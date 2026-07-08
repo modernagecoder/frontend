@@ -181,23 +181,23 @@ What changes in the final school year and the first college year.
 | **OSS** | First PR | Sustained | Maintainer track |
 | **Lifestyle** | School heavy | Boards heavy | Semester + project |
 
-Words from parents and students
+What families say
 
-## Class 12 parents and students.
+## What families say about Modern Age Coders.
 
-Recent reviews from Class 12 families. Unedited, privacy-shortened.
+Real, verified reviews from Modern Age Coders families.
 
-I started in Class 11 and the programme adapted into Class 12. I finished CBSE IP syllabus in 4 months, scored 97, and built a Pandas + sklearn project used in my college SOP. It worked.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-WWaqar H.Student · Delhi · 1-on-1
+SShradha SarafParent of Mivaan
 
-We paused during boards as planned. After boards, 2 months of BTech foundation. My son said his first college lectures felt like revision — the goal.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-NNeelam C.Parent · Kolkata · 1-on-1
+SSonam OswalParent of Dhairya
 
-Small batch of Class 12 CS students. Class felt serious and supportive. My daughter finished Class 12 with 92 in CS and a deployed full-stack app. Fair trade.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-ZZoya K.Parent · Mumbai · GroupCommon questions from parents
+KKrishnam BhatterFormer studentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

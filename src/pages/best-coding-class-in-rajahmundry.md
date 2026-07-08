@@ -353,51 +353,37 @@ Big-city quality teaching from just ₹1,499/month — without big-city fees. Wh
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Rajahmundry Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Rajamahendravaram and the Godavari belt. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Rajahmundry learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-HVHasvitha VegesnaAge 10 · Danavaipeta, RajahmundryAchievement:Made a Scratch quiz game about the Godavari Pushkaralu for her school's culture day.
+ SO Sonam OswalParent of Dhairya
 
-"I always loved playing on the tab. Now I make my own games! My Pushkaralu quiz had questions about our river and the bridges, and my friends kept asking to play it again."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SKSai Kiran PothulaAge 16 · Morampudi, RajahmundryAchievement:Built a Python app to track his EAPCET mock-test scores and revision plan.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Coding made my EAPCET prep more organised, not less. I wrote a Python tracker for my test scores, and two of my classmates use it now. I want to do CSE and stay close to home for as long as I can."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-DTDivya TadiAge 20 · GIET, RajahmundryAchievement:Landed a remote internship after the DSA + MERN full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm in third year at GIET. The mock interviews and the DSA sheet finally made placements feel possible from Rajahmundry. My MERN project got me a remote internship — I didn't have to move cities to start my career."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Rajahmundry Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Rajamahendravaram who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-LRLakshmi RaoAryapuram, Rajahmundry
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to spend hours watching gaming videos. Now he is the one making the games and walking me through his code at dinner. The small batch is what makes it work so well for him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★VPVenkatesh PisupatiDanavaipeta, Rajahmundry
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a small software setup here, so I can tell when teaching is genuine. They build logic and problem-solving first, not just syntax. My daughter's Python is properly solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SMSridevi MantenaMorampudi, Rajahmundry
+ ★★★★★
 
-"The weekend batch fits perfectly around school and her tuition. No running across town in the heat for a class — she just logs in from home. A real relief for working parents like us."
-
-★★★★★KKKishore KumarDowleswaram
-
-"Living near the barrage, finding a really good coding class nearby was tough. This solved it completely — an excellent teacher, online, at fair fees. Both my children are enrolled and loving it."
-
-★★★★★APAnitha PenmetsaT Nagar, Rajahmundry
-
-"My daughter was shy and unsure about coding. The teacher made her so comfortable that she is now the keenest in her batch — she even built a little website for our family shop!"
-
-★★★★★RGRamesh GollapudiGandhipuram, Rajahmundry
-
-"We tried two other places before this. The difference is night and day — here they actually check that the child has understood the concept, not just that the lesson is finished on paper."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Rajahmundry
 

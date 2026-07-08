@@ -353,51 +353,37 @@ Metro-quality teaching from just ₹1,499/month — fair for a Bhagalpur househo
 
 Completion certificates plus honest progress updates after every few classes — proof of learning that strengthens portfolios and college applications.
 
-## Success Stories from Bhagalpur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Bhagalpur and Sabour. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Bhagalpur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AMAryan MandalAge 11 · Adampur, BhagalpurAchievement:Built a Scratch game about ferrying boats safely under the Vikramshila Setu — shown at his school fair.
+ SO Sonam OswalParent of Dhairya
 
-"Before, I only watched cartoons and played on the phone. Now I make my own games! In mine you steer a boat under the Ganga bridge without hitting it — my cousins fight over whose turn it is to play."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SPSneha PoddarAge 15 · Tilkamanjhi, BhagalpurAchievement:Built a Python order-and-billing app for her family's silk-saree shop.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding was only for boys from big cities. Ma'am proved me wrong — my first real project tracks the saree orders in our shop, and my father shows it off to every customer. Now I want to study computer science properly."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RCRaushan ChoudharyAge 20 · Sabour, near BAUAchievement:Landed a paid remote internship after the DSA + full-stack track — working from Bhagalpur.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone told me I would have to move to Bengaluru or Pune to be taken seriously. The DSA sheet and mock interviews got me through the rounds, and the MERN project sealed it — I now intern remotely for a startup while still living at home in Sabour."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Bhagalpur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Bhagalpur and Sabour who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NGNutan JhaBhikhanpur, Bhagalpur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son spent every spare minute on the phone. Now he builds his own games and explains the logic to me while we eat. In a town where good options are few, finding this teacher felt like real luck — and the tiny batch is exactly why it works."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★VSDr. Anand SahPatal Babu Road, Bhagalpur
+ ★★★★★ PR Poonam RathoreParent
 
-"As a physician I demand rigour, and I doubted an online class could beat a hands-on one. It does — they build genuine logic and problem-solving, not rote syntax. My daughter's Python is now properly solid."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PKPriya SinhaMojahidpur, Bhagalpur
+ ★★★★★
 
-"With school and Board coaching, his days are already full. The weekend batch slots into the gap perfectly — no sending him out across town for one more class, he just logs in from home. A real relief for working parents."
-
-★★★★★ASManish KumarNathnagar, Bhagalpur
-
-"Out here in the weaver part of town, a serious coding teacher simply doesn't exist nearby. This solved it outright — a metro-level teacher, online, at a fee that's fair for us. Both my children are enrolled and genuinely look forward to class."
-
-★★★★★RMSunita DeviKhalifabag, Bhagalpur
-
-"My daughter was timid and unsure she could code. The teacher put her at such ease that she's now the keenest one in the batch. She even put together a little website for my saree-and-tailoring work — I couldn't believe she made it herself."
-
-★★★★★SVRajeev RanjanSabour, Bhagalpur
-
-"We'd already wasted money on a local computer class that taught nothing but MS-Word. The difference here is night and day — they actually confirm my son has grasped each concept before moving on, instead of racing to finish a syllabus."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Bhagalpur
 

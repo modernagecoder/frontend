@@ -314,55 +314,43 @@ ShahganjCIDCOJalna RoadAurangpuraOsmanpuraNirala BazaarCantonmentAdalat RoadSeve
 
 Online classes available for students across Aurangabad and surrounding areas
 
-## What Aurangabad Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Aurangabad who trusted us with their children's coding education.
+Our classes are live and online, so students from Aurangabad learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKLocal ParentShahganj, Aurangabad
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Maharashtra students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSatisfied ParentShahganj, Aurangabad
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a Government Engineering College professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKHappy ParentShahganj, Aurangabad
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Aurangabad."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMProud ParentShahganj, Aurangabad
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Maharashtra Board school schedule. Highly recommend for every Aurangabad family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKDelighted ParentShahganj, Aurangabad
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at Government Engineering College's Dr. BAMU University."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSGrateful ParentShahganj, Aurangabad
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join AURIC smart factories!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Aurangabad — The Full Picture
 
 Why Aurangabad parents are making coding a priority for their children's future
 
 Aurangabad (Chhatrapati Sambhajinagar) is Marathwada's capital and home to two UNESCO World Heritage Sites — Ajanta and Ellora Caves. But the city is building a new identity: AURIC (Aurangabad Industrial City) is one of India's largest smart city projects, attracting global manufacturers. Waluj MIDC is Maharashtra's largest industrial area. Dr. BAMU University anchors the education ecosystem. For parents in CIDCO and Shahganj, coding is the skill that connects their children to AURIC's smart factories and Maharashtra's tech economy. MHTCET rewards logical reasoning, and Industry 4.0 means every manufacturing job will require some coding.
-
-## Success Stories from Aurangabad Students
-
-APAryan PatelAge 11 — ShahganjAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Aurangabad's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — CIDCOAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — Jalna RoadAchievement:Built a portfolio website and got recognized at Government Engineering College tech fest
-
-"The web dev course taught me real skills. Government Engineering College professors noticed my work!"
 
 ## Why Aurangabad is the Perfect Place to Learn Coding
 

@@ -181,23 +181,23 @@ If you're comparing which paper suits your child.
 | **Practical weight** | 30 | 30 | 30 |
 | **Typical topper %** | 95+ | 93+ | 93+ |
 
-Words from parents and students
+What families say
 
-## Class 12 CBSE CS parents and students.
+## What families say about Modern Age Coders.
 
-Three recent Class 12 reviews. Unedited, privacy-shortened.
+Real, verified reviews from Modern Age Coders families.
 
-Class 12 CBSE CS. SQL was breaking me at mid-term. Teacher rebuilt it in 5 sessions using a real dataset. Scored 97 in the pre-boards. Project is a Flask-based library management app — full marks.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-AAbhinav R.Student · Delhi · 1-on-1
+SSonam OswalParent of Dhairya
 
-Small group of 3 Class 12 CS students. Teacher is firm about sample paper timing — 3 hours, no breaks. Daughter scored 93 in boards. Project: book-recommender using Pandas. Unusually good.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-GGayatri P.Parent · Mumbai · Group · Class 12 CS
+KKrishnam BhatterFormer student
 
-We joined late — October. The teacher still managed SQL + networks + project in 3 months. He scored 91 in boards. Could have been higher with an earlier start, but given the timeline, remarkable.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-KKaran M.Parent · Bengaluru · 1-on-1Common questions from parents
+SShradha SarafParent of MivaanCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

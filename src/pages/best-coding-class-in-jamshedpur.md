@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month, with the fee stated up front and noth
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Jamshedpur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across the steel city. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Jamshedpur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AMAryan MahatoAge 11 · Kadma, JamshedpurAchievement:Built a Scratch game about a steel-plant furnace that his school showed at its science day.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you keep a furnace from overheating by clicking the right valves. My Papa works at the plant, so he loved it the most — and my whole class wanted a turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SDSneha DasAge 15 · Sonari, JamshedpurAchievement:Built a Python attendance-and-marks tracker her class teacher at Sacred Heart now uses.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I always thought coding was for boys who only play on computers. The teacher proved me wrong. My little tracker app saves my class teacher half an hour every day — I want to study computer science now."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RSRitwik SinhaAge 20 · NIT JamshedpurAchievement:Landed a summer internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"My college teaches theory well, but I had nothing to show. The DSA sheet and the mock interviews fixed that, and the full-stack project gave me something real to demo. That demo is what got me the internship offer."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Jamshedpur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Jamshedpur and Adityapur who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SMSunita MahatoBistupur, Jamshedpur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to disappear into mobile games every evening. Now he is the one explaining loops and variables to me over dinner. The five-student batch means the teacher actually knows him by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PBPrakash BanerjeeKadma, Jamshedpur
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer at the plant, so I can tell when something is taught properly. These classes build the thinking first, the syntax second — my daughter's Python is genuinely sound, not just copied off a screen."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RKReena KerkettaMango, Jamshedpur
+ ★★★★★
 
-"We live in Mango and most good tutors are on the Bistupur side. The weekend online batch solved it — no crossing the bridge in the evening, he just opens his laptop at home. Perfect for working parents."
-
-★★★★★MAMohammed AlamAdityapur
-
-"Out in Adityapur a really good coding teacher is hard to find nearby. This fixed it completely — an excellent teacher, online, and the fees are honest. Both my children are enrolled and look forward to every class."
-
-★★★★★ATAnjali TiwariSonari, Jamshedpur
-
-"My daughter was shy and sure coding 'wasn't for her'. The teacher was so patient that she is now the loudest one answering in class — and she built a small website for my boutique that I actually share with customers."
-
-★★★★★DPDeepak PandeyTelco, Jamshedpur
-
-"We had tried a couple of local batches before. The difference here is they stop and confirm my son has actually understood a concept before moving on — they don't just race to finish the day's topic."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Jamshedpur
 

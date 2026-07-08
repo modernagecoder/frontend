@@ -353,51 +353,37 @@ Serious teaching from just ₹1,499/month, all-in. No hidden charges and no push
 
 A completion certificate and steady progress notes home — useful proof for school showcases, scholarships and college files.
 
-## Success Stories from Asansol Students
+## What Families Say About Modern Age Coders
 
-Young coders from across Asansol and the coalfield towns around it. Not so long ago, each of them was a beginner with nothing but a little curiosity — exactly like your child right now.
+Our classes are live and online, so students from Asansol learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RMRik MukherjeeAge 11 · Ushagram, AsansolAchievement:Made a Scratch game about a coal train and showed it at his school's science day.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you drive a coal train down the Asansol line and pick up wagons without crashing. My friends kept asking for one more turn — that felt amazing."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SDSneha DasAge 15 · Burnpur, AsansolAchievement:Built a Python marks-and-attendance tracker her class teacher now uses.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought programming was only for boys who already knew everything. Two months in I'd written a real tool my teacher uses every day. Now I want to study computer science properly."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-SCSoumya ChatterjeeAge 19 · Kazi Nazrul UniversityAchievement:Took on his first paid remote freelance project while still in college.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone here assumes you have to move to Bangalore for tech. I learned full-stack and DSA from my room in Asansol and got paid for a website by a client I never even met in person."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Asansol Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families across Asansol and the towns nearby who trusted us with their child's first steps in code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NGMoumita BanerjeeApcar Garden, Asansol
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone for hours. Now he shows me the little games he has made and asks for harder problems. With only six children in the batch, the teacher actually knows him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★VSDebasish RoyBurnpur, Asansol
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer at the steel plant, so I can tell shallow teaching from real teaching. They build the child's reasoning, not just a list of commands. My daughter's Python is genuinely sound now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PKRina GhoshMurgasol, Asansol
+ ★★★★★
 
-"The weekend slot sits neatly between school and his maths tuition. No autos, no traffic on GT Road for one class — he simply logs in from the next room. A real relief for us."
-
-★★★★★ASPradip SahaRaniganj
-
-"In Raniganj a proper coding class simply did not exist. Going online fixed that overnight — the same strong teacher my city cousins use, at a fee that makes sense for a coalfield family."
-
-★★★★★RMSutapa DuttaKalyanpur, Asansol
-
-"My daughter was shy and convinced coding wasn't for her. A few weeks in she was raising her hand first — and she has built a small website for my tailoring shop that I actually use."
-
-★★★★★SVAnirban SenHutton Road, Asansol
-
-"We had tried a couple of local tutors before. The gap is obvious — here they pause until my son has truly grasped the idea, instead of racing to finish the day's topic."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Asansol
 

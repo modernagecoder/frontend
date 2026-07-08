@@ -314,55 +314,43 @@ Mavoor RoadBeach RoadSM StreetVellimadukunnuPalayamNadakkavFerokeWest HillEast H
 
 Online classes available for students across Kozhikode and surrounding areas
 
-## What Kozhikode Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Kozhikode who trusted us with their children's coding education.
+Our classes are live and online, so students from Kozhikode learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RNRajesh NambiarMavoor Road, Kozhikode
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Kerala students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSudha PillaiMavoor Road, Kozhikode
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a IIM Kozhikode professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKAnil KumarMavoor Road, Kozhikode
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Kozhikode."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★LMLakshmi MenonMavoor Road, Kozhikode
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Kerala Board school schedule. Highly recommend for every Kozhikode family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★GPGopan PillaiMavoor Road, Kozhikode
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at IIM Kozhikode's NIT Calicut."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★ANAnusha NairMavoor Road, Kozhikode
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join NIT Calicut!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Kozhikode — The Full Picture
 
 Why Kozhikode parents are making coding a priority for their children's future
 
 Kozhikode is Malabar's intellectual capital. IIM Kozhikode is among India's top 10 business schools. NIT Calicut produces engineers that Google and Microsoft hire. The Cyber Park IT hub is growing rapidly, and Kerala's startup ecosystem has taken root here with a vibrant community of young founders. SM Street's famous bookshops reflect a city that reads more than almost anywhere in India. For parents on Mavoor Road and Beach Road, this intellectual heritage translates into a practical question: how do we prepare our children for the tech-driven economy that IIM-K and NIT Calicut graduates are building? SCERT's progressive curriculum includes computational thinking. KEAM rewards logical reasoning. Coding isn't just another activity in Kozhikode — it's the natural extension of a city that has always valued knowledge above all else.
-
-## Success Stories from Kozhikode Students
-
-APAryan PatelAge 11 — Mavoor RoadAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Kozhikode's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — SM StreetAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — VellimadukunnuAchievement:Built a portfolio website and got recognized at IIM Kozhikode tech fest
-
-"The web dev course taught me real skills. IIM Kozhikode professors noticed my work!"
 
 ## Why Kozhikode is the Perfect Place to Learn Coding
 

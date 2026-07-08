@@ -177,25 +177,21 @@ CSAT · MAT-style CS · Interview prep
 - Imperial & UCL interview question patterns
 - British Informatics Olympiad rounds 1 & 2 — coached by veterans
 
-> Within two terms my daughter went from a predicted 5 in GCSE Computer Science to an 8. The mentor matched her exam board, fixed her Python head-on, and made the NEA feel like fun.
+> My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-RHRachel H.Parent · Manchester · St Bede's College
+SOSonam OswalParent of Dhairya · Verified Google review
 
-> "My son's Oxford CS interview prep was outstanding. He got an offer."
+> "Modern Age Coders make learning coding so simple that kids love it."
 
-— Sanjay P. · London · Westminster School
+Ria Mukherjee · Parent
 
-> "For £79 a month, better than any tutor we tried on Tutorful or MyTutor."
+> "Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way."
 
-— Hannah M. · Bristol
+Sonu Goyal · Parent
 
-> "I'm 28, switched into AI engineering at a London startup in nine months. Brilliant."
+> "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement."
 
-— Tom W. · London (Hackney)
-
-> "My Year-4 daughter writes real Python at home now. We're stunned."
-
-— Priya S. · EdinburghThe British coding context
+Shradha Saraf · Parent of MivaanThe British coding context
 
 ## Why now, in the UK, is a very serious time to learn real coding.
 
@@ -493,37 +489,29 @@ VS Code installed, Python 3 running, terminal no longer scary. First original pr
 
 End-of-month checkpoint: a small project chosen by the student — a Premier-League stats lookup, an A-Level past-paper quiz, a London-weather widget — shipped to GitHub Pages or Vercel. You receive a written progress note from the mentor.
 
-**Output:** a live URL you can shareAdult learner stories
+**Output:** a live URL you can shareWhat families say
 
-## Four British adults who changed careers in under a year.
+## What families say about Modern Age Coders.
 
-Full names withheld on request. Each is a real adult student who joined and ended up in a software, data or AI role at a UK employer.
+We teach live and online, so students from the United Kingdom learn in the same small batches as our community. These are real, verified reviews.
 
-TWTom W.28 · London (Hackney) · ex-marketing analyst → AI engineer
+KBKrishnam BhatterFormer student · Verified Google review
 
-### From marketing dashboards to LLM agents — nine months.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The most impressive part was working on real-world projects.
 
-Tom joined with strong Excel and weak Python. Nine months later he had shipped two production AI agents at a London fintech, including one that auto-drafts customer-support replies. His team moved him into an AI-engineer role.
+PRPoonam RathoreParent · Verified Google review
 
-Started**Python basics**Pivoted**LLM apps + RAG**Now**AI eng · fintech**PJPriya J.35 · Manchester · ex-teacher → ML engineer
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-### Maths teacher → ML engineer in 13 months.
+SMSamridho MondalStudent · Verified Google review
 
-Priya had strong maths intuition but no engineering background. We started slow: Python, Git, deployment, then ML fundamentals, then production-pattern AI. She now works at a Manchester health-tech startup as an ML engineer.
+Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
 
-Started**Python + Git**Pivoted**ML fundamentals**Now**ML eng · health-tech**ASAdam S.36 · Edinburgh · ex-consultant → full-stack at Skyscanner
+SSShewta SinghMother of Ishan · Verified Google review
 
-### Management consultant → full-stack at a Bayes-adjacent Edinburgh startup.
+My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
 
-Adam had product instincts but had never deployed code. Two months in, his first React app was on Vercel. Eleven months in, he passed an interview at a Bayes-Centre-adjacent Edinburgh SaaS company for a full-stack engineer role.
-
-Started**Web fundamentals**Pivoted**Full-stack TS**Now**Full-stack · SaaS**EHEmma H.29 · Bristol · ex-PM → AI eng at a Bristol startup
-
-### Product manager → AI engineer at a Bristol AI-startup.
-
-Emma already worked at a Bristol startup in a PM role. She wanted to ship code, not just spec it. We built her up over a year on Python, ML, then agentic AI. She moved into a hands-on AI engineer role at the same company.
-
-Started**Python + ML**Pivoted**Agentic AI**Now**AI eng · startup**Honest commitments
+Honest commitments
 
 ## What we'll always do — and what we'll never do.
 

@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the s
 
 A certificate on completion, plus steady progress updates parents can use to back up portfolios and applications.
 
-## Success Stories from Ludhiana Students
+## What Families Say About Modern Age Coders
 
-Real young coders from neighbourhoods all over Ludhiana. Each of them once sat exactly where your child sits today — nothing more than curious, and ready to give it a go.
+Our classes are live and online, so students from Ludhiana learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-EBEkamveer BediAge 10 · BRS Nagar · Sacred Heart ConventAchievement:Built a Scratch cycle-factory game that his class lined up to play.
+ SO Sonam OswalParent of Dhairya
 
-"My nana makes cycle parts, so I made a game where you build a bicycle on a fast belt before it falls off! I never knew I could make my own game — now I want to make ten more."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-JKJasleen KaurAge 15 · Sarabha Nagar · Sat Paul MittalAchievement:Built a Python billing app her father now uses in his hosiery shop.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Papa was still writing bills by hand at the shop. I made him a Python app that prints them and keeps the stock count. He shows it to every customer now — that pushed me to take CS seriously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-HSHarnoor SinghAge 20 · Model Town · GNDECAchievement:Landed his first internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"At GNDEC everyone says you have to leave Ludhiana for a good job. The DSA sheet and mock interviews here got me an internship while I was still in third year — and the MERN project sealed it."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Ludhiana Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Ludhiana who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SSSimran SethiDugri, Ludhiana
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son barely looked up from YouTube. Now he shows me the games he's coded and walks me through the logic at dinner. The small batch means the teacher actually knows his name and his weak spots."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RGRajinder GoyalGhumar Mandi, Ludhiana
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a hosiery business and wanted my daughter to learn something that actually helps the firm one day. They teach real logic, not just rote syntax — and she's already talking about putting our catalogue online."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MKManpreet KaurSarabha Nagar, Ludhiana
+ ★★★★★
 
-"The Saturday batch sits neatly between school and her music class. No dropping her at a centre across town in the traffic — she just logs in from home. For working parents that's everything."
-
-★★★★★DADr. Arvind AnejaBRS Nagar, Ludhiana
-
-"We'd struggled to find a serious coding teacher in Ludhiana who wasn't just running a generic computer class. This is the real thing — proper curriculum, online, fair fees. Both my children are enrolled now."
-
-★★★★★NBNavjot BhallaModel Town, Ludhiana
-
-"My daughter was shy and convinced coding was 'not for girls'. A few weeks in, she's the one demoing her project to the batch. She even built a little website for my boutique. I'm genuinely amazed."
-
-★★★★★HGHarish GuptaCivil Lines, Ludhiana
-
-"We'd tried a local tuition before and my son just memorised answers. Here the teacher keeps checking whether he actually understood the concept before moving on. That difference shows in his confidence."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Ludhiana
 

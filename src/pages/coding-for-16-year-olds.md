@@ -186,23 +186,23 @@ Each year now matters for college. This is the honest difference year over year.
 | **Hackathons** | Rare | First one | Regular |
 | **Open source** | Not yet | First PR | Active contributor |
 
-Words from parents and students
+What families say
 
-## Class 11 parents and students.
+## What families say about Modern Age Coders.
 
-Recent reviews from families of 16-year-olds in the CS stream.
+Real, verified reviews from Modern Age Coders families.
 
-I'm 16, in Class 11 CS stream. The teacher here teaches the chapter a week before school does, so every test feels easy. Alongside, I'm solving the Striver sheet and have done 40 problems so far. MERN is in progress. Fees are honestly justified.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-FFarhan K.Student · Delhi · 1-on-1
+KKrishnam BhatterFormer student
 
-Small group of Class 11 students. They help each other. My daughter's confidence with SQL and Pandas went from zero to really solid in one term. The IP school paper felt easy to her, which was the goal.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-XXena M.Parent · Bengaluru · Group
+SShradha SarafParent of Mivaan
 
-My son was considering CS but wasn't sure. After 3 months of real MERN work, he is sure. Sometimes the best outcome of Class 11 is clarity, and we got that.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-EEsha P.Parent · Hyderabad · 1-on-1Common questions from parents
+SSonam OswalParent of DhairyaCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

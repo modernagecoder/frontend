@@ -353,51 +353,37 @@ Expert-led classes from ₹1,499 a month, with the same fee every month and noth
 
 A certificate when a course wraps, and honest progress notes along the way — both worth attaching to a school file or college form.
 
-## Success Stories from Greater Noida Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Greater Noida & Noida Extension. Each one began exactly where your child is today — curious, and ready to build something.
+Our classes are live and online, so students from Greater Noida learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-KNKabir NagarAge 11 · Gaur City, Greater Noida WestAchievement:Built a Scratch racing game his class voted the favourite of the term.
+ SO Sonam OswalParent of Dhairya
 
-"I always wanted to make a racing game like the cars at the Buddh circuit. Now I actually did — you dodge traffic on the expressway and beat the clock. My friends keep asking for new levels!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-STSaanvi TomarAge 15 · Alpha 2, Greater NoidaAchievement:Topped her school's coding club with a Python quiz-and-scoreboard app.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Everyone said Python was a leap from blocks, but it honestly clicked within a few weeks. My scoreboard app now runs our coding-club practice rounds — the seniors actually ask me to add features. My plan is a CS seat at Bennett or Shiv Nadar without leaving Greater Noida at all."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ABAryan BhatiAge 20 · Knowledge Park IIIAchievement:Bagged a paid internship two semesters before campus placements opened.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'd done the college DSA course and still froze in mock rounds. The structured problem sets and the weekly pressure-interviews here rewired how I think on the spot. When a startup near GBU interviewed me, my deployed full-stack project gave us something real to discuss — I had the offer before my batchmates had even started applying."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Greater Noida Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families across Greater Noida & Noida Extension who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-DCDeepika ChauhanBeta 1, Greater Noida
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"What sold me was the first month: my son went from asking for more screen time to asking for more class time. He's mid-way through a maze game now and keeps redrawing the level on paper at the table. In a five-child batch the teacher actually notices when he's stuck — that's the whole reason it works for us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★MRManish RanaKnowledge Park II
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a lab at one of the Knowledge Park colleges, so I sit in on a lot of weak teaching. Here it's the opposite — they make my daughter reason a problem out loud before she touches the keyboard. Six months in, she's debugging her own Python without calling me over, which says everything."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PBPriyanka BishtGaur City, Greater Noida West
+ ★★★★★
 
-"Our Gaur City tower has zero good coding options at ground level, and I wasn't about to ferry him to Pari Chowk twice a week. The Sunday-morning batch fixed that completely — he opens the laptop in his room and I keep my weekend. For a two-job household that flexibility is worth more than the fee itself."
-
-★★★★★SYSandeep YadavBisrakh, Noida Extension
-
-"Bisrakh is still half construction site — the nearest decent institute meant a long drive towards the city. Going online closed that gap for us in one go. The teacher is sharp, the fee is honest, and my younger one begged to join after watching his sister's class, so now both are in."
-
-★★★★★RARuchi AwasthiJagat Farm, Greater Noida
-
-"She told me on day one that coding 'wasn't for girls like her' — I could have cried. Three months later she's the one answering questions in the batch, and she quietly coded a little catalogue page for my saree business in Jagat Farm. I still can't quite believe the change."
-
-★★★★★VTVikram ThakurSurajpur, Greater Noida
-
-"Two earlier tutors in Surajpur just raced through a slide deck while my son nodded along understanding nothing. Here the teacher stops and makes him explain the code back before moving on. That one habit is why he's finally retaining what he learns instead of forgetting it by the next week."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Greater Noida
 

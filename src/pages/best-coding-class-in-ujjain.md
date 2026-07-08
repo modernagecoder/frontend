@@ -353,51 +353,37 @@ Serious teaching from ₹1,499 a month, with the price on the page. No hidden ch
 
 A completion certificate plus honest, regular updates so parents always know exactly how their child is doing.
 
-## Success Stories from Ujjain Students
+## What Families Say About Modern Age Coders
 
-Young coders from around Ujjain and the towns nearby. Every one of them began with nothing but curiosity — the same place your child stands right now.
+Our classes are live and online, so students from Ujjain learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ATAarush TrivediAge 11 · Freeganj, UjjainAchievement:Made a Scratch "Simhastha crowd guide" game that his class played all week.
+ SO Sonam OswalParent of Dhairya
 
-"My game is about helping pilgrims find the right ghat during the Kumbh without getting lost. Mummy didn't believe I made it myself until she saw me change the levels live!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SDSanvi DubeAge 15 · Madhav Nagar, UjjainAchievement:Built a Python fee-and-attendance tracker now used by her tuition centre.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought programming was only for people in big cities. After a few weeks I had written something my own tuition sir actually uses. Now I'm aiming for a CS seat after Class 12."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-YPYash ParmarAge 20 · Vikram University, UjjainAchievement:Landed a remote developer internship after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"My campus didn't have many tech recruiters visiting, so I had to make my own luck. The DSA practice and a deployed MERN project got me a remote internship with a company I'd never have reached from Ujjain otherwise."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Ujjain Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Plain-spoken feedback from Ujjain families who trusted us with their child's very first steps in coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SJShweta JoshiFreeganj, Ujjain
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"Before this, my son's screen time was a daily fight. Now he shows me what he's building and I genuinely can't keep up. Eight kids in the batch means the teacher knows him by name — that's what sold me."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RCRajesh ChouhanDewas Road, Ujjain
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer myself, so I was sceptical. What won me over is that they teach why the code works, not just how to copy it. My daughter reasons through a problem before she even types now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MRManisha RathoreNanakheda, Ujjain
+ ★★★★★
 
-"The Sunday-morning batch slots neatly between school and his maths tuition, and there's no auto ride across town for it. For a working mother that convenience is honestly half the value."
-
-★★★★★ASDevendra PatidarNagda (near Ujjain)
-
-"We're in Nagda, where a good coding teacher simply isn't available locally. Online classes erased that gap overnight — same teacher my friends in Indore use, at a price that's actually fair."
-
-★★★★★RMPriya VermaRishi Nagar, Ujjain
-
-"My daughter was shy and convinced this wasn't 'for girls like her'. A patient teacher and a tiny batch changed that completely — she's just put up a small website for my saree business herself."
-
-★★★★★SVAnil SolankiAgar Road, Ujjain
-
-"We'd tried a recorded-video course earlier and my son just drifted. A live teacher who pauses to check he actually followed the idea — that's the whole difference. We should have started here."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Ujjain
 

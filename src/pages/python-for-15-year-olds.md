@@ -181,23 +181,23 @@ What changes year over year around the board.
 | **Web** | Flask + Django | Django deployed | Full Django + DRF |
 | **ML** | Full pipeline | NLP intro | DL + production |
 
-Words from parents and students
+What families say
 
-## Class 10 Python parents.
+## What families say about Modern Age Coders.
 
-Three recent reviews from 15-year-old Class 10 Python students.
+Real, verified reviews from Modern Age Coders families.
 
-I was nervous about any non-school class in Class 10. They paused for pre-boards on their own and resumed after. Son finished with 94% and a deployed Django blog. I was wrong to worry.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-UUsha P.Parent · Mumbai · 1-on-1
+PPoonam RathoreParent
 
-ICSE Class 10 student, Python wasn't in her board paper but she loved it. The teacher paced everything around her school calendar. 50 LeetCode solved + a sentiment classifier project.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-FFarida K.Parent · Pune · Group
+RRia MukherjeeParent
 
-One 1-hour class a week through the year was all. Still, my son finished 50 LeetCode problems and deployed a study tracker. Small and steady works in Class 10.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-DDarshan R.Parent · Bengaluru · 1-on-1Common questions from parents
+SSonu GoyalParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

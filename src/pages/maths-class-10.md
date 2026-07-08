@@ -273,23 +273,23 @@ Contact [+91 9123366161](tel:+919123366161) (Shivam Sir) for payment details.
 
 Student & Parent Reviews
 
-## What Students & Parents Say
+## What families say about Modern Age Coders
 
-Real results from real Class 10 students and their parents. Here is what they experienced with our maths tuition.
+Modern Age Coders teaches both maths and coding. These are real, verified reviews from our families.
 
 ★★★★★
 
-My son was struggling with trigonometry and coordinate geometry in Class 10. He could not connect the formulas to the problems. After joining Modern Age Coders, his tutor broke down every concept visually. He scored 96 in his CBSE board exam, up from 68 in his pre-boards. The chapter-wise tests made all the difference.
+My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended.
 
-Anjali M.Parent of CBSE Class 10 Student, Pune★★★★★
+Shewta SinghMother of Ishan, Verified Google review★★★★★
 
-We are based in Dubai and our daughter follows the IGCSE curriculum. Finding a tutor who understood the Cambridge pattern was really difficult. Modern Age Coders matched her with a tutor who knew exactly what to focus on. Her predicted grade went from a C to an A* in just four months. The flexible timing works perfectly for us.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-Rashid K.Parent of IGCSE Student, UAE★★★★★
+Shradha SarafParent of Mivaan, Verified Google review★★★★★
 
-I joined just two months before my ICSE boards because I was panicking about maths. My tutor created a revision plan that covered every high-weightage chapter first, then we did mock papers every week. I ended up scoring 93 when I was expecting around 75. The exam strategy tips on presentation and step marking were incredibly helpful.
+Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
 
-Arjun S.ICSE Class 10 Student, Kolkata
+Samridho MondalStudent, Verified Google review
 
 FAQ
 

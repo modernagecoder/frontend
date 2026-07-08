@@ -314,55 +314,43 @@ Sadar BazaarShastri NagarPallavpuramBegumpulModipuramGarh RoadHapur RoadDelhi Ro
 
 Online classes available for students across Meerut and surrounding areas
 
-## What Meerut Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Meerut who trusted us with their children's coding education.
+Our classes are live and online, so students from Meerut learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RKLocal ParentSadar Bazaar, Meerut
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Uttar Pradesh students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSatisfied ParentSadar Bazaar, Meerut
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a IIT Delhi (nearby) professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★AKHappy ParentSadar Bazaar, Meerut
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Meerut."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PMProud ParentSadar Bazaar, Meerut
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their UP Board school schedule. Highly recommend for every Meerut family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VKDelighted ParentSadar Bazaar, Meerut
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at IIT Delhi (nearby)'s Meerut University."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★KSGrateful ParentSadar Bazaar, Meerut
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join Delhi's top tech companies!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Meerut — The Full Picture
 
 Why Meerut parents are making coding a priority for their children's future
 
 Meerut — the Sports Capital of India — produces the bats, balls, and equipment that Indian athletes use worldwide. But the city is evolving beyond sports manufacturing. Its proximity to Delhi NCR (just 70km) means Meerut students compete for the same tech jobs as Delhi and Noida graduates. Meerut University and SVSU are modernizing their curricula. UP Board's updates include computational thinking. For parents on Garh Road and in Shastri Nagar, coding is the skill that connects Meerut to Delhi's tech ecosystem. JEE preparation increasingly rewards algorithmic thinking, and Meerut's coaching culture is adding coding to the traditional maths-science stack.
-
-## Success Stories from Meerut Students
-
-APAryan PatelAge 11 — Sadar BazaarAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Meerut's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — Shastri NagarAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — PallavpuramAchievement:Built a portfolio website and got recognized at IIT Delhi (nearby) tech fest
-
-"The web dev course taught me real skills. IIT Delhi (nearby) professors noticed my work!"
 
 ## Why Meerut is the Perfect Place to Learn Coding
 

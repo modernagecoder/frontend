@@ -314,55 +314,43 @@ LankaSigraBhelupurAssi GhatGodowliaDashashwamedhCanttNadesarMaldahiyaSarnathPand
 
 Online classes available for students across Varanasi and surrounding areas
 
-## What Varanasi Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Varanasi who trusted us with their children's coding education.
+Our classes are live and online, so students from Varanasi learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RMRaghunath MishraLanka, Varanasi
+ SO Sonam OswalParent of Dhairya
 
-"My son studies two blocks from BHU. He used to think coding was 'for IT people only.' Now he writes Python and dreams of IIT BHU's CS department."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★SPSavita PandeySigra, Varanasi
+ ★★★★★ RM Ria MukherjeeParent
 
-"Varanasi has great gurukuls of knowledge but coding wasn't available anywhere offline at a reasonable price. MAC brought Silicon Valley quality to Kashi."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★ADArun DubeyAssi Ghat, Varanasi
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Living near the Ghats, my world felt traditional. Coding connected my son to the global tech world. He still does his evening aarti — and then codes till 10."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★MYManju YadavCantt, Varanasi
+ ★★★★★ SG Sonu GoyalParent
 
-"₹1,499 makes this accessible to every family in Varanasi, not just the affluent ones. Both my children are learning and growing. Hindi medium is a genuine plus."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★STSuresh TiwariNadesar, Varanasi
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The completion certificate impressed the BHU admission office. They said coding experience is increasingly valued for engineering applications. Worth every rupee."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PSPriya SinghBhelupur, Varanasi
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter made a website about Banarasi silk weaving techniques. Three local weavers in Lallapura asked her to help them sell online. Impact at 14."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Varanasi — The Full Picture
 
 Why Varanasi parents are making coding a priority for their children's future
 
 There is something poetic about teaching coding in the world's oldest continuously inhabited city. Varanasi — Kashi, the City of Light — has been a centre of learning since before most civilizations existed. When students gathered at ancient Kashi Vishwanath to study mathematics and philosophy, they were doing something not so different from what our students do today: learning structured thinking to solve complex problems. IIT (BHU) is the modern inheritor of this tradition, and it's one of India's top 5 IITs. BHU's campus in Lanka is a city within a city, producing research that Nature and Science publish regularly. The Smart City Mission is digitizing Varanasi's famous silk weaving — weavers in Lallapura are using apps to manage orders and track inventory. Sarnath's Buddhist heritage sites use digital tools for virtual tours. For parents near Assi Ghat and Sigra, this means their children are growing up in a city where ancient craftsmanship meets modern technology. UP Board students who learn Python today might build the app that connects Banarasi silk weavers directly with global buyers, preserving a centuries-old craft through 21st-century code. That's not disruption — that's continuation.
-
-## Success Stories from Varanasi Students
-
-AMAarav MishraAge 11 — LankaAchievement:Built a Varanasi Ghats explorer quiz with historical facts about all 84 ghats
-
-"My quiz covers Dashashwamedh, Manikarnika, and Assi. Even pandit-ji learned something new!"
-
-SPSneha PandeyAge 15 — SigraAchievement:Won the eastern UP coding competition with a Banarasi silk e-commerce prototype
-
-"I connected three weaver families to online buyers. They sold 12 sarees in the first month through my site."
-
-RDRohit DubeyAge 17 — BHU CampusAchievement:Built a BHU campus navigation app that IIT BHU selected for their annual hackathon
-
-"IIT BHU's hackathon judges gave my campus app the 'Most Practical' award. I'm still in school."
 
 ## Why Varanasi is the Perfect Place to Learn Coding
 

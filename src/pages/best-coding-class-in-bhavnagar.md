@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month, with no hidden fees and no pressure �
 
 A completion certificate plus honest progress notes that strengthen a child's school portfolio and college file.
 
-## Success Stories from Bhavnagar Students
+## What Families Say About Modern Age Coders
 
-Young coders from across Bhavnagar and the Saurashtra coast. Not so long ago each of them was a curious beginner who had never written a line — exactly where your child stands now.
+Our classes are live and online, so students from Bhavnagar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-KSKrish SodhaAge 11 · Krishnanagar, BhavnagarAchievement:Built a Scratch "Alang ship-yard" game his school showed at its annual exhibition.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you sail a ship into the yard and take it apart for scrap without crashing. My friends kept asking for one more turn — I never thought I could build something they'd want to play."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-DVDiya VyasAge 15 · Subhashnagar, BhavnagarAchievement:Built a Python homework-and-marks tracker now used by her tuition group.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought Python would be too hard for me, but breaking it into small steps changed everything. My tuition sir actually uses my marks tracker now. I want to take up Computer Science and build for a real company from right here in Bhavnagar."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-HGHarsh GohilAge 20 · Bhavnagar UniversityAchievement:Picked up a remote developer internship after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone told me I'd have to move to Ahmedabad or Bengaluru for a tech job. Instead, the DSA practice and a deployed MERN project got me a remote internship while I'm still studying here in Bhavnagar — the project on my resume did all the talking."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Bhavnagar Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Candid words from families across Bhavnagar and the nearby towns who trusted us with their child's first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MPMehul PandyaVidyanagar, Bhavnagar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son's screen time was a daily argument. Now he shows me the games he's building and walks me through how each part works. With only seven kids in the batch, the mentor genuinely knows him — that's what won me over."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★JTJignesh TrivediWaghawadi Road, Bhavnagar
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer myself, so I came in sceptical. But they teach why the code works, not just how to copy it. My daughter now reasons a problem through before she even starts typing."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★FJFalguni JoshiTakhteshwar, Bhavnagar
+ ★★★★★
 
-"The Sunday slot sits neatly between school and tuition, with no auto ride across town for a class. For a working mother, that convenience is honestly half the value — and my son loves the sessions."
-
-★★★★★DMDilip MakwanaSihor (near Bhavnagar)
-
-"Out in Sihor, a good coding teacher simply isn't available nearby. Online classes erased that gap overnight — the same mentor my relatives in Bhavnagar use, at a fair fee. My two children are both enrolled and look forward to every class."
-
-★★★★★RDReshma DaveAtabhai, Bhavnagar
-
-"My daughter was hesitant and shy about coding at the start. The mentor's patience turned that around completely — she now looks forward to class and has even built a little website for my home tiffin business."
-
-★★★★★NBNilesh BhattKrishnanagar, Bhavnagar
-
-"We had tried a couple of other classes earlier, but here it's a different league — they actually confirm the child has grasped the idea before moving on, instead of just finishing the day's topic."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Bhavnagar
 

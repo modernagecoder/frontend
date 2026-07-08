@@ -182,23 +182,23 @@ If you are choosing between boards or comparing what each expects, here is the h
 | **Tool for projects** | Python IDLE / Thonny | BlueJ | Python IDLE / Thonny |
 | **Best first language** | Python | Java (or Python) | Python |
 
-Words from parents and students
+What families say
 
-## CBSE parents and students.
+## What families say about Modern Age Coders.
 
-Three recent reviews from CBSE families across classes.
+Real, verified reviews from Modern Age Coders families.
 
-The teacher keeps the Code 402 book open every class. Before pre-boards he had the complete unit wrapped. Not just answers — real understanding. His board paper was easy.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-RRadhika S.Parent · Delhi · Class 10 student · 1-on-1
+KKrishnam BhatterFormer student
 
-My son picked IP in Class 11 and Pandas was breaking him. Small group class fixed it in 4 weeks. His school half-yearly IP marks doubled.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-VVinay T.Parent · Hyderabad · Class 11 student · Group
+SShradha SarafParent of Mivaan
 
-We started at Class 8 which is early but CBSE pushes Python from Code 166. My daughter's school teacher now assumes she knows ahead — and she does.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-SSonia P.Parent · Bengaluru · Class 8 student · 1-on-1Common questions from parents
+SSonam OswalParent of DhairyaCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

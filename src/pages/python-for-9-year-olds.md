@@ -183,23 +183,23 @@ If you are near a boundary, this table is the plain difference.
 | **AI tie-in** | Story only | Demo classifier | First real model |
 | **Class format** | 1-on-1 | Both fine | Both fine |
 
-Words from parents and students
+What families say
 
-## Parents of 9 year olds — in their own words.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 4 families doing Python.
+Real, verified reviews from Modern Age Coders families.
 
-My son was afraid of Python because YouTube tutorials looked intimidating. Two weeks in he built a jokes program and showed it to his grandfather. First time he explained code to an adult. He is 9.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-RRitu V.Parent · Delhi · 1-on-1
+KKrishnam BhatterFormer student
 
-Small group of four Class 4 students, all doing Python together. They show each other's programs at the end of class. My daughter said coding is "like solving riddles". I'll take it.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-SSameer K.Parent · Pune · Group
+SShradha SarafParent of Mivaan
 
-Teacher goes slow. No rush. By month three my son was writing number-guess games on his own. He is 9 and this is the first class that does not feel like extra tuition.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-AAnita M.Parent · Chennai · 1-on-1Common questions from parents
+SSonam OswalParent of DhairyaCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

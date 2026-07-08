@@ -353,51 +353,37 @@ Premium teaching from ₹1,499/month — stated plainly, with no hidden fees and
 
 A completion certificate plus honest progress notes — useful proof for school showcases and college applications alike.
 
-## Success Stories from Haridwar Students
+## What Families Say About Modern Age Coders
 
-Young coders from around Haridwar and the Roorkee belt — every one of them began curious, with no head start, and built their way forward.
+Our classes are live and online, so students from Haridwar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-KNKartik NegiAge 10 · Jwalapur, HaridwarAchievement:Made a Scratch game where a diya floats down the Ganga at aarti time, dodging the bridge pillars.
+ SO Sonam OswalParent of Dhairya
 
-"In my game you float a diya down the river at Har Ki Pauri and it loses a life if it hits a pillar. My cousins kept losing on the last bend and wanted to play it again and again."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SRSaanvi RanaAge 15 · Shivalik Nagar, HaridwarAchievement:Coded a Python revision-quiz app that half her section used before their term test.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Typing real code looked hard until I actually tried it. My quiz app went round the whole class before exams. Now I want to study computer engineering — and I'm glad I don't have to leave Haridwar to start."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-DCDevansh ChauhanAge 20 · BHEL Township, RanipurAchievement:Picked up a paid work-from-home developer role mid-degree after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"My father builds turbines at BHEL; I build software from the same township. The mock rounds and the problem sheet did the work — I'm now writing code from Ranipur for a team I've never met in person."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Haridwar Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families around Haridwar and the Roorkee belt who trusted us with their child's first steps in code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MBMeenakshi BishtBhupatwala, Haridwar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to disappear into his phone after school. Now he shows me what he has built and walks me through how it works. What sold me was the small batch — the teacher clearly knows each child."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RPRajeev PantBHEL Township, Ranipur
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer at BHEL, so I set the bar high. They build reasoning and clean structure, not memorised syntax. My daughter can take a problem apart and think it through on her own now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★STShweta TomarJwalapur, Haridwar
+ ★★★★★
 
-"The weekend slot sits neatly between school and her tuition, and there is no sending her across Jwalapur for a class — she just opens the laptop at home. For working parents that is everything."
-
-★★★★★YRYogesh RawatRoorkee
-
-"In Roorkee a serious coding class for the right age just isn't nearby. Going online closed that gap entirely — a strong teacher and fair fees, with my younger one starting next term too."
-
-★★★★★PCPreeti ChandolaKankhal, Haridwar
-
-"My daughter hung back at first. The teacher was so patient that she now leads her batch, and she has built a little website for our family puja-samagri shop in Kankhal. We did not expect that this soon."
-
-★★★★★DSDeepak SainiSIDCUL Ranipur, Haridwar
-
-"We had tried a couple of options before. The difference here is that they actually confirm the child has understood the idea before moving on — not just that the lesson is finished on time."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Haridwar
 

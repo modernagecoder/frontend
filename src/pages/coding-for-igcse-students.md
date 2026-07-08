@@ -182,23 +182,23 @@ What each board really expects.
 | **Project work** | Minimal / pre-release | Required | Required (lab) |
 | **Tool** | Any IDE | Thonny / IDLE | BlueJ |
 
-Words from parents and students
+What families say
 
-## IGCSE parents and students.
+## What families say about Modern Age Coders.
 
-Three recent reviews from IGCSE families.
+Real, verified reviews from Modern Age Coders families.
 
-We moved from London and my son needed a tutor who knew the exact Cambridge pseudocode style. This team does. He got 8 (equivalent A*) in the mock; predicted 9.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-LLaila H.Parent · Dubai · Year 11 IGCSE · 1-on-1
+SShradha SarafParent of Mivaan
 
-Small IGCSE-only group. Teacher doesn't mix us with CBSE students — useful because Cambridge pseudocode is nothing like Python. Daughter's Paper 2 confidence is solid now.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-MMohit V.Parent · Bengaluru · IGCSE Year 10 · Group
+SSonam OswalParent of Dhairya
 
-My IB school pushed us onto IGCSE in Year 11. I was behind. The teacher paced it — Paper 1 theory in 6 weeks, Paper 2 drills in 4. Felt rushed but I got there.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-EEshaan K.Student · Singapore · Year 11 · 1-on-1Common questions from parents
+KKrishnam BhatterFormer studentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

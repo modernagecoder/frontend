@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month, stated upfront with nothing hidden �
 
 A completion certificate and steady progress notes for parents — useful proof for school records and college applications.
 
-## Success Stories from Tirunelveli Students
+## What Families Say About Modern Age Coders
 
-Young coders from right here in Nellai. Every one of them began exactly where your child is now — curious, a little unsure, and ready to make something.
+Our classes are live and online, so students from Tirunelveli learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-SMSurya ManimaranAge 11 · Palayamkottai · St John'sAchievement:Made a Scratch game about a coracle crossing the Thamirabarani, shown at his school's annual day.
+ SO Sonam OswalParent of Dhairya
 
-"Before, I only watched videos. Now I build games! I made one where you row a coracle across the Thamirabarani dodging rocks — my friends kept asking for one more turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-DKDharani KrishnanAge 15 · Tirunelveli Town · Rose MaryAchievement:Built a Python attendance tracker now used by her class teacher every morning.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python looked frightening on day one, but sir broke it into tiny steps. My teacher actually uses the app I wrote. I want to study computer science and work for a software company without leaving Tirunelveli."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-VSVignesh SubbiahAge 20 · GCE TirunelveliAchievement:Landed a remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a third-year at Government College of Engineering here. People said I'd have to move to Chennai for a good break. Instead the DSA sheet and a MERN project got me a remote internship — interviewed from my own room in Tirunelveli."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Tirunelveli Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Candid words from Nellai families who trusted us with their child's very first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-LRLakshmi RamasamyPalayamkottai
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone for hours. Now he shows me the games he has coded and explains why each part works. The tiny batch size is what truly changed things for him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★MSMurugan SankarTirunelveli Town
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a small software job-work team, so I can tell genuine teaching apart. They train reasoning and problem-solving, not just syntax to memorise. My daughter's Python foundation is properly strong now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★ASAnitha SelvamJunction
+ ★★★★★
 
-"The weekend slot sits neatly between school and his maths tuition. No sending him out in the evening traffic near the Junction — he simply opens the laptop at home. Such a relief for working parents."
-
-★★★★★KPKarthik PandianMelapalayam
-
-"Finding a serious coding class near us was nearly impossible. This solved it outright — an expert teacher, online, at a fair fee. Both my children are enrolled and they genuinely look forward to it."
-
-★★★★★DTDeepa ThangarajMaharaja Nagar
-
-"My daughter was shy and unsure about coding. The teacher put her at ease so gently that she is now the keenest in her batch — she even coded a little online catalogue for our family provisions shop."
-
-★★★★★RVRavi VelmuruganPerumalpuram
-
-"We had tried a couple of centres earlier with little to show for it. The contrast here is sharp — they pause to confirm the child has actually grasped the idea, not merely reached the end of the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Tirunelveli
 

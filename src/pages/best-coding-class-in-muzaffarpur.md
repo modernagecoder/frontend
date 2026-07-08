@@ -353,51 +353,37 @@ Metro-grade teaching from just ₹1,499/month — sized for a North Bihar budget
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Muzaffarpur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Muzaffarpur & North Bihar. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Muzaffarpur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AKAryan KumarAge 11 · Mithanpura, MuzaffarpurAchievement:Built a Scratch litchi-harvest game his class voted the favourite at the school annual day.
+ SO Sonam OswalParent of Dhairya
 
-"Earlier I only watched videos on the phone. Now I make games! Mine has you catching litchis in a basket before they fall — even my chacha kept playing it for twenty minutes."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SJSneha JhaAge 15 · Aghoria Bazar, MuzaffarpurAchievement:Built a Python quiz app her NEET coaching batch now uses for daily revision.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I was sure coding wasn't for a Bihar Board student like me. Sir made Python feel simple. Now my friends in coaching practise on the quiz app I wrote — and I want to do computer science properly."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RPRohit PrasadAge 20 · MIT MuzaffarpurAchievement:Landed a remote developer internship after the DSA + full-stack track — without leaving Muzaffarpur.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone said I'd have to shift to a metro for a real tech break. The DSA sheet and mock interviews got me through the rounds, and the MERN project sealed it. I work remotely now, from home in Muzaffarpur."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Muzaffarpur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Muzaffarpur & North Bihar who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-RSRanjana SinghMithanpura, Muzaffarpur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to be lost in mobile games. Now he builds them and explains the logic to me at dinner. With everything else we already pay for here, this is the fee I least regret — the small batch truly makes the difference."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DMDr. Manish MishraAghoria Bazar, Muzaffarpur
+ ★★★★★ PR Poonam RathoreParent
 
-"As a doctor I value rigour, and I was skeptical an online class could match a metro institute. It does — they teach logic and problem-solving, not rote syntax. My daughter's Python is genuinely solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PTPriya ThakurSaraiyaganj, Muzaffarpur
+ ★★★★★
 
-"His days are already packed with school and NEET coaching. The weekend batch fits in the gap perfectly — no extra running around the city, he just logs in from home. A real relief for a busy household."
-
-★★★★★SKSantosh KumarBrahmpura, Muzaffarpur
-
-"In our part of town, a good offline coding teacher simply doesn't exist. This solved it outright — a metro-level teacher, online, at a fee that's fair for Muzaffarpur. Both my children are enrolled and genuinely look forward to class."
-
-★★★★★AKAnita KumariClub Road, Muzaffarpur
-
-"My daughter was shy and unsure about coding. The teacher made her so comfortable that she's now the most eager one in the batch. She even built a little website for my tailoring business — I was stunned."
-
-★★★★★VRVikash RanjanKalambagh Chowk, Muzaffarpur
-
-"We'd already tried a local computer class that taught nothing but typing. The difference here is night and day — they actually confirm the child has understood the concept before moving on, not just rush to finish the syllabus."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Muzaffarpur
 

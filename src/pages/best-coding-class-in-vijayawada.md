@@ -353,51 +353,37 @@ Serious teaching from just ₹1,499/month — one clear fee, nothing hidden, nev
 
 Completion certificates and honest, regular progress notes that genuinely add weight to a portfolio or college file.
 
-## Success Stories from Vijayawada Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Vijayawada and the capital region. Every one of them began exactly where your child is right now — curious, and itching to build something.
+Our classes are live and online, so students from Vijayawada learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-CTCharan TejaAge 11 · Patamata, VijayawadaAchievement:Built a Scratch boat-racing game set on the Krishna that his school showed at its annual day.
+ SO Sonam OswalParent of Dhairya
 
-"Before this I just played games on my dad's phone. Now I make my own. I built a boat race down the Krishna where you dodge the bridge pillars — even my teacher had a go at beating my high score."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SHSahasra HariAge 15 · Labbipet, VijayawadaAchievement:Won her school science exhibition with a Python EAPCET rank-predictor.
+ ★★★★★ RM Ria MukherjeeParent
 
-"With all the coaching around us, I wanted to build something for it instead of just sitting through it. My teacher walked me through Python until a rank-predictor I made actually worked. Now I want to study computer science properly."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-VKVamsi KrishnaAge 20 · VR Siddhartha, VijayawadaAchievement:Landed his first internship offer after finishing the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm in third year at VR Siddhartha. College taught the theory, but the DSA sheet and the mock interviews here are what got me through the technical round. The live MERN project on my resume is what the interviewer actually asked about."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Vijayawada Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Candid words from Vijayawada and capital-region families who trusted us with their child's very first steps in code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-LRLakshmi RaoBenz Circle, Vijayawada
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to disappear into mobile games. These days he is the one explaining how his own game works to us over dinner. The small batch is what did it — the teacher actually notices each child."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★SPSrinivas PrasadLabbipet, Vijayawada
+ ★★★★★ PR Poonam RathoreParent
 
-"I write software for a living, so I am hard to impress. They teach my daughter to reason through a problem, not just memorise syntax — and that is the part most classes skip. Her Python is properly solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★DVDivya VarmaPatamata, Vijayawada
+ ★★★★★
 
-"Between school and his coaching, weekday evenings are gone. The weekend batch slots in perfectly and he just logs in from his room — no fighting Benz Circle traffic for one more class. A real relief for working parents."
-
-★★★★★RKRamesh KumarTadepalli (Amaravati region)
-
-"Living on the Tadepalli side, getting the kids across to a good class in the city was always a struggle. This solved it outright — a strong teacher, online, and fair fees. Both my children are enrolled and look forward to it."
-
-★★★★★PDPadma DeviGovernorpet, Vijayawada
-
-"My daughter was sure coding was a boys' thing and not for her. Her teacher dismantled that idea so gently that she is now the keenest in her batch — she even built a little website for our family shop in Governorpet."
-
-★★★★★NBNaveen BabuAuto Nagar, Vijayawada
-
-"We had already tried two coaching-style classes before this. The gap is obvious — here they pause to confirm my son has actually grasped the idea before moving on, instead of just racing to finish the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Vijayawada
 

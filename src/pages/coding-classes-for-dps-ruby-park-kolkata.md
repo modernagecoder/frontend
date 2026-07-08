@@ -256,15 +256,27 @@ Comprehensive maths classes aligned with the CBSE curriculum, with advanced modu
 
 [Learn More →](/courses/complete-high-school-mathematics-mastery)
 
-## What DPS Ruby Park Students Parents Say
+## What Families Say About Modern Age Coders
 
-Real feedback from families near Ruby Park who trust us with their children's coding education.
+We teach live and online, so students from DPS Ruby Park families join the same small batches as our community across India. These are real, verified reviews.
 
- AR Srabanti DasRuby Park, Kolkata
+ SO Sonam OswalParent of Dhairya
 
-"My child studies at DPS Ruby Park Students and their schedule is incredibly packed with school, sports, and tuitions. Finding a coding class that could fit around their CBSE commitments seemed impossible until we discovered Modern Age Coders. The weekend batches are perfectly timed, and the recorded sessions mean they never miss anything even during exam season. their Computer Applications marks went from 78 to 94 in just one semester, and more importantly, they now genuinely enjoy programming. The instructors understand what CBSE students need and tailor the teaching accordingly. I cannot recommend them enough to other DPS Ruby Park Students parents."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- ★★★★★Trusted by DPS Schools Across Kolkata
+ ★★★★★ KB Krishnam BhatterFormer Student
+
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
+
+ ★★★★★ RM Ria MukherjeeParent
+
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
+
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
+
+Trusted by DPS Schools Across Kolkata
 
 ## We Also Teach Students from DPS New Town
 

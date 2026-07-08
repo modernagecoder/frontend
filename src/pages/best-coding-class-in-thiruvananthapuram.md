@@ -314,55 +314,43 @@ KowdiarVellayambalamPattomVazhuthacaudThycaudStatuePalayamMG RoadKesavadasapuram
 
 Online classes available for students across Thiruvananthapuram and surrounding areas
 
-## What Thiruvananthapuram Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Thiruvananthapuram who trusted us with their children's coding education.
+Our classes are live and online, so students from Thiruvananthapuram learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RNRajesh NairKowdiar, Thiruvananthapuram
+ SO Sonam OswalParent of Dhairya
 
-"My son was only playing games on his tablet. After joining the Scratch course, he now creates his own games! The teachers make it comfortable for Kerala students."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★APAsha PillaiKowdiar, Thiruvananthapuram
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a CET Trivandrum professor, I appreciate the structured Python curriculum. My daughter is excelling in both school maths and coding simultaneously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★GKGopinath KumarKowdiar, Thiruvananthapuram
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The value for money is unbeatable. ₹1499 for live online classes with recorded sessions? Better than any offline institute in Thiruvananthapuram."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★SMSreelakshmi MenonKowdiar, Thiruvananthapuram
+ ★★★★★ SG Sonu GoyalParent
 
-"Both my children are enrolled. The flexible timings work perfectly around their Kerala Board school schedule. Highly recommend for every Thiruvananthapuram family!"
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★VPVinod PillaiKowdiar, Thiruvananthapuram
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"The certificate helped my son's college application. The Java course prepared him well for his B.Tech at CET Trivandrum's University of Kerala."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★LNLakshmi NairKowdiar, Thiruvananthapuram
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter was hesitant about coding. The supportive environment changed everything. She now wants to become a software engineer and join ISRO!"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Thiruvananthapuram — The Full Picture
 
 Why Thiruvananthapuram parents are making coding a priority for their children's future
 
 Thiruvananthapuram is where India reaches for the stars — literally. ISRO's Vikram Sarabhai Space Centre (VSSC) is headquartered here, and the rockets that put India on the global space map are designed in this city. But Trivandrum's tech story goes far beyond space. Technopark — one of Asia's largest IT parks — hosts Infosys, TCS, UST Global, and IBS Software. Kerala's 96% literacy rate (India's highest) means parents here don't need convincing about education's value. CET Trivandrum is among South India's most prestigious engineering colleges. The University of Kerala anchors a research ecosystem that global companies partner with. For parents in Kowdiar and Kazhakkoottam, coding isn't a luxury — it's the skill that connects their children to both ISRO and Technopark. Kerala's SCERT board is among India's most progressive in integrating technology. KEAM (Kerala Engineering entrance) heavily tests logical reasoning. Students who code don't just solve KEAM problems faster — they think like the ISRO scientists who work ten minutes from their homes.
-
-## Success Stories from Thiruvananthapuram Students
-
-APAryan PatelAge 11 — KowdiarAchievement:Built a heritage quiz game for school exhibition
-
-"I made a game about Thiruvananthapuram's culture and traditions! My whole class plays it now."
-
-DSDiya ShahAge 15 — TechnoparkAchievement:Won district-level coding competition with Python data visualization project
-
-"Coding gave me confidence to compete against students from Ahmedabad and Surat!"
-
-RDRishi DesaiAge 17 — KazhakkoottamAchievement:Built a portfolio website and got recognized at CET Trivandrum tech fest
-
-"The web dev course taught me real skills. CET Trivandrum professors noticed my work!"
 
 ## Why Thiruvananthapuram is the Perfect Place to Learn Coding
 

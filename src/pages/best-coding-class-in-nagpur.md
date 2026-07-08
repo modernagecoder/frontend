@@ -223,49 +223,37 @@ Nagpur parents understand the value of future-ready skills. That's why families 
 
  MIHANIT Hub in Nagpur  VNITNIT Campus 150+CBSE Schools 15+Engineering Colleges
 
-## What Nagpur Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Nagpur who trusted us with their children's coding education.
+Our classes are live and online, so students from Nagpur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
- RD Rajesh DeshmukhDharampeth, Nagpur
+ SO Sonam OswalParent of Dhairya
 
-"My son was always on his iPad playing games. Now he's building his own games! The instructors are patient and the curriculum is well-structured. Best decision for his summer vacation."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
- ★★★★★ SP Sunita PatelSadar, Nagpur
+ ★★★★★ RM Ria MukherjeeParent
 
-"As a parent who works in IT, I know good coding education when I see it. Modern Age Coders teaches coding the right way — with logic and problem-solving, not just syntax."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
- ★★★★★ MK Meera KulkarniCivil Lines, Nagpur
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The flexible timings work perfectly for busy families! Online classes save us commute time. Weekend batches are a blessing for working parents like us."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
- ★★★★★ VW Vinay WankhedeWardha Road, Nagpur
+ ★★★★★ SG Sonu GoyalParent
 
-"Affordable fees without compromising on quality — that's rare to find in Nagpur. My twins are both enrolled and they're learning so much. The recorded sessions help when they miss a class."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
- ★★★★★ AG Anjali GawandeManish Nagar, Nagpur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My daughter was hesitant about coding initially. The teachers made her feel comfortable and now she's the most enthusiastic one in her batch. She's already talking about becoming a software engineer!"
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
- ★★★★★ PB Prashant BhoyarBajaj Nagar, Nagpur
+ ★★★★★ PR Poonam RathoreParent
 
-"We tried two other coding institutes in Nagpur before finding Modern Age Coders. The difference is night and day. Here, they actually care about whether kids understand concepts."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
  ★★★★★
 
-## Success Stories from Nagpur Students
-
- AJAarav JoshiAge 11 — Dharampeth Achievement:Built a Nagpur landmarks quiz game featured in school exhibition
-
-"I made a game about Deekshabhoomi and Futala Lake! My friends at school love playing it."
-
- PSPriya ShendeAge 15 — Sadar Achievement:Won 1st place in school science fair with Python Marathi learning app
-
-"I want to build apps that help my city Nagpur someday. Coding gave me the confidence!"
-
- VNVedant NimbalkarAge 17 — Civil Lines Achievement:Got internship at IT company with portfolio website he built in class
-
-"The web dev course helped me get an internship in 12th! Now preparing for MHTCET and JEE."
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Nagpur
 

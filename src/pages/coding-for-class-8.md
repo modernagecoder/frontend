@@ -182,23 +182,23 @@ Class 8 is where the stack changes. This table is honest about the shift.
 | **Syllabus link** | Class 7 CS | Class 8 CS | Class 9 CS formal |
 | **Board pressure** | None | None yet | Starts building |
 
-Words from parents and students
+What families say
 
-## Class 8 parents — unvarnished.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 8 families in full-stack and AI tracks.
+Real, verified reviews from Modern Age Coders families.
 
-My son shifted to Modern Age Coders in Class 8 from a video-only platform. The difference is huge — live teacher, real feedback. Built a React portfolio and a Python project in 3 months. GitHub is genuine, not just repos copy-pasted.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-KKunal D.Parent · Delhi · 1-on-1
+SSonu GoyalParent
 
-Small class of 5. They roast each other's code in a friendly way. My daughter built a journal app in Flutter — it is on my phone. For Class 8 that is huge.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-AAnjali P.Parent · Bengaluru · Group
+PPoonam RathoreParent
 
-Been with Modern Age Coders since my son was 11. Class 8 now — he commits to GitHub weekly. The teacher was clear OOP was the next step and paced it well.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-BBharat N.Parent · Pune · 1-on-1Common questions from parents
+RRia MukherjeeParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

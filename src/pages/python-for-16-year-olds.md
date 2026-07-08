@@ -181,23 +181,23 @@ Honest year-over-year at the college-approach level.
 | **CP** | Not yet | First rated | 1200+ target |
 | **OSS** | Not yet | First PR | Sustained |
 
-Words from parents and students
+What families say
 
-## Class 11 CS students and their parents.
+## What families say about Modern Age Coders.
 
-Three recent reviews from 16-year-olds in the Python + CS stream.
+Real, verified reviews from Modern Age Coders families.
 
-I'm Class 11 CS. The teacher teaches CS + IP chapters a week before school does. I've solved 40 problems from the Striver sheet. Django SaaS is in progress. 93 in CS half-yearly. Fees are honestly justified.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-NNishant K.Student · Delhi · 1-on-1
+SSonam OswalParent of Dhairya
 
-Small batch of 4 Class 11 students. They help each other. My daughter's SQL + Pandas went from zero to really solid in one term. The IP paper feels easy now.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-PPradeep M.Parent · Bengaluru · Group
+KKrishnam BhatterFormer student
 
-My son was considering CS but unsure. After 3 months of real Django work, he is sure. Sometimes the best outcome of Class 11 is clarity, and we got that.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-EEsha P.Parent · Hyderabad · 1-on-1Common questions from parents
+SShradha SarafParent of MivaanCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

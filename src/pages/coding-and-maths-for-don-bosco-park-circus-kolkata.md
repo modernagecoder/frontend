@@ -194,23 +194,23 @@ Salesian discipline demands an after-school partner that actually knows ICSE and
 | Session recordings | ✓ Every class recorded | ✗ Miss a class, miss the content |
 | Free demo class | ✓ Always free, no card needed | ✗ Paid demo or none |
 
-## What Don Bosco Park Circus Parents Say
+## What families say about Modern Age Coders
 
-Real feedback from families across Park Circus, Beniapukur, Tangra, and east-central Kolkata.
+Real, verified reviews from Modern Age Coders families.
 
 ★★★★★
 
-"My son is in Don Bosco Park Circus Class 9 and was struggling terribly with ICSE Computer Applications Java. Every other coaching centre in the Park Circus area only teaches Python — completely useless for his board exam. Modern Age Coders was the only place that actually taught him Java in BlueJ, covered all the ICSE pattern programs, and prepared him for the board paper. He scored 94 in his Computer Applications final. Absolutely transformed."
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
 
-RKRahul K.Parent · Don Bosco Class 9 · Park Circus, Kolkata★★★★★
+SMSamridho MondalStudent★★★★★
 
-"My son is in Don Bosco Class 7 and we started him on the Python + Java Foundations track eighteen months ago. The ICSE Java preparation is incredible — by the time he reaches Class 9, he'll be writing OOP programs in his sleep. His ICSE Maths score has also improved from 74% to 89% in two periodicals. The way Modern Age Coders connects logical problem solving across both subjects is genuinely different from any tutor we've tried before."
+"My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended."
 
-SMSanjay M.Parent · Don Bosco Class 7 · Beniapukur, Kolkata★★★★★
+SSShewta SinghMother of Ishan★★★★★
 
-"My son is in Don Bosco Class 11 Science with ISC Computer Science. The ISC CS Practical Bootcamp was exactly what he needed — linked lists, stacks, queues, sorting algorithms, all in Java. His ISC practical exam was stress-free because he'd already written every type of program multiple times in class. He's also doing JEE Maths Foundation with them, and his ISC Maths score is holding strong at 88%. Best decision we made for Class 11."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions."
 
-PBPrakash B.Parent · Don Bosco Class 11 Science · Tangra, Kolkata
+SOSonam OswalParent of Dhairya
 
 ## Book Your Free Demo Class
 

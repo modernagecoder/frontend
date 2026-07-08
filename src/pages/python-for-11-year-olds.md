@@ -182,23 +182,23 @@ Honest differences by year at the Python level.
 | **Board link** | Class 5 Python intro | CBSE Code 166 | Class 7 formal |
 | **Editor** | Thonny | Thonny | Thonny / VS Code |
 
-Words from parents and students
+What families say
 
-## Class 6 parents on the Python leap.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 6 Python learners and their parents.
+Real, verified reviews from Modern Age Coders families.
 
-Son is Class 6 CBSE. Code 166 in school is very basic — he was bored. Here the teacher pushes to functions, files and even a sklearn classifier. At 11 he understands what training data means. That surprised me.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-AArjun B.Parent · Hyderabad · 1-on-1
+RRia MukherjeeParent
 
-Small group of Class 6 Python kids. They review each other's code. My daughter's Rock-Paper-Scissors has cleaner structure than my office interns. Teacher insists on readable code from day one.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-NNeha K.Parent · Delhi · Group
+SSonu GoyalParent
 
-We switched from a recorded-video Python course. Night and day. Live teacher watches him type, catches small errors, explains why. His programs are real software now, not scripts.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-RRohit M.Parent · Pune · 1-on-1Common questions from parents
+PPoonam RathoreParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month — one clear fee, nothing hidden and 
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Tirupati Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Tirupati and the Chittoor region. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Tirupati learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-SVSai Vihaan ReddyAge 10 · Balaji Colony, TirupatiAchievement:Built a Scratch "laddu counter" temple-fair game shown at his school's science day.
+ SO Sonam OswalParent of Dhairya
 
-"Before this I just watched videos. Now I build! I made a game where you catch laddus falling from a gopuram and keep score — even my teacher played it twice."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-LPLakshmi PriyaAge 14 · Korlagunta, TirupatiAchievement:Built a Python quiz app on AP history that her Sri Chaitanya class now revises with.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Typing code looked hard, but my teacher broke it into small wins. My social-science quiz app is on my friends' phones now. I want to get into IISER Tirupati and study computing."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-BTBhargav TejaAge 20 · SV University Area, TirupatiAchievement:Landed a remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm an SVU engineering student. The DSA sheet and weekly mock interviews changed how I think. I built a MERN attendance dashboard for my department and used it to land a remote internship in my fifth semester."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Tirupati Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Tirupati and the Chittoor region who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-PRPadmavathi RaoBalaji Colony, Tirupati
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to spend every evening on the tablet. Now he shows me the games he has coded and walks me through the steps. The 5-8 child batch means the teacher actually knows his name and his pace."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★SKSrinivas KumarRenigunta Road, Tirupati
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm a software engineer myself, so I was sceptical. But they teach reasoning and decomposition, not just keywords to memorise. My daughter's Python foundation is the real thing now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★LDLavanya DeviAIR Bypass Road, Tirupati
+ ★★★★★
 
-"Between Sri Chaitanya coaching and school, our days are packed. The evening online batch fits around all of it — no travel across town, he just opens his laptop at home. Perfect for a busy household."
-
-★★★★★VBVenkatesh BabuTiruchanoor, Tirupati
-
-"On the Tiruchanoor side a really good offline coding class was hard to find. This solved it — an expert teacher, fully online, and fees we could plan for. Both my children are enrolled and they look forward to every class."
-
-★★★★★ANAnitha NaiduMR Palli, Tirupati
-
-"My daughter doubted she was a 'coding type' of child. A few weeks of the teacher's patience flipped that completely — she's now the most eager hand in the batch and even built a small website for our family pooja-store that she shows off to everyone."
-
-★★★★★MRMohan ReddyLeela Mahal, Tirupati
-
-"We had tried a local tuition before and our son just drifted along. Here the teacher pauses to confirm he has truly understood each idea before moving on — that single difference is why he is finally improving."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Tirupati
 

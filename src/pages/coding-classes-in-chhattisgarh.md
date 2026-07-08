@@ -171,21 +171,23 @@ Start Free Demo
 
 Parent & Student Voices
 
-## What Chhattisgarh Families Say
+## What families say about Modern Age Coders
+
+We teach live and online, so students across Chhattisgarh learn in the same small batches as our community. These are real, verified reviews.
 
 ★★★★★
 
-"My son in Raipur built his first game within weeks. The small batch keeps him engaged and the teacher is very patient. His school maths improved too."
+"Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content."
 
-Rekha S.Parent · Raipur★★★★★
+Ria MukherjeeParent · Verified Google review★★★★★
 
-"We're in Bhilai and good coding teachers were hard to find locally. These live online classes solved it — and they explain in Hindi whenever needed."
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
 
-Devendra K.Parent · Bhilai★★★★★
+Samridho MondalStudent · Verified Google review★★★★★
 
-"As an engineering student in Bilaspur, the DSA and full-stack track helped me prepare for placements. Clear, practical and to the point."
+"My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable."
 
-Shweta P.College student · Bilaspur
+Poonam RathoreParent · Verified Google review
 
 ## Ready to start coding in Chhattisgarh?
 

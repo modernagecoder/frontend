@@ -353,51 +353,37 @@ Serious teaching from ₹1,499 a month — one clear fee, nothing buried in the 
 
 A completion certificate and steady progress updates parents can actually read — useful for portfolios, school records and college forms.
 
-## Success Stories from Salem Students
+## What Families Say About Modern Age Coders
 
-Young coders from right across Salem. Every one of them began exactly where your child is now — curious, a little unsure, and ready to build their first thing.
+Our classes are live and online, so students from Salem learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DKDharun KarthikAge 11 · Hasthampatti, SalemAchievement:Made a Scratch game about climbing the Yercaud ghat road that his class voted the best project of the term.
+ SO Sonam OswalParent of Dhairya
 
-"Before this I only played games on my phone. Now I make them. My game has a little car going up the twenty bends to Yercaud and you lose if you fall off — everyone in class wanted a turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SPSneha PriyadharshiniAge 15 · Fairlands, SalemAchievement:Built a Python app to track her cricket team's scores that her PE teacher now uses for the whole school.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought Python would be too hard for me, but the teacher went step by step and it just made sense. Now I'm aiming for a CS seat in engineering — coding is the part of school I actually look forward to."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-VMVignesh MuruganAge 20 · Sona College, SalemAchievement:Landed an internship after the DSA + full-stack track, ahead of his own batch's campus drives.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm a third-year engineering student in Salem and my college coding wasn't enough on its own. The DSA practice and the mock interviews here got me an internship before placement season even started — the MERN project on my CV is what the interviewer kept asking about."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Salem Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from Salem families who handed us their child's very first steps into coding — and stayed.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-LRLakshmi RameshAlagapuram, Salem
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone for hours. Now he calls me over to show what he has built and explains how it works. The small batch means the teacher actually knows him — that is what won us over."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★SBSenthil BalajiHasthampatti, Salem
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a small software unit, so I can tell when a child is learning to think versus just copying code. Here they teach the reasoning first. My daughter writes her own logic now, and it shows."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★MAMeena ArumugamSuramangalam, Salem
+ ★★★★★
 
-"The Sunday-morning batch slots in neatly between school and his maths tuition. No more dropping him somewhere across town and waiting outside — he just opens the laptop at home. For working parents that is everything."
-
-★★★★★RVRajkumar VelanKondalampatti, Salem
-
-"On our side of Salem there just aren't good coding classes nearby. This fixed that entirely — a genuinely strong teacher, online, at a fair fee. Both my children are enrolled and neither wants to miss a session."
-
-★★★★★DPDivya PrakashAmmapet, Salem
-
-"My daughter was shy and certain coding wasn't for her. The teacher was so patient that she is now the loudest one with answers in her batch. She even built a little website for our family sago business!"
-
-★★★★★KSKarthikeyan SubramaniFive Roads, Salem
-
-"We had tried two other places in Salem before this. The gap is obvious — here they stop and confirm my son has truly understood a concept before moving on, instead of just racing to the end of the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Salem
 

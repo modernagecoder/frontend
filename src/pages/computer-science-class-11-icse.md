@@ -181,23 +181,23 @@ Honest comparison across boards at Class 11.
 | **Data structures** | Arrays only | None yet | None |
 | **Difficulty** | Higher | Medium | Medium |
 
-Words from parents and students
+What families say
 
-## ISC Class 11 CS parents and students.
+## What families say about Modern Age Coders.
 
-Three recent ISC Class 11 reviews.
+Real, verified reviews from Modern Age Coders families.
 
-ISC Class 11. Boolean algebra was a wall. Teacher broke it down truth-table first, K-map second. Now it's easy marks for me. Half-yearly CS score: 94.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-DDhruv N.Student · Kolkata · 1-on-1
+SSonam OswalParent of Dhairya
 
-My daughter is in ISC Class 11 CS. She was scared of Java OOP from ICSE Class 10. Small group of 4 has built her confidence. Teacher is strict about style — exactly what ISC wants.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-AAnushka B.Parent · Delhi · Group · ISC 11
+KKrishnam BhatterFormer student
 
-Moved from ICSE Class 10 CA to ISC Class 11 CS. The jump was real. Modern Age Coders paced the jump — boolean first, OOP second, arrays third. It worked.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-MMadhav V.Parent · Mumbai · 1-on-1Common questions from parents
+SShradha SarafParent of MivaanCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

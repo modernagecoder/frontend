@@ -273,27 +273,27 @@ Unedited words from families who chose to learn with us online.
 
 ★★★★★
 
-"We were very hesitant about online classes — worried it wouldn't be attentive enough. But the batch of 4 students means the instructor knows my son's exact weaknesses every week. He's built 3 projects in 5 months. Offline never did this."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-Ramesh Iyer
+Sonu Goyal
 
-Parent · Son enrolled in Python + AI · Bengaluru
-
-★★★★★
-
-"I'm in Dubai and was worried I wouldn't find good coding classes for my daughter. Modern Age Coders solved that completely. The instructor is brilliant, the classes are on time, and she's building a real website. Absolutely worth every rupee."
-
-Hina Qureshi
-
-Parent · Daughter enrolled in Web Dev · Dubai, UAE
+Parent · Verified Google review
 
 ★★★★★
 
-"I tried two YouTube courses and two Udemy courses before this. None of them worked because I had no one to ask when I got stuck. Here, I can ask mid-class, get same-day answers on WhatsApp, and my code actually runs. Best decision I made."
+"My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-Arjun Sharma, Age 17
+Poonam Rathore
 
-Student · Full Stack Web Dev & Python · Pune
+Parent · Verified Google review
+
+★★★★★
+
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests."
+
+Krishnam Bhatter
+
+Former student · Verified Google review
 
 Transparent Pricing
 

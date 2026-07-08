@@ -353,51 +353,37 @@ Top-tier teaching from just ₹1,499/month, the same fee a Durgapur family would
 
 A completion certificate plus honest, regular progress notes home — useful for a school file and a college or scholarship application alike.
 
-## Success Stories from Durgapur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Durgapur and the steel belt. Every one of them began exactly where your child is now — curious, a little unsure, and ready to make something.
+Our classes are live and online, so students from Durgapur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RCRajdeep ChatterjeeAge 10 · Steel Township · DAV ModelAchievement:Built a Scratch game shown on the big screen at his school's science day.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you sort cricket balls into the right baskets by colour, faster and faster each level. My grandfather, who retired from the Steel Plant, sat and played it three whole times. I had no idea I could be the one building the game instead of only playing it."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SDSneha DuttaAge 16 · Bidhannagar · Hem Sheela ModelAchievement:Made a Python library-card app her school clubs now use to track books.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought I would have to go to Kolkata for any serious computer training. Instead I learned Python from my own room in Bidhannagar and built something my school actually keeps using. Now I want to sit WBJEE and study computer engineering at NIT, right here."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-AMArnab MondalAge 20 · Benachity · BCET DurgapurAchievement:Landed a remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"My degree gave me theory but nothing to show a recruiter. The DSA sheet and mock interviews fixed the first half; the MERN project fixed the second. A startup gave me a fully remote internship — I work for them from Benachity without moving an inch."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Durgapur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Plain-spoken feedback from families across Durgapur and the steel belt who handed us their child's first steps in coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MBMadhumita BanerjeeCity Centre
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone the second school ended. Now he is the one explaining 'loops' and 'variables' to me while I cook. The five-or-six child batch is why — the teacher actually notices him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PGPrabir GhoshSteel Township
+ ★★★★★ PR Poonam RathoreParent
 
-"I spent thirty years as an engineer at the plant, so I can tell process from performance. These classes build the thinking first and the syntax second. My daughter's Python is sound — she reasons it out, she doesn't just copy."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SRSutapa RoyBenachity
+ ★★★★★
 
-"With our shop in Benachity, evenings are impossible to free up. The weekend slot fits neatly around school, and there is no traffic to fight — he just opens the laptop. Made exactly for working families like ours."
-
-★★★★★TSTanmoy SenAndal
-
-"Out near Andal, a genuinely good coding teacher nearby is simply not an option. This closed that gap entirely — a strong teacher, online, at fees we can manage. Both my children are enrolled and never want to skip a class."
-
-★★★★★RDRituparna DasBidhannagar
-
-"My daughter had quietly decided coding 'wasn't for her'. The teacher was so patient that she is now the first to raise her hand — and she built a little website for my tailoring unit that I show every customer."
-
-★★★★★AMAnirban MukherjeeA-Zone
-
-"We had enrolled at a local batch earlier that just sped through the syllabus. Here it is the opposite — the teacher pauses and confirms my son has truly grasped a topic before moving on. That patience is what we had been hunting for."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Durgapur
 

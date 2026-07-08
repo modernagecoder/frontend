@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month, with the rate quoted up front — the
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Moradabad Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Moradabad. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Moradabad learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-AAAyaan AnsariAge 11 · Buddhi Vihar, MoradabadAchievement:Built a Scratch game about sorting brass handicrafts for shipping that his school showed at its science day.
+ SO Sonam OswalParent of Dhairya
 
-"My abbu has a handicraft workshop, so I made a game where you pack the right brass pieces into the right export box before the timer runs out. Sir helped me add a score. Everyone in my class wanted to beat my high score!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SASaanvi AgarwalAge 15 · Civil Lines, MoradabadAchievement:Built a Python order-tracker for her family's export firm and a simple product website to go with it.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python looked hard until my teacher broke it into small steps. My first real project tracks our shipment orders so papa stops losing them on paper. Now I'm building a proper website for our catalogue — I want to study computer science."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-MKMohit KashyapAge 20 · TMU, MoradabadAchievement:Landed a remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I study at TMU and was worried that being in Moradabad would hold me back. The DSA sheet and mock interviews changed that — I cracked a remote internship and the MERN project on my resume is what got the recruiter talking. Location stopped mattering."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Moradabad Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Moradabad who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SJShabana JavedLajpat Nagar, Moradabad
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son would only watch videos all evening. Now he comes and shows me what he has built and explains how it works. For a Moradabad family used to teaching skills hand to hand, watching a teacher do that online surprised me — in the best way."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RMRajeev MittalCivil Lines, Moradabad
+ ★★★★★ PR Poonam RathoreParent
 
-"I run an export unit, so I deal with quality every day. This is real teaching — they build my daughter's logic and problem-solving, not just make her memorise syntax. Her Python is genuinely strong now, and she's already automating little tasks for our office."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PGPriyanka GoelDeen Dayal Nagar, Moradabad
+ ★★★★★
 
-"The weekend batch slots in neatly between school and his other tuitions. No autos across town in the Moradabad heat for a class — he just logs in from his room. For a working mother, that convenience alone is worth it."
-
-★★★★★AKArun KumarRam Ganga Vihar, Moradabad
-
-"Honestly, finding a genuinely good coding teacher in Moradabad is hard — most options are just generic computer tuitions. This solved it completely: a top teacher, live online, at a fair fee. Both my children are enrolled and they look forward to the class."
-
-★★★★★NBNidhi BansalMansarovar, Moradabad
-
-"My daughter was shy and convinced coding 'wasn't for girls'. Her teacher made her so comfortable that she's now the most active one in her batch. She even built a little website for my home-baking orders — I was so proud."
-
-★★★★★DSDeepak SaxenaKanth Road, Moradabad
-
-"We had tried a local computer class earlier and my son learned nothing. The difference here is night and day — the teacher actually confirms he has understood a concept before moving on, instead of just finishing the day's topic."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Moradabad
 

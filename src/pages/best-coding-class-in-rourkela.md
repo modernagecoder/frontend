@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Rourkela Students
+## What Families Say About Modern Age Coders
 
-Young coders from around the steel city — every one of them began as a beginner, in the same spot your child is in right now, and simply kept building week after week.
+Our classes are live and online, so students from Rourkela learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DPDebasish PradhanAge 11 · Chhend Colony, RourkelaAchievement:Made a Scratch game about saving Mandira dam's water that his class kept replaying.
+ SO Sonam OswalParent of Dhairya
 
-"Earlier I just watched videos on my dad's phone. Now I make my own games. My favourite one is about opening and closing the Mandira dam gates to stop a flood — I drew all the sprites myself."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SMSneha MahapatraAge 15 · Civil Township, RourkelaAchievement:Built a Python quiz app for her science group and presented it at the school exhibition.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought programming was only for toppers. My teacher broke it into tiny steps and suddenly it made sense. I coded a physics quiz app my whole batch used before the unit test — now I want to do computer engineering."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-FAFaisal AnsariAge 20 · Koel Nagar, RourkelaAchievement:Secured a paid remote internship while still in his engineering degree, after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm an engineering student here in Rourkela and worried I'd have to move to a metro to get good practice. The weekly DSA problems and a full-stack project I deployed myself got me a remote internship — without leaving home."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Rourkela Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from Rourkela families who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SNSasmita NayakBasanti Colony, Rourkela
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son spent every free minute on the phone. After a few months here he proudly showed me a game he had coded himself. The small batch means the teacher actually notices when he's stuck — that's what won us over."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PMPrasanta MohantySteel Township, Rourkela
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm an engineer at the plant, so I'm fussy about how things are taught. These classes drill logic and problem-solving, not just syntax to memorise. My daughter can now reason through a problem on her own — that matters more than marks."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RKReena KujurPanposh, Rourkela
+ ★★★★★
 
-"The weekend slot fits neatly around school and his maths tuition. There's no rushing him anywhere across town — he just opens the laptop at home. For two working parents, that convenience is everything."
-
-★★★★★ATAnand ToppoRajgangpur (near Rourkela)
-
-"We're a little outside the city, where a good coding class simply doesn't exist nearby. Going online fixed that entirely — a strong teacher, sensible fees, and my two children look forward to every session."
-
-★★★★★JKJyoti KhandelwalUditnagar, Rourkela
-
-"My daughter was shy about trying coding. The teacher built her confidence so gently that she now puts her hand up first in class. She even made a simple website for our family shop — I was genuinely amazed."
-
-★★★★★SPSubrat PatnaikKoel Nagar, Rourkela
-
-"We'd tried a couple of options earlier and my son just memorised steps. Here it's different — the teacher pauses to confirm he has actually understood the idea before moving on. That single habit changed everything."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Rourkela
 

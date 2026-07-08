@@ -178,23 +178,23 @@ Clear ladder.
 | **Deploy** | Local | Render | Multiple deployments |
 | **School** | Class 8 CS | Class 9 CS / Code 402 | Class 10 board |
 
-Words from parents and students
+What families say
 
-## Class 9 Python parents.
+## What families say about Modern Age Coders.
 
-Three recent reviews.
+Real, verified reviews from Modern Age Coders families.
 
-Class 9 CBSE. Son built a Flask blog with login and deployed it. Aunts abroad visit his link. At 14 he explains POST requests at dinner.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-GGeeta N.Parent · Noida · 1-on-1
+KKrishnam BhatterFormer student
 
-Group of 3 Class 9 Python teens. Teacher runs weekly code reviews. My son had to accept feedback gracefully — that is valuable.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-PPriya J.Parent · Ahmedabad · Group
+SShradha SarafParent of Mivaan
 
-We moved from YouTube-only. Teacher here is tough but kind. Daughter's code now has docstrings, type hints and tests. At 14.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-TTarun B.Parent · Bengaluru · 1-on-1Common questions from parents
+SSonam OswalParent of DhairyaCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

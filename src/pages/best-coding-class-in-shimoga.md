@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Shivamogga Students
+## What Families Say About Modern Age Coders
 
-Real young coders from Shivamogga and the towns around it — each one began as a curious child with a laptop and an idea, then quietly started building.
+Our classes are live and online, so students from Shimoga learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ARAnvith GowdaAge 11 · Vinoba Nagar, ShivamoggaAchievement:Made a Scratch game about an areca farmer dodging monsoon storms, shown on his school's activity day.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where the farmer has to collect areca nuts before the rain comes. My friends kept asking for one more turn — I never knew I could build something people actually want to play."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-IKSanvi HegdeAge 15 · Vidyanagar, ShivamoggaAchievement:Built a Python web app that tracks her class's tree-plantation drive for the school's Environment Day.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I always thought 'coders' lived in Bengaluru. Now I'm writing real Python from home in Shivamogga. I finally understand why the code works, not just how — and I want to study computer engineering."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-RTPrajwal BhatAge 20 · Engineering, Kuvempu regionAchievement:Took up a paid part-time remote gig with an out-of-state startup after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone here assumes you must shift to a city for tech work. I do mine from Shivamogga — the DSA sheet and the MERN build gave me the portfolio, and learning to use AI agents well is what made me genuinely fast."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Shivamogga Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from Malnad families who trusted us with their child's first steps into code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-PRPavithra RaoDurgigudi, Shivamogga
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son barely left his phone. Now he shows me what he is making and walks me through it step by step. With only a handful of children in the batch, the teacher actually knows him."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★GHGirish HegdeVidyanagar, Shivamogga
+ ★★★★★ PR Poonam RathoreParent
 
-"I lecture at a college here, so I am not easily impressed on academics. What convinced me is that they build reasoning, not memorised syntax — my daughter's grasp of logic is real."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SSShruthi ShettyVinoba Nagar, Shivamogga
+ ★★★★★
 
-"The weekend slot sits neatly around school and tuition, and there is no class to drive across town for — she simply logs in. For a working couple in Shivamogga, that matters a great deal."
-
-★★★★★MNManjunatha N.Thirthahalli (near Shivamogga)
-
-"Out near Thirthahalli a good coding teacher in person is simply not available. Going online fixed it entirely — strong teacher, fair fees, and both my children look forward to class."
-
-★★★★★LKLakshmi KulkarniKuvempu Nagar, Shivamogga
-
-"My daughter was shy and unsure at the start. The teacher was so patient that she now joins eagerly and asks her own questions — and she even built a small website for our family shop."
-
-★★★★★RBRaghavendra BhatSagar Road, Shivamogga
-
-"We had tried an app and a local tuition before this. The difference is plain — here they make sure the child has truly understood the idea, not just sat through the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Shivamogga
 

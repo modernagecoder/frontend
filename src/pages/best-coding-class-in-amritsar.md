@@ -314,55 +314,43 @@ Lawrence RoadMall RoadRanjit AvenueCourt RoadGreen AvenueModel TownGT RoadSultan
 
 Online classes available for students across Amritsar and surrounding areas
 
-## What Amritsar Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Amritsar who trusted us with their children's coding education.
+Our classes are live and online, so students from Amritsar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-HSHarpreet SinghRanjit Avenue, Amritsar
+ SO Sonam OswalParent of Dhairya
 
-"My son was addicted to Fortnite. I challenged him: 'build your own game.' After 3 months of Scratch, he did. Now he wants to make games, not just play them."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★MKManpreet KaurLawrence Road, Amritsar
+ ★★★★★ RM Ria MukherjeeParent
 
-"We visit Amritsar every summer from Canada. My kids code year-round through MAC's online platform. The learning doesn't stop when we cross borders."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★GSGurjit SandhuModel Town, Amritsar
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The Python course follows a logical structure that directly helps with JEE prep. My daughter's problem-solving speed has noticeably improved in 4 months."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★PSParamjit SinghGreen Avenue, Amritsar
+ ★★★★★ SG Sonu GoyalParent
 
-"Lawrence Road coaching centres charge ₹4,000 for theory-only tuition. MAC charges ₹1,499 for live coding with real projects. The maths doesn't lie."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★JKJaswinder KaurMall Road, Amritsar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"Weekend batches fit perfectly with PSEB school timings. Both children attend Saturday sessions and still have Sunday for homework. Well planned."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RGRajvinder GillGT Road, Amritsar
+ ★★★★★ PR Poonam RathoreParent
 
-"My son built a Golden Temple history website for his school assignment. The teacher gave full marks and asked him to make one for Jallianwala Bagh too."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Amritsar — The Full Picture
 
 Why Amritsar parents are making coding a priority for their children's future
 
 Amritsar's relationship with technology is unique among Indian cities. The Punjabi diaspora — one of the world's most successful immigrant communities — is heavily concentrated in tech hubs like Silicon Valley, Toronto, and London. NRI uncles and aunties in these cities know exactly what skills matter: coding, data analysis, and digital literacy. When they visit Amritsar and see their nephews and nieces spending summers without productive screen time, the recommendation is always the same: 'Get them into coding.' Guru Nanak Dev University's computer science department is modernizing, and Khalsa College is adding tech electives. The PSEB board now includes basic programming concepts. But beyond academics, there's a practical angle: Amritsar's tourism economy is going digital, and the city's famous businesses — from phulkari artisans to kulcha shops — increasingly need websites, apps, and digital marketing. A child who learns coding in Amritsar today might build the app that puts a family business on the global map tomorrow.
-
-## Success Stories from Amritsar Students
-
-ASArjun SinghAge 11 — Ranjit AvenueAchievement:Built a Punjab heritage quiz covering the Golden Temple, Jallianwala Bagh, and Partition history
-
-"My quiz teaches people things they never knew about 1947. My grandfather cried when he played it."
-
-SKSimran KaurAge 15 — Lawrence RoadAchievement:Won the district coding competition with a Punjabi Gurmukhi script learning app
-
-"My app teaches non-Punjabis to read Gurmukhi. GNDU's Punjabi department wants to partner."
-
-HSHarman SinghAge 17 — Model TownAchievement:Built a Sikh heritage educational portal that was shared at the GNDU cultural tech event
-
-"GNDU's CS HOD said my portal could be an official university resource. My parents couldn't stop smiling."
 
 ## Why Amritsar is the Perfect Place to Learn Coding
 

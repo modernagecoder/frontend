@@ -195,23 +195,23 @@ Kolkata's most ambitious girls' school deserves an after-school coding partner t
 | Session recordings | ✓ Every class recorded | ✗ Miss a class, miss the content |
 | Free demo class | ✓ Always free, no card needed | ✗ Paid demo or none |
 
-## What SBGS Parents Say
+## What families say about Modern Age Coders
 
-Real feedback from families in Park Street, Bhowanipore, Ballygunge, and Loudon Street.
+Real, verified reviews from Modern Age Coders families.
 
 ★★★★★
 
-"My daughter is in SBGS Class 9 and had always been told she wasn't 'a maths person.' Within six weeks of joining Modern Age Coders, she was writing Python programs and her CBSE Maths score jumped from 61% to 81% in the next periodical. The connection between coding logic and algebra is real — and the girls-only batch environment made all the difference. She's now the one teaching her friends Python."
+"My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-PMPriya M.Parent · SBGS Class 9 · Bhowanipore, Kolkata★★★★★
+PRPoonam RathoreParent★★★★★
 
-"We chose Modern Age Coders specifically because they had a dedicated girls programme — not just co-ed batches. My daughter is in SBGS Class 7, and the way the instructors reference Ada Lovelace and Grace Hopper throughout the lessons has changed how she sees herself in relation to technology. She started Scratch, moved to Python, and is now building a website. At age 12. The progression is incredible."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding."
 
-SRShubha R.Parent · SBGS Class 7 · Park Street, Kolkata★★★★★
+SSShradha SarafParent of Mivaan★★★★★
 
-"My daughter is in SBGS Class 11 Science and targeting IIT Computer Science. The combination of Python & AI classes and JEE Maths Foundation from Modern Age Coders has been transformative. Her CBSE Maths is strong, she's built two AI projects for her portfolio, and she just qualified at the first level of ZCO. Her confidence going into Class 12 next year is completely different from where she started. I can't thank the team enough."
+"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."
 
-ACAmrita C.Parent · SBGS Class 11 Science · Ballygunge, Kolkata
+SMSamridho MondalStudent
 
 ## Book Your Free Demo Class
 

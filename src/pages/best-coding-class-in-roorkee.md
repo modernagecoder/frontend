@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 A completion certificate plus honest, regular progress notes parents can actually act on — useful for school portfolios and applications.
 
-## Success Stories from Roorkee Students
+## What Families Say About Modern Age Coders
 
-Young builders from Roorkee and the towns around it. They began as beginners — what changed was that they kept showing up, and started shipping.
+Our classes are live and online, so students from Roorkee learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ANAryan NegiAge 11 · Civil Lines, RoorkeeAchievement:Built a Scratch game about steering a boat down the Ganga Canal that his class wouldn't stop playing.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only play games. Now I make them — I built one where you guide a boat down the canal without hitting the lock gates, and everyone wanted a turn."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SNSaanvi NautiyalAge 15 · Cantt, RoorkeeAchievement:Coded a Python physics-revision quiz app half her section used before the unit test.
+ ★★★★★ RM Ria MukherjeeParent
 
-"My father's an engineer, so I thought coding would be over my head. Two months in I'd written an app my friends actually revise from. Computer engineering is the plan now."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-MAMohd AdilAge 20 · Solani Vihar, RoorkeeAchievement:Picked up a paid work-from-home developer stint mid-degree after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm doing my engineering here in Roorkee. The mock rounds and the problem sheet rebuilt how I think under pressure, and I'm now writing code part-time for a company I've never had to travel to."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Roorkee Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from Roorkee families — many of them from engineering and academic households — who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-RBRitu BishtCivil Lines, Roorkee
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to disappear into his phone. Now he shows me what he has made and walks me through how it works. In a batch this small the teacher catches the exact moment he gets stuck — that's what sold us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DRDr. Anil RawatIIT Roorkee campus
+ ★★★★★ PR Poonam RathoreParent
 
-"I teach on campus, so I had high standards. These classes build reasoning and clean structure, not memorised syntax. My daughter can now break a problem down and reason it out on her own."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PTPriya TomarCantt, Roorkee
+ ★★★★★
 
-"The weekend slot fits neatly between school and her maths tuition, and there's no ferrying her anywhere — she just opens the laptop at home. A real relief for a working family."
-
-★★★★★SKSunita KumarManglaur (near Roorkee)
-
-"Out in Manglaur a serious coding class simply isn't nearby. Going online closed that gap entirely — a strong teacher and fair fees. Both my children are enrolled and genuinely look forward to it."
-
-★★★★★MAMeena AggarwalSolani Vihar, Roorkee
-
-"My daughter was hesitant at first. The teacher gave her space to ask anything, and her confidence quietly grew — she has just built a little website for my home business and is proud of it."
-
-★★★★★VCVikram ChauhanRamnagar, Roorkee
-
-"We tried a couple of options before this one. The difference is that they confirm the child actually understood the idea before moving on — they don't just race to finish the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Roorkee
 

@@ -181,23 +181,23 @@ Where the final school year sits relative to college.
 | **CP** | First rated | 1200+ target | 1400+ |
 | **OSS** | First PR | Sustained | Maintainer track |
 
-Words from parents and students
+What families say
 
-## Class 12 Python students and parents.
+## What families say about Modern Age Coders.
 
-Three recent reviews from 17-year-olds.
+Real, verified reviews from Modern Age Coders families.
 
-Started in Class 11, continued into Class 12. Finished CBSE IP in 4 months, scored 97. Built a Pandas + sklearn project used in my SOP. The programme adapted to board pressure naturally.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-WWaqar H.Student · Delhi · 1-on-1
+RRia MukherjeeParent
 
-We paused during boards as planned. After boards, 2 months of Python DSA + OS basics. My son said his first college lectures felt like revision.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-NNeelam C.Parent · Kolkata · 1-on-1
+SSonu GoyalParent
 
-Small batch of 3 Class 12 CS students. Serious and supportive. My daughter finished Class 12 with 92 in CS and a deployed Python portfolio. Fair trade.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-ZZoya K.Parent · Mumbai · GroupCommon questions from parents
+PPoonam RathoreParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

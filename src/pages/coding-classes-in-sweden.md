@@ -285,11 +285,9 @@ Mentor writes a 4-line note to the parent: what was covered, how the student fel
 
 ★ ★ ★ ★ ★
 
-> "After six months, our 14-year-old built a working AI revision tool for his own subjects. KTH is now a real target — not a daydream."
+> "Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-« Efter sex månader byggde vår 14-åring ett riktigt AI-verktyg för sina egna skolämnen. KTH är nu ett verkligt mål — inte en dagdröm. »
-
-ELErik & Lina AnderssonFöräldrar · Stockholm (Östermalm) · Östra RealReal shipped projects · real Swedish students
+SSShradha SarafParent of MivaanReal shipped projects · real Swedish students
 
 ## Six things our Swedish students built this year.
 
@@ -357,37 +355,37 @@ Scandinavian directness. We'd rather lose your business than mis-sell our school
 - Run high-pressure sales calls or fake "limited spots" tricks
 - Sell a course that doesn't fit just to win the month
 
-Adult learner stories
+What families say
 
-## Three Swedes who changed careers in under a year.
+## What families say about Modern Age Coders
 
-Full names withheld on request. Each story below is a real student who joined as an adult and ended up in a software, data or AI role at a Swedish company.
+We teach live and online, so students in Sweden learn in the same small batches as our community. These are real, verified reviews.
 
-FKFelix K.30 · Stockholm · ex-marketing analyst → AI engineer
+SMSamridho MondalStudent
 
-### From marketing dashboards to LLM agents — 9 months.
+### "Modern Age Coders has been a game-changer for me."
 
-Felix joined with strong Excel and weak Python. Nine months later he had shipped two production AI agents at a Stockholm fintech, including one that auto-drafts customer-support replies. His team moved him into an AI engineer role.
+I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease.
 
-Started**Python basics**Pivoted**LLM apps + RAG**Now**AI eng · fintech**PJPetra J.42 · Göteborg · ex-teacher → ML engineer at Polestar partner
+KBKrishnam BhatterFormer student
 
-### Maths teacher → ML engineer in 14 months.
+### "I am truly grateful for my experience at Modern Age Coders."
 
-Petra had strong maths intuition but no engineering background. We started slow: Python, Git, deployment, then ML fundamentals, then real production-pattern AI. She now works at a Polestar-adjacent mobility startup in Göteborg.
+My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-Started**Python + Git**Pivoted**ML fundamentals**Now**ML eng · mobility**ASAnders S.36 · Malmö · ex-consultant → full-stack at gaming studio
+PRPoonam RathoreParent
 
-### Management consulting → full-stack at a Malmö game studio.
+### "My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm."
 
-Anders had product instincts but had never deployed code. Two months in, his first React app was on Vercel. Eleven months in, he passed an interview at a Malmö game studio for a full-stack tools engineer role.
+The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-Started**Web fundamentals**Pivoted**Full-stack TS**Now**Full-stack · games**EHEva H.29 · Linköping · ex-PM → AI eng at a Saab spin-out
+RMRia MukherjeeParent
 
-### Product manager → AI engineer at a defence-tech spin-out.
+### "The one step solution for my son."
 
-Eva already worked at a Linköping tech company in a PM role. She wanted to ship code, not just spec it. We built her up over a year on Python, ML, then agentic AI. She moved into a hands-on AI eng role at a Saab-adjacent startup.
+Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-Started**Python + ML**Pivoted**Agentic AI**Now**AI eng · defence-tech**Meet the mentor team
+Meet the mentor team
 
 ## Working engineers, KTH alumni and patient teachers.
 

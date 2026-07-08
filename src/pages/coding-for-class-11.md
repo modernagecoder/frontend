@@ -182,23 +182,23 @@ Each year matters for college from here. This is the honest year-over-year diffe
 | **OSS** | Not yet | First PR | Sustained |
 | **Main goal** | Portfolio + board | Stream depth | Ship one + apply |
 
-Words from parents and students
+What families say
 
-## Class 11 parents and students.
+## What families say about Modern Age Coders.
 
-Three recent Class 11 CS-stream reviews.
+Real, verified reviews from Modern Age Coders families.
 
-I'm Class 11 CS stream. The teacher teaches the chapter a week before school does, so every test feels easy. I've solved 40 problems from the Striver sheet. MERN is in progress. Fees are honestly justified.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-NNivedita S.Student · Delhi · 1-on-1
+SSonu GoyalParent
 
-Small batch of Class 11 CS students. They help each other. My daughter's SQL + Pandas went from zero to really solid in one term. The IP paper felt easy — the goal.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-HHarish V.Parent · Bengaluru · Group
+PPoonam RathoreParent
 
-My son was considering CS but unsure. After 3 months of real MERN work, he is sure. Sometimes the best outcome of Class 11 is clarity, and we got that.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-JJuhi C.Parent · Hyderabad · 1-on-1Common questions from parents
+RRia MukherjeeParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

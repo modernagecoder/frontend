@@ -314,55 +314,43 @@ Main RoadKanke RoadDorandaHarmuBariatuAshok NagarMorabadiLalpurHindpiriUpper Baz
 
 Online classes available for students across Ranchi and surrounding areas
 
-## What Ranchi Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Ranchi who trusted us with their children's coding education.
+Our classes are live and online, so students from Ranchi learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-SOSanjay OraonDoranda, Ranchi
+ SO Sonam OswalParent of Dhairya
 
-"My son idolises Dhoni. I told him Dhoni trains hard every day — now he treats coding practice the same way. The discipline has crossed over to schoolwork too."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★PKPushpa KumariHarmu, Ranchi
+ ★★★★★ RM Ria MukherjeeParent
 
-"There isn't a single decent coding institute between Harmu and Kanke Road. Online classes from MAC solved a problem I'd been struggling with for two years."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★MMManoj MahtoKanke Road, Ranchi
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The Python curriculum is genuinely rigorous. My daughter finished it and placed 3rd in the district science fair. The projects they build are real, not toy exercises."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★RSRita SinghAshok Nagar, Ranchi
+ ★★★★★ SG Sonu GoyalParent
 
-"My twins fight over who gets to show me their Scratch game first. At ₹1,499 for each, both can learn without straining the budget. That matters in Ranchi."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★DTDeepak TirkeyLalpur, Ranchi
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"Exam season used to mean pausing all extra classes. Not anymore. Recorded sessions mean my son catches up at midnight if he wants to. Flexibility is everything."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★ADAnita DasBariatu, Ranchi
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter built a website from scratch in three months. She went from 'I can't do tech stuff' to 'Can I learn React next?' That transformation is priceless."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Ranchi — The Full Picture
 
 Why Ranchi parents are making coding a priority for their children's future
 
 Ranchi's identity is changing. The city known for Dhoni's cricket and Jharkhand's waterfalls is quietly building a reputation for technical education. BIT Mesra remains one of India's most respected engineering colleges, and IIM Ranchi is putting the city on the MBA map. XLRI Jamshedpur (just 150km away) completes a triangle of premier institutions that no other Tier-2 city can match. For parents in Doranda and Harmu, this means something practical: their children are growing up in a region that values technical merit. JAC board results show improving performance in science and maths. The Jharkhand government's startup policy is creating opportunities that didn't exist five years ago. Coding isn't just a skill for Ranchi kids — it's the bridge between the city's natural beauty and its tech-driven future.
-
-## Success Stories from Ranchi Students
-
-AMArjun MahtoAge 11 — DorandaAchievement:Built a Jharkhand wildlife quiz featuring the elephants and tigers of Betla National Park
-
-"My quiz has 40 questions about Betla's animals. Even forest department visitors played it at our school fair."
-
-PKPriya KumariAge 15 — HarmuAchievement:Won the district coding competition with a monsoon rainfall predictor for Ranchi
-
-"I trained a model on 10 years of Ranchi rainfall data. The weather office asked for my code."
-
-VOVikash OraonAge 17 — Kanke RoadAchievement:Built a Ranchi waterfall tourism website that BIT Mesra's e-cell featured at their annual fest
-
-"BIT Mesra's entrepreneurship cell shared my website with their alumni network. Doors are opening."
 
 ## Why Ranchi is the Perfect Place to Learn Coding
 

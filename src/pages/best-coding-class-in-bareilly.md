@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the s
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Bareilly Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Bareilly & Rohilkhand. Each one started exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Bareilly learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ASAyaan SaxenaAge 11 · Rampur Garden, BareillyAchievement:Built a Scratch kite-flying game his class at Bishop Conrad voted the best of the term.
+ SO Sonam OswalParent of Dhairya
 
-"My nana sells manjha, so I made a game where you cut other kites without snapping your own string. My friends played it the whole lunch break — now they all want to make one too."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SASara AnsariAge 15 · Civil Lines, BareillyAchievement:Built a Python billing app her father now uses in his zari shop.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Python felt scary at first, but ma'am broke it into tiny steps. Papa kept the shop accounts in a register — now my app does the bills and the day's total. He shows it to every customer who'll listen."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-HVHarsh VarshneyAge 20 · MJPRU, IzatnagarAchievement:Landed a remote developer internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone told me I'd have to shift to Gurgaon to get into tech. I did the DSA sheet and built a MERN project instead — and got a remote internship while still at MJPRU. I'm earning from home, in Bareilly, in my third year."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Bareilly Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Bareilly & Rohilkhand who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NGNeha AgarwalRajendra Nagar, Bareilly
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to disappear into his phone after school. Now he builds his own games and explains the logic to me while I cook. The small batch is what does it — the teacher actually knows him by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★VSDr. Vivek MehrotraCivil Lines, Bareilly
+ ★★★★★ PR Poonam RathoreParent
 
-"I work near IVRI and I'm fussy about how my kids are taught. These classes teach logic and problem-solving, not just syntax to memorise. My daughter's Python is genuinely solid — I checked."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PKPooja RastogiDD Puram, Bareilly
+ ★★★★★
 
-"The weekend batch fits perfectly around school and tuition. No sending him across town through the traffic for a class — he just logs in from home. For a working mother in Bareilly, that's everything."
-
-★★★★★ASAmit KishorePilibhit Road, Bareilly
-
-"Out on Pilibhit Road, a proper coding institute simply doesn't exist. This solved it completely — a genuinely good teacher, online, at fair fees. Both my children are enrolled and ask me when the next class is."
-
-★★★★★RMRitika TandonRampur Garden, Bareilly
-
-"My daughter was sure coding was 'a boys' thing' and was nervous to start. The teacher made her so comfortable that she's now the most eager one in the batch — she's built a little website for our furniture showroom herself."
-
-★★★★★SVSanjay GangwarSubhash Nagar, Bareilly
-
-"We tried a local computer class first and my son learnt nothing but typing. Here it's a different world — they actually check whether the child has understood the concept before moving on. Worth every rupee."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Bareilly
 

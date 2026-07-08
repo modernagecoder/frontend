@@ -353,51 +353,37 @@ A real teacher, live, from ₹1,499 a month — and the figure you read is the f
 
 Completion certificates plus honest progress notes — useful for school files, scholarship forms and college applications alike.
 
-## Success Stories from Jammu Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Jammu and the surrounding belt. Each one began exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Jammu learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-VSVihaan SharmaAge 10 · Trikuta Nagar, JammuAchievement:Made a Scratch yatra game that his cousins now fight over the controller for.
+ SO Sonam OswalParent of Dhairya
 
-"My game is about climbing up to the Bhawan and collecting prasad without slipping. The teacher showed me how to keep score. Now I want to add the helicopter level next."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SKSimran KoulAge 16 · Gandhi Nagar, JammuAchievement:Coded a Python notes-and-reminder tool her whole study group now relies on.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Before this I thought 'real' coding only happened in Delhi. Sitting at home in Gandhi Nagar I built something my friends actually use every day. It made the whole idea of an engineering seat feel reachable."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ARAman RainaAge 20 · Channi Himmat, JammuAchievement:Landed a paid remote internship after the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I study at a college here in Jammu and was worried recruiters never look our way. After the mock-interview rounds and a deployed project link, a Bengaluru startup hired me to work from home. I never had to leave my family for it."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Jammu Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Jammu and the wider belt who trusted us with their child's first steps into coding.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-MGMeenakshi GuptaNanak Nagar, Jammu
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"We had almost given up finding a proper coding teacher in Jammu. Within a month my son was showing me a working game he'd written himself. The teacher actually waits until he understands a step before moving on — that patience is rare."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★RGRohit GuptaBahu Plaza, Jammu
+ ★★★★★ PR Poonam RathoreParent
 
-"I run a software job remotely from Jammu, so I can tell when teaching is shallow. This isn't. They build the reasoning first and the syntax follows — my daughter now debugs her own code instead of waiting to be rescued."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★SSSukhdev SinghChanni Himmat, Jammu
+ ★★★★★
 
-"In winter, sending a child out across town for a class is half the battle. He simply logs in from his room and the lesson goes on whatever the weather. The evening slot sits neatly after school and before dinner."
-
-★★★★★PDPriya DograSamba (near Jammu)
-
-"We live outside the main city, where a serious coding teacher is simply not available nearby. Going online erased that gap overnight. My elder one started, the younger one begged to join, and now both are enrolled."
-
-★★★★★ABAnjali BhatGandhi Nagar, Jammu
-
-"My daughter assumed coding was a boys' thing and stayed quiet. A few weeks in, she put up a small website for my tailoring work and explained every button to her grandmother. That confidence is worth more to me than the fee."
-
-★★★★★VKVikram KapoorTalab Tillo, Jammu
-
-"A local computer tutor had us paying for months while my son learnt almost nothing. Here the monthly report tells me exactly what he can now do — and the demo class convinced me before I paid a single rupee."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Jammu
 

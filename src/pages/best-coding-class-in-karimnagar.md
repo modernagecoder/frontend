@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Karimnagar Students
+## What Families Say About Modern Age Coders
 
-Real young coders from Tower Circle to Mancherial Road, and from Jagtial to Sircilla. None of them arrived as "computer kids" — they arrived curious, and walked out builders.
+Our classes are live and online, so students from Karimnagar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-RVRithwik VemulaAge 11 · Vidya Nagar, KarimnagarAchievement:Built a Scratch quiz game on Telangana districts that his class plays at break.
+ SO Sonam OswalParent of Dhairya
 
-"Earlier I only watched videos on my father's phone. Now I make things on it. My districts quiz game even keeps score — my friends keep asking me to add new questions."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SRSahasra ReddyAge 15 · Bhagath Nagar, KarimnagarAchievement:Built a Python marks-tracker her tuition teacher now uses for the whole batch.
+ ★★★★★ RM Ria MukherjeeParent
 
-"Between school and EAMCET coaching I thought I had no time for this. But the live classes are short and practical, and my code actually runs. I now want to study computer science seriously."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-AKAkhil KumarAge 20 · Jagtial (near Karimnagar)Achievement:Landed a remote internship after the Python + DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I study in a college near Jagtial and felt cut off from real tech. The DSA sheet and mock interviews changed that — I cleared a remote internship without moving to Hyderabad. The MERN project on my CV did the talking."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Karimnagar Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Karimnagar and nearby towns who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SRSrinivas RaoMukarampet, Karimnagar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to disappear into mobile games. Now he builds his own and walks me through how each one works. Easily the best thing we did this year — the tiny batch is what makes it work."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PLPadmaja LathaVidya Nagar, Karimnagar
+ ★★★★★ PR Poonam RathoreParent
 
-"I'm a lecturer, so I judge teaching closely. They build logic and problem-solving, not just memorised syntax. My daughter's Python is genuinely solid now and her maths has improved too."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★VGVenkat GoudMancherial Road, Karimnagar
+ ★★★★★
 
-"The weekend batch slots perfectly between school and EAMCET coaching. No running across town for a class — he just logs in from home. A real relief for a working family like ours."
-
-★★★★★RNRamesh NaikSircilla (near Karimnagar)
-
-"In Sircilla, a good coding teacher is simply not available nearby. This solved it entirely — strong teacher, online, fair fees. Both my children are enrolled and clearly looking forward to every class."
-
-★★★★★SBSwapna BandariJyothi Nagar, Karimnagar
-
-"My daughter was shy and unsure about coding. Within a few weeks the teacher had her asking questions and putting up her hand first. She even built a small website for our family shop — I was stunned."
-
-★★★★★MKMahesh KandulaLMD Colony, Karimnagar
-
-"We tried a local computer class first and it was just typing practice. Here they actually check that my son understood the concept before moving on. The difference in his confidence is obvious."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Karimnagar
 

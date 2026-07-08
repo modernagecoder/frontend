@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the f
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Davanagere Students
+## What Families Say About Modern Age Coders
 
-Young coders from across Davanagere and the wider district — each one began as a beginner, with nothing more than curiosity and a willingness to build.
+Our classes are live and online, so students from Davanagere learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-PHPrajwal HalaswamyAge 11 · Vidyanagar, DavanagereAchievement:Made a Scratch quiz game about Davanagere's benne-dosa recipe steps for his school fair.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you have to flip the dosa at exactly the right time or the butter burns. Everyone in my class wanted to try it — even the teacher kept losing!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SKSahana KotreshAge 15 · MCC B Block, DavanagereAchievement:Wrote a Python tool that organises her coaching-class doubt list by subject.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I want to do engineering, so I thought coding would help. The teacher started from zero and stayed with me until each idea was clear. Now I help my friends debug their programs too."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-VGVinay GowdaAge 20 · UBDT, DavanagereAchievement:Took up paid freelance web work after the DSA + MERN full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm an engineering student here in Davanagere. The mock interviews and the live MERN project gave me something real to show — now I take freelance web jobs from home, without moving to Bengaluru."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Davanagere Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Davanagere and the district who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SRShruthi RajashekarP J Extension, Davanagere
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to spend hours on YouTube. Now he shows me the small games he has actually made. What won me over is the tiny batch — the teacher genuinely knows where each child is stuck."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DMDr. Manjula PatilVidyanagar, Davanagere
+ ★★★★★ PR Poonam RathoreParent
 
-"We are a family of doctors and wanted our daughter ready for a world we don't fully follow. They teach the thinking behind the code, not just commands — her Python is genuinely solid now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RHRavikumar HadagaliRing Road, Davanagere
+ ★★★★★
 
-"The weekend batch fits neatly around school and tuition, and there's no running my son across town in the evening — he just logs in from home. A real relief for working parents."
-
-★★★★★BNBasavaraj NayakHarihar
-
-"In Harihar a good coding teacher simply isn't available nearby. Going online closed that gap completely — top teacher, fair fees, and no daily trip into Davanagere. Both my children are enrolled."
-
-★★★★★AKAnitha KallappanavarShivaji Nagar, Davanagere
-
-"My daughter was shy and unsure about coding. The teacher was so patient that she now looks forward to every class — she even made a small website for our family provision store."
-
-★★★★★GCGirish ChannappaChannagiri
-
-"We tried a local tuition first. The difference here is clear — they check whether my son has actually understood the concept before moving on, instead of just finishing the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Davanagere
 

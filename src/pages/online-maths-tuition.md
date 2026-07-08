@@ -308,35 +308,35 @@ IB MathsIGCSESAT Math
 
 What Parents Say
 
-## Real Results, Real Stories
+## What Families Say About Modern Age Coders
 
-Do not just take our word for it. Here is what parents and students from around the world say about our maths tuition.
+Modern Age Coders teaches both maths and coding. These are real, verified reviews from our families.
 
 ★★★★★
 
-My son was scoring 45 in maths in Class 8. After 4 months with Modern Age Coders, he scored 87 in his finals. The tutor identified his gaps from Class 6 and filled them systematically. I wish we had found them earlier.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-Priya S.Parent of Class 8 Student, Mumbai★★★★★
+Sonam OswalParent of Dhairya★★★★★
 
-We moved from the UK to Dubai and my daughter was struggling with the IGCSE syllabus. The tutor matched her exact textbook and within 3 months she was ahead of her class. Flexible timing worked perfectly for our timezone.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-James W.Parent of Class 10 Student, Dubai★★★★★
+Sonu GoyalParent★★★★★
 
-I am a working professional preparing for GRE. The quantitative section was my biggest weakness. Shivam Sir personally tutored me and my quant score went from 148 to 164. The conceptual approach made all the difference.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-Ravi M.GRE Aspirant, Bangalore★★★★★
+Krishnam BhatterFormer student★★★★★
 
-My 7-year-old now loves maths. She used to cry before every maths class at school. Ananya Ma'am uses games and stories to teach and my daughter actually looks forward to the sessions now. The Vedic Maths tricks are a bonus.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-Meera K.Parent of Class 2 Student, Hyderabad★★★★★
+Ria MukherjeeParent★★★★★
 
-We are based in Toronto and finding a good online math tutor for our son was difficult. Modern Age Coders matched us with a tutor who knows the Ontario curriculum. The pricing in USD is very reasonable compared to local tutors here.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-David L.Parent of Grade 6 Student, Canada★★★★★
+Shradha SarafParent of Mivaan★★★★★
 
-My daughter was preparing for IMO and needed advanced problem-solving training. The Olympiad track here is genuinely challenging. She cleared the regional round this year for the first time. The tutor's approach to proofs was excellent.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-Sunita R.Parent of Class 9 Student, Delhi
+Poonam RathoreParent
 
 FAQ
 

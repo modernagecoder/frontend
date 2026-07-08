@@ -194,23 +194,23 @@ A new campus with 83 years of legacy deserves an after-school partner that match
 | Session recordings | ✓ Every class recorded | ✗ Miss a class, miss the content |
 | Free demo class | ✓ Always free, no card needed | ✗ Paid demo or none |
 
-## What BHS Mukundapur Parents Say
+## What families say about Modern Age Coders
 
-Real feedback from families across Kalikapur, Santoshpur, Patuli, and south-east Kolkata.
+Real, verified reviews from Modern Age Coders families.
 
 ★★★★★
 
-"My daughter is in BHS Mukundapur Class 11 Science and chose Informatics Practices as her elective. We couldn't find a single tutor near Kalikapur who knew what pandas and matplotlib even were. Modern Age Coders covered every single topic on the IP syllabus — and she's now building her own data analysis projects independently. Her practical exam preparation was completely stress-free."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-DNDr. Nair V.Parent · BHS Mukundapur Class 11 · Mukundapur, Kolkata★★★★★
+SGSonu GoyalParent★★★★★
 
-"My son is in BHS Mukundapur Class 9 and was struggling with both CBSE Maths and Computer Applications. The way Modern Age Coders teaches Python through maths problems was a revelation — his Maths score jumped from 68% to 87% in two periodicals, and he now writes Python code confidently. The live online format with recordings fits perfectly around his school schedule."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding."
 
-ACAnanya C.Parent · BHS Mukundapur Class 9 · Santoshpur, Kolkata★★★★★
+SSShradha SarafParent of Mivaan★★★★★
 
-"We chose BHS Mukundapur for the Birla name and co-ed environment. When we needed an after-school coding class that treated our daughter the same as any boy, Modern Age Coders was the obvious choice. She started Scratch at age 8, moved to Python at 11, and is now building her own website at 12. The progression is seamless — I can't recommend it enough for BHS Mukundapur families."
+"My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-SRSuman R.Parent · BHS Mukundapur · Patuli, Kolkata
+PRPoonam RathoreParent
 
 ## Book Your Free Demo Class
 

@@ -183,23 +183,23 @@ If you are deciding whether to start now or next year, this table shows what act
 | **Session** | 1 hour | 1 hour | 1 hour |
 | **Best format** | Group | Both | Both |
 
-Words from parents and students
+What families say
 
-## Class 5 parents — in their own words.
+## What families say about Modern Age Coders.
 
-Three recent reviews from Class 5 families.
+Real, verified reviews from Modern Age Coders families.
 
-My son is Class 5 CBSE. After two terms he writes Python programs without peeking at the book. He built a website about cricket and sent the link to his uncle in Canada. That felt like a milestone to us.
+My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions.
 
-TTanya P.Parent · Hyderabad · 1-on-1
+SSonam OswalParent of Dhairya
 
-Small group of 5 Class 5 students, all at similar levels. Teacher is strict in a kind way. Homework is short but meaningful. My daughter's school CS marks went from 72 to 96 in two quarters.
+I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects.
 
-OOmkar D.Parent · Pune · Group
+KKrishnam BhatterFormer student
 
-We picked 1-on-1 because my son is advanced. The teacher doesn't slow him down — she pushes him exactly where he is. He finished Python basics in 4 weeks and is now building a Teachable Machine pet.
+Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class.
 
-BBhanu K.Parent · Bengaluru · 1-on-1Common questions from parents
+SShradha SarafParent of MivaanCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

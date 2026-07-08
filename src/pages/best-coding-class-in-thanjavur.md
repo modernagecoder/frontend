@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month. No hidden fees, no pressure — the k
 
 Completion certificates plus regular progress updates that strengthen portfolios and applications.
 
-## Success Stories from Thanjavur Students
+## What Families Say About Modern Age Coders
 
-Real young coders from across Thanjavur and the delta towns. Each one began exactly where your child is today — curious, and ready to build.
+Our classes are live and online, so students from Thanjavur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-SKSanjay KumaranAge 11 · Thillai Nagar, ThanjavurAchievement:Built a Scratch quiz game about Thanjavur's temples that his school showed at its Pongal exhibition.
+ SO Sonam OswalParent of Dhairya
 
-"I used to just watch videos. Now I build my own! I made a quiz game about our Big Temple — you answer questions to climb the gopuram. My friends played it for the whole lunch break."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-DPDivya PriyaAge 15 · Medical College Road, ThanjavurAchievement:Built a Python timetable-and-marks tracker her class now uses every day.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought Python was only for big-city students. My teacher proved me wrong in two classes. I made a tracker my whole section uses, and now I want to study computer science at SASTRA."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-VRVignesh RajaAge 20 · near SASTRA, TirumalaisamudramAchievement:Landed a remote internship after finishing the DSA + full-stack track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Being at a Thanjavur campus, I worried recruiters would never look my way. The mock interviews and DSA sheet changed that — I got a remote internship in my fifth semester, and the MERN project on my resume sealed it."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Thanjavur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest feedback from families across Thanjavur and the delta towns who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-LSLakshmi SundaramThillai Nagar, Thanjavur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son only wanted his phone. Now he builds little apps and explains the steps to me while we have dinner. The small batch is what made it work — the teacher actually knows him by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★MRMurali Rajanfaculty, near SASTRA
+ ★★★★★ PR Poonam RathoreParent
 
-"I teach at an engineering college, so I'm hard to impress. These classes build genuine problem-solving, not memorised syntax. My daughter's Python is the real thing — I checked her code myself."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★KBKarthik BalajiGandhi Road, Thanjavur
+ ★★★★★
 
-"The weekend batch slots in neatly around school and tuition. No more racing across town for a class — she just opens the laptop at home. For parents who both work, that convenience is everything."
-
-★★★★★RPRevathi PandianOrathanadu
-
-"In a delta town like ours, a really good coding class simply isn't available nearby. This closed the gap completely — an excellent teacher, online, at fair fees. Both my children are enrolled and loving it."
-
-★★★★★GAGayathri AnandPudukottai Road, Thanjavur
-
-"My daughter hesitated about coding to begin with. Her teacher drew her out so gently that she now leads the questions in class — and she put together a small web page for our family's brassware stall on her own."
-
-★★★★★SMSenthil MuruganThiruvaiyaru
-
-"We had tried a couple of local tuition options before. The contrast is stark — here they actually confirm the child has grasped each idea before moving on, rather than just rushing through the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Thanjavur
 

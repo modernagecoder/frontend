@@ -184,23 +184,23 @@ Class 6 is where coding switches from "cute activity" to "real skill". This show
 | **Board link** | Class 5 Python intro | CBSE 166 / ICSE ICT | Class 7 formal coding |
 | **Best format** | Both | Both | Both |
 
-Words from parents and students
+What families say
 
-## Real Class 6 parents.
+## What families say about Modern Age Coders.
 
-Three recent unedited reviews from Class 6 families.
+Real, verified reviews from Modern Age Coders families.
 
-Class 6 CBSE. Her teacher made her the computer lab helper after a week. She built a calculator with error handling — I had to ask her what that meant. That is how far ahead she is.
+The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding.
 
-MManjula S.Parent · Chennai · 1-on-1
+RRia MukherjeeParent
 
-Small batch with 5 Class 6 kids. They roast each other's code in a friendly way. My son learned debugging faster because of it. Teacher is firm and fair.
+Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation.
 
-RRavi T.Parent · Noida · Group
+SSonu GoyalParent
 
-We switched from another platform. The difference: live teacher watching the code being typed. My son built and deployed a personal website in 3 weeks. He shows the URL to every relative now.
+My son has been attending this class for a few months and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown.
 
-VVandana G.Parent · Delhi · 1-on-1Common questions from parents
+PPoonam RathoreParentCommon questions from parents
 
 ## Before you book the demo — answered honestly.
 

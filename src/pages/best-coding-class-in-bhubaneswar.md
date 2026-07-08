@@ -314,55 +314,43 @@ Saheed NagarNayapalliPatiaChandrasekharpurJaydev ViharKhandagiriBapuji NagarUnit
 
 Online classes available for students across Bhubaneswar and surrounding areas
 
-## What Bhubaneswar Parents Say About Us
+## What Families Say About Modern Age Coders
 
-Real feedback from families across Bhubaneswar who trusted us with their children's coding education.
+Our classes are live and online, so students from Bhubaneswar learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-BMBijay MohantySaheed Nagar, Bhubaneswar
+ SO Sonam OswalParent of Dhairya
 
-"My son used to beg for new mobile games. Now he makes his own. Last week he built a snake game in Scratch and the whole neighbourhood's kids played it."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-★★★★★MPMamata PandaPatia, Bhubaneswar
+ ★★★★★ RM Ria MukherjeeParent
 
-"I teach at KIIT, so I know what placement interviewers want. This course builds exactly those foundations. My daughter will be interview-ready before college even starts."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-★★★★★SJSubash JenaChandrasekharpur, Bhubaneswar
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"The Bhubaneswar traffic between Patia and Saheed Nagar alone wastes two hours daily. Online classes mean my kids learn comfortably at home. No auto fares either."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-★★★★★GDGitanjali DasJaydev Vihar, Bhubaneswar
+ ★★★★★ SG Sonu GoyalParent
 
-"Two children, two different courses, one monthly fee. The younger one loves Scratch animations. The older one is building Java apps. Both are genuinely happy."
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-★★★★★PMPrashant MishraNayapalli, Bhubaneswar
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son showed his Python project at the KIIT admission interview. The panel spent 10 minutes discussing it. He got in. The certificate was the conversation starter."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★SNSasmita NayakKhandagiri, Bhubaneswar
+ ★★★★★ PR Poonam RathoreParent
 
-"My daughter's dream is TCS Infocity. She built a mock TCS careers page as her web dev project. When I showed it to a friend at TCS, he said 'hire her in 5 years.'"
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★
+ ★★★★★
+
+Read more reviews on our [Wall of Love](/love).
 
 ## Coding Education in Bhubaneswar — The Full Picture
 
 Why Bhubaneswar parents are making coding a priority for their children's future
 
 If you live in Bhubaneswar and haven't noticed the tech transformation, you haven't been to Infocity recently. What was once open land near Patia is now a thriving IT corridor where TCS, Infosys, Mindtree, and Wipro employ thousands of engineers. KIIT University has grown into one of Eastern India's largest private universities, and IIT Bhubaneswar's Argul campus is attracting top faculty and research grants. The Smart City Mission is digitizing everything from traffic management to waste collection. For Bhubaneswar parents, this isn't abstract — it's the neighborhood changing around them. Kids who learn coding today are preparing for jobs that will literally be within cycling distance of their homes. The CHSE board is incorporating digital literacy, and OJEE's computer science papers increasingly test algorithmic thinking. Bhubaneswar isn't becoming a tech city — it already is one. The question is whether your child will be ready for it.
-
-## Success Stories from Bhubaneswar Students
-
-OMOmkar MohantyAge 11 — Saheed NagarAchievement:Created a Konark Sun Temple virtual quiz with audio narration about each sculpture
-
-"My quiz teaches people about the 24 wheels of Konark. UNESCO should hire me as a guide."
-
-ADAditi DasAge 15 — PatiaAchievement:Won KIIT's inter-school hackathon with a cyclone early-warning app for coastal Odisha
-
-"Odisha gets cyclones every year. My app sends SMS warnings to fishermen. KIIT's dean liked it."
-
-SJSoumya JenaAge 17 — ChandrasekharpurAchievement:Built a full-stack job portal for Infocity companies and got an internship offer at a Mindtree subsidiary
-
-"A Mindtree team lead said my React code was 'cleaner than some juniors.' I'm 17."
 
 ## Why Bhubaneswar is the Perfect Place to Learn Coding
 

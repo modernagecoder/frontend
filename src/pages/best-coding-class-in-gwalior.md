@@ -353,51 +353,37 @@ Metro-quality teaching at Gwalior-friendly fees — from ₹1,499/month. One cle
 
 Honest progress notes you can actually read, plus a completion certificate that adds real weight to school files and college forms.
 
-## Success Stories from Gwalior Students
+## What Families Say About Modern Age Coders
 
-Young coders from right here in Gwalior. Every one of them began as a curious beginner at a screen — exactly where your child stands today.
+Our classes are live and online, so students from Gwalior learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-KDKabir DhakadAge 11 · Thatipur, GwaliorAchievement:Made a Scratch game about climbing Gwalior Fort that his teacher showed the whole section.
+ SO Sonam OswalParent of Dhairya
 
-"Earlier I only watched videos on the tablet. Now I built a game where you climb up to the Fort dodging monkeys — Mummy was so surprised I made it myself that she called Nani to show her."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SRSanvi RathoreAge 15 · DD Nagar, GwaliorAchievement:Built a Python quiz app on Gwalior's history that her school used for an inter-house round.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding was only for boys who go to IIITM. My teacher proved me wrong in two classes. Now I'm the one helping my friends debug — and I want to study computer science after Class 12."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-ATAditya TomarAge 20 · Morar, GwaliorAchievement:Landed a paid remote internship from his MITS hostel room after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"Everyone told me you have to move to Pune or Bangalore for a good start. I cleared a remote internship sitting in my hostel in Gwalior. The mock interviews fixed my nerves and the MERN project gave me something real to show."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Gwalior Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Straight-talking feedback from Gwalior families who handed us their child's very first coding class — and stayed.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-NGNeelam ShrivastavaLashkar, Gwalior
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"In our locality everyone wanted a teacher who actually pays attention. Here my son is one of six children in the class, and the teacher knows exactly what he gets wrong each week. That alone was worth it."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★VSDr. Rajeev ParasharMorar, Gwalior
+ ★★★★★ PR Poonam RathoreParent
 
-"An MITS graduate myself, I was sceptical of online classes. But they teach the why behind the code, not just the how. My daughter reasons through a problem before she types — that is real teaching."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★PKSwati ChauhanCity Centre, Gwalior
+ ★★★★★
 
-"Between school, maths tuition and tabla, my daughter's week was already full. The Sunday-morning batch slipped right in, and there's zero travel — she's at her desk one minute and learning the next."
-
-★★★★★ASMukesh YadavGovindpuri, Gwalior
-
-"For a good coding teacher in Gwalior people used to say go to Indore or do nothing. We found exactly that quality online, at a fair fee. Both my children now sit for class without being told twice."
-
-★★★★★RMAnita BhadauriaThatipur, Gwalior
-
-"My son barely speaks up in school. In this small batch he started asking questions by the third class. Last month he built a little website for our tuition centre — I still can't believe he made it."
-
-★★★★★SVPraveen SikarwarDD Nagar, Gwalior
-
-"I'd already paid one local batch where my son just copied whatever was on screen. Here the teacher makes him explain his code back. There's a world of difference between finishing a lesson and actually getting it."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Gwalior
 

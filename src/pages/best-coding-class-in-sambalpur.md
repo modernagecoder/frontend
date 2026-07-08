@@ -353,51 +353,37 @@ Serious teaching from just ₹1,499/month, stated plainly — no hidden charges 
 
 A completion certificate and regular progress notes parents can actually follow — useful for portfolios and applications later.
 
-## Success Stories from Sambalpur Students
+## What Families Say About Modern Age Coders
 
-Young coders from around Sambalpur & Burla — every one of them began curious and a little unsure, exactly where your child is today.
+Our classes are live and online, so students from Sambalpur learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-DMDebasish MishraAge 11 · Budharaja, SambalpurAchievement:Made a Scratch game about the Hirakud spillway that his class kept lining up to play.
+ SO Sonam OswalParent of Dhairya
 
-"I made a game where you open the right Hirakud gates before the river floods the town. My friends kept asking for one more turn — I never knew I could build something everyone wanted to play."
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-SPSnigdha PradhanAge 15 · Ainthapali, SambalpurAchievement:Built a Python quiz app to drill Odisha-Board science that her whole batch used.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought programming would be too hard for me, but it slowly started to make sense. My app revises science definitions and the whole class used it before exams. Now I want to study computer engineering at Burla."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-SSSourav SahuAge 20 · Burla, SambalpurAchievement:Landed a paid remote internship while still at his Burla college, after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm an engineering student in Burla and worried I'd have to move to a metro to get noticed. The structured DSA practice and a MERN project on my resume got me a remote internship — without leaving Sambalpur."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Sambalpur Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families across Sambalpur & Burla who trusted us with their child's first coding journey.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-SPSasmita PandaModipara, Sambalpur
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"A few months in, my son sat me down and walked me through a game he had coded himself. With so few children in the batch the teacher actually catches when he's confused — that is what changed things for us."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★PNPradeep NaikBurla, Sambalpur
+ ★★★★★ PR Poonam RathoreParent
 
-"I teach at a college in Burla, so I am hard to impress. What I liked is that they build reasoning, not memorised commands — my daughter can now think a Python problem through entirely on her own."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★RMRashmita MeherAinthapali, Sambalpur
+ ★★★★★
 
-"The weekend slot sits neatly around school and her tuition, and there is no sending her across town for a class — she simply opens the laptop at home. For a working couple that matters a lot."
-
-★★★★★BBBiswajit BeheraHirakud, Sambalpur
-
-"We live out near Hirakud, where a serious coding class just isn't available nearby. Going online closed that gap entirely — a strong teacher and fair fees, and my two children look forward to every session."
-
-★★★★★JSJyoti SahooKhetrajpur, Sambalpur
-
-"My daughter was shy and unsure at the start. The teacher's patience drew her out, and she has since built a small website for our family shop in Gole Bazar. Her confidence has grown more than I expected."
-
-★★★★★MPManoj PradhanDhanupali, Sambalpur
-
-"We had tried a generic online course before and my son lost interest fast. Here someone actually checks that he has understood a concept before moving on, instead of just racing through the lesson."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Sambalpur
 

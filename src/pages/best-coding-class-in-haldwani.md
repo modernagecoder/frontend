@@ -353,51 +353,37 @@ Premium teaching from just ₹1,499/month — fair, transparent fees with no hid
 
 Completion certificates and honest progress updates, so you always know exactly how your child is doing.
 
-## Success Stories from Haldwani Students
+## What Families Say About Modern Age Coders
 
-Young coders from Haldwani and the Kumaon hills around it — proof of what a curious child can build once the right teacher is just a click away.
+Our classes are live and online, so students from Haldwani learn in the same small batches as families across India. These are real, verified reviews from our community.
 
-ABArjun BishtAge 11 · Mukhani, HaldwaniAchievement:Built a Scratch game about driving a jeep up the winding road to Nainital without going off the bend.
+ SO Sonam OswalParent of Dhairya
 
-"I used to only play games — now I make them. My game has the real hairpin turns on the Kathgodam–Nainital road, and my friends keep crashing on the last one!"
+"My child Dhairya is really enjoying the Modern Age Coders classes. This is his first online class, and he eagerly looks forward to it. I can already see his improvement, and the teachers are very cooperative and listen to our suggestions. Overall, I am very happy with the class."
 
-DPDiya PandeyAge 15 · Nainital Road, HaldwaniAchievement:Coded a Python revision-quiz app that half her section used before the term test.
+ ★★★★★ RM Ria MukherjeeParent
 
-"I thought coding wasn't for me. A few weeks in, I'd written a quiz app my whole class was using to revise. Now I'm set on computer engineering — and I don't think I'll have to leave Haldwani to do the learning."
+"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."
 
-MRMohit RawatAge 20 · KathgodamAchievement:Landed a paid work-from-home developer stint mid-degree after the DSA + MERN track.
+ ★★★★★ KB Krishnam BhatterFormer Student
 
-"I'm doing my degree here in Kumaon and assumed I'd have to move to a metro for any real start. After the DSA sheet and a MERN project, I picked up a remote developer role — earning from Kathgodam, building for a team I've never met."
+"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring, and regular tests. The most impressive part was working on real-world projects."
 
-## What Haldwani Parents Say About Us
+ ★★★★★ SG Sonu GoyalParent
 
-Honest words from families across Haldwani and the Kumaon hills who trusted us with their child's first steps into code.
+"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."
 
-KBKavita BishtMukhani, Haldwani
+ ★★★★★ SS Shradha SarafParent of Mivaan
 
-"My son used to vanish into his phone after school. Now he shows me what he's made and walks me through how it works. The small batch is what convinced me — the teacher clearly knows each child by name."
+"Mivaan enjoys the class. He understands the concepts and completes his tasks with excitement. He has started taking real interest in coding. Truly an amazing class."
 
-★★★★★DJDr. Deepak JoshiRampur Road, Haldwani
+ ★★★★★ PR Poonam RathoreParent
 
-"I teach at a college here, so my bar was high. What I like is that they build reasoning and clean structure, not memorised syntax. My daughter can break a problem down and think it through on her own now."
+"My son has been attending this coding class for a few months, and I have been genuinely impressed with his progress and enthusiasm. The instructors are patient and knowledgeable. He looks forward to every class and his confidence has grown."
 
-★★★★★GTGeeta TamtaKathgodam
+ ★★★★★
 
-"The weekend slot sits neatly between school and her tuition, and there's no sending her across town for a class — she just opens the laptop at home. For working parents in Kathgodam that's everything."
-
-★★★★★NANaveen AryaLalkuan
-
-"Out in Lalkuan a serious coding class simply isn't nearby — the nearest decent one meant a trip into Haldwani. Going online closed that gap completely. Both my kids are signed up and they actually count down to class day."
-
-★★★★★MPManju PantAwas Vikas, Haldwani
-
-"My daughter was sure coding 'wasn't her thing'. A patient teacher turned that around quickly — she's confident now, and she even put together a little website for our shop in the bazaar."
-
-★★★★★HNHarish NegiBhimtal
-
-"We tried a local tuition before this and it didn't stick. Here they actually check that my son has understood a concept before moving on — not just that the lesson is over. Living up in Bhimtal, having this online is a real gift."
-
-★★★★★
+Read more reviews on our [Wall of Love](/love).
 
 ## Affordable Coding Classes in Haldwani
 
