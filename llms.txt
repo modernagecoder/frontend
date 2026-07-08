@@ -155,6 +155,16 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Olympiad & Competition Mathematics: https://learn.modernagecoders.com/courses/olympiad-competition-mathematics-mastery
 - Business & Finance Mathematics: https://learn.modernagecoders.com/courses/complete-business-finance-mathematics-mastery
 - Data Analytics Mathematics: https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass
+- SAT Math 800 Prep Course (Digital SAT, grades 10-12): https://learn.modernagecoders.com/courses/sat-math-prep-course
+- AP Calculus AB & BC Exam Prep: https://learn.modernagecoders.com/courses/ap-calculus-exam-prep
+- Algebra Foundations Masterclass (Pre-Algebra + Algebra 1): https://learn.modernagecoders.com/courses/algebra-foundations-masterclass
+- IB Mathematics AA & AI Masterclass (SL & HL, IA coaching): https://learn.modernagecoders.com/courses/ib-mathematics-aa-ai-masterclass
+- IGCSE Mathematics Mastery (0580/0980 + Additional 0606): https://learn.modernagecoders.com/courses/igcse-mathematics-mastery
+- GCSE Mathematics Mastery (9-1, AQA/Edexcel/OCR): https://learn.modernagecoders.com/courses/gcse-mathematics-mastery
+- PSLE Maths Mastery (MOE syllabus, model method): https://learn.modernagecoders.com/courses/psle-maths-mastery
+- Mental Maths Mastery for Kids (ages 5-10, number sense): https://learn.modernagecoders.com/courses/mental-maths-mastery-kids
+- Early Math Foundations (K-2, ages 4-7): https://learn.modernagecoders.com/courses/early-math-foundations
+- Maths Through Coding (learn math by building it in Python, ages 10-15): https://learn.modernagecoders.com/courses/maths-through-coding
 
 ## SEO Landing Pages
 
@@ -195,6 +205,60 @@ type="text/markdown">` tag in the HTML head. The markdown URLs follow these patt
 - Summer Camp for Kids: https://learn.modernagecoders.com/summer-coding-camp-kids
 - Summer Camp for Teens: https://learn.modernagecoders.com/summer-coding-camp-teens
 - Summer Camp for Adults: https://learn.modernagecoders.com/summer-coding-camp-adults
+- Online Coding Summer Camp (international; live mentors, four age tracks): https://learn.modernagecoders.com/online-coding-summer-camp
+- Summer Math Program (US; catch-up and get-ahead tracks): https://learn.modernagecoders.com/summer-math-program-online
+
+## Online Math Tutoring by Grade (K-12, live 1:1)
+
+Each page maps the grade's real content, worked examples, honest FAQs, and a markdown twin at /online-math-tutor-{grade}.md.
+
+- Kindergarten: https://learn.modernagecoders.com/online-math-tutor-kindergarten
+- 1st Grade: https://learn.modernagecoders.com/online-math-tutor-1st-grade
+- 2nd Grade: https://learn.modernagecoders.com/online-math-tutor-2nd-grade
+- 3rd Grade: https://learn.modernagecoders.com/online-math-tutor-3rd-grade
+- 4th Grade: https://learn.modernagecoders.com/online-math-tutor-4th-grade
+- 5th Grade: https://learn.modernagecoders.com/online-math-tutor-5th-grade
+- 6th Grade: https://learn.modernagecoders.com/online-math-tutor-6th-grade
+- 7th Grade: https://learn.modernagecoders.com/online-math-tutor-7th-grade
+- 8th Grade: https://learn.modernagecoders.com/online-math-tutor-8th-grade
+- 9th Grade (Algebra 1 year): https://learn.modernagecoders.com/online-math-tutor-9th-grade
+- 10th Grade (Geometry year): https://learn.modernagecoders.com/online-math-tutor-10th-grade
+- 11th Grade (Algebra 2 + SAT campaign): https://learn.modernagecoders.com/online-math-tutor-11th-grade
+- 12th Grade (senior year + college readiness): https://learn.modernagecoders.com/online-math-tutor-12th-grade
+
+## Math Programs, Test Prep & International Maths
+
+- Math Catch-Up Program (learning-gap repair with honest timelines): https://learn.modernagecoders.com/math-catch-up-program
+- Algebra 2 Tutoring: https://learn.modernagecoders.com/algebra-2-tutoring-online
+- Precalculus Tutoring: https://learn.modernagecoders.com/precalculus-tutoring-online
+- Calculus Tutoring (school, AP and college Calc 1): https://learn.modernagecoders.com/calculus-tutoring-online
+- ISEE & SSAT Math Prep (private-school admissions): https://learn.modernagecoders.com/isee-ssat-math-prep
+- Singapore Math Method Tutoring (CPA, bar models): https://learn.modernagecoders.com/singapore-math-method-tutoring
+- IB Maths Tuition (AA & AI, SL & HL, IA coaching): https://learn.modernagecoders.com/ib-maths-tuition-online
+- IGCSE Maths Tuition (Core, Extended, 0606): https://learn.modernagecoders.com/igcse-maths-tuition-online
+- Online Maths Tuition Singapore (MOE, PSLE): https://learn.modernagecoders.com/online-maths-tuition-singapore
+- Online Maths Tutoring Australia (NAPLAN, HSC/VCE/QCE): https://learn.modernagecoders.com/online-maths-tutoring-australia
+- Online Math Tutor Canada (province-exact, EQAO, MHF4U/MCV4U): https://learn.modernagecoders.com/online-math-tutor-canada
+
+## Kids Coding Classes (Platforms & Countries)
+
+- Scratch Coding Classes for Kids (ages 6-11): https://learn.modernagecoders.com/scratch-coding-classes-for-kids
+- Roblox Coding Classes for Kids (Luau scripting, ages 9-14): https://learn.modernagecoders.com/roblox-coding-classes-for-kids
+- Minecraft Coding Classes for Kids (MakeCode and Python, ages 7-13): https://learn.modernagecoders.com/minecraft-coding-classes-for-kids
+- Online Coding Classes for Kids in the USA: https://learn.modernagecoders.com/online-coding-classes-for-kids-usa
+- Online Coding Classes for Kids in the UK: https://learn.modernagecoders.com/online-coding-classes-for-kids-uk
+- Homeschool Coding Curriculum (records included): https://learn.modernagecoders.com/homeschool-coding-curriculum
+
+## Trust & Getting Started
+
+- Free Trial Class (one real hour, no card, honest placement read): https://learn.modernagecoders.com/free-trial
+- Parent FAQ (30+ questions answered plainly): https://learn.modernagecoders.com/parent-faq
+- Our Results (evidence, not adjectives; verifiable proof index): https://learn.modernagecoders.com/results
+- Zero-Risk Guarantee: https://learn.modernagecoders.com/guarantee
+- How We Teach (real recorded classes): https://learn.modernagecoders.com/how-we-teach
+- Best Age to Start Coding (honest age map): https://learn.modernagecoders.com/best-age-to-start-coding
+- Coding vs Maths (which first, answered honestly): https://learn.modernagecoders.com/coding-vs-maths
+- Free Coding Starter Kit (8-page parent field guide, free download): https://learn.modernagecoders.com/free-coding-starter-kit
 
 ## Our Unique Differentiators
 
