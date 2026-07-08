@@ -132,12 +132,11 @@ function initializeCurriculumAccordion() {
             if (isExpanded) {
                 module.classList.remove('expanded');
                 content.style.maxHeight = '0';
-                if (icon) icon.textContent = '▼';
             } else {
                 module.classList.add('expanded');
                 content.style.maxHeight = content.scrollHeight + 'px';
-                if (icon) icon.textContent = '▲';
             }
+            // Icon rotation is CSS-driven via .expanded (SVG chevron)
         });
     });
 
@@ -257,13 +256,13 @@ function initializeShowMoreButtons() {
 
                 if (isHidden) {
                     // Show hidden topics
-                    hiddenTopics.style.display = 'grid';
-                    this.innerHTML = 'Show less ▲';
+                    hiddenTopics.style.display = 'flex';
+                    this.textContent = 'Show less';
                 } else {
                     // Hide topics
                     hiddenTopics.style.display = 'none';
                     const hiddenCount = hiddenTopics.querySelectorAll('li').length;
-                    this.innerHTML = `Show ${hiddenCount} more topics ▼`;
+                    this.textContent = `Show ${hiddenCount} more topics`;
                 }
 
                 // Update parent heights

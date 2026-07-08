@@ -363,6 +363,86 @@ body.editorial .success-metric-card{background:rgba(251,248,242,.06) !important;
 body.editorial .success-metric-value{font-family:var(--font-display) !important;color:#E0A158 !important;background:none !important;-webkit-text-fill-color:#E0A158 !important}
 body.editorial .success-metric-label{color:rgba(251,248,242,.72) !important}
 
+/* =====================================================================
+   Curriculum + tab content polish (2026-07-08) — professional, no emoji.
+   Pairs with the generator rewrite: SVG icons, phase/month/week chips,
+   humanized labels, full-width accordion header buttons.
+   ===================================================================== */
+
+/* accordion headers are <button>s — reset UA styles + span full width */
+.phase-header,.month-header,.week-header{width:100%;text-align:left;border:none;font:inherit;color:inherit;-webkit-appearance:none;appearance:none}
+.month-header,.week-header{background:transparent}
+
+/* expand chevron (SVG) */
+.expand-icon{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--amber-tint);color:var(--amber-deep)}
+.expand-icon svg{width:15px;height:15px;display:block}
+
+/* phase / month / week identity chips */
+.phase-num{flex-shrink:0;font-family:var(--font-mono);font-size:.68rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--amber-deep);background:var(--amber-tint);border:1px solid rgba(180,83,9,.22);border-radius:7px;padding:.4rem .65rem;white-space:nowrap}
+.month-range{flex-shrink:0;font-family:var(--font-mono);font-size:.66rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);background:var(--surface);border:1px solid var(--line);border-radius:7px;padding:.32rem .55rem;white-space:nowrap}
+.week-range{flex-shrink:0;font-family:var(--font-mono);font-size:.64rem;font-weight:600;letter-spacing:.06em;color:var(--muted);background:var(--paper-2);border:1px solid var(--line-2);border-radius:6px;padding:.26rem .5rem;white-space:nowrap}
+
+/* content section titles inside a week (Topics / Projects / Practice / Assessment) */
+.content-section-title{display:flex;align-items:center;gap:.5rem;font-family:var(--font-mono);font-size:.72rem;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--ink);margin:0 0 .7rem}
+.content-section-title svg{width:15px;height:15px;color:var(--amber);flex-shrink:0}
+.practice-section .content-section-title,.assessment-section .content-section-title{margin-bottom:.45rem}
+.practice-text,.assessment-text{margin:0}
+
+/* legacy module fallback: rotate SVG chevron via .expanded */
+.curriculum-module .module-icon{display:flex;align-items:center;justify-content:center;transition:transform .25s}
+.curriculum-module .module-icon svg{width:15px;height:15px}
+.curriculum-module.expanded .module-icon{transform:rotate(180deg)}
+
+/* projects overview grid (Projects & Portfolio tab) */
+.phase-projects-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:.9rem}
+.phase-project-item{display:flex;gap:.85rem;align-items:flex-start;background:var(--paper-2);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem}
+.project-icon{width:34px;height:34px;flex-shrink:0;border-radius:9px;background:var(--amber-tint);color:var(--amber);display:flex;align-items:center;justify-content:center}
+.project-icon svg{width:17px;height:17px}
+.project-text{color:var(--ink-soft);font-size:.93rem;line-height:1.55;min-width:0}
+.project-text strong{display:block;color:var(--ink);font-family:var(--font-display);font-weight:600;margin-bottom:.15rem}
+
+/* icon + label/value cards (certification, support, audience, career, guarantees) */
+.certification-item,.support-item,.audience-item,.guarantee-item,.career-path-item{display:flex;gap:.85rem;align-items:flex-start}
+.cert-icon,.support-icon,.audience-icon,.guarantee-icon,.career-icon{width:34px;height:34px;flex-shrink:0;border-radius:9px;background:var(--amber-tint);color:var(--amber);display:flex;align-items:center;justify-content:center}
+.cert-icon svg,.support-icon svg,.audience-icon svg,.guarantee-icon svg,.career-icon svg{width:17px;height:17px}
+.cert-content,.support-content,.audience-content,.guarantee-content{min-width:0}
+
+/* humanized labels above values — quiet mono caps, values in ink */
+.cert-label,.support-label,.audience-label,.guarantee-label,.prereq-label,.weekly-label,.salary-period{font-family:var(--font-mono);font-size:.68rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-bottom:.3rem}
+.cert-value,.support-value,.audience-value,.guarantee-value,.prereq-value{color:var(--ink-soft);line-height:1.6}
+.weekly-value{color:var(--ink);font-weight:600}
+.salary-amount{color:var(--ink);font-weight:600;font-family:var(--font-display);font-size:1.05rem}
+.career-text{color:var(--ink-soft);line-height:1.55;align-self:center}
+
+/* show more topics */
+body.editorial .show-more-btn:hover{color:var(--amber-deep);text-decoration:underline}
+
+/* the generator wraps items in an inner container — grid lives there */
+.weekly-items,.certification-items,.support-items,.audience-items,.salary-items,.career-paths-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.prerequisites-items,.guarantees-items{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:.9rem}
+.weekly-item,.salary-item,.prerequisite-item{display:flex;flex-direction:column;justify-content:center}
+
+/* =====================  international contact modal (editorial)  ===================== */
+.cd-imodal{position:fixed;inset:0;background:rgba(28,24,20,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;z-index:100000;padding:1rem}
+.cd-imodal-card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:20px;max-width:430px;width:100%;padding:2rem 1.8rem;box-shadow:var(--shadow-md);animation:cdfade .3s ease both}
+body.editorial .cd-imodal-close{position:absolute;top:.9rem;right:.9rem;width:34px;height:34px;display:flex;align-items:center;justify-content:center;background:var(--paper-2);border:1px solid var(--line);border-radius:50%;color:var(--muted);font-size:1.2rem;line-height:1;cursor:pointer;transition:color .2s,border-color .2s}
+body.editorial .cd-imodal-close:hover{color:var(--ink);border-color:var(--ink)}
+.cd-imodal-globe{width:52px;height:52px;border-radius:50%;background:var(--ink);color:var(--paper);display:flex;align-items:center;justify-content:center;margin:0 auto 1rem}
+.cd-imodal-globe svg{width:26px;height:26px}
+.cd-imodal-card h2{font-family:var(--font-display);font-weight:600;font-size:1.35rem;color:var(--ink);text-align:center;margin:0 0 .3rem}
+.cd-imodal-course{text-align:center;color:var(--muted);font-size:.92rem;margin:0 0 1.3rem}
+.cd-imodal-plan{display:flex;align-items:center;justify-content:space-between;gap:.8rem;background:var(--amber-tint);border:1px solid rgba(180,83,9,.2);border-radius:11px;padding:.9rem 1.1rem;margin-bottom:1.3rem}
+.cd-imodal-plan .k{color:var(--ink-soft);font-weight:500;font-size:.92rem}
+.cd-imodal-plan .v{color:var(--amber-deep);font-family:var(--font-display);font-weight:600;font-size:1.15rem;white-space:nowrap}
+.cd-imodal-copy{color:var(--ink-soft);font-size:.92rem;line-height:1.65;text-align:center;margin:0 0 .6rem}
+.cd-imodal-note{color:var(--muted);font-size:.83rem;line-height:1.6;text-align:center;margin:0 0 1.3rem}
+.cd-imodal-note strong{color:var(--ink)}
+body.editorial .cd-imodal-wa{display:flex;align-items:center;justify-content:center;gap:.6rem;width:100%;padding:.95rem 1rem;background:#1faa53;border:1px solid #1faa53;border-radius:12px;color:#fff;font-weight:600;font-size:1rem;text-decoration:none;transition:background .2s,transform .2s}
+body.editorial .cd-imodal-wa:hover{background:#178a43;transform:translateY(-1px)}
+.cd-imodal-wa svg{width:20px;height:20px;flex-shrink:0}
+.cd-imodal-alt{text-align:center;color:var(--muted);font-size:.84rem;margin:1rem 0 0}
+body.editorial .cd-imodal-alt a{color:var(--amber-deep);font-weight:600;text-decoration:none}
+
 /* =====================  responsive  ===================== */
 @media (max-width:880px){
   .course-hero{grid-template-columns:1fr}
@@ -373,4 +453,11 @@ body.editorial .success-metric-label{color:rgba(251,248,242,.72) !important}
 }
 @media (max-width:560px){
   .course-tab-button{min-width:calc(50% - .3rem)}
+  /* accordion headers: chip + chevron on row 1, full-width title on row 2 */
+  .phase-header,.month-header,.week-header{flex-wrap:wrap;row-gap:.5rem}
+  .phase-num,.month-range,.week-range{order:-2;margin-right:auto}
+  .expand-icon{order:-1}
+  .phase-info,.month-info{order:1;flex-basis:100%}
+  .week-title{order:1;flex-basis:100%}
+  .week-header:not(:has(.week-range)) .week-title{flex-basis:auto;order:0}
 }

@@ -9,6 +9,25 @@ const fs = require('fs');
 const path = require('path');
 const { courseToMarkdown } = require('./lib/markdown-emitter.js');
 
+// Inline SVG icon set for generated sections (stroke style matches the
+// editorial template's lucide-style icons). No emoji anywhere on course pages.
+const CD_SVG = (paths, filled) => `<svg viewBox="0 0 24 24" fill="${filled ? 'currentColor' : 'none'}"${filled ? '' : ' stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"'} aria-hidden="true">${paths}</svg>`;
+const CD_ICONS = {
+    chevron: CD_SVG('<polyline points="6 9 12 15 18 9"></polyline>'),
+    topics: CD_SVG('<path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>'),
+    project: CD_SVG('<polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline>'),
+    practice: CD_SVG('<path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>'),
+    assessment: CD_SVG('<path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect><path d="m9 14 2 2 4-4"></path>'),
+    box: CD_SVG('<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line>'),
+    award: CD_SVG('<circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>'),
+    check: CD_SVG('<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline>'),
+    user: CD_SVG('<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle>'),
+    briefcase: CD_SVG('<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>'),
+    shield: CD_SVG('<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path>'),
+};
+// Turn a raw JSON key into a human label: "complete_beginners" -> "Complete Beginners"
+const humanizeKey = (key) => String(key).replace(/_/g, ' ').trim().replace(/\b\w/g, l => l.toUpperCase());
+
 class CourseGenerator {
     constructor() {
         this.projectRoot = path.resolve(__dirname, '..');
@@ -274,17 +293,23 @@ class CourseGenerator {
         const practice = weekData.practice || '';
         const assessment = weekData.assessment || '';
 
-        // Determine if we need "show more" for topics
-        const showMoreTopics = topics.length > 10;
+        // Week range chip derived from the key (week_1_2 -> "Weeks 1-2")
+        const weekNums = (weekKey.match(/\d+/g) || []);
+        const weekRange = weekNums.length > 1 ? `Weeks ${weekNums.join('&ndash;')}`
+            : weekNums.length === 1 ? `Week ${weekNums[0]}` : '';
+
+        // Only collapse topics when there is a meaningful amount hidden —
+        // a "Show 2 more" button is worse than just showing the two lines.
+        const showMoreTopics = topics.length > 14;
         const visibleTopics = showMoreTopics ? topics.slice(0, 10) : topics;
         const hiddenTopics = showMoreTopics ? topics.slice(10) : [];
 
         let html = `
         <div class="week-section" data-week="${weekKey}">
-            <button class="week-header">
-                <span class="week-icon">📅</span>
+            <button class="week-header" type="button">
+                ${weekRange ? `<span class="week-range">${weekRange}</span>` : ''}
                 <span class="week-title">${this.escapeHtml(title)}</span>
-                <span class="expand-icon">▼</span>
+                <span class="expand-icon">${CD_ICONS.chevron}</span>
             </button>
             <div class="week-content">`;
 
@@ -292,7 +317,7 @@ class CourseGenerator {
         if (topics.length > 0) {
             html += `
                 <div class="topics-section">
-                    <h5 class="content-section-title">📚 Topics Covered</h5>
+                    <h5 class="content-section-title">${CD_ICONS.topics}<span>Topics Covered</span></h5>
                     <ul class="topics-list">
                         ${visibleTopics.map(topic => `<li>${this.escapeHtml(topic)}</li>`).join('')}
                     </ul>`;
@@ -302,8 +327,8 @@ class CourseGenerator {
                     <ul class="topics-list topics-hidden" style="display: none;">
                         ${hiddenTopics.map(topic => `<li>${this.escapeHtml(topic)}</li>`).join('')}
                     </ul>
-                    <button class="show-more-btn" data-target="${weekKey}-topics">
-                        Show ${hiddenTopics.length} more topics ▼
+                    <button class="show-more-btn" type="button" data-target="${weekKey}-topics">
+                        Show ${hiddenTopics.length} more topics
                     </button>`;
             }
 
@@ -314,18 +339,18 @@ class CourseGenerator {
         if (projects.length > 0) {
             html += `
                 <div class="projects-section">
-                    <h5 class="content-section-title">🚀 Projects</h5>
+                    <h5 class="content-section-title">${CD_ICONS.project}<span>Projects You Build</span></h5>
                     <ul class="projects-list">
                         ${projects.map(project => `<li>${this.escapeHtml(project)}</li>`).join('')}
                     </ul>
                 </div>`;
         }
 
-        // Practice section
+        // Practice / assignments section
         if (practice) {
             html += `
                 <div class="practice-section">
-                    <h5 class="content-section-title">💪 Practice</h5>
+                    <h5 class="content-section-title">${CD_ICONS.practice}<span>Practice &amp; Assignments</span></h5>
                     <p class="practice-text">${this.escapeHtml(practice)}</p>
                 </div>`;
         }
@@ -334,7 +359,7 @@ class CourseGenerator {
         if (assessment) {
             html += `
                 <div class="assessment-section">
-                    <h5 class="content-section-title">🎯 Assessment</h5>
+                    <h5 class="content-section-title">${CD_ICONS.assessment}<span>Assessment</span></h5>
                     <p class="assessment-text">${this.escapeHtml(assessment)}</p>
                 </div>`;
         }
@@ -353,19 +378,24 @@ class CourseGenerator {
      * @returns {string} HTML string for the month
      */
     generateMonthHTML(monthData, monthKey) {
-        const title = monthData.title || 'Month Content';
+        const rawTitle = monthData.title || 'Month Content';
         const weeks = monthData.weeks || '';
         const weeksArray = this.extractWeeks(monthData);
 
+        // Split "Months 1-2: Python Basics" into a range chip + clean title
+        const m = rawTitle.match(/^(months?\s*[\d\s\-–&,]+?)\s*[:–—-]\s+(.+)$/i);
+        const monthRange = m ? m[1].trim() : '';
+        const title = m ? m[2].trim() : rawTitle;
+
         let html = `
         <div class="month-section" data-month="${monthKey}">
-            <button class="month-header">
-                <span class="month-icon">📆</span>
+            <button class="month-header" type="button">
+                ${monthRange ? `<span class="month-range">${this.escapeHtml(monthRange)}</span>` : ''}
                 <span class="month-info">
                     <span class="month-title">${this.escapeHtml(title)}</span>
                     ${weeks ? `<span class="month-weeks">${this.escapeHtml(weeks)}</span>` : ''}
                 </span>
-                <span class="expand-icon">▼</span>
+                <span class="expand-icon">${CD_ICONS.chevron}</span>
             </button>
             <div class="month-content">`;
 
@@ -392,19 +422,25 @@ class CourseGenerator {
      * @returns {string} HTML string for the phase
      */
     generatePhaseHTML(phaseData, phaseKey) {
-        const title = phaseData.title || 'Phase Content';
+        const rawTitle = phaseData.title || 'Phase Content';
         const description = phaseData.description || '';
         const months = this.extractMonths(phaseData);
 
+        // Split "PHASE 1: Python Foundations (Months 1-6)" into a numbered
+        // chip + clean title. Falls back gracefully when there is no prefix.
+        const p = rawTitle.match(/^phase\s*(\d+)\s*[:–—-]\s*(.+)$/i);
+        const phaseNum = p ? p[1] : (phaseKey.match(/\d+/) || [''])[0];
+        const title = p ? p[2].trim() : rawTitle;
+
         let html = `
         <div class="phase-section" data-phase="${phaseKey}">
-            <button class="phase-header">
-                <span class="phase-icon">🎓</span>
+            <button class="phase-header" type="button">
+                ${phaseNum ? `<span class="phase-num">Phase ${phaseNum}</span>` : ''}
                 <span class="phase-info">
                     <span class="phase-title">${this.escapeHtml(title)}</span>
                     ${description ? `<span class="phase-description">${this.escapeHtml(description)}</span>` : ''}
                 </span>
-                <span class="expand-icon">▼</span>
+                <span class="expand-icon">${CD_ICONS.chevron}</span>
             </button>
             <div class="phase-content">`;
 
@@ -452,10 +488,10 @@ class CourseGenerator {
             if (courseData.curriculum && Array.isArray(courseData.curriculum)) {
                 return courseData.curriculum.map(module => `
                     <div class="curriculum-module">
-                        <button class="module-header">
+                        <button class="module-header" type="button">
                             <span class="module-number">${module.week || ''}</span>
                             <span class="module-title">${this.escapeHtml(module.title || '')}</span>
-                            <span class="module-icon">▼</span>
+                            <span class="module-icon">${CD_ICONS.chevron}</span>
                         </button>
                         <div class="module-content">
                             <ul class="lesson-list">
@@ -1018,8 +1054,10 @@ class CourseGenerator {
             html = html.replace(/<body class="(course-detail-page[^"]*)">/, '<body class="$1" data-subject="maths">');
             html = html.replace("showInternationalContactModal('Group Classes', '$40 USD')", "showInternationalContactModal('Group Classes', '$100 USD')");
             html = html.replace("showInternationalContactModal('Personalized Mentorship', '$100 USD')", "showInternationalContactModal('Personalized Mentorship', '$150 USD')");
-            html = html.replace(/(Group Classes<\/div>[\s\S]*?line-height: 1\.1;">\s*)\$40(<\/div>)/, (m, p1, p2) => p1 + '$100' + p2);
-            html = html.replace(/(Personalized<\/div>[\s\S]*?line-height: 1\.1;">\s*)\$100(<\/div>)/, (m, p1, p2) => p1 + '$150' + p2);
+            // Static intl FYI cards (editorial markup). Personalized first so the
+            // Group $40 -> $100 swap can't be double-bumped to $150.
+            html = html.replace(/(Personalized<\/div>\s*<div class="cd-intl-price">)\$100(<\/div>)/, '$1$$150$2');
+            html = html.replace(/(Group Classes<\/div>\s*<div class="cd-intl-price">)\$40(<\/div>)/, '$1$$100$2');
         }
 
         return html;
@@ -1308,12 +1346,18 @@ class CourseGenerator {
 
         return `
             <div class="phase-projects-list">
-                ${projects.map(project => `
+                ${projects.map(project => {
+            // "Phase 1: Games, chatbots..." -> bold lead-in + detail
+            const pm = String(project).match(/^([^:]{2,40}):\s*(.+)$/);
+            const text = pm
+                ? `<strong>${this.escapeHtml(pm[1])}</strong> ${this.escapeHtml(pm[2])}`
+                : this.escapeHtml(project);
+            return `
                     <div class="phase-project-item">
-                        <div class="project-icon">🚀</div>
-                        <div class="project-text">${this.escapeHtml(project)}</div>
-                    </div>
-                `).join('')}
+                        <div class="project-icon">${CD_ICONS.box}</div>
+                        <div class="project-text">${text}</div>
+                    </div>`;
+        }).join('')}
             </div>
         `;
     }
@@ -1346,9 +1390,9 @@ class CourseGenerator {
             <div class="certification-items">
                 ${Object.entries(certification).map(([key, value]) => `
                     <div class="certification-item">
-                        <div class="cert-icon">🏆</div>
+                        <div class="cert-icon">${CD_ICONS.award}</div>
                         <div class="cert-content">
-                            <div class="cert-label">${this.escapeHtml(key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()))}</div>
+                            <div class="cert-label">${this.escapeHtml(humanizeKey(key))}</div>
                             <div class="cert-value">${this.escapeHtml(value)}</div>
                         </div>
                     </div>
@@ -1391,9 +1435,9 @@ class CourseGenerator {
             <div class="support-items">
                 ${Object.entries(support).map(([key, value]) => `
                     <div class="support-item">
-                        <div class="support-icon">✓</div>
+                        <div class="support-icon">${CD_ICONS.check}</div>
                         <div class="support-content">
-                            <div class="support-label">${this.escapeHtml(key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()))}</div>
+                            <div class="support-label">${this.escapeHtml(humanizeKey(key))}</div>
                             <div class="support-value">${this.escapeHtml(value)}</div>
                         </div>
                     </div>
@@ -1430,9 +1474,9 @@ class CourseGenerator {
             <div class="audience-items">
                 ${Object.entries(audience).map(([key, value]) => `
                     <div class="audience-item">
-                        <div class="audience-icon">👤</div>
+                        <div class="audience-icon">${CD_ICONS.user}</div>
                         <div class="audience-content">
-                            <div class="audience-label">${this.escapeHtml(key.replace(/\b\w/g, l => l.toUpperCase()))}</div>
+                            <div class="audience-label">${this.escapeHtml(humanizeKey(key))}</div>
                             <div class="audience-value">${this.escapeHtml(value)}</div>
                         </div>
                     </div>
@@ -1451,7 +1495,7 @@ class CourseGenerator {
             <div class="career-paths-grid">
                 ${paths.map(path => `
                     <div class="career-path-item">
-                        <div class="career-icon">💼</div>
+                        <div class="career-icon">${CD_ICONS.briefcase}</div>
                         <div class="career-text">${this.escapeHtml(path)}</div>
                     </div>
                 `).join('')}
@@ -1487,9 +1531,9 @@ class CourseGenerator {
             <div class="guarantees-items">
                 ${Object.entries(guarantees).map(([key, value]) => `
                     <div class="guarantee-item">
-                        <div class="guarantee-icon">✓</div>
+                        <div class="guarantee-icon">${CD_ICONS.shield}</div>
                         <div class="guarantee-content">
-                            <div class="guarantee-label">${this.escapeHtml(key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()))}</div>
+                            <div class="guarantee-label">${this.escapeHtml(humanizeKey(key))}</div>
                             <div class="guarantee-value">${this.escapeHtml(value)}</div>
                         </div>
                     </div>
