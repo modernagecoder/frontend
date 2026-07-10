@@ -1,0 +1,1062 @@
+/* ==========================================================================
+   Gulf cluster: Qatar "Pearl" identity
+   Prefix: gqa-
+   Museum-label refinement. Alabaster ground, ink text, deep teal primary,
+   pearl-grey hairline rules, oxblood reserved for small catalogue labels.
+   Generous whitespace, thin borders, no shadows, no gradients.
+   Fonts: Newsreader (headings, optical sizing) + Inter (body), loaded per page.
+   ========================================================================== */
+
+:root {
+  --gqa-alabaster: #F8F7F4;
+  --gqa-ink: #1F2933;
+  --gqa-teal: #155E63;
+  --gqa-teal-deep: #0E474B;
+  --gqa-pearl: #C8CDD0;
+  --gqa-oxblood: #6E2B2B;
+  --gqa-white: #FFFFFF;
+  --gqa-muted: #52606D;
+  --gqa-serif: 'Newsreader', 'Georgia', serif;
+  --gqa-sans: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+  --gqa-wrap: 1120px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body.gqa-body {
+  background: var(--gqa-alabaster);
+  color: var(--gqa-ink);
+  font-family: var(--gqa-sans);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img { max-width: 100%; display: block; }
+
+a { color: var(--gqa-teal); }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--gqa-teal);
+  outline-offset: 2px;
+}
+
+.gqa-wrap {
+  max-width: var(--gqa-wrap);
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* --------------------------------------------------------------------------
+   Hairline rule: the signature divider
+   -------------------------------------------------------------------------- */
+
+.gqa-rule {
+  max-width: var(--gqa-wrap);
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.gqa-rule::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: var(--gqa-pearl);
+}
+
+/* --------------------------------------------------------------------------
+   Nav
+   -------------------------------------------------------------------------- */
+
+.gqa-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--gqa-alabaster);
+  border-bottom: 1px solid var(--gqa-pearl);
+}
+
+.gqa-nav-inner {
+  max-width: var(--gqa-wrap);
+  margin: 0 auto;
+  padding: 0 28px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.gqa-nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  text-decoration: none;
+  color: var(--gqa-ink);
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: 1.14rem;
+  letter-spacing: .005em;
+  margin-right: auto;
+}
+
+.gqa-nav-brand img { width: 32px; height: 32px; }
+
+.gqa-nav-brand .gqa-brand-tag {
+  font-family: var(--gqa-sans);
+  font-weight: 600;
+  font-size: .62rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--gqa-teal);
+  border: 1px solid var(--gqa-pearl);
+  border-radius: 999px;
+  padding: 3px 10px;
+  background: var(--gqa-white);
+}
+
+.gqa-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+}
+
+.gqa-nav-links a {
+  text-decoration: none;
+  color: var(--gqa-ink);
+  font-size: .92rem;
+  font-weight: 500;
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+}
+
+.gqa-nav-links a:hover { border-bottom-color: var(--gqa-teal); color: var(--gqa-teal); }
+
+/* --------------------------------------------------------------------------
+   Buttons: teal pills
+   -------------------------------------------------------------------------- */
+
+.gqa-btn {
+  display: inline-block;
+  background: var(--gqa-teal);
+  color: var(--gqa-alabaster);
+  font-family: var(--gqa-sans);
+  font-weight: 600;
+  font-size: .95rem;
+  line-height: 1;
+  white-space: nowrap;
+  padding: 16px 30px;
+  border: 1px solid var(--gqa-teal);
+  border-radius: 999px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease;
+}
+
+.gqa-btn:hover { background: var(--gqa-teal-deep); border-color: var(--gqa-teal-deep); }
+
+.gqa-btn-ghost {
+  display: inline-block;
+  background: transparent;
+  color: var(--gqa-teal);
+  font-family: var(--gqa-sans);
+  font-weight: 600;
+  font-size: .95rem;
+  line-height: 1;
+  white-space: nowrap;
+  padding: 16px 30px;
+  border: 1px solid var(--gqa-teal);
+  border-radius: 999px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+
+.gqa-btn-ghost:hover { background: rgba(21, 94, 99, .07); }
+
+.gqa-nav .gqa-btn { padding: 11px 22px; font-size: .86rem; }
+
+/* --------------------------------------------------------------------------
+   Hero: statement left, museum plaque right
+   -------------------------------------------------------------------------- */
+
+.gqa-hero { padding: 96px 0 88px; }
+
+.gqa-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 80px;
+  align-items: start;
+}
+
+.gqa-kicker {
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  color: var(--gqa-teal);
+  margin-bottom: 26px;
+}
+
+.gqa-h1 {
+  font-family: var(--gqa-serif);
+  font-weight: 500;
+  font-size: clamp(2.7rem, 6vw, 4.1rem);
+  line-height: 1.04;
+  letter-spacing: -.015em;
+  color: var(--gqa-ink);
+  margin-bottom: 28px;
+}
+
+.gqa-hero-lede {
+  font-size: 1.13rem;
+  line-height: 1.75;
+  color: var(--gqa-muted);
+  max-width: 600px;
+  margin-bottom: 16px;
+}
+
+.gqa-hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 34px 0 24px;
+}
+
+.gqa-trust {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: .92rem;
+  color: var(--gqa-ink);
+  font-weight: 500;
+}
+
+.gqa-trust .gqa-stars {
+  color: var(--gqa-teal);
+  letter-spacing: .14em;
+  font-size: .95rem;
+}
+
+/* The plaque: a museum object label for the class format */
+
+.gqa-plaque {
+  background: var(--gqa-white);
+  border: 1px solid var(--gqa-pearl);
+  padding: 26px 28px 22px;
+}
+
+.gqa-plaque-tag {
+  font-size: .62rem;
+  font-weight: 600;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  color: var(--gqa-oxblood);
+  border-bottom: 1px solid var(--gqa-pearl);
+  padding-bottom: 14px;
+  margin-bottom: 6px;
+}
+
+.gqa-plaque dl { margin: 0; }
+
+.gqa-plaque-row {
+  display: grid;
+  grid-template-columns: 92px 1fr;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--gqa-pearl);
+}
+
+.gqa-plaque-row:last-child { border-bottom: none; }
+
+.gqa-plaque dt {
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--gqa-teal);
+  padding-top: 3px;
+}
+
+.gqa-plaque dd {
+  font-size: .92rem;
+  color: var(--gqa-ink);
+  line-height: 1.5;
+}
+
+/* --------------------------------------------------------------------------
+   Sections
+   -------------------------------------------------------------------------- */
+
+.gqa-section {
+  padding: 96px 0;
+  scroll-margin-top: 88px;
+}
+
+.gqa-eyebrow {
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  color: var(--gqa-teal);
+  margin-bottom: 18px;
+}
+
+.gqa-h2 {
+  font-family: var(--gqa-serif);
+  font-weight: 500;
+  font-size: clamp(1.9rem, 3.6vw, 2.7rem);
+  line-height: 1.12;
+  letter-spacing: -.01em;
+  margin-bottom: 18px;
+}
+
+.gqa-h3 {
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: 1.38rem;
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+
+.gqa-lede {
+  font-size: 1.06rem;
+  color: var(--gqa-muted);
+  max-width: 700px;
+  margin-bottom: 12px;
+}
+
+.gqa-prose { max-width: 740px; }
+
+.gqa-prose p { margin-bottom: 18px; color: var(--gqa-ink); }
+
+.gqa-prose strong { color: var(--gqa-ink); }
+
+.gqa-prose ul {
+  margin: 0 0 18px;
+  padding-left: 22px;
+}
+
+.gqa-prose li {
+  margin-bottom: 12px;
+  color: var(--gqa-muted);
+}
+
+.gqa-prose li strong { color: var(--gqa-ink); }
+
+.gqa-prose .gqa-h3 { margin-top: 42px; }
+
+/* --------------------------------------------------------------------------
+   Anchor pills
+   -------------------------------------------------------------------------- */
+
+.gqa-anchor-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0 8px;
+}
+
+.gqa-pill {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--gqa-ink);
+  background: transparent;
+  border: 1px solid var(--gqa-pearl);
+  border-radius: 999px;
+  padding: 9px 20px;
+  font-size: .87rem;
+  font-weight: 500;
+  transition: border-color .15s ease, color .15s ease;
+}
+
+.gqa-pill:hover {
+  border-color: var(--gqa-teal);
+  color: var(--gqa-teal);
+}
+
+/* --------------------------------------------------------------------------
+   Course cards: matted prints in a catalogue
+   -------------------------------------------------------------------------- */
+
+.gqa-course-group {
+  margin-top: 56px;
+  scroll-margin-top: 88px;
+}
+
+.gqa-course-group-head {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  border-bottom: 1px solid var(--gqa-pearl);
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+}
+
+.gqa-group-num {
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: .95rem;
+  letter-spacing: .12em;
+  color: var(--gqa-oxblood);
+}
+
+.gqa-course-group-head .gqa-h3 { margin-bottom: 0; }
+
+.gqa-course-group-head span {
+  font-size: .85rem;
+  color: var(--gqa-muted);
+  margin-left: auto;
+}
+
+.gqa-course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+.gqa-course-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--gqa-white);
+  border: 1px solid var(--gqa-pearl);
+  padding: 12px;
+  text-decoration: none;
+  color: var(--gqa-ink);
+  transition: border-color .15s ease;
+}
+
+.gqa-course-card:hover { border-color: var(--gqa-teal); }
+
+.gqa-course-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--gqa-pearl);
+}
+
+.gqa-course-card-body {
+  padding: 18px 10px 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.gqa-course-card-title {
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: 1.18rem;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+
+.gqa-course-card:hover .gqa-course-card-title { color: var(--gqa-teal); }
+
+.gqa-course-card-desc {
+  font-size: .9rem;
+  color: var(--gqa-muted);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.gqa-course-card-go {
+  margin-top: 14px;
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gqa-teal);
+}
+
+/* --------------------------------------------------------------------------
+   Hub: guides to the Qatar pages
+   -------------------------------------------------------------------------- */
+
+.gqa-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  margin-top: 40px;
+}
+
+.gqa-hub-card {
+  display: block;
+  background: var(--gqa-white);
+  border: 1px solid var(--gqa-pearl);
+  padding: 26px 28px 24px;
+  text-decoration: none;
+  color: var(--gqa-ink);
+  transition: border-color .15s ease;
+}
+
+.gqa-hub-card:hover { border-color: var(--gqa-teal); }
+
+.gqa-hub-card .gqa-hub-title {
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: 1.22rem;
+  margin-bottom: 8px;
+}
+
+.gqa-hub-card:hover .gqa-hub-title { color: var(--gqa-teal); }
+
+.gqa-hub-card p {
+  font-size: .92rem;
+  color: var(--gqa-muted);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.gqa-hub-go {
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--gqa-teal);
+}
+
+/* --------------------------------------------------------------------------
+   Register: how classes work, as a numbered ledger
+   -------------------------------------------------------------------------- */
+
+.gqa-register {
+  margin-top: 40px;
+  border-top: 1px solid var(--gqa-pearl);
+  counter-reset: gqa-reg;
+}
+
+.gqa-register-item {
+  display: grid;
+  grid-template-columns: 64px 300px 1fr;
+  gap: 24px;
+  padding: 26px 0;
+  border-bottom: 1px solid var(--gqa-pearl);
+  counter-increment: gqa-reg;
+}
+
+.gqa-register-item::before {
+  content: counter(gqa-reg, decimal-leading-zero);
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: .95rem;
+  letter-spacing: .1em;
+  color: var(--gqa-oxblood);
+  padding-top: 4px;
+}
+
+.gqa-register-item h3 {
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: 1.22rem;
+  line-height: 1.3;
+}
+
+.gqa-register-item p {
+  font-size: .96rem;
+  color: var(--gqa-muted);
+  line-height: 1.65;
+}
+
+/* --------------------------------------------------------------------------
+   Syllabus arc
+   -------------------------------------------------------------------------- */
+
+.gqa-syllabus {
+  margin-top: 40px;
+  border-top: 1px solid var(--gqa-pearl);
+}
+
+.gqa-syllabus-row {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 32px;
+  padding: 32px 0;
+  border-bottom: 1px solid var(--gqa-pearl);
+}
+
+.gqa-syllabus-stage {
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: 1.22rem;
+  color: var(--gqa-ink);
+  line-height: 1.3;
+}
+
+.gqa-syllabus-stage small {
+  display: block;
+  font-family: var(--gqa-sans);
+  font-weight: 600;
+  font-size: .68rem;
+  color: var(--gqa-oxblood);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+.gqa-syllabus-body p {
+  font-size: .97rem;
+  color: var(--gqa-ink);
+  line-height: 1.7;
+  margin-bottom: 10px;
+  max-width: 640px;
+}
+
+.gqa-syllabus-body p:last-child { margin-bottom: 0; }
+
+/* --------------------------------------------------------------------------
+   Feature grid
+   -------------------------------------------------------------------------- */
+
+.gqa-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin-top: 40px;
+}
+
+.gqa-feature {
+  background: var(--gqa-white);
+  border: 1px solid var(--gqa-pearl);
+  padding: 28px;
+}
+
+.gqa-feature svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--gqa-teal);
+  margin-bottom: 16px;
+}
+
+.gqa-feature h3 {
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: 1.18rem;
+  margin-bottom: 8px;
+}
+
+.gqa-feature p {
+  font-size: .92rem;
+  color: var(--gqa-muted);
+  line-height: 1.65;
+}
+
+/* --------------------------------------------------------------------------
+   Reviews: quotes set like wall labels
+   -------------------------------------------------------------------------- */
+
+.gqa-review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+  margin-top: 40px;
+}
+
+.gqa-review-card {
+  background: var(--gqa-white);
+  border: 1px solid var(--gqa-pearl);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gqa-review-stars {
+  color: var(--gqa-teal);
+  letter-spacing: .16em;
+  font-size: .85rem;
+  margin-bottom: 14px;
+}
+
+.gqa-review-card blockquote {
+  font-family: var(--gqa-serif);
+  font-style: italic;
+  font-size: 1.06rem;
+  line-height: 1.6;
+  color: var(--gqa-ink);
+  margin-bottom: 18px;
+  flex: 1;
+}
+
+.gqa-review-name {
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gqa-ink);
+  border-top: 1px solid var(--gqa-pearl);
+  padding-top: 12px;
+}
+
+.gqa-review-role {
+  font-size: .82rem;
+  color: var(--gqa-muted);
+  margin-top: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Pricing
+   -------------------------------------------------------------------------- */
+
+.gqa-price-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 430px));
+  justify-content: center;
+  gap: 26px;
+  margin-top: 40px;
+}
+
+.gqa-price-card {
+  background: var(--gqa-white);
+  border: 1px solid var(--gqa-pearl);
+  padding: 36px 34px;
+  text-align: center;
+}
+
+.gqa-price-card.gqa-price-featured { border-color: var(--gqa-teal); }
+
+.gqa-price-plan {
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--gqa-teal);
+  margin-bottom: 16px;
+}
+
+.gqa-price-figure {
+  font-family: var(--gqa-serif);
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--gqa-ink);
+}
+
+.gqa-price-figure small {
+  font-family: var(--gqa-sans);
+  font-weight: 500;
+  font-size: .92rem;
+  color: var(--gqa-muted);
+}
+
+.gqa-price-local {
+  font-size: .9rem;
+  color: var(--gqa-oxblood);
+  font-weight: 600;
+  margin: 12px 0 20px;
+}
+
+.gqa-price-list {
+  list-style: none;
+  text-align: left;
+  margin: 0 auto 26px;
+  max-width: 300px;
+}
+
+.gqa-price-list li {
+  font-size: .92rem;
+  color: var(--gqa-muted);
+  padding: 7px 0 7px 26px;
+  position: relative;
+}
+
+.gqa-price-list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: var(--gqa-teal);
+  font-weight: 700;
+}
+
+.gqa-price-note {
+  text-align: center;
+  font-size: .92rem;
+  color: var(--gqa-muted);
+  margin-top: 26px;
+}
+
+/* --------------------------------------------------------------------------
+   FAQ: a label list, hairlines only
+   -------------------------------------------------------------------------- */
+
+.gqa-faq {
+  max-width: 780px;
+  margin-top: 40px;
+  border-top: 1px solid var(--gqa-pearl);
+}
+
+.gqa-faq-item {
+  border-bottom: 1px solid var(--gqa-pearl);
+}
+
+.gqa-faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 22px 52px 22px 0;
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: 1.14rem;
+  line-height: 1.35;
+  position: relative;
+}
+
+.gqa-faq-item summary::-webkit-details-marker { display: none; }
+
+.gqa-faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--gqa-sans);
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--gqa-teal);
+}
+
+.gqa-faq-item[open] summary::after { content: "\00D7"; }
+
+.gqa-faq-body {
+  padding: 0 52px 24px 0;
+  font-size: .96rem;
+  color: var(--gqa-muted);
+  line-height: 1.7;
+}
+
+/* --------------------------------------------------------------------------
+   Final CTA + lead form
+   -------------------------------------------------------------------------- */
+
+.gqa-demo-panel {
+  background: var(--gqa-white);
+  border: 1px solid var(--gqa-pearl);
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+}
+
+.gqa-demo-copy { padding: 48px 50px; }
+
+.gqa-demo-copy .gqa-h2 { margin-bottom: 16px; }
+
+.gqa-demo-copy p {
+  font-size: .98rem;
+  color: var(--gqa-muted);
+  margin-bottom: 16px;
+}
+
+.gqa-demo-form-col {
+  border-left: 1px solid var(--gqa-pearl);
+  padding: 48px 50px;
+}
+
+.gqa-leadform {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.gqa-leadform input,
+.gqa-leadform select {
+  font-family: var(--gqa-sans);
+  font-size: .95rem;
+  color: var(--gqa-ink);
+  background: var(--gqa-alabaster);
+  border: 1px solid var(--gqa-pearl);
+  border-radius: 0;
+  padding: 14px 16px;
+  width: 100%;
+}
+
+.gqa-leadform input::placeholder { color: var(--gqa-muted); }
+
+.gqa-leadform select:invalid { color: var(--gqa-muted); }
+
+.gqa-leadform button[type="submit"] {
+  background: var(--gqa-teal);
+  color: var(--gqa-alabaster);
+  font-family: var(--gqa-sans);
+  font-weight: 600;
+  font-size: .95rem;
+  padding: 16px 30px;
+  border: 1px solid var(--gqa-teal);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+
+.gqa-leadform button[type="submit"]:hover { background: var(--gqa-teal-deep); }
+
+.gqa-leadform button[type="submit"]:disabled {
+  opacity: .65;
+  cursor: default;
+}
+
+.gqa-form-fine {
+  font-size: .8rem;
+  color: var(--gqa-muted);
+  text-align: center;
+}
+
+.gqa-form-ok {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gqa-teal);
+  padding: 20px 0;
+}
+
+/* --------------------------------------------------------------------------
+   Footer: the one dark surface
+   -------------------------------------------------------------------------- */
+
+.gqa-footer {
+  background: var(--gqa-ink);
+  color: var(--gqa-alabaster);
+  padding: 72px 0 36px;
+  margin-top: 0;
+}
+
+.gqa-footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.gqa-footer-brand {
+  font-family: var(--gqa-serif);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 14px;
+}
+
+.gqa-footer p {
+  font-size: .88rem;
+  color: rgba(248, 247, 244, .72);
+  line-height: 1.65;
+  max-width: 320px;
+}
+
+.gqa-footer h4 {
+  font-family: var(--gqa-sans);
+  font-weight: 600;
+  font-size: .68rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: rgba(248, 247, 244, .55);
+  margin-bottom: 16px;
+}
+
+.gqa-footer-links { list-style: none; }
+
+.gqa-footer-links li { margin-bottom: 10px; }
+
+.gqa-footer-links a {
+  color: rgba(248, 247, 244, .85);
+  text-decoration: none;
+  font-size: .9rem;
+}
+
+.gqa-footer-links a:hover {
+  color: var(--gqa-alabaster);
+  text-decoration: underline;
+}
+
+.gqa-footer-bottom {
+  border-top: 1px solid rgba(200, 205, 208, .25);
+  padding-top: 24px;
+  font-size: .82rem;
+  color: rgba(248, 247, 244, .55);
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 980px) {
+  .gqa-course-grid,
+  .gqa-feature-grid,
+  .gqa-review-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .gqa-hero { padding: 64px 0 60px; }
+
+  .gqa-hero-grid { grid-template-columns: 1fr; gap: 44px; }
+
+  .gqa-plaque { max-width: 460px; }
+
+  .gqa-register-item {
+    grid-template-columns: 48px 1fr;
+  }
+
+  .gqa-register-item h3 { margin-bottom: 6px; }
+
+  .gqa-register-item p { grid-column: 2; }
+
+  .gqa-footer-grid { grid-template-columns: 1fr 1fr; }
+
+  .gqa-demo-panel { grid-template-columns: 1fr; }
+
+  .gqa-demo-form-col {
+    border-left: none;
+    border-top: 1px solid var(--gqa-pearl);
+  }
+
+  .gqa-syllabus-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 26px 0;
+  }
+}
+
+@media (max-width: 720px) {
+  body.gqa-body { font-size: 1rem; }
+
+  .gqa-nav-links { display: none; }
+
+  .gqa-nav-inner { gap: 14px; height: 64px; }
+
+  .gqa-nav-brand { white-space: nowrap; font-size: 1rem; }
+
+  .gqa-nav-brand .gqa-brand-tag { display: none; }
+
+  .gqa-hero { padding: 52px 0 48px; }
+
+  .gqa-section { padding: 64px 0; }
+
+  .gqa-course-group-head {
+    flex-wrap: wrap;
+    row-gap: 2px;
+  }
+
+  .gqa-course-group-head span {
+    margin-left: 0;
+    flex-basis: 100%;
+  }
+
+  .gqa-course-grid,
+  .gqa-feature-grid,
+  .gqa-review-grid,
+  .gqa-hub-grid,
+  .gqa-price-grid { grid-template-columns: 1fr; }
+
+  .gqa-register-item {
+    grid-template-columns: 40px 1fr;
+    gap: 16px;
+    padding: 22px 0;
+  }
+
+  .gqa-hero-ctas .gqa-btn,
+  .gqa-hero-ctas .gqa-btn-ghost {
+    width: 100%;
+    text-align: center;
+  }
+
+  .gqa-demo-copy,
+  .gqa-demo-form-col { padding: 30px 26px; }
+
+  .gqa-footer-grid { grid-template-columns: 1fr; }
+}
