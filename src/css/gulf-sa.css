@@ -1,0 +1,1028 @@
+/* ==========================================================================
+   Gulf cluster: Saudi Arabia "Sadu" identity
+   Prefix: gsa-
+   Editorial, print-influenced, light. Ivory paper ground, ink text,
+   maroon + palm accents, Al-Sadu woven band motifs as pure CSS.
+   Fonts: Zilla Slab (headings) + Inter (body), loaded per page.
+   ========================================================================== */
+
+:root {
+  --gsa-ivory: #F7F3EA;
+  --gsa-ink: #2B2118;
+  --gsa-maroon: #7A2E2E;
+  --gsa-maroon-deep: #632424;
+  --gsa-palm: #2E5E3F;
+  --gsa-sand: #D9CBB0;
+  --gsa-sand-soft: #EDE5D3;
+  --gsa-white: #FFFFFF;
+  --gsa-muted: #5C4F42;
+  --gsa-serif: 'Zilla Slab', 'Georgia', serif;
+  --gsa-sans: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+  --gsa-shadow: 0 1px 2px rgba(43, 33, 24, .06);
+  --gsa-wrap: 1120px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body.gsa-body {
+  background: var(--gsa-ivory);
+  color: var(--gsa-ink);
+  font-family: var(--gsa-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img { max-width: 100%; display: block; }
+
+a { color: var(--gsa-maroon); }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--gsa-palm);
+  outline-offset: 2px;
+}
+
+.gsa-wrap {
+  max-width: var(--gsa-wrap);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* --------------------------------------------------------------------------
+   Sadu band motif: a woven divider strip
+   -------------------------------------------------------------------------- */
+
+.gsa-band {
+  height: 10px;
+  border-top: 1px solid var(--gsa-sand);
+  border-bottom: 1px solid var(--gsa-sand);
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(122, 46, 46, .50) 0 6px,
+    rgba(237, 229, 211, .95) 6px 12px,
+    rgba(46, 94, 63, .40) 12px 18px,
+    rgba(237, 229, 211, .95) 18px 24px,
+    rgba(217, 203, 176, .85) 24px 30px,
+    rgba(237, 229, 211, .95) 30px 36px
+  );
+}
+
+/* --------------------------------------------------------------------------
+   Nav
+   -------------------------------------------------------------------------- */
+
+.gsa-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--gsa-ivory);
+  border-bottom: 1px solid var(--gsa-sand);
+}
+
+.gsa-nav-inner {
+  max-width: var(--gsa-wrap);
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.gsa-nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--gsa-ink);
+  font-family: var(--gsa-serif);
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: .01em;
+  margin-right: auto;
+}
+
+.gsa-nav-brand img { width: 34px; height: 34px; }
+
+.gsa-nav-brand .gsa-brand-tag {
+  font-family: var(--gsa-sans);
+  font-weight: 600;
+  font-size: .66rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gsa-maroon);
+  border: 1px solid var(--gsa-sand);
+  padding: 2px 7px;
+  border-radius: 2px;
+  background: var(--gsa-white);
+}
+
+.gsa-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  list-style: none;
+}
+
+.gsa-nav-links a {
+  text-decoration: none;
+  color: var(--gsa-ink);
+  font-size: .93rem;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  padding: 4px 0;
+}
+
+.gsa-nav-links a:hover { border-bottom-color: var(--gsa-maroon); }
+
+/* --------------------------------------------------------------------------
+   Buttons
+   -------------------------------------------------------------------------- */
+
+.gsa-btn {
+  display: inline-block;
+  background: var(--gsa-maroon);
+  color: var(--gsa-ivory);
+  font-family: var(--gsa-sans);
+  font-weight: 600;
+  font-size: .97rem;
+  line-height: 1;
+  padding: 15px 26px;
+  border: 1px solid var(--gsa-maroon);
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+
+.gsa-btn:hover { background: var(--gsa-maroon-deep); }
+
+.gsa-btn-ghost {
+  display: inline-block;
+  background: transparent;
+  color: var(--gsa-ink);
+  font-family: var(--gsa-sans);
+  font-weight: 600;
+  font-size: .97rem;
+  line-height: 1;
+  padding: 15px 26px;
+  border: 1px solid var(--gsa-ink);
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+
+.gsa-btn-ghost:hover { background: var(--gsa-sand-soft); }
+
+.gsa-btn-ghost.gsa-btn-palm {
+  color: var(--gsa-palm);
+  border-color: var(--gsa-palm);
+}
+
+.gsa-btn-ghost.gsa-btn-palm:hover { background: rgba(46, 94, 63, .07); }
+
+.gsa-nav .gsa-btn { padding: 11px 18px; font-size: .88rem; }
+
+/* --------------------------------------------------------------------------
+   Hero
+   -------------------------------------------------------------------------- */
+
+.gsa-hero { padding: 64px 0 56px; }
+
+.gsa-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  gap: 56px;
+  align-items: stretch;
+}
+
+.gsa-kicker {
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--gsa-palm);
+  margin-bottom: 18px;
+}
+
+.gsa-h1 {
+  font-family: var(--gsa-serif);
+  font-weight: 700;
+  font-size: clamp(2.3rem, 5vw, 3.6rem);
+  line-height: 1.08;
+  letter-spacing: -.01em;
+  color: var(--gsa-ink);
+  margin-bottom: 22px;
+}
+
+.gsa-h1 em {
+  font-style: normal;
+  color: var(--gsa-maroon);
+}
+
+.gsa-hero-lede {
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: var(--gsa-muted);
+  max-width: 620px;
+  margin-bottom: 14px;
+}
+
+.gsa-hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 28px 0 20px;
+}
+
+.gsa-trust {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: .92rem;
+  color: var(--gsa-ink);
+  font-weight: 500;
+}
+
+.gsa-trust .gsa-stars {
+  color: var(--gsa-maroon);
+  letter-spacing: .12em;
+  font-size: .95rem;
+}
+
+/* Woven side panel: pure CSS Sadu runner */
+.gsa-weave {
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  min-height: 320px;
+  background-image:
+    repeating-linear-gradient(45deg, rgba(247, 243, 234, .14) 0 2px, transparent 2px 7px),
+    repeating-linear-gradient(
+      180deg,
+      var(--gsa-maroon) 0 16px,
+      var(--gsa-ivory) 16px 20px,
+      var(--gsa-palm) 20px 28px,
+      var(--gsa-ivory) 28px 32px,
+      var(--gsa-sand) 32px 52px,
+      var(--gsa-ivory) 52px 56px,
+      var(--gsa-maroon) 56px 62px,
+      var(--gsa-ivory) 62px 76px
+    );
+}
+
+/* --------------------------------------------------------------------------
+   Sections
+   -------------------------------------------------------------------------- */
+
+.gsa-section {
+  padding: 72px 0;
+  scroll-margin-top: 84px;
+}
+
+.gsa-section-white {
+  background: var(--gsa-white);
+  border-top: 1px solid var(--gsa-sand);
+  border-bottom: 1px solid var(--gsa-sand);
+}
+
+.gsa-eyebrow {
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--gsa-maroon);
+  margin-bottom: 12px;
+}
+
+.gsa-h2 {
+  font-family: var(--gsa-serif);
+  font-weight: 700;
+  font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.gsa-h3 {
+  font-family: var(--gsa-serif);
+  font-weight: 600;
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+}
+
+.gsa-lede {
+  font-size: 1.06rem;
+  color: var(--gsa-muted);
+  max-width: 720px;
+  margin-bottom: 12px;
+}
+
+.gsa-prose { max-width: 760px; }
+
+.gsa-prose p { margin-bottom: 16px; }
+
+.gsa-prose strong { color: var(--gsa-ink); }
+
+.gsa-prose ul {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+.gsa-prose li {
+  margin-bottom: 10px;
+  color: var(--gsa-muted);
+}
+
+.gsa-prose .gsa-h3 { margin-top: 34px; }
+
+/* --------------------------------------------------------------------------
+   Anchor pills
+   -------------------------------------------------------------------------- */
+
+.gsa-anchor-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 8px;
+}
+
+.gsa-pill {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--gsa-ink);
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  padding: 8px 16px;
+  font-size: .88rem;
+  font-weight: 500;
+}
+
+.gsa-pill:hover {
+  border-color: var(--gsa-maroon);
+  color: var(--gsa-maroon);
+}
+
+/* --------------------------------------------------------------------------
+   Course cards
+   -------------------------------------------------------------------------- */
+
+.gsa-course-group {
+  margin-top: 44px;
+  scroll-margin-top: 84px;
+}
+
+.gsa-course-group-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  border-bottom: 1px solid var(--gsa-sand);
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+}
+
+.gsa-course-group-head .gsa-h3 { margin-bottom: 0; }
+
+.gsa-course-group-head span {
+  font-size: .85rem;
+  color: var(--gsa-muted);
+}
+
+.gsa-course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.gsa-course-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  box-shadow: var(--gsa-shadow);
+  text-decoration: none;
+  color: var(--gsa-ink);
+  overflow: hidden;
+  transition: border-color .15s ease;
+}
+
+.gsa-course-card:hover { border-color: var(--gsa-maroon); }
+
+.gsa-course-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--gsa-sand);
+}
+
+.gsa-course-card-body { padding: 18px 18px 20px; }
+
+.gsa-course-card-title {
+  font-family: var(--gsa-serif);
+  font-weight: 600;
+  font-size: 1.12rem;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.gsa-course-card:hover .gsa-course-card-title { color: var(--gsa-maroon); }
+
+.gsa-course-card-desc {
+  font-size: .9rem;
+  color: var(--gsa-muted);
+  line-height: 1.55;
+}
+
+.gsa-course-card-go {
+  margin-top: 12px;
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--gsa-maroon);
+}
+
+/* --------------------------------------------------------------------------
+   Hub: city and topic links
+   -------------------------------------------------------------------------- */
+
+.gsa-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 32px;
+}
+
+.gsa-hub-card {
+  display: block;
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-left: 4px solid var(--gsa-maroon);
+  border-radius: 2px;
+  padding: 20px 22px;
+  text-decoration: none;
+  color: var(--gsa-ink);
+  box-shadow: var(--gsa-shadow);
+  transition: border-color .15s ease;
+}
+
+.gsa-hub-card:hover { border-color: var(--gsa-maroon); }
+
+.gsa-hub-card .gsa-hub-title {
+  font-family: var(--gsa-serif);
+  font-weight: 600;
+  font-size: 1.08rem;
+  margin-bottom: 6px;
+}
+
+.gsa-hub-card p {
+  font-size: .88rem;
+  color: var(--gsa-muted);
+  line-height: 1.5;
+}
+
+/* --------------------------------------------------------------------------
+   Numbered steps (how classes work)
+   -------------------------------------------------------------------------- */
+
+.gsa-steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 32px;
+  counter-reset: gsa-step;
+}
+
+.gsa-step {
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  padding: 22px 24px;
+  box-shadow: var(--gsa-shadow);
+  counter-increment: gsa-step;
+}
+
+.gsa-step::before {
+  content: counter(gsa-step, decimal-leading-zero);
+  display: block;
+  font-family: var(--gsa-serif);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--gsa-maroon);
+  border-bottom: 1px solid var(--gsa-sand);
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  letter-spacing: .08em;
+}
+
+.gsa-step h3 {
+  font-family: var(--gsa-serif);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+}
+
+.gsa-step p {
+  font-size: .93rem;
+  color: var(--gsa-muted);
+  line-height: 1.6;
+}
+
+/* --------------------------------------------------------------------------
+   Syllabus arc (depth section)
+   -------------------------------------------------------------------------- */
+
+.gsa-syllabus {
+  margin-top: 32px;
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  background: var(--gsa-white);
+  box-shadow: var(--gsa-shadow);
+}
+
+.gsa-syllabus-row {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+  padding: 26px 28px;
+  border-bottom: 1px solid var(--gsa-sand);
+}
+
+.gsa-syllabus-row:last-child { border-bottom: none; }
+
+.gsa-syllabus-stage {
+  font-family: var(--gsa-serif);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--gsa-maroon);
+  line-height: 1.35;
+}
+
+.gsa-syllabus-stage small {
+  display: block;
+  font-family: var(--gsa-sans);
+  font-weight: 500;
+  font-size: .78rem;
+  color: var(--gsa-muted);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.gsa-syllabus-body p {
+  font-size: .95rem;
+  color: var(--gsa-ink);
+  line-height: 1.65;
+  margin-bottom: 8px;
+}
+
+.gsa-syllabus-body p:last-child { margin-bottom: 0; }
+
+/* --------------------------------------------------------------------------
+   Feature grid (why families choose us)
+   -------------------------------------------------------------------------- */
+
+.gsa-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 32px;
+}
+
+.gsa-feature {
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  padding: 24px;
+  box-shadow: var(--gsa-shadow);
+}
+
+.gsa-feature svg {
+  width: 26px;
+  height: 26px;
+  stroke: var(--gsa-palm);
+  margin-bottom: 14px;
+}
+
+.gsa-feature h3 {
+  font-family: var(--gsa-serif);
+  font-weight: 600;
+  font-size: 1.12rem;
+  margin-bottom: 8px;
+}
+
+.gsa-feature p {
+  font-size: .92rem;
+  color: var(--gsa-muted);
+  line-height: 1.6;
+}
+
+/* --------------------------------------------------------------------------
+   Reviews
+   -------------------------------------------------------------------------- */
+
+.gsa-review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 32px;
+}
+
+.gsa-review-card {
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-top: 4px solid var(--gsa-maroon);
+  border-radius: 2px;
+  padding: 24px;
+  box-shadow: var(--gsa-shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.gsa-review-stars {
+  color: var(--gsa-maroon);
+  letter-spacing: .14em;
+  font-size: .9rem;
+  margin-bottom: 12px;
+}
+
+.gsa-review-card blockquote {
+  font-size: .95rem;
+  line-height: 1.65;
+  color: var(--gsa-ink);
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+.gsa-review-name {
+  font-family: var(--gsa-serif);
+  font-weight: 600;
+  font-size: .98rem;
+}
+
+.gsa-review-role {
+  font-size: .82rem;
+  color: var(--gsa-muted);
+}
+
+/* --------------------------------------------------------------------------
+   Pricing
+   -------------------------------------------------------------------------- */
+
+.gsa-price-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 420px));
+  justify-content: center;
+  gap: 22px;
+  margin-top: 32px;
+}
+
+.gsa-price-card {
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  padding: 30px 28px;
+  box-shadow: var(--gsa-shadow);
+  text-align: center;
+}
+
+.gsa-price-card.gsa-price-featured { border: 2px solid var(--gsa-maroon); }
+
+.gsa-price-plan {
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gsa-palm);
+  margin-bottom: 12px;
+}
+
+.gsa-price-figure {
+  font-family: var(--gsa-serif);
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--gsa-ink);
+}
+
+.gsa-price-figure small {
+  font-family: var(--gsa-sans);
+  font-weight: 500;
+  font-size: .95rem;
+  color: var(--gsa-muted);
+}
+
+.gsa-price-local {
+  font-size: .92rem;
+  color: var(--gsa-maroon);
+  font-weight: 600;
+  margin: 10px 0 16px;
+}
+
+.gsa-price-list {
+  list-style: none;
+  text-align: left;
+  margin: 0 auto 22px;
+  max-width: 300px;
+}
+
+.gsa-price-list li {
+  font-size: .92rem;
+  color: var(--gsa-muted);
+  padding: 6px 0 6px 24px;
+  position: relative;
+}
+
+.gsa-price-list li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: var(--gsa-palm);
+  font-weight: 700;
+}
+
+.gsa-price-note {
+  text-align: center;
+  font-size: .92rem;
+  color: var(--gsa-muted);
+  margin-top: 22px;
+}
+
+/* --------------------------------------------------------------------------
+   FAQ
+   -------------------------------------------------------------------------- */
+
+.gsa-faq {
+  max-width: 800px;
+  margin-top: 32px;
+}
+
+.gsa-faq-item {
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  margin-bottom: 12px;
+  box-shadow: var(--gsa-shadow);
+}
+
+.gsa-faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 18px 22px;
+  font-family: var(--gsa-serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  position: relative;
+  padding-right: 48px;
+}
+
+.gsa-faq-item summary::-webkit-details-marker { display: none; }
+
+.gsa-faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--gsa-sans);
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--gsa-maroon);
+}
+
+.gsa-faq-item[open] summary::after { content: "\2212"; }
+
+.gsa-faq-item[open] summary { border-bottom: 1px solid var(--gsa-sand); }
+
+.gsa-faq-body {
+  padding: 18px 22px;
+  font-size: .95rem;
+  color: var(--gsa-muted);
+  line-height: 1.65;
+}
+
+/* --------------------------------------------------------------------------
+   Final CTA + lead form
+   -------------------------------------------------------------------------- */
+
+.gsa-demo-panel {
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  box-shadow: var(--gsa-shadow);
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  overflow: hidden;
+}
+
+.gsa-demo-copy { padding: 40px 42px; }
+
+.gsa-demo-copy .gsa-h2 { margin-bottom: 14px; }
+
+.gsa-demo-copy p {
+  font-size: .98rem;
+  color: var(--gsa-muted);
+  margin-bottom: 14px;
+}
+
+.gsa-demo-form-col {
+  background: var(--gsa-sand-soft);
+  border-left: 1px solid var(--gsa-sand);
+  padding: 40px 42px;
+}
+
+.gsa-leadform {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.gsa-leadform input,
+.gsa-leadform select {
+  font-family: var(--gsa-sans);
+  font-size: .95rem;
+  color: var(--gsa-ink);
+  background: var(--gsa-white);
+  border: 1px solid var(--gsa-sand);
+  border-radius: 2px;
+  padding: 13px 14px;
+  width: 100%;
+}
+
+.gsa-leadform input::placeholder { color: var(--gsa-muted); }
+
+.gsa-leadform select:invalid { color: var(--gsa-muted); }
+
+.gsa-leadform button[type="submit"] {
+  background: var(--gsa-maroon);
+  color: var(--gsa-ivory);
+  font-family: var(--gsa-sans);
+  font-weight: 600;
+  font-size: .97rem;
+  padding: 15px 26px;
+  border: 1px solid var(--gsa-maroon);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+
+.gsa-leadform button[type="submit"]:hover { background: var(--gsa-maroon-deep); }
+
+.gsa-leadform button[type="submit"]:disabled {
+  opacity: .65;
+  cursor: default;
+}
+
+.gsa-form-fine {
+  font-size: .8rem;
+  color: var(--gsa-muted);
+  text-align: center;
+}
+
+.gsa-form-ok {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gsa-palm);
+  padding: 20px 0;
+}
+
+/* --------------------------------------------------------------------------
+   Footer (the one permitted dark surface)
+   -------------------------------------------------------------------------- */
+
+.gsa-footer {
+  background: var(--gsa-ink);
+  color: var(--gsa-ivory);
+  padding: 56px 0 32px;
+}
+
+.gsa-footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 36px;
+  margin-bottom: 40px;
+}
+
+.gsa-footer-brand {
+  font-family: var(--gsa-serif);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.gsa-footer p {
+  font-size: .88rem;
+  color: rgba(247, 243, 234, .75);
+  line-height: 1.6;
+  max-width: 320px;
+}
+
+.gsa-footer h4 {
+  font-family: var(--gsa-sans);
+  font-weight: 600;
+  font-size: .78rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gsa-sand);
+  margin-bottom: 14px;
+}
+
+.gsa-footer-links { list-style: none; }
+
+.gsa-footer-links li { margin-bottom: 9px; }
+
+.gsa-footer-links a {
+  color: rgba(247, 243, 234, .85);
+  text-decoration: none;
+  font-size: .9rem;
+}
+
+.gsa-footer-links a:hover {
+  color: var(--gsa-ivory);
+  text-decoration: underline;
+}
+
+.gsa-footer-bottom {
+  border-top: 1px solid rgba(217, 203, 176, .25);
+  padding-top: 22px;
+  font-size: .82rem;
+  color: rgba(247, 243, 234, .6);
+}
+
+/* --------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 980px) {
+  .gsa-course-grid,
+  .gsa-feature-grid,
+  .gsa-review-grid,
+  .gsa-hub-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .gsa-hero-grid { grid-template-columns: 1fr; }
+
+  .gsa-weave {
+    min-height: 0;
+    height: 46px;
+  }
+
+  .gsa-footer-grid { grid-template-columns: 1fr 1fr; }
+
+  .gsa-demo-panel { grid-template-columns: 1fr; }
+
+  .gsa-demo-form-col {
+    border-left: none;
+    border-top: 1px solid var(--gsa-sand);
+  }
+
+  .gsa-syllabus-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 720px) {
+  body.gsa-body { font-size: 1rem; }
+
+  .gsa-nav-links { display: none; }
+
+  .gsa-nav-inner { gap: 14px; }
+
+  .gsa-nav-brand { white-space: nowrap; font-size: 1rem; }
+
+  .gsa-nav-brand .gsa-brand-tag { display: none; }
+
+  .gsa-course-group-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .gsa-hero { padding: 44px 0 40px; }
+
+  .gsa-section { padding: 52px 0; }
+
+  .gsa-course-grid,
+  .gsa-feature-grid,
+  .gsa-review-grid,
+  .gsa-hub-grid,
+  .gsa-steps,
+  .gsa-price-grid { grid-template-columns: 1fr; }
+
+  .gsa-hero-ctas .gsa-btn,
+  .gsa-hero-ctas .gsa-btn-ghost {
+    width: 100%;
+    text-align: center;
+  }
+
+  .gsa-demo-copy,
+  .gsa-demo-form-col { padding: 28px 24px; }
+
+  .gsa-footer-grid { grid-template-columns: 1fr; }
+}
