@@ -1,0 +1,555 @@
+{
+  "meta": {
+    "slug": "data-science-course-for-teens-python-data",
+    "title": "Data Science for Teens: Python, Real Datasets, and First Machine Learning",
+    "description": "Data science course for teens ages 14-18: live classes on pandas, cleaning real datasets, matplotlib, statistics, and first ML models with scikit-learn.",
+    "keywords": [
+      "data science course for teens",
+      "python data science for high school students",
+      "pandas course for beginners",
+      "machine learning for teens",
+      "data analysis course online",
+      "scikit-learn beginner course",
+      "matplotlib data visualization course",
+      "data science classes for teenagers india"
+    ],
+    "category": "Data Science",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Ages 14 to 18, basic Python required",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "data-science-teens.png"
+  },
+  "program_overview": {
+    "title": "Data Science for Teens",
+    "tagline": "Real datasets, honest charts, and a first machine learning model that the student can actually explain.",
+    "description": "Data science is the rare school-age subject where the professional tools are free and the real material, actual datasets about movies, sport, cities, and climate, is sitting in public archives waiting to be questioned. This 6-month live course teaches teens to do the real thing: load data with pandas, clean it honestly, chart it with matplotlib without lying, reason about it with statistics, and finally train first machine learning models with scikit-learn and understand what they did.\n\nThe course is deliberately anti-hype. Students learn that most of data science is careful cleaning and honest questions, that a chart can mislead and how not to let it, and that a model is only as good as the data and the person reading its results. It ends with a data-story capstone: each student picks a question they care about, finds the data, does the analysis end to end, and presents a notebook that shows their reasoning. Basic Python is required; our Python for Teens course is the natural on-ramp for students who need it.",
+    "what_makes_this_different": [
+      "Real public datasets from the second month: movies, sports seasons, city open data, and climate records, not sanitized textbook tables",
+      "A whole month on cleaning, because that is the actual job, and students learn to log every cleaning decision like professionals",
+      "Honest charts are treated as an ethical skill: a full lesson on how visualizations mislead and how to avoid it",
+      "Statistics taught for use, not for the exam: when the mean lies, what correlation does not prove",
+      "Machine learning arrives late and lands properly: train-test splits and simple models the student can explain, not black-box demos",
+      "The capstone is a question the student chose, answered end to end in a notebook they present and publish"
+    ],
+    "learning_path": {
+      "phase_1": "Python tuned for data, then pandas: loading, filtering, grouping, and joining real datasets until table thinking is second nature",
+      "phase_2": "The craft: a full month cleaning genuinely messy data, then matplotlib and the discipline of charts that tell the truth",
+      "phase_3": "Statistics for judgment, first models with scikit-learn, and a capstone data story built from a question the student chose"
+    },
+    "career_outcomes": [
+      "A published capstone notebook answering a real question with real data, end to end",
+      "Working fluency in pandas, matplotlib, and scikit-learn, the exact stack used in real analysis work",
+      "Statistical judgment: knowing what a number can and cannot support, a skill that transfers to every subject",
+      "A concrete head start for college data science, economics, and science coursework"
+    ]
+  },
+  "phase_1_python_and_pandas": {
+    "title": "PHASE 1: Python for Data and the pandas Toolkit (Months 1-2, Weeks 1-8)",
+    "description": "First the Python muscles data work leans on, retrained in notebooks. Then pandas, the tool that turns tables of raw data into answers.",
+    "month_1_python_for_data": {
+      "title": "Month 1: Python, Retuned for Data",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Notebooks and the Python Refresh",
+        "topics": [
+          "Google Colab and Jupyter notebooks: why data work lives in cells, not scripts",
+          "Refresh: variables, lists, and dictionaries through data-flavored exercises",
+          "Refresh: loops and conditionals over collections of records",
+          "Markdown cells: notes and reasoning next to code",
+          "Notebook habits: run order, restarts, and the stale-state trap",
+          "The course map: where pandas, charts, and models fit"
+        ],
+        "projects": [
+          "Class survey analysis, round one: collect a small class survey and answer three questions about it with plain Python"
+        ],
+        "practice": "12 refresh exercises on lists and dictionaries, all phrased as data questions"
+      },
+      "week_2": {
+        "title": "Functions and Files",
+        "topics": [
+          "Refresh: writing and calling functions that transform data",
+          "Reading files: opening a CSV by hand with the csv module",
+          "What a CSV actually is: rows, delimiters, and headers",
+          "Building lists of dictionaries from raw rows",
+          "Writing results back out to a file",
+          "Why this manual work matters: understanding what pandas automates"
+        ],
+        "projects": [
+          "Hand-rolled report: read a 500-row CSV with plain Python and compute totals, averages, and a top-five list"
+        ],
+        "practice": "Write three reusable functions: load a CSV, filter rows by a condition, summarize a column"
+      },
+      "week_3": {
+        "title": "Thinking in Tables",
+        "topics": [
+          "Rows as records, columns as variables: the table mental model",
+          "Data types in the wild: numbers, text, dates, and categories",
+          "First contact with messy data: a deliberately imperfect dataset",
+          "Questions data can answer, and questions it cannot",
+          "From question to query: translating curiosity into precise operations",
+          "Sources of real data: open data portals and public archives, toured live"
+        ],
+        "projects": [
+          "Question workshop: pick a public dataset, write five precise questions about it, and classify which are answerable from the columns present"
+        ],
+        "practice": "Find one dataset about something you personally care about and describe its rows, columns, and types"
+      },
+      "week_4": {
+        "title": "NumPy Essentials",
+        "topics": [
+          "Arrays vs lists: what NumPy is for",
+          "Vectorized operations: arithmetic on whole columns at once",
+          "Useful reductions: sum, mean, min, max, and where they mislead",
+          "Boolean masks: selecting data with conditions, the idea pandas is built on",
+          "A speed demonstration: the same computation with a loop and with NumPy",
+          "Reading NumPy errors without panic"
+        ],
+        "projects": [
+          "Class survey analysis, round two: redo week 1's analysis in NumPy and compare the code side by side"
+        ],
+        "practice": "10 NumPy exercises: masks, reductions, and column arithmetic on a provided dataset",
+        "assessment": "Month 1 check: live notebook exercise combining functions, file reading, and NumPy on a fresh dataset"
+      }
+    },
+    "month_2_pandas": {
+      "title": "Month 2: pandas",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "DataFrames",
+        "topics": [
+          "Series and DataFrames: pandas's two shapes",
+          "Loading CSVs with read_csv and its most useful options",
+          "First-look tools: head, info, describe, and shape",
+          "Selecting columns and rows: loc and iloc without the usual confusion",
+          "Column arithmetic: creating new columns from old ones",
+          "Saving your work: to_csv and keeping raw data untouched"
+        ],
+        "projects": [
+          "First pandas notebook: load a movies dataset and produce a profile of it, size, columns, types, and five first findings"
+        ],
+        "practice": "Load three different datasets and write a three-line profile of each"
+      },
+      "week_6": {
+        "title": "Filtering and Sorting",
+        "topics": [
+          "Boolean masks in pandas: rows matching a condition",
+          "Combining conditions: and, or, and the parentheses that matter",
+          "isin, between, and string contains for readable filters",
+          "Sorting by one and several columns",
+          "nlargest and nsmallest: top-N questions answered directly",
+          "Chaining operations without losing readability"
+        ],
+        "projects": [
+          "Movie interrogation: answer ten ranked questions about the movies dataset, best-rated per decade, longest, most profitable, each as a clean filtered result"
+        ],
+        "practice": "Write and answer eight filter questions of your own on a sports dataset"
+      },
+      "week_7": {
+        "title": "Grouping and Aggregation",
+        "topics": [
+          "value_counts: the fastest first answer in pandas",
+          "groupby: split, apply, combine, drawn before coded",
+          "Aggregations: mean, sum, count, and multiple at once with agg",
+          "Grouping by more than one column",
+          "Sorting grouped results to find leaders and outliers",
+          "Pivot tables, gently: the spreadsheet idea in pandas form"
+        ],
+        "projects": [
+          "Season in review: full statistical breakdown of a sports season, per team and per month, from a raw match-results dataset"
+        ],
+        "practice": "Answer six groupby questions on a dataset of your choice and mark the most surprising result"
+      },
+      "week_8": {
+        "title": "Combining Datasets",
+        "topics": [
+          "concat: stacking datasets that share columns",
+          "merge: joining tables on a shared key, with the four join types in pictures",
+          "What gets lost in a join: rows that match nothing",
+          "Checking a merge: row counts before and after",
+          "Tidying column names and types after combining",
+          "The month project workflow: load, join, group, answer"
+        ],
+        "projects": [
+          "Two-table analysis: join two related datasets, for example city populations with air quality readings, and answer three questions no single table could"
+        ],
+        "practice": "Perform one merge on new data and write two sentences on rows that failed to match and why",
+        "assessment": "Month 2 check: timed pandas practical, six questions on an unseen dataset, filters through joins"
+      }
+    }
+  },
+  "phase_2_cleaning_and_charts": {
+    "title": "PHASE 2: Cleaning Real Data and Charting It Honestly (Months 3-4, Weeks 9-16)",
+    "description": "The craft phase. Real datasets arrive dirty, and most of data science is the disciplined work of fixing them, then showing results without distortion.",
+    "month_3_cleaning": {
+      "title": "Month 3: Cleaning Real Datasets",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Missing Values",
+        "topics": [
+          "Finding the holes: isna, counts, and missingness patterns",
+          "Why data goes missing, and why the reason changes the fix",
+          "Dropping rows or columns: when it is honest and when it hides too much",
+          "Filling values: constants, means, medians, and the trade-offs of each",
+          "The cleaning log: recording every decision and its justification",
+          "Raw data stays raw: cleaned copies, never overwritten originals"
+        ],
+        "projects": [
+          "Missing-value audit: map the missingness of a real open dataset, choose treatments per column, and defend each in your cleaning log"
+        ],
+        "practice": "Apply two different missing-value strategies to the same column and compare how the summary statistics move"
+      },
+      "week_10": {
+        "title": "Wrong Types and Dirty Strings",
+        "topics": [
+          "Numbers trapped in text: currency symbols, commas, and units",
+          "String repair with .str methods: strip, replace, lower, split",
+          "Dates done right: to_datetime and what it makes possible",
+          "Categories with typos: Delhi, delhi, and DELHI as one value",
+          "astype and coercion errors: reading what pandas is telling you",
+          "A repair pipeline: ordered, rerunnable cleaning steps in one notebook section"
+        ],
+        "projects": [
+          "Type rescue: take a scraped price-and-date dataset where every column is text and restore true types, documenting each repair"
+        ],
+        "practice": "Fix eight prepared dirty columns, one repair function each"
+      },
+      "week_11": {
+        "title": "Outliers, Duplicates, and Judgment Calls",
+        "topics": [
+          "Spotting outliers: sorting, describe, and quick plots",
+          "Error or truth: the 190-year-old customer vs the genuine billionaire",
+          "Duplicates: exact, partial, and the drop_duplicates decisions",
+          "The ethics of cleaning: every removal changes the conclusion",
+          "Documenting judgment calls so others can disagree with you fairly",
+          "Sanity checks: totals and counts that must still make sense after cleaning"
+        ],
+        "projects": [
+          "Judgment file: on a dataset seeded with ambiguous outliers and duplicates, decide keep or remove case by case, with one-line justifications"
+        ],
+        "practice": "Trade judgment files with a classmate and write where you disagreed and why"
+      },
+      "week_12": {
+        "title": "The Cleaning Project",
+        "topics": [
+          "A genuinely messy public dataset, start to finish",
+          "Planning the clean: audit first, repair second, verify third",
+          "Combining the month: missingness, types, strings, outliers, duplicates",
+          "Writing the cleaning log as a professional document",
+          "Before-and-after: quantifying what the clean changed",
+          "Delivering an analysis-ready dataset someone else could trust"
+        ],
+        "projects": [
+          "Full cleaning project: raw city open data, for example street trees or road accidents, taken from download to documented, analysis-ready form"
+        ],
+        "practice": "Run your cleaned dataset through five sanity checks and record the results",
+        "assessment": "Month 3 check: cleaning log review plus a defense of three judgment calls in a short viva"
+      }
+    },
+    "month_4_visualization": {
+      "title": "Month 4: Visualization with matplotlib",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "First Charts",
+        "topics": [
+          "The anatomy of a figure: axes, ticks, labels, title, legend",
+          "Line charts: change over time, done cleanly",
+          "Bar charts: comparing categories without clutter",
+          "Scatter plots: two variables meeting for the first time",
+          "Labeling as a duty: a chart must explain itself",
+          "Plotting straight from pandas, and when to drop to matplotlib"
+        ],
+        "projects": [
+          "Three-chart notebook: one line, one bar, one scatter from your cleaned month 3 dataset, each fully labeled"
+        ],
+        "practice": "Recreate two published charts from their underlying data as closely as you can"
+      },
+      "week_14": {
+        "title": "Distributions and the Right Chart",
+        "topics": [
+          "Histograms: seeing the shape of a column",
+          "Bin sizes and how they change the story",
+          "Box plots: medians, quartiles, and outliers at a glance",
+          "Comparing groups: side-by-side boxes and grouped bars",
+          "Choosing the chart from the question, not from habit",
+          "The chart-choice checklist: comparison, trend, distribution, relationship"
+        ],
+        "projects": [
+          "Distribution study: profile three numeric columns with histograms and box plots, and write what each shape reveals"
+        ],
+        "practice": "For six written questions, name the right chart type and justify it in one line each"
+      },
+      "week_15": {
+        "title": "Honest Charts and Polished Figures",
+        "topics": [
+          "How charts mislead: truncated axes, cherry-picked windows, and area tricks",
+          "Fixing a misleading chart without hiding the real pattern",
+          "Multi-panel figures with subplots",
+          "Color with intent: highlighting one series, not decorating all of them",
+          "Annotating the point: arrows and text that guide the reader",
+          "Exporting print-quality figures"
+        ],
+        "projects": [
+          "Mislead and repair: take one truthful chart, make the most misleading legal version of it, then write the repair, a before-and-after pair"
+        ],
+        "practice": "Find one misleading chart in real media and write a three-sentence critique"
+      },
+      "week_16": {
+        "title": "The Four-Chart Data Story",
+        "topics": [
+          "Narrative order: charts arranged as an argument",
+          "One message per chart: trimming everything else",
+          "Writing connective text between figures",
+          "The takeaway figure: your single most important chart",
+          "Presenting figures aloud: saying what to look at",
+          "Peer review: reading a classmate's story cold"
+        ],
+        "projects": [
+          "Mini data story: a four-chart narrative on a dataset of your choice, presented live in five minutes"
+        ],
+        "practice": "Revise your story after peer feedback and note the two changes that most improved it",
+        "assessment": "Month 4 check: data story presentation, graded on chart choice, honesty, and clarity"
+      }
+    }
+  },
+  "phase_3_statistics_ml_capstone": {
+    "title": "PHASE 3: Statistics, First Models, and the Capstone (Months 5-6, Weeks 17-24)",
+    "description": "Statistics gives judgment, scikit-learn gives first models, and the capstone puts it all behind one question the student actually cares about.",
+    "month_5_statistics_and_ml": {
+      "title": "Month 5: Statistics for Judgment, Then First Models",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Describing Data Truthfully",
+        "topics": [
+          "Mean, median, and mode: three centers, three stories",
+          "When the mean lies: income, house prices, and skew",
+          "Spread: range, quartiles, and standard deviation as a feel, not a formula",
+          "Percentiles: where a value really stands",
+          "Summaries that hide things: same mean, wildly different data",
+          "Writing statistical sentences that a non-technical reader cannot misread"
+        ],
+        "projects": [
+          "Two-summary exercise: describe the same real dataset once to flatter it and once to be fair, then annotate the tricks in the flattering version"
+        ],
+        "practice": "Compute and interpret full summaries for three columns of your capstone-candidate dataset"
+      },
+      "week_18": {
+        "title": "Correlation and Its Traps",
+        "topics": [
+          "Correlation as a number: direction and strength on a scatter plot",
+          "Computing correlations in pandas and reading a correlation matrix",
+          "Correlation is not causation: the argument, with famous spurious examples",
+          "Confounders: the hidden third variable, explained through cases",
+          "When correlation is still useful despite the traps",
+          "Reporting a relationship without overclaiming it"
+        ],
+        "projects": [
+          "Correlation hunt: find the three strongest relationships in a real dataset, then argue for each whether causation is even plausible"
+        ],
+        "practice": "Find one spurious correlation in the wild or in the class archive and explain the likely confounder"
+      },
+      "week_19": {
+        "title": "First Machine Learning: Regression",
+        "topics": [
+          "What learning from data means, without mystique",
+          "Features and targets: framing a prediction question",
+          "The train-test split: why we grade models on unseen data",
+          "Linear regression with scikit-learn: fit, predict, inspect",
+          "Reading the model: coefficients as the story it learned",
+          "Error metrics that mean something: how wrong is the model, in real units"
+        ],
+        "projects": [
+          "Price predictor: train a linear regression on a real housing or used-car dataset and report its typical error honestly"
+        ],
+        "practice": "Add one feature to your model, remeasure the error, and write whether it earned its place"
+      },
+      "week_20": {
+        "title": "First Machine Learning: Classification",
+        "topics": [
+          "Classification vs regression: predicting a label instead of a number",
+          "k-nearest neighbors: the friendliest first classifier",
+          "Decision trees: models you can read as rules",
+          "Accuracy and its limits: the imbalanced-classes trap",
+          "The confusion matrix: seeing which mistakes the model makes",
+          "Overfitting: memorizing vs learning, in one intuitive demonstration"
+        ],
+        "projects": [
+          "Penguin classifier: train and compare k-nearest neighbors and a decision tree on the Palmer Penguins dataset, with a confusion matrix for each"
+        ],
+        "practice": "Break your classifier on purpose by shrinking training data, and chart accuracy against training size",
+        "assessment": "Month 5 check: statistics and modeling quiz plus a live reading of your own model's results"
+      }
+    },
+    "month_6_capstone": {
+      "title": "Month 6: The Capstone Data Story",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "The Question and the Data",
+        "topics": [
+          "Choosing a question you actually care about: sport, music, games, city, climate",
+          "Dataset hunting: Kaggle, open data portals, and evaluating what you find",
+          "Feasibility: does this data contain an answer to this question",
+          "Scoping to six weeks of classes: the honest project plan",
+          "Setting up the capstone notebook: sections for question, data, cleaning, analysis, conclusion",
+          "Instructor sign-off on question, dataset, and plan"
+        ],
+        "projects": [
+          "Approved capstone plan: question, dataset, feasibility notes, and a week-by-week checklist"
+        ],
+        "practice": "Complete the data audit of your chosen dataset: size, columns, types, missingness"
+      },
+      "week_22": {
+        "title": "Analysis Sprint",
+        "topics": [
+          "Cleaning your capstone data with a proper cleaning log",
+          "Exploratory analysis: groupbys and filters chasing the question",
+          "First figures: charting what the exploration surfaces",
+          "Mid-sprint review with the instructor: findings so far, gaps remaining",
+          "Following surprises: when the data disagrees with your hunch",
+          "Keeping the notebook readable while you work fast"
+        ],
+        "projects": [
+          "Capstone core analysis: cleaned data, exploratory findings, and first draft figures in the notebook"
+        ],
+        "practice": "Write your three strongest preliminary findings, each backed by one figure"
+      },
+      "week_23": {
+        "title": "The Optional Model and the Narrative",
+        "topics": [
+          "Deciding whether a model helps your question or just decorates it",
+          "If modeling: framing, training, and honest error reporting",
+          "Assembling the narrative: question, data, cleaning, findings, conclusion",
+          "Limitations sections: what your analysis cannot claim, stated plainly",
+          "Polishing figures to month 4 standard",
+          "Dry-run presentations with peer feedback"
+        ],
+        "projects": [
+          "Complete capstone notebook: full narrative from question to conclusion, with a limitations section, model included only if it earns its place"
+        ],
+        "practice": "Run your dry-run presentation for a family member and note the question that stumped you"
+      },
+      "week_24": {
+        "title": "Present and Publish",
+        "topics": [
+          "The final presentation: five minutes, the question, three findings, one takeaway figure",
+          "Fielding questions about your own analysis",
+          "Publishing the notebook to GitHub so it has a public address",
+          "Writing the README: question, data source, and what you found",
+          "Where this goes next: deeper ML, statistics, and college coursework",
+          "Certificates and course close"
+        ],
+        "projects": [
+          "Published capstone: notebook live on GitHub, presented to the class and families"
+        ],
+        "practice": "Send your published notebook to one teacher or mentor outside the course",
+        "assessment": "Capstone assessment: presentation, notebook quality, cleaning log, and honesty of claims"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Class survey analysis, done twice: plain Python, then NumPy",
+      "Movie dataset interrogation: ten ranked questions, ten clean answers",
+      "Sports season statistical review with groupby",
+      "Two-table join analysis across related datasets",
+      "Full cleaning project on raw city open data, with a professional cleaning log",
+      "Mislead-and-repair chart pair: the same data, dishonest then honest",
+      "Four-chart data story presented live",
+      "Housing price regression with honestly reported error",
+      "Penguin species classifier with confusion matrices",
+      "The capstone: a published notebook answering a question the student chose"
+    ],
+    "total_projects_built": "12+ analysis projects, ending with a published capstone notebook on GitHub",
+    "skills_mastered": [
+      "pandas fluency: loading, filtering, grouping, and joining real datasets with confidence",
+      "Data cleaning: missing values, broken types, outliers, and duplicates handled with documented judgment",
+      "Visualization: matplotlib figures chosen for the question and built to tell the truth",
+      "Statistics for judgment: centers, spread, and correlation used without overclaiming",
+      "First machine learning: regression and classification with scikit-learn, evaluated honestly on unseen data",
+      "The analyst's workflow: notebooks, cleaning logs, limitations sections, and presenting findings aloud"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, working in notebooks alongside the instructor",
+      "practice": "2-3 hours of dataset exercises and project work between classes",
+      "review": "Notebooks reviewed with written feedback, with special attention to honest claims and clean reasoning"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, alongside a published capstone notebook that shows the work"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes for stuck code and confusing datasets",
+      "progress_updates": "Regular progress notes to parents: skills covered, projects completed, and what needs practice"
+    }
+  },
+  "prerequisites": {
+    "python_basics": "Required: variables, loops, functions, and lists. Our Python for Teens course is the natural on-ramp if these are missing",
+    "mathematics": "Comfortable school maths. All statistics used is taught inside the course; no calculus is needed",
+    "equipment": "A computer with a modern browser and stable internet. Google Colab means nothing heavy is installed",
+    "age": "14 to 18, matched to the reasoning and statistics content"
+  },
+  "who_is_this_for": {
+    "python_graduates": "Teens who finished a first Python course and want to apply it to something real rather than more syntax",
+    "question_askers": "Students who argue from evidence and want the tools to find it themselves",
+    "future_stem_students": "Teens heading toward engineering, economics, or science degrees where this exact stack appears in year one",
+    "sports_and_stats_fans": "Students who already read tables of standings and averages for fun and want to compute their own",
+    "portfolio_builders": "Teens who want a published, defensible piece of analysis to show teachers and admissions offices"
+  },
+  "career_paths_after_completion": [
+    "Our AI and machine learning courses, which pick up exactly where the scikit-learn month ends",
+    "Deeper Python engineering through our advanced Python and data structures courses",
+    "School science fairs and economics or statistics projects, now backed by real analysis skills",
+    "College coursework in data science, economics, and the sciences with a working head start",
+    "Independent analysis projects: the student now owns the full stack from raw CSV to published notebook"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Does my teen need to know Python before this course?",
+      "answer": "Yes, the basics: variables, loops, functions, and lists. Month 1 includes a structured refresh, but it assumes prior exposure rather than teaching Python from zero. Students without that background should take our Python for Teens course first; it is the natural on-ramp, and many students move straight from one into the other."
+    },
+    {
+      "question": "How much mathematics does the course require?",
+      "answer": "Comfortable school maths is enough. Every statistical idea the course uses, means and medians, spread, percentiles, correlation, is taught inside the course with real data, and there is no calculus anywhere. The emphasis is on judgment: knowing when an average misleads matters far more here than deriving formulas."
+    },
+    {
+      "question": "Is this real machine learning or just a demo?",
+      "answer": "Real, at an honest first level. Students train linear regression and classification models on real datasets with scikit-learn, use proper train-test splits, read confusion matrices, and meet overfitting directly. What we deliberately avoid is black-box theatre: no pasting magic code that scores well unexplained. A student finishing this course can tell you what their model learned and how wrong it typically is, which is more than many adults using these tools can."
+    },
+    {
+      "question": "What datasets will my teen work with?",
+      "answer": "Real public data throughout: movie databases, sports seasons, city open data such as street trees and road accidents, climate records, and the Palmer Penguins dataset for classification. From month 3 the data arrives genuinely messy on purpose, because cleaning real data is the core professional skill. For the capstone, students choose their own dataset around a question they care about."
+    },
+    {
+      "question": "What does the capstone involve?",
+      "answer": "Each student picks a question, finds a suitable public dataset, and does the whole job: cleaning with a documented log, exploratory analysis, honest figures, an optional model if it genuinely helps, and a written conclusion with a limitations section. The finished notebook is published to GitHub and presented live. It is a genuine piece of analysis with a public address, not a classroom-only exercise."
+    },
+    {
+      "question": "What software is needed, and does it cost anything?",
+      "answer": "Everything is free. The course runs in Google Colab, which works in the browser, so pandas, matplotlib, and scikit-learn require no installation and no powerful computer. Any reasonably recent laptop with a stable internet connection is enough."
+    },
+    {
+      "question": "How are the classes taught?",
+      "answer": "Live one-hour online classes, twice a week, in small groups capped at 10 students. Students work in their own notebooks during class rather than watching, and homework notebooks come back with written feedback. Mini-batch (3 to 4 students) and personal 1-on-1 options are available for students who want closer attention."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Where does a teen go after this course?",
+      "answer": "The most common next step is our AI and machine learning track, which starts exactly where the scikit-learn month ends. Students leaning toward engineering deepen their Python with our advanced courses, and many put the skills straight to work in school science fairs and statistics projects. The capstone notebook also carries weight on its own as evidence of real analytical work for college applications."
+    }
+  ]
+}
