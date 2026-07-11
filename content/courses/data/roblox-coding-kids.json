@@ -1,0 +1,556 @@
+{
+  "meta": {
+    "slug": "roblox-game-coding-for-kids-lua-course",
+    "title": "Roblox Game Coding for Kids: Build and Publish Real Games with Luau",
+    "description": "Roblox coding course for kids ages 8-14: live online classes in Roblox Studio and Luau scripting, from first parts to a published game friends can play.",
+    "keywords": [
+      "roblox coding classes for kids",
+      "roblox game development course for kids",
+      "learn roblox studio for beginners",
+      "luau scripting course for kids",
+      "lua programming for children",
+      "make your own roblox game class",
+      "roblox coding course india",
+      "online roblox classes for 8 to 14 year olds",
+      "roblox studio classes live online"
+    ],
+    "category": "Game Development",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Beginner, ages 8 to 14",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "roblox-coding-kids.png"
+  },
+  "program_overview": {
+    "title": "Roblox Game Coding for Kids",
+    "tagline": "Your child already plays Roblox. In six months they publish a game of their own on it.",
+    "description": "Roblox is where millions of kids already spend their screen time, and it hides a genuinely serious tool: Roblox Studio, the free game-making software behind every experience on the platform, scripted in a real programming language called Luau. This 6-month live course turns a player into a maker. Months 1 and 2 cover building in Studio and the first Luau scripts: variables, decisions, loops, and functions, each one changing something visible in a 3D world. Months 3 and 4 bring games to life with events, player interaction, scoring, and checkpoints, which is where an obby stops being a row of parts and starts being a game. Month 5 adds the mechanics kids recognize from games they love: shops, timers, rounds, sound, and polish. Month 6 is the capstone: each student designs, builds, tests, and publishes their own game to Roblox, then presents it.\n\nClasses are live and small, and students build in every single session. Nothing in this course is watch-and-copy: the instructor sets a challenge, watches each student work, and reviews the homework builds between classes.",
+    "what_makes_this_different": [
+      "Students learn Luau, the actual scripting language of Roblox, not a drag-and-drop imitation of it",
+      "Every concept lands inside a 3D world the student built: loops make disco floors, conditionals open doors, functions run traps",
+      "The classic beginner bugs (debounce, anchoring, nil) are taught on purpose, because fixing them is where real understanding starts",
+      "By month 4 students have leaderboards, checkpoints, and coin systems working, the same building blocks behind popular Roblox games",
+      "The capstone is published to Roblox for real, so the finished game has a link a grandparent can open",
+      "Everything used is free: Roblox Studio costs nothing, publishing costs nothing, and no Robux are ever needed"
+    ],
+    "learning_path": {
+      "phase_1": "Builder to scripter: master Roblox Studio's tools, then write first Luau scripts that change the world from code",
+      "phase_2": "Making it a game: events, player interaction, scoring, coins, checkpoints, and on-screen interfaces",
+      "phase_3": "Shops, timers, rounds, and polish, then a capstone game scoped, built, published to Roblox, and presented"
+    },
+    "career_outcomes": [
+      "A published Roblox game with a real link, plus a folder of smaller finished games",
+      "Working knowledge of Luau: variables, conditionals, loops, functions, and events used in real scripts",
+      "The habit of debugging calmly: reading errors, forming a guess, testing it",
+      "A natural bridge to our Python and game development courses, where the same ideas reappear in new languages"
+    ]
+  },
+  "phase_1_studio_and_first_scripts": {
+    "title": "PHASE 1: Studio Skills and First Luau Scripts (Months 1-2, Weeks 1-8)",
+    "description": "First the tools: building worlds in Roblox Studio with confidence. Then the leap every Roblox kid dreams about: writing real Luau code that changes the world by itself.",
+    "month_1_becoming_a_builder": {
+      "title": "Month 1: Becoming a Builder in Roblox Studio",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Welcome to Roblox Studio",
+        "topics": [
+          "Installing Roblox Studio and a tour of the interface: Explorer, Properties, and the 3D viewport",
+          "Camera controls: fly, zoom, and orbit without getting lost",
+          "Creating parts: blocks, spheres, wedges, and cylinders",
+          "Move, scale, and rotate tools, and snapping to the grid",
+          "Play-testing your world with your own avatar",
+          "Saving your work and opening it again next class"
+        ],
+        "projects": [
+          "First playground: a small floating island with ramps, towers, and a jump course to test"
+        ],
+        "practice": "Build a room with four different part shapes, then screenshot your avatar standing on top of it"
+      },
+      "week_2": {
+        "title": "Parts and Properties",
+        "topics": [
+          "The Properties panel: color, material, transparency, and reflectance",
+          "Anchored explained properly: why unanchored builds collapse when you press play",
+          "CanCollide: making walls you can walk through",
+          "Grouping parts into models and naming things in the Explorer",
+          "Duplicating and mirroring to build faster",
+          "Union and negate: cutting holes and making custom shapes"
+        ],
+        "projects": [
+          "Secret hideout: a house with a hidden walk-through wall and a glass floor over a drop"
+        ],
+        "practice": "Property scavenger hunt: recreate five reference parts exactly from their pictures"
+      },
+      "week_3": {
+        "title": "Building a World",
+        "topics": [
+          "Terrain tools: sculpting hills, water, and caves",
+          "Spawn locations and where players appear",
+          "Planning an obby on paper before placing a single part",
+          "Difficulty curves: why the first jump should be easy",
+          "Lighting basics: time of day and atmosphere",
+          "Testing like a stranger: playing your own course as if you had never seen it"
+        ],
+        "projects": [
+          "Obby, part one: a ten-stage jump course across terrain you sculpted yourself"
+        ],
+        "practice": "Add three more stages to your obby, each slightly harder than the last, and have a family member test them"
+      },
+      "week_4": {
+        "title": "Your First Script",
+        "topics": [
+          "What a Script object is and where it lives in the Explorer",
+          "print and the Output window: making the computer talk",
+          "Variables: naming a part in code and holding numbers and words",
+          "Changing a part's color and material from code instead of the mouse",
+          "Reading your first error message without panicking",
+          "Comments: leaving notes for future-you"
+        ],
+        "projects": [
+          "Magic brick: a part that changes color and prints a welcome message the moment the game starts"
+        ],
+        "practice": "Write three scripts that each change a different property of a part, and break one on purpose to read the error",
+        "assessment": "Month 1 build check: a small world using anchoring, grouping, terrain, and one working script, walked through live"
+      }
+    },
+    "month_2_luau_from_zero": {
+      "title": "Month 2: Luau from Zero",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Variables and Values",
+        "topics": [
+          "Numbers, strings, and booleans in Luau",
+          "local and why every variable gets it",
+          "Doing maths in code: changing a part's size and position with numbers",
+          "String concatenation: building messages out of pieces",
+          "Vector3 gently introduced: positions in a 3D world need three numbers",
+          "nil: the most famous value in Roblox scripting"
+        ],
+        "projects": [
+          "Teleporting part: a script that moves a platform to a new position, then a script that grows it step by step"
+        ],
+        "practice": "Ten short scripts: resize, recolor, rename, and reposition parts using only variables and code"
+      },
+      "week_6": {
+        "title": "Making Decisions",
+        "topics": [
+          "if, then, else: teaching a script to choose",
+          "Comparisons: equal, not equal, greater, and less",
+          "Booleans in action: checking if a part is anchored or transparent",
+          "elseif chains for more than two choices",
+          "and, or, not: combining conditions",
+          "Common trap: = for setting, == for asking"
+        ],
+        "projects": [
+          "Weather machine: a script that checks a variable and sets the world to day, night, or fog to match"
+        ],
+        "practice": "Decision drills: a password checker, a size judge that labels parts small or large, and a fix-the-broken-if puzzle"
+      },
+      "week_7": {
+        "title": "Loops",
+        "topics": [
+          "while loops and task.wait: doing something forever, politely",
+          "Blinking, pulsing, and color-cycling parts",
+          "for loops: counting exactly, from disco floors to stairways",
+          "Building with loops: a staircase generated by code in one second",
+          "Loop variables inside the loop body",
+          "Infinite loops without a wait: what happens and how to stop it"
+        ],
+        "projects": [
+          "Disco floor: a grid of tiles that flash random colors forever",
+          "Instant staircase: a for loop that builds a climbable spiral stair"
+        ],
+        "practice": "Loop katas: a countdown announcer, a growing tower, and a part that fades out smoothly step by step"
+      },
+      "week_8": {
+        "title": "Functions",
+        "topics": [
+          "Writing a function: name, parentheses, body, end",
+          "Parameters: one function that colors any part you hand it",
+          "Return values: functions that answer questions",
+          "Why functions matter: change the trap once, fix it everywhere",
+          "Organizing a script into small named functions",
+          "Calling functions from loops: the payoff moment"
+        ],
+        "projects": [
+          "Trap factory: one makeTrap function used to fill an obby stage with ten identical traps in seconds"
+        ],
+        "practice": "Refactor your disco floor and staircase scripts to use functions, then write one new function from a written spec",
+        "assessment": "Month 2 skills check: live coding of three short Luau exercises using variables, if statements, loops, and one function"
+      }
+    }
+  },
+  "phase_2_events_and_game_state": {
+    "title": "PHASE 2: Events, Players, and Keeping Score (Months 3-4, Weeks 9-16)",
+    "description": "Scripts so far ran on their own. Now they respond to players: touched events, health, doors, and traps, then leaderboards, coins, and checkpoints, the machinery every real Roblox game runs on.",
+    "month_3_events_and_players": {
+      "title": "Month 3: Events and Player Interaction",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "The Touched Event",
+        "topics": [
+          "Events: code that waits for something to happen",
+          "part.Touched:Connect and functions as event handlers",
+          "Finding out what touched the part",
+          "Humanoid and character models: how Roblox represents a player",
+          "The classic lava brick, built properly",
+          "Print-debugging events: seeing exactly when they fire"
+        ],
+        "projects": [
+          "Lava stage: an obby section with kill bricks that send careless players back to the start"
+        ],
+        "practice": "Build a safe-path puzzle: nine tiles, some deadly, some safe, with the pattern hidden until touched"
+      },
+      "week_10": {
+        "title": "Changing the Player",
+        "topics": [
+          "Reading and changing Humanoid health",
+          "WalkSpeed and JumpPower: speed pads and super-jumps",
+          "Healing pads and damage zones",
+          "Resetting effects after a delay with task.wait",
+          "Being fair: telling the player what a pad does before it does it",
+          "Testing multiplayer effects with two test players in Studio"
+        ],
+        "projects": [
+          "Power-up alley: a course with speed strips, jump pads, a healing station, and one sneaky slow-down trap"
+        ],
+        "practice": "Design and script one original power-up of your own invention, then write two sentences on how it changes the game"
+      },
+      "week_11": {
+        "title": "Doors, Buttons, and Debounce",
+        "topics": [
+          "Doors that open: toggling Transparency and CanCollide from a touch",
+          "Buttons on the floor and on the wall",
+          "The debounce problem: why your door fires twenty times per step",
+          "Fixing debounce with a boolean flag, the pattern every Roblox scripter knows",
+          "Timed doors that close themselves",
+          "Locked doors: combining a condition with an event"
+        ],
+        "projects": [
+          "Dungeon gate room: a button-operated gate with proper debounce and a door that only opens for players holding the right key part"
+        ],
+        "practice": "Break a working door by removing its debounce, watch the Output flood, then repair it and explain the fix in class"
+      },
+      "week_12": {
+        "title": "Project Week: The Scripted Obby",
+        "topics": [
+          "Combining the month: lava, power-ups, doors, and traps in one course",
+          "Pacing a level: challenge, relief, surprise",
+          "Organizing scripts so each stage's code is findable",
+          "Playtesting a classmate's obby and writing useful feedback",
+          "Fixing the top two problems your testers found",
+          "Naming and Explorer hygiene before a project grows"
+        ],
+        "projects": [
+          "Obby 2.0: a fully scripted multi-stage obby with kill bricks, power-ups, at least one gate, and a victory area"
+        ],
+        "practice": "Run two playtests and log every place a tester got stuck or confused, then fix the worst one",
+        "assessment": "Obby 2.0 demo: live playthrough plus a code walkthrough of one trap, one power-up, and one door"
+      }
+    },
+    "month_4_score_coins_and_checkpoints": {
+      "title": "Month 4: Score, Coins, and Checkpoints",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Leaderboards",
+        "topics": [
+          "leaderstats: the folder-and-value pattern behind every Roblox leaderboard",
+          "IntValue objects and setting them from code",
+          "Players.PlayerAdded: running code when someone joins",
+          "Awarding points from a touched event",
+          "Server scripts vs local effects, kept simple: why the score lives on the server",
+          "Watching the leaderboard update live in a two-player test"
+        ],
+        "projects": [
+          "Point course: a stage where every platform reached for the first time adds points to a live leaderboard"
+        ],
+        "practice": "Add a second leaderboard stat of your choice, such as deaths or stages cleared, and make something update it"
+      },
+      "week_14": {
+        "title": "Collectibles",
+        "topics": [
+          "Coins that spin: rotating parts with a loop",
+          "Collecting: touched event plus destroy, with debounce so one coin pays once",
+          "Adding coins to leaderstats",
+          "Spawning coins with a function instead of copy-paste",
+          "Sound effects on pickup",
+          "Respawning coins after a delay for endless play"
+        ],
+        "projects": [
+          "Coin rush: a field of spinning coins with pickup sounds, a live coin counter, and coins that respawn"
+        ],
+        "practice": "Make a rare golden coin worth ten normal ones and place three somewhere genuinely hard to reach"
+      },
+      "week_15": {
+        "title": "Checkpoints",
+        "topics": [
+          "SpawnLocation objects and how respawning works",
+          "Team-based checkpoints vs scripted checkpoints, and which we use",
+          "Remembering each player's checkpoint in code",
+          "Sending a respawned player to the right stage",
+          "Checkpoint feedback: color change and sound when activated",
+          "Why checkpoints make hard games fair instead of frustrating"
+        ],
+        "projects": [
+          "Checkpoint tower: a vertical obby where falling returns you to your highest activated checkpoint, not the bottom"
+        ],
+        "practice": "Tune your tower: move one checkpoint to the fairest possible spot and defend the choice in one sentence"
+      },
+      "week_16": {
+        "title": "On-Screen Interfaces",
+        "topics": [
+          "ScreenGui, Frame, and TextLabel: putting words on the screen",
+          "Updating a label from code: live coin and timer displays",
+          "TextButton: a clickable button and its event",
+          "Sizing and anchoring GUI so it works on different screens",
+          "A welcome message that appears and fades",
+          "Keeping GUI readable: contrast and size for real players"
+        ],
+        "projects": [
+          "Game HUD: an on-screen coin counter and stage display wired to real leaderstats, plus a welcome banner"
+        ],
+        "practice": "Add one more GUI element of your choice, such as a best-height display or a hint button",
+        "assessment": "Month 4 systems check: coins, checkpoints, leaderboard, and HUD all working together in one place, demonstrated live"
+      }
+    }
+  },
+  "phase_3_mechanics_and_publishing": {
+    "title": "PHASE 3: Real Game Mechanics and the Published Capstone (Months 5-6, Weeks 17-24)",
+    "description": "Shops, timers, rounds, and polish turn a course into a game people replay. Then the capstone month: design, build, playtest, and publish an original game to Roblox.",
+    "month_5_game_mechanics": {
+      "title": "Month 5: Mechanics That Make Games Fun",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "The Shop",
+        "topics": [
+          "Spending coins: checking if a player can afford something",
+          "A shop GUI with buy buttons",
+          "Selling upgrades: speed, jump, and a trail effect",
+          "Subtracting coins and applying the upgrade in one safe function",
+          "Saying no nicely: what happens when coins run short",
+          "Balancing prices so the game stays challenging"
+        ],
+        "projects": [
+          "Upgrade shop: a working store where coins collected in-game buy speed and jump upgrades"
+        ],
+        "practice": "Add a third item to your shop and set all three prices, then explain your pricing to the class"
+      },
+      "week_18": {
+        "title": "Timers and Rounds",
+        "topics": [
+          "A countdown clock on screen, driven by a loop",
+          "Round structure: waiting, playing, and finishing",
+          "Announcing round results to everyone",
+          "Teleporting all players to the arena and back",
+          "Resetting the world between rounds",
+          "Why rounds make players say one more game"
+        ],
+        "projects": [
+          "Round machine: a lobby-and-arena game loop with a countdown, a 90-second round, and a winners announcement"
+        ],
+        "practice": "Adjust your round length and lobby time after two playtests, and note what changed in player behavior"
+      },
+      "week_19": {
+        "title": "Sound, Light, and Polish",
+        "topics": [
+          "Background music and where it belongs",
+          "Sound effects for wins, coins, and traps, used tastefully",
+          "Particles: sparkles, fire, and confetti in the right doses",
+          "Lighting mood: making a lava zone feel dangerous",
+          "Victory effects that reward without annoying",
+          "The polish pass: a checklist run on your own game"
+        ],
+        "projects": [
+          "Polish pass: music, pickup sounds, victory confetti, and lighting applied to the round machine game"
+        ],
+        "practice": "Do a sound-only playtest: close your eyes while a classmate plays your game and list what you can tell is happening"
+      },
+      "week_20": {
+        "title": "Project Week: The Complete Mini-Game",
+        "topics": [
+          "Assembling the phase: rounds, shop, coins, HUD, and polish in one game",
+          "Finding the fun: the one change that most improves your game",
+          "Bug hunting with a checklist instead of luck",
+          "Watching testers without helping them",
+          "Writing simple in-game instructions new players actually read",
+          "Preparing a 2-minute demo of your own game"
+        ],
+        "projects": [
+          "Complete mini-game: a round-based coin game with a shop, HUD, sound, and polish, tested by classmates"
+        ],
+        "practice": "Fix the three most confusing things your playtesters hit, in order of how much they hurt the game",
+        "assessment": "Mini-game demo day: every student's game played live by a classmate, followed by questions about the code"
+      }
+    },
+    "month_6_capstone_and_publishing": {
+      "title": "Month 6: The Capstone, Published to Roblox",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Designing Your Game",
+        "topics": [
+          "Choosing a game you can actually finish in three weeks",
+          "The one-page game design sheet: theme, goal, mechanics, win condition",
+          "Sketching the map on paper before Studio opens",
+          "Listing features as must-have, nice-to-have, and dream",
+          "Estimating honestly: what four class weeks can hold",
+          "Getting the plan approved before building starts"
+        ],
+        "projects": [
+          "Approved capstone plan: a design sheet and map sketch reviewed one-on-one with the instructor"
+        ],
+        "practice": "Build your capstone's map skeleton: terrain, main structures, and spawn, with no scripts yet"
+      },
+      "week_22": {
+        "title": "Build Sprint One: Core Mechanics",
+        "topics": [
+          "Building the must-have features first, smallest first",
+          "Reusing your own code from earlier months, the honest shortcut",
+          "Instructor code review: reading feedback and applying it",
+          "Debugging on your own: reproduce, guess, test, fix",
+          "Keeping the Explorer organized as the project grows",
+          "Cutting a feature without shame when time asks for it"
+        ],
+        "projects": [
+          "Capstone core: the two or three mechanics that make your game itself, working end to end"
+        ],
+        "practice": "Three 30-minute build sessions at home, each ending with one sentence on what now works that did not before"
+      },
+      "week_23": {
+        "title": "Build Sprint Two: Testing and Tuning",
+        "topics": [
+          "Full playtests with classmates as strangers",
+          "Reading a playtest: stuck points, boredom points, and delight points",
+          "Difficulty tuning: the numbers that change how a game feels",
+          "Final GUI pass: title screen, instructions, and HUD",
+          "Second code review and cleanup",
+          "The finish line checklist: what done means for this game"
+        ],
+        "projects": [
+          "Feature-complete capstone: all must-have features in, tested by at least two classmates, tuned once"
+        ],
+        "practice": "Run one family playtest and one classmate playtest, log every issue, fix the top two"
+      },
+      "week_24": {
+        "title": "Publish and Present",
+        "topics": [
+          "Publishing to Roblox from Studio, step by step, with a parent in the loop",
+          "Game settings: name, description, icon, and who can play",
+          "Privacy choices explained: public, friends-only, and what we recommend discussing at home",
+          "The final bug sweep before going live",
+          "Presenting your game: demo first, code second",
+          "Where to go next: Python, more advanced game development, or a bigger Roblox project"
+        ],
+        "projects": [
+          "Published capstone: an original Roblox game live on the platform, presented to the class and family"
+        ],
+        "practice": "Share your game link with three people outside the class and collect one piece of feedback from each",
+        "assessment": "Capstone presentation and code Q&A, plus course-completion certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Floating-island playground built with Studio tools",
+      "Ten-stage terrain obby with sculpted hills and caves",
+      "Disco floor and instant staircase generated by loops",
+      "Trap factory built from a single reusable function",
+      "Obby 2.0 with kill bricks, power-ups, and scripted doors",
+      "Coin rush field with spinning, respawning collectibles",
+      "Checkpoint tower with fair respawn logic",
+      "Round-based mini-game with shop, HUD, timer, and sound",
+      "Published capstone: an original game live on Roblox"
+    ],
+    "total_projects_built": "12+ finished builds and games, ending with one published to Roblox",
+    "skills_mastered": [
+      "Roblox Studio fluency: parts, properties, terrain, models, and lighting",
+      "Luau fundamentals: variables, conditionals, loops, functions, and events written by hand",
+      "Game systems: leaderboards, collectibles, checkpoints, shops, timers, and rounds",
+      "GUI building: on-screen counters, buttons, and menus wired to live game data",
+      "Debugging habits: reading errors, print-debugging, and the debounce pattern",
+      "Project skills: scoping a game, playtesting honestly, and presenting your own work"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, building and scripting along with the instructor",
+      "practice": "2-3 hours of building challenges and script exercises between classes",
+      "review": "Homework builds reviewed with written feedback; stuck points reopened in the next class"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, backed by a published Roblox game"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so nobody stays stuck until the next session",
+      "progress_updates": "Regular progress notes to parents: what was covered, what was built, what needs practice"
+    }
+  },
+  "prerequisites": {
+    "coding_experience": "None. The course starts from placing the first part and writing the first line",
+    "roblox_experience": "Helpful but not required. Most students have played Roblox; none have needed to",
+    "equipment": "A Windows or Mac computer that runs Roblox Studio, plus a stable internet connection. Tablets and phones cannot run Studio",
+    "account": "A free Roblox account, set up with a parent. No Robux or paid membership is needed at any point"
+  },
+  "who_is_this_for": {
+    "roblox_players": "Kids who already love playing Roblox and keep asking how the games they play are actually made",
+    "complete_beginners": "Children aged 8 to 14 with no coding background who want a first language wrapped in a world they care about",
+    "scratch_graduates": "Students moving up from block coding who are ready to type real scripts in a real engine",
+    "young_game_designers": "Kids who fill notebooks with game ideas and need the tools to build one for real",
+    "parents_seeking_direction": "Families who want Roblox hours converted from pure consumption into building, debugging, and finishing things"
+  },
+  "career_paths_after_completion": [
+    "Our Python for kids course, where the logic learned in Luau transfers directly to the most-used language in the world",
+    "Advanced game development courses, carrying over events, game loops, and level design instincts",
+    "Bigger Roblox projects: many students keep building and publishing on their own after the course",
+    "School coding clubs and game jams with a finished, published game already in hand",
+    "Our JavaScript or app development tracks for students who want to build beyond gaming"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Is this course run by Roblox?",
+      "answer": "No. Modern Age Coders is an independent coding school, and this course is not affiliated with or endorsed by Roblox Corporation. We teach children to build games using Roblox Studio, the free development tool that Roblox makes available to everyone, the same way a Python course teaches Python without being run by the Python Software Foundation."
+    },
+    {
+      "question": "Is Roblox safe for my child? How do you handle safety in class?",
+      "answer": "Class time is spent in Roblox Studio, which is a development tool rather than the social game: students build and test their own worlds, not chat with strangers. We still recommend parents set up Roblox's parental controls on the child's account, including chat restrictions, and we walk parents through those settings on request. Publishing the capstone game is done together with a parent, and the privacy setting (public or friends-only) is the family's decision."
+    },
+    {
+      "question": "Does my child need a paid Roblox account or Robux?",
+      "answer": "No. A free Roblox account is all that is required, for the entire course. Roblox Studio is free to download and use, and publishing a game to Roblox costs nothing. We never ask students to buy Robux, and no course project depends on any paid item."
+    },
+    {
+      "question": "What exactly will my child learn to code?",
+      "answer": "Luau, the scripting language every Roblox game actually runs on. It is a real programming language (a Roblox-evolved version of Lua), so students learn genuine concepts: variables, conditionals, loops, functions, and events. Those ideas transfer directly to Python, JavaScript, and every language they meet afterwards; only the spelling changes."
+    },
+    {
+      "question": "Is 8 years old too young for this? Is 14 too old?",
+      "answer": "The 8 to 14 range is deliberate. Eight-year-olds who read comfortably do well because month 1 is visual building and scripts arrive gradually, with typing kept short. Fourteen-year-olds are not bored because Luau is a real language and the later months involve genuine systems: leaderboards, shops, and round loops. Batches are grouped so students work alongside kids of similar age and pace."
+    },
+    {
+      "question": "What computer do we need?",
+      "answer": "A Windows or Mac laptop or desktop from roughly the last five or six years, with a stable internet connection. Roblox Studio does not run on phones, tablets, or most Chromebooks, so a proper computer is a requirement. If you are unsure whether your machine qualifies, tell us the model before the demo class and we will check."
+    },
+    {
+      "question": "My child already plays Roblox for hours. Will this just mean more screen time?",
+      "answer": "It changes what the screen time is. Playing a game and building one exercise completely different muscles: planning, logic, debugging, and finishing something hard. Most parents tell us the course redirects hours the child was already spending, and that watching your own game get published beats another afternoon of playing someone else's."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can we try a class before enrolling?",
+      "answer": "Yes, the first demo class is free and carries no obligation. Book it at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Parents are welcome to sit in, and the demo is also where we confirm your computer runs Roblox Studio comfortably."
+    }
+  ]
+}
