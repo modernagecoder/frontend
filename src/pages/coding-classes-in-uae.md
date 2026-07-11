@@ -518,7 +518,13 @@ This is not an endorsement by any school. These are simply schools where Modern 
 
 Leave your number. A mentor working in GST will call you within 3 hours, ask 4 questions about your child's school and curriculum, and either book a free trial or politely tell you we're not the right fit. No follow-up campaign. No spam. We've never sold a list. We never will.
 
-FAQ — UAE-specific
+More UAE pages
+
+## Explore coding classes by emirate and topic.
+
+Same mentors, same GST timings and same pricing, with a dedicated page for each emirate and subject.
+
+[Dubai Coding Classes in Dubai All ages and curricula, with mentors familiar with KHDA and DSIB expectations. View Dubai page](/coding-classes-in-dubai)[Abu Dhabi Coding Classes in Abu Dhabi Serving Saadiyat Island, Yas Island, Khalifa City and Al Reem families. View Abu Dhabi page](/coding-classes-in-abu-dhabi)[Sharjah Coding Classes in Sharjah CBSE and ICSE families across Al Khan, Al Majaz and Al Nahda. View Sharjah page](/coding-classes-in-sharjah)[Dubai, kids Coding Classes for Kids in Dubai A block to Python pathway built for younger Dubai learners. View kids page](/coding-classes-for-kids-in-dubai)[Dubai, Python Python Classes in Dubai A structured Python track for school students and adults in Dubai. View Python page](/python-classes-in-dubai)[Dubai, AI AI Classes in Dubai Applied AI and agentic AI mentorship for Dubai teens and professionals. View AI page](/ai-classes-in-dubai)[Dubai, kids Python for Kids in Dubai A friendly first Python course for younger Dubai students. View Python for kids page](/python-for-kids-in-dubai)[UAE-wide, kids AI Classes for Kids in the UAE Safe, age appropriate AI foundations for students across all seven emirates. View kids AI page](/ai-classes-for-kids-in-uae)FAQ — UAE-specific
 
 ## Twenty-four answers to the questions UAE parents (and adult learners) actually ask.
 
