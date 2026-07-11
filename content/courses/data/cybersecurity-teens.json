@@ -1,0 +1,556 @@
+{
+  "meta": {
+    "slug": "cybersecurity-course-for-teens-ethical-defensive",
+    "title": "Cybersecurity for Teens: Online Safety, Defense, and White-Hat Thinking",
+    "description": "Cybersecurity course for teens ages 13-18: live classes on how attacks work and how defense wins, from passwords and phishing to encryption and CTF puzzles.",
+    "keywords": [
+      "cybersecurity course for teens",
+      "cyber security classes for teenagers",
+      "online safety course for teens",
+      "ethical hacking basics for teens defensive",
+      "phishing awareness training for students",
+      "capture the flag for beginners",
+      "cybersecurity for high school students",
+      "internet safety classes india"
+    ],
+    "category": "Cybersecurity",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Beginner, ages 13 to 18, no coding required",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "cybersecurity-teens.png"
+  },
+  "program_overview": {
+    "title": "Cybersecurity for Teens",
+    "tagline": "Teens live online. This course teaches them how that world actually works, how it gets attacked, and how defenders win.",
+    "description": "Most teenagers manage more online accounts than their parents, yet nobody has ever taught them how any of it works or how it fails. This 6-month live course fixes that, and it does so honestly: this is a defensive course. Students learn how attacks work conceptually, how a phishing email is constructed, why password reuse is the root of most account theft, how ransomware spreads, because you cannot defend against what you do not understand. Nobody here is taught to break into anything, and every student signs a white-hat code of conduct in week one that we return to all course long.\n\nThe arc runs from how the internet actually moves data, through passwords, hashing, and two-factor authentication, into phishing and social engineering recognition, malware concepts and safe habits, then encryption from paper ciphers to the HTTPS padlock, and web security ideas like cookies and sessions. It ends with a capture-the-flag month: instructor-built puzzle competitions in cryptography, logic, and file forensics that are legal, safe, and genuinely fun. Along the way students harden their own accounts, audit their own digital footprint, and brief their own families, so the payoff starts in week one, not after graduation.",
+    "what_makes_this_different": [
+      "Strictly defensive and ethical: attacks are explained conceptually so defense makes sense, and no offensive tooling is ever taught",
+      "A white-hat ethics thread runs through every month, starting with a signed code of conduct in week one",
+      "Students secure their real digital lives during the course: accounts hardened, backups running, families briefed",
+      "Case studies of real incidents are read the way defenders read them: what failed, and what would have stopped it",
+      "The capstone is a capture-the-flag event built entirely by our instructors, so every puzzle is legal, safe, and age-appropriate",
+      "No coding required: the course is about systems and judgment, and the safe-coding week meets students at whatever level they code"
+    ],
+    "learning_path": {
+      "phase_1": "How the digital world works and how to protect your own corner of it: networks, digital footprints, threat thinking, passwords, hashing, and 2FA",
+      "phase_2": "Attacks understood, defenses built: phishing and social engineering recognition, malware concepts, backups, and hardening real devices",
+      "phase_3": "Cryptography from paper ciphers to HTTPS, web security concepts, safe coding habits, and a capture-the-flag capstone with written solutions"
+    },
+    "career_outcomes": [
+      "Genuine security literacy: the ability to judge links, apps, networks, and requests the way a professional would",
+      "A hardened personal digital life: strong unique passwords, 2FA, working backups, and a documented family briefing",
+      "A foundation for later study toward security careers, which build on exactly these concepts",
+      "CTF writeups and audit documents that show real analytical work, not just attendance"
+    ]
+  },
+  "phase_1_digital_world_and_identity": {
+    "title": "PHASE 1: The Digital World and Your Identity (Months 1-2, Weeks 1-8)",
+    "description": "You cannot secure what you do not understand. First the internet itself, then the single most attacked thing on it: your identity.",
+    "month_1_how_internet_works": {
+      "title": "Month 1: How the Internet Actually Works",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "The Life of a Web Request",
+        "topics": [
+          "The white-hat code of conduct: what we do, what we never do, and why, signed by every student",
+          "What happens when you type a URL: DNS, IP addresses, and servers in plain language",
+          "Packets: how data travels in pieces and reassembles",
+          "Clients and servers: who asks, who answers",
+          "Watching a request travel with standard diagnostic tools like traceroute",
+          "Why understanding the plumbing is the first defensive skill"
+        ],
+        "projects": [
+          "Map the full path of a web request as an annotated diagram, from keyboard to server and back"
+        ],
+        "practice": "Trace three websites you use daily and note how many network hops each takes"
+      },
+      "week_2": {
+        "title": "Networks Around You",
+        "topics": [
+          "Home networks: router, Wi-Fi, and every device quietly connected",
+          "Public Wi-Fi: what it can expose and sensible rules for using it",
+          "What the cloud really is: someone else's computer, and what that implies",
+          "Wi-Fi encryption settings and router passwords in plain terms",
+          "The guest network: a simple defense most homes never switch on",
+          "IoT devices: why the smart bulb is part of your security story"
+        ],
+        "projects": [
+          "Home network inventory: every connected device listed, with a written safety checklist for the household"
+        ],
+        "practice": "Check your home router's basics with a parent: admin password changed, encryption on, firmware updated"
+      },
+      "week_3": {
+        "title": "Your Digital Footprint",
+        "topics": [
+          "What websites and apps collect, and where it goes",
+          "Cookies at a first glance: useful, and worth understanding",
+          "Search-engine results for your own name: the public footprint",
+          "Privacy settings that actually matter on the platforms teens use",
+          "Oversharing patterns: location tags, school names, and routines",
+          "The permanence problem: why deleted rarely means gone"
+        ],
+        "projects": [
+          "Personal digital footprint audit: what is publicly findable about you, plus a written cleanup plan you execute"
+        ],
+        "practice": "Complete a privacy-settings review on your two most used apps and record what you changed"
+      },
+      "week_4": {
+        "title": "Thinking Like a Defender",
+        "topics": [
+          "Assets, threats, and risk: security's core vocabulary made concrete",
+          "Threat modeling a phone: what is worth stealing, who might want it, how it is reached",
+          "Likelihood vs impact: why we defend against the boring attacks first",
+          "Defense in depth: layers, not walls",
+          "The human layer: why most successful attacks start with a person, not a computer",
+          "Ethics checkpoint: knowledge of weaknesses creates responsibility, never permission"
+        ],
+        "projects": [
+          "Full threat model for a fictional student's phone and accounts, with ranked risks and matched defenses"
+        ],
+        "practice": "Write a one-page threat model for something you own and care about",
+        "assessment": "Month 1 check: explain the path of a web request and defend your threat model in a short viva"
+      }
+    },
+    "month_2_passwords_and_identity": {
+      "title": "Month 2: Passwords, Hashing, and Proving Who You Are",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "How Passwords Fail",
+        "topics": [
+          "How attackers actually get passwords: guessing, leaked databases, and reuse, explained conceptually",
+          "Credential stuffing: why one leaked password opens five accounts",
+          "What makes a password strong: length beats cleverness",
+          "Passphrases: four random words and why the maths favors them",
+          "Password managers: what they are, how they help, how families adopt one",
+          "Checking exposure: how breach-notification services like Have I Been Pwned work"
+        ],
+        "projects": [
+          "Password health review of your own accounts, done privately at home with a parent, with a migration plan to unique passphrases"
+        ],
+        "practice": "Move your three most important accounts to strong unique passphrases and record the process, never the passwords"
+      },
+      "week_6": {
+        "title": "Hashing: Why Good Sites Never Store Your Password",
+        "topics": [
+          "What a hash function is: one-way, deterministic, avalanche effect",
+          "Hands-on with SHA-256 in a browser demo: same input, same fingerprint",
+          "Why websites store hashes instead of passwords",
+          "Salting: why two users with the same password get different hashes",
+          "What a data breach actually leaks, and why hashing changes the damage",
+          "Hash checking downloads: verifying a file is what it claims to be"
+        ],
+        "projects": [
+          "Hashing lab worksheet: predict, test, and explain hash behavior across a set of inputs, including a tampered file"
+        ],
+        "practice": "Verify the published hash of a real downloaded file and write up the steps"
+      },
+      "week_7": {
+        "title": "Two-Factor Authentication and Beyond",
+        "topics": [
+          "Factors: something you know, have, and are",
+          "Authenticator apps vs SMS codes: why one resists phishing better",
+          "Passkeys: where sign-in is heading and why",
+          "Recovery codes: the step everyone skips until it hurts",
+          "Account recovery hygiene: recovery email and phone numbers kept current",
+          "When 2FA prompts themselves become the attack: fatigue prompts, conceptually"
+        ],
+        "projects": [
+          "Account lockdown: 2FA enabled on your key accounts with recovery codes stored safely, checklist evidence submitted"
+        ],
+        "practice": "Help one family member enable 2FA on one account and note what confused them"
+      },
+      "week_8": {
+        "title": "Identity Theft and Scams That Target Teens",
+        "topics": [
+          "Gaming account theft: the scams built around skins, coins, and trades",
+          "Marketplace and fan-merch scams: too good to be true, quantified",
+          "Impersonation: fake friend accounts and what verification actually verifies",
+          "What identity theft does to a real person: a case walk-through",
+          "Reporting channels: platforms, banks, and India's cybercrime portal",
+          "Ethics checkpoint: what you do when a friend's account is clearly compromised"
+        ],
+        "projects": [
+          "Family security briefing: a one-page document teaching your household the month's defenses, delivered as a short talk at home"
+        ],
+        "practice": "Collect two real scam attempts from family chat groups and annotate the tells",
+        "assessment": "Month 2 check: passwords and identity quiz plus a live walkthrough of your family briefing"
+      }
+    }
+  },
+  "phase_2_attacks_and_defenses": {
+    "title": "PHASE 2: Attacks Recognized, Defenses Built (Months 3-4, Weeks 9-16)",
+    "description": "The two attack families that touch everyone: deception aimed at people, and malicious software aimed at machines. Recognition first, then working defenses.",
+    "month_3_phishing_social_engineering": {
+      "title": "Month 3: Phishing and Social Engineering",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Anatomy of a Phishing Email",
+        "topics": [
+          "The standard skeleton: spoofed sender, urgent story, poisoned link",
+          "Reading the real sender address behind a display name",
+          "Lookalike domains: rn vs m, and the tricks typography plays",
+          "Hovering before clicking: reading a link's true destination",
+          "Email headers at a basic level: where a message really came from",
+          "Why banks and platforms never ask for your password by email"
+        ],
+        "projects": [
+          "Phish anatomy poster: dissect one anonymized real phishing email into its labeled parts"
+        ],
+        "practice": "Review your own spam folder with a parent and identify the technique in five messages"
+      },
+      "week_10": {
+        "title": "Beyond Email: Where Teens Actually Get Phished",
+        "topics": [
+          "Smishing: scam texts about deliveries, prizes, and blocked accounts",
+          "Fake login pages: pixel-perfect copies and the URL that gives them away",
+          "Discord, WhatsApp, and in-game phishing: free-item links and fake giveaways",
+          "QR code scams: why a square of dots deserves the same suspicion as a link",
+          "Browser warnings and what they actually mean",
+          "The verification habit: independently checking through the real app or site"
+        ],
+        "projects": [
+          "Spot-the-phish gallery: grade 15 anonymized real samples as safe or suspicious, with written reasoning for each call"
+        ],
+        "practice": "Build your own three-question checklist for judging any unexpected message"
+      },
+      "week_11": {
+        "title": "The Psychology of Social Engineering",
+        "topics": [
+          "The levers: authority, urgency, fear, and flattery",
+          "Pretexting: attacks that begin with a believable story",
+          "Case study read as defenders: a major breach that started with a phone call",
+          "Why smart people fall for scams: stress and context, not stupidity",
+          "OSINT awareness: how oversharing feeds targeted attacks, tying back to week 3",
+          "Ethics checkpoint: persuasion skills and the bright line around consent and honesty"
+        ],
+        "projects": [
+          "Case study brief: reconstruct a documented social engineering incident and identify the three points where defense could have stopped it"
+        ],
+        "practice": "Find the persuasion lever in five real scam messages from the class archive"
+      },
+      "week_12": {
+        "title": "The Phish Detector Field Guide",
+        "topics": [
+          "Consolidating the month into a usable field guide",
+          "Writing detection rules a grandparent could follow",
+          "Reporting phishing properly: platform tools and national portals",
+          "What to do after a wrong click: damage control steps in order",
+          "Designing the class recognition tournament",
+          "Teaching as testing: explaining a tell proves you understand it"
+        ],
+        "projects": [
+          "Phish detector field guide: an illustrated recognition and response guide, then the class phishing-recognition tournament"
+        ],
+        "practice": "Test your field guide on a family member and revise the rule they misunderstood",
+        "assessment": "Month 3 check: timed recognition tournament across 20 fresh samples, plus field guide review"
+      }
+    },
+    "month_4_malware_and_safe_habits": {
+      "title": "Month 4: Malware Concepts and Safe Habits",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "The Malware Families",
+        "topics": [
+          "Viruses, worms, and trojans: what each name actually means",
+          "Ransomware: encryption turned against you, conceptually",
+          "Spyware and keyloggers: the quiet observers",
+          "Adware and unwanted programs: the grey zone",
+          "How infections really begin: attachments, cracked software, fake updates, and bundled installers",
+          "Why cracked games are the classic teen infection route"
+        ],
+        "projects": [
+          "Malware family tree: an illustrated chart mapping each family to its behavior and its most common arrival route"
+        ],
+        "practice": "Write plain-language definitions of five malware terms for a younger sibling"
+      },
+      "week_14": {
+        "title": "Defenses That Actually Work",
+        "topics": [
+          "Updates as defense: what a patch is and why delay is dangerous",
+          "Antivirus and built-in protections: what they catch and what they miss",
+          "Least privilege at home: why daily life should not run on an admin account",
+          "Sandboxing as a concept: why apps on a phone cannot read each other's data",
+          "Backups and the 3-2-1 rule: the defense that defeats ransomware",
+          "Restore drills: an untested backup is a hope, not a plan"
+        ],
+        "projects": [
+          "Personal backup plan: design and actually implement a 3-2-1 backup for your own important files, with a test restore"
+        ],
+        "practice": "Run updates on your devices with a parent and document what was pending"
+      },
+      "week_15": {
+        "title": "Case Study: A Ransomware Outbreak, Read as Defenders",
+        "topics": [
+          "The WannaCry outbreak: what happened, in sequence",
+          "The unpatched systems that let it spread",
+          "Who was hit and what it cost, including hospitals",
+          "The defenses that worked where it failed to spread",
+          "What a recovery effort looks like from the inside",
+          "Ethics checkpoint: responsible disclosure, and the researchers who reported flaws the right way"
+        ],
+        "projects": [
+          "Defender's timeline: reconstruct the outbreak and mark every point where standard defenses from week 14 would have changed the outcome"
+        ],
+        "practice": "Read one news report on a recent incident and identify which defense was missing"
+      },
+      "week_16": {
+        "title": "Hardening Your Own Machines",
+        "topics": [
+          "Safe downloading: official sources, and reading installer screens instead of clicking next",
+          "Browser hygiene: extensions audited, permissions reviewed",
+          "App permissions on phones: flashlight apps that want your contacts",
+          "Recognizing fake download buttons and bundled junk",
+          "The family device sweep: applying the whole month at home",
+          "Writing a maintenance routine you will actually follow"
+        ],
+        "projects": [
+          "Harden-your-browser lab: full extension and permission audit on your own browser and phone, with before-and-after notes"
+        ],
+        "practice": "Complete the device sweep on one family computer and log every change made",
+        "assessment": "Month 4 check: malware and defenses quiz plus review of your implemented backup and hardening evidence"
+      }
+    }
+  },
+  "phase_3_crypto_web_and_ctf": {
+    "title": "PHASE 3: Cryptography, the Web, and the CTF Capstone (Months 5-6, Weeks 17-24)",
+    "description": "The mathematics of secrets, the trust machinery of the web, safer coding habits, and a capture-the-flag capstone that turns six months of defense into sport.",
+    "month_5_encryption_and_web_security": {
+      "title": "Month 5: Encryption and How the Web Stays Trustworthy",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Classical Ciphers by Hand",
+        "topics": [
+          "The Caesar cipher: shifting the alphabet, and breaking it by brute force",
+          "Substitution ciphers and keys",
+          "Frequency analysis: why English's love of the letter E breaks substitution",
+          "The Vigenere idea: why longer keys resist analysis",
+          "A short history: ciphers, wars, and the codebreakers of Bletchley Park",
+          "What classical failures teach modern cryptography"
+        ],
+        "projects": [
+          "Cipher exchange: encode messages for classmates, then break intercepted ones using frequency analysis worksheets"
+        ],
+        "practice": "Break three prepared ciphertexts of increasing difficulty and document your method"
+      },
+      "week_18": {
+        "title": "Modern Encryption, Conceptually",
+        "topics": [
+          "Symmetric encryption: one shared key, and the delivery problem it creates",
+          "Public-key encryption: the open padlock idea that solved key delivery",
+          "Digital signatures: proving who wrote a message",
+          "Key length and why brute force fails against modern ciphers",
+          "End-to-end encryption: what your messaging apps actually promise",
+          "Why nobody invents their own cipher: the first rule of cryptography"
+        ],
+        "projects": [
+          "Concept comic or storyboard: explain the padlock analogy for public-key encryption well enough to teach it"
+        ],
+        "practice": "Identify which of your daily apps use end-to-end encryption and what that covers"
+      },
+      "week_19": {
+        "title": "Cookies, Sessions, and the Padlock",
+        "topics": [
+          "What logged in actually means: sessions and cookies doing their real jobs",
+          "Why stolen cookies matter: the session as a temporary key",
+          "HTTPS vs HTTP: what the padlock encrypts and what it does not promise",
+          "Certificates: how your browser decides whom to trust",
+          "Certificate warnings: what they mean and when to walk away",
+          "Public Wi-Fi revisited with new eyes: what HTTPS protects there and what it cannot"
+        ],
+        "projects": [
+          "Trust tour: inspect certificates and cookies on five real sites using browser dev tools, documenting what each reveals"
+        ],
+        "practice": "Find one HTTP-only site in the wild and write up why the warning matters"
+      },
+      "week_20": {
+        "title": "Safe Coding Habits",
+        "topics": [
+          "Why apps get hacked, conceptually: trusting user input is the root of most classics",
+          "Validating input: the habit, shown at whatever level students code",
+          "Secrets never go in code: passwords, keys, and the accidental publish",
+          "Dependencies age: why software built on old parts inherits their holes",
+          "A gentle look at injection as an idea: data that gets treated as instructions",
+          "Ethics checkpoint: finding a flaw in a real site means reporting, never poking further"
+        ],
+        "projects": [
+          "Code safety review: audit one of your own past projects, from any language or even Scratch, against a provided safety checklist"
+        ],
+        "practice": "Add input validation to one small program you have written, or trace validation in a provided example",
+        "assessment": "Month 5 check: cryptography and web trust quiz plus cipher-breaking practical"
+      }
+    },
+    "month_6_ctf_capstone": {
+      "title": "Month 6: The Capture-the-Flag Capstone",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Welcome to CTF",
+        "topics": [
+          "What a capture-the-flag competition is, and its role in real security education",
+          "Our rules: every puzzle is instructor-built, self-contained, legal, and safe",
+          "Puzzle categories: cipher breaking, logic, metadata forensics, and web-trust trivia",
+          "Reading a puzzle: what is given, what is asked, what is hidden",
+          "The solver's notebook: keeping notes that turn into writeups",
+          "Practice round one, solved together as a class"
+        ],
+        "projects": [
+          "Practice CTF round: five starter puzzles solved individually with notes, then reviewed together"
+        ],
+        "practice": "Solve three take-home puzzles and log your approach for each, including dead ends"
+      },
+      "week_22": {
+        "title": "Training Camp",
+        "topics": [
+          "Cipher puzzles under time: applying month 5 at speed",
+          "File forensics-lite: what image metadata and file properties reveal",
+          "Logic and encoding puzzles: binary, hexadecimal, and Base64 as everyday costumes for data",
+          "Teamwork in CTFs: splitting categories and sharing notes",
+          "Hint discipline: when to take a hint and what it costs",
+          "The writeup format: challenge, approach, solution, lesson"
+        ],
+        "projects": [
+          "Team training rounds in every category, plus one polished writeup of your favorite solved puzzle"
+        ],
+        "practice": "Daily puzzle streak: one puzzle per day with a two-line log entry each"
+      },
+      "week_23": {
+        "title": "The Capstone CTF Event",
+        "topics": [
+          "Final event briefing and team formation",
+          "Competition strategy: triage easy points first",
+          "The event itself: multi-category, scored, across class sessions",
+          "Staying methodical under a clock",
+          "Sportsmanship and collaboration within the rules",
+          "Post-event solution reveal for every unsolved puzzle"
+        ],
+        "projects": [
+          "The capstone CTF: a scored, multi-category competition built from the entire course's material"
+        ],
+        "practice": "Draft writeups for every puzzle your team solved while they are fresh"
+      },
+      "week_24": {
+        "title": "Writeups and the White-Hat Road Ahead",
+        "topics": [
+          "Polishing writeups into a portfolio piece",
+          "Responsible disclosure as a practice: how professionals report what they find",
+          "Defensive security careers surveyed honestly: analyst, incident response, security engineering, and the study each requires",
+          "Where to keep learning: age-appropriate CTF platforms and safety-first communities",
+          "The code of conduct, revisited as a graduation promise",
+          "Presentations and certificates"
+        ],
+        "projects": [
+          "Final CTF writeup portfolio presented to the class, alongside your family briefing and audit documents from the course"
+        ],
+        "practice": "Write a one-page letter to your future self on the security habits you intend to keep",
+        "assessment": "Capstone assessment: CTF performance, writeup portfolio, and a short ethics viva"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Annotated map of a web request's full path",
+      "Home network inventory with a household safety checklist",
+      "Personal digital footprint audit with an executed cleanup plan",
+      "Threat model for a fictional student's phone and accounts",
+      "Account lockdown: passphrases, 2FA, and recovery codes on real accounts",
+      "Family security briefing, written and delivered at home",
+      "Phish detector field guide plus recognition tournament",
+      "Implemented 3-2-1 backup plan with a test restore",
+      "Defender's timeline of a real ransomware outbreak",
+      "Capture-the-flag writeup portfolio from the capstone event"
+    ],
+    "total_projects_built": "10+ defensive artifacts: audits, field guides, hardened accounts, and CTF writeups",
+    "skills_mastered": [
+      "Networks and the web: how data moves, where trust lives, and what the padlock really promises",
+      "Identity defense: passphrases, hashing, 2FA, and recovery done properly on real accounts",
+      "Attack recognition: phishing, social engineering, and malware understood well enough to spot cold",
+      "Practical hardening: backups, updates, permissions, and browser hygiene, implemented not just discussed",
+      "Cryptography foundations: from breaking Caesar ciphers by hand to explaining public-key encryption",
+      "White-hat judgment: ethics, responsible disclosure, and the habit of reporting rather than exploiting"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, with demonstrations, case studies, and hands-on labs",
+      "practice": "2-3 hours between classes: audits, puzzles, and real hardening tasks on the student's own devices",
+      "review": "Every artifact reviewed with written feedback; the ethics thread checked in every month"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, backed by a portfolio of audits and CTF writeups"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, including help when a real security question comes up at home",
+      "progress_updates": "Regular progress notes to parents, who also receive the family briefing their teen produces in month 2"
+    }
+  },
+  "prerequisites": {
+    "coding_experience": "None required. The safe-coding week adapts to whatever level a student codes at, including none",
+    "computer_skills": "Comfortable using a browser, apps, and settings menus",
+    "equipment": "A computer with a modern browser and a stable internet connection; no special tools are installed",
+    "age": "13 to 18. The course discusses real scams and real incidents at a depth suited to this range",
+    "mindset": "Willingness to sign and honor the white-hat code of conduct; this course is for defenders"
+  },
+  "who_is_this_for": {
+    "every_online_teen": "Students who live online, which is all of them, and have never been taught how any of it works or fails",
+    "curious_about_hacking": "Teens drawn to the hacking mystique who deserve the honest, legal, defensive version of that curiosity",
+    "future_security_professionals": "Students considering cybersecurity as a field who need the real foundation before any advanced study",
+    "puzzle_lovers": "Teens who enjoy ciphers, logic problems, and competitions; the CTF capstone is built for them",
+    "family_tech_helpers": "The teen everyone in the house already asks for tech help, upgraded into the family's actual defender"
+  },
+  "career_paths_after_completion": [
+    "Further defensive study toward security analyst and incident response roles, which build directly on these concepts",
+    "Age-appropriate CTF platforms and school cyber competitions, entered with real preparation",
+    "Our Python and programming courses, where the safe-coding habits from month 5 get applied for real",
+    "Computer science electives and projects with a security perspective few classmates will have",
+    "The informal but real role of family and school security helper, taken on responsibly"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Will my teen learn to hack?",
+      "answer": "Not in the sense the movies mean, and we are upfront about that. This is a defensive course: students learn how attacks work conceptually, how phishing is built, how malware spreads, how passwords get stolen, because recognition is the heart of defense. Nobody is taught intrusion tools or techniques for breaking into systems, every student signs a white-hat code of conduct in week one, and the capture-the-flag puzzles are instructor-built, self-contained, and legal. Teens drawn to the hacking mystique get the honest version: defenders need to understand attackers, and that understanding comes with responsibility."
+    },
+    {
+      "question": "Is this course safe and legal?",
+      "answer": "Yes, by design. Every exercise runs on the student's own accounts and devices or on materials we built for the class; nothing ever touches systems that are not ours to touch. The course actively teaches the legal and ethical lines, including responsible disclosure, so students finish knowing not just what is possible but what is right. Parents are involved directly: several assignments, like the account lockdown and home network review, are done with a parent."
+    },
+    {
+      "question": "Does my teen need to know coding first?",
+      "answer": "No. The course is about systems, judgment, and habits rather than programming, and most weeks involve no code at all. The one safe-coding week in month 5 meets each student at their level, whether that is Scratch, some Python, or nothing yet. Students who do code get a useful bonus: they learn to look at their own projects the way an attacker would, and fix what they find."
+    },
+    {
+      "question": "What does my teen actually produce in this course?",
+      "answer": "Real defensive artifacts, most of them immediately useful: a digital footprint audit with an executed cleanup, hardened accounts with strong passphrases and 2FA, a working 3-2-1 backup with a test restore, a phishing field guide, a family security briefing delivered at home, and a portfolio of capture-the-flag writeups from the capstone. The family typically becomes measurably safer while the course is still running."
+    },
+    {
+      "question": "Is this useful for a cybersecurity career?",
+      "answer": "It is the correct first step, and we will not overclaim beyond that. Professional security roles require further study, in networking, operating systems, and usually programming, but they all build on exactly the concepts this course teaches: threat thinking, cryptography basics, authentication, and attack recognition. A teen who finishes this course knows whether the field genuinely interests them and holds a foundation most college freshmen lack. The safety payoff, meanwhile, is immediate rather than someday."
+    },
+    {
+      "question": "What is a CTF, and is it appropriate for teens?",
+      "answer": "Capture the flag is the puzzle-competition format used across security education worldwide: players solve challenges, break a practice cipher, find data hidden in a file's metadata, decode a message, to find hidden flags and score points. Ours is entirely instructor-built, so every puzzle is age-appropriate, legal, and self-contained. It is the most anticipated month of the course, and the writeups students produce are genuine analytical work."
+    },
+    {
+      "question": "How are the classes taught?",
+      "answer": "Live one-hour online classes, twice a week, with a real instructor and small groups capped at 10 students. Classes mix demonstrations, real case studies read as defenders, and hands-on labs, and between classes students apply the material to their own digital lives. Mini-batch (3 to 4 students) and personal 1-on-1 options are available."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can we try a class before enrolling?",
+      "answer": "Yes, the first demo class is free with no obligation. Book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Parents are welcome to observe, and for this course in particular we encourage it: you will see exactly how the defensive, ethics-first approach works in practice."
+    }
+  ]
+}
