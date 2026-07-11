@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Classes in Saudi Arabia | Learn AI &amp; ML Live Online</title>
+  <meta name="description" content="AI and machine learning classes in Saudi Arabia, live online: train models with scikit-learn, build chatbots on LLM APIs, learn AI agents. Free demo class.">
+  <meta name="keywords" content="ai classes in saudi arabia, ai course saudi arabia, machine learning course saudi arabia, learn ai riyadh, ai classes riyadh, ai training jeddah, generative ai course ksa, ai for kids saudi arabia, ai agents course saudi arabia">
+  <link rel="canonical" href="https://learn.modernagecoders.com/ai-classes-in-saudi-arabia">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI Classes in Saudi Arabia | Learn AI &amp; ML Live Online">
+  <meta property="og:description" content="AI and machine learning classes in Saudi Arabia, live online: train models with scikit-learn, build chatbots on LLM APIs, learn AI agents. Free demo class.">
+  <meta property="og:url" content="https://learn.modernagecoders.com/ai-classes-in-saudi-arabia">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Classes in Saudi Arabia | Learn AI &amp; ML Live Online">
+  <meta name="twitter:description" content="AI and machine learning classes in Saudi Arabia, live online: train models with scikit-learn, build chatbots on LLM APIs, learn AI agents. Free demo class.">
+  <meta name="geo.region" content="SA">
+  <meta name="geo.placename" content="Saudi Arabia">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7A2E2E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Zilla+Slab:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/gulf-sa.css?v=20260710">
+  <style>
+    /* AI-SA page only: hero copy above a full-width three-build exhibits board. Tokens only. */
+    .gsa-a-copy { max-width: 780px; }
+    .gsa-a-board {
+      margin-top: 46px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background: var(--gsa-white);
+      border: 1px solid var(--gsa-sand);
+      border-top: 4px solid var(--gsa-maroon);
+      border-radius: 2px;
+      box-shadow: var(--gsa-shadow);
+    }
+    .gsa-a-cell {
+      padding: 22px 24px 24px;
+      border-left: 1px solid var(--gsa-sand);
+    }
+    .gsa-a-cell:first-child { border-left: none; }
+    .gsa-a-tag {
+      font-size: .68rem;
+      font-weight: 600;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--gsa-palm);
+      margin-bottom: 8px;
+    }
+    .gsa-a-cell strong {
+      display: block;
+      font-family: var(--gsa-serif);
+      font-weight: 600;
+      font-size: 1.08rem;
+      color: var(--gsa-ink);
+      margin-bottom: 6px;
+    }
+    .gsa-a-cell p {
+      font-size: .88rem;
+      color: var(--gsa-muted);
+      line-height: 1.55;
+      margin: 0;
+    }
+    .gsa-a-tool {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: .72rem;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--gsa-maroon);
+      background: var(--gsa-sand-soft);
+      border: 1px solid var(--gsa-sand);
+      border-radius: 2px;
+      padding: 3px 8px;
+    }
+    @media (max-width: 980px) {
+      .gsa-a-board { grid-template-columns: 1fr; }
+      .gsa-a-cell { border-left: none; border-top: 1px solid var(--gsa-sand); }
+      .gsa-a-cell:first-child { border-top: none; }
+    }
+  </style>
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "EducationalOrganization",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com",
+    "logo": "https://learn.modernagecoders.com/images/logo.png",
+    "description": "Live online coding, AI and maths classes for kids, teens, college students and professionals.",
+    "areaServed": "Saudi Arabia",
+    "sameAs": ["https://www.youtube.com/@modernagecoders", "https://wa.me/919123366161"] }
+  </script>
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Coding Classes in Saudi Arabia", "item": "https://learn.modernagecoders.com/coding-classes-in-saudi-arabia" },
+    { "@type": "ListItem", "position": 3, "name": "AI Classes in Saudi Arabia", "item": "https://learn.modernagecoders.com/ai-classes-in-saudi-arabia" } ] }
+  </script>
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+    { "@type": "Question", "name": "What will a student actually have built by the end?", "acceptedAnswer": { "@type": "Answer", "text": "Working artefacts, not summaries of them. Depending on the course: a chatbot that answers questions from material the student supplied, a classifier trained with scikit-learn on data the student gathered and cleaned, or a piece of software produced by directing an AI coding agent and then auditing its output. Everything runs after the course ends, which is the point of building it." } },
+    { "@type": "Question", "name": "Which AI course fits which age?", "acceptedAnswer": { "@type": "Answer", "text": "Six to twelve year olds start in AI Tools for Kids, or in Python and AI for Kids when they want code alongside; both are supervised and paced for children. Teenagers split between AI and Machine Learning for Teens and the teen agents course. Adults choose among the machine learning track, Generative AI and the professional agents course. Unsure between two? The demo teacher earns their keep by deciding exactly that." } },
+    { "@type": "Question", "name": "Does my teenager need Python before the AI track?", "acceptedAnswer": { "@type": "Answer", "text": "Some Python, yes. Machine learning without any programming turns into a slideshow. The AI courses open with a groundwork stretch that firms up the essentials, and teenagers starting from zero usually do a stint in Python for Teens first. State the starting point honestly at the demo and the teacher will sequence it correctly." } },
+    { "@type": "Question", "name": "Will an AI course lead to a Vision 2030 job?", "acceptedAnswer": { "@type": "Answer", "text": "We refuse to promise that, and you should distrust anyone who does not. Hiring depends on interviews, timing, and a market no course controls. What the courses provide is the part that can be controlled: genuine skill, practised weekly, with finished projects as evidence. That is a real advantage. It is not a guarantee, and we will not dress it up as one." } },
+    { "@type": "Question", "name": "Which tools will students learn to use?", "acceptedAnswer": { "@type": "Answer", "text": "Python throughout, with pandas and NumPy for data work. scikit-learn is the workhorse for training first models. The generative course works directly with large language model APIs, and the agents courses teach Codex and Claude Code. Setup happens inside class, step by step, so nothing needs installing before the demo." } },
+    { "@type": "Question", "name": "When do AI classes run for students in Saudi Arabia?", "acceptedAnswer": { "@type": "Answer", "text": "In the Arabia Standard Time evening on weekdays, after the school and office day ends, plus Friday and Saturday slots. A student keeps a single fixed hour each week. Private students agree their own days directly with the teacher." } },
+    { "@type": "Question", "name": "What do AI classes cost in Saudi Arabia?", "acceptedAnswer": { "@type": "Answer", "text": "A group seat costs 40 US dollars monthly, around SAR 150. The private plan is 100 US dollars monthly, around SAR 375. Nothing is charged at registration, no long contract exists, and everything opens with the free demo, so trying us costs nothing but an hour." } },
+    { "@type": "Question", "name": "Is the demo a real AI lesson or a sales call?", "acceptedAnswer": { "@type": "Answer", "text": "A real lesson. The student joins an actual class hour with an actual teacher, works on something concrete, and experiences the batch exactly as an enrolled student would. Whatever pitch exists is the class itself. You decide afterwards, uncalled and unpressured, though a mentor is available for questions." } }
+  ] }
+  </script>
+</head>
+
+<body class="gsa-body">
+
+<!-- ============================== NAV ============================== -->
+<nav class="gsa-nav" aria-label="Primary">
+  <div class="gsa-nav-inner">
+    <a href="/" class="gsa-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="34" height="34" fetchpriority="high">
+      Modern Age Coders
+      <span class="gsa-brand-tag">AI &middot; KSA</span>
+    </a>
+    <ul class="gsa-nav-links">
+      <li><a href="/courses">Courses</a></li>
+      <li><a href="/how-we-teach">How We Teach</a></li>
+      <li><a href="/love">Reviews</a></li>
+    </ul>
+    <a href="#demo" class="gsa-btn">Book Demo</a>
+  </div>
+</nav>
+
+<!-- ============================== HERO (builds-board composition) ============================== -->
+<header class="gsa-hero">
+  <div class="gsa-wrap">
+    <div class="gsa-a-copy">
+      <p class="gsa-kicker">Machine learning, generative AI and agents, taught live</p>
+      <h1 class="gsa-h1">AI Classes in <em>Saudi Arabia</em></h1>
+      <p class="gsa-hero-lede">AI is the most oversold subject on the internet, which is exactly why we teach it the boring way: live classes of at most eight students, real datasets, real code, and a teacher who says "that model is wrong, find out why" instead of playing a highlight reel.</p>
+      <p class="gsa-hero-lede">Students across the Kingdom join in the AST evening, from curious ten year olds to engineers adding a second skill. Below is what they build, with the tools named.</p>
+      <div class="gsa-hero-ctas">
+        <a href="#demo" class="gsa-btn">Book a Free Demo Class</a>
+        <a href="https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20AI%20classes%20in%20Saudi%20Arabia" class="gsa-btn-ghost gsa-btn-palm" target="_blank" rel="noopener">Question us on WhatsApp</a>
+      </div>
+      <p class="gsa-trust"><span class="gsa-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 rating across 547+ Google reviews</p>
+    </div>
+    <div class="gsa-a-board" aria-label="Three things students build">
+      <div class="gsa-a-cell">
+        <p class="gsa-a-tag">Build 01</p>
+        <strong>A chatbot with your material inside it</strong>
+        <p>From the generative course: a bot that answers questions using notes the student supplied, wired together with prompts, retrieval and an API.</p>
+        <span class="gsa-a-tool">Python + LLM APIs</span>
+      </div>
+      <div class="gsa-a-cell">
+        <p class="gsa-a-tag">Build 02</p>
+        <strong>A model trained on gathered data</strong>
+        <p>From the machine learning tracks: data collected and cleaned by the student, a classifier trained on it, and an honest reading of its mistakes.</p>
+        <span class="gsa-a-tool">scikit-learn</span>
+      </div>
+      <div class="gsa-a-cell">
+        <p class="gsa-a-tag">Build 03</p>
+        <strong>Software written with an agent</strong>
+        <p>From the agents courses: a project where the student directs an AI coding agent, reviews every change it proposes, and ships the result.</p>
+        <span class="gsa-a-tool">Codex + Claude Code</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="gsa-band" aria-hidden="true"></div>
+
+<!-- ============================== COURSES ============================== -->
+<section class="gsa-section" id="courses">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">The AI tracks</p>
+    <h2 class="gsa-h2">Seven live courses, sorted by what they train</h2>
+    <p class="gsa-lede">Everything below runs as a weekly live class. AI here is taught through Python, so if the language itself is the missing piece, begin at <a href="/python-classes-in-saudi-arabia">Python Classes in Saudi Arabia</a> and come back.</p>
+    <div class="gsa-anchor-pills">
+      <a href="#ml" class="gsa-pill">Machine learning &amp; generative AI</a>
+      <a href="#agents" class="gsa-pill">AI agents</a>
+      <a href="#young" class="gsa-pill">Younger students</a>
+    </div>
+
+    <div class="gsa-course-group" id="ml">
+      <div class="gsa-course-group-head">
+        <h3 class="gsa-h3">Machine learning &amp; generative AI</h3>
+        <span>Models, data and language APIs</span>
+      </div>
+      <div class="gsa-course-grid">
+        <a href="/courses/ai-ml-teens" class="gsa-course-card">
+          <img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">AI &amp; Machine Learning for Teens</div>
+            <p class="gsa-course-card-desc">For teenagers with a little Python behind them: they assemble datasets, train classifiers with scikit-learn, and practise the rarest AI skill going, stating plainly what their model gets wrong.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/ai-ml-college" class="gsa-course-card">
+          <img src="/images/ai-ml-college.webp" alt="AI and Machine Learning course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">AI &amp; Machine Learning</div>
+            <p class="gsa-course-card-desc">The adult route through the discipline: data preparation, classical models, neural networks, and enough of the mathematics to trust your own results for the right reasons.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/gen-ai" class="gsa-course-card">
+          <img src="/images/generative-ai-college.webp" alt="Generative AI course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">Generative AI</div>
+            <p class="gsa-course-card-desc">Working with large language models from the inside: prompt design that survives contact with real users, API integration, retrieval, and small finished applications.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="gsa-course-group" id="agents">
+      <div class="gsa-course-group-head">
+        <h3 class="gsa-h3">AI agents</h3>
+        <span>The newest layer of the craft</span>
+      </div>
+      <div class="gsa-course-grid">
+        <a href="/courses/codex-claude-code-adults" class="gsa-course-card">
+          <img src="/images/codex-claude-code-adults.webp" alt="Codex and Claude Code for Professionals course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">Codex &amp; Claude Code for Professionals</div>
+            <p class="gsa-course-card-desc">For working developers and determined switchers: directing AI coding agents, auditing what they produce, and folding them into real work without surrendering judgement.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/codex-claude-code-teens" class="gsa-course-card">
+          <img src="/images/codex-claude-code-teens.webp" alt="Codex and Claude Code for Teens course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">Codex &amp; Claude Code for Teens</div>
+            <p class="gsa-course-card-desc">The teen edition of the agents course: the same tools with more scaffolding, and a teacher checking that understanding keeps pace with output.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="gsa-course-group" id="young">
+      <div class="gsa-course-group-head">
+        <h3 class="gsa-h3">Younger students</h3>
+        <span>Supervised, honest, age-shaped</span>
+      </div>
+      <div class="gsa-course-grid">
+        <a href="/courses/ai-tools-kids" class="gsa-course-card">
+          <img src="/images/ai-tools-kids.webp" alt="AI Tools for Kids course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">AI Tools for Kids</div>
+            <p class="gsa-course-card-desc">Ages 6 to 12. A guided first pass over the AI tools children already gossip about at school, with safety habits built in and the wonder kept honest.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/python-ai-kids" class="gsa-course-card">
+          <img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">Python &amp; AI for Kids</div>
+            <p class="gsa-course-card-desc">Where a child's AI road usually begins: real typed Python plus first AI ideas, shaped for ages eight to twelve.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== WHAT GETS BUILT ============================== -->
+<section class="gsa-section gsa-section-white" id="builds">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">The proof</p>
+    <h2 class="gsa-h2">Three project families, described without varnish</h2>
+    <div class="gsa-prose">
+      <p>Course pages love the word "build", so here is what the word means in these courses, family by family.</p>
+      <p><strong>The chatbot family.</strong> Students in the generative course produce assistants with actual knowledge in them: a study helper that answers from class notes, a small business bot that knows one menu or one price list. Getting there means learning prompts as engineering rather than incantation, calling a language model API from Python, and adding retrieval so the bot cites what it was given instead of inventing. The last lesson is the deepest one: testing the bot until it fails, and understanding the failure.</p>
+      <p><strong>The trained-model family.</strong> Students in the machine learning tracks gather data, clean it until it stops lying, and train classifiers and regressors with scikit-learn. The deliverable is never just accuracy on a chart. It is the student explaining, in ordinary sentences, what the model learned, where its blind spots sit, and why a confident prediction still deserves suspicion. Teens present these projects; adults put them in portfolios.</p>
+      <p><strong>The agent family.</strong> Students in the Codex and Claude Code courses complete software projects by directing AI agents: specifying the change, reading the diff that comes back, catching the subtle wrongness, insisting on tests. The skill being trained is judgement with tools attached, which is precisely the skill the industry now interviews for.</p>
+      <p>Every family shares one rule: if it does not run, it does not count.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== TOOLBOX ============================== -->
+<section class="gsa-section" id="tools">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">The instruments</p>
+    <h2 class="gsa-h2">Four tools carry the whole syllabus</h2>
+    <div class="gsa-prose">
+      <p>No tool soup, no logo wall. The courses stand on four instruments, each chosen because the industry actually stands on it too.</p>
+    </div>
+    <div class="gsa-syllabus">
+      <div class="gsa-syllabus-row">
+        <div class="gsa-syllabus-stage">Python<small>The common tongue</small></div>
+        <div class="gsa-syllabus-body">
+          <p>Every AI course here speaks Python, because practical AI does. Students arriving without it take the groundwork stretch or a Python track first; students arriving with it go straight to the data.</p>
+        </div>
+      </div>
+      <div class="gsa-syllabus-row">
+        <div class="gsa-syllabus-stage">scikit-learn<small>With pandas and NumPy</small></div>
+        <div class="gsa-syllabus-body">
+          <p>The classic library for training models without mystery. Students use it to fit classifiers and regressors on data they prepared themselves, and to measure honestly how wrong the results are. pandas and NumPy do the lifting underneath.</p>
+        </div>
+      </div>
+      <div class="gsa-syllabus-row">
+        <div class="gsa-syllabus-stage">LLM APIs<small>Language models, programmatically</small></div>
+        <div class="gsa-syllabus-body">
+          <p>The generative course treats large language models as components you call from code: structured prompts, API responses, retrieval over supplied documents, and error handling for the days the model behaves strangely. Demystification through use.</p>
+        </div>
+      </div>
+      <div class="gsa-syllabus-row">
+        <div class="gsa-syllabus-stage">Codex &amp; Claude Code<small>The agent layer</small></div>
+        <div class="gsa-syllabus-body">
+          <p>AI systems that write and modify code under direction. The agents courses teach students to brief them precisely, review their work line by line, and keep responsibility for the result where it belongs: with the human.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== SAUDI AI CONTEXT ============================== -->
+<section class="gsa-section gsa-section-white" id="context">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Local context</p>
+    <h2 class="gsa-h2">AI skills and Vision 2030, minus the confetti</h2>
+    <div class="gsa-prose">
+      <p>Saudi Arabia has made its AI intentions unusually official: a national authority dedicated to data and AI, technology programmes threaded through Vision 2030, and public investment that keeps making international news. For a student in the Kingdom, that translates into something simpler than headlines: the subject they are curious about is one their own country has decided to take seriously.</p>
+      <p>What that does not translate into is a shortcut. We will not claim our courses feed some pipeline into national projects, and no reputable school can. The connection is humbler and more useful. AI work everywhere runs on the same foundations, Python, data handling, model training, tool fluency, and those foundations are exactly what a weekly live class can build properly. A student who owns them is prepared for whatever the local version of the future turns out to be, which is the most any honest education can offer.</p>
+      <p>For teenagers, the courses also feed back into school. Machine learning projects make strong science-fair and portfolio material, and the habit of testing claims against data improves work in every subject that involves evidence, which is most of them.</p>
+      <p>For adults, the calculus is the one we state on every page: skills plus proof, no employment promises. An engineer in Dammam, an analyst in Riyadh or a pharmacist in Jeddah leaves the course with trained models and working applications to their name. What happens in the interview room stays their achievement, not our claim.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== HOW IT WORKS ============================== -->
+<section class="gsa-section" id="how">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">The format</p>
+    <h2 class="gsa-h2">Six fixed points of the format</h2>
+    <div class="gsa-steps">
+      <div class="gsa-step">
+        <h3>Live, always</h3>
+        <p>Every session is a real-time video class where students work and the teacher watches the working. AI is a subject full of confident nonsense, and a live teacher is the antidote on tap.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>A hard cap of eight</h3>
+        <p>Group classes never exceed eight students. Model-training projects need individual attention, and the cap is what makes that attention arithmetic instead of aspiration.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>Saudi evenings, AST</h3>
+        <p>Weekday classes run in the evening after school and work, with Friday and Saturday slots for the weekend. One fixed weekly hour, held for the length of the course.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>English medium</h3>
+        <p>Classes are taught in English, as most Saudi international schooling is. Instructors keep the terminology under control and never mistake jargon for understanding.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>Artefacts over abstractions</h3>
+        <p>Chatbots, models, agent-built software: the coursework leaves objects behind. A student's record is a folder of things that run, not a stack of watched videos.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>Free demo before fees</h3>
+        <p>The first hour costs nothing and behaves like every hour after it. Judge the teaching from inside a class, then choose.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== WHY US ============================== -->
+<section class="gsa-section gsa-section-white" id="why">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Grounds for trust</p>
+    <h2 class="gsa-h2">What holds this up</h2>
+    <div class="gsa-feature-grid">
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <h3>Teachers, full stop</h3>
+        <p>People whose occupation is teaching, who stay with their batches long enough to know them. Not moonlighters, not videos wearing a person's name.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <h3>Eight, and the door closes</h3>
+        <p>The batch limit holds because everything else depends on it. When your model misbehaves at minute forty, someone qualified is looking at your screen.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        <h3>Hands on the keyboard</h3>
+        <p>Students train the models and call the APIs themselves. AI in particular cannot be learned by spectating; the intuitions live in the doing.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+        <h3>Certificates that point at work</h3>
+        <p>Each completion certificate stands on a project that exists. That is what lets it carry weight in an application or a review.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+        <h3>No mystique policy</h3>
+        <p>We teach what models genuinely do and where they fail, including the tools we ourselves sell courses about. Scepticism is part of the syllabus.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="m9 16 2 2 4-4"/></svg>
+        <h3>Proof precedes payment</h3>
+        <p>One free class before any money changes hands. It has been our opening move for years because it keeps us honest.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== REVIEWS ============================== -->
+<section class="gsa-section" id="reviews">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Verified reviews</p>
+    <h2 class="gsa-h2">Words we did not write</h2>
+    <p class="gsa-lede">Since the classes are live and online, Saudi students share their batches with learners from many countries. These reviews are genuine and verified, reproduced without editing; the rest live on our <a href="/love">Wall of Love</a>.</p>
+    <div class="gsa-review-grid">
+      <div class="gsa-review-card">
+        <p class="gsa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</blockquote>
+        <p class="gsa-review-name">Samridho Mondal</p>
+        <p class="gsa-review-role">Student</p>
+      </div>
+      <div class="gsa-review-card">
+        <p class="gsa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"My son struggled with maths for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended."</blockquote>
+        <p class="gsa-review-name">Shewta Singh</p>
+        <p class="gsa-review-role">Mother of Ishan</p>
+      </div>
+      <div class="gsa-review-card">
+        <p class="gsa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects."</blockquote>
+        <p class="gsa-review-name">Krishnam Bhatter</p>
+        <p class="gsa-review-role">Former student</p>
+      </div>
+      <div class="gsa-review-card">
+        <p class="gsa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"The one step solution for my son. Modern Age Coders make learning coding so simple that kids love it. The teachers explain complex concepts clearly with practical exercises and interactive content. The projects were challenging and rewarding."</blockquote>
+        <p class="gsa-review-name">Ria Mukherjee</p>
+        <p class="gsa-review-role">Parent</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== SAUDI GUIDES ============================== -->
+<section class="gsa-section gsa-section-white" id="guides">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Adjacent pages</p>
+    <h2 class="gsa-h2">Where to read next</h2>
+    <div class="gsa-prose">
+      <p>AI is one wing of the catalogue. These pages cover the neighbouring questions Saudi families and professionals usually ask alongside it.</p>
+    </div>
+    <div class="gsa-hub-grid">
+      <a href="/coding-classes-in-saudi-arabia" class="gsa-hub-card">
+        <div class="gsa-hub-title">Coding Classes in Saudi Arabia</div>
+        <p>The Kingdom-wide guide holding this whole cluster together: all subjects, all ages, one page.</p>
+      </a>
+      <a href="/python-classes-in-saudi-arabia" class="gsa-hub-card">
+        <div class="gsa-hub-title">Python Classes in Saudi Arabia</div>
+        <p>The language these AI courses run on, taught from age eight upward. Start there if the code itself is the gap.</p>
+      </a>
+      <a href="/coding-classes-in-riyadh" class="gsa-hub-card">
+        <div class="gsa-hub-title">Coding Classes in Riyadh</div>
+        <p>The capital's page, for families who want the local view before the subject view.</p>
+      </a>
+      <a href="/coding-classes-in-dammam" class="gsa-hub-card">
+        <div class="gsa-hub-title">Coding Classes in Dammam</div>
+        <p>The Eastern Province guide, covering Dammam, Khobar and Dhahran together.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PRICING ============================== -->
+<section class="gsa-section" id="pricing">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Fees</p>
+    <h2 class="gsa-h2">The cost, stated like a fact</h2>
+    <p class="gsa-lede">Monthly billing in US dollars, riyal equivalents shown for orientation. No tiers, no surprises, no asterisks.</p>
+    <div class="gsa-price-grid">
+      <div class="gsa-price-card">
+        <p class="gsa-price-plan">Group classes</p>
+        <p class="gsa-price-figure">$40 <small>per month</small></p>
+        <p class="gsa-price-local">about SAR 150 per month</p>
+        <ul class="gsa-price-list">
+          <li>Weekly live AI class, capped batch</li>
+          <li>Evening and weekend slots, AST</li>
+          <li>Real projects plus a completion certificate</li>
+          <li>Entry via a free demo class</li>
+        </ul>
+        <a href="#demo" class="gsa-btn-ghost">Book a Free Demo</a>
+      </div>
+      <div class="gsa-price-card gsa-price-featured">
+        <p class="gsa-price-plan">One-on-one classes</p>
+        <p class="gsa-price-figure">$100 <small>per month</small></p>
+        <p class="gsa-price-local">about SAR 375 per month</p>
+        <ul class="gsa-price-list">
+          <li>A dedicated teacher, a single student</li>
+          <li>Scheduling bent around your commitments</li>
+          <li>Depth and speed tuned to one person</li>
+          <li>Entry via a free demo class</li>
+        </ul>
+        <a href="#demo" class="gsa-btn">Book a Free Demo</a>
+      </div>
+    </div>
+    <p class="gsa-price-note">Registration is free because it is a demo class, not a transaction. Fees begin only when you decide they should.</p>
+  </div>
+</section>
+
+<!-- ============================== FAQ ============================== -->
+<section class="gsa-section gsa-section-white" id="faq">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Questions</p>
+    <h2 class="gsa-h2">Asked before enrolling, answered here</h2>
+    <div class="gsa-faq">
+      <details class="gsa-faq-item">
+        <summary>What will a student actually have built by the end?</summary>
+        <div class="gsa-faq-body">Working artefacts, not summaries of them. Depending on the course: a chatbot that answers questions from material the student supplied, a classifier trained with scikit-learn on data the student gathered and cleaned, or a piece of software produced by directing an AI coding agent and then auditing its output. Everything runs after the course ends, which is the point of building it.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>Which AI course fits which age?</summary>
+        <div class="gsa-faq-body">Six to twelve year olds start in AI Tools for Kids, or in Python and AI for Kids when they want code alongside; both are supervised and paced for children. Teenagers split between AI and Machine Learning for Teens and the teen agents course. Adults choose among the machine learning track, Generative AI and the professional agents course. Unsure between two? The demo teacher earns their keep by deciding exactly that.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>Does my teenager need Python before the AI track?</summary>
+        <div class="gsa-faq-body">Some Python, yes. Machine learning without any programming turns into a slideshow. The AI courses open with a groundwork stretch that firms up the essentials, and teenagers starting from zero usually do a stint in Python for Teens first. State the starting point honestly at the demo and the teacher will sequence it correctly.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>Will an AI course lead to a Vision 2030 job?</summary>
+        <div class="gsa-faq-body">We refuse to promise that, and you should distrust anyone who does not. Hiring depends on interviews, timing, and a market no course controls. What the courses provide is the part that can be controlled: genuine skill, practised weekly, with finished projects as evidence. That is a real advantage. It is not a guarantee, and we will not dress it up as one.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>Which tools will students learn to use?</summary>
+        <div class="gsa-faq-body">Python throughout, with pandas and NumPy for data work. scikit-learn is the workhorse for training first models. The generative course works directly with large language model APIs, and the agents courses teach Codex and Claude Code. Setup happens inside class, step by step, so nothing needs installing before the demo.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>When do AI classes run for students in Saudi Arabia?</summary>
+        <div class="gsa-faq-body">In the Arabia Standard Time evening on weekdays, after the school and office day ends, plus Friday and Saturday slots. A student keeps a single fixed hour each week. Private students agree their own days directly with the teacher.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>What do AI classes cost in Saudi Arabia?</summary>
+        <div class="gsa-faq-body">A group seat costs 40 US dollars monthly, around SAR 150. The private plan is 100 US dollars monthly, around SAR 375. Nothing is charged at registration, no long contract exists, and everything opens with the free demo, so trying us costs nothing but an hour.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>Is the demo a real AI lesson or a sales call?</summary>
+        <div class="gsa-faq-body">A real lesson. The student joins an actual class hour with an actual teacher, works on something concrete, and experiences the batch exactly as an enrolled student would. Whatever pitch exists is the class itself. You decide afterwards, uncalled and unpressured, though a mentor is available for questions.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="gsa-band" aria-hidden="true"></div>
+
+<!-- ============================== DEMO CTA ============================== -->
+<section class="gsa-section" id="demo">
+  <div class="gsa-wrap">
+    <div class="gsa-demo-panel">
+      <div class="gsa-demo-copy">
+        <p class="gsa-eyebrow">Free demo class</p>
+        <h2 class="gsa-h2">Test the claim the way we teach: empirically</h2>
+        <p>One free class settles what pages of copy cannot. Sit in, watch the teacher work, see what the student produces in an hour, and treat our claims like a model under evaluation. Enrol only if the evidence earns it.</p>
+        <p>Or open with a message: <a href="https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20AI%20classes%20in%20Saudi%20Arabia" target="_blank" rel="noopener">WhatsApp us here</a> and a mentor responds during Saudi business hours.</p>
+        <p class="gsa-trust"><span class="gsa-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 rating across 547+ Google reviews</p>
+      </div>
+      <div class="gsa-demo-form-col">
+        <form class="gsa-leadform" onsubmit="submitInlineLead(event)">
+          <input type="text" name="name" placeholder="Parent or student name" required>
+          <input type="tel" name="phone" placeholder="Phone or WhatsApp number" required>
+          <select name="age" required>
+            <option value="" disabled selected>Who is this for?</option>
+            <option>Child (6 to 12)</option>
+            <option>Teen (13 to 18)</option>
+            <option>College student</option>
+            <option>Working professional</option>
+          </select>
+          <button type="submit">Book My Free Demo</button>
+          <p class="gsa-form-fine">Free demo class. No card needed. A mentor will call you.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer class="gsa-footer">
+  <div class="gsa-wrap">
+    <div class="gsa-footer-grid">
+      <div>
+        <p class="gsa-footer-brand">Modern Age Coders</p>
+        <p>AI, coding and maths courses delivered live to Saudi Arabia and the wider world: English medium, batches of eight at the most, evidence before enrolment.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="gsa-footer-links">
+          <li><a href="/courses">All Courses</a></li>
+          <li><a href="/how-we-teach">How We Teach</a></li>
+          <li><a href="/love">Wall of Love</a></li>
+          <li><a href="/">Home</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Saudi Arabia</h4>
+        <ul class="gsa-footer-links">
+          <li><a href="/coding-classes-in-saudi-arabia">Coding Classes in Saudi Arabia</a></li>
+          <li><a href="/python-classes-in-saudi-arabia">Python Classes in Saudi Arabia</a></li>
+          <li><a href="/coding-classes-in-riyadh">Coding Classes in Riyadh</a></li>
+          <li><a href="/coding-classes-in-jeddah">Coding Classes in Jeddah</a></li>
+          <li><a href="/coding-classes-in-dammam">Coding Classes in Dammam</a></li>
+          <li><a href="/coding-classes-for-kids-in-riyadh">Coding for Kids in Riyadh</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="gsa-footer-links">
+          <li><a href="https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20AI%20classes%20in%20Saudi%20Arabia" target="_blank" rel="noopener">WhatsApp us</a></li>
+          <li><a href="#demo">Book a free demo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="gsa-footer-bottom">
+      <p>&copy; 2026 Modern Age Coders. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitInlineLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.length < 7) { alert('Please enter a valid phone number.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+966', countryIso: 'SA', countryName: 'Saudi Arabia',
+      source: 'ai-classes-in-saudi-arabia-inline', meta: { name: name, age: age }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="gsa-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you within a few hours.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+
+</body>
+</html>
