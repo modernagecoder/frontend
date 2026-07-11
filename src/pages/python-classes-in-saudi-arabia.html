@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Classes in Saudi Arabia | Live, Beginner to Advanced</title>
+  <meta name="description" content="Learn Python in Saudi Arabia with live online classes: basics to OOP, automation and AI libraries. Ages 8 to adult, small batches, AST evenings, free demo.">
+  <meta name="keywords" content="python classes in saudi arabia, python course saudi arabia, learn python saudi arabia, online python classes ksa, python classes riyadh, python classes jeddah, python training saudi arabia, python for kids saudi arabia, python for professionals ksa">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-classes-in-saudi-arabia">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Python Classes in Saudi Arabia | Live, Beginner to Advanced">
+  <meta property="og:description" content="Learn Python in Saudi Arabia with live online classes: basics to OOP, automation and AI libraries. Ages 8 to adult, small batches, AST evenings, free demo.">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-classes-in-saudi-arabia">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python Classes in Saudi Arabia | Live, Beginner to Advanced">
+  <meta name="twitter:description" content="Learn Python in Saudi Arabia with live online classes: basics to OOP, automation and AI libraries. Ages 8 to adult, small batches, AST evenings, free demo.">
+  <meta name="geo.region" content="SA">
+  <meta name="geo.placename" content="Saudi Arabia">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#7A2E2E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Zilla+Slab:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/gulf-sa.css?v=20260710">
+  <style>
+    /* Python-SA page only: hero pairs the copy with a contents card, dotted leaders. Tokens only. */
+    .gsa-p-hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 56px;
+      align-items: center;
+    }
+    .gsa-p-toc {
+      background: var(--gsa-white);
+      border: 1px solid var(--gsa-sand);
+      border-radius: 2px;
+      box-shadow: var(--gsa-shadow);
+      padding: 22px 24px 18px;
+    }
+    .gsa-p-toc-title {
+      font-family: var(--gsa-serif);
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--gsa-ink);
+      padding-bottom: 12px;
+      margin-bottom: 6px;
+      border-bottom: 2px solid var(--gsa-maroon);
+    }
+    .gsa-p-toc ol { list-style: none; margin: 0; padding: 0; }
+    .gsa-p-toc li {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      padding: 12px 0;
+      border-bottom: 1px dotted var(--gsa-sand);
+    }
+    .gsa-p-toc li:last-child { border-bottom: none; }
+    .gsa-p-toc-num {
+      font-family: var(--gsa-serif);
+      font-weight: 700;
+      font-size: .92rem;
+      color: var(--gsa-maroon);
+    }
+    .gsa-p-toc-term {
+      font-weight: 600;
+      font-size: .95rem;
+      color: var(--gsa-ink);
+      white-space: nowrap;
+    }
+    .gsa-p-toc-dots {
+      flex: 1;
+      border-bottom: 1px dotted var(--gsa-muted);
+      transform: translateY(-4px);
+      min-width: 18px;
+    }
+    .gsa-p-toc-note {
+      font-size: .79rem;
+      color: var(--gsa-muted);
+      white-space: nowrap;
+    }
+    .gsa-p-toc-foot {
+      margin-top: 14px;
+      font-size: .82rem;
+      font-weight: 600;
+      color: var(--gsa-palm);
+    }
+    @media (max-width: 980px) {
+      .gsa-p-hero-grid { grid-template-columns: 1fr; gap: 36px; }
+    }
+    @media (max-width: 420px) {
+      .gsa-p-toc-note { display: none; }
+    }
+  </style>
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "EducationalOrganization",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com",
+    "logo": "https://learn.modernagecoders.com/images/logo.png",
+    "description": "Live online coding, AI and maths classes for kids, teens, college students and professionals.",
+    "areaServed": "Saudi Arabia",
+    "sameAs": ["https://www.youtube.com/@modernagecoders", "https://wa.me/919123366161"] }
+  </script>
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Coding Classes in Saudi Arabia", "item": "https://learn.modernagecoders.com/coding-classes-in-saudi-arabia" },
+    { "@type": "ListItem", "position": 3, "name": "Python Classes in Saudi Arabia", "item": "https://learn.modernagecoders.com/python-classes-in-saudi-arabia" } ] }
+  </script>
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+    { "@type": "Question", "name": "Which Python course should a Saudi beginner start with?", "acceptedAnswer": { "@type": "Answer", "text": "Age decides most of it. Eight to twelve year olds join Python and AI for Kids, teenagers join Python for Teens, and adults choose between Python Mastery, for the full language, and Python Automation with AI, for office work made to run itself. When two options both look right, say so at the demo. Placing students is the teacher's job, not your homework." } },
+    { "@type": "Question", "name": "Is Python worth learning if my real goal is AI?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, and it is barely optional. The libraries doing practical AI work, from pandas to scikit-learn to the language model APIs, are all driven from Python. Our AI courses assume the fluency the Python tracks build, which is why those two pages point at each other." } },
+    { "@type": "Question", "name": "Does this line up with school computer science in the Kingdom?", "acceptedAnswer": { "@type": "Answer", "text": "They run beside school and tend to make it feel easier. Students at Indian schools meet Python again in senior CBSE computer science, which is set in this language. British-curriculum students answer IGCSE and A Level programming questions using the same skills. We never coach for one specific paper; we build the fluency that makes the paper feel short." } },
+    { "@type": "Question", "name": "What timings can students in Saudi Arabia get?", "acceptedAnswer": { "@type": "Answer", "text": "Evening hours in Arabia Standard Time on weekdays, after school and office, with Friday and Saturday options for weekend learners. Each student holds one fixed weekly hour so the course becomes a habit rather than a negotiation, and one-on-one students can arrange different days with their teacher." } },
+    { "@type": "Question", "name": "Does Python need strong maths first?", "acceptedAnswer": { "@type": "Answer", "text": "No. Early Python runs on ordinary school arithmetic, and any mathematics a later topic depends on gets built in class at that moment. Patience with being wrong matters far more than maths marks, and the course trains that patience by design." } },
+    { "@type": "Question", "name": "What is the fee for Python classes in Saudi Arabia?", "acceptedAnswer": { "@type": "Answer", "text": "A group seat is 40 dollars a month, in riyal terms close to SAR 150. The one-on-one plan is 100 dollars a month, near SAR 375. Neither plan carries a registration amount or a long commitment, and the demo class before enrolment costs nothing." } },
+    { "@type": "Question", "name": "Can a working professional keep up with an evening course?", "acceptedAnswer": { "@type": "Answer", "text": "The adult tracks are designed around exactly that person. One fixed evening hour a week, practice tasks scaled to a working week rather than a student holiday, and teachers who expect tired learners and pace for them. Progress is steadier than a bootcamp brochure promises, and far more likely to survive contact with your calendar." } },
+    { "@type": "Question", "name": "What happens in the free demo class?", "acceptedAnswer": { "@type": "Answer", "text": "Ask through the form or on WhatsApp, and a mentor calls to match age, experience and goal to a track. The student then sits one full live class with a practising teacher. Enrolment, payment and every other commitment wait on the far side of that hour." } }
+  ] }
+  </script>
+</head>
+
+<body class="gsa-body">
+
+<!-- ============================== NAV ============================== -->
+<nav class="gsa-nav" aria-label="Primary">
+  <div class="gsa-nav-inner">
+    <a href="/" class="gsa-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="34" height="34" fetchpriority="high">
+      Modern Age Coders
+      <span class="gsa-brand-tag">Python &middot; KSA</span>
+    </a>
+    <ul class="gsa-nav-links">
+      <li><a href="/courses">Courses</a></li>
+      <li><a href="/how-we-teach">How We Teach</a></li>
+      <li><a href="/love">Reviews</a></li>
+    </ul>
+    <a href="#demo" class="gsa-btn">Book Demo</a>
+  </div>
+</nav>
+
+<!-- ============================== HERO (contents-card composition) ============================== -->
+<header class="gsa-hero">
+  <div class="gsa-wrap">
+    <div class="gsa-p-hero-grid">
+      <div>
+        <p class="gsa-kicker">One language, taught from age eight to working adult</p>
+        <h1 class="gsa-h1">Python Classes in <em>Saudi Arabia</em></h1>
+        <p class="gsa-hero-lede">Our Python tracks run live over video for students all across the Kingdom, from eight year olds to working adults. A class holds one teacher and at most eight learners for one concentrated hour, and nobody leaves it having only watched someone else type.</p>
+        <p class="gsa-hero-lede">This page gathers every Python course we run, walks the syllabus arc stage by stage, and says plainly what the language can and cannot do for a career here. The short version: take the free demo and let the teacher do the placing.</p>
+        <div class="gsa-hero-ctas">
+          <a href="#demo" class="gsa-btn">Book a Free Demo Class</a>
+          <a href="https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20Python%20classes%20in%20Saudi%20Arabia" class="gsa-btn-ghost gsa-btn-palm" target="_blank" rel="noopener">WhatsApp a mentor</a>
+        </div>
+        <p class="gsa-trust"><span class="gsa-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 rating across 547+ Google reviews</p>
+      </div>
+      <aside class="gsa-p-toc" aria-label="The Python syllabus arc in brief">
+        <p class="gsa-p-toc-title">The arc, in five chapters</p>
+        <ol>
+          <li>
+            <span class="gsa-p-toc-num">01</span>
+            <span class="gsa-p-toc-term">The basics</span>
+            <span class="gsa-p-toc-dots" aria-hidden="true"></span>
+            <span class="gsa-p-toc-note">first running programs</span>
+          </li>
+          <li>
+            <span class="gsa-p-toc-num">02</span>
+            <span class="gsa-p-toc-term">Data structures</span>
+            <span class="gsa-p-toc-dots" aria-hidden="true"></span>
+            <span class="gsa-p-toc-note">information, organised</span>
+          </li>
+          <li>
+            <span class="gsa-p-toc-num">03</span>
+            <span class="gsa-p-toc-term">Objects</span>
+            <span class="gsa-p-toc-dots" aria-hidden="true"></span>
+            <span class="gsa-p-toc-note">growth without collapse</span>
+          </li>
+          <li>
+            <span class="gsa-p-toc-num">04</span>
+            <span class="gsa-p-toc-term">Automation</span>
+            <span class="gsa-p-toc-dots" aria-hidden="true"></span>
+            <span class="gsa-p-toc-note">the chores disappear</span>
+          </li>
+          <li>
+            <span class="gsa-p-toc-num">05</span>
+            <span class="gsa-p-toc-term">AI libraries</span>
+            <span class="gsa-p-toc-dots" aria-hidden="true"></span>
+            <span class="gsa-p-toc-note">models and LLM APIs</span>
+          </li>
+        </ol>
+        <p class="gsa-p-toc-foot">Taught live, in order, at every age. Details further down this page.</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<div class="gsa-band" aria-hidden="true"></div>
+
+<!-- ============================== COURSES ============================== -->
+<section class="gsa-section" id="courses">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">The tracks</p>
+    <h2 class="gsa-h2">Four Python tracks, then the road beyond them</h2>
+    <p class="gsa-lede">Each card is a weekly live class with a fixed teacher and fixed classmates. Click through for syllabus detail, schedules and fees.</p>
+    <div class="gsa-anchor-pills">
+      <a href="#tracks" class="gsa-pill">The Python tracks</a>
+      <a href="#beyond" class="gsa-pill">Beyond Python</a>
+      <a href="#arc" class="gsa-pill">The syllabus arc</a>
+      <a href="#professionals" class="gsa-pill">For professionals</a>
+    </div>
+
+    <div class="gsa-course-group" id="tracks">
+      <div class="gsa-course-group-head">
+        <h3 class="gsa-h3">The Python tracks</h3>
+        <span>Choose by age, refine by aim</span>
+      </div>
+      <div class="gsa-course-grid">
+        <a href="/courses/python-teens" class="gsa-course-card">
+          <img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">Python for Teens</div>
+            <p class="gsa-course-card-desc">Ages 13 to 18. From a first print statement to programs with files, APIs and a purpose the teenager chose. The track whose effects show up at school first, since several boards examine in this very language.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/python-mastery-college" class="gsa-course-card">
+          <img src="/images/python-college.webp" alt="Python Mastery course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">Python Mastery</div>
+            <p class="gsa-course-card-desc">For adults who want the language whole rather than in tutorial-sized fragments: syntax through object-oriented design, then the libraries working programmers lean on daily.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/python-ai-automation-college" class="gsa-course-card">
+          <img src="/images/python-automation-ai-college.webp" alt="Python Automation with AI course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">Python Automation with AI</div>
+            <p class="gsa-course-card-desc">For anyone whose office week repeats itself. Scripts that rename, merge, fill and send, then AI-assisted pipelines that carry on after you log off.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/python-ai-kids" class="gsa-course-card">
+          <img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">Python &amp; AI for Kids</div>
+            <p class="gsa-course-card-desc">For the eight to twelve set: genuine typed Python, playful on the outside and correct underneath, with an early honest look at what AI is and what it is not.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="gsa-course-group" id="beyond">
+      <div class="gsa-course-group-head">
+        <h3 class="gsa-h3">Beyond Python</h3>
+        <span>Where fluent students head next</span>
+      </div>
+      <div class="gsa-course-grid">
+        <a href="/courses/ai-ml-teens" class="gsa-course-card">
+          <img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">AI &amp; Machine Learning for Teens</div>
+            <p class="gsa-course-card-desc">Where a teenager goes after the Python track: datasets they gathered, models they trained, results they can defend out loud.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/ai-ml-college" class="gsa-course-card">
+          <img src="/images/ai-ml-college.webp" alt="AI and Machine Learning course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">AI &amp; Machine Learning</div>
+            <p class="gsa-course-card-desc">Machine learning for adults, theory kept honest and practice kept real, from regression to neural networks on data with real-world flaws.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/gen-ai" class="gsa-course-card">
+          <img src="/images/generative-ai-college.webp" alt="Generative AI course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gsa-course-card-body">
+            <div class="gsa-course-card-title">Generative AI</div>
+            <p class="gsa-course-card-desc">Large language models put to work from Python code: prompting with intent, API calls, retrieval, and compact applications that hold together.</p>
+            <p class="gsa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <p class="gsa-lede" style="margin-top: 34px;">The whole AI side of the catalogue, including the kids and agent courses, has its own guide at <a href="/ai-classes-in-saudi-arabia">AI Classes in Saudi Arabia</a>.</p>
+  </div>
+</section>
+
+<!-- ============================== WHICH TRACK ============================== -->
+<section class="gsa-section gsa-section-white" id="which">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Choosing</p>
+    <h2 class="gsa-h2">Picking a track without second-guessing yourself</h2>
+    <div class="gsa-prose">
+      <p>Most families overthink this, so here is the honest sorting logic we use ourselves. A child of eight to twelve belongs in the kids track, full stop; it is real Python at a real pace, not a waiting room. A teenager belongs in Python for Teens whether or not they have coded before, because the early weeks calibrate to the batch. An adult who wants to become a programmer takes Python Mastery. An adult who mainly wants their Sunday reports to write themselves takes the automation track and skips nothing they will miss.</p>
+      <p>The edge cases, a mathematically fierce eleven year old, an adult who half-remembers university Java, are exactly what the free demo exists for. One conversation with a teacher settles what a week of internet research will not. And a student who lands in the wrong batch is moved sideways in the first weeks without ceremony or extra cost, so the price of a wrong guess is close to zero.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== SYLLABUS ARC ============================== -->
+<section class="gsa-section" id="arc">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Stage by stage</p>
+    <h2 class="gsa-h2">The Python arc, with the contents stated plainly</h2>
+    <div class="gsa-prose">
+      <p>The four tracks pace it differently and frame it for different ages, but underneath runs one arc. Here is what each stage actually contains, so you know what the fee buys before anyone asks for it.</p>
+    </div>
+    <div class="gsa-syllabus">
+      <div class="gsa-syllabus-row">
+        <div class="gsa-syllabus-stage">The basics<small>The first weeks</small></div>
+        <div class="gsa-syllabus-body">
+          <p>Variables, input and output, conditions, loops. Programs of five to twenty lines that already do something: a number guesser, a countdown, a script that answers back. The habit that matters most here is running the code every few lines and treating red error text as information rather than as judgement. Students who catch that habit early never fear the screen again.</p>
+        </div>
+      </div>
+      <div class="gsa-syllabus-row">
+        <div class="gsa-syllabus-stage">Data structures<small>The working middle</small></div>
+        <div class="gsa-syllabus-body">
+          <p>Lists and dictionaries first, then tuples, sets, strings and files, with sorting and searching along the way. Programs stop being demonstrations in this stretch: a marks tracker, a quiz with a saved scoreboard, a small catalogue that remembers. Organised information is where usefulness begins, so this stage gets the most classroom time of the five.</p>
+        </div>
+      </div>
+      <div class="gsa-syllabus-row">
+        <div class="gsa-syllabus-stage">Objects<small>Structure for bigger work</small></div>
+        <div class="gsa-syllabus-body">
+          <p>Classes, objects and inheritance, plus the design sense underneath them: arranging code so that next month's feature does not break last month's three. Students take a project they wrote earlier and rebuild it properly, and that before-and-after comparison argues for good design more convincingly than any lecture we could give.</p>
+        </div>
+      </div>
+      <div class="gsa-syllabus-row">
+        <div class="gsa-syllabus-stage">Automation<small>Python does the chores</small></div>
+        <div class="gsa-syllabus-body">
+          <p>Renaming five hundred files, merging a month of spreadsheets, pulling figures off a website, sending the weekly email round. Adults in the automation track live in this stage; teens pass through it as projects. The finish line is personal and satisfying: pick one recurring chore from your own week and make it stop existing.</p>
+        </div>
+      </div>
+      <div class="gsa-syllabus-row">
+        <div class="gsa-syllabus-stage">AI libraries<small>The modern payoff</small></div>
+        <div class="gsa-syllabus-body">
+          <p>pandas and NumPy for handling data honestly, scikit-learn for a first model trained on that data, and large language model APIs for students moving into generative work. Every library arrives with its limits attached, because knowing what a tool cannot do is half of using it well. The deeper AI road continues on our <a href="/ai-classes-in-saudi-arabia">AI classes in Saudi Arabia</a> page.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PROFESSIONALS / SAUDI CONTEXT ============================== -->
+<section class="gsa-section gsa-section-white" id="professionals">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">The adult question</p>
+    <h2 class="gsa-h2">Python and the Saudi working week, honestly</h2>
+    <div class="gsa-prose">
+      <p>The Kingdom is spending real money to move its economy beyond oil, and software sits close to the middle of that project. You can see it without reading a single strategy document: government services that moved online and stayed there, banks hiring for data roles, logistics and energy firms advertising for people who can script as well as they can operate. Python is the language that keeps appearing in those advertisements, usually next to the words data, automation or AI.</p>
+      <p>Now the honest part. An evening course does not get anyone hired, and this page will not pretend otherwise. No placement offers, no salary arithmetic, no interviews arranged. Courses that promise those things are selling the promise, not the outcome. What a course can genuinely deliver is capability with evidence: scripts that run against your own work, a small application built end to end, a trained model you can explain without notes. In a hiring conversation, that evidence is the difference between claiming a skill and demonstrating one.</p>
+      <p>The adult tracks are shaped for a person with a full diary. One fixed evening hour each week in Arabia Standard Time, practice sized to fit around a job rather than replace one, and instructors who have heard every version of "my last code was in university, and it was bad" without flinching.</p>
+      <h3 class="gsa-h3">For the teenagers, a school dividend</h3>
+      <p>Saudi students in our Python tracks come from national schools and from the international systems, and the language pays a quiet dividend in several of them. The senior CBSE computer science syllabus at Indian schools is set in Python, so our teen track amounts to years of head start on the exam language itself. IGCSE and A Level computing reward students who can produce working code under time pressure, which weekly project-building supplies naturally. And in national curriculum schools, where digital skills keep growing in importance, a live weekly hour of real programming multiplies whatever the classroom period begins.</p>
+      <p>None of this is exam coaching, and we decline requests to turn it into that. Fluency first; the papers take care of themselves.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== HOW IT WORKS ============================== -->
+<section class="gsa-section" id="how">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">The format</p>
+    <h2 class="gsa-h2">What a Python class here looks like</h2>
+    <p class="gsa-lede">The same six commitments hold for every track, every week, at every age.</p>
+    <div class="gsa-steps">
+      <div class="gsa-step">
+        <h3>Code on screen, not slides</h3>
+        <p>Students write and run Python during the hour, and errors get repaired together the moment they appear, which is when repair actually teaches. A lesson built on the student's own program beats any prepared example.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>Eight learners, no more</h3>
+        <p>Group batches stop at eight so that every student codes in every class and the teacher can see who has gone quiet. The same syllabus runs one-on-one for those who want a private pace.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>AST evenings, weekend options</h3>
+        <p>Weekday classes sit in the Saudi evening after school and office; Friday and Saturday hold the weekend slots. One fixed hour per week, chosen once, kept for the whole course.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>English as the medium</h3>
+        <p>Instruction is in English, matching most Saudi international schools. Teachers rephrase without being asked twice and get students to explain ideas back, which exposes confusion nodding would hide.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>Work that outlives the course</h3>
+        <p>Every track closes with programs the student owns: games, automation scripts, data tools, first models. They keep running after the last class, which is more than most certificates can say.</p>
+      </div>
+      <div class="gsa-step">
+        <h3>The demo goes first</h3>
+        <p>Before fees, before forms, before commitments: one free live class. If the teaching does not sell itself in that hour, nothing else on this page should.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== WHY US ============================== -->
+<section class="gsa-section gsa-section-white" id="why">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">The substance</p>
+    <h2 class="gsa-h2">Six reasons that survive scrutiny</h2>
+    <div class="gsa-feature-grid">
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <h3>Career teachers</h3>
+        <p>Our instructors teach as their profession, not as a gap-filler, and students often carry the same teacher from one course into the next.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <h3>Small groups as policy</h3>
+        <p>The eight-student limit is not a marketing average; it is the number the whole teaching model depends on, so it does not bend.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        <h3>Typing over watching</h3>
+        <p>Class time is spent writing and repairing programs. Python is learned through the fingers, and an hour of watching teaches roughly nothing.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+        <h3>Certificates with substance</h3>
+        <p>Completion certificates reference the projects behind them, which is what makes them worth a line on a CV or a school application.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+        <h3>Progress made visible</h3>
+        <p>Parents of younger students receive plain-language updates; adult learners get direct feedback on their own code. Nobody is left guessing.</p>
+      </div>
+      <div class="gsa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="m9 16 2 2 4-4"/></svg>
+        <h3>Evidence before payment</h3>
+        <p>The free demo is a complete, ordinary class. We put the product first and the invoice second, and we are comfortable being judged in that order.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== REVIEWS ============================== -->
+<section class="gsa-section" id="reviews">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Verified reviews</p>
+    <h2 class="gsa-h2">Students and parents, quoted exactly</h2>
+    <p class="gsa-lede">Live online classes mean a learner in Saudi Arabia shares a batch with students from several countries. Nothing below is edited or invented, and the full collection sits on our <a href="/love">Wall of Love</a>.</p>
+    <div class="gsa-review-grid">
+      <div class="gsa-review-card">
+        <p class="gsa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects."</blockquote>
+        <p class="gsa-review-name">Krishnam Bhatter</p>
+        <p class="gsa-review-role">Former student</p>
+      </div>
+      <div class="gsa-review-card">
+        <p class="gsa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</blockquote>
+        <p class="gsa-review-name">Samridho Mondal</p>
+        <p class="gsa-review-role">Student</p>
+      </div>
+      <div class="gsa-review-card">
+        <p class="gsa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."</blockquote>
+        <p class="gsa-review-name">Sonu Goyal</p>
+        <p class="gsa-review-role">Parent</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== SAUDI GUIDES ============================== -->
+<section class="gsa-section gsa-section-white" id="guides">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Related reading</p>
+    <h2 class="gsa-h2">The rest of our Saudi Arabia shelf</h2>
+    <div class="gsa-prose">
+      <p>Python is one shelf in the library. Depending on who is learning and where they live, one of these guides may fit better.</p>
+    </div>
+    <div class="gsa-hub-grid">
+      <a href="/coding-classes-in-saudi-arabia" class="gsa-hub-card">
+        <div class="gsa-hub-title">Coding Classes in Saudi Arabia</div>
+        <p>The country guide this page belongs to, covering every course family and age band we teach in the Kingdom.</p>
+      </a>
+      <a href="/ai-classes-in-saudi-arabia" class="gsa-hub-card">
+        <div class="gsa-hub-title">AI Classes in Saudi Arabia</div>
+        <p>The companion to this page: machine learning, generative AI and agent tools, from kid-safe first steps to professional depth.</p>
+      </a>
+      <a href="/coding-classes-in-riyadh" class="gsa-hub-card">
+        <div class="gsa-hub-title">Coding Classes in Riyadh</div>
+        <p>The capital's own page, with local timing detail and the full course spread for Riyadh families.</p>
+      </a>
+      <a href="/coding-classes-in-jeddah" class="gsa-hub-card">
+        <div class="gsa-hub-title">Coding Classes in Jeddah</div>
+        <p>The west-coast edition, written for Jeddah households and their weekly rhythms.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PRICING ============================== -->
+<section class="gsa-section" id="pricing">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Fees</p>
+    <h2 class="gsa-h2">Priced like a monthly habit, not a gamble</h2>
+    <p class="gsa-lede">Two plans, charged monthly in US dollars, with riyal equivalents that stay close to the figures shown.</p>
+    <div class="gsa-price-grid">
+      <div class="gsa-price-card">
+        <p class="gsa-price-plan">Group classes</p>
+        <p class="gsa-price-figure">$40 <small>per month</small></p>
+        <p class="gsa-price-local">about SAR 150 per month</p>
+        <ul class="gsa-price-list">
+          <li>Weekly live Python class, eight students at most</li>
+          <li>AST evening and weekend hours</li>
+          <li>Projects kept for good, certificate at completion</li>
+          <li>Demo hour first, payment second</li>
+        </ul>
+        <a href="#demo" class="gsa-btn-ghost">Book a Free Demo</a>
+      </div>
+      <div class="gsa-price-card gsa-price-featured">
+        <p class="gsa-price-plan">One-on-one classes</p>
+        <p class="gsa-price-figure">$100 <small>per month</small></p>
+        <p class="gsa-price-local">about SAR 375 per month</p>
+        <ul class="gsa-price-list">
+          <li>One learner, the teacher's undivided hour</li>
+          <li>Days and times set around your week</li>
+          <li>Syllabus speed matched to one learner</li>
+          <li>Demo hour first, payment second</li>
+        </ul>
+        <a href="#demo" class="gsa-btn">Book a Free Demo</a>
+      </div>
+    </div>
+    <p class="gsa-price-note">No registration amount, no add-on charges, no exit penalty. The demo costs nothing and decides everything.</p>
+  </div>
+</section>
+
+<!-- ============================== FAQ ============================== -->
+<section class="gsa-section gsa-section-white" id="faq">
+  <div class="gsa-wrap">
+    <p class="gsa-eyebrow">Questions</p>
+    <h2 class="gsa-h2">Frequently asked questions</h2>
+    <div class="gsa-faq">
+      <details class="gsa-faq-item">
+        <summary>Which Python course should a Saudi beginner start with?</summary>
+        <div class="gsa-faq-body">Age decides most of it. Eight to twelve year olds join Python and AI for Kids, teenagers join Python for Teens, and adults choose between Python Mastery, for the full language, and Python Automation with AI, for office work made to run itself. When two options both look right, say so at the demo. Placing students is the teacher's job, not your homework.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>Is Python worth learning if my real goal is AI?</summary>
+        <div class="gsa-faq-body">Yes, and it is barely optional. The libraries doing practical AI work, from pandas to scikit-learn to the language model APIs, are all driven from Python. Our AI courses assume the fluency the Python tracks build, which is why those two pages point at each other.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>Does this line up with school computer science in the Kingdom?</summary>
+        <div class="gsa-faq-body">They run beside school and tend to make it feel easier. Students at Indian schools meet Python again in senior CBSE computer science, which is set in this language. British-curriculum students answer IGCSE and A Level programming questions using the same skills. We never coach for one specific paper; we build the fluency that makes the paper feel short.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>What timings can students in Saudi Arabia get?</summary>
+        <div class="gsa-faq-body">Evening hours in Arabia Standard Time on weekdays, after school and office, with Friday and Saturday options for weekend learners. Each student holds one fixed weekly hour so the course becomes a habit rather than a negotiation, and one-on-one students can arrange different days with their teacher.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>Does Python need strong maths first?</summary>
+        <div class="gsa-faq-body">No. Early Python runs on ordinary school arithmetic, and any mathematics a later topic depends on gets built in class at that moment. Patience with being wrong matters far more than maths marks, and the course trains that patience by design.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>What is the fee for Python classes in Saudi Arabia?</summary>
+        <div class="gsa-faq-body">A group seat is 40 dollars a month, in riyal terms close to SAR 150. The one-on-one plan is 100 dollars a month, near SAR 375. Neither plan carries a registration amount or a long commitment, and the demo class before enrolment costs nothing.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>Can a working professional keep up with an evening course?</summary>
+        <div class="gsa-faq-body">The adult tracks are designed around exactly that person. One fixed evening hour a week, practice tasks scaled to a working week rather than a student holiday, and teachers who expect tired learners and pace for them. Progress is steadier than a bootcamp brochure promises, and far more likely to survive contact with your calendar.</div>
+      </details>
+      <details class="gsa-faq-item">
+        <summary>What happens in the free demo class?</summary>
+        <div class="gsa-faq-body">Ask through the form or on WhatsApp, and a mentor calls to match age, experience and goal to a track. The student then sits one full live class with a practising teacher. Enrolment, payment and every other commitment wait on the far side of that hour.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="gsa-band" aria-hidden="true"></div>
+
+<!-- ============================== DEMO CTA ============================== -->
+<section class="gsa-section" id="demo">
+  <div class="gsa-wrap">
+    <div class="gsa-demo-panel">
+      <div class="gsa-demo-copy">
+        <p class="gsa-eyebrow">Free demo class</p>
+        <h2 class="gsa-h2">An hour of real Python beats a page about it</h2>
+        <p>Everything argued above is checkable in one free class: the batch size, the teaching style, the code your student writes before it ends. Take the hour, then take your time deciding.</p>
+        <p>WhatsApp suits some families better: <a href="https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20Python%20classes%20in%20Saudi%20Arabia" target="_blank" rel="noopener">message us here</a> and a mentor gets back to you in Saudi working hours.</p>
+        <p class="gsa-trust"><span class="gsa-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 rating across 547+ Google reviews</p>
+      </div>
+      <div class="gsa-demo-form-col">
+        <form class="gsa-leadform" onsubmit="submitInlineLead(event)">
+          <input type="text" name="name" placeholder="Parent or student name" required>
+          <input type="tel" name="phone" placeholder="Phone or WhatsApp number" required>
+          <select name="age" required>
+            <option value="" disabled selected>Who is this for?</option>
+            <option>Child (6 to 12)</option>
+            <option>Teen (13 to 18)</option>
+            <option>College student</option>
+            <option>Working professional</option>
+          </select>
+          <button type="submit">Book My Free Demo</button>
+          <p class="gsa-form-fine">Free demo class. No card needed. A mentor will call you.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer class="gsa-footer">
+  <div class="gsa-wrap">
+    <div class="gsa-footer-grid">
+      <div>
+        <p class="gsa-footer-brand">Modern Age Coders</p>
+        <p>Python and the rest of our coding and maths catalogue, taught live to students in Saudi Arabia and far beyond it, in English, in groups that stop at eight.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="gsa-footer-links">
+          <li><a href="/courses">All Courses</a></li>
+          <li><a href="/how-we-teach">How We Teach</a></li>
+          <li><a href="/love">Wall of Love</a></li>
+          <li><a href="/">Home</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Saudi Arabia</h4>
+        <ul class="gsa-footer-links">
+          <li><a href="/coding-classes-in-saudi-arabia">Coding Classes in Saudi Arabia</a></li>
+          <li><a href="/ai-classes-in-saudi-arabia">AI Classes in Saudi Arabia</a></li>
+          <li><a href="/coding-classes-in-riyadh">Coding Classes in Riyadh</a></li>
+          <li><a href="/coding-classes-in-jeddah">Coding Classes in Jeddah</a></li>
+          <li><a href="/coding-classes-in-dammam">Coding Classes in Dammam</a></li>
+          <li><a href="/coding-classes-for-kids-in-riyadh">Coding for Kids in Riyadh</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="gsa-footer-links">
+          <li><a href="https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20Python%20classes%20in%20Saudi%20Arabia" target="_blank" rel="noopener">WhatsApp us</a></li>
+          <li><a href="#demo">Book a free demo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="gsa-footer-bottom">
+      <p>&copy; 2026 Modern Age Coders. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitInlineLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.length < 7) { alert('Please enter a valid phone number.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+966', countryIso: 'SA', countryName: 'Saudi Arabia',
+      source: 'python-classes-in-saudi-arabia-inline', meta: { name: name, age: age }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="gsa-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you within a few hours.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+
+</body>
+</html>
