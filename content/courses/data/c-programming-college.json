@@ -1,0 +1,559 @@
+{
+  "meta": {
+    "slug": "c-programming-course-for-college-beginners",
+    "title": "C Programming Masterclass: Pointers, Memory, and How Computers Actually Work",
+    "description": "C programming course for college students and beginners: live online classes on pointers, memory, structs, file handling, and data structures in C, taught from zero.",
+    "keywords": [
+      "c programming course for college students",
+      "learn c programming online with pointers",
+      "c language course for beginners india",
+      "pointers and memory management in c course",
+      "c programming for first year engineering",
+      "data structures in c classes online",
+      "c programming live classes small batch",
+      "best c course for gate and university exams"
+    ],
+    "category": "Programming Languages",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Beginner, college students and first-year engineers",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "c-programming-college.png"
+  },
+  "program_overview": {
+    "title": "C Programming Masterclass",
+    "tagline": "Most C courses skip past pointers as fast as possible. This one is built around them.",
+    "description": "C is the language underneath everything: operating systems, databases, embedded firmware, and the interpreters that run Python and JavaScript are written in it. It is also the language most engineering students meet first and understand least, because the part that matters, pointers and memory, is usually rushed in two lectures. This 6-month live course inverts that. Months 1 and 2 build the language core properly: types, control flow, functions, and how a .c file actually becomes an executable. Months 3 and 4 are the heart of the course: a full month on pointers taught with memory diagrams for every operation, then a month on dynamic memory, the heap, and structs, including the bugs (leaks, dangling pointers, buffer overflows) demonstrated live and safely. Months 5 and 6 put it to work: file handling, linked lists, stacks, queues, and sorting built from scratch, a look at where C runs in the real world from kernels to microcontrollers, and a capstone project compiled, debugged, and defended.\n\nClasses are live and small. Students write and compile code in every session, homework is real programming with written feedback, and the instructor draws memory on a whiteboard until it stops being mysterious.",
+    "what_makes_this_different": [
+      "Pointers get a full month, not two lectures, and every operation comes with a memory diagram before any code",
+      "Memory bugs are taught on purpose: students create a leak, a dangling pointer, and an overflow in controlled exercises, then learn to catch them",
+      "Standard library functions like strlen and strcpy are written by hand first, so nothing in string.h is magic",
+      "Data structures are built from raw structs and malloc, the way university exams and real systems code expect",
+      "The compilation pipeline is taught, not skipped: preprocessor, compiler, linker, and what an executable actually is",
+      "The syllabus deliberately covers the C programming paper taught in Indian engineering first year, so college exams and this course reinforce each other"
+    ],
+    "learning_path": {
+      "phase_1": "Language core and the machine: types, control flow, functions, the stack, and how source code becomes an executable",
+      "phase_2": "The heart of C: pointers with memory diagrams, arrays and strings at the memory level, malloc and the heap, and structs",
+      "phase_3": "C at work: file handling, linked lists, stacks, queues, sorting, bitwise operations and embedded context, then a capstone"
+    },
+    "career_outcomes": [
+      "Genuine command of pointers and memory, the exact topics that separate C programmers from C survivors",
+      "Data structures implemented from scratch: the foundation university exams, GATE preparation, and interviews build on",
+      "The ability to read real systems code and understand what the machine is doing underneath",
+      "A compiled, working capstone project plus a semester's worth of programs on GitHub",
+      "A solid base for C++, embedded development, operating systems coursework, and competitive programming"
+    ]
+  },
+  "phase_1_language_core_and_the_machine": {
+    "title": "PHASE 1: The Language Core and the Machine (Months 1-2, Weeks 1-8)",
+    "description": "C fundamentals built on honest ground: what the compiler does, what types really are, and how functions and the call stack work, so the pointer month lands on solid footing.",
+    "month_1_from_source_to_executable": {
+      "title": "Month 1: From Source Code to Executable",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Hello, Compiler",
+        "topics": [
+          "Setting up GCC and VS Code on Windows, Mac, or Linux",
+          "Your first program: main, printf, and the return value",
+          "The compilation pipeline: preprocessor, compiler, linker, executable",
+          "Compiling from the terminal and reading compiler errors calmly",
+          "Why C has no training wheels, and why that is the point",
+          "Comments, formatting, and code that reads like it was written on purpose"
+        ],
+        "projects": [
+          "Banner program: compile, break, and fix a program five different ways to learn the error messages early"
+        ],
+        "practice": "Compile six small programs from the terminal, deliberately triggering and decoding one error each"
+      },
+      "week_2": {
+        "title": "Types, Variables, and Their Limits",
+        "topics": [
+          "int, char, float, double, and the unsigned variants",
+          "sizeof: asking the machine how big things are",
+          "Integer overflow demonstrated live: what happens at the edge",
+          "Type conversion and casting, implicit and explicit",
+          "printf and scanf format specifiers, and the crashes wrong ones cause",
+          "Constants with const and #define"
+        ],
+        "projects": [
+          "Limits explorer: a program that prints the size and range of every basic type on your machine"
+        ],
+        "practice": "Ten input-output exercises with mixed types, including two that overflow on purpose so you see it happen"
+      },
+      "week_3": {
+        "title": "Operators and Control Flow",
+        "topics": [
+          "Arithmetic operators and the integer division surprise",
+          "Relational and logical operators, and short-circuit evaluation",
+          "if, else if, else, and the switch statement",
+          "The ternary operator, used where it helps",
+          "Operator precedence: when to just use parentheses",
+          "= vs ==: the classic C bug, met early"
+        ],
+        "projects": [
+          "Grade and tax calculator: branching logic with real edge cases, negative inputs, and boundary values"
+        ],
+        "practice": "Twelve control-flow drills, including a leap year checker and a menu-driven calculator with switch"
+      },
+      "week_4": {
+        "title": "Loops",
+        "topics": [
+          "while, for, and do-while, and choosing between them",
+          "Loop counters, accumulators, and running totals",
+          "Nested loops: printing patterns the exam way",
+          "break and continue, used sparingly",
+          "Off-by-one errors: finding them before the compiler cannot",
+          "Tracing a loop by hand: the skill exams actually test"
+        ],
+        "projects": [
+          "Pattern engine: pyramids, diamonds, and number triangles from nested loops",
+          "Prime and perfect number finder with a hand-traced dry run submitted alongside the code"
+        ],
+        "practice": "Fifteen loop problems ranging from digit reversal to a simple guessing game",
+        "assessment": "Month 1 lab exam: three programs written live under light time pressure, compiled and demonstrated"
+      }
+    },
+    "month_2_functions_and_the_stack": {
+      "title": "Month 2: Functions and the Call Stack",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Functions Done Properly",
+        "topics": [
+          "Defining functions: parameters, return types, and void",
+          "Declarations vs definitions, and why prototypes exist",
+          "Pass by value: what the function actually receives",
+          "Designing small functions with one job each",
+          "Header files and splitting code across files",
+          "Reading a function signature like documentation"
+        ],
+        "projects": [
+          "Number theory library: gcd, lcm, prime check, and digit sum as clean reusable functions in their own file"
+        ],
+        "practice": "Write eight functions from written specifications, then refactor month 1 projects to use them"
+      },
+      "week_6": {
+        "title": "Scope, Storage, and the Stack",
+        "topics": [
+          "Local vs global variables, and why globals age badly",
+          "The call stack drawn frame by frame for a real program",
+          "static variables: memory that survives the function",
+          "Automatic storage: why locals vanish when the function returns",
+          "Stack overflow: what it literally means",
+          "Debugging with a stack diagram next to the code"
+        ],
+        "projects": [
+          "Stack tracer: a set of nested function calls with a hand-drawn stack diagram matched against actual output"
+        ],
+        "practice": "Predict the output of six scope puzzles before running them, and score your predictions"
+      },
+      "week_7": {
+        "title": "Recursion",
+        "topics": [
+          "Recursion as functions calling themselves, with the stack diagrams to prove it",
+          "Base case and recursive case: the two-part contract",
+          "Factorial, Fibonacci, and sum of digits, traced fully",
+          "Recursion vs loops: cost, clarity, and when each wins",
+          "Stack depth limits demonstrated by crashing one on purpose",
+          "Reading recursive code without re-tracing every call"
+        ],
+        "projects": [
+          "Recursive toolkit: power, GCD, decimal-to-binary, and Tower of Hanoi with move printing"
+        ],
+        "practice": "Convert three loop solutions to recursion and three recursive solutions to loops, and note which direction felt harder"
+      },
+      "week_8": {
+        "title": "Multi-File Programs and the Build",
+        "topics": [
+          "Organizing a project: headers, source files, and include guards",
+          "Compiling multiple files and linking them together",
+          "A first Makefile: stop retyping compiler commands",
+          "The preprocessor: #include, #define, and conditional compilation",
+          "Naming, formatting, and structure conventions used in real C codebases",
+          "Reading someone else's C file without fear"
+        ],
+        "projects": [
+          "Unit converter suite: a menu-driven multi-file program with separate modules for length, weight, and temperature"
+        ],
+        "practice": "Split a provided 300-line single-file program into clean modules with headers and a Makefile",
+        "assessment": "Month 2 review: a multi-file program built from a spec, plus an oral walkthrough of one stack diagram"
+      }
+    }
+  },
+  "phase_2_pointers_and_memory": {
+    "title": "PHASE 2: Pointers and Memory, Taught Properly (Months 3-4, Weeks 9-16)",
+    "description": "The month most courses rush is the month this course is named for: pointers with a memory diagram for every operation, then dynamic memory, the heap, and structs, including the famous bugs made visible.",
+    "month_3_pointers_with_diagrams": {
+      "title": "Month 3: Pointers, One Diagram at a Time",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Addresses and the & Operator",
+        "topics": [
+          "Memory as numbered boxes: the mental model everything rests on",
+          "The & operator: every variable lives somewhere",
+          "Declaring pointers: what int* p actually says",
+          "Dereferencing with *: reading and writing through a pointer",
+          "NULL and why pointers should never dangle uninitialized",
+          "Printing addresses with %p and watching them change between runs"
+        ],
+        "projects": [
+          "Memory mapper: a program that prints the address and value of every variable it owns, matched to a hand-drawn diagram"
+        ],
+        "practice": "Ten pointer basics drills, each answered first on paper with a box diagram, then verified in code"
+      },
+      "week_10": {
+        "title": "Pointers and Functions",
+        "topics": [
+          "Why pass by value cannot swap two numbers",
+          "Passing addresses: functions that modify their arguments",
+          "The classic swap written and traced completely",
+          "Out-parameters: returning more than one result",
+          "scanf finally explained: why it always wanted the &",
+          "Pointer parameters in library functions you already used"
+        ],
+        "projects": [
+          "Statistics engine: one function that fills min, max, and mean through pointer parameters from a single pass"
+        ],
+        "practice": "Rewrite five month 2 functions to use pointer parameters, and explain in comments what changed in memory terms"
+      },
+      "week_11": {
+        "title": "Arrays and Pointer Arithmetic",
+        "topics": [
+          "Arrays in memory: contiguous boxes with one name",
+          "Array names and pointers: the decay rule stated honestly",
+          "Pointer arithmetic: what p+1 really adds",
+          "Walking an array with a pointer instead of an index",
+          "Passing arrays to functions, and why size must travel with them",
+          "Out-of-bounds access: the bug C will not catch for you, demonstrated safely"
+        ],
+        "projects": [
+          "Array toolkit: reverse, rotate, and search implemented twice, once with indices and once with pointers"
+        ],
+        "practice": "Trace eight pointer arithmetic snippets on paper, predicting values and addresses before running them"
+      },
+      "week_12": {
+        "title": "Strings at the Memory Level",
+        "topics": [
+          "Strings as char arrays with a null terminator, no magic",
+          "String literals vs char arrays, and what is writable",
+          "Writing strlen, strcpy, and strcmp by hand before touching string.h",
+          "Buffer overflow demonstrated in a controlled exercise, and why it matters for security",
+          "Safer patterns: bounds checking and fgets over gets",
+          "Arrays of strings and the char* array"
+        ],
+        "projects": [
+          "mini_string.h: your own implementation of five standard string functions, tested against the real library"
+        ],
+        "practice": "Solve six string problems using only your own mini_string functions, no string.h allowed",
+        "assessment": "Pointer month exam: paper diagrams plus live coding, including one swap variant and one string function from scratch"
+      }
+    },
+    "month_4_the_heap_and_structs": {
+      "title": "Month 4: The Heap, Dynamic Memory, and Structs",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "malloc and the Heap",
+        "topics": [
+          "Stack vs heap: two kinds of memory with different lifetimes",
+          "malloc and free: asking for memory and giving it back",
+          "sizeof in allocation: the pattern that avoids a whole bug family",
+          "Checking for NULL: allocation can fail",
+          "Memory leaks: creating one on purpose, then finding it",
+          "Ownership thinking: who allocated this, and who must free it"
+        ],
+        "projects": [
+          "Runtime array: a program that asks the user how much data is coming, allocates exactly that, and cleans up properly"
+        ],
+        "practice": "Six allocation exercises, each submitted with a one-line ownership note stating where every free happens"
+      },
+      "week_14": {
+        "title": "Dynamic Arrays and the Famous Bugs",
+        "topics": [
+          "realloc: growing storage as data arrives",
+          "Building a growable array with capacity doubling",
+          "Dangling pointers: use-after-free demonstrated and diagnosed",
+          "Double free and what the runtime does about it",
+          "AddressSanitizer: making the invisible bugs report themselves",
+          "Valgrind on Linux, and what a clean report looks like"
+        ],
+        "projects": [
+          "Growable list: a dynamic array module with append, insert, and remove that survives a sanitizer run cleanly"
+        ],
+        "practice": "Fix five provided programs, each hiding one memory bug: a leak, a dangle, a double free, an overflow, and an uninitialized read"
+      },
+      "week_15": {
+        "title": "Structs",
+        "topics": [
+          "struct: modeling a real thing with named fields",
+          "Declaring, initializing, and copying structs",
+          "Arrays of structs: a table of records in memory",
+          "Pointers to structs and the arrow operator",
+          "typedef for names that read like types",
+          "Nested structs and designing the record before coding it"
+        ],
+        "projects": [
+          "Student database, part one: an array-of-structs record system with add, list, search, and update"
+        ],
+        "practice": "Model three real records as structs: a bank account, a library book, and a cricket scorecard entry"
+      },
+      "week_16": {
+        "title": "Structs Meet the Heap",
+        "topics": [
+          "Allocating structs dynamically",
+          "Structs containing pointers: records with variable-length fields",
+          "Deep copy vs shallow copy, and the bug hiding between them",
+          "Freeing nested allocations in the right order",
+          "Designing a small module: header, implementation, and a test file",
+          "Code review: reading a classmate's memory management critically"
+        ],
+        "projects": [
+          "Contact book: a fully dynamic record system where both the list and each name grow to fit, sanitizer-clean"
+        ],
+        "practice": "Extend the contact book with delete and sort, keeping the sanitizer report clean",
+        "assessment": "Month 4 practical: build a small dynamic record system from a spec in one sitting, leak-free, and defend the design"
+      }
+    }
+  },
+  "phase_3_c_at_work": {
+    "title": "PHASE 3: C at Work: Files, Data Structures, and the Capstone (Months 5-6, Weeks 17-24)",
+    "description": "The skills become systems: file handling, linked lists, stacks, queues, and sorting built from raw structs and malloc, a grounded look at where C runs in industry, and a capstone project compiled and defended.",
+    "month_5_files_and_data_structures": {
+      "title": "Month 5: File Handling and Data Structures from Scratch",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "File Handling",
+        "topics": [
+          "fopen, fclose, and file modes that actually matter",
+          "Reading lines with fgets and parsing them",
+          "Writing structured data with fprintf",
+          "Binary files: fread and fwrite for whole records",
+          "Error handling: what to do when the file is not there",
+          "Saving and loading the contact book: persistence at last"
+        ],
+        "projects": [
+          "Persistent contact book: records saved to disk in both text and binary form, reloaded on startup"
+        ],
+        "practice": "Write a CSV report generator that reads raw marks from one file and writes a formatted result sheet to another"
+      },
+      "week_18": {
+        "title": "Linked Lists",
+        "topics": [
+          "Why arrays are not enough: the case for nodes and links",
+          "The node struct: data plus a pointer to the next",
+          "Insertion at head, tail, and middle, each with a diagram first",
+          "Traversal and search",
+          "Deletion without losing the rest of the list",
+          "The pointer-rewiring discipline: draw, then code, always"
+        ],
+        "projects": [
+          "Singly linked list module: insert, delete, search, reverse, and print, built from scratch and sanitizer-clean"
+        ],
+        "practice": "Solve six classic list problems including middle element, nth from end, and cycle detection by hand-tracing first"
+      },
+      "week_19": {
+        "title": "Stacks and Queues",
+        "topics": [
+          "The stack as a discipline: push, pop, peek",
+          "Array-backed and list-backed stack implementations",
+          "Balanced brackets: the interview classic, solved properly",
+          "Queues: enqueue, dequeue, and the circular buffer trick",
+          "Where the machine itself uses stacks and queues",
+          "Choosing a backing structure and defending the choice"
+        ],
+        "projects": [
+          "Bracket validator and a printer-queue simulator, each built on your own stack and queue modules"
+        ],
+        "practice": "Implement a stack-based postfix expression evaluator and test it against ten expressions"
+      },
+      "week_20": {
+        "title": "Searching, Sorting, and Function Pointers",
+        "topics": [
+          "Linear and binary search, with the sorted-input contract",
+          "Bubble, selection, and insertion sort, traced and timed",
+          "Counting comparisons: a first taste of efficiency analysis",
+          "Function pointers: passing behavior as an argument",
+          "qsort from the standard library and writing its comparator",
+          "Sorting an array of structs by any field"
+        ],
+        "projects": [
+          "Sortable student database: the record system gains sort-by-marks, sort-by-name, and binary search, using function pointers"
+        ],
+        "practice": "Time three sorts on arrays of 1k, 10k, and 100k elements and write four sentences on what the numbers show",
+        "assessment": "Data structures lab exam: one list problem and one stack or queue problem implemented live from scratch"
+      }
+    },
+    "month_6_systems_context_and_capstone": {
+      "title": "Month 6: Systems Context and the Capstone",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Where C Runs: Bits, Kernels, and Microcontrollers",
+        "topics": [
+          "Bitwise operators: and, or, xor, shifts, and masks",
+          "Flags and registers: why embedded code reads and writes single bits",
+          "A grounded tour: C in operating systems, databases, firmware, and language runtimes",
+          "What embedded development actually involves, without the hype",
+          "Reading a small piece of real open-source C and surviving",
+          "gdb basics: breakpoints, stepping, and inspecting memory in a debugger"
+        ],
+        "projects": [
+          "Bit toolkit: set, clear, toggle, and test any bit, plus a permissions system stored in a single byte"
+        ],
+        "practice": "Use gdb to find the planted bug in a provided program without reading its source first"
+      },
+      "week_22": {
+        "title": "Capstone: Scope and Foundations",
+        "topics": [
+          "Choosing a capstone: bank record system, inventory manager, text-based game with saves, or a proposal of your own",
+          "Writing the spec: features, data structures, and file format decided before coding",
+          "Project skeleton: modules, headers, and a Makefile from day one",
+          "Building the data layer first",
+          "Estimating honestly what three weeks can hold",
+          "Instructor sign-off on scope before the sprint starts"
+        ],
+        "projects": [
+          "Approved capstone spec plus a compiling skeleton with the core data structures in place"
+        ],
+        "practice": "Implement and test your capstone's data module in isolation before any menus or files exist"
+      },
+      "week_23": {
+        "title": "Capstone: Build and Review",
+        "topics": [
+          "Feature-by-feature building, smallest first",
+          "Keeping the sanitizer clean while the codebase grows",
+          "Instructor code review: memory management and module boundaries",
+          "Debugging your own project with gdb instead of printf sprinkles",
+          "Handling bad input like software that respects its user",
+          "Trimming scope with a straight face when the clock demands it"
+        ],
+        "projects": [
+          "Feature-complete capstone: all core features working, file persistence in, sanitizer report clean"
+        ],
+        "practice": "Exchange builds with a classmate, file two bug reports on theirs, and fix the ones filed on yours"
+      },
+      "week_24": {
+        "title": "Ship and Defend",
+        "topics": [
+          "The final pass: a written test checklist run against every feature",
+          "README and build instructions a stranger could follow",
+          "Publishing the semester's work to GitHub properly",
+          "Presenting a systems project: what it does, then how memory flows through it",
+          "Answering pointed questions about your own pointers",
+          "What comes next: C++, embedded, operating systems, or DSA in depth"
+        ],
+        "projects": [
+          "Delivered capstone: compiled, documented, pushed to GitHub, and defended in a live walkthrough"
+        ],
+        "practice": "Write the README, then have someone outside the class build and run your project using only that file",
+        "assessment": "Capstone defense: live demo, memory-flow explanation, and Q&A, plus course-completion certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Limits explorer that maps every basic type on your machine",
+      "Pattern engine and number theory function library",
+      "Recursive toolkit with Tower of Hanoi",
+      "Multi-file unit converter with its own Makefile",
+      "mini_string.h: five standard string functions written from scratch",
+      "Growable dynamic array that passes sanitizer checks",
+      "Fully dynamic contact book with file persistence",
+      "Singly linked list, stack, and queue modules built from raw structs",
+      "Sortable student database using function pointers and qsort",
+      "Bit toolkit with a one-byte permissions system",
+      "Capstone: a complete record system or text game, compiled, documented, and defended"
+    ],
+    "total_projects_built": "15+ compiled programs and modules, ending with a defended capstone on GitHub",
+    "skills_mastered": [
+      "The compilation pipeline: preprocessor, compiler, linker, and multi-file builds with Makefiles",
+      "Pointers with total confidence: addresses, dereferencing, pointer arithmetic, and pointer parameters",
+      "Dynamic memory: malloc, realloc, free, ownership discipline, and hunting leaks with sanitizers",
+      "Structs and file handling: record systems that persist to text and binary files",
+      "Data structures from scratch: linked lists, stacks, queues, searching, and sorting",
+      "Systems literacy: bitwise operations, gdb debugging, and reading real-world C"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, writing and compiling code alongside the instructor",
+      "practice": "3-4 hours of problem sets and project work between classes, with paper tracing where it teaches best",
+      "review": "Homework reviewed with written feedback; memory diagrams corrected line by line when needed"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, backed by a GitHub portfolio of compiled projects"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so a segfault at midnight has somewhere to go",
+      "progress_updates": "Regular progress notes covering what was mastered and what needs another pass",
+      "career_guidance": "Honest direction on next steps: C++, embedded, operating systems coursework, or DSA, based on what each student showed aptitude for"
+    }
+  },
+  "prerequisites": {
+    "coding_experience": "None required. The course starts from the first compile. Students who know another language will simply move faster in month 1",
+    "mathematics": "School-level maths is plenty; no calculus or advanced topics are needed",
+    "equipment": "Any Windows, Mac, or Linux computer that can run a compiler and VS Code, plus a stable internet connection",
+    "mindset": "Willingness to trace code on paper. C rewards students who slow down, and the course is built around that"
+  },
+  "who_is_this_for": {
+    "first_year_engineers": "College students taking the compulsory C paper who want to actually understand it, not just pass it",
+    "cs_and_it_students": "Students whose degree assumes C fluency for data structures, operating systems, and GATE later",
+    "self_taught_switchers": "Programmers from Python or JavaScript who keep hearing about pointers and want the real story",
+    "embedded_curious": "Students eyeing electronics, robotics, or firmware, where C remains the working language",
+    "fundamentals_seekers": "Anyone who wants to know what actually happens under high-level languages, one memory diagram at a time"
+  },
+  "career_paths_after_completion": [
+    "Our C++ programming course, which builds directly on C and adds objects, templates, and the STL",
+    "Data structures and algorithms in depth, for placements and competitive programming",
+    "Embedded systems and firmware learning paths, where C is the industry default",
+    "Operating systems and computer architecture coursework, met with real preparation",
+    "Contributing to open-source C projects with a working command of memory and build tools"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Should I learn C or C++ first?",
+      "answer": "If your college teaches a C paper, learn C first; you will be examined on it either way, and C's small size makes memory concepts unavoidable rather than optional. C++ then becomes a comfortable extension: our C++ course assumes exactly the ground this one covers. Students heading straight for application development or game engines can start with C++ instead, and we will tell you honestly in the demo class which fits your situation."
+    },
+    {
+      "question": "Is C still worth learning, or is it outdated?",
+      "answer": "C is old and very much alive. Operating system kernels including Linux and Windows internals, databases like PostgreSQL and SQLite, embedded firmware in cars and appliances, and the reference interpreters of Python and PHP are all C codebases maintained today. Nobody builds websites in C, and we will not pretend otherwise; you learn it because it teaches how computers actually work and because systems, embedded, and university curricula still run on it."
+    },
+    {
+      "question": "I have never programmed before. Can I start with C?",
+      "answer": "Yes, and roughly half of each batch does. The course assumes nothing and moves through fundamentals at a deliberate pace with paper tracing built into the homework. C as a first language is demanding but honest: there is no framework hiding what your code does, so what you learn here transfers to every language you touch afterwards."
+    },
+    {
+      "question": "Everyone says pointers are the hard part. How do you teach them?",
+      "answer": "Slowly, visually, and for a full month. Every pointer operation is drawn as a memory diagram before it is coded, homework requires the diagram alongside the program, and the famous bugs, dangling pointers, leaks, double frees, are created deliberately in controlled exercises so students recognize them by sight. Students who finish month 3 routinely say pointers were explained backwards everywhere else."
+    },
+    {
+      "question": "Will this course help with my university C syllabus and exams?",
+      "answer": "Deliberately, yes. The topic sequence covers what Indian engineering first-year C papers examine: control flow, functions, recursion, arrays, strings, pointers, structures, and file handling, and goes deeper than most college labs have time for. Lab-exam-style live coding is part of the monthly assessments, so the exam format itself gets practiced, not just the content."
+    },
+    {
+      "question": "Do I need Linux, or will Windows work?",
+      "answer": "Windows works fine; we set up GCC and VS Code on whatever machine you have in the first week, and Mac and Linux are equally supported. Linux-specific tools like Valgrind are demonstrated for those who have access, but every required exercise runs on all three platforms using the compiler and sanitizers alone."
+    },
+    {
+      "question": "What will I have to show at the end of six months?",
+      "answer": "A GitHub profile with fifteen or more compiled projects, including your own string library, a dynamic contact book, linked list and stack modules built from scratch, and a capstone record system or text game with file persistence and a README a stranger can build from. Just as importantly, you will be able to defend the memory behavior of your own code out loud, which is exactly what interviews and vivas probe."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, the first demo class is free and carries no obligation. Book it at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Bring a question about pointers if you have one; it is our favorite kind of demo."
+    }
+  ]
+}
