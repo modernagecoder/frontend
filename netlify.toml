@@ -3486,6 +3486,107 @@
   to = "/src/pages/coding-classes-in-uae.html"
   status = 200
 
+# ===== Gulf cluster — UAE / Saudi Arabia / Qatar landing pages =====
+[[redirects]]
+  from = "/coding-classes-in-dubai"
+  to = "/src/pages/coding-classes-in-dubai.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-abu-dhabi"
+  to = "/src/pages/coding-classes-in-abu-dhabi.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sharjah"
+  to = "/src/pages/coding-classes-in-sharjah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-dubai"
+  to = "/src/pages/coding-classes-for-kids-in-dubai.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-classes-in-dubai"
+  to = "/src/pages/python-classes-in-dubai.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-in-dubai"
+  to = "/src/pages/ai-classes-in-dubai.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-for-kids-in-dubai"
+  to = "/src/pages/python-for-kids-in-dubai.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-kids-in-uae"
+  to = "/src/pages/ai-classes-for-kids-in-uae.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-saudi-arabia"
+  to = "/src/pages/coding-classes-in-saudi-arabia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-riyadh"
+  to = "/src/pages/coding-classes-in-riyadh.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-jeddah"
+  to = "/src/pages/coding-classes-in-jeddah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-dammam"
+  to = "/src/pages/coding-classes-in-dammam.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-riyadh"
+  to = "/src/pages/coding-classes-for-kids-in-riyadh.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-classes-in-saudi-arabia"
+  to = "/src/pages/python-classes-in-saudi-arabia.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-in-saudi-arabia"
+  to = "/src/pages/ai-classes-in-saudi-arabia.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-qatar"
+  to = "/src/pages/coding-classes-in-qatar.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-doha"
+  to = "/src/pages/coding-classes-in-doha.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-doha"
+  to = "/src/pages/coding-classes-for-kids-in-doha.html"
+  status = 200
+
+[[redirects]]
+  from = "/python-classes-in-qatar"
+  to = "/src/pages/python-classes-in-qatar.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-in-qatar"
+  to = "/src/pages/ai-classes-in-qatar.html"
+  status = 200
+
 [[redirects]]
   from = "/coding-classes-in-singapore"
   to = "/src/pages/coding-classes-in-singapore.html"
@@ -4025,24 +4126,6 @@
   force = true
 
 [[redirects]]
-  from = "/coding-classes-in-dubai"
-  to = "/coding-classes-in-uae"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/coding-classes-in-abu-dhabi"
-  to = "/coding-classes-in-uae"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/coding-classes-in-sharjah"
-  to = "/coding-classes-in-uae"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/coding-classes-in-united-arab-emirates"
   to = "/coding-classes-in-uae"
   status = 301
@@ -4147,6 +4230,107 @@
 [[redirects]]
   from = "/coding-classes-in-uae.md"
   to = "/src/pages/coding-classes-in-uae.md"
+  status = 200
+
+# Gulf cluster — .md companion files (for AI agents / LLM crawlers)
+[[redirects]]
+  from = "/coding-classes-in-dubai.md"
+  to = "/src/pages/coding-classes-in-dubai.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-abu-dhabi.md"
+  to = "/src/pages/coding-classes-in-abu-dhabi.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-sharjah.md"
+  to = "/src/pages/coding-classes-in-sharjah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-dubai.md"
+  to = "/src/pages/coding-classes-for-kids-in-dubai.md"
+  status = 200
+
+[[redirects]]
+  from = "/python-classes-in-dubai.md"
+  to = "/src/pages/python-classes-in-dubai.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-in-dubai.md"
+  to = "/src/pages/ai-classes-in-dubai.md"
+  status = 200
+
+[[redirects]]
+  from = "/python-for-kids-in-dubai.md"
+  to = "/src/pages/python-for-kids-in-dubai.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-for-kids-in-uae.md"
+  to = "/src/pages/ai-classes-for-kids-in-uae.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-saudi-arabia.md"
+  to = "/src/pages/coding-classes-in-saudi-arabia.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-riyadh.md"
+  to = "/src/pages/coding-classes-in-riyadh.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-jeddah.md"
+  to = "/src/pages/coding-classes-in-jeddah.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-dammam.md"
+  to = "/src/pages/coding-classes-in-dammam.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-riyadh.md"
+  to = "/src/pages/coding-classes-for-kids-in-riyadh.md"
+  status = 200
+
+[[redirects]]
+  from = "/python-classes-in-saudi-arabia.md"
+  to = "/src/pages/python-classes-in-saudi-arabia.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-in-saudi-arabia.md"
+  to = "/src/pages/ai-classes-in-saudi-arabia.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-qatar.md"
+  to = "/src/pages/coding-classes-in-qatar.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-in-doha.md"
+  to = "/src/pages/coding-classes-in-doha.md"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-kids-in-doha.md"
+  to = "/src/pages/coding-classes-for-kids-in-doha.md"
+  status = 200
+
+[[redirects]]
+  from = "/python-classes-in-qatar.md"
+  to = "/src/pages/python-classes-in-qatar.md"
+  status = 200
+
+[[redirects]]
+  from = "/ai-classes-in-qatar.md"
+  to = "/src/pages/ai-classes-in-qatar.md"
   status = 200
 
 [[redirects]]

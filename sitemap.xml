@@ -4083,4 +4083,225 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Gulf cluster — UAE / Saudi Arabia / Qatar landing pages -->
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-dubai</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ae" href="https://learn.modernagecoders.com/coding-classes-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="ar-ae" href="https://learn.modernagecoders.com/coding-classes-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-in-dubai"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-abu-dhabi</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ae" href="https://learn.modernagecoders.com/coding-classes-in-abu-dhabi"/>
+    <xhtml:link rel="alternate" hreflang="ar-ae" href="https://learn.modernagecoders.com/coding-classes-in-abu-dhabi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-in-abu-dhabi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-in-abu-dhabi"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-sharjah</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ae" href="https://learn.modernagecoders.com/coding-classes-in-sharjah"/>
+    <xhtml:link rel="alternate" hreflang="ar-ae" href="https://learn.modernagecoders.com/coding-classes-in-sharjah"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-in-sharjah"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-in-sharjah"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-kids-in-dubai</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ae" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="ar-ae" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-dubai"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/python-classes-in-dubai</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ae" href="https://learn.modernagecoders.com/python-classes-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="ar-ae" href="https://learn.modernagecoders.com/python-classes-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/python-classes-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/python-classes-in-dubai"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/ai-classes-in-dubai</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ae" href="https://learn.modernagecoders.com/ai-classes-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="ar-ae" href="https://learn.modernagecoders.com/ai-classes-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/ai-classes-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/ai-classes-in-dubai"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/python-for-kids-in-dubai</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ae" href="https://learn.modernagecoders.com/python-for-kids-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="ar-ae" href="https://learn.modernagecoders.com/python-for-kids-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/python-for-kids-in-dubai"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/python-for-kids-in-dubai"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/ai-classes-for-kids-in-uae</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-ae" href="https://learn.modernagecoders.com/ai-classes-for-kids-in-uae"/>
+    <xhtml:link rel="alternate" hreflang="ar-ae" href="https://learn.modernagecoders.com/ai-classes-for-kids-in-uae"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/ai-classes-for-kids-in-uae"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/ai-classes-for-kids-in-uae"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-saudi-arabia</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-sa" href="https://learn.modernagecoders.com/coding-classes-in-saudi-arabia"/>
+    <xhtml:link rel="alternate" hreflang="ar-sa" href="https://learn.modernagecoders.com/coding-classes-in-saudi-arabia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-in-saudi-arabia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-in-saudi-arabia"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-riyadh</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-sa" href="https://learn.modernagecoders.com/coding-classes-in-riyadh"/>
+    <xhtml:link rel="alternate" hreflang="ar-sa" href="https://learn.modernagecoders.com/coding-classes-in-riyadh"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-in-riyadh"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-in-riyadh"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-jeddah</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-sa" href="https://learn.modernagecoders.com/coding-classes-in-jeddah"/>
+    <xhtml:link rel="alternate" hreflang="ar-sa" href="https://learn.modernagecoders.com/coding-classes-in-jeddah"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-in-jeddah"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-in-jeddah"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-dammam</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-sa" href="https://learn.modernagecoders.com/coding-classes-in-dammam"/>
+    <xhtml:link rel="alternate" hreflang="ar-sa" href="https://learn.modernagecoders.com/coding-classes-in-dammam"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-in-dammam"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-in-dammam"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-kids-in-riyadh</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-sa" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-riyadh"/>
+    <xhtml:link rel="alternate" hreflang="ar-sa" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-riyadh"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-riyadh"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-riyadh"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/python-classes-in-saudi-arabia</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-sa" href="https://learn.modernagecoders.com/python-classes-in-saudi-arabia"/>
+    <xhtml:link rel="alternate" hreflang="ar-sa" href="https://learn.modernagecoders.com/python-classes-in-saudi-arabia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/python-classes-in-saudi-arabia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/python-classes-in-saudi-arabia"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/ai-classes-in-saudi-arabia</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-sa" href="https://learn.modernagecoders.com/ai-classes-in-saudi-arabia"/>
+    <xhtml:link rel="alternate" hreflang="ar-sa" href="https://learn.modernagecoders.com/ai-classes-in-saudi-arabia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/ai-classes-in-saudi-arabia"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/ai-classes-in-saudi-arabia"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-qatar</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="https://learn.modernagecoders.com/coding-classes-in-qatar"/>
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="https://learn.modernagecoders.com/coding-classes-in-qatar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-in-qatar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-in-qatar"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-in-doha</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="https://learn.modernagecoders.com/coding-classes-in-doha"/>
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="https://learn.modernagecoders.com/coding-classes-in-doha"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-in-doha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-in-doha"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-kids-in-doha</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-doha"/>
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-doha"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-doha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/coding-classes-for-kids-in-doha"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/python-classes-in-qatar</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="https://learn.modernagecoders.com/python-classes-in-qatar"/>
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="https://learn.modernagecoders.com/python-classes-in-qatar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/python-classes-in-qatar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/python-classes-in-qatar"/>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/ai-classes-in-qatar</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-qa" href="https://learn.modernagecoders.com/ai-classes-in-qatar"/>
+    <xhtml:link rel="alternate" hreflang="ar-qa" href="https://learn.modernagecoders.com/ai-classes-in-qatar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/ai-classes-in-qatar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/ai-classes-in-qatar"/>
+  </url>
+
 </urlset>

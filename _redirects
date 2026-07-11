@@ -529,6 +529,29 @@
 /coding-classes-in-united-states /src/pages/coding-classes-in-united-states.html 200
 /coding-classes-in-australia /src/pages/coding-classes-in-australia.html 200
 /coding-classes-in-uae /src/pages/coding-classes-in-uae.html 200
+
+# Gulf cluster — UAE / Saudi Arabia / Qatar landing pages — clean URL rewrites
+/coding-classes-in-dubai /src/pages/coding-classes-in-dubai.html 200
+/coding-classes-in-abu-dhabi /src/pages/coding-classes-in-abu-dhabi.html 200
+/coding-classes-in-sharjah /src/pages/coding-classes-in-sharjah.html 200
+/coding-classes-for-kids-in-dubai /src/pages/coding-classes-for-kids-in-dubai.html 200
+/python-classes-in-dubai /src/pages/python-classes-in-dubai.html 200
+/ai-classes-in-dubai /src/pages/ai-classes-in-dubai.html 200
+/python-for-kids-in-dubai /src/pages/python-for-kids-in-dubai.html 200
+/ai-classes-for-kids-in-uae /src/pages/ai-classes-for-kids-in-uae.html 200
+/coding-classes-in-saudi-arabia /src/pages/coding-classes-in-saudi-arabia.html 200
+/coding-classes-in-riyadh /src/pages/coding-classes-in-riyadh.html 200
+/coding-classes-in-jeddah /src/pages/coding-classes-in-jeddah.html 200
+/coding-classes-in-dammam /src/pages/coding-classes-in-dammam.html 200
+/coding-classes-for-kids-in-riyadh /src/pages/coding-classes-for-kids-in-riyadh.html 200
+/python-classes-in-saudi-arabia /src/pages/python-classes-in-saudi-arabia.html 200
+/ai-classes-in-saudi-arabia /src/pages/ai-classes-in-saudi-arabia.html 200
+/coding-classes-in-qatar /src/pages/coding-classes-in-qatar.html 200
+/coding-classes-in-doha /src/pages/coding-classes-in-doha.html 200
+/coding-classes-for-kids-in-doha /src/pages/coding-classes-for-kids-in-doha.html 200
+/python-classes-in-qatar /src/pages/python-classes-in-qatar.html 200
+/ai-classes-in-qatar /src/pages/ai-classes-in-qatar.html 200
+
 /coding-classes-in-singapore /src/pages/coding-classes-in-singapore.html 200
 /coding-classes-in-ireland /src/pages/coding-classes-in-ireland.html 200
 /coding-classes-in-new-zealand /src/pages/coding-classes-in-new-zealand.html 200
@@ -564,9 +587,6 @@
 /coding-classes-in-america /coding-classes-in-united-states 301!
 /coding-classes-in-aus /coding-classes-in-australia 301!
 /coding-classes-in-oz /coding-classes-in-australia 301!
-/coding-classes-in-dubai /coding-classes-in-uae 301!
-/coding-classes-in-abu-dhabi /coding-classes-in-uae 301!
-/coding-classes-in-sharjah /coding-classes-in-uae 301!
 /coding-classes-in-united-arab-emirates /coding-classes-in-uae 301!
 /coding-classes-in-emirates /coding-classes-in-uae 301!
 /coding-classes-in-sg /coding-classes-in-singapore 301!
@@ -588,6 +608,29 @@
 /coding-classes-in-united-states.md /src/pages/coding-classes-in-united-states.md 200
 /coding-classes-in-australia.md /src/pages/coding-classes-in-australia.md 200
 /coding-classes-in-uae.md /src/pages/coding-classes-in-uae.md 200
+
+# Gulf cluster — .md companion files (for AI agents / LLM crawlers)
+/coding-classes-in-dubai.md /src/pages/coding-classes-in-dubai.md 200
+/coding-classes-in-abu-dhabi.md /src/pages/coding-classes-in-abu-dhabi.md 200
+/coding-classes-in-sharjah.md /src/pages/coding-classes-in-sharjah.md 200
+/coding-classes-for-kids-in-dubai.md /src/pages/coding-classes-for-kids-in-dubai.md 200
+/python-classes-in-dubai.md /src/pages/python-classes-in-dubai.md 200
+/ai-classes-in-dubai.md /src/pages/ai-classes-in-dubai.md 200
+/python-for-kids-in-dubai.md /src/pages/python-for-kids-in-dubai.md 200
+/ai-classes-for-kids-in-uae.md /src/pages/ai-classes-for-kids-in-uae.md 200
+/coding-classes-in-saudi-arabia.md /src/pages/coding-classes-in-saudi-arabia.md 200
+/coding-classes-in-riyadh.md /src/pages/coding-classes-in-riyadh.md 200
+/coding-classes-in-jeddah.md /src/pages/coding-classes-in-jeddah.md 200
+/coding-classes-in-dammam.md /src/pages/coding-classes-in-dammam.md 200
+/coding-classes-for-kids-in-riyadh.md /src/pages/coding-classes-for-kids-in-riyadh.md 200
+/python-classes-in-saudi-arabia.md /src/pages/python-classes-in-saudi-arabia.md 200
+/ai-classes-in-saudi-arabia.md /src/pages/ai-classes-in-saudi-arabia.md 200
+/coding-classes-in-qatar.md /src/pages/coding-classes-in-qatar.md 200
+/coding-classes-in-doha.md /src/pages/coding-classes-in-doha.md 200
+/coding-classes-for-kids-in-doha.md /src/pages/coding-classes-for-kids-in-doha.md 200
+/python-classes-in-qatar.md /src/pages/python-classes-in-qatar.md 200
+/ai-classes-in-qatar.md /src/pages/ai-classes-in-qatar.md 200
+
 /coding-classes-in-singapore.md /src/pages/coding-classes-in-singapore.md 200
 /coding-classes-in-ireland.md /src/pages/coding-classes-in-ireland.md 200
 /coding-classes-in-new-zealand.md /src/pages/coding-classes-in-new-zealand.md 200
