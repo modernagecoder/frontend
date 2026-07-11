@@ -1,0 +1,565 @@
+{
+  "meta": {
+    "slug": "python-web-development-django-flask-course",
+    "title": "Python Web Development with Django and Flask: From First Route to Deployed App",
+    "description": "Python web development course with Django and Flask: live online classes covering routing, templates, databases, auth, REST APIs, and deploying a real project.",
+    "keywords": [
+      "python web development course online",
+      "django course for beginners with projects",
+      "flask course for college students",
+      "learn django and flask live classes",
+      "python backend developer course india",
+      "rest api development with django course",
+      "django rest framework course online",
+      "web development with python for professionals"
+    ],
+    "category": "Web Development",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Intermediate, college students and working professionals with Python basics",
+    "commitment": "2 live classes/week + 3-4 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "python-web-django-college.png"
+  },
+  "program_overview": {
+    "title": "Python Web Development with Django and Flask",
+    "tagline": "You know Python. Six months from now, your code answers requests on a real URL.",
+    "description": "Knowing Python and being able to ship a web application are two different skills, and the second one is what this course builds. It starts where confusion usually begins: what actually happens when a browser asks a server for a page. Month 1 answers that with HTTP fundamentals and Flask, a framework small enough to see through: routes, templates, and forms with nothing hidden. Month 2 adds the database layer, SQL first and then the SQLAlchemy ORM, plus sessions and login, so by the halfway mark students have built a complete Flask application from scratch. Months 3 and 4 move to Django, the framework Indian and global companies run in production: models, migrations, the admin, authentication, relationships, and class-based views, ending in a database-backed project with real users. Month 5 covers what most jobs actually ask for, REST APIs with Django REST Framework: serializers, token authentication, permissions, and a documented API tested end to end. Month 6 is deployment and the capstone: environment configuration, Postgres, Gunicorn, static files, a live host, and a project of the student's own design shipped to a public URL and defended.\n\nClasses are live and small, everything is built by typing, and code review is part of the course, not a bonus.",
+    "what_makes_this_different": [
+      "Flask before Django, on purpose: a small framework first means Django's conveniences read as solutions, not magic",
+      "SQL is taught before the ORM, so students understand what save() and filter() actually send to the database",
+      "The middle of the course is a complete Flask app and a complete Django app, not fragments that never meet",
+      "REST APIs get a full month with Django REST Framework, because that is what backend job descriptions actually list",
+      "Deployment is a taught skill, not a footnote: every student ships the capstone to a real public URL",
+      "Code review from a working instructor on every project, with the same standards a team lead would apply"
+    ],
+    "learning_path": {
+      "phase_1": "How the web works and Flask from scratch: HTTP, routes, templates, forms, SQL, the ORM, sessions, and a complete Flask application",
+      "phase_2": "Django properly: models, migrations, admin, authentication, relationships, and class-based views, ending in a database-backed multi-user project",
+      "phase_3": "REST APIs with Django REST Framework, then production: deployment, Postgres, environment config, and a capstone shipped to a live URL"
+    },
+    "career_outcomes": [
+      "Two complete framework projects plus a deployed capstone with a public URL for your portfolio",
+      "Working fluency in the Django plus DRF stack that Indian product companies and agencies hire for",
+      "The ability to design, build, document, and test a REST API end to end",
+      "Deployment literacy: environment variables, WSGI servers, Postgres, and static files handled correctly",
+      "A GitHub history that shows steady, reviewed backend work over six months"
+    ]
+  },
+  "phase_1_http_and_flask": {
+    "title": "PHASE 1: How the Web Works, Then Flask (Months 1-2, Weeks 1-8)",
+    "description": "HTTP demystified with real requests, then Flask built up from a single route to a complete application with a database, forms, and login.",
+    "month_1_http_and_first_flask_apps": {
+      "title": "Month 1: HTTP and Your First Flask Apps",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "What Happens When You Load a Page",
+        "topics": [
+          "Client and server: who asks, who answers",
+          "HTTP requests dissected: method, path, headers, body",
+          "Status codes worth knowing: 200, 301, 404, 500",
+          "Watching real traffic in the browser network tab",
+          "Making requests by hand with curl and Python's requests library",
+          "GET vs POST, and why the difference matters before any framework"
+        ],
+        "projects": [
+          "Request detective: a written trace of one real page load, every request annotated, plus a script that fetches and inspects three sites"
+        ],
+        "practice": "Use curl to make ten requests against a public API, logging method, status, and one header for each"
+      },
+      "week_2": {
+        "title": "First Flask Application",
+        "topics": [
+          "Virtual environments and pip: project hygiene from day one",
+          "A Flask app in seven lines, and what each line does",
+          "Routes and view functions",
+          "Dynamic routes: reading values out of the URL",
+          "The development server and debug mode",
+          "Project structure that will survive growth"
+        ],
+        "projects": [
+          "Personal API: a Flask app with five routes returning text and JSON, including a dynamic greeting route"
+        ],
+        "practice": "Build a dice-roll and coin-flip service with routes that take the number of rolls from the URL"
+      },
+      "week_3": {
+        "title": "Templates",
+        "topics": [
+          "Why string concatenation dies fast: enter Jinja2",
+          "render_template and passing data to pages",
+          "Template logic: loops and conditionals in Jinja2",
+          "Template inheritance: one base layout, many pages",
+          "Static files: CSS and images served properly",
+          "Just enough HTML and CSS, taught as the projects need it"
+        ],
+        "projects": [
+          "Movie catalog site: a browsable list rendered from Python data with a shared base layout and detail pages"
+        ],
+        "practice": "Add a search-results page and an empty-state design to the movie catalog using template conditionals"
+      },
+      "week_4": {
+        "title": "Forms and User Input",
+        "topics": [
+          "HTML forms: action, method, and named fields",
+          "Reading form data in Flask with request.form",
+          "The POST-redirect-GET pattern and why refreshing resubmits without it",
+          "Validating input on the server, always",
+          "Flash messages: telling users what just happened",
+          "Never trusting the client: a first look at input handling as a security matter"
+        ],
+        "projects": [
+          "Feedback board: a form that accepts, validates, and displays entries, with flash messages for errors and success"
+        ],
+        "practice": "Add server-side validation rules to the feedback board and prove each one works with a bad submission",
+        "assessment": "Month 1 build check: a small multi-page Flask app with one form, built live from a spec"
+      }
+    },
+    "month_2_databases_and_a_complete_flask_app": {
+      "title": "Month 2: Databases and a Complete Flask App",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "SQL Before the ORM",
+        "topics": [
+          "Why files stop working: the case for databases",
+          "SQLite: a real database with zero setup",
+          "CREATE TABLE, data types, and primary keys",
+          "INSERT, SELECT, UPDATE, DELETE by hand",
+          "WHERE, ORDER BY, and LIMIT",
+          "Running queries from Python with sqlite3"
+        ],
+        "projects": [
+          "Query workbook: a seeded database of books and members, interrogated with fifteen handwritten SQL queries"
+        ],
+        "practice": "Write ten more queries against the workbook database, including two that join tables"
+      },
+      "week_6": {
+        "title": "The ORM: SQLAlchemy",
+        "topics": [
+          "What an ORM is and what it is hiding",
+          "Defining models as Python classes",
+          "Creating, querying, updating, and deleting through the ORM",
+          "Echoing the generated SQL: seeing what the ORM sends",
+          "Filtering and ordering with query methods",
+          "When to drop to raw SQL, honestly"
+        ],
+        "projects": [
+          "Movie catalog, database edition: the month 1 site rebuilt on SQLAlchemy models instead of Python lists"
+        ],
+        "practice": "For five ORM queries, predict the SQL before enabling echo, and score your predictions"
+      },
+      "week_7": {
+        "title": "CRUD End to End",
+        "topics": [
+          "The CRUD pattern: create, read, update, delete as routes",
+          "Forms that create and edit database records",
+          "Deleting safely: confirmation and POST-only deletes",
+          "URL design for resources: lists, details, edits",
+          "Handling the missing record: 404 done properly",
+          "Keeping view functions thin"
+        ],
+        "projects": [
+          "Notes application: full CRUD with create, edit, delete, and detail pages backed by the database"
+        ],
+        "practice": "Add pinning and archiving to the notes app, each touching the model, routes, and templates"
+      },
+      "week_8": {
+        "title": "Sessions and Login",
+        "topics": [
+          "Cookies and sessions: how a server remembers you",
+          "Password hashing with werkzeug: why plain text is malpractice",
+          "Register, login, and logout routes",
+          "Protecting routes: login required, by hand once",
+          "Per-user data: your notes are not my notes",
+          "The complete Flask app: what we built and what Django will automate"
+        ],
+        "projects": [
+          "Notes app with accounts: registration, hashed passwords, login, logout, and notes scoped to their owner"
+        ],
+        "practice": "Write a short attack review of your own app: three things a hostile user might try, and what stops each",
+        "assessment": "Phase 1 project review: the complete Flask notes app submitted with a README, code-reviewed one on one"
+      }
+    }
+  },
+  "phase_2_django": {
+    "title": "PHASE 2: Django Properly (Months 3-4, Weeks 9-16)",
+    "description": "The production framework, learned with Flask as the reference point: models, migrations, the admin, real authentication, relationships, and class-based views, ending in a multi-user project.",
+    "month_3_django_foundations": {
+      "title": "Month 3: Django Foundations",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Projects, Apps, and URLs",
+        "topics": [
+          "Why Django after Flask: batteries included, and which batteries",
+          "startproject and startapp: what every generated file is for",
+          "URLconf: routing requests to views",
+          "Function-based views and HttpResponse",
+          "Django templates: familiar ground after Jinja2",
+          "settings.py toured honestly: the settings that matter now"
+        ],
+        "projects": [
+          "Django hello-world done right: a two-app project with routed pages, shared base template, and static files"
+        ],
+        "practice": "Port your Flask movie catalog's pages to Django views and templates, noting what moved where"
+      },
+      "week_10": {
+        "title": "Models and Migrations",
+        "topics": [
+          "Defining models with Django fields",
+          "Migrations: what makemigrations and migrate actually do",
+          "The ORM: create, filter, get, exclude, order_by",
+          "The Django shell as your laboratory",
+          "Field options: defaults, null, blank, and choices",
+          "Changing a model after data exists: the migration workflow"
+        ],
+        "projects": [
+          "Job board, part one: JobPosting and Company models, migrated, seeded, and queried from the shell"
+        ],
+        "practice": "Fifteen ORM exercises in the Django shell against the job board data, saved as a script"
+      },
+      "week_11": {
+        "title": "The Admin and Django Templates",
+        "topics": [
+          "The Django admin: a working back office for free",
+          "Registering models and customizing list displays",
+          "Search, filters, and inline editing in the admin",
+          "Wiring list and detail pages to real data",
+          "get_object_or_404 and clean URL patterns with slugs",
+          "Why the admin exists and where its limits are"
+        ],
+        "projects": [
+          "Job board, part two: public listing and detail pages, plus a configured admin where postings are managed"
+        ],
+        "practice": "Customize the admin with two list filters and a search field, and add a published/draft toggle that the public site respects"
+      },
+      "week_12": {
+        "title": "Django Forms",
+        "topics": [
+          "The Form class: declaration instead of repetition",
+          "ModelForm: forms generated from models",
+          "Validation: built-in validators and clean methods",
+          "Rendering forms in templates and displaying errors well",
+          "CSRF protection: what that token was always for",
+          "File uploads, introduced carefully"
+        ],
+        "projects": [
+          "Job board, part three: a post-a-job form with validation, plus an application form with resume upload"
+        ],
+        "practice": "Write three custom validation rules, including one clean method that checks two fields against each other",
+        "assessment": "Month 3 review: job board demo plus live ORM queries answered in the Django shell"
+      }
+    },
+    "month_4_auth_relationships_and_structure": {
+      "title": "Month 4: Auth, Relationships, and Structure",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Authentication",
+        "topics": [
+          "django.contrib.auth: the battery you were promised",
+          "Login, logout, and signup flows with Django's views and forms",
+          "login_required and testing it properly",
+          "The User model and when to extend it with a profile",
+          "Permissions and groups, introduced with real cases",
+          "Password reset flow, understood even before email is wired"
+        ],
+        "projects": [
+          "Job board accounts: employer and candidate signup, login, and pages that respond to who is viewing them"
+        ],
+        "practice": "Protect three routes with different rules: any logged-in user, employers only, and owner only"
+      },
+      "week_14": {
+        "title": "Relationships",
+        "topics": [
+          "ForeignKey: companies have many postings",
+          "Querying across relationships in both directions",
+          "ManyToManyField: tags and saved jobs",
+          "related_name and readable reverse queries",
+          "The N+1 query problem: found with the debug toolbar, fixed with select_related",
+          "Designing a schema on paper before typing it"
+        ],
+        "projects": [
+          "Job board relationships: companies, postings, tags, and saved-jobs wired together with efficient queries"
+        ],
+        "practice": "Hunt N+1 queries on two pages using the debug toolbar, and record the query count before and after fixing"
+      },
+      "week_15": {
+        "title": "Class-Based Views and Polish",
+        "topics": [
+          "Class-based views: ListView and DetailView without mystery",
+          "CreateView, UpdateView, DeleteView and when generic views earn their keep",
+          "Pagination that holds up with real data",
+          "The messages framework for user feedback",
+          "Query parameters for search and filtering",
+          "Function-based vs class-based: an honest decision guide"
+        ],
+        "projects": [
+          "Job board, refactored: listing pages moved to generic views with pagination, search, and tag filtering"
+        ],
+        "practice": "Convert two of your remaining function-based views to class-based views, and write three lines on which reads better"
+      },
+      "week_16": {
+        "title": "Project Week: Ship the Django App",
+        "topics": [
+          "Feature freeze and a finishing checklist",
+          "Seeding believable demo data with a management command",
+          "Error pages: custom 404 and 500",
+          "A structured self-review before the instructor's review",
+          "Writing a README with setup steps that actually work",
+          "Django's request lifecycle, reviewed now that every piece is familiar"
+        ],
+        "projects": [
+          "Complete job board: multi-user Django application with auth, relationships, search, pagination, and admin, delivered with a README"
+        ],
+        "practice": "Follow a classmate's README from git clone to running app, and file issues for every step that failed",
+        "assessment": "Phase 2 code review: full walkthrough of the job board with questions on models, queries, and auth decisions"
+      }
+    }
+  },
+  "phase_3_apis_and_production": {
+    "title": "PHASE 3: REST APIs and Production (Months 5-6, Weeks 17-24)",
+    "description": "The skills backend jobs list by name: REST API design with Django REST Framework, token auth and permissions, then real deployment and a capstone shipped to a public URL.",
+    "month_5_rest_apis_with_drf": {
+      "title": "Month 5: REST APIs with Django REST Framework",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "API Thinking",
+        "topics": [
+          "Why APIs exist: mobile apps, frontends, and other servers as clients",
+          "REST conventions: resources, methods, and status codes as a contract",
+          "Designing endpoints on paper: the URL table for the job board",
+          "JSON in and JSON out: serialization as the core problem",
+          "Installing DRF and the browsable API",
+          "Your first APIView returning real data"
+        ],
+        "projects": [
+          "API design document plus a first read-only endpoint serving job postings as JSON"
+        ],
+        "practice": "Design the full endpoint table for a library system: paths, methods, status codes, and example payloads"
+      },
+      "week_18": {
+        "title": "Serializers and CRUD Endpoints",
+        "topics": [
+          "ModelSerializer: validation and conversion in one place",
+          "List and detail endpoints for every resource",
+          "Create, update, and delete through the API",
+          "Nested and related data: choices and trade-offs",
+          "Serializer validation mirroring the form validation you already know",
+          "Testing endpoints with the browsable API and httpie"
+        ],
+        "projects": [
+          "Job board API: full CRUD endpoints for postings and companies with proper status codes throughout"
+        ],
+        "practice": "Write an httpie session script that exercises every endpoint, including three requests designed to fail correctly"
+      },
+      "week_19": {
+        "title": "API Authentication and Permissions",
+        "topics": [
+          "Session auth vs token auth, and why APIs need the latter",
+          "Token authentication set up and tested",
+          "Permission classes: read for all, write for owners",
+          "Custom permissions: employers edit only their own postings",
+          "Throttling: rate limits as basic self-defense",
+          "Consistent, safe error responses"
+        ],
+        "projects": [
+          "Secured API: token auth plus owner-scoped write permissions, proven with a scripted attack-and-verify session"
+        ],
+        "practice": "Write six permission test cases: two allowed, four denied, each asserting the exact status code"
+      },
+      "week_20": {
+        "title": "Consuming and Documenting the API",
+        "topics": [
+          "A minimal JavaScript page that fetches from your API",
+          "CORS: why the browser said no, and django-cors-headers",
+          "A Python client consuming the same API: one backend, many clients",
+          "Filtering, searching, and pagination in DRF",
+          "Auto-generated API documentation with drf-spectacular",
+          "Versioning and other habits of APIs that live long"
+        ],
+        "projects": [
+          "Consumed API: a small JS-driven jobs page and a Python CLI client, both running against your documented API"
+        ],
+        "practice": "Hand your API docs to a classmate and have them build one working request without asking you anything",
+        "assessment": "API month review: live demo of the secured, documented API with a Q&A on auth and permission choices"
+      }
+    },
+    "month_6_deployment_and_capstone": {
+      "title": "Month 6: Deployment and the Capstone",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Deployment, For Real",
+        "topics": [
+          "Development vs production: DEBUG, secrets, and environment variables",
+          "PostgreSQL: moving off SQLite and why production demands it",
+          "Gunicorn: what a WSGI server does that runserver does not",
+          "Static files in production with WhiteNoise",
+          "Deploying the job board to a cloud host, live in class",
+          "Reading server logs when something breaks, because something will"
+        ],
+        "projects": [
+          "Deployed job board: the phase 2 project live on a public URL with Postgres, Gunicorn, and env-based settings"
+        ],
+        "practice": "Break and fix your deployment once on purpose: bad env var in, error read from logs, corrected, redeployed"
+      },
+      "week_22": {
+        "title": "Capstone: Scope and Foundations",
+        "topics": [
+          "Choosing a capstone: your own idea, or a track like bookings, forums, or expense tracking",
+          "Writing the spec: models, pages, endpoints, and what done means",
+          "Schema design reviewed before a line of code",
+          "Repository setup and the first deploy in week one, not the last",
+          "Must-have vs nice-to-have, decided while calm",
+          "Instructor sign-off on scope"
+        ],
+        "projects": [
+          "Approved capstone spec plus a skeleton project with models migrated and a hello page already deployed"
+        ],
+        "practice": "Build and seed your capstone's data layer, and query it from the shell to prove the schema holds"
+      },
+      "week_23": {
+        "title": "Capstone: Build and Review",
+        "topics": [
+          "Building vertically: one complete feature at a time",
+          "A first pass at automated tests: models and one endpoint",
+          "Mid-sprint code review with written findings",
+          "Continuous deployment: pushing progress to the live URL",
+          "Handling feedback without derailing the plan",
+          "Cutting scope honestly when the deadline is fixed"
+        ],
+        "projects": [
+          "Feature-complete capstone: core features working on the live URL, tests passing, review findings addressed"
+        ],
+        "practice": "Write tests for your two most important behaviors and wire them into a pre-push habit"
+      },
+      "week_24": {
+        "title": "Ship and Defend",
+        "topics": [
+          "The production checklist: DEBUG off, secrets out of git, error pages, backups considered",
+          "README and API docs finalized",
+          "Presenting a backend project: the demo, the data model, the hardest bug",
+          "Defending technical decisions under friendly fire",
+          "Your GitHub as evidence: six months of reviewed commits",
+          "What comes next: DSA for interviews, deeper Python, or frontend to pair with your backend"
+        ],
+        "projects": [
+          "Delivered capstone: a live, documented, tested web application at a public URL, presented and defended"
+        ],
+        "practice": "Send your capstone URL to two people outside the class and fix the first confusing thing each one reports",
+        "assessment": "Capstone defense: live demo, data-model walkthrough, and Q&A, plus course-completion certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Request detective: a full annotated trace of real HTTP traffic",
+      "Movie catalog site with Jinja2 templates and template inheritance",
+      "Feedback board with server-side validation and flash messages",
+      "SQL query workbook against a seeded relational database",
+      "Notes application with full CRUD, sessions, and hashed-password login",
+      "Job board: a complete multi-user Django application with auth, relationships, search, and admin",
+      "Job board REST API: full CRUD with token auth, permissions, and generated documentation",
+      "JS jobs page and Python CLI client consuming the same API",
+      "Deployed job board on a public URL with Postgres and Gunicorn",
+      "Capstone: a self-designed, tested, documented web application shipped to production"
+    ],
+    "total_projects_built": "12+ real builds across two frameworks, ending with a capstone live on a public URL",
+    "skills_mastered": [
+      "HTTP fluency: requests, responses, status codes, and debugging traffic like a backend developer",
+      "Flask from scratch: routing, Jinja2 templates, forms, sessions, and password hashing",
+      "SQL and ORMs: handwritten queries first, then SQLAlchemy and the Django ORM with eyes open",
+      "Django in production shape: models, migrations, admin, auth, relationships, and class-based views",
+      "REST APIs with DRF: serializers, token auth, permissions, throttling, and generated docs",
+      "Deployment: environment config, Postgres, Gunicorn, static files, and reading production logs"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, building alongside the instructor with code review baked in",
+      "practice": "3-4 hours of project work and exercises between classes",
+      "review": "Project submissions reviewed with written findings; recurring issues become the next class's opening"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, backed by a deployed capstone and a six-month GitHub history"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, because deployment errors do not wait for Tuesday",
+      "progress_updates": "Regular progress notes covering what was built, what was reviewed, and what needs another pass",
+      "career_guidance": "Honest guidance on portfolios, resumes for backend roles, and what to learn next, grounded in what each student actually built"
+    }
+  },
+  "prerequisites": {
+    "python_basics": "Required: variables, loops, functions, lists, and dictionaries. Our Python courses cover this if you are not there yet",
+    "web_experience": "None needed. HTTP, HTML, and databases are all taught from zero inside the course",
+    "equipment": "Any Windows, Mac, or Linux computer that runs Python and VS Code comfortably, plus a stable internet connection",
+    "time": "Around 3-4 hours a week outside class. The projects are real, and they are where the learning compounds"
+  },
+  "who_is_this_for": {
+    "college_students": "Students with Python from coursework who want a portfolio that says more than marks do",
+    "working_professionals": "Professionals in testing, support, data, or other fields moving toward backend development roles",
+    "python_learners_stuck_at_scripts": "Self-taught programmers who can write scripts but have never shipped anything with a URL",
+    "startup_builders": "Founders and hobbyists who want to build and deploy their own product idea end to end",
+    "interview_preparers": "Candidates targeting backend roles where Django, DRF, and deployment questions come up by name"
+  },
+  "career_paths_after_completion": [
+    "Backend or Python developer roles, applied for with a deployed project and a reviewed GitHub history",
+    "Full-stack development: pair this backend depth with our JavaScript and React courses",
+    "Freelance web projects: the build-deploy-maintain cycle this course teaches is the whole freelance job",
+    "Our data structures and algorithms course for product-company interview preparation",
+    "Deeper Python specializations: data engineering, automation, or our AI and machine learning tracks"
+  ],
+  "salary_expectations": {
+    "market_context": "The ranges below are general market salary bands for these roles in India and abroad, drawn from public industry data. They are shown for career context only and are not a promise or guarantee of income. Actual pay depends on your skills, experience, location, and the job market.",
+    "early_career_roles": "₹3-6 LPA (Junior Python Developer / Backend Developer)",
+    "growing_roles": "₹6-12 LPA (Python/Django Developer with 2-4 years of experience)",
+    "experienced_roles": "₹12-25 LPA (Senior Backend Engineer / Lead Developer)",
+    "freelance": "₹800-2500/hour for Django and API work, depending on specialization and track record",
+    "international": "$70k-140k USD (USA) for backend Python roles, based on role and experience"
+  },
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "How much Python do I need before joining?",
+      "answer": "Comfortable basics: variables, loops, functions, lists, and dictionaries, roughly what a first Python course or one college semester covers. You do not need decorators, classes beyond the basics, or any web knowledge. If you are unsure whether you qualify, the free demo class includes a short, low-pressure skills check and an honest recommendation, which is sometimes to take our Python course first."
+    },
+    {
+      "question": "Why does the course teach Flask and Django instead of just Django?",
+      "answer": "Because Django learned first tends to be memorized, not understood. Flask is small enough that you see every moving part: what a route is, what a session does, what the ORM is actually saving you from. After two months of that, Django's structure reads as a set of solutions to problems you personally hit. Employers get a candidate who can work in either framework and explain the difference, which is a genuinely common interview question."
+    },
+    {
+      "question": "Is Django still in demand, or has Node.js taken over?",
+      "answer": "Both stacks hire steadily, and pretending otherwise would be dishonest either way. Django remains a standard choice at Indian product companies, agencies, and startups, especially anywhere Python already runs: data-heavy products, fintech, and internal platforms. Instagram and Spotify famously run Python at scale. If your longer-term interest is JavaScript everywhere, our Node.js track fits better; if you know Python and want employable backend skills now, this stack is the shorter path."
+    },
+    {
+      "question": "Will I learn front-end development too?",
+      "answer": "Enough to ship, not more: the HTML, CSS, and templates your pages need, plus one small JavaScript client in month 5 so you experience your API from the consumer's side. This is deliberately a backend course. Students who want the full stack typically take our React course afterwards, and the capstone API you build here becomes the backend for that work."
+    },
+    {
+      "question": "What will I actually be able to show a recruiter after six months?",
+      "answer": "A capstone application live at a public URL, a complete Django job board, a documented REST API with token authentication, and a GitHub profile showing six months of steady, code-reviewed commits. In interviews you can walk through your own data model, explain an N+1 query you found and fixed, and describe your deployment step by step, which lands very differently from listing frameworks on a resume."
+    },
+    {
+      "question": "I work full time. Can I manage this course?",
+      "answer": "The course is built for exactly that constraint: two live one-hour classes a week scheduled in evening-friendly slots, plus 3 to 4 hours of project work you place wherever your week allows. The pace is steady rather than punishing, and WhatsApp doubt support means a blocked Tuesday problem does not have to wait for Thursday's class. Professionals who fall behind a week can use the mini-batch or 1-on-1 formats to catch up."
+    },
+    {
+      "question": "Does deployment cost money? What hosting do you use?",
+      "answer": "The course uses hosts with free or very low-cost tiers for student projects, and we keep the choice current since platforms change their free offerings often. Everything you learn, environment variables, Postgres, Gunicorn, static files, transfers across hosts, because we teach the moving parts rather than one vendor's dashboard. Any small hosting cost, if you choose a paid tier, is separate from the course fee."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can I try a class before enrolling?",
+      "answer": "Yes, the first demo class is free and carries no obligation. Book it at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. The demo includes the Python readiness check and a look at real student capstones from earlier batches of our college courses."
+    }
+  ]
+}
