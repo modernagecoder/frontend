@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Classes in Qatar | Live Online Course for All Levels</title>
+  <meta name="description" content="Live online Python classes in Qatar for kids, teens, college students and professionals. From first syntax to automation and AI libraries. Free demo class.">
+  <meta name="keywords" content="python classes in qatar, python course qatar, learn python doha, python classes doha, python for kids qatar, python training qatar, online python course qatar, python programming classes qatar, python coaching qatar">
+  <link rel="canonical" href="https://learn.modernagecoders.com/python-classes-in-qatar">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Python Classes in Qatar | Live Online Course for All Levels">
+  <meta property="og:description" content="Live online Python classes in Qatar for kids, teens, college students and professionals. From first syntax to automation and AI libraries. Free demo class.">
+  <meta property="og:url" content="https://learn.modernagecoders.com/python-classes-in-qatar">
+  <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python Classes in Qatar | Live Online Course for All Levels">
+  <meta name="twitter:description" content="Live online Python classes in Qatar for kids, teens, college students and professionals. From first syntax to automation and AI libraries. Free demo class.">
+  <meta name="geo.region" content="QA">
+  <meta name="geo.placename" content="Qatar">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <meta name="theme-color" content="#155E63">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/gulf-qa.css?v=20260710">
+  <style>
+    /* Python-Qatar page only: hero carries a numbered contents card for the arc */
+    .gqa-p-hero { padding: 96px 0 88px; }
+    .gqa-p-hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 72px;
+      align-items: start;
+    }
+    .gqa-p-toc {
+      background: var(--gqa-white);
+      border: 1px solid var(--gqa-pearl);
+      border-top: 3px solid var(--gqa-teal);
+    }
+    .gqa-p-toc-head {
+      font-size: .62rem;
+      font-weight: 600;
+      letter-spacing: .24em;
+      text-transform: uppercase;
+      color: var(--gqa-oxblood);
+      padding: 18px 26px 14px;
+      border-bottom: 1px solid var(--gqa-pearl);
+    }
+    .gqa-p-toc ol {
+      list-style: none;
+      margin: 0;
+      padding: 8px 0 10px;
+      counter-reset: gqa-toc;
+    }
+    .gqa-p-toc li {
+      counter-increment: gqa-toc;
+      display: grid;
+      grid-template-columns: 40px 1fr;
+      gap: 12px;
+      align-items: baseline;
+      padding: 11px 26px;
+    }
+    .gqa-p-toc li::before {
+      content: counter(gqa-toc, decimal-leading-zero);
+      font-family: var(--gqa-serif);
+      font-weight: 600;
+      font-size: .9rem;
+      color: var(--gqa-teal);
+    }
+    .gqa-p-toc-title {
+      font-family: var(--gqa-serif);
+      font-weight: 600;
+      font-size: 1.02rem;
+      color: var(--gqa-ink);
+      display: block;
+    }
+    .gqa-p-toc-sub {
+      display: block;
+      font-size: .82rem;
+      color: var(--gqa-muted);
+      line-height: 1.5;
+      margin-top: 2px;
+    }
+    .gqa-p-toc-foot {
+      border-top: 1px solid var(--gqa-pearl);
+      padding: 14px 26px 16px;
+      font-size: .82rem;
+      color: var(--gqa-muted);
+    }
+    @media (max-width: 980px) {
+      .gqa-p-hero { padding: 64px 0 60px; }
+      .gqa-p-hero-grid { grid-template-columns: 1fr; gap: 44px; }
+      .gqa-p-toc { max-width: 470px; }
+    }
+    @media (max-width: 720px) {
+      .gqa-p-hero { padding: 52px 0 48px; }
+    }
+  </style>
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "EducationalOrganization",
+    "name": "Modern Age Coders",
+    "url": "https://learn.modernagecoders.com",
+    "logo": "https://learn.modernagecoders.com/images/logo.png",
+    "description": "Live online coding, AI and maths classes for kids, teens, college students and professionals.",
+    "areaServed": "Qatar",
+    "sameAs": ["https://www.youtube.com/@modernagecoders", "https://wa.me/919123366161"] }
+  </script>
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://learn.modernagecoders.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Coding Classes in Qatar", "item": "https://learn.modernagecoders.com/coding-classes-in-qatar" },
+    { "@type": "ListItem", "position": 3, "name": "Python Classes in Qatar", "item": "https://learn.modernagecoders.com/python-classes-in-qatar" } ] }
+  </script>
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+    { "@type": "Question", "name": "I have never written code. Can I start with Python?", "acceptedAnswer": { "@type": "Answer", "text": "Python is the language we recommend for exactly that situation. Its syntax reads close to English, mistakes produce messages a beginner can decode, and a first working program arrives in the first lesson rather than the fifth. Every one of our Python tracks assumes nothing on day one except curiosity and a keyboard." } },
+    { "@type": "Question", "name": "Which Python course fits me, or my child?", "acceptedAnswer": { "@type": "Answer", "text": "By age and by purpose. Children of six to twelve take Python and AI for Kids. Teenagers take Python for Teens. An adult starting from zero fits Python Mastery, while a professional who mainly wants tedious work automated fits Python Automation with AI. When in doubt, book the demo hour and let the teacher decide in person." } },
+    { "@type": "Question", "name": "Do I need to be good at maths to learn Python?", "acceptedAnswer": { "@type": "Answer", "text": "Not for the language itself. Ordinary arithmetic covers everything up to and including automation work. Mathematics only becomes a real companion when you move into machine learning, and even there our courses introduce the ideas alongside the code rather than assuming a statistics degree." } },
+    { "@type": "Question", "name": "How long before Python becomes genuinely useful?", "acceptedAnswer": { "@type": "Answer", "text": "Be suspicious of anyone with a crisp answer. What we observe: students writing small useful scripts within two to three months, and comfortable, independent work somewhere in the six to twelve month range depending on practice between lessons. The variable that matters most is the weekly hours you put in, not talent." } },
+    { "@type": "Question", "name": "Is Python the right first language, or should we start elsewhere?", "acceptedAnswer": { "@type": "Answer", "text": "For nearly everyone, Python first. It removes ceremony so beginners meet the actual ideas of programming quickly, and those ideas transfer to any language learned later. The main exceptions are school syllabi that mandate a specific language, and even then Python usually makes the mandated language easier." } },
+    { "@type": "Question", "name": "Will this help with school computer science in Qatar?", "acceptedAnswer": { "@type": "Answer", "text": "Comfortably. CBSE students discover that the Python in their senior school papers is the very language they already write, and pupils on British or American curricula find that project experience carries straight into IGCSE, A Level and AP computing work. We teach the language and the craft, so the fit holds whichever exam board your school follows." } },
+    { "@type": "Question", "name": "What do Python classes cost in Qatar?", "acceptedAnswer": { "@type": "Answer", "text": "A month of group classes is 40 US dollars, about QAR 145, while one-on-one comes to 100 US dollars, about QAR 365. Every course, Python included, is priced the same way: paid month by month, no enrolment charge, no lock-in, and a free demo class before any of it." } },
+    { "@type": "Question", "name": "When do the classes run for students in Qatar?", "acceptedAnswer": { "@type": "Answer", "text": "In the evening by Qatar's clock on weekdays, with Friday and Saturday slots covering the weekend. A fixed weekly hour is agreed at enrolment. One-on-one students have wider latitude, since the schedule is built around one person instead of a batch." } }
+  ] }
+  </script>
+</head>
+
+<body class="gqa-body">
+
+<!-- ============================== NAV ============================== -->
+<nav class="gqa-nav" aria-label="Primary">
+  <div class="gqa-nav-inner">
+    <a href="/" class="gqa-nav-brand">
+      <img src="/images/logo.svg" alt="Modern Age Coders logo" width="32" height="32" fetchpriority="high">
+      Modern Age Coders
+      <span class="gqa-brand-tag">Python</span>
+    </a>
+    <ul class="gqa-nav-links">
+      <li><a href="/courses">Courses</a></li>
+      <li><a href="/how-we-teach">How We Teach</a></li>
+      <li><a href="/love">Reviews</a></li>
+    </ul>
+    <a href="#demo" class="gqa-btn">Book Demo</a>
+  </div>
+</nav>
+
+<!-- ============================== HERO ============================== -->
+<header class="gqa-p-hero">
+  <div class="gqa-wrap">
+    <div class="gqa-p-hero-grid">
+      <div>
+        <p class="gqa-kicker">One language, every age, taught live</p>
+        <h1 class="gqa-h1">Python Classes in Qatar</h1>
+        <p class="gqa-hero-lede">Python is the rare language that suits an entire family. It is gentle enough to carry a nine-year-old's first game and serious enough to run the data work inside banks and research labs. We teach it live over video to students across Qatar, in small batches, at hours that respect the AST evening.</p>
+        <p class="gqa-hero-lede">This page maps every Python track we run and the arc behind them all, from first syntax to the AI libraries. A free demo doubles as your entry point: attend one real lesson, then decide.</p>
+        <div class="gqa-hero-ctas">
+          <a href="#demo" class="gqa-btn">Book a Free Demo Class</a>
+          <a href="https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20Python%20classes%20in%20Qatar" class="gqa-btn-ghost" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+        <p class="gqa-trust"><span class="gqa-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 rating across 547+ Google reviews</p>
+      </div>
+      <aside class="gqa-p-toc" aria-label="The Python syllabus arc in brief">
+        <p class="gqa-p-toc-head">The arc, in five movements</p>
+        <ol>
+          <li><span><span class="gqa-p-toc-title">Basics that behave</span><span class="gqa-p-toc-sub">Variables, conditions, loops, functions</span></span></li>
+          <li><span><span class="gqa-p-toc-title">Data structures</span><span class="gqa-p-toc-sub">Lists, dictionaries, tuples, sets</span></span></li>
+          <li><span><span class="gqa-p-toc-title">Objects and design</span><span class="gqa-p-toc-sub">Classes, methods, programs with shape</span></span></li>
+          <li><span><span class="gqa-p-toc-title">Automation</span><span class="gqa-p-toc-sub">Files, spreadsheets, the web, your job</span></span></li>
+          <li><span><span class="gqa-p-toc-title">AI libraries</span><span class="gqa-p-toc-sub">pandas, scikit-learn, first LLM calls</span></span></li>
+        </ol>
+        <p class="gqa-p-toc-foot">Detailed stage by stage further down this page.</p>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== COURSES ============================== -->
+<section class="gqa-section" id="courses">
+  <div class="gqa-wrap">
+    <p class="gqa-eyebrow">The Python shelf</p>
+    <h2 class="gqa-h2">Four Python doors, by age and intent</h2>
+    <p class="gqa-lede">Same language, four different entrances. Pick by who is learning and why, and remember the demo exists precisely for the undecided.</p>
+    <div class="gqa-anchor-pills">
+      <a href="#python-tracks" class="gqa-pill">The Python tracks</a>
+      <a href="#beyond" class="gqa-pill">Where the language leads</a>
+    </div>
+
+    <div class="gqa-course-group" id="python-tracks">
+      <div class="gqa-course-group-head">
+        <span class="gqa-group-num">I</span>
+        <h3 class="gqa-h3">The Python tracks</h3>
+        <span>Every age has its own door</span>
+      </div>
+      <div class="gqa-course-grid">
+        <a href="/courses/python-teens" class="gqa-course-card">
+          <img src="/images/python-teens.webp" alt="Python for Teens course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gqa-course-card-body">
+            <div class="gqa-course-card-title">Python for Teens</div>
+            <p class="gqa-course-card-desc">Ages 13 to 18. The complete language in earnest: syntax through data structures to files and the web, finishing on a project of the teenager's own devising.</p>
+            <p class="gqa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/python-mastery-college" class="gqa-course-card">
+          <img src="/images/python-college.webp" alt="Python Mastery course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gqa-course-card-body">
+            <div class="gqa-course-card-title">Python Mastery</div>
+            <p class="gqa-course-card-desc">The adult route from zero to working fluency. Fundamentals, object-oriented design, the useful libraries, and enough project mileage to trust yourself with real problems.</p>
+            <p class="gqa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/python-ai-automation-college" class="gqa-course-card">
+          <img src="/images/python-automation-ai-college.webp" alt="Python Automation with AI course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gqa-course-card-body">
+            <div class="gqa-course-card-title">Python Automation with AI</div>
+            <p class="gqa-course-card-desc">For professionals who want their hours back. Write the scripts that absorb the spreadsheets, reports and file shuffling your role has quietly accumulated.</p>
+            <p class="gqa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/python-ai-kids" class="gqa-course-card">
+          <img src="/images/python-kids.webp" alt="Python and AI for Kids course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gqa-course-card-body">
+            <div class="gqa-course-card-title">Python &amp; AI for Kids</div>
+            <p class="gqa-course-card-desc">Ages 6 to 12. The same Python shrunk to child size: bright visual results, a small victory every lesson, and ideas explained without baby talk.</p>
+            <p class="gqa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="gqa-course-group" id="beyond">
+      <div class="gqa-course-group-head">
+        <span class="gqa-group-num">II</span>
+        <h3 class="gqa-h3">Where the language leads</h3>
+        <span>Python is the floor these stand on</span>
+      </div>
+      <div class="gqa-course-grid">
+        <a href="/courses/ai-ml-teens" class="gqa-course-card">
+          <img src="/images/ai-ml-teens.webp" alt="AI and Machine Learning for Teens course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gqa-course-card-body">
+            <div class="gqa-course-card-title">AI &amp; Machine Learning for Teens</div>
+            <p class="gqa-course-card-desc">The step after Python for teenagers: datasets, training, evaluation, and the discipline of checking what a model actually learned.</p>
+            <p class="gqa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/ai-ml-college" class="gqa-course-card">
+          <img src="/images/ai-ml-college.webp" alt="AI and Machine Learning course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gqa-course-card-body">
+            <div class="gqa-course-card-title">AI &amp; Machine Learning</div>
+            <p class="gqa-course-card-desc">Machine learning with the underlying maths on the table. Regression, classification and neural networks, practised on data with real-world mess in it.</p>
+            <p class="gqa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+        <a href="/courses/gen-ai" class="gqa-course-card">
+          <img src="/images/generative-ai-college.webp" alt="Generative AI course thumbnail" loading="lazy" width="640" height="360">
+          <div class="gqa-course-card-body">
+            <div class="gqa-course-card-title">Generative AI</div>
+            <p class="gqa-course-card-desc">Building on top of large language models: deliberate prompting, API integration, retrieval, and small products that prove the skill.</p>
+            <p class="gqa-course-card-go">View syllabus</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== SYLLABUS ARC ============================== -->
+<section class="gqa-section" id="arc">
+  <div class="gqa-wrap">
+    <p class="gqa-eyebrow">The syllabus arc</p>
+    <h2 class="gqa-h2">Five movements, stated without varnish</h2>
+    <div class="gqa-prose">
+      <p>Whatever the entry point, the road underneath is the same. Here is what each stretch of it actually contains, so you can judge the teaching by its contents rather than its adjectives.</p>
+    </div>
+    <div class="gqa-syllabus">
+      <div class="gqa-syllabus-row">
+        <div class="gqa-syllabus-stage">Basics that behave<small>Movement one</small></div>
+        <div class="gqa-syllabus-body">
+          <p>Variables, conditions, loops and functions, learned by writing programs that do something visible from the very first hour. The cycle we drill is write, run, break, fix. A student who has repaired fifty small programs fears nothing about the fifty-first.</p>
+        </div>
+      </div>
+      <div class="gqa-syllabus-row">
+        <div class="gqa-syllabus-stage">Data structures<small>Movement two</small></div>
+        <div class="gqa-syllabus-body">
+          <p>Lists, dictionaries, tuples and sets, and the judgement of when each earns its place. This is where programs stop being scripts and start being organised around their data. Projects here include contact books, score tables and word games that need the right structure to work at all.</p>
+        </div>
+      </div>
+      <div class="gqa-syllabus-row">
+        <div class="gqa-syllabus-stage">Objects and design<small>Movement three</small></div>
+        <div class="gqa-syllabus-body">
+          <p>Classes, methods and inheritance, taught when the student's own programs have grown messy enough to want them. Object-oriented design answers a felt need instead of arriving as ideology, which is the only way it ever sticks. By this movement, students also pick up the working habits around the code: naming things well, splitting programs into files, and reading other people's work without flinching.</p>
+        </div>
+      </div>
+      <div class="gqa-syllabus-row">
+        <div class="gqa-syllabus-stage">Automation<small>Movement four</small></div>
+        <div class="gqa-syllabus-body">
+          <p>The practical dividend. Programs that rename a hundred files, fill spreadsheets, pull data from the web and send the weekly report before you have finished your coffee. For working adults this movement alone tends to repay the whole course.</p>
+        </div>
+      </div>
+      <div class="gqa-syllabus-row">
+        <div class="gqa-syllabus-stage">AI libraries<small>Movement five</small></div>
+        <div class="gqa-syllabus-body">
+          <p>pandas for wrangling data, scikit-learn for the first trained models, and initial calls to large language model APIs. We frame this stage honestly: it is a doorway into the AI courses, not mastery of machine learning in a month, and anyone who promises otherwise is selling something.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== PROFESSIONALS ============================== -->
+<section class="gqa-section" id="professionals">
+  <div class="gqa-wrap">
+    <p class="gqa-eyebrow">For working adults</p>
+    <h2 class="gqa-h2">Python for the employed, without the hype</h2>
+    <div class="gqa-prose">
+      <p>A fair share of our Qatar students are adults with full diaries: analysts, engineers, administrators, people running teams in banks, airlines, energy firms and ministries. They are not chasing a career change so much as relief from repetitive work and a firmer grip on the data their roles keep handing them. Python is unusually good at delivering both.</p>
+      <p>The honest pitch runs like this. Within a few months of steady practice, most working adults can script away genuinely annoying chunks of their week: consolidating spreadsheets, tidying exports, generating routine documents, checking figures that used to be checked by eye. That alone changes how a job feels. Carry on past that point and the data skills compound, because the person who can clean, analyse and chart a dataset without waiting for another department becomes quietly indispensable.</p>
+      <p>And here is what we refuse to say. We will not promise that a course raises your pay, because we do not control your employer, your industry or your luck. We will not dangle jobs we are in no position to hand you. What we put our name to is narrower and more defensible: real skill, built weekly, with projects you can open in front of anyone and explain line by line. What that is worth in your career is yours to make of it.</p>
+      <p>College students in Qatar occupy a middle seat worth mentioning. Universities here and abroad lean on Python for coursework in engineering, science, economics and beyond, often without teaching it properly first. A student who arrives at that coursework already fluent spends the semester on the subject instead of on the syntax, which is the entire point of preparing early. Our college batches run in the same evening windows as the professional ones.</p>
+      <p>Classes for adults sit in the evening after office hours, AST, and the workload assumes you have a job. Expect an hour of class and a few hours of practice a week, and expect the practice to matter more than the class.</p>
+    </div>
+  </div>
+</section>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== HOW CLASSES RUN ============================== -->
+<section class="gqa-section" id="how">
+  <div class="gqa-wrap">
+    <p class="gqa-eyebrow">The format</p>
+    <h2 class="gqa-h2">The shape of a Python lesson here</h2>
+    <p class="gqa-lede">Six fixed properties, common to every batch from the six-year-olds to the professionals.</p>
+    <div class="gqa-register">
+      <div class="gqa-register-item">
+        <h3>Live, with a named teacher</h3>
+        <p>Each session is taught in real time by an instructor who follows the same students across the course. Questions are answered when they occur, which for programming is the only time they are truly useful.</p>
+      </div>
+      <div class="gqa-register-item">
+        <h3>Small enough to be seen</h3>
+        <p>Group batches run five to eight students. In a language class that size means every student writes code every session, and nobody graduates to the next concept on hope alone.</p>
+      </div>
+      <div class="gqa-register-item">
+        <h3>Code from minute ten</h3>
+        <p>Theory gets a short introduction, then hands go to keyboards. Python rewards this: the distance between hearing about loops and writing one is minutes, and we spend it typing.</p>
+      </div>
+      <div class="gqa-register-item">
+        <h3>Homework that builds one thing</h3>
+        <p>Exercises between lessons feed the current project rather than filling a workbook. Students return with questions their own program generated, which are the best questions there are.</p>
+      </div>
+      <div class="gqa-register-item">
+        <h3>AST evenings and weekends</h3>
+        <p>Weekday sessions run through the Qatar evening, and Friday and Saturday hold weekend slots. The weekly hour is fixed at enrolment so practice can form a routine around it.</p>
+      </div>
+      <div class="gqa-register-item">
+        <h3>A demo before any decision</h3>
+        <p>Your first Python lesson with us is free and fully real. Sit it, write some code in it, and let it argue our case better than this page can.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== RELATED GUIDES ============================== -->
+<section class="gqa-section" id="guides">
+  <div class="gqa-wrap">
+    <p class="gqa-eyebrow">Adjacent shelves</p>
+    <h2 class="gqa-h2">Related Qatar guides</h2>
+    <div class="gqa-hub-grid">
+      <a href="/ai-classes-in-qatar" class="gqa-hub-card">
+        <div class="gqa-hub-title">AI Classes in Qatar</div>
+        <p>The natural next page. What our AI and machine learning courses build, which tools they use, and who they suit.</p>
+        <p class="gqa-hub-go">Read the guide</p>
+      </a>
+      <a href="/coding-classes-in-qatar" class="gqa-hub-card">
+        <div class="gqa-hub-title">Coding Classes in Qatar</div>
+        <p>The complete catalogue and the format explained for every age band, gathered in one country guide.</p>
+        <p class="gqa-hub-go">Read the guide</p>
+      </a>
+      <a href="/coding-classes-in-doha" class="gqa-hub-card">
+        <div class="gqa-hub-title">Coding Classes in Doha</div>
+        <p>The capital's city guide, including how enrolment runs from the first phone call to the first lesson.</p>
+        <p class="gqa-hub-go">Read the guide</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== WHY US ============================== -->
+<section class="gqa-section" id="why">
+  <div class="gqa-wrap">
+    <p class="gqa-eyebrow">Grounds for confidence</p>
+    <h2 class="gqa-h2">Why learn Python with us</h2>
+    <div class="gqa-feature-grid">
+      <div class="gqa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <h3>Teachers who code and teach</h3>
+        <p>Our instructors write Python and explain Python, and the second skill is rarer. They have run these courses many times and know where each stage tends to hurt.</p>
+      </div>
+      <div class="gqa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <h3>Batches built for attention</h3>
+        <p>Five to eight learners per group, chosen so the teacher reads every screen. Struggling quietly is not possible here for long.</p>
+      </div>
+      <div class="gqa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        <h3>A project at every stage</h3>
+        <p>Games, tools, automations, models. Each movement of the arc ends in something that runs, because finished work is the only evidence of learning we trust.</p>
+      </div>
+      <div class="gqa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+        <h3>Certificates on completion</h3>
+        <p>Finish a course and the certificate follows, a plain record of work done that slots into school portfolios and CVs alike.</p>
+      </div>
+      <div class="gqa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+        <h3>Visible progress</h3>
+        <p>For younger students, parents receive frank updates in normal language. For adults, the progress report is your own git history filling up.</p>
+      </div>
+      <div class="gqa-feature">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="m9 16 2 2 4-4"/></svg>
+        <h3>Free demo, first and always</h3>
+        <p>Every Python journey here starts with a lesson that costs nothing. We consider it the fairest sales pitch available.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== REVIEWS ============================== -->
+<section class="gqa-section" id="reviews">
+  <div class="gqa-wrap">
+    <p class="gqa-eyebrow">Verified reviews</p>
+    <h2 class="gqa-h2">Students and parents, verbatim</h2>
+    <p class="gqa-lede">We teach live and online, so students from Qatar join the same small batches as our community worldwide. These are real, verified reviews. The longer list lives on our <a href="/love">Wall of Love</a>.</p>
+    <div class="gqa-review-grid">
+      <div class="gqa-review-card">
+        <p class="gqa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"I am truly grateful for my experience at Modern Age Coders. My teachers were not only teachers but also mentors and friendly figures. The perks are excellent: one-on-one doubt solving, mentoring and regular tests. The most impressive part was working on real-world projects."</blockquote>
+        <p class="gqa-review-name">Krishnam Bhatter</p>
+        <p class="gqa-review-role">Former student</p>
+      </div>
+      <div class="gqa-review-card">
+        <p class="gqa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"Modern Age Coders has been a game-changer for me. I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I can now confidently write complex programs with ease."</blockquote>
+        <p class="gqa-review-name">Samridho Mondal</p>
+        <p class="gqa-review-role">Student</p>
+      </div>
+      <div class="gqa-review-card">
+        <p class="gqa-review-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <blockquote>"Modern Age Coders have wonderful teachers who teach in a clear, easy and practical way. The teacher boosts students' confidence, keeps them updated with technology, and inspires them to learn without hesitation."</blockquote>
+        <p class="gqa-review-name">Sonu Goyal</p>
+        <p class="gqa-review-role">Parent</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== PRICING ============================== -->
+<section class="gqa-section" id="pricing">
+  <div class="gqa-wrap">
+    <p class="gqa-eyebrow">Fees</p>
+    <h2 class="gqa-h2">The price of the whole language</h2>
+    <p class="gqa-lede">Python courses carry the same simple fees as everything else we teach. Dollar-billed monthly, riyal figures steady because of the peg. These two plans are the entire price list; nothing else hides behind a sales call.</p>
+    <div class="gqa-price-grid">
+      <div class="gqa-price-card">
+        <p class="gqa-price-plan">Group classes</p>
+        <p class="gqa-price-figure">$40 <small>per month</small></p>
+        <p class="gqa-price-local">about QAR 145 per month</p>
+        <ul class="gqa-price-list">
+          <li>Live batches of five to eight</li>
+          <li>A fixed AST evening or weekend hour</li>
+          <li>Projects at every stage of the arc</li>
+          <li>Nothing owed until after the demo</li>
+        </ul>
+        <a href="#demo" class="gqa-btn-ghost">Book a Free Demo</a>
+      </div>
+      <div class="gqa-price-card gqa-price-featured">
+        <p class="gqa-price-plan">One-on-one classes</p>
+        <p class="gqa-price-figure">$100 <small>per month</small></p>
+        <p class="gqa-price-local">about QAR 365 per month</p>
+        <ul class="gqa-price-list">
+          <li>A teacher entirely to yourself</li>
+          <li>Scheduling that bends to your week</li>
+          <li>Syllabus tuned to your goals</li>
+          <li>The free demo applies here too</li>
+        </ul>
+        <a href="#demo" class="gqa-btn">Book a Free Demo</a>
+      </div>
+    </div>
+    <p class="gqa-price-note">Month-to-month billing, no enrolment fee, no exit clause. If the teaching stops being worth it, so does the paying.</p>
+  </div>
+</section>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== FAQ ============================== -->
+<section class="gqa-section" id="faq">
+  <div class="gqa-wrap">
+    <p class="gqa-eyebrow">Questions</p>
+    <h2 class="gqa-h2">Asked about Python, answered plainly</h2>
+    <div class="gqa-faq">
+      <details class="gqa-faq-item">
+        <summary>I have never written code. Can I start with Python?</summary>
+        <div class="gqa-faq-body">Python is the language we recommend for exactly that situation. Its syntax reads close to English, mistakes produce messages a beginner can decode, and a first working program arrives in the first lesson rather than the fifth. Every one of our Python tracks assumes nothing on day one except curiosity and a keyboard.</div>
+      </details>
+      <details class="gqa-faq-item">
+        <summary>Which Python course fits me, or my child?</summary>
+        <div class="gqa-faq-body">By age and by purpose. Children of six to twelve take Python and AI for Kids. Teenagers take Python for Teens. An adult starting from zero fits Python Mastery, while a professional who mainly wants tedious work automated fits Python Automation with AI. When in doubt, book the demo hour and let the teacher decide in person.</div>
+      </details>
+      <details class="gqa-faq-item">
+        <summary>Do I need to be good at maths to learn Python?</summary>
+        <div class="gqa-faq-body">Not for the language itself. Ordinary arithmetic covers everything up to and including automation work. Mathematics only becomes a real companion when you move into machine learning, and even there our courses introduce the ideas alongside the code rather than assuming a statistics degree.</div>
+      </details>
+      <details class="gqa-faq-item">
+        <summary>How long before Python becomes genuinely useful?</summary>
+        <div class="gqa-faq-body">Be suspicious of anyone with a crisp answer. What we observe: students writing small useful scripts within two to three months, and comfortable, independent work somewhere in the six to twelve month range depending on practice between lessons. The variable that matters most is the weekly hours you put in, not talent.</div>
+      </details>
+      <details class="gqa-faq-item">
+        <summary>Is Python the right first language, or should we start elsewhere?</summary>
+        <div class="gqa-faq-body">For nearly everyone, Python first. It removes ceremony so beginners meet the actual ideas of programming quickly, and those ideas transfer to any language learned later. The main exceptions are school syllabi that mandate a specific language, and even then Python usually makes the mandated language easier.</div>
+      </details>
+      <details class="gqa-faq-item">
+        <summary>Will this help with school computer science in Qatar?</summary>
+        <div class="gqa-faq-body">Comfortably. CBSE students discover that the Python in their senior school papers is the very language they already write, and pupils on British or American curricula find that project experience carries straight into IGCSE, A Level and AP computing work. We teach the language and the craft, so the fit holds whichever exam board your school follows.</div>
+      </details>
+      <details class="gqa-faq-item">
+        <summary>What do Python classes cost in Qatar?</summary>
+        <div class="gqa-faq-body">A month of group classes is 40 US dollars, about QAR 145, while one-on-one comes to 100 US dollars, about QAR 365. Every course, Python included, is priced the same way: paid month by month, no enrolment charge, no lock-in, and a free demo class before any of it.</div>
+      </details>
+      <details class="gqa-faq-item">
+        <summary>When do the classes run for students in Qatar?</summary>
+        <div class="gqa-faq-body">In the evening by Qatar's clock on weekdays, with Friday and Saturday slots covering the weekend. A fixed weekly hour is agreed at enrolment. One-on-one students have wider latitude, since the schedule is built around one person instead of a batch.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="gqa-rule" aria-hidden="true"></div>
+
+<!-- ============================== DEMO CTA ============================== -->
+<section class="gqa-section" id="demo">
+  <div class="gqa-wrap">
+    <div class="gqa-demo-panel">
+      <div class="gqa-demo-copy">
+        <p class="gqa-eyebrow">Free demo class</p>
+        <h2 class="gqa-h2">Write your first Python before deciding anything</h2>
+        <p>An hour from now, so to speak, you or your child could have run a first real program with a teacher watching. That is what the demo is: not a pitch, a lesson. It costs nothing and settles more than any page of text.</p>
+        <p>Faster by chat? <a href="https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20Python%20classes%20in%20Qatar" target="_blank" rel="noopener">Message us on WhatsApp</a> and a mentor responds during the Qatar day.</p>
+        <p class="gqa-trust"><span class="gqa-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4.9 rating across 547+ Google reviews</p>
+      </div>
+      <div class="gqa-demo-form-col">
+        <form class="gqa-leadform" onsubmit="submitInlineLead(event)">
+          <input type="text" name="name" placeholder="Parent or student name" required>
+          <input type="tel" name="phone" placeholder="Phone or WhatsApp number" required>
+          <select name="age" required>
+            <option value="" disabled selected>Who is this for?</option>
+            <option>Child (6 to 12)</option>
+            <option>Teen (13 to 18)</option>
+            <option>College student</option>
+            <option>Working professional</option>
+          </select>
+          <button type="submit">Book My Free Demo</button>
+          <p class="gqa-form-fine">Free demo class. No card needed. A mentor will call you.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer class="gqa-footer">
+  <div class="gqa-wrap">
+    <div class="gqa-footer-grid">
+      <div>
+        <p class="gqa-footer-brand">Modern Age Coders</p>
+        <p>Python taught live to students across Qatar, from a child's first loop to a professional's automation scripts.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="gqa-footer-links">
+          <li><a href="/courses">All Courses</a></li>
+          <li><a href="/how-we-teach">How We Teach</a></li>
+          <li><a href="/love">Wall of Love</a></li>
+          <li><a href="/">Home</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Qatar</h4>
+        <ul class="gqa-footer-links">
+          <li><a href="/coding-classes-in-qatar">Coding Classes in Qatar</a></li>
+          <li><a href="/coding-classes-in-doha">Coding Classes in Doha</a></li>
+          <li><a href="/coding-classes-for-kids-in-doha">Coding for Kids in Doha</a></li>
+          <li><a href="/ai-classes-in-qatar">AI Classes in Qatar</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="gqa-footer-links">
+          <li><a href="https://wa.me/919123366161?text=Hi,%20I%20want%20a%20free%20demo%20for%20Python%20classes%20in%20Qatar" target="_blank" rel="noopener">WhatsApp us</a></li>
+          <li><a href="#demo">Book a free demo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="gqa-footer-bottom">
+      <p>&copy; 2026 Modern Age Coders. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.submitInlineLead = function (e) {
+  e.preventDefault();
+  var form = e.target;
+  var name = (form.querySelector('input[name="name"]') || {}).value || '';
+  var phoneRaw = (form.querySelector('input[type="tel"]') || {}).value || '';
+  var age = (form.querySelector('select[name="age"]') || {}).value || '';
+  var phoneDigits = phoneRaw.replace(/\D/g, '');
+  if (phoneDigits.length < 7) { alert('Please enter a valid phone number.'); return; }
+  var btn = form.querySelector('button[type="submit"]');
+  var oldText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var API_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  fetch(API_URL + '/api/callback/request', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      phone: phoneDigits, countryCode: '+974', countryIso: 'QA', countryName: 'Qatar',
+      source: 'python-classes-in-qatar-inline', meta: { name: name, age: age }
+    })
+  }).then(function (r) { return r.json(); }).then(function (data) {
+    if (data && data.success) {
+      form.innerHTML = '<p class="gqa-form-ok">Thank you' + (name ? ', ' + name.split(' ')[0] : '') + '. A mentor will call you within a few hours.</p>';
+    } else {
+      alert((data && data.message) || 'Something went wrong. Please try again.');
+      btn.disabled = false; btn.textContent = oldText;
+    }
+  }).catch(function () {
+    alert('Network error. Please try again.');
+    btn.disabled = false; btn.textContent = oldText;
+  });
+};
+</script>
+
+</body>
+</html>
