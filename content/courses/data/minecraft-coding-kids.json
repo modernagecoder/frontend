@@ -1,0 +1,421 @@
+{
+  "meta": {
+    "slug": "minecraft-coding-for-kids-course",
+    "title": "Minecraft Coding for Kids: From Blocks to Real Code",
+    "description": "Minecraft coding classes for kids ages 7-12: live online lessons using block-based MakeCode, from first commands to robot agents, auto-farms, and mini-games.",
+    "keywords": [
+      "minecraft coding classes for kids",
+      "minecraft coding course for children",
+      "makecode minecraft classes online",
+      "minecraft education coding lessons",
+      "block coding for 7 year olds",
+      "learn coding with minecraft india",
+      "minecraft agent coding for kids",
+      "online minecraft coding classes live"
+    ],
+    "category": "Kids Coding",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "4 months (16 weeks)",
+    "level": "Beginner, ages 7 to 12",
+    "commitment": "2 live classes/week + 1-2 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "minecraft-coding-kids.png"
+  },
+  "program_overview": {
+    "title": "Minecraft Coding for Kids",
+    "tagline": "The game your child already loves becomes the place they learn to think in code.",
+    "description": "Minecraft has a superpower most parents never see: a built-in coding environment where children snap together blocks of code, press run, and watch the game obey. A castle wall appears in two seconds. A robot agent plants a farm. A trap springs when someone steps on the wrong block. This 4-month live course uses that loop, code it, run it, see it, to teach real programming ideas to children aged 7 to 12. Months 1 and 2 build the core: commands, the agent robot, loops that build faster than hands ever could, variables, and decisions. Months 3 and 4 turn those pieces into games: randomness, scores, timers, a full mini-game classmates play, and a finishing capstone the student designs. Along the way, older students get to flip the same blocks into JavaScript view and see what their program looks like as typed code.\n\nEvery class is live and hands-on. The instructor sets a build challenge, students code their own solution while the instructor watches and helps, and each week ends with something running in the world that was not there before.",
+    "what_makes_this_different": [
+      "Coding happens inside Minecraft itself, so the feedback loop is instant and the motivation is already installed",
+      "The agent robot makes loops and conditions physical: children watch their code walk, turn, plant, and build block by block",
+      "Challenges are sized for live classes: every session ends with a working build, not a half-finished follow-along",
+      "Block code is flipped to JavaScript view for curious older kids, so the bridge to typed programming is walked, not just mentioned",
+      "Screen time turns productive: the same game hours now produce farms, machines, and mini-games the child engineered",
+      "Small live batches mean the instructor sees every child's screen and every child's thinking, every class"
+    ],
+    "learning_path": {
+      "phase_1": "Code that builds: chat commands, the agent robot, then loops, variables, and decisions that construct in seconds what hands build in hours",
+      "phase_2": "Code that plays: randomness, scores, timers, and events combined into real mini-games, then a student-designed capstone showcased to families"
+    },
+    "career_outcomes": [
+      "Genuine computational thinking: sequencing, loops, conditions, variables, and events used to solve real build problems",
+      "A portfolio of working Minecraft programs: auto-builders, an agent farm, traps, and a complete mini-game",
+      "First contact with typed code through the JavaScript view of their own programs",
+      "A confident step up to our Scratch-free tracks: Python for kids or Roblox game coding"
+    ]
+  },
+  "phase_1_code_that_builds": {
+    "title": "PHASE 1: Code That Builds (Months 1-2, Weeks 1-8)",
+    "description": "From the first chat command to an automated farm: children learn sequencing, loops, variables, and decisions by making Minecraft do the building for them.",
+    "month_1_first_commands_and_the_agent": {
+      "title": "Month 1: First Commands and the Agent",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Hello, Code Builder",
+        "topics": [
+          "Opening the coding editor inside Minecraft and a tour of the block palette",
+          "On chat command: making code run when you type a magic word",
+          "Placing your first block with code instead of your hands",
+          "Running, stopping, and re-running a program",
+          "Changing one block in the code and predicting what changes in the world",
+          "Saving projects so next class starts where this one ended"
+        ],
+        "projects": [
+          "Magic words: three chat commands that summon a block tower, a splash of flowers, and a chicken"
+        ],
+        "practice": "Invent two new chat commands of your own and draw what each one should do before coding it"
+      },
+      "week_2": {
+        "title": "The Agent, Your Robot",
+        "topics": [
+          "Meeting the agent: the robot that obeys your program",
+          "Move forward, turn left, turn right: navigating step by step",
+          "Agent place and agent destroy: building and clearing",
+          "Sequencing: why the order of blocks changes everything",
+          "Walking a maze on paper first, then in code",
+          "Teleporting the agent back when it wanders off"
+        ],
+        "projects": [
+          "Maze runner: program the agent to walk a maze you built for it, placing a torch at the exit"
+        ],
+        "practice": "Build a new maze for a classmate's agent and solve theirs, comparing step counts"
+      },
+      "week_3": {
+        "title": "Loops: Building at Superspeed",
+        "topics": [
+          "The repeat block: doing something ten times without ten copies",
+          "Building a wall with a loop instead of block-by-block",
+          "Loops inside loops: from a wall to a whole floor",
+          "Counting carefully: the off-by-one surprise",
+          "The forever loop and when it is useful",
+          "Hand-build vs loop-build: racing the same wall both ways"
+        ],
+        "projects": [
+          "Wall factory: one program that builds a wall of any length, then a full square fort using nested loops"
+        ],
+        "practice": "Use loops to build a staircase to the clouds, then estimate how long it would have taken by hand"
+      },
+      "week_4": {
+        "title": "Big Builds with Loops",
+        "topics": [
+          "Planning a build as layers: what repeats and what does not",
+          "Pyramids: each layer smaller than the last",
+          "Hollow shapes: skipping the middle to save blocks",
+          "Combining agent moves and loops for long structures",
+          "Debugging a build gone wrong: reading the code out loud",
+          "Showing your build: a mini tour for the class"
+        ],
+        "projects": [
+          "Pyramid of Giza: a layered pyramid built entirely by code, with a hollow secret chamber inside"
+        ],
+        "practice": "Design and code one original loop-built monument for the class world",
+        "assessment": "Month 1 build check: the agent completes a fresh maze and a loop-built structure, explained block by block"
+      }
+    },
+    "month_2_variables_and_decisions": {
+      "title": "Month 2: Variables and Decisions",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Variables: Code That Remembers",
+        "topics": [
+          "What a variable is: a labeled box the program remembers",
+          "A size variable: one number that controls how big the build is",
+          "Changing a variable while the program runs",
+          "Counting things: how many blocks the agent has placed",
+          "Announcing values in chat: the program reports back",
+          "Naming variables so they explain themselves"
+        ],
+        "projects": [
+          "Any-size house: one program that builds a house small, medium, or giant by changing a single number"
+        ],
+        "practice": "Add a height variable to your fort program and test it at three different values"
+      },
+      "week_6": {
+        "title": "Decisions: Code That Checks",
+        "topics": [
+          "If and else: teaching the program to choose",
+          "Agent detect: is there a block in front of me?",
+          "Obstacle dodging: walk forward, but go around what blocks you",
+          "Checking what a block is made of before acting",
+          "Combining checks: if this and not that",
+          "Predict-then-run: guessing what a decision program will do"
+        ],
+        "projects": [
+          "Smart explorer: an agent that crosses rough ground by detecting obstacles and stepping around them"
+        ],
+        "practice": "Program a tunnel-digger that stops when it detects water, so nobody floods the base"
+      },
+      "week_7": {
+        "title": "Events: Code That Reacts",
+        "topics": [
+          "On player walk: code that fires when someone steps somewhere",
+          "On block placed and on block broken",
+          "Building a pressure-plate trap the coding way",
+          "Surprise effects: fireworks, sounds, and chat messages",
+          "Being a fair trap-maker: warnings and escape routes",
+          "Multiple events in one world without chaos"
+        ],
+        "projects": [
+          "Trap gauntlet: a walkway with three coded surprises, from harmless confetti to a drop into a pool"
+        ],
+        "practice": "Add a welcome event to the class world that greets any player who arrives at your base"
+      },
+      "week_8": {
+        "title": "Project Week: The Auto-Farm",
+        "topics": [
+          "Automation: teaching the agent a full job, start to finish",
+          "Till, plant, wait, harvest: the farming loop",
+          "Combining loops, variables, and detection in one program",
+          "Testing a long program one section at a time",
+          "Making the farm bigger without rewriting it",
+          "Explaining your automation to someone who does not code"
+        ],
+        "projects": [
+          "Agent auto-farm: a robot farmer that tills the soil, plants crops in rows, and harvests when ready"
+        ],
+        "practice": "Extend your farm with a fence-building routine, then measure how many crops one run produces",
+        "assessment": "Month 2 skills check: a live automation challenge solved with loops, a variable, and at least one detect decision"
+      }
+    }
+  },
+  "phase_2_code_that_plays": {
+    "title": "PHASE 2: Code That Plays (Months 3-4, Weeks 9-16)",
+    "description": "The building skills become game-making skills: randomness, scores, and timers combine into real mini-games, and the course ends with a student-designed capstone and a peek at real typed code.",
+    "month_3_minigames": {
+      "title": "Month 3: Mini-Games",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Randomness",
+        "topics": [
+          "Random numbers: why games need surprise",
+          "Spawning animals at random positions",
+          "Random blocks: a patchwork floor no one can predict",
+          "Hiding treasure somewhere new every game",
+          "Fair vs unfair randomness in games",
+          "Testing random code: run it many times, watch the spread"
+        ],
+        "projects": [
+          "Treasure hunt: a diamond block hidden at a random spot each round, with hot-and-cold chat hints"
+        ],
+        "practice": "Make a random pet generator that spawns one of five animals, and tally twenty runs to see the spread"
+      },
+      "week_10": {
+        "title": "Keeping Score",
+        "topics": [
+          "A score variable that events update",
+          "Announcing the score in chat after each point",
+          "Win conditions: first to ten",
+          "Resetting the game for a fresh round",
+          "Counting down instead of up: lives",
+          "Score displays that players actually notice"
+        ],
+        "projects": [
+          "Collector clash: gather the glowing blocks scattered by code, one point each, first to ten wins"
+        ],
+        "practice": "Add a lives system to your treasure hunt: three wrong digs and the round ends"
+      },
+      "week_11": {
+        "title": "Timers and Pressure",
+        "topics": [
+          "Countdown timers built from loops and waits",
+          "Beat the clock: finishing a task before time runs out",
+          "Announcing time left at the right moments",
+          "Combining a timer with a score for real tension",
+          "Rounds: game start, game play, game over",
+          "Tuning time limits so the game is hard but winnable"
+        ],
+        "projects": [
+          "Build rush: players race a two-minute timer to copy a target structure, with a code-checked finish"
+        ],
+        "practice": "Playtest your build rush with family and adjust the time limit after two rounds"
+      },
+      "week_12": {
+        "title": "Project Week: The Arena Game",
+        "topics": [
+          "Combining the month: randomness, score, timer, and events in one game",
+          "Building the arena with your loop skills",
+          "Rules players can learn in ten seconds",
+          "Running a game for classmates: host duties",
+          "Watching players find the fun and the flaws",
+          "One improvement pass after the first playtest"
+        ],
+        "projects": [
+          "Falling-floor arena: a coded mini-game where floor sections vanish on a timer and the last player standing wins"
+        ],
+        "practice": "Host two rounds of your arena for classmates and write down the one rule that confused people most",
+        "assessment": "Arena game demo: classmates play a full round, then the builder explains the timer and event code behind it"
+      }
+    },
+    "month_4_capstone_and_the_code_peek": {
+      "title": "Month 4: The Capstone and the Code Peek",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Functions: Naming Your Powers",
+        "topics": [
+          "Functions: wrapping a build routine in a name",
+          "One buildTower function used five times",
+          "Functions with a size input",
+          "A personal toolkit: your best routines, reusable forever",
+          "Cleaner programs: reading code made of named pieces",
+          "Sharing a function with a classmate and using theirs"
+        ],
+        "projects": [
+          "Village in a minute: houses, paths, and lamp posts, each a function, assembled into a whole village program"
+        ],
+        "practice": "Turn your favorite build from the course into a function and use it three times in one world"
+      },
+      "week_14": {
+        "title": "The JavaScript Peek",
+        "topics": [
+          "Flipping the editor: the same program as blocks and as JavaScript text",
+          "Finding your loop and your variable in the typed code",
+          "What brackets, dots, and semicolons are doing",
+          "Making one tiny change in text view and running it",
+          "Block coding vs typed coding: same thinking, different clothes",
+          "Where typed languages lead: Python, JavaScript, and beyond"
+        ],
+        "projects": [
+          "Two-view build: a fountain program written in blocks, then modified once in JavaScript view to change its size"
+        ],
+        "practice": "Flip three of your old programs to code view and find the repeat loop in each one"
+      },
+      "week_15": {
+        "title": "Capstone Build Sprint",
+        "topics": [
+          "Choosing a capstone: an original game or a grand automation",
+          "The one-page plan: what it does, what code it needs, what done means",
+          "Building must-haves first",
+          "Reusing your own functions and past code honestly",
+          "Instructor check-in: unblocking the hard part early",
+          "Trimming the plan when time runs short, without giving up the core"
+        ],
+        "projects": [
+          "Capstone, part one: the core of an original mini-game or automation, planned and working end to end"
+        ],
+        "practice": "Two 30-minute build sessions at home, each ending with a one-sentence progress note"
+      },
+      "week_16": {
+        "title": "Finish and Showcase",
+        "topics": [
+          "The final bug hunt: testing every part on purpose",
+          "Polish: sounds, messages, and a proper welcome",
+          "Writing simple instructions for players",
+          "Presenting: show the game first, then the code behind the best part",
+          "Answering questions about your own program",
+          "What comes next: Python for kids, or Roblox game coding"
+        ],
+        "projects": [
+          "Finished capstone: an original, tested Minecraft game or automation presented live to classmates and families"
+        ],
+        "practice": "Run your capstone for two family members and collect one compliment and one improvement idea from each",
+        "assessment": "Capstone showcase and code Q&A, plus course-completion certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Magic chat commands that summon builds and creatures",
+      "Agent maze runner with a torch-lit victory exit",
+      "Nested-loop square fort and cloud staircase",
+      "Code-built Pyramid of Giza with a hidden chamber",
+      "Any-size house driven by a single variable",
+      "Smart explorer agent that detects and dodges obstacles",
+      "Agent auto-farm that tills, plants, and harvests",
+      "Random treasure hunt with hot-and-cold hints",
+      "Falling-floor arena mini-game with timer and score",
+      "Village-in-a-minute built from student-written functions",
+      "Original capstone game or automation, showcased to families"
+    ],
+    "total_projects_built": "14+ working programs, from a first chat command to an original mini-game",
+    "skills_mastered": [
+      "Sequencing and the agent: precise step-by-step instructions a robot can follow",
+      "Loops and nested loops: building in seconds what hands build in hours",
+      "Variables and decisions: programs that remember, count, check, and choose",
+      "Events, randomness, scores, and timers: the ingredients of every mini-game",
+      "Functions: naming and reusing routines like a real programmer",
+      "Reading typed code: finding loops and variables in the JavaScript view of their own programs"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, coding challenges solved along with the instructor",
+      "practice": "1-2 hours of build challenges between classes, sized for young attention spans",
+      "review": "Practice builds reviewed with feedback; tricky concepts replayed at the start of the next class"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, backed by the student's own gallery of working programs"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so nobody stays stuck until the next session",
+      "progress_updates": "Regular progress notes to parents: what was covered, what was built, what needs practice"
+    }
+  },
+  "prerequisites": {
+    "coding_experience": "None. The course starts from the very first block of code",
+    "reading": "Basic reading comfort, enough to follow labeled blocks. Seven-year-olds who read simple sentences do fine",
+    "minecraft_setup": "Minecraft Education, which includes the built-in coding editor. We help every family set it up before classes start",
+    "equipment": "A computer or iPad that runs Minecraft Education, plus a stable internet connection"
+  },
+  "who_is_this_for": {
+    "minecraft_fans": "Kids who play Minecraft daily and are ready to command it instead of just mining in it",
+    "complete_beginners": "Children aged 7 to 12 with zero coding exposure who need a first step that feels like play",
+    "restless_learners": "Kids who resist worksheets but will happily debug a robot farmer for twenty minutes",
+    "future_typers": "Older kids in the range who are curious what real typed code looks like, met here through the JavaScript view",
+    "screen_time_worriers": "Parents who want existing Minecraft hours converted into planning, logic, and finished projects"
+  },
+  "career_paths_after_completion": [
+    "Our Python for kids course, the natural next step once block logic is solid",
+    "Roblox game coding, where the same ideas graduate to typed Luau scripts in a 3D engine",
+    "Our Scratch-based creative coding track for students who want more game design first",
+    "School coding competitions and clubs, entered with a portfolio of working programs",
+    "App development for kids, for children who want to build beyond games"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Is this course run by Mojang or Microsoft?",
+      "answer": "No. Modern Age Coders is an independent coding school, and this course is not affiliated with, sponsored by, or endorsed by Mojang or Microsoft. We teach coding using Minecraft Education and its built-in MakeCode editor, tools Microsoft makes available for exactly this kind of learning, but the curriculum and classes are entirely ours."
+    },
+    {
+      "question": "Which version of Minecraft do we need? Will our normal Minecraft work?",
+      "answer": "The course uses Minecraft Education, the school-focused version with the coding editor (Code Builder) built in. The regular Bedrock or Java editions your child may already own do not include this editor, so Education is required; it runs on Windows, Mac, iPad, and most Chromebooks, and needs its own low-cost licence or a school Microsoft 365 Education account. Before the batch starts we walk every family through the setup, and we confirm your device runs it during the free demo."
+    },
+    {
+      "question": "Will my child actually learn coding, or just play Minecraft in class?",
+      "answer": "Every class is a coding class; Minecraft is the place the code runs, not the activity. Students spend sessions writing programs: loops that raise walls, decisions that steer a robot, events that trigger traps, timers that run games. The game world is what makes a seven-year-old care whether their loop is correct, because a wrong loop builds a crooked castle in front of everyone."
+    },
+    {
+      "question": "My child already gets too much screen time. Does this add more?",
+      "answer": "For most families it converts time rather than adds it. The hours a child was already spending in Minecraft start producing farms they automated, games they invented, and bugs they fixed, which exercises planning and logic in a way passive play does not. Classes are one focused hour, and home practice is deliberately kept to one or two hours a week, sized for this age group."
+    },
+    {
+      "question": "Is 7 too young? My older child is 12, is it too basic?",
+      "answer": "Both ends of the range are served, differently. Sevens thrive because block coding removes typing and spelling from the equation; they drag, snap, and run. Twelves stay stretched through harder challenges, functions, and the JavaScript view, where they read and edit their own programs as typed code. Batches are grouped by age so the pace fits the room."
+    },
+    {
+      "question": "What does my child move on to after this course?",
+      "answer": "The two most common paths are our Python for kids course, which takes the same ideas into the world's most-used typed language, and Roblox game coding, where students script 3D games in Luau. The instructor recommends a path for each child at the end of the course based on what they gravitated toward."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1. The Minecraft Education licence, if your family needs to buy one, is separate and paid to Microsoft directly."
+    },
+    {
+      "question": "Can we try a class before enrolling?",
+      "answer": "Yes, the first demo class is free and carries no obligation. Book it at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. The demo doubles as a tech check: we make sure Minecraft Education runs on your device and answer setup questions with a parent present."
+    },
+    {
+      "question": "Do parents need to know anything about coding or Minecraft?",
+      "answer": "No. Setup is guided step by step before the first class, progress notes after classes tell you what was built and why it matters, and the end-of-course showcase is designed for families, your child explains their own program to you. Many parents tell us that presentation is the first time they understood what the course was building all along."
+    }
+  ]
+}
