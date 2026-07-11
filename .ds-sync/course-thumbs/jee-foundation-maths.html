@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:800px;height:450px;overflow:hidden}
+:root{
+  --paper:#FBF8F2; --ink:#26211B; --muted:#877C6C;
+  --accent:#D9542B; --accent-soft:#F7DCD0;
+  --dot:rgba(38,33,27,.07); --hairline:rgba(38,33,27,.16);
+}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);position:relative}
+body::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.2px);background-size:26px 26px}
+.card{position:absolute;inset:0;padding:30px 40px 24px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
+.wordmark{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:800;letter-spacing:.22em}
+.mark{width:17px;height:17px;position:relative;display:inline-block}
+.mark b{position:absolute;left:5px;top:5px;width:15px;height:15px;border:2.5px solid var(--ink)}
+.mark i{position:absolute;left:0;top:0;width:15px;height:15px;background:var(--accent)}
+.badge{border:2.5px solid var(--ink);padding:8px 16px;border-radius:999px;font-weight:800;font-size:13px;letter-spacing:.12em}
+.main{flex:1;display:flex;align-items:center;position:relative;z-index:1}
+.titleblock{max-width:430px}
+.kicker{font-size:12.5px;font-weight:800;letter-spacing:.3em;color:var(--accent);margin-bottom:15px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:56px;line-height:1.04;letter-spacing:-.01em}
+.sub{margin-top:15px;font-size:16px;line-height:1.45;color:var(--muted);font-weight:500;max-width:380px}
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid var(--hairline);padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:var(--muted);position:relative;z-index:2}
+.motif{position:absolute;right:36px;top:50%;transform:translateY(-50%);width:300px;height:270px}
+.omr{position:absolute;left:50%;transform:translateX(-50%);bottom:0;display:flex;gap:16px;font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:700}
+.bub{width:34px;height:34px;border:2.5px solid var(--ink);border-radius:50%;display:flex;align-items:center;justify-content:center;background:#fff}
+.bub.f{background:var(--accent);border-color:var(--accent);color:#FBF8F2}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top">
+    <div class="wordmark"><span class="mark"><b></b><i></i></span>MODERN AGE CODERS</div>
+    <div class="badge">CLASS 8-10</div>
+  </div>
+  <div class="main">
+    <div class="titleblock">
+      <div class="kicker">EXAM FOUNDATION COURSE</div>
+      <h1>JEE Foundation<br>Maths</h1>
+      <p class="sub">Strong fundamentals for Class 8 to 10, NCERT aligned</p>
+    </div>
+  </div>
+  <div class="motif">
+    <svg width="300" height="210" viewBox="0 0 300 210" fill="none" style="position:absolute;left:0;top:0">
+      <!-- grid patch -->
+      <g opacity=".28" stroke="#26211B" stroke-width="1">
+        <line x1="60" y1="10" x2="60" y2="180"/><line x1="110" y1="10" x2="110" y2="180"/><line x1="160" y1="10" x2="160" y2="180"/><line x1="210" y1="10" x2="210" y2="180"/><line x1="260" y1="10" x2="260" y2="180"/>
+        <line x1="20" y1="50" x2="290" y2="50"/><line x1="20" y1="100" x2="290" y2="100"/><line x1="20" y1="150" x2="290" y2="150"/>
+      </g>
+      <!-- axes -->
+      <line x1="35" y1="10" x2="35" y2="180" stroke="#26211B" stroke-width="3"/>
+      <line x1="20" y1="165" x2="290" y2="165" stroke="#26211B" stroke-width="3"/>
+      <!-- parabola y = x^2 -->
+      <path d="M70 24 Q160 288 250 24" stroke="#D9542B" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+      <!-- vertex dot -->
+      <circle cx="160" cy="156" r="6" fill="#D9542B" stroke="#FBF8F2" stroke-width="2.5"/>
+      <text x="234" y="52" font-family="Fraunces,Georgia,serif" font-style="italic" font-size="21" font-weight="700" fill="#26211B">y = x&#178;</text>
+    </svg>
+    <div class="omr">
+      <span class="bub">A</span><span class="bub">B</span><span class="bub f">C</span><span class="bub">D</span>
+    </div>
+  </div>
+  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn.modernagecoders.com</span></div>
+</div>
+</body>
+</html>

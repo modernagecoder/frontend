@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:800px;height:450px;overflow:hidden}
+:root{
+  --paper:#FBF8F2; --ink:#26211B; --muted:#877C6C;
+  --accent:#A8442A; --accent-soft:#EFD9CC;
+  --dot:rgba(38,33,27,.07); --hairline:rgba(38,33,27,.16);
+}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);position:relative}
+body::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.2px);background-size:26px 26px}
+.card{position:absolute;inset:0;padding:30px 40px 24px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
+.wordmark{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:800;letter-spacing:.22em}
+.mark{width:17px;height:17px;position:relative;display:inline-block}
+.mark b{position:absolute;left:5px;top:5px;width:15px;height:15px;border:2.5px solid var(--ink)}
+.mark i{position:absolute;left:0;top:0;width:15px;height:15px;background:var(--accent)}
+.badge{border:2.5px solid var(--ink);padding:8px 16px;border-radius:999px;font-weight:800;font-size:13px;letter-spacing:.12em}
+.main{flex:1;display:flex;align-items:center;position:relative;z-index:1}
+.titleblock{max-width:430px}
+.kicker{font-size:12.5px;font-weight:800;letter-spacing:.3em;color:var(--accent);margin-bottom:15px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:57px;line-height:1.04;letter-spacing:-.01em}
+.sub{margin-top:15px;font-size:16px;line-height:1.45;color:var(--muted);font-weight:500;max-width:380px}
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid var(--hairline);padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:var(--muted);position:relative;z-index:2}
+.motif{position:absolute;right:36px;top:50%;transform:translateY(-50%);width:300px;height:270px}
+.sheet{position:absolute;right:8px;top:16px;width:270px;height:232px;background:#FFFFFF;border:2.5px solid var(--ink);border-radius:10px;transform:rotate(-2deg);box-shadow:6px 6px 0 rgba(38,33,27,.12);overflow:hidden}
+.sheet::before{content:"";position:absolute;left:38px;top:0;bottom:0;width:2px;background:var(--accent);opacity:.55}
+.sheet::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(to bottom,transparent 0,transparent 27px,rgba(38,33,27,.12) 27px,rgba(38,33,27,.12) 28.5px)}
+.q{position:absolute;left:50px;top:8px;font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:700;color:var(--accent)}
+.marks{position:absolute;right:12px;top:8px;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:700;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top">
+    <div class="wordmark"><span class="mark"><b></b><i></i></span>MODERN AGE CODERS</div>
+    <div class="badge">CLASS 10</div>
+  </div>
+  <div class="main">
+    <div class="titleblock">
+      <div class="kicker">BOARD EXAM PREP</div>
+      <h1>CBSE Class 10<br>Maths</h1>
+      <p class="sub">Complete board preparation, chapter by chapter</p>
+    </div>
+  </div>
+  <div class="motif">
+    <div class="sheet">
+      <span class="q">Q1.</span><span class="marks">[5 marks]</span>
+      <svg width="270" height="232" viewBox="0 0 270 232" fill="none" style="position:absolute;inset:0">
+        <!-- triangle with dashed height -->
+        <polygon points="60,168 128,60 196,168" fill="none" stroke="#26211B" stroke-width="3" stroke-linejoin="round"/>
+        <line x1="128" y1="60" x2="128" y2="168" stroke="#A8442A" stroke-width="2.5" stroke-dasharray="6 6"/>
+        <rect x="128" y="154" width="14" height="14" fill="none" stroke="#A8442A" stroke-width="2"/>
+        <text x="134" y="120" font-family="Fraunces,Georgia,serif" font-style="italic" font-size="19" font-weight="700" fill="#A8442A">h</text>
+        <!-- circle with tangent -->
+        <circle cx="222" cy="102" r="30" fill="none" stroke="#26211B" stroke-width="3"/>
+        <line x1="186" y1="58" x2="262" y2="134" stroke="#26211B" stroke-width="2.5"/>
+        <line x1="222" y1="102" x2="243" y2="81" stroke="#A8442A" stroke-width="2" stroke-dasharray="4 5"/>
+        <!-- working line -->
+        <text x="60" y="205" font-family="Fraunces,Georgia,serif" font-style="italic" font-size="20" font-weight="600" fill="#26211B">area = &#189; b &#215; h</text>
+      </svg>
+    </div>
+  </div>
+  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn.modernagecoders.com</span></div>
+</div>
+</body>
+</html>

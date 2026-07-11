@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:800px;height:450px;overflow:hidden}
+:root{
+  --paper:#FBF8F2; --ink:#26211B; --muted:#877C6C;
+  --accent:#1E6E54; --accent-soft:#D8E8DF;
+  --dot:rgba(38,33,27,.07); --hairline:rgba(38,33,27,.16);
+}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);position:relative}
+body::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.2px);background-size:26px 26px}
+.card{position:absolute;inset:0;padding:30px 40px 24px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
+.wordmark{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:800;letter-spacing:.22em}
+.mark{width:17px;height:17px;position:relative;display:inline-block}
+.mark b{position:absolute;left:5px;top:5px;width:15px;height:15px;border:2.5px solid var(--ink)}
+.mark i{position:absolute;left:0;top:0;width:15px;height:15px;background:var(--accent)}
+.badge{border:2.5px solid var(--ink);padding:8px 16px;border-radius:999px;font-weight:800;font-size:13px;letter-spacing:.12em}
+.main{flex:1;display:flex;align-items:center;position:relative;z-index:1}
+.titleblock{max-width:440px}
+.kicker{font-size:12.5px;font-weight:800;letter-spacing:.3em;color:var(--accent);margin-bottom:15px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:56px;line-height:1.04;letter-spacing:-.01em}
+.sub{margin-top:15px;font-size:16px;line-height:1.45;color:var(--muted);font-weight:500;max-width:390px}
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid var(--hairline);padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:var(--muted);position:relative;z-index:2}
+.motif{position:absolute;right:36px;top:50%;transform:translateY(-50%);width:300px;height:260px}
+.browser{position:absolute;right:4px;top:16px;width:276px;height:212px;background:#fff;border:2.5px solid var(--ink);border-radius:14px;box-shadow:6px 6px 0 rgba(38,33,27,.12);transform:rotate(1.5deg)}
+.bbar{height:34px;border-bottom:2.5px solid var(--ink);display:flex;align-items:center;gap:7px;padding:0 13px}
+.dot{width:9px;height:9px;border-radius:50%;border:2px solid var(--ink)}
+.dot.f{background:var(--accent);border-color:var(--accent)}
+.binner{padding:13px}
+.hero{height:52px;background:var(--accent);border-radius:8px}
+.row{display:flex;gap:10px;margin-top:11px}
+.col{flex:1;height:74px;background:var(--accent-soft);border-radius:8px;border:2px dashed rgba(38,33,27,.4)}
+.tag{position:absolute;font-family:'JetBrains Mono',monospace;font-size:14.5px;font-weight:700;background:var(--ink);color:var(--paper);padding:7px 11px;border-radius:8px;box-shadow:3px 3px 0 rgba(38,33,27,.18)}
+.t1{left:-16px;top:66px;transform:rotate(-4deg)}
+.t2{right:-6px;bottom:-14px;transform:rotate(3deg);background:var(--accent)}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top">
+    <div class="wordmark"><span class="mark"><b></b><i></i></span>MODERN AGE CODERS</div>
+    <div class="badge">AGES 10+</div>
+  </div>
+  <div class="main">
+    <div class="titleblock">
+      <div class="kicker">WEB DESIGN COURSE</div>
+      <h1>HTML &amp; CSS<br>for Beginners</h1>
+      <p class="sub">Build real websites from your very first class</p>
+    </div>
+  </div>
+  <div class="motif">
+    <div class="browser">
+      <div class="bbar"><span class="dot f"></span><span class="dot"></span><span class="dot"></span></div>
+      <div class="binner">
+        <div class="hero"></div>
+        <div class="row"><div class="col"></div><div class="col"></div></div>
+      </div>
+    </div>
+    <div class="tag t1">&lt;header&gt;</div>
+    <div class="tag t2">style.css</div>
+  </div>
+  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn.modernagecoders.com</span></div>
+</div>
+</body>
+</html>

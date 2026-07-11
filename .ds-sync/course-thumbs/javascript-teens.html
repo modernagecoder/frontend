@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:800px;height:450px;overflow:hidden}
+:root{
+  --paper:#FBF8F2; --ink:#26211B; --muted:#877C6C;
+  --accent:#D9542B; --accent-soft:#F7DCD0;
+  --dot:rgba(38,33,27,.07); --hairline:rgba(38,33,27,.16);
+}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);position:relative}
+body::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.2px);background-size:26px 26px}
+.card{position:absolute;inset:0;padding:30px 40px 24px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
+.wordmark{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:800;letter-spacing:.22em}
+.mark{width:17px;height:17px;position:relative;display:inline-block}
+.mark b{position:absolute;left:5px;top:5px;width:15px;height:15px;border:2.5px solid var(--ink)}
+.mark i{position:absolute;left:0;top:0;width:15px;height:15px;background:var(--accent)}
+.badge{border:2.5px solid var(--ink);padding:8px 16px;border-radius:999px;font-weight:800;font-size:13px;letter-spacing:.12em}
+.main{flex:1;display:flex;align-items:center;position:relative;z-index:1}
+.titleblock{max-width:450px}
+.kicker{font-size:12.5px;font-weight:800;letter-spacing:.3em;color:var(--accent);margin-bottom:15px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:58px;line-height:1.04;letter-spacing:-.01em}
+.sub{margin-top:15px;font-size:16px;line-height:1.45;color:var(--muted);font-weight:500;max-width:390px}
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid var(--hairline);padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:var(--muted);position:relative;z-index:2}
+.motif{position:absolute;right:34px;top:50%;transform:translateY(-50%);width:300px;height:270px}
+.brace{position:absolute;font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:170px;line-height:1;color:var(--accent);opacity:.16}
+.brl{left:-14px;top:-6px}
+.brr{right:-10px;bottom:-14px}
+.pill{position:absolute;font-family:'JetBrains Mono',monospace;font-size:16.5px;font-weight:500;padding:11px 16px;border:2.5px solid var(--ink);border-radius:12px;background:#fff;box-shadow:4px 4px 0 rgba(38,33,27,.14);white-space:nowrap}
+.p1{top:24px;right:88px;transform:rotate(-3deg)}
+.p2{top:92px;right:18px;transform:rotate(2deg);background:var(--accent);border-color:var(--accent);color:#FBF8F2;font-weight:700}
+.p3{top:160px;right:112px;transform:rotate(-2deg);background:var(--accent-soft)}
+.p4{top:222px;right:34px;transform:rotate(1.5deg)}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top">
+    <div class="wordmark"><span class="mark"><b></b><i></i></span>MODERN AGE CODERS</div>
+    <div class="badge">TEENS 13-18</div>
+  </div>
+  <div class="main">
+    <div class="titleblock">
+      <div class="kicker">CODING COURSE</div>
+      <h1>JavaScript<br>Programming</h1>
+      <p class="sub">Build interactive websites, games and real browser projects</p>
+    </div>
+  </div>
+  <div class="motif">
+    <div class="brace brl">{</div>
+    <div class="brace brr">}</div>
+    <div class="pill p1">const score = 0</div>
+    <div class="pill p2">() =&gt; play()</div>
+    <div class="pill p3">score++</div>
+    <div class="pill p4">if (win) cheer()</div>
+  </div>
+  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn.modernagecoders.com</span></div>
+</div>
+</body>
+</html>

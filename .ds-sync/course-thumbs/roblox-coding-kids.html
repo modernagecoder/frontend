@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:800px;height:450px;overflow:hidden}
+:root{
+  --paper:#FBF8F2; --ink:#26211B; --muted:#877C6C;
+  --accent:#D9542B; --accent-soft:#F7DCD0;
+  --dot:rgba(38,33,27,.07); --hairline:rgba(38,33,27,.16);
+}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);position:relative}
+body::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.2px);background-size:26px 26px}
+.card{position:absolute;inset:0;padding:30px 40px 24px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}
+.wordmark{display:flex;align-items:center;gap:11px;font-size:13px;font-weight:800;letter-spacing:.22em}
+.mark{width:17px;height:17px;position:relative;display:inline-block}
+.mark b{position:absolute;left:5px;top:5px;width:15px;height:15px;border:2.5px solid var(--ink)}
+.mark i{position:absolute;left:0;top:0;width:15px;height:15px;background:var(--accent)}
+.badge{border:2.5px solid var(--ink);padding:8px 16px;border-radius:999px;font-weight:800;font-size:13px;letter-spacing:.12em;background:var(--accent);color:#FBF8F2}
+.main{flex:1;display:flex;align-items:center;position:relative;z-index:1}
+.titleblock{max-width:440px}
+.kicker{font-size:12.5px;font-weight:800;letter-spacing:.3em;color:var(--accent);margin-bottom:15px}
+h1{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:58px;line-height:1.04;letter-spacing:-.01em}
+.sub{margin-top:15px;font-size:16px;line-height:1.45;color:var(--muted);font-weight:500;max-width:380px}
+.bottom{display:flex;justify-content:space-between;align-items:center;border-top:1.5px solid var(--hairline);padding-top:13px;font-size:11px;letter-spacing:.12em;font-weight:700;color:var(--muted);position:relative;z-index:2}
+.motif{position:absolute;right:36px;top:50%;transform:translateY(-50%);width:300px;height:270px}
+.blk{position:absolute;border:3px solid var(--ink);border-radius:12px;box-shadow:5px 5px 0 rgba(38,33,27,.14)}
+.stud{position:absolute;top:-15px;width:28px;height:15px;border:3px solid var(--ink);border-bottom:none;border-radius:9px 9px 0 0}
+.c1{background:#E2593A}
+.c2{background:#EFA63C}
+.c3{background:#2E9E8F}
+.b1{width:98px;height:86px;right:132px;top:22px;transform:rotate(-4deg)}
+.b2{width:122px;height:80px;right:8px;top:66px;transform:rotate(3deg)}
+.b3{width:88px;height:82px;right:148px;top:132px;transform:rotate(2deg)}
+.s1{left:14px}
+.s2{left:54px}
+.chip{position:absolute;right:6px;bottom:26px;font-family:'JetBrains Mono',monospace;font-size:15px;font-weight:700;background:var(--ink);color:var(--paper);padding:9px 13px;border-radius:9px;transform:rotate(-2deg);box-shadow:3px 3px 0 rgba(38,33,27,.18)}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top">
+    <div class="wordmark"><span class="mark"><b></b><i></i></span>MODERN AGE CODERS</div>
+    <div class="badge">KIDS 8-14</div>
+  </div>
+  <div class="main">
+    <div class="titleblock">
+      <div class="kicker">GAME CODING COURSE</div>
+      <h1>Roblox Game<br>Coding</h1>
+      <p class="sub">Design and script your own games in Luau</p>
+    </div>
+  </div>
+  <div class="motif">
+    <div class="blk b1 c1"><span class="stud s1 c1"></span><span class="stud s2 c1"></span></div>
+    <div class="blk b2 c2"><span class="stud s1 c2"></span><span class="stud s2 c2"></span></div>
+    <div class="blk b3 c3"><span class="stud s1 c3"></span><span class="stud s2 c3"></span></div>
+    <div class="chip">function onTouch()</div>
+  </div>
+  <div class="bottom"><span>LIVE ONLINE CLASSES</span><span>learn.modernagecoders.com</span></div>
+</div>
+</body>
+</html>
