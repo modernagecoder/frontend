@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "slug": "javascript-course-for-teens-beginners-interactive-web",
+    "title": "JavaScript Programming for Teens: Interactive Websites and Browser Games",
+    "description": "JavaScript course for teens ages 13-18: live online classes from first variables to interactive pages, canvas games, real APIs, and a deployed capstone site.",
+    "keywords": [
+      "javascript course for teens",
+      "learn javascript online for beginners",
+      "javascript classes for teenagers",
+      "web development course for teens",
+      "javascript projects for beginners",
+      "canvas game programming javascript",
+      "online coding classes for teens india",
+      "live javascript classes small batch"
+    ],
+    "category": "Web Development",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Beginner, ages 13 to 18",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "javascript-teens.png"
+  },
+  "program_overview": {
+    "title": "JavaScript Programming for Teens",
+    "tagline": "The language every browser runs, taught from the first variable to a game your friends can actually play.",
+    "description": "JavaScript is the only programming language every web browser understands, which makes it the most immediate language a teenager can learn: write a line, refresh the page, and something on screen changes. This 6-month live course starts at zero and builds in one direction, toward work worth showing. Months 1 and 2 cover the language core and the DOM, so pages respond to clicks and typing within weeks. Months 3 and 4 add real data: arrays, objects, JSON, saving with localStorage, and fetching from public APIs such as live weather. Month 5 is games on the HTML canvas, with a proper game loop, keyboard control, and collision detection. Month 6 is the capstone: each student scopes, builds, and deploys an interactive site of their own, then presents it.\n\nClasses are live and small. Students write code in every session while an instructor watches them work, and homework gets reviewed, not just collected.",
+    "what_makes_this_different": [
+      "Everything runs in the browser students already have, so the write-refresh-see loop takes seconds and motivation stays high",
+      "The DOM arrives in month 2, not month 5: pages react to clicks within the first weeks, long before the theory runs out",
+      "Real public APIs instead of toy data: weather, dictionaries, and services students choose themselves",
+      "A full month of canvas games, because a game you built yourself is the project teens actually show their friends",
+      "The capstone is deployed to a real URL, so the finished site can sit on a school application or be sent to relatives",
+      "No prior HTML needed: the markup and CSS each project requires is taught in class, exactly when it is needed"
+    ],
+    "learning_path": {
+      "phase_1": "The language and the page: variables, decisions, loops, and functions, then the DOM and events so pages respond to users",
+      "phase_2": "Data and the network: arrays, objects, JSON, and localStorage, then fetch and public APIs for pages built on live data",
+      "phase_3": "Canvas games with a real game loop, then a scoped, deployed capstone site presented to the class"
+    },
+    "career_outcomes": [
+      "A deployed, interactive capstone site plus a folder of working projects to show",
+      "The exact foundation needed for React, Node.js, and full-stack courses later",
+      "Comfort reading and debugging real JavaScript, a skill school ICT classes rarely build",
+      "A head start for school hackathons and computer science electives"
+    ]
+  },
+  "phase_1_language_and_page": {
+    "title": "PHASE 1: The Language and the Page (Months 1-2, Weeks 1-8)",
+    "description": "JavaScript from the first line: values, decisions, loops, and functions, then the DOM and events so real pages respond to real users.",
+    "month_1_javascript_from_zero": {
+      "title": "Month 1: JavaScript from the First Line",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "First Lines of JavaScript",
+        "topics": [
+          "Where JavaScript runs: the browser, the console, and why no install is needed to start",
+          "Setting up VS Code and running a script inside an HTML page",
+          "Values and variables: let and const, and when each is right",
+          "Numbers and strings, and what happens when you mix them",
+          "Template literals for building sentences out of data",
+          "console.log as your first debugging tool",
+          "Comments and naming things so future-you understands the code"
+        ],
+        "projects": [
+          "Story generator: a script that assembles a silly story from variables, then from user input via prompt"
+        ],
+        "practice": "10 short console exercises: swap variables, build sentences, fix three broken scripts"
+      },
+      "week_2": {
+        "title": "Making Decisions",
+        "topics": [
+          "Comparisons: equal, strictly equal, greater, less, and why === matters",
+          "if, else if, else: teaching a program to choose",
+          "Boolean values and expressions that produce them",
+          "Combining conditions with and, or, not",
+          "Truthy and falsy values, and the bugs they cause",
+          "Nesting conditions without losing the plot"
+        ],
+        "projects": [
+          "Number guessing game, round one: the computer picks, you guess, it answers higher or lower"
+        ],
+        "practice": "Decision drills: grade calculator, ticket price rules, a login age check with edge cases"
+      },
+      "week_3": {
+        "title": "Loops and Repetition",
+        "topics": [
+          "while loops: repeat until something changes",
+          "for loops: counting, stepping, and counting backwards",
+          "Accumulator patterns: totals, counters, and building strings in a loop",
+          "break and continue, used sparingly",
+          "Nested loops and when they are worth it",
+          "Reading a loop you did not write and predicting its output"
+        ],
+        "projects": [
+          "Times-table printer with formatting",
+          "Guessing game, round two: limited tries, a running score, play-again logic"
+        ],
+        "practice": "12 loop katas, including FizzBuzz and a countdown timer printed to the console"
+      },
+      "week_4": {
+        "title": "Functions",
+        "topics": [
+          "Declaring functions: inputs, outputs, and the return statement",
+          "Parameters vs arguments, and default values",
+          "Arrow function syntax and where you will meet it",
+          "Scope: what a function can and cannot see",
+          "Breaking a messy script into small named functions",
+          "Testing a function by hand with sample inputs"
+        ],
+        "projects": [
+          "Tip calculator and unit converter built as a small library of reusable functions"
+        ],
+        "practice": "Write 8 functions from written specs, then refactor week 3 projects to use functions",
+        "assessment": "Month 1 skills check: write four short functions live, explaining each choice"
+      }
+    },
+    "month_2_dom_and_events": {
+      "title": "Month 2: The DOM and Events",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Meeting the DOM",
+        "topics": [
+          "Just enough HTML: tags, ids, and classes, taught as we need them",
+          "The DOM tree: how the browser sees a page",
+          "querySelector and querySelectorAll: finding elements",
+          "Changing text with textContent and innerHTML, and the difference",
+          "Changing styles and toggling classes from JavaScript",
+          "The dev tools Elements panel as an x-ray of your page"
+        ],
+        "projects": [
+          "Mood page: buttons that change the page's colors, text, and heading live"
+        ],
+        "practice": "Select-and-change drills on a provided practice page with 15 small targets"
+      },
+      "week_6": {
+        "title": "Events: Pages That Listen",
+        "topics": [
+          "addEventListener: click, input, and change events",
+          "The event object and what it tells you",
+          "Reading values out of text inputs",
+          "Updating the page in response to typing, live",
+          "Preventing default behavior and when you need to",
+          "Common event bugs: listeners attached too early, wrong element, wrong event"
+        ],
+        "projects": [
+          "Click counter with milestones",
+          "Live character counter for a message box, with a limit warning"
+        ],
+        "practice": "Build three tiny widgets from spec: a like button, a show-password toggle, a color picker preview"
+      },
+      "week_7": {
+        "title": "Interactive Widgets",
+        "topics": [
+          "Showing and hiding elements cleanly with classes",
+          "Creating and removing elements with createElement and remove",
+          "Building lists in the DOM from JavaScript data",
+          "classList patterns: toggle, add, remove",
+          "Dark mode done properly: one class on the body",
+          "Organizing widget code so each piece has one job"
+        ],
+        "projects": [
+          "Dark mode toggle for a full page",
+          "FAQ accordion that opens one answer at a time"
+        ],
+        "practice": "Recreate two widgets from screenshots of real websites, structure first, then behavior"
+      },
+      "week_8": {
+        "title": "Project Week: The Interactive Quiz",
+        "topics": [
+          "Planning a small app: screens, states, and what happens on each click",
+          "Keeping score and moving between questions",
+          "Ending states: results screen and restart",
+          "Basic input validation: no empty answers",
+          "Polish: progress display and honest feedback messages",
+          "Reading your own code a week later: comments and naming revisited"
+        ],
+        "projects": [
+          "Interactive quiz app: questions, scoring, a results screen, and a restart button"
+        ],
+        "practice": "Extend the quiz with one feature of your own choosing, written up in three sentences",
+        "assessment": "Quiz app demo and code walkthrough: each student explains one function line by line"
+      }
+    }
+  },
+  "phase_2_data_and_network": {
+    "title": "PHASE 2: Data and the Network (Months 3-4, Weeks 9-16)",
+    "description": "Arrays, objects, and JSON give projects real data to work with. Then fetch opens the door to public APIs and pages built on live information.",
+    "month_3_arrays_objects_json": {
+      "title": "Month 3: Arrays, Objects, and JSON",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Arrays",
+        "topics": [
+          "Creating arrays and reading items by index",
+          "push, pop, shift, unshift: growing and shrinking lists",
+          "Looping over arrays with for and for...of",
+          "indexOf and includes: finding things",
+          "Arrays and the DOM: rendering a list from data",
+          "slice vs splice, and the bug everyone hits once"
+        ],
+        "projects": [
+          "To-do list, version one: add, display, and delete tasks backed by an array"
+        ],
+        "practice": "15 array exercises: totals, longest word, reversing, filtering by hand with loops"
+      },
+      "week_10": {
+        "title": "Array Methods That Do the Work",
+        "topics": [
+          "map: transforming every item",
+          "filter: keeping what matches",
+          "find: the first match",
+          "sort, and why sorting numbers needs a compare function",
+          "Chaining methods to answer questions in one line",
+          "When a plain loop is still the clearer choice"
+        ],
+        "projects": [
+          "Movie list page: search box and filter buttons that narrow a list of films live"
+        ],
+        "practice": "Rewrite five loop solutions from week 9 using map and filter, compare readability"
+      },
+      "week_11": {
+        "title": "Objects",
+        "topics": [
+          "Objects as labeled data: properties and values",
+          "Dot notation vs bracket notation",
+          "Objects inside arrays: the shape of most real data",
+          "Looping over object properties",
+          "Nesting: objects inside objects, read carefully",
+          "Designing the data shape before writing the code"
+        ],
+        "projects": [
+          "Contact cards: render a grid of profile cards from an array of person objects"
+        ],
+        "practice": "Model three real things as objects: a song, a match result, a school timetable entry"
+      },
+      "week_12": {
+        "title": "JSON and Saving Data",
+        "topics": [
+          "What JSON is and why every API speaks it",
+          "JSON.stringify and JSON.parse",
+          "localStorage: saving data in the browser",
+          "The save-load cycle: persisting an app's state across refreshes",
+          "What localStorage cannot do, and where databases come in later",
+          "Debugging storage with the dev tools Application panel"
+        ],
+        "projects": [
+          "To-do list, version two: tasks survive a page refresh using localStorage"
+        ],
+        "practice": "Add save and load to the movie list project; inspect the stored JSON by hand",
+        "assessment": "Data checkpoint: given a JSON file of real data, load it, answer five questions with code"
+      }
+    },
+    "month_4_fetch_and_apis": {
+      "title": "Month 4: Fetch and Public APIs",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "What an API Is",
+        "topics": [
+          "Requests and responses: how the browser asks servers for data",
+          "URLs as questions: endpoints and paths",
+          "Reading API documentation without fear",
+          "fetch and .then: your first request to a live joke API",
+          "Status codes: 200, 404, and what they mean",
+          "Looking at raw JSON responses in the browser"
+        ],
+        "projects": [
+          "Joke machine: a button that fetches and displays a fresh joke from a public API"
+        ],
+        "practice": "Explore two public APIs in the browser, write down what three endpoints return"
+      },
+      "week_14": {
+        "title": "async, await, and Things Going Wrong",
+        "topics": [
+          "async and await: the cleaner way to write fetch code",
+          "Loading states: telling the user something is happening",
+          "try and catch: handling failed requests honestly",
+          "The network tab: watching your requests in flight",
+          "Slow connections and what your app looks like on them",
+          "Never trusting a response blindly: checking before rendering"
+        ],
+        "projects": [
+          "Weather lookup page: type a city, see live conditions, with loading and error states"
+        ],
+        "practice": "Break your own weather app on purpose three ways, then make each failure show a decent message"
+      },
+      "week_15": {
+        "title": "Search Interfaces",
+        "topics": [
+          "Query parameters: sending the user's search to the API",
+          "Building a URL safely from input",
+          "Rendering result lists with the DOM skills from month 2",
+          "Empty results and misspelled searches: designing for them",
+          "Debouncing, gently introduced: not firing a request per keystroke",
+          "Caching a result you already fetched"
+        ],
+        "projects": [
+          "Dictionary app: search a word, show definitions, phonetics, and an example sentence from a free dictionary API"
+        ],
+        "practice": "Swap the dictionary API for a different public API of your choice, keep the same interface"
+      },
+      "week_16": {
+        "title": "Project Week: The Two-API Dashboard",
+        "topics": [
+          "Combining two data sources on one page",
+          "Structuring code when an app has parts: one file, clear sections, named functions",
+          "Handling two requests that can each fail independently",
+          "Layout for dashboards: cards and sections, with just enough CSS",
+          "A refresh button done right",
+          "Writing a short README that says what the app does"
+        ],
+        "projects": [
+          "Personal dashboard: two public APIs of the student's choice on one page, for example weather plus news headlines"
+        ],
+        "practice": "Trade dashboards with a classmate and file two improvement suggestions each",
+        "assessment": "Dashboard demo: live walkthrough plus questions on how each fetch works"
+      }
+    }
+  },
+  "phase_3_games_and_capstone": {
+    "title": "PHASE 3: Canvas Games and the Capstone (Months 5-6, Weeks 17-24)",
+    "description": "A month of real game programming on the HTML canvas, then a capstone month: scope, build, deploy, and present an interactive site of your own.",
+    "month_5_canvas_games": {
+      "title": "Month 5: Games on the Canvas",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Drawing and the Game Loop",
+        "topics": [
+          "The canvas element and its coordinate system",
+          "Drawing rectangles, circles, lines, and text",
+          "Color, stroke, and fill",
+          "requestAnimationFrame: the heartbeat of every game",
+          "Clearing and redrawing: why animation is just fast drawing",
+          "Moving a shape across the screen with velocity"
+        ],
+        "projects": [
+          "Bouncing ball: a ball that moves, hits the walls, and bounces, with adjustable speed"
+        ],
+        "practice": "Draw a scene of your choice in code, then animate one element of it"
+      },
+      "week_18": {
+        "title": "Player Control",
+        "topics": [
+          "Keyboard events: keydown, keyup, and tracking held keys",
+          "Moving a player smoothly, not one hop per press",
+          "Boundaries: keeping the player on screen",
+          "Separating update logic from drawing logic",
+          "Game state as an object: player, score, settings in one place",
+          "Frame-rate honesty: why movement uses small steps"
+        ],
+        "projects": [
+          "Paddle controller: a paddle that glides left and right under arrow-key control, ready for a game"
+        ],
+        "practice": "Add a second control scheme (WASD) and an on-screen speed display"
+      },
+      "week_19": {
+        "title": "Collisions, Score, and Lives",
+        "topics": [
+          "Rectangle collision detection, explained with pictures before code",
+          "Circle collision using distance",
+          "Spawning objects: falling items with random positions and speeds",
+          "Score, lives, and difficulty that ramps up",
+          "Removing off-screen objects so the game does not slow down",
+          "Game over conditions and detecting them cleanly"
+        ],
+        "projects": [
+          "Catcher game core: falling objects, a moving basket, score on catch, lives lost on miss"
+        ],
+        "practice": "Tune your game's difficulty curve and write down the three numbers you changed and why"
+      },
+      "week_20": {
+        "title": "Finish and Polish the Game",
+        "topics": [
+          "Start screen, pause, and game-over screen as states",
+          "Sound effects with the Audio API, used tastefully",
+          "High score saved with localStorage, from month 3",
+          "Small touches that read as polish: flash on hit, score pop",
+          "Playtesting: watching someone else play your game without helping them",
+          "Packaging the game on a page with instructions"
+        ],
+        "projects": [
+          "Finished catcher or breakout-style game with start, pause, game over, sound, and a saved high score"
+        ],
+        "practice": "Run two playtests with family members and fix the most confusing thing each one hit",
+        "assessment": "Game demo day: every student's game played live by a classmate, followed by a code Q&A"
+      }
+    },
+    "month_6_capstone": {
+      "title": "Month 6: The Capstone Site",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "Scoping the Capstone",
+        "topics": [
+          "Choosing a project you can finish: the honest feature list",
+          "Wireframing on paper before touching code",
+          "Picking your data source: localStorage, a public API, or both",
+          "Breaking the build into tasks with a simple checklist",
+          "Setting up the project folder and skeleton page",
+          "What done means: writing acceptance criteria in plain language"
+        ],
+        "projects": [
+          "Approved capstone plan: one page with wireframe, feature list, and task breakdown"
+        ],
+        "practice": "Build the static skeleton of your capstone: structure and placeholder content, no behavior yet"
+      },
+      "week_22": {
+        "title": "Build Sprint One: Core Features",
+        "topics": [
+          "Working feature by feature, smallest first",
+          "Instructor code review: reading feedback and applying it",
+          "Debugging your own project methodically: reproduce, isolate, fix",
+          "Keeping functions small while the project grows",
+          "When to delete a feature: scope trimming without shame",
+          "Committing progress notes at the end of each session"
+        ],
+        "projects": [
+          "Capstone core: the two or three features that make the project itself"
+        ],
+        "practice": "Daily 30-minute build sessions with a written note on what moved forward"
+      },
+      "week_23": {
+        "title": "Build Sprint Two: Data and Fit",
+        "topics": [
+          "Wiring in the data layer: saving, loading, or fetching live data",
+          "Making the layout survive a phone screen: the essential media query",
+          "Empty states and first-use experience",
+          "Error states for anything that can fail",
+          "A second code review round",
+          "Cutting the last risky feature if time demands it"
+        ],
+        "projects": [
+          "Feature-complete capstone: data working, layout presentable on desktop and phone"
+        ],
+        "practice": "Test your capstone on a phone and one other browser, log what broke"
+      },
+      "week_24": {
+        "title": "Ship and Present",
+        "topics": [
+          "Bug hunt: a structured final pass over every feature",
+          "Deploying to a free host so the site has a real URL",
+          "Writing a README: what it is, how it works, what you would add next",
+          "Presenting technical work: demo first, code second",
+          "Answering questions about your own code",
+          "Where to go from here: React, Node.js, or deeper JavaScript"
+        ],
+        "projects": [
+          "Deployed capstone site with README, presented live to the class and family"
+        ],
+        "practice": "Send your capstone link to three people who are not in the class",
+        "assessment": "Capstone presentation and code Q&A, plus course-completion certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Number guessing game with score and limited tries",
+      "Interactive quiz app with results screen and restart",
+      "To-do list that survives refresh with localStorage",
+      "Movie list page with live search and filters",
+      "Weather lookup page built on a live public API",
+      "Dictionary app with definitions and phonetics",
+      "Two-API personal dashboard of the student's choice",
+      "Canvas catcher game with score, lives, sound, and a saved high score",
+      "Deployed capstone: an interactive site scoped, built, and presented by the student"
+    ],
+    "total_projects_built": "12+ working projects, from console games to a deployed capstone site",
+    "skills_mastered": [
+      "JavaScript core: variables, conditionals, loops, and functions written with confidence",
+      "DOM and events: selecting, changing, and building page content that responds to users",
+      "Data handling: arrays, objects, JSON, and the array methods real codebases lean on",
+      "The network: fetch, async and await, loading and error states, and reading API docs",
+      "Canvas games: the game loop, keyboard control, collision detection, and game states",
+      "Working habits: debugging methodically, scoping projects, and presenting your own code"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, coding along with the instructor",
+      "practice": "2-3 hours of set exercises and project work between classes",
+      "review": "Homework reviewed with written feedback; stuck points reopened in the next class"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, backed by the student's own project portfolio"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so nobody stays stuck until the next session",
+      "progress_updates": "Regular progress notes to parents: what was covered, what was built, what needs practice"
+    }
+  },
+  "prerequisites": {
+    "coding_experience": "None. The course starts from the first line of code",
+    "html_knowledge": "Not required. The HTML and CSS each project needs is taught in class",
+    "equipment": "A computer with a modern browser and a stable internet connection",
+    "age": "13 to 18. Younger children are better served by our kids coding courses"
+  },
+  "who_is_this_for": {
+    "complete_beginners": "Teens who have never written code and want a language where results show up on screen immediately",
+    "scratch_graduates": "Students who outgrew block coding and want to type real programs that do real things",
+    "future_web_developers": "Teens aiming at websites and apps, for whom JavaScript is the non-negotiable first step",
+    "game_curious": "Students who want to build playable browser games, not just read about them",
+    "portfolio_builders": "Teens who want deployed, working projects to point to on school and college applications"
+  },
+  "career_paths_after_completion": [
+    "Front-end development track: our React and full-stack courses build directly on this foundation",
+    "Back-end JavaScript with Node.js once the language core is solid",
+    "School hackathons and coding competitions with a working project toolkit",
+    "Game development courses, carrying over the canvas and game-loop experience",
+    "A stronger base for computer science electives and board CS subjects"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Should my teen learn JavaScript or Python first?",
+      "answer": "Either works, and we teach both, so this is about the student, not the language. JavaScript wins for teens motivated by visible results: it runs in the browser, so every lesson changes something they can see, click, and share. Python reads a little more like English and suits students drawn to data, maths, or automation. If your teen talks about websites and games, start here; if they talk about AI and data, start with Python."
+    },
+    {
+      "question": "Does my teen need to know HTML before starting?",
+      "answer": "No. We teach the small amount of HTML and CSS each project needs, exactly when the project needs it. Students who want to go deep on page structure and design can take our HTML and CSS course before or alongside this one, but it is not a requirement."
+    },
+    {
+      "question": "What will my teen actually build in six months?",
+      "answer": "Twelve or more working projects, in rising order of ambition: console games, an interactive quiz, a to-do app that saves its data, a live weather page, a dictionary app, a two-API dashboard, a canvas game with score and sound, and finally a capstone site they scope and build themselves. The capstone is deployed to a real URL, so it exists outside the classroom."
+    },
+    {
+      "question": "How are the classes taught?",
+      "answer": "Live one-hour online classes, twice a week, with a real instructor and a small group. Students write and run code during class rather than watching someone else do it, and homework comes back with written feedback. Group batches are capped at 10, with mini-batch and 1-on-1 options for students who want closer attention."
+    },
+    {
+      "question": "Is 13 too young for real JavaScript?",
+      "answer": "No, the course is written for exactly this range. We pace the abstract parts, functions, scope, asynchronous code, with more examples and more practice than an adult course would, and every concept lands inside a project rather than a slide. For children under 13 we recommend our kids coding courses, which build the same thinking through friendlier tools first."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1."
+    },
+    {
+      "question": "Can we try a class before enrolling?",
+      "answer": "Yes, the first demo class is free and carries no obligation. Book it at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Parents are welcome to sit in and ask the teacher questions afterwards."
+    },
+    {
+      "question": "What software and computer are needed?",
+      "answer": "Everything used in the course is free: a modern browser like Chrome and the VS Code editor, which we help set up in the first class. Any reasonably recent laptop or desktop with a stable internet connection is enough; there is no heavy software to install."
+    },
+    {
+      "question": "What should a student take after this course?",
+      "answer": "The natural next steps are our React course for modern front-end work, Node.js for the server side, or our data structures and algorithms course for students eyeing competitive programming and technical interviews later. Many students also carry their canvas experience into deeper game development. The instructor gives each student a specific recommendation at the end based on what they enjoyed most."
+    }
+  ]
+}
