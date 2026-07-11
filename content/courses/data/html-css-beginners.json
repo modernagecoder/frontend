@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "slug": "html-css-course-for-beginners-build-real-websites",
+    "title": "HTML & CSS for Beginners: Build Real Websites from a Blank File",
+    "description": "HTML and CSS course for beginners: live online classes from your first tag to a published multi-page website, with flexbox, grid, and responsive design.",
+    "keywords": [
+      "html css course for beginners",
+      "learn html and css online",
+      "web design course for beginners",
+      "build a website from scratch course",
+      "html course for kids and adults",
+      "css flexbox and grid course",
+      "responsive web design classes",
+      "online web development classes india"
+    ],
+    "category": "Web Development",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "4 months (16 weeks)",
+    "level": "Absolute beginner, ages 10 to adult",
+    "commitment": "2 live classes/week + 2-3 hours practice",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "html-css-beginners.png"
+  },
+  "program_overview": {
+    "title": "HTML & CSS for Beginners",
+    "tagline": "Every website you have ever visited is built on these two languages. Four months from a blank file to your own published site.",
+    "description": "HTML and CSS are where the web actually starts. Frameworks come and go, but every page on the internet is, underneath, structure written in HTML and appearance written in CSS, and people who skip this layer pay for it later. This 4-month live course takes complete beginners from an empty folder to a multi-page personal website they design, build, test on a phone, and publish to a real URL.\n\nThe first two months build the two languages properly: semantic page structure, then selectors, the box model, and typography, so students understand why a page looks the way it does instead of copying snippets and hoping. The second half is where pages become layouts: flexbox and grid, responsive design that survives a phone screen, working forms, and a capstone month spent building and shipping the personal site. Classes are live and small, and every student leaves with a site that is genuinely theirs, structure, design decisions, and all.",
+    "what_makes_this_different": [
+      "Structure before decoration: semantic HTML is taught properly in month 1, the habit that separates clean sites from tag soup",
+      "Layout is taught as a system, not a bag of tricks: flexbox and grid each get real time, including when to use which",
+      "Students recreate real designs from screenshots, the same exercise working developers use to train their eye",
+      "Every page built in class is tested on a phone, because most visitors arrive on one",
+      "The capstone is published to a real URL on free hosting, not left on a laptop",
+      "Works for ages 10 to adult: batches are grouped by age so examples and pace fit the room"
+    ],
+    "learning_path": {
+      "phase_1": "The two languages: semantic HTML structure first, then CSS selectors, the box model, and typography, applied to real pages every week",
+      "phase_2": "Layout and shipping: flexbox, grid, responsive design, and forms, finishing with a multi-page personal site built, tested, and published"
+    },
+    "career_outcomes": [
+      "A published multi-page website designed and built entirely by the student",
+      "The structural foundation every web path requires, from JavaScript to React to WordPress",
+      "The ability to read and fix the HTML and CSS of any existing page",
+      "An eye for layout and spacing that carries into design tools and school projects alike"
+    ]
+  },
+  "phase_1_two_languages": {
+    "title": "PHASE 1: The Two Languages (Months 1-2, Weeks 1-8)",
+    "description": "HTML gives a page its structure and meaning; CSS gives it appearance. Both are learned by building real pages from the first week.",
+    "month_1_html_structure": {
+      "title": "Month 1: HTML, the Structure of Every Page",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "Your First Page",
+        "topics": [
+          "How a website actually works: files, browsers, and servers in plain language",
+          "Setting up VS Code and a tidy project folder",
+          "The skeleton of every page: doctype, head, and body",
+          "Headings, paragraphs, and line breaks",
+          "Ordered and unordered lists",
+          "Saving, refreshing, and reading your page the way the browser does"
+        ],
+        "projects": [
+          "A real first page: an introduction page with headings, paragraphs, and a list, opened in the browser by the end of class one"
+        ],
+        "practice": "Build a second page about a hobby using every element from class, plus one you look up yourself"
+      },
+      "week_2": {
+        "title": "Links, Images, and Paths",
+        "topics": [
+          "Anchor tags: linking to other sites and to your own pages",
+          "Images: src, alt text, and why alt text matters for real people",
+          "Relative vs absolute paths, and the broken-image bug everyone hits",
+          "Organizing a project: an images folder that stays tidy",
+          "Attributes in general: the pattern behind href, src, and the rest",
+          "Opening links in new tabs, used sparingly"
+        ],
+        "projects": [
+          "Two-page mini site: an about page and a favorites page, linked both ways, with images that actually load"
+        ],
+        "practice": "Fix a provided page with six broken links and images, then explain what was wrong with each"
+      },
+      "week_3": {
+        "title": "Semantic Structure",
+        "topics": [
+          "header, nav, main, section, article, and footer: naming the parts of a page",
+          "Why structure matters: screen readers, search engines, and future-you",
+          "div and span, and why they are the last resort, not the first",
+          "Nesting elements correctly and indenting so you can see the structure",
+          "Block vs inline elements, previewed before CSS makes it matter",
+          "Reading the structure of real websites with dev tools"
+        ],
+        "projects": [
+          "Restructure week 2's site with proper semantic tags, then sketch the structure of a favorite real website on paper"
+        ],
+        "practice": "Mark up a printed newspaper-style article into clean semantic HTML"
+      },
+      "week_4": {
+        "title": "Tables, Media, and Clean Code",
+        "topics": [
+          "Tables for actual tabular data: rows, headers, and captions",
+          "Embedding video and maps with iframes",
+          "Character entities and special symbols",
+          "Validating your HTML with the W3C validator and reading its complaints",
+          "Commenting and formatting habits that keep pages readable",
+          "A structure checklist to run before calling any page done"
+        ],
+        "projects": [
+          "A results or schedule page with a real data table plus an embedded video or map"
+        ],
+        "practice": "Run all your pages through the validator and clear every error",
+        "assessment": "Month 1 check: build a clean semantic page live from a hand-drawn sketch, validator-clean"
+      }
+    },
+    "month_2_css_fundamentals": {
+      "title": "Month 2: CSS, the Appearance Layer",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "First Styles",
+        "topics": [
+          "What CSS is and the three ways to add it, and why external stylesheets win",
+          "Selectors: element, class, and id, and when each is appropriate",
+          "Colors: names, hex, and rgb",
+          "The cascade in plain terms: what wins when rules collide",
+          "Grouping selectors and keeping a stylesheet organized",
+          "Dev tools as a CSS laboratory: change styles live, then copy them back"
+        ],
+        "projects": [
+          "Style the month 1 introduction page: a real color scheme, applied through classes, no inline styles"
+        ],
+        "practice": "Given an unstyled page and a screenshot, write the selectors and colors to match it"
+      },
+      "week_6": {
+        "title": "Typography",
+        "topics": [
+          "font-family and font stacks: what happens when a font is missing",
+          "Loading Google Fonts properly",
+          "Size, weight, and line-height: the three dials that change everything",
+          "Spacing text so it breathes: letter-spacing and text alignment",
+          "Units: px, em, rem, and percent, explained with examples",
+          "Pairing two fonts without the page looking like a ransom note"
+        ],
+        "projects": [
+          "Typography makeover: the same article styled two ways, one serious, one playful, with a note on the choices"
+        ],
+        "practice": "Recreate the text styling of a well-designed real site as closely as you can"
+      },
+      "week_7": {
+        "title": "The Box Model",
+        "topics": [
+          "Every element is a box: content, padding, border, margin",
+          "Reading the box model diagram in dev tools",
+          "box-sizing: border-box and why we set it everywhere",
+          "Backgrounds: colors, images, and gradients",
+          "Borders, rounded corners, and shadows used with restraint",
+          "Margin collapse, the classic surprise, demonstrated live"
+        ],
+        "projects": [
+          "Profile card: photo, name, description, and a button, spaced and shadowed like a real component"
+        ],
+        "practice": "Ten box-model puzzles: match the target spacing exactly using padding and margin"
+      },
+      "week_8": {
+        "title": "Display and Simple Layout",
+        "topics": [
+          "display: block, inline, and inline-block in practice",
+          "Width, height, and max-width: making content behave",
+          "Centering things: the honest tour of the classic problem",
+          "Building a content column that sits nicely on any screen",
+          "Hover states: the first taste of interactivity in pure CSS",
+          "Putting a full page together: structure from month 1, styles from month 2"
+        ],
+        "projects": [
+          "A styled article page: centered content column, styled headings, hover-styled links, and a card or two"
+        ],
+        "practice": "Recreate a provided card design from a screenshot, pixel-close",
+        "assessment": "Month 2 check: recreate a small component design from a screenshot live, explaining each CSS choice"
+      }
+    }
+  },
+  "phase_2_layout_and_shipping": {
+    "title": "PHASE 2: Layout, Responsiveness, and Shipping (Months 3-4, Weeks 9-16)",
+    "description": "Flexbox and grid turn styled pages into real layouts. Then responsive design, forms, and a capstone month: build, test, and publish a multi-page personal site.",
+    "month_3_real_layout": {
+      "title": "Month 3: Real Layout with Flexbox and Grid",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Flexbox Fundamentals",
+        "topics": [
+          "The flex container and its children: a mental model that sticks",
+          "Main axis and cross axis, drawn before coded",
+          "justify-content and align-items: the six arrangements you use daily",
+          "gap: spacing items without margin hacks",
+          "flex-direction: rows becoming columns",
+          "The navigation bar: flexbox's most famous job"
+        ],
+        "projects": [
+          "A proper navigation bar: logo left, links right, evenly spaced, with hover states"
+        ],
+        "practice": "Flexbox Froggy through the core levels, plus three layout snippets built from description alone"
+      },
+      "week_10": {
+        "title": "Flexbox in the Real World",
+        "topics": [
+          "flex-wrap: rows that break gracefully",
+          "flex-grow and flex-shrink: who gets the spare space",
+          "Building a card row that becomes a card grid",
+          "Aligning odd items: the last-item problem and clean solutions",
+          "Nested flex containers without confusion",
+          "Reading a real site's layout and spotting the flex containers"
+        ],
+        "projects": [
+          "Photo gallery row and a three-card feature section, both wrapping cleanly as the window narrows"
+        ],
+        "practice": "Recreate two sections of a real landing page using only flexbox"
+      },
+      "week_11": {
+        "title": "CSS Grid",
+        "topics": [
+          "grid-template-columns and rows: designing in two dimensions",
+          "The fr unit and repeat()",
+          "Placing items: spanning columns and rows",
+          "grid-template-areas: layouts you can read like a map",
+          "Grid vs flexbox: a working rule for choosing",
+          "Gaps, alignment, and auto-fit for self-arranging grids"
+        ],
+        "projects": [
+          "Magazine-style layout: a featured story spanning two columns above a grid of smaller pieces"
+        ],
+        "practice": "Build the same page layout twice, once in flexbox, once in grid, and write three sentences on which felt right"
+      },
+      "week_12": {
+        "title": "Responsive Design",
+        "topics": [
+          "Why mobile-first is the sane default",
+          "Media queries: syntax, breakpoints, and where breakpoints actually come from",
+          "The viewport meta tag, the line everyone forgets",
+          "Flexible images: max-width 100% and object-fit",
+          "Testing with the dev tools device toolbar and on a real phone",
+          "Responsive navigation: what stacks, what hides, what stays"
+        ],
+        "projects": [
+          "Make the month's layouts fully responsive: gallery, cards, and magazine layout all working from phone to desktop"
+        ],
+        "practice": "Audit two favorite websites at three screen widths and note what changes at each",
+        "assessment": "Layout check: build a responsive two-breakpoint layout live from a wireframe"
+      }
+    },
+    "month_4_forms_polish_capstone": {
+      "title": "Month 4: Forms, Polish, and the Capstone Site",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Forms",
+        "topics": [
+          "form, input, label, and why every input needs its label",
+          "Input types: text, email, number, date, and what the browser gives you free",
+          "Textareas, selects, checkboxes, and radio buttons",
+          "Styling form controls so they match the site",
+          "Built-in validation: required, min, max, and helpful error states",
+          "What happens on submit, honestly: where the backend would take over"
+        ],
+        "projects": [
+          "A styled contact form: name, email, subject dropdown, message, and a submit button that validates"
+        ],
+        "practice": "Build a sign-up form for an imaginary club, labels and validation included"
+      },
+      "week_14": {
+        "title": "Polish and Performance",
+        "topics": [
+          "Transitions: hover effects that feel smooth instead of sudden",
+          "Simple keyframe animations, used with restraint",
+          "Favicons and page titles: the details visitors notice",
+          "Image weight: resizing and compressing before uploading",
+          "A consistent spacing scale: the quiet secret of pages that look professional",
+          "Accessibility pass: contrast, alt text, and keyboard-reachable links"
+        ],
+        "projects": [
+          "Polish pass on your best existing page: transitions, favicon, compressed images, and an accessibility check"
+        ],
+        "practice": "Run a contrast checker on your color scheme and fix anything that fails"
+      },
+      "week_15": {
+        "title": "Capstone Build",
+        "topics": [
+          "Scoping the personal site: home, about, gallery or projects, and contact",
+          "A shared header and footer across pages, kept consistent by hand",
+          "Wireframing each page before building it",
+          "Reusing your components: cards, navigation, and forms from past weeks",
+          "Working from a checklist: structure, styles, responsive, polish",
+          "Mid-build review with the instructor and a course correction if needed"
+        ],
+        "projects": [
+          "The capstone: a multi-page personal site, four pages, shared navigation, responsive throughout"
+        ],
+        "practice": "Complete two pages between classes to keep the build on schedule"
+      },
+      "week_16": {
+        "title": "Test, Publish, Present",
+        "topics": [
+          "Cross-device testing: phone, tablet width, and a second browser",
+          "The pre-launch checklist: links, images, validator, spelling",
+          "Publishing to free hosting so the site has a real address",
+          "Sharing the link and what to say when you do",
+          "Presenting design decisions: why it looks the way it looks",
+          "Where this leads: JavaScript to make pages interactive"
+        ],
+        "projects": [
+          "The published site: live at a real URL, presented to the class with a walkthrough of one design decision per page"
+        ],
+        "practice": "Send the live link to three people and collect one piece of feedback from each",
+        "assessment": "Capstone presentation: live site walkthrough plus questions on structure and CSS choices"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Two-page mini site with working links and images",
+      "Semantic restructure of a real article into clean HTML",
+      "Typography makeover: one article styled two different ways",
+      "Profile card component, spaced and shadowed like a real design",
+      "Navigation bar with logo, links, and hover states",
+      "Responsive photo gallery and three-card feature section",
+      "Magazine-style CSS grid layout",
+      "Styled contact form with built-in validation",
+      "The capstone: a published multi-page personal website"
+    ],
+    "total_projects_built": "10+ real pages and components, ending with a published multi-page website",
+    "skills_mastered": [
+      "Semantic HTML: structuring any page correctly, from articles to forms to tables",
+      "CSS fundamentals: selectors, the cascade, the box model, and typography that reads well",
+      "Layout: flexbox and grid used deliberately, with a working rule for choosing between them",
+      "Responsive design: mobile-first pages that hold up from phone to desktop",
+      "Shipping: validating, testing across devices, compressing images, and publishing to free hosting",
+      "Design judgment: spacing, contrast, and restraint, trained by recreating real designs"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, building pages along with the instructor",
+      "practice": "2-3 hours of building and recreation exercises between classes",
+      "review": "Every submitted page reviewed with written feedback; recurring issues reopened in class"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, alongside a published website that speaks for itself"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes for stuck layouts and broken pages",
+      "progress_updates": "Regular progress notes to parents of younger students; adults get direct feedback on every build"
+    }
+  },
+  "prerequisites": {
+    "coding_experience": "None. This is the true starting point of web development",
+    "computer_skills": "Comfortable typing and managing files and folders",
+    "equipment": "A computer with a modern browser and a stable internet connection",
+    "age": "10 to adult. Batches are grouped by age so pace and examples fit the room"
+  },
+  "who_is_this_for": {
+    "absolute_beginners": "Anyone starting web development from zero who wants to build the real foundation, not skip it",
+    "kids_and_teens": "Students aged 10+ who want to make actual websites they can show, not just follow tutorials",
+    "adults_switching_tracks": "Working adults testing whether web development suits them, with a real published site as the outcome",
+    "small_business_owners": "People who want to understand, fix, and eventually build their own web presence",
+    "future_javascript_students": "Learners who plan to take JavaScript next and want their HTML and CSS solid first"
+  },
+  "career_paths_after_completion": [
+    "JavaScript next: our JavaScript courses turn these static pages into interactive apps",
+    "The full front-end track: React and modern tooling once both layers are solid",
+    "Freelance-style small projects: simple sites for family, clubs, and local groups",
+    "Design-side paths: UI design tools make far more sense once you know what CSS can do",
+    "WordPress and site-builder work with the rare ability to fix what the builder gets wrong"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Is HTML a programming language?",
+      "answer": "Strictly speaking, no: HTML is a markup language that describes structure, and CSS describes appearance; neither has loops or logic. That does not make them lesser skills. Every website ever made rests on them, layout in CSS is genuine engineering thinking, and developers who never learned this layer properly struggle with it for years. This course is the foundation programming languages get built on top of."
+    },
+    {
+      "question": "What age is this course right for?",
+      "answer": "The course runs from age 10 up to adults, and batches are grouped by age, so a 10-year-old is not sharing a class with a 40-year-old career switcher. The material is the same because HTML and CSS are the same; the pace, examples, and project themes are adjusted to the room. For children under 10 we recommend our kids courses, which build the same instincts through friendlier tools."
+    },
+    {
+      "question": "Do I need this before learning JavaScript?",
+      "answer": "It helps a great deal. JavaScript's whole job in the browser is manipulating HTML and CSS, so students who know both layers learn it noticeably faster and debug with far less pain. Our JavaScript course does teach the markup each project needs along the way, so either order works, but HTML and CSS first is the smoother road."
+    },
+    {
+      "question": "What will I have built by the end?",
+      "answer": "Ten or more real pages and components: a semantic article page, styled cards, a navigation bar, a responsive photo gallery, a magazine-style grid layout, and a working contact form. The final month is a capstone: a multi-page personal website, responsive from phone to desktop, published to a real URL you can send to anyone."
+    },
+    {
+      "question": "How are the classes run?",
+      "answer": "Live one-hour online classes, twice a week, with a real instructor and at most 10 students in a group batch. Students build during class, not just watch, and everything submitted between classes comes back with written feedback. Mini-batch (3 to 4 students) and 1-on-1 options are available for learners who want closer attention."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes, with 2 live classes weekly. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $40 per month for group classes and $100 per month for 1-on-1. Over the 4-month course, group classes total under ₹6,000."
+    },
+    {
+      "question": "Is there a free trial class?",
+      "answer": "Yes, the first demo class is free with no commitment. Book at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. It is a real class, not a sales pitch: you or your child will build something small in it."
+    },
+    {
+      "question": "Do I need to buy any software?",
+      "answer": "No. Everything used in the course is free: the VS Code editor, a modern browser like Chrome, Google Fonts, and free hosting for publishing the capstone. Any reasonably recent laptop or desktop is enough; HTML and CSS are the lightest possible workload for a computer."
+    },
+    {
+      "question": "Can this course lead to real work?",
+      "answer": "On its own, HTML and CSS get you to simple static sites, which is genuinely enough for personal pages, clubs, and small local projects. For paid front-end work you will also want JavaScript, which is exactly the next course in our track. What this course guarantees is the layer beneath all of that, learned properly instead of patched together later."
+    }
+  ]
+}
