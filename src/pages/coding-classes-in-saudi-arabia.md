@@ -1,11 +1,11 @@
 ---
-title: "Coding Classes in Saudi Arabia | Live Online Python & AI for Kids to Adults"
-description: "Live online coding classes in Saudi Arabia for kids, teens and professionals. Small batches of 5 to 8, real projects, Python and AI tracks, evening AST slots. Free demo class."
+title: "Coding Classes in Saudi Arabia | Python & AI, Kids to Adults"
+description: "Live online coding classes in Saudi Arabia for kids, teens and professionals. Batches of 5 to 8, Python and AI tracks, evening AST slots. Free demo class."
 canonical: https://learn.modernagecoders.com/coding-classes-in-saudi-arabia
 keywords: ["coding classes in saudi arabia", "online coding classes saudi arabia", "coding classes riyadh", "coding classes jeddah", "coding classes dammam", "python classes saudi arabia", "ai classes saudi arabia", "coding for kids saudi arabia", "coding classes for teens ksa", "learn python riyadh", "online coding classes for kids ksa"]
 source: src/pages/coding-classes-in-saudi-arabia.html
 ---
-> Live online coding classes in Saudi Arabia for kids, teens and professionals. Small batches of 5 to 8, real projects, Python and AI tracks, evening AST slots. Free demo class.
+> Live online coding classes in Saudi Arabia for kids, teens and professionals. Batches of 5 to 8, Python and AI tracks, evening AST slots. Free demo class.
 
 Courses
 
