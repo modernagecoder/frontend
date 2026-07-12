@@ -1,0 +1,805 @@
+{
+  "meta": {
+    "slug": "a-level-maths-course-pure-mechanics-statistics",
+    "title": "A-Level Maths: Pure, Mechanics and Statistics for Edexcel, AQA and OCR",
+    "description": "A-Level Maths course online: live small-batch classes covering Pure, Mechanics and Statistics for Edexcel, AQA and OCR, from AS foundations to timed past papers.",
+    "keywords": [
+      "a level maths course online",
+      "a level maths tuition online",
+      "edexcel a level maths help",
+      "aqa a level maths tutor",
+      "as level maths classes online",
+      "a level pure maths course",
+      "a level mechanics and statistics help",
+      "a level maths past paper practice",
+      "online a level maths tutor uk"
+    ],
+    "category": "Exam Board Mathematics",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "18 months (72 weeks)",
+    "level": "A-Level students (Years 12-13 or equivalent), Edexcel, AQA and OCR",
+    "commitment": "2 live classes/week + 3-4 hours practice, rising to full timed papers in the final phase",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "a-level-maths.png"
+  },
+  "program_overview": {
+    "title": "A-Level Maths: Pure, Mechanics and Statistics",
+    "tagline": "Two years of the hardest school maths there is, taught in order, at a pace that holds, with past papers at the end instead of panic.",
+    "description": "A-Level Maths is a linear qualification: every exam comes at the end, and the content is set nationally by the Department for Education, so Edexcel, AQA and OCR students all study the same mathematics. What differs is how each board arranges its three two-hour papers, and we adjust practice to your board when the paper phase arrives. This 18-month live course follows the natural AS then A2 structure. The first nine months cover AS content: the pure core of algebra, coordinate geometry, trigonometry, exponentials and logarithms, first calculus and vectors, followed by AS statistics with the board's large data set and AS mechanics with kinematics and Newton's laws. Months 10 to 16 cover the A2 material where most grades are won and lost: functions, sequences and series, the full trigonometric toolkit, parametric equations, advanced differentiation and integration, numerical methods, the normal distribution, moments, friction and projectiles. The final two months are given entirely to structured revision and past papers under real timing, marked against official schemes.\n\nClasses are live and small, so the teacher sees your working, not just your answers. Method marks decide grades at A-Level, and we treat how a solution is written as seriously as whether it is right.",
+    "what_makes_this_different": [
+      "Built around the real qualification: linear assessment, three two-hour papers, roughly two thirds pure and one third applied, with your board's paper structure driving the practice phase",
+      "AS content is finished and consolidated with an AS-standard mock before A2 begins, so the second year is built on checked ground rather than assumed ground",
+      "The large data set is taught from the first statistics week, because boards write exam questions that assume familiarity with it, and students who meet it in the exam hall lose easy marks",
+      "Calculator technique is taught explicitly: statistical distributions, iteration and equation solving on the calculator are part of the syllabus, not an afterthought",
+      "Two full months of past papers under real 2-hour timing, marked against official mark schemes, with an error clinic after every paper",
+      "Method-mark discipline throughout: solutions are written the way examiners award marks, with working shown at every step"
+    ],
+    "learning_path": {
+      "phase_1": "AS Pure: algebra, quadratics, coordinate geometry, binomial expansion, trigonometry, exponentials and logarithms, differentiation, integration and 2D vectors",
+      "phase_2": "AS Applied: sampling and the large data set, probability, the binomial distribution and hypothesis testing, then kinematics, variable acceleration and Newton's laws, closed by an AS-standard mock",
+      "phase_3": "A2 Pure: proof by contradiction, functions, partial fractions, sequences and series, radians and the full trig toolkit, parametrics, advanced calculus, numerical methods and 3D vectors",
+      "phase_4": "A2 Applied: conditional probability, the normal distribution and hypothesis tests for means and correlation, then resolving forces, friction, moments and projectiles",
+      "phase_5": "Revision and the past-paper cycle: structured revision by strand, then full papers under timing with marked review, matched to your board's paper structure"
+    },
+    "career_outcomes": [
+      "The full A-Level Maths content covered with two months to spare for revision and papers",
+      "Fluency with the question styles of your own board, built on official past papers and mark schemes",
+      "Solution-writing habits that earn method marks: working shown, notation correct, conclusions stated in context",
+      "A marked mock series and error log, so you walk into the exams knowing your weak spots have been closed",
+      "A genuinely solid base for university courses that lean on calculus and statistics"
+    ]
+  },
+  "phase_1_as_pure": {
+    "title": "PHASE 1: AS Pure Mathematics (Months 1-5, Weeks 1-20)",
+    "description": "The pure core that every later topic stands on: algebra done properly, coordinate geometry, trigonometry, exponentials and logarithms, and the first calculus. Roughly two thirds of the A-Level is pure mathematics, and it starts here.",
+    "month_1_algebra_foundations": {
+      "title": "Month 1: Algebra Foundations",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Indices, Surds and Quadratics",
+        "topics": [
+          "Diagnostic paper on GCSE essentials: algebra, trigonometry, graphs",
+          "Laws of indices including negative and fractional powers",
+          "Surds: simplifying, expanding and rationalising denominators",
+          "Quadratic graphs, completing the square and the turning point",
+          "Solving quadratics by factorising, formula and completing the square",
+          "The discriminant and what it says about roots"
+        ],
+        "projects": [
+          "Question bank entry: 15 solved exam-style questions on indices, surds and quadratics, written to full method standard"
+        ],
+        "practice": "30 mixed problems across indices, surds and quadratics, with every quadratic solved by the method the question rewards"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Simultaneous Equations, Inequalities and First Proof",
+        "topics": [
+          "Simultaneous equations: linear pairs and linear with quadratic",
+          "Where a line meets a curve, algebraically and in a sketch",
+          "Linear and quadratic inequalities with set notation",
+          "Representing inequality regions graphically",
+          "Proof by deduction and by exhaustion",
+          "Disproof by counter example, with the write-up done properly"
+        ],
+        "projects": [
+          "Proof portfolio opened: four short proofs written out to exam standard, checked line by line"
+        ],
+        "practice": "20 simultaneous and inequality problems plus 6 proof questions, working shown in full every time",
+        "assessment": "Month 1 test: a 40-minute paper on all algebra so far, marked with method marks the way an examiner would"
+      }
+    },
+    "month_2_polynomials_and_coordinate_geometry": {
+      "title": "Month 2: Polynomials, Graphs and Coordinate Geometry",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Polynomials and Curve Sketching",
+        "topics": [
+          "Algebraic division and the factor theorem",
+          "Factorising and sketching cubics and quartics",
+          "Reciprocal graphs and their asymptotes",
+          "Graph transformations: translations and stretches, alone and read from equations",
+          "Points of intersection between curves",
+          "Interpreting sketches: what a question actually wants from a graph"
+        ],
+        "projects": [
+          "Sketching sheet: 10 polynomial and reciprocal curves sketched with intercepts, turning behaviour and asymptotes labelled"
+        ],
+        "practice": "25 problems on the factor theorem, division and transformations, each sketch drawn before any algebra is checked"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Straight Lines and Circles",
+        "topics": [
+          "Gradient, midpoint and distance between points",
+          "Equations of straight lines in all three forms",
+          "Parallel and perpendicular lines, with proofs of perpendicularity",
+          "The equation of a circle, centre and radius by completing the square",
+          "Tangents, chords and the perpendicular from the centre",
+          "Modelling with straight lines: interpreting gradient and intercept in context"
+        ],
+        "projects": [
+          "Question bank entry: 12 solved coordinate geometry questions, including one full circle-tangent problem"
+        ],
+        "practice": "22 line and circle problems with a labelled sketch for each, plus 2 modelling questions answered in context",
+        "assessment": "Month 2 test: a 40-minute paper on polynomials and coordinate geometry with one unstructured multi-step question"
+      }
+    },
+    "month_3_binomial_and_trigonometry": {
+      "title": "Month 3: Binomial Expansion and Trigonometry",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: The Binomial Expansion",
+        "topics": [
+          "Factorial notation and nCr, on paper and on the calculator",
+          "Pascal's triangle and where the coefficients come from",
+          "Expanding (a + bx)^n for positive integer n",
+          "Finding a specific coefficient without expanding everything",
+          "Using expansions for numerical approximations",
+          "The sign and power slips that cost marks, and how to catch them"
+        ],
+        "projects": [
+          "Question bank entry: 10 solved binomial questions, including two find-the-coefficient problems worked two ways"
+        ],
+        "practice": "20 binomial problems, each coefficient answer checked by an independent second method"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Trigonometry: Ratios, Identities and Equations",
+        "topics": [
+          "Sine and cosine rules and the area of a triangle",
+          "Graphs of sin, cos and tan, and exact values worth memorising",
+          "The identities tan x = sin x / cos x and sin squared plus cos squared equals 1",
+          "Solving trig equations in degrees over a given interval",
+          "Quadratics in sin, cos or tan",
+          "Finding all solutions: the CAST diagram and graph methods compared"
+        ],
+        "projects": [
+          "Solution-count drill: 12 trig equations where the number of solutions in the interval is predicted before solving"
+        ],
+        "practice": "28 trig problems from triangle work to multi-step equations, every lost solution traced back to its cause",
+        "assessment": "Month 3 test: a 45-minute paper on binomial expansion and trigonometry, marked for method as well as answers"
+      }
+    },
+    "month_4_exponentials_logs_and_first_calculus": {
+      "title": "Month 4: Exponentials, Logarithms and First Calculus",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: Exponentials and Logarithms",
+        "topics": [
+          "The graphs of a^x and e^x, and why e matters",
+          "Logarithms as the inverse of exponentials, and the log laws",
+          "Solving equations of the form a^x = b",
+          "Natural logarithms and equations with e",
+          "Exponential modelling: growth, decay and interpreting the constants",
+          "Reducing relationships to linear form with logs, and reading data plots"
+        ],
+        "projects": [
+          "Modelling write-up: one exponential growth or decay problem solved and interpreted in three or four written sentences"
+        ],
+        "practice": "24 log and exponential problems including 4 modelling questions where the interpretation carries the marks"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Differentiation from First Principles",
+        "topics": [
+          "The gradient of a curve and differentiation from first principles",
+          "Differentiating powers of x, sums and constants",
+          "Tangents and normals to a curve at a point",
+          "Increasing and decreasing functions",
+          "Stationary points and their nature, using the second derivative",
+          "Simple optimisation: setting up and solving maximum and minimum problems"
+        ],
+        "projects": [
+          "First-principles proof: the derivative of x squared and x cubed derived and written out to exam standard"
+        ],
+        "practice": "26 differentiation problems ending with 4 optimisation questions set up from scratch",
+        "assessment": "Month 4 test: a 45-minute paper on logs, exponentials and differentiation with one modelling question"
+      }
+    },
+    "month_5_integration_and_vectors": {
+      "title": "Month 5: Integration, Vectors and the AS Pure Finish",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: Integration",
+        "topics": [
+          "Integration as the reverse of differentiation",
+          "Indefinite integrals of powers of x and the constant of integration",
+          "Finding the constant from a point on the curve",
+          "Definite integrals and what the answer means",
+          "Areas under curves, including regions below the axis",
+          "Areas between a curve and a straight line"
+        ],
+        "projects": [
+          "Area problem set: 8 shaded-region questions where the region is sketched and decomposed before any integration"
+        ],
+        "practice": "24 integration problems, definite integrals checked for sign sense against the sketch every time"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Vectors in Two Dimensions",
+        "topics": [
+          "Vector notation, magnitude and direction",
+          "Adding vectors and multiplying by scalars",
+          "Position vectors and the vector between two points",
+          "Distance between points using vectors",
+          "Geometric problems: parallelograms, ratios and collinearity",
+          "Where vectors reappear: a preview of their role in mechanics"
+        ],
+        "projects": [
+          "Question bank entry: 10 solved vector problems including two geometric proofs"
+        ],
+        "practice": "20 vector problems with a diagram drawn for each, plus a mixed AS Pure warm-down set of 15 questions",
+        "assessment": "Phase 1 milestone: a 90-minute AS Pure paper covering all five months, marked against an official-style scheme"
+      }
+    }
+  },
+  "phase_2_as_applied": {
+    "title": "PHASE 2: AS Statistics and Mechanics (Months 6-9, Weeks 21-36)",
+    "description": "The applied third of the qualification begins: statistics with the board's large data set, probability and hypothesis testing, then mechanics from kinematics to Newton's laws. The phase closes with a full AS-standard mock.",
+    "month_6_statistics_and_data": {
+      "title": "Month 6: Sampling, Data and the Large Data Set",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Sampling and Data Presentation",
+        "topics": [
+          "Populations, samples and why sampling method matters",
+          "Simple random, systematic, stratified, quota and opportunity sampling",
+          "The large data set: what your board pre-releases and how exams use it, with Edexcel's weather-station data as the worked example",
+          "Histograms, frequency polygons and cumulative frequency diagrams",
+          "Box plots and comparing distributions",
+          "Outliers: the standard rules and when to clean data"
+        ],
+        "projects": [
+          "Large data set field notes: a one-page profile of your board's data set in your own words, variables, units and quirks included"
+        ],
+        "practice": "18 data presentation problems plus a guided exploration session inside the large data set itself"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Location, Spread and Interpretation",
+        "topics": [
+          "Mean, median and mode from lists and grouped tables",
+          "Quartiles, percentiles and interpolation",
+          "Variance and standard deviation, by formula and by calculator",
+          "Coding data and what it does to mean and spread",
+          "Scatter diagrams, correlation and interpreting a regression line in context",
+          "Writing statistical conclusions in sentences, not just numbers"
+        ],
+        "projects": [
+          "Comparison write-up: two groups from the large data set compared on location and spread, in four marked sentences"
+        ],
+        "practice": "20 location and spread problems, calculator statistics mode drilled until it is faster than the formula",
+        "assessment": "Month 6 test: a 40-minute statistics paper with one large-data-set question in board style"
+      }
+    },
+    "month_7_probability_to_hypothesis_testing": {
+      "title": "Month 7: Probability, the Binomial and Hypothesis Testing",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: Probability and the Binomial Distribution",
+        "topics": [
+          "Venn diagrams and tree diagrams done cleanly",
+          "Mutually exclusive and independent events, and how to test for independence",
+          "Discrete random variables and probability distributions",
+          "The conditions for a binomial model, checked in words",
+          "Calculating binomial probabilities on the calculator",
+          "Cumulative binomial probabilities and careful inequality reading"
+        ],
+        "projects": [
+          "Model-check drill: 8 scenarios judged binomial or not, with the failing condition named each time"
+        ],
+        "practice": "24 probability and binomial problems, inequality direction stated in words before the calculator is touched"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: Hypothesis Testing with the Binomial",
+        "topics": [
+          "Null and alternative hypotheses, written correctly",
+          "One-tailed and two-tailed tests and significance levels",
+          "Critical regions and actual significance level",
+          "Carrying out a test and stating the conclusion in context",
+          "The wording that earns the final mark, and the wording that loses it",
+          "Common traps: wrong tail, wrong inequality, conclusions that overclaim"
+        ],
+        "projects": [
+          "Question bank entry: 8 full hypothesis tests written to exam standard, conclusions in context every time"
+        ],
+        "practice": "14 complete hypothesis tests, each conclusion checked against a mark-scheme model sentence",
+        "assessment": "Month 7 test: a 45-minute paper from probability through hypothesis testing"
+      }
+    },
+    "month_8_mechanics_motion": {
+      "title": "Month 8: Mechanics: Modelling and Motion",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: Modelling and Kinematics",
+        "topics": [
+          "SI units and the standard modelling assumptions: particle, light string, smooth surface",
+          "Displacement, velocity and acceleration as vectors",
+          "Displacement-time and velocity-time graphs, and what areas and gradients mean",
+          "The suvat equations: where they come from and when they apply",
+          "Vertical motion under gravity",
+          "Choosing a positive direction and sticking to it"
+        ],
+        "projects": [
+          "Graph story set: 6 motion graphs translated into written descriptions of the trip and back again"
+        ],
+        "practice": "22 kinematics problems, the suvat quantities listed and the equation chosen before any algebra"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: Variable Acceleration",
+        "topics": [
+          "Why suvat fails when acceleration changes",
+          "Velocity and acceleration by differentiation",
+          "Displacement by integration, with limits or constants",
+          "Maximum velocity and turning points of motion",
+          "Sketching motion from its equations",
+          "Mixed problems that decide between suvat and calculus"
+        ],
+        "projects": [
+          "Decision drill: 10 motion problems sorted into suvat or calculus, with the deciding clue underlined"
+        ],
+        "practice": "18 variable acceleration problems plus a mixed set of 10 where the method is not announced",
+        "assessment": "Month 8 test: a 40-minute kinematics paper mixing graphs, suvat and calculus methods"
+      }
+    },
+    "month_9_forces_and_as_checkpoint": {
+      "title": "Month 9: Forces, Newton's Laws and the AS Checkpoint",
+      "weeks": "Weeks 33-36",
+      "week_33_34": {
+        "title": "Weeks 33-34: Forces and Newton's Laws",
+        "topics": [
+          "Force diagrams drawn before anything else",
+          "Newton's laws and F = ma along a line",
+          "Weight, tension, thrust and normal reaction",
+          "Connected particles: cars and trailers, lifts and scale pans",
+          "Pulleys: the standard setups and their equations",
+          "Forces written as vectors in i and j form"
+        ],
+        "projects": [
+          "Question bank entry: 10 solved force problems, every one opened with a complete labelled diagram"
+        ],
+        "practice": "20 forces problems, the diagram marked before the algebra is even read"
+      },
+      "week_35_36": {
+        "title": "Weeks 35-36: AS Consolidation and Mock",
+        "topics": [
+          "Structured revision across all AS pure and applied content",
+          "Mixed problem sets that do not announce their topic",
+          "A full AS-standard mock under real timing",
+          "Marking workshop against an official-style scheme",
+          "Error clinic: every miss classified as concept, method or accuracy",
+          "The A2 map: what changes in year two and what carries over"
+        ],
+        "projects": [
+          "Personal error log formalised: every mock miss classified and matched to a drill"
+        ],
+        "practice": "Redo every mock miss untimed with full working, then one targeted drill set on your weakest AS topic",
+        "assessment": "Phase 2 milestone: full AS-standard mock, marked and reviewed one to one"
+      }
+    }
+  },
+  "phase_3_a2_pure": {
+    "title": "PHASE 3: A2 Pure Mathematics (Months 10-14, Weeks 37-56)",
+    "description": "The second-year pure content where most A-Level grades are decided: functions, series, the full trig toolkit, parametrics, advanced calculus, numerical methods and 3D vectors.",
+    "month_10_algebra_grows_up": {
+      "title": "Month 10: Proof, Fractions and Functions",
+      "weeks": "Weeks 37-40",
+      "week_37_38": {
+        "title": "Weeks 37-38: Proof by Contradiction and Partial Fractions",
+        "topics": [
+          "Proof by contradiction: the irrationality of root 2 and the infinitude of primes",
+          "Simplifying algebraic fractions",
+          "Algebraic division revisited with remainders",
+          "Partial fractions with distinct linear factors",
+          "Partial fractions with a repeated factor",
+          "Where partial fractions pay off later: series and integration previewed"
+        ],
+        "projects": [
+          "Proof portfolio extended: both classic contradiction proofs written from memory to exam standard"
+        ],
+        "practice": "18 partial fraction decompositions checked by recombining, plus 4 proof questions"
+      },
+      "week_39_40": {
+        "title": "Weeks 39-40: Functions and the Modulus",
+        "topics": [
+          "Mappings, domain and range stated precisely",
+          "Composite functions and order of application",
+          "Inverse functions, their graphs and the line y = x",
+          "The modulus function: graphs of |f(x)| and f(|x|)",
+          "Solving modulus equations and inequalities",
+          "Combined transformations applied in the right order"
+        ],
+        "projects": [
+          "Question bank entry: 12 solved function questions including two full modulus problems with sketches"
+        ],
+        "practice": "24 function problems, domain and range written for every inverse found",
+        "assessment": "Month 10 test: a 45-minute paper on proof, partial fractions and functions"
+      }
+    },
+    "month_11_series_and_radians": {
+      "title": "Month 11: Sequences, Series and Radian Trigonometry",
+      "weeks": "Weeks 41-44",
+      "week_41_42": {
+        "title": "Weeks 41-42: Sequences and Series",
+        "topics": [
+          "Arithmetic sequences and series, and the standard formulae",
+          "Geometric sequences and series",
+          "Sum to infinity and the convergence condition",
+          "Sigma notation read and written fluently",
+          "Recurrence relations: increasing, decreasing and periodic sequences",
+          "Modelling with series: savings, loans and depreciation"
+        ],
+        "projects": [
+          "Modelling write-up: one savings or loan problem solved with a series and explained in plain sentences"
+        ],
+        "practice": "26 series problems including 4 modelling questions and 4 sigma notation translations"
+      },
+      "week_43_44": {
+        "title": "Weeks 43-44: Radians, Sectors and New Trig Functions",
+        "topics": [
+          "Radian measure and exact values in radians",
+          "Arc length and sector area",
+          "Solving trig equations in radians",
+          "Small angle approximations and where they come from",
+          "Secant, cosecant and cotangent: graphs and identities",
+          "Inverse trig functions and their restricted domains"
+        ],
+        "projects": [
+          "Question bank entry: 10 solved radian and sector problems including one segment area question"
+        ],
+        "practice": "22 problems across radians, sectors and reciprocal trig, calculator mode checked before every set",
+        "assessment": "Month 11 test: a 45-minute paper on series and radian trigonometry"
+      }
+    },
+    "month_12_trig_toolkit_and_parametrics": {
+      "title": "Month 12: The Full Trig Toolkit and Parametric Equations",
+      "weeks": "Weeks 45-48",
+      "week_45_46": {
+        "title": "Weeks 45-46: Compound Angles and the R Form",
+        "topics": [
+          "Compound angle formulae and where they come from",
+          "Double angle formulae and their rearrangements",
+          "Writing a sin x + b cos x in R form",
+          "Using the R form for maxima, minima and equation solving",
+          "Proving trig identities with a clear strategy",
+          "Choosing the right identity: a decision routine for messy equations"
+        ],
+        "projects": [
+          "Identity toolkit card: every identity on one page with a note on when each earns its keep"
+        ],
+        "practice": "24 identity and equation problems, each proof annotated with the identity used at every step"
+      },
+      "week_47_48": {
+        "title": "Weeks 47-48: Parametric Equations",
+        "topics": [
+          "Curves defined parametrically and why anyone bothers",
+          "Converting between parametric and Cartesian forms",
+          "Trig parametrics and identity-based conversion",
+          "Sketching parametric curves and finding intersections",
+          "Points where a parametric curve crosses the axes",
+          "Parametric modelling questions in exam style"
+        ],
+        "projects": [
+          "Question bank entry: 10 solved parametric problems including two conversions each way"
+        ],
+        "practice": "18 parametric problems, every conversion checked by substituting a point",
+        "assessment": "Month 12 test: a 45-minute paper on advanced trigonometry and parametrics"
+      }
+    },
+    "month_13_calculus_twice_as_deep": {
+      "title": "Month 13: Advanced Differentiation and Integration",
+      "weeks": "Weeks 49-52",
+      "week_49_50": {
+        "title": "Weeks 49-50: Differentiation Methods",
+        "topics": [
+          "The chain, product and quotient rules, and how to spot which one",
+          "Derivatives of trig, exponential and log functions",
+          "Implicit differentiation",
+          "Parametric differentiation",
+          "Rates of change and connected rates",
+          "Tangents and normals on harder curves"
+        ],
+        "projects": [
+          "Method map: one page routing any function to its differentiation method, tested against 20 unseen functions"
+        ],
+        "practice": "30 differentiation problems climbing from single-rule to mixed-rule questions"
+      },
+      "week_51_52": {
+        "title": "Weeks 51-52: Integration Methods",
+        "topics": [
+          "Standard integrals of trig and exponential functions",
+          "Integration by substitution",
+          "Integration by parts",
+          "Integrating with partial fractions",
+          "Areas between curves and the trapezium rule",
+          "Differential equations with separable variables, solved and interpreted"
+        ],
+        "projects": [
+          "Question bank entry: 12 solved integrals labelled by method, including one differential equation in context"
+        ],
+        "practice": "28 integration problems, the method named in the margin before each attempt",
+        "assessment": "Month 13 test: a 60-minute calculus paper across both differentiation and integration methods"
+      }
+    },
+    "month_14_numerical_methods_and_3d": {
+      "title": "Month 14: Numerical Methods, 3D Vectors and the General Binomial",
+      "weeks": "Weeks 53-56",
+      "week_53_54": {
+        "title": "Weeks 53-54: Numerical Methods",
+        "topics": [
+          "Locating roots by change of sign, and when that argument fails",
+          "Fixed point iteration and rearranging into iterative form",
+          "Staircase and cobweb diagrams",
+          "The Newton-Raphson method and its failure cases",
+          "Iteration on the calculator, done quickly and accurately",
+          "Numerical integration revisited and error direction from sketches"
+        ],
+        "projects": [
+          "Root hunt: one equation solved three ways, change of sign, iteration and Newton-Raphson, with results compared"
+        ],
+        "practice": "16 numerical methods problems with calculator iteration technique drilled to fluency"
+      },
+      "week_55_56": {
+        "title": "Weeks 55-56: 3D Vectors and the Binomial for Any Power",
+        "topics": [
+          "Vectors in three dimensions: notation, magnitude and distance",
+          "Geometric problems in 3D",
+          "The binomial expansion for negative and fractional indices",
+          "Validity intervals stated every time",
+          "Expansions built through partial fractions",
+          "Using expansions for approximations, with accuracy discussed"
+        ],
+        "projects": [
+          "Question bank entry: 10 solved problems split between 3D vectors and general binomial expansions"
+        ],
+        "practice": "20 problems across 3D vectors and the general binomial, validity written before any expansion",
+        "assessment": "Phase 3 milestone: a 90-minute A2 Pure paper across all five months of this phase"
+      }
+    }
+  },
+  "phase_4_a2_applied": {
+    "title": "PHASE 4: A2 Statistics and Mechanics (Months 15-16, Weeks 57-64)",
+    "description": "The second-year applied content: conditional probability, the normal distribution and its hypothesis tests, then resolving forces, friction, moments and projectiles.",
+    "month_15_normal_distribution_and_testing": {
+      "title": "Month 15: The Normal Distribution and Hypothesis Tests",
+      "weeks": "Weeks 57-60",
+      "week_57_58": {
+        "title": "Weeks 57-58: Conditional Probability and the Normal Distribution",
+        "topics": [
+          "Set notation for probability and the conditional probability formula",
+          "Conditional probability from tables, trees and Venn diagrams",
+          "The normal distribution: shape, parameters and what they control",
+          "Calculating normal probabilities on the calculator",
+          "The inverse normal: finding values from probabilities",
+          "Standardising and finding unknown mean or standard deviation"
+        ],
+        "projects": [
+          "Question bank entry: 10 solved normal distribution problems including two unknown-parameter questions"
+        ],
+        "practice": "22 probability and normal distribution problems, a sketch of the shaded region drawn for every normal question"
+      },
+      "week_59_60": {
+        "title": "Weeks 59-60: Testing Means and Correlation",
+        "topics": [
+          "When the normal approximates the binomial, and the continuity correction",
+          "The distribution of the sample mean",
+          "Hypothesis tests for the mean of a normal distribution",
+          "Correlation coefficients and what they do and do not claim",
+          "Hypothesis tests for zero correlation using tables of critical values",
+          "Large data set questions in A2 style, revisited"
+        ],
+        "projects": [
+          "Question bank entry: 8 full hypothesis tests for means and correlation, conclusions written in context"
+        ],
+        "practice": "14 complete tests plus one large-data-set question under a 15-minute clock",
+        "assessment": "Month 15 test: a 45-minute A2 statistics paper"
+      }
+    },
+    "month_16_moments_friction_projectiles": {
+      "title": "Month 16: Resolving Forces, Friction, Moments and Projectiles",
+      "weeks": "Weeks 61-64",
+      "week_61_62": {
+        "title": "Weeks 61-62: Resolving Forces and Friction",
+        "topics": [
+          "Resolving forces at angles into components",
+          "Equilibrium of a particle under coplanar forces",
+          "Motion on an inclined plane",
+          "Friction and the coefficient of friction",
+          "Limiting equilibrium: on the point of moving",
+          "Connected systems revisited with angles and friction"
+        ],
+        "projects": [
+          "Question bank entry: 10 solved problems on inclined planes and friction, every diagram complete before the algebra"
+        ],
+        "practice": "20 resolving and friction problems, components table filled in before any equation is written"
+      },
+      "week_63_64": {
+        "title": "Weeks 63-64: Moments and Projectiles",
+        "topics": [
+          "Moments and the conditions for equilibrium of a rigid body",
+          "Rods on supports and tilting problems",
+          "Projectile motion: splitting velocity into components",
+          "Time of flight, range and greatest height",
+          "The projectile modelling assumptions and their limits",
+          "Motion in two dimensions with vectors and calculus"
+        ],
+        "projects": [
+          "Question bank entry: 10 solved moments and projectile problems, including one full tilting question"
+        ],
+        "practice": "18 moments and projectile problems plus a mixed mechanics set of 10 with no topic labels",
+        "assessment": "Phase 4 milestone: a 60-minute A2 applied paper across statistics and mechanics"
+      }
+    }
+  },
+  "phase_5_revision_and_past_papers": {
+    "title": "PHASE 5: Revision and the Past-Paper Cycle (Months 17-18, Weeks 65-72)",
+    "description": "No new content, on purpose. Structured revision by strand, then full past papers under real 2-hour timing, matched to your board's paper structure and marked against official schemes.",
+    "month_17_structured_revision": {
+      "title": "Month 17: Structured Revision",
+      "weeks": "Weeks 65-68",
+      "week_65_66": {
+        "title": "Weeks 65-66: Pure Revision by Strand",
+        "topics": [
+          "Rapid re-teach of the weakest pure topics, driven by each student's error log",
+          "Mixed pure problem sets that do not announce their topic",
+          "Formula booklet fluency: what is given, what must be known",
+          "Proof rehearsal: contradiction and identity proofs rewritten from memory",
+          "Algebra accuracy audit: the slips that cost each student marks, named and drilled",
+          "Show-that questions: working backwards from a given answer honestly"
+        ],
+        "projects": [
+          "Revision sheet set one: student-made single pages for every pure strand"
+        ],
+        "practice": "One mixed pure paper of 50 marks self-timed, plus a targeted drill on your two weakest strands"
+      },
+      "week_67_68": {
+        "title": "Weeks 67-68: Applied Revision and Board Alignment",
+        "topics": [
+          "Statistics mixed sets: distributions, tests and interpretation together",
+          "Mechanics mixed sets: forces, moments, projectiles and kinematics together",
+          "Large data set refresh: the facts worth having cold",
+          "Calculator technique final pass: distributions, iteration, equation solving",
+          "Your board's paper structure: exactly which content sits in which paper for Edexcel, AQA and OCR",
+          "Time budgeting: marks per minute across a 100-mark paper"
+        ],
+        "projects": [
+          "Revision sheet set two: single pages for statistics and mechanics, completing the personal revision pack"
+        ],
+        "practice": "One applied sectional paper self-timed plus 20 calculator-technique drills",
+        "assessment": "Month 17 checkpoint: two sectional papers marked against official schemes, error logs updated"
+      }
+    },
+    "month_18_past_paper_cycle": {
+      "title": "Month 18: The Past-Paper Cycle",
+      "weeks": "Weeks 69-72",
+      "week_69_70": {
+        "title": "Weeks 69-70: Papers Under Real Timing",
+        "topics": [
+          "A full past paper from your board in one timed 2-hour sitting",
+          "Marking against the official scheme, method marks understood",
+          "Error clinic one: concept gaps separated from timing and accuracy losses",
+          "A second full paper under timing",
+          "Question selection: order of attack and when to park a question",
+          "The unstructured problem: making progress when no method is named"
+        ],
+        "projects": [
+          "Mock file opened: each paper filed with its marked script, error classification and one-line fix per miss"
+        ],
+        "practice": "One additional past paper at home under honest timing, brought marked to class"
+      },
+      "week_71_72": {
+        "title": "Weeks 71-72: Final Mocks and Exam Craft",
+        "topics": [
+          "Two final full papers under strict conditions, spaced for recovery",
+          "Error clinic two: closing the last recurring mistakes",
+          "Presentation final pass: notation, working, exact answers where demanded",
+          "The last week: what to revise, what to leave alone",
+          "Exam-day routine for a three-paper series, walked through calmly",
+          "Course close: the mock series reviewed with each student and family"
+        ],
+        "projects": [
+          "Completed mock file: the full paper series with scores charted, kept by the student as evidence of readiness"
+        ],
+        "practice": "Light targeted drills only, set individually from each student's final error log",
+        "assessment": "Course milestone: final full past paper marked and reviewed one to one, plus certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "A personal question bank: 10-15 solved exam-style questions per topic, built across the whole course",
+      "A proof portfolio: every required proof type written to exam standard and rewritten from memory",
+      "A large data set profile and comparison write-ups in the student's own words",
+      "A calculus method map routing any function to the right technique",
+      "A personal error log maintained from the first month and used to steer revision",
+      "Student-made single-page revision sheets for every strand",
+      "An AS-standard mock at month 9 and a full past-paper series in month 18",
+      "The completed mock file: marked scripts, error classifications and a score chart"
+    ],
+    "total_projects_built": "A complete self-built revision system: question bank, proof portfolio, revision sheets, error log and marked mock file",
+    "skills_mastered": [
+      "The full A-Level Maths content: pure, statistics and mechanics to A2 standard",
+      "Method-mark discipline: solutions written the way official mark schemes pay",
+      "Calculator fluency for distributions, iteration and equation solving",
+      "Large data set familiarity of the kind exam questions quietly assume",
+      "Timed paper craft across three two-hour papers",
+      "Self-review: marking your own work against a scheme and classifying your own errors"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week; paper-phase sittings run longer for full timed papers",
+      "practice": "3-4 hours weekly of problem sets and question-bank building, rising with timed papers in the final months",
+      "review": "Homework marked with method-mark commentary; error logs reviewed with the teacher monthly"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, alongside the student's marked mock series"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, with worked solutions for stuck problems",
+      "progress_updates": "Monthly progress notes to parents with test scores and the error-log summary"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "A strong GCSE or IGCSE Maths pass, ideally grade 6 or above. The week 1 diagnostic finds any gaps and we patch them inside the course",
+    "exam_board": "Edexcel, AQA or OCR. The content is identical across boards; we align paper practice to yours in the final phase",
+    "equipment": "A calculator with statistical distributions and an iterative function, notebooks, and a device with stable internet for live classes",
+    "timing": "Best started at the beginning of Year 12 or its equivalent; later joiners get a catch-up plan after the diagnostic"
+  },
+  "who_is_this_for": {
+    "year_12_starters": "Students beginning A-Level Maths who want the full two years taught in order, with revision built in rather than bolted on",
+    "students_without_strong_school_support": "Students whose school sets the exams but whose classroom teaching is rushed, oversized or patchy",
+    "international_students": "Students taking A-Levels outside the UK, at international schools or as private candidates, who need structured teaching across the time zones",
+    "retake_students": "Students resitting A-Level Maths who need the gaps found honestly and closed, not the whole course replayed at the same speed",
+    "applied_strugglers": "Students comfortable with pure maths who lose marks in statistics wording and mechanics diagrams, or the other way around"
+  },
+  "career_paths_after_completion": [
+    "University degrees that ask for A-Level Maths: mathematics, engineering, physics, economics and computer science",
+    "A stronger position for degrees that quietly reward it, from architecture to psychology",
+    "A foundation for university admissions tests such as STEP, MAT and TMUA, which build on A-Level content",
+    "Further Maths, for students who discover they want more",
+    "Our statistics and programming courses, which pick up exactly where the applied content leaves off"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Which exam boards does the course cover?",
+      "answer": "Edexcel, AQA and OCR, including OCR's MEI specification by arrangement. The content of A-Level Maths is prescribed nationally, so all boards examine the same mathematics; what differs is how the three two-hour papers are arranged and the house style of the questions. We teach the shared content through the course and switch to your specific board's past papers, mark schemes and large data set in the practice phases, so nothing you study is wasted if your school changes board."
+    },
+    {
+      "question": "What is the difference between AS Maths and the full A-Level?",
+      "answer": "AS Maths is a separate, standalone qualification covering roughly the first year of content. Since the reforms, AS results do not count towards the full A-Level: the A-Level is linear, and everything rests on the papers at the end of year two. Our course follows the AS then A2 structure because it is the natural teaching order, and students who want to sit the AS exam as a standalone qualification at the end of year one are prepared for exactly that."
+    },
+    {
+      "question": "Can you improve my predicted grade?",
+      "answer": "We should be straight about what predicted grades are: they are set by your school or college, not by us, and no tutor can promise to change them. What we can do is give your teachers better evidence: marked tests through the course, an AS-standard mock, and a full past-paper series with scores charted. Students who improve their actual performance tend to see predictions follow, but the honest version is that we prepare you and your school predicts you."
+    },
+    {
+      "question": "I am retaking A-Level Maths. Does this course work for resits?",
+      "answer": "Yes, and retakes are one of the cases we handle best, because the course does not assume you are starting from nothing. A retake student begins with the diagnostic and their old scripts if available, we map exactly which strands cost the marks, and the plan compresses the content you already hold and expands where you lost ground. Resit students usually join mid-course into the phase that matches their gaps rather than starting at week 1."
+    },
+    {
+      "question": "What calculator do I need, and do you teach how to use it?",
+      "answer": "Calculators are allowed in all three A-Level Maths papers, and the exams assume yours can handle statistical distributions and iterative calculations, so a modern scientific calculator with those functions is the minimum; many students use the Casio ClassWiz range. We teach calculator technique explicitly, because binomial and normal probabilities, iteration and equation solving on the calculator are worth real marks and are consistently undertaught in schools."
+    },
+    {
+      "question": "What is the large data set and why does it matter?",
+      "answer": "Each exam board pre-releases a large data set, Edexcel's is weather-station data for example, and students are expected to have worked with it during the course. Exam questions are written assuming that familiarity: knowing the variables, the units and the quirks can turn a long question into a short one. We introduce your board's data set in the first statistics week and refresh it before the papers, so it is a familiar tool rather than a surprise."
+    },
+    {
+      "question": "We are in the UK. How do class timings work with an India-based academy?",
+      "answer": "Classes are scheduled to suit the student, and UK afternoons and evenings fall comfortably inside our teaching hours. Most of our A-Level students take classes on weekday evenings or weekend mornings UK time. Classes are live and interactive in every case, and the same teacher stays with the student through the course."
+    },
+    {
+      "question": "Can I join in Year 13, or partway through my studies?",
+      "answer": "Yes. The 18-month plan assumes a Year 12 start, but the course is modular enough to enter at the A2 phase or the revision phase. A Year 13 joiner sits the diagnostic, we agree which AS strands need patching, and the plan is compressed to fit the months remaining before the exams. What we will not do is pretend a student ten weeks from their papers can cover two years of content; if the timeline is unrealistic we say so at the demo stage."
+    },
+    {
+      "question": "What does the course cost, and can we try it first?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $100 per month for group classes and $150 per month for 1-on-1. The first demo class is free: book at learn.modernagecoders.com/contact or on WhatsApp at +91 91233 66161."
+    }
+  ]
+}
