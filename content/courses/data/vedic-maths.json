@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "slug": "vedic-maths-course-speed-calculation-mastery",
+    "title": "Vedic Maths Mastery: Speed Calculation with All 16 Sutras",
+    "description": "Vedic maths course online with live classes: all 16 sutras for fast multiplication, squares, division and mental calculation. Ages 8 to adult, free demo class.",
+    "keywords": [
+      "vedic maths course online",
+      "vedic maths classes for kids",
+      "speed maths course",
+      "mental maths tricks course",
+      "vedic maths 16 sutras",
+      "fast calculation course for students",
+      "vedic maths online classes india",
+      "vedic maths for competitive exams"
+    ],
+    "category": "Speed Mathematics",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "6 months (24 weeks)",
+    "level": "Beginner friendly, ages 8 to adult",
+    "commitment": "2 live classes/week + 20-30 minutes of drill practice most days",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "vedic-maths.png"
+  },
+  "program_overview": {
+    "title": "Vedic Maths Mastery",
+    "tagline": "The same sums, done in a third of the time, with a method you can check.",
+    "description": "Vedic maths is a system of calculation shortcuts organised around 16 sutras, short working rules like Nikhilam (all from 9 and the last from 10) and Urdhva-Tiryagbhyam (vertically and crosswise). Used well, they turn sums like 97 x 96 or 998 squared into a few seconds of mental work. This 6-month live course teaches the system the way a maths teacher would: every shortcut is shown, practised against the clock, and then explained, because a student who knows why a trick works can trust it in an exam and adapt it when the numbers change.\n\nThe course runs in one straight line: multiplication shortcuts first, because they pay off fastest, then squares and cubes, then division including the flag method, then fractions, decimals and percentages at speed, and finally the algebra applications of the same sutras. Week 1 starts with a timed diagnostic; week 24 ends with the same style of paper, so every student can see exactly how much faster and more accurate they have become. We are honest about what this course is: it makes arithmetic faster and frees up exam time. It does not replace school maths, and it will not turn anyone into a prodigy. It rewards steady drill, and we structure that drill for you.",
+    "what_makes_this_different": [
+      "Every shortcut comes with its reason: students see the algebra behind Nikhilam and the duplex method, so the rules stick instead of jumbling together",
+      "Timed drills from week 1, with a personal speed log so progress is measured against your own diagnostic, not against a claim",
+      "We teach judgement, not just tricks: which sutra fits which sum, and when the ordinary school method is actually the better choice",
+      "Digit-sum checking is built in from the start, so speed never comes at the cost of accuracy",
+      "Mixed-age friendly: the same system is drilled at school-exam pace for children and at competitive-exam pace for older students",
+      "Live small-group classes where the teacher watches you calculate, catches bad habits early, and adjusts the drill sheets to your errors"
+    ],
+    "learning_path": {
+      "phase_1": "The multiplication engine: complements, Nikhilam base multiplication, special patterns, then Urdhva-Tiryagbhyam for any numbers, all against the clock",
+      "phase_2": "Squares, cubes and roots with Yavadunam and the duplex method, then division three ways: Nikhilam, Paravartya and the flag method",
+      "phase_3": "Fractions, decimals and percentages at speed, the algebra applications of the sutras, and a timed capstone measured against the week 1 diagnostic"
+    },
+    "career_outcomes": [
+      "Noticeably faster, more accurate arithmetic, with the improvement documented in a personal speed log",
+      "Real time savings in school exams and the arithmetic-heavy sections of competitive exams",
+      "A checking habit (digit sums) that cuts careless errors in all written maths",
+      "A personal shortcut handbook, written by the student, covering every technique in the course",
+      "Stronger number sense that carries into algebra, since half the sutras are algebra in disguise"
+    ]
+  },
+  "phase_1_multiplication_engine": {
+    "title": "PHASE 1: The Multiplication Engine (Months 1-2, Weeks 1-8)",
+    "description": "Multiplication shortcuts pay off fastest, so they come first: complements and base multiplication, the special patterns, then Urdhva-Tiryagbhyam for any two numbers.",
+    "month_1_complements_and_base_multiplication": {
+      "title": "Month 1: Complements and Base Multiplication",
+      "weeks": "Weeks 1-4",
+      "week_1": {
+        "title": "How the System Works: Complements",
+        "topics": [
+          "Timed diagnostic paper: 30 mixed sums, your before picture for the whole course",
+          "What the 16 sutras are and how this course walks through them",
+          "Nikhilam Navatashcaramam Dashatah: all from 9 and the last from 10",
+          "Instant subtraction from 100, 1000 and 10000 using complements",
+          "Left-to-right working: why Vedic methods read numbers the way we say them",
+          "Digit sums (Beejank) as a ten-second answer check"
+        ],
+        "projects": [
+          "Personal speed log opened: diagnostic scores recorded by sum type, to be updated all course"
+        ],
+        "practice": "40 complement subtractions from 100, 1000 and 10000, target under 5 minutes with every answer digit-sum checked"
+      },
+      "week_2": {
+        "title": "Nikhilam Multiplication Below the Base",
+        "topics": [
+          "Multiplying numbers just under 100: 97 x 96 in one line",
+          "The two-part answer: cross subtraction on the left, deficiency product on the right",
+          "Base 1000 and base 10: 988 x 997, 8 x 7 done the Nikhilam way",
+          "Handling carries when the right-hand part overflows",
+          "Why it works: the algebra of (base - a)(base - b), shown honestly",
+          "Spotting when a sum is close enough to a base for Nikhilam to be worth it"
+        ],
+        "projects": [
+          "One-page proof poster: a student's own explanation of why Nikhilam works, with one worked example per base"
+        ],
+        "practice": "30 Nikhilam multiplications near 100 and 1000, target under 8 minutes, misses redone with the algebra written out"
+      },
+      "week_3": {
+        "title": "Above the Base and Working Bases",
+        "topics": [
+          "Numbers just above the base: 104 x 103, 1002 x 1015",
+          "Mixed cases, one above and one below: 105 x 97 and the negative right-hand part",
+          "Vinculum digits: writing 98 as 100 minus 2 inside a calculation",
+          "Anurupyena, the working base idea: multiplying near 50, 200, 250 and 500",
+          "Choosing the base that makes the sum smallest",
+          "Speed drill technique: reading the sum, picking the method, then writing"
+        ],
+        "projects": [
+          "Worked set: 20 mixed base multiplications with the chosen base and method noted next to each"
+        ],
+        "practice": "35 mixed above/below/working-base multiplications, target under 10 minutes, with the base choice justified for any five"
+      },
+      "week_4": {
+        "title": "The Special Patterns",
+        "topics": [
+          "Ekadhikena Purvena: squares of numbers ending in 5, done in two seconds",
+          "Antyayordashake'pi: same start, last digits adding to 10, such as 43 x 47",
+          "Multiplying by 11 and by 12 with single-pass rules",
+          "Multiplying by 5, 25 and 50 as fractions of powers of 10",
+          "Pattern recognition drills: which of the five patterns fits, or none",
+          "Consolidation of month 1: complements, Nikhilam, working bases, patterns"
+        ],
+        "projects": [
+          "Pattern wall chart: all month 1 shortcuts on one sheet in the student's own words and examples"
+        ],
+        "practice": "50-question pattern-spotting sheet mixing all month 1 techniques, target under 15 minutes",
+        "assessment": "Month 1 speed check: timed mixed paper, scores logged against the week 1 diagnostic"
+      }
+    },
+    "month_2_general_multiplication": {
+      "title": "Month 2: Urdhva-Tiryagbhyam, Multiplication for Any Numbers",
+      "weeks": "Weeks 5-8",
+      "week_5": {
+        "title": "Vertically and Crosswise: Two Digits",
+        "topics": [
+          "Urdhva-Tiryagbhyam for 2-digit x 2-digit: the three-step cross pattern",
+          "Where each part of the answer comes from, mapped to long multiplication",
+          "Carry discipline: keeping the running answer clean",
+          "One-line working: 34 x 72 without intermediate rows",
+          "Checking with digit sums after every sum, as a habit not an afterthought",
+          "When Nikhilam beats Urdhva-Tiryagbhyam and the reverse"
+        ],
+        "projects": [
+          "Cross-pattern diagram set: the student draws the crosswise structure for five sums before solving them"
+        ],
+        "practice": "40 two-digit by two-digit crosswise multiplications, target under 12 minutes at 90 percent accuracy"
+      },
+      "week_6": {
+        "title": "Three Digits and Mixed Sizes",
+        "topics": [
+          "The five-step cross pattern for 3-digit x 3-digit",
+          "Mixed sizes: 3-digit x 2-digit by padding with a zero",
+          "Managing bigger carries without losing the thread",
+          "Writing less: moving from full working to compact working",
+          "Common crosswise errors and how the digit-sum check catches them",
+          "Speed strategy: which digit pairs to multiply first"
+        ],
+        "projects": [
+          "Worked set: 15 three-digit crosswise multiplications with compact working shown"
+        ],
+        "practice": "25 three-digit crosswise multiplications, target under 15 minutes, every answer digit-sum checked"
+      },
+      "week_7": {
+        "title": "Taking It Mental",
+        "topics": [
+          "Dropping the pen: holding the cross pattern in your head for 2-digit sums",
+          "Chunking: multiplying 68 x 7 as 60 x 7 plus 8 x 7, said aloud",
+          "Doubling and halving: 16 x 35 as 8 x 70",
+          "Multiplying by 125, 75 and 15 through fraction thinking",
+          "Estimation first: knowing roughly what the answer must be before starting",
+          "Building a personal mental-maths warm-up routine"
+        ],
+        "projects": [
+          "Mental drill routine card: a 5-minute daily warm-up the student designs and follows"
+        ],
+        "practice": "Daily 5-minute no-paper drills: 20 two-digit multiplications spoken or typed, streaks recorded in the speed log"
+      },
+      "week_8": {
+        "title": "Speed Lab One",
+        "topics": [
+          "Full multiplication mix under exam timing: patterns, bases, crosswise, mental",
+          "Error triage: was it method choice, a carry slip, or rushing",
+          "Reading your speed log: what actually got faster since week 1",
+          "Accuracy floors: why we never trade below 90 percent accuracy for speed",
+          "Personal weak-spot drill sheets, built from your own error log",
+          "Setting the phase 2 targets with the teacher"
+        ],
+        "projects": [
+          "Speed lab paper one: a timed 60-question multiplication paper, marked and logged the same day"
+        ],
+        "practice": "Redo every speed lab miss untimed with full working, then a second 20-question timed set on just those types",
+        "assessment": "Phase 1 milestone: timed multiplication paper compared line by line with the week 1 diagnostic"
+      }
+    }
+  },
+  "phase_2_squares_cubes_division": {
+    "title": "PHASE 2: Squares, Cubes and Division (Months 3-4, Weeks 9-16)",
+    "description": "Powers and roots with Yavadunam and the duplex method, then the part most courses skip: division done three ways, including Tirthaji's general flag method.",
+    "month_3_squares_cubes_roots": {
+      "title": "Month 3: Squares, Cubes and Roots",
+      "weeks": "Weeks 9-12",
+      "week_9": {
+        "title": "Squares Near a Base",
+        "topics": [
+          "Yavadunam: squaring by deficiency, 98 squared in one line",
+          "Squaring just above the base: 104 squared, 1012 squared",
+          "Working bases again: 48 squared using base 50",
+          "The algebra behind it: (base + d) squared, expanded and matched to the rule",
+          "Squares of numbers ending in 5 revisited and extended to 3 digits",
+          "Choosing between Yavadunam and the ending-in-5 rule"
+        ],
+        "projects": [
+          "Worked set: squares of every number from 91 to 109 by the fastest route, method noted for each"
+        ],
+        "practice": "30 near-base squares across bases 50, 100, 500 and 1000, target under 10 minutes"
+      },
+      "week_10": {
+        "title": "The Duplex Method: Any Square",
+        "topics": [
+          "The duplex (Dwandwa) of a number: definition and drill",
+          "Squaring any 2-digit number with duplexes",
+          "Squaring 3-digit numbers: the five duplex terms in order",
+          "Keeping carries straight in duplex work",
+          "Duplex squares against near-base squares: picking the faster tool",
+          "Digit-sum checking squares, including the common square-check traps"
+        ],
+        "projects": [
+          "Duplex table: the student builds a reference table of duplexes for 1 to 3 digit forms with examples"
+        ],
+        "practice": "25 general squares of 2 and 3 digit numbers by duplex, target under 12 minutes at 90 percent accuracy"
+      },
+      "week_11": {
+        "title": "Square Roots and Cube Patterns",
+        "topics": [
+          "Square roots of perfect squares: pairing digits and reading the first digit",
+          "Last-digit analysis: which digits can end a perfect square and what they tell you",
+          "Deciding between the two candidate roots quickly",
+          "Cubes near a base: 98 cubed and 102 cubed by the Nikhilam-style rule",
+          "The proportional (Anurupyena) cube rule for 2-digit numbers",
+          "Recognising perfect squares and cubes on sight"
+        ],
+        "projects": [
+          "Root-finder sheet: 20 perfect squares up to 5 digits, roots found and verified by squaring back"
+        ],
+        "practice": "20 square roots of perfect squares and 10 near-base cubes, target under 15 minutes"
+      },
+      "week_12": {
+        "title": "Cube Roots and the Powers Checkpoint",
+        "topics": [
+          "Cube roots of perfect cubes up to 6 digits from the two ends",
+          "Why cube last digits are honest: the 0 to 9 cube-ending map",
+          "Mixed powers drill: squares, cubes and roots on one sheet",
+          "Where powers shortcuts show up in school exams and MCQ papers",
+          "Month 3 consolidation: one method chart for all powers work",
+          "Speed log review: powers section opened and baselined"
+        ],
+        "projects": [
+          "Powers method chart: every squares, cubes and roots technique on one page with a worked example each"
+        ],
+        "practice": "Mixed 40-question powers paper covering all month 3 techniques, target under 18 minutes",
+        "assessment": "Month 3 milestone: timed powers paper, results logged and weak types tagged for drilling"
+      }
+    },
+    "month_4_division": {
+      "title": "Month 4: Division Three Ways",
+      "weeks": "Weeks 13-16",
+      "week_13": {
+        "title": "Nikhilam Division",
+        "topics": [
+          "Dividing by 9: the pattern that starts the whole method",
+          "Nikhilam division with divisors just below a base: 89, 98, 888",
+          "Quotient and remainder columns, and moving carries between them",
+          "When the remainder column overflows and how to fix it",
+          "Why it works: complements doing subtraction's job in division",
+          "Speed comparison against long division on the same sums"
+        ],
+        "projects": [
+          "Side-by-side set: 10 divisions worked both by long division and Nikhilam with times recorded for each"
+        ],
+        "practice": "25 Nikhilam divisions with divisors near 10, 100 and 1000, target under 12 minutes"
+      },
+      "week_14": {
+        "title": "Paravartya: Transpose and Apply",
+        "topics": [
+          "Paravartya Yojayet for divisors just above a base: 12, 112, 1023",
+          "Transposing digits: turning the divisor's excess into negative multipliers",
+          "Working with negative intermediate digits without panic",
+          "Nikhilam or Paravartya: reading the divisor and choosing in two seconds",
+          "Remainder checks with digit sums",
+          "The algebra behind Paravartya, shown for divisor 12"
+        ],
+        "projects": [
+          "Choice drill sheet: 20 divisions labelled Nikhilam or Paravartya before solving, choices reviewed in class"
+        ],
+        "practice": "25 Paravartya divisions with divisors near 10, 100 and 1000, target under 14 minutes"
+      },
+      "week_15": {
+        "title": "Straight Division: The Flag Method",
+        "topics": [
+          "Dhvajanka, the flag digit: general division for any divisor",
+          "Setting up the flag: splitting the divisor into main digit and flag",
+          "The subtract-and-divide rhythm, worked slowly then at pace",
+          "Two-digit flags for harder divisors",
+          "Decimal answers: continuing the division past the point",
+          "Why the flag method matters: one method that always works"
+        ],
+        "projects": [
+          "Worked set: 12 flag-method divisions including two carried to three decimal places"
+        ],
+        "practice": "20 flag-method divisions with mixed divisors from 13 to 87, target under 20 minutes"
+      },
+      "week_16": {
+        "title": "Divisibility and Speed Lab Two",
+        "topics": [
+          "Divisibility tests for 2 through 12, consolidated and drilled",
+          "Osculation: Ekadhikena-based tests for 7, 13, 19 and other awkward primes",
+          "Remainder thinking: Navashesh checks for division answers",
+          "Full division mix under time: Nikhilam, Paravartya, flag, divisibility",
+          "Error triage on division work",
+          "Phase 3 targets set with the teacher"
+        ],
+        "projects": [
+          "Speed lab paper two: a timed 50-question powers and division paper, marked and logged the same day"
+        ],
+        "practice": "Redo all speed lab misses untimed, then 15 divisibility questions on primes 7, 13 and 19 by osculation",
+        "assessment": "Phase 2 milestone: timed powers and division paper, logged against months 3 and 4 baselines"
+      }
+    }
+  },
+  "phase_3_speed_maths_in_use": {
+    "title": "PHASE 3: Fractions, Algebra and the Capstone (Months 5-6, Weeks 17-24)",
+    "description": "The system applied where exams actually spend marks: fractions, decimals and percentages at speed, the algebra behind the sutras, and a timed capstone measured against week 1.",
+    "month_5_fractions_decimals_percentages": {
+      "title": "Month 5: Fractions, Decimals and Percentages at Speed",
+      "weeks": "Weeks 17-20",
+      "week_17": {
+        "title": "Recurring Decimals the Short Way",
+        "topics": [
+          "Ekadhikena Purvena on fractions: 1/19 written out in seconds",
+          "The one-more-than-the-previous multiplier, forwards and backwards",
+          "1/7 and the cyclic pattern family",
+          "Auxiliary fractions: converting awkward denominators before dividing",
+          "Terminating or recurring: reading the denominator to know in advance",
+          "Where recurring-decimal questions appear in school papers"
+        ],
+        "projects": [
+          "Decimal expansion chart: 1/7, 1/13, 1/17, 1/19 expanded by sutra and verified by flag division"
+        ],
+        "practice": "15 recurring-decimal expansions by the Ekadhikena method, each verified against straight division"
+      },
+      "week_18": {
+        "title": "Fraction Arithmetic Without the Grind",
+        "topics": [
+          "Adding and subtracting fractions crosswise, no LCM hunt for two terms",
+          "When the LCM is still worth finding, honestly",
+          "Comparing fractions instantly by cross multiplication",
+          "Multiplying and dividing mixed numbers with vinculum thinking",
+          "Simplifying early: spotting common factors before multiplying",
+          "Fraction chains: working three-term expressions left to right"
+        ],
+        "projects": [
+          "Worked set: 20 fraction additions and comparisons done crosswise with times against the textbook method"
+        ],
+        "practice": "30 mixed fraction operations, target under 15 minutes, five of them written both ways to compare"
+      },
+      "week_19": {
+        "title": "Percentages and Ratio Shortcuts",
+        "topics": [
+          "Percentages as fractions: the 12.5 percent equals one-eighth family",
+          "Flipping the sum: 8 percent of 50 as 50 percent of 8",
+          "Percentage change chains done mentally",
+          "Ratio splitting at speed for word problems",
+          "Profit, loss and simple interest set up as one-line calculations",
+          "Estimation guards: catching a wrong percentage before it costs marks"
+        ],
+        "projects": [
+          "Percent-fraction equivalence card: the conversion table every student memorises, self-tested twice"
+        ],
+        "practice": "40 mental percentage and ratio questions, target under 12 minutes, no written working allowed"
+      },
+      "week_20": {
+        "title": "Decimals and Speed Lab Three",
+        "topics": [
+          "Multiplying decimals with base methods: 9.8 x 9.7 via 98 x 97",
+          "Placing the decimal point by estimation, not rules memorised blind",
+          "Dividing decimals with the flag method",
+          "Mixed arithmetic under time: the full toolkit on one paper",
+          "Error triage across fraction, decimal and percentage work",
+          "Month 5 consolidation chart"
+        ],
+        "projects": [
+          "Speed lab paper three: a timed 50-question fractions, decimals and percentages paper, marked and logged"
+        ],
+        "practice": "Redo all speed lab misses untimed, then a 20-question timed set on your two weakest question types",
+        "assessment": "Month 5 milestone: timed mixed arithmetic paper, logged against the phase baselines"
+      }
+    },
+    "month_6_algebra_and_capstone": {
+      "title": "Month 6: Algebra Applications and the Speed-Test Capstone",
+      "weeks": "Weeks 21-24",
+      "week_21": {
+        "title": "The Sutras Meet Algebra",
+        "topics": [
+          "Urdhva-Tiryagbhyam on binomials: (x + 3)(x + 7) crosswise",
+          "Multiplying larger polynomials by the same cross pattern",
+          "Paravartya for dividing polynomials by (x - a)",
+          "The connection made explicit: the arithmetic sutras were algebra all along",
+          "Checking polynomial products with substitution",
+          "Where this helps in school algebra chapters"
+        ],
+        "projects": [
+          "Bridge sheet: five arithmetic shortcuts and their algebraic twins worked side by side"
+        ],
+        "practice": "20 polynomial multiplications and 10 Paravartya polynomial divisions, checked by substitution at x equals 2"
+      },
+      "week_22": {
+        "title": "Equations at Speed",
+        "topics": [
+          "Sunyam Samyasamuccaye: spotting when a common factor makes the answer zero",
+          "One-line solutions to equation types that usually take five lines",
+          "Simultaneous equations by cross-multiplication patterns",
+          "Anurupye Sunyamanyat: proportional coefficients and what they force",
+          "Recognising equation types on sight before solving",
+          "Honest limits: equations where the shortcuts do not apply"
+        ],
+        "projects": [
+          "Equation type-spotting sheet: 15 equations sorted by fastest method before any solving"
+        ],
+        "practice": "25 equations mixing shortcut types and standard types, with the method named before each solution"
+      },
+      "week_23": {
+        "title": "Choosing the Right Tool",
+        "topics": [
+          "Method triage: 40 mixed questions, decide the method in five seconds each",
+          "Exam mapping: where each technique saves time in school and MCQ papers",
+          "Where standard methods win and showing full working is required",
+          "Building your personal shortcut handbook: what goes in, what gets dropped",
+          "Mock speed test under full exam conditions",
+          "Reviewing the mock: method choices, not just answers"
+        ],
+        "projects": [
+          "Personal shortcut handbook draft: every technique the student actually uses, in their own words and examples"
+        ],
+        "practice": "Full 60-question mock speed test under timing, then a written half-page on your three best method choices"
+      },
+      "week_24": {
+        "title": "The Capstone Speed Test",
+        "topics": [
+          "Final timed paper: same structure as the week 1 diagnostic, full toolkit allowed",
+          "Before and after: reading your speed log across all 24 weeks",
+          "Accuracy audit: error rate then versus now",
+          "Finishing the shortcut handbook: the take-away artifact of the course",
+          "Keeping the speed: a 10-minute weekly maintenance routine",
+          "Where to go next: exam-prep courses that use these skills daily"
+        ],
+        "projects": [
+          "Capstone speed test with a written before-and-after comparison against the week 1 diagnostic",
+          "Finished personal shortcut handbook, reviewed by the teacher"
+        ],
+        "practice": "Design your own maintenance drill sheet and run it once; bring the timing to the final class",
+        "assessment": "Course milestone: capstone speed test and handbook review, plus course-completion certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Personal speed log kept for all 24 weeks, from diagnostic to capstone",
+      "One-page proof poster explaining why Nikhilam multiplication works",
+      "Pattern wall chart of every month 1 shortcut in the student's own words",
+      "Duplex reference table built by the student for general squares",
+      "Side-by-side division sets timing Vedic methods against long division",
+      "Decimal expansion chart for the awkward sevenths and nineteenths",
+      "Percent-fraction equivalence card, memorised and self-tested",
+      "Bridge sheet connecting five arithmetic sutras to their algebra twins",
+      "Personal shortcut handbook: the student's complete method reference, finished in week 24",
+      "Capstone speed test with a written before-and-after comparison"
+    ],
+    "total_projects_built": "10+ artifacts, from a week 1 speed log to a complete self-written shortcut handbook",
+    "skills_mastered": [
+      "Base multiplication with Nikhilam, working bases and the special patterns",
+      "General multiplication with Urdhva-Tiryagbhyam, on paper and mentally",
+      "Squares, cubes and roots with Yavadunam, the duplex method and end-digit analysis",
+      "Division by Nikhilam, Paravartya and the flag method, plus osculation divisibility tests",
+      "Fractions, recurring decimals and percentages at exam speed",
+      "Digit-sum checking as a permanent accuracy habit",
+      "Method triage: reading a question and picking the fastest honest route"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live one-hour classes per week, with timed drills done together in class",
+      "practice": "20-30 minutes of drill sheets most days; short daily practice beats long weekend sessions for speed work",
+      "review": "Drill sheets reviewed with error triage: every miss classified as method, carry or rush, and drilled accordingly"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders, alongside the student's own documented speed log"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp doubt support between classes, so a stuck technique never waits a week",
+      "progress_updates": "Regular progress notes to parents with the speed log attached: what got faster, what needs drilling"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Comfortable addition and subtraction, and multiplication tables up to 10. That is genuinely all",
+    "age": "8 to adult. Batches are grouped by age so drills run at the right pace",
+    "equipment": "A notebook, a pen, and a device with a camera and stable internet for live classes",
+    "prior_vedic_maths": "None expected. The course starts from the first sutra"
+  },
+  "who_is_this_for": {
+    "school_students": "Students in classes 3 to 10 who lose exam time to slow arithmetic and want it back",
+    "competitive_exam_aspirants": "Older students preparing for arithmetic-heavy MCQ exams where a saved minute per section matters",
+    "parents_learning_alongside": "Adults who want to sharpen mental arithmetic, sometimes in the same batch as their child",
+    "students_who_fear_calculation": "Children who understand concepts but freeze on big multiplications; the drills rebuild confidence with evidence",
+    "maths_enjoyers": "Students who simply like numbers and want to know why the shortcuts work, not just that they do"
+  },
+  "career_paths_after_completion": [
+    "Faster arithmetic that pays off directly in school maths exams from class 4 upward",
+    "A head start for competitive-exam arithmetic sections, where calculation speed buys thinking time",
+    "Natural progression to our school maths and exam-prep courses, with calculation no longer the bottleneck",
+    "A strong base for algebra, since Urdhva-Tiryagbhyam and Paravartya reappear there directly",
+    "For adults: everyday numeracy, from splitting bills to sense-checking figures at work"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "What is Vedic maths, honestly?",
+      "answer": "It is a system of 16 sutras, short calculation rules, compiled by Bharati Krishna Tirthaji and published in 1965. Historians debate how ancient the system really is, and we say so in class, because the techniques stand on their own: they are fast, they are checkable, and every one of them has ordinary algebra underneath. We teach the methods and the algebra, not the mythology."
+    },
+    {
+      "question": "Will this replace my child's school maths?",
+      "answer": "No, and it should not. School maths teaches concepts and requires standard working in answers; this course makes the arithmetic inside those answers faster and more accurate. We explicitly teach when to use a shortcut, when to show the standard method, and how to use digit-sum checks on both. Think of it as removing the calculation bottleneck from maths a student is already learning."
+    },
+    {
+      "question": "Does Vedic maths actually help in competitive exams?",
+      "answer": "It helps with one specific thing: calculation speed in arithmetic-heavy sections, which frees minutes for the questions that need real thought. It does not teach exam concepts, shortcuts for reasoning, or anything a syllabus tests directly. Students preparing for MCQ exams tend to feel the benefit most in percentages, fractions and multiplication-heavy questions, which is exactly where phase 3 of this course spends its time."
+    },
+    {
+      "question": "Will this course make my child a genius or a human calculator?",
+      "answer": "No, and we would rather tell you that upfront. What steady practice on this course produces is documented in each student's speed log: the same kinds of sums done faster and with fewer errors than in week 1. That is a real, useful, measurable gain. Claims beyond that, about IQ or brain development, are not ones we make."
+    },
+    {
+      "question": "What age is right for this course?",
+      "answer": "We take students from age 8, once multiplication tables are reasonably solid, and there is no upper limit; adults join to sharpen mental arithmetic, sometimes in the same house as an enrolled child. Batches are grouped by age so an 8-year-old drills at a different pace from a 16-year-old preparing for entrance exams."
+    },
+    {
+      "question": "How is Vedic maths different from abacus classes?",
+      "answer": "Abacus training builds mental arithmetic through a physical tool and bead visualisation, and it works best when started young, roughly ages 5 to 10. Vedic maths is paper-and-head arithmetic built on algebraic patterns, so it suits any age that knows its tables and extends naturally into algebra. Younger children often do abacus first and Vedic maths later; we run both and will honestly tell you which fits your child."
+    },
+    {
+      "question": "My child already struggles with maths. Is a speed course a bad idea?",
+      "answer": "Often it is the opposite, with one condition: the struggles must be with calculation, not with concepts. A child who understands what multiplication means but dreads big numbers usually gains confidence quickly here, because the methods are short and the progress is visible in their own log. If the gaps are conceptual, we will say so after the demo class and point you to our school maths courses instead."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $100 per month for group classes and $150 per month for 1-on-1."
+    },
+    {
+      "question": "Can we try a class before enrolling?",
+      "answer": "Yes, the first demo class is free and carries no obligation. Book it at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Parents are welcome to sit in, and the teacher will give you a straight opinion on whether this course or a school maths course is the better fit."
+    }
+  ]
+}
