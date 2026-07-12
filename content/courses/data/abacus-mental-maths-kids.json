@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "slug": "abacus-mental-maths-course-for-kids",
+    "title": "Abacus & Mental Maths for Kids: From First Beads to Anzan",
+    "description": "Abacus classes for kids ages 5-10: live online mental maths course from first beads to anzan visualisation and mental-only sums. Small batches, free demo.",
+    "keywords": [
+      "abacus classes for kids online",
+      "abacus course for kids",
+      "mental maths classes for kids",
+      "abacus classes for 5 year olds",
+      "anzan mental calculation course",
+      "abacus maths online classes india",
+      "mental arithmetic course for children",
+      "abacus training for kids near me"
+    ],
+    "category": "Mental Maths for Kids",
+    "price": {
+      "group": "₹1499/month",
+      "miniBatch": "₹2499/month",
+      "personal": "₹4999/month"
+    },
+    "duration": "8 months (32 weeks)",
+    "level": "Ages 5 to 10, no prior maths needed beyond counting",
+    "commitment": "2 live classes/week + 10-15 minutes of bead practice daily",
+    "certification": "Course-completion certificate from Modern Age Coders",
+    "image_path": "abacus-mental-maths-kids.png"
+  },
+  "program_overview": {
+    "title": "Abacus & Mental Maths for Kids",
+    "tagline": "First the beads move on the desk. Then they move in the head.",
+    "description": "The abacus is one of the oldest maths teaching tools still in serious use, and it earns its place: a child who adds on an abacus is not memorising answers, they are physically moving quantities and watching place value work. This 8-month live course takes children aged 5 to 10 from holding the abacus correctly to anzan, the stage where the abacus is imagined and sums are done entirely in the head.\n\nThe progression is deliberate and unhurried. Months 1 and 2 build bead fluency and the small-friend pairs that make 5. Months 3 and 4 cross the tens with big friends and take numbers to three digits. Months 5 and 6 begin visualisation: eyes closed, imaginary beads, short mental rows that grow week by week. Months 7 and 8 add multiplication on the abacus and finish with a mental-only graded test the child can be genuinely proud of.\n\nWe are straightforward about what this course builds: real arithmetic fluency, comfortable number sense, and the habit of focused daily practice. Those are worth having on their own. We do not dress them up as brain development or IQ gains, because those claims are not ours to make."
+    ,
+    "what_makes_this_different": [
+      "A real progression to anzan: visualisation is trained deliberately from month 5, not left to chance after a year of bead drills",
+      "Small-friend and big-friend rules are taught as number bonds, so the abacus work strengthens school maths instead of sitting beside it",
+      "Live classes built for young attention spans: short activity blocks, bead races, dictation games, and a teacher who can see every child's abacus on camera",
+      "Daily practice is 10-15 minutes by design, small enough that families actually keep it up for eight months",
+      "Honest milestones: parents see dictation scores and row lengths, not vague level names",
+      "Class pace grouped by age, because a 5-year-old and a 9-year-old need different speeds through the same material"
+    ],
+    "learning_path": {
+      "phase_1": "Bead basics and number sense: setting and reading numbers, place value on the rods, and the small friends that make 5",
+      "phase_2": "Crossing the tens: big friends, borrowing and carrying, three-digit numbers, and dictation drills at growing speed",
+      "phase_3": "Anzan begins: imaginary beads, short mental rows, flash number practice, and listening sums done without touching the abacus",
+      "phase_4": "Multiplication on the abacus and the mental-only capstone: longer mental rows and a graded test done entirely in the head"
+    },
+    "career_outcomes": [
+      "Arithmetic fluency: addition and subtraction that keep up with, and usually outrun, pen and paper",
+      "Mental calculation through anzan: short sums done in the head with the abacus imagined",
+      "Number sense that shows up in school maths, especially place value, bonds and carrying",
+      "A settled daily practice habit, built in 10-15 minute pieces a young child can sustain",
+      "Confidence with numbers before the age where children decide maths is not for them"
+    ]
+  },
+  "phase_1_bead_basics": {
+    "title": "PHASE 1: Bead Basics and Number Sense (Months 1-2, Weeks 1-8)",
+    "description": "The abacus in hand: setting and reading numbers, place value on the rods, and the small-friend pairs that make 5. Everything later stands on the fluency built here.",
+    "month_1_meeting_the_abacus": {
+      "title": "Month 1: Meeting the Abacus",
+      "weeks": "Weeks 1-4",
+      "week_1_2": {
+        "title": "Weeks 1-2: Beads, Fingers and First Numbers",
+        "topics": [
+          "The parts of the abacus: frame, rods, the bar, one upper bead worth 5, four lower beads worth 1",
+          "Holding and clearing the abacus the correct way, every time",
+          "Finger rules: thumb pushes ones up, index finger brings them down, index works the 5-bead",
+          "Setting and reading the numbers 1 to 9",
+          "Bead patterns as pictures: seeing 7 as 5 and 2 without counting",
+          "Simple bead races: who can set the called number first"
+        ],
+        "projects": [
+          "My abacus card: the child draws bead pictures for the numbers 1 to 9 and reads them back from the drawing"
+        ],
+        "practice": "Ten minutes daily: set and read 20 called numbers between 1 and 9, parent calls, child sets, fingers checked in class"
+      },
+      "week_3_4": {
+        "title": "Weeks 3-4: Tens, Place Value and First Sums",
+        "topics": [
+          "The tens rod: setting 10 to 99 and reading two-digit numbers",
+          "Place value felt physically: why 34 is three beads on one rod and four on another",
+          "Direct addition: sums like 2 + 6 where beads simply move up",
+          "Direct subtraction: taking beads away without touching the 5-bead",
+          "Mixed setting drills: 3, 30, 33 and hearing the difference",
+          "Number dictation games at a gentle pace"
+        ],
+        "projects": [
+          "Two-digit dictation sheet: 20 numbers set from hearing alone, scored and kept as the month 1 record"
+        ],
+        "practice": "Ten minutes daily: 15 direct additions and subtractions within each rod, plus 10 two-digit setting drills",
+        "assessment": "Month 1 check: set and read two-digit numbers from dictation, plus 10 direct sums, done live in class"
+      }
+    },
+    "month_2_small_friends": {
+      "title": "Month 2: Small Friends, the Pairs That Make 5",
+      "weeks": "Weeks 5-8",
+      "week_5_6": {
+        "title": "Weeks 5-6: Adding with Small Friends",
+        "topics": [
+          "The small friends: 1 and 4, 2 and 3, the pairs that make 5",
+          "Why 3 + 4 needs a trick when only two lower beads are free",
+          "The small-friend move: add 5, take away the friend",
+          "One rule at a time: +4 as +5 take 1, then +3, +2, +1 cases",
+          "Saying the move aloud while doing it, so the rule settles in",
+          "Friend flashcards: answering the make-5 partner instantly"
+        ],
+        "projects": [
+          "Make-5 rainbow chart: the child's own picture of the pairs that make 5, used at home during practice"
+        ],
+        "practice": "Ten minutes daily: 20 small-friend additions with the rule spoken aloud, plus one round of make-5 flashcards"
+      },
+      "week_7_8": {
+        "title": "Weeks 7-8: Subtracting with Small Friends",
+        "topics": [
+          "The reverse move: take 5, give back the friend",
+          "Subtraction cases one at a time: -4, -3, -2, -1 through the 5-bead",
+          "Mixing direct sums and small-friend sums in one row",
+          "Rows of three numbers: 4 + 3 - 2 worked straight through",
+          "Accuracy first, speed second: the rule for the whole course",
+          "Month 2 games: friend bingo and beat-the-teacher rows"
+        ],
+        "projects": [
+          "Row book started: a notebook of daily rows with date and score, kept for the rest of the course"
+        ],
+        "practice": "Ten to fifteen minutes daily: 15 mixed small-friend sums and 5 three-number rows, logged in the row book",
+        "assessment": "Month 2 check: 20 mixed direct and small-friend sums plus three-number rows, done live with finger technique reviewed"
+      }
+    }
+  },
+  "phase_2_crossing_the_tens": {
+    "title": "PHASE 2: Crossing the Tens (Months 3-4, Weeks 9-16)",
+    "description": "Big friends, the pairs that make 10, unlock sums that cross rods: carrying, borrowing, three-digit numbers and dictation at growing speed.",
+    "month_3_big_friends": {
+      "title": "Month 3: Big Friends, the Pairs That Make 10",
+      "weeks": "Weeks 9-12",
+      "week_9_10": {
+        "title": "Weeks 9-10: Adding Over Ten",
+        "topics": [
+          "The big friends: 1 and 9, 2 and 8, 3 and 7, 4 and 6, 5 and 5",
+          "Why 8 + 5 cannot stay on one rod, shown with beads",
+          "The big-friend move: add 10 on the next rod, take away the friend",
+          "Cases in order: +9, +8, +7 down to +1 through ten",
+          "Carrying seen physically: the tens rod clicking up",
+          "Make-10 flashcards until the pairs are instant"
+        ],
+        "projects": [
+          "Make-10 rainbow chart to sit beside the make-5 chart at home"
+        ],
+        "practice": "Ten to fifteen minutes daily: 20 big-friend additions with the move spoken aloud, plus make-10 flashcards"
+      },
+      "week_11_12": {
+        "title": "Weeks 11-12: Subtracting Across Ten",
+        "topics": [
+          "The reverse move: take 10, give back the friend",
+          "Borrowing felt on the rods: why 12 - 5 reaches to the tens rod",
+          "Subtraction cases in order: -9 through -1 across ten",
+          "Mixed rows using direct, small-friend and big-friend moves together",
+          "Reading the row before moving: planning which rule each number needs",
+          "Steady dictation: teacher calls a row of four one-digit numbers"
+        ],
+        "projects": [
+          "Mixed-rules row sheet: 15 rows solved and marked with which friend rule each step used"
+        ],
+        "practice": "Fifteen minutes daily: 15 mixed sums crossing ten and 5 dictated rows, all logged in the row book",
+        "assessment": "Month 3 check: 20 sums mixing all rules so far, plus a live dictation round of four-number rows"
+      }
+    },
+    "month_4_bigger_numbers": {
+      "title": "Month 4: Combined Moves and Three-Digit Numbers",
+      "weeks": "Weeks 13-16",
+      "week_13_14": {
+        "title": "Weeks 13-14: When Both Friends Work Together",
+        "topics": [
+          "Combined cases: sums like 6 + 7 that need the 5-bead and the tens rod in one move",
+          "Working the combined move slowly, then at row speed",
+          "Two-digit plus one-digit sums: 34 + 8 across the rods",
+          "Two-digit plus two-digit: working rod by rod from the left",
+          "Row stamina: five-number rows of one-digit numbers",
+          "Speed ladders: same row sheet, three timed attempts across the week"
+        ],
+        "projects": [
+          "Speed ladder record: one row sheet attempted three times with times and scores charted by the child"
+        ],
+        "practice": "Fifteen minutes daily: 12 combined-move sums and 6 two-digit additions, plus one speed ladder attempt"
+      },
+      "week_15_16": {
+        "title": "Weeks 15-16: Three Digits and Real-Life Numbers",
+        "topics": [
+          "The hundreds rod: setting and reading 100 to 999",
+          "Three-digit addition and subtraction, one rod at a time",
+          "Money sums: rupees and coins set on the abacus",
+          "Simple word problems answered on the abacus: bought, spent, left",
+          "Dictation with two-digit numbers in the rows",
+          "Phase 2 wrap-up: every rule on one revision mat"
+        ],
+        "projects": [
+          "Shop game record: a pretend-shop worksheet of five purchases totalled and checked on the abacus"
+        ],
+        "practice": "Fifteen minutes daily: 10 three-digit sums, 5 money questions and one dictated row, logged in the row book",
+        "assessment": "Month 4 milestone: mixed paper of 30 questions covering all bead rules up to three digits, done in class"
+      }
+    }
+  },
+  "phase_3_anzan_begins": {
+    "title": "PHASE 3: Anzan, the Abacus in the Head (Months 5-6, Weeks 17-24)",
+    "description": "The step this whole course points at: the physical abacus is set aside and the child moves imaginary beads. Rows start tiny and grow week by week.",
+    "month_5_picture_the_beads": {
+      "title": "Month 5: Picture the Beads",
+      "weeks": "Weeks 17-20",
+      "week_17_18": {
+        "title": "Weeks 17-18: First Imaginary Beads",
+        "topics": [
+          "What anzan is: seeing the abacus with eyes closed and moving beads that are not there",
+          "Air abacus: fingers moving over an empty desk while the mind keeps the picture",
+          "Setting single numbers mentally and saying them back",
+          "First mental sums: rows of two small numbers, beads imagined",
+          "Checking every mental answer on the real abacus straight after",
+          "Why we slow down here: the picture must be solid before speed"
+        ],
+        "projects": [
+          "Eyes-closed challenge card: ten single-number settings done mentally and verified, signed off in class"
+        ],
+        "practice": "Ten minutes daily: 10 two-number mental rows with immediate abacus checks, plus air-abacus warm-ups"
+      },
+      "week_19_20": {
+        "title": "Weeks 19-20: Flash Numbers and Longer Pictures",
+        "topics": [
+          "Flash practice: numbers shown briefly on screen, set mentally",
+          "Rows of three one-digit numbers done fully in the head",
+          "Keeping the bead picture steady when a friend rule fires",
+          "Two-digit numbers held mentally: tens and ones rods imagined together",
+          "Confidence rules: wrong answers are checked on beads, never scolded",
+          "Month 5 game: slow-speed flash rounds as a class"
+        ],
+        "projects": [
+          "Flash round scorecard: three class flash rounds with scores tracked by the child"
+        ],
+        "practice": "Ten to fifteen minutes daily: 10 three-number mental rows and one flash practice round on the family device",
+        "assessment": "Month 5 check: live mental round of three-number rows plus flash settings, real abacus used only for verifying"
+      }
+    },
+    "month_6_mental_rows": {
+      "title": "Month 6: Mental Rows That Grow",
+      "weeks": "Weeks 21-24",
+      "week_21_22": {
+        "title": "Weeks 21-22: Five-Number Rows and Listening Sums",
+        "topics": [
+          "Rows of four, then five one-digit numbers done mentally",
+          "Listening anzan: the teacher speaks the row, nothing is shown",
+          "Holding the running answer while the next number arrives",
+          "Two-digit mental sums: one addition at a time, pictured on two rods",
+          "Recovering a lost picture: reset, breathe, rebuild the beads",
+          "Personal pace: row length moves up only when accuracy holds"
+        ],
+        "projects": [
+          "Listening log: ten dictated mental rows across the fortnight with scores and row lengths recorded"
+        ],
+        "practice": "Fifteen minutes daily: 8 mental rows at your current length and 2 listening rows read out by a parent"
+      },
+      "week_23_24": {
+        "title": "Weeks 23-24: Level Test One, Fully Mental",
+        "topics": [
+          "Test craft for small people: neat answers, skipped questions returned to, no rubbing out storms",
+          "Mixed mental paper practice: rows, flash settings, listening sums",
+          "Two-digit rows of three numbers for the stronger picture-holders",
+          "Class review of the phase: what got longer, what got faster",
+          "Preparing the level test with a practice run",
+          "Celebrating honestly: certificates say what the child can actually do"
+        ],
+        "projects": [
+          "Level test one: a graded mental-only paper of rows, flash and listening sums, marked and kept"
+        ],
+        "practice": "Fifteen minutes daily: one full practice paper across the week, split into daily pieces, logged in the row book",
+        "assessment": "Phase 3 milestone: level test one, mental-only, with results shared with parents alongside the row book"
+      }
+    }
+  },
+  "phase_4_multiplication_and_capstone": {
+    "title": "PHASE 4: Multiplication and the Mental-Only Capstone (Months 7-8, Weeks 25-32)",
+    "description": "Multiplication arrives on the abacus once addition is second nature, and the course closes with longer mental rows and a graded test done entirely in the head.",
+    "month_7_multiplication_on_the_abacus": {
+      "title": "Month 7: Multiplication on the Abacus",
+      "weeks": "Weeks 25-28",
+      "week_25_26": {
+        "title": "Weeks 25-26: Tables Meet the Beads",
+        "topics": [
+          "Multiplication as repeated addition, shown with bead groups first",
+          "Tables 2 to 5 practised with bead patterns and chants",
+          "Setting up a multiplication on the abacus: where each number lives",
+          "Two-digit times one-digit: 23 x 3 worked rod by rod",
+          "Answer sense: is 23 x 3 nearer 60 or 600, asked before working",
+          "Keeping addition sharp: short mental rows as every class's warm-up"
+        ],
+        "projects": [
+          "Table pattern cards: bead-picture cards for the 2, 3, 4 and 5 tables made by the child"
+        ],
+        "practice": "Fifteen minutes daily: one table chanted, 8 abacus multiplications and 4 mental warm-up rows"
+      },
+      "week_27_28": {
+        "title": "Weeks 27-28: The Harder Tables",
+        "topics": [
+          "Tables 6 to 9 with bead patterns, taken at each child's pace",
+          "Two-digit times one-digit across the harder tables",
+          "Carrying inside multiplication: when a product spills to the next rod",
+          "Sharing sums: simple division as dealing beads into groups, kept light",
+          "Mixed papers: additions, subtractions and multiplications together",
+          "Month 7 dictation: rows now include a times question"
+        ],
+        "projects": [
+          "Mixed paper folder: three 20-question mixed papers completed, marked and filed across the fortnight"
+        ],
+        "practice": "Fifteen minutes daily: 10 multiplications across tables 6 to 9 and one short mixed paper piece",
+        "assessment": "Month 7 check: 20-question mixed paper including two-digit multiplications, done live in class"
+      }
+    },
+    "month_8_mental_only_levels": {
+      "title": "Month 8: The Mental-Only Capstone",
+      "weeks": "Weeks 29-32",
+      "week_29_30": {
+        "title": "Weeks 29-30: Longer, Faster, Still Accurate",
+        "topics": [
+          "Mental rows pushed to each child's honest edge: longer or faster, not both at once",
+          "Two-digit mental rows for ready students, one-digit mastery for the rest",
+          "Mental one-digit multiplication for the strongest picture-holders",
+          "Flash rounds at higher speeds, accuracy floor held at 80 percent",
+          "Reading the row book: eight months of scores tell the child's own story",
+          "Capstone paper structure walked through, no surprises"
+        ],
+        "projects": [
+          "Row book review page: the child charts their own week 8 versus week 30 row length and speed"
+        ],
+        "practice": "Fifteen minutes daily: capstone-style mixed mental practice split across the week, logged in the row book"
+      },
+      "week_31_32": {
+        "title": "Weeks 31-32: The Graded Mental Test and Family Show",
+        "topics": [
+          "Final practice run of the capstone paper with review",
+          "The capstone: a graded mental-only test of rows, flash, listening and times questions",
+          "Family demonstration: each child performs three mental sums for the class and parents",
+          "What the certificate says: the exact skills demonstrated, nothing inflated",
+          "Keeping the skill: a 10-minute weekly routine for after the course",
+          "What comes next: higher abacus levels, school maths courses, and later Vedic maths"
+        ],
+        "projects": [
+          "Capstone graded mental-only test, marked and reported to parents with the full row book",
+          "Family demonstration: three mental sums performed live"
+        ],
+        "practice": "Gentle final week: one short mental round daily and rest before the test, confidence over cramming",
+        "assessment": "Course milestone: capstone mental-only test and family demonstration, plus certificate review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "My abacus card: bead pictures for the numbers 1 to 9",
+      "Make-5 and make-10 rainbow charts for home practice",
+      "The row book: a daily practice log kept across all eight months",
+      "Two-digit dictation sheets scored month by month",
+      "Speed ladder records: the same sheet timed three times",
+      "Shop game money worksheets totalled on the abacus",
+      "Eyes-closed challenge card marking the start of anzan",
+      "Flash round and listening logs through phase 3",
+      "Table pattern cards for the 2 to 9 times tables",
+      "The capstone graded mental-only test and family demonstration"
+    ],
+    "total_projects_built": "10+ records and artifacts, from first bead pictures to a graded mental-only test",
+    "skills_mastered": [
+      "Correct bead technique: setting, reading and clearing with proper fingering",
+      "Small-friend and big-friend rules, which are the number bonds school maths needs anyway",
+      "Addition and subtraction to three digits on the abacus, including money sums",
+      "Anzan: mental rows, flash numbers and listening sums with the abacus imagined",
+      "Times tables 2 to 9 and two-digit by one-digit multiplication on the abacus",
+      "A daily practice habit measured in a row book the child keeps themselves"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 live classes per week of 45-60 minutes, run in short activity blocks suited to ages 5 to 10",
+      "practice": "10-15 minutes of bead or mental practice daily; short and daily beats long and occasional at this age",
+      "review": "Row books and dictation sheets reviewed weekly; technique corrected live on camera before habits set"
+    },
+    "certification": {
+      "completion": "Course-completion certificate from Modern Age Coders stating the level of rows and mental work actually demonstrated"
+    },
+    "support_provided": {
+      "doubt_support": "WhatsApp support for parents between classes, including short videos when a finger rule needs re-showing",
+      "progress_updates": "Regular progress notes to parents with dictation scores and row lengths, so improvement is visible, not asserted"
+    }
+  },
+  "prerequisites": {
+    "maths_level": "Counting to 10 comfortably. Everything else, including number bonds, is built in the course",
+    "age": "5 to 10. Batches are grouped by age; the youngest children benefit from a parent nearby during class",
+    "equipment": "A student abacus, 17-rod soroban style, which costs a few hundred rupees; we send parents a buying guide before class 1",
+    "reading": "Not required. Instructions are spoken and shown; worksheets use numbers, not sentences"
+  },
+  "who_is_this_for": {
+    "young_starters": "Children aged 5 to 7 meeting numbers for the first time, who learn best with something to hold and move",
+    "primary_students": "Children aged 8 to 10 who want arithmetic to feel easy before bigger school maths arrives",
+    "children_who_dislike_worksheets": "Kids who switch off at written sums but light up when maths is beads, races and games",
+    "focus_builders": "Children whose parents want a short, structured daily practice habit with visible progress",
+    "future_mental_calculators": "Kids who will enjoy the quiet magic of doing sums with an abacus nobody can see"
+  },
+  "career_paths_after_completion": [
+    "Higher abacus levels: longer rows, faster flash work and bigger multiplications",
+    "A smoother start in school maths, with number bonds and place value already solid",
+    "Our school mathematics courses, entered with arithmetic fluency already in place",
+    "Vedic maths from around age 8, once tables are strong, for a second speed system",
+    "Mental maths competitions and school arithmetic quizzes, if the child enjoys performing"
+  ],
+  "course_guarantees": {
+    "live_classes": "Live, interactive classes with a real instructor, never pre-recorded videos.",
+    "small_batches": "Small batches only: group classes are capped at 10 students, with mini-batch (3 to 4 students) and personal 1-on-1 options.",
+    "structured_curriculum": "A structured, well-paced curriculum taught step by step, with hands-on practice in every session.",
+    "doubt_support": "Doubt support between classes over WhatsApp, so you are never left stuck.",
+    "certificate": "A course-completion certificate you can share.",
+    "free_demo": "A free demo class before you enrol, so you can decide with no pressure."
+  },
+  "faqs": [
+    {
+      "question": "Is 5 really old enough for abacus classes?",
+      "answer": "Yes, provided the class is built for that age, and this one is: short activity blocks, bead races instead of lectures, and a teacher watching each child's fingers on camera. A 5-year-old needs to count to 10 and sit for a game-length activity; that is the whole entry bar. For the youngest children we ask a parent to stay nearby for the first few weeks, mostly to help with camera angles and finding dropped beads."
+    },
+    {
+      "question": "Does abacus training increase IQ or develop the brain?",
+      "answer": "We do not make those claims. What we can show you is what the course actually builds: arithmetic fluency, solid number bonds and place value, mental calculation through anzan, and a daily practice habit, all documented in each child's row book and dictation scores. Those are real and worth eight months. Grander claims about IQ belong to marketing, not to our classroom."
+    },
+    {
+      "question": "Which abacus does my child need, and is it expensive?",
+      "answer": "A standard 17-rod student abacus in the soroban style: one bead above the bar worth 5, four below worth 1 each. It typically costs a few hundred rupees online or in a stationery shop, and we send parents a short buying guide before the first class so you get the right type. One abacus lasts the whole course and well beyond."
+    },
+    {
+      "question": "Will abacus methods confuse my child at school?",
+      "answer": "In our experience the two reinforce each other, because the abacus friend rules are exactly the number bonds schools drill: pairs that make 5 and pairs that make 10. A child carrying on the abacus is doing the same regrouping school column methods use, just physically. We name that connection in class so children see one maths, not two competing systems."
+    },
+    {
+      "question": "When does my child start doing sums mentally?",
+      "answer": "Anzan begins in month 5, after four months of physical bead fluency, and starts tiny: two-number rows with the answer checked on the real abacus. By the end of the course most children handle rows of four or five one-digit numbers mentally, and stronger picture-holders manage two-digit rows. The pace genuinely varies by child, which is why row length only increases when accuracy holds."
+    },
+    {
+      "question": "How do live online classes work for children this young?",
+      "answer": "Classes run 45 to 60 minutes in short blocks: a warm-up game, a new bead rule, drills, a race or dictation round, and a calm close. Batches are capped at 10 so the teacher can watch every child's abacus and fingers on camera, and correct technique before a habit sets. Parents of the youngest children sit nearby at first; most find they are not needed within a few weeks."
+    },
+    {
+      "question": "How much home practice is expected?",
+      "answer": "Ten to fifteen minutes a day, logged in a row book the child keeps. At this age short daily practice beats long weekend sessions by a wide margin, and the routine itself, sitting down for ten focused minutes, is one of the most useful things the course leaves behind. Parents mostly just call out numbers for dictation rows; no maths knowledge is needed to help."
+    },
+    {
+      "question": "What does the course cost?",
+      "answer": "₹1,499 per month for group classes with 2 live classes weekly and at most 10 students per batch. Mini batches of 3 to 4 students are ₹2,499 per month, and personal 1-on-1 classes are ₹4,999 per month. International students pay $100 per month for group classes and $150 per month for 1-on-1."
+    },
+    {
+      "question": "Can we try a class before enrolling?",
+      "answer": "Yes, the first demo class is free and carries no obligation. Book it at learn.modernagecoders.com/contact or message us on WhatsApp at +91 91233 66161. Bring the child, with or without an abacus, and the teacher will tell you honestly whether they are ready now or better served starting in a few months."
+    }
+  ]
+}
