@@ -199,7 +199,7 @@
         href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
     <!-- Editorial theme (shared) + Courses page styles. No legacy CSS. -->
     <link rel="stylesheet" href="/css/editorial-theme.css?v=20260626g">
-    <link rel="stylesheet" href="/css/course-redesign.css?v=20260626c">
+    <link rel="stylesheet" href="/css/course-redesign.css?v=20260713a">
     <noscript><style>.section{opacity:1 !important;transform:none !important}</style></noscript>
     <script src="/js/ux-enhancements.js" defer></script>
     <script src="/js/hover-prefetch.js" defer></script>
@@ -1142,132 +1142,6 @@
             min-width: 52px !important;
             min-height: 52px !important;
         }
-    }
-
-    /* ============================================================
-       CORPORATE / CUSTOM-PROGRAM FORM  —  "Ledger & Proof" editorial
-       (Customized sub-tab.) Injected into #coursesGrid, so it must
-       span the full grid width; classes are scoped to the container.
-       ============================================================ */
-    .corporate-training-container {
-        grid-column: 1 / -1;
-        width: 100%;
-        max-width: 760px;
-        margin: .5rem auto 0;
-        padding: 0 .25rem;
-    }
-
-    .corporate-intro { text-align: center; margin-bottom: 2rem; }
-    .corporate-eyebrow {
-        display: inline-block;
-        font-family: var(--font-mono);
-        font-size: .72rem; letter-spacing: .18em; text-transform: uppercase;
-        color: var(--amber); font-weight: 600; margin-bottom: .6rem;
-    }
-    .corporate-title {
-        font-family: var(--font-display);
-        font-size: clamp(1.7rem, 3.4vw, 2.4rem);
-        font-weight: 600; color: var(--ink); line-height: 1.12; margin: 0 0 .7rem;
-    }
-    .corporate-subtitle {
-        color: var(--muted); font-size: 1.02rem; line-height: 1.65;
-        max-width: 52ch; margin: 0 auto;
-    }
-
-    .corporate-training-form {
-        background: var(--surface);
-        border: 1px solid var(--line);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow-sm);
-        padding: clamp(1.4rem, 3vw, 2.4rem);
-    }
-
-    .corporate-form-head {
-        text-align: center;
-        padding-bottom: 1.4rem; margin-bottom: 1.6rem;
-        border-bottom: 1px solid var(--line-2);
-    }
-    .corporate-training-container .form-title {
-        font-family: var(--font-display);
-        font-size: clamp(1.3rem, 2.4vw, 1.7rem);
-        font-weight: 600; color: var(--ink); margin: 0 0 .35rem;
-    }
-    .corporate-training-container .form-note {
-        color: var(--muted); font-size: .9rem; margin: 0;
-    }
-
-    .corporate-training-container .form-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1.1rem;
-        margin-bottom: 1.1rem;
-    }
-    .corporate-training-container .form-group { display: flex; flex-direction: column; min-width: 0; }
-    .corporate-training-container .form-group.full-width { grid-column: 1 / -1; }
-
-    .corporate-training-container label {
-        font-size: .8rem; font-weight: 600; color: var(--ink-soft);
-        margin-bottom: .45rem; letter-spacing: .01em;
-    }
-    .corporate-training-container input,
-    .corporate-training-container select,
-    .corporate-training-container textarea {
-        width: 100%;
-        font-family: var(--font-body); font-size: .95rem; color: var(--ink);
-        background: var(--paper);
-        border: 1px solid var(--line);
-        border-radius: 10px;
-        padding: .72rem .85rem;
-        transition: border-color .18s, box-shadow .18s, background .18s;
-    }
-    .corporate-training-container input::placeholder,
-    .corporate-training-container textarea::placeholder { color: #a59c90; }
-    .corporate-training-container input:focus,
-    .corporate-training-container select:focus,
-    .corporate-training-container textarea:focus {
-        outline: none;
-        border-color: var(--amber);
-        background: var(--surface);
-        box-shadow: 0 0 0 3px var(--amber-tint-2);
-    }
-    .corporate-training-container select {
-        cursor: pointer; appearance: none; -webkit-appearance: none;
-        padding-right: 2.4rem;
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23B45309'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
-        background-repeat: no-repeat; background-position: right .8rem center; background-size: 1.15rem;
-    }
-    .corporate-training-container textarea { resize: vertical; min-height: 110px; line-height: 1.55; }
-
-    .corporate-training-container .form-actions {
-        display: flex; flex-direction: column; align-items: center; gap: .7rem;
-        margin-top: 1.8rem;
-    }
-    .corporate-training-container .submit-btn {
-        appearance: none; border: none; cursor: pointer;
-        font-family: var(--font-body); font-size: 1rem; font-weight: 600;
-        color: #fff;
-        background: linear-gradient(135deg, var(--amber-bright), var(--amber-deep));
-        padding: .85rem 2.4rem; border-radius: 11px;
-        box-shadow: 0 8px 20px -8px rgba(143, 63, 8, .55);
-        transition: transform .18s, box-shadow .18s, opacity .18s;
-    }
-    .corporate-training-container .submit-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 14px 26px -10px rgba(143, 63, 8, .6);
-    }
-    .corporate-training-container .submit-btn:active { transform: translateY(0); }
-    .corporate-training-container .submit-btn:disabled { opacity: .6; cursor: progress; transform: none; box-shadow: none; }
-    .corporate-training-container .submit-btn:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; }
-    .corporate-training-container .form-reassure {
-        color: var(--muted); font-size: .82rem; margin: 0; text-align: center;
-    }
-
-    @media (max-width: 560px) {
-        .corporate-training-container .form-row { grid-template-columns: 1fr; gap: .95rem; }
-        .corporate-training-container .submit-btn { width: 100%; }
-    }
-    @media (prefers-reduced-motion: reduce) {
-        .corporate-training-container .submit-btn:hover { transform: none; }
     }
 </style>
 
