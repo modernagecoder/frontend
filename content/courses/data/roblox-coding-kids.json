@@ -490,7 +490,7 @@
   "prerequisites": {
     "coding_experience": "None. The course starts from placing the first part and writing the first line",
     "roblox_experience": "Helpful but not required. Most students have played Roblox; none have needed to",
-    "equipment": "A Windows or Mac computer that runs Roblox Studio, plus a stable internet connection. Tablets and phones cannot run Studio",
+    "equipment": "A Windows or Mac computer that runs Roblox Studio, plus a stable internet connection. Phones, tablets, and most Chromebooks cannot run Studio",
     "account": "A free Roblox account, set up with a parent. No Robux or paid membership is needed at any point"
   },
   "who_is_this_for": {
